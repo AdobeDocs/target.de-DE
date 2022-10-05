@@ -4,16 +4,23 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 99%
+source-wordcount: '1320'
+ht-degree: 96%
 
 ---
 
 # Dokumentationsänderungen
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
+
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (gestaffelte Version vom 5. bis 7. Oktober 2022)
+
+| Datum | Thema | Änderungen |
+| --- | --- | --- |
+| 4. Oktober | [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Neues Thema<br>Die Informationen in diesem Artikel ersetzen die *Adobe Target-Berechnungen für A/B-Tests* PDF-Datei, die zuvor auf dieser Website zum Download verfügbar war. |
+|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.10.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1 (gestaffelte Veröffentlichung vom 13. bis 15. September 2022)
 

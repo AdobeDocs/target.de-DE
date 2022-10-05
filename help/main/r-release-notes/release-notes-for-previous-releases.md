@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34600'
+source-wordcount: '34890'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,32 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2022
+
+### [!DNL Target] Standard/Premium 22.9.1 (gestaffelte Veröffentlichung vom 13. bis 15. September 2022)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **13. September**: Region Europa, Naher Osten und Afrika (EMEA)
+* **14. September**: Amerikanische Region
+* **15. September**: Region Asien-Pazifik (APAC)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
+* Aktualisierte Benachrichtigungen in der [!DNL Target]-Benutzeroberfläche, um Kundinnen und Kunden zu informieren, wenn der Import von [!DNL Recommendations]-Feeds fehlschlägt. (TGT-35811)
+* Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Entscheidungsangebote] innerhalb des [!UICONTROL Visual Experience Composer] (VEC) nicht richtig funktionierten. (TGT-43866)
+* Es wurde ein Problem behoben, durch das eine Fehlermeldung angezeigt wurde, wenn bei der Erstellung einer [!UICONTROL multivariaten Testaktivität] (MVT) das Konversionsziel [!UICONTROL Auf ein Element geklickt] ausgewählt wurde. (TGT-43842)
+* Es wurde ein Problem behoben, das die Anzeige der Spalte [!UICONTROL Impressions] in der heruntergeladenen CSV-Berichtsdatei für Aktivitäten der [!UICONTROL Automated Personalization] (AP) verhinderte. (TGT-43780)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, HTML/JSON-Angebote nach dem Duplizieren von Erlebnissen zu bearbeiten, wenn sie die [!UICONTROL Form-Based Experience Composer] verwendeten. (TGT-43633)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL A/B-Test]-Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen nicht standardmäßigen Arbeitsbereich zu kopieren. (TGT-41910)
+* Es wurde ein Problem behoben, um sicherzustellen, dass Kundinnen und Kunden die Verwendung von [!DNL Recommendations]-Objekten (Designs, Kriterien, Sammlungen etc.) in Aktivitäten zu [!UICONTROL A/B-Tests] und [!UICONTROL Experience Targeting] (XT), die Recommendations enthalten, korrekt anzeigen können, sowie Kriterienobjekte, die nicht mehr verwendet werden, aus [!DNL Target]-Benutzeroberfläche und [!DNL Recommendations]-Backend löschen können. (TGT-42331)
+* Es wurde ein Problem behoben, das beim Abrufen von Parametern zu einer Netzwerk-Timeout-Warnung in der [!DNL Target]-Benutzeroberfläche führte. (TGT-43737)
+* Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass bestimmte Drag-und-Drop-Aktionen auch über die Tastatur zugänglich sind. (TGT-42969)
+* Updates der Benutzeroberfläche, um sicherzustellen, dass Text-Zeichenfolgen richtig lokalisiert sind.
+
+### at.js-Version 2.10.0 (13. September 2022)
+
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine Option [!UICONTROL Domain-übergreifend] hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (gestaffelte Version vom 17.–18. August 2022)
 
@@ -127,7 +153,7 @@ Diese Version enthält die folgende Aktualisierung:
 Dieses Maintenance Release umfasst die folgenden Erweiterungen:
 
 * Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, damit ein in Japan häufig verwendeter Browsertyp zugelassen wird. (TNT-43867)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 

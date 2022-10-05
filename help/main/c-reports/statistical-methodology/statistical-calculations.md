@@ -3,18 +3,22 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1096'
 ht-degree: 2%
 
 ---
 
 # Statistische Berechnungen in A/Bn-Tests
 
-Auf dieser Seite werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target]. Definitionen werden für Konversionsrate, Konfidenzintervall der Konversionsrate, Steigerung, Konfidenzintervall für Steigerung und Konfidenz bereitgestellt.
+Auf dieser Seite werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target]. Definitionen werden für [!UICONTROL Konversionsrate], [!UICONTROL Konfidenzintervall der Konversionsrate], [!UICONTROL Steigerung], [!UICONTROL Konfidenzintervall für die Steigerung]und [!UICONTROL Konfidenz].
 
-![Target-Bericht, der die Konversionsrate, die durchschnittliche Steigerung und das Konfidenzintervall sowie die Konfidenz einer A/B-Test -Aktivität anzeigt.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+>[!NOTE]
+>
+>Die Informationen in diesem Artikel ersetzen die *Adobe Target-Berechnungen für A/B-Tests* PDF-Datei, die zuvor auf dieser Website zum Download verfügbar war.
+
+![Zielbericht mit [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall]und [!UICONTROL Konfidenz] einer A/B-Test -Aktivität.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Mittlere Leistung
 
@@ -36,15 +40,15 @@ Hier,
 
 * Summe über Einheiten *i* hängt von der Wahl der Zählmethode ab.
 
-   * Wenn *Besucher* als Zählmethodik verwendet wird, ist jede Einheit ein Unique Visitor, der für die gesamte Aktivitätsdauer als Unique Visitor definiert ist.
-   * Wenn *Besuche* als Zählmethodik verwendet wird, ist jede Einheit ein eindeutiger Besuch, der als eindeutiger Teilnehmer an einem Erlebnis während einer [!DNL Target] Sitzung (mit einer eindeutigen `sessionId`). Wenn die `sessionId` ändern oder der Besucher den Konversionsschritt erreicht, wird ein neuer Besuch gezählt.
-   * Wenn *Aktivitätsimpressionen* als Zählmethodik verwendet wird, ist jede Einheit eine eindeutige Impression, die definiert wird als jedes Mal, wenn ein Besucher eine Seite der Aktivität lädt.
+   * Wenn *[!UICONTROL Besucher]* als Zählmethodik verwendet wird, ist jede Einheit ein Unique Visitor, der für die gesamte Aktivitätsdauer als Unique Visitor definiert ist.
+   * Wenn *[!UICONTROL Besuche]* als Zählmethodik verwendet wird, ist jede Einheit ein eindeutiger Besuch, der als eindeutiger Teilnehmer an einem Erlebnis während einer [!DNL Target] Sitzung (mit einer eindeutigen `sessionId`). Wenn die `sessionId` ändern oder der Besucher den Konversionsschritt erreicht, wird ein neuer Besuch gezählt.
+   * Wenn *[!UICONTROL Aktivitätsimpressionen]* als Zählmethodik verwendet wird, ist jede Einheit eine eindeutige Impression, die definiert wird als jedes Mal, wenn ein Besucher eine Seite der Aktivität lädt.
 
-## Konfidenzintervall der mittleren/Konversionsrate
+## [!UICONTROL Konfidenzintervall des Mittelwerts]/[!UICONTROL Konversionsrate]
 
 Das Konfidenzintervall der Konversionsrate wird intuitiv als Bereich möglicher Konversionsraten definiert, der mit den zugrunde liegenden Daten übereinstimmt.
 
-Beim Ausführen von Experimenten ist die Konversionsrate, die wir für ein bestimmtes Erlebnis beobachten, eine *Schätzung* der &quot;true&quot;-Konversionsrate. Um die Unsicherheit in dieser Schätzung zu quantifizieren, können wir ein Konfidenzintervall verwenden. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass langfristig 95 % der berechneten Konfidenzintervalle die wahre Konversionsrate des Erlebnisses enthalten.
+Beim Ausführen von Experimenten ist die Konversionsrate für ein bestimmtes Erlebnis ein *Schätzung* der &quot;true&quot;-Konversionsrate. Quantifizierung der Unsicherheit in dieser Schätzung, [!DNL Target] verwendet ein Konfidenzintervall. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass langfristig 95 % der berechneten Konfidenzintervalle die wahre Konversionsrate des Erlebnisses enthalten.
 
 Ein Konfidenzintervall von 95 % der Konversionsrate *μ<sub>ν</sub>* wird als Wertebereich definiert:
 
@@ -64,7 +68,7 @@ Beachten Sie, dass bei einer Kampagne mit Konversionsrate (d. h. bei der Konvers
 
 ## Steigerung
 
-Die folgende Abbildung zeigt Steigerung und Konfidenzintervall der Steigerung in einer [!DNL Target] Bericht. Die Zahl stellt den Durchschnittswert des Bereichs der Steigerungsgrenzen dar, und der Pfeil spiegelt wider, ob die Steigerung positiv oder negativ ist. Der Pfeil wird grau angezeigt, bis die Konfidenz 95 % überschreitet. Nachdem die Konfidenz den Schwellenwert überschritten hat, ist der Pfeil basierend auf einer positiven oder negativen Steigerung grün oder rot.
+Die folgende Abbildung zeigt [!UICONTROL Steigerung] und [!UICONTROL Konfidenzintervall der Steigerung] in [!DNL Target] Bericht. Die Zahl stellt den Durchschnittswert des Bereichs der Steigerungsgrenzen dar, und der Pfeil spiegelt wider, ob die Steigerung positiv oder negativ ist. Der Pfeil wird grau angezeigt, bis die Konfidenz 95 % überschreitet. Nachdem die Konfidenz den Schwellenwert überschritten hat, ist der Pfeil basierend auf einer positiven oder negativen Steigerung grün oder rot.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -80,9 +84,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 Wenn die Konversionsrate des Kontrollerlebnisses *ν<sub>0</sub>* den Wert 0 hat, ist keine Steigerung vorhanden.
 
-## Konfidenzintervall der Steigerung
+## [!DNL Confidence Interval of Lift]
 
-Das Boxplotdiagramm im [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall] -Spalte stellt den Durchschnittswert und das Konfidenzintervall von 95 % der Steigerung dar. Das Boxplotdiagramm ist grau, wenn sich das Konfidenzintervall eines bestimmten Nicht-Kontrollerlebnisses mit dem Konfidenzintervall des Kontrollerlebnisses überschneidet, und grün oder rot, wenn das Konfidenzintervall des jeweiligen Erlebnisses über oder unter dem Konfidenzintervall des Kontrollerlebnisses liegt.
+Das Boxplotdiagramm im [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall] -Spalte entspricht dem Durchschnittswert und 95 % [!UICONTROL Konfidenzintervall der Steigerung]. Das Boxplotdiagramm ist grau, wenn sich das Konfidenzintervall eines bestimmten Nicht-Kontrollerlebnisses mit dem Konfidenzintervall des Kontrollerlebnisses überschneidet, und grün oder rot, wenn das Konfidenzintervall des jeweiligen Erlebnisses über oder unter dem Konfidenzintervall des Kontrollerlebnisses liegt.
 
 Der Standardfehler der Steigerung zwischen einem Erlebnis  *ν* und das Kontrollerlebnis  *ν<sub>0</sub>* definiert als:
 
@@ -94,9 +98,9 @@ Anschließend ist das 95% Konfidenzintervall der Steigerung:
 
 Diese Berechnung verwendet die Delta-Methode und wird beschrieben. [Weitere Informationen finden Sie in diesem Dokument .](/help/main/assets/confidence_interval_lift.pdf)
 
-## Konfidenz
+## [!UICONTROL Konfidenz]
 
-Die letzte Spalte zeigt die Konfidenz in einer [!DNL Target] Bericht. Die Konfidenz eines Erlebnisses ist eine Wahrscheinlichkeit (als Prozentsatz bezeichnet), ein Ergebnis zu erzielen, das weniger extrem ist als das, das tatsächlich beobachtet wird, wenn die Null-Hypothese wahr ist. In Bezug auf p-Werte lautet die angezeigte Konfidenz *1 - p-Wert*. Intuitiv bedeutet höhere Konfidenz, dass es weniger wahrscheinlich ist, dass das Kontroll- und Nicht-Kontrollerlebnis über gleiche Konversionsraten verfügt.
+Die letzte Spalte zeigt die Konfidenz in einer [!DNL Target] Bericht. Die Konfidenz eines Erlebnisses ist eine Wahrscheinlichkeit (als Prozentsatz bezeichnet), ein Ergebnis zu erzielen, das weniger extrem ist als das tatsächlich beobachtete Ergebnis, da die Null-Hypothese wahr ist. In Bezug auf p-Werte lautet die angezeigte Konfidenz *1 - p-Wert*. Intuitiv bedeutet höhere Konfidenz, dass es weniger wahrscheinlich ist, dass das Kontroll- und Nicht-Kontrollerlebnis über gleiche Konversionsraten verfügt.
 
 In [!DNL Target], einem zweiseitigen **Welch&#39;s t-Test** wird zwischen dem Testerlebnis und dem Kontrollerlebnis ausgeführt, um zu testen, ob die Test- und Kontrollerlebnisse identisch sind. Weil wir normalerweise nicht wissen, ob Stichprobengrößen und Varianzen von zwei Gruppen vor dem Experiment identisch sind, und [!DNL Target] ermöglicht Ihnen auch, ungleiche Traffic-Prozentsätze an jedes Erlebnis zu senden. Wir gehen nicht davon aus, dass die Varianz für jedes Erlebnis gleich ist. So wird Welchs t-Test anstelle des Student-T-Tests gewählt.
 
@@ -126,7 +130,7 @@ Dann kann der p-Wert aus dem Bereich in den Tails der *t*-distribution:
 
 <p style="text-align:center;"><img width="20%" src="img/p_value.png"></p>
 
-Schließlich wird die unter [!DNL Target] definiert als:
+Schließlich wurde die in [!DNL Target] definiert als:
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
 
