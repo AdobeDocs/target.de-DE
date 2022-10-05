@@ -5,9 +5,9 @@ title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4593'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -119,9 +119,9 @@ In der Benutzeroberfläche von [!DNL Target] können Benutzer nicht unterstützt
 
 Eine Liste der unterstützten und nicht unterstützten Zielmetriken finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Traffic-Verteilung von [!DNL Auto-Allocate] Aktivitäten mit A4T {#aa-a4t}
+### Traffic-Verteilung von [!DNL Auto-Allocate]-Aktivitäten mit A4T {#aa-a4t}
 
-In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an Traffic durch wiederkehrende Besucher auf. (Die 131 populärsten)
+In einigen Fällen kann die Traffic-Verteilung von [!UICONTROL Aktivitäten mit automatischer Zuordnung], die [!UICONTROL Analytics for Target] (A4T) verwenden, von der gemeldeten Konversionsrate der einzelnen Erlebnisse abweichen. Dies tritt häufiger bei Aktivitäten mit einem hohen Anteil an Traffic durch wiederkehrende Besucher auf. (TOP-131)
 
 ### at.js
 
@@ -155,9 +155,9 @@ Dieses Problem wurde im Januar 2022 behoben. (TNT-37455)
 
 Wenn Sie eine Vorlagenregel hinzufügen, z. B. URL enthält (/Checkout, /Warenkorb), werden Ihren Regeln im [Seitenversand](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), zusätzliche Leerzeichen vorangestellt. Diese zusätzlichen Leerzeichen haben einen rein kosmetischen Zweck und wirken sich nicht auf die Erstellung von Zielgruppen und die Bereitstellung von Angeboten aus. (TGT-35920)
 
-### Bildangebote mit der Bezeichnung &quot;Verarbeitung&quot;
+### Bildangebote mit der Kennzeichnung „Verarbeitung läuft“
 
-Bildangebote auf der Seite Angebote behalten manchmal mehrere Stunden nach dem Hochladen der Bilder die Bezeichnung &quot;Verarbeitung&quot;bei. In den meisten Fällen handelt es sich jedoch nur um ein Problem mit der Bezeichnung. Die Bildangebote können dennoch in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
+Bildangebote auf der Seite „Angebote“ behalten manchmal die Kennzeichnung „Verarbeitung läuft“ für mehrere Stunden nach dem Hochladen der Bilder bei. In den meisten Fällen handelt es sich jedoch nur um ein Problem mit der Bezeichnung. Die Bildangebote können dennoch in Aktivitäten verwendet und bereitgestellt werden. (MCUI-10264, TGT-37458)
 
 Dieses Problem wurde in der Standard- und Premium-Version von Target 20.10.1 behoben.
 
@@ -194,7 +194,7 @@ Bei Fragen wenden Sie sich an Ihren Kundenbetreuer (CSM) oder an die [Adobe-Kund
 
 ### Berichte für automatisches Targeting {#at-metrics}
 
-Es wurde ein Problem behoben, das Auswirkungen hatte [!DNL Adobe Target Premium] user&#39; [!UICONTROL Automatisches Targeting] Berichterstellung ab 15. September, 14:30 Uhr. (PDT) bis 6. Oktober, 9:25 Uhr (PDT). Beim Anzeigen von Berichten für die betroffenen Konversionsmetriken (konfiguriert mit der[!UICONTROL Seite anzeigen]&quot; oder &quot;[!UICONTROL Auf mbox geklickt]&quot;), werden die Konversionsraten falsch gemeldet. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
+Ein Problem, das sich bei [!DNL Adobe Target Premium]-Benutzenden zwischen dem 15. September, 14.30 Uhr (PDT), und dem 6. Oktober, 9.25 Uhr (PDT), auf das Reporting zum [!UICONTROL automatischen Targeting] auswirkte, wurde behoben. In den Berichten mit den betroffenen Konversionsmetriken (konfiguriert mit [!UICONTROL Angezeigte Seite] oder [!UICONTROL Auf mbox geklickt]) werden die Konversionsraten nicht korrekt angezeigt. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
 
 So synchronisieren und korrigieren Sie die Berichte:
 
@@ -230,7 +230,7 @@ Dieses Problem wurde behoben.
 
 ### Bei Verwendung von Google Chrome ab Version 80 werden Seiten in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) nicht geladen
 
-Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor der Änderung hat Chrome alle Cookies ohne SameSite-Attribut auf &quot;SameSite=None&quot;gesetzt und jetzt standardmäßig auf &quot;SameSite=Lax&quot;gesetzt. Dadurch wird die Art und Weise geändert, wie Cookies bei GET- und POST-Anforderungen gesendet werden. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
+Dieses bekannte Problem hat seine Ursache in der Entscheidung von Google, das Standardverhalten von Cookies ohne SameSite-Attribut ab Chrome Version 80 zu ändern. Vor dieser Änderung lautete der Standardwert in Chrome für alle Cookies ohne SameSite-Attribut „SameSite=None“. Jetzt ist der Standardwert „SameSite=Lax“, wodurch sich die Art und Weise ändert, wie Cookies bei GET- und POST-Anfragen gesendet werden. Weitere Informationen finden Sie unter [SameSite-Updates](https://www.chromium.org/updates/same-site).
 
 Weitere Informationen sowie eine Lösung zur Fehlerbehebung finden Sie unter [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) unter der Frage „Wie wirken sich die kürzlich von Google Chrome angekündigten Cookie-Durchsetzungsrichtlinien für SameSite auf VEC und EEC aus?“.
 
@@ -402,7 +402,7 @@ In der at.js-Version 0.9.7, die am 22. Mai 2017 veröffentlicht wurde, ist die
 
 ### Berichterstattung: A/B- und Experience Targeting (XT)-Aktivitäten
 
-Zwischen dem 27. April um 21:00 Uhr PST und dem 5. Mai um 6:00 Uhr PST haben die Aktivitäten A/B und XT, die mit Metriken erstellt oder bearbeitet wurden, die die Konversionsaktion &quot;Angezeigte Seite&quot;verwenden (die nicht auf anderen Metriken basieren), möglicherweise falsche Konversionen aufgezeichnet. Dieses Problem wurde nun behoben. Die Berichterstellung für die Konversionsaktion &quot;Angezeigte Seite&quot;für diese Aktivitäten im betroffenen Zeitraum ist jedoch möglicherweise nicht korrekt und kann leider nicht korrigiert werden. Es wird empfohlen, bei allen Entscheidungen, die auf Konversionsaktionen für diese Aktivitäten mit &quot;Angezeigte Seite&quot;basieren, nur Daten zu verwenden, die vor oder nach dem betroffenen Zeitraum aufgezeichnet wurden.
+Zwischen dem 27. April um 21:00 Uhr PST und dem 5. Mai um 6:00 Uhr PST enthielten A/B- und XT-Aktivitäten, die mit einer beliebigen Metrik und der Konversionsaktion „Angezeigte Seite“ (die nicht auf anderen Metriken basieren) erstellt oder bearbeitet wurden, möglicherweise falsch erfasste Konversionen. Dieses Problem wurde nun behoben. Jedoch ist das Reporting für die Konversionsaktion „Angezeigte Seite“ zu diesen Aktivitäten während des betroffenen Zeitraums möglicherweise nicht korrekt und leider nicht korrigierbar. Es wird empfohlen, sich bei Entscheidungen auf der Grundlage von Konversionsaktionen vom Typ „Angezeigte Seite“ ausschließlich auf Daten zu stützen, die vor oder nach dem betroffenen Zeitraum aufgezeichnet wurden.
 
 Berichterstellungsdaten für andere Metriken können weiterhin verwendet werden, weil sie nicht betroffen waren.
 
