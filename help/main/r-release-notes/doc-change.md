@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
 source-wordcount: '1320'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (gestaffelte Version vom 5. bis 7. Oktober 2022)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (gestaffelte Veröffentlichung vom 5. bis 7. Oktober 2022)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 3. Oktober | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten für die [!DNL Target Standard/Premium] Version 2.10.1. |
-| 22. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (28. September 2022)</li></ul> |
+| 22. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Community Coffee Break mit Fragen und Antworten (28. September 2022)</li></ul> |
 | 15. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zum folgenden Webinar wurden hinzugefügt:<ul><li>Anpassung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)</li></ul> |
 | 13. September | [Die Benutzeroberfläche von  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Es wurden Informationen über Benachrichtigungen hinzugefügt, wenn ein [!DNL Recommendations]-Feed fehlschlägt. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.9.1 von [!DNL Target Standard/Premium] hinzugefügt. |
