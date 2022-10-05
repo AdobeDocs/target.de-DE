@@ -3,7 +3,7 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Statistische Berechnungen in A/Bn-Tests
 
-Auf dieser Seite werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target]. Definitionen werden für [!UICONTROL Konversionsrate], [!UICONTROL Konfidenzintervall der Konversionsrate], [!UICONTROL Steigerung], [!UICONTROL Konfidenzintervall für die Steigerung]und [!UICONTROL Konfidenz].
+In diesem Artikel werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target]. Definitionen werden für [!UICONTROL Konversionsrate], [!UICONTROL Konfidenzintervall der Konversionsrate], [!UICONTROL Steigerung], [!UICONTROL Konfidenzintervall für die Steigerung]und [!UICONTROL Konfidenz].
 
 >[!NOTE]
 >
