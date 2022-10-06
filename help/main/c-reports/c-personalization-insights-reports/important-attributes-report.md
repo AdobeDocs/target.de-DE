@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die [!UICONTROL Wichtige Attribute] -Bericht,
 title: Was ist der Bericht "Wichtige Attribute"?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 1. 15 Tage nach der Aktivierung der Aktivität klicken Sie auf das **[!UICONTROL Wichtige Attribute]** Symbol.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Symbol &quot;Wichtige Attribute&quot;in einem Adobe Target-Bericht](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Wählen Sie den gewünschten Datumsbereich aus.
 
@@ -66,15 +66,15 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
    Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Kalender in einem Adobe Target-Bericht](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Sie können über die Dropdownliste [!UICONTROL „Dauer auswählen“] auf die verfügbaren festen Datumsbereiche zugreifen.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Dropdownliste &quot;Dauer&quot;in einem Bericht auswählen](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Überprüfen Sie die Daten des Berichts [!UICONTROL „Wichtige Attribute“].
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Bericht &quot;Wichtige Attribute&quot;in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Optional) [Laden Sie den Bericht im CSV-Format herunter](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF), um ihn in Excel und anderen Tools zu analysieren.
 

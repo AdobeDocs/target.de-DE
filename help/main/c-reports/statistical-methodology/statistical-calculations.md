@@ -3,9 +3,9 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -48,21 +48,21 @@ Hier,
 
 Das Konfidenzintervall der Konversionsrate wird intuitiv als Bereich möglicher Konversionsraten definiert, der mit den zugrunde liegenden Daten übereinstimmt.
 
-Beim Ausführen von Experimenten ist die Konversionsrate für ein bestimmtes Erlebnis ein *Schätzung* der &quot;true&quot;-Konversionsrate. Quantifizierung der Unsicherheit in dieser Schätzung, [!DNL Target] verwendet ein Konfidenzintervall. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass langfristig 95 % der berechneten Konfidenzintervalle die wahre Konversionsrate des Erlebnisses enthalten.
+Beim Ausführen von Experimenten ist die Konversionsrate für ein bestimmtes Erlebnis ein *Schätzung* der &quot;true&quot;-Konversionsrate. Quantifizierung der Unsicherheit in dieser Schätzung, [!DNL Target] verwendet ein Konfidenzintervall. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass am Ende 95 % der berechneten Konfidenzintervalle die wahre Konversionsrate des Erlebnisses enthalten.
 
 Ein Konfidenzintervall von 95 % der Konversionsrate *μ<sub>ν</sub>* wird als Wertebereich definiert:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-wobei der Standardfehler für den Mittelwert als
+Dabei wird der Standardfehler für den Mittelwert wie folgt definiert:
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-wenn eine unvoreingenommene Schätzung der Standardabweichung der Stichprobe verwendet wird:
+Wird eine unvoreingenommene Schätzung der Standardabweichung der Stichprobe verwendet:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-Beachten Sie, dass bei einer Kampagne mit Konversionsrate (d. h. bei der Konversionsmetrik handelt es sich um eine binäre Kampagne) der Standardfehler auf Folgendes reduziert wird:
+Wenn es sich bei der Kampagne um eine Konversionsratenkampagne handelt (d. h. die Konversionsmetrik ist binär), reduziert sich der Standardfehler auf:
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -86,7 +86,7 @@ Wenn die Konversionsrate des Kontrollerlebnisses *ν<sub>0</sub>* den Wert 0 hat
 
 ## [!DNL Confidence Interval of Lift]
 
-Das Boxplotdiagramm im [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall] -Spalte entspricht dem Durchschnittswert und 95 % [!UICONTROL Konfidenzintervall der Steigerung]. Das Boxplotdiagramm ist grau, wenn sich das Konfidenzintervall eines bestimmten Nicht-Kontrollerlebnisses mit dem Konfidenzintervall des Kontrollerlebnisses überschneidet, und grün oder rot, wenn das Konfidenzintervall des jeweiligen Erlebnisses über oder unter dem Konfidenzintervall des Kontrollerlebnisses liegt.
+Das Boxplotdiagramm im [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall] -Spalte entspricht dem Durchschnittswert und 95 % [!UICONTROL Konfidenzintervall der Steigerung]. Das Boxplot ist grau, wenn es eine Überschneidung des Konfidenzintervalls eines bestimmten Nicht-Kontrollerlebnisses mit dem Konfidenzintervall des Kontrollerlebnisses gibt. Das Boxplot ist grün oder rot, wenn der Bereich des Konfidenzintervalls des jeweiligen Erlebnisses über oder unter dem Konfidenzintervall des Kontrollerlebnisses liegt.
 
 Der Standardfehler der Steigerung zwischen einem Erlebnis  *ν* und das Kontrollerlebnis  *ν<sub>0</sub>* definiert als:
 
@@ -100,7 +100,7 @@ Diese Berechnung verwendet die Delta-Methode und wird beschrieben. [Weitere Info
 
 ## [!UICONTROL Konfidenz]
 
-Die letzte Spalte zeigt die Konfidenz in einer [!DNL Target] Bericht. Die Konfidenz eines Erlebnisses ist eine Wahrscheinlichkeit (als Prozentsatz bezeichnet), ein Ergebnis zu erzielen, das weniger extrem ist als das tatsächlich beobachtete Ergebnis, da die Null-Hypothese wahr ist. In Bezug auf p-Werte lautet die angezeigte Konfidenz *1 - p-Wert*. Intuitiv bedeutet höhere Konfidenz, dass es weniger wahrscheinlich ist, dass das Kontroll- und Nicht-Kontrollerlebnis über gleiche Konversionsraten verfügt.
+Die letzte Spalte zeigt die Konfidenz in einer [!DNL Target] Bericht. Die Konfidenz eines Erlebnisses ist eine Wahrscheinlichkeit (als Prozentsatz bezeichnet), ein Ergebnis zu erzielen, das weniger extrem ist als das beobachtete Ergebnis, da die Null-Hypothese wahr ist. In Bezug auf p-Werte lautet die angezeigte Konfidenz *1 - p-Wert*. Intuitiv bedeutet höhere Konfidenz, dass es weniger wahrscheinlich ist, dass das Kontroll- und Nicht-Kontrollerlebnis über gleiche Konversionsraten verfügt.
 
 In [!DNL Target], einem zweiseitigen **Welch&#39;s t-Test** wird zwischen dem Testerlebnis und dem Kontrollerlebnis ausgeführt, um zu testen, ob die Test- und Kontrollerlebnisse identisch sind. Weil wir normalerweise nicht wissen, ob Stichprobengrößen und Varianzen von zwei Gruppen vor dem Experiment identisch sind, und [!DNL Target] ermöglicht Ihnen auch, ungleiche Traffic-Prozentsätze an jedes Erlebnis zu senden. Wir gehen nicht davon aus, dass die Varianz für jedes Erlebnis gleich ist. So wird Welchs t-Test anstelle des Student-T-Tests gewählt.
 
@@ -110,17 +110,17 @@ Die *t*-statistic ist definiert als die Differenz der Mittel zweier unabhängige
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-where *μ<sub>v</sub>* und *μ<sub>v0</sub>* sind die Mittel *ν*  und *ν<sub>0</sub>* bzw. der Standardfehler der Differenz zwischen *μ<sub>v</sub>* und *μ<sub>v0</sub>* werden angegeben durch:
+Wo *μ<sub>v</sub>* und *μ<sub>v0</sub>* sind die Mittel *ν*  und *ν<sub>0</sub>* bzw. der Standardfehler der Differenz zwischen *μ<sub>v</sub>* und *μ<sub>v0</sub>* werden angegeben durch:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-where *σ<sup>2</sup><sub>v</sub>* und *σ<sup>2</sup><sub>v<sub>0</sub></sub>* sind die Varianzen von zwei Erlebnissen *ν*  und *ν<sub>0</sub>* bzw. *N<sub>v</sub>* und *N<sub>v<sub>0</sub></sub>* sind Stichprobengrößen für *ν* und *ν<sub>0</sub>* bzw.
+Wo *σ<sup>2</sup><sub>v</sub>* und *σ<sup>2</sup><sub>v<sub>0</sub></sub>* sind die Varianzen von zwei Erlebnissen *ν*  und *ν<sub>0</sub>* bzw. *N<sub>v</sub>* und *N<sub>v<sub>0</sub></sub>* sind Stichprobengrößen für *ν* und *ν<sub>0</sub>* bzw.
 
 Für Welch-t-Tests wird der Freiheitsgrad wie folgt berechnet:
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-und des Freiheitsgrads *ν*  und *ν<sub>0</sub>* werden definiert als:
+Und der Grad der Freiheit für *ν*  und *ν<sub>0</sub>* werden definiert als:
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 

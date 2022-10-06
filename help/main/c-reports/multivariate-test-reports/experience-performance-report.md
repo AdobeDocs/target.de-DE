@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den Experience Performance-Bericht für die A
 title: Wie verwende ich den Experience Performance-Bericht für Multivarianz-Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Der Experience Performance-Bericht zeigt, wie die einzelnen Erlebnisse in der Ak
 
 Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau]**, um das Erlebnis in einer Registerkarte des Browsers zu öffnen.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Experience Performance-Bericht in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 
