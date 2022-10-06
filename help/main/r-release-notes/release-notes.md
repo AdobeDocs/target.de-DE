@@ -5,7 +5,7 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 81%
@@ -18,13 +18,13 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.10.1 (gestaffelte Veröffentlichung vom 6. bis 10. Oktober 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (gestaffelte Veröffentlichung vom 10. bis 13. Oktober 2022)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **6. Oktober**: Region Nord- und Südamerika
-* **7. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
 * **10. Oktober**: Region Asien-Pazifik (APAC)
+* **12. Oktober**: Region Nord- und Südamerika
+* **13. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
