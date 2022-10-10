@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 86%
+source-wordcount: '869'
+ht-degree: 80%
 
 ---
 
@@ -106,7 +106,7 @@ Sollte weder Visual Experience Composer noch Enhanced Experience Composer funkti
 
 Öffnen Sie Target, nachdem Sie eine der Erweiterungen eingerichtet haben. Ihre Seiten sollten nun in Visual Experience Composer geladen werden, selbst wenn Enhanced Experience Composer deaktiviert ist.
 
-## Meine Seite wird im VEC nicht angezeigt (nur VEC)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Meine Seite wird im VEC nicht angezeigt (nur VEC)  {#does-not-load}
 
 * Der Browser wird nicht unterstützt.
 * Der Browser blockiert eine nicht sichere Seite auf einer sicheren Site.
@@ -115,7 +115,11 @@ Sollte weder Visual Experience Composer noch Enhanced Experience Composer funkti
 * Sie haben eine ungültige URL eingegeben.
 * Sie haben auf Ihrer Konto-Einrichtungsseite keine Standard-URL eingegeben.
 
-Stellen Sie sicher, dass diese Einstellung aktiviert ist, laden Sie dann at.js herunter und aktualisieren Sie es auf Ihrer Website.
+   Stellen Sie sicher, dass diese Einstellung aktiviert ist, laden Sie dann at.js herunter und aktualisieren Sie es auf Ihrer Website.
+
+* Wenn Sie versuchen, die [new [!UICONTROL Visual Editing Helper] Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) und gehen Sie dann zurück zu [alte Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) und [!DNL Target] schlägt das Laden Ihrer Website fehl, löschen Sie alle Browserdaten und deaktivieren Sie die neue Erweiterung.
+
+* Wenn Ihre Website im VEC nicht geladen werden kann oder sich unerwartet verhält, besteht die Möglichkeit, Cookies auf Ihrer Website im Browser zu akzeptieren, bevor versucht wird, die Website in zu laden [!DNL Target].
 
 ## Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren. (Nur VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
