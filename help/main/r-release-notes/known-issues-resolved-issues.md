@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
-source-wordcount: '4593'
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+workflow-type: tm+mt
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöh
 Wenn Sie in Analysis Workspace Target-Aktivitätsimpressionen und -konversionen verwenden, sollten Sie auf die Metriken das Attribution IQ-Modell „Selber Kontakt“ anwenden, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=de) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
 
 Alle aktuellen Analytics-Pakete können dieses Modell mit Attribution IQ hinzufügen. Falls Sie keinen Zugriff auf Attribution IQ haben, greifen Sie auf die A4T-Daten in Reports &amp; Analytics zurück.
-
-### Berichte – Die Daten des herunterladbaren CSV-Berichts sind mit den in der [!DNL Target]-Benutzeroberfläche angezeigten Berichtsdaten nicht identisch {#csv}
-
-Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus.
-
-Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] angezeigte Bericht.
 
 ## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

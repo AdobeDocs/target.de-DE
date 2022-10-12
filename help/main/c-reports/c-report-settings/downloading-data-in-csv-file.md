@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Daten von Adobe herunterladen können. [!DNL 
 title: Wie lade ich Berichtsdaten in eine CSV-Datei herunter?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 83%
+source-wordcount: '727'
+ht-degree: 54%
 
 ---
 
@@ -29,9 +29,9 @@ So laden Sie Daten als CSV-Datei herunter:
 
    ![Download-Optionen](/help/main/c-reports/assets/download-options.png)
 
-## Exportieren von Berichten in das CSV-Format {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Exportieren von Berichten in das CSV-Format] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-Im Erfolgsmetrikbericht finden Sie Informationen zu Ihren Erfolgsmetriken sowie zu folgenden Metriken, die nicht in der Benutzeroberfläche von Target zur Verfügung stehen:
+Die [!UICONTROL Erfolgsmetriken] zeigt Ihnen Informationen über Ihre Erfolgsmetriken und die folgenden Metriken an, die in der Variablen [!DNL Target] Benutzeroberfläche:
 
 * Durchschnittszeit bis zur Konversion in Stunden, sodass Sie sehen können, wie lange ein Besucher im Schnitt braucht, um den Konversionspunkt zu erreichen
 * Summe der Erträge im Quadrat zur Offline-Berechnung vor statistischer Genauigkeit
@@ -40,24 +40,24 @@ Die Daten werden bis zum Ende der Aktivität gespeichert.
 
 >[!NOTE]
 >
->Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Um diese berechneten Metriken zu berechnen, laden Sie die [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts oder zur Überprüfung [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>Der CSV-Bericht enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden. Um diese berechneten Metriken zu berechnen, laden Sie die [!DNL Target] [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts oder zur Überprüfung [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## Bestelldetails als CSV exportieren {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Bestelldetails als CSV exportieren] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Im Bestelldetailbericht finden Sie Informationen zu Ihren Bestellungen, darunter:
+Die [!UICONTROL Bestelldetails] zeigt Ihnen Informationen zu Ihren Bestellungen an, darunter:
 
 * Datum und Uhrzeit der Bestellung
 * Bestellmenge (wenn Sie eine Bestellaufgabe-Mbox eingefügt haben)
 
-   Der Bestellbericht funktioniert nur, wenn Sie über Bestellungen verfügen.
+   Die [!UICONTROL Bestelldetails] funktioniert nur, wenn Sie Bestellungen haben.
 
 * Bestellmarkierung (doppelte oder extreme Bestellungen)
 
-   Eine Bestellung wird als extrem gekennzeichnet, wenn in den Daten des letzten Monats mehr als +/- 3 Standardabweichungen vom durchschnittlichen Bestellwert vorliegen (bis zu dem Zeitpunkt, zu dem die Berechnung vorgenommen wurde). Bei einer Aktivität, die seit einer Stunde läuft oder bei der 15 Bestellungen eingegangen sind (je nachdem, was zuerst eintritt), werden die extremen Bestellungen automatisch ausgeschlossen. Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Eine Bestellung wird als extrem markiert, wenn sie mehr als +/- 3 Standardabweichungen vom durchschnittlichen Bestellwert aufweist. Bei dieser Berechnung wird der letzte Monat der Daten verwendet (bis zu dem Zeitpunkt, zu dem die Berechnung vorgenommen wurde). Bei einer Aktivität, die seit einer Stunde läuft oder bei der 15 Bestellungen eingegangen sind (je nachdem, was zuerst eintritt), werden die extremen Bestellungen automatisch ausgeschlossen. Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * Produkt-ID
 
-   Die Gesamtlänge von Produkt-IDs (mit Kommas verknüpft) sollte 255 Zeichen nicht überschreiten, damit die IDs korrekt im Bericht angezeigt werden. Wenn Ihr Auftrag Produkte mit den IDs „aa, bb“ enthält, ist die Gesamtlänge „aa,bb“, also 5 Zeichen.
+   Die Gesamtlänge von Produkt-IDs, die mit Kommas verknüpft sind, sollte 255 Zeichen nicht überschreiten, da die IDs im Bericht nicht richtig angezeigt werden. Wenn Ihr Auftrag Produkte mit den IDs „aa, bb“ enthält, ist die Gesamtlänge „aa,bb“, also 5 Zeichen.
 
 * Erlebnis
 
@@ -70,20 +70,21 @@ Im Bestelldetailbericht finden Sie Informationen zu Ihren Bestellungen, darunter
 >[!NOTE]
 >
 >* Zu den Daten des Bestellberichts gehören Daten aus vier Wochen für die Standardumgebung (Hostgruppe) und Daten aus zwei Wochen für alle nicht standardmäßigen Umgebungen.
->* Umsatzmetriken, die auf „Anzahl inkrementieren und Benutzer in der Aktivität beibehalten“ festgelegt sind, protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher aufgegeben wurde. Alle nachfolgenden Bestellungen erhöhen die Anzahl Konversionen, steigern den Umsatz von RPV/AOV/Vertrieb jedoch nicht und werden nicht in den Bestelldetailbericht aufgenommen.
+>* Umsatzmetriken, die auf &quot;[!UICONTROL Anzahl erhöhen und Benutzer in der Aktivität belassen]&quot; protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, führen jedoch nicht zu RPV/AOV/Sales und sind nicht in der Variablen [!UICONTROL Bestelldetails] Bericht.
 
 
-## Best Practices
+## Best Practices  
 
-* Zur Aufzeichnung eines Bestelldatensatzes muss der `orderTotal`-Parameter weitergegeben werden.
+* Um einen Bestelldatensatz aufzuzeichnen, muss die `orderTotal` -Parameter übergeben werden.
 * Werte, die über den `ProductPurchasedId`-Mbox-Parameter weitergegeben wurden, werden im Bestelldetailbericht aufgelistet.
-* Best Practice ist, eine `orderID` sowie eine `orderTotal` aufzunehmen. Dadurch können doppelte Bestellungen automatisch ignoriert werden.
+* Best Practice ist, eine `orderID` und `orderTotal`. Dadurch können doppelte Bestellungen automatisch ignoriert werden.
 
 ## Einschränkungen  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-Die folgenden Informationen gelten für den Download:
+Die folgenden Informationen gelten für die [!UICONTROL Download] Option:
 
-* Sie können beide Berichte für A/B-Test-, Automated Personalization-, Erlebnis-Targeting- und Multivarianz-Aktivitäten herunterladen. Sie können jedoch keinen Erfolgsmetrikenbericht für Recommendations-Aktivitäten herunterladen.
-* Die Option zum Herunterladen steht nicht für A/B- und Erlebniszielaktivitäten zur Verfügung, die vor der Target-Version 15.7.1 (Juli 2015) erstellt wurden.
+* Sie können beide Berichte herunterladen für [!UICONTROL A/B-Test], [!UICONTROL Automated Personalization], [!UICONTROL Erlebnis-Targeting]und [!UICONTROL Multivarianz] Aktivitäten. Sie können die [!UICONTROL Erfolgsmetriken] Bericht für [!UICONTROL Recommendations] Aktivitäten.
+* Die [!UICONTROL Download] ist nicht verfügbar für [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] Aktivitäten, die vor [!DNL Target] Version 15.7.1 (Juli 2015).
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
-* In der Reporting-Benutzeroberfläche von Target angewendete Zielgruppen werden nicht in den Download-Bericht übertragen.
+* In der [!DNL Target] Die Reporting-Benutzeroberfläche wird nicht in den Download-Bericht übertragen.
+* Berichte, die als CSV-Dateien zum Herunterladen generiert wurden, sind nicht konsistent, wenn die Aktivität mehr als eine Metrik verwendet. Der herunterladbare Bericht wird nur auf der Grundlage der Berichtseinstellungen generiert und geht bei allen anderen verwendeten Metriken von demselben Wert aus. Der korrekte Bericht ist immer der in der Benutzeroberfläche von [!DNL Target] angezeigte Bericht.
