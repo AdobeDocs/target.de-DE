@@ -5,9 +5,9 @@ title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,11 +109,11 @@ Klicken Sie auf **[!UICONTROL Vollständige Details anzeigen]**, um die Zielgrup
 
 Wird ein Profilskript deaktiviert, erscheint in der Target-Benutzeroberfläche neben dem betroffenen Skript ein gelbes Warnsymbol, wie unten dargestellt:
 
-![profile_script_invalid image](assets/profile_script_invalid.png)
+![profile_script_invalid Bild](assets/profile_script_invalid.png)
 
 Halten Sie den Mauszeiger darüber, werden Fehlerdetails angezeigt, wie unten dargestellt:
 
-![profile_script_hover image](assets/profile_script_hover.png)
+![profile_script_hover Bild](assets/profile_script_hover.png)
 
 Typische Gründe für die Deaktivierung von Profilskripten durch das System sind unter anderem folgende:
 
@@ -161,7 +161,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
    Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
 
-   ![debug_profile_script_1 image](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 Bild](assets/debug_profile_script_1.png)
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
@@ -171,13 +171,13 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
    Durch Hinzufügen dieser Parameter erhalten Sie etwas mehr Informationen als durch das Antwort-Token, da Sie hiermit einen Snapshot Ihres Profils vor und nach der Ausführung erhalten. Darüber hinaus zeigt es alle Ihre verfügbaren Profile an.
 
-   ![debug_profile_script_2 image](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2 Bild](assets/debug_profile_script_2.png)
 
 ## Häufig gestellte Fragen zu Profilskripten {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere    [Methoden, um Daten in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} zu importieren. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Methoden, um Daten in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} zu importieren. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
