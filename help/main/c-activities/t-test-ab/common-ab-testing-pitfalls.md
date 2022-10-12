@@ -5,9 +5,9 @@ title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ A/B-Tests in [!DNL Adobe Target] bilden das Rückgrat der meisten Programme zur 
 
 Wie wahrscheinlich ist es, dass Ihr Test einen signifikanten Unterschied der Konversionsrate zweier Angebote ergibt, wenn dieser tatsächlich nicht vorhanden ist? Diese Information liefert das *Signifikanzniveau* eines Tests. Solche irreführenden Ergebnisse werden oft als „falsch positiv“ bezeichnet und in der Welt der Statistik „Fehler 1. Art“ genannt (wenn Sie die in der Tat korrekte Nullhypothese fälschlicherweise zurückweisen).
 
-Wenn Sie das Signifikanzniveau eines A/B-Tests angeben, stecken Sie in einem Zwiespalt zwischen Ihrer Annahme, dass ein Erlebnis besser ist als das andere, obwohl das nicht wirklich zutrifft (Fehler 2. Art oder falsch positiv), und der Tatsache, dass Sie keinen statistischen Unterschied zwischen den Erlebnissen sehen, obwohl es tatsächlich einen echten Unterschied gibt (Fehler 2. Art oder falsch negativ). Das *Konfidenzniveau* wird ermittelt, bevor ein Test durchgeführt wird.
+Wenn Sie das Signifikanzniveau eines A/B-Tests angeben, stecken Sie in einem Zwiespalt zwischen Ihrer Annahme, dass ein Erlebnis besser ist als das andere, obwohl das nicht wirklich zutrifft (Fehler 1. Art oder falsch positiv), und der Tatsache, dass Sie keinen statistischen Unterschied zwischen den Erlebnissen sehen, obwohl es tatsächlich einen echten Unterschied gibt (Fehler 2. Art oder falsch negativ). Das *Konfidenzniveau* wird ermittelt, bevor ein Test durchgeführt wird.
 
 Das *Konfidenzintervall*, das nach Abschluss eines Tests bestimmt wird, wird von drei Schlüsselfaktoren beeinflusst: Stichprobenumfang des Tests, Signifikanzniveau und Populationsvarianz. Da der Marketer das Signifikanzniveau vor dem Entwerfen des Tests ausgewählt hat und die Populationsvarianz nicht beeinflusst werden kann, ist der einzige „kontrollierbare“ Faktor die Stichprobengröße. Der für ein Konfidenzintervall erforderliche Stichprobenumfang und die daraus resultierende Zeit, die benötigt wird, um diesen Stichprobenumfang zu erreichen, ist eine wichtige Entscheidung, die ein Marketer während des Testentwurfs treffen muss.
 
@@ -33,7 +33,7 @@ Marketingexperten verwenden in A/B-Tests häufig ein Konfidenzniveau von 95 %. G
 
 Die folgende Abbildung zeigt, dass mit der Anzahl der durchgeführten Tests die Wahrscheinlichkeit steigt, dass einer der Tests ein falsch-positives Ergebnis liefert. Wenn Sie z. B. 10 Tests mit einem Konfidenzniveau von 95 % durchführen, besteht eine Chance von rund 40 %, dass eines oder mehrere falsch-positive Ergebnisse gefunden werden (angenommen es gibt keine reale Steigerung: Pr(mindestens ein falsch-positives Ergebnis) = 1 - Pr(keine falsch-positiven Ergebnisse) = 1 - 0,95^10 = 40 %).
 
-![Fallstricke1 Bild](assets/pitfalls1.png)
+![pitfalls1 Bild](assets/pitfalls1.png)
 
 Im Fall einer Marketing-Organisation sind 95 % in der Regel ein vernünftiger Kompromiss zwischen dem Risiko einer falsch positiven und einer falsch negativen Entscheidung.
 
@@ -59,7 +59,7 @@ Es gibt jedoch zwei Situationen, in denen es sich lohnt, sehr genau auf das Konf
 
 Beim Testen mehrerer Angebote erklären Marketingexperten häufig das Angebot mit der höchsten Steigerung zum Gewinner des Tests, obwohl es keinen statistisch signifikanten Unterschied zwischen dem Gewinner und dem Zweitplatzierten gibt. Diese Situation tritt auf, wenn der Unterschied zwischen den Alternativen kleiner ist als der Unterschied zwischen den Alternativen und dem Kontrollelement. Die folgende Abbildung zeigt dieses Konzept, wobei die schwarzen Fehlerbalken Konfidenzintervalle mit 95 % Steigerung darstellen. Die tatsächliche Steigerung der einzelnen Angebote relativ zum Kontrollangebot liegt mit einer Wahrscheinlichkeit von 95 % innerhalb des Konfidenzintervalls - dem durch die Fehlerbalken angezeigten Bereich.
 
-![Fallstricke2 Bild](assets/pitfalls2.png)
+![pitfalls2 Bild](assets/pitfalls2.png)
 
 Bei den Angeboten A und B wurde im Test die höchste Steigerung beobachtet und es wäre unwahrscheinlich, dass Angebot C diese Angebote in einem zukünftigen Test übertreffen könnte, da das Konfidenzintervall von C sich nicht einmal mit den Konfidenzintervallen von A oder B überschneidet. Aber auch wenn Angebot A im Test die höchste Steigerung aufweist, ist es dennoch möglich, dass Angebot B in einem zukünftigen Test eine bessere Leistung zeigt, weil sich die Konfidenzintervalle überschneiden.
 
@@ -77,7 +77,7 @@ Es gibt zwei Schlüsselfaktoren, die die Leistungsfähigkeit eines Tests festleg
 
 Die Marketingexperten von heute erzielen aus einer beachtlichen Anzahl an Tests keine optimale Leistung. Sie verwenden nämlich zu kleine Stichproben. Das führt dazu, dass sie eine kleine Chance haben, richtig-positive Ergebnisse zu erkennen, selbst wenn tatsächlich ein substanzieller Unterschied der Konversionsrate vorhanden ist. Wenn Sie ständig zu schwache Tests ausführen, kann die Anzahl der falsch-positiven Ergebnisse im Bereich oder sogar über der Anzahl der richtig-positiven Ergebnisse liegen. Dies führt häufig zur Implementierung neutraler Änderungen an einer Site (Zeitverschwendung) oder zu Änderungen, die die Konversionsraten sogar verringern.
 
-![Fallstricke3 Bild](assets/pitfalls3.png)
+![pitfalls3 Bild](assets/pitfalls3.png)
 
 Damit Ihre Tests die gewünschte Leistung bringen, beachten Sie, dass zu einem gängigen Standard für einen leistungsstarken Test ein Konfidenzniveau von 95 % und eine Teststärke von 80 % gehören. Ein solcher Test bietet eine Wahrscheinlichkeit von 95 %, dass es nicht zu falsch-positiven Ergebnissen kommt, und eine Wahrscheinlichkeit von 80 %, dass falsch-negative Ergebnisse ausbleiben.
 
@@ -91,11 +91,11 @@ Sie können einen einseitigen Test so betrachten, dass Sie einen Antrag in einem
 
 ## Fehler Nr. 5: Überwachen von Tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Marketingexperten überwachen häufig A/B-Tests bis der Test ein signifikantes Ergebnis ermittelt hat. Warum weitertesten, wenn die statistische Bedeutung erreicht wurde?
+Marketingexperten überwachen häufig A/B-Tests bis der Test ein signifikantes Ergebnis ermittelt hat. Warum weitertesten, wenn die statistische Signifikanz erreicht wurde?
 
-Leider ist die Sache nicht so einfach. Auch wenn ich Ihnen keinen Strich durch die Rechnung machen möchte, ist es aber so, dass sich die Überwachung der Ergebnisse negativ auf die effektive statistische Bedeutung des Tests auswirkt. Es sorgt sogar für einen starken Anstieg der Wahrscheinlichkeit von falsch-positiven Ergebnissen und sorgt dafür, dass die Konfidenzintervalle unzuverlässig werden.
+Leider ist die Sache nicht so einfach. Auch wenn ich Ihnen keinen Strich durch die Rechnung machen möchte, ist es aber so, dass sich die Überwachung der Ergebnisse negativ auf die effektive statistische Signifikanz des Tests auswirkt. Es sorgt sogar für einen starken Anstieg der Wahrscheinlichkeit von falsch-positiven Ergebnissen und sorgt dafür, dass die Konfidenzintervalle unzuverlässig werden.
 
-Das mag verwirrend klingen. Es klingt so, als würde das einfache Betrachten der Ergebnisse in der Mitte des Tests dafür sorgen, dass diese ihre statistische Bedeutung verlieren. Das trifft es nicht genau. Im folgenden Beispiel wird erklärt, warum.
+Das mag verwirrend klingen. Es klingt so, als würde das einfache Betrachten der Ergebnisse in der Mitte des Tests dafür sorgen, dass diese ihre statistische Signifikanz verlieren. Das trifft es nicht genau. Im folgenden Beispiel wird erklärt, warum.
 
 Angenommen Sie simulieren 10.000 Konversionsereignisse für zwei Angebote, die beide eine Konversionsrate von 10 % besitzen. Da die Konversionsraten gleich sind, sollten Sie keinen Unterschied der Konversionssteigerung feststellen, wenn Sie die beiden Angebote gegeneinander testen. Bei der Verwendung eines Konfidenzintervalls von 95 % ergibt der Test die erwartete Falsch-Positiv-Rate von 5 %, nachdem alle 10.000 Beobachtungen erfasst sind. Wenn wir 100 dieser Tests durchführen, erhalten wir daher durchschnittlich fünf falsch-positive Ergebnisse (tatsächlich sind in diesem Beispiel alle positiven Ergebnisse falsch, weil es keinen Unterschied zwischen den Konversionsraten der beiden Angebote gibt). Wenn wir den Test jedoch während der Ausführung 10 mal auswerten - jeweils nach 1.000 Beobachtungen - stellt sich heraus, dass die Falsch-Positiv-Rate auf 16 % ansteigt. Die Überwachung des Tests hat das Risiko falsch-positiver Ergebnisse mehr als verdreifacht! Wie kann das sein?
 
@@ -109,7 +109,7 @@ Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten 
 
 Die folgende Abbildung zeigt fünf Angebote, die dieselben langfristigen Konversionsraten besitzen. Angebot B hat für die ersten 2.000 Besucher eine geringe Konversionsrate und es dauert lange, bis die geschätzte Konversionsrate zur tatsächlichen langfristigen Rate zurückkehrt.
 
-![Fallstricke4 Bild](assets/pitfalls4.png)
+![pitfalls4 Bild](assets/pitfalls4.png)
 
 Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Enttäuschungen führen, wenn ein Angebot, das an den ersten Tagen des Tests eine gute Leistung zeigt, dieses Leistungsniveau langfristig nicht halten kann. Es kann auch zu Umsatzverlusten führen, wenn ein gutes Angebot nicht implementiert wird, weil es zufälligerweise während der ersten Tage des Tests eine schlechte Leistung gebracht hat.
 
@@ -145,7 +145,7 @@ Solche Angebote verleiten Besucher dazu, früher zu konvertieren und werden favo
 
 Die folgende Abbildung zeigt zwei Angebote, die zwei unterschiedliche Besucher an einem Sonntag zur selben Zeit sehen. Der Betrachtungszeitraum für Angebot A ist kurz und der Besucher konvertiert zu einem späteren Zeitpunkt desselben Tages. Angebot B besitzt jedoch einen längeren Betrachtungszeitraum und der Besucher, der Angebot B gesehen hat, lässt sich das Angebot ein wenig durch den Kopf gehen und konvertiert dann am darauffolgenden Montag. Wenn Sie den Test Sonntagnacht beenden, wird die zu Angebot A gehörende Konversion in der Konversionsmetrik von Angebot A berücksichtigt, wohingegen die zu Angebot B gehörende Konversion in der Konversionsmetrik von Angebot B nicht berücksichtigt wird. Dies stellt für Angebot B einen signifikanten Nachteil dar.
 
-![Fallen5-Bild](assets/pitfalls5.png)
+![pitfalls5 Bild](assets/pitfalls5.png)
 
 Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen haben, ausreichend Zeit für die Konversion lassen, bevor Sie den Test beenden. So erhalten Sie einen fairen Vergleich der Angebote.
 
@@ -153,13 +153,13 @@ Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen h
 
 Marketingexperten sind möglicherweise versucht, im oberen Trichter Konversionsmetriken mit hohem Traffic und geringer Varianz zu verwenden, wie die Clickthrough-Rate (CTR), um schneller eine passende Anzahl von Testkonversionen zu erzielen. Sie müssen sich jedoch sorgfältig überlegen, ob die CTR eine angemessene Vertreterin für dass Geschäftsziel ist, das Sie erreichen möchten. Angebote mit höheren CTRs können leicht zu geringerem Umsatz führen. Dies kann passieren, wenn Angebote Besucher mit geringerer Kaufneigung anziehen oder wenn das Angebot als solches zu geringerem Umsatz führt, weil es z. B. rabattiert ist.
 
-![Fallen6 Bild](assets/pitfalls6.png)
+![pitfalls6 Bild](assets/pitfalls6.png)
 
 Sehen Sie sich das folgende Beispiel an. Das Skiangebot generiert eine viel höhere CTR als das Radsportangebot, da die Besucher jedoch durchschnittlich für das Radsportangebot weitaus mehr Geld ausgeben, ist der erwartete Umsatz höher, wenn das Radsportangebot einem Besucher präsentiert wird. Ein A/B-Test mit CTR als Metrik würde daher ein Angebot auswählen, das den Umsatz nicht maximiert, also nicht dem grundlegenden Geschäftsziel entspricht.
 
-![Fallen7-Bild](assets/pitfalls7.png)
+![pitfalls7 Bild](assets/pitfalls7.png)
 
-Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen, um die Auswirkungen von Angeboten zu erkennen, oder besser noch möglichst eine Metrik verwenden, die näher an Ihren Geschäftszielen liegt.
+Um dieses Problem zu vermeiden, müssen Sie Ihre Geschäftsmetriken sorgfältig überwachen und die Auswirkungen von Angeboten erkennen – oder besser noch möglichst eine Metrik verwenden, die Ihren Geschäftszielen näher kommt.
 
 ## Fazit: Erfolgreiche A/B-Tests durch Erkennen und Umgehen der Fehler {#section_54D33248163A481EBD4421A786FE2B15}
 
