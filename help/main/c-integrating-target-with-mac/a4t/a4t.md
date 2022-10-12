@@ -5,9 +5,9 @@ title: Was ist  [!DNL Analytics]  für  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Die folgenden Abschnitte enthalten Informationen zu den unterstützten Aktivitä
 | [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | Siehe [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
 | [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht [!UICONTROL Elementbeitrag] abruft. Der Bericht [!UICONTROL Elementbeitrag] unterstützt derzeit keine [!DNL Analytics]-Metriken. |
-| [AP-Aktivität (Automatisierte Personalisierung)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |  |
+| [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |  |
 | [Recommendations-Aktivität](/help/main/c-recommendations/recommendations.md) | Ja |  |
 | [Jede Aktivität mit einem Umleitungsangebot](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ja |
 
@@ -77,17 +77,17 @@ Um A4T-Berichte in [!DNL Target] anzuzeigen, klicken Sie auf **[!UICONTROL Aktiv
 
 Sie können zwischen [!UICONTROL Tabellenansicht] und [!UICONTROL Diagrammansicht] des Berichts wechseln, indem Sie rechts oben im Bericht auf das entsprechende Symbol klicken.
 
-Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdownliste [!UICONTROL Berichtsmetrik], in der die verfügbaren [!DNL Analytics]-Zielmetriken aufgeführt sind:
+Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdown-Liste [!UICONTROL Berichtsmetrik], in der die verfügbaren [!DNL Analytics]-Zielmetriken aufgeführt sind:
 
-![a4t_report_graph1-Bild](assets/a4t_report_graph1.png)
+![a4t_report_graph1 Bild](assets/a4t_report_graph1.png)
 
-Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdownliste [!UICONTROL Zielgruppe], in der die verfügbaren [!DNL Analytics]-Zielgruppen aufgeführt sind:
+Die folgende Abbildung zeigt die [!UICONTROL Diagrammansicht] eines A4T-Berichts mit der geöffneten Dropdown-Liste [!UICONTROL Zielgruppe], in der die verfügbaren [!DNL Analytics]-Zielgruppen aufgeführt sind:
 
-![a4t_report_graph2-Bild](assets/a4t_report_graph2.png)
+![a4t_report_graph2 Bild](assets/a4t_report_graph2.png)
 
 Die folgende Abbildung zeigt die [!UICONTROL Tabellenansicht] eines A4T-Berichts:
 
-![a4t_report_table-Bild](assets/a4t_report_table.png)
+![a4t_report_table Bild](assets/a4t_report_table.png)
 
 Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Sie oben im Bericht auf **[!UICONTROL In Analytics anzeigen]**.
 
