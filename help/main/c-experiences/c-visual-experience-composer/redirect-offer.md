@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die Option "Zu URL umleiten"in Adobe verwende
 title: Kann ich eine Seite zu einer anderen URL umleiten?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '485'
+ht-degree: 82%
 
 ---
 
@@ -51,4 +51,9 @@ So erstellen Sie ein Umleitungsangebot:
    * Hashfragment (#)
    * Abfrage
    * Parameter „mbox“
+
    Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
+
+## Bekannte Probleme
+
+* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)

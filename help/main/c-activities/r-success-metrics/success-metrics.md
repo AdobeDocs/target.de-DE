@@ -4,10 +4,10 @@ description: Informationen zu Erfolgsmetriken in Adobe [!DNL Target] die Ihnen b
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 44%
+source-wordcount: '1267'
+ht-degree: 43%
 
 ---
 
@@ -77,8 +77,8 @@ Die Abhängigkeitsfunktion ist *not* unterstützt für Folgendes:
 
 * [!UICONTROL Recommendations]-Aktivitäten. Diese Funktionalität wird für alle anderen Aktivitätstypen unterstützt.
 * Wenn Sie [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* Metriktyp „Angezeigte Seite“.
-* Metriktyp „Elementklick“ für Visual Experience Composer-(VEC)-Aktivitäten.
+* Metriktyp &quot;Angezeigte Seite&quot;.
+* Der Metriktyp &quot;Angeklickt ein Element&quot;für VEC-Aktivitäten (Visual Experience Composer).
 
 Abhängige Erfolgsmetriken werden in folgenden Fällen nicht umgewandelt:
 
@@ -106,6 +106,12 @@ Wählen Sie das gewünschte Verhalten aus:
 * Einmal pro Teilnehmer 
 * Bei jeder Impression (außer Seitenaktualisierungen)
 * Bei jeder Anzeige
+
+## Bekannte Probleme
+
+* Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ gesetzt ist, können nicht als Erfolgsmetrik mit einer abhängigen Metrik verwendet werden.
+
+Wenn eine Erfolgsmetrik bei jeder Impression auf inkrementiert wird, [!DNL Target] zählt den Besucher jedes Mal erneut, wenn der Besucher diese Erfolgsmetrik besucht. [!DNL Target] setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also für eine andere Metrik erforderlich ist, dass diese Metrik zuerst angezeigt wurde, [!DNL Target] erkennt nie, dass der Benutzer die erste Metrik gesehen hat.
 
 ## Schulungsvideo: Aktivitätsmetriken
 

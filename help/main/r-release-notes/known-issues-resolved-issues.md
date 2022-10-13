@@ -4,9 +4,9 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ Informationen zu bekannten Problemen in [!DNL Adobe Target]. Dazu gehören auch 
 
 Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
-### Enhanced Experience Composer (EEC) unterstützt keine PUT-Anfragen.
-
-Ein Problem mit EEC verhindert derzeit, dass PUT-Anfragen unterstützt werden, und führt zu einem 504-Timeout-Fehler. (TGT-41493)
-
-### [!DNL Adobe Experience Platform] Segmentnamen werden nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt.
-
-[!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt. (Die 3813 populärsten)
-
 ### Die Archivierung von Aktivitäten mit [!UICONTROL automatischem Targeting] kann zu Synchronisationsproblemen führen.
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
-
-### Weiterleitungsangebote {#redirect}
-
-* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
 
 ### Problem beim Abbrechen des Seitenladevorgangs in Visual Experience Composer (VEC) {#cancel}
 
@@ -86,12 +74,6 @@ Bekannte Probleme mit at.js:
 * at.js funktioniert möglicherweise nicht bei Cordova-/Hybrid-Apps, da Erstanbieter-Cookies von diesen Anwendungen nicht unterstützt werden. (TNT-26166)
 
    **Problemumgehung**: Konfigurieren Sie at.js mit aktivierter Option „x-only“ und übermitteln Sie `mboxThirdPartyId` in Aufrufen, um Benutzer zu verwalten.
-
-### Erfolgsmetriken
-
-Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ gesetzt ist, können nicht als Erfolgsmetrik mit einer abhängigen Metrik verwendet werden.
-
-Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt Target den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. Target setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, sodass ab der nächsten Impression wieder neu gezählt wird. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, kann Target nicht erkennen, dass der Benutzer diese erste Metrik bereits gesehen hat.
 
 ### Analytics for [!DNL Target] (A4T)
 

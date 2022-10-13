@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die [!UICONTROL Wichtige Attribute] -Bericht,
 title: Was ist der Bericht "Wichtige Attribute"?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic berei
 * Finden Sie heraus, welche Attribute am wichtigsten für das Lernen des Modells waren.
 * Ermitteln Sie, welche Attribute in den Personalisierungsmodellen eingesetzt werden und wie wichtig sie sind.
 * Finden Sie Möglichkeiten für zusätzliche Datenpunkte, die Sie an Target übergeben können, um die Personalisierung weiter zu optimieren.
+
+## Bekannte Probleme
+
+Das folgende Problem wird derzeit vom [!DNL Target] Technikerteam.
+
+* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten [!UICONTROL Automatisierte Personalisierung] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht [!UICONTROL Wichtige Attribute] angezeigt. (Die 3813 populärsten)
