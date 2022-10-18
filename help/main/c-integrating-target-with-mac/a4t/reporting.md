@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Analytics für [!DNL Target] (A4T). A4T biete
 title: Wie verwende ich Reporting in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 47%
+source-wordcount: '1312'
+ht-degree: 45%
 
 ---
 
@@ -77,7 +77,7 @@ Während der Erstellung einer Aktivität müssen Sie auf der Seite [!UICONTROL E
 
 ## Durchführen von Offlineberechnungen für Analytics für Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
+Sie können Offlineberechnungen für Konfidenzintervalle für A4T durchführen, indem Sie die [!DNL Target] [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei, es ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics].
 
 Für A4T verwenden wir eine [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} Berechnung für kontinuierliche Variablen (anstelle binärer Metriken). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Um die t-Test-Berechnung des Welch durchzuführen, ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) erläutert die Einzelheiten der verwendeten mathematischen Formeln. Die Quadratsumme kann abgerufen werden von [!DNL Analytics]. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
 

@@ -3,10 +3,10 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ In diesem Artikel werden die detaillierten statistischen Berechnungen dokumentie
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel ersetzen die *Adobe Target-Berechnungen für A/B-Tests* PDF-Datei, die zuvor auf dieser Website zum Download verfügbar war.
+>Die Informationen in diesem Artikel ersetzen die PDF-Datei mit den *Adobe Target-Berechnungen für A/B-Tests*, die zuvor auf dieser Website zum Download verfügbar war.
 
 ![Zielbericht mit [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittliche Steigerung und Konfidenzintervall]und [!UICONTROL Konfidenz] einer A/B-Test -Aktivität.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Schließlich wurde die in [!DNL Target] definiert als:
 
 Der [heruntergeladene CSV-Bericht](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Um diese statistischen Mengen zu berechnen, laden Sie die [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts.
+Um diese statistischen Mengen zu berechnen, laden Sie die [!DNL Target] [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts.

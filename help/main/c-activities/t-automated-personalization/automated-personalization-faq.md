@@ -4,10 +4,10 @@ description: Erkunden Sie eine Liste häufig gestellter Fragen (FAQs) und Antwor
 title: Wie finde ich häufig gestellte Fragen zu Automated Personalization-Aktivitäten?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 88%
+source-wordcount: '2004'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 ## Wie kann ich automatisierte Personalisierung mit einem Standarderlebnis vergleichen? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebnis aktivieren lässt. Das Problem lässt sich jedoch umgehen, indem Sie in einem Standarderlebnis oder -angebot, das Teil der Gesamtaktivität ist, auf das Kontrollsegment in den Berichten klicken, um im daraufhin geöffneten Angebotsbericht die Grundleistung des Angebots oder Erlebnisses zu bestimmen. Die für dieses Angebot aufgezeichnete Konversionsrate kann dann für den Vergleich mit der Konversionsrate des gesamten Segments „Random Forest“ verwendet werden. Somit lässt sich vergleichen, welche Leistung die Maschine im Vergleich zum Standardangebot erbringt.
+Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebnis aktivieren lässt. Wenn jedoch als Workaround ein Standardangebot oder -erlebnis als Teil der Gesamtaktivität vorhanden ist, können Sie zum besseren Verständnis der Basisleistung auf das Kontrollsegment in den Berichten klicken und dieses spezielle Angebot im resultierenden Bericht auf Angebotsebene suchen. Die für dieses Angebot aufgezeichnete Konversionsrate kann verwendet werden, um mit der Konversionsrate des gesamten Segments &quot;Random Forest&quot;zu vergleichen. Somit lässt sich vergleichen, welche Leistung die Maschine im Vergleich zum Standardangebot erbringt.
 
 ## Mithilfe welcher Best Practices kann ich eine Aktivität vom Typ „Automatisierte Personalisierung“ einrichten?  {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -37,11 +37,11 @@ Es gibt keine Option, mit der sich der Vergleich von AP mit einem Standarderlebn
 * Mithilfe der [Traffic-Schätzung](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) können Sie einschätzen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ erstellt werden.
 * Legen Sie die Zuordnung zwischen dem Kontroll- und Zielgruppe fest, bevor Sie Ihre Aktivität basierend auf Ihren Zielen starten.
 
-   Je nach dem Ziel Ihrer Aktivität und der Art der gewählten Kontrolle gibt es drei Szenarien:
+   Je nach Ziel Ihrer Aktivität und ausgewähltem Kontrolltyp gibt es drei Szenarien:
 
-   * **Zufällige Erlebnisse, wenn es Ihr Kontroll- und Aktivitätsziel ist, die Effektivität des Personalisierungsalgorithmus zu testen**: Wenn Ihr Ziel darin besteht, den Personalisierungsalgorithmus zu beurteilen, benötigen Sie eine genauere Darstellung Ihrer Steigerung. Darüber hinaus möchten Sie wahrscheinlich wissen, wie die Konversionsrate für Ihre Erlebnisse/Angebote wäre, wenn Sie einfach einen A/B-Test durchführten (eine zufällig bereitgestellte Kontrolle). In diesem Fall wird eine Zuordnung von 50 % zu einer Kontrollgruppe von zufällig bereitgestellten Erlebnissen empfohlen.
-   * **Zufällige Erlebnisse, wenn es Ihr Kontroll- und Aktivitätsziel ist, personalisierten Traffic zu maximieren**: Wenn Sie mit dem Algorithmus zufrieden sind und eine maximale Menge an Traffic personalisiert haben möchten, wird eine Kontrollzuordnung von 10 % bis 30 % empfohlen. Der Nachteil hier ist die geringere Genauigkeit, die Sie in Ihren Steigerungsinformationen erhalten (die Konfidenzintervalle Ihres Kontroll-Traffics sind größer, da weniger Traffic zur Kontrollmenge geleitet wird).
-   * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein einziges Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht über alle Angebote/Erlebnisse in der Aktivität verteilt.
+   * **Zufällige Erlebnisse als Kontrolle und Aktivitätsziel besteht darin, die Effektivität des Personalisierungsalgorithmus zu testen**: Wenn Sie den Personalisierungsalgorithmus auswerten möchten, möchten Sie ein genaueres Bild Ihrer Steigerung erhalten. Darüber hinaus möchten Sie wahrscheinlich wissen, wie die Konversionsrate für Ihre Erlebnisse/Angebote wäre, wenn Sie einfach einen A/B-Test durchführten (eine zufällig bereitgestellte Kontrolle). In diesem Fall wird eine Zuordnung von 50 % zu einer Kontrollgruppe von zufällig bereitgestellten Erlebnissen empfohlen.
+   * **&quot;Zufällige Erlebnisse&quot;, da Ihr Kontroll- und Aktivitätsziel darin besteht, den personalisierten Traffic zu maximieren**: Wenn Sie mit dem Algorithmus vertraut sind und die maximale Traffic-Menge personalisiert werden soll, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Der Kompromiss hier ist die Genauigkeit, die Sie in Ihren Steigerungsinformationen sehen können (da die Konfidenzintervalle Ihres Kontroll-Traffics größer sein werden, da weniger Traffic zu ihnen geleitet wird).
+   * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht auf alle Angebote/Erlebnisse in der Aktivität verteilt.
 
 * Targeting-Regeln sollten sparsam verwendet werden, da sie die Optimierungsfähigkeit des Modells beeinträchtigen können.
 * Berichterstellungsgruppen können den Erfolg Ihrer Aktivität vom Typ „Automatisierte Personalisierung“ begrenzen. Sie sollten nur unter bestimmten Bedingungen verwendet werden.
@@ -56,7 +56,9 @@ Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mi
 
 ### Welche Einschränkungen gibt es bei der automatisierten Personalisierung?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target besitzt eine harte Begrenzung von 30.000 Erlebnissen. Bei weniger als 10.000 erstellten Erlebnissen ist die Funktionsweise jedoch am besten.
+[!DNL Target] besitzt eine harte Begrenzung von 30.000 Erlebnissen. Bei weniger als 10.000 erstellten Erlebnissen ist die Funktionsweise jedoch am besten.
+
+Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option.
 
 ### Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

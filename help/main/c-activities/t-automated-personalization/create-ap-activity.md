@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization] A
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization] Aktivität?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
    >[!NOTE]
    >
-   >Obwohl Sie bis zu 30.000 Erlebnisse in einer AP-Aktivität erstellen können, funktionieren die Aktivitäten am besten, wenn weniger als 5.000 Erlebnisse verwendet werden.
+   >Obwohl Sie bis zu 30.000 Erlebnisse in einer AP-Aktivität erstellen können, funktionieren die Aktivitäten am besten, wenn weniger als 5.000 Erlebnisse verwendet werden. Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option.
 
    Die Liste [!UICONTROL Erlebnisse] zeigt jedes für die Aktivität ausgewählte Inhaltselement und den Ort, dem diese Aktivität zugeordnet ist.
 
@@ -106,7 +106,7 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
    ![Registerkarte mit Ausschlussgruppen im Dialogfeld „Inhalt verwalten“](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden.
+   Obwohl Sie bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, funktionieren die Algorithmen am besten, wenn weniger als 10.000 eindeutige Erlebnisse verwendet werden. Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option.
 
    Klicken Sie auf **Ausschlussgruppe erstellen**, sofern in Ihrer Aktivität nicht bereits Ausschlussgruppen vorhanden sind. Sie können filtern, um eine Liste zu erstellen, die nur die Kombinationen anzeigt, die Sie ausschließen möchten. Benennen Sie Ihre Ausschlussgruppe und klicken Sie auf **Speichern**.
 
