@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 | --- | --- |
-| Kontinuierliche Metriken | Es wurde die Möglichkeit hinzugefügt, kontinuierliche Metriken wie den Umsatz in [!UICONTROL Automatisches Targeting] und [!UICONTROL Zuordnung] Aktivitäten.<br>Zuvor [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatische Zuordnung] -Modelle wurden so optimiert, dass sie nur mit binären (konversionsbasierten) Metriken funktionieren. (TGT-43649 und TGT-43649) |
-| [!DNL Recommendations] Anzeigenamen | Anzeigenamen wurden in [!UICONTROL Analytics for Target] A4T-Reporting. Zuvor [!DNL Target] aufgelistete Erlebnis-IDs. Diese Verbesserung hilft Kunden, die Erstellung von Berichten in A4T zu optimieren. (TGT-41853 |
+| Kontinuierliche Metriken | Es wurde die Möglichkeit hinzugefügt, kontinuierliche Metriken wie den Umsatz in [!UICONTROL Automatisches Targeting] und [!UICONTROL Zuordnung] Aktivitäten.<br>Zuvor [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatische Zuordnung] -Modelle wurden so optimiert, dass sie nur mit binären (konversionsbasierten) Metriken funktionieren. (TGT-43649 &amp; TGT-43649)<BR>Beachten Sie, dass diese Funktion nur für ausgewählte Kunden verfügbar ist. Diese Funktion wird allen Kunden in einer zukünftigen Version zur Verfügung stehen. |
+| [!DNL Recommendations] Anzeigenamen | Anzeigenamen wurden in [!UICONTROL Analytics for Target] A4T-Reporting. Zuvor [!DNL Target] nur aufgelistete Erlebnis-IDs. Diese Verbesserung gleicht die Berichterstellung zwischen [!DNL Adobe Analytics] und [!DNL Target] und unterstützt Kunden bei der Optimierung der Berichterstellung in A4T. (TGT-41853 |
 
-* QuickInfos im [!DNL Target] Benutzeroberfläche, die Kunden dabei unterstützt, effizienter im Audience Builder zu navigieren. (TGT-44139)
-* Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die durch deaktiviert wurde. [!DNL Target] weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren. (TGT-43860, TGT-43861, &amp; TGT-43650)
+* QuickInfos im [!DNL Target] Benutzeroberfläche, die Kunden dabei hilft, effizienter im Audience Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die möglicherweise nicht bekannt sind. (TGT-44139)
+* Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die durch deaktiviert wurde. [!DNL Target] weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren.
+
+   Mit dieser Version `averagetimespentonsite`, `bouncerate`und `entries` Metriken in [!DNL Target] werden für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis zum 6. Februar 2023 weiterhin verwenden. (TGT-43860, TGT-43861, &amp; TGT-43650)
+
 * Eine QuickInfo im [!DNL Target] Benutzeroberfläche, die Kunden bei der Auswahl eines Optimierungskriteriums beim Erstellen oder Bearbeiten eines [!UICONTROL Automatisches Targeting] -Aktivität, die A4T verwendet. (TGT-43713)
 
 ## Zusätzliche Versionshinweise und Versionsdetails

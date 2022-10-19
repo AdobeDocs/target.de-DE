@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 93%
+source-wordcount: '1477'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden. |
 | 18. Oktober | [[!UICONTROL Erstellen einer Automated Personalization-Aktivität]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Der Text wurde aktualisiert, um anzugeben, dass zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellt werden können, der Algorithmus jedoch die beste Leistung erzielt, wenn weniger als 10.000 verschiedene Erlebnisse verwendet werden. Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option. |
 |  | [Häufig gestellte Fragen zur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Der Text wurde aktualisiert, um anzugeben, dass zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellt werden können, der Algorithmus jedoch die beste Leistung erzielt, wenn weniger als 10.000 verschiedene Erlebnisse verwendet werden. Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option. |
 | 14. Oktober | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen zum [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (26. Oktober 2022). |

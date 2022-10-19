@@ -4,10 +4,10 @@ description: Informationen zur Kategorieaffinität in [!DNL Adobe Target] die au
 title: Was ist Kategorieaffinität?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 64%
+source-wordcount: '830'
+ht-degree: 62%
 
 ---
 
@@ -49,6 +49,10 @@ Der Algorithmus für die Kategorieaffinität funktioniert wie folgt:
 * Wenn bereits auf eine Kategorie geklickt wurde (angezeigt), wird durch erneutes Klicken nicht 1 von allen anderen Kategorien subtrahiert
 * Wenn auf eine sechste neue Kategorie geklickt wird, wird die als am niedrigsten eingestufte Kategorie der ersten fünf Kategorien aus der Berechnung entfernt
 * Teilen Sie am Ende der Sitzung alle Werte durch 2
+
+>[!NOTE]
+>
+>Wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden, die Reihenfolge der Kategorien in `categoryAffinities` nicht garantiert ist. Eine beliebige Kategorie wird zuerst aufgezeichnet und erhält einen Wert von 10.
 
 ### Beispiel: Kategorieaffinitäts-Algorithmus
 
