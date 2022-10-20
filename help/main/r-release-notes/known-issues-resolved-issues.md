@@ -4,10 +4,10 @@ description: Hier finden Sie Informationen zu bekannten Problemen in Adobe Targe
 title: Wo finde ich Informationen zu bekannten Problemen und gelösten Problemen?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '4229'
-ht-degree: 100%
+source-wordcount: '3974'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,16 @@ Die folgenden Abschnitte führen bekannte Probleme bei [!DNL Target] auf:
 
 Der Versuch, inaktive Aktivitäten für [!UICONTROL Automatisches Targeting] zu archivieren, kann zu Synchronisationsproblemen führen. Solange dieses Problem nicht behoben ist, archivieren Sie die Aktivitäten für [!UICONTROL Automatisches Targeting] nicht. Belassen Sie sie im Status [!UICONTROL Inaktiv]. (TGT-40885)
 
-### Problem beim Abbrechen des Seitenladevorgangs in Visual Experience Composer (VEC) {#cancel}
-
-* Das folgende bekannte Problem tritt derzeit auf, wenn das Laden einer Aktivität des Typs [!UICONTROL A/B-Test] oder [!UICONTROL Erlebnis-Targeting] (XT) innerhalb des VEC abgebrochen wird, die eine Umleitungs-URL enthält.
-
-   Im ersten Schritt des durch VEC angeleiteten Workflows wird beim Abbrechen des Seitenladevorgangs das Bedienfeld [!UICONTROL Änderungen] im VEC angezeigt und die Umleitung zur URL-Vorlage wird auf das Erlebnis angewendet (z. B. Erlebnis B). Wenn Sie die Schritte zwei oder drei durchführen und dann zu Schritt 1 zurückkehren, tritt die folgende Situation auf.
-
-   Bei „Erlebnis B“ wird standardmäßig die Vorlage für das Laden von Website-Dateien gerendert und das Bedienfeld [!UICONTROL Änderungen] kann aufgerufen werden. Dies sollte nicht der Fall sein, da eine Umleitung zu einer URL-Vorlage angewendet wird. Die Umleitung zur URL-Vorlage sollte angezeigt werden.
-
-   So zeigen Sie den korrekten Status des Erlebnisses im VEC an:
-
-   Wenn Sie zu einem anderen Erlebnis und dann zurück zu „Erlebnis B“ wechseln, zeigt [!DNL Target] die auf dieses Erlebnis angewendete Umleitung zur URL-Vorlage an, und das Bedienfeld [!UICONTROL Änderungen] ist nicht abrufbar. (TGT-32138)
-
-* Bei Websites mit einseitigen Anwendungen (SPA) können Sie beim Abbrechen der Ladevorgänge keine Aktionen im Bedienfeld [!UICONTROL Änderungen] bearbeiten.
-
 ### Recommendations
 
 Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekannt:
 
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
-* Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. (IRI-857)
-* Die Overlays „Informationen zur Verwendung“ für Kriterien und Designs entsprechen nicht ihrer Verwendung in A/B- und Erlebnis-Targeting-Aktivitäten. (TGT-34331)
+* abgelaufene Entitäten sind korrekt abgelaufen, nachdem 60 Tage nach Erhalt von Aktualisierungen über Feed oder API vergangen sind; Die abgelaufenen Entitäten werden jedoch nach Ablauf nicht aus dem Katalogsuchindex entfernt. Entitäten, die über Feed oder API gelöscht wurden, werden derzeit auch nicht aus dem Katalogsuchindex entfernt. (IRI-857)
 * Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
 * Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über die API bearbeitet werden. Erstellen Sie umgekehrt eines dieser Elemente in der Benutzeroberfläche von Target und bearbeiten Sie diese später über die API, werden die Änderungen nicht in der Benutzeroberfläche von Target angezeigt. Über die API bearbeitete Elemente sollten weiterhin über die API bearbeitet werden, um sicherzustellen, dass keine Änderungen verloren gehen. (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
 * Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Bearbeitungsansicht für benutzerdefinierte Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
-* In Kriterien- und Designkarten ist die Anzahl der Aktivitäten, in denen sie verwendet werden, nicht korrekt angegeben. Wenn ein Kriterium oder ein Design in einer A/B-Aktivität verwendet wird, gibt die Karte möglicherweise fälschlich an, dass das Kriterium oder Design nicht verwendet wird. (TGT-36621, TGT-37217)
 
 ### Multivarianz-Test (MVT)-Aktivitäten
 
