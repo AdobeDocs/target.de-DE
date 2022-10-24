@@ -59,7 +59,7 @@ Bekannte Probleme mit at.js:
 
    **Problemumgehung**: Konfigurieren Sie at.js mit aktivierter Option „x-only“ und übermitteln Sie `mboxThirdPartyId` in Aufrufen, um Benutzer zu verwalten.
 
-## Gelöste Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
+## Behobene Probleme {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Da die oben genannten bekannten Probleme behoben wurden, werden sie in die folgenden Abschnitte verschoben. Gegebenenfalls werden zusätzliche Hinweise hinzugefügt.
 
