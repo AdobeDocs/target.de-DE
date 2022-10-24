@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Erlebnisse und Angebote](c-experiences/experiences.md): Erklärt, wie Sie angeben, welche Inhalte angezeigt werden, wenn ein Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 - [Recommendations](c-recommendations/recommendations.md): Erläutert, wie [!DNL Recommendations]-Aktivitäten automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 
-## Entwickler   {#developers}
+## Entwickler  {#developers}
 
 - [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}: Dieses Portal bietet Ressourcen und Anleitungen für [!DNL Adobe Target]-Entwickler, einschließlich API- und SDK-Dokumentation zur Implementierung[!DNL Target].
 
