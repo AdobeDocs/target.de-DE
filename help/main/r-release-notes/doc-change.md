@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1488'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 25. Oktober | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.10.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden. |
 | 18. Oktober | [Erstellen einer [!UICONTROL Automated Personalization]-Aktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Der Text wurde aktualisiert, um darauf hinzuweisen, dass Sie zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, der Algorithmus aber am besten funktioniert, wenn weniger als 10.000 unterschiedliche Erlebnisse verwendet werden. Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist. |
 |  | [Häufig gestellte Fragen zur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Der Text wurde aktualisiert, um darauf hinzuweisen, dass Sie zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, der Algorithmus aber am besten funktioniert, wenn weniger als 10.000 unterschiedliche Erlebnisse verwendet werden. Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist. |
