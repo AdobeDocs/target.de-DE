@@ -5,9 +5,9 @@ title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version 
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 1b737f963fe63770cb04d05f3414ed946548d882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -31,15 +31,15 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 | --- | --- |
-| [!DNL Recommendations] | Anzeigenamen wurden in [!UICONTROL Analytics for Target] A4T-Reporting. Zuvor [!DNL Target] nur aufgelistete Erlebnis-IDs. Diese Verbesserung gleicht die Berichterstellung zwischen [!DNL Adobe Analytics] und [!DNL Target] und unterstützt Kunden bei der Optimierung der Berichterstellung in A4T. (TGT-41853) |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br>(Verfügbar für die Auswahl von Kunden zum Testen. wird in einer zukünftigen Version für alle Kunden verfügbar sein.) | Beachten Sie die folgenden Änderungen:<ul><li>Binäre und Maximierungsmetriken in [!UICONTROL Analytics for Target]-Reporting (A4T) für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] werden jetzt unterstützt.</li><li>Das Verhalten für bestehende Aktivitäten wurde bis Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li><li>Ab dem 20. Februar 2023 wird die Unterstützung für die Metriken `averagetimespentonsite`, `bouncerate` und `entries` in [!DNL Target]-Aktivitäten nicht mehr unterstützt.</li></ul> |
+| [!DNL Recommendations] | Es wurden Anzeigenamen in A4T-Berichterstellung von [!UICONTROL Analytics for Target] hinzugefügt. Zuvor listete [!DNL Target] nur Erlebnis-IDs auf. Diese Verbesserung stimmt die Berichterstellung zwischen [!DNL Adobe Analytics] und [!DNL Target] ab und unterstützt Kunden bei der Optimierung der Berichterstellung in A4T. (TGT-41853) |
+| A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br> (verfügbar für die Auswahl von Kunden zum Testen) wurden optimiert. (Wird in einer zukünftigen Version für alle Kunden verfügbar sein.) | Beachten Sie die folgenden Änderungen:<ul><li>Binäre und Maximierungsmetriken in [!UICONTROL Analytics for Target]-Reporting (A4T) für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] werden jetzt unterstützt.</li><li>Das Verhalten für bestehende Aktivitäten wird bis Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li><li>Ab dem 20. Februar 2023 wird die Unterstützung für die Metriken `averagetimespentonsite`, `bouncerate` und `entries` in [!DNL Target]-Aktivitäten nicht mehr unterstützt.</li></ul> |
 
-* QuickInfos im [!DNL Target] Benutzeroberfläche, die Kunden dabei hilft, effizienter im Audience Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die möglicherweise nicht bekannt sind. (TGT-44139)
-* Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die durch deaktiviert wurde. [!DNL Target] weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren.
+* Es wurden Tooltips in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden dabei helfen, effizienter im Zielgruppen-Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die ihnen möglicherweise nicht bekannt sind. (TGT-44139)
+* Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die von [!DNL Target] deaktiviert wurde, weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren.
 
-   Mit dieser Version `averagetimespentonsite`, `bouncerate`und `entries` Metriken in [!DNL Target] werden für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Februar 2023 weiterhin verwenden. (TGT-43860, TGT-43861, &amp; TGT-43650)
+   Mit dieser Version werden `averagetimespentonsite`-, `bouncerate`- und `entries`-Metriken in [!DNL Target]-Aktivitäten für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Februar 2023 weiterhin verwenden. (TGT-43860, TGT-43861 und TGT-43650)
 
-* Eine QuickInfo im [!DNL Target] Benutzeroberfläche, die Kunden bei der Auswahl eines Optimierungskriteriums beim Erstellen oder Bearbeiten eines [!UICONTROL Automatisches Targeting] -Aktivität, die A4T verwendet. (TGT-43713)
+* Ein Tooltip wurde in der [!DNL Target]-Benutzeroberfläche hinzugefügt, der Kunden bei der Auswahl eines Optimierungskriteriums hilft, während sie eine Aktivität von [!UICONTROL Automatisches Targeting], die A4T verwendet, erstellen oder bearbeiten. (TGT-43713)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
