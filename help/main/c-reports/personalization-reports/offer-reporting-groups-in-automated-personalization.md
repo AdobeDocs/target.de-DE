@@ -1,28 +1,28 @@
 ---
-keywords: automatisierte Personalisierung;Angebot;Berichterstellung;Gruppe;Berichtsgruppe
-description: Erfahren Sie, wie Sie in Adobe Angebotsberichtsgruppen verwenden. [!DNL Target] Automated Personalization-Aktivitäten. Verwenden von Berichtsgruppen, [!DNL Target] erstellt nur ein Personalisierungsmodell für jede Berichtsgruppe.
+keywords: automatisierte Personalisierung;Angebot;Berichterstellung;Gruppe;Berichtsgruppe;App
+description: Erfahren Sie, wie Sie in Adobe Angebotsberichtsgruppen verwenden. [!DNL Target] [!UICONTROL Automated Personalization] Aktivitäten.
 title: Kann ich Berichtsgruppen für Angebote in Automated Personalization-Aktivitäten verwenden?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 59%
+source-wordcount: '457'
+ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Angebotsberichtsgruppen in der automatisierten Personalisierung
+# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  Angebotsberichtsgruppen in der automatisierten Personalisierung]
 
-Informationen zur Verwendung von Berichtsgruppen in [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) AP-Aktivitäten.
+Informationen zur Verwendung von Berichtsgruppen in [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) AP-Aktivitäten.
 
 Berichtsgruppen erfüllen zwei grundlegende Funktionen:
 
-* Über sie können Sie Angebote gruppiert in AP-Aktivitätsberichten anzeigen.
-* Sie spielen eine Schlüsselrolle bei der Frage, wie die [!DNL Target] Personalisierungsmodelle verwenden.
+* Mit Berichtsgruppen können Sie Ihre Angebote in AP-Aktivitätsberichten gruppiert anzeigen.
+* Berichtsgruppen spielen eine Schlüsselrolle bei der [!DNL Target] Personalisierungsmodelle verwenden.
 
-Wenn Sie Berichtsgruppen verwenden, [!DNL Target] erstellt für jede Berichtsgruppe nur ein einziges Personalisierungsmodell anstelle jedes Angebots in Ihrer AP-Aktivität und verwendet dabei die Daten aller Angebote in dieser Gruppe.
+Wenn Sie Berichtsgruppen verwenden, [!DNL Target] erstellt für jede Berichtsgruppe ein Personalisierungsmodell anhand der Daten aller Angebote in dieser Gruppe. Ohne Berichtsgruppen [!DNL Target] erstellt für jedes Angebot in Ihrer AP-Aktivität ein Personalisierungsmodell.
 
-Wenn Ihr Aktivitäts-Setup nicht genügend Daten für die Erstellung eines Personalisierungsmodells pro Angebot bietet, können Berichtsgruppen die Datenanforderungen für die Verwendung von Automated Personalization reduzieren. Berichtsgruppen können auch das Problem des „Kaltstarts“ für neue Angebote beheben, indem ähnliche Angebote gruppiert werden, damit jedes Modell mit mehr Daten arbeiten kann. Modellierungsgruppen können auch für Aktivitäten verwendet werden, in denen regelmäßig neue Angebote in Ihre AP-Aktivität eingeführt werden.
+Wenn Ihre Aktivitätseinrichtung nicht genügend Daten enthält, um ein Personalisierungsmodell pro Angebot zu erstellen, können Berichtsgruppen dazu beitragen, die zu verwendenden Datenanforderungen zu reduzieren [!UICONTROL Automated Personalization]. Berichtsgruppen können auch das Problem des „Kaltstarts“ für neue Angebote beheben, indem ähnliche Angebote gruppiert werden, damit jedes Modell mit mehr Daten arbeiten kann. Modellgruppen können auch für Aktivitäten verwendet werden, bei denen regelmäßig neue Angebote in Ihre AP-Aktivität eingeführt werden.
 
 Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe gleich reagieren. Best Practice ist es, Angebote zu gruppieren, auf die ähnliche Besuchergruppen auf ähnliche Weise reagieren. Anders ausgedrückt: Gruppieren Sie Angebote mit ähnlichen Konversionsraten. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben. Die Gruppierung aller Angebote oder die Gruppierung von Angeboten mit sehr unterschiedlichen Konversionsraten verringert wahrscheinlich die Effektivität der [!DNL Target] Personalisierungsmodelle.
 
@@ -32,7 +32,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
 **So richten Sie Berichtsgruppen ein:**
 
-1. Im [!UICONTROL Erlebnisse] Seite einer AP-Aktivität, klicken Sie auf die **[!UICONTROL Inhalt verwalten]** Symbol.
+1. Im **[!UICONTROL Erlebnisse]** Seite einer AP-Aktivität, klicken Sie auf die **[!UICONTROL Inhalt verwalten]** Symbol.
 
    ![Symbol &quot;Inhalt verwalten&quot;](/help/main/c-reports/assets/ap_manage_content.png)
 
@@ -45,7 +45,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
    ![Symbol &quot;Berichtsgruppe&quot;](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. (Bedingt) Um das ausgewählte Angebot einer vorhandenen Berichtsgruppe zuzuweisen, wählen Sie **[!UICONTROL Bestehend]**, wählen Sie die gewünschte Berichtsgruppe aus der Dropdownliste aus und klicken Sie dann auf **[!UICONTROL Anwenden]**.
+1. Um das ausgewählte Angebot zu einer bestehenden Berichtsgruppe hinzuzufügen, klicken Sie auf **[!UICONTROL Vorhanden]**, wählen Sie die gewünschte Berichtsgruppe aus der Dropdownliste aus und klicken Sie dann auf **[!UICONTROL Übernehmen]**.
 
    Oder
 
