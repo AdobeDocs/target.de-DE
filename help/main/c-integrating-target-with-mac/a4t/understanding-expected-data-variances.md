@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen d
 title: Was ist die erwartete Datenabweichung zwischen Analytics und A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ Im Folgenden finden Sie einige Szenarien mit erwarteten Datenabweichungen:
    Wenn in Target ein Umleitungstest eingerichtet ist, um den Traffic 50/50 (oder 25/25/25 usw.) aufzuteilen, wird das Benutzerverhalten möglicherweise nicht gleichmäßig aufgeteilt. Wenn Sie eine ungleichmäßige Aufspaltung sehen, bedeutet dies einfach, dass eine Benutzergruppe einen Analytics-Aufruf auf der Landingpage nicht häufiger als die anderen Gruppen ausgeführt hat. Durch dieses Fehlschlagen des Analytics-Aufrufs für eine Gruppe wurde der Treffer von Target für diesen Benutzer ausgeschlossen, sodass die Unstimmigkeiten entstanden.
 
    Adobe hofft, dieses Problem zukünftig in Angriff zu nehmen, da Adobe-Teams an A4T in der Adobe Experience Platform arbeiten. Adoben-Teams bestimmen, wie diese verschiedenen Ereignisse zu unterschiedlichen Zeitpunkten auf der Seite verarbeitet werden.
-
-   >[!NOTE]
-   >
-   >Es gibt ein bekanntes Problem, bei dem einer begrenzten Anzahl von Kunden mit Redirects mit A4T ein höherer Prozentsatz an aufgetrennten Treffern angezeigt wird. Siehe [Bekannte Probleme und gelöste Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T {#expected-not-using-a4t}
 

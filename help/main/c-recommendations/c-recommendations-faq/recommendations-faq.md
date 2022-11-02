@@ -4,10 +4,10 @@ description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 98%
+source-wordcount: '3402'
+ht-degree: 91%
 
 ---
 
@@ -58,16 +58,16 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 * Eine Änderung der Promotion-Einstellungen kann bis zu fünf Stunden dauern, bis sie auf der Website angezeigt wird.
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
 
-   * Einige Kriterieneinstellungen (z. B. „Hinzufügen einer dynamischen Einschlussregel“) werden sofort angezeigt.
-   * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, „Änderung des Lookback-Fensters“ usw.) können erst nach Ausführung des nächsten Algorithmus eingeschlossen werden.
+   * Einige Kriterieneinstellungen (z. B. &quot;Hinzufügen einer dynamischen Einschlussregel&quot;) werden sofort angezeigt.
+   * Andere Kriterieneinstellungen (z. B. &quot;Entfernen einer dynamischen Einschlussregel&quot;, Änderung des Lookback-Fensters usw.) können erst eingefügt werden, wenn der nächste Algorithmus ausgeführt wird.
    * Algorithmusausführungen werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern, bis sie abgeschlossen sind. Algorithmen können auch planmäßig alle 12–24 Stunden ausgeführt werden.
 
-## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird, die *dieser* Benutzer erhält?
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen angezeigt wird? *dass* Benutzer erhält?
 
 * Aktuell angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer in derselben Seitenansicht/[!DNL Target]-Inhaltsanfrage erhält.
-* Früheres Benutzerverhalten, wie „Zuletzt angezeigtes Produkt“, „Am häufigsten angezeigtes Produkt“ und der gesamte Anzeige-/Kaufverlauf werden mit dieser Anfrage aktualisiert und beeinflussen die Empfehlungen, die der Benutzer bei der nächsten Seitenansicht/[!DNL Target]-Inhaltsanfrage erhält. Beispielsweise werden die Algorithmen „Zuletzt angezeigte Artikel“ und „Für Sie empfohlen“ mit jeder Ansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanfrage angezeigt.
+* Historisches Benutzerverhalten wie &quot;zuletzt angezeigtes Produkt&quot;, &quot;am häufigsten angezeigtes Produkt&quot;und der Gesamtverlauf für Anzeige/Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer auf der nächsten Seite erhält.[!DNL Target] Inhaltsanforderung. Beispielsweise werden die Algorithmen &quot;Kürzlich angezeigte Elemente&quot;und &quot;Für Sie empfohlen&quot;mit jeder Produktansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
 
-## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird, die *andere* Benutzer erhalten?
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen angezeigt wird? *other* -Benutzer erhalten?
 
 Das gesamte Benutzerverhalten wird in die Offline-Algorithmusverarbeitung einbezogen, wobei jeder Algorithmus alle 12–24 Stunden ausgeführt wird.
 
@@ -128,10 +128,10 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 
    ![product_catalog-Bild](assets/product_catalog.png)
 
-* Ist Ihr Index aktuell? Überprüfen Sie unter [!DNL /target/products.html#productSearch], wie alt der Index ist (z. B. „Vor 3 Stunden indiziert“). Sie können den Index bei Bedarf aktualisieren.
+* Ist Ihr Index aktuell? Los [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden der Index alt ist (z. B. &quot;Vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
 * Wurde der Feed erfolgreich ausgeführt? Wurden das FTP-Verzeichnis, das Kennwort usw. geändert?
-* [!DNL Target] setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch muss [!DNL Target] auf seiner Benutzeroberfläche einige Darstellungen für den Marketer bereitstellen. [!DNL Target] wartet mit Bereitstellungsaktualisierungen nicht auf die Synchronisierung der Benutzeroberflächenaktualisierungen. Mithilfe von [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
+* [!DNL Target] versucht, so schnell wie möglich Aktualisierungen am Versand (auf der Seite/App des Kunden) vorzunehmen. Dennoch muss [!DNL Target] auf seiner Benutzeroberfläche einige Darstellungen für den Marketer bereitstellen. [!DNL Target] wartet mit Bereitstellungsaktualisierungen nicht auf die Synchronisierung der Benutzeroberflächenaktualisierungen. Mithilfe von [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
 
 ## Worin besteht der Unterschied zwischen der allgemeinen und der Inhaltsähnlichkeits-spezifischen Attributgewichtung? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -141,9 +141,9 @@ Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für 
 
 ![attribute_weight_example-Bild](assets/attribute_weighting_example.png)
 
-Die „Inhaltsähnlichkeits-Attributgewichtung“ gilt nur für Kriterien der Inhaltsähnlichkeit.
+Die &quot;Attributgewichtung für Ähnlichkeit von Inhalten&quot;gilt nur für Kriterien für Ähnlichkeit von Inhalten.
 
-Dieser Gewichtungstyp ist dynamischer und basiert auf dem aktuellen „Empfehlungsschlüssel“ (dem derzeit angezeigten Element). Wenn im folgenden Beispiel (Marke x 16) ein Besucher Sneaker von Nike anzeigt, werden diesem Besucher mit höherer Wahrscheinlichkeit andere Nike-Produkte empfohlen (nicht nur Sneaker) als Sneaker von anderen Herstellern. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
+Diese Art der Gewichtung ist dynamischer und basiert auf dem aktuellen &quot;Empfehlungsschlüssel&quot;(dem aktuell angezeigten Artikel). Im folgenden Beispiel (Marke x 16) wird dieser Besucher, wenn er Nike-Turnschuhe anschaut, mit höherer Wahrscheinlichkeit andere Nike-Produkte (nicht notwendigerweise nur Turnschuhe) anstelle der Turnschuhe von Konkurrenten empfohlen. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
 
 ![content_similarity_example image](assets/content_similarity_example.png)
 
@@ -250,8 +250,8 @@ Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recom
 Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen empfohlene Artikel nur die neuesten Artikel bzw. Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
 
 1. Übergeben Sie das Veröffentlichungsdatum des Artikels im JJJJMMTT-Format als benutzerdefiniertes Entitätsattribut.
-1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJJMMTT.
-1. Verwenden Sie einen dynamischen Einschlussfilter in den Kriterien, sodass `publish date > today’s date minus 60 days` angezeigt wird.
+1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJMMTT .
+1. Verwenden Sie einen dynamischen Einschlussfilter in den Kriterien, sodass `publish date > today's date minus 60 days` angezeigt wird.
 
 ### Übergeben Sie das Veröffentlichungsdatum als benutzerdefiniertes Entitätsattribut:
 
@@ -274,3 +274,14 @@ Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen emp
 >[!NOTE]
 >
 >Dieses Beispiel kann auch mit der Parameterübereinstimmung und der Übergabe des `priorDate60`-Werts als Mbox-Parameter durchgeführt werden.
+
+### Welche bekannten Probleme gibt es bei der Verwendung von [!DNL Recommendations] Aktivitäten?
+
+Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekannt:
+
+* Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
+* Abgelaufene Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. Entitäten, die über Feed oder API gelöscht wurden, werden derzeit auch nicht aus dem Katalogsuchindex entfernt. (IRI-857)
+* Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
+* Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über die API bearbeitet werden. Erstellen Sie umgekehrt eines dieser Elemente in der Benutzeroberfläche von Target und bearbeiten Sie diese später über die API, werden die Änderungen nicht in der Benutzeroberfläche von Target angezeigt. Über die API bearbeitete Elemente sollten weiterhin über die API bearbeitet werden, um sicherzustellen, dass keine Änderungen verloren gehen. (TGT-35777)
+* Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
+* Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Bearbeitungsansicht für benutzerdefinierte Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)

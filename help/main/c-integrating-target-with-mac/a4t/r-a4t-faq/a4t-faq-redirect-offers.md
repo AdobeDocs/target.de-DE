@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Verwendung von Umleitungsangeboten bei der
 title: Wo finde ich häufig gestellte Fragen zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ Dieses Thema enthält Antworten auf häufig zur Verwendung von Umleitungsangebot
 ## Unterstützt Analytics for Adobe Target (A4T) Umleitungsangebote? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Ja, wenn Ihre Implementierung [!DNL at.js]. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
-
->[!NOTE]
->
->Es gibt ein bekanntes Problem, bei dem einer begrenzten Anzahl von Kunden mit Redirects mit A4T ein höherer Prozentsatz an aufgetrennten Treffern angezeigt wird. Siehe [Bekannte Probleme und gelöste Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Was sind die Mindestanforderungen für die Verwendung von Umleitungsangeboten mit A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -60,9 +56,7 @@ Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht
 
 Es wird empfohlen, den formularbasierten Composer zum Erstellen einer Umleitungsaktivität zu verwenden, um die Umleitung der Seite zu beschleunigen, da der Code auf der Seite ausgeführt wird. Es wird zudem die Erstellung eines Umleitungsangebots für jeden Besuch einschließlich des Standardbesuchs empfohlen, wobei die Umleitung zur ursprünglichen Seite zurückführen würde. Durch die Erstellung eines Umleitungsangebots für jedes Erlebnis wird sichergestellt, dass bei einer fehlerhaften Zählung alle Erlebnisse berücksichtigt werden. Die Berichterstellung und Analyse sind für den Test weiterhin gültig.
 
-Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu verwenden. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, stellt die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen Vorteil dar. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie die Personalisierung empfohlen. Nachdem Sie den „Gewinner“ ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
-
-Weitere Informationen zu diesem Problem finden Sie in dem Informationen zu „Weiterleitungsangeboten“ unter [Bekannte Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+Ein Grund für die Verwendung von Umleitungsangeboten für alle Erlebnisse in der Aktivität, einschließlich des Standarderlebnisses (Kontrollerlebnis), besteht darin, dieselben Bedingungen für alle Erlebnisse zu verwenden. Wenn das Standarderlebnis beispielsweise kein Umleitungsangebot enthält, aber die anderen Erlebnisse Umleitungsangebote haben, stellt die Geschwindigkeit des Erlebnisses ohne Umleitungsangebot einen Vorteil dar. Umleitungsangebote werden nur für temporäre Szenarien empfohlen, z. B. Tests. Umleitungsangebote werden nicht für permanente Szenarien wie die Personalisierung empfohlen. Nachdem Sie den &quot;Gewinner&quot;ermittelt haben, sollten Sie die Umleitung entfernen, um die Seitenladeleistung zu verbessern.
 
 ## Werden Visual Experience Composer (VEC) und Form-Based Experience Composer unterstützt? {#section_FDA26FE7909B48539DA770559E687677}
 

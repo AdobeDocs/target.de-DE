@@ -4,9 +4,9 @@ description: Lernen Sie die Grundlagen der Verwendung des Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1364'
 ht-degree: 92%
 
 ---
@@ -103,10 +103,6 @@ Um das Laden einer Seite im VEC abzubrechen, klicken Sie auf die Schaltfläche *
 Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Änderungen hinzuzufügen, müssen Sie auf die Schaltfläche **[!UICONTROL Neu laden]** klicken.
 
 ![Schaltfläche „Neu laden“](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
-
->[!NOTE]
->
->Es gibt ein bekanntes Problem mit dieser Funktion, das in der nächsten Version behoben wird. Weitere Informationen finden Sie unter „Laden einer Seite im VEC abbrechen“ auf der Seite [Bekannte Probleme und gelöste Probleme](/help/main/r-release-notes/known-issues-resolved-issues.md#cancel).
 
 ## Schulungsvideos
 
