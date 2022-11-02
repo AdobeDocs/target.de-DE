@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den Automated Personalization-Zusammenfassung
 title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -48,11 +48,11 @@ Klicken Sie auf den Erlebnisalgorithmus (Random Forest oder Kontrolle), um die [
 
 ![Angebotsstufenbericht in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Angebote können innerhalb von Berichtsgruppen angezeigt werden. Diese Berichtsgruppen können minimiert und maximiert werden. Wählen Sie in der Dropdownliste [!UICONTROL Berichterstellungsgruppe] aus, um sich Details nach Berichtsgruppen und nicht nach Angeboten anzeigen zu lassen.
-
 >[!NOTE]
 >
->Das Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Das Häkchen-Symbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
+>Ein Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Ein Häkchen-Symbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
+
+Angebote können in [Berichtsgruppen](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)und diese Berichtsgruppen reduziert und erweitert werden können. Klicken **[!UICONTROL Kontrolle]** oder **[!UICONTROL Targeting]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 
