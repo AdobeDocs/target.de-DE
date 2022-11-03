@@ -5,9 +5,9 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1001'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,6 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 | --- | --- |
-| [!DNL Recommendations] | Es wurden Anzeigenamen in A4T-Berichterstellung von [!UICONTROL Analytics for Target] hinzugefügt. Zuvor listete [!DNL Target] nur Erlebnis-IDs auf. Diese Verbesserung stimmt die Berichterstellung zwischen [!DNL Adobe Analytics] und [!DNL Target] ab und unterstützt Kunden bei der Optimierung der Berichterstellung in A4T. (TGT-41853) |
 | A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br> (verfügbar für die Auswahl von Kunden zum Testen) wurden optimiert. (Wird in einer zukünftigen Version für alle Kunden verfügbar sein.) | Beachten Sie die folgenden Änderungen:<ul><li>Binäre und Maximierungsmetriken in [!UICONTROL Analytics for Target]-Reporting (A4T) für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] werden jetzt unterstützt.</li><li>Das Verhalten für bestehende Aktivitäten wird bis Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li><li>Ab dem 20. Februar 2023 wird die Unterstützung für die Metriken `averagetimespentonsite`, `bouncerate` und `entries` in [!DNL Target]-Aktivitäten nicht mehr unterstützt.</li></ul> |
 
 * Es wurden Tooltips in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden dabei helfen, effizienter im Zielgruppen-Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die ihnen möglicherweise nicht bekannt sind. (TGT-44139)
