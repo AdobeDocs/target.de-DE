@@ -5,9 +5,9 @@ title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehe
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1486'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 2. November | Bekannte Probleme und gelöste Probleme | Die Seite wurde entfernt und relevante Probleme wurden auf die entsprechenden Seiten verschoben, sodass Informationen im Kontext angezeigt werden. |
+| 2. November | Bekannte Probleme und gelöste Probleme | Die Seite wurde entfernt, und relevante Probleme wurden auf die entsprechenden Seiten verschoben, sodass Informationen im Kontext angezeigt werden. |
 | 25. Oktober | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.10.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden. |
 | 18. Oktober | [Erstellen einer [!UICONTROL Automated Personalization]-Aktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Der Text wurde aktualisiert, um darauf hinzuweisen, dass Sie zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, der Algorithmus aber am besten funktioniert, wenn weniger als 10.000 unterschiedliche Erlebnisse verwendet werden. Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist. |
