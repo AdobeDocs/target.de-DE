@@ -5,9 +5,9 @@ title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version 
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
-workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
    Mit dieser Version werden `averagetimespentonsite`-, `bouncerate`- und `entries`-Metriken in [!DNL Target]-Aktivitäten für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Mai 2023 weiterhin verwenden.
 
-* Ein Tooltip wurde in der [!DNL Target]-Benutzeroberfläche hinzugefügt, der Kunden bei der Auswahl eines Optimierungskriteriums hilft, während sie eine Aktivität von [!UICONTROL Automatisches Targeting], die A4T verwendet, erstellen oder bearbeiten.
+* Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden bei der Auswahl eines Optimierungskriteriums hilft, während sie eine Aktivität für [!UICONTROL Automatisches Targeting], die A4T verwendet, erstellen oder bearbeiten.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
