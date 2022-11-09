@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization] A
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization] Aktivität?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 61%
@@ -88,7 +88,7 @@ Die [!UICONTROL Automated Personalization] Aktivitäts-Workflow in [!DNL Adobe T
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Angebote]**, um Inhalte auszuwählen und sie den richtigen Berichtsgruppen zuzuweisen oder per Targeting nur bestimmten Besuchern die Anzeige bestimmter Angebote zu ermöglichen.
 
-   Weitere Informationen zu Berichtsgruppen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   Weitere Informationen zu Berichtsgruppen finden Sie unter [Berichtsgruppen für Angebote in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Abhängig von Ihrer Lizenz) Klicken Sie auf **[!UICONTROL Ausschlussgruppen]**, um beliebige Kombinationen der Elemente auszuwählen, die Sie aus der Aktivität ausschließen möchten.
 

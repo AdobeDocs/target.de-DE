@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Parameter an [!DNL Adobe T
 title: Kann ich ein Targeting von Besuchern anhand von benutzerdefinierten Parametern durchführen?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
    * Wenn Sie sich zwar an den Mbox-Namen, aber nicht an den Parameternamen erinnern, verwenden Sie die [!UICONTROL Filtern nach] Dropdown-Liste, um nach einer bekannten Mbox zu filtern, die den gewünschten Parameter übergibt.
 
    Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Zielgruppe basiert auf dem Parameter für alle Mboxes, die diesen Parameter übergeben.
+
+   >[!NOTE]
+   >
+   >Die Mbox, die Sie aus der [!UICONTROL Filtern nach] nicht bei der Erstellung einer Aktivität gespeichert werden. Mit dieser Option können Sie die Parameter nach der ausgewählten Mbox filtern.
 
    Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
 

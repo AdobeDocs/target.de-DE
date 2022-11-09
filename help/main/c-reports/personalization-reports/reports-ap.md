@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Automated Personalization-Zusammenfassung
 title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 34%
@@ -52,7 +52,7 @@ Klicken Sie auf den Erlebnisalgorithmus (Random Forest oder Kontrolle), um die [
 >
 >Ein Uhrsymbol zeigt an, dass das Algorithmusmodell noch erstellt wird. Ein Häkchen-Symbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-Angebote können in [Berichtsgruppen](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)und diese Berichtsgruppen reduziert und erweitert werden können. Klicken **[!UICONTROL Kontrolle]** oder **[!UICONTROL Targeting]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
+Angebote können in [Berichtsgruppen](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)und diese Berichtsgruppen reduziert und erweitert werden können. Klicken **[!UICONTROL Kontrolle]** oder **[!UICONTROL Targeting]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 

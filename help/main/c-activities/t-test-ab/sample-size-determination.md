@@ -4,10 +4,10 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Erfol
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 59%
+source-wordcount: '3085'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,7 @@ Es ist wichtig, vor einem A/B-Test eine angemessene Stichprobengröße (Anzahl d
 
 Dies kann zu vielen falsch-positiven Ergebnissen führen, was zur Implementierung von Angeboten führt, die nicht die prognostizierte Steigerung am Ende liefern. Eine schlechte Steigerung selbst ist ein unbefriedigendes Ergebnis, aber eine noch schwerwiegendere Folge ist, dass die Unfähigkeit, eine genaue Steigerung vorherzusagen, im Laufe der Zeit das Vertrauen der Organisation in Tests als Praxis untergräbt.
 
-Dieser Artikel erörtert die Faktoren, die bei der Ermittlung der Stichprobengröße abzuwägen sind, und stellt einen Tabellenrechner vor, mit dem sich eine angemessene Stichprobengröße schätzen lässt. Durch Berechnung der Stichprobengröße mithilfe des Stichprobengrößenrechners (Link siehe oben) vor Beginn eines A/B-Tests stellen Sie sicher, dass Sie jederzeit hochwertige A/B-Tests durchführen, die statistischen Standards entsprechen.
+In diesem Artikel werden die Faktoren erläutert, die bei der Ermittlung der Stichprobengröße ausgeglichen werden müssen, und ein Rechner zur Schätzung einer angemessenen Stichprobengröße eingeführt. Durch Berechnung der Stichprobengröße mithilfe des Stichprobengrößenrechners (Link siehe oben) vor Beginn eines A/B-Tests stellen Sie sicher, dass Sie jederzeit hochwertige A/B-Tests durchführen, die statistischen Standards entsprechen.
 
 Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese Parameter sind miteinander verknüpft, sodass sich der fünfte berechnen lässt, wenn vier der Parameter festgelegt wurden:
 
@@ -58,6 +58,11 @@ Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese
 * Zuverlässig bestimmbare Mindeststeigerung
 * Baseline-Konversionsrate
 * Anzahl der Besucher
+
+>[!IMPORTANT]
+>
+>Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie die Parameterzahlen ändern.
+
 
 Bei einem A/B-Test werden die statistische Bedeutung, Teststärke, zuverlässig bestimmbare Mindeststeigerung und Baseline-Konversionsrate durch einen Analysten festgelegt. Anschließend wird die erforderliche Anzahl der Besucher aus diesen Zahlen berechnet. In diesem Artikel werden diese Elemente erläutert und Richtlinien zur Ermittlung dieser Metriken für einen bestimmten Test festgelegt.
 

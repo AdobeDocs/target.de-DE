@@ -5,7 +5,7 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -163,7 +163,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-### Mbox-Parameter
+### Mbox-Parameter {#mbox-parameters}
 
 * **Limit**: Die folgenden Beschränkungen gelten für Mbox-Parameter:
 
@@ -192,7 +192,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 5000
+   * Maximale Länge des Profilparameterwerts: 256
 
    **Bereitstellungs-API – Endpunkt**:
 
@@ -203,7 +203,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 5000
+   * Maximale Länge des Profilparameterwerts: 256
 
 
 

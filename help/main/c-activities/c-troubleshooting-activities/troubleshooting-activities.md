@@ -4,10 +4,10 @@ description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site e
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 50%
 
 ---
 
@@ -19,11 +19,11 @@ Wenn Ihre [!DNL Adobe Target]-Aktivität nicht auf Ihrer Site erscheint, helfen 
 >
 >Zusätzlich zu den folgenden Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung in Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) Links zu weiteren Fehlerbehebungsthemen, FAQs und weitere nützliche Informationen zur Fehlerbehebung bei Aktivitäten und anderen [!DNL Adobe Target]-Funktionen.
 
-Die folgenden Abschnitte enthalten möglicherweise auftretende Probleme sowie Lösungsvorschläge.
+Die folgenden Abschnitte enthalten Probleme, auf die Sie möglicherweise mit vorgeschlagenen Lösungen stoßen.
 
 ## Es gelingt mir nicht, eine in der Benutzeroberfläche von [!DNL Target] erstellte Aktivität über die API zu aktualisieren.
 
-Aktivitäten, die in der Benutzeroberfläche von Target erstellt wurden, sollten auch über die Benutzeroberfläche aktualisiert werden. Dagegen sollten über die API erstellte Aktivitäten über die API aktualisiert werden. Wenn Sie beispielsweise eine ursprünglich über die API erstellte Aktivität in der Benutzeroberfläche von Target bearbeiten, werden nicht alle Änderungen aktualisiert. Diese Änderungen werden jedoch alle auf dem Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+Aktivitäten, die mithilfe der [!DNL Target] Die Benutzeroberfläche sollte über die [!DNL Target] Benutzeroberfläche. Dagegen sollten über die API erstellte Aktivitäten über die API aktualisiert werden. Wenn Sie ursprünglich eine Aktivität mit der API erstellt haben, bearbeiten Sie die Aktivität später über die [!DNL Target] -Benutzeroberfläche verwenden, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
 
 Machen Sie es sich zur Gewohnheit, eine Aktivität immer mit derselben Methode (UI oder API) zu aktualisieren, mit der sie ursprünglich erstellt wurde.
 
@@ -33,14 +33,14 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 ## Aktivität ist nicht live.
 
-**Validierung:** Gehen Sie zur Registerkarte Übersicht und prüfen Sie, ob der Test als inaktiv oder als Entwurf gekennzeichnet ist.
+**Validieren:** Navigieren Sie zu [!UICONTROL Übersicht] und überprüfen, ob der Test als inaktiv oder als Entwurf gekennzeichnet ist.
 
 **Optionen:**
 
 * Aktivieren Sie den Test.
 * Verwenden Sie die Linkvorschau, um einen inaktiven Test anzuzeigen.
 
-## Sie haben keine Berechtigung für die Targeting-Bedingungen der Zielgruppe.
+## Sie sind nicht für die Zielgruppen-Targeting-Bedingungen qualifiziert.
 
 **Validierung:** Prüfen Sie die Targeting-Bedingungen auf der Übersichtsseite.
 
@@ -49,13 +49,13 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 * Qualifizieren Sie sich und versuchen Sie es erneut.
 * Verwenden Sie die Linkvorschau, um die Targeting-Bedingungen zu umgehen.
 
-## Die Seite hat keine Berechtigung für die Seiten-Targeting-Bedingungen.
+## Die Seite ist nicht für die Seiten-Targeting-Bedingungen qualifiziert.
 
-**Validierung:** Ermitteln Sie auf der Übersichtsseite, ob die Seite nicht unter die Targeting-Bedingungen fällt.
+**Validieren:** Im [!UICONTROL Übersicht] bestimmen, ob die Seite außerhalb der Targeting-Bedingungen liegt.
 
 **Optionen:**
 
-* Gehen Sie zum Visual Experience Composer und klicken Sie auf URL\> Erweitert\>Aktuelle Seite.
+* Navigieren Sie zu [!UICONTROL Visual Experience Composer]klicken Sie auf URL > Erweitert > Aktuelle Seite.
 
 ## Anstelle eines neuen Erlebnisses wird ein früheres Erlebnis eingeblendet.
 
@@ -64,51 +64,50 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 **Optionen:**
 
 * Löschen Sie Cache und Cookies und versuchen Sie es erneut.
-
 * Versuchen Sie es mit einem anderen Browser.
 * Verwenden Sie den Privat-/Inkognito-Modus.
 
 ## Sie wurden kürzlich zu [!DNL Target] hinzugefügt, können jedoch keine Aktivitäten erstellen.
 
-**Validierung:** Klicken Sie auf Aktivität erstellen. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
+**Validierung:**[!UICONTROL  Klicken Sie auf Aktivität erstellen]. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
 
 **Optionen:**
 
-Nachdem Sie in Target als Benutzer hinzugefügt wurden, müssen Sie die Rolle „Genehmiger“ haben, damit Sie Aktivitäten erstellen können.
+Nachdem Sie als Benutzer in [!DNL Target], müssen Sie über die [!UICONTROL Genehmiger] Rolle, um Aktivitäten zu erstellen.
 
-* Bitten Sie den Administrator Ihres Konto darum, Ihnen die Genehmigerrolle zu geben.
-* Falls Sie selbst der Administrator sind, erteilen Sie sich in Target unter **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** die Rolle „Genehmiger“.
+* Bitten Sie den Administrator Ihres Kontos, Sie zu einem Genehmiger zu machen.
+* Wenn Sie der Administrator sind, geben Sie sich die [!UICONTROL Genehmiger] Rolle von **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** in [!DNL Target].
 
    Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Die Struktur der Seite hat sich seit der Einrichtung der Aktivität geändert.
 
-**Validierung:** Rufen Sie im Visual Experience Composer die vorhandene Aktivität auf. Suchen Sie nach einem Hinweis, der davor warnt, dass die Selektoren (oder die Struktur) verändert wurde(n).
+**Validierung:**[!UICONTROL  Rufen Sie im Visual Experience Composer die vorhandene Aktivität auf. ] Suchen Sie nach einem Hinweis, der davor warnt, dass die Selektoren (oder die Struktur) verändert wurde(n).
 
 **Optionen:**
 
 * Erstellen Sie die Aktivität erneut.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen dazu, wie sich Seitenänderungen auf [!DNL Target]Die Fähigkeit zur Anzeige, siehe [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Die Struktur der Seite wird während des Seitenladevorgangs (während der Laufzeit) verändert.
 
 **Validierung:** Fragen Sie den Entwickler.
 
-**Hinweis:** Damit Target erkennen kann, wo Änderungen der Aktivität vorgenommen werden sollten, sollten Sie das dynamische Einfügen von Elementen bei derselben Klasse bzw. die dynamische Modifizierung der Klasse von Geschwisterelementen vermeiden.
+**Hinweis:** Zur [!DNL Target] Um zu erkennen, wo Aktivitätsänderungen angewendet werden sollen, vermeiden Sie das dynamische Einfügen eines Elements mit derselben Klasse oder das dynamische Ändern der Klasse von Geschwisterelementen.
 
 **Optionen:**
 
-* Aktualisieren Sie den Seiten-Code, um jedes zu testende Element eindeutig zu identifizieren (mithilfe einer id).
+* Aktualisieren Sie den Seiten-Code, um jedes getestete Element eindeutig zu identifizieren (mithilfe einer ID).
 * Unterbrechen Sie die dynamische Modifizierung der Klasse oder Geschwister wie oben beschrieben.
 
-Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige von Target auswirken, finden Sie unter   [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Weitere Informationen dazu, wie sich Seitenänderungen auf [!DNL Target]Die Fähigkeit zur Anzeige, siehe [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Andere Aktivitäten werden auf derselben Seite ausgeführt.
 
-**Validierung:** Verwenden Sie die Registerkarte Kollisionen, um zu sehen, ob andere Aktivitäten ausgeführt werden.
+**Validieren:** Verwenden Sie die [!UICONTROL Kollisionen] , um zu sehen, ob andere Aktivitäten ausgeführt werden.
 
-**Hinweis:** Die Registerkarte Kollisionen funktioniert nicht mit dem Vorlagentestmodul.
+**Hinweis:**[!UICONTROL  Die Registerkarte Kollisionen funktioniert nicht mit dem Vorlagentestmodul.]
 
 **Optionen:**
 
@@ -118,19 +117,25 @@ Weitere Informationen darüber, wie Seitenmodifizierungen sich auf die Anzeige v
 
 ## Wenn Sie ein Profilskript löschen, wird eine Fehlermeldung angezeigt.
 
-**Validierung:** Beim Löschen eines Profilskripts aus Target Standard/Premium wird die Fehlermeldung „Profilskript konnte nicht gelöscht werden“ angezeigt.
+**Validierung:**[!DNL Target] Beim Löschen eines Profilskripts aus wird die Fehlermeldung „Profilskript konnte nicht gelöscht werden“ angezeigt.
 
 **Optionen:**
 
 Führen Sie einen der folgenden Schritte aus:
 
-* Erneut löschen. Die Erfolgsmeldung wird angezeigt.
-* Warten Sie ungefähr 10 Minuten, bis der Target Standard-/Premium-Importer ausgeführt werden kann. Der Importer aktualisiert die Profilskriptliste.
+* Löschen Sie das Profilskript erneut. Die Erfolgsmeldung wird angezeigt.
+* Warten Sie etwa 10 Minuten auf die [!DNL Target] Importer zur Ausführung. Der Importer aktualisiert die Profilskriptliste.
 
 ## Einige ajax-Aufrufe von [!DNL Target] funktionieren nicht.
 
-**Hinweis:** Mehrere ajax-Aufrufe von [!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
+**Hinweis:** Mehrere Ajax [!DNL Target] -Aufrufe mit demselben Namen, aber unterschiedlichen Parametern funktionieren nicht auf derselben Seite. Nur der erste Aufruf erfolgt.
 
 ## Sie haben über die API von [!DNL Target] eine Aktivität aktiviert, aber die Aktivität hat in der Benutzeroberfläche von [!DNL Target] den Status [!UICONTROL Inaktiv].
 
-Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Aktivität außerhalb der Benutzeroberfläche über die Target-API, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
+Wenn Sie bestimmte Aktionen ausführen, z. B. eine Aktivität außerhalb der Benutzeroberfläche mit der [!DNL Target] API verwenden, kann es bis zu zehn Minuten dauern, bis die Aktualisierung auf die Benutzeroberfläche übertragen wird.
+
+## Nach der Aktivitätskonvertierung befindet sich der Besucher in keinem Erlebnis.
+
+Wenn die Konversionsmetrik der Aktivität, um sich für ein Erlebnis zu qualifizieren, im selben Versand gesendet wird [!DNL Target] als Aktivitätsqualifikation anzufordern, befindet sich der Besucher möglicherweise nicht mehr in einem Erlebnis, nachdem die Anfrage gesendet wurde. In dieser Situation sieht der Besucher Standardinhalte. [!DNL Adobe] empfiehlt, keine Aktivitätskonvertierung und -qualifikation in derselben Anforderung zu senden.
+
+Wenn Sie beide Einstellungen in derselben Anforderung senden möchten, können Sie [!UICONTROL Erweiterte Einstellungen] , um anzugeben, dass der Besucher nach der Konvertierung im selben Erlebnis verbleibt.
