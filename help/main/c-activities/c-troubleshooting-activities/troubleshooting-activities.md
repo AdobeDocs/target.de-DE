@@ -4,9 +4,9 @@ description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site e
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ Wenn Sie bestimmte Aktionen ausführen, z. B. eine Aktivität außerhalb der Ben
 
 ## Nach der Aktivitätskonvertierung befindet sich der Besucher in keinem Erlebnis.
 
-Wenn die Konversionsmetrik der Aktivität, um sich für ein Erlebnis zu qualifizieren, im selben Versand gesendet wird [!DNL Target] als Aktivitätsqualifikation anzufordern, befindet sich der Besucher möglicherweise nicht mehr in einem Erlebnis, nachdem die Anfrage gesendet wurde. In dieser Situation sieht der Besucher Standardinhalte. [!DNL Adobe] empfiehlt, keine Aktivitätskonvertierung und -qualifikation in derselben Anforderung zu senden.
+Wenn die Konversionsmetrik der Aktivität, um sich für ein Erlebnis zu qualifizieren, in seltenen Fällen in derselben Anforderung wie die Aktivitätsqualifizierung gesendet wird, kann es vorkommen, dass der Besucher nach dem Senden der Anfrage in keinem Erlebnis ist. In dieser Situation sieht der Besucher, dass die standardmäßige Inhalts- und Erlebnis-ID, die über Token erfasst wird, -1 lautet. [!DNL Adobe] empfiehlt nicht, Aktivitätsqualifikation und Konversion im selben [!DNL Target] -Anfrage.
 
-Wenn Sie beide Einstellungen in derselben Anforderung senden möchten, können Sie [!UICONTROL Erweiterte Einstellungen] , um anzugeben, dass der Besucher nach der Konvertierung im selben Erlebnis verbleibt.
+Wenn Sie beide Metriken in derselben Anforderung senden möchten, können Sie [!UICONTROL Erweiterte Einstellungen] , um anzugeben, dass der Besucher nach der Konvertierung im selben Erlebnis verbleibt.
