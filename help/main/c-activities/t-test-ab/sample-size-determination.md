@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;Stichprobengröße;Stichprobengrößenrechner;automatische Zuordnung;automatische Zuordnung;Rechner
-description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Erfolgreicher A/B-Test in Adobe [!DNL Target] erfordert genügend Besucher (Stichprobengröße), um Ihre Konversionsrate zu verbessern.
+description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Ein erfolgreicher A/B-Test in [!DNL Adobe Target] erfordert genügend Besucher (Stichprobengröße), um Ihre Konversionsrate zu verbessern.
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordn
 
 Wenn Sie sich für die Verwendung eines [!UICONTROL A/B-Test] -Aktivität anstelle von [!UICONTROL Automatische Zuordnung], die [!DNL Target] Mit dem Stichprobengrößenrechner können Sie die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner hilfreich. Verwenden des Taschenrechners für eine [!UICONTROL Automatische Zuordnung] -Aktivität ist optional, da [!UICONTROL Automatische Zuordnung] erklärt einen Gewinner für Sie. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-Bevor Sie Ihren A/B-Test einrichten, rufen Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Bevor Sie Ihren A/B-Test einrichten, rufen Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de).
 
-![Adobe Target-Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de)
+![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Es ist wichtig, vor einem A/B-Test eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um die Zeit zu bestimmen, die die Aktivität vor der Auswertung der Ergebnisse ausführen soll. Eine einfache Überwachung der Aktivität bis zur Erreichung der statistischen Bedeutung führt dazu, dass das Konfidenzintervall stark unterschätzt wird, was den Test unzuverlässig macht. Mit diesem Ergebnis wird beabsichtigt, dass - für den Fall, dass ein statistisch signifikantes Ergebnis entdeckt wird - der Test gestoppt und ein Gewinner ernannt wird. Sollte das Ergebnis jedoch nicht statistisch signifikant sein, wird der Test weiter ausgeführt. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
 
