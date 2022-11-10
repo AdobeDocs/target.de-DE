@@ -4,9 +4,9 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Erfol
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
+source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3093'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ Wenn Sie sich für die Verwendung eines [!UICONTROL A/B-Test] -Aktivität anstel
 
 Bevor Sie Ihren A/B-Test einrichten, rufen Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
+![Adobe Target-Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de)
 
 Es ist wichtig, vor einem A/B-Test eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um die Zeit zu bestimmen, die die Aktivität vor der Auswertung der Ergebnisse ausführen soll. Eine einfache Überwachung der Aktivität bis zur Erreichung der statistischen Bedeutung führt dazu, dass das Konfidenzintervall stark unterschätzt wird, was den Test unzuverlässig macht. Mit diesem Ergebnis wird beabsichtigt, dass - für den Fall, dass ein statistisch signifikantes Ergebnis entdeckt wird - der Test gestoppt und ein Gewinner ernannt wird. Sollte das Ergebnis jedoch nicht statistisch signifikant sein, wird der Test weiter ausgeführt. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
 
