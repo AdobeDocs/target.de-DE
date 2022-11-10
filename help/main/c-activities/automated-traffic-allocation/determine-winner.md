@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Ergebnisse einer A/B-Aktivität mit autom
 title: Wie interpretiere ich Berichte mit automatisierter Zuordnung?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1222'
 ht-degree: 44%
 
 ---
@@ -47,7 +47,7 @@ Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. Für
 
 >[!IMPORTANT]
 >
->Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung über die Auswahl des Gewinners sollte jedoch stets auf den Ergebnissen der Adobe Target liegen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de). Target berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target zeigt einen Gewinner nach einer vordefinierten Mindestanzahl von Konversionen an. Die endgültige Entscheidung zur Auswahl des Gewinners sollte jedoch stets auf den Ergebnissen der [!DNL Adobe Target] Stichprobengrößenrechner. [!DNL Target] berücksichtigt nicht die grundlegenden Konversionsraten einer Site und andere wichtige Aspekte, die in den Rechner eingespeist werden, um die Dauer der Aktivität zu bestimmen. Daher kann Target auf der Grundlage einer Mindestanzahl von Konversionen einen Gewinner anzeigen, der früher als angezeigt wurde. Weitere Informationen finden Sie unter [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Berichte zu Steigerung und Konfidenz in Aktivitäten mit automatisierter Zuordnung {#lift-confidence}
 
@@ -75,7 +75,8 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
    Bei der automatischen Zuordnung wird die Wahrscheinlichkeit gezeigt, mit der ein bestimmtes Erlebnis aus allen Erlebnissen als Gewinner hervorgeht. Das bedeutet, dass nur ein erfolgreichstes Erlebnis (dasjenige Erlebnis, das am wahrscheinlichsten als Gewinner hervorgeht) über einen Wert verfügt, der nicht 0 ist. Alle anderen Erlebnisse werden als wahrscheinliche Verlierer eingestuft und mit dem Wert 0 % angezeigt.
 
-* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzwerte treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert ist). Um zu bestimmen, wie lange ein normaler A/B-Test laufen würde, verwenden Sie bitte eine [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): Konversionsrate der Kontrolle in &quot;Baseline-Konversionsrate&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;Konfidenz&quot;in 95 %. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
+* Die Konfidenz wird in der automatischen Zuordnung nur angezeigt, nachdem das erfolgreichste Erlebnis einen Wert von mehr als 60 % erzielen konnte. Diese Konfidenzwerte treten in der Regel in etwa der Hälfte der Zeit auf, die ein normaler A/B-Test dauern würde (obwohl dies nicht garantiert ist). Um zu bestimmen, wie lange ein normaler A/B-Test laufen würde, verwenden Sie bitte die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6): Konversionsrate der Kontrolle in &quot;Baseline-Konversionsrate&quot;, &quot;5 %&quot;für &quot;Steigerung&quot;und &quot;Konfidenz&quot;in 95 %. Typischerweise wird die Konfidenz angezeigt, nachdem jedes Erlebnis mindestens 50 % der erforderlichen Stichproben pro Erlebnis sammeln konnte. Somit erhalten Sie einen Überblick darüber, wann die Konfidenz höchstwahrscheinlich angezeigt wird.
+
 * Wird im Bericht überall der Wert 0 % angezeigt, ist die Aktivität höchstwahrscheinlich noch nicht lange genug online.
 
 ### Sind die Abzeichen „Kein Gewinner“, „Gewinner“ und „Stern“ verfügbar für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung], die [!UICONTROL Analytics als Berichtsquelle] (A4T) verwenden?

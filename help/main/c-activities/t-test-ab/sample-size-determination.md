@@ -4,10 +4,10 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Erfol
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordn
 
 Wenn Sie sich für die Verwendung eines [!UICONTROL A/B-Test] -Aktivität anstelle von [!UICONTROL Automatische Zuordnung], die [!DNL Target] Mit dem Stichprobengrößenrechner können Sie die für einen erfolgreichen Test erforderliche Stichprobengröße bestimmen. Ein manueller A/B-Test ist ein fester Horizonttest, daher ist der Rechner hilfreich. Verwenden des Taschenrechners für eine [!UICONTROL Automatische Zuordnung] -Aktivität ist optional, da [!UICONTROL Automatische Zuordnung] erklärt einen Gewinner für Sie. Der Rechner gibt Ihnen eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-Bevor Sie Ihren A/B-Test einrichten, greifen Sie auf die Adobe Target zu [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de).
+Bevor Sie Ihren A/B-Test einrichten, rufen Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese
 
 >[!IMPORTANT]
 >
->Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie die Parameterzahlen ändern.
-
+>Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie die Parameterzahlen ändern. Wiederholen Sie diesen Vorgang jedes Mal, wenn Sie Parameterzahlen ändern.
 
 Bei einem A/B-Test werden die statistische Bedeutung, Teststärke, zuverlässig bestimmbare Mindeststeigerung und Baseline-Konversionsrate durch einen Analysten festgelegt. Anschließend wird die erforderliche Anzahl der Besucher aus diesen Zahlen berechnet. In diesem Artikel werden diese Elemente erläutert und Richtlinien zur Ermittlung dieser Metriken für einen bestimmten Test festgelegt.
 

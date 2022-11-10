@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Aktivität vom Typ "Automatische Zuordnu
 title: Was ist eine Aktivität vom Typ "Automatische Zuordnung"?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3565'
 ht-degree: 50%
 
 ---
@@ -173,7 +173,10 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder häufiger be
 
 ### Kann ich den Stichprobengrößenrechner bei Verwendung von [!UICONTROL Automatische Zuordnung] um abzuschätzen, wie lange die Aktivität dauert, um den Gewinner zu identifizieren?
 
-Sie können die vorhandenen [Stichprobengrößenrechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) um eine Schätzung der Laufzeit des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests wenden Sie die Bonferroni-Korrektur an, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Dieser Rechner ist für herkömmliche A/B-Tests mit festem Horizont konzipiert und liefert nur eine Schätzung. Verwenden des Taschenrechners für eine [!UICONTROL Automatische Zuordnung] -Aktivität ist optional, da [!UICONTROL Automatische Zuordnung] erklärt einen Gewinner für Sie. Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen. Die bereitgestellten Werte sind immer statistisch gültig. In unseren Experimenten haben wir Folgendes gefunden:
+Sie können die vorhandenen [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um eine Schätzung der Laufzeit des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests wenden Sie die Bonferroni-Korrektur an, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Dieser Rechner ist für herkömmliche A/B-Tests mit festem Horizont konzipiert und liefert nur eine Schätzung. Verwenden des Taschenrechners für eine [!UICONTROL Automatische Zuordnung] -Aktivität ist optional, da [!UICONTROL Automatische Zuordnung] erklärt einen Gewinner für Sie. Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen. Die bereitgestellten Werte sind immer statistisch gültig.
+
+In unseren Experimenten haben wir Folgendes gefunden:
+
 * Beim Testen von genau zwei Erlebnissen [!UICONTROL Automatische Zuordnung] sucht schneller einen Gewinner als die Tests mit fixen Horizonten (d. h. den vom Stichprobengrößenrechner empfohlenen Zeitrahmen), wenn der Leistungsunterschied zwischen Erlebnissen groß ist. Allerdings [!UICONTROL Automatische Zuordnung] kann zusätzliche Zeit erfordern, um einen Gewinner zu identifizieren, wenn der Leistungsunterschied zwischen Erlebnissen gering ist. In diesen Fällen wären Tests mit festem Horizont in der Regel ohne ein statistisch signifikantes Ergebnis beendet worden.
 * Beim Testen von mehr als zwei Erlebnissen [!UICONTROL Automatische Zuordnung] sucht schneller einen Gewinner als die Tests mit fixen Horizonten (d. h. den vom Stichprobengrößenrechner empfohlenen Zeitrahmen), wenn ein einziges Erlebnis alle anderen Erlebnisse deutlich übertrifft. Wenn zwei oder mehr Erlebnisse beide im Vergleich zu anderen Erlebnissen &quot;gewinnen&quot;, aber eng miteinander übereinstimmen, [!UICONTROL Automatische Zuordnung] kann zusätzliche Zeit erfordern, um festzustellen, welcher überlegen ist. In diesen Fällen wären Tests mit festgelegtem Horizont normalerweise zu dem Schluss gekommen, dass die &quot;erfolgreichsten&quot;Erlebnisse besser waren als die Erlebnisse mit geringerer Leistung, aber nicht ermittelt hätten, welches Erlebnis überlegen war.
 
