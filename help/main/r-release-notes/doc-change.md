@@ -5,9 +5,9 @@ title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehe
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
-workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt, dass Sie die Seite neu laden müssen, bevor Sie die Parameterzahlen in der [!DNL Adobe Target] [!UICONTROL Stichprobengrößenrechner]. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank}. |
-|  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für `adobe_mc_sdid` -Parameter in der Tabelle. |
-|  | [Fehlerbehebung für Aktivitäten](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Neuer Abschnitt wurde hinzugefügt: &quot;Nach der Aktivitätskonvertierung befindet sich der Besucher in keinem Erlebnis.&quot; |
-|  | [Benutzerdefinierte Parameter](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Es wurde ein Hinweis hinzugefügt, dass die Mbox, die Sie aus der [!UICONTROL Filtern nach] nicht bei der Erstellung einer Aktivität gespeichert werden. Mit dieser Option können Sie die Parameter nach der ausgewählten Mbox filtern. |
+| 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
+|  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |
+|  | [Fehlerbehebung für Aktivitäten](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Es wurde der neue Abschnitt hinzugefügt: „Nach der Aktivitätskonversion befindet sich der Besucher in keinem Erlebnis.“ |
+|  | [Benutzerdefinierte Parameter](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Es wurde ein Hinweis hinzugefügt: Die mBox, die Sie aus der Dropdown-Liste [!UICONTROL Filtern nach] auswählen, wird bei der Erstellung einer Aktivität nicht gespeichert. Mit dieser Option können Sie die Parameter je nach der ausgewählten mBox filtern. |
 | 2. November | Bekannte Probleme und gelöste Probleme | Die Seite wurde entfernt, und relevante Probleme wurden auf die entsprechenden Seiten verschoben, sodass Informationen im Kontext angezeigt werden. |
 | 25. Oktober | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.10.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden. |
