@@ -4,14 +4,14 @@ description: Erfahren Sie, wie eine Aktivität vom Typ "Automatisches Targeting"
 title: Was ist eine Aktivität vom Typ Automatisches Targeting?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Überblick über Automatisches Targeting
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automatisches Targeting] Übersicht
 
 [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Adobe Target] Verwenden Sie das erweiterte maschinelle Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auszuwählen, um Inhalte zu personalisieren und Konversionen zu fördern. Beim automatischen Targeting wird jedem Besucher basierend auf dem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das am besten angepasste Erlebnis bereitgestellt.
 
@@ -46,7 +46,7 @@ Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung an einen bes
 Bei der Verwendung von [!UICONTROL Automatisches Targeting]:
 
 * Es ist nicht möglich, eine bestimmte Aktivität von [!UICONTROL Automatisches Targeting] nach Automated Personalization und umgekehrt.
-* Sie können nicht von der manuellen Traffic-Zuordnung (herkömmlicher A/B-Test) zu [!UICONTROL Automatisches Targeting]und umgekehrt, nachdem eine Aktivität live ist.
+* Sie können nicht von der manuellen Traffic-Zuordnung (herkömmlicher A/B-Test) zu [!UICONTROL Automatisches Targeting]und umgekehrt, nachdem eine Aktivität als Entwurf gespeichert wurde.
 * Ein Modell wird erstellt, um die Leistung der personalisierten Strategie im Vergleich zum zufällig bereitgestellten Traffic im Vergleich zum Senden des gesamten Traffics an das insgesamt erfolgreichste Erlebnis zu ermitteln. Dieses Modell berücksichtigt nur Treffer und Konversionen in der Standardumgebung.
 
    Der Traffic aus einem zweiten Satz von Modellen wird für jede Modellgruppe (AP) oder jedes Erlebnis (AT) erstellt. Für jedes dieser Modelle werden Treffer und Konversionen in allen Umgebungen berücksichtigt.
