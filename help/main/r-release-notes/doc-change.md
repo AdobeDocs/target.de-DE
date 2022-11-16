@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Informationen zu Änderungen an der Target-Dokumentation sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 16. November | [Adobe Target-Mitteilungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen für das folgende Ereignis wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (29. November)</li></ul> |
 | 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |
 |  | [Fehlerbehebung für Aktivitäten](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Es wurde der neue Abschnitt hinzugefügt: „Nach der Aktivitätskonversion befindet sich der Besucher in keinem Erlebnis.“ |
