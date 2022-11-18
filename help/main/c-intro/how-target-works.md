@@ -5,9 +5,9 @@ title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    [!DNL Adobe] sucht weiterhin nach praktikablen Lösungen, die vollständig konform mit den Suchmaschinenrichtlinien sind. [!DNL Adobe] ist zuversichtlich, dass sich das mit diesem Ansatz verbundene Risiko für alle Kunden, die mehrere URLs zum Testen verwenden müssen, durch eine ordnungsgemäße Implementierung der kanonischen Tags verringert.
 
-* **Durchführen der Experimente nur so lange wie nötig**: Für [!DNL Adobe] bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. [!DNL Target] bietet Best Practices und [!DNL Adobe Target] [Stichprobengrößenrechner] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6), um zu bestimmen, wann Ihr Test diesen Punkt erreicht hat. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
+* **Durchführen der Experimente nur so lange wie nötig**: Für [!DNL Adobe] bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. [!DNL Target] bietet Best Practices und den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6), um zu bestimmen, wann Ihr Test diesen Punkt erreicht hat. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
 
    Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test für 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartcodierung des erfolgreichsten Tests noch durchgeführt wird.
 
