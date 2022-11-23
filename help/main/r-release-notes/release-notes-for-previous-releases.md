@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '34836'
+source-wordcount: '34852'
 ht-degree: 96%
 
 ---
@@ -3754,11 +3754,11 @@ Diese Version enthält folgende neue Funktionen:
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Analytics-erweiterte Berichterstellung für Adobe Target </td> 
-   <td colname="col2"> Adobe Analytics-Kunden können Analytics als Standard-Berichtquelle während des <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">Testsetup-Prozesses</a> auswählen. Sie müssen nicht mehr alle Erfolgsmetriken oder Zielgruppen auswählen, mit denen Ihre Ergebnisse gefiltert werden sollen. Bei der Berichterstellung können Sie eine beliebige Erfolgsmetrik oder ein Zielgruppensegment auswählen, die bzw. das in Analytics definiert ist, und es dann nachträglich auf Ihre Berichterstellung anwenden, um durch umfangreiche Filterung und Aufschlüsselung bestmögliche Analysen zu erhalten. <p> <p>Hinweis: Um Zugriff auf diese Funktion anzufordern, besuchen Sie <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics-Kunden können Analytics als Standard-Berichtquelle während des <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">Testsetup-Prozesses</a> auswählen. Sie müssen nicht mehr alle Erfolgsmetriken oder Zielgruppen auswählen, mit denen Ihre Ergebnisse gefiltert werden sollen. Bei der Berichterstellung können Sie eine beliebige Erfolgsmetrik oder ein Zielgruppensegment auswählen, die bzw. das in Analytics definiert ist, und es dann nachträglich auf Ihre Berichterstellung anwenden, um durch umfangreiche Filterung und Aufschlüsselung bestmögliche Analysen zu erhalten. <p> <p>Hinweis: Um Zugriff auf diese Funktion anzufordern, besuchen Sie <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Marketing-Masterprofil für Zielgruppen in Echtzeit </td> 
-   <td colname="col2"> Nutzen Sie das Marketing-Masterprofil, das Besucher-IDs und Daten zu einem einsatzfähigen Profil zusammenfasst, welches dann lösungsübergreifend genutzt werden kann. Wenn Sie während der Segmenterstellung in Adobe Analytics ein Kontrollkästchen aktivieren, wird das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar gemacht. Ein in Analytics oder in Audience Manager erstelltes Segment oder kann verwendet werden, um Besucher in Target gezielt anzusprechen. <p> <p>Hinweis: Um Zugriff auf diese Funktion anzufordern, besuchen Sie <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>. </p> </p> </td> 
+   <td colname="col2"> Nutzen Sie das Marketing-Masterprofil, das Besucher-IDs und Daten zu einem einsatzfähigen Profil zusammenfasst, welches dann lösungsübergreifend genutzt werden kann. Wenn Sie während der Segmenterstellung in Adobe Analytics ein Kontrollkästchen aktivieren, wird das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar gemacht. Ein in Analytics oder in Audience Manager erstelltes Segment oder kann verwendet werden, um Besucher in Target gezielt anzusprechen. <p> <p>Hinweis: Um Zugriff auf diese Funktion anzufordern, besuchen Sie <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aktivitätstyp „Erlebnis-Targeting“ </td> 

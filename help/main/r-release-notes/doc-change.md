@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo finde ich Aktualisierungen der Dokumentation für [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1608'
-ht-degree: 98%
+source-wordcount: '1639'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16. November | [Adobe Target-Mitteilungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen für das folgende Ereignis wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (29. November)</li></ul> |
 | 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |

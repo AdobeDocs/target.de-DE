@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Implementierungsanforderungen für Anal
 title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 28%
+source-wordcount: '995'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ Bevor Sie sich für die Verwendung dieser Integration entscheiden, überprüfen 
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung von A4T beginnen können, müssen Sie die Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie die [Bereitstellungsformular für Marketing Cloud-Integrationen](https://www.adobe.com/go/audiences) , um die Bereitstellung anzufordern.
+>Bevor Sie mit der Verwendung von A4T beginnen können, müssen Sie die Bereitstellung Ihres Kontos für die Integration anfordern. Verwenden Sie die [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} , um die Bereitstellung anzufordern.
 
 Für diese A4T-Integration müssen Sie in Abhängigkeit davon, ob Sie Weiterleitungsangebote in A4T verwenden möchten oder nicht, die folgenden Bibliotheksversionen (oder neuere) implementieren.
 
@@ -97,7 +97,7 @@ Es gibt Fälle, in denen Sie mehr Kontrolle darüber haben möchten, wann und wi
 
 ## Freigegebene Zielgruppen
 
-Beim Füllen der [Bereitstellungsformular für Marketing Cloud-Integrationen](https://www.adobe.com/go/audiences)sind sich der folgenden wichtigen Informationen bezüglich der [!UICONTROL Freigegebene Zielgruppen] Option aufgeführt unter[!UICONTROL Für welche Funktionen fordern Sie Bereitstellung an]?&quot;
+Beim Füllen der [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, beachten Sie die folgenden wichtigen Informationen zum [!UICONTROL Freigegebene Zielgruppen] Option aufgeführt unter[!UICONTROL Für welche Funktionen fordern Sie Bereitstellung an]?&quot;
 
 ![Anforderungsformular](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
