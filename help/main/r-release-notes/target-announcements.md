@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://bu
 * **8:00 bis 9:00 Uhr (PST GMT-8)**
 * **[Informationen zur Registrierung](https://adobe.ly/3UtQoxv){target=_blank}**
 
-Gemeinsam mit Cristinel Anastasoie, Senior Product Manager für [!DNL Adobe Target], der Ihre Fragen im Zusammenhang mit dem [!DNL Adobe Target] Webinar auf [KI-gesteuerte Personalisierung und Recommendations](#AI).
+Bei uns ist Cristinel Anastasoaie, Senior Product Manager für [!DNL Adobe Target]. Er wird Ihre Fragen zum [!DNL Adobe Target]-Webinar über [KI-gesteuerte Personalisierung und Empfehlungen](#AI) beantworten.
 
-Sehen Sie sich die Aufzeichnung des Webinars an und stellen Sie dann Ihre Folgenachfragen für umfassende Einblicke, tiefere Erläuterungen und strategische Vorschläge für Ihre einzigartigen Anwendungsfälle.
+Sehen Sie sich die Aufzeichnung des Webinars an und stellen Sie dann Ihre Fragen, um umfassende Einblicke, detaillierte Erläuterungen und strategische Vorschläge für Ihre speziellen Anwendungsfälle zu erhalten.
 
-* Optimieren von Echtzeitempfehlungen, Personalisierungsaktivitäten mit einem Klick und automatisierten Angeboten
-* Erstellen und starten Sie KI-gesteuerte Personalisierungsaktivitäten mithilfe der [!UICONTROL Visual Experience Composer] (VEC)
-* Integrieren mit [!DNL Adobe Experience Platform] (AEP) für die Freigabe von Echtzeit-Segmenten und Profilattributen
+* Optimierung von Echtzeitempfehlungen, Personalisierungsaktivitäten mit einem Klick und automatisierte Angebote
+* Erstellen und starten Sie KI-gesteuerte Personalisierungsaktivitäten mithilfe von [!UICONTROL Visual Experience Composer] (VEC)
+* Integration mit [!DNL Adobe Experience Platform] (AEP) für die Freigabe von Echtzeit-Segmenten und Profilattributen
 
-[!DNL Adobe] Der technische Support-Mitarbeiter Simon Chen wird Ihnen zusätzliche Einblicke und Antworten auf Ihre Fragen geben.
+Simon Chen, Mitarbeiter für technischen Support bei [!DNL Adobe], wird Ihnen zusätzliche Einblicke geben und Ihre Fragen beantworten.
 
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
