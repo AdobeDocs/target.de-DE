@@ -4,7 +4,7 @@ description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und ve
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 51%
@@ -48,7 +48,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 
 Funktionen können von blockiert werden [!DNL Target] Algorithmen des maschinellen Lernens, die deren Verwendung in allen [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] -Modell oder -Aktivität.
 
-Weitere Informationen finden Sie unter [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ## Gerät und Mobildaten {#device-mobile}
 
