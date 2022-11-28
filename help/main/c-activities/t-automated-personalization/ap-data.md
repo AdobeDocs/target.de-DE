@@ -4,10 +4,10 @@ description: Erfahren Sie, welche Daten Adobe haben [!DNL Target] erfasst und ve
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
-ht-degree: 50%
+source-wordcount: '2029'
+ht-degree: 51%
 
 ---
 
@@ -48,9 +48,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 
 Funktionen können von blockiert werden [!DNL Target] Algorithmen des maschinellen Lernens, die deren Verwendung in allen [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] -Modell oder -Aktivität.
 
-So blockieren Sie eine Kategorie von Funktionen in [!DNL Target] Algorithmen für maschinelles Lernen, Kontakt [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) und geben Sie die Funktionskategorien an, die blockiert werden sollen, unter Verwendung der oben angegebenen Systempräfixe.
-
-So blockieren Sie eine oder mehrere spezifische Funktionen in [!DNL Target] Algorithmen für maschinelles Lernen, Kontakt [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) und geben Sie die spezifischen Funktionsnamen an, die blockiert werden sollen. Verwenden Sie dazu die unten angegebenen Systemnamen. Die folgenden Abschnitte enthalten detaillierte Informationen zu den verschiedenen Datentypen, einschließlich Attributnamen, Beschreibungen und Beispielwerte.
+Weitere Informationen finden Sie unter [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ## Gerät und Mobildaten {#device-mobile}
 

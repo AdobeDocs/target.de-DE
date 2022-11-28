@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo finde ich Aktualisierungen der Dokumentation für [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 97%
+source-wordcount: '1681'
+ht-degree: 95%
 
 ---
 
@@ -19,15 +19,16 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 28. November | [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*. | Neue Modelle-API.<br>Funktionen können von blockiert werden [!DNL Target] Algorithmen des maschinellen Lernens, die deren Verwendung in allen [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] -Modell oder -Aktivität. |
 | 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
-| 16. November | [Adobe Target-Mitteilungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen für das folgende Ereignis wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (29. November)</li></ul> |
+| 16. November | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zur Registrierung für die folgende Veranstaltung wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Kaffeepause mit Fragen und Antworten (29. November)</li></ul> |
 | 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |
 |  | [Fehlerbehebung für Aktivitäten](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Es wurde der neue Abschnitt hinzugefügt: „Nach der Aktivitätskonversion befindet sich der Besucher in keinem Erlebnis.“ |
-|  | [Benutzerdefinierte Parameter](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Es wurde ein Hinweis hinzugefügt: Die mBox, die Sie aus der Dropdown-Liste [!UICONTROL Filtern nach] auswählen, wird bei der Erstellung einer Aktivität nicht gespeichert. Mit dieser Option können Sie die Parameter je nach der ausgewählten mBox filtern. |
+|  | [Benutzerdefinierte Parameter](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Es wurde ein Hinweis hinzugefügt: Die mbox, die Sie aus der Dropdown-Liste [!UICONTROL Filtern nach] auswählen, wird bei der Erstellung einer Aktivität nicht gespeichert. Mit dieser Option können Sie die Parameter je nach der ausgewählten mbox filtern. |
 | 2. November | Bekannte Probleme und gelöste Probleme | Die Seite wurde entfernt, und relevante Probleme wurden auf die entsprechenden Seiten verschoben, sodass Informationen im Kontext angezeigt werden. |
 | 25. Oktober | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.10.3 von [!DNL Target Standard/Premium] hinzugefügt. |
-| 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden. |
+| 19. Oktober | [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Es wurde ein Hinweis hinzugefügt, der die Bewertung erklärt, wenn mehrere Kategorien innerhalb eines einzelnen mbox-Aufrufs übergeben werden. |
 | 18. Oktober | [Erstellen einer [!UICONTROL Automated Personalization]-Aktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Der Text wurde aktualisiert, um darauf hinzuweisen, dass Sie zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, der Algorithmus aber am besten funktioniert, wenn weniger als 10.000 unterschiedliche Erlebnisse verwendet werden. Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist. |
 |  | [Häufig gestellte Fragen zur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Der Text wurde aktualisiert, um darauf hinzuweisen, dass Sie zwar bis zu 30.000 Erlebnisse in einem AP-Test erstellen können, der Algorithmus aber am besten funktioniert, wenn weniger als 10.000 unterschiedliche Erlebnisse verwendet werden. Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist. |
 | 14. Oktober | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen über die [!DNL Adobe Target]-Kaffeepause mit Fragen und Antworten der Community (26. Oktober 2022) wurden hinzugefügt. |
