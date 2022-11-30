@@ -5,10 +5,10 @@ title: Kann ich Besucher nach Standort ansprechen?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 50%
+source-wordcount: '1041'
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ Mit Geo-Positionsparametern können Sie Aktivitäten und Erlebnisse anhand der g
    * [!UICONTROL DMA]
    * [!UICONTROL Mobilnetzbetreiber]
 
-   Die IP-Adresse eines Besuchers wird mit einer Mbox-Anfrage einmal pro Besuch (Sitzung) übermittelt, um Geotargeting-Parameter für den betreffenden Besucher aufzulösen.
+   Die Geoinformationen eines Besuchers werden anhand der ursprünglichen IP-Adresse eines [!DNL Target] Ortsanforderung (Mbox-Anfrage). Die IP-zu-Geo-Auflösung erfolgt für den ersten Aufruf einer neuen Sitzung. Wenn sich also die IP-Adresse eines Besuchers während der Sitzung eines Besuchs ändert, basieren die geografischen Informationen weiterhin auf der IP-Adresse des ersten Aufrufs.
 
    Für [!UICONTROL Mobilnetzbetreiber], [!DNL Target] verwendet die IP-Adressregistrierungsdaten (der Eigentümer des IP-Adressblocks ist), um den geeigneten Mobilnetzbetreiber mithilfe von [Mobile Country Codes (MCC) und Mobile Network Codes (MNC)](https://www.mcc-mnc.com).
 
@@ -49,7 +49,7 @@ Die folgende Abbildung zeigt eine Zielgruppe, die Benutzer auswählt, die von ei
 
 ## Genauigkeit {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn der Besucher eine mobile Datenverbindung nutzt, kann die Genauigkeit der Standortsuche durch den Standort, die Datenbeziehung zwischen dem Anbieter und [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) und anderen Faktoren beeinflusst werden. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Außerdem kann die IP-Adresse eines Besuchers dem ISP-Standort des Besuchers zugeordnet werden, der möglicherweise nicht mit dem tatsächlichen Standort des Besuchers übereinstimmt. Einige Probleme mit dem mobilen geografischen Standort können mithilfe des [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+Die Genauigkeit von Geotargeting hängt von verschiedenen Faktoren ab. WLAN-Verbindungen sind genauer als Mobilfunknetze. Wenn ein Besucher eine mobile Datenverbindung verwendet, kann die Genauigkeit der Geo-Suche durch den Standort, die Datenbeziehung zwischen dem Anbieter und [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)und anderen Faktoren. Durch Mobilfunkmasten gestützte Netzwerkverbindungen sind in der Regel weniger genau als kabelgebundene oder WLAN-Verbindungen. Außerdem kann die IP-Adresse eines Besuchers dem ISP-Standort des Besuchers zugeordnet werden, der möglicherweise nicht mit dem tatsächlichen Standort des Besuchers übereinstimmt. Einige Probleme mit dem mobilen geografischen Standort können mithilfe des [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 In der folgenden Tabelle finden Sie Informationen zur Genauigkeit IP-basierter Standortdaten von [DigitalEnvoy](https://www.digitalelement.com/solutions/) für kabelgebundene oder WLAN-Internetverbindungen. DigitalEnvoy bietet die präzisesten Daten in der Branche. Die Gesamtgenauigkeit beläuft sich auf 99,9 % auf Länderebene und auf bis zu 97 % auf Stadtebene. Die Daten zur Genauigkeit sind nicht für durch Mobilfunkmasten gestützte Netzwerke gültig.
 
@@ -110,21 +110,29 @@ Die folgenden Fragen werden häufig zum Geotargeting gestellt:
 
 ### Wie kann ich den Längen- und Breitengrad festlegen?
 
+++ + Siehe Details
 * Der Wert für Breiten- und Längengrad sollte ein numerischer Wert in Grad sein.
 * Der Wert für Breiten- und Längengrad kann eine maximale Genauigkeit von fünf Dezimalstellen haben.
 * Der Wert für den Breitengrad muss zwischen -90 und 90 liegen.
 * Der Wert für den Längengrad muss zwischen -180 und 180 liegen.
 
++++
+
 ### Wie funktioniert Geotargeting für Mobilgeräte?
 
-Die meisten Mobilgerätebenutzer greifen über WLAN auf Inhalte zu, was bedeutet [!DNL Target]Das IP-basierte Geotargeting von ist genauso präzise wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe des [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Siehe Details Die meisten Benutzer von Mobilgeräten greifen über WLAN auf Inhalte zu. Das bedeutet [!DNL Target]Das IP-basierte Geotargeting von ist genauso präzise wie auf einem Desktop. Funkzellenbasierte Verbindungen können ungenauer sein, da die IP-Adresse des Besuchers auf der Funkzelle basiert, bei der das Signal erfasst wird. Einige Probleme mit dem mobilen geografischen Standort können mithilfe des [Geolocation-API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+
++++
 
 ### Wie geht die Geo-Funktion mit Besuchern von AOL um?
 
-Aufgrund der Art und Weise, wie AOL seinen Traffic verwaltet, [!DNL Target] kann sie nur auf Landesebene ansprechen. Eine Kampagne, die beispielsweise auf Frankreich ausgerichtet ist, richtet sich erfolgreich an AOL-Benutzer in Frankreich. Eine auf Paris abzielende Kampagne zielt jedoch nicht erfolgreich auf AOL-Benutzer in Paris ab. Wenn Sie Ihr Targeting speziell auf AOL-Benutzer ausrichten möchten, können Sie das Feld Region auf „aol“ einstellen. Sie können Ihr Targeting auf AOL-Benutzer in den USA ausrichten, indem Sie zwei Targeting-Bedingungen festlegen - das Land muss genau mit „USA“ und die Region genau mit „aol“ übereinstimmen.
++++Siehe Details Aufgrund der Art und Weise, wie AOL seinen Traffic verwaltet, [!DNL Target] kann sie nur auf Landesebene ansprechen. Eine Kampagne, die beispielsweise auf Frankreich ausgerichtet ist, richtet sich erfolgreich an AOL-Benutzer in Frankreich. Eine auf Paris abzielende Kampagne zielt jedoch nicht erfolgreich auf AOL-Benutzer in Paris ab. Wenn Sie Ihr Targeting speziell auf AOL-Benutzer ausrichten möchten, können Sie das Feld Region auf „aol“ einstellen. Sie können Ihr Targeting auf AOL-Benutzer in den USA ausrichten, indem Sie zwei Targeting-Bedingungen festlegen - das Land muss genau mit „USA“ und die Region genau mit „aol“ übereinstimmen.
+
++++
 
 ### Welche Ortsgenauigkeit bietet das Geotargeting?
 
+++ + Siehe Details
 * Land - global
 * Bundesland/-staat/Region - global
 * Ort - global
@@ -132,8 +140,11 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic verwaltet, [!DNL Target] kann
 * DMA/ITV (GB) - USA, GB
 * Mobilnetzbetreiber - global
 
++++
+
 ### Wie kann ich meine Aktivitäten als Benutzer von einem anderen Standort testen?
 
+++ + Siehe Details
 * **at.js 1.*x***: Sie können Ihre IP-Adresse durch eine IP-Adresse von einem anderen Standort ersetzen und die `mboxOverride.browserIp url` Parameter. Wenn sich Ihr Unternehmen beispielsweise in Großbritannien befindet, Ihre globalen Kampagnen jedoch auf Besucher in Auckland in Neuseeland abzielen, verwenden Sie diesen URL-Stil unter der Annahme, dass `60.234.0.39` ist eine IP-Adresse in Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -146,13 +157,19 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic verwaltet, [!DNL Target] kann
 
 * **at.js 2.*x***: So überschreiben Sie Ihre IP-Adresse mit at.js 2.*x*, installieren Sie eine Browsererweiterung/ein Plugin (z. B. X-Forwarded-For-Header für Chrome oder Firefox). Mit dieser Erweiterung können Sie den Header x-forwarded-for in Ihren Seitenanfragen übergeben.
 
++++
+
 ### Wie werden Gebiete wie Puerto Rico und Hongkong der Geotargeting-Struktur zugeordnet?
 
-Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
++++Siehe Details Puerto Rico, Hongkong und andere Gebiete werden als separate &quot;Country&quot;-Werte behandelt.
+
++++
 
 ### Does [!DNL Target] Informationen wie Postleitzahl erfassen (und speichern), wenn Aktivitäten mit Targeting-Funktionen für Geostandorte angesprochen werden?
 
-Nein, [!DNL Target] verwendet nur Geodaten während der Sitzung, werden die Daten verworfen.
+++ + Siehe Details Nr. [!DNL Target] verwendet nur Geodaten während der Sitzung, werden die Daten verworfen.
+
++++
 
 ## Schulungsvideo: Erstellen von Zielgruppen ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
