@@ -1,13 +1,13 @@
 ---
 keywords: änderungsprotokoll zur target-dokumentation;aktualisierungen in der dokumentation;neue themen;bearbeitungen;aktualisierungen;aktualisierung
 description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der Dokumentation von  [!DNL Adobe Target]  auf dem Laufenden.
-title: Wo finde ich Aktualisierungen der Dokumentation für [!DNL Target]?
+title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | --- | --- | --- |
 | 28. November | [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*. | Neue Modelle-API.<br>Funktionen können von blockiert werden [!DNL Target] Algorithmen des maschinellen Lernens, die deren Verwendung in allen [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] -Modell oder -Aktivität. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zur API-Version der Modelle hinzugefügt (23. November 2022). |
-| 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
+| 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} wurde aktualisiert. |
 | 16. November | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zur Registrierung für die folgende Veranstaltung wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Kaffeepause mit Fragen und Antworten (29. November)</li></ul> |
 | 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |
@@ -45,7 +45,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 3. Oktober | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten für die Version [!DNL Target Standard/Premium] 22.10.1 wurden aktualisiert. |
 | 22. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Community Coffee Break mit Fragen und Antworten (28. September 2022)</li></ul> |
 | 15. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zum folgenden Webinar wurden hinzugefügt:<ul><li>Anpassung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)</li></ul> |
-| 13. September | [Die Benutzeroberfläche von  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Es wurden Informationen über Benachrichtigungen hinzugefügt, wenn ein [!DNL Recommendations]-Feed fehlschlägt. |
+| 13. September | [Die  [!DNL Target] Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)  | Es wurden Informationen über Benachrichtigungen hinzugefügt, wenn ein [!DNL Recommendations]-Feed fehlschlägt. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.9.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## Adobe Target Standard/Premium 22.8.1 (gestaffelte Veröffentlichung: 17.–18. August 2022)
