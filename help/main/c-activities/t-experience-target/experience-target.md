@@ -17,7 +17,7 @@ Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basie
 
 Erlebnis-Targeting, einschließlich [Geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen.
 
-Wenn Besucher Ihre Website aufrufen, werden sie vom Erlebnis-Targeting (XT) geprüft, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+Wenn Personen Ihre Website aufrufen, werden sie vom Experience Targeting (XT) ausgewertet, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
 Das Erlebnis-Targeting ist der erste Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Marketing-Experten führen A/B-Tests durch, um mithilfe von Reporting-Zielgruppen zu ermitteln, wie unterschiedliche Erlebnisse bei den verschiedenen Zielgruppen ankommen. Mit dem Erlebnis-Targeting können sie die hierbei gewonnenen Erkenntnisse einfach für das langfristige Content-Targeting für die verschiedenen Benutzersegmente nutzen.
 

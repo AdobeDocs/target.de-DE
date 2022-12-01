@@ -5,7 +5,7 @@ title: Fehlerbehebung bei der Analytics- und  [!DNL Target] -Integration (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Steigerungs- und Vertrauensdaten sind in Analytics nicht verfügbar. Sie stehen 
 
 ## Aktivitäten erscheinen nicht in Analytics-Berichten.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Weitere Informationen zu diesem Thema finden Sie unter  [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) zur Überprüfung der korrekten Einrichtung Ihres Analytics-Tracking-Servers.
+Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Weitere Informationen zu diesem Thema finden Sie unter [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) zur Überprüfung der korrekten Einrichtung Ihres Analytics-Tracking-Servers.
 
 >[!NOTE]
 >

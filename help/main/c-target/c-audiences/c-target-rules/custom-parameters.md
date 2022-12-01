@@ -7,7 +7,7 @@ exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -32,7 +32,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 
    >[!NOTE]
    >
-   >Die Mbox, die Sie aus der [!UICONTROL Filtern nach] nicht bei der Erstellung einer Aktivität gespeichert werden. Mit dieser Option können Sie die Parameter nach der ausgewählten Mbox filtern.
+   >Die Mbox, die Sie aus der [!UICONTROL Filtern nach] nicht bei der Erstellung einer Aktivität gespeichert werden. Mit dieser Option können Sie die Parameter je nach der ausgewählten mbox filtern.
 
    Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
 

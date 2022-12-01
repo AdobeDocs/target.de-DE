@@ -1,6 +1,6 @@
 ---
 keywords: Schulung; Zertifizierung; Target; Online-Kurse; Kurse
-description: 'Von Adobe Training Services angebotene Schulungen und Zertifizierungen für Adobe  [!DNL Target] '
+description: Von Adobe Training Services angebotene Schulungen und Zertifizierungen für Adobe  [!DNL Target]
 title: Wo finde ich Schulungs- und Zertifizierungskurse?
 feature: Overview
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65

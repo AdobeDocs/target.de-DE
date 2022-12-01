@@ -1,6 +1,6 @@
 ---
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domain erfolgt)
-description: 'Erfahren Sie, wie Sie Umleitungsangebote in Adobe erstellen. [!DNL Target] , sodass ein Browser zu einer neuen Seite umleitet. '
+description: Erfahren Sie, wie Sie Umleitungsangebote in Adobe erstellen. [!DNL Target] , sodass ein Browser zu einer neuen Seite umleitet.
 title: Wie erstelle ich Umleitungsangebote?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04

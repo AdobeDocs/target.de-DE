@@ -5,7 +5,7 @@ title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform]
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: e0a6162edac53e11296c4ba77be7d2caf5f27b39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 

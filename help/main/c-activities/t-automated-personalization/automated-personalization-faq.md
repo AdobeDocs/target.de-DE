@@ -7,7 +7,7 @@ exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -58,7 +58,7 @@ Lesen Sie die folgenden häufig gestellten Fragen und Antworten, während Sie mi
 
 [!DNL Target] besitzt eine harte Begrenzung von 30.000 Erlebnissen. Bei weniger als 10.000 erstellten Erlebnissen ist die Funktionsweise jedoch am besten.
 
-Diese Beschränkung gilt auch dann, wenn die Aktivität die Variable [!UICONTROL Doppelte anzeigen] -Option.
+Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Duplikate nicht anzeigen] aktiviert ist.
 
 ### Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

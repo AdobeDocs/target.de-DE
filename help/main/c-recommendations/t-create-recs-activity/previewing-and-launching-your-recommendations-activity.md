@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations; Angebot; Vorschau; Launch; Status; Kriterien; Algorithmus
-description: 'Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe anzeigen können. [!DNL Target] Recommendations-Aktivität, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor die Aktivität gestartet wird. '
+description: Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe anzeigen können. [!DNL Target] Recommendations-Aktivität, um sicherzustellen, dass Ergebnisse verfügbar sind, bevor die Aktivität gestartet wird.
 title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

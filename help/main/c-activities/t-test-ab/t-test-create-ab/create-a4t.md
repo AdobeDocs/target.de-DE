@@ -7,7 +7,7 @@ exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ Analytics for Target erfordert einen Trackingserver, damit die Ergebnisse richti
 
 >[!NOTE]
 >
->Wenn Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Aktivitätserstellung keinen Trackingserver angeben, wenn Sie at.js , Version 0.9.1 (oder neuer) verwenden. Die at.js-Bibliothek sendet automatisch Trackingserverwerte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
+>Wenn Sie Adobe Analytics als Berichtsquelle für Ihre Aktivität verwenden, müssen Sie bei der Aktivitätserstellung keinen Trackingserver angeben, wenn Sie at.js , Version 0.9.1 (oder neuer) verwenden. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Ziele und Einstellungen] leer lassen.
 
 Wenn Sie eine Aktivität einrichten, nachdem Sie Analytics als Berichtsquelle festgelegt haben, gibt es keine Möglichkeit, Zielgruppen für die Berichterstellung festzulegen. Analytics-Segmente sind in den Target Activities-Berichten verfügbar.
 

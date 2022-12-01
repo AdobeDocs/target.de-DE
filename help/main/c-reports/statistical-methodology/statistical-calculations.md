@@ -3,7 +3,8 @@ keywords: Berichte; statistische Methode; statistische Berechnungen; Statistiken
 description: Hier erfahren Sie mehr über die statistischen Berechnungen, die in manuellen [!UICONTROL A/B-Test] Aktivitäten in [!DNL Adobe Target].
 title: Erfahren Sie mehr über die in [!UICONTROL A/B-Test] Aktivitäten?
 feature: Reports
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%

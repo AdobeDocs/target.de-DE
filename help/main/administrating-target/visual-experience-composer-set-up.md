@@ -8,7 +8,7 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 50%
+ht-degree: 58%
 
 ---
 
@@ -103,6 +103,6 @@ In diesem Video finden Sie Informationen zu Kontovoreinstellungen.
 
 >[!NOTE]
 >
->Die [!DNL Target] [!UICONTROL Administration] Menübenutzeroberfläche (früher [!UICONTROL Einrichtung]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt. -Optionen können sich jedoch an etwas anderen Orten befinden. Aktualisierte Videos werden bald veröffentlicht.
+>Die Benutzeroberfläche des [!UICONTROL Administration]-Menüs von [!DNL Target] (früher [!UICONTROL Einrichten]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind im Allgemeinen korrekt, allerdings können sich Optionen an etwas anderen Orten befinden. Aktualisierte Videos werden bald veröffentlicht.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

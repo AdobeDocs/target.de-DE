@@ -1,7 +1,7 @@
 ---
 keywords: Schulungsvideos; YouTube; Videos; Videoschulung; Tutorial; Tutorials; Video
 description: Sehen Sie sich Schulungsvideos an, in denen Sie erfahren, wie Sie  [!DNL Target]  Standard und  [!DNL Target]  Premium optimal nutzen.
-title: 'Wo finde ich Schulungsvideos zu  [!DNL Target] '
+title: Wo finde ich Schulungsvideos zu  [!DNL Target]
 feature: Overview
 exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

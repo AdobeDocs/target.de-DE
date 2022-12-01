@@ -8,7 +8,7 @@ exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -65,4 +65,4 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
    | Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | Publisher | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle Publisher zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
+   | Publisher | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Publisher-Rolle zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |

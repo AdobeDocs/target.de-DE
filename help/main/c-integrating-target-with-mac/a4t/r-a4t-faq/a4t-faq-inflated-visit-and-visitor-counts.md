@@ -7,7 +7,7 @@ exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ Dieses Thema enthält Antworten auf häufig zu überhöhten Besuchs- und Besuche
 
 ## Warum zeigen meine Analytics-Daten Besuche an, zu denen es keine Seitenansichten oder anderen Variablenwerte gibt? {#section_4D8C2C2D766842E6B12F3ECC774A64D5}
 
-Wann [!DNL Adobe Analytics] wird verwendet, um [!DNL Target] Aktivitäten (als A4T bezeichnet), [!DNL Analytics] erfasst Daten, die nicht verfügbar sind, wenn keine [!DNL Target] -Aktivität auf der Seite. Der Grund dafür ist, dass [!DNL Target]-Aktivitäten ihre Aufrufe zu Beginn der Seite vornehmen, während [!DNL Analytics] seine Datenerfassungsaufrufe für gewöhnlich am Ende der Seite auslöst. In der bisherigen Implementierung von A4T enthält Adobe diese zusätzlichen Daten immer dann, wenn eine [!DNL Target] -Aktivität aktiv war.
+Wann [!DNL Adobe Analytics] wird verwendet, um [!DNL Target] Aktivitäten (als A4T bezeichnet), [!DNL Analytics] erfasst Daten, die nicht verfügbar sind, wenn keine [!DNL Target] -Aktivität auf der Seite. Der Grund dafür ist, dass [!DNL Target]-Aktivitäten ihre Aufrufe zu Beginn der Seite vornehmen, während [!DNL Analytics] seine Datenerfassungsaufrufe für gewöhnlich am Ende der Seite auslöst. In der bisherigen Implementierung von A4T hat Adobe diese zusätzlichen Daten immer einbezogen, wenn eine [!DNL Target]-Aktivität aktiv war.
 
 Weitere Informationen finden Sie unter [Minimieren überhöhter Besuchs- und Besucherzahlen in A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 

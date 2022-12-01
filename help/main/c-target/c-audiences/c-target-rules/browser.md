@@ -23,7 +23,7 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 * Internet Explorer
 * Microsoft Edge
 * Opera
-* iPad 
+* iPad  
 * iPhone|
 
 Es gibt zwei Möglichkeiten, Browser auszurichten:

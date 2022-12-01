@@ -3,10 +3,11 @@ keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
 description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit der Browser-Erweiterung [!UICONTROL Visual Editing Helper] können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 100%
 
 ---
 
@@ -28,10 +29,10 @@ Die [!DNL Adobe Experience Cloud]-Browser-Erweiterung [!UICONTROL Visual Editing
 
 ## Vorteile der Verwendung der [!UICONTROL Visual Editing Helper]-Erweiterung
 
-* Alle iFrame-Busting-Kopfzeilen, z. B. `X-Frame-Options` und `Content-Security-Policy`, werden implizit aus der Website entfernt. Es ist nicht erforderlich, komplizierte Requestly-Regeln zu erstellen.
+* Alle iFrame-Busting-Kopfzeilen wie `X-Frame-Options` und `Content-Security-Policy` werden implizit von der Website entfernt. Es ist nicht erforderlich, komplizierte Requestly-Regeln zu erstellen.
 * Wenn eine Website noch nicht die at.js-Bibliothek für [!DNL Target] enthält, können Sie die Erweiterung zum Einspeisen der Bibliothek verwenden, damit Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
 
-Verwenden der [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)festgelegt ist, injiziert die Erweiterung at.js nicht, aber die SameSite-Cookie-Funktion ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
+Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) wird at.js von der Erweiterung zwar nicht eingefügt, aber die SameSite Cookie-Funktionalität ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
 * [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt. 
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
@@ -56,8 +57,4 @@ Verwenden der [Enhanced Experience Composer](/help/main/administrating-target/vi
 
    * Wenn Sie versuchen, eine Website mit dem VEC zu laden, die sich nicht laden lässt, wird eine Meldung mit dem Vorschlag angezeigt, die Browser-Erweiterung [!UICONTROL Visual Editing Helper] zu installieren.
    * Wenn at.js oder alloy.js noch nicht auf der Website implementiert ist, wird im VEC eine Meldung angezeigt, die Sie auffordert, die Erweiterung zu installieren.
-* Wenn Sie versuchen, die neue Erweiterung zu verwenden, kehren Sie zur [alte Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) und [!DNL Target] schlägt das Laden Ihrer Website fehl, löschen Sie alle Browserdaten und deaktivieren Sie die neue Erweiterung.
-
-
-
-
+* Wenn Sie versuchen, die neue Erweiterung zu verwenden und danach zur [alten Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zurückkehren und [!DNL Target] Ihre Webseite nicht laden kann, löschen Sie alle Browser-Daten und deaktivieren Sie die neue Erweiterung.

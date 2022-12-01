@@ -341,7 +341,7 @@ Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte aus
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Informationen zu Feeds in Recommendations (3:01) ![Übersichtszeichen](/help/main/assets/overview.png)
+### Informationen zu Feeds in Recommendations (3:01) ![Übersichts-Badge](/help/main/assets/overview.png)
 
 Dieses Video enthält die folgenden Informationen:
 

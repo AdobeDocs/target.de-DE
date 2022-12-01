@@ -19,7 +19,7 @@ Informationen zur Verwendung der [!DNL Target] QA-Lesezeichen erzwingen [!DNL Ta
 >
 >Der Prozess zum Erstellen eines Bookmarklets variiert je nach Browsertyp und -version. Schauen Sie in den Hilfe-Seiten Ihres Browsers nach oder suchen Sie im Internet nach genauen Anweisungen.
 
-## Lesezeichenliste für Aktivitäts-QA für at.js 1.*x* 
+## Lesezeichenliste für Aktivitäts-QA für at.js 1.*x*  
 
 weil [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) hängt, nachdem Sie eine Website im QS-Modus durchsucht haben, [!DNL Target] -Sitzung ablaufen muss, oder Sie müssen [!DNL Target] Sie aus dem QA-Modus freigeben, bevor Sie Ihre Site wie einen normalen Besucher anzeigen können. Verwenden der Qualitätssicherung [!DNL Target] Bookmarklet verwenden, um das Beenden des QA-Modus zu erzwingen.
 
@@ -48,7 +48,7 @@ Beispiel:
 
 `https://www.mysite.com/?at_preview_token=`
 
-## Lesezeichenliste für Aktivitäts-QA für at.js 2.*x* 
+## Lesezeichenliste für Aktivitäts-QA für at.js 2.*x*  
 
 Im Gegensatz zu at.js 1.*x*, at.js 2.*x* unterstützt keine Drittanbieter-Cookies, und der QA-Modus ist nur für die Erstanbieterdomäne fixierbar (mithilfe eines Erstanbieter-Cookies, das von at.js gesetzt wird). Daher in at.js 2.*x*, wird die Sitzung im QA-Modus nur clientseitig verwaltet und es werden keine Cookies im QA-Modus an Target gesendet.
 

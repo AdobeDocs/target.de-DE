@@ -5,8 +5,8 @@ title: Wie verwende ich Mobile Viewports für responsive Erlebnisse?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
+workflow-type: tm+mt
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für häufig verwendete Ge
 | iPhone 7 | 375 x 667 | 750 x 1334 |
 | iPhone 6s Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6s | 375 x 667 | 750 x 1334 |
-| iPhone 6 Plus | 414  x 736 | 1080 x 1920 |
+| iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
 | iPad   Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad der 3. und 4. Generation | 768 x 1024 | 1536 x 2048 |
@@ -68,8 +68,8 @@ Nachstehend finden Sie die Viewports und Auflösungen für häufig verwendete Ge
 | Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
 | Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
 | LG G5 | 360w x 640 | 1440 x 2560 |
-| LG G4 | 360w x 640 | 1440 x 2560 |
-| LG G3 | 360w x 640 | 1440 x 2560 |
+| LG G4 | 360 W x 640 | 1440 x 2560 |
+| LG G3 | 360 W x 640 | 1440 x 2560 |
 | One Plus 3 | 480 x 853 | 1080 x 1920 |
 | Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
 | Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |

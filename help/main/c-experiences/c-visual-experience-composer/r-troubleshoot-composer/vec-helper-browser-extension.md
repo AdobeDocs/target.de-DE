@@ -1,13 +1,13 @@
 ---
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
-description: Erfahren Sie, warum einige Websites im Visual Experience Composer (VEC) möglicherweise nicht zuverlässig geöffnet werden. Mit der VEC Helper-Browsererweiterung können Sie Websites zuverlässig in VEC laden.
+description: Finden Sie heraus, warum manche Websites nicht zuverlässig im Visual Experience Composer (VEC) geöffnet werden. Mit der VEC Helper-Browsererweiterung können Sie Websites zuverlässig in VEC laden.
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 55%
+ht-degree: 66%
 
 ---
 
@@ -19,7 +19,7 @@ Der VEC Helper-Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei Ve
 
 >[!IMPORTANT]
 >
->Ab Januar 2023 wird die aktuelle [!DNL Target] Die VEC Helper-Erweiterung funktioniert in Google Chrome nicht mehr, da Google keine Erweiterungen mit Manifest V2 zulässt. Laden Sie die neue Erweiterung herunter, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target] ab dem neuen Jahr. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>Ab Januar 2023 wird die aktuelle [!DNL Target] VEC Helper-Erweiterung in Google Chrome nicht mehr funktionieren, da Google keine Erweiterungen mehr zulässt, die Manifest V2 verwenden. Laden Sie die neue Erweiterung herunter, um Ihre Websites ab dem neuen Jahr weiterhin in [!DNL Target] visuell gestalten zu können. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
@@ -46,9 +46,9 @@ Die VEC Helper-Browsererweiterung für Chrome löst Probleme beim Laden von Site
 * Alle iFrame-Busting-Kopfzeilen wie X-Frame-Options und Content-Sicherheitsrichtlinien werden implizit von der Website entfernt. Es ist nicht mehr erforderlich, komplizierte Requestly-Regeln zu erstellen.
 * Wenn eine Webseite noch nicht die [!DNL Target]-JavaScript-Bibliothek at.js enthält, können Sie die Erweiterung verwenden, um die Bibliothek einzufügen, sodass Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
 
-   Beachten Sie, dass die Erweiterung mit dem Enhanced Experience Composer (EEC) at.js nicht injiziert, aber die SameSite-Cookie-Funktion weiterhin vorhanden ist. Um at.js auf die Webseite zu injizieren, deaktivieren Sie den EEC.
+   Beachten Sie, dass die Erweiterung mit dem Enhanced Experience Composer (EEC) at.js nicht injiziert, aber die SameSite-Cookie-Funktion weiterhin vorhanden ist. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
-* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne die [!UICONTROL Enhanced Experience Composer] (EWG).
+* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt. 
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 
@@ -72,7 +72,7 @@ Die VEC Helper-Browsererweiterung für Chrome löst Probleme beim Laden von Site
 
    ![Umschalten von Cookies in der VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Weitere Informationen über `SameSite=None` -Attribut-Browser-Korrektur finden Sie unter &quot;Wie wirken sich die kürzlich angekündigten Google Chrome SameSite-Cookie-Durchsetzungsrichtlinien auf VEC und EEC aus?&quot; [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) unter der Frage „Wie wirken sich die kürzlich von Google Chrome angekündigten Cookie-Durchsetzungsrichtlinien für SameSite auf VEC und EEC aus?“.
+   Weitere Informationen zur Browser-Fehlerbehebung für das `SameSite=None`-Attribut finden Sie unter „Wie wirken sich die kürzlich angekündigten Richtlinien zur Durchsetzung von SameSite-Cookies in Google Chrome auf den VEC und EEC aus?“ in [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Hinweise
 
