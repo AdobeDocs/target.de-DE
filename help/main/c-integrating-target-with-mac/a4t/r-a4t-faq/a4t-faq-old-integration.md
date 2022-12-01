@@ -4,10 +4,10 @@ description: Hier finden Sie Antworten auf häufig zur alten SiteCatalyst zur Te
 title: Wo finde ich häufig gestellte Fragen zur SiteCatalyst-to-Test&Target-Integration?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 48%
+source-wordcount: '175'
+ht-degree: 38%
 
 ---
 
@@ -17,8 +17,10 @@ Dieses Thema enthält Antworten auf häufig zur alten SiteCatalyst zur Test&amp;
 
 ## Warum wird in Analytics ein Bericht „Aktivitäten“ und ein Bericht „Kampagne>Rezept“ angezeigt? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-Die Integration von SiteCatalyst in Test&amp;Target (die alte Integration) und Analytics for Target (A4T) sind unterschiedlich.
++++Antwort Die SiteCatalyst zur Test&amp;Target-Integration (die alte Integration) und Analytics for Target (A4T) unterscheiden sich.
 
 Der Bericht „Aktivitäten“ ist für die neuere A4T-Integration bestimmt.
 
 Der Bericht &quot;Kampagne > Rezepte&quot;dient der alten Integration von SiteCatalyst in Test&amp;Target. Wenden Sie sich an den Kundendienst, wenn Sie diesen Bericht deaktivieren möchten. Dort kann der Bericht umgehend deaktiviert werden. Der Bericht ist ausgeblendet, aber die zugrunde liegenden Daten sind weiterhin verfügbar, wenn sie erneut aktiviert werden müssen.
+
++++
