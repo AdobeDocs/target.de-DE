@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## Modelle-API-Version (23. November 2022)
+## Models-API-Version (23. November 2022)
 
-Die neue [!DNL Adobe Target] Mit der Models-API, auch als Blockierungsliste-API bezeichnet, können Benutzer die Liste der Funktionen anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) Tätigkeiten.
+Mit der neuen [!DNL Adobe Target] Models-API, auch als Blocklist-API bezeichnet, können Benutzer die Liste der Funktionen anzeigen und verwalten, die in Modellen für maschinelles Lernen für die Aktivitäten [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) verwendet werden.
 
-Weitere Informationen finden Sie unter [Übersicht über die Modelle-API](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (gestaffelte Veröffentlichung vom 25. bis 27. Oktober 2022)
 
