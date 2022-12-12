@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehe
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 29. November | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Klarstellung des Texts durch Hinzufügen des folgenden Absatzes:<ul><li>Die Geoinformationen eines Besuchers werden anhand der ursprünglichen IP-Adresse eines [!DNL Target] Ortsanforderung (Mbox-Anfrage). Die IP-zu-Geo-Auflösung erfolgt für den ersten Aufruf einer neuen Sitzung. Wenn sich also die IP-Adresse eines Besuchers während der Sitzung eines Besuchs ändert, basieren die geografischen Informationen weiterhin auf der IP-Adresse des ersten Aufrufs.</li></ul> |
-| 28. November | [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*. | Neue Modelle-API.<br>Funktionen können von blockiert werden [!DNL Target] Algorithmen des maschinellen Lernens, die deren Verwendung in allen [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] -Modell oder -Aktivität. |
-|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zur API-Version der Modelle hinzugefügt (23. November 2022). |
-| 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} wurde aktualisiert. |
+| 29. November | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Klarstellung des Texts durch Hinzufügen des folgenden Absatzes:<ul><li>Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.</li></ul> |
+| 28. November | [Übersicht über die Models-API](https://developer.adobe.com/target/before-administer/models-api){target=_blank} im *Adobe Target-Entwicklerhandbuch*. | Neue Models-API.<br>Funktionen können für [!DNL Target]-Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinerlei Modellen oder Aktivitäten für [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] verwendet werden können. |
+|  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen über die Models-API-Version (23. November 2022) hinzugefügt. |
+| 23. November | [Vor der Implementierung von Analytics for Target (A4T) mit at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Der Link zum [Bereitstellungsformular für Experience Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} wurde aktualisiert. |
 | 16. November | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zur Registrierung für die folgende Veranstaltung wurden hinzugefügt:<ul><li>[!DNL Adobe Target] Community-Kaffeepause mit Fragen und Antworten (29. November)</li></ul> |
 | 8. November | [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Es wurde ein wichtiger Hinweis hinzugefügt: Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie Parameter im [!DNL Adobe Target] [!UICONTROL Rechner für den Stichprobenumfang] ändern. Es wurde auch ein Hinweis im tatsächlichen [Rechner](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de){target=_blank} hinzugefügt. |
 |  | [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Die Beschreibung für den Parameter `adobe_mc_sdid` in der Tabelle wurde aktualisiert. |
