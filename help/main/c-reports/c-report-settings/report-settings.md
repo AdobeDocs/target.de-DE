@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Berichtseinstellungen in Adobe Target konfigu
 title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 68%
+source-wordcount: '1959'
+ht-degree: 66%
 
 ---
 
@@ -145,9 +145,14 @@ Wählen Sie die gewünschte Methodik aus:
 
 Wählen Sie das zu verwendende Kontrollerlebnis für die Berechnung und den Vergleich der Steigerung aus.
 
-### Umgebung
+### Umgebung {#environment}
 
 Wählen Sie die Umgebung (Hostgruppe), die für den Bericht verwendet werden soll. Weitere Informationen finden Sie unter [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) zum Senden von Metrikdaten an [!DNL Target], sollte die Umgebung im AEP-Datastream mit der Umgebung in Ihrer [!DNL Target] Berichtseinstellungen.
+
 
 ### Berichtsdaten zurücksetzen
 
