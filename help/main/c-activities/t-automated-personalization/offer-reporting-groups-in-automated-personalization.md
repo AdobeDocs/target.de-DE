@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe Angebotsberichtsgruppen verwenden. [
 title: Kann ich Berichtsgruppen für Angebote in Automated Personalization-Aktivitäten verwenden?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 38%
+source-wordcount: '868'
+ht-degree: 30%
 
 ---
 
@@ -60,6 +60,14 @@ Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen er
 ## Einschränkungen 
 
 * Es ist wichtig zu verstehen, dass Berichtsgruppen Einfluss darauf haben, wie [!DNL Target] erstellt seine Modelle. Daher [!DNL Adobe] empfiehlt die Verwendung von Berichtsgruppen nur, wenn Sie planen, neue Angebote zu ersetzen oder hinzuzufügen, während eine Aktivität aktiv ist. Wenn ein neues Angebot in eine Live-Aktivität eingeführt wird, kann die Maschine durch die Unterteilung des neuen Angebots in eine Gruppe mit vorhandenen ähnlichen Angeboten die bereits für die anderen Angebote in der Gruppe erfassten Daten verwenden, um mehr über das neue Angebot zu erfahren. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben.
+
+* AP-Aktivitäten verfügen über Kombinationen aus Standort+Angebot (modellables). Wann [!DNL Target] Daten in Berichten aufzeichnet, [!DNL Target] berücksichtigt solche Kombinationen, sodass klar ist, von welchem Ereignis (Anzeigen, Klicken usw.) das Angebot stammte.
+
+   Eine Aktivität kann beispielsweise mehrere Orte und mehrere Angebote haben, die sich überschneiden können. Wenn ein Besucher mehr als eines dieser Angebote an verschiedenen Orten sieht, [!DNL Target] erfasst nur Daten für diese Angebote. Wenn derselbe Besucher später auf ein Angebot klickt, [!DNL Target] erfasst nur ein Ereignis aus dieser Kombination (nicht für alle Kombinationen).
+
+   Wenn der Klick von einer anderen Stelle kommt, die in einer Metrik vorhanden ist, aber kein Angebot anzeigt, wird dieses Ereignis unter der Aktivität protokolliert, jedoch nicht für eine Kombination aus Angebot und Position. Daher wird dieses Angebot nicht in der Angebotsberichtsgruppe angezeigt.
+
+   Dieses Verhalten ist darauf zurückzuführen, dass der Klick möglicherweise von einer anderen Mbox aus erfolgt ist und nicht von der Mbox, die das Angebot bereitgestellt hat. Aus diesem Grund ist die Metrik mit der Aktivität verknüpft, jedoch nicht mit dem Angebot.
 
 ## Angebote in einer Berichtsgruppe anzeigen
 
