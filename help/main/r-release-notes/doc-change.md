@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
 source-wordcount: '1793'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 20. Dezember | [[!UICONTROL Berichtsgruppen für Angebote in Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Es wurden zusätzliche Informationen zu Berichtsgruppen unter &quot;Einschränkungen&quot;hinzugefügt. |
-| 14. Dezember | [Berichtseinstellungen](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Es wurde ein Hinweis unter dem Abschnitt &quot;Umgebung&quot;zur Verwendung von [!DNL Adobe Experience Platform] (AEP) zum Senden von Metrikdaten an [!DNL Target]. |
+| 14. Dezember | [Berichtseinstellungen](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Es wurde ein Hinweis unter dem Abschnitt „Umgebung“ zur Verwendung von [!DNL Adobe Experience Platform] (AEP) zum Senden von Metrikdaten an [!DNL Target] hinzugefügt. |
 | 29. November | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Klarstellung des Texts durch Hinzufügen des folgenden Absatzes:<ul><li>Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.</li></ul> |
 | 28. November | [Übersicht über die Models-API](https://developer.adobe.com/target/before-administer/models-api){target=_blank} im *Adobe Target-Entwicklerhandbuch*. | Neue Models-API.<br>Funktionen können für [!DNL Target]-Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinerlei Modellen oder Aktivitäten für [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] verwendet werden können. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen über die Models-API-Version (23. November 2022) hinzugefügt. |
