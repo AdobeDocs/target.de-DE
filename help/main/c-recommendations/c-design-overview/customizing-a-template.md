@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity 
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 99%
+source-wordcount: '1066'
+ht-degree: 78%
 
 ---
 
@@ -21,22 +21,24 @@ Informationen über Velocity finden Sie unter [https://velocity.apache.org](http
 
 Sie können die gesamte Velocity-Logik, -Syntax usw. für einen Empfehlungsentwurf verwenden. Dies bedeutet, dass Sie *for*-Schleifen, *if*-Aussagen und anderen Code statt mit JavaScript mit Velocity erstellen können.
 
-An [!DNL Recommendations] gesendete Variablen in der Mbox `productPage` oder dem CSV-Upload können in einem Design angezeigt werden. Folgende Syntax verweist auf diese Werte:
+Entitätsattribute, die an gesendet werden [!DNL Recommendations] im `productPage` Mbox oder CSV-Upload können in einem Design angezeigt werden, mit Ausnahme von Attributen mit mehreren Werten. Jede Art von Attribut kann gesendet werden. jedoch [!DNL Target] übergibt keine Attribute des Typs &quot;Multi-Wert&quot;als Array, über das eine Vorlage iterieren kann (z. B. `entityN.categoriesList`).
+
+Folgende Syntax verweist auf diese Werte:
 
 ```
 $entityN.variable
 ```
 
-Variablennamen müssen der Velocity-Kurzschreibweise entsprechen, die aus einem vorangestellten *$*-Zeichen gefolgt von einer Velocity-Vorlagensprachen (VTL)-Kennung besteht. Die VTL-Kennung muss mit einem Buchstaben (a-z oder A-Z) beginnen.
+Entitätsattributnamen müssen der Velocity-Kurzschreibweise folgen, die aus einer führenden *$* gefolgt von einer Velocity Template Language (VTL)-Kennung. Die VTL-Kennung muss mit einem Buchstaben (a-z oder A-Z) beginnen.
 
-Für Velocity-Variablennamen dürfen nur die folgenden Zeichen verwendet werden:
+Velocity-Entitätsattributnamen sind auf die folgenden Zeichentypen beschränkt:
 
 * Buchstaben (a-z, A-Z)
 * Ziffern (0-9)
 * Bindestrich ( - )
 * Unterstrich ( _ )
 
-Die folgenden Variablen sind als Velocity-Arrays verfügbar. Demzufolge können sie iteriert oder über den Index referenziert werden.
+Die folgenden Attribute sind als Velocity-Arrays verfügbar. Demzufolge können sie iteriert oder über den Index referenziert werden.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Weitere Informationen zu Velocity-Variablen finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Weitere Informationen zu Velocity-Variablen (Attributen) finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skriptnamen ein \ folgen. Beispiel, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Wenn Sie Text nach dem Wert einer Variablen vor einem Tag hinzufügen möchten, das anzeigt, dass der Variablenname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen der Variablen einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
+>Wenn Sie Text nach dem Wert eines Attributs vor einem Tag hinzufügen möchten, das anzeigt, dass der Attributname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen des Attributs einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
-Sie können `algorithm.name` und `algorithm.dayCount` als Variablen in Entwürfen verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet und der Kriterienname dynamisch in dem Design angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Variablen sogar dazu verwenden, den `dayCount` anzuzeigen (Anzahl der Tage, deren Daten vom Kriterium verwendet werden, z. B. „Topverkäufe während der beiden letzten Tage“ usw.).
+Sie können auch `algorithm.name` und `algorithm.dayCount` als Entitätsattribute in Designs verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet werden kann und der Kriterienname dynamisch im Entwurf angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Attribute sogar verwenden, um die `dayCount` (Anzahl der Tage, für die in den Kriterien Daten verwendet werden, z. B. &quot;Topverkäufe während der letzten 2 Tage&quot;usw.
 
 ## Arbeiten mit Zahlen in Velocity-Vorlagen
 
 Standardmäßig behandeln Velocity-Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert.
-1. Stellen Sie sicher, dass das Entitätsattribut, welches Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagen-Parser von Target Recommendations, um die Vorlage zu validieren und zu speichern).
+1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich für [!DNL Target Recommendations]&#39; template parser to validate and save the template).
 1. Übergeben Sie das Entitätsattribut an die Methode `parseInt` oder `parseDouble` für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder in einen doppelten Wert umzuwandeln.
 1. Führen Sie den mathematischen Vorgang oder Vergleich für den neuen numerischen Wert durch.
 
@@ -214,7 +216,7 @@ Sie können Ihr Design ändern, um Werte in einer Zeichenfolge zu ersetzen. Erse
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreises dar:
@@ -222,9 +224,9 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
