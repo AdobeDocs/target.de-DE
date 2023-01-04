@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 * Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden. (TGT-41460)
 * Es wurde die Möglichkeit hinzugefügt, Angebote nach AEM Tags zu suchen und zu filtern. (TGT-43837)
-* Die[!UICONTROL Experience Fragment]&quot; im Visual Experience Composer-Workflow. Die Option lautet jetzt &quot;[!UICONTROL HTML XF]&quot;.
+* Die[!UICONTROL Experience Fragment]&quot; im Visual Experience Composer-Workflow. Die Option lautet jetzt &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Es wurde die Möglichkeit hinzugefügt, die Metadaten von Experience Fragment-Angeboten in der QuickInfo zu Angeboten anzuzeigen. (TGT-43838)
 * Die Kalenderoptionen 45 Tage und 90 Tage wurden aus der AP entfernt und [!UICONTROL Automatisches Targeting] [!UICONTROL Personalization Insights] und [!UICONTROL Wichtige Attribute] in [!DNL Target] Benutzeroberfläche. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage. (TGT-39357)
 * Die Möglichkeit, die [!UICONTROL Wie Optimierungsziel] -Einstellung auf [!UICONTROL Ziele und Einstellungen] Seite, nachdem die Aktivität live ist. (TGT-43923)
