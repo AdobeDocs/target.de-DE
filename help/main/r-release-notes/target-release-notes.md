@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 52%
 
 ---
 
@@ -15,30 +15,24 @@ ht-degree: 100%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert am: 19. Oktober 2022**
+**Letzte Aktualisierung: 4. Januar 2023**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Standard/Premium 22.10.3 (gestaffelte Veröffentlichung vom 25. bis 27. Oktober 2022)
-
-Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
-
-* **25. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
-* **26. Oktober**: Region Asien-Pazifik (APAC)
-* **27. Oktober**: Region Nord- und Südamerika
+## [!DNL Target] Standard/Premium 23.1.1 (23. Januar 2023)
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
 | Funktion | Details |
 | --- | --- |
-| A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br> (verfügbar für die Auswahl von Kunden zum Testen) wurden optimiert. (Wird in einer zukünftigen Version für alle Kunden verfügbar sein.) | Beachten Sie die folgenden Änderungen:<ul><li>Nicht-binäre und Maximierungsmetriken im Reporting von [!UICONTROL Analytics for Target] (A4T) für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] werden jetzt unterstützt</li><li>Das Verhalten für bestehende Aktivitäten wird bis Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li><li>Ab dem 20. Februar 2023 wird die Unterstützung für die Metriken `averagetimespentonsite`, `bouncerate` und `entries` in [!DNL Target]-Aktivitäten nicht mehr unterstützt.</li></ul> |
+| AEM Inhaltsfragmente<br>(Das genaue Veröffentlichungsdatum für diese Funktion wird noch nicht festgelegt.) | Verwenden Sie Inhaltsfragmente, die in erstellt wurden. [!DNL Adobe Experience Manager] AEM [!DNL Target] Aktivitäten zur Optimierung oder Personalisierung.<br>Verwenden von in AEM erstellten Inhaltsfragmenten in [!DNL Target] Mit -Aktivitäten können Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] , um Erlebnisse bedarfsgerecht zu testen und zu personalisieren. |
 
-* Es wurden Tooltips in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden dabei helfen, effizienter im Zielgruppen-Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die ihnen möglicherweise nicht bekannt sind. (TGT-44139)
-* Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die von [!DNL Target] deaktiviert wurde, weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren.
-
-   Mit dieser Version werden `averagetimespentonsite`-, `bouncerate`- und `entries`-Metriken in [!DNL Target]-Aktivitäten für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Mai 2023 weiterhin verwenden.
-
-* Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden bei der Auswahl eines Optimierungskriteriums hilft, während sie eine Aktivität für [!UICONTROL Automatisches Targeting], die A4T verwendet, erstellen oder bearbeiten.
+* Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden. (TGT-41460)
+* Es wurde die Möglichkeit hinzugefügt, Angebote nach AEM Tags zu suchen und zu filtern. (TGT-43837)
+* Die[!UICONTROL Experience Fragment]&quot; im Visual Experience Composer-Workflow. Die Option lautet jetzt &quot;[!UICONTROL HTML XF]&quot;.
+* Es wurde die Möglichkeit hinzugefügt, die Metadaten von Experience Fragment-Angeboten in der QuickInfo zu Angeboten anzuzeigen. (TGT-43838)
+* Die Kalenderoptionen 45 Tage und 90 Tage wurden aus der AP entfernt und [!UICONTROL Automatisches Targeting] [!UICONTROL Personalization Insights] und [!UICONTROL Wichtige Attribute] in [!DNL Target] Benutzeroberfläche. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage. (TGT-39357)
+* Die Möglichkeit, die [!UICONTROL Wie Optimierungsziel] -Einstellung auf [!UICONTROL Ziele und Einstellungen] Seite, nachdem die Aktivität live ist. (TGT-43923)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
