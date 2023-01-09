@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
+source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 52%
@@ -19,7 +19,7 @@ Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlich
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Standard/Premium 23.1.1 (23. Januar 2023)
+## [!DNL Target] Standard/Premium 23.1.1 (25.-26. Januar 2023)
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
