@@ -4,10 +4,10 @@ description: Finden Sie heraus, warum manche Websites nicht zuverlässig im Visu
 title: Wie verwende ich die Visual Experience Composer (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 66%
+source-wordcount: '1108'
+ht-degree: 57%
 
 ---
 
@@ -19,15 +19,17 @@ Der VEC Helper-Browser ist eine Chrome-Erweiterung. Diese Erweiterung ist bei Ve
 
 >[!IMPORTANT]
 >
->Ab Januar 2023 wird die aktuelle [!DNL Target] VEC Helper-Erweiterung in Google Chrome nicht mehr funktionieren, da Google keine Erweiterungen mehr zulässt, die Manifest V2 verwenden. Laden Sie die neue Erweiterung herunter, um Ihre Websites ab dem neuen Jahr weiterhin in [!DNL Target] visuell gestalten zu können. Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>Die aktuelle [!DNL Target] Die in diesem Artikel dokumentierte VEC Helper-Erweiterung wurde mit Manifest v2 erstellt. Google hat kürzlich angekündigt, dass neue Erweiterungen, die mit Manifest v2 erstellt wurden, nicht mehr zugelassen werden.
+>
+>Die vorhandene Erweiterung funktioniert weiterhin in Google Chrome. Künftig [!DNL Adobe] wird die in diesem Thema dokumentierte Helper-Erweiterung nicht mehr unterstützen und von Kunden verlangen, zum neueren zu wechseln [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Sie werden über Versionshinweise und Text in diesem Artikel benachrichtigt, wenn diese Erweiterung nicht mehr funktioniert. Aufgrund von Sicherheitsverbesserungen in Manifest v3, [!DNL Adobe] empfiehlt das Herunterladen der neuen Erweiterung, um Ihre Websites weiterhin visuell zu erstellen in [!DNL Target].
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
 * Die Website hat strikte Sicherheitsrichtlinien.
 * Die Website befindet sich in einem iFrame.
 * Die at.js-Bibliothek ist auf der Website noch nicht implementiert.
-* Die QA- und/oder Test-Site des Kunden kann extern nicht abgerufen werden (interne Site).
-* Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Service Workers](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API) {target=_blank} (SW) verwendet.
+* Die QA- oder Status-Site von Kundinnen und Kunden kann extern nicht abgerufen werden (interne Site).
+* Es gibt einige aktuelle Einschränkungen beim Versuch, VEC zum Öffnen einer Website zu verwenden, die [Servicepersonal](https://developer.mozilla.org/de/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für die Domain abgefangen werden können, auf der sie installiert sind. Der SW überlebt den Seitenbesuch und aktiviert sich selbst bei nachfolgenden Besuchen. Der SW entscheidet, welche Anforderungen durchlaufen werden und welche stattdessen abgefangen und aus einem Cache bereitgestellt werden.
 
