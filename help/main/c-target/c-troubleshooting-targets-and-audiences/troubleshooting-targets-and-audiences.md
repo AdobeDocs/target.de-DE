@@ -4,10 +4,10 @@ description: Anzeigen häufig gestellter Fragen (FAQs) zu Erlebnis-Targeting und
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 62%
+source-wordcount: '969'
+ht-degree: 61%
 
 ---
 
@@ -37,14 +37,17 @@ Zielgruppen-URL-Targeting sucht nach einer exakten URL-Übereinstimmung. Wenn di
 
 Neben dem Zielgruppen-Targeting für die URL können Sie auch bestimmte Werte angeben, die in der Abfrage enthalten sein können.
 
+Zielgruppen-URL-Targeting und URL-Targeting hinzugefügt über [!UICONTROL Vorlagenregeln] als URL-Targeting auswerten (siehe URL-Targeting unten).
+
 ### URL-Targeting
 
-Um das URL-Targeting anzuwenden, klicken Sie beim Erstellen einer Zielgruppe auf Regel hinzufügen , klicken Sie auf Seiten der Site, wählen Sie eine Option aus der ersten Dropdownliste aus (aktuelle Seite, Vorherige Seite oder Landingpage), wählen Sie URL aus der zweiten Dropdownliste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
+Um beim Erstellen einer Zielgruppe das URL-Targeting anzuwenden, klicken Sie auf [!UICONTROL Regel hinzufügen]klicken [!UICONTROL Seiten der Site]wählen Sie eine Option aus der ersten Dropdownliste ([!UICONTROL Aktuelle Seite], [!UICONTROL Vorherige Seite]oder [!UICONTROL Landingpage]), wählen Sie [!UICONTROL URL] Geben Sie in der zweiten Dropdownliste einen Auswerter an und geben Sie dann die gewünschte URL an.
 
 ![Seiten der Site > Aktuelle Seite > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL-Targeting wandelt die URL in einen Regelsatz um, der ausgewertet werden soll:
 
+* URL = `example.com/path1?query=something`
 * URL-Domäne = `example.com`
 * Pfad = path1/path2/path3
 * queryStringParam1 = test123

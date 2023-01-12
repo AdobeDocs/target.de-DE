@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 97%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 12. Januar | [Visual Experience Composer Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Aktualisierter wichtiger Hinweis, der den Status des aktuellen [!UICONTROL Visual Experience Composer] Helper-Erweiterung. |
+|  | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Es wurden Informationen hinzugefügt, die erklären, dass Zielgruppen-URL-Targeting und URL-Targeting über hinzugefügt wurden. [!UICONTROL Vorlagenregeln] werden als URL-Targeting ausgewertet. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für Version 22.13.3 hinzugefügt. |
 | 21. Dezember | [Anpassen eines Designs mithilfe von Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Klargestellt, dass an [!DNL Recommendations] in der `productPage`-Mbox oder im CSV-Upload gesendete Entitätsattribute in einem Design angezeigt werden können, mit Ausnahme von Attributen mit mehreren Werten. |
 | 20. Dezember | [Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Es wurden zusätzliche Informationen zu Berichtsgruppen unter „Einschränkungen“ hinzugefügt. |
