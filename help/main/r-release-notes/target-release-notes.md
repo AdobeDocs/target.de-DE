@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
+source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 37%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Letzte Aktualisierung: 4. Januar 2023**
+**Letzte Aktualisierung: 12. Januar 2023**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -24,7 +24,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
 * Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden. (TGT-41460)
-* implementiert [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten.
+* implementiert [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten. (TGT-44341)
 * Erlebnisnamen in [!DNL Recommendations] -Aktivitäten werden nun mit Anzeigenamen angezeigt, damit Kunden Daten besser miteinander korrelieren können in [!DNL Adobe Analytics] mit dem in [!DNL Target] Benutzeroberfläche. (TGT-41853)
 * Es wurde ein Problem behoben, das den Fehler &quot;500&quot;in [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die Empfehlungen enthalten. Dieses Problem wurde beim [!DNL Target] Kriterienobjekte konnten nicht ordnungsgemäß aus dem [!DNL Target] Benutzeroberfläche und [!DNL Recommendations] -Backend, das nicht mehr verwendet wird. (TGT-44383)
 * Der Speicherort wurde aus dem angezeigten Angebotsnamen im [!UICONTROL Angebotsebene] Bericht für [!UICONTROL Automated Personalization] Aktivitäten. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
