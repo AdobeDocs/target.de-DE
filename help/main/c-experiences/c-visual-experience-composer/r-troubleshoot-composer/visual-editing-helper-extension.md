@@ -1,13 +1,13 @@
 ---
-keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
+keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser;faq
 description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit der Browser-Erweiterung [!UICONTROL Visual Editing Helper] können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ Mit der Browser-Erweiterung [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 
 >[!IMPORTANT]
 >
->Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel.
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
@@ -58,3 +58,13 @@ Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-targ
    * Wenn Sie versuchen, eine Website mit dem VEC zu laden, die sich nicht laden lässt, wird eine Meldung mit dem Vorschlag angezeigt, die Browser-Erweiterung [!UICONTROL Visual Editing Helper] zu installieren.
    * Wenn at.js oder alloy.js noch nicht auf der Website implementiert ist, wird im VEC eine Meldung angezeigt, die Sie auffordert, die Erweiterung zu installieren.
 * Wenn Sie versuchen, die neue Erweiterung zu verwenden und danach zur [alten Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zurückkehren und [!DNL Target] Ihre Webseite nicht laden kann, löschen Sie alle Browser-Daten und deaktivieren Sie die neue Erweiterung.
+
+## Häufig gestellte Fragen  
+
+### Führt die Erweiterung, wenn sie aktiv ist, irgendetwas aus, wenn sie außerhalb von verwendet wird? [!DNL Adobe Target] oder [!UICONTROL Adobe Journey Optimizer] (AJO)?
+
+Die Erweiterung wird nur aktiviert, wenn die betreffende Website in einem iFrame in [!DNL Adobe] Produkte ([!DNL Target], [!DNL AJO]). Außerhalb dieses Flusses versucht die Erweiterung nicht, Kopfzeilen hinzuzufügen, zu entfernen oder zu ändern, und die Erweiterung versucht nicht, Code innerhalb der Website einzufügen.
+
+### Was bewirkt die Erweiterung, wenn sie in der [!DNL Adobe Target] VEC?
+
+Wenn eine Website in einen iFrame geladen wird in [!DNL Adobe] Produkte ([!DNL Target], [!DNL AJO]), fügt die Erweiterung Code (im Paket mit der Erweiterung) auf der Website ein und lädt Hilfsdateien aus dem [!DNL Adobe] CDN zum Aktivieren der visuellen Bearbeitung.
