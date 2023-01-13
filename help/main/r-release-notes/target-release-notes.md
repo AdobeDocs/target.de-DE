@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 37%
+ht-degree: 52%
 
 ---
 
@@ -23,14 +23,14 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
-* Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden. (TGT-41460)
+* Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460)
 * implementiert [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten. (TGT-44341)
 * Erlebnisnamen in [!DNL Recommendations] -Aktivitäten werden nun mit Anzeigenamen angezeigt, damit Kunden Daten besser miteinander korrelieren können in [!DNL Adobe Analytics] mit dem in [!DNL Target] Benutzeroberfläche. (TGT-41853)
 * Es wurde ein Problem behoben, das den Fehler &quot;500&quot;in [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die Empfehlungen enthalten. Dieses Problem wurde beim [!DNL Target] Kriterienobjekte konnten nicht ordnungsgemäß aus dem [!DNL Target] Benutzeroberfläche und [!DNL Recommendations] -Backend, das nicht mehr verwendet wird. (TGT-44383)
 * Der Speicherort wurde aus dem angezeigten Angebotsnamen im [!UICONTROL Angebotsebene] Bericht für [!UICONTROL Automated Personalization] Aktivitäten. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
-* Die[!UICONTROL Experience Fragment]&quot; in der [!UICONTROL Visual Experience Composer] Workflow (VEC). Die Option lautet jetzt &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
-* Es wurde die Möglichkeit hinzugefügt, die Metadaten von Experience Fragment-Angeboten in der QuickInfo zu Angeboten anzuzeigen. (TGT-43838)
-* Die Kalenderoptionen 45 Tage und 90 Tage wurden aus der AP entfernt und [!UICONTROL Automatisches Targeting] [!UICONTROL Personalization Insights] und [!UICONTROL Wichtige Attribute] in [!DNL Target] Benutzeroberfläche. Aufgrund von Nutzungsmustern und zur Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde aktualisiert, um die derzeit zulässigen Bereiche widerzuspiegeln: 15, 30 und 60 Tage. (TGT-39357)
+* Die[!UICONTROL Experience Fragment]&quot; in der [!UICONTROL Visual Experience Composer] Workflow (VEC). Die Option heißt jetzt „[!UICONTROL HTML XF]“. (TGT-44132)
+* Es wurde die Möglichkeit hinzugefügt, die Metadaten von Experience Fragment-Angeboten im Angebotsinfo-Tooltip anzuzeigen. (TGT-43838)
+* Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalisierungs-Insights] sowie aus den Berichten zu [!UICONTROL wichtigen Attributen] in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
 * Die Möglichkeit, die [!UICONTROL Wie Optimierungsziel] -Einstellung auf [!UICONTROL Ziele und Einstellungen] Seite, nachdem die Aktivität live ist. (TGT-43923)
 * Es wurde ein Problem behoben, das Probleme mit dem standardmäßigen Arbeitsplatz im [!DNL Target] Backend beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium]. (TGT-44081 und TGT-44306)
 * Der Link auf der [!UICONTROL Implementierung] page ([!UICONTROL Administration] > [!UICONTROL Implementierung]) für &quot;Implementierungsmethoden mit On-Device Decisioning&quot;auf die Seite verweisen, auf der erläutert wird, wie Sie die Entscheidungsfindung auf dem Gerät für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
