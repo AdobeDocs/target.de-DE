@@ -4,7 +4,7 @@ description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UI
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 83%
@@ -32,7 +32,7 @@ Die [!DNL Adobe Experience Cloud]-Browser-Erweiterung [!UICONTROL Visual Editing
 * Alle iFrame-Busting-Kopfzeilen wie `X-Frame-Options` und `Content-Security-Policy` werden implizit von der Website entfernt. Es ist nicht erforderlich, komplizierte Requestly-Regeln zu erstellen.
 * Wenn eine Website noch nicht die at.js-Bibliothek für [!DNL Target] enthält, können Sie die Erweiterung zum Einspeisen der Bibliothek verwenden, damit Sie Erlebnisse für die Website erstellen können. Anschließend können Sie Aktivitäten erstellen und diese mithilfe von Vorschau-Links überprüfen.
 
-Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) wird at.js von der Erweiterung zwar nicht eingefügt, aber die SameSite Cookie-Funktionalität ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
+   Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) wird at.js von der Erweiterung zwar nicht eingefügt, aber die SameSite Cookie-Funktionalität ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
 * [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt. 
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
