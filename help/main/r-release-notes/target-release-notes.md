@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -24,19 +24,19 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
 * Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460)
-* implementiert [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten. (TGT-44341)
-* Erlebnisnamen in [!DNL Recommendations] -Aktivitäten werden nun mit Anzeigenamen angezeigt, damit Kunden Daten besser miteinander korrelieren können in [!DNL Adobe Analytics] mit dem in [!DNL Target] Benutzeroberfläche. (TGT-41853)
-* Es wurde ein Problem behoben, das den Fehler &quot;500&quot;in [!UICONTROL A/B-Test] und [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten, die Empfehlungen enthalten. Dieses Problem wurde beim [!DNL Target] Kriterienobjekte konnten nicht ordnungsgemäß aus dem [!DNL Target] Benutzeroberfläche und [!DNL Recommendations] -Backend, das nicht mehr verwendet wird. (TGT-44383)
-* Der Speicherort wurde aus dem angezeigten Angebotsnamen im [!UICONTROL Angebotsebene] Bericht für [!UICONTROL Automated Personalization] Aktivitäten. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
-* Die[!UICONTROL Experience Fragment]&quot; in der [!UICONTROL Visual Experience Composer] Workflow (VEC). Die Option heißt jetzt „[!UICONTROL HTML XF]“. (TGT-44132)
+* [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) wurde für AP-Aktivitäten implementiert. (TGT-44341)
+* Erlebnisnamen in [!DNL Recommendations] -Aktivitäten werden nun mit Anzeigenamen angezeigt, damit Kunden Daten in [!DNL Adobe Analytics] besser mit denen in der [!DNL Target]-Benutzeroberfläche korrelieren können. (TGT-41853)
+* Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
+* Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
+* Die Option [!UICONTROL Experience Fragment] im Workflow von [!UICONTROL Visual Experience Composer] (VEC) wurde umbenannt. Die Option heißt jetzt „[!UICONTROL HTML XF]“. (TGT-44132)
 * Es wurde die Möglichkeit hinzugefügt, die Metadaten von Experience Fragment-Angeboten im Angebotsinfo-Tooltip anzuzeigen. (TGT-43838)
 * Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalisierungs-Insights] sowie aus den Berichten zu [!UICONTROL wichtigen Attributen] in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
-* Die Möglichkeit, die [!UICONTROL Wie Optimierungsziel] -Einstellung auf [!UICONTROL Ziele und Einstellungen] Seite, nachdem die Aktivität live ist. (TGT-43923)
-* Es wurde ein Problem behoben, das Probleme mit dem standardmäßigen Arbeitsplatz im [!DNL Target] Backend beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium]. (TGT-44081 und TGT-44306)
-* Der Link auf der [!UICONTROL Implementierung] page ([!UICONTROL Administration] > [!UICONTROL Implementierung]) für &quot;Implementierungsmethoden mit On-Device Decisioning&quot;auf die Seite verweisen, auf der erläutert wird, wie Sie die Entscheidungsfindung auf dem Gerät für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-* Fehlerkorrektur - Beim Verwenden von [!DNL Scene7] und [!DNL Target].
-* Die Barrierefreiheit der [!DNL Target] Benutzeroberfläche für Personen mit Behinderungen durch Verwendung der Ergebnisse einer internen Nutzungsprüfung. Zu diesen Verbesserungen der Barrierefreiheit gehören der Zugriff auf Funktionen, auf die zuvor nicht über die Tastatur zugegriffen werden konnte, Verbesserungen bei Alternativtext, die Möglichkeit, Teile der Benutzeroberfläche zu vergrößern, um sie besser zu verwenden, ein verbesserter Tastaturfokus und mehr.   (TGT-42759)
-* Verschiedene Lokalisierungskorrekturen im gesamten [!DNL Target] Benutzeroberfläche.
+* Die Möglichkeit, die Einstellung [!UICONTROL Wie Optimierungsziel] auf der Seite [!UICONTROL Ziele und Einstellungen] zu ändern, nachdem die Aktivität live ist, wurde entfernt. (TGT-43923)
+* Es wurde ein Problem behoben, das beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium] zu Problemen mit dem standardmäßigen Arbeitsbereich im [!DNL Target]-Backend führte. (TGT-44081 und TGT-44306)
+* Der Link auf der Seite [!UICONTROL Implementierung] ([!UICONTROL Verwaltung] > [!UICONTROL Implementierung]) für „Implementierungsmethoden mit On-Device Decisioning“ wurde geändert, um auf die Seite verweisen, auf der erläutert wird, wie Sie die geräteinterne Entscheidungsfindung für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Ein Fehler, der bei Verwendung von [!DNL Scene7] und [!DNL Target] zu Problemen mit Datei-Uploads führte, wurde behoben.
+* Die Barrierefreiheit der [!DNL Target]-Benutzeroberfläche für Personen mit Behinderungen wurde auf Grundlage der Ergebnisse eines internen Usability-Audits verbessert. Es wird nun Zugriff auf Funktionen geboten, auf die zuvor nicht über die Tastatur zugegriffen werden konnte, die Alternativtexte wurden verbessert, Teile der Benutzeroberfläche können nun vergrößert werden, um sie besser verwenden zu können, der Tastaturfokus wurde verbessert und mehr. (TGT-42759)
+* Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
