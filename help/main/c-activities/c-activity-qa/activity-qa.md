@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 39%
+source-wordcount: '1881'
+ht-degree: 37%
 
 ---
 
@@ -20,7 +20,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Mit dieser Funktion können Sie Ihre Aktivitäten auf der gesamten Benutzer-Journey vollständig testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
 * QA-Berichte werden erfasst, sodass Vermarkter bestätigen können, dass Metriken erwartungsgemäß inkrementiert werden und die QA-Berichtsdaten von den Produktionsberichten separiert bleiben (für Nicht-A4T-Berichte).
-* Die Möglichkeit, eine Vorschau eines Erlebnisses isoliert oder mit anderen Live-Aktivitäten anzuzeigen, die die Versandkriterien erfüllen (Seite/Target-Anforderung/Zielgruppe).
+* Die Möglichkeit, eine Vorschau eines Erlebnisses für sich allein oder mit anderen Live-Aktivitäten anzuzeigen, die die Versandkriterien erfüllen (Seite/[!DNL Target] Anforderung/Zielgruppe).
 * Die Fähigkeit, einen QA-Bericht der gesamten User Journey zu erstellen. Mit dem QA-Link können Sie einmal auf Ihre Seite zugreifen und die gesamte Seite in Aktivitäts-QA durchsuchen. Sie bleiben in Activity-QA, bis Sie die Sitzung beenden oder Sie das  [QA Target-Bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)[!UICONTROL  verwenden, um das Beenden von Aktivitäts-QA zu erzwingen]. Diese Funktion ist nützlich, wenn Sie eine Aktivität haben, die sich über mehrere Webseiten erstreckt.
 
    >[!NOTE]
@@ -29,7 +29,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. In einer Aktivität [!UICONTROL Übersicht] klicken Sie auf die **[!UICONTROL Aktivitäts-QA]** Link.
+1. In einer Aktivität [!UICONTROL Übersicht] Seite, klicken Sie auf **[!UICONTROL Aktivitäts-QA]**.
 
    ![Link „Aktivitäts-QA“](assets/qa_link.png)
 
@@ -61,9 +61,14 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Die [!UICONTROL Aktivitäts-QA] Der Link wird auf der Seite [!UICONTROL Übersicht] Seite aller Aktivitätstypen außer [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] (AP).
+* Die [!UICONTROL Aktivitäts-QA] Der Link wird auf der Seite [!UICONTROL Übersicht] Seite aller Aktivitätstypen außer [!UICONTROL Automated Personalization] (AP).
+
+   >[!NOTE]
+   >
+   >[Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten ist derzeit für ausgewählte Kunden in einem Beta-Programm verfügbar. Diese Funktion steht allen Kunden nach einer ersten Testphase zur Verfügung.
+
 * [!UICONTROL Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. ] Das erneute Wiederholen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass diese Situation weiterhin eintritt, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
-* [!UICONTROL Aktivitäts-QA-URLs sind für Aktivitäten mit Analytics als Berichtsquelle (A4T) verfügbar. ] Treffer, die bei der Qualitätssicherung mithilfe von [!UICONTROL Aktivitäts-QA] fließen in dieselbe Report Suite, in die die Daten der Aktivität fließen, auch wenn die Aktivität aktiv ist.
+* [!UICONTROL Aktivitäts-QA] URLs sind bei Aktivitäten mit [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Treffer, die bei der Qualitätssicherung mithilfe von [!UICONTROL Aktivitäts-QA] fließen in dieselbe Report Suite, in die die Daten der Aktivität fließen, auch wenn die Aktivität aktiv ist.
 * [!UICONTROL Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. ] Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut für [!UICONTROL Aktivitäts-QA] arbeiten.
 * Importierte Aktivitäten in [!DNL Target Standard/Premium] (von [!DNL Target Classic](z. B.) keine QA-URLs unterstützen.
 * In [!UICONTROL Automatische Zuordnung] und [!UICONTROL Recommendations] -Aktivitäten, ist das Modell nicht von den Besuchen betroffen, die in [!UICONTROL Aktivitäts-QA].
@@ -78,7 +83,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
    Aufgrund dieser doppelten Kodierung, wenn [!DNL Target] versucht, die `at_preview_token`, [!DNL Target] kann nicht den richtigen Tokenwert extrahieren, was dazu führt, dass die Vorschau nicht funktioniert.
 
-   Adobe empfiehlt, dass Sie sich an Ihr IT-Team wenden, um sicherzustellen, dass alle Vorschauparameter auf die Zulassungsliste gesetzt werden, damit diese Werte nicht umgewandelt werden.
+   [!DNL Adobe] empfiehlt, dass Sie sich an Ihr IT-Team wenden, um sicherzustellen, dass alle Vorschauparameter auf die Zulassungsliste gesetzt werden, damit diese Werte nicht umgewandelt werden.
 
    In der folgenden Tabelle sind die Parameter aufgeführt, die in Ihrer Domäne auf die Zulassungsliste gesetzt werden können:
 
@@ -114,6 +119,10 @@ In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und
 | [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
+
+>[!NOTE]
+>
+>[Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten ist derzeit für ausgewählte Kunden in einem Beta-Programm verfügbar. Diese Funktion steht allen Kunden nach einer ersten Testphase zur Verfügung.
 
 ## Vorschau von URLs {#preview}
 

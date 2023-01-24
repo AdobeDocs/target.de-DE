@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,20 @@ Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließ
 Gartner hat [!DNL Adobe Target] im neuesten Magic Quadrant für Personalisierungs-Engines (PE) zum fünften Mal in Folge als führend ausgezeichnet. [!DNL Adobe] erzielte auch Spitzenwerte und signifikante Steigerungen gegenüber dem Vorjahr in allen drei primären Anwendungsfällen: Digital Marketing, Digitaler Handel sowie Service und Support. [!DNL Target] erzielte von allen bewerteten Anbietern die höchsten Werte bei den Testmöglichkeiten.
 
 Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target]-Kaffeepause mit Fragen und Antworten der Community
+
+* **Mobile und authentifizierte Anwendungsfälle für die Experience Optimization**
+* **Mittwoch, 1. Februar 2023**
+* **8:00 - 9:00 Uhr. (PST, GMT-8)**
+* **[Registrierung](https://adobe.ly/3IWsAiX){target=_blank}**
+
+Brent Kostak, Product Marketing Manager für [!DNL Adobe Target], der direkt mit Ihnen in diesem Thread über Ihre [!DNL Target] Fragen im Zusammenhang mit mobilen und authentifizierten Anwendungsfällen für die Experience Optimization:
+
+* Workflows für die Aktivitätseinrichtung in [!DNL Target]
+* Kundenlebenszyklusmetriken zum Testen und Targeting mobiler Erlebnisse
+* Nutzen von KI/ML für die kanalübergreifende Personalisierung im Web und in der App
+* Mobile SDKs und APIs für flexible Implementierungen, die iOS- und Android-Plattformen unterstützen
 
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
@@ -96,7 +110,7 @@ Schließen Sie sich dem [!DNL Adobe Target] [!DNL ]-Team an und erhalten Sie ein
 
 In einer Zeit, in der es immer mehr Probleme in den Lieferketten, Service-Ausfälle und Einschränkungen beim Personal gibt, sehen sich die meisten Marken in den Bereichen Reisen, Gastgewerbe und Gastronomie vor der Herausforderung, die Kundentreue zu fördern. Wie können Marken im Zeitalter der KI ohne die benötigten Ressourcen, die die Branche verlassen haben, Erlebnisse skalieren? Der digitale Fortschritt hat sich um 20–25 % beschleunigt – nicht nur, um die immer schneller steigenden Kundenerwartungen zu erfüllen, sondern auch, um Teams durch Automatisierung zu skalieren.
 
-* **[Registrieren Sie sich, um die Webinar-Aufzeichnung anzusehen](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registrieren Sie sich zur Anzeige der Webinaraufzeichnung](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Details
 
@@ -221,7 +235,7 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
 
 ### Echtzeit-Personalisierung mit [!DNL Adobe Target]
 
-* **[Registrieren Sie sich, um die Webinar-Aufzeichnung anzusehen](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registrieren Sie sich zur Anzeige der Webinaraufzeichnung](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Details
 
