@@ -5,9 +5,9 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
+source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '756'
 ht-degree: 91%
 
 ---
@@ -36,7 +36,6 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 * Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
 * Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
-* Die Option [!UICONTROL Experience Fragment] im Workflow von [!UICONTROL Visual Experience Composer] (VEC) wurde umbenannt. Die Option heißt jetzt „[!UICONTROL HTML XF]“. (TGT-44132)
 * Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalisierungs-Insights] sowie aus den Berichten zu [!UICONTROL wichtigen Attributen] in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
 * Die Möglichkeit, die Einstellung [!UICONTROL Wie Optimierungsziel] auf der Seite [!UICONTROL Ziele und Einstellungen] zu ändern, nachdem die Aktivität live ist, wurde entfernt. (TGT-43923)
 * Es wurde ein Problem behoben, das beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium] zu Problemen mit dem standardmäßigen Arbeitsbereich im [!DNL Target]-Backend führte. (TGT-44081 und TGT-44306)
