@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 90%
+source-wordcount: '785'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,13 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.13.3 (25. Januar 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (25.-26. Januar 2023)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **25. Januar**: Region Europa, Naher Osten und Afrika (EMEA)
+* **25. Januar**: Region Asien-Pazifik (APAC)
+* **26. Januar**: Amerikanische Region
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
@@ -27,7 +33,6 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 | Automated Personalization (AP) | Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird.<br>Weitere Informationen finden Sie unter [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | Anzeigenamen in [!UICONTROL Analytics for Target] A4T-Reporting ist jetzt verfügbar. Zuvor listete [!DNL Target] nur Erlebnis-IDs auf. Diese Verbesserung stimmt die Berichterstellung zwischen [!DNL Adobe Analytics] und [!DNL Target] ab und unterstützt Kunden bei der Optimierung der Berichterstellung in A4T. (TGT-41853) |
 | AEM-Experience Fragments | Es wurde die Möglichkeit hinzugefügt, zwischen [!DNL Adobe Experience Manager] Fragmenttypen (AEM XF), die nach [!DNL Target]. Anstelle der Option &quot;Experience Fragment&quot; [!DNL Target] ermöglicht Ihnen nun, nach &quot;HTML XF&quot;und &quot;JSON XF&quot;zu filtern und zu suchen. <br>[Weitere Informationen finden Sie unter AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
-| Aktivitäts-QA | implementiert [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) für AP-Aktivitäten für ausgewählte Kunden. Diese Funktion steht allen Kunden nach einer ersten Testphase zur Verfügung. (TGT-44341) |
 
 * Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
 * Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
