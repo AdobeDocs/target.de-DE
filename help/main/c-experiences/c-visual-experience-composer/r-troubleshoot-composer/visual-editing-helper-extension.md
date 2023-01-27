@@ -1,13 +1,13 @@
 ---
-keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser;faq
+keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser;FAQs
 description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit der Browser-Erweiterung [!UICONTROL Visual Editing Helper] können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -61,10 +61,10 @@ Die [!DNL Adobe Experience Cloud]-Browser-Erweiterung [!UICONTROL Visual Editing
 
 ## Häufig gestellte Fragen  
 
-### Führt die Erweiterung, wenn sie aktiv ist, irgendetwas aus, wenn sie außerhalb von verwendet wird? [!DNL Adobe Target] oder [!UICONTROL Adobe Journey Optimizer] (AJO)?
+### Hat die Erweiterung, wenn sie aktiv ist, irgendeine Funktion, wenn sie außerhalb von [!DNL Adobe Target] oder [!UICONTROL Adobe Journey Optimizer] (AJO) verwendet wird?
 
-Die Erweiterung wird nur aktiviert, wenn die betreffende Website in einem iFrame in [!DNL Adobe] Produkte ([!DNL Target], [!DNL AJO]). Außerhalb dieses Flusses versucht die Erweiterung nicht, Kopfzeilen hinzuzufügen, zu entfernen oder zu ändern, und die Erweiterung versucht nicht, Code innerhalb der Website einzufügen.
+Die Erweiterung wird nur aktiviert, wenn die betreffende Website innerhalb eines iFrames in [!DNL Adobe]-Produkten ([!DNL Target], [!DNL AJO]) geladen wird. Außerhalb dieses Flusses versucht die Erweiterung nicht, Kopfzeilen hinzuzufügen, zu entfernen oder zu verändern, und sie versucht auch nicht, Code in die Website einzufügen.
 
-### Was bewirkt die Erweiterung, wenn sie in der [!DNL Adobe Target] VEC?
+### Was bewirkt die Erweiterung, wenn sie in der [!DNL Adobe Target] VEC aktiv ist?
 
-Wenn eine Website in einen iFrame geladen wird in [!DNL Adobe] Produkte ([!DNL Target], [!DNL AJO]), fügt die Erweiterung Code (im Paket mit der Erweiterung) auf der Website ein und lädt Hilfsdateien aus dem [!DNL Adobe] CDN zum Aktivieren der visuellen Bearbeitung.
+Wenn eine Website innerhalb eines iFrames in [!DNL Adobe]-Produkten ([!DNL Target], [!DNL AJO]) geladen wird, fügt die Erweiterung Code (der mit der Erweiterung gebündelt ist) in die Website ein und lädt Hilfsdateien aus dem [!DNL Adobe] CDN herunter, um visuelles Authoring zu ermöglichen.
