@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
+source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1938'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 31. Januar | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Es wurde eine Liste der zulässigen und nicht zulässigen Zeichen in Mbox-Namen hinzugefügt. |
 | 25. Januar | [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Gibt an, dass Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden, sind jetzt verfügbar. |
 |  | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community: Mobile und authentifizierte Anwendungsfälle für die Experience Optimization</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.13.3 von [!DNL Target Standard/Premium] hinzugefügt. |
@@ -27,7 +28,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 13. Januar | [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Es wurde ein Abschnitt mit häufig gestellten Fragen hinzugefügt. |
+| 13. Januar | [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Der Abschnitt „Häufig gestellte Fragen“ wurde hinzugefügt. |
 | 12. Januar | [Visual Experience Composer Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Wichtiger Hinweis zum Status der aktuellen [!UICONTROL Visual Experience Composer] Helper-Erweiterung wurde aktualisiert. |
 |  | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Es wurden Informationen bereitgestellt, in denen erklärt wird, dass Zielgruppen-URL-Targeting und URL-Targeting, die über [!UICONTROL Vorlagenregeln] hinzugefügt werden, als URL-Targeting ausgewertet werden. |
 |  | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für Version 22.13.3 hinzugefügt. |
