@@ -5,7 +5,7 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 93%
@@ -163,17 +163,17 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-Für die Bereitstellungs-API (at.js 2.*x*)-, Batch-Mbox V2- und AEP Web SDK (legierte.js)-Integrationen, Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
+   Für die Bereitstellungs-API (at.js 2.*x*)-, Batch-Mbox V2- und AEP Web SDK (legierte.js)-Integrationen, Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-Für at.js 1.*x* Integrationen, Mbox-Namen *cannot* enthält eines der folgenden Zeichen:
+   Für at.js 1.*x* Integrationen, Mbox-Namen *cannot* enthält eines der folgenden Zeichen:
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### Mbox-Parameter {#mbox-parameters}
 
