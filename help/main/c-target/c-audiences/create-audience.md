@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und 
 title: Wie erstelle ich Zielgruppen?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
    So kopieren Sie eine vorhandene Zielgruppe aus dem [!UICONTROL Zielgruppen] Liste, klicken Sie auf die **[!UICONTROL Mehr Aktionen]** Symbol (das Auslassungssymbol) und klicken Sie auf **[!UICONTROL Duplizieren]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen eindeutigen, beschreibenden Zielgruppennamen und eine optionale Beschreibung ein.
+
+   Zielgruppennamen dürfen nicht mit den folgenden Zeichen beginnen:
+
+   `=  +  -  !  @`
+
+   Zielgruppennamen dürfen keine der folgenden Zeichensequenzen enthalten:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop aus dem **[!UICONTROL Attribute]** rechts neben dem Bereich Audience Builder angezeigt.
 
    ![Attribute per Drag &amp; Drop verschieben](assets/drag-attribute.png)

@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 98%
+source-wordcount: '1978'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde hinzugefügt:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
+|  | [Erstellen von Zielgruppen in Target](/help/main/c-target/c-audiences/create-audience.md) | Es wurde eine Liste mit Zeichen und Zeichensequenzen hinzugefügt, die nicht in Zielgruppennamen verwendet werden können. |
 | 31. Januar | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Es wurde eine Liste der zulässigen und nicht zulässigen Zeichen in Mbox-Namen hinzugefügt. |
 | 25. Januar | [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Gibt an, dass Unterstützung für JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten, die den Form-Based Experience Composer verwenden, sind jetzt verfügbar. |
 |  | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community: Mobile und authentifizierte Anwendungsfälle für die Experience Optimization</li></ul> |
