@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und 
 title: Wie erstelle ich Zielgruppen?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    Zielgruppennamen dürfen keine der folgenden Zeichensequenzen enthalten:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop aus dem **[!UICONTROL Attribute]** rechts neben dem Bereich Audience Builder angezeigt.
 
