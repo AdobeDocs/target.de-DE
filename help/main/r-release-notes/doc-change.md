@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde hinzugefügt:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
+| 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde aktualisiert:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
 |  | [Erstellen von Zielgruppen in Target](/help/main/c-target/c-audiences/create-audience.md) | Es wurde eine Liste mit Zeichen und Zeichensequenzen hinzugefügt, die nicht in Zielgruppennamen verwendet werden können. |
-| 31. Januar | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Es wurde eine Liste der zulässigen und nicht zulässigen Zeichen in Mbox-Namen hinzugefügt. |
+| 31. Januar | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Es wurde eine Liste der zulässigen und nicht zulässigen Zeichen in mBox-Namen hinzugefügt. |
 | 25. Januar | [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Gab an, dass JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP), für die Form-Based Experience Composer verwendet wird, jetzt verfügbar sind. |
 |  | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community: Mobile und authentifizierte Anwendungsfälle für das Optimieren von Erlebnissen</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.13.3 von [!DNL Target Standard/Premium] hinzugefügt. |
