@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: da159c10bd5100519b58cf2cb9c3d4ce15c4b2d0
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,13 @@ ht-degree: 100%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## at.js-Version 2.10.1 (2. Februar 2023)
+
+* Es wurde ein Fehler behoben, durch den Aktivitäten mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, nicht das erwartete Erlebnis für die Entscheidungsfindung auf dem Gerät zurückgaben.
+* Es wurde ein Fehler in at.js 2.6.0 behoben, durch den at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert wurde.
+
+Informationen zu allen at.js-Versionen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 22.13.3 (25.-26. Januar 2023)
 
@@ -31,7 +38,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 | Funktion | Details |
 | --- | --- |
 | Unterstützung von [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) in Automated Personalization (AP) | Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460) |
-| [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Es wurde die Möglichkeit hinzugefügt, zwischen Fragmenttypen von [!DNL Adobe Experience Manager] (AEM XF) zu unterscheiden, die nach [!DNL Target] exportiert wurden. Anstelle der Option „Experience Fragment“ ermöglicht es Ihnen [!DNL Target] nun, nach „HTML XF“ und „JSON XF“ zu filtern und zu suchen. (TGT-44132) |
+| [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Es wurde die Möglichkeit hinzugefügt, zwischen Fragmenttypen in [!DNL Adobe Experience Manager] (AEM XF) zu unterscheiden, die nach [!DNL Target] exportiert werden. Anstelle der Option „Experience Fragment“ ermöglicht es Ihnen [!DNL Target] nun, nach „HTML XF“ und „JSON XF“ zu filtern und zu suchen. (TGT-44132) |
 
 * Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
 * Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
