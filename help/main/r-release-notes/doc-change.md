@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 10. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.14.5 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 8. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.10.1 wurden hinzugefügt. |
 | 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde aktualisiert:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
 |  | [Erstellen von Zielgruppen in Target](/help/main/c-target/c-audiences/create-audience.md) | Es wurde eine Liste mit Zeichen und Zeichensequenzen hinzugefügt, die nicht in Zielgruppennamen verwendet werden können. |
