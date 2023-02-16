@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -33,10 +33,10 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 ## at.js-Version 2.10.1 (2. Februar 2023)
 
-* Es wurde ein Fehler behoben, durch den Aktivitäten mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, nicht das erwartete Erlebnis für die Entscheidungsfindung auf dem Gerät zurückgaben.
+* Es wurde ein Fehler behoben, durch den Aktivitäten in Verbindung mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, beim On-Device Decisioning nicht das erwartete Erlebnis zurückgaben.
 * Es wurde ein Fehler behoben, der in at.js 2.6.0 eingeführt wurde und in dem at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert wurde.
 
-Informationen zu allen at.js-Versionen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 22.13.3 (25.-26. Januar 2023)
 
