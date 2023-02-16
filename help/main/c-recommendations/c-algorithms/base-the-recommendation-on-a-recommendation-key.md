@@ -5,10 +5,10 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Verschiedene Empfehlungsalgorithmen eignen sich für die Platzierung auf verschi
 
 ## Warenkorbbasiert {#cart-based}
 
-Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über den Mbox-Parameter bereitgestellt `cartIds` in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
+Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über [Mbox-Parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohlen für Sie]&quot;benutzerbasierter Algorithmus und zum &quot;[!UICONTROL Personen, die diese ansahen, kauften diese]&quot; und &quot;[!UICONTROL Personen, die diese kauften, kauften diese]&quot;artikelbasierte Algorithmen.
 
@@ -356,22 +356,22 @@ Verwenden Sie die [!UICONTROL Zuletzt gekaufter Artikel] Empfehlungsschlüssel a
 
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Zuletzt zur Watchlist hinzugefügt“).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** Dropdown-Liste (z. B. &quot;Zuletzt zur Watchlist hinzugefügt&quot;).
 1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. „Personen, die das ansahen, sahen auch dies an“).
 
    ![Neues Kriteriendialogfeld erstellen](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die wichtigsten Verkaufselemente aus der beliebtesten Marke eines Besuchers anzeigen.
+Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die meistverkauften Artikel einer Lieblingsmarke eines Besuchers anzeigen.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdownliste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Lieblingsmarke“).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** Dropdownliste (z. B. &quot;Lieblingsmarke&quot;).
 
 1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]**, die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe“).
 
    Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
 
-1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall stimmt „Lieblingsmarke“ mit `entity.brand` überein.
+1. Wählen Sie das Entitätsattribut aus, das dem von Ihnen ausgewählten Schlüssel entspricht. In diesem Fall stimmt &quot;Lieblingsmarke&quot;mit `entity.brand`.
 
-   [!DNL Recommendations] erstellt nun für jede Marke eine Liste der Topverkäufe und zeigt den Besucher die entsprechende Liste „Topverkäufe“ basierend auf dem Wert an, der im Profilattribut „Lieblingsmarke“ des Besuchers gespeichert ist.
+   [!DNL Recommendations] erstellt nun für jede Marke eine Liste der Topverkäufe und zeigt dem Besucher die entsprechende Liste &quot;Topverkäufe&quot;basierend auf dem Wert an, der im Profilattribut &quot;Lieblingsmarke&quot;des Besuchers gespeichert ist.
 
    ![Neues Kriteriendialogfeld erstellen 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
