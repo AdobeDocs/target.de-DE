@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den Bereich "Änderungen"in Adobe verwenden [
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 88%
@@ -139,17 +139,17 @@ Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Fol
 
 * Wechsel zu DOM-bereit anhand von jQuery
 
-Im folgenden Beispiel wird bei Verwendung von JQuery davon ausgegangen, dass auf der Website des Kunden jQuery auf der Seite verfügbar ist, wenn [!DNL Target] führt die Angebote aus.
+   Im folgenden Beispiel wird bei Verwendung von JQuery davon ausgegangen, dass auf der Website des Kunden jQuery auf der Seite verfügbar ist, wenn [!DNL Target] führt die Angebote aus.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Wechsel zu DOM-bereit, ohne jQuery (Internet Explorer 8 wird nicht unterstützt)
 
