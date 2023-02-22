@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 100%
+source-wordcount: '2053'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 21. Februar | [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Die Liste der IP-Adressen für die Zulassungsliste für alle Regionen im [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde Text hinzugefügt, der erklärt, dass im Beispiel mit JQuery davon ausgegangen wird, dass auf der Website des Kunden jQuery verfügbar ist, wenn [!DNL Target] führt die Angebote aus. |
 | 10. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.14.5 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 8. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.10.1 wurden hinzugefügt. |
 | 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde aktualisiert:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
