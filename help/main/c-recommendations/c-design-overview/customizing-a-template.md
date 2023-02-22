@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity 
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 78%
+source-wordcount: '1067'
+ht-degree: 76%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Weitere Informationen zu Velocity-Variablen (Attributen) finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Wenn Sie in Ihrem Design ein Profilskript verwenden, muss auf das $ vor dem Skriptnamen ein \ folgen. Beispiel, `\${user.script_name}`.
+Wenn Sie in Ihrem Entwurf ein Profilskript verwenden, muss das $ vor dem Skriptnamen mit einem `\` (umgekehrter Schrägstrich). Beispiel:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
