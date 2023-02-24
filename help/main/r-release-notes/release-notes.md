@@ -1,5 +1,5 @@
 ---
-keywords: Versionshinweise; neue Funktionen; Versionen; Aktualisierungen; Update; Version; Verbesserungen; Verbesserungen; Fehlerbehebungen; Fehlerbehebungen; Aktualisierungen
+keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
 title: Was ist in der aktuellen Version enthalten?
@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.14.5 (13.-15. Februar 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (13.–15. Februar 2023)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **13. Februar**: Amerikanische Region
+* **13. Februar**: Region Amerika (Nord- und Südamerika)
 * **15. Februar**: Region Europa, Naher Osten und Afrika (EMEA)
 * **15. Februar**: Region Asien-Pazifik (APAC)
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Es wurde ein Fehler behoben, der die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: &quot;Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.&quot; (TGT-44607)
-* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf serverseitige Recommendations-Feeds auswirkte. (TGT-43769)
+* Es wurde ein Problem behoben, das die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: „Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.“ (TGT-44607)
+* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf Server-seitige Recommendations-Feeds auswirkte. (TGT-43769)
 
 ## at.js-Version 2.10.1 (2. Februar 2023)
 
 * Es wurde ein Fehler behoben, durch den Aktivitäten in Verbindung mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, beim On-Device Decisioning nicht das erwartete Erlebnis zurückgaben.
-* Es wurde ein Fehler behoben, der in at.js 2.6.0 eingeführt wurde und in dem at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert wurde.
+* Es wurde ein in at.js 2.6.0 eingeführter Fehler behoben, durch den at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert war.
 
 Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
