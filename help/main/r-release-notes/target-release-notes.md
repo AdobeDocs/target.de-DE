@@ -1,13 +1,13 @@
 ---
 keywords: Versionshinweise;Versionen;Updates;zukünftige Versionen;Verbesserungen;neue Funktionen;Fehlerbehebungen;Updates;Vorabversion
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der kommenden Version von Adobe Target sowie in den zugehörigen SDKs, APIs und JavaScript-Bibliotheken.
-title: Welche neuen Funktionen und Verbesserungen sind in den kommenden Versionen enthalten? [!DNL Target] Release?
+title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlich
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Standard/Premium 22.14.5 (13.-15. Februar 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (13.–15. Februar 2023)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **13. Februar**: Amerikanische Region
+* **13. Februar**: Region Amerika (Nord- und Südamerika)
 * **15. Februar**: Region Europa, Naher Osten und Afrika (EMEA)
 * **15. Februar**: Region Asien-Pazifik (APAC)
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Es wurde ein Fehler behoben, der die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: &quot;Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.&quot; (TGT-44607)
-* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf serverseitige Recommendations-Feeds auswirkte. (TGT-43769)
+* Es wurde ein Problem behoben, das die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: „Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.“ (TGT-44607)
+* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf Server-seitige Recommendations-Feeds auswirkte. (TGT-43769)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
