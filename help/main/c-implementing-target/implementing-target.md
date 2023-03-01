@@ -6,10 +6,10 @@ title: Implementieren [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Target], müssen Sie sie auf Ihrer Site implementieren.
 
-Die [Adobe Target-Entwicklerhandbuch-Portal](https://developer.adobe.com/target/){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
+Die [Adobe Target-Entwicklerhandbuch-Portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
 
 Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstypen:
 
@@ -28,11 +28,11 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * **Mobile Apps**: Informationen zur Implementierung mithilfe von [!DNL Adobe Experience Platform Mobile] SDKs.
 * **Email**: Informationen zur Implementierung [!DNL Target] in E-Mails.
 
-Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch-Portal](https://developer.adobe.com/target/){target=_blank}.
+Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch-Portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 >[!NOTE]
 >
->Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt in der [Entwicklerportal](https://developer.adobe.com/target/){target=_blank}.
+>Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt in der [Adobe Target-Entwicklerhandbuch](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 
 

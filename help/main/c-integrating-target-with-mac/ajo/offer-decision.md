@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer] und Angebo
 
 So verwenden Sie Angebotsentscheidungen in [!DNL Target]benötigen Sie Folgendes:
 
-* [!DNL Adobe Target Standard] oder [!DNL Adobe Target Premium] implementiert mithilfe der [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] oder [!DNL Adobe Target Premium] implementiert mithilfe der [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    Die Funktion ist bei der Implementierung nicht verfügbar [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer]können Sie für jede Zielregion ein personalis
 
 1. Im **[!UICONTROL Angebotsentscheidung hinzufügen]** wählen Sie die gewünschte Sandbox und Platzierung aus.
 
-   A [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} im [!DNL Adobe Experience Platform] ermöglicht Ihnen, Ihre Instanz in virtuelle Umgebungen zu unterteilen. Sie können beispielsweise über eine Produktionsumgebung und eine Staging-Umgebung verfügen. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
+   A [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
 
    ![Dropdown-Listen Sandbox und Platzierungen im Dialogfeld Angebotsentscheidung hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ In [!DNL Adobe Journey Optimizer]können Sie für jede Zielregion ein personalis
 
 Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Informationen:
 
-* Die offer decisioning-Integration funktioniert für [!DNL Target] Implementierungen, die auf der [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Diese Funktion ist bei der Implementierung von [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
+* Die offer decisioning-Integration funktioniert für [!DNL Target] Implementierungen, die auf der [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Diese Funktion ist bei der Implementierung von [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
 
 * Die Target-/Adobe Journey Optimizer-Integration unterstützt [Handbuch [!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) und [[!UICONTROL Erlebnis-Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) -Aktivitäten. Diese Funktion ist nicht für andere Aktivitätstypen verfügbar.
 

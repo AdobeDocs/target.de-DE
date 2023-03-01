@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Implementierungsanforderungen für Anal
 title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 31%
+source-wordcount: '988'
+ht-degree: 30%
 
 ---
 
@@ -31,7 +31,7 @@ Für diese A4T-Integration müssen Sie in Abhängigkeit davon, ob Sie Weiterleit
 
 >[!NOTE]
 >
->Die folgenden Anforderungen enthalten die *Minimum* Versionen von at.js, die zur Implementierung von A4T erforderlich sind. Die [!DNL Target] Team verwaltet nur zwei Versionen von [!DNL at.js]- die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen der einzelnen Versionen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>Die folgenden Anforderungen enthalten die *Minimum* Versionen von at.js, die zur Implementierung von A4T erforderlich sind. Die [!DNL Target] Team verwaltet nur zwei Versionen von [!DNL at.js]- die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 ### Anforderungen, wenn *keine* Umleitungsangebote mit A4T verwendet werden
 
@@ -41,7 +41,7 @@ Bei dieser Integration müssen Sie die folgenden Bibliotheksversionen (oder neue
 * [!DNL Adobe Target]: at.js, Version 0.9.1
 * Adobe Analytics: appMeasurement.js, Version 1.7.0
 
-Informationen zur Implementierung von A4T mit dem [!DNL Platform Web SDK], siehe [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+Informationen zur Implementierung von A4T mit dem [!DNL Platform Web SDK], siehe [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ### Anforderungen, wenn Umleitungsangebote mit A4T verwendet werden
 
@@ -59,7 +59,7 @@ Für die Verwendung von Weiterleitungsangeboten mit A4T müssen Sie die folgende
 
 Download- und Bereitstellungsanweisungen finden Sie unter [Implementierung von Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Informationen zur Implementierung von A4T mit dem [!DNL Platform Web SDK], siehe [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+Informationen zur Implementierung von A4T mit dem [!DNL Platform Web SDK], siehe [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 ## Was Sie vor der Implementierung wissen sollten {#section_50D49CC52E11414089C89FB67F9B88F5}
 
@@ -97,7 +97,7 @@ Es gibt Fälle, in denen Sie mehr Kontrolle darüber haben möchten, wann und wi
 
 ## Freigegebene Zielgruppen
 
-Beim Füllen der [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, beachten Sie die folgenden wichtigen Informationen zum [!UICONTROL Freigegebene Zielgruppen] Option aufgeführt unter[!UICONTROL Für welche Funktionen fordern Sie Bereitstellung an]?&quot;
+Beim Füllen der [Bereitstellungsformular für Marketing Cloud-Integrationen](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}sind sich der folgenden wichtigen Informationen bezüglich der [!UICONTROL Freigegebene Zielgruppen] Option aufgeführt unter[!UICONTROL Für welche Funktionen fordern Sie Bereitstellung an]?&quot;
 
 ![Anforderungsformular](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

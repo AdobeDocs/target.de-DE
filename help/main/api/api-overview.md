@@ -5,10 +5,10 @@ title: Wo finde ich mich? [!DNL Target] API- und SDK-Dokumentation?
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: d8fd919830cb6f73540af842a3b87b06b0bece3c
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Target], müssen Sie sie auf Ihrer Site implementieren.
 
-Die [Adobe Target-Entwicklerhandbuch-Portal](https://developer.adobe.com/target/){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
+Die [Adobe Target-Entwicklerhandbuch-Portal](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
 
 Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstypen:
 
@@ -33,4 +33,4 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * Reporting-APIs.
 * Recommendations-APIs.
 
-Weitere Informationen finden Sie unter [Target-API - Übersicht](https://developer.adobe.com/target/before-administer/){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/)Portal {target=_blank}.
+Weitere Informationen finden Sie unter [Target-API - Übersicht](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} Portal.

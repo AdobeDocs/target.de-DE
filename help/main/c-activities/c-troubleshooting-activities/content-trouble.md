@@ -4,10 +4,10 @@ description: Hier finden Sie Tipps zur Fehlerbehebung, wenn der Inhalt auf Ihrer
 title: Wie kann ich Fehler bei der Inhaltsbereitstellung beheben?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 96%
+source-wordcount: '1667'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [&quot;at.js&quot;mit dem Adobe Experience Cloud Debugger debuggen](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target unterstützt IE 8 nicht mehr.
 
 ## Target-Cookie wird nicht gesetzt {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
+Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 
 ## Der Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element ebenfalls Teil einer Personalisierung von Adobe Experience Manager ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Was aber, wenn die URL Abfragezeichenfolgen-Parameter enthält? Funktioniert es 
 
 Die folgenden Optionen können verwendet werden, um zusätzliche Vorlagenregeln einzuschließen:
 
-### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei – mit der Option „contains“.
+### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei mit der Option &quot;enthält&quot;.
 
 Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass damit Sonderfälle verbunden sind, die Ihre Berichtsdaten mit zusätzlichen Datensätzen zu URLs beeinflussen können, die die Basis-URL enthalten.
 
@@ -173,7 +173,7 @@ In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Of
 
 ![Replizieren einer URL in Vorlagenregeln](assets/option1.png)
 
-### Option 2: Beschränken Sie die URL-Bedingung „contains“ auf die Abfragezeichenfolge.
+### Option 2: Beschränken Sie die URL-Bedingung &quot;enthält&quot;nur mit der Abfragezeichenfolge.
 
 Der in der vorherigen Option beschriebene Sonderfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
 
