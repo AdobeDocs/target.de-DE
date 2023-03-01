@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 82%
 
 ---
 
@@ -66,17 +66,33 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
    Wenn ein Kunde 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anfragen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den [!DNL Target]-Server gesendet werden, bevor die Antwort für eine dieser Anfragen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anfragen für dieselbe Sitzung sequenziell.
 
-* **Fehlerverhalten**:
+   * **Fehlerverhalten**:
 
-   * Bereitstellungs-API und Batch-Mbox v2:
-      * Fehler-Code: HTTP 420 – zu viele Anfragen
-      * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
-   * Legacy-mBox-API:
-      * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
-   * at.js:
-      * Standardinhalt wird angezeigt
+      * Bereitstellungs-API und Batch-Mbox v2:
+         * Fehler-Code: HTTP 420 – zu viele Anfragen
+         * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
+      * Legacy-mBox-API:
+         * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
+      * at.js:
+         * Standardinhalt wird angezeigt
 
 
+
+* **Limit**: 50 Mboxes pro [!DNL Target] Batch-Mbox-Anfrage zur Inhaltsbereitstellung.
+
+   mehr als 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung in der Mbox führt zu einem Antwort-Fehlercode `HTTP 400` mit Fehlermeldung `size must be between 0 and 50`.
+
+   Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Mboxes für die Batch-Anforderung vorhanden sind, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Wenn das Erlebnis-Rendering bei diesen Batch-Anforderungen mit hoher Latenz blockiert wird, kann die Latenz zu einem eingeschränkten Benutzererlebnis führen, da Benutzer warten, bis Erlebnisse gerendert werden.
+
+* **Limit**: 60 MB HTTP-POST-Textgröße für [!DNL Target] Inhaltsbereitstellungsanfragen.
+
+   mehr als 60 MB auf der HTTP-POST-Textgröße eines [!DNL Target] Inhaltsbereitstellungsanfragen führen zu einem Antwort-Fehlercode `HTTP 413 Request Entity Too Large`.
+
+* **Empfohlenes Limit**: 50 Meldungen pro [!DNL Target] Batch-Versandanforderung.
+
+   mehr als 50 Anmeldungen je [!DNL Target] Die Bereitstellungs-Batch-Anforderung führt wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
+
+   Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Benachrichtigungen über die Batch-Anfrage gesendet werden, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Einige zusätzliche Latenzzeiten bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein. Beachten Sie jedoch, dass Timeouts und alle nachfolgenden Neuversuche zu noch mehr Latenz führen können.
 
 ## Kundenattribute
 
