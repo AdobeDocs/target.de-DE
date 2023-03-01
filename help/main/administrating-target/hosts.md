@@ -5,9 +5,9 @@ title: Was sind Hosts und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1087'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Wenn eine [!DNL Target] -Anfrage auf einem nicht autorisierten Host erfolgt, ant
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die Ubox-Funktion von [!DNL Target], steuert diese Zulassungsliste auch die Liste der Domänen, auf die Ihre [Weiterleitungen](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} kann navigieren. Stellen Sie sicher, dass Sie alle Domänen hinzufügen, zu denen Sie umleiten möchten, wenn Sie &quot;ubox&quot;als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben wird, [!DNL Adobe] ist nicht in der Lage, die Umleitungs-URLs zu überprüfen und vor potenziellen schädlichen Umleitungen zu schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion &quot;Zulassungsliste&quot;verwenden, und dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hostliste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
