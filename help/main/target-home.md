@@ -1,5 +1,5 @@
 ---
-keywords: Target;startseite;beliebte themen;adobe target;target standard;target premium;target-dokumentation;dokumentation zu adobe target
+keywords: Target;Startseite;Beliebte Themen;Adobe Target;Target Standard;Target Premium;Target-Dokumentation;Dokumentation zu Adobe Target
 title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
@@ -47,7 +47,7 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 - [Erlebnisse und Angebote](c-experiences/experiences.md): Erklärt, wie Sie angeben, welche Inhalte angezeigt werden, wenn ein Besucher die Zielgruppenkriterien für eine Aktivität erfüllt.
 - [Recommendations](c-recommendations/recommendations.md): Erläutert, wie [!DNL Recommendations]-Aktivitäten automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 
-## Entwickler  {#developers}
+## Entwickler {#developers}
 
 - [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}: Dieses Portal enthält Ressourcen und Anleitungen für [!DNL Adobe Target]-Entwickler, einschließlich API- und SDK-Dokumentation zur Implementierung[!DNL Target].
 

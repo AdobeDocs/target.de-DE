@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 23. Februar | [Migrieren von Target aus at.js 2.*x* zum Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Es wurde ein neues Tutorial hinzugefügt. |
-| 21. Februar | [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Die Liste der IP-Adressen für die Zulassungsliste für alle Regionen im [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank}. |
-|  | [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Es wurde Text hinzugefügt, der erklärt, dass im Beispiel mit JQuery davon ausgegangen wird, dass auf der Website des Kunden jQuery verfügbar ist, wenn [!DNL Target] führt die Angebote aus. |
+| 23. Februar | [Migrieren von Target aus at.js 2.*x* zu Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=de){target=_blank} | Neues Tutorial hinzugefügt. |
+| 21. Februar | [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Aktualisierte Liste von IP-Adressen, um sie auf die Zulassungsliste für alle Regionen im [Adobe Target-Entwicklerhandbuch](https://developer.adobe.com/target/){target=_blank} setzen. |
+|  | [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Hinzugefügter Text, der erklärt, dass das Beispiel mithilfe von JQuery davon ausgeht, dass die Website des Kunden jQuery auf der Seite verfügbar hat, wenn [!DNL Target] die Angebote ausführt. |
 | 10. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.14.5 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 8. Februar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für at.js-Version 2.10.1 wurden hinzugefügt. |
 | 2. Februar | [Beheben von Problemen im Zusammenhang mit Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Der folgende Abschnitt wurde aktualisiert:<ul><li>Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren</li></ul> |
@@ -69,7 +69,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 3. Oktober | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten für die Version [!DNL Target Standard/Premium] 22.10.1 wurden aktualisiert. |
 | 22. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Community Coffee Break mit Fragen und Antworten (28. September 2022)</li></ul> |
 | 15. September | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Informationen zum folgenden Webinar wurden hinzugefügt:<ul><li>Anpassung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)</li></ul> |
-| 13. September | [Die  [!DNL Target] Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)  | Es wurden Informationen über Benachrichtigungen hinzugefügt, wenn ein [!DNL Recommendations]-Feed fehlschlägt. |
+| 13. September | [Die  [!DNL Target] Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md) | Es wurden Informationen über Benachrichtigungen hinzugefügt, wenn ein [!DNL Recommendations]-Feed fehlschlägt. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.9.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## Adobe Target Standard/Premium 22.8.1 (gestaffelte Veröffentlichung: 17.–18. August 2022)
@@ -100,7 +100,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [User-agent und Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Neues Thema |
 |  | [Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurde ein Link mit der Aufzeichnung des folgenden Webinars hinzugefügt: Dick&#39;s Sporting Goods: Personalisierung und die sich ändernde Landschaft im Einzelhandel (19. Mai 2022) |
 | 23. Mai | [Target-Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorab-Versionshinweise für at.js-Version 2.9.0 hinzugefügt (25. Mai 2022). |
-| 11. Mai | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurden Informationen und Registrierungs-Links für die folgenden Webinare hinzugefügt:<ul><li>Dick&#39;s Sporting Goods: Personalisierung und die sich ändernde Landschaft im Einzelhandel</li><li>Adobe: Personalization Industry Insider – Finanzdienstleister und Versicherungen</li><li>City National Bank: So erreichen Sie die Top 1 % der digitalen Optimierung </li><li>Adobe: Personalisierung mit Präzision – [!DNL Adobe Analytics] und [!DNL Target] </li><li>City National Bank: Zero to Hero – Launch und Skalierung eines Personalisierungsprogramms</li><li>Adobe: Entdecken Sie wirkungsvolle Optimierungsmöglichkeiten</li><li>Adobe: Personalization Industry Insider – Einzelhandel </li></ul>Eine Aufzeichnung für das folgende Webinar wurde hinzugefügt:<ul><li>Echtzeit-Personalisierung mit [!DNL Adobe Target]</li></ul> |
+| 11. Mai | [Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md#webinar-series) | Es wurden Informationen und Registrierungs-Links für die folgenden Webinare hinzugefügt:<ul><li>Dick&#39;s Sporting Goods: Personalisierung und die sich ändernde Landschaft im Einzelhandel</li><li>Adobe: Personalization Industry Insider – Finanzdienstleister und Versicherungen</li><li>City National Bank: So erreichen Sie die Top 1 % der digitalen Optimierung</li><li>Adobe: Personalisierung mit Präzision – [!DNL Adobe Analytics] und [!DNL Target]</li><li>City National Bank: Zero to Hero – Launch und Skalierung eines Personalisierungsprogramms</li><li>Adobe: Entdecken Sie wirkungsvolle Optimierungsmöglichkeiten</li><li>Adobe: Personalization Industry Insider – Einzelhandel</li></ul>Eine Aufzeichnung für das folgende Webinar wurde hinzugefügt:<ul><li>Echtzeit-Personalisierung mit [!DNL Adobe Target]</li></ul> |
 |  | [Richtlinien zur Content Security Policy (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | Der Abschnitt „Häufig gestellte Fragen“ wurde hinzugefügt. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zu den Releases von [!DNL Target Standard/Premium] 22.5.1 und der Target-Plattform (11.–13. Mai 2022) hinzugefügt. |
 
