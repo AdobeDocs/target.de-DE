@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den Bereich "Änderungen"in Adobe verwenden [
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 88%
+source-wordcount: '2250'
+ht-degree: 87%
 
 ---
 
@@ -210,6 +210,10 @@ Jede Änderung erstellt ein neues Element im Bereich „Änderungen“. Da die z
 Wenn Sie die Funktion für benutzerspezifischen Code für zwei Aktivitäten verwenden, die dieselbe URL als Ziel auswählen, wird JavaScript von beiden Aktivitäten in die Seite eingefügt. Target legt automatisch die Reihenfolge der bereitgestellten Inhalte fest. Stellen Sie sicher, dass der Code nicht von der Platzierung abhängt. Sie sind selbst dafür verantwortlich, dass es keine Konflikte im Code gibt.
 
 ## Fehlerbehebung    Benutzerspezifischer Code  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+
+**Benutzerspezifischer Code wird bei Verwendung von `triggerView`.**
+
+Angebote mit benutzerspezifischem Code im VEC werden nicht erneut gerendert, wenn `triggerView()` aufgerufen wird mit `{page: false}` als Option.
 
 **Ich habe eine Warnung mit dem Hinweis erhalten, dass eine Aktion aufgrund von strukturellen Änderungen auf einer Seite nicht ausgeführt werden kann. Was bedeutet das?**
 

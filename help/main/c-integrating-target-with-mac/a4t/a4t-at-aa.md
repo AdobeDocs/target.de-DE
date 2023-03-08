@@ -1,30 +1,30 @@
 ---
 keywords: a4t; A4T; Analytics als Berichtsquelle für Target
-description: Erfahren Sie, wie Sie in Adobe Aktivitäten mit automatischer Zuordnung und automatischem Targeting erstellen. [!DNL Target] , die Analytics als Berichtsquelle verwenden (A4T).
-title: Unterstützt A4T Aktivitäten mit automatischer Zuordnung und automatischem Targeting?
+description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Target] , die [!DNL Analytics] als Berichtsquelle (A4T).
+title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 2%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
-# A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten
+# A4T-Unterstützung für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] activities
 
 Die [!DNL Adobe Target]-to-[!DNL Adobe Analytics] Integration, auch bekannt als [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) unterstützt [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
 
 Die A4T-Integration ermöglicht Ihnen Folgendes:
 
 * Verwendung [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Multi-Armed Bandit-Funktion von , um Traffic zu erfolgreichsten Erlebnissen zu führen.
-* Verwendung [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)den maschinellen Lernalgorithmus von , um ein bestes Erlebnis für jeden Besucher auszuwählen. Beim automatischen Targeting wird bei Verwendung eines [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]&quot; umfassende Berichterstellungs- und Analysefunktionen.
+* Verwendung [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)den maschinellen Lernalgorithmus von , um ein bestes Erlebnis für jeden Besucher auszuwählen. [!UICONTROL Automatisches Targeting] wählt bei Verwendung eines [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]&quot; umfassende Berichterstellungs- und Analysefunktionen.
 
 Stellen Sie sicher, dass [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Wenn Sie `analyticsLogging = client_side`, müssen Sie auch die `sessionId` Wert zu [!DNL Analytics]. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} im *Adobe Target SDKs* Handbuch.
 
 Erster Schritt:
 
-1. Beim Erstellen einer A/B-Test-Aktivität wird im **[!UICONTROL Targeting]** eine der folgenden Optionen als **[!UICONTROL Traffic-Zuordnungsmethode]**:
+1. Beim Erstellen einer [!UICONTROL A/B-Test] -Aktivität auf der **[!UICONTROL Targeting]** eine der folgenden Optionen als **[!UICONTROL Traffic-Zuordnungsmethode]**:
 
    * [!UICONTROL Automatisch dem besten Erlebnis zuweisen]
    * [!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]
@@ -37,7 +37,7 @@ Erster Schritt:
 
    ![Berichtsquelle auf der Seite &quot;Ziele und Einstellungen&quot;](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Wählen Sie eine Primäre Zielmetrik aus.
+1. Wählen Sie eine [!UICONTROL Primäres Ziel] Metrik.
 
    * Verwendung [!DNL Adobe Target] Um das Optimierungsziel festzulegen, wählen Sie **[!UICONTROL Konversion]** .
    * Auswählen **[!UICONTROL Analytics-Metrik verwenden]** und wählen Sie dann eine Metrik aus [!DNL Analytics] zur Verwendung als Optimierungsziel. Sie können einen vordefinierten [!DNL Analytics] Konversionsmetrik oder [!DNL Analytics] benutzerspezifisches Ereignis.
@@ -62,18 +62,39 @@ Erster Schritt:
 * [!DNL Adobe Analytics] Konversionsmetriken vorstellen
 * [!DNL Adobe Analytics] benutzerspezifische Ereignisse
 
-[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert. Ein binomiales Ereignis geschieht entweder oder nicht. Binomielle Ereignisse umfassen einen Klick, eine Konversion, eine Bestellung usw. Diese Ereignistypen werden manchmal auch als Bernoulli-, binäre oder diskrete Ereignisse bezeichnet.
+[!DNL Target] ermöglicht die Auswahl von Metriken basierend auf binomialen Ereignissen oder Metriken basierend auf kontinuierlichen Ereignissen bei Verwendung von [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
 
-[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] unterstützt keine Optimierung für kontinuierliche Metriken. Kontinuierliche Metriken umfassen Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Seitenansichten in der Sitzung usw. Diese nicht unterstützten Metriktypen werden manchmal auch als nicht binomielle oder nicht-Bernoulli-Metriken bezeichnet.
+* **Metriken basierend auf binomialen Ereignissen**: Ein binomiales Ereignis geschieht entweder oder nicht. Binomielle Ereignisse umfassen einen Klick, eine Konversion, eine Bestellung usw. Diese Ereignistypen werden manchmal auch als Bernoulli-, binäre oder diskrete Ereignisse bezeichnet.
 
-Die folgenden Metriktypen werden als primäre Zielmetriken nicht unterstützt:
+* **Auf kontinuierlichen Ereignissen basierende Metriken**. Kontinuierliche Metriken umfassen Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Seitenansichten in der Sitzung usw. Diese Ereignistypen werden manchmal auch als nicht-binomielle oder nicht-Bernoulli-Metriken bezeichnet.
 
-* [!DNL Adobe Target] Interaktion und Umsatzmetriken
-* [!DNL Adobe Analytics] Interaktion und Umsatzmetriken
+>[!IMPORTANT]
+>
+>Als [!DNL Adobe Target Standard/Premium] Version 2.15.1 (8. und 9. März 2023), [!DNL Target] unterstützt weiterhin bestehende Aktivitäten mit Metriken, die jetzt nicht mehr unterstützt werden (aufgeführt in den folgenden Tabellen). Nach dem 9. September 2023 werden diese Metriken jedoch nicht mehr in bestehenden Aktivitäten unterstützt und alle Aktivitäten, die nicht unterstützte Metriken verwenden, werden eingestellt, um die vorhandene Aktivitätsmigration zum neuen Verhalten zu erzwingen.
 
-   Es ist möglich, eine [!DNL Analytics] Interaktion oder Umsatzmetrik als primäre Zielmetrik verwenden, da [!DNL Target] kann nicht alle Interaktions- und Umsatzmetriken identifizieren und ausschließen von [!DNL Analytics]. Wählen Sie nur binomielle Konversionsmetriken oder benutzerspezifische Ereignisse aus [!DNL Analytics].
+### Auswirkungen auf [!UICONTROL Automatische Zuordnung] activities
 
-* [!DNL Adobe Analytics] berechnete Metriken
+| Name der Metrik | Wird nicht mehr unterstützt in: |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | Konversionsrate, RPV |
+| [!UICONTROL averagetimespentonsite] | Konversionsrate, RPV |
+| [!UICONTROL bouncerate] | Konversionsrate, RPV |
+| [!UICONTROL Absprünge] | Konversionsrate, RPV |
+| [!UICONTROL Einträge] | Konversionsrate, RPV |
+| [!UICONTROL Ausstiege] | Konversionsrate, RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL Neuladungen] | RPV |
+| [!UICONTROL Besucher] | Konversionsrate, RPV |
+| [!UICONTROL Besuche] | RPV |
+
+### Auswirkungen auf [!UICONTROL Automatisches Targeting] activities
+
+| Name der Metrik | Wird nicht mehr unterstützt in: |
+| --- | --- |
+| [!UICONTROL Cartremovals] | RPV |
+| [!UICONTROL pageviews] | RPV |
+| [!UICONTROL Besucher] | Konversionsrate, RPV |
+| [!UICONTROL Besuche] | RPV |
 
 ## Einschränkungen und Hinweise
 
@@ -97,15 +118,28 @@ Einige Einschränkungen und Hinweise gelten für beide [!UICONTROL Automatische 
 
 ### Automatisches Targeting {#at}
 
-* [!UICONTROL Automatisches Targeting] -Modelle werden wie gewohnt alle 24 Stunden trainiert. Konversionsereignisdaten stammen jedoch von [!DNL Analytics] wird um zusätzliche sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics nach [!DNL Target] verfolgt die neuesten Ereignisse, die in [!DNL Analytics]. Diese Verzögerung hat die größte Auswirkung in den ersten 48 Stunden nach der ersten Aktivierung einer Aktivität. Die Leistung der Aktivität wird stärker reflektiert [!DNL Analytics] Konversionsverhalten nach fünf Tagen vergangen ist. Erwägen Sie die Verwendung von [!UICONTROL Automatische Zuordnung] anstelle von [!UICONTROL Automatisches Targeting] für Aktivitäten mit kurzer Dauer, bei denen der größte Traffic innerhalb der ersten fünf Tage des Aktivitätslebens auftritt.
+* [!UICONTROL Automatisches Targeting] -Modelle werden wie gewohnt alle 24 Stunden trainiert. Konversionsereignisdaten stammen jedoch von [!DNL Analytics] wird um zusätzliche sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics nach [!DNL Target] verfolgt die neuesten Ereignisse, die in [!DNL Analytics]. Diese Verzögerung hat die größte Auswirkung in den ersten 48 Stunden nach der ersten Aktivierung einer Aktivität. Die Leistung der Aktivität wird stärker widergespiegelt [!DNL Analytics] Konversionsverhalten nach fünf Tagen vergangen ist.
+
+   Erwägen Sie die Verwendung von [!UICONTROL Automatische Zuordnung] anstelle von [!UICONTROL Automatisches Targeting] für Aktivitäten mit kurzer Dauer, bei denen der größte Traffic innerhalb der ersten fünf Tage des Aktivitätslebens auftritt.
+
 * Bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!UICONTROL Automatisches Targeting] -Aktivität, enden Sitzungen nach Ablauf von sechs Stunden. Konversionen, die nach sechs Stunden stattfinden, werden nicht gezählt.
 
 Weitere Informationen finden Sie unter [Attributionsmodelle und Lookback-Fenster](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) im *Leitfaden für Analytics-Tools*.
 
-## Tutorial: Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting {#tutorial}
+## Tutorials
 
-Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], einige Änderungen an der Standardeinstellung [!UICONTROL Analytics for Target] -Bedienfeld erforderlich sind, um Aktivitäten mit automatischem Targeting korrekt zu interpretieren. Diese Änderungen sind aufgrund von Unterschieden zwischen den Experimentaktivitäten erforderlich (manuelles A/B und [!UICONTROL Automatische Zuordnung]) und Personalisierungsaktivitäten ([!UICONTROL Automatisches Targeting]).
+Obwohl Rich-Analytics-Funktionen in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], einige Änderungen an der Standardeinstellung [!UICONTROL Analytics for Target] -Bedienfeld zur korrekten Interpretation erforderlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten. Diese Änderungen sind aufgrund von Unterschieden zwischen den Experimentaktivitäten erforderlich (manuelles A/B und [!UICONTROL Automatische Zuordnung]) und Personalisierungsaktivitäten ([!UICONTROL Automatisches Targeting]).
 
-Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatisches Targeting] Aktivitäten in [!UICONTROL Arbeitsbereich].
+### Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] activities
 
-Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatische Zuordnung] Aktivitäten in [!DNL Analysis Workspace].
+
+Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatisierter Zuordnung](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Adobe Target Tutorials*.
+
+### Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatisches Targeting] activities
+
+Dieses Tutorial führt Sie durch die empfohlenen Änderungen zur Analyse [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Analysis Workspace].
+
+Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} in *Adobe Target Tutorials*.
+
+

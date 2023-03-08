@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 69%
 
 ---
 
@@ -18,51 +18,27 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.14.5 (13.–15. Februar 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (8. und 9. März 2023)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **13. Februar**: Region Amerika (Nord- und Südamerika)
-* **15. Februar**: Region Europa, Naher Osten und Afrika (EMEA)
-* **15. Februar**: Region Asien-Pazifik (APAC)
+* **8. März**: Amerikanische Region
+* **9. März**: Region Europa, Naher Osten und Afrika (EMEA)
+* **9. März**: Region Asien-Pazifik (APAC)
 
-Diese Version enthält die folgenden Fehlerbehebungen:
-
-* Es wurde ein Problem behoben, das die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: „Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.“ (TGT-44607)
-* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf Server-seitige Recommendations-Feeds auswirkte. (TGT-43769)
-
-## at.js-Version 2.10.1 (2. Februar 2023)
-
-* Es wurde ein Fehler behoben, durch den Aktivitäten in Verbindung mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, beim On-Device Decisioning nicht das erwartete Erlebnis zurückgaben.
-* Es wurde ein in at.js 2.6.0 eingeführter Fehler behoben, durch den at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert war.
-
-Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-
-## [!DNL Target] Standard/Premium 22.13.3 (25.-26. Januar 2023)
-
-Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
-
-* **25. Januar**: Region Europa, Naher Osten und Afrika (EMEA)
-* **25. Januar**: Region Asien-Pazifik (APAC)
-* **26. Januar**: Region Nord- und Südamerika
-
-Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
+Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen:
 
 | Funktion | Details |
 | --- | --- |
-| Unterstützung von [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) in Automated Personalization (AP) | Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460) |
-| [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Es wurde die Möglichkeit hinzugefügt, zwischen Fragmenttypen in [!DNL Adobe Experience Manager] (AEM XF) zu unterscheiden, die nach [!DNL Target] exportiert werden. Anstelle der Option „Experience Fragment“ ermöglicht es Ihnen [!DNL Target] nun, nach „HTML XF“ und „JSON XF“ zu filtern und zu suchen. (TGT-44132) |
+| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] | [!DNL Target] ermöglicht die Auswahl von Metriken basierend auf binomialen Ereignissen oder Metriken basierend auf kontinuierlichen Ereignissen bei Verwendung von [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.<P>Beachten Sie die folgende zeitkritische Änderung bei unterstützten Metriken:<ul><li>[!DNL Target] das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 beibehalten. Nach diesem Datum werden Aktivitäten, die nicht unterstützte Metriken verwenden, eingestellt, um die vorhandene Aktivitätsmigration zum neuen Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter [Unterstützte Zielmetriken](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting*. |
+| [!UICONTROL Automatische Zuordnung] using [!UICONTROL Analytics for Target] (A4T) | Neues Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL Automatisches Targeting] using [!UICONTROL Analytics for Target] (A4T) | Neues Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatisches Targeting] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
-* Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
-* Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalisierungs-Insights] sowie aus den Berichten zu [!UICONTROL wichtigen Attributen] in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
-* Die Möglichkeit, die Einstellung [!UICONTROL Wie Optimierungsziel] auf der Seite [!UICONTROL Ziele und Einstellungen] zu ändern, nachdem die Aktivität live ist, wurde entfernt. (TGT-43923)
-* Es wurde ein Problem behoben, das beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium] zu Problemen mit dem standardmäßigen Arbeitsbereich im [!DNL Target]-Backend führte. (TGT-44081 und TGT-44306)
-* Es wurde eine Änderung vorgenommen, sodass [!DNL Analytics] Report Suites mit dem Punktsymbol „.“ im Namen in der Benutzeroberfläche von [!DNL Target] nun zum Erstellen von [!DNL Analytics]-Klassifizierungs-Feeds verwendet werden können.
-* Der Link auf der Seite [!UICONTROL Implementierung] ([!UICONTROL Verwaltung] > [!UICONTROL Implementierung]) für „Implementierungsmethoden mit On-Device Decisioning“ wurde geändert, um auf die Seite verweisen, auf der erläutert wird, wie Sie die geräteinterne Entscheidungsfindung für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
-* Ein Fehler, der bei Verwendung von [!DNL Scene7] und [!DNL Target] zu Problemen mit Datei-Uploads führte, wurde behoben.
-* Die Barrierefreiheit der [!DNL Target]-Benutzeroberfläche für Personen mit Behinderungen wurde auf Grundlage der Ergebnisse eines internen Usability-Audits verbessert. Es wird nun Zugriff auf Funktionen geboten, auf die zuvor nicht über die Tastatur zugegriffen werden konnte, die Alternativtexte wurden verbessert, Teile der Benutzeroberfläche können nun vergrößert werden, um sie besser verwenden zu können, der Tastaturfokus wurde verbessert und mehr. (TGT-42759)
-* Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
+## at.js-Version 2.10.2 (7. März 2023)
+
+* Es wurde ein Fehler behoben, der dazu führte, dass die `trackEvent` -Funktion immer einen Fehler zurückgeben.
+
+Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

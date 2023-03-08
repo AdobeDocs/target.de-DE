@@ -4,10 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '35259'
-ht-degree: 96%
+source-wordcount: '35725'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,54 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
+## Versionshinweise für 2023
+
+### [!DNL Target] Standard/Premium 22.14.5 (13.–15. Februar 2023)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **13. Februar**: Region Amerika (Nord- und Südamerika)
+* **15. Februar**: Region Europa, Naher Osten und Afrika (EMEA)
+* **15. Februar**: Region Asien-Pazifik (APAC)
+
+Diese Version enthält die folgenden Fehlerbehebungen:
+
+* Es wurde ein Problem behoben, das die folgende Fehlermeldung verursachte, obwohl in Automated Personalization (AP)-Aktivitäten eine Eigenschaft angegeben war: „Fehler: Mindestens eine Eigenschaft muss zu einem nicht standardmäßigen Arbeitsbereich gehören.“ (TGT-44607)
+* Es wurde ein potenzielles Sicherheitsproblem behoben, das sich auf Server-seitige Recommendations-Feeds auswirkte. (TGT-43769)
+
+### at.js-Version 2.10.1 (2. Februar 2023)
+
+* Es wurde ein Fehler behoben, durch den Aktivitäten in Verbindung mit Zielgruppenregeln, die Parameter mit Punkten in ihren Namen enthielten, beim On-Device Decisioning nicht das erwartete Erlebnis zurückgaben.
+* Es wurde ein in at.js 2.6.0 eingeführter Fehler behoben, durch den at.js einen Bereitstellungsaufruf auslöste, selbst wenn `mboxDisable` aktiviert war.
+
+Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+
+### [!DNL Target] Standard/Premium 22.13.3 (25.-26. Januar 2023)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **25. Januar**: Region Europa, Naher Osten und Afrika (EMEA)
+* **25. Januar**: Region Asien-Pazifik (APAC)
+* **26. Januar**: Region Nord- und Südamerika
+
+Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
+
+| Funktion | Details |
+| --- | --- |
+| Unterstützung von [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) in Automated Personalization (AP) | Jetzt werden JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP) unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460) |
+| [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Es wurde die Möglichkeit hinzugefügt, zwischen Fragmenttypen in [!DNL Adobe Experience Manager] (AEM XF) zu unterscheiden, die nach [!DNL Target] exportiert werden. Anstelle der Option „Experience Fragment“ ermöglicht es Ihnen [!DNL Target] nun, nach „HTML XF“ und „JSON XF“ zu filtern und zu suchen. (TGT-44132) |
+
+* Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B-Test-] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
+* Der Speicherort wurde aus dem angezeigten Angebotsnamen im Bericht auf [!UICONTROL Angebotsebene] für [!UICONTROL Automated Personalization]-Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
+* Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalisierungs-Insights] sowie aus den Berichten zu [!UICONTROL wichtigen Attributen] in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
+* Die Möglichkeit, die Einstellung [!UICONTROL Wie Optimierungsziel] auf der Seite [!UICONTROL Ziele und Einstellungen] zu ändern, nachdem die Aktivität live ist, wurde entfernt. (TGT-43923)
+* Es wurde ein Problem behoben, das beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium] zu Problemen mit dem standardmäßigen Arbeitsbereich im [!DNL Target]-Backend führte. (TGT-44081 und TGT-44306)
+* Es wurde eine Änderung vorgenommen, sodass [!DNL Analytics] Report Suites mit dem Punktsymbol „.“ im Namen in der Benutzeroberfläche von [!DNL Target] nun zum Erstellen von [!DNL Analytics]-Klassifizierungs-Feeds verwendet werden können.
+* Der Link auf der Seite [!UICONTROL Implementierung] ([!UICONTROL Verwaltung] > [!UICONTROL Implementierung]) für „Implementierungsmethoden mit On-Device Decisioning“ wurde geändert, um auf die Seite verweisen, auf der erläutert wird, wie Sie die geräteinterne Entscheidungsfindung für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* Ein Fehler, der bei Verwendung von [!DNL Scene7] und [!DNL Target] zu Problemen mit Datei-Uploads führte, wurde behoben.
+* Die Barrierefreiheit der [!DNL Target]-Benutzeroberfläche für Personen mit Behinderungen wurde auf Grundlage der Ergebnisse eines internen Usability-Audits verbessert. Es wird nun Zugriff auf Funktionen geboten, auf die zuvor nicht über die Tastatur zugegriffen werden konnte, die Alternativtexte wurden verbessert, Teile der Benutzeroberfläche können nun vergrößert werden, um sie besser verwenden zu können, der Tastaturfokus wurde verbessert und mehr. (TGT-42759)
+* Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
+
 ## Versionshinweise für 2022
 
 ### Models-API-Version (23. November 2022)
@@ -31,13 +79,9 @@ Weitere Informationen finden Sie unter [Übersicht über die Modelle-API](https:
 
 ### [!DNL Target] Standard/Premium 22.10.3 (gestaffelte Veröffentlichung vom 25. bis 27. Oktober 2022)
 
-Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
+Diese Version enthält die folgenden Fehlerbehebungen:
 
-| Funktion | Details |
-| --- | --- |
-| A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<br> (verfügbar für die Auswahl von Kunden zum Testen) wurden optimiert. (Wird in einer zukünftigen Version für alle Kunden verfügbar sein.) | Beachten Sie die folgenden Änderungen:<ul><li>Nicht-binäre und Maximierungsmetriken im Reporting von [!UICONTROL Analytics for Target] (A4T) für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] werden jetzt unterstützt</li><li>Das Verhalten für bestehende Aktivitäten wird bis Februar 2023 beibehalten. Nach diesem Datum werden die Aktivitäten eingestellt, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li><li>Ab dem 20. Februar 2023 wird die Unterstützung für die Metriken `averagetimespentonsite`, `bouncerate` und `entries` in [!DNL Target]-Aktivitäten nicht mehr unterstützt.</li></ul> |
-
-* Es wurden Tooltips in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden dabei helfen, effizienter im Zielgruppen-Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die ihnen möglicherweise nicht bekannt sind. (TGT-44139)
+* Es wurden QuickInfos in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden dabei helfen, effizienter im Zielgruppen-Builder zu navigieren und zu erfahren, wie Funktionen verwendet werden, die ihnen möglicherweise nicht bekannt sind. (TGT-44139)
 * Es wurde eine Funktion hinzugefügt, mit der verhindert werden kann, dass Kunden eine Aktivität bearbeiten, die von [!DNL Target] deaktiviert wurde, weil sie nicht unterstützte Metriken verwendet. Eine Meldung in der Benutzeroberfläche weist Kunden an, die Aktivität zu duplizieren und dann die Konversionsmetrik zu aktualisieren.
 
    Mit dieser Version werden `averagetimespentonsite`-, `bouncerate`- und `entries`-Metriken in [!DNL Target]-Aktivitäten für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Mai 2023 weiterhin verwenden.
@@ -56,7 +100,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 * Es wurde ein Problem behoben, das verhinderte, dass Informationen zu Zielgruppenregeln im Informationsfenster [!UICONTROL Zielgruppenverfeinerungen] korrekt angezeigt wurden. (TGT-43917)
 * Die Leistung der [!DNL Target]-Benutzeroberfläche beim Laden von Zielgruppen, die sich dem [empfohlenen Limit der Zielgruppenbestimmungsregeln](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules) nähern, wurde verbessert. (TGT-43675)
-* Es wurde ein Problem behoben, das dazu führte, dass einige Komponenten im Bedienfeld [!UICONTROL Änderungen] auf der Seite [!UICONTROL Erfahrungen] nicht richtig angezeigt wurden, wenn Aktivitäten im VEC erstellt oder bearbeitet wurden, nachdem vom Modus [!UICONTROL Zusammenstellen] zum Modus [!UICONTROL Durchsuchen] gewechselt wurde. (TGT-43300)
+* Es wurde ein Problem behoben, das dazu führte, dass einige Komponenten im Bedienfeld [!UICONTROL Änderungen] auf der Seite [!UICONTROL Erlebnisse] nicht richtig angezeigt wurden, wenn Aktivitäten im VEC erstellt oder bearbeitet wurden, nachdem vom Modus [!UICONTROL „Zusammenstellen“] zum Modus [!UICONTROL „Durchsuchen“] gewechselt wurde. (TGT-43300)
 * Es wurde ein Problem behoben, das einige Kunden daran hinderte, [!UICONTROL A/B-Test]-Aktivitäten zu archivieren, die [!UICONTROL Automatisches Targeting] verwenden. (TGT-40978)
 * Es wurde die Möglichkeit hinzugefügt, ein einzelnes Angebot automatisch an mehreren Orten innerhalb einer einzigen Berichtsgruppe zu verwenden. (TGT-40689)
 
@@ -190,7 +234,7 @@ Diese Version enthält die folgende Aktualisierung:
 Dieses Maintenance Release umfasst die folgenden Erweiterungen:
 
 * Funktion zur Rückgabe hinzugefügt [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klicken Sie bei Verwendung von [!UICONTROL Bereitstellungs-API] mit Aktivitäten, die [!UICONTROL Analytics als Berichtsquelle] (A4T). (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, damit ein in Japan häufig verwendeter Browsertyp zugelassen wird. (TNT-43867)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browsertyp zuzulassen. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 
@@ -598,7 +642,7 @@ In den at.js-Bibliotheken von [!DNL Target] wurden die folgenden Verbesserungen 
 | Funktion / Verbesserung | Beschreibung |
 | --- | --- |
 | at.js 1.8.2 | Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:<ul><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 1.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35064)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
-| at.js 2.3.1 | Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:<ul><li>Die `deviceIdLifetime` Festlegen von überschreibbaren über [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}. (TNT-36349)</li><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)</li><li>Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
+| at.js 2.3.1 | Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:<ul><li>Die `deviceIdLifetime` Festlegen von überschreibbaren über [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-features/targetglobalsettings/){target=_blank}. (TNT-36349)</li><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)</li><li>Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 
 ### Änderungen an Profile Batch Status API v2 (14. Mai 2020)
 
@@ -967,7 +1011,7 @@ Diese Version ist eine Wartungsversion und beinhaltet die folgenden Fehlerbehebu
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| at.js Version 2.0.0<br>19. Februar 2019 | at.js 2.x ist jetzt verfügbar.<br>Die neueste Version von at.js bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.<br>Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen nicht verfügbar sind:<ul><li>Die Möglichkeit, alle Angebote beim Laden der Seite zwischenzuspeichern, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren.</li><li>Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass die herkömmlichen Server-Aufrufe verzögert werden.</li><li>Einfache einzeilige Code- und Einmalentwickler-Einrichtung, um Ihren Marketingmitarbeitern die Erstellung und Ausführung von A/B- und Experience-Aktivitäten (XT) über Visual Experience Composer (VEC) auf Einzelseitenanwendungen zu ermöglichen.</li></ul>at.js 2.x enthält die folgenden neuen Funktionen:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Die folgenden Funktionen sind mit der Einführung von at.js 2.x veraltet:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Weitere Informationen finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}müssen Sie derzeit at.js 1.7.0 verwenden. Opt-in-Unterstützung wird in at.js 2.x nicht unterstützt. |
+| at.js Version 2.0.0<br>19. Februar 2019 | at.js 2.x ist jetzt verfügbar.<br>Die neueste Version von at.js bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.<br>Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen nicht verfügbar sind:<ul><li>Die Möglichkeit, alle Angebote beim Laden der Seite zwischenzuspeichern, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren.</li><li>Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass die herkömmlichen Server-Aufrufe verzögert werden.</li><li>Einfache einzeilige Code- und Einmalentwickler-Einrichtung, um Ihren Marketingmitarbeitern die Erstellung und Ausführung von A/B- und Experience-Aktivitäten (XT) über Visual Experience Composer (VEC) auf Einzelseitenanwendungen zu ermöglichen.</li></ul>at.js 2.x enthält die folgenden neuen Funktionen:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Die folgenden Funktionen sind mit der Einführung von at.js 2.x veraltet:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Weitere Informationen finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} and [at.js functions](https://developer.adobe.com/target/implement/client-side/atjs/atjs-features/atjs-features/){target=_blank}.<br>**Note**: If you require Adobe Opt-in support for the [General Data Protection Regulation](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}müssen Sie derzeit at.js 1.7.0 verwenden. Opt-in-Unterstützung wird in at.js 2.x nicht unterstützt. |
 | at.js-Version 1.7.0<br>14. Februar 2019 | at.js 1.7.0 ist verfügbar.<br>Bei dieser Version wird Adobe Opt-In unterstützt. Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zur Adobe Opt-in finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR){target=_blank}.<br>This release also fixes an issue where Target might override redirect URL parameters with parameters that are coming from the redirect URL.<br>**Note**: If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0. Opt-in support is not supported in at.js 2.x.<br>For a list of all versions, see [at.js version details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (19. Februar 2019) {#target-19-2-1}

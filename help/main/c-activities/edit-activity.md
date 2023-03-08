@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine best
 title: Wie kann ich eine Aktivität bearbeiten oder als Entwurf speichern?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 95%
+source-wordcount: '1211'
+ht-degree: 91%
 
 ---
 
@@ -105,3 +105,11 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 * Wenn Sie eine Aktivität in einen anderen Arbeitsbereich kopieren, wird die Aktivität in den anderen Arbeitsbereich kopiert, ohne dass sie im Aktivitätenerstellungsfluss geöffnet wird. Nachdem die Aktivität erfolgreich kopiert wurde, wird eine Meldung angezeigt. Diese gibt an, dass die Aktivität erfolgreich kopiert wurde, und sie enthält einen Link zum Öffnen der neuen Aktivität.
 
 Wenn in Ihrer Umgebung die Funktionalität „Berechtigungen für Unternehmensbenutzer“ nicht aktiviert ist, werden alle Aktivitäten vor dem Kopieren im Bearbeitungsmodus geöffnet.
+
+## Best Practices
+
+* Machen Sie es sich zur Gewohnheit, eine Aktivität immer mit derselben Methode (UI oder API) zu aktualisieren, mit der sie ursprünglich erstellt wurde.
+
+   Aktivitäten, die mithilfe der [!DNL Target] Die Benutzeroberfläche sollte über die [!DNL Target] Benutzeroberfläche. Dagegen sollten über die API erstellte Aktivitäten über die API aktualisiert werden. Wenn Sie ursprünglich eine Aktivität mit der API erstellt haben, bearbeiten Sie die Aktivität später über die [!DNL Target] -Benutzeroberfläche verwenden, werden nicht alle Änderungen aktualisiert. Alle Änderungen werden im Backend gespeichert und können durch einen weiteren API-Aufruf aktualisiert werden.
+
+
