@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UIC
 title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ Erster Schritt:
 
 | Name der Metrik | Wird nicht mehr unterstützt in: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Konversionsrate, RPV |
-| [!UICONTROL averagetimespentonsite] | Konversionsrate, RPV |
-| [!UICONTROL bouncerate] | Konversionsrate, RPV |
-| [!UICONTROL Absprünge] | Konversionsrate, RPV |
-| [!UICONTROL Einträge] | Konversionsrate, RPV |
-| [!UICONTROL Ausstiege] | Konversionsrate, RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL Neuladungen] | RPV |
-| [!UICONTROL Besucher] | Konversionsrate, RPV |
-| [!UICONTROL Besuche] | RPV |
+| [!UICONTROL averagepagedepth] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL averagetimespentonsite] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL bouncerate] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL Absprünge] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL Einträge] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL Ausstiege] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL pageviews] | Metrikwert maximieren |
+| [!UICONTROL Neuladungen] | Metrikwert maximieren |
+| [!UICONTROL Besucher] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL Besuche] | Metrikwert maximieren |
 
 ### Auswirkungen auf [!UICONTROL Automatisches Targeting] activities
 
 | Name der Metrik | Wird nicht mehr unterstützt in: |
 | --- | --- |
-| [!UICONTROL Cartremovals] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL Besucher] | Konversionsrate, RPV |
-| [!UICONTROL Besuche] | RPV |
+| [!UICONTROL Cartremovals] | Metrikwert maximieren |
+| [!UICONTROL pageviews] | Metrikwert maximieren |
+| [!UICONTROL Besucher] | Konversionsrate, Metrikwert maximieren |
+| [!UICONTROL Besuche] | Metrikwert maximieren |
 
 ## Einschränkungen und Hinweise
 
