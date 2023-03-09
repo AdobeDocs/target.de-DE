@@ -4,10 +4,10 @@ description: Erfahren Sie, wie  [!DNL Adobe Target]  funktioniert, einschließli
 title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 100%
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ Erfahren Sie, wie [!DNL Adobe Target] funktioniert, einschließlich Informatione
 
 [!DNL Target] lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder „at.js“ in Websites integrieren:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** Das [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} ist eine neue Client-seitige JavaScript-Bibliothek. Das [!DNL Experience Platform Web SDK] ermöglicht Kunden von [!DNL Adobe Experience Cloud] die Interaktion mit den verschiedenen Services in [!DNL Experience Cloud] (einschließlich [!DNL Target]) über das [!DNL Experience Platform] Edge Network. [!DNL Adobe] empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
-* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. [!DNL Adobe] empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen auf die [neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} zu aktualisieren.
+* **[!DNL Adobe Experience Platform Web SDK]:** Die [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} ist eine neue clientseitige JavaScript-Bibliothek. Das [!DNL Experience Platform Web SDK] ermöglicht Kunden von [!DNL Adobe Experience Cloud] die Interaktion mit den verschiedenen Services in [!DNL Experience Cloud] (einschließlich [!DNL Target]) über das [!DNL Experience Platform] Edge Network. [!DNL Adobe] empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
+* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. [!DNL Adobe] empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen auf den [aktuelle Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Der [!DNL Target Recommendations]-Service wird in einem Rechenzentrum von [!DNL 
 >
 >[!DNL Adobe Target] stellt derzeit keinen Edge-Cluster in China bereit. Für [!DNL Target]-Kunden in China ist die Leistung daher weiterhin eingeschränkt. Aufgrund der Firewall und des Mangels an Edge-Clustern innerhalb des Landes können die Erlebnisse auf Sites, auf denen [!DNL Target] implementiert ist, beeinträchtigt sein. Die Erlebnisse werden eventuell nur langsam gerendert und Seitenladevorgänge können beeinträchtigt sein. Auch Marketer bemerken bei Verwendung der Authoring-Benutzeroberfläche von [!DNL Target] eventuell Latenzen.
 
-Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf die Zulassungsliste setzen](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf Zulassungslisten setzen](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Geschütztes Benutzererlebnis {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -178,7 +178,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
    [!DNL Adobe] sucht weiterhin nach praktikablen Lösungen, die vollständig konform mit den Suchmaschinenrichtlinien sind. [!DNL Adobe] ist zuversichtlich, dass sich das mit diesem Ansatz verbundene Risiko für alle Kunden, die mehrere URLs zum Testen verwenden müssen, durch eine ordnungsgemäße Implementierung der kanonischen Tags verringert.
 
-* **Durchführen der Experimente nur so lange wie nötig**: Für [!DNL Adobe] bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. [!DNL Target] bietet Best Practices und den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6), um zu bestimmen, wann Ihr Test diesen Punkt erreicht hat. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
+* **Durchführen der Experimente nur so lange wie nötig**: Für [!DNL Adobe] bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. [!DNL Target] bietet Best Practices und [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um festzustellen, wann dieser Punkt in Ihrem Test erreicht ist. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
 
    Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test für 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartcodierung des erfolgreichsten Tests noch durchgeführt wird.
 
