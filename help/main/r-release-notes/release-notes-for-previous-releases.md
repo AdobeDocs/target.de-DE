@@ -4,10 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '35725'
-ht-degree: 97%
+source-wordcount: '35732'
+ht-degree: 96%
 
 ---
 
@@ -355,7 +355,7 @@ Diese Version enthält die folgenden neuen Funktionen:
 | --- | --- |
 | Aktualisierung der [!UICONTROL Audiences]-Benutzeroberfläche | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target]-Anwender zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profilskripte] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Zielgruppe] nbibliotheken</li><li>Ein neuer Filter &quot;Zielgruppenquelle&quot;, der eine schnellere Erkennung der Zielgruppen ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md). |
 | Aktualisierung der [!UICONTROL Profilskript]-Benutzeroberfläche | Die [!UICONTROL Profilskripte]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| Kriterien für ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations erstellen und bearbeiten | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations-Kriterien] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."} | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations-Kriterien] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14. September 2021)

@@ -5,10 +5,10 @@ landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um de
 title: Was ist Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert. [!DNL 
 
 [!DNL Target Premium] ist ein erweitertes [!DNL Target]-Angebot, das [!DNL Target Standard] gegen eine Lizenz zusätzliche Premium-Funktionen hinzufügt.
 
-Alle [!DNL Target Premium] Artikel in Target-Handbüchern enthalten das Premium-Zeichen oben auf jeder Seite oder inline neben dem betroffenen Text. Das Premium-Zeichen kann angeklickt werden und enthält einen Link zu diesem Abschnitt.
+Alle [!DNL Target Premium] Artikel in [!DNL Target] enthält [!UICONTROL Premium] Badge oben auf jeder Seite oder inline neben dem betroffenen Text. Die [!UICONTROL Premium] -Badge anklickbar ist und einen Link zu diesem Abschnitt enthält.
 
-[!DNL Target Premium] umfasst die folgenden Funktionen:
+**[!DNL Target Premium]umfasst die folgenden Funktionen:**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ Mit [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-
 
 [!BADGE Beta]{type=Informative}
 
-Die [!DNL Adobe Target] -Team aktiviert häufig Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken, bevor diese Funktionen in zukünftigen Versionen für alle Kunden aktiviert werden.
+Die [!DNL Adobe Target] -Team ermöglicht oft neuen Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in Zukunft für alle Kunden aktiviert [!DNL Target Standard/Premium] veröffentlicht und in den Versionshinweisen angekündigt.
 
 Artikel in [!DNL Target] Handbücher, die die Beta-Funktionen beschreiben, enthalten das Beta-Zeichen oben auf jeder Seite oder inline neben dem betroffenen Text. Der Beta-Badge kann angeklickt werden und enthält einen Link zu diesem Abschnitt.
 

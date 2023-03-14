@@ -5,10 +5,10 @@ title: Was sind Umgebungen und wie wende ich sie an?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 60%
+source-wordcount: '682'
+ht-degree: 58%
 
 ---
 
@@ -67,9 +67,7 @@ Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 >
 >Sie können die [!UICONTROL Produktion] -Umgebung, Sie können sie jedoch umbenennen.
 
-## Recommendations: Sammlungen und Ausschlüsse nach Umgebung (Hostgruppe) filtern
-
-![Premium-Zeichen](/help/main/assets/premium.png)
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."}
 
 Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
 
