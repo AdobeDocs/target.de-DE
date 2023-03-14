@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UIC
 title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1292'
 ht-degree: 2%
 
 ---
@@ -62,39 +62,18 @@ Erster Schritt:
 * [!DNL Adobe Analytics] Konversionsmetriken vorstellen
 * [!DNL Adobe Analytics] benutzerspezifische Ereignisse
 
-[!DNL Target] ermöglicht die Auswahl von Metriken basierend auf binomialen Ereignissen oder Metriken basierend auf kontinuierlichen Ereignissen bei Verwendung von [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
+[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] erfordert die Auswahl einer Metrik, die auf einem binomialen Ereignis basiert. Ein binomiales Ereignis geschieht entweder oder nicht. Binomielle Ereignisse umfassen einen Klick, eine Konversion, eine Bestellung usw. Diese Ereignistypen werden manchmal auch als Bernoulli-, binäre oder diskrete Ereignisse bezeichnet.
 
-* **Metriken basierend auf binomialen Ereignissen**: Ein binomiales Ereignis geschieht entweder oder nicht. Binomielle Ereignisse umfassen einen Klick, eine Konversion, eine Bestellung usw. Diese Ereignistypen werden manchmal auch als Bernoulli-, binäre oder diskrete Ereignisse bezeichnet.
+[!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] unterstützt keine Optimierung für kontinuierliche Metriken. Kontinuierliche Metriken umfassen Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Seitenansichten in der Sitzung usw. Diese nicht unterstützten Metriktypen werden manchmal auch als nicht binomielle oder nicht-Bernoulli-Metriken bezeichnet.
 
-* **Auf kontinuierlichen Ereignissen basierende Metriken**. Kontinuierliche Metriken umfassen Umsatz, Anzahl der bestellten Produkte, Sitzungsdauer, Anzahl der Seitenansichten in der Sitzung usw. Diese Ereignistypen werden manchmal auch als nicht-binomielle oder nicht-Bernoulli-Metriken bezeichnet.
+Die folgenden Metriktypen werden als primäre Zielmetriken nicht unterstützt:
 
->[!IMPORTANT]
->
->Als [!DNL Adobe Target Standard/Premium] Version 2.15.1 (8. und 9. März 2023), [!DNL Target] unterstützt weiterhin bestehende Aktivitäten mit Metriken, die jetzt nicht mehr unterstützt werden (aufgeführt in den folgenden Tabellen). Nach dem 9. September 2023 werden diese Metriken jedoch nicht mehr in bestehenden Aktivitäten unterstützt und alle Aktivitäten, die nicht unterstützte Metriken verwenden, werden eingestellt, um die vorhandene Aktivitätsmigration zum neuen Verhalten zu erzwingen.
+* [!DNL Adobe Target] Interaktion und Umsatzmetriken
+* [!DNL Adobe Analytics] Interaktion und Umsatzmetriken
 
-### Auswirkungen auf [!UICONTROL Automatische Zuordnung] activities
+   Es ist möglich, eine [!DNL Analytics] Interaktion oder Umsatzmetrik als primäre Zielmetrik verwenden, da [!DNL Target] kann nicht alle Interaktions- und Umsatzmetriken identifizieren und ausschließen von [!DNL Analytics]. Wählen Sie nur binomielle Konversionsmetriken oder benutzerspezifische Ereignisse aus [!DNL Analytics].
 
-| Name der Metrik | Wird nicht mehr unterstützt in: |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL averagetimespentonsite] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL bouncerate] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL Absprünge] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL Einträge] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL Ausstiege] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL pageviews] | Metrikwert maximieren |
-| [!UICONTROL Neuladungen] | Metrikwert maximieren |
-| [!UICONTROL Besucher] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL Besuche] | Metrikwert maximieren |
-
-### Auswirkungen auf [!UICONTROL Automatisches Targeting] activities
-
-| Name der Metrik | Wird nicht mehr unterstützt in: |
-| --- | --- |
-| [!UICONTROL Cartremovals] | Metrikwert maximieren |
-| [!UICONTROL pageviews] | Metrikwert maximieren |
-| [!UICONTROL Besucher] | Konversionsrate, Metrikwert maximieren |
-| [!UICONTROL Besuche] | Metrikwert maximieren |
+* [!DNL Adobe Analytics] berechnete Metriken
 
 ## Einschränkungen und Hinweise
 

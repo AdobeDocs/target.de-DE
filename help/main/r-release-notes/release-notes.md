@@ -5,10 +5,10 @@ landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesse
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 56%
+source-wordcount: '599'
+ht-degree: 64%
 
 ---
 
@@ -26,13 +26,9 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 * **9. März**: Region Europa, Naher Osten und Afrika (EMEA)
 * **9. März**: Region Asien-Pazifik (APAC)
 
-Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen:
-
-| Funktion | Details |
-| --- | --- |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] | [!DNL Target] ermöglicht die Auswahl von Metriken basierend auf binomialen Ereignissen oder Metriken basierend auf kontinuierlichen Ereignissen bei Verwendung von [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.<P>Beachten Sie die folgende zeitkritische Änderung bei unterstützten Metriken:<ul><li>[!DNL Target] das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 beibehalten. Nach diesem Datum werden Aktivitäten, die nicht unterstützte Metriken verwenden, eingestellt, um die vorhandene Aktivitätsmigration zum neuen Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter [Unterstützte Zielmetriken](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting*. |
-| [!UICONTROL Automatische Zuordnung] using [!UICONTROL Analytics for Target] (A4T) | Neues Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Automatisches Targeting] using [!UICONTROL Analytics for Target] (A4T) | Neues Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatisches Targeting] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>Aufgrund von Problemen, die seitdem behoben wurden, verwenden die &quot;Optimierten A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]&quot;-Funktion, die am 8. und 9. März veröffentlicht wurde, wurde vorübergehend entfernt. Nach weiteren internen Tests wird die Funktion in den nächsten Wochen erneut veröffentlicht.
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
