@@ -5,10 +5,10 @@ landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um de
 title: Was ist Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert. [!DNL 
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] ist ein erweitertes [!DNL Target]-Angebot, das [!DNL Target Standard] gegen eine Lizenz zusätzliche Premium-Funktionen hinzufügt.
 
-Alle Themen bzw. Seiten in diesem Handbuch, die [!DNL Target Premium] betreffen, sind mit dem Premium-Badge versehen:
+Alle [!DNL Target Premium] Artikel in Target-Handbüchern enthalten das Premium-Zeichen oben auf jeder Seite oder inline neben dem betroffenen Text. Das Premium-Zeichen kann angeklickt werden und enthält einen Link zu diesem Abschnitt.
 
-![Premium-Zeichen](/help/main/assets/premium.png)
-
-Target Premium verfügt über folgende Funktionen:
+[!DNL Target Premium] umfasst die folgenden Funktionen:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 ### Enterprise-Benutzerberechtigungen
 
 Mit [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) können Sie verschiedene Profile erstellen (in der [!DNL Adobe Admin Console for Enterprise] als „Produktprofile“ bezeichnet). Mit [!UICONTROL Enterprise-Benutzerberechtigungen] können Sie demselben Benutzer auch verschiedene Berechtigungen für einzelne Projekte zuweisen, die dessen Zugriffsrechte im jeweiligen Projekt festlegen. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Damit können Kunden die Anzeige-, Bearbeitungs-, Genehmigungs- und Veröffentlichungsrechte ihrer Benutzer einschränken. Sie können Benutzer auch nach Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerspezifischen Kriterien einschränken.
+
+## Beta-Funktionen {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+Die [!DNL Adobe Target] -Team aktiviert häufig Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken, bevor diese Funktionen in zukünftigen Versionen für alle Kunden aktiviert werden.
+
+Artikel in [!DNL Target] Handbücher, die die Beta-Funktionen beschreiben, enthalten das Beta-Zeichen oben auf jeder Seite oder inline neben dem betroffenen Text. Der Beta-Badge kann angeklickt werden und enthält einen Link zu diesem Abschnitt.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
