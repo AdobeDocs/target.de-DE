@@ -2,17 +2,18 @@
 keywords: Integration; Rollen; Benutzerberechtigungen; Admin Console
 description: Erfahren Sie, wie Sie bestehenden Adobe I/O-Integrationen Zugriff auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target gewähren.
 title: Wie gewähre ich der Adobe I/O Zugriff auf Arbeitsbereiche und Rollen zuweisen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Gewähren von Zugriff von Adobe I/O Integrationen auf Arbeitsbereiche und Zuweisen von Rollen
+# Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen
 
 Mit [!UICONTROL Unternehmensberechtigungen] können [!DNL Target] Kunden eine Organisation in Arbeitsbereiche für verschiedene Teams oder Arbeitsabläufe unterteilen.
 
