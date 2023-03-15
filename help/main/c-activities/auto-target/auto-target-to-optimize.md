@@ -2,16 +2,17 @@
 keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung
 description: Erfahren Sie, wie Sie [!UICONTROL Automatisches Targeting] Aktivität in [!DNL Target] stellt jedem Besucher basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher das am besten angepasste Erlebnis bereit.
 title: Was ist eine [!UICONTROL Automatisches Targeting] Aktivität?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Automatisches Targeting] Übersicht
+# [!UICONTROL Automatisches Targeting – Überblick]
 
 [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Adobe Target] Verwenden Sie das erweiterte maschinelle Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auszuwählen, um Inhalte zu personalisieren und Konversionen zu fördern. [!UICONTROL Automatisches Targeting] stellt jedem Besucher basierend auf dem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das am besten angepasste Erlebnis bereit.
 

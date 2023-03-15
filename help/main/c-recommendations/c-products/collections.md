@@ -2,16 +2,17 @@
 keywords: Sammlung; Targeting
 description: Erfahren Sie, wie Sie Sammlungen in Adobe verwenden. [!DNL Target] Recommendations. Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen.
 title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 59%
+source-wordcount: '883'
+ht-degree: 60%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Sammlungen
+# Sammlungen
 
 Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen. Eine Kollektion wird definiert, indem die Bedingungen angegeben werden, die von Elementen erfüllt werden müssen, die Teil der Kollektion sein sollen.
 
@@ -45,7 +46,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    ![Mauszeiger-Symbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/){target=_blank} , um die standardmäßige Hostgruppe zu ändern.
+   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/) zum Ändern der Standardhostgruppe.{target=_blank}
 
 1. Klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 

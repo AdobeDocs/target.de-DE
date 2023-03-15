@@ -2,16 +2,17 @@
 keywords: Automated Personalization;App;Vorschau;Erlebnis ausschließen
 description: Erfahren Sie, wie Sie die einzelnen Erlebnisse in einer Automated Personalization (AP)-Aktivität in Adobe in der Vorschau anzeigen. [!DNL Target] Verwenden von Visual Experience Composer (VEC).
 title: Wie kann ich eine Vorschau von Automated Personalization-Erlebnissen im VEC anzeigen?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Anzeigen einer Erlebnisvorschau für automatisierte Personalisierung im Visual Experience Composer
+# !Anzeigen einer Erlebnisvorschau für Automated Personalization im Visual Experience Composer
 
 Da [!DNL Adobe Target] [!UICONTROL Automated Personalization] -Aktivität (AP) mehrere Angebote auf einer Seite vergleicht. Es ist hilfreich, die Seite mit jedem Erlebnis in einer Vorschau anzuzeigen.
 

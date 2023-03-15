@@ -2,16 +2,17 @@
 keywords: Kriteriensequenz; mehrere Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; Sequenz; Anzahl der zurückgegebenen Elemente begrenzen; Steuerung auf Slot-Ebene; Slot
 description: Erfahren Sie, wie Sie Sequenzen von bis zu fünf Kriterien festlegen, um eine bessere Kontrolle über die Elemente zu erhalten, die in Ihrer Adobe angezeigt werden. [!DNL Target] Recommendations-Aktivitäten.
 title: Wie erstelle ich Kriteriensequenzen in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Kriteriensequenzen erstellen
+# Erstellen von Kriteriensequenzen
 
 Verwenden Sie Sequenzen von bis zu fünf Kriterien, um mehr Kontrolle über die Elemente zu erhalten, die in Ihren [!UICONTROL Recommendations]-Aktivitäten angezeigt werden. Sie können auch die Anzahl der zurückgegebenen Elemente einschränken (manchmal auch als &quot;Steuerung auf Ebene der Zeitnischen&quot;bezeichnet).
 

@@ -2,16 +2,17 @@
 keywords: Berichte; automatisches Targeting; automatisches Targeting; AT; Bericht
 description: Erfahren Sie, wie Sie den Zusammenfassungsbericht für Automatisches Targeting in Adobe Target interpretieren. Sie können aus diesem Bericht zu den Berichten "Automatisierte Segmente"und "Wichtige Attribute"wechseln.
 title: Wie verwende ich den AT-Zusammenfassungsbericht?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) AT (Automatisches Targeting)-Zusammenfassungsbericht
+# AT (Automatisches Targeting)-Zusammenfassungsbericht
 
 Informationen zur Interpretation der [!UICONTROL Zusammenfassung für automatisches Targeting] Berichte in [!DNL Adobe Target].
 

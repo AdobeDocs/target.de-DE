@@ -2,16 +2,17 @@
 keywords: Erstellen Sie automatisches Targeting; A/B-Test; automatische Targeting-Aktivität; neue A/B-Aktivität; automatisches Targeting; automatisches Targeting für personalisierte Erlebnisse; personalisiert; Optimierung
 description: Erfahren Sie, wie Sie Visual Experience Composer (VEC) in Adobe verwenden. [!DNL Target] , um Ihre A/B-Test-Aktivität für Automatisches Targeting direkt in einer [!DNL Target]-aktivierte Seite.
 title: Wie erstelle ich eine Aktivität vom Typ "Automatisches Targeting"?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 49%
+source-wordcount: '927'
+ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Erstellen einer Aktivität vom Typ Automatisches Targeting
+# Erstellen einer automatischen Targeting-Aktivität
 
 Verwenden Sie die [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] , um [!UICONTROL Automatisches Targeting] [!UICONTROL A/B-Test] direkt in einer Aktivität [!DNL Target]-aktivierte Seite verwenden und Teile der Seite in [!DNL Target].
 

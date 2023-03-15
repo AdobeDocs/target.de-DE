@@ -2,16 +2,17 @@
 keywords: Erlebnisvorschau;Erlebnis-URLs;URLs generieren;Erlebnis-URLs anzeigen
 description: Erfahren Sie, wie Sie Erlebnisvorschau-URLs für die Adobe verwenden [!DNL Target] Automated Personalization-Aktivitäten verwenden, um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität aktiv ist.
 title: Wie kann ich URLs für die Erlebnisvorschau in Automated Personalization-Aktivitäten verwenden?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs
+# Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs
 
 Es können URLs für die Erlebnisvorschau für [!DNL Target] [!UICONTROL Automated Personalization] Aktivitäten , um Erlebnisinhalte direkt auf Ihrer Site anzuzeigen, bevor die Aktivität für Vorschau- und QA-Zwecke live ist. URLs für die Erlebnisvorschau umgehen das Targeting, um die Anzeige eines bestimmten Erlebnisses zu erzwingen.
 

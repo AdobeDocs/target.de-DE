@@ -2,16 +2,17 @@
 keywords: Traffic-Schätzung; automatisierte Personalisierung; App; Traffic schätzen; automatisches Targeting
 description: Verwenden der Adobe [!DNL Target] Traffic-Schätzung , um festzustellen, ob Sie über ausreichend Traffic verfügen, damit Ihre Automated Personalization-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine erfolgreiche Aktivität benötigt?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Schätzen des für einen erfolgreichen Test erforderlichen Traffics
+# Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
 Die [!DNL Adobe Target] [!UICONTROL Traffic-Schätzung] liefert Feedback, der Ihnen mitteilt, ob Sie über ausreichend Traffic für Ihre [!UICONTROL Automated Personalization] Aktivität erfolgreich zu sein.
 
