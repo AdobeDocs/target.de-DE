@@ -2,16 +2,17 @@
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Bereitstellungs-API; ausschließliche Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
 description: Erfahren Sie, wie Sie E-Mails mit der Adobe [!DNL Target Recommendations], including using the [!DNL Target] -Bereitstellungs-API, Rawbox-Vorlagen und Nur-Download-Vorlagen integrieren.
 title: Wie integriere ich Recommendations mit E-Mail?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 99%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!DNL Recommendations] mit E-Mails integrieren 
+# Integration [!DNL Recommendations] von in E-Mail
 
 [!DNL Adobe Target] unterstützt die Sendezeit-Personalisierung von Recommendations in E-Mails.
 
@@ -25,7 +26,7 @@ Es sind drei Methoden zur Integration von [!DNL Target Recommendations] mit Ihre
 
 Bei Verwendung von Methode 1 oder Methode 2 muss Ihr ESP eine externe API pro Kunde/pro E-Mail aufrufen und auf die Rückgabe von Inhalten warten. Diese Methoden werden nicht von allen ESPs unterstützt. Wenden Sie sich an Ihren ESP, um festzustellen, ob diese Art der Integration bei ihm möglich ist.
 
-Bei der Verwendung von Methode 3 muss Ihr ESP einer Liste von Recommendations nach Produkt-ID oder Kategorie-ID mit Ihrer E-Mail-Liste verknüpfen. Diese Methode kann auf einem Attribut basieren, z. B. dem zuletzt angezeigten Produkt des Kunden, seinem zuletzt gekauften Produkt oder seiner am häufigsten angezeigten Kategorie. Ihr ESP muss jedoch Zugriff auf diese Daten in ihrem Kundenprofil haben, um die Verknüpfung durchführen zu können. Wenden Sie sich an Ihren ESP, um festzustellen, ob er Zugriff auf diese Daten hat und diese Art der Integration unterstützt.
+Bei der Verwendung von Methode 3 muss Ihr ESP einer Liste von Recommendations nach Produkt-ID oder Kategorie-ID mit Ihrer E-Mail-Liste verknüpfen. Diese Methode kann auf einem Attribut basieren, z. B. dem zuletzt angezeigten Produkt, dem zuletzt gekauften Produkt oder der am häufigsten angezeigten Kategorie des Kunden. Ihr ESP muss jedoch Zugriff auf diese Daten in ihrem Kundenprofil haben, um die Verknüpfung durchführen zu können. Wenden Sie sich an Ihren ESP, um festzustellen, ob er Zugriff auf diese Daten hat und diese Art der Integration unterstützt.
 
 Die Open-Time-Personalisierung von Empfehlungen wird von [!DNL Adobe Target] nicht unterstützt.
 
@@ -77,7 +78,7 @@ Dabei ist `clientcode` Ihr [!DNL Target]-Client-Code.
 >
 >Stellen Sie sicher, dass Sie einen eindeutigen Wert für `sessionId` und entweder `tntId` oder `thirdPartyId` für jeden E-Mail-Empfänger bereitstellen (z. B. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen.
 
-Siehe [Dokumentation zur Bereitstellungs-API](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} für weitere Informationen.
+Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://developer.adobe.com/target/implement/delivery-api/).{target=_blank}
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 
@@ -132,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>(Für bestimmte Kriterientypen erforderlich: am häufigsten angezeigt nach Kategorie und Topverkäufe nach Kategorie) | *category_id* | Die Kategorie, auf der die Empfehlung basiert, beispielsweise die Topverkäufe einer Kategorie.<br>Falls von den Kriterien gefordert, muss der Rawbox-Aufruf `entity.categoryId` enthalten. |  |
 | `mboxDefault` | *`https://www.default.com`* | Ist kein `mboxNoRedirect`-Parameter vorhanden, sollte `mboxDefault` eine absolute URL sein, die Standardinhalte zurückgibt, wenn keine Empfehlung zur Verfügung steht. Bei dieser URL kann es sich um Bilder oder statische Inhalte handeln.<br>Wenn der `mboxNoRedirect`-Parameter vorhanden ist, kann es sich bei `mboxDefault` um einen beliebigen Text handeln, der angibt, dass es keine Empfehlungen gibt wie z. B. `no_content`.<br>Der E-Mail-Anbieter muss mit Situationen umgehen können, bei denen dieser Wert zurückgegeben wird, und bei deren Eintreten Standard-HTML-Inhalte in die E-Mail einfügen. <br> **Best Practice für die Sicherheit**: Wenn die in der `mboxDefault`-URL verwendete Domain nicht in der Zulassungsliste enthalten ist, bieten Sie eine Angriffsfläche für Open Redirects. Zur Vermeidung einer unbefugten Nutzung von Weiterleitungs-Links oder `mboxDefault` durch Dritte empfiehlt Adobe die Verwendung von „autorisierten Hosts“, wodurch die Domains der Standard-Weiterleitungs-URL auf die Zulassungsliste gesetzt werden. Target verwendet Hosts, um Domains auf die Zulassungsliste zu setzen, für die Umleitungen erlaubt sind. Weitere Informationen finden Sie im Abschnitt *Hosts* unter [Erstellen von Zulassungslisten mit Hosts, die autorisiert sind, Mbox-Aufrufe an [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) zu senden. |  |
 | `mboxHost` | *mbox_host* | Die Domain, die der Standardumgebung (Host-Gruppe) hinzugefügt wird, wenn der Aufruf erfolgt. |  |
-| `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine „thirdPartyId“ angegeben wurde, wird eine neue „tntId“ generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
+| `mboxPC` | Empty | (Für Empfehlungen erforderlich, die das Profil eines Besuchers verwenden.)<br>Wenn keine &quot;thirdPartyId&quot;angegeben wurde, wird eine neue &quot;tntId&quot;generiert und als Teil der Antwort zurückgegeben. Ansonsten wird kein Wert angegeben.<br>**Hinweis**: Stellen Sie sicher, dass Sie einen eindeutigen Wert für `mboxSession` und `mboxPC` für jeden einzelnen E-Mail-Empfänger angeben (d. h. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen. | 1 &lt; Länge &lt; 128<br>Darf nicht mehr als einen einzelnen „.“ (Punkt) enthalten.<br>Der einzig zulässige Punkt ist derjenige vor dem Suffix für den Profilspeicherort. |
 
 ### Optionale Parameter
 

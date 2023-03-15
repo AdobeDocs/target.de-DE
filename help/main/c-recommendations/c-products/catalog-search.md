@@ -2,16 +2,17 @@
 keywords: Katalogsuche; Katalog; Suche; Ausschluss; Sammlung; Filter
 description: Erfahren Sie, wie Sie mit der Recommendations-Katalogsuche Produkte oder Inhalte suchen, Sammlungen oder Ausschlüsse erstellen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
 title: Wie verwende ich die Recommendations-Katalogsuche?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Katalogsuche
+# Katalogsuche
 
 Die [!UICONTROL Katalogsuche] Seite in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, ist die Suche nach einem Element. Darüber hinaus können Sie die Umgebung ändern, Suchergebnisse in Sammlungen oder Ausschlüssen speichern, Filterfacetten hinzufügen, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
 

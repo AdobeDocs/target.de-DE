@@ -2,16 +2,17 @@
 keywords: Kriterien; Algorithmus; vertikaler Markt; Seitentyp; Empfehlungsschlüssel; Empfehlungslogik; Logik; Datenbereich; Datenbereich; Lookback-Fenster; Verhaltensdatenquelle; partielles Design; Ersatzempfehlungen; Einschlussregeln; Attributgewichtung; aktuelle Kategorie; benutzerdefiniertes Attribut; zuletzt gekauftes Element; zuletzt angezeigtes Element; am häufigsten angezeigte Artikel; am häufigsten angezeigte Artikel; Favoritenkategorie; Beliebtheit; zuletzt angezeigter Artikel; zuletzt gekauft
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Adobe Recommendations-Aktivitäten steuern und die für Ihre Aktivität am besten geeigneten Empfehlungen anzeigen.
 title: Wie erstelle ich Kriterien in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Kriterien erstellen
+# Erstellen von Kriterien
 
 Kriterien in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] den Inhalt Ihrer [!UICONTROL Recommendations] Aktivitäten. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen. Diese Kriterien verwenden die Aktionen des Besuchers, um zu bestimmen, welche Inhalte oder Produkte angezeigt werden sollen.
 

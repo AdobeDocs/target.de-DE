@@ -2,16 +2,17 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Aktivitätsstufenbericht; Angebotsebene-Bericht; Angebotsdetailbericht; FAQ
 description: Erfahren Sie, wie Sie den Automated Personalization-Zusammenfassungsbericht in Adobe Target interpretieren. Sie können aus diesem Bericht zu den Berichten "Automatisierte Segmente"und "Wichtige Attribute"wechseln.
 title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 34%
+source-wordcount: '678'
+ht-degree: 33%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Berichte zur automatisierten Personalisierung
+# Automated Personalization-Zusammenfassungsberichte
 
 Für Benutzer von [!UICONTROL Automated Personalization] Aktivitäten in [!DNL Adobe Target].
 

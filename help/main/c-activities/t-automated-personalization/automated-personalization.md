@@ -2,16 +2,17 @@
 keywords: automatisierte Personalisierung;App;Zielgruppen;Ensemble;Random Forest;Multi-Armed Bandit;Thompson Sampling;ml;maschinelles Lernen
 description: Erfahren Sie, wie Sie Automated Personalization-Aktivitäten (AP) in Adobe verwenden. [!DNL Target] die mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten den einzelnen Besuchern zuordnen.
 title: Was ist eine Automated Personalization (AP)-Aktivität?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 89%
+source-wordcount: '1048'
+ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] AP-Aktivitäten in [!DNL Adobe Target] Angebote oder Nachrichten kombinieren und mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten den einzelnen Besuchern basierend auf ihrem individuellen Kundenprofil zuordnen, um Inhalte zu personalisieren und die Steigerung zu fördern.
 
@@ -31,7 +32,7 @@ Die folgenden Begriffe und Definitionen sind hilfreich, wenn es um die [!UICONTR
 |---|---|
 | Multi-Armed Bandit | Die Methode „Multi-Armed Bandit“ stellt ein Gleichgewicht zwischen forschendem Lernen (Exploration) und der Verwertung der Lernergebnisse (Exploitation) her. |
 | Random Forest | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache der Datenwissenschaftler ist dies eine Ensemble-Classification- oder Regressionsmethode, die auf der Grundlage von Besuchern und Besuchsattributen eine große Anzahl von Entscheidungsbäumen erstellt. Random Forest wird von Target eingesetzt, um zu bestimmen, welches Erlebnis die höchste Wahrscheinlichkeit einer Konversion (oder den höchsten Umsatz pro Besuch) für jeden einzelnen Besucher hat. Weitere Informationen zu Random Forest in Target finden Sie unter  [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Thompson Sampling | Ziel des Thompson Samplings ist es, festzustellen, welches (nicht personalisierte) Erlebnis insgesamt das beste ist, während gleichzeitig die „Kosten“ für die Auffindung dieses Erlebnisses minimiert werden. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Thompson Sampling | Ziel des Thompson-Samplings ist es, zu ermitteln, welches Erlebnis insgesamt das beste (nicht personalisierte) Erlebnis ist, und gleichzeitig die &quot;Kosten&quot;für die Suche nach diesem Erlebnis zu minimieren. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. Weitere Informationen finden Sie unter [Thompson Sampling](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 Folgendes sollte beim Einsatz der [!UICONTROL automatisierten Personalisierung] beachtet werden:
 
@@ -47,7 +48,7 @@ Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Sprache
 
 **Das Personalisierungsmodell passt sich an Änderungen beim Besucherverhalten an.**
 
-* Multi-Armed Bandit gewährleistet, dass das Modell immer einen kleinen Anteil des Traffics darauf verwendet, während des gesamten Lebenszyklus der Aktivität weiter zu lernen, um so eine Übernutzung der zuvor erlernten Trends zu verhindern.
+* Der &quot;mehrarmige Bandit&quot;stellt sicher, dass das Modell immer einen kleinen Teil des Traffics &quot;ausgibt&quot;, um während des gesamten Lebenszyklus der Aktivität weiter zu lernen und um zu verhindern, dass zuvor erlernte Trends übertrieben ausgenutzt werden.
 * Die zugrunde liegenden Modelle werden alle 24 Stunden anhand der neuesten Daten zum Besucherverhalten überholt, um sicherzustellen, dass Target bei wechselnden Besucherpräferenzen immer auf dem neuesten Stand bleibt.
 * Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher bestimmen kann, wechselt er automatisch zur Anzeige des Erlebnisses mit der besten Gesamtleistung und sucht weiterhin nach personalisierten Gewinnern. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt.
 

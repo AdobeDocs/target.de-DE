@@ -2,17 +2,18 @@
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
 description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen zu Elementen in Ihrer Adobe zu definieren. [!DNL Target] Recommendations-Katalog.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Personalisierte Entitätsattribute
+# Benutzerdefinierte Entitätsattribute
 
 Verwenden benutzerdefinierter Entitätsattribute mit einzelnen und mehreren Werten in [!DNL Adobe Target Recommendations] , um zusätzliche Informationen zu Artikeln in Ihrem Katalog zu definieren.
 
@@ -36,7 +37,7 @@ Ein benutzerdefinierter Entitätswert mit einem einzelnen Wert ist genauso aufge
 
 Ein benutzerdefiniertes Entitätsattribut mit mehreren Werten muss als gültiges JSON-Array festgelegt werden:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Beispiele für gültige JSON-Arrays, die von [!DNL Recommendations] unterstützt werden:
 
@@ -126,7 +127,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Siehe [Dokumentation zur Adobe Recommendations API](https://developer.adobe.com/target/implement/recommendations/){target=_blank} für Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten.
+Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Dokumentation der Adobe Recommendations-APIs](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 

@@ -2,29 +2,30 @@
 keywords: Erlebnis;Kontrolle;automatisierte Personalisierung;automatisches Targeting
 description: Erfahren Sie, wie Sie ein Erlebnis auswählen, das beim Erstellen einer Automated Personalization- (AP) oder automatischen Targeting-Aktivität in Adobe Target als Kontrolle verwendet werden soll.
 title: Wie kann ich ein bestimmtes Erlebnis als Kontrollelement in einer AP-Aktivität verwenden?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 95%
+source-wordcount: '764'
+ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Auswahl des Kontrollelements für die Aktivität „Automatisierte Personalisierung“ oder „Automatisches Targeting“
+# Wählen Sie das Steuerelement für Automated Personalization oder die automatische Targeting-Aktivität aus
 
 Sie können beim Erstellen einer [automatisierten Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) auswählen, ob ein zufälliges oder ein bestimmtes Erlebnis als Kontrollelement verwendet werden soll.
 
 Mit dieser Funktion können Sie den Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu den entsprechenden Erlebnissen leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem Kontrollerlebnis vergleichen und auswerten.
 
-Die Optionen zum Festlegen eines Kontrollelements bei AP- und AT-Aktivitäten unterscheiden sich geringfügig von anderen Aktivitätstypen. In einem manuellen A/B-Test können Sie ändern, was in den Berichten als Ihre Kontrolle angezeigt wird, und die Steigerung wird anhand der Konversionsrate dieses Kontrollerlebnisses berechnet. Sie können diese Änderung einfach vornehmen, da der Traffic per Zufall an jedes der Erlebnisse geleitet wird, die Sie in Ihre Aktivität eingeschlossen haben, unabhängig davon, wie die Kontrolle ursprünglich eingestellt ist. Das heißt, dass die Auswahl der Kontrolle keine Auswirkung auf den Traffic hat. Bei AP- und AT-Aktivitäten hat Ihre Auswahl der Kontrolle sehr wohl Auswirkungen auf den Besucher-Traffic. Daher sollten Sie diese Entscheidung besonders gut überdenken.
+Die Optionen zum Festlegen eines Kontrollelements bei AP- und AT-Aktivitäten unterscheiden sich geringfügig von anderen Aktivitätstypen. In einem manuellen A/B-Test können Sie ändern, was in den Berichten als Ihre Kontrolle angezeigt wird, und die Steigerung wird anhand der Konversionsrate dieses Kontrollerlebnisses berechnet. Sie können diese Änderung einfach vornehmen, da der Traffic per Zufall an jedes der Erlebnisse geleitet wird, die Sie in Ihre Aktivität eingeschlossen haben, unabhängig davon, wie die Kontrolle ursprünglich eingestellt ist. Mit anderen Worten: Die Auswahl der Kontrolle hat keine Auswirkungen auf die Art und Weise, wie Traffic bereitgestellt wird. Bei AP- und AT-Aktivitäten hat Ihre Auswahl der Kontrolle sehr wohl Auswirkungen auf den Besucher-Traffic. Daher sollten Sie diese Entscheidung besonders gut überdenken.
 
 Für die AP- und AT-Aktivitäten stehen zwei Optionen zur Verfügung: zufällig bereitgestellte Erlebnisse oder ein bestimmtes Erlebnis.
 
-* **Zufällig bereitgestellt**: Bei einem zufälligen Kontrollerlebnis werden alle Erlebnisse der Aktivität über den Kontrollprozentsatz des Traffics zufällig ohne Berücksichtigung des Besucherprofils ausgeliefert. Diese Kontrolloption bietet eine Antwort auf etwa die Frage: „Wenn ich ein Erlebnis (oder ein Angebot) zufällig für Besucher bereitstelle, ohne ihre Profile zu berücksichtigen, wie hoch ist die Konversionsrate für dieses Erlebnis (oder Angebot)?“ Diese Kontrolloption ähnelt einem A/B-Test innerhalb Ihrer AI-Aktivität. Diese Informationen der nicht personalisierten Konversionsrate für jedes Erlebnis oder Angebot können bei der Analyse der Aktivitätsergebnisse hilfreich sein.
+* **Zufällig bereitgestellt**: Für eine zufällige Kontrolle stellt der Kontrollprozentsatz des Traffics zufällig alle Erlebnisse in der Aktivität bereit, ohne das Profil des Besuchers zu berücksichtigen. Sie können sich das Steuerelement als Hilfe bei der Beantwortung der Frage vorstellen: &quot;Wenn ich ein Erlebnis (oder Angebot) nur zufällig an Besucher weitergebe und deren Profile nicht berücksichtige, wie hoch ist die Konversionsrate für dieses Erlebnis (oder Angebot)?&quot; Diese Kontrolloption ähnelt einem A/B-Test innerhalb Ihrer AI-Aktivität. Diese Informationen der nicht personalisierten Konversionsrate für jedes Erlebnis oder Angebot können bei der Analyse der Aktivitätsergebnisse hilfreich sein.
 
-* **Bestimmtes Erlebnis**: Mit einem bestimmten Kontrollerlebnis können Sie den von den Personalisierungsmodellen von Target bereitgestellten Traffic mit einem bestimmten, vom Marketingexperten definierten Erlebnis vergleichen (z. B. Ihrer standardmäßigen Homepage). Mit dieser Option wird Traffic gemäß dem Kontrollprozentsatz zufällig für ausschließlich dieses eine Erlebnis bereitgestellt.
+* **Bestimmtes Erlebnis**: Mit einem bestimmten Erlebnissteuerelement können Sie Ihren von den Target-Personalisierungsmodellen bereitgestellten Traffic mit einem bestimmten Erlebnis vergleichen, das vom Marketingexperten definiert wurde (z. B. Ihrer standardmäßigen Homepage). Mit dieser Option wird Traffic gemäß dem Kontrollprozentsatz zufällig für ausschließlich dieses eine Erlebnis bereitgestellt.
 
 ## Festlegen eines bestimmten Erlebnisses als Kontrollelement
 
