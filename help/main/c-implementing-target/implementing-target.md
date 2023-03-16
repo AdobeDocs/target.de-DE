@@ -2,11 +2,12 @@
 keywords: Implementieren;Implementierung
 description: Grundlegende Konzepte verstehen, wie Sie [!DNL Target] arbeitet und in Ihre Infrastruktur integriert ist und versteht, wie Besucher verfolgt werden.
 landing-page-description: Bevor Sie mit der Verwendung von Adobe Target beginnen, müssen Sie es auf Ihrer Site implementieren.
+short-description: Before you start using Adobe Target, you must implement it on your site.
 title: Implementieren [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%
