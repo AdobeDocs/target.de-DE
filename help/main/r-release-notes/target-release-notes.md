@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-* **8. März**: Amerikanische Region
+* **8. März**: Region Nord- und Südamerika
 * **9. März**: Region Europa, Naher Osten und Afrika (EMEA)
 * **9. März**: Region Asien-Pazifik (APAC)
 
@@ -48,7 +48,7 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 ## at.js-Version 2.10.2 (7. März 2023)
 
-* Es wurde ein Fehler behoben, der dazu führte, dass die `trackEvent` -Funktion immer einen Fehler zurückgeben.
+* Es wurde ein Fehler behoben, der dazu geführt hatte, dass die Funktion `trackEvent` immer einen Fehler zurückgab.
 
 Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 

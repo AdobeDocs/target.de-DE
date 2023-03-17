@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2216'
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 8. März | [[!UICONTROL A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Der Abschnitt wurde aktualisiert und enthält jetzt Informationen zu den unterstützten (und nicht unterstützten) Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) |
-|  | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de){target=_blank} | Die folgenden neuen Tutorials wurden hinzugefügt:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatische Zuordnung] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für [!UICONTROL Automatisches Targeting] activities](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md) | Der Abschnitt &quot;Best Practices&quot;wurde hinzugefügt. |
-|  | [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Der folgende Hinweis wurde zum Abschnitt &quot;Fehlerbehebung bei benutzerdefiniertem Code&quot;hinzugefügt:<ul><li>Angebote mit benutzerspezifischem Code im VEC werden nicht erneut gerendert, wenn `triggerView()` aufgerufen wird mit `{page: false}` als Option.</li></ul> |
+| 8. März | [A4T-Unterstützung für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Der Abschnitt wurde aktualisiert und enthält jetzt Informationen zu den unterstützten (und nicht unterstützten) Metriken für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings], die [!UICONTROL Analytics for Target] (A4T) verwenden |
+|  | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de){target=_blank} | Die folgenden neuen Tutorials wurden hinzugefügt:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
+|  | [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md) | Ein Abschnitt „Best Practices“ wurde hinzugefügt. |
+|  | [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Der folgende Hinweis wurde zum Abschnitt „Fehlerbehebung bei benutzerdefiniertem Code“ hinzugefügt:<ul><li>Angebote mit benutzerdefiniertem Code in VEC werden nicht erneut gerendert, wenn `triggerView()` mit `{page: false}` als Option aufgerufen wird.</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen über die at.js-Version 2.10.2 hinzugefügt. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Versionsinformationen zur Version 22.15.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
