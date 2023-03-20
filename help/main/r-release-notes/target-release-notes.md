@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 49%
 
 ---
@@ -49,7 +49,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 * Aktualisierte Links in der [!DNL Target] Benutzeroberfläche zum Verweis auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Verbesserte Sicherheit, um serverseitige SSRF-Versuche (Request Forgery) zu verhindern [!DNL Recommendations] Feeds. (TGT-43769)
 * Es wurde ein Problem behoben, durch das Kunden keine Vorschaubilder in anzeigen konnten. [!DNL Recommendations] entwirft, wenn der Bildname [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Es wurde ein Problem behoben, das einige [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank} zu maskieren im [!UICONTROL Änderungen] Bedienfeld beim Bearbeiten [!UICONTROL Text/HTML] in einer Aktivität [!UICONTROL Erlebnisse] Seite.
+* Es wurde ein Problem behoben, das einige [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank} zu maskieren im [!UICONTROL Änderungen] Bedienfeld beim Bearbeiten [!UICONTROL Text/HTML] in einer Aktivität [!UICONTROL Erlebnisse] Seite. (TGT-44600)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
 
