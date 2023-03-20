@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
 workflow-type: tm+mt
-source-wordcount: '35732'
+source-wordcount: '35992'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,39 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2023
+
+### [!DNL Target] Standard/Premium 22.15.1 (8. und 9. März 2023)
+
+Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
+
+* **8. März**: Region Nord- und Südamerika
+* **9. März**: Region Europa, Naher Osten und Afrika (EMEA)
+* **9. März**: Region Asien-Pazifik (APAC)
+
+>[!NOTE]
+>
+>Aufgrund von Problemen, die seitdem behoben wurden, verwenden die &quot;Optimierten A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]&quot;-Funktion, die am 8. und 9. März veröffentlicht wurde, wurde vorübergehend entfernt. Nach weiteren internen Tests wird die Funktion in den nächsten Wochen erneut veröffentlicht.
+
+Diese Version enthält die folgenden Fehlerbehebungen:
+
+* Aktualisierungen für die Erstellung benutzerdefinierter Webkomponenten mit der [!UICONTROL Visual Experience Composer] (VEC):
+
+   * Die Auswahl von Shadow-DOM-Elementen im VEC wurde korrigiert, indem der Authoring-Prozess verbessert wurde, sodass keine Abhängigkeit von der [!DNL Target] Implementierungstyp beim Authoring des Shadow-Stamms. Jetzt sollte die Auswahl von Shadow DOM-Elementen im VEC für jede Website funktionieren.
+   * Es wurde ein Problem behoben, das das Laden von HTML-Elementen mithilfe von #Shadow DOM im VEC verhinderte. (TGT-35801)
+   * Korrektur von VEC-Problemen mit SPA Websites, die ShadowDOM verwenden. (TGT-43169)
+   * Es wurde ein Problem mit dem Optimierungsziel behoben: &quot;auf ein Element geklickt&quot;hat, das den CSS-Selektor in ShadowDOM nicht ordnungsgemäß identifiziert hat.
+
+>[!NOTE]
+>
+>Stellen Sie sicher, dass Sie eine [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (legierung.js) mit einer Version größer als 2.8.
+
+**Bekanntes Problem**: Klick-Tracking für ein Shadow-Stammelement bei Verwendung von [!DNL Adobe Experience Platform Web SDK] funktioniert nicht ordnungsgemäß. (TNT-47012)
+
+### at.js-Version 2.10.2 (7. März 2023)
+
+* Es wurde ein Fehler behoben, der dazu geführt hatte, dass die Funktion `trackEvent` immer einen Fehler zurückgab.
+
+Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (13.–15. Februar 2023)
 
@@ -1438,7 +1471,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p> 
      <ul id="ul_DFEB778393024E3EBBC482F31A5B39BC"> 
       <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>Die Erstellung benutzerspezifischer Zielgruppen ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in Recommendations-Kriterien und -Promotions sowie in Vorlagentestregeln umgesetzt. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">Benutzerdefinierte Parameter.</a> </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter     <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local">Benutzerdefinierte Parameter.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
