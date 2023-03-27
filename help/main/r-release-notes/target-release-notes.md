@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
+source-git-commit: 1cc630f12f4b9dc1d9c5700bc6174b40d4f0dae2
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 49%
+source-wordcount: '738'
+ht-degree: 48%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 20. März 2023**
+**Zuletzt aktualisiert: 27. März 2023**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -32,7 +32,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 | Funktion | Details |
 |--- |--- |
 | AEM Inhaltsfragmente für die Headless-Personalisierung und -Experimentierung | Verwendung [!DNL Adobe Experience Manager] AEM [!UICONTROL Inhaltsfragmente] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] , um Erlebnisse bedarfsgerecht zu testen und zu personalisieren. |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul> |
+| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul> |
 | [!UICONTROL Automatische Zuordnung] mithilfe von [!UICONTROL Analytics for Target] (A4T) | Aktualisiertes Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li></ul> |
 | [!UICONTROL Automatisches Targeting] mithilfe von [!UICONTROL Analytics for Target] (A4T) | Aktualisiertes Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
 
