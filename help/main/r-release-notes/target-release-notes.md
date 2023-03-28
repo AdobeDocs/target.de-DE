@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1cc630f12f4b9dc1d9c5700bc6174b40d4f0dae2
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 48%
+source-wordcount: '692'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 Dieser Artikel enthält Vorabinformationen zur kommenden Version. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 
-**Zuletzt aktualisiert: 27. März 2023**
+**Zuletzt aktualisiert: 28. März 2023**
 
 Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
@@ -31,10 +31,7 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 |--- |--- |
-| AEM Inhaltsfragmente für die Headless-Personalisierung und -Experimentierung | Verwendung [!DNL Adobe Experience Manager] AEM [!UICONTROL Inhaltsfragmente] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] , um Erlebnisse bedarfsgerecht zu testen und zu personalisieren. |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul> |
-| [!UICONTROL Automatische Zuordnung] mithilfe von [!UICONTROL Analytics for Target] (A4T) | Aktualisiertes Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li></ul> |
-| [!UICONTROL Automatisches Targeting] mithilfe von [!UICONTROL Analytics for Target] (A4T) | Aktualisiertes Tutorial:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
+| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Im Zusammenhang mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
 
 * Die Synchronisierung von Zielgruppe und Aktivität wurde verbessert, sodass in erstellte Elemente [!DNL Adobe Experience Platform] und [!DNL Adobe Audience Manager] finden Sie im Abschnitt [!DNL Target] Schnellere Benutzeroberfläche. (TGT-44568)
 * Änderung vorgenommen, um Benutzern zu ermöglichen, die [!UICONTROL Standard-URL] under [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Standard-URL]. Durch diese Änderung können Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der ersten Konfiguration bisher nicht möglich war. (TGT-44577)
@@ -51,7 +48,6 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 * Es wurde ein Problem behoben, durch das Kunden keine Vorschaubilder in anzeigen konnten. [!DNL Recommendations] entwirft, wenn der Bildname [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
 * Es wurde ein Problem behoben, das einige [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank} zu maskieren im [!UICONTROL Änderungen] Bedienfeld beim Bearbeiten [!UICONTROL Text/HTML] in einer Aktivität [!UICONTROL Erlebnisse] Seite. (TGT-44600)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
-
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
