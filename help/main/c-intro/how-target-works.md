@@ -5,9 +5,9 @@ title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Erfahren Sie, wie [!DNL Adobe Target] funktioniert, einschließlich Informatione
 
 [!DNL Target] lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder „at.js“ in Websites integrieren:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** Die [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} ist eine neue clientseitige JavaScript-Bibliothek. Das [!DNL Experience Platform Web SDK] ermöglicht Kunden von [!DNL Adobe Experience Cloud] die Interaktion mit den verschiedenen Services in [!DNL Experience Cloud] (einschließlich [!DNL Target]) über das [!DNL Experience Platform] Edge Network. [!DNL Adobe] empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
-* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. [!DNL Adobe] empfiehlt allen Kunden, die at.js verwenden, ihre Implementierungen auf den [aktuelle Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:** Das [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} ist eine neue Client-seitige JavaScript-Bibliothek. Das [!DNL Experience Platform Web SDK] ermöglicht Kunden von [!DNL Adobe Experience Cloud] die Interaktion mit den verschiedenen Services in [!DNL Experience Cloud] (einschließlich [!DNL Target]) über das [!DNL Experience Platform] Edge Network. [!DNL Adobe] empfiehlt allen neuen [!DNL Target]-Kunden, das [!DNL Experience Platform Web SDK] zu implementieren.
+* **at.js:** Die at.js-Bibliothek ist eine Implementierungsbibliothek für [!DNL Target]. Die at.js-Bibliothek sorgt für kürzere Seitenladezeiten bei Web-Implementierungen und bietet bessere Implementierungsoptionen für Single-Page-Anwendungen. At.js wird häufig durch neue Funktionen erweitert. [!DNL Adobe] empfiehlt allen Kundinnen und Kunden, die at.js verwenden, ihre Implementierungen auf die [neueste Version von at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} zu aktualisieren.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierun
 * [[!DNL Adobe Experience Platform Web SDK] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=de)
 * [Implementieren von  [!DNL Target]  mithilfe von  [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
-Bei jeder Besucheranforderung einer Seite, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Inhaltsanforderung gesendet, die vom System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die der Site-Besucher mit hoher Wahrscheinlichkeit reagieren und mit ihnen interagieren wird und auf deren Grundlage er sich letztlich auch für einen Kauf entscheiden wird. Personalisierte Inhalte tragen dazu bei, die Antwort- und Kaufraten zu steigern und die Umsätze zu maximieren.
+Bei jeder Besucheranforderung einer Seite, die für [!DNL Target] optimiert wurde, wird eine Anforderung an das Targeting-System gesendet. Die Anforderung hilft bei der Bestimmung der Inhalte, die für diesen Besucher bereitgestellt werden sollen. Dieser Prozess erfolgt in Echtzeit. Jedes Mal, wenn eine Seite geladen wird, wird eine Inhaltsanforderung gesendet, die vom System verarbeitet wird. Der Inhalt wird durch die vom Marketingspezialisten kontrollierten Aktivitäten und Erlebnisse geregelt und auf den einzelnen Besucher der Site zugeschnitten. Es werden Inhalte bereitgestellt, auf die der Site-Besucher mit hoher Wahrscheinlichkeit reagieren und mit ihnen interagieren wird und auf deren Grundlage er sich letztlich auch für einen Kauf entscheiden wird. Personalisierte Inhalte tragen dazu bei, die Antwort- und Akquisitionsquoten sowie den Umsatz zu maximieren.
 
 In [!DNL Target] ist jedes Seitenelement Bestandteil eines einheitlichen Erlebnisses, das durch die gesamte Seite bereitgestellt wird. Jedes Erlebnis kann mehrere Seitenelemente umfassen.
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [[!UICONTROL Automatische Zuordnung]](/he
 
 Weitere Informationen finden Sie unter [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-### [!UICONTROL Automatisierte Personalisierung] (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 [!UICONTROL Automated Personalization] (AP) kombiniert Angebote und Nachrichten und ordnet den einzelnen Besucher/innen durch fortschrittliche Algorithmen für maschinelles Lernen verschiedene Varianten zu. Die Bereitstellung der personalisierten Inhalte basiert auf den Profilen der jeweiligen Kunden und führt dadurch zur Steigerung der Konversionsraten.
 
@@ -80,9 +80,9 @@ Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/main/c-activit
 
 ### [!UICONTROL Multivariate Tests] (MVT)
 
-[!UICONTROL Multivariate Tests] (MVT) vergleichen verschiedene Kombinationen aus den Angeboten für die Elemente einer Seite, um zu bestimmen, welche Kombination für eine spezielle Zielgruppe die besten Ergebnisse erzielt. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+[!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
-Weitere Informationen finden Sie unter [Multivarianz-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
+Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
 ### [!UICONTROL Recommendations]
 
@@ -106,7 +106,7 @@ Die [!DNL Target]-Lösung wird weltweit auf Adobe-eigenen und von Adobe geleaste
 
 An den Standorten zentraler Cluster befinden sich sowohl ein Datenerfassungscenter als auch ein Datenverarbeitungscenter. An Edge-Cluster-Standorten befindet sich dagegen nur ein Datenerfassungscenter. Jede Report Suite ist einem speziellen Datenverarbeitungscenter zugewiesen.
 
-Die Site-Aktivitätsdaten der Kunden werden vom nächstgelegenen der sieben Edge-Cluster erfasst. Diese Daten werden zur Verarbeitung an das vorbestimmte zentrale Cluster-Ziel je nach Kunde weitergeleitet (einer der drei Standorte: Oregon, Dublin, Singapur). Die Profildaten der Besucher werden in dem Edge-Cluster gespeichert, der dem Site-Besucher am nächsten liegt. Die Standorte der Edge-Cluster umfassen die Standorte der zentralen Cluster sowie Virginia, Mumbai, Sydney und Tokio.
+Die Site-Aktivitätsdaten der Kunden werden vom nächstgelegenen der sieben Edge-Cluster erfasst. Diese Daten werden zur Verarbeitung an das vorbestimmte zentrale Cluster-Ziel je nach Kunde weitergeleitet (einer der drei Standorte: Oregon, Dublin, Singapur). Die Daten des Besucherprofils werden im Edge Cluster gespeichert, der der Besucherin oder dem Besucher der Website am nächsten ist. Die Standorte der Edge-Cluster umfassen die Standorte der zentralen Cluster sowie Virginia, Mumbai, Sydney und Tokio.
 
 Die Targeting-Anforderungen werden nicht immer vom gleichen Standort beantwortet, sondern von dem Edge-Cluster, der dem Besucher am nächsten liegt. Dadurch minimieren sich die Verzögerungen durch lange Übertragungswege innerhalb des Netzwerks bzw. Internets.
 
@@ -134,7 +134,7 @@ Der [!DNL Target Recommendations]-Service wird in einem Rechenzentrum von [!DNL 
 >
 >[!DNL Adobe Target] stellt derzeit keinen Edge-Cluster in China bereit. Für [!DNL Target]-Kunden in China ist die Leistung daher weiterhin eingeschränkt. Aufgrund der Firewall und des Mangels an Edge-Clustern innerhalb des Landes können die Erlebnisse auf Sites, auf denen [!DNL Target] implementiert ist, beeinträchtigt sein. Die Erlebnisse werden eventuell nur langsam gerendert und Seitenladevorgänge können beeinträchtigt sein. Auch Marketer bemerken bei Verwendung der Authoring-Benutzeroberfläche von [!DNL Target] eventuell Latenzen.
 
-Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf Zulassungslisten setzen](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf die Zulassungsliste setzen](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Geschütztes Benutzererlebnis {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -155,7 +155,7 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Benutzer
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
-Google unterstützt Benutzertests. In seiner Dokumentation erklärt Google, dass A/B-Tests und [!UICONTROL Multivariate Tests] das organische Suchmaschinen-Ranking nicht beeinträchtigen, wenn bestimmte Richtlinien eingehalten werden.
+Google unterstützt Benutzertests. Google gibt in seiner Dokumentation an, dass A/B-Tests und [!UICONTROL Multivariate Testing] das organische Suchmaschinenranking nicht beeinträchtigen, wenn Sie bestimmte Richtlinien befolgen.
 
 Weitere Informationen finden Sie unter folgenden Google-Ressourcen:
 
@@ -174,11 +174,11 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Verwendung von 302-Umleitungen (temporär)**: Wenn für einen Varianz-Test unterschiedliche URLs verwendet werden, empfiehlt Google die Verwendung einer 302-Umleitung, die Traffic an die verschiedenen Varianzen umleitet. Die 302-Umleitung teilt Suchmaschinen mit, dass die Umleitung vorübergehend und nur bis zum Abschluss des Tests aktiv ist.
 
-   Eine 302-Umleitung ist eine serverseitige Umleitung. [!DNL Target] stützt sich aber – wie die meisten Optimierungsanbieter – auf clientseitige Funktionen. [!DNL Target] ist in diesem Fall nicht vollständig konform mit den Empfehlungen von Google. Diese Vorgehensweise wirkt sich jedoch nur auf die wenigsten Tests aus. Beim Standardansatz der Testdurchführung mit [!DNL Target] werden sich ändernde Inhalte innerhalb einer einzigen URL verwendet, sodass keine Umleitungen erforderlich sind. In manchen Fällen jedoch muss der Kunde mit mehreren URLs arbeiten, um die Varianzen testen zu können. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Dieser Befehl leitet Benutzer zu Testvarianzen um, wobei aber nicht explizit eine Aussage darüber getroffen wird, ob die Umleitung 301 oder 302 verwendet wird.
+   Eine 302-Weiterleitung ist eine Server-seitige Weiterleitung, und [!DNL Target]verwendet, wie die meisten Optimierungsanbieter, Client-seitige Funktionen. [!DNL Target] ist in diesem Fall nicht vollständig konform mit den Empfehlungen von Google. Diese Vorgehensweise wirkt sich jedoch nur auf die wenigsten Tests aus. Beim Standardansatz der Testdurchführung mit [!DNL Target] werden sich ändernde Inhalte innerhalb einer einzigen URL verwendet, sodass keine Umleitungen erforderlich sind. In manchen Fällen jedoch muss der Kunde mit mehreren URLs arbeiten, um die Varianzen testen zu können. In diesen Fällen verwendet [!DNL Target] den JavaScript-Befehl `window.location`. Dieser Befehl leitet Benutzer zu Testvarianzen um, wobei aber nicht explizit eine Aussage darüber getroffen wird, ob die Umleitung 301 oder 302 verwendet wird.
 
    [!DNL Adobe] sucht weiterhin nach praktikablen Lösungen, die vollständig konform mit den Suchmaschinenrichtlinien sind. [!DNL Adobe] ist zuversichtlich, dass sich das mit diesem Ansatz verbundene Risiko für alle Kunden, die mehrere URLs zum Testen verwenden müssen, durch eine ordnungsgemäße Implementierung der kanonischen Tags verringert.
 
-* **Durchführen der Experimente nur so lange wie nötig**: Für [!DNL Adobe] bedeutet „so lange wie nötig“ genau so lange, bis ein statistisch signifikantes Ergebnis erzielt ist. [!DNL Target] bietet Best Practices und [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um festzustellen, wann dieser Punkt in Ihrem Test erreicht ist. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
+* **Führen Sie Experimente nur so lange wie nötig durch**: [!DNL Adobe]ist der Ansicht, dass „so lange wie nötig“ so lange dauert wie zum Erreichen der statistischen Signifikanz erforderlich ist. [!DNL Target] bietet Best Practices und den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6), um zu bestimmen, wann Ihr Test diesen Punkt erreicht hat. [!DNL Adobe] empfiehlt, die hart codierte Implementierung erfolgreicher Tests in Ihren Test-Workflow einzugliedern und die hierfür erforderlichen Ressourcen bereitzustellen.
 
    Die „Veröffentlichung“ erfolgreicher Tests über die [!DNL Target]-Plattform wird nicht als dauerhafte Lösung empfohlen. Wenn der erfolgreichste Test für 100 % der Benutzer zu 100 % veröffentlicht wird, kann dieser Ansatz verwendet werden, während der Prozess der Hartcodierung des erfolgreichsten Tests noch durchgeführt wird.
 
