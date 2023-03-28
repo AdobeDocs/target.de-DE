@@ -8,8 +8,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 >[!NOTE]
 >
->Aufgrund von Problemen, die seitdem behoben wurden, verwenden die &quot;Optimierten A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]&quot;-Funktion, die am 8. und 9. März veröffentlicht wurde, wurde vorübergehend entfernt. Nach weiteren internen Tests wird die Funktion in den nächsten Wochen erneut veröffentlicht.
+>Aufgrund von Problemen, die seitdem behoben wurden, wurde die Funktion „Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]“, die am 8. und 9. März veröffentlicht wurde, vorübergehend entfernt. Nach weiteren internen Tests wird die Funktion in den nächsten Wochen erneut veröffentlicht.
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Aktualisierungen für die Erstellung benutzerdefinierter Webkomponenten mit der [!UICONTROL Visual Experience Composer] (VEC):
+* Aktualisierungen für das Authoring benutzerdefinierter Web-Komponenten mit [!UICONTROL Visual Experience Composer] (VEC):
 
-   * Die Auswahl von Shadow-DOM-Elementen im VEC wurde korrigiert, indem der Authoring-Prozess verbessert wurde, sodass keine Abhängigkeit von der [!DNL Target] Implementierungstyp beim Authoring des Shadow-Stamms. Jetzt sollte die Auswahl von Shadow DOM-Elementen im VEC für jede Website funktionieren.
-   * Es wurde ein Problem behoben, das das Laden von HTML-Elementen mithilfe von #Shadow DOM im VEC verhinderte. (TGT-35801)
-   * Korrektur von VEC-Problemen mit SPA Websites, die ShadowDOM verwenden. (TGT-43169)
-   * Es wurde ein Problem mit dem Optimierungsziel behoben: &quot;auf ein Element geklickt&quot;hat, das den CSS-Selektor in ShadowDOM nicht ordnungsgemäß identifiziert hat.
+   * Die Auswahl von Shadow-DOM-Elementen in VEC wurde korrigiert, indem der Authoring-Prozess verbessert wurde, sodass keine Abhängigkeit vom [!DNL Target]-Implementierungstyp beim Authoring des Shadow-Stamms besteht. Jetzt sollte die Auswahl von Shadow-DOM-Elementen in VEC für jede Website funktionieren.
+   * Es wurde ein Problem behoben, das das Laden von HTML-Elementen mithilfe von #Shadow DOM in VEC verhindert hatte. (TGT-35801)
+   * Es wurden VEC-Probleme mit SPA-Websites, die ShadowDOM verwenden, behoben. (TGT-43169)
+   * Es wurde ein Problem mit dem Optimierungsziel „auf ein Element geklickt“ behoben, das die CSS-Auswahl in ShadowDOM nicht ordnungsgemäß identifiziert hat.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Sie eine [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (legierung.js) mit einer Version größer als 2.8.
+>Für die Bereitstellung der in VEC erstellten Änderungen stellen Sie sicher, dass Sie ein [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de){target=_blank} (alloy.js)) mit einer Version größer als 2.8 verwenden.
 
-**Bekanntes Problem**: Klick-Tracking für ein Shadow-Stammelement bei Verwendung von [!DNL Adobe Experience Platform Web SDK] funktioniert nicht ordnungsgemäß. (TNT-47012)
+**Bekanntes Problem**: Klick-Tracking für ein Shadow-Stammelement funktioniert bei Verwendung von [!DNL Adobe Experience Platform Web SDK] nicht ordnungsgemäß. (TNT-47012)
 
 ## at.js-Version 2.10.2 (7. März 2023)
 
