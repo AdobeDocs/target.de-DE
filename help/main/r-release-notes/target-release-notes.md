@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 78%
 
 ---
@@ -25,7 +25,7 @@ Diese Version enthält die folgende neue Funktion:
 
 | Funktion | Details |
 |--- |--- |
-| AEM Inhaltsfragmente für die Headless-Personalisierung und -Experimentierung | Verwendung [!DNL Adobe Experience Manager] AEM [!UICONTROL Inhaltsfragmente] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] , um Erlebnisse bedarfsgerecht zu testen und zu personalisieren. |
+| AEM Inhaltsfragmente für die Headless-Personalisierung und -Experimentierung | Verwendung [!DNL Adobe Experience Manager] AEM [!UICONTROL Inhaltsfragmente] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] zur Unterstützung von Headless-Personalisierung und Experimenten. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
