@@ -1,13 +1,13 @@
 ---
 keywords: Systemaktualisierung;Fehlerbehebung;Wartung;Systemstatus;Aktualisierungsstatus
-description: Zeigen Sie den aktuellen Status von Adobe  [!DNL Target]  an, um festzustellen, ob ein vorliegendes Problem möglicherweise durch eine Systemaktualisierung oder Routinewartung verursacht wird.
-title: Wo kann ich den Status von  [!DNL Target]  und anderen Adobe-Produkten anzeigen?
+description: Status anzeigen von [!DNL Adobe Target] , um festzustellen, ob Probleme auftreten können, die durch Systemaktualisierungen oder Routinewartung verursacht werden.
+title: Wo kann ich den Status von anzeigen? [!DNL Target] und andere [!DNL Adobe] Produkte?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ Verwenden Sie die [!UICONTROL Adobe-Systemstatusseite] und proaktive Benachricht
 
 ## Systemstatusupdates
 
-Auf der [!UICONTROL Adobe-Systemstatus]-Seite können Sie den aktuellen Status von [!DNL Target] und anderen [!DNL Adobe]-Produkten und [!DNL Adobe Experience Cloud]-Lösungen sehen. Mit dieser Seite können Sie feststellen, welche Probleme möglicherweise aufgrund von Systemaktualisierungen oder Routinewartungsarbeiten auftreten können.
+Verwenden Sie die [!UICONTROL Systemstatus der Adobe] Seite, um den Status von anzuzeigen [!DNL Target] und andere [!DNL Adobe] und [!DNL Adobe Experience Cloud] Lösungen. Mit dieser Seite können Sie feststellen, welche Probleme möglicherweise aufgrund von Systemaktualisierungen oder Routinewartungsarbeiten auftreten können.
 
-Greifen Sie über folgende URL auf die Seite [!UICONTROL Systemstatus] zu:
+>[!NOTE]
+>
+>Bei Veröffentlichung der monatlichen [!DNL Target]-Version wird eine Benachrichtigung in der Lösung angezeigt. Es werden jedoch auch kleinere Updates durchgeführt, die nur auf dieser Seite erwähnt werden.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Zugriff auf [[!UICONTROL Systemstatus]](https://status.adobe.com/de){target=_blank}.
 
-Zum Anzeigen des Status von [!DNL Experience Cloud]-Lösungen einschließlich [!DNL Target] klicken Sie auf die Registerkarte [!UICONTROL Experience Cloud].
+1. Zum Anzeigen des Status von [!DNL Experience Cloud]-Lösungen einschließlich [!DNL Target] klicken Sie auf die Registerkarte [!UICONTROL Experience Cloud].
 
-![system_status Bild](assets/system_status.png)
+   ![system_status Bild](assets/system_status.png)
 
-Oben auf der Seite finden Sie Informationen zu laufenden Wartungsereignissen sowie einen Link, über den Sie Updates für die einzelnen Lösungen abonnieren können.
+   Oben auf der Seite finden Sie Informationen zu laufenden Wartungsereignissen sowie einen Link zur Verwaltung von Abonnements für Aktualisierungen für einzelne Lösungen.
 
-In der obigen Abbildung wurden [!DNL Adobe Analytics], [!DNL Adobe Target] und [!DNL Adobe Campaign] Verwaltungsaktualisierungen unterzogen. Alle anderen Produkte funktionierten wie gewohnt. Es empfiehlt sich immer, diese Seite zu prüfen, wenn Probleme bei der Verwendung von [!DNL Target] auftreten.
+   In der obigen Abbildung [!DNL Adobe Advertising], [!DNL Adobe Analytics]und [!DNL Adobe Audience Manager] und anderen Lösungen kürzlich abgeschlossene Wartungsupdates. Alle anderen Produkte funktionierten wie gewohnt. Es empfiehlt sich immer, diese Seite zu prüfen, wenn Probleme bei der Verwendung von [!DNL Target] auftreten.
 
-Bei Veröffentlichung der monatlichen [!DNL Target]-Version wird eine Benachrichtigung in der Lösung angezeigt. Es werden jedoch auch kleinere Updates durchgeführt, die nur auf dieser Seite erwähnt werden.
-
-Unten auf der Seite finden Sie einen Kalender der letzten sieben Tage, der alle täglichen Status zu allen Lösungen enthält. Fahren Sie mit dem Mauszeiger über die Statusanzeige, um mehr zu erfahren:
-
-![system_status_indicator Bild](assets/system_status_indicator.png)
+1. (Optional) Filtern Sie die Liste nach Produkten, Regionen oder Datumsbereichen. Klicken Sie auf [!UICONTROL Major], [!UICONTROL Gering], [!UICONTROL Potenzial]oder [!UICONTROL Wartung] Links, um Ihre Ergebnisse weiter zu filtern.
 
 ## Proaktive Benachrichtigungen
 
