@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '843'
+ht-degree: 63%
 
 ---
 
@@ -45,8 +45,6 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 * Es wurde ein Fehler behoben, der dazu führte, dass POST-Anforderungen neue [!DNL Recommendations] Feeds schlagen bei Verwendung von [!UICONTROL Analytics Classifications] mit Report Suites mit Punkten im Namen. (TGT-44598)
 * Aktualisierte Links in der [!DNL Target] Benutzeroberfläche zum Verweis auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Verbesserte Sicherheit, um serverseitige SSRF-Versuche (Request Forgery) zu verhindern [!DNL Recommendations] Feeds. (TGT-43769)
-* Es wurde ein Problem behoben, durch das Kunden keine Vorschaubilder in anzeigen konnten. [!DNL Recommendations] entwirft, wenn der Bildname [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Es wurde ein Problem behoben, das einige [GB18030-Zeichen](https://en.wikipedia.org/wiki/GB_18030){target=_blank} zu maskieren im [!UICONTROL Änderungen] Bedienfeld beim Bearbeiten [!UICONTROL Text/HTML] in einer Aktivität [!UICONTROL Erlebnisse] Seite. (TGT-44600)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
 ## at.js-Version 2.10.2 (7. März 2023)
