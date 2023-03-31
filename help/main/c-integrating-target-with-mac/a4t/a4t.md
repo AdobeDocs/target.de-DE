@@ -4,9 +4,9 @@ description: Verwenden Sie  [!DNL Analytics]  für  [!DNL Target]  (A4T), um Akt
 title: Was ist  [!DNL Analytics]  für  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Überblick {#section_92B66069210C40DBA937790E8CC596CF}
 
-Die [!DNL Analytics for Target]-Integration zwischen [!DNL Analytics] und [!DNL Target] bietet leistungsstarke Analysen und Tools, die Ihnen helfen Zeit zu sparen und Ihr Marketing-Programm zu optimieren.
+Die [!DNL Analytics for Target]-Integration zwischen [!DNL Analytics] und [!DNL Target] bietet leistungsstarke Analysen und Tools, die Ihnen helfen, Zeit zu sparen und Ihr Marketing-Programm zu optimieren.
 
 Die Verwendung von [!DNL Analytics]-Daten in [!DNL Target] bietet drei grundlegende Vorteile:
 
@@ -58,7 +58,7 @@ Die folgenden Abschnitte enthalten Informationen zu den unterstützten Aktivitä
 |--- |--- |--- |
 | [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
 | [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Siehe [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | Siehe [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nein |  |
 | [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht [!UICONTROL Elementbeitrag] abruft. Der Bericht [!UICONTROL Elementbeitrag] unterstützt derzeit keine [!DNL Analytics]-Metriken. |
 | [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |  |
