@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://bu
 ## [!UICONTROL Adobe Target Community Q&amp;A Coffee Break]
 
 * **Mittwoch, 12. April 2023**
-* **8:00 bis 9:00 Uhr. (PDT, GMT -7)
+* **8:00 bis 9:00 Uhr (PDT, GMT -7)**
 * **[Registrierungsinformationen](https://adobe.ly/42gQGfv){target=_blank}**
 
 Treten Sie Matthew Bailie und Georgia Frailey bei, beide Senior Solutions Consultants für [!DNL Adobe Target], der direkt mit Ihnen über Ihre [!DNL Adobe Target] Fragen im Zusammenhang mit [!DNL Target] KI-Funktionen, insbesondere [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting].
