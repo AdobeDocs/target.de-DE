@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 5. April | [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Es wurde folgender Text hinzugefügt: [!UICONTROL Analytics als Berichtsquelle] (A4T) wird nicht in Aktivitäten unterstützt, die Angebotsentscheidungen verwenden. |
 | 3. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zum [!UICONTROL Adobe Target Community] Die Kaffeepause ist für Mittwoch, den 12. April 2023 geplant. |
 |  | [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Es wurde ein Hinweis zur Zulassungsliste aller [!DNL Adobe Analytics] IP-Adressblöcke. |
 | 30. März | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Aktualisierte Versionshinweise zur Veröffentlichung der optimierten A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] -Funktion, mit der Sie Metriken auf der Basis binomialer Ereignisse oder Metriken basierend auf kontinuierlichen Ereignissen auswählen können, wenn Sie [!UICONTROL A4T] für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten. |

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Angebotsentscheidung hinzufügen, die in
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1016'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Weitere Informationen finden Sie unter [!DNL Adobe Journey Optimizer] und Angebo
 
 * [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Über die Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [Über die Entscheidungsverwaltung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Voraussetzungen 
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer]können Sie für jede Zielregion ein personalis
 
 1. Im **[!UICONTROL Angebotsentscheidung hinzufügen]** wählen Sie die gewünschte Sandbox und Platzierung aus.
 
-   A [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
+   A [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
 
    ![Dropdown-Listen Sandbox und Platzierungen im Dialogfeld Angebotsentscheidung hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Information
 
 * Die offer decisioning-Integration funktioniert für [!DNL Target] Implementierungen, die auf der [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Diese Funktion ist bei der Implementierung von [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
 
-* Die Target-/Adobe Journey Optimizer-Integration unterstützt [Handbuch [!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) und [[!UICONTROL Erlebnis-Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) -Aktivitäten. Diese Funktion ist nicht für andere Aktivitätstypen verfügbar.
+* Die [!DNL Target]/[!DNL Adobe Journey Optimizer] Integrationsunterstützung [Handbuch [!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) und [[!UICONTROL Erlebnis-Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) -Aktivitäten. Diese Funktion ist nicht für andere Aktivitätstypen verfügbar.
 
-* Angebote mit dem Inhaltstyp text/html unterstützen nicht die Bereitstellung von VersandURL-Inhalten. Die deliveryURL wird vom formularbasierten Experience Composer nur unterstützt, wenn der Client für das explizite Abrufen und Zusammenstellen des Inhalts verantwortlich ist.
+* Sie können [[!UICONTROL Analytics als Berichtsquelle]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), wenn Sie Angebotsentscheidungen in einer Aktivität verwenden. Auswählen [!DNL Target] als Berichtsquelle in der [!UICONTROL Ziele und Einstellungen] Seite während der Aktivitätseinrichtung, wenn Sie Angebotsentscheidungen in der Aktivität verwenden.
+
+* Angebote mit dem Inhaltstyp text/html unterstützen nicht die Bereitstellung von VersandURL-Inhalten. Die deliveryURL wird durch die Variable [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) nur, wenn der Client für das explizite Abrufen und Zusammenstellen des Inhalts verantwortlich ist.
 
 * [!DNL Target] -Berichte bieten keine Berichte auf Ebene der Angebotsentscheidungen.
 
