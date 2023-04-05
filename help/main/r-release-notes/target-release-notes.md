@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ Diese Version enthält die folgende neue Funktion:
 
 | Funktion | Details |
 |--- |--- |
-| AEM [!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimente | Verwendung [!DNL Adobe Experience Manager] AEM [!UICONTROL Inhaltsfragmente] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] zur Unterstützung von Headless-Personalisierung und Experimenten. |
+| AEM [!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimente | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] zur Unterstützung von Headless-Personalisierung und Experimenten. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
