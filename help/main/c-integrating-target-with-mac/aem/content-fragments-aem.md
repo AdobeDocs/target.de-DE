@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL 
 title: Wie verwende ich [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager]  (AEM)?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ AEM-Inhaltsfragmente für Headless-Personalisierung und -Experimentierung
 
 >[!NOTE]
 >
->Diese Funktion soll am 6. April 2023 veröffentlicht werden.
+>Diese Funktion soll am 12. April 2023 veröffentlicht werden.
 
 >[!NOTE]
 >
