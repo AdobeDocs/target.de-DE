@@ -18,7 +18,7 @@ Verwenden Sie [!UICONTROL Experience Fragments] (XFs), die in [!DNL Adobe Experi
 >
 >Beachten Sie Folgendes bei der Arbeit mit AEM [!UICONTROL Experience Fragments] in [!DNL Target]:
 > 
->* Für diese Funktion müssen Sie [!DNL Adobe Experience Manager](AEM)-Kundin bzw. -Kunde sein. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
+>* Für diese Funktion müssen Sie [!DNL Adobe Experience Manager] (AEM)-Kundin bzw. -Kunde sein. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
 >* Diese Funktion ist für die folgenden Aktivitätstypen verfügbar: [!UICONTROL A/B-Test], [!UICONTROL Automatische Zuordnung], [!UICONTROL Automatisches Targeting], [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Experience Targeting] (XT). Diese Funktion ist nicht verfügbar in Aktivitäten des Typs [!UICONTROL Multivariater Test] (MVT) und [!UICONTROL Recommendations].
 >
 >* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) oder dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten verwenden.
@@ -102,7 +102,7 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experie
 >
 >* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim Erstellen von A/B-Tests die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) auswählen.
 >
->* [!UICONTROL Experience Fragments] werden in [!DNL Recommendations]-Aktivitäten nicht unterstützt. Um [!UICONTROL Experience Fragments] für Recommendations zu verwenden, können Sie eine [!UICONTROL A/B-Test]-Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder eine [!UICONTROL Experience-Targeting](XT)-Aktivität erstellen und [Recommendations als Angebote einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>* [!UICONTROL Experience Fragments] werden in [!DNL Recommendations]-Aktivitäten nicht unterstützt. Um [!UICONTROL Experience Fragments] für Recommendations zu verwenden, können Sie eine [!UICONTROL A/B-Test]-Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder eine [!UICONTROL Experience-Targeting] (XT)-Aktivität erstellen und [Recommendations als Angebote einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 
 **So verwenden Sie [!UICONTROL Experience Fragments] mit dem VEC:**
