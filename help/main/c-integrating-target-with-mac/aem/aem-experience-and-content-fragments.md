@@ -3,10 +3,10 @@ keywords: AEM;Experience Manager;Adobe Experience Manager;integrieren;Integratio
 description: Erfahren Sie, wie Sie Experience Fragments und Inhaltsfragmente aus  [!DNL Adobe Experience Manager]  in  [!DNL Adobe Target] -Aktivitäten verwenden.
 title: Wie verwende ich [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager]  (AEM)?
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 84%
+source-wordcount: '383'
+ht-degree: 77%
 
 ---
 
@@ -26,9 +26,21 @@ Mit [!DNL Target] können Sie personalisierte Erlebnisse in großem Umfang berei
 
 Beachten Sie bei der Arbeit mit [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmenten] aus AEM in [!DNL Target] Folgendes:
 * Diese Funktionen erfordern, dass Sie Kundin oder Kunde von [!DNL Adobe Experience Manager] (AEM) sind. Stellen Sie sicher, dass Sie die Anforderungen für jeden Fragmenttyp erfüllen: [Experience Fragment](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) oder [Inhaltsfragment](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* Diese Funktionen sind für die folgenden Aktivitätstypen verfügbar: [!UICONTROL A/B-Test], [!UICONTROL Automatische Zuordnung], [!UICONTROL Automatisches Targeting], [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Experience Targeting] (XT). Diese Funktion ist nicht verfügbar für [!UICONTROL Multivarianz-Test] (MVT) und [!UICONTROL Recommendations] Aktivitäten.
-* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) oder dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten verwenden.
-* Sie können [!UICONTROL Inhaltsfragmente] nur im [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) verwenden.
+* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind für die folgenden Aktivitätstypen verfügbar:
+
+   * [[!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL Automatische Zuordnung]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Erlebnis-Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] für die folgenden Aktivitätstypen nicht verfügbar sind:
+
+   * [[!UICONTROL Multivariate Tests] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten, die [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target]-Aktivitäten aufnehmen, die den [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) verwenden.
 
 ## Was ist der Unterschied zwischen [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmenten]?
 
