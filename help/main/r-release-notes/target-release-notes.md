@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für bevorstehende Versionen [!DNL Adobe Target] -Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: 30. März 2023**
+**Zuletzt aktualisiert: 12. April 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ Informationen über die aktuelle Version finden Sie unter [Versionshinweise für
 
 ## [!DNL Adobe Experience Manager] AEM und [!DNL Adobe Target] [!UICONTROL Inhaltsfragmente] -Version (12. April 2023)
 
+>[!NOTE]
+>
+>Diese Funktion ist als Vorabversion am 12. April 2023 verfügbar und wird am 26. April 2023 für GA (Allgemeine Verfügbarkeit) verfügbar sein.
+
 Diese Version enthält die folgende neue Funktion:
 
 | Funktion | Details |
 |--- |--- |
-| AEM [!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimente | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] zur Unterstützung von Headless-Personalisierung und Experimenten. |
+| AEM [!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimente | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der künstlichen Intelligenz (AI) und des maschinellen Lernens (ML) in [!DNL Target] zur Unterstützung von Headless-Personalisierung und Experimenten.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Inhaltsfragmente]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
