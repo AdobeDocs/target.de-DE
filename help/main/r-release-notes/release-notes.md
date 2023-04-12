@@ -2,14 +2,14 @@
 keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
-short-description: Learn about the new features, enhancements, and fixes included in the current release of [!DNL Adobe Target].
+short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 56%
+source-wordcount: '803'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.3.1 (28.-30. März 2023)
+## [!DNL Target] Standard/Premium 23.3.1 (28. bis 30. März 2023)
 
 Diese Version ist nach folgendem gestaffelten Zeitplan verfügbar:
 
@@ -31,20 +31,20 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 |--- |--- |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter &quot;Unterstützte Zielmetriken&quot;in [A4T-Unterstützung für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
+| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter &quot;Unterstützte Zielmetriken&quot;in [A4T-Unterstützung für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] activities](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
 
-* Die Synchronisierung von Zielgruppe und Aktivität wurde verbessert, sodass in erstellte Elemente [!DNL Adobe Experience Platform] und [!DNL Adobe Audience Manager] finden Sie im Abschnitt [!DNL Target] Schnellere Benutzeroberfläche. (TGT-44568)
-* Verbesserte Benutzeroberfläche, sodass Benutzer die [!UICONTROL Standard-URL] under [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Standard-URL]. Durch diese Änderung können Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der ersten Konfiguration bisher nicht möglich war. (TGT-44577)
-* Es wurden Einschränkungen entfernt, die Kunden daran hinderten, vordefinierte Zielgruppen (Zielgruppen mit reservierten Namen) zu bearbeiten oder zu löschen. (TGT-44655)
-* Deaktiviert die[!UICONTROL Fertig]&quot;-Option beim Laden von Spinnern im [!DNL Target] Benutzeroberfläche beim Erstellen [kombinierte Zielgruppen](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
-* Die [!UICONTROL Sprache] -Link unten im [!UICONTROL Zielgruppen] -Seite, damit sie korrekt mit dem[!UICONTROL Kontokommunikationseinstellungen]&quot;. (TGT-43562)
-* Es wurde ein Problem behoben, durch das Kunden manchmal keine [!UICONTROL A/B-Test] Aktivitäten nach Auswahl der [!UICONTROL Adobe Analytics] Option unter [!UICONTROL Administration] > [!UICONTROL Berichterstellung] > [!UICONTROL Reporting-Experience Cloud-Lösung]. (TGT-44844)
-* Es wurde ein Problem behoben, durch das Kunden das letzte Erlebnis in einer [!UICONTROL Multivarianz-Test] -Aktivität mit vielen Erlebnissen aus der [!UICONTROL Visual Experience Composer] (VEC). Die [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) am Ende des VEC konnten Kunden manchmal das letzte Erlebnis nicht sehen. (TGT-44578)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Durchsuchen-URL im VEC nicht die aktuelle Seite darstellte, die in einer normalen Browsersitzung sichtbar ist, wenn die Seite autorisiert werden musste oder Umleitungen aufgerufen wurden. (TGT-44350)
-* Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Inkompatible Kriterien filtern] Einstellung in [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]. (TGT-44398)
+* Die Synchronisierung von Zielgruppe und Aktivität wurde verbessert, sodass in [!DNL Adobe Experience Platform] und [!DNL Adobe Audience Manager] erstellte Elemente schneller in der Benutzeroberfläche von [!DNL Target] zu finden sind. (TGT-44568)
+* Verbesserte Benutzeroberfläche, sodass Benutzer die [!UICONTROL Standard-URL] under [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Standard-URL]. Durch diese Änderung können Kundinnen und Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der Erstkonfiguration bisher nicht möglich war. (TGT-44577)
+* Es wurden Einschränkungen entfernt, die Kundinnen und Kunden daran hinderten, vordefinierte Zielgruppen (Zielgruppen mit reservierten Namen) zu bearbeiten oder zu löschen. (TGT-44655)
+* Die Option „[!UICONTROL Fertig]“ wurde deaktiviert, die beim Laden von Spinnern in der [!DNL Target]-Benutzeroberfläche beim Erstellen von [kombinierten Zielgruppen](/help/main/c-target/combining-multiple-audiences.md) angezeigt wurde. (TGT-44079)
+* Ein Problem mit dem Link [!UICONTROL Sprache] unten auf der Seite [!UICONTROL Zielgruppen] wurde behoben, sodass er korrekt auf die Seite „[!UICONTROL Voreinstellungen für Kontomitteilungen]“ verweist. (TGT-43562)
+* Es wurde ein Problem behoben, aufgrund dessen Kundinnen und Kunden nach Auswahl der Option [!UICONTROL Adobe Analytics] unter [!UICONTROL Administration] > [!UICONTROL Berichterstellung] > [!UICONTROL Reporting Cloud-Lösung] manchmal keine [!UICONTROL A/B-Test]-Aktivitäten erstellen konnten. (TGT-44844)
+* Es wurde ein Problem behoben, aufgrund dessen Kundinnen und Kunden in einer Aktivität des Typs [!UICONTROL Multivariater Test] mit vielen Erlebnissen das letzte Erlebnis nicht in [!UICONTROL Visual Experience Composer] (VEC) sehen konnten. Der [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) am Ende des VEC hinderte Kundinnen und Kunden manchmal daran, das letzte Erlebnis anzusehen. (TGT-44578)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Durchsuchen-URL im VEC nicht die aktuelle Seite zeigte, die in einer normalen Browser-Sitzung sichtbar wäre, wenn die Seite autorisiert werden muss oder auf andere Seiten weiterleitet. (TGT-44350)
+* Es wurde ein Problem behoben, das Kundinnen und Kunden daran hinderte, die Einstellung [!UICONTROL Inkompatible Kriterien filtern] in [!UICONTROL Recommendations] > [!UICONTROL Einstellungen] zu ändern. (TGT-44398)
 * Es wurde ein Fehler behoben, der dazu führte, dass POST-Anforderungen erstellt wurden [!DNL Recommendations] Feeds schlagen bei Verwendung von [!UICONTROL Analytics Classifications] mit Report Suites mit Punkten im Namen. (TGT-44598)
-* Aktualisierte Links in der [!DNL Target] Benutzeroberfläche zum Verweis auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
-* Verbesserte Sicherheit, um serverseitige SSRF-Versuche (Request Forgery) zu verhindern [!DNL Recommendations] Feeds. (TGT-43769)
+* Links in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert, damit sie auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verweisen. (TGT-44459)
+* Die Sicherheit wurde verbessert, um Server-seitige Request Forgery-Angriffe (SSRF) in [!DNL Recommendations]-Feeds zu verhindern. (TGT-43769)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
 ## at.js-Version 2.10.2 (7. März 2023)
