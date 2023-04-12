@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe JSON-Angebote erstellen. [!DNL Targe
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 29%
+source-wordcount: '461'
+ht-degree: 33%
 
 ---
 
@@ -135,11 +135,7 @@ adobe.target.getOffer({
 
 Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und JSON-Angeboten. (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
 
-Anwendungsbeispiel: Als Onlinemarketing-Experte möchte Grace, dass das AEP/Unified Profile Attributwerte mit [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen kann Grace den Wert des AEP-Attributs in einer [!DNL Target] Angebot mit Token-Ersetzung. Sie kann beispielsweise entsprechend der Lieblingsfarbe eines Kunden personalisieren, indem sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
-
-![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
-
-Beachten Sie, dass die Zuweisung von Standardwerten optional ist.
+Weitere Informationen finden Sie unter [Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtern von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
