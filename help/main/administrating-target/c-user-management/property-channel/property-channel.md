@@ -1,27 +1,27 @@
 ---
-keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt
+keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt;Beobachter;Editor;Genehmiger;Herausgeber
 description: Erfahren Sie, wie Sie separate Arbeitsbereiche (Produktprofile) erstellen und dann Benutzern unterschiedliche Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen.
 title: Was sind Unternehmensbenutzerberechtigungen und wie verwende ich sie?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 58%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # Berechtigungen für Unternehmensbenutzer
 
-Berechtigungen für Unternehmensbenutzer sind ein Mittel zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf [!DNL Adobe Target]. Benutzer hinzufügen zu [!DNL Target], weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen von [!UICONTROL Beobachter], [!UICONTROL Editor]oder [!UICONTROL Genehmiger].
+Berechtigungen für Unternehmensbenutzer sind ein Mittel zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf [!DNL Adobe Target]. Benutzer hinzufügen zu [!DNL Target], weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen von [!UICONTROL Beobachter], [!UICONTROL Editor], [!UICONTROL Genehmiger]oder [!UICONTROL Herausgeber].
 
 ## Bestimmen, ob Sie Zugriff auf Unternehmensbenutzerberechtigungen haben
 
 >[!NOTE]
 >
->Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
+>Die Funktionalitäten für [!UICONTROL Eigenschaften und Berechtigungen] sind als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
 >
 >Ihre [!DNL Target] -Implementierung kann jede Version von at.js verwenden.
 
@@ -89,10 +89,10 @@ Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Akt
 
 | Rolle | Beschreibung |
 |--- |--- |
-| Genehmiger | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
-| Bearbeiter | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
-| Beobachter | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| Publisher | Ähnlich wie die Beobachterrolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Publisher-Rolle zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
+| [!UICONTROL Genehmiger] | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
+| [!UICONTROL Bearbeiter] | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
+| [!UICONTROL Beobachter] | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
+| [!UICONTROL Publisher] | Ähnlich wie bei [!UICONTROL Beobachter] Rolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle [!UICONTROL Publisher] zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
 
 ### Kanal
 
@@ -258,6 +258,10 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 ## Häufig gestellte Fragen   {#faqs}
 
 Häufig gestellte Fragen zu Unternehmensberechtigungen:
+
+### Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt?
+
+Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rolle mit den Berechtigungen des Benutzers angewendet. Wenn ein Benutzer beispielsweise [!UICONTROL Beobachter] und [!UICONTROL Genehmiger] Rollen, [!UICONTROL Genehmiger] Rolle angewendet wird.
 
 ### Kann ich eine Aktivität von einem Arbeitsbereich in einen anderen verschieben?
 
