@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2420'
 ht-degree: 92%
 
 ---
@@ -19,7 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 12. April | [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Ich sehe ein oder mehrere Attribute, die das Modell nicht für das Training verwenden soll. Kann ich diese Attribute aus dem Trainings-Modell entfernen?</li></ul> |
+| 12. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurde ein Link zur Registrierung für das folgende Webinar hinzugefügt:<ul><li>Stellen Sie jedes Mal personalisierte Kundenerlebnisse bereit!</li></ul> |
+|  | [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Ich sehe ein oder mehrere Attribute, die das Modell nicht für das Training verwenden soll. Kann ich diese Attribute aus dem Trainings-Modell entfernen?</li></ul> |
 |  | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt?</li></ul> |
 |  | [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Neues Thema Beachten Sie, dass sich diese Funktion zu Testzwecken im Status &quot;Vorabversion&quot;befindet. |
 | 5. April | [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Es wurde folgender Text hinzugefügt: [!UICONTROL Analytics als Berichtsquelle] (A4T) wird nicht in Aktivitäten unterstützt, die Angebotsentscheidungen verwenden. |
