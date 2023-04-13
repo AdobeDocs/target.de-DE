@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 20%
+source-wordcount: '903'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,17 @@ Diese Integration entsperrt wichtige Anwendungsfälle mit der Echtzeit-Kundendat
 * Personalisierung von derselben Seite/nächsten Treffern
 * Personalisierung für erstmalige/unbekannte Benutzer
 
+### Wichtigste Funktionen
+
 Zu den wichtigsten Funktionen gehören:
 
 * Direkt [!DNL Target] Integration mit der Echtzeit-Kundendatenplattform/[!DNL Adobe Experience Platform] am Edge (Entfernen der Abhängigkeit von [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target Edge Destinations-Karte] mit Governance und Richtliniendurchsetzung
 * Echtzeit-CDP-Segmente und freigegebene Profilattribute
 
-Einschränkungen und Überlegungen zu den Echtzeit-Kundendatenplattform-Profilattributen:
+### Einschränkungen und Überlegungen zu Funktionen und Profilattributen der Echtzeit-Kundendatenplattform
+
+Beachten Sie Folgendes:
 
 * Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Das heißt, ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
 * Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. nämlich die [!DNL Target] Profil und das AEP-Profil. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie von [!DNL Target] oder aus dem AEP-Profil.)
@@ -45,6 +49,8 @@ Einschränkungen und Überlegungen zu den Echtzeit-Kundendatenplattform-Profilat
 >
 >Die Funktion &quot;Echtzeit-Kundendatenplattform-Profilattribute&quot;ist derzeit in der Beta-Version für das HTML von Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
+### Links zu weiteren Informationen
+
 Weitere Informationen finden Sie in den folgenden Themen:
 
 * [Ziele - Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} im *Versionshinweise zu Adobe Experience Platform*
@@ -53,7 +59,7 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im *Ziele - Übersicht* Handbuch
 * [Konfigurieren von Personalisierungszielen für dieselben Anwendungsfälle für die Personalisierung der Seite und der nächsten Seite](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} im *Ziele - Übersicht* Handbuch
 
-### Zusätzliche Informationen
+### Zusätzliche Details
 
 Beachten Sie die folgenden Informationen bei der Verwendung von Zielgruppen aus [!DNL Adobe Experience Platform]:
 
@@ -79,18 +85,6 @@ Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschi
 | Ereignisse aus dem Batch-Upload | Nein | Nein | Ja |
 | Ereignisse aus Offline-Daten (Stream) | Nein | Ja | Ja |
 
-### Video: Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target]{#RTCDP}
-
-Erfahren Sie, wie Sie den nächsten Treffer personalisieren können mit [!DNL Real-time Customer Data Platform] und [!DNL Adobe Target]. Die [!DNL Adobe Target] Zielort [!DNL Real-time CDP] ermöglicht Ihnen die Verwendung von [!DNL Experience Platform] Segmente in [!DNL Adobe Target] für die gleiche Seitenpersonalisierung und Personalisierung der nächsten Seite mit Governance und Datenschutzunterstützung.
-
-Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} im *Platform-Tutorials* Handbuch.
-
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
-
-### Adobe Target-Blog und -Video:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] und [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
-
 ## Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target] {#rtcdp-profile-attributes}
 
 Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
@@ -100,3 +94,15 @@ Anwendungsbeispiel: Als Online-Marketing-Experte möchten Sie, dass das AEP/Unif
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 Beachten Sie, dass die Zuweisung von Standardwerten optional ist.
+
+## Video: Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target]{#RTCDP}
+
+Erfahren Sie, wie Sie den nächsten Treffer personalisieren können mit [!DNL Real-time Customer Data Platform] und [!DNL Adobe Target]. Die [!DNL Adobe Target] Zielort [!DNL Real-time CDP] ermöglicht Ihnen die Verwendung von [!DNL Experience Platform] Segmente in [!DNL Adobe Target] für die gleiche Seitenpersonalisierung und Personalisierung der nächsten Seite mit Governance und Datenschutzunterstützung.
+
+Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} im *Platform-Tutorials* Handbuch.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+## Adobe Target-Blog und -Video:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] und [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
