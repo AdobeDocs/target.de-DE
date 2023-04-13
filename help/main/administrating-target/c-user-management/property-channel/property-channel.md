@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3216'
 ht-degree: 57%
 
 ---
@@ -23,7 +23,7 @@ Berechtigungen für Unternehmensbenutzer sind ein Mittel zur formalen Verwaltung
 >
 >Die Funktionalitäten für [!UICONTROL Eigenschaften und Berechtigungen] sind als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
 >
->Ihre [!DNL Target] -Implementierung kann jede Version von at.js verwenden.
+>Ihre [!DNL Target] -Implementierung kann eine beliebige Version von at.js oder [!DNL Adobe Experience Platform Web SDK].
 
 Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt, indem Sie oben in der [!DNL Target]-Benutzeroberfläche auf den Link [!UICONTROL Administration] klicken.
 

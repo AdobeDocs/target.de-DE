@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 22%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Weitere Informationen zur RTCDP finden Sie unter [Übersicht über Real-time Cus
 
 ## Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform] {#aep}
 
-Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), aufbauend auf [!DNL Adobe Experience Platform]unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
+Verwenden [Zielgruppen](/help/main/c-target/c-audiences/audiences.md) erstellt in [!DNL Adobe Experience Platform] bietet umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), aufbauend auf [!DNL Adobe Experience Platform]unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
 
 Durch die Verbindung von [!DNL Target] mit [!DNL Real-time Customer Data Platform] können Kunden ihre Web-Personalisierung verbessern, indem sie neue Segmente nutzen, auf die zuvor über [!DNL Target] nicht zugegriffen werden konnte. Dies ermöglicht auf der ersten Seite eines Web-Besuchs Echtzeit-Personalisierung innerhalb von Millisekunden. Verwenden von Zielgruppen und Profilattributen, die in erstellt wurden [!DNL Adobe Experience Platform] ermöglicht Ihnen, die verfügbaren Datenpunkte für eine umfassendere Personalisierung zu erweitern.
 
@@ -37,9 +37,9 @@ Zu den wichtigsten Funktionen gehören:
 Einschränkungen und Überlegungen zu den Echtzeit-Kundendatenplattform-Profilattributen:
 
 * Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Das heißt, ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
-* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. das Zielprofil und das AEP-Profil.(Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie aus Target oder aus dem AEP-Profil stammen.)
+* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. nämlich die [!DNL Target] Profil und das AEP-Profil. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie von [!DNL Target] oder aus dem AEP-Profil.)
 * Beim Definieren eines Angebots können Sie Standardwerte für Echtzeit-Kundendatenplattform-Profilattribute zuweisen, falls das Attribut keinen expliziten Wert aufweist. Wenn beispielsweise eine Zustimmungs- oder Governance-Richtlinie das Attribut blockiert, das im Personalisierungsdienst verwendet wird, kann stattdessen der Standardwert verwendet werden.
-* Bei der Freigabe werden Echtzeit-Kundendatenplattform-Profilattribute in den Personalisierungsmodellen für künstliche Intelligenz/maschinelles Lernen für Automatisches Targeting und Automated Personalization verwendet.
+* Bei Freigabe werden Echtzeit-Kundendatenplattform-Profilattribute in den Personalisierungsmodellen für künstliche Intelligenz/maschinelles Lernen für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] Aktivitäten.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschi
 
 ### Video: Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und [!DNL Adobe Target]{#RTCDP}
 
-Erfahren Sie, wie Sie den nächsten Treffer personalisieren können mit [!DNL Real-time Customer Data Platform] und [!DNL Adobe Target]. Die [!DNL Adobe Target] Zielort [!DNL Real-time CDP] ermöglicht Ihnen die Verwendung von [!DNL Experience Platform] Segmente in [!DNL Adobe Target] für die Personalisierung derselben Seite und der nächsten Seite mit Governance- und Datenschutzunterstützung.
+Erfahren Sie, wie Sie den nächsten Treffer personalisieren können mit [!DNL Real-time Customer Data Platform] und [!DNL Adobe Target]. Die [!DNL Adobe Target] Zielort [!DNL Real-time CDP] ermöglicht Ihnen die Verwendung von [!DNL Experience Platform] Segmente in [!DNL Adobe Target] für die gleiche Seitenpersonalisierung und Personalisierung der nächsten Seite mit Governance und Datenschutzunterstützung.
 
 Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtzeit-Kundendatenplattform und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} im *Platform-Tutorials* Handbuch.
 
@@ -93,9 +93,9 @@ Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtze
 
 ## Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target] {#rtcdp-profile-attributes}
 
-Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und JSON-Angeboten. (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
+Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
 
-Anwendungsbeispiel: Als Onlinemarketing-Experte möchte Grace, dass das AEP/Unified Profile Attributwerte mit [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen kann Grace den Wert des AEP-Attributs in einer [!DNL Target] Angebot mit Token-Ersetzung. Sie kann beispielsweise entsprechend der Lieblingsfarbe eines Kunden personalisieren, indem sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
+Anwendungsbeispiel: Als Online-Marketing-Experte möchten Sie, dass das AEP/Unified Profile Attributwerte für [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen können Sie den Wert des AEP-Attributs in einem [!DNL Target] Angebot mit Token-Ersetzung. Sie können zum Beispiel anhand der Lieblingsfarbe eines Kunden personalisieren, indem Sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
