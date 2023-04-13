@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '895'
 ht-degree: 22%
 
 ---
@@ -36,7 +36,7 @@ Zu den wichtigsten Funktionen gehören:
 
 Einschränkungen und Überlegungen zu den Echtzeit-Kundendatenplattform-Profilattributen:
 
-* Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Anders ausgedrückt: Ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
+* Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Das heißt, ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
 * Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. das Zielprofil und das AEP-Profil.(Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie aus Target oder aus dem AEP-Profil stammen.)
 * Beim Definieren eines Angebots können Sie Standardwerte für Echtzeit-Kundendatenplattform-Profilattribute zuweisen, falls das Attribut keinen expliziten Wert aufweist. Wenn beispielsweise eine Zustimmungs- oder Governance-Richtlinie das Attribut blockiert, das im Personalisierungsdienst verwendet wird, kann stattdessen der Standardwert verwendet werden.
 * Bei der Freigabe werden Echtzeit-Kundendatenplattform-Profilattribute in den Personalisierungsmodellen für künstliche Intelligenz/maschinelles Lernen für Automatisches Targeting und Automated Personalization verwendet.
@@ -94,8 +94,6 @@ Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtze
 ## Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target] {#rtcdp-profile-attributes}
 
 Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und JSON-Angeboten. (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
-
-Weitere Informationen finden Sie unter [Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 Anwendungsbeispiel: Als Onlinemarketing-Experte möchte Grace, dass das AEP/Unified Profile Attributwerte mit [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen kann Grace den Wert des AEP-Attributs in einer [!DNL Target] Angebot mit Token-Ersetzung. Sie kann beispielsweise entsprechend der Lieblingsfarbe eines Kunden personalisieren, indem sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
 
