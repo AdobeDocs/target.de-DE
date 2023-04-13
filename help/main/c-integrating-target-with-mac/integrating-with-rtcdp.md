@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 19%
+source-wordcount: '909'
+ht-degree: 18%
 
 ---
 
@@ -38,13 +38,27 @@ Zu den wichtigsten Funktionen gehören:
 
 ### Anwendungsfälle für die Personalisierung
 
-Die folgende Tabelle zeigt, welcher Personalisierungs-Anwendungsfall (nächste Sitzung oder dieselbe Seite) bei Verwendung der [!DNL Adobe Experience Platform Web SDK] oder die Verwendung von at.js:
+Die folgenden Abschnitte zeigen, welcher Personalisierungs-Anwendungsfall (nächste Sitzung oder dieselbe Seite) bei Verwendung verschiedener Implementierungsmethoden verfügbar ist:
 
-| Implementierung | Lösungen/Anwendungsfall aktiviert |
+#### at.js-Implementierung
+
+| „Lösungen“ | Anwendungsfall aktiviert |
 | --- | --- |
-| at.js | **Lösungen**:<ul><li>[!DNL Adobe Audience Manager] AAM und [!DNL Target]</li><li>[!DNL RTCDP] (Premium oder Ultimate) und [!DNL Target]</li><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Nutzungsszenario**:<ul><li>Personalisierung der nächsten Sitzung</li></ul> |
-| [!DNL Platform Web SDK] oder [!DNL AEP Server-Side API] | **Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><li>Personalisierung auf derselben Seite über Edge</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul>**Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul><li>Personalisierung auf derselben Seite über Edge</li><ul><li>[!DNL RTCDP] Segmente</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul> |
-| Mischung aus [!UICONTROL at.js] und [!DNL Platform Web SDK] | **Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li></ul><li>Personalisierung auf derselben Seite</li><ul><li>Für alle Seiten mit [!DNL Platform Web SDK]</li></ul></ul>**Lösungen**:<ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul>**Anwendungsfall**:<ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] AAM und [!DNL Target]</li><li>[!DNL RTCDP] (Premium oder Ultimate) und [!DNL Target]</li><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul> | Personalisierung der nächsten Sitzung |
+
+#### Adobe Experience Platform Web SDK- oder AEP Server-seitige API-Implementierung
+
+| „Lösungen“ | Anwendungsfall aktiviert |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><li>Personalisierung auf derselben Seite über Edge</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul> |
+| <ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><ul><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul><li>Personalisierung auf derselben Seite über Edge</li><ul><li>[!DNL RTCDP] Segmente</li><li>Governance bei Freigabe von Segmenten erzwungen</li></ul> |
+
+#### Mischung aus [!UICONTROL at.js] und [!DNL Platform Web SDK] Implementierung
+
+| „Lösungen“ | Anwendungsfall aktiviert |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li></ul><li>Personalisierung auf derselben Seite</li><ul><li>Für alle Seiten mit [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM]und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul> |
 
 ### Segmentauswertungszeit
 
@@ -105,6 +119,6 @@ Weitere Informationen finden Sie unter [Nächste Hit-Personalisierung mit Echtze
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target-Blog und -Video:
+### Adobe Target-Blog und -Video: Verbesserte Personalisierung auf derselben Seite
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] und [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] und [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
