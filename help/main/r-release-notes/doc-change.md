@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2432'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 13. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target] Standard/Premium Version 23.4.1 (25.-27. April 2023). |
 | 12. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurde ein Link zur Registrierung für das folgende Webinar hinzugefügt:<ul><li>Stellen Sie jedes Mal personalisierte Kundenerlebnisse bereit!</li></ul> |
 |  | [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Ich sehe ein oder mehrere Attribute, die das Modell nicht für das Training verwenden soll. Kann ich diese Attribute aus dem Trainings-Modell entfernen?</li></ul> |
 |  | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt?</li></ul> |
