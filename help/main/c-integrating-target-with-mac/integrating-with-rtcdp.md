@@ -4,14 +4,14 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '904'
+ht-degree: 19%
 
 ---
 
-# Integration mit Real-time Customer Data Platform
+# Integrieren mit [!DNL Real-time Customer Data Platform]
 
 Die auf [!DNL Adobe Experience Platform] basierende [!DNL Real-time Customer Data Platform] (RTCDP) hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.
 
@@ -36,29 +36,6 @@ Zu den wichtigsten Funktionen gehören:
 * [!UICONTROL Target Edge Destinations-Karte] mit Governance und Richtliniendurchsetzung
 * Echtzeit-CDP-Segmente und freigegebene Profilattribute
 
-### Einschränkungen und Überlegungen zu Funktionen und Profilattributen der Echtzeit-Kundendatenplattform
-
-Beachten Sie Folgendes:
-
-* Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Das heißt, ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
-* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. nämlich die [!DNL Target] Profil und das AEP-Profil. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie von [!DNL Target] oder aus dem AEP-Profil.)
-* Beim Definieren eines Angebots können Sie Standardwerte für Echtzeit-Kundendatenplattform-Profilattribute zuweisen, falls das Attribut keinen expliziten Wert aufweist. Wenn beispielsweise eine Zustimmungs- oder Governance-Richtlinie das Attribut blockiert, das im Personalisierungsdienst verwendet wird, kann stattdessen der Standardwert verwendet werden.
-* Bei Freigabe werden Echtzeit-Kundendatenplattform-Profilattribute in den Personalisierungsmodellen für künstliche Intelligenz/maschinelles Lernen für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] Aktivitäten.
-
->[!NOTE]
->
->Die Funktion &quot;Echtzeit-Kundendatenplattform-Profilattribute&quot;ist derzeit in der Beta-Version für das HTML von Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### Links zu weiteren Informationen
-
-Weitere Informationen finden Sie in den folgenden Themen:
-
-* [Ziele - Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} im *Versionshinweise zu Adobe Experience Platform*
-* [Personalisierungsziele für die Personalisierung von derselben Seite und nächsten Seiten konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} im *Ziele - Übersicht* Handbuch.
-* [Benutzerdefinierte Personalisierungsverbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} im *Ziele - Übersicht* Handbuch
-* [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im *Ziele - Übersicht* Handbuch
-* [Konfigurieren von Personalisierungszielen für dieselben Anwendungsfälle für die Personalisierung der Seite und der nächsten Seite](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} im *Ziele - Übersicht* Handbuch
-
 ### Anwendungsfälle für die Personalisierung
 
 Die folgende Tabelle zeigt, welcher Personalisierungs-Anwendungsfall (nächste Sitzung oder dieselbe Seite) bei Verwendung der [!DNL Adobe Experience Platform Web SDK] oder die Verwendung von at.js:
@@ -81,11 +58,36 @@ Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschi
 | Ereignisse aus dem Batch-Upload | Nein | Nein | Ja |
 | Ereignisse aus Offline-Daten (Stream) | Nein | Ja | Ja |
 
+### Links zu weiteren Informationen
+
+Weitere Informationen finden Sie in den folgenden Themen:
+
+* [Ziele - Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} im *Versionshinweise zu Adobe Experience Platform*
+* [Personalisierungsziele für die Personalisierung von derselben Seite und nächsten Seiten konfigurieren](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} im *Ziele - Übersicht* Handbuch.
+* [Benutzerdefinierte Personalisierungsverbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} im *Ziele - Übersicht* Handbuch
+* [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im *Ziele - Übersicht* Handbuch
+* [Konfigurieren von Personalisierungszielen für dieselben Anwendungsfälle für die Personalisierung der Seite und der nächsten Seite](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} im *Ziele - Übersicht* Handbuch
+
 ## Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target] {#rtcdp-profile-attributes}
 
-Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Beachten Sie, dass diese Funktion derzeit nur als Betaversion verfügbar ist.)
+Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-Anwendungsbeispiel: Als Online-Marketing-Experte möchten Sie, dass das AEP/Unified Profile Attributwerte für [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen können Sie den Wert des AEP-Attributs in einem [!DNL Target] Angebot mit Token-Ersetzung. Sie können zum Beispiel anhand der Lieblingsfarbe eines Kunden personalisieren, indem Sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
+### Einschränkungen und Überlegungen zu Funktionen und Profilattributen der Echtzeit-Kundendatenplattform
+
+>[!NOTE]
+>
+>Die Funktion &quot;Echtzeit-Kundendatenplattform-Profilattribute&quot;ist derzeit in der Beta-Version für das HTML von Angeboten und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+Beachten Sie Folgendes:
+
+* Attribute innerhalb eines Angebots müssen aus derselben AEP-Sandbox stammen. (Das heißt, ein Angebot kann keine Attribute aus verschiedenen AEP-Sandboxes enthalten.)
+* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen. nämlich die [!DNL Target] Profil und das AEP-Profil. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie von [!DNL Target] oder aus dem AEP-Profil.)
+* Beim Definieren eines Angebots können Sie Standardwerte für Echtzeit-Kundendatenplattform-Profilattribute zuweisen, falls das Attribut keinen expliziten Wert aufweist. Wenn beispielsweise eine Zustimmungs- oder Governance-Richtlinie das Attribut blockiert, das im Personalisierungsdienst verwendet wird, kann stattdessen der Standardwert verwendet werden.
+* Bei Freigabe werden Echtzeit-Kundendatenplattform-Profilattribute in den Personalisierungsmodellen für künstliche Intelligenz/maschinelles Lernen für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] Aktivitäten.
+
+### Anwendungsbeispiel
+
+Als Online-Marketing-Experte möchten Sie, dass das AEP/Unified Profile Attributwerte für [!DNL Target] um eine Echtzeit-Personalisierung zu ermöglichen. Mithilfe von Echtzeit-Kundendatenplattform-Profilattributen können Sie den Wert des AEP-Attributs in einem [!DNL Target] Angebot mit Token-Ersetzung. Sie können zum Beispiel anhand der Lieblingsfarbe eines Kunden personalisieren, indem Sie `${aep.profile.favoriteColor}`oder deren Loyalitäts- und Treuepunktwert mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
