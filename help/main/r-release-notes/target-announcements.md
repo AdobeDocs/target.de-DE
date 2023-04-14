@@ -29,7 +29,7 @@ Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!
 
 * **Donnerstag, 27. April 2023**
 * **9:00 bis 10:00 Uhr (BST, GMT +1), 10:00 bis 11:00 Uhr. (CEST, GMT +2)**
-* **[Registrierungsinformationen](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+* **[Informationen zur Registrierung](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 Überlegen Sie die Kunden mit [!DNL Adobe Target]die leistungsstarken Test- und Personalisierungsfunktionen. Stellen Sie sicher, dass Sie überall beim Kunden sind, indem Sie dynamisch kontextbezogene Erlebnisse für das Web, mobile und digitale Geräte anbieten.
 
