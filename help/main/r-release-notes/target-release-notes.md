@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: ce36e74605468466ed7bdc83f412f78941151845
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 73%
+source-wordcount: '323'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: 13. April 2023**
+**Zuletzt aktualisiert: 24. April 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,11 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25.-27. April 2023)
 
-Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
+Diese Version enthält Sicherheitsaktualisierungen und die folgenden neuen Funktionen:
 
 | Funktion | Details |
 |--- |--- |
-| AEM-[!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Inhaltsfragmente]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTE**: Diese Funktion ist ab dem 12. April 2023 als Vorabversion-Funktion verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmente] Verwendung von Entwicklungs- und Staging-Umgebungen, jedoch nicht unter Verwendung von Produktionsumgebungen. Diese Funktion steht für GA (Allgemeine Verfügbarkeit) im [!DNL Target Standard/Premium] Version 23.4.1. |
+| AEM-[!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Inhaltsfragmente]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTE**: Diese Funktion ist ab dem 12. April 2023 als Vorabversion-Funktion verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmente] Verwendung von Entwicklungs- und Staging-Umgebungen, jedoch nicht unter Verwendung von Produktionsumgebungen. Diese Funktion steht allen Kunden am 26. April 2023 zur Verfügung. |
 | Real-Time CDP-Profilattribute, die für [!DNL Target] | [!UICONTROL Real-Time CDP-Profilattribute] kann für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
