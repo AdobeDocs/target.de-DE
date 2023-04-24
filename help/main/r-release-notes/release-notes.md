@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 97%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
@@ -19,39 +19,14 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.3.1 (28. bis 30. März 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25.-27. April 2023)
 
-Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
-
-* **28. März**: Region Europa, Naher Osten und Afrika (EMEA)
-* **29. März**: Region Asien-Pazifik (APAC)
-* **30. März**: Region Nord- und Südamerika
-
-Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
+Diese Version enthält Sicherheitsaktualisierungen und die folgenden neuen Funktionen:
 
 | Funktion | Details |
 |--- |--- |
-| Optimierte A4T-Metriken für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] ermöglicht die Auswahl von Metriken, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn [!UICONTROL A4T] für die Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet wird.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter „Unterstützte Zielmetriken“ in [A4T-Unterstützung für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
-
-* Die Synchronisierung von Zielgruppe und Aktivität wurde verbessert, sodass in [!DNL Adobe Experience Platform] und [!DNL Adobe Audience Manager] erstellte Elemente schneller in der Benutzeroberfläche von [!DNL Target] zu finden sind. (TGT-44568)
-* Verbesserte Benutzeroberfläche, damit Benutzende die [!UICONTROL Standard-URL] unter [!UICONTROL Verwaltung] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Standard-URL] entfernen können. Durch diese Änderung können Kundinnen und Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der Erstkonfiguration bisher nicht möglich war. (TGT-44577)
-* Es wurden Einschränkungen entfernt, die Kundinnen und Kunden daran hinderten, vordefinierte Zielgruppen (Zielgruppen mit reservierten Namen) zu bearbeiten oder zu löschen. (TGT-44655)
-* Die Option „[!UICONTROL Fertig]“ wurde deaktiviert, die beim Laden von Spinnern in der [!DNL Target]-Benutzeroberfläche beim Erstellen von [kombinierten Zielgruppen](/help/main/c-target/combining-multiple-audiences.md) angezeigt wurde. (TGT-44079)
-* Ein Problem mit dem Link [!UICONTROL Sprache] unten auf der Seite [!UICONTROL Zielgruppen] wurde behoben, sodass er korrekt auf die Seite „[!UICONTROL Voreinstellungen für Kontomitteilungen]“ verweist. (TGT-43562)
-* Es wurde ein Problem behoben, aufgrund dessen Kundinnen und Kunden nach Auswahl der Option [!UICONTROL Adobe Analytics] unter [!UICONTROL Administration] > [!UICONTROL Berichterstellung] > [!UICONTROL Reporting Cloud-Lösung] manchmal keine [!UICONTROL A/B-Test]-Aktivitäten erstellen konnten. (TGT-44844)
-* Es wurde ein Problem behoben, aufgrund dessen Kundinnen und Kunden in einer Aktivität des Typs [!UICONTROL Multivariater Test] mit vielen Erlebnissen das letzte Erlebnis nicht in [!UICONTROL Visual Experience Composer] (VEC) sehen konnten. Der [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) am Ende des VEC hinderte Kundinnen und Kunden manchmal daran, das letzte Erlebnis anzusehen. (TGT-44578)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Durchsuchen-URL im VEC nicht die aktuelle Seite zeigte, die in einer normalen Browser-Sitzung sichtbar wäre, wenn die Seite autorisiert werden muss oder auf andere Seiten weiterleitet. (TGT-44350)
-* Es wurde ein Problem behoben, das Kundinnen und Kunden daran hinderte, die Einstellung [!UICONTROL Inkompatible Kriterien filtern] in [!UICONTROL Recommendations] > [!UICONTROL Einstellungen] zu ändern. (TGT-44398)
-* Es wurde ein Fehler behoben, der dazu führte, dass POST-Anfragen zur Erstellung von [!DNL Recommendations]-Feeds fehlschlugen, wenn [!UICONTROL Analytics-Klassifizierungen] mit Report Suites mit Punkten im Namen verwendet wurden. (TGT-44598)
-* Links in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert, damit sie auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verweisen. (TGT-44459)
-* Die Sicherheit wurde verbessert, um Server-seitige Request Forgery-Angriffe (SSRF) in [!DNL Recommendations]-Feeds zu verhindern. (TGT-43769)
-* Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
-
-## at.js-Version 2.10.2 (7. März 2023)
-
-* Es wurde ein Fehler behoben, der dazu geführt hatte, dass die Funktion `trackEvent` immer einen Fehler zurückgab.
-
-Informationen zu allen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+| AEM-[!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Inhaltsfragmente]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTE**: Diese Funktion ist ab dem 12. April 2023 als Vorabversion-Funktion verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmente] Verwendung von Entwicklungs- und Staging-Umgebungen, jedoch nicht unter Verwendung von Produktionsumgebungen. Diese Funktion steht allen Kunden am 26. April 2023 zur Verfügung. |
+| Real-Time CDP-Profilattribute, die für [!DNL Target] | [!UICONTROL Real-Time CDP-Profilattribute] kann für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Diese Funktion ist ab 9. Mai 2023 für alle Kunden verfügbar. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
