@@ -4,10 +4,10 @@ description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Targ
 title: Wie behebe ich Fehler in Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 82%
 
 ---
 
@@ -96,7 +96,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung für Aktivit
 
 ## Globale Mbox
 
-* [Globale mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Globale mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hosts/Umgebungen
 
@@ -108,23 +108,23 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ### Allgemeine Implementierung
 
-* [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Verwenden von Cloud-basierten Instanzen mit Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [Unterstützte Browser](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Verwenden von Cloud-basierten Instanzen mit Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Globale Mboxes
 
-* [Häufig gestellte Fragen zur globalen Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Häufig gestellte Fragen zur globalen Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [Häufig gestellte Fragen zu at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Debugging von at.js mithilfe des Adobe Experience Cloud-Debuggers](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [at.js-Versionsdetails](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [Häufig gestellte Fragen zu at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Debugging von at.js mithilfe des Adobe Experience Cloud-Debuggers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * Video zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. 
 
 ## Mobile Anwendungen
 
-* [Target für mobile Apps – FAQs ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [Target für mobile Apps – FAQs ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Berichterstellung
 
@@ -133,11 +133,11 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Suchmaschinenoptimierung (SEO)
 
-* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sicherheit
 
-* [Richtlinien zur Content Security Policy (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Systemstatus
 

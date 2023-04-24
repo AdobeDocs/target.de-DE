@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 100%
+source-wordcount: '2455'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Methoden, um Daten in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} zu importieren. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
@@ -246,14 +246,14 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 | `page.url` | Die aktuelle URL |
 | `page.protocol` | Das für die Seite verwendete Protokoll (http oder https). |
 | `page.domain` | Die aktuelle URL-Domäne (alles vor dem ersten Schrägstrich). Zum Beispiel `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
-| `page.query` | Die Abfragezeichenfolge für die aktuelle Seite. Alles nach dem „?“. Zum Beispiel `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small` |
-| `page.param(‘<par_name>’)` | Der durch `<par_name>` angegebene Wert des Parameters. Wenn Ihre aktuelle URL die Google-Suchseite ist und Sie `page.param('hl')` eingegeben haben, erhalten Sie „en“ für die URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | Die Abfragezeichenfolge für die aktuelle Seite. Alles nach dem &quot;?&quot;. Zum Beispiel `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small` |
+| `page.param('<par_name>')` | Der durch `<par_name>` angegebene Wert des Parameters. Wenn Ihre aktuelle URL die Suchseite von Google ist und Sie `page.param('hl')`, erhalten Sie &quot;en&quot;für die URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Dieselben Schritte wie oben gelten für Referrer und Landingpage (d. h. referrer.url ist die URL-Adresse des Referrers). |
 | `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage. |
 | `mbox.name` | Der Name der aktiven Mbox. |
-| `mbox.param(‘<par_name>’)` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
-| `profile.get(‘<par_name>’)` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des Werts „`profile.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass `profile.get(<par_name>)` als Funktionsaufruf qualifiziert ist. |
-| `user.get(‘<par_name>’)` | Gibt den Wert des Werts „`user.<par_name>`“ für den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
+| `mbox.param('<par_name>')` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
+| `profile.get('<par_name>')` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzer beispielsweise einen Profilparameter namens &quot;gender&quot;festlegt, kann der Wert mit &quot;profile.gender&quot;extrahiert werden. Gibt den Wert der`profile.<par_name>`&quot; für den aktuellen Besucher festgelegt ist; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass `profile.get(<par_name>)` als Funktionsaufruf qualifiziert ist. |
+| `user.get('<par_name>')` | Gibt den Wert der`user.<par_name>`&quot; für den aktuellen Besucher festgelegt ist; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
 | `user.isFirstSession` | Gibt „true“ zurück, wenn es die erste Sitzung des Besuchers ist. |
@@ -264,7 +264,7 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 
 Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwendet werden. JavaScript-Operatoren können für Zeichenfolgen und Zahlen (sowie andere Datentypen) verwendet werden. Ein schnelles Briefing:
 
-| Operator | Beschreibung |
+| Benutzerin oder Benutzer | Beschreibung |
 | --- | --- |
 | `==` | Gibt Gleichheit an. Behält den Wert „true“ bei, wenn Operanden auf beiden Seiten gleich sind. |
 | `!=` | Gibt Ungleichheit an. Behält den Wert „true“ bei, wenn Operanden auf beiden Seiten nicht gleich sind. |
@@ -272,8 +272,8 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `>` | Gibt an, dass die Variable auf der linken Seite größer als die Variable auf der rechten Seite ist. Wird als „false“ bewertet, wenn die Variablen gleich sind. |
 | `<=` | So wie `<`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
 | `>=` | So wie `>`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
-| `&&` | Fügt die Ausdrücke links und rechts daneben logisch mit „ANDs“ zusammen, nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
-| `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „ORs“ zusammen, nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
+| `&&` | Logisch &quot;ANDs&quot;die Ausdrücke links und rechts davon - ist nur &quot;true&quot;, wenn beide Seiten wahr sind (andernfalls &quot;false&quot;). |
+| `||` | Logisch &quot;ORs&quot;die Ausdrücke links und rechts davon - ist nur &quot;true&quot;, wenn eine der Seiten wahr ist (andernfalls &quot;false&quot;). |
 | `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Schulungsvideo: Profilskripte ![Tutorial-Badge](/help/main/assets/tutorial.png)

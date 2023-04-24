@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Parameter an [!DNL Adobe T
 title: Kann ich ein Targeting von Besuchern anhand von benutzerdefinierten Parametern durchführen?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 43%
+source-wordcount: '495'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 Benutzerdefinierte Parameter sind Mbox-Parameter in [!DNL Adobe Target]. Wenn Sie Mbox-Parameter an Mboxes übergeben, oder verwenden Sie die `targetPageParams` -Funktion verwenden, werden diese Parameter hier zur Verwendung in Zielgruppen angezeigt.
 
-Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
+Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 

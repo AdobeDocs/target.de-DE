@@ -5,10 +5,10 @@ title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 60%
+source-wordcount: '884'
+ht-degree: 59%
 
 ---
 
@@ -46,7 +46,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    ![Mauszeiger-Symbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://developer.adobe.com/target/implement/recommendations/) zum Ändern der Standardhostgruppe.{target=_blank}
+   Die für jede Sammlung in der [!UICONTROL Sammlungslistenansicht] gemeldete „Anzahl an Elementen“ ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) zum Ändern der Standardhostgruppe.{target=_blank}
 
 1. Klicken Sie auf **[!UICONTROL Sammlung erstellen]**.
 

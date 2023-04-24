@@ -4,7 +4,7 @@ description: Lesen Sie Tipps unserer Experten zur Verwendung von Adobe  [!DNL Ta
 title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 **Gut zu wissen**: Da es sich bei [!DNL Target] um eine offene und agnostische Plattform handelt, deren Unterstützung für verschiedene Technologien herausragend ist, können Sie CRM- oder erworbene Daten auf viele verschiedene Weisen hinzufügen. Sie können also die Methode wählen, die für Ihre Organisation am besten geeignet ist.
 
-Siehe [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} für weitere Informationen.
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
 
 ## Tipp 2: Optimieren Sie die Personalisierung durch Kombination Ihrer [!DNL Target]-Zielgruppen mit anderen Zielgruppen aus Adobe Experience Cloud.
 

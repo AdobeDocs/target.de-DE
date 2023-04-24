@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 34%
+source-wordcount: '818'
+ht-degree: 33%
 
 ---
 
@@ -45,7 +45,7 @@ Die [!UICONTROL Zielgruppen] enth채lt die Zielgruppen, die Sie in Ihren Aktivit�
 
    >[!NOTE]
    >
-   >Die [!DNL Adobe Experience Platform] -Quelle f체r alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
+   >Die [!DNL Adobe Experience Platform] -Quelle f체r alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Benutzer m체ssen [!UICONTROL Genehmiger] oder 체ber dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >

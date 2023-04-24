@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Besucher mit [!DNL Adobe Target] die sich auf
 title: Kann ich ein Targeting von Besuchern auf Basis von Site-Seiten durchführen?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 27%
+source-wordcount: '891'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können Besucher mithilfe von [!DNL Adobe Target] die auf eine bestimmte Sei
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
       * [!UICONTROL URL] (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
-      * [!UICONTROL Domäne]
+      * [!UICONTROL Domain]
       * [!UICONTROL Abfrage]
       * [!UICONTROL Subdomäne]
       * [!UICONTROL Domäne auf oberster Ebene]
@@ -55,7 +55,7 @@ Sie können Besucher mithilfe von [!DNL Adobe Target] die auf eine bestimmte Sei
       Die folgenden Optionen stehen in der zweiten Dropdownliste zur Verfügung, wenn Sie diese Option wählen:
 
       * [!UICONTROL URL] (Weitere Informationen zur Bewertung von URLs durch Target finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
-      * [!UICONTROL Domäne]
+      * [!UICONTROL Domain]
       * [!UICONTROL Abfrage]
       * [!UICONTROL Subdomäne]
       * [!UICONTROL Domäne auf oberster Ebene]
@@ -127,7 +127,7 @@ Verwenden Sie:
 
    Wenn dieses Verhalten nicht Ihren Anforderungen entspricht, sollten Sie eine der folgenden Aktionen durchführen:
 
-   * Pass [Mbox-Parameter](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} bis [!DNL Target] für Targeting-Zwecke verwendet werden.
+   * Pass [Mbox-Parameter](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} nach [!DNL Target] für Targeting-Zwecke verwendet werden.
    * Verwenden Sie eine [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md) anstatt einer Landingpage-Aktivität. A/B-Test-Aktivitäten wechseln nicht zwischen Erlebnissen für denselben Besucher.
    * Verwenden Sie eine [Besucherprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) anstatt.
 

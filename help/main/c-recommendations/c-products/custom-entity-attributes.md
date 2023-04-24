@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1409'
 ht-degree: 88%
 
 ---
@@ -127,7 +127,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Dokumentation der Adobe Recommendations-APIs](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Dokumentation der Adobe Recommendations-APIs](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 

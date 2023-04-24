@@ -5,7 +5,7 @@ title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ Verschiedene Empfehlungsalgorithmen eignen sich für die Platzierung auf verschi
 
 ## Warenkorbbasiert {#cart-based}
 
-Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über [Mbox-Parameter `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
+Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über [Mbox-Parameter `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohlen für Sie]&quot;benutzerbasierter Algorithmus und zum &quot;[!UICONTROL Personen, die diese ansahen, kauften diese]&quot; und &quot;[!UICONTROL Personen, die diese kauften, kauften diese]&quot;artikelbasierte Algorithmen.
 

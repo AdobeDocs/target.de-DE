@@ -5,9 +5,9 @@ title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '3399'
+source-wordcount: '3400'
 ht-degree: 91%
 
 ---
@@ -95,7 +95,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://developer.adobe.com/target/implement/recommendations/){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
