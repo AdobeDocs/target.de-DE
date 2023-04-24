@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2463'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Neues Thema Beachten Sie, dass sich diese Funktion zu Testzwecken im Status &quot;Vorabversion&quot;befindet. |
 | 5. April | [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Es wurde Text hinzugefügt, der angibt, dass [!UICONTROL Analytics als Berichtsquelle] (A4T) nicht in Aktivitäten unterstützt wird, die Angebotsentscheidungen verwenden. |
 | 3. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause der [!UICONTROL Adobe Target-Community] am Mittwoch, 12. April 2023 hinzugefügt. |
-|  | [Zulassungsliste für Target-Edge-Knoten](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Es wurde ein Hinweis zur Zulassungsliste aller [!DNL Adobe Analytics]-IP-Adressblöcke hinzugefügt. |
+|  | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Es wurde ein Hinweis zur Zulassungsliste aller [!DNL Adobe Analytics]-IP-Adressblöcke hinzugefügt. |
 | 30. März | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Aktualisierte Versionshinweise zur Freigabe der optimierten A4T-Metriken für die Funktionen [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting], mit denen Sie Metriken auf der Basis binomialer Ereignisse oder Metriken basierend auf kontinuierlichen Ereignissen auswählen können, wenn Sie [!UICONTROL A4T] für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings] verwenden. |
 |  | [A4T-Unterstützung für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Der Abschnitt „Unterstützte Zielmetriken“ wurde aktualisiert und enthält jetzt Informationen zu den unterstützten (und nicht unterstützten) Metriken für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings], die [!UICONTROL Analytics for Target] (A4T) verwenden |
 |  | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de){target=_blank} | Die folgenden Tutorials wurden aktualisiert:<ul><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in  [!DNL Analysis Workspace]  für Aktivitäten des Typs [!UICONTROL Automatisches Targeting]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |

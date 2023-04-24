@@ -5,9 +5,9 @@ title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu e
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 52%
 
 ---
@@ -49,7 +49,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 
 Funktionen können für [!DNL Target]-Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinerlei Modellen oder Aktivitäten für [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automated Personalization] verwendet werden können.
 
-Weitere Informationen finden Sie unter [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Modelle-API (Auf die Blockierungsliste setz)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ## Gerät und Mobildaten {#device-mobile}
 

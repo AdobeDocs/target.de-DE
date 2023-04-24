@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der
 title: Wie kann ich Probleme im Zusammenhang mit Visual Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 69%
+source-wordcount: '975'
+ht-degree: 68%
 
 ---
 
@@ -123,7 +123,7 @@ Sollte weder Visual Experience Composer noch Enhanced Experience Composer funkti
 
 ## Bei der Verwendung des Modus zum Durchsuchen scheint der VEC nicht zu funktionieren. (Nur VEC)   {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Wenn Sie im Modus &quot;Durchsuchen&quot;auf eine URL zugreifen, die nicht über [!DNL Target] implementierte Bibliotheken ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) oder einen Frame-Buster-Header enthält, scheint der VEC beschädigt zu sein. Aus Sicherheitsgründen des Browsers [!DNL Target] kann nicht ordnungsgemäß auf die URL zugreifen, zu der Sie navigiert sind, oder die VEC-URL wird nicht konsistent aktualisiert, wenn die Seite geladen wird.
+Wenn Sie im Modus &quot;Durchsuchen&quot;auf eine URL zugreifen, die nicht über [!DNL Target] implementierte Bibliotheken ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) oder einen Frame-Buster-Header enthält, scheint der VEC beschädigt zu sein. Aus Sicherheitsgründen des Browsers [!DNL Target] kann nicht ordnungsgemäß auf die URL zugreifen, zu der Sie navigiert sind, oder die VEC-URL wird nicht konsistent aktualisiert, wenn die Seite geladen wird.
 
 Dieses Problem tritt auf, weil VEC die Webseite in eine `<iframe>`. Die aktuellen Sicherheitsmechanismen von Browsern verhindern die [!DNL Target] -Benutzeroberfläche kann aufgrund der gleichen Ursprungsrichtlinie nicht auf die Elemente des angegebenen Frames zugreifen. Browser blockieren Skripte, die versuchen, auf einen Frame mit einer anderen Herkunft zuzugreifen, und enthalten Informationen wie die `location.href`.
 

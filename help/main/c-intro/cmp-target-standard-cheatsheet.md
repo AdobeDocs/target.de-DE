@@ -4,10 +4,10 @@ description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fr
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2783'
-ht-degree: 97%
+source-wordcount: '2750'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Testen Sie das [Target-Community-Forum](/help/main/cmp-resources-and-contact-inf
 
 **Welche Browser werden von Target unterstützt?**
 
-Weitere Details finden Sie in der [Unterstützte Browser](https://developer.adobe.com/target/before-implement/supported-browsers/)-Matrix. {target=_blank} Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
+Weitere Details finden Sie in der [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)-Matrix. {target=_blank} Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targetin
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erlebnisse {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundenattribute](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -305,14 +305,8 @@ Auf der [Adobe-Systemstatusseite](/help/main/r-release-notes/system-status-updat
 
 Es tut uns leid, zu hören, dass Sie Probleme haben. Unter [Troubleshooting Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) finden Sie Links zu vielen Fehlerbehebungsthemen.
 
-## Target Mobile Apps {#section_07BA89F2C38747158ECD5B153274AEAF}
-
-**Wir besitzen eine mobile SKU. Kann ich mobile Aktivitäten erstellen?**
-
-Zur Optimierung und Personalisierung auf Mobilgeräten müssen Sie [formularbasierte Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) zusammen mit [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
-
 ## Target-APIs {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Wo erhalte ich weitere Informationen über Target-APIs?**
 
-Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

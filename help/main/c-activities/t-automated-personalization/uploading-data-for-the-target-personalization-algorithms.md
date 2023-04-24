@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie beim Erstellen von Personalisierungsmodellen 
 title: Wie kann ich Daten für Personalisierungsalgorithmen hochladen?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 67%
+source-wordcount: '293'
+ht-degree: 37%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Offline-Daten, wie z. B. CRM-Informationen oder Tendenzwerte zur Kundenabwanderung, können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] AP-Aktivitäten.
 
-Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in [Verfahren für die Datenübernahme in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} und aktivitätsinterne Reporting-Zielgruppen werden auch in unseren Algorithmen verwendet.
+Es gibt verschiedene Möglichkeiten für die Dateneingabe in die Algorithmen zur [!UICONTROL automatisierten Personalisierung] (AP) und zum [!UICONTROL automatischen Targeting. ] Zusätzlich zu den Methoden in [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}, Experience Cloud shared audiences (Adobe Analytics, Audience Management){target=_blank} und aktivitätsinterne Reporting-Zielgruppen werden auch in unseren Algorithmen verwendet.
 
 Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen der automatisierten Personalisierung und des automatischen Targetings gesammelt und verwendet werden, finden Sie unter [Datenerfassung für die automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
@@ -23,9 +23,9 @@ Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen
 
 In der folgenden Liste finden Sie Best Practices zum Hochladen von Daten für die Target-Personalisierungsalgorithmen:
 
-* Je höher die Qualität der verfügbaren Daten in den Target-Personalisierungsalgorithmen, desto höher die Qualität der entsprechenden Modelle in Ihren AP- und AT-Aktivitäten.
+* Je höher die Qualität der für die Target-Personalisierungsalgorithmen verfügbaren Daten ist, desto höher ist die Qualität der resultierenden Modelle in Ihren AP- und AT-Aktivitäten.
 * Beschränken Sie die Verwendung mehrerer Profilskripte oder -attribute, die denselben Zweck erfüllen.
-* Übergeben Sie keine eindeutige ID, wie z. B. eine Sitzungs-ID, sofern nicht erforderlich.
-* Überprüfen Sie, welche Daten Target automatisch erfasst (  [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/ap-data.md)), damit Sie Informationen nicht doppelt senden. Target verwendet beispielsweise IP-Adressen, um die Postleitzahl der Besucher zu ermitteln. Es ist also nicht erforderlich, diese Information als separate Variable zu übergeben.
-* Übergeben Sie nicht mehrere Variablen in einem Attribut/einer Variablen. Wenn mehrere Variablen verbunden sind, behandeln die Target-Personalisierungsalgorithmen jede Zeichenfolge als eigenen Wert und reduzieren so die Informationen für die Personalisierung.
+* Übergeben Sie keine eindeutige ID, z. B. eine Sitzungs-ID, falls nicht erforderlich.
+* Überprüfen Sie, welche Daten Target automatisch erfasst ( [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md)), damit Sie keine doppelten Informationen senden. Target verwendet beispielsweise IP-Adressen, um die Postleitzahl der Besucher zu ermitteln. Es ist also nicht erforderlich, diese Information als separate Variable zu übergeben.
+* Übergeben Sie nicht mehrere Variablen in einem Attribut/einer Variablen. Wenn mehrere Variablen verkettet sind, behandeln die Target-Personalisierungsalgorithmen jede Zeichenfolge als einen eindeutigen Wert, wodurch der Wert der Informationen für die Personalisierung verringert wird.
 * Verwenden Sie eindeutige Namen, die leicht zu merken sind, damit Ihre  [Personalization Insights-Berichte](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) leichter verständlich sind.
