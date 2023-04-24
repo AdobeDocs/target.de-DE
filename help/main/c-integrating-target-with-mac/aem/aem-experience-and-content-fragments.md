@@ -3,7 +3,8 @@ keywords: AEM;Experience Manager;Adobe Experience Manager;integrieren;Integratio
 description: Erfahren Sie, wie Sie Experience Fragments und Inhaltsfragmente aus  [!DNL Adobe Experience Manager]  in  [!DNL Adobe Target] -Aktivitäten verwenden.
 title: Wie verwende ich [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager]  (AEM)?
 feature: Integrations
-source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
+exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
+source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 77%
