@@ -1,14 +1,14 @@
 ---
 keywords: Erlebnis;JSON;AEM;Adobe Experience Manager;in Adobe Target exportieren;Inhaltsfragmente;Fragmente;CF;cf;Headless;Personalisierung;Experimentierung
 description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL Inhaltsfragmente] in  [!DNL Adobe Target] -Aktivitäten verwenden.
-title: Wie verwende ich [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager]  (AEM)?
+title: Wie verwende ich [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager] (AEM)?
 badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,24 +18,24 @@ Verwenden Sie [!UICONTROL Inhaltsfragmente], die in [!DNL Adobe Experience Manag
 
 >[!NOTE]
 >
->Diese Funktion ist als Vorabversion-Funktion am 12. April 2023 verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmente] Verwendung von Entwicklungs- und Staging-Umgebungen, jedoch nicht in Produktionsumgebungen.
+>Diese Funktion ist als Vorabversion-Funktion am 12. April 2023 verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmenten] in Entwicklungs- und Staging-Umgebungen experimentieren, jedoch nicht in Produktionsumgebungen.
 >
->Diese Funktion wird ab dem 26. April 2023 für die allgemein verfügbare Version GA (General Availability) verfügbar sein.
+>Diese Funktion wird mit der Version vom 26. April 2023 allgemein verfügbar.
 
 ## Zu beachten
 
 Beachten Sie Folgendes bei der Arbeit mit AEM-[!UICONTROL Inhaltsfragmenten] in [!DNL Target]:
 
-* Diese Funktion erfordert, dass Sie [!DNL Adobe Experience Manager as a Cloud Service] -Kunden. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
+* Diese Funktion erfordert, dass Sie eine Kundin oder ein Kunde von [!DNL Adobe Experience Manager as a Cloud Service] sind. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
 * [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind für die folgenden Aktivitätstypen verfügbar:
 
    * [[!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Automatische Zuordnung]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Erlebnis-Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] für die folgenden Aktivitätstypen nicht verfügbar sind:
+* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind nicht verfügbar für die folgenden Aktivitätstypen:
 
    * [[!UICONTROL Multivariate Tests] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
@@ -46,7 +46,7 @@ Weitere Informationen zu [!UICONTROL Inhaltsfragmenten] und [!UICONTROL Experien
 
 ## Voraussetzungen  {#requirements}
 
-Sie müssen über die Funktionen für [!UICONTROL Inhaltsfragmente] in [!DNL Target] verfügen. Darüber hinaus müssen Sie [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Ihre Kundenkontaktperson kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
+Sie müssen über die Funktionen für [!UICONTROL Inhaltsfragmente] in [!DNL Target] verfügen. Darüber hinaus müssen Sie [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=de) verwenden.{target=_blank} Ihre Kundenkontaktperson kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
 Wenden Sie sich an die [Adobe Target-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), um die Integration zu aktivieren und Details zur Authentifizierung zu erhalten.
 
@@ -78,7 +78,7 @@ Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target]-Aktivitäten aufn
 >
 >Verwenden von künstlicher Intelligenz, maschinellem Lernen und Recommendations mit [!UICONTROL Inhaltsfragmenten]:
 >
->* So verwenden Sie die [!DNL Target] KI- und ML-Funktionen können Sie [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) beim Erstellen einer [!UICONTROL A/B-Test] Aktivität.
+>* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim Erstellen einer [!UICONTROL A/B-Test]-Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) auswählen.
 >
 >* [!UICONTROL Inhaltsfragmente] werden in [!DNL Recommendations]-Aktivitäten nicht unterstützt. Um [!UICONTROL Inhaltsfragmente] für Recommendations nutzen zu können, können Sie eine [!UICONTROL A/B-Test]-Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder eine [!UICONTROL Erlebnis-Targeting] (XT)-Aktivität erstellen und [Recommendations als Angebote einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

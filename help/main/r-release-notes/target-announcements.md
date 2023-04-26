@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -54,7 +54,7 @@ Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!
 * **9:00 bis 10:00 Uhr (BST, GMT +1), 10:00 bis 11:00 Uhr. (CEST, GMT +2)**
 * **[Informationen zur Registrierung](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Überlegen Sie die Kunden mit [!DNL Adobe Target]die leistungsstarken Test- und Personalisierungsfunktionen. Stellen Sie sicher, dass Sie überall beim Kunden sind, indem Sie dynamisch kontextbezogene Erlebnisse für das Web, mobile und digitale Geräte anbieten.
+Bleiben Sie den Kundinnen und Kunden mit den leistungsstarken Test- und Personalisierungsfunktionen von [!DNL Adobe Target] einen Schritt voraus. Stellen Sie sicher, dass Sie überall dort sind, wo die Kundin oder der Kunde ist, indem Sie dynamisch kontextbezogene Erlebnisse für das Web, mobile und digitale Geräte anbieten.
 
 +++Details
 
@@ -62,12 +62,12 @@ Das Webinar wird sich mit folgenden Themen befassen:
 
 * Warum Personalisierung ein wichtiger Bestandteil jeder Strategie ist
 * Identifizieren und Verwenden verschiedener Aktivitätstypen
-* Spotlight - Anwendungsfälle für die Branche
-* Recommendations zur Personalisierung
-* Demo der [!DNL Target] Benutzeroberfläche, Hervorhebung
-   * Erstellung einer Audience
-   * Einrichtung [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten
-   * Einrichtung [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatisierte Personalisierung] activities
+* Spotlight – Anwendungsfälle für die Branche
+* Recommendations zur Förderung von Personalisierung
+* Demo der [!DNL Target]-Benutzeroberfläche, Hervorhebung
+   * Erstellung einer Zielgruppe
+   * Einrichten von Aktivitäten für [!UICONTROL Experience Targeting] (XT)
+   * Einrichten von Aktivitäten für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatisierte Personalisierung]
 
 +++
 

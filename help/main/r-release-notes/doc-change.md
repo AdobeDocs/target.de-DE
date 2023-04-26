@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## [!DNL Target] Standard/Premium 23.4.1 (25.-27. April 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25. bis 27. April 2023)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
@@ -27,11 +27,11 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 19. April | [Location Contribution-Bericht (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Die Informationen in der Notiz wurden aktualisiert. |
-| 13. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target] Standard/Premium Version 23.4.1 (25.-27. April 2023). |
+| 13. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zu [!DNL Target] Standard/Premium-Version 23.4.1 (25. bis 27. April 2023) hinzugefügt. |
 | 12. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurde ein Link zur Registrierung für das folgende Webinar hinzugefügt:<ul><li>Stellen Sie jedes Mal personalisierte Kundenerlebnisse bereit!</li></ul> |
 |  | [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Ich sehe ein oder mehrere Attribute, die das Modell nicht für das Training verwenden soll. Kann ich diese Attribute aus dem Trainings-Modell entfernen?</li></ul> |
-|  | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt?</li></ul> |
-|  | [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Neues Thema Beachten Sie, dass sich diese Funktion zu Testzwecken im Status &quot;Vorabversion&quot;befindet. |
+|  | [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Was passiert, wenn eine Benutzerin oder ein Benutzer über mehrere Rollen und Berechtigungen verfügt?</li></ul> |
+|  | [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Neues Thema Beachten Sie, dass sich diese Funktion zu Testzwecken im Status „Vorabversion“ befindet. |
 | 5. April | [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Es wurde Text hinzugefügt, der angibt, dass [!UICONTROL Analytics als Berichtsquelle] (A4T) nicht in Aktivitäten unterstützt wird, die Angebotsentscheidungen verwenden. |
 | 3. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause der [!UICONTROL Adobe Target-Community] am Mittwoch, 12. April 2023 hinzugefügt. |
 |  | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Es wurde ein Hinweis zur Zulassungsliste aller [!DNL Adobe Analytics]-IP-Adressblöcke hinzugefügt. |
