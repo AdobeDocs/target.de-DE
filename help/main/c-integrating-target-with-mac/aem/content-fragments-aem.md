@@ -2,12 +2,11 @@
 keywords: Erlebnis;JSON;AEM;Adobe Experience Manager;in Adobe Target exportieren;Inhaltsfragmente;Fragmente;CF;cf;Headless;Personalisierung;Experimentierung
 description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL Inhaltsfragmente] in  [!DNL Adobe Target] -Aktivitäten verwenden.
 title: Wie verwende ich [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager] (AEM)?
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -15,12 +14,6 @@ ht-degree: 100%
 # AEM-[!UICONTROL Inhaltsfragmente]
 
 Verwenden Sie [!UICONTROL Inhaltsfragmente], die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target]-Aktivitäten, um eine bessere Headless-Personalisierung und -Experimentierung zu ermöglichen.
-
->[!NOTE]
->
->Diese Funktion ist als Vorabversion-Funktion am 12. April 2023 verfügbar. Als Vorabversion-Funktion können Sie mit [!UICONTROL Inhaltsfragmenten] in Entwicklungs- und Staging-Umgebungen experimentieren, jedoch nicht in Produktionsumgebungen.
->
->Diese Funktion wird mit der Version vom 26. April 2023 allgemein verfügbar.
 
 ## Zu beachten
 
