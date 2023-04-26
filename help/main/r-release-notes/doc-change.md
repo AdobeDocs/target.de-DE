@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
 workflow-type: tm+mt
-source-wordcount: '2600'
-ht-degree: 92%
+source-wordcount: '2612'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | --- | --- | --- |
 | 26. April | [Übersicht über [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | Die [!UICONTROL AEM Inhaltsfragmente] Funktion ist jetzt für alle verfügbar [!DNL Target customers]. |
 |  | [[!UICONTROL AEM-Inhaltsfragmente]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Die [!UICONTROL AEM Inhaltsfragmente] Funktion ist jetzt für alle verfügbar [!DNL Target customers]. |
-|  | [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target-Entwicklerhandbuch* wurde nach *Adobe Experience League*. Der Umstieg auf *Experience League* hilft bei der Lokalisierung von Text in zusätzliche Sprachen, vereinheitlicht die Suche in *Experience League* , um Suchergebnisse aus beiden Handbüchern bereitzustellen und zusätzliche Vorteile zu bieten.<P>Umleitungen vom vorherigen Speicherort werden in den nächsten Tagen implementiert. Bitte aktualisieren Sie Ihre Lesezeichen. |
+|  | [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Die *Adobe Target-Entwicklerhandbuch* wurde nach *[!UICONTROL Adobe Experience League]*. Der Umstieg auf *[!UICONTROL Experience League]* unterstützt die Lokalisierung von Text in zusätzlichen Sprachen, vereinheitlicht die Suche in *Experience League* um Suchergebnisse für *[!UICONTROL Handbuch für Adobe Target Business Practices]* und *[!UICONTROL Adobe Target-Entwicklerhandbuch]* und bietet zusätzliche Vorteile.<P>Sie werden vom vorherigen Speicherort zu *[!UICONTROL Experience League]* automatisch. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
 | 24. April | [[!DNL Adobe Target] Ankündigungen und Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu den folgenden Fragen und Antworten zur Adobe Target Community-Kaffeepause hinzugefügt:<ul><li>Optimierung und Personalisierung von mobilen Erlebnissen für authentifizierte Umgebungen</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.4.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
