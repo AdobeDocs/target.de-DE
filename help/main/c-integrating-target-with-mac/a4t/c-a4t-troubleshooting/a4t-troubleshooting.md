@@ -5,9 +5,9 @@ title: Fehlerbehebung bei der Analytics- und  [!DNL Target] -Integration (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Wenn Sie die Zeile „Unspecified“ mit der Dimension „Analytics for Target�
 
 >[!NOTE]
 >
->Manchmal werden Daten korrekt in Berichten angezeigt, dann aber wieder &quot;nicht angegeben&quot;, da eine neue Aktivität hinzugefügt wurde, deren Classification noch nicht abgeschlossen wurde. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
+>Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „Unspezifiziert“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Klassifizierung noch nicht abgeschlossen ist. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
 
@@ -43,11 +43,11 @@ Wenn Sie die Zeile „Unspecified“ mit der Dimension „Analytics for Target�
 
 Abhängig von der Metrik, mit der Sie Ihre Daten anzeigen, kann Ihr Bericht eine Ereigniszeile aufweisen, in der „[!UICONTROL Unspecified]“ angezeigt wird.
 
-In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target]-spezifisch ist (z. B. [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Unique Visitors]). In diesem Fall wird die [!UICONTROL &quot;Nicht angegeben&quot;] -Zeile enthält alle [!UICONTROL Seitenansichten], [!UICONTROL Besuche]und [!UICONTROL Unique Visitors] , die nicht mit [!DNL Target] Aktivitäten.
+In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target]-spezifisch ist (z. B. [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Unique Visitors]). In diesem Fall beinhaltet die Zeile [!UICONTROL „Unspezifiziert“] alle [!UICONTROL Seitenansichten], [!UICONTROL Besuche] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target]-Aktivitäten verbunden sind.
 
-Diese Zeile hat keine [!DNL Target]-zugehörige Informationen (z. B. keine Besucher, Besuche oder Impressionen). Weitere Informationen finden Sie unter [&quot;Nicht angegeben&quot;, &quot;Keine&quot;, &quot;Sonstige&quot;und &quot;Unbekannt&quot;in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) im *Technische Hinweise zu Analytics*.
+Diese Zeile enthält dann keine [!DNL Target]-zugehörigen Informationen (z. B. keine Besuchende, Besuche oder Impressionen). Weitere Informationen finden Sie unter [„Unspezifiziert“, „Keine“, „Andere“ und „Nicht bekannt“ in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) in den *Technotes zu Analytics*.
 
-Wenn Sie eine [!DNL Target]-spezifische Metrik im Bericht, dass [!UICONTROL &quot;Nicht angegeben&quot;] Zeile wird nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
+Wenn Sie im Bericht eine [!DNL Target]-spezifische Metrik auswählen, wird diese [!UICONTROL „Unspezifiziert“]-Zeile nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
 
 ## Die geschätzte Steigerung der Umsatzmetriken zeigt keine korrekten Daten. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
