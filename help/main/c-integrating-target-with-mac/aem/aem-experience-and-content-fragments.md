@@ -1,19 +1,19 @@
 ---
 keywords: AEM;Experience Manager;Adobe Experience Manager;integrieren;Integration;Experience Fragments;Inhaltsfragmente
 description: Erfahren Sie, wie Sie Experience Fragments und Inhaltsfragmente aus  [!DNL Adobe Experience Manager]  in  [!DNL Adobe Target] -Aktivitäten verwenden.
-title: Wie verwende ich [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager]  (AEM)?
+title: Wie verwende ich [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus  [!DNL Adobe Experience Manager] (AEM)?
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
-workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # Übersicht über [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus AEM
 
-Verwendung [!UICONTROL Experience Fragments] (XFs) und [!UICONTROL Inhaltsfragmente] (CFs) erstellt in [!DNL Adobe Experience Manager] AEM [!DNL Target] Aktivitäten zur Optimierung und Personalisierung.
+Verwenden Sie [!UICONTROL Experience Fragments] (XFs) und [!UICONTROL Inhaltsfragmente] (CFs), die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target]-Aktivitäten zur Optimierung und Personalisierung.
 
 Durch die Verwendung von in [!DNL AEM] erstellten [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmenten] in [!DNL Target]-Aktivitäten können Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von [!DNL AEM] mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target] kombinieren, um Erlebnisse in großem Umfang zu testen und zu personalisieren.
 
@@ -33,18 +33,18 @@ Beachten Sie bei der Arbeit mit [!UICONTROL Experience Fragments] und [!UICONTRO
    * [[!UICONTROL Automatische Zuordnung]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Erlebnis-Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] für die folgenden Aktivitätstypen nicht verfügbar sind:
+* [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind nicht verfügbar für die folgenden Aktivitätstypen:
 
    * [[!UICONTROL Multivariate Tests] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten, die [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md).
+* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) oder dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten verwenden.
 * Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target]-Aktivitäten aufnehmen, die den [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) verwenden.
 
 ## Was ist der Unterschied zwischen [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmenten]?
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] können auf der Oberfläche ähnlich aussehen, aber jeder Fragmenttyp spielt Schlüsselrollen in unterschiedlichen Anwendungsfällen.
 
-Weitere Informationen zum [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind ähnlich, unterscheiden sich, und wann und wie die einzelnen Ansichten verwendet werden [Grundlegendes [!UICONTROL Inhaltsfragmente] und [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=de){target=_blank} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=de){target=_blank}.
+Weitere Informationen dazu, wo [!UICONTROL Inhaltsfragmente] und [!UICONTROL Experience Fragments] sich ähnlich sind und wo sie sich unterscheiden sowie dazu, wann und wie welcher Typ verwendet wird, finden Sie unter [Grundlegendes zu [!UICONTROL Inhaltsfragmenten] und [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=de){target=_blank} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=de){target=_blank}.
