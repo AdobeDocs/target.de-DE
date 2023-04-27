@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '2152'
-ht-degree: 90%
+source-wordcount: '1843'
+ht-degree: 100%
 
 ---
 
@@ -21,55 +21,11 @@ Gartner hat [!DNL Adobe Target] im neuesten Magic Quadrant für Personalisierung
 
 Weitere Informationen finden Sie im [Adobe Experience Cloud-Blogpost](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!UICONTROL Adobe Target Community] Fragen und Antworten zur Kaffeepause: Optimierung und Personalisierung von mobilen Erlebnissen für authentifizierte Umgebungen
-
-* **Mittwoch, 26. April 2023**
-* **13:00 Uhr (EDT, UTC-4)**
-* **[Informationen zur Registrierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
-
-Mitglied werden [!DNL Adobe Target] Marketing-Manager Brent Kostak erläutert, wie [!DNL Target] und [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) kann die Interaktion, den Umsatz und die Kundentreue in regulierten Branchen steigern.
-
-+++Details
-
-Marken müssen auf der Grundlage spezifischer Kundenanforderungen und Verhaltensweisen hochgradig personalisierte und relevante Erlebnisse bereitstellen. Mit Fragen zur Zukunft ohne Cookies in der Marketing-Technologie streben regulierte Branchen ein robusteres Framework für die Kundeninteraktion an und optimieren dabei jede Kundeninteraktion für die richtigen Inhalte und Angebote.
-
-Wie können Marken aus den Bereichen Finanzdienstleistungen, Versicherungen, Einzelhandel, Reisen und Gastgewerbe sowie Telekommunikation Best Practices zur Optimierung und Personalisierung in authentifizierten Umgebungen anwenden? Wie können Marken digitale Selbstbedienung ermöglichen oder die Akzeptanz neuer Funktionen durch personalisierte Erlebnisse steigern, um die Bedeutung von Apps für die Interaktion und Kundenbindung zu verstehen?
-
-In dieser Sitzung erfahren Sie, wie Sie [!DNL Target] und [!DNL Real-Time Customer Data Platform] können bei der Diskussion über folgende Themen die Interaktion, den Umsatz und die Kundentreue in regulierten Branchen fördern:
-
-* Wie Teams sowohl anonymen als auch authentifizierten Besuchern personalisierte Erlebnisse bereitstellen
-* Grundlegendes zu Verbraucherberechtigungen und Datenschutzstandards mit Personalisierung
-* Personalisierte Inhalte und Angebote für authentifizierte Besucher durch Anonymisierung von Identitäten
-* Eindeutige Anwendungsfälle für authentifizierte, sichere Websites im Web und auf Mobilgeräten
-
-+++
-
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
-### Stellen Sie jedes Mal personalisierte Kundenerlebnisse bereit!
-
-* **Donnerstag, 27. April 2023**
-* **9:00 bis 10:00 Uhr (BST, GMT +1), 10:00 bis 11:00 Uhr. (CEST, GMT +2)**
-* **[Informationen zur Registrierung](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
-
-Bleiben Sie den Kundinnen und Kunden mit den leistungsstarken Test- und Personalisierungsfunktionen von [!DNL Adobe Target] einen Schritt voraus. Stellen Sie sicher, dass Sie überall dort sind, wo die Kundin oder der Kunde ist, indem Sie dynamisch kontextbezogene Erlebnisse für das Web, mobile und digitale Geräte anbieten.
-
-+++Details
-
-Das Webinar wird sich mit folgenden Themen befassen:
-
-* Warum Personalisierung ein wichtiger Bestandteil jeder Strategie ist
-* Identifizieren und Verwenden verschiedener Aktivitätstypen
-* Spotlight – Anwendungsfälle für die Branche
-* Recommendations zur Förderung von Personalisierung
-* Demo der [!DNL Target]-Benutzeroberfläche, Hervorhebung
-   * Erstellung einer Zielgruppe
-   * Einrichten von Aktivitäten für [!UICONTROL Experience Targeting] (XT)
-   * Einrichten von Aktivitäten für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automatisierte Personalisierung]
-
-+++
+Keine geplant zu diesem Zeitpunkt.
 
 ## Aufzeichnungen früherer Webinare und Schulungen
 
