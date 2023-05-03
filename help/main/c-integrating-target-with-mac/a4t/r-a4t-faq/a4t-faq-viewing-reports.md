@@ -4,9 +4,9 @@ description: Antworten auf häufig zur Anzeige von Berichten bei der Verwendung 
 title: Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2714'
 ht-degree: 29%
 
 ---
@@ -70,7 +70,7 @@ Beachten Sie Folgendes:
 * Der obige Metriken-Trigger, wenn ein Benutzer sich für eine Aktivität qualifiziert und Inhalte von zurückgegeben werden [!DNL Target]. Das bedeutet nicht zwingend, dass der Benutzer das Angebot gesehen hat. Wenn ein Aktivitätserlebnis sich unterhalb des angezeigten Bildschirmbereichs befindet und der Benutzer nicht nach unten scrollt, wurde das Angebot zwar von [!DNL Target] bereitgestellt, aber nicht vom Benutzer gesehen.
 * [!UICONTROL Aktivitätsimpressionen] (gemessen durch [!DNL Target]) und [!UICONTROL Instanzen] (gemessen durch [!DNL Analytics]) sind gleich, sofern nicht mehrere Mbox-Aufrufe auf derselben Seite in derselben Aktivität vorhanden sind. Hierdurch werden mehrere [!UICONTROL Aktivitätsimpressionen] gezählt, aber nur eine [!UICONTROL Instanz].
 
-Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
+Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis Workspace für Aktivitäten mit automatischem Targeting](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de) in *Adobe Target Tutorials*.
 
 +++
 
@@ -154,7 +154,7 @@ Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://expe
 
 ## Warum? [!DNL Analytics] und [!UICONTROL Analytics für Adobe Target] (A4T) Berechnen Sie die Zahlen für die [!UICONTROL Unique Visitors] Metrik anders? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++Antwort Wenn Sie einen A/B-Test ausführen, bei dem die [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (die Konfidenzmetrik), um einen Gewinner eines Tests zu wählen, besteht eine der Annahmen darin, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie sich diese feste Stichprobengröße ansehen.
++++Antwort Wenn Sie einen A/B-Test ausführen, bei dem die [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (Konfidenzmetrik), um einen Gewinner eines Tests zu wählen, besteht eine der Annahmen darin, dass es einen festen Zeithorizont gibt. Der Test ist nur dann statistisch gültig, wenn Sie sich diese feste Stichprobengröße ansehen.
 
 Die [!UICONTROL Unique Visitors] Metrik unterscheidet sich in [!DNL Analytics] und [!DNL Target] nur, wenn Sie sich einen Zeitraum ansehen, der kürzer als der eigentliche Test ist. Wenn Sie Ihre Stichprobengröße nicht erreicht haben, ist der Test nicht so zuverlässig. Weitere Informationen finden Sie unter [How Not to Run an A/B-Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) auf der [Website von Evan Miller](https://www.evanmiller.org/index.html).
 
@@ -198,5 +198,19 @@ Beachten Sie Folgendes bei der Anzeige [!DNL Analytics] Berichte:
 * Wenn eine Konversion außerhalb des Berichtsfensters erfolgt, ist die Konversion nicht sichtbar in [!DNL Analytics].
 * Wenn im &quot;zielgerichteten&quot;Teil des Traffics für [!UICONTROL Automatisches Targeting] -Aktivitäten können Besuchern von einer Sitzung zur nächsten unterschiedliche Erlebnisse angezeigt werden. Wenn sich beispielsweise das Profil oder der Kontext geändert hat und [!DNL Target]Die Algorithmen des maschinellen Lernens entscheiden, dass sie mit höherer Wahrscheinlichkeit ein neues Erlebnis konvertieren. Wenn Besucher von Erlebnis zu Erlebnis wechseln, wird die Besuchsanzahl für jedes angezeigte Erlebnis erhöht. Dies ist im Gegensatz zu normalen A/B-Test-Aktivitäten, bei denen Erlebnisse besuchsübergreifend für einen Besucher gebunden sind.
 * Wenn einem Besucher besuchsübergreifend mehrere Erlebnisse angezeigt werden, wird jede Konversion immer dem letzten Erlebnis zugeordnet, das der Besucher gesehen hat. Wie bereits erwähnt, wird die Besuchsanzahl für jedes Erlebnis erhöht, das der Besucher gesehen hat. Dadurch können die Konversionsraten pro Erlebnis künstlich gedrückt werden, wenn Erlebnisse unter dem[!UICONTROL Targeting]&quot;Dimension in [!DNL Adobe Analytics] Berichte.
+
++++
+
+## Wie kann ich Aktivitätsimpressionen verfolgen in [!DNL Analysis Workspace] bei Verwendung [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+
++++Antwort
+
+So zeigen Sie Aktivitätsimpressionen in [!DNL Analysis Workspace]:
+
+1. Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL In Analytics anzeigen]**.
+1. Fügen Sie die **[!UICONTROL Aktivitätsimpressionen]** -Spalte [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} Bericht.
+1. Im **[!UICONTROL Aktivitätsimpressionen]** klicken Sie auf die [!UICONTROL Fanggerät] Symbol.
+1. Klicken **[!UICONTROL Nicht standardmäßiges Attributionsmodell verwenden]**.
+1. Auswählen **[!UICONTROL Gleiches Touchmodell]** > **[!UICONTROL Anwenden]**.
 
 +++
