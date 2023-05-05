@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,14 +31,14 @@ Diese Version enthält Sicherheitsaktualisierungen und die folgenden neuen Funkt
 |--- |--- |
 | AEM-[!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM-[!UICONTROL Inhaltsfragment]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 | Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**NOTE**: Diese Funktion ist ab 9. Mai 2023 für alle Kunden verfügbar. |
-| [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Die *Adobe Target-Entwicklerhandbuch* wurde nach *[!UICONTROL Adobe Experience League]*. Der Umstieg auf *[!UICONTROL Experience League]* unterstützt die Lokalisierung von Text in zusätzlichen Sprachen, vereinheitlicht die Suche in *Experience League* , um Suchergebnisse aus beiden *[!UICONTROL Handbuch für Adobe Target Business Practices]* und *[!UICONTROL Adobe Target-Entwicklerhandbuch]* und bietet zusätzliche Vorteile.<P>Sie werden vom vorherigen Speicherort zu *[!UICONTROL Experience League]* automatisch. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
+| [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} | Die *Adobe Target-Entwicklerhandbuch* wurde nach *[!UICONTROL Adobe Experience League]*. Der Umstieg auf *[!UICONTROL Experience League]* unterstützt die Lokalisierung von Text in zusätzlichen Sprachen, vereinheitlicht die Suche in *Experience League* , um Suchergebnisse aus beiden *[!UICONTROL Handbuch für Adobe Target Business Practices]* und *[!UICONTROL Adobe Target-Entwicklerhandbuch]* und bietet zusätzliche Vorteile.<P>Sie werden vom vorherigen Speicherort zu *[!UICONTROL Experience League]* automatisch. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
 | Ressource | Details |
 |--- |--- |
 | [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen des Platform Web SDK. |
-| [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
+| [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
