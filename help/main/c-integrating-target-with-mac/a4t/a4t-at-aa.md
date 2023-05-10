@@ -1,13 +1,13 @@
 ---
-keywords: a4t; A4T; Analytics als Berichtsquelle für Target
+keywords: a4t; A4T; Analytics als Berichtsquelle für Target; Analytics für Target
 description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten in [!DNL Target] , die [!DNL Analytics] als Berichtsquelle (A4T).
 title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 8%
+source-wordcount: '1268'
+ht-degree: 7%
 
 ---
 
@@ -17,8 +17,8 @@ Die [!DNL Adobe Target]-to-[!DNL Adobe Analytics] Integration, auch bekannt als 
 
 Die A4T-Integration ermöglicht Ihnen Folgendes:
 
-* Verwendung [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Multi-Armed Bandit-Funktion von , um Traffic zu erfolgreichsten Erlebnissen zu führen.
-* Verwendung [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)den maschinellen Lernalgorithmus von , um ein bestes Erlebnis für jeden Besucher auszuwählen. [!UICONTROL Automatisches Targeting] wählt bei Verwendung eines [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]&quot; umfassende Berichterstellungs- und Analysefunktionen.
+* Verwenden Sie die [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) Multi-Armed Bandit-Funktion, um Traffic zu erfolgreichsten Erlebnissen zu führen.
+* Verwenden Sie die [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) den Algorithmus für maschinelles Lernen zur Auswahl eines besten Erlebnisses für jeden Besucher. [!UICONTROL Automatisches Targeting] wählt bei Verwendung eines [!DNL Adobe Analytics] Zielmetrik und [!DNL Adobe Analytics]&quot; umfassende Berichterstellungs- und Analysefunktionen.
 
 Stellen Sie sicher, dass [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Wenn Sie `analyticsLogging = client_side`, müssen Sie auch die `sessionId` Wert zu [!DNL Analytics]. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} im *Adobe Target SDKs* Handbuch.
 
@@ -110,7 +110,7 @@ Einige Einschränkungen und Hinweise gelten für beide [!UICONTROL Automatische 
 
 * **Häufigkeit der Schulungen**: [!UICONTROL Automatische Zuordnung] Modelle werden wie gewohnt jede Stunde trainiert.
 * **Attributionsmodelle**: [!DNL Target] verwendet die [!DNL Adobe Analytics] Standardattributionsmodell für[!UICONTROL  Automatische Zuordnung] Aktivitäten, die A4T verwenden.
-* **Konfidenz**: Die von [!UICONTROL Automatische Zuordnung] Aktivitäten unterscheidet sich von der Formel, die standardmäßig in [!DNL Adobe Analytics] [!UICONTROL A4T] Bereich. [Wie hier beschrieben](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Automatische Zuordnung] verwendet konservativere Konfidenzintervalle als normale [!UICONTROL A/B-Test] Aktivitäten. Diese konservativen Konfidenzniveaus kompensieren wiederholte Auswertungen (Peeks) bei Daten. Daher wird der Standardbericht in [!DNL Adobe Analytics] zeigt im Vergleich zu den von der [!UICONTROL Automatische Zuordnung] -Algorithmus. Sie können jedoch bestimmen, welches Erlebnis von den Algorithmen bevorzugt wird, basierend darauf, welches Erlebnis mehr Unique Visitors an das Erlebnis sendet.
+* **Konfidenz**: Die von [!UICONTROL Automatische Zuordnung] -Aktivitäten unterscheidet sich von der Formel, die standardmäßig in der Variablen [!DNL Adobe Analytics] [!UICONTROL A4T] Bereich. [Wie hier beschrieben](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Automatische Zuordnung] verwendet konservativere Konfidenzintervalle als normale [!UICONTROL A/B-Test] Aktivitäten. Diese konservativen Konfidenzniveaus kompensieren wiederholte Auswertungen (Peeks) bei Daten. Daher wird der Standardbericht in [!DNL Adobe Analytics] zeigt im Vergleich zu den von der [!UICONTROL Automatische Zuordnung] -Algorithmus. Sie können jedoch bestimmen, welches Erlebnis von den Algorithmen bevorzugt wird, basierend darauf, welches Erlebnis mehr Unique Visitors an das Erlebnis sendet.
 * **Gewinnerstatus**: Derzeit wird die [Abzeichen &quot;Noch kein Gewinner&quot;und &quot;Gewinner&quot;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) sind nicht verfügbar in der [!UICONTROL A4T] Bedienfeld in [!DNL Analysis Workspace]. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target]. Das Zeichen &quot;Stern&quot;des Gewinners wird in einer [!DNL Target] für einen [!UICONTROL Automatische Zuordnung] -Aktivität, die A4T verwendet, sollte ignoriert werden. Dieses Zeichen spiegelt reguläre Konfidenzberechnungen wider und nicht die von [!UICONTROL Automatische Zuordnung].
 
 ### Automatisches Targeting {#at}
