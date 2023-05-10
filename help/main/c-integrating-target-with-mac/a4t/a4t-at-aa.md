@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UIC
 title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # A4T-Unterstützung für Aktivitäten der [!UICONTROL automatischen Zuordnung] und des [!UICONTROL automatischen Targetings]
 
-Die [!DNL Adobe Target]-to-[!DNL Adobe Analytics] Integration, auch bekannt als [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) unterstützt [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
+Die [!DNL Adobe Target]-to-[!DNL Adobe Analytics] Integration, auch bekannt als [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), unterstützt [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten.
 
 Die A4T-Integration ermöglicht Ihnen Folgendes:
 
