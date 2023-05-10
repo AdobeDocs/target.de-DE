@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie [!UICONTROL Automatische Zuordnung] und [!UIC
 title: Unterstützt A4T [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] Aktivitäten?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Stellen Sie sicher, dass Sie [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targ
 
 Erster Schritt:
 
-1. Beim Erstellen einer [!UICONTROL A/B-Test] -Aktivität auf der **[!UICONTROL Targeting]** eine der folgenden Optionen als **[!UICONTROL Traffic-Zuordnungsmethode]**:
+1. while [Erstellen einer [!UICONTROL A/B-Test] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)auf **[!UICONTROL Targeting]** eine der folgenden Optionen als **[!UICONTROL Traffic-Zuordnungsmethode]**:
 
    * [!UICONTROL Automatisch dem besten Erlebnis zuweisen]
    * [!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]
