@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 4. Mai | [Konfigurieren der Authentifizierung für Adobe Target-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Es wurde ein Hinweis hinzugefügt, der erklärt, dass von einer JWT-Berechtigung zu einer OAuth-Server-zu-Server-Berechtigung migriert werden muss. |
 | 3. Mai | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie kann ich Aktivitätsimpressionen bei Verwendung von [!UICONTROL Analytics for Target] (A4T) in [!DNL Analysis Workspace] nachverfolgen?</li></ul> |
 |  | [Profilattribute](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Es wurden zusätzliche Informationen zur Zeile „landing.URL“ hinzugefügt. |
 | 26. April | [Übersicht über [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | Die Funktion [!UICONTROL AEM-Inhaltsfragmente] ist jetzt für alle [!DNL Target customers] verfügbar. |
