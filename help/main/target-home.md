@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Zusätzlich zu diesem Handbuch gilt Folgendes [!DNL Adobe Target] Es stehen auch Handbücher zur Verfügung:
+>Zusätzlich zu diesem Handbuch sind auch die folgenden [!DNL Adobe Target]-Handbücher verfügbar:
 >
 >- [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}
 >
