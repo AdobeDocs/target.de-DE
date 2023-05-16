@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 98%
+source-wordcount: '2466'
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 | `page.query` | Die Abfragezeichenfolge für die aktuelle Seite. Alles nach dem „?“. Zum Beispiel `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small` |
 | `page.param('<par_name>')` | Der durch `<par_name>` angegebene Wert des Parameters. Wenn Ihre aktuelle URL die Google-Suchseite ist und Sie `page.param('hl')` eingegeben hatten, erhalten Sie „en“ für die URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Dieselben Schritte wie oben gelten für Referrer und Landingpage (d. h. referrer.url ist die URL-Adresse des Referrers). |
-| `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage.<P>Damit die Landingpage-URL erwartungsgemäß funktioniert, legen Sie die `context` > `browser` > `host`.<P>Außerdem können Sie die verweisende URL nicht beim ersten Aufruf der Sitzung haben. Stellen Sie bei nachfolgenden Aufrufen sicher, dass `referringURL` ist wirklich die vorherige URL, die der Benutzer in der aktuellen Sitzung besucht hat.<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query`, und `landing.param` | Ähnlich wie die Seite, aber für die Landingpage.<P>Damit die Landingpage-URL erwartungsgemäß funktioniert, legen Sie `context` > `browser` > `host` fest. |
 | `mbox.name` | Der Name der aktiven Mbox. |
 | `mbox.param('<par_name>')` | Ein mbox-Parameter nach dem angegebenen Namen in der aktiven Mbox. |
 | `profile.get('<par_name>')` | Der vom Kunden erstellte Benutzerprofilparameter durch den Namen `<par_name>`. Wenn der Benutzende z. B. einen Profilparameter namens „Gender“ festgelegt hat, kann der Wert mit „profile.gender“ extrahiert werden. Gibt den Wert des `profile.<par_name>`-Sets für die aktuelle Besucherin oder den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. Beachten Sie, dass `profile.get(<par_name>)` als Funktionsaufruf qualifiziert ist. |

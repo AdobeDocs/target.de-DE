@@ -5,9 +5,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 54%
 
 ---
@@ -31,7 +31,7 @@ Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beis
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ Nur einzelner Wert.
 
 Dieser erforderliche Parameter identifiziert das Produkt. Diese alphanumerische ID muss für alle [!DNL Adobe Experience Cloud] -Produkte gleich sein, einschließlich [!DNL Analytics], damit die verschiedenen Produkte das Element erkennen und Daten darüber austauschen.
 
-Die `entity.id` Werte müssen *not* enthält Schrägstriche, Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen, die bei der Übergabe in einen REST-API-Aufruf eine URL-Codierung erfordern. Bindestriche und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
+Die `entity.id` Werte müssen *not* enthält Leerzeichen, Schrägstriche, Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen, die bei der Übergabe in einem REST-API-Aufruf eine URL-Codierung erfordern. Bindestriche und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
 
 Beispiel: `'entity.id=67833'`
 
