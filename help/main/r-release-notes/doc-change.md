@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2749'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 17. Mai | [[!DNL Adobe Target] Ankündigungen und Ereignis](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zum [!UICONTROL Adobe Target Community] Q&amp;A-Kaffeepause am Mittwoch, 24. Mai 2023. |
 | 16. Mai | [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md) | Gibt an, dass &quot;Leerzeichen&quot;in `entity.id` -Werte. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Aktualisiert `viewsEnabled` Beschreibung. |
 |  | [Implementieren von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Folgende Aktualisierungen wurden vorgenommen:<ul><li>Es wurde ein Hinweis nach Schritt 2 unter &quot;Implementieren von Adobe Target-Ansichten&quot;hinzugefügt.</li><li>Schritt 2 &quot;Target-Anfrage ausführen&quot;unter &quot;Reihenfolge der Vorgänge beim ersten Laden der Seite&quot;wurde aktualisiert.</li></ul> |
