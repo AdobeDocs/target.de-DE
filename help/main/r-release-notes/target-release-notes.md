@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 68%
 
 ---
@@ -53,7 +53,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 |--- |--- |
 | [!UICONTROL QA-Modus] für [!UICONTROL Automated Personalization] activities | [!DNL Adobe Target] [!UICONTROL QA-Modus] ist jetzt verfügbar für [!UICONTROL Automated Personalization] Aktivitäten ersetzen [!UICONTROL Links in der Vorschau anzeigen] Funktionalität.<P>Weitere Informationen finden Sie unter [Activitäts-QA.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
 
-* Verbesserte Leistung bei Verwendung der [!UICONTROL Duplikate nicht zulassen] Option während [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] Aktivitäten.
+* Leistungsverbesserungen zur Deaktivierung der Funktion zum Duplizieren (einschließlich Verkürzung der Ladezeit) während der [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] Aktivitäten.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
