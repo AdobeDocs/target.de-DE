@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2759'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 19. Mai | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für bevorstehende Versionen wurden aktualisiert. |
 | 17. Mai | [[!DNL Adobe Target] Ankündigungen und Ereignis](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zum [!UICONTROL Adobe Target Community] Q&amp;A-Kaffeepause am Mittwoch, 24. Mai 2023. |
 | 16. Mai | [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md) | Gibt an, dass &quot;Leerzeichen&quot;in `entity.id` -Werte. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Aktualisiert `viewsEnabled` Beschreibung. |
