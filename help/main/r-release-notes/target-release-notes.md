@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
+source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 68%
+source-wordcount: '519'
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 19. Mai 2023**
+**Letzte Aktualisierung: 22. Mai 2023**
 
 >[!NOTE]
 >
@@ -44,6 +44,10 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungstokens eine leere Seite angezeigt wurde. (TGT-45387)
 * Es wurde ein Problem behoben, das die Anzeige eines Bildes im [!UICONTROL Design erstellen] angezeigt, wenn der Bildname GB 18030 Zeichen enthält. (TGT-44614)
 * Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Automatisierte Personalisierung] Aktivitäten, die während der Analyse eingefroren werden. (TGT-44820)
+* Es wurde ein Fehler behoben, der dazu führte, dass in der Target-Benutzeroberfläche für den Standardarbeitsbereich für bestimmte Kunden keine Aktivitäten angezeigt wurden. (TGT-45286)
+* Das Verhalten der Markierung &quot;Duplikate nicht zulassen&quot;wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
+* Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im Visual Experience Composer (VEC) geladen wurde. (TGT-44873)
+* Es wurde ein Problem behoben, bei dem einige Zeichen in Text/HTML in Erlebnissen fälschlicherweise maskiert wurden. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (noch festzulegendes Datum)
 
