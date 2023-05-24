@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
 source-wordcount: '2839'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -30,10 +30,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 22. Mai | [Integrieren mit [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Die folgenden neuen Videos wurden hinzugefügt:<ul><li>Konfigurieren Sie die [!DNL Adobe Target] Zielort [!DNL Real-Time Customer Data Platform]</li><li>Aktivieren von Segmenten und Profilattributen</li><li>Verwendung [!DNL Real-Time CDP] Segmente in [!DNL Target]</li><li>Verwendung [!DNL Real-Time CDP] Profilattribute in [!DNL Adobe Target]</li></ul> |
 |  | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} | Wichtiger Hinweis wurde aktualisiert. |
 | 19. Mai | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für bevorstehende Versionen wurden aktualisiert. |
-| 17. Mai | [[!DNL Adobe Target] Ankündigungen und Ereignis](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause mit Fragen und Antworten der [!UICONTROL Adobe Target Community] am Mittwoch, 24. Februar 2023, hinzugefügt. |
+| 17. Mai | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Kaffeepause mit Fragen und Antworten der [!UICONTROL Adobe Target Community] am Mittwoch, 24. Februar 2023, hinzugefügt. |
 | 16. Mai | [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md) | Es wurde angegeben, dass „Leerzeichen“ in `entity.id`-Werten nicht zulässig sind. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank} | Die `viewsEnabled`-Beschreibung wurde aktualisiert. |
-|  | [Implementieren von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Folgende Aktualisierungen wurden vorgenommen:<ul><li>Es wurde ein Hinweis nach Schritt 2 unter „Implementieren von Adobe Target-Ansichten“ hinzugefügt.</li><li>Schritt 2: „Target-Anfrage ausführen“ unter „Reihenfolge der Vorgänge beim ersten Laden der Seite“ wurde aktualisiert.</li></ul> |
+|  | [Implementieren von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=de){target=_blank} | Folgende Aktualisierungen wurden vorgenommen:<ul><li>Es wurde ein Hinweis nach Schritt 2 unter „Implementieren von Adobe Target-Ansichten“ hinzugefügt.</li><li>Schritt 2: „Target-Anfrage ausführen“ unter „Reihenfolge der Vorgänge beim ersten Laden der Seite“ wurde aktualisiert.</li></ul> |
 | 4. Mai | [Konfigurieren der Authentifizierung für Adobe Target-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=de){target=_blank} | Es wurde ein Hinweis hinzugefügt, der erklärt, dass von JWT-Anmeldedaten zu OAuth-Server-zu-Server-Anmeldedaten migriert werden muss. |
 | 3. Mai | [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Die folgende häufig gestellte Frage wurde hinzugefügt:<ul><li>Wie kann ich Aktivitätsimpressionen bei Verwendung von [!UICONTROL Analytics for Target] (A4T) in [!DNL Analysis Workspace] nachverfolgen?</li></ul> |
 | 26. April | [Übersicht über [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] aus AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | Die Funktion [!UICONTROL AEM-Inhaltsfragmente] ist jetzt für alle [!DNL Target customers] verfügbar. |
