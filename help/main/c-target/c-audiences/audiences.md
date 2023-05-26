@@ -7,7 +7,7 @@ exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ Die [!UICONTROL Zielgruppen] enth채lt die Zielgruppen, die Sie in Ihren Aktivit�
 
    >[!NOTE]
    >
-   >Die [!DNL Adobe Experience Platform] -Quelle f체r alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
+   >Die [!DNL Adobe Experience Platform] -Quelle f체r alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Benutzer m체ssen [!UICONTROL Genehmiger] oder 체ber dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >
@@ -105,9 +105,9 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform] {#aep}
+## Verwenden von Audiences aus [!DNL Adobe Experience Platform] {#aep}
 
-Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung f체hren.
+Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Audiences liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung f체hren.
 
 Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

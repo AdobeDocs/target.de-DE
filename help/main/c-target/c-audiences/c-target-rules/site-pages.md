@@ -7,7 +7,7 @@ exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -127,7 +127,7 @@ Verwenden Sie:
 
    Wenn dieses Verhalten nicht Ihren Anforderungen entspricht, sollten Sie eine der folgenden Aktionen durchführen:
 
-   * Pass [Mbox-Parameter](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} nach [!DNL Target] für Targeting-Zwecke verwendet werden.
+   * Pass [Mbox-Parameter](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} nach [!DNL Target] für Targeting-Zwecke verwendet werden.
    * Verwenden Sie eine [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md) anstatt einer Landingpage-Aktivität. A/B-Test-Aktivitäten wechseln nicht zwischen Erlebnissen für denselben Besucher.
    * Verwenden Sie eine [Besucherprofil](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) anstatt.
 

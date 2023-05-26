@@ -51,7 +51,7 @@ Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-
 
 ## Lightbox mit Verlassen-Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und zu jedem Web-Asset hinzugefügt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
+Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und auf jeder Web-Präsenz bereitgestellt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
 
 ![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
 

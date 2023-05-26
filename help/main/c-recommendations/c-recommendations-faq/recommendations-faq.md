@@ -95,7 +95,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >

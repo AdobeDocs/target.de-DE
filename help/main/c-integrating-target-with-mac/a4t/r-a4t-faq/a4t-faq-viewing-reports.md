@@ -201,7 +201,7 @@ Beachten Sie Folgendes bei der Anzeige [!DNL Analytics] Berichte:
 
 +++
 
-## Wie kann ich Aktivitätsimpressionen verfolgen in [!DNL Analysis Workspace] bei Verwendung [!UICONTROL Analytics for Target] (A4T)? {#activity-impressions}
+## Wie kann ich Aktivitätsimpressionen bei Verwendung von [!UICONTROL Analytics for Target] (A4T) in [!DNL Analysis Workspace] nachverfolgen? {#activity-impressions}
 
 +++Antwort
 

@@ -259,7 +259,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 
 Häufig gestellte Fragen zu Unternehmensberechtigungen:
 
-### Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt? [#multiple-roles]
+### Was passiert, wenn eine Benutzerin oder ein Benutzer über mehrere Rollen und Berechtigungen verfügt? [#multiple-roles]
 
 Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rolle mit den Berechtigungen des Benutzers angewendet. Wenn ein Benutzer beispielsweise [!UICONTROL Beobachter] und [!UICONTROL Genehmiger] Rollen, [!UICONTROL Genehmiger] Rolle angewendet wird.
 

@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 41%
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ Mit Geo-Positionsparametern können Sie Aktivitäten und Erlebnisse anhand der g
    * [!UICONTROL DMA]
    * [!UICONTROL Mobilnetzbetreiber]
 
-   Die Geoinformationen eines Besuchers werden anhand der ursprünglichen IP-Adresse eines [!DNL Target] Ortsanforderung (Mbox-Anfrage). Die IP-zu-Geo-Auflösung erfolgt für den ersten Aufruf einer neuen Sitzung. Wenn sich also die IP-Adresse eines Besuchers während der Sitzung eines Besuchs ändert, basieren die geografischen Informationen weiterhin auf der IP-Adresse des ersten Aufrufs.
+   Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.
 
    Für [!UICONTROL Mobilnetzbetreiber], [!DNL Target] verwendet die IP-Adressregistrierungsdaten (der Eigentümer des IP-Adressblocks ist), um den geeigneten Mobilnetzbetreiber mithilfe von [Mobile Country Codes (MCC) und Mobile Network Codes (MNC)](https://www.mcc-mnc.com).
 

@@ -25,7 +25,7 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 **Gut zu wissen**: Da es sich bei [!DNL Target] um eine offene und agnostische Plattform handelt, deren Unterstützung für verschiedene Technologien herausragend ist, können Sie CRM- oder erworbene Daten auf viele verschiedene Weisen hinzufügen. Sie können also die Methode wählen, die für Ihre Organisation am besten geeignet ist.
 
-Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
 
 ## Tipp 2: Optimieren Sie die Personalisierung durch Kombination Ihrer [!DNL Target]-Zielgruppen mit anderen Zielgruppen aus Adobe Experience Cloud.
 

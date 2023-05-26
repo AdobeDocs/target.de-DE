@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '36583'
+source-wordcount: '36441'
 ht-degree: 96%
 
 ---
@@ -22,15 +22,6 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2023
-
-### [!DNL Target] Standard/Premium 23.4.1 (25. bis 27. April 2023)
-
-Diese Version enthält Sicherheitsaktualisierungen und die folgenden neuen Funktionen:
-
-| Funktion | Details |
-|--- |--- |
-| AEM-[!UICONTROL Inhaltsfragmente] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!UICONTROL Inhaltsfragmente] aus [!DNL Adobe Experience Manager] (AEM) in [!DNL Target]-Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM-[!UICONTROL Inhaltsfragment]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} | Das *Adobe Target-Entwicklerhandbuch* wurde zu *[!UICONTROL Adobe Experience League]* verlegt. Die Verlegung zu *[!UICONTROL Experience League]* unterstützt die Lokalisierung von Text in zusätzliche Sprachen, vereinheitlicht die Suche in *Experience League*, um Suchergebnisse sowohl aus dem *[!UICONTROL Handbuch für Adobe Target Business Practices]* und als auch dem *[!UICONTROL Adobe Target-Entwicklerhandbuch]* zu beinhalten und anzubieten, und bietet zusätzliche Vorteile.<P>Sie werden vom vorherigen Speicherort automatisch zu *[!UICONTROL Experience League]* weitergeleitet. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28. bis 30. März 2023)
 

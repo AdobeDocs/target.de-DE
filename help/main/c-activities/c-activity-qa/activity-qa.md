@@ -116,7 +116,7 @@ In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und
 | [!UICONTROL Automatische Zuordnung] | Ja | Ja | Ja |
 | [!UICONTROL Automatisches Targeting] | Nein | Nein | Nein |
 | [!UICONTROL Automated Personalization] (AP) | Nein | Nein | Nein |
-| [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja |
+| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
 
@@ -144,7 +144,7 @@ In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und
 | [!UICONTROL Automatische Zuordnung] | Ja | Ja | Ja |
 | [!UICONTROL Automatisches Targeting] | Ja | Ja | Ja |
 | [!UICONTROL Automated Personalization] (AP) | Ja | Ja | Ja |
-| [!UICONTROL Erlebnis-Targeting] (XT) | Ja | Ja | Ja |
+| [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
 

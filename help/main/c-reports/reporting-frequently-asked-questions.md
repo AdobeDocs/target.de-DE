@@ -7,7 +7,7 @@ exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -106,6 +106,6 @@ Ich setze beispielsweise die Traffic-Aufspaltung auf 50/50 oder 25/25/25/25, seh
 * Die Best Practice für A/B- und Multivarianz-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. zwischen 90/10 und 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das niedrigere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufspaltung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
-   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
    * Ist dies ein Umleitungstest? Eine falsche Zeitplanung von Tags, die auf der Seite ausgelöst werden, kann zu ungleichen Traffic-Aufspaltungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target] Aktivität. Weitere Informationen zum Beheben einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

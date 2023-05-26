@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließ
 * **8:00-9:00 Uhr (PT, UTC-7)**
 * **[Informationen zur Registrierung](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Bei uns sein werden Ryan Roberts, Gentry Lin und Ryan Pizzuto vom [!UICONTROL Adobe Target Consulting]-Team und Mihnea Docea vom [!UICONTROL Adobe Technical Support Engineering]-Team, die bei der [Adobe Target Community](https://forums.adobe.com/de/community/experience-cloud/marketing-cloud/target){target=_blank} eingeloggt sein werden, um direkt mit Ihnen in diesem Thread über Ihre [!DNL Adobe Target]-Fragen im Zusammenhang mit dem [!DNL Target] @ [!UICONTROL Adobe Summit] 2023 zu chatten.
+Bei uns sein werden Ryan Roberts, Gentry Lin und Ryan Pizzuto vom [!UICONTROL Adobe Target Consulting]-Team und Mihnea Docea vom [!UICONTROL Adobe Technical Support Engineering]-Team, die bei der [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de){target=_blank} eingeloggt sein werden, um direkt mit Ihnen in diesem Thread über Ihre [!DNL Adobe Target]-Fragen im Zusammenhang mit dem [!DNL Target] @ [!UICONTROL Adobe Summit] 2023 zu chatten.
 
 Sie können sich vorher die [On-Demand-Sitzungsaufzeichnungen des Adobe Target Summit](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} ansehen, um in diesem Chat weiterführende Fragen zu stellen.
 

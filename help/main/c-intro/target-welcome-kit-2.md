@@ -7,7 +7,7 @@ exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2535'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -53,7 +53,7 @@ Viele von Ihnen können [!DNL Target] , um auf Ihren vielen verschiedenen digita
 | Implementierungstyp | Details |
 | --- | --- |
 | Clientseitig | Bei dieser Implementierung von [!DNL Target] stellt [!DNL Target] die mit einer Aktivität verbundenen Erlebnisse direkt auf dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei der clientseitigen Implementierung können Sie einen WYSIWYG-Editor, Visual **[!UICONTROL Experience Composer]** (VEC) oder eine nicht visuelle Schnittstelle, den **[!UICONTROL formularbasierten Experience Composer]**, zur Erstellung Ihrer Tests und Personalisierungserlebnisse verwenden. [Mehr Info](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| Serverseitig | Bei der serverseitigen Implementierung von [!DNL Target] fordert ein Client-Gerät über Ihren Server ein Erlebnis an. Diese Anforderung sendet der Server an [!DNL Target], und [!DNL Target] sendet die Antwort an den Server zurück. Ihr Server entscheidet dann, welches Erlebnis zum Rendern an das Client-Gerät gesendet werden soll. Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen. [Mehr Info](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
+| Serverseitig | Bei der serverseitigen Implementierung von [!DNL Target] fordert ein Client-Gerät über Ihren Server ein Erlebnis an. Diese Anforderung sendet der Server an [!DNL Target], und [!DNL Target] sendet die Antwort an den Server zurück. Ihr Server entscheidet dann, welches Erlebnis zum Rendern an das Client-Gerät gesendet werden soll. Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen. [Mehr Info](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
 | Hybridimplementierung | Bei dieser Art der Implementierung wählen Sie je nach Anwendungsfall den geeignetsten Implementierungsansatz. Beispielsweise können Sie für einen A/B-Test eines Angebots in einem Hero-Banner auf der Homepage eine clientseitige Implementierung verwenden, parallel dazu aber auch eine serverseitige Implementierung, um die internen Suchergebnisse zu bestimmen, die in einem Client-Browser angezeigt werden, die Erlebnisse, die ein Smart Car-Dashboard rendert, oder Sprachantworten, die von einem Sprachassistenten zurückgegeben werden. |
 
 ## Aktivitätselemente

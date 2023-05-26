@@ -5,7 +5,7 @@ title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2565'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Der [!DNL Target Recommendations]-Service wird in einem Rechenzentrum von [!DNL 
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] stellt derzeit keinen Edge-Cluster in China bereit. Für [!DNL Target]-Kunden in China ist die Leistung daher weiterhin eingeschränkt. Aufgrund der Firewall und des Mangels an Edge-Clustern innerhalb des Landes können die Erlebnisse auf Sites, auf denen [!DNL Target] implementiert ist, beeinträchtigt sein. Die Erlebnisse werden eventuell nur langsam gerendert und Seitenladevorgänge können beeinträchtigt sein. Auch Marketer bemerken bei Verwendung der Authoring-Benutzeroberfläche von [!DNL Target] eventuell Latenzen.
+>[!DNL Adobe Target] stellt derzeit keinen Edge-Cluster in China bereit. Für [!DNL Target]-Kunden in China ist die Leistung daher weiterhin eingeschränkt. Aufgrund der Firewall und des Mangels an Edge-Clustern innerhalb des Landes können die Erlebnisse auf Sites, auf denen [!DNL Target] bereitgestellt ist, beeinträchtigt sein. Die Erlebnisse werden eventuell nur langsam gerendert und Seitenladevorgänge können beeinträchtigt sein. Auch Marketer bemerken bei Verwendung der Authoring-Benutzeroberfläche von [!DNL Target] eventuell Latenzen.
 
 Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf die Zulassungsliste setzen](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 

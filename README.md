@@ -1,7 +1,6 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
-workflow-type: ht
-translation-type: ht
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -59,6 +58,3 @@ Im öffentlichen Repository werden den Pull-Anforderungen (Pull-Requests) automa
 
 * **An Autor gesendete Änderung**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **Ready-To-Merge**: Bereit zur Überprüfung durch unser Pull-Anforderungsteam.
-
-
-

@@ -198,7 +198,7 @@ Blaue Punkte im Hauptbereich und neben jeder Option in den verschiedenen Bereich
 
    >[!IMPORTANT]
    >
-   >Sie können ein Hintergrundbild mithilfe des CSS-Editors anwenden, es kann jedoch zu Flackern führen. Testen Sie Ihre Änderungen vor der Implementierung.
+   >Sie können ein Hintergrundbild mithilfe des CSS-Editors anwenden, es kann jedoch zu Flackern führen. Testen Sie Ihre Änderungen vor der Bereitstellung.
 
 ### [!UICONTROL CSS-Klasse]
 

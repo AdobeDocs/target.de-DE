@@ -6,7 +6,7 @@ feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3565'
+source-wordcount: '3563'
 ht-degree: 50%
 
 ---
@@ -29,7 +29,7 @@ Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um 
 
 Ein normaler A/B-Test in [!DNL Target] zeigt nur paarweise Vergleiche von Herausforderern mit Kontrollelementen. Wenn beispielsweise eine Aktivität über Erlebnisse verfügt: A, B, C und D, wobei A die Kontrolle, ein normales [!DNL Target] A/B-Tests würden A mit B, A mit C und A mit D vergleichen.
 
-Bei solchen Tests umfassen die meisten Produkte, einschließlich [!DNL Target], verwenden Sie eine [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}, um eine P-Wert-basierte Konfidenz zu erzeugen. Mithilfe dieses Konfidenzwerts wird dann ermittelt, ob sich der Herausforderer ausreichend vom Kontrollelement unterscheidet. Allerdings [!DNL Target] führt nicht automatisch die impliziten Vergleiche (B mit C, B mit D und C mit D) durch, die erforderlich sind, um das &quot;beste&quot;Erlebnis zu finden. Aus diesem Grund müssen Marketingexperten die Ergebnisse manuell analysieren, um das Gewinnererlebnis zu ermitteln.
+Bei solchen Tests umfassen die meisten Produkte, einschließlich [!DNL Target], verwenden Sie eine [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} um eine P-Wert-basierte Konfidenz zu erzeugen. Mithilfe dieses Konfidenzwerts wird dann ermittelt, ob sich der Herausforderer ausreichend vom Kontrollelement unterscheidet. Allerdings [!DNL Target] führt nicht automatisch die impliziten Vergleiche (B mit C, B mit D und C mit D) durch, die erforderlich sind, um das &quot;beste&quot;Erlebnis zu finden. Aus diesem Grund müssen Marketingexperten die Ergebnisse manuell analysieren, um das Gewinnererlebnis zu ermitteln.
 
 [!UICONTROL Die automatisierte Zuordnung führt alle impliziten Vergleiche über alle Erlebnisse hinweg durch und ergibt dann einen „wahren“ Gewinner. ] Es gibt in diesem Test keinen Bedarf für ein „Kontrollerlebnis“.
 

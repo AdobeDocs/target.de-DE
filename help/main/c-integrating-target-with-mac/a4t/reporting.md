@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 45%
 
 ---

@@ -213,7 +213,7 @@ Wenn Sie die Funktion für benutzerspezifischen Code für zwei Aktivitäten verw
 
 **Benutzerspezifischer Code wird bei Verwendung von `triggerView`.**
 
-Angebote mit benutzerspezifischem Code im VEC werden nicht erneut gerendert, wenn `triggerView()` aufgerufen wird mit `{page: false}` als Option.
+Angebote mit benutzerdefiniertem Code in VEC werden nicht erneut gerendert, wenn `triggerView()` mit `{page: false}` als Option aufgerufen wird.
 
 **Ich habe eine Warnung mit dem Hinweis erhalten, dass eine Aktion aufgrund von strukturellen Änderungen auf einer Seite nicht ausgeführt werden kann. Was bedeutet das?**
 

@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -119,7 +119,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 * [Häufig gestellte Fragen zu at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
 * [Debugging von at.js mithilfe des Adobe Experience Cloud-Debuggers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * Video zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. 
 
 ## Mobile Anwendungen
@@ -137,7 +137,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Sicherheit
 
-* [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Systemstatus
 

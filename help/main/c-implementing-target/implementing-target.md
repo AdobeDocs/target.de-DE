@@ -10,7 +10,7 @@ exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Target], müssen Sie sie auf Ihrer Site implementieren.
 
-Die [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
+Die [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
 
 Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstypen:
 
@@ -29,11 +29,11 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * **Mobile Apps**: Informationen zur Implementierung mithilfe von [!DNL Adobe Experience Platform Mobile] SDKs.
 * **Email**: Informationen zur Implementierung [!DNL Target] in E-Mails.
 
-Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+Weitere Informationen finden Sie unter [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
 
 >[!NOTE]
 >
->Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt in der [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
+>Alle Informationen, die zuvor in der *Target implementieren* in diesem Handbuch (das *Adobe Target-Praktikantenleitfaden*) ist jetzt in der [Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
 
 
 

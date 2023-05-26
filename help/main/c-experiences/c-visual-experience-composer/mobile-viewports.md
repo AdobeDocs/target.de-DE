@@ -24,7 +24,7 @@ Die Vorschaufunktion für mobile Viewports wurde für responsive Websites entwic
 >* Mobile Viewports sind nicht verfügbar, wenn sie von einem Umleitungsangebot überlagert werden.
 
 
-Ein Viewport wird durch die Größe des Rechtecks definiert, das von einer Webseite auf Ihrem Bildschirm ausgefüllt wird. Viewport entspricht der Größe des Browser-Fensters abzüglich der Bildlaufleisten und Symbolleisten. Browser verwenden „CSS-Pixel“. Für viele Geräte, zum Beispiel solche mit Retina-Bildschirm, ist der Viewport kleiner als die beworbene Geräteauflösung.
+Ein Viewport wird durch die Größe des Rechtecks definiert, das von einer Webseite auf Ihrem Bildschirm ausgefüllt wird. Der Viewport entspricht der Größe des Browser-Fensters abzüglich der Bildlaufleisten und Symbolleisten. Browser verwenden „CSS-Pixel“. Für viele Geräte, zum Beispiel solche mit Retina-Bildschirm, ist der Viewport kleiner als die beworbene Geräteauflösung.
 
 Nachstehend finden Sie die Viewports und Auflösungen für häufig verwendete Geräte. Denken Sie daran, die Viewport-Größe in [!DNL Target] zu verwenden.
 
@@ -68,8 +68,8 @@ Nachstehend finden Sie die Viewports und Auflösungen für häufig verwendete Ge
 | Google Pixel 2 XL | 411 x 823 | 1440 x 2880 |
 | Samsung Galaxy Note 5 | 480 x 853 | 1440 x 2560 |
 | LG G5 | 360w x 640 | 1440 x 2560 |
-| LG G4 | 360 W x 640 | 1440 x 2560 |
-| LG G3 | 360 W x 640 | 1440 x 2560 |
+| LG G4 | 360w x 640 | 1440 x 2560 |
+| LG G3 | 360w x 640 | 1440 x 2560 |
 | One Plus 3 | 480 x 853 | 1080 x 1920 |
 | Samsung Galaxy S9 | 360 x 740 | 1440 x 2960 |
 | Samsung Galaxy S9+ | 360 x 740 | 1440 x 2960 |
@@ -105,7 +105,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 
    Oder
 
-   Um die Konfiguration eines bestehenden mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie anschließend auf das Stiftsymbol [!UICONTROL Bearbeiten].
+   Um die Konfiguration eines bestehenden mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie anschließend auf das Stiftsymbol [!UICONTROL „Bearbeiten“].
 
 1. Geben Sie einen Namen für den mobilen Viewport ein.
 

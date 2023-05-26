@@ -8,7 +8,7 @@ exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Bevor Sie mit der Verwendung von [!DNL Adobe Target], müssen Sie sie auf Ihrer Site implementieren.
 
-Die [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
+Die [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} enthält Informationen, die Sie vor der Implementierung kennen müssen [!DNL Target].
 
 Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstypen:
 

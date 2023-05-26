@@ -11,7 +11,7 @@ ht-degree: 37%
 
 ---
 
-# [!UICONTROL Location Contribution-Bericht (MVT)]
+# [!UICONTROL Location Contribution]-Bericht (MVT)
 
 Die [!UICONTROL Location Contribution] zeigt die Leistung der einzelnen Elemente und Angebote an.
 

@@ -28,7 +28,7 @@ Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie
       |---|---|---|---|
       | Cablevision | Cablevision Systems Corp. | &#42;.optonline.net | 68.196.130.239 |
       | CenturyLink | Qwest Communications Company, LLC | &#42;.centurylink.net | 64.40.65.0 |
-      | Charter Communications | Charta-Mitteilungen | &#42;.charter.com | 71.85.225.124 |
+      | Charter Communications | Charter Communications | &#42;.charter.com | 71.85.225.124 |
       | Comcast | Comcast Cable Communications, Inc. | &#42;.comcast.net | 76.27.24.28 |
       | Cox | Cox Communications Inc. | &#42;cox.net | 68.224.174.22 |
       | Speakeasy | MegaPath Corporation | &#42;.speakeasy.net | 66.93.240.0 |

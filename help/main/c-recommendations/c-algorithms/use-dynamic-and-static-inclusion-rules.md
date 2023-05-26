@@ -71,7 +71,7 @@ Dynamische Kriterien und Promotions sind viel leistungsfähiger als statische Kr
 
 Die folgenden Beispiele enthalten allgemeine Ideen zur Verwendung dynamischer Promotions und Ausschlüsse in Ihren Marketing-Maßnahmen:
 
-| Operator | Beispiele |
+| Benutzerin oder Benutzer | Beispiele |
 | --- | --- |
 | Gleich<br>(Verfügbar mit Entitätsattributübereinstimmung, Profilattributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn Sie den Operator &quot;gleich&quot;in dynamischen Promotions verwenden, können Sie, wenn ein Besucher auf Ihrer Website ein Element (z. B. ein Produkt, einen Artikel oder einen Film) anzeigt, weitere Elemente bewerben, die folgende Kriterien erfüllen:<ul><li>Dieselbe Marke</li><li>Dieselbe Kategorie</li><li>Dieselbe Kategorie UND von der Hausmarke</li><li>Derselbe Store</li></ul> |
 | Does Not Equal<br>(Verfügbar mit Entitätsattributübereinstimmung, Profilattributübereinstimmung, Parameterübereinstimmung und statischem Filter.) | Wenn Sie den Operator &quot;ist nicht gleich&quot;in dynamischen Promotions verwenden, können Sie, wenn ein Besucher auf Ihrer Website ein Element (z. B. ein Produkt, einen Artikel oder einen Film) anzeigt, weitere Elemente bewerben, die folgende Kriterien erfüllen:<ul><li>Eine andere Fernsehserie</li><li>Ein anderes Genre</li><li>Eine andere Produktserie</li><li>Eine andere Stil-ID</li></ul> |

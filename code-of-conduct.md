@@ -1,6 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: ht
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 # Adobe-Verhaltenskodex
@@ -43,6 +45,6 @@ Beleidigendes, belästigendes oder anderweitig unakzeptables Verhalten kann dem 
 
 Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Sanktionen verhängt werden, die von anderen Mitgliedern der Projektleitung festgelegt werden.
 
-## Grundlage
+## Zuordnung
 
-Dieser Verhaltenskodex wurde basierend auf dem [Contributor Covenant](https://contributor-covenant.org), Version 1.4, aufgestellt, siehe [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Dieser Code wird vom [Mitarbeiter-Covenant](https://contributor-covenant.org), Version 1.4, angepasst, der unter [https://contributor-covenant.org/version/1/4 verfügbar ist.](https://contributor-covenant.org/version/1/4/)
