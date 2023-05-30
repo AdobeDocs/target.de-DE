@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 84%
+source-wordcount: '250'
+ht-degree: 82%
 
 ---
 
@@ -30,7 +30,6 @@ Diese Version umfasst die folgenden Verbesserungen:
 | Funktion | Details |
 |--- |--- |
 | [!UICONTROL QA-Modus] für [!UICONTROL Automated Personalization] activities | [!DNL Adobe Target] [!UICONTROL QA-Modus] ist jetzt verfügbar für [!UICONTROL Automated Personalization] Aktivitäten ersetzen [!UICONTROL Links in der Vorschau anzeigen] Funktionalität.<P>Weitere Informationen finden Sie unter [Activitäts-QA.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
-| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Leistungsverbesserungen zur Deaktivierung der Funktion zum Duplizieren (einschließlich Verkürzung der Ladezeit) während der [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] Aktivitäten.
 

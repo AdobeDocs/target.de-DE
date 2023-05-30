@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
+source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 57%
+source-wordcount: '654'
+ht-degree: 59%
 
 ---
 
@@ -22,6 +22,10 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 ## [!DNL Target] Standard/Premium 23.5.2 (31. Mai 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+| Funktion | Details |
+|--- |--- |
+| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 * Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungstokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
 * Es wurde ein Problem behoben, das die Anzeige eines Bildes im [!UICONTROL Design erstellen] angezeigt, wenn der Bildname GB 18030 Zeichen enthält. (TGT-44614)
