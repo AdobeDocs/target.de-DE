@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Keine geplant zu diesem Zeitpunkt.
 ## Aufzeichnungen früherer Webinare und Schulungen
 
 Auf Aufzeichnungen vergangener Ereignisse zugreifen (sofern verfügbar):
+
+### Journey zur Wachstumsförderung mit Personalisierung
+
+Verbessern Sie die Fähigkeit Ihres Unternehmens, Personalisierungen bereitzustellen, die vom Adobe Customer Success Manager, Ramon Cespedes, vorgestellt werden.
+
+Der Bericht der wichtigsten Analytiker legt nahe, dass Unternehmen, die bei der Personalisierung hervorragend sind, 40 Prozent mehr Umsatz erzielen als ihre Kollegen. Um die Nachfrage nach neuen, relevanten und hochpersonalisierten Erlebnissen bei jedem Klick zu decken, benötigen Marketing-Experten das richtige Framework und die richtige Strategie. In diesem Webinar erfahren Sie, wie Sie mithilfe datengesteuerter Frameworks die Personalisierungsprogramme Ihres Unternehmens erstellen und den Erfolg fördern können.
+
+* [Link zur Aufzeichnung](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Anpassung der KI-gestützten Personalisierung: Neue Funktionen in [!DNL Adobe Target] (11. Oktober 2022)
 
