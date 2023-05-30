@@ -4,7 +4,7 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 92%
@@ -31,7 +31,7 @@ Wir werden durch [!DNL Adobe Target] Experten: Bill Ozinga, John Mosbaugh, Justi
 
 * **Mittwoch, 21. Juni 2023**
 * **8:00-9:00 Uhr (PDT, UTC-7)**
-* **[Weitere Informationen]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[Weitere Informationen](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 Zu uns kommen Adobe Target-Experten, Ramon Cespedes und Kevin Jemison. Bei dieser AMA-Veranstaltung (Fragen Sie mich alles) werden die Experten eingeloggt sein und bereit sein, Ihre Fragen zu den Themen zu beantworten, die im letzten 5/24 Webinar am [Journey zur Wachstumsförderung mit Personalisierung](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
