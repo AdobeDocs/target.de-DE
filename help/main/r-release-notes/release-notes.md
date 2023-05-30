@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 83%
+source-wordcount: '621'
+ht-degree: 57%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 83%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target] Standard/Premium 23.5.2 (31. Mai 2023)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungstokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
+* Es wurde ein Problem behoben, das die Anzeige eines Bildes im [!UICONTROL Design erstellen] angezeigt, wenn der Bildname GB 18030 Zeichen enthält. (TGT-44614)
+* Es wurde ein Problem behoben, bei dem einige GB 18030-Symbolzeichen in Text/HTML in Erlebnissen falsch maskiert wurden. (TGT-44600)
+* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Automatisierte Personalisierung] Aktivitäten, die während der Analyse eingefroren werden. (TGT-44820)
+* Fehlerkorrektur - die Suche nach einer Aktivität in der [!UICONTROL Aktivität] Seite, wenn der Aktivitätsname eine eckige Klammer ( [ oder ] ). (TGT-44777)
+* Fehlerkorrektur - Aktivitäten können jetzt synchronisiert werden, wenn das Ziel der Aktivität Sonderzeichen enthält. (TGT-44982)
+* Es wurde ein Fehler behoben, der dazu führte, dass keine Aktivitäten im [!DNL Target] Benutzeroberfläche für den Standardarbeitsbereich für bestimmte Kunden. (TGT-45286)
+* Das Verhalten der Markierung &quot;Duplikate nicht zulassen&quot;wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
+* Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
+* Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23.-25. Mai 2023)
 

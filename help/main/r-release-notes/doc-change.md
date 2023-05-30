@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2849'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 30. Mai | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.5.2 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 23. Mai | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} | Wichtiger Hinweis wurde aktualisiert. |
 |  | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für bevorstehende Versionen wurden aktualisiert. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.5.1 von [!DNL Target Standard/Premium] hinzugefügt. |
