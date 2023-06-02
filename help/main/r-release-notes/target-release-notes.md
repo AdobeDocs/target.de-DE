@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 | Funktion | Details |
 |--- |--- |
-| [!UICONTROL QA-Modus] für [!UICONTROL Automated Personalization] activities | [!DNL Adobe Target] [!UICONTROL QA-Modus] ist jetzt verfügbar für [!UICONTROL Automated Personalization] Aktivitäten ersetzen [!UICONTROL Links in der Vorschau anzeigen] Funktionalität.<P>Weitere Informationen finden Sie unter [Activitäts-QA.](/help/main/c-activities/c-activity-qa/activity-qa.md) |
+| [!UICONTROL QA-Modus] für Aktivitäten von [!UICONTROL Automatisierte Personalisierung] | [!DNL Adobe Target] [!UICONTROL QA-Modus] ist jetzt für Aktivitäten von [!UICONTROL Automatisierte Personalisierung] verfügbar, was die Funktionalität [!UICONTROL Links in der Vorschau anzeigen] ersetzt.<P>Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-* Leistungsverbesserungen zur Deaktivierung der Funktion zum Duplizieren (einschließlich Verkürzung der Ladezeit) während der [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] Aktivitäten.
+* Leistungsverbesserungen zur Deaktivierung der Funktion zum Duplizieren (einschließlich Verkürzung der Ladezeit) beim [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in Aktivitäten von [!UICONTROL Automated Personalization].
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

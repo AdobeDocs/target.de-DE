@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -27,14 +27,14 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 |--- |--- |
 | Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
-* Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungstokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
-* Es wurde ein Problem behoben, das die Anzeige eines Bildes im [!UICONTROL Design erstellen] angezeigt, wenn der Bildname GB 18030 Zeichen enthält. (TGT-44614)
+* Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungs-Tokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
+* Es wurde ein Problem behoben, das die Anzeige eines Bildes im Bedienfeld [!UICONTROL Design erstellen] verhindert hat, wenn der Bildname GB-18030-Zeichen enthält. (TGT-44614)
 * Es wurde ein Problem behoben, bei dem einige GB 18030-Symbolzeichen in Text/HTML in Erlebnissen falsch maskiert wurden. (TGT-44600)
-* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Automatisierte Personalisierung] Aktivitäten, die während der Analyse eingefroren werden. (TGT-44820)
+* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für Aktivitäten von [!UICONTROL Automatisierte Personalisierung] während der Analyse eingefroren sind. (TGT-44820)
 * Fehlerkorrektur - die Suche nach einer Aktivität in der [!UICONTROL Aktivität] Seite, wenn der Aktivitätsname eine eckige Klammer ( [ oder ] ). (TGT-44777)
 * Fehlerkorrektur - Aktivitäten können jetzt synchronisiert werden, wenn das Ziel der Aktivität Sonderzeichen enthält. (TGT-44982)
 * Es wurde ein Fehler behoben, der dazu führte, dass keine Aktivitäten im [!DNL Target] Benutzeroberfläche für den Standardarbeitsbereich für bestimmte Kunden. (TGT-45286)
-* Das Verhalten der Markierung &quot;Duplikate nicht zulassen&quot;wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
+* Das Verhalten der Markierung „Duplikate nicht zulassen“ wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
 * Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im [!UICONTROL Visual Experience Composer] (VEC). (TGT-44873)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
@@ -42,11 +42,13 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-23. Mai: Europa, Naher Osten und Afrika (EMEA) Region 24. Mai: Region Asien-Pazifik (APAC) 25. Mai: Amerikanische Region
+23. Mai: Europa, Naher Osten und Afrika (EMEA)
+24. Mai: Asien-Pazifik (APAC)
+25. Mai: Amerika
 
-Diese Version enthält die folgenden neuen Verbesserungen und Fehlerbehebungen:
+Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
-* Es wurde ein Problem behoben, durch das bestimmte Kunden keine Zielgruppen mit Besucherprofilen erstellen konnten, die die Operatoren &quot;größer als&quot;oder &quot;kleiner als&quot;verwendeten. (TGT-45271)
+* Es wurde ein Problem behoben, durch das bestimmte Kunden keine Zielgruppen mit Besucherprofilen erstellen konnten, die die Operatoren „größer als“ oder „kleiner als“ verwendeten. (TGT-45271)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 * Die Target-Benutzeroberfläche wurde an verschiedenen Stellen für eine bevorstehende Aktualisierung der Benutzeroberfläche aktualisiert (Änderungen befinden sich hinter einem Feature Flag, bis die Aktualisierungen veröffentlicht werden).
 
