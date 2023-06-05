@@ -4,10 +4,10 @@ description: Anzeigen häufig gestellter Fragen (FAQs) zu Erlebnis-Targeting und
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 61%
+source-wordcount: '962'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ Neben dem Zielgruppen-Targeting für die URL können Sie auch bestimmte Werte an
 
 Zielgruppen-URL-Targeting und URL-Targeting hinzugefügt über [!UICONTROL Vorlagenregeln] als URL-Targeting auswerten (siehe URL-Targeting unten).
 
-### URL-Targeting
+### URL-Targeting {#url-targeting}
 
 Um beim Erstellen einer Zielgruppe das URL-Targeting anzuwenden, klicken Sie auf [!UICONTROL Regel hinzufügen]klicken [!UICONTROL Seiten der Site]wählen Sie eine Option aus der ersten Dropdownliste ([!UICONTROL Aktuelle Seite], [!UICONTROL Vorherige Seite]oder [!UICONTROL Landingpage]), wählen Sie [!UICONTROL URL] Geben Sie in der zweiten Dropdownliste einen Auswerter an und geben Sie dann die gewünschte URL an.
 
@@ -47,11 +47,10 @@ Um beim Erstellen einer Zielgruppe das URL-Targeting anzuwenden, klicken Sie auf
 
 URL-Targeting wandelt die URL in einen Regelsatz um, der ausgewertet werden soll:
 
-* URL = `example.com/path1?query=something`
-* URL-Domäne = `example.com`
-* Pfad = path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domain = `example.com`
+* Pfad = `path1/path2/path3`
+* Abfrage = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Beim Erstellen komplexer URL-Zeichenfolgen wird Folgendes ausgeführt: [!DNL Target] die gesamte URL auswerten?
 

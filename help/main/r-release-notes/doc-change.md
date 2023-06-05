@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2957'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 5. Juni | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Die Informationen für die folgenden Ereignisse wurden aktualisiert:<ul><li>Der Registrierungslink für die [!DNL Adobe Target Recommendations] Kaffeepause (Mittwoch, 7. Juni 2023)</li><li>Es wurden Informationen zum aktuellen Webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot;hinzugefügt und ein Link zur Aufzeichnung hinzugefügt.</li></ul> |
+|  | [Anwenden von Reporting-Zielgruppen auf Erfolgsmetriken](/help/main/c-target/apply-reporting-audience-success-metric.md) | Der Abschnitt &quot;Überlegungen&quot;wurde aktualisiert und der Abschnitt &quot;Beispiel&quot;wurde hinzugefügt. |
+|  | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Der Abschnitt &quot;URL-Targeting&quot;wurde aktualisiert. |
 | 30. Mai | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.5.2 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [Integrieren mit [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artikel mit Informationen zur Freigabe aktualisiert [!UICONTROL Real-Time CDP-Profilattribute] mit [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten. |
 |  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu den folgenden bevorstehenden Kaffeepausenereignissen hinzugefügt:<ul><li>[!DNL Adobe Target Recommendations] Kaffeepause (7. Juni)</li><li>Webinar-Follow-up des Personalisierungsprogramms (21. Juni)</li></ul> |
