@@ -4,9 +4,9 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ Informationen zu den folgenden bevorstehenden Kaffeepausen:
 
 * **Mittwoch, 7. Juni 2023**
 * **8:00-9:00 Uhr (PDT, UTC-7)**
-* **[Weitere Informationen](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[Weitere Informationen](https://shorturl.at/irzD5){target=_blank}**
 
 Wir werden durch [!DNL Adobe Target] Experten: Bill Ozinga, John Mosbaugh, Justin Patrick und Eric Thibeault. Bei diesem AMA-Ereignis (Ask Me Anything) werden die Experten eingeloggt und können Ihre Fragen im Zusammenhang mit dem [!DNL Target Recommendations] Funktion.
 
