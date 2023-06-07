@@ -4,10 +4,10 @@ description: Sie haben Ihre erste Aktivität in Adobe Target erstellt. Wie geht 
 title: Wo finde ich weitere Ressourcen, um Target effektiver nutzen zu können?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 83%
+source-wordcount: '690'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Wir haben eine Liste mit wertvollen Informationen zusammengestellt, die Ihnen he
 ## Zusätzliche Ressourcen
 
 * **Adobe Target-Homepage**: Die Startseite von [!DNL Adobe Target] – hier erfahren Sie mehr über unsere Angebote, Features und die neuesten Kundenerfolge. Siehe [Adobe Target](https://www.adobe.com/de/marketing/target.html).
-* **Unser Blog**: Informieren Sie sich über Neuerungen und lassen Sie sich durch Tipps und Kundenerfolge inspirieren. Folgen Sie dem [Target-Blog](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **Unser Blog**: Informieren Sie sich über Neuerungen und lassen Sie sich durch Tipps und Kundenerfolge inspirieren. Folgen Sie dem [Target-Blog](https://blog.adobe.com/en/topics/target).
 * **Experience League**: Entdecken Sie die Handbücher, Veranstaltungen und Schulungen, die Sie benötigen, um Ihr Erlebnisgeschäft in Gang zu setzen, sich mit der Target-Community zu verbinden und die Antworten zu finden, die Sie suchen. Siehe [Adobe Experience League-Homepage](https://experienceleague.adobe.com/?lang=de#home).
 * **Adobe Target-Zertifizierung**: Lassen Sie sich durch die neuen Adobe Target-Prüfungen als Adobe-Experte zertifizieren. Planen Sie hier Ihr Schulungen und Prüfungen. Siehe [Schulung und Zertifizierung](/help/main/c-intro/training-and-certification.md).
 * **Adobe Target-Versionshinweise**: Informationen zu den Funktionen, Verbesserungen und Fehlerbehebungen in jeder [!DNL Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den APIs, SDKs und der JavaScript-Bibliothek (at.js) von Target sowie zu anderen Plattformänderungen. Siehe [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md).

@@ -4,7 +4,7 @@ description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Targ
 title: Wie behebe ich Fehler in Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 86%
@@ -117,7 +117,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ### at.js
 
-* [Häufig gestellte Fragen zu at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Häufig gestellte Fragen zu at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [Debugging von at.js mithilfe des Adobe Experience Cloud-Debuggers](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [at.js-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * Video zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. 
