@@ -4,10 +4,10 @@ description: Zugriff auf die  [!DNL Adobe Target] -Dokumentation und -Ressourcen
 title: Wo finde ich die Dokumentation und Ressourcen für  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | [Target Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
 | [Serverseitige Bereitstellungs-APIs](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Informationen zu den Ressourcen der Adobe Target-Bereitstellungs-API. |
 | [Target-SDKs für die Serverseite](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Erläutert die Bereitstellung der Serverseite von [!DNL Target] über SDKs. |
-| [Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
+| [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
 
 Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:
 

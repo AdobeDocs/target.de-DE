@@ -4,10 +4,10 @@ description: Informationen zu zusätzlichen Ressourcen, in denen Sie die Funktio
 title: Wo finde ich Ressourcen und Kontaktinformationen zu Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 96%
+source-wordcount: '1201'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Auf dieser S
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
-Bei Fragen können Sie die Adobe Target-Experten im [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
+Bei Fragen können Sie die Adobe Target-Experten im [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}.
 
 Bei technischen Problemen oder um einen Fehler einzugeben, können Sie den Kundendienst kontaktieren. Sie erreichen den Kundendienst telefonisch unter 1-800-497-0335. Gebührenfreie Nummern außerhalb der USA finden Sie auf der Seite [Adobe Digitales Marketing Kundenunterstützung Regionale Telefonnummern](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 3, um das Target-Team zu kontaktieren.
 
@@ -101,7 +101,6 @@ Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und rechtliche Hinweise zu
 Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf verschiedenen Wegen kontaktiert werden:
 
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/de/marketing-cloud.html)
-* Fragen Sie uns an [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [Eröffnen Sie ein Ticket, um Hilfe von der Kundenunterstützung zu erhalten](https://experienceleague.adobe.com/?support-solution=Target&amp;lang=de#support)
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/de/marketing-cloud/contact-support.html)
 * [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/de)
