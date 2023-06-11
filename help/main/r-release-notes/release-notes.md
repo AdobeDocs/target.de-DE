@@ -42,9 +42,9 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
-23. Mai: Europa, Naher Osten und Afrika (EMEA)
-24. Mai: Asien-Pazifik (APAC)
-25. Mai: Amerika
+&#x200B;23. Mai: Europa, Naher Osten und Afrika (EMEA)
+&#x200B;24. Mai: Asien-Pazifik (APAC)
+&#x200B;25. Mai: Amerika
 
 Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerbehebungen:
 
