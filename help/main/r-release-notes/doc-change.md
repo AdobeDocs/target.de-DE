@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
+source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 93%
+source-wordcount: '1182'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 12. Juni | [Cookies in Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Aktualisierter Artikel im *Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud* Erläuterung der von [!DNL Target]. |
+|  | [Initialisieren des Java-SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Es wurden Informationen zum Parameter &quot;Umgebung&quot;hinzugefügt. |
+|  | [Initialisieren des Python-SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | Es wurden Informationen zum Parameter &quot;Umgebung&quot;hinzugefügt. |
 | 5. Juni | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Die Informationen für die folgenden Ereignisse wurden aktualisiert:<ul><li>Der Registrierungslink für die [!DNL Adobe Target Recommendations] Kaffeepause (Mittwoch, 7. Juni 2023)</li><li>Es wurden Informationen zum aktuellen Webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot;hinzugefügt und ein Link zur Aufzeichnung hinzugefügt.</li></ul> |
 |  | [Anwenden von Reporting-Zielgruppen auf Erfolgsmetriken](/help/main/c-target/apply-reporting-audience-success-metric.md) | Der Abschnitt &quot;Überlegungen&quot;wurde aktualisiert und der Abschnitt &quot;Beispiel&quot;wurde hinzugefügt. |
 |  | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Der Abschnitt &quot;URL-Targeting&quot;wurde aktualisiert. |
