@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 92%
+source-wordcount: '1146'
+ht-degree: 93%
 
 ---
 
@@ -19,12 +19,13 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 12. Juni | [Cookies in Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Aktualisierter Artikel im *Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud* Erläuterung der von [!DNL Target]. |
 | 5. Juni | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Die Informationen für die folgenden Ereignisse wurden aktualisiert:<ul><li>Der Registrierungslink für die [!DNL Adobe Target Recommendations] Kaffeepause (Mittwoch, 7. Juni 2023)</li><li>Es wurden Informationen zum aktuellen Webinar &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot;hinzugefügt und ein Link zur Aufzeichnung hinzugefügt.</li></ul> |
 |  | [Anwenden von Reporting-Zielgruppen auf Erfolgsmetriken](/help/main/c-target/apply-reporting-audience-success-metric.md) | Der Abschnitt &quot;Überlegungen&quot;wurde aktualisiert und der Abschnitt &quot;Beispiel&quot;wurde hinzugefügt. |
 |  | [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Der Abschnitt &quot;URL-Targeting&quot;wurde aktualisiert. |
 | 30. Mai | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.5.2 von [!DNL Target Standard/Premium] hinzugefügt. |
-|  | [Integrieren mit [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artikel mit Informationen zur Freigabe aktualisiert [!UICONTROL Real-Time CDP-Profilattribute] mit [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten. |
-|  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu den folgenden bevorstehenden Kaffeepausenereignissen hinzugefügt:<ul><li>[!DNL Adobe Target Recommendations] Kaffeepause (7. Juni)</li><li>Webinar-Follow-up des Personalisierungsprogramms (21. Juni)</li></ul> |
+|  | [Integrieren mit [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Artikel mit Informationen über die Freigabe von [!UICONTROL Real-Time CDP-Profilattributen] mit [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten wurde aktualisiert. |
+|  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgenden anstehenden Kaffeepause-Ereignissen hinzugefügt:<ul><li>[!DNL Adobe Target Recommendations] Kaffeepause (7. Juni)</li><li>Follow-up-Webinar „Bereit für das Personalisierungsprogramm“ (21. Juni)</li></ul> |
 | 23. Mai | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} | Wichtiger Hinweis wurde aktualisiert. |
 |  | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für bevorstehende Versionen wurden aktualisiert. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.5.1 von [!DNL Target Standard/Premium] hinzugefügt. |
