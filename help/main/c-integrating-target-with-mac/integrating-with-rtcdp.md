@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-Time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-Time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
-workflow-type: ht
-source-wordcount: '1029'
-ht-degree: 100%
+source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 95%
 
 ---
 
@@ -112,6 +112,8 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Konfigurieren von Personalisierungszielen für die Personalisierung der gleichen und der nächsten Seite](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*.
 * [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*
 * [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele – Übersicht*.
+* [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} im *Ziele - Übersicht* Handbuch.
+* [Personalisierung der gleichen Seite und der nächsten Seite durch die [!DNL Adobe Target] und benutzerdefinierte Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} unter &quot;Häufig gestellte Fragen&quot;im *Ziele - Übersicht* Handbuch.
 
 ## Videos und Blogposts {#videos-blogs}
 
