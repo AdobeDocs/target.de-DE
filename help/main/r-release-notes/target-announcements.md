@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Keine geplant zu diesem Zeitpunkt.
 
 Auf Aufzeichnungen vergangener Ereignisse zugreifen (sofern verfügbar):
 
-### Mobile Experience Optimization und Personalization for Authenticated Environments (26. April 2023)
+### Optimierung der mobilen Erlebnisse und Personalisierung für authentifizierte Umgebungen (26. April 2023)
 
 Marken müssen auf der Grundlage spezifischer Kundenanforderungen und Verhaltensweisen hochgradig personalisierte und relevante Erlebnisse liefern. Mit Fragen zur Zukunft ohne Cookies in der Marketing-Technologie streben regulierte Branchen ein robusteres Framework für die Kundeninteraktion an und optimieren dabei jede Kundeninteraktion für die richtigen Inhalte und Angebote.
 
@@ -46,7 +46,7 @@ Wie können Marken aus den Bereichen Finanzdienstleistungen, Versicherungen, Ein
 In dieser Sitzung erfahren Sie, wie [!DNL Adobe Target] und [!DNL Real-Time CDP] die Interaktion, den Umsatz und die Kundentreue in regulierten Branchen fördern können, wenn wir Folgendes besprechen:
 
 * Wie Teams sowohl anonymen als auch authentifizierten Besuchern personalisierte Erlebnisse bereitstellen
-* Grundlegendes zu Verbraucherberechtigungen und Datenschutzstandards mit Personalisierung
+* Verbraucherrechte und Datenschutzstandards bei der Personalisierung
 * Personalisierte Inhalte und Angebote für authentifizierte Besucher durch Anonymisierung von Identitäten
 * Eindeutige Anwendungsfälle für authentifizierte, sichere Websites im Web und auf Mobilgeräten
 
