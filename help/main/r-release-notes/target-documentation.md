@@ -5,9 +5,9 @@ title: Wo finde ich die Dokumentation und Ressourcen für  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | [Adobe-Kundenunterstützung – Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informationen zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. In diesen Sitzungen erhalten Teilnehmer Informationen, Hilfestellungen bei Problemen sowie Tipps und Tricks zur erfolgreichen Verwendung der [!DNL Adobe Experience Cloud]-Lösungen einschließlich [!DNL Target]. |
 | [Webinar-Reihe zu Target-Grundlagen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registrierungsinformationen und Links zu früheren Sitzungen der Webinar-Reihe zu [!DNL Target]-Grundlagen, einer Webinar-Serie zu den Erfolgen unserer Kunden. |
 | [Entwicklerhandbuch für Adobe Target](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/overview.html){target=_blank} | Informationen zur Adobe Target Developers-Website, die Ihnen bei der Implementierung von [!DNL Target] in clientseitigen und serverseitigen Anwendungen, in mobilen Apps, auf IoT-Geräten und mehr unterstützt. Sie können Ihre [!DNL Target]-Daten auch in Lösungen von Drittanbietern exportieren. |
-| [Target Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
+| [Target Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=de){target=_blank} | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
 | [Serverseitige Bereitstellungs-APIs](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Informationen zu den Ressourcen der Adobe Target-Bereitstellungs-API. |
-| [Target-SDKs für die Serverseite](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Erläutert die Bereitstellung der Serverseite von [!DNL Target] über SDKs. |
-| [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
+| [Target-SDKs für die Serverseite](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=de){target=_blank} | Erläutert die Server-seitige Bereitstellung von [!DNL Target] über SDKs. |
+| [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lang=de) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
 
 Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:
 
