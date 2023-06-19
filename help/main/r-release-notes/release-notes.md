@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
-workflow-type: ht
-source-wordcount: '654'
-ht-degree: 100%
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -23,10 +23,6 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-| Funktion | Details |
-|--- |--- |
-| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
-
 * Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungs-Tokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
 * Es wurde ein Problem behoben, das die Anzeige eines Bildes im Bedienfeld [!UICONTROL Design erstellen] verhindert hat, wenn der Bildname GB-18030-Zeichen enthält. (TGT-44614)
 * Es wurde ein Problem behoben, bei dem einige GB 18030-Symbolzeichen in Text/HTML in Erlebnissen fälschlicherweise maskiert wurden. (TGT-44600)
@@ -37,6 +33,14 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Das Verhalten der Markierung „Duplikate nicht zulassen“ wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
 * Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im [!UICONTROL Visual Experience Composer (VEC)] geladen wurde. (TGT-44873)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
+
+## Real-Time CDP-Profilattribute, die für [!DNL Target]|[!UICONTROL Real-Time CDP-Profilattribute] (13. Juni 2023)
+
+Diese Version enthält die folgende Verbesserung:
+
+| Funktion | Details |
+|--- |--- |
+| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP-Profilattribute] können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten freigegeben werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23.-25. Mai 2023)
 

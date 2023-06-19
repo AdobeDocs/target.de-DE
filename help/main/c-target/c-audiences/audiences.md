@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 33%
+source-wordcount: '818'
+ht-degree: 34%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Audiences liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen.
 
 Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## Verwenden von Echtzeit-Kundendatenplattform-Profilattributen in HTML- und JSON-Angeboten
-
-Echtzeit-Kundendatenplattform-Profilattribute können für Target freigegeben werden, um sie in HTML-Angeboten und JSON-Angeboten zu verwenden. Weitere Informationen finden Sie unter Integrieren mit [!DNL Real-Time Customer Data Platform].
-
-Weitere Informationen finden Sie unter [Inhalt verwalten](/help/main/c-experiences/c-manage-content/manage-content.md) und [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Schulungsvideo: Verwenden von Zielgruppen ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
