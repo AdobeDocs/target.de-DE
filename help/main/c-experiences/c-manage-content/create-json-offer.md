@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe JSON-Angebote erstellen. [!DNL Targe
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '457'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## JSON-Angebotsbeispiel mit Echtzeit-Kundendatenplattform-Profilattributen
 
-Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML-Angeboten und JSON-Angeboten.
+Echtzeit-Kundendatenplattform-Profilattribute können für [!DNL Target] zur Verwendung in HTML- und JSON-Angeboten.
 
 Weitere Informationen finden Sie unter [Freigeben von Echtzeit-Kundendatenplattform-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 

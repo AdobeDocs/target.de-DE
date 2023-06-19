@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target].
 title: Wie verwende ich die Zielgruppenliste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 34%
+source-wordcount: '861'
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ Es gibt zwei Arten von Zielgruppen in [!DNL Target]:
 * **Zielgruppen auswählen:** Dient zur Bereitstellung unterschiedlicher Inhalte für verschiedene Besuchertypen.
 * **Berichtszielgruppen:** Wird verwendet, um zu bestimmen, wie verschiedene Besuchertypen auf denselben Inhalt reagieren, damit Sie Ihre Testergebnisse analysieren können.
 
-   In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [ Adobe Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
+  In [!DNL Target] können Sie Berichtszielgruppen nur dann konfigurieren, wenn Sie [!DNL Target] als Berichtsquelle verwenden. Wenn Sie [ Adobe Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, müssen Sie Ihre Berichterstellungszielgruppen in [!DNL Analytics] konfigurieren.
 
 ## Verwenden Sie die [!UICONTROL Zielgruppen] Liste {#use-list}
 
@@ -43,13 +43,13 @@ Die [!UICONTROL Zielgruppen] enthält die Zielgruppen, die Sie in Ihren Aktivit�
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Benutzer müssen [!UICONTROL Genehmiger] oder über dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. In der [!DNL Adobe Experience Platform] kann wie besehen oder verwendet werden [in Kombination mit vorhandenen Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Benutzer müssen [!UICONTROL Genehmiger] oder über dem Status in [!DNL Target] zum Konfigurieren [!DNL Target] [!UICONTROL Ziele] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](#aep).
 
 Vordefinierte Zielgruppen, z. B.[!UICONTROL Neue Besucher]&quot; und &quot;[!UICONTROL Wiederkehrende Besucher],&quot; kann nicht umbenannt werden.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Audiences liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen.
 
 Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Verwenden von Echtzeit-Kundendatenplattform-Profilattributen in HTML- und JSON-Angeboten
+
+Echtzeit-Kundendatenplattform-Profilattribute können für Target freigegeben werden, um sie in HTML-Angeboten und JSON-Angeboten zu verwenden. Weitere Informationen finden Sie unter Integrieren mit [!DNL Real-Time Customer Data Platform].
+
+Weitere Informationen finden Sie unter [Inhalt verwalten](/help/main/c-experiences/c-manage-content/manage-content.md) und [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Schulungsvideo: Verwenden von Zielgruppen ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
