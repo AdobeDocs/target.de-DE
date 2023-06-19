@@ -6,7 +6,7 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im [!UICONTROL Visual Experience Composer (VEC)] geladen wurde. (TGT-44873)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
-## Real-Time CDP-Profilattribute, die für [!DNL Target]|[!UICONTROL Real-Time CDP-Profilattribute] (13. Juni 2023)
+## Real-Time CDP-Profilattribute, die für [!DNL Target] [!UICONTROL Real-Time CDP-Profilattribute] (13. Juni 2023)
 
 Diese Version enthält die folgende Verbesserung:
 
