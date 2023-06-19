@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-Time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-Time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1060'
 ht-degree: 95%
 
 ---
@@ -77,10 +77,6 @@ Diese Integration erschließt wichtige Anwendungsfälle mit Real-Time CDP:
 Real-Time CDP-Profilattribute können für [!DNL Target] freigegeben werden, um sie in HTML- und [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) zu verwenden.
 
 ### Einschränkungen und Überlegungen zu Real-Time CDP-Profilattributen
-
->[!NOTE]
->
->Die Funktion Real-Time CDP-Profilattribute ist in der Beta-Version für HTML- und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md) verfügbar.
 
 Beachten Sie Folgendes:
 
