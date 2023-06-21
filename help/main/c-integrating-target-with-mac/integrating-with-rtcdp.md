@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-Time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-Time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 95%
@@ -108,7 +108,7 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Konfigurieren von Personalisierungszielen für die Personalisierung der gleichen und der nächsten Seite](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*.
 * [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*
 * [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele – Übersicht*.
-* [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank} im *Ziele - Übersicht* Handbuch.
+* [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} im *Ziele - Übersicht* Handbuch.
 * [Personalisierung der gleichen Seite und der nächsten Seite durch die [!DNL Adobe Target] und benutzerdefinierte Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank} unter &quot;Häufig gestellte Fragen&quot;im *Ziele - Übersicht* Handbuch.
 
 ## Videos und Blogposts {#videos-blogs}
