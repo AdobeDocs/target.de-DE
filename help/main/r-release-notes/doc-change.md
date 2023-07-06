@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 96%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## [!DNL Target] Standard/Premium 23.6.1 (27.-29. Juni 2023)
+## [!DNL Target] Standard/Premium 23.6.1 (27.–29. Juni 2023)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 27. Juni | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitäts-QA ist jetzt für alle Target-Aktivitätstypen verfügbar, einschließlich [!UICONTROL Automated Personalization] AP-Aktivitäten. Informationen zu Vorschaulinks wurden entfernt. |
-|  | Vorschau von URLs | Da alle Aktivitätstypen jetzt Aktivitäts-QA unterstützen, wurde dieses Thema gelöscht und an die [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) Thema. |
+| 27. Juni | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitäts-QA ist jetzt für alle Target-Aktivitätstypen verfügbar, einschließlich AP-Aktivitäten ([!UICONTROL Automated Personalization]). Informationen zu Vorschau-Links wurden entfernt. |
+|  | Vorschau von URLs | Da alle Aktivitätstypen jetzt Aktivitäts-QA unterstützen, wurde dieses Thema gelöscht und zum Thema [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) umgeleitet. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.6.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23.-25. Mai 2023)
