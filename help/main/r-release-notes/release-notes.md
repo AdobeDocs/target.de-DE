@@ -7,7 +7,7 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 * **27. Juni**: Region Europa, Naher Osten und Afrika (EMEA)
 * **28. Juni**: Region Asien-Pazifik (APAC)
-* **29. Juni**: Amerikanische Region
+* **29. Juni**: Region Nord- und Südamerika
 
 Diese Version umfasst die folgenden Verbesserungen:
 
