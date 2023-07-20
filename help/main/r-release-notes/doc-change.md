@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 20. Juli | [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Die folgenden häufig gestellten Fragen wurden zur *Adobe Target-Entwicklerhandbuch*: Wie lässt sich verhindern, dass meine Site als iFrame unter ausländischen Domänen eingebettet wird? |
 | 10. Juli | [Überlegungen und bekannte Einschränkungen](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=de){target=_blank} | Informationen zur *Target-Bereitstellungs-API* Dokumentation zum Erzwingen von Header-Namen in Kleinbuchstaben über HTTP/2. |
 | 27. Juni | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitäts-QA ist jetzt für alle Target-Aktivitätstypen verfügbar, einschließlich AP-Aktivitäten ([!UICONTROL Automated Personalization]). Informationen zu Vorschau-Links wurden entfernt. |
 |  | Vorschau von URLs | Da alle Aktivitätstypen jetzt Aktivitäts-QA unterstützen, wurde dieses Thema gelöscht und zum Thema [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) umgeleitet. |
