@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Verbesserte Suche bei [Navigieren in Elementen mithilfe des DOM-Pfads](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) im [!UICONTROL Visual Experience Composer] (VEC), um Shadow-DOM-Elemente einzuschließen. (TGT-45262)
 * Es wurde ein Problem behoben, durch das die [Überlagerung ändern](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) -Einstellung ordnungsgemäß funktioniert. (TGT-45202)
 * Fehlerkorrektur - Jetzt können einige Kunden Aktivitätsberichte herunterladen, nachdem sie die folgende Fehlermeldung erhalten haben: &quot;Der Benutzer ist nicht berechtigt, auf den Bericht zuzugreifen.&quot; (TGT-45724 und TGT-45747)
-
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
