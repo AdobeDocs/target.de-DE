@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 81%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 81%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Adobe Target] Geplante Edge-Infrastrukturaktualisierung {#edge}
+
+Für die geplante Edge-Infrastrukturaktualisierung müssen zusätzliche IP-Adressen oder Domänen auf die Zulassungsliste gesetzt werden. Überprüfen Sie NAT und IP/Domänen auf die Zulassungsliste für Edge-Bereitstellungen 41-48. Infrastrukturaktualisierungen beginnen am 9. August 2023.
+&quot;
+
+Weitere Informationen finden Sie unter [Zulassungsliste Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24. bis 26. Juli)
 
