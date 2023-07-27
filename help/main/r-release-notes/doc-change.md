@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 20. Juli | [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Die folgenden häufig gestellten Fragen wurden zur *Adobe Target-Entwicklerhandbuch*: Wie lässt sich verhindern, dass meine Site als iFrame unter ausländischen Domänen eingebettet wird? |
+| 20. Juli | [Richtlinien zur Content Security Policy (CSP)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=de){target=_blank} | Die folgende häufig gestellte Frage wurde zum *Adobe Target-Entwicklerhandbuch* hinzugefügt: Wie kann ich zulassen oder verhindern, dass meine Site als iFrame unter ausländischen Domains eingebettet wird? |
 | 10. Juli | [Überlegungen und bekannte Einschränkungen](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=de){target=_blank} | Informationen zur *Target-Bereitstellungs-API* Dokumentation zum Erzwingen von Header-Namen in Kleinbuchstaben über HTTP/2. |
 | 27. Juni | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Aktivitäts-QA ist jetzt für alle Target-Aktivitätstypen verfügbar, einschließlich AP-Aktivitäten ([!UICONTROL Automated Personalization]). Informationen zu Vorschau-Links wurden entfernt. |
 |  | Vorschau von URLs | Da alle Aktivitätstypen jetzt Aktivitäts-QA unterstützen, wurde dieses Thema gelöscht und zum Thema [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) umgeleitet. |
