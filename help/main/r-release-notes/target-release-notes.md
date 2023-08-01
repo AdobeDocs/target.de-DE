@@ -5,9 +5,9 @@ title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL T
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24. bis 26. Juli)
+## [!DNL Target] Standard/Premium 23.7.1 (24.–26. Juli)
 
 Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 * **24. Juli**: Region Europa, Naher Osten und Afrika (EMEA)
 * **25. Juli**: Region Asien-Pazifik (APAC)
-* **26. Juli**: Amerikanische Region
+* **26. Juli**: Region Nord- und Südamerika
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Verbesserte Suche bei [Navigieren in Elementen mithilfe des DOM-Pfads](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) im [!UICONTROL Visual Experience Composer] (VEC), um Shadow-DOM-Elemente einzuschließen. (TGT-45262)
-* Es wurde ein Problem behoben, durch das die [Überlagerung ändern](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) -Einstellung ordnungsgemäß funktioniert. (TGT-45202)
-* Fehlerkorrektur - Jetzt können einige Kunden Aktivitätsberichte herunterladen, nachdem sie die folgende Fehlermeldung erhalten haben: &quot;Der Benutzer ist nicht berechtigt, auf den Bericht zuzugreifen.&quot; (TGT-45724 und TGT-45747)
+* Verbesserte Suche beim [Navigieren in Elementen mithilfe des DOM-Pfads](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) im [!UICONTROL Visual Experience Composer] (VEC), um Shadow-DOM-Elemente einzuschließen. (TGT-45262)
+* Es wurde ein Problem behoben, das verhinderte, dass die Einstellung [Überlagerung ändern](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ordnungsgemäß funktioniert. (TGT-45202)
+* Es wurde ein Fehler behoben, der verhinderte, dass einige Kundinnen und Kunden Aktivitätsberichte herunterladen konnten, nachdem sie die folgende Fehlermeldung erhalten hatten: „Benutzerin bzw. Benutzer ist nicht berechtigt, auf den Bericht zuzugreifen.“ (TGT-45724 und TGT-45747)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
