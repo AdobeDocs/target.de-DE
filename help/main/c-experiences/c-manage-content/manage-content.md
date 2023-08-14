@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der Angebotsb
 title: Wie verwalte ich Code- und Bildangebote?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -23,7 +23,7 @@ Verwenden Sie die [!UICONTROL Angebote] Bibliothek in [!DNL Adobe Target] zur Ve
 
    ![Angebotsseite mit den Registerkarten Code-Angebote und Bildangebote](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Typ]** Dropdown-Liste zum Filtern von Angeboten nach Typ (HTML-Angebot, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md)und [Ordner](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+1. (Optional) Klicken Sie auf die **[!UICONTROL Typ]** Dropdown-Liste zum Filtern von Angeboten nach Typ (HTML-Angebot, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md), und [Ordner](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
    ![offer_filter-Bild](assets/offers_filter.png)
 
@@ -60,11 +60,16 @@ Verwenden Sie die [!UICONTROL Angebote] Bibliothek in [!DNL Adobe Target] zur Ve
 
    Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
+   >[!NOTE]
+   >
+   >Bildangebote sind nicht Teil der [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) -Modell.
+
+
 ## Angebotsdefinitionen anzeigen {#section_6B059DD121434E6292CAB393507D010E}
 
-Sie können Details zur Angebotsdefinition auf einer Pop-up-Karte im [!UICONTROL Angebote] -Bibliothek, ohne das Angebot zu öffnen.
+Sie können Details zur Angebotsdefinition auf einer Popup-Karte im [!UICONTROL Angebote] -Bibliothek, ohne das Angebot zu öffnen.
 
-Beispielsweise wird auf die folgende Angebotsdefinitionskarte für ein HTML-Angebot zugegriffen, indem Sie den Mauszeiger über ein Angebot auf der Seite [!UICONTROL Inhalt] und klicken Sie auf das Informationssymbol:
+Beispielsweise wird auf die folgende Angebotsdefinitionskarte für ein HTML-Angebot zugegriffen, indem Sie den Mauszeiger über ein Angebot auf der Seite [!UICONTROL Inhalt] und klicken Sie dann auf das Informationssymbol:
 
 ![offer-card-html image](assets/offer-card-html.png)
 
@@ -83,7 +88,7 @@ Klicken Sie auf die Registerkarte [!UICONTROL Angebotsnutzung], um die Aktivitä
 
 Die folgende Angebotsdefinitionskarte für ein Umleitungsangebot:
 
-![Bild für Angebotskarte-Umleitung](assets/offer-card-redirect.png)
+![Angebotskarte-Umleitungsbild](assets/offer-card-redirect.png)
 
 Die folgenden Informationen sind verfügbar:
 
