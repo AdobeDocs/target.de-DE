@@ -1,13 +1,13 @@
 ---
-keywords: qa; qa-Modus; activity qa; qa url; qa urls; Vorschau-URL; Vorschau-URL
+keywords: qa; qa mode; activity qa; qa url; qa urls; Vorschau-URL; Vorschau-URL
 description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur einfachen End-to-End-Aktivitäts-QAs mit unveränderbaren Vorschaulinks, optionalem Zielgruppen-Targeting und QA-Berichten, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 39%
+source-wordcount: '1724'
+ht-degree: 36%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 
 Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivitäts-QA mit unveränderbaren Vorschaulinks, optionalem Zielgruppen-Targeting und QA-Berichten, die basierend auf Live-Aktivitätsdaten segmentiert bleiben.
 
-[!UICONTROL Aktivitäts-QA] Sie können Ihre [!DNL Target] -Aktivitäten, bevor sie live geschaltet werden. Die [!UICONTROL Aktivitäts-QA] umfasst:
+[!UICONTROL Aktivitäts-QA] ermöglicht die vollständige Prüfung der [!DNL Target] -Aktivitäten, bevor sie live geschaltet werden. Die [!UICONTROL Aktivitäts-QA] umfasst:
 
 * Links für die Freigabe für Team-Mitglieder, die sich nie ändern oder nie neu generiert werden müssen. Dies ist unabhängig von an den Erlebnissen oder Aktivitäten vorgenommenen Aktualisierungen. Mit dieser Funktion können Sie Ihre Aktivitäten auf der gesamten Benutzer-Journey vollständig testen.
 * Zielgruppenbedingungen werden optional respektiert, sodass Vermarkter Targeting-Kriterien testen oder Targeting-Kriterien für QA ignorieren können, ohne die Zielgruppenbedingungen erfüllen zu müssen.
@@ -29,7 +29,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 ## Zugreifen auf und Freigeben einer QA-URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. In einer Aktivität [!UICONTROL Übersicht] Seite, klicken Sie auf **[!UICONTROL Aktivitäts-QA]**.
+1. In einer Aktivität [!UICONTROL Übersicht] Seite, klicken **[!UICONTROL Aktivitäts-QA]**.
 
    ![Link „Aktivitäts-QA“](assets/qa_link.png)
 
@@ -57,19 +57,21 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
    Sie können auf der Site navigieren, um die anderen Seiten anzuzeigen, da die [!UICONTROL Aktivitäts-QA] -Modus hängt. Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Für at.js 1.*x* -Implementierungen verwenden, ist diese Situation nur dann wahr, wenn der Browser des Besuchers keine Drittanbieter-Cookies blockiert.
 
-1. Um Berichte anzuzeigen, die über Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die **[!UICONTROL Berichte]** klicken Sie auf die **[!UICONTROL Einstellungen]** Symbol (  ![icon_Zahnradbild](assets/icon_gear.png) ), wählen Sie **[!UICONTROL QA-Modus-Traffic]** von **[!UICONTROL Umgebung]** Dropdown-Liste.
+1. Um Berichte anzuzeigen, die über Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die **[!UICONTROL Berichte]** klicken Sie auf die **[!UICONTROL Einstellungen]** Symbol (  ![icon_Zahnradbild](assets/icon_gear.png) ), und wählen Sie **[!UICONTROL QA-Modus-Traffic]** aus dem **[!UICONTROL Umgebung]** Dropdown-Liste.
 
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Da Aktivitäts-QA jetzt für alle verfügbar ist [!DNL Target] Aktivitätstypen ist die Funktion &quot;Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs&quot;nicht mehr erforderlich.
 * [!UICONTROL Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. ] Das erneute Wiederholen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass diese Situation weiterhin eintritt, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
 * [!UICONTROL Aktivitäts-QA] URLs sind bei Aktivitäten mit [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Treffer, die bei der Qualitätssicherung mithilfe von [!UICONTROL Aktivitäts-QA] fließen in dieselbe Report Suite, in die die Daten der Aktivität fließen, auch wenn die Aktivität aktiv ist.
-* [!UICONTROL Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. ] Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut für [!UICONTROL Aktivitäts-QA] arbeiten.
+* [!UICONTROL Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. ] Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut für [!UICONTROL Aktivitäts-QA] zu arbeiten.
 * Importierte Aktivitäten in [!DNL Target Standard/Premium] (von [!DNL Target Classic](z. B.) keine QA-URLs unterstützen.
 * In [!UICONTROL Automatische Zuordnung] und [!UICONTROL Recommendations] -Aktivitäten, ist das Modell nicht von den Besuchen betroffen, die in [!UICONTROL Aktivitäts-QA].
-* [!UICONTROL Aktivitäts-QA] klebrig ist. Nachdem Sie eine Website in [!UICONTROL Aktivitäts-QA], Ihre [!DNL Target] -Sitzung muss ablaufen oder Sie müssen [!DNL Target] freigeben von [!UICONTROL Aktivitäts-QA] bevor Sie Ihre Site wie einen normalen Besucher anzeigen können. Verwenden Sie das [Target QS-Bookmarklet](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)[!UICONTROL , um das Beenden der Aktivitäts-QS zu erzwingen].
+* [!UICONTROL Aktivitäts-QA] klebrig ist. Nachdem Sie eine Website in [!UICONTROL Aktivitäts-QA], Ihre [!DNL Target] -Sitzung muss ablaufen oder Sie müssen [!DNL Target] freigeben von [!UICONTROL Aktivitäts-QA] bevor Sie Ihre Site wie einen normalen Besucher anzeigen können.
 
-  Sie können sich auch manuell selbst aus dem Modus lösen, indem Sie auf Ihrer Site eine Seite laden, wobei der Parameter `at_preview_token` einen leeren Wert hat (beispielsweise `https://www.mysite.com/?at_preview_token=`).
+   * **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* bereitgestellt wird.
+
+   * **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert (z. B. `https://www.mysite.com/?at_preview_token=`).
 
 * Wenn Sie bei der Erstellung der Aktivität &quot;URL ist&quot;angegeben haben [Verfeinerungen im formularbasierten Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-QA] hängt URL-Parameter an. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
 * Wenn Sie at.js 1.*x*, [!UICONTROL Aktivitäts-QA] -Modus hängt nicht an, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
@@ -84,15 +86,15 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
   | Parameter | Typ | Wert | Beschreibung |
   |--- |--- |--- |--- |
-  | `at_preview_token` | Verschlüsselte Zeichenfolge | Erforderlich; kein Standardwert | Eine verschlüsselte Entität, die die Liste der Kampagnen-IDs enthält, die im QA-Modus ausgeführt werden können. |
+  | `at_preview_token` | Verschlüsselte Zeichenfolge | Erforderlich; kein Standardwert | Eine verschlüsselte Entität mit der Liste der Kampagnen-IDs, die im QA-Modus ausgeführt werden können. |
   | `at_preview_index` | Zeichenfolge | Empty | Das Format des Parameters ist `<campaignIndex>` oder `<campaignIndex>_< experienceIndex>`<br>Beide Indexes beginnen mit 1. |
   | `at_preview_listed_activities_only` | Boolescher Wert (true/false) | Standardwert: false | Bei „true“ werden alle in den `at_preview_index`-Parametern angegebenen Kampagnen verarbeitet.<br>Bei „false“ werden alle Kampagnen der Seite bearbeitet, selbst wenn sie nicht im Vorschau-Token angegeben wurden. |
   | `at_preview_evaluate_as_true_audience_ids` | Zeichenfolge | Empty | Durch Unterstriche (_) getrennte Liste von segmentId-s, die immer (auf Targeting- und Berichtsebene) im Bereich der [!DNL Target] -Anfrage. |
   | `_AT_Debug` | Zeichenfolge | Fenster oder Konsole | Konsolenprotokollierung oder neues Fenster. |
   | `adobe_mc_ref` |  |  | Übergibt gibt die verweisende URL der Standardseite an die neue Seite. Bei der Nutzung mit `AppMeasurement.js`-Version 2.1 (oder höher) verwendet [!DNL Adobe Analytics] diesen Parameterwert als Verweis-URL auf der neuen Seite. |
-  | `adobe_mc_sdid` |  |  | Übergibt die [!DNL Supplemental Data Id] (SDID) und [!DNL Experience Cloud Org Id] von der Standardseite zur neuen Seite. Die Übergabe dieser IDs ermöglicht Folgendes: [!UICONTROL Analytics for Target] (A4T), um die [!DNL Target] -Anfrage auf der Standardseite mit der [!DNL Analytics] -Anfrage auf der neuen Seite. |
+  | `adobe_mc_sdid` |  |  | Übergibt die [!DNL Supplemental Data Id] (SDID) [!DNL Experience Cloud Org Id] von der Standardseite zur neuen Seite. Die Übergabe dieser IDs ermöglicht [!UICONTROL Analytics for Target] (A4T), um die [!DNL Target] -Anfrage auf der Standardseite mit der [!DNL Analytics] -Anfrage auf der neuen Seite. |
 
-* Die [!UICONTROL Target QA-Modus] Die Benutzeroberfläche zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird angenommen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
+* Die [!UICONTROL Target-QA-Modus] Die Benutzeroberfläche zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird angenommen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
 * Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Das Problem lässt sich in der Regel durch regelmäßige Archivierung nicht mehr aktiv verwendeter gespeicherter Aktivitäten verhindern.
 
 ## Kompatibilität der JavaScript-Target-Bibliothek [!UICONTROL QA-Modus] {#compatibility}
