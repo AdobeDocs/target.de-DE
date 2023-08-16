@@ -7,9 +7,9 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Für die geplante Aktualisierung der Edge-Infrastruktur müssen zusätzliche IP-
 
 Weitere Informationen finden Sie unter [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
-## [!DNL Target] Standard/Premium 23.8.1 (9. August 2023)
+## [!DNL Target] Standard/Premium 23.8.1 (9. August 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Fehlerkorrektur - Aktivitäten können jetzt ordnungsgemäß synchronisiert werden, wie im Abschnitt[!UICONTROL Status]&quot; in der Spalte [!UICONTROL Aktivität] Listenseite. (TGT-46010 und TGT-44831)
-* Es wurde ein Problem behoben, durch das manchmal die[!UICONTROL In Analytics anzeigen]&quot;-Link wird auf der Seite [!UICONTROL Berichte] Seite der Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-45808)
-* Die Darstellung der Werte in Tabellen wurde so angepasst, dass sie anstelle von Zahlen mit Dezimalstellen als Prozentwerte angezeigt werden. Beispiel: 8 % anstelle von 0,08. (TGT-45548)
-* Es wurde ein Problem behoben, durch das Kunden den Tastaturfokus nicht zum nächsten Element im [!UICONTROL Ziele und Einstellungen] Seite für [!UICONTROL Erlebnis-Targeting] (XT). (TGT-44526)
-* Es wurde ein Problem behoben, durch das der Tastaturfokus nach dem Öffnen der[!UICONTROL Zielgruppen hinzufügen]&quot;, während Sie eine Aktivität erstellen. (TGT-44525)
+* Es wurde ein Fehler behoben, durch den manchmal Aktivitäten nicht ordnungsgemäß synchronisiert wurden, wie in der Spalte „[!UICONTROL Status]“ auf der Listenseite [!UICONTROL Aktivität] zu sehen war. (TGT-46010 und TGT-44831)
+* Es wurde ein Problem behoben, durch das manchmal der Link „[!UICONTROL In Analytics anzeigen]“ auf der Seite [!UICONTROL Berichte] von Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden, nicht angezeigt wurde. (TGT-45808)
+* Die Darstellung der Werte in Tabellen wurde so angepasst, dass sie anstelle von Dezimalzahlen als Prozentwerte angezeigt werden. Beispiel: 8 % anstelle von 0,08. (TGT-45548)
+* Es wurde ein Problem behoben, durch das Kundinnen und Kunden für Aktivitäten von [!UICONTROL Experience Targeting] (XT) den Tastaturfokus nicht dazu verwenden konnten, auf der Seite [!UICONTROL Ziele und Einstellungen] zum nächsten Element zu gehen. (TGT-44526)
+* Es wurde ein Problem behoben, durch das die Tastatur nach dem Öffnen des Dialogfelds [!UICONTROL Zielgruppen hinzufügen] den Fokus verlor, während eine Aktivität erstellt wurde. (TGT-44525)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
