@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließ
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
-### Strategien für maximale ROI-Auswirkungen mit Vorbereitung auf die Spitzensaison
+### Strategize for maximum ROI impact with peak season readiness
 
 * **Donnerstag, 17. August 2023**
 * **8:00-9:00 Uhr (PDT, UTC-7)**
 * **[Hier registrieren](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Anspannende Kundenerlebnisse zur Steigerung der Konversionsraten bereitstellen. Ist Ihr Unternehmen bereit für die Hochsaison? Treten Sie uns bei und erhalten Sie Tipps, wie Sie diesmal optimale Leistung und maximalen ROI erzielen können.
+Liefern Sie fesselnde Kundenerlebnisse, um die Konversionsraten zu steigern. Ist Ihr Unternehmen bereit für die Spitzensaison? Nehmen Sie bei uns teil und erhalten Sie Tipps, wie Sie diesmal optimale Leistung und maximalen ROI erzielen können.
 
-++ + Siehe Details
++++Siehe Details
 
-Schließen Sie sich John Magnusson, Adobe Customer Success Manager, und Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc., an, um Strategien zu erlernen, die sich auf Ihr Saisonvorbereitungsprogramm auswirken.
+Schließen Sie sich John Magnusson, Adobe Customer Success Manager, und Katherine Klein, Director – MarTech &amp; AdTech Solutions, Macy&#39;s Inc., an, um Strategien zu erfahren, die sich erheblich auf Ihr Programm zur Vorbereitung auf die Spitzensaison auswirken werden.
 
 Abgedeckte Themen:
 
-* Dashboards und Berichtschlüsselmetriken effektiv erstellen
-* Auswirkungen der einzelnen Marketing-Kanäle untersuchen
-* Tief in das Kundenverhalten und die Einkaufstrends eintauchen
-* Erkennung schlechter Kundenerlebnisse und deren Verbesserung durch Tests
-* Erfahren Sie mehr über die Möglichkeiten zur Förderung der Site-Konversion.
+* Effektives Erstellen von Dashboards und Berichtschlüsselmetriken
+* Untersuchen der Auswirkung jedes einzelnen Marketing-Kanals
+* Ein genauer Blick auf Kundenverhalten und Einkaufs-Trends
+* Schlechte Kundenerlebnisse erkennen und mithilfe von Tests verbessern
+* Chancenbereiche entdecken, um die Site-Konversionen zu steigern
 
 +++
 
