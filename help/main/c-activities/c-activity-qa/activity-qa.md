@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4742b1fd801b8143f45f719dfef9d46344843c2a
+source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 35%
@@ -71,9 +71,13 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
    * **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* bereitgestellt wird.
 
-   * **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert (z. B. `https://www.mysite.com/?at_preview_token=`).
+   * **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert. Beispiel:
 
-   * **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert (z. B. `https://www.mysite.com/?at_qa_mode=`).
+     `https://www.mysite.com/?at_preview_token=`
+
+   * **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert. Beispiel:
+
+     `https://www.mysite.com/?at_qa_mode=`
 
 * Wenn Sie bei der Erstellung der Aktivität &quot;URL ist&quot;angegeben haben [Verfeinerungen im formularbasierten Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-QA] hängt URL-Parameter an. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
 * Wenn Sie at.js 1.*x*, [!UICONTROL Aktivitäts-QA] -Modus hängt nicht an, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
