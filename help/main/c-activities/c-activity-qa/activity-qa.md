@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1767'
 ht-degree: 35%
 
 ---
@@ -59,6 +59,20 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 1. Um Berichte anzuzeigen, die über Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die **[!UICONTROL Berichte]** klicken Sie auf die **[!UICONTROL Einstellungen]** Symbol (  ![icon_Zahnradbild](assets/icon_gear.png) ), und wählen Sie **[!UICONTROL QA-Modus-Traffic]** aus dem **[!UICONTROL Umgebung]** Dropdown-Liste.
 
+## Freigeben im QA-Modus
+
+[!UICONTROL Aktivitäts-QA] klebrig ist. Nachdem Sie eine Website in [!UICONTROL Aktivitäts-QA], Ihre [!DNL Target] -Sitzung muss ablaufen oder Sie müssen [!DNL Target] freigeben von [!UICONTROL Aktivitäts-QA] bevor Sie Ihre Site wie einen normalen Besucher anzeigen können.
+
+* **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* bereitgestellt wird.
+
+* **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert. Beispiel:
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert. Beispiel:
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## Zu beachten {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Da Aktivitäts-QA jetzt für alle verfügbar ist [!DNL Target] Aktivitätstypen ist die Funktion &quot;Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs&quot;nicht mehr erforderlich.
@@ -67,18 +81,6 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 * [!UICONTROL Aktivitäts-QA zeigt keinen Inhalt für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum vorüber ist. ] Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut für [!UICONTROL Aktivitäts-QA] zu arbeiten.
 * Importierte Aktivitäten in [!DNL Target Standard/Premium] (von [!DNL Target Classic](z. B.) keine QA-URLs unterstützen.
 * In [!UICONTROL Automatische Zuordnung] und [!UICONTROL Recommendations] -Aktivitäten, ist das Modell nicht von den Besuchen betroffen, die in [!UICONTROL Aktivitäts-QA].
-* [!UICONTROL Aktivitäts-QA] klebrig ist. Nachdem Sie eine Website in [!UICONTROL Aktivitäts-QA], Ihre [!DNL Target] -Sitzung muss ablaufen oder Sie müssen [!DNL Target] freigeben von [!UICONTROL Aktivitäts-QA] bevor Sie Ihre Site wie einen normalen Besucher anzeigen können.
-
-   * **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* bereitgestellt wird.
-
-   * **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert. Beispiel:
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert. Beispiel:
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * Wenn Sie bei der Erstellung der Aktivität &quot;URL ist&quot;angegeben haben [Verfeinerungen im formularbasierten Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-QA] hängt URL-Parameter an. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
 * Wenn Sie at.js 1.*x*, [!UICONTROL Aktivitäts-QA] -Modus hängt nicht an, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Wenn eine Aktivität mehrere Erlebniszielgruppen verwendet (z. B. eine Site aus den USA und Großbritannien, die in derselben Aktivität enthalten sind), werden für die vier Kombinationen (Erlebnis A/US Site, Erlebnis A/UK Site, Erlebnis B/US Site, Erlebnis B/UK Site) keine QA-Links generiert. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine QA-Person aus Großbritannien kann die US-Site nicht sehen.
