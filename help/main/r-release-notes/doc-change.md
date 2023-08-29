@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
+source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1665'
 ht-degree: 94%
 
 ---
@@ -19,8 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 29. August | S[Unterstützte Funktionen für geräteübergreifende Entscheidungen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei der Verwendung von On-Device Decisioning (ODD) unterstützt werden. |
-|  | [Übersicht über On-device Decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei der Verwendung von On-Device Decisioning (ODD) unterstützt werden. |
+| 29. August | [Unterstützte Funktionen für die geräteinterne Entscheidungsfindung](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei clientseitiger Verwendung von Entscheidungsfindung auf dem Gerät (ODD) unterstützt werden. |
+|  | [Übersicht über On-device Decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei der serverseitigen Verwendung der On-Device Decisioning (ODD) unterstützt werden. |
 |  | [Implementieren von Target mit dem AEP Mobile SDK in eine native App mit Webansichten](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Neuer Artikel. |
 |  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen über die bevorstehende Adobe Target Community Coffee Break (30. August 2023) hinzugefügt: &quot;Strategize for maximum ROI Impact with Spitzensaisonbereitschaft&quot; Webinar-Follow-up. |
 | 14. August | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Es wurden Informationen hinzugefügt, die klarstellen, dass das Laden einer Seite auf Ihrer Site mit einem leeren Wert das QA-Cookie *nicht* aus dem Browser entfernt, wenn at.js 2.*x* eingesetzt wird. |
