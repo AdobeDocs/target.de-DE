@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unterne
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
 source-wordcount: '3898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,19 +41,19 @@ Es gibt jedoch zwei Situationen, in denen es sich lohnt, sehr genau auf das Konf
 
 * **Segmentierung nach dem Test:** Marketingexperten bearbeiten die Ergebnisse eines Tests häufig basierend auf Besuchersegmenten, nachdem der A/B-Test beendet ist. Gängige Segmente sind der Browsertyp, der Gerätetyp, geografische Regionen, Tageszeit und neue Besucher im Vergleich zu zurückkehrenden Besuchern. Diese Praxis der Segmentierung nach dem Test liefert ausgezeichnete Einblicke in Besuchersegmente. Im Gegenzug können Marketingexperten diese Einblicke nutzen, um zielgerichtetere, relevantere und differenziertere Inhalte zu erstellen.
 
-   Wenn kein realer Unterschied der Konversionsrate vorliegt, entspricht die Wahrscheinlichkeit eines falsch-positiven Ergebnisses bei jedem Test eines Segments dem Signifikanzniveau. Und, wie bereits erwähnt, mit der Anzahl der durchgeführten Tests steigt die Wahrscheinlichkeit, mindestens ein falsch-positives Testergebnis zu erhalten. Im Grunde entspricht jedes nach dem Test erstellte Segment einem separaten Test. Mit einem Signifikanzniveau von 5 % erhalten Sie im Durchschnitt jedes Mal ein falsch-positives Ergebnis, sobald Sie 20 nach dem Test erstellte Segmente untersuchen. Die obige Abbildung zeigt, wie die Wahrscheinlichkeit ansteigt.
+  Wenn kein realer Unterschied der Konversionsrate vorliegt, entspricht die Wahrscheinlichkeit eines falsch-positiven Ergebnisses bei jedem Test eines Segments dem Signifikanzniveau. Und, wie bereits erwähnt, mit der Anzahl der durchgeführten Tests steigt die Wahrscheinlichkeit, mindestens ein falsch-positives Testergebnis zu erhalten. Im Grunde entspricht jedes nach dem Test erstellte Segment einem separaten Test. Mit einem Signifikanzniveau von 5 % erhalten Sie im Durchschnitt jedes Mal ein falsch-positives Ergebnis, sobald Sie 20 nach dem Test erstellte Segmente untersuchen. Die obige Abbildung zeigt, wie die Wahrscheinlichkeit ansteigt.
 
-   Wie oben bereits erwähnt ist die Wahrscheinlichkeit, dass Sie mindestens ein falsches Positiv unter diesen Tests erhalten, größer, je mehr Tests Sie durchführen. Im Wesentlichen stellt jedes Post-Test-Segment einen separaten Test dar, was die Wahrscheinlichkeit eines falschen Positivs erhöht. Dieser Anstieg kann noch deutlicher ausfallen, wenn die Segmente korreliert werden.
+  Wie oben bereits erwähnt ist die Wahrscheinlichkeit, dass Sie mindestens ein falsches Positiv unter diesen Tests erhalten, größer, je mehr Tests Sie durchführen. Im Wesentlichen stellt jedes Post-Test-Segment einen separaten Test dar, was die Wahrscheinlichkeit eines falschen Positivs erhöht. Dieser Anstieg kann noch deutlicher ausfallen, wenn die Segmente korreliert werden.
 
-   Sollten Sie daher keine Segmentierung nach dem Test durchführen? Nein, nach dem Test erstellte Segmente sind wertvoll. Um dieses kumulative Problem mit falsch-positiven Ergebnissen bei der Segmentierung nach dem Test zu vermeiden, sollten Sie ein Segment nach der Identifizierung stattdessen in einem neuen Test testen. Alternativ können Sie die im Folgenden vorgestellte Bonferroni-Korrektur anwenden.
+  Sollten Sie daher keine Segmentierung nach dem Test durchführen? Nein, nach dem Test erstellte Segmente sind wertvoll. Um dieses kumulative Problem mit falsch-positiven Ergebnissen bei der Segmentierung nach dem Test zu vermeiden, sollten Sie ein Segment nach der Identifizierung stattdessen in einem neuen Test testen. Alternativ können Sie die im Folgenden vorgestellte Bonferroni-Korrektur anwenden.
 
 * **Testen mehrerer Angebote:** Marketingexperten testen häufig mehr als zwei Angebote (oder Erlebnisse) gegeneinander. Aus diesem Grund gibt es Lösungen für A/B-Tests, die als A/B/n-Tests bezeichnet werden, wobei n für die Anzahl der gleichzeitig getesteten Angebote steht.
 
-   Es ist wichtig, zu beachten, dass *jedes* getestete Angebot eine Falsch-Positiv-Rate in der Höhe des oben beschriebenen Signifikanzniveaus besitzt. Auch hierbei werden im Grunde mehrere Tests durchgeführt, wenn mehrere Angebote in einer einzigen Testumgebung miteinander verglichen werden. Wenn Sie z. B. fünf Angebote in einem A/B/C/D/E-Test vergleichen, bilden Sie damit vier Vergleiche: Kontrolle mit B, Kontrolle mit C, Kontrolle mit D, Kontrolle mit E. Mit einem Konfidenzniveau von 95 % ergibt sich anstelle einer 5-prozentigen Wahrscheinlichkeit für ein falsch-positives Ergebnis tatsächlich eine Wahrscheinlichkeit von 18,5 %. 2
+  Es ist wichtig, zu beachten, dass *jedes* getestete Angebot eine Falsch-Positiv-Rate in der Höhe des oben beschriebenen Signifikanzniveaus besitzt. Auch hierbei werden im Grunde mehrere Tests durchgeführt, wenn mehrere Angebote in einer einzigen Testumgebung miteinander verglichen werden. Wenn Sie z. B. fünf Angebote in einem A/B/C/D/E-Test vergleichen, bilden Sie damit vier Vergleiche: Kontrolle mit B, Kontrolle mit C, Kontrolle mit D, Kontrolle mit E. Mit einem Konfidenzniveau von 95 % ergibt sich anstelle einer 5-prozentigen Wahrscheinlichkeit für ein falsch-positives Ergebnis tatsächlich eine Wahrscheinlichkeit von 18,5 %. 2
 
-   Um Ihr Konfidenzniveau insgesamt bei 95 % zu halten und dieses Problem zu vermeiden, können Sie die Bonferroni-Korrektur anwenden. Mithilfe dieser Korrektur wird das Signifikanzniveau einfach durch die Anzahl der Vergleiche geteilt, um das benötigte Signifikanzniveau zu erhalten, mit dem Sie ein Konfidenzniveau von 95 % erzielen.
+  Um Ihr Konfidenzniveau insgesamt bei 95 % zu halten und dieses Problem zu vermeiden, können Sie die Bonferroni-Korrektur anwenden. Mithilfe dieser Korrektur wird das Signifikanzniveau einfach durch die Anzahl der Vergleiche geteilt, um das benötigte Signifikanzniveau zu erhalten, mit dem Sie ein Konfidenzniveau von 95 % erzielen.
 
-   Wenn die Bonferroni-Korrektur auf das obige Beispiel angewendet wird, verwenden Sie ein Signifikanzniveau von 5 % / 4 = 1,25 %, was einem Konfidenzniveau von 98,75 % für einen einzelnen Test entspricht (100 % - 1,25 % = 98,75 %). Durch diese Anpassung wird das effektive Konfidenzniveau bei 95 % gehalten, wenn Sie, wie in unserem Beispiel, vier Tests durchführen.
+  Wenn die Bonferroni-Korrektur auf das obige Beispiel angewendet wird, verwenden Sie ein Signifikanzniveau von 5 % / 4 = 1,25 %, was einem Konfidenzniveau von 98,75 % für einen einzelnen Test entspricht (100 % - 1,25 % = 98,75 %). Durch diese Anpassung wird das effektive Konfidenzniveau bei 95 % gehalten, wenn Sie, wie in unserem Beispiel, vier Tests durchführen.
 
 ## Fehler Nr. 2: Gewinner von Tests mehrerer Angebote werden bestimmt, obwohl kein statistisch signifikanter Unterschied vorhanden ist {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
@@ -81,7 +81,7 @@ Die Marketingexperten von heute erzielen aus einer beachtlichen Anzahl an Tests 
 
 Damit Ihre Tests die gewünschte Leistung bringen, beachten Sie, dass zu einem gängigen Standard für einen leistungsstarken Test ein Konfidenzniveau von 95 % und eine Teststärke von 80 % gehören. Ein solcher Test bietet eine Wahrscheinlichkeit von 95 %, dass es nicht zu falsch-positiven Ergebnissen kommt, und eine Wahrscheinlichkeit von 80 %, dass falsch-negative Ergebnisse ausbleiben.
 
-## Schritt 4. Verwendung von einseitigen Tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Fehler 4: Verwendung von einseitigen Tests {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Bei einseitigen Tests wird ein kleinerer beobachteter Unterschied der Konversionsraten von Angeboten benötigt, um einen Gewinner für ein bestimmtes Signifikanzniveau zu bestimmen. Dies erscheint verlockend, da Gewinner schneller und häufiger als mit zweiseitigen Tests bestimmt werden können. Aber alles hat seinen Preis, auch einseitige Tests.
 
@@ -127,7 +127,7 @@ Wenn Sie die Zuordnungsaufteilung für Erlebnis B manuell auf 100 % ändern, ble
 Wenn Sie die Prozentsätze ändern oder den Besucherfluss zu den einzelnen Erlebnissen erheblich verändern möchten, empfehlen wir, eine neue Aktivität zu erstellen oder die Aktivität zu kopieren und dann die Traffic-Zuordnungsprozentsätze zu bearbeiten.
 
 Wenn Sie die Prozentsätze für verschiedene Erlebnisse während des Testzeitraums ändern, dauert es einige Tage, bis sich die Daten normalisieren, insbesondere wenn viele Käufer wiederkehrende Besucher sind.
-Ein anderes Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests im Verhältnis 50/50 aufgeteilt ist und Sie die Aufteilung in 80/20 ändern, können die Ergebnisse in den ersten Tagen verzerrt sein. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. die Durchführung eines Kaufs mehrere Stunden oder sogar Tage in Anspruch nehmen kann, können sich diese verzögerten Konversionen auf die Berichte auswirken. Daher werden für das erste Erlebnis, bei dem der Wert von 50 % in 80 % geändert wurde und die durchschnittliche Konversionszeit 2 Tage beträgt, am ersten Tag des Tests nur Besucher von 50 % der Zielgruppe einkaufen, obwohl an dem Tag 80 % der Zielgruppe das Erlebnis aufrufen. Daher scheint es so, als wäre die Konversionsrate stark gesunken, doch normalisiert sich dies wieder, wenn die 80 % der Besucher nach 2 Tagen einen Kauf getätigt haben.
+Wenn die Traffic-Zuordnung Ihres A/B-Tests beispielsweise auf 50/50 aufgeteilt ist und Sie dann die Aufteilung auf 80/20 ändern, können die Ergebnisse in den ersten Tagen nach dieser Änderung verfälscht aussehen. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. die Durchführung eines Kaufs mehrere Stunden oder sogar Tage in Anspruch nehmen kann, können sich diese verzögerten Konversionen auf die Berichte auswirken. Daher werden für das erste Erlebnis, bei dem der Wert von 50 % in 80 % geändert wurde und die durchschnittliche Konversionszeit 2 Tage beträgt, am ersten Tag des Tests nur Besucher von 50 % der Zielgruppe einkaufen, obwohl an dem Tag 80 % der Zielgruppe das Erlebnis aufrufen. Daher scheint es so, als wäre die Konversionsrate stark gesunken, doch normalisiert sich dies wieder, wenn die 80 % der Besucher nach 2 Tagen einen Kauf getätigt haben.
 
 ## Fehler Nr. 8: Der Neuigkeitseffekt wird nicht berücksichtigt {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 

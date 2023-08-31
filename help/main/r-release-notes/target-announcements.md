@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+workflow-type: tm+mt
+source-wordcount: '2241'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,38 @@ ht-degree: 100%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
+## [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (30. August 2023)
+
+* **Thema: Webinar-Follow-up: &quot;Strategien für maximale ROI-Wirkung mit Vorbereitung auf die Spitzensaison&quot;**
+* **Mittwoch, 30. August 2023**
+* **8:00-9:00 Uhr (PDT, UTC-7)**
+* **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] Die Experten John Magnusson und John Mosbaugh werden bei dieser &quot;Fragen-ich-alles&quot;-Veranstaltung zur Beantwortung Ihrer Fragen zu den Themen des Webinars &quot;Strategien für maximale ROI-Auswirkungen mit Spitzensaisonbereitschaft&quot;(17. August 2023) zur Verfügung stehen.
+
++++Siehe Details
+
+Abgedeckte Themen:
+
+* Effektives Erstellen von Dashboards und Berichten zu Schlüsselmetriken
+* Auswirkungen der einzelnen Marketing-Kanäle
+* Vertiefung des Kundenverhaltens und der Einkaufstrends
+* Erkennung schlechter Kundenerlebnisse und deren Verbesserung durch Tests
+* Ermitteln von Möglichkeiten zur Förderung der Site-Konversion
+
++++
+
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
 Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
 
-### Strategize for maximum ROI impact with peak season readiness
+Keine geplant zu diesem Zeitpunkt.
 
-* **Donnerstag, 17. August 2023**
-* **8:00-9:00 Uhr (PDT, UTC-7)**
-* **[Hier registrieren](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## Aufzeichnungen früherer Webinare und Schulungen
+
+Auf Aufzeichnungen vergangener Ereignisse zugreifen (sofern verfügbar):
+
+### Strategize for maximum ROI impact with peak season readiness
 
 Liefern Sie fesselnde Kundenerlebnisse, um die Konversionsraten zu steigern. Ist Ihr Unternehmen bereit für die Spitzensaison? Nehmen Sie bei uns teil und erhalten Sie Tipps, wie Sie diesmal optimale Leistung und maximalen ROI erzielen können.
 
@@ -40,10 +63,6 @@ Abgedeckte Themen:
 * Chancenbereiche entdecken, um die Site-Konversionen zu steigern
 
 +++
-
-## Aufzeichnungen früherer Webinare und Schulungen
-
-Auf Aufzeichnungen vergangener Ereignisse zugreifen (sofern verfügbar):
 
 ### Optimierung der mobilen Erlebnisse und Personalisierung für authentifizierte Umgebungen (26. April 2023)
 
