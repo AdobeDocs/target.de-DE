@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Aktivitätseinrichtung bei der Verwendung 
 title: Wo finde ich häufig gestellte Fragen zu Aktivitätseinstellungen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ Weitere Informationen finden Sie unter &quot;Warum kann ich beim Konfigurieren m
 ## Ich habe soeben eine Aktivität erstellt. Warum werden keine Daten angezeigt? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++Antwort Wenn eine Aktivität erstellt wird, [!DNL Target] sendet eine Classification-Datei an [!DNL Analytics]. Obwohl [!DNL Analytics] erfasst und verarbeitet die Daten, wird dies erst nach Aktualisierung der Classification-Datei in den Berichten angezeigt. Dieser Vorgang kann bis zu 24 Stunden dauern. Wenn Ihre Daten auch nach 48 Stunden noch nicht angezeigt werden, [wenden Sie sich an den Kundendienst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Wenn Sie wissen, dass Sie eine Aktivität starten, können Sie die Aktivität auch ein paar Tage zuvor erstellen und die Classifications werden bei der Speicherung der Aktivität gesendet. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es 45-90 Minuten dauert, bis Daten in [!DNL Analytics].
++++Antwort Bei Erstellung einer Aktivität [!DNL Target] sendet eine Classification-Datei an [!DNL Analytics]. Obwohl [!DNL Analytics] erfasst und verarbeitet die Daten, wird dies erst nach Aktualisierung der Classification-Datei in den Berichten angezeigt. Dieser Vorgang kann 24 bis 72 Stunden dauern. Wenn Ihre Daten nach 72 Stunden nicht mehr angezeigt werden, [Kundenunterstützung kontaktieren](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Wenn Sie wissen, dass Sie eine Aktivität starten, können Sie die Aktivität auch ein paar Tage zuvor erstellen und die Classifications werden bei der Speicherung der Aktivität gesendet. Dadurch werden Ihre Daten gleich beim Start in den Berichten angezeigt. Bitte beachten Sie, dass es 45-90 Minuten dauert, bis Daten in [!DNL Analytics].
 
 +++
 
@@ -43,11 +43,11 @@ Weitere Informationen finden Sie unter &quot;Warum kann ich beim Konfigurieren m
 1. In [!DNL Target]klicken **[!UICONTROL Administration]**.
 1. Klicken Sie in der Dropdownliste **[!UICONTROL Für die Berichterstellung verwendete Experience Cloud-Lösung]** auf **[!UICONTROL Pro Aktivität auswählen]**.
 
-![Abbild &quot;select-per-activity&quot;](assets/select-per-activity.png)
+![Abbild auswählen pro Aktivität](assets/select-per-activity.png)
 
 Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **[!UICONTROL Ziele und Einstellungen]** für Erstellungs- und Bearbeitungsaktivitäten aktiviert.
 
-Verwendung von [!DNL Analytics] als Berichtsquelle auswählen **[!UICONTROL Adobe Analytics]** aus der Dropdownliste in [!UICONTROL Administration].
+Verwenden Sie immer [!DNL Analytics] als Berichtsquelle auswählen **[!UICONTROL Adobe Analytics]** aus der Dropdown-Liste in [!UICONTROL Administration].
 
 +++
 
@@ -66,6 +66,6 @@ Wenn die Prozentsätze nicht während der Aktivität angepasst werden, wird ein 
 
 ## Kann ich ein Binomialsystem verwenden? [!DNL Analytics] Metrik mit einem Segment, das als Optimierungsziel in einer [!UICONTROL Automatische Zuordnung] Aktivität? {#binomial}
 
-+++Antwort Sie können keine [!DNL Analytics] Metrik mit einem Segment, das als Optimierungsziel in einer [!UICONTROL Automatische Zuordnung] Aktivität. Als Problemumgehung können Sie ein benutzerspezifisches Ereignis definieren, das dasselbe Ziel erreicht und als Optimierungszielmetrik verwendet.
++++Antwort Sie können keine [!DNL Analytics] Metrik mit einem Segment, das als Optimierungsziel in einer [!UICONTROL Automatische Zuordnung] -Aktivität. Als Problemumgehung können Sie ein benutzerspezifisches Ereignis definieren, das dasselbe Ziel erreicht und als Optimierungszielmetrik verwendet.
 
 +++
