@@ -5,7 +5,7 @@ title: Wie konfiguriere ich die Berichterstellung in Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 31%
@@ -33,7 +33,7 @@ Sie können die folgenden Einstellungen auf dieser Seite angeben:
 
 ![Berichtseite](/help/main/administrating-target/assets/reporting.png)
 
-## Reporting Cloud-Lösung
+## Reporting Cloud-Lösung {#solution}
 
 Festlegen von Optionen, mit denen bestimmt wird, welche Daten für Ergebnisse und Berichte verwendet werden
 
@@ -43,12 +43,12 @@ Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
 * Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie Aktivitäten, die als Berichtsquelle verwenden, nicht aktivieren. [!DNL Analytics] Sie müssen die Berichtsquelle in [!DNL Target] in Ihrer Aktivität oder ändern Sie die Berichtsquelle in **[!UICONTROL Pro Aktivität auswählen]** in **[!UICONTROL Administration] > [!UICONTROL Berichterstellung]**.
 * Wenn die Berichtsquelle auf **[!DNL Analytics]** Sie dürfen hier keine Aktivität aktivieren, die [!DNL Target] als Berichtsquelle angeben (die Berichtsquelle wird angegeben als **[!UICONTROL Zielgruppe pro Aktivität])**. Sie müssen die Berichtsquelle in [!DNL Analytics] in Ihrer Aktivität oder ändern Sie die Reporting-Engine in **[!UICONTROL Pro Aktivität auswählen]** in **[!UICONTROL Administration] > [!UICONTROL Berichterstellung]**.
-* Wenn die Berichtsquelle auf **[!UICONTROL Pro Aktivität auswählen]** Sie können hier Aktivitäten erstellen, aktivieren und deaktivieren, die von der ausgewählten Berichtsquelle unterstützt werden. Eine Matrix der unterstützten Aktivitäten finden Sie unter [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
-* [!UICONTROL Automated Personalization] (AP) Die Erstellung, Aktivierung und Deaktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Automated Personalization-Aktivitäten werden bei der Auswahl von [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Auch wenn [!DNL Analytics] als Berichtsquelle verwenden, [!DNL Target] wird als Berichtsquelle für Automated Personalization-Aktivitäten verwendet. Weitere Informationen finden Sie unter [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
+* Wenn die Berichtsquelle auf **[!UICONTROL Pro Aktivität auswählen]** Sie können hier Aktivitäten erstellen, aktivieren und deaktivieren, die von der ausgewählten Berichtsquelle unterstützt werden. Eine Matrix der unterstützten Aktivitäten finden Sie unter [Unterstützte Aktivitättypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
+* [!UICONTROL Automated Personalization] (AP) Die Erstellung, Aktivierung und Deaktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Automated Personalization-Aktivitäten werden bei der Auswahl von [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Auch wenn [!DNL Analytics] als Berichtsquelle verwenden, [!DNL Target] wird als Berichtsquelle für Automated Personalization-Aktivitäten verwendet. Weitere Informationen finden Sie unter [Unterstützte Aktivitättypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
 
-## Zeitzone für die Berichterstellung
+## Zeitzone für Reporting
 
-Geben Sie die Zeitzone für die Berichterstellung an.
+Geben Sie die Zeitzone an, die für die Berichterstellung verwendet werden soll.
 
 ## Währung für die Berichterstellung
 
