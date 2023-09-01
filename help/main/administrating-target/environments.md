@@ -1,14 +1,14 @@
 ---
 keywords: Umgebung; Fehlerbehebung; Best Practices; Ubox; Umleitungen; Umleitung; Whitelist; Blacklist; Blockierungsliste; Zulassungsliste
-description: Erfahren Sie, wie Sie Umgebungen in Adobe verwenden [!DNL Target] um Ihre Sites und Umgebungen vor der Produktion zu organisieren, um eine einfache Verwaltung und separate Berichterstattung zu ermöglichen.
+description: Erfahren Sie, wie Sie Umgebungen auf dem Adobe verwenden [!DNL Target] um Ihre Sites und Umgebungen vor der Produktion zu organisieren, um eine einfache Verwaltung und separate Berichterstattung zu ermöglichen.
 title: Was sind Umgebungen und wie wende ich sie an?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 58%
+source-wordcount: '709'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 58%
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separate Berichterstattung.
 
-Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. Zu den voreingestellten Umgebungen gehören [!UICONTROL Produktion], [!UICONTROL Staging]und [!UICONTROL Entwicklung]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
+Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. Zu den voreingestellten Umgebungen gehören [!UICONTROL Produktion], [!UICONTROL Staging], und [!UICONTROL Entwicklung]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
 
 Eine Umgebung, die Standardumgebung, ist vorbenannt [!UICONTROL Produktion]. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
 
@@ -28,7 +28,7 @@ Um Umgebungen zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **
 
 ## Hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Aus dem [!UICONTROL Umgebungen] Liste, klicken Sie auf **[!UICONTROL Umgebung hinzufügen]**.
+1. Aus dem [!UICONTROL Umgebungen] Liste, klicken Sie **[!UICONTROL Umgebung hinzufügen]**.
 1. Geben Sie einen beschreibenden Namen für die Umgebung an.
 1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
 
@@ -49,6 +49,8 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 >[!NOTE]
 >
 >[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
+>
+>Wenn Sie eine [Standardumgebung in einem Adobe Experience Platform-Datenspeicher](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, überschreibt diese Umgebung die Einstellung in [!DNL Target Recommendations].
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
