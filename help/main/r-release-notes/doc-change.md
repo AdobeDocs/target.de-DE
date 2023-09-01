@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 92%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 1. September | [Umgebungen](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | Der Hinweis unter &quot;Festlegen der Standardumgebung für die Berichterstellung&quot;wurde aktualisiert. |
 | 30. August | [Datenschutz](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Neuer Abschnitt hinzugefügt: &quot;IP-Verschleierung auf Datenasterebene bei Verwendung des Adobe Experience Platform Web SDK&quot; |
 |  | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Der Zeitrahmen wurde korrigiert, sodass Daten in Berichten in den folgenden häufig gestellten Fragen angezeigt werden: &quot;Ich habe gerade eine Aktivität erstellt. Warum werden keine Daten angezeigt?&quot; |
 | 29. August | [Unterstützte Funktionen für die geräteinterne Entscheidungsfindung](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei clientseitiger Verwendung von Entscheidungsfindung auf dem Gerät (ODD) unterstützt werden. |
