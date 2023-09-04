@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Der Zeitrahmen wurde korrigiert, sodass Daten in Berichten in den folgenden häufig gestellten Fragen angezeigt werden: &quot;Ich habe gerade eine Aktivität erstellt. Warum werden keine Daten angezeigt?&quot; |
 | 29. August | [Unterstützte Funktionen für die geräteinterne Entscheidungsfindung](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei clientseitiger Verwendung von Entscheidungsfindung auf dem Gerät (ODD) unterstützt werden. |
 |  | [Übersicht über On-device Decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Die Liste der Geo-Attribute wurde hinzugefügt, die für das Targeting bei der serverseitigen Verwendung der On-Device Decisioning (ODD) unterstützt werden. |
-|  | [Implementieren von Target mit dem AEP Mobile SDK in eine native App mit Webansichten](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Neuer Artikel. |
+|  | [Implementieren von Target mit dem AEP Mobile SDK in einer nativen App mit Web-Ansichten](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html?lang=de){target=_blank} | Neuer Artikel. |
 |  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen über die bevorstehende Adobe Target Community Coffee Break (30. August 2023) hinzugefügt: &quot;Strategize for maximum ROI Impact with Spitzensaisonbereitschaft&quot; Webinar-Follow-up. |
 | 14. August | [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | Es wurden Informationen hinzugefügt, die klarstellen, dass das Laden einer Seite auf Ihrer Site mit einem leeren Wert das QA-Cookie *nicht* aus dem Browser entfernt, wenn at.js 2.*x* eingesetzt wird. |
 |  | [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Die Definition von „Konfidenz“ wurde aktualisiert. |
