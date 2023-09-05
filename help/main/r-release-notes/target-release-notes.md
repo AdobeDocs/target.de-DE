@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Fehlerkorrektur - Beim Wechsel zwischen den [!UICONTROL Tabellenansicht] und [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] Berichte. (TGT-46040)
 * Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzDOM (Webkomponenten). (TGT-45422)
 * Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. (TGT-45983)
-* Es wurde die Möglichkeit hinzugefügt, einen CSS-Selektor im VEC anzugeben. (TGT-45958 und TGT-46017)
 * Es wurde ein Fehler behoben, der dazu führte, dass beim Öffnen einer Einzelseiten-App (SPA)-Seite im VEC und anschließendem Wechseln in den Durchsuchen-Modus die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
 * Es wurde ein Problem behoben, das verhindert hat, dass die URL beim Durchsuchen einer SPA Website (Single Page Application) durchgängig aktualisiert wurde. (TGT-45417)
 

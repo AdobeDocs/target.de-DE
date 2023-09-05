@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 66%
 
 ---
 
@@ -19,21 +19,23 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## Geplante Aktualisierung der Edge-Infrastruktur in [!DNL Adobe Target] {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 (6. bis 11. September 2023)
 
-Für die geplante Aktualisierung der Edge-Infrastruktur müssen zusätzliche IP-Adressen oder Domains auf die Zulassungsliste gesetzt werden. Überprüfen Sie NAT und IP/Domains für die Edge-Bereitstellungen 41-48 und setzen Sie sie auf die Zulassungsliste. Aktualisierungen der Infrastruktur beginnen am 9. August 2023.
+Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
 
-Weitere Informationen finden Sie unter [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
-
-## [!DNL Target] Standard/Premium 23.8.1 (9. August 2023)
+* **6. September**: Amerikanische Region
+* **7. September**: Region Europa, Naher Osten und Afrika (EMEA)
+* **11. September**: Region Asien-Pazifik (APAC)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Es wurde ein Fehler behoben, durch den manchmal Aktivitäten nicht ordnungsgemäß synchronisiert wurden, wie in der Spalte „[!UICONTROL Status]“ auf der Listenseite [!UICONTROL Aktivität] zu sehen war. (TGT-46010 und TGT-44831)
-* Es wurde ein Problem behoben, durch das manchmal der Link „[!UICONTROL In Analytics anzeigen]“ auf der Seite [!UICONTROL Berichte] von Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden, nicht angezeigt wurde. (TGT-45808)
-* Die Darstellung der Werte in Tabellen wurde so angepasst, dass sie anstelle von Dezimalzahlen als Prozentwerte angezeigt werden. Beispiel: 8 % anstelle von 0,08. (TGT-45548)
-* Es wurde ein Problem behoben, durch das Kundinnen und Kunden für Aktivitäten von [!UICONTROL Experience Targeting] (XT) den Tastaturfokus nicht dazu verwenden konnten, auf der Seite [!UICONTROL Ziele und Einstellungen] zum nächsten Element zu gehen. (TGT-44526)
-* Es wurde ein Problem behoben, durch das die Tastatur nach dem Öffnen des Dialogfelds [!UICONTROL Zielgruppen hinzufügen] den Fokus verlor, während eine Aktivität erstellt wurde. (TGT-44525)
+* Es wurde ein Problem behoben, das zu inkonsistenten Berichtsdaten in der [!DNL Target] Benutzeroberfläche und [!DNL Adobe Analytics] Benutzeroberfläche für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-46112)
+* Der Timeout für PUT-Aufrufe an die Target-Bereitstellungs-API wurde auf 15 Sekunden erhöht, um Timeout-Fehler zu vermeiden. (TGT-46091)
+* Fehlerkorrektur - Beim Wechsel zwischen den [!UICONTROL Tabellenansicht] und [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] Berichte. (TGT-46040)
+* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzDOM (Webkomponenten). (TGT-45422)
+* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. (TGT-45983)
+* Es wurde ein Fehler behoben, der dazu führte, dass beim Öffnen einer Einzelseiten-App (SPA)-Seite im VEC und anschließendem Wechseln in den Durchsuchen-Modus die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
+* Es wurde ein Problem behoben, das verhindert hat, dass die URL beim Durchsuchen einer SPA Website (Single Page Application) durchgängig aktualisiert wurde. (TGT-45417)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
