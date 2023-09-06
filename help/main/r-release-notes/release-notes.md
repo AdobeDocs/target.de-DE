@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Es wurde ein Problem behoben, das zu inkonsistenten Berichtsdaten in der [!DNL Target] Benutzeroberfläche und [!DNL Adobe Analytics] Benutzeroberfläche für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-46112)
 * Der Timeout für PUT-Aufrufe an die Target-Bereitstellungs-API wurde auf 15 Sekunden erhöht, um Timeout-Fehler zu vermeiden. (TGT-46091)
-* Fehlerkorrektur - Beim Wechsel zwischen den [!UICONTROL Tabellenansicht] und [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] Berichte. (TGT-46040)
-* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzDOM (Webkomponenten). (TGT-45422)
-* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. (TGT-45983)
-* Es wurde ein Fehler behoben, der dazu führte, dass beim Öffnen einer Einzelseiten-App (SPA)-Seite im VEC und anschließendem Wechseln in den Durchsuchen-Modus die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
 * Es wurde ein Problem behoben, das verhindert hat, dass die URL beim Durchsuchen einer SPA Website (Single Page Application) durchgängig aktualisiert wurde. (TGT-45417)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
