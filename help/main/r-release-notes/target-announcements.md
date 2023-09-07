@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## [!DNL Adobe Target] Community-Fragen und Antworten zur Kaffeepause (30. August 2023)
+## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. August 2023)
 
-* **Thema: Webinar-Follow-up: &quot;Strategien für maximale ROI-Wirkung mit Vorbereitung auf die Spitzensaison&quot;**
+* **Thema: Webinar-Nachbereitung: „Strategize for maximum ROI impact with peak season readiness“**
 * **Mittwoch, 30. August 2023**
 * **8:00-9:00 Uhr (PDT, UTC-7)**
 * **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] Die Experten John Magnusson und John Mosbaugh werden bei dieser &quot;Fragen-ich-alles&quot;-Veranstaltung zur Beantwortung Ihrer Fragen zu den Themen des Webinars &quot;Strategien für maximale ROI-Auswirkungen mit Spitzensaisonbereitschaft&quot;(17. August 2023) zur Verfügung stehen.
+[!DNL Adobe Target] Die Experten John Magnusson und John Mosbaugh werden bei dieser „Frag-mich-alles“-Veranstaltung zur Beantwortung Ihrer Fragen zu den Themen des Webinars „Strategize for maximum ROI impact with peak season readiness“ (17. August 2023) zur Verfügung stehen.
 
 +++Siehe Details
 
 Abgedeckte Themen:
 
-* Effektives Erstellen von Dashboards und Berichten zu Schlüsselmetriken
-* Auswirkungen der einzelnen Marketing-Kanäle
-* Vertiefung des Kundenverhaltens und der Einkaufstrends
-* Erkennung schlechter Kundenerlebnisse und deren Verbesserung durch Tests
-* Ermitteln von Möglichkeiten zur Förderung der Site-Konversion
+* Effektive Erstellung von Dashboards und Berichtschlüsselmetriken
+* Untersuchung der Auswirkung jedes einzelnen Marketing-Kanals
+* Vertiefung des Kundenverhaltens und der Einkaufs-Trends
+* Identifizierung schlechter Kundenerlebnisse und deren Verbesserung durch Tests
+* Aufdeckung von Chancen zur Steigerung der Site-Konversion
 
 +++
 
