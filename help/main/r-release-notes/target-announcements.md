@@ -4,9 +4,9 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: ht
-source-wordcount: '2241'
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+workflow-type: tm+mt
+source-wordcount: '2128'
 ht-degree: 100%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 100%
 # [!DNL Adobe Target] Ankündigungen und Ereignisse
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
-
-## [!DNL Adobe Target] Kaffeepause mit Fragen und Antworten der Community (30. August 2023)
-
-* **Thema: Webinar-Nachbereitung: „Strategize for maximum ROI impact with peak season readiness“**
-* **Mittwoch, 30. August 2023**
-* **8:00-9:00 Uhr (PDT, UTC-7)**
-* **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-[!DNL Adobe Target] Die Experten John Magnusson und John Mosbaugh werden bei dieser „Frag-mich-alles“-Veranstaltung zur Beantwortung Ihrer Fragen zu den Themen des Webinars „Strategize for maximum ROI impact with peak season readiness“ (17. August 2023) zur Verfügung stehen.
-
-+++Siehe Details
-
-Abgedeckte Themen:
-
-* Effektive Erstellung von Dashboards und Berichtschlüsselmetriken
-* Untersuchung der Auswirkung jedes einzelnen Marketing-Kanals
-* Vertiefung des Kundenverhaltens und der Einkaufs-Trends
-* Identifizierung schlechter Kundenerlebnisse und deren Verbesserung durch Tests
-* Aufdeckung von Chancen zur Steigerung der Site-Konversion
-
-+++
 
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
