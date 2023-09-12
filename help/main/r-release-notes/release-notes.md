@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 78%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.9.2 (12.-14. September 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (12.–14. September 2023)
 
 Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
 
@@ -32,7 +32,7 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Die [!DNL Analytics] API für die neue [!DNL Analytics] API-Version 2.0. (TGT-45345)
 * Behobene Probleme mit Auswirkung [!UICONTROL Automated Personalization] (AP)-Aktivitäten für einige Kunden, einschließlich der rechtzeitigen Synchronisierung der Aktivität auf der [!DNL Target] Backend und Bereitstellung des erwarteten Erlebnisses in Vorschaulinks. (TGT-46202)
 
-## [!DNL Target] Standard/Premium 23.9.1 (6. bis 11. September 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (6.–11. September 2023)
 
 Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
 
@@ -42,9 +42,9 @@ Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Es wurde ein Problem behoben, das zu inkonsistenten Berichtsdaten in der [!DNL Target] Benutzeroberfläche und [!DNL Adobe Analytics] Benutzeroberfläche für [!UICONTROL Automatische Zuordnung] Aktivitäten, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-46112)
+* Es wurde ein Problem behoben, das zu inkonsistenten Berichtsdaten in der Benutzeroberfläche [!DNL Target] und der Benutzeroberfläche [!DNL Adobe Analytics] für Aktivitäten der [!UICONTROL automatischen Zuordnung] führte, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden.  (TGT-46112)
 * Der Timeout für PUT-Aufrufe an die Target-Bereitstellungs-API wurde auf 15 Sekunden erhöht, um Timeout-Fehler zu vermeiden. (TGT-46091)
-* Es wurde ein Problem behoben, das verhindert hat, dass die URL beim Durchsuchen einer SPA Website (Single Page Application) durchgängig aktualisiert wurde. (TGT-45417)
+* Es wurde ein Problem behoben, durch das die URL beim Durchsuchen einer Single Page Application(SPA)-Website nicht immer aktualisiert wurde. (TGT-45417)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
