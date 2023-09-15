@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
 workflow-type: tm+mt
 source-wordcount: '1798'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,10 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 14. September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die [!DNL Target Standard/Premium] Version 23.9.3. |
+| 14. September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.9.3 hinzugefügt. |
 | 12. September | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.2 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Es wurden Versionshinweise für die at.js-Version 2.10.3 hinzugefügt. |
-| 11. September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die [!DNL Target Standard/Premium] Version 23.9.2. |
+| 11. September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.9.2 hinzugefügt. |
 | 6. September | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9. August 2023)
