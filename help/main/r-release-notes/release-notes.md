@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 79%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 100%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target] Standard/Premium 23.9.3 (18. September 2023)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzWeb-Komponenten (Light DOM). (TGT-45422)
+* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. Korrekturen an der VEC-URL, die jetzt beim Klicken auf Ankerlinks aktualisiert wird. (TGT-45983)
+* Es wurde ein Problem mit dem VEC behoben [!UICONTROL Überlagerung] -Funktion, die jetzt Elemente in Shadow-DOMs unterstützt. (TGT-45202 und TGT-45262)
+* Es wurde ein Problem behoben, das beim Öffnen einer Seite mit Einzelseiten-Apps (SPA) im VEC und anschließendem Öffnen von [!UICONTROL Durchsuchen] -Modus dazu geführt hat, dass die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
+* Es wurde ein Problem behoben, das das Laden einiger Webseiten in VEC verhindert hat. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12.–14. September 2023)
 

@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 77%
+source-wordcount: '509'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 15. September 2023**
+**Letzte Aktualisierung: 18. September 2023**
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzDOM (Webkomponenten). (TGT-45422)
-* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. (TGT-45983)
+* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzWeb-Komponenten (Light DOM). (TGT-45422)
+* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. Korrekturen an der VEC-URL, die jetzt beim Klicken auf Ankerlinks aktualisiert wird. (TGT-45983)
 * Es wurde ein Problem mit dem VEC behoben [!UICONTROL Überlagerung] -Funktion, die jetzt Elemente in Shadow-DOMs unterstützt. (TGT-45202 und TGT-45262)
 * Es wurde ein Problem behoben, das beim Öffnen einer Seite mit Einzelseiten-Apps (SPA) im VEC und anschließendem Öffnen von [!UICONTROL Durchsuchen] -Modus dazu geführt hat, dass die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
 * Es wurde ein Problem behoben, das das Laden einiger Webseiten in VEC verhindert hat. (TGT-45983)
