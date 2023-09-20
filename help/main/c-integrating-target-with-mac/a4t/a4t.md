@@ -4,10 +4,10 @@ description: Verwenden Sie  [!DNL Analytics]  für  [!DNL Target]  (A4T), um Akt
 title: Was ist  [!DNL Analytics]  für  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Wenn Sie über einen Einsatz von A4T nachdenken, sollten Sie die folgenden Punkt
 * Bei der Verwendung von A4T ist nur eine einzige Mbox-basierte Metrik zulässig.
 * Bei einem Server-zu-Server-Aufruf von [!DNL Target] an [!DNL Analytics] werden Aktivitäts- und Erlebnisinformationen an [!DNL Analytics] gesendet. Durch diese Integration werden keine zusätzlichen Server-Aufrufe für [!DNL Target] oder [!DNL Analytics] getätigt.
 
-   Manchmal schlagen die in [!DNL Target] durchgeführten Classifications in [!DNL Analytics] fehl und in [!DNL Analytics] werden für Aktivitäten keine Daten angezeigt. Weitere Informationen dazu finden Sie im Abschnitt [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können auch die [Kundenunterstützung kontaktieren](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), wenn Sie weitere Hilfe benötigen.
+  Manchmal schlagen die in [!DNL Target] durchgeführten Classifications in [!DNL Analytics] fehl und in [!DNL Analytics] werden für Aktivitäten keine Daten angezeigt. Weitere Informationen dazu finden Sie im Abschnitt [Fehlerbehebung bei der Analytics- und Target-Integration (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Sie können auch die [Kundenunterstützung kontaktieren](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB), wenn Sie weitere Hilfe benötigen.
 
 ## Implementieren von A4T
 
@@ -58,7 +58,7 @@ Die folgenden Abschnitte enthalten Informationen zu den unterstützten Aktivitä
 |--- |--- |--- |
 | [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
 | [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Siehe [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nein |  |
+| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja (at.js)<P>Nein (Platform Web SDK) | Die A4T-Unterstützung für Aktivitäten mit automatischem Targeting wird derzeit nur für at.js unterstützt. |
 | [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht [!UICONTROL Elementbeitrag] abruft. Der Bericht [!UICONTROL Elementbeitrag] unterstützt derzeit keine [!DNL Analytics]-Metriken. |
 | [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |  |
@@ -126,4 +126,3 @@ Dieses Video ist eine Aufzeichnung von [Office Hours](/help/main/cmp-resources-a
 >* [Umleitungsangebote – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Was ist das Adobe Experience Platform Web SDK?](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de): Enthält allgemeine Informationen zum Platform Web SDK.
 >* [Target-Übersicht](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=de): Enthält spezifische Informationen zu [!DNL Target] und [!DNL Platform Web SDK].
-
