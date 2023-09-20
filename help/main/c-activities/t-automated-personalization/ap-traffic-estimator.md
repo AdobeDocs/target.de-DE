@@ -1,30 +1,30 @@
 ---
-keywords: Traffic-Schätzung; automatisierte Personalisierung; App; Traffic schätzen; automatisches Targeting
-description: Verwenden der Adobe [!DNL Target] Traffic-Schätzung , um festzustellen, ob Sie über ausreichend Traffic verfügen, damit Ihre Automated Personalization-Aktivität erfolgreich ist.
-title: Wie viel Traffic wird für eine erfolgreiche Aktivität benötigt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+keywords: Traffic-Schätzung;automatisierte Personalisierung;App;Traffic schätzen
+description: Verwenden Sie die [!DNL Adobe Target] [!UICONTROL Traffic-Schätzung] , um festzustellen, ob Sie über ausreichend Traffic für Ihre [!UICONTROL Automated Personalization] Aktivität erfolgreich zu sein.
+title: Wie viel Traffic für eine erfolgreiche [!UICONTROL Automated Personalization] Aktivität?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 14%
+source-wordcount: '779'
+ht-degree: 11%
 
 ---
 
 # Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
-Die [!DNL Adobe Target] [!UICONTROL Traffic-Schätzung] liefert Feedback, der Ihnen mitteilt, ob Sie über ausreichend Traffic für Ihre [!UICONTROL Automated Personalization] Aktivität erfolgreich zu sein.
+Die [!DNL Adobe Target] [!UICONTROL Traffic-Schätzung] liefert Feedback, der Ihnen mitteilt, ob Sie über ausreichend Traffic für Ihre [!UICONTROL Automated Personalization] Aktivität (AP) erfolgreich sein.
 
-Da [!UICONTROL Automated Personalization] -Aktivität mehrere Angebotskombinationen verwendet, ist es wichtig zu wissen, wie viel Traffic erforderlich ist, um aussagekräftige Ergebnisse zu liefern. Die [!UICONTROL Traffic-Schätzung] verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die Testdauer zu schätzen, die für eine erfolgreiche Aktivität erforderlich sind.
+weil [!UICONTROL Automated Personalization] -Aktivitäten mehrere Angebotskombinationen verwenden, ist es wichtig zu wissen, wie viel Traffic erforderlich ist, um aussagekräftige Ergebnisse zu erzielen. Die [!UICONTROL Traffic-Schätzung] verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die Testdauer zu schätzen, die für eine erfolgreiche Aktivität erforderlich sind.
 
 Die [!UICONTROL Traffic-Schätzung] ermittelt, ob ausreichend Traffic vorhanden ist, um personalisierte Modelle zu generieren, indem die geschätzten Seitenimpressionen und die typische Konversionsrate für die Seiten verglichen werden. Idealerweise gewährleistet die korrekte Stichprobengröße bei einer erfolgreichen Aktivität, dass personalisierter Inhalt innerhalb von 50 % der Dauer der Aktivität oder innerhalb von 14 Tagen bereit ist (je nachdem, welcher Fall zuerst eintritt). Dieser Prozess bietet ausreichend Zeit, um personalisierte Inhalte zu erhalten und zu lernen, welche Inhalte bereitgestellt werden sollen.
 
-Beachten Sie Folgendes: [!DNL Target] stellt zufällig Erlebnisse bereit, bis die Personalisierungsalgorithmen erstellt wurden. Das Häkchen-Symbol neben jedem Angebot zeigt an, wann das Modell für dieses Angebot bereit ist, und [!DNL Target] kann mit der Bereitstellung personalisierter Inhalte beginnen. Da eine Steigerung erst erwartet wird, wenn die Modelle fertig sind, können Sie anhand der visuellen Angabe die richtige Erwartung festlegen. Verwenden Sie die [!UICONTROL Traffic-Schätzung] im [!UICONTROL Visual Experience Composer] (VEC), um eine Richtlinie zu erhalten, wann die Modelle fertig sind.
+Beachten Sie Folgendes: [!DNL Target] stellt zufällig Erlebnisse bereit, bis die Personalisierungsalgorithmen erstellt wurden. Das Häkchen-Symbol neben jedem Angebot zeigt an, wann das Modell für dieses Angebot bereit ist, und [!DNL Target] kann mit der Bereitstellung personalisierter Inhalte beginnen. Da eine Steigerung erst erwartet wird, wenn die Modelle fertig sind, können Sie mit der visuellen Anzeige die richtige Erwartung festlegen. Verwenden Sie die [!UICONTROL Traffic-Schätzung] im [!UICONTROL Visual Experience Composer] (VEC), um eine Richtlinie zu erhalten, wann die Modelle fertig sind.
 
 ## Traffic-Schätzung verwenden
 
-1. Aus dem [!UICONTROL Visual Experience Composer]klicken **[!UICONTROL Traffic]**.
+1. Aus dem [!UICONTROL Erlebnisse] der [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Automated Personalization] -Aktivität, klicken Sie auf die  **[!UICONTROL Traffic]** Symbol.
 
    ![Traffic-Symbol](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
@@ -52,7 +52,7 @@ Beachten Sie Folgendes: [!DNL Target] stellt zufällig Erlebnisse bereit, bis di
    Wenn Sie nicht über ausreichend Traffic verfügen, beachten Sie Folgendes:
 
    * Erwägen Sie die Verwendung eines [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) -Aktivität anstelle von [!UICONTROL Automated Personalization] , um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
-   * Reduzieren Sie die Anzahl der Angebotskombinationen in Ihrer [!UICONTROL Automated Personalization] Aktivität.
+   * Reduzieren Sie die Anzahl der Angebotskombinationen in Ihrer [!UICONTROL Automated Personalization] -Aktivität.
    * Erhöhen Sie die Dauer der Aktivität.
 
    Passen Sie die Zahlen bis zum [!UICONTROL Traffic-Schätzung] gibt an, dass Sie über ausreichend Traffic verfügen, und entwerfen Sie dann Ihren Test entsprechend.

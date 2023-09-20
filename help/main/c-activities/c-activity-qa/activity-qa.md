@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Adobe verwenden [!DNL Target] QA-URLs zur ein
 title: Wie kann ich QA-Aktivitäten durchführen?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -63,13 +63,13 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 [!UICONTROL Aktivitäts-QA] klebrig ist. Nachdem Sie eine Website in [!UICONTROL Aktivitäts-QA], Ihre [!DNL Target] -Sitzung muss ablaufen oder Sie müssen [!DNL Target] freigeben von [!UICONTROL Aktivitäts-QA] bevor Sie Ihre Site wie einen normalen Besucher anzeigen können.
 
-* **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* bereitgestellt wird.
+* **at.js 2.*x***: Wenn Ihre Site at.js 2.*x* bereitgestellt, verwenden Sie die [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) um sich selbst aus dem [!UICONTROL Aktivitäts-QA]. Das Laden einer Seite auf Ihrer Site mit einem leeren Wert, wie im nächsten Aufzählungszeichen beschrieben, führt *not* Entfernen Sie das QA-Cookie aus dem Browser, wenn at.js 2.*x* eingesetzt wird.
 
 * **at.js 1.*x***: Wenn Ihre Site at.js 1.*x* bereitgestellt werden, zusätzlich zur Verwendung der [Target QA-Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)können Sie sich auch manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_preview_token` -Parameter mit einem leeren Wert. Beispiel:
 
   `https://www.mysite.com/?at_preview_token=`
 
-* **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert. Beispiel:
+* **[!DNL Adobe Experience Platform Web SDK]**: Wenn Ihre Site über die Variable [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} bereitgestellt haben, können Sie sich manuell selbst erzwingen, indem Sie eine Seite auf Ihrer Site mit der Variablen `at_qa_mode` -Parameter mit einem leeren Wert. Beispiel:
 
   `https://www.mysite.com/?at_qa_mode=`
 
@@ -111,7 +111,7 @@ Verwenden von QA-URLs in [!DNL Adobe Target] zur einfachen End-to-End-Aktivität
 
 * [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html)
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de)
 
 In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und es wird angegeben, ob [!UICONTROL Aktivitäts-QA] -Modus wird für jede Bibliothek unterstützt:
 
@@ -124,4 +124,3 @@ In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und
 | [!UICONTROL Experience Targeting] (XT) | Ja | Ja | Ja |
 | [!UICONTROL Multivariate Tests] (MVT) | Ja | Ja | Ja |
 | [!UICONTROL Recommendations] | Ja | Ja | Ja |
-

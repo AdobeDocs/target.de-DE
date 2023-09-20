@@ -1,21 +1,21 @@
 ---
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-description: Erfahren Sie, wie Sie in Adobe Versionen desselben Erlebnisses für verschiedene Zielgruppen bereitstellen können. [!DNL Target] A/B-Aktivitäten.
+description: Erfahren Sie, wie Sie in Versionen desselben Erlebnisses für verschiedene Zielgruppen ausrichten können. [!DNL Adobe Target] A/B-Aktivitäten.
 title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 92%
+source-wordcount: '600'
+ht-degree: 56%
 
 ---
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können Versionen desselben Erlebnisses für verschiedene Zielgruppen in [!DNL Adobe Target] A/B-Aktivitäten. Im Visual Experience Composer oder dem Form-Based Experience Composer können mehrere Zielgruppen für ein Erlebnis eingerichtet werden.
+Sie können Versionen desselben Erlebnisses für verschiedene Zielgruppen in [!DNL Adobe Target] A/B-Aktivitäten. Sie können mehrere Zielgruppen für ein Erlebnis im [!UICONTROL Visual Experience Composer] (VEC) oder im formularbasierten Experience Composer.
 
-Benutzer können zwischen Erlebniszielgruppen wechseln, wenn sich ihr Profil entwickelt. Sie werden nicht zwangsläufig für die gesamte Dauer der Aktivität dem gleichen Erlebnis zugeordnet.
+Besucher können bei sich ändernden Profilen zwischen Erlebniszielgruppen wechseln. Besucher bleiben während der Lebensdauer der Aktivität nicht im selben Erlebnis.
 
 Verwenden Sie beispielsweise auf Ihrer Site einen konstanten Entwurf für Seiten oder Produkte und möchten Sie das gleiche Erlebnis für mehrere Zielgruppen bereitstellen (beispielsweise Besucher mit unterschiedlichen Browsersprachen), können Sie mehrere Versionen des gleichen Erlebnisses erstellen. Sie können Englisch und Japanisch sprechenden Besuchern das gleiche Erlebnis bereitstellen, wobei der einzige Unterschied die Sprache ist, in der sie dem Besucher angezeigt wird. Für das Erlebnis werden unabhängig von der Sprache Daten gesammelt, sodass im Bericht die Leistung des Erlebnisses anstatt der Version aufgeführt wird.
 
@@ -25,9 +25,9 @@ Erstellen Sie verschiedene Versionen eines Erlebnisses, erhalten Sie genauere Da
 
 ## Szenario
 
-Sie prüfen zwei Erlebnisse, ein Banner mit Geotargeting und ein allgemeines Banner. Das erste Banner muss an die geografischen Regionen angepasst werden, allgemein soll jedoch getestet werden, ob sich Geotargeting besser eignet als allgemeine Inhalte. Würden Sie für jede Region ein eigenes Erlebnis einrichten, würden Sie messen, wie leistungsstark die einzelnen Regionen im Vergleich zu den anderen sind, nicht jedoch, ob sich Geotargeting im Vergleich zu allgemeinen Bannern lohnt.
+Sie testen zwei Erlebnisse: ein Banner mit Geotargeting im Vergleich zu einem generischen Banner. Das Banner muss für jede Region unterschiedlich sein, aber der allgemeine Test besteht darin zu bestimmen, ob das Geotargeting besser ist als die Anzeige allgemeiner Inhalte. Wenn Sie für jeden Ort ein eigenes Erlebnis einrichten, messen Sie tatsächlich, wie die einzelnen Geos sich vergleichen, anstatt ob Geotargeting bei der Messung anhand des generischen Banners dazu beiträgt, Ihre Erfolgsziele zu erreichen.
 
-In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstellen, sodass Sie Geotargeting mit einer nicht mit Geotargeting ausgestatteten Kontrollanzeige abgleichen können.
+In diesem Fall benötigen Sie geografisch spezifische Versionen des Erlebnisses, sodass Sie das Erlebnis mit Geotargeting gegen eine Nicht-Geo-Targeting-Kontrolle testen können.
 
 1. [Erstellen Sie wie gewohnt eine A/B-Aktivität.](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
@@ -49,6 +49,6 @@ In diesem Fall müssen Sie regionsspezifische Versionen des Erlebnisses erstelle
 
 ## Best Practices  
 
-* Wählen Sie Zielgruppen aus, die sich gegenseitig ausschließen. Wurde die Aktivität im VEC erstellt und erfüllt ein Besucher die Kriterien von mehr als einer Zielgruppe, wird Inhalt für jede der passenden Zielgruppen zurückgegeben, wobei der Inhalt der zuletzt aufgeführten Zielgruppe tatsächlich auf der Seite dargestellt wird.
+* Wählen Sie Zielgruppen aus, die sich gegenseitig ausschließen. Wenn die Aktivität im VEC erstellt wurde und ein Besucher mit mehr als einer Zielgruppe übereinstimmt, wird der Inhalt für jede Zielgruppe zurückgegeben, wobei der Inhalt für die zuletzt aufgelistete Zielgruppe auf der Seite angezeigt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.
-* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Somit können Sie die Ergebnisse grob aufgeschlüsselt im Vergleich von Erlebnis A zu Erlebnis B, aber auch fein aufgeschlüsselt für „browser lang ja_JP“ für die Erlebnisse A und B anzeigen. Dies ist jedoch nur in auf Target basierenden Berichten möglich, nicht in Analytics-Berichten.
+* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Auf diese Weise können Sie die Testergebnisse auf der hohen Ebene von Erlebnis A im Vergleich B und auf der unteren Ebene von Erlebnis A im Vergleich B nur für &quot;browser lang ja_JP&quot;anzeigen. Dies funktioniert nur für [!DNL Target]-basierte Berichte, nicht [!DNL Analytics]-basierten Berichten.

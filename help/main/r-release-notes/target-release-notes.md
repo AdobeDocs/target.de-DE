@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * Es wurde ein Problem behoben, das zu inkonsistenten Berichtsdaten in der Benutzeroberfläche [!DNL Target] und der Benutzeroberfläche [!DNL Adobe Analytics] für Aktivitäten der [!UICONTROL automatischen Zuordnung] führte, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden.  (TGT-46112)
 * Der Timeout für PUT-Aufrufe an die Target-Bereitstellungs-API wurde auf 15 Sekunden erhöht, um Timeout-Fehler zu vermeiden. (TGT-46091)
 * Es wurde ein Problem behoben, durch das die URL beim Durchsuchen einer Single Page Application(SPA)-Website nicht immer aktualisiert wurde. (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (Datum noch festzulegen)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Auswahl der Optimierungskriterien für [!DNL Adobe Analytics] Metriken.
+* Die Synchronisierung externer Zielgruppen mit Sling-Aufträgen wurde aktiviert.
+* Es wurde ein Problem behoben, bei dem SC Report Suites, die ein Punktzeichen im Namen enthielten, nicht unterstützt wurden.
+* Neue Funktion, mit der Kunden integrierte Zielgruppen löschen und bearbeiten können.
+
+## [!DNL Target] Standard/Premium 23.5.3 (Datum noch festzulegen)
+
+Diese Version umfasst die folgenden Verbesserungen:
+
+| Funktion | Details |
+|--- |--- |
+| [!UICONTROL QA-Modus] für Aktivitäten von [!UICONTROL Automatisierte Personalisierung] | [!DNL Adobe Target] [!UICONTROL QA-Modus] ist jetzt für Aktivitäten von [!UICONTROL Automatisierte Personalisierung] verfügbar, was die Funktionalität [!UICONTROL Links in der Vorschau anzeigen] ersetzt.<P>Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

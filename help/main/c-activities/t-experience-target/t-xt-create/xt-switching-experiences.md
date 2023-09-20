@@ -1,65 +1,65 @@
 ---
 keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
-description: Erfahren Sie, wie Besucher in einer Adobe zwischen Erlebnissen wechseln können. [!DNL Target] Erlebnis-Targeting (XT)-Aktivität bei sich entwickelnden Profilen.
-title: Können Besucher Erlebnisse in einer Erlebnis-Targeting-Aktivität wechseln?
+description: Erfahren Sie, wie Besucher in einer [!DNL Adobe Target] [!UICONTROL Erlebnis-Targeting] (XT) -Aktivität, während sich ihre Profile entwickeln.
+title: Können Besucher Erlebnisse in einem [!UICONTROL Erlebnis-Targeting] Aktivität?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 96%
+source-wordcount: '738'
+ht-degree: 44%
 
 ---
 
-# Wechsel zwischen Erlebnissen in Experience Targeting
+# Wechsel zwischen Erlebnissen in [!UICONTROL Erlebnis-Targeting]
 
-Informationen dazu, wie Besucher bei sich entwickelnden Profilen im Erlebnis-Targeting (XT) zwischen Erlebnissen wechseln können.
+Mit [!UICONTROL Erlebnis-Targeting]können Sie steuern, welches Erlebnis Besucher sehen, während sich ihre Profile entwickeln.
 
-Mit Erlebnis-Targeting können Sie steuern, welches Erlebnis sich entwickelnden Benutzern angezeigt werden soll. In der folgenden Liste finden Sie einige Beispielszenarien, in denen sich Besucherprofile so entwickeln, dass möglicherweise andere Inhalte angezeigt werden sollen:
+Die folgende Liste enthält nur einige Szenarien, in denen sich die Besucherprofile entwickeln können und Sie möglicherweise unterschiedliche Inhalte basierend auf diesen Änderungen präsentieren möchten:
 
 | Szenario | Details |
 |--- |--- |
 | Geografischer Standort | Wenn Besucher auf Geschäfts- oder private Reisen gehen, rufen sie Ihre Webseite oder mobile App möglicherweise von unterschiedlichen geografischen Standorten auf. |
 | Kundenstatus | Besucher werden unter Umständen als potenzielle Kunden gewertet, bevor sie ein Konto erstellen oder Produkte erwerben. |
-| Kategorieaffinität | Die [Kategorieaffinitätsfunktion](/help/main/c-target/c-visitor-profile/category-affinity.md) in Target hält automatisch die Kategorien fest, die Benutzer besuchen, und berechnet anschließend zu Targeting-Zwecken die Affinität dieser Kategorien. Besuchern, die sich beispielsweise auf Ihrer Webseite mehrere Artikel zu einem bestimmten Thema angesehen haben, können mit diesem Thema verwandte Inhalte angezeigt werden. |
+| Kategorieaffinität | Die [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md) Funktion in [!DNL Target] erfasst automatisch die von Besuchern angezeigten Kategorien und berechnet dann zu Targeting-Zwecken die Affinität der Besucher für diese Kategorie. Beispielsweise werden Besuchern, die mehrere Artikel zu einem bestimmten Thema auf Ihrer Website angesehen haben, Inhalte zu diesem Thema angezeigt. |
 | Wochentag | Möglicherweise möchten Sie Besuchern kurz vor dem Wochenende Inhalte zu Filmen, Restaurants oder anderen Unterhaltungsmöglichkeiten anzeigen. |
 
-Damit diese Funktionen in [!DNL Target] sinnvoll eingesetzt werden können, müssen für die Arbeit mit XT-Aktivitäten folgende Informationen berücksichtigt werden:
+So verwenden Sie diese Funktionen in [!DNL Target]ist es wichtig, die folgenden Informationen bei der Arbeit mit [!UICONTROL Erlebnis-Targeting] Aktivitäten:
 
-* **Die Priorität ist nach Erlebnissen sortiert, und zwar in absteigender Reihenfolge.** Wenn sich ein Besucher für mehr als zwei Zielgruppen qualifiziert, erhält dieser Besucher Inhalt aus dem Erlebnis mit der höheren Priorität.
-* **In einer XT-Aktivität wechseln Besucher zwischen Erlebnissen, wenn sie sich für die Zielgruppe eines Erlebnisses mit höherer Priorität qualifizieren.**
+* **Die Priorität ist nach Erlebnissen sortiert, und zwar in absteigender Reihenfolge.** Wenn ein Besucher für mehr als zwei Zielgruppen qualifiziert ist, erhält er Inhalte aus dem Erlebnis mit höherer Priorität.
+* **Besucher wechseln in einem [!UICONTROL Erlebnis-Targeting] Aktivität, wenn sie sich für die Zielgruppe eines Erlebnisses mit höherer Priorität qualifizieren.**
 
-   In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Website-Besuch aus Deutschland wechselte der Besucher zu Erlebnis B (Besucher in Deutschland).
+  In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Website-Besuch aus Deutschland wechselte der Besucher zu Erlebnis B (Besucher in Deutschland).
 
-   ![Priorität USA > Deutschland](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![Priorität USA > Deutschland](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Besucher wechseln außerdem zwischen Erlebnissen, wenn sie sich nicht mehr für ihre aktuelle Zielgruppe qualifizieren, dafür aber für ein Erlebnis geringerer Priorität.**
-* **Wenn Besucher sich nicht mehr für ihr aktuelles Erlebnis qualifizieren und sich für kein anderes Erlebnis qualifizieren, wird ihnen standardmäßiger Inhalt angezeigt.**
+* **Besucher wechseln auch zwischen Erlebnissen, wenn sie sich nicht mehr für ihre aktuelle Zielgruppe qualifizieren, sich aber für ein Erlebnis mit niedrigerer Priorität qualifizieren.**
+* **Wenn Besucher sich nicht mehr für ihr aktuelles Erlebnis qualifizieren und sich nicht für ein anderes Erlebnis qualifizieren, sehen sie Standardinhalte.**
 
-   In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Frankreich auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Besuch Ihrer Website aus Frankreich wird dem Besucher weiterhin das Originalerlebnis angezeigt.
+  In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Frankreich auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Besuch Ihrer Website aus Frankreich bleibt dieser Besucher im Originalerlebnis.
 
-   ![Priorität USA > Deutschland](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+  ![Priorität USA > Deutschland](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden. Wenn ein Erlebnis, das auf „Alle Besucher“ abzielt, nicht das letzte in der Reihenfolge ist, werden auch andere, niedriger eingestufte zielgerichtete Erlebnisse ausgewertet.**
+* **Ein Erlebnis, das auf &quot;Alle Besucher&quot;abzielt, kann als das letzte Erlebnis im [!UICONTROL Erlebnis-Targeting] -Aktivität, um alle Besucher zu &quot;erfassen&quot;, die sich für kein anderes Erlebnis qualifiziert haben. Wenn ein Erlebnis, das auf &quot;Alle Besucher&quot;ausgerichtet ist, nicht das letzte in der Reihenfolge ist, werden weitere zielgerichtete Erlebnisse, die unter diesem Erlebnis aufgeführt sind, weiterhin ausgewertet.**
 
-   In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach Besuch Ihrer Website aus Deutschland bleibt der Besucher Teil von Erlebnis A (Besucher in den USA).
+  In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Besuch Ihrer Website aus Deutschland bleibt dieser Besucher in Erlebnis A (US-Besucher).
 
-   ![Priorität USA > Alle Besucher](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+  ![Priorität USA > Alle Besucher](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
-   Sollten Sie dies nicht wünschen, können Sie eine neue Zielgruppe erstellen, die explizit als Gegenteil der gewünschten Zielgruppe definiert wurde, wie im folgenden Beispiel gezeigt:
+  Sollten Sie dies nicht wünschen, können Sie eine neue Zielgruppe erstellen, die explizit als Gegenteil der gewünschten Zielgruppe definiert wurde, wie im folgenden Beispiel gezeigt:
 
-   ![Priorität USA > Nicht USA](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+  ![Priorität USA > Nicht USA](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
-* **Bei einer XT-Aktivität mit nur einem Erlebnis verbleiben Besucher im Erlebnis, selbst wenn sie sich nicht mehr für die Zielgruppe qualifizieren, durch die sie diesem Erlebnis zugeordnet wurden.**
+* **Mit nur einem Erlebnis [!UICONTROL Erlebnis-Targeting] -Aktivität, bleiben Besucher im Erlebnis, selbst wenn sie sich nicht mehr für die Zielgruppe qualifizieren, durch die sie in dieses Erlebnis gelangt sind.**
 
-   Sollte dies nicht gewünscht werden, können Sie ein weiteres Erlebnis erstellen, das sich an das Gegenteil Ihrer Zielgruppe richtet (beispielsweise „nicht USA“ im Gegensatz zu „USA“).
+  Sollte dies nicht gewünscht werden, können Sie ein weiteres Erlebnis erstellen, das sich an das Gegenteil Ihrer Zielgruppe richtet (beispielsweise „nicht USA“ im Gegensatz zu „USA“).
 
-   Alternativ können Sie eine A/B-Aktivität erstellen, die sich mit 100-prozentiger Traffic-Zuordnung an Ihre Zielgruppe richtet, wie unten gezeigt:
+  Als weitere Option können Sie eine [!UICONTROL A/B-Test] Aktivität, die mit 100 % Traffic-Zuordnung auf Ihre gewünschte Zielgruppe ausgerichtet ist, wie unten dargestellt:
 
-   ![Priorität ein einziges Erlebnis](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
+  ![Priorität ein einziges Erlebnis](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
 
-* **Die Priorität von Erlebnissen wird anhand der Reihenfolge (von oben nach unten) ihrer Anzeige in Target bestimmt.**
+* **[!DNL Target]Die Priorität von Erlebnissen wird anhand der Reihenfolge (von oben nach unten) ihrer Anzeige in bestimmt.**
 
-   Es ist dabei wichtig, Szenarien zu berücksichtigen, bei denen sich ein Besucher für mehr als eine der Zielgruppen qualifiziert. Wenn Sie beispielsweise über die beiden Erlebnisse „USA“ und „New York“ verfügen, qualifiziert sich ein Besucher aus New York für beide Zielgruppen. Sie müssen somit darauf achten, dass das Erlebnis „New York“ in der Target-Benutzeroberfläche vor dem Erlebnis „USA“ definiert wird. Somit ist gewährleistet, dass das zielgerichtetere Erlebnis „New York“ die höhere Priorität genießt, siehe Beispiel unten:
+  Es ist dabei wichtig, Szenarien zu berücksichtigen, bei denen sich ein Besucher für mehr als eine der Zielgruppen qualifiziert. Wenn Sie beispielsweise über zwei Erlebnisse verfügen: eines für &quot;USA&quot;und eines für &quot;New York&quot;, qualifiziert sich ein Besucher in New York für beide Zielgruppen. Daher müssen Sie sicherstellen, dass das Erlebnis &quot;New York&quot;vor dem Erlebnis &quot;USA&quot;im [!DNL Target] Benutzeroberfläche. Dadurch wird sichergestellt, dass das zielgerichtetere Erlebnis &quot;New York&quot;die höhere Priorität hat, wie im folgenden Beispiel gezeigt:
 
-   ![Priorität NY > USA](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+  ![Priorität NY > USA](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)

@@ -1,31 +1,29 @@
 ---
 keywords: Erlebnis erstellen;Erlebniserstellung;Priorität;Zielgruppe;Erlebnis;Visual Experience Composer
-description: Erfahren Sie, wie Sie die Adobe verwenden [!DNL Target] Visual Experience Composer (VEC) zum Erstellen und Bearbeiten von Erlebnissen auf Ihrer Seite in einer Erlebnis-Targeting-Aktivität (XT).
-title: Wie erstelle ich Erlebnisse in einer Erlebnis-Targeting-Aktivität?
+description: Erfahren Sie, wie Sie die [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) zum Erstellen und Bearbeiten von Erlebnissen auf Ihrer Seite in einer [!UICONTROL Erlebnis-Targeting] (XT).
+title: Erstellen von Erlebnissen in einer [!UICONTROL Erlebnis-Targeting] Aktivität?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0dfdd995c00961ed2aed91ec03406e8493292af7
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 87%
+source-wordcount: '953'
+ht-degree: 39%
 
 ---
 
-# Erlebnis in Erlebnis-Targeting-Aktivitäten (XT) erstellen
+# Erlebnis erstellen in [!UICONTROL Erlebnis-Targeting] (XT) Aktivitäten
 
-Die [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet eine visuelle Benutzeroberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer [!UICONTROL Erlebnis-Targeting] (XT).
+Die [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] bietet eine visuelle Benutzeroberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer [!UICONTROL Erlebnis-Targeting] (XT).
 
-1. Wählen Sie die Elemente, die Sie ändern möchten, und nehmen Sie die gewünschten Änderungen vor.
+1. Wählen Sie die Elemente aus, die Sie ändern möchten, und nehmen Sie die gewünschten Änderungen vor.
 
-   Beim [Erstellen einer XT-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) erscheint in Schritt 1 des dreiteiligen Workflows ([!UICONTROL Erlebnisse]) das standardmäßige [!UICONTROL Erlebnis A] mit der Zielgruppe [!UICONTROL Alle Besucher].
+   while [Erstellen einer [!UICONTROL Erlebnis-Targeting] activity](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), Schritt 1 des aus drei Teilen bestehenden geführten Workflows ([!UICONTROL Erlebnisse]) zeigt die Standardeinstellung an [!UICONTROL Erlebnis A] mit einer [!UICONTROL Alle Besucher] Zielgruppe.
 
    ![Zielgruppe „Alle Besucher“](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Alle Änderungen, die Sie hier vornehmen, gelten für Erlebnis A. Klicken Sie in einem Schritt weiter unten auf **[!UICONTROL Erlebnis-Targeting hinzufügen]**, um weitere Erlebnisse zu erstellen.
+   Alle Änderungen, die Sie jetzt vornehmen, gelten für [!UICONTROL Erlebnis A]. In einem Schritt unten klicken Sie auf **[!UICONTROL Hinzufügen von Erlebnis-Targeting]** , um zusätzliche Erlebnisse zu erstellen.
 
-   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden diese Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
-
-   Wenn Sie eine [!DNL Target] -Anfrage auf der Seite mit [!DNL Target Classic], dass [!DNL Target] -Anfrage wird als Element mit dem Anforderungsnamen angezeigt und kann wie jedes andere Element bearbeitet werden.
+   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden die Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden. Eine Liste der Aktionen, die für ein Element durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    >[!NOTE]
    >
@@ -35,27 +33,25 @@ Die [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
    ![Link „Erlebnis-Targeting hinzufügen“](/help/main/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   Das Dialogfeld [!UICONTROL Zielgruppe auswählen] wird angezeigt. Um mit einem Erlebnis eine Zielgruppe anzusprechen, müssen Sie die Zielgruppe auswählen, bevor Sie ein Erlebnis hinzufügen können.
+   Die [!UICONTROL Zielgruppe hinzufügen] angezeigt. Um ein Erlebnis auf eine Zielgruppe auszurichten, wählen Sie die Zielgruppe aus, bevor Sie das Erlebnis hinzufügen.
 
    Die Zielgruppenbibliothek enthält Zielgruppen, die bereits definiert wurden, einschließlich einiger häufiger Zielgruppen, die als Teil von [!DNL Target] vorgefertigt sind. Sie können eine Zielgruppe aus der Bibliothek auswählen oder [eine neue Zielgruppe erstellen](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   >[!NOTE]
-   >
-   >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Beim Erstellen einer Zielgruppe können Sie einen Ort auswählen und Parameter für diesen Ort angeben. under [!UICONTROL Benutzerdefiniert] (Zielgruppe erstellen > Regel hinzufügen > Benutzerdefiniert), wählen Sie den Ort aus und geben Sie die gewünschten Parameter an.
+   Beim Erstellen einer Zielgruppe können Sie einen Ort auswählen und Parameter für diesen Ort angeben. under [!UICONTROL Benutzerdefiniert] ([!UICONTROL Zielgruppe erstellen] > [!UICONTROL Benutzerdefiniert]), wählen Sie den Ort aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
-   >Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
+   >Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als zehn Minuten sind.
 
 1. Wählen Sie mindestens eine Zielgruppe für das Targeting aus und klicken Sie auf **[!UICONTROL Fertig]**.
 
    ![Erlebnis B](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   Beachten Sie, dass Erlebnis B jetzt in der vorherigen Abbildung angezeigt wird und die Zielgruppe dieses Erlebnisses Besucher aus den USA ist.
+   Erlebnis B wird jetzt in der obigen Abbildung angezeigt und richtet sich an die Zielgruppe der US-Besucher.
 
-1. Wählen Sie die Elemente aus, die Sie für dieses Erlebnis ändern möchten, und nehmen Sie die gewünschten Änderungen wie in Schritt 1 erläutert vor.
+1. Wählen Sie die Elemente aus, die Sie für dieses Erlebnis ändern möchten, und nehmen Sie die gewünschten Änderungen vor, wie oben in Schritt 1 erläutert.
 
 1. Wiederholen Sie die obigen Schritte, um nach Bedarf zusätzliche Target-Erlebnisse zu erstellen.
 
@@ -67,40 +63,40 @@ Die [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
    >[!NOTE]
    >
-   >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf `akamai.net` gehostet und auf `adobe.com` bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
+   >Sie können ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf gehostet wird) `akamai.net` und bereitgestellt auf `adobe.com`). An anderer Stelle gehostete Bilder werden nicht in der Miniaturansicht der Seite angezeigt, die im Flussdiagramm angezeigt wird.
 
-1. (Abhängig von Ihrer Lizenz) Sie können Zielgruppen-/Erlebnispaare beim Erstellen oder Bearbeiten von XT-Aktivitäten per Drag &amp; Drop verschieben, um die Paare in der gewünschten Reihenfolge anzuordnen.
+1. (Bedingt) Drag-and-Drop von Zielgruppen- und Erlebnispaaren beim Erstellen oder Bearbeiten [!UICONTROL Erlebnis-Targeting] Aktivitäten , um die Paare in der gewünschten Reihenfolge anzuordnen.
 
    Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet.
 
    ![Erlebnisse verschieben](/help/main/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   [!UICONTROL Beim Erlebnis-Targeting kommt es auf die Reihenfolge an. ] Wenn ein Besucher unter das erste Zielgruppen-/Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
+   [!UICONTROL Beim Erlebnis-Targeting kommt es auf die Reihenfolge an. ] Wenn ein Besucher in das erste Zielgruppen- und Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
 
-   Nehmen wir beispielsweise an, Ihnen war nicht bewusst, dass es beim Erstellen einer XT-Aktivität auf die Reihenfolge ankommt. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, selbst wenn sie in San Francisco oder in einem anderen Ort in Kalifornien leben. Sie können die Reihenfolge der Zielgruppen-/Erlebnispaare von der stärksten Einschränkung zur geringsten Einschränkung ändern (San Francisco > Kalifornien > USA), ohne die gesamte Aktivität neu erstellen zu müssen.
+   Angenommen, Sie waren sich nicht bewusst, dass die Reihenfolge beim Erstellen einer [!UICONTROL Erlebnis-Targeting] -Aktivität. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario qualifizieren sich alle Benutzer aus den USA für Erlebnis A, auch wenn sie sich in San Francisco oder anderswo in Kalifornien befinden. Sie können die Zielgruppen- und Erlebnispaare von der restriktivsten zur am wenigsten restriktiven (San Francisco > Kalifornien > USA) neu anordnen, ohne die gesamte Aktivität neu zu erstellen.
 
-   Wenn Ihre Zielgruppe [!UICONTROL Alle Besucher] lautet, stellen Sie sicher, dass es sich nicht um die erste Zielgruppe im Diagramm handelt. Ein Erlebnis, das auf „Alle Besucher“ abzielt, kann als das letzte Erlebnis der entsprechenden Targeting-Aktivität eingesetzt werden, um auch die Besucher zu erfassen, die bei keinem anderen Erlebnis erfasst wurden.
+   Wenn Ihre Zielgruppe [!UICONTROL Alle Besucher] lautet, stellen Sie sicher, dass es sich nicht um die erste Zielgruppe im Diagramm handelt. Ein Erlebnis, für das &quot;[!UICONTROL Alle Besucher]&quot; kann als das letzte Erlebnis im [!UICONTROL Erlebnis-Targeting] -Aktivität, um alle Besucher zu &quot;erfassen&quot;, die nicht in ein anderes Erlebnis gefallen sind.
 
 ## Umbenennen oder Bearbeiten eines Erlebnisses
 
-Sie können in einem Erlebnis innerhalb einer XT-Aktivität (Erlebnis-Targeting) auf das Symbol [!UICONTROL Bearbeiten] klicken (drei vertikale Ellipsen) und folgende Optionen auswählen:
+Sie können auf die [!UICONTROL Bearbeiten] Symbol (die vertikale Ellipse) für ein Erlebnis in einem [!UICONTROL Erlebnis-Targeting] und wählen Sie bei Bedarf aus den folgenden Optionen aus:
 
-* Umbenennen
-* Bearbeiten
+* [!UICONTROL Umbenennen]
+* [!UICONTROL Bearbeiten ]
 
 ![Umbenennen und Bearbeiten von Optionen](/help/main/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
 ## Löschen eines Erlebnisses
 
-Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im dreistufigen Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Löschen]**.
+Im **[!UICONTROL Erlebnisse]** (der erste Schritt im dreistufigen geführten Workflow), klicken Sie auf die vertikale Ellipse > **[!UICONTROL Löschen]**.
 
 ![Erlebnis löschen](/help/main/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## Duplizieren eines Erlebnisses
 
-Sie können ein Erlebnis aus einer XT-Aktivität kopieren, um kleinere Änderungen vorzunehmen, ohne das Erlebnis vollständig neu erstellen zu müssen.
+Sie können ein Erlebnis in eine [!UICONTROL Erlebnis-Targeting] -Aktivität, damit Sie kleinere Änderungen vornehmen können, ohne das gesamte Erlebnis neu erstellen zu müssen.
 
-Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei-Schritte-Workflow) auf die drei vertikalen Ellipsen und anschließend auf **[!UICONTROL Duplizieren]**.
+Im **[!UICONTROL Erlebnisse]** (der erste Schritt im dreistufigen geführten Workflow), klicken Sie auf die vertikale Ellipse > **[!UICONTROL Duplizieren]**.
 
 ![Erlebnis duplizieren](/help/main/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -108,29 +104,29 @@ Klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (der erste Schritt im Drei
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Vom A/B-Test zum Erlebnis-Targeting
+### Vom A/B-Test bis [!UICONTROL Erlebnis-Targeting]
 
-Dieses Video beschreibt, wie Sie A/B-Tests mit Erlebnis-Targeting (XT) erweitern können.
+In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Erlebnis-Targeting] (XT).
 
-* Drei-Schritte-Workflow zur Konfiguration einer XT-Aktivität
-* Bereitstellung standortspezifischer Inhalte für Zielgruppen in unterschiedlichen Gebieten
+* Beschreiben Sie den dreistufigen geführten Workflow zum Konfigurieren eines [!UICONTROL Erlebnis-Targeting] activity
+* Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen.
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
-In diesem Video werden die in Target Standard/Premium verfügbaren Aktivitätstypen erläutert. Erlebnis-Targeting wird um 5:15 erläutert.
+In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Erlebnis-Targeting wird um 5:15 erläutert.]
 
-* Beschreibung der Aktivitätstypen in [!DNL Adobe Target]
+* Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Verwenden des Visual Experience Composer
+### Verwenden der [!UICONTROL Visual Experience Composer]
 
-In diesem Video erhalten Sie Informationen zum Verwenden der Optionen in Visual Experience Composer.
+In diesem Video erhalten Sie Informationen zur Verwendung der [!UICONTROL Erlebnis-Targeting] (VEC).
 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern

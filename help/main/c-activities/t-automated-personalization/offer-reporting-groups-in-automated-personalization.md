@@ -1,14 +1,14 @@
 ---
 keywords: automatisierte Personalisierung;Angebot;Berichterstellung;Gruppe;Berichtsgruppe;App
-description: Erfahren Sie, wie Sie in Adobe Angebotsberichtsgruppen verwenden. [!DNL Target] [!UICONTROL Automated Personalization] Aktivitäten.
-title: Kann ich Berichtsgruppen für Angebote in Automated Personalization-Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Erfahren Sie, wie Sie Angebotsberichtsgruppen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] Aktivitäten.
+title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization] Aktivitäten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 30%
+source-wordcount: '889'
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ Berichtsgruppen erfüllen zwei grundlegende Funktionen:
 
 Wenn Sie Berichtsgruppen verwenden, [!DNL Target] erstellt für jede Berichtsgruppe ein Personalisierungsmodell anhand der Daten aller Angebote in dieser Gruppe. Ohne Berichtsgruppen [!DNL Target] erstellt für jedes Angebot in Ihrer AP-Aktivität ein Personalisierungsmodell.
 
-Wenn Ihre Aktivitätseinrichtung nicht genügend Daten enthält, um ein Personalisierungsmodell pro Angebot zu erstellen, können Berichtsgruppen dazu beitragen, die zu verwendenden Datenanforderungen zu reduzieren [!UICONTROL Automated Personalization]. Berichtsgruppen können auch das Problem des „Kaltstarts“ für neue Angebote beheben, indem ähnliche Angebote gruppiert werden, damit jedes Modell mit mehr Daten arbeiten kann. Modellgruppen können auch für Aktivitäten verwendet werden, bei denen regelmäßig neue Angebote in Ihre AP-Aktivität eingeführt werden.
+Wenn Ihre Aktivitätseinrichtung nicht genügend Daten enthält, um ein Personalisierungsmodell pro Angebot zu erstellen, können Berichtsgruppen die zu verwendenden Datenanforderungen reduzieren [!UICONTROL Automated Personalization]. Berichtsgruppen können auch das Problem des „Kaltstarts“ für neue Angebote beheben, indem ähnliche Angebote gruppiert werden, damit jedes Modell mit mehr Daten arbeiten kann. Modellgruppen können auch für Aktivitäten verwendet werden, bei denen regelmäßig neue Angebote in Ihre AP-Aktivität eingeführt werden.
 
 Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe gleich reagieren. Best Practice ist es, Angebote zu gruppieren, auf die ähnliche Besuchergruppen auf ähnliche Weise reagieren. Anders ausgedrückt: Gruppieren Sie Angebote mit ähnlichen Konversionsraten. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben. Die Gruppierung aller Angebote oder die Gruppierung von Angeboten mit unterschiedlichen Konversionsraten verringert wahrscheinlich die Effektivität der [!DNL Target] Personalisierungsmodelle.
 
@@ -35,14 +35,14 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
 1. Im **[!UICONTROL Erlebnisse]** Seite einer AP-Aktivität, klicken Sie auf die **[!UICONTROL Inhalt verwalten]** Symbol.
 
-   ![Symbol &quot;Inhalt verwalten&quot;](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Symbol Inhalt verwalten](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Angebote]** oben im Dialogfeld [!UICONTROL Inhalt verwalten].
 1. (Optional) Fügen Sie bestimmte Erlebnisse zu einer Berichtsgruppe hinzu, indem Sie mit dem Mauszeiger über das gewünschte Angebot fahren und auf das Ordnersymbol **[!UICONTROL Berichtsgruppe]** klicken.
 
    ![Symbol &quot;Berichtsgruppe&quot;](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Bedingt) Fügen Sie Erlebnisse stapelweise zu einer Berichtsgruppe hinzu, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und anschließend auf die **[!UICONTROL Berichtsgruppe]** Ordnersymbol in der oberen rechten Ecke des Dialogfelds.
+1. (Bedingt) Fügen Sie Erlebnisse stapelweise zu einer Berichtsgruppe hinzu, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und anschließend auf das **[!UICONTROL Berichtsgruppe]** Ordnersymbol in der oberen rechten Ecke des Dialogfelds.
 
    ![Symbol &quot;Berichtsgruppe&quot;](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -56,7 +56,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
 Sie können die [!UICONTROL Standort] Liste, um Angebote nach Ort zu filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
 
-Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen erhalten Sie unter [Target-AP-Angebote](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+Informationen zum Targeting eines Angebots für bestimmte Zielgruppen finden Sie unter [Target [!UICONTROL Automated Personalization] Angebote](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 ## Einschränkungen 
 
@@ -64,19 +64,19 @@ Weitere Informationen zum Targeting eines Angebots für bestimmte Zielgruppen er
 
 * AP-Aktivitäten verfügen über Kombinationen aus Standort+Angebot (modellables). Wann [!DNL Target] Daten in Berichten aufzeichnet, [!DNL Target] berücksichtigt solche Kombinationen, sodass klar ist, von welchem Ereignis (Anzeigen, Klicken usw.) das Angebot stammte.
 
-   Eine Aktivität kann beispielsweise mehrere Orte und mehrere Angebote haben, die sich überschneiden können. Wenn ein Besucher mehr als eines dieser Angebote an verschiedenen Orten sieht, [!DNL Target] erfasst nur Daten für diese Angebote. Wenn derselbe Besucher später auf ein Angebot klickt, [!DNL Target] erfasst nur ein Ereignis aus dieser Kombination (nicht für alle Kombinationen).
+  Eine Aktivität kann beispielsweise mehrere Orte und mehrere Angebote haben, die sich überschneiden können. Wenn ein Besucher mehr als eines dieser Angebote an verschiedenen Orten sieht, [!DNL Target] erfasst nur Daten für diese Angebote. Wenn derselbe Besucher später auf ein Angebot klickt, [!DNL Target] erfasst nur ein Ereignis aus dieser Kombination (nicht für alle Kombinationen).
 
-   Wenn der Klick von einer anderen Stelle kommt, die in einer Metrik vorhanden ist, aber kein Angebot anzeigt, wird dieses Ereignis unter der Aktivität protokolliert, jedoch nicht für eine Kombination aus Angebot und Position. Daher wird dieses Angebot nicht in der Angebotsberichtsgruppe angezeigt.
+  Wenn der Klick von einer anderen Position kommt, die in einer Metrik vorhanden ist, aber kein Angebot anzeigt, wird dieses Ereignis unter der Aktivität protokolliert, jedoch nicht für eine Kombination aus Angebot und Position. Daher wird dieses Angebot nicht in der Angebotsberichtsgruppe angezeigt.
 
-   Dieses Verhalten ist darauf zurückzuführen, dass der Klick möglicherweise von einer anderen Mbox aus erfolgt ist und nicht von der Mbox, die das Angebot bereitgestellt hat. Aus diesem Grund ist die Metrik mit der Aktivität verknüpft, jedoch nicht mit dem Angebot.
+  Dies liegt daran, dass der Klick aus einer anderen Mbox und nicht aus der Mbox vorgenommen wurde, die das Angebot bereitgestellt hat. Aus diesem Grund ist die Metrik mit der Aktivität verknüpft, jedoch nicht mit dem Angebot.
 
 ## Angebote in einer Berichtsgruppe anzeigen
 
-1. Klicken **[!UICONTROL Tätigkeiten]** klicken Sie auf die gewünschte [!UICONTROL Automated Personalization] aus der Liste aus und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** zum Anzeigen der [Angebotsebene](/help/main/c-reports/personalization-reports/reports-ap.md) Bericht.
+1. Klicks **[!UICONTROL Tätigkeiten]** klicken Sie auf die gewünschte [!UICONTROL Automated Personalization] aus der Liste aus und klicken Sie auf die Schaltfläche **[!UICONTROL Berichte]** zum Anzeigen der [Angebotsebene](/help/main/c-reports/personalization-reports/reports-ap.md) Bericht.
 
-   Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie [!UICONTROL Automatisierte Personalisierung] in der Dropdownliste [!UICONTROL Typ] auswählen.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf die Schaltfläche [!UICONTROL Filter anzeigen] (Trichter) und wählen Sie dann die [!UICONTROL Automated Personalization] Kontrollkästchen zum Filtern der Liste, sodass nur die Liste angezeigt wird [!UICONTROL Automated Personalization] Aktivitäten.
 
-1. Klicken **[!UICONTROL Kontrolle]** oder **[!UICONTROL Targeting]** in der Tabelle, um die nicht gruppierten Angebote und Angebote in Berichtsgruppen anzuzeigen.
+1. Klicks **[!UICONTROL Kontrolle]** oder **[!UICONTROL Targeting]** in der Tabelle, um die nicht gruppierten Angebote und Angebote in Berichtsgruppen anzuzeigen.
 
    ![Angebotsgruppen: Kontrolle und Zielgruppe](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 

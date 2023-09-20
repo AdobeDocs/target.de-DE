@@ -1,73 +1,73 @@
 ---
 keywords: Randwald; Entscheidungsbaum; App; Automated Personalization
-description: Erfahren Sie, wie Adobe [!DNL Target] verwendet den Random Forest-Algorithmus sowohl in Automated Personalization- (AP-) als auch in Automatisches Targeting-Aktivitäten.
+description: Erfahren Sie mehr [!DNL Adobe Target] verwendet den Random Forest-Algorithmus in [!UICONTROL Automated Personalization] AP und [!UICONTROL Automatisches Targeting] Aktivitäten.
 title: Funktionsweise [!DNL Target] Verwenden Sie den Random Forest-Algorithmus?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 94%
+source-wordcount: '1431'
+ht-degree: 41%
 
 ---
 
 # Random-Forest-Algorithmus
 
-Der wichtigste Personalisierungsalgorithmus von Target, der sowohl in der automatisierten Personalisierung als auch im automatischen Targeting verwendet wird, ist Random Forest. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere Prognoseleistung zu erzielen, als dies bei der isolierten Verwendung dieser Lernalgorithmen möglich wäre. Der Random Forest-Algorithmus der automatisierten Personalisierung ist eine Classification- oder Regressionsmethode, deren Funktionsweise die Konstruktion einer Vielzahl von Entscheidungsbäumen während der Anlernzeit zugrunde liegt.
+Der wichtigste Personalisierungsalgorithmus, der sowohl in (AP) als auch in [!DNL Auto-Target] Aktivitäten ist Random Forest. Ensemble-Methoden, wie Random Forest, verwenden mehrere Lernalgorithmen, um eine bessere Vorhersageleistung zu erzielen, als sie sich aus den einzelnen Lernalgorithmen ergeben könnte. Der Random Forest-Algorithmus in [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] ist eine Klassifizierungs- oder Regressionsmethode, die bei der Schulung durch die Konstruktion einer Vielzahl von Entscheidungsbäumen arbeitet.
 
 Wenn man an Statistiken denkt, kommt einem ein einzelnes Regressionsmodell in den Sinn, mit dem man ein Ergebnis vorhersagen kann. Neueste datenwissenschaftliche Forschungen legen nahe, dass „Ensemble-Methoden“, bei denen mehrere Modelle aus demselben Datensatz erstellt und dann intelligent kombiniert werden, bessere Ergebnisse liefern als die Vorhersage auf der Grundlage eines einzelnen Modells.
 
-Der Random Forest-Algorithmus ist der Schlüssel des Personalisierungsalgorithmus, der bei automatisierten Personalisierungs- und Targeting-Aktivitäten verwendet wird. Random Forest fasst Hunderte von Entscheidungsbäumen zusammen, um eine bessere Vorhersage zu erhalten, als es ein einzelner Baum allein könnte.
+Der Random Forest-Algorithmus ist der wichtigste zugrunde liegende Personalisierungsalgorithmus, der in [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] Aktivitäten. Random Forest kombiniert Hunderte von Entscheidungsbäumen, um zu einer besseren Vorhersage zu gelangen, als es ein einzelner Baum allein tun könnte.
 
 ## Was ist ein Entscheidungsbaum? {#section_7F5865D8064447F4856FED426243FDAC}
 
-Das Ziel eines Entscheidungsbaums ist es, alle verfügbaren Besuchsdaten, aus denen ein System lernen kann, aufzuschlüsseln und diese Daten zu gruppieren, wobei die Besuche innerhalb jeder Gruppe in Bezug auf die Zielmetrik so ähnlich wie möglich sind. Gruppenübergreifend sind die Besuche jedoch, bezogen auf die Zielkennzahl (z. B. Konversionsrate), so unterschiedlich wie möglich. Der Entscheidungsbaum betrachtet die verschiedenen Variablen, die er im Trainingssatz hat, um zu bestimmen, wie die Daten in einem MECE(Mutually-Exclusive-Collectively-Exhaustive)-Weg in diese Gruppen (oder „Blätter“) aufgeteilt werden können, um dieses Ziel auszubauen.
+Ziel einer Entscheidungsstruktur ist es, alle verfügbaren Besuchsdaten, aus denen ein System lernen kann, aufzuschlüsseln und diese Daten dann zu gruppieren, wobei Besuche innerhalb jeder Gruppe im Hinblick auf die Zielmetrik so ähnlich wie möglich sind. Gruppenübergreifend sind die Besuche jedoch hinsichtlich der Zielmetrik (z. B. Konversionsrate) so unterschiedlich wie möglich. Der Entscheidungsbaum untersucht die verschiedenen Variablen, die er im Trainings-Satz hat, um zu bestimmen, wie die Daten in einer MECE-Methode (Mutally Exclusive Collective Exhaustive) in diese Gruppen (oder &quot;Blätter&quot;) aufgeteilt werden, um dieses Ziel zu maximieren.
 
-Als einfaches Beispiel nehmen wir an, dass wir nur zwei Eingangsvariablen haben:
+In einem einfachen Beispiel nehmen wir zwei Eingabevariablen an:
 
 * Geschlecht (mit zwei möglichen Werten, männlich oder weiblich)
-* Postleitzahl (mit fünf möglichen Werten in unserem kleinen Datensatz: 11111, 22222, 33333, 44444 oder 55555)
+* Postleitzahl (mit fünf potenziellen Werten im kleinen Datensatz: 11111, 2222, 33333, 44444 oder 5555)
 
-Wenn unsere Zielmetrik die Konversion ist, dann würde der Baum zuerst bestimmen, welche unserer beiden Variablen die größte Variation der Konversionsrate der Besuchsdaten erklärt.
+Wenn die Zielmetrik Konversion ist, bestimmt der Baum zunächst, welche der beiden Variablen die größte Variation der Konversionsrate der Besuchsdaten erklärt.
 
-Nehmen wir einmal an, die Postleitzahl sei sehr prädiktiv. Diese Variable würde dann den ersten „Zweig“ des Baumes bilden. Der Entscheidungsbaum würde dann festlegen, wie die Besuchsdaten aufgeteilt werden sollen, z. B. die Konversionsrate der Datensätze innerhalb der einzelnen Splits wäre so ähnlich wie möglich und die Konversionsrate zwischen den Splits so unterschiedlich wie möglich. In unserem Beispiel gehen wir davon aus, dass 11111, 22222, 33333 ein Split und 44444 und 55555 ein zweiter Split sind.
+Nehmen wir einmal an, die Postleitzahl sei sehr prädiktiv. Diese Variable würde dann den ersten „Zweig“ des Baumes bilden. Der Entscheidungsbaum würde dann festlegen, wie die Besuchsdaten aufgeteilt werden sollen, z. B. die Konversionsrate der Datensätze innerhalb der einzelnen Splits wäre so ähnlich wie möglich und die Konversionsrate zwischen den Splits so unterschiedlich wie möglich. In diesem Beispiel wird angenommen, dass 11111, 2222, 3333 eine Aufspaltung und 44444 und 55555 eine zweite Aufspaltung sind.
 
-Diese Aktion würde die erste Schicht unseres Entscheidungsbaums ergeben:
+Diese Aktion führt zur ersten Ebene des Entscheidungsbaums:
 
 ![Bild des Entscheidungsbaums_1](assets/decsion_tree_1.png)
 
-Der Entscheidungsbaum würde die Frage stellen: „Was ist die prädiktivste Variable?“ In unserem Beispiel haben wir nur zwei Variablen, daher lautet die Antwort hier eindeutig Geschlecht. Der Baum versucht nun, ein ähnliches Verfahren auszuführen, um die Daten *in jedem Zweig* aufzuteilen. Betrachten wir zunächst Zweig 11111, 22222 und 33333. Wenn es in diesen Postleitzahlbereichen zwischen Männern und Frauen einen Unterschied bei der Konversion gäbe, dann gäbe es zwei Blätter (Männer und Frauen) und dieser Zweig wäre komplett. In dem anderen Zweig, 44444 und 55555, gehen wir einmal davon aus, dass es keinen statistischen Unterschied gibt, wie Frauen und Männer konvertieren. In diesem Fall wird der erste Zweig zum endgültigen Split.
+Der Entscheidungsbaum stellt die Frage: &quot;Was ist die prädiktivste Variable?&quot; In diesem Beispiel gibt es nur zwei Variablen, daher lautet die Antwort hier eindeutig Geschlecht. Der Baum versucht nun, eine ähnliche Übung zum Aufteilen der Daten abzuschließen *innerhalb jedes Zweigs*. Betrachten wir zunächst Zweig 11111, 22222 und 33333. Wenn es in diesen Postleitzahlbereichen zwischen Männern und Frauen einen Unterschied bei der Konversion gäbe, dann gäbe es zwei Blätter (Männer und Frauen) und dieser Zweig wäre komplett. In den anderen Zweigen, 44444 und 5555, nehmen wir an, es gibt keinen statistischen Unterschied zwischen der Konvertierung von Frauen und Männern. In diesem Fall wird der erste Zweig zum endgültigen Split.
 
-Unser Beispiel würde zu dem unten stehenden Baum führen:
+Das Beispiel würde zu der folgenden Baumstruktur führen:
 
 ![Bild der Entscheidungsstruktur_tree_2](assets/decsion_tree_2.png)
 
 ## Wie werden Entscheidungsbäume von Random Forest verwendet? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am kritischsten ist, dass sie die Daten „überanpassen“ können, sodass ein einzelner Baum zukünftige Daten schlecht vorhersagt, die nicht für den Aufbau des ursprünglichen Baums verwendet wurden. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Random Forest kann bei der Überwindung dieses „Überanpassungsproblems“ helfen. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden durch die zufällige Auswahl einer Teilmenge von Besuchsdatensätzen mit Ersetzungen (bekannt als „Bagging“) sowie durch die zufällige Auswahl einer Teilmenge der Attribute aufgebaut, sodass der Wald aus leicht unterschiedlichen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
+Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am kritischsten ist, dass sie die Daten „überanpassen“ können, sodass ein einzelner Baum zukünftige Daten schlecht vorhersagt, die nicht für den Aufbau des ursprünglichen Baums verwendet wurden. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Random-Wälder helfen bei der Überanpassung. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden durch die zufällige Auswahl einer Teilmenge von Besuchsprotokollen mit Ersetzung (auch als Ausbaggern bezeichnet) und die zufällige Auswahl einer Teilmenge der Attribute erstellt, sodass der Wald aus leicht unterschiedlichen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
 
-## Wie verwenden die Personalisierungsalgorithmen von Target Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Wie wird die [!DNL Target] Personalisierungsalgorithmen verwenden Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
-**Der Aufbau von Modellen**
+### Wie Modelle erstellt werden
 
-Das folgende Diagramm fasst zusammen, wie Modelle für automatisches Targeting oder automatisierte Personalisierungsaktivitäten aufgebaut werden:
+Das folgende Diagramm fasst zusammen, wie Modelle für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization] Aktivitäten:
 
-![random_forest_flow image](assets/random_forest_flow.png)
+![random_forest_flow-Bild](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
-1. Target sammelt Daten über Besucher, indem es zufällige Erlebnisse/Angebote vorschlägt.
-1. Wenn Target eine bestimmte Menge an Daten gesammelt hat, führt es eine Merkmalbearbeitung durch.
-1. Target erstellt Random Forest-Modelle für jedes Erlebnis und jedes Angebot.
-1. Target prüft, ob das Modell einen Schwellenwert für die Qualitätsbewertung erreicht.
-1. Target schiebt das Modell in die Produktion, um den zukünftigen Traffic zu personalisieren.
+1. Target erfasst Daten zu Besuchern, während Erlebnisse oder Angebote zufällig bereitgestellt werden
+1. Nachher [!DNL Target] Treffer mit einer kritischen Datenmenge, [!DNL Target] Funktionsentwicklung
+1. [!DNL Target] erstellt Random Forest-Modelle für jedes Erlebnis oder Angebot
+1. [!DNL Target] prüft, ob das Modell einen Schwellenwert für die Qualitätsbewertung erreicht.
+1. [!DNL Target] schiebt das Modell in die Produktion, um den zukünftigen Traffic zu personalisieren.
 
-Target verwendet zur Erstellung seiner Personalisierungsalgorithmen Daten, die es automatisch sammelt, sowie benutzerdefinierte Daten, die von Ihnen zur Verfügung gestellt werden. Diese Modelle prognostizieren das beste Erlebnis oder das beste Angebot für den Besucher. In der Regel wird ein Modell pro Erlebnis (bei einer automatischen Targeting-Aktivität) oder pro Angebot (bei einer automatisierten Personalisierungsaktivität) erstellt. Target wählt für die Anzeige dann das Erlebnis oder das Angebot, das die höchste vorhergesagte Erfolgsmetriken (z. B. Konversionsrate) liefert. Diese Modelle müssen mit zufällig ausgewählten Besuchen trainiert werden, bevor sie für eine Vorhersage verwendet werden können. Daher werden auch den Besuchern, die sich in der personalisierten Gruppe befinden, bei Beginn einer Aktivität nach dem Zufallsprinzip verschiedene Erlebnisse oder Angebote angezeigt, bis die Personalisierungsalgorithmen betriebsbereit sind.
+[!DNL Target] verwendet automatisch erfasste Daten und von Ihnen bereitgestellte benutzerdefinierte Daten, um die Personalisierungsalgorithmen zu erstellen. Diese Modelle prognostizieren das beste Erlebnis oder das beste Angebot für den Besucher. Im Allgemeinen wird pro Erlebnis ein Modell erstellt (wenn ein [!UICONTROL Automatisches Targeting] Aktivität oder pro Angebot (wenn ein [!UICONTROL Automated Personalization] -Aktivität). [!DNL Target] zeigt dann das Erlebnis oder Angebot an, das die höchste prognostizierte Erfolgsmetrik liefert (z. B. Konversionsrate). Diese Modelle müssen mit zufällig ausgewählten Besuchen trainiert werden, bevor sie für eine Vorhersage verwendet werden können. Daher werden auch den Besuchern, die sich in der personalisierten Gruppe befinden, bei Beginn einer Aktivität nach dem Zufallsprinzip verschiedene Erlebnisse oder Angebote angezeigt, bis die Personalisierungsalgorithmen betriebsbereit sind.
 
-Jedes Modell muss validiert werden, um sicherzustellen, dass es das Besucherverhalten in ausreichendem Maße vorhersagen kann, bevor es in Ihrer Aktivität verwendet wird. Die Modelle werden anhand ihrer AUC (Fläche unter der Kurve) validiert. Aufgrund der Notwendigkeit dieser Validierung hängt der genaue Zeitpunkt, an dem ein Modell mit der Bereitstellung personalisierter Erlebnisse beginnt, von der Datengenauigkeit ab. Für die praktische Traffic-Planung dauert es in der Regel mehr als die Mindestzahl an Konversionen, bis ein Modell funktionsfähig ist.
+Jedes Modell muss validiert werden, um sicherzustellen, dass es gut darin ist, das Verhalten der Besucher vorherzusagen, bevor es in Ihrer Aktivität verwendet wird. Modelle werden anhand ihres Bereichs unter der Kurve (AUC) validiert. Aufgrund der Notwendigkeit einer Validierung hängt der genaue Zeitpunkt, zu dem ein Modell mit der Bereitstellung personalisierter Erlebnisse beginnt, von den Details der Daten ab. Für die praktische Traffic-Planung dauert es in der Regel mehr als die Mindestzahl an Konversionen, bis ein Modell funktionsfähig ist.
 
-Wenn ein Modell für ein Erlebnis oder ein Angebot in Funktion geht, wird das Uhrensymbol links neben dem Erlebnis-/Angebotsnamen zu einem grünen Kontrollkästchen. Wenn es funktionierende Modelle für mindestens zwei Erlebnisse/Angebote gibt, können die ersten Besuche personalisiert werden.
+Wenn ein Modell für ein Erlebnis oder ein Angebot in Funktion geht, wird das Uhrensymbol links neben dem Erlebnis-/Angebotsnamen zu einem grünen Kontrollkästchen. Wenn es gültige Modelle für mindestens zwei Erlebnisse oder Angebote gibt, beginnen einige Besuche zu personalisieren.
 
-**Merkmalumwandlung **
+### Merkmalumwandlung
 
 Bevor die Daten in den Personalisierungsalgorithmus aufgenommen werden, durchlaufen sie eine Merkmalumwandlung, die man sich als Vorbereitung der mit den Trainingsdatensätzen gesammelten Daten für die Verwendung durch die Personalisierungsmodelle vorstellen kann.
 
@@ -76,12 +76,12 @@ Die Merkmalumwandlungen hängen vom Attributtyp ab. Es gibt vor allem zwei Arten
 * **Kategorische Merkmale:** Kategorische Merkmale lassen sich nicht zählen, können jedoch in verschiedene Gruppen unterteilt werden. Dabei kann es sich um Merkmale wie Land, Geschlecht oder Postleitzahl handeln.
 * **Numerische Merkmale:** Diese Merkmale lassen sich messen oder zählen – beispielsweise Alter, Einkommen usw.
 
-Für kategorische Merkmale wird ein Satz mit allen möglichen Merkmalsausprägungen gepflegt und die Umwandlungswahrscheinlichkeit wird verwendet, um die Datengröße zu reduzieren. Für numerische Merkmale wird durch Umskalierung gewährleistet, dass die Merkmale flächendeckend vergleichbar sind.
+Für kategorische Merkmale wird ein Satz mit allen möglichen Merkmalsausprägungen gepflegt und die Umwandlungswahrscheinlichkeit wird verwendet, um die Datengröße zu reduzieren. Bei numerischen Funktionen stellt die Neuskalierung sicher, dass die Funktionen auf allen Ebenen vergleichbar sind.
 
-**Mit dem Modul &quot;Multi-Armed Bandit&quot;das Gleichgewicht zwischen Lernen und Personalisierung herstellen**
+### Ausbalancieren von Lernen und Personalisierung mit dem Multi-Armed Bandit
 
-Nachdem Target Personalisierungsmodelle entwickelt hat, um Ihren Traffic zu personalisieren, stecken Sie in einem gewissen Konflikt, was die zukünftigen Besucher Ihrer Aktivität angeht: Sollten Sie nun den gesamten Traffic auf Basis des aktuellen Modells personalisieren oder sollten Sie weiterhin von neuen Besuchern lernen, indem Sie ihnen zufällige Angebote vorlegen? Sie möchten sicherstellen, dass der Personalisierungsalgorithmus immer über neue Trends bei Ihren Besuchern informiert ist, während Sie gleichzeitig den größten Teil des Traffics personalisieren.
+Nachher [!DNL Target] Personalisierungsmodelle zur Personalisierung Ihres Traffics entwickelt hat, gibt es einen klaren Kompromiss für zukünftige Besucher Ihrer Aktivität. Sollten Sie den gesamten Traffic basierend auf dem aktuellen Modell personalisieren oder sollten Sie weiterhin von neuen Besuchern lernen, indem Sie ihnen zufällige Angebote bereitstellen? Sie möchten sicherstellen, dass der Personalisierungsalgorithmus immer über neue Trends bei Ihren Besuchern informiert ist, während Sie gleichzeitig den größten Teil des Traffics personalisieren.
 
-Mit Multi-Armed Bandit von Target können Sie dieses Ziel erreichen. Multi-Armed Bandit gewährleistet, dass das Modell immer einen kleinen Anteil des Traffics darauf verwendet, während des gesamten Lebenszyklus der Aktivität weiter zu lernen, um so eine Übernutzung der zuvor erlernten Trends zu verhindern.
+Der &quot;mehrarmige Bandit&quot;ist wie [!DNL Target] hilft Ihnen, dieses Ziel zu erreichen. Der &quot;mehrarmige Bandit&quot;stellt sicher, dass das Modell immer einen kleinen Bruchteil des Traffics &quot;ausgibt&quot;, um während des gesamten Lebenszyklus des Aktivitätslernens weiter zu lernen und eine Übernutzung zuvor erlernter Trends zu verhindern.
 
-In der Welt der Datenwissenschaftler ist das Problem mit Multi-Armed Bandit (MAB) ein klassisches Beispiel für den Zwiespalt zwischen Exploration und Exploitation, bei dem eine Ansammlung „einarmiger Banditen“ mit unbekannter Belohnungswahrscheinlichkeit vorgegeben wird. Die Grundidee besteht in der Entwicklung einer Strategie, die dazu führt, dass der Automat mit der höchsten Erfolgswahrscheinlichkeit bedient wird, sodass der Gesamtgewinn maximiert wird. MAB wird im System beim Online-Scoring nach Erstellung der Online-Modelle verwendet. Dadurch wird das Online-Lernen während der Exploration unterstützt. Der aktuelle Multi-Armed-Algorithmus ist der Greedy-Algorithmus epsilon (ε). Bei diesem Algorithmus wird mit einer Wahrscheinlichkeit von 1-ε der beste Arm gewählt. Die Wahrscheinlichkeit für die zufällige Auswahl eines beliebigen anderen Arms ist ε.
+In der datenwissenschaftlichen Welt ist das Multi-Armed Bandit-Problem ein klassisches Beispiel für das Exploration versus Explosion-Dilemma, in dem eine Sammlung einarmiger Banditen mit unbekannter Belohnungswahrscheinlichkeit gegeben wird. Die Grundidee besteht in der Entwicklung einer Strategie, die dazu führt, dass der Automat mit der höchsten Erfolgswahrscheinlichkeit bedient wird, sodass der Gesamtgewinn maximiert wird. Multi-Armed Bandit wird im System für die Online-Bewertung verwendet, nachdem die Online-Modelle erstellt wurden. Dieser Prozess hilft beim Online-Lernen während der Erkundung. Der aktuelle Multi-Armed-Algorithmus ist ein Greedy-Algorithmus für Epsilon (ε). Bei diesem Algorithmus wird mit einer Wahrscheinlichkeit von 1-ε der beste Arm gewählt. Die Wahrscheinlichkeit für die zufällige Auswahl eines beliebigen anderen Arms ist ε.

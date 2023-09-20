@@ -1,13 +1,13 @@
 ---
 keywords: Aktivitäts-URL;URL;andere URL
-description: Erfahren Sie, wie Sie die Aktivitäts-URL angeben, die die Seite bestimmt, die beim Test verwendet wird und beim Entwurf des Tests mit Adobe Target geöffnet wird.
+description: Erfahren Sie, wie Sie die Aktivitäts-URL angeben, die die Seite bestimmt, die beim Test verwendet wird und beim Entwurf des Tests geöffnet wird, indem Sie [!DNL Adobe Target].
 title: Was ist die Aktivitäts-URL in einer A/B-Aktivität?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6bca763d24649349dbc7cdf6e5f2dbc4ac0a480d
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '316'
+ht-degree: 64%
 
 ---
 
@@ -23,31 +23,30 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 
 ## Spezifizieren einer anderen URL
 
-Standardmäßig wird die [!UICONTROL Visual Experience Composer] öffnet die Seite, die in Ihrem [Visual Experience Composer-Einstellungen](/help/main/administrating-target/visual-experience-composer-set-up.md)
-. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig wird die Variable [!UICONTROL Visual Experience Composer] öffnet die Seite, die in Ihrem [Visual Experience Composer-Einstellungen](/help/main/administrating-target/visual-experience-composer-set-up.md). Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-Damit nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite angezeigt wird, klicken Sie auf das Zahnradsymbol **[!UICONTROL Konfigurieren]** und wählen Sie dann **[!UICONTROL Seitenbereitstellung]**. Geben Sie die URL in das Feld „Aktivitäts-URL“ ein.
+1. So zeigen Sie eine andere Seite nach dem [!UICONTROL Visual Experience Composer] öffnet sich in der **[!UICONTROL Erlebnisse]** klicken Sie auf die **[!UICONTROL Konfigurieren]** Zahnradsymbol, und wählen Sie **[!UICONTROL Seitenbereitstellung]**.
 
-![Dialogfeld „Seitenbereitstellung“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+1. Geben Sie die URL in der **[!UICONTROL URL]** -Feld.
 
-Klicken Sie auf **[!UICONTROL Vorlagenregel hinzufügen]**, um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.
+   ![Dialogfeld „Seitenbereitstellung“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
-Zusätzliche Regeln können auf Folgendem basieren:
+1. (Abhängig von Ihrer Lizenz) Klicken Sie auf **[!UICONTROL Vorlagenregel hinzufügen]**, um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.
 
-* URL
-* Domain
-* Pfad
-* Hashfragment (#)
-* Abfrage
-* Parameter „mbox“
+   Zusätzliche Regeln können auf Folgendem basieren:
 
-Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
+   * URL
+   * Domain
+   * Pfad
+   * Hashfragment (#)
+   * Abfrage
+   * Parameter „mbox“
 
-Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
+   Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 
->[!NOTE]
->
->Wenn Sie eine URL für eine Site eingegeben haben, die keinen [!DNL Target]-Standard-JavaScript-Code enthält, können Sie keine Seitenelemente auswählen.
+1. Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
+
+Wenn Sie eine URL für eine Site eingegeben haben, die keinen [!DNL Target]-Standard-JavaScript-Code enthält, können Sie keine Seitenelemente auswählen.
 
 Standardmäßig gestattet der [!UICONTROL Visual Experience Composer] das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können die Option **[!UICONTROL Mit JavaScript rendern]** deaktivieren, wenn Sie in der Lage sein möchten, solche Elemente mit dem [!UICONTROL Visual Experience Composer] zu ändern.
 

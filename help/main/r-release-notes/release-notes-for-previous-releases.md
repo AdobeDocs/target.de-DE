@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37233'
+source-wordcount: '37216'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ In der Version Adobe Target Standard/Premium 16.5.1 (19. Mai 2016) sind folge
   <tr> 
    <td colname="col1"> Erlebnisversionen </td> 
    <td colname="col2"> <p>Versionen für verschiedene Zielgruppen können jetzt in Erlebnisse in A/B-Aktivitäten integriert werden. </p> <p>Weitere Informationen zu diesem Thema finden Sie unter <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">Targeting eines Erlebnisses für mehrere Zielgruppen</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> QS-/Vorschau-URLs </td> 
-   <td colname="col2"> <p>Vorschau-URLs sind nun für den Form-Based Experience Composer verfügbar. </p> <p>Weitere Informationen zu diesem Thema finden Sie unter <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Erlebnis-URLs anzeigen</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Benutzerdefinierte Algorithmen in Recommendations </td> 

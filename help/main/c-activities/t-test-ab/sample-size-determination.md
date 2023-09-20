@@ -4,10 +4,10 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt werden soll. Ein e
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
+source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
 workflow-type: tm+mt
-source-wordcount: '3092'
-ht-degree: 57%
+source-wordcount: '3085'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Erfolgreich [!UICONTROL A/B-Test] Aktivität in [!DNL Adobe Target] erfordert genügend Besucher (Stichprobengröße), um Ihre Konversionsrate zu verbessern. Woher wissen Sie, wie lange ein A/B-Test dauert? Dieser Artikel enthält Informationen zu [!UICONTROL Automatische Zuordnung] und [!UICONTROL Adobe Target] Stichprobengrößenrechner , mit dem Sie sicherstellen können, dass Ihre Aktivität über genügend Besucher verfügt, um Ihre Ziele zu erreichen.
 
-Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität deutlich besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
+Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten 
 
 ## Automatische Zuordnung {#auto-allocate}
 
-Ein [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) -Aktivität ist ein Typ von A/B-Test, der einen Gewinner unter zwei oder mehr Erlebnissen identifiziert. Ein automatisierter Zuordnungstest ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
+Ein [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) -Aktivität ist ein Typ von A/B-Test, der einen Gewinner unter zwei oder mehr Erlebnissen identifiziert. Ein [!UICONTROL Automatische Zuordnung] Test ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
 
 Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Und es besteht immer noch die Chance, dass der ermittelte Gewinner kein wahrer Gewinner ist.
 
-Die Lösung lautet [!UICONTROL Automatische Zuordnung]. [!UICONTROL Die Funktion „Automatisierte Zuordnung“ senkt diese Kosten sowie die Kosten für die Bestimmung eines erfolgreichsten Erlebnisses. ] [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überwacht die Zielmetrikleistung aller Erlebnisse und sendet proportional mehr neue Teilnehmer an Erlebnisse mit einer hohen Leistung. ] Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, selbst wenn die Aktivität noch ausgeführt wird: Optimierung erfolgt parallel zum Lernen.
+Die Lösung lautet [!UICONTROL Automatische Zuordnung]. [!UICONTROL Die Funktion „Automatisierte Zuordnung“ senkt diese Kosten sowie die Kosten für die Bestimmung eines erfolgreichsten Erlebnisses. ] [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überwacht die Zielmetrikleistung aller Erlebnisse und sendet proportional mehr neue Teilnehmer an Erlebnisse mit einer hohen Leistung. ] Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, selbst wenn die Aktivität noch ausgeführt wird: Die Optimierung erfolgt parallel zum Lernen.
 
 [!UICONTROL Die Funktion „Automatisierte Zuordnung“ überführt Besucher nach und nach zu den erfolgreichsten Erlebnissen, anstatt dass Sie mit dem Bestimmen eines Siegers warten müssen, bis die Aktivität abgeschlossen ist. ] Sie profitieren schneller von Steigerungen, da den Aktivitätsteilnehmern, die zu weniger erfolgreichen Erlebnissen geleitet worden wären, nun potenziell erfolgreiche Erlebnisse angezeigt werden.
 
-Bei der Verwendung der Funktion [!UICONTROL „Automatisierte Zuordnung“] zeigt [!DNL Adobe Target] oben auf der Seite der Aktivität ein Abzeichen mit „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat. [!DNL Target] bestimmt dann das erfolgreichste Erlebnis, indem oben auf der Aktivitätsseite ein entsprechendes Symbol angezeigt wird.
+Bei Verwendung von [!UICONTROL Automatische Zuordnung], [!DNL Target] zeigt oben auf der Seite der Aktivität ein Abzeichen mit &quot;Noch kein Gewinner&quot;an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht hat. [!DNL Target] bestimmt dann das erfolgreichste Erlebnis, indem oben auf der Aktivitätsseite ein entsprechendes Symbol angezeigt wird.
 
 Weitere Informationen finden Sie unter [Übersicht über die automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
@@ -45,11 +45,11 @@ Bevor Sie Ihren A/B-Test einrichten, rufen Sie die [!DNL Adobe Target] [Stichpro
 
 ![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Es ist wichtig, vor einem A/B-Test eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um die Zeit zu bestimmen, die die Aktivität vor der Auswertung der Ergebnisse ausführen soll. Eine einfache Überwachung der Aktivität bis zur Erreichung der statistischen Bedeutung führt dazu, dass das Konfidenzintervall stark unterschätzt wird, was den Test unzuverlässig macht. Mit diesem Ergebnis wird beabsichtigt, dass - für den Fall, dass ein statistisch signifikantes Ergebnis entdeckt wird - der Test gestoppt und ein Gewinner ernannt wird. Sollte das Ergebnis jedoch nicht statistisch signifikant sein, wird der Test weiter ausgeführt. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
+Es ist wichtig, vor einem A/B-Test eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um die Zeit zu bestimmen, die die Aktivität vor der Auswertung der Ergebnisse ausführen soll. Eine einfache Überwachung der Aktivität bis zur Erreichung der statistischen Bedeutung führt dazu, dass das Konfidenzintervall stark unterschätzt wird, was den Test unzuverlässig macht. Die Intuition hinter diesem Ergebnis ist, dass der Test gestoppt und ein Gewinner erklärt wird, wenn ein statistisch signifikantes Ergebnis erkannt wird. Wenn das Ergebnis jedoch nicht statistisch signifikant ist, kann der Test fortgesetzt werden. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
 
-Dies kann zu vielen falsch-positiven Ergebnissen führen, was zur Implementierung von Angeboten führt, die nicht die prognostizierte Steigerung am Ende liefern. Eine schlechte Steigerung selbst ist ein unbefriedigendes Ergebnis, aber eine noch schwerwiegendere Folge ist, dass die Unfähigkeit, eine genaue Steigerung vorherzusagen, im Laufe der Zeit das Vertrauen der Organisation in Tests als Praxis untergräbt.
+Dieses Verfahren kann zu vielen falsch-positiven Ergebnissen führen, was zur Implementierung von Angeboten führt, die nicht die prognostizierte Steigerung am Ende liefern. Eine schlechte Steigerung selbst ist ein unbefriedigendes Ergebnis, aber eine noch schwerwiegendere Folge ist, dass die Unfähigkeit, eine genaue Steigerung vorherzusagen, im Laufe der Zeit das Vertrauen der Organisation in Tests als Praxis untergräbt.
 
-In diesem Artikel werden die Faktoren erläutert, die bei der Ermittlung der Stichprobengröße ausgeglichen werden müssen, und ein Rechner zur Schätzung einer angemessenen Stichprobengröße eingeführt. Durch Berechnung der Stichprobengröße mithilfe des Stichprobengrößenrechners (Link siehe oben) vor Beginn eines A/B-Tests stellen Sie sicher, dass Sie jederzeit hochwertige A/B-Tests durchführen, die statistischen Standards entsprechen.
+In diesem Artikel werden die Faktoren erläutert, die bei der Ermittlung der Stichprobengröße ausgeglichen werden müssen, und ein Rechner zur Schätzung einer angemessenen Stichprobengröße eingeführt. Die Berechnung der Stichprobengröße mithilfe des Stichprobengrößenrechners (Link siehe oben) vor Beginn eines A/B-Tests hilft sicherzustellen, dass Sie immer hochwertige A/B-Tests durchführen, die statistischen Standards entsprechen.
 
 Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese Parameter sind miteinander verknüpft, sodass sich der fünfte berechnen lässt, wenn vier der Parameter festgelegt wurden:
 
@@ -61,7 +61,7 @@ Es gibt fünf benutzerdefinierte Parameter zur Definition eines A/B-Tests. Diese
 
 >[!IMPORTANT]
 >
->Um genaue Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie die Parameterzahlen ändern. Wiederholen Sie diesen Vorgang jedes Mal, wenn Sie Parameterzahlen ändern.
+>Um präzise Ergebnisse zu erhalten, müssen Sie die Seite neu laden, bevor Sie die Parameterzahlen ändern. Wiederholen Sie diesen Vorgang jedes Mal, wenn Sie Parameterzahlen ändern.
 
 Bei einem A/B-Test werden die statistische Bedeutung, Teststärke, zuverlässig bestimmbare Mindeststeigerung und Baseline-Konversionsrate durch einen Analysten festgelegt. Anschließend wird die erforderliche Anzahl der Besucher aus diesen Zahlen berechnet. In diesem Artikel werden diese Elemente erläutert und Richtlinien zur Ermittlung dieser Metriken für einen bestimmten Test festgelegt.
 
@@ -97,9 +97,9 @@ Es ist wünschenswert, das höchstmögliche Konfidenzniveau zu verwenden, damit 
 
 ### Teststärke {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-Die Teststärke eines A/B-Tests ist die Wahrscheinlichkeit der Aufdeckung eines echten Unterschieds der Konversionsrate in einer bestimmten Größenordnung. Aufgrund der zufälligen (stochastischen) Natur der Konversionsereignisse ist es möglich, dass ein statistisch signifikanter Unterschied - zufällig - nicht beobachtet wird, obwohl es einen echten Unterschied bei der Konversionsrate zwischen den beiden Angeboten gibt. Dieses Szenario wird als falsch negativ oder als Fehler Typ II bezeichnet.
+Die Teststärke eines A/B-Tests ist die Wahrscheinlichkeit der Aufdeckung eines echten Unterschieds der Konversionsrate in einer bestimmten Größenordnung. Aufgrund der zufälligen (stochastischen) Natur von Konversionsereignissen ist es möglich, dass ein statistisch signifikanter Unterschied nicht beobachtet wird - nur zufällig - obwohl es einen echten Unterschied in der Konversionsrate zwischen den beiden Angeboten gibt. Dieses Szenario wird als falsch negativ oder als Fehler Typ II bezeichnet.
 
-Die Teststärke wird oft ignoriert, weil ihre Ermittlung im Gegensatz zur statistischen Bedeutung für die Durchführung eines A/B-Tests nicht erforderlich ist. Das Ignorieren der Teststärke geht jedoch mit einer erheblichen Wahrscheinlichkeit einher, dass echte Unterschiede zwischen den Konversionsraten verschiedener Angebote durch den Test nicht erkannt werden, weil die Stichprobe zu klein ist. Das führt dazu, dass der Test von Falsch-Positiv-Werten dominiert wird.
+Die Teststärke wird oft ignoriert, weil ihre Ermittlung im Gegensatz zur statistischen Bedeutung für die Durchführung eines A/B-Tests nicht erforderlich ist. Indem die Teststärke ignoriert wird, besteht jedoch eine erhebliche Wahrscheinlichkeit, dass echte Unterschiede zwischen den Konversionsraten verschiedener Angebote durch den Test nicht erkannt werden, da die Stichprobengröße zu klein ist. Dies führt dazu, dass die Tests von falsch-positiven Ergebnissen beherrscht werden.
 
 Eine hohe Teststärke ist wünschenswert, damit der Test mit großer Wahrscheinlichkeit einen echten Unterschied der Konversionsraten erkennt und weniger Falsch-Negativ-Werte ergibt. Eine größere Anzahl von Besuchern ist jedoch erforderlich, um die Teststärke zur Erkennung einer bestimmten Steigerung zu erhöhen, was die für den Test erforderliche Zeit verlängert.
 
@@ -115,15 +115,15 @@ Die unten stehende Abbildung veranschaulicht diese Wahrscheinlichkeitsverteilung
 
 ![Wahrscheinlichkeitsverteilungsbild](assets/probability_distributions.png)
 
-Aufgrund der großen Überlappung dieser beiden Bandbreiten kann der Test nicht ermitteln, ob die Konversionsraten voneinander abweichen. Aus diesem Grund ermöglicht ein Test mit 100 Besuchern keine Unterscheidung zwischen den beiden Angeboten. Wenn Target die Angebote jedoch jeweils 5.000 Besuchern präsentiert, besteht eine 95%ige Wahrscheinlichkeit, dass die beobachteten Konversionsraten im Bereich von 9 % bis 11 % bzw. 14 % bis 16 % fallen.
+Aufgrund der großen Überlappung dieser beiden Bandbreiten kann der Test nicht ermitteln, ob die Konversionsraten voneinander abweichen. Aus diesem Grund ermöglicht ein Test mit 100 Besuchern keine Unterscheidung zwischen den beiden Angeboten. Wenn jedoch [!DNL Target] stellt die Angebote für jeweils 5.000 Besucher bereit. Es besteht eine 95-prozentige Wahrscheinlichkeit, dass die beobachteten Konversionsraten im Bereich von 9 % bis 11 % bzw. 14 % bis 16 % fallen.
 
 ![random_distributions2 image](assets/probability_distributions2.png)
 
-In diesem Fall ist es unwahrscheinlich, dass der Test zu einem falschen Ergebnis führt, sodass der Test mit 5.000 Besuchern zwischen den beiden Angeboten unterscheiden kann. Der Test mit 5.000 Besuchern weist ein Konfidenzintervall von ca. +/-1 % auf. Das bedeutet, dass der Test Unterschiede von etwa 1 % erkennen kann. Aus diesem Grund wären noch mehr Besucher erforderlich, wenn die echten Konversionsraten der Angebote bzw. bei 10 % und 10,5 % und nicht bei 10 % und 15 % liegen würden.
+In diesem Fall ist es unwahrscheinlich, dass der Test zu einem falschen Ergebnis führt, sodass der Test mit 5.000 Besuchern zwischen den beiden Angeboten unterscheiden kann. Der Test mit 5.000 Besuchern weist ein Konfidenzintervall von +/-1 % auf. Das bedeutet, dass der Test Unterschiede von etwa 1 % erkennen kann. Aus diesem Grund wären noch mehr Besucher erforderlich, wenn die echten Konversionsraten der Angebote bzw. bei 10 % und 10,5 % und nicht bei 10 % und 15 % liegen würden.
 
 ### Baseline-Konversionsrate {#section_39380C9CA3C649B6BE6E1F8A06178B05}
 
-Die Baseline-Konversionsrate ist die Konversionsrate des Kontrollangebotes (Angebot A). Oftmals können Sie sich auf Basis früherer Erfahrungen eine gute Vorstellung von der Konversionsstufe für das Angebot machen. Wenn dies nicht der Fall ist (zum Beispiel, weil es sich um einen neuen Angebotstyp oder ein neues kreatives Element handelt), kann der Test einen ganzen Tag oder länger ausgeführt werden, um eine ungefähre Schätzung der Baseline-Konversionsrate zu erhalten, die bei der Berechnung der Stichprobengröße verwendet werden kann.
+Die Baseline-Konversionsrate ist die Konversionsrate des Kontrollangebotes (Angebot A). Oft haben Sie einen guten Eindruck von der Konversionsstufe für das Angebot, basierend auf dem Erlebnis. Wenn dies nicht der Fall ist (zum Beispiel, weil es sich um einen neuen Angebotstyp oder ein neues kreatives Element handelt), kann der Test einen ganzen Tag oder länger ausgeführt werden, um eine ungefähre Schätzung der Baseline-Konversionsrate zu erhalten, die bei der Berechnung der Stichprobengröße verwendet werden kann.
 
 ### Anzahl der Besucher {#section_19009F165505429E95291E6976E498DD}
 
@@ -131,7 +131,7 @@ Es kann schwierig sein, die Opportunitätskosten für die Ausführung eines Test
 
 Als allgemeine Richtlinie werden ein Konfidenzniveau von 95 % und eine Teststärke von 80 % empfohlen.
 
-Der Stichprobenkalkulator (Link siehe oben) fragt Sie nach der statistischen Bedeutung (Empfehlung: 95 %) und der statistischen Aussagekraft (Empfehlung: 80 %). Nach Eingabe der Baseline-Konversionsrate und des täglichen Traffics für alle Angebote gibt die Tabelle die erforderliche Anzahl der Besucher zur Erkennung einer Steigerung von 1 %, 2 %, 5 %, 10 %, 15 % und 20 % mit einer Wahrscheinlichkeit an, die der angegebenen Teststärke entspricht. Die Tabelle ermöglicht dem Benutzer auch die Eingabe einer benutzerdefinierten zuverlässig erkennbaren Mindeststeigerung. Darüber hinaus gibt die Tabelle die Anzahl der Wochen an, die erforderlich sind, um den Test auf dem vom Benutzer angegebenen Traffic-Niveau zu basieren. Die erforderliche Wochenanzahl wird auf die nächste volle Woche aufgerundet, um zu vermeiden, dass die Ergebnisse durch Wochentagseffekte beeinflusst werden.
+Der Stichprobenkalkulator (Link siehe oben) fragt Sie nach der statistischen Bedeutung (Empfehlung: 95 %) und der statistischen Aussagekraft (Empfehlung: 80 %). Nach Eingabe der Baseline-Konversionsrate und des täglichen Traffics für alle Angebote gibt die Tabelle die erforderliche Anzahl der Besucher zur Erkennung einer Steigerung von 1 %, 2 %, 5 %, 10 %, 15 % und 20 % mit einer Wahrscheinlichkeit an, die der angegebenen Teststärke entspricht. Die Tabelle ermöglicht dem Benutzer auch die Eingabe einer benutzerdefinierten zuverlässig erkennbaren Mindeststeigerung. Darüber hinaus gibt die Tabelle die Anzahl der Wochen an, die erforderlich sind, um den Test auf dem vom Benutzer angegebenen Traffic-Niveau zu basieren. Die erforderliche Wochenanzahl wird auf die nächste ganze Woche aufgerundet, um zu vermeiden, dass Wochentagseffekte die Ergebnisse beeinflussen.
 
 Es gibt einen Trade-off zwischen der durch den Test zuverlässig ermittelbaren Mindeststeigerung und der erforderlichen Anzahl der Besucher. Die unten stehende Abbildung, die für eine Baseline-Konversionsrate (Kontrolle) von 5 % gilt, zeigt stark abnehmende Erträge bei einer zunehmenden Anzahl von Besuchern. Die Mindeststeigerung, die zuverlässig ermittelt werden kann, verbessert sich deutlich mit den ersten hinzugefügten Benutzern, es ist jedoch eine zunehmend größere Anzahl von Besuchern erforderlich, um den Test weiter zu verbessern. Die Abbildung trägt dazu bei, einen angemessenen Trade-off zwischen der für die Ausführung des Tests erforderlich Zeit (die durch die Anzahl der erforderlichen Besucher und den Site-Traffic bestimmt wird) und der Mindeststeigerung, die sich durch den Test zuverlässig erkennen lässt, zu ermitteln.
 
@@ -150,11 +150,11 @@ Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RP
 * Anzahl der Besucher des Kontrollangebots
 * Gesamtumsatz des Kontrollangebots
 
-   Stellen Sie sicher, dass der Filter für extreme Bestellungen ausgewählt ist.
+  Stellen Sie sicher, dass der Filter für extreme Bestellungen ausgewählt ist.
 
 * Die Quadratsumme des Umsatzes für das Kontrollangebot
 
-   Vergewissern Sie sich, dass der extreme Auftragsfilter aktiviert ist.
+  Stellen Sie sicher, dass der Filter für extreme Bestellungen aktiviert ist.
 
 Im Allgemeinen erfordert die Verwendung von RPV als Metrik 20-30 % mehr Zeit, um dasselbe Niveau der statistischen Konfidenz für dasselbe Niveau der gemessenen Steigerung zu erreichen. Dies liegt daran, dass RPV die zusätzliche Varianz unterschiedlicher Bestellgrößen pro Konversion aufweist. Dies sollte bei der Wahl zwischen einer direkten Konversionsrate und RPV als Metrik, auf der Ihre endgültige Geschäftsentscheidung basiert, berücksichtigt werden.
 

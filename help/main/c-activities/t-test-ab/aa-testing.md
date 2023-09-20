@@ -4,9 +4,9 @@ description: Erfahren Sie, was ein A/A-Test ist, warum Sie möglicherweise einen
 title: Was ist A/A-Tests?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -39,9 +39,9 @@ Es gibt zahlreiche Gründe, warum Sie möglicherweise eine Steigerung in einem E
 
 ### Der A/A-Test wurde kontinuierlich überwacht
 
-Ein häufig auftretendes Problem bei der Durchführung jeglicher Art von Tests, einschließlich A/A-Tests, besteht darin, die Ergebnisse kontinuierlich zu betrachten und einen Test frühzeitig anzuhalten, sobald Sie die statistische Bedeutung erkennen, und ein erfolgreiches Erlebnis zu deklarieren. Analysten machen oft das so genannte &quot;Data Peeking&quot;. Beim Datenabruf werden die Testdaten frühzeitig und häufig geprüft und gleichzeitig versucht, zu ermitteln, welches Erlebnis die bessere Leistung erzielt. Das Risiko besteht darin, den Test vorzeitig zu beenden, wodurch die Ergebnisse ungültig werden könnten.
+Ein häufig auftretendes Problem bei der Durchführung jeglicher Art von Tests, einschließlich A/A-Tests, besteht darin, die Ergebnisse kontinuierlich zu betrachten und einen Test vorzeitig anzuhalten, wenn Sie statistische Bedeutung erkennen, und ein erfolgreiches Erlebnis zu deklarieren. Analysten machen oft das so genannte &quot;Data Peeking&quot;. Beim Datenabruf werden die Testdaten frühzeitig und häufig geprüft und gleichzeitig versucht, zu ermitteln, welches Erlebnis die bessere Leistung erzielt. Das Risiko besteht darin, den Test vorzeitig zu beenden, wodurch die Ergebnisse ungültig werden könnten.
 
-Bei einem A/A-Test kann das Pinkeln von Daten oft dazu führen, dass Analysten die Steigerung in einem Erlebnis sehen, obwohl eigentlich kein Unterschied bestehen sollte, da die beiden Erlebnisse identisch sind. Tatsächlich sind A/A-Tests bei kontinuierlicher Peking tatsächlich _garantiert_ die &quot;statistische Bedeutung&quot;(d. h. eine Konfidenz über einem bestimmten Schwellenwert, z. B. 95 %) zu einem bestimmten Zeitpunkt während des Tests anzuzeigen.
+Bei einem A/A-Test kann das Pinkeln von Daten oft dazu führen, dass Analysten die Steigerung in einem Erlebnis sehen, obwohl eigentlich kein Unterschied bestehen sollte, da die beiden Erlebnisse identisch sind. Tatsächlich sind A/A-Tests bei kontinuierlicher Peking *garantiert* die &quot;statistische Bedeutung&quot;(d. h. eine Konfidenz über einem bestimmten Schwellenwert, z. B. 95 %) zu einem bestimmten Zeitpunkt während des Tests anzuzeigen.
 
 Um dies zu vermeiden, sollten Sie wie bei einem regulären A/B-Test vorab entscheiden, welche Stichprobengröße zu verwenden ist, basierend auf der minimalen Wirkungsgröße (der minimalen Steigerung, unter der ein Effekt für Ihr Unternehmen nicht wichtig ist), der Leistung und dem Signifikanzniveau, die Sie für akzeptabel halten.
 
@@ -56,7 +56,7 @@ Darüber hinaus finden Sie in den folgenden Artikeln Informationen darüber, wie
 * [Wie lange sollten A/B-Tests laufen?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 * [Zehn häufige Fehler bei A/B und wie diese vermieden werden](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 
-### Statistische Bedeutung wirkt sich auf Ihre Testergebnisse aus
+### Statistische Bedeutung beeinflusst Ihre Testergebnisse
 
 Das Signifikanzniveau eines Tests bestimmt, wie wahrscheinlich es ist, dass der Test einen signifikanten Unterschied der Konversionsraten zwischen zwei verschiedenen Angeboten meldet, obwohl es tatsächlich keinen echten Unterschied gibt. Dies wird als falsch positiv oder als Fehler vom Typ I bezeichnet. Das Signifikanzniveau ist ein vom Benutzer angegebener Schwellenwert und es gibt einen Kompromiss zwischen der Toleranz für falsch-positive Ergebnisse und der Anzahl der Besucher, die bei der Auswahl des richtigen Signifikanzniveaus in den Test einbezogen werden müssen.
 
@@ -68,6 +68,6 @@ Angenommen, Sie möchten mit Ihrem A/A-Test ein Konfidenzniveau von 95 % erreich
 
 Wenn Sie in Ihrer Organisation einen A/A-Test für erforderlich halten, beachten Sie, dass die identischen Erlebnisse vorübergehend einen Unterschied zum Kontrollelement aufweisen können. Dies kann normal sein, je nachdem, wann der Test ausgeführt werden darf. Der Unterschied sollte mit mehr Zeit und Besuchern verringert werden.
 
-Es empfiehlt sich, die reguläre A/B-Testmethode zu verwenden: die Stichprobengröße vorzeitig anhand einer minimalen relevanten Effektgröße, der gewünschten Leistung und der Signifikanz zu bestimmen, indem die [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Es empfiehlt sich, die normale A/B-Testmethode zu verwenden: Bestimmen Sie die Stichprobengröße vorzeitig anhand einer minimalen relevanten Effektgröße, gewünschten Leistung und Bedeutung, indem Sie die [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Anschließend geben Sie ausreichend Zeit und Besucher ein, bevor Sie zu Schlussfolgerungen gelangen. Denken Sie daran, dass je nach Signifikanzniveau Ihres Tests die Wahrscheinlichkeit besteht, dass ein Erlebnis einen Unterschied in der Steigerung zeigt und sogar zum Gewinner erklärt wird.
