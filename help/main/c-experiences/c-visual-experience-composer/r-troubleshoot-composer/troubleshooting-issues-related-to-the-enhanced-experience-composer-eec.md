@@ -1,10 +1,10 @@
 ---
 keywords: Targeting;EEC;Visual Experience Composer;Fehlerbehebung für Enhanced Experience Composer;Fehlerbehebung
-description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal in der Adobe auftreten [!DNL Target] Enhanced Experience Composer (EEC) unter bestimmten Bedingungen.
+description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal im Adobe auftreten [!DNL Target] Enhanced Experience Composer (EEC) unter bestimmten Bedingungen.
 title: Wie kann ich Probleme im Zusammenhang mit Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 40%
@@ -17,19 +17,19 @@ Anzeigeprobleme treten manchmal in [!DNL Adobe Target] [!UICONTROL Enhanced Expe
 
 ## Der EEC lädt eine interne QA-URL nicht, auf die nicht über eine öffentliche IP zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Dies kann durch auf die Zulassungsliste setz der folgenden IP-Adressen behoben werden. Diese IP-Adressen beziehen sich auf den Server der Adobe, der für den EEC-Proxy verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
+Dies kann durch auf die Zulassungsliste setz der folgenden IP-Adressen behoben werden. Diese IP-Adressen sind für den Adobe-Server bestimmt, der für den EEC-Proxy verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
 
 Bitten Sie Ihr IT-Team, die folgenden IP-Adressen in Zulassungsliste zu nehmen:
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 Möglicherweise wird die folgende Fehlermeldung in [!DNL Target]:
 
@@ -41,11 +41,11 @@ Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Kor
 
 * **Problem:**[!UICONTROL Ihre Website-Domäne (ISP) blockiert den Enhanced Experience Composer].
 
-   **Rechtsmittel:** Zulassungsliste der oben aufgeführten IP-Adressen.
+  **Rechtsmittel:** Zulassungsliste der oben aufgeführten IP-Adressen.
 
 * **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, Ihre Website unterstützt jedoch nicht TLS-Version 1.2. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor dem [!DNL Target] 18.4.1 (25. April 2018), die Standardkonfiguration unterstützte TLS 1.0. Weitere Informationen finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **Lösung:**[!UICONTROL Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).]
+  **Lösung:**[!UICONTROL Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).]
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
 

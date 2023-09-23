@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1825'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 22. September | [Beheben von Problemen mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Die Liste der IP-Adressen wurde auf die Zulassungsliste aktualisiert. |
 | 18. September | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 15. September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.9.3 hinzugefügt. |
 | 12. September | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.2 von [!DNL Target Standard/Premium] hinzugefügt. |
