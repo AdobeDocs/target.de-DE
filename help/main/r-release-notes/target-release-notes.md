@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 72%
+ht-degree: 93%
 
 ---
 
@@ -23,15 +23,15 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target] Standard/Premium 23.9.3 (18. September 2023)
+## [!DNL Target] Standard/Premium 23.9.3 (18. September 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Der [!UICONTROL Visual Experience Composer] (VEC) zur Unterstützung von BlitzWeb-Komponenten (Light DOM). (TGT-45422)
-* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte der VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einem [!UICONTROL Einfügen] Aktion. Korrekturen an der VEC-URL, die jetzt beim Klicken auf Ankerlinks aktualisiert wird. (TGT-45983)
-* Es wurde ein Problem mit dem VEC behoben [!UICONTROL Überlagerung] -Funktion, die jetzt Elemente in Shadow-DOMs unterstützt. (TGT-45202 und TGT-45262)
-* Es wurde ein Problem behoben, das beim Öffnen einer Seite mit Einzelseiten-Apps (SPA) im VEC und anschließendem Öffnen von [!UICONTROL Durchsuchen] -Modus dazu geführt hat, dass die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
-* Es wurde ein Problem behoben, das das Laden einiger Webseiten in VEC verhindert hat. (TGT-45983)
+* [!UICONTROL Visual Experience Composer] (VEC) wurde verbessert und unterstützt jetzt Lightning Web Components (Light DOM). (TGT-45422)
+* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen führte VEC asynchron einige Änderungen durch und das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einer [!UICONTROL Einfügen]-Aktion angezeigt wurde. Außerdem wird die VEC-URL jetzt beim Klicken auf Anker-Links aktualisiert. (TGT-45983)
+* Es wurde ein Problem mit der [!UICONTROL Überlagerungsfunktion] von VEC behoben, die jetzt Elemente in Shadow-DOMs unterstützt. (TGT-45202 und TGT-45262)
+* Es wurde ein Problem behoben, das beim Öffnen einer Seite mit Single Page Application (SPA) im VEC und anschließendem Wechsel in den Modus [!UICONTROL Durchsuchen] dazu geführt hat, dass die Pfeile „Zurück“ und „Weiter“ nicht ordnungsgemäß funktionierten. (TGT-45956)
+* Es wurde ein Problem behoben, das das Laden einiger Web-Seiten in VEC verhindert hat. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (12.–14. September 2023)
 
