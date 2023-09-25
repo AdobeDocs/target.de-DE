@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Aktivitäten auf Adobe ausgeführt werden [!DNL T
 title: Wie kann ich Inhalte personalisieren und Seitendesigns testen mit [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2487'
 ht-degree: 44%
 
 ---
@@ -24,6 +24,11 @@ Sie sollten den Entwurf einer Aktivität sorgfältig planen. Bestimmen Sie, wann
 Die Liste [!UICONTROL Aktivitäten] ist die Standardansicht beim Öffnen [!DNL Target]. Sie können auf dieser Seite Aktivitäten erstellen und vorhandene Aktivitäten verwalten.
 
 Sie können die Liste [!UICONTROL Aktivitäten] auch anzeigen, indem Sie oben in der [!DNL Target]-Benutzeroberfläche auf die Registerkarte [!UICONTROL Aktivitäten] klicken.
+
+>[!NOTE]
+>
+>Die folgende Abbildung und Tabelle zeigt die Funktionalität der aktualisierten Aktivitätenlisten-Benutzeroberfläche, die sich derzeit in der Beta-Phase befindet und demnächst veröffentlicht wird.
+
 
 ![Aktivitätenliste](/help/main/c-activities/assets/activities-list-new.png)
 
