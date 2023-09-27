@@ -1,17 +1,17 @@
 ---
 keywords: summary
-description: Sehen Sie sich die Zusammenfassung einer Multivarianz-Test-Aktivität (MVT) an, die einen visuellen Überblick über Ihre MVT-Aktivität in Adobe Target bietet.
-title: Wie kann ich die Zusammenfassung einer Multivarianz-Test-Aktivität (MVT) anzeigen?
+description: Anzeigen von [!UICONTROL Multivarianz-Test] Zusammenfassung der Aktivität (MVT), die einen visuellen Überblick über Ihre Aktivität in [!DNL Adobe Target].
+title: Wie kann ich eine [!UICONTROL Multivarianz-Test] (MVT) Zusammenfassung der Aktivität
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 62%
+source-wordcount: '116'
+ht-degree: 43%
 
 ---
 
-# Testzusammenfassung (Multivarianz-Tests)
+# Testzusammenfassung ([!UICONTROL Multivarianz-Test])
 
 Die Testzusammenfassung bietet einen visuellen Überblick über Ihre [!DNL Adobe Target] [!UICONTROL Multivarianz-Test].
 
@@ -21,12 +21,8 @@ Die Testzusammenfassung zeigt:
 
 * Testname
 * URL
-* Zielgruppe
-
-   Klicken Sie auf die Zielgruppe, um aus der Liste der verfügbaren Zielgruppen eine andere Zielgruppe auszuwählen.
-* Algorithmus
-
-   Derzeit ist „vollständig“ der einzige verfügbare Algorithmus. Der Algorithmenname wird zu Informationszwecken angegeben, damit Sie wissen, welcher Algorithmus verwendet wird.
+* Zielgruppe: Klicken Sie auf die Zielgruppe, um eine andere Zielgruppe aus der Liste der verfügbaren Zielgruppen auszuwählen.
+* Algorithmus: Der einzige verfügbare Algorithmus ist [!UICONTROL Vollständige Fakultät]. Der Algorithmenname wird zu Informationszwecken angegeben, damit Sie wissen, welcher Algorithmus verwendet wird.
 * Die Anzahl der einbezogenen und ausgeschlossenen Erlebnisse.
 
 Klicken Sie auf **[!UICONTROL Weiter]**, wenn Sie mit der Testkonfiguration zufrieden sind. Die Seite „Ziele und Einstellungen“ wird geöffnet.
