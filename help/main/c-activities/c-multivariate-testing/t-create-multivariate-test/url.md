@@ -1,13 +1,13 @@
 ---
 keywords: Multivarianz-Tests;Aktivitäts-URL
-description: Erfahren Sie, wie Sie die Aktivitäts-URL angeben, die die Seite bestimmt, die beim Test verwendet wird und beim Entwurf der Aktivität Multivarianz-Test mit Adobe Target geöffnet wird.
-title: Was ist die Aktivitäts-URL in einer Multivarianz (MVT)-Aktivität?
+description: Erfahren Sie, wie Sie die Aktivitäts-URL angeben, die die Seite bestimmt, die beim Test verwendet wird und beim Öffnen der [!UICONTROL Multivarianz-Test] -Aktivität wird mit [!DNL Adobe Target].
+title: Was ist die Aktivitäts-URL in einer [!UICONTROL Multivarianz-Test] (MVT) Aktivität?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 70%
 
 ---
 
@@ -38,13 +38,13 @@ Zusätzliche Regeln können auf Folgendem basieren:
 * Abfrage
 * Parameter
 
-Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
+Zusätzliche Regeln können mit UND oder ODER zur Aktivitäts-URL hinzugefügt werden. Alle von Ihnen hinzugefügten Regeln werden mit UND gegeneinander ausgewertet.
 
 Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
 
 >[!NOTE]
 >
->Wenn Sie eine URL für eine Site eingegeben haben, die keinen Target Standard-JavaScript-Code enthält, können Sie keine Seitenelemente auswählen.
+>Wenn Sie eine URL für eine Site eingegeben haben, die nicht die Variable [!DNL Target] JavaScript-Code, können Sie keine Seitenelemente auswählen.
 
 Standardmäßig gestattet der VEC das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können die Option **[!UICONTROL Mit JavaScript rendern]** deaktivieren, wenn Sie in der Lage sein möchten, solche Elemente mit dem [!UICONTROL Visual Experience Composer] zu ändern.
 

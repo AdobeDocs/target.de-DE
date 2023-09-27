@@ -1,21 +1,21 @@
 ---
 keywords: Multivarianz; MVT; Vorschau; Erlebnisse
-description: Erfahren Sie, wie Sie die einzelnen Erlebnisse in einer Multivarianz-Test-Aktivität (MVT) in Adobe in der Vorschau anzeigen. [!DNL Target] Verwenden von Visual Experience Composer (VEC).
-title: Erlebnisvorschau für Multivarianz-Tests (MVT)
+description: Erfahren Sie, wie Sie die einzelnen Erlebnisse in einer Vorschau anzeigen können. [!UICONTROL Multivarianz-Test] (MVT)-Aktivität in [!DNL Adobe Target] mithilfe der [!UICONTROL Visual Experience Composer] (VEC).
+title: Wie kann ich Erlebnisse für eine [!UICONTROL Multivarianz-Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 67%
+ht-degree: 38%
 
 ---
 
-# Erlebnisvorschau für Multivarianz-Tests
+# Erlebnisvorschau für eine [!UICONTROL Multivarianz-Test]
 
 Da [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] Vergleicht mehrere Erlebnisse auf einer Seite. Es ist hilfreich, die Seite mit jedem Erlebnis in der Vorschau anzuzeigen.
 
-1. Klicken Sie im Visual Experience Composer (VEC) auf **[!UICONTROL Vorschau]**.
+1. Aus dem [!UICONTROL Visual Experience Composer] (VEC), klicken Sie auf **[!UICONTROL Vorschau]**.
 
    Es erscheint eine Liste aller Erlebnisse.
 
@@ -31,8 +31,8 @@ Da [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] Vergleicht mehrere Erle
 
    >[!NOTE]
    >
-   >Sie können nun bei der Erstellung von multivariaten Tests über 10 Prozent der Erlebnisse aus dem Test ausschließen, vorausgesetzt Sie sind damit einverstanden, dass für die Analyse Offline-Berichterstellungen genutzt werden.
+   >Bei der Erstellung von Multivarianz-Tests können Sie mehr als 10 Prozent der Erlebnisse aus dem Test ausschließen, vorausgesetzt Sie erkennen die Warnung an, dass Sie dann die Offline-Berichterstellung für die Analyse verwenden müssen.
 
    Standardmäßig werden alle Erlebnisse in einen Multivariater Test einbezogen. Um ein Erlebnis einzubeziehen, das zuvor ausgeschlossen wurde, wählen Sie das ausgeschlossene Erlebnis und klicken Sie auf **[!UICONTROL Einbeziehen]**.
 
-Klicken Sie auf **[!UICONTROL Vorschaumodus verlassen]**, um zum Experience Composer zurückzukehren, sodass Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Weiter]**, um zur Testzusammenfassung zu wechseln.
+1. Klicks **[!UICONTROL Vorschaumodus beenden]** , um zu [!UICONTROL Visual Experience Composer] , damit Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Weiter]** , um zur Testzusammenfassung zu gelangen.

@@ -1,19 +1,19 @@
 ---
 keywords: MVT; Multivariater Test; Angebote; Kombinationen
-description: Erfahren Sie, wie Sie Visual Experience Composer (VEC) in Adobe verwenden. [!DNL Target] , um die Angebote zu erstellen, die Sie in Ihren Multivarianz-Test (MVT) aufnehmen möchten.
-title: Wie erstelle ich Kombinationen in Multivarianz-Tests (MVT)?
+description: Erfahren Sie, wie Sie die [!UICONTROL Visual Experience Composer] (VEC) in Adobe [!DNL Target] , um die Angebote zu erstellen, die Sie in Ihre [!UICONTROL Multivarianz-Test] (MVT).
+title: Wie erstelle ich Kombinationen in einer [!UICONTROL Multivarianz-Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 88%
+source-wordcount: '509'
+ht-degree: 71%
 
 ---
 
 # Erstellen von Kombinationen
 
-Verwenden Sie die [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] , um die Angebote zu erstellen, die Sie in Ihre [!UICONTROL Multivarianz-Test] (MVT).
+Verwenden Sie die [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] , um die Angebote zu erstellen, die Sie in Ihre [!UICONTROL Multivarianz-Test] (MVT).
 
 Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von Angeboten finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -31,7 +31,7 @@ Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am e
 
    ![Option „Bild ändern“](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. Wählen Sie alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie anschließend auf **[!UICONTROL Speichern]**.
+1. Wählen Sie alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    ![Dialogfeld „Inhalt auswählen“ zum Hinzufügen von Bildern](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -58,9 +58,9 @@ Jedes Text-/HTML-Angebot wird zu einem eigenen Erlebnis an diesem Ort.
 ## Best Practices   {#section_2E98C23D2F1A460FA732A31799CE6291}
 
 * Vermeiden Sie die Einbeziehung von mehr Orten als für den Test notwendig. Jedes Erlebnis, das Sie in den Test einbeziehen, führt zu einer erheblichen Steigerung des Datenverkehrs und der erforderlichen Zeit für die Erreichung annehmbarer Ergebnisse. Wenn Sie zum Beispiel über Seitenelemente mit je drei Angeboten verfügen, entspricht dies neun möglichen Kombinationen (3 x 3). Drei Elemente, von denen zwei drei mögliche Angebote und eines zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2). Mit jedem zusätzlichen Element und Angebot steigt die Anzahl erheblich.
-* Sie können nun bei der Erstellung von multivariaten Tests über 10 Prozent der Erlebnisse aus dem Test ausschließen, vorausgesetzt Sie sind damit einverstanden, dass für die Analyse Offline-Berichterstellungen genutzt werden.
+* Bei der Erstellung von Multivarianz-Tests können Sie mehr als 10 Prozent der Erlebnisse aus dem Test ausschließen, vorausgesetzt Sie erkennen die Warnung an, dass Sie dann die Offline-Berichterstellung für die Analyse verwenden müssen.
 * Nutzen Sie die Vorschaufunktion, um unerwünschte Inhaltskombinationen zu vermeiden. Zum Beispiel kann es zwei Bilder geben, die verschiedene Rabatte für denselben Artikel oder Service anbieten. Wenn beide Bilder auf derselben Seite eingeblendet werden, ist dies unlogisch und sorgt wahrscheinlich für Verwirrung.
-* Verwenden Sie die Traffic-Schätzung, um sicherzustellen, dass Ihr Test für das Datenverkehrsaufkommen konzipiert ist, das auf Ihrer Seite anfällt. Vergewissern Sie sich, dass die Traffic-Schätzung Ihre Testkonfiguration freigibt, sodass Sie die gewünschten Ergebnisse erhalten.
+* Verwenden Sie die [Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md), um sicherzustellen, dass Ihr Test für das Datenverkehrsaufkommen konzipiert ist, das auf Ihrer Seite anfällt. Stellen Sie sicher, dass die Traffic-Schätzung Ihrer Testkonfiguration grünes Licht gibt, damit Sie die gewünschten Ergebnisse erhalten.
 * Sie müssen mindestens drei Testelemente haben. Wenn Sie weniger haben, starten Sie eine Reihe von  A/B-Tests.
-* Es wird empfohlen, dass sich die Alternativen der einzelnen Elemente deutlich voneinander unterscheiden.
+* Die Alternativen jedes Elements sollten sich deutlich voneinander unterscheiden.
 * Eine bewährte, wenn auch nicht erforderliche Vorgehensweise besteht darin, für jedes Element die gleiche Anzahl von Alternativen zu verwenden.
