@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
+source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 93%
+source-wordcount: '665'
+ht-degree: 89%
 
 ---
 
@@ -15,13 +15,26 @@ ht-degree: 93%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 18. September 2023**
+**Letzte Aktualisierung: 28. September 2023**
 
 >[!NOTE]
 >
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## [!DNL Target] Standard/Premium 23.9.4 (2.-4. Oktober 2023)
+
+Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
+
+* **2. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
+* **3. Oktober**: Region Nord- und Südamerika
+* **4. Oktober**: Region Asien-Pazifik (APAC)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* hinzugefügt [!UICONTROL Visual Experience Composer] (VEC) Verbesserungen für dynamische Frameworks. (TGT-44064)
+* Es wurde ein Fehler behoben, der dazu führte, dass das ausgewählte Datum im `getViewInAnalyticsId` nicht ordnungsgemäß zu aktualisieren. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18. September 2023)
 
