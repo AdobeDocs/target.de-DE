@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 87%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,10 @@ Diese Version ist gemäß dem folgenden gestaffelten Zeitplan verfügbar:
 * **4. Oktober**: Region Asien-Pazifik (APAC)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+| Funktion | Details |
+| --- | --- |
+| [!UICONTROL Tätigkeiten] Aktualisierung der Benutzeroberfläche<P>[!UICONTROL Feeds] Aktualisierung der Benutzeroberfläche | Als Teil der [!DNL Adobe Target] Bemühungen des Teams, das Benutzererlebnis für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Tätigkeiten] und [!DNL Recommendations] [!UICONTROL Feeds] Seiten in [!DNL Target] Benutzeroberfläche. Diese Aktualisierung vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, während neue Verbesserungen hinzugefügt werden. |
 
 * hinzugefügt [!UICONTROL Visual Experience Composer] (VEC) Verbesserungen für dynamische Frameworks. (TGT-44064)
 * Es wurde ein Fehler behoben, der dazu führte, dass das ausgewählte Datum im `getViewInAnalyticsId` nicht ordnungsgemäß zu aktualisieren. Diese Korrektur hilft bei der Neuberechnung der [!DNL Analytics] -Link in der Berichterstellung verwenden, wenn die Berichtseinstellungen für Datumsbereiche und Metriken geändert werden. (TGT-46246)
