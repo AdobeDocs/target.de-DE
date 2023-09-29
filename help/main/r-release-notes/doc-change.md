@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
+source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 99%
+source-wordcount: '2007'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,11 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 29 September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
+| 2. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
+|  | [Aktivitäten](/help/main/c-activities/activities.md) | Der Artikel wurde aktualisiert, um die [!UICONTROL Aktivität] Aktualisierung der Seitenbenutzeroberfläche. |
+|  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Der Artikel wurde aktualisiert, um die [!UICONTROL Feeds] Aktualisierung der Seitenbenutzeroberfläche. |
+|  | [[!DNL Recommendations] Implementierungsmuster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | Die neue *Recommendations-Implementierungsmuster mit at.js* Mithilfe von Artikeln können Sie [!DNL Adobe Target Recommendations] Implementierung bei Verwendung der JavaScript-Bibliothek at.js.<P>Allgemeine Informationen [!DNL Target] Muster, siehe [Übersicht über Implementierungsmuster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.<P>Das neue Recommendations-Implementierungsmuster besteht aus den folgenden Artikeln:<ul><li>[Recommendations-Implementierungsmuster mit at.js - Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initialisieren von SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Datenerfassung konfigurieren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Erlebnisse rendern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Benachrichtigen [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+| 29 September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.9.3 hinzugefügt. |
 |  | [Initialisieren des Java-SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | Die folgenden neuen Parameter wurden zur Tabelle hinzugefügt:<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
 | 22. September | [Beheben von Problemen mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Die Liste der IP-Adressen wurde auf die Zulassungsliste aktualisiert. |
 | 18. September | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
