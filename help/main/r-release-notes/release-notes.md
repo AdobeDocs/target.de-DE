@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 75%
+source-wordcount: '804'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 | Funktion | Details |
 | --- | --- |
 | [!UICONTROL Tätigkeiten] Aktualisierung der Benutzeroberfläche<P>und<P>[!UICONTROL Feeds] Aktualisierung der Benutzeroberfläche | Als Teil der [!DNL Adobe Target] Bemühungen des Teams, das Benutzererlebnis für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Tätigkeiten] und [!DNL Recommendations] [!UICONTROL Feeds] Seiten in [!DNL Target] Benutzeroberfläche. Diese Aktualisierung vereinheitlicht und standardisiert Designmuster, die zuvor inkonsistent waren, während neue Verbesserungen hinzugefügt werden.<P>Weitere Informationen finden Sie unter [Tätigkeiten](/help/main/c-activities/activities.md) und [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] Implementierungsmuster | Die *Recommendations-Implementierungsmuster mit at.js* Mithilfe von Artikeln können Sie [!DNL Adobe Target Recommendations] Implementierung bei Verwendung der JavaScript-Bibliothek at.js.<P>Allgemeine Informationen zu Target-Mustern finden Sie unter [Übersicht über Implementierungsmuster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.<P>Das neue Recommendations-Implementierungsmuster besteht aus den folgenden Artikeln:<ul><li>[Recommendations-Implementierungsmuster mit at.js - Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initialisieren von SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Datenerfassung konfigurieren](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Erlebnisse rendern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Benachrichtigen [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+| [!DNL Recommendations] Implementierungsmuster | Die *Recommendations-Implementierungsmuster mit at.js* Mithilfe von Artikeln können Sie [!DNL Adobe Target Recommendations] Implementierung bei Verwendung der JavaScript-Bibliothek at.js.<P>Weitere Informationen finden Sie unter [Recommendations-Implementierungsmuster mit at.js - Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*. |
 
 * hinzugefügt [!UICONTROL Visual Experience Composer] (VEC) Verbesserungen für dynamische Frameworks. (TGT-44064)
 * Es wurde ein Fehler behoben, der dazu führte, dass das ausgewählte Datum im `getViewInAnalyticsId` nicht ordnungsgemäß zu aktualisieren. Diese Korrektur hilft bei der Neuberechnung der [!DNL Analytics] -Link in der Berichterstellung verwenden, wenn die Berichtseinstellungen für Datumsbereiche und Metriken geändert werden. (TGT-46246)
