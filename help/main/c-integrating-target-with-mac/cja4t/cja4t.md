@@ -5,10 +5,11 @@ title: Was ist [!DNL Adobe Customer Journey Analytics] für [!DNL Target] (CJA4T
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
+source-git-commit: 034d95dd797a7a9cb323094ce5bea0c78b1426ab
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 95%
+source-wordcount: '1065'
+ht-degree: 82%
 
 ---
 
@@ -16,10 +17,11 @@ ht-degree: 95%
 
 Die [!DNL Customer Journey Analytics for Target]-(CJA4T)-Integration zwischen [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=de){target=_blank} und [!DNL Target] bietet leistungsstarke Analyse- und Zeitersparnis-Tools für Ihr Optimierungsprogramm.
 
-Die wichtigsten Vorteile der Verwendung von [!DNL Customer Journey Analytics]-Daten in [!DNL Target] sind:
+Die wichtigsten Vorteile der Verwendung von [!DNL Customer Journey Analytics] als Berichtsquelle für [!DNL Target] sind:
 
 * Marketing-Fachleute können jederzeit dynamisch [!DNL Customer Journey Analytics]-Erfolgsmetriken auf [!DNL Target] Aktivitätsberichte anwenden. Es ist nicht erforderlich, vor Ausführung der Aktivität alles zu spezifizieren.
-* Eine einzige Datenquelle minimiert die Abweichungen, die bei der Erfassung von Daten in zwei getrennten Systemen auftreten.
+* Nutzen Sie Customer Journey Analytics-Funktionen wie [Experimentierbereich](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html?lang=en#:~:text=The%20Experimentation%20panel%20lets%20analysts%20compare%20different%20user,which%20is%20best%20at%20driving%20a%20specific%20outcome.) , um die Personalisierung Ihrer Website weiter zu analysieren.
+* Verwenden Sie eine einzige Quelle für die Berichterstellung für [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html?lang=en) und Target. Beide Personalisierungsprodukte können mit Customer Journey Analytics verbunden werden, um eine umfassendere Ansicht Ihrer Web-Personalisierung zu erhalten.
 
 ## Zu beachten
 
@@ -35,7 +37,7 @@ Beachten Sie die folgenden Informationen vor Verwendung der CJA4T-Integration:
 * Sie können eine der beiden Berichtsquellen verwenden. Es ist nicht möglich, Daten für eine einzelne Aktivität für mehrere Berichtsquellen zu sammeln.
 * Wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle angeben, werden Sie aufgefordert, die Sandbox für das Reporting anzugeben. Während der Konfiguration sehen Sie nur die Sandboxes, auf die Sie Zugriff haben.
 * Alle bestehenden [!DNL Target]-Aktivitäten verwenden weiterhin die [!DNL Target]-Datenerfassung und sind von der Aktivierung von CJA4T nicht betroffen.
-* CJA4T ist nur verfügbar, wenn Sie [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} besitzen. Die Unterstützung für [!DNL Analytics Data Connector] ist zukünftig geplant.
+* Die Verwendung von CJA4T wird von der bevorzugten Implementierungsmethode [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de){target=_blank} and [!DNL Target] implemented through the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank}. Wenn Sie derzeit kein Adobe Experience Platform Web SDK implementiert haben, können Sie auch eine [Adobe Analytics-Quellverbindung](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) , um die Daten in Adobe Experience Platform zu importieren.
 * Bei Fragen zum Timing siehe [Überlegungen zur Latenz](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html?lang=de#latency){target=_blank} unter *Häufig gestellte Fragen* im *Adobe Customer Analytics-Handbuch*.
 
 ## Unterstützte Aktivitätstypen {#supported-activities}
