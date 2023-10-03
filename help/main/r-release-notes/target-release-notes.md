@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -76,10 +76,10 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Auswahl der Optimierungskriterien für [!DNL Adobe Analytics] Metriken.
-* Die Synchronisierung externer Zielgruppen mit Sling-Aufträgen wurde aktiviert.
+* Die Auswahl der Optimierungskriterien für [!DNL Adobe Analytics]-Metriken wurde optimiert.
+* Die Synchronisierung externer Zielgruppen mithilfe von Sling-Aufträgen wurde aktiviert.
 * Es wurde ein Problem behoben, bei dem SC Report Suites, die ein Punktzeichen im Namen enthielten, nicht unterstützt wurden.
-* Neue Funktion, mit der Kunden integrierte Zielgruppen löschen und bearbeiten können.
+* Neue Funktion, mit der Kundinnen und Kunden integrierte Zielgruppen löschen und bearbeiten können.
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Datum noch festzulegen)
 
