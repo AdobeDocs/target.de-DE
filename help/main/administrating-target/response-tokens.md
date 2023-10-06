@@ -1,13 +1,13 @@
 ---
-keywords: Antwort-Token;Token;Plug-ins;Plug-ins;at.js;Antwort;Plattform-Web-SDK
+keywords: Antwort-Token;Token;Plugins;Plug-ins;at.js;Antwort;Plattform Web SDK;Google Analytics
 description: Erfahren Sie, wie Sie Antwort-Token in [!DNL Adobe Target] zur Ausgabe-spezifischen Informationen für das Debugging und die Integration mit Drittanbieter-Tools.
 title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 26%
 
 ---
@@ -218,7 +218,7 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 ## Daten an Google Analytics senden
 
-In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics weiterleiten. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
+In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics 4. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
 
 ### ![AEP-Badge](/help/main/assets/platform.png) Senden von Daten an Google Analytics über das Platform Web SDK
 
