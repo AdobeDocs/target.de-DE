@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 6. Oktober | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Alle Codebeispiele wurden aktualisiert. |
+|  | [Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank} | Das gesamte Tutorial im *[!UICONTROL Adobe Target Tutorials]* Handbuch. |
 | 4. Oktober | [Aktivitäten](/help/main/c-activities/activities.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
 | 2. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
