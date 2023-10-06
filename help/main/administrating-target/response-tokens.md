@@ -5,10 +5,10 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 791274dc320912629b9425ef400d0008e0bb086b
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -26,8 +26,8 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 | Target SDK | Vorgeschlagene Aktionen |
 |--- |--- |
-| [Adobe Experience Platform Web-SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Stellen Sie sicher, dass Sie die Platform Web SDK-Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version des Platform Web SDK finden Sie unter [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} im *Übersicht über das Platform Web SDK* Handbuch. Informationen zu neuen Funktionen in den einzelnen Versionen des Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) im *Übersicht über das Platform Web SDK* Handbuch. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [at.js herunterladen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js (jetzt nicht mehr unterstützt), aber nicht in at.js vorhanden waren, werden zwar bereitgestellt, aber fehlgeschlagen. |
+| [Adobe Experience Platform Web-SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} | Stellen Sie sicher, dass Sie die Platform Web SDK-Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version des Platform Web SDK finden Sie unter [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} im *Übersicht über das Platform Web SDK* Handbuch. Informationen zu neuen Funktionen in den einzelnen Versionen des Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) im *Übersicht über das Platform Web SDK* Handbuch. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [at.js herunterladen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die auf internen Methoden basieren, die in mbox.js (jetzt nicht mehr unterstützt), aber nicht in at.js vorhanden waren, werden zwar bereitgestellt, aber fehlgeschlagen. |
 
 ## Verwenden von Antwort-Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -48,7 +48,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
    | Typ | Parameter | Hinweise |
    |--- |--- |--- |
-   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. Beispiel: auf einer Seite mit zwei [!DNL Target] -Anfragen, die zwei verschiedene Aktivitäten bereitstellen, enthält die zweite -Anfrage beide -Aktivitäten. |
+   | Integrierte Profile | `profile.activeActivities` | Gibt eine Reihe an `activityIds` aus, für die der Besucher qualifiziert ist. Die Inkrementierung erfolgt im Zuge der Benutzerqualifizierung. Beispiel: auf einer Seite mit zwei [!DNL Target] Anforderungen, die zwei verschiedene Aktivitäten bereitstellen, enthält die zweite Anfrage beide Aktivitäten. |
    |  | `profile.isFirstSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.isNewSession` | Gibt „true“ oder „false“ zurück. |
    |  | `profile.daysSinceLastVisit` | Gibt die Anzahl der Tage seit dem letzten Zugriff des Besuchers zurück. |
@@ -68,9 +68,9 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    >
    >Parameter mit Sonderzeichen werden in der Liste nicht angezeigt. Es werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
-1. (Bedingt) So verwenden Sie einen Profilparameter als Antwort-Token, der Parameter wurde jedoch nicht über einen [!DNL Target] -Anfrage und wurde daher nicht in die [!DNL Target] Benutzeroberfläche können Sie die [!UICONTROL Antwort-Token hinzufügen] -Schaltfläche, um das Profil zur Benutzeroberfläche hinzuzufügen.
+1. (Bedingt) So verwenden Sie einen Profilparameter als Antwort-Token, der Parameter wurde jedoch nicht über eine [!DNL Target] -Anfrage und wurde daher nicht in die [!DNL Target] Benutzeroberfläche können Sie die [!UICONTROL Antwort-Token hinzufügen] -Schaltfläche, um das Profil zur Benutzeroberfläche hinzuzufügen.
 
-   Klicken **[!UICONTROL Antwort-Token hinzufügen]**, geben Sie den Namen des Tokens ein und klicken Sie auf **[!UICONTROL Aktivieren]**.
+   Klicks **[!UICONTROL Antwort-Token hinzufügen]**, geben Sie den Namen des Tokens ein und klicken Sie auf **[!UICONTROL Aktivieren]**.
 
    ![response_token_create image](assets/response_token_create.png)
 
@@ -88,7 +88,7 @@ Im folgenden Antwortbeispiel wird ein [!DNL Platform Web SDK] Benutzerdefinierte
 
 | Objekt | Informationen |
 | --- | --- |
-| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target] oder Offer decisioning-Provider. |
+| Typ - Personalization.decision | Ob die Entscheidung von der [!DNL Target] oder Offer decisioning-Provider. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] stellt die Metadaten und Werte des Antwort-Tokens für die Seite bereit. |
 | Meta | An die Seite übergebene Metadaten. |
 | Daten | Werte der Metadaten, die an die Seite übergeben werden. |
@@ -210,7 +210,7 @@ Antwort-Token extrahieren Informationen aus Benutzerprofilen und stellen diese I
 
 **Ich habe mein Profilskript umbenannt. Warum ist das Token, das dieses Skript verwendet, weiterhin mit dem alten Namen aktiv?**
 
-Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Profilinformationen. Obwohl Sie Ihr Profilskript umbenannt haben, wird für Benutzer, die Ihre Website besucht haben, der alte Profilskriptwert in ihren Profilen gespeichert. Das Token nimmt weiterhin den alten Wert auf, der bereits in den Benutzerprofilen gespeichert ist. Wenn Sie den Inhalt nun für den neuen Namen bereitstellen möchten, müssen Sie das vorherige Token deaktivieren und das neue Token aktivieren.
+Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Profilinformationen. Auch wenn Sie Ihr Profilskript umbenannt haben, wird für Benutzer, die Ihre Website besucht haben, der alte Profilskriptwert in ihren Profilen gespeichert. Das Token nimmt weiterhin den alten Wert auf, der bereits in den Benutzerprofilen gespeichert ist. Wenn Sie den Inhalt nun für den neuen Namen bereitstellen möchten, müssen Sie das vorherige Token deaktivieren und das neue Token aktivieren.
 
 **Wann werden meine Attribute aus der Liste entfernt, wenn sie sich geändert haben?**
 
@@ -218,11 +218,11 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 ## Daten an Google Analytics senden
 
-In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
+In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics weiterleiten. Daten, die von Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
 
 ### ![AEP-Badge](/help/main/assets/platform.png) Senden von Daten an Google Analytics über das Platform Web SDK
 
-Google Analytics können Daten über die Platform Web SDK-Version 2.6.0 (oder höher) senden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen.
+Google Analytics können Daten über das Platform Web SDK Version 2.6.0 (oder höher) senden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen.
 
 >[!NOTE]
 >
@@ -282,64 +282,50 @@ Google Analytics können Daten über die Platform Web SDK-Version 2.6.0 (oder h�
 Daten können via at.js an Google Analytics gesendet werden, indem Sie auf der HTML-Seite den folgenden Code hinzufügen:
 
 ```javascript
-<script type="text/javascript"> 
-  (function(i, s, o, g, r, a, m) { 
-    i['GoogleAnalyticsObject'] = r; 
-    i[r] = i[r] || function() { 
-      (i[r].q = i[r].q || []).push(arguments) 
-    }, i[r].l = 1 * new Date(); 
-    a = s.createElement(o), 
-      m = s.getElementsByTagName(o)[0]; 
-    a.async = 1; 
-    a.src = g; 
-    m.parentNode.insertBefore(a, m) 
-  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
-  ga('create', 'Google Client Id', 'auto'); 
-</script> 
- 
-<script type="text/javascript"> 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-    var tokens = e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
- 
-    var activityNames = []; 
-    var experienceNames = []; 
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      activityNames.push(token["activity.name"]); 
-      experienceNames.push(token["experience.name"]); 
-    }); 
- 
-    ga('send', 'event', { 
-      eventCategory: "target", 
-      eventAction: experienceNames, 
-      eventLabel: activityNames 
-    }); 
-  }); 
- 
-  function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
+<script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+
+<script type="text/javascript">
+    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+        var tokens = e.detail.responseTokens;
+
+        if (isEmpty(tokens)) {
+            return;
+        }
+
+        var activityNames = [];
+        var experienceNames = [];
+        var uniqueTokens = distinct(tokens);
+
+        uniqueTokens.forEach(function(token) {
+            activityNames.push(token["activity.name"]);
+            experienceNames.push(token["experience.name"]);
+        });
+
+        gtag('config', 'TAG_ID');
+        gtag('event', 'action_name', {'eventCategory': 'target',
+            'eventAction': experienceNames, 'eventLabel': activityNames
+        });
+    });
+
+    function isEmpty(val) {
+        return (val === undefined || val == null || val.length <= 0) ? true : false;
+    }
+
+    function key(obj) {
+        return Object.keys(obj)
+        .map(function(k) { return k + "" + obj[k]; })
+        .join("");
+    }
+
+    function distinct(arr) {
+        var result = arr.reduce(function(acc, e) {
+            acc[key(e)] = e;
+            return acc;
+        }, {});
+
+        return Object.keys(result)
+        .map(function(k) { return result[k]; });
+    }
 </script>
 ```
 
@@ -412,7 +398,7 @@ Mit dem folgenden Code können Sie das Debugging mit Google Analytics durchführ
   } 
 ```
 
-### Debugging mit der Entsprechung des ttMeta-Plug-ins
+### Debugging mit dem Äquivalent des ttMeta-Plug-ins
 
 Das Äquivalent des ttMeta-Plug-ins für Debugging-Zwecke kann durch Hinzufügen des folgenden Codes zu der HTML-Seite erstellt werden:
 
@@ -472,6 +458,6 @@ Im folgenden Video wird erläutert, wie mithilfe von Antwort-Token und benutzerd
 >
 >Die Benutzeroberfläche des [!UICONTROL Administration]-Menüs von [!DNL Target] (früher [!UICONTROL Einrichten]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. Die Optionen befinden sich jedoch an etwas anderen Orten.
 >
->Die VideoErwähnungen `option.name` und `option.id`, die durch `offer.name` und `offer.id`zurück.
+>Die VideoErwähnungen `option.name` und `option.id`, die durch `offer.name` und `offer.id`, bzw.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
