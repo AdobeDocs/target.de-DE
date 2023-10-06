@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2023'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 6. Oktober | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Alle Codebeispiele wurden aktualisiert. |
 | 4. Oktober | [Aktivitäten](/help/main/c-activities/activities.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
 |  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
 | 2. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
