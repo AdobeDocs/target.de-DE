@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
+source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2067'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 10. Oktober | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.0 hinzugefügt. |
 | 6. Oktober | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Alle Codebeispiele wurden aktualisiert. |
 |  | [Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank} | Das gesamte Tutorial im *[!UICONTROL Adobe Target Tutorials]* Handbuch. |
 | 4. Oktober | [Aktivitäten](/help/main/c-activities/activities.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
