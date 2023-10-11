@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
 workflow-type: tm+mt
 source-wordcount: '2067'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,8 +22,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 10. Oktober | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.0 hinzugefügt. |
 | 6. Oktober | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Alle Codebeispiele wurden aktualisiert. |
 |  | [Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank} | Das gesamte Tutorial im *[!UICONTROL Adobe Target Tutorials]* Handbuch. |
-| 4. Oktober | [Aktivitäten](/help/main/c-activities/activities.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
-|  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Der Text und die Bilder wurden aktualisiert, um die im Abschnitt [!DNL Target] Version 23.9.4. |
+| 4. Oktober | [Aktivitäten](/help/main/c-activities/activities.md) | Text und die Bilder wurden aktualisiert, um die aktualisierte Benutzeroberfläche in der Version 23.9.4 von [!DNL Target] zu reflektieren. |
+|  | [Feeds](/help/main/c-recommendations/c-products/feeds.md) | Text und die Bilder wurden aktualisiert, um die aktualisierte Benutzeroberfläche in der Version 23.9.4 von [!DNL Target] zu reflektieren. |
 | 2. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.9.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [[!DNL Recommendations] Implementierungsmuster](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=de){target=_blank} | Die neuen Artikel *Recommendations-Implementierungsmuster mit at.js* helfen Ihnen, Ihre Implementierung von [!DNL Adobe Target Recommendations] zu verstehen und zu erstellen, wenn Sie die JavaScript-Bibliothek von at.js verwenden.<P>Allgemeine Informationen über [!DNL Target]-Muster finden Sie unter [Implementierungsmuster – Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*.<P>Das neue Recommendations-Implementierungsmuster besteht aus den folgenden Artikeln:<ul><li>[Recommendations-Implementierungsmuster mit at.js – Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=de){target=_blank}</li><ul><li>[Initialisieren von SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html?lang=de){target=_blank}</li><li>[Konfigurieren der Datenerfassung](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html?lang=de){target=_blank}</li><li>[Rendern von Erlebnissen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=de){target=_blank}</li><li>[Benachrichtigen [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=de){target=_blank}</li></ul></ul> |
 | 29 September | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.9.3 hinzugefügt. |
