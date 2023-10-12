@@ -4,10 +4,10 @@ description: Verwenden Sie  [!DNL Analytics]  für  [!DNL Target]  (A4T), um Akt
 title: Was ist  [!DNL Analytics]  für  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: ht
-source-wordcount: '1148'
-ht-degree: 100%
+source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Die folgenden Abschnitte enthalten Informationen zu den unterstützten Aktivitä
 |--- |--- |--- |
 | [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |  |
 | [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Siehe [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja (at.js)<P>Nein (Platform Web SDK) | Die A4T-Unterstützung für Aktivitäten von automatischem Targeting wird derzeit nur für at.js unterstützt. |
+| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Ja | Die A4T-Unterstützung für Aktivitäten mit automatischem Targeting wird jetzt für beide unterstützt [!DNL Platform Web SDK] und at.js. |
 | [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |  |
 | [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Erfordert, dass die Mbox-basierte Zielmetrik den Bericht [!UICONTROL Elementbeitrag] abruft. Der Bericht [!UICONTROL Elementbeitrag] unterstützt derzeit keine [!DNL Analytics]-Metriken. |
 | [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |  |
