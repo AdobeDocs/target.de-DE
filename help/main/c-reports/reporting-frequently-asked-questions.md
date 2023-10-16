@@ -1,13 +1,13 @@
 ---
 keywords: Fehlerbehebung; Metrikdiskrepanzen; FAQ; Berichte; neuer Besucher; neue Besucher; wiederkehrende Besucher; wiederkehrende Besucher; wiederkehrende Besucher; erneuter Besuch; neuer Besuch
-description: Häufig gestellte Fragen und Antworten zur Adobe [!DNL Target] Berichterstellung.
+description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zum Adobe [!DNL Target] Berichterstellung.
 title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Reporting?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -29,7 +29,7 @@ Ein Besucher wird dem Segment „Neue Besucher“ hinzugefügt, wenn eine der fo
 
 * Es ist das erste Mal, dass der Besucher die Site besucht.
 * Der Besucher besucht die Site zum ersten Mal seit dem Löschen seiner Cookies.
-* Es ist das erste Mal, dass der Besucher die Site seit der [Lebensdauer des Besucherprofils](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) abgelaufen ist.
+* Es ist das erste Mal, dass der Besucher die Site seit der [Besucherprofillebensdauer](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) abgelaufen ist.
 
 ### Zurückkehrende Besucher
 
@@ -53,7 +53,7 @@ Betrachten Sie das folgende Beispiel, indem Sie die oben genannten Bedingungen f
 
 Dieser Besucher wird in der gesamten Besucherzahl der Aktivität als einzelner Besucher gezählt, auch wenn er sowohl in den Segmenten &quot;Neue Besucher&quot;als auch &quot;Wiederkehrende Besucher&quot;gezählt wird.
 
-**Beispiel 2**: Diskrepanzen zwischen der Anzahl neuer Besucher und wiederkehrender Besucher hängen auch davon ab, wie Sie die Aktivität konfigurieren [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Beispiel 2**: Diskrepanzen zwischen der Anzahl neuer Besucher und wiederkehrender Besucher hängen auch davon ab, wie Sie die Aktivität konfigurieren. [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Beispiel:
 
@@ -74,9 +74,16 @@ Metrikwerte, z. B. Besuche, nach [!DNL Target] sind immer niedriger als die geme
 
 ## Warum stehen für meinen Aktivitätsbericht keine Daten zur Verfügung? {#section_E4722F6445884130951DF79981C8289B}
 
-Wurde der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt, enthält der zugehörige Bericht jedoch keine Daten, stellen Sie sicher, dass in den Berichtseinstellungen die korrekte Umgebung ([Hostgruppe](/help/main/administrating-target/hosts.md)) ausgewählt wurde.
+Wenn der Inhalt einer Aktivität den Besuchern erfolgreich bereitgestellt wurde, der zugehörige Bericht jedoch keine Daten enthält, wird Ihnen möglicherweise die folgende Fehlermeldung angezeigt: &quot;Für die ausgewählten Berichtseinstellungen sind keine Daten verfügbar.&quot;
 
-Sollten Sie eine Entwicklungsumgebung ausgewählt haben, wird möglicherweise folgende Fehlermeldung ausgegeben: „Es sind keine Daten für die ausgewählten Berichtseinstellungen vorhanden.“
+Es gibt einige mögliche Gründe dafür, dass Daten in Aktivitätsberichten fehlen:
+
+* In den Berichtseinstellungen ist nicht die richtige Umgebung ausgewählt.
+* Dem Kontrollerlebnis ist kein Traffic zugeordnet.
+
+### In den Berichtseinstellungen ist nicht die richtige Umgebung ausgewählt:
+
+Wurde der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt, enthält der zugehörige Bericht jedoch keine Daten, stellen Sie sicher, dass in den Berichtseinstellungen die korrekte Umgebung ([Hostgruppe](/help/main/administrating-target/hosts.md)) ausgewählt wurde.
 
 So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
@@ -84,10 +91,6 @@ So ändern Sie die Umgebung für einen Aktivitätsbericht:
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
    ![Dialogfeld für A/B-Einstellungen](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
-
-   >[!NOTE]
-   >
-   >Das Zahnradsymbol steht nicht für Berichte zur [!UICONTROL automatisierten Personalisierung] zur Verfügung.
 
 1. Wählen Sie in der **[!UICONTROL Umgebung]** die Option **[!UICONTROL Produktion]** aus.
 
@@ -97,15 +100,31 @@ So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
 Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
+### Dem Kontrollerlebnis ist kein Traffic zugeordnet.
+
+Wenn der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt wurde, der zugehörige Bericht jedoch keine Daten enthält, stellen Sie sicher, dass dem Kontrollerlebnis Traffic zugeordnet ist.
+
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
+1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
+
+1. Aus dem **[!UICONTROL Kontrolle]** Dropdownliste ein Erlebnis auswählen, das Traffic erhält.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+>[!NOTE]
+>
+>Weitere Informationen zum Aktualisieren eines [!UICONTROL Automated Personalization] Aktivität (AP) und das Kontrollerlebnis in ein Erlebnis ändern, das Traffic erhält, siehe [Wählen Sie das Steuerelement für Ihre Automated Personalization- oder AT-Aktivität aus.](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
+
 ## Warum unterscheidet sich der Traffic zwischen meinen Erlebnissen in meiner A/B- oder MVT-Aktivität? {#uneven}
 
 Ich setze beispielsweise die Traffic-Aufspaltung auf 50/50 oder 25/25/25/25, sehe aber eine sehr unterschiedliche Verteilung zwischen Erlebnissen in der Berichterstellung. Es gibt mehrere erklärbare Gründe für unausgewogene Besucherzahlen in [!DNL Target] Reporting:
 
-* Wenn eine [!DNL Target] -Aktivität gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] verwendet , um die Bereitstellung von Erlebnissen zu optimieren. Es empfiehlt sich, einer Aktivität Zeit zu geben, mehr Daten zu sammeln, und die Verteilung normalisiert sich. Weitere Informationen finden Sie unter [!DNL Adobe Target] Architektur und Edge-Knoten, siehe [Funktionsweise von Adobe Target](/help/main/c-intro/how-target-works.md).
+* Wenn eine [!DNL Target] -Aktivität gestartet wird, kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] verwendet , um die Bereitstellung von Erlebnissen zu optimieren. Es empfiehlt sich, einer Aktivität Zeit zu geben, mehr Daten zu sammeln, und die Verteilung normalisiert sich. Weitere Informationen unter [!DNL Adobe Target] Architektur und Edge-Knoten, siehe [Funktionsweise von Adobe Target](/help/main/c-intro/how-target-works.md).
 * Wenn Sie [!DNL Target] oder [!DNL Analytics] und Sie verwenden die **[!UICONTROL Besuche]** Metrik, denken Sie daran, dass [!DNL Target] ist ein besucherbasiertes System und die Traffic-Verteilung für einen A/B- oder MVT-Test wird auf Besucherebene zugewiesen. Wenn Sie also die Aktivitätsergebnisse mit dem **[!UICONTROL Besuche]** Metrik, kann die Traffic-Verteilung ungleich erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die standardmäßige Normalisierungsmetrik bei der Bewertung der Aktivitätsleistung.
 * Die Best Practice für A/B- und Multivarianz-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. zwischen 90/10 und 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das niedrigere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufspaltung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
    * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
-   * Ist dies ein Umleitungstest? Eine falsche Zeitplanung von Tags, die auf der Seite ausgelöst werden, kann zu ungleichen Traffic-Aufspaltungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target] Aktivität. Weitere Informationen zum Beheben einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * Ist dies ein Umleitungstest? Eine falsche Zeitplanung von Tags, die auf der Seite ausgelöst werden, kann zu ungleichen Traffic-Aufspaltungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target] -Aktivität. Weitere Informationen zum Beheben einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

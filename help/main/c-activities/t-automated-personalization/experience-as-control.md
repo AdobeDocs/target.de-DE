@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Es stehen zwei Optionen zur Verfügung, mit denen Sie Ihre [!UICONTROL Automated
 
 ## Festlegen eines bestimmten Erlebnisses als Kontrollelement
 
-1. Beim Erstellen einer [[!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) oder [[!UICONTROL Automatisches Targeting] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), konfigurieren Sie die Erlebnisse nach Bedarf.
+1. Beim Erstellen oder Bearbeiten einer [[!UICONTROL Automated Personalization] activity](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) oder [[!UICONTROL Automatisches Targeting] activity](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), konfigurieren Sie die Erlebnisse nach Bedarf.
 1. Wählen Sie auf der Seite [!UICONTROL Targeting] (Schritt 2 des dreistufigen geleiteten Workflows) das gewünschte Erlebnis als Kontrollelement aus.
 1. Geben Sie die gewünschte Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
 
