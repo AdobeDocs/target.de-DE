@@ -6,10 +6,10 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -125,5 +125,12 @@ Richten Sie eine Datenansicht in [!DNL Customer Journey Analytics] ein. Eine Dat
    * Aktivitäts-ID
 
    ![Namen- und ID-Optionen in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Verwendung [!DNL Target] -Dimensionen in [!UICONTROL Experimentieren] -Bedienfeld, richten Sie die folgenden Kontextbezeichnungen ein:
+
+   * Für [!UICONTROL Aktivitätsname], verwenden Sie &quot;Experimentierexperiment&quot;.
+   * [!UICONTROL Erlebnisname], verwenden Sie &quot;Experimentationsvariante&quot;.
+
+   ![Kontextbeschriftungen im Experimentierungsbereich](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Beenden Sie die Eingabe aller anderen Felder und klicken Sie dann auf **[!UICONTROL Speichern und weiter]**, wenn Sie fertig sind.
