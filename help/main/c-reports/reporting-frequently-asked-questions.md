@@ -4,9 +4,9 @@ description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zum
 title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Reporting?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/main/administ
 
 ### Dem Kontrollerlebnis ist kein Traffic zugeordnet.
 
-Wenn der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt wurde, der zugehörige Bericht jedoch keine Daten enthält, stellen Sie sicher, dass dem Kontrollerlebnis Traffic zugeordnet ist.
+Wenn der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt wurde, der zugehörige Bericht jedoch keine Daten enthält, stellen Sie sicher, dass Sie ein Erlebnis mit Traffic als Kontrollerlebnis verwenden.
 
 1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
