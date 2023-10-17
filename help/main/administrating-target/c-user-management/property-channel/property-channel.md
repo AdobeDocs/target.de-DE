@@ -6,16 +6,16 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 57%
+source-wordcount: '3235'
+ht-degree: 54%
 
 ---
 
 # Berechtigungen für Unternehmensbenutzer
 
-Berechtigungen für Unternehmensbenutzer sind ein Mittel zur formalen Verwaltung des unternehmensweiten Benutzerzugriffs auf [!DNL Adobe Target]. Benutzer hinzufügen zu [!DNL Target], weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen von [!UICONTROL Beobachter], [!UICONTROL Bearbeiter], [!UICONTROL Genehmiger]oder [!UICONTROL Herausgeber].
+Berechtigungen für Unternehmensbenutzer sind ein Mittel zur formellen Verwaltung des unternehmensweiten Benutzerzugriffs auf [!DNL Adobe Target]. Benutzer hinzufügen zu [!DNL Target], weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen von [!UICONTROL Beobachter], [!UICONTROL Bearbeiter], [!UICONTROL Genehmiger]oder [!UICONTROL Herausgeber].
 
 ## Bestimmen, ob Sie Zugriff auf Unternehmensbenutzerberechtigungen haben
 
@@ -63,7 +63,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
 Benutzer können unterschiedliche Ansichten von [!DNL Adobe Target] durch Wechsel zwischen Arbeitsbereichen, ähnlich wie beim [!DNL Analytics] -Benutzer haben unterschiedliche Ansichten von [!DNL Analytics] durch Wechsel zwischen Report Suites.
 
-Arbeitsbereiche können vollständig verschiedene Zielgruppen, Codeangebote und Aktivitäten beinhalten.
+Arbeitsbereiche können völlig verschiedene Zielgruppen, Codeangebote und Aktivitäten umfassen.
 
 Alle Zielgruppen und Aktivitäten, die vor der neuen Migration des Unternehmensberechtigungsmodells erstellt wurden, werden im &quot;Standardarbeitsbereich&quot;gruppiert, wie nachfolgend beschrieben.
 
@@ -81,7 +81,7 @@ Alle Benutzerrollen und Zugriff auf alle [!DNL Target] Die -Funktion bleibt mit 
 
 ### Benutzergruppen
 
-Sie können Benutzergruppen wie Entwickler, Analysten, Marketingexperten, Führungskräfte usw. erstellen. Anschließend können Sie Berechtigungen für mehrere Adobe-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für zwei Adobe-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
+Sie können Benutzergruppen wie Entwickler, Analysten, Marketingexperten und Führungskräfte erstellen. Anschließend können Sie Berechtigungen für mehrere Adobe-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für zwei Adobe-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
 ### Rollen und Berechtigungen {#roles-permissions}
 
@@ -110,7 +110,7 @@ Die neue [!UICONTROL Berechtigungen] -Funktion können Sie verschiedene Projekte
 
 Ein bestimmter Benutzer verfügt beispielsweise über Genehmigungszugriff auf die Websites für Nord- und Südamerika, jedoch nur auf Ansichtszugriff auf die mobile App für Europa. Dieser Benutzer verfügt möglicherweise nicht über die nötigen Rechte, die in Web- und Mobileigenschaften angebotenen Aktivitäten der APAC-Region einzusehen.
 
-Im aktuellen [!DNL Target] [!UICONTROL Berechtigungsmodell] gibt es drei Rollen (Beobachter, Bearbeiter und Genehmiger), die in folgender Abbildung dargestellt werden:
+Die [!DNL Target] [!UICONTROL Berechtigungen] Das -Modell verfügt über die folgenden Berechtigungsrollen (Beobachter, Bearbeiter, Genehmiger und Beobachter). Die Beobachterrolle wird in den Abbildungen in diesem Artikel nicht angezeigt.
 
 ![permissions_1 image](assets/permissions_1.png)
 
@@ -133,7 +133,7 @@ Das neue [!DNL Target][!UICONTROL -Berechtigungsmodell] verfügt über die gleic
 
 In diesem Beispiel besitzt Jan Genehmigerrechte für die US-Homepage und die US-Site und Beobachterrechte für die französische Site.
 
-Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] dass sie nicht über die folgenden Berechtigungen zum Anzeigen verfügt:
+Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] dass sie nicht über die Erlaubnis zum Anzeigen verfügt, wie unten dargestellt:
 
 ![permissions_4 image](assets/permissions_4.png)
 
@@ -150,7 +150,7 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 * **Jan**: Jan leitet die Optimierungsabteilung im Center of Excellence für die US-Webseiten, -Objekte und -Sites ihrer Organisation. Sie besitzt Systemadministratorrechte in der Adobe Experience Cloud.
 
-  In ihrer Rolle hat sie Genehmigerberechtigungen für die US-Homepage und die US-Site. Mit den Genehmigerberechtigungen kann sie Aktivitäten erstellen, bearbeiten und aktivieren oder stoppen.
+  In ihrer Rolle hat sie Genehmigerberechtigungen für die US-Homepage und die US-Site. Mit der Berechtigung Genehmiger kann sie Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen.
 
   Jan berät außerdem das Optimierungsteam in Frankreich und besitzt daher Beobachterrechte für die französische Site, die ihr Leserechte für Aktivitäten gewähren. Jan kann Aktivitäten anzeigen, sie aber nicht erstellen oder bearbeiten.
 
@@ -158,7 +158,7 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 * **Ernie**: Ernie ist Marketingleiter der Organisation und für das Marketing in den USA zuständig.
 
-  Da Ernie recht neu in der Organisation ist und keine Erfahrung mit Target hat, besitzt er Editor-Berechtigungen für die US-Homepage, die US-Site und Produktseiten. Mit Bearbeiterberechtigungen kann Ernie Aktivitäten erstellen und bearbeiten, bevor sie live sind. Er kann den Start einer Aktivität nicht genehmigen. Jemand mit Genehmigungsberechtigungen, z. B. Jan, muss die Aktivität genehmigen, bevor sie in die Produktion aufgenommen werden kann.
+  Da Ernie recht neu in der Organisation ist und keine Erfahrung mit Target hat, besitzt er Editor-Berechtigungen für die US-Homepage, die US-Site und Produktseiten. Mit Bearbeiterberechtigungen kann Ernie Aktivitäten erstellen und bearbeiten, bevor sie live sind. Er kann den Start einer Aktivität nicht genehmigen - eine Person mit Genehmigungsberechtigung, z. B. Jan, muss die Aktivität genehmigen, bevor sie in die Produktion aufgenommen werden kann.
 
   Da Ernie keine Rolle besitzt, für die er die russische Site, die französische Site oder die Karriere-Site sehen muss, kann er für diese Sites keine Aktivitäten sehen.
 
@@ -174,13 +174,13 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 * **Jan**: Jan leitet die Optimierungsabteilung im Center of Excellence für eine Organisation im Gesundheitswesen, die getrennte Produktbereiche für Krankenhäuser und für Endverbraucher betreibt. Sie besitzt Systemadministratorrechte in der Adobe Experience Cloud.
 
-  In ihrer Rolle besitzt sie Genehmigerrechte für die Krankenhaus-Site. Mit den Genehmigerberechtigungen kann sie Aktivitäten erstellen, bearbeiten und aktivieren oder stoppen.
+  In ihrer Rolle besitzt sie Genehmigerrechte für die Krankenhaus-Site. Mit der Berechtigung Genehmiger kann sie Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen.
 
   Jan berät außerdem das Optimierungsteam des Produktbereichs für Endverbraucher und besitzt daher Beobachterrechte für diese Site, die ihr Leserechte für Aktivitäten gewähren. Jan kann Aktivitäten anzeigen, sie aber nicht erstellen oder bearbeiten.
 
 * **Ernie**: Ernie ist Marketingleiter der Organisation für das Marketing des Produktbereichs für Endverbraucher.
 
-  Da Ernie recht neu in der Organisation ist und keine Erfahrung mit Target hat, besitzt er Bearbeiterrechte für die Endverbraucher-Site. Mit Bearbeiterberechtigungen kann Ernie Aktivitäten erstellen und bearbeiten, bevor sie live sind. Er kann den Start einer Aktivität nicht genehmigen - jemand mit Genehmigungsberechtigungen für die Endverbraucher-Site, in diesem Szenario jedoch nicht Jan, muss die Aktivität genehmigen, bevor sie in die Produktion aufgenommen werden kann.
+  Da Ernie recht neu in der Organisation ist und keine Erfahrung mit Target hat, hat er Editor-Berechtigungen für die Endverbraucher-Site. Mit Bearbeiterberechtigungen kann Ernie Aktivitäten erstellen und bearbeiten, bevor sie live sind. Er kann den Start einer Aktivität nicht genehmigen - jemand mit Genehmigungsberechtigungen für die Endverbraucher-Site, in diesem Szenario jedoch nicht Jan, muss die Aktivität genehmigen, bevor sie in die Produktion aufgenommen werden kann.
 
   Da Ernie keine Rolle besitzt, für die er die Krankenhaus-Site sehen muss, kann er für diese Site keine Aktivitäten sehen.
 
@@ -209,7 +209,7 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften und Berechtigungen in [!DNL Target] Premium:
 
-* **Wichtig**: Löschen Sie keine Arbeitsbereiche mit Aktivitäten. Wenn Sie einen Arbeitsbereich mit Aktivitäten löschen, wenden Sie sich an die Kundenunterstützung, um diese Aktivitäten wiederherzustellen.
+* **Wichtig**: Löschen Sie keine Arbeitsbereiche mit Aktivitäten. Wenn Sie einen Arbeitsbereich mit Aktivitäten löschen, wenden Sie sich an den Kundendienst, um diese Aktivitäten wiederherzustellen.
 * Bei der Verwendung der Ansicht „Alle meine Arbeitsbereiche“ gilt Folgendes:
 
    * Sie können Aktivitäten, Zielgruppen und Angebote für alle Arbeitsbereiche anzeigen, für die Sie über die erforderlichen Rollen und Zugriffsberechtigungen verfügen.
@@ -253,7 +253,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 
   In einer künftigen Version wird Target auf Seiten, auf denen kein `at_property`-Token existiert, oder auf Seiten, auf denen ein anderes `at_property`-Token vorhanden ist, funktionieren.
 
-* Die Funktionalität „Berechtigungen für Unternehmensbenutzer“ wird in den Aufrufen der Adobe I/O-API nicht unterstützt.
+* Die Funktionalität &quot;Berechtigungen für Unternehmensbenutzer&quot;wird in Adobe Developer-API-Aufrufen nicht unterstützt.
 
 ## Häufig gestellte Fragen   {#faqs}
 
@@ -267,7 +267,7 @@ Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rol
 
 Leider ist es nicht möglich, Aktivitäten von einem Arbeitsbereich in einen anderen zu verschieben. Sie können jedoch eine Aktivität in einen beliebigen Arbeitsbereich kopieren, um zu wissen, dass die Berichtsdaten nicht übertragen werden. Weitere Informationen finden Sie unter „Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen“ in [Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbereich auf die gleiche Weise weiter, es sei denn, sie werden bearbeitet und mit Eigenschaften versehen. Aktivitäten in einem bestimmten Arbeitsbereich berücksichtigen die Eigenschaften, die diesem Arbeitsbereich zugewiesen sind, und daher bleibt das Verhalten möglicherweise nicht mehr so wie vor der Migration.
+Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbereich auf die gleiche Weise weiter, es sei denn, sie werden bearbeitet und mit Eigenschaften versehen. Aktivitäten in einem bestimmten Arbeitsbereich berücksichtigen die Eigenschaft, die diesem Arbeitsbereich zugewiesen ist. Daher kann es vorkommen, dass das Verhalten nicht mit dem vor der Migration übereinstimmt.
 
 ### Kann ich eine Zielgruppe von einem Arbeitsbereich in einen anderen verschieben? {#move-audience}
 
@@ -289,7 +289,7 @@ Ja, Sie können Zielgruppen mithilfe der [!UICONTROL Mehr Aktionen] -Option auf 
 
 Bei Implementierung von [!DNL Target] mit Tags in [!DNL Adobe Experience Platform] und erhalten Sie eine Fehlermeldung, die angibt, dass der Aktivität keine Eigenschaft zugeordnet ist. Übergeben Sie die `at_property` -Parameter mit der `targetPageParams` -Funktion.
 
-### Werden Klick-Track-Konversionen aufgezeichnet, wenn eine Umleitungsseite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören?
+### Werden Klick-Track-Konversionen aufgezeichnet, wenn eine umgeleitete Seite und die Aktivitäts-URL zu verschiedenen Eigenschaften gehören?
 
 Klick-Tracking wird nicht auf Seiten aufgezeichnet, wo die Seite und die Aktivitäts-URL zu unterschiedlichen Präsenzen gehören.
 

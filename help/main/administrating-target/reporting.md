@@ -5,10 +5,10 @@ title: Wie konfiguriere ich die Berichterstellung in Target?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 31%
+source-wordcount: '690'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ Sie können die folgenden Einstellungen auf dieser Seite angeben:
 
 >[!NOTE]
 >
->Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichterstellung. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics for Target (A4T)] als Berichtsquelle (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Beachten Sie, dass die Zeitzone, Währung und IP-Adressen zum Ausschließen von Einstellungen für Aktivitäten gelten, die [!DNL Target] Berichterstellung. Diese Einstellungen gelten nicht für Aktivitäten, die [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als Berichtsquelle.
 
 ![Berichtseite](/help/main/administrating-target/assets/reporting.png)
 
