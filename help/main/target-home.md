@@ -4,7 +4,7 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5e77907694ae65f9f2d20b0fe0264b7b03fa290a
+source-git-commit: e005c497f8afc4cda39148f6245fa025d447f1bd
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -22,7 +22,6 @@ ht-degree: 100%
 >Zusätzlich zu diesem Handbuch sind auch die folgenden [!DNL Adobe Target]-Handbücher verfügbar:
 >
 >- [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}
->
 >- [*Adobe Target-Tutorials*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de){target=_blank}
 >
 >Versionsinformationen finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) in diesem Handbuch.
