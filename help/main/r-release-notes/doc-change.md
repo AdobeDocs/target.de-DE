@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
 source-wordcount: '2095'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 17. Oktober | [Häufig gestellte Fragen zum Reporting](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | Die folgende FAQ wurde aktualisiert: &quot;Warum stehen für meinen Aktivitätsbericht keine Daten zur Verfügung? &quot; |
-| 11. Oktober | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Informationen zur A4T-Unterstützung für die [!DNL Adobe Experience Platform Web SDK]. |
+| 11. Oktober | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Informationen zur A4T-Unterstützung für das [!DNL Adobe Experience Platform Web SDK]. |
 | 10. Oktober | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.0 hinzugefügt. |
 | 6. Oktober | [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Alle Code-Beispiele wurden aktualisiert. |
 |  | [Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Automatische Zuordnung]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank} | Das gesamte Tutorial im Handbuch *[!UICONTROL Tutorials zu Adobe Target]* wurde aktualisiert. |
