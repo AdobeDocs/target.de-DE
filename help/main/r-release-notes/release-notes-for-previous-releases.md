@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '37638'
+source-wordcount: '37585'
 ht-degree: 96%
 
 ---
@@ -29,7 +29,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 | Funktion | Details |
 | --- | --- |
-| Aktualisierung der Benutzeroberfläche [!UICONTROL Aktivitäten]<P>und<P>Aktualisierung der Benutzeroberfläche [!UICONTROL Feeds] | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für Anwenderinnen und Anwender von [!DNL Target] zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Aktivitäten] und [!DNL Recommendations] [!UICONTROL Feeds] in der Benutzeroberfläche von [!DNL Target] aktualisiert. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.<P>Weitere Informationen finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md) und [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | Implementierungsmuster von [!DNL Recommendations] | Die Artikel *Recommendations-Implementierungsmuster mit at.js* helfen Ihnen, Ihre Implementierung von [!DNL Adobe Target Recommendations] zu verstehen und sie zu erstellen, wenn Sie die JavaScript-Bibliothek von at.js verwenden.<P>Weitere Informationen finden Sie unter [Recommendations-Implementierungsmuster mit at.js – Übersicht](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*. |
 
 * Für dynamische Frameworks wurden Verbesserungen an [!UICONTROL Visual Experience Composer] (VEC) hinzugefügt. (TGT-44064)

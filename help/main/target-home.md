@@ -4,7 +4,7 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 # Handbuch für Business-Anwender*innen von Adobe Target
 
-[!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren, sodass Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, sozialen Medien und anderen digitalen Kanälen maximieren können.
+[!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren. So können Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren.
 
-**Letzte Änderung: 24. Oktober 2023 ([hier finden Sie die Änderungen](r-release-notes/doc-change.md))**
+**Letzte Änderung: 25. Oktober 2023 ([hier finden Sie die Änderungen](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
