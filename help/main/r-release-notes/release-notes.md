@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 69%
+ht-degree: 88%
 
 ---
 
@@ -27,14 +27,14 @@ Ab Mittwoch, dem 25. Oktober, wird ein Prozentsatz der Kunden Zugriff auf die ne
 
 Weitere Informationen finden Sie unter [Tätigkeiten](/help/main/c-activities/activities.md).
 
-## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Die neue [!UICONTROL Tätigkeiten] Benutzeroberfläche, damit die [!UICONTROL Visual Experience Composer] (VEC) wird mit den Standardeinstellungen für `selectorCriteria` beim Erstellen einer neuen Aktivität. (TGT-46586)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, Elemente in [!UICONTROL Verfasser] -Modus bei Verwendung von VEC. (TGT-46470)
-* Es wurde die Möglichkeit hinzugefügt, bei der Verwendung benutzerdefinierter Attribute einen allgemeinen bevorzugten Selektor anzugeben. (TGT-46545)
-* Es wurde ein Problem behoben, durch das manchmal ein [!UICONTROL Automatisches Targeting] -Bericht verwendet [!UICONTROL Analytics for Target] (A4T) in der [!DNL Target] Benutzeroberfläche, auch wenn der Bericht in [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Die neue Oberfläche für [!UICONTROL Aktivitäten] wurde verbessert, sodass der [!UICONTROL Visual Experience Composer] (VEC) mit den Standardeinstellungen für `selectorCriteria` beim Erstellen einer neuen Aktivität geöffnet wird. (TGT-46586)
+* Es wurde ein Problem behoben, das manche Kundinnen und Kunden bei Verwendung des VEC daran hinderte, Elemente im [!UICONTROL Composer]-Modus zu bearbeiten. (TGT-46470)
+* Es wurde die Möglichkeit hinzugefügt, bei der Verwendung benutzerdefinierter Attribute eine allgemeine bevorzugte Auswahl anzugeben. (TGT-46545)
+* Es wurde ein Problem behoben, durch das manchmal die Anzeige eines Berichts [!UICONTROL Automatisches Targeting], der [!UICONTROL Analytics for Target] (A4T) in der [!DNL Target]-Benutzeroberfläche verwendet, verhindert wurde, auch wenn der Bericht in [!DNL Adobe Analysis Workspace] korrekt angezeigt wurde. (TGT-46494)
 * Die verschiedenen lokalisierten Zeichenfolgen in der Target-Benutzeroberfläche wurden aktualisiert. (TGT-18899)
 
 ## Zusätzliche Versionshinweise und Versionsdetails

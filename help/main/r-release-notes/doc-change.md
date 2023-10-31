@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
