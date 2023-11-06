@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,13 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!UICONTROL Tätigkeiten] Aktualisierung der Seitenbenutzeroberfläche (25. Oktober 2023)
+## Aktualisierung der Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche (25. Oktober 2023)
 
-Als Teil der [!DNL Adobe Target] Bemühungen des Teams, das Benutzererlebnis für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Tätigkeiten] in der [!DNL Target] Benutzeroberfläche. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.
+Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für Anwenderinnen und Anwender von [!DNL Target] zu verbessern, wurden in dieser Version die Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche von [!DNL Target] aktualisiert. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.
 
-Ab Mittwoch, dem 25. Oktober, wird ein Prozentsatz der Kunden Zugriff auf die neue Benutzeroberfläche haben, wobei zusätzliche Kunden in den nächsten Tagen Zugriff erhalten.
+Ab Mittwoch, den 25. Oktober, wird ein Prozentsatz der Kundinnen und Kunden Zugriff auf die neue Benutzeroberfläche haben, wobei weitere Kundinnen und Kunden in den nächsten Tagen Zugriff erhalten.
 
-Weitere Informationen finden Sie unter [Tätigkeiten](/help/main/c-activities/activities.md).
+Weitere Informationen finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md).
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
 
