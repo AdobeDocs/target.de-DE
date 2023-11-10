@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie mit Start- und Enddaten und -zeiten Benutzer 
 title: Kann ich Besucher ansprechen, die meine Site zu bestimmten Zeiten besuchen?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,11 @@ Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](
 
    >[!NOTE]
    >
-   >Die Zeitzone für Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN: NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
+   >Beachten Sie Folgendes:
+   >
+   >* Die Zeitzone für Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN: NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
+   >
+   >* [!DNL Target] Zeitzielgruppen berücksichtigen keine Änderungen der Sommerzeit (Daylight Saving Time, DST). Sie müssen Zielgruppen manuell aktualisieren, um DST-Änderungen Rechnung zu tragen.
 
 1. (Bedingt) Klicken Sie auf **[!UICONTROL Häufigkeit einstellen]** um wiederkehrende Muster festzulegen, einschließlich Wochentage und Uhrzeiten.
 
@@ -39,7 +43,7 @@ Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](
 
    Sie können [!UICONTROL Häufigkeit] -Optionen, um beispielsweise Besucher nur an den Tagen und Stunden, an denen Ihr Callcenter besetzt ist, die Option &quot;Jetzt chatten&quot;anzuzeigen.
 
-   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken **[!UICONTROL Häufigkeit hinzufügen]** um nach Bedarf zusätzliche Muster anzugeben.
+   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicks **[!UICONTROL Häufigkeit hinzufügen]** um nach Bedarf zusätzliche Muster anzugeben.
 
    >[!NOTE]
    >
