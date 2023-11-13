@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 84%
+source-wordcount: '495'
+ht-degree: 82%
 
 ---
 
@@ -18,14 +18,6 @@ ht-degree: 84%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
-
-## Aktualisierung der Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche (25. Oktober 2023)
-
-Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für Anwenderinnen und Anwender von [!DNL Target] zu verbessern, wurden in dieser Version die Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche von [!DNL Target] aktualisiert. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.
-
-Ab Mittwoch, den 25. Oktober, wird ein Prozentsatz der Kundinnen und Kunden Zugriff auf die neue Benutzeroberfläche haben, wobei weitere Kundinnen und Kunden in den nächsten Tagen Zugriff erhalten.
-
-Weitere Informationen finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md).
 
 ## [!DNL Target] Standard/Premium 23.11.1 (13. und 14. November 2023)
 
