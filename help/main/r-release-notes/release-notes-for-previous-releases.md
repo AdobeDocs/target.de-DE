@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '37585'
+source-wordcount: '37690'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Die neue Oberfläche für [!UICONTROL Aktivitäten] wurde verbessert, sodass der [!UICONTROL Visual Experience Composer] (VEC) mit den Standardeinstellungen für `selectorCriteria` beim Erstellen einer neuen Aktivität geöffnet wird. (TGT-46586)
+* Es wurde ein Problem behoben, das manche Kundinnen und Kunden bei Verwendung des VEC daran hinderte, Elemente im [!UICONTROL Composer]-Modus zu bearbeiten. (TGT-46470)
+* Es wurde die Möglichkeit hinzugefügt, bei der Verwendung benutzerdefinierter Attribute eine allgemeine bevorzugte Auswahl anzugeben. (TGT-46545)
+* Es wurde ein Problem behoben, durch das manchmal die Anzeige eines Berichts [!UICONTROL Automatisches Targeting], der [!UICONTROL Analytics for Target] (A4T) in der [!DNL Target]-Benutzeroberfläche verwendet, verhindert wurde, auch wenn der Bericht in [!DNL Adobe Analysis Workspace] korrekt angezeigt wurde. (TGT-46494)
+* Die verschiedenen lokalisierten Zeichenfolgen in der Target-Benutzeroberfläche wurden aktualisiert. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4.–6. Oktober 2023)
 
