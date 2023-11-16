@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
 source-wordcount: '2227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 10. November | [Recommendations API-Referenz](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | Die [!DNL Adobe Target] [!DNL Recommendations] Die API wurde auf die [!DNL Adobe Developer] Website. Bitte aktualisieren Sie bei Bedarf Ihre Lesezeichen. |
-|  | [Zeitrahmen](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Es wurde ein Hinweis hinzugefügt: [!DNL Target] Zeitzielgruppen berücksichtigen keine Änderungen der Sommerzeit (Daylight Saving Time, DST). Sie müssen Zielgruppen manuell aktualisieren, um DST-Änderungen Rechnung zu tragen. |
-| 8. November | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Hinweise zur Vorabversion für die kommenden Versionen hinzugefügt [!DNL Target Standard/Premium] Version 23.11.1. |
+| 10. November | [Recommendations-API-Referenz](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | Die [!DNL Recommendations]-API von [!DNL Adobe Target] wurde zur [!DNL Adobe Developer]-Website verlegt. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
+|  | [Zeitrahmen](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Es wurde ein Hinweis hinzugefügt, dass Zielgruppen der [!DNL Target]-Zeit die Umstellung auf Sommerzeit nicht unterstützen. Sie müssen Zielgruppen manuell aktualisieren, um Sommerzeit-Änderungen Rechnung zu tragen. |
+| 8. November | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Vorab-Versionshinweise für die Version [!DNL Target Standard/Premium] 23.11.1 hinzugefügt. |
 | 28. Oktober | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details über die at.js-Version 2.11.2 wurden hinzugefügt. |
 | 25. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Informationen zur Aktualisierung der Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche hinzugefügt (25. Oktober 2023) |
 | 24. Oktober | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.10.2 von [!DNL Target Standard/Premium] hinzugefügt. |
