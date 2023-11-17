@@ -5,10 +5,10 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 82%
+source-wordcount: '1609'
+ht-degree: 80%
 
 ---
 
@@ -40,7 +40,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Beschränkung**: 50 Aufrufe pro Minute für die APIs zur Aktualisierung von Admin-, Berichts- und Massenprofilen. Diese Beschränkung gilt nicht für die APIs zu Versand und einfacher Profilaktualisierung.
 
-   Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung „503 HTTP-Status“ zurück.
+  Wenn Sie mehr als 50 API-Aufrufe pro Minute ausführen, gibt [!DNL Target] die Fehlermeldung „503 HTTP-Status“ zurück.
 
 ## Zielgruppen
 
@@ -64,35 +64,35 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung pro Benutzersitzung.
 
-   Wenn ein Kunde 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anfragen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den [!DNL Target]-Server gesendet werden, bevor die Antwort für eine dieser Anfragen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anfragen für dieselbe Sitzung sequenziell.
+  Wenn ein Kunde 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anfragen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den [!DNL Target]-Server gesendet werden, bevor die Antwort für eine dieser Anfragen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anfragen für dieselbe Sitzung sequenziell.
 
    * **Fehlerverhalten**:
 
       * Bereitstellungs-API und Batch-Mbox v2:
          * Fehler-Code: HTTP 420 – zu viele Anfragen
          * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
+
       * Legacy-mBox-API:
          * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
+
       * at.js:
          * Standardinhalt wird angezeigt
 
-
-
 * **Limit**: 50 Mboxes pro [!DNL Target] Batch-Mbox-Anfrage zur Inhaltsbereitstellung.
 
-   mehr als 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung in der Mbox führt zu einem Antwort-Fehlercode `HTTP 400` mit Fehlermeldung `size must be between 0 and 50`.
+  mehr als 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung in der Mbox führt zu einem Antwort-Fehlercode `HTTP 400` mit Fehlermeldung `size must be between 0 and 50`.
 
-   Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Mboxes für die Batch-Anforderung vorhanden sind, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Wenn das Erlebnis-Rendering bei diesen Batch-Anforderungen mit hoher Latenz blockiert wird, kann die Latenz zu einem eingeschränkten Benutzererlebnis führen, da Benutzer warten, bis Erlebnisse gerendert werden.
+  Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Mboxes für die Batch-Anforderung vorhanden sind, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Wenn das Erlebnis-Rendering bei diesen Batch-Anforderungen mit hoher Latenz blockiert wird, kann die Latenz zu einem eingeschränkten Benutzererlebnis führen, da Benutzer warten, bis Erlebnisse gerendert werden.
 
 * **Limit**: 60 MB HTTP-POST-Textgröße für [!DNL Target] Inhaltsbereitstellungsanfragen.
 
-   mehr als 60 MB auf der HTTP-POST-Textgröße eines [!DNL Target] Inhaltsbereitstellungsanfragen führen zu einem Antwort-Fehlercode `HTTP 413 Request Entity Too Large`.
+  mehr als 60 MB auf der HTTP-POST-Textgröße eines [!DNL Target] Inhaltsbereitstellungsanfragen führen zu einem Antwort-Fehlercode `HTTP 413 Request Entity Too Large`.
 
-* **Empfohlenes Limit**: 50 Meldungen pro [!DNL Target] Batch-Versandanforderung.
+* **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target] Batch-Versandanfrage.
 
-   mehr als 50 Anmeldungen je [!DNL Target] Die Bereitstellungs-Batch-Anforderung führt wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
+  mehr als 50 Anmeldungen je [!DNL Target] Die Bereitstellungs-Batch-Anforderung führt wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
 
-   Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Benachrichtigungen über die Batch-Anfrage gesendet werden, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Einige zusätzliche Latenzzeiten bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein. Beachten Sie jedoch, dass Timeouts und alle nachfolgenden Neuversuche zu noch mehr Latenz führen können.
+  Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Benachrichtigungen über die Batch-Anfrage gesendet werden, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Einige zusätzliche Latenzzeiten bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein. Beachten Sie jedoch, dass Timeouts und alle nachfolgenden Neuversuche zu noch mehr Latenz führen können.
 
 ## Kundenattribute
 
@@ -127,25 +127,25 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * 15.000 Zeichen (Einzelwert, Ein- und Zwei-Byte-Sprachen)
    * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
 
-   Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-codierte Sprachen wie Englisch und andere Sprachen mit lateinischen Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-codierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
+  Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-codierte Sprachen wie Englisch und andere Sprachen mit lateinischen Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-codierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
-   Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
+  Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
 
 ### entity.id
 
 * **Beschränkung für Implementierungen, die die Erfassung von Kaufinformationen erfordern**: 50 Zeichen.
 
-   Diese Beschränkung wird erzwungen, da der mBox-Parameter `productPurchasedId` die entity.ids erfasst, wodurch die Zeichenanzahl auf 50 begrenzt wird.
+  Diese Beschränkung wird erzwungen, da der mBox-Parameter `productPurchasedId` die entity.ids erfasst, wodurch die Zeichenanzahl auf 50 begrenzt wird.
 
 * **Beschränkung für Implementierungen, für die nur ansichtsbasierte Algorithmen erforderlich sind**: 1.000 Zeichen.
 
-   Zu den ansichtsbasierten Algorithmen gehören „Ansicht/Ansicht“, „Am häufigsten angesehen“, „Zuletzt angezeigt“ usw.
+  Zu den ansichtsbasierten Algorithmen gehören „Ansicht/Ansicht“, „Am häufigsten angesehen“, „Zuletzt angezeigt“ usw.
 
 ## excludedIds {#excludedid}
 
 * **Limit**: 5 KB für POST-Anforderungen. 2.083 Zeichen minus der Länge der URL für GET-Anforderungen.
 
-   Bei GET-Anforderungen beträgt der Grenzwert für das Backend zwar 5 KB, aufgrund der Tatsache, dass Microsoft Internet Explorer die URL auf 2.083 Zeichen begrenzt, beträgt der tatsächliche Grenzwert 2.083 Zeichen minus der aktuellen Länge der URL.
+  Bei GET-Anforderungen beträgt der Grenzwert für das Backend zwar 5 KB, aufgrund der Tatsache, dass Microsoft Internet Explorer die URL auf 2.083 Zeichen begrenzt, beträgt der tatsächliche Grenzwert 2.083 Zeichen minus der aktuellen Länge der URL.
 
 ## Erlebnisse
 
@@ -155,9 +155,9 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ### Erlebnisse pro Aktivität
 
-* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Erlebnis-Targeting] (XT), [!UICONTROL A/B-Test], [!UICONTROL Multivarianz-Test] (MVT) und [!UICONTROL Automatisches Targeting] Aktivität.
+* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Erlebnis-Targeting] (XT), [!UICONTROL A/B-Test], [!UICONTROL Multivarianz-Test] (MVT) und [!UICONTROL Automatisches Targeting] -Aktivität.
 
-   30.000 Erlebnisse pro Automated Personalization (AP).
+  30.000 Erlebnisse pro Automated Personalization (AP).
 
 ### Änderungen pro Erlebnis
 
@@ -165,11 +165,11 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ## Mboxes
 
-### In-Mbox-Profilattributwert
+### In-Mbox-Profilattributwert {#in-mbox}
 
 * **Limit**: 256 Zeichen.
 
-   Längere Werte werden abgeschnitten.
+  Längere Werte werden bei Verwendung von at.js 1 abgeschnitten.*x*. Wenn Sie bei der Verwendung von at.js 2 mehr als 256 Zeichen senden.*x* oder [!DNL Adobe Experience Platform Web SDK], erhalten Sie eine Fehlermeldung (die Werte werden nicht automatisch abgeschnitten).
 
 ### In-Mbox-Profilnamen
 
@@ -179,50 +179,39 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-   Für die Bereitstellungs-API (at.js 2.*x*)-, Batch-Mbox V2- und AEP Web SDK (legierte.js)-Integrationen, Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
+  Für die Bereitstellungs-API (at.js 2.*x*)-, Batch-Mbox V2- und AEP Web SDK (legierte.js)-Integrationen, Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
 
-   ```
-   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-   ```
+  ```
+  - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+  ```
 
-   Für at.js 1.*x* Integrationen, Mbox-Namen *cannot* enthält eines der folgenden Zeichen:
+  Für at.js 1.*x* Integrationen, Mbox-Namen *cannot* enthält eines der folgenden Zeichen:
 
-   ```
-   ' " %22 %27 < > %3C %3E 
-   ```
+  ```
+  ' " %22 %27 < > %3C %3E 
+  ```
 
 ### Mbox-Parameter {#mbox-parameters}
 
 * **Limit**: Die folgenden Beschränkungen gelten für Mbox-Parameter:
 
-   Für Standard-Mbox-Aufrufe:
+  Für Standard-Mbox-Aufrufe:
 
    * Mbox-Parameter: 500 Parameter pro Mbox.
    * Profilparameter: 500 Profilparameter pro Mbox.
    * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
 
-   Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
+  Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
-   Bei Verwendung der Batch-Bereitstellungs-API beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
+  Bei Verwendung der Batch-Bereitstellungs-API beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
-   Wenn Sie die Batch-Bereitstellungs-API im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
+  Wenn Sie die Batch-Bereitstellungs-API im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
 
-   „Die Anzahl der mboxParameters darf 50 nicht überschreiten.“
+  „Die Anzahl der mboxParameters darf 50 nicht überschreiten.“
 
-   Für Endpunkte festgelegte Beschränkungen:
+  Für Endpunkte festgelegte Beschränkungen:
 
-   **Batch mbox v2**:
-
-   * Mbox-Parameter: 100
-   * Maximale Länge des Mbox-Parameternamens: 128
-   * Der Mbox-Parameterwert darf nicht null sein.
-   * Mbox-Parameterwert: 5000
-   * Profilparameter: 50
-   * Maximale Länge des Profilparameternamens: 128
-   * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 5000
-
-   **Bereitstellungs-API – Endpunkt**:
+  **Batch mbox v2**:
 
    * Mbox-Parameter: 100
    * Maximale Länge des Mbox-Parameternamens: 128
@@ -233,13 +222,22 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
    * Der Profilparameterwert darf nicht null sein.
    * Maximale Länge des Profilparameterwerts: 5000
 
+  **Bereitstellungs-API – Endpunkt**:
 
+   * Mbox-Parameter: 100
+   * Maximale Länge des Mbox-Parameternamens: 128
+   * Der Mbox-Parameterwert darf nicht null sein.
+   * Mbox-Parameterwert: 5000
+   * Profilparameter: 50
+   * Maximale Länge des Profilparameternamens: 128
+   * Der Profilparameterwert darf nicht null sein.
+   * Maximale Länge des Profilparameterwerts: 5000
 
 ### URL-Adressen zur Mbox-Anfrage
 
 * **Limit**: 2.083 Zeichen.
 
-   Diese Beschränkung beruht auf URL-Längenbeschränkungen für Microsoft Internet Explorer.
+  Diese Beschränkung beruht auf URL-Längenbeschränkungen für Microsoft Internet Explorer.
 
 ### mbox3rdPartyId-Parameter
 
@@ -263,9 +261,9 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 * 1024 KB (pro Erlebnis) für visuelle Angebote der Benutzeroberfläche.
 * 1024 KB aus der API.
 
-   Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
+  Bei der Verwendung einer globalen Mbox gilt die Beschränkung für den kompletten Satz an zurückgegebenen Inhalten für die Seite. Die Beschränkung der Angebotsseite optimiert die Seitenladezeit. Wenn der Grenzwert überschritten wird, wird folgende Meldung angezeigt:
 
-   „Der Inhalt für das Erlebnis ist für die Bereitstellung zu groß. Ändern Sie das Erlebnis, damit weniger Seiten-Code betroffen ist.“
+  „Der Inhalt für das Erlebnis ist für die Bereitstellung zu groß. Ändern Sie das Erlebnis, damit weniger Seiten-Code betroffen ist.“
 
 ## orderId-Parameter
 
@@ -299,7 +297,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
-   Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie [!DNL Adobe Target].
+  Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie [!DNL Adobe Target].
 
 ## Skriptprofile
 
@@ -311,11 +309,11 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Limit**: 2.048 Zeichen.
 
-   Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.
+  Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.
 
-   Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2.048 Zeichen überschreitet, wird das Skript vom System deaktiviert.
+  Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2.048 Zeichen überschreitet, wird das Skript vom System deaktiviert.
 
-   Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2.048 Zeichen ist, wird das Skript vom System deaktiviert.
+  Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2.048 Zeichen ist, wird das Skript vom System deaktiviert.
 
 ## Erfolgsmetriken
 
@@ -327,7 +325,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Empfohlenes Limit**: 1.000 Werte.
 
-   Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Targeting-Textbereich, z. B. die Eingabe von 1.000 Postleitzahlen in eine Postleitzahl-Zielgruppe.
+  Dies bezieht sich auf die Anzahl der durch eine Zeile getrennten Werte im Targeting-Textbereich, z. B. die Eingabe von 1.000 Postleitzahlen in eine Postleitzahl-Zielgruppe.
 
 ### Targeting-Regeln {#targeting-rules}
 

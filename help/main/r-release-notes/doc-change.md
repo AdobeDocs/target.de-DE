@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 96%
+source-wordcount: '2356'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 17. November | [Erste Schritte für Administratoren](/help/main/administrating-target/start-target.md) | Der folgende wichtige Hinweis wurde hinzugefügt:<ul><li>Benutzer mit [!UICONTROL Produktadministrator] oder [!UICONTROL Systemadministrator] Rechte in [!DNL Adobe Admin Console] kann alle Einstellungen auf der [!UICONTROL Administration] Seite von [!DNL Target], unabhängig von ihrer [!DNL Target] Rolle. Benutzer ohne [!UICONTROL Produktadministrator] oder [!UICONTROL Systemadministrator] Rechte in [!DNL Adobe Admin Console] muss über spezifische [!DNL Target] Rolle, um diese Änderungen vorzunehmen.1</li></ul> |
+|  | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Aktualisierter Abschnitt mit Informationen zur [!DNL Target] behandelt die Kürzung in at.js 2.*x* und [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Bereitstellungs-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Es wurden Umleitungen zur aktuellen Dokumentation zur Bereitstellungs-API hinzugefügt und die alte Dokumentation wurde eingestellt (`http://developers.adobetarget.com/api/delivery-api/`). Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
 | 16. November | [API zur Bulk-Aktualisierung von Profilen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Der folgende Vorbehalt wurde hinzugefügt: &quot;Aktualisierungen treten in der Regel in weniger als einer Stunde auf, können jedoch bis zu 24 Stunden dauern, bis sie angezeigt werden.&quot; |
 | 13. November | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.11.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
