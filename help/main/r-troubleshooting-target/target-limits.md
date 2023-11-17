@@ -5,9 +5,9 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 256 Zeichen.
 
-  Längere Werte werden bei Verwendung von at.js 1 abgeschnitten.*x*. Wenn Sie bei der Verwendung von at.js 2 mehr als 256 Zeichen senden.*x* oder [!DNL Adobe Experience Platform Web SDK], erhalten Sie eine Fehlermeldung (die Werte werden nicht automatisch abgeschnitten).
+  Werte mit mehr als 256 Zeichen werden bei Verwendung von at.js 1 abgeschnitten.*x*. Bei Verwendung von at.js 2 erhalten Sie eine Fehlermeldung, wenn Sie Werte mit mehr als 256 Zeichen senden.*x* oder [!DNL Adobe Experience Platform Web SDK]. Werte werden nicht automatisch abgeschnitten.
 
 ### In-Mbox-Profilnamen
 
