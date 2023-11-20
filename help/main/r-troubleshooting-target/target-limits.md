@@ -5,9 +5,9 @@ title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 80%
 
 ---
@@ -179,7 +179,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-  Für die Bereitstellungs-API (at.js 2.*x*)-, Batch-Mbox V2- und AEP Web SDK (legierte.js)-Integrationen, Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
+  Für [!DNL Delivery API] (at.js 2.*x*), Batch-Mbox V2 und [!DNL Adobe Experience Platform Web SDK] Integrationen (allowed.js), Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
