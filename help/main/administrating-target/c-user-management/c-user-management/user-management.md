@@ -1,28 +1,28 @@
 ---
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-description: Erfahren Sie, wie Sie die [!DNL Adobe Admin Console] Verwalten von Benutzern und deren Berechtigungen in [!DNL Adobe Target Standard].
-title: Wie kann ich Benutzer hinzufügen und Berechtigungen verwalten für eine [!DNL Target Standard] Konto?
+description: Erfahren Sie, wie Sie mit der  [!DNL Adobe Admin Console]  Benutzende und deren Berechtigungen in  [!DNL Adobe Target Standard] verwalten können.
+title: Wie kann ich für ein  [!DNL Target Standard] -Konto Benutzende hinzufügen und Berechtigungen verwalten?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
-# Benutzer
+# Benutzende
 
-Fügen Sie Benutzer hinzu und verwalten Sie ihre Berechtigungen in der [!DNL Adobe Admin Console] für [!DNL Target Standard] -Konto.
+Fügen Sie Benutzende hinzu und verwalten Sie ihre Berechtigungen in der [!DNL Adobe Admin Console] für ein [!DNL Target Standard]-Konto.
 
 >[!NOTE]
 >
 >Die Funktionen für [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] sind als Bestandteil der [!DNL Target Premium]-Lösung verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
 >
->Sie können feststellen, ob Ihre Organisation über eine [!UICONTROL Standard] oder [!UICONTROL Premium] durch Klicken auf die [!UICONTROL Administration] -Link oben im [!DNL Target] Benutzeroberfläche.
+>Sie können feststellen, ob Ihr Unternehmen über eine [!UICONTROL Standard]- oder [!UICONTROL Premium]-Lizenz verfügt, indem Sie oben in der [!DNL Target]-Benutzeroberfläche auf den Link [!UICONTROL Administration] klicken.
 >
->* **[!DNL Target] Standard-Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] sehen ([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte **[!UICONTROL Eigenschaften]**), verfügt Ihr Unternehmen über eine [!DNL Target] Standard-Lizenz.  [!DNL Target] Standard-Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
+>* **[!DNL Target][!UICONTROL Standard]-Kundinnen und -Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] sehen ([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte **[!UICONTROL Eigenschaften]**), verfügt Ihr Unternehmen über eine [!DNL Target] [!UICONTROL Standard-Lizenz]. [!DNL Target] [!UICONTROL Standard]-Kundinnen und -Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der [!DNL Adobe Admin Console] Benutzende hinzuzufügen und Berechtigungen zuzuweisen.
 >
 >* **[!DNL Target]Premium-Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] und die Registerkarte [!UICONTROL Eigenschaften] sehen ([!UICONTROL Administration > Eigenschaften]), verfügt Ihr Unternehmen über eine [!DNL Target] Premium-Lizenz. [!DNL Target] Premium-Kunden sollten den Anweisungen unter [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) und [Konfigurieren von Unternehmensberechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) folgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 >
@@ -30,17 +30,17 @@ Fügen Sie Benutzer hinzu und verwalten Sie ihre Berechtigungen in der [!DNL Ado
 
 Wenn Sie [!DNL Adobe Target] zum ersten Mal verwenden, sind bereits IDs (mit der Endung Adobe.com) in Ihrem [!DNL Adobe Experience Cloud]-Konto vorhanden. Diese IDs sind für Mitglieder des [!DNL Adobe]-Teams gedacht, damit Ihnen diese bei Bedarf mit Ihrem neuen Konto und der Verwendung von [!DNL Adobe Target] helfen können. Wenn Sie Unterstützung benötigen, wenden Sie sich auf dem üblichen Weg an Ihre Teams von Adobe.
 
-Neue Benutzer werden nicht auf der Seite [!UICONTROL Benutzer] Seite hinzufügen, bis sie sich mit ihren [!DNL Adobe Experience Cloud] -Konto und melden Sie sich dann bei [!DNL Target].
+Neue Benutzende werden auf der Seite [!UICONTROL Benutzende] erst hinzugefügt, wenn sie sich mit ihrem [!DNL Adobe Experience Cloud]-Konto anmelden und sich dann bei [!DNL Target] anmelden.
 
-Standardmäßig sind alle [!DNL Target] -Benutzer beginnen mit [!UICONTROL Beobachter] Berechtigungen.
+Standardmäßig ist allen [!DNL Target]-Benutzenden die Berechtigung [!UICONTROL Beobachter] zugewiesen.
 
 Administratoren sind in der Liste der [!UICONTROL Benutzer] aufgeführt. Kontaktieren Sie einen dieser Systemadministratoren, wenn Sie Ihre Zugriffsebene ändern lassen möchten.
 
 ## Anzeigen von Benutzerinformationen in [!DNL Target]
 
-Sie können eine Liste Ihrer aktuellen Benutzer im [!DNL Target] Benutzeroberfläche, einschließlich der Rollen pro Arbeitsbereich und E-Mail-Adressen.
+Sie können eine Liste Ihrer aktuellen Benutzenden auf der [!DNL Target]-Benutzeroberfläche anzeigen, einschließlich der Rollen pro Arbeitsbereich und E-Mail-Adressen.
 
-So zeigen Sie die [!UICONTROL Benutzer] Seite, klicken **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]**.
+Um die Seite [!UICONTROL Benutzer] anzuzeigen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]**.
 
 ![Benutzerliste in Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
@@ -48,9 +48,9 @@ So zeigen Sie die [!UICONTROL Benutzer] Seite, klicken **[!UICONTROL Administrat
 >
 >Um einen vorhandenen Benutzer zu verwalten oder neue Benutzer hinzuzufügen, müssen Sie die [!UICONTROL Adobe Admin Console] wie unten beschrieben verwenden.
 
-## Zugriff auf [!DNL Adobe Admin Console] {#access}
+## Zugreifen auf die [!DNL Adobe Admin Console] {#access}
 
-Für Aufgaben, die im [!DNL Adobe Admin Console], greifen Sie auf die Konsole zu, indem Sie die folgenden Schritte ausführen:
+Greifen Sie auf die [!DNL Adobe Admin Console] zu, indem Sie die folgenden Schritte durchführen:
 
 1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerverwaltung]**.
 
@@ -69,14 +69,14 @@ Die gesamte Benutzerverwaltung muss in der [!DNL Adobe Admin Console for Enterpr
 
 ## Erstellen von Benutzergruppen {#user-groups}
 
-Sie können Benutzergruppen wie Entwickler, Analysten, Marketingexperten, Manager usw. erstellen und dann Berechtigungen für mehrere [!DNL Adobe] Produkte und Arbeitsbereiche. Zuweisen neuer Teammitglieder zu allen entsprechenden Berechtigungen für verschiedene [!DNL Adobe] -Produkte können so einfach wie das Hinzufügen zu einer bestimmten Benutzergruppe sein.
+Sie können Benutzergruppen wie Entwickelnde, Analytiker, Marketing-Fachleute, Führungskräfte usw. erstellen und ihnen dann Benutzerrechte für verschiedene [!DNL Adobe]-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für mehrere [!DNL Adobe]-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
 1. Klicken Sie [in der Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]**, um neue Benutzergruppen zu erstellen oder bestehende Gruppen zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in Experience Cloud](https://helpx.adobe.com/de/enterprise/using/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Festlegen von Rollen und Berechtigungen {#roles-permissions}
 
-Benutzerrollen können in [!DNL Target] nur von Systemadministratoren festgelegt werden. Beispiel: eine [!UICONTROL Standard] Benutzer mit Genehmiger können einen Beobachter nicht in einen Genehmiger ändern, ohne auch [!DNL Experience Cloud] Administratorrechte.
+Benutzerrollen können in [!DNL Target] nur von Systemadministratoren festgelegt werden. Eine [!UICONTROL standardmäßig] genehmigende Person kann beispielsweise eine beobachtende nicht in eine genehmigende Person ändern, ohne zusätzlich über Adminrechte für [!DNL Experience Cloud] zu verfügen.
 
 Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden nicht automatisch hinzugefügt. Sie werden per E-Mail über [!DNL Experience Cloud] eingeladen und müssen ihre E-Mail-Adressen bestätigen, damit ihre Konten registriert werden.
 
@@ -92,16 +92,16 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
    ![Konfigurationsbenutzer](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Wählen Sie die gewünschte Berechtigungsrolle ([!UICONTROL Genehmiger], [!UICONTROL Bearbeiter], [!UICONTROL Beobachter] oder [!UICONTROL Herausgeber]), indem Sie die Dropdownliste für jeden Benutzer im [!UICONTROL Produktrolle] Spalte.
+1. Wählen Sie das gewünschte Berechtigungsniveau ([!UICONTROL Genehmigende Person], [!UICONTROL Bearbeiter], [!UICONTROL Beobachter], [!UICONTROL Publisher]) aus, indem Sie in der Spalte [!UICONTROL Produktrolle] das entsprechende Dropdown-Menü verwenden.
 
    ![Dropdownliste „Produktrolle“](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rolle | Beschreibung |
    |--- |--- |
-   | [!UICONTROL Genehmiger] | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
+   | [!UICONTROL Genehmigende Person] | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
    | [!UICONTROL Bearbeiter] | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
    | [!UICONTROL Beobachter] | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-   | [!UICONTROL Publisher] | Ähnlich wie bei [!UICONTROL Beobachter] Rolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle [!UICONTROL Publisher] zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
+   | [!UICONTROL Publisher] | Ähnlich wie die [!UICONTROL Beobachterrolle] (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Jedoch verfügt die Rolle [!UICONTROL Publisher] zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten. |
 
 Weitere Informationen finden Sie unter [Verwalten von Produktberechtigungen und Rollen in der Admin Console](https://helpx.adobe.com/de/enterprise/help/manage-permissions-and-roles.html) im *Enterprise-Benutzerhandbuch*.
 
