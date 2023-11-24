@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
 source-wordcount: '2373'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
 | 21. November | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.3 wurden hinzugefügt. |
-| 17. November | [Erste Schritte für Administratoren](/help/main/administrating-target/start-target.md) | Der folgende wichtige Hinweis wurde hinzugefügt:<ul><li>Benutzer mit [!UICONTROL Produktadministrator] oder [!UICONTROL Systemadministrator] Rechte in [!DNL Adobe Admin Console] kann alle Einstellungen auf der [!UICONTROL Administration] Seite von [!DNL Target], unabhängig von ihrer [!DNL Target] Rolle. Benutzer ohne [!UICONTROL Produktadministrator] oder [!UICONTROL Systemadministrator] Rechte in [!DNL Adobe Admin Console] muss über spezifische [!DNL Target] Rolle, um diese Änderungen vorzunehmen.1</li></ul> |
-|  | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Aktualisierter Abschnitt mit Informationen zur [!DNL Target] behandelt die Kürzung in at.js 2.*x* und [!DNL Adobe Experience Platform Web SDK]. |
-|  | [Bereitstellungs-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Es wurden Umleitungen zur aktuellen Dokumentation zur Bereitstellungs-API hinzugefügt und die alte Dokumentation wurde eingestellt (`http://developers.adobetarget.com/api/delivery-api/`). Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
-| 16. November | [API zur Bulk-Aktualisierung von Profilen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Der folgende Vorbehalt wurde hinzugefügt: &quot;Aktualisierungen treten in der Regel in weniger als einer Stunde auf, können jedoch bis zu 24 Stunden dauern, bis sie angezeigt werden.&quot; |
+| 17. November | [Erste Schritte für Admins](/help/main/administrating-target/start-target.md) | Folgender wichtiger Hinweis wurde hinzugefügt:<ul><li>Benutzende mit [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechten in [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [!UICONTROL Administration] von [!DNL Target] unabhängig von ihrer [!DNL Target]-Rolle bearbeiten oder ändern. Benutzende ohne [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechte in [!DNL Adobe Admin Console] müssen über die spezifische [!DNL Target]-Rolle verfügen, um diese Änderungen vorzunehmen.1</li></ul> |
+|  | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Aktualisierter Abschnitt mit Informationen dazu, wie [!DNL Target] das Kürzen in at.js 2.*x* und im [!DNL Adobe Experience Platform Web SDK] handhabt. |
+|  | [Bereitstellungs-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=de){target=_blank} | Es wurden Umleitungen zur aktuellen Dokumentation zur Bereitstellungs-API hinzugefügt und die alte Dokumentation wurde eingestellt (`http://developers.adobetarget.com/api/delivery-api/`). Bitte aktualisieren Sie Lesezeichen entsprechend. |
+| 16. November | [API zur stapelweisen Aktualisierung von Profilen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=de){target=_blank} | Der folgende Vorbehalt wurde hinzugefügt: „Aktualisierungen werden in der Regel in weniger als einer Stunde vollzogen, es kann jedoch bis zu 24 Stunden dauern, bis sie sichtbar sind.“ |
 | 13. November | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 23.11.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24. Oktober 2023)
