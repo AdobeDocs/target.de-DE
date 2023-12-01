@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 98%
+source-wordcount: '2480'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 1. Dezember | [Adobe Target-Profil-Update-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Die alte API-Dokumentation wurde in die folgenden Artikel verschoben:<ul><li>[Übersicht über Adobe Target Profile-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target Single Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target Bulk-Profil-Update-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29. November | [Bulk-Profil-Update-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=de){target=_blank} | Die Unterschiede bei der [!DNL Target] behandelt Kundenattribute beim Erstellen eines Profils für einen Benutzer [!DNL Target] bei Verwendung der [!UICONTROL Bulk-Profil-Update-API] v2 im Gegensatz zu v1. |
 | 21. November | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.3 wurden hinzugefügt. |
 | 17. November | [Erste Schritte für Admins](/help/main/administrating-target/start-target.md) | Folgender wichtiger Hinweis wurde hinzugefügt:<ul><li>Benutzende mit [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechten in [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [!UICONTROL Administration] von [!DNL Target] unabhängig von ihrer [!DNL Target]-Rolle bearbeiten oder ändern. Benutzende ohne [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechte in [!DNL Adobe Admin Console] müssen über die spezifische [!DNL Target]-Rolle verfügen, um diese Änderungen vorzunehmen.1</li></ul> |
