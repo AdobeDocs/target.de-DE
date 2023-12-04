@@ -4,16 +4,35 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # [!DNL Adobe Target] Ankündigungen und Ereignisse
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
+
+## [!DNL Adobe Target Community] Kaffeepause
+
+* **Machine Learning &amp; AI Reporting und Analyse**
+* **Donnerstag, 6. Dezember 2023**
+* **8:00 - 9:00 Uhr (PST -8 GMT)**
+* **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Mitglied werden [!DNL Adobe Target] Die Experten Brent Kostak, Cristinel Anastasoaie, Drew Burns und Marisol St. John diskutieren auf einer &quot;Fortune-Beliebtheitsveranstaltung&quot;über maschinelles Lernen und AI-Reporting und -Analyse in [!DNL Adobe Target].
+
++++ Details Diese Diskussion wird sich auf folgende Themen konzentrieren:
+
+* Sind Sie von ML und AI begeistert und möchten den Erfolg der Berichterstellung für Ihre Aktivitäten besser verstehen?
+* Suchen Sie nach neuen Ideen und Anwendungsfällen, in denen Sie Echtzeit-Personalisierung für Inhalte, Angebote und Messaging verwenden können?
+* Möchten Sie Best Practices zum Erstellen formularbasierter Aktivitäten für serverseitige Tests kennen?
+* Möchten Sie die Aktivitätsanalyse und -messung in [!UICONTROL Analytics for Target] (A4T) Reporting?
+* Sind Ihre Teams neugierig darauf, wie Sie über A/B-Tests mit Tests und Personalisierung für authentifizierte und bekannte Kundenerlebnisse hinausgehen?
+
++++
 
 ## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
 
