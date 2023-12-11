@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,21 @@ Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließ
 
 ## [!DNL Adobe Target Community] Kaffeepause
 
-* **Machine Learning &amp; AI Reporting und Analyse**
+* **Machinelles Lernen sowie KI-Berichte und -Analyse**
 * **Donnerstag, 6. Dezember 2023**
-* **8:00 - 9:00 Uhr (PST -8 GMT)**
+* **8:00 bis 9:00 Uhr (PST, GMT-8)**
 * **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
 
-Mitglied werden [!DNL Adobe Target] Die Experten Brent Kostak, Cristinel Anastasoaie, Drew Burns und Marisol St. John diskutieren auf einer &quot;Fortune-Beliebtheitsveranstaltung&quot;über maschinelles Lernen und AI-Reporting und -Analyse in [!DNL Adobe Target].
+Seien Sie dabei, wenn die Fachleute für [!DNL Adobe Target], Brent Kostak, Cristinel Anastasoaie, Drew Burns und Marisol St. John, in einer offenen Frage- und Antwortrunde über maschinelles Lernen sowie KI-Berichte und -Analyse in [!DNL Adobe Target] diskutieren.
 
-+++ Details Diese Diskussion wird sich auf folgende Themen konzentrieren:
++++ Details
+Diese Diskussion wird sich auf folgende Themen konzentrieren:
 
-* Sind Sie von ML und AI begeistert und möchten den Erfolg der Berichterstellung für Ihre Aktivitäten besser verstehen?
+* Sind Sie von ML und KI begeistert und möchten den Reporting-Erfolg bei Ihren Aktivitäten besser verstehen?
 * Suchen Sie nach neuen Ideen und Anwendungsfällen, in denen Sie Echtzeit-Personalisierung für Inhalte, Angebote und Messaging verwenden können?
-* Möchten Sie Best Practices zum Erstellen formularbasierter Aktivitäten für serverseitige Tests kennen?
-* Möchten Sie die Aktivitätsanalyse und -messung in [!UICONTROL Analytics for Target] (A4T) Reporting?
-* Sind Ihre Teams neugierig darauf, wie Sie über A/B-Tests mit Tests und Personalisierung für authentifizierte und bekannte Kundenerlebnisse hinausgehen?
+* Möchten Sie Best Practices zum Erstellen formularbasierter Aktivitäten für Server-seitige Tests kennenlernen?
+* Möchten Sie die Analyse und Messung von Aktivitäten in Reporting von [!UICONTROL Analytics for Target] (A4T) verbessern?
+* Sind Ihre Teams neugierig darauf, wie sie über A/B-Tests mit Tests und Personalisierung für authentifizierte und bekannte Kundenerlebnisse hinausgehen können?
 
 +++
 
