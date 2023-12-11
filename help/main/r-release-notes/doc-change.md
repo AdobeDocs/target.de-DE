@@ -5,9 +5,9 @@ title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehe
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 4. Dezember | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Registrierungsinformationen für &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot; hinzugefügt [!DNL Adobe Target Community] Kaffeepause: Mittwoch, 6. Dezember 2023. |
-| 1. Dezember | [Adobe Target-Profil-Update-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Die alte API-Dokumentation wurde in die folgenden Artikel verschoben:<ul><li>[Übersicht über Adobe Target Profile-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target Single Profile Update API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target Bulk-Profil-Update-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
-| 29. November | [Bulk-Profil-Update-API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=de){target=_blank} | Die Unterschiede bei der [!DNL Target] behandelt Kundenattribute beim Erstellen eines Profils für einen Benutzer [!DNL Target] bei Verwendung der [!UICONTROL Bulk-Profil-Update-API] v2 im Gegensatz zu v1. |
+| 4. Dezember | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen hinzugefügt für „Maschinelles Lernen sowie KI-Berichte und -Analyse“, die Kaffeepausensitzung der [!DNL Adobe Target Community] am Mittwoch, 6. Dezember 2023. |
+| 1. Dezember | [Profil-Update-APIs von Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} | Die alte API-Dokumentation wurde in die folgenden Artikel verschoben:<ul><li>[Profil-Update-APIs von Adobe Target – Überblick](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank}</li><li>[API zur Aktualisierung einzelner Profile in Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html?lang=de){target=_blank}</li><li>[API zur stapelweisen Aktualisierung von Profilen in Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?lang=de){target=_blank}</li></ul> |
+| 29. November | [API zur stapelweisen Aktualisierung](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=de){target=_blank} | Es wurden die Unterschiede klarer dargestellt, wie [!DNL Target] Kundenattribute beim Erstellen eines Profils für eine Person handhabt, die bei [!DNL Target] noch nicht bekannt ist, wenn die [!UICONTROL API zur stapelweisen Aktualisierung] v2 anstatt v1 verwendet wird. |
 | 21. November | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.3 wurden hinzugefügt. |
 | 17. November | [Erste Schritte für Admins](/help/main/administrating-target/start-target.md) | Folgender wichtiger Hinweis wurde hinzugefügt:<ul><li>Benutzende mit [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechten in [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [!UICONTROL Administration] von [!DNL Target] unabhängig von ihrer [!DNL Target]-Rolle bearbeiten oder ändern. Benutzende ohne [!UICONTROL Produktadmin]- oder [!UICONTROL Systemadmin]-Rechte in [!DNL Adobe Admin Console] müssen über die spezifische [!DNL Target]-Rolle verfügen, um diese Änderungen vorzunehmen.1</li></ul> |
 |  | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Aktualisierter Abschnitt mit Informationen dazu, wie [!DNL Target] das Kürzen in at.js 2.*x* und im [!DNL Adobe Experience Platform Web SDK] handhabt. |
@@ -179,5 +179,5 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Erstellen von Zielgruppen in Target](/help/main/c-target/c-audiences/create-audience.md) | Es wurde eine Liste mit Zeichen und Zeichensequenzen hinzugefügt, die nicht in Zielgruppennamen verwendet werden können. |
 | 31. Januar | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Es wurde eine Liste der zulässigen und nicht zulässigen Zeichen in mBox-Namen hinzugefügt. |
 | 25. Januar | [Erstellen von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Gab an, dass JSON-Angebote in Aktivitäten von [!UICONTROL Automated Personalization] (AP), für die Form-Based Experience Composer verwendet wird, jetzt verfügbar sind. |
-|  | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>[!DNL Adobe Target] Community-Fragen und Antworten-Kaffeepause: Mobile und authentifizierte Anwendungsfälle für die Erlebnisoptimierung</li></ul> |
+|  | [Adobe Target-Ankündigungen und -Veranstaltungen](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zu folgendem Ereignis ergänzt:<ul><li>Kaffeepause mit Frage- und Antwortrunde der [!DNL Adobe Target]-Community: Mobile und authentifizierte Anwendungsfälle für die Erlebnisoptimierung</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 22.13.3 von [!DNL Target Standard/Premium] hinzugefügt. |
