@@ -4,7 +4,7 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2348'
 ht-degree: 89%
@@ -30,22 +30,22 @@ Warum sollten Sie teilnehmen?
 +++ Daten und Details
 
 * **Art des Möglichen**
-* **Dienstag, 16. Januar 2024**
-* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+   * **Dienstag, 16. Januar 2024**
+   * **10:00 bis 11:00 Uhr (PST, GMT-8)**
 
-Im Mittelpunkt der Personalisierungsreife stehen künstliche Intelligenz und maschinelles Lernen. [!DNL Adobe Target] nutzt diese Technologien, um das Benutzerverhalten zu verstehen, Voreinstellungen vorherzusagen und Inhalte dynamisch anzupassen. Indem Sie die Leistungsfähigkeit von KI und ML nutzen, erfahren Sie, wie Marken sich über statische A/B-Tests und regelbasierte Personalisierung hinaus bewegen, um dynamische, kontextrelevante Erlebnisse bereitzustellen.
+     Im Mittelpunkt der Personalisierungsreife stehen künstliche Intelligenz und maschinelles Lernen. [!DNL Adobe Target] nutzt diese Technologien, um das Benutzerverhalten zu verstehen, Voreinstellungen vorherzusagen und Inhalte dynamisch anzupassen. Indem Sie die Leistungsfähigkeit von KI und ML nutzen, erfahren Sie, wie Marken sich über statische A/B-Tests und regelbasierte Personalisierung hinaus bewegen, um dynamische, kontextrelevante Erlebnisse bereitzustellen.
 
 * **Recommendations mit hoher Leistung**
-* **Dienstag, 13. Februar 2024**
-* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+   * **Dienstag, 13. Februar 2024**
+   * **10:00 bis 11:00 Uhr (PST, GMT-8)**
 
-Erfahren Sie, wie Empfehlungsalgorithmen Unternehmen einen Wendepunkt bringen und so Interaktion und Umsatz steigern können. Von personalisierten Produktempfehlungen bis hin zu Inhaltsempfehlungen trägt die Möglichkeit, Benutzer nahtlos durch ihre Journey zu führen, direkt zur Erschließung eines erheblichen Geschäftswachstums bei.
+     Erfahren Sie, wie Empfehlungsalgorithmen Unternehmen einen Wendepunkt bringen und so Interaktion und Umsatz steigern können. Von personalisierten Produktempfehlungen bis hin zu Inhaltsempfehlungen trägt die Möglichkeit, Benutzer nahtlos durch ihre Journey zu führen, direkt zur Erschließung eines erheblichen Geschäftswachstums bei.
 
 * **Entsperren einer KI-gestützten Personalisierung**
-* **Dienstag, 12. März 2024**
-* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+   * **Dienstag, 12. März 2024**
+   * **10:00 bis 11:00 Uhr (PST, GMT-8)**
 
-[!DNL Adobe Target] erleichtert KI-gestützte Personalisierungsfunktionen in allen Phasen des Kundenlebenszyklus für 1:1-personalisierte Erlebnisse. Lernen Sie von der Akquise bis zur Kundenbindung, wie Unternehmen Einblicke gewinnen, Prozesse optimieren, manuelle Anstrengungen minimieren und kontextbezogene, ansprechende Kundenerlebnisse in großem Maßstab bereitstellen.
+     [!DNL Adobe Target] erleichtert KI-gestützte Personalisierungsfunktionen in allen Phasen des Kundenlebenszyklus für 1:1-personalisierte Erlebnisse. Lernen Sie von der Akquise bis zur Kundenbindung, wie Unternehmen Einblicke gewinnen, Prozesse optimieren, manuelle Anstrengungen minimieren und kontextbezogene, ansprechende Kundenerlebnisse in großem Maßstab bereitstellen.
 
 +++
 
