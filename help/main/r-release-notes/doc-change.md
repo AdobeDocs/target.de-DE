@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: ht
-source-wordcount: '2337'
-ht-degree: 100%
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+workflow-type: tm+mt
+source-wordcount: '2360'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 13. Dezember | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zum [!DNL Adobe Target] Webinar-Reihe zur Personalisierungsreife 2024. |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank} | Es wurden zwei neue optionale Einstellungen hinzugefügt: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4. Dezember | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Registrierungsinformationen hinzugefügt für „Maschinelles Lernen sowie KI-Berichte und -Analyse“, die Kaffeepausensitzung der [!DNL Adobe Target Community] am Mittwoch, 6. Dezember 2023. |
 | 1. Dezember | [Profil-Update-APIs von Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} | Die alte API-Dokumentation wurde in die folgenden Artikel verschoben:<ul><li>[Profil-Update-APIs von Adobe Target – Überblick](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank}</li><li>[API zur Aktualisierung einzelner Profile in Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html?lang=de){target=_blank}</li><li>[API zur stapelweisen Aktualisierung von Profilen in Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?lang=de){target=_blank}</li></ul> |
 | 29. November | [API zur stapelweisen Aktualisierung](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=de){target=_blank} | Es wurden die Unterschiede klarer dargestellt, wie [!DNL Target] Kundenattribute beim Erstellen eines Profils für eine Person handhabt, die bei [!DNL Target] noch nicht bekannt ist, wenn die [!UICONTROL API zur stapelweisen Aktualisierung] v2 anstatt v1 verwendet wird. |

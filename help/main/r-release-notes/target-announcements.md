@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: ht
-source-wordcount: '2242'
-ht-degree: 100%
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+workflow-type: tm+mt
+source-wordcount: '2348'
+ht-degree: 89%
 
 ---
 
@@ -15,31 +15,39 @@ ht-degree: 100%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## [!DNL Adobe Target Community] Kaffeepause
+## Webinar-Reihe zu Adobe Target 2024 Personalization Maturity
 
-* **Machinelles Lernen sowie KI-Berichte und -Analyse**
-* **Donnerstag, 6. Dezember 2023**
-* **8:00 bis 9:00 Uhr (PST, GMT-8)**
-* **[Hier registrieren](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+Diese Live-Webinar-Reihe hebt die wichtigsten Themen hervor [!DNL Adobe Target] Funktionen, Anwendungsbeispiele und Tipps zum Entsperren einer KI-gestützten Personalisierung, wenn Kunden ihre Experimentierungs- und Personalisierungs-Journey mit [!DNL Adobe Experience Platform].
 
-Seien Sie dabei, wenn die Fachleute für [!DNL Adobe Target], Brent Kostak, Cristinel Anastasoaie, Drew Burns und Marisol St. John, in einer offenen Frage- und Antwortrunde über maschinelles Lernen sowie KI-Berichte und -Analyse in [!DNL Adobe Target] diskutieren.
+Warum sollten Sie teilnehmen?
 
-+++ Details
-Diese Diskussion wird sich auf folgende Themen konzentrieren:
+* **Wichtigste Anwendungsfälle**: Wandeln Sie Visionen mit einem Entwurf für intelligente Optimierung, ausgereift, in die Realität um [!DNL Adobe Target] Kunden über regelbasierte Experimente und A/B-Tests hinaus.
+* **Maximieren einzigartiger Funktionen**: Schneiden Sie Erlebnisse für den Erfolg mit Empfehlungen mit hoher Performance nach, um ROI, Umsatz und Konversion zu maximieren.
+* **Vorbereitende Personalisierungsstrategien**: Machen Sie sich mit den erweiterten KI/ML-Techniken vertraut, um die geschäftlichen Auswirkungen zu skalieren, mit neuen Segmenten/Zielgruppen zu reagieren und Personalisierungsmodelle für optimierte Erlebnisse zu optimieren.
 
-* Sind Sie von ML und KI begeistert und möchten den Reporting-Erfolg bei Ihren Aktivitäten besser verstehen?
-* Suchen Sie nach neuen Ideen und Anwendungsfällen, in denen Sie Echtzeit-Personalisierung für Inhalte, Angebote und Messaging verwenden können?
-* Möchten Sie Best Practices zum Erstellen formularbasierter Aktivitäten für Server-seitige Tests kennenlernen?
-* Möchten Sie die Analyse und Messung von Aktivitäten in Reporting von [!UICONTROL Analytics for Target] (A4T) verbessern?
-* Sind Ihre Teams neugierig darauf, wie sie über A/B-Tests mit Tests und Personalisierung für authentifizierte und bekannte Kundenerlebnisse hinausgehen können?
+* **[Hier registrieren](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++ Daten und Details
+
+* **Art des Möglichen**
+* **Dienstag, 16. Januar 2024**
+* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+
+Im Mittelpunkt der Personalisierungsreife stehen künstliche Intelligenz und maschinelles Lernen. [!DNL Adobe Target] nutzt diese Technologien, um das Benutzerverhalten zu verstehen, Voreinstellungen vorherzusagen und Inhalte dynamisch anzupassen. Indem Sie die Leistungsfähigkeit von KI und ML nutzen, erfahren Sie, wie Marken sich über statische A/B-Tests und regelbasierte Personalisierung hinaus bewegen, um dynamische, kontextrelevante Erlebnisse bereitzustellen.
+
+* **Recommendations mit hoher Leistung**
+* **Dienstag, 13. Februar 2024**
+* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+
+Erfahren Sie, wie Empfehlungsalgorithmen Unternehmen einen Wendepunkt bringen und so Interaktion und Umsatz steigern können. Von personalisierten Produktempfehlungen bis hin zu Inhaltsempfehlungen trägt die Möglichkeit, Benutzer nahtlos durch ihre Journey zu führen, direkt zur Erschließung eines erheblichen Geschäftswachstums bei.
+
+* **Entsperren einer KI-gestützten Personalisierung**
+* **Dienstag, 12. März 2024**
+* **10:00 bis 11:00 Uhr (PST, GMT-8)**
+
+[!DNL Adobe Target] erleichtert KI-gestützte Personalisierungsfunktionen in allen Phasen des Kundenlebenszyklus für 1:1-personalisierte Erlebnisse. Lernen Sie von der Akquise bis zur Kundenbindung, wie Unternehmen Einblicke gewinnen, Prozesse optimieren, manuelle Anstrengungen minimieren und kontextbezogene, ansprechende Kundenerlebnisse in großem Maßstab bereitstellen.
 
 +++
-
-## Webinar-Reihe zu [!DNL Adobe Target] {#webinar-series}
-
-Registrieren Sie sich für die folgenden Webinare, um zu erfahren, wie Kunden [!DNL Target] einsetzen, um ihre Personalisierungs- und Optimierungsziele zu erreichen:
-
-Keine geplant zu diesem Zeitpunkt.
 
 ## Aufzeichnungen früherer Webinare und Schulungen
 
