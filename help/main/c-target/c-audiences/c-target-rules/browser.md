@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 * Microsoft Edge
 * Opera
 * iPad  
-* iPhone|
+* iPhone
 
 Es gibt zwei Möglichkeiten, Browser auszurichten:
 
@@ -38,7 +38,7 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 
 * **Benutzerdefinierte Regel für Browserzielgruppe:** Mit einer benutzerdefinierten Zielgruppe können Sie mehrere Browser als Ziel auswählen oder Regeln oder Ausschlüsse für bestimmte Browser, Browserversionen oder Browsersprachen einrichten. Diese Funktion bietet erhebliche Flexibilität beim Targeting einer Aktivität auf der Grundlage von Browserattributen.
 
-   1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
+   1. Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
    1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
    1. Drag &amp; Drop **[!UICONTROL Browser]** in Audience Builder.
 
@@ -49,12 +49,13 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
       * **Typ:** Schließen Sie einen bestimmten Browser ein oder aus. Weitere Informationen finden Sie unter [Typ](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Sprache:** Schließen Sie bestimmte Browser, die bestimmte Sprachen verwenden, als Ziel ein oder aus. Weitere Informationen finden Sie unter [Sprache](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Version:** Schließen Sie bestimmte Browserversionen ein oder aus. Weitere Informationen finden Sie unter [Version](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
    1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-   Das folgende Beispiel zeigt eine Zielgruppe mit Microsoft Edge-Benutzern in den Versionen 91 und 92:
+  Das folgende Beispiel zeigt eine Zielgruppe mit Microsoft Edge-Benutzern in den Versionen 91 und 92:
 
-   ![Target Edge 91 oder 92](assets/target_edge.png)
+  ![Target Edge 91 oder 92](assets/target_edge.png)
 
 ## Browseroptionen {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -64,7 +65,7 @@ Wählen Sie Aktivitätsteilnehmer basierend auf ihrem Browsertyp, ihrer Sprache 
 
 Schließen Sie einen bestimmten Browser als Ziel ein oder aus.
 
-Wählen Sie **[!UICONTROL Typ]** und wählen Sie entweder gleich oder nicht gleich.
+Wählen Sie **[!UICONTROL Typ]** und entscheiden Sie, ob gleich oder nicht gleich.
 
 * Gleich: Schließt die ausgewählten Browser als Ziel ein.
 * Nicht gleich: Schließt die ausgewählten Browser aus.
@@ -79,7 +80,7 @@ Wenn zum Beispiel ein Angebot nur auf Englisch verfügbar ist, können Sie Brows
 
 In Fällen, in denen die Sprache wichtiger als der Standort ist, bietet das Ein- oder Ausschließen von Browsersprachen eine zielgerichtetere Besucheransprache als die geografisch basierte Kundenansprache. Wenn Sie zum Beispiel einen auf Englisch geschriebenen Artikel anbieten, können Sie entweder englischsprachige Länder oder Länder, deren Sprache auf Englisch festgelegt ist, als Ziel einschließen. Wenn Sie den Browser als Ziel einschließen, steht der Artikel Personen zur Verfügung, die Englisch verstehen, sich jedoch in Ländern befinden, in denen Englisch nicht die Hauptsprache ist.
 
-Wählen Sie **[!UICONTROL Sprache]** und wählen Sie entweder gleich oder nicht gleich.
+Wählen Sie **[!UICONTROL Sprache]** aus und entscheiden Sie dann, ob gleich oder nicht gleich.
 
 * Gleich: Schließt die ausgewählten Browsersprachen als Ziel ein.
 * Nicht gleich: Schließt die ausgewählten Browsersprachen als Ziel aus.
@@ -104,7 +105,7 @@ Schließen Sie bestimmte Browserversionen als Ziel ein oder aus.
 
 Wenn Ihre Seite zum Beispiel in Internet Explorer Version 11 oder früher nicht richtig angezeigt wird, können Sie eine Zielgruppe erstellen, die diese Versionen ausschließt. In diesem Fall würden Sie eine Regel aufstellen, bei der der Browsertyp gleich Internet Explorer ist, und eine zweite Regel hinzufügen, bei der die Version kleiner oder gleich 11 lautet.
 
-Wählen Sie **[!UICONTROL Version]** und wählen Sie dann einen Operator:
+Wählen Sie **[!UICONTROL Version]** und anschließend einen Betreiber aus:
 
 * Gleich
 * Ist nicht gleich
