@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
+source-git-commit: 77c8a3460b800183481637723b9631c11157d143
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 51%
 
 ---
 
@@ -141,29 +141,29 @@ Wenn Sie Zielgruppen haben, die iPads oder iPhones mit der [!UICONTROL Browser] 
 
 Die folgenden Einstellungen können in Zukunft verwendet werden:
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
+* Für Browserübereinstimmungen [!DNL Apple]: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
+* Für Browser stimmt mit Tablet überein: [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
 
   ![Tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
+* Für Browser stimmt mit iPad überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
+* Für Browser stimmt mit iPhone überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. B. wenn Bedingungen negiert werden. Beispiele für negierte Bedingungen könnten wie folgt aussehen:
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!UICONTROL false]
+* Für Browser stimmt iPhone nicht überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!UICONTROL false]
 
   ![Nicht Mobiltelefon](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!UICONTROL false].
+* Für Browser stimmt iPad nicht überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!UICONTROL false].
 
   ![Nicht Tablette](/help/main/r-release-notes/assets/tablet-false.png)
 
