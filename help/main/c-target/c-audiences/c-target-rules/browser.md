@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ Die folgenden Einstellungen können in Zukunft verwendet werden:
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Tablette]
+* [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
 
   ![Tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad]
+* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone]
+* [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
