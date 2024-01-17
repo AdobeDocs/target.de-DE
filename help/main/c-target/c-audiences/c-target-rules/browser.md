@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 51%
@@ -141,35 +141,35 @@ Wenn Sie Zielgruppen haben, die iPads oder iPhones mit der [!UICONTROL Browser] 
 
 Die folgenden Einstellungen können in Zukunft verwendet werden:
 
-* Für Browserübereinstimmungen [!DNL Apple]: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
+* **Für Browserübereinstimmungen[!DNL Apple]**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* Für Browser stimmt mit Tablet überein: [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
+* **Für Browser-Matches**: [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
 
   ![Tablet](/help/main/r-release-notes/assets/is-tablet.png)
 
-* Für Browser stimmt mit iPad überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
+* **Für Browser stimmt iPad überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* Für Browser stimmt mit iPhone überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
+* **Für Browser stimmt iPhone überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. B. wenn Bedingungen negiert werden. Beispiele für negierte Bedingungen könnten wie folgt aussehen:
 
-* Für Browser stimmt iPhone nicht überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!UICONTROL false]
+* **Für Browser stimmt iPhone nicht überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!UICONTROL false]
 
   ![Nicht Mobiltelefon](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* Für Browser stimmt iPad nicht überein: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!UICONTROL false].
+* **Für Browser stimmt iPad nicht überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!UICONTROL false].
 
   ![Nicht Tablette](/help/main/r-release-notes/assets/tablet-false.png)
 
 Wenn Sie `user.browserType` In JavaScript-Segmenten können die folgenden Änderungen vorgenommen werden:
 
-* BrowserType ist iPhone
+* **BrowserType ist iPhone**:
 
   Ersetzen:
 
@@ -179,7 +179,7 @@ Wenn Sie `user.browserType` In JavaScript-Segmenten können die folgenden Änder
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType ist nicht iPhone
+* **BrowserType ist nicht iPhone**:
 
   Ersetzen:
 
@@ -189,7 +189,7 @@ Wenn Sie `user.browserType` In JavaScript-Segmenten können die folgenden Änder
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType ist iPad
+* **BrowserType ist iPad**:
 
   Ersetzen:
 
@@ -199,7 +199,7 @@ Wenn Sie `user.browserType` In JavaScript-Segmenten können die folgenden Änder
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType ist nicht iPad
+* **BrowserType ist nicht iPad**:
 
   Ersetzen:
 
