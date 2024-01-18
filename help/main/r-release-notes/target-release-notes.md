@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '346'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: Donnerstag, 17. Januar 2024**
+**Letzte Aktualisierung: Freitag, 18. Januar 2024**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)
-
-| Veraltet | Details |
-|--- |--- |
-| [!DNL iPad] und [!DNL iPhone] nicht mehr unterstützt von der [Browserattribut](/help/main/c-target/c-audiences/c-target-rules/browser.md) wird beim Erstellen von Zielgruppen verwendet.<p>Veraltungsdatum:<P>Mittwoch, 30. April 2024 | [!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzer, die eine bestimmte [Browser- oder Browseroptionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) wenn sie Ihre Seite besuchen.<P><B>Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Browser] Typ Dropdown-Liste beim Erstellen von Kategorien für Zielgruppen.</b><P>Wenn Sie Zielgruppen haben, die iPads oder iPhones mit der [!UICONTROL Browser] müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.<p>Beispiele für alternative Einstellungen finden Sie unter [Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
 
@@ -39,10 +34,11 @@ Diese Version ist für die folgenden Tage geplant:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
+* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht &quot;Umsatz&quot;an, da der Spaltenname und die Umsatzmetrik nicht im ($)-Format in der Berichterstellung angezeigt wurden. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
 * Es wurde ein Fehler behoben, der dazu führte, dass Berichtdatumsintervalle nicht korrekt funktionierten. (TGT-47396)
 * Es wurde ein Fehler behoben, der dazu führte, dass der falsche Status auf der Seite [!UICONTROL Alle Aktivitäten] Seite, nachdem Kunden eine Aktivität mithilfe der [!UICONTROL Mehr Aktionen] Symbol. (TGT-47367)
-* Es wurde ein Fehler behoben, der dazu führte, dass [!UICONTROL Wichtige Attribute] nicht für einen Kunden angezeigt werden. (TGT-47272)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Meldung &quot;Ungültige Payload&quot;angezeigt wurde, wenn ein Kunde versuchte, &quot;Authentifizierung erforderlich&quot;zu aktivieren. (TGT-47195)
+* Es wurde ein Fehler behoben, der dazu führte, dass [!UICONTROL Wichtige Attribute] nicht für einen einzelnen Kunden angezeigt werden. (TGT-47272)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Meldung &quot;Ungültige Payload&quot;angezeigt wurde, wenn ein einzelner Kunde versuchte, &quot;Authentifizierung erforderlich&quot;zu aktivieren. (TGT-47195)
 * Zahlreiche lokalisierte Zeichenfolgen in der [!DNL Target] Benutzeroberfläche.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
