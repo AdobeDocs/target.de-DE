@@ -2,13 +2,13 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
 description: Eine Liste der häufig gestellten Fragen und Antworten zu Adobe  [!DNL Target] -Recommendations-Aktivitäten.
 title: Wo finde ich Fragen und Antworten zu  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen per API od
 
 * Wenn ein Element zuvor ausgeschlossen wurde, jetzt aber eingeschlossen werden sollte, wird das Element bei der nächsten Algorithmusausführung (12–24 Stunden) einbezogen.
 
-   Dies geschieht, weil [!DNL Target] Ausschlüsse sowohl online als auch offline anwendet. Wenn ein Element neu ausgeschlossen wird, wird der Online-Ausschluss schnell angewendet. Wenn ein Element neu eingeschlossen wird, wird der Online-Ausschluss schnell beendet, aber der Offline-Ausschluss wird erst beendet, wenn der nächste Algorithmus ausgeführt wird.
+  Dies geschieht, weil [!DNL Target] Ausschlüsse sowohl online als auch offline anwendet. Wenn ein Element neu ausgeschlossen wird, wird der Online-Ausschluss schnell angewendet. Wenn ein Element neu eingeschlossen wird, wird der Online-Ausschluss schnell beendet, aber der Offline-Ausschluss wird erst beendet, wenn der nächste Algorithmus ausgeführt wird.
 
 * Wenn ein Element zuvor eingeschlossen war, aber jetzt ausgeschlossen werden soll, wird das Element gemäß dem Zeitrahmen „Elementattribute aktualisiert...“ ausgeschlossen. Der oben genannte Zeitrahmen hängt von der Feed-Quelle ab (15 Minuten über Mbox/API oder 12–24 Stunden über Feed).
 
@@ -66,7 +66,7 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen angezeigt wird? *dass* Benutzer erhält?
 
 * Aktuell angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer in derselben Seitenansicht/[!DNL Target]-Inhaltsanfrage erhält.
-* Historisches Benutzerverhalten wie &quot;zuletzt angezeigtes Produkt&quot;, &quot;am häufigsten angezeigtes Produkt&quot;und der Gesamtverlauf für Anzeige/Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer auf der nächsten Seite erhält.[!DNL Target] Inhaltsanforderung. Beispielsweise werden die Algorithmen &quot;Kürzlich angezeigte Elemente&quot;und &quot;Für Sie empfohlen&quot;mit jeder Produktansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
+* Historisches Benutzerverhalten wie &quot;zuletzt angezeigtes Produkt&quot;, &quot;am häufigsten angezeigtes Produkt&quot;und der Gesamtverlauf für Anzeige/Kauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer auf der nächsten Seite erhält.[!DNL Target] Inhaltsanfrage. Beispielsweise werden die Algorithmen &quot;Kürzlich angezeigte Elemente&quot;und &quot;Für Sie empfohlen&quot;mit jeder Produktansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
 
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klicken auf Produkt A und Kauf von Produkt B) in den Empfehlungen angezeigt wird? *other* -Benutzer erhalten?
 
@@ -95,7 +95,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] hat eine [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} -Einstellung, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
@@ -127,9 +127,9 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 * Sie können die Sammlung erneut speichern und prüfen, ob der Wert aktualisiert wird. Durch das erneute Speichern führt die Sammlung alle Algorithmen, die diese Sammlung verwenden, erneut aus.
 * Befinden Sie sich in der richtigen Umgebung? Zu [!DNL /target/products.html#recsSettings] gehen, um gegenzuprüfen (wie unten dargestellt).
 
-   ![product_catalog-Bild](assets/product_catalog.png)
+  ![product_catalog-Bild](assets/product_catalog.png)
 
-* Ist Ihr Index aktuell? Los [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden der Index alt ist (z. B. &quot;Vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
+* Ist Ihr Index aktuell? Wechseln zu [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden der Index alt ist (z. B. &quot;Vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
 * Wurde der Feed erfolgreich ausgeführt? Wurden das FTP-Verzeichnis, das Kennwort usw. geändert?
 * [!DNL Target] versucht, so schnell wie möglich Aktualisierungen am Versand (auf der Seite/App des Kunden) vorzunehmen. Dennoch muss [!DNL Target] auf seiner Benutzeroberfläche einige Darstellungen für den Marketer bereitstellen. [!DNL Target] wartet mit Bereitstellungsaktualisierungen nicht auf die Synchronisierung der Benutzeroberflächenaktualisierungen. Mithilfe von [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
@@ -214,19 +214,19 @@ NO_CONTENT wird zurückgegeben, wenn für die angeforderte Algorithmus- und Schl
 
 * Die Ergebnisse sind noch nicht bereit.
 
-   Diese Situation tritt normalerweise ein, wenn eine neu erstellte Aktivität zum ersten Mal gespeichert wird oder nachdem die Konfiguration der Sammlung, der Kriterien oder der in der Aktivität verwendeten Promotions geändert wurde.
+  Diese Situation tritt normalerweise ein, wenn eine neu erstellte Aktivität zum ersten Mal gespeichert wird oder nachdem die Konfiguration der Sammlung, der Kriterien oder der in der Aktivität verwendeten Promotions geändert wurde.
 
 * Die Ergebnisse sind für die angeforderte Algorithmus-/Schlüsselkombination bereit, jedoch noch nicht auf dem nächstgelegenen Edge-Server zwischengespeichert.
 
-   Die Anforderung löst einen Caching-Vorgang aus. Dieses Problem sollte sich daher nach einigen Seitenneuladungen und/oder nach einigen Minuten von alleine lösen.
+  Die Anforderung löst einen Caching-Vorgang aus. Dieses Problem sollte sich daher nach einigen Seitenneuladungen und/oder nach einigen Minuten von alleine lösen.
 
 * Die Ergebnisse sind bereit, aber für den bereitgestellten Schlüsselwert nicht verfügbar.
 
-   Diese Situation tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das erst nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde. Das Problem sollte sich nach der nächsten Ausführung des Algorithmus von alleine lösen.
+  Diese Situation tritt in der Regel auf, wenn Empfehlungen für ein Element angefordert werden, das erst nach der Ausführung des letzten Algorithmus zum Katalog hinzugefügt wurde. Das Problem sollte sich nach der nächsten Ausführung des Algorithmus von alleine lösen.
 
 * Das teilweise Vorlagen-Rendering ist deaktiviert, weswegen nicht genügend Ergebnisse zum Ausfüllen der Vorlage verfügbar sind.
 
-   Diese Situation tritt in der Regel auf, wenn eine dynamische Einschlussregel eingerichtet ist, die aggressiv viele Elemente aus den möglichen Ergebnissen herausfiltert. Zur Vermeidung dieser Situation aktivieren Sie Backups, wenden die Einschlussregel aber nicht auf die Backups an. Oder Sie verwenden das Kriterium in Verbindung mit einem weniger aggressiv gefilterten Kriterium.
+  Diese Situation tritt in der Regel auf, wenn eine dynamische Einschlussregel eingerichtet ist, die aggressiv viele Elemente aus den möglichen Ergebnissen herausfiltert. Zur Vermeidung dieser Situation aktivieren Sie Backups, wenden die Einschlussregel aber nicht auf die Backups an. Oder Sie verwenden das Kriterium in Verbindung mit einem weniger aggressiv gefilterten Kriterium.
 
 ## Werden Empfehlungen, die auf kürzlich betrachteten Artikeln basieren, für einen einzelnen Besucher auf mehreren Geräten angezeigt? {#persist-across-devices}
 
@@ -244,7 +244,7 @@ Wenn der Besucher nicht gleichzeitig zwei aktive Sitzungen hat, werden die zulet
 
 ## Kann ich einen Algorithmus verwenden, der in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] erstellt wurde?
 
-Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recommendations Premium] nicht unterstützt. Möglicherweise können Sie den alten Algorithmus in [!DNL Target Premium] verwenden. Der Algorithmus kann jedoch zu Synchronisationsproblemen führen, wenn die Aktivität in der [!DNL Target Premium]-Benutzeroberfläche deaktiviert oder gelöscht wird. Weitere Informationen zu den Unterschieden zwischen den beiden Lösungen finden Sie unter [[!DNL Recommendations Classic] versus [!DNL Recommendations] -Aktivitäten in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recommendations Premium] nicht unterstützt. Möglicherweise können Sie den alten Algorithmus in [!DNL Target Premium] verwenden. Der Algorithmus kann jedoch zu Synchronisationsproblemen führen, wenn die Aktivität in der [!DNL Target Premium]-Benutzeroberfläche deaktiviert oder gelöscht wird. Weitere Informationen zu den Unterschieden zwischen den beiden Lösungen finden Sie unter [[!DNL Recommendations Classic] versus [!DNL Recommendations] Aktivitäten in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Wie kann ich nur neue Artikel oder Videos empfehlen? {#recommend-new-articles}
 

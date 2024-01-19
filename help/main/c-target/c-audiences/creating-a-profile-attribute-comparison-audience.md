@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine Zielgruppe definieren, um zwei Profilatt
 title: Kann ich zwei Profilattribute für die Verwendung in Zielgruppen vergleichen?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 62%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
@@ -28,13 +28,13 @@ Nehmen wir beispielsweise an, Sie arbeiten für ein Möbelunternehmen und laden 
 * Wahrscheinlichkeit, in den nächsten 90 Tagen Esszimmermöbel zu kaufen
 * Wahrscheinlichkeit, in den nächsten 90 Tagen Wohnzimmermöbel zu kaufen
 
-Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. [!DNL Target] würde daraufhin die Propensity Scores für Ess- bzw. Wohnzimmermöbel des vorliegenden Besuchers dynamisch miteinander vergleichen, um zu bestimmen, ob der Besucher in die entsprechende Zielgruppe fällt.
+Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. [!DNL Target] würde dann die Tendenzwerte für den Essbereich und den Wohnraum für einen bestimmten Besucher dynamisch vergleichen, um festzustellen, ob dieser Besucher für diese Zielgruppe qualifiziert ist.
 
-Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicken **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicks **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
 1. Drag &amp; Drop **[!UICONTROL Besucherprofil]** in den Audience Builder-Bereich.
 1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]** ein Attribut aus:
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![Propensity Score 2](assets/propensity_score_2.png)
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Vergleichstyp]** die Option **[!UICONTROL Attribut]** aus.
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Vergleichstyp auswählen]** die Option **[!UICONTROL Attribut]** aus:
 
    Mit dem Vergleichstyp &quot;statischer Wert&quot;können Sie das Besucherprofilattribut mit bestimmten Werten vergleichen.
 

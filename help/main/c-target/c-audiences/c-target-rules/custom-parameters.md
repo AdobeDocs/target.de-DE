@@ -4,22 +4,22 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Parameter an [!DNL Adobe T
 title: Kann ich ein Targeting von Besuchern anhand von benutzerdefinierten Parametern durchführen?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 43%
+source-wordcount: '491'
+ht-degree: 37%
 
 ---
 
 # Benutzerdefinierte Parameter
 
-Benutzerdefinierte Parameter sind Mbox-Parameter in [!DNL Adobe Target]. Wenn Sie Mbox-Parameter an Mboxes übergeben, oder verwenden Sie die `targetPageParams` -Funktion verwenden, werden diese Parameter hier zur Verwendung in Zielgruppen angezeigt.
+Benutzerdefinierte Parameter sind Mbox-Parameter in [!DNL Adobe Target]. Wenn Sie Mbox-Parameter an Mboxes übergeben oder die `targetPageParams` -Funktion verwenden, werden diese Parameter hier zur Verwendung in Zielgruppen angezeigt.
 
-Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
+Weitere Informationen finden Sie unter [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
-1. Klicken Sie in der [!DNL Target]-Oberfläche auf **[!UICONTROL Zielgruppe]** > **[!UICONTROL Zielgruppe erstellen]**.
+1. Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
 1. Drag &amp; Drop **[!UICONTROL Benutzerdefiniert]** in Audience Builder.
 
@@ -60,7 +60,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Die [Popupkarte mit Definitionsdetails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) der Zielgruppe enthält den Parameternamen im Abschnitt „Regeln“. **** Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
+Die [Popup-Karte mit Definitionsdetails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) zeigt den Parameternamen im **[!UICONTROL Regeln]** Abschnitt. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Die [Popupkarte mit Definitionsdetails](/help/main/c-target/c-audiences/audience
 
 ## Zu beachten {#considerations}
 
-* Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, ist die Aktivität/Zielgruppe, die diesen Parameter angibt, nicht für die regionale Mbox qualifiziert.
+* Zielgruppen und Aktivitäten werden für eine spezifische Mbox ausgewertet. Wenn die globale Mbox beispielsweise einen bestimmten Parameter übergibt, die regionale Mbox jedoch nicht, ist die Aktivität/Zielgruppe, die diesen Parameter angibt, für die in der regionalen Mbox nicht qualifiziert.
 * Das Targeting wird nicht anhand interner Mbox-Parameter wie mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId und mboxVersion bewertet.
 
 ## Schulungsvideo: Erstellen von Zielgruppen ![Tutorial-Badge](/help/main/assets/tutorial.png)

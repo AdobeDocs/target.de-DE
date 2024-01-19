@@ -4,10 +4,10 @@ description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zum
 title: Wo finde ich Antworten auf Fragen zu [!DNL Target] Reporting?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ Einige Besucher treffen die Konversionsmetrik, die als &quot;Anzahl erhöhen und
 
 XT-Aktivitäten sollten immer ein Kontrollerlebnis haben. Wenn Sie eine XT-Aktivität auf ähnliche Weise wie eine [!UICONTROL A/B-Test]-Aktivität verwenden, was ein ziemlich häufiges Szenario ist, sind die Kontrollerlebnisdaten nützlich. Wenn die Kontrollerlebnisdaten in Ihren Berichten nicht nützlich sind, können Sie sie ignorieren.
 
-## Warum ist die Anzahl der Besuche in [!DNL Target] niedriger als in anderen [!DNL Adobe Experience Cloud]-Lösungen? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Warum ist die Anzahl der Besuche niedriger in [!DNL Target] als andere [!DNL Adobe Experience Cloud] Lösungen? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Metrikwerte, z. B. Besuche, nach [!DNL Target] sind immer niedriger als die gemeldeten Zahlen in anderen [!DNL Experience Cloud] Lösungen aus mehreren Gründen:
 
@@ -87,12 +87,12 @@ Wurde der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt, enth
 
 So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
    ![Dialogfeld für A/B-Einstellungen](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Wählen Sie in der **[!UICONTROL Umgebung]** die Option **[!UICONTROL Produktion]** aus.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Umgebung]** die Option **[!UICONTROL Produktion]** aus.
 
    Möglicherweise stehen Berichtsdaten bei Auswahl einer Entwicklungsumgebung nicht zur Verfügung.
 
@@ -104,7 +104,7 @@ Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/main/administ
 
 Wenn der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt wurde, der zugehörige Bericht jedoch keine Daten enthält, stellen Sie sicher, dass Sie ein Erlebnis mit Traffic als Kontrollerlebnis verwenden.
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte.]**
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
 1. Aus dem **[!UICONTROL Kontrolle]** Dropdownliste ein Erlebnis auswählen, das Traffic erhält.
@@ -125,6 +125,6 @@ Ich setze beispielsweise die Traffic-Aufspaltung auf 50/50 oder 25/25/25/25, seh
 * Die Best Practice für A/B- und Multivarianz-Tests besteht darin, Traffic-Aufteilungen gleichmäßig zu halten. Die Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. zwischen 90/10 und 50/50) während eines Tests kann zu uneinheitlichen Besuchern über Erlebnisse hinweg führen. Das niedrigere Traffic-Erlebnis wird möglicherweise nie &quot;aufholen&quot;.
 * Wenn Sie die oben genannten Best Practices befolgen und sich die Traffic-Aufspaltung im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
-   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen zur aktuellen Version und den zugehörigen Versionshinweisen finden Sie unter [&quot;at.js&quot;-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
    * Ist dies ein Umleitungstest? Eine falsche Zeitplanung von Tags, die auf der Seite ausgelöst werden, kann zu ungleichen Traffic-Aufspaltungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target] -Aktivität. Weitere Informationen zum Beheben einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

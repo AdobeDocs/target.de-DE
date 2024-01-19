@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2456'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie hierzu die API-Methode „Profil-Update“. Weitere Informationen finden Sie unter [Profil-Update in der  [!DNL Adobe Target] API-Dokumentation](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder Mbox-Anfrage ausgeführt. Siehe Profilskriptattribute unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -73,7 +73,7 @@ Berücksichtigen Sie Folgendes:
 * Verweisen Sie auf Profilskriptattribute (einschließlich es selbst) im Code mit `user.get('parameterName')`.
 * Speichern Sie Variablen, die beim nächsten Ausführen des Skripts (bei der nächsten Mbox-Anfrage) aufgerufen werden können, mit `user.setLocal('variable_name', 'value')`. Verweisen Sie auf die Variable mit `user.getLocal('variable_name')`. Dies ist hilfreich in Situationen, in denen Sie einen Verweis für Datum und Uhrzeit der letzten Anfrage setzen möchten.
 
-   Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, in dem sie festgelegt wurden.
+  Diese Werte bleiben wie ein Profilskript erhalten, Sie haben jedoch nur Zugriff auf sie innerhalb des Skripts, in dem sie festgelegt wurden.
 
 * Bei Parametern und Werten wird zwischen Groß- und Kleinschreibung unterschieden. Achten Sie auf die Groß- und Kleinschreibung der Parameter und Werte, die Sie während der Aktivität oder des Tests empfangen.
 * Weitere JavaScript-Syntax finden Sie im Abschnitt „JavaScript-Referenz für Skript-Profilparameter“.
@@ -101,7 +101,6 @@ Klicken Sie auf **[!UICONTROL Vollständige Details anzeigen]**, um die Zielgrup
 >
 > * Die Aktivität befindet sich im [!UICONTROL Entwurfsstatus].
 > * Die in der Aktivität verwendeten Inhalte oder Angebote verwenden Skriptvariablen (entweder ein Inline-Angebot innerhalb der Aktivität oder ein Angebot in der Angebotsbibliothek).
-
 
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -137,7 +136,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
 * Die folgenden Empfehlungen sollen Ihnen helfen, die Verwendung von Profilskripten zu vereinfachen. Profilskripte können nur eine begrenzte Anzahl von Anweisungen ausführen.
 
-   Als Best Practice gilt:
+  Als Best Practice gilt:
 
    * Halten Sie Profilskripte klein und so einfach wie möglich.
    * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen benötigen, die evaluiert werden müssen.
@@ -157,27 +156,27 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Fügen Sie Profilskripte als Antwort-Token hinzu, um die Profilskripte zu debuggen:**
 
-   Klicken Sie in [!DNL Target] auf **[!UICONTROL Einstellungen]** und danach auf **[!UICONTROL Antwort-Token]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
+  Klicken Sie in [!DNL Target] auf **[!UICONTROL Einstellungen]** und danach auf **[!UICONTROL Antwort-Token]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
 
-   Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
+  Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
 
-   ![debug_profile_script_1 Bild](assets/debug_profile_script_1.png)
+  ![debug_profile_script_1 Bild](assets/debug_profile_script_1.png)
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
-   Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungs-Token erstellen]** im Abschnitt [!UICONTROL Debugger-Tools] klicken.
+  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungs-Token erstellen]** im Abschnitt [!UICONTROL Debugger-Tools] klicken.
 
-   Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
+  Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
-   Durch Hinzufügen dieser Parameter erhalten Sie etwas mehr Informationen als durch das Antwort-Token, da Sie hiermit einen Snapshot Ihres Profils vor und nach der Ausführung erhalten. Darüber hinaus zeigt es alle Ihre verfügbaren Profile an.
+  Durch Hinzufügen dieser Parameter erhalten Sie etwas mehr Informationen als durch das Antwort-Token, da Sie hiermit einen Snapshot Ihres Profils vor und nach der Ausführung erhalten. Darüber hinaus zeigt es alle Ihre verfügbaren Profile an.
 
-   ![debug_profile_script_2 Bild](assets/debug_profile_script_2.png)
+  ![debug_profile_script_2 Bild](assets/debug_profile_script_2.png)
 
 ## Häufig gestellte Fragen zu Profilskripten {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere  [Methoden übergeben werden, um Daten in Target einzubringen](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 

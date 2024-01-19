@@ -1,14 +1,14 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
 description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- oder Inhaltsinformationen an weitergeben können. [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 54%
+source-wordcount: '1090'
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL
 
 Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können Produkte, Inhalte (Artikel, Diashows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurants usw. umfassen.
 
-[!DNL Recommendations] sendet die `productId` oder `productPurchasedId` (`entity.id` im Code), die in den Algorithmen verwendet wird.
+[!DNL Recommendations] sendet die `productId` oder `productPurchasedId` (bezeichnet als `entity.id` im Code), der in den Algorithmen verwendet wird.
 
 Beachten Sie Folgendes:
 
@@ -31,7 +31,7 @@ Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beis
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -97,7 +97,7 @@ Mehrere Werte werden unterstützt (kommagetrennte Liste).
 
 Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien enthalten, z. B. einen Unterabschnitt für Strickjacken (z. B. Damen, Damen:Pullover, Damen).:sweaters:Kardigans). Mehrere Kategorien müssen durch Kommas getrennt werden.
 
-Die `categoryId` -Wert auf 250 Zeichen begrenzt ist.
+Die `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
@@ -105,9 +105,9 @@ Die `categoryId` -Wert auf 250 Zeichen begrenzt ist.
 
 Beispiele:
 
-* Beispiel für eine Produktdetailseite: Damen, Damen:Pullover, Damen:sweaters:Kardigans
+* Beispiel-Produktdetailseite: womens, womens:sweaters, womens:sweaters:Kardigans
 * Beispielseite für Kategorie „Sweater“: womens:sweaters
-* Beispiel für Kategorieseiten-Cardigans: Damen:sweaters:Kardigans
+* Beispiel für Kategorieseite Cardigans: womens:sweaters:Kardigans
 
 Bei kategoriebasierten Empfehlungen wird der Kategoriewert durch ein Komma getrennt. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
 
@@ -117,7 +117,7 @@ Im folgenden Code wird beispielsweise die Kategorie &quot;Frauen&quot;in mehrere
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel lautet der Kategorieschlüssel Womens .:Outerwear:Jacken: Caban.
+Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel lautet der Kategorieschlüssel Frauen:Outerwear:Jacken: Caban.
 
 ### entity.brand
 
@@ -183,7 +183,7 @@ Die Gewinnspanne oder ein anderer Wert des Artikels.
 
 Beispiel: `'entity.margin=1.00'`
 
-### entity.*custom*
+### Entität.*custom*
 
 Mehrere Werte werden unterstützt (JSON-Array).
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [Benutzerdefinierte Entitätsattribute](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

@@ -2,14 +2,14 @@
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
 description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen zu Elementen in Ihrer Adobe zu definieren. [!DNL Target] Recommendations-Katalog.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 82%
 
 ---
 
@@ -63,7 +63,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 
 ## Implementieren von Attributen mit mehreren Werten {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Benutzerdefinierte Entitätsattribute mit mehreren Werten werden bei Verwendung von Feeds (CSV) unterstützt. `targetPageParams`und der Bereitstellungs-API zum Hochladen von Produkten. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ([]) werden wie Arrays ohne Werte behandelt.
+Benutzerdefinierte Entitätsattribute mit mehreren Werten werden bei Verwendung von Feeds (CSV) unterstützt. `targetPageParams`und der Bereitstellungs-API zum Hochladen von Produkten. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ( [] ) werden als ohne Werte behandelt.
 
 Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beispiel ist `"[""test"", ""value""]"` ein gültiges JSON-Array, das in CSV verwendet werden kann.
 
@@ -71,7 +71,7 @@ Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
 
 ### Verwenden von targetPageParams
 
-Das folgende Beispiel zeigt, wie Sie Folgendes verwenden:  `targetPageParams`
+Das folgende Beispiel zeigt die Verwendung von `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### Verwenden von CSV-Dateien
+### CSV verwenden
 
 Sie können Ihre CSV-Dateien im Rohformat verwalten, indem Sie einen Texteditor verwenden oder stattdessen mit einem Tabellenkalkulationsprogramm arbeiten.
 
@@ -98,7 +98,7 @@ Eine CSV-Datei im Rohformat sieht wie folgt aus:
 
 Der gleiche Katalog sieht im Tabellenformat so aus:
 
-![Bild &quot;multi-value_example_excel&quot;](assets/multi-value_example_excel.png)
+![Bild mit mehreren Werten - Beispiel - Excel](assets/multi-value_example_excel.png)
 
 Wird eine Tabelle in das .csv-Format konvertiert, werden vom Programm automatisch doppelte Anführungzeichen um Zelleninhalte gelegt, damit Kommata in den Zellenwerten nicht als Spaltentrennzeichen interpretiert werden. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzerdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
 
@@ -127,18 +127,18 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Dokumentation der Adobe Recommendations-APIs](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank}.
+Siehe [Dokumentation zur Adobe Recommendations API](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} für Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
-Im folgenden Beispiel lautet die Regel:  `message contains abc`.
+Im folgenden Beispiel lautet die Regel: `message contains abc`.
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
-Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Lautet der Operator beispielsweise  `notEquals`, lautet das Ergebnis *false* (falsch), wenn nur ein beliebiger Wert die Operation erfüllt.
+Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn der Operator beispielsweise `notEquals`, wird das Ergebnis *false* , wenn ein beliebiger Wert übereinstimmt.
 
 In den folgenden Abschnitten finden Sie Informationen zum Benutzerverhalten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
 

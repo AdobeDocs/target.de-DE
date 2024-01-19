@@ -1,13 +1,13 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie in Adobe Ausschlüsse erstellen. [!DNL Target] Recommendations , um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
+description: Erfahren Sie, wie Sie Ausschlüsse auf Adobe erstellen. [!DNL Target] Recommendations , um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -33,19 +33,19 @@ Beispiele für die Verwendung von Ausschlüssen:
 
 ## Einen Ausschluss erstellen
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste vorhandener Ausschlüsse anzuzeigen. 
+1. Klicks **[!UICONTROL Recommendations]** > **[!UICONTROL Ausnahmen]** , um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
    ![exclusions_list-Bild](assets/exclusions_list.png)
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der [!UICONTROL Ausschluss]-Listenansicht gemeldet werden, entspricht der Anzahl der Produkte, die mit den Regeln für diesen Ausschluss in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html) zum Ändern der Standardhostgruppe.{target=_blank}
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der [!UICONTROL Ausschluss]-Listenansicht gemeldet werden, entspricht der Anzahl der Produkte, die mit den Regeln für diesen Ausschluss in der konfigurierten Standard-Umgebungs-[Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} , um die standardmäßige Hostgruppe zu ändern.
 
-1. Klicken Sie auf **[!UICONTROL Ausschluss erstellen]**.
+1. Klicks **[!UICONTROL Ausschluss erstellen]**.
 
-1. (Bedingt) Wählen Sie eine Umgebung aus dem **[!UICONTROL Umgebungsfilter]**, während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie eine Umgebung aus der **[!UICONTROL Umgebung]** beim Erstellen (oder Aktualisieren) eines Ausschlusses zu filtern, um den Inhalt des Ausschlusses in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
    ![Ausschluss erstellen](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** für den Ausschluss ein und geben Sie eine optionale Beschreibung ein.
+1. Einen Ausschluss eingeben **[!UICONTROL Name]** und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
@@ -63,7 +63,7 @@ Nachdem Sie beispielsweise eine Suche mit „id“ > „contains“ erstellt ha
 
 >[!IMPORTANT]
 >
->Die [!UICONTROL Erweiterte Suche] die Funktionalität unterscheidet nicht zwischen Groß- und Kleinschreibung; Die zum Zeitpunkt des Versands zurückgegebenen Produkte basieren jedoch auf der Suche nach Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
+>Die [!UICONTROL Erweiterte Suche] -Funktion unterscheidet nicht zwischen Groß- und Kleinschreibung. Die zum Zeitpunkt des Versands zurückgegebenen Produkte basieren jedoch auf der Suche, bei der zwischen Groß- und Kleinschreibung unterschieden wird. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
 ## Einen Ausschluss bearbeiten, kopieren oder löschen
 

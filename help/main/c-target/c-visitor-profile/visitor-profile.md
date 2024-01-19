@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Besucherprofile, die Informationen darüber
 title: Was sind Besucherprofile?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 36%
+source-wordcount: '106'
+ht-degree: 38%
 
 ---
 
@@ -17,13 +17,13 @@ Besucherprofile in [!DNL Adobe Target] enthalten Informationen darüber, wie Ihr
 
 Wenn [!DNL Target] wird zusammen mit anderen [!DNL Adobe Experience Cloud] Lösungen, z. B. [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] gibt Besucherinformationen lösungsübergreifend frei.
 
-Standardmäßig [!DNL Target] Profilinformationen werden in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
+Standardmäßig ist [!DNL Target] Profilinformationen werden in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
 
 Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 
 - [Lebensdauer des Besucherprofils](visitor-profile-lifetime.md)
 - [Profilattribute](profile-parameters.md)
 - [Kategorieaffinität](category-affinity.md)
-- [Kundenattribute](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Echtzeit-Profilsynchronisation für mbox3rdPartyID](3rd-party-id.md)
 - [Nützliche Variablen, Profile, Parameter und Methoden](variables-profiles-parameters-methods.md)

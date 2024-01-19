@@ -4,16 +4,16 @@ description: Lesen Sie Tipps unserer Experten zur Verwendung von Adobe  [!DNL Ta
 title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 73%
+source-wordcount: '2890'
+ht-degree: 72%
 
 ---
 
 # Kapitel 4: Tipps zur Verwendung von Target
 
-Basierend auf unserer Arbeit mit vielen [!DNL Target] Benutzer, haben wir festgestellt, wie Sie mehr Wert aus Ihrer [!DNL Target] Lösung. Wir haben diese in den vielen Tipps zusammengefasst, die wir in diesem Kapitel enthalten haben. Vermutlich werden Sie jetzt noch nicht alle diese Ideen umsetzen können. Werfen Sie jedoch immer wieder einen Blick darauf. Je mehr Erfahrung Sie mit der Lösung machen und je älter Ihr Programm wird, desto besser werden Sie sehen, wie diese Tipps Ihnen dabei helfen können, mit [!DNL Target].
+Basierend auf unserer Arbeit mit vielen [!DNL Target] Benutzer, haben wir festgestellt, wie Sie mehr Wert aus Ihrer [!DNL Target] -Lösung. Wir haben diese in den vielen Tipps zusammengefasst, die wir in diesem Kapitel enthalten haben. Vermutlich werden Sie jetzt noch nicht alle diese Ideen umsetzen können. Werfen Sie jedoch immer wieder einen Blick darauf. Je mehr Erfahrung Sie mit der Lösung machen und je älter Ihr Programm wird, desto besser werden Sie sehen, wie diese Tipps Ihnen dabei helfen können, mit [!DNL Target].
 
 ## Tipp 1: Optimieren Sie die Personalisierung durch zusätzliche Daten im Besucherprofil.
 
@@ -25,7 +25,7 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 **Gut zu wissen**: Da es sich bei [!DNL Target] um eine offene und agnostische Plattform handelt, deren Unterstützung für verschiedene Technologien herausragend ist, können Sie CRM- oder erworbene Daten auf viele verschiedene Weisen hinzufügen. Sie können also die Methode wählen, die für Ihre Organisation am besten geeignet ist.
 
-Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
+Siehe [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} für weitere Informationen.
 
 ## Tipp 2: Optimieren Sie die Personalisierung durch Kombination Ihrer [!DNL Target]-Zielgruppen mit anderen Zielgruppen aus Adobe Experience Cloud.
 
@@ -33,11 +33,11 @@ Durch Kombination Ihrer Zielgruppen aus unterschiedlichen [!DNL Adobe Experience
 
 Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
 
-**Gut zu wissen**: [!DNL Adobe Audience Manager]-Zielgruppen sind in [!DNL Target] automatisch verfügbar. Die Freigabe von [!DNL Adobe Analytics]-Zielgruppen muss jedoch manuell eingerichtet werden. Aktivieren Sie einfach das Kontrollkästchen &quot;Als Experience Cloud-Zielgruppe festlegen&quot;beim Erstellen von Zielgruppen in [!DNL Analytics]. Dann von [!DNL Target]klicken Sie auf &quot;Experience Cloud-Zielgruppen importieren&quot;.
+**Gut zu wissen**: [!DNL Adobe Audience Manager]-Zielgruppen sind in [!DNL Target] automatisch verfügbar. Die Freigabe von [!DNL Adobe Analytics]-Zielgruppen muss jedoch manuell eingerichtet werden. Aktivieren Sie einfach das Kontrollkästchen &quot;Als Experience Cloud-Audience erstellen&quot;, während Sie die Audience erstellen in [!DNL Analytics]. Dann von [!DNL Target]klicken Sie auf &quot;Experience Cloud-Audiences importieren&quot;.
 
 ## Tipp 3: Exportieren Sie Daten aus [!DNL Target] in Programme von Drittanbietern.
 
-Mit Antwort-Token können Administratoren Daten problemlos aus [!DNL Target] in Programme von Drittanbietern exportieren. Dies ist zum Beispiel sehr praktisch, wenn Sie Ihre Daten zu anderen Daten hinzufügen möchten, die in einem Umfragetool erfasst wurden. Wenn beispielsweise eine Umfrage eine Stichprobe einer Population anzeigt, für die ein Erlebnis mit dem Wert &quot;9&quot;und für ein Erlebnis mit dem Wert &quot;4&quot;bewertet wurde, können Sie Ihre Daten verwenden, um zu sehen, wer Erlebnis A gesehen hat und wer Erlebnis B gesehen hat. Sie können auch Antwort-Token zum Exportieren verwenden. [!DNL Target] Daten in Ihr internes Data Warehouse übertragen. Klicken Sie einfach auf &quot;Administration&quot;und schalten Sie dann den Schalter neben dem gewünschten Antwort-Token auf die Position &quot;Ein&quot;. Erstellen Sie danach eine Aktivität. Die Daten können nun an den Drittanbieter übertragen werden. Mit Debuggingwerkzeugen können Sie überprüfen, ob [!DNL Target] die Daten exportiert.
+Mit Antwort-Token können Administratoren Daten problemlos aus [!DNL Target] in Programme von Drittanbietern exportieren. Dies ist zum Beispiel sehr praktisch, wenn Sie Ihre Daten zu anderen Daten hinzufügen möchten, die in einem Umfragetool erfasst wurden. Wenn beispielsweise eine Umfrage eine Stichprobe einer Population anzeigt, die ein Erlebnis mit dem Wert &quot;9&quot;bewertet hat, und eine andere mit dem Wert &quot;4&quot;, können Sie Ihre Daten verwenden, um zu sehen, wer Erlebnis A gesehen hat und wer Erlebnis B gesehen hat. Sie können auch Antwort-Token zum Exportieren verwenden [!DNL Target] Daten in Ihr internes Data Warehouse übertragen. Klicken Sie einfach auf &quot;Administration&quot;und schalten Sie dann den Schalter neben dem gewünschten Antwort-Token auf die Position &quot;Ein&quot;. Erstellen Sie danach eine Aktivität. Die Daten können nun an den Drittanbieter übertragen werden. Mit Debuggingwerkzeugen können Sie überprüfen, ob [!DNL Target] die Daten exportiert.
 
 Eine schrittweise Anleitung finden Sie unter [Antwort-Token](/help/main/administrating-target/response-tokens.md).
 
@@ -63,7 +63,7 @@ Vereinfachen Sie die Arbeit mit den Daten Ihres Unternehmens und bewahren Sie gl
 
 Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-**Nützlicher Hinweis**: Wenn beim Hinzufügen von Benutzern der Name eines Teammitglieds noch nicht hinzugefügt wurde (z. B. bei einem Mitarbeiter einer Agentur eines Drittanbieters), wird durch die Eingabe seiner E-Mail-Adresse und seines Passworts eine Einladung per E-Mail zum Beitritt zum Arbeitsbereich eines Teams Trigger.
+**Hilfreicher Hinweis**: Wenn beim Hinzufügen von Benutzern der Name eines Teammitglieds noch nicht hinzugefügt wurde (z. B. bei einem Mitarbeiter einer Drittagentur), wird durch die Eingabe seiner E-Mail-Adresse und seines Passworts eine Einladung per E-Mail zum Beitritt zum Arbeitsbereich eines Teams Trigger.
 
 Verwenden Sie Target Standard? Auch dort können Sie Ihren Benutzern [drei Zugriffsebenen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) zuweisen – mit schreibgeschütztem Zugriff, Editorzugriff oder Genehmigerzugriff.
 
@@ -73,7 +73,7 @@ Ermitteln Sie, wie ein Angebot, z. B. kostenloser Versand, in einer Kunden-Jour
 
 Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
 
-**Nützlicher Hinweis**: Wenn Sie die URL ändern, nachdem Sie einen Seitenbereich festgelegt haben, wird das Erlebnis zurückgesetzt. Von Ihnen angegebene Varianzen werden dann nicht mehr angezeigt. Vergessen Sie nach einer URL-Änderung daher nicht, das Erlebnis neu zu definieren.
+**Hilfreicher Hinweis**: Wenn Sie die URL ändern, nachdem Sie einen Seitenbereich festgelegt haben, wird das Erlebnis zurückgesetzt. Von Ihnen angegebene Varianzen werden dann nicht mehr angezeigt. Vergessen Sie nach einer URL-Änderung daher nicht, das Erlebnis neu zu definieren.
 
 ## Tipp 7: Testen Sie ein Angebot mit verschiedenen Zielgruppen, um festzustellen, ob die Zielgruppen unterschiedliche Vorlieben haben.
 
@@ -109,7 +109,7 @@ Viele Marketer starten Optimierungsprogramme für die Segmentierung und das Targ
 * Wie hoch ist die Konversionsrate der Seite?
 * Wie lange müssten Sie den Test voraussichtlich durchführen, um ihn mit einem signifikanten Ergebnis abschließen zu können?
 
-**Nützlicher Tipp**: Verwenden Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um die für einen erfolgreichen Test erforderliche Stichprobengröße zu ermitteln.
+**Hilfreicher Tipp**: Verwenden Sie die [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um die für einen erfolgreichen Test erforderliche Stichprobengröße zu ermitteln.
 
 ## Tipp 12: Entwerfen Sie einfachere Tests, um sicherzustellen, dass Sie sie erstellen und implementieren können.
 

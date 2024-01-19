@@ -1,14 +1,14 @@
 ---
 keywords: Empfehlungsschlüssel; Empfehlungslogik; aktuelle Kategorie; benutzerdefiniertes Attribut; zuletzt gekaufter Artikel; zuletzt angezeigter Artikel; am häufigsten angezeigter Artikel; am häufigsten angezeigter Artikel; Favoritenkategorie; Beliebtheit; kürzlich angezeigter Artikel; zuletzt gekaufter Artikel; zuletzt gekauft; zuletzt angesehen; am häufigsten angesehen; am häufigsten angesehen
-description: Erfahren Sie, wie Sie Empfehlungen basierend auf Schlüsseln verwenden, die Besucherverhaltenskontext verwenden, um relevante Ergebnisse in der Adobe anzuzeigen. [!DNL Target] Recommendations-Aktivitäten.
+description: Erfahren Sie, wie Sie Empfehlungen basierend auf Schlüsseln verwenden, die Besucherverhaltenskontext verwenden, um relevante Ergebnisse im Adobe anzuzeigen. [!DNL Target] Recommendations-Aktivitäten.
 title: Wie Basiere ich die Empfehlung auf einem Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 37%
+source-wordcount: '4013'
+ht-degree: 34%
 
 ---
 
@@ -20,7 +20,7 @@ Jeder Algorithmustyp bietet verschiedene für seinen Typ geeignete Algorithmen, 
 
 | Algorithmustyp | Verwendungsbereiche | Verfügbare Algorithmen |
 | --- | --- | --- |
-| [!UICONTROL Warenkorbbasiert] | Machen Sie Empfehlungen basierend auf den Inhalten des Warenkorbs des Benutzers. | <ul><li>Personen, die diese ansahen, sahen auch</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
+| [!UICONTROL Warenkorbbasiert] | Machen Sie Empfehlungen basierend auf den Inhalten des Warenkorbs des Benutzers. | <ul><li>Personen, die diese ansahen, sahen diese an</li><li>Personen, die diese ansahen, kauften diese</li><li>Personen, die diese kauften, kauften diese</li></ul> |
 | [!UICONTROL Popularitätsbasiert] | Machen Sie Empfehlungen basierend auf der allgemeinen Beliebtheit eines Artikels auf Ihrer Site oder auf der Beliebtheit von Artikeln in der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers. | <ul><li>Am häufigsten angezeigt auf der gesamten Site</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten nach Elementattribut angezeigt</li><li>Topverkäufe auf der gesamten Site</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Elementattribut</li><li>Top nach Analytics-Metrik</li></ul> |
 | [!UICONTROL Artikelbasiert] | Empfehlungen aussprechen, die darauf basieren, ähnliche Artikel wie ein Artikel zu finden, den der Benutzer gerade ansieht oder kürzlich angesehen hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
 | [!UICONTROL Benutzerbasiert] | Empfehlungen basierend auf dem Benutzerverhalten erstellen. | <ul><li>Vor Kurzem aufgerufene Artikel </li><li>Empfohlen für Sie</li></ul> |
@@ -34,7 +34,7 @@ Verschiedene Empfehlungsalgorithmen eignen sich für die Platzierung auf verschi
 
 ## Warenkorbbasiert {#cart-based}
 
-Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über [Mbox-Parameter `cartIds`](https://experienceleague.corp.adobe.com/de/docs/target-dev/developer/recommendations.html){target=_blank} in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
+Die [!UICONTROL Warenkorbbasiert] Algorithmustyp ermöglicht die Empfehlung von Artikeln, die auf dem Inhalt des aktuellen Warenkorbs des Besuchers basieren. Die Empfehlungsschlüssel werden über [Mbox-Parameter `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} in kommagetrennten Werten. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohlen für Sie]&quot;benutzerbasierter Algorithmus und zum &quot;[!UICONTROL Personen, die diese ansahen, kauften diese]&quot; und &quot;[!UICONTROL Personen, die diese kauften, kauften diese]&quot;artikelbasierte Algorithmen.
 
@@ -42,13 +42,13 @@ Die auf dem Warenkorb basierende Empfehlungslogik ähnelt der[!UICONTROL Empfohl
 
 [!DNL Target] Außerdem können Marketing-Experten das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend betrachten:
 
-* **[!UICONTROL Einzelsitzung]**: Auf Grundlage dessen, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
+* **[!UICONTROL Einzelsitzung]**: Basierend darauf, was andere Besucher innerhalb einer einzelnen Sitzung unternommen haben.
 
-   Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
+  Wenn Sie sich das Verhalten innerhalb einer einzelnen Sitzung ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte sich stark auf der Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses &quot;verbinden&quot;. Beispielsweise kauft ein Besucher einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und benötigt möglicherweise auch Brot und Gelee.
 
-* **[!UICONTROL Sitzungsübergreifend]**: Auf Grundlage dessen, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
+* **[!UICONTROL Sitzungsübergreifend]**: Basierend darauf, was andere Besucher über mehrere Sitzungen hinweg unternommen haben.
 
-   Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
+  Wenn Sie sich das Verhalten über mehrere Sitzungen hinweg ansehen, kann es sinnvoll sein, wenn es den Eindruck gibt, dass Produkte stark aufeinander abgestimmt sind, basierend auf der Präferenz oder dem Geschmack des Besuchers. Zum Beispiel mag ein Besucher Star Wars und vielleicht auch Indiana Jones, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel &quot;Codenames&quot; und könnte auch das Brettspiel &quot;Avalon&quot;, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
 
 [!DNL Target] gibt Empfehlungen für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb heraus, unabhängig davon, ob Sie sich das Besucherverhalten innerhalb einer einzelnen Sitzung oder sitzungsübergreifend ansehen.
 
@@ -58,7 +58,7 @@ Die folgenden Algorithmen sind mit der Variablen [!UICONTROL Warenkorbbasiert] A
 
 Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
 
-Diese Logik gibt andere Produkte zurück, die von Benutzern nach Ansicht dieses Objekts angesehen wurden. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die von Personen nach der Anzeige dieses Produkts angesehen wurden. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
 Mit dieser Logik können Sie zusätzliche Konversionsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die auch andere Besucher angezeigt haben, die einen Artikel angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site sehen, können sich auch Fahrradhelme, Fahrradkits, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die vorschlägt, dass andere Produkte Ihnen bei der Umsatzsteigerung helfen.
 
@@ -73,9 +73,9 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Produktseite anzeigen, die beispielsweise Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher beispielsweise einen Angelpol anzeigt, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Kästen, Gewässer und Fischköpfe. Wenn Besucher Ihre Site besuchen, erhalten sie zusätzliche Kaufempfehlungen.
+Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Produktseite anzeigen, die beispielsweise Artikel anzeigt, die andere Besucher, die den Artikel angesehen haben, gekauft haben. Wenn der Besucher beispielsweise einen Angelpol anzeigt, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Kästen, Gewässer und Fischköpfe. Wenn Besucher Ihre Site besuchen, erhalten sie zusätzliche Kaufempfehlungen.
 
 Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
 
@@ -88,7 +88,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
 Mit dieser Logik können Sie die Verkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Warenkorbübersichtsseite anzeigen, auf der beispielsweise Artikel angezeigt werden, die auch von anderen Käufern gekauft wurden. Wenn der Besucher z. B. einen Anzug kauft, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher zusammen mit dem Anzug gekauft haben, wie z. B. Krawatten, Kleiderschuhe und Links. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Empfehlungen.
 
@@ -113,7 +113,7 @@ Die Empfehlung wird durch den Artikel bestimmt, der am häufigsten angezeigt wur
 * 5 Punkte für alle folgenden Ansichten
 * Am Ende der Sitzung alle Werte durch 2 teilen
 
-Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu folgendem Ergebnis: A: 10 und B: 5. Wenn die Sitzung beendet wird, haben Sie A: 5, B: 2.5. Wenn Sie dieselben Elemente in der nächsten Sitzung anzeigen, ändern sich die Werte in A: 15 B: 7.5.
+Beispiel: Die Anzeige von Surfbrett A und Surfbrett B in einer Sitzung führt zu folgendem Ergebnis: A: 10 und B: 5. Wenn die Sitzung beendet wird, haben Sie A: 5, B: 2,5. Wenn Sie dieselben Elemente in der nächsten Sitzung anzeigen, ändern sich die Werte in A: 15 B: 7,5.
 
 Verwenden Sie diesen Algorithmus auf allgemeinen Seiten, wie z. B. Startseiten, Landingpages und Offsite-Anzeigen.
 
@@ -184,7 +184,7 @@ Die folgenden Algorithmen sind mit der Variablen [!UICONTROL Artikelbasiert] Alg
 
 Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
 
-Diese Logik gibt andere Produkte zurück, die von Benutzern nach Ansicht dieses Objekts angesehen wurden. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die von Personen nach der Anzeige dieses Produkts angesehen wurden. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
 Mit dieser Logik können Sie zusätzliche Konversionsmöglichkeiten erstellen, indem Sie Artikel empfehlen, die auch andere Besucher angezeigt haben, die einen Artikel angesehen haben. Besucher, die beispielsweise Fahrräder auf Ihrer Site sehen, können sich auch Fahrradhelme, Fahrradkits, Schlösser usw. ansehen. Sie können eine Empfehlung mit dieser Logik erstellen, die vorschlägt, dass andere Produkte Ihnen bei der Umsatzsteigerung helfen.
 
@@ -199,9 +199,9 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird. Dieses Kriterium gibt andere Produkte zurück, die Personen nach dem Ansehen dieses Artikels gekauft haben. Das angegebene Produkt ist nicht in der Ergebnismenge enthalten.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die Kunden nach Ansicht dieses Produkts gekauft haben. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
-Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Produktseite anzeigen, die beispielsweise Artikel anzeigt, die andere Besucher gekauft haben. Wenn der Besucher beispielsweise einen Angelpol anzeigt, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Kästen, Gewässer und Fischköpfe. Wenn Besucher Ihre Site besuchen, erhalten sie zusätzliche Kaufempfehlungen.
+Mit dieser Logik können Sie Querverkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Produktseite anzeigen, die beispielsweise Artikel anzeigt, die andere Besucher, die den Artikel angesehen haben, gekauft haben. Wenn der Besucher beispielsweise einen Angelpol anzeigt, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher gekauft haben, wie z. B. Kästen, Gewässer und Fischköpfe. Wenn Besucher Ihre Site besuchen, erhalten sie zusätzliche Kaufempfehlungen.
 
 Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendations-Schlüssel auswählen:
 
@@ -214,7 +214,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 Empfiehlt Artikel, die am häufigsten von Kunden zur selben Zeit gekauft werden, wie der angegebene Artikel.
 
-Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. das angegebene Produkt nicht in der Ergebnismenge enthalten ist.
+Diese Logik gibt andere Produkte zurück, die Kunden nach dem Kauf dieses Produkts gekauft haben. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
 Mit dieser Logik können Sie die Verkaufsmöglichkeiten erhöhen, indem Sie eine Empfehlung auf einer Warenkorbübersichtsseite anzeigen, auf der beispielsweise Artikel angezeigt werden, die auch von anderen Käufern gekauft wurden. Wenn der Besucher z. B. einen Anzug kauft, kann die Empfehlung zusätzliche Artikel anzeigen, die andere Besucher zusammen mit dem Anzug gekauft haben, wie z. B. Krawatten, Kleiderschuhe und Links. Wenn Besucher ihre Käufe überprüfen, geben Sie ihnen zusätzliche Empfehlungen.
 
@@ -240,7 +240,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 * Zuletzt angezeigter Artikel
 * Am häufigsten angezeigter Artikel
 
-Weitere Informationen finden Sie unter [Ähnlichkeit von Inhalten](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Weitere Informationen finden Sie unter [Inhaltsähnlichkeit](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 ## [!UICONTROL Benutzerbasiert]
 
@@ -258,10 +258,10 @@ Der Algorithmus &quot;Kürzlich angezeigte Elemente&quot;gibt Ergebnisse zurück
 >
 >Sie können die [!UICONTROL Vor Kurzem aufgerufene Artikel] Kriterien für Reserveempfehlungen.
 
-„Kürzlich angezeigte Elemente/Medien“ kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
+[!UICONTROL Vor Kurzem aufgerufene Artikel]/Media kann so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
 
 * Kürzlich angesehene Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
-* Sie können [Sammlungen](/help/main/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/main/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.
+* Sie können [Sammlungen](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), und [include](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der Sonderregeln für &quot;Preis&quot;und &quot;Bestand&quot;) auf die gleiche Weise wie alle anderen Kriterien.
 
 Mögliche Anwendungsfälle sind beispielsweise, dass ein multinationales Unternehmen mit mehreren Unternehmen über mehrere digitale Eigenschaften hinweg über Elemente für die Besucheransicht verfügt. In diesem Fall können Sie die kürzlich angezeigten Elemente so begrenzen, dass nur die entsprechende Eigenschaft angezeigt wird, wo sie angezeigt wurden. Dadurch wird verhindert, dass kürzlich angezeigte Elemente auf der Site einer anderen digitalen Eigenschaft angezeigt werden.
 
@@ -308,7 +308,7 @@ Diese Funktion bedeutet, dass Sie [!DNL Target] , um zusätzlich zu Ihren offlin
 Wenn benutzerdefinierten Kriterien Einschlussregeln hinzugefügt werden, wandelt dies auf der Grundlage eines Besuchers andernfalls statische Empfehlungen in dynamische Empfehlungen um.
 
 * Benutzerdefinierte Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
-* Sie können [Sammlungen](/help/main/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/main/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der speziellen Regeln für „Preis“ und „Bestand“) können auf die gleiche Weise wie alle anderen Kriterien genutzt werden.
+* Sie können [Sammlungen](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), und [include](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der Sonderregeln für &quot;Preis&quot;und &quot;Bestand&quot;) auf die gleiche Weise wie alle anderen Kriterien.
 
 Mögliche Nutzungsszenarien:
 
@@ -318,7 +318,7 @@ Mögliche Nutzungsszenarien:
 
 ## Empfehlungsschlüssel {#keys}
 
-Die folgenden Empfehlungsschlüssel sind im [!UICONTROL Empfehlungsschlüssel] Dropdown-Liste:
+Die folgenden Empfehlungsschlüssel sind im [!UICONTROL Empfehlungsschlüssel] Dropdownliste:
 
 ### Aktueller Artikel {#current-item}
 
@@ -360,8 +360,8 @@ Verwenden Sie die [!UICONTROL Zuletzt gekaufter Artikel] Empfehlungsschlüssel a
 
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** Dropdown-Liste (z. B. &quot;Zuletzt zur Watchlist hinzugefügt&quot;).
-1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. „Personen, die das ansahen, sahen auch dies an“).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** Dropdownliste (z. B. &quot;Zuletzt zur Watchlist hinzugefügt&quot;).
+1. Wählen Sie dann **[!UICONTROL Empfehlungslogik]** (z. B. &quot;Personen, die das ansahen, sahen auch dies an&quot;).
 
    ![Neues Kriteriendialogfeld erstellen](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -369,7 +369,7 @@ Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID 
 
 1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus dem **[!UICONTROL Empfehlungsschlüssel]** Dropdownliste (z. B. &quot;Lieblingsmarke&quot;).
 
-1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]**, die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe“).
+1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]** Sie möchten mit diesem Schlüssel verwenden (z. B. &quot;Topverkäufe&quot;).
 
    Die Option [!UICONTROL Gruppieren nach individuellem Wert] wird angezeigt.
 
@@ -446,7 +446,7 @@ Verwenden Sie die [!UICONTROL Aktuelle Kategorie] Empfehlungsschlüssel auf Ihre
 
 ### Site-Affinität {#site-affinity}
 
-Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwischen Artikeln. Sie können dieses Kriterium anhand des Reglers „Einschlussregeln“ konfigurieren und festlegen, wie viele Daten gesammelt werden sollen, bevor eine Empfehlung angezeigt wird. Wenn Sie zum Beispiel Sehr stark auswählen, werden nur Produkte mit der höchsten Wahrscheinlichkeit einer Übereinstimmung empfohlen.
+Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwischen Artikeln. Sie können dieses Kriterium anhand des Reglers „Einschlussregeln“ konfigurieren und festlegen, wie viele Daten gesammelt werden sollen, bevor eine Empfehlung angezeigt wird. Wenn Sie beispielsweise Sehr stark auswählen, werden die Produkte mit der höchsten Wahrscheinlichkeit einer Übereinstimmung empfohlen.
 
 Beispiel: Sie legen eine sehr starke Affinität fest und Ihr Entwurf umfasst fünf Artikel, von denen drei den Schwellenwert für einen wahrscheinlichen Zusammenhang übersteigen. Die zwei Artikel, die die Voraussetzung nicht erfüllen, werden nicht in Ihren Empfehlungen angezeigt und durch von Ihnen definierte Ersatzartikel ausgetauscht. Die Artikel mit der stärksten Affinität werden zuerst angezeigt.
 

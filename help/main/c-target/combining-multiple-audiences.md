@@ -4,20 +4,20 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 65%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
 # Kombinieren mehrerer Zielgruppen
 
-Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]und [!DNL Target] Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
+Kombinieren mehrerer Zielgruppen (einschließlich [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform], und [!DNL Target] Zielgruppen) ohne Zwischenschritte zur Erstellung von Ad-hoc-Zielgruppen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben.
+>Die [!DNL Adobe Experience Platform] -Quelle für alle [!DNL Target] -Kunden, die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. In der [!DNL Adobe Experience Platform] kann unverändert oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema beschrieben.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -37,19 +37,19 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
    ![Schrittergebnis](assets/edit_audience.png)
 
-1. Aktivieren Sie auf der Seite **[!UICONTROL Zielgruppe auswählen]** diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
+1. Aktivieren Sie auf der Seite **[!UICONTROL Zielgruppe auswählen]** diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Bausteine der kombinierten Zielgruppe dienen sollen.
 
    Verwenden Sie die [!UICONTROL Zielgruppen durchsuchen] zum Eingrenzen der Suche nach der gewünschten Zielgruppe.
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
-1. Klicken **[!UICONTROL Kombinieren mehrerer Zielgruppen]** in der oberen rechten Ecke.
+1. Klicks **[!UICONTROL Kombinieren mehrerer Zielgruppen]** in der oberen rechten Ecke.
 
    ![Schrittergebnis](assets/combine_multiple_audiences2.png)
 
 1. (Bedingt) Bearbeiten Sie die neue kombinierte Zielgruppe nach Wunsch.
 
-   Im Dialogfeld [!UICONTROL Zielgruppe bearbeiten] können Sie weitere Bausteine für Zielgruppen von links in die neue kombinierte Zielgruppe ziehen. Sie können auch Ausschlussregeln hinzufügen und Zielgruppen ausschließen.
+   Die [!UICONTROL Zielgruppe bearbeiten] im Dialogfeld können Sie weitere Bausteine für Zielgruppen von der linken Seite in die neue kombinierte Zielgruppe ziehen. Sie können auch Ausschlussregeln hinzufügen und Zielgruppen ausschließen.
 
    1. Verwenden Sie Drag &amp; Drop-Funktionen, um Zielgruppen in einem vorhandenen Bereich als Baustein der Stufe 2 hinzuzufügen.
 
@@ -69,7 +69,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
       Ziehen Sie eine Zielgruppe in den Arbeitsbereich.
 
-      Um beispielsweise Besucher aus den USA aus neuen Besuchern auszuschließen, können Sie den Markt ziehen: US-Zielgruppe in die Box.
+      Um beispielsweise Besucher aus den USA aus neuen Besuchern auszuschließen, können Sie die Zielgruppe &quot;Markt: USA&quot;in das Feld ziehen.
 
       Diese kombinierte Zielgruppe enthält alle neuen Besucher Ihrer Site (außer denen aus San Francisco), die Safari oder Firefox verwenden.
 
@@ -83,7 +83,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verwenden möchten, auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen. So erstellen Sie beispielsweise ein Targeting basierend auf Konversionen mithilfe einer kombinierten Zielgruppe:
 
-1. Wählen Sie beim Bearbeiten oder Erstellen einer [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele &amp; Einstellungen]** **[!UICONTROL Konversion]** für die Erfolgsmetrik aus und wählen Sie anschließend **[!UICONTROL Mbox angezeigt]** als Aktion aus.
+1. Beim Bearbeiten oder Erstellen einer [activity](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)auf **[!UICONTROL Ziele und Einstellungen]** Seite, auswählen **[!UICONTROL Konversion]** für die Erfolgsmetrik und wählen Sie dann **[!UICONTROL Anzeigen einer Mbox]** als Aktion.
 1. Wählen Sie die gewünschte Mbox aus dem Feld **[!UICONTROL Mbox suchen]** aus.
 
    ![Bild &quot;kombinieren_multiple_audiences4&quot;](assets/combine_multiple_audiences4.png)
@@ -99,7 +99,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verw
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen, um sie für Berichterstellungen zu nutzen.
 
-1. Klicken Sie beim Bearbeiten oder Erstellen einer [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele &amp; Einstellungen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** unter [!UICONTROL Zielgruppen für Berichterstellung], um die Seite [!UICONTROL Zielgruppe auswählen] anzuzeigen.
+1. Beim Bearbeiten oder Erstellen einer [activity](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)auf **[!UICONTROL Ziele und Einstellungen]** klicken Sie auf die **[!UICONTROL Zielgruppe hinzufügen]** Symbol unter [!UICONTROL Zielgruppen für Berichterstellung] , um [!UICONTROL Zielgruppe auswählen] Seite.
 
    ![collect_multiple_audiences6-Bild](assets/combine_multiple_audiences6.png)
 
