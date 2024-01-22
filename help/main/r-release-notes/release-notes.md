@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -19,23 +19,28 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.11.1 (13. und 14. November 2023)
+## Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)
 
-Diese Version ist für die folgenden Tage geplant:
+| Einstellung der Unterstützung | Details |
+|--- |--- |
+| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.<p>Beispiele für alternative Einstellungen finden Sie unter [Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
-* **13. November**: Region Asien-Pazifik (APAC)
-* **14. November**: Amerikanische Region
-* **14. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
+## [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
+
+Die Veröffentlichung dieser Version ist für die folgenden Tage geplant:
+
+* **22. Januar**: Region Europa, Naher Osten und Afrika (EMEA)
+* **23. Januar**: Region Asien-Pazifik (APAC)
+* **25. Januar**: Region Nord- und Südamerika
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Die Funktion [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) wurde verbessert, um das [Deaktivieren doppelter Angebote](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) für Erlebnisse in Aktivitäten des Typs [!UICONTROL Automated Personalization] zu unterstützen. (TGT-46627)
-* Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, damit Kundinnen und Kunden verstehen können, warum in Aktivitätsberichten möglicherweise keine Daten verfügbar sind, wenn dem Kontrollerlebnis kein Traffic zugeordnet ist. Ein Link zu weiteren Informationen ist in der QuickInfo enthalten: [Warum stehen für meinen Aktivitätsbericht keine Daten zur Verfügung?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Es wurde ein Fehler behoben, der verhinderte, dass für einige Kundinnen und Kunden Aktivitäten auf der Seite [!UICONTROL Aktivitäten] richtig angezeigt wurden. (TGT-46830)
-* Es wurden folgende Probleme behoben, die sich auf Aktivitäten auswirkten, die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als Berichtsquelle verwenden:
-   * Es wurde ein Problem behoben, das manche Kundinnen und Kunden daran hinderte, Berichtsdaten anzuzeigen. (TGT-46557)
-   * Es wurde ein Problem behoben, durch das manchmal der Link [!UICONTROL In Analytics anzeigen] auf Seiten mit Aktivitätsberichten nicht ordnungsgemäß funktionierte. (TGT-46731)
-   * Es wurde ein Problem behoben, durch das Daten für [!UICONTROL Steigerung] und [!UICONTROL Konfidenz] in der Benutzeroberfläche von [!DNL Target] nicht richtig angezeigt wurden. (TGT-46592, TGT-46554 und TGT-46586)
+* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht &quot;Umsatz&quot;an, da der Spaltenname und die Umsatzmetrik nicht im ($)-Format in der Berichterstellung angezeigt wurden. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
+* Ein Problem mit nicht ordnungsgemäßer Berichtsdatierung wurde behoben. (TGT-47396)
+* Ein Problem mit der falschen Statusanzeige auf der Seite [!UICONTROL Alle Aktivitäten] nach Aktivierung oder Deaktivierung einer Aktivität über das Symbol [!UICONTROL Mehr Aktionen] wurde behoben. (TGT-47367)
+* Es wurde ein Fehler behoben, der dazu führte, dass [!UICONTROL Wichtige Attribute] nicht für einen einzelnen Kunden angezeigt werden. (TGT-47272)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Meldung &quot;Ungültige Payload&quot;angezeigt wurde, wenn ein einzelner Kunde versuchte, &quot;Authentifizierung erforderlich&quot;zu aktivieren. (TGT-47195)
+* Verschiedene lokalisierte Zeichenfolgen in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

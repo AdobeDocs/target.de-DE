@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 * Opera
 * iPad  
 * iPhone
+
+>[!IMPORTANT]
+>
+>Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Browser] Typ Dropdown-Liste beim Erstellen von Kategorien für Zielgruppen. Informationen zu Umgehungseinstellungen finden Sie unter [Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)](#deprecation) unten.
 
 Es gibt zwei Möglichkeiten, Browser auszurichten:
 
@@ -126,3 +130,90 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Festlegen von Zielgruppenkategorien
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024) {#deprecation}
+
+[!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzer, die beim Besuch Ihrer Seite bestimmte Browser- oder Browseroptionen verwenden.
+
+Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Browser] Typ Dropdown-Liste beim Erstellen von Kategorien für Zielgruppen.
+
+Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.
+
+Die folgenden Einstellungen können in Zukunft verwendet werden:
+
+* **Für Browserübereinstimmungen[!DNL Apple]**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **Für Browser-Matches**: [!UICONTROL Mobilnummer] > [!UICONTROL Tablette] > [!UICONTROL true]
+
+  ![Mobil ist Tablet](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **Für Browser stimmt iPad überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPad] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **Für Browser stimmt iPhone überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätemarketingname] [!UICONTROL matches] [!DNL iPhone] mit einem Und-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. B. wenn Bedingungen negiert werden. Beispiele für negierte Bedingungen könnten wie folgt aussehen:
+
+* **Für Browser stimmt iPhone nicht überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Mobiltelefon] is [!UICONTROL false]
+
+  ![Nicht Mobiltelefon](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **Für Browser stimmt iPad nicht überein**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL stimmt nicht überein mit] [!UICONTROL Apple] mit einem ODER-Container mit [!UICONTROL Mobilnummer] > [!UICONTROL Ist Tablet] is [!UICONTROL false].
+
+  ![Nicht Tablette](/help/main/r-release-notes/assets/tablet-false.png)
+
+Wenn Sie `user.browserType` In JavaScript-Segmenten sollten die folgenden Änderungen vorgenommen werden:
+
+>[!NOTE]
+>
+>Die folgenden Ergänzungen sollen am 24. Januar 2024 veröffentlicht werden. Diese Ergänzungen ermöglichen die folgenden Änderungen:
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType ist iPhone**:
+
+  Ersetzen:
+
+  `user.browserType=="iphone"`
+
+  Mit:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType ist nicht iPhone**:
+
+  Ersetzen:
+
+  `user.browserType!="iphone"`
+
+  Mit:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType ist iPad**:
+
+  Ersetzen:
+
+  `user.browserType=="ipad"`
+
+  Mit:
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType ist nicht iPad**:
+
+  Ersetzen:
+
+  `user.browserType!="ipad"`
+
+  Mit:
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`

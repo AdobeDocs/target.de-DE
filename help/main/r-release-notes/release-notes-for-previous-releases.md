@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '38027'
+source-wordcount: '38230'
 ht-degree: 95%
 
 ---
@@ -22,6 +22,24 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2023
+
+### [!DNL Target] Standard/Premium 23.11.1 (13. und 14. November 2023)
+
+Diese Version ist für die folgenden Tage geplant:
+
+* **13. November**: Region Asien-Pazifik (APAC)
+* **14. November**: Amerikanische Region
+* **14. Oktober**: Region Europa, Naher Osten und Afrika (EMEA)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Die Funktion [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) wurde verbessert, um das [Deaktivieren doppelter Angebote](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) für Erlebnisse in Aktivitäten des Typs [!UICONTROL Automated Personalization] zu unterstützen. (TGT-46627)
+* Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, damit Kundinnen und Kunden verstehen können, warum in Aktivitätsberichten möglicherweise keine Daten verfügbar sind, wenn dem Kontrollerlebnis kein Traffic zugeordnet ist. Ein Link zu weiteren Informationen ist in der QuickInfo enthalten: [Warum stehen für meinen Aktivitätsbericht keine Daten zur Verfügung?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* Es wurde ein Fehler behoben, der verhinderte, dass für einige Kundinnen und Kunden Aktivitäten auf der Seite [!UICONTROL Aktivitäten] richtig angezeigt wurden. (TGT-46830)
+* Es wurden folgende Probleme behoben, die sich auf Aktivitäten auswirkten, die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als Berichtsquelle verwenden:
+   * Es wurde ein Problem behoben, das manche Kundinnen und Kunden daran hinderte, Berichtsdaten anzuzeigen. (TGT-46557)
+   * Es wurde ein Problem behoben, durch das manchmal der Link [!UICONTROL In Analytics anzeigen] auf Seiten mit Aktivitätsberichten nicht ordnungsgemäß funktionierte. (TGT-46731)
+   * Es wurde ein Problem behoben, durch das Daten für [!UICONTROL Steigerung] und [!UICONTROL Konfidenz] in der Benutzeroberfläche von [!DNL Target] nicht richtig angezeigt wurden. (TGT-46592, TGT-46554 und TGT-46586)
 
 ### Aktualisierung der Seite [!UICONTROL Aktivitäten] in der Benutzeroberfläche (25. Oktober 2023)
 
