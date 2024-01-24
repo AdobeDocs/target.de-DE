@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 97%
+source-wordcount: '1237'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 24. Januar | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.4 hinzugefügt. |
+|  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde angekündigt, dass die beiden neuen Profile noch nicht verfügbar sind. Diese Hinweise werden aktualisiert, sobald diese Profile verfügbar sind. |
 | 22. Januar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden wichtige Informationen zur Einstellung von iPad und iPhone aus dem [!UICONTROL Browser] Zielgruppenattribut, das vor dem 30. April 2024 von Ihrer Seite geändert werden muss. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde ein neuer Abschnitt hinzugefügt: <ul><li>Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 24.1.1 von [!DNL Target Standard/Premium] hinzugefügt. |

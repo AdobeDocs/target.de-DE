@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Br
 
 Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.
 
+### Zielgruppen, die mithilfe der [!DNL Target] Benutzeroberfläche
+
 Die folgenden Einstellungen können in Zukunft verwendet werden:
 
 * **Für Browserübereinstimmungen[!DNL Apple]**: [!UICONTROL Mobilnummer] > [!UICONTROL Gerätehersteller] [!UICONTROL matches] [!DNL Apple]
@@ -167,16 +169,19 @@ Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. 
 
   ![Nicht Tablette](/help/main/r-release-notes/assets/tablet-false.png)
 
-Wenn Sie `user.browserType` In JavaScript-Segmenten sollten die folgenden Änderungen vorgenommen werden:
+### Mit Profilskripten erstellte Zielgruppen
+
+Wenn Sie `user.browserType` in JavaScript-Segmenten, wie unter [Glossar zu Profil und Variablen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), sollten Änderungen Folgendes umfassen:
 
 >[!NOTE]
 >
->Die folgenden Ergänzungen sollen am 24. Januar 2024 veröffentlicht werden. Diese Ergänzungen ermöglichen die folgenden Änderungen:
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>Die folgenden Profile sollen ab dem 24. Januar 2024 in den nächsten Tagen veröffentlicht werden. Die [Aktuelle Versionshinweise](/help/main/r-release-notes/release-notes.md) werden aktualisiert, sobald diese Profile verfügbar sind.
 
+Diese Profile ermöglichen die folgenden Änderungen:
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType ist iPhone**:
 
