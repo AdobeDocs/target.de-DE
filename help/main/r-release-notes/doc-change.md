@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | --- | --- | --- |
 | 24. Januar | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.4 hinzugefügt. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde angekündigt, dass die beiden neuen Profile noch nicht verfügbar sind. Diese Hinweise werden aktualisiert, sobald diese Profile verfügbar sind. |
-|  | [Häufig gestellte Fragen zu &quot;at.js&quot;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Es wurden häufig gestellte Fragen zu at.js in einer Ionic App-Umgebung hinzugefügt. Diese Implementierung wird weder getestet noch empfohlen. |
-| 22. Januar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden wichtige Informationen zur Einstellung von iPad und iPhone aus dem [!UICONTROL Browser] Zielgruppenattribut, das vor dem 30. April 2024 von Ihrer Seite geändert werden muss. |
+|  | [Häufig gestellte Fragen zu „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=de){target=_blank} | Es wurden häufig gestellte Fragen zu „at.js“ in einer Ionic App-Umgebung hinzugefügt. Diese Implementierung wurde weder getestet, noch wird sie empfohlen. |
+| 22. Januar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden wichtige Informationen zur Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut [!UICONTROL Browser] hinzugefügt, wofür vor dem 30. April 2024 Änderungen von Ihrer Seite nötigt sind. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde ein neuer Abschnitt hinzugefügt: <ul><li>Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)</li></ul> |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 24.1.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
