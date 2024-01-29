@@ -7,9 +7,9 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 | Einstellung der Unterstützung | Details |
 |--- |--- |
-| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.<p>Beispiele für alternative Einstellungen finden Sie unter [Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.<p>Beispiele für alternative Einstellungen finden Sie unter [Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
 
@@ -35,11 +35,11 @@ Die Veröffentlichung dieser Version ist für die folgenden Tage geplant:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht &quot;Umsatz&quot;an, da der Spaltenname und die Umsatzmetrik nicht im ($)-Format in der Berichterstellung angezeigt wurden. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
+* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht „Umsatz“ als Spaltennamen an und die Umsatzmetrik wurde im Reporting nicht im ($)-Format angezeigt. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
 * Ein Problem mit nicht ordnungsgemäßer Berichtsdatierung wurde behoben. (TGT-47396)
 * Ein Problem mit der falschen Statusanzeige auf der Seite [!UICONTROL Alle Aktivitäten] nach Aktivierung oder Deaktivierung einer Aktivität über das Symbol [!UICONTROL Mehr Aktionen] wurde behoben. (TGT-47367)
-* Es wurde ein Fehler behoben, der dazu führte, dass [!UICONTROL Wichtige Attribute] nicht für einen einzelnen Kunden angezeigt werden. (TGT-47272)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Meldung &quot;Ungültige Payload&quot;angezeigt wurde, wenn ein einzelner Kunde versuchte, &quot;Authentifizierung erforderlich&quot;zu aktivieren. (TGT-47195)
+* Ein Fehler, bei dem der Bericht [!UICONTROL Wichtige Attribute] nicht angezeigt wurde, wurde behoben. (TGT-47272)
+* Ein Fehler, bei dem beim Versuch, die Option „Authentifizierung erfordern“ zu aktivieren, die Meldung „Ungültige Payload“ angezeigt wurde, wurde behoben. (TGT-47195)
 * Verschiedene lokalisierte Zeichenfolgen in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
