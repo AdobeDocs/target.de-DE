@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 
 [!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzer, die beim Besuch Ihrer Seite bestimmte Browser- oder Browseroptionen verwenden.
 
-Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Browser] Typ Dropdown-Liste beim Erstellen von Kategorien für Zielgruppen.
+Ab dem 30. April 2024 werden iPad und iPhone aus der verfügbaren [!UICONTROL Browser] Typ-Dropdown-Liste in der [!DNL Target] Benutzeroberfläche beim Erstellen von Kategorien für Zielgruppen.
 
-Integrierte Zielgruppen wie &quot;Browser: iPad&quot;und &quot;Browser: iPhone&quot;werden automatisch in die neue Zielgruppendefinition verschoben. Alle Profilskripte, die &quot;user.browserType&quot;verwenden, *not* automatisch aktualisiert werden: Wenn Sie sie nicht manuell aktualisieren, erfolgt die Benutzerqualifizierung möglicherweise nicht wie erwartet.
+Integrierte Zielgruppen, die mithilfe der [!DNL Target] Die Benutzeroberfläche wie &quot;Browser: iPad&quot;und &quot;Browser: iPhone&quot;wird automatisch in die neue Zielgruppendefinition verschoben. In Zukunft sollten Sie jedoch die Einstellungen [unten beschrieben](#ui).
 
-Wenn Sie Zielgruppen haben, die iPads oder iPhones mit der [!UICONTROL Browser] -Attribut ändern, sollten Sie diese Einstellungen vor dem 30. April 2024 ändern, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
+Wenn Sie `user.browserType` in Profilskripten, um zu überprüfen, ob es sich um eine iPhone oder iPad handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte geändert werden als [unten angewiesen](#profile-scripts) vor dem 30. April 2024, um sicherzustellen, dass diese Zielgruppen weiterhin erwartungsgemäß funktionieren.
 
-### Zielgruppen, die mithilfe der [!DNL Target] Benutzeroberfläche
+### Zielgruppen, die mithilfe der [!DNL Target] Benutzeroberfläche {#ui}
 
 Die folgenden Einstellungen können in Zukunft verwendet werden:
 
@@ -171,7 +171,7 @@ Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. 
 
   ![Nicht Tablette](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Mit Profilskripten erstellte Zielgruppen
+### Mit Profilskripten erstellte Zielgruppen {#profile-scripts}
 
 Wenn Sie `user.browserType` in Zielgruppen, die Profilskripte verwenden, wie hier beschrieben: [Glossar zu Profil und Variablen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), sollten Änderungen Folgendes umfassen:
 
