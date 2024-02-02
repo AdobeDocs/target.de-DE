@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ Integrierte Zielgruppen, die mithilfe der [!DNL Target] Die Benutzeroberfläche 
 
 Wenn Sie `user.browserType` in Profilskripten, um zu überprüfen, ob es sich um eine iPhone oder iPad handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte geändert werden als [unten angewiesen](#profile-scripts) vor dem 30. April 2024, um sicherzustellen, dass diese Zielgruppen weiterhin erwartungsgemäß funktionieren.
 
+Bei JavaScript-Zielgruppen, die Profilskripte verwenden, handelt es sich um veraltete Zielgruppen, die mit der [!DNL Target Classic] Benutzeroberfläche. Diese Zielgruppen können nur über API geändert werden. Kunden müssen diese Zielgruppen nur aktualisieren, wenn sie ältere Zielgruppen in Aktivitäten in den neuen verwenden [!DNL Target Standard/Premium] Benutzeroberfläche.
+
 ### Zielgruppen, die mithilfe der [!DNL Target] Benutzeroberfläche {#ui}
 
 Die folgenden Einstellungen können in Zukunft verwendet werden:
@@ -173,11 +175,11 @@ Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. 
 
 ### Mit Profilskripten erstellte Zielgruppen {#profile-scripts}
 
-Wenn Sie `user.browserType` in Zielgruppen, die Profilskripte verwenden, wie hier beschrieben: [Glossar zu Profil und Variablen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), sollten Änderungen Folgendes umfassen:
+Wenn Sie `user.browserType` in älteren Versionen [!DNL Target Classic] Zielgruppen, die Profilskripte verwenden, wie hier beschrieben: [Glossar zu Profil und Variablen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), sollten Änderungen Folgendes umfassen:
 
 >[!NOTE]
 >
->Die folgenden Profile sollen ab dem 24. Januar 2024 in den nächsten Tagen veröffentlicht werden. Die [Aktuelle Versionshinweise](/help/main/r-release-notes/release-notes.md) werden aktualisiert, sobald diese Profile verfügbar sind.
+>Die folgenden Profile sollen ab dem 24. Januar 2024 in den nächsten Wochen veröffentlicht werden. Die [Aktuelle Versionshinweise](/help/main/r-release-notes/release-notes.md) werden aktualisiert, sobald diese Profile verfügbar sind.
 >
 >Diese Profile ermöglichen die folgenden Änderungen:
 >
