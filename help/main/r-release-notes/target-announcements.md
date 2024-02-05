@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,26 @@ ht-degree: 100%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Webinar-Reihe „Adobe Target 2024 – Personalisierungsreife“
+## Adobe Target Community Q&amp;A Coffee Break
+
+* **Art der möglichen Webinar-Folgefragen (Teil 1 der Personalization Maturity Series)**
+* **Donnerstag, 7. Februar 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Informationen zur Registrierung](https://shorturl.at/gknVY){target=_blank}**
+
++++Details
+
+Mitglied werden [!DNL Adobe Target] Die Experten Brent Kostak, Ryan Roberts und Drew Burns geben Antworten in Echtzeit auf Fragen von Kunden zu während der [Teil 1 der [!DNL Adobe Target] Webinar-Reihe zum Thema &quot;Kunst des Möglichen&quot;](#maturity-series),&quot;wo unsere Experten die folgenden Themen erörterten:
+
+* Verfahren [!DNL Target] Funktion spielt eine strategische Rolle bei der skalierten Personalisierung
+* Häufigste Anwendungsfälle, für die Kunden KI-Funktionen konfigurieren, um sie skaliert durchzuführen
+* Steuerung des maschinellen Lernens zur Aktivierung der KI-gestützten Personalisierung für Ihre spezifischen Ziele
+
+Wenn Sie das ursprüngliche Webinar verpasst haben, [Aufzeichnung abhören](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Webinar-Reihe „Adobe Target 2024 – Personalisierungsreife“ {#maturity-series}
 
 Diese Live-Webinar-Reihe beleuchtet die wichtigsten Funktionen von [!DNL Adobe Target], Anwendungsbeispiele und Tipps zur Nutzung einer KI-gestützten Personalisierung, wenn Kundinnen und Kunden ihre Experimentierungs- und Personalisierungs-Journey mit [!DNL Adobe Experience Platform] erweitern.
 
@@ -34,6 +53,8 @@ Warum Sie teilnehmen sollten:
    * **10:00 bis 11:00 Uhr (PST, GMT-8)**
 
      Im Mittelpunkt der Personalisierungsreife stehen künstliche Intelligenz und maschinelles Lernen. [!DNL Adobe Target] nutzt diese Technologien, um das Benutzerverhalten zu verstehen, Voreinstellungen vorherzusagen und Inhalte dynamisch anzupassen. Indem Sie die Leistungsfähigkeit von KI und ML nutzen, erfahren Sie, wie Marken über statische A/B-Tests und regelbasierte Personalisierung hinausgehen, um dynamische, kontextrelevante Erlebnisse bereitzustellen.
+
+     [Hör dir die Aufnahme an.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Empfehlungen für optimale Ergebnisse**
    * **Dienstag, 13. Februar 2024**
