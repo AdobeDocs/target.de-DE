@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 5. Februar | [Erstellen einer Aktivität mit Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde Text hinzugefügt, der angibt, dass Sie bei Verwendung von [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
+|  | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Es wurde Text hinzugefügt, der angibt, dass Sie bei Verwendung von [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
 | 24. Januar | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.4 hinzugefügt. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde angekündigt, dass die beiden neuen Profile noch nicht verfügbar sind. Diese Hinweise werden aktualisiert, sobald diese Profile verfügbar sind. |
 |  | [Häufig gestellte Fragen zu „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=de){target=_blank} | Es wurden häufig gestellte Fragen zu „at.js“ in einer Ionic App-Umgebung hinzugefügt. Diese Implementierung wurde weder getestet, noch wird sie empfohlen. |

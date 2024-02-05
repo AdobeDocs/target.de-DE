@@ -4,10 +4,10 @@ description: Antworten auf Fragen zur Aktivitätseinrichtung bei der Verwendung 
 title: Wo finde ich häufig gestellte Fragen zu Aktivitätseinstellungen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 14%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 14%
 
 Dieses Thema enthält Antworten auf häufig zur Aktivitätseinrichtung und Verwendung von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T).
 
-## Welche Aktivitätstypen unterstützen Analytics als Berichtsquelle (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## Welche Aktivitätstypen werden unterstützt [!DNL Analytics] als Berichtsquelle (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++Antwort Eine vollständige Liste finden Sie unter &quot;Unterstützte Aktivitätstypen&quot;unter [Adobe Analytics als Berichtsquelle für Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## Kann ich bei der Verwendung von A4T-Berichten denselben Aktivitätsnamen für zwei Aktivitäten aus separaten Arbeitsbereichen verwenden?
+
++++Antwort
+
+Verwenden Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus separaten [Arbeitsbereiche](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) , die A4T-Berichte verwenden.
+
+Auch wenn dies bei Verwendung von [!DNL Target] als Berichtsquelle verwenden, wird die Verwendung desselben Aktivitätsnamens für zwei Aktivitäten nicht unterstützt, wenn [!UICONTROL Analytics for Target] als Berichtsquelle.
 
 +++
 
