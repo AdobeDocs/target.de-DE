@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Zielgruppen erstellen in [!DNL Adobe Target] 
 title: Kann ich Besucher auf Grundlage des Browsertyps ansprechen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ Integrierte Zielgruppen, die mithilfe der [!DNL Target] Die Benutzeroberfläche 
 
 Wenn Sie `user.browserType` in Profilskripten, um zu überprüfen, ob es sich um eine iPhone oder iPad handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte geändert werden als [unten angewiesen](#profile-scripts) vor dem 30. April 2024, um sicherzustellen, dass diese Zielgruppen weiterhin erwartungsgemäß funktionieren.
 
-Bei JavaScript-Zielgruppen, die Profilskripte verwenden, handelt es sich um veraltete Zielgruppen, die mit der [!DNL Target Classic] Benutzeroberfläche. Diese Zielgruppen können nur über API geändert werden. Kunden müssen diese Zielgruppen nur aktualisieren, wenn sie ältere Zielgruppen in Aktivitäten in den neuen verwenden [!DNL Target Standard/Premium] Benutzeroberfläche.
+JavaScript-Zielgruppen sind veraltete Zielgruppen, die Target-Ausdrücke verwenden, die mit dem [!DNL Target Classic] Benutzeroberfläche. Diese Zielgruppen können nur über API geändert werden. Kunden dürfen diese Zielgruppen nur aktualisieren, wenn sie weiterhin ältere Zielgruppen in Aktivitäten verwenden.
 
 ### Zielgruppen, die mithilfe der [!DNL Target] Benutzeroberfläche {#ui}
 
@@ -175,7 +175,7 @@ Es gibt viele weitere mögliche Einstellungen, die verwendet werden können, z. 
 
 ### Mit Profilskripten erstellte Zielgruppen {#profile-scripts}
 
-Wenn Sie `user.browserType` in älteren Versionen [!DNL Target Classic] Zielgruppen, die Profilskripte verwenden, wie hier beschrieben: [Glossar zu Profil und Variablen](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), sollten Änderungen Folgendes umfassen:
+Wenn Sie `user.browserType` in älteren Versionen [!DNL Target Classic] Zielgruppen oder in Profilskripten sollten Änderungen Folgendes umfassen:
 
 >[!NOTE]
 >

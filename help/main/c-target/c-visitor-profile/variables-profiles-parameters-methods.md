@@ -4,10 +4,10 @@ description: Zeigen Sie eine Liste verschiedener Profile, Variablen und Paramete
 title: Welche Profile, Variablen und Parameter werden in verwendet? [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ Diese Seite listet Profile, Variablen und Parameter auf, die in Profilskripten n
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | Der Benutzeragent |
+| user.browserType | Gibt den Browsertyp zurück, z. B. Safari, Chrome usw. |
 | user.header | Alle `user.header`-Profile werden von den Kopfzeilendaten einer Mbox-Anfrage integriert |
 | user.header(&#39;x-forwarded-for&#39;) | Die öffentliche IP-Adresse der Netzwerkverbindung des Besuchers.<br>Sie können dies beispielsweise auf verschiedene Arten erhalten [whatismyip.com](https://www.whatismyip.com/). Die IP-Adresse ist nicht die NAT-Adresse (interne Adresse), die mit 10., 192.168. oder 172 beginnt.<br>Hinweis: user.header(&#39;x-cluster-client-ip&#39;) wurde eingestellt. |
 | user.header(&#39;host&#39;) | Website-Hostname |

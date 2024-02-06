@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -22,29 +22,6 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
-
-## Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)
-
-| Einstellung der Unterstützung | Details |
-|--- |--- |
-| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Für Zielgruppen, die mit dem Attribut [!UICONTROL Browser] auf iPads oder iPhones abzielen, müssen Sie diese Einstellungen vor dem 30. April 2024 ändern, damit diese Zielgruppen weiterhin erwartungsgemäß funktionieren.<p>Beispiele für alternative Einstellungen finden Sie unter [Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
-
-## [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
-
-Die Veröffentlichung dieser Version ist für die folgenden Tage geplant:
-
-* **22. Januar**: Region Europa, Naher Osten und Afrika (EMEA)
-* **23. Januar**: Region Asien-Pazifik (APAC)
-* **25. Januar**: Region Nord- und Südamerika
-
-Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
-
-* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht „Umsatz“ als Spaltennamen an und die Umsatzmetrik wurde im Reporting nicht im ($)-Format angezeigt. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
-* Ein Problem mit nicht ordnungsgemäßer Berichtsdatierung wurde behoben. (TGT-47396)
-* Ein Problem mit der falschen Statusanzeige auf der Seite [!UICONTROL Alle Aktivitäten] nach Aktivierung oder Deaktivierung einer Aktivität über das Symbol [!UICONTROL Mehr Aktionen] wurde behoben. (TGT-47367)
-* Ein Fehler, bei dem der Bericht [!UICONTROL Wichtige Attribute] nicht angezeigt wurde, wurde behoben. (TGT-47272)
-* Ein Fehler, bei dem beim Versuch, die Option „Authentifizierung erfordern“ zu aktivieren, die Meldung „Ungültige Payload“ angezeigt wurde, wurde behoben. (TGT-47195)
-* Verschiedene lokalisierte Zeichenfolgen in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
