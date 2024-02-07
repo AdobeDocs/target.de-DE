@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ So verwenden Sie die [!DNL Target Recommendations] und [!DNL Adobe Journey Optim
 
 ## Anwendungsbeispiele
 
-Im Folgenden finden Sie einige mögliche Anwendungsfälle für die Integration von [!DNL Target Recommendations] mit [!DNL Adobe Journey Optimizer]:
+Dies sind nur einige mögliche Anwendungsfälle für die Integration von [!DNL Target Recommendations] mit [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]sendet eine personalisierte E-Mail nach einem Warenkorbabbruch**: Dieser Anwendungsfall basiert auf einem Kunden, der eine Website besucht, Artikel in den Warenkorb legt und dann die Site verlässt, ohne den Kaufprozess abzuschließen.
 
