@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 95%
+source-wordcount: '1361'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 8. Februar | [Vorabruf](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Neuer Abschnitt hinzugefügt: &quot;mboxes mit ClickTrack-Metriken vorab abrufen bei Verwendung von Analytics for Target (A4T)&quot; |
 | 5. Februar | [Erstellen einer Aktivität mit Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde Text hinzugefügt, der angibt, dass Sie bei Verwendung von [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
 |  | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Es wurde Text hinzugefügt, der angibt, dass Sie bei Verwendung von [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
 |  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community-Kaffeepause hinzugefügt, die für den 7. Februar 2024 geplant ist. |
