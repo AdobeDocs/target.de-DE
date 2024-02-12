@@ -4,10 +4,10 @@ description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target
 title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
 workflow-type: tm+mt
-source-wordcount: '2476'
-ht-degree: 95%
+source-wordcount: '2353'
+ht-degree: 99%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-## Adobe Target Community Q&amp;A Coffee Break
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **Art der möglichen Webinar-Folgefragen (Teil 1 der Personalization Maturity Series)**
-* **Donnerstag, 7. Februar 2024**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Informationen zur Registrierung](https://shorturl.at/gknVY){target=_blank}**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
 +++Details
 
-Mitglied werden [!DNL Adobe Target] Die Experten Brent Kostak, Ryan Roberts und Drew Burns geben Antworten in Echtzeit auf Fragen von Kunden zu während der [Teil 1 der [!DNL Adobe Target] Webinar-Reihe zum Thema &quot;Kunst des Möglichen&quot;](#maturity-series),&quot;wo unsere Experten die folgenden Themen erörterten:
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* Verfahren [!DNL Target] Funktion spielt eine strategische Rolle bei der skalierten Personalisierung
-* Häufigste Anwendungsfälle, für die Kunden KI-Funktionen konfigurieren, um sie skaliert durchzuführen
-* Steuerung des maschinellen Lernens zur Aktivierung der KI-gestützten Personalisierung für Ihre spezifischen Ziele
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-Wenn Sie das ursprüngliche Webinar verpasst haben, [Aufzeichnung abhören](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Webinar-Reihe „Adobe Target 2024 – Personalisierungsreife“ {#maturity-series}
 
