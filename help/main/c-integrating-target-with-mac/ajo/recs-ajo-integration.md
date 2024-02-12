@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Dies sind nur einige mögliche Anwendungsfälle für die Integration von [!DNL T
 
   In diesem Szenario wird die [!UICONTROL Experience Cloud-Besucher-ID] (ECID) und den Inhalt der [!DNL Target] profile wird verwendet, um die Empfehlung basierend auf dem kürzlich angezeigten Algorithmus zu generieren.
 
-  Angenommen, ein Besucher besucht eine Einzelhandelswebsite und sieht sich mehrere Uhren an. Der [!DNL Target] Profil mit einer Liste der angezeigten Uhren aktualisiert. Verwenden der ECID und des [!DNL Target] Profil, [!DNL Target] sendet die Empfehlung an [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] sendet dann eine E-Mail mit Bildern und Links zu den Uhren, die dieser Besucher mit dem kürzlich angezeigten Algorithmus angesehen hat. Ein anderer Besucher erhält eine personalisierte E-Mail mit Bildern und Links zu den von diesem Besucher angezeigten Elementen. Jede E-Mail-Nachricht ist personalisiert.
+  Angenommen, ein Besucher besucht eine Einzelhandelswebsite und sieht sich mehrere Uhren an. Der [!DNL Target] Profil mit einer Liste der angezeigten Uhren aktualisiert. Verwenden der ECID und des [!DNL Target] Profil, [!DNL Target] sendet die Empfehlung an [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] sendet dann mithilfe des kürzlich angezeigten Algorithmus eine E-Mail mit Bildern und Links zu den Uhren, die der Besucher angesehen hat. Ein anderer Besucher erhält eine personalisierte E-Mail mit Bildern und Links zu den von diesem Besucher angezeigten Elementen. Jede E-Mail-Nachricht wird für jeden Besucher personalisiert.
 
 * **[!DNL Adobe Journey Optimizer]sendet nach dem Site-Besuch eine Massen-E-Mail an qualifizierte Besucher, um beliebte Artikel vorzuschlagen.**: Dieser Anwendungsfall basiert auf einem Besucher, der eine Website besucht, aber keine bestimmten Elemente anzeigt. Die E-Mail wird stapelweise an alle Personen gesendet, die sich für eine bestimmte Zielgruppe qualifizieren, z. B.:
 
