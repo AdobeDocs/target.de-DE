@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,6 @@ Dies sind nur einige mögliche Anwendungsfälle für die Integration von [!DNL T
 
 * **[!DNL Adobe Journey Optimizer]sendet nach dem Site-Besuch eine Massen-E-Mail an qualifizierte Besucher, um beliebte Artikel vorzuschlagen.**: Dieser Anwendungsfall basiert auf einem Besucher, der eine Website besucht, aber keine bestimmten Elemente anzeigt. Die E-Mail wird stapelweise an alle Personen gesendet, die sich für eine bestimmte Zielgruppe qualifizieren, z. B.:
 
-  Angenommen, der Besucher sieht keine bestimmten Uhren. Vielleicht hat der Besucher einfach auf die Site geklickt und Kategorieseiten oder Blogeinträge angezeigt. Daher wird die Variable [!DNL Target] -Profil verfügt nicht über bestimmte Informationen zu kürzlich angezeigten Elementen. In diesem Fall [!DNL Target Recommendations] kann eine [Reserveempfehlung](/help/main/c-recommendations/c-algorithms/backup-recs.md) so [!DNL Adobe Journey Optimizer] kann eine E-Mail mit Bildern und Links zu beliebten Artikeln auf der Website senden, um den Besucher zur Rückkehr zu bewegen und möglicherweise einen Kauf zu tätigen.
+  Angenommen, der Besucher sieht keine bestimmten Uhren. Vielleicht hat der Besucher einfach auf die Site geklickt und Kategorieseiten oder Blogeinträge angezeigt. Daher wird die Variable [!DNL Target] -Profil verfügt nicht über bestimmte Informationen zu kürzlich angezeigten Elementen. In diesem Fall [!DNL Target Recommendations] verwendet eine [Reserveempfehlung](/help/main/c-recommendations/c-algorithms/backup-recs.md) so [!DNL Adobe Journey Optimizer] kann eine E-Mail mit Bildern und Links zu beliebten Artikeln auf der Website senden, um den Besucher zur Rückkehr zu bewegen und möglicherweise einen Kauf zu tätigen.
 
 
