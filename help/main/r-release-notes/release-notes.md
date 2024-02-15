@@ -7,9 +7,9 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 | Einstellung der Unterstützung | Details |
 |--- |--- |
-| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Integrierte Zielgruppen, die mithilfe der [!DNL Target] Die Benutzeroberfläche wie &quot;Browser: iPad&quot;und &quot;Browser: iPhone&quot;wird automatisch in die neue Zielgruppendefinition verschoben.<p>Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Veraltung von iPad und iPhone vom Browserzielgruppenattribut (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!DNL iPad] und [!DNL iPhone] werden bei der Erstellung von Zielgruppen im Attribut [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) nicht mehr unterstützt.<p>Einstellungsdatum:<P>30. April 2024 | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Benutzerinnen und Benutzer, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P><B>Ab dem 30. April 2024 werden iPad und iPhone beim Erstellen von Zielgruppenkategorien angezeigten Dropdown-Liste der verfügbaren [!UICONTROL Browser] entfernt.</b><P>Integrierte Zielgruppen, die mithilfe der [!DNL Target]-Benutzeroberfläche erstellt wurden, wie „Browser: iPad“ und „Browser: iPhone“, werden automatisch in die neue Zielgruppendefinition verschoben.<p>Beispiele für alternative Einstellungen, die manuell angepasst werden müssen, finden Sie unter [Einstellung der Unterstützung von iPad und iPhone für das Zielgruppenattribut „Browser“ (30. April 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
 
