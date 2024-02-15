@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Warum Sie teilnehmen sollten:
 
      Im Mittelpunkt der Personalisierungsreife stehen künstliche Intelligenz und maschinelles Lernen. [!DNL Adobe Target] nutzt diese Technologien, um das Benutzerverhalten zu verstehen, Voreinstellungen vorherzusagen und Inhalte dynamisch anzupassen. Indem Sie die Leistungsfähigkeit von KI und ML nutzen, erfahren Sie, wie Marken über statische A/B-Tests und regelbasierte Personalisierung hinausgehen, um dynamische, kontextrelevante Erlebnisse bereitzustellen.
 
-     [Hör dir die Aufnahme an.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [Sehen Sie sich die Aufnahme an.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=de){target=_blank}
 
 * **Empfehlungen für optimale Ergebnisse**
    * **Dienstag, 13. Februar 2024**
