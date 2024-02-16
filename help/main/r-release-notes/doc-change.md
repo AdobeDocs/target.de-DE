@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
-| 8. Februar | [Vorabruf](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Neuer Abschnitt hinzugefügt: &quot;mboxes mit ClickTrack-Metriken vorab abrufen bei Verwendung von Analytics for Target (A4T)&quot; |
+| 8. Februar | [Vorabruf](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=de){target=_blank} | Es wurde ein neuer Abschnitt hinzugefügt: „mboxes mit ClickTrack-Metriken vorab bei Verwendung von Analytics for Target (A4T) abrufen“ |
 | 5. Februar | [Erstellen einer Aktivität mit Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Es wurde ein Text hinzugefügt, der besagt, dass Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus verschiedenen Arbeitsbereichen verwenden können, wenn Sie [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
 |  | [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Es wurde ein Text hinzugefügt, der besagt, dass Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus verschiedenen Arbeitsbereichen verwenden können, wenn Sie [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. |
-|  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community-Kaffeepause hinzugefügt, die für den 7. Februar 2024 geplant ist. |
+|  | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen zur Adobe Target Community Coffe Break am 7. Februar 2024 hinzugefügt. |
 | 24. Januar | [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Versionshinweise für at.js-Version 2.11.4 hinzugefügt. |
 |  | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Es wurde angekündigt, dass die beiden neuen Profile noch nicht verfügbar sind. Diese Hinweise werden aktualisiert, sobald diese Profile verfügbar sind. |
 |  | [Häufig gestellte Fragen zu „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=de){target=_blank} | Es wurden häufig gestellte Fragen zu „at.js“ in einer Ionic App-Umgebung hinzugefügt. Diese Implementierung wurde weder getestet, noch wird sie empfohlen. |
