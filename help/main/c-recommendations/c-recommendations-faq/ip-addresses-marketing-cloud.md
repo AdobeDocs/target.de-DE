@@ -5,10 +5,10 @@ title: Welche IP-Adressen verwenden feed-verarbeitende Target Recommendations-Se
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ Liste der in [!DNL Adobe Target] [!DNL Recommendations] Feed-Verarbeitungsserver
 
 >[!IMPORTANT]
 >
->23. Februar 2023: Die [!DNL Target] -Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen [!DNL Recommendations] Feeds. Wenn Sie IP-auf die Zulassungsliste setz implementieren, stellen Sie sicher, dass Sie die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt haben. Die vorhandenen Hosts sollen in Zukunft eingestellt werden. Alle neun Hosts sind jetzt einsatzbereit.
+>Die [!DNL Target] -Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen [!DNL Recommendations] Feeds. Wenn Sie IP-auf die Zulassungsliste setz implementieren, stellen Sie sicher, dass Sie die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt haben. Die bestehenden Hosts sollen am 30. Juni 2024 eingestellt werden. Um einen reibungslosen Übergang zu gewährleisten, werden in auf die Zulassungsliste setzen alle neun Adressen . Es ist nicht dringend erforderlich, die vorhandenen Adressen zu entfernen.
 
 [!DNL Target] [!UICONTROL Recommendations]-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden AWS-Hosts:
 
