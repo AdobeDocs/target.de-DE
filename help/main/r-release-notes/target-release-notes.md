@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 76%
 
 ---
 
@@ -15,13 +15,28 @@ ht-degree: 100%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 22. Januar 2024**
+**Zuletzt aktualisiert: Donnerstag, 28. Februar 2024**
 
 >[!NOTE]
 >
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024)
+
+Die Veröffentlichung dieser Version ist für die folgenden Tage geplant:
+
+* **4. März**: Region Europa, Naher Osten und Afrika (EMEA)
+* **5. März**: Region Asien-Pazifik (APAC)
+* **6. März**: Region Nord- und Südamerika
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Die Logik zur Berechnung der Anzahl eindeutiger Selektoren in einer Aktivität wurde korrigiert. (TGT-47878)
+* Es wurde ein Problem behoben, das [!UICONTROL Multivarianz] (MVT) Aktivitäten, die mit [!UICONTROL Analytics for Target] (A4T) nicht ordnungsgemäß angezeigt werden. (TGT-47490)
+* Die Warnmeldung, die in Berichten angezeigt wird, wenn ein Erlebnis ohne Traffic als Kontrollerlebnis verwendet wird, wurde verbessert. (TGT-47537)
+* Es wurden zahlreiche Backend- und Lokalisierungskorrekturen hinzugefügt.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

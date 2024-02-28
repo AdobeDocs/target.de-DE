@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 94%
+source-wordcount: '1471'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 28. Februar | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Informationen zum [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024). |
 | 26. Februar | [[!DNL Adobe Target] Ankündigungen und Ereignisse](/help/main/r-release-notes/target-announcements.md) | Es wurden Informationen über die kommenden [!UICONTROL Adobe Target Community] Kaffeepause (28. Februar 2024). |
 | 23. Februar | [Von [!DNL Recommendations] Feed-Verarbeitungsserver](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Es wurde der folgende wichtige Hinweis und neue IP-Adressen hinzugefügt, die in das Zulassungsliste aufgenommen werden sollen.<P>**Wichtig**: Die [!DNL Target] -Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen [!DNL Recommendations] Feeds. Wenn Sie IP-auf die Zulassungsliste setz implementieren, stellen Sie sicher, dass Sie die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt haben. Die bestehenden Hosts sollen am 30. Juni 2024 eingestellt werden. Um einen reibungslosen Übergang zu gewährleisten, werden in auf die Zulassungsliste setzen alle neun Adressen . Es ist nicht dringend erforderlich, die vorhandenen Adressen zu entfernen. |
 | 8. Februar | [Vorabruf](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=de){target=_blank} | Es wurde ein neuer Abschnitt hinzugefügt: „mboxes mit ClickTrack-Metriken vorab bei Verwendung von Analytics for Target (A4T) abrufen“ |
