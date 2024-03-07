@@ -4,14 +4,14 @@ description: Führen Sie die erforderlichen Schritte aus, um Analytics für [!DN
 title: Implementieren von Analytics für [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 24%
+source-wordcount: '1055'
+ht-degree: 18%
 
 ---
 
-# Analytics zur [!DNL Target] Implementierung
+# Analytics für [!DNL Target] Implementierung
 
 Bei der Implementierung sind mehrere Schritte erforderlich [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T). Der Prozess variiert je nachdem, ob Sie A4T mit der [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de) oder mit at.js.
 
@@ -29,7 +29,7 @@ Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine Aktivität 
 
 ### Schritt 3: Erstellen einer Edge-Konfiguration
 
-Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mit dem Edge-Konfigurationstool. Konfigurieren Sie die [[!DNL Analytics] and [!DNL Target] Edge-Konfigurationseinstellungen](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html).
+Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mit dem Edge-Konfigurationstool. Konfigurieren Sie die [Erstellen und Konfigurieren von Datenspeichern](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de).
 
 ### Schritt 4: Installieren und Konfigurieren des Platform Web SDK
 
@@ -37,10 +37,10 @@ Zu Beginn des Versands [!DNL Target] Erlebnisse und zur Anwendung [!DNL Analytic
 
 ### Schritt 5: Aktivieren der Optionen für die Verwendung von A4T
 
-Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, wählen Sie entweder **[!UICONTROL Pro Aktivität auswählen]** oder **[!UICONTROL Adobe Analytics]**.
+Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**, wählen Sie entweder **[!UICONTROL Select per activity]** oder **[!UICONTROL Adobe Analytics]**.
 
-* **[!UICONTROL Pro Aktivität auswählen ermöglicht Ihnen die Auswahl zwischen und beim Erstellen der einzelnen Aktivitäten.]**[!DNL Target][!DNL Analytics]
-* **[!UICONTROL Adobe legt Analytics als Berichtsquelle für alle von Ihnen erstellten Aktivitäten fest.]**[!DNL Analytics]
+* **[!UICONTROL Select per activity]** ermöglicht die Auswahl zwischen [!DNL Target] und [!DNL Analytics] bei der Erstellung der einzelnen Aktivitäten.
+* **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] als Berichtsquelle für alle von Ihnen erstellten Aktivitäten.
 
 ## ![at.js-Badge](/help/main/assets/atjs.png) Implementierungsschritte für eine at.js-Implementierung{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -56,9 +56,9 @@ Die Benutzerkontoanforderungen müssen erfüllt sein, bevor Sie eine [!DNL Analy
 
 ### Schritt 3: Implementieren des Experience Cloud-Besucher-ID-Service
 
-Mit dem Besucher-ID-Service können Sie Benutzer über [!DNL Adobe Experience Cloud]-Lösungen hinweg identifizieren. Implementieren oder migrieren Sie die erforderliche Version der Experience Cloud-Besucher-ID. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
+Mit dem Besucher-ID-Dienst können Sie Benutzer über [!DNL Adobe Experience Cloud] Lösungen. Implementieren oder migrieren Sie die erforderliche Version der Experience Cloud-Besucher-ID. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Siehe [Implementieren des Experience Cloud-ID-Diensts für Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) im *Experience Cloud-Besucher-ID-Service* Dokumentation.
+Siehe [Implementieren des Experience Cloud ID-Diensts für Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) im *Experience Cloud-Besucher-ID-Dienst* Dokumentation.
 
 ### Schritt 4: Aktualisierung von AppMeasurement für JavaScript oder s_code
 
@@ -74,7 +74,7 @@ Implementieren oder migrieren Sie mithilfe Ihres Produktionskontos zur erforderl
 
 Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-### Schritt 6: &quot;at.js&quot;hosten
+### Schritt 6: Hosten von at.js
 
 Wenn Sie at.js bereits bereitgestellt haben, können Sie Ihre vorhandene Datei durch die aktualisierte Version ersetzen. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
@@ -188,13 +188,13 @@ Es ist besonders wichtig zu bestätigen, dass diese Werte in Einzelseiten-Apps (
 
 ### Schritt 9: (Optional) Entfernen des vorherigen Integrationscodes
 
-Adobe empfiehlt, die vorherige Integration zu entfernen, um Ihre Implementierung zu vereinfachen und die Notwendigkeit zur Beseitigung von Systemdiskrepanzen zu beseitigen. Sie können sämtlichen Code entfernen, den Sie für eine vorherige Integration von SC zu T&amp;T bereitgestellt haben, einschließlich `mboxLoadSCPlugin`.
+Adobe empfiehlt, die vorherige Integration zu entfernen, um Ihre Implementierung zu vereinfachen und die Notwendigkeit zur Regelung von Systemdiskrepanzen zu beseitigen. Sie können sämtlichen Code entfernen, den Sie für eine vorherige Integration von SC zu T&amp;T bereitgestellt haben, einschließlich `mboxLoadSCPlugin`.
 
 ### Schritt 10: Aktivieren der Optionen für die Verwendung von Analytics als Berichtsquelle für Target
 
-In [!DNL Target]klicken **[!UICONTROL Administration > Berichterstellung]** und wählen Sie entweder **[!UICONTROL Pro Aktivität auswählen]** oder **[!UICONTROL Adobe Analytics]** um die Optionen zu aktivieren.
+In [!DNL Target]klicken **[!UICONTROL Administration > Reporting]** und wählen Sie **[!UICONTROL Select per activity]** oder **[!UICONTROL Adobe Analytics]** um die Optionen zu aktivieren.
 
-* **[!UICONTROL Pro Aktivität auswählen ermöglicht Ihnen die Auswahl zwischen und beim Erstellen der einzelnen Aktivitäten.]**[!DNL Target][!DNL Analytics]
-* **[!UICONTROL Adobe legt Analytics als Berichtsquelle für alle von Ihnen erstellten Aktivitäten fest.]**[!DNL Analytics]
+* **[!UICONTROL Select per activity]** ermöglicht die Auswahl zwischen [!DNL Target] und [!DNL Analytics] bei der Erstellung der einzelnen Aktivitäten.
+* **[!UICONTROL Adobe Analytics]** sets [!DNL Analytics] als Berichtsquelle für alle von Ihnen erstellten Aktivitäten.
 
 
