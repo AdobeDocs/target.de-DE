@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ Beispiel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Mehrere Werte werden unterstützt (kommagetrennte Liste).
 
-Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien enthalten, z. B. einen Unterabschnitt für Strickjacken (z. B. Damen, Damen:Pullover, Damen).:sweaters:Kardigans). Mehrere Kategorien müssen durch Kommas getrennt werden.
+Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien umfassen, z. B. einen Cardigans-Unterabschnitt (z. B. `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Mehrere Kategorien müssen durch Kommas getrennt werden.
 
 Die `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
->Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur eine `categoryId` an die Mbox weitergegeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert der `categoryId` muss exakt mit dem Wert von `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails] übergeben wird.
+>So zeigen Sie eine Empfehlung basierend auf einer Kategorie in einer [!UICONTROL Category] Seite, nur eine `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert der `categoryId` muss exakt mit dem Wert von `entity.categoryId` an die [!UICONTROL Product Detail] Seite.
 
 Beispiele:
 
-* Beispiel-Produktdetailseite: womens, womens:sweaters, womens:sweaters:Kardigans
-* Beispielseite für Kategorie „Sweater“: womens:sweaters
-* Beispiel für Kategorieseite Cardigans: womens:sweaters:Kardigans
+* Beispiel für eine Produktdetailseite: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Beispiel für Kategorieseiten-Sweater: `womens:sweaters`
+* Beispiel für Kategorieseiten-Cardigans: `womens:sweaters:cardigans`
 
 Bei kategoriebasierten Empfehlungen wird der Kategoriewert durch ein Komma getrennt. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
 
@@ -117,7 +117,7 @@ Im folgenden Code wird beispielsweise die Kategorie &quot;Frauen&quot;in mehrere
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel lautet der Kategorieschlüssel Frauen:Outerwear:Jacken: Caban.
+Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel lautet der Kategorieschlüssel . `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
