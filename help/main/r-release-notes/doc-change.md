@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 80%
+source-wordcount: '1507'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 13. März | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Es wurden Informationen hinzugefügt, die darauf hinweisen, dass zeitbasierte Zielgruppen erneut gespeichert werden, um die Sommerzeit (Daylight Saving Time, DST) zu berücksichtigen. |
 | 6. März | [Browser](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Die Informationen im folgenden Abschnitt wurden aktualisiert: &quot;Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser] Zielgruppenattribute (30. April 2024)&quot;. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Der gesamte Abschnitt wurde aktualisiert: &quot;Aktualisierungen für `Browser:iPad` und `Browser:iPhone` in [!UICONTROL Browser] Zielgruppenattribute (30. April 2024)&quot;. |
 |  | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 24.1.1 von [!DNL Target Standard/Premium] hinzugefügt. |
