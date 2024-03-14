@@ -6,7 +6,7 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 57%
@@ -25,7 +25,7 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 |--- |--- |
 | [!UICONTROL Browser:iPad] und [!UICONTROL Browser:iPhone] aktualisiert in [Browserattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) wird beim Erstellen von Zielgruppen verwendet. | [!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich Besuchern, die [Browser- oder Browseroptionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) wenn sie Ihre Seite besuchen.<P>Beginnen Sie mit der [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024), integrierte Zielgruppen, die mithilfe der Target-Benutzeroberfläche erstellt wurden, z. B. `Browser:iPad` und `Browser:iPhone` wird aktualisiert, um ein korrektes Targeting für [!DNL iPad] und [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet`.<P>Diese Aktualisierung erfordert keine Maßnahmen seitens der Kunden.<p><B>Wichtig</b>: Damit Kunden eine korrekte Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] In Profilskripten (und JavaScript-Segmenten) müssen vom Kunden manuelle Änderungen vorgenommen werden durch **30. April 2024**. Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser] Zielgruppenattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!UICONTROL Visual Editing Helper] Erweiterung (14. März 2023)
+## [!UICONTROL Visual Editing Helper] Erweiterung (14. März 2024)
 
 Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für die [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) Erweiterung für [!DNL Google Chrome]:
 
