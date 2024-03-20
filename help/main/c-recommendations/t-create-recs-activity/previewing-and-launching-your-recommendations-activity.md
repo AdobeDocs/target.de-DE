@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Ihre Adobe in der Vorschau anzeigen [!DNL Tar
 title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ Eine CSV-Datei wird heruntergeladen. Öffnen Sie es, um die empfohlenen Elemente
 
 Von links nach rechts ist eine Liste empfohlener Artikel, in diesem Fall am häufigsten angezeigt. Die Empfehlungen sind durch die Umgebung getrennt. In diesem Fall enthält nur die Produktionsumgebung Empfehlungen.
 
-Wenn ein Sternchen (*) der erste Wert einer Zeile ist, zeigt es Sicherungselemente an. Sicherungselemente werden angezeigt, wenn nicht alle Plätze in einem Entwurf durch die empfohlenen Elemente des Algorithmus (Kriterien) ausgefüllt werden können. Für einen Beliebtheitsalgorithmus wie den am häufigsten verkauften kann es in der CSV-Datei nur eine Zeile ohne oder ohne Backup geben, da diese Algorithmustypen keinen &quot;Schlüssel&quot;aufweisen, z. B. &quot;zeigen Sie dem Kunden die beliebtesten Produkte an, unabhängig davon, was er anzeigen oder kaufen möchte.&quot; Im Gegensatz zu anderen schlüsselbasierten Algorithmen, z. B. der Ansicht, ist der erste Wert in der Zeile NICHT der Schlüssel, sondern das erste Element in der Liste der empfohlenen Elemente.
+Wenn ein Sternchen (*) der erste Wert einer Zeile ist, zeigt es [Backup-Elemente](/help/main/c-recommendations/c-algorithms/backup-recs.md). Sicherungselemente werden angezeigt, wenn nicht alle Plätze in einem Entwurf durch die empfohlenen Elemente des Algorithmus (Kriterien) ausgefüllt werden können.
 
 Für andere Algorithmustypen, die auf einem Schlüsselwert basieren, wie z. B. [!UICONTROL People Who Viewed This, Viewed That], werden die Schlüsselwerte (d. h. die &quot;This&quot;-Elemente) in der Spalte ganz links aufgelistet und die empfohlenen Elemente (d. h. die &quot;That&quot;-Elemente) werden von links nach rechts in den Spalten &quot;Empfehlung_X&quot;aufgelistet.
 

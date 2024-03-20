@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 57%
+source-wordcount: '552'
+ht-degree: 59%
 
 ---
 
@@ -31,7 +31,6 @@ Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für di
 
 * Der iFrame-Lademechanismus beim Erstellen von Authoring auf den Websites von Kunden wurde verbessert.
 * Es wurde ein Fehler behoben, der dazu führte, dass die -Erweiterung Cookies bei der Bearbeitung im [!UICONTROL Visual Experience Composer] (VEC).
-* Die Abhängigkeit zum Herunterladen von at.js für Kunden, die die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024)
 
