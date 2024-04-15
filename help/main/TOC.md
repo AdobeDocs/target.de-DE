@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](c-experiences/spa-visual-experience-composer.md)
    + Angebote {#offers}
       + [Angebote – Überblick](c-experiences/c-manage-content/manage-content.md)
+      + [Angebotsübersicht Beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [Erstellen von Angebotsordnern](c-experiences/c-manage-content/create-content-folder.md)
       + [Hochladen von Inhalt](c-experiences/c-manage-content/assets-upload.md)
       + [Erstellen von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect.md)
