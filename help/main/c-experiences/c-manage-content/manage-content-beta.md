@@ -7,70 +7,98 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 646472f35ef4623666545f9945255d61bfe16073
+source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 29%
+source-wordcount: '958'
+ht-degree: 17%
 
 ---
 
 # Angebote
 
-Verwenden Sie die [!UICONTROL Offers] Bibliothek in [!DNL Adobe Target] zur Verwaltung Ihres Code- und Bildangebots.
+Verwenden Sie die [!UICONTROL Offers] Bibliothek in [!DNL Adobe Target] um den Inhalt Ihres Code- und Bildangebots zu verwalten.
 
 >[!NOTE]
 >
 >Dieser Artikel enthält Informationen zu Aktualisierungen des [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Die [!DNL Adobe Target] -Team ermöglicht oft neuen Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in Zukunft für alle Kunden aktiviert [!DNL Target Standard/Premium] veröffentlicht und in den Versionshinweisen angekündigt.
 
-1. Klicks **[!UICONTROL Offers]** , um die Bibliothek zu öffnen.
+Klicken Sie auf **[!UICONTROL Offers]** Registerkarte oben im [!DNL Target] Benutzeroberfläche zum Anzeigen der [!UICONTROL Offers] -Bibliothek.
 
-   Die Bibliothek enthält die Angebote, die über [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) und APIs erstellt wurden. In [!DNL Target Classic] oder anderen Lösungen erstellte Angebote lassen sich in [!DNL Target Standard/Premium] bearbeiten.
+![Angebotsbibliothek in Adobe Target](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-   Die [!UICONTROL Offers] Die Seite enthält zwei Registerkarten rechts: [!UICONTROL Code Offers] und [!UICONTROL Image Offers] die es Ihnen ermöglicht, Angebote nach Typ anzuzeigen.
+Die [!UICONTROL Offers] Bibliothek enthält Angebote, die über eingerichtet wurden. [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] AEM, [!DNL Adobe Mobile Services] (AMS) und APIs. In [!DNL Target Classic] oder anderen Lösungen erstellte Angebote lassen sich in [!DNL Target Standard/Premium] bearbeiten.
 
-   ![Angebotsseite mit den Registerkarten Code-Angebote und Bildangebote](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
+Die Angebotsbibliothek bietet einen Überblick über alle Code- und Bildangebote und ermöglicht Ihnen die Durchführung verschiedener Aktionen:
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Type]** Dropdown-Liste zum Filtern von Angeboten nach Typ (HTML-Angebot, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md), und [Ordner](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+| Element | Beschreibung |
+|--- |--- |
+| Linke Navigationsleiste | Zwischen Listen wechseln [!UICONTROL Code Offers] oder [!UICONTROL Image Offers]. |
+| [!UICONTROL Show filters] icon<P>![Symbol Filter anzeigen](/help/main/c-activities/assets/show-filters-icon.png) | Klicken Sie auf **[!UICONTROL Show filters]** Symbol zum Filtern von Angeboten nach [!UICONTROL Type], [!UICONTROL Source], und [!UICONTROL AEM Type]<P>Weitere Informationen finden Sie unter [Filter auf die Angebotsliste anwenden](#filters) unten. |
+| Suchfelder | Verwenden Sie die **[!UICONTROL Search in]** -Felder, um schnell ein Angebot zu finden oder die Anzahl der in der [!UICONTROL Offers] -Bibliothek. Sie können nach [!UICONTROL Offer Name], [!UICONTROL AEM Paths]oder [!UICONTROL AEM Tags]. |
+| [!UICONTROL Create Folder] | Klicken Sie auf Ordner erstellen , um Ordner im [!UICONTROL Offer] -Bibliothek zum Speichern von Code-Angeboten, Bildangeboten und anderen Ordnern, um eine Unterordnerstruktur zu erstellen. Weitere Informationen finden Sie unter [Angebotsordner erstellen](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| [!UICONTROL [!UICONTROL Create Offer]] | Erstellen Sie ein Angebot. Weitere Informationen zur Erstellung der verschiedenen Angebotstypen finden Sie unter: <ul><li>HTML-Angebot</li><li>[JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
+| Kontrollkästchen für Massenvorgänge | Führen Sie Massenvorgänge für alle Aktivitäten oder für ausgewählte Aktivitäten durch.<P>Eine Liste der verfügbaren Aktionen (abhängig von Ihren Berechtigungen und dem Angebotsstatus) finden Sie unter [Schnellaktionen durchführen](#quick-actions) unten. |
+| [!UICONTROL Name] | Der Name jedes Angebots.<P>Klicken Sie auf **[!UICONTROL Quick Info]** neben dem jeweiligen Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Pop-up-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde und von wem und mehr.<p>Klicken Sie auf **[!UICONTROL More actions]** neben dem jeweiligen Angebotsnamen ein Menü mit Schnellaktionen für eine Aktivität öffnen. Die folgenden Aktionen sind verfügbar (je nach Berechtigungen und Angebotsstatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], und [!UICONTROL Move]. Weitere Informationen zu den einzelnen Aktionen finden Sie unter [Schnellaktionen durchführen](#quick-actions) unten.<P>Klicken Sie auf die Tabellenüberschrift, um die Liste alphabetisch in auf- oder absteigender Reihenfolge nach Namen zu sortieren. |
+| [!UICONTROL Type] | Angebotstyp: HTML-Angebote, [Umleitungsangebote](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebote](/help/main/c-experiences/c-manage-content/about-remote-offers.md), und [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
+| [!UICONTROL Source] | Zeigt, wo das Angebot erstellt wurde: [!DNL Adobe Target], [!DNL Adobe Target Classic], und [!DNL Adobe Experience Manager]. |
 
-   ![offer_filter-Bild](assets/offers_filter.png)
+## Anwenden von Filtern auf die Angebotsbibliothek {#filters}
 
-1. (Optional) Klicken Sie auf die **[!UICONTROL Source]** Dropdownliste zum Filtern von Angeboten nach Quelle (Adobe Target, Adobe Target Classic und Adobe Experience Manager).
+Klicken Sie auf **[!UICONTROL Show filters]** Symbol ( ![Symbol Filter anzeigen auf der Seite Angebote](/help/main/c-experiences/c-manage-content/assets/show-filters-icon.png) ), um Angebote nach zu filtern [!UICONTROL Type], [!UICONTROL Source], und [!UICONTROL AEM Type].
 
-1. (Optional) Führen Sie zusätzliche Aufgaben durch, indem Sie den Mauszeiger über das gewünschte Angebot oder den Ordner auf der [!UICONTROL Code Offers] und klicken Sie dann auf das gewünschte Symbol.
+![offer_filter-Bild](assets/offers-filter-new.png)
 
-   ![Optionen für Code-Angebote](assets/offer-picker-large.png)
+Die **[!UICONTROL Show filters]** -Symbol ermöglicht Ihnen, Angebote nach folgenden Kategorien zu filtern:
 
-   Zu den Optionen zählen:
+* **Typ**: HTML-Angebot, [JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
-   * Anzeigen (weitere Informationen finden Sie unter [Angebotsdefinitionen anzeigen](#section_6B059DD121434E6292CAB393507D010E) unten.)
-   * Bearbeiten 
-   * Kopieren 
-   * Verschieben (um beispielsweise ein oder mehrere Elemente in einen Ordner zu verschieben, klicken Sie auf die **[!UICONTROL Move]** für das gewünschte Element klicken Sie auf den gewünschten Ordner und dann auf **[!UICONTROL Drop]**.
-   * Löschen
+* **Quelle**: [!DNL Adobe Target], [!DNL Adobe Target Classic], und [!DNL Adobe Experience Manager].
 
-   Je nach Ihren Berechtigungen werden möglicherweise keine Symbole für alle Optionen angezeigt. Beispiel: ein Benutzer mit [!UICONTROL Observer] -Berechtigungen verfügen nicht über die Rechte zur Verwendung der [!UICONTROL Copy] -Option.
+* **AEM Typ**: [Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) und [Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Weitere Informationen zu den verschiedenen Fragmenttypen finden Sie unter [Übersicht über AEM Experience Fragments und Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-   Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+## Schnellaktionen durchführen {#quick-actions}
 
-1. (Optional) Führen Sie zusätzliche Aufgaben durch, indem Sie den Mauszeiger über das gewünschte Bildangebot oder den Ordner auf der [!UICONTROL Image Offers] und klicken Sie dann auf das gewünschte Symbol.
+Sie können die folgenden Schnellaktionen durchführen, indem Sie auf das entsprechende Symbol klicken:
 
-   ![Optionen für Bildangebote](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+### Schnellinformationen
 
-   Zu den Optionen zählen:
+Klicken Sie auf **[!UICONTROL Quick Info]** neben dem jeweiligen Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Pop-up-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde und von wem und mehr.
 
-   * Auswählen
-   * Download 
-   * Eigenschaften anzeigen
-   * Bearbeiten 
-   * Anmerkungen hinzufügen
-   * Kopieren 
+![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
-   Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+### Mehr Aktionen	
 
-   >[!NOTE]
-   >
-   >Bildangebote sind nicht Teil der [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) -Modell.
+Klicken Sie auf **[!UICONTROL More actions]** neben dem jeweiligen Angebotsnamen ein Menü mit Schnellaktionen für eine Aktivität öffnen. Die folgenden Aktionen sind verfügbar (je nach Berechtigungen und Angebotsstatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete], und [!UICONTROL Move].
 
+![Option &quot;Mehr Aktionen&quot;in der Target-Angebotsbibliothek](/help/main/c-experiences/c-manage-content/assets/more-actions.png)
+
+* Bearbeiten 
+* Kopieren 
+* Löschen
+* Verschieben (um beispielsweise ein oder mehrere Elemente in einen Ordner zu verschieben, klicken Sie auf die **[!UICONTROL Move]** für das gewünschte Element klicken Sie auf den gewünschten Ordner und dann auf **[!UICONTROL Drop]**.
+
+Je nach Ihren Berechtigungen werden möglicherweise keine Symbole für alle Optionen angezeigt. Beispiel: ein Benutzer mit [!UICONTROL Observer] -Berechtigungen verfügen nicht über die Rechte zur Verwendung der [!UICONTROL Copy] -Option.
+
+Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+Führen Sie zusätzliche Aufgaben durch, indem Sie den Mauszeiger über das gewünschte Bildangebot oder den Ordner auf der [!UICONTROL Image Offers] und klicken Sie dann auf das gewünschte Symbol.
+
+![Optionen für Bildangebote](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+Zu den Optionen zählen:
+
+* Auswählen
+* Download 
+* Eigenschaften anzeigen
+* Bearbeiten 
+* Anmerkungen hinzufügen
+* Kopieren 
+
+Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+>[!NOTE]
+>
+>Bildangebote sind nicht Teil der [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) -Modell.
 
 ## Angebotsdefinitionen anzeigen {#section_6B059DD121434E6292CAB393507D010E}
 
