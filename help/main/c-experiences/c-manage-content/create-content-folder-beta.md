@@ -1,0 +1,59 @@
+---
+keywords: Inhalt;Ordner erstellen;Assets;Ordner verschieben;Ordner kopieren;Ordner löschen;Ordner herunterladen;Ordner
+description: Erstellen von Ordnern im [!UICONTROL Offers] Bibliothek?
+title: Erfahren Sie, wie Sie Ordner im [!UICONTROL Offers] -Bibliothek, um Code- und Bildangebote sowie andere Ordner zu speichern.
+feature: Experiences and Offers
+source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 5%
+
+---
+
+# Angebotsordner erstellen
+
+Erstellen Sie Ordner im [!DNL Adobe Target] [!UICONTROL Offer] -Bibliothek zum Speichern von Code-Angeboten, Bildangeboten und anderen Ordnern, um eine Unterordnerstruktur zu erstellen.
+
+Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
+
+## Codeangebotsordner
+
+1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+
+   ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
+
+1. Klicks **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
+1. Geben Sie einen beschreibenden Namen für den Ordner an.
+
+1. (Bedingt) Wenn Sie eine [Target Premium](/help/main/c-intro/intro.md#premium) Konto und Verwendung [Arbeitsbereiche](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), wählen Sie einen Arbeitsbereich aus.
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
+
+Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+## Bildangebotsordner
+
+1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+
+   ![Registerkarte &quot;Bildangebote&quot;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+
+1. Klicks **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Beschreibung angeben **[!UICONTROL Title]** für den Ordner.
+
+   Sie können beispielsweise den Inhaltstyp einbeziehen, den er enthält.
+
+   Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`,Schrägstrich `/`,Umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Doppelte Anführungszeichen `"`, Eckige Klammer `[`, Eckige Klammer `]`, Pluszeichen: `+`, Pipe: `|`, Punkt: `.`, Nummernzeichen: `#`, Geschweifte Klammer: `{`, Geschweifte Klammer `}`, Karriere `^`oder Semikolon `;`. Sie können einen Bindestrich ( `- `) anstelle dieser Zeichen.
+
+1. (Optional) Geben Sie eine Beschreibung an **[!UICONTROL Name]**.
+1. (Optional) Wählen Sie die **[!UICONTROL Private]** aktivieren, um anzugeben, dass der Ordner privat ist, sodass nur Sie ihn und seine Inhalte sehen können.
+
+1. (Optional) Wählen Sie die **[!UICONTROL Reorder-able in List View]** aktivieren, um anzugeben, dass Sie und andere die Ordnerposition im [!UICONTROL List View].
+
+1. Klicken Sie auf **[!UICONTROL Create]**.
+
+>[!NOTE]
+>
+>Bildangebote sind nicht Teil der [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) -Modell.
+
+Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
