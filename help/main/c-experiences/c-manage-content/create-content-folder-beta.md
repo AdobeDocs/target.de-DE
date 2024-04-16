@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # Angebotsordner erstellen
 
 Erstellen Sie Ordner im [!DNL Adobe Target] [!UICONTROL Offer] -Bibliothek zum Speichern von Code-Angeboten, Bildangeboten und anderen Ordnern, um eine Unterordnerstruktur zu erstellen.
+
+>[!NOTE]
+>
+>Dieser Artikel enthält Informationen zu Aktualisierungen des [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Die [!DNL Adobe Target] -Team ermöglicht oft neuen Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in Zukunft für alle Kunden aktiviert [!DNL Target Standard/Premium] veröffentlicht und in den Versionshinweisen angekündigt.
 
 Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
 
