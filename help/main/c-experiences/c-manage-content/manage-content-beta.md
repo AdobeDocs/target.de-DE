@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
+source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 17%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -62,7 +62,7 @@ Sie können die folgenden Schnellaktionen durchführen, indem Sie auf das entspr
 
 ### Schnellinformationen
 
-Klicken Sie auf **[!UICONTROL Quick Info]** neben dem jeweiligen Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Pop-up-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde und von wem und mehr.
+Klicken Sie auf **[!UICONTROL Quick Info]** neben dem jeweiligen Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Pop-up-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde und von wem und mehr. Die verfügbaren Optionen hängen vom Angebotstyp ab: HTML-Angebot, [JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -100,64 +100,68 @@ Detaillierte Informationen zu den Aufgaben, die Sie für Angebote und Ordner aus
 >
 >Bildangebote sind nicht Teil der [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) -Modell.
 
-## Angebotsdefinitionen anzeigen {#section_6B059DD121434E6292CAB393507D010E}
+<!--
 
-Sie können Details zur Angebotsdefinition auf einer Popup-Karte im [!UICONTROL Offers] -Bibliothek, ohne das Angebot zu öffnen.
+## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
-Beispielsweise wird auf die folgende Angebotsdefinitionskarte für ein HTML-Angebot zugegriffen, indem Sie den Mauszeiger über ein Angebot auf der Seite [!UICONTROL Content] und klicken Sie dann auf das Informationssymbol:
+You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
+
+For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
 ![offer-card-html image](assets/offer-card-html.png)
 
-Die folgenden Informationen sind verfügbar:
+The following information is available:
 
-* Name
-* Quelle
-* Typ
-* Angebots-ID
-* Angebotspfad
-* Zuletzt geändert
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer path 
+* Last Modified
 
-Klicken Sie auf [!UICONTROL Offer Usage] um die Aktivitäten anzuzeigen, die auf ein Codeangebot verweisen, und zwar in der Popup-Karte für die Angebotsdefinition. Diese Funktionalität gilt nicht für Bildangebote. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Informationen enthalten [!UICONTROL Live Activities] und [!UICONTROL Inactive Activities].
+Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-![Bild zur Nutzung von Angebotskarten](assets/offer-card-usage.png)
+![offer-card-usage image](assets/offer-card-usage.png)
 
-Die folgende Angebotsdefinitionskarte für ein Umleitungsangebot:
+The following offer definition card for a Redirect offer:
 
-![Angebotskarte-Umleitungsbild](assets/offer-card-redirect.png)
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
-Die folgenden Informationen sind verfügbar:
+The following information is available:
 
-* Name
-* Quelle
-* Typ
-* Angebots-ID
-* Angebotspfad
-* Zuletzt geändert
-* Umleitungs-URL
-* Alle URL-Parameter einschließen (Ein oder Aus)
-* Übergeben der mbox-Sitzungs-ID (ein oder aus)
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL 
+* Include all URL parameters (On or Off) 
+* Pass mbox session ID (On or Off)
 
-Die folgende Angebotsdefinitionskarte für ein Remoteangebot:
+The following offer definition card for a Remote offer:
 
-![Bild auf Angebotskarte-Remote](assets/offer-card-remote.png)
+![offer-card-remote image](assets/offer-card-remote.png)
 
-Die folgenden Informationen sind verfügbar:
+The following information is available:
 
-* Name
-* Quelle
-* Typ
-* Angebots-ID
-* Angebotspfad
-* Zuletzt geändert
-* Umleitungs-URL-Typ
-* Absolute oder relative URL
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL Type 
+* Absolute or Relative URL
 
-## Schulungsvideo: Das Content Repository ![Übersichtszeichen](/help/main/assets/overview.png)
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
-In diesem Video wird beschrieben, wie Angebote verwaltet werden.
+This video includes information about managing offers.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
-* Benutzerdefinierte HTML-Angebote
-* Benutzerdefinierte HTML-Angebote im Visual Experience Composer
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
