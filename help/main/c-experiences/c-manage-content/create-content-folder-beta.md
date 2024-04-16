@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Erstellen Sie Ordner im [!DNL Adobe Target] [!UICONTROL Offer] -Bibliothek zum S
 
 Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
 
-## Codeangebotsordner
+## [!UICONTROL Code Offer] Ordner
 
 1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich
 
 Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Bildangebotsordner
+## [!UICONTROL Image Offer] Ordner
 
 1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
