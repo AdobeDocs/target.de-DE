@@ -1,14 +1,14 @@
 ---
 keywords: Inhalt; Inhalt aktualisieren; Assets; Inhalt hochladen; Asset hochladen; Inhalt löschen
 description: Erfahren Sie, wie Sie Bilder hochladen oder löschen, die als Bildangebote verwendet werden.
-title: Wie kann ich Inhalte in die Angebotsbibliothek hochladen oder löschen?
+title: Wie kann ich Inhalte in die [!UICONTROL Offers] Bibliothek?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 13%
 
 ---
