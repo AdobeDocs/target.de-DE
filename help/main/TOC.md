@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 3ddd97008dc40634de876851c2d798eb57a6a3ee
+source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 91%
+source-wordcount: '1244'
+ht-degree: 90%
 
 ---
 
@@ -255,6 +255,7 @@ ht-degree: 91%
       + [Erstellen von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect.md)
       + [Erstellen von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [Remote-Angebote erstellen](c-experiences/c-manage-content/about-remote-offers.md)
+      + [Beta für Remote-Angebote erstellen](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Erstellen von JSON-Angeboten](c-experiences/c-manage-content/create-json-offer.md)
       + [Arbeiten mit Inhalten in der Bibliothek](c-experiences/c-manage-content/assets-working.md)
       + [Durchsuchen von Inhalt](c-experiences/c-manage-content/filter-and-search-content.md)
