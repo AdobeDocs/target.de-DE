@@ -4,10 +4,10 @@ description: Erfahren Sie, warum einige Websites möglicherweise nicht zuverläs
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper] Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 67%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ Die [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Browsererwe
 
 >[!IMPORTANT]
 >
->Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel.
+>Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel. Aufgrund der Sicherheitsverbesserungen in Manifest v3, [!DNL Adobe] erfordert das Herunterladen dieser neuen Erweiterung, um Ihre Websites weiterhin visuell in [!DNL Target].
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
