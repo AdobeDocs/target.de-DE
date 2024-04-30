@@ -4,32 +4,32 @@ description: Erfahren Sie, wie Sie Probleme beheben können, die manchmal im Ado
 title: Wie kann ich Probleme im Zusammenhang mit Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
+source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 40%
+source-wordcount: '414'
+ht-degree: 25%
 
 ---
 
-# Beheben von Problemen mit [!UICONTROL Enhanced Experience Composer]
+# Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]
 
 Anzeigeprobleme treten manchmal in [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EWG) unter bestimmten Voraussetzungen.
 
-## Der EEC lädt eine interne QA-URL nicht, auf die nicht über eine öffentliche IP zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
+## Der EEC lädt keine interne QA-URL, auf die nicht über eine öffentliche IP zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 Dies kann durch auf die Zulassungsliste setz der folgenden IP-Adressen behoben werden. Diese IP-Adressen sind für den Adobe-Server bestimmt, der für den EEC-Proxy verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
 
 Bitten Sie Ihr IT-Team, die folgenden IP-Adressen in Zulassungsliste zu nehmen:
 
-* 52.18.97.86
-* 52.209.31.20
-* 52.214.41.220
-* 54.144.66.225
-* 54.82.53.36
-* 34.206.104.26
-* 3.115.90.128
-* 18.178.137.67
-* 3.112.77.52
+* 99 80 139 221
+* 54 78 56 224
+* 54 247 179 246
+* 54 80 219 243
+* 34 201 235 54
+* 54 196 224 236
+* 35 75 212 45
+* 52 199 184 130
+* 18 180 161 176
 
 Möglicherweise wird die folgende Fehlermeldung in [!DNL Target]:
 
@@ -39,13 +39,13 @@ Möglicherweise wird die folgende Fehlermeldung in [!DNL Target]:
 
 Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Korrigieren der Situation aufgeführt:
 
-* **Problem:**[!UICONTROL Ihre Website-Domäne (ISP) blockiert den Enhanced Experience Composer].
+* **Problem:** Ihre Website-Domäne (ISP) blockiert die [!UICONTROL Enhanced Experience Composer].
 
   **Rechtsmittel:** Zulassungsliste der oben aufgeführten IP-Adressen.
 
 * **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, Ihre Website unterstützt jedoch nicht TLS-Version 1.2. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor dem [!DNL Target] 18.4.1 (25. April 2018), die Standardkonfiguration unterstützte TLS 1.0. Weitere Informationen finden Sie unter [Änderungen hinsichtlich der Verschlüsselung mit TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Lösung:**[!UICONTROL Siehe die folgende Frage (Der Enhanced Visual Experience Composer wird auf sicheren Seiten auf meiner Website, für die TLS 1.2 verwendet wird, nicht geladen).]
+  **Lösung:** Siehe folgende Frage (Die [!UICONTROL Enhanced Visual Experience Composer] wird auf sicheren Seiten meiner Site, die TLS 1.2 verwenden, nicht geladen.
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
@@ -54,11 +54,11 @@ Möglicherweise wird die oben unter &quot;Die [!UICONTROL Enhanced Visual Experi
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen Browsern sind die Schritte ähnlich):
 
 1. Öffnen Sie die betroffene Website in Firefox.
-1. Klicken Sie in der Adresszeile des Browsers auf das Symbol **[!UICONTROL Website-Informationen anzeigen]**.
+1. Klicken Sie auf **[!UICONTROL Show Site Information]** in der Adressleiste des Browsers.
 
    ![firefox_more_info-Bild](assets/firefox_more_info.png)
 
-1. Klicken Sie auf **[!UICONTROL Verbindungsdetails anzeigen]** > **[!UICONTROL Weitere Informationen]**.
+1. Klicks **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
    ![firefox_more_info_2-Bild](assets/firefox_more_info_2.png)
 
