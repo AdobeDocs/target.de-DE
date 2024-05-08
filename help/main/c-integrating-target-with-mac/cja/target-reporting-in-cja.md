@@ -4,10 +4,10 @@ description: Verwendung [!DNL Target] Reporting in [!DNL Adobe Customer Journey 
 title: Was ist [!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ Die folgenden Aktivitätstypen werden bei Verwendung der [Adobe Experience Platf
 ## Erstellen einer Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet
 
 Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target]-Aktivität.
+
+>[!TIP]
+>
+>Sie können auch Folgendes festlegen: [!DNL Target] verwendet Reporting in [!DNL Customer Journey Analytics] für alle in Ihrem Konto erstellten Aktivitäten (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). Weitere Informationen finden Sie unter *Reporting Cloud-Lösung* in [Konfigurieren der Berichterstellung in [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. Aus dem **[!UICONTROL Activities]** Liste, klicken Sie **[!UICONTROL Create Activity]** und wählen Sie dann den Aktivitätstyp aus (je nach [unterstütztes Aktivitätdiagramm oben](#supported-activities)) und beginnen Sie mit der Einrichtung der Aktivität.
 1. Wenn Sie zur **[!UICONTROL Goals & Settings]** Seite des dreiteiligen Workflows zur Aktivitätserstellung auswählen **[!DNL Customer Journey Analytics]** als Berichtsquelle.

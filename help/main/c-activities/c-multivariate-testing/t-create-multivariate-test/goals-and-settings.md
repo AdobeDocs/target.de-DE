@@ -1,25 +1,25 @@
 ---
 keywords: Aktivitätseinstellungen; Ziele und Einstellungen; Multivarianz; MVT
-description: Erfahren Sie, wie Sie die [!UICONTROL Ziele und Einstellungen] Seite in [!DNL Adobe Target] , um Informationen über die Ziele eines [!UICONTROL Multivarianz-Test] (MVT).
-title: Wie gebe ich Ziele und Einstellungen in einer [!UICONTROL Multivarianz-Test] (MVT) Aktivität?
+description: Erfahren Sie, wie Sie die [!UICONTROL Goals & Settings] Seite in [!DNL Adobe Target] , um Informationen über die Ziele eines [!UICONTROL Multivariate Test] (MVT).
+title: Wie gebe ich Ziele und Einstellungen in einer [!UICONTROL Multivariate Test] (MVT) Aktivität?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
+source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1164'
+ht-degree: 41%
 
 ---
 
-# Ziele und Einstellungen ([!UICONTROL Multivarianz-Test])
+# Ziele und Einstellungen ([!UICONTROL Multivariate Test])
 
-Die [!UICONTROL Ziele und Einstellungen] Seite in [!DNL Adobe Target] Hier geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivarianz-Test] (MVT).
+Die [!UICONTROL Goals & Settings] Seite in [!DNL Adobe Target] Hier geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivariate Test] (MVT).
 
 Die folgenden Abschnitte sind verfügbar:
 
-* [!UICONTROL Aktivitätseinstellungen]
-* [!UICONTROL Berichterstellungseinstellungen ]
-* [!UICONTROL Sonstige Metadaten]
+* [!UICONTROL Activity Settings]
+* [!UICONTROL Reporting Settings]
+* [!UICONTROL Other Metadata]
 
 Die verfügbaren Einstellungen in den einzelnen Abschnitten hängen davon ab, ob Sie [!DNL Target] oder [!DNL Analytics] als Berichtsquelle.
 
@@ -33,20 +33,20 @@ Geben Sie ein optionales Ziel ein. Beim Ziel kann es sich um beliebige Informati
 
 ### Priorität
 
-Abhängig von Ihren Einstellungen wird die [!DNL Target] Benutzeroberfläche und Optionen für [!UICONTROL Priorität] variieren. Sie können die veralteten Einstellungen von [!UICONTROL Niedrig], [!UICONTROL Mittel]oder [!UICONTROL Hoch]oder Sie können genauer unterteilte Prioritäten von 0 bis 999 festlegen.
+Abhängig von Ihren Einstellungen wird die [!DNL Target] Benutzeroberfläche und Optionen für [!UICONTROL Priority] variieren. Sie können die veralteten Einstellungen von [!UICONTROL Low], [!UICONTROL Medium]oder [!UICONTROL High]oder Sie können genauer unterteilte Prioritäten von 0 bis 999 festlegen.
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-Wenn diese Option nicht aktiviert ist in [!UICONTROL Administration] > [!UICONTROL Berichterstellung] (Standardeinstellung), geben Sie eine Priorität an: [!UICONTROL Niedrig], [!UICONTROL Mittel]oder [!UICONTROL Hoch].
+Wenn diese Option nicht aktiviert ist in [!UICONTROL Administration] > [!UICONTROL Reporting] (Standardeinstellung), geben Sie eine Priorität an: [!UICONTROL Low], [!UICONTROL Medium]oder [!UICONTROL High].
 
-Um genauer unterteilte Prioritäten festzulegen, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Berichterstellung], und schalten Sie dann die [!UICONTROL Aktivieren genauer Prioritätensetzung] auf die Position &quot;Ein&quot;.
+Um genauer unterteilte Prioritäten festzulegen, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting], und schalten Sie dann die [!UICONTROL Enable Fine-Grained Priorities] auf die Position &quot;Ein&quot;.
 
 Wenn diese Option aktiviert ist, geben Sie einen Wert zwischen 0 und 999 an:
 
 * 0 = Niedrig
 * 999 = Hoch
 
-Für Aktivitäten, die in früheren Versionen von [!DNL Target], [!UICONTROL Niedrig] die Priorität in 0 umgewandelt wird, [!UICONTROL Mittel] die Priorität in 5 umgewandelt wird und [!UICONTROL Hoch] -Priorität in 10 umgewandelt wird. Diese Werte können nach Wunsch angepasst werden.
+Für Aktivitäten, die in früheren Versionen von [!DNL Target], [!UICONTROL Low] die Priorität in 0 umgewandelt wird, [!UICONTROL Medium] die Priorität in 5 umgewandelt wird und [!UICONTROL High] -Priorität in 10 umgewandelt wird. Diese Werte können nach Wunsch angepasst werden.
 
 >[!NOTE]
 >
@@ -62,29 +62,35 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Berichtsquelle
 
-Festlegen, ob Daten erfasst werden sollen von [!DNL Adobe Target] oder von [!DNL Adobe Analytics]. Siehe [Adobe Analytics als Berichtsquelle für Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) , um mehr über die Unterschiede zwischen den Berichterstellungslösungen und deren Vorteile zu erfahren.
+Geben Sie an, aus welchen Lösungsdaten erfasst werden:
 
-Bei Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target], wählen Sie eine [!DNL Analytics] Report Suite, die empfangen wird [!DNL Target] Aktivitätsdaten. Wählen Sie dazu zunächst einen der [!DNL Analytics] Unternehmen, an die Ihr Konto gebunden ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Nur Report Suites, für die eine Verbindung hergestellt wurde [!DNL Target] stehen zur Auswahl zur Verfügung. Wenn die erwartete Report Suite nicht angezeigt wird, melden Sie sich zunächst ab und dann wieder bei der [!DNL Adobe Experience Cloud] erneut versuchen. Wenn die Report Suite weiterhin in der Liste fehlt, wenden Sie sich an [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+* [!DNL Adobe Target]
+* [!DNL Adobe Analytics]
+* [!DNL Adobe Customer Journey Analytics]
 
-[!UICONTROL Analytics for Target] (A4T) erfordert einen Tracking-Server, um die Ergebnisse korrekt zu melden. Ein standardmäßiger Trackingserver wird im [!UICONTROL Tracking-Server] -Feld. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie in dieses Feld den richtigen Tracking-Server einschließen. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) für weitere Informationen.
+Wenn eine Berichterstellungslösung in Ihrer [Kontoeinstellungen](/help/main/administrating-target/reporting.md)festgelegt ist, wird die angegebene Lösung verwendet und diese Einstellung ist nicht sichtbar.
 
-Sollte in Ihren Kontoeinstellungen eine Berichterstellungslösung angegeben sein, wird die angegebene Lösung verwendet und diese Einstellung ist nicht sichtbar.
+Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, um die Berichte konsistent zu halten.
 
->[!NOTE]
->
->Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, um die Berichte konsistent zu halten.
+**[!DNL Adobe Analytics]**: Siehe [[!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) , um mehr über die Unterschiede zwischen den Berichterstellungslösungen und deren Vorteile zu erfahren.
+
+Bei Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T), wählen Sie eine [!DNL Analytics] Report Suite, die empfangen wird [!DNL Target] Aktivitätsdaten. Wählen Sie dazu zunächst einen der [!DNL Analytics] Unternehmen, an die Ihr Konto gebunden ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Nur Report Suites, für die eine Verbindung hergestellt wurde [!DNL Target] stehen zur Auswahl zur Verfügung. Wenn die erwartete Report Suite nicht angezeigt wird, melden Sie sich zunächst ab und dann wieder bei der [!DNL Adobe Experience Cloud] erneut versuchen. Wenn die Report Suite weiterhin in der Liste fehlt, wenden Sie sich an [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+[!DNL Analytics for Target] (A4T) erfordert einen Tracking-Server, um die Ergebnisse korrekt zu melden. Ein standardmäßiger Trackingserver wird im [!UICONTROL Tracking Server] -Feld. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie in dieses Feld den richtigen Tracking-Server einschließen. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) für weitere Informationen.
+
+**[!DNL Adobe Customer Journey Analytics]**: Siehe [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) Weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target].
 
 ### Zielmetrik
 
-Wählen Sie die Aktion, die von einem Besucher ergriffen wird, um das Ziel zu erreichen. Wählen Sie beispielsweise eine [!UICONTROL Konversion] und legen Sie dann die Parameter fest, die bestimmen, wann ein Erfolg erreicht wird.
+Wählen Sie die Aktion, die von einem Besucher ergriffen wird, um das Ziel zu erreichen. Wählen Sie beispielsweise eine [!UICONTROL Conversion] und legen Sie dann die Parameter fest, die bestimmen, wann ein Erfolg erreicht wird.
 
 >[!NOTE]
 >
->Wenn die Berichtslösung auf [!DNL Analytics], lautet die einzige verfügbare Zielmetrik . [!UICONTROL Konversion]. [!DNL Analytics] Metriken können nicht als Ziel ausgewählt werden.
+>Wenn die Berichtslösung auf [!DNL Analytics], lautet die einzige verfügbare Zielmetrik . [!UICONTROL Conversion]. [!DNL Analytics] Metriken können nicht als Ziel ausgewählt werden.
 
 Bei der Auswahl Ihrer Erfolgsmetrik wird ein Selektor angezeigt. Verwenden Sie diesen Selektor, um Einzelheiten zu dieser Erfolgsmetrik auszuwählen.
 
-Wenn diese Option aktiviert ist, wird die [!UICONTROL Geschätzter Wert der Konversion] -Feld (nicht verfügbar für [!UICONTROL Seitenergebnis] Metriken) einen Wert für Ihr Ziel bereitstellt, jedoch nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Umsatz pro Besucher], [!UICONTROL Durchschnittlicher Bestellwert], [!UICONTROL Gesamtverkäufe], und [!UICONTROL Bestellungen]), verwendet die Schätzung [!UICONTROL Umsatz pro Besucher]. Der Datentyp ist eine Währung.
+Wenn diese Option aktiviert ist, wird die [!UICONTROL Estimated Value of the Conversion] -Feld (nicht verfügbar für [!UICONTROL Page Score] Metriken) einen Wert für Ihr Ziel bereitstellt, jedoch nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales], und [!UICONTROL Orders]), verwendet die Schätzung [!UICONTROL Revenue per Visitor]. Der Datentyp ist eine Währung.
 
 Nach Erreichen des Aktivitätsziels sieht ein Besucher weiterhin den Aktivitätsinhalt, es sei denn, dieser Besucher qualifiziert sich für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Dieses Verhalten unterscheidet sich vom Standardverhalten in [!DNL Target Classic], was Besucher als neu zählt, wenn sie den Test erneut sehen.
 
@@ -100,7 +106,7 @@ Standardmäßig zeigen Berichte Ergebnisse für alle qualifizierten Besucher. Si
 
 ### Erweiterte Einstellungen   {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Erweiterte Einstellungen sind verfügbar für [!UICONTROL Multivarianz-Test] Zielmetriken.
+Erweiterte Einstellungen sind verfügbar für [!UICONTROL Multivariate Test] Zielmetriken.
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
@@ -116,16 +122,16 @@ Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Aus
 
 Definieren Sie beide (oder mehrere) Erfolgsmetriken, bevor Sie eine Abhängigkeit voneinander festlegen können.
 
-Mithilfe der Option [!UICONTROL Abhängigkeit hinzufügen] kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.
+Die [!UICONTROL Add Dependency] ermöglicht es, die Erfolgsmetrik zu inkrementieren, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.
 
 So fügen Sie eine Abhängigkeit hinzu:
 
-1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
-2. Klicken Sie auf die Option **[!UICONTROL Abhängigkeit hinzufügen]**:
+1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Advanced Settings]**.
+2. Klicken Sie auf **[!UICONTROL Add Dependency]** Option:
 
    ![Abhängigkeit hinzufügen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Verschieben Sie die gewünschte Metrik per Drag-and-drop vom linken Bereich in den rechten Bereich. Klicken Sie dann auf **[!UICONTROL Erreicht]**, um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln .
+3. Ziehen Sie die gewünschten Metriken aus dem linken Bereich in den rechten Bereich und klicken Sie dann auf **[!UICONTROL Reached]** um die Einstellung zwischen Erreicht und Nicht erreicht zu wechseln.
 
    ![Abhängigkeit erreicht](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
@@ -135,9 +141,9 @@ Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugef�
 
 Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:
 
-* [!UICONTROL Wählen Sie „Anzahl erhöhen und Benutzer in Aktivität belassen“ aus, um festzulegen, wie die Anzahl erhöht wird.]
-* [!UICONTROL Wählen Sie „Anzahl erhöhen, Benutzer freigeben und Wiedereintritt erlauben“ aus, um festzulegen, welches Erlebnis dem Benutzer angezeigt wird, wenn er die Aktivität wieder aufnimmt.]
-* [!UICONTROL Wählen Sie „Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern“ aus, um festzulegen, was dem Benutzer statt der Aktivitätsinhalte angezeigt wird.]
+* [!UICONTROL Select Increment Count & Keep User in Activity] um anzugeben, wie die Anzahl erhöht wird.
+* [!UICONTROL Select Increment Count, Release User & Allow Reentry] um das Erlebnis anzugeben, das dem Benutzer angezeigt wird, wenn er die Aktivität erneut aufruft.
+* [!UICONTROL Select Increment Count, Release User & Bar from Reentry] um festzulegen, was der Benutzer anstelle des Aktivitätsinhalts sieht.
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -147,7 +153,7 @@ Die folgende Einstellung ist verfügbar:
 
 ### Hinweise
 
-Geben Sie alle Informationen über Ihre Aktivität ein, die für Sie oder andere Teammitglieder nützlich sind. Die [!UICONTROL Hinweise] -Bereich kann angepasst werden.
+Geben Sie alle Informationen über Ihre Aktivität ein, die für Sie oder andere Teammitglieder nützlich sind. Die [!UICONTROL Notes] -Bereich kann angepasst werden.
 
 ## Schulungsvideos
 

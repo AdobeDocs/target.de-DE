@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3171'
 ht-degree: 48%
 
 ---
@@ -259,7 +259,7 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 
 Häufig gestellte Fragen zu Unternehmensberechtigungen:
 
-### Was passiert, wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt? [#multiple-roles]
+### Was passiert, wenn eine Benutzerin oder ein Benutzer über mehrere Rollen und Berechtigungen verfügt? {#multiple-roles}
 
 Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rolle mit den Berechtigungen des Herausgebers angewendet. Wenn ein Benutzer beispielsweise [!UICONTROL Observer] und [!UICONTROL Approver] Rollen, [!UICONTROL Approver] Rolle angewendet wird.
 
