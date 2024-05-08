@@ -4,10 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '37672'
-ht-degree: 86%
+source-wordcount: '37965'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,34 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2024
+
+### [!UICONTROL Visual Experience Composer] Helper-Erweiterung (23. April 2024)
+
+Das Erbe [!DNL Target] Die Visual Experience Composer Helper-Erweiterung wurde mit Manifest V2 erstellt. [!DNL Google] kündigte an, dass Erweiterungen, die mit Manifest V2 erstellt wurden, ab Juni 2024 nicht mehr zulässig sein werden. Weitere Informationen finden Sie unter [[!UICONTROL Visual Experience Composer] Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] empfiehlt Kunden, zu einer neueren [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) so bald wie möglich.
+
+### Aktualisierungen für `Browser:iPad` und `Browser:iPhone` in [!UICONTROL Browser] Zielgruppenattribute (30. April 2024)
+
+| Updates | Details |
+|--- |--- |
+| [!UICONTROL Browser:iPad] und [!UICONTROL Browser:iPhone] aktualisiert in [Browserattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) wird beim Erstellen von Zielgruppen verwendet. | [!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich Besuchern, die [Browser- oder Browseroptionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) wenn sie Ihre Seite besuchen.<P>Beginnen Sie mit der [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024), integrierte Zielgruppen, die mithilfe der Target-Benutzeroberfläche erstellt wurden, z. B. `Browser:iPad` und `Browser:iPhone` wird aktualisiert, um ein korrektes Targeting für [!DNL iPad] und [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet`.<P>Diese Aktualisierung erfordert keine Maßnahmen seitens der Kunden.<p><B>Wichtig</b>: Damit Kunden eine korrekte Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] In Profilskripten (und JavaScript-Segmenten) müssen vom Kunden manuelle Änderungen vorgenommen werden durch **30. April 2024**. Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser] Zielgruppenattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+### [!UICONTROL Visual Editing Helper] Erweiterung (14. März 2024)
+
+Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für die [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) Erweiterung für [!DNL Google Chrome]:
+
+* Der iFrame-Lademechanismus beim Erstellen von Authoring auf den Websites von Kunden wurde verbessert.
+* Es wurde ein Fehler behoben, der dazu führte, dass die -Erweiterung Cookies bei der Bearbeitung im [!UICONTROL Visual Experience Composer] (VEC).
+
+### [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024)
+
+Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
+
+* Die Logik zur Berechnung der Anzahl eindeutiger Selektoren in einer Aktivität wurde korrigiert. (TGT-47878)
+* Es wurde ein Problem behoben, das [!UICONTROL Multivariate] (MVT) Aktivitäten, die mit [!UICONTROL Analytics for Target] (A4T) nicht ordnungsgemäß angezeigt werden. (TGT-47490)
+* Die Warnmeldung, die in Berichten angezeigt wird, wenn ein Erlebnis ohne Traffic als Kontrollerlebnis verwendet wird, wurde verbessert. (TGT-47537)
+* Es wurden zahlreiche Backend- und Lokalisierungskorrekturen hinzugefügt.
 
 ### [!DNL Target] Standard/Premium 24.1.1 (22., 23. und 25. Januar 2024)
 
@@ -570,7 +598,7 @@ Diese Version enthält die folgenden neuen Funktionen:
 | --- | --- |
 | [!UICONTROL Audiences] Aktualisierung der Benutzeroberfläche | Als Teil der [!DNL Adobe Target] Bemühungen des Teams, das Benutzererlebnis für [!DNL Target] Benutzern verwendet, aktualisiert diese Version die [!UICONTROL Audiences] und [!UICONTROL Profile Scripts] Seiten in [!DNL Target] Benutzeroberfläche. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im [!UICONTROL Audience] Regel-Builder für Bibliotheken</li><li>Ein neuer Filter &quot;Zielgruppenquelle&quot;, der eine schnellere Erkennung der Zielgruppen ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md). |
 | [!UICONTROL Profile Scripts] Aktualisierung der Benutzeroberfläche | Die [!UICONTROL Profile Scripts] -Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Siehe, was in Target Premium enthalten ist."} Recommendations-Kriterien erstellen und bearbeiten | Die [!UICONTROL Recommendations Criteria] Der Arbeitsablauf für die Erstellung und Bearbeitung wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Siehe, was in Target Premium enthalten ist.&quot;} Recommendations-Kriterien erstellen und bearbeiten | Die [!UICONTROL Recommendations Criteria] Der Arbeitsablauf für die Erstellung und Bearbeitung wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14. September 2021)
