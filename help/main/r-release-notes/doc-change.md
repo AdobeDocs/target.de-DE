@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 72%
+source-wordcount: '1723'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 8. Mai | [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Neuer Artikel: Es wurden Informationen zum [!DNL Target] Integration mit [!DNL Adobe Customer Journey Analytics]. |
 | 30. April | [Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Die Liste der IP-Adressen für den Adobe-Server, der für die EEC-Proxy-zu-Zulassungsliste verwendet wird, wurde aktualisiert. |
 | 23. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen hinzugefügt, die den Plan von Google erklären, mit der Deaktivierung von Erweiterungen zu beginnen, die mit Manifest V2 erstellt wurden. [!DNL Adobe] empfiehlt Kunden, zum neuen [!UICONTROL Visual Editing Helper] so bald wie möglich zu erweitern. |
 | 23. April | [[!UICONTROL Visual Experience Composer] Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Der Hinweis &quot;Wichtig&quot;oben auf der Seite wurde aktualisiert und erläutert Googles Plan, mit der Deaktivierung von Erweiterungen zu beginnen, die mit Manifest V2 erstellt wurden. Er enthält auch die in diesem Artikel dokumentierte Erweiterung. [!DNL Adobe] empfiehlt Kunden, zum neuen [!UICONTROL Visual Editing Helper] so bald wie möglich zu erweitern. |
