@@ -3,11 +3,12 @@ keywords: JSON-Angebot;JSON-Angebot erstellen
 description: Erfahren Sie, wie Sie JSON-Angebote in zur Verwendung im [!UICONTROL Form-Based Experience Composer].
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Registerkarte Angebote > Code-Angebote](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Registerkarte Angebote > Code-Angebote](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klicks **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. Klicks **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json-Bild](assets/offer-json.png)
+   ![offer-json-Bild](assets/offer-json-new.png)
 
 1. Geben Sie einen Angebotsnamen ein.
+1. (Bedingt) Wenn Sie eine [[!DNL Target] Premium-Konto](/help/main/c-intro/intro.md#premium), wählen Sie die gewünschte [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Bedingt) Wählen Sie die gewünschten Profilattribute aus.
 1. Geben Sie Ihren JSON-Code ein oder fügen Sie ihn in **[!UICONTROL Code]** ankreuzen.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 ## JSON-Beispiel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-Die Aktionen, die an den Erfolgs-Callback übergeben werden, sind eine Reihe von Objekten. Angenommen, wir haben ein einzelnes JSON-Angebot mit folgendem Inhalt:
+Die Aktionen, die an den Erfolgs-Callback übergeben werden, sind eine Reihe von Objekten. Angenommen, Sie haben ein einzelnes JSON-Angebot, das diesen Inhalt enthält:
 
 ```json
 { 
@@ -139,6 +142,6 @@ Weitere Informationen finden Sie unter [Freigeben von Echtzeit-Kundendatenplattf
 
 ## Filtern von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Sie können [!UICONTROL Offers] Bibliothek nach dem JSON-Angebotstyp durch Klicken auf **[!UICONTROL Type]** Dropdown-Liste aus und wählen Sie dann die **[!UICONTROL JSON]** aktivieren.
+Sie können [!UICONTROL Offers] Bibliothek nach dem JSON-Angebotstyp durch Klicken auf **[!UICONTROL Show filters]** und wählen Sie anschließend die **[!UICONTROL JSON]** aktivieren.
 
-![offer-json-filter-Bild](assets/offer-json-filter.png)
+![offer-json-filter-Bild](assets/offer-json-filter-new.png)
