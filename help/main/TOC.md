@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)](c-experiences/spa-visual-experience-composer.md)
    + Angebote {#offers}
       + [Angebote – Überblick](c-experiences/c-manage-content/manage-content.md)
-      + [Angebotsübersicht Beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [Angebotsübersicht Beta](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [Erstellen von Angebotsordnern](c-experiences/c-manage-content/create-content-folder.md)
-      + [Beta-Erstellung für Angebotsordner](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Beta-Erstellung für Angebotsordner](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [Hochladen von Inhalten](c-experiences/c-manage-content/assets-upload.md)
-      + [Hochladen oder Löschen von Bildangeboten](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [Beta-Version von Bildangeboten hochladen oder löschen](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [Erstellen von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect.md)
-      + [Erstellen von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [Beta-Erstellung von Umleitungsangeboten](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [Remote-Angebote erstellen](c-experiences/c-manage-content/about-remote-offers.md)
-      + [Beta für Remote-Angebote erstellen](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [Beta für Remote-Angebote erstellen](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [Erstellen von JSON-Angeboten](c-experiences/c-manage-content/create-json-offer.md)
-      + [Beta-Erstellung von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [Beta-Erstellung von JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [Arbeiten mit Inhalten in der Bibliothek](c-experiences/c-manage-content/assets-working.md)
-      + [Arbeiten mit Inhalten in der Beta-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [Arbeiten mit Inhalten in der Beta-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [Durchsuchen von Inhalt](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Übergeben dynamischer Daten in Angebote](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Erlebnis- und Inhaltsfragmente](c-experiences/c-manage-content/aem-experience-fragments.md)
