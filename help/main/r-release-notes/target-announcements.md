@@ -5,9 +5,9 @@ title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformati
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
-workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2350'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Warum Sie teilnehmen sollten:
 
 * **Erfahren Sie die wichtigsten Anwendungsfälle**: Wandeln Sie Visionen mit einem Entwurf für intelligente Optimierung in die Realität um und führen Sie Kundinnen und Kunden von [!DNL Adobe Target] zu einem Reifegrad, der über regelbasierte Experimente und A/B-Tests hinausgeht.
 * **Maximieren Sie einzigartige Funktionen**: Schneiden Sie Erlebnisse mit leistungsstarken Empfehlungen auf den Erfolg zu, um ROI, Umsatz und Konversionen zu maximieren.
-* **Vorbereitende Personalisierungsstrategien**: Machen Sie sich mit den erweiterten KI/ML-Techniken vertraut, um die geschäftlichen Auswirkungen zu skalieren, mit neuen Segmenten/Zielgruppen zu reagieren und Personalisierungsmodelle für optimierte Erlebnisse zu optimieren.
+* **Bringen Sie Personalisierungsstrategien voran**: Machen Sie sich mit den erweiterten KI/ML-Techniken vertraut, um die geschäftlichen Auswirkungen zu skalieren, Anklang bei neuen Segmenten/Zielgruppen zu finden und Personalisierungsmodelle für optimierte Erlebnisse zu präzisieren.
 
 * **[Hier registrieren](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -64,7 +64,7 @@ Warum Sie teilnehmen sollten:
 
      Erfahren Sie, wie Empfehlungsalgorithmen Unternehmen einen Wendepunkt bringen und so Interaktionen und Umsatz steigern können. Von personalisierten Produktempfehlungen bis hin zu Inhaltsempfehlungen trägt die Möglichkeit, Benutzende nahtlos durch ihre Journey zu führen, direkt zur Erschließung eines erheblichen Geschäftswachstums bei.
 
-     [Sehen Sie sich die Aufnahme an.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+     [Hören Sie sich die Aufnahme an.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Entsperren einer KI-gestützten Personalisierung**
    * **Dienstag, 12. März 2024**
@@ -133,7 +133,7 @@ Wir freuen uns, Ihnen bahnbrechende Neuigkeiten zur Personalisierung im großen 
 
   In dieser Sitzung erfahren Sie, wie Sie die Konversionsrate steigern können, indem Sie die neuen Funktionen von [!DNL Adobe Target] nutzen. Wir besprechen folgende Themen:
 
-   * Verbesserte Modellsteuerungen innerhalb der [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten
+   * Erweiterte Modellsteuerungen in [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten
    * Die Fähigkeit, Profilattribute und hochwertige Segmente von [!DNL Real-Time Customer Data Platform] von [!DNL Adobe] zu evaluieren
    * Wie Marken durch die Anpassung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und eine schnellere Entscheidungsfindung erreichen können
    * Einzigartige Anwendungsfälle für die Bereitstellung von Eins-zu-eins-Personalisierung
@@ -156,7 +156,7 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
   Kursplan:
 
-   * [!UICONTROL A/B-Test], [!UICONTROL Multivariate Tests] (MVT), (XT) sowie automatisierte Tests und Personalisierung
+   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisiertes Testen und Personalisieren
    * Schrittweise Workflows für die Einrichtung von Aktivitäten
    * Batch-Erlebnis-Prefetch, der eine ständig aktivierte Personalisierung für Mobilgeräte ermöglicht
    * Lebenszyklusmetriken für das Testen und Targeting von Kundenerlebnissen
