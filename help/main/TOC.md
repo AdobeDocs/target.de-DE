@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 5931aef4a16e6e9777112fdda4b3277f8e6f7386
+source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1253'
 ht-degree: 90%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 90%
          + [Berechtigungen für Unternehmensbenutzer](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurieren von Unternehmensberechtigungen](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+   + [Recommendations](/help/main/administrating-target/reommendations-settings.md)
 + Target implementieren {#implement-target}
    + [Implementierung von Target – Überblick](c-implementing-target/implementing-target.md)
 + Integration von Target in Experience Cloud {#integrate}
