@@ -7,9 +7,9 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -19,29 +19,29 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics] (8. Mai 2024)
+## [!DNL Target]-Reporting in [!DNL Adobe Customer Journey Analytics] (8. Mai 2024)
 
-Die Integration zwischen [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} und [!DNL Target] bietet leistungsstarke Analyse- und Zeitersparniswerkzeuge für Ihr Optimierungsprogramm.
+Die Integration zwischen [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/customer-journey-analytics){target=_blank} und [!DNL Target] bietet leistungsstarke Analysen und zeitsparende Tools für Ihr Optimierungsprogramm.
 
 Die wichtigsten Vorteile des Verwendens von [!DNL Customer Journey Analytics] als Berichtsquelle für [!DNL Target] sind folgende:
 
 * Marketing-Fachleute können jederzeit dynamisch [!DNL Customer Journey Analytics]-Erfolgsmetriken auf [!DNL Target] Aktivitätsberichte anwenden. Es ist nicht erforderlich, vor Ausführung der Aktivität alles zu spezifizieren.
-* Marketingexperten können [!DNL Customer Journey Analytics] -Funktionen, wie z. B. die [Experimentierbereich](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, um die Personalisierung ihrer Website weiter zu analysieren.
-* Marketingexperten können über eine einzige Berichtsquelle für [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} und [!DNL Target]. Beide Personalisierungsprodukte können mit [!DNL Customer Journey Analytics] verbunden werden, um eine ganzheitlichere Ansicht Ihrer Web-Personalisierung zu bieten.
+* Marketing-Fachleute können die Funktionen von [!DNL Customer Journey Analytics] wie z. B. das [Bedienfeld „Experimentieren“](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} nutzen, um ihre Website-Personalisierung weitergehend zu analysieren.
+* Marketing-Fachleute können eine einzige Quelle zum Reporting für [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} und [!DNL Target] verwenden. Beide Personalisierungsprodukte können mit [!DNL Customer Journey Analytics] verbunden werden, um eine ganzheitlichere Ansicht Ihrer Web-Personalisierung zu erhalten.
 
 Weitere Informationen finden Sie unter [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
-## [!UICONTROL Visual Experience Composer] Helper-Erweiterung (23. April 2024)
+## [!UICONTROL Visual Experience Composer]-Helper-Erweiterung (23. April 2024)
 
-Das Erbe [!DNL Target] Die Visual Experience Composer Helper-Erweiterung wurde mit Manifest V2 erstellt. [!DNL Google] kündigte an, dass Erweiterungen, die mit Manifest V2 erstellt wurden, ab Juni 2024 nicht mehr zulässig sein werden. Weitere Informationen finden Sie unter [[!UICONTROL Visual Experience Composer] Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Die Vorgängerversion der [!DNL Target] Visual Experience Composer-Helper-Erweiterung wurde mit Manifest V2 erstellt. [!DNL Google] hat angekündigt, dass mit Manifest V2 erstellte Erweiterungen ab Juni 2024 nicht mehr zulässig sind. Weitere Informationen finden Sie unter [[!UICONTROL Visual Experience Composer]-Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-[!DNL Adobe] empfiehlt Kunden, zu einer neueren [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) so bald wie möglich.
+[!DNL Adobe] empfiehlt Kundinnen und Kunden, so schnell wie möglich auf die neuere [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) umzusteigen.
 
-## Aktualisierungen für `Browser:iPad` und `Browser:iPhone` in [!UICONTROL Browser] Zielgruppenattribute (30. April 2024)
+## Aktualisierungen für `Browser:iPad` und `Browser:iPhone` in [!UICONTROL Browser]-Zielgruppenattribute (30. April 2024)
 
-| Updates | Details |
+| Aktualisierungen | Details |
 |--- |--- |
-| [!UICONTROL Browser:iPad] und [!UICONTROL Browser:iPhone] aktualisiert in [Browserattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md) wird beim Erstellen von Zielgruppen verwendet. | [!DNL Adobe Target] ermöglicht [Zielgruppe für eines oder mehrere Kategorieattribute](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich Besuchern, die [Browser- oder Browseroptionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) wenn sie Ihre Seite besuchen.<P>Beginnen Sie mit der [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024), integrierte Zielgruppen, die mithilfe der Target-Benutzeroberfläche erstellt wurden, z. B. `Browser:iPad` und `Browser:iPhone` wird aktualisiert, um ein korrektes Targeting für [!DNL iPad] und [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet`.<P>Diese Aktualisierung erfordert keine Maßnahmen seitens der Kunden.<p><B>Wichtig</b>: Damit Kunden eine korrekte Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] In Profilskripten (und JavaScript-Segmenten) müssen vom Kunden manuelle Änderungen vorgenommen werden durch **30. April 2024**. Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser] Zielgruppenattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+| [!UICONTROL Browser:iPad] und [!UICONTROL Browser:iPhone] in beim Erstellen von Zielgruppen verwendeten [Browser-Attributen](/help/main/c-target/c-audiences/c-target-rules/browser.md) aktualisiert | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Besucherinnen und Besucher, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P>Ab der [!DNL Target] Standard/Premium-Version 24.3.1 (4.–6. März 2024) werden integrierte, über die Target-Benutzeroberfläche erstellte Zielgruppen wie `Browser:iPad` und `Browser:iPhone` aktualisiert, um ein korrektes Targeting für [!DNL iPad] und [!DNL iPhone] mit `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet` durchzuführen.<P>Diese Aktualisierung erfordert keine Maßnahmen auf Kundenseite.<p><B>Wichtig</b>: Damit Kundinnen und Kunden eine korrekte Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] in Profilskripten (und JavaScript-Segmenten) durchführen können, müssen manuelle Änderungen auf Kundenseite bis zum **30. April 2024** vorgenommen werden. Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser]-Zielgruppenattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
