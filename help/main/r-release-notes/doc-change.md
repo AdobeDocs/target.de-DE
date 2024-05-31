@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
-##  [!DNL Target] Standard/Premium 23.3.1 (4. bis 6. März 2024)
+## [!DNL Target] Standard/Premium 23.3.1 (4. bis 6. März 2024)
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
