@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
-workflow-type: ht
-source-wordcount: '1741'
-ht-degree: 100%
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
+workflow-type: tm+mt
+source-wordcount: '1783'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 | --- | --- | --- |
+| 3. Juni | [Priorität](/help/main/c-activities/priority.md) | Das gesamte Thema wurde aktualisiert, einschließlich der Angabe, dass Inhalte aus mehreren [!UICONTROL Form-Based Experience Composer] und VEC-Aktivitäten bereitstellen können. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow bereitgestellt werden. Die Anzahl der formularbasierten Aktivitäten, die bereitgestellt werden können, ist nicht mehr begrenzt. |
 | 17. Mai | [Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Es wurden zusätzliche IP-Adressen hinzugefügt, die Sie bei Verwendung von [!UICONTROL Enhanced Experience Composer] auf die Zulassungsliste setzen können. |
 | 8. Mai | [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Neuer Artikel: Es wurden Informationen zur [!DNL Target]-Integration in [!DNL Adobe Customer Journey Analytics] hinzufügt. |
 | 30. April | [Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Die Liste der IP-Adressen für den Adobe-Server, der für den EEC-Proxy verwendet wird, wurde zur Aufnahme in die Zulassungsliste aktualisiert. |

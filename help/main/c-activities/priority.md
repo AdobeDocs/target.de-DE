@@ -4,10 +4,10 @@ description: Erfahren Sie mehr [!DNL Adobe Target] bestimmt, welche Aktivität (
 title: Funktionsweise [!DNL Target] Weisen Sie den verschiedenen Aktivitäten Priorität zu?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: f935b963d8686ca8991544a96720adfc32b1083e
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 37%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 33%
 
 [!DNL Adobe Target] bestimmt, welche Aktivität (oder welche Aktivitäten) je nach welcher [!DNL Target] und welche Funktion zur Erstellung von Aktivitäten ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) verwenden.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] nur oder [!UICONTROL Form-Based Experience Composer] mit einer globalen [!DNL Target] Nur Anfrage {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] nur oder [!UICONTROL Form-Based Experience Composer] mit einer globalen [!DNL Target] Nur Anfrage {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
-Wenn Ihr Unternehmen [!DNL Target Standard/Premium] und ausschließlich VEC können Inhalte von mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
+Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
 1. Die [!DNL Target] Server-Aufruf wird gesendet [!DNL Target] mit Informationen zur URL.
 1. [!DNL Target] ruft alle Aktivitäten ab, die mit dieser URL ausgeführt werden.
@@ -39,24 +39,20 @@ Wenn Ihr Unternehmen [!DNL Target Standard/Premium] und ausschließlich VEC kön
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Aktivitäten über Targeting verfügen, wird die zuerst genehmigte Aktivität angezeigt.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] und [!DNL Target Standard/Premium] [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
-
->[!NOTE]
->
->Diese Informationen gelten auch für alle laufenden Aktivitäten, die in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] und [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 Wenn Ihr Unternehmen die [!UICONTROL Form-Based Experience Composer] *und* VEC, Inhalt aus mehreren [!UICONTROL Form-Based Experience Composer] und VEC-Aktivitäten bereitstellen können. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow bereitgestellt werden. Die Anzahl der formularbasierten Aktivitäten, die bereitgestellt werden können, ist nicht mehr begrenzt.
 
 Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
 1. [!DNL Target] Server-Aufruf wird gesendet [!DNL Target] mit Informationen zu [!DNL Target] Anfrage und URL.
-1. [!DNL Target Standard/Premium] ruft alle Aktivitäten ab, die in ausgeführt werden. [!DNL Target] -Anfrage.
+1. [!DNL Target] ruft alle Aktivitäten ab, die in ausgeführt werden. [!DNL Target] -Anfrage.
 1. [!DNL Target] versucht, den Besucher Aktivitäten zuzuordnen.
 
    Wenn der Besucher bereits in einer [!UICONTROL A/B Test] oder [!UICONTROL Multivariate Test] -Aktivität, stimmen sie mit diesem Test überein, bis sie konvertieren. Wenn sie sich zuvor in einer [!UICONTROL Experience Targeting] -Aktivität, müssen sie erneut übereinstimmen. Sind die Zielgruppenregeln erfüllt, fällt der Besucher in diese Aktivitäten und in spezifische Erlebnisse.
 
 1. Wenn eine formularbasierte Aktivität die höchste Priorität hat, wird dieser Aktivitätsinhalt zusammen mit allen übereinstimmenden Aktivitätsinhalten aus VEC-Aktivitäten zurückgegeben.
-1. Wenn eine VEC-Aktivität die höchste Priorität hat, werden Inhalte von allen übereinstimmenden VEC-Aktivitäten zurückgegeben, jedoch keine [!DNL Target Classic] oder formularbasierter Aktivitätsinhalt zurückgegeben wird.
+1. Wenn eine VEC-Aktivität die höchste Priorität hat, werden Inhalte von allen übereinstimmenden VEC-Aktivitäten zurückgegeben, jedoch keine formularbasierten Aktivitätsinhalte zurückgegeben.
 
    Die Ergebnisse sämtlicher Aktivitäten, die auf der Seite ausgeführt werden, werden in den Berichten gezählt und dargestellt.
 
@@ -66,11 +62,7 @@ Wenn Sie über zwei Aktivitäten verfügen, eine auf den Marken-Suchbegriff &quo
 
 Verfügen beide Zielaktivitäten über die gleiche Priorität, wird diejenige angezeigt, die zuletzt aufgerufen wurde. Wenn der Besucher neu auf der Seite ist, wird die zuletzt aktivierte Aktivität angezeigt.
 
-## [!DNL Target Standard/Premium] [!UICONTROL Form-Based Experience Composer] mit nicht global [!DNL Target] requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
-
->[!NOTE]
->
->Diese Informationen gelten auch für alle laufenden Aktivitäten, die in [!DNL Target Classic].
+## [!UICONTROL Form-Based Experience Composer] mit nicht global [!DNL Target] requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 Wenn Ihr Unternehmen [!DNL Target] andere Anfragen als die globale [!DNL Target] -Anfrage im formularbasierten Composer können pro Aufruf nur Inhalte von einer Aktivität zurückgegeben werden. Die Aktivitätsbereitstellung wird anhand des folgenden Entscheidungsablaufs bestimmt:
 
@@ -91,11 +83,6 @@ Wenn Ihr Unternehmen [!DNL Target] andere Anfragen als die globale [!DNL Target]
 >
 >Abhängig von Ihren Einstellungen variieren auch die Prioritätswerte. Sie können die veralteten Einstellungen von [!UICONTROL Low], [!UICONTROL Medium]oder [!UICONTROL High]oder Sie können genauer unterteilte Prioritäten von 0 bis 999 festlegen. Weitere Informationen finden Sie unter [Aktivitätseinstellungen](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Zwei [!DNL Target Classic] -Aktivitäten verwenden nicht globale [!DNL Target] requests**
-
-* Aktivität 1: homePageHero, offer1, Priorität hoch
-* Aktivität 2: homePageHero, offer2, Priorität niedrig
-
 Antwort: offer1
 
 **Zwei Aktivitäten verwenden nur Angebote, die in der [!UICONTROL Visual Experience Composer] für verschiedene Selektoren**
@@ -111,23 +98,6 @@ Antwort: visualExpCompOffer1, visualExpCompOffer2
 * Aktivität 2: target-global-mbox, selector1, visualExpCompOffer2, Priorität hoch
 
 Antwort: visualExpCompOffer1, visualExpCompOffer2
-
->[!NOTE]
->
->Dies ist die gleiche Antwort wie im zweiten oben genannten Anwendungsfall, da [!DNL Target Classic] hat keine Auswahlkollisionen verarbeitet. [!DNL Target Standard/Premium] erfasst ein solches Verhalten und andere Anwendungsfälle, wenn Selektoren sowohl im DOM als auch visuell kollidieren könnten (in der Regel auf Erlebnis-Editor-Ebene oder im Aktivitätssimulationsmodus).
-
-**Zwei Aktivitäten verwenden Angebote, die in der [!UICONTROL Visual Experience Composer] und zwei [!DNL Target Classic] activities**
-
-* Aktivität 1: target-global-mbox, selector1, visualExpCompOffer1, mittelhoch
-* Aktivität 2: target-global-mbox, selector2, visualExpCompOffer2, Priorität niedrig
-* Aktivität 1: target-global-mbox, offer1, Priorität hoch
-* Aktivität 2: target-global-mbox, offer2, Priorität niedrig
-
-Antwort: offer1, visualExpCompOffer2, visualExpCompOffer1
-
->[!NOTE]
->
->Die Reihenfolge der kombinierten Antworten lautet: [!DNL Target Classic] Inhalt wird zuerst angezeigt. Nur eine [!DNL Target Classic] die Antwort wie in Nutzungsszenario 1 bereitgestellt wird, und [!UICONTROL Visual Experience Composer] bieten Antworten, die nach umgekehrter Priorität geordnet sind.
 
 ## Schulungsvideo: Aktivitätseinstellungen (3:02)
 
