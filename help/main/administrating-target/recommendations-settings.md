@@ -2,13 +2,15 @@
 keywords: Empfehlungen; Empfehlungen implementieren; Clientcode; Authentifizierungstoken; Branche vertikal; filtern inkompatiblen Modus; Standard-Hostgruppe; Miniaturbasis; Authentifizierungstoken generieren; Authentifizierungstoken;
 description: Erfahren Sie, wie Sie Einstellungen konfigurieren für [!DNL Adobe Target Recommendations].
 title: Wie konfiguriere ich die Einstellungen für Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
