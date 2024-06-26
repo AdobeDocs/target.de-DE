@@ -4,11 +4,12 @@ description: Erfahren Sie, wie Sie Sammlungen von Produkten oder Elementen in [!
 title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
-exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
+hide: true
+hidefromtoc: true
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 40%
+source-wordcount: '843'
+ht-degree: 29%
 
 ---
 
@@ -20,13 +21,13 @@ Im Allgemeinen ist eine Sammlung ein Satz von ähnlichen oder verwandten Artikel
 
 Verwenden Sie Sammlungen, um Ihre Produkte in logischen Behältern zu organisieren. Wenn beispielsweise einige Elemente in einer Region, aber nicht in einer anderen verfügbar sind, können Sie eine Sammlung erstellen, die Elemente ausschließt, die in der Region des Besuchers nicht verfügbar sind. Sie können Sammlungen auch verwenden, um Saisonartikel oder beliebige andere organisatorische Parameter, die für Ihr Geschäft relevant sind, zu organisieren.
 
-Die für jedes Kriterium innerhalb der Empfehlung erzeugte [Reserveempfehlung](/help/main/c-recommendations/c-algorithms/backup-recs.md) verwendet ebenfalls die Sammlung, sodass nur Artikel aus der Sammlung in die Reserveempfehlung aufgenommen werden. Mit Sammlungen können Sie sicherstellen, dass nur Produkte an einem Ort angezeigt werden, für die dies Sinn macht.
+[Reserveempfehlungen](/help/main/c-recommendations/c-algorithms/backup-recs.md) , die für jedes Kriterium innerhalb der Empfehlung generiert wurden, verwenden auch diese Sammlung, sodass nur Artikel aus der Sammlung in die Reserveempfehlung aufgenommen werden. Mit Sammlungen können Sie sicherstellen, dass nur Produkte an einem Ort angezeigt werden, für die dies Sinn macht.
 
 Sammlungen werden stets neu erstellt oder aktualisiert, wenn die einzelnen Kriterien ausgeführt werden.
 
 Sie können Ihre Artikel in Katalogen gruppieren und dann separate Empfehlungen für jede Sammlung erstellen.
 
-Inklusionskriterien ermöglichen Ihnen etwas Ähnliches wie eine Sammlung, sie müssen jedoch jedes Mal eingerichtet werden, wenn Sie eine Aktivität erstellen. Sammlungen ermöglichen Ihnen, einen Satz von Artikeln auf einmal zu erstellen und diesen dann zu jeder passenden Gelegenheit zu verwenden, ohne dass Sie diesen erneut einrichten müssen.
+Inklusionskriterien ermöglichen Ihnen etwas Ähnliches wie eine Sammlung, sie müssen jedoch jedes Mal eingerichtet werden, wenn Sie eine Aktivität erstellen. Mit Sammlungen können Sie einen Satz von Elementen einmal erstellen und ihn dann immer dann verwenden, wenn dies sinnvoll ist, ohne ihn erneut einrichten zu müssen.
 
 Wenn Sie eine [!DNL Recommendations] -Aktivität wird der Sammlungsname neben dem [!UICONTROL Criteria] im Aktivitätsdiagramm.
 
@@ -40,23 +41,21 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
 1. Klicks **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** , um die Liste der vorhandenen Sammlungen anzuzeigen.
 
-   ![Sammlungsliste](assets/collections_list.png)
+   ![Sammlungsliste](assets/collections-list.png)
 
-   Die [!UICONTROL Collections] zeigt eine Liste Ihrer vorhandenen Sammlungen an. Sie erstellen neue Sammlungen, indem Sie auf die [!UICONTROL Create Collection] Schaltfläche. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie den Mauszeiger über die gewünschte Sammlung bewegen und auf das gewünschte Symbol klicken.
-
-   ![Maussymbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   Die [!UICONTROL Collections] zeigt eine Liste Ihrer vorhandenen Sammlungen an. Sie erstellen neue Sammlungen, indem Sie auf die [!UICONTROL Create Collection] Schaltfläche. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Suchsymbol neben der gewünschten Sammlung klicken und dann auf die gewünschte Option klicken.
 
    Die &quot;Anzahl Elemente&quot;, die für jede Sammlung auf der [!UICONTROL Collections] Die Listenansicht ist die Anzahl der Produkte, die mit den Regeln für diese Sammlung innerhalb der konfigurierten standardmäßigen Recommendations übereinstimmen. [Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung). Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} , um die standardmäßige Hostgruppe zu ändern.
 
 1. Klicken Sie auf **[!UICONTROL Create Collection]**.
 
-1. (Bedingt) Wählen Sie eine Umgebung aus der **[!UICONTROL Environment]** beim Erstellen (oder Aktualisieren) einer Sammlung filtern, um die Inhalte der Sammlung in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
-
-   ![Sammlung erstellen](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![Sammlung erstellen](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Geben Sie einen **[!UICONTROL Name]** für die Sammlung.
 
    Sie können auch eine optionale **[!UICONTROL Description]**.
+
+1. (Bedingt) Wählen Sie eine [Umgebung](/help/main/administrating-target/environments.md) aus dem **[!UICONTROL Environment]** beim Erstellen (oder Aktualisieren) einer Sammlung filtern, um die Inhalte der Sammlung in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
 1. Legen Sie die Regeln fest, die für den Aufbau der Sammlung verwendet werden.
 
@@ -64,11 +63,11 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit einem UND-Operator verbunden. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
-## Erstellen einer Sammlung mit der erweiterten Suche
+## Erstellen Sie eine Sammlung mit [!UICONTROL Advanced Search]
 
-Sie können Sammlungen auch mithilfe der erweiterten Suche im [Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Sie können Sammlungen auch mithilfe von [!UICONTROL Advanced Search] auf [Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![Dialogfeld &quot;Speichern unter&quot;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -76,25 +75,25 @@ Nachdem Sie beispielsweise eine Suche mit &quot;id > contains&quot; erstellt hab
 
 >[!IMPORTANT]
 >
->Bei der Funktion „Erweiterte Suche“ wird nicht zwischen Groß- und Kleinschreibung unterschieden. Die zum Zeitpunkt der Auslieferung zurückgegebenen Produkte basieren jedoch auf der Suche mit Unterscheidung zwischen Groß- und Kleinschreibung. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Kollektionen auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
+>Die [!UICONTROL Advanced Search] -Funktion unterscheidet nicht zwischen Groß- und Kleinschreibung. Die zum Zeitpunkt des Versands zurückgegebenen Produkte basieren jedoch auf der Suche, bei der zwischen Groß- und Kleinschreibung unterschieden wird. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie bei der Erstellung von Kollektionen, die auf Ergebnissen basieren, unter Verwendung der [!UICONTROL Advanced Search] Funktionalität. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Katalog mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszugeben, werden nur Produkte mit dem Zusatz „urlaub“ ausgegeben. Produkte, die „Urlaub“ enthalten, werden nicht angezeigt.
 
 ## Bearbeiten, Kopieren oder Löschen einer Sammlung
 
-Bewegen Sie den Mauszeiger über die gewünschte Sammlung in der Liste und klicken Sie auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
+Klicken Sie auf **Ellipse** neben der gewünschten Sammlung in der Liste und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
 
-![Mauszeiger für eine Sammlung](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![Maussymbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
 Sie können eine vorhandene Sammlung kopieren, um eine doppelte Sammlung zu erstellen, die Sie dann ändern können. Auf diese Weise können Sie einen ähnlichen Ausschluss mit geringerem Aufwand erstellen.
 
 Beachten Sie, dass Sammlungen für das gesamte Konto verfügbar sind. Beachten Sie dies vor dem Löschen einer Sammlung. Gelöschte Sammlungen können nicht wiederhergestellt werden.
 
-## Verwenden einer Sammlung in einer Recommendations-Aktivität
+## Verwenden Sie eine Sammlung in einer [!DNL Recommendations] activity
 
 1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
 
 1. Klicks **[!UICONTROL Activities]** und [Erstellen einer neuen Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) oder eine bestehende Aktivität bearbeiten.
 
-1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die [!UICONTROL Options] angezeigt, wenn Sie die gewünschte Sammlung ausgewählt haben.
+1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die [!UICONTROL Options] wird angezeigt, wo Sie die gewünschte Sammlung auswählen.
 
    ![Sammlungsoption auswählen](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
