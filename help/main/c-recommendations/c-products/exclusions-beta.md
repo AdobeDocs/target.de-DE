@@ -5,10 +5,10 @@ title: Wie verwende ich Ausnahmen in [!UICONTROL Recommendations] Aktivitäten?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 26%
+source-wordcount: '513'
+ht-degree: 18%
 
 ---
 
@@ -56,17 +56,17 @@ Beispiele für die Verwendung von Ausschlüssen:
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-## Erstellen eines Ausschlusses mit der erweiterten Suche
+<!-- ## Create an exclusion using Advanced Search
 
-Sie können Ausschlüsse auch mithilfe von [!UICONTROL Advanced Search] auf [Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Dialogfeld &quot;Speichern unter&quot;](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Nachdem Sie beispielsweise eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie auf [!UICONTROL Save As] > [!UICONTROL Exclusion].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion].
 
 >[!IMPORTANT]
 >
->Die [!UICONTROL Advanced Search] -Funktion unterscheidet nicht zwischen Groß- und Kleinschreibung. Die zum Zeitpunkt des Versands zurückgegebenen Produkte basieren jedoch auf der Suche, bei der zwischen Groß- und Kleinschreibung unterschieden wird. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
 
 ## Einen Ausschluss bearbeiten, kopieren oder löschen
 
