@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 89%
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target in Adobe Journey Optimizer (AJO) {#ajo}
       + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrieren [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Integrieren [!DNL Adobe Target Recommendations] und  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integration von Target in Adobe Experience Manager (AEM) {#aem}
       + [Integration von Target in AEM - Übersicht](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [Ausschluss Beta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Kriterien {#criteria}
       + [Kriterien – Überblick](c-recommendations/c-algorithms/algorithms.md)
+      + [Kriterienübersicht Beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Erstellen von Kriterien](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [Betaversion von Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Erstellen von Kriteriensequenzen](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Erstellen von Kriteriensequenzen Beta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Stützen einer Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Stützen der Empfehlung auf eine Empfehlungsschlüssel-Beta](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Hochladen benutzerdefinierter Kriterien](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [Hochladen der Beta-Version mit benutzerdefinierten Kriterien](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Dynamische und statische Einschlussregeln {#dynamic-static}
          + [Verwenden dynamischer und statischer Einschlussregeln](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Entitätsattributübereinstimmung](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
