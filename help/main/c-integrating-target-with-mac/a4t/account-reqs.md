@@ -1,14 +1,14 @@
 ---
 keywords: Analytics als Berichtsquelle; a4t; A4T; Anforderungen
-description: Erfahren Sie, wie Sie die Benutzerkontoanforderungen konfigurieren, die zum Erstellen einer Adobe Analytics-basierten Aktivität in Adobe erforderlich sind. [!DNL Target] Verwenden von Analytics für [!DNL Target] (A4T).
+description: Erfahren Sie, wie Sie die Benutzerkontoanforderungen konfigurieren, die zum Erstellen einer Adobe Analytics-basierten Aktivität in Adobe [!DNL Target] mit Analytics for [!DNL Target] (A4T) erforderlich sind.
 title: Welche Anforderungen an Benutzerberechtigungen sind für A4T erforderlich?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '276'
+ht-degree: 35%
 
 ---
 
@@ -22,7 +22,7 @@ Ihre Benutzerkonten müssen wie in den folgenden Abschnitten beschrieben konfigu
 
 ## Adobe Experience Cloud {#section_3931A2FAD38F4A4FA92CC77B92AF3F0D}
 
-Führen Sie in der [!DNL Adobe Experience Cloud] [Admin Console](https://adminconsole.adobe.com) die folgenden Aufgaben aus:
+Führen Sie die folgenden Aufgaben in der Admin Console [!DNL Adobe Experience Cloud] [2} aus:](https://adminconsole.adobe.com)
 
 ### Lösungskonten mit der Adobe ID verknüpfen
 
@@ -38,21 +38,21 @@ Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Um A4T für eine bestimmte Report Suite verwenden zu können, müssen Sie Zugriff auf diese Report Suite haben und Zugriff auf [!DNL Web Services Access] hinzugefügt.
+Um A4T für eine bestimmte Report Suite verwenden zu können, müssen Sie Zugriff auf diese Report Suite haben und Zugriff auf die Gruppe [!DNL Web Services Access] gewähren.
 
-1. In **[!UICONTROL Admin Console]**, klicken Sie auf [!DNL Analytics] Produktprofil und klicken Sie dann auf das **[!UICONTROL Berechtigungen]** Registerkarte.
+1. Klicken Sie in **[!UICONTROL Admin Console]** auf ein [!DNL Analytics] Produktprofil und dann auf die Registerkarte **[!UICONTROL Permissions]** .
 
    Anschließend können Sie sehen, auf welche Report Suites das Profil Zugriff hat.
 
-1. Stellen Sie sicher, dass die Report Suite, auf die Sie Zugriff haben möchten, in [!DNL Target] ist eines der Produkte, die im Produktprofil aufgeführt sind, zu dem Sie gehören.
+1. Stellen Sie sicher, dass die Report Suite, auf die Sie in [!DNL Target] zugreifen möchten, zu der Report Suite gehört, die im Produktprofil aufgeführt ist, zu dem Sie gehören.
 
    Die folgende Abbildung zeigt ein Beispiel eines Produktprofils, das Zugriff auf alle Report Suites hat:
 
-   ![Registerkarte &quot;Admin Console Permission&quot;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Registerkarte &quot;Berechtigung für Admin Console&quot;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Zugriff auf die [!UICONTROL Zugriff auf Webdienste] hinzugefügt.
+1. Konfigurieren Sie den Zugriff auf die Gruppe &quot;[!UICONTROL Web Services Access]&quot;.
 
-   Zugriff auf [!UICONTROL Zugriff auf Webdienste] Gruppe in [!DNL Analytics] muss [!DNL Analytics] als Berichtsquelle für [!DNL Target].
+   Der Zugriff auf die Gruppe [!UICONTROL Web Services Access] in [!DNL Analytics] ist erforderlich, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] verwenden zu können.
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

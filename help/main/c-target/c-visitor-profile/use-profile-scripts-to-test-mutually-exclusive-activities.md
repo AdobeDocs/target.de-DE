@@ -1,19 +1,19 @@
 ---
 keywords: Profilskript; Profilskriptattribute; sich gegenseitig ausschließende Aktivitäten
-description: Erfahren Sie, wie Sie mithilfe von Profilattributen Tests in Adobe einrichten können. [!DNL Target] die mehrere Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
+description: Erfahren Sie, wie Sie mit Profilattributen Tests in Adobe [!DNL Target] einrichten können, die mehrere Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
 title: Kann ich Profilskripte verwenden, um sich gegenseitig ausschließende Aktivitäten zu testen?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 74%
+source-wordcount: '708'
+ht-degree: 72%
 
 ---
 
 # Verwenden von Profilskripten zum Testen sich gegenseitig ausschließender Aktivitäten
 
-Sie können Profilattribute in [!DNL Adobe Target] , um Tests einzurichten, die zwei oder mehr Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
+Sie können Profilattribute in [!DNL Adobe Target] verwenden, um Tests einzurichten, die zwei oder mehr Aktivitäten vergleichen, aber nicht zulassen, dass dieselben Besucher an jeder Aktivität teilnehmen.
 
 Hierdurch wird verhindert, dass ein Besucher einer Aktivität die Testergebnisse der anderen Aktivitäten beeinflusst. Wenn ein Besucher an mehreren Aktivitäten teilnimmt, ist es oft schwierig festzustellen, ob die positiven oder negativen Änderungen auf das Erlebnis des Besuchers in einer Aktivität zurückzuführen sind oder ob die Ergebnisse einer oder mehrerer Aktivitäten durch die Interaktionen zwischen den Aktivitäten beeinflusst wurden.
 
@@ -41,11 +41,11 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` bestimmt, ob das Profilattribut *twogroups* für den aktuellen Besucher eingerichtet ist. Falls ja, sind keine weiteren Aktionen erforderlich.
 
-* `var ran_number=Math.floor(Math.random() *100)` bezeichnet eine neue Variable namens „ran_number“, legt ihren Wert auf eine Zufallsdezimalzahl zwischen 0 und 1 fest, multipliziert diese mit 100 und rundet sie ab, um einen Bereich von 100 (0–100) zu erstellen. Dies ist nützlich zur Angabe des Prozentsatzes von Besuchern, welche die Aktivität sehen.
+* `var ran_number=Math.floor(Math.random() *100)` bezeichnet eine neue Variable namens „ran_number“, legt ihren Wert auf eine Zufallsdezimalzahl zwischen 0 und 1 fest, multipliziert diese mit 100 und rundet sie ab, um einen Bereich von 100 (0-100) zu erstellen. Dies ist nützlich zur Angabe des Prozentsatzes von Besuchern, welche die Aktivität sehen.
 
-* `if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wird eine Zahl zwischen 50 und 100 ausgegeben, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
+* `if (ran_number <= 49)` beginnt mit einer Routine, die bestimmt, zu welcher Gruppe der Besucher gehört. Wird eine Zahl zwischen 0 und 49 ausgegeben, wird der Besucher Gruppe A zugewiesen. Wenn die Zahl 50-100 beträgt, wird der Besucher Gruppe B zugewiesen. Welche Aktivität der Besucher angezeigt bekommt, wird durch seine Gruppenzugehörigkeit bestimmt.
 
-Nachdem Sie das Profilattribut erstellt haben, richten Sie die erste Aktivität ein, um die gewünschte Population anzusprechen, indem Sie den Benutzerprofilparameter `user.twogroups` entspricht dem für Gruppe A angegebenen Wert.
+Nachdem Sie das Profilattribut erstellt haben, richten Sie die erste Aktivität so ein, dass die gewünschte Population ausgewählt wird. Dazu muss der Benutzerprofilparameter `user.twogroups` dem für Gruppe A angegebenen Wert entsprechen.
 
 >[!NOTE]
 >

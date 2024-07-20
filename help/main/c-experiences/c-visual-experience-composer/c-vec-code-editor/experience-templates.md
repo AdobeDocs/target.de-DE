@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 73%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # Erlebnisvorlagen
 
-Informationen über [!DNL Adobe Target] Erlebnisvorlagen zur Verwendung in benutzerdefiniertem Code. [!DNL Target] Erlebnisvorlagen sind vorkodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Marketing-Anwendungsfälle verwendet werden können.
+Informationen zu [!DNL Adobe Target] Erlebnisvorlagen zur Verwendung in benutzerdefiniertem Code. [!DNL Target] Erlebnisvorlagen sind vorkodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Anwendungsfälle für Marketingexperten verwendet werden können.
 
 Diese Erlebnisvorlagen stehen Entwicklern und Marketing-Experten kostenlos zur Verfügung und bilden die Basis für beliebte Anwendungsfälle – entweder über den VEC oder den formularbasierten Experience Composer.
 
@@ -35,7 +35,7 @@ Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketi
 
 Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) handelt es sich um ein großes Banner mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
-![exp-template-banner-countdown-Bild](assets/exp-template-banner-countdown.png)
+![exp-template-banner-countdown image](assets/exp-template-banner-countdown.png)
 
 ## Button-Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
@@ -51,17 +51,17 @@ Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-
 
 ## Lightbox mit Verlassen-Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und auf jeder Web-Präsenz bereitgestellt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
+Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und zu jedem Webasset hinzugefügt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
 
 ![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-Bei der [Erlebnisvorlage „Lightbox“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) handelt es sich um ein Lightbox-Overlay-Popup mit integrierter Verzögerung, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
+Die Erlebnisvorlage [Lightbox ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) ist ein Lightbox-Overlay-Popup mit integrierter Verzögerung, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
 ![exp-template-lightbox image](assets/exp-template-lightbox.png)
 
-## Band {#section_CCBB656265F140AEA1B200409D719000}
+## Menüband {#section_CCBB656265F140AEA1B200409D719000}
 
 Bei der [Erlebnisvorlage „Band“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) handelt es sich um eine Leiste mit einer Breite von 100 %, die oben auf der Webseite angezeigt wird. Sie wird in der Regel eingesetzt, um eine Verkaufsaktion, kostenlosen Versand, Sicherheits- oder Wetterereignisse oder andere wichtige Ankündigungen anzuzeigen.
 

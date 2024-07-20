@@ -1,19 +1,19 @@
 ---
 keywords: QS;Vorschau;Bookmarklet;Vorschaulinks
-description: Erfahren Sie, wie Sie die Adobe verwenden [!DNL Target] QA-Lesezeichen erzwingen [!DNL Target] , um Sie aus dem QS-Modus freizugeben.
+description: Erfahren Sie, wie Sie mit dem Adobe [!DNL Target] QA-Bookmarklet erzwingen können, dass [!DNL Target] Sie aus dem QA-Modus freigeben.
 title: Wie verwende ich das Lesezeichen für Aktivitäts-QA?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 13%
 
 ---
 
 # Lesezeichenliste für Aktivitäts-QA
 
-Informationen zur Verwendung der [!DNL Target] QA-Lesezeichen erzwingen [!DNL Target] , um Sie aus dem QS-Modus freizugeben.
+Informationen, die Sie bei der Verwendung des [!DNL Target] QA-Bookmarklets unterstützen, um [!DNL Target] zu zwingen, Sie aus dem QA-Modus freizugeben.
 
 >[!NOTE]
 >
@@ -21,9 +21,9 @@ Informationen zur Verwendung der [!DNL Target] QA-Lesezeichen erzwingen [!DNL Ta
 
 ## Lesezeichenliste für Aktivitäts-QA für at.js 1.*x*  
 
-weil [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) hängt, nachdem Sie eine Website im QS-Modus durchsucht haben, [!DNL Target] -Sitzung ablaufen muss, oder Sie müssen [!DNL Target] Sie aus dem QA-Modus freigeben, bevor Sie Ihre Site wie einen normalen Besucher anzeigen können. Verwenden der Qualitätssicherung [!DNL Target] Bookmarklet verwenden, um das Beenden des QA-Modus zu erzwingen.
+Da der [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) hängt, muss nach dem Durchsuchen einer Website im QA-Modus Ihre [!DNL Target] Sitzung ablaufen oder Sie müssen [!DNL Target] aus dem QA-Modus freigeben, bevor Sie Ihre Site wie ein normaler Besucher anzeigen können. Verwenden Sie das QS [!DNL Target]-Lesezeichen, um das Beenden des QS-Modus zu erzwingen.
 
-So verwenden Sie die [!DNL Target] QA-Lesezeichen verwenden, erstellen Sie ein Lesezeichen, das den folgenden JavaScript-Code enthält, und fügen Sie es der Lesezeichensymbolleiste Ihres Browsers hinzu:
+Um das QS-Bookmarklet [!DNL Target] zu verwenden, erstellen Sie ein Lesezeichen mit dem folgenden JavaScript-Code und fügen Sie es der Lesezeichensymbolleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(
@@ -42,7 +42,7 @@ javascript:(
 )();
 ```
 
-Sie können sich auch manuell selbst aus dem QS-Modus lösen, indem Sie eine Seite auf Ihrer Site mit dem `at_preview_token` -Parameter mit einem leeren Wert.
+Sie können sich auch manuell selbst aus dem QA-Modus lösen, indem Sie eine Seite auf Ihrer Site mit dem Parameter `at_preview_token` mit einem leeren Wert laden.
 
 Beispiel:
 
@@ -50,9 +50,9 @@ Beispiel:
 
 ## Lesezeichenliste für Aktivitäts-QA für at.js 2.*x*  
 
-Im Gegensatz zu at.js 1.*x*, at.js 2.*x* unterstützt keine Drittanbieter-Cookies, und der QA-Modus ist nur für die Erstanbieterdomäne fixierbar (mithilfe eines Erstanbieter-Cookies, das von at.js gesetzt wird). Daher in at.js 2.*x*, wird die Sitzung im QA-Modus nur clientseitig verwaltet und es werden keine Cookies im QA-Modus an Target gesendet.
+Im Gegensatz zu at.js 1.*x*, at.js 2.*x* unterstützt keine Drittanbieter-Cookies, und der QA-Modus hängt nur für die Erstanbieter-Domäne an (mithilfe eines Erstanbieter-Cookies, das von at.js gesetzt wird). Daher in at.js 2.*x*: Die Sitzung im QS-Modus wird nur clientseitig verwaltet und es werden keine Cookies im QS-Modus an Target gesendet.
 
-So verwenden Sie die [!DNL Target] QA-Lesezeichen verwenden, erstellen Sie ein Lesezeichen, das den folgenden JavaScript-Code enthält, und fügen Sie es der Lesezeichensymbolleiste Ihres Browsers hinzu:
+Um das QS-Bookmarklet [!DNL Target] zu verwenden, erstellen Sie ein Lesezeichen mit dem folgenden JavaScript-Code und fügen Sie es der Lesezeichensymbolleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(

@@ -1,6 +1,6 @@
 ---
 keywords: Empfehlungen; Empfehlungen implementieren; Clientcode; Authentifizierungstoken; Branche vertikal; filtern inkompatiblen Modus; Standard-Hostgruppe; Miniaturbasis; Authentifizierungstoken generieren; Authentifizierungstoken;
-description: Erfahren Sie, wie Sie Einstellungen konfigurieren für [!DNL Adobe Target Recommendations].
+description: Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations] konfigurieren.
 title: Wie konfiguriere ich die Einstellungen für Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Administration & Configuration
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 ---
 
-# Einstellungen für [!DNL Recommendations]
+# Einstellungen für [!DNL Recommendations] konfigurieren
 
-Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations].
+Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations] konfigurieren.
 
-So greifen Sie auf die [!DNL Recommendations] Einstellungsoptionen, öffnen [!DNL Target] im [!DNL Adobe Experience Cloud]Klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Um auf die Einstellungsoptionen für [!DNL Recommendations] zuzugreifen, öffnen Sie [!DNL Target] in der [!DNL Adobe Experience Cloud] und klicken Sie dann auf [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Sie können die folgenden Einstellungen konfigurieren:
 
 * Clientcode angeben
-* Autorisierungstoken generieren für [!DNL Target] APIs
+* Autorisierungstoken für [!DNL Target] -APIs generieren
 * Branche oder Branche angeben
 * Filtern inkompatibler Kriterien
 * Festlegen der Standard-Hostgruppe

@@ -13,17 +13,17 @@ ht-degree: 35%
 
 # [!UICONTROL Time Frame]
 
-Sie können Start- und Enddaten und -zeiten in [!DNL Adobe Target] , um Benutzer anzusprechen, die Ihre Site während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
+Sie können Start- und Enddaten und -zeiten in [!DNL Adobe Target] hinzufügen, um Benutzer anzusprechen, die Ihre Site während eines bestimmten Zeitraums besuchen. Sie können außerdem Optionen für die Wochen- und Tagesaufteilung festlegen, um wiederkehrende Muster für das Zielgruppen-Targeting zu erstellen.
 
-Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)können Sie in den drei Tagen vor Black Friday spezielle Inhalte für wenig Geld ausgeben und nach Black Friday andere Inhalte bereitstellen.
+Beispielsweise können Sie mit der Funktion [kombinierte Ad-hoc-Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) wenig verbrauchte Personen in den drei Tagen vor Black Friday mit bestimmten Inhalten ansprechen und nach Black Friday andere Inhalte anzeigen.
 
-1. Im [!DNL Target] Benutzeroberfläche, klicken Sie auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] -Oberfläche auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Drag &amp; Drop **[!UICONTROL Time Frame]** in den Audience Builder-Bereich.
+1. Ziehen Sie **[!UICONTROL Time Frame]** in den Bereich Audience Builder .
 
-   ![target_timeframe_dialog-Bild](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
-1. Geben Sie die [!UICONTROL Start] und [!UICONTROL End] Datum und Uhrzeit für die Zielgruppe.
+1. Geben Sie Datum und Uhrzeit für [!UICONTROL Start] und [!UICONTROL End] für die Zielgruppe an.
 
    Lassen Sie das Startdatum frei, um das Targeting in Einklang mit dem Zeitplan der Aktivität zu beginnen. Lassen Sie das Enddatum frei, um so lange weiter Targeting zu betreiben, bis Enddatum und -zeit der Aktivität erreicht sind.
 
@@ -37,13 +37,13 @@ Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](
    >
    >* [!DNL Target] Zeitzielgruppen berücksichtigen keine Änderungen der Sommerzeit (Daylight Saving Time, DST). Sie müssen Zielgruppen manuell neu speichern, um DST-Änderungen zu berücksichtigen.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Set frequency]** um wiederkehrende Muster festzulegen, einschließlich Wochentage und Uhrzeiten.
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Set frequency]** , um wiederkehrende Muster festzulegen, einschließlich Wochentage und Uhrzeiten.
 
    ![Wochen- und Tagesaufteilung](assets/week_and_day_parting.png)
 
-   Sie können [!UICONTROL Frequency] -Optionen, um beispielsweise Besucher nur an den Tagen und Stunden, an denen Ihr Callcenter besetzt ist, die Option &quot;Jetzt chatten&quot;anzuzeigen.
+   Sie können beispielsweise [!UICONTROL Frequency] -Optionen verwenden, um Besuchern nur während der Tage und Stunden, an denen Ihr Callcenter besetzt ist, die Option &quot;Jetzt chatten&quot;anzuzeigen.
 
-   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicks **[!UICONTROL Add frequency]** um nach Bedarf zusätzliche Muster anzugeben.
+   Wählen Sie einen oder mehrere Wochentage aus und legen Sie dann die Start- und Endzeiten fest. Klicken Sie auf **[!UICONTROL Add frequency]** , um nach Bedarf weitere Muster anzugeben.
 
    >[!NOTE]
    >
@@ -55,7 +55,7 @@ Verwenden Sie beispielsweise die [Funktion für kombinierte Ad-hoc-Zielgruppen](
 
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
-## Schulungsvideo: Erstellen von Zielgruppen ![Übersichtszeichen](/help/main/assets/overview.png)
+## Schulungsvideo: Erstellen von Zielgruppen ![Badge &quot;Überblick&quot;](/help/main/assets/overview.png)
 
 Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 

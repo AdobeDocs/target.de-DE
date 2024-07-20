@@ -1,19 +1,19 @@
 ---
 keywords: MVT; Multivarianz-Test; Best Practices für Multivarianz-Test; Best Practices für MVT; MVT-Kombinationen; MVT-Berichte
-description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren können, die beim Erstellen und Ausführen auftreten können. [!UICONTROL Multivarianz-Test] Aktivitäten in [!DNL Adobe Target].
-title: Best Practices für eine [!UICONTROL Multivarianz-Test] Aktivität?
+description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren können, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] -Aktivitäten in  [!DNL Adobe Target] auftreten können.
+title: Welche Best Practices gelten für eine [!UICONTROL Multivariate Test] -Aktivität?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 70%
+source-wordcount: '610'
+ht-degree: 57%
 
 ---
 
-# [!UICONTROL Best Practices für Multivarianz-Tests]
+# [!UICONTROL Multivariate Test] Best Practices
 
-Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test(MVT)]-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
+Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] -Aktivitäten (MVT) in [!DNL Adobe Target] auftreten können.
 
 ## Planung  {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -46,14 +46,14 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 ## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Häufige Verwendung der [Location Contribution-Bericht](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) zur Überwachung der Leistung der einzelnen Orte und Angebote.
-* Basieren Sie Ihre Entscheidungen im [Experience Performance-Bericht](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) auf Daten, die bei Nutzung der Filter „Beste 5“ und „Schlechteste 5“ angezeigt werden.
+* Nutzen Sie den [Location Contribution-Bericht](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) regelmäßig, um die Leistung der einzelnen Orte und Angebote zu überwachen.
+* Basieren Sie Ihre Entscheidungen im Bericht [ Erlebnisleistung](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) auf den Daten, die mit den Filtern [!UICONTROL Best 5] und [!UICONTROL Worst 5] angezeigt werden.
 
-  Der Filter [!UICONTROL Alle] erschwert die Gewinnung der gewünschten Informationen und es ist nicht möglich, alle Erlebnisse im Diagramm anzuzeigen. Verwenden Sie den Filter [!UICONTROL Alle], wenn Sie ein spezifisches Erlebnis betrachten möchten, das nicht zu den besten oder schlechtesten fünf zählt.
+  Der Filter [!UICONTROL All] erschwert die Gewinnung der gewünschten Informationen und es ist nicht möglich, alle Erlebnisse im Diagramm anzuzeigen. Verwenden Sie den Filter [!UICONTROL All] , wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht zu den besten oder schlechtesten fünf zählt.
 
 ## Nachbereitung  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Obwohl [!DNL Target] ermöglicht die Bearbeitung einer aktiven Aktivität, sodass der Test zurückgesetzt werden kann, wenn eine laufende Aktivität bearbeitet wird. In Berichten werden einige der Änderungen möglicherweise nicht erkannt. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
+* Auch wenn [!DNL Target] es Ihnen ermöglicht, eine Live-Aktivität zu bearbeiten, kann die Bearbeitung einer laufenden Aktivität den Test zurücksetzen. In Berichten werden einige der Änderungen möglicherweise nicht erkannt. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
 
   Zu den spezifischen Aktionen, die Erlebnisnamen und Berichte zurücksetzen, gehören:
 

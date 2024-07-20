@@ -1,28 +1,28 @@
 ---
 keywords: Implementieren;Implementierung
-description: Erfahren Sie, wie Sie Adobe implementieren [!DNL Target] auf Ihrer Site. Legen Sie Ihre globalen Einstellungen, die Implementierungsmethode (AEP Web SDK oder at.js) und vieles mehr fest.
-title: Implementieren [!DNL Target] auf meiner Site?
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] auf Ihrer Site implementieren. Legen Sie Ihre globalen Einstellungen, die Implementierungsmethode (AEP Web SDK oder at.js) und mehr fest.
+title: Wie wird [!DNL Target] auf meiner Site implementiert?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 21%
+source-wordcount: '149'
+ht-degree: 10%
 
 ---
 
 # Implementierung
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Target], sollten Sie sie auf Ihrer Site implementieren und einige grundlegende Konzepte und Begriffe verstehen. mit der [!DNL Target] arbeitet und in Ihre Infrastruktur integriert ist; und verstehen, wie Besucher von der [!DNL Target] System.
+Bevor Sie mit der Verwendung von [!DNL Adobe Target] beginnen, sollten Sie diese auf Ihrer Site implementieren, sich mit einigen grundlegenden Konzepten und Begriffen sowie mit der Funktionsweise von [!DNL Target] und der Integration in Ihre Infrastruktur vertraut machen und verstehen, wie Besucher vom [!DNL Target]-System verfolgt werden.
 
 Weitere Informationen finden Sie in den verschiedenen Themen unter [Target implementieren](/help/main/c-implementing-target/implementing-target.md).
 
 >[!NOTE]
 >
->Tags in [!DNL Adobe Experience Platform] ist die bevorzugte Methode zur Implementierung von [!DNL Target]. Tags in [!DNL Adobe Experience Platform] sind die nächste Generation von Tag-Management-Funktionen von [!DNL Adobe]. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerlebnisse erforderlich sind. Weitere Informationen finden Sie unter [Implementierung [!DNL Target] using [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}.
+>Tags in [!DNL Adobe Experience Platform] ist die bevorzugte Methode zur Implementierung von [!DNL Target]. Tags in [!DNL Adobe Experience Platform] sind die nächste Generation von Tag-Management-Funktionen von [!DNL Adobe]. Mit Tags können Kunden die Analyse-, Marketing- und Werbe-Tags bereitstellen und verwalten, die für relevante Kundenerlebnisse erforderlich sind. Weitere Informationen finden Sie unter [Implementieren [!DNL Target] mit [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}.
 
-1. So greifen Sie auf die [!UICONTROL Implementierung] Seite, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
+1. Um auf die Seite [!UICONTROL Implementation] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
 1. Informationen zu den Einstellungen auf dieser Seite finden Sie unter [Implementieren von Target ohne einen Tag-Manager](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 

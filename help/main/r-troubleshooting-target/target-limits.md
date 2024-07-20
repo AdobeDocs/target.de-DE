@@ -1,14 +1,14 @@
 ---
 keywords: zeichenbeschränkung;mbox-parameter;batch-bereitstellungs-api;profilparameter;beschränkungen;integrierte profile;maximum;beschränkung;bedingung;zeichen;best practice;orderid;orderTotal;mbox3rdPartyID;kategorie;categoryID;fehlerbehebung
-description: Anzeigen einer Liste von Zeichenbeschränkungen und anderen Beschränkungen, die Aktivitäten und andere Elemente in [!DNL Adobe Target].
-title: Zeichen-, Größen- und andere Beschränkungen in [!DNL Adobe Target]?
+description: Zeigen Sie eine Liste mit Zeichenbeschränkungen und anderen Beschränkungen an, die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
+title: Was sind die verschiedenen Zeichen, Größen und sonstigen Beschränkungen in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 80%
+source-wordcount: '1693'
+ht-degree: 77%
 
 ---
 
@@ -78,19 +78,19 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
       * at.js:
          * Standardinhalt wird angezeigt
 
-* **Limit**: 50 Mboxes pro [!DNL Target] Batch-Mbox-Anfrage zur Inhaltsbereitstellung.
+* **Limit**: 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung.
 
-  mehr als 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung in der Mbox führt zu einem Antwort-Fehlercode `HTTP 400` mit Fehlermeldung `size must be between 0 and 50`.
+  Wenn mehr als 50 Mboxes pro Batch-Anfrage zur Inhaltsbereitstellung von Inhalt gesendet werden, wird der Antwortfehlercode `HTTP 400` mit der Fehlermeldung `size must be between 0 and 50` angezeigt.[!DNL Target]
 
   Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Mboxes für die Batch-Anforderung vorhanden sind, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Wenn das Erlebnis-Rendering bei diesen Batch-Anforderungen mit hoher Latenz blockiert wird, kann die Latenz zu einem eingeschränkten Benutzererlebnis führen, da Benutzer warten, bis Erlebnisse gerendert werden.
 
 * **Limit**: 60 MB HTTP-POST-Textgröße für [!DNL Target] Inhaltsbereitstellungsanfragen.
 
-  mehr als 60 MB auf der HTTP-POST-Textgröße eines [!DNL Target] Inhaltsbereitstellungsanfragen führen zu einem Antwort-Fehlercode `HTTP 413 Request Entity Too Large`.
+  Wenn mehr als 60 MB an der HTTP-POST-Textgröße einer [!DNL Target] Inhaltsbereitstellungsanfrage beteiligt sind, wird der Antwortfehlercode `HTTP 413 Request Entity Too Large` ausgegeben.
 
-* **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target] Batch-Versandanfrage.
+* **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target] Versand-Batch-Anforderung.
 
-  mehr als 50 Anmeldungen je [!DNL Target] Die Bereitstellungs-Batch-Anforderung führt wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
+  Wenn mehr als 50 Benachrichtigungen pro [!DNL Target] Versand-Batch-Anfrage gesendet werden, führt dies wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
 
   Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Benachrichtigungen über die Batch-Anfrage gesendet werden, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Einige zusätzliche Latenzzeiten bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein. Beachten Sie jedoch, dass Timeouts und alle nachfolgenden Neuversuche zu noch mehr Latenz führen können.
 
@@ -116,7 +116,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hart codiert oder in Schleife, beträgt 99.
 * Als empfohlenes Limit für die beste Performance gilt: Im Katalog sollten weniger als eine Million Elemente pro Umgebung und weniger als zehn Millionen Elemente in allen Umgebung gespeichert sein.
-* Das obere Limit beträgt zehn Millionen Elemente pro Umgebung und 100 Millionen Elemente für alle Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wird die Leistung der Benutzeroberfläche [!UICONTROL Katalogsuche] beeinträchtigt. [!DNL Target Recommendations] produziert und sendet jedoch weiterhin Empfehlungen.
+* Das obere Limit beträgt zehn Millionen Elemente pro Umgebung und 100 Millionen Elemente für alle Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wirkt sich dies auf die Leistung der Benutzeroberfläche von [!UICONTROL Catalog Search] aus. [!DNL Target Recommendations] produziert und sendet jedoch weiterhin Empfehlungen.
 
 ### Benutzerdefinierte Entitätsattribute
 
@@ -155,7 +155,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ### Erlebnisse pro Aktivität
 
-* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Erlebnis-Targeting] (XT), [!UICONTROL A/B-Test], [!UICONTROL Multivarianz-Test] (MVT) und [!UICONTROL Automatisches Targeting] -Aktivität.
+* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) und [!UICONTROL Auto-Target] Aktivität.
 
   30.000 Erlebnisse pro Automated Personalization (AP).
 
@@ -169,7 +169,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 256 Zeichen.
 
-  Werte mit mehr als 256 Zeichen werden bei Verwendung von at.js 1 abgeschnitten.*x*. Bei Verwendung von at.js 2 erhalten Sie eine Fehlermeldung, wenn Sie Werte mit mehr als 256 Zeichen senden.*x* oder [!DNL Adobe Experience Platform Web SDK]. Werte werden nicht automatisch abgeschnitten.
+  Werte mit mehr als 256 Zeichen werden bei Verwendung von at.js 1 abgeschnitten.*x*. Bei Verwendung von at.js 2 erhalten Sie eine Fehlermeldung, wenn Sie Werte mit mehr als 256 Zeichen senden.*x* oder den [!DNL Adobe Experience Platform Web SDK]. Werte werden nicht automatisch abgeschnitten.
 
 ### In-Mbox-Profilnamen
 
@@ -179,13 +179,13 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-  Für [!DNL Delivery API] (at.js 2.*x*), Batch-Mbox V2 und [!DNL Adobe Experience Platform Web SDK] Integrationen (allowed.js), Mbox-Namen *can* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
+  Für [!DNL Delivery API] (at.js 2.*x*), Batch-Integrationen der Mbox V2 und [!DNL Adobe Experience Platform Web SDK] (legierte.js), Mbox-Namen *can* enthalten alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Für at.js 1.*x* Integrationen, Mbox-Namen *cannot* enthält eines der folgenden Zeichen:
+  Für at.js 1.*x* Integrationen, Mbox-Namen *dürfen keines der folgenden Zeichen enthalten:*
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,7 +199,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
    * Mbox-Parameter: 500 Parameter pro Mbox.
    * Profilparameter: 500 Profilparameter pro Mbox.
-   * Andere Parameter (URL, verweisende URL usw.): 50 Parameter pro Mbox für jeden Parametertyp.
+   * Andere Parameter (URL, verweisende URL usw.): 50 pro Mbox für jeden anderen Parametertyp.
 
   Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
@@ -297,7 +297,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
-  Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie [!DNL Adobe Target].
+  Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie auf [!DNL Adobe Target] gesetzt wird.
 
 ## Skriptprofile
 
@@ -330,5 +330,5 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 ### Targeting-Regeln {#targeting-rules}
 
 * **Empfohlenes Limit**: 2.500 Zeichen pro Targeting-Regelwert.
-* **Empfohlenes Limit**: 50,000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
+* **Empfohlenes Limit**: 50.000 einmalige Werte pro Zielgruppe in Targeting-Regeln.
 * **Empfohlenes Limit**: 100.000 einmalige Werte für Targeting-Regeln pro Aktivität.

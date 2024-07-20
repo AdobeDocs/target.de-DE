@@ -14,63 +14,63 @@ ht-degree: 28%
 
 # [!UICONTROL Personalization Insights] Berichte
 
-Benutzer von [!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] (AT) Tätigkeiten: die [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes] Berichte.
+Für Benutzer der Aktivitäten [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] (AT) stehen zwei spezielle Berichte zur Verfügung: die Berichte [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes].
 
 ## Zu beachten
 
-Beachten Sie Folgendes bei der Verwendung von [!UICONTROL Personalization Insights] Berichte:
+Beachten Sie bei Verwendung von [!UICONTROL Personalization Insights] -Berichten Folgendes:
 
-* AP- und AT-Aktivitäten sind als Teil der [[!DNL Target Premium] Lösung](/help/main/c-intro/intro.md#premium). Sie sind nicht mit [!DNL Target Standard]ohne[!DNL Target Premium] Lizenz enthalten.
+* AP- und AT-Aktivitäten sind als Teil der [[!DNL Target Premium] Lösung](/help/main/c-intro/intro.md#premium) verfügbar. Sie sind nicht mit [!DNL Target Standard]ohne[!DNL Target Premium] Lizenz enthalten.
 
 * [!UICONTROL Personalization Insights] -Berichte sind nur für AP- und AT-Aktivitäten verfügbar, die wie folgt konfiguriert sind:
 
-   * [!DNL Target] reporting > [!UICONTROL Conversion]
+   * [!DNL Target] Berichterstellung > [!UICONTROL Conversion]
 
      Beispiel:
 
-     ![Zielberichte > Konversion](/help/main/c-reports/assets/conversion.png)
+     ![Target-Berichterstellung > Konversion](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] reporting > [!DNL Conversion]
-
-     Beispiel:
-
-     ![Analytics-Berichterstellung > Konversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
-
-   * [!DNL Analytics] reporting > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+   * [!DNL Analytics] Berichterstellung > [!DNL Conversion]
 
      Beispiel:
 
-     ![Verwenden einer Analytics-Metrik > Besuchskonversionsrate maximieren](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+     ![Analytische Berichterstellung > Konversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+
+   * [!DNL Analytics] Berichterstellung > [!UICONTROL Use an Analytics metric] > [!UICONTROL Maximize Visit Conversion Rate]
+
+     Beispiel:
+
+     ![Verwenden Sie eine Analytics-Metrik > Besuchskonversionsrate maximieren](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Auch Aktivitäten, deren Optimierungsziel von Konversion zu Umsatz geändert wurde, nachdem die Aktivität bereits live war, werden nicht unterstützt.
 
-* [!UICONTROL Personalization Insights] Berichte sind nur verfügbar, wenn die Variable [!UICONTROL Primary Goal] wird aus dem [!UICONTROL Report Metric] Dropdown-Liste.
+* [!UICONTROL Personalization Insights] -Berichte sind nur verfügbar, wenn die [!UICONTROL Primary Goal] aus der Dropdownliste [!UICONTROL Report Metric] ausgewählt ist.
 
-* [!UICONTROL Personalization Insights] Berichte werden in der [Standardumgebung](/help/main/administrating-target/hosts.md) nur.
+* [!UICONTROL Personalization Insights] -Berichte werden nur in der [Standardumgebung](/help/main/administrating-target/hosts.md) unterstützt.
 
-* [!UICONTROL Personalization Insights] -Berichte werden nur für Aktivitäten generiert, die sich im [!UICONTROL Live] und wurden mindestens 15 Tage lang aktiviert und erhalten Traffic.
+* [!UICONTROL Personalization Insights] -Berichte werden nur für Aktivitäten generiert, die sich im Status [!UICONTROL Live] befinden und die mindestens 15 Tage lang aktiviert wurden und Traffic erhalten.
 
-## Übersicht über die Berichte zu Personalization Insights {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
+## Übersicht über Personalization Insights-Berichte {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-Das Ziel der [!UICONTROL Personalization Insights] Berichte enthalten weitere Informationen darüber, wie die [!UICONTROL Target] Personalisierungsmodelle hinter Ihren AP- und AT-Aktivitäten personalisieren den Besuchertraffic. Die [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) bildet die Grundlage für die [!DNL Target] Personalisierungsmodelle.
+Ziel der [!UICONTROL Personalization Insights] -Berichte ist es, weitere Informationen dazu bereitzustellen, wie die [!UICONTROL Target] -Personalisierungsmodelle hinter Ihren AP- und AT-Aktivitäten den Besucher-Traffic personalisieren. Der [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) bildet die Grundlage für die [!DNL Target] -Personalisierungsmodelle.
 
-Da das Ziel der [!UICONTROL Personalization Insights] Berichte sollen verstehen, wie die [!DNL Target] Personalisierungsmodelle entschieden, welchen Besucher zu welchen Inhaltselementen, der [!UICONTROL Personalization Insights] Berichte enthalten nur ein Untersegment des gesamten Traffics, der von Ihrer AP- oder AT-Aktivität bereitgestellt wird. Genauer gesagt enthalten die beiden Berichte sämtlichen Traffic, der das Personalisierungsmodell genutzt hat. Mit anderen Worten: [!UICONTROL Personalization Insights] -Berichte berücksichtigen keinen Kontroll-Traffic oder Traffic, der vom Gesamt-Gewinnermodell bereitgestellt wird.
+Da der Zweck der [!UICONTROL Personalization Insights] -Berichte darin besteht, zu verstehen, wie die [!DNL Target]-Personalisierungsmodelle entschieden haben, welchen Besucher an welche Inhaltselemente zu senden, spiegeln die [!UICONTROL Personalization Insights] -Berichte nur ein Untersegment des gesamten durch Ihre AP- oder AT-Aktivität bereitgestellten Traffics wider. Genauer gesagt enthalten die beiden Berichte sämtlichen Traffic, der das Personalisierungsmodell genutzt hat. Mit anderen Worten: [!UICONTROL Personalization Insights] -Berichte berücksichtigen keinen Kontroll-Traffic oder Traffic, der vom Gesamt-Gewinnermodell bereitgestellt wird.
 
-Zwei [!UICONTROL Personalization Insights] Berichte sind verfügbar:
+Zwei [!UICONTROL Personalization Insights] -Berichte sind verfügbar:
 
 | Bericht | Details |
 |--- |--- |
-| [!UICONTROL Automated Segments] | Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP-/AT-Aktivität. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente durch die [!DNL Target] Personalisierungsmodelle reagierten auf die Angebote/Erlebnisse in der Aktivität. |
+| [!UICONTROL Automated Segments] | Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP-/AT-Aktivität. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den [!DNL Target] -Personalisierungsmodellen definiert wurden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben. |
 | [!UICONTROL Important Attributes] | In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig für die Personalisierungsentscheidung des Modells. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar. |
 
 ## Interpretieren von Attributen in Personalization Insights {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
 
-Es gibt zwei Arten von Attributen, die in [!UICONTROL Personalization Insights] Berichte, die in Ihren AP- oder AT-Modellen verwendet werden:
+Es gibt zwei Arten von Attributen, die in [!UICONTROL Personalization Insights] -Berichten dargestellt werden und in Ihren AP- oder AT-Modellen verwendet werden:
 
-* **Automatisch von Target erfasste Attribute:** [!DNL Target] verwendet einen Basisdatensatz, um seine Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md) für Datentypen, Beispielattribute und deren [!UICONTROL Personalization Insights] Namenskonvention. Beachten Sie, dass die Modelle einer einzelnen Aktivität zwar berücksichtigt werden, jedoch möglicherweise nicht alle diese Attribute im endgültigen Modell verwenden.
-* **An Target übergebene Attribute:** Siehe [Hochladen von Daten für die Target-Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Automatisch von Target erfasste Attribute:** [!DNL Target] verwendet einen Basisdatensatz, um seine Personalisierungsalgorithmen in AP- und AT-Aktivitäten zu erstellen, die in Personalization Insights angezeigt werden. Siehe [Datenerfassung für die Personalization-Algorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md) für Datentypen, Beispielattribute und ihre [!UICONTROL Personalization Insights] -Namenskonvention. Beachten Sie, dass die Modelle einer einzelnen Aktivität zwar berücksichtigt werden, jedoch möglicherweise nicht alle diese Attribute im endgültigen Modell verwenden.
+* **An Target übergebene Attribute:** Siehe [Hochladen von Daten für die Target Personalization-Algorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-[!DNL Target] bietet viele Möglichkeiten, zusätzliche Daten an [!DNL Target] Anreicherung des Basisdatensatzes, der zum Erstellen der Personalisierungsalgorithmen in AP- und AT-Aktivitäten verwendet wird:
+[!DNL Target] bietet viele Möglichkeiten, zusätzliche Daten an [!DNL Target] zu übergeben, um den Basisdatensatz anzureichern, der zum Erstellen seiner Personalisierungsalgorithmen in AP- und AT-Aktivitäten verwendet wird:
 
 | Datentyp | Beschreibung | Datentyp-Namenskonvention |
 |--- |--- |--- |
@@ -79,18 +79,18 @@ Es gibt zwei Arten von Attributen, die in [!UICONTROL Personalization Insights] 
 | Kundenattribute | Mithilfe von Kundenattributen können Sie Besucherprofildaten per FTP in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit Adobe Analytics und Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Gemeinsam genutzte Zielgruppen (Adobe Audience Manager oder Adobe Analytics) | Mittels Adobe Audience Manager oder Adobe Analytics erstellte und für Target freigegebene Zielgruppen. | `Custom - Experience Cloud Segment - [segment name]` |
 | Freigegebene Zielgruppen (Adobe Experience Platform/Echtzeit-Kundendatenplattform) | Zielgruppen, die über die Adobe Experience Platform/Echtzeit-Kundendatenplattform erstellt und über Ziele für Target freigegeben wurden. | `Custom - Adobe Experience Platform Segment - [segment name]` |
-| Freigegebene Attribute (Adobe Experience Platform/Echtzeit-Kundendatenplattform) | Attribute, die über die Adobe Experience Platform/Echtzeit-Kundendatenplattform erstellt und über Ziele für Target freigegeben wurden. Diese Funktion ist derzeit als Betaversion verfügbar. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
+| Freigegebene Attribute (Adobe Experience Platform/Echtzeit-Kundendatenplattform) | Attribute, die über die Adobe Experience Platform/Echtzeit-Kundendatenplattform erstellt und über Ziele für Target freigegeben wurden. Diese Funktion befindet sich derzeit in Beta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Aktivitätsinterne(s) Reporting-Zielgruppen/-Segment | Zielgruppen, die während der Einrichtung in &quot;Ziele und Metriken&quot;in Ihrer AP- oder AT-Aktivität definiert wurden. | `Custom - Reporting Segment - [segment name]` |
 
 ## Häufig gestellte Fragen  
 
-Liste der häufig gestellten Fragen zu [!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] [!UICONTROL Insights] Berichte.
+Liste der häufig gestellten Fragen zu Berichten vom Typ [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] [!UICONTROL Insights].
 
-### Wie lange Daten benötigen [!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] Modelle bestehen fort?
+### Wie lange bleiben Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] erhalten?
 
-[!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] -Modelle werden an den letzten 45 Tagen des Benutzerverhaltens (Benutzerprofile, Impressionsereignisse und Konversionsereignisse) für die Aktivität trainiert.
+Die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] werden an den letzten 45 Tagen des Benutzerverhaltens (Benutzerprofile, Impressionsereignisse und Konversionsereignisse) für die Aktivität trainiert.
 
-[!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] -Modelle speichern das Benutzerverhalten, Schulungsdatensätze und Modellentscheidungen 90 Tage lang, um [!UICONTROL Insights] Berichte. Nach 90 Tagen werden Trainings-Datensätze und Modellentscheidungen verworfen. [!UICONTROL Automated Personalization] AP und [!UICONTROL Auto-Target] -Modelle behalten außerdem aggregierte Erlebnis-/Angebotseindruck- und Konversionsdaten für Berichterstellungszwecke für zwei Jahre bei. Diese Daten sind nur aggregierte Daten und enthalten keine Profildaten auf individueller Ebene.
+Die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] behalten das Benutzerverhalten, Trainings-Datensätze und Modellentscheidungen 90 Tage lang bei, um [!UICONTROL Insights] -Berichte zu erstellen. Nach 90 Tagen werden Trainings-Datensätze und Modellentscheidungen verworfen. Die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] behalten außerdem aggregierte Impressions- und Konversionsdaten auf Erlebnis-/Angebotsebene für Berichtszwecke für zwei Jahre bei. Diese Daten sind nur aggregierte Daten und enthalten keine Profildaten auf individueller Ebene.
 
 ## Schulungsvideo: Verwenden der Personalization Insights-Berichte ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -100,6 +100,6 @@ Weitere Informationen finden Sie unter [Verwenden der Personalization Insights-B
 
 ## Adobe Blogs
 
-* Teil 1: [Das Mysterium aus dem Zauber der KI-gestützten Personalisierung holen](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Teil 2: [Einen Blick hinter den Vorhang der KI für die Personalisierung in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Teil 3: [MAGIX - die Lösung für das Black Box-Problem der KI-gestützten Personalisierung](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Teil 1: [Das Mysterium aus dem Zauber der KI-gesteuerten Personalization holen](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Teil 2: [Eine Aussicht hinter dem Vorhang der KI für Personalization in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Teil 3: [MAGIX — The Solution to the Black Box issue of AI-Driven Personalization](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

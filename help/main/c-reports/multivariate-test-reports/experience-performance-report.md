@@ -1,13 +1,13 @@
 ---
 keywords: Multivariater Tests; MVT; Experience Performance-Bericht
-description: Erfahren Sie, wie Sie den Experience Performance-Bericht für die Adobe verwenden. [!DNL Target] Erlebnis-Targeting-Aktivitäten, die zeigen, wie die einzelnen Erlebnisse in der Aktivität funktionieren.
+description: Erfahren Sie, wie Sie den Experience Performance-Bericht für Adobe [!DNL Target] Erlebnis-Targeting-Aktivitäten verwenden, die zeigen, wie die einzelnen Erlebnisse in der Aktivität funktionieren.
 title: Wie verwende ich den Experience Performance-Bericht für Multivarianz-Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 88%
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 Der Experience Performance-Bericht zeigt, wie die einzelnen Erlebnisse in der Aktivität funktionieren. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 
-Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau]**, um das Erlebnis in einer Registerkarte des Browsers zu öffnen.
+Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Preview]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
 
 ![Experience Performance-Bericht in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 

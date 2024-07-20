@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 100%
+source-wordcount: '1320'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,6 @@ Hilfreiche Informationen dazu, wie Sie bei der Verwendung von [!DNL Adobe Analyt
 >* Experience Cloud-Besucher-ID-Service: visitorAPI.js, Version 2.3.0 oder neuer.
 >* Adobe Analytics: appMeasurement.js, Version 2.1.
 >* Adobe Target: at.js-Version 0.9.6 oder höher (ausgenommen Version 1.1.0 bei der Verwendung von Umleitungsangeboten mit A4T).
-
 
 ## Was hat sich geändert? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -56,7 +55,7 @@ Wenn Sie das Entstehen partieller Daten reduzieren möchten, folgen Sie diesen S
 | ![Schritt 1](assets/step1_icon.png) | Stellen Sie sicher, dass die in [!DNL Target] ausgewählte Report Suite der Report Suite auf den Seiten entspricht, auf denen die Aktivität angezeigt wird. |
 | ![Schritt 2](assets/step2_icon.png) | Stellen Sie sicher, dass die Bibliotheken visitorAPI.js, appMeasurement.js und at.js in A4T-kompatiblen Versionen vorliegen. Weitere Informationen zu Implementierungsanforderungen finden Sie unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Schritt 3](assets/step3_icon.png) | Stellen Sie sicher, dass die SDID in sämtlichen [!DNL Target]- und [!DNL Analytics]-Aufrufen festgelegt ist, die die Seite verlassen. Und achten Sie auch darauf, dass die SDID-Angaben übereinstimmen.<br/>Verwenden Sie ein Netzwerkanalyse- oder Debugging-Werkzeug, um zu überprüfen, ob der `mboxMCSDID`-Parameter in den [!DNL Target]-Aufrufen mit dem SDID-Parameter im [!DNL Analytics]-Aufruf übereinstimmt. |
-| ![Schritt 4](assets/step4_icon.png) | Überzeugen Sie sich, dass die Bibliotheken für die Implementierung in der richtigen Reihenfolge in Ihren Websites geladen werden. Weitere Informationen finden Sie unter  [Analytics for Target-Implementierung](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![Schritt 4](assets/step4_icon.png) | Überzeugen Sie sich, dass die Bibliotheken für die Implementierung in der richtigen Reihenfolge in Ihren Websites geladen werden. Weitere Informationen finden Sie unter [Analytics für die Target-Implementierung](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Wie lässt sich feststellen, wie viele partielle Daten man hat? {#section_89B663E2824A4805AB934153508A0F4B}
 

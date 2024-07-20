@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # Besucherprofile
 
-Besucherprofile in [!DNL Adobe Target] enthalten Informationen darüber, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsstandorte verwenden.
+Besucherprofile in [!DNL Adobe Target] enthalten Informationen darüber, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
 
-Wenn [!DNL Target] wird zusammen mit anderen [!DNL Adobe Experience Cloud] Lösungen, z. B. [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] gibt Besucherinformationen lösungsübergreifend frei.
+Wenn [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] -Lösungen wie [!DNL Adobe Analytics] verwendet wird, gibt [!DNL Experience Cloud Audiences] Besucherinformationen lösungsübergreifend frei.
 
-Standardmäßig ist [!DNL Target] Profilinformationen werden in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
+Standardmäßig werden [!DNL Target] -Profilinformationen in einem Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
 
 Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 

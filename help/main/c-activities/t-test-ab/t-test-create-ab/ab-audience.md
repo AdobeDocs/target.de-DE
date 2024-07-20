@@ -1,25 +1,25 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Zielgruppe bestimmt, welche Site-Besucher in Ihre Adobe eingegeben werden. [!DNL Target] -Aktivität.
-title: Wie wähle ich eine Zielgruppe in einer [!DNL Target] A/B-Aktivität?
+description: Die Zielgruppe bestimmt, welche Site-Besucher in Ihre Adobe [!DNL Target] Aktivität eingegeben werden.
+title: Wie wähle ich eine Zielgruppe in einer [!DNL Target] A/B-Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 70%
+source-wordcount: '425'
+ht-degree: 64%
 
 ---
 
 # Zielgruppenauswahl
 
-Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target] -Aktivität.
+Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target] -Aktivität eingegeben werden.
 
 >[!NOTE]
 >
 >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Im [!UICONTROL Zielgruppe] und klicken Sie auf das **[!UICONTROL Bearbeiten]** Symbol (die vertikalen Auslassungspunkte), und klicken Sie dann auf **[!UICONTROL Zielgruppe ersetzen]**.
+1. Klicken Sie im Feld [!UICONTROL Audience] auf das Symbol **[!UICONTROL Edit]** (die vertikale Ellipse) und dann auf **[!UICONTROL Replace Audience]**.
 
    ![Option „Zielgruppe ersetzen“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
@@ -30,17 +30,17 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target] -Aktiv
    * Auswählen einer Zielgruppe aus der Bibliothek
    * [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
    * [Neue Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Erstellen einer Zielgruppe „Nur Aktivität“](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   * [Erstellen einer Zielgruppe &quot;Nur Aktivität&quot;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   Wählen Sie für einen A/B-Test ohne spezifisches Zielgruppen-Targeting die Standardeinstellung, [!UICONTROL Alle Besucher].
+   Wählen Sie für einen A/B-Test ohne spezifisches Zielgruppen-Targeting den Standardwert [!UICONTROL All Visitors].
 
-   Sie können eine Zielgruppe auch bearbeiten oder kopieren, indem Sie den Mauszeiger über die gewünschte Zielgruppe im [!UICONTROL Zielgruppe hinzufügen] wie unten dargestellt.
+   Sie können eine Zielgruppe auch bearbeiten oder kopieren, indem Sie den Mauszeiger über die gewünschte Zielgruppe im Dialogfeld [!UICONTROL Add Audience] bewegen, wie unten dargestellt.
 
    Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
 
    ![Symbol für Zielgruppe](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. under [!UICONTROL Benutzerdefinierte Parameter], wählen Sie die Mbox aus und geben Sie dann die gewünschten Parameter an.
+   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter &quot;[!UICONTROL Custom Parameters]&quot;die Mbox aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target] -Aktiv
 
    ![Prozentsatz für Zielgruppen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   Sie können sich außerdem dafür entscheiden, Target  [automatisch Traffic zuweisen zu lassen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   Sie können auch festlegen, dass Target [Traffic automatisch zuordnet](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 

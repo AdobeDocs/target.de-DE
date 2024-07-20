@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud; Anmelden; Sprache; Standardsprache der Benutzeroberfläche; Standardsprache
-description: Erfahren Sie, wie Sie auf [!DNL Target] aus der Adobe Experience Cloud, legen Sie Ihre Standardansicht fest und ändern Sie die Sprache der [!DNL Target] Benutzeroberfläche und Dokumentation.
+description: Erfahren Sie, wie Sie über Adobe Experience Cloud auf [!DNL Target] zugreifen, Ihre Standardansicht festlegen und die Sprache der Benutzeroberfläche und Dokumentation von [!DNL Target] ändern können.
 title: Wie greife ich über Adobe Experience Cloud auf  [!DNL Target]  zu?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 94%
+source-wordcount: '399'
+ht-degree: 74%
 
 ---
 
@@ -19,27 +19,27 @@ Informationen über den Zugriff auf [!DNL Adobe Target] von [!DNL Adobe Experien
 
 1. Melden Sie sich bei [Adobe Experience Cloud](https://experience.adobe.com/) an.
 
-1. Klicken Sie in der Navigationsleiste auf das **[!UICONTROL App-Symbol]** und dann auf **[!UICONTROL Target]**.
+1. Klicken Sie in der Navigationsleiste auf den Wert **[!UICONTROL App icon]** und dann auf **[!UICONTROL Target]**.
 
    Sie können auch auf das [!DNL Target]-Bedienfeld im Hauptfenster klicken, um auf [!DNL Target] zuzugreifen (genauso wie auf jede andere [!DNL Adobe Experience Cloud]-Lösung, auf die Sie Zugriff haben).
 
    ![Anwendungssymbol](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Optional) Stellen Sie ein, dass [!DNL Target] nach der Anmeldung in [!DNL Experience Cloud] als Standardansicht erscheint, indem Sie unter Ihrem Profilavatar auf **[!UICONTROL Profil bearbeiten]** klicken und anschließend Ihre bevorzugte Landingpage angeben.
+1. (Optional) Um [!DNL Target] als Standardansicht festzulegen, wenn Sie sich bei [!DNL Experience Cloud] anmelden, klicken Sie unter Ihrem Profilavatar auf **[!UICONTROL Edit Profile]** und legen Sie dann Ihre bevorzugte Landingpage fest.
 
    ![Landingpage](/help/main/c-intro/assets/pagepref-new.png)
 
-## Standardsprache für die [!DNL Target]-Benutzeroberfläche ändern {#language}
+## Standardsprache für die Benutzeroberfläche von [!DNL Target] ändern {#language}
 
-1. Nachdem Sie sich bei [!DNL Adobe Experience Cloud ] oder [!DNL Target] angemeldet haben, klicken Sie auf Ihren Profilavatar und dann auf **[!UICONTROL Voreinstellungen bearbeiten]**.
+1. Nachdem Sie sich bei [!DNL Adobe Experience Cloud] oder [!DNL Target] angemeldet haben, klicken Sie auf Ihren Profilavatar und dann auf **[!UICONTROL Edit Preferences]**.
 
    ![Profil bearbeiten](/help/main/c-intro/assets/change-language.png)
 
-1. Klicken Sie auf **[!UICONTROL Adobe-Konto]**, um auf Ihr [!DNL Adobe]-Profil zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Adobe Account]** , um auf Ihr [!DNL Adobe] -Profil zuzugreifen.
 
    ![Adobe-Konto](/help/main/c-intro/assets/adobe-account.png)
 
-1. Klicken Sie oben in der Menüleiste auf die Registerkarte **[!UICONTROL Benachrichtigungen]** und dann auf der linken Seite auf die Registerkarte **[!UICONTROL Voreinstellungen]**.
+1. Klicken Sie in der oberen Menüleiste auf die Registerkarte **[!UICONTROL Notifications]** und dann links auf die Registerkarte **[!UICONTROL Preferences]** .
 
    ![Bevorzugte Sprachen](/help/main/c-intro/assets/prefered-language.png)
 
@@ -60,11 +60,11 @@ Informationen über den Zugriff auf [!DNL Adobe Target] von [!DNL Adobe Experien
    * Traditionelles Chinesisch
    * Koreanisch
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 1. Melden Sie sich von [!DNL Adobe Experience Cloud] oder [!DNL Target] ab und melden Sie sich wieder neu an, damit die Änderungen wirksam werden.
 
-## Ändern der Sprache für die [!DNL Target]-Produktdokumentation {#doc-lang}
+## Sprache für die [!DNL Target] -Produktdokumentation ändern {#doc-lang}
 
 Ihr Betriebssystem oder Ihre Browser-Einstellungen sollten Ihre bevorzugte Sprache erkennen und die Dokumentation in dieser Sprache anzeigen (falls verfügbar). Die Dokumentation zu [!DNL Target] wird automatisch übersetzt. Änderungen an der englischsprachigen Originaldokumentation sind daher innerhalb weniger Stunden auch in den landessprachlichen Versionen enthalten.
 

@@ -1,99 +1,99 @@
 ---
 keywords: Verhaltensdatenquelle; Analysen; Empfehlungen; Kriterien; Produktvariablen
-description: Erfahren Sie, wie Sie [!DNL Adobe Analytics] als Verhaltensdatenquelle zur Verwendung der ansichtsbasierten und/oder kaufbasierten Verhaltensdaten aus [!DNL Analytics] in [!DNL Target Recommendations].
-title: Verwendung [!DNL Adobe Analytics] mit [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: Erfahren Sie, wie Sie  [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwenden können, um die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten aus  [!DNL Analytics] in [!DNL Target Recommendations] zu verwenden.
+title: Wie verwende ich [!DNL Adobe Analytics] mit [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 2%
+source-wordcount: '778'
+ht-degree: 1%
 
 ---
 
-# Verwendung [!DNL Adobe Analytics] mit [!DNL Recommendations]
+# Verwenden Sie [!DNL Adobe Analytics] mit [!DNL Recommendations]
 
-Verwenden [!DNL Adobe Analytics] als Verhaltens-Datenquelle, über die Kunden die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten aus [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] Aktivitäten. Diese Funktion ist besonders hilfreich in Situationen, in denen die Variable [!DNL Target Recommendations] Setup ist neu und [!DNL Analytics] verfügt über viele zu verwendende historische Daten.
+Durch Verwendung von [!DNL Adobe Analytics] als Verhaltens-Datenquelle können Kunden die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten aus [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] -Aktivitäten verwenden. Diese Funktion ist besonders hilfreich in Situationen, in denen das [!DNL Target Recommendations]-Setup neu ist und [!DNL Analytics] viele historische Daten verwendet.
 
-Verwenden [!DNL Analytics] da die Verhaltensdatenquelle als umfassende Quelle von Informationen über das Benutzerverhalten dienen kann. Diese Informationen können Daten aus einer Drittanbieterquelle oder einem Feed enthalten, die/der nur für [!DNL Analytics].
+Die Verwendung von [!DNL Analytics] als Verhaltensdatenquelle kann als umfassende Informationsquelle zum Benutzerverhalten dienen. Diese Informationen können Daten aus einer Drittanbieterquelle oder einem Feed enthalten, die/der nur für [!DNL Analytics] freigegeben ist.
 
-while [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations]gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL Mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Kriterien] > [!UICONTROL Erstellen von Kriterien] > [!UICONTROL Erstellen von Kriterien]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Beim Erstellen von Kriterien ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) in [!DNL Recommendations] gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. [ Um ein Kriterium zu erstellen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
-![Schaltflächen für Verhaltensdatenquellen](assets/behavioral-data-source.png)
+![Schaltflächen für die Verhaltens-Datenquelle](assets/behavioral-data-source.png)
 
 >[!NOTE]
 >
->Wenn diese beiden Schaltflächen nicht in Ihrem Konto angezeigt werden, wenden Sie sich an [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+>Wenn diese beiden Schaltflächen nicht in Ihrem Konto angezeigt werden, wenden Sie sich an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 ## Anwendungsfälle für Analytics-Daten in Target
 
-Verwenden [!DNL Analytics] als Verhaltens-Datenquelle für Empfehlungen können Sie auch bestimmte Anwendungsfälle bereitstellen, ohne dass Entitätsseiten mit allen [!DNL Target] Entitätsparameter. Obwohl dies bestimmte Voraussetzungen erfordert, ist die Verfügbarkeit von &quot;Produktvariablen&quot;das wichtigste Element, damit diese Funktion nahtlos funktioniert. Reguläre eVars und Props reichen nicht aus, damit dieser Handshake zwischen [!DNL Analytics] und [!DNL Target].
+Durch die Verwendung von [!DNL Analytics] als Verhaltens-Datenquelle für Empfehlungen können Sie auch bestimmte Anwendungsfälle bereitstellen, ohne dass Entitätsseiten mit allen Entitätsparametern von [!DNL Target] markiert werden müssen. Obwohl dies bestimmte Voraussetzungen erfordert, ist die Verfügbarkeit von &quot;Produktvariablen&quot;das wichtigste Element, damit diese Funktion nahtlos funktioniert. Reguläre eVars und Props reichen nicht aus, damit dieser Handshake automatisch zwischen [!DNL Analytics] und [!DNL Target] auftritt.
 
-Sie können [!DNL Analytics] als Verhaltens-Datenquelle zu:
+Sie können [!DNL Analytics] als Verhaltens-Datenquelle verwenden, um:
 
-* Zeigen Sie Benutzern auf einer Produktdetailseite Empfehlungen auf einer Einzelhandelssite an, je nachdem, was andere Benutzer im letzten Monat von derselben Kategorie gekauft haben, indem Sie [!DNL Analytics] Daten.
-* Anzeigen von Inhalten auf dem Startbildschirm einer Medien-Site für den beliebtesten Inhalt einer bestimmten Kategorie, die derzeit als Trend verfolgt wird, basierend auf [!DNL Analytics] Daten.
+* Zeigen Sie den Benutzern auf einer Einzelhandelssite Empfehlungen auf einer Produktdetailseite an, basierend darauf, was andere Benutzer im letzten Monat unter Verwendung von [!DNL Analytics] -Daten von derselben Kategorie gekauft haben.
+* Zeigen Sie Inhalte auf dem Startbildschirm einer Medien-Site für den beliebtesten Inhalt einer bestimmten Kategorie an, der derzeit auf der Grundlage von [!DNL Analytics] -Daten als Trend läuft.
 
 ## Implementierung in [!DNL Analytics]
 
-Die folgenden Abschnitte helfen Ihnen bei der Implementierung dieser Funktion in [!DNL Analytics] Seite.
+Die folgenden Abschnitte helfen Ihnen bei der Implementierung dieser Funktion auf der Seite [!DNL Analytics] .
 
-### Voraussetzungen: Produktvariablen einrichten in [!DNL Analytics]
+### Voraussetzungen: Einrichten von Produktvariablen in [!DNL Analytics]
 
-Implementieren von Produktvariablen in [!DNL Analytics] mit den erforderlichen Attributen, die für [!DNL Target Recommendations].
+Implementieren Sie Produktvariablen in [!DNL Analytics] mit den erforderlichen Attributen, die für [!DNL Target Recommendations] erforderlich sind.
 
-A [!DNL Target Recommendations] Das Beispiel-Feed-Format dient als Leitfaden, zu dem alle Attribute in den Produktvariablen definiert werden müssen. Später müssen diese Werte im [!DNL Target] Benutzeroberfläche für die entsprechenden [!DNL Target] Entitätswerte.
+Ein Beispiel-Feed-Format [!DNL Target Recommendations] dient als Anleitung, anhand dessen alle Attribute in den Produktvariablen definiert werden müssen. Später müssen diese Werte in der Benutzeroberfläche von [!DNL Target] für die jeweiligen [!DNL Target]-Entitätswerte &quot;zugeordnet&quot;werden.
 
 >[!NOTE]
 >
 >Wenn es sich um eine Inhalts-Site handelt, müssen die jeweiligen Inhaltselemente als &quot;Produkte&quot;behandelt und die zugehörigen Attribute zu diesem Inhalt müssen als Attribute übergeben werden. Zu diesen Attributen können der Name des Autors, das Veröffentlichungsdatum, der Titel des Inhalts, der Veröffentlichungsmonat usw. gehören. Die Granularität der Kategoriestufe oder Kategorietypen sollte vom Unternehmen auf der Grundlage von Anwendungsfallanforderungen festgelegt werden.
 
-Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im *Implementieren von Adobe Analytics* Handbuch. Einige der Hinweise in dieser Dokumentation erfordern einen Ermessensspielraum des Teams, das sie bereitstellt (Beispiel: Kategorie). Es wird immer empfohlen, sich mit [!DNL Adobe] vor dieser Aktivität.
+Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im Handbuch *Adobe Analytics implementieren* . Einige der Hinweise in dieser Dokumentation erfordern ein Ermessen des Teams, das sie bereitstellt (Beispiel: Kategorie). Es wird immer empfohlen, sich mit [!DNL Adobe] zu beraten, bevor Sie diese Aktivität durchführen.
 
 ### Zu beachten
 
-[!DNL Analytics] Daten werden über einen täglichen Feed gesendet. Es kann bis zu 24 Stunden dauern, bis die Verhaltensergebnisse in den Empfehlungsergebnissen auf Ihrer Site widergespiegelt werden. Wie bei allen [!DNL Recommendations] -Kriterieneinstellungen festgelegt ist, kann und sollte diese Datenquelle getestet werden.
+[!DNL Analytics] -Daten werden über einen täglichen Feed gesendet. Es kann bis zu 24 Stunden dauern, bis die Verhaltensergebnisse in den Empfehlungsergebnissen auf Ihrer Site widergespiegelt werden. Wie bei allen [!DNL Recommendations] -Kriterieneinstellungen kann und sollte diese Datenquelle getestet werden.
 
-Für eine schnelle Entscheidungsfindung darüber, welche Datenquelle verwendet werden soll, wenn täglich viele organische Daten von den Benutzern generiert werden und nicht viel Abhängigkeit von historischen Daten erforderlich ist, verwenden Sie eine [!DNL Target] Mbox als Verhaltens-Datenquelle geeignet sein. Wenn die Verfügbarkeit organischer Daten, die kürzlich generiert wurden, geringer ist, wenn Sie auf [!DNL Analytics] -Daten und dann mithilfe der [!DNL Analytics] da die Verhaltensdatenquelle gut geeignet ist.
+Für eine schnelle Entscheidungsfindung darüber, welche Datenquelle verwendet werden soll, wenn täglich viele organische Daten von Benutzern generiert werden und nicht viel Abhängigkeit von historischen Daten erforderlich ist, kann die Verwendung einer [!DNL Target] -Mbox als Verhaltens-Datenquelle eine gute Idee sein. Wenn Sie in letzter Zeit weniger organische Daten generieren und auf [!DNL Analytics]-Daten zurückgreifen möchten, empfiehlt sich die Verwendung von [!DNL Analytics] als Verhaltens-Datenquelle.
 
-Jetzt ist es an der Zeit, diese Variablen [!DNL Target] zur kontinuierlichen Bereitstellung von Verhaltensdaten.
+Jetzt ist es an der Zeit, diese Variablen für die kontinuierliche Bereitstellung von Verhaltensdaten auf [!DNL Target] Seite zuzuordnen.
 
 ## Implementieren in [!DNL Target]
 
-1. In [!DNL Target]klicken **[!UICONTROL Recommendations]** und klicken Sie dann auf **[!UICONTROL Feeds]** Registerkarte.
+1. Klicken Sie in [!DNL Target] auf **[!UICONTROL Recommendations]** und dann auf die Registerkarte **[!UICONTROL Feeds]**.
 
    ![Feeds](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
 
-1. Klicken **[!UICONTROL Feed erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Create Feed]**.
 
-1. Auswählen **[!UICONTROL Analytics Classifications]** und geben Sie dann die Report Suite an.
+1. Wählen Sie &quot;**[!UICONTROL Analytics Classifications]**&quot;und geben Sie dann die Report Suite an.
 
    ![Option &quot;Analytics Classifications&quot;](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
-1. Klicken **[!UICONTROL Nächste]** , um **[!UICONTROL Zeitplan]** festlegen, wählen Sie einen Zeitraum für die Häufigkeit für den Feed aus:
+1. Klicken Sie auf **[!UICONTROL Next]** , um zu den Einstellungen für **[!UICONTROL Schedule]** zu wechseln. Wählen Sie dann einen Frequenzzeitraum für den Feed aus:
 
-   * [!UICONTROL Täglich]
-   * [!UICONTROL Wöchentlich]
-   * [!UICONTROL Alle 2 Wochen]
-   * [!UICONTROL Nie]
+   * [!UICONTROL Daily]
+   * [!UICONTROL Weekly]
+   * [!UICONTROL Every 2 weeks]
+   * [!UICONTROL Never]
 
    Sie können auch die Tageszeit für die Verarbeitung des Feeds auswählen.
 
-1. Klicken **[!UICONTROL Nächste]** , um  **[!UICONTROL Zuordnung]** Einstellungen und ordnen Sie dann die Feldspaltenüberschriften den entsprechenden zu. [!UICONTROL Recommendations] Feldnamen.
+1. Klicken Sie auf **[!UICONTROL Next]** , um zu den Einstellungen für **[!UICONTROL Mapping]** zu wechseln, und ordnen Sie dann die Spaltenüberschriften der Felder den entsprechenden [!UICONTROL Recommendations] Feldnamen zu.
 
    ![Zuordnungsabschnitt](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Häufig gestellte Fragen  
 
-Beachten Sie die folgenden häufig gestellten Fragen bei der Verwendung von [!DNL Analytics] mit [!DNL Target]:
+Beachten Sie die folgenden häufig gestellten Fragen, wenn Sie [!DNL Analytics] mit [!DNL Target] verwenden:
 
-### Sind die `entity.id` und `entity.categoryId` Werte, die innerhalb der [!DNL Target] Mbox-Aufruf?
+### Müssen die Werte `entity.id` und `entity.categoryId` innerhalb des Mbox-Aufrufs [!DNL Target] übergeben werden?
 
-Ja, diese beiden Werte sind weiterhin erforderlich. Die übrigen Attribute können über eine [!DNL Analytics] Feed, wie in diesem Dokument beschrieben.
+Ja, diese beiden Werte sind weiterhin erforderlich. Die übrigen Attribute können über einen [!DNL Analytics] -Feed übergeben werden, wie in diesem Dokument beschrieben.
 
-### Kann ich dynamische Einschlussregeln verwenden, z. B. Entitätsparameter stimmt mit Profilattributen mit der [!DNL Analytics] Feed-Ansatz?
+### Kann ich dynamische Einschlussregeln verwenden, z. B. Entitätsparameter stimmt mit Profilattributen über den Feed-Ansatz [!DNL Analytics] überein?
 
-Ja, das kannst du. Die Methode ist bei Verwendung von [!DNL Target] eigenständig. In diesem Fall müssen Sie jedoch auf den Zeitfaktor achten. Die Entitätsvariablen, die mit den Profilvariablen übereinstimmen sollen, hängen von der Datenschicht ab, die viel später auf der Seite angezeigt werden kann.
+Ja, das kannst du. Die Methode ist bei Verwendung von eigenständigem [!DNL Target] ähnlich. In diesem Fall müssen Sie jedoch auf den Zeitfaktor achten. Die Entitätsvariablen, die mit den Profilvariablen übereinstimmen sollen, hängen von der Datenschicht ab, die viel später auf der Seite angezeigt werden kann.

@@ -105,7 +105,7 @@ Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Impl
 
 Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, können Sie eine andere Art von Konversionsereignis verfolgen, z. B. das Herunterladen einer PDF, das Abschließen einer Umfrage, das Abonnieren eines Newsletters, das Ansehen eines Videos usw.
 
-Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Ist dies nicht der Fall, ist es am einfachsten, dies mithilfe eines Tag-Managers wie Tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Es ist auch möglich, Offline- oder In-App-Interaktionen an [!DNL Target] über die Echtzeit-API.
+Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Ist dies nicht der Fall, ist es am einfachsten, dies mithilfe eines Tag-Managers wie Tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank} einzurichten. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
 
 ### Erhalten von Empfehlungen mit dem richtigen Kontext
 
@@ -129,7 +129,7 @@ Eine [!DNL Recommendations]-Aktivität besteht aus folgenden Komponenten:
 
 ![Abbildung einer Recommendations-Aktivität: Zielgruppen, Kriterien und Designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Wir hatten früher [Webinare zum Erstellen von Zielgruppen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
+Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Wir hatten frühere [Webinare zum Erstellen von Zielgruppen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
 
 Target verwendet das Konzept einer Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
 

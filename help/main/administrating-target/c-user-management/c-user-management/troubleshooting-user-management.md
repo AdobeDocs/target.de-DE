@@ -7,8 +7,8 @@ role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 100%
+source-wordcount: '83'
+ht-degree: 65%
 
 ---
 
@@ -18,4 +18,4 @@ Informationen zur Fehlerbehebung bei der Benutzerverwaltung in Adobe Target
 
 ## Ich habe einen Benutzer zu Target eingeladen, der entsprechende Name erscheint jedoch nicht in der Benutzerliste (Administration > Benutzer). {#section_13A1A9697BA44537BA569C81CF136160}
 
-Der neue Benutzer wird erst auf der Seite [!UICONTROL Benutzer] aufgeführt, wenn er sich bei seinem Adobe Experience Cloud-Konto anmeldet und sich anschließend in [!DNL Target Standard/Premium] anmeldet.
+Der neue Benutzer wird erst dann auf der Seite [!UICONTROL Users] angezeigt, wenn sich der Benutzer mit seinem Adobe Experience Cloud-Konto anmeldet und sich anschließend bei [!DNL Target Standard/Premium] anmeldet.

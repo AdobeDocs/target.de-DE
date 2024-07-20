@@ -6,38 +6,38 @@ feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 53%
+source-wordcount: '412'
+ht-degree: 49%
 
 ---
 
 # Erstellen einer Zielgruppe zum Profilattributvergleich
 
-Definieren einer Zielgruppe in [!DNL Adobe Target] , um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder [Zielgruppe &quot;Nur Aktivität&quot;](/help/main/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+Definieren Sie eine Zielgruppe in [!DNL Adobe Target] , um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder in einer [reinen Aktivitätszielgruppe](/help/main/c-target/creating-activity-only-audience.md) zu vergleichen. Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 
 >[!NOTE]
 >
->Diese Funktion ist nur für die Kategorie [[!UICONTROL Besucherprofil]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) verfügbar.
+>Diese Funktion ist nur für die Kategorie [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) verfügbar.
 
 ## Überblick {#section_303CBC78194D49A2A004945D425441E1}
 
-Zielgruppen werden durch Regeln definiert, die bestimmen, wer in eine [!DNL Target]-Aktivität eingeschlossen und wer davon ausgeschlossen wird. Eine Zielgruppendefinition kann mehrere Regeln enthalten, wobei die einzelnen Regeln wiederum mehrere Parameter aufweisen können. Wenn eine der eingeschlossenen Regeln die Variable [!UICONTROL Besucherprofil] -Kategorie, können Sie eine Regel auf Grundlage des spezifischen Werts eines Besucherprofilattributs definieren oder den Wert dieses Attributs mit einem anderen Besucherprofilattribut vergleichen.
+Zielgruppen werden durch Regeln definiert, die bestimmen, wer in eine [!DNL Target]-Aktivität eingeschlossen und wer davon ausgeschlossen wird. Eine Zielgruppendefinition kann mehrere Regeln enthalten, wobei die einzelnen Regeln wiederum mehrere Parameter aufweisen können. Wenn eine der eingeschlossenen Regeln die Kategorie [!UICONTROL Visitor Profile] verwendet, können Sie eine Regel auf der Grundlage des spezifischen Werts des Besucherprofilattributs definieren oder den Wert dieses Attributs mit einem anderen Besucherprofilattribut vergleichen.
 
-Nehmen wir beispielsweise an, Sie arbeiten für ein Möbelunternehmen und laden zwei Tendenzwerte für Kunden in hoch. [!DNL Target]:
+Nehmen wir beispielsweise an, Sie arbeiten für ein Möbelunternehmen und laden zwei Tendenzwerte für Kunden in [!DNL Target] hoch:
 
 * Wahrscheinlichkeit, in den nächsten 90 Tagen Esszimmermöbel zu kaufen
 * Wahrscheinlichkeit, in den nächsten 90 Tagen Wohnzimmermöbel zu kaufen
 
-Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. [!DNL Target] würde dann die Tendenzwerte für den Essbereich und den Wohnraum für einen bestimmten Besucher dynamisch vergleichen, um festzustellen, ob dieser Besucher für diese Zielgruppe qualifiziert ist.
+Sie könnten eine Zielgruppe erstellen, die dadurch definiert ist, dass die Neigung zum Kauf von Esszimmermöbeln größer als die Neigung zum Kauf von Wohnzimmermöbeln ist. [!DNL Target] würde dann die Tendenzwerte für Esszimmer und Wohnzimmer für einen bestimmten Besucher dynamisch vergleichen, um festzustellen, ob dieser Besucher für diese Zielgruppe qualifiziert ist.
 
-Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicks **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Drag &amp; Drop **[!UICONTROL Besucherprofil]** in den Audience Builder-Bereich.
-1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]** ein Attribut aus:
+1. Ziehen Sie **[!UICONTROL Visitor Profile]** in den Bereich Audience Builder .
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Visitor Profile]** ein Attribut aus:
 
    ![Propensity Score 1](assets/propensity_score_1.png)
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![Propensity Score 2](assets/propensity_score_2.png)
 
-1. Wählen Sie in der Dropdownliste **[!UICONTROL Vergleichstyp auswählen]** die Option **[!UICONTROL Attribut]** aus:
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Choose Comparison Type]** die Option **[!UICONTROL Attribute]** aus.
 
    Mit dem Vergleichstyp &quot;statischer Wert&quot;können Sie das Besucherprofilattribut mit bestimmten Werten vergleichen.
 
@@ -59,9 +59,9 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![propensity_score_4 image](assets/propensity_score_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Done]**.
 
-## Schulungsvideo ![Übersichtszeichen](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Schulungsvideo ![Badge &quot;Überblick&quot;](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 

@@ -2,13 +2,13 @@
 keywords: Recommendations; Recommendations-Kriterien; Recommendations-Algorithmen; Recommendations-Aktivität; Kriterien; Targeting mit Recommendations; Recs
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was ist  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 Die folgende Illustration stellt Recommendations auf einer Webseite dar:
 
-![Velocity-Beispielbild](assets/velocity_example.png)
+![Velocity_example image](assets/velocity_example.png)
 
 Eine Recommendation bestimmt, wie ein Produkt einem Besucher je nach dessen Aktivitäten auf der Site vorgeschlagen wird. Beispiel:
 
@@ -72,7 +72,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorial-Badge ](/help/main/assets/tutorial.png)  {#intro-to-recs}
+## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorial-Badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 Das Webinar *„Einführung in Recommendations“* beinhaltet eine ausführliche Untersuchung, wie der Wert von [!DNL Adobe Target Recommendations] wirksam eingesetzt werden kann. Erfahren Sie, wie diese [!DNL Target]-Aktivität automatisch Produkte oder Inhalte anzeigt, die für Ihre Kunden von Interesse sein könnten, indem sie Echtzeitvorschläge auf der Grundlage früherer Besuche optimiert. Außerdem können Sie in die [!DNL Target]-Benutzeroberfläche eintauchen, um eine schrittweise Übersicht über das Erstellen einer [!DNL Recommendations]-Aktivität zu erhalten.
 

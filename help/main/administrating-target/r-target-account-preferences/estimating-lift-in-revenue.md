@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # Geschätzte Umsatzsteigerung
 
-Verwendung [!DNL Adobe Target] um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
+Verwenden Sie [!DNL Adobe Target] , um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
 
 >[!NOTE]
 >
->Die geschätzte Steigerung ist nicht verfügbar für [!UICONTROL Erlebnis-Targeting] (XT) -Aktivitäten.
+>Die geschätzte Steigerung ist derzeit nicht für [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
 
 Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert. Sie kann über die Kontovoreinstellungen aktiviert werden. Experience Cloud-Administratoren können diese Funktion aktivieren bzw. deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 
@@ -30,7 +30,7 @@ Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste
 
 Die geschätzte Umsatzsteigerung wird auf Basis von „Umsatz pro Besuch (RPV)“ berechnet, was wiederum von der Metrik für das primäre Ziel abgerufen wird.
 
-Die geschätzte Steigerung wird mit der folgenden Formel berechnet: (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+Die geschätzte Steigerung wird mit der folgenden Formel berechnet: (&lt;erfolgreichstes Erlebnis RPV> - &lt;Kontrollerlebnis RPV&lt;)&#42;&lt;Gesamtanzahl der Besucher in der Aktivität>
 
 Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $
 

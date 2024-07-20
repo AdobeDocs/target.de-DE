@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 98%
+source-wordcount: '2721'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Testen Sie das [Target-Community-Forum](/help/main/cmp-resources-and-contact-inf
 
 **Welche Browser werden von Target unterstützt?**
 
-Weitere Details finden Sie in der [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)-Matrix. {target=_blank} Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
+Weitere Informationen finden Sie in der Matrix [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} . Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Geben Sie den gewünschten Schritt dazu einfach [direkt auf der Seite „Aktivit
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
-Das ist auch möglich. Verwenden Sie [einfach die Option „Speichern“, um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist auch möglich. Verwenden Sie einfach [die verfügbare Option &quot;Speichern&quot;, um inkrementelle Änderungen vorzunehmen, ohne den Schritt](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) zu verlassen.
 
 **Wie kann ich eine Vorschau einer von mir eben erstellten Aktivität anzeigen und eine Qualitätssicherung diesbezüglich vornehmen?**
 
@@ -168,7 +168,7 @@ Sehen Sie sich die [Vorlagenregeln](/help/main/c-experiences/c-visual-experience
 
 Dies liegt daran, dass Ihre Site gemischte Inhalte enthält. Es handelt sich um eine Site, die sowohl HTTP- als auch HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
 
-Bis dies der Fall ist, sollten Sie die unter   [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit der Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
+Bis dies geschieht, befolgen Sie die Anweisungen unter [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) , damit Ihr Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
 
 **Kann ich Visual Experience Composer (VEC) auch dann auf meiner Site testen, wenn die at.js-Bibliothek von Target noch nicht bereitgestellt wurde?**
 
@@ -180,7 +180,7 @@ Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/main/c-experiences
 
 Wir haben auch [einen formularbasierten Ansatz](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Sie müssen sich möglicherweise an Ihre IT-Abteilung wenden, um auch die   [Adobe-Proxyserver auf die Zulassungsliste zu setzen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Möglicherweise müssen Sie sich an Ihre IT-Abteilung wenden, um auch die [Zulassungsliste-Adobe-Proxyserver](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) zu erreichen.
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
@@ -212,13 +212,13 @@ Eine Möglichkeit besteht darin, den [benutzerdefinierten Code-Editor](/help/mai
 
 Mit den Funktionen Erstellen und Durchsuchen können Sie zur gewünschten Seite navigieren und Ihr Erlebnis erstellen.
 
-![vec2-Bild](assets/vec2.png)
+![vec2 image](assets/vec2.png)
 
 **Wie kann ich über „Schritt 2 des aus drei Teilen bestehenden geführten Target-Workflows (Targeting-Seite)“ zum gewünschten Erlebnis wechseln?**
 
 Klicken Sie auf die Miniaturansicht vor dem Erlebnisnamen in Schritt 2 und Sie gelangen zum gewünschten Erlebnis.
 
-![thumbnail_experience-Bild](assets/thumbnail_experiences.png)
+![thumbnail_experience image](assets/thumbnail_experiences.png)
 
 **Ich habe früher Target Classic verwendet. Kann ich meine Mboxes für bestimmte Anwendungsfälle verwenden?**
 
@@ -283,11 +283,11 @@ Verwenden Sie [„Berichte in CSV exportieren“ und „Auftragsdetails als CSV 
 
 **Kann ich das Kontrollerlebnis für das Auswerten von Berichten oder die Zählmethodologie von „Besucher“ in „Besuche“ ändern?**
 
-Verwenden Sie das   [Zahnrad „Einstellungen“ auf der Berichtsseite](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA), um diese Änderungen vorzunehmen. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
+Nehmen Sie diese Änderungen mit dem Zahnradsymbol [Einstellungen auf der Berichtsseite](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) vor. Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
 **Wie sollte ich Berichte interpretieren?**
 
-Wir haben versucht, mit Funktionen wie   [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Mitteln und mehr](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) Berichte so intuitiv wie möglich zu gestalten, um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
+Wir haben versucht, Berichte mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Durchschnitten und mehr](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) so intuitiv wie möglich zu gestalten, um eine leistungsstarke, aber einfache Berichtsanalyse zu ermöglichen. Natürlich können Sie sich mit Analytics beschäftigen, wenn Sie [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)-Aktivitäten (A4T) für weitere Analysen von Zielgruppen verwenden.
 
 ## Antwort-Token {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -309,4 +309,4 @@ Es tut uns leid, zu hören, dass Sie Probleme haben. Unter [Troubleshooting Targ
 
 **Wo erhalte ich weitere Informationen über Target-APIs?**
 
-Wir verfügen über eine umfassende Dokumentation zu APIs. Siehe [Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+Wir verfügen über eine umfassende Dokumentation zu APIs. Weitere Informationen finden Sie in der Dokumentation zu Bereitstellungs-APIs, NodeJS-SDK und Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank} .[

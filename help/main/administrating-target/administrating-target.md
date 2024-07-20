@@ -7,16 +7,16 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 11%
 
 ---
 
-# Verwaltung [!DNL Target] Übersicht
+# Verwalten von [!DNL Target] - Überblick
 
-Hilfe bei der Verwaltung [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Reporting, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzer.
+Informationen, die Sie bei der Verwaltung von [!DNL Adobe Target] unterstützen, einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Reporting, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzer.
 
-So greifen Sie auf die [!UICONTROL Administration] Menüelemente, klicken Sie auf **[!UICONTROL Administration]** Klicken Sie in der oberen Menüleiste auf die gewünschte Registerkarte auf der linken Seite:
+Um auf die Menüelemente [!UICONTROL Administration] zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/main/administrating-target/reporting.md)
@@ -26,6 +26,6 @@ So greifen Sie auf die [!UICONTROL Administration] Menüelemente, klicken Sie au
 * [Hosts](/help/main/administrating-target/hosts.md)
 * [Umgebungen](/help/main/administrating-target/environments.md)
 * [Antwort-Token](/help/main/administrating-target/response-tokens.md)
-* [Benutzer](/help/main/administrating-target/c-user-management/user-management.md)
+* [Benutzende](/help/main/administrating-target/c-user-management/user-management.md)
 
 ![Adobe Target-Administrationsmenü](/help/main/administrating-target/assets/administration.png)

@@ -1,54 +1,54 @@
 ---
 keywords: a4t; A4T; Analytics als Berichtsquelle für Target
-description: Erfahren Sie, wie Sie eine Aktivität im Adobe konfigurieren. [!DNL Target] , der Adobe Analytics als Berichtsquelle verwendet (A4T).
+description: Erfahren Sie, wie Sie eine Aktivität in Adobe [!DNL Target] konfigurieren, die Adobe Analytics als Berichtsquelle (A4T) verwendet.
 title: Wie erstelle ich eine Aktivität, die A4T verwendet?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 28%
 
 ---
 
 # Erstellen einer Aktivität mit Analytics als Berichtsquelle
 
-Sie können eine Aktivität in [!DNL Adobe Target] zur Verwendung [!DNL Adobe Analytics] als Berichtsquelle (A4T).
+Sie können eine Aktivität in [!DNL Adobe Target] so konfigurieren, dass [!DNL Adobe Analytics] als Berichtsquelle (A4T) verwendet wird.
 
-Bevor Sie eine Aktivität einrichten, die [!DNL Analytics] Legen Sie als Berichtsquelle das Ziel für die Aktivität fest, z. B. die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf Ihren Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Sie können zwar jederzeit weitere Metriken auswählen in [!DNL Analytics]müssen Sie weiterhin eine bestimmte Metrik angeben, auf die sich dieser Test voraussichtlich auswirken wird.
+Bevor Sie eine Aktivität einrichten, die [!DNL Analytics] als Berichtsquelle verwendet, müssen Sie das Ziel für die Aktivität festlegen, z. B. die Verbesserung des Umsatzes pro Besucher (RPV) oder die Erhöhung der Klicks auf Ihren Warenkorb. Wählen Sie eine finale Erfolgsmetrik für die Aktivität aus. Sie können zwar jederzeit weitere Metriken in [!DNL Analytics] auswählen, Sie müssen jedoch weiterhin eine bestimmte Metrik angeben, auf die sich dieser Test voraussichtlich auswirken wird.
 
 ## Aktivität erstellen
 
-Erstellen einer [!DNL Target] -Aktivität, die [!DNL Analytics] da die Berichtsquelle der Einrichtung einer regulären [!DNL Target] -Aktivität mit einigen wichtigen Unterschieden. Beispielsweise können Sie beim Erstellen der Aktivität kein Segment für die Berichterstellung auswählen, da alle in verfügbaren Segmente [!DNL Analytics] kann bei der Anzeige eines Berichts angewendet werden.
+Das Erstellen einer [!DNL Target] -Aktivität, die [!DNL Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target] -Aktivität, allerdings mit einigen wichtigen Unterschieden. Beispielsweise können Sie beim Erstellen der Aktivität kein Segment für die Berichterstellung auswählen, da alle in [!DNL Analytics] verfügbaren Segmente beim Anzeigen eines Berichts angewendet werden können.
 
-1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Create Activity]**.
 
    >[!NOTE]
    >
-   >Der Aktivitätsname darf das Zeichen &quot;%&quot;nicht enthalten, wenn [!DNL Analytics] wird als Berichtsquelle verwendet.
+   >Ein Aktivitätsname darf das Zeichen &quot;%&quot;nicht enthalten, wenn [!DNL Analytics] als Berichtsquelle verwendet wird.
    >
-   >Verwenden Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus separaten [Arbeitsbereiche](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) , die A4T-Berichte verwenden.
+   >Verwenden Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus separaten [Arbeitsbereichen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md), die A4T-Berichte verwenden.
 
 1. Wählen Sie den Aktivitätstyp aus und beginnen Sie mit der Einrichtung der Aktivität.
 
-   Wenn Sie eine [!UICONTROL Automatische Zuordnung] oder [!UICONTROL Automatisches Targeting] -Aktivität, siehe [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) für weitere Informationen.
+   Wenn Sie eine [!UICONTROL Auto-Allocate] - oder [!UICONTROL Auto-Target] -Aktivität erstellen möchten, finden Sie weitere Informationen unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) .
 
-1. Wenn Sie zur **[!UICONTROL Einstellungen]** Wählen Sie im Abschnitt des Erstellungsflusses der Aktivität **[!UICONTROL Adobe Analytics]** und geben Sie Ihr Unternehmen an.
+1. Wenn Sie zum Abschnitt **[!UICONTROL Settings]** des Erstellungsflusses der Aktivität gelangen, wählen Sie **[!UICONTROL Adobe Analytics]** und geben Sie Ihr Unternehmen an.
 1. Wählen Sie eine Report Suite aus.
 
-   Sie können eine beliebige Report Suite auswählen, die in [!DNL Analytics]. Die Report Suite definiert, wo die erfassten Daten verfügbar sind. Virtual Report Suites sind nicht in der Report Suite-Liste enthalten.
+   Sie können eine beliebige Report Suite auswählen, die in [!DNL Analytics] für Sie verfügbar ist. Die Report Suite definiert, wo die erfassten Daten verfügbar sind. Virtual Report Suites sind nicht in der Report Suite-Liste enthalten.
 
    Beim Auswählen der Report Suite kann es vorkommen, dass Ihnen zwei Fehler gemeldet werden:
 
    * Sie erhalten die Fehlermeldung, dass keine Report Suites verfügbar sind, obwohl Ihr Konto korrekt eingerichtet ist.
 
-     Überprüfen Sie Ihre [!DNL Analytics] Unternehmen. Wenn [!DNL Adobe Experience Cloud] -Konto an mehr als ein [!DNL Analytics] Unternehmen, abmelden von [!DNL Target]und melden Sie sich bei an [!DNL Analytics] unter der richtigen Firma. Kehren Sie dann zu [!DNL Target]und die Report Suites geladen werden.
+     Überprüfen Sie Ihre [!DNL Analytics] Firma. Wenn Ihr [!DNL Adobe Experience Cloud] -Konto an mehr als ein [!DNL Analytics] -Unternehmen gebunden ist, melden Sie sich von [!DNL Target] ab und melden Sie sich unter dem richtigen Unternehmen bei [!DNL Analytics] an. Kehren Sie dann zu &quot;[!DNL Target]&quot;zurück, und die Report Suites werden geladen.
 
    * Ihnen wird nicht die Report Suite angezeigt, die Sie erwartet haben.
 
-     Nur Report Suites, für die eine Verbindung hergestellt wurde [!DNL Target] stehen zur Auswahl zur Verfügung. Wenn die erwarteten Report Suites nicht angezeigt werden, melden Sie sich zunächst ab und melden Sie sich wieder bei der [!DNL Adobe Experience Cloud] erneut versuchen.
+     Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwarteten Report Suites nicht angezeigt werden, versuchen Sie zunächst, sich abzumelden und sich wieder bei [!DNL Adobe Experience Cloud] anzumelden, um es erneut zu versuchen.
 
-   Wenn noch eine oder mehrere Report Suites in der Liste fehlen, geben Sie bitte an, [Kundenunterstützung kontaktieren](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Wenn noch eine oder mehrere Report Suites in der Liste fehlen, wenden Sie sich an die Kundenunterstützung ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).[
 
 1. Legen Sie den Trackingserver fest.
 
@@ -57,11 +57,11 @@ Erstellen einer [!DNL Target] -Aktivität, die [!DNL Analytics] da die Berichtsq
 1. Definieren Sie das Erlebnis.
 1. Legen Sie das Aktivitätsziel fest.
 
-   Sie müssen eine Erfolgsmetrik auswählen, die als Ziel für jede Aktivität verwendet werden soll. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. Sie können eine beliebige [!DNL Analytics] Metrik verfügbar in der [!DNL Analytics] Metrikauswahl.
+   Sie müssen eine Erfolgsmetrik auswählen, die als Ziel für jede Aktivität verwendet werden soll. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. Sie können eine beliebige [!DNL Analytics] -Metrik auswählen, die in der Metrikauswahl [!DNL Analytics] verfügbar ist.
 
    >[!NOTE]
    >
-   >Sie können eine benutzerspezifische Target-basierte Metrik an senden [!DNL Analytics] anstatt sich nur auf [!DNL Analytics] Daten. Sie können beispielsweise das Klicken auf eine Seite überwachen, was normalerweise nicht von [!DNL Analytics]. Diese benutzerspezifische Metrik wird an [!DNL Analytics] automatisch aus dem [!DNL Target] und wird als[!DNL Target] Konversionsmetrik in der Metrikauswahl in [!DNL Analytics]. Die [!DNL Target] Die Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] Metriken.
+   >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] -Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was normalerweise nicht von [!DNL Analytics] verfolgt wird. Diese benutzerdefinierte Metrik wird automatisch vom [!DNL Target] -Server an [!DNL Analytics] gesendet und in der Metrikauswahl in [!DNL Analytics] als Metrik für die [!DNL Target] Konversion angezeigt. Die Konversionsmetrik [!DNL Target] ist leer, wenn Sie die Metrik [!DNL Analytics] verwenden.
 
    Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 
@@ -69,9 +69,9 @@ Erstellen einer [!DNL Target] -Aktivität, die [!DNL Analytics] da die Berichtsq
 
    >[!NOTE]
    >
-   >Beim Einrichten einer Aktivität nach der Einrichtung [!DNL Analytics] als Berichtsquelle angeben, gibt es keine Möglichkeit, Zielgruppen für die Berichterstellung einzurichten. [!DNL Analytics] -Segmente sind im Abschnitt [!DNL Target] Aktivitätsbericht.
+   >Beim Einrichten einer Aktivität nach der Einrichtung von [!DNL Analytics] als Berichtsquelle gibt es keine Option zum Einrichten von Zielgruppen für die Berichterstellung. [!DNL Analytics] -Segmente sind im Bericht [!DNL Target] Aktivitäten verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## A4T- und automatisierte Zuordnung- und Automatisches Targeting-Aktivitäten
 

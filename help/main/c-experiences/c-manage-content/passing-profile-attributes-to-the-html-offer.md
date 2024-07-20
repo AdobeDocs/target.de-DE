@@ -1,19 +1,19 @@
 ---
 keywords: dynamische Daten;Assets;Daten;Angebote;personalisierte Angebote;persönliche Angebote;Token ersetzen
-description: Erfahren Sie, wie Sie dynamische Daten an übergeben. [!DNL Adobe Target] Angebote.
+description: Erfahren Sie, wie Sie dynamische Daten an [!DNL Adobe Target] Angebote übergeben.
 title: Wie übergebe ich dynamische Daten an Angebote?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # Übergeben dynamischer Daten in Angebote
 
-Sie können Besucherinformationen dynamisch anzeigen, die im [!DNL Adobe Target] Profil. Ebenso können Aktivitätsinformationen (wie der Name der Aktivität oder der Name des Erlebnisses) auch verwendet werden, um ein einzelnes Angebot zu erstellen, das personalisierte Inhalte dynamisch basierend auf den Interessen des Besuchers, dem vergangenem Verhalten und Gesamtprofil zurückgibt.
+Sie können im [!DNL Adobe Target] -Profil gespeicherte Besucherinformationen dynamisch anzeigen. Ebenso können Aktivitätsinformationen (wie der Name der Aktivität oder der Name des Erlebnisses) auch verwendet werden, um ein einzelnes Angebot zu erstellen, das personalisierte Inhalte dynamisch basierend auf den Interessen des Besuchers, dem vergangenem Verhalten und Gesamtprofil zurückgibt.
 
 ## Geschäftsszenarios
 
@@ -30,7 +30,7 @@ Da besucherspezifische Voreinstellungen, Verhaltensweisen und Status im Besucher
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * HTML-Angebotscode: `Get your ${profile.keyword} information here!`
-* Besucher sieht: Hier erhalten Sie Informationen zum World Cup!
+* Besucher sehen: Hier erhalten Sie Ihre WM-Informationen!
 
 Bei folgenden Werten ist eine Tokenersetzung möglich:
 
@@ -47,7 +47,7 @@ Bei folgenden Werten ist eine Tokenersetzung möglich:
 
 Informationen in der Konsole zum Debugging, wie `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Für [!DNL Recommendations] Designs, siehe weitere Beispiele unter [Designübersicht](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Weitere Informationen zu [!DNL Recommendations]-Designs finden Sie in den zusätzlichen Beispielen in der [Designübersicht](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Implementierung
 
@@ -59,7 +59,7 @@ Verwenden Sie für Profilparameter, die in einem Profilskript erstellt wurden, d
 
 `${user.parameter}`
 
-Bei der Verwendung dynamischer Attribute in einer [!DNL Recommendations] Entwurf erstellen, müssen Sie einen umgekehrten Schrägstrich ( \ ) vor dem Dollarzeichen ( $ ) einfügen, damit der dynamische Wert ordnungsgemäß dargestellt wird:
+Wenn Sie dynamische Attribute in einem [!DNL Recommendations] -Design verwenden, müssen Sie einen umgekehrten Schrägstrich ( \ ) vor dem Dollarzeichen ( $ ) einfügen, damit der dynamische Wert ordnungsgemäß dargestellt wird:
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -69,11 +69,11 @@ Standardwerte können auch für Werte angegeben werden, die Sie für Angebote ve
 
 `${user.testAttribute default="All Items!"}`
 
-Wenn `testAttribute` nicht vorhanden oder leer ist, wird „Alle Objekte!“ geschrieben ist. Wenn ein leerer Attributwert gültig ist und Sie ihn ausschreiben möchten, anstatt den Standardwert anzuzeigen, können Sie Folgendes verwenden:
+Wenn `testAttribute` nicht vorhanden oder leer ist, wird „Alle Objekte!“ ist ausgeschrieben. Wenn ein leerer Attributwert gültig ist und Sie ihn ausschreiben möchten, anstatt den Standardwert anzuzeigen, können Sie Folgendes verwenden:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Sie können auch einen Escape und Unescape für anzuzeigende Werte durchführen. Wenn Ihr Wert beispielsweise über ein Apostroph verfügt, können Sie dem Wert ein Escape-Zeichen setzen, damit das JavaScript auf der Seite nicht beschädigt wird. (Angebote werden in JavaScript geschrieben, deshalb könnte ein Apostroph mit einem einfachen Anführungszeichen verwechselt werden.) Beispiel:
+Sie können auch einen Escape und Unescape für anzuzeigende Werte durchführen. Wenn Ihr Wert beispielsweise über ein Apostroph verfügt, können Sie dem Wert ein Escape-Zeichen setzen, damit der JavaScript auf der Seite nicht beschädigt wird. (Angebote werden in JavaScript geschrieben, deshalb könnte ein Apostroph mit einem einfachen Anführungszeichen verwechselt werden.) Beispiel:
 
 `${user.encodedValue encode="unescape"}`
 

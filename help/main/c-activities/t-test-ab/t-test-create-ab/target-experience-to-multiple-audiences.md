@@ -1,19 +1,19 @@
 ---
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-description: Erfahren Sie, wie Sie in Versionen desselben Erlebnisses für verschiedene Zielgruppen ausrichten können. [!DNL Adobe Target] A/B-Aktivitäten.
+description: Erfahren Sie, wie Sie in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses für verschiedene Zielgruppen ausrichten.
 title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können Versionen desselben Erlebnisses für verschiedene Zielgruppen in [!DNL Adobe Target] A/B-Aktivitäten. Sie können mehrere Zielgruppen für ein Erlebnis im [!UICONTROL Visual Experience Composer] (VEC) oder im formularbasierten Experience Composer.
+Sie können Versionen desselben Erlebnisses für verschiedene Zielgruppen in [!DNL Adobe Target] A/B-Aktivitäten verwenden. Sie können mehrere Zielgruppen für ein Erlebnis im [!UICONTROL Visual Experience Composer] (VEC) oder im formularbasierten Experience Composer einrichten.
 
 Besucher können bei sich ändernden Profilen zwischen Erlebniszielgruppen wechseln. Besucher bleiben während der Lebensdauer der Aktivität nicht im selben Erlebnis.
 
@@ -33,13 +33,13 @@ In diesem Fall benötigen Sie geografisch spezifische Versionen des Erlebnisses,
 
    Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
 
-1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Zielgruppen]** > **[!UICONTROL Mehrere Zielgruppen]**.
+1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Option „Mehrere Zielgruppen“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
+1. Klicken Sie auf **[!UICONTROL Add Audience]** und wählen Sie dann die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
-   ![Bild mit Exp-Versionen](assets/exp-versions.png)
+   ![Exp-versions-Bild](assets/exp-versions.png)
 
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 
@@ -51,4 +51,4 @@ In diesem Fall benötigen Sie geografisch spezifische Versionen des Erlebnisses,
 
 * Wählen Sie Zielgruppen aus, die sich gegenseitig ausschließen. Wenn die Aktivität im VEC erstellt wurde und ein Besucher mit mehr als einer Zielgruppe übereinstimmt, wird der Inhalt für jede Zielgruppe zurückgegeben, wobei der Inhalt für die zuletzt aufgelistete Zielgruppe auf der Seite angezeigt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.
-* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Auf diese Weise können Sie die Testergebnisse auf der hohen Ebene von Erlebnis A im Vergleich B und auf der unteren Ebene von Erlebnis A im Vergleich B nur für &quot;browser lang ja_JP&quot;anzeigen. Dies funktioniert nur für [!DNL Target]-basierte Berichte, nicht [!DNL Analytics]-basierten Berichten.
+* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Auf diese Weise können Sie die Testergebnisse auf der hohen Ebene von Erlebnis A im Vergleich B und auf der unteren Ebene von Erlebnis A im Vergleich B nur für &quot;browser lang ja_JP&quot;anzeigen. Dies funktioniert nur bei [!DNL Target]-basierten Berichten, nicht bei [!DNL Analytics]-basierten Berichten.

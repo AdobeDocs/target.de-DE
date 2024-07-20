@@ -15,39 +15,39 @@ ht-degree: 48%
 
 # Berechtigungen für Unternehmensbenutzer
 
-Berechtigungen für Unternehmensbenutzer sind eine Möglichkeit, unternehmensweiten Benutzerzugriff auf [!DNL Adobe Target]. Benutzer hinzufügen zu [!DNL Target], weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen von [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver]oder [!UICONTROL Publisher].
+Berechtigungen für Unternehmensbenutzer sind eine Möglichkeit, unternehmensweiten Benutzerzugriff auf [!DNL Adobe Target] formal zu verwalten. Fügen Sie Benutzer zu [!DNL Target] hinzu, weisen Sie Berechtigungen basierend auf ihren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] oder [!UICONTROL Publisher] zuweisen.
 
 ## Bestimmen, ob Sie Zugriff auf Unternehmensbenutzerberechtigungen haben
 
 >[!NOTE]
 >
->[!UICONTROL Properties and Permissions] -Funktion ist als Teil der [!DNL Target] Premium-Lösung. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
+>Die Funktion [!UICONTROL Properties and Permissions] ist als Bestandteil der Lösung [!DNL Target] Premium verfügbar. Für [!DNL Target] Standard sind sie nicht ohne [!DNL Target] Premium-Lizenz verfügbar.
 >
->Ihre [!DNL Target] -Implementierung kann eine beliebige Version von at.js oder [!DNL Adobe Experience Platform Web SDK].
+>Ihre [!DNL Target] -Implementierung kann eine beliebige Version von at.js oder [!DNL Adobe Experience Platform Web SDK] verwenden.
 
-Sie können feststellen, ob Ihre Organisation über eine Standard- oder Premium-Lizenz verfügt, indem Sie auf [!UICONTROL Administration] -Link oben im [!DNL Target] Benutzeroberfläche.
+Sie können feststellen, ob Ihre Organisation über eine Standard- oder Premium-Lizenz verfügt, indem Sie oben in der Benutzeroberfläche von [!DNL Target] auf den Link [!UICONTROL Administration] klicken.
 
-* **[!DNL Target Standard]Kunden**: Wenn die Variable [!UICONTROL Users] tab ([!UICONTROL Administration > Users]) (und nicht das [!UICONTROL Properties] -Registerkarte), verfügt Ihre Organisation über eine [!DNL Target Standard] -Lizenz. [!DNL Target Standard] -Kunden sollten die Anweisungen unter [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) , um Benutzer hinzuzufügen und Berechtigungen in der [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Kunden**: Wenn die Registerkarte [!UICONTROL Users] ([!UICONTROL Administration > Users]) angezeigt wird (und nicht die Registerkarte [!UICONTROL Properties]), verfügt Ihr Unternehmen über eine [!DNL Target Standard] -Lizenz. [!DNL Target Standard] -Kunden sollten die Anweisungen in [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) befolgen, um Benutzer hinzuzufügen und Berechtigungen in der [!DNL Adobe Admin Console] zuzuweisen.
 
-* **[!DNL Target Premium]Kunden**: Wenn die Variable [!UICONTROL Properties] tab ([!UICONTROL Administration > Properties]) und der [!UICONTROL Users] -Registerkarte, verfügt Ihre Organisation über eine [!DNL Target Premium] -Lizenz. [!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in [Konfigurieren von Unternehmensberechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) folgen.
+* **[!DNL Target Premium]Kunden**: Wenn die Registerkarte [!UICONTROL Properties] ([!UICONTROL Administration > Properties]) und die Registerkarte [!UICONTROL Users] angezeigt werden, verfügt Ihr Unternehmen über eine [!DNL Target Premium] -Lizenz. [!DNL Target Premium]-Kunden sollten die Anweisungen in diesem Artikel und in [Konfigurieren von Unternehmensberechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) folgen.
 
 ## Erste Schritte mit Unternehmensberechtigungen
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass Sie die [Einschränkungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) unten beschrieben, bevor Sie mit den Unternehmensberechtigungen fortfahren.
+>Lesen Sie unbedingt den Abschnitt [Einschränkungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) weiter unten, bevor Sie mit den Unternehmensberechtigungen fortfahren.
 
 ## In diesem Abschnitt verwendete Begriffe und Definitionen {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-Die folgenden Begriffe werden in diesem Abschnitt verwendet und können für Benutzer, die die Funktion für Eigenschaften und Berechtigungen in [!DNL Target] Premium.
+Die folgenden Begriffe werden in diesem Abschnitt verwendet und sind möglicherweise für Benutzer neu, die die Funktion für Eigenschaften und Berechtigungen in [!DNL Target] Premium verwenden möchten.
 
 ### Eigenschaft
 
-Eigenschaften ähneln den Eigenschaften in [!DNL Adobe Experience Platform] , da sie einen eindeutigen Codeausschnitt verwenden, um sie zu unterscheiden.
+Eigenschaften ähneln den Eigenschaften in [!DNL Adobe Experience Platform] insofern, als sie einen eindeutigen Codeausschnitt verwenden, um sie zu unterscheiden.
 
 Eine Webeigenschaft besteht aus einer Bibliothek von Regeln und einem Einbettungscode. Es kann sich bei einer Webeigenschaft um eine beliebige Gruppierung einer oder mehrerer Domänen bzw. Subdomänen handeln.
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name/Wert-Paar als Parameter mit einem beliebigen Aufruf (Target-Aufruf, API-Aufruf usw.) zu [!DNL Target].
+Eigenschaften werden aktiviert, indem ein bestimmtes Name/Wert-Paar als Parameter mit jedem Aufruf (Target-Aufruf, API-Aufruf usw.) zu [!DNL Target] hinzugefügt wird.
 
 Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zugeordnet.
 
@@ -55,29 +55,29 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zu
 
 Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Adobe Analytics].
 
-Hinweis: Arbeitsbereiche werden als [!UICONTROL Product Profiles] im [!DNL Adobe Admin Console for Enterprise].
+Hinweis: Arbeitsbereiche werden im [!DNL Adobe Admin Console for Enterprise] als [!UICONTROL Product Profiles] bezeichnet.
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 
 Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen Arbeitsbereichen sogar unterschiedliche Rollen einnehmen.
 
-Benutzer können unterschiedliche Ansichten von [!DNL Adobe Target] durch Wechsel zwischen Arbeitsbereichen, ähnlich wie beim [!DNL Analytics] -Benutzer haben unterschiedliche Ansichten von [!DNL Analytics] durch Wechsel zwischen Report Suites.
+Benutzer können unterschiedliche Ansichten von [!DNL Adobe Target] haben, indem sie zwischen Arbeitsbereichen wechseln, ähnlich wie [!DNL Analytics] Benutzer unterschiedliche Ansichten von [!DNL Analytics] haben, indem sie zwischen Report Suites wechseln.
 
 Arbeitsbereiche können völlig verschiedene Zielgruppen, Codeangebote und Aktivitäten umfassen.
 
-Alle Zielgruppen und Aktivitäten, die vor der neuen Migration des Unternehmensberechtigungsmodells erstellt wurden, werden im &quot;Standardarbeitsbereich&quot;gruppiert, wie nachfolgend beschrieben.
+Alle Zielgruppen und Aktivitäten, die vor der neuen Migration des Unternehmensberechtigungsmodells erstellt wurden, werden in der &quot;Standard-Workspace&quot;gruppiert, die nachfolgend beschrieben wird.
 
-Alle über erstellten Aktivitäten [!DNL Adobe Experience Manager] AEM, [!DNL Adobe Mobile Services], und [!DNL Adobe Target Classic] sind Teil des &quot;Standardarbeitsbereichs&quot;.
+Alle mit [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] und [!DNL Adobe Target Classic] erstellten Aktivitäten sind Teil der &quot;Standard-Workspace&quot;.
 
 ### Standardarbeitsbereich
 
-Alle vorhandenen Arbeitsbereiche (Produktprofile) in [!DNL Admin Console] werden während der Migration Ihres Unternehmens zum neuen Unternehmensberechtigungsmodell in einen einzigen Arbeitsbereich namens &quot;Standardarbeitsbereich&quot;zusammengeführt.
+Alle vorhandenen Arbeitsbereiche (Produktprofile) innerhalb von [!DNL Admin Console] werden während der Migration Ihres Unternehmens auf das neue Unternehmensberechtigungsmodell in einem Arbeitsbereich namens &quot;Standard-Workspace&quot;zusammengeführt.
 
 >[!IMPORTANT]
 >
 >Löschen Sie den Standardarbeitsbereich nicht.
 
-Alle Benutzerrollen und Zugriff auf alle [!DNL Target] Die -Funktion bleibt mit der vor der Migration zum neuen Unternehmensberechtigungsmodell identisch.
+Alle Benutzerrollen und der Zugriff auf alle Funktionen von [!DNL Target] bleiben dieselben wie vor der Migration zum neuen Unternehmensberechtigungsmodell.
 
 ### Benutzergruppen
 
@@ -85,32 +85,32 @@ Sie können Benutzergruppen wie Entwickler, Analysten, Marketingexperten und Fü
 
 ### Rollen und Berechtigungen {#roles-permissions}
 
-Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Aktivitäten in Ihren [!DNL Target] Implementierung. In [!DNL Target], umfassen die Rollen Folgendes:
+Rollen und Berechtigungen bestimmen, welche Zugriffsebene Benutzer haben, um Aktivitäten in Ihrer [!DNL Target] -Implementierung zu erstellen und zu verwalten. In [!DNL Target] umfassen die Rollen Folgendes:
 
 | Rolle | Beschreibung |
 |--- |--- |
 | [!UICONTROL Approver] | Kann Aktivitäten erstellen, bearbeiten, aktivieren oder stoppen. |
 | [!UICONTROL Editor] | Kann Aktivitäten erstellen und bearbeiten, bevor sie live sind, kann aber nicht den Start einer Aktivität genehmigen. |
 | [!UICONTROL Observer] | Kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten. |
-| [!UICONTROL Publisher] | Ähnlich wie bei [!UICONTROL Observer] Rolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Die Variable [!UICONTROL Publisher] verfügt über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
+| [!UICONTROL Publisher] | Ähnlich wie die Rolle [!UICONTROL Observer] (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Die Rolle &quot;[!UICONTROL Publisher]&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten. |
 
 ### Kanal
 
-Kanal bezieht sich auf den Inhaltstyp, in dem Ihre [!DNL Target] -Aktivitäten werden bereitgestellt: Webseiten, mobile Apps, E-Mail-Nachrichten usw.
+Der Kanal bezieht sich auf den Inhaltstyp der Bereitstellung Ihrer [!DNL Target] -Aktivitäten: Webseiten, mobile Apps, E-Mail-Nachrichten usw.
 
 Wenn Sie eine Aktivität erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt. Im ersten Dialogfeld, in dem Sie den gewünschten Aktivitätskanal auswählen können, werden Kanalauswahloptionen angezeigt: Web, mobile App, E-Mail oder Sonstige/API.
 
 ## Übersicht über Berechtigungen {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target] und wie sie mithilfe der [!UICONTROL Properties] und [!UICONTROL Permissions] Funktionalität.
+Die folgenden Informationen erläutern, wie Berechtigungen zuvor in [!DNL Target] umgesetzt wurden und wie sie mit den Funktionen [!UICONTROL Properties] und [!UICONTROL Permissions] umgesetzt werden.
 
-Die neue [!UICONTROL Permissions] -Funktion können Sie verschiedene Projekte (die so genannten &quot;Produktprofile&quot;im [!DNL Adobe Admin Console for Enterprise]). Projekte ermöglichen es Ihnen, einem einzelnen Benutzer verschiedene Berechtigungen zuzuweisen, die die Zugriffsrechte dieses Benutzers für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Das Ergebnis ist, dass Kunden den Ansichts-, Bearbeitungs- und Genehmigungszugriff auf ihre Benutzer anhand von Regionen, Umgebungen (Entwicklung/Staging/Produktion), Kanälen oder anderen benutzerdefinierten Kriterien einschränken können, wie unten dargestellt:
+Mit der neuen Funktion &quot;[!UICONTROL Permissions]&quot; können Sie verschiedene Projekte erstellen (in der Datei &quot;[!DNL Adobe Admin Console for Enterprise]&quot; als &quot;Produktprofile&quot;bezeichnet). Projekte ermöglichen es Ihnen, einem einzelnen Benutzer verschiedene Berechtigungen zuzuweisen, die die Zugriffsrechte dieses Benutzers für jedes Projekt vorschreiben. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Das Ergebnis ist, dass Kunden den Ansichts-, Bearbeitungs- und Genehmigungszugriff auf ihre Benutzer anhand von Regionen, Umgebungen (Entwicklung/Staging/Produktion), Kanälen oder anderen benutzerdefinierten Kriterien einschränken können, wie unten dargestellt:
 
 ![Berechtigungsbild](assets/permissions.png)
 
 Ein bestimmter Benutzer verfügt beispielsweise über Genehmigungszugriff auf die Websites für Nord- und Südamerika, jedoch nur auf Ansichtszugriff auf die mobile App für Europa. Dieser Benutzer verfügt möglicherweise nicht über die nötigen Rechte, die in Web- und Mobileigenschaften angebotenen Aktivitäten der APAC-Region einzusehen.
 
-Die [!DNL Target] [!UICONTROL Permissions] Das -Modell verfügt über die folgenden Berechtigungsrollen (Beobachter, Bearbeiter, Genehmiger und Beobachter). Die Beobachterrolle wird in den Abbildungen in diesem Artikel nicht angezeigt.
+Das Modell [!DNL Target] [!UICONTROL Permissions] verfügt über die folgenden Berechtigungsrollen (Beobachter, Bearbeiter, Genehmiger und Beobachter). Die Beobachterrolle wird in den Abbildungen in diesem Artikel nicht angezeigt.
 
 ![permissions_1 image](assets/permissions_1.png)
 
@@ -127,13 +127,13 @@ Es muss dabei berücksichtigt werden, dass die Benutzerrolle für alle Seiten, E
 
 ![permissions_2 image](assets/permissions_2.png)
 
-Die neue [!DNL Target] [!UICONTROL Permissions] Das -Modell verfügt über die gleichen drei Berechtigungsrollen (Beobachter, Bearbeiter und Genehmiger). Sie können einem Benutzer jedoch verschiedene Rollen für einzelne Seiten, Eigenschaften oder Sites zuweisen, wie unten dargestellt:
+Das neue Modell [!DNL Target] [!UICONTROL Permissions] verfügt über die gleichen drei Berechtigungsrollen (Beobachter, Bearbeiter und Genehmiger). Sie können einem Benutzer jedoch verschiedene Rollen für einzelne Seiten, Eigenschaften oder Sites zuweisen, wie unten dargestellt:
 
 ![permissions_3 image](assets/permissions_3.png)
 
 In diesem Beispiel besitzt Jan Genehmigerrechte für die US-Homepage und die US-Site und Beobachterrechte für die französische Site.
 
-Außerdem kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] dass sie nicht über die Erlaubnis zum Anzeigen verfügt, wie unten dargestellt:
+Darüber hinaus kann Jan keine Seiten, Eigenschaften oder Sites in [!DNL Target] sehen, die sie nicht sehen kann, wie unten dargestellt:
 
 ![permissions_4 image](assets/permissions_4.png)
 
@@ -190,20 +190,20 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL Target] gleich an mehreren Orten.
 
-* **Dropdown-Liste Arbeitsbereich (Produktprofil):** Die Dropdown-Liste Arbeitsbereich wird oben im [!UICONTROL Activities], [!UICONTROL Audiences], und [!UICONTROL Offers] Seiten. Wählen Sie den gewünschten Arbeitsbereich aus, um die Liste zu filtern und nur die Elemente des ausgewählten Arbeitsbereichs anzuzeigen.
+* Dropdownliste **Workspace (Produktprofil):** Die Dropdownliste &quot;Workspace&quot;wird oben auf den Seiten [!UICONTROL Activities], [!UICONTROL Audiences] und [!UICONTROL Offers] angezeigt. Wählen Sie den gewünschten Arbeitsbereich aus, um die Liste zu filtern und nur die Elemente des ausgewählten Arbeitsbereichs anzuzeigen.
 
-  ![workspace_drop-down-Bild](assets/workspace_drop-down.png)
+  ![workspace_drop-down image](assets/workspace_drop-down.png)
 
 * **Aktivitätserstellung:** Wenn Sie eine Aktivität erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt. Im ersten Dialogfeld, in dem Sie den gewünschten Aktivitätskanal auswählen können, werden Kanalauswahloptionen angezeigt: Web, mobile App, E-Mail oder Sonstige/API.
 
-  ![channel_options-Bild](assets/channel_options.png)
+  ![channel_options image](assets/channel_options.png)
 
-* **Zielgruppenerstellung:** Wenn Sie eine Zielgruppe erstellen, wird sie im derzeit ausgewählten Arbeitsbereich erstellt.
-* **Zielgruppenliste:** Sie können Zielgruppen mithilfe der [!UICONTROL More Actions] > [!DNL Move] -Option auf [!UICONTROL Audiences] Seite.
-* **Angebotserstellung:** Wenn Sie ein Angebot erstellen, wird es im derzeit ausgewählten Arbeitsbereich erstellt.
-* **Eigenschaftenseite (Administration > Eigenschaften):** Sie können die [!UICONTROL Search] zum Durchsuchen der [!UICONTROL Property] Liste.
+* **Zielgruppenerstellung:** Wenn Sie eine Zielgruppe erstellen, wird diese im derzeit ausgewählten Arbeitsbereich erstellt.
+* **Zielgruppenliste:** Sie können Zielgruppen zwischen Arbeitsbereichen verschieben, indem Sie die Option [!UICONTROL More Actions] > [!DNL Move] auf der Seite [!UICONTROL Audiences] verwenden.
+* **Erstellung von Angeboten:** Wenn Sie ein Angebot erstellen, wird es im derzeit ausgewählten Arbeitsbereich erstellt.
+* **Eigenschaftenseite (Administration > Eigenschaften):** Sie können das Feld [!UICONTROL Search] verwenden, um die Liste [!UICONTROL Property] zu durchsuchen.
 
-  ![properties_list-Bild](assets/properties_list.png)
+  ![properties_list image](assets/properties_list.png)
 
 ## Einschränkungen  {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -213,11 +213,11 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 * Bei der Verwendung der Ansicht „Alle meine Arbeitsbereiche“ gilt Folgendes:
 
    * Sie können Aktivitäten, Zielgruppen und Angebote für alle Arbeitsbereiche anzeigen, für die Sie über die erforderlichen Rollen und Zugriffsberechtigungen verfügen.
-   * Wenn Sie die [!UICONTROL All My Workspaces] angezeigt, wird der Seite Aktivitäten, Zielgruppen und Angebote eine neue Spalte hinzugefügt. In dieser Spalte werden der Arbeitsbereich des Elements und Ihre mit diesem Element verknüpften Benutzerberechtigungen (Beobachter, Bearbeiter oder Genehmiger) aufgelistet.
+   * Wenn Sie die Ansicht &quot;[!UICONTROL All My Workspaces]&quot;auswählen, wird der Seite &quot;Aktivitäten&quot;, &quot;Zielgruppen&quot;und &quot;Angebote&quot;eine neue Spalte hinzugefügt. In dieser Spalte werden der Arbeitsbereich des Elements und Ihre mit diesem Element verknüpften Benutzerberechtigungen (Beobachter, Bearbeiter oder Genehmiger) aufgelistet.
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ erstellen, müssen Sie den Arbeitsbereich auswählen, in dem das Element erstellt werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
    * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ kopieren, müssen Sie den Arbeitsbereich auswählen, in den das Element kopiert werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
 
-* Jede Einstellung für die folgenden [!UICONTROL Administration] Seiten können von jeder [!UICONTROL Approver] in beliebigen Arbeitsbereichen:
+* Jede Einstellung auf den folgenden [!UICONTROL Administration] -Seiten kann von jedem beliebigen [!UICONTROL Approver] in jedem Arbeitsbereich gesteuert werden:
 
    * Visual Experience Composer
    * Berichterstellung
@@ -233,8 +233,8 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
 * Beim Anzeigen der Zielgruppen über die [!DNL Audiences]-Seite lädt die Seite langsamer als erwartet. Nutzen Sie das Suchfeld, werden die Zielgruppen schneller geladen. Dieses Problem ist bekannt und wird in einem kommenden Update behoben. Das Problem wirkt sich nicht auf die Auswahl von Zielgruppen bei der Erstellung von Aktivitäten aus.
 * Die folgenden Ressourcen sind Teil des neuen Unternehmensberechtigungsmodells:
 
-   * Aktivitäten, Zielgruppen und Codeangebote, die in [!DNL Target Standard/Premium] sind verfügbar, nachdem der Kunde für Berechtigungen aktiviert wurde. (Hinweis: Kunden müssen berechtigt sein, [!DNL Target Premium].
-   * Eigenschaften können vorhandenen Aktivitäten im Standardarbeitsbereich hinzugefügt werden. Dieser Ansatz kann sich jedoch ändern.
+   * Aktivitäten, Zielgruppen und Codeangebote, die in [!DNL Target Standard/Premium] erstellt wurden, stehen zur Verwendung bereit, nachdem der Kunde für Berechtigungen aktiviert wurde. (Hinweis: Kunden müssen eine Berechtigung für [!DNL Target Premium] haben.)
+   * Eigenschaften können vorhandenen Aktivitäten in der Standard-Workspace hinzugefügt werden. Dieser Ansatz kann sich jedoch ändern.
    * Für die Beschränkung durch Berechtigungen stehen nur neue Ressourcen (z. B. Aktivitäten, Codeangebote und Zielgruppen) zur Verfügung, die in Target Premium erstellt wurden (nachdem Unternehmensberechtigungen aktiviert wurden).
    * Externe Ressourcen sind nur für Benutzer im Standardarbeitsbereich verfügbar. Die Rolle eines Benutzers im Standardarbeitsbereich ist global gültig (für alle Target-Anfragen und alle Taget-Ressourcen).
 
@@ -243,11 +243,11 @@ Beachten Sie Folgendes bei der Verwendung oder Konfiguration von Eigenschaften u
    * Bildangebote
    * Alle Recommendations-Ressourcen, einschließlich Kriterienbibliothek, Designbibliothek, Katalog, Recommendations-Einrichtung.
    * Vorhandene Ressourcen (wie Aktivitäten, Codeangebote und Zielgruppen), die in Target Premium vor der Aktivierung von Unternehmensberechtigungen erstellt wurden, können zwar kopiert, aber nicht in andere Arbeitsbereiche verschoben werden.
-   * Aktivitäten, Zielgruppen, Codeangebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht vom Unternehmensberechtigungsmodell gesteuert werden, sind jedoch Teil des Standardarbeitsbereichs: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und über API erstellte Ressourcen. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
-   * Bildangebote (unter gespeicherte Assets) `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` kann derzeit nicht vom Unternehmensberechtigungsmodell gesteuert werden.
-   * clickTracking und Umleitungen funktionieren, wenn der Ziellink oder die Zielseite Teil einer Eigenschaft sind, die in der Aktivität enthalten ist. Außerdem funktioniert clickTracking möglicherweise nicht bei Verwendung der Variablen `targetPageParams()` -Funktion. `targetPageParamsAll()` ist die empfohlene Funktion.
+   * Aktivitäten, Zielgruppen, Codeangebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht vom Unternehmensberechtigungsmodell gesteuert werden, sind jedoch Teil der standardmäßigen Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
+   * Bildangebote (unter `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` gespeicherte Assets) können derzeit nicht vom Unternehmensberechtigungsmodell gesteuert werden.
+   * clickTracking und Umleitungen funktionieren, wenn der Ziellink oder die Zielseite Teil einer Eigenschaft sind, die in der Aktivität enthalten ist. Außerdem funktioniert clickTracking möglicherweise nicht bei Verwendung der Funktion `targetPageParams()` . `targetPageParamsAll()` ist die empfohlene Funktion.
 
-  [!DNL Target] erfordert derzeit eine `at_property` -Token auf jeder Seite vorhanden sein, auf der Tracking erfolgt. Wenn das Token (1) nicht vorhanden ist, (2) zum Zeitpunkt der Aktivitätseinrichtung (im VEC) nicht erkannt wird oder (3) nicht an den Aufruf &quot;clickTracking Target&quot;über die `targetPageParamsAll()` -Funktion verwenden, wird die Metrik nicht erhöht und als &quot;0&quot;angezeigt.
+  Für [!DNL Target] ist derzeit ein `at_property` -Token erforderlich, das auf jeder Seite vorhanden ist, auf der Tracking erfolgt. Wenn das Token (1) nicht vorhanden ist, (2) zum Zeitpunkt der Aktivitätseinrichtung (im VEC) nicht erkannt wird oder (3) nicht über die Funktion `targetPageParamsAll()` an den Aufruf &quot;clickTracking Target&quot;weitergegeben wird, wird die Metrik nicht erhöht und als &quot;0&quot;angezeigt.
 
   Dasselbe gilt für Aktivitäten, die Umleitungen verwenden. Auf der Zielseite muss ein `at_property`-Token vorhanden sein, das beim Einrichten in VEC erkannt wird.
 
@@ -261,7 +261,7 @@ Häufig gestellte Fragen zu Unternehmensberechtigungen:
 
 ### Was passiert, wenn eine Benutzerin oder ein Benutzer über mehrere Rollen und Berechtigungen verfügt? {#multiple-roles}
 
-Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rolle mit den Berechtigungen des Herausgebers angewendet. Wenn ein Benutzer beispielsweise [!UICONTROL Observer] und [!UICONTROL Approver] Rollen, [!UICONTROL Approver] Rolle angewendet wird.
+Wenn ein Benutzer über mehrere Rollen und Berechtigungen verfügt, wird die Rolle mit den Berechtigungen des Herausgebers angewendet. Wenn ein Benutzer beispielsweise über die Rollen [!UICONTROL Observer] und [!UICONTROL Approver] verfügt, wird die Rolle [!UICONTROL Approver] angewendet.
 
 ### Kann ich eine Aktivität von einem Arbeitsbereich in einen anderen verschieben?
 
@@ -271,13 +271,13 @@ Aktivitäten, die vor der Migration angelegt wurden, laufen im Standardarbeitsbe
 
 ### Kann ich eine Zielgruppe von einem Arbeitsbereich in einen anderen verschieben? {#move-audience}
 
-Ja, Sie können Zielgruppen mithilfe der [!UICONTROL More Actions] -Option auf [!UICONTROL Audiences] Seite.
+Ja, Sie können Zielgruppen zwischen Arbeitsbereichen verschieben, indem Sie die Option [!UICONTROL More Actions] auf der Seite [!UICONTROL Audiences] verwenden.
 
-1. Klicken Sie auf **[!UICONTROL More Actions]** Schaltfläche (die drei Ellipsen) und klicken Sie auf **[!UICONTROL Move]**.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL More Actions]** (die drei Ellipsen) und dann auf **[!UICONTROL Move]**.
 
    ![Mehr Aktionen > Verschieben](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. Wählen Sie den gewünschten Arbeitsbereich aus dem **[!UICONTROL Workspace]** Dropdown-Liste und klicken Sie auf **[!UICONTROL Move]**.
+1. Wählen Sie den gewünschten Arbeitsbereich aus der Dropdownliste **[!UICONTROL Workspace]** aus und klicken Sie dann auf **[!UICONTROL Move]**.
 
    ![Wählen Sie die gewünschte Zielgruppe aus, um in den neuen Arbeitsbereich zu wechseln](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
@@ -287,7 +287,7 @@ Ja, Sie können Zielgruppen mithilfe der [!UICONTROL More Actions] -Option auf [
 
 ### Warum wird eine Fehlermeldung angezeigt, die besagt, dass keine Eigenschaft mit dieser Aktivität verknüpft ist, auch wenn eine Eigenschaft zugewiesen ist?
 
-Bei Implementierung von [!DNL Target] mit Tags in [!DNL Adobe Experience Platform] und erhalten Sie eine Fehlermeldung, die angibt, dass der Aktivität keine Eigenschaft zugeordnet ist. Übergeben Sie die `at_property` -Parameter mit der `targetPageParams` -Funktion.
+Wenn Sie [!DNL Target] mit Tags in [!DNL Adobe Experience Platform] implementiert haben und eine Fehlermeldung mit dem Hinweis erhalten, dass keine Eigenschaft mit der Aktivität verknüpft ist, übergeben Sie den Parameter `at_property` an die Funktion `targetPageParams` .
 
 ### Werden Klick-Track-Konversionen aufgezeichnet, wenn eine umgeleitete Seite und die Aktivitäts-URL zu verschiedenen Eigenschaften gehören?
 
@@ -307,7 +307,7 @@ Wenn die Weiterleitungsseite und die Aktivitäts-URL zu derselben Eigenschaft ge
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Schulungsvideo: Schulungsvideo zu Unternehmensberechtigungen ![Übersichtszeichen](/help/main/assets/overview.png)
+### Schulungsvideo: Schulungsvideo für Unternehmensberechtigungen ![Badge &quot;Überblick&quot;](/help/main/assets/overview.png)
 
 Lernziele:
 
@@ -328,6 +328,6 @@ Dieses Video ist eine Aufzeichnung von Office Hours, einer Initiative, die vom T
 
 >[!NOTE]
 >
->Die [!DNL Target] [!UICONTROL Administration] Menübenutzeroberfläche (früher [!UICONTROL Setup]) wurde überarbeitet, um eine verbesserte Leistung zu erzielen, die Wartungszeit bei der Veröffentlichung neuer Funktionen zu reduzieren und das Benutzererlebnis im gesamten Produkt zu verbessern. Die Informationen im folgenden Video sind korrekt. Die Optionen können sich jedoch an etwas anderen Stellen befinden.
+>Die Menübenutzeroberfläche [!DNL Target] [!UICONTROL Administration] (ehemals [!UICONTROL Setup]) wurde neu gestaltet, um eine verbesserte Leistung, kürzere Wartungszeiten bei der Veröffentlichung neuer Funktionen und bessere Benutzererfahrung im gesamten Produkt zu erzielen. Die Informationen im folgenden Video sind korrekt. Die Optionen können sich jedoch an etwas anderen Stellen befinden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)

@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1350'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,6 @@ Die Vorschaufunktion für mobile Viewports wurde für responsive Websites entwic
 > * Verwenden Sie mobile Viewports, wenn Ihre Site responsiv ist und dieselben Elemente auf Ihrer Desktop-Seite in einer anderen Konfiguration auf Ihrer mobilen Seite verwendet werden. Wenn Sie über eine separate mobile Site mit einem separaten Aufbau verfügen, zum Beispiel `m.mysite.com`, verwenden Sie stattdessen eine [mehrseitige Aktivität](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
 >
 >* Mobile Viewports sind nicht verfügbar, wenn sie von einem Umleitungsangebot überlagert werden.
-
 
 Ein Viewport wird durch die Größe des Rechtecks definiert, das von einer Webseite auf Ihrem Bildschirm ausgefüllt wird. Der Viewport entspricht der Größe des Browser-Fensters abzüglich der Bildlaufleisten und Symbolleisten. Browser verwenden „CSS-Pixel“. Für viele Geräte, zum Beispiel solche mit Retina-Bildschirm, ist der Viewport kleiner als die beworbene Geräteauflösung.
 
@@ -55,7 +54,7 @@ Nachstehend finden Sie die Viewports und Auflösungen für häufig verwendete Ge
 | iPhone 6s | 375 x 667 | 750 x 1334 |
 | iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad   Pro | 1024 x 1366 | 2048 x 2732 |
+| iPad Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad der 3. und 4. Generation | 768 x 1024 | 1536 x 2048 |
 | iPad Air 1 und 2 | 768 x 1024 | 1536 x 2048 |
 | iPad Mini | 768 x 1024 | 768 x 1024 |
@@ -99,13 +98,13 @@ Wenn Ihre Site nicht responsiv und Ihre Aktivität auf ein bestimmtes Gerät aus
 Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, während Sie Ihre Erlebnisse erstellen.
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Klicken Sie im Abschnitt **[!UICONTROL Konfiguration mobiler Viewports]** auf **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Mobile viewports configuration]** auf **[!UICONTROL Add]**.
 
    ![Viewport hinzufügen](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Oder
 
-   Um die Konfiguration eines bestehenden mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie anschließend auf das Stiftsymbol [!UICONTROL „Bearbeiten“].
+   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das Symbol [!UICONTROL Edit] (Bleistift).
 
 1. Geben Sie einen Namen für den mobilen Viewport ein.
 
@@ -127,7 +126,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 
    Wenn Sie [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden und ein Betriebssystem auswählen, emuliert [!DNL Target] dieses Gerät, wenn Sie die Seite aufrufen. Wenn beispielsweise Ihre responsive Site auf Android eine andere Oberfläche aufweist als auf iOS, ahmt [!DNL Target] dieses Verhalten nach.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im [!UICONTROL Visual Experience Composer] auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie anschließend **[!UICONTROL Mobile Viewports hinzufügen]** aus.
+1. Klicken Sie im VEC (0) auf das Zahnradsymbol **[!UICONTROL Settings]** und wählen Sie dann **[!UICONTROL Add Mobile Viewports]** aus.[!UICONTROL Visual Experience Composer]
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Geräte]** und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
+1. Klicken Sie auf das Symbol **[!UICONTROL Devices]** und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
 
    ![Mobile Viewports aktivieren](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsiv
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (2 von 2) (7:29)  ![Übersichts-Badge](/help/main/assets/overview.png)
+### Visual Experience Composer (2 von 2) (7:29) ![Badge &quot;Überblick&quot;](/help/main/assets/overview.png)
 
 Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Experience Composer mit mobilen Viewports arbeiten:
 

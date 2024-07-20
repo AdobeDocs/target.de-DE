@@ -1,29 +1,29 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
-description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- oder Inhaltsinformationen an weitergeben können. [!DNL Target] Recommendations.
+description: Erfahren Sie, wie Sie mithilfe von Entitätsattributen Produkt- oder Inhaltsinformationen an [!DNL Target] Recommendations weitergeben können.
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1078'
 ht-degree: 48%
 
 ---
 
 # Entitätsattribute
 
-Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL Adobe Target Recommendations].
+Verwenden Sie Entitätsattribute, um Produkt- oder Inhaltsinformationen an [!DNL Adobe Target Recommendations] zu übergeben.
 
 Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten können Produkte, Inhalte (Artikel, Diashows, Bilder, Filme und Fernsehsendungen), Stellenausschreibungen, Restaurants usw. umfassen.
 
-[!DNL Recommendations] sendet die `productId` oder `productPurchasedId` (bezeichnet als `entity.id` im Code), der in den Algorithmen verwendet wird.
+[!DNL Recommendations] sendet den in den Algorithmen verwendeten `productId` oder `productPurchasedId` (im Code als `entity.id` bezeichnet).
 
 Beachten Sie Folgendes:
 
-* `entity.id` muss mit dem `productPurchasedId` an die Bestellbestätigungsseite gesendet werden und die `productId` verwendet in [!DNL Adobe Analytics] Produktberichte.
-* Entitätsattributwerte, an die Sie übergeben [!DNL Recommendations] nach 61 Tagen ablaufen. Adobe empfiehlt, den neuesten Wert jedes Entitätsattributs an [!DNL Recommendations] mindestens einmal pro Monat für jeden Artikel in Ihrem Katalog.
+* `entity.id` muss mit dem `productPurchasedId` übereinstimmen, der an die Bestellbestätigungsseite gesendet wird, und mit dem `productId`, der in [!DNL Adobe Analytics] -Produktberichten verwendet wird.
+* Die Entitätsattributwerte, die Sie an [!DNL Recommendations] übergeben, laufen nach 61 Tagen ab. Adobe empfiehlt, den neuesten Wert jedes Entitätsattributs für jedes Element in Ihrem Katalog mindestens einmal monatlich an [!DNL Recommendations] zu übergeben.
 
 Die meisten vordefinierten Parameter akzeptieren nur einen einzigen Wert, wobei neue Werte alte Werte überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
 
@@ -31,7 +31,7 @@ Im Allgemeinen sieht die Mbox mit den Anzeigeinformationen wie im folgenden Beis
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen an [!DNL Recommendations] Verwendung von at.js 2.*x*, verwenden [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. Übergeben von Produkt- oder Inhaltsinformationen an [!DNL Recommendations] mithilfe von at.js 2.*x*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Ein Beispiel finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ Nur einzelner Wert.
 
 Dieser erforderliche Parameter identifiziert das Produkt. Diese alphanumerische ID muss für alle [!DNL Adobe Experience Cloud] -Produkte gleich sein, einschließlich [!DNL Analytics], damit die verschiedenen Produkte das Element erkennen und Daten darüber austauschen.
 
-Die `entity.id` Werte müssen *not* enthält Leerzeichen, Schrägstriche, Und-Zeichen, Fragezeichen, Prozentsymbole, Kommas oder andere Satzzeichen, die bei der Übergabe in einem REST-API-Aufruf eine URL-Codierung erfordern. Bindestriche und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
+Die `entity.id` -Werte dürfen *nicht* Leerzeichen, Schrägstriche, kaufmännische Und-Zeichen, Fragezeichen, Prozentzeichen, Kommas oder andere Satzzeichen enthalten, die bei der Übergabe in einem REST-API-Aufruf eine URL-Kodierung erfordern. Bindestriche und Unterstriche sind zulässig. Wenn in einem `entity.id`[!DNL Recommendations]-Wert ungültige Satzzeichen enthalten sind, schlagen manche fehl.
 
 Beispiel: `'entity.id=67833'`
 
@@ -95,18 +95,18 @@ Beispiel: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Mehrere Werte werden unterstützt (kommagetrennte Liste).
 
-Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien umfassen, z. B. einen Cardigans-Unterabschnitt (z. B. `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Mehrere Kategorien müssen durch Kommas getrennt werden.
+Kategorie der aktuellen Seite. Die entity.categoryID kann mehrere Kategorien umfassen, wie z. B. einen Cardigans-Unterabschnitt (z. B. `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Mehrere Kategorien müssen durch Kommas getrennt werden.
 
-Die `categoryId` ist auf 250 Zeichen begrenzt.
+Der Wert `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
->So zeigen Sie eine Empfehlung basierend auf einer Kategorie in einer [!UICONTROL Category] Seite, nur eine `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert der `categoryId` muss exakt mit dem Wert von `entity.categoryId` an die [!UICONTROL Product Detail] Seite.
+>Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Category] -Seite anzuzeigen, kann nur ein `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser Empfehlung verwendet wird. Der Wert von `categoryId` muss genau mit dem Wert von `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Product Detail] übergeben wird.
 
 Beispiele:
 
-* Beispiel für eine Produktdetailseite: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
-* Beispiel für Kategorieseiten-Sweater: `womens:sweaters`
+* Beispiel-Produktdetailseite: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Beispiel für Kategorieseiten-Pullover: `womens:sweaters`
 * Beispiel für Kategorieseiten-Cardigans: `womens:sweaters:cardigans`
 
 Bei kategoriebasierten Empfehlungen wird der Kategoriewert durch ein Komma getrennt. Alle durch Kommas getrennten Werte sind dann Kategorien. Sie können auch Unterkategorien mit einem anderen Trennzeichen, beispielsweise einem Doppelpunkt (:), definieren, um Unterkategorien innerhalb des Kategoriewerts zu trennen.
@@ -117,7 +117,7 @@ Im folgenden Code wird beispielsweise die Kategorie &quot;Frauen&quot;in mehrere
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel lautet der Kategorieschlüssel . `Womens:Outerwear:Jackets:Caban`.
+Für die MBox-Bereitstellung wird der längste Attributname für den Schlüssel verwendet. Wenn eine Bindung vorhanden ist, wird das letzte Attribut verwendet. Im obigen Beispiel ist der Kategorieschlüssel `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
@@ -159,11 +159,11 @@ Zeigt den Lagerbestand des Artikels.
 
 Beispiel: `'entity.inventory=1'`
 
-**Umgang mit leeren Inventarattributen:** Für die Bereitstellung, wenn Sie über eine Einschlussregel, Sammlungsregel oder Kriterieneinstellung mit `entity.inventory` > 0 oder `entity.inventory` = 0 und der Lagerbestand des Produkts nicht festgelegt ist, [!DNL Target] bewertet diesen Wert mit TRUE und schließt Produkte ein, bei denen das Inventar nicht festgelegt ist. Daher werden Produkte mit nicht festgelegtem Inventar in Empfehlungsergebnissen angezeigt.
+**Umgang mit leeren Lagerattributen:** Wenn Sie für die Bereitstellung eine Einschlussregel, eine Erfassungsregel oder eine Kriterieneinstellung mit `entity.inventory` > 0 oder `entity.inventory` = 0 haben und das Produkt den Lagerbestand nicht festgelegt hat, wertet [!DNL Target] diesen Wert auf TRUE aus und schließt Produkte ein, bei denen der Bestand nicht festgelegt ist. Daher werden Produkte mit nicht festgelegtem Inventar in Empfehlungsergebnissen angezeigt.
 
 Wenn Sie eine globale Ausschlussregel mit `entity.inventory` = 0 und `entity.inventory` nicht festgelegt haben, wird diese Regel von [!DNL Target] auf TRUE gesetzt und das Produkt ausgeschlossen.
 
-**Bekanntes Problem:** Die Produktsuche ist nicht mit der Bereitstellung für Inventarwertattribute konsistent, die nicht festgelegt sind. Beispiel: für eine Regel mit `entity.inventory` = 0 , zeigt die Produktsuche keine Produkte an, bei denen der Bestandswert nicht festgelegt ist.
+**Bekanntes Problem:** Die Produktsuche ist nicht mit der Bereitstellung für nicht festgelegte Bestandswertattribute konsistent. Beispiel: Für eine Regel mit `entity.inventory` = 0 zeigt die Produktsuche keine Produkte an, bei denen der Bestandswert nicht festgelegt ist.
 
 ### entity.value
 
@@ -187,7 +187,7 @@ Beispiel: `'entity.margin=1.00'`
 
 Mehrere Werte werden unterstützt (JSON-Array).
 
-Definieren Sie bis zu 100 benutzerspezifische Variablen, um weitere Informationen zum Artikel bereitzustellen. Sie können jeden nicht bereits in Gebrauch befindlichen Attributnamen für die benutzerspezifischen Attribute verwenden. Sie können beispielsweise ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` um ein Buch oder einen Film zu definieren. Ein Ticketverkäufer kann Attribute für einen Veranstaltungsort für einen zusätzlichen Auftritt erstellen, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder eine Vorgruppe bei einem Konzert.
+Definieren Sie bis zu 100 benutzerspezifische Variablen, um weitere Informationen zum Artikel bereitzustellen. Sie können jeden nicht bereits in Gebrauch befindlichen Attributnamen für die benutzerspezifischen Attribute verwenden. Sie können beispielsweise ein benutzerdefiniertes Attribut mit dem Namen `entity.genre` erstellen, um ein Buch oder einen Film zu definieren. Ein Ticketverkäufer kann Attribute für einen Veranstaltungsort für einen zusätzlichen Auftritt erstellen, z. B. ein weiteres Team, das bei einer Sportveranstaltung mitwirkt, oder eine Vorgruppe bei einem Konzert.
 
 Einschränkungen:
 

@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 78%
+source-wordcount: '243'
+ht-degree: 67%
 
 ---
 
 # Problembehandlung für Visual Experience Composer und Enhanced Experience Composer
 
-Anzeigeprobleme treten manchmal in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Enhanced Experience Composer] (EWG) unter bestimmten Voraussetzungen.
+Unter bestimmten Umständen treten im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) und im [!UICONTROL Enhanced Experience Composer] (EEC) manchmal Anzeigeprobleme auf.
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Beim VEC handelt es sich um einen Editor, der es Marketingexperten und Gestaltern ermöglicht, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
 Der EEC stellt eine Erweiterung des VEC dar, der Sie beim Bearbeiten eines Erlebnisses für eine iFrame-Busting-Website oder Seiten, die noch nicht über eine Target-Implementierung verfügen, unterstützt. Wenn Sie Probleme mit dem Öffnen Ihrer Seite im VEC haben, versuchen Sie es mit dem EEC.
 
-Informationen über den VEC und den EEC finden Sie unter  [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Weitere Informationen zum VEC und zum EEC finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Beachten Sie, dass einige Probleme sowohl VEC als auch EEC betreffen, während andere nur in einem der beiden Composer auftreten. Weitere Informationen finden Sie auf der entsprechenden Seite.
 

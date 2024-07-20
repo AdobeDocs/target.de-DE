@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: Erfahren Sie, wie Adobe [!DNL Target] zeigt die Konversionsrate, Steigerung, Konfidenz und Konfidenzintervall für jedes Erlebnis an und berechnet sie.
+description: Erfahren Sie, wie Adobe [!DNL Target] die Konversionsrate, Steigerung, Konfidenz und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
 title: Wie kann ich die Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2162'
-ht-degree: 52%
+source-wordcount: '2113'
+ht-degree: 49%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Konversionsrate, Steigerung, Konfidenzintervall und Konfidenzintervall werden für jedes Erlebnis gemeldet.
 
-In der folgenden Illustration wird die Diagrammüberschrift für eine Beispielaktivität in dargestellt, wobei die Überschriften [!UICONTROL Konversionsrate], [!UICONTROL Lift] und [!UICONTROL Konfidenz] hervorgehoben wurden.
+Die folgende Abbildung zeigt die Diagrammüberschrift für eine Beispielaktivität mit hervorgehobenen Kopfzeilen [!UICONTROL Conversion Rate], [!UICONTROL Lift] und [!UICONTROL Confidence].
 
 ![Bild mit Konversionsrate](assets/conversion-rate.jpg)
 
@@ -29,7 +29,7 @@ Zeigt die mittlere Konversionsrate, die Konfidenz, das Intervall und die Anzahl 
 
 Betrachten Sie zum Beispiel die folgende Berichtsspalte „Konversionsrate“:
 
-![Bild für Konversionsrate-Detail](assets/conversion-rate-detail.jpg)
+![Bild für die Konversionsrate-Detail ](assets/conversion-rate-detail.jpg)
 
 Die erste Zeile ist das Kontrollerlebnis. Es zeigt eine Konversion von 15 Prozent mit drei Konversionen. Die zweite Zeile, Erlebnis B, zeigt eine Konversionsrate von 15 Prozent mit einem Konfidenzintervall von plus oder minus 15,65 Prozent und drei Konversionen an.
 
@@ -48,7 +48,7 @@ Wenn die Kontrollinstanz 0 ist, gibt es keine prozentuale Steigerung.
 
 ## Verkaufsdaten {#section_30A674731BA6440E9BB93C421BE990EE}
 
-AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Bestellung einfügen (`orderConfirmPage`) und als Konversions-Mbox ausgewählt.
+AOV-, RPV- und Verkaufsdaten werden für jedes Erlebnis angezeigt, wenn Sie eine Place Order-Mbox (`orderConfirmPage`) eingefügt und sie als Konversions-Mbox ausgewählt haben.
 
 ## Konfidenzniveau und Konfidenzintervall {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -62,7 +62,7 @@ Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlic
 
 Das Vertrauen wird auf 100 % aufgerundet, wenn es größer oder gleich 99,995 % ist.
 
-![conf_report image](assets/conf_report.png)  ![Bild &quot;conf_report_detail&quot;](assets/conf_report_detail.png)
+![conf_report image](assets/conf_report.png) ![conf_report_detail image](assets/conf_report_detail.png)
 
 Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, bis der Umfang der Proben groß genug ist und für ein oder mehrere Erlebnisse über einen längeren Zeitraum vier Vertrauensbalken angezeigt werden. So können Sie sicher sein, dass die Ergebnisse stabil sind.
 
@@ -73,11 +73,11 @@ Bevor Sie jedoch eine geschäftliche Entscheidung treffen, sollten Sie warten, b
 >
 >Derzeit wird das Konfidenzintervall nur für binäre Metriken berechnet.
 
-Die *Konfidenzintervall* ist ein Bereich von Schätzungen, innerhalb dessen der wahre Wert der Metrik auf einem bestimmten Konfidenzniveau gefunden werden kann. Target zeigt immer Konfidenzintervalle von 95 % an. Das Konfidenzintervall wird als hellgrauer +/–-Prozentsatz in der Spalte „Konversionsrate“ angezeigt. Im folgenden Beispiel beträgt das Konfidenzintervall für die Steigerung von Erlebnis B plus bzw. minus 15,65 Prozent.
+Das *Konfidenzintervall* ist ein Bereich von Schätzungen, innerhalb dessen der wahre Wert der Metrik bei einem bestimmten Konfidenzniveau gefunden werden kann. Target zeigt immer Konfidenzintervalle von 95 % an. Das Konfidenzintervall wird als hellgrauer +/–-Prozentsatz in der Spalte „Konversionsrate“ angezeigt. Im folgenden Beispiel beträgt das Konfidenzintervall für die Steigerung von Erlebnis B plus bzw. minus 15,65 Prozent.
 
 ![Bild der Konversionsrate](assets/conversion_rate.png)
 
-**Beispiel:** Der beobachtete RPV eines Erlebnisses beträgt 10 USD und 95 % **Konfidenzintervall** zwischen 5 und 15 Dollar beträgt. Unbekannt ist der tatsächliche RPV 12 Dollar. Wenn wir diesen Test dann mehrmals ausgeführt haben, enthalten 95 % der Zeit, in der das zu berechnende Konfidenzintervall die _true_ Wert des RPV von 12 USD.
+**Beispiel:** Der beobachtete RPV eines Erlebnisses beträgt 10 USD, das 95 %-Konfidenzintervall **beträgt 5 bis 15 USD.** Unbekannt ist der tatsächliche RPV 12 Dollar. Wenn wir diesen Test dann mehrmals ausgeführt haben, enthalten 95 % der Zeit, die wir für das Konfidenzintervall berechnen, den Wert _true_ des RPV von 12 USD.
 
 **Was beeinflusst das Konfidenzintervall?** Die Formel folgt statistischen Standardmethoden zur Berechnung der Konfidenzintervalle.
 
@@ -88,7 +88,7 @@ Die *Konfidenzintervall* ist ein Bereich von Schätzungen, innerhalb dessen der 
 
 Der [heruntergeladene CSV-Bericht](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) enthält nur Rohdaten und keine berechneten Metriken wie Umsatz pro Besucher, Steigerung oder Konfidenz, die für A/B-Tests verwendet werden.
 
-Um diese berechneten Metriken zu berechnen, laden Sie die [Vollständige Vertrauensberechnung](/help/main/assets/complete_confidence_calculator.xlsx) Excel-Datei zur Eingabe des Aktivitätswerts oder zur Überprüfung [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Laden Sie zur Berechnung dieser berechneten Metriken die Excel-Datei [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) von Target herunter, um den Aktivitätswert einzugeben, oder überprüfen Sie die [statistischen Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,15 +98,15 @@ Um diese berechneten Metriken zu berechnen, laden Sie die [Vollständige Vertrau
 
 Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich.
 
-Für A4T verwenden wir eine [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} Berechnung für kontinuierliche Variablen (anstelle binärer Metriken). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Um die t-Test-Berechnung des Welch durchzuführen, ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) erläutert die Einzelheiten der verwendeten mathematischen Formeln. Die Quadratsumme kann abgerufen werden von [!DNL Analytics]. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
+Für A4T verwenden wir eine t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}-Berechnung von [Welch&#39; für kontinuierliche Variablen (anstelle von binären Metriken). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Um die t-Test-Berechnung des Welch durchzuführen, ist die &quot;Quadratsumme&quot;erforderlich, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) erläutert die Details der verwendeten mathematischen Formeln. Die Summe der Quadrate kann von [!DNL Analytics] abgerufen werden. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
 
 Wenn Sie beispielsweise auf Seitenansichten pro Besucher optimieren, exportieren Sie eine Stichprobe der Gesamtanzahl der Seitenansichten pro Besucher für einen bestimmten Zeitraum, vielleicht einige Tage (nur einige tausend Datenpunkte sind erforderlich). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
 
 **So verwenden Sie die [!DNL Analytics]-Datenexportfunktion:**
 
 1. Melden Sie sich bei [!DNL Adobe Analytics] an.
-1. Klicken Sie auf **[!UICONTROL Werkzeuge]** > **[!UICONTROL Data Warehouse]**.
-1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]** die Felder aus.
+1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
+1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse Request]** die Felder aus.
 
    Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
@@ -115,21 +115,21 @@ Wenn Sie beispielsweise auf Seitenansichten pro Besucher optimieren, exportieren
    | Anforderungsname | Geben Sie einen Namen für Ihre Anforderung ein. |
    | Berichtsdatum | Geben Sie einen Zeitraum und eine Granularität an.<br>Es hat sich bewährt, für die erste Anforderung maximal eine Stunde oder einen Tag mit Daten auszuwählen.  Die Verarbeitung von Data Warehouse-Dateien dauert umso länger, je länger der angeforderte Zeitraum ist. Daher ist es immer am besten, zunächst Daten für einen kleineren Zeitraum anzufordern, um sicherzustellen, dass die Datei das erwartete Ergebnis zurückgibt. Rufen Sie anschließend Request Manager auf, duplizieren Sie die Anforderung und fragen Sie beim zweiten Durchlauf mehr Daten an. Wenn Sie die Granularität auf einen anderen Wert als &quot;Keine&quot;umschalten, wird die Dateigröße drastisch erhöht.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Verfügbare Segmente | Wenden Sie bei Bedarf ein Segment an. |
-   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus:   Die Standardeinstellung ist Out-Of-The-Box (OOTB), während die benutzerdefinierte Einstellung eVars und Eigenschaften umfasst. Es wird empfohlen, &quot;Besucher-ID&quot;zu verwenden, wenn Informationen zur Besucher-ID-Ebene erforderlich sind, anstatt &quot;Experience Cloud-Besucher-ID&quot;.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
+   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während &quot;Benutzerdefiniert&quot;eVars und Props enthält. Es wird empfohlen, &quot;Besucher-ID&quot;zu verwenden, wenn Informationen zur Besucher-ID-Ebene erforderlich sind, anstatt &quot;Experience Cloud-Besucher-ID&quot;.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an den die Datei gesendet wird. Benennen Sie die Datei und wählen Sie dann [!UICONTROL Sofort senden] aus.<br>Hinweis: Die Datei kann über FTP unter [!UICONTROL Erweiterte Auslieferungsoptionen]<br>![Lieferung planen](/help/main/c-reports/assets/datawarehouse3.png) ausgegeben werden. |
+   | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an die die Datei gesendet werden soll, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately] aus.<br>Hinweis: Die Datei kann über FTP unter [!UICONTROL Advanced Delivery Options]<br>![Bereitstellung planen](/help/main/c-reports/assets/datawarehouse3.png) bereitgestellt werden. |
 
-1. Klicken Sie auf **[!UICONTROL Diesen Bericht anfordern]**.
+1. Klicken Sie auf **[!UICONTROL Request this Report]**.
 
-   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anforderung jederzeit überprüfen, indem Sie auf [!UICONTROL Werkzeuge] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
+   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anfrage jederzeit überprüfen, indem Sie auf [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
 
-   Wenn Sie Daten, die Sie in der Vergangenheit angefordert haben, erneut anfordern möchten, können Sie eine alte Anforderung aus dem [!UICONTROL Anforderungs-Manager] nach Bedarf.
+   Wenn Sie Daten, die Sie in der Vergangenheit angefordert haben, erneut anfordern möchten, können Sie eine alte Anforderung aus dem [!UICONTROL Request Manager] nach Bedarf duplizieren.
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen einer Data Warehouse-Anforderung](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best Practices für Data Warehousen](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Zählmethodik {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -139,12 +139,12 @@ Die Zählmethodik wird von folgenden Aktivitätstypen unterstützt:
 
 * A/B-Test
 
-   Eine Ausnahme stellen automatische Target-A/B-Aktivitäten dar, die lediglich die Standardzählmethodik „Besuch“ unterstützen.
+  Eine Ausnahme stellen automatische Target-A/B-Aktivitäten dar, die lediglich die Standardzählmethodik „Besuch“ unterstützen.
 
 * Erlebnis-Targeting (XT)
 * Multivarianz-Tests (MVT)
 
-   Target unterstützt für den Beitragsbericht der MVT-Elemente keine Aktivitätsimpressionen als Umsatzmetriktypen.
+  Target unterstützt für den Beitragsbericht der MVT-Elemente keine Aktivitätsimpressionen als Umsatzmetriktypen.
 
 * Recommendations
 
@@ -154,40 +154,40 @@ Berichte können nach folgenden Zählmethodiken angezeigt werden:
 
 * **Teilnehmer:** Ein eindeutig identifizierbarer Teilnehmer an der Aktivität (während der gesamten Aktivitätsdauer).
 
-   Eine Person wird als neuer Teilnehmer gezählt, wenn der Besuch über einen anderen Computer oder Browser erfolgt, wenn das entsprechende Cookie gelöscht wurde oder wenn der Besucher konvertiert und mit demselben Cookie zur Aktivität zurückkehrt. Ein Teilnehmer wird mithilfe der PCID im Mbox-Cookie des Besuchers identifiziert. Ändert sich die PCID, wird die Person als neuer Besucher betrachtet.
+  Eine Person wird als neuer Teilnehmer gezählt, wenn der Besuch über einen anderen Computer oder Browser erfolgt, wenn das entsprechende Cookie gelöscht wurde oder wenn der Besucher konvertiert und mit demselben Cookie zur Aktivität zurückkehrt. Ein Teilnehmer wird mithilfe der PCID im Mbox-Cookie des Besuchers identifiziert. Ändert sich die PCID, wird die Person als neuer Besucher betrachtet.
 
 * **Besuch:** Ein eindeutig identifizierbarer Teilnehmer eines Erlebnisses während einer einzelnen 30-minütigen Browsersitzung
 
-   Wenn eine Konversion erreicht wird oder ein Besucher nach einer Abwesenheit von mindestens 30 Minuten die Site erneut aufruft, zählt auch ein wiederkehrender Besucher als neuer Besuch. Ein Besucher wird mithilfe der `sessionID` im Mbox-Cookie des Besuchers gekennzeichnet. Ändert sich die `sessionID`, wird der Besuch als neuer Besuch angesehen.
+  Wenn eine Konversion erreicht wird oder ein Besucher nach einer Abwesenheit von mindestens 30 Minuten die Site erneut aufruft, zählt auch ein wiederkehrender Besucher als neuer Besuch. Ein Besucher wird mithilfe der `sessionID` im Mbox-Cookie des Besuchers gekennzeichnet. Ändert sich die `sessionID`, wird der Besuch als neuer Besuch angesehen.
 
 * **Impression/Seitenansicht:** Hier wird jedes Laden einer beliebigen Seite der Aktivität durch einen Besucher gezählt.
 
-   Ein einzelner Besuch kann diverse Impressionen, z. B. Ihrer Startseite, beinhalten.
+  Ein einzelner Besuch kann diverse Impressionen, z. B. Ihrer Startseite, beinhalten.
 
 >[!NOTE]
 >
 >In der Regel werden Zählungen durch Cookies und Sitzungsaktivitäten bestimmt. Wenn Sie jedoch den End-Konversionspunkt einer Aktivität erreichen und die Aktivität dann erneut aufrufen, werden Sie als neuer Teilnehmer und neuer Aktivitätsbesuch gezählt. Dies trifft auch dann zu, wenn sich die Werte Ihrer PCID und der `sessionID` nicht geändert haben.
 
-## Warum [!DNL Target] empfiehlt die Verwendung von Welch-T-Tests? {#t-test}
+## Warum empfiehlt [!DNL Target] die Verwendung von Welch-T-Tests? {#t-test}
 
 A/B-Tests sind Experimente, um den Mittelwert einiger Geschäftsmetriken in einer Kontrollvariante (auch als Erlebnis bezeichnet) mit dem Mittelwert derselben Metrik in einem oder mehreren alternativen Erlebnissen zu vergleichen.
 
-[!DNL Target] empfiehlt, [Welch&#39;s t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test), da diese weniger Annahmen erfordern als Alternativen wie z-Tests und der geeignete statistische Test für paarweise Vergleiche von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
+[!DNL Target] empfiehlt die Verwendung von [Welch-T-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test), da diese weniger Annahmen als Alternativen wie z-Tests erfordern und der geeignete statistische Test für paarweise Vergleiche von (quantitativen) Geschäftsmetriken zwischen Kontrollerlebnissen und alternativen Erlebnissen sind.
 
 ### Im Detail
 
 Bei der Durchführung von Online-A/B-Tests wird jeder Benutzer/Besucher zufällig einer einzelnen Variante zugewiesen. Anschließend nehmen wir Messungen der Geschäftsmetriken vor, die von Interesse sind (z. B. Konversionen, Bestellungen, Umsatz usw.) für Besucher in den einzelnen Varianten. Der verwendete statistische Test testet dann die Hypothese, dass die mittlere Geschäftsmetrik (z. B. Konversionsrate, Bestellungen pro Benutzer, Umsatz pro Benutzer usw.) entspricht der Kontrollgruppe und einer bestimmten alternativen Variante.
 
-Obwohl die Geschäftsmetrik selbst möglicherweise entsprechend einer beliebigen Verteilung verteilt wird, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über die [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Beachten Sie, dass zwar keine Garantie dafür besteht, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in der Regel aufgrund des Umfangs der Besucher bei Online-Tests erreicht wird.
+Obwohl die Geschäftsmetrik selbst möglicherweise nach einer beliebigen Verteilung verteilt wird, sollte die Verteilung des Mittelwerts dieser Metrik (innerhalb jeder Variante) über das [Zentrale Grenzwertzelle](https://en.wikipedia.org/wiki/Central_limit_theorem) in eine normale Verteilung konvertiert werden. Beachten Sie, dass zwar keine Garantie dafür besteht, wie schnell sich diese Stichprobenverteilung des Mittelwerts auf den Normalwert annähert, diese Bedingung jedoch in der Regel aufgrund des Umfangs der Besucher bei Online-Tests erreicht wird.
 
-Bei dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da dies das Verhältnis eines normal verteilten Werts (die Differenz der Mittel der Geschäftsmetrik) zu einem Skalierungsbegriff ist, der auf einer Schätzung aus den Daten basiert (der Standardfehler der Mitteldifferenz). Die **t-Test** ist dann der geeignete Hypothesentest, da die Teststatistik einer t-Verteilung folgt.
+Bei dieser Normalität des Mittelwerts kann nachgewiesen werden, dass die zu verwendende Teststatistik einer t-Verteilung folgt, da dies das Verhältnis eines normal verteilten Werts (die Differenz der Mittel der Geschäftsmetrik) zu einem Skalierungsbegriff ist, der auf einer Schätzung aus den Daten basiert (der Standardfehler der Mitteldifferenz). Der **t-Test** ist dann der geeignete Hypothesentest, da die Teststatistik einer t-Verteilung folgt.
 
 ### Warum keine anderen Tests verwendet werden
 
-A **z-Test** ist technisch unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet wurde und stattdessen anhand der Daten geschätzt werden muss. Bei ausreichend großen Stichprobengrößen sind die z-Test- und t-Test jedoch identisch.
+Ein **z-Test** ist technisch unangemessen, da im typischen A/B-Testszenario der Nenner der Teststatistik nicht aus einer bekannten Varianz abgeleitet ist und stattdessen aus den Daten geschätzt werden muss. Bei ausreichend großen Stichprobengrößen sind die z-Test- und t-Test jedoch identisch.
 
-**Chi-squared-Tests** werden nicht verwendet, da diese zur Bestimmung der qualitativen Beziehung zwischen zwei Varianten geeignet sind (d. h. einer Nullhypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario von _quantitativ_ Metriken vergleichen.
+**Chi-squared-Tests** werden nicht verwendet, da diese geeignet sind, um zu bestimmen, ob eine qualitative Beziehung zwischen zwei Varianten besteht (d. h. eine Null-Hypothese, dass es keinen Unterschied zwischen Varianten gibt). T-Tests eignen sich besser für das Szenario des Vergleichs von Metriken mit _quantitativ_.
 
-Die **Mann-Whitney-U-Test** ist ein nichtparametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der durchschnittlichen Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt in Anbetracht des Umfangs des mit Online-Tests verbundenen Traffics in der Regel das zentrale Limit-Theorem, sodass der t-Test sicher angewendet werden kann.
+Der **Mann-Whitney U-Test** ist ein nicht parametrischer Test, der geeignet ist, wenn die Stichprobenverteilung der durchschnittlichen Geschäftsmetrik (für jede Variante) normalerweise nicht verteilt wird. Wie bereits erwähnt, gilt in Anbetracht des Umfangs des mit Online-Tests verbundenen Traffics in der Regel das zentrale Limit-Theorem, sodass der t-Test sicher angewendet werden kann.
 
-Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir uns im typischen A/Bn-Test mehr für _welche spezifische Variante_ ist am besten. In [!DNL Target]Daher wenden wir regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, wobei eine Bonferroni-Korrektur vorgenommen wird, um mehrere Vergleiche zu berücksichtigen.
+Komplexere Methoden wie **ANOVA** (die T-Tests auf mehr als zwei Varianten verallgemeinern) können angewendet werden, wenn ein Test mehr als zwei Erlebnisse aufweist (&quot;A/Bn-Tests&quot;). ANOVA beantwortet jedoch die Frage &quot;ob alle Varianten denselben Mittelwert haben&quot;, während wir beim typischen A/Bn-Test mehr daran interessiert sind, welche bestimmte Variante _am besten ist._ In [!DNL Target] wenden wir daher regelmäßige T-Tests an, bei denen jede Variante mit einer Kontrolle verglichen wird, mit einer Bonferroni-Korrektur, um mehrere Vergleiche zu berücksichtigen.

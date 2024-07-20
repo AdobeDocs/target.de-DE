@@ -6,28 +6,28 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
 # Best Practices und Einschränkungen von Visual Experience Composer
 
-Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch weitere Tipps und Einschränkungen, die Sie bei der Verwendung des Visual Experience Composer (VEC) beachten sollten in [!DNL Adobe Target].
+Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch weitere Tipps und Einschränkungen, die Sie bei der Verwendung von Visual Experience Composer (VEC) in [!DNL Adobe Target] beachten sollten.
 
 Befolgen Sie diese Best Practices und Sie werden bei den von Ihnen entworfenen Erlebnissen nicht so schnell auf unerwartete Probleme stoßen.
 
 ## Best Practices   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Platzieren Sie die at.js-Referenz oben im `<head>` auf Ihrer Seite.**
+**Platzieren Sie die at.js-Referenz oben im Abschnitt `<head>` Ihrer Seite.**
 
 Wenn Sie auch den Besucher-API-Dienst verwenden, platzieren Sie das Besucher-API-Skript über at.js.
 
 **Der Enhanced Experience Composer kann auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktiviert werden.**
 
-Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer]und schalten Sie dann den Schalter auf die Position &quot;Ein&quot;.
+Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
 
-Möchten Sie den Enhanced Experience Composer für einzelne Aktivitäten aktivieren, wenn Sie eine Aktivität im Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Konfigurieren > URL] und stellen Sie den Regler auf die Position „Ein“.
+Um den Enhanced Experience Composer beim Erstellen einer Aktivität im Visual Experience Composer auf Aktivitätsebene zu aktivieren, klicken Sie auf [!UICONTROL Configure > URL] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
 
 **Sie können bestimmte IP-Adressen in Zulassungslisten einordnen, wenn der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.**
 
@@ -217,7 +217,7 @@ Der äußere Div darf in keinem Erlebnis ausgewählt werden, weil die fest in di
 
 Wenn Sie den Enhanced Experience Composer auf einer nicht veröffentlichten Seite wie einer Staging-Umgebung verwenden, dann sehen Sie möglicherweise Fehlermeldungen zu Zeitüberschreitungen und Zugriffsverweigerung, wenn Ihre Site RIPs blockiert.
 
-**Werden mehrere Seiten hinzugefügt, sind sowohl die Erlebnisleiste als auch die Seitenleiste gleichzeitig geöffnet. Dies verringert die Breite, in der Visual Experience Composer die Seite für Optimierungen anzeigen kann. Somit werden fließende Seiten aufgrund des eingeschränkten Raums möglicherweise nicht wie erwartet wiedergegeben.**
+**Werden mehrere Seiten hinzugefügt, sind sowohl die Erlebnisleiste als auch die Seitenleiste gleichzeitig geöffnet. Dies verringert die Breite, in der Visual Experience Composer die Seite für Optimierungen anzeigen kann. Aus diesem Grund werden fließende Sites im eingeschränkten Speicherplatz möglicherweise anders angezeigt als erwartet.**
 
 Dies kann umgangen werden, indem Erlebnisleiste und Seitenleiste durch Klicken auf die nach links zeigenden Pfeile oben minimiert werden.
 
@@ -229,7 +229,7 @@ Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den ei
 
 **Auf Mboxes stehen lediglich Tauschangebote zur Verfügung.**
 
-Aktionen wie „Klasse bearbeiten“ und „Neu anordnen“ sind innerhalb einer Mbox nicht zulässig.
+Aktionen wie &quot;Klasse bearbeiten&quot;und &quot;Neu anordnen&quot;sind innerhalb einer Mbox nicht zulässig.
 
 **Sie sollten dasselbe Element nicht neu ordnen und verschieben.**
 

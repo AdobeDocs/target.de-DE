@@ -1,6 +1,6 @@
 ---
 keywords: Empfehlung; Backup; Sicherung
-description: Erfahren Sie, wie Sie Reserveempfehlungen in Adobe verwenden. [!DNL Target] Recommendations. Empfehlungen, die nicht genügend empfohlene Artikel enthalten, zeigen die Ergebnisse des Backup-Algorithmus an.
+description: Erfahren Sie, wie Sie Sicherungsempfehlungen in Adobe [!DNL Target] Recommendations verwenden. Empfehlungen, die nicht genügend empfohlene Artikel enthalten, zeigen die Ergebnisse des Backup-Algorithmus an.
 title: Wie verwende ich eine Reserveempfehlung in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
@@ -14,13 +14,13 @@ ht-degree: 77%
 
 # Verwenden einer Reserveempfehlung
 
-Wenn Sie die Funktion zur Reserveempfehlung in [!DNL Adobe Target]festgelegt ist, werden bei Empfehlungen, die nicht genügend empfohlene Artikel enthalten, keine Standardinhalte angezeigt. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
+Wenn Sie die Funktion für Reserveempfehlungen in [!DNL Adobe Target] verwenden, zeigt eine Empfehlung, die nicht genügend empfohlene Artikel enthält, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 
 Wenn Sie keine Reserveempfehlung verwenden, zeigt das System dem Benutzer Standardinhalt an, wenn eine Empfehlung nicht genügend Artikel zum Ausfüllen der Anzeige aufweist.
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie in der [Abschnitt &quot;Inhalt&quot;der Kriterien &quot;Erstellen&quot;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) -Thema, einschließlich einer Matrix, die die Ergebnisse erläutert, die Sie bei der Verwendung der [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] Optionen zusammen oder getrennt.
+>Weitere Informationen finden Sie im Abschnitt [Inhalt des Themas Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , einschließlich einer Matrix, die die Ergebnisse erläutert, die bei der Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] zusammen oder getrennt zu beobachten sind.
 
 Wenn die Daten des Algorithmus aufgebraucht sind, füllt die Funktion „Reserveempfehlung“ verbleibende Slots immer mit den am häufigsten angezeigten Artikeln der Site aus. Beispiel: Ihre Vorlage wurde so konfiguriert, dass fünf empfohlene Artikel angezeigt werden, und Sie verwenden den Algorithmus *Kaufpräferenzen*. Da Sie jedoch nur über genügend Daten für zwei Slots verfügen, füllt die Funktion „Reserveempfehlung“ die verbleibenden drei Slots immer mit den am häufigsten angezeigten Artikeln aus.
 
@@ -49,4 +49,4 @@ Duplikate werden aus Empfehlungen-Batches entfernt.
 
 Die Nutzung von Reserveempfehlungen ist normalerweise Gegenstand der Diskussion im Implementierungsteam während des ersten Setups. Wenn Sie die Einstellungen für die Reserveempfehlung ändern möchten, wenden Sie sich bitte an Ihren Kundenbetreuer.
 
-Wenn Teilweises Design-Rendering aktivieren (siehe [Inhaltseinstellungen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und die Vorlage nicht angezeigt wird, wird entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
+Wenn &quot;Teilweises Design-Rendering aktivieren&quot;(siehe [Inhaltseinstellungen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und die Vorlage nicht angezeigt wird, wird stattdessen entweder die Reserveempfehlung oder der Standardinhalt angezeigt.

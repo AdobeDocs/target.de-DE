@@ -1,11 +1,12 @@
 ---
 keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
-description: Erfahren Sie, wie Sie Code- und Bildangebote im [!DNL Target] [!UICONTROL Offers] -Bibliothek.
-title: Wie arbeite ich mit Inhalten im [!UICONTROL Offers] Bibliothek?
+description: Erfahren Sie, wie Sie Code- und Bildangebote in der Bibliothek [!DNL Target] [!UICONTROL Offers] verwalten.
+title: Wie arbeite ich mit Inhalten in der [!UICONTROL Offers]-Bibliothek?
 feature: Experiences and Offers
 hide: true
 hidefromtoc: true
-source-git-commit: 5931aef4a16e6e9777112fdda4b3277f8e6f7386
+exl-id: 5d836037-3f51-4c63-8717-65de72e5c793
+source-git-commit: 6622453ec334dbd955d405bbd16478b8666f8c27
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 33%
@@ -14,52 +15,52 @@ ht-degree: 33%
 
 # Arbeiten mit Inhalten in der Asset-Bibliothek
 
-Informationen zu den Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek ausführen können in [!DNL Adobe Target] einschließlich Anmerkungen, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
+Informationen zu den Aufgaben, die Sie für ein Asset in der Inhaltsbibliothek in [!DNL Adobe Target] ausführen können, einschließlich Anmerkungen, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
 
-1. Klicks **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** oder **[!UICONTROL Image Offers]**.
+1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** oder **[!UICONTROL Image Offers]**.
 
    ![Registerkarten für Code-Angebote und Bildangebote](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    Weitere Informationen zum Durchsuchen der Angebotsbibliothek und Erstellen intelligenter Sammlungen finden Sie unter [Filtern und Durchsuchen von Inhalten](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Optional) Zwischen den [!UICONTROL Card View] und [!UICONTROL List View], klicken Sie auf die [!UICONTROL Card View] oder [!UICONTROL List View] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL View Settings] , um die Spalten bei der Anzeige der [!UICONTROL List View].
+1. (Optional) Schalten Sie zwischen [!UICONTROL Card View] und [!UICONTROL List View] um, klicken Sie auf das Symbol [!UICONTROL Card View] oder das Symbol [!UICONTROL List View] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch &quot;[!UICONTROL View Settings]&quot;verwenden, um die Spalten beim Anzeigen des [!UICONTROL List View] weiter zu konfigurieren.
 
-   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL List View]:
+   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen des [!UICONTROL List View]:
 
-   ![Optionen für Listenansicht](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![Listenansichtsoptionen](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Führen Sie die gewünschte Aktion aus, wie in den folgenden Abschnitten beschrieben:
 
 ## Optionen für Code-Angebote
 
-Beim Anzeigen der [!UICONTROL Code Offers] können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
+Beim Anzeigen der Seite &quot;[!UICONTROL Code Offers]&quot; können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
 
-![Maussymbole auf der Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+![Hover-Symbole auf der Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informationen**: Zeigen Sie die Angebotsinformationen an.
 * **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
 * **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
-* **Verschieben**: Klicken Sie auf das Symbol Verschieben , navigieren Sie zu dem Speicherort, an den Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie auf die Schaltfläche **[!UICONTROL Drop]** Symbol. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicks [!UICONTROL Clear Selection] , um die Auswahl der von Ihnen ausgewählten Angebote oder Ordner aufzuheben.
-* **Löschen**: Löschen Sie das Angebot oder den Ordner. Siehe [Überlegungen zum Löschen von Elementen](#delete).
+* **Verschieben**: Klicken Sie auf das Symbol Verschieben , navigieren Sie zu dem Speicherort, an den Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Drop]** . Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Clear Selection] , um die Auswahl der von Ihnen ausgewählten Angebote oder Ordner aufzuheben.
+* **Löschen**: Löschen Sie das Angebot oder den Ordner. Siehe [Überlegungen beim Löschen von Elementen](#delete).
 
 ## Optionen für Bildangebote
 
-Beim Anzeigen der [!UICONTROL Image Offers] können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
+Beim Anzeigen der Seite &quot;[!UICONTROL Image Offers]&quot; können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
 
-Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der [!UICONTROL Card View].
+Die folgende Abbildung zeigt die Mauszeiger-Symbole beim Anzeigen von [!UICONTROL Card View].
 
-![Zeigen Sie in der Kartenansicht auf der Registerkarte Bildangebote mit der Maus auf die Symbole](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+![Bewegen Sie die Maus über die Symbole auf der Registerkarte &quot;Bildangebote&quot;, wenn Sie sich in der Kartenansicht befinden](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der [!UICONTROL List View]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
+Die folgende Abbildung zeigt die Mauszeiger-Symbole beim Anzeigen von [!UICONTROL List View]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
 
-![Bewegen Sie die Maus über die Symbole auf der Registerkarte Bildangebote in der Listenansicht.](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
+![Bewegen Sie die Maus über die Symbole auf der Registerkarte &quot;Bildangebote&quot;, wenn Sie sich in der Listenansicht befinden](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-* **Auswählen**: Wählen Sie einen oder mehrere Ordner aus, für die die folgenden Aktionen ausgeführt werden sollen:
+* **Select**: Wählen Sie einen oder mehrere Ordner aus, an denen die folgenden Aktionen ausgeführt werden sollen:
 
    * Download
    * Kopieren
    * Verschieben
-   * Löschen (siehe [Überlegungen zum Löschen von Elementen](#delete).
+   * Löschen (Siehe [Überlegungen beim Löschen von Elementen](#delete).)
 
   Wählen Sie ein oder mehrere Bildangebote aus, für die die folgenden Aktionen ausgeführt werden sollen:
 
@@ -70,9 +71,9 @@ Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der [!UICONT
    * Anmerkungen hinzufügen
    * Verschieben 
 
-* **Herunterladen**: Laden Sie das Bildangebot oder den Ordner und dessen Inhalt herunter.
-* **Eigenschaften anzeigen**: Zeigen Sie die Eigenschaften des Elements an. Klicken Sie unbedingt auf die [!UICONTROL Basic] und die [!UICONTROL Advanced] um alle verfügbaren Informationen anzuzeigen. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen.
-* **Mehr Aktionen**: Zeigt zusätzliche Optionen an, wenn in [!UICONTROL Card View].
+* **Download**: Laden Sie das Bildangebot oder den Ordner und dessen Inhalt herunter.
+* **Eigenschaften anzeigen**: Zeigen Sie die Eigenschaften des Elements an. Klicken Sie auf die Registerkarte [!UICONTROL Basic] und auf die Registerkarte [!UICONTROL Advanced] , um alle verfügbaren Informationen anzuzeigen. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen.
+* **Mehr Aktionen**: Zeigt zusätzliche Optionen an, wenn Sie in [!UICONTROL Card View] sind.
 * **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
 * **Anmerken**: Fügen Sie dem Asset eine Notiz hinzu. Klicken Sie auf das Asset, wählen Sie den Bereich aus, in dem Sie die Anmerkung hinzufügen möchten, und geben Sie dann Ihren Text ein.
 * **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und Bearbeiten des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
@@ -83,7 +84,7 @@ Die folgende Abbildung zeigt die Mauszeiger-Symbole bei der Anzeige der [!UICONT
 * Wenn Sie einen Ordner mit einer großen Anzahl von Bildern löschen, kann der Prozess hinter den Kulissen einige Minuten dauern, bis die Benutzeroberfläche aktualisiert wird, um den endgültigen Status anzuzeigen. Die erforderliche Zeit hängt von der Anzahl der Bilder ab, nicht von der Bildgröße. Der Richtwert beträgt 10 Minuten für 2.000 Bilder. Sie können währenddessen an etwas anderem arbeiten und nach einigen Minuten den Endzustand prüfen, um den Löschvorgang zu überprüfen.
 * Nicht leere Ordner in der Bildangebotsbibliothek können gelöscht werden. Wenn auf keines der Bilder im Ordner in irgendeiner Aktivität verwiesen wird, werden der gesamte Ordner und dessen Inhalte gelöscht. Wenn in einer Aktivität auf einige Bilder im Ordner verwiesen wird, werden alle nicht referenzierten Bilder gelöscht. Referenzierte Bilder und Ordner, die diese Bilder enthalten, bleiben erhalten.
 
-## Schulungsvideo: Das Content Repository ![Übersichtszeichen](/help/main/assets/overview.png)
+## Schulungsvideo: Symbol &quot;Content Repository ![Überblick&quot;](/help/main/assets/overview.png)
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 

@@ -1,12 +1,12 @@
 ---
 keywords: Erlebnis;Visual Experience Composer;Enhanced Experience Composer;formularbasierter Experience Composer;Form Composer;Visual Composer;Experience Composer;gemischte Inhalte;iFrame;iFrame-Busting;iFrame-Busting;X-Frame-Optionen;X Frame-Optionen;Cross Origin;Probleme mit Cross Origin;Authentifizierungs-Workflow
-description: Erfahren Sie mehr über Adobe Experience Composer - Visual Experience Composer (VEC), Form-Based Experience Composer und den Visual Experience Composer für einzelne Seiten.
-title: Welche Experience Composer ausführt [!DNL Target] Angebot?
+description: Erfahren Sie mehr über Adobe Experience Composer - Visual Experience Composer (VEC), Form-Based Experience Composer und den Visual Experience Composer für Einzelseiten.
+title: Welche Experience Composer bietet [!DNL Target] an?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 79%
 
 ---

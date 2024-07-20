@@ -1,13 +1,13 @@
 ---
 keywords: Multi-Wert;Attribute;Empfehlungen;Multi-Wert;Multivalue;Multi-Wert
-description: Erfahren Sie, wie Sie in Adobe mit einem Feld mit mehreren Werten arbeiten. [!DNL Target] Recommendations verwendet spezielle Multi-Wert-Operatoren, z. B. bei der Empfehlung von Filmen mit mehreren Schauspielern.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations mit einem Feld mit mehreren Werten arbeiten, indem Sie spezielle Operatoren mit mehreren Werten verwenden, z. B. bei der Empfehlung von Filmen mit mehreren Schauspielern.
 title: Kann ich Attribute mit mehreren Werten in Recommendations verwenden?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 8%
+source-wordcount: '454'
+ht-degree: 9%
 
 ---
 
@@ -19,11 +19,11 @@ Manchmal möchten Sie vielleicht mit einem Feld mit mehreren Werten arbeiten. Se
 * Sie verkaufen Konzerttickets. Die meisten Benutzer haben mehrere Lieblingsbands.
 * Sie verkaufen Bekleidung. Jedes Hemd ist in verschiedenen Größen erhältlich.
 
-Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] und verwenden spezielle Mehrwert-Operatoren.
+Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und spezielle Operatoren mit mehreren Werten verwenden.
 
-In [!DNL Recommendations] um Daten mit mehreren Werten zu identifizieren, sollten sie als JSON-Array gesendet werden, wie in den folgenden Codebeispielen dargestellt.
+Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren kann, sollten sie als JSON-Array gesendet werden, wie in den folgenden Codebeispielen dargestellt.
 
-## Mehrwert-Parameter in JavaScript übergeben
+## Mehrwertige Parameter in JavaScript übergeben
 
 ```
 function targetPageParams() { 
@@ -42,7 +42,7 @@ function targetPageParams() {
 
 Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehreren Werten](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Benutzerdefinierte Entitätsattribute*.
 
-## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
+## Entitätsattribute mit mehreren Werten in einer CSV-Datei übergeben
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -59,12 +59,12 @@ Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehrer
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, Profilattribut oder Mbox-Parameter als Mehrfachwert gemäß dem oben genannten Format bereitgestellt wird, [!DNL Recommendations] gibt automatisch an, dass das Feld mehrwertig ist.
+Wenn ein Entitätsattribut, Profilattribut oder Mbox-Parameter als Mehrfachwert gemäß dem oben genannten Format bereitgestellt wird, zeigt [!DNL Recommendations] automatisch an, dass das Feld mehrwertig ist.
 
 Die folgenden Operatoren stehen für die Verwendung mit Entitäts-, Profil- und Mbox-Attributen mit mehreren Werten zur Verfügung:
 
-* [!UICONTROL ist in der Liste enthalten]
-* [!UICONTROL ist nicht in der Liste enthalten]
+* [!UICONTROL is contained in list]
+* [!UICONTROL is not contained in list]
 
 ## Arbeiten mit Attributen mit mehreren Werten in Einschlussregeln
 
@@ -74,7 +74,7 @@ Die folgenden Operatoren stehen für die Verwendung mit Entitäts-, Profil- und 
 
 ### Beispiel: Zuletzt überwachte Elemente ausschließen
 
-Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profilskript namens `user.lastWatchedMovies` , um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
+Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profilskript mit dem Namen `user.lastWatchedMovies`, um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
 
 ```
 `Profile Attribute Matching`
@@ -94,9 +94,9 @@ JSON-API-Darstellung der Einschlussregel:
 } 
 ```
 
-### Beispiel: Artikel aus den Favoriten des Benutzers empfehlen
+### Beispiel: Empfohlene Elemente aus den Favoriten des Benutzers
 
-Nehmen wir an, Sie möchten Tickets nur für Konzerte empfehlen, wenn die Band, die gespielt wird, eine der Lieblingsbands des Benutzers ist. Stellen Sie zunächst sicher, dass Sie über eine Profilvariable mit dem Namen `profile.favoriteBands` , die die Lieblingsbands des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut enthält. `entity.artistPerforming` , der auch den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
+Nehmen wir an, Sie möchten Tickets nur für Konzerte empfehlen, wenn die Band, die gespielt wird, eine der Lieblingsbands des Benutzers ist. Stellen Sie zunächst sicher, dass Sie über eine Profilvariable mit dem Namen &quot;`profile.favoriteBands`&quot; verfügen, die die Lieblingsbands des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut `entity.artistPerforming` enthält, das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ JSON-API-Darstellung der Einschlussregel:
 }
 ```
 
-### Beispiel: API-Erstellung von Kriterien, die Artikel aus den Favoriten eines Benutzers empfehlen
+### Beispiel: API-Erstellung von Kriterien, die Elemente aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten wie alle Kriterien können über Adobe I/O-APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` ist in der Mbox-Parameterliste enthalten `favorites` wird hier bereitgestellt:
+Kriterien mit Filterregeln mit mehreren Werten wie alle Kriterien können über Adobe I/O-APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der Mbox-Parameterliste `favorites` enthalten ist:
 
 ```
 curl -X POST \
@@ -155,7 +155,7 @@ curl -X POST \
 }'
 ```
 
-Dies würde mit JavaScript auf der Seite gepaart werden, um die Favoriteninhalte zu übergeben:
+Dies würde mit JavaScript auf der Seite gepaart werden, um die Favoriteninhalte weiterzugeben:
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->

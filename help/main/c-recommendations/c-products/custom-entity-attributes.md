@@ -1,6 +1,6 @@
 ---
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen zu Elementen in Ihrer Adobe zu definieren. [!DNL Target] Recommendations-Katalog.
+description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrem Adobe [!DNL Target] Recommendations-Katalog zu definieren.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Benutzerdefinierte Entitätsattribute
 
-Verwenden benutzerdefinierter Entitätsattribute mit einzelnen und mehreren Werten in [!DNL Adobe Target Recommendations] , um zusätzliche Informationen zu Artikeln in Ihrem Katalog zu definieren.
+Verwenden Sie in [!DNL Adobe Target Recommendations] benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten, um zusätzliche Informationen zu Artikeln in Ihrem Katalog zu definieren.
 
 ## Beschränkungen {#limits}
 
@@ -63,7 +63,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 
 ## Implementieren von Attributen mit mehreren Werten {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Benutzerdefinierte Entitätsattribute mit mehreren Werten werden bei Verwendung von Feeds (CSV) unterstützt. `targetPageParams`und der Bereitstellungs-API zum Hochladen von Produkten. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ( [] ) werden als ohne Werte behandelt.
+Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` und die Bereitstellungs-API zum Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ( [] ) werden wie Arrays ohne Werte behandelt.
 
 Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beispiel ist `"[""test"", ""value""]"` ein gültiges JSON-Array, das in CSV verwendet werden kann.
 
@@ -98,7 +98,7 @@ Eine CSV-Datei im Rohformat sieht wie folgt aus:
 
 Der gleiche Katalog sieht im Tabellenformat so aus:
 
-![Bild mit mehreren Werten - Beispiel - Excel](assets/multi-value_example_excel.png)
+![multi-value_example_excel image](assets/multi-value_example_excel.png)
 
 Wird eine Tabelle in das .csv-Format konvertiert, werden vom Programm automatisch doppelte Anführungzeichen um Zelleninhalte gelegt, damit Kommata in den Zellenwerten nicht als Spaltentrennzeichen interpretiert werden. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzerdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
 
@@ -127,18 +127,18 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Siehe [Dokumentation zur Adobe Recommendations API](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} für Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten.
+Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Adobe Recommendations API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} .
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
-Im folgenden Beispiel lautet die Regel: `message contains abc`.
+Im folgenden Beispiel ist die Regel `message contains abc`.
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
-Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn der Operator beispielsweise `notEquals`, wird das Ergebnis *false* , wenn ein beliebiger Wert übereinstimmt.
+Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn der Operator beispielsweise `notEquals` ist, lautet das Ergebnis *false* , wenn ein beliebiger Wert übereinstimmt.
 
 In den folgenden Abschnitten finden Sie Informationen zum Benutzerverhalten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
 

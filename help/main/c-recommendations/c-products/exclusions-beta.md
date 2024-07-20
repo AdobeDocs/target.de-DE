@@ -1,7 +1,7 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie Ausschlüsse in erstellen. [!DNL Target Recommendations] um zu verhindern, dass Besucher Produkte oder Inhalte empfehlen.
-title: Wie verwende ich Ausnahmen in [!UICONTROL Recommendations] Aktivitäten?
+description: Erfahren Sie, wie Sie in [!DNL Target Recommendations] Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
+title: Wie verwende ich Ausnahmen in [!UICONTROL Recommendations] -Aktivitäten?
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # Ausnahmen
 
-Erstellen eines Ausschlusses in [!DNL Adobe Target Recommendations] um zu verhindern, dass Besucher Produkte oder Inhalte empfehlen. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
+Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
 
-Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie bei der Erstellung eines [!UICONTROL Recommendations] -Aktivität, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto. Es gibt keine Option, während der Erstellung einer Aktivität eine Ausschlussgruppe zuzuweisen.
+Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie bei der Erstellung einer [!UICONTROL Recommendations] -Aktivität eine bestimmte Sammlung für jedes Erlebnis angeben, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto. Es gibt keine Option, während der Erstellung einer Aktivität eine Ausschlussgruppe zuzuweisen.
 
 Beispiele für die Verwendung von Ausschlüssen:
 
@@ -28,19 +28,19 @@ Beispiele für die Verwendung von Ausschlüssen:
 
 >[!IMPORTANT]
 >
->Ausschlussregeln werden global auf alle angewendet [Umgebungen](/help/main/administrating-target/environments.md).
+>Ausschlussregeln werden global auf alle [Umgebungen](/help/main/administrating-target/environments.md) angewendet.
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
 ## Einen Ausschluss erstellen
 
-1. Klicks **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** , um die Liste der vorhandenen Ausschlüsse anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** , um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
-   ![exclusions_list-Bild](assets/exclusions-list.png)
+   ![exclusions_list image](assets/exclusions-list.png)
 
-   Die &quot;Anzahl Elemente&quot;, die für jeden Ausschluss auf der [!UICONTROL Exclusions] Die Listenansicht ist die Anzahl der Produkte, die mit den Regeln für diesen Ausschluss innerhalb der konfigurierten standardmäßigen Recommendations übereinstimmen. [Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung). Siehe [Planung und Umsetzung [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} im *Adobe Target-Entwicklerhandbuch* für Informationen zum Ändern der Standard-Hostgruppe.
+   Die &quot;Anzahl der Elemente&quot;, die für jeden Ausschluss in der [!UICONTROL Exclusions] -Listenansicht gemeldet werden, ist die Anzahl der Produkte, die mit den Regeln für diesen Ausschluss innerhalb der konfigurierten standardmäßigen Recommendations [Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Informationen zum Ändern der standardmäßigen Hostgruppe finden Sie unter [Planen und Implementieren von [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} im *Adobe Target-Entwicklerhandbuch* .
 
-1. (Bedingt) Klicken Sie auf die [!UICONTROL Filter] und wählen Sie dann das gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus dem **[!UICONTROL Environment]** Dropdown-Liste beim Erstellen (oder Aktualisieren) eines Ausschlusses, um eine Vorschau des Ausschlussinhalts in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Klicken Sie auf das Symbol [!UICONTROL Filter] und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdownliste **[!UICONTROL Environment]** aus, während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
    ![Ausschluss erstellen](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
@@ -48,7 +48,7 @@ Beispiele für die Verwendung von Ausschlüssen:
 
    ![Dialogfeld &quot;Ausschluss erstellen&quot;](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. Einen Ausschluss eingeben **[!UICONTROL Name]** und geben Sie eine optionale Beschreibung ein.
+1. Geben Sie einen Ausschluss **[!UICONTROL Name]** ein und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Einen Ausschluss bearbeiten, kopieren oder löschen
 
-Klicken Sie auf **Ellipse** neben dem gewünschten Ausschluss in der Liste und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
+Klicken Sie in der Liste neben dem gewünschten Ausschluss auf das Symbol **Auslassungszeichen** und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
 
 ![Optionen: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 

@@ -1,20 +1,20 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Empfehlungen; Promotion; Promotions; dynamische Filterung; statisch; statischer Filter
-description: Erfahren Sie, wie Sie manuell einen oder mehrere statische Werte eingeben, um mithilfe von Einschlussregeln in Adobe zu filtern. [!DNL Target] Recommendations.
+description: Erfahren Sie, wie Sie manuell einen oder mehrere statische Werte eingeben, um mithilfe von Einschlussregeln in Adobe [!DNL Target] Recommendations zu filtern.
 title: Wie kann ich in Recommendations-Aktivitäten nach statischen Werten filtern?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 47%
+source-wordcount: '238'
+ht-degree: 45%
 
 ---
 
 # Statischer Filter
 
-Geben Sie einen oder mehrere statische Werte manuell ein, die mithilfe von Einschlussregeln gefiltert werden sollen in [!DNL Adobe Target] [!DNL Recommendations].
+Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in [!DNL Adobe Target] [!DNL Recommendations] zu filtern.
 
 Beispielsweise nur empfohlene Inhalte mit einer Motion Picture Association (MPA)-Bewertung von &quot;G&quot;oder &quot;PG&quot;.
 

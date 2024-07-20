@@ -1,25 +1,25 @@
 ---
 keywords: MVT;Multivariater Test;Multivariater Test erstellen;Erstellen von Multivariater Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivariater Tests
-description: Erfahren Sie, wie Sie die [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] , um eine [!UICONTROL Multivarianz-Test] (MVT).
-title: Wie erstelle ich eine [!UICONTROL Multivarianz-Test]?
+description: Erfahren Sie, wie Sie mit dem VEC (0) in  [!DNL Adobe Target] einen [!UICONTROL Multivariate Test] (MVT) erstellen.[!UICONTROL Visual Experience Composer]
+title: Wie erstelle ich eine [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 62%
+source-wordcount: '504'
+ht-degree: 56%
 
 ---
 
 # Erstellen eines Multivarianz-Tests
 
-Die [!UICONTROL Visual Experience Composer] (VEC) [!DNL Adobe Target] erleichtert die Erstellung eines [!UICONTROL Multivarianz-Test] und um Teile der Seite innerhalb von [!DNL Target].
+Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] erleichtert das Erstellen eines [!UICONTROL Multivariate Test] und das Ändern von Teilen der Seite innerhalb von [!DNL Target].
 
-Die [!DNL Target] Mit dem Point-and-Click-Editor können Sie einen beliebigen Ort auswählen und mehrere Angebote hinzufügen.
+Mit dem Punkt-und-Klick-Editor [!DNL Target] können Sie einen beliebigen Ort auswählen und mehrere Angebote hinzufügen.
 
-Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. Anders ausgedrückt bedeutet das, dass der Test auf einer spezifischen URL ausgeführt wird, mit den Erlebnissen, die Sie für diese Seite entwerfen.
+Der [!UICONTROL Multivariate Test] (MVT) benötigt einen Page-First-Bericht. Anders ausgedrückt bedeutet das, dass der Test auf einer spezifischen URL ausgeführt wird, mit den Erlebnissen, die Sie für diese Seite entwerfen.
 
-1. Klicken Sie auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Multivarianz-Test]**.
+1. Klicken Sie auf **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
 
    ![Erstellen eines Multivarianz-Tests](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -27,11 +27,11 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
    >
    >Weitere Informationen zu den verschiedenen in [!DNL Target] verfügbaren Aktivitätstypen und ihren Unterschieden finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Unter [Target-Aktivitätstypen](/help/main/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
 
-1. (Bedingt) Wählen Sie den Versandtyp aus: [!UICONTROL Web], [!UICONTROL Mobilnummer], [!UICONTROL Email]oder [!UICONTROL Sonstige/API].
+1. (Bedingt) Wählen Sie den Versandtyp aus: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] oder [!UICONTROL Other/API].
 
-1. (Bedingt) Wenn Sie [Target Premium](/help/main/c-intro/intro.md#premium) Kunde, [Arbeitsbereich auswählen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie ein [Target Premium](/help/main/c-intro/intro.md#premium) -Kunde sind, wählen Sie [einen Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
-1. [Geben Sie die URL an](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) Klicken Sie für die Seite, die Sie testen möchten, auf **[!UICONTROL Nächste]**.
+1. [Geben Sie die URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) für die Seite an, die Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
    Wenn eine Nachricht eingeblendet wird, die Sie dazu auffordert, Ihren Browser für gemischte Inhalte zu aktivieren, folgen Sie den Anweisungen in der Nachricht. Nachdem Sie Ihren Browser für gemischte Inhalte aktiviert haben, beginnen Sie erneut mit Schritt 1.
 
-   Die [!UICONTROL Visual Experience Composer] geöffnet.
+   Der [!UICONTROL Visual Experience Composer] wird geöffnet.
 
 1. Geben Sie einen Namen für die Aktivität ein.
 
@@ -79,11 +79,11 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
    * Bild
    * Text
 
-1. Klicken Sie auf **[!UICONTROL Vorschau]**, um [eine Vorschau Ihrer Erlebnisse anzuzeigen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Klicken Sie auf **[!UICONTROL Preview]** , um die Erlebnisse in der Vorschau anzuzeigen.](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)[
 
    ![Vorschau von Erlebnissen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   Sie können jedes Erlebnis ansehen und diejenigen, die Sie nicht in Ihren Test aufnehmen möchten, ausschließen. Um ein oder mehrere Erlebnisse auszuschließen, wählen Sie die jeweiligen Kontrollkästchen aus und klicken Sie auf **[!UICONTROL Ausschließen]**.
+   Sie können jedes Erlebnis ansehen und diejenigen, die Sie nicht in Ihren Test aufnehmen möchten, ausschließen. Um ein oder mehrere Erlebnisse auszuschließen, aktivieren Sie die gewünschten Kontrollkästchen und klicken Sie dann auf **[!UICONTROL Exclude]** .
 
    ![Erlebnisse ausschließen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -93,13 +93,13 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
 
    Die folgende Abbildung zeigt an, dass die Aktivität über zu wenig Traffic verfügt.
 
-   ![Bild des Schätzers](assets/estimator.png)
+   ![Schätzung-Bild](assets/estimator.png)
 
    Die folgende Abbildung zeigt an, dass die Aktivität über zu wenig Traffic verfügt.
 
-   ![estimator2-Bild](assets/estimator2.png)
+   ![estimator2 image](assets/estimator2.png)
 
-1. Klicks **[!UICONTROL Nächste]** , um [!UICONTROL Targeting] Seite.
+1. Klicken Sie auf **[!UICONTROL Next]** , um zur Seite [!UICONTROL Targeting] zu wechseln.
 
 1. Wählen Sie die Zielgruppe und den Prozentsatz qualifizierter Besucher aus, die an der Aktivität teilnehmen sollen.
 
@@ -111,15 +111,15 @@ Ein [!UICONTROL Multivariater Test] (MVT) benötigt einen Page-First-Bericht. An
    >
    >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Prüfen Sie die Testzusammenfassung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) und nehmen Sie etwaige Änderungen vor. Klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. [Überprüfen Sie die Testzusammenfassung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7), nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **[!UICONTROL Next]**.
 
 1. [Legen Sie Ziele und Einstellungen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) für den Test fest.
 
-1. Klicken Sie auf **[!UICONTROL Speichern und Schließen]**, um die Aktivität zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Save and Close]** , um die Aktivität zu erstellen.
 
 ## Schulungsvideo: Erstellen von Multivarianz-Tests (9:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird gezeigt, wie ein Multivarianz-Test mithilfe der [!DNL Target] geleiteter Arbeitsablauf mit drei Schritten.
+In diesem Video wird gezeigt, wie mithilfe des geleiteten Arbeitsablaufs mit drei Schritten [!DNL Target] ein Multivarianz-Test geplant und erstellt wird.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests

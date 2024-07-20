@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] ist ein älteres Produkt, das nicht mehr für neue Kunden lizenziert wird. Für das Beste [!DNL Recommendations] Erlebnis, Upgrade auf [!DNL Recommendations] Aktivitäten verfügbar in [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] ist ein älteres Produkt, das nicht mehr für neue Kunden lizenziert wird. Für das beste [!DNL Recommendations] Erlebnis aktualisieren Sie auf [!DNL Recommendations] -Aktivitäten, die in [Adobe Target Premium](/help/main/c-intro/intro.md) verfügbar sind.
 
 Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
 

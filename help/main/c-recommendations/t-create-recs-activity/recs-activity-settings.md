@@ -14,11 +14,11 @@ ht-degree: 48%
 
 # Einstellungen für Recommendations-Aktivitäten
 
-Informationen zu den Einstellungen, die Sie zum Beschreiben und Steuern einer [!UICONTROL Recommendations] Aktivität in [!DNL Adobe Target].
+Informationen zu den Einstellungen, mit denen Sie eine [!UICONTROL Recommendations] -Aktivität in [!DNL Adobe Target] beschreiben und steuern können.
 
 ![Seite „Recommendations-Ziele und -Einstellungen“](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-In den folgenden Abschnitten werden die verfügbaren Einstellungen für eine [!UICONTROL Recommendations] -Aktivität.
+In den folgenden Abschnitten werden die verfügbaren Einstellungen für eine [!UICONTROL Recommendations] -Aktivität beschrieben.
 
 ## Name
 
@@ -35,7 +35,7 @@ Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
 `-`
 `@`
 
-Wenn Sie eine [!UICONTROL Recommendations] Aktivitätsname, der bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic], wird die neue Aktivität mit einem neuen Namen erneut synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. Dieser neue Name wird sowohl in [!DNL Target Standard/Premium] als auch in [!UICONTROL Recommendations Classic] angezeigt.
+Wenn Sie den Aktivitätsnamen [!UICONTROL Recommendations] angeben, der bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic] vorhanden ist, wird die neue Aktivität mit einem neuen Namen erneut synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. Dieser neue Name wird sowohl in [!DNL Target Standard/Premium] als auch in [!UICONTROL Recommendations Classic] angezeigt.
 
 ## Ziel
 
@@ -55,23 +55,23 @@ Die Aktivität kann bei Aktivierung starten, oder Sie können ein bestimmtes Dat
 
 ## Berichterstellungseinstellungen 
 
-* **Berichtsquelle:** Geben Sie an, aus welchen Lösungsdaten erfasst werden:
+* **Source-Berichterstellung:** Geben Sie an, aus welchen Lösungsdaten erfasst werden:
 
    * [!DNL Adobe Target]
    * [!DNL Adobe Analytics]
    * [!DNL Adobe Customer Journey Analytics]
 
-  Wenn eine Berichterstellungslösung in Ihrer [Kontoeinstellungen](/help/main/administrating-target/reporting.md)festgelegt ist, wird die angegebene Lösung verwendet und diese Einstellung ist nicht sichtbar.
+  Wenn in Ihren [Kontoeinstellungen](/help/main/administrating-target/reporting.md) eine Berichterstellungslösung angegeben ist, wird die angegebene Lösung verwendet und diese Einstellung ist nicht sichtbar.
 
   Sie können Ihre Berichtsquelle nach Liveschaltung einer Aktivität nicht mehr ändern, um die Berichte konsistent zu halten.
 
-  **[!DNL Adobe Analytics]**: Siehe [[!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) , um mehr über die Unterschiede zwischen den Berichterstellungslösungen und deren Vorteile zu erfahren.
+  **[!DNL Adobe Analytics]**: Siehe [[!DNL Adobe Analytics]  als Berichtsquelle für  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) , um mehr über die Unterschiede zwischen den Berichterstellungslösungen und deren Vorteile zu erfahren.
 
-  Bei Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T), wählen Sie eine [!DNL Analytics] Report Suite, die empfangen wird [!DNL Target] Aktivitätsdaten. Wählen Sie dazu zunächst einen der [!DNL Analytics] Unternehmen, an die Ihr Konto gebunden ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Nur Report Suites, für die eine Verbindung hergestellt wurde [!DNL Target] stehen zur Auswahl zur Verfügung. Wenn die erwartete Report Suite nicht angezeigt wird, melden Sie sich zunächst ab und dann wieder bei der [!DNL Adobe Experience Cloud] erneut versuchen. Wenn die Report Suite weiterhin in der Liste fehlt, wenden Sie sich an [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  Wenn Sie [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) auswählen, wählen Sie eine [!DNL Analytics] Report Suite aus, die [!DNL Target] Aktivitätsdaten erhält. Wählen Sie dazu zunächst ein [!DNL Analytics] Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwartete Report Suite nicht angezeigt wird, versuchen Sie zunächst, sich abzumelden und sich wieder bei [!DNL Adobe Experience Cloud] anzumelden, um es erneut zu versuchen. Wenn die Report Suite weiterhin nicht in der Liste enthalten ist, wenden Sie sich an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-  [!DNL Analytics for Target] (A4T) erfordert einen Tracking-Server, um die Ergebnisse korrekt zu melden. Ein standardmäßiger Trackingserver wird im [!UICONTROL Tracking Server] -Feld. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie in dieses Feld den richtigen Tracking-Server einschließen. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) für weitere Informationen.
+  Für [!DNL Analytics for Target] (A4T) ist ein Tracking-Server erforderlich, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking Server] wird ein standardmäßiger Trackingserver angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie in dieses Feld den richtigen Tracking-Server einschließen. Weitere Informationen finden Sie unter [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) .
 
-  **[!DNL Adobe Customer Journey Analytics]**: Siehe [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) Weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target].
+  **[!DNL Adobe Customer Journey Analytics]**: Weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target] finden Sie unter [[!DNL Target] Berichterstellung in  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) .
 
 * **Zielmetrik:** Wählen Sie die Erfolgsmetrik aus, die festlegt, ob eine Aktivität erfolgreich ist.
 * **Zusätzliche Metriken:** Konfigurieren Sie weitere Erfolgsmetriken zur Verwendung in Ihren Berichten.

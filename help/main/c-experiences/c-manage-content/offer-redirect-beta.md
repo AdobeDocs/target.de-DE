@@ -1,12 +1,13 @@
 ---
 keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domain erfolgt)
-description: Erfahren Sie, wie Sie Umleitungsangebote in erstellen [!DNL Target] , sodass ein Browser zu einer neuen Seite umleitet.
+description: Erfahren Sie, wie Sie Umleitungsangebote in [!DNL Target] erstellen, damit ein Browser zu einer neuen Seite weiterleitet.
 title: Wie erstelle ich Umleitungsangebote?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: bd19686d2aa716af64f520fb0be798a300ed9fa3
+exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
+source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 31%
@@ -15,19 +16,19 @@ ht-degree: 31%
 
 # Erstellen von Umleitungsangeboten
 
-Erstellen von Umleitungsangeboten in [!DNL Adobe Target] , sodass ein Browser zu einer neuen Seite umleitet.
+Erstellen Sie Umleitungsangebote in [!DNL Adobe Target] , damit ein Browser zu einer neuen Seite weiterleitet.
 
 >[!NOTE]
 >
->Dieser Artikel enthält Informationen zu Aktualisierungen des [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Die [!DNL Adobe Target] -Team ermöglicht oft neuen Funktionen für ausgewählte Kunden zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in Zukunft für alle Kunden aktiviert [!DNL Target Standard/Premium] veröffentlicht und in den Versionshinweisen angekündigt.
+>Dieser Artikel enthält Informationen zu Aktualisierungen der [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Das [!DNL Adobe Target]-Team ermöglicht für ausgewählte Kunden oft neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in zukünftigen [!DNL Target Standard/Premium]-Versionen für alle Kunden aktiviert und in den Versionshinweisen angekündigt.
 
-Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine [!UICONTROL A/B Test] Aktivität mit zwei Erlebnissen: eines, das auf die Standardseite A verweist, und das andere, das auf Seite B umleitet. Das Angebot ist so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
+Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine [!UICONTROL A/B Test] -Aktivität mit zwei Erlebnissen ein: eines, das auf die Standardseite A verweist, und das andere, das auf Seite B umleitet. Das Angebot ist so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der [!UICONTROL Offers] > [!UICONTROL Code Offers] oder in der [Forms-basierter Experience Composer](/help/main/c-experiences/form-experience-composer.md). Sie können keine Umleitungsangebote im [!UICONTROL Visual Experience Composer] (VEC). Der Inhalt wird in die [!DNL Target] -Anfragespeicherorte anfordern, sodass diese Orte höchstwahrscheinlich nicht für eine globale [!DNL Target] -Anfrage.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) erstellt werden. Sie können keine Umleitungsangebote im VEC (0) erstellen oder anwenden. [!UICONTROL Visual Experience Composer] Inhalte werden in die [!DNL Target] -Anfragespeicherorte eingefügt, sodass diese Orte höchstwahrscheinlich nicht für eine globale [!DNL Target] -Anfrage geeignet sind.
 >
->* Umleitungsangebote können nicht in AJAX Mboxes (`mboxUpdate`).
+>* Sie können keine Umleitungsangebote in AJAX Mboxes (`mboxUpdate`) verwenden.
 >
 >* Bei Umleitungsangeboten in Aktivitäten, die Analytics als Berichtsquelle verwenden (A4T), muss Ihre Implementierung bestimmte Mindestanforderungen erfüllen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
@@ -39,21 +40,21 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 >
 >Wenn Sie den Referrer-Wert der Landingpage übergeben möchten, verwenden Sie anstelle eines Umleitungsangebots ein HTML-Angebot.
 
-## Erstellen Sie ein Umleitungsangebot aus dem [!UICONTROL Code Offers] page
+## Erstellen eines Umleitungsangebots über die Seite [!UICONTROL Code Offers]
 
-1. Klicks **[!UICONTROL Offers]** und wählen Sie dann die **[!UICONTROL Code Offers]** Registerkarte.
+1. Klicken Sie auf **[!UICONTROL Offers]** und wählen Sie dann die Registerkarte **[!UICONTROL Code Offers]** aus.
 
    ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
 
-1. Klicks **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**.
+1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**.
 
    ![Dialogfeld &quot;Umleitungsangebot erstellen&quot;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
 
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
-   Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell im [!UICONTROL Assets] -Bibliothek.
+   Ein beschreibender Name hilft Ihnen und anderen beim schnellen Auffinden des Angebots in der [!UICONTROL Assets] -Bibliothek.
 
-1. (Bedingt) Wenn Sie eine [Target Premium-Konto](/help/main/c-intro/intro.md#premium), wählen Sie die gewünschte [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Bedingt) Wenn Sie über ein [Target Premium-Konto](/help/main/c-intro/intro.md#premium) verfügen, wählen Sie den gewünschten [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) aus.
 
 1. Geben Sie die URL für den eindeutigen Inhalt oder das eindeutige Ziel an, zu dem Sie umleiten möchten. Diese URL muss eine absolute URL sein.
 
@@ -63,11 +64,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 1. Wählen Sie die gewünschten Optionen aus, um Ihr Umleitungsangebot anzupassen:
 
-   * **Schließen Sie alle URL-Parameter ein:** Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
+   * **Alle URL-Parameter einschließen:** Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
 
-     Wenn Sie beispielsweise Besucher von einer Seite für Herrenmode direkt zu einer Kategorieseite für Herrenhemden umleiten möchten. Die dynamischen Parameter in der URL sollen ebenfalls übergeben werden, da Sie auf diese Weise verfolgen, ob Besucher per E-Mail, Banneranzeige, Suchanzeige oder auf sonstige Weise auf Ihre Site gelangen. Durch Aktivierung dieser Option wird Ihr Umleitungsangebot auf der Seite `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` als alles, was Sie in das URL-Feld eingegeben haben, `https://www.mycompany.com/mensShirts.html`.
+     Wenn Sie beispielsweise Besucher von einer Seite für Herrenmode direkt zu einer Kategorieseite für Herrenhemden umleiten möchten. Die dynamischen Parameter in der URL sollen ebenfalls übergeben werden, da Sie auf diese Weise verfolgen, ob Besucher per E-Mail, Banneranzeige, Suchanzeige oder auf sonstige Weise auf Ihre Site gelangen. Durch Aktivierung dieser Option wird Ihr Umleitungsangebot auf Seite `https://www.mycompany.com/mens.html?emailId=123` automatisch zu `https://www.mycompany.com/mensShirts.html?emailId=123`, wenn Sie nur in das Feld &quot;URL&quot;den Wert `https://www.mycompany.com/mensShirts.html` eingegeben haben.
 
-   * **Sitzungs-ID der Mbox übergeben:** Erforderlich für die Umleitung zu einer anderen Domäne. Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn Sie die `sessionId` automatisch in die Umleitung einbezogen werden. Diese Option ist nur erforderlich, wenn Sie Klicks von einer E-Mail oder von einer Domain zur anderen testen. Die `sessionId` passt das Cookie des Besuchers an, damit der Besucher auch weiterhin verfolgt und der richtige Inhalt angezeigt werden kann.
+   * **Mbox-Sitzungs-ID übergeben:** Erforderlich, um zu einer anderen Domäne umzuleiten. Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn die `sessionId` automatisch in die Umleitung einbezogen werden soll. Diese Option ist nur erforderlich, wenn Sie Klicks von einer E-Mail oder von einer Domain zur anderen testen. Die `sessionId` passt das Cookie des Besuchers an, damit der Besucher auch weiterhin verfolgt und der richtige Inhalt angezeigt werden kann.
 
      Wenn Sie die Einrichtung von Erstanbieter- und Drittanbieter-Cookies verwenden, müssen Sie die Sitzungs-ID der Mbox beim Wechseln von Domänen nicht weitergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
@@ -77,23 +78,23 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 >
 >Fragen Sie Ihren Implementierungsberater, bevor Sie diese Tests starten.
 
-## Erstellen Sie ein Umleitungsangebot mit der [!UICONTROL Form-Based Experience Composer]
+## Erstellen eines Umleitungsangebots mit dem [!UICONTROL Form-Based Experience Composer]
 
-1. Beim Erstellen einer Aktivität mit dem [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md), wählen Sie den Speicherort aus, an dem die **[!UICONTROL Content]** Abschnitt.
+1. Wählen Sie beim Erstellen einer Aktivität mit dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, an dem der Abschnitt **[!UICONTROL Content]** angezeigt werden soll.
 
    ![Inhaltsabschnitt im formularbasierten Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. Klicken Sie auf **[!UICONTROL Default Content]** Dropdown-Liste und klicken Sie auf **[!UICONTROL Change Redirect Offer]**.
+1. Klicken Sie auf die Dropdownliste **[!UICONTROL Default Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
 
    ![Option &quot;Umleitungsangebot ändern&quot;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
-1. Klicks **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
    ![Dialogfeld &quot;Umleitungsangebot erstellen&quot;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
-   Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell im [!UICONTROL Assets] -Bibliothek.
+   Ein beschreibender Name hilft Ihnen und anderen beim schnellen Auffinden des Angebots in der [!UICONTROL Assets] -Bibliothek.
 
 1. Geben Sie die URL für den eindeutigen Inhalt oder das eindeutige Ziel an, zu dem Sie umleiten möchten. Diese URL muss eine absolute URL sein.
 
@@ -103,11 +104,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 1. Wählen Sie die gewünschten Optionen aus, um Ihr Umleitungsangebot anzupassen:
 
-   * **Schließen Sie alle URL-Parameter ein:** Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
+   * **Alle URL-Parameter einschließen:** Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
 
-     Wenn Sie beispielsweise Besucher von einer Seite für Herrenmode direkt zu einer Kategorieseite für Herrenhemden umleiten möchten. Die dynamischen Parameter in der URL sollen ebenfalls übergeben werden, da Sie auf diese Weise verfolgen, ob Besucher per E-Mail, Banneranzeige, Suchanzeige oder auf sonstige Weise auf Ihre Site gelangen. Durch Aktivierung dieser Option wird Ihr Umleitungsangebot auf der Seite `https://www.mycompany.com/mens.html?emailId=123` automatisch `https://www.mycompany.com/mensShirts.html?emailId=123` als alles, was Sie in das URL-Feld eingegeben haben, `https://www.mycompany.com/mensShirts.html`.
+     Wenn Sie beispielsweise Besucher von einer Seite für Herrenmode direkt zu einer Kategorieseite für Herrenhemden umleiten möchten. Die dynamischen Parameter in der URL sollen ebenfalls übergeben werden, da Sie auf diese Weise verfolgen, ob Besucher per E-Mail, Banneranzeige, Suchanzeige oder auf sonstige Weise auf Ihre Site gelangen. Durch Aktivierung dieser Option wird Ihr Umleitungsangebot auf Seite `https://www.mycompany.com/mens.html?emailId=123` automatisch zu `https://www.mycompany.com/mensShirts.html?emailId=123`, wenn Sie nur in das Feld &quot;URL&quot;den Wert `https://www.mycompany.com/mensShirts.html` eingegeben haben.
 
-   * **Sitzungs-ID der Mbox übergeben:** Erforderlich für die Umleitung zu einer anderen Domäne. Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn Sie die `sessionId` automatisch in die Umleitung einbezogen werden. Diese Option ist nur erforderlich, wenn Sie Klicks von einer E-Mail oder von einer Domain zur anderen testen. Die `sessionId` passt das Cookie des Besuchers an, damit der Besucher auch weiterhin verfolgt und der richtige Inhalt angezeigt werden kann.
+   * **Mbox-Sitzungs-ID übergeben:** Erforderlich, um zu einer anderen Domäne umzuleiten. Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn die `sessionId` automatisch in die Umleitung einbezogen werden soll. Diese Option ist nur erforderlich, wenn Sie Klicks von einer E-Mail oder von einer Domain zur anderen testen. Die `sessionId` passt das Cookie des Besuchers an, damit der Besucher auch weiterhin verfolgt und der richtige Inhalt angezeigt werden kann.
 
      Wenn Sie die Einrichtung von Erstanbieter- und Drittanbieter-Cookies verwenden, müssen Sie die Sitzungs-ID der Mbox beim Wechseln von Domänen nicht weitergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
@@ -119,30 +120,30 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 ## Verwenden von Umleitungsangeboten in Aktivitäten
 
-Sie müssen Umleitungsangebote mit der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können derzeit nicht mit der [!UICONTROL Visual Experience Composer] (VEC).
+Sie müssen Umleitungsangebote mit dem [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) anwenden. Sie können Umleitungsangebote derzeit nicht mit dem VEC (0) anwenden.[!UICONTROL Visual Experience Composer]
 
-Die [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Erlebnis- und Angebotserstellungsoberfläche, die beim Erstellen von Erlebnissen zur Verwendung in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] Aktivitäten, wenn der Visual Experience Composer nicht verfügbar oder nicht praktisch zur Verwendung ist. Sie können beispielsweise die [!UICONTROL Form-Based Experience Composer] , um Erlebnisse zu erstellen, die Umleitungsangebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten, die beim Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder praktisch zur Verwendung nicht verfügbar ist. Beispielsweise können Sie mit dem [!UICONTROL Form-Based Experience Composer] Erlebnisse erstellen, die Umleitungsangebote verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL Form-Based Experience Composer].
 
-   Siehe [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) für detaillierte Schritt-für-Schritt-Anweisungen.
+   Detaillierte schrittweise Anweisungen finden Sie unter [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) .
 
 1. Geben Sie den gewünschten Ort an und fügen Sie bei Bedarf Zielgruppenverfeinerungen hinzu.
 
-1. Klicken Sie auf die Dropdownliste im **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Change Redirect Offer]**.
+1. Klicken Sie auf die Dropdownliste im Abschnitt **[!UICONTROL Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
 
    ![Option &quot;Umleitungsangebot ändern&quot;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. Wählen Sie das gewünschte Umleitungsangebot aus dem [!UICONTROL Select Remote Offer] Dialogfeld und klicken Sie auf **[!UICONTROL Done]**.
+1. Wählen Sie im Dialogfeld [!UICONTROL Select Remote Offer] das gewünschte Umleitungsangebot aus und klicken Sie dann auf **[!UICONTROL Done]**.
 
 1. Schließen Sie die Konfiguration der Aktivität ab.
 
 ## Schulungsvideo: Form-Based Composer ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird eine Demo der [!UICONTROL Form-Based Experience Composer], mit dem Sie Umleitungsangebote erstellen können.
+In diesem Video erhalten Sie eine Demo von [!UICONTROL Form-Based Experience Composer], mit der Sie Umleitungsangebote erstellen können.
 
-* Erstellen Sie eine Aktivität mit der [!UICONTROL Form-Based Experience Composer]
-* wann die [!UICONTROL Form-Based Experience Composer] im Vergleich zur [!UICONTROL Visual Experience Composer]
+* Erstellen einer Aktivität mit dem [!UICONTROL Form-Based Experience Composer]
+* Erfahren Sie, wann die [!UICONTROL Form-Based Experience Composer] und die [!UICONTROL Visual Experience Composer] verwendet werden sollen.
 * Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
 >[!VIDEO](https://video.tv.adobe.com/v/17390)

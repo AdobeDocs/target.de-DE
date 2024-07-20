@@ -2,13 +2,13 @@
 keywords: Empfehlungen;häufig gestellte Fragen;FAQ
 description: Schauen Sie sich eine Liste häufig gestellter Fragen (FAQs) und Antworten über Adobe  [!DNL Target]  Recommendations-Designs an.
 title: Wo kann ich Antworten auf Design-Fragen für  [!DNL Target]  Recommendations finden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 94%
 
 ---
 
@@ -26,9 +26,9 @@ Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung:
 
 * Sie können den Preis des Artikels zwei separaten Entitätsattributen übermitteln. Das erste, `entity.value`, kann für numerische Vergleiche verwendet werden (z. B. Preisvergleichsregeln). Das zweite sollte ein benutzerdefiniertes Attribut sein, z. B. `entity.displayValue`, das den Wert der Entität als Zeichenfolge speichert, um eine korrekte Darstellung zu ermöglichen.
 
-   Beispiel:
+  Beispiel:
 
-   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
+  `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Warum wird die Kategorie im Entwurf nicht angezeigt? Ich verwende `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
@@ -48,7 +48,7 @@ Version 1.7 ohne zusätzliche Tools oder eingefügte Bibliotheken. Grundlegende
 
 ## Wie ersetze ich einen bestehenden Entitätswert durch einen leeren Wert? Beispielsweise muss entity.message eines Artikels zum Ende einer Promotion gelöscht werden. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Dies scheint mit der Übermittlung eines geschützten Leerzeichens in JavaScript zu funktionieren. Lassen Sie die Entwickler `\u00A0` als Wert einschicken. Beispiel: `entity.message=\u00A0`. Sie können dies auch anstelle einer Null als Standardwert festlegen, wenn kein Wert vorhanden ist.
+Dies scheint mit der Übermittlung eines geschützten Leerzeichens in JavaScript zu funktionieren. Lassen Sie die Entwickler `\u00A0` als Wert einschicken. Beispiel: `entity.message=\u00A0`. Sie können dies anstelle einer Null als Standardwert festlegen, wenn kein Wert vorhanden ist.
 
 ## Kann ich in einem [!DNL Recommendations]-Entwurf ein Profilskript verwenden? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

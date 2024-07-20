@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
 
 # A/A-Tests
 
-Vor dem Durchführen eines A/A-Tests auf Ihrer Site mit [!DNL Adobe Target]ist es wichtig zu verstehen, was ein A/A-Test ist, warum Sie möglicherweise einen A/A-Test durchführen möchten, wie lange Sie den Test ausführen sollten und wie die Ergebnisse interpretiert werden.
+Bevor Sie mit [!DNL Adobe Target] einen A/A-Test auf Ihrer Site durchführen, müssen Sie wissen, was ein A/A-Test ist, warum Sie möglicherweise einen A/A-Test durchführen möchten, wie lange Sie den Test ausführen sollten und wie die Ergebnisse interpretiert werden.
 
 ## Was sind A/A-Tests?
 
@@ -21,7 +21,7 @@ Bevor Sie A/A-Tests erläutern, sollten Sie A/B-Tests überprüfen, damit wir da
 
 In einem standardmäßigen A/B-Test wird Traffic zwei oder mehr verschiedenen Erlebnissen zugeordnet. Ein Erlebnis ist in der Regel die &quot;Kontrolle&quot;und Varianten des Erlebnisses werden mit dem Kontrollelement getestet, um zu sehen, welches Erlebnis die höchste Steigerung in einer bestimmten Metrik erzielt.
 
-A/A-Tests beinhalten jedoch die Zuordnung von Traffic zu zwei identischen Erlebnissen, normalerweise mit einer Traffic-Zuordnung von 50/50. Mit einem standardmäßigen A/B-Test möchten Sie in der Regel eine Steigerung der Konversion ermitteln. Dies unterscheidet sich von einem A/A-Test, bei dem Ihr Ziel normalerweise darin besteht, festzustellen, ob *no* Unterschiede bei der Steigerung zwischen den identischen Erlebnissen.
+A/A-Tests beinhalten jedoch die Zuordnung von Traffic zu zwei identischen Erlebnissen, normalerweise mit einer Traffic-Zuordnung von 50/50. Mit einem standardmäßigen A/B-Test möchten Sie in der Regel eine Steigerung der Konversion ermitteln. Dies unterscheidet sich von einem A/A-Test, bei dem Ihr Ziel in der Regel darin besteht zu ermitteln, dass es einen Unterschied zwischen der Steigerung durch *nein* zwischen den identischen Erlebnissen gibt.
 
 ## Warum sollten Sie zwei identische Erlebnisse testen und was bewirkt dies?
 
@@ -41,13 +41,13 @@ Es gibt zahlreiche Gründe, warum Sie möglicherweise eine Steigerung in einem E
 
 Ein häufig auftretendes Problem bei der Durchführung jeglicher Art von Tests, einschließlich A/A-Tests, besteht darin, die Ergebnisse kontinuierlich zu betrachten und einen Test vorzeitig anzuhalten, wenn Sie statistische Bedeutung erkennen, und ein erfolgreiches Erlebnis zu deklarieren. Analysten machen oft das so genannte &quot;Data Peeking&quot;. Beim Datenabruf werden die Testdaten frühzeitig und häufig geprüft und gleichzeitig versucht, zu ermitteln, welches Erlebnis die bessere Leistung erzielt. Das Risiko besteht darin, den Test vorzeitig zu beenden, wodurch die Ergebnisse ungültig werden könnten.
 
-Bei einem A/A-Test kann das Pinkeln von Daten oft dazu führen, dass Analysten die Steigerung in einem Erlebnis sehen, obwohl eigentlich kein Unterschied bestehen sollte, da die beiden Erlebnisse identisch sind. Tatsächlich sind A/A-Tests bei kontinuierlicher Peking *garantiert* die &quot;statistische Bedeutung&quot;(d. h. eine Konfidenz über einem bestimmten Schwellenwert, z. B. 95 %) zu einem bestimmten Zeitpunkt während des Tests anzuzeigen.
+Bei einem A/A-Test kann das Pinkeln von Daten oft dazu führen, dass Analysten die Steigerung in einem Erlebnis sehen, obwohl eigentlich kein Unterschied bestehen sollte, da die beiden Erlebnisse identisch sind. Bei kontinuierlichem Peeking werden A/A-Tests *garantiert*, um irgendwann während des Tests die &quot;statistische Bedeutung&quot;zu zeigen (d. h. eine Konfidenz über einem bestimmten Schwellenwert, z. B. 95 %).
 
 Um dies zu vermeiden, sollten Sie wie bei einem regulären A/B-Test vorab entscheiden, welche Stichprobengröße zu verwenden ist, basierend auf der minimalen Wirkungsgröße (der minimalen Steigerung, unter der ein Effekt für Ihr Unternehmen nicht wichtig ist), der Leistung und dem Signifikanzniveau, die Sie für akzeptabel halten.
 
-Bei einem A/A-Test würde das Ziel dann sein, *not* ein statistisch signifikantes Ergebnis anzeigen, nachdem Ihr Test die gewünschte Stichprobengröße erreicht hat.
+In einem A/A-Test wäre es dann das Ziel, *kein* ein statistisch signifikantes Ergebnis zu sehen, nachdem Ihr Test die gewünschte Stichprobengröße erreicht hat.
 
-Die [!UICONTROL Adobe Target-Stichprobengrößenrechner] ist ein wichtiges Tool, mit dem Sie feststellen können, welche Stichprobengröße Sie anstreben und wie lange Sie den Test ausführen sollten.
+Der [!UICONTROL Adobe Target Sample Size Calculator] ist ein wichtiges Tool, mit dem Sie feststellen können, welche Stichprobengröße Sie anstreben und wie lange Sie den Test ausführen sollten.
 
 * [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
@@ -68,6 +68,6 @@ Angenommen, Sie möchten mit Ihrem A/A-Test ein Konfidenzniveau von 95 % erreich
 
 Wenn Sie in Ihrer Organisation einen A/A-Test für erforderlich halten, beachten Sie, dass die identischen Erlebnisse vorübergehend einen Unterschied zum Kontrollelement aufweisen können. Dies kann normal sein, je nachdem, wann der Test ausgeführt werden darf. Der Unterschied sollte mit mehr Zeit und Besuchern verringert werden.
 
-Es empfiehlt sich, die normale A/B-Testmethode zu verwenden: Bestimmen Sie die Stichprobengröße vorzeitig anhand einer minimalen relevanten Effektgröße, gewünschten Leistung und Bedeutung, indem Sie die [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Es empfiehlt sich, die normale A/B-Testmethode zu verwenden: Wählen Sie mithilfe des [Adobe Target Size Calculator](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) die Stichprobengröße vorzeitig anhand einer minimalen relevanten Effektgröße, der gewünschten Leistung und der Signifikanz aus.
 
 Anschließend geben Sie ausreichend Zeit und Besucher ein, bevor Sie zu Schlussfolgerungen gelangen. Denken Sie daran, dass je nach Signifikanzniveau Ihres Tests die Wahrscheinlichkeit besteht, dass ein Erlebnis einen Unterschied in der Steigerung zeigt und sogar zum Gewinner erklärt wird.
