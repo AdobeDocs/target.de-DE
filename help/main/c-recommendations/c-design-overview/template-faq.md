@@ -1,14 +1,14 @@
 ---
 keywords: Empfehlungen;häufig gestellte Fragen;FAQ
-description: Schauen Sie sich eine Liste häufig gestellter Fragen (FAQs) und Antworten über Adobe  [!DNL Target]  Recommendations-Designs an.
-title: Wo kann ich Antworten auf Design-Fragen für  [!DNL Target]  Recommendations finden?
+description: Häufig gestellte Fragen (FAQs) und ihre Antworten zu [!DNL Target Recommendations] Designs.
+title: Wo erhalte ich Antworten auf Designfragen für [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '463'
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung:
 
 ## Warum wird die Kategorie im Entwurf nicht angezeigt? Ich verwende `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, kann das System nicht ermitteln, welche Kategorie angezeigt werden sollte.
+Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, weiß das System nicht, welche Kategorie angezeigt werden soll.
 
 ## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ Wenn Sie den aktuell verwendeten Entwurf ändern, erfolgt das entsprechende Upda
 
 ## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselprodukts, die innerhalb des Entwurfs angezeigt werden. Beispiel: Wenn Sie die Miniaturansicht des Schlüsselprodukts anzeigen möchten, sollten Sie `$key.thumbnailURL` verwenden.
+Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselprodukts, die innerhalb des Entwurfs angezeigt werden. Wenn Sie beispielsweise die Miniaturansicht des Schlüsselprodukts anzeigen möchten, verwenden Sie `$key.thumbnailURL`.
 
 ## Welche Version von Velocity wird verwendet? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 Version 1.7 ohne zusätzliche Tools oder eingefügte Bibliotheken. Grundlegende Velocity-Funktionen sind verfügbar.
 
-## Wie ersetze ich einen bestehenden Entitätswert durch einen leeren Wert? Beispielsweise muss entity.message eines Artikels zum Ende einer Promotion gelöscht werden. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Wie ersetze ich einen bestehenden Entitätswert durch einen leeren Wert? Beispielsweise muss die `entity.message` eines Artikels gelöscht werden, wenn eine Promotion beendet wird. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 Dies scheint mit der Übermittlung eines geschützten Leerzeichens in JavaScript zu funktionieren. Lassen Sie die Entwickler `\u00A0` als Wert einschicken. Beispiel: `entity.message=\u00A0`. Sie können dies anstelle einer Null als Standardwert festlegen, wenn kein Wert vorhanden ist.
 

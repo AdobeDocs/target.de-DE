@@ -1,26 +1,26 @@
 ---
 keywords: Benutzerdefinierter Entwurf;Geschwindigkeit;Dezimal;Komma;Entwurf anpassen
-description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache Velocity Empfehlungsentwürfe in Adobe  [!DNL Target]  Recommendations anpassen können.
+description: Erfahren Sie, wie Sie mit der Open-Source-Entwurfssprache [!DNL Velocity] Empfehlungsvorlagen in [!DNL Target] Recommendations anpassen können.
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 72%
+source-wordcount: '1049'
+ht-degree: 61%
 
 ---
 
-# Anpassen eines Designs mithilfe von Velocity
+# Anpassen eines Designs mit [!DNL Velocity]
 
-Verwenden Sie die Open Source-Entwurfssprache Velocity, um Empfehlungsvorlagen in [!DNL Adobe Target Recommendations] anzupassen.
+Verwenden Sie die Open-Source-Entwurfssprache [!DNL Velocity] , um Empfehlungsentwürfe in [!DNL Adobe Target Recommendations] anzupassen.
 
-## Velocity-Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## [!DNL Velocity] Übersicht {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
+Informationen zu [!DNL Velocity] finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
 
-Sie können die gesamte Velocity-Logik, -Syntax usw. für einen Empfehlungsentwurf verwenden. Dies bedeutet, dass Sie *for*-Schleifen, *if*-Aussagen und anderen Code statt mit JavaScript mit Velocity erstellen können.
+Alle [!DNL Velocity] -Logik, -Syntax usw. können für einen Empfehlungsentwurf verwendet werden. Dies bedeutet, dass Sie *für* Schleifen, *if* -Anweisungen und anderen Code mit [!DNL Velocity] anstatt mit JavaScript erstellen können.
 
 Entitätsattribute, die in der Mbox `productPage` oder im CSV-Upload an [!DNL Recommendations] gesendet werden, können in einem Design angezeigt werden, mit Ausnahme von Attributen mit mehreren Werten. Es kann jeder Attributtyp gesendet werden. [!DNL Target] übergibt jedoch keine Attribute des Typs &quot;Mehrfachwert&quot;als Array, über das eine Vorlage iterieren kann (z. B. `entityN.categoriesList`).
 
@@ -30,7 +30,7 @@ Folgende Syntax verweist auf diese Werte:
 $entityN.variable
 ```
 
-Entitätsattributnamen müssen der Velocity-Kurzschreibweise folgen, die aus einem vorangestellten *$* -Zeichen gefolgt von einer VTL-Kennung (Velocity Template Language) besteht. Die VTL-Kennung muss mit einem Buchstaben (a-z oder A-Z) beginnen.
+Entitätsattributnamen müssen der Kurzschreibweise [!DNL Velocity] folgen, die aus einem vorangestellten Zeichen *$* gefolgt von einer Kennung für [!DNL Velocity] Vorlagensprache (VTL) besteht. Die VTL-Kennung muss mit einem Buchstaben (a-z oder A-Z) beginnen.
 
 Velocity-Entitätsattributnamen sind auf die folgenden Zeichentypen beschränkt:
 
@@ -39,7 +39,7 @@ Velocity-Entitätsattributnamen sind auf die folgenden Zeichentypen beschränkt:
 * Bindestrich ( - )
 * Unterstrich ( _ )
 
-Die folgenden Attribute sind als Velocity-Arrays verfügbar. Demzufolge können sie iteriert oder über den Index referenziert werden.
+Die folgenden Attribute sind als [!DNL Velocity] -Arrays verfügbar. Demzufolge können sie iteriert oder über den Index referenziert werden.
 
 * `entities`
 * `entityN.categoriesList`
@@ -60,7 +60,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Weitere Informationen zu Velocity-Variablen (Attributen) finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Weitere Informationen zu [!DNL Velocity] Variablen (Attributen) finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Wenn Sie in Ihrem Entwurf ein Profilskript verwenden, muss das $ vor dem Skriptnamen mit einem &quot;`\`&quot;(umgekehrter Schrägstrich) maskiert werden. Beispiel:
 
@@ -127,9 +127,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Sie können auch `algorithm.name` und `algorithm.dayCount` als Entitätsattribute in Designs verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet werden kann und der Kriterienname dynamisch im Entwurf angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Attribute sogar verwenden, um den `dayCount` anzuzeigen (Anzahl der Tage, für die in den Kriterien Daten verwendet werden, z. B. &quot;Topverkäufe während der letzten 2 Tage&quot;usw.).
 
-## Arbeiten mit Zahlen in Velocity-Vorlagen
+## Arbeiten mit Zahlen in [!DNL Velocity] Vorlagen
 
-Standardmäßig behandeln Velocity-Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+Standardmäßig behandeln [!DNL Velocity] -Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert.
 1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagenparser von [!DNL Target Recommendations], um die Vorlage zu validieren und zu speichern).
@@ -240,7 +240,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 
 ## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
 
-Mithilfe eines Velocity-Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige wird die folgende Vorlage für ein 1-zu-viele-Ergebnis verwendet, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations]nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarien, in denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Partial Template Rendering] aktiviert ist.
+Mithilfe eines [!DNL Velocity] -Skripts zur Steuerung der dynamischen Größe der Entitätsanzeige kann die folgende Vorlage ein 1-zu-n-Ergebnis liefern, um zu verhindern, dass leere HTML-Elemente erstellt werden, wenn von [!DNL Recommendations] nicht genügend übereinstimmende Entitäten zurückgegeben werden. Dieses Skript eignet sich optimal für Szenarien, in denen Reserveempfehlungen nicht sinnvoll sind und [!UICONTROL Partial Template Rendering] aktiviert ist.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 

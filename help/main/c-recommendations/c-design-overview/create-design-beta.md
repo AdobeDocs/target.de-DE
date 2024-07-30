@@ -1,14 +1,15 @@
 ---
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
-description: Erfahren Sie, wie Sie ein Adobe [!DNL Target] Recommendations-Design mit einem Standardentwurf erstellen oder indem Sie ein benutzerdefiniertes Design erstellen, das am besten zum Layout Ihrer Seite passt.
+description: Erfahren Sie, wie Sie ein [!DNL Target Recommendations] Design mit einem Standardentwurf erstellen oder indem Sie ein benutzerdefiniertes Design erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich ein Design in Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '972'
+ht-degree: 20%
 
 ---
 
@@ -33,7 +34,7 @@ Diese Abbildung zeigt ein benutzerdefiniertes Design:
 
 ![Benutzerdefinierter Entwurf](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Sie können ein Design während des Aktivitätserstellungsprozesses aus dem Visual Experience Composer (VEC) oder aus der Design-Bibliothek außerhalb der Aktivitätserstellung erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Designs aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
+Sie können ein Design während des Aktivitätserstellungsprozesses innerhalb des [!UICONTROL Visual Experience Composer] (VEC) oder aus der Design-Bibliothek außerhalb der Aktivitätserstellung erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Designs aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
 
 ## Erstellen von Entwürfen
 
@@ -43,15 +44,12 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** , um die Bibliothek [!UICONTROL Designs] anzuzeigen.
 
-   ![Designs library](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Bewegen Sie den Mauszeiger über die Karte für das Design, das Sie erstellen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Copy]** .
 
-   ![Card_CopyDesign image](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign image](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
-
-   ![createDesign image](assets/createDesign.png)
 
 1. Fügen Sie im Bedienfeld **[!UICONTROL Information]** ein **[!UICONTROL Content Name]** und ein optionales Vorschaubild hinzu, das auf der Designkarte angezeigt werden soll.
 
@@ -59,7 +57,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
 1. (Bedingt) Bearbeiten Sie den Entwurf **[!UICONTROL Code]** nach Bedarf.
 
-   Empfehlungsentwürfe verwenden die Open-Source-Entwurfssprache [!DNL Velocity]. Informationen zu [!DNL Velocity] finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und in [Anpassen eines Designs mit  [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen zu Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und in [Anpassen eines Designs mit Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig werden HTML-Designs mit einem `<div>` -Tag umschlossen, um Klick-Tracking in einer Webumgebung zu ermöglichen. Nicht-HTML-Designs eignen sich für Nicht-Webumgebungen, in denen Klick-Tracking nicht möglich ist. Schalten Sie den Umschalter [!UICONTROL HTML Design] in die Stellung &quot;Aus&quot;, um Nicht-HTML-Code zu verwenden.
 
@@ -91,17 +89,15 @@ Beachten Sie, dass Sie einen Standardentwurf nicht bearbeiten oder kopieren kön
 
 Bewegen Sie den Mauszeiger über das gewünschte Design in der [!UICONTROL Design] -Bibliothek und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
 
-![Maussymbole für einen Entwurf](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 Sie können einen vorhandenen Entwurf kopieren, um einen Entwurf zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie ein ähnliches Design mit geringerem Aufwand erstellen.
 
-Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Erwägen Sie die Verwendung in anderen Konten, bevor Sie einen Entwurf löschen. Gelöschte Designs können nicht wiederhergestellt werden.
+Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie sicher, dass Sie die kontenübergreifende Verwendung berücksichtigen, bevor Sie einen Entwurf löschen. Gelöschte Designs können nicht wiederhergestellt werden.
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, wenn eine Aktivität über den formularbasierten Editor konfiguriert wird.
+Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, wenn eine Aktivität über den [formularbasierten Editor](/help/main/c-experiences/form-experience-composer.md) konfiguriert wird.
 
-1. Erstellen Sie einen Entwurf aus der Designbibliothek oder aus dem formularbasierten Workflow. Wenn Sie versuchen, einen Entwurf innerhalb des Arbeitsablaufs [!UICONTROL Visual Experience Composer] (VEC) zu erstellen, können Sie nichts anderes als einen HTML-Entwurf erstellen, der zu Klick-Tracking-Zwecken in ein `<div>` eingeschlossen ist.
+1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, einen Entwurf innerhalb des Arbeitsablaufs für [!UICONTROL Visual Experience Composer] (VEC) zu erstellen, können Sie nichts anderes als einen HTML-Entwurf erstellen, der zu Klick-Tracking-Zwecken in ein `<div>` eingeschlossen ist.
 
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
@@ -174,13 +170,13 @@ Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sol
 
 ## Zusätzliche Tipps und Tricks für JSON-Objekte {#section_C305673C68944749969DB239E3221DC2}
 
-Sie können auch einfach eine durch Kommas getrennte Liste von Elementen zurücksenden, indem Sie ein Design mit folgender Syntax erstellen:
+Sie können auch eine einfache kommagetrennte Liste von Elementen zurücksenden, indem Sie einen Entwurf mit der folgenden Syntax einrichten:
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). Dieses Designbeispiel gibt auch Aktivitätsdetails, Target-Profildetails (falls zutreffend) und andere mit den zurückgegebenen Elementen verknüpfte `entity.attributes` zurück.
+Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). Dieses Designbeispiel gibt auch Aktivitätsdetails, [!UICONTROL Target Profile] Details (falls zutreffend) und andere `entity.attributes` zurück, die mit den zurückgegebenen Elementen verknüpft sind.
 
 ```javascript
     {   
