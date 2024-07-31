@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Aktivitäten in [!DNL Target] Inhalte fü
 title: Wie kann ich Inhalte personalisieren und Seitendesigns mit [!DNL Target] testen?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: be63fa4c89f229e3f4566cb400e1268d2cdf08d2
+source-git-commit: 0e2bc5c96671b47532b90f3ecb525a6a0506eb8d
 workflow-type: tm+mt
 source-wordcount: '2290'
 ht-degree: 36%
@@ -71,16 +71,17 @@ Greifen Sie auf Filter zu, indem Sie oben in der Liste auf das Symbol **[!UICONT
 ![Filteroptionen](/help/main/c-activities/assets/show-filters-options.png)
 
 Im Menü können Sie Aktivitäten nach folgenden Attributen filtern:
-|Attribut|Details|
-| — | — |
-|[!UICONTROL Type]|Filtern nach [Aktivitätstyp](#types).|
-|[!UICONTROL Status]|Filtern nach Aktivitätsstatus.|
-|[!UICONTROL Reporting Source]|Filtern nach Berichtsquelle.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Zeigt Aktivitäten an, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Zeigt Aktivitäten an, die [!DNL Target] als Berichtsquelle verwenden.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Zeigt Aktivitäten an, die [!DNL Adobe Customer Analytics] als Berichtsquelle verwenden.</li></ul>|
-|[!UICONTROL Experience Composer]|Filtern, nach welchem Experience Composer bei der Aktivitätserstellung verwendet wurde:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Zeigt Aktivitäten an, die mit dem VEC (2}) erstellt wurden.[!UICONTROL Visual Experience Composer]</li><li>[Formularbasiert](/help/main/c-experiences/form-experience-composer.md): Zeigt Aktivitäten an, die mit dem [!UICONTROL Form-Based Experience Composer] erstellt wurden.</li></ul>|
-|[!UICONTROL Metrics Type]|Filtern Sie, nach welchem [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md) bei der Erstellung einer Aktivität ausgewählt wurde.<ul><li>Konversion</li><li>Umsatz</li><li>Interaktion</li></ul>|
-|[!UICONTROL Decisioning Method]|Filtern nach der in den einzelnen Aktivitäten verwendeten Entscheidungsmethode<ul><li>[Serverseitig](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de): Zeigt Aktivitäten an, die serverseitige Entscheidungen verwenden.</li><li>[Client-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): Zeigt Aktivitäten an, die clientseitige Entscheidungen verwenden.</li></ul>|
-|[!UICONTROL Activity Source]|Filtern Sie nach der Aktivitätsquelle, mit der die einzelnen Aktivitäten erstellt werden.<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target-API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de)</li><li>[Adobe Mobile-Dienste](https://developer.adobe.com/client-sdks/documentation/)</li></ul>|
-|[!UICONTROL Property]|Filtern Sie nach der [Eigenschaft](/help/main/administrating-target/c-user-management/property-channel/property-channel.md), in der die Aktivität erstellt wurde.|
+
+| Attribut | Details |
+| --- | --- |
+| [!UICONTROL Type] | Filtern nach [Aktivitätstyp](#types). |
+| [!UICONTROL Status] | Filtern nach Aktivitätsstatus. |
+| [!UICONTROL Reporting Source] | Filtern nach Berichtsquelle.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Zeigt Aktivitäten an, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Zeigt Aktivitäten an, die [!DNL Target] als Berichtsquelle verwenden.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Zeigt Aktivitäten an, die [!DNL Adobe Customer Analytics] als Berichtsquelle verwenden.</li></ul> |
+| [!UICONTROL Experience Composer] | Filtern, nach welchem Experience Composer bei der Erstellung von Aktivitäten verwendet wurde:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Zeigt Aktivitäten an, die mit dem VEC (2}) erstellt wurden.[!UICONTROL Visual Experience Composer]</li><li>[Formularbasiert](/help/main/c-experiences/form-experience-composer.md): Zeigt Aktivitäten an, die mit dem [!UICONTROL Form-Based Experience Composer] erstellt wurden.</li></ul> |
+| [!UICONTROL Metrics Type] | Filtern Sie, nach welcher [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md) bei der Erstellung einer Aktivität ausgewählt wurde.<ul><li>Konversion</li><li>Umsatz</li><li>Interaktion</li></ul> |
+| [!UICONTROL Decisioning Method] | Filtern nach der in den einzelnen Aktivitäten verwendeten Entscheidungsmethode<ul><li>[Serverseitig](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de): Zeigt Aktivitäten an, die serverseitige Entscheidungen verwenden.</li><li>[Client-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): Zeigt Aktivitäten an, die clientseitige Entscheidungen verwenden.</li></ul> |
+| [!UICONTROL Activity Source] | Filtern Sie nach der Aktivitätsquelle, mit der die einzelnen Aktivitäten erstellt werden.<ul><li>[!DNL Adobe Target]</li><li>[Adobe Target-API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de)</li><li>[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)</li><li>[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de)</li><li>[Adobe Mobile-Dienste](https://developer.adobe.com/client-sdks/documentation/)</li></ul> |
+| [!UICONTROL Property] | Filtern Sie nach der [Eigenschaft](/help/main/administrating-target/c-user-management/property-channel/property-channel.md), in der die Aktivität erstellt wurde. |
 
 ## Schnellaktionen durchführen {#quick-actions}
 
