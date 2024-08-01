@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
 
@@ -18,8 +18,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 ## Aktualisierungen
 
 |Datum|Thema|Änderungen|
+|1. August|[Häufig gestellte Fragen zu Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Folgende FAQ wurden hinzugefügt: &quot;Kann ich benutzeroberflächenerstellte visuelle Angebote mit den [!DNL Target] APIs verwalten?&quot;[!DNL Target]|
 |10. Juli|[Proxy-Konfiguration (Java)](https://experienceleague.adobe.com/de/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Neuer Abschnitt hinzugefügt: On-Device Decisioning|
-|3. Juni|[Priorität](/help/main/c-activities/priority.md)|Das gesamte Thema wurde aktualisiert, einschließlich der Angabe, dass Inhalte von mehreren [!UICONTROL Form-Based Experience Composer]- und VEC-Aktivitäten bereitgestellt werden können. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow eine Bereitstellung vornehmen. Die Anzahl der formularbasierten Aktivitäten, die eine Bereitstellung vornehmen können, ist jetzt nicht mehr begrenzt.|
+|3. Juni |[Priorität](/help/main/c-activities/priority.md)|Das gesamte Thema wurde aktualisiert, einschließlich der Angabe, dass Inhalte aus mehreren [!UICONTROL Form-Based Experience Composer] - und VEC-Aktivitäten bereitgestellt werden können. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow eine Bereitstellung vornehmen. Die Anzahl der formularbasierten Aktivitäten, die eine Bereitstellung vornehmen können, ist jetzt nicht mehr begrenzt.|
 |17. Mai|[Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Es wurden zusätzliche IP-Adressen hinzugefügt, die bei Verwendung von [!UICONTROL Enhanced Experience Composer] der Zulassungsliste hinzugefügt werden können.|
 |8. Mai|[[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)|Neuer Artikel: Es wurden Informationen zur [!DNL Target]-Integration mit [!DNL Adobe Customer Journey Analytics] hinzugefügt.|
 |30. April|[Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Die Liste der IP-Adressen für den Adobe-Server, der für die EEC-Proxy-Zulassungsliste verwendet wird, wurde aktualisiert.|
