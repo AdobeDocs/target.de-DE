@@ -1,13 +1,13 @@
 ---
 keywords: dynamische Daten;Assets;Daten;Angebote;personalisierte Angebote;persönliche Angebote;Token ersetzen
-description: Erfahren Sie, wie Sie dynamische Daten an [!DNL Adobe Target] Angebote übergeben.
+description: Erfahren Sie, wie Sie dynamische Daten in [!DNL Adobe Target] an Angebote übergeben.
 title: Wie übergebe ich dynamische Daten an Angebote?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können im [!DNL Adobe Target] -Profil gespeicherte Besucherinformationen dy
 
 * Fördern Sie ein Angebot mit Rabatt, um das zuletzt gekaufte Produkt „erneut aufzufüllen“ oder „nachzufüllen“. Anstatt ein separates Angebot für jedes Element in Ihrem Katalog zu erstellen, können Sie ein Angebot mit dynamischem Text erstellen, das das „zuletzt gekaufte Produkt“ aus dem Profil liest und einen Link im Angebot anzeigt.
 * Ein Besucher gelangt über `keyword=world` `cup` auf Ihre Landingpage. Der Begriff *World cup* wird im Angebot angezeigt.
-* Personalisieren Sie eine Empfehlungsbeschriftung mit Informationen wie (1) dem letzten Artikel, der dem Einkaufswagen eines Besuchers hinzugefügt wurde (Nike Air Max 1000s), (2) der Farbvoreinstellungen des Besuchers (schwarz) und (3) der bevorzugten Kategorie des Besuchers (Hoodies). Beispiel: „Ergänzen Sie Ihre ‚Nike Air Max 1000s‘ mit diesen coolen ‚schwarzen‘ Hoodies!“
+* Personalisieren Sie eine Empfehlungsbeschriftung mit Informationen, wie (1) dem letzten Artikel, der zum Warenkorb eines Besuchers hinzugefügt wurde (Nike Air Max 1000s), (2) der Farbvoreinstellung des Besuchers (schwarz) und (3) der bevorzugten Kategorie des Besuchers (Hoodies). Beispiel: „Ergänzen Sie Ihre ‚Nike Air Max 1000s‘ mit diesen coolen ‚schwarzen‘ Hoodies!“
 
 ## Technische Vorteile
 
@@ -69,7 +69,7 @@ Standardwerte können auch für Werte angegeben werden, die Sie für Angebote ve
 
 `${user.testAttribute default="All Items!"}`
 
-Wenn `testAttribute` nicht vorhanden oder leer ist, wird „Alle Objekte!“ ist ausgeschrieben. Wenn ein leerer Attributwert gültig ist und Sie ihn ausschreiben möchten, anstatt den Standardwert anzuzeigen, können Sie Folgendes verwenden:
+Wenn `testAttribute` nicht vorhanden oder leer ist, wird &quot;Alle Elemente!&quot; ist ausgeschrieben. Wenn ein leerer Attributwert gültig ist und Sie ihn ausschreiben möchten, anstatt den Standardwert anzuzeigen, können Sie Folgendes verwenden:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
