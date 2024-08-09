@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 4e5c3c1f93459619ff4d016af47f7f8ba9b16c2d
+source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 85%
@@ -22,7 +22,7 @@ ht-degree: 85%
    + [Systemstatusaktualisierungen und proaktive Benachrichtigungen](r-release-notes/system-status-updates.md)
    + [Dokumentationsänderungen](r-release-notes/doc-change.md)
    + [Versionshinweise für vorherige Versionen](r-release-notes/release-notes-for-previous-releases.md)
-   + [Aktualisierung des Beta-Programms durch Target-Aktivitäten, Angebote und Recommendations-Benutzeroberfläche](/help/main/r-release-notes/refresh-ui-beta.md)
+   + [Aktualisierung des Beta-Programms durch Target-Aktivitäten, Angebote und Recommendations-Benutzeroberfläche](/help/main/refresh-ui-beta.md)
 + Einführung {#introduction}
    + [Einführung in Target](c-intro/intro.md)
    + [Zugriff auf Target über Adobe Experience Cloud](c-intro/target-access-from-mac.md)
