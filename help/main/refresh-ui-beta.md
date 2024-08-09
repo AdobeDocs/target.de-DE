@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] Benutzeroberflächen-Aktualisierungsprogramm Beta
 
-Verwenden Sie diese Links in diesem Artikel, um auf die aktualisierte Dokumentation als Teil des Beta-Programms für die Aktualisierung der [!DNL Adobe Target] Benutzeroberfläche für [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] zuzugreifen.
+Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des Beta-Programms für die Aktualisierung der [!DNL Adobe Target] Benutzeroberfläche für [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] zuzugreifen.
 
 >[!NOTE]
 >
->Die Informationen in diesen Artikeln werden im Rahmen des Beta-Programms häufig aktualisiert.
+>Das [!DNL Adobe Target]-Team ermöglicht für ausgewählte Kunden oft neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in zukünftigen [!DNL Target]-Versionen für alle Kunden aktiviert und in den Versionshinweisen angekündigt.
+>
+>Die Informationen in diesen Artikeln werden häufig ohne Vorankündigung während des Beta-Programms aktualisiert.
 
-+++ Aktivitäten (Zum Erweitern klicken)
++++Aktivitäten (Klicken zum Erweitern)
 
 + [Aktivitäten – Überblick](c-activities/activities.md){target=_blank}
 + [Target-Aktivitätstypen](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Verwenden Sie diese Links in diesem Artikel, um auf die aktualisierte Dokumentat
 
 +++
 
-+++ Angebote (zum Erweitern klicken)
++++Angebote (Klicken zum Erweitern)
 
 + [Angebote – Überblick](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Erstellen von Angebotsordnern](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
