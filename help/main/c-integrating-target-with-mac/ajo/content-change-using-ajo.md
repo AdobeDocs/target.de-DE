@@ -6,16 +6,18 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
 # Inhaltsänderungen durch A/B-Tests in [!DNL Adobe Journey Optimizer]
 
 In diesem Anwendungsfall können Sie die Geheimnisse entsperren, um die Inhaltsänderungen in [!DNL Adobe Journey Optimizer] von A/B-Tests zu überprüfen.
+
+Dieser Anwendungsfall soll zeigen, wie eine vertraute Aufgabe in [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), jedoch mit [!DNL Journey Optimizer], ausgeführt werden kann.
 
 ## Szenario
 
@@ -29,6 +31,10 @@ Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder
 
 ## Schrittweise Anleitungen
 
+>[!NOTE]
+>
+>In den Anweisungen in diesem Abschnitt werden die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zur Personalisierung von Textnachrichten beschrieben. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer] Webdesigner finden Sie unter [Webinhalt bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
+
 Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Sie verschiedene Bilder testen und Nachrichten mit den Vornamen der Benutzer personalisieren:
 
 1. Klicken Sie in [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
@@ -41,21 +47,27 @@ Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Si
 
    ![Kampagnendetailseite in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Geben Sie einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
+1. Geben Sie im Abschnitt **[!UICONTROL Properties]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschten Zielgruppen aus.
+1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Audience]** auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschte Zielgruppe aus.
 
    Für diesen Anwendungsfall haben wir ausgewählt, die Kampagne für alle Besucher zu aktivieren (Standardeinstellung).
 
-1. Wählen Sie **[!UICONTROL Web]** aus der Dropdownliste **[!UICONTROL Action]** und wählen Sie dann eine neue Webkonfiguration aus oder erstellen Sie sie.
+1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdownliste **[!UICONTROL Action]** und wählen Sie dann eine neue Webkonfiguration aus oder erstellen Sie sie.
 
-   Eine Webkonfiguration oder Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wurde. Die Webkonfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomäne, mobile Apps usw.
+   Eine Webkonfiguration oder Kanaloberfläche ist eine von einem Systemadministrator definierte Konfiguration. Die Webkonfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomäne, mobile Apps usw.
 
    Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
-1. Klicken Sie auf **[!UICONTROL Edit Content]** , um Ihre Website im Webdesigner [!DNL Journey Optimizer] zu öffnen.
+1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im Webdesigner [!DNL Journey Optimizer] zu öffnen.
+
+   Für A/B-Tests sind zwei oder mehr Experimente erforderlich. Sie können Ihre vorhandene Startseite als erstes Experiment verwenden. Die folgenden Schritte erläutern, wie ein zweites Experiment eingerichtet wird.
 
    ![Yoga-Landingpage auf der LUMA-Website](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. Um ein Experiment zu erstellen, um zu testen, welcher Inhalt besser funktioniert, klicken Sie auf **[!UICONTROL Create Experiment]**.
+
+   Mithilfe von Inhaltsexperimenten können Sie den Nachrichteninhalt, den Betreff oder den Absender variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen. Weitere Informationen finden Sie unter [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
 1. Klicken Sie in der rechten Leiste auf &quot;**[!UICONTROL Edit Web Page]**&quot;.
 
@@ -73,6 +85,8 @@ Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Si
 
    ![Schaltfläche &quot;Personalization hinzufügen&quot;.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   Weitere Informationen zu Profilattributen finden Sie unter [Erste Schritte mit dem Personalisierungs-Editor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Journey Optimizer-Dokumentation*.
+
 1. Suchen Sie nach dem Profilattribut &quot;Vorname&quot;, wählen Sie es aus, passen Sie den Text wie gewünscht an und klicken Sie dann auf **[!UICONTROL Save]**.
 
    ![Profilattribut für Namen hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
@@ -84,6 +98,15 @@ Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Si
    ![Pfeil nach hinten](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. Klicken Sie auf &quot;**[!UICONTROL Review to Activate]**&quot;, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf &quot;**Aktivieren**&quot;.
+
+## Berichte anzeigen
+
+Klicken Sie auf die Schaltfläche Berichte und dann auf den gewünschten Berichtszeitraum:
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsschnittstelle](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
 >[!MORELIKETHIS]
 >
