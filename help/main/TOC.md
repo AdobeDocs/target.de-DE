@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 75c6760b57242222dc97a7bf61b6323f682b9da9
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1359'
 ht-degree: 83%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 83%
       + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrieren [!DNL Adobe Target Recommendations] und  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Anwendungsfälle für Adobe Journey Optimizer {#use-cases}
-         + [Mastering-Optimierung - Häufigste Anwendungsfälle in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [Nutzungsszenarios für die Top-Optimierung in Adobe Journey Optimizer - Web- und Codebasierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Inhaltsänderungen durch A/B-Tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integration von Target in Adobe Experience Manager (AEM) {#aem}
