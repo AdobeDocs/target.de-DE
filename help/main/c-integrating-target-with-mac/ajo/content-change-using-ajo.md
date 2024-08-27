@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 1%
 
 In diesem Anwendungsfall können Sie die Geheimnisse entsperren, um die Inhaltsänderungen in [!DNL Adobe Journey Optimizer] von A/B-Tests zu überprüfen.
 
-Dieser Anwendungsfall soll zeigen, wie eine vertraute Aufgabe in [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), jedoch mit [!DNL Journey Optimizer], ausgeführt werden kann.
+Dieser Anwendungsfall soll zeigen, wie vertraute Aufgaben in [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), jedoch mit [!DNL Journey Optimizer] ausgeführt werden.
 
-## Szenario
+## Mögliche Szenarien
 
-Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder getestet und Kampagnen-Landingpages mit den Vornamen der Benutzer aus ihren Profilattributen personalisiert wurden.
+* Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder getestet und Kampagnen-Landingpages mit den Vornamen der Benutzer aus ihren Profilattributen personalisiert wurden.
+
+* Durch das Testen verschiedener Produktbeschreibungen und Bilder auf einer Kampagnen-Landingpage stellte ein E-Commerce-Unternehmen fest, dass seine Mitglieder der Goldloyalität höhere Konversionsraten aufwiesen, was zu einem Anstieg des Umsatzes führte.
 
 ## Vorteile und Wert
 
@@ -29,13 +31,13 @@ Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder
 * **Datenbasierte Entscheidungen**: Nutzen Sie Daten, um fundierte Entscheidungen über Ihre Inhaltsstrategie hinweg zu treffen und so eine maximale Wirkung sicherzustellen.
 * **Personalisiertes Benutzererlebnis**: Passen Sie Inhalte an, um die einzigartigen Voreinstellungen und Anforderungen aller Zielgruppensegmente zu erfüllen.
 
-## Schrittweise Anleitungen
+## Schritte
 
 >[!NOTE]
 >
->In den Anweisungen in diesem Abschnitt werden die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zur Personalisierung von Textnachrichten beschrieben. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer] Webdesigner finden Sie unter [Webinhalt bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
+>In den Anweisungen in diesem Abschnitt werden die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zur Personalisierung von Textnachrichten beschrieben. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer] Webdesigner finden Sie unter [Webinhalt bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*. Das Video am unteren Seitenrand ist besonders hilfreich.
 
-Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Sie verschiedene Bilder testen und Nachrichten mit den Vornamen der Benutzer personalisieren:
+Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Sie verschiedene Bilder testen und Nachrichten mit den Vornamen der Benutzer mithilfe eines Profilskripts personalisieren:
 
 1. Klicken Sie in [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
 
@@ -51,7 +53,7 @@ Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Si
 
 1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Audience]** auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschte Zielgruppe aus.
 
-   Für diesen Anwendungsfall haben wir ausgewählt, die Kampagne für alle Besucher zu aktivieren (Standardeinstellung).
+   Für diesen Anwendungsfall haben wir ausgewählt, die Kampagne für [!UICONTROL All Visitors] zu aktivieren (Standardeinstellung).
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdownliste **[!UICONTROL Action]** und wählen Sie dann eine neue Webkonfiguration aus oder erstellen Sie sie.
 
@@ -111,6 +113,6 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterst
 >[!MORELIKETHIS]
 >
 >[Bearbeiten des Webinhalts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*
->[Anleitungsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} in der *Journey Optimizer-Dokumentation*
+>[Anleitungsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in der *Journey Optimizer-Dokumentation*
 >[Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*
 
