@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ Führen Sie die folgenden Schritte aus, um Komponenten hinzuzufügen oder Kompon
 
    ![Yoga-Landingpage auf der LUMA-Website](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Um eine Aktionsaufruf-Schaltfläche hinzuzufügen, klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]** .
+1. Um ein Element auszublenden, klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]** .
 
-1. Klicken Sie auf
+1. Klicken Sie auf das Element, das Sie ausblenden möchten, und klicken Sie dann in der rechten Leiste auf die Schaltfläche [!UICONTROL Hide] .
+
+   Die rechte Leiste zeigt die Option an, die Sie für das ausgewählte Element ausführen können. Diese Optionen variieren je nach ausgewähltem Element.
+
+   ![Schaltfläche &quot;Element ausblenden&quot;](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Klicken Sie in der oberen linken Ecke auf den Pfeil nach hinten , um zum Webdesigner zurückzukehren.
 
