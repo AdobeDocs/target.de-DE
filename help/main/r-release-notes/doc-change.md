@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '384'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 11. September | [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Folgender Hinweis wurde unter Rollen und Berechtigungen festlegen hinzugefügt:<P> Um Aktivitäten in [!DNL Target] anzuzeigen, müssen Benutzer direkt einem Arbeitsbereich mit mindestens der Rolle [!UICONTROL Observer] zugewiesen sein. Die Zuweisung durch Benutzergruppen allein reicht nicht aus. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren. |
 | 1. August | [Recommendations-FAQs](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende FAQ wurde hinzugefügt: &quot;Kann ich benutzeroberflächenerstellte visuelle Angebote mit den [!DNL Target] -APIs verwalten?&quot;[!DNL Target] |
 | 10. Juli | [Proxy-Konfiguration (Java)](https://experienceleague.adobe.com/de/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Neuer Abschnitt hinzugefügt: On-Device Decisioning |
 | 3. Juni | [Priorität](/help/main/c-activities/priority.md) | Das gesamte Thema wurde aktualisiert, einschließlich der Angabe, dass Inhalte aus mehreren [!UICONTROL Form-Based Experience Composer]- und VEC-Aktivitäten eine Bereitstellung vornehmen können. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow eine Bereitstellung vornehmen. Die Anzahl der formularbasierten Aktivitäten, die eine Bereitstellung vornehmen können, ist jetzt nicht mehr begrenzt. |

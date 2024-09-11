@@ -5,10 +5,10 @@ title: Wie kann ich für ein  [!DNL Target Standard] -Konto Benutzende hinzufüg
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ Sie können Benutzergruppen wie Entwickelnde, Analytiker, Marketing-Fachleute, F
 Benutzerrollen können in [!DNL Target] nur von Systemadministratoren festgelegt werden. Beispielsweise kann ein Benutzer mit der Rolle &quot;[!UICONTROL Standard]&quot;einen Beobachter nicht in einen Genehmiger ändern, ohne auch über [!DNL Experience Cloud] Administratorrechte zu verfügen.
 
 Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden nicht automatisch hinzugefügt. Sie werden per E-Mail über [!DNL Experience Cloud] eingeladen und müssen ihre E-Mail-Adressen bestätigen, damit ihre Konten registriert werden.
+
+>[!NOTE]
+>
+>Um Aktivitäten in [!DNL Target] anzuzeigen, müssen Benutzer direkt einem Arbeitsbereich mit mindestens der Rolle [!UICONTROL Observer] zugewiesen sein. Die Zuweisung durch Benutzergruppen allein reicht nicht aus. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren.
 
 1. [Klicken Sie in der Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Products]** und wählen Sie dann den Produktnamen aus.
 
