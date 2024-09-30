@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '407'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 30 September | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md) | Die zulässige Anzahl von Angeboten wurde aktualisiert. |
 | 29 September | [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Es wurden Informationen über die at.js-Version 2.11.6 hinzugefügt. |
 | 11. September | [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Folgender Hinweis wurde unter Rollen und Berechtigungen festlegen hinzugefügt:<P> Um Aktivitäten in [!DNL Target] anzuzeigen, müssen Benutzer direkt einem Arbeitsbereich mit mindestens der Rolle [!UICONTROL Observer] zugewiesen sein. Die Zuweisung durch Benutzergruppen allein reicht nicht aus. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren. |
 | 1. August | [Recommendations-FAQs](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Folgende FAQ wurde hinzugefügt: &quot;Kann ich benutzeroberflächenerstellte visuelle Angebote mit den [!DNL Target] -APIs verwalten?&quot;[!DNL Target] |
