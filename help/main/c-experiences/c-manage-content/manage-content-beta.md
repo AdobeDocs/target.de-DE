@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 74dbbb2f56e62c2c5595497c7ae1e264f9ffd9d4
+source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '825'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ Die Bibliothek [!UICONTROL Offers] bietet einen Überblick über alle Code- und 
 | Suchfelder | Verwenden Sie die Felder **[!UICONTROL Search in]** , um schnell ein Angebot zu finden oder die Anzahl der in der Bibliothek [!UICONTROL Offers] angezeigten Angebote zu reduzieren. Sie können nach [!UICONTROL Offer Name], [!UICONTROL AEM Paths] oder [!UICONTROL AEM Tags] suchen. |
 | [!UICONTROL Create Folder] | Klicken Sie auf &quot;**[!UICONTROL Create Folder]**&quot;, um Ordner in der Bibliothek &quot;[!UICONTROL Offer]&quot;zu erstellen und Codeangebote, Bildangebote sowie andere Ordner zu speichern, um eine Unterordnerstruktur zu erstellen.<P>Weitere Informationen finden Sie unter [Erstellen von Angebotsordnern](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Klicken Sie auf **[!UICONTROL Create Offer]** , um ein Angebot zu erstellen.<P>Weitere Informationen zur Erstellung der verschiedenen Angebotstypen finden Sie unter: <ul><li>HTML-Angebot</li><li>[JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| Kontrollkästchen für Massenvorgänge<P>![Symbol &quot;Massenvorgänge&quot;](/help/main/assets/icons/Selection.svg) | Aktivieren Sie die Kontrollkästchen [!UICONTROL Bulk Operations] , um Massenvorgänge für alle Aktivitäten oder für ausgewählte Aktivitäten durchzuführen.<P>Eine Liste der verfügbaren Aktionen (abhängig von Ihren Berechtigungen und dem Angebotsstatus) finden Sie unten unter [Durchführen von Schnellaktionen](#quick-actions) . |
+| Kontrollkästchen für Massenvorgänge<P>![Symbol &quot;Massenvorgänge&quot;](/help/main/assets/icons/Rectangle.svg) | Aktivieren Sie die Kontrollkästchen [!UICONTROL Bulk Operations] , um Massenvorgänge für alle Angebote oder ausgewählte Angebote durchzuführen.<P>Eine Liste der verfügbaren Aktionen (abhängig von Ihren Berechtigungen und dem Angebotsstatus) finden Sie unten unter [Durchführen von Schnellaktionen](#quick-actions) . |
 | [!UICONTROL Name] | Der Name jedes Angebots.<P>Klicken Sie auf das Symbol **[!UICONTROL Quick Info]** ( ![Quick Info icon](/help/main/assets/icons/InfoOutline.svg) ) neben dem jeweiligen Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Pop-up-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums des Angebots, der letzten Änderung und von wem und mehr.<p>Klicken Sie neben dem jeweiligen Angebotsnamen auf das Symbol **[!UICONTROL More Actions]** ( ![Symbol Weitere Aktionen](/help/main/assets/icons/MoreSmallList.svg) ), um ein Menü zu öffnen, über das Sie schnell Aktionen für eine Aktivität durchführen können. Die folgenden Aktionen sind verfügbar (je nach Ihren Berechtigungen und dem Angebotsstatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] und [!UICONTROL Move]. Weitere Informationen zu den einzelnen Aktionen finden Sie unten unter [Schnellaktionen durchführen](#quick-actions) .<P>Klicken Sie auf die Tabellenüberschrift, um die Liste alphabetisch in auf- oder absteigender Reihenfolge nach Namen zu sortieren. |
 | [!UICONTROL Type] | Der Angebotstyp: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) und [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 | [!UICONTROL Source] | Zeigt an, wo das Angebot erstellt wurde: [!DNL Adobe Target], [!DNL Adobe Target Classic] und [!DNL Adobe Experience Manager]. |
