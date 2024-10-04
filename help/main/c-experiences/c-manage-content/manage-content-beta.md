@@ -1,16 +1,16 @@
 ---
 keywords: Inhalt;Assets;Inhalt verwalten;Angebote;Assets verwalten;Auswahlmodus aufrufen;Auswahlmodus
-description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der [!UICONTROL Offers] -Bibliothek effizient verwalten können. Erfahren Sie Best Practices und Tipps zur Optimierung Ihres Workflows und zur Verbesserung Ihrer Projekte.
+description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der [!UICONTROL Offers] -Bibliothek effizient verwalten können.
 title: Wie verwalte ich Code- und Bildangebote?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 

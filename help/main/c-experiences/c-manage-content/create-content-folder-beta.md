@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 8%
 
 ---
@@ -30,11 +30,11 @@ Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich
 
    ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Klicken Sie auf **[!UICONTROL Create Folder].
 
 1. Geben Sie einen beschreibenden Namen für den Ordner an.
 
-1. (Bedingt) Wenn Sie über ein [Target Premium](/help/main/c-intro/intro.md#premium) -Konto verfügen und [Arbeitsbereiche](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) verwenden, wählen Sie einen Arbeitsbereich aus.
+1. (Bedingt) Wenn Sie ein [Target Premium](/help/main/c-intro/intro.md#premium) -Konto haben und [Arbeitsbereiche](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) verwenden, wählen Sie einen Arbeitsbereich aus.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -44,9 +44,8 @@ Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen könn
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Registerkarte &quot;Bildangebote&quot;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Geben Sie eine beschreibende **[!UICONTROL Title]** für den Ordner an.
 
    Sie können beispielsweise den Inhaltstyp einbeziehen, den er enthält.
@@ -54,9 +53,9 @@ Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen könn
    Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Doppelte Anführungszeichen `"`, Eckige Klammer `[`, Eckige Klammer `]`, Plus-Zeichen: `+`, Streifen: `|`, Punkt: `.`, Nummernzeichen: 12, geschweifte Klammer: `{`, geschweifte Klammer `}`, Karriere `^` oder Semikolon `;`. `#` Anstelle dieser Zeichen können Sie einen Bindestrich ( `- `) verwenden.
 
 1. (Optional) Geben Sie einen beschreibenden **[!UICONTROL Name]** an.
-1. (Optional) Aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Private]**&quot;, um anzugeben, dass der Ordner privat ist, damit nur Sie ihn und seinen Inhalt sehen können.
+1. (Optional) Wählen Sie **[!UICONTROL Private]** aus, um anzugeben, dass der Ordner privat ist, sodass nur Sie ihn und seinen Inhalt sehen können.
 
-1. (Optional) Aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Reorder-able in List View]**&quot;, um anzugeben, dass Sie und andere die Reihenfolge der Ordnerposition in &quot;[!UICONTROL List View]&quot;ändern können.
+1. (Optional) Wählen Sie &quot;**[!UICONTROL Reorder-able in List View]**&quot;, um anzugeben, dass Sie und andere die Ordnerposition in &quot;[!UICONTROL List View]&quot;neu anordnen können.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

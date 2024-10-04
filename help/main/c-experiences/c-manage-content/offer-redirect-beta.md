@@ -1,16 +1,16 @@
 ---
-keywords: Umleitungsangebot;Umleitungsangebote erstellen;HTML-Angebot hinzufügen;alle URL-Parameter bei der Umleitung übermitteln;mboxSessionId bei der Umleitung übermitteln (nur erforderlich, wenn eine Umleitung auf eine andere Domain erfolgt)
-description: Erfahren Sie, wie Sie Umleitungsangebote in [!DNL Target] erstellen, damit ein Browser zu einer neuen Seite weiterleitet.
+keywords: Umleitungsangebot; Umleitungsangebot erstellen; HTML-Angebot hinzufügen; alle URL-Parameter bei der Umleitung übergeben
+description: Erfahren Sie, wie Sie Umleitungsangebote erstellen, damit ein Browser zu einer neuen Seite weiterleitet.
 title: Wie erstelle ich Umleitungsangebote?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 30%
 
 ---
 
@@ -30,7 +30,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 >
 >* Sie können keine Umleitungsangebote in AJAX Mboxes (`mboxUpdate`) verwenden.
 >
->* Bei Umleitungsangeboten in Aktivitäten, die Analytics als Berichtsquelle verwenden (A4T), muss Ihre Implementierung bestimmte Mindestanforderungen erfüllen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+>* Bei Umleitungsangeboten in Aktivitäten mit [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) muss Ihre Implementierung bestimmte Mindestanforderungen erfüllen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
 >* Weitere Informationen zum Einrichten eines Erlebnisses mit Umleitung finden Sie unter [Zu einer URL umleiten](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
 
@@ -43,13 +43,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 ## Erstellen eines Umleitungsangebots über die Seite [!UICONTROL Code Offers]
 
 1. Klicken Sie auf **[!UICONTROL Offers]** und wählen Sie dann die Registerkarte **[!UICONTROL Code Offers]** aus.
-
-   ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Dialogfeld &quot;Umleitungsangebot erstellen&quot;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
    Ein beschreibender Name hilft Ihnen und anderen beim schnellen Auffinden des Angebots in der [!UICONTROL Assets] -Bibliothek.
@@ -64,7 +58,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 1. Wählen Sie die gewünschten Optionen aus, um Ihr Umleitungsangebot anzupassen:
 
-   * **Alle URL-Parameter einschließen:** Schalten Sie den Umschalter um, um diese Option zu aktivieren, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
+   * **Alle URL-Parameter einschließen:** Aktivieren Sie diese Option, wenn alle auf der vorherigen Seite vorhandenen URL-Parameter auf die umgeleitete Seite propagiert werden sollen.
 
      Wenn Sie beispielsweise Besucher von einer Seite für Herrenmode direkt zu einer Kategorieseite für Herrenhemden umleiten möchten. Die dynamischen Parameter in der URL sollen ebenfalls übergeben werden, da Sie auf diese Weise verfolgen, ob Besucher per E-Mail, Banneranzeige, Suchanzeige oder auf sonstige Weise auf Ihre Site gelangen. Durch Aktivierung dieser Option wird Ihr Umleitungsangebot auf Seite `https://www.mycompany.com/mens.html?emailId=123` automatisch zu `https://www.mycompany.com/mensShirts.html?emailId=123`, wenn Sie nur in das Feld &quot;URL&quot;den Wert `https://www.mycompany.com/mensShirts.html` eingegeben haben.
 
@@ -81,17 +75,8 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 ## Erstellen eines Umleitungsangebots mit dem [!UICONTROL Form-Based Experience Composer]
 
 1. Wählen Sie beim Erstellen einer Aktivität mit dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, an dem der Abschnitt **[!UICONTROL Content]** angezeigt werden soll.
-
-   ![Inhaltsabschnitt im formularbasierten Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. Klicken Sie auf die Dropdownliste **[!UICONTROL Default Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
-
-   ![Option &quot;Umleitungsangebot ändern&quot;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
-
-   ![Dialogfeld &quot;Umleitungsangebot erstellen&quot;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
    Ein beschreibender Name hilft Ihnen und anderen beim schnellen Auffinden des Angebots in der [!UICONTROL Assets] -Bibliothek.
@@ -131,11 +116,7 @@ Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nic
 1. Geben Sie den gewünschten Ort an und fügen Sie bei Bedarf Zielgruppenverfeinerungen hinzu.
 
 1. Klicken Sie auf die Dropdownliste im Abschnitt **[!UICONTROL Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
-
-   ![Option &quot;Umleitungsangebot ändern&quot;](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. Wählen Sie im Dialogfeld [!UICONTROL Select Remote Offer] das gewünschte Umleitungsangebot aus und klicken Sie dann auf **[!UICONTROL Done]**.
-
 1. Schließen Sie die Konfiguration der Aktivität ab.
 
 ## Schulungsvideo: Form-Based Composer ![Tutorial-Badge](/help/main/assets/tutorial.png)
