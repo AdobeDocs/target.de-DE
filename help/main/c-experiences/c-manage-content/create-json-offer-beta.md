@@ -6,10 +6,10 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 25%
+source-wordcount: '421'
+ht-degree: 26%
 
 ---
 
@@ -33,13 +33,7 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-
-   ![Angebote > Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
-
-   ![offer-json image](assets/offer-json-new.png)
-
 1. Geben Sie einen Angebotsnamen ein.
 1. (Bedingt) Wenn Sie über ein [[!DNL Target] Premium-Konto](/help/main/c-intro/intro.md#premium) verfügen, wählen Sie den gewünschten [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace) aus.
 1. (Bedingt) Wählen Sie die gewünschten Profilattribute aus.
@@ -143,6 +137,4 @@ Weitere Informationen finden Sie unter [Freigeben von Echtzeit-Kundendatenplattf
 
 ## Filtern von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Sie können die [!UICONTROL Offers] -Bibliothek nach dem JSON-Angebotstyp filtern, indem Sie auf das Symbol **[!UICONTROL Show filters]** klicken und dann das Kontrollkästchen **[!UICONTROL JSON]** aktivieren.
-
-![offer-json-filter image](assets/offer-json-filter-new.png)
+Sie können die Bibliothek &quot;[!UICONTROL Offers]&quot;nach dem JSON-Angebotstyp filtern, indem Sie auf das Symbol &quot;**[!UICONTROL Show filters]**&quot;( ![Symbol Filter anzeigen](/help/main/assets/icons/Filter.svg) ) klicken und dann das Kontrollkästchen &quot;**[!UICONTROL JSON Offers]**&quot;aktivieren.
