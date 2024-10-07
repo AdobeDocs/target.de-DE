@@ -4,10 +4,10 @@ description: Hier finden Sie Antworten auf häufig zur Anzeige von Berichten bei
 title: Suchen Sie Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ Ein Segment kann auch direkt in der Freiformtabelle angeordnet werden. Beachten 
 
 +++
 
-## Kann ich das Modell &quot;Same Touch&quot;-Attribution IQ in [!DNL Analysis Workspace] anwenden?
+## Welches Attribution IQ-Modell wird in [!DNL Analysis Workspace] verwendet?
 
 +++Antwort
-Wenden Sie bei Verwendung von [!DNL Target] Aktivitätsimpressionen und -konversionen in [!DNL Analysis Workspace] das &quot;Selber-Kontakt&quot;-Attribution IQ-Modell auf die Metriken an, um eine genaue Zählung sicherzustellen. Zum Anwenden eines [nicht standardmäßigen Attributionsmodells](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=de) klicken Sie mit der rechten Maustaste auf die Metrik, um **die Spalteneinstellungen zu ändern. Aktivieren Sie dann „Nicht standardmäßiges Attributionsmodell verwenden“ und wählen Sie das Modell „Selber Kontakt“ aus**. Ohne Anwendung dieses Modells werden die Metriken überbewertet.
-
-Alle aktuellen [!DNL Adobe Analytics]-Pakete können dieses Modell mit [!UICONTROL Attribution IQ] hinzufügen. Wenn Sie keinen Zugriff auf [!UICONTROL Attribution IQ] haben, verlassen Sie sich auf A4T-Daten in [!UICONTROL Reports & Analytics].
+Bei der Verwendung von [!DNL Target] Aktivitätsimpressionen und -konversionen in [!DNL Analysis Workspace] ist das &quot;Selber-Kontakt&quot;-Attribution IQ-Modell das Standardmodell, das auf die Metriken angewendet wird, um eine genaue Zählung sicherzustellen. Dieses Modell funktioniert in 99 % der Fälle gut. Sie können diese Standardzuordnung jedoch in Attribution IQ überschreiben.
 
 +++
 
