@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [Zielgruppenauswahl](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Zielgruppenbeta auswählen](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Ziele und Einstellungen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Beta-Version zu Zielen und Einstellungen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Verwenden von Analytics-Daten](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Festlegen von Metriken](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Beta-Version von Metriken festlegen](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Verschiedene Erlebniszielgruppen in A/B-Test-Beta](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung – Überblick](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
