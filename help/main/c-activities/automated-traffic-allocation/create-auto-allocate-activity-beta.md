@@ -1,28 +1,24 @@
 ---
-keywords: A/B erstellen; A/B-Test; A/B-Aktivität; neue A/B-Aktivität; a/b-Aktivität erstellen
-description: Master des [!UICONTROL Visual Experience Composer] (VEC), um A/B-Test-Aktivitäten direkt auf einer [!DNL Target]-fähigen Seite zu erstellen.
-title: Wie erstelle ich einen A/B-Test?
-feature: A/B Tests
+keywords: automatische Zuordnung erstellen; A/B-Test; automatische Zuordnung von Aktivitäten; neue A/B-Aktivität; automatische Zuordnung; automatische Zuordnung zum besten Erlebnis; Zuordnung; automatische Zuordnung
+description: Erfahren Sie, wie Sie mit dem VEC (0) [!UICONTROL Auto-Allocate] A/B-Test-Aktivitäten erstellen.[!UICONTROL Visual Experience Composer]
+title: Wie erstelle ich eine [!UICONTROL Auto-Allocate] -Aktivität?
+feature: Auto-Allocate
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: fb29bd9704d3c2c3cf2c225114b2e52dc5061796
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 17%
+source-wordcount: '907'
+ht-degree: 16%
 
 ---
 
-# Erstellen einer A/B-Test-Aktivität
+# Erstellen einer [!UICONTROL Auto-Allocate] -Aktivität
 
-Nutzen Sie den VEC (0) in [!DNL Adobe Target], um [!UICONTROL A/B Test] -Aktivitäten direkt auf einer für [!DNL Target] aktivierten Seite zu erstellen und Seitenabschnitte in [!DNL Target] zu ändern.[!UICONTROL Visual Experience Composer]
+Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] -Aktivität direkt auf einer für [!DNL Target] aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu verändern.
 
->[!NOTE]
->
->Zusätzlich zur Aktivität [!UICONTROL Manual] (Standard) [!UICONTROL A/B Test] (wird in diesem Artikel erläutert) stellt [!DNL Target] zwei weitere Typen von [!UICONTROL A/B Test] Aktivitäten bereit: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target].
->
->Siehe [Typen von A/B-Test-Aktivitäten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-Test - Übersicht*.
+Zusätzlich zur Aktivität [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] (die in diesem Artikel besprochen wird) stellt [!DNL Target] zwei weitere Typen von [!UICONTROL A/B Test] Aktivitäten bereit: [!UICONTROL Manual (Default)] und [!UICONTROL Auto-Target]. Siehe [Typen von A/B-Test-Aktivitäten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-Test - Übersicht*.
 
-So erstellen Sie eine manuelle [!UICONTROL A/B Test] -Aktivität:
+So erstellen Sie eine [!UICONTROL Auto-Allocate] -Aktivität:
 
 1. Klicken Sie in der Liste **[!UICONTROL Activities]** auf **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
@@ -108,11 +104,11 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test] -Aktivität:
 
    Beispiel: Sie können Einträge auf 50 % aller Besucher oder 45 % der Zielgruppe aus Kalifornien begrenzen.
 
-1. Klicken Sie auf das Steuerelement **[!UICONTROL Traffic Allocation]** und wählen Sie dann die gewünschte Traffic-Zuordnungsmethode im rechten Bereich aus, wie unten dargestellt:
+1. Klicken Sie auf das Steuerelement **[!UICONTROL Traffic Allocation]** und wählen Sie dann im rechten Bereich die gewünschte Traffic-Zuordnungsmethode aus. Klicken Sie in diesem Szenario auf **[!UICONTROL Auto-Allocate to best experience]**.
 
    ![Einstellungen für die Traffic-Zuordnungsmethode](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   Wählen Sie die gewünschte Traffic-Zuordnungsmethode aus:
+   Die folgenden Traffic-Zuordnungsmethoden sind verfügbar:
 
    * **[!UICONTROL Manual (Default)]**: Geben Sie den Prozentsatz der Teilnehmer an, der jedes Erlebnis sehen soll. Sie können den Prozentsatz gleichmäßig auf alle Erlebnisse aufteilen oder für jedes Erlebnis einen höheren oder niedrigeren Prozentsatz festlegen. Die gesamte Anzahl aller Erlebnisse muss 100 % betragen.
 
@@ -125,6 +121,10 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test] -Aktivität:
 1. Wenn Sie mit der Auswahl Ihrer Zielgruppe, Erlebnisoptionen und Traffic-Zuordnung zufrieden sind, klicken Sie auf **[!UICONTROL Next]** , um zum dritten Schritt des geleiteten Arbeitsablaufs mit drei Schritten zu wechseln.
 
 1. Legen Sie [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) für die Aktivität fest.
+
+   >[!NOTE]
+   >
+   >Wenn Sie [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) mit dieser Aktivität verwenden möchten, finden Sie wichtige Informationen unter [A4T-Unterstützung für Aktivitäten mit automatischer Zuordnung und automatischem Targeting](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicken Sie auf **[!UICONTROL Save & Close]** oder **[!UICONTROL Save]**.
 

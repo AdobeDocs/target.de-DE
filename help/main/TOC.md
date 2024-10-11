@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + Automatisch zuweisen {#auto-allocate}
       + [Automatische Zuordnung – Überblick](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interpretieren der automatischen Zuordnungsberichte](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Beta-Version von Berichten zur automatischen Zuordnung interpretieren](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [Durch automatische Zuordnung erhalten Sie schneller Testergebnisse und mehr Umsätze als mit manuellen Tests](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Automatisches Targeting {#auto-target}
       + [Automatisches Targeting – Überblick](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Überblick über Automatisches Targeting - Beta](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Erstellen einer automatischen Targeting-Aktivität](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [Erstellen einer Beta-Aktivität vom Typ Automatisches Targeting](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [Häufig gestellte Fragen zum automatischen Targeting und Fehlerbehebung](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Berichterstellung und automatisches Targeting](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
