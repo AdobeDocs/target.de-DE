@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 75%
 
 ---
 
@@ -28,42 +28,27 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
 
 + + + Klicken zum Erweitern
 
-* [Aktivitäten – Überblick](c-activities/activities.md){target=_blank}
-* [Target-Aktivitätstypen](c-activities/target-activities-guide.md){target=_blank}
 * A/B-Test {#abtest}
    * [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [Wie lange sollten A/B-Tests laufen?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/A-Tests](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * Erstellen eines A/B-Tests {#create}
       * [Erstellen eines A/B-Tests](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [Aktivitäts-URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [Hinzufügen von Erlebnissen](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [Zielgruppenauswahl](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [Ziele und Einstellungen](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [Verwenden von Analytics-Daten](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [Festlegen von Metriken](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * Automatisch zuweisen {#auto-allocate}
-   * [Automatische Zuordnung – Überblick](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
-   * [Interpretieren der automatischen Zuordnungsberichte](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [Durch automatische Zuordnung erhalten Sie schneller Testergebnisse und mehr Umsätze als mit manuellen Tests](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
+   * [Interpretieren der automatischen Zuordnungsberichte](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * Automatisches Targeting {#auto-target}
-   * [Automatisches Targeting – Überblick](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [Erstellen einer automatischen Targeting-Aktivität](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [Automatisches Targeting – Überblick](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [Erstellen einer automatischen Targeting-Aktivität](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [Häufig gestellte Fragen zum automatischen Targeting und Fehlerbehebung](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [Berichterstellung und automatisches Targeting](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
 * Automated Personalization {#automated-personalization}
-   * [Automated Personalization – Überblick](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [Random Forest-Algorithmus](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [Erstellen einer Automated Personalization-Aktivität](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [Hochladen von Daten für die Personalisierungsalgorithmen von Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [Datenerfassung für die Target-Personalisierungsalgorithmen](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [Schätzen des für einen erfolgreichen Test erforderlichen Traffics](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [Erlebnisvorschau für einen Automated Personalization-Test](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+   * [Erstellen einer Automated Personalization-Aktivität](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [Schätzen des für einen erfolgreichen Test erforderlichen Traffics](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [Erlebnisvorschau für einen Automated Personalization-Test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [Targeting von Automated Personalization-Angeboten](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [Verwalten von Ausschlüssen](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [Berichtsgruppen für Angebote in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [Wählen Sie das Steuerelement für Automated Personalization oder die automatische Targeting-Aktivität aus](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [Häufig gestellte Fragen zur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
