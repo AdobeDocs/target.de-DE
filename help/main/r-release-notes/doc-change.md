@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 77%
+source-wordcount: '447'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
 | 14. Oktober | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Versionshinweise für die Version 24.10.2 von [!DNL Target Standard/Premium] hinzugefügt. |
+|  | [[!UICONTROL Visual Experience Composer]-Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Es wurden wichtige Informationen zur Verwendung der Erweiterung mit privaten Chrome-Webspeichern hinzugefügt. |
+|  | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Es wurden wichtige Informationen zur Verwendung der Erweiterung mit privaten Chrome-Webspeichern hinzugefügt. |
 | 30 September | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md) | Die zulässige Anzahl von Angeboten wurde aktualisiert. |
 | 29 September | [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Es wurden Informationen über die at.js-Version 2.11.6 hinzugefügt. |
 | 11. September | [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Folgender Hinweis wurde unter Rollen und Berechtigungen festlegen hinzugefügt:<P> Um Aktivitäten in [!DNL Target] anzuzeigen, müssen Benutzer direkt einem Arbeitsbereich mit mindestens der Rolle [!UICONTROL Observer] zugewiesen sein. Die Zuweisung durch Benutzergruppen allein reicht nicht aus. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren. |

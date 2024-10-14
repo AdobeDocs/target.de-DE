@@ -4,10 +4,10 @@ description: Finden Sie heraus, warum manche Websites in [!UICONTROL Visual Expe
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,9 @@ Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser
 
 >[!IMPORTANT]
 >
->Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel. Aufgrund der Sicherheitsverbesserungen in Manifest v3 erfordert [!DNL Adobe] das Herunterladen dieser neuen Erweiterung, um Ihre Websites weiterhin visuell in [!DNL Target] gestalten zu können.
+>* Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel. Aufgrund der Sicherheitsverbesserungen in Manifest v3 erfordert [!DNL Adobe] das Herunterladen dieser neuen Erweiterung, um Ihre Websites weiterhin visuell in [!DNL Target] gestalten zu können.
+>
+>* Diese neue Erweiterung unterstützt derzeit keine privaten Chrome-Webspeicher. Diese Funktion wird Ende Januar 2025 unterstützt. Verwenden Sie stattdessen die [veraltete [!UICONTROL Visual Experience Composer] Helper-Erweiterung ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), wenn Kunden mit privaten Chrome-Webspeichern Erweiterungen hochladen.
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
