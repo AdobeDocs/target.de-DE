@@ -1,13 +1,13 @@
 ---
-keywords: Target;Startseite;Beliebte Themen;Adobe Target;Target Standard;Target Premium;Target-Dokumentation;Dokumentation zu Adobe Target
+keywords: Target; home; beliebte Themen; Adobe Target; Target Standard; Target Premium; Target-Dokumentation; Adobe Target-Dokumentation; Handbuch für Praktikanten; Benutzerhandbuch
 title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 96%
 
 ---
 

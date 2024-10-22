@@ -1,13 +1,13 @@
 ---
-keywords: Versionshinweise;Versionen;Updates;zukünftige Versionen;Verbesserungen;neue Funktionen;Fehlerbehebungen;Updates;Vorabversion
+keywords: Versionshinweise; Versionen; Aktualisierungen; zukünftige Versionen; Verbesserungen; neue Funktionen; Fehlerbehebungen; Aktualisierungen; Vorabversion; frühzeitiger Zugriff
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der kommenden Version von [!DNL Adobe Target] sowie in den zugehörigen SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 28%
+source-wordcount: '646'
+ht-degree: 26%
 
 ---
 
