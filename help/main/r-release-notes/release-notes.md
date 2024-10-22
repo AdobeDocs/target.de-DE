@@ -6,7 +6,7 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: ffd4cd4c39fca828f265ddfc50e9af297d9300cf
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 37%
@@ -52,7 +52,7 @@ Der [!DNL Platform Web SDK] unterstützt zwei Implementierungstypen zum Rendern 
 
   Dieser Implementierungstyp ist der von [!DNL Adobe] empfohlene neue [Aufspaltungs-Implementierungsansatz](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}. Bei diesem Ansatz hat die neue Optimierung keine Auswirkungen auf [!DNL Analytics] - oder A4T -Berichte.
 
-Wenden Sie sich bei Fragen an die [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Wenden Sie sich bei Fragen an den [Adobe-Kundendienst](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ## at.js-Version 2.11.6 (29. September 2024)
 
