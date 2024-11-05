@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 8%
 
 ---
 
 # Angebotsordner erstellen
 
-Erstellen Sie Ordner in der Bibliothek [!DNL Adobe Target] [!UICONTROL Offer] , um Codeangebote, Bildangebote sowie andere Ordner zu speichern und eine Unterordnerstruktur zu erstellen.
+Erstellen Sie Ordner in der Bibliothek [!DNL Adobe Target] [!UICONTROL Offer] , um Code- und Bildangebote zu speichern. Sie können auch Ordner erstellen, um eine Unterordnerstruktur zu erstellen.
 
 >[!NOTE]
 >
->Dieser Artikel enthält Informationen zu Aktualisierungen der [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Das [!DNL Adobe Target]-Team ermöglicht für ausgewählte Kunden oft neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in zukünftigen [!DNL Target Standard/Premium]-Versionen für alle Kunden aktiviert und in den Versionshinweisen angekündigt.
+>Dieser Artikel enthält Informationen zu Aktualisierungen der [!DNL Target] -Benutzeroberfläche, die derzeit Teil eines Beta-Programms ist. Das [!DNL Adobe Target]-Team ermöglicht für ausgewählte Kunden oft neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen für alle Kunden in zukünftigen [!DNL Target]-Versionen aktiviert und in den [Versionshinweisen](/help/main/r-release-notes/release-notes.md) angekündigt.
 
 Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
 
@@ -28,9 +28,7 @@ Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Klicken Sie auf **[!UICONTROL Create Folder].
+1. Klicken Sie auf **[!UICONTROL Create Folder]**.
 
 1. Geben Sie einen beschreibenden Namen für den Ordner an.
 
@@ -54,7 +52,6 @@ Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen könn
 
 1. (Optional) Geben Sie einen beschreibenden **[!UICONTROL Name]** an.
 1. (Optional) Wählen Sie **[!UICONTROL Private]** aus, um anzugeben, dass der Ordner privat ist, sodass nur Sie ihn und seinen Inhalt sehen können.
-
 1. (Optional) Wählen Sie &quot;**[!UICONTROL Reorder-able in List View]**&quot;, um anzugeben, dass Sie und andere die Ordnerposition in &quot;[!UICONTROL List View]&quot;neu anordnen können.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
