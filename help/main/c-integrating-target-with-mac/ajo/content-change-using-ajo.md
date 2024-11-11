@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 In diesem Anwendungsfall können Sie die Geheimnisse entsperren, um die Inhaltsänderungen in [!DNL Adobe Journey Optimizer] von A/B-Tests zu überprüfen.
 
-Dieser Anwendungsfall zeigt, wie Sie vertraute Aufgaben durchführen können, z. B. A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), wobei Sie [!DNL Journey Optimizer] anstelle von [!DNL Adobe Target] verwenden.
-
-Dieser Anwendungsfall soll zeigen, wie Sie bekannte Aufgaben durchführen können, die Sie möglicherweise mit [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), jedoch mit [!DNL Journey Optimizer] durchgeführt haben.
+Dieser Anwendungsfall zeigt, wie Sie vertraute Aufgaben durchführen, z. B. A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md) in [!DNL Adobe Target], indem Sie [!DNL Journey Optimizer] anstelle von [!DNL Adobe Target] verwenden.
 
 ## Vorteile und Wert
 
@@ -31,7 +30,7 @@ Dieser Anwendungsfall soll zeigen, wie Sie bekannte Aufgaben durchführen könne
 
 * Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder getestet und Kampagnen-Landingpages mit den Vornamen der Benutzer im Text für Aktionsaufrufe personalisiert wurden.
 
-* Ein E-Commerce-Unternehmen stellte fest, dass seine Mitglieder der Goldloyalität höhere Konversionsraten hatten, indem sie verschiedene Produktbeschreibungen und Bilder auf einer Kampagnen-Landingpage testeten, was zu höheren Umsätzen führte.
+* Ein E-Commerce-Unternehmen stellte fest, dass seine Mitglieder des Treueprogramms Gold höhere Konversionsraten hatten, indem sie verschiedene Produktbeschreibungen und Bilder auf einer Kampagnen-Landingpage testeten, was zu höheren Umsätzen führte.
 
 ## Schritte
 
@@ -41,17 +40,13 @@ Dieser Anwendungsfall soll zeigen, wie Sie bekannte Aufgaben durchführen könne
 >
 >Das Video am unteren Seitenrand ist besonders hilfreich.
 
-Führen Sie die folgenden Schritte aus, um eine Webseite zu optimieren, indem Sie verschiedene Bilder testen und Nachrichten mit den Vornamen der Benutzer mithilfe eines Profilskripts personalisieren:
+So optimieren Sie eine Webseite, indem Sie verschiedene Bilder testen und Nachrichten mithilfe eines Profilskripts mit den Vornamen der Benutzer personalisieren:
 
-1. Klicken Sie in [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
-
-   ![Adobe Journey Optimizer-Landingpage mit hervorgehobenem Kampagnen-Tab.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. Klicken Sie in [!DNL Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
 
 1. Klicken Sie oben rechts auf der Seite [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
 
 1. Wählen Sie &quot;**[!UICONTROL Scheduled - Marketing]**&quot;(Standardeinstellung) und klicken Sie dann auf &quot;**Erstellen**&quot;, um die Detailseite &quot;[!UICONTROL Campaign]&quot;anzuzeigen.
-
-   ![Kampagnendetailseite in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Geben Sie im Abschnitt **[!UICONTROL Properties]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
 
@@ -133,4 +128,3 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterst
 >[Bearbeiten des Webinhalts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*
 >[Anleitungsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in der *Journey Optimizer-Dokumentation*
 >[Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*
-

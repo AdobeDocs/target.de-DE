@@ -1,28 +1,29 @@
 ---
 keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;Ajo;Anwendungsfälle;Szenarien;Web;Code-basiert
-description: Erfahren Sie, wie Sie die wirkungsvollsten Anwendungsfälle für die Optimierung effektiv in [!DNL Adobe Journey Optimizer] implementieren.
+description: Erfahren Sie, wie Sie die wichtigsten Optimierungsanwendungsfälle in Adobe Journey Optimizer implementieren, um eine maximale Wirkung zu erzielen.
 title: Nutzungsszenarios für Top-Optimierung in [!DNL Adobe Journey Optimizer]  - Web- und Codebasierte Kanäle
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+exl-id: a00b4732-2740-4b35-a1c5-1ef2d78fecff
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 7%
+source-wordcount: '176'
+ht-degree: 6%
 
 ---
 
 # Top-Optimierungsanwendungsfälle in [!DNL Adobe Journey Optimizer] - Web- und Codebasierte Kanäle
 
-Erfahren Sie, wie Sie die wirkungsvollsten Anwendungsfälle zur Optimierung in [!DNL Adobe Journey Optimizer] effektiv in Web- und code-basierten Kanälen implementieren.
+Erfahren Sie, wie Sie die wichtigsten Optimierungsanwendungsfälle in [!DNL Adobe Journey Optimizer] implementieren, um eine maximale Wirkung auf Web- und Code-basierte Kanäle zu erzielen. Entdecken Sie umsetzbare Strategien und Best Practices zur Verbesserung Ihrer digitalen Marketingbemühungen.
 
 ## Voraussetzungen 
 
 Für die folgenden Anwendungsfälle benötigen Sie Folgendes:
 
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
-* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] -Lizenz erforderlich. Diese Anwendungsbeispiele sollen zeigen, wie vertraute Aufgaben in [!DNL Target] mit [!DNL Journey Optimizer] ausgeführt werden. Mit diesen Anwendungsfällen können Sie untersuchen und verstehen, wie Sie mit [!DNL Journey Optimizer] dieselben Ergebnisse erzielen.
+* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] -Lizenz erforderlich. Diese Anwendungsbeispiele zeigen, wie Sie vertraute Aufgaben in [!DNL Target] mit [!DNL Journey Optimizer] ausführen, sodass Sie dieselben Ergebnisse mit [!DNL Journey Optimizer] untersuchen und erzielen können.
 
 ## Anwendungsbeispiele
 
