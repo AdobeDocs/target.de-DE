@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
+source-wordcount: '38296'
 ht-degree: 85%
 
 ---
@@ -22,6 +22,12 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2024
+
+### at.js-Version 2.11.6 (29. September 2024)
+
+* Es wurde ein Problem behoben, das verhindert hat, dass [!DNL Target] ordnungsgemäß mit Umleitungsangeboten innerhalb von [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer] funktioniert hat.
+
+Weitere Informationen zu at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ### [!DNL Target]-Reporting in [!DNL Adobe Customer Journey Analytics] (8. Mai 2024)
 
@@ -408,7 +414,7 @@ Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebun
 | *Adobe Target-Entwicklerhandbuch* | Das *Adobe Target-Entwicklerhandbuch* fasst alle [!DNL Target]-Entwicklerinhalte in einem praktischen Handbuch zusammen. Das Handbuch enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target]-SDKs und [!DNL Target]-APIs.<br>Weitere Informationen finden Sie im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}. |
 
 * Benutzer mit der Rolle [!UICONTROL Editor] können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
-* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe zu speichern, deren Name mit einem Ausrufezeichen beginn (beispielsweise „!London“). (TGT-43643)
+* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
 * Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden eine beendete Aktivität noch immer als laufend angezeigt wurde. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (gestaffelte Veröffentlichung: 7.-9. Juni 2022)
@@ -1293,7 +1299,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
 | Targeting<br>25. Januar 2019 | Es wurden Änderungen daran vorgenommen, wie Targeting-Übereinstimmungen für „equals“-Vergleiche mit Nicht-Dezimalwerten und Dezimalwerten mit Profilskripten oder einer anderen Quelle der Eingabe, wie mbox-Parameter, Profilparameter usw. funktionieren.<br>Weitere Informationen finden Sie in den FAQ unter [Ziele und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
-| Profilskripte<br>17. Januar 2019 | Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.<br>Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2048 Zeichen überschreitet, wird das Skript vom System deaktiviert.<br>Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2048 Zeichen ist, wird das Skript vom System deaktiviert.<br>Weitere Informationen zu den Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in Target betreffen: siehe [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md). |
+| Profilskripte<br>17. Januar 2019 | Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.<br>Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2048 Zeichen überschreitet, wird das Skript vom System deaktiviert.<br>Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2048 Zeichen ist, wird das Skript vom System deaktiviert.<br>Weitere Informationen zu den Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in Target betreffen, finden Sie unter [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md). |
 | at.js<br>16. Januar 2019 | at.js 1.6.4 ist ein Verwaltungsrelease und behandelt die folgenden Probleme:<ul><li>Es wurde eine Race-Bedingung in Microsoft Internet Explorer 11 behoben, die dazu führte, dass doppelte Angebote angewendet wurden. (TNT-31374)</li><li>Es wurde ein Problem behoben, das die Klick-Verfolgung beeinträchtigte, wenn ein Standardangebot mit einem Click-Token- und HTML-Angebot vorhanden war. (TNT-31493)</li><li>Erweiterung des mboxEdgeCluster-Cookies bei jeder Target-Anfrage. Dies wird nur verwendet, wenn mboxEdgeOverride aktiviert ist. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (22. Januar 2019) {#release-19-1-1-previous}
@@ -2093,7 +2099,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
 
 Diese Version von [!DNL Target] enthält folgende kundenrelevante Verbesserungen, Fehlerbehebungen und Änderungen:
 
-* Sie können importierte Zielgruppen (Target Classic, Experience Cloud usw.) aus der Zielgruppenbibliothek löschen. Sie werden von Target gewarnt, wenn Sie versuchen, eine Zielgruppe zu löschen, die für eine aktive Aktivität verwendet wird. (TGT-25171)
+* Sie können importierte Zielgruppen (Target Classic, Experience Cloud usw.) aus der Zielgruppenbibliothek löschen. Sie werden von Target gewarnt, wenn Sie versuchen, eine Zielgruppe zu löschen, die für eine aktive Aktivität verwendet wird. (TGT-25171)
 * Aus Target Classic importierte Zielgruppen werden jetzt in der Zielgruppenbibliothek als „Adobe Target Classic“ gekennzeichnet. Bislang wurde in der Benutzeroberfläche kein Unterschied zwischen Target Standard/Premium und Target Classic gemacht. (TGT-27093)
 * Sammlungen gelten jetzt für alle Kriterien (einschließlich kürzlich angezeigter Elemente). (TGT-26646)
 * Sie können in der Zielgruppenbibliothek nach Arbeitsbereichen filtern (gilt für Target Premium-Benutzer mit Enterprise-Benutzerberechtigung). (TGT-26813)
@@ -2368,7 +2374,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen und Korrektu
 
   Wenn ein Benutzer zeitweise eine Aktion auf einer [!DNL Target]-Seite ausführt und ein Sitzungstimeout auftritt, wird der Benutzer zunächst zur Wiederanmeldung und dann zu der zuletzt bearbeiteten Seite der [!DNL Target]-Benutzeroberfläche geleitet.
 
-* Es wurde ein Problem behoben, durch das benutzerdefinierte Codeänderungen verloren gingen, wenn der Benutzer wegnavigiert (wenn er Erlebnisse ändert, die Seite oder Zielgruppe wechselt, auf „Weiter“ klickt usw.) und vergisst, Änderungen zu speichern. Der Benutzer wird von nun an zum Speichern von Änderungen aufgefordert. (TGT-23766)
+* Es wurde ein Fehler behoben, der dazu führte, dass Änderungen an benutzerdefiniertem Code verloren gingen, wenn der Benutzer wegnavigiert (Erlebnisse ändert, Seite wechselt, Zielgruppe wechselt, auf Weiter klickt usw.) und vergisst, Änderungen zu speichern. Der Benutzer wird von nun an zum Speichern von Änderungen aufgefordert. (TGT-23766)
 * Beim Archivieren einer Aktivität wird „Aktivität archiviert“ anstelle von „Aktivität wird aktualisiert“ angezeigt. (KB-1517)
 * Die Dropdown-Auswahl an den folgenden Stellen der Target-Benutzeroberfläche wurde durch Auto-Vervollständigen-Funktionalität ersetzt, um die Geschwindigkeit und die Leistung zu optimieren: (TGT-22939)
 
@@ -2559,7 +2565,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
 * Die Benutzeroberfläche von [!DNL Target] wurde aktualisiert, um Umleitungsangebote in Aktivitäten zu unterstützen, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. Für diese Funktion wird die Bibliothek [!DNL at.js] 0.9.6 benötigt, die demnächst verfügbar sein wird.
 * Die [!DNL Target]-Benutzeroberfläche wurde an einigen Stellen aktualisiert:
 
-   * In Berichten und Aktivitäten werden einige Optionen ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] usw.) werden nun durch Klicken auf das Symbol [!UICONTROL More Options] aufgerufen ( Bild ![icon_more_options](assets/icon_more_options.png) ).
+   * In Berichten und Aktivitäten werden einige Optionen ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] usw.) jetzt aufgerufen, indem Sie auf das Symbol [!UICONTROL More Options] ( Bild ![icon_more_options](assets/icon_more_options.png) ) klicken.
 
       
    * In der Bibliothek [!UICONTROL Offers] werden Angebote jetzt in einer Liste und nicht mehr als Karten angezeigt. In der gesamten Benutzeroberfläche der [!UICONTROL Offers] -Bibliothek wurden weitere geringfügige Änderungen an der Benutzeroberfläche vorgenommen.
