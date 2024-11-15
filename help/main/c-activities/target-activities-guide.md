@@ -1,10 +1,10 @@
 ---
 keywords: Anleitung für Aktivitäten;Aktivitäten;Aktivität;Aktivitätstypen;Aktivitätsaktionen
 description: Laden Sie eine interaktive PDF-Datei herunter, in der die verschiedenen Aktivitätstypen in  [!DNL Adobe Target] beschrieben werden.
-title: Welche Aktivitätstypen sind in  [!DNL Target] verfügbar?
+title: Welche Aktivitätstypen sind in [!DNL Target] verfügbar?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 68%
