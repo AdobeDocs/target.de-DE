@@ -5,9 +5,10 @@ title: Kann ich mehrere Erlebnisversionen in einer A/B-Aktivität verwenden?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ In diesem Fall benötigen Sie geografisch spezifische Versionen des Erlebnisses,
 
 1. Wählen Sie das Erlebnis aus und klicken Sie auf **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-1. Klicken Sie im Bereich Erlebniszielgruppen auf das Symbol **[!UICONTROL Add Audience]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) und wählen Sie dann die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
+1. Klicken Sie im Bereich [!UICONTROL Experience Audiences] auf das Symbol **[!UICONTROL Add Audience]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) und wählen Sie dann die erste Zielgruppe aus. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 

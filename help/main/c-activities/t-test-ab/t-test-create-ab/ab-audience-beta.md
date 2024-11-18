@@ -5,10 +5,11 @@ title: Wie wähle ich eine Zielgruppe in einer [!DNL Target] A/B-Aktivität aus?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 
 1. (Bedingt) Klicken Sie auf **Zielgruppen kombinieren** , um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Bedingt) Um eine neue Zielgruppe zu erstellen, die sich noch nicht im [!UICONTROL Audience Library] befindet, klicken Sie auf **Zielgruppe erstellen** . Im Workflow [create-audience](/help/main/c-target/c-audiences/audiences.md) können Sie aus den folgenden Optionen auswählen:
+1. (Bedingt) Um eine neue Zielgruppe zu erstellen, die sich noch nicht im [!UICONTROL Audience Library] befindet, klicken Sie auf **Zielgruppe erstellen** , definieren Sie die Zielgruppe und klicken Sie dann auf **[!UICONTROL Done]**.
 
-   * Erstellen einer On-Demand-Zielgruppe, die im Ordner &quot;[!UICONTROL Audience Library]&quot;gespeichert ist und in anderen Aktivitäten wiederverwendet werden kann
-   * Erstellen Sie eine [aktivitätsspezifische Audience](/help/main/c-target/creating-activity-only-audience.md), die nicht im [!UICONTROL Audience Library] gespeichert ist und nur in der aktuellen Aktivität verwendet werden kann.
+   Im Workflow [create-audience](/help/main/c-target/c-audiences/audiences.md) können Sie aus den folgenden Optionen auswählen:
+
+   * **[!UICONTROL Audience Library]**: Erstellen Sie eine On-Demand-Zielgruppe, die in [!UICONTROL Audience Library] gespeichert ist und in anderen Aktivitäten wiederverwendet werden kann.
+   * **[!UICONTROL This activity only]**: Erstellen Sie eine [aktivitätsspezifische Zielgruppe](/help/main/c-target/creating-activity-only-audience.md), die nicht im [!UICONTROL Audience Library] gespeichert ist und nur in der aktuellen Aktivität verwendet werden kann.
 
 1. Klicken Sie im rechten Bereich auf **[!UICONTROL Visitor Percentage]** und geben Sie dann den Prozentsatz qualifizierter Besucher an, die in die Aktivität aufgenommen werden sollen.
 
@@ -51,7 +54,7 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 
 >[!NOTE]
 >
->Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
+>Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Liste [!UICONTROL Audience] öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
 
 ## Anzeigen der Informationen einer Zielgruppe
 
@@ -64,4 +67,3 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 Sie können eine Zielgruppe bearbeiten oder kopieren, indem Sie im Dialogfeld [!UICONTROL Add Audience] auf das Symbol [!UICONTROL More Actions] ( ![Symbol für weitere Aktionen](/help/main/assets/icons/More.svg) ) neben der gewünschten Zielgruppe klicken und dann auf [!UICONTROL Edit] oder [!UICONTROL Copy] klicken.
 
 Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Audience erstellen, Ihre Änderungen vornehmen und sie dann als neue Audience speichern.
-

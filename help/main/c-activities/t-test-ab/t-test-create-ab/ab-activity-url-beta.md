@@ -5,9 +5,10 @@ title: Was ist die Aktivitäts-URL in einer A/B-Aktivität?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 
 Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Visual Experience Composer-Einstellungen](/help/main/administrating-target/visual-experience-composer-set-up.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-1. Um nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite anzuzeigen, klicken Sie auf der Seite **[!UICONTROL Experiences]** oben auf der Seite auf **[!UICONTROL Configure]** und wählen Sie dann **[!UICONTROL Page Delivery]** aus.
+1. (Bedingt) Wenn Sie nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite anzeigen möchten, klicken Sie auf der Seite **[!UICONTROL Experiences]** oben auf der Seite auf **[!UICONTROL Configure]** und wählen Sie dann **[!UICONTROL Page Delivery]** aus.
 
 1. Geben Sie die URL im Feld **[!UICONTROL URL]** an.
 
@@ -40,6 +41,7 @@ Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, d
    * Hashfragment (#)
    * Abfrage
    * Parameter „mbox“
+   * Benutzerdefiniert
 
    Zusätzliche Regeln können mit UND oder ODER zur Aktivitäts-URL hinzugefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 

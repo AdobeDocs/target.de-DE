@@ -1,11 +1,12 @@
 ---
 keywords: A/B erstellen; A/B-Test; A/B-Aktivität; neue A/B-Aktivität; a/b-Aktivität erstellen
-description: Master des [!UICONTROL Visual Experience Composer] (VEC), um A/B-Test-Aktivitäten direkt auf einer [!DNL Target]-fähigen Seite zu erstellen.
+description: Verwenden Sie [!UICONTROL Visual Experience Composer] (VEC), um A/B-Test-Aktivitäten direkt auf einer für  [!DNL Target] aktivierten Seite zu erstellen.
 title: Wie erstelle ich einen A/B-Test?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test] -Aktivität:
 
       Wenn Sie eine neue Zielgruppe erstellen müssen, die noch nicht im [!UICONTROL Audience Library] enthalten ist, klicken Sie auf **Zielgruppe erstellen**. Während des [Workflows für die Audience-Erstellung](/help/main/c-target/c-audiences/audiences.md) können Sie aus den folgenden Optionen wählen:
 
-      * Erstellen einer On-Demand-Zielgruppe, die im Ordner &quot;[!UICONTROL Audience Library]&quot;gespeichert ist und in anderen Aktivitäten wiederverwendet werden kann
-      * Erstellen Sie eine [aktivitätsspezifische Audience](/help/main/c-target/creating-activity-only-audience.md), die nicht im [!UICONTROL Audience Library] gespeichert ist und nur in der aktuellen Aktivität verwendet werden kann.
+      * **[!UICONTROL Audience Library]**: Erstellen Sie eine On-Demand-Zielgruppe, die in [!UICONTROL Audience Library] gespeichert ist und in anderen Aktivitäten wiederverwendet werden kann.
+      * **[!UICONTROL This activity only]**: Erstellen Sie eine [aktivitätsspezifische Zielgruppe](/help/main/c-target/creating-activity-only-audience.md), die nicht im [!UICONTROL Audience Library] gespeichert ist und nur in der aktuellen Aktivität verwendet werden kann.
 
    1. Klicken Sie im rechten Rahmen auf **[!UICONTROL Visitor Percentage]** und wählen Sie dann den Prozentsatz qualifizierter Besucher aus, der an der Aktivität teilnehmen soll.
 

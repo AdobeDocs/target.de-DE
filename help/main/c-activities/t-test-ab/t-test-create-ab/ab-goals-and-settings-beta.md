@@ -5,7 +5,8 @@ title: Wie gebe ich Ziele und Einstellungen in einer [!DNL Target] A/B-Aktivitä
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 Auf der Seite [!UICONTROL Goals & Settings] in [!DNL Adobe Target] geben Sie Informationen zu den Zielen der Aktivität an.
 
-Die verfügbaren Einstellungen hängen davon ab, ob Sie Target oder [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) als Berichtsquelle verwenden.
+Die verfügbaren Einstellungen hängen davon ab, ob Sie Target oder [Analytics als Berichtsquelle verwenden](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ Die folgenden Optionen sind verfügbar:
 | Einstellung | Beschreibung |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | Verwenden Sie diese Option, um nur Personen zu zählen, die die Erfolgsmetrik erreicht haben, wenn sie zuvor eine andere Erfolgsmetrik erreicht haben. Eine Aktivitätskonversion kann beispielsweise nur dann gültig sein, wenn der Besucher auf das Angebot klickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt. Sie können für mehrere Metriken eine Abhängigkeit bereitstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit die Anzahl erhöht wird. Definieren Sie beide (oder mehrere) Erfolgsmetriken, bevor Sie eine Abhängigkeit voneinander festlegen können. Mit der Option [!UICONTROL Add Dependency] kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde. So fügen Sie eine Abhängigkeit hinzu:<ul><li>Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf [!UICONTROL Advanced Settings].</li><li>Klicken Sie auf die Option [!UICONTROL Add Dependency] :</li><li>Ziehen Sie die gewünschten Metriken aus dem linken Bereich in den rechten Bereich und klicken Sie dann auf [!UICONTROL Reached] , um die Einstellung zwischen [!UICONTROL Reached] und [!UICONTROL  Not Reached] umzuschalten.</li><li>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:<ul><li>Wählen Sie [!UICONTROL Increment Count & Keep User in Activity] aus, um festzulegen, wie die Anzahl erhöht wird.</li><li>Wählen Sie [!UICONTROL Increment Count, Release User & Allow Reentry] aus, um das Erlebnis anzugeben, das dem Benutzer angezeigt wird, wenn er die Aktivität erneut aufruft.</li><li>Wählen Sie [!UICONTROL Increment Count, Release User & Bar from Reentry] aus, um festzulegen, was der Benutzer anstelle des Aktivitätsinhalts sieht.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:<ul><li>Wählen Sie **[!UICONTROL Increment Count & Keep User in Activity]** aus, um festzulegen, wie die Anzahl erhöht wird.</li><li>Wählen Sie **[!UICONTROL Increment Count, Release User & Allow Reentry]** aus, um das Erlebnis anzugeben, das dem Benutzer angezeigt wird, wenn er die Aktivität erneut aufruft.</li><li>Wählen Sie **[!UICONTROL Increment Count, Release User & Bar from Reentry]** aus, um festzulegen, was der Benutzer anstelle des Aktivitätsinhalts sieht.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Es gibt drei Möglichkeiten, wie die Anzahl erhöht werden kann:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
