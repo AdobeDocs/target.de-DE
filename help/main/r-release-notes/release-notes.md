@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 39%
+source-wordcount: '735'
+ht-degree: 37%
 
 ---
 
@@ -24,6 +24,10 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 Zwischen dem 22. Juli 2024 und dem 15. August 2024 optimierte das [!DNL Target]-Team den Umfang von `__view__`, wodurch die Genauigkeit von Aktivitätsimpressionen, Besuchen und Besucherberichten verbessert wurde. Diese Optimierung zielt darauf ab, Berichtsdaten für automatisch gerenderte Vorschläge automatisch zu erfassen und sollte für die meisten Konten transparent sein.
 
 Für alle neuen [!DNL Adobe Experience Platform Web SDK] -Kunden ist diese Optimierung aktiviert. Kunden, die von at.js migriert wurden und die die unten stehenden Implementierungsschritte nicht befolgt haben, haben die Optimierung jedoch deaktiviert. Wir fordern diese Kunden dringend auf, ihre Implementierungen bis zum 3. Februar 2025 zu überprüfen. Nach diesem Datum wird die Optimierung für alle Kunden aktiviert. Wenn Implementierungen nicht bis dahin überprüft und angepasst werden, kann dies Auswirkungen auf Berichte haben, wie unten erwähnt. Wenden Sie sich an [!DNL Adobe Customer Care] , wenn Sie überprüfen müssen, ob Ihre Implementierung betroffen ist oder mehr Zeit für die Anpassung Ihrer Implementierung benötigt wird.
+
+>[!IMPORTANT]
+>
+>Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme lösen können, können Sie eine einmalige sechsmonatige Verlängerung anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 eingereicht wird. Adobe wird Ihre Anfrage prüfen und entscheiden.
 
 Um von dieser Optimierung im Fall des manuellen Renderings von Vorschlägen zu profitieren, überprüfen Sie Ihren [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben oder wenn Sie die `applyPropositions` -Methode (oder die entsprechende [!DNL Launch] -Aktion als Helfer) zum Rendern von Erlebnissen verwenden.
 
