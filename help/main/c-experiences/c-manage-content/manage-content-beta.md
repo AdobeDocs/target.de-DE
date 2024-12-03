@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ Die Bibliothek [!UICONTROL Offers] bietet einen Überblick über alle Code- und 
 | Linke Navigationsleiste | Zwischen Anzeige von [!UICONTROL Code Offers] oder [!UICONTROL Image Offers] wechseln. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Symbol Filter einblenden/Filter ausblenden](/help/main/assets/icons/RailLeft.svg) | Klicken Sie auf das Symbol **[!UICONTROL Show Folders]** oder **[!UICONTROL Hide Folders]** , um zwischen der Anzeige der Ordnerstruktur Ihrer Angebote oder der Anzeige der Ordnerstruktur umzuschalten.<P>Weitere Informationen finden Sie unter [Erstellen von Angebotsordnern](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Symbol [!UICONTROL Show filters]<P>![Symbol &quot;Filter anzeigen&quot;](/help/main/assets/icons/Filter.svg) | Klicken Sie auf das Symbol **[!UICONTROL Show filters]** , um Angebote nach [!UICONTROL Type], [!UICONTROL Source] und [!UICONTROL AEM Type] zu filtern.<P>Weitere Informationen finden Sie unter [Anwenden von Filtern auf die Angebotsliste](#filters) weiter unten. |
-| Suchfelder | Verwenden Sie die Felder **[!UICONTROL Search in]** , um schnell ein Angebot zu finden oder die Anzahl der in der Bibliothek [!UICONTROL Offers] angezeigten Angebote zu reduzieren. Sie können nach [!UICONTROL Offer Name], [!UICONTROL AEM Paths] oder [!UICONTROL AEM Tags] suchen. |
+| Suchfelder | Verwenden Sie die Felder **[!UICONTROL Search in]** , um schnell ein Angebot zu finden oder die Anzahl der in der Bibliothek [!UICONTROL Offers] angezeigten Angebote zu reduzieren. Sie können nach [!UICONTROL Offer Name], [!UICONTROL AEM Paths] oder [!UICONTROL AEM Tags] suchen. Suchoptionen sind sitzungsbeständig. |
 | [!UICONTROL Create Folder] | Klicken Sie auf &quot;**[!UICONTROL Create Folder]**&quot;, um Ordner in der Bibliothek &quot;[!UICONTROL Offer]&quot;zu erstellen und Codeangebote, Bildangebote sowie andere Ordner zu speichern, um eine Unterordnerstruktur zu erstellen.<P>Weitere Informationen finden Sie unter [Erstellen von Angebotsordnern](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Klicken Sie auf **[!UICONTROL Create Offer]** , um ein Angebot zu erstellen.<P>Weitere Informationen zur Erstellung der verschiedenen Angebotstypen finden Sie unter: <ul><li>HTML-Angebot</li><li>[JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Kontrollkästchen für Massenvorgänge<P>![Symbol &quot;Massenvorgänge&quot;](/help/main/assets/icons/Rectangle.svg) | Aktivieren Sie die Kontrollkästchen [!UICONTROL Bulk Operations] , um Massenvorgänge für alle Angebote oder ausgewählte Angebote durchzuführen.<P>Eine Liste der verfügbaren Aktionen (abhängig von Ihren Berechtigungen und dem Angebotsstatus) finden Sie unten unter [Durchführen von Schnellaktionen](#quick-actions) . |
@@ -55,6 +55,8 @@ Mit dem Symbol **[!UICONTROL Show filters]** können Sie Angebote nach folgenden
 * 0: [!DNL Adobe Target], [!DNL Adobe Target Classic] und [!DNL Adobe Experience Manager].**[!UICONTROL Source]**
 
 * **AEM Typ**: [Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) und [Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Weitere Informationen zu den verschiedenen Fragmenttypen finden Sie unter [AEM Übersicht über Experience Fragments und Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Filter sind sitzungsbeständig.
 
 ## Schnellaktionen durchführen {#quick-actions}
 
