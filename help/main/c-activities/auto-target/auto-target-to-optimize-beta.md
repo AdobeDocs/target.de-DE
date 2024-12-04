@@ -6,7 +6,8 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -35,7 +36,7 @@ Lesen Sie weiter, um zu erfahren, wie Sie mit [!UICONTROL Auto-Target] die Steig
 
 Wählen Sie beim [ Erstellen einer A/B-Aktivität ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) mit dem geleiteten Arbeitsablauf mit drei Schritten die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
-![Einstellungen für die Traffic-Zuordnungsmethode](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+![Einstellungen für die Traffic-Zuordnungsmethode](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 Mit der Option [!UICONTROL Auto-Target] im A/B-Aktivitätsfluss können Sie maschinelles Lernen nutzen, um basierend auf einer Reihe von Erlebnissen, die von Marketingexperten definiert wurden, zu personalisieren. [!UICONTROL Auto-Target] soll im Vergleich zu herkömmlichen A/B-Tests oder [!UICONTROL Auto Allocate] eine maximale Optimierung liefern, indem bestimmt wird, welches Erlebnis für jeden Besucher angezeigt werden soll. Im Gegensatz zu einer A/B-Aktivität, bei der das Ziel darin besteht, einen einzelnen Gewinner zu finden, bestimmt [!UICONTROL Auto-Target] automatisch das beste Erlebnis für einen bestimmten Besucher. Das beste Erlebnis basiert auf dem Besucherprofil und anderen kontextbezogenen Informationen, um ein stark personalisiertes Erlebnis zu bieten.
 
