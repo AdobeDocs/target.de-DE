@@ -1,35 +1,35 @@
 ---
 keywords: Visual Experience Composer;Best Practices für Visual Experience Composer;Einschränkungen von Visual Experience Composer;Nachteile von Visual Experience Composer;Best Practices für VEC;VEC
-description: Lernen Sie Best Practices kennen, damit Ihre Erlebnisse bei der Verwendung von Visual Experience Composer (VEC) in Adobe Target wie erwartet funktionieren.
-title: Was sind Best Practices und Einschränkungen von Visual Experience Composer?
+description: Lernen Sie Best Practices kennen, damit Ihre Erlebnisse bei der Verwendung von [!UICONTROL Visual Experience Composer] (VEC) wie erwartet funktionieren.
+title: Was sind [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 91%
+source-wordcount: '2414'
+ht-degree: 85%
 
 ---
 
-# Best Practices und Einschränkungen von Visual Experience Composer
+# [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen
 
-Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch weitere Tipps und Einschränkungen, die Sie bei der Verwendung von Visual Experience Composer (VEC) in [!DNL Adobe Target] beachten sollten.
-
-Befolgen Sie diese Best Practices und Sie werden bei den von Ihnen entworfenen Erlebnissen nicht so schnell auf unerwartete Probleme stoßen.
+Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch weitere Tipps und Einschränkungen, die Sie bei der Verwendung von [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] beachten sollten.
 
 ## Best Practices   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Platzieren Sie die at.js-Referenz oben im Abschnitt `<head>` Ihrer Seite.**
+Im Folgenden finden Sie Best Practices für die Verwendung von VEC:
+
+### Platzieren Sie die at.js-Referenz oben im Abschnitt `<head>` Ihrer Seite.
 
 Wenn Sie auch den Besucher-API-Dienst verwenden, platzieren Sie das Besucher-API-Skript über at.js.
 
-**Der Enhanced Experience Composer kann auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktiviert werden.**
+### Sie können den Enhanced Experience Composer auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktivieren.
 
 Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
 
 Um den Enhanced Experience Composer beim Erstellen einer Aktivität im Visual Experience Composer auf Aktivitätsebene zu aktivieren, klicken Sie auf [!UICONTROL Configure > URL] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
 
-**Sie können bestimmte IP-Adressen in Zulassungslisten einordnen, wenn der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.**
+### Sie können bestimmte IP-Adressen in Zulassungslisten einordnen, wenn der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.
 
 Probleme beim Laden des Enhanced Visual Experience Composer können gelöst werden, indem die folgenden IP-Adressen auf die Zulassungsliste gesetzt werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
 
@@ -39,13 +39,13 @@ Europa, Naher Osten und Afrika (EMEA): 52.51.238.221, 52.210.199.44 und 54.72.56
 
 Asien-Pazifik (APAC): 52.193.67.35, 54.199.198.109 und 54.199.241.57
 
-**Verwenden Sie eindeutige IDs für Top-Level- und sonstige Elemente, die sich gut als Test-/Targeting-Kandidaten eignen könnten.**
+### Verwenden Sie eindeutige IDs für Top-Level- und sonstige Elemente, die sich gut als Test-/Targeting-Kandidaten eignen könnten.
 
 Alles, was sich unmittelbar innerhalb des Body-Elements befindet, muss über eine eindeutige ID verfügen. Wenn neue Elemente in den Body aufgenommen werden und Code verschoben wird, verfügen wenigstens die übergeordneten Elemente über eine einfachere Erkennungsmethode.
 
 Adobe Target erfordert zwar keine IDs, die Zuverlässigkeit der mit dem Experience Composer erstellten Erlebnisse wird dadurch allerdings erhöht. Target verwendet CSS-Selectors, um Ihren Inhalt zu ändern, wenn das Erlebnis bereitgestellt wird. Beim Bearbeiten eines Erlebnisses verankert der Visual Experience Composer den Selector des nächsten Vorgängers mit einem Nicht-Null-ID-Attribut mit dem zu ändernden HTML-Element. Es wird daher nicht empfohlen, einen Mechanismus zu verwenden, der HTML-ID-Attribute festlegt oder ändert, einschließlich JavaScript-Bibliotheken. Auch wenn diese IDs dem Target-Experience Composer möglicherweise für die Aktivitätserstellung zur Verfügung stehen, wenn JavaScript IDs ändert, ist die ID, die bei der Erstellung des Erlebnisses verwendet wurde, bei der Ausführung des Erlebnisses möglicherweise nicht verfügbar. Ist eine ID nicht verfügbar, tritt bei dem mit der ID verankerten Selector ein Fehler auf.
 
-**Benennen Sie CSS-Klassen mit einfach zu identifizierenden Bezeichnungen.**
+### Benennen Sie CSS-Klassen mit einfach zu identifizierenden Bezeichnungen.
 
 Beim Bearbeiten von CSS-Klassen im Visual Experience Composer ist es hilfreich, die Klassen anhand von beschreibenden Namen leicht identifizierbar zu machen. Dadurch wird sichergestellt, dass Sie die richtigen CSS-Klassen bearbeiten und Ihre Seiten wie erwartet angezeigt werden.
 
@@ -53,19 +53,19 @@ Verwenden Sie nicht die CSS-Eigenschaft `!important`, wenn Sie Elemente ausblend
 
 Wenn die CSS-Eigenschaft „1!important1“ vorhanden ist, werden Änderungen durch „target.js“ während der Bereitstellung durch die CSS-Regeln der Site überschrieben.
 
-**Vermeiden von HTML-Tabellen für Seitenlayouts.**
+### Vermeiden von HTML-Tabellen für Seitenlayouts.
 
 Target Standard und Premium verwenden JavaScript zur Formatierung von Seiten. Die Modifizierung von tabellenbasierten Layouts mit JavaScript ist kompliziert. Zudem werden tabellenbasierte Layouts möglicherweise nicht in allen Browsern gleich angezeigt. Die besten Ergebnisse erhalten Sie, wenn Sie Seitenlayouts mit CSS erstellen.
 
-**Vermeiden von iFrames.**
+### Minimieren Sie die Verwendung von iFrames.
 
 Es empfiehlt sich, den Einsatz von iFrames zu minimieren, um die Seiten- und Testverwaltung zu vereinfachen. Der Visual Experience Composer kann einige Aktionen innerhalb eines iFrames anwenden, jedoch funktionieren einige Aktionen, wie zum Beispiel Größenanpassung, nicht richtig. Das Verwalten und Anpassen von Seiten, die mehrere iFrames verwenden, ist kompliziert. Daher kann auch das Testen von Seiten mit vielen iFrames zu Problemen führen.
 
-**Versuchen Sie, alle dynamischen DOM-Änderungen so bald wie möglich nach DOM-Bereitschaft anzuordnen.**
+### Versuchen Sie, alle dynamischen DOM-Änderungen so bald wie möglich nach DOM-Bereitschaft anzuordnen.
 
 Wenn Ihre Änderungen vor der Experience-Anwendung durch target.js nicht angewendet werden, ist die Bereitstellung von Inhalten möglicherweise fehlerhaft. Dies geschieht nur, wenn es zu einer DOM-Änderung in der Hierarchie eines zielgerichteten Elements kommt.
 
-**Verwenden Sie ausschließlich Text oder ein Bild-Tag in Ihren Ankerelementen.**
+### Verwenden Sie ausschließlich Text oder ein Bild-Tag in Ihren Ankerelementen.
 
 `<a>Anchor Text</a>`
 
@@ -73,15 +73,15 @@ ODER-
 
 `<a href=""> <img src=""> </img> </a>`
 
-**Vermeiden Sie Elemente auf Blockebene innerhalb eines Inline-Elements.**
+### Vermeiden Sie Elemente auf Blockebene innerhalb eines Inline-Elements.
 
 Elemente auf Blockebene sollten nicht innerhalb von Inline-Elementen wie Anchor, Span usw. verwendet werden. Dies würde dazu führen, dass Inline-Elemente ihre Höhe und Breite verlieren würden, sodass das Overlay-Tool in Visual Experience Composer möglicherweise nicht wie erwartet funktioniert.
 
-**Vermeiden Sie die Verwendung des base-Tags in Ihrer Website zur Auflösung von URLs und Links.**
+### Vermeiden Sie die Verwendung des base-Tags in Ihrer Website zur Auflösung von URLs und Links.
 
-Der Visual Experience Composer beeinflusst die Website im Hintergrund mithilfe eines Proxy-Servers, der die Links aktualisiert hat. Wenn Sie ein base-Tag hinzufügen, werden die durch den Proxy-Server verwendeten URLs erneut durch den Browser aufgelöst und fehlerhaft dargestellt.
+Der VEC manipuliert die Website hinter den Kulissen mithilfe eines Proxy-Servers, der die Links aktualisiert hat. Wenn Sie ein base-Tag hinzufügen, werden die durch den Proxy-Server verwendeten URLs erneut durch den Browser aufgelöst und fehlerhaft dargestellt.
 
-**Die Verwendung von „HTML Bearbeiten“ zur Manipulation der DOM-Struktur kann Selektoren unterbrechen.**
+### Die Verwendung von „HTML Bearbeiten“ zur Manipulation der DOM-Struktur kann Selektoren unterbrechen.
 
 Wenn Sie beispielsweise zwei Aktionen durchgeführt haben:
 
@@ -94,22 +94,22 @@ Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element
 
 Siehe [Elementselektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Verwenden Sie die Tags `<b>` und `<i>`, wenn Sie Textelemente mit dem Rich-Text-Editor erstellen.**
+### Verwenden Sie die Tags `<b>` und `<i>` , wenn Sie Textelemente mit dem Rich-Text-Editor formatieren.
 
 * Für fett gedruckten Text verwenden Sie `<b>` anstelle von `<strong>`.
 * Für kursiv gedruckten Text verwenden Sie `<i>` anstelle von `<em>`.
 
 Die Tags `<strong>` und `<em>` können zu unerwarteten Ergebnissen führen.
 
-**Seien Sie beim Entfernen von Formularfeldern vorsichtig.**
+### Seien Sie beim Entfernen von Formularfeldern vorsichtig.
 
 Bestimmte Formularfelder können Pflichtfelder für die Übermittlung sein. Das Entfernen dieser Formularfelder kann Auswirkungen auf Übermittlungen haben.
 
-**Binden Sie `mboxCreate` nicht in Skripts ein.**
+### Fügen Sie in Skripten nicht `mboxCreate` ein.
 
 Da `mboxCreate` `document.write` verwendet, ist es nicht empfehlenswert, `mboxCreate` in Skripts einzubinden. Verwenden Sie stattdessen `mboxDefine` und `mboxUpdate`, die den gleichen Zweck erfüllen.
 
-**Aktualisieren Sie ein HTML-Snippet nicht mit Target Standard, wenn es mit JavaScript-Code initialisiert werden muss.**
+### Aktualisieren Sie ein HTML-Snippet nicht mit Target Standard, wenn es mit JavaScript-Code initialisiert werden muss.
 
 Wird eine Aktion (HTML bearbeiten) an Seitenkomponenten (wie Schiebereglern, Karussells usw.) durchgeführt, wird das Element nicht ordnungsgemäß dargestellt. Der Visual Experience Composer führt die Aktion aus, nachdem die Seitenkomponente von JavaScript initialisiert wurde.
 
@@ -122,11 +122,11 @@ Sollten Sie die Bereitstellung prüfen und feststellen, dass sie beim ersten Ver
 
 Prüfen Sie Ihre Seite mehrmals, um sicherzustellen, dass die Bereitstellung wie erwartet funktioniert.
 
-**Vermeiden Sie die Verwendung eines base-Tags in Ihrer Website zur Auflösung von URLs und Links.**
+### Vermeiden Sie die Verwendung eines base-Tags in Ihrer Website zur Auflösung von URLs und Links.
 
 Bei der Verwendung von Enhanced Experience Composer wird die Webseite im Hintergrund über einen Proxyserver manipuliert, der alle Link-URLs so aktualisiert, dass sie auf dem Proxy funktionieren. Wird ein base-Tag hinzugefügt, werden all diese URLs vom Browser aufgelöst, sodass sie beschädigt zu sein scheinen.
 
-**Wichtiger Text auf der Seite, der für das Targeting verwendet wird, sollte innerhalb eines Elements in HTML-Code geschrieben werden.**
+### Wichtiger Text auf der Seite, der für das Targeting verwendet wird, sollte innerhalb eines Elements in HTML-Code geschrieben werden.
 
 Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr Code wie folgt aussieht:
 
@@ -144,11 +144,11 @@ Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr 
 
 In diesem Beispiel wurde das gesamte Ankerelement im VEC ausgewählt, was sich negativ auf andere Elemente auswirkt, wenn ein Targeting ausgeführt wird.
 
-**Benutzen Sie die Variablen `top` und `self` nicht in JavaScript-Code.**
+### Verwenden Sie keine `top` - oder `self` -Variablen im JavaScript-Code.
 
 Wenn der Enhanced Experience Composer aktiviert ist, wird der Wert der Variablen „top“ und „self“ aktualisiert, um das iFrame-Busting zu deaktivieren. Arbeiten Sie stattdessen mit einer X-Frame-Optionsüberschrift, um iframe-Busting anstatt benutzerdefinierter JavaScript-Codes einzusetzen.
 
-**Testen Sie stets Ihre Webseite, wenn für den Zeitpunkt des Ladens der Seite neue Parameter hinzugefügt werden sollen.**
+### Testen Sie stets Ihre Webseite, wenn für den Zeitpunkt des Ladens der Seite neue Parameter hinzugefügt werden sollen.
 
 Für das Öffnen von www.abc.com werden beispielsweise die folgenden URL-Parameter verwendet:
 
@@ -158,7 +158,7 @@ Diese Parameter ermöglichen die Bearbeitung in einem iframe.
 
 Stellen Sie sicher, dass die Webseite wie erwartet lädt, nachdem solche Parameter hinzugefügt wurden.
 
-**Stellen Sie sicher, dass sich die Seite in einem iframe wie gewünscht öffnen lässt.**
+### Stellen Sie sicher, dass sich die Seite in einem iframe wie gewünscht öffnen lässt.
 
 Deaktivieren Sie iframe-Busting auf Ihrer Webseite und prüfen Sie, ob sie sich auf einer Platzhalterseite in einem iframe wie gewünscht öffnen lässt. Beispiel:
 
@@ -179,27 +179,27 @@ Deaktivieren Sie iframe-Busting auf Ihrer Webseite und prüfen Sie, ob sie sich 
 
 ## Einschränkungen  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Beachten Sie folgende Einschränkungen bei der Verwendung von Visual Experience Composer zum Entwerfen Ihrer Aktivität.
+Beachten Sie die folgenden Einschränkungen bei der Verwendung von [!UICONTROL Visual Experience Composer] zum Entwerfen Ihrer Aktivität.
 
-**Die Funktion „Verschieben“ unterstützt z-index nicht.**
+### Die Funktion „Verschieben“ unterstützt z-index nicht.
 
 Da keine z-index-Funktionalität vorhanden ist, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-**Eine Neuanordnung von Elementen wirkt sich auf das Klick-Tracking aus.**
+### Eine Neuanordnung von Elementen wirkt sich auf das Klick-Tracking aus.
 
 Wenn ein für Klick-Tracking gekennzeichnetes Element neu angeordnet wird, ändern sich die Pfade der neu angeordneten Elemente. Infolgedessen ist das Element an dem Ort, an dem sich das Originalelement vor der Neuanordnung befunden hat, das Element, dessen Klicks verfolgt werden.
 
 Dies passiert, weil sowohl der Code zur Bereitstellung des Aktivitäteninhalts als auch der Code für das Klick-Tracking in einem einzigen Code enthalten ist, der für die Seite bereitgestellt wird. Wenn Sie zu einer anderen Seite navigieren und Klick-Tracking einrichten, dann werden der Aktivitätsinhalts-Code und der Klick-Trackingcode für diese Seite bereitgestellt. Wenn die Klick-Tracking-Seite eine ähnliche Struktur aufweist wie die Seite, auf der der Test ausgeführt wird, dann kann der Testinhalt auch auf der Klick-Tracking-Seite erscheinen.
 
-**Möglicherweise lässt sich in ein `<div>`, das eine Mbox ist, kein Element einfügen.**
+### Das Einfügen eines Elements funktioniert möglicherweise nicht in eine mbox mit dem Namen `<div>`.
 
 Enthält eine Mbox ein Angebot, kann ein einzufügendes Element als „insertBefore“ anstatt von „insertAfter“ angewendet werden, falls die Mbox nicht korrekt implementiert wurde.
 
-**Beim Bearbeiten von über- und untergeordneten Elementen sollten Sie zunächst das übergeordnete Element bearbeiten.**
+### Beim Bearbeiten von über- und untergeordneten Elementen sollten Sie zunächst das übergeordnete Element bearbeiten.
 
 Wenn Sie eine Bildaktion für ein Element austauschen und anschließend den Text oder das HTML für das übergeordnete Element bearbeiten, können Bereitstellungsprobleme auftreten. Der beste Arbeitsablauf besteht darin, das übergeordnete Element zu bearbeiten, bevor Sie das Bild im untergeordneten Element austauschen.
 
-**Es kann kein Seitenelement ausgewählt werden, das eine Mbox als untergeordnetes Element enthält.**
+### Es kann kein Seitenelement ausgewählt werden, das eine Mbox als untergeordnetes Element enthält.
 
 Wenn Ihre Seite zum Beispiel Folgendes enthält:
 
@@ -213,55 +213,61 @@ Wenn Ihre Seite zum Beispiel Folgendes enthält:
 
 Der äußere Div darf in keinem Erlebnis ausgewählt werden, weil die fest in die Seite codierte Mbox nach wie vor einen Aufruf an Target ausführt und eine Antwort erhält. Diese Antwort beeinträchtigt die für das größere Seitenelement vorgesehene Antwort.
 
-**Proxy-IPs können in der Kundenumgebung blockiert werden.**
+### Proxy-IPs können in der Kundenumgebung blockiert werden.
 
 Wenn Sie den Enhanced Experience Composer auf einer nicht veröffentlichten Seite wie einer Staging-Umgebung verwenden, dann sehen Sie möglicherweise Fehlermeldungen zu Zeitüberschreitungen und Zugriffsverweigerung, wenn Ihre Site RIPs blockiert.
 
-**Werden mehrere Seiten hinzugefügt, sind sowohl die Erlebnisleiste als auch die Seitenleiste gleichzeitig geöffnet. Dies verringert die Breite, in der Visual Experience Composer die Seite für Optimierungen anzeigen kann. Aus diesem Grund werden fließende Sites im eingeschränkten Speicherplatz möglicherweise anders angezeigt als erwartet.**
+### Werden mehrere Seiten hinzugefügt, sind sowohl die Erlebnisleiste als auch die Seitenleiste gleichzeitig geöffnet. Dies verringert die Breite, in der Visual Experience Composer die Seite für Optimierungen anzeigen kann. Somit werden fließende Seiten aufgrund des eingeschränkten Raums möglicherweise nicht wie erwartet wiedergegeben.
 
 Dies kann umgangen werden, indem Erlebnisleiste und Seitenleiste durch Klicken auf die nach links zeigenden Pfeile oben minimiert werden.
 
 ## Einschränkungen   {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
-**Funktion „Verschieben“**
+Beachten Sie beim Arbeiten mit VEC die folgenden Einschränkungen:
+
+### Sie können ein Element nicht außerhalb eines Containers verschieben, gefolgt von einer CSS-Eigenschaft.
 
 Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den eine CSS-Eigenschaft folgt.
 
-**Auf Mboxes stehen lediglich Tauschangebote zur Verfügung.**
+### Sie können das Element [!UICONTROL Button] nicht zum Neuanordnen auswählen.
+
+[!UICONTROL Button] -Elemente können nicht direkt zum Neuanordnen ausgewählt werden. Um die Neuanordnung zu aktivieren, platzieren Sie Schaltflächen in einem größeren Container.
+
+### Auf Mboxes stehen lediglich Tauschangebote zur Verfügung.
 
 Aktionen wie &quot;Klasse bearbeiten&quot;und &quot;Neu anordnen&quot;sind innerhalb einer Mbox nicht zulässig.
 
-**Sie sollten dasselbe Element nicht neu ordnen und verschieben.**
+### Sie sollten dasselbe Element nicht neu ordnen und verschieben.
 
 Wenn ein Element an einen anderen Ort verschoben wurde und Sie den übergeordneten Behälter auswählen und versuchen, die untergeordneten Elemente neu zu ordnen, ist das verschobene Element nicht betroffen und bleibt, wo es ist. Die Neuordnung wird möglicherweise nicht wie gewünscht dargestellt.
 
-**Die Bildtauschaktion funktioniert bei einem Bild des Karussells nicht.**
+### Die Bildtauschaktion funktioniert bei einem Bild des Karussells nicht.
 
 Wenn Ihre Seite beispielsweise über ein Karussell mit mehreren Bildern verfügt und Sie das Bild gegen das zweite Bild im Karussell austauschen möchten, funktioniert die Bildtauschaktion nicht.
 
 Dies kann umgangen werden, wenn der übergeordnete Container ausgewählt und mit „HTML bearbeiten“ der HTML-Code des Karussells so bearbeitet wird, dass die Bildquelle des gewünschten Bilds aktualisiert wird.
 
-**Größe von Bildern kann nicht in einer Mbox geändert werden.**
+### Größe von Bildern kann nicht in einer Mbox geändert werden.
 
 Wenn Sie ein Bild in einem Mbox-Element tauschen und dann versuchen, die Größe des Bilds entsprechend der Mbox-Elementgröße anzupassen, ist die Größenanpassung nicht gestattet.
 
-**Nach dem Bildtausch können Sie die Aktion „Bearbeiten“ nicht wählen.**
+### Nach dem Bildtausch können Sie die Aktion „Bearbeiten“ nicht wählen.
 
 Nach dem Bildtausch können Sie die Scene7-URL nicht bearbeiten.
 
-**HTML-Elemente mit externen Quellen können nicht bearbeitet werden.**
+### HTML-Elemente mit externen Quellen können nicht bearbeitet werden.
 
 Beispiel: Video, Audio-Tags, Einbetten, iFrames, Frames.
 
-**Klick-Tracking für Ankerelemente, die etwas anderes als Text oder Bild-Tags enthalten, funktioniert nicht.**
+### Klick-Tracking für Ankerelemente, die etwas anderes als Text oder Bild-Tags enthalten, funktioniert nicht.
 
 Zum Beispiel funktioniert Klick-Tracking nicht, wenn das Element JavaScript enthält.
 
-**Seiten müssen URL-Parameter akzeptieren, damit Visual Experience Composer funktioniert.**
+### Seiten müssen URL-Parameter akzeptieren, damit Visual Experience Composer funktioniert.
 
 Einige Websites entfernen sämtliche URL-Parameter ihrer Seiten. Visual Experience Composer benötigt diese Parameter jedoch.
 
-**Verwenden Sie Skript als Teil von HTML, sollten alle Variablen und Funktionen, auf die von außen zugegriffen wird, im Namespace des Fensters angegeben werden.**
+### Verwenden Sie Skript als Teil von HTML, sollten alle Variablen und Funktionen, auf die von außen zugegriffen wird, im Namespace des Fensters angegeben werden.
 
 Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „target.js“ ausgeführt. Somit kann auf lokal angegebene Variablen oder Funktionen von außen nicht zugegriffen werden.
 
@@ -287,7 +293,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 </script>
 ```
 
-**Wird ein Bild aus der Inhaltsbibliothek (Scene7) eingefügt und der HTML-Code bearbeitet, beschädigt dies die Bild-URL.**
+### Das Einfügen eines Bildes aus der Inhaltsbibliothek (Scene7) und Bearbeiten des HTML beschädigen die Bild-URL.
 
 Fügen Sie ein Ankerelement innerhalb des div „customHeaderMessage“ sowie Platzhaltertext ein:
 
@@ -310,10 +316,10 @@ Nach Einfügen des Bilds sollte es wie folgt aussehen:
 
 Löschen Sie den Platzhaltertext.
 
-**Die Aktion „customCode“ im Visual Experience Composer funktioniert in Internet Explorer 8 nicht.**
+### Die Aktion &quot;customCode&quot;im VEC funktioniert nicht mit Internet Explorer 8.
 
 Aufgrund einiger Einschränkungen von IE8 bei der Handhabung von Skriptinhalten unterstützt „target.js“ diese Aktion in IE8 nicht. Enthält die Seite jQuery und wird sie im Fensterobjekt global verfügbar gemacht, kann „target.js“ die Aktion „customCode“ für die Bereitstellung nutzen. Stellen Sie sicher, dass window.jQuery und window.jQuery.fn.prepend definiert wurden.
 
-**Klick-Tracking wird nur auf der Seite unterstützt, auf der Erlebnisse erstellt werden, oder auf einer Weiterleitungsseite.**
+### Klick-Tracking wird nur auf der Seite unterstützt, auf der Erlebnisse erstellt werden, oder auf einer Weiterleitungsseite.
 
 Zwar ist der Browse-Modus in Click Track VEC verfügbar, kann aber nicht für die Klick-Tracking auf einer Seite verwendet werden.

@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -25,13 +25,13 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 ## [!UICONTROL Offers Library] Benutzeroberflächenaktualisierung (9. Januar 2024)
 
-Um das Benutzererlebnis für [!DNL Adobe Target] -Benutzer zu verbessern, aktualisiert diese Version die Benutzeroberfläche von [!UICONTROL Offers Library]. Mit dem neuesten [!DNL Adobe Spectrum] -Designsystem standardisiert diese Aktualisierung inkonsistente Designmuster und führt neue Verbesserungen ein, darunter:
+Um das Benutzererlebnis für [!DNL Adobe Target] -Benutzer zu verbessern, aktualisiert diese Version die Benutzeroberfläche von [!UICONTROL Offers Library]. Mit dem neuesten [!DNL Adobe Spectrum] -Designsystem standardisiert diese Aktualisierung inkonsistente Designmuster und führt neue Verbesserungen ein, darunter die folgenden:
 
-* **Verwaltung von Massenangeboten**: Wählen Sie mehrere Angebote gleichzeitig aus und löschen Sie sie.
+* **Massenverwaltung von Angeboten**: Auswählen und Löschen mehrerer Angebote gleichzeitig.
 
-* **Code-Editor-Upgrades**: Aktualisierte HTML- und JSON-Editoren mit Syntaxhervorhebung und Zeilennummerierung.
+* **[!UICONTROL Code Editor]upgrades**: Aktualisierte HTML- und JSON-Editoren mit Syntaxhervorhebung und Zeilennummerierung.
 
-* **Verbesserte Angebotskarten**: Verbesserte Schnellinformationen und Detailkarten für leichteren Informationszugriff.
+* **Verbesserte Angebotskarten**: Verbesserte schnelle Informationen und Detailkarten für einen leichteren Informationszugriff.
 
 * **Persistente Suche und Filter**: Fügt sitzungsbeständige Such- und Filteroptionen hinzu.
 

@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 61%
+source-wordcount: '576'
+ht-degree: 58%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 9. Dezember | [[!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Die folgende Einschränkung wurde hinzugefügt:<ul><li>Sie können das Element [!UICONTROL Button] nicht zum Neuanordnen auswählen.<P>[!UICONTROL Button] -Elemente können nicht direkt zum Neuanordnen ausgewählt werden. Um die Neuanordnung zu aktivieren, platzieren Sie Schaltflächen in einem größeren Container.</li></ul> |
 | 3. Dezember | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Hinweise zur Vorabversion für das bevorstehende Update der Benutzeroberfläche von [!UICONTROL Offers Library] hinzugefügt. |
 | 20. November | [Zulassungsliste für Target-Edge-Knoten](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Die Liste der Target Edge-IP-Adressen wurde auf die Zulassungsliste aktualisiert. |
 | 19. November | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Der folgende wichtige Hinweis wurde zum Abschnitt &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` Bereichsoptimierung (22. Oktober 2024)&quot;hinzugefügt:<ul><li>WICHTIG: Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme lösen können, können Sie eine einmalige sechsmonatige Verlängerung anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 eingereicht wird. Adobe wird Ihre Anfrage prüfen und entscheiden.</li><ul> |
