@@ -7,9 +7,9 @@ feature: Auto-Target
 hide: true
 hidefromtoc: true
 exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
-source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '905'
 ht-degree: 19%
 
 ---
@@ -48,7 +48,7 @@ So erstellen Sie eine [!UICONTROL Auto-Target] -Aktivität:
 
    Der [!UICONTROL Visual Experience Composer] wird geöffnet und zeigt die in der URL angegebene Seite an.
 
-1. Klicken Sie oben im VEC auf **[!UICONTROL Untitled Activity]** und geben Sie dann einen Namen für die Aktivität in der angegebenen Platzierung an.
+1. Klicken Sie auf das Symbol **[!UICONTROL Rename]** ( ![Symbol &quot;Umbenennen&quot;](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität an und klicken Sie auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf mit keinem der folgenden Zeichen beginnen:
 
