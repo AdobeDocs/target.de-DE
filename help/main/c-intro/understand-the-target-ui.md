@@ -1,7 +1,7 @@
 ---
-keywords: Target-Benutzeroberfläche;Benutzeroberfläche;UI;Ankündigungen;Ereignisse;Benachrichtigungen
-description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu ausführlicheren Informationen, die Ihnen helfen, [!DNL Target] optimal zu nutzen.
-title: Wie verwende ich die Benutzeroberfläche von  [!DNL Target]
+keywords: Benutzeroberfläche von Target; Benutzeroberfläche; UI; Ankündigungen; Ereignisse; Benachrichtigungen
+description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, die Ihnen helfen, optimal zu nutzen [!DNL Target].
+title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
 source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
@@ -13,19 +13,19 @@ ht-degree: 31%
 
 # Die Benutzeroberfläche von [!DNL Target]
 
-Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Adobe Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen, bietet Links für ausführlichere Informationen und schrittweise Anweisungen.
+Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Adobe Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
 
-Die Kopfzeile oben in der Benutzeroberfläche von [!DNL Target] enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren können. Sie können auch zwischen Organisationen und [!DNL Adobe Experience Cloud] Lösungen wechseln, Hilfe und Benachrichtigungen erhalten, Ihr [!DNL Adobe] Profil verwalten und sich bei [!DNL Target] abmelden.
+Die Kopfzeile am oberen Rand der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren können. Sie können auch zwischen Organisationen wechseln und Lösungen [!DNL Adobe Experience Cloud], Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] verwalten und sich von [!DNL Target] abmelden.
 
 ![Kopfzeile von Target](/help/main/c-intro/assets/target-header.png)
 
-Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von [!DNL Target] zugreifen, die später besprochen werden. Zuvor sehen wir uns aber die Optionen auf der rechten Seite an.
+Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von [!DNL Target] zugreifen. Diese werden später erläutert. Zuvor sehen wir uns aber die Optionen auf der rechten Seite an.
 
 ## Organisationen
 
 Eine *Organisation* ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on für die [!DNL Adobe Experience Cloud] zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche [!DNL Experience Cloud]-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
-Wählen Sie die gewünschte Organisation aus der Dropdownliste [!UICONTROL Organization] aus, wenn Ihr Unternehmen über mehrere Organisationen verfügt:
+Wählen Sie die gewünschte Organisation in der Dropdown-Liste [!UICONTROL Organization] aus, wenn Ihr Unternehmen aus mehreren Organisationen besteht:
 
 ![Dropdown-Liste „Organisation“](/help/main/c-intro/assets/organizations.png)
 
@@ -37,31 +37,31 @@ Mit dem Apps Switcher können Sie schnell zwischen den [!DNL Adobe Experience Cl
 
 ## Hilfe
 
-Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Support-Telefonnummern finden, Fragen per Twitter stellen oder Feedback zu [!DNL Target] geben, um uns mitzuteilen, wie das [!DNL Target]-Team vorgeht.
+Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen per Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
 ![Hilfe ](/help/main/c-intro/assets/help.png)
 
 ## Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
-Die Bedienfelder [!UICONTROL Notifications] und [!UICONTROL Announcements] helfen Ihnen dabei, über alle Dinge auf dem Laufenden zu bleiben [!DNL Adobe Target]. Proaktive Benachrichtigungen helfen Ihnen dabei, den Status von [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignissen auf dem Laufenden zu halten. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
+Die [!UICONTROL Notifications] und [!UICONTROL Announcements] Bedienfelder helfen Ihnen, über alle [!DNL Adobe Target] Dinge auf dem Laufenden zu bleiben. Durch proaktive Benachrichtigungen sind Sie bereits frühzeitig über den Status [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignisse auf dem Laufenden. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Klicken Sie in der Kopfzeile auf das Glockensymbol , um Benachrichtigungen anzuzeigen:
+Klicken Sie auf das Glockensymbol in der Kopfzeile, um Benachrichtigungen anzuzeigen:
 
-![Glockensymbol für Benachrichtigungen und Mitteilungen](assets/bell-icon.png)
+![Glockensymbol für Benachrichtigungen und Ankündigungen](assets/bell-icon.png)
 
 Das Bedienfeld enthält Registerkarten für [!UICONTROL Notifications] und [!UICONTROL Announcements].
 
 ![ Benachrichtigungen ](assets/notifications.png)
 
-Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten und zur Konfiguration von Benachrichtigungen und Mitteilungen:
+In den folgenden Abschnitten finden Sie Informationen zu den einzelnen Registerkarten sowie zum Konfigurieren von Benachrichtigungen und Ankündigungen:
 
 ### Benachrichtigungen {#notifications}
 
-[!DNL Target] -Ereignisbenachrichtigungen beinhalten Folgendes:
+[!DNL Target] Ereignisbenachrichtigungen umfassen Folgendes:
 
 * **Aktivitäten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.
 
-  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren, Herausgebern und Genehmigern im Arbeitsbereich der Aktivität für [!DNL Target Premium] -Konten empfangen. Bei [!DNL Target Standard] -Konten werden Benachrichtigungen von allen Herausgebern und Genehmigern empfangen.
+  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren, Herausgebern und Genehmigern im Arbeitsbereich der Aktivität für [!DNL Target Premium] Konten empfangen. Bei [!DNL Target Standard]-Konten werden Benachrichtigungen von allen Herausgebern und genehmigenden Personen empfangen.
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
@@ -71,16 +71,16 @@ Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten
 
 * **Profilskripte**: Benachrichtigungen, wenn ein Profilskript entweder manuell oder durch [!DNL Target] aktiviert oder deaktiviert wird.
 
-  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren und Genehmigern für sowohl [!DNL Target Premium]- als auch [!DNL Target Standard]-Konten empfangen.
+  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren und Genehmigern für [!DNL Target Premium] und [!DNL Target Standard] Konten empfangen.
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations-Feeds**: Benachrichtigungen, wenn ein [!DNL Recommendations] -Feed entweder manuell oder durch [!DNL Target] aktiviert oder deaktiviert wird. Benachrichtigungen werden auch gesendet, wenn ein [!DNL Recommendations] -Feed fehlschlägt.
+* **Recommendations-Feeds**: Benachrichtigungen, wenn ein [!DNL Recommendations]-Feed entweder manuell oder durch [!DNL Target] aktiviert oder deaktiviert wird. Benachrichtigungen werden auch gesendet, wenn ein [!DNL Recommendations]-Feed fehlschlägt.
 
-  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren und Genehmigern für [!DNL Target Premium] -Konten empfangen. [!DNL Recommendations] ist eine [!DNL Target Premium]-Funktion und nicht in [!DNL Target Standard] verfügbar.
+  Benachrichtigungen sind konfigurierbar und werden standardmäßig von Produktadministratoren und Genehmigern für [!DNL Target Premium] Konten empfangen. [!DNL Recommendations] ist eine [!DNL Target Premium] Funktion und in [!DNL Target Standard] nicht verfügbar.
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
@@ -91,46 +91,46 @@ Die folgenden Abschnitte enthalten Informationen zu den einzelnen Registerkarten
 
 Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mauszeiger über die gewünschte Benachrichtigung bewegen und dann auf das Häkchen klicken. Sie können alle Benachrichtigungen als gelesen markieren oder alle Benachrichtigungen anzeigen, indem Sie unten im Bedienfeld auf [!UICONTROL "Mark as Read"] oder [!UICONTROL "View All"] klicken.
 
-Sie können auch eine Erinnerung festlegen, die erneut benachrichtigt werden soll, indem Sie den Mauszeiger über eine Benachrichtigung bewegen, auf das Symbol &quot;[!UICONTROL Remind me]&quot;klicken und auswählen, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
+Sie können eine Erinnerung auch erneut benachrichtigen, indem Sie den Mauszeiger über eine Benachrichtigung bewegen, auf das Symbol &quot;[!UICONTROL Remind me]&quot; klicken und dann auswählen, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
 
 ### Mitteilungen
 
 Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Detailliertere Informationen finden Sie auf der Seite [Adobe-Status](https://status.adobe.com/de) .
+Detailliertere Informationen finden Sie auf der Seite [Adobe-Status](https://status.adobe.com/de).
 
-### Benachrichtigungen und Mitteilungen konfigurieren
+### Konfigurieren von Benachrichtigungen und Ankündigungen
 
-So bearbeiten Sie Ihre Benachrichtigungseinstellungen:
+So bearbeiten Sie die Voreinstellungen für Benachrichtigungen:
 
 1. Klicken Sie auf das Zahnradsymbol und dann auf **[!UICONTROL Notifications]**.
 1. Klicken Sie unter **[!UICONTROL Target]** auf **[!UICONTROL Customize]**.
-1. Wählen Sie die Kategorien aus oder heben Sie die Auswahl auf, für die Sie Benachrichtigungen erhalten möchten:
+1. Wählen Sie die Kategorien aus, für die Sie Benachrichtigungen erhalten möchten, oder heben Sie die Auswahl auf:
 
-   * Anforderungen: Wenn Sie von einer Person angefordert werden, ein Objekt zu genehmigen oder Zugriff auf ein Objekt zu gewähren. Sie können sich nicht von dieser Kategorie abmelden.
-   * Zugeordnet: Wenn Ihnen jemand ein Objekt zuweist.
+   * Anfragen: Wenn Ihnen jemand eine Anfrage sendet, um ein Objekt zu genehmigen oder Zugriff auf ein Objekt zu gewähren. Sie können das Abonnement für diese Kategorie nicht kündigen.
+   * Mir zugewiesen: Wenn Ihnen jemand ein Objekt zuweist.
    * Erwähnungen: Wenn jemand Sie in einem Kommentar erwähnt.
-   * Neue Versionen: Wenn eine neue Version für ein Produkt oder einen Dienst verfügbar ist, auf das Sie Zugriff haben.
-   * Für mich freigegeben: Wenn jemand ein Objekt für Sie freigegeben hat.
-   * Aktualisierungen des Inhalts: Wenn ein Benutzer ein von Ihnen erstelltes oder befolgtes Objekt bearbeitet, löscht oder kommentiert.
+   * Neue Versionen: Wenn eine neue Version für ein Produkt oder einen Service verfügbar ist, auf die Sie Zugriff haben.
+   * Für mich freigegeben: Wenn jemand ein Objekt für Sie freigibt.
+   * Inhaltsaktualisierungen: Wenn jemand ein Objekt bearbeitet, löscht oder kommentiert, das Sie erstellt haben oder dem Sie folgen.
    * Sonstige:
 
    >[!NOTE]
    >
-   >&quot;Neue Versionen&quot;und &quot;Aktualisierungen des Inhalts&quot;sind die einzigen Benachrichtigungskategorien, die für [!DNL Target] gelten. Die anderen Kategorien gelten auch für andere Adobe-Lösungen.
+   >Für [!DNL Target] gelten nur die Benachrichtigungskategorien „Neue Versionen“ und „Inhaltsaktualisierungen“. Die anderen Kategorien gelten für andere Adobe-Lösungen.
 
 
-1. Wählen Sie die Kategorien aus, die als vorrangig betrachtet werden sollen.
+1. Wählen Sie die Kategorien aus, die als mit hoher Priorität eingestuft werden sollen.
 1. Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen.
 
-   Diese Warnungen werden einige Sekunden lang in der oberen rechten Ecke Ihres Browsers angezeigt. Sie können festlegen, dass Kategorien mit hoher Priorität, alle Kategorien oder alle Popup-Fenster für Benachrichtigungen angezeigt werden sollen. Sie können auch konfigurieren, ob die Benachrichtigungen so lange sichtbar bleiben sollen, bis Sie sie schließen, oder ob Sie die Benachrichtigungsdauer konfigurieren können.
+   Diese Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke Ihres Browsers angezeigt. Sie können festlegen, ob Kategorien mit hoher Priorität, alle Kategorien oder alle Benachrichtigungs-Popups angezeigt werden sollen. Sie können auch konfigurieren, ob die Benachrichtigungen sichtbar bleiben sollen, bis Sie sie schließen, oder die Dauer der Benachrichtigung konfigurieren.
 
 1. Wählen Sie die Häufigkeit aus, mit der Sie Benachrichtigungs-E-Mails erhalten möchten:
 
-   * E-Mails nicht senden
+   * Keine E-Mails senden
    * Sofortige Benachrichtigungen
    * Tägliche Zusammenfassung
-   * Wöchentliche Digest
+   * Wöchentliche Zusammenfassung
 
 ## Profil
 
@@ -142,31 +142,31 @@ Sehen wir uns nun aber die Registerkarten auf der linken Seite der [!DNL Target]
 
 ## Aktivitäten
 
-Die Liste **[!UICONTROL Activities]** ist die Standardansicht beim Öffnen von [!DNL Target]. Sie können auf dieser Seite Aktivitäten erstellen und vorhandene Aktivitäten verwalten.
+Die **[!UICONTROL Activities]** ist die Standardansicht beim Öffnen von [!DNL Target]. Sie können Aktivitäten auf dieser Seite erstellen und vorhandene Aktivitäten verwalten.
 
 ![Aktivitätenliste](/help/main/c-intro/assets/activities-list.png)
 
-Detaillierte Informationen zu den in [!DNL Target] verfügbaren Aktivitätstypen und weitere Informationen zur Benutzeroberfläche der Liste [!UICONTROL Activity] finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md) .
+Unter [Aktivitäten](/help/main/c-activities/activities.md) finden Sie detaillierte Informationen zu den in [!DNL Target] verfügbaren Aktivitätstypen sowie weitere Informationen zur Benutzeroberfläche der [!UICONTROL Activity].
 
 ## Zielgruppen
 
-Klicken Sie auf die Registerkarte **[!UICONTROL Audiences]** , um die Liste [!UICONTROL Audiences] anzuzeigen, in der Sie Zielgruppen erstellen und bestehende Zielgruppen verwalten können.
+Klicken Sie auf die Registerkarte **[!UICONTROL Audiences]** , um die [!UICONTROL Audiences] Liste anzuzeigen, in der Sie Audiences erstellen und vorhandene Audiences verwalten können.
 
 ![Liste der Zielgruppen](/help/main/c-intro/assets/audience-list.png)
 
-Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, für die eine zielgerichtete Aktivität angezeigt wird. Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder wiederkehrende Besucher aus einer bestimmten Region. Mit der Funktion [!UICONTROL Audience] können Sie verschiedene Inhalte und Erlebnisse auf bestimmte Zielgruppen ausrichten, um Ihr digitales Marketing zu optimieren, indem Sie die richtigen Botschaften zum richtigen Zeitpunkt für die richtigen Personen anzeigen. Wird ein Besucher als Teil einer Zielgruppe identifiziert, bestimmt [!DNL Target] basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis ihm angezeigt wird.
+Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, denen eine zielgerichtete Aktivität angezeigt wird. Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder wiederkehrende Besucher aus einer bestimmten Region. Mit der [!UICONTROL Audience]-Funktion können Sie Ihre Inhalte und Erlebnisse speziell an bestimmte Zielgruppen anpassen. Durch geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen können Sie so Ihr digitales Marketing optimieren. Wird ein Besucher als Teil einer Zielgruppe identifiziert, bestimmt [!DNL Target] basierend auf den Kriterien, die bei der Erstellung der Aktivität festgelegt wurden, welches Erlebnis ihm angezeigt wird.
 
-Detaillierte Informationen zu den Zielgruppentypen in [!DNL Target] finden Sie unter [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/create-audience.md) und weitere Informationen zur Benutzeroberfläche der Liste [!UICONTROL Audience] .
+Unter [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/create-audience.md) finden Sie detaillierte Informationen zu den Zielgruppentypen in [!DNL Target] und weitere Informationen zur Benutzeroberfläche der [!UICONTROL Audience].
 
 ## Angebote
 
-Klicken Sie auf die Registerkarte **[!UICONTROL Offers]** , um die Liste [!UICONTROL Offers] anzuzeigen, in der Sie Erlebnisse und Angebote erstellen und vorhandene Erlebnisse und Angebote verwalten können.
+Klicken Sie auf die Registerkarte **[!UICONTROL Offers]** , um die [!UICONTROL Offers] Liste anzuzeigen, in der Sie Erlebnisse und Angebote erstellen und vorhandene Erlebnisse und Angebote verwalten können.
 
 ![Liste der Angebote](/help/main/c-intro/assets/offers.png)
 
 Ein Erlebnis kann ein Angebot, ein Bild, ein Text, eine Schaltfläche, ein Video, eine Kombination dieser Elemente auf einer Seite, eine gesamte Webseite oder mehrere Seiten sein, die möglicherweise einen Kauftrichter oder eine andere logische Seitenfolge bilden. Ein Erlebnis kann auch die Antwort eines Sprachassistenten, ein Skript für den Kundendienst oder sogar ein personalisierter Geschmack in einem Getränkeautomaten sein. Sie können Erlebnisse in [!DNL Target] Aktivitäten testen oder personalisieren.
 
-Detaillierte Informationen zu den Angebotstypen in [!DNL Target] finden Sie unter [Angebote](/help/main/c-experiences/c-manage-content/manage-content.md) und weitere Informationen zur Benutzeroberfläche der Liste [!UICONTROL Offer] .
+Unter [Angebote](/help/main/c-experiences/c-manage-content/manage-content.md) finden Sie detaillierte Informationen zu den Angebotstypen in [!DNL Target] und weitere Informationen zur Benutzeroberfläche der [!UICONTROL Offer].
 
 ## Recommendations
 
@@ -180,14 +180,14 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Recommendations]** , um auf [!DN
 
 [!UICONTROL Recommendations] -Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Recommendations tragen dazu bei, Kundinnen und Kunden zu relevanten Elementen zu lenken, von denen sie andernfalls möglicherweise nichts wüssten.
 
-Detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] finden Sie unter [Recommendations](/help/main/c-recommendations/recommendations.md) und weitere Informationen zur Benutzeroberfläche von [!UICONTROL Recommendations].
+Unter [Recommendations](/help/main/c-recommendations/recommendations.md) finden Sie detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] und weitere Informationen zur [!UICONTROL Recommendations].
 
 ## Administrations-
 
-Klicken Sie auf die Registerkarte **[!UICONTROL Administration]** , um auf die Seiten [!UICONTROL Administration] zuzugreifen.
+Klicken Sie auf die Registerkarte **[!UICONTROL Administration]** , um auf die [!UICONTROL Administration] Seiten zuzugreifen.
 
 ![Administrationsseiten](/help/main/c-intro/assets/administration.png)
 
-Auf den [!UICONTROL Administration] -Seiten können Sie [!DNL Target] verwalten, einschließlich Konfigurationseinstellungen für [!UICONTROL Visual Experience Composer] (VEC), Berichterstellung, Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzer.[!DNL Scene7]
+Auf den [!UICONTROL Administration] Seiten können Sie [!DNL Target] verwalten, einschließlich Konfigurationseinstellungen für den [!UICONTROL Visual Experience Composer] (VEC), Reporting, [!DNL Scene7], Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzern.
 
 Unter [Verwaltung von Target – Überblick](/help/main/administrating-target/administrating-target.md) finden Sie detaillierte Informationen zur Verwaltung von Target und weitere Informationen zur Benutzeroberfläche der Administrationsseiten.

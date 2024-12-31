@@ -54,33 +54,33 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-
 
 ### [!UICONTROL Auto-Allocate]
 
-[!UICONTROL Auto-Allocate] identifiziert einen Gewinner unter zwei oder mehr Erlebnissen. [!UICONTROL Auto-Allocate] ordnet dem erfolgreichsten Erlebnis automatisch mehr Traffic zu, wodurch Konversionen erhöht werden können, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.
+[!UICONTROL Auto-Allocate] ermittelt aus zwei oder mehr Erlebnissen den Gewinner. [!UICONTROL Auto-Allocate] ordnet automatisch dem erfolgreichsten Erlebnis mehr Traffic zu, wodurch sich die Konversionen während der Fortführung des Tests und des Lernens erhöhen.
 
 Weitere Informationen finden Sie unter [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) .
 
 ### [!UICONTROL Auto-Target] (AT)
 
-[!UICONTROL Auto-Target] verwendet das erweiterte maschinelle Lernen, um aus mehreren leistungsstarken Erlebnissen mit Marketingexperten auszuwählen. [!UICONTROL Auto-Target] stellt jedem Besucher das am besten angepasste Erlebnis bereit. Die Bereitstellung des Erlebnisses basiert auf den Profilen der jeweiligen Kunden sowie dem Verhalten früherer Besucher mit ähnlichen Profilen. Verwenden Sie [!UICONTROL Auto-Target], um Inhalte zu personalisieren und Konversionen zu fördern.
+[!UICONTROL Auto-Target] verwendet fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen. [!UICONTROL Auto-Target] stellt jedem Besucher das passendste Erlebnis bereit. Die Bereitstellung des Erlebnisses basiert auf den Profilen der jeweiligen Kunden sowie dem Verhalten früherer Besucher mit ähnlichen Profilen. Verwenden Sie [!UICONTROL Auto-Target], um Inhalte zu personalisieren und Konversionen zu fördern.
 
 Weitere Informationen finden Sie unter [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten zu. Die Bereitstellung der personalisierten Inhalte basiert auf den Profilen der jeweiligen Kunden und führt dadurch zur Steigerung der Konversionsraten.
+[!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besucher/innen durch fortschrittliche Algorithmen für maschinelles Lernen verschiedene Varianten zu. Die Bereitstellung der personalisierten Inhalte basiert auf den Profilen der jeweiligen Kunden und führt dadurch zur Steigerung der Konversionsraten.
 
 Weitere Informationen finden Sie unter [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
 ### [!UICONTROL Experience Targeting] (XT)
 
-[!UICONTROL Experience Targeting] (XT) stellt Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz von durch Marketingexperten definierten Regeln und Kriterien bereit.
+[!UICONTROL Experience Targeting] (XT) stellt Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden.
 
-[!UICONTROL Experience Targeting], einschließlich Geotargeting, ist nützlich zum Definieren von Regeln, die ein bestimmtes Erlebnis oder einen bestimmten Inhalt auf eine bestimmte Zielgruppe ausrichten. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Site anzeigen, wertet [!UICONTROL Experience Targeting] (XT) sie aus, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+[!UICONTROL Experience Targeting], einschließlich Geotargeting, ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Site aufrufen, werden sie von [!UICONTROL Experience Targeting] (XT) ausgewertet, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Ist dies der Fall, treten sie in die Aktivität ein und das für die qualifizierenden Zielgruppen entworfene Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
 Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
 ### [!UICONTROL Multivariate Test] (MVT)
 
-[!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen aus Angeboten in Elementen auf einer Seite, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+[!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
 Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
@@ -148,14 +148,14 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Benutzer
 
 * [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die Dienstgütevereinbarung (Service Level Agreement, SLA) von Adobe gewährleistet werden.
 * Das Edge-Netzwerk stellt eine rechtzeitige Datenbereitstellung sicher.
-* [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz ein, um seine Anwendungen zu sichern, um Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit zu bieten.
+* [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, um Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit zu bieten.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
 
 ## Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
-Google unterstützt Benutzertests. Google stellt in seiner Dokumentation fest, dass A/B und [!UICONTROL Multivariate Testing] organische Suchmaschinen-Rankings nicht beeinträchtigen, wenn Sie bestimmte Richtlinien befolgen.
+Google unterstützt Benutzertests. Google gibt in seiner Dokumentation an, dass A/B und [!UICONTROL Multivariate Testing] das organische Suchmaschinenranking nicht beeinträchtigen, wenn bestimmte Richtlinien eingehalten werden.
 
 Weitere Informationen finden Sie unter folgenden Google-Ressourcen:
 
@@ -194,7 +194,7 @@ Zusätzlich zu diesen Richtlinien stellt Google eine weitere Richtlinie in der D
 
 Als Beispiel gibt Google an: „Wenn eine Originalseite voller Keywords ist, die nicht den für die Benutzer verfügbaren Inhalten entsprechen, kann diese Seite aus unserem Index entfernt werden.“
 
-[!UICONTROL Adobe] ist der Ansicht, dass es schwierig wäre, die Bedeutung des Originalinhalts in Testvarianten unbeabsichtigt zu ändern. [!UICONTROL Adobe] empfiehlt jedoch, sich der Suchbegriffthemen auf einer Seite bewusst zu sein und diese Themen zu verwalten. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Keywords, kann dazu führen, dass sich das organische Ranking der Seite ändert. [!DNL Adobe] empfiehlt, den SEO-Partner in den Testvorgang einzubeziehen.
+[!UICONTROL Adobe] ist der Ansicht, dass eine unbeabsichtigte Änderung der Bedeutung des ursprünglichen Inhalts in Testvarianzen kaum möglich ist. [!UICONTROL Adobe] empfiehlt jedoch, sich der Keyword-Themen auf einer Seite bewusst zu sein und diese Themen zu pflegen. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Keywords, kann dazu führen, dass sich das organische Ranking der Seite ändert. [!DNL Adobe] empfiehlt, den SEO-Partner in den Testvorgang einzubeziehen.
 
 ## Bots {#bots}
 
@@ -211,11 +211,11 @@ Insbesondere unterlässt [!DNL Target] bei Traffic, der durch bekannte Bots gene
 * Ein Besucherprofil erstellen oder abrufen
 * Profilattribute erfassen oder Profilskripte ausführen
 * Nach [!DNL Adobe Audience Manager] (AAM)-Segmenten suchen (falls zutreffend).
-* Verwenden Sie Bot-Traffic bei der Modellierung und Bereitstellung personalisierter Inhalte für Aktivitäten vom Typ [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Allocate]
+* Bot-Traffic für die Modellierung und Bereitstellung personalisierter Inhalte für [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Allocate] Aktivitäten verwenden
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Für bekannten Bot-Traffic bei Verwendung von [!UICONTROL Analytics for Target] (A4T): [!DNL Target] nicht:
+Für bekannten Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for Target] (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 

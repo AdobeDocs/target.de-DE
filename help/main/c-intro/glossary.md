@@ -146,7 +146,7 @@ Messung des Besucherinteresses an einer Site, gemessen anhand von Besuchszeit pr
 
 **Enhanced Experience Composer**
 
-Die [!UICONTROL Enhanced Experience Composer] ist eine Erweiterung von [!UICONTROL Visual Experience Composer], mit der Sie ein Erlebnis für eine iFrame-Busting-Site oder Seiten bearbeiten können, die noch nicht über die [!DNL Target] -Implementierung verfügen. Wenn Sie Probleme beim Öffnen Ihrer Seite in der [!UICONTROL Visual Experience Composer] haben, versuchen Sie die [!UICONTROL Enhanced Experience Composer].
+Der [!UICONTROL Enhanced Experience Composer] ist eine Erweiterung des [!UICONTROL Visual Experience Composer], mit dem Sie ein Erlebnis für eine iFrame-Busting-Site oder Seiten bearbeiten können, die noch nicht die [!DNL Target]-Implementierung enthalten. Wenn Sie Probleme beim Öffnen der Seite im [!UICONTROL Visual Experience Composer] haben, versuchen Sie es mit dem [!UICONTROL Enhanced Experience Composer].
 
 **Enterprise-Benutzerberechtigungen**
 
@@ -344,7 +344,7 @@ Eine Aktivität, die Erlebnisse mit den von Ihnen definierten Erfolgsmetriken ve
 
 Dieser Interaktionstyp entspricht der während des Besuchs verbrachten Zeit (in Sekunden) ab der Anzeige der ersten Anzeige-Mbox bis zum Laden der letzten Seite während der Sitzung mit einer Mbox.
 
-## U {#section_6407B81326FF43049D92265746E6C402}
+## U-{#section_6407B81326FF43049D92265746E6C402}
 
 **URL-Parameter**
 

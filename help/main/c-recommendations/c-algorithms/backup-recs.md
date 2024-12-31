@@ -1,8 +1,8 @@
 ---
 keywords: Empfehlung; Backup; Sicherung
-description: Erfahren Sie, wie Sie Sicherungsempfehlungen in Adobe [!DNL Target] Recommendations verwenden. Empfehlungen, die nicht genügend empfohlene Artikel enthalten, zeigen die Ergebnisse des Backup-Algorithmus an.
-title: Wie verwende ich eine Reserveempfehlung in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+description: Erfahren Sie, wie Sie Sicherungsempfehlungen in Adobe [!DNL Target] Recommendations verwenden. Empfehlungen, für die nicht genügend empfohlene Elemente vorhanden sind, zeigen die Ergebnisse des Backup-Algorithmus an.
+title: Wie verwende ich eine Sicherungsempfehlung in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
@@ -14,13 +14,13 @@ ht-degree: 77%
 
 # Verwenden einer Reserveempfehlung
 
-Wenn Sie die Funktion für Reserveempfehlungen in [!DNL Adobe Target] verwenden, zeigt eine Empfehlung, die nicht genügend empfohlene Artikel enthält, keinen Standardinhalt an. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
+Wenn Sie die Funktion „Recommendations sichern“ in [!DNL Adobe Target] verwenden, werden für jede Empfehlung, die nicht über genügend empfohlene Elemente verfügt, keine Standardinhalte angezeigt. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
 
 Wenn Sie keine Reserveempfehlung verwenden, zeigt das System dem Benutzer Standardinhalt an, wenn eine Empfehlung nicht genügend Artikel zum Ausfüllen der Anzeige aufweist.
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie im Abschnitt [Inhalt des Themas Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) , einschließlich einer Matrix, die die Ergebnisse erläutert, die bei der Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] zusammen oder getrennt zu beobachten sind.
+>Weitere Informationen finden Sie im Abschnitt [Inhalt“ des Themas Erstellen von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), einschließlich einer Matrix, in der die Ergebnisse erläutert werden, die Sie bei der gemeinsamen oder separaten Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] beobachten werden.
 
 Wenn die Daten des Algorithmus aufgebraucht sind, füllt die Funktion „Reserveempfehlung“ verbleibende Slots immer mit den am häufigsten angezeigten Artikeln der Site aus. Beispiel: Ihre Vorlage wurde so konfiguriert, dass fünf empfohlene Artikel angezeigt werden, und Sie verwenden den Algorithmus *Kaufpräferenzen*. Da Sie jedoch nur über genügend Daten für zwei Slots verfügen, füllt die Funktion „Reserveempfehlung“ die verbleibenden drei Slots immer mit den am häufigsten angezeigten Artikeln aus.
 
@@ -49,4 +49,4 @@ Duplikate werden aus Empfehlungen-Batches entfernt.
 
 Die Nutzung von Reserveempfehlungen ist normalerweise Gegenstand der Diskussion im Implementierungsteam während des ersten Setups. Wenn Sie die Einstellungen für die Reserveempfehlung ändern möchten, wenden Sie sich bitte an Ihren Kundenbetreuer.
 
-Wenn &quot;Teilweises Design-Rendering aktivieren&quot;(siehe [Inhaltseinstellungen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und die Vorlage nicht angezeigt wird, wird stattdessen entweder die Reserveempfehlung oder der Standardinhalt angezeigt.
+Wenn die Option Teilweises Design-Rendering aktivieren ([Inhaltseinstellungen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und die Vorlage nicht angezeigt wird, wird stattdessen entweder die Backup-Empfehlung oder der Standardinhalt angezeigt.

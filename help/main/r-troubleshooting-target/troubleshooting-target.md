@@ -1,5 +1,5 @@
 ---
-keywords: Fehlerbehebung in Target;Fehlerbehebung in Target;Probleme beheben
+keywords: Fehlerbehebung in Target; Fehlerbehebung in Target; Beheben von Problemen
 description: Eine Liste der Themen, die Sie bei der Fehlerbehebung in Adobe Target unterstützen, darunter Fehlerbehebungsthemen, häufig gestellte Fragen (FAQs) und weitere hilfreiche Informationen.
 title: Wie behebe ich Fehler in Target?
 feature: Troubleshooting

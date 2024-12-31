@@ -1,8 +1,8 @@
 ---
-keywords: Katalogsuche; Katalog; Suche; Ausschluss; Sammlung; Filter; Empfehlungen
-description: Erfahren Sie, wie Sie mit dem  [!DNL Recommendations] [!UICONTROL Catalog Search] Produkte oder Inhalte finden, Elemente aus Ihrem Katalog entfernen und vieles mehr.
-title: Wie verwende ich den [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
+description: Erfahren Sie, wie Sie mit dem  [!DNL Recommendations] [!UICONTROL Catalog Search] Produkte oder Inhalte finden, Elemente aus Ihrem Katalog entfernen können und vieles mehr.
+title: Wie verwende ich das  [!DNL Recommendations] [!UICONTROL Catalog Search]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -16,11 +16,11 @@ ht-degree: 21%
 
 # [!UICONTROL Catalog Search]
 
-Die Seite [!UICONTROL Catalog Search] in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, ist die Suche nach einem Element. Darüber hinaus können Sie die Umgebung ändern, Facetten filtern, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
+Die [!UICONTROL Catalog Search] Seite in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, besteht darin, nach einem Element zu suchen. Darüber hinaus können Sie die Umgebung ändern, Facetten filtern, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
 
-Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten, um Ihre Produkte in logischen Behältern zu organisieren.
+Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten, sodass Sie Ihre Produkte in logischen Buckets organisieren können.
 
-## Zugriff [!UICONTROL Catalog Search]
+## [!UICONTROL Catalog Search]
 
 Um auf die Seite [!UICONTROL Catalog Search] zuzugreifen, klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
@@ -28,9 +28,9 @@ Um auf die Seite [!UICONTROL Catalog Search] zuzugreifen, klicken Sie auf **[!UI
 
 ## Einfache Suche durchführen
 
-1. Geben Sie einen Suchbegriff in das Feld **[!UICONTROL Search In]** ein.
+1. Geben Sie einen Suchbegriff in das **[!UICONTROL Search In]** ein.
 
-1. (Optional) Sie können Ihre Suche verfeinern, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie auf den Abwärtspfeil im Feld [!UICONTROL Search In] klicken.
+1. (Optional) Sie können Ihre Suche einschränken, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie auf den Abwärtspfeil im [!UICONTROL Search In] klicken.
 
    Zu den Suchoptionen zählen:
 
@@ -44,9 +44,9 @@ Um auf die Seite [!UICONTROL Catalog Search] zuzugreifen, klicken Sie auf **[!UI
    >
    > Wenn Sie einen Katalog nach einem benutzerdefinierten Attribut mit einem numerischen Wert durchsuchen, wird das benutzerdefinierte Attribut als String-Typ (Zeichenfolge) und nicht als numerischer Wert betrachtet.
    >
-   >Es ist derzeit keine Funktion verfügbar, mit der Sie den Typ eines Attributs ändern können. Wenn Sie eine Änderung vornehmen müssen, eröffnen Sie ein [Supportticket](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie darin die Attribute an, deren Typ von „String“ in „numerisch“ geändert werden muss.
+   >Derzeit gibt es keine Funktion, mit der Sie den Attributtyp ändern können. Wenn Sie eine Änderung vornehmen müssen, eröffnen Sie ein [Supportticket](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie darin die Attribute an, deren Typ von „String“ in „numerisch“ geändert werden muss.
 
-   Sie können auch Filter verwenden, um die gewünschten Produkte zu finden. Beispielsweise werden durch Klicken auf das Symbol **[!UICONTROL Show Filters]** ( ![Symbol Filter anzeigen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), Erweitern der Facette [!UICONTROL Collections] und Auswählen einer oder mehrerer Sammlungen alle Produkte angezeigt, die zu den ausgewählten Sammlungen in Ihrem Katalog gehören.
+   Sie können auch Filter verwenden, um die gewünschten Produkte zu finden. Wenn Sie beispielsweise auf das Symbol **[!UICONTROL Show Filters]** ( ![Symbol Filter anzeigen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ) klicken, die [!UICONTROL Collections] Facette erweitern und dann eine oder mehrere Sammlungen auswählen, werden alle Produkte angezeigt, die zu den ausgewählten Sammlungen in Ihrem Katalog gehören.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -76,7 +76,7 @@ Sie können die Details eines einzelnen Elements, einschließlich ID, Name, Nach
 
 1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen.
 
-## Entfernen eines Artikels aus dem Katalog
+## Entfernen eines Elements aus dem Katalog
 
 1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen.
 
@@ -88,9 +88,9 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [festgelegten Zeitplan](/help/main/c-recommendations/c-products/feeds.md#steps) aktualisiert.
+Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [ Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen sind in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
+Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
 <!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
 
@@ -106,13 +106,13 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
    >
    >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
 
-## Umgebung ändern
+## Ändern der Umgebung
 
-Mit [Umgebungen](/help/main/administrating-target/environments.md) können Sie Ihre Sites und Umgebungen vor der Produktion für einfache Verwaltung und separate Berichterstattung organisieren.
+[Umgebungen](/help/main/administrating-target/environments.md) ermöglichen Ihnen das Organisieren Ihrer Sites und Vorproduktionsumgebungen für einfaches Management und separates Reporting.
 
-1. Klicken Sie auf das Symbol Filter anzeigen ( ![Symbol Filter anzeigen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. Klicken Sie auf das Symbol Filter anzeigen ![Symbol Filter anzeigen](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) .
 
-1. Wählen Sie die gewünschte Umgebung aus der Dropdownliste **[!UICONTROL Environment]** aus.
+1. Wählen Sie die gewünschte Umgebung aus der Dropdown-Liste **[!UICONTROL Environment]** aus.
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,10 +134,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Spalten ändern
 
-Sie können die aktiven Spalten auf der Seite [!UICONTROL Catalog Search] vorübergehend ändern.
+Sie können die aktiven Spalten auf der [!UICONTROL Catalog Search] vorübergehend ändern.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Customize Table]** ( ![Symbol &quot;Tabelle anpassen&quot;](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Klicken Sie auf das Symbol **[!UICONTROL Customize Table]** ( ![Symbol Tabelle anpassen](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
 
-1. Aktivieren oder deaktivieren Sie die gewünschten Spalten, die Sie ein- oder ausblenden möchten.
+1. Wählen Sie die gewünschten Spalten aus, die Sie anzeigen oder ausblenden möchten, oder heben Sie die Auswahl auf.
 
-Beachten Sie, dass alle Änderungen, die Sie vornehmen, nur für die aktuelle Sitzung gelten.
+Beachten Sie, dass alle von Ihnen vorgenommenen Änderungen nur für die aktuelle Sitzung gelten.

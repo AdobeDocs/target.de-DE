@@ -2,7 +2,7 @@
 keywords: Recommendations; Intro; Einführung; Webinar; Demo
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was sind Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
@@ -26,7 +26,7 @@ Die folgende Abbildung zeigt eine Empfehlung, die Zubehör präsentiert, das hä
 
 ![Empfehlung von Zubehör, das andere mit einem neuen Handy gekauft haben.](/help/main/c-recommendations/assets/intro-1.png)
 
-Aber was wir nicht immer denken ist, wie digitale Marken die Maßstäbe für Kundenerwartungen erhöhen. Unser Konsum von Medien und Inhalten wird immer mehr von personalisierten Empfehlungen gesteuert. Überlegen Sie, was Sie als Erstes sehen, wenn Sie Netflix, Spotify oder YouTube öffnen. Diese Unternehmen beginnen das Kundenerlebnis mit Empfehlungen. In einer Welt, in der mehr Alternativen zur Verfügung stehen als je zuvor, ist es wichtig, dass Sie die relevantesten Inhalte für Ihren Kunden zum Zeitpunkt der Interaktion ermitteln können.
+Aber wir denken nicht immer darüber nach, wie Digital-First-Marken die Messlatte der Kundenerwartungen höher legen. Unser Konsum von Medien und Inhalten wird immer mehr von personalisierten Empfehlungen gesteuert. Überlegen Sie, was Sie als Erstes sehen, wenn Sie Netflix, Spotify oder YouTube öffnen. Diese Unternehmen beginnen das Kundenerlebnis mit Empfehlungen. In einer Welt, in der mehr Alternativen denn je verfügbar sind, ist es entscheidend, dass Sie die relevantesten Inhalte für Ihre Kundinnen und Kunden am Punkt der Interaktion identifizieren können.
 
 ![Empfehlung, die digitale Marken präsentiert](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -53,9 +53,9 @@ Wie sehen gute Empfehlungen aus?
 
 Gute Empfehlungen sollten relevant und personalisiert sein. Zur Steigerung der Relevanz und Personalisierung benötigen Sie drei Dinge:
 
-* **Steuerelemente für Marketingexperten**, um die Relevanz der empfohlenen Artikel zu steigern. Als Marketingexperte haben Sie wertvolles Hintergrundwissen und verstehen, welche Attribute Ihrer Produkte oder Inhalte für ein Empfehlungsmodell relevant sind. Wenn Sie eine Video-Site betreiben, wissen Sie, dass die Benutzer vielleicht daran interessiert sind, Filme vom selben Regisseur zu sehen, aber wahrscheinlich interessiert es sich nicht, Filme zu sehen, die im selben Studio produziert wurden. [!DNL Target] stellt Ihnen Steuerelemente zur Verfügung, mit denen Sie Ihre Algorithmen auf der Basis dieser Branchenkenntnis verbessern können.
+* **Steuerelemente für Marketingexperten**, um die Relevanz der empfohlenen Artikel zu steigern. Als Marketingexperte haben Sie wertvolles Hintergrundwissen und verstehen, welche Attribute Ihrer Produkte oder Inhalte für ein Empfehlungsmodell relevant sind. Wenn Sie eine Videoseite betreiben, wissen Sie, dass Benutzer vielleicht daran interessiert sind, Filme vom selben Regisseur zu sehen, aber wahrscheinlich kümmert es Sie nicht, Filme zu sehen, die vom selben Studio produziert wurden. [!DNL Target] stellt Ihnen Steuerelemente zur Verfügung, mit denen Sie Ihre Algorithmen auf der Basis dieser Branchenkenntnis verbessern können.
 * **Hochentwickelte Modelle**, um die Millionen von Artikeln in Ihrem Katalog und den Interaktionsereignissen sinnvoll zu ordnen. [!DNL Target] besitzt eine fortschrittliche maschinelle Lernfunktionen, die sich auf jahrelange Erfahrung stützt. Zusätzlich handhaben wir Jahr für Jahr Milliarden von Empfehlungen.
-* **Benutzerkontext**, um sicherzustellen, dass Empfehlungen zeitgerecht und für Ihre Benutzer relevant sind. Sie möchten nicht das Video empfehlen, das jemand gerade gesehen hat, oder das Hemd, das jemand gerade zum Warenkorb hinzugefügt hat. Das umfassende Benutzerprofil von Target kann in Empfehlungen verwendet werden, um eine Personalisierung sicherzustellen.
+* **Benutzerkontext**, um sicherzustellen, dass Empfehlungen zeitgerecht und für Ihre Benutzer relevant sind. Sie möchten das Video, das jemand gerade angesehen hat, oder das Hemd, das jemand gerade zum Warenkorb hinzugefügt hat, nicht empfehlen. Das umfangreiche Benutzerprofil von Target kann in Recommendations verwendet werden, um Personalisierung sicherzustellen.
 
 ## Implementieren von [!DNL Target] Recommendations
 
@@ -103,9 +103,9 @@ Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Impl
 
 ![Abbildung, die zeigt wie das Benutzerverhalten erfasst wird](/help/main/c-recommendations/assets/intro-9.png)
 
-Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, können Sie eine andere Art von Konversionsereignis verfolgen, z. B. das Herunterladen einer PDF, das Abschließen einer Umfrage, das Abonnieren eines Newsletters, das Ansehen eines Videos usw.
+Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, sollten Sie einen anderen Konversionstyp verfolgen, z. B. das Herunterladen einer PDF, das Ausfüllen einer Umfrage, das Abonnieren eines Newsletters, das Ansehen eines Videos usw.
 
-Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Ist dies nicht der Fall, ist es am einfachsten, dies mithilfe eines Tag-Managers wie Tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank} einzurichten. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
+Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
 
 ### Erhalten von Empfehlungen mit dem richtigen Kontext
 
@@ -129,7 +129,7 @@ Eine [!DNL Recommendations]-Aktivität besteht aus folgenden Komponenten:
 
 ![Abbildung einer Recommendations-Aktivität: Zielgruppen, Kriterien und Designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Wir hatten frühere [Webinare zum Erstellen von Zielgruppen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
+Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Es gibt auch frühere [ zum Erstellen von Zielgruppen ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
 
 Target verwendet das Konzept einer Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
 

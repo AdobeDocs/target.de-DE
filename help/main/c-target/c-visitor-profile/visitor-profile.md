@@ -1,6 +1,6 @@
 ---
 keywords: Übersicht und Referenz
-description: Erfahren Sie mehr über Besucherprofile, die Informationen darüber enthalten, wie Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
+description: Erfahren Sie mehr über Besucherprofile, die Informationen darüber enthalten, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
 title: Was sind Besucherprofile?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
@@ -15,9 +15,9 @@ ht-degree: 38%
 
 Besucherprofile in [!DNL Adobe Target] enthalten Informationen darüber, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
 
-Wenn [!DNL Target] mit anderen [!DNL Adobe Experience Cloud] -Lösungen wie [!DNL Adobe Analytics] verwendet wird, gibt [!DNL Experience Cloud Audiences] Besucherinformationen lösungsübergreifend frei.
+Wenn [!DNL Target] mit anderen [!DNL Adobe Experience Cloud]-Lösungen wie [!DNL Adobe Analytics] verwendet wird, gibt [!DNL Experience Cloud Audiences] Besucherinformationen lösungsübergreifend weiter.
 
-Standardmäßig werden [!DNL Target] -Profilinformationen in einem Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
+Standardmäßig werden [!DNL Target] Profilinformationen in einem einzigen Erstanbieter-Cookie gespeichert. Die Konfiguration kann einfach angepasst werden, um auch Drittanbieter-Cookies zu beliefern.
 
 Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 

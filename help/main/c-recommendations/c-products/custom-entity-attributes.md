@@ -1,8 +1,8 @@
 ---
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrem Adobe [!DNL Target] Recommendations-Katalog zu definieren.
+description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrem Adobe [!DNL Target] Recommendations-Katalog zu definieren.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Benutzerdefinierte Entitätsattribute
 
-Verwenden Sie in [!DNL Adobe Target Recommendations] benutzerdefinierte Entitätsattribute mit einzelnen und mehreren Werten, um zusätzliche Informationen zu Artikeln in Ihrem Katalog zu definieren.
+Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um zusätzliche Informationen über Elemente in Ihrem Katalog zu definieren.
 
 ## Beschränkungen {#limits}
 
@@ -29,7 +29,7 @@ Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte entha
 
 Benutzerdefinierte Entitätsattribute können einen oder mehrere Werte umfassen. Die Werte der Entitätsattribute werden in der Produktansicht dargestellt.
 
-![Mehrwert-Produktbild](assets/multi-value_product.png)
+![Multi-Value_Product Image](assets/multi-value_product.png)
 
 Ein benutzerdefinierter Entitätswert mit einem einzelnen Wert ist genauso aufgebaut wie ein vordefiniertes Entitätsattribut mit nur einem Wert:
 
@@ -63,7 +63,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 
 ## Implementieren von Attributen mit mehreren Werten {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` und die Bereitstellungs-API zum Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ( [] ) werden wie Arrays ohne Werte behandelt.
+Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, wenn Feeds (CSV), `targetPageParams` und die Bereitstellungs-API zum Hochladen von Produkten verwendet werden. Alte Werte werden durch neue Werte ersetzt, nicht ergänzt. Leere Arrays ( [] ) werden so behandelt, als hätten sie keine Werte.
 
 Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beispiel ist `"[""test"", ""value""]"` ein gültiges JSON-Array, das in CSV verwendet werden kann.
 
@@ -88,17 +88,17 @@ function targetPageParams() {
 }
 ```
 
-### CSV verwenden
+### Verwenden von CSV
 
 Sie können Ihre CSV-Dateien im Rohformat verwalten, indem Sie einen Texteditor verwenden oder stattdessen mit einem Tabellenkalkulationsprogramm arbeiten.
 
 Eine CSV-Datei im Rohformat sieht wie folgt aus:
 
-![multi-value_example_raw image](assets/multi-value_example_raw.png)
+![Multi-value_example_raw Bild](assets/multi-value_example_raw.png)
 
 Der gleiche Katalog sieht im Tabellenformat so aus:
 
-![multi-value_example_excel image](assets/multi-value_example_excel.png)
+![Multi-value_example_excel Bild](assets/multi-value_example_excel.png)
 
 Wird eine Tabelle in das .csv-Format konvertiert, werden vom Programm automatisch doppelte Anführungzeichen um Zelleninhalte gelegt, damit Kommata in den Zellenwerten nicht als Spaltentrennzeichen interpretiert werden. Außerdem werden doppelte Anführungszeichen um JSON-Zeichenfolgenwerte gelegt, die in benutzerdefinierten Attributen mit mehreren Werten enthalten sind. Die Arbeit mit der Rohdatei erschwert sich hierdurch etwas. Beispiel:
 
@@ -109,7 +109,7 @@ Gehen Sie bei der direkten Bearbeitung einer CSV-Katalogdatei im Rohformat vorsi
 
 ### Verwenden von APIs
 
-Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in einem Mbox-Parameter als Zeichenfolgenwert übergeben, der ein escaptes JSON-Array enthält.
+Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in einem Mbox-Parameter als Zeichenfolgenwert übergeben, der ein JSON-Array mit Escape-Zeichen enthält.
 
 ```javascript
 "execute": {
@@ -127,20 +127,20 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Informationen zur Verwendung der APIs für die Bereitstellung und Speicherung von Entitäten finden Sie in der [Adobe Recommendations API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} .
+Weitere Informationen zur Verwendung der Bereitstellungs- und ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}-Entitäten-APIs finden Sie in der Dokumentation zur Adobe Recommendations-API [.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln an, lautet das Ergebnis *true* (wahr), wenn mindestens ein Wert in der Liste die Operation (Boolesches *or*) erfolgreich durchläuft.
 
-Im folgenden Beispiel ist die Regel `message contains abc`.
+Im folgenden Beispiel wird die Regel `message contains abc`.
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
-Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn der Operator beispielsweise `notEquals` ist, lautet das Ergebnis *false* , wenn ein beliebiger Wert übereinstimmt.
+Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn beispielsweise der Operator `notEquals` ist, ist das Ergebnis *false* wenn ein Wert übereinstimmt.
 
-In den folgenden Abschnitten finden Sie Informationen zum Benutzerverhalten in Algorithmuseinschlussregeln, Katalogregeln und Ausschlussregeln.
+In den folgenden Abschnitten finden Sie Informationen zum Verhalten von Operatoren in Algorithmus-Einschlussregeln, Katalogregeln und Ausschlussregeln.
 
 ### Gleich
 
@@ -150,7 +150,7 @@ Beispiel: `genre equals abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
-* 3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht.
 
 ### Ist nicht gleich
 
@@ -160,7 +160,7 @@ Beispiel: `genre not equals abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.
 * 2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte `abc`.
-* 3. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht.
+* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht.
 
 ### Enthält
 
@@ -188,7 +188,7 @@ Beispiel: `genre starts with abc`
 
 * 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.
 * 2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`.
-* 3. Fall: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste).
+* Fall 3: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste).
 
 ### Endet mit
 
@@ -203,7 +203,7 @@ Beispiel: `genre ends with abc`
 
 Der Attributwert wird verdoppelt. Attribute, die nicht umgewandelt werden können, werden bei Ausführung der Regel übersprungen.
 
-Nach der Verarbeitung lautet das Ergebnis true (wahr), wenn ein beliebiger Attributwert größer als die eingegebenen Werte oder gleich den eingegebenen Werten ist.
+Nach der Verarbeitung führt jeder Attributwert, der größer oder gleich dem Eingabewert ist, zu „true“.
 
 Beispiel: `price greater than or equal to 100`
 
@@ -214,7 +214,7 @@ Beispiel: `price greater than or equal to 100`
 
 Der Attributwert wird verdoppelt. Attribute, die nicht umgewandelt werden können, werden bei Ausführung der Regel übersprungen.
 
-Nach der Verarbeitung lautet das Ergebnis true (wahr), wenn ein beliebiger Attributwert kleiner als die eingegebenen Werte oder gleich den eingegebenen Werten ist.
+Nach der Verarbeitung führt jeder Attributwert, der kleiner oder gleich dem Eingabewert ist, zu „true“.
 
 Beispiel: `price less than or equal to 100`
 
@@ -241,7 +241,7 @@ Beispiel: `genre does not match abc`
 
 ### Dynamische Bereiche (nur für artikelbasierte Algorithmen verfügbar, ausschließlich numerische Werte)
 
-Liegt ein numerischer Attributwert innerhalb des angegebenen Bereichs, lautet das Ergebnis true (wahr).
+Wenn ein numerischer Attributwert innerhalb des angegebenen Bereichs liegt, führt dies zu „true“.
 
 Beispiel: `price dynamically ranges in 80% to 120% of 100`
 
@@ -252,9 +252,9 @@ Beispiel: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Double* ist ein Java-Datentyp. Bei Operatoren, für die numerische Werte erforderlich sind, werden bei der Verdoppelung alle Werte aus der Ergebnisberechnung ausgeschlossen, die nicht numerisch sind.
 
-## Attribute mit mehreren Werten in Entwürfen {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attribute mit mehreren Werten in Designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Attribute mit mehreren Werten werden als kommagetrennte Liste angezeigt, wenn in einem Entwurf auf sie verwiesen wird.
+Attribute mit mehreren Werten werden als kommagetrennte Liste angezeigt, wenn sie in einem Design referenziert werden.
 
 Beispiel:
 

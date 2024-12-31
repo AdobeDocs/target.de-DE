@@ -1,6 +1,6 @@
 ---
 keywords: Affinität; Kategorieaffinität
-description: Erfahren Sie mehr über die Kategorieaffinität in [!DNL Adobe Target] s, die automatisch Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für diese Kategorie berechnet, sodass diese zielgerichtet und segmentiert eingesetzt werden kann.
+description: Erfahren Sie mehr über die Kategorieaffinität in  [!DNL Adobe Target] , die automatisch Kategorien erfasst, die ein Benutzer besucht, und dann die Affinität des Benutzers für die Kategorie berechnet, damit sie zielgerichtet und segmentiert werden kann.
 title: Was ist Kategorieaffinität?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
@@ -13,11 +13,11 @@ ht-degree: 56%
 
 # Kategorieaffinität
 
-Die Kategorieaffinitätsfunktion in [!DNL Adobe Target] erfasst automatisch die Kategorien auf Ihrer Site, die ein Benutzer besucht, und berechnet dann die Affinität des Benutzers für jede Kategorie, sodass diese zielgerichtet und segmentiert eingesetzt werden kann. Die Kategorieaffinität hilft dabei sicherzustellen, dass Inhalte auf Besucher ausgerichtet sind, die mit hoher Wahrscheinlichkeit aufgrund dieser Informationen handeln.
+Die Funktion zur Kategorieaffinität in [!DNL Adobe Target] erfasst automatisch die Kategorien auf Ihrer Site, die eine Benutzerin oder ein Benutzer besucht, und berechnet dann die Affinität für jede Kategorie, damit sie zielgerichtet eingesetzt und segmentiert werden kann. Mit der Kategorieaffinität können Sie sicherstellen, dass Inhalte auf Besuchende ausgerichtet sind, die am ehesten auf diese Informationen reagieren.
 
 ## Übergeben von Kategorieaffinitätsinformationen an [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein nützlicher Parameter ist `user.categoryId`, ein auf einer Produktseite zugewiesener Mbox-Parameter. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Kategoriedaten können auch aufgezeichnet werden, indem sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich verschachtelter Mboxes), als URL-Parameter `user.categoryId` oder in [!DNL Target] Seitenparametern mit globaler Mbox übergeben werden. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+Wenn ein Benutzer Ihre Site besucht, werden besucherspezifische Profilparameter in der [!DNL Target]-Datenbank aufgezeichnet. Diese Daten sind an das Cookie des Benutzers gebunden. Ein nützlicher Parameter ist `user.categoryId`, ein mbox-Parameter, der auf einer Produktseite zugewiesen wird. Wenn der Besucher weiter auf der Site surft oder für eine andere Sitzung zurückkehrt, können die Produktkategorien aufgezeichnet werden, die sich ein bestimmter Benutzer ansieht. Sie können Kategorieinformationen auch aufzeichnen, indem Sie sie als Mbox-Parameter `user.categoryId` in einer beliebigen Mbox (einschließlich einer verschachtelten Mbox), als URL-Parameter `user.categoryId` oder in [!DNL Target] Seitenparametern mit einer globalen Mbox übergeben. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
 Trennen Sie Kategorien durch ein Komma, um ein Element in mehrere Kategorien einzubeziehen. Beispiel:
 
@@ -25,34 +25,34 @@ Trennen Sie Kategorien durch ein Komma, um ein Element in mehrere Kategorien ein
 
 Auf Grundlage der Häufigkeit und Neuigkeit der Besuche Ihrer Produktkategorien wird die Kategorieaffinität (falls vorhanden) eines Besuchers erfasst. Kategorieaffinität kann zur zielgerichteten Anwendung auf Zielgruppen für Ihre Aktivitäten verwendet werden.
 
-Sie können `user.categoryAffinities[]` in einem Profilskript verwenden, um ein Array der Präferenzen zurückzugeben, die ein Besucher ausgefüllt hat. Weitere Informationen finden Sie unter [user.categoryAffinities unter Objekte und Methoden in Profilattributen](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
+Sie können `user.categoryAffinities[]` in einem Profilskript verwenden, um ein Array der Affinitäten zurückzugeben, die ein Besucher ausgefüllt hat. Weitere Informationen finden Sie unter [user.categoryAffinties unter Objekte und Methoden in Profilattributen](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->Das für den Kategorieaffinitätsalgorithmus verwendete Attribut `user.categoryId` unterscheidet sich vom Attribut `entity.categoryId` , das für die Produkt- und Inhaltsempfehlungen von [!DNL Adobe Target Recommendations] verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist erforderlich, um Empfehlungen auf der Basis der Kategorie der aktuellen Seite oder des aktuellen Elements zu erhalten. Übergeben Sie beide Werte an [!DNL Target] , wenn Sie beide Funktionen verwenden möchten.
+>Das `user.categoryId` Attribut, das für den Kategorieaffinitätsalgorithmus verwendet wird, unterscheidet sich von dem `entity.categoryId` Attribut, das für die Produkt- und Inhaltsempfehlungen der [!DNL Adobe Target Recommendations] verwendet wird. `user.categoryId` ist erforderlich, um die bevorzugte Kategorie eines Benutzers zu verfolgen. `entity.categoryId` ist erforderlich, um Empfehlungen auf der Basis der Kategorie der aktuellen Seite oder des aktuellen Elements zu erhalten. Übergeben Sie beide Werte an [!DNL Target], wenn Sie beide Funktionen verwenden möchten.
 
-## Geschäftsfall für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
+## Business Case für Kategorieaffinität {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-Die Aktivität eines Besuchers in einer Sitzung, z. B. welche Kategorie am häufigsten angezeigt wird, kann bei nachfolgenden Besuchen zum Targeting verwendet werden. Jede Kategorieseite, die sich ein Besucher während seiner Sitzung anzeigen lässt, wird erfasst und seine „Lieblingskategorie“ wird auf Grundlage eines Neuigkeits- und Häufigkeitsmodells berechnet. Anschließend kann bei jedem erneuten Aufrufen der Startseite durch den Besucher der Hero-Image-Bereich angesprochen werden, um Inhalte anzuzeigen, die zu ihrer bevorzugten Kategorie gehören.
+Die Aktivität eines Besuchers in einer Sitzung, z. B. welche Kategorie er am häufigsten anzeigt, kann bei nachfolgenden Besuchen für die Zielgruppenbestimmung verwendet werden. Jede Kategorieseite, die sich ein Besucher während seiner Sitzung anzeigen lässt, wird erfasst und seine „Lieblingskategorie“ wird auf Grundlage eines Neuigkeits- und Häufigkeitsmodells berechnet. Anschließend kann bei jedem erneuten Aufrufen der Startseite durch den Besucher der Hero-Image-Bereich angesprochen werden, um Inhalte anzuzeigen, die zu ihrer bevorzugten Kategorie gehören.
 
 ## Beispiel für die Verwendung der Kategorieaffinität {#section_A4AC0CA550924CB4875F4F4047554C18}
 
 Stellen Sie sich vor, dass Sie online Musikinstrumente verkaufen und zielgerichtete Verkaufs-Promo-Aktionen für Bassgitarren bei Besuchern durchführen möchten, die bereits in der Vergangenheit Interesse an Gitarren gezeigt haben. Mithilfe der Kategorieaffinität können Sie Angebote erstellen, die ausschließlich Besuchern mit der entsprechenden Kategorieaffinität angezeigt werden.
 
-## Kategorieaffinitätsalgorithmus {#section_8B86C7FF50294208866ABF16F07D5EB9}
+## Algorithmus der Kategorieaffinität {#section_8B86C7FF50294208866ABF16F07D5EB9}
 
 Der Algorithmus für die Kategorieaffinität funktioniert wie folgt:
 
 * Zehn Punkte für die erste angezeigte Kategorie
-* Fünf Punkte für jede Kategorie, auf die nach der ersten geklickt wurde
+* Fünf Punkte für jede Kategorie, die nach dem ersten angeklickt wird
 * Wenn auf eine neue Kategorie geklickt wird, wird 1 von allen zuvor angeklickten Kategorien subtrahiert
-* Wenn bereits auf eine Kategorie geklickt wurde (angezeigt), wird durch erneutes Klicken nicht 1 von allen anderen Kategorien subtrahiert
+* Wenn eine Kategorie bereits angeklickt (angezeigt) wurde, wird beim erneuten Klicken 1 nicht von allen anderen Kategorien abgezogen
 * Wenn auf eine sechste neue Kategorie geklickt wird, wird die als am niedrigsten eingestufte Kategorie der ersten fünf Kategorien aus der Berechnung entfernt
 * Teilen Sie am Ende der Sitzung alle Werte durch 2
 
 >[!NOTE]
 >
->Wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden, ist die Reihenfolge der Kategorien in `categoryAffinities` nicht garantiert. Eine beliebige Kategorie wird zuerst aufgezeichnet und erhält einen Wert von 10.
+>Wenn mehrere Kategorien innerhalb eines einzelnen Mbox-Aufrufs übergeben werden, ist die Reihenfolge der Kategorien in `categoryAffinities` nicht garantiert. Eine beliebige Kategorie wird zuerst aufgezeichnet und erhält den Score 10.
 
 ### Beispiel: Kategorieaffinitäts-Algorithmus
 
@@ -98,13 +98,13 @@ Wenn die Sitzung beendet wird und der Benutzer später zur Site zurückkehrt, we
 
 * `beauty`: 1,5 (= 3/2)
 
-## Kategorieaffinität für Targeting verwenden {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
+## Kategorieaffinität für das Targeting verwenden {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategorieaffinitäts-Zielgruppe für das Targeting in einer Aktivität.
+Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategorieaffinität zum Targeting in einer Aktivität.
 
-### Erstellen einer Zielgruppe zur Verwendung der Kategorieaffinität {#section_A27C600BBA664FE7A74F8FE076B78F40}
+### Zielgruppe zur Verwendung der Kategorieaffinität erstellen {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Klicken Sie in der Liste **[!UICONTROL Audiences]** auf **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der **[!UICONTROL Audiences]** auf **[!UICONTROL Create Audience]**.
 
    Oder
 
@@ -112,7 +112,7 @@ Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategoriea
 
 1. Geben Sie einen beschreibenden Namen für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Visitor Profile]** die Option **[!UICONTROL Category Affinity]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Visitor Profile]** die Option **[!UICONTROL Category Affinity]** aus.
 
    ![Besucherprofil > Kategorieaffinität](assets/affinity.png)
 
@@ -129,9 +129,9 @@ Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategoriea
    * Vierte Kategorie
    * Fünfte Kategorie
 
-   Die Optionen &quot;Favoritenkategorie&quot;und &quot;Erste Kategorie&quot;sind identisch.
+   Die Optionen „Favoritenkategorie“ und „Erste Kategorie“ sind gleichwertig.
 
-1. Wählen Sie den Auswerter aus:
+1. Wählen Sie den Evaluator aus:
 
    * enthält (nicht von Schreibweise abhängig)
    * enthält nicht (nicht von Schreibweise abhängig)
@@ -140,6 +140,6 @@ Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategoriea
 1. Geben Sie jeden neuen Wert in einer eigenen Zeile an (beispielsweise „Schuhe“).
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-### Verwenden der Kategorieaffinität in einer Aktivität {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### Verwenden der Kategorieaffinitätszielgruppe in einer Aktivität {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Sie können Zielgruppen mit Kategorieaffinität in jeder Aktivität verwenden. Wählen Sie während des dreistufigen geführten Workflows im Schritt [!UICONTROL Target] die gewünschte Zielgruppe aus.
+Sie können Zielgruppen mit Kategorieaffinität in jeder Aktivität verwenden. Wählen Sie während des Drei-Schritte-Workflows im [!UICONTROL Target] die gewünschte Zielgruppe aus.

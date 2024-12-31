@@ -1,8 +1,8 @@
 ---
 keywords: Empfehlungen;häufig gestellte Fragen;FAQ
-description: Häufig gestellte Fragen (FAQs) und ihre Antworten zu [!DNL Target Recommendations] Designs.
-title: Wo erhalte ich Antworten auf Designfragen für [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+description: Häufig gestellte Fragen (FAQs) und Antworten zu  [!DNL Target Recommendations] .
+title: Wo erhalte ich Antworten auf Design-Fragen für [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -46,9 +46,9 @@ Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselp
 
 Version 1.7 ohne zusätzliche Tools oder eingefügte Bibliotheken. Grundlegende Velocity-Funktionen sind verfügbar.
 
-## Wie ersetze ich einen bestehenden Entitätswert durch einen leeren Wert? Beispielsweise muss die `entity.message` eines Artikels gelöscht werden, wenn eine Promotion beendet wird. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Wie ersetze ich einen bestehenden Entitätswert durch einen leeren Wert? Beispielsweise muss der `entity.message` eines Elements gelöscht werden, wenn eine Promotion endet. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-Dies scheint mit der Übermittlung eines geschützten Leerzeichens in JavaScript zu funktionieren. Lassen Sie die Entwickler `\u00A0` als Wert einschicken. Beispiel: `entity.message=\u00A0`. Sie können dies anstelle einer Null als Standardwert festlegen, wenn kein Wert vorhanden ist.
+Dies scheint mit der Übermittlung eines geschützten Leerzeichens in JavaScript zu funktionieren. Lassen Sie die Entwickler `\u00A0` als Wert einschicken. Beispiel: `entity.message=\u00A0`. Sie können dies auch anstelle einer Null als Standardwert festlegen, wenn kein Wert vorhanden ist.
 
 ## Kann ich in einem [!DNL Recommendations]-Entwurf ein Profilskript verwenden? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

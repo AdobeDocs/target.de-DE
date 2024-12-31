@@ -1,7 +1,7 @@
 ---
 keywords: Targeting; Netzwerk; Zielnetzwerk; ISP; Domänenname; Verbindungsgeschwindigkeit; Target ISP; Zieldomänenname; Zielverbindungsgeschwindigkeit
-description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails erstellen.
-title: Kann ich ein Targeting von Besuchern anhand von Netzwerkoptionen durchführen?
+description: Erfahren Sie, wie Sie Zielgruppen in  [!DNL Adobe Target]  basierend auf Netzwerkdetails erstellen.
+title: Kann ich Besuchende auf der Grundlage von Netzwerkoptionen ansprechen?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,11 +13,11 @@ ht-degree: 65%
 
 # Netzwerk
 
-Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie ISP, Domänenname und Verbindungsgeschwindigkeit erstellen.
+Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie ISP, Domain-Name und Verbindungsgeschwindigkeit erstellen.
 
-1. Klicken Sie in der [!DNL Target] -Oberfläche auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Network]** in den Bereich Audience Builder .
+1. Ziehen Sie **[!UICONTROL Network]** per Drag-and-Drop in den Bereich Audience Builder .
 1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
 
    * **ISP:** Ein ISP ist eine Organisation, die ihren Abonnenten Internetzugang ermöglicht, in der Regel gegen eine monatliche oder jährliche Gebühr. Viele ISPs bieten weitere Services, wie Webhosting oder E-Mail. Das ISP-Feld enthält entweder einen kommerziellen ISP (beispielsweise Telekom oder Vodafone) oder eine andere Entität, wie beispielsweise ein Unternehmen oder eine Bildungseinrichtung.
@@ -46,15 +46,15 @@ Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie
 
      Sie können die Werte des ISP und des Domänennamens testen. [https://www.whoismyisp.org](https://www.whoismyisp.org) ist eine gute Ressource für Targeting-Zwecke. Sie können die oben in der Tabelle angegebenen Beispiel-IP-Adressen verwenden oder eine eigene eingeben. Verwenden Sie dann den Parameter `mboxOverride.browserIp= URL`, um diese IP-Adresse zu imitieren.
 
-   * **Domänenname:** Dieser Name ist der Domänenname für die IP-Adresse des Besuchers. Dieser Name ist nicht der Domänenname der Website, die Sie mit [!DNL Target] verwenden. Dieser Domänenname bezieht sich auf die IP-Adresse des Besuchers und wird manchmal auch als Hostname bezeichnet. Sie ähnelt dem ISP-Namen. Manchmal verweist der Hostname auf ältere Namen von Unternehmen, die zwar ihren ISP-Namen, aber nicht den Domänennamen umbenannt haben.
-   * **Verbindungsgeschwindigkeit:** Diese Geschwindigkeit entspricht der Geschwindigkeit der Internetverbindung des Besuchers. Es sind unter anderem folgende Optionen verfügbar: Breitband, Kabel, Einwahl, Mobil, OC3, OC12, Satellit, T1, T2 und Drahtlos, xDSL.
+   * **Domain-Name** Dieser Name ist der Domain-Name für die IP-Adresse des Besuchers. Dieser Name ist nicht der Domain-Name der Website, die Sie mit [!DNL Target] verwenden. Dieser Domänenname bezieht sich auf die IP-Adresse des Besuchers und wird manchmal auch als Hostname bezeichnet. Er ähnelt dem Namen des ISPs. Manchmal verweist der Hostname auf ältere Namen von Unternehmen, die ihren ISP-Namen umbenannt haben, aber nicht auf den Domain-Namen.
+   * **Verbindungsgeschwindigkeit:** Diese Geschwindigkeit ist die Geschwindigkeit der Internetverbindung des Besuchers. Es sind unter anderem folgende Optionen verfügbar: Breitband, Kabel, Einwahl, Mobil, OC3, OC12, Satellit, T1, T2 und Drahtlos, xDSL.
 
      Dieses Feld basiert auf dem Verbindungstyp, nicht auf der tatsächlichen Geschwindigkeit. [!DNL Target] kann die genauen Geschwindigkeiten von Verbindungen nicht ermitteln. Der Breitband-Verbindungstyp wird verwendet, wenn kein Hinweis auf andere Verbindungstypen vorhanden ist und somit keine bestimmte Verbindung gewählt werden kann.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
-Die folgende Abbildung zeigt eine Zielgruppe, die Besucher auswählt, die AT&amp;T mit einer Verbindungsgeschwindigkeit von [!UICONTROL Mobile] verwenden.
+Die folgende Abbildung zeigt eine Zielgruppe, die Besucher, die AT&amp;T verwenden, mit einer Verbindungsgeschwindigkeit von [!UICONTROL Mobile] anspricht.
 
 ![Netzwerk als Zielgruppe](assets/target_network.png)
 

@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud-Zielgruppen; Zielgruppen
-description: Erfahren Sie, wie Adobe Experience Cloud-Zielgruppen Experience Cloud-Lösungen kommunizieren und Informationen über Website-Besucher mit anderen Adobe-Lösungen teilen können.
+description: Erfahren Sie, wie Adobe Experience Cloud Audiences Experience Cloud-Lösungen die Kommunikation und den Austausch von Informationen über Website-Besucher mit anderen Adobe-Lösungen ermöglichen.
 title: Wie verwende ich Adobe Experience Cloud-Zielgruppen in Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af
@@ -13,17 +13,17 @@ ht-degree: 7%
 
 # Experience Cloud Audiences
 
-[!DNL Adobe Experience Cloud Audiences] bietet die Möglichkeit, dass [!DNL Adobe Experience Cloud] -Lösungen Informationen über Website-Besucher kommunizieren und teilen, sodass von jeder Lösung dieselben Daten verwendet werden können.
+[!DNL Adobe Experience Cloud Audiences] bietet [!DNL Adobe Experience Cloud] Lösungen die Möglichkeit, Informationen über Website-Besucher zu kommunizieren und freizugeben, sodass für jede Lösung dieselben Daten verwendet werden können.
 
-Detaillierte Informationen finden Sie unter [Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im *Benutzerhandbuch für Hauptdienste*.
+Detaillierte Informationen finden Sie unter [Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im *Core Services-Benutzerhandbuch*.
 
 ## Video: Integrieren von [!DNL Target] mit [!DNL Experience Cloud Audiences] (10:48)
 
 In diesem Video erfahren Sie, wie Sie:
 
-* Beschreiben Sie die Erstellung und Verwendung von Zielgruppen mit [!DNL Analytics] und [!DNL Audience Manager]
-* Beschreiben Sie, wie Sie Zielgruppen aus anderen [!DNL Adobe] -Lösungen importieren.
-* Durchsuchen des Admin-Bedienfelds [!DNL Adobe Experience Cloud] (AEC)
-* Anforderungen für [!DNL Experience Cloud] ID (ECID) auflisten
+* Beschreiben der Erstellung und Verwendung von Audiences mit [!DNL Analytics] und [!DNL Audience Manager]
+* Beschreiben, wie Zielgruppen aus anderen [!DNL Adobe]-Lösungen importiert werden
+* Erkunden des Admin-Panels von [!DNL Adobe Experience Cloud] (AEC)
+* Auflisten der Anforderungen für [!DNL Experience Cloud] ID (ECID)
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152)

@@ -1,7 +1,7 @@
 ---
-keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;Ajo;Anwendungsfälle;Szenarien;Web;Code-basiert
-description: Erfahren Sie, wie Sie die wichtigsten Optimierungsanwendungsfälle in Adobe Journey Optimizer implementieren, um eine maximale Wirkung zu erzielen.
-title: Nutzungsszenarios für Top-Optimierung in [!DNL Adobe Journey Optimizer]  - Web- und Codebasierte Kanäle
+keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;AJO;Anwendungsfälle;Szenarien;Web;Code-basiert
+description: Erfahren Sie, wie Sie die wichtigsten Anwendungsfälle für die Optimierung in Adobe Journey Optimizer implementieren, um eine maximale Wirkung zu erzielen.
+title: Häufigste Anwendungsfälle für die Optimierung  [!DNL Adobe Journey Optimizer]  Web- und Code-basierten Kanälen
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
@@ -14,22 +14,22 @@ ht-degree: 6%
 
 ---
 
-# Top-Optimierungsanwendungsfälle in [!DNL Adobe Journey Optimizer] - Web- und Codebasierte Kanäle
+# Häufigste Anwendungsfälle für die Optimierung in [!DNL Adobe Journey Optimizer] - Web- und Code-basierte Kanäle
 
-Erfahren Sie, wie Sie die wichtigsten Optimierungsanwendungsfälle in [!DNL Adobe Journey Optimizer] implementieren, um eine maximale Wirkung auf Web- und Code-basierte Kanäle zu erzielen. Entdecken Sie umsetzbare Strategien und Best Practices zur Verbesserung Ihrer digitalen Marketingbemühungen.
+Erfahren Sie, wie Sie die wichtigsten Anwendungsfälle für die Optimierung in [!DNL Adobe Journey Optimizer] implementieren, um eine maximale Wirkung in Web- und Code-basierten Kanälen zu erzielen. Entdecken Sie umsetzbare Strategien und Best Practices zur Verbesserung Ihrer digitalen Marketing-Maßnahmen.
 
 ## Voraussetzungen 
 
 Für die folgenden Anwendungsfälle benötigen Sie Folgendes:
 
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
-* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] -Lizenz erforderlich. Diese Anwendungsbeispiele zeigen, wie Sie vertraute Aufgaben in [!DNL Target] mit [!DNL Journey Optimizer] ausführen, sodass Sie dieselben Ergebnisse mit [!DNL Journey Optimizer] untersuchen und erzielen können.
+* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] erforderlich. Diese Anwendungsfälle zeigen, wie Sie mit [!DNL Journey Optimizer] vertraute Aufgaben in [!DNL Target] ausführen und so dieselben Ergebnisse mit [!DNL Journey Optimizer] erzielen können.
 
 ## Anwendungsbeispiele
 
-Die folgenden Anwendungsbeispiele zeigen, wie Sie vertraute Aufgaben von [!DNL Target] innerhalb von [!DNL Adobe Journey Optimizer] ausführen, sodass Sie die Unterschiede und Ähnlichkeiten bei der Ausführung sehen können.
+Die folgenden Anwendungsfälle zeigen, wie Sie aus [!DNL Target] in [!DNL Adobe Journey Optimizer] vertraute Aufgaben ausführen und so Unterschiede und Ähnlichkeiten bei der Ausführung erkennen können.
 
 Diese Anwendungsfälle beziehen sich auf Web- und Code-basierte Kanäle.
 
 * [Inhaltsänderungen durch A/B-Tests in [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-* [Komponenten zur Webseite hinzufügen oder ausblenden](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+* [Hinzufügen oder Ausblenden von Komponenten zu einer Web-Seite](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)

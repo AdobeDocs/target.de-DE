@@ -1,5 +1,5 @@
 ---
-keywords: Versionshinweise; Versionen; Aktualisierungen; zukünftige Versionen; Verbesserungen; neue Funktionen; Fehlerbehebungen; Aktualisierungen; Vorabversion; frühzeitiger Zugriff
+keywords: Versionshinweise; Versionen; Updates; zukünftige Versionen; Verbesserungen; neue Funktionen; Fehlerbehebungen; Updates; Vorabversion; frühzeitiger Zugriff
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der kommenden Version von [!DNL Adobe Target] sowie in den zugehörigen SDKs, APIs und JavaScript-Bibliotheken.
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
@@ -23,62 +23,62 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!UICONTROL Offers Library] Benutzeroberflächenaktualisierung (9. Januar 2025)
+## Aktualisierung der [!UICONTROL Offers Library]-Benutzeroberfläche (9. Januar 2025)
 
-Um das Benutzererlebnis für [!DNL Adobe Target] -Benutzer zu verbessern, aktualisiert diese Version die Benutzeroberfläche von [!UICONTROL Offers Library]. Mit dem neuesten [!DNL Adobe Spectrum] -Designsystem standardisiert diese Aktualisierung inkonsistente Designmuster und führt neue Verbesserungen ein, darunter die folgenden:
+Um das Benutzererlebnis für [!DNL Adobe Target] Benutzer zu verbessern, aktualisiert diese Version die [!UICONTROL Offers Library] Benutzeroberfläche. Mit dem neuesten [!DNL Adobe Spectrum]-Design-System standardisiert dieses Update inkonsistente Design-Muster und führt neue Verbesserungen ein, darunter die folgenden:
 
-* **Massenverwaltung von Angeboten**: Auswählen und Löschen mehrerer Angebote gleichzeitig.
+* **Massenangebotsverwaltung**: Wählen Sie mehrere Angebote gleichzeitig aus und löschen Sie sie.
 
-* **[!UICONTROL Code Editor]upgrades**: Aktualisierte HTML- und JSON-Editoren mit Syntaxhervorhebung und Zeilennummerierung.
+* **[!UICONTROL Code Editor]Upgrades**: Aktualisierte HTML- und JSON-Editoren mit Syntaxhervorhebung und Zeilennummerierung.
 
-* **Verbesserte Angebotskarten**: Verbesserte schnelle Informationen und Detailkarten für einen leichteren Informationszugriff.
+* **Verbesserte Angebotskarten**: Verbesserte Karten für schnelle Informationen und Details für einen einfacheren Zugriff auf Informationen.
 
-* **Persistente Suche und Filter**: Fügt sitzungsbeständige Such- und Filteroptionen hinzu.
+* **Persistente Suche und Filter**: Fügt Optionen für sitzungspersistente Suche und Filter hinzu.
 
-Ab dem 9. Januar 2025 erhalten alle [!DNL Target] -Kunden Zugriff auf die neue Benutzeroberfläche und können bei Bedarf zur aktuellen Version der Benutzeroberfläche zurückkehren.
+Ab dem 9. Januar 2025 erhalten alle [!DNL Target]-Kunden Zugriff auf die neue Benutzeroberfläche mit der Option, bei Bedarf zur aktuellen Version der Benutzeroberfläche zurückzukehren.
 
-Hier ist ein kurzes Video, in dem die Änderungen in dieser Version erläutert werden:
+Im Folgenden finden Sie ein kurzes Video zu den Änderungen in dieser Version:
 
-![Video zur Aktualisierung der Benutzeroberfläche für Angebote](/help/main/r-release-notes/assets/offers-video-v2.gif)
+![Video zur Aktualisierung der Angebotsbenutzeroberfläche](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
-## [!DNL Adobe Experience Platform Web SDK] `__view__` Bereichsoptimierung (22. Oktober 2024)
+## [!DNL Adobe Experience Platform Web SDK] Optimierung `__view__` Umfangs (22. Oktober 2024)
 
-Zwischen dem 22. Juli 2024 und dem 15. August 2024 optimierte das [!DNL Target]-Team den Umfang von `__view__`, wodurch die Genauigkeit von Aktivitätsimpressionen, Besuchen und Besucherberichten verbessert wurde. Diese Optimierung zielt darauf ab, Berichtsdaten für automatisch gerenderte Vorschläge automatisch zu erfassen und sollte für die meisten Konten transparent sein.
+Zwischen dem 22. Juli 2024 und dem 15. August 2024 optimierte das [!DNL Target]-Team den `__view__` und verbesserte die Genauigkeit der Berichte zu Aktivitätsimpressionen, Besuchen und Besuchern. Diese Optimierung zielt darauf ab, Berichtsdaten für automatisch gerenderte Vorschläge automatisch zu erfassen, und sollte für die meisten Konten transparent sein.
 
-Für alle neuen [!DNL Adobe Experience Platform Web SDK] -Kunden ist diese Optimierung aktiviert. Kunden, die von at.js migriert wurden und die die unten stehenden Implementierungsschritte nicht befolgt haben, haben die Optimierung jedoch deaktiviert. Wir fordern diese Kunden dringend auf, ihre Implementierungen bis zum 3. Februar 2025 zu überprüfen. Nach diesem Datum wird die Optimierung für alle Kunden aktiviert. Wenn Implementierungen nicht bis dahin überprüft und angepasst werden, kann dies Auswirkungen auf Berichte haben, wie unten erwähnt. Wenden Sie sich an [!DNL Adobe Customer Care] , wenn Sie überprüfen müssen, ob Ihre Implementierung betroffen ist oder mehr Zeit für die Anpassung Ihrer Implementierung benötigt wird.
+Für alle neuen [!DNL Adobe Experience Platform Web SDK]-Kunden ist diese Optimierung aktiviert. Kunden, die von at.js migriert sind und die unten stehenden Implementierungsschritte nicht befolgt haben, haben die Optimierung jedoch deaktiviert. Wir fordern diese Kundinnen und Kunden dringend auf, ihre Implementierungen bis zum 3. Februar 2025 zu überprüfen. Nach diesem Datum aktivieren wir die Optimierung für alle Kunden. Wird die Umsetzung bis dahin nicht überprüft und angepasst, kann dies Auswirkungen auf die Berichte haben, wie unten erwähnt. Wenden Sie sich an [!DNL Adobe Customer Care], wenn Sie bestätigen müssen, ob Ihre Implementierung betroffen ist, oder wenn Sie mehr Zeit benötigen, um Ihre Implementierung anzupassen.
 
 >[!IMPORTANT]
 >
->Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme lösen können, können Sie eine einmalige sechsmonatige Verlängerung anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 eingereicht wird. Adobe wird Ihre Anfrage prüfen und entscheiden.
+>Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme beheben können, können Sie eine einmalige Verlängerung um sechs Monate anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 gesendet wird. Adobe wird Ihre Anfrage prüfen und darüber entscheiden.
 
-Um von dieser Optimierung im Fall des manuellen Renderings von Vorschlägen zu profitieren, überprüfen Sie Ihren [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben oder wenn Sie die `applyPropositions` -Methode (oder die entsprechende [!DNL Launch] -Aktion als Helfer) zum Rendern von Erlebnissen verwenden.
+Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profitieren, überprüfen Sie Ihre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben, oder wenn Sie die `applyPropositions`-Methode (oder die entsprechende [!DNL Launch]-Aktion als Helper) zum Rendern von Erlebnissen verwenden.
 
-Zu den häufigsten Szenarien bei der manuellen Wiedergabe von Erlebnissen gehören:
+Zu den häufigsten Szenarien, in denen Erlebnisse manuell gerendert werden, gehören:
 
 * Verwenden von JSON-Angeboten
-* Verwenden eines benutzerdefinierten Entscheidungsbereichs in einer Aktivität, die in der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) erstellt wurde
-* Nichtverwendung von `renderDecisions: true` beim Abrufen einer Aktivität, die mit dem [!UICONTROL Form-Based Experience Composer] erstellt wurde, der den globalen `__view__`-Bereich verwendet
+* Verwenden eines benutzerdefinierten Entscheidungsumfangs in einer in der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) erstellten Aktivität
+* Verwenden von `renderDecisions: true` beim Abrufen einer Aktivität, die mit dem [!UICONTROL Form-Based Experience Composer] erstellt wurde, der den globalen `__view__` verwendet
 
-Wenn Benachrichtigungen nicht wie in [Render personalized content](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} im Handbuch *Datenerfassung* dokumentiert implementiert sind, fehlen möglicherweise Berichtsdaten in [!DNL Target] und in [Analytics for Target Reporting](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In bestimmten Szenarien kann es vorkommen, dass der Traffic falsch aufgeteilt ist, da die Berichtsdaten nicht erfasst werden. Oder in anderen Szenarien wird dasselbe Ereignis wiederholt gemeldet.
+Wenn Benachrichtigungen nicht wie in [Rendern personalisierter Inhalte](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} im Handbuch *Datenerfassung* dokumentiert sind, fehlen Berichtsdaten möglicherweise in [!DNL Target] und in [Analytics for Target-](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In bestimmten Szenarien kann es vorkommen, dass Traffic falsch aufgeteilt wird, da die Berichtsdaten nicht erfasst werden. Oder in anderen Szenarien, bei denen dasselbe Ereignis wiederholt gemeldet wird.
 
-Überprüfen Sie je nach Implementierung, ob sich die Auswirkungen auf die A4T-Berichte auf [!DNL Analytics] und A4T auswirken.
+Überprüfen Sie je nach Implementierung, ob sich [!DNL Analytics]- und A4T-Berichte auswirken.
 
-Der [!DNL Platform Web SDK] unterstützt zwei Implementierungstypen zum Rendern von Erlebnissen und Personalisierungen:
+Die [!DNL Platform Web SDK] unterstützt zwei Implementierungstypen für das Rendering von Erlebnissen und Personalisierungen:
 
 * **Einzelaufruf für Personalisierung und Messung.**
 
-  Zunächst wird empfohlen, den Einzelaufruf-Ansatz für [!DNL Platform Web SDK] nicht mehr für den Aufspaltungsansatz zu verwenden. Adobe rät allen neuen Implementierungen, den neuen Aufspaltungsansatz zu verwenden, und empfiehlt, dass Bestandskunden auch auf die Aufspaltungsmethode umsteigen.
+  Ursprünglich wird empfohlen, den Einzelaufruf-Ansatz für die [!DNL Platform Web SDK] zugunsten des Aufspaltungs-Ansatzes zu verwerfen. Adobe empfiehlt allen neuen Implementierungen, den neuen Split-Call-Ansatz zu verwenden, und empfiehlt Bestandskunden, auch auf die Split-Call-Methode umzustellen.
 
-  Wenn Sie den Einzelaufruf-Ansatz weiterhin verwenden, werden möglicherweise die folgenden unerwarteten Änderungen in Ihren [!DNL Analytics] -Berichten angezeigt:
+  Wenn Sie den Einzelaufruf-Ansatz weiterhin verwenden, werden Sie möglicherweise die folgenden unerwarteten Änderungen in Ihren [!DNL Analytics] feststellen:
 
    * Ein Rückgang der Absprünge.
-   * A4T- und [!UICONTROL Page View]-Treffer werden nicht zugeordnet. Dies erschwert die Durchführung bestimmter Aufschlüsselungen und Korrelationen Ihrer A4T-Berichte mit [!DNL Analytics] eVars und Ereignissen.
+   * A4T- und [!UICONTROL Page View]-Treffer sind nicht zugeordnet, was die Durchführung bestimmter Aufschlüsselungen und Korrelationen Ihrer A4T-Berichte mithilfe [!DNL Analytics] eVars und Ereignisse erschwert.
 
-* **Aufspaltung von Aufrufen (auch als &quot;oben und unten&quot;von Seitenereignissen bezeichnet).**
+* **Aufrufe zur Aufspaltung (auch als Seitenanfang und -ende-Ereignisse bezeichnet).**
 
-  Dieser Implementierungstyp ist der von [!DNL Adobe] empfohlene neue [Aufspaltungs-Implementierungsansatz](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}. Bei diesem Ansatz hat die neue Optimierung keine Auswirkungen auf [!DNL Analytics] - oder A4T -Berichte.
+  Dieser Implementierungstyp ist der neue [Aufspaltungs-Implementierungsansatz](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} der von [!DNL Adobe] empfohlen wird. Bei diesem Ansatz hat die neue Optimierung keine Auswirkungen auf [!DNL Analytics]- oder A4T-Berichte.
 
-Wenden Sie sich bei Fragen an die [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Bei Fragen wenden Sie sich an die [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)

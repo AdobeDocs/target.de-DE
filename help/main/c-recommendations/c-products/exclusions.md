@@ -1,6 +1,6 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie Ausschlüsse in Adobe [!DNL Target] Recommendations erstellen, um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
@@ -13,17 +13,17 @@ ht-degree: 28%
 
 # Ausnahmen
 
-Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
+Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
 
-Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie bei der Erstellung einer [!UICONTROL Recommendations] -Aktivität eine bestimmte Sammlung für jedes Erlebnis angeben, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto. Es gibt keine Option, während der Erstellung einer Aktivität eine Ausschlussgruppe zuzuweisen.
+Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie beim Erstellen einer [!UICONTROL Recommendations] Aktivität für jedes Erlebnis eine bestimmte Sammlung angeben, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto. Es gibt keine Möglichkeit, während der Erstellung einer Aktivität eine Ausschlussgruppe zuzuweisen.
 
-Beispiele für die Verwendung von Ausschlüssen:
+Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
-* Eingestellte Produkte
-* Der Herbst-/Winterkatalog ist jetzt der einzige Katalog, der online verfügbar sein sollte. Alle Artikel aus dem Sommerkatalog stehen nicht mehr zum Kauf zur Verfügung.
-* Artikel, die auf den meisten Seiten/Bildschirmen nicht empfohlen werden können (Produkte für Erwachsene, Filme mit NC-17 usw.)
+* Produkte, die eingestellt wurden
+* Der Herbst-/Winter-Katalog ist jetzt der einzige Katalog, der online vorhanden sein sollte. Artikel aus dem Sommerkatalog können nicht mehr gekauft werden.
+* Elemente, die auf den meisten Seiten/Bildschirmen nicht empfohlen werden können (für Erwachsene geeignete Produkte, NC-17-Filme usw.)
 * Produkte mit unvollständigen Metadatenfeldern (fehlende Miniaturansicht, Preis oder andere wichtige Metadaten)
-* Produkte, die nie empfohlen werden sollten (möglicherweise existiert im System eine SKU für etwas, aber es ist kein Artikel, der gekauft werden kann, oder es ist eine falsche SKU für das QA-Team, einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen usw.)
+* Produkte, die nie empfohlen werden sollten (vielleicht gibt es eine SKU im System für etwas, aber es ist kein käuflicher Artikel, oder vielleicht ist es eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen, usw.)
 
 >[!IMPORTANT]
 >
@@ -37,15 +37,15 @@ Beispiele für die Verwendung von Ausschlüssen:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Die &quot;Anzahl der Elemente&quot;, die für jeden Ausschluss in der [!UICONTROL Exclusions] -Listenansicht gemeldet werden, ist die Anzahl der Produkte, die mit den Regeln für diesen Ausschluss innerhalb der konfigurierten standardmäßigen Recommendations [Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) übereinstimmen. Informationen zum Ändern der standardmäßigen Hostgruppe finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} .
+   Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht gemeldete „Anzahl der Elemente“ ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die Standard-Hostgruppe zu ändern.
 
 1. Klicken Sie auf **[!UICONTROL Create Exclusion]**.
 
-1. (Bedingt) Wählen Sie eine Umgebung aus dem Filter **[!UICONTROL Environment]** , während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie beim Erstellen (oder Aktualisieren) eines Ausschlusses eine Umgebung aus dem **[!UICONTROL Environment]** Filter aus, um die Inhalte des Ausschlusses in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
    ![Ausschluss erstellen](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Geben Sie einen Ausschluss **[!UICONTROL Name]** ein und geben Sie eine optionale Beschreibung ein.
+1. Geben Sie einen **[!UICONTROL Name]** ein und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
@@ -55,25 +55,25 @@ Beispiele für die Verwendung von Ausschlüssen:
 
 ## Erstellen eines Ausschlusses mit der erweiterten Suche
 
-Sie können Ausschlüsse auch mit [!UICONTROL Advanced Search] auf der Seite [Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]) erstellen.
+Sie können Ausschlüsse auch mithilfe von [!UICONTROL Advanced Search] auf der Seite [Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md#save-as) erstellen ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Als Dialogfeld speichern](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Dialogfeld „Speichern unter“](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Nachdem Sie beispielsweise eine Suche mit &quot;id > contains&quot; erstellt haben, können Sie auf [!UICONTROL Save As] > [!UICONTROL Exclusion] klicken.
+Nachdem Sie eine Suche beispielsweise mit „ID > ENTHÄLT“ erstellt haben, können Sie auf [!UICONTROL Save As] > [!UICONTROL Exclusion] klicken.
 
 >[!IMPORTANT]
 >
->Bei der Funktion &quot;[!UICONTROL Advanced Search]&quot;wird nicht zwischen Groß- und Kleinschreibung unterschieden. Bei den zum Zeitpunkt des Versands zurückgegebenen Produkten wird jedoch zwischen Groß- und Kleinschreibung unterschieden. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
+>Bei der [!UICONTROL Advanced Search]-Funktion wird nicht zwischen Groß- und Kleinschreibung unterschieden. Bei Produkten, die zum Zeitpunkt des Versands zurückgegeben werden, wird jedoch zwischen Groß- und Kleinschreibung unterschieden. Diese Diskrepanz kann zu Verwirrung führen. Achten Sie darauf, die Groß- und Kleinschreibung zu berücksichtigen, wenn Sie Ausschlüsse auf der Grundlage von Ergebnissen mithilfe der erweiterten Suche erstellen. Wenn Sie z. B. nach „Urlaub“ suchen, werden bei der ersten Suche die Ergebnisse mit „Urlaub“ und „urlaub“ aufgelistet. Wenn Sie dann einen Ausschluss mit der Absicht erstellen, Produkte mit dem Zusatz „urlaub“ auszuschließen, werden nur Produkte mit dem Zusatz „urlaub“ ausgeschlossen. Produkte, die „Urlaub“ enthalten, werden nicht ausgeschlossen.
 
-## Einen Ausschluss bearbeiten, kopieren oder löschen
+## Bearbeiten, Kopieren oder Löschen eines Ausschlusses
 
-Bewegen Sie den Mauszeiger über den gewünschten Ausschluss in der Liste und klicken Sie auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
+Bewegen Sie den Mauszeiger über den gewünschten Ausschluss in der Liste und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
 
-![Maussymbole für einen Ausschluss](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
+![Mauszeiger über Symbolen für einen Ausschluss](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
-Sie können einen vorhandenen Ausschluss kopieren, um einen doppelten Ausschluss zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie einen ähnlichen Ausschluss mit geringerem Aufwand erstellen.
+Sie können einen vorhandenen Ausschluss kopieren, um einen doppelten Ausschluss zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand einen ähnlichen Ausschluss erstellen.
 
-Beachten Sie, dass Ausschlüsse für das gesamte Konto verfügbar sind. Beachten Sie dies vor dem Löschen eines Ausschlusses. Gelöschte Ausschlüsse können nicht wiederhergestellt werden.
+Beachten Sie, dass Ausschlüsse für das gesamte Konto verfügbar sind. Berücksichtigen Sie dies, bevor Sie einen Ausschluss löschen. Gelöschte Ausschlüsse können nicht wiederhergestellt werden.
 
 ## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

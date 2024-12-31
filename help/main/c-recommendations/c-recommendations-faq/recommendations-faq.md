@@ -1,8 +1,8 @@
 ---
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
-description: Zeigen Sie eine Liste häufig gestellter Fragen und Antworten zu [!DNL Target Recommendations] Aktivitäten an.
+description: Eine Liste der häufig gestellten Fragen und Antworten zu - [!DNL Target Recommendations] .
 title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
@@ -16,9 +16,9 @@ ht-degree: 84%
 
 Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten.
 
-## Kann ich mit den [!DNL Target] -APIs benutzeroberflächenerstellte visuelle Angebote verwalten?[!DNL Target]
+## Kann ich [!DNL Target] von der Benutzeroberfläche erstellten visuellen Angebote mit den [!DNL Target]-APIs verwalten?
 
-Nein. [!DNL Recommendations] -Aktivitäten mit visuellen Angeboten, die in der Benutzeroberfläche von [!DNL Target] erstellt wurden, können nicht mit den [!DNL Target] -APIs verwaltet werden. Obwohl diese Aktivitäten in der Liste [!UICONTROL Activities] angezeigt werden, können Sie sie nicht lesen oder aktualisieren (mithilfe von GET/PUT).
+Nein. [!DNL Recommendations] Aktivitäten mit visuellen Angeboten, die in der [!DNL Target]-Benutzeroberfläche erstellt wurden, können mit den [!DNL Target]-APIs nicht verwaltet werden. Obwohl diese Aktivitäten in der [!UICONTROL Activities] angezeigt werden, können Sie sie nicht lesen oder aktualisieren (mit GET/PUT).
 
 ## Warum zeigt [!UICONTROL Catalog Search] nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
 
@@ -58,21 +58,21 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 >
 >Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Es kann mehr als 60 Minuten dauern, bis Aktualisierungen in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist aktuell, wenn sich der Feedstatus in „Aktualisierungen abgeschlossen“ ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, zeigt Ihre Site Aktualisierungen innerhalb der oben aufgeführten Zeitrahmen an. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
 
-## Wie lange dauert es, bis die Konfiguration meiner [!UICONTROL Recommendations] -Aktivität, meines Angebots, meiner Promotions oder der Kriterieneinstellungen auf meiner Site geändert wird?
+## Wie lange dauert es, bis eine Konfigurationsänderung meiner [!UICONTROL Recommendations] Aktivitäts-, Angebots-, Promotion- oder Kriterieneinstellungen auf meiner Site wirksam ist?
 
 * Eine Änderung der Promotion-Einstellungen kann bis zu fünf Stunden dauern, bis sie auf der Website angezeigt wird.
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
 
-   * Einige Kriterieneinstellungen (z. B. &quot;Hinzufügen einer dynamischen Einschlussregel&quot;) werden sofort angezeigt.
-   * Andere Kriterieneinstellungen (z. B. &quot;Entfernen einer dynamischen Einschlussregel&quot;, Änderung des Lookback-Fensters usw.) können erst eingefügt werden, wenn der nächste Algorithmus ausgeführt wird.
+   * Einige Kriterieneinstellungen (z. B. „Hinzufügen einer dynamischen Einschlussregel„) werden sofort angezeigt.
+   * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, Änderung des Lookback-Fensters usw.) können erst einbezogen werden, wenn der nächste Algorithmus ausgeführt wird.
    * Algorithmusausführungen werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern, bis sie abgeschlossen sind. Algorithmen können auch planmäßig alle 12–24 Stunden ausgeführt werden.
 
-## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. beim Klicken auf Produkt A und beim Kauf von Produkt B) in den Empfehlungen für *angezeigt wird, die der Benutzer* erhält?
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird *die der* erhält?
 
 * Aktuell angezeigte/gekaufte Produkte/Inhalte beeinflussen die Empfehlungen, die der Benutzer in derselben Seitenansicht/[!DNL Target]-Inhaltsanfrage erhält.
-* Historisches Benutzerverhalten, wie &quot;zuletzt angezeigtes Produkt&quot;, &quot;am häufigsten angezeigtes Produkt&quot;und der gesamte Anzeige-/Kaufverlauf werden mit dieser Anforderung aktualisiert und beeinflussen die Empfehlungen, die der Benutzer in der nächsten Seitenansicht/[!DNL Target] -Inhaltsanforderung erhält. Beispielsweise werden die Algorithmen &quot;Kürzlich angezeigte Elemente&quot;und &quot;Für Sie empfohlen&quot;mit jeder Produktansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanforderung angezeigt.
+* Früheres Benutzerverhalten, wie „Zuletzt angezeigtes Produkt“, „Am häufigsten angezeigtes Produkt“ und der gesamte Anzeige-/Kaufverlauf werden mit dieser Anfrage aktualisiert und beeinflussen die Empfehlungen, die der Benutzer bei der nächsten Seitenansicht/[!DNL Target] Inhaltsanfrage erhält. Beispielsweise werden die Algorithmen „Kürzlich angezeigte Artikel“ und „Für Sie empfohlen“ mit jeder Produktansicht/jedem Kauf aktualisiert und in der nachfolgenden Inhaltsanfrage angezeigt.
 
-## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. beim Klicken auf Produkt A und beim Kauf von Produkt B) in den Empfehlungen für *andere* -Benutzer angezeigt wird?
+## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird, die *andere* Benutzer erhalten?
 
 Das gesamte Benutzerverhalten wird in die Offline-Algorithmusverarbeitung einbezogen, wobei jeder Algorithmus alle 12–24 Stunden ausgeführt wird.
 
@@ -99,23 +99,23 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über die Einstellung [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} , um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
->Diese Einstellung gilt nur für Aktivitäten, die im VEC (0) erstellt wurden. [!UICONTROL Visual Experience Composer] Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
+>Diese Einstellung gilt nur für Aktivitäten, die in der [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
 
-Um auf die Einstellung [!UICONTROL Filter Incompatible Criteria] zuzugreifen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Um auf die [!UICONTROL Filter Incompatible Criteria] zuzugreifen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Settings]:
 
-![recs_settings_filter image](assets/recs_settings_filter.png)
+![recs_settings_filter Bild](assets/recs_settings_filter.png)
 
-Wenn die Einstellung [!UICONTROL Filter Incompatible Criteria] NICHT aktiviert ist, filtert [!DNL Target] die Algorithmen im Algorithmuswähler nicht und alle Algorithmen werden angezeigt.
+Wenn die [!UICONTROL Filter Incompatible Criteria] NICHT aktiviert ist, filtert [!DNL Target] Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.
 
-Wenn die Einstellung [!UICONTROL Filter Incompatible Criteria] aktiviert ist, liest [!DNL Target] in VEC-Aktivitäten die entityId- und Kategorie-ID-Einträge aus dem ausgewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (sofern entsprechende Werte an diesem Ort vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
+Wenn die [!UICONTROL Filter Incompatible Criteria] aktiviert ist, liest [!DNL Target] in VEC-Aktivitäten die entityId- und Kategorie-ID-Einträge aus dem ausgewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (wenn für den jeweiligen Speicherort entsprechende Werte vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
 
-Wenn die Einstellung [!UICONTROL Filter Incompatible Criteria] aktiviert ist, können Sie nicht kompatible Algorithmen weiterhin anzeigen, indem Sie das Kontrollkästchen [!UICONTROL Compatible] bei der Auswahl der Kriterien deaktivieren.
+Wenn die [!UICONTROL Filter Incompatible Criteria] aktiviert ist, können Sie weiterhin nicht kompatible Algorithmen anzeigen, indem Sie beim Auswählen von Kriterien das Kontrollkästchen [!UICONTROL Compatible] deaktivieren.
 
-![kompatible_checkbox image](assets/compatible_checkbox.png)
+![COMPATIBLE_CHECKBOX image](assets/compatible_checkbox.png)
 
 Die folgende Liste enthält Sonderfälle, in denen [!DNL Target] das Kontrollkästchen [!UICONTROL Compatible] nicht anzeigt:
 
@@ -133,10 +133,10 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 
   ![product_catalog image](assets/product_catalog.png)
 
-* Ist Ihr Index aktuell? Wechseln Sie zu [!DNL /target/products.html#productSearch] und überprüfen Sie, wie viele Stunden der Index alt ist (z. B. &quot;Vor 3 Stunden indiziert&quot;). Sie können den Index bei Bedarf aktualisieren.
+* Ist Ihr Index aktuell? Navigieren Sie zu [!DNL /target/products.html#productSearch] und überprüfen Sie, wie alt der Index ist (z. B. „Vor 3 Stunden indiziert„). Sie können den Index bei Bedarf aktualisieren.
 * Haben Sie Änderungen am Feed oder an der Datenebene vorgenommen, die dazu geführt haben, dass Ihre Entitäten nicht mehr mit den Sammlungsregeln übereinstimmen? Stellen Sie sicher, dass die Groß-/Kleinschreibung übereinstimmt (Beachtung der Groß-/Kleinschreibung).
 * Wurde der Feed erfolgreich ausgeführt? Wurden das FTP-Verzeichnis, das Kennwort usw. geändert?
-* [!DNL Target] versucht nach Kräften, den Versand (auf der Seite/App des Kunden) so schnell wie möglich zu aktualisieren. Dennoch muss [!DNL Target] auf seiner Benutzeroberfläche einige Darstellungen für den Marketer bereitstellen. [!DNL Target] wartet mit Bereitstellungsaktualisierungen nicht auf die Synchronisierung der Benutzeroberflächenaktualisierungen. Mithilfe von [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
+* [!DNL Target] setzt Aktualisierungen an der Bereitstellung (auf der Seite/App des Kunden) schnellstmöglich um. Dennoch muss [!DNL Target] auf seiner Benutzeroberfläche einige Darstellungen für den Marketer bereitstellen. [!DNL Target] wartet mit Bereitstellungsaktualisierungen nicht auf die Synchronisierung der Benutzeroberflächenaktualisierungen. Mithilfe von [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) können Sie die Inhalte des Systems zu dem Zeitpunkt anzeigen, zu dem eine Anforderung eingeht.
 
 ## Worin besteht der Unterschied zwischen der allgemeinen und der Inhaltsähnlichkeits-spezifischen Attributgewichtung? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -146,9 +146,9 @@ Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für 
 
 ![attribute_weight_example image](assets/attribute_weighting_example.png)
 
-Die &quot;Attributgewichtung für Ähnlichkeit von Inhalten&quot;gilt nur für Kriterien für Ähnlichkeit von Inhalten.
+Die „Gewichtung der Inhaltsähnlichkeits-Attribute“ gilt nur für die Kriterien der Inhaltsähnlichkeit.
 
-Diese Art der Gewichtung ist dynamischer und basiert auf dem aktuellen &quot;Empfehlungsschlüssel&quot;(dem aktuell angezeigten Artikel). Im folgenden Beispiel (Marke x 16) wird dieser Besucher, wenn er Nike-Turnschuhe anschaut, mit höherer Wahrscheinlichkeit andere Nike-Produkte (nicht notwendigerweise nur Turnschuhe) anstelle der Turnschuhe von Konkurrenten empfohlen. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
+Diese Art der Gewichtung ist dynamischer und basiert auf dem aktuellen „Empfehlungsschlüssel“ (dem aktuell angezeigten Element). Wenn im folgenden Beispiel (Marke x 16) ein Besucher Nike-Turnschuhe angesehen hat, wird ihm wahrscheinlich eher andere Nike-Produkte (nicht unbedingt nur Turnschuhe) als die Turnschuhe der Konkurrenz empfohlen. Wenn ein Besucher Sneaker der Marke Adidas anzeigen würde, würden ihm wahrscheinlich Adidas-Produkte empfohlen.
 
 ![content_similarity_example image](assets/content_similarity_example.png)
 
@@ -248,14 +248,14 @@ Wenn der Besucher nicht gleichzeitig zwei aktive Sitzungen hat, werden die zulet
 
 ## Kann ich einen Algorithmus verwenden, der in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium] erstellt wurde?
 
-Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recommendations Premium] nicht unterstützt. Möglicherweise können Sie den alten Algorithmus in [!DNL Target Premium] verwenden. Der Algorithmus kann jedoch zu Synchronisationsproblemen führen, wenn die Aktivität in der [!DNL Target Premium]-Benutzeroberfläche deaktiviert oder gelöscht wird. Weitere Informationen zu den Unterschieden zwischen den beiden Lösungen finden Sie unter [[!DNL Recommendations Classic] gegenüber [!DNL Recommendations] Aktivitäten in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Ein in [!DNL Recommendations Classic] erstellter Algorithmus wird in [!DNL Recommendations Premium] nicht unterstützt. Möglicherweise können Sie den alten Algorithmus in [!DNL Target Premium] verwenden. Der Algorithmus kann jedoch zu Synchronisationsproblemen führen, wenn die Aktivität in der [!DNL Target Premium]-Benutzeroberfläche deaktiviert oder gelöscht wird. Weitere Informationen zu den Unterschieden zwischen den beiden Lösungen finden Sie unter [[!DNL Recommendations Classic] versus [!DNL Recommendations] activities in [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Wie kann ich nur neue Artikel oder Videos empfehlen? {#recommend-new-articles}
 
 Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen empfohlene Artikel nur die neuesten Artikel bzw. Videos enthalten. Ein [!DNL Target]-Kunde hat beispielsweise den folgenden Ansatz verwendet, um Artikel zu empfehlen, die weniger als 60 Tage alt sind:
 
 1. Übergeben Sie das Veröffentlichungsdatum des Artikels im JJJJMMTT-Format als benutzerdefiniertes Entitätsattribut.
-1. Erstellen Sie ein Profilskript, das dem aktuellen Datum abzüglich 60 Tage entspricht, auch im Format JJJMMTT .
+1. Erstellen Sie ein Profilskript, das dem heutigen Datum abzüglich 60 Tage entspricht, auch im JJJJMMTT-Format.
 1. Verwenden Sie einen dynamischen Einschlussfilter in den Kriterien, sodass `publish date > today's date minus 60 days` angezeigt wird.
 
 ### Übergeben Sie das Veröffentlichungsdatum als benutzerdefiniertes Entitätsattribut:
@@ -280,9 +280,9 @@ Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen emp
 >
 >Dieses Beispiel kann auch mit der Parameterübereinstimmung und der Übergabe des `priorDate60`-Werts als Mbox-Parameter durchgeführt werden.
 
-### Welche bekannten Probleme gibt es bei der Verwendung von [!DNL Recommendations] -Aktivitäten?
+### Welche Probleme sind bei der Verwendung von [!DNL Recommendations] bekannt?
 
-Die folgenden bekannten Probleme bei [!UICONTROL Recommendations] -Aktivitäten sind bekannt:
+Die folgenden Probleme bei [!UICONTROL Recommendations] Aktivitäten sind bekannt:
 
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Abgelaufene Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. Entitäten, die über Feed oder API gelöscht wurden, werden derzeit auch nicht aus dem Katalogsuchindex entfernt. (IRI-857)

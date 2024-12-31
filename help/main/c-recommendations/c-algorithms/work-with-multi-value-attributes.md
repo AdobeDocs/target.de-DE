@@ -1,7 +1,7 @@
 ---
-keywords: Multi-Wert;Attribute;Empfehlungen;Multi-Wert;Multivalue;Multi-Wert
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations mit einem Feld mit mehreren Werten arbeiten, indem Sie spezielle Operatoren mit mehreren Werten verwenden, z. B. bei der Empfehlung von Filmen mit mehreren Schauspielern.
-title: Kann ich Attribute mit mehreren Werten in Recommendations verwenden?
+keywords: mehrere Werte;Attribute;Recommendations;mehrere Werte;mehrere Werte;mehrere Werte
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations mit einem Feld mit mehreren Werten arbeiten können, indem Sie bestimmte Operatoren für mehrere Werte verwenden, z. B. wenn Sie Filme mit mehreren Akteuren empfehlen.
+title: Kann ich in Recommendations Attribute mit mehreren Werten verwenden?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,17 +13,17 @@ ht-degree: 9%
 
 # Arbeiten mit Attributen mit mehreren Werten
 
-Manchmal möchten Sie vielleicht mit einem Feld mit mehreren Werten arbeiten. Sehen Sie sich folgende Beispiele an:
+Manchmal empfiehlt es sich, ein Feld mit mehreren Werten zu verwenden. Sehen Sie sich folgende Beispiele an:
 
 * Sie bieten Benutzern Spielfilme an. In der Regel wirken an jedem Film mehrere Schauspieler mit.
 * Sie verkaufen Konzerttickets. Die meisten Benutzer haben mehrere Lieblingsbands.
 * Sie verkaufen Bekleidung. Jedes Hemd ist in verschiedenen Größen erhältlich.
 
-Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und spezielle Operatoren mit mehreren Werten verwenden.
+Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und spezielle Operatoren für mehrere Werte verwenden.
 
-Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren kann, sollten sie als JSON-Array gesendet werden, wie in den folgenden Codebeispielen dargestellt.
+Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren können, sollten sie als JSON-Array gesendet werden, wie in den folgenden Code-Beispielen dargestellt.
 
-## Mehrwertige Parameter in JavaScript übergeben
+## Übergeben eines Parameters mit mehreren Werten in JavaScript
 
 ```
 function targetPageParams() { 
@@ -42,7 +42,7 @@ function targetPageParams() {
 
 Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehreren Werten](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Benutzerdefinierte Entitätsattribute*.
 
-## Entitätsattribute mit mehreren Werten in einer CSV-Datei übergeben
+## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -59,9 +59,9 @@ Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehrer
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, Profilattribut oder Mbox-Parameter als Mehrfachwert gemäß dem oben genannten Format bereitgestellt wird, zeigt [!DNL Recommendations] automatisch an, dass das Feld mehrwertig ist.
+Wenn ein Entitätsattribut, ein Profilattribut oder ein Mbox-Parameter als Mehrfachwert gemäß dem oben genannten Format angegeben wird, leitet [!DNL Recommendations] automatisch davon ab, dass das Feld mehrwertig ist.
 
-Die folgenden Operatoren stehen für die Verwendung mit Entitäts-, Profil- und Mbox-Attributen mit mehreren Werten zur Verfügung:
+Die folgenden Operatoren sind für die Verwendung mit Entitäts-, Profil- und Mbox-Attributen mit mehreren Werten verfügbar:
 
 * [!UICONTROL is contained in list]
 * [!UICONTROL is not contained in list]
@@ -70,11 +70,11 @@ Die folgenden Operatoren stehen für die Verwendung mit Entitäts-, Profil- und 
 
 >[!NOTE]
 >
->Die Unterstützung für dynamische Abgleiche mit Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn beim Vergleich eines einzelnen Werts links mit einer mehrwertigen rechten Seite eine Profilattributübereinstimmung oder eine Übereinstimmungsregel für Parameterattribute (Mbox) verwendet wird. Attribute mit mehreren Werten werden derzeit nicht in Promotions, Entitätsattributübereinstimmung oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
+>Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn eine Regel für die Zuordnung von Profilattributen oder Parametern (Mbox)-Attributvergleiche beim Vergleich eines einzelnen Werts auf der linken Seite mit einer rechten Seite mit mehreren Werten verwendet wird. Attribute mit mehreren Werten werden derzeit nicht in Promotions, in der Zuordnung von Entitätsattributen oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
 
-### Beispiel: Zuletzt überwachte Elemente ausschließen
+### Beispiel: Ausschließen kürzlich angesehener Elemente
 
-Angenommen, Sie möchten verhindern, dass Filme, die sich in den letzten zehn überwachten Filmen des Benutzers befinden, empfohlen werden. Schreiben Sie zunächst ein Profilskript mit dem Namen `user.lastWatchedMovies`, um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
+Angenommen, Sie möchten verhindern, dass Filme, die zu den zehn zuletzt angesehenen Filmen des Benutzers gehören, empfohlen werden. Schreiben Sie zunächst ein Profilskript mit dem Namen `user.lastWatchedMovies`, um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
 
 ```
 `Profile Attribute Matching`
@@ -96,7 +96,7 @@ JSON-API-Darstellung der Einschlussregel:
 
 ### Beispiel: Empfohlene Elemente aus den Favoriten des Benutzers
 
-Nehmen wir an, Sie möchten Tickets nur für Konzerte empfehlen, wenn die Band, die gespielt wird, eine der Lieblingsbands des Benutzers ist. Stellen Sie zunächst sicher, dass Sie über eine Profilvariable mit dem Namen &quot;`profile.favoriteBands`&quot; verfügen, die die Lieblingsbands des Benutzers enthält. Stellen Sie dann sicher, dass Ihr Katalog ein Attribut `entity.artistPerforming` enthält, das den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
+Angenommen, Sie möchten Tickets nur für Konzerte empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Stellen Sie zunächst sicher, dass Sie über eine Profilvariable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbands der Benutzenden enthält. Stellen Sie dann sicher, dass Ihr Katalog eine `entity.artistPerforming` enthält, die den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
 
 ```
 `Profile Attribute Matching`
@@ -118,7 +118,7 @@ JSON-API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Elemente aus den Favoriten eines Benutzers empfehlen
 
-Kriterien mit Filterregeln mit mehreren Werten wie alle Kriterien können über Adobe I/O-APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der Mbox-Parameterliste `favorites` enthalten ist:
+Kriterien, die Filterregeln mit mehreren Werten verwenden, können wie alle Kriterien über Adobe I/O-APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der `favorites` der Mbox-Parameter enthalten ist:
 
 ```
 curl -X POST \
@@ -155,7 +155,7 @@ curl -X POST \
 }'
 ```
 
-Dies würde mit JavaScript auf der Seite gepaart werden, um die Favoriteninhalte weiterzugeben:
+Dieser würde mit JavaScript auf der Seite gepaart, um die Favoriteninhalte zu übergeben:
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->

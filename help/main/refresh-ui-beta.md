@@ -1,8 +1,8 @@
 ---
-keywords: Beta; Aktualisierung der Benutzeroberfläche; i-Aktualisierung;
-description: Auf aktualisierte Artikel für die Target-UI-Aktualisierung für Aktivitäten, Angebote und Recommendations zugreifen
-title: Beta-Aktualisierung für Aktivitäten, Angebote und Recommendations-Benutzeroberfläche
-badgePremium: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="Erfahren Sie mehr über das Programm [!DNL Target] Beta ."
+keywords: Beta; Aktualisierung der Benutzeroberfläche; Aktualisierung der Benutzeroberfläche;
+description: Zugriff auf aktualisierte Artikel für die Aktualisierung der Target-Benutzeroberfläche für Aktivitäten, Angebote und Recommendations
+title: Beta aktualisieren für Aktivitäten, Angebote und die Recommendations-Benutzeroberfläche
+badgePremium: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="Erfahren Sie mehr über das  [!DNL Target] Beta-Programm."
 feature: Release Notes
 hide: true
 hidefromtoc: true
@@ -14,19 +14,19 @@ ht-degree: 62%
 
 ---
 
-# [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] Benutzeroberflächen-Aktualisierungsprogramm Beta
+# [!DNL Target] Aktualisierung des Beta-Programms für die Benutzeroberfläche [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations]
 
-Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des Beta-Programms für die Aktualisierung der [!DNL Adobe Target] Benutzeroberfläche für [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] zuzugreifen.
+Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des Beta-Programms für die Aktualisierung der [!DNL Adobe Target]-Benutzeroberfläche für [!UICONTROL Activities], [!UICONTROL Offers] und [!UICONTROL Recommendations] zuzugreifen.
 
 >[!NOTE]
 >
->Das [!DNL Adobe Target]-Team ermöglicht für ausgewählte Kunden oft neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen in zukünftigen [!DNL Target]-Versionen für alle Kunden aktiviert und in den Versionshinweisen angekündigt.
+>Das [!DNL Adobe Target]-Team bietet ausgewählten Kunden häufig neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen für alle Kunden in zukünftigen [!DNL Target]-Versionen aktiviert und in den Versionshinweisen angekündigt.
 >
 >Die Informationen in diesen Artikeln werden häufig ohne Vorankündigung während des Beta-Programms aktualisiert.
 
 ## Aktivitäten
 
-+ + + Klicken zum Erweitern
++++Zum Erweitern klicken
 
 * A/B-Test {#abtest}
    * [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
@@ -42,7 +42,7 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
 * Automatisches Targeting {#auto-target}
    * [Automatisches Targeting – Überblick](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Erstellen einer automatischen Targeting-Aktivität](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
-   * [Häufig gestellte Fragen zum automatischen Targeting und Fehlerbehebung](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
+   * [Automatisches Targeting - Häufig gestellte Fragen und Fehlerbehebung](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
 
 +++
 
@@ -99,7 +99,7 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
 
 ## Angebote
 
-+ + + Klicken zum Erweitern
++++Zum Erweitern klicken
 
 * [Angebote – Überblick](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 * [Erstellen von Angebotsordnern](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
@@ -111,13 +111,13 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
 * [Arbeiten mit Inhalten in der Bibliothek](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
 * [Durchsuchen von Inhalt](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
 * [Übergeben dynamischer Daten an Angebote](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM Erlebnis- und Inhaltsfragmente](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
+* [AEM Experience Fragments und Inhaltsfragmente](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
 
 +++
 
 ## Recommendations
 
-+ + + Klicken zum Erweitern
++++Zum Erweitern klicken
 
 * Recommendations {#recommendations}
    * [Recommendations – Überblick ](c-recommendations/recommendations.md){target="_blank"}

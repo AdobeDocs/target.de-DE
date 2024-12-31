@@ -2,7 +2,7 @@
 keywords: Recommendations; Recommendations-Kriterien; Recommendations-Algorithmen; Recommendations-Aktivität; Kriterien; Targeting mit Recommendations; Recs
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was ist  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 Die folgende Illustration stellt Recommendations auf einer Webseite dar:
 
-![Velocity_example image](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 Eine Recommendation bestimmt, wie ein Produkt einem Besucher je nach dessen Aktivitäten auf der Site vorgeschlagen wird. Beispiel:
 

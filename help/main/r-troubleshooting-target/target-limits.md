@@ -1,20 +1,20 @@
 ---
 keywords: zeichenbeschränkung;mbox-parameter;batch-bereitstellungs-api;profilparameter;beschränkungen;integrierte profile;maximum;beschränkung;bedingung;zeichen;best practice;orderid;orderTotal;mbox3rdPartyID;kategorie;categoryID;fehlerbehebung
-description: Zeigen Sie eine Liste mit Zeichenbeschränkungen und anderen Beschränkungen an, die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
-title: Was sind die verschiedenen Zeichen, Größen und sonstigen Beschränkungen in [!DNL Adobe Target]?
+description: Zeigen Sie eine Liste der Zeichenbeschränkungen und anderer Beschränkungen an, die Aktivitäten und andere Elemente in  [!DNL Adobe Target] betreffen.
+title: Welche Zeichen, Größen und sonstigen Beschränkungen gibt es in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
 source-wordcount: '1704'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
 # Beschränkungen
 
-Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
+Zeichenbeschränkungen und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
 
 >[!NOTE]
 >
@@ -78,21 +78,21 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
       * at.js:
          * Standardinhalt wird angezeigt
 
-* **Limit**: 50 Mboxes pro [!DNL Target] Batch-Anfrage zur Inhaltsbereitstellung.
+* **Limit**: 50 Mboxes pro [!DNL Target]-Mbox-Anfrage für die Inhaltsbereitstellung.
 
-  Wenn mehr als 50 Mboxes pro Batch-Anfrage zur Inhaltsbereitstellung von Inhalt gesendet werden, wird der Antwortfehlercode `HTTP 400` mit der Fehlermeldung `size must be between 0 and 50` angezeigt.[!DNL Target]
+  Bei mehr als 50 Mboxes pro [!DNL Target]-Batch-Mbox-Anfrage zur Inhaltsbereitstellung wird ein Fehler-Code `HTTP 400` Fehlermeldung `size must be between 0 and 50`.
 
-  Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Mboxes für die Batch-Anforderung vorhanden sind, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Wenn das Erlebnis-Rendering bei diesen Batch-Anforderungen mit hoher Latenz blockiert wird, kann die Latenz zu einem eingeschränkten Benutzererlebnis führen, da Benutzer warten, bis Erlebnisse gerendert werden.
+  Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die gesamte Antwortzeit mit jeder Iteration erhöht wird. Je mehr Mboxes eine Batch-Anfrage enthalten, desto höher ist die zu erwartende Antwortlatenz und desto größer ist die Wahrscheinlichkeit von Zeitüberschreitungen. Wenn das Erlebnis-Rendering bei Batch-Anfragen mit hoher Latenz blockiert wird, kann die Latenz zu einem schlechteren Benutzererlebnis führen, wenn Benutzer auf das Rendern von Erlebnissen warten.
 
-* **Limit**: 60 MB HTTP-POST-Textgröße für [!DNL Target] Inhaltsbereitstellungsanfragen.
+* **Limit**: 60 MB Textkörpergröße der HTTP-POST für [!DNL Target] Anfragen zur Inhaltsbereitstellung.
 
-  Wenn mehr als 60 MB an der HTTP-POST-Textgröße einer [!DNL Target] Inhaltsbereitstellungsanfrage beteiligt sind, wird der Antwortfehlercode `HTTP 413 Request Entity Too Large` ausgegeben.
+  Wenn Sie 60 MB auf der Textkörpergröße der HTTP-POST einer [!DNL Target] Inhaltsbereitstellungsanfrage überschreiten, wird ein Antwort-Fehler-Code `HTTP 413 Request Entity Too Large`.
 
-* **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target] Versand-Batch-Anforderung.
+* **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target]-Versand-Batch-Anfrage.
 
-  Wenn mehr als 50 Benachrichtigungen pro [!DNL Target] Versand-Batch-Anfrage gesendet werden, führt dies wahrscheinlich zu erhöhter Reaktionslatenz und Timeouts.
+  Das Überschreiten von 50 Benachrichtigungen pro [!DNL Target] Batch-Versand-Anfrage führt wahrscheinlich zu einer höheren Antwortlatenz und zu Timeouts.
 
-  Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die Gesamtantwortzeit bei jeder Iteration erhöht wird. Je mehr Benachrichtigungen über die Batch-Anfrage gesendet werden, desto mehr Reaktionslatenz kann erwartet werden und daher kann es zu Timeouts kommen. Einige zusätzliche Latenzzeiten bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein. Beachten Sie jedoch, dass Timeouts und alle nachfolgenden Neuversuche zu noch mehr Latenz führen können.
+  Batch-Benachrichtigungsanfragen werden sequenziell verarbeitet, wodurch die gesamte Antwortzeit mit jeder Iteration verlängert wird. Je mehr Benachrichtigungen über die Batch-Anfrage erfolgen, desto mehr Antwortlatenz kann erwartet werden und desto größer ist das Potenzial für Zeitüberschreitungen. Einige zusätzliche Latenzen bei Batch-Benachrichtigungsanfragen können für einige Kunden akzeptabel sein, aber beachten Sie, dass Zeitüberschreitungen und nachfolgende erneute Versuche zu noch mehr Latenz führen können.
 
 ## Kundenattribute
 
@@ -116,7 +116,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hart codiert oder in Schleife, beträgt 99.
 * Als empfohlenes Limit für die beste Performance gilt: Im Katalog sollten weniger als eine Million Elemente pro Umgebung und weniger als zehn Millionen Elemente in allen Umgebung gespeichert sein.
-* Das obere Limit beträgt zehn Millionen Elemente pro Umgebung und 100 Millionen Elemente für alle Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wirkt sich dies auf die Leistung der Benutzeroberfläche von [!UICONTROL Catalog Search] aus. [!DNL Target Recommendations] produziert und sendet jedoch weiterhin Empfehlungen.
+* Das obere Limit beträgt zehn Millionen Elemente pro Umgebung und 100 Millionen Elemente für alle Umgebungen. Wenn Sie zwischen einer Million und zehn Millionen Elemente pro Umgebung haben, wird die Leistung der [!UICONTROL Catalog Search]-Benutzeroberfläche beeinträchtigt. [!DNL Target Recommendations] produziert und sendet jedoch weiterhin Empfehlungen.
 
 ### Benutzerdefinierte Entitätsattribute
 
@@ -155,7 +155,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 ### Erlebnisse pro Aktivität
 
-* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) und [!UICONTROL Auto-Target] Aktivität.
+* **Limit**: 2.000 Erlebnisse pro [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) und [!UICONTROL Auto-Target].
 
   30.000 Erlebnisse pro Automated Personalization (AP).
 
@@ -169,7 +169,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 256 Zeichen.
 
-  Werte mit mehr als 256 Zeichen werden bei Verwendung von at.js 1 abgeschnitten.*x*. Bei Verwendung von at.js 2 erhalten Sie eine Fehlermeldung, wenn Sie Werte mit mehr als 256 Zeichen senden.*x* oder den [!DNL Adobe Experience Platform Web SDK]. Werte werden nicht automatisch abgeschnitten.
+  Bei der Verwendung von at.js 1 werden Werte mit mehr als 256 Zeichen abgeschnitten.*x*. Bei Verwendung von at.js 2 erhalten Sie eine Fehlermeldung, wenn Werte mit mehr als 256 Zeichen gesendet werden.*x* oder die [!DNL Adobe Experience Platform Web SDK]. Werte werden nicht automatisch abgeschnitten.
 
 ### In-Mbox-Profilnamen
 
@@ -179,13 +179,13 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: 250 Zeichen.
 
-  Für [!DNL Delivery API] (at.js 2.*x*), Batch-Integrationen der Mbox V2 und [!DNL Adobe Experience Platform Web SDK] (legierte.js), Mbox-Namen *can* enthalten alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen:
+  Für [!DNL Delivery API] (at.js 2.*x*)-, Batch-Mbox-V2- und [!DNL Adobe Experience Platform Web SDK] (alloy.js)-Integrationen *Mbox-Namen (* alphanumerische Zeichen (A-Z, a-z, 0-9) und eines der folgenden Zeichen enthalten:
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Für at.js 1.*x* Integrationen, Mbox-Namen *dürfen keines der folgenden Zeichen enthalten:*
+  Für at.js 1.*x*-Integrationen *Mbox-Namen* keines der folgenden Zeichen enthalten:
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -205,7 +205,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
   Bei Verwendung der Batch-Bereitstellungs-API beträgt die Beschränkung 50 Mboxes pro Batch-Anforderung.
 
-  Wenn Sie die Batch-Bereitstellungs-API im Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
+  Wenn Sie die Batch-Bereitstellungs-API in der Mobile Services SDK verwenden, sind die Beschränkung von 50 Mbox-Parametern, 50 Profilparametern und 50 für andere Parametertypen Einschränkungen der API selbst. Es ist nicht möglich, mit der Batch-Bereitstellungs-API Anfragen zu senden, die mehr als diese Anzahl von Parametern enthalten. Bei einer Überschreitung dieser Beschränkungen gibt die API die folgende Fehlermeldung zurück:
 
   „Die Anzahl der mboxParameters darf 50 nicht überschreiten.“
 
@@ -253,7 +253,7 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Limit**: Insgesamt 150.000 Angebote.
 
-  Fehler bei der Aktivitätssynchronisierung treten auf, wenn die Grenze von 150.000 Angeboten überschritten wird.
+  Aktivitätssynchronisierungsfehler treten auf, wenn die Beschränkung von 150.000 Angeboten überschritten wird.
 
 ### Angebotsgröße {#offer-size}
 
@@ -299,7 +299,7 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 
 * **Empfohlenes Limit**: 2.000 Zeichen.
 
-  Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie auf [!DNL Adobe Target] gesetzt wird.
+  Abhängig von der Größe der verschlüsselten Zeichenfolge, die viel länger als die Rohzeichenfolge sein kann. Wenn die Zeichenfolge zu groß ist, schlägt sie fehl, bevor sie [!DNL Adobe Target] wird.
 
 ## Skriptprofile
 

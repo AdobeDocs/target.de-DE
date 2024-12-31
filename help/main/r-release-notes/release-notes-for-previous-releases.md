@@ -1,5 +1,5 @@
 ---
-keywords: Versionshinweise; Hinweise zu Vorabversionen; zukünftige Verbesserungen; zukünftige Fehlerbehebungen; zukünftige Funktionen; bevorstehende Version
+keywords: Versionshinweise;Vorabversionshinweise;zukünftige Verbesserungen;zukünftige Fehlerbehebungen;zukünftige Funktionen;bevorstehende Version
 description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen und Fehlerbehebungen früherer Versionen von Adobe Target.
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
@@ -25,9 +25,9 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 
 ### at.js-Version 2.11.6 (29. September 2024)
 
-* Es wurde ein Problem behoben, das verhindert hat, dass [!DNL Target] ordnungsgemäß mit Umleitungsangeboten innerhalb von [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer] funktioniert hat.
+* Es wurde ein Problem behoben, das dazu führte, dass [!DNL Target] mit Umleitungsangeboten innerhalb des [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer] nicht ordnungsgemäß funktionierten.
 
-Weitere Informationen zu at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen zu at.js-Versionen finden Sie unter [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ### [!DNL Target]-Reporting in [!DNL Adobe Customer Journey Analytics] (8. Mai 2024)
 
@@ -53,12 +53,12 @@ Die Vorgängerversion der [!DNL Target] Visual Experience Composer-Helper-Erweit
 |--- |--- |
 | [!UICONTROL Browser:iPad] und [!UICONTROL Browser:iPhone] in beim Erstellen von Zielgruppen verwendeten [Browser-Attributen](/help/main/c-target/c-audiences/c-target-rules/browser.md) aktualisiert | Mit [!DNL Adobe Target] können Sie [Zielgruppen für eines von mehreren Kategorieattributen erstellen](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), einschließlich der Besucherinnen und Besucher, die zum Besuch Ihrer Seite einen [bestimmten Browser oder bestimmte Browser-Optionen](/help/main/c-target/c-audiences/c-target-rules/browser.md) verwenden.<P>Ab der [!DNL Target] Standard/Premium-Version 24.3.1 (4.–6. März 2024) werden integrierte, über die Target-Benutzeroberfläche erstellte Zielgruppen wie `Browser:iPad` und `Browser:iPhone` aktualisiert, um ein korrektes Targeting für [!DNL iPad] und [!DNL iPhone] mit `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet` durchzuführen.<P>Diese Aktualisierung erfordert keine Maßnahmen auf Kundenseite.<p><B>Wichtig</b>: Damit Kundinnen und Kunden eine korrekte Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] in Profilskripten (und JavaScript-Segmenten) durchführen können, müssen manuelle Änderungen auf Kundenseite bis zum **30. April 2024** vorgenommen werden. Beispiele für alternative Einstellungen, die manuell geändert werden müssen, finden Sie unter [Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser]-Zielgruppenattribute](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-### [!UICONTROL Visual Editing Helper] -Erweiterung (14. März 2024)
+### [!UICONTROL Visual Editing Helper] (14. März 2024)
 
-Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für die [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) -Erweiterung für [!DNL Google Chrome]:
+Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für die [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)-Erweiterung für [!DNL Google Chrome]:
 
-* Der iFrame-Lademechanismus beim Erstellen von Authoring auf den Websites von Kunden wurde verbessert.
-* Es wurde ein Fehler behoben, der dazu führte, dass die Erweiterung Cookies beim Bearbeiten im [!UICONTROL Visual Experience Composer] (VEC) duplizierte.
+* Der iFrame-Lademechanismus wurde beim Authoring auf den Websites von Kunden verbessert.
+* Es wurde ein Fehler behoben, der dazu führte, dass die Erweiterung beim Authoring in der [!UICONTROL Visual Experience Composer] (VEC) Cookies duplizierte.
 
 ### [!DNL Target] Standard/Premium 23.3.1 (4. bis 6. März 2024)
 
@@ -73,10 +73,10 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht &quot;Umsatz&quot;an, da der Spaltenname und die Umsatzmetrik nicht im ($)-Format in der Berichterstellung angezeigt wurden. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
+* [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten keinen „Umsatz“ als Spaltennamen an, und die Umsatzmetrik wurde in Berichten nicht im Format ($) angezeigt. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
 * Ein Problem mit nicht ordnungsgemäßer Berichtsdatierung wurde behoben. (TGT-47396)
-* Es wurde ein Fehler behoben, der dazu führte, dass der falsche Status auf der Seite [!UICONTROL All Activities] angezeigt wurde, nachdem Kunden eine Aktivität mithilfe des Symbols [!UICONTROL More Actions] aktiviert oder deaktiviert hatten. (TGT-47367)
-* Es wurde ein Fehler behoben, der dazu führte, dass der Bericht [!UICONTROL Important Attributes] nicht für einen einzelnen Kunden angezeigt wurde. (TGT-47272)
+* Es wurde ein Problem behoben, das dazu führte, dass auf der Seite [!UICONTROL All Activities] ein falscher Status angezeigt wurde, nachdem Kundinnen und Kunden eine Aktivität über das Symbol [!UICONTROL More Actions] aktiviert oder deaktiviert hatten. (TGT-47367)
+* Es wurde ein Fehler behoben, der dazu führte, dass der [!UICONTROL Important Attributes]-Bericht nicht für eine einzelne Kundin oder einen einzelnen Kunden angezeigt wurde. (TGT-47272)
 * Ein Fehler, bei dem beim Versuch, die Option „Authentifizierung erfordern“ zu aktivieren, die Meldung „Ungültige Payload“ angezeigt wurde, wurde behoben. (TGT-47195)
 * Verschiedene lokalisierte Zeichenfolgen in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert.
 
@@ -92,17 +92,17 @@ Diese Version ist für die folgenden Tage geplant:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Die Funktion [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) wurde erweitert, um das [ Deaktivieren doppelter Angebote](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) für Erlebnisse in [!UICONTROL Automated Personalization] -Aktivitäten zu unterstützen. (TGT-46627)
+* Die Funktion [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md) wurde verbessert, um [doppelte Angebote nicht zuzulassen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) für Erlebnisse in [!UICONTROL Automated Personalization] Aktivitäten zu unterstützen. (TGT-46627)
 * Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, damit Kundinnen und Kunden verstehen können, warum in Aktivitätsberichten möglicherweise keine Daten verfügbar sind, wenn dem Kontrollerlebnis kein Traffic zugeordnet ist. Ein Link zu weiteren Informationen ist in der QuickInfo enthalten: [Warum stehen für meinen Aktivitätsbericht keine Daten zur Verfügung?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Es wurde ein Fehler behoben, der verhinderte, dass Aktivitäten für einige Kunden auf der Seite [!UICONTROL Activities] ordnungsgemäß angezeigt wurden. (TGT-46830)
+* Ein Problem wurde behoben, das dazu führte, dass Aktivitäten für einige Kunden nicht ordnungsgemäß auf der Seite [!UICONTROL Activities] angezeigt wurden. (TGT-46830)
 * Es wurden die folgenden Probleme behoben, die Aktivitäten betrafen, die [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) als Berichtsquelle verwenden:
    * Es wurde ein Problem behoben, das manche Kundinnen und Kunden daran hinderte, Berichtsdaten anzuzeigen. (TGT-46557)
-   * Es wurde ein Fehler behoben, der manchmal dazu führte, dass der [!UICONTROL View in Analytics] -Link auf den Seiten mit Aktivitätsberichten nicht ordnungsgemäß funktionierte. (TGT-46731)
-   * Es wurde ein Fehler behoben, der verhinderte, dass Daten für [!UICONTROL Lift] und [!UICONTROL Confidence] ordnungsgemäß in der Benutzeroberfläche von [!DNL Target] angezeigt wurden. (TGT-46592, TGT-46554 und TGT-46586)
+   * Ein Problem wurde behoben, das gelegentlich dazu führte, dass der [!UICONTROL View in Analytics]-Link auf Aktivitäts-Reporting-Seiten nicht richtig funktionierte. (TGT-46731)
+   * Es wurde ein Problem behoben, das verhinderte, dass Daten für [!UICONTROL Lift] und [!UICONTROL Confidence] ordnungsgemäß in der [!DNL Target]-Benutzeroberfläche angezeigt wurden. (TGT-46592, TGT-46554 und TGT-46586)
 
-### [!UICONTROL Activities] Aktualisierung der Seitenbenutzeroberfläche (25. Oktober 2023)
+### Aktualisierung der [!UICONTROL Activities]-Benutzeroberfläche (25. Oktober 2023)
 
-Im Rahmen der laufenden Bemühungen des [!DNL Adobe Target]-Teams, das Benutzererlebnis für [!DNL Target]-Benutzer zu verbessern, aktualisiert diese Version die [!UICONTROL Activities] -Seite in der [!DNL Target] -Benutzeroberfläche. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.
+Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target] Benutzer zu verbessern, wurde in dieser Version die [!UICONTROL Activities] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Design-Muster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu.
 
 Ab Mittwoch, den 25. Oktober, wird ein Prozentsatz der Kundinnen und Kunden Zugriff auf die neue Benutzeroberfläche haben, wobei weitere Kundinnen und Kunden in den nächsten Tagen Zugriff erhalten.
 
@@ -112,10 +112,10 @@ Weitere Informationen finden Sie unter [Aktivitäten](/help/main/c-activities/ac
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Die neue [!UICONTROL Activities] -Benutzeroberfläche wurde dahingehend erweitert, dass der [!UICONTROL Visual Experience Composer] (VEC) beim Erstellen einer neuen Aktivität mit den Standardeinstellungen für `selectorCriteria` geöffnet wird. (TGT-46586)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, Elemente im [!UICONTROL Composer] -Modus zu bearbeiten, wenn sie VEC verwenden. (TGT-46470)
+* Die neue [!UICONTROL Activities]-Benutzeroberfläche wurde verbessert, sodass der [!UICONTROL Visual Experience Composer] (VEC) beim Erstellen einer neuen Aktivität mit den Standardeinstellungen für `selectorCriteria` geöffnet wird. (TGT-46586)
+* Es wurde ein Problem behoben, das einige Kunden daran hinderte, Elemente im [!UICONTROL Composer]-Modus zu bearbeiten, wenn sie den VEC verwendeten. (TGT-46470)
 * Es wurde die Möglichkeit hinzugefügt, bei der Verwendung benutzerdefinierter Attribute eine allgemeine bevorzugte Auswahl anzugeben. (TGT-46545)
-* Es wurde ein Fehler behoben, der manchmal verhinderte, dass ein [!UICONTROL Auto-Target] -Bericht, der [!UICONTROL Analytics for Target] (A4T) verwendet, in der Benutzeroberfläche von [!DNL Target] angezeigt wurde, obwohl der Bericht in [!DNL Adobe Analysis Workspace] korrekt angezeigt wurde. (TGT-46494)
+* Ein Problem wurde behoben, das dazu führte, dass ein [!UICONTROL Auto-Target] Bericht, der [!UICONTROL Analytics for Target] (A4T) verwendet, gelegentlich nicht in der [!DNL Target]-Benutzeroberfläche angezeigt wurde, obwohl der Bericht in [!DNL Adobe Analysis Workspace] korrekt angezeigt wurde. (TGT-46494)
 * Die verschiedenen lokalisierten Zeichenfolgen in der Target-Benutzeroberfläche wurden aktualisiert. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (4.–6. Oktober 2023)
@@ -133,10 +133,10 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Der [!UICONTROL Visual Experience Composer] (VEC) wurde erweitert, um Blitzwebkomponenten (Light DOM) zu unterstützen. (TGT-45422)
-* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen hat der VEC asynchron einige Änderungen vorgenommen und das Hinzufügen zusätzlicher Änderungen zu einem Element hat Fehler verursacht, wenn dieses Element nach einer [!UICONTROL Insert] -Aktion angezeigt wird. Außerdem wird die VEC-URL jetzt beim Klicken auf Anker-Links aktualisiert. (TGT-45983)
-* Es wurde ein Problem mit der VEC [!UICONTROL Overlay] -Funktion behoben, das jetzt Elemente in Shadow DOMs unterstützt. (TGT-45202 und TGT-45262)
-* Es wurde ein Fehler behoben, der dazu führte, dass beim Öffnen einer Einzelseiten-App-Seite (SPA) im VEC und anschließendem Wechseln in den Modus [!UICONTROL Browse] die Pfeile &quot;Zurück&quot;und &quot;Weiter&quot;nicht ordnungsgemäß funktionierten. (TGT-45956)
+* Der [!UICONTROL Visual Experience Composer] (VEC) wurde verbessert, um Lightning-Web-Komponenten (Light DOM) zu unterstützen. (TGT-45422)
+* Es wurde ein Fehler behoben, der dazu führte, dass VEC-Aktionen in der falschen Reihenfolge angewendet wurden. In einigen Fällen wurden einige Änderungen vom VEC asynchron angewendet. Das Hinzufügen zusätzlicher Änderungen an einem Element verursachte Fehler, wenn dieses Element nach einer [!UICONTROL Insert] Aktion angezeigt wird. Außerdem wird die VEC-URL jetzt beim Klicken auf Anker-Links aktualisiert. (TGT-45983)
+* Fehlerkorrektur: Die VEC-[!UICONTROL Overlay] unterstützt jetzt Elemente in Shadow-DOMs. (TGT-45202 und TGT-45262)
+* Fehlerkorrektur - Beim Öffnen einer SPA-Seite (Single Page Application) in VEC und dem anschließenden Wechseln in den [!UICONTROL Browse] funktionieren die Pfeile „Vorwärts“ und „Zurück“ jetzt korrekt. (TGT-45956)
 * Es wurde ein Problem behoben, das das Laden einiger Web-Seiten in VEC verhindert hat. (TGT-45983)
 
 ### [!DNL Target] Standard/Premium 23.9.2 (12.–14. September 2023)
@@ -144,13 +144,13 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Die [!DNL Analytics]-API wurde durch die neue [!DNL Analytics]-API Version 2.0 ersetzt.  (TGT-45345)
-* Es wurden Probleme behoben, die sich auf die [!UICONTROL Automated Personalization] -Aktivitäten (AP) einiger Kunden auswirkten, einschließlich der rechtzeitigen Synchronisierung der Aktivität im [!DNL Target] -Backend und der Bereitstellung des erwarteten Erlebnisses in Vorschaulinks. (TGT-46202)
+* Es wurden Probleme behoben, die sich bei einigen Kunden auf [!UICONTROL Automated Personalization] (AP)-Aktivitäten auswirkten, einschließlich der rechtzeitigen Synchronisierung der Aktivität im [!DNL Target]-Backend und der Bereitstellung des erwarteten Erlebnisses in Vorschau-Links. (TGT-46202)
 
 ### [!DNL Target] Standard/Premium 23.9.1 (6.–11. September 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Es wurde ein Fehler behoben, der zu inkonsistenten Berichtsdaten in der Benutzeroberfläche von [!DNL Target] und der Benutzeroberfläche von [!DNL Adobe Analytics] für Aktivitäten mit [!UICONTROL Auto-Allocate] führte, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwendeten. (TGT-46112)
+* Es wurde ein Fehler behoben, der zu inkonsistenten Berichtsdaten in der [!DNL Target]-Benutzeroberfläche und der [!DNL Adobe Analytics]-Benutzeroberfläche für [!UICONTROL Auto-Allocate]-Aktivitäten führte, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-46112)
 * Der Timeout für PUT-Aufrufe an die Target-Bereitstellungs-API wurde auf 15 Sekunden erhöht, um Timeout-Fehler zu vermeiden. (TGT-46091)
 * Es wurde ein Problem behoben, durch das die URL beim Durchsuchen einer Single Page Application(SPA)-Website nicht immer aktualisiert wurde. (TGT-45417)
 
@@ -164,17 +164,17 @@ Weitere Informationen finden Sie unter [Zulassungsliste für Target-Edge-Knoten]
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Fehlerkorrektur - Aktivitäten können jetzt ordnungsgemäß synchronisiert werden, wie in der Spalte &quot;[!UICONTROL Status]&quot; auf der Listenseite &quot;[!UICONTROL Activity]&quot; dargestellt. (TGT-46010 und TGT-44831)
-* Es wurde ein Problem behoben, durch das manchmal verhindert wurde, dass der &quot;[!UICONTROL View in Analytics]&quot;-Link auf der [!UICONTROL Reports] -Seite von Aktivitäten angezeigt wird, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-45808)
+* Ein Problem wurde behoben, das dazu führte, dass -Aktivitäten manchmal nicht richtig synchronisiert werden konnten, wie in der Spalte &quot;[!UICONTROL Status]&quot; auf der Seite mit der [!UICONTROL Activity]-Liste gezeigt. (TGT-46010 und TGT-44831)
+* Ein Problem wurde behoben, das dazu führte, dass der Link &quot;[!UICONTROL View in Analytics]&quot; gelegentlich nicht auf der [!UICONTROL Reports] Seite von Aktivitäten angezeigt wurde, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. (TGT-45808)
 * Die Darstellung der Werte in Tabellen wurde so angepasst, dass sie anstelle von Dezimalzahlen als Prozentwerte angezeigt werden. Beispiel: 8 % anstelle von 0,08. (TGT-45548)
-* Es wurde ein Fehler behoben, der verhinderte, dass Kunden den Tastaturfokus verwenden, um zum nächsten Element auf der Seite [!UICONTROL Goals & Settings] für [!UICONTROL Experience Targeting] -Aktivitäten (XT) zu wechseln. (TGT-44526)
-* Es wurde ein Problem behoben, das nach dem Öffnen des Dialogfelds &quot;[!UICONTROL Add audiences]&quot; beim Erstellen einer Aktivität zu einem Tastaturfokus führte. (TGT-44525)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, den Tastaturfokus zu verwenden, um für [!UICONTROL Experience Targeting] (XT)-Aktivitäten zum nächsten Element auf der [!UICONTROL Goals & Settings] zu wechseln. (TGT-44526)
+* Es wurde ein Fehler behoben, der dazu führte, dass die Tastatur nach dem Öffnen des Dialogfelds &quot;[!UICONTROL Add audiences]&quot; beim Erstellen einer Aktivität den Fokus verlor. (TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (24.–26. Juli)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Die Suche beim Navigieren in Elementen mit dem DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) im [!UICONTROL Visual Experience Composer] (VEC) wurde verbessert, um Shadow-DOM-Elemente einzuschließen. [ (TGT-45262)
+* Die Suche beim [Navigieren von Elementen mithilfe des DOM-Pfads](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) im [!UICONTROL Visual Experience Composer] (VEC) zum Einschließen von Schatten-DOM-Elementen wurde verbessert. (TGT-45262)
 * Es wurde ein Problem behoben, das verhinderte, dass die Einstellung [Überlagerung ändern](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ordnungsgemäß funktioniert. (TGT-45202)
 * Es wurde ein Fehler behoben, der verhinderte, dass einige Kundinnen und Kunden Aktivitätsberichte herunterladen konnten, nachdem sie die folgende Fehlermeldung erhalten hatten: „Benutzerin bzw. Benutzer ist nicht berechtigt, auf den Bericht zuzugreifen.“ (TGT-45724 und TGT-45747)
 
@@ -184,32 +184,32 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 | Funktion | Details |
 |--- |--- |
-| [!UICONTROL QA mode] für [!UICONTROL Automated Personalization] Aktivitäten | [!DNL Adobe Target] [!UICONTROL QA mode] ist jetzt für [!UICONTROL Automated Personalization] -Aktivitäten verfügbar und ersetzt die [!UICONTROL Preview links] -Funktionalität.<P>Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
+| [!UICONTROL QA mode] für [!UICONTROL Automated Personalization] Aktivitäten | [!DNL Adobe Target] [!UICONTROL QA mode] ist jetzt für [!UICONTROL Automated Personalization] Aktivitäten verfügbar und ersetzt [!UICONTROL Preview links].<P>Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-* Leistungsverbesserungen, um die Deduplizierungsfunktionalität (einschließlich Verkürzung der Ladezeit) bei der Verwaltung von Ausschlüssen ](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] -Aktivitäten zu deaktivieren.[
+* Leistungsverbesserungen zur Deaktivierung der Funktion zum Duplizieren (einschließlich Verkürzung der Ladezeit) beim [Verwalten von Ausschlüssen](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] Aktivitäten.
 
 ### [!DNL Target] Standard/Premium 23.5.2 (31. Mai 2023)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Es wurde ein Fehler behoben, der dazu führte, dass beim Generieren eines Profil-API-Autorisierungs-Tokens eine leere Seite angezeigt wurde. (TGT-45387 und TGT-45423)
-* Es wurde ein Problem behoben, bei dem ein Bild nicht im Bedienfeld [!UICONTROL Create Design] angezeigt wurde, wenn der Bildname GB 18030-Zeichen enthielt. (TGT-44614)
+* Es wurde ein Problem behoben, das die Anzeige eines Bildes im [!UICONTROL Create Design] Bedienfeld verhinderte, wenn der Bildname GB-18030-Zeichen enthielt. (TGT-44614)
 * Es wurde ein Problem behoben, bei dem einige GB 18030-Symbolzeichen in Text/HTML in Erlebnissen fälschlicherweise maskiert wurden. (TGT-44600)
-* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Auto Personalization] -Aktivitäten während der Analyse einfrierten. (TGT-44820)
-* Es wurde ein Fehler behoben, der die Suche nach einer Aktivität auf der Seite [!UICONTROL Activity] verhinderte, wenn der Aktivitätsname eine eckige Klammer ( [oder ] ) enthielt. (TGT-44777)
+* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Auto Personalization]-Aktivitäten während der Analyse eingefroren sind. (TGT-44820)
+* Es wurde ein Problem behoben, das die Suche nach einer Aktivität auf der Seite [!UICONTROL Activity] verhinderte, wenn der Aktivitätsname eine eckige Klammer ( [oder] ) enthielt. (TGT-44777)
 * Es wurde ein Fehler behoben, der die Synchronisierung einer Aktivität verhinderte, wenn das Ziel der Aktivität Sonderzeichen enthielt. (TGT-44982)
 * Es wurde ein Fehler behoben, der dazu führte, dass in der [!DNL Target]-Benutzeroberfläche für den Standardarbeitsbereich bei bestimmten Kundinnen und Kunden keine Aktivitäten angezeigt wurden. (TGT-45286)
 * Das Verhalten der Markierung „Duplikate nicht zulassen“ wurde aktualisiert. Die Flags für ausgeschlossene wiederholende Angebote werden aktualisiert, damit sich wiederholende Angebote möglich sind, wenn sie das Standardinhaltsangebot sind (für APIs v3 und v4). Außerdem können doppelte Optionen aktiviert werden, wenn die Optionen auf das Standardinhaltsangebot verweisen und keine Vorlagen definiert sind. (TNT-46617)
 * Es wurde ein Problem behoben, bei dem ein Abfrageparameter zu einer URL hinzugefügt wurde, der verhinderte, dass die Seite im [!UICONTROL Visual Experience Composer] (VEC) geladen wurde. (TGT-44873)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
 
-### Real-Time CDP-Profilattribute, die für [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] freigegeben wurden (13. Juni 2023)
+### Für [!DNL Target] [!UICONTROL Real-Time CDP Profile Attributes] freigegebene Real-Time CDP-Profilattribute (13. Juni 2023)
 
 Diese Version enthält die folgende Verbesserung:
 
 | Funktion | Details |
 |--- |--- |
-| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP Profile Attributes] kann für [!DNL Target] freigegeben werden, um in HTML- und JSON-Angeboten verwendet zu werden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+| Real-Time CDP-Profilattribute, die für [!DNL Target] freigegeben werden | [!UICONTROL Real-Time CDP Profile Attributes] können für [!DNL Target] freigegeben werden, um sie in HTML- und JSON-Angeboten zu verwenden.<P>Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattributen für [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ### [!DNL Target] Standard/Premium 23.5.1 (23.-25. Mai 2023)
 
@@ -225,8 +225,8 @@ Diese Version enthält Sicherheitsaktualisierungen und die folgenden neuen Funkt
 
 | Funktion | Details |
 |--- |--- |
-| AEM [!UICONTROL Content Fragments] für Headless-Personalisierung und -Experimente | Verwenden Sie [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments] in [!DNL Target] -Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} | Das *Adobe Target-Entwicklerhandbuch* wurde zu *[!UICONTROL Adobe Experience League]* umgeleitet. Der Wechsel zu *[!UICONTROL Experience League]* hilft bei der Lokalisierung von Text in zusätzlichen Sprachen, vereinheitlicht die Suche innerhalb von *Experience League*, um Suchergebnisse sowohl aus dem *[!UICONTROL Adobe Target Business Practitioner Guide]* als auch aus dem *[!UICONTROL Adobe Target Developer Guide]* zu umfassen und anzubieten, und bietet zusätzliche Vorteile.<P>Sie werden automatisch von der vorherigen Position zu *[!UICONTROL Experience League]* umgeleitet. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
+| AEM-[!UICONTROL Content Fragments] für Headless-Personalisierung und -Experimentierung | Verwenden Sie [!DNL Adobe Experience Manager] (AEM)-[!UICONTROL Content Fragments] in [!DNL Target] Aktivitäten. Kombinieren Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen für künstliche Intelligenz (KI) und maschinelles Lernen (ML) in [!DNL Target], um die Headless-Personalisierung und -Experimentierung zu unterstützen.<P>Weitere Informationen finden Sie unter [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| [*Adobe Target-Entwicklerhandbuch*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} | Das *Adobe Target-Entwicklerhandbuch* wurde nach *[!UICONTROL Adobe Experience League]* verschoben. Die Umstellung auf *[!UICONTROL Experience League]* unterstützt die Lokalisierung von Text in zusätzliche Sprachen, vereinheitlicht die Suche innerhalb von *Experience League*, um Suchergebnisse sowohl aus dem *[!UICONTROL Adobe Target Business Practitioner Guide]* als auch aus dem *[!UICONTROL Adobe Target Developer Guide]* zu beinhalten und anzubieten, und bietet zusätzliche Vorteile.<P>Sie werden vom vorherigen Speicherort automatisch zu *[!UICONTROL Experience League]* umgeleitet. Bitte aktualisieren Sie Ihre Lesezeichen nach Bedarf. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28. bis 30. März 2023)
 
@@ -234,18 +234,18 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 |--- |--- |
-| Optimierte A4T-Metriken für [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]<p>(Veröffentlichungsdatum: 30. März 2023) | Mit [!DNL Target] können Sie Metriken auf der Grundlage binomialer Ereignisse oder Metriken basierend auf kontinuierlichen Ereignissen auswählen, wenn Sie [!UICONTROL A4T] für [!UICONTROL Auto-Allocate] - und [!UICONTROL Auto-Target] -Aktivitäten verwenden.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter &quot;Unterstützte Zielmetriken&quot;in [A4T-Unterstützung für [!UICONTROL Auto-Allocate] - und [!UICONTROL Auto-Target] -Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Auto-Target]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
+| Optimierte A4T-Metriken für [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]<p>(Veröffentlichungsdatum: 30. März 2023) | [!DNL Target] können Sie Metriken auswählen, die auf binomialen Ereignissen basieren, oder Metriken, die auf kontinuierlichen Ereignissen basieren, wenn Sie [!UICONTROL A4T] für [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten verwenden.<P>Beachten Sie die folgende Änderung bei den unterstützten Metriken:<ul><li>[!DNL Target] behält das vorherige Verhalten für bestehende Aktivitäten bis zum 9. September 2023 bei. Nach diesem Datum werden die Aktivitäten eingestellt, die nicht unterstützte Metriken verwenden, um die Migration vorhandener Aktivitäten auf das neue Verhalten zu erzwingen.</li></ul>Weitere Informationen finden Sie unter „Unterstützte Zielmetriken“ in [A4T-Unterstützung für [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported).<br>Mit dieser Funktion wurden die folgenden Tutorials aktualisiert:<ul><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=de){target=_blank}</li><li>[Einrichten von A4T-Berichten in [!DNL Analysis Workspace] für Aktivitäten des Typs [!UICONTROL Auto-Target]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=de){target=_blank}</li></ul> |
 
 * Die Synchronisierung von Zielgruppe und Aktivität wurde verbessert, sodass in [!DNL Adobe Experience Platform] und [!DNL Adobe Audience Manager] erstellte Elemente schneller in der Benutzeroberfläche von [!DNL Target] zu finden sind. (TGT-44568)
-* Verbesserte Benutzeroberfläche, sodass Benutzer die [!UICONTROL Default URL] unter [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL] entfernen können. Durch diese Änderung können Kundinnen und Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der Erstkonfiguration bisher nicht möglich war. (TGT-44577)
+* Verbesserte Benutzeroberfläche, damit Benutzende die [!UICONTROL Default URL] unter [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer] > [!UICONTROL Default URL] entfernen können. Durch diese Änderung können Kundinnen und Kunden die Standard-URL wieder in eine leere Zeichenfolge ändern, was nach der Erstkonfiguration bisher nicht möglich war. (TGT-44577)
 * Es wurden Einschränkungen entfernt, die Kundinnen und Kunden daran hinderten, vordefinierte Zielgruppen (Zielgruppen mit reservierten Namen) zu bearbeiten oder zu löschen. (TGT-44655)
-* Die Option &quot;[!UICONTROL Done]&quot; beim Laden von Spinnern wurde beim Erstellen von [kombinierten Zielgruppen](/help/main/c-target/combining-multiple-audiences.md) in der Benutzeroberfläche von [!DNL Target] angezeigt. (TGT-44079)
-* Der Link [!UICONTROL Language] unten auf der Seite [!UICONTROL Audiences] wurde korrigiert, sodass er korrekt auf die Seite &quot;[!UICONTROL Account communication preferences]&quot; verweist. (TGT-43562)
-* Es wurde ein Problem behoben, durch das Kunden manchmal keine [!UICONTROL A/B Test] -Aktivitäten erstellen konnten, nachdem sie die [!UICONTROL Adobe Analytics] -Option unter [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution] ausgewählt hatten. (TGT-44844)
-* Es wurde ein Fehler behoben, der verhinderte, dass Kunden das letzte Erlebnis in einer [!UICONTROL Multivariate Test] -Aktivität mit vielen Erlebnissen aus dem [!UICONTROL Visual Experience Composer] (VEC) anzeigen konnten. Der [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) am Ende des VEC hinderte Kundinnen und Kunden manchmal daran, das letzte Erlebnis anzusehen. (TGT-44578)
+* Die Option &quot;[!UICONTROL Done]&quot; wurde deaktiviert, die beim Laden von Spinnern in der [!DNL Target]-Benutzeroberfläche beim Erstellen [kombinierten Zielgruppen“ ](/help/main/c-target/combining-multiple-audiences.md) wurde. (TGT-44079)
+* Fehlerkorrektur - Der [!UICONTROL Language]-Link befindet sich nun nicht mehr unten auf der [!UICONTROL Audiences]-Seite, sodass er korrekt auf die Seite &quot;[!UICONTROL Account communication preferences]&quot; verweist. (TGT-43562)
+* Es wurde ein Problem behoben, aufgrund dessen Kundinnen und Kunden nach Auswahl der Option [!UICONTROL Adobe Analytics] unter [!UICONTROL Administration] > [!UICONTROL Reporting] > [!UICONTROL Reporting Experience Cloud Solution] manchmal keine [!UICONTROL A/B Test] Aktivitäten erstellen konnten. (TGT-44844)
+* Es wurde ein Problem behoben, durch das Kundinnen und Kunden das letzte Erlebnis in einer [!UICONTROL Multivariate Test] -Aktivität mit vielen Erlebnissen nicht aus dem [!UICONTROL Visual Experience Composer] (VEC) sehen konnten. Der [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) am Ende des VEC hinderte Kundinnen und Kunden manchmal daran, das letzte Erlebnis anzusehen. (TGT-44578)
 * Es wurde ein Fehler behoben, der dazu führte, dass die Durchsuchen-URL im VEC nicht die aktuelle Seite zeigte, die in einer normalen Browser-Sitzung sichtbar wäre, wenn die Seite autorisiert werden muss oder auf andere Seiten weiterleitet. (TGT-44350)
-* Es wurde ein Fehler behoben, der verhinderte, dass Kunden die Einstellung [!UICONTROL Filter Incompatible Criteria] in [!UICONTROL Recommendations] > [!UICONTROL Settings] ändern konnten. (TGT-44398)
-* Es wurde ein Fehler behoben, der dazu führte, dass POST-Anfragen zum Erstellen von [!DNL Recommendations] -Feeds fehlschlugen, wenn [!UICONTROL Analytics Classifications] mit Report Suites mit Punkten in ihrem Namen verwendet wurde. (TGT-44598)
+* Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Filter Incompatible Criteria] in [!UICONTROL Recommendations] > [!UICONTROL Settings] nicht ändern konnten. (TGT-44398)
+* Es wurde ein Fehler behoben, der dazu führte, dass POST-Anfragen zur Erstellung von [!DNL Recommendations]-Feeds fehlschlugen, wenn [!UICONTROL Analytics Classifications] mit Report Suites mit Punkten im Namen verwendet wurden. (TGT-44598)
 * Links in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert, damit sie auf die neue [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verweisen. (TGT-44459)
 * Die Sicherheit wurde verbessert, um Server-seitige Request Forgery-Angriffe (SSRF) in [!DNL Recommendations]-Feeds zu verhindern. (TGT-43769)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
@@ -266,7 +266,7 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version enthält die folgenden Fehlerbehebungen:
 
-* Aktualisierungen für das Authoring benutzerdefinierter Webkomponenten mit dem VEC (0):[!UICONTROL Visual Experience Composer]
+* Aktualisierungen für das Authoring benutzerdefinierter Web-Komponenten mit dem [!UICONTROL Visual Experience Composer] (VEC):
 
    * Die Auswahl von Shadow-DOM-Elementen in VEC wurde korrigiert, indem der Authoring-Prozess verbessert wurde, sodass keine Abhängigkeit vom [!DNL Target]-Implementierungstyp beim Authoring des Shadow-Stamms besteht. Jetzt sollte die Auswahl von Shadow-DOM-Elementen in VEC für jede Website funktionieren.
    * Es wurde ein Problem behoben, das das Laden von HTML-Elementen mithilfe von #Shadow DOM in VEC verhindert hatte. (TGT-35801)
@@ -275,7 +275,7 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
 >[!NOTE]
 >
->Um die Bereitstellung der im VEC erstellten Änderungen sicherzustellen, stellen Sie sicher, dass Sie ein [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} oder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de){target=_blank} (legierte.js)) mit einer Version verwenden, die größer als 2.8 ist.
+>Um die Bereitstellung der in VEC erstellten Änderungen sicherzustellen, stellen Sie sicher, dass Sie ein [!DNL Target] SDK ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} oder [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de){target=_blank} (alloy.js)) mit einer Version größer als 2.8 verwenden.
 
 **Bekanntes Problem**: Klick-Tracking für ein Shadow-Stammelement funktioniert bei Verwendung von [!DNL Adobe Experience Platform Web SDK] nicht ordnungsgemäß. (TNT-47012)
 
@@ -317,16 +317,16 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 | --- | --- |
-| Unterstützung von [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) in Automated Personalization (AP) | Unterstützung für JSON-Angebote in AP-Aktivitäten (0}) mit dem Form-Based Experience Composer hinzugefügt. [!UICONTROL Automated Personalization] (TGT-41460) |
+| Unterstützung von [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) in Automated Personalization (AP) | Jetzt werden JSON-Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten unterstützt, für die der formularbasierte Experience Composer verwendet wird. (TGT-41460) |
 | [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Es wurde die Möglichkeit hinzugefügt, zwischen Fragmenttypen in [!DNL Adobe Experience Manager] (AEM XF) zu unterscheiden, die nach [!DNL Target] exportiert werden. Anstelle der Option „Experience Fragment“ ermöglicht es Ihnen [!DNL Target] nun, nach „HTML XF“ und „JSON XF“ zu filtern und zu suchen. (TGT-44132) |
 
-* Es wurde ein Fehler behoben, der in den Aktivitäten [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT), die Empfehlungen enthalten, einen &quot;500-Fehler&quot;verursachte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
-* Die Position wurde aus dem angezeigten Angebotsnamen im [!UICONTROL Offer Level] -Bericht für [!UICONTROL Automated Personalization] -Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
-* Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus dem AP und den Berichten [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights] und [!UICONTROL Important Attributes] in der Benutzeroberfläche von [!DNL Target] entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
-* Die Möglichkeit, die Einstellung [!UICONTROL Same as Optimization Goal] auf der Seite [!UICONTROL Goals & Settings] zu ändern, ist nicht mehr möglich, nachdem die Aktivität aktiv war. (TGT-43923)
+* Es wurde ein Problem behoben, das zu einem „Fehler 500“ in [!UICONTROL A/B Test]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Empfehlungen enthalten, führte. Dieses Problem trat auf, wenn [!DNL Target] nicht mehr verwendete Kriterienobjekte nicht ordnungsgemäß aus der [!DNL Target]-Benutzeroberfläche und dem [!DNL Recommendations]-Backend löschen konnte. (TGT-44383)
+* Der Speicherort wurde aus dem angezeigten Angebotsnamen im [!UICONTROL Offer Level] für [!UICONTROL Automated Personalization] Aktivitäten entfernt. Durch diese Änderung wird der Bericht leichter lesbar. (TGT-44294)
+* Die Kalenderoptionen für 45 Tage und 90 Tage wurden aus den AP- und [!UICONTROL Auto-Target] [!UICONTROL Personalization Insights]- und [!UICONTROL Important Attributes]-Berichten in der [!DNL Target]-Benutzeroberfläche entfernt. Aufgrund von Nutzungsmustern und im Hinblick auf eine Verbesserung der Leistung werden diese Datumsbereiche nicht mehr unterstützt. Die Benutzeroberfläche wurde mit den derzeit zulässigen Bereichen aktualisiert: 15, 30 und 60 Tage. (TGT-39357)
+* Die Möglichkeit, die [!UICONTROL Same as Optimization Goal] auf der Seite &quot;[!UICONTROL Goals & Settings]&quot; zu ändern, nachdem die Aktivität live ist, wurde entfernt. (TGT-43923)
 * Es wurde ein Problem behoben, das beim Upgrade von [!DNL Target Standard] nach [!DNL Target Premium] zu Problemen mit dem standardmäßigen Arbeitsbereich im [!DNL Target]-Backend führte. (TGT-44081 und TGT-44306)
 * Es wurde eine Änderung vorgenommen, sodass [!DNL Analytics] Report Suites mit dem Punktsymbol „.“ im Namen in der Benutzeroberfläche von [!DNL Target] nun zum Erstellen von [!DNL Analytics]-Klassifizierungs-Feeds verwendet werden können.
-* Der Link auf der Seite [!UICONTROL Implementation] ([!UICONTROL Administration] > [!UICONTROL Implementation]) für &quot;Implementierungsmethoden mit On-Device Decisioning&quot;wurde geändert, um auf die Seite zu verweisen, auf der erklärt wird, wie Sie die Entscheidungsfindung auf dem Gerät für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [Erste Schritte mit Target-SDKs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=de){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
+* Der Link auf der Seite [!UICONTROL Implementation] ([!UICONTROL Administration] > [!UICONTROL Implementation]) für „Implementierungsmethoden mit On-Device Decisioning“ wurde geändert, um auf die Seite verweisen, auf der erläutert wird, wie Sie die geräteinterne Entscheidungsfindung für alle unterstützten SDKs verwenden können: Node.js, Java, .NET und Python. Weitere Informationen finden Sie unter [ mit Target-SDKs ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=de){target=_blank} [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
 * Ein Fehler, der bei Verwendung von [!DNL Scene7] und [!DNL Target] zu Problemen mit Datei-Uploads führte, wurde behoben.
 * Die Barrierefreiheit der [!DNL Target]-Benutzeroberfläche für Personen mit Behinderungen wurde auf Grundlage der Ergebnisse eines internen Usability-Audits verbessert. Es wird nun Zugriff auf Funktionen geboten, auf die zuvor nicht über die Tastatur zugegriffen werden konnte, die Alternativtexte wurden verbessert, Teile der Benutzeroberfläche können nun vergrößert werden, um sie besser verwenden zu können, der Tastaturfokus wurde verbessert und mehr. (TGT-42759)
 * Es wurden in der gesamten [!DNL Target]-Benutzeroberfläche Lokalisierungskorrekturen vorgenommen.
@@ -335,9 +335,9 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 ### Models-API-Version (23. November 2022)
 
-Mit der neuen Modell-API [!DNL Adobe Target], auch als Blockierungsliste-API bezeichnet, können Benutzer die Liste der Funktionen anzeigen und verwalten, die in Modellen für das maschinelle Lernen für Aktivitäten vom Typ [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] (AT) verwendet werden.
+Mit der neuen [!DNL Adobe Target] Models-API, auch als Blockierungsliste-API bezeichnet, können Benutzer die Liste der Funktionen anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verwendet werden.
 
-Weitere Informationen finden Sie unter [Übersicht der Modelle-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (gestaffelte Veröffentlichung vom 25. bis 27. Oktober 2022)
 
@@ -348,7 +348,7 @@ Diese Version enthält die folgenden Fehlerbehebungen:
 
   Mit dieser Version werden `averagetimespentonsite`-, `bouncerate`- und `entries`-Metriken in [!DNL Target]-Aktivitäten für neue Aktivitäten nicht mehr unterstützt. Vorhandene Aktivitäten können diese Metriken bis Mai 2023 weiterhin verwenden.
 
-* Es wurde eine QuickInfo in der [!DNL Target] -Benutzeroberfläche hinzugefügt, die Kunden bei der Auswahl eines Optimierungskriteriums beim Erstellen oder Bearbeiten einer [!UICONTROL Auto-Target] -Aktivität unterstützt, die A4T verwendet.
+* Es wurde eine QuickInfo in der [!DNL Target]-Benutzeroberfläche hinzugefügt, die Kunden bei der Auswahl eines Optimierungskriteriums hilft, während sie eine [!UICONTROL Auto-Target]-Aktivität erstellen oder bearbeiten, die A4T verwendet.
 
 ### [!DNL Target] Standard/Premium 22.10.1 (gestaffelte Veröffentlichung vom 10. bis 13. Oktober 2022)
 
@@ -356,13 +356,13 @@ Diese Version umfasst die folgenden neuen Funktionen, Verbesserungen und Fehlerb
 
 | Funktion | Details |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) Experience Fragments | Zu den Aktualisierungen der Funktionalität für AEM Experience Fragments gehören die folgenden:<ul><li>Es wurde die Möglichkeit hinzugefügt, AEM Experience Fragments nach Typ (HTML oder JSON) in der Liste [!UICONTROL Offers] zu filtern. (TGT-43121)</li><li>Es wurde ein Problem behoben, durch das Kunden bei der Verwendung von VEC JSON [!UICONTROL Experience Fragment]-Angebote einfügen konnten, was nicht unterstützt wird. JSON-Angebote können nur mit dem [!UICONTROL Form-Based Experience] -Composer eingefügt werden. (TGT-43846)</li></ul>Weitere Informationen finden Sie unter [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
-| Neue [!UICONTROL Visual Experience Composer] -Erweiterung für Google Chrome | Eine neue Erweiterung [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) für Chrome ist im Chrome Web Store verfügbar.<br>Ab Januar 2023 wird die aktuelle [!DNL Target] VEC Helper-Erweiterung in Google Chrome nicht mehr funktionieren, da Google keine Erweiterungen mehr zulässt, die Manifest V2 verwenden. Laden Sie die neue Erweiterung herunter, um Ihre Websites ab dem neuen Jahr weiterhin in [!DNL Target] visuell gestalten zu können.<br>Die folgenden Links zeigen die beiden Erweiterungen im Chrome Web Store:<ul><li>[Neue Erweiterung](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Alte Erweiterung](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
+| [!DNL Adobe Experience Manager] (AEM) Experience Fragments | Zu den Aktualisierungen der Funktionalität für AEM Experience Fragments gehören die folgenden:<ul><li>Es wurde die Möglichkeit hinzugefügt, AEM-Experience Fragments nach Typ (HTML oder JSON) in der [!UICONTROL Offers] zu filtern. (TGT-43121)</li><li>Es wurde ein Problem behoben, durch das Kunden in der Lage waren, bei Verwendung des VEC JSON [!UICONTROL Experience Fragment]-Angebote einzufügen, was nicht unterstützt wird. JSON-Angebote können nur eingefügt werden, wenn der [!UICONTROL Form-Based Experience] Composer verwendet wird. (TGT-43846)</li></ul>Weitere Informationen finden Sie unter [AEM Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| Neue [!UICONTROL Visual Experience Composer] für Google Chrome | Eine neue [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)-Erweiterung für Chrome ist im Chrome Web Store verfügbar.<br>Ab Januar 2023 wird die aktuelle [!DNL Target] VEC Helper-Erweiterung in Google Chrome nicht mehr funktionieren, da Google keine Erweiterungen mehr zulässt, die Manifest V2 verwenden. Laden Sie die neue Erweiterung herunter, um Ihre Websites ab dem neuen Jahr weiterhin in [!DNL Target] visuell gestalten zu können.<br>Die folgenden Links zeigen die beiden Erweiterungen im Chrome Web Store:<ul><li>[Neue Erweiterung](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Alte Erweiterung](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
 
-* Es wurde ein Fehler behoben, der verhinderte, dass Informationen zu Zielgruppenregeln ordnungsgemäß im Informationsfenster [!UICONTROL Audiences Refinements] angezeigt wurden. (TGT-43917)
+* Es wurde ein Problem behoben, das verhinderte, dass Informationen zu Zielgruppenregeln im Fenster [!UICONTROL Audiences Refinements] korrekt angezeigt wurden. (TGT-43917)
 * Die Leistung der [!DNL Target]-Benutzeroberfläche beim Laden von Zielgruppen, die sich dem [empfohlenen Limit der Zielgruppenbestimmungsregeln](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules) nähern, wurde verbessert. (TGT-43675)
-* Es wurde ein Fehler behoben, der dazu führte, dass einige Komponenten beim Erstellen oder Bearbeiten von Aktivitäten im VEC nach dem Wechsel vom Modus [!UICONTROL Compose] zum Modus [!UICONTROL Browse] nicht ordnungsgemäß im Bedienfeld [!UICONTROL Modifications] auf der Seite [!UICONTROL Experiences] angezeigt wurden. (TGT-43300)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, [!UICONTROL A/B Test] -Aktivitäten zu archivieren, die [!UICONTROL Auto-Target] verwenden. (TGT-40978)
+* Es wurde ein Problem behoben, das dazu führte, dass einige Komponenten im [!UICONTROL Modifications] Bedienfeld auf der [!UICONTROL Experiences] nicht richtig angezeigt wurden, wenn Aktivitäten im VEC erstellt oder bearbeitet wurden, nachdem vom [!UICONTROL Compose]- in den [!UICONTROL Browse]-Modus gewechselt wurde. (TGT-43300)
+* Es wurde ein Problem behoben, das einige Kunden daran hinderte, [!UICONTROL A/B Test] Aktivitäten zu archivieren, die [!UICONTROL Auto-Target] verwenden. (TGT-40978)
 * Es wurde die Möglichkeit hinzugefügt, ein einzelnes Angebot automatisch an mehreren Orten innerhalb einer einzigen Berichtsgruppe zu verwenden. (TGT-40689)
 
 ### [!DNL Target] Standard/Premium 22.9.1 (gestaffelte Veröffentlichung vom 13. bis 15. September 2022)
@@ -375,21 +375,21 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine [!UICONTROL Cross-Domain] -Option hinzugefügt, um das Festlegen von Drittanbieter-Cookies zu ermöglichen oder zu deaktivieren. (TGT-43674)
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine [!UICONTROL Cross-Domain] Option hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
 * Aktualisierte Benachrichtigungen in der [!DNL Target]-Benutzeroberfläche, um Kundinnen und Kunden zu informieren, wenn der Import von [!DNL Recommendations]-Feeds fehlschlägt. (TGT-35811)
-* Es wurde ein Fehler behoben, der dazu führte, dass [!UICONTROL Decision Offers] nicht ordnungsgemäß im VEC ([!UICONTROL Visual Experience Composer]) funktionierte. (TGT-43866)
-* Fehlerkorrektur - jetzt wird keine Fehlermeldung mehr angezeigt, wenn beim Erstellen einer [!UICONTROL Multivariate Testing] -Aktivität (MVT) das Konversionsziel [!UICONTROL Clicked an Element] ausgewählt wird. (TGT-43842)
-* Fehlerkorrektur - Die Spalte [!UICONTROL Impressions] wird jetzt in der heruntergeladenen CSV-Berichtsdatei für [!UICONTROL Automated Personalization] -Aktivitäten (AP) angezeigt. (TGT-43780)
-* Es wurde ein Problem behoben, durch das Kunden nach dem Duplizieren von Erlebnissen bei Verwendung von [!UICONTROL Form-Based Experience Composer] keine HTML-/JSON-Angebote bearbeiten konnten. (TGT-43633)
-* Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL A/B Test] -Aktivität aus einem nicht standardmäßigen Arbeitsbereich in einen anderen nicht standardmäßigen Arbeitsbereich zu kopieren. (TGT-41910)
-* Es wurde ein Fehler behoben, der sicherstellte, dass Kunden die Verwendung von [!DNL Recommendations] -Objekten (Designs, Kriterien, Sammlungen usw.) in [!UICONTROL A/B Test] - und [!UICONTROL Experience Targeting] -Aktivitäten (XT) korrekt anzeigen können, die Empfehlungen enthalten, und Kriterienobjekte löschen, die nicht mehr über die [!DNL Target] -Benutzeroberfläche und das [!DNL Recommendations] -Backend verwendet werden. (TGT-42331)
+* Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Decision Offers] in der [!UICONTROL Visual Experience Composer] (VEC) nicht richtig funktionierte. (TGT-43866)
+* Es wurde ein Fehler behoben, der dazu führte, dass eine Fehlermeldung angezeigt wurde, wenn bei der Erstellung einer [!UICONTROL Multivariate Testing]-Aktivität (MVT) das Konversionsziel [!UICONTROL Clicked an Element] ausgewählt wurde. (TGT-43842)
+* Es wurde ein Problem behoben, das die Anzeige der Spalte [!UICONTROL Impressions] in der heruntergeladenen CSV-Berichtsdatei für [!UICONTROL Automated Personalization] (AP)-Aktivitäten verhinderte. (TGT-43780)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, HTML/JSON-Angebote nach dem Duplizieren von Erlebnissen zu bearbeiten, wenn sie die [!UICONTROL Form-Based Experience Composer] verwendeten. (TGT-43633)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL A/B Test] Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen nicht standardmäßigen Arbeitsbereich zu kopieren. (TGT-41910)
+* Es wurde ein Problem behoben, um sicherzustellen, dass Kundinnen und Kunden die Verwendung von [!DNL Recommendations] (Designs, Kriterien, Sammlungen usw.) in [!UICONTROL A/B Test]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die Recommendations enthalten, korrekt anzeigen können, sowie Kriterienobjekte, die nicht mehr verwendet werden, aus [!DNL Target] Benutzeroberfläche und [!DNL Recommendations] Backend löschen können. (TGT-42331)
 * Es wurde ein Problem behoben, das beim Abrufen von Parametern zu einer Netzwerk-Timeout-Warnung in der [!DNL Target]-Benutzeroberfläche führte. (TGT-43737)
 * Die Benutzeroberfläche wurde aktualisiert, um sicherzustellen, dass bestimmte Drag-und-Drop-Aktionen auch über die Tastatur zugänglich sind. (TGT-42969)
 * Updates der Benutzeroberfläche, um sicherzustellen, dass Text-Zeichenfolgen richtig lokalisiert sind.
 
 ### at.js-Version 2.10.0 (13. September 2022)
 
-* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine [!UICONTROL Cross-Domain] -Option hinzugefügt, um das Festlegen von Drittanbieter-Cookies zu ermöglichen oder zu deaktivieren. (TGT-43674)
+* Beim Herunterladen von at.js 2.10.0 (und höher) wurde eine [!UICONTROL Cross-Domain] Option hinzugefügt, um das Setzen von Drittanbieter-Cookies zu erlauben oder zu deaktivieren. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (gestaffelte Version vom 17.–18. August 2022)
 
@@ -413,7 +413,7 @@ Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebun
 | Produktinterne Benachrichtigungen | Rufen Sie die folgenden relevanten produktinternen Benachrichtigungen ab:<ul><li>**Aktivitäten**: Benachrichtigungen für alle Aktivitätstypen, wenn eine Aktivität genehmigt oder deaktiviert wird, entweder manuell oder beim Erreichen des Start- oder Enddatums. Die Benachrichtigung enthält den Namen der Aktivität mit einem Link zur Übersichtsseite der Aktivität.</li><li>**Profilskripte**: Benachrichtigungen, wenn ein Profilskript entweder manuell oder durch Target aktiviert oder deaktiviert wird.</li><li>**Recommendations-Feeds**: Benachrichtigungen, wenn ein Recommendations-Feed entweder manuell oder durch Target aktiviert oder deaktiviert wird. Benachrichtigungen werden ebenfalls gesendet, wenn ein Recommendations-Feed fehlschlägt.</li></ul> Standardmäßig werden Benachrichtigungen von denjenigen empfangen, die für ein Produkt verantwortlich sind, die es veröffentlichen oder die es genehmigen. Benachrichtigungen können in den Voreinstellungen von Experience Cloud konfiguriert werden.<br>Weitere Informationen finden Sie unter [Benachrichtigungen und Mitteilungen](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
 | *Adobe Target-Entwicklerhandbuch* | Das *Adobe Target-Entwicklerhandbuch* fasst alle [!DNL Target]-Entwicklerinhalte in einem praktischen Handbuch zusammen. Das Handbuch enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target]-SDKs und [!DNL Target]-APIs.<br>Weitere Informationen finden Sie im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}. |
 
-* Benutzer mit der Rolle [!UICONTROL Editor] können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
+* Benutzende mit der Rolle [!UICONTROL Editor] können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
 * Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
 * Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden eine beendete Aktivität noch immer als laufend angezeigt wurde. (TGT-43527)
 
@@ -427,19 +427,19 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Für die neue Seite [!UICONTROL Audiences] wurde eine Verbesserung bereitgestellt, um einen inkonsistenten Zustand zwischen der alten Datenbank zu verhindern, in der die Zielgruppen in der Vergangenheit gespeichert wurden, und der neuen Architektur, in der die Informationen direkt aus dem Backend abgerufen werden. (TGT-43552)
+* Es wurde eine Verbesserung für die neue [!UICONTROL Audiences] bereitgestellt, um einen inkonsistenten Zustand zwischen der alten Datenbank, in der die Zielgruppen in der Vergangenheit gespeichert waren, und der neuen Architektur, die die Informationen direkt aus dem Backend abruft, zu verhindern. (TGT-43552)
 * Es wurde ein Fehler behoben, der dazu führte, dass einige Kunden kombinierte Zielgruppen nicht speichern konnten, da die Target-Benutzeroberfläche „leere“ Container erstellte. (TGT-43588)
 
 ### Target-Plattform-Release (25. Mai 2022)
 
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Unterstützung für [Benutzeragenten-Client-Hinweise](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} hinzugefügt.
-* Es wurde ein Problem behoben, das zeitweise zu Timeouts beim Rendern von [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] -Aktivitäten (XT) führte. (TNT-44611)
+* Unterstützung [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} hinzugefügt.
+* Es wurde ein Problem behoben, das zeitweise zu Timeouts beim Rendern von [!UICONTROL Offer Decisions] in [!UICONTROL Experience Targeting] (XT)-Aktivitäten führte. (TNT-44611)
 
 ### at.js-Version 2.9.0 (27. Mai 2022)
 
-* Unterstützung für [Benutzeragenten-Client-Hinweise](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} hinzugefügt.
+* Unterstützung [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} hinzugefügt.
 * Es wurde ein Fehler behoben, durch den mehrere Mbox-Anfragen auf derselben Seite unterschiedliche Impressions-IDs erhielten.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (gestaffelte Veröffentlichung; 11.–13. Mai 2022)
@@ -452,13 +452,13 @@ Diese Version wird gemäß dem folgenden gestaffelten Zeitplan verfügbar sein:
 
 Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
-* Es wurde ein Fehler behoben, der einen JavaScript-Fehler verursachte und einige Kunden daran hinderte, auf die Aktivitätsdetails für bestimmte [!UICONTROL Automated Personalization] -Aktivitäten (AP) zuzugreifen. (TGT-43526)
+* Es wurde ein Fehler behoben, der zu einem JavaScript-Fehler führte und manche Kunden daran hinderte, die Aktivitätsdetails für bestimmte [!UICONTROL Automated Personalization] (AP)-Aktivitäten aufzurufen. (TGT-43526)
 * Es wurde ein Fehler behoben, durch den manche Kunden daran gehindert wurden, eine bestimmtes Angebot zu bearbeiten oder es einer AP-Aktivität hinzuzufügen. (TGT-43503)
 * Es wurde ein Fehler in der [!DNL Target]-Benutzeroberfläche behoben, in der die folgende Fehlermeldung angezeigt wurde: „Ihre globale Mbox ist möglicherweise nicht synchronisiert. Speichern Sie sie erneut.“ Dieser Fehler war ein UI-Problem und hatte keine Auswirkungen auf die Implementierungen bei Kunden. (TGT-43475)
-* Fehlerkorrektur - Verfeinerungen und Zielgruppen auf Erlebnisebene können jetzt von einem Kunden für eine Aktivität bearbeitet werden, wenn die Verfeinerungen und Zielgruppen vor der Bereitstellung der neuen [!UICONTROL Audiences] -Benutzeroberfläche erstellt wurden. (TGT-43433)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Standortpräzisierungen auf Erlebnisebene und Zielgruppen für eine Aktivität zu bearbeiten, wenn die Standortpräzisierungen und Zielgruppen vor der Bereitstellung der neuen [!UICONTROL Audiences]-Benutzeroberfläche erstellt worden waren. (TGT-43433)
 * Es wurde ein Fehler behoben, durch den Kunden beim Bearbeiten von Berichtszielgruppen für eine Aktivität doppelte [!DNL Adobe Audience Manager]-Zielgruppen (AAM) auswählen konnten. (TGT-43430)
 * Es wurde ein Fehler behoben, durch den Kunden keine doppelten Zielgruppen erstellen konnten, die sich in verschiedenen Arbeitsbereichen befanden. (TGT-43423)
-* Es wurde ein Fehler behoben, der verhinderte, dass Kunden Orte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in der [!UICONTROL Form-Based Experience Composer] erstellt wurden. (TGT-43315)
+* Es wurde ein Problem behoben, das verhinderte, dass Kunden Standorte löschen konnten, die Ad-hoc-Angebote in Aktivitäten enthielten, die in der [!UICONTROL Form-Based Experience Composer] erstellt worden waren. (TGT-43315)
 * Es wurde ein Fehler behoben, der Kunden daran hinderte, auf Code-Angebote zuzugreifen, nachdem sie auf Bildangebote geklickt und dann die Benutzeroberfläche aktualisiert hatten. (TGT-43566)
 * Es wurde ein Fehler behoben, durch den Änderungen an Profilskripten wieder in den ursprünglichen, nicht bearbeiteten Zustand des Skripts zurückkehrten, nachdem das Skript bearbeitet, aktiviert und dann deaktiviert worden war. Das Profilskript verbleibt jetzt im bearbeiteten Status. (TGT-43249)
 * Es wurde ein Fehler behoben, der die folgende Fehlermeldung verursachte, wenn versucht wurde, eine Zielgruppe in einen anderen Arbeitsbereich zu verschieben: „Wir können Ihre Anfrage nicht durchführen. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-43212)
@@ -470,43 +470,43 @@ Dieses Release umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 Mit diesem Release werden die folgenden Fehler behoben:
 
 * Es wurde ein Fehler behoben, durch den drei Warenkorb-Algorithmen dieselbe Bought/Bought-Bedingung im [!DNL Target]-Backend verwendeten. (TGT-43456)
-* Aktualisierung des Benutzeroberflächen-Tokens für Unternehmen mit [Geschäfts-ID-Konten](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} und Policy Based Authentication (PBA) wurde aktiviert. [!DNL Target] (TGT-42590)
+* Die Aktualisierung [!DNL Target] Benutzeroberflächen-Tokens für Organisationen, die mit [Business ID-Konten](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} und richtlinienbasierter Authentifizierung (PBA) aktiviert sind, wurde aktiviert. (TGT-42590)
 
 ### [!DNL Target]-Plattform-Version (Donnerstag, 27. April 2022)
 
 Diese Version enthält die folgende Änderung:
 
-* Mit dieser Version können Sie Inhalte für die Aktivitäten [!UICONTROL Auto Personalization] (AP) und [!UICONTROL Auto-Target] (AT) vorab abrufen (zuvor nicht von [!DNL Target] zurückgegeben). Dies kann die Erlebnisse ändern, die den Endbenutzern bei einem Vorabruf (keine Änderungen am &quot;Ausführungs&quot;-Fluss) angezeigt werden, wenn sich eine AP-/AT-Aktivität im Bereitstellungspfad befindet und eine höhere Priorität aufweist als andere AB-/XT-Aktivitäten, die denselben Ort für die Inhaltsbereitstellung verwenden.
+* Mit dieser Version können Sie Inhalte für [!UICONTROL Auto Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten im Voraus abrufen (zuvor nicht von [!DNL Target] zurückgegeben). Dies kann die Erlebnisse ändern, die Endbenutzende im Falle eines Vorababrufs sehen (keine Änderungen am Fluss „execute„), wenn eine AP/AT-Aktivität auf dem Bereitstellungspfad ist und eine höhere Priorität hat als andere AB/XT-Aktivitäten, die denselben Speicherort für die Inhaltsbereitstellung verwenden.
 
-### [!DNL Target] Plattformversion (30. März)
+### [!DNL Target]-Plattform-Version (30. März)
 
 Diese Version enthält die folgende Verbesserung:
 
-* Klick-Tracking-Metriken enthalten die Analytics-Nutzlast in Bereitstellungs-API-Anfragen für Aktivitäten, die Analytics als Berichtsquelle (A4T) verwenden, und Prozessereignisse Client-seitig. (TNT-43073)
+* Klick-Tracking-Metriken schließen die Analytics-Payload in Bereitstellungs-API-Anfragen für Aktivitäten ein, die Analytics als Berichtsquelle (A4T) verwenden und Ereignisse Client-seitig verarbeiten. (TNT-43073)
 
-### [!DNL Target Standard] Aktualisierung der Zielgruppen (28. März)
+### Aktualisierung der [!DNL Target Standard]-Zielgruppen (28. März)
 
 Diese Version enthält die folgende Aktualisierung:
 
-* Die neue [!UICONTROL Audiences] -Benutzeroberfläche wird für alle [!DNL Target Standard] -Kunden aktiviert.
+* Die neue [!UICONTROL Audiences]-Benutzeroberfläche wird für alle [!DNL Target Standard] Kunden aktiviert.
 
-### Fehlerbehebungen bei der Target Standard/Premium-Kundenentwicklung (22. März 2022)
+### Target Standard/Premium Customer Engineering Fixes (22. März 2022)
 
-Dieses Maintenance Release umfasst die folgenden Erweiterungen:
+Diese Wartungsversion enthält die folgenden Verbesserungen:
 
-* Es wurde eine Funktion hinzugefügt, mit der [!DNL Analytics] Nutzlastdaten für `prefetch` Ansichten und `pageLoad` Klickmetriken zurückgegeben werden, wenn die [!UICONTROL Delivery API] mit Aktivitäten verwendet wird, die [!UICONTROL Analytics as the reporting source] (A4T) verwenden. (TNT-43198)
-* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, damit ein in Japan häufig verwendeter Browsertyp zugelassen wird. (TNT-43867)
+* Es wurde eine Funktion hinzugefügt, mit der [!DNL Analytics] Payload-Daten für `prefetch` und `pageLoad` Klickmetriken zurückgegeben werden können, wenn der [!UICONTROL Delivery API] mit Aktivitäten verwendet wird, die [!UICONTROL Analytics as the reporting source] (A4T) verwenden. (TNT-43198)
+* Die Liste der Benutzeragenten für die Bot-Filterung wurde aktualisiert, um einen in Japan häufig verwendeten Browser-Typ zuzulassen. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1. Februar 2022)
 
-Diese Wartungsversion enthält die folgenden Fehlerbehebungen und Verbesserungen für die neue [!UICONTROL Audiences] -Benutzeroberfläche, die in der Target Standard/Premium-Version 22.1.2 angekündigt wurden und in den nächsten sechs Wochen für Kunden aus allen Regionen eingeführt werden. Diese Korrekturen passen die Funktionalität der in [!DNL Adobe Target Standard/Premium] erstellten Zielgruppen an.
+Diese Wartungsversion enthält die folgenden Fehlerbehebungen und Verbesserungen für die neue [!UICONTROL Audiences]-Benutzeroberfläche, die in der Version Target Standard/Premium 22.1.2 angekündigt wurde, welche in den nächsten sechs Wochen an Kunden in allen Regionen ausgeliefert wird. Diese Korrekturen passen die Funktionalität der in [!DNL Adobe Target Standard/Premium] erstellten Zielgruppen an.
 
 * Fehlerkorrektur – Importierte Zielgruppen können jetzt von [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] als Berichterstellungs-Zielgruppen zugewiesen werden. (TGT-43140)
-* In der Liste [!UICONTROL Audiences] wurde eine [!UICONTROL Delete] -Option für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] hinzugefügt. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
+* Es wurde eine [!UICONTROL Delete] Option in der [!UICONTROL Audiences] für importierte Zielgruppen aus [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] und [!DNL Adobe Target Classic] hinzugefügt. Es wurde auch eine Funktion zum Massenlöschen hinzugefügt. (TGT-42914)
 
 ### at.js-Version 2.8.1 (28. Januar 2022)
 
-* Korrektur des Fehlers von `pageLoad`, der im Hybrid-Ausführungsmodus [!UICONTROL On Device Decisioning] nicht der target-global-mbox zugeordnet wurde.
+* Es wurde ein Problem behoben, `pageLoad` im hybriden Ausführungsmodus [!UICONTROL On Device Decisioning] (ODD) nicht auf target-global-mbox abgebildet wurde.
 * Es wurde ein Problem mit Analysedetails für mbox-Anfragen behoben.
 * Dev-Abhängigkeiten wurden aktualisiert, um Sicherheitslücken zu beheben.
 
@@ -514,9 +514,9 @@ Diese Wartungsversion enthält die folgenden Fehlerbehebungen und Verbesserungen
 
 | Funktion | Details |
 | --- | --- |
-| [!DNL Adobe Experience Platform]-Zielgruppen in [!DNL Target] | Sie können jetzt [!DNL Adobe Experience Platform]-Zielgruppen in [!DNL Target] aufnehmen und verwenden. Das [!DNL Target]-Team, das [!DNL Experience Platform] [!DNL Destinations]-Team und das [!DNL Unified Profile Service]-Team freuen sich, die allgemeine Verfügbarkeit der Anwendungsfälle &quot;Selbe Seite/Nächste Seite - Personalization&quot;bekannt geben zu können.<br>Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Mit dem auf [!DNL Adobe Experience Platform] basierenden [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCP) können Unternehmen bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenführen, um Kundenprofile zu erstellen, mit denen personalisierte Kundenerlebnisse auf allen Kanälen und Geräten in Echtzeit bereitgestellt werden können.<br>Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Erstellen von Zielgruppen*.<br>Lesen Sie unbedingt den Adobe-Blog und sehen Sie sich das Video an: [[!DNL Adobe] kündigt dieselbe Seite an: Erweiterter Personalization mit  [!DNL Adobe Target]  und  [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| Aktualisierung der Benutzeroberfläche von [!UICONTROL Audiences] | Im Rahmen der laufenden Bemühungen des [!DNL Adobe Target]-Teams, das Benutzererlebnis für [!DNL Target] Benutzer zu verbessern, aktualisiert diese Version die [!UICONTROL Audiences] - und [!UICONTROL Profile Scripts] -Seiten in der [!DNL Target] -Benutzeroberfläche. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Regel-Builder der [!UICONTROL Audience] -Bibliothek</li><li>Ein neuer Filter &quot;Audience Source&quot;, der eine schnellere Erkennung von Zielgruppen ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li><li>Die Möglichkeit, Zielgruppen zwischen Arbeitsbereichen für [!DNL Target Premium]-Kunden zu verschieben.</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md).<br>**HINWEIS**: Diese Funktion wird in den nächsten acht Wochen für Kunden in verschiedenen Regionen eingeführt. |
-| Aktualisierung der Benutzeroberfläche von [!UICONTROL Profile Scripts] | Die Bibliothek [!UICONTROL Profile Scripts] wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**HINWEIS**: Diese Funktion wird in den nächsten acht Wochen für Kunden in verschiedenen Regionen eingeführt. |
+| [!DNL Adobe Experience Platform]-Zielgruppen in [!DNL Target] | Sie können jetzt [!DNL Adobe Experience Platform]-Zielgruppen in [!DNL Target] aufnehmen und verwenden. Die [!DNL Target], [!DNL Experience Platform] [!DNL Destinations] und das [!DNL Unified Profile Service] freuen sich, die allgemeine Verfügbarkeit der Anwendungsfälle &quot;Personalization - gleiche Seite/nächste Seite“ bekannt geben zu können.<br>Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Der [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCP), der auf [!DNL Adobe Experience Platform] basiert, hilft Unternehmen dabei, bekannte und anonyme Daten aus verschiedenen Unternehmensquellen zusammenzuführen, um Kundenprofile zu erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse auf allen Kanälen und Geräten bereitgestellt werden können.<br>Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Erstellen von Zielgruppen*.<br>Lesen Sie unbedingt den Adobe-Blog und sehen Sie sich das folgende Video an: [[!DNL Adobe] kündigt an, dass Same Page Enhanced Personalization mit [!DNL Adobe Target] and [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank} verwendet wird. |
+| [!UICONTROL Audiences] UI aktualisieren | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target] Benutzer zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profile Scripts] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Audience]-Bibliotheken</li><li>Ein neuer „Zielgruppen-Source&quot;-Filter, der eine schnellere Zielgruppenerkennung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li><li>Die Möglichkeit, Zielgruppen zwischen Arbeitsbereichen für [!DNL Target Premium]-Kunden zu verschieben.</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md).<br>**HINWEIS**: Diese Funktion wird in den nächsten acht Wochen für Kunden in verschiedenen Regionen eingeführt. |
+| [!UICONTROL Profile Scripts] UI aktualisieren | Die [!UICONTROL Profile Scripts]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**HINWEIS**: Diese Funktion wird in den nächsten acht Wochen für Kunden in verschiedenen Regionen eingeführt. |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (12. Januar 2022)
 
@@ -532,11 +532,11 @@ Diese Version enthält die folgende Aktualisierung:
 
 Diese Version beinhaltet die folgenden Änderungen und Verbesserungen:
 
-* Es wurde ein Fehler behoben, der dazu führte, dass die Optionen [!UICONTROL Include] und [!UICONTROL Exclude] bei der Bearbeitung einer Aktivität für kombinierte Zielgruppen deaktiviert wurden. (TGT-43422)
+* Es wurde ein Fehler behoben, der dazu führte, dass die [!UICONTROL Include]- und [!UICONTROL Exclude]-Optionen bei der Bearbeitung einer Aktivität für kombinierte Zielgruppen deaktiviert waren. (TGT-43422)
 * Es wurde ein Problem behoben, durch das manche Kunden beim Bearbeiten einer Aktivität die Liste der verfügbaren Zielgruppen nicht sehen konnten. (TGT-43404)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, eine IP-Adresse aus der Liste &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; unter [!UICONTROL Administration] > [!UICONTROL Reporting] zu löschen. (TGT-43384)
+* Es wurde ein Problem behoben, durch das manche Kunden keine IP-Adresse aus der Liste &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; in [!UICONTROL Administration] > [!UICONTROL Reporting] löschen konnten. (TGT-43384)
 * Es wurde ein Problem behoben, das die Verwendung negativer Zahlen im Zielgruppenkriterium verhinderte, die sicherstellen, dass eine Variable „größer als“, „größer oder gleich“, „kleiner als“ oder „kleiner oder gleich“ ist. (TGT-43367)
-* Es wurde ein Fehler behoben, der verhinderte, dass Kunden beim Erstellen kombinierter Zielgruppen die Karte [!UICONTROL Audience Details] sehen konnten. (TGT-43303)
+* Es wurde ein Problem behoben, durch das Kunden die [!UICONTROL Audience Details] beim Erstellen kombinierter Zielgruppen nicht sehen konnten. (TGT-43303)
 
 ### at.js-Version 2.8.0 (7. Januar 2022)
 
@@ -564,21 +564,21 @@ Diese Wartungsversion enthält die folgende Verbesserung:
 
 | Funktion | Details |
 | --- | --- |
-| Warenkorbbasierte Empfehlungen | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter &quot;Warenkorb-basiert&quot;in [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Warenkorbansichten/Checkout-Seiten&quot;und &quot;Artikel, die sich bereits im Warenkorb des Besuchers befinden, ausschließen&quot;in [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} und &quot;Warenkorbbasiert&quot;in [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Warenkorbbasierte Empfehlungen | Eine neue Reihe von Algorithmen wurde hinzugefügt, um Empfehlungen basierend auf dem Inhalt des Warenkorbs des Besuchers bereitzustellen.<br>Weitere Informationen finden Sie unter „Warenkorbbasiert“ in [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md), unter „Hinzufügungen zum Warenkorb/Warenkorbansichten/Checkout-Seiten“ und „Ausschließen von Artikeln, die sich bereits im Warenkorb des Besuchers befinden“ in [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} und unter „Warenkorbbasiert“ in [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19. Oktober 2021)
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurden Probleme behoben, die Kunden daran hinderten, das Bedienfeld [!UICONTROL A4T] in [!DNL Analysis Workspace] durch Klicken auf die Schaltfläche [!UICONTROL View in Analytics] in den [!DNL Target] -Aktivitätsberichten zu öffnen. (TGT-42099, TGT-42100)
-* Es wurde ein Fehler behoben, der dazu führte, dass die Schaltfläche [!UICONTROL Edit Design] beim Bearbeiten von [!UICONTROL A/B Test] - und [!UICONTROL Experience Targeting] -Aktivitäten (XT) mit dem Wert [!UICONTROL Form-Based Experience Composer] nicht angezeigt wurde. (TGT-41980)
-* Fehlerkorrektur - Das Kontrollkästchen [!UICONTROL Compatible] wird jetzt bei der Kriterienauswahl angezeigt, wenn eine neue [!UICONTROL Recommendations] -Aktivität erstellt wird. (TGT-42053)
+* Es wurden Probleme behoben, die Kunden daran hinderten, das Bedienfeld [!UICONTROL A4T] in [!DNL Analysis Workspace] zu öffnen, indem sie auf die Schaltfläche [!UICONTROL View in Analytics] in [!DNL Target] Aktivitätsberichten klickten. (TGT-42099, TGT-42100)
+* Es wurde ein Problem behoben, das dazu führte, dass die Schaltfläche [!UICONTROL Edit Design] beim Bearbeiten von [!UICONTROL A/B Test]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten mit der [!UICONTROL Form-Based Experience Composer] nicht angezeigt wurde. (TGT-41980)
+* Es wurde ein Problem behoben, das verhinderte, dass das Kontrollkästchen [!UICONTROL Compatible] in der Kriterienauswahl beim Erstellen einer neuen [!UICONTROL Recommendations] angezeigt wurde. (TGT-42053)
 * Es wurde eine falsche Fehlermeldung behoben, die angezeigt wurde, wenn [!DNL Analytics] als Berichtsquelle (A4T) aufgrund fehlender [!DNL Analytics]-Berechtigungen nicht ausgewählt werden konnte. (TGT-41954)
 * Es wurden mehrere Korrekturen zur Verbesserung der Tastaturnavigation auf der gesamten [!DNL Target]-Benutzeroberfläche vorgenommen.
 
 ### [!DNL Target Standard/Premium] 21.10.2 (13. Oktober 2021)
 
-Die folgenden Verbesserungen wurden bei Verwendung von [!DNL Target] [!UICONTROL Audiences] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
+Die folgenden Verbesserungen wurden bei der Verwendung [!DNL Target] [!UICONTROL Audiences] mit dem [!DNL Adobe Experience Platform Web SDK] hinzugefügt:
 
 * An verschiedenen Stellen in der [!DNL Target]-Benutzeroberfläche wurden Warnsymbole, Pop-overs und Meldungen hinzugefügt, die darauf hinweisen, dass die Zielgruppe an der Quelle gelöscht wurde und nicht mehr für die Verwendung bei [!DNL Target]-Aktivitäten verfügbar ist.
 
@@ -588,25 +588,25 @@ Die folgenden Verbesserungen wurden bei Verwendung von [!DNL Target] [!UICONTROL
 
      ![Zielgruppe an der Quelle gelöscht, Meldung auf der Listenseite „Aktivität“](assets/deleted-at-source-audiences-list.png)
 
-   * Aktivitäts- [!UICONTROL Overview] Seiten:
+   * Aktivitäts-[!UICONTROL Overview] Seiten:
 
      ![Zielgruppe an der Quelle gelöscht, Meldung auf Übersichtsseite](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Experiences] -Schritt des Workflows zur Aktivitätserstellung:
+   * [!UICONTROL Experiences] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-     ![Zielgruppe gelöscht bei Quellnachricht auf [!UICONTROL Experiences] Seite](assets/deleted-at-source-experiences.png)
+     ![Zielgruppe an der Quelle gelöscht, Meldung auf [!UICONTROL Experiences] Seite](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Targeting] -Schritt des Workflows zur Aktivitätserstellung:
+   * [!UICONTROL Targeting] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-     ![Zielgruppe gelöscht bei Quellnachricht auf [!UICONTROL Targeting] Seite](assets/deleted-at-source-targeting.png)
+     ![Zielgruppe an der Quelle gelöscht, Meldung auf [!UICONTROL Targeting] Seite](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Goals & Settings] -Schritt des Workflows zur Aktivitätserstellung:
+   * [!UICONTROL Goals & Settings] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten:
 
-     ![Zielgruppe gelöscht bei Quellnachricht auf der [!UICONTROL Goals & Settings] Seite](assets/deleted-at-source-goals-settings.png)
+     ![Zielgruppe an der Quelle gelöscht, Meldung auf [!UICONTROL Goals & Settings] Seite](assets/deleted-at-source-goals-settings.png)
 
-   * Zielgruppenverfeinerungen ([!UICONTROL Replace Audience] im Schritt [!UICONTROL Targeting] des Workflows zur Aktivitätserstellung):
+   * Zielgruppenoptimierungen ([!UICONTROL Replace Audience] im [!UICONTROL Targeting] Schritt des Arbeitsablaufs für die Erstellung von Aktivitäten):
 
-* Wenn Sie versuchen, die Funktion Zielgruppen kombinieren zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Save] deaktiviert.
+* Wenn Sie versuchen, die Funktion „Kombinieren von Zielgruppen“ zu verwenden und eine der Zielgruppen an der Quelle gelöscht wurde, ist [!UICONTROL Save] deaktiviert.
 
 ### [!DNL Target Standard/Premium] 21.10.1 (6. Oktober 2021)
 
@@ -614,27 +614,27 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| Aktualisierung der Benutzeroberfläche von [!UICONTROL Audiences] | Im Rahmen der laufenden Bemühungen des [!DNL Adobe Target]-Teams, das Benutzererlebnis für [!DNL Target] Benutzer zu verbessern, aktualisiert diese Version die [!UICONTROL Audiences] - und [!UICONTROL Profile Scripts] -Seiten in der [!DNL Target] -Benutzeroberfläche. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Regel-Builder der [!UICONTROL Audience] -Bibliothek</li><li>Ein neuer Filter &quot;Audience Source&quot;, der eine schnellere Erkennung von Zielgruppen ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md). |
-| Aktualisierung der Benutzeroberfläche von [!UICONTROL Profile Scripts] | Die Bibliothek [!UICONTROL Profile Scripts] wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Siehe, was in Target Premium enthalten ist.&quot;} Recommendations-Kriterien erstellen und bearbeiten | Der Arbeitsablauf für die Erstellung und Bearbeitung von [!UICONTROL Recommendations Criteria] wurde optimiert, um die Auswahl des richtigen Empfehlungsalgorithmus und der richtigen Einstellungen zum Erreichen Ihrer Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!UICONTROL Audiences] UI aktualisieren | Im Rahmen der ständigen Bemühungen des [!DNL Adobe Target]-Teams, die Benutzerfreundlichkeit für [!DNL Target] Benutzer zu verbessern, wurden in dieser Version die Seiten [!UICONTROL Audiences] und [!UICONTROL Profile Scripts] in der [!DNL Target]-Benutzeroberfläche aktualisiert. Dieses Update vereinheitlicht und standardisiert Designmuster, die zuvor nicht konsistent waren, und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:<ul><li>Die Möglichkeit, mehrere Zielgruppen gleichzeitig auszuwählen und zu löschen</li><li>Ein überarbeitetes [Design für den Audience Builder](/help/main/c-target/c-audiences/create-audience.md)</li><li>Unterstützung von Ausschlussregeln im Rule Builder für [!UICONTROL Audience]-Bibliotheken</li><li>Ein neuer „Zielgruppen-Source&quot;-Filter, der eine schnellere Zielgruppenerkennung ermöglicht</li><li>Optionen für dauerhafte Suche und Filter in Sitzungen</li></ul>Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md). |
+| [!UICONTROL Profile Scripts] UI aktualisieren | Die [!UICONTROL Profile Scripts]-Bibliothek wurde ebenfalls aktualisiert und enthält eine aktualisierte Benutzeroberfläche sowie mehrere Produktivitätsaktualisierungen:<ul><li>Die Möglichkeit, mehrere Profilskripte gleichzeitig auszuwählen und zu löschen</li><li>Ein neuer Codeeditor für Profilskripte</li><li>Syntaxhervorhebung und Fehlerprüfung im Code-Editor</li><li>Token-Parameter („mbox“ oder „profile“) über Tastaturbefehle automatisch ausfüllen</li></ul>Weitere Informationen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true“ tooltip=„Hier finden Sie, was in Target Premium enthalten ist.“Erstellen und Bearbeiten von Recommendations-Kriterien | Der Arbeitsablauf zur Erstellung und Bearbeitung von [!UICONTROL Recommendations Criteria] wurde optimiert, um die Auswahl des richtigen Recommendations-Algorithmus und der richtigen Einstellungen für Ihre Ziele zu vereinfachen.<br>Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations für das Lookback-Fenster und Verbesserungen der Aktualisierungsrate des Algorithmus | Sie können jetzt Algorithmen für „Am häufigsten angezeigt“ und „Topverkäufe“ mit einem sechsstündigen Lookback-Fenster ausführen, um die Inhalte zu erfassen, die in letzter Zeit im Trend liegen. Wenn das sechsstündige Lookback-Fenster ausgewählt ist, werden Ihre Empfehlungen den ganzen Tag über alle 3–6 Stunden aktualisiert.<br>Weitere Informationen finden Sie unter [Datenquelle](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) unter *Kriterien erstellen*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14. September 2021)
 
 Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen.
 
-* Es wurden Probleme behoben, die Kunden daran hinderten, sich bei [!UICONTROL Visual Experience Composer] (VEC) anzumelden, da in einigen Webbrowsern neue Sicherheitsrichtlinien für Drittanbieter-Cookies gelten. Dieses Problem wurde unter „Seiten, die nicht in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome in der Version 80 oder höher verwendet wird“ in [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) erläutert.
+* Es wurden Probleme behoben, die Kunden daran hinderten, sich beim [!UICONTROL Visual Experience Composer] (VEC) anzumelden, da in einigen Webbrowsern neue Sicherheitsrichtlinien für Drittanbieter-Cookies gelten. Dieses Problem wurde unter „Seiten, die nicht in Visual Experience Composer (VEC) oder Enhanced Experience Composer (EEC) geladen werden, wenn Google Chrome in der Version 80 oder höher verwendet wird“ in [Beheben von Problemen mit Visual Experience Composer und Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) erläutert.
 * Es wurde ein Problem behoben, das dazu führte, dass Angebotsnamen in Visual Experience Composer statt des Anzeigenamens des Angebots den Angebotspfad anzeigten. (TGT-41300)
 * Erlebnisnamen werden jetzt in [!DNL Analysis Workspace] für A4T-Aktivitäten angezeigt (TGT-38674).
 * Es wurde ein Problem in [!DNL Recommendations] behoben, bei dem fälschlicherweise Änderungen der Entitäts-ID in einer Promotion in einer duplizierten Aktivität auf die ursprüngliche Aktivität angewendet wurden. (TGT-41482)
-* Es wurde ein Fehler behoben, der verhinderte, dass die Schaltfläche &quot;Kriterien bearbeiten&quot;ordnungsgemäß auf der Seite [!UICONTROL Experiences] für [!DNL Recommendations] -Aktivitäten im VEC angezeigt wurde. (TGT-39512)
+* Es wurde ein Problem behoben, das verhinderte, dass die Schaltfläche „Kriterien bearbeiten“ ordnungsgemäß auf der Seite [!UICONTROL Experiences] für [!DNL Recommendations] Aktivitäten in Visual Experience Composer angezeigt wurde. (TGT-39512)
 * Es wurde ein Problem behoben, das beim Duplizieren und Kopieren in einen Testarbeitsbereich die Synchronisierung verhinderte. (TGT-40686)
-* Es wurde ein Problem behoben, das Änderungen an einem Selektor mit [Erlebnisfragmenten](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) bei Verwendung von &quot;[!UICONTROL Insert After]&quot;im VEC verhinderte. (TGT-41802)
+* Es wurde ein Problem behoben, das Änderungen an einem Selektor mit [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) bei Verwendung von &quot;[!UICONTROL Insert After]&quot; in Visual Experience Composer verhinderte. (TGT-41802)
 * Es wurde ein Problem behoben, das das Senden von leeren JSON-Inhalten in einem Angebot an das Backend verhinderte. [!DNL Target] sendet jetzt das JSON-Objekt, obwohl es leer ist. (TGT-41555)
-* Es wurde ein Fehler behoben, der dazu führte, dass die alten [!DNL Analytics] -Berichte anstelle von [!DNL Analysis Workspace] geöffnet wurden, wenn Kunden beim Anzeigen eines Berichts auf &quot;[!UICONTROL View in Analytics]&quot;geklickt haben. (TGT-41867)
-* Es wurde eine zusätzliche Klarstellung zur angezeigten UI-Meldung hinzugefügt, wenn ein Kunde versucht, [!DNL Analytics] als Berichtsquelle (A4T) für eine [!UICONTROL Automated Personalization] -Aktivität auszuwählen. In der Meldung wird angegeben, dass &quot;[!DNL Target]&quot;die einzige unterstützte Quelle für [!UICONTROL Automated Personalization] -Aktivitäten ist.&quot; (TGT-41954)
+* Es wurde ein Fehler behoben, der dazu führte, dass ältere [!DNL Analytics]-Berichte anstelle von [!DNL Analysis Workspace] geöffnet wurden, wenn Kunden beim Anzeigen eines Berichts auf &quot;[!UICONTROL View in Analytics]&quot; klickten. (TGT-41867)
+* Es wurde eine zusätzliche Klarstellung zur Benutzeroberflächenmeldung hinzugefügt, die angezeigt wird, wenn ein Kunde versucht, [!DNL Analytics] als Berichtsquelle (A4T) für eine [!UICONTROL Automated Personalization]-Aktivität auszuwählen. In der Meldung wird angegeben, dass &quot;[!DNL Target] die einzige unterstützte Quelle für [!UICONTROL Automated Personalization] Aktivitäten ist.“ (TGT-41954)
 * Es wurde eine zusätzliche Klarstellung zur Fehlermeldung hinzugefügt, die angezeigt wird, wenn Kunden versuchen, Hosts durch Zeilenumbruch statt durch Kommas zu trennen. (TGT-40671)
-* Es wurde ein Fehler behoben, der dazu führte, dass sich die Daten einiger Aktivitäten &quot;[!UICONTROL Last Updated]&quot;von der englischen Benutzeroberfläche für spanische und japanische Kunden unterschieden (wenn die Benutzeroberfläche auf Spanisch und Japanisch angezeigt wurde). (TGT-38980)
+* Es wurde ein Fehler behoben, der dazu führte, dass sich bei einigen Aktivitäten die [!UICONTROL Last Updated]-Daten für spanische und japanische Kunden von der englischen Benutzeroberfläche unterschieden (wenn die Benutzeroberfläche auf Spanisch und Japanisch angezeigt wurde). (TGT-38980)
 
 ### at.js 2.6.1 (16. August 2021)
 
@@ -651,7 +651,7 @@ Weitere Informationen zu dieser Version sowie zu vorherigen Versionen finden Sie
 
 Diese Wartungsversion enthält viele Backend-Verbesserungen einschließlich der folgenden kundenrelevanten Änderung:
 
-* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für in der [!UICONTROL Form-Based Experience Composer] erstellte [!UICONTROL Auto Personalization] -Aktivitäten auf gelöschte Angebote in Berichten verweisen. Dieses Problem führte zur Anzeige der folgenden Fehlermeldung: „Wir haben Probleme beim Abrufen der Daten für diesen Bericht. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-41028)
+* Es wurde ein Fehler behoben, der dazu führte, dass Berichte für [!UICONTROL Auto Personalization] in der [!UICONTROL Form-Based Experience Composer] erstellten Aktivitäten in Berichten auf gelöschte Angebote verweisen. Dieses Problem führte zur Anzeige der folgenden Fehlermeldung: „Wir haben Probleme beim Abrufen der Daten für diesen Bericht. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-41028)
 
 ### Target-Bereitstellungs-API (3. August 2021)
 
@@ -673,13 +673,13 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die 
 
 | Funktion | Details |
 | --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | Wenn Sie in einer Aktivität, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, auf der Seite [!UICONTROL Reports] auf den Link &quot;[!UICONTROL View in Analytics]&quot;klicken, wird [!DNL Analysis Workspace] jetzt geöffnet. Zuvor wurden durch den Link die Berichte von [!DNL Analytics] geöffnet. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Wenn Sie auf der [!UICONTROL Reports] auf den Link &quot;[!UICONTROL View in Analytics]&quot; in einer Aktivität klicken, die [!DNL Analytics] als Berichtsquelle (A4T) verwendet, wird [!DNL Analysis Workspace] jetzt geöffnet. Zuvor wurden durch den Link die Berichte von [!DNL Analytics] geöffnet. (TGT-36959) |
 
 ### Python SDK 1.0.0 (16. Juni 2021)
 
 Das neue [!DNL Adobe Target] Python-SDK mit Funktionen zur geräteinternen Entscheidungsfindung ist jetzt verfügbar. Diese neueste Erweiterung ergänzt die [!DNL Target]-Suite der Server-seitigen SDKs. Diese SDKs helfen Ihnen bei der Integration mit [!DNL Target] und beschleunigen Ihre Time-to-Value – und all das in der Sprache Ihrer Wahl. Server-seitige Integrationen werden immer beliebter, da sich der Markt in eine Cookie-freie Welt verlagert, in der First-Party-Daten wertvoll sind. Target-SDKs sind in den gängigsten Programmiersprachen auf dem Markt verfügbar (Python, Java, JavaScript, C# / .Net).
 
-Weitere Informationen finden Sie in der [Python SDK-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank} im [Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
+Weitere Informationen finden Sie in der [Dokumentation zu Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank} im [Adobe Target-](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
 
 ### Target Standard/Premium 21.5.1 (7. Juni 2021)
 
@@ -687,12 +687,12 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 | Funktion | Details |
 | --- | --- |
-| ![Premium Badge](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | Durchsuchen Sie Ihren [!DNL Recommendations] Produkt- und Inhaltskatalog programmgesteuert per API, um Elemente zu identifizieren, die einem Suchkriterium entsprechen, und vereinfachen Sie die Verwaltung Ihres Katalogs.<br>**Einschränkungen und Hinweise**:<ul><li>Die Katalogsuche per API wird nicht für Umgebungen mit mehr als 2.000.000 Elementen unterstützt.</li><li>Katalogsuchergebnisse über die API werden schneller aktualisiert als Katalogsuchergebnisse über die [!DNL Target]-Benutzeroberfläche. Bei der Katalogsuche in der Benutzeroberfläche [!DNL Target] kann es länger dauern, bis die neuesten Ergebnisse angezeigt werden.</li></ul>Weitere Informationen finden Sie unter [Suchen nach Entitäten](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) im *[!DNL Adobe Target][!DNL Recommendations] API*-Handbuch. |
+| ![Premium-Badge](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | Durchsuchen Sie Ihren [!DNL Recommendations] Produkt- und Inhaltskatalog programmgesteuert per API, um Elemente zu identifizieren, die einem Suchkriterium entsprechen, und vereinfachen Sie die Verwaltung Ihres Katalogs.<br>**Einschränkungen und Hinweise**:<ul><li>Die Katalogsuche per API wird nicht für Umgebungen mit mehr als 2.000.000 Elementen unterstützt.</li><li>Katalogsuchergebnisse über die API werden schneller aktualisiert als Katalogsuchergebnisse über die [!DNL Target]-Benutzeroberfläche. Bei der Katalogsuche in der Benutzeroberfläche [!DNL Target] kann es länger dauern, bis die neuesten Ergebnisse angezeigt werden.</li></ul>Weitere Informationen finden Sie unter [Suchen nach Entitäten](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) im *[!DNL Adobe Target][!DNL Recommendations] API*-Handbuch. |
 
 Diese Wartungsversion enthält die folgenden Fehlerbehebungen.
 
-* Es wurde ein Fehler behoben, der dazu führte, dass der Standardarbeitsbereich beim Aktualisieren der Seite [!UICONTROL Audiences] in einen anderen Arbeitsbereich geändert wurde. (TGT-38871)
-* Es wurde ein Fehler in [!UICONTROL Administration] > [!UICONTROL Implementation] behoben, der manchmal eine Fehlermeldung verursachte, in der stand: &quot;Ihre globale Mbox ist möglicherweise nicht synchronisiert. Bitte versuchen Sie, sie erneut zu speichern.“
+* Es wurde ein Fehler behoben, der dazu führte, dass der Standardarbeitsbereich beim Aktualisieren der [!UICONTROL Audiences]-Seite in einen anderen Arbeitsbereich geändert wurde. (TGT-38871)
+* Es wurde ein Problem unter [!UICONTROL Administration] > [!UICONTROL Implementation] behoben, das manchmal folgende Fehlermeldung verursachte: „Die globale Mbox ist möglicherweise nicht synchronisiert. Bitte versuchen Sie, sie erneut zu speichern.“
 
 ### ![Adobe Experience Platform Web SDK-Badge](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]Version 2.5.0 (1. Juni 2021)
 
@@ -700,13 +700,13 @@ Diese Version von [!DNL Platform Web SDK] unterstützt Folgendes:
 
 | Funktion | Details |
 | --- | --- |
-| Umleitungs-Support mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Umleitungsunterstützung mit [!UICONTROL Analytics for Target] (A4T) | Das Platform Web SDK unterstützt jetzt Umleitungen von [!DNL Target] bei der Verwendung von [A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Weitere Informationen finden Sie unter [Analytics für die  [!DNL Target] -Implementierung](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js-Version 2.5.0 (13. Mai 2021)
 
 Diese Version von at.js umfasst die folgenden Verbesserungen und Änderungen:
 
-* [Unterstützung von On-Device Decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} für at.js.
+* [On-Device Decisioning](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} Unterstützung für at.js.
 * Unterstützung für [Vorschau-Links](/help/main/c-activities/c-activity-qa/activity-qa.md) für Automated Personalization-Aktivitäten
 
 Mit dieser Version wird auch die Unterstützung für Microsoft Internet Explorer 10, Internet Explorer 11 und alle älteren Versionen entfernt. Microsoft Edge wird in at.js 2.5.0 und höher weiterhin unterstützt.
@@ -717,14 +717,14 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Verbesserungen. Die 
 
 | Funktion | Details |
 | --- | --- |
-| Unterstützung von geräteinterner Entscheidungsfindung für at.js<br>(Datum wird noch bekannt gegeben) | Die geräteinterne Entscheidungsfindung ermöglicht es Marketing-Experten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null durchzuführen.<br>Weitere Informationen finden Sie unter [On-device decisioning for at.js.](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} |
+| Unterstützung von geräteinterner Entscheidungsfindung für at.js<br>(Datum wird noch bekannt gegeben) | Die geräteinterne Entscheidungsfindung ermöglicht es Marketing-Experten und Entwicklern, Experimente und Personalisierungen im Browser eines Benutzers mit einer Latenz von nahezu null durchzuführen.<br>Weitere Informationen finden Sie unter [Geräteinterne Entscheidungsfindung für at.js.](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} |
 | ![Premium](/help/main/assets/premium.png) Listenbasierte Operatoren für Entitätsfilterregeln | [!DNL Target Recommendations] unterstützt neue listenbasierte Operatoren für Entitätsfilterregeln. (TGT-39234)<br>Neu hinzugefügte Operatoren:<br><ul><li>Ist in Liste enthalten</li><li>Ist nicht in Liste enthalten</li><li>Liste enthält ein Element in</li><li>Liste enthält kein Element in</li><li>Liste enthält alle Elemente in</li><li>Liste enthält nicht alle Elemente in</li></ul>Weitere Informationen finden Sie in „Verfügbare Operatoren“ unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Diese Version enthält die folgenden Fehlerbehebungen.
 
-* Fehlerkorrektur - Aktivitäten können jetzt synchronisiert werden, nachdem die Audience in [!UICONTROL All Visitors] geändert wurde. (TGT-40259)
-* Fehlerkorrektur - Angebote können jetzt dupliziert werden, wenn sie an verschiedenen Stellen in [!UICONTROL Automated Personalization] -Aktivitäten verwendet werden, auch wenn die Option [!UICONTROL Disallow Duplicates] aktiviert ist. (TGT-39567)
-* Fehlerkorrektur - Die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] wird jetzt ordnungsgemäß geladen. (TGT-39918)
+* Fehlerkorrektur - Eine Aktivität kann jetzt synchronisiert werden, nachdem die Zielgruppe in [!UICONTROL All Visitors] geändert wurde. (TGT-40259)
+* Es wurde ein Problem behoben, das verhinderte, dass Angebote dupliziert wurden, wenn sie an verschiedenen Stellen in [!UICONTROL Automated Personalization] -Aktivitäten verwendet wurden, obwohl die Option [!UICONTROL Disallow Duplicates] aktiviert war. (TGT-39567)
+* Es wurde ein Problem behoben, das verhinderte, dass die Seite [!UICONTROL Administration] > [!UICONTROL Scene7 configuration] ordnungsgemäß geladen wurde. (TGT-39918)
 * Es wurde ein Fehler behoben, der dazu führte, dass Eigenschaften dem falschen Arbeitsbereich zugeordnet wurden. (TGT-39869)
 * Es wurde ein Problem behoben, das zu einem unbegrenzten Ladevorgang führte, wenn die Anfrage nach der Änderung der Umgebung beim Erstellen eines Ausschlusses für Empfehlungen fehlschlug. (TGT-39948)
 
@@ -753,11 +753,11 @@ Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
   | Visuelle Angebote über die Target-UI | 64 KB | 1024 KB pro Erlebnis |
   | Über die API | 512 KB | 1024 KB |
 
-* [!UICONTROL Personalization Insights] -Berichte für die Aktivitäten [!UICONTROL Auto-Target] (AT) und [!UICONTROL Automated Personalization] (AP) werden jetzt täglich erstellt. Sie können einen Bericht mit [!UICONTROL Automated Segments] oder [!UICONTROL Important Attributes] für die letzten 15, 30 und 60 Tage auswählen. Die Optionen für 45 und 90 Tage wurden entfernt, damit die anderen Einstellungen des Lookback-Fensters täglich ausgeführt werden können. (TGT-39472)
-* Es wurde ein Fehler behoben, der dazu führte, dass die aktuelle Abhängigkeit nicht angezeigt wurde, wenn Kunden auf [!UICONTROL Edit Dependency] auf der Seite [!UICONTROL Goals & Settings] einer Aktivität klickten. (TGT-39340)
-* Fehlerkorrektur - Beim Aktualisieren von [!UICONTROL Audience Library] eines Arbeitsbereichs tritt jetzt kein Fehler mehr auf. Vor der Aktualisierung wurde die Zielgruppe des aktuell ausgewählten Arbeitsbereichs angezeigt. Nach der Aktualisierung wurden die [!UICONTROL Default Workspace] und die zugehörigen Zielgruppen angezeigt. Der aktuelle Arbeitsbereich und dessen Zielgruppen bleiben nun nach der Aktualisierung erhalten. (TGT-38871)
-* Fehlerkorrektur - Beim Kopieren einer [!UICONTROL Recommendations] -Aktivität und späteren Bearbeiten der ursprünglichen Aktivität durch Ändern der Kriteriensequenz tritt jetzt kein Fehler mehr auf. Die Änderung der Kriteriensequenz der ursprünglichen Aktivität wurde auch nicht korrekt auf die kopierte Aktivität übertragen. (TGT-39155)
-* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Anzahl von Produkten für [!UICONTROL Recommendations] -Ausschlüsse angezeigt wurde. (TGT-39599)
+* [!UICONTROL Personalization Insights] Berichte für [!UICONTROL Auto-Target] (AT) und [!UICONTROL Automated Personalization] (AP) werden jetzt täglich erstellt. Sie können einen Bericht mit [!UICONTROL Automated Segments] oder [!UICONTROL Important Attributes] für die letzten 15, 30 oder 60 Tage auswählen. Die Optionen für 45 und 90 Tage wurden entfernt, damit die anderen Einstellungen des Lookback-Fensters täglich ausgeführt werden können. (TGT-39472)
+* Es wurde ein Problem behoben, das dazu führte, dass die aktuelle Abhängigkeit nicht angezeigt wurde, wenn Kunden auf der [!UICONTROL Goals & Settings] einer Aktivität auf [!UICONTROL Edit Dependency] klicken. (TGT-39340)
+* Es wurde ein Problem beim Aktualisieren der [!UICONTROL Audience Library] eines Arbeitsbereichs behoben. Vor der Aktualisierung wurde die Zielgruppe des aktuell ausgewählten Arbeitsbereichs angezeigt. Nach der Aktualisierung werden die [!UICONTROL Default Workspace] und ihre Zielgruppen angezeigt. Der aktuelle Arbeitsbereich und dessen Zielgruppen bleiben nun nach der Aktualisierung erhalten. (TGT-38871)
+* Fehlerkorrektur - Beim Kopieren einer [!UICONTROL Recommendations] Aktivität und späteren Bearbeiten der ursprünglichen Aktivität tritt jetzt kein Fehler mehr auf, indem die Kriteriensequenz geändert wird. Die Änderung der Kriteriensequenz der ursprünglichen Aktivität wurde auch nicht korrekt auf die kopierte Aktivität übertragen. (TGT-39155)
+* Es wurde ein Fehler behoben, der dazu führte, dass für [!UICONTROL Recommendations] Ausschlüsse eine falsche Produktzahl angezeigt wurde. (TGT-39599)
 
 ### Target Standard/Premium 21.1.1 (19. Januar 2021)
 
@@ -765,16 +765,16 @@ Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Ä
 
 Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-* Es wurde eine Warnung bei der Auswahl einer [!DNL Adobe Analytics] -Metrik bei Verwendung von [!UICONTROL Analytics as the reporting source] (A4T) in einer [!UICONTROL Auto-Target] -Aktivität hinzugefügt. [!UICONTROL Auto-Target] -Modelle sind für die Verwendung mit binären (konversionsbasierten) Metriken optimiert. Die Auswahl einer kontinuierlichen Metrik, z. B. des Umsatzes, kann zu suboptimalen Ergebnissen führen und die [!UICONTROL Personalization Insights] -Berichte sind möglicherweise nicht präzise. (TGT-38926)
-* Es wurde ein Statussymbol im Bericht [!UICONTROL Auto-Target Summary] für [!UICONTROL Auto-Target] -Aktivitäten hinzugefügt, die A4T verwenden. Das grüne Häkchensymbol neben den einzelnen Erlebnissen im Bericht gibt an, dass für dieses Erlebnis ein Modell für das personalisierte maschinelle Lernen generiert wurde. Das Uhrensymbol gibt an, dass nicht genügend Traffic verarbeitet wurde, um das Modell zu erstellen. (TGT-38925)
-* Die [!UICONTROL Automated Segments] - und [!UICONTROL Important Attributes] -Berichte für [!UICONTROL Auto-Target] -Aktivitäten, die A4T- und [!DNL Analytics]-Konversionsmetriken verwenden, werden generiert und sehen genauso aus wie bei Verwendung von [!DNL Target] als Berichtsquelle. (TGT-38931)
-* Der Liste [!UICONTROL Recommendations] [!UICONTROL Collections] wurde eine Filteroption für die Umgebung hinzugefügt. (TGT-38353)
-* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Produktanzahl in [!UICONTROL Recommendations] Sammlungen angezeigt wurde. (TGT-39162)
-* Es wurde ein [!UICONTROL Last Updated] -Filter zum [!UICONTROL Recommendations] [!UICONTROL Catalog Search] hinzugefügt. (TGT-38340)
-* Es wurde ein Fehler in [!UICONTROL Recommendations] behoben, der dazu führte, dass die Seite [!UICONTROL Create Sequence] nach dem Ändern der vertikalen Branche hängen blieb. (TGT-38160)
-* Es wurde ein Problem behoben, das verhinderte, dass Benutzer eine Zielgruppe aus einem Angebot in einer AP-Aktivität (0) entfernen konnten. [!UICONTROL Automated Personalization] (TGT-39058)
-* Es wurde ein Fehler behoben, der dazu führte, dass der falsche Zeitrahmen (Start- und Enddatum) für einige Kunden auf [!UICONTROL Audience Info] -Karten angezeigt wurde. (TGT-39150)
-* Es wurde ein Problem behoben, das manche Kunden daran hinderte, die Liste der Aktivitäten im [!UICONTROL Default Workspace] anzuzeigen. (TGT-38526)
+* Es wurde eine Warnung hinzugefügt, die angezeigt wird, wenn eine [!DNL Adobe Analytics] Metrik bei Verwendung von [!UICONTROL Analytics as the reporting source] (A4T) in einer [!UICONTROL Auto-Target] ausgewählt wird. [!UICONTROL Auto-Target] Modelle sind für die Verwendung binärer (konversionsbasierter) Metriken optimiert. Die Auswahl einer kontinuierlichen Metrik, z. B. Umsatz, kann zu suboptimalen Ergebnissen mit möglicherweise ungenauen [!UICONTROL Personalization Insights] führen. (TGT-38926)
+* Dem [!UICONTROL Auto-Target Summary]-Bericht wurde ein Statussymbol für [!UICONTROL Auto-Target]-Aktivitäten hinzugefügt, die A4T verwenden. Das grüne Häkchensymbol neben den einzelnen Erlebnissen im Bericht gibt an, dass für dieses Erlebnis ein Modell für das personalisierte maschinelle Lernen generiert wurde. Das Uhrensymbol gibt an, dass nicht genügend Traffic verarbeitet wurde, um das Modell zu erstellen. (TGT-38925)
+* Die generierten [!UICONTROL Automated Segments]- und [!UICONTROL Important Attributes] für [!UICONTROL Auto-Target] Aktivitäten, die A4T und [!DNL Analytics] Konversionsmetriken verwenden, sehen genauso aus wie bei der Verwendung von [!DNL Target] als Berichtsquelle. (TGT-38931)
+* Der Liste [!UICONTROL Recommendations] [!UICONTROL Collections] wurde eine Filteroption für Umgebungen hinzugefügt. (TGT-38353)
+* Es wurde ein Fehler behoben, der dazu führte, dass in [!UICONTROL Recommendations] Sammlungen eine falsche Produktzahl angezeigt wurde. (TGT-39162)
+* Dem [!UICONTROL Recommendations]-[!UICONTROL Catalog Search] wurde ein [!UICONTROL Last Updated] Filter hinzugefügt. (TGT-38340)
+* Es wurde ein Problem in [!UICONTROL Recommendations] behoben, das dazu führte, dass die [!UICONTROL Create Sequence] nach einer Änderung der vertikalen Märkte hängen blieb. (TGT-38160)
+* Ein Problem wurde behoben, das verhinderte, dass Benutzer eine Zielgruppe aus einem Angebot in einer [!UICONTROL Automated Personalization] (AP) -Aktivität entfernen konnten. (TGT-39058)
+* Es wurde ein Problem behoben, das bei einigen Kunden dazu führte, dass auf [!UICONTROL Audience Info] Karten ein falscher Zeitraum (Start- und Enddatum) angezeigt wurde. (TGT-39150)
+* Ein Problem wurde behoben, das dazu führte, dass einige Kunden die Liste der Aktivitäten in der [!UICONTROL Default Workspace] nicht sehen konnten. (TGT-38526)
 
 ### at.js 2.4.0 (14. Januar 2021)
 
@@ -791,13 +791,13 @@ Diese Version enthält die folgenden neuen Funktionen:
 
 | Funktion | Details |
 | --- | --- |
-| Geräteinterne Entscheidungsfindung | Mit der geräteinternen Entscheidungsfindung können sowohl Marketer als auch Produktentwickler eine auf Experimente und Machine Learning gestützte Personalisierung ausgehend von einem Benutzergerät über mehrere Kanäle hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig – sowohl was die Kundenkenntnisse als auch die Benutzerzufriedenheit anbelangt.<br>Mit der geräteinternen Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in A/B-Test- und Erlebnis-Targeting-(XT)-Aktivitäten zu „Optimierungsartefakten“ kompilieren – JSON-Objekte, die über das CDN auf Kundengeräte geladen werden. Und da die geräteinterne Entscheidungsfindung native mit [!DNL Adobe Experience Cloud]-Produkten verbunden ist, erhalten [!DNL Target]-Benutzer sehr schnelle Analyse- und Erlebnis-Iterationen.<br>Weitere Informationen finden Sie unter *[On-device decisioning für at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank} und [Einführung in die On-Device-Entscheidungsfindung](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} für serverseitig. |
+| Geräteinterne Entscheidungsfindung | Mit der geräteinternen Entscheidungsfindung können sowohl Marketer als auch Produktentwickler eine auf Experimente und Machine Learning gestützte Personalisierung ausgehend von einem Benutzergerät über mehrere Kanäle hinweg mit nahezu null Latenz bereitstellen.<br>Schnelligkeit und Leistung sind wichtig – sowohl was die Kundenkenntnisse als auch die Benutzerzufriedenheit anbelangt.<br>Mit der geräteinternen Entscheidungsfindung können Sie wichtige Personalisierungs- und Experimentierungsanweisungen in A/B-Test- und Erlebnis-Targeting-(XT)-Aktivitäten zu „Optimierungsartefakten“ kompilieren – JSON-Objekte, die über das CDN auf Kundengeräte geladen werden. Und da die geräteinterne Entscheidungsfindung native mit [!DNL Adobe Experience Cloud]-Produkten verbunden ist, erhalten [!DNL Target]-Benutzer sehr schnelle Analyse- und Erlebnis-Iterationen.<br>Weitere Informationen finden Sie unter *[Geräteinterne Entscheidungsfindung für at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank} und [Einführung in die geräteinterne Entscheidungsfindung](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de){target=_blank} für Server-seitig. |
 
 Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurde ein Fehler behoben, der verhinderte, dass [!UICONTROL Average Lift Confidence Interval] und [!UICONTROL Confidence] in der Berichterstellung [!DNL Auto-Target] für die Zeile [!UICONTROL Total] angezeigt wurden. Die Messungen für die einzelnen Erlebnisse wurden korrekt angezeigt. (TGT-37301)
-* Es wurde ein Problem behoben, das die [!UICONTROL Auto-Target] -Berichterstellung von [!DNL Adobe Target Premium] Benutzern vom 15. September, 14:30 Uhr (PDT) bis 6. Oktober, 9:25 Uhr (PDT) beeinträchtigte. Bei der Anzeige von Berichten für die betroffenen Konversionsmetriken (konfiguriert mit der Option &quot;[!UICONTROL Viewed a page]&quot; oder &quot;[!UICONTROL Clicked on mbox]&quot;) werden die Konversionsraten falsch gemeldet. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
-* Es wurde eine auswählbare [!UICONTROL Last Updated At] -Spalte in der Tabelle [!UICONTROL Catalog Search] und ein [!UICONTROL Last Updated At] -Filter hinzugefügt. Diese Verbesserung spart Ihnen Zeit und Mühe. Sie müssen nun nicht mehr jedes einzelne Element öffnen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie können die Tabelle nach dem Datum filtern, an dem die Elemente zuletzt aktualisiert wurden.
+* Es wurde ein Problem behoben, das verhinderte, dass [!UICONTROL Average Lift Confidence Interval] und [!UICONTROL Confidence] in [!DNL Auto-Target] Berichten für die [!UICONTROL Total] Zeile angezeigt wurden. Die Messungen für die einzelnen Erlebnisse wurden korrekt angezeigt. (TGT-37301)
+* Ein Problem wurde behoben, das sich zwischen dem 15. September, 14.30 Uhr (PDT), und dem 6. Oktober, 9.25 Uhr (PDT), auf die [!UICONTROL Auto-Target]-Berichte von [!DNL Adobe Target Premium]-Benutzern auswirkte. In den Berichten werden die Konversionsraten der betroffenen Konversionsmetriken (konfiguriert mit der Option &quot;[!UICONTROL Viewed a page]&quot; oder &quot;[!UICONTROL Clicked on mbox]„) nicht korrekt angezeigt. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
+* In der [!UICONTROL Catalog Search] Tabelle wurden eine auswählbare [!UICONTROL Last Updated At] und ein [!UICONTROL Last Updated At] hinzugefügt. Diese Verbesserung spart Ihnen Zeit und Mühe. Sie müssen nun nicht mehr jedes einzelne Element öffnen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie können die Tabelle nach dem Datum filtern, an dem die Elemente zuletzt aktualisiert wurden.
 
   ![Abbildung: Spalte und Filter „Letzte Änderung“](/help/main/r-release-notes/assets/column-and-filter.png)
 
@@ -818,7 +818,7 @@ Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Ä
 
 | Funktion | Details |
 | --- | --- |
-| ![Premium-Badge](/help/main/assets/premium.png) Analytics for Target-(A4T)-Unterstützung durch automatische Targeting-Aktivitäten | [!UICONTROL Auto-Target] -Aktivitäten unterstützen jetzt [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Mit dieser Integration können Sie den maschinellen Lernalgorithmus [!UICONTROL Auto-Target] verwenden, um für jeden Besucher basierend auf seinem Profil, Verhalten und Kontext ein bestes Erlebnis auszuwählen.<br>Wenn Sie A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) bereits für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert haben, sind Sie alle festgelegt![<br>Weitere Informationen finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| ![Premium-Badge](/help/main/assets/premium.png) Analytics for Target-(A4T)-Unterstützung durch automatische Targeting-Aktivitäten | [!UICONTROL Auto-Target]-Aktivitäten unterstützen jetzt [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Durch diese Integration können Sie den Machine-Learning-Algorithmus der [!UICONTROL Auto-Target]-Gruppe verwenden, um für jeden Besucher das beste Erlebnis auf Grundlage seines Profils, Verhaltens und Kontexts auszuwählen.<br>Wenn Sie A4T bereits [für A/B-Test- und Erlebnis-Targeting-](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie nun bestens eingerichtet!<br>Weitere Informationen finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 
 ### Target Standard/Premium 20.8.2 (10. September 2020)
 
@@ -830,21 +830,21 @@ Diese Wartungsversion enthält folgende Verbesserungen, Fehlerkorrekturen und Ä
 
 Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
-* Es wurde ein Fehler behoben, der dazu führte, dass beim Laden der neuen [!UICONTROL Administration] -Seiten nach dem Umschalten zwischen Unternehmen Fehler angezeigt wurden. (TGT-37730)
-* Es wurde ein Anzeigefehler behoben, der dazu führte, dass der falsche Clientcode auf der Seite [!UICONTROL Administration > Implementation] angezeigt wurde. (TGT-37849)
-* Es wurde ein Problem behoben, durch das Benutzer die Bearbeitungsfunktionen im [!UICONTROL Visual Experience Composer] (VEC) manchmal nicht verwenden konnten, nachdem VEC erfolgreich geladen wurde. (TGT-37162)
+* Ein Problem wurde behoben, das dazu führte, dass nach einem Wechsel der Organisation beim Laden der neuen [!UICONTROL Administration]-Seiten Fehler angezeigt wurden. (TGT-37730)
+* Ein Anzeigefehler wurde behoben, der dazu führte, dass auf der [!UICONTROL Administration > Implementation]-Seite ein falscher Clientcode angezeigt wurde. (TGT-37849)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer nach erfolgreichem Laden des VEC gelegentlich die Bearbeitungsfunktionen des [!UICONTROL Visual Experience Composer] (VEC) nicht verwenden konnten. (TGT-37162)
 * Ein Problem wurde behoben, das dazu führte, dass trotz installierter VEC Helper-Erweiterung Seiten in VEC und Enhanced Experience Composer (EEC) nicht geladen wurden. Dieser Fehler war auf eine Änderung in Google Chrome ab Version 80 zurückzuführen. Laden Sie die [aktualisierte VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) herunter. (TGT-37893)
-* Es wurde ein Problem behoben, durch das Benutzer nach dem Umschalten von Organisationen manchmal verhindert haben, at.js von der Seite [!UICONTROL Administration > Implementation] herunterzuladen. (TGT-37668)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer nach einem Wechsel der Organisation gelegentlich die Datei at.js nicht von der Seite [!UICONTROL Administration > Implementation] herunterladen konnten. (TGT-37668)
 * Die Schaltfläche zum Herunterladen der Datei at.js ist nun deaktiviert, solange die at.js heruntergeladen wird, um zu verhindern, dass [!DNL Target] mehrere Anforderungen sendet, wenn ein Benutzer mehrmals auf diese Schaltfläche klickt. (TGT-37633)
-* Es wurde ein Problem in [!UICONTROL Experience Targeting] -Aktivitäten (XT) behoben, durch das Erlebnisse über einen längeren Zeitraum &quot;Ergebnisse abgerufen&quot;angezeigt haben. (TGT-37684)
+* Ein Problem in [!UICONTROL Experience Targeting] (XT)-Aktivitäten wurde behoben, das dazu führte, dass Erlebnisse über einen zu langen Zeitraum die Fortschrittsmeldung „Ergebnisse werden abgerufen“ anzeigten. (TGT-37684)
 * Verbesserte Navigation und Funktionalität für Benutzer, die nur die Tastatur nutzen. (TGT-34479 und TGT-34473)
 * Der Benutzeroberfläche wurden Beschriftungen hinzugefügt, die Benutzern unterstützender Technologien Hilfestellung geben. (TGT-34480)
 * Die Fehlermeldung, die beim Löschen eines mobilen Viewports angezeigt wird, der noch in einer Aktivität verwendet wird, wurde verbessert. Die Fehlermeldung lautet nun: „Dieser Viewport ist derzeit einer oder mehreren Aktivitäten zugeordnet. Sie müssen den Viewport aus diesen Aktivitäten entfernen, um ihn löschen zu können“. (TGT-37030)
 * In VEC unterstützt nun auch Klick-Tracking für einen CSS-Selektor, der mehren Seitenelementen zugeordnet ist. (TGT-37323)
-* Fehlerkorrektur - Die Liste &quot;[!UICONTROL Activity]&quot; wird jetzt von bestimmten Benutzern angezeigt. Die folgende Fehlermeldung wurde angezeigt: „URL-Vorschläge können nicht abgerufen werden“. Der Fehler trat bei Benutzern auf, die auf dem Adobe-Backend-System in ihren Vornamen (FirstName/r/n) Zeilenumbrüche verwendeten. (TGT-37330)
-* Es wurde ein Fehler behoben, der verhinderte, dass Benutzer die Seite &quot;[!UICONTROL Activity]&quot;anzeigen konnten, wenn der Workspace-Name (angegeben in [!UICONTROL Adobe Admin Console for Enterprise]) einen Apostroph enthielt. (TGT-37709)
-* Fehlerkorrektur - Bei der Auswahl von Optimierungs- und Konversionsmetriken tritt in [!UICONTROL Auto-Allocate] -Aktivitäten jetzt kein Fehler mehr auf, wenn eine Fehlermeldung Benutzer fälschlicherweise zur Auswahl einer Report Suite informiert hat, obwohl bereits eine Report Suite angegeben wurde. (TGT-37689)
-* Es wurde ein Fehler behoben, der manchmal dazu führte, dass Metriken auf der Seite [!UICONTROL Goals and Settings] nach dem Navigieren zur Seite [!UICONTROL Targeting] und dann zurück leer waren. (TGT-37691)
+* Ein Problem wurde behoben, das dazu führte, dass bestimmte Benutzer die [!UICONTROL Activity] nicht anzeigen konnten. Die folgende Fehlermeldung wurde angezeigt: „URL-Vorschläge können nicht abgerufen werden“. Der Fehler trat bei Benutzern auf, die auf dem Adobe-Backend-System in ihren Vornamen (FirstName/r/n) Zeilenumbrüche verwendeten. (TGT-37330)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer die Seite [!UICONTROL Activity] nicht anzeigen konnten, wenn der im [!UICONTROL Adobe Admin Console for Enterprise] angegebene Arbeitsbereichsname ein Apostroph enthielt. (TGT-37709)
+* Fehlerkorrektur - Bei [!UICONTROL Auto-Allocate] Aktivitäten bei der Auswahl von Optimierungs- und Konversionsmetriken werden Benutzer jetzt nicht mehr durch eine Fehlermeldung aufgefordert, eine Report Suite auszuwählen, obwohl bereits eine Report Suite angegeben wurde. (TGT-37689)
+* Es wurde ein Problem behoben, das gelegentlich dazu führte, dass Metriken auf der Seite [!UICONTROL Goals and Settings] nach einem Wechsel zur Seite [!UICONTROL Targeting] und wieder zurück gelegentlich leer blieben. (TGT-37691)
 * Ein Problem wurde behoben, das dazu führte, dass für [!DNL Recommendations]-Kriterien das letzte Änderungsdatum falsch angezeigt wurde. (TGT-37666)
 * Ein Problem wurde behoben, das dazu führte, dass in der Dropdown-Liste „Mboxes“ Mbox-IDs anstatt Mbox-Namen angezeigt wurden. (TGT-37739)
 
@@ -858,18 +858,18 @@ Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebun
 
 Dieses Release umfasst die folgenden Änderungen:
 
-#### Aktualisierung der Benutzeroberfläche des Bereichs [!UICONTROL Administration]
+#### Aktualisierung der [!UICONTROL Administration]-Benutzeroberfläche
 
-Derzeit wird die gesamte Benutzeroberfläche von [!DNL Target] schrittweise mittels eines neuen Technologie-Stacks umgeschrieben. Dadurch wird eine verbesserte Leistung, eine Verkürzung der Wartungszeit bei der Veröffentlichung neuer Funktionen und ein optimiertes Benutzererlebnis im gesamten Produkt angestrebt. Der erste aktualisierte Abschnitt ist der Abschnitt [!UICONTROL Setup] , der in [!UICONTROL Administration] umbenannt wurde.
+Derzeit wird die gesamte Benutzeroberfläche von [!DNL Target] schrittweise mittels eines neuen Technologie-Stacks umgeschrieben. Dadurch wird eine verbesserte Leistung, eine Verkürzung der Wartungszeit bei der Veröffentlichung neuer Funktionen und ein optimiertes Benutzererlebnis im gesamten Produkt angestrebt. Der erste aktualisierte Abschnitt ist der [!UICONTROL Setup] Abschnitt, der [!UICONTROL Administration] umbenannt wurde.
 
-Im Rahmen dieser Aktualisierung können Sie mit den Seiten im Abschnitt [!UICONTROL Administration] mühelos viele Aktionen ausführen, z. B.:
+Durch diese Aktualisierung können Sie nun auf den Seiten des [!UICONTROL Administration] Abschnitts zahlreiche Aktionen wesentlich einfacher durchführen. Zum Beispiel:
 
 * Laden Sie die neueste at.js-Datei von der Registerkarte [!UICONTROL Implementation] herunter (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
-* Passen Sie Ihre at.js-Einstellungen an und können Ihre Änderungen einfach überprüfen (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**).
-* Ändern Sie erweiterte Berichtseinstellungen wie die Standardwährung und die Standardzeitzone, die IPs, die vom Reporting ausgeschlossen werden, usw. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
-* IP-Adressen von Besuchern aus Datenschutzgründen verschleiern (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
-* Sehen Sie sich die vorhandene Benutzerliste pro Arbeitsbereich und deren Rollen an, bevor Sie sie in Adobe Admin Console verwalten (**[!UICONTROL Administration]** > **[!UICONTROL Users]**).
-* Suchen und filtern Sie alle Tabellen im Abschnitt [!UICONTROL Administration] .
+* Anpassen der at.js-Einstellungen und einfache Überprüfung der Änderungen (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* Ändern der erweiterten Berichtseinstellungen, z. B. der Standardwährung und -zeitzone, der aus dem Reporting auszuschließenden IPs usw. (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]**)
+* Maskieren der IP-Adressen von Besuchern aus Datenschutzgründen (**[!UICONTROL Administration]** > **[!UICONTROL Implementation]**)
+* Anzeigen der bestehenden Liste der Benutzer sowie deren Rollen nach Arbeitsbereich vor der Verwaltung dieser Liste in Adobe Admin Console (**[!UICONTROL Administration]** > **[!UICONTROL Users]**)
+* Durchsuchen und Filtern aller Tabellen im Abschnitt [!UICONTROL Administration].
 
 Weitere Informationen finden Sie unter [Verwaltung von Target – Überblick](/help/main/administrating-target/administrating-target.md).
 
@@ -878,23 +878,23 @@ Weitere Informationen finden Sie unter [Verwaltung von Target – Überblick](/h
 Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderungen:
 
 * Ein Problem wurde behoben, das dazu führte, dass die Site-Voreinstellungen nach der Aktualisierung nicht beibehalten wurden. (TGT-37239)
-* Fehlerkorrektur - Jetzt funktioniert [!UICONTROL Insert After] > [!UICONTROL Image] ordnungsgemäß mit skalierbaren Vektorgrafiken (SVG). (TGT-37242)
-* Es wurde ein Problem für Benutzer mit der Rolle [!UICONTROL Publisher] behoben, das das Löschen von Entwurfsaktivitäten verhinderte. (TGT-37358)
-* Fehlerkorrektur - Benutzer können jetzt eine Aktivität bearbeiten, wenn [!UICONTROL All My Workspaces] ausgewählt ist. (TGT-37276)
+* Es wurde ein Problem behoben, das dazu führte, dass [!UICONTROL Insert After] > [!UICONTROL Image] mit SVG-Bildern (Scalable Vector Graphics) nicht ordnungsgemäß funktionierten. (TGT-37242)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer mit der Rolle [!UICONTROL Publisher] keine Entwurfsaktivitäten löschen konnten. (TGT-37358)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer eine Aktivität bei Auswahl von [!UICONTROL All My Workspaces] nicht bearbeiten konnten. (TGT-37276)
 
 ### Target Standard/Premium 20.5.1 (17. Juni 2020)
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Unterstützung von Analytics for Target (A4T) für [!UICONTROL Auto-Allocate] -Aktivitäten | [!UICONTROL Auto-Allocate] -Aktivitäten unterstützen jetzt [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Diese Integration ermöglicht Ihnen die Verwendung der [!UICONTROL Auto-Allocate] Multi-Armed Bandit-Funktion, um Traffic zu erfolgreichsten Erlebnissen zu lenken, während Sie eine [!UICONTROL Adobe Analytics] Zielmetrik und/oder [!UICONTROL Adobe Analytics] Berichts- und Analysefunktionen verwenden.<br>Wenn Sie A4T](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) bereits für die Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert haben, sind Sie alle festgelegt![<br>Weitere Informationen finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
-| Antwort-Tokens für die Traffic-Zuordnungsmethode in automatischen Targeting- und Automated Personalization-Aktivitäten | Es wurden zwei [Antwort-Token](/help/main/administrating-target/response-tokens.md) zu den Aktivitäten [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization] hinzugefügt, um festzustellen, ob ein Besucher ein bestimmtes Erlebnis erhalten hat, nachdem er &quot;Kontroll&quot;- oder &quot;Targeting&quot;-Traffic zugewiesen wurde.<ul><li>`experience.trafficAllocationId` gibt 0 zurück, wenn ein Besucher ein Erlebnis aus dem &quot;Kontroll&quot;-Traffic erhalten hat, und 1, wenn ein Besucher von der &quot;gezielten&quot;Traffic-Verteilung ein Erlebnis erhalten hat.</li><li>`experience.trafficAllocationType` gibt &quot;Kontrolle&quot;oder &quot;Targeting&quot;zurück.</li></ul>Weitere Informationen zu Kontroll- oder Targeting-Traffic finden Sie unter [Auswahl des Kontrollelements für die Aktivität „Automated Personalization“ oder „Automatisches Targeting“](/help/main/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL Publisher] Rolle | Diese neue Rolle ähnelt der aktuellen [!UICONTROL Observer] -Rolle (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Die Rolle &quot;[!UICONTROL Publisher]&quot;verfügt jedoch über die zusätzliche Berechtigung zum Aktivieren von Aktivitäten.<br>Weitere Informationen finden Sie unter: <ul><li>**Target Standard-Benutzer**: [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) im Abschnitt *Benutzer*.</li><li>**Target Premium-Benutzer**: [Schritt 6: Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) im Abschnitt *Konfigurieren von Enterprise-Berechtigungen*.</li></ul> |
-| A4T-Unterstützung in [!DNL Analysis Workspace]<br>25. Juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wird jetzt in [!DNL Analysis Workspace] unterstützt. Mit dem [!UICONTROL Analytics for Target (A4T) panel] können Sie Ihre [!DNL Adobe Target] -Aktivitäten und -Erlebnisse in [!DNL Analysis Workspace] analysieren.<br>Weitere Informationen finden Sie unter [Berichte in Analytics](/help/main/c-integrating-target-with-mac/a4t/reporting.md) in den Abschnitten *Berichterstellung in A4T* und [Bedienfeld von Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de) im *Handbuch zu den Analytics-Tools*. |
+| Unterstützung von Analytics for Target (A4T) für [!UICONTROL Auto-Allocate] Aktivitäten | [!UICONTROL Auto-Allocate]-Aktivitäten unterstützen jetzt [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md).<br>Bei Verwendung einer [!UICONTROL Adobe Analytics] Zielmetrik und/oder [!UICONTROL Adobe Analytics] Berichts- und Analysefunktionen ermöglicht diese Integration die Verwendung der [!UICONTROL Auto-Allocate] Multi-Armed-Bandit-Funktion, um Traffic an die erfolgreichsten Erlebnisse zu leiten.<br>Wenn Sie A4T bereits [für A/B-Test- und Erlebnis-Targeting-](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) implementiert haben, sind Sie nun bestens eingerichtet!<br>Weitere Informationen finden Sie unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| Antwort-Tokens für die Traffic-Zuordnungsmethode in automatischen Targeting- und Automated Personalization-Aktivitäten | Den [!UICONTROL Auto-Target]- und [!UICONTROL Automated Personalization]-Aktivitäten ](/help/main/administrating-target/response-tokens.md) zwei [Antwort-Token“ hinzugefügt, mit denen ermittelt werden kann, ob ein Besucher ein bestimmtes Erlebnis erhalten hat, weil ihm Kontroll- oder Targeting-Traffic zugewiesen wurde.<ul><li>`experience.trafficAllocationId` gibt 0 zurück, wenn ein Besucher ein Erlebnis aus Kontroll-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der Targeting-Traffic-Verteilung erhalten hat.</li><li>`experience.trafficAllocationType` gibt „Kontrolle“ oder „Targeting“ zurück.</li></ul>Weitere Informationen zu Kontroll- oder Targeting-Traffic finden Sie unter [Auswahl des Kontrollelements für die Aktivität „Automated Personalization“ oder „Automatisches Targeting“](/help/main/c-activities/t-automated-personalization/experience-as-control.md). |
+| Rolle [!UICONTROL Publisher] | Diese neue Rolle ähnelt der aktuellen Rolle [!UICONTROL Observer] (kann Aktivitäten anzeigen, aber nicht erstellen oder bearbeiten). Die Rolle [!UICONTROL Publisher] verfügt jedoch zusätzlich über die Berechtigung zum Aktivieren von Aktivitäten.<br>Weitere Informationen finden Sie unter: <ul><li>**Target Standard-Benutzer**: [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) im Abschnitt *Benutzer*.</li><li>**Target Premium-Benutzer**: [Schritt 6: Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) im Abschnitt *Konfigurieren von Enterprise-Berechtigungen*.</li></ul> |
+| A4T-Unterstützung in [!DNL Analysis Workspace]<br>25. Juni 2020 | [!UICONTROL Anaytics for Target] (A4T) wird jetzt in [!DNL Analysis Workspace] unterstützt. Mit dem [!UICONTROL Analytics for Target (A4T) panel] können Sie Ihre [!DNL Adobe Target] Aktivitäten und Erlebnisse in [!DNL Analysis Workspace] analysieren.<br>Weitere Informationen finden Sie unter [Berichte in Analytics](/help/main/c-integrating-target-with-mac/a4t/reporting.md) in den Abschnitten *Berichterstellung in A4T* und [Bedienfeld von Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de) im *Handbuch zu den Analytics-Tools*. |
 
 **Verbesserungen, Korrekturen von Problemen und Änderungen**
 
 * Ein Problem wurde behoben, das dazu führte, dass die Metrik „Besucher“ in der Definition der Aktivität und nicht unter „UniqueVisitors“ gespeichert wurde. (TGT-37098)
-* Es wurde ein Fehler in der Benutzeroberfläche [!DNL Target] behoben, der dazu führte, dass die vertikale Bildlaufleiste auf der Seite [!UICONTROL Audiences] nicht richtig funktionierte. (TGT-36968)
+* Ein Problem in der [!DNL Target]-Benutzeroberfläche wurde behoben, das dazu führte, dass die vertikale Bildlaufleiste auf der [!UICONTROL Audiences] nicht korrekt funktionierte. (TGT-36968)
 
 ### at.js 1.8.2 und at.js 2.3.1 (15. Juni 2020)
 
@@ -903,7 +903,7 @@ In den at.js-Bibliotheken von [!DNL Target] wurden die folgenden Verbesserungen 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
 | at.js 1.8.2 | Diese Version von at.js ist eine Wartungsversion, die die folgende Fehlerbehebung enthält:<ul><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 1.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35064)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
-| at.js 2.3.1 | Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:<ul><li>Die Einstellung `deviceIdLifetime` wurde über [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank} überschrieben. (TNT-36349)</li><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)</li><li>Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
+| at.js 2.3.1 | Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterungen und Fehlerbehebungen enthält:<ul><li>Die `deviceIdLifetime` kann nun mit „targetGlobalSettings[ überschrieben ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank}. (TNT-36349)</li><li>Ein Problem wurde behoben, dass dazu führte, dass at.js 2.*x* bei Verwendung von CNAME und eines Edge-Override die Serverdomäne nicht korrekt erstellte, wodurch die [!DNL Target]-Anforderung fehl schlug. (TNT-35065)</li><li>Ein Problem wurde behoben, dass dazu führte, dass [!DNL Target] bei Verwendung von [!DNL Target] [!DNL Launch] Extension v2 und der [!DNL Adobe Analytics] [!DNL Launch]-Erweiterung den [!DNL Analytics]-Aufruf `sendBeacon` verzögerte. (TNT-36407, TNT-35990, TNT-36000)</li></ul>Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
 
 ### Änderungen an Profile Batch Status API v2 (14. Mai 2020)
 
@@ -1008,7 +1008,7 @@ Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderunge
 * In der Content Security Policy (CSP) wurden Sicherheitsverbesserungen implementiert. (TGT-36190)
 * Ein Problem wurde behoben, das dazu führte, dass „NaN%“ angezeigt wurde, wenn der Schieberegler für den Prozentsatz der „Attributgewichtung“ ganz nach links verschoben wurde. (TGT-36211)
 * Probleme in landessprachlichen Versionen wurden behoben, sodass der Text der Benutzeroberfläche in verschiedenen Sprachen korrekt angezeigt wird.
-* Die Liste der verfügbaren Metriken aus Adobe Analytics for Target (A4T)-Aktivitäten wurde standardisiert, indem Adobe Analytics-Metriken, die in der aktuellen Version von Adobe Analytics-APIs nicht unterstützt werden, eingestellt werden. Dies ermöglicht uns die Erweiterung unserer A4T-Unterstützung in zukünftigen Adobe Target-Versionen.
+* Die Liste der verfügbaren Metriken aus Adobe Analytics for Target(A4T)-Aktivitäten wurde standardisiert. Hierzu wurden Adobe Analytics-Metriken entfernt, die in der aktuellen Version der Adobe Analytics-APIs nicht mehr unterstützt werden. Dies ermöglicht uns die Erweiterung unserer A4T-Unterstützung in zukünftigen Adobe Target-Versionen.
 
   Die folgenden Änderungen wurden vorgenommen:
 
@@ -1029,11 +1029,11 @@ Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderunge
 * Nach der Anmeldung bei [!DNL Adobe Experience Cloud] gelangen Sie zur neuen Navigation in der Kopfzeile. Sie unterscheidet sich auf den ersten Blick kaum von der bisherigen Navigation in der schwarzen Leiste am oberen Bildschirmrand, bietet jedoch die folgenden Verbesserungen:
 
    * Einfacherer Wechsel zu einer anderen [!DNL Identity Management System] (IMS)-Organisation oder Lösung.
-   * Verbesserte Benutzerhilfe: Die Suchergebnisse enthalten nun auch Inhalte aus der [!DNL Target]-Produktdokumentation und den Community-Foren sowie mehr Videoinhalte. Sie erhalten so einfacher Zugriff auf noch mehr Inhalte, die Ihnen helfen, [!DNL Target] optimal zu nutzen. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Help] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen zu teilen.
+   * Verbesserte Benutzerhilfe: Die Suchergebnisse enthalten nun auch Inhalte aus der [!DNL Target]-Produktdokumentation und den Community-Foren sowie mehr Videoinhalte. Sie erhalten so einfacher Zugriff auf noch mehr Inhalte, die Ihnen helfen, [!DNL Target] optimal zu nutzen. Dem Menü [!UICONTROL Help] wurde ein Feedback-Mechanismus hinzugefügt, der Ihnen die Meldung von Problemen oder den Austausch Ihrer Ideen erleichtert.
 
-   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass das Umfragemodell Ihren Arbeitsfluss nicht stört.
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass das Umfrage-Modal Ihren Arbeitsfluss nicht stört.
 
-   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste [!UICONTROL Notifications] in der Kopfzeile verfügbar.
+   * Benachrichtigungen für [!DNL Target] sind in der Dropdown-Liste [!UICONTROL Notifications] in der Kopfzeile derzeit nicht verfügbar.
 
   >[!NOTE]
   >
@@ -1081,11 +1081,11 @@ Das folgende Problem wurde in Version 1.0.1 behoben:
 * Nach der Anmeldung bei [!DNL Adobe Experience Cloud] gelangen Sie zur neuen Navigation in der Kopfzeile. Sie unterscheidet sich auf den ersten Blick kaum von der bisherigen Navigation in der schwarzen Leiste am oberen Bildschirmrand, bietet jedoch die folgenden Verbesserungen:
 
    * Einfacherer Wechsel zu einer anderen [!DNL Identity Management System] (IMS)-Organisation oder Lösung.
-   * Verbesserte Benutzerhilfe: Die Suchergebnisse enthalten nun auch Inhalte aus der [!DNL Target]-Produktdokumentation und den Community-Foren sowie mehr Videoinhalte. Sie erhalten so einfacher Zugriff auf noch mehr Inhalte, die Ihnen helfen, [!DNL Target] optimal zu nutzen. Wir haben auch einen Feedback-Mechanismus direkt im Menü [!UICONTROL Help] hinzugefügt, der es einfacher macht, Probleme zu melden oder Ideen zu teilen.
+   * Verbesserte Benutzerhilfe: Die Suchergebnisse enthalten nun auch Inhalte aus der [!DNL Target]-Produktdokumentation und den Community-Foren sowie mehr Videoinhalte. Sie erhalten so einfacher Zugriff auf noch mehr Inhalte, die Ihnen helfen, [!DNL Target] optimal zu nutzen. Dem Menü [!UICONTROL Help] wurde ein Feedback-Mechanismus hinzugefügt, der Ihnen die Meldung von Problemen oder den Austausch Ihrer Ideen erleichtert.
 
-   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass das Umfragemodell Ihren Arbeitsfluss nicht stört.
+   * Verbesserte Feedback-Funktion für Net Promoter Score (NPS), sodass das Umfrage-Modal Ihren Arbeitsfluss nicht stört.
 
-   * Benachrichtigungen für [!DNL Target] sind derzeit nicht in der Dropdown-Liste [!UICONTROL Notifications] in der Kopfzeile verfügbar.
+   * Benachrichtigungen für [!DNL Target] sind in der Dropdown-Liste [!UICONTROL Notifications] in der Kopfzeile derzeit nicht verfügbar.
 
   >[!NOTE]
   >
@@ -1097,7 +1097,7 @@ Das folgende Problem wurde in Version 1.0.1 behoben:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| at.js 2.2<br>and<br>at.js 1.8 | Diese Versionen von at.js bieten folgende Neuerungen:<ul><li>Verbesserte Leistung bei gleichzeitiger Verwendung von Experience Cloud ID Service (ECID) v4.4 und at.js 2.2 oder at.js 1.8 auf Ihren Webseiten.</li><li>Bislang führte ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen Aufruf reduziert, wodurch die Leistung deutlich verbessert wurde.</li></ul> Um diese Leistungsverbesserungen zu erhalten, müssen Sie ein Upgrade auf at.js 2.2 oder at.js 1.8 und ECID Library v4.4 durchführen.<br>at.js 2.2 bietet folgende Neuerungen:<ul><li>**serverState**: Eine in at.js v2.2+ verfügbare Einstellung zur Optimierung der Seitenleistung, wenn eine Hybrid-Integration von Target implementiert ist. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf der Server-Seite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden.<br>Weitere Informationen finden Sie unter &quot;serverState&quot;in [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank}.</li></ul> |
+| at.js 2.2<br>and<br>at.js 1.8 | Diese Versionen von at.js bieten folgende Neuerungen:<ul><li>Verbesserte Leistung bei gleichzeitiger Verwendung von Experience Cloud ID Service (ECID) v4.4 und at.js 2.2 oder at.js 1.8 auf Ihren Webseiten.</li><li>Bislang führte ECID zwei Sperraufrufe durch, bevor at.js Erlebnisse abrufen konnte. Dies wurde auf einen Aufruf reduziert, wodurch die Leistung deutlich verbessert wurde.</li></ul> Um diese Leistungsverbesserungen zu erhalten, müssen Sie ein Upgrade auf at.js 2.2 oder at.js 1.8 und ECID Library v4.4 durchführen.<br>at.js 2.2 bietet folgende Neuerungen:<ul><li>**serverState**: Eine in at.js v2.2+ verfügbare Einstellung zur Optimierung der Seitenleistung, wenn eine Hybrid-Integration von Target implementiert ist. Hybrid-Integration bedeutet, dass Sie zur Bereitstellung Ihrer Erlebnisse sowohl at.js v2.2+ auf der Client-Seite als auch die Bereitstellungs-API oder ein Target-SDK auf der Server-Seite verwenden. `serverState` ermöglicht at.js v2.2+, Erlebnisse direkt aus Inhalten anzuwenden, die auf Serverseite abgerufen und als Teil der bereitzustellenden Seite an den Client zurückgegeben wurden.<br>Weitere Informationen finden Sie unter „serverState“ in [targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank}.</li></ul> |
 
 ### Target-Plattform (9. Oktober 2019)
 
@@ -1129,8 +1129,8 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
 | ![ Premium-Zeichen ](/help/main/assets/premium.png)<br>Recommendations in A/B-Test- und Erlebnis-Targeting-Aktivitäten (XT) | Der Status der Recommendations-Angebote (Algorithmus) wird auf der Übersichtsseite für A/B-Test- und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Zu den Status gehören: Ergebnisse bereit, Ergebnisse nicht bereit und Feed-Fehler. (TGT-33649)<br>Siehe [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
-| Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. Die [Experience Cloud ID-Bibliothek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=de) muss verwendet werden.<br>Siehe [Unterstützung von domänenübergreifendem Tracking in at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
-| Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek (ECID) 4.3 | Target-Kunden können heute das ITP 2.1- und ITP 2.2-Zertifizierungsprogramm von Apple mithilfe des Adobe CNAME-Zertifizierungsprogramms umgehen.<br>Mit dieser Version führt Target eine nahtlose Integration in die ECID-Bibliothek 4.3 ein, die ein serverseitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu umgehen. Es wird dringend empfohlen, dass Target-Kunden die [ECID-Bibliothek 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=de) in Verbindung mit der JavaScript-Bibliothek von Target bereitstellen, um zukünftige ITP-Versionen zu umgehen. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
+| Unterstützung von domänenübergreifendem Tracking für at.js 2.0 und höher über die Experience Cloud ID-Bibliothek (ECID) | Bisher wurde das domänenübergreifende Tracking in at.js 2 nicht unterstützt.*x*. Mit dieser Version können jetzt Kunden, die at.js 2.0 oder höher verwenden, domänenübergreifendes Tracking über die ECID-Bibliothek nutzen. Damit das domänenübergreifende Tracking funktioniert, muss die ECID-Bibliothek gemeinsam mit at. js 2.0 oder höher auf der Seite installiert sein. Die [Experience Cloud ID-Bibliothek 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=de) muss verwendet werden.<br>Siehe [Unterstützung für Domain-übergreifendes Tracking in at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
+| Target-Unterstützung für ITP 2.1 und ITP 2.2 von Apple über die Experience Cloud ID-Bibliothek (ECID) 4.3 | Heute können Target-Kunden Apples ITP 2.1 und ITP 2.2 mithilfe des Adobe-CNAME-Zertifizierungsprogramms umgehen.<br>Mit dieser Version führt Target eine nahtlose Integration mit der ECID-Bibliothek 4.3 ein, die ein Server-seitiges Cookie nutzt, um ITP 2.1 und ITP 2.2 zu umgehen. Target-Kunden wird dringend empfohlen, [ECID-Bibliothek 4.3 oder höher ](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=de) in Verbindung mit der JavaScript-Bibliothek von Target bereitzustellen, um künftige ITP-Versionen zu umgehen. Die ECID-Bibliothek wird weiterhin Verbesserungen veröffentlichen, die eine verlässliche Lösung für die sich ständig ändernden Cookie-Richtlinien von Browsern bieten.<br>Siehe [Apple Intelligent Tracking Prevention (ITP) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
 
@@ -1156,7 +1156,7 @@ Diese Version von at.js ist eine Wartungsversion, die die folgenden Erweiterunge
 * Es wurde ein Problem beim Weiterleiten der `mboxThirdPartyId` mit der Funktion `targetPageParams` behoben, was dazu geführt hatte, dass die Payload der Anfrage weder in den Abfrageparametern noch in der Payload der Anfrage vorhanden war. (TNT-32613)
 * Es wurde ein Problem behoben, durch das die Antworten auf Anzeige- und Klick-Benachrichtigungen in Chromium-basierten Browsern blockiert wurden (einschließlich Google Chrome). (TNT-32290)
 
-Weitere Informationen zu dieser und früheren Versionen von at.js finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
+Weitere Informationen zu dieser und vorherigen Versionen von at.js finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
 ### Target Standard/Premium 19.6.1 (26. Juni 2019) {#tgt-19-6-1-historical}
 
@@ -1166,10 +1166,10 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer (VEC) | **Neue Menüoptionen im VEC**: Wenn Sie im VEC auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt.<ul><li>Sie können jetzt die Option [!UICONTROL Styles > Background] verwenden, um das Hintergrundbild und die Hintergrundfarbe für das ausgewählte Element zu ändern. (TGT-15001)</li></ul>Siehe *Stile* in [Visual Experience-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbesserungen beim Klick-Tracking**: Der Vorgang zur Konfiguration des Klick-Trackings im VEC und im VEC für Einzelseiten-Apps (SPA) wurde verbessert.<ul><li>Bei der Auswahl von Elementen im Klick-Tracking werden auf der rechten Seite im Bedienfeld „Änderungen“ die Namen aller verfügbaren Elemente angezeigt, sodass die gewünschten Elemente schnell und einfach ausgewählt werden können.</li><li>Auf der Seite &quot;[!UICONTROL Goals & Settings]&quot; des dreiteiligen geführten Aktivitäts-Workflows wird eine Zahl angezeigt, die die Anzahl der für das Klick-Tracking ausgewählten Elemente darstellt. Wenn Sie den Mauszeiger über diese Zahl bewegen, werden die Namen aller ausgewählten Elemente angezeigt. (TGT-33878)</li></ul>Siehe [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md). |
+| Visual Experience Composer (VEC) | **Neue Menüoptionen im VEC**: Wenn Sie im VEC auf ein Seitenelement klicken, werden in einem Menü die für diesen Elementtyp verfügbaren Optionen angezeigt.<ul><li>Sie können jetzt die Option [!UICONTROL Styles > Background] verwenden, um das Hintergrundbild und die Hintergrundfarbe für das ausgewählte Element zu ändern. (TGT-15001)</li></ul>Siehe *Stile* in [Visual Experience-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Verbesserungen beim Klick-Tracking**: Der Vorgang zur Konfiguration des Klick-Trackings im VEC und im VEC für Einzelseiten-Apps (SPA) wurde verbessert.<ul><li>Bei der Auswahl von Elementen im Klick-Tracking werden auf der rechten Seite im Bedienfeld „Änderungen“ die Namen aller verfügbaren Elemente angezeigt, sodass die gewünschten Elemente schnell und einfach ausgewählt werden können.</li><li>Auf der [!UICONTROL Goals & Settings] Seite des dreiteiligen Workflows Geführte Aktivität wird eine Zahl angezeigt, die der Anzahl der für Klick-Tracking ausgewählten Elemente entspricht. Wenn Sie den Mauszeiger über diese Zahl bewegen, werden die Namen aller ausgewählten Elemente angezeigt. (TGT-33878)</li></ul>Siehe [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md). |
 | Single Page App Visual Experience Composer (SPA VEC) | **Geführter Workflow**: Ein neuer geführter Workflow hilft Ihnen dabei, die Einstellungen für die Seitenauslieferung zu konfigurieren, sodass eine Aktivität für eine Einzelseiten-App erfolgreich ausgeführt werden kann. (TGT-33718)<br> Siehe [Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Änderungen klonen**: Sie können jetzt eine Änderung mithilfe des SPA VEC definieren und diese Änderung dann klonen, um sie in anderen Ansichten Ihrer Einzelseiten-App zu verwenden. (TGT-33882)<br> Siehe [Visual Experience Composer für Einzelseiten-Apps (SPAs)](/help/main/c-experiences/spa-visual-experience-composer.md). |
-| ![Premium-Zeichen](/help/main/assets/premium.png) Automated Personalization (AP) und Automatisches Targeting | **Bestimmtes Erlebnis als Kontrollelement**: Sie können beim Erstellen eines AP oder eines automatischen Targetings ein Kontrollerlebnis auswählen. Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen. Die aktuelle Kontrolloption (zufällig bereitgestellte Erlebnisse) ist weiterhin verfügbar. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Siehe [Auswählen des Steuerelements für Ihre Automated Personalization- oder AT-Aktivität (Automatisches Targeting)](/help/main/c-activities/t-automated-personalization/experience-as-control.md).<br>**Personalization Insights-Berichte**: Die marketerfreundliche Benennung von Attributen, wenn ein Besucher ein bestimmtes Inhaltselement an einem bestimmten Ort sieht, bietet aussagekräftigere Informationen. (TGT-33421 &amp; TGT-34957)<br>See [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/ap-data.md). |
-| ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations | Sie können den Schalter „Zuvor gekaufte Artikel empfehlen“ beim Erstellen der Logik „Kürzlich angezeigte Elemente“ nutzen. (TGT-34030)<br>Weitere Informationen finden Sie unter [Kürzlich angezeigte Elemente](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in &quot;Kriterien erstellen&quot;. |
+| ![Premium-Zeichen](/help/main/assets/premium.png) Automated Personalization (AP) und Automatisches Targeting | **Bestimmtes Erlebnis als Kontrollelement**: Sie können beim Erstellen eines AP oder eines automatischen Targetings ein Kontrollerlebnis auswählen. Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen. Die aktuelle Kontrolloption (zufällig bereitgestellte Erlebnisse) ist weiterhin verfügbar. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>Siehe [Auswahl des Kontrollelements für die Aktivität &quot;Automated Personalization&quot; oder „Automatisches Targeting“](/help/main/c-activities/t-automated-personalization/experience-as-control.md).<br>**Personalization Insights-Berichte**: Die marketerfreundliche Benennung von Attributen, wenn ein Besucher ein bestimmtes Inhaltselement an einem bestimmten Ort sieht, bietet aussagekräftigere Informationen. (TGT-33421 &amp; TGT-34957)<br>See [Datenerfassung für die Target-Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/ap-data.md). |
+| ![Premium-Zeichen](/help/main/assets/premium.png) Recommendations | Sie können den Schalter „Zuvor gekaufte Artikel empfehlen“ beim Erstellen der Logik „Kürzlich angezeigte Elemente“ nutzen. (TGT-34030)<br>Weitere Informationen finden Sie unter [Kürzlich angezeigte Elemente](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in „Kriterien erstellen“. |
 | SameSite-Cookie-Richtlinien von Google Chrome | Google kündigte kürzlich an, dass die Entwickler beginnend mit Chrome 76, das am 30. Juli 2019 veröffentlicht werden soll, explizit angeben müssen, welche Cookies auf allen Websites funktionieren und welche Cookies Benutzer tracken können.<br>Da die Branche Maßnahmen trifft, um das Web für Verbraucher sicherer zu machen, setzt sich Target intensiv dafür ein, personalisierte Erlebnisse zu liefern, gleichzeitig aber auch die Besuchererwartungen an den Datenschutz einzuhalten.<br>Siehe [Google Chrome SameSite-Cookie-Richtlinien](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}. |
 
 ### at.js-Version 2.1.0 (3. Juni 2019) {#atjs-210}
@@ -1178,10 +1178,10 @@ Wir freuen uns, folgende Funktionen in at.js 2.1.0 bekannt geben zu können:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Opt-in-Unterstützung von Adobe | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zum Adobe-Opt-in finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung (DSGVO)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}. |
+| Opt-in-Unterstützung von Adobe | Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zum Adobe-Opt-in finden Sie [Datenschutz und Datenschutz-Grundverordnung (DSGVO)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}. |
 | Kompatibel mit dem Branchenstandard CSP | at.js verwendet nicht mehr eval() mehr, um JavaScript auszuführen. |
 | Client-seitige Analytics-Protokollierung | Damit hat der Kunden die volle Kontrolle darüber, wie Analysedaten an Adobe Analytics gesendet werden, ob Client- oder Server-seitig.<br>Weitere Informationen finden Sie unter [Client-seitige Analytics-Protokollierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Vor der Implementierung*. |
-| Benachrichtigungen senden | Ermöglicht es Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt durch die Verwendung von `applyOffer()` oder `applyOffers()` gerendert wird.<br>Weitere Informationen finden Sie unter [adobe.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html){target=_blank}. |
+| Benachrichtigungen senden | Ermöglicht es Entwicklern, Benachrichtigungen zu senden, wenn ein Erlebnis durch ihren Code statt durch die Verwendung von `applyOffer()` oder `applyOffers()` gerendert wird.<br>Weitere Informationen finden Sie unter &quot;[.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html){target=_blank}. |
 | Geringere Dateigröße | Die Größe von at.js wurde um ~ 24 % verringert. Die kleinere Dateigröße verbessert die Seitenladeleistung und verringert die Ladedauer von at.js auf der Seite. |
 | Aktualisierungen der Dokumentation von at.js | Eine vollständige Liste aller Artikel, die aufgrund der Veröffentlichung von at. js 2.1.0 aktualisiert wurden, finden Sie in den Einträgen vom 3. Juni 2019 der [Dokumentationsänderungen](/help/main/r-release-notes/doc-change.md). |
 
@@ -1209,14 +1209,14 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] | Der [!UICONTROL Visual Experience Composer] (VEC) umfasst die folgenden Verbesserungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Die DOM-Pfad-Funktion steht jetzt beim Einrichten des Klick-Tracking zur Verfügung.<br>Weitere Informationen finden Sie unter [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Verwenden Sie das Bedienfeld „Stile“, um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.<br>Um auf das Bedienfeld &quot;Stile&quot;zuzugreifen, klicken Sie im VEC auf ein Seitenelement und dann auf [!UICONTROL Edit] > [!UICONTROL Styles].<br>Das Bedienfeld „Stile“ wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.<br>Weitere Informationen finden Sie unter [Stile](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in den *Visual Experience Composer-Optionen*.</li><li>Der Rich Text Editor unterstützt jetzt verschachtelte HTML5-Elemente.<br>HTML5-Spezifikationen ermöglichen neue Kombinationen von Tags zum Verschachteln. Die vorherige Version des Rich-Text-Editors unterstützt keine neue Verschachtelung von Tags, wie von der HTML5-Spezifikation zugelassen. Daher wurden verschachtelte Elemente, die im VEC ausgewählt wurden, nicht ordnungsgemäß verarbeitet, was zu unerwünschten HTML-Änderungen führte. (TGT -33618)<br>Weitere Informationen finden Sie unter [Edit Text/HTML](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in den *Visual Experience Composer-Optionen*.</li> |
+| [!UICONTROL Visual Experience Composer] | Der [!UICONTROL Visual Experience Composer] (VEC) umfasst die folgenden Verbesserungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Die DOM-Pfad-Funktion steht jetzt beim Einrichten des Klick-Tracking zur Verfügung.<br>Weitere Informationen finden Sie unter [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md#considerations).</li><li>Verwenden Sie das Bedienfeld „Stile“, um den Wert vorhandener Stile für das ausgewählte Element anzuzeigen oder zu bearbeiten. Sie können auch zusätzliche Formatierungen hinzufügen.<br>Um auf das Bedienfeld Stile zuzugreifen, klicken Sie im VEC auf ein Seitenelement und dann auf [!UICONTROL Edit] > [!UICONTROL Styles].<br>Das Bedienfeld „Stile“ wird rechts im VEC angezeigt. Das Bedienfeld enthält eine Liste der Stile, mit denen Sie das ausgewählte Element bearbeiten oder die Sie zum ausgewählten Element hinzufügen können. Mit einem Echtzeit-CSS-Editor können Sie Änderungen anzeigen und Stile hinzufügen, wenn Sie mit Cascading Style Sheets (CSS) gut vertraut sind oder Code von Ihrem Entwickler erhalten.<br>Weitere Informationen finden Sie unter [Stile](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) in den *Visual Experience Composer-Optionen*.</li><li>Der Rich Text Editor unterstützt jetzt verschachtelte HTML5-Elemente.<br>HTML5-Spezifikationen ermöglichen neue Kombinationen von Tags zum Verschachteln. Die vorherige Version des Rich-Text-Editors unterstützt keine neue Verschachtelung von Tags, wie von der HTML5-Spezifikation zugelassen. Daher wurden verschachtelte Elemente, die im VEC ausgewählt wurden, nicht ordnungsgemäß verarbeitet, was zu unerwünschten HTML-Änderungen führte. (TGT -33618)<br>Weitere Informationen finden Sie unter [Edit Text/HTML](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html) in den *Visual Experience Composer-Optionen*.</li> |
 
 #### Verbesserungen, Fehlerbehebungen und Änderungen
 
-* Wir haben den Arbeitsablauf beim Löschen von Assets mit dem VEC verbessert. Gelöschte Assets werden jetzt aus dem [!UICONTROL Offers library] und dem [!DNL Scene7] entfernt (falls zutreffend). Gelöschte Elemente werden nicht mehr in den Suchergebnissen angezeigt. (TGT-31981)
+* Wir haben den Arbeitsablauf beim Löschen von Assets mit dem VEC verbessert. Gelöschte Assets werden jetzt aus der [!UICONTROL Offers library] und der [!DNL Scene7] entfernt (falls zutreffend). Gelöschte Elemente werden nicht mehr in den Suchergebnissen angezeigt. (TGT-31981)
 * Sie können Asset-Ordner jetzt auch dann löschen, wenn sie Bilder (nicht leere Ordner) enthalten. (TGT-33265)
 
-  Zuvor war es nicht möglich, einen nicht leeren Ordner aus der Target-Bildangebotsbibliothek ([!UICONTROL Offers] > [!UICONTROL Image Offers]) zu löschen. Sie würden einen &quot;Ordner ist nicht leer!&quot;erhalten. Benachrichtigung beim Versuch, den Ordner aus der Benutzeroberfläche zu löschen.  Mit dieser Funktion fügen wir die Möglichkeit hinzu, mit der Sie den Ordner löschen können, um einen ganzen Ordner mit beliebig vielen Assets und Unterordnern zu entfernen. Diese Funktion ist auch in der Target-Benutzeroberfläche sowie in der Benutzeroberfläche von Adobe Experience Cloud Assets verfügbar.
+  Zuvor konnten Sie einen nicht leeren Ordner nicht aus der Zielbildangebotsbibliothek löschen ([!UICONTROL Offers] > [!UICONTROL Image Offers]). Sie würden einen „Ordner ist nicht leer!“ erhalten. Benachrichtigung beim Versuch, den Ordner aus der Benutzeroberfläche zu löschen.  Mit dieser Funktion fügen wir die Möglichkeit hinzu, mit der Sie den Ordner löschen können, um einen ganzen Ordner mit beliebig vielen Assets und Unterordnern zu entfernen. Diese Funktion ist auch in der Target-Benutzeroberfläche sowie in der Benutzeroberfläche von Adobe Experience Cloud Assets verfügbar.
 
    * Nicht leere Ordner in der Bildangebotsbibliothek können gelöscht werden. Wenn auf keines der Bilder im Ordner in irgendeiner Aktivität verwiesen wird, werden der gesamte Ordner und dessen Inhalte gelöscht. Wenn in einer Aktivität auf einige Bilder im Ordner verwiesen wird, werden alle nicht referenzierten Bilder gelöscht. Referenzierte Bilder und Ordner, die diese Bilder enthalten, bleiben erhalten.
    * Das Rendering von Bildangeboten in der Bild-Asset-Auswahl erfolgt schneller und effizienter.
@@ -1225,7 +1225,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 * Wir haben die Darstellung von Bildangeboten im Asset Picker verbessert. Das Anzeigen und Auswählen von Bildangeboten ist jetzt schneller und effizienter. (TGT-32897)
 * Wir haben die Verarbeitung von Umleitungen auf URLs verbessert, wenn Sie das Laden einer Seite innerhalb des VEC abbrechen. (TGT-33815)
-* Nachdem Sie eine [!UICONTROL Recommendations] -Sammlung aus der Sammlungsauswahl ausgewählt haben, müssen Sie jetzt auf die Schaltfläche [!UICONTROL Save] klicken. Dieser Arbeitsablauf ist konsistent mit anderen Arbeitsabläufen innerhalb von [!DNL Target]. (TGT-33205)
+* Nachdem Sie eine [!UICONTROL Recommendations] Sammlung aus der Sammlungsauswahl ausgewählt haben, müssen Sie jetzt auf die Schaltfläche [!UICONTROL Save] klicken. Dieser Arbeitsablauf ist konsistent mit anderen Arbeitsabläufen innerhalb von [!DNL Target]. (TGT-33205)
 * Es wurde ein Fehler behoben, der dazu führte, dass ein kleiner Satz an Insight-Berichten anstelle der tatsächlichen Konversionsraten eine Konversionsrate von 0 % zurückgab. (TNT-32125)
 
 ### [!DNL Target] Standard/Premium 19.4.1 (15. April 2019) {#release-19-4-1}
@@ -1244,7 +1244,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt das Laden einer Website in VEC abbrechen, um die Bearbeitung einer Aktivität zu entsperren. Diese Verbesserung ist nützlich, wenn Sie z. B. eine kleine Änderung an einer Aktivität vornehmen, die Einstellungen in der Vorschau ansehen oder benutzerdefinierten Code hinzufügen möchten, Sie aber nicht warten möchten, bis die Website geladen ist. (TGT -31288)<br>Siehe [Laden einer Seite im VEC abbrechen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-31288, TGT-31611 und TGT-32602)<br>Siehe [Bearbeiten einer Seite beim Laden der Seite oder nachdem die Seite nicht geladen werden konnte](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>Im VEC wird der DOM-Pfad angezeigt, sodass Sie einfach bei der Erstellung oder Bearbeitung von Erlebnissen das gewünschte Element auswählen können. (TGT -13422)<br>Siehe [Navigieren in Elementen mit dem DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
+| Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt das Laden einer Website in VEC abbrechen, um die Bearbeitung einer Aktivität zu entsperren. Diese Verbesserung ist nützlich, wenn Sie z. B. eine kleine Änderung an einer Aktivität vornehmen, die Einstellungen in der Vorschau ansehen oder benutzerdefinierten Code hinzufügen möchten, Sie aber nicht warten möchten, bis die Website geladen ist. (TGT -31288)<br>Siehe [Laden einer Seite im VEC abbrechen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-31288, TGT-31611 und TGT-32602)<br>Siehe [Bearbeiten einer Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>Im VEC wird der DOM-Pfad angezeigt, sodass Sie einfach bei der Erstellung oder Bearbeitung von Erlebnissen das gewünschte Element auswählen können. (TGT -13422)<br>Siehe [Navigieren in Elementen mit dem DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
 ### at.js-Version 2.0.1 (19. März 2019) {#atjs201}
 
@@ -1274,8 +1274,8 @@ Diese Version ist eine Wartungsversion und beinhaltet die folgenden Fehlerbehebu
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| at.js Version 2.0.0<br>19. Februar 2019 | at.js 2.x ist jetzt verfügbar.<br>Die neueste Version von at.js bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.<br>Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen nicht verfügbar sind:<ul><li>Die Möglichkeit, alle Angebote beim Laden der Seite zwischenzuspeichern, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren.</li><li>Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass die herkömmlichen Server-Aufrufe verzögert werden.</li><li>Einfache einzeilige Code- und Einmalentwickler-Einrichtung, um Ihren Marketingmitarbeitern die Erstellung und Ausführung von A/B- und Experience-Aktivitäten (XT) über Visual Experience Composer (VEC) auf Einzelseitenanwendungen zu ermöglichen.</li></ul>at.js 2.x enthält die folgenden neuen Funktionen:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Die folgenden Funktionen sind mit der Einführung von at.js 2.x veraltet:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Weitere Informationen finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} und [at.js-Funktionen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.<br>**Hinweis**: Wenn Sie Adobe Opt-in-Unterstützung für die [Datenschutz-Grundverordnung](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (DSGVO){target=_blank} benötigen, müssen Sie derzeit at.js 1.7.0 verwenden. Die Opt-in-Unterstützung wird in at.js 2.x nicht unterstützt. |
-| at.js-Version 1.7.0<br>14. Februar 2019 | at.js 1.7.0 ist verfügbar.<br>Bei dieser Version wird Adobe Opt-In unterstützt. Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zum Adobe-Opt-in finden Sie unter [Privatsphäre und Datenschutz-Grundverordnung](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (DSGVO){target=_blank}.<br>Diese Version behebt auch ein Problem, bei dem Target möglicherweise Umleitungs-URL-Parameter mit Parametern überschreibt, die aus der Umleitungs-URL stammen.<br>**Hinweis**: Wenn Sie Adobe Opt-in-Unterstützung für die DSGVO benötigen, müssen Sie derzeit at.js 1.7.0 verwenden. Die Opt-in-Unterstützung wird in at.js 2.x nicht unterstützt.<br>Eine Liste aller Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
+| at.js Version 2.0.0<br>19. Februar 2019 | at.js 2.x ist jetzt verfügbar.<br>Die neueste Version von at.js bietet umfangreiche Funktionssätze, mit denen Ihr Unternehmen Personalisierungen auf Client-seitigen Technologien der nächsten Generation durchführen kann. Diese neue Version konzentriert sich auf die Aktualisierung von at.js, um harmonische Interaktionen mit Einzelseitenanwendungen (SPAs) zu ermöglichen.<br>Hier einige Vorteile der Verwendung von at.js 2.x, die in früheren Versionen nicht verfügbar sind:<ul><li>Die Möglichkeit, alle Angebote beim Laden der Seite zwischenzuspeichern, um mehrere Server-Aufrufe auf einen einzelnen Server-Aufruf zu reduzieren.</li><li>Drastische Verbesserung der Erlebnisse Ihrer Endbenutzer auf Ihrer Site, da Angebote sofort über den Cache angezeigt werden, ohne dass die herkömmlichen Server-Aufrufe verzögert werden.</li><li>Einfache einzeilige Code- und Einmalentwickler-Einrichtung, um Ihren Marketingmitarbeitern die Erstellung und Ausführung von A/B- und Experience-Aktivitäten (XT) über Visual Experience Composer (VEC) auf Einzelseitenanwendungen zu ermöglichen.</li></ul>at.js 2.x enthält die folgenden neuen Funktionen:<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>Die folgenden Funktionen sind mit der Einführung von at.js 2.x veraltet:<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>Weitere Informationen finden Sie unter [Aktualisieren von at.js 1.x auf at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} und [at.js-Funktionen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.<br>**Hinweis**: Wenn Sie Adobe-Opt-in-Unterstützung für die [Datenschutz-](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank} (DSGVO){target=_blank} benötigen, müssen Sie derzeit at.js 1.7.0 verwenden. Opt-in wird in at.js 2.x nicht unterstützt. |
+| at.js-Version 1.7.0<br>14. Februar 2019 | at.js 1.7.0 ist verfügbar.<br>Bei dieser Version wird Adobe Opt-In unterstützt. Adobe Opt-In bietet die Möglichkeit, Adobe-Lösungsintegrationen mit Genehmigungsverwaltungsplattformen zu vereinfachen.<br>Weitere Informationen zum Adobe-Opt-in finden [ unter (Datenschutz und ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}) {target=_blank}.<br>Diese Version behebt auch ein Problem, bei dem Target möglicherweise Umleitungs-URL-Parameter mit Parametern überschreibt, die aus der Umleitungs-URL stammen.<br>**Hinweis**: Wenn Sie für die DSGVO Adobe-Opt-in-Unterstützung benötigen, müssen Sie derzeit at.js 1.7.0 verwenden. Opt-in-Unterstützung wird in at.js 2.x nicht unterstützt.<br>Eine Liste aller Versionen finden Sie unter „at.js[Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}. |
 
 ### [!DNL Target] Standard/Premium 19.2.1 (19. Februar 2019) {#target-19-2-1}
 
@@ -1285,9 +1285,9 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer für Einzelseiten-Apps (SPAs) | Mit Visual Experience Composer (VEC) für Einzelseitenanwendungen (SPAs) können Marketingexperten Tests selbstständig erstellen und Inhalte auf SPAs ohne kontinuierliche Entwicklungsabhängigkeiten personalisieren. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular. (TGT-27916)<br>Weitere Informationen finden Sie unter [Visual Experience Composer für Einzelseiten-Apps (SPA)](/help/main/c-experiences/spa-visual-experience-composer.md) und [Integration von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=de){target=_blank}.<br>Zusätzlich zum obigen Artikel gibt es viele Themen im Zusammenhang mit SPAs und at.js, die diese Funktion behandeln und aufzeigen, wie sie implementiert wird. Weitere Informationen finden Sie unter [Änderungen an der Dokumentation](/help/main/r-release-notes/doc-change.md). |
+| Visual Experience Composer für Einzelseiten-Apps (SPAs) | Mit Visual Experience Composer (VEC) für Einzelseitenanwendungen (SPAs) können Marketingexperten Tests selbstständig erstellen und Inhalte auf SPAs ohne kontinuierliche Entwicklungsabhängigkeiten personalisieren. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular. (TGT-27916)<br>Weitere Informationen finden Sie unter [Visual Experience Composer für Einzelseiten-Apps (SPA](/help/main/c-experiences/spa-visual-experience-composer.md) und [Integration von Einzelseiten-Apps](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=de){target=_blank}.<br>Zusätzlich zum obigen Artikel gibt es viele Themen im Zusammenhang mit SPAs und at.js, die diese Funktion behandeln und aufzeigen, wie sie implementiert wird. Weitere Informationen finden Sie unter [Änderungen an der Dokumentation](/help/main/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt die Optionen „Einfügen vor“ und „Einfügen nach“ in VEC verwenden, während Sie [AEM-Erlebnisfragmente](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) einfügen. Siehe [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Mit der [!DNL Adobe Target] VEC Helper-Browsererweiterung für Google Chrome können Sie Websites zuverlässig in VEC laden, um schnell die Web-Erfahrung zu erstellen und die Qualität zu sichern. Siehe [Visual Experience Composer Helper Extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
-| ![Premium Badge](/help/main/assets/premium.png)<br>Recommendations in [!UICONTROL A/B Test] - und [!UICONTROL Experience Targeting] -Aktivitäten | Sie können jetzt Empfehlungen in die Aktivitäten [!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) und [!UICONTROL Experience Targeting] (XT) einbeziehen. Dies eröffnet völlig neue Möglichkeiten wie z. B.:<ul><li>Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.</li><li>Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.</li><li>Traffic automatisch an das leistungsfähigste Empfehlungserlebnis mit [!UICONTROL Auto-Allocate] leiten.</li><li>Dynamische Zuweisung von Besuchern zu benutzerspezifischen Empfehlungserlebnissen basierend auf ihren individuellen Profilen mithilfe von [!UICONTROL Auto-Target].</li></ul>Erstellen Sie zunächst eine Aktivität vom Typ [!UICONTROL A/B Test] oder [!UICONTROL Experience Targeting] mit dem VEC und verwenden Sie die Aktion [!UICONTROL Insert Before], [!UICONTROL Insert After] oder [!UICONTROL Replace With], um einem Erlebnis Empfehlungen hinzuzufügen. (RECS-6166)<br>Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| ![Premium-Badge](/help/main/assets/premium.png)<br>Recommendations in [!UICONTROL A/B Test]- und [!UICONTROL Experience Targeting] | Sie können jetzt Empfehlungen in [!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) und [!UICONTROL Experience Targeting] (XT) einbeziehen. Dies eröffnet völlig neue Möglichkeiten wie z. B.:<ul><li>Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.</li><li>Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.</li><li>Übertragen Sie Traffic mithilfe von [!UICONTROL Auto-Allocate] automatisch an das Erlebnis mit den besten Recommendations.</li><li>Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihren individuellen Profilen mithilfe von [!UICONTROL Auto-Target].</li></ul>Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting]-Aktivität mit dem VEC und verwenden Sie die [!UICONTROL Insert Before]-, [!UICONTROL Insert After]- oder [!UICONTROL Replace With]-Aktion, um einem Erlebnis Empfehlungen hinzuzufügen. (RECS-6166)<br>Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 | ![Premium Badge ](/help/main/assets/premium.png)<br> Unterstützung von Enterprise-Berechtigungen in Target-APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab dem **21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automatisierte Personalisierung-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
@@ -1299,7 +1299,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
 | Targeting<br>25. Januar 2019 | Es wurden Änderungen daran vorgenommen, wie Targeting-Übereinstimmungen für „equals“-Vergleiche mit Nicht-Dezimalwerten und Dezimalwerten mit Profilskripten oder einer anderen Quelle der Eingabe, wie mbox-Parameter, Profilparameter usw. funktionieren.<br>Weitere Informationen finden Sie in den FAQ unter [Ziele und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md). |
-| Profilskripte<br>17. Januar 2019 | Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.<br>Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2048 Zeichen überschreitet, wird das Skript vom System deaktiviert.<br>Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2048 Zeichen ist, wird das Skript vom System deaktiviert.<br>Weitere Informationen zu den Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in Target betreffen, finden Sie unter [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md). |
+| Profilskripte<br>17. Januar 2019 | Aus Leistungsgründen empfehlen wir einen Rückgabewert, der nicht länger als 256 Zeichen ist.<br>Wenn für einen String-Rückgabewert die Größe des Rückgabewerts 2048 Zeichen überschreitet, wird das Skript vom System deaktiviert.<br>Wenn für einen Array-Rückgabewert die Größe der verketteten Werte des Arrays größer als 2048 Zeichen ist, wird das Skript vom System deaktiviert.<br>Weitere Informationen zu Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in Target betreffen, finden Sie unter [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md). |
 | at.js<br>16. Januar 2019 | at.js 1.6.4 ist ein Verwaltungsrelease und behandelt die folgenden Probleme:<ul><li>Es wurde eine Race-Bedingung in Microsoft Internet Explorer 11 behoben, die dazu führte, dass doppelte Angebote angewendet wurden. (TNT-31374)</li><li>Es wurde ein Problem behoben, das die Klick-Verfolgung beeinträchtigte, wenn ein Standardangebot mit einem Click-Token- und HTML-Angebot vorhanden war. (TNT-31493)</li><li>Erweiterung des mboxEdgeCluster-Cookies bei jeder Target-Anfrage. Dies wird nur verwendet, wenn mboxEdgeOverride aktiviert ist. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1 (22. Januar 2019) {#release-19-1-1-previous}
@@ -1310,8 +1310,8 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Unterstützung von ![Target Premium Badge](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] in [!DNL Target] APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab **dem 21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automated Personalization-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
-| ![Target Premium Badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe) | Sie können jetzt eine Vorschau des Inhalts von [!UICONTROL Recommendations] Sammlungen und Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.<br/>Zuvor waren bei der Anzeige einer Sammlung oder eines Ausschlusses die angezeigten Elemente Ergebnisse für die Standard-Hostgruppe (angegeben in [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Jetzt können Sie beim Erstellen oder Aktualisieren einer Sammlung oder eines Ausschlusses die Auswahl [!UICONTROL Environment] verwenden, um die Umgebung auszuwählen, für die Ergebnisse in der Vorschau angezeigt werden sollen. Der neue Filter [!UICONTROL Environment] spart Ihnen Zeit und Mühe, da Sie nicht mehr zur Seite [!UICONTROL Settings] navigieren müssen, um die entsprechende standardmäßige Hostgruppe auszuwählen, bevor Sie Sammlungen und Ausschlüsse erstellen oder bearbeiten.<br/>**Hinweis:** Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf [!UICONTROL Search] klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.<br/>Der neue [!UICONTROL Environment] -Filter ist an den folgenden Stellen in der Benutzeroberfläche von [!DNL Target] verfügbar:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>Dialogfeld [!UICONTROL Create Collection] ([!UICONTROL Recommendations > Collections > Create New])</li><li>Dialogfeld [!UICONTROL Update Collection] ([!UICONTROL Recommendations > Collections > Edit])</li><li>Dialogfeld [!UICONTROL Create Exclusion] ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>Dialogfeld [!UICONTROL Update Exclusion] ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Weitere Informationen finden Sie in den folgenden Themen:<uL><li>[Sammlungen](/help/main/c-recommendations/c-products/collections.md)</li><li>[Ausnahmen](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Recommendations: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium-Badge](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] Unterstützung in [!DNL Target] APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab **dem 21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automated Personalization-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
+| ![Target Premium-Badge](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe) | Sie können jetzt eine Vorschau des Inhalts [!UICONTROL Recommendations] Sammlungen und Ausschlüsse für eine ausgewählte Umgebung (Hostgruppe) anzeigen.<br/>Zuvor waren beim Anzeigen einer Sammlung oder eines Ausschlusses die angezeigten Elemente Ergebnisse für die Standard-Hostgruppe (angegeben in [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>Beim Erstellen oder Aktualisieren einer Sammlung oder eines Ausschlusses können Sie jetzt den [!UICONTROL Environment]-Selektor verwenden, um die Umgebung auszuwählen, für die eine Vorschau der Ergebnisse angezeigt werden soll. Der neue [!UICONTROL Environment] spart Ihnen Zeit und Mühe, da Sie nicht mehr zur [!UICONTROL Settings] navigieren müssen, um die entsprechende Standard-Hostgruppe auszuwählen, bevor Sie Sammlungen und Ausschlüsse erstellen oder bearbeiten.<br/>**Hinweis:** Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf [!UICONTROL Search] klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.<br/>Der neue [!UICONTROL Environment] ist an den folgenden Stellen in der [!DNL Target]-Benutzeroberfläche verfügbar:<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Weitere Informationen finden Sie in den folgenden Themen:<uL><li>[Sammlungen](/help/main/c-recommendations/c-products/collections.md)</li><li>[Ausnahmen](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Katalogsuche](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[Recommendations: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
 
@@ -1344,7 +1344,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 ### Target Standard/Premium 18.11.1 (12. November 2018) {#section_6BBA8B1EE9D241C28E12856A375E97F6}
 
-Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-Verbesserungen, Fehlerbehebungen und Änderungen. Die [!UICONTROL Personalization Insights] -Berichte sind ab dem 14. November verfügbar.
+Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-Verbesserungen, Fehlerbehebungen und Änderungen. Die [!UICONTROL Personalization Insights] Berichte werden am 14. November verfügbar sein.
 
 <table id="table_EF529199D1C741F7BDBC9C41A37B7D26"> 
  <thead> 
@@ -1360,7 +1360,7 @@ Die [!DNL Target] Standard-/Premium-Version vom 12. November enthält Backend-V
      <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
       <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle"> Automatisierte Segmente</span>:</b> Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP-/AT-Aktivität. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben. </p> </li> 
       <li id="li_48556C9BAD48476DA00DD666F5265E2B"> <p><b><span class="wintitle"> Wichtige Attribute</span>:</b> In unterschiedlichen Aktivitäten sind Attribute einmal mehr, einmal weniger wichtig für die Personalisierungsentscheidung des Modells. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar. </p> </li> 
-     </ul> </p> <p>Siehe <a href="/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights-Berichte</a>. </p> </td> 
+     </ul> </p> <p>Siehe <a href="/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Personalization Insights-</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1400,12 +1400,12 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
 
 * Die Verarbeitung von in Target-Aktivitäten referenzierten Zielgruppen, die in Adobe Audience Manager (AAM) gelöscht wurden, wurde verbessert. (TGT-23338)
 
-   * Wenn eine Zielgruppe in AAM gelöscht wurde, wird sowohl in der Liste [!UICONTROL Audience] als auch in der Zielgruppenauswahl ein Warnsymbol angezeigt. Darüber hinaus gibt eine QuickInfo an, dass die Zielgruppe in AAM gelöscht wurde.
+   * Wenn eine Zielgruppe in AAM gelöscht wurde, wird ein Warnsymbol sowohl in der [!UICONTROL Audience] als auch in der Zielgruppenauswahl angezeigt. Darüber hinaus gibt eine QuickInfo an, dass die Zielgruppe in AAM gelöscht wurde.
    * Wenn Sie versuchen, mehrere Zielgruppen mit einer gelöschten Zielgruppe zu kombinieren oder eine Aktivität zu speichern, die auf eine gelöschte Zielgruppe verweist, wird eine Warnmeldung angezeigt.
 
   Siehe [Info über Zielgruppen](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=de).
 
-* Fehlerkorrektur - Benutzer können jetzt in bestimmten Situationen eine Aktivität erstellen, wenn Adobe Analytics als Berichtsquelle auf der Seite [!UICONTROL Administration] ausgewählt ist. Benutzern wurde die Meldung „Bitte wählen Sie eine Berichtsquelle aus“ angezeigt, jedoch ohne die Option, eine Report Suite auszuwählen. (TGT-31968)
+* Ein Problem wurde behoben, das dazu führte, dass Benutzer in bestimmten Situationen keine Aktivität erstellen konnten, wenn Adobe Analytics auf der [!UICONTROL Administration] als Berichtsquelle ausgewählt war. Benutzern wurde die Meldung „Bitte wählen Sie eine Berichtsquelle aus“ angezeigt, jedoch ohne die Option, eine Report Suite auszuwählen. (TGT-31968)
 
 ### Plattform (19. Oktober 2018)
 
@@ -1453,7 +1453,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col1" class="premium"> <p>Angebote in AP-Aktivitäten (Automated Personalization) </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_9C39ACD865CE4167BDBAA093EDFD3B68"> 
-      <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>Sie können jetzt mehrere Angebote vom selben Standort in einer Ausschlussgruppe verwenden. Bei der Erstellung einer AP-Aktivität (Automated Personalization) mit einer großen Anzahl an Ausschlüssen (Auftrag von über 1.000) werden darüber hinaus das Dialogfeld „Inhalt verwalten“ und die Vorschauseite schneller geladen. (TGT-31329) Siehe <a href="/help/main/c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Ausschlüsse verwalten </a>. </p> </li> 
+      <li id="li_19710BA5965E4F858B128E1E9FF89471"> <p>Sie können jetzt mehrere Angebote vom selben Standort in einer Ausschlussgruppe verwenden. Bei der Erstellung einer AP-Aktivität (Automated Personalization) mit einer großen Anzahl an Ausschlüssen (Auftrag von über 1.000) werden darüber hinaus das Dialogfeld „Inhalt verwalten“ und die Vorschauseite schneller geladen. (TGT-31329) Siehe <a href="/help/main/c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Verwalten von Ausschlüssen </a>. </p> </li> 
       <li id="li_542C66E2998541BC87D0A96F4672C665"> <p>Sie können Angebote jetzt nach Berichtsgruppen filtern. (TGT-31643) Siehe <a href="/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Erstellen einer Automated Personalization-Aktivität </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1541,13 +1541,13 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col1"> <p>A/B- und XT-(Erlebnis-Targeting)-Aktivitäten </p> </td> 
    <td colname="col2"> <p>Bearbeiten und löschen Sie Erlebnisse direkt über das Aktivitätsdiagramm. Sie können jetzt Erlebnisse direkt im Visual Experience Composer (VEC) öffnen oder ein Erlebnis direkt über das Diagramm löschen. </p> <p> <img src="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>Siehe: </p> <p> 
      <ul id="ul_CB0C1146716F4C09BF924CF3DFA7DC1A"> 
-      <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>A/B-Aktivität: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Erlebnis hinzufügen </a> </p> </li> 
+      <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>A/B-Aktivität: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Experience </a> hinzufügen </p> </li> 
       <li id="li_E2990CA178C6446BA7206643A3164FEF"> <p>XT-Aktivität: <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">Erlebnis erstellen </a> </p> </li> 
      </ul> </p> <p>(TGT-30229) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zielgruppen </p> </td> 
-   <td colname="col2"> <p>Vergleichen Sie ein Profilattribut mit einem anderen statt mit einem statischen Wert. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md#concept_4C2124B79A5B4556A6C1D10C0F5E40A0" format="dita" scope="local"> Erstellen einer Zielgruppe zum Profilattributvergleich </a>. </p> <p> (TGT-28406) </p> </td> 
+   <td colname="col2"> <p>Vergleichen Sie ein Profilattribut mit einem anderen statt mit einem statischen Wert. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md#concept_4C2124B79A5B4556A6C1D10C0F5E40A0" format="dita" scope="local"> Erstellen eines Zielgruppen-</a> für den Profilattributvergleich . </p> <p> (TGT-28406) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benutzerspezifischer Code </p> </td> 
@@ -1643,7 +1643,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebungen und Änderungen:
 
-* Die Sicherungszeile des Recommendations-CSV-Downloads weist jetzt einen &quot;&#42;&quot;(doppelte Anführungszeichen, die ein Sternchen enthalten) anstelle von &quot;&#42;&quot;(ein einzelnes Sternchen) auf.
+* Die Backup-Zeile des Recommendations-CSV-Downloads enthält jetzt ein führendes &quot;&#42;&quot; (doppelte Anführungszeichen, die ein Sternchen einschließen) anstelle von &#42; (ein einzelnes Sternchen).
 * Das Komma vorne in der Zeile „Top-Verkäufe“ und „Am häufigsten angezeigt“ im Recommendations-CSV-Download wurde entfernt.
 
 ### Änderungen an der Target-Plattform (19. Juni 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1687,13 +1687,13 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_B8929C19276D42168A28A3775CDEDFB3"> <p>Sie können bis zu zehn verschiedene Voreinstellungen für die Berichte der einzelnen Aktivitäten speichern, nachdem Sie sie wie gewünscht konfiguriert haben (Metriken, Zielgruppen, erweiterte Einstellungen usw.). Alle Target-Benutzer können die verschiedenen Voreinstellungen anzeigen, bearbeiten und löschen – unabhängig vom Ersteller. (TGT-21268) </p> </li> 
       <li id="li_7ADA62F2ACA049C9B4A8986B09A9F4AA"> <p>Sie können einzelne Aktivitätsberichte nach Bedarf konfigurieren und als Standardeinstellung oder Favoriten speichern. So wird jedes Mal, wenn Sie den Bericht der entsprechenden Aktivität öffnen, diese Ansicht angezeigt. (TGT-10082) </p> </li> 
       <li id="li_DC63C04F3A884BDDA55B5515E4643B7B"> <p>Warnhinweise und Meldungen weisen Sie darauf hin, wenn eine Zielgruppe, eine Metrik, eine Hostgruppe oder ein Erlebnis aus einem zuvor konfigurierten Voreinstellungsbericht gelöscht wurde. Die Warnhinweise oder Meldungen enthalten Anweisungen zur Auswahl einer anderen Zielgruppe, Metrik oder Hostgruppe oder eines anderen Erlebnisses, um das Problem zu beheben. (TGT-29424) </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie im Abschnitt "Zielvorgabe"unter <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> Berichtseinstellungen </a>. </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie im Abschnitt „Zielgruppenvorgabe“ in <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_3A80D5A394EC4B639DC715E06085BDB0" format="dita" scope="local"> </a> Berichtseinstellungen . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profilskripte </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F382C8E7708846A08676E1534BC92878"> 
-      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>Sie können Popupkarten mit Profilskriptinformationen (ähnlich den Karten mit Angebotsinformationen) anzeigen. Auf diesen Karten mit Profilskriptinformationen können Sie die Liste der Aktivitäten, die auf das ausgewählte Profilskript verweisen, sowie weitere nützliche Metadaten anzeigen. (TGT-28253) </p> <p>Weitere Informationen finden Sie im Abschnitt Anzeigen der Karten mit Profilskriptinformationen in <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Profilskriptattributen </a>. </p> </li> 
+      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>Sie können Popupkarten mit Profilskriptinformationen (ähnlich den Karten mit Angebotsinformationen) anzeigen. Auf diesen Karten mit Profilskriptinformationen können Sie die Liste der Aktivitäten, die auf das ausgewählte Profilskript verweisen, sowie weitere nützliche Metadaten anzeigen. (TGT-28253) </p> <p>Weitere Informationen finden Sie im Abschnitt „Anzeigen der Karten mit Profilskriptinformationen“ <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> der </a> „Profilskriptattribute“. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1701,14 +1701,14 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p> 
      <ul id="ul_DFEB778393024E3EBBC482F31A5B39BC"> 
       <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>Die Erstellung benutzerspezifischer Zielgruppen ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in Recommendations-Kriterien und -Promotions sowie in Vorlagentestregeln umgesetzt. </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> Benutzerdefinierte Parameter </a>. </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> benutzerdefinierter Parameter </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können. (TGT-28483) </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </li> 
-      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Die Erstellung von Recommendations-Kriterien, -Promotions und Vorlagentestregeln ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in der Erstellung benutzerspezifischer Zielgruppen umgesetzt. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Häufig gestellte Fragen zu Recommendations </a>. </p> </li> 
+      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Die Erstellung von Recommendations-Kriterien, -Promotions und Vorlagentestregeln ermöglicht jetzt die direkte Verwendung des Mbox-Parameters, ohne zwingend den Mbox-Namen festlegen zu müssen. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde. Alternativ können Sie mit dem Mbox-Namensfilter auch nach Mbox-Parameter filtern. </p> <p>Diese Verbesserung wurde auch in der Erstellung benutzerspezifischer Zielgruppen umgesetzt. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> häufig gestellter Fragen zu Recommendations </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Die UI wurde für die Recommendations-Design-Karten geändert. </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -1739,7 +1739,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Manager-(AEM)-Erlebnisfragmente </p> </td> 
-   <td colname="col2"> <p>Mithilfe von in AEM in Target-Aktivitäten erstellten Erlebnisfragmenten können Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der automatisierten Intelligenz (AI) und des maschinellen Lernens (ML) in Target kombinieren, um Erlebnisse bedarfsgerecht zu testen und zu personalisieren.  </p> <p>AEM kombiniert all Ihre Inhalte und Assets an einer zentralen Stelle, um Ihre Personalisierungsstrategie zu begünstigen. Mit AEM können Sie an einer Stelle problemlos Inhalte für Desktops, Tablets und mobile Geräte erstellen, ohne Code zu schreiben. Es ist nicht erforderlich, Seiten für jedes Gerät zu erstellen. AEM passt jedes Erlebnis automatisch an Ihren Inhalt an. </p> <p> Mit Target können Sie personalisierte Erlebnisse bedarfsgerecht bereitstellen. Dies erfolgt auf der Grundlage einer Kombination aus regelbasierten und AI-gestützten Ansätzen des maschinellen Lernens, zu denen Verhaltens-, Kontext- und Offline-Variablen zählen.Mit Target können Sie mühelos A/B- und Multivarianz-Aktivitäten einrichten und ausführen, um die besten Angebote, Inhalte und Erlebnisse zu ermitteln. </p> <p>Erlebnisfragmente sind ein großer Schritt in Richtung der Verknüpfung zwischen den Erstellern von Inhalten/Erlebnissen und Managern mit den Optimierungs- und Personalisierungsexperten, die Geschäftsergebnisse mit Target optimieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM-Erlebnisfragmente</a>. </p> </td> 
+   <td colname="col2"> <p>Mithilfe von in AEM in Target-Aktivitäten erstellten Erlebnisfragmenten können Sie die Benutzerfreundlichkeit und Leistungsfähigkeit von AEM mit den leistungsstarken Funktionen der automatisierten Intelligenz (AI) und des maschinellen Lernens (ML) in Target kombinieren, um Erlebnisse bedarfsgerecht zu testen und zu personalisieren.  </p> <p>AEM kombiniert all Ihre Inhalte und Assets an einer zentralen Stelle, um Ihre Personalisierungsstrategie zu begünstigen. Mit AEM können Sie an einer Stelle problemlos Inhalte für Desktops, Tablets und mobile Geräte erstellen, ohne Code zu schreiben. Es ist nicht erforderlich, Seiten für jedes Gerät zu erstellen - AEM passt jedes Erlebnis automatisch an Ihre Inhalte an. </p> <p> Mit Target können Sie personalisierte Erlebnisse bedarfsgerecht bereitstellen. Dies erfolgt auf der Grundlage einer Kombination aus regelbasierten und AI-gestützten Ansätzen des maschinellen Lernens, zu denen Verhaltens-, Kontext- und Offline-Variablen zählen.Mit Target können Sie mühelos A/B- und Multivarianz-Aktivitäten einrichten und ausführen, um die besten Angebote, Inhalte und Erlebnisse zu ermitteln. </p> <p>Erlebnisfragmente sind ein großer Schritt in Richtung der Verknüpfung zwischen den Erstellern von Inhalten/Erlebnissen und Managern mit den Optimierungs- und Personalisierungsexperten, die Geschäftsergebnisse mit Target optimieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM-Erlebnisfragmente</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichte </p> </td> 
@@ -1773,7 +1773,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebungen und Änderungen:
 
-* Transport Layer Security (TLS) ist das am weitesten verbreitete Sicherheitsprotokoll, das aktuell in Webbrowsern und anderen Anwendungen Verwendung findet, bei denen über ein Netzwerk übertragene Daten geschützt werden müssen. Um die Sicherheitsstandards von Adobe einzuhalten, muss die Unterstützung für ältere Protokolle beendet und durch TLS 1.2 als obligatorisches Sicherheitsprotokoll ersetzt werden, damit die Daten durch die neueste und sicherste Version des Protokolls geschützt sind. Ab der Version Target 18.4.1 (veröffentlicht am 25. April 2018) leitet Adobe Target Schritte ein mit dem Ziel, zur Verschlüsselung mit TLS 1.2 überzugehen und die Unterstützung für die Verschlüsselung mit TLS 1.0 bis zum 12. September 2018 einzustellen. Für einen reibungslosen Übergang sollten Sie die Details zu diesem Thema genau durchlesen und die Änderungen entsprechend planen. Weitere Informationen finden Sie unter [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* Transport Layer Security (TLS) ist das am weitesten verbreitete Sicherheitsprotokoll, das aktuell in Webbrowsern und anderen Anwendungen Verwendung findet, bei denen über ein Netzwerk übertragene Daten geschützt werden müssen. Um die Sicherheitsstandards von Adobe einzuhalten, muss die Unterstützung für ältere Protokolle beendet und durch TLS 1.2 als obligatorisches Sicherheitsprotokoll ersetzt werden, damit die Daten durch die neueste und sicherste Version des Protokolls geschützt sind. Ab der Version Target 18.4.1 (veröffentlicht am 25. April 2018) leitet Adobe Target Schritte ein mit dem Ziel, zur Verschlüsselung mit TLS 1.2 überzugehen und die Unterstützung für die Verschlüsselung mit TLS 1.0 bis zum 12. September 2018 einzustellen. Für einen reibungslosen Übergang sollten Sie die Details zu diesem Thema genau durchlesen und die Änderungen entsprechend planen. Weitere Informationen finden Sie unter [TLS(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 * Die UI für Recommendations-Kriterienkarten wurde zur Erhöhung der Benutzerfreundlichkeit verbessert. (TGT-27829)
 
 ### at.js (3. April 2018) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -1838,7 +1838,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zielgruppen </p> </td> 
-   <td colname="col2"> <p>Beim Anzeigen der Popup-Karte mit den Definitionen einer Zielgruppe (z. B. aus der Zielgruppenbibliothek) können Sie jetzt andere Aktivitäten sehen, die auf diese Zielgruppe verweisen, sofern zutreffend. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf Aktivitäten verhindern. </p> <p>Wenn Sie zuvor versuchten, eine Zielgruppe zu löschen, auf die andere Aktivitäten verwiesen, wurde eine Warnung angezeigt, in der Sie informiert wurden, dass die Zielgruppe mit maximal 10 auf die Zielgruppe verweisenden Aktivitäten nicht gelöscht werden kann. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Info über Zielgruppen </a>. </p> </td> 
+   <td colname="col2"> <p>Während Sie die Popup-Karte mit den Definitionen einer Zielgruppe anzeigen (z. B. in der Zielgruppenbibliothek), können Sie nun ggf. andere Aktivitäten sehen, die auf diese Zielgruppe verweisen. So können Sie beim Bearbeiten von Zielgruppen nicht beabsichtigte Auswirkungen auf Aktivitäten verhindern. </p> <p>Wenn Sie zuvor versuchten, eine Zielgruppe zu löschen, auf die andere Aktivitäten verwiesen, wurde eine Warnung angezeigt, in der Sie informiert wurden, dass die Zielgruppe mit maximal 10 auf die Zielgruppe verweisenden Aktivitäten nicht gelöscht werden kann. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> über Zielgruppen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichte </p> </td> 
@@ -1866,7 +1866,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target-Erweiterung für Adobe Launch </p> </td> 
-   <td colname="col2"> <p>Launch ist die nächste Generation der Tag-Management-Funktionen von Adobe. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind. </p> <p>Mit der Target-Erweiterung können Sie Target schnell und problemlos in Ihrer Umgebung implementieren. </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de" format="dita" scope="local"> Implementieren von Target mit Adobe Launch </a>. </p> </td> 
+   <td colname="col2"> <p>Launch ist die nächste Generation der Tag-Management-Funktionen von Adobe. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind. </p> <p>Mit der Target-Erweiterung können Sie Target schnell und problemlos in Ihrer Umgebung implementieren. </p> <p>Weitere Informationen finden Sie unter Implementieren von Target mit dem Adobe Launch-</a> <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de" format="dita" scope="local">. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1945,8 +1945,8 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>Sie können nun Zeitrahmenzielgruppen ohne Start- oder Enddatum erstellen. Auf diese Weise können Sie dieselbe Zielgruppe in mehreren Aktivitäten verwenden, ohne eine Kopie der Zielgruppe zu erstellen, und gleichzeitig das Start- und Enddatum auf Aktivitätsebene steuern. Siehe <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Zeitrahmen </a>. (TGT-25975) </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>Die Kopier- und Bearbeitungsfunktionalität steht nur für aktive Zielgruppen zur Verfügung, wenn Sie mit der Maus über eine Zielgruppe auf der Seite „Zielgruppe auswählen“ &gt; „Nur aktive Gruppe“ fahren. Bisher gab es diese Funktionalität nur für Bibliothekszielgruppen. Siehe <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Erstellen einer Zielgruppe "Nur Aktivität"</a>. (TGT-27410) </p> </li> 
-      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Aktive Zielgruppen können über Aktivitäten hinweg den gleichen Namen haben. Zuvor führten doppelte Namen zum Hinzufügen von Zeitstempeln. Eine doppelte Zielgruppe mit dem Namen "Ziel am Wochentag"wurde als "Ziel am Wochentag-1456732099201"gespeichert. </p> <p>Bibliothekszielgruppen benötigen nach wie vor eindeutige Namen. (TGT-17967) </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>Die Kopier- und Bearbeitungsfunktionalität steht nur für aktive Zielgruppen zur Verfügung, wenn Sie mit der Maus über eine Zielgruppe auf der Seite „Zielgruppe auswählen“ &gt; „Nur aktive Gruppe“ fahren. Bisher gab es diese Funktionalität nur für Bibliothekszielgruppen. Siehe <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Erstellen einer Zielgruppe „Nur Aktivität“ </a>. (TGT-27410) </p> </li> 
+      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Aktive Zielgruppen können über Aktivitäten hinweg den gleichen Namen haben. Zuvor führten doppelte Namen zum Hinzufügen von Zeitstempeln. Eine doppelte Zielgruppe mit dem Namen „Target on Weekday“ wurde als „Target on Weekday-1456732099201“ gespeichert. </p> <p>Bibliothekszielgruppen benötigen nach wie vor eindeutige Namen. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2064,9 +2064,9 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
    <td colname="col1"> <p>Zielgruppen </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Sie können Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten erstellen, während Sie eine Aktivität erstellen. Diese Zielgruppe kann an anderen Orten innerhalb derselben Aktivität verwendet werden, wird aber nicht in der Zielgruppenbibliothek gespeichert und kann nicht in anderen Aktivitäten verwendet werden. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Erstellen einer Zielgruppe "Nur Aktivität"</a>. </p> </li> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Sie können Zielgruppen „Nur Aktivität“ innerhalb des geleiteten Arbeitsablaufs mit drei Schritten erstellen, während Sie eine Aktivität erstellen. Diese Zielgruppe kann an anderen Orten innerhalb derselben Aktivität verwendet werden, wird aber nicht in der Zielgruppenbibliothek gespeichert und kann nicht in anderen Aktivitäten verwendet werden. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> einer „Nur Aktivität“-Zielgruppe </a>. </p> </li> 
       <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>Sie können für alle Aktivitäten eine Erfolgsmetrik auswählen, mit der sich ein Benutzer für die Zielgruppe qualifiziert. In der Vergangenheit qualifizierte Target Benutzer für eine Zielgruppe, wenn diese die Aktivität erreichten. Jetzt können Sie hingegen entscheiden, wann die Zielgruppe ausgewertet werden soll, indem Sie eine Erfolgsmetrik auswählen. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
-     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> Anwenden einer Berichterstellungszielgruppe auf eine Erfolgsmetrik </a>. </p> </td> 
+     </ul> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> Anwenden einer Reporting-Zielgruppe auf eine Erfolgsmetrik </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automatisches Targeting </p> </td> 
@@ -2139,11 +2139,11 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Mobile Erlebnisvorschau </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=de" format="dita" scope="local"> Target Mobile-Vorschau </a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Von nun an können Sie auf der Benutzeroberfläche mehrere mobile App-Aktivitäten auswählen und auf Ihrem Gerät eine Vorschau dafür anzeigen. Mithilfe dieser Funktion können Sie sich für die Vorschau und Qualitätssicherung mehrerer Erlebnisse registrieren, ohne sich auf spezielle Testversionen und Simulationen verlassen zu müssen. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html?lang=de" format="dita" scope="local"> Target Mobile Preview </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Vorzeitiger Abruf des Angebotsinhalts </a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Vorabrufen von Angebotsinhalten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivitäten </p> </td> 
@@ -2159,13 +2159,13 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
    <td colname="col1"> <p>Berichterstellung </p> </td> 
    <td colname="col2"> <p>Für die Berichterstellung sind die folgenden neuen Funktionen und Erweiterungen verfügbar: </p> <p> 
      <ul id="ul_2D1AF91D1B4E478FBFFA0B83EE30075E"> 
-      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>Sie können die Zählmethodologie für Diagramme in Berichten wählen. Beachten Sie, dass dies für Aktivitäten zum automatischen Targeting und zur Automated Personalization (AP) nicht unterstützt wird. </p> <p>Weitere Informationen finden Sie in der Zeile "Zählmethodik"unter <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Berichtseinstellungen </a>. </p> </li> 
+      <li id="li_98E67A4DA8BF4CFF90C279FAC12F4C54"> <p>Sie können die Zählmethodologie für Diagramme in Berichten wählen. Beachten Sie, dass dies für Aktivitäten zum automatischen Targeting und zur Automated Personalization (AP) nicht unterstützt wird. </p> <p>Weitere Informationen finden Sie in der Zeile „Zählmethodik“ <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> Report Settings </a>. </p> </li> 
       <li id="li_5803CE90DB764C9E983702CB6C1AFEE3"> <p>Sie können in einem einzelnen Bericht für A/B-Aktivitäten zum automatischen Targeting mehrere Metriken anzeigen. (TGT-23464) </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Anzeigen mehrerer Metriken in einem Bericht.</a> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zielgruppen </p> </td> 
-   <td colname="col2"> <p>Von nun an können Sie die Definitionen von Zielgruppen anzeigen, die aus Target Classic importiert oder per API erstellt wurden. (TGT-22630) </p> <p> <img src="assets/imported_mobile_audience_rn.png" id="image_6ED9EA63FD7D440286DBAFDBD696BA64" /> </p> <p>Weitere Informationen finden Sie unter "Anzeigen von Zielgruppendefinitionen"in <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> Info über Zielgruppen </a>. </p> </td> 
+   <td colname="col2"> <p>Von nun an können Sie die Definitionen von Zielgruppen anzeigen, die aus Target Classic importiert oder per API erstellt wurden. (TGT-22630) </p> <p> <img src="assets/imported_mobile_audience_rn.png" id="image_6ED9EA63FD7D440286DBAFDBD696BA64" /> </p> <p>Weitere Informationen finden Sie unter „Anzeigen von Zielgruppendefinitionen“ in <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> über Zielgruppen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code-Editor </p> </td> 
@@ -2246,7 +2246,7 @@ Weitere Informationen finden Sie unter [Zulassen von gemischtem Inhalt in Ihrem 
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Enterprise-Benutzerberechtigungen für Target Premium </p> </td> 
-   <td colname="col2"> <p>Erstellen Sie separate Arbeitsbereiche in Target und weisen Sie dann Benutzern verschiedene Rollen und Berechtigungen für individuelle digitale Eigenschaften zu. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Berechtigungen für Unternehmensbenutzer </a>. </p></td> 
+   <td colname="col2"> <p>Erstellen Sie separate Arbeitsbereiche in Target und weisen Sie dann Benutzern verschiedene Rollen und Berechtigungen für individuelle digitale Eigenschaften zu. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> von Enterprise-</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA-Modus </p> </td> 
@@ -2261,7 +2261,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
 
 * Wir haben weitere Stellen hinzugefügt, an denen Sie Details zur Zielgruppendefinition auf einer Pop-up-Karte der Target-Benutzeroberfläche anzeigen können, ohne die Zielgruppe zu öffnen. Beachten Sie, dass diese Funktion nur für in [!DNL Target Standard/Premium. (TGT-25772)] erstellte Zielgruppen gilt
 * Von nun an können Sie Definitionen von Ad-hoc-Zielgruppen in der Erstellung/Übersicht für Aktivitäten anzeigen. (TGT-25570)
-* Die folgenden Variablen sind jetzt als [Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) -Arrays verfügbar: `entiites` und `entityN.categoriesList`.
+* Die folgenden Variablen sind jetzt als [Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)-Arrays verfügbar: `entiites` und `entityN.categoriesList`.
 
 ### Änderungen an der Target-Plattform (3. August 2017) {#section_FA5BF6808EA74F3A9E8E941530879208}
 
@@ -2339,8 +2339,8 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
      <ul id="ul_EC856F910B704D648065EA7DA13EE5B0"> 
       <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Recommendations-Aktivitäten. Diese Funktionalität wird für alle anderen Aktivitätstypen unterstützt. </p> </li> 
       <li id="li_2D6CF42264D445FCB6C400ED321DE952"> <p>Wenn Sie Analytics als Berichtsquelle verwenden (A4T). </p> </li> 
-      <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>Metriktyp "Angezeigte Seite". </p> </li> 
-      <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>Der Metriktyp "Angeklickt ein Element"für VEC-Aktivitäten (Visual Experience Composer). </p> </li> 
+      <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>Metriktyp „Angezeigte Seite“. </p> </li> 
+      <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>Metriktyp „Elementklick“ für Visual Experience Composer (VEC)-Aktivitäten. </p> </li> 
      </ul> </p> <p>Weitere Informationen finden Sie in den folgenden Themen: </p> <p> 
      <ul id="ul_4B0EFFDD257C42579E19569DCBE15BE3"> 
       <li id="li_2402575F27F547968BD536C460BF81B5"> <p><a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">A/B-Ziele und -Einstellungen </a> </p> </li> 
@@ -2355,7 +2355,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zielgruppen </p> </td> 
-   <td colname="col2"> <p>Die Zielgruppen-Website-Typen und Vergleichsoperatoren stimmen nun mit den Typen und Vergleichsoperatoren in Target Classic überein. </p> <p>Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> Seiten der Site </a>. </p> </td> 
+   <td colname="col2"> <p>Die Zielgruppen-Website-Typen und Vergleichsoperatoren stimmen nun mit den Typen und Vergleichsoperatoren in Target Classic überein. </p> <p>Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> der Site-Seiten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivitäten </p> </td> 
@@ -2370,11 +2370,11 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
 
 Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen und Korrekturen für den Kunden (Problemnummern in Klammern dienen der internen Verwendung bei Adobe):
 
-* Der Arbeitsablauf bei einem Timeout der [!DNL Target]-Sitzung eines Benutzers während der Erstellung oder Bearbeitung einer Aktivität oder eines Angebots wurde verbessert. Wenn der Benutzer auf [!UICONTROL Save] klickt, wird die Nachricht zum Ablauf der Sitzung angezeigt. Nach der Anmeldung wird der Benutzer jedoch in einem Dialogfeld über eine erfolgreiche Anmeldung informiert, und die Benutzeroberfläche bleibt in [!DNL Target] auf derselben Seite ohne Datenverlust erhalten.
+* Der Arbeitsablauf bei einem Timeout der [!DNL Target]-Sitzung eines Benutzers während der Erstellung oder Bearbeitung einer Aktivität oder eines Angebots wurde verbessert. Wenn der/die Benutzende auf [!UICONTROL Save] klickt, wird die Meldung „Sitzung abgelaufen“ angezeigt, aber nach der Anmeldung wird der/die Benutzende über eine erfolgreiche Anmeldung informiert und die Benutzeroberfläche bleibt [!DNL Target] ohne Datenverlust auf derselben Seite.
 
   Wenn ein Benutzer zeitweise eine Aktion auf einer [!DNL Target]-Seite ausführt und ein Sitzungstimeout auftritt, wird der Benutzer zunächst zur Wiederanmeldung und dann zu der zuletzt bearbeiteten Seite der [!DNL Target]-Benutzeroberfläche geleitet.
 
-* Es wurde ein Fehler behoben, der dazu führte, dass Änderungen an benutzerdefiniertem Code verloren gingen, wenn der Benutzer wegnavigiert (Erlebnisse ändert, Seite wechselt, Zielgruppe wechselt, auf Weiter klickt usw.) und vergisst, Änderungen zu speichern. Der Benutzer wird von nun an zum Speichern von Änderungen aufgefordert. (TGT-23766)
+* Es wurde ein Problem behoben, das dazu führte, dass benutzerdefinierte Code-Änderungen verloren gingen, wenn der Benutzer die Seite verlässt (Erlebnisse ändert, Seiten wechselt, Zielgruppe wechselt, auf Weiter klickt usw.) und vergisst, die Änderungen zu speichern. Der Benutzer wird von nun an zum Speichern von Änderungen aufgefordert. (TGT-23766)
 * Beim Archivieren einer Aktivität wird „Aktivität archiviert“ anstelle von „Aktivität wird aktualisiert“ angezeigt. (KB-1517)
 * Die Dropdown-Auswahl an den folgenden Stellen der Target-Benutzeroberfläche wurde durch Auto-Vervollständigen-Funktionalität ersetzt, um die Geschwindigkeit und die Leistung zu optimieren: (TGT-22939)
 
@@ -2448,7 +2448,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Targeting-(XT)-Aktivitäten </p> </td> 
-   <td colname="col2"> <p>Mithilfe der Drag-and-drop-Funktionalität können Sie beim Erstellen oder Bearbeiten von XT-Aktivitäten Zielgruppen und Erlebnisse in der gewünschten Reihenfolge anordnen. Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Erlebnis erstellen </a>. </p> </td> 
+   <td colname="col2"> <p>Mithilfe der Drag-and-drop-Funktionalität können Sie beim Erstellen oder Bearbeiten von XT-Aktivitäten Zielgruppen und Erlebnisse in der gewünschten Reihenfolge anordnen. Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> von Experience </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Berichterstellung: A/B, XT und Recommendations </p> </td> 
@@ -2487,7 +2487,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Berichterstellung </td> 
-   <td colname="col2"> <p><b>Anzeigen mehrerer Ziele/Metriken:</b> Sie können jetzt mehrere Metriken in A/B- und Erlebnis-Targeting (XT)-Aktivitäten anzeigen, mit Ausnahme von <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automatisierte Zuordnung </a> und <a href="/help/main/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> Automatisches Targeting </a> A/B-Aktivitäten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Anzeigen mehrerer Metriken in einem Bericht.</a> </p> </td> 
+   <td colname="col2"> <p><b>Anzeigen mehrerer Ziele/Metriken: </b> Sie können jetzt mehrere Metriken in A/B- und Experience Targeting(XT)-Aktivitäten anzeigen, mit Ausnahme <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> automatischen Zuordnungs-</a> und <a href="/help/main/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> automatischen Targeting </a> A/B-Aktivitäten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Anzeigen mehrerer Metriken in einem Bericht.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2516,7 +2516,7 @@ Diese Version von [!DNL Target] konzentriert sich auf Backend-Korrekturen und en
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>Die Einstellung <span class="codeph">selectorsPollingTimeout</span> wurde hinzugefügt. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>Das Antwortformat von <span class="codeph">getOffer()</span> wurde geändert. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">adobe.target.getOffer(options).</a> </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Die Konsolenprotokollierung für nicht unterstützte <span class="codeph">&lt;!DOCTYPE&gt;</span>-Deklarationen wurde hinzugefügt. </p> </li> 
-      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>Es wurde ein Problem behoben, bei dem <span class="keyword"> Target Classic </span> -Plug-ins nicht korrekt angewendet wurden, wenn mehrere Standardangebote an eine einzelne Mbox gesendet wurden. (TGT-22664)</p> </li> 
+      <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>Es wurde ein Problem behoben, bei dem <span class="keyword"> Target Classic-</span>-Plug-ins nicht korrekt angewendet wurden, wenn mehrere Standardangebote an eine einzelne Mbox gesendet wurden. (TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>Die Cookie-Einstellung für Domänen auf oberster Ebene mit zwei Buchstaben wurde verbessert, um zu gewährleisten, dass das Mbox-Cookie für entsprechende Domänen korrekt festgelegt wird (z. B. <span class="filepath">test.no</span>, <span class="filepath">autodrives.ca</span> usw.). </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>Der Algorithmus zum Extrahieren der Domain der obersten Ebene, die beim Speichern von Cookies verwendet werden sollte, hat sich in <span class="codeph">at.js</span>-Version 0.9.6 geändert. Aufgrund dieser Änderung können keine Cookies für Adressen gespeichert werden, die IP verwenden. IP-Adressen werden größtenteils zu Testzwecken verwendet. Als Problemumgehung können Sie jedoch DNS-Einträge verwenden oder die Hosts-Datei auf einer lokalen Box anpassen. </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>Die Verarbeitung von Aktionen zum Verschieben und Neuanordnen bei Zeichenfolgenwerten anstelle von Ganzzahlen als Eigenschaften wurde korrigiert. </p> </li> 
@@ -2565,44 +2565,44 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
 * Die Benutzeroberfläche von [!DNL Target] wurde aktualisiert, um Umleitungsangebote in Aktivitäten zu unterstützen, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden. Für diese Funktion wird die Bibliothek [!DNL at.js] 0.9.6 benötigt, die demnächst verfügbar sein wird.
 * Die [!DNL Target]-Benutzeroberfläche wurde an einigen Stellen aktualisiert:
 
-   * In Berichten und Aktivitäten werden einige Optionen ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] usw.) jetzt aufgerufen, indem Sie auf das Symbol [!UICONTROL More Options] ( Bild ![icon_more_options](assets/icon_more_options.png) ) klicken.
+   * In Berichten und Aktivitäten können Sie jetzt auf einige Optionen ( [!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] usw.) zugreifen, indem Sie auf das [!UICONTROL More Options] klicken ( ![icon_more_options_image](assets/icon_more_options.png)
 
       
-   * In der Bibliothek [!UICONTROL Offers] werden Angebote jetzt in einer Liste und nicht mehr als Karten angezeigt. In der gesamten Benutzeroberfläche der [!UICONTROL Offers] -Bibliothek wurden weitere geringfügige Änderungen an der Benutzeroberfläche vorgenommen.
+   * In der [!UICONTROL Offers] werden Angebote jetzt in einer Liste und nicht mehr als Karten angezeigt. Weitere kleinere Änderungen an der Benutzeroberfläche wurden in der Benutzeroberfläche der [!UICONTROL Offers] Library vorgenommen.
 
-* Die Leistung der Listen [!UICONTROL Activity] und [!UICONTROL Audience] wurde erheblich verbessert. Außerdem wurden die Ladezeiten für Suchergebnisse deutlich beschleunigt.
-* &quot;Ansichten&quot;ist jetzt &quot;Besuche&quot;im [!UICONTROL Offer Level Report] für [!UICONTROL Automated Personalization] -Berichte.
-* [!DNL Target] unterstützt jetzt das Wechseln von Umgebungen (Hostgruppen) für [!UICONTROL Automated Personalization] -Aktivitäten.
+* Deutlich verbesserte Leistung in den [!UICONTROL Activity]- und [!UICONTROL Audience]. Außerdem wurden die Ladezeiten für Suchergebnisse deutlich beschleunigt.
+* „Ansichten“ ist jetzt „Besuche“ in der [!UICONTROL Offer Level Report] für [!UICONTROL Automated Personalization] Berichte.
+* [!DNL Target] unterstützt jetzt das Wechseln von Umgebungen (Hostgruppen) für [!UICONTROL Automated Personalization] Aktivitäten.
 * [!UICONTROL Automated Personalization] -Aktivitäten unterstützen jetzt Hostgruppen.
 
 ### Target Standard/Premium 17.2.1 (21. Februar 2017) {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 mit FP-11577 (oder höher) unterstützt jetzt [!DNL at.js] -Implementierungen mit ihrer [!UICONTROL Adobe Target Cloud Services] -Integration. Weitere Informationen finden Sie unter [Feature Packs](https://experienceleague.adobe.com/docs/?lang=de) und [Integrieren mit Adobe Target](https://experienceleague.adobe.com/docs/?lang=de) in der Dokumentation zu *Adobe Experience Manager 6.2*.
+>[!DNL Adobe Experience Manager] 6.2 mit FP-11577 (oder höher) unterstützt jetzt [!DNL at.js] Implementierungen mit seiner [!UICONTROL Adobe Target Cloud Services]. Weitere Informationen finden Sie unter [Feature Packs](https://experienceleague.adobe.com/docs/?lang=de) und [Integrieren mit Adobe Target](https://experienceleague.adobe.com/docs/?lang=de) in der Dokumentation zu *Adobe Experience Manager 6.2*.
 
 In dieser [!DNL Target]-Version liegt der Schwerpunkt auf Verbesserungen der Benutzerfreundlichkeit und der Leistung. Sie enthält außerdem folgende Verbesserungen und Fehlerbehebungen (die Problemnummern in Klammern dienen Adobe zu internen Zwecken):
 
 * Zum Hilfemenü, auf das über die rechte obere Ecke der [!DNL Target]-Benutzeroberfläche zugegriffen werden kann, wurden zusätzliche Elemente hinzugefügt. Zu den neuen Optionen gehören: „Blogs“ und „Videos“. Die Option „Adobe Experience Cloud-Status“ heißt jetzt „Adobe Target Standard/Premium-Status“. (TGT-22629)
-* Beim Löschen einer Zielgruppe zeigt [!DNL Target] eine Liste der Aktivitäten an, die diese Zielgruppe verwenden. Benutzer können auf jede Aktivität in der Liste klicken, um die zugehörige Seite &quot;[!UICONTROL Overview]&quot;anzuzeigen. (TGT-17997)
+* Beim Löschen einer Zielgruppe zeigt [!DNL Target] eine Liste der Aktivitäten an, die diese Zielgruppe verwenden. Benutzer können auf jede Aktivität in der Liste klicken, um ihre [!UICONTROL Overview] anzuzeigen. (TGT-17997)
 * `user.activeCampaigns` wurde dahingehend verbessert, dass die Kampagnen-ID für alle Kampagnen/Aktivitäten zurückgegeben werden, in denen sich der Benutzer befindet. Dies passiert auch dann, wenn er in der aktuellen Sitzung nicht mit der Kampagne/Aktivität interagiert hat. (TNT-26237)
 * Die Schaltfläche [!UICONTROL Create Activity] auf der Seite [!UICONTROL Activities] ist jetzt aktiv, bevor alle Aktivitätsnamen in die Liste geladen werden. Durch diese Verbesserung können Benutzer neue Aktivitäten schneller erstellen, wenn das Konto viele konfigurierte Aktivitäten enthält. (TGT-21470)
 * Der Enhanced Experience Composer (EEC) wurde verbessert, um die Ladezeiten für Websites mit HTTPS zu verbessern, auf die über einen Proxy zugegriffen wird. Target ruft über einen Proxy keine Statistikressourcen mehr ab. (TGT-21793)
-* Leistungsverbesserungen auf der Seite [!UICONTROL Goals & Settings] vorgenommen, insbesondere Ladezeit, wenn für eine Aktivität viele Metriken definiert sind. (TGT-21654)
-* Auf der Seite [!UICONTROL Goals & Settings] aller Aktivitäten, die die Berichterstellung für [!UICONTROL Analytics for Target] (A4T) verwenden, wurde eine QuickInfo hinzugefügt, die Benutzer darüber informiert, dass kein Trackingserver erforderlich ist, wenn auf den Seiten der Aktivität at.js (Version 0.9.1 oder höher) geladen ist. (TGT-22607)
+* Auf der Seite [!UICONTROL Goals & Settings] wurden Leistungsverbesserungen erzielt, insbesondere bei Ladezeiten, wenn für eine Aktivität viele Metriken definiert sind. (TGT-21654)
+* Auf der Seite [!UICONTROL Goals & Settings] aller Aktivitäten, die die Berichterstellung von [!UICONTROL Analytics for Target] (A4T) verwenden, wurde eine QuickInfo hinzugefügt, die den Benutzer informiert, dass kein Trackingserver erforderlich ist, wenn auf den Seiten der Aktivität at.js (Version 0.9.1 oder höher) geladen ist. (TGT-22607)
 * Metriknamen werden jetzt auf der Seite [!UICONTROL Goals & Settings] angezeigt, ohne dass Benutzer jede Metrik erweitern müssen, um den gesamten Metriknamen anzuzeigen. Durch diese Verbesserung können Benutzer Metriken schneller und effizienter bearbeiten. (TGT-21276)
 * Sie können jetzt Einschlussregeln für [!DNL Recommendations] auf benutzerdefinierte Kriterien (als CSV-Datei hochgeladen) genau wie auf andere Kriterien anwenden. (TGT-21896)
-* Die Benutzeroberfläche und Benutzerfreundlichkeit der Seite &quot;[!UICONTROL Offers]&quot; wurde verbessert, insbesondere beim Erstellen oder Verwalten von Ordnern und Erstellen von Angeboten. (TGT-22509 und TGT-22187)
-* Das Benutzererlebnis im [!UICONTROL Visual Experience Composer] (VEC) bei der Auswahl der auszublendenden Elemente wurde verbessert.
+* Die Benutzeroberfläche und die Benutzerfreundlichkeit der Seite &quot;[!UICONTROL Offers]&quot; wurden verbessert, insbesondere beim Erstellen oder Verwalten von Ordnern und Erstellen von Angeboten. (TGT-22509 und TGT-22187)
+* Das Anwendererlebnis im [!UICONTROL Visual Experience Composer] (VEC) bei der Auswahl von auszublendenden Elementen wurde verbessert.
 (TGT-22224)
-* Das Benutzererlebnis beim Erstellen von Aktivitäten mit dem [!UICONTROL Form-Based Experience Composer] wurde verbessert. Bei der Auswahl einer Mbox-Position bleibt der Überprüfungsrahmen nach Klicken auf [!UICONTROL Next] hervorgehoben. (TGT-22221)
+* Das Benutzererlebnis beim Erstellen von Aktivitäten mit dem [!UICONTROL Form-Based Experience Composer] wurde verbessert. Bei der Auswahl eines Mbox-Speicherorts bleibt der Überprüfungsrahmen nach dem Klicken auf &quot;[!UICONTROL Next]&quot; hervorgehoben. (TGT-22221)
 * In heruntergeladenen Berichten wurde die Unterscheidung zwischen aktiven und gelöschten Angeboten verbessert. (TGT-22449)
 * Ein Problem wurde behoben, das verhindert hatte, dass ältere Assets in der unbegrenzt scrollbaren Assetliste auf der Benutzeroberfläche der Experience Cloud Assets-Kerndienste angezeigt wurden. (TGT-19733)
 * Ein Problem mit der Nichtberücksichtigung der Einstellung für extreme Bestellungen in heruntergeladenen CSV-Berichten wurde behoben. (TGT-21871)
-* Es wurde ein Problem behoben, bei dem extreme Bestellungen im heruntergeladenen [!UICONTROL Order Details]CSV-Bericht nicht korrekt markiert wurden. (TGT-22500)
-* Es wurde ein Fehler behoben, der dazu führte, dass die falsche Bestellzeit im heruntergeladenen CSV-Bericht [!UICONTROL Campaign Audit] angezeigt wurde, obwohl der Bericht das richtige Bestelldatum anzeigte. (TNT-26469)
-* Fehlerkorrektur - Die Option [!UICONTROL Disable JavaScript] funktioniert jetzt bei mehrseitigen Aktivitäten ordnungsgemäß. (TGT-15130)
-* Wenn Sie den Form-Based Experience Composer mit einer anderen Mbox als der automatisch erstellten globalen Mbox (`target-global-mbox`) verwenden und dann eine Interaktionsmetrik als Erfolgsmetrik auswählen, dann wird die Metrik nur auf Seiten erhöht, auf denen die Mbox in der Aktivität verwendet wird. Wenn Ihre Mbox beispielsweise &quot;`homepage_mbox`&quot;ist, entspricht die Metrik &quot;[!UICONTROL Pages Per Visit]&quot;der Anzahl der Treffer für &quot;`homepage_mbox`&quot;während des Besuchs.
+* Es wurde ein Problem behoben, bei dem extreme Bestellungen im heruntergeladenen CSV[!UICONTROL Order Details]Bericht nicht korrekt markiert wurden. (TGT-22500)
+* Es wurde ein Problem behoben, das dazu führte, dass im heruntergeladenen [!UICONTROL Campaign Audit]-CSV-Bericht die falsche Bestellzeit angezeigt wurde, obwohl der Bericht das richtige Bestelldatum aufwies. (TNT-26469)
+* Es wurde ein Problem behoben, das dazu führte, dass die Option [!UICONTROL Disable JavaScript] bei mehrseitigen Aktivitäten nicht korrekt funktionierte. (TGT-15130)
+* Wenn Sie den Form-Based Experience Composer mit einer anderen Mbox als der automatisch erstellten globalen Mbox (`target-global-mbox`) verwenden und dann eine Interaktionsmetrik als Erfolgsmetrik auswählen, dann wird die Metrik nur auf Seiten erhöht, auf denen die Mbox in der Aktivität verwendet wird. Wenn beispielsweise Ihre Mbox `homepage_mbox` ist, lautet die [!UICONTROL Pages Per Visit]-Metrik die Anzahl der Treffer für die `homepage_mbox` während dieses Besuchs.
 
   Wenn das nicht gewünscht ist, können Sie einen weiteren Ort zur Aktivität hinzufügen und die globale Mbox diesem Ort zuweisen und ihr Standardinhalt zuteilen. Diese Problemumgehung verbindet die globale Mbox mit der Aktivität und ermöglicht Target die Nutzung der Metrik für die Berichterstellung.
 
@@ -2736,7 +2736,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> mboxTrace-Authentifizierungstoken aus der Target-Benutzeroberfläche erstellen </td> 
-   <td colname="col2"> <p>Erstellen Sie ein temporäres Authentifizierungstoken, um auf erweiterte <span class="keyword">Target</span>-Debugging-Werkzeuge zuzugreifen. </p> <p>Klicken Sie auf der Seite <span class="uicontrol">Implementierungsdetails</span> (<span class="wintitle">Administration</span> &gt; <span class="uicontrol">Implementierung</span>) auf <span class="uicontrol">Authentifizierungstoken erstellen</span>. Der entstandene Parameter kann daraufhin Ihren Webseiten-URLs zur Fehlerbehebung hinzugefügt werden. </p> <p>Weitere Informationen finden Sie unter "Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen"in <a href="/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Fehlerbehebung Inhaltsbereitstellung </a>. </p> </td> 
+   <td colname="col2"> <p>Erstellen Sie ein temporäres Authentifizierungstoken, um auf erweiterte <span class="keyword">Target</span>-Debugging-Werkzeuge zuzugreifen. </p> <p>Klicken Sie auf der Seite <span class="uicontrol">Implementierungsdetails</span> (<span class="wintitle">Administration</span> &gt; <span class="uicontrol">Implementierung</span>) auf <span class="uicontrol">Authentifizierungstoken erstellen</span>. Der entstandene Parameter kann daraufhin Ihren Webseiten-URLs zur Fehlerbehebung hinzugefügt werden. </p> <p>Weitere Informationen finden Sie unter „Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen“ in <a href="/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> Fehlerbehebung bei der Inhaltsbereitstellung </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Sequenzierung des Kriterienkatalogs </td> 
@@ -2816,7 +2816,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 **Bekannte Probleme**
 
-* Die Option [!UICONTROL Render Using JavaScript] wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
+* Die [!UICONTROL Render Using JavaScript]-Option wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
 
 ### Änderungen an der Target-Plattform (September 2016) {#section_1955146045A247D393DB824669A2A916}
 
@@ -2881,7 +2881,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 **Bekannte Probleme**
 
-* Die Option [!UICONTROL Render Using JavaScript] wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
+* Die [!UICONTROL Render Using JavaScript]-Option wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
 
 ### Adobe [!DNL Target] Standard/Premium 16.8.1 (23. August 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
@@ -2935,7 +2935,7 @@ Diese Version umfasst die folgenden Verbesserungen:
 
 Die folgenden Probleme sind bekannt:
 
-* Ein Teil des Textes der Benutzeroberfläche für die Funktion [!UICONTROL Category Affinity] wird nur in englischer Sprache angezeigt. Text in anderen Sprachen soll in der Septemberversion von [!DNL Target] enthalten sein.
+* Ein Teil des Textes der Benutzeroberfläche für die Funktion [!UICONTROL Category Affinity] wird nur auf Englisch angezeigt. Text in anderen Sprachen soll in der Septemberversion von [!DNL Target] enthalten sein.
 
 ### Änderungen an der Target-Plattform (Juli 2016) {#section_09C18773707B4059852A41C764F817E4}
 
@@ -2987,11 +2987,11 @@ In der Version Adobe Target Standard/Premium 16.7.1 (21. Juli 2016) sind folg
   </tr> 
   <tr> 
    <td colname="col1"> Kopieren von Zielgruppen und Profilskripten </td> 
-   <td colname="col2"> <p>Sie können nun bestehende Zielgruppen kopieren und sie anschließend zur Erstellung ähnlicher Zielgruppen bearbeiten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Erstellen einer Zielgruppe </a>. </p> <p>Sie können auch bestehende Profilskripte kopieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">Profilskript-Attribute</a>. </p> </td> 
+   <td colname="col2"> <p>Sie können nun bestehende Zielgruppen kopieren und sie anschließend zur Erstellung ähnlicher Zielgruppen bearbeiten. </p> <p>Weitere Informationen finden Sie <a href="/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Erstellen einer Zielgruppe </a>. </p> <p>Sie können auch bestehende Profilskripte kopieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">Profilskript-Attribute</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Verwenden von Klassen zur Festlegung von Elementauswahlen </td> 
-   <td colname="col2"> <p>Elementauswahlen können in Automated Personalization oder Multivarianz-Tests nun auf Klassen oder IDs aufgebaut werden. In älteren Versionen stand diese Funktion nur für A/B-Tests zur Verfügung. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> Element-Selektoren, die im Visual Experience Composer verwendet werden </a>. </p> </td> 
+   <td colname="col2"> <p>Elementauswahlen können in Automated Personalization oder Multivarianz-Tests nun auf Klassen oder IDs aufgebaut werden. In älteren Versionen stand diese Funktion nur für A/B-Tests zur Verfügung. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> von Element-Selektoren, die im Visual Experience Composer-</a> verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommendations: Ähnlichkeit von Inhalten </td> 
@@ -3034,7 +3034,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 Die folgenden Probleme sind bekannt:
 
 * Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
-* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Problemumgehung im Experience Composer auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Multiple Audiences]** und fügen Sie **[!UICONTROL All visitors]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
+* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Problemumgehung in Experience Composer auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Multiple Audiences]** aus und fügen Sie **[!UICONTROL All visitors]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 * In der Dokumentation ist das erwartete Verhalten des Kontrollkästchens für die Umleitungs-URL beschrieben. Aufgrund eines Fehlers wird das Kontrollkästchen jedoch nicht standardmäßig ausgewählt. Dieser Fehler wird in einer der nächsten Versionen behoben.
 
@@ -3117,7 +3117,7 @@ Der Bereitstellungsprozess für A4T wurde verbessert.
 Die folgenden Probleme sind bekannt:
 
 * Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
-* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Problemumgehung im Experience Composer auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Multiple Audiences]** und fügen Sie **[!UICONTROL All visitors]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
+* Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Klicken Sie als Problemumgehung in Experience Composer auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Multiple Audiences]** aus und fügen Sie **[!UICONTROL All visitors]** als einzige Zielgruppe hinzu. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 ### Neue [!DNL Target]-Implementierungsbibliothek „at.js“ 0.8.0 (5. Mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -3167,7 +3167,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_C47240826E5844D6843314F453F042FC">Navigation von links nach oben verlegt, </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Dialogfelder verbessert, </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Aktivitätserstellungsfluss verbessert </li> 
-     </ul> </p> <p>Die Art und Weise, wie Experience Cloud-Lösungen wie Target ausgewählt werden, hat sich ebenfalls geändert. Klicken Sie auf das Menüsymbol, um auf die Experience Cloud-Lösungen und -Service zuzugreifen: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Weitere Informationen zum Zugriff auf Target und zum Einrichten von Target als Standardseite nach der Anmeldung auf der Experience Cloud finden Sie unter <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Zugriff auf Target über die Adobe Experience Cloud </a>. </p></td> 
+     </ul> </p> <p>Die Art und Weise, wie Experience Cloud-Lösungen wie Target ausgewählt werden, hat sich ebenfalls geändert. Klicken Sie auf das Menüsymbol, um auf die Experience Cloud-Lösungen und -Service zuzugreifen: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Weitere Informationen zum Zugriff auf Target und zum Einrichten von Target als Standardseite nach der Anmeldung auf der Experience Cloud finden Sie <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> Zugriff auf Target über die Adobe Experience Cloud-</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Einschlussregeln können für Ersatzempfehlungen deaktiviert werden. </td> 
@@ -3203,7 +3203,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Neue Anleitungsvideos </td> 
-   <td colname="col2"> Die Hilfe wurde um Anleitungsvideos ergänzt. Derzeit können Sie Videos zum <a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visual Experience Composer und formularbasierten Experience Composer </a> anzeigen. In den kommenden Wochen werden weitere Videos hinzugefügt. </td> 
+   <td colname="col2"> Die Hilfe wurde um Anleitungsvideos ergänzt. Derzeit können Sie Videos zum <a href="/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> Visual Experience Composer und zum formularbasierten Experience Composer-</a> anzeigen. In den kommenden Wochen werden weitere Videos hinzugefügt. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3253,7 +3253,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_C271B0BE4C5C4B06BB21703239E7B061">Ändern der Berichterstellungsquelle von „Adobe Target“ auf „Analytics“ oder umgekehrt </li> 
       <li id="li_E023DDA7ED9142B58D54F42904ADC994">Ändern des Zielmetriktyps </li> 
       <li id="li_619F4765CEEC48E0A45E1821C282A082">Ändern der Optionen im Bedienfeld „Erweiterte Einstellungen“ </li> 
-     </ul> </p> <p>Die Dokumentation zur automatischen Zuordnung finden Sie unter <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Automatisierte Traffic-Zuordnung </a> . </p> </td> 
+     </ul> </p> <p>Weitere Informationen zur automatischen Zuordnung finden Sie in <a href="/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> Dokumentation zur </a> für die automatische Traffic-Zuordnung . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3267,7 +3267,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer, der über die Registerkarte **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden kann.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden.
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1 (18. Februar 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -3275,7 +3275,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 | Funktion | Beschreibung |
 |---|---|
-| Targeting von Aktivitätseinträgen nach Prozentsatz | Sie können Einträge in [A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) - und [Multivarianz](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) -Aktivitäten nun auf einen Prozentsatz der Besucher oder Zielgruppenmitglieder begrenzen. Beispiel: Sie können Einträge auf 50 % aller Besucher oder 45 % der Zielgruppe aus Kalifornien begrenzen. |
+| Targeting von Aktivitätseinträgen nach Prozentsatz | Sie können jetzt Einträge in [A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- und [Multivarianz](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)-Aktivitäten auf einen Prozentsatz der Besucher oder Zielgruppenmitglieder beschränken. Beispiel: Sie können Einträge auf 50 % aller Besucher oder 45 % der Zielgruppe aus Kalifornien begrenzen. |
 | Unterstützung für „Umsatz“, „Bestellungen“ und „Interaktion“ bei der automatisierten Zuordnung | Sie können nun Metriken für „Umsatz“ (RPV), „Bestellungen“ und „Interaktion“ als Ziele für A/B-Aktivitäten festlegen, für die die automatisierte Zuordnung ausgewählt ist. Zuvor wurden nur Konversionsmetriken unterstützt. Siehe [Automatisierte Traffic-Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
 | Nach Quelle filtern | Sie können die Aktivitätsliste nun nach der Quelle filtern, an der die Aktivität erstellt wurde. Zur Auswahl stehen Adobe Target und Adobe Experience Manager. Siehe [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). |
 | Leistungsverbesserungen bei Automated Personalization | Automated Personalization wurde überarbeitet, um eine bessere Leistung mit einer hohen Anzahl an Kombinationen aus Angebot/Standort zu bieten. |
@@ -3289,7 +3289,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer, der über die Registerkarte **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden kann.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden.
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1 (28. Januar 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -3309,7 +3309,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> „Super“-Zielgruppen </td> 
-   <td colname="col2"> <p>Verwenden Sie zum Konfigurieren von Zielgruppen eine verschachtelte AND/OR-Logik. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Erstellen einer Zielgruppe </a>. </p> </td> 
+   <td colname="col2"> <p>Verwenden Sie zum Konfigurieren von Zielgruppen eine verschachtelte AND/OR-Logik. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Erstellen eines Zielgruppen-</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Auswählen von Hostgruppen in Berichten </td> 
@@ -3367,7 +3367,7 @@ Die folgenden Probleme sind bekannt:
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
    * Nutzen Sie Firefox oder Internet Explorer.
-   * Aktivieren Sie Enhanced Experience Composer, der über die Registerkarte **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden kann.
+   * Aktivieren Sie Enhanced Experience Composer. Das Programm kann auf der Registerkarte unter **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** konfiguriert werden.
 
 ## Versionen 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3414,7 +3414,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_60B55A81119E48FE83639B9740A2FD21">Sprechen Sie Zielgruppen basierend auf der in ihrem Browser verwendeten Sprache an. Dies ist genauer als das geobasierte Sprachen-Targeting. </li> 
       <li id="li_84CAAE7E02CA48FA9C7C00C0415046B6">Sprechen Sie Besucher basierend auf der Browser-Version an und nicht nur basierend darauf, welcher Browser verwendet wird. </li> 
       <li id="li_AAF8170CAF4C45BB965D1A9A4E9204D5">Sie können jetzt als Zielgruppe mehrere Browser und nicht nur einen festlegen. </li> 
-     </ul> </p> <p>Siehe <a href="/help/main/c-target/c-audiences/c-target-rules/browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local"> Browseroptionen </a>. </p> </td> 
+     </ul> </p> <p>Siehe <a href="/help/main/c-target/c-audiences/c-target-rules/browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local"> Browser-Optionen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Frühere Käufe ausschließen </p> </td> 
@@ -3495,7 +3495,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Mobile Web Experience Composer </td> 
-   <td colname="col2"> <p> Zeigen Sie Ihre Site so an, wie sie auf verschiedenen Mobilgeräten und auf Bildschirmen unterschiedlicher Größe aussieht. Legen Sie einmalig Site-Haltepunkte fest und verwenden Sie sie in all Ihren Aktivitäten, um sicherzustellen, dass Ihre Optimierungsaktivitäten auf allen Geräten, die Ihre Besucher verwenden, optimal aussehen. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local"> Mobile Viewports für responsive Erlebnisse </a>. </p> </td> 
+   <td colname="col2"> <p> Zeigen Sie Ihre Site so an, wie sie auf verschiedenen Mobilgeräten und auf Bildschirmen unterschiedlicher Größe aussieht. Legen Sie einmalig Site-Haltepunkte fest und verwenden Sie sie in all Ihren Aktivitäten, um sicherzustellen, dass Ihre Optimierungsaktivitäten auf allen Geräten, die Ihre Besucher verwenden, optimal aussehen. </p> <p>Informationen zu responsiven Erlebnissen finden Sie unter </a> für mobile Viewports <a href="/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5" format="dita" scope="local">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Standort-Targeting für formularbasierte Aktivitätserstellung </td> 
@@ -3617,7 +3617,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Neue Targeting-Optionen für Mobilgeräte </td> 
-   <td colname="col2"> <p>Sie können jetzt mehrere Mobilgeräte als Zielgruppe festlegen, ohne dass dafür ein Profilskript erforderlich ist. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobiltelefon </a>. </p> </td> 
+   <td colname="col2"> <p>Sie können jetzt mehrere Mobilgeräte als Zielgruppe festlegen, ohne dass dafür ein Profilskript erforderlich ist. </p> <p>Siehe <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> Mobile </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3636,11 +3636,11 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Aktivitätsänderungsprotokoll </td> 
-   <td colname="col2"> <p>Das Änderungsprotokoll listet Änderungen an einer Aktivität auf. Die Aktion und der Benutzer werden mit einem Zeitstempel für jede Änderung aufgeführt. </p> <p>Siehe <a href="/help/main/c-activities/change-log.md#task_D6F224E8CE8346699187D21CD9A2B4AB" format="dita" scope="local"> Aktivitätsänderungsprotokoll </a>. </p> </td> 
+   <td colname="col2"> <p>Das Änderungsprotokoll listet Änderungen an einer Aktivität auf. Die Aktion und der Benutzer werden mit einem Zeitstempel für jede Änderung aufgeführt. </p> <p>Siehe <a href="/help/main/c-activities/change-log.md#task_D6F224E8CE8346699187D21CD9A2B4AB" format="dita" scope="local"> Aktivitätsänderungsprotokoll-</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mehrseitige Aktivität </td> 
-   <td colname="col2"> <p>Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design. </p> <p>Sie möchten beispielsweise vielleicht ein Angebot für kostenlosen Versand bei Einkäufen über einem bestimmten Betrag testen. Dieses Angebot soll dann auf Ihrer Landingpage, einer Kategorieseite und bestimmten Produktseiten erscheinen, doch sie möchten es auf den verschiedenen Seitentypen in unterschiedlichen Größen und an unterschiedlichen Stellen haben. Sie könnten das Angebot auf Ihrer Startseite hervorheben und es mit kleineren Angeboten auf anderen relevanten Seiten verstärken. </p> <p>Sie können eine mehrseitige Aktivität auch verwenden, um verschiedene Layouts für Ihren Desktop und nicht responsive Mobilgeräteseiten zu definieren. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> Mehrseitige Aktivität </a>. </p> </td> 
+   <td colname="col2"> <p>Mit einer mehrseitigen Aktivität können Sie eine Story über mehrere Seiten erstellen, mit einem für die einzelnen Seiten spezifischen Design. </p> <p>Sie möchten beispielsweise vielleicht ein Angebot für kostenlosen Versand bei Einkäufen über einem bestimmten Betrag testen. Dieses Angebot soll dann auf Ihrer Landingpage, einer Kategorieseite und bestimmten Produktseiten erscheinen, doch sie möchten es auf den verschiedenen Seitentypen in unterschiedlichen Größen und an unterschiedlichen Stellen haben. Sie könnten das Angebot auf Ihrer Startseite hervorheben und es mit kleineren Angeboten auf anderen relevanten Seiten verstärken. </p> <p>Sie können eine mehrseitige Aktivität auch verwenden, um verschiedene Layouts für Ihren Desktop und nicht responsive Mobilgeräteseiten zu definieren. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48" format="dita" scope="local"> mehrseitiger Aktivitäts-</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Formularbasierte Aktivitätserstellung </td> 
@@ -3861,7 +3861,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Automated Personalization: visuelle Vorschau </p> </td> 
-   <td colname="col2"> <p>Nutzen Sie die visuelle Vorschau, um jede Inhaltskombination innerhalb des Visual Experience Composer anzusehen. </p> <p>Siehe <a href="/help/main/c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> Erlebnisvorschau für einen Automated Personalization-Test </a>. </p> </td> 
+   <td colname="col2"> <p>Nutzen Sie die visuelle Vorschau, um jede Inhaltskombination innerhalb des Visual Experience Composer anzusehen. </p> <p>Siehe <a href="/help/main/c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> Erlebnisvorschau für eine Automated Personalization-</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">Recommendations: verbesserte Inhaltsanzeige </p> </td> 
@@ -3989,7 +3989,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 |---|---|
-| Einfügen und Bearbeiten von JavaScript zulässig | Es wurde die Möglichkeit hinzugefügt, benutzerdefinierte JavaScript im Erlebnis-Editor zu bearbeiten und einzufügen, wenn Sie im Aktionsmenü die Option **[!UICONTROL Edit HTML]** auswählen. |
+| Einfügen und Bearbeiten von JavaScript zulässig | Es besteht von nun an die Möglichkeit, benutzerdefinierten JavaScript im Erlebnis-Editor zu bearbeiten und einzufügen, indem Sie im Aktionsmenü **[!UICONTROL Edit HTML]** auswählen. |
 | Automatischer Zielgruppenimport | Zielgruppen werden automatisch im Hintergrund importiert, wenn ein Benutzer die Zielgruppenliste öffnet und die importierten Zielgruppen älter als 10 Minuten sind. |
 | Anhebung der Größe von HTML-Angeboten, die mit [!DNL Target Classic] synchronisiert werden können | Die vorherige Größenbeschränkung von 64 KB wurde auf 256 KB erhöht. |
 
@@ -4012,9 +4012,9 @@ Diese Version beinhaltet die folgenden neuen Funktionen und Erweiterungen:
 **Fehlerkorrekturen**
 
 * Es wurde ein Fehler behoben, der die Erstellung eines Berichtsdiagramms bei gleichzeitigem Navigieren zwischen unterschiedlichen Aktivitäten verhinderte.
-* Es wurde ein Problem behoben, bei dem ausgewählte Links nicht als ausgewählt markiert wurden, wenn Benutzer auf der Seite [!UICONTROL Goals and Settings] auf **[!UICONTROL Select Link]** geklickt haben.
+* Es wurde ein Problem behoben, bei dem ausgewählte Links nicht als ausgewählt markiert wurden, wenn Benutzer auf der [!UICONTROL Goals and Settings] Seite auf **[!UICONTROL Select Link]** klickten.
 
-* Fehlerkorrektur - eine neue Aktivität wird nun auch dann in der [!UICONTROL Activity List] angezeigt, wenn sie auf der Seite [!UICONTROL Overview] aktiviert wurde.
+* Es wurde ein Fehler behoben, der verhinderte, dass eine neue Aktivität in der [!UICONTROL Activity List] angezeigt wurde, nachdem sie auf der [!UICONTROL Overview] aktiviert worden war.
 
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer einen Link zum Klick-Tracking wählen konnten.
 * Es wurde ein Fehler behoben, der zur Anzeige doppelter Angebote in einem Bericht auf Angebotsebene führte.
@@ -4062,8 +4062,8 @@ Diese Version enthält folgende neue Funktionen:
 
 **Fehlerkorrekturen**
 
-* Es wurde ein Problem behoben, bei dem einige gelöschte freigegebene Zielgruppen weiterhin in der Liste [!UICONTROL Audiences] angezeigt wurden.
-* Es wurde ein Fehler behoben, durch den in Internet Explorer 10 ein unerwartetes [!UICONTROL Save] -Dialogfeld angezeigt wurde.
+* Es wurde ein Problem behoben, bei dem einige freigegebene Zielgruppen, die gelöscht wurden, weiterhin in der [!UICONTROL Audiences] angezeigt werden.
+* Fehlerkorrektur - In Internet Explorer 10 wird jetzt kein unerwartetes [!UICONTROL Save] mehr angezeigt.
 * Es wurde ein Fehler behoben, der beim Speichern einer Kampagne auftrat.
 * Es wurde ein Fehler behoben, bei dem die Zielgruppe für ein Erlebnis nicht in Berichten angezeigt wurde.
 * Es wurde ein Fehler behoben, der verhinderte, dass die Liste der Metriken in [!DNL Target] und [!DNL Analytics] nicht miteinander übereinstimmten.
@@ -4171,7 +4171,7 @@ Diese Version enthält folgende neue Funktionen:
  <tbody> 
   <tr> 
    <td colname="col1"> Aktivitätskollisionen </td> 
-   <td colname="col2"> <p> Target Standard bietet jetzt eine Liste der Aktivitätskollisionen. Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Wenn eine Aktivitätskollision auftritt, wird auf der Seite möglicherweise nicht der erwartete Inhalt angezeigt, weil Sie eine andere Aktivität eingegeben haben. </p> <p> Es werden alle Aktivitäten mit der gleichen URL aufgelistet, unabhängig vom Zielgruppen-Targeting in der jeweiligen Aktivität. </p> <p> Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte <span class="wintitle">Kollisionen</span> auf der Aktivitätsübersichtsseite angezeigt. Auf dieser Registerkarte finden Sie eine Liste kollidierender Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> Aktivitätskollisionen </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard bietet jetzt eine Liste der Aktivitätskollisionen. Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Wenn eine Aktivitätskollision auftritt, wird auf der Seite möglicherweise nicht der erwartete Inhalt angezeigt, weil Sie eine andere Aktivität eingegeben haben. </p> <p> Es werden alle Aktivitäten mit der gleichen URL aufgelistet, unabhängig vom Zielgruppen-Targeting in der jeweiligen Aktivität. </p> <p> Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte <span class="wintitle">Kollisionen</span> auf der Aktivitätsübersichtsseite angezeigt. Auf dieser Registerkarte finden Sie eine Liste kollidierender Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> von Aktivitätskollisionen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Neue Targeting-Optionen: Profil, Benutzer </td> 
@@ -4263,7 +4263,7 @@ Dieses Release weist die folgenden bekannten Probleme auf. Diese Fehler werden i
 * Es tritt ein Synchronisierungsfehler auf, wenn Geo-Zielgruppen in Target Standard erstellt werden und die Geolokation in Target Advanced deaktiviert ist.
 * Ein Bild kann nicht ausgetauscht werden, wenn das Bild in CSS referenziert wird.
 * Klick-Tracking funktioniert nicht mit Elementen, die mithilfe des Visual Experience Composer neu angeordnet wurden. Richten Sie Klick-Tracking nicht für neu angeordnete Elemente ein, bis dieser Fehler behoben ist.
-* Benutzer können die Aktion **[!UICONTROL Remove]** nicht für Inhalte auswählen, die in eine Mbox eingeschlossen sind.
+* Benutzende können die **[!UICONTROL Remove]**-Aktion nicht für Inhalt auswählen, der in einer Mbox eingeschlossen ist.
 
 ### Adobe [!DNL Target] Standard 1.2 (31. Oktober 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 

@@ -1,5 +1,5 @@
 ---
-keywords: Target; home; beliebte Themen; Adobe Target; Target Standard; Target Premium; Target-Dokumentation; Adobe Target-Dokumentation; Handbuch für Praktikanten; Benutzerhandbuch
+keywords: Target;Startseite;beliebte Themen;Adobe Target;Target Standard;Target Premium;Target-Dokumentation;Adobe Target-Dokumentation;Praktikerhandbuch;Benutzerhandbuch
 title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview

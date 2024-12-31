@@ -1,7 +1,7 @@
 ---
 keywords: MVT; Multivariater Tests; Location Contribution-Bericht
-description: Erfahren Sie, wie Sie den Location Contribution-Bericht für Adobe [!DNL Target] [!UICONTROL Experience Targeting] -Aktivitäten verwenden, die die Leistung der einzelnen Elemente und Angebote anzeigen.
-title: Wie verwende ich den [!UICONTROL Location Contribution]-Bericht für [!UICONTROL Multivariate Test] -Aktivitäten?
+description: Erfahren Sie, wie Sie den Bericht „Standortbeitrag“ für Adobe [!DNL Target] [!UICONTROL Experience Targeting]-Aktivitäten verwenden, die die Leistung der einzelnen Elemente und Angebote anzeigen.
+title: Wie verwende ich den [!UICONTROL Location Contribution] für [!UICONTROL Multivariate Test] Aktivitäten?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
@@ -11,25 +11,25 @@ ht-degree: 39%
 
 ---
 
-# [!UICONTROL Location Contribution] Bericht (MVT)
+# [!UICONTROL Location Contribution] (MVT)
 
-Der Bericht [!UICONTROL Location Contribution] zeigt die Leistung der einzelnen Elemente und Angebote an.
+Der [!UICONTROL Location Contribution] Bericht zeigt die Leistung der einzelnen Elemente und Angebote an.
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 
 >[!NOTE]
 >
->Beachten Sie beim Arbeiten mit dem Bericht [!UICONTROL Location Contribution] die folgenden Informationen:
+>Beachten Sie bei der Arbeit mit dem [!UICONTROL Location Contribution] die folgenden Informationen:
 >
->* Die Auswahl der Zielgruppen und Metriken ist nur verfügbar, wenn [!DNL Analytics] als Berichtsquelle (A4T) verwendet wird.
+>* Die Zielgruppen- und Metrikauswahl sind nur verfügbar, wenn [!DNL Analytics] als Berichtsquelle (A4T) verwendet wird.
 >
->* Daten für den Bericht [!UICONTROL Location Contribution] werden aus dem [!DNL Target] -Backend abgerufen, selbst wenn die Aktivität für die Verwendung von [!UICONTROL Analytics as the reporting source] (A4T) konfiguriert ist.
+>* Daten für den [!UICONTROL Location Contribution] werden auch dann aus dem [!DNL Target]-Backend abgerufen, wenn die Aktivität für die Verwendung von [!UICONTROL Analytics as the reporting source] (A4T) konfiguriert ist.
 >
->* Daten für den Bericht [!UICONTROL Location Contribution] werden für die Umgebung &quot;Produktion&quot;abgerufen, selbst wenn eine andere Standardumgebung auf Kontoebene von [!DNL Target] definiert ist.
+>* Daten für den [!UICONTROL Location Contribution]-Bericht werden für die „Produktionsumgebung“ abgerufen, auch wenn auf [!DNL Target] Kontoebene eine andere Standardumgebung definiert ist.
 
-Der Bericht [!UICONTROL Location Contribution] enthält zwei Tabellen.
+Der [!UICONTROL Location Contribution] enthält zwei Tabellen.
 
-Die erste Tabelle zeigt den relativen Einfluss jedes einzelnen Elements an. Diese Tabelle zeigt, welche der Elemente, die Sie zu Angeboten hinzugefügt haben, zu den meisten Konversionen geführt haben.
+Die erste Tabelle zeigt den relativen Einfluss jedes einzelnen Elements an. Diese Tabelle zeigt, welche der Elemente, denen Sie Angebote hinzugefügt haben, zu den meisten Konversionen führt.
 
 ![Location Contribution-Bericht in Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
 
@@ -37,7 +37,7 @@ Die zweite Tabelle liefert einen Bericht auf Angebotsebene. Sie zeigt die Konver
 
 ![Location Contribution-Bericht in Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
+## Schulungsvideo: Erstellen eines MVT-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
 

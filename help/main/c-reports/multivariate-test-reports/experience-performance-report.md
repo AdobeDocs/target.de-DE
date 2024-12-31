@@ -17,7 +17,7 @@ Der Experience Performance-Bericht zeigt, wie die einzelnen Erlebnisse in der Ak
 
 Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Preview]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
 
-![Experience Performance-Bericht in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
+![Erlebnisleistungsbericht in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 
@@ -35,7 +35,7 @@ Sie können jeweils die besten oder die schlechtesten fünf bzw. alle Erlebnisse
 
 Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erlebnisse angesehen haben. Außerdem werden weitere Informationen angezeigt, die für Ihre Erfolgsmetrik relevant sind.
 
-## Schulungsvideo: Erstellen eines Multivarianz-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
+## Schulungsvideo: Erstellen eines MVT-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8:20 beschrieben.
 
