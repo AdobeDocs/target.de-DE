@@ -1,8 +1,8 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 # Beiträge
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Wichtige Änderungen von Adobe-Mitarbeitern
 
-Wenn Sie ein technischer Redakteur, Programm-Manager oder Entwickler des Produkt-Teams für eine [!UICONTROL Adobe Experience Cloud]-Lösung sind und technische Artikel erstellen oder dazu beitragen sollen, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs` nutzen.
+Wenn Sie technischer Redakteur/technische Redakteurin, Programm-Manager oder Entwickler(in) des Produkt-Teams für eine [!UICONTROL Adobe Experience Cloud]-Lösung sind und es Ihre Aufgabe ist, technische Artikel zu erstellen oder zu diesen beizutragen, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs` verwenden.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

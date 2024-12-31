@@ -1,7 +1,7 @@
 ---
-keywords: summary
-description: Zeigen Sie die Zusammenfassung einer [!UICONTROL Multivariate Test] -Aktivität (MVT) an, die eine visuelle Übersicht über Ihre Aktivität in [!DNL Adobe Target] bietet.
-title: Wie kann ich die Zusammenfassung einer [!UICONTROL Multivariate Test] -Aktivität (MVT) anzeigen?
+keywords: Zusammenfassung
+description: Zeigen Sie eine Zusammenfassung einer [!UICONTROL Multivariate Test] (MVT)-Aktivität an, die einen visuellen Überblick über Ihre -Aktivität in bietet [!DNL Adobe Target].
+title: Wie kann ich die Zusammenfassung einer [!UICONTROL Multivariate Test] (MVT)-Aktivität anzeigen?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901

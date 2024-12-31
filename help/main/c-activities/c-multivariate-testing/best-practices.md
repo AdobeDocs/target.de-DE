@@ -1,7 +1,7 @@
 ---
 keywords: MVT; Multivarianz-Test; Best Practices für Multivarianz-Test; Best Practices für MVT; MVT-Kombinationen; MVT-Berichte
-description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren können, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] -Aktivitäten in  [!DNL Adobe Target] auftreten können.
-title: Welche Best Practices gelten für eine [!UICONTROL Multivariate Test] -Aktivität?
+description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] in auftreten können [!DNL Adobe Target].
+title: Welche Best Practices gibt es für eine [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
@@ -11,9 +11,9 @@ ht-degree: 57%
 
 ---
 
-# [!UICONTROL Multivariate Test] Best Practices
+# Best Practices für [!UICONTROL Multivariate Test]
 
-Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] -Aktivitäten (MVT) in [!DNL Adobe Target] auftreten können.
+Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] (MVT)-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
 
 ## Planung  {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -32,30 +32,30 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigi
 
 * Benennen Sie Orte und Angebote.
 
-  Sie können jeden Ort und jedes Angebot in Ihrem Test umbenennen, sodass die Namen mehr Sinn ergeben. Die Anzahl der Angebote an jedem Ort erscheint im Orts-Header. Nützliche Namen helfen Ihnen bei der Identifizierung Ihrer Angebote bei der Überprüfung von Berichten.
+  Sie können jeden Ort und jedes Angebot in Ihrem Test umbenennen, sodass die Namen mehr Sinn ergeben. Die Anzahl der Angebote an jedem Ort erscheint im Orts-Header. Nützliche Namen helfen Ihnen, Ihre Angebote bei der Prüfung von Berichten zu identifizieren.
 
 * Nutzen Sie die Vorschaufunktion, um unerwünschte Inhaltskombinationen zu vermeiden.
 
-  Prüfen Sie vor der Live-Schaltung alle Erlebnisse, die durch Ihren Test generiert wurden. Stellen Sie sicher, dass es keine Kombinationen mit widersprüchlichen Behauptungen (z. B. 20 % Rabatt und 19 Euro Rabatt im selben Erlebnis) oder inkompatiblen Designs wie mit Hintergrund und Schrift derselben Farbe gibt.
+  Prüfen Sie vor der Live-Schaltung alle Erlebnisse, die durch Ihren Test generiert wurden. Achten Sie darauf, dass keine Kombinationen mit widersprüchlichen Angaben (z. B. 20 % Rabatt und 19 $ Rabatt im selben Erlebnis) oder inkompatiblen Designs wie Hintergrund und Schriftart derselben Farbe vorhanden sind.
 
 * Verwenden Sie die [Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md), um sicherzustellen, dass Ihr Test für das Datenverkehrsaufkommen konzipiert ist, das auf Ihrer Seite anfällt.
 
   Stellen Sie sicher, dass die Traffic-Schätzung Ihrer Testkonfiguration grünes Licht gibt, damit Sie die gewünschten Ergebnisse erhalten.
 
-* Die Alternativen jedes Elements sollten sich deutlich voneinander unterscheiden.
+* Die Alternativen der einzelnen Elemente sollten sich deutlich voneinander unterscheiden.
 
 ## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Nutzen Sie den [Location Contribution-Bericht](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) regelmäßig, um die Leistung der einzelnen Orte und Angebote zu überwachen.
-* Basieren Sie Ihre Entscheidungen im Bericht [ Erlebnisleistung](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) auf den Daten, die mit den Filtern [!UICONTROL Best 5] und [!UICONTROL Worst 5] angezeigt werden.
+* Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
+* Stützen [ im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
 
-  Der Filter [!UICONTROL All] erschwert die Gewinnung der gewünschten Informationen und es ist nicht möglich, alle Erlebnisse im Diagramm anzuzeigen. Verwenden Sie den Filter [!UICONTROL All] , wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht zu den besten oder schlechtesten fünf zählt.
+  Der [!UICONTROL All] erschwert die Extraktion der gewünschten Informationen, und es können nicht alle Erlebnisse im Diagramm angezeigt werden. Verwenden Sie den [!UICONTROL All] Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 
 ## Nachbereitung  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Auch wenn [!DNL Target] es Ihnen ermöglicht, eine Live-Aktivität zu bearbeiten, kann die Bearbeitung einer laufenden Aktivität den Test zurücksetzen. In Berichten werden einige der Änderungen möglicherweise nicht erkannt. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
+* Auch wenn Sie mit [!DNL Target] eine Live-Aktivität bearbeiten können, kann das Bearbeiten einer laufenden Aktivität den Test zurücksetzen. In Berichten werden einige der Änderungen möglicherweise nicht erkannt. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
 
-  Zu den spezifischen Aktionen, die Erlebnisnamen und Berichte zurücksetzen, gehören:
+  Spezifische Aktionen zum Zurücksetzen von Erlebnisnamen und Berichten:
 
    * Hinzufügen eines neuen Orts.
    * Löschen eines Orts.
@@ -65,4 +65,4 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und zum Korrigi
 
 * Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
-  Sobald Sie ermittelt haben, welche Orte und Inhalte Sie am besten bei der Erreichung Ihrer Ziele unterstützen, können Sie einen A/B-Test ausführen, um die Ergebnisse weiter zu verfeinern. Wenn Sie beispielsweise wissen, welche Orte am wichtigsten sind, testen Sie zwei spezifische Bilder miteinander oder vergleichen Sie den Wortlaut oder die Farben eines Aktionsaufrufs.
+  Sobald Sie ermittelt haben, welche Orte und Inhalte Sie am besten bei der Erreichung Ihrer Ziele unterstützen, können Sie einen A/B-Test ausführen, um die Ergebnisse weiter zu verfeinern. Wenn Sie beispielsweise wissen, welche Orte am wichtigsten sind, testen Sie zwei bestimmte Bilder gegeneinander oder vergleichen Sie den Wortlaut oder die Farben eines Aktionsaufrufs.

@@ -41,13 +41,13 @@ Wenn Sie die Zeile „Unspecified“ mit der Dimension „Analytics for Target�
 
 ## A4T-Aktivitätsberichte enthalten eine Zeile mit vielen „Unspecified“ Ereignissen. {#added_unspecified_events}
 
-Je nach der Metrik, mit der Sie Ihre Daten anzeigen, kann in Ihrem Bericht eine Zeile mit &quot;[!UICONTROL Unspecified]&quot;-Ereignissen angezeigt werden.
+Abhängig von der Metrik, mit der Sie Ihre Daten anzeigen, kann Ihr Bericht eine Ereigniszeile aufweisen, in der &quot;[!UICONTROL Unspecified]&quot; angezeigt wird.
 
-In der Regel wird diese Zeile angezeigt, wenn Sie eine gemeinsame Metrik im Bericht auswählen, die nicht [!DNL Target]-spezifisch ist (z. B. [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] usw.). In diesem Fall enthält die Zeile [!UICONTROL "Unspecified"] alle [!UICONTROL Page Views], [!UICONTROL Visits] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target] -Aktivitäten verknüpft sind.
+In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target] ist (z. B. [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] usw.). In diesem Fall enthält die [!UICONTROL "Unspecified"] alle [!UICONTROL Page Views], [!UICONTROL Visits] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target] Aktivitäten verbunden sind.
 
 Diese Zeile enthält dann keine [!DNL Target]-zugehörigen Informationen (z. B. keine Besuchende, Besuche oder Impressionen). Weitere Informationen finden Sie unter [„Unspezifiziert“, „Keine“, „Andere“ und „Nicht bekannt“ in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) in den *Technotes zu Analytics*.
 
-Wenn Sie eine [!DNL Target] spezifische Metrik im Bericht auswählen, wird diese [!UICONTROL "Unspecified"] Zeile nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
+Wenn Sie im Bericht eine [!DNL Target] Metrik auswählen, wird diese [!UICONTROL "Unspecified"] nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
 
 ## Die geschätzte Steigerung der Umsatzmetriken zeigt keine korrekten Daten. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,7 +55,7 @@ Steigerungs- und Vertrauensdaten sind in Analytics nicht verfügbar. Sie stehen 
 
 ## Aktivitäten erscheinen nicht in Analytics-Berichten.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) , um sicherzustellen, dass Ihr Analytics-Tracking-Server korrekt eingerichtet ist.
+Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) um sicherzustellen, dass Ihr Analytics-Tracking-Server ordnungsgemäß eingerichtet ist.
 
 >[!NOTE]
 >

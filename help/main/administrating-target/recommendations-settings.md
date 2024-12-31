@@ -1,8 +1,8 @@
 ---
-keywords: Empfehlungen; Empfehlungen implementieren; Clientcode; Authentifizierungstoken; Branche vertikal; filtern inkompatiblen Modus; Standard-Hostgruppe; Miniaturbasis; Authentifizierungstoken generieren; Authentifizierungstoken;
-description: Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations] konfigurieren.
+keywords: Recommendations; Implementieren von Recommendations; Client-Code; Authentifizierungstoken; Branche; vertikaler Filter; inkompatibler Modus; Standard-Hostgruppe; Miniaturansicht; Authentifizierungstoken generieren; Authentifizierungstoken;
+description: Erfahren Sie, wie Sie Einstellungen für  [!DNL Adobe Target Recommendations] konfigurieren.
 title: Wie konfiguriere ich die Einstellungen für Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Administration & Configuration
 role: Admin
 hide: true
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations] konfigurieren.
 
-Um auf die Einstellungsoptionen für [!DNL Recommendations] zuzugreifen, öffnen Sie [!DNL Target] in der [!DNL Adobe Experience Cloud] und klicken Sie dann auf [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Um auf die Optionen für die [!DNL Recommendations] zuzugreifen, öffnen Sie [!DNL Target] im [!DNL Adobe Experience Cloud] und klicken Sie dann auf [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Sie können die folgenden Einstellungen konfigurieren:
 
-* Clientcode angeben
-* Autorisierungstoken für [!DNL Target] -APIs generieren
-* Branche oder Branche angeben
-* Filtern inkompatibler Kriterien
+* Geben Sie Ihren Clientcode an
+* Generieren eines Autorisierungs-Tokens für [!DNL Target] APIs
+* Branche oder Vertikale angeben
+* Inkompatible Kriterien filtern
 * Festlegen der Standard-Hostgruppe
-* Geben Sie Ihre Basis-URL für die Miniaturansicht an
-* Benutzerdefinierte Attributschlüssel konfigurieren
+* Angeben der Basis-URL für Miniaturansichten
+* Konfigurieren von benutzerdefinierten Attributschlüsseln
 
-Detaillierte Informationen finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} im **[!DNL Adobe Target]Entwicklerhandbuch**.
+Detaillierte Informationen finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank} im **[!DNL Adobe Target]-Entwicklerhandbuch**.

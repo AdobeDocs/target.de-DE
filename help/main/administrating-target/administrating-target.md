@@ -1,7 +1,7 @@
 ---
-keywords: Einrichten; Einrichten; Einrichten; Einrichten; Einrichten; Administration
-description: Einrichten von Adobe Target, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Hostverwaltung und Antwort-Token.
-title: Wie verwalte ich Target?
+keywords: Einrichten;Setup;Einrichtung;Einrichten;Administration
+description: Richten Sie Adobe Target ein, einschließlich Voreinstellungen, Implementierung, Benutzerverwaltung, Eigenschaften, Scene7-Konfiguration, Host-Verwaltung und Antwort-Token.
+title: Wie wird Target verwaltet?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
@@ -12,11 +12,11 @@ ht-degree: 11%
 
 ---
 
-# Verwalten von [!DNL Target] - Überblick
+# Verwaltung [!DNL Target] Überblick
 
-Informationen, die Sie bei der Verwaltung von [!DNL Adobe Target] unterstützen, einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Reporting, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzer.
+Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichterstellung, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzern.
 
-Um auf die Menüelemente [!UICONTROL Administration] zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
+Um auf die [!UICONTROL Administration] Menüelemente zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/main/administrating-target/reporting.md)

@@ -19,7 +19,7 @@ Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser
 >
 >* Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel. Aufgrund der Sicherheitsverbesserungen in Manifest v3 erfordert [!DNL Adobe] das Herunterladen dieser neuen Erweiterung, um Ihre Websites weiterhin visuell in [!DNL Target] gestalten zu können.
 >
->* Diese neue Erweiterung unterstützt derzeit keine privaten Chrome-Webspeicher. Diese Funktion wird Ende Januar 2025 unterstützt. Verwenden Sie stattdessen die [veraltete [!UICONTROL Visual Experience Composer] Helper-Erweiterung ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), wenn Kunden mit privaten Chrome-Webspeichern Erweiterungen hochladen.
+>* Diese neue Erweiterung unterstützt derzeit keine privaten Chrome Web Stores. Diese Funktion wird bis Ende Januar 2025 unterstützt. Kunden, die private Chrome Web Stores zum Hochladen von Erweiterungen verwenden, sollten stattdessen die Erweiterung [Legacy [!UICONTROL Visual Experience Composer] Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) verwenden.
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 

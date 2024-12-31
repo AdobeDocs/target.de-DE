@@ -1,6 +1,6 @@
 ---
 keywords: Erlebnisvorlage;benutzerdefinierter Code;Banner;Lightbox;Karussell;Countdown;Band;Schaltflächen
-description: Erfahren Sie, wie Sie Erlebnisvorlagen verwenden, bei denen es sich um vorkodierte Beispiele mit konfigurierbaren Eingaben handelt, um gängige Marketing-Anwendungsfälle in Adobe Target auszuführen.
+description: Erfahren Sie, wie Sie Erlebnisvorlagen verwenden, die vorcodierte Beispiele mit konfigurierbaren Eingaben sind, um gängige Marketer-Anwendungsfälle in Adobe Target auszuführen.
 title: Welche Erlebnisvorlagen sind in Target verfügbar?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 # Erlebnisvorlagen
 
-Informationen zu [!DNL Adobe Target] Erlebnisvorlagen zur Verwendung in benutzerdefiniertem Code. [!DNL Target] Erlebnisvorlagen sind vorkodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Anwendungsfälle für Marketingexperten verwendet werden können.
+Informationen zu [!DNL Adobe Target] Erlebnisvorlagen zur Verwendung in benutzerdefiniertem Code. [!DNL Target] Erlebnisvorlagen sind vorcodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Marketer-Anwendungsfälle verwendet werden können.
 
 Diese Erlebnisvorlagen stehen Entwicklern und Marketing-Experten kostenlos zur Verfügung und bilden die Basis für beliebte Anwendungsfälle – entweder über den VEC oder den formularbasierten Experience Composer.
 
@@ -35,7 +35,7 @@ Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketi
 
 Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) handelt es sich um ein großes Banner mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
-![exp-template-banner-countdown image](assets/exp-template-banner-countdown.png)
+![exp-template-banner-countDown Bild](assets/exp-template-banner-countdown.png)
 
 ## Button-Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
@@ -47,19 +47,19 @@ Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketin
 
 Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) handelt es sich um ein Lightbox-Overlay-Popup mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
-![exp-template-lightbox-countdown image](assets/exp-template-lightbox-countdown.png)
+![exp-template-lightbox-countDown Bild](assets/exp-template-lightbox-countdown.png)
 
 ## Lightbox mit Verlassen-Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
 Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und zu jedem Webasset hinzugefügt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![exp-template-lightbox-exit Bild](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-Die Erlebnisvorlage [Lightbox ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) ist ein Lightbox-Overlay-Popup mit integrierter Verzögerung, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
+Die [Lightbox-Erlebnisvorlage](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) ist ein Lightbox-Überlagerungspopup mit einer integrierten Verzögerung, das häufig auf Startseiten und Landingpages oder anderen Einstiegsseiten mit hohem Volumen verwendet wird.
 
-![exp-template-lightbox image](assets/exp-template-lightbox.png)
+![exp-template-lightbox Bild](assets/exp-template-lightbox.png)
 
 ## Menüband {#section_CCBB656265F140AEA1B200409D719000}
 

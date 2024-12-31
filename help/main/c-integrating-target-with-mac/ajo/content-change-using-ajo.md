@@ -1,6 +1,6 @@
 ---
-keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;Ajo;Anwendungsfälle;Szenarien;Inhaltsänderung/ab-Test;Profilattribut;Bild ändern;Bild tauschen
-description: Entsperren Sie die Geheimnisse für wirksame Inhaltsänderungen von A/B-Tests in Adobe Journey Optimizer.
+keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;AJO;Anwendungsfälle;Szenarien;Inhaltsänderung/AB-Test;Profilattribut;Bild ändern;Bild austauschen
+description: Entsperren Sie die Geheimnisse für effektive Inhaltsänderungen bei A/B-Tests in Adobe Journey Optimizer
 title: Inhaltsänderungen durch A/B-Tests in [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 feature: Integrations
@@ -16,61 +16,61 @@ ht-degree: 1%
 
 # Inhaltsänderungen durch A/B-Tests in [!DNL Adobe Journey Optimizer]
 
-In diesem Anwendungsfall können Sie die Geheimnisse entsperren, um die Inhaltsänderungen in [!DNL Adobe Journey Optimizer] von A/B-Tests zu überprüfen.
+In diesem Anwendungsbeispiel werden die geheimen Daten für effektive Inhaltsänderungen in A/B-Tests in [!DNL Adobe Journey Optimizer] freigeschaltet.
 
-Dieser Anwendungsfall zeigt, wie Sie vertraute Aufgaben durchführen, z. B. A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md) in [!DNL Adobe Target], indem Sie [!DNL Journey Optimizer] anstelle von [!DNL Adobe Target] verwenden.
+In diesem Anwendungsbeispiel wird gezeigt, wie vertraute Aufgaben, wie z. B. A/B-Tests mit einer [A/B](/help/main/c-activities/t-test-ab/test-ab.md)Testaktivität, in [!DNL Adobe Target] ausgeführt werden, indem [!DNL Journey Optimizer] anstelle von [!DNL Adobe Target] verwendet wird.
 
-## Vorteile und Wert
+## Vorteile und Nutzen
 
-* **Optimieren Sie die Effektivität des Inhalts**: Finden Sie heraus, welche Inhaltsvarianten und Elemente bei Ihren Kunden am meisten ankommen, was zu höherer Interaktion und Konversionen führt.
-* **Datenbasierte Entscheidungen**: Nutzen Sie Daten, um fundierte Entscheidungen über Ihre Inhaltsstrategie hinweg zu treffen und so eine maximale Wirkung sicherzustellen.
-* **Personalisiertes Benutzererlebnis**: Passen Sie Inhalte an, um die einzigartigen Voreinstellungen und Anforderungen aller Zielgruppensegmente zu erfüllen.
+* **Effektivität von Inhalten optimieren**: Finden Sie heraus, welche Inhaltsvarianten und -elemente bei Ihren Kunden am meisten Anklang finden und zu höherer Interaktion und höheren Konversionen führen.
+* **Datengestützte Entscheidungen**: Nutzen Sie Daten, um fundierte Entscheidungen in Ihrer gesamten Inhaltsstrategie zu treffen, und sorgen Sie so für maximale Wirkung.
+* **Personalisiertes Benutzererlebnis**: Passen Sie Inhalte an die individuellen Präferenzen und Bedürfnisse aller Ihrer Zielgruppensegmente an.
 
 ## Mögliche Szenarien
 
-* Ein Bekleidungsunternehmen steigerte die Konversionen, indem verschiedene Bilder getestet und Kampagnen-Landingpages mit den Vornamen der Benutzer im Text für Aktionsaufrufe personalisiert wurden.
+* Ein Bekleidungsunternehmen steigerte die Konversionen, indem es verschiedene Bilder testete und die Landingpages der Kampagnen mit den Vornamen der Benutzer im Text der Handlungsaufforderung personalisierte.
 
-* Ein E-Commerce-Unternehmen stellte fest, dass seine Mitglieder des Treueprogramms Gold höhere Konversionsraten hatten, indem sie verschiedene Produktbeschreibungen und Bilder auf einer Kampagnen-Landingpage testeten, was zu höheren Umsätzen führte.
+* Ein E-Commerce-Unternehmen stellte fest, dass seine Mitglieder des Treueprogramms Gold höhere Konversionsraten aufwiesen, indem sie verschiedene Produktbeschreibungen und Bilder auf einer Landingpage von Kampagnen testeten, was zu höheren Umsätzen führte.
 
 ## Schritte
 
 >[!NOTE]
 >
->In den Anweisungen in diesem Abschnitt werden die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zur Personalisierung von Textnachrichten beschrieben. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer] Webdesigner finden Sie unter [Webinhalt bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
+>Die Anweisungen in diesem Abschnitt heben die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zum Personalisieren von Textnachrichten hervor. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer]-Web-Designer finden Sie unter [Bearbeiten von Web-Inhalten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
 >
->Das Video am unteren Seitenrand ist besonders hilfreich.
+>Das Video unten auf der Seite ist besonders hilfreich.
 
-So optimieren Sie eine Webseite, indem Sie verschiedene Bilder testen und Nachrichten mithilfe eines Profilskripts mit den Vornamen der Benutzer personalisieren:
+So optimieren Sie eine Web-Seite, indem Sie verschiedene Bilder testen und Nachrichten mithilfe eines Profilskripts mit den Vornamen der Benutzer personalisieren:
 
-1. Klicken Sie in [!DNL Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
+1. Klicken Sie [!DNL Journey Optimizer] in der linken Leiste auf **Kampagnen**, um die [!UICONTROL Campaigns] anzuzeigen.
 
-1. Klicken Sie oben rechts auf der Seite [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
+1. Klicken Sie oben rechts auf der [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
 
-1. Wählen Sie &quot;**[!UICONTROL Scheduled - Marketing]**&quot;(Standardeinstellung) und klicken Sie dann auf &quot;**Erstellen**&quot;, um die Detailseite &quot;[!UICONTROL Campaign]&quot;anzuzeigen.
+1. Wählen Sie **[!UICONTROL Scheduled - Marketing]** (Standard) aus und klicken Sie dann auf **Erstellen** um die Seite mit den [!UICONTROL Campaign] anzuzeigen.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Properties]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
 
 1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Audience]** auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschte Zielgruppe aus.
 
-   Für diesen Anwendungsfall können Sie die Kampagne für [!UICONTROL All Visitors] aktivieren (Standardeinstellung).
+   Für diesen Anwendungsfall können Sie die Kampagne für [!UICONTROL All Visitors] aktivieren (Standard).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdownliste **[!UICONTROL Action]** und wählen Sie dann eine neue Webkonfiguration aus oder erstellen Sie sie.
+1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdown-Liste **[!UICONTROL Action]** aus und wählen oder erstellen Sie dann eine neue Web-Konfiguration.
 
-   Eine Webkonfiguration oder Kanaloberfläche ist eine vom Systemadministrator definierte Konfiguration. Die Webkonfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomäne, mobile Apps usw.
+   Eine Web-Konfiguration oder Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wird. Die Web-Konfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw.
 
    Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im Webdesigner [!DNL Journey Optimizer] zu öffnen.
+1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im [!DNL Journey Optimizer]-Web-Designer zu öffnen.
 
-   Für A/B-Tests sind zwei oder mehr Experimente erforderlich. Sie können Ihre vorhandene Startseite als erstes Experiment verwenden. Die folgenden Schritte erläutern, wie ein zweites Experiment eingerichtet wird.
+   Für A/B-Tests sind zwei oder mehr Experimente erforderlich. Sie können Ihre vorhandene Startseite als erstes Experiment verwenden. In den nachfolgenden Schritten wird beschrieben, wie Sie ein zweites Experiment einrichten.
 
    ![Yoga-Landingpage auf der LUMA-Website](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Um ein Experiment zu erstellen und zu bestimmen, welcher Inhalt besser funktioniert, klicken Sie auf **[!UICONTROL Create Experiment]**.
+1. Um ein Experiment zu erstellen und festzustellen, welche Inhalte eine bessere Leistung erbringen, klicken Sie auf **[!UICONTROL Create Experiment]**.
 
-   Mithilfe von Inhaltsexperimenten können Sie den Nachrichteninhalt, den Betreff oder den Absender variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen. Weitere Informationen finden Sie unter [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in der *Journey Optimizer-Dokumentation*.
+   Mit Inhaltsexperimenten können Sie den Inhalt, den Betreff oder den Absender der Nachricht variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen. Weitere Informationen finden Sie unter [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
-1. Wählen Sie eine Erfolgsmetrik aus und klicken Sie auf &quot;Aktion&quot;.
+1. Wählen Sie eine Erfolgsmetrik aus und klicken Sie auf Aktion.
 
    Klicken Sie auf die Hilfesymbole, um weitere Informationen und Links zu relevanten Artikeln zu erhalten.
 
@@ -78,53 +78,53 @@ So optimieren Sie eine Webseite, indem Sie verschiedene Bilder testen und Nachri
 
    Für diesen Anwendungsfall können Sie die Verteilung für jedes Experiment bei 50 % belassen.
 
-1. Klicken Sie auf der Detailseite [!UICONTROL Campaign] unter **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]**.
+1. Klicken Sie auf der Seite mit den [!UICONTROL Campaign] unter **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]**.
 
-1. Klicken Sie unter Behandlung B auf Web .
+1. Klicken Sie unter Abwandlung B auf Web .
 
-   Für diesen Anwendungsfall sollten Sie [!UICONTROL Treatment A] unverändert lassen, um das ursprüngliche Erlebnis als erstes Erlebnis im A/B-Test zu verwenden.
+   Behalten Sie für diesen Anwendungsfall [!UICONTROL Treatment A] unverändert bei, um das ursprüngliche Erlebnis als erstes Erlebnis im A/B-Test zu verwenden.
 
-1. Klicken Sie in der rechten Leiste auf &quot;**[!UICONTROL Edit Web Page]**&quot;.
+1. Klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]** .
 
-   ![Seite &quot;Inhalt bearbeiten&quot;auf der Yoga-Landingpage](/help/main/c-integrating-target-with-mac/ajo/assets/edit-yoga-page.png)
+   ![Bearbeiten von Inhalten auf der Yoga-Landingpage](/help/main/c-integrating-target-with-mac/ajo/assets/edit-yoga-page.png)
 
 1. Um das Hero-Bild zu ändern, klicken Sie auf das Bild, das Sie ändern möchten, und klicken Sie dann auf die Schaltfläche **[!UICONTROL Choose Image]** .
 
-   ![Bildschaltfläche auswählen](/help/main/c-integrating-target-with-mac/ajo/assets/choose-image.png)
+   ![Schaltfläche „Bild auswählen“](/help/main/c-integrating-target-with-mac/ajo/assets/choose-image.png)
 
-1. Suchen Sie das gewünschte Bild, wählen Sie es aus und klicken Sie auf **[!UICONTROL Use This Image]**.
+1. Navigieren Sie zu und wählen Sie das gewünschte Bild aus und klicken Sie dann auf **[!UICONTROL Use This Image]**.
 
    ![Neues Hero-Bild auf der Yoga-Seite](/help/main/c-integrating-target-with-mac/ajo/assets/new-hero-image.png)
 
-1. Um die Nachricht mit den Vornamen der Benutzer mithilfe von Profilattributen zu personalisieren, klicken Sie auf den Text, den Sie personalisieren möchten, und klicken Sie dann auf **[!UICONTROL Add Personalization]** , um die Seite [!UICONTROL Add Personalization] anzuzeigen.
+1. Um die Nachricht mithilfe von Profilattributen mit den Vornamen der Benutzer zu personalisieren, klicken Sie auf den zu personalisierenden Text und dann auf **[!UICONTROL Add Personalization]** , um die [!UICONTROL Add Personalization] anzuzeigen.
 
-   ![Schaltfläche &quot;Personalization hinzufügen&quot;.](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
+   ![Schaltfläche &quot;Personalization hinzufügen“](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   Weitere Informationen zu Profilattributen finden Sie unter [Erste Schritte mit dem Personalisierungs-Editor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Journey Optimizer-Dokumentation*.
+   Weitere Informationen zu Profilattributen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
-1. Suchen Sie nach dem Pluszeichen, und klicken Sie auf das Pluszeichen, um das Profilattribut &quot;Vorname&quot;hinzuzufügen, passen Sie den Text wie gewünscht an und klicken Sie dann auf **[!UICONTROL Save]**.
+1. Suchen Sie nach dem Profilattribut „Vorname“ und klicken Sie darauf, um es hinzuzufügen. Passen Sie den Text nach Bedarf an und klicken Sie dann auf &quot;**[!UICONTROL Save]**&quot;.
 
    ![Profilattribut für Namen hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
-   Weitere Informationen finden Sie unter [Erste Schritte mit dem Personalisierungs-Editor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Journey Optimizer-Dokumentation*.
+   Weitere Informationen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
-1. Klicken Sie in der oberen linken Ecke auf den Pfeil nach hinten , um zum Webdesigner zurückzukehren.
+1. Klicken Sie auf den Rückwärtspfeil in der oberen linken Ecke, um zum Web-Designer zurückzukehren.
 
-   ![Pfeil nach hinten](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+   ![Rückwärtspfeil](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. Klicken Sie auf &quot;**[!UICONTROL Review to Activate]**&quot;, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf &quot;**Aktivieren**&quot;.
+1. Klicken Sie auf **[!UICONTROL Review to Activate]**, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf **Aktivieren**.
 
-## Berichte anzeigen
+## Anzeigen von Berichten
 
 Klicken Sie auf die Schaltfläche [!UICONTROL Reports] und dann auf den gewünschten Berichtszeitraum:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsschnittstelle](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Journey Optimizer-Dokumentation*.
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsoberfläche](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Bearbeiten des Webinhalts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*
->[Anleitungsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in der *Journey Optimizer-Dokumentation*
->[Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*
+>[Web-Inhalte bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der Dokumentation zu *Journey Optimizer*
+>[Anleitungsvideo: ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} der Dokumentation zu *Journey Optimizer*
+>[Erstellen Sie eine ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*

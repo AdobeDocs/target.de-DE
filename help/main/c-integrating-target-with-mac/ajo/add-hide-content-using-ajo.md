@@ -1,99 +1,100 @@
 ---
-keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;Ajo;Anwendungsfälle;Szenarien;Inhalt hinzufügen;Inhalt ausblenden;Komponenten hinzufügen;Komponenten ausblenden
-description: Erfahren Sie, wie Sie Komponenten mithilfe von [!DNL Adobe Journey Optimizer] auf Ihrer Web-Seite hinzufügen oder ausblenden.
-title: Hinzufügen oder Ausblenden von Komponenten zu Ihrer Webseite in [!DNL Adobe Journey Optimizer]
+keywords: Optimierung;Personalisierung;Adobe Journey Optimizer;AJO;Anwendungsfälle;Szenarien;Inhalt hinzufügen;Inhalt ausblenden;Komponenten hinzufügen;Komponenten ausblenden
+description: Erfahren Sie, wie Sie mithilfe von Komponenten zu einer Web-Seite hinzufügen oder  [!DNL Adobe Journey Optimizer].
+title: Hinzufügen oder Ausblenden von Komponenten zu einer Web-Seite in [!DNL Adobe Journey Optimizer]
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
+exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
+source-git-commit: 342c70d0f0c69da920596623a34497520c6cd535
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
 
 ---
 
-# Komponenten zur Webseite hinzufügen oder ausblenden
+# Hinzufügen oder Ausblenden von Komponenten zu einer Web-Seite
 
-In diesem Anwendungsfall können Sie die Geheimnisse entsperren, um die Inhaltsänderungen in [!DNL Adobe Journey Optimizer] von A/B-Tests zu überprüfen.
+In diesem Anwendungsbeispiel werden die geheimen Daten für effektive Inhaltsänderungen in A/B-Tests in [!DNL Adobe Journey Optimizer] freigeschaltet.
 
-Dieser Anwendungsfall zeigt, wie Sie vertraute Aufgaben durchführen können, z. B. A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), wobei Sie [!DNL Journey Optimizer] anstelle von [!DNL Adobe Target] verwenden.
+In diesem Anwendungsbeispiel wird gezeigt, wie vertraute Aufgaben, wie z. B. A/B-Tests mit einer [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md)-Aktivität, mithilfe von [!DNL Journey Optimizer] statt [!DNL Adobe Target] durchgeführt werden können.
 
-Dieser Anwendungsfall soll zeigen, wie Sie bekannte Aufgaben durchführen können, die Sie möglicherweise mit [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/test-ab.md), jedoch mit [!DNL Journey Optimizer] durchgeführt haben.
+In diesem Anwendungsbeispiel wird gezeigt, wie Sie mit [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität, ](/help/main/c-activities/t-test-ab/test-ab.md) mit [!DNL Journey Optimizer] vertraute Aufgaben ausführen können.
 
-## Vorteile und Wert
+## Vorteile und Nutzen
 
-* **Verbessern der Benutzerinteraktion**: Erfassen Sie die Aufmerksamkeit der Benutzer mit einem optimierten Seitenentwurf, der relevante Informationen wie Promotions hervorhebt.
-* **Verbessern der Entdeckung**: Platzieren Sie neue Komponenten oder Inhalte strategisch in Web- oder mobilen Apps, um Aktionen zu optimieren und die Navigation zu verbessern.
-* **Erhöhen Sie zusätzliche Touchpoints**: Führen Sie Benutzer effektiv zu Konversionsereignissen und -zielen, um die geschäftliche Wirkung zu beschleunigen.
+* **Verbesserung der Benutzerinteraktion**: Erwecken Sie die Aufmerksamkeit der Benutzer mit einem optimierten Seitendesign, das relevante Informationen wie Werbeaktionen hervorhebt.
+* **Auffindbarkeit verbessern**: Strategische Platzierung neuer Komponenten oder Inhalte auf Web- oder mobilen Apps, um Aktionen zu optimieren und die Navigation zu verbessern.
+* **Zusätzliche Touchpoints erhöhen**: Führen Sie Benutzer effektiv zu Konversionsereignissen und -zielen, um die Geschäftsauswirkungen zu beschleunigen.
 
 ## Mögliche Szenarien
 
-* Ein Finanzdienstleistungsunternehmen plant, auf seiner Startseite eine neue Kachel für den schnellen Zugriff auf den Kreditkalkulator hinzuzufügen, die Suchzeit zu verkürzen und Kreditanträge zu erhöhen.
+* Ein Finanzdienstleister plant, auf seiner Homepage eine neue Kachel hinzuzufügen, um schnell auf den Darlehensrechner zugreifen zu können, die Suchzeit zu verkürzen und die Zahl der Kreditanträge zu erhöhen.
 
-* Ein Bekleidungsunternehmen steigerte die Konversionen durch Hinzufügen einer neuen Aktionsaufruf-Schaltfläche auf seiner Webseite.
+* Ein Bekleidungsunternehmen erhöhte die Konversionen, indem es auf seiner Web-Seite eine neue Aktionsaufruf-Schaltfläche hinzufügte.
 
 ## Schritte
 
 >[!NOTE]
 >
->In den Anweisungen in diesem Abschnitt werden die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zur Personalisierung von Textnachrichten beschrieben. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer] Webdesigner finden Sie unter [Webinhalt bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
+>Die Anweisungen in diesem Abschnitt heben die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zum Personalisieren von Textnachrichten hervor. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer]-Web-Designer finden Sie unter [Bearbeiten von Web-Inhalten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*.
 >
->Das Video am unteren Seitenrand ist besonders hilfreich.
+>Das Video unten auf der Seite ist besonders hilfreich.
 
-Führen Sie die folgenden Schritte aus, um Komponenten hinzuzufügen oder Komponenten auf Ihrer Webseite auszublenden:
+Führen Sie die folgenden Schritte aus, um Komponenten hinzuzufügen oder Komponenten auf Ihrer Web-Seite auszublenden:
 
-1. Klicken Sie in [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen** , um die Seite [!UICONTROL Campaigns] anzuzeigen.
+1. Klicken Sie [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen**, um die [!UICONTROL Campaigns] anzuzeigen.
 
-   ![Adobe Journey Optimizer-Landingpage mit hervorgehobenem Kampagnen-Tab.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+   ![Adobe Journey Optimizer-Landingpage mit hervorgehobener Registerkarte „Kampagnen“.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. Klicken Sie oben rechts auf der Seite [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
+1. Klicken Sie oben rechts auf der [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
 
-1. Wählen Sie &quot;**[!UICONTROL Scheduled - Marketing]**&quot;(Standardeinstellung) und klicken Sie dann auf &quot;**Erstellen**&quot;, um die Detailseite &quot;[!UICONTROL Campaign]&quot;anzuzeigen.
+1. Wählen Sie **[!UICONTROL Scheduled - Marketing]** (Standard) aus und klicken Sie dann auf **Erstellen** um die Seite mit den [!UICONTROL Campaign] anzuzeigen.
 
-   ![Kampagnendetailseite in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
+   ![Seite mit Kampagnendetails in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Geben Sie im Abschnitt **[!UICONTROL Properties]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
 
 1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Audience]** auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschte Zielgruppe aus.
 
-   Für diesen Anwendungsfall können Sie die Kampagne für [!UICONTROL All Visitors] aktivieren (Standardeinstellung).
+   Für diesen Anwendungsfall können Sie die Kampagne für [!UICONTROL All Visitors] aktivieren (Standard).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdownliste **[!UICONTROL Action]** und wählen Sie dann eine neue Webkonfiguration aus oder erstellen Sie sie.
+1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdown-Liste **[!UICONTROL Action]** aus und wählen oder erstellen Sie dann eine neue Web-Konfiguration.
 
-   Eine Webkonfiguration oder Kanaloberfläche ist eine vom Systemadministrator definierte Konfiguration. Die Webkonfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomäne, mobile Apps usw.
+   Eine Web-Konfiguration oder Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wird. Die Web-Konfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw.
 
    Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im Webdesigner [!DNL Journey Optimizer] zu öffnen.
+1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im [!DNL Journey Optimizer]-Web-Designer zu öffnen.
 
    ![Yoga-Landingpage auf der LUMA-Website](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Um ein Element auszublenden, klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]** .
+1. Um ein Element zum Ausblenden hinzuzufügen, klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]**.
 
-1. Klicken Sie auf das Element, das Sie ausblenden möchten, und klicken Sie dann in der rechten Leiste auf die Schaltfläche [!UICONTROL Hide] .
+1. Klicken Sie auf das Element, das Sie ausblenden möchten, und dann auf die Schaltfläche [!UICONTROL Hide] in der rechten Leiste.
 
-   Die rechte Leiste zeigt die Option an, die Sie für das ausgewählte Element ausführen können. Diese Optionen variieren je nach ausgewähltem Element.
+   In der rechten Leiste werden Optionen angezeigt, die Sie für das ausgewählte Element ausführen können. Diese Optionen variieren je nach ausgewähltem Element.
 
-   ![Schaltfläche &quot;Element ausblenden&quot;](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
+   ![Schaltfläche „Element ausblenden](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
-1. Klicken Sie in der oberen linken Ecke auf den Pfeil nach hinten , um zum Webdesigner zurückzukehren.
+1. Klicken Sie auf den Rückwärtspfeil in der oberen linken Ecke, um zum Web-Designer zurückzukehren.
 
-   ![Pfeil nach hinten](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
+   ![Rückwärtspfeil](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. Klicken Sie auf &quot;**[!UICONTROL Review to Activate]**&quot;, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf &quot;**Aktivieren**&quot;.
+1. Klicken Sie auf **[!UICONTROL Review to Activate]**, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf **Aktivieren**.
 
-## Berichte anzeigen
+## Anzeigen von Berichten
 
 Klicken Sie auf die Schaltfläche [!UICONTROL Reports] und dann auf den gewünschten Berichtszeitraum:
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsschnittstelle](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Journey Optimizer-Dokumentation*.
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsoberfläche](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Bearbeiten des Webinhalts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der *Journey Optimizer-Dokumentation*
->[Anleitungsvideo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} in der *Journey Optimizer-Dokumentation*
->[Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*
+>[Web-Inhalte bearbeiten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} in der Dokumentation zu *Journey Optimizer*
+>[Anleitungsvideo: ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} der Dokumentation zu *Journey Optimizer*
+>[Erstellen Sie eine ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer Tutorials*

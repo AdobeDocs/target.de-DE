@@ -1,8 +1,8 @@
 ---
 keywords: Integration; Rollen; Benutzerberechtigungen; Admin Console
-description: Erfahren Sie, wie Sie vorhandenen Adobe I/O-Integrationen Zugriff auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target gewähren.
-title: Wie gewähre ich Adobe I/O Zugriff auf Arbeitsbereiche und Rollen zuweisen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Erfahren Sie, was in Target Premium enthalten ist."
+description: Erfahren Sie, wie Sie bestehenden Adobe I/O-Integrationen Zugriff auf alle Arbeitsbereiche mit der gewünschten Rolle in Adobe Target gewähren.
+title: Wie gewähre ich Adobe I/O Zugriff auf Arbeitsbereiche und weise Rollen zu?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -15,35 +15,35 @@ ht-degree: 59%
 
 # Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen
 
-Mit [!UICONTROL Enterprise Permissions] können [!DNL Target] -Kunden eine Organisation in Arbeitsbereiche für ihre verschiedenen Teams oder Workflows unterteilen.
+[!UICONTROL Enterprise Permissions] können [!DNL Target] Kunden eine einzelne Organisation verwenden, sie jedoch in Arbeitsbereiche für ihre verschiedenen Teams oder Workflows unterteilen.
 
 >[!NOTE]
 >
 >Die Funktionalitäten für Eigenschaften und Berechtigungen sind als Bestandteil der Lösung [Target Premium](/help/main/c-intro/intro.md#premium) verfügbar. In [!DNL Target Standard] sind sie nur mit einer [!DNL Target Premium]-Lizenz verfügbar.
 
-Die Funktion [!UICONTROL Enterprise Permissions] erleichtert die effektive Skalierung von Optimierungsprogrammen über Teams hinweg. Die Funktion war zwar in der [!DNL Target]-Benutzeroberfläche verfügbar, die Admin-APIs werden aber erst seit Anfang 2019 unterstützt. In der [!DNL Target]-Version vom Februar 2019 aktualisierte Adobe die Admin-APIs, sodass Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. Zuvor waren Admin-APIs auf den Standardarbeitsbereich beschränkt. Das Update vom Februar 2019 ermöglichte daher den Zugriff auf alle Arbeitsbereiche mit [!UICONTROL Approver] -Zugriff.
+Die [!UICONTROL Enterprise Permissions] Funktion ermöglicht eine effektive Skalierung von Optimierungsprogrammen über Teams hinweg. Die Funktion war zwar in der [!DNL Target]-Benutzeroberfläche verfügbar, die Admin-APIs werden aber erst seit Anfang 2019 unterstützt. In der [!DNL Target]-Version vom Februar 2019 aktualisierte Adobe die Admin-APIs, sodass Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. Während Admin-APIs früher nur auf den Standardarbeitsbereich beschränkt waren, gewährte die Aktualisierung vom Februar 2019 Zugriff auf alle Arbeitsbereiche mit [!UICONTROL Approver] Zugriff.
 
-Mit der Version vom [!DNL Target] September 2019 bietet [!DNL Target] [!UICONTROL Enterprise Permissions] Kunden die folgenden Zugriffskontrollen:
+Mit der Version vom [!DNL Target]. September 2019 bietet [!DNL Target] [!UICONTROL Enterprise Permissions] Kunden die folgenden Zugriffssteuerungen:
 
 * Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet wird.
-* Sie können eine Rolle auf die Adobe I/O-Integration anwenden: [!UICONTROL Approver], [!UICONTROL Editor] oder [!UICONTROL Observer].
+* Sie können der Adobe I/O-Integration eine Rolle zuweisen: [!UICONTROL Approver], [!UICONTROL Editor] oder [!UICONTROL Observer].
 
 Dieses Update unterstützt die folgenden Anwendungsfälle:
 
-* Gewähren Sie der Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche mit der Rolle [!UICONTROL Observer] für Berichterstellungszwecke ohne Berechtigung zum Erstellen oder Bearbeiten von Ressourcen.
+* Gewähren Sie der Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche mit der Rolle [!UICONTROL Observer] zu Berichtszwecken, ohne Rechte zum Erstellen oder Bearbeiten von Ressourcen.
 * Sie können der Adobe I/O-Integration Zugriff auf ausgewählte Arbeitsbereiche mit der entsprechenden Rolle gewähren, damit ein zentrales Team API-basierte Änderungen in nur wenigen Arbeitsbereichen vornehmen kann.
 * Sie können jedem Team, das seinen eigenen Arbeitsbereich hat und APIs nutzen möchte, seine eigene Integration bereitstellen und eine entsprechende Rolle dafür auswählen.
 * Sie können die obigen Szenarien beliebig kombinieren.
 
-**Erforderliche Aktion**: Diejenigen Kunden, die derzeit APIs für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) in allen Arbeitsbereichen verwenden, müssen ihrer vorhandenen Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche erteilen und die entsprechende Rolle gemäß dem Anwendungsfall zuweisen. Wählen Sie dazu die einzelnen [!DNL Target] [!UICONTROL Product Profile] im [!DNL Adobe Admin Console] aus und fügen Sie die Integration(en) auf der Registerkarte [!UICONTROL Integration] hinzu. Vor der Septemberversion wurden alle Integrationen mit dem [!UICONTROL Approver] -Zugriff ausgeführt, unabhängig von der Auswahl aus der Dropdownliste [!UICONTROL Product Role]. Jetzt können Sie die gewünschte Rolle auswählen.
+**Erforderliche Aktion**: Diejenigen Kunden, die derzeit APIs für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) in allen Arbeitsbereichen verwenden, müssen ihrer vorhandenen Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche erteilen und die entsprechende Rolle gemäß dem Anwendungsfall zuweisen. Wählen Sie dazu die einzelnen [!DNL Target] [!UICONTROL Product Profile] in der [!DNL Adobe Admin Console] aus und fügen Sie die Integrationen auf der Registerkarte [!UICONTROL Integration] hinzu. Vor der Version vom September verwendeten alle Integrationen [!UICONTROL Approver] Zugriff, unabhängig davon, welche Auswahl aus der Dropdown-Liste [!UICONTROL Product Role] getroffen wurde. Jetzt können Sie die gewünschte Rolle auswählen.
 
 >[!NOTE]
 >
->Wenn Sie diese Aktion nicht ausführen, wird die Zugriffskontrolle ab der [!DNL Target]-Version vom September 2019 aktiviert und Sie werden nur auf den Standard-Arbeitsbereich zugreifen können, sofern dies Ihre aktuelle Einstellung ist. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Abhängig von der Anzahl der Arbeitsbereiche in Ihrer Organisation dauert dieser Prozess nur einige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
+>Wenn Sie diese Aktion nicht ausführen, wird die Zugriffskontrolle ab der [!DNL Target]-Version vom September 2019 aktiviert und Sie werden nur auf den Standard-Arbeitsbereich zugreifen können, sofern dies Ihre aktuelle Einstellung ist. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Je nach der Anzahl der Arbeitsbereiche in Ihrer Organisation dauert dieser Prozess nur wenige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
 
 **So gewähren Sie Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen eine Rolle zu:**
 
-1. Öffnen Sie den **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Öffnen Sie die **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Products]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
@@ -59,7 +59,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 1. (Bedingt) Um eine neue Integration hinzuzufügen, klicken Sie auf **[!UICONTROL Add Integration]**, wählen Sie die gewünschte Integration aus und klicken Sie dann auf **[!UICONTROL Save]**.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Product Role]** die gewünschte Rolle für diesen Arbeitsbereich aus:
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Product Role]** die gewünschte Rolle für diesen Arbeitsbereich aus:
 
    | Rolle | Beschreibung |
    |--- |--- |

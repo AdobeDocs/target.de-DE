@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;Erlebnis;Erlebnis hinzufügen;Erlebnisse hinzufügen
-description: Verwenden Sie den VEC (0), um Aktivitäten Erlebnisse hinzuzufügen.[!UICONTROL Visual Experience Composer]
-title: Wie füge ich Erlebnisse in einer A/B-Aktivität hinzu?
+description: Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC), um Aktivitäten Erlebnisse hinzuzufügen.
+title: Wie kann ich Erlebnisse in einer A/B-Aktivität hinzufügen?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
@@ -19,15 +19,15 @@ Der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bietet ein
 
 Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Klicken Sie auf der Seite **[!UICONTROL Experiences]** im VEC auf das Symbol [!UICONTROL Add] ( ![Symbol Hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Experiences] .
+1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; in VEC oben im [!UICONTROL Experiences] auf das Symbol [!UICONTROL Add] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ).
 
-   Der VEC zeigt auf der linken Seite zwei Registerkarten an, nachdem Sie eine neue Aktivität erstellt haben: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
+   Nach dem Erstellen einer neuen Aktivität zeigt VEC auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
 
-1. Wählen Sie die Elemente aus, die Sie ändern möchten, und nehmen Sie die gewünschten Änderungen vor.
+1. Wählen Sie die zu ändernden Elemente aus und nehmen Sie die gewünschten Änderungen vor.
 
-   Wenn Sie den Mauszeiger über die Elemente auf Ihrer Seite bewegen, werden die Elemente hervorgehoben. Jedes hervorgehobene Element kann mit dem VEC geändert werden.
+   Wenn Sie den Mauszeiger über die Elemente auf der Seite bewegen, werden die Elemente hervorgehoben. Jedes hervorgehobene Element kann mit dem VEC geändert werden.
 
-   Wenn Sie mit [!DNL Target Classic] (früher [!DNL Test&Target]) eine [!DNL Target] -Anfrage auf der Seite erstellt haben, wird diese [!DNL Target] -Anfrage als Element mit dem Anforderungsnamen angezeigt und kann wie jedes andere Element bearbeitet werden.
+   Wenn Sie eine [!DNL Target] Anfrage auf der Seite mit [!DNL Target Classic] (früher [!DNL Test&Target]) erstellt haben, wird diese [!DNL Target] Anfrage als ein Element angezeigt, das den Namen der Anfrage anzeigt, und kann wie jedes andere Element geändert werden.
 
    Eine Liste der Aktionen, die für ein Element auf der angezeigten Seite durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -35,15 +35,15 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-
    >
    >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf `akamai.net` gehostet und auf `example.com` bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
 
-1. Klicken Sie auf **[!UICONTROL Next]** , wenn Sie mit dem Entwurf des Erlebnisses fertig sind.
+1. Klicken Sie auf **[!UICONTROL Next]** , wenn Sie mit dem Entwerfen des Erlebnisses fertig sind.
 
 ## Umbenennen eines Erlebnisses
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Rename Experience]** ( ![Symbol &quot;Umbenennen&quot;](/help/main/assets/icons/Rename.svg) ) neben einem Erlebnis, um dem Erlebnis einen neuen Namen zu geben.
+1. Klicken Sie auf das **[!UICONTROL Rename Experience]** ( ![Umbenennen](/help/main/assets/icons/Rename.svg) ) neben einem Erlebnis, um dem Erlebnis einen neuen Namen zu geben.
 
-2. Geben Sie einen neuen Namen ein und klicken Sie dann auf **[!UICONTROL Save]**.
+2. Geben Sie einen neuen Namen an und klicken Sie dann auf **[!UICONTROL Save]**.
 
-   Wenn Sie ein Erlebnis benennen oder umbenennen, sind folgende Zeichen nicht zulässig:
+   Beim Benennen oder Umbenennen eines Erlebnisses sind die folgenden Zeichen nicht zulässig:
 
    | Zeichen | Beschreibung |
    |--- |--- |
@@ -58,7 +58,7 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-
 
 ## Zur URL umleiten
 
-1. Klicken Sie im Bereich **[!UICONTROL Experiences]** auf das Symbol **[!UICONTROL More]** ( ![Mehr Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und klicken Sie dann auf **[!UICONTROL Redirect to URL]**.
+1. Klicken Sie im **[!UICONTROL Experiences]** auf das **[!UICONTROL More]** ( ![Mehr-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und dann auf **[!UICONTROL Redirect to URL]**.
 
    Weitere Informationen finden Sie unter [Zur URL umleiten](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
@@ -70,10 +70,10 @@ Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-
 
 ## Duplizieren eines Erlebnisses
 
-Sie können ein Erlebnis in einem [!UICONTROL A/B Test] kopieren, damit Sie kleinere Änderungen vornehmen können, ohne das Erlebnis neu erstellen zu müssen.
+Sie können ein Erlebnis in ein [!UICONTROL A/B Test] kopieren, damit Sie kleinere Änderungen daran vornehmen können, ohne das Erlebnis neu erstellen zu müssen.
 
-1. Klicken Sie im Bereich **[!UICONTROL Experiences]** auf das Symbol **[!UICONTROL More]** ( ![Mehr Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und klicken Sie dann auf **[!UICONTROL Duplicate]**.
+1. Klicken Sie im **[!UICONTROL Experiences]** auf das **[!UICONTROL More]** ( ![Mehr-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und dann auf **[!UICONTROL Duplicate]**.
 
 ## Löschen eines Erlebnisses
 
-1. Klicken Sie im Bereich **[!UICONTROL Experiences]** auf das Symbol **[!UICONTROL More]** ( ![Mehr Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis, klicken Sie auf **[!UICONTROL Delete]** und dann auf **[!UICONTROL Delete]** , um die Aktion zu bestätigen.
+1. Klicken Sie im **[!UICONTROL Experiences]** auf das **[!UICONTROL More]** ( ![Mehr-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis, klicken Sie auf **[!UICONTROL Delete]** und dann auf **[!UICONTROL Delete]** , um die Aktion zu bestätigen.

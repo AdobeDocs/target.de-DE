@@ -40,7 +40,7 @@ Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folg
 So wird das Autorisierungstoken abgerufen:
 
 1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Klicken Sie im Abschnitt Debugger-Tools auf **[!UICONTROL Generate New Authentication Token]**.
+1. Klicken Sie im Abschnitt mit den Debuggingwerkzeugen auf **[!UICONTROL Generate New Authentication Token]**.
 
    ![Neues Authentifizierungstoken erstellen](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * Angewendete Aus- und Einschlüsse
 * Auflistungsregeln
 
-Sie müssen nicht `=console`, `=json` oder `=window` in den Abfrageparameter einbeziehen. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie **[!UICONTROL Enter]** , um zum normalen Anzeigemodus zurückzukehren.
+Sie müssen `=console`, `=json` oder `=window` nicht in den Abfrageparameter einbeziehen. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie **[!UICONTROL Enter]**, um zum normalen Anzeigemodus zurückzukehren.
 
 Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Recommendations-Design.
 
@@ -111,7 +111,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [Debuggen von at.js mit dem Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Weitere Informationen finden Sie unter [Debugging von at.js mit dem Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -155,9 +155,9 @@ at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype 
 
 Der [!UICONTROL Activity URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig öffnet der VEC (0) die Seite, die in Ihren [Visual Experience Composer-Einstellungen](/help/main/administrating-target/visual-experience-composer-set-up.md) angegeben ist. [!UICONTROL Visual Experience Composer] Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ ](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-Um nach dem Öffnen des VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Configure gear icon]** > wählen Sie **[!UICONTROL Page Delivery]** > und geben Sie dann die gewünschte URL im Feld [!UICONTROL Activity URL] an.
+Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf das **[!UICONTROL Configure gear icon]** > **[!UICONTROL Page Delivery]** auswählen > und geben Sie dann die gewünschte URL in das Feld [!UICONTROL Activity URL] ein.
 
 ![Konfigurieren der Benutzeroberfläche für Seitenbereitstellungseinstellungen](assets/configure-page-delivery.png)
 
@@ -165,7 +165,7 @@ Was aber, wenn die URL Abfragezeichenfolgen-Parameter enthält? Funktioniert es 
 
 Die folgenden Optionen können verwendet werden, um zusätzliche Vorlagenregeln einzuschließen:
 
-### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei der Option &quot;enthält&quot;.
+### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei - mit der Option „contains“.
 
 Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass damit Sonderfälle verbunden sind, die Ihre Berichtsdaten mit zusätzlichen Datensätzen zu URLs beeinflussen können, die die Basis-URL enthalten.
 
@@ -173,7 +173,7 @@ In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Of
 
 ![Replizieren einer URL in Vorlagenregeln](assets/option1.png)
 
-### Option 2: Schränken Sie die URL-Bedingung &quot;enthält&quot;nur mit der Abfragezeichenfolge ein.
+### Option 2: Beschränken Sie die URL-Bedingung „contains“ auf die Abfragezeichenfolge.
 
 Der in der vorherigen Option beschriebene Sonderfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
 
@@ -183,13 +183,13 @@ In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Of
 
 ### Option 3: Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL.
 
-In diesem Szenario ist die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln geben einen [!UICONTROL Query] mit [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers an, getrennt durch einen ODER-Operator:
+In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln geben einen [!UICONTROL Query] mit [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers an, getrennt durch einen OR-Operator:
 
 ![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
 
-## Das Escapen doppelter Anführungszeichen im Profilattributwert [!DNL Target] funktioniert nicht erwartungsgemäß. {#escape}
+## Das Umgehen von Anführungszeichen in [!DNL Target] Profilattributwert funktioniert nicht erwartungsgemäß. {#escape}
 
-Wenn Sie Werte senden, die doppelte Anführungszeichen in einem Profilattribut vom Typ [!DNL Target] enthalten, müssen Sie wie unten gezeigt eine doppelte Escape-Sequenz verwenden.
+Wenn Sie Werte senden, die doppelte Anführungszeichen in einem [!DNL Target] Profilattribut enthalten, müssen Sie sie wie unten dargestellt doppelt ausklammern.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Hinzufügen der Erweiterung ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

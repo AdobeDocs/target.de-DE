@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;Best Practices für Visual Experience Composer;Einschränkungen von Visual Experience Composer;Nachteile von Visual Experience Composer;Best Practices für VEC;VEC
-description: Lernen Sie Best Practices kennen, damit Ihre Erlebnisse bei der Verwendung von [!UICONTROL Visual Experience Composer] (VEC) wie erwartet funktionieren.
+description: Erfahren Sie mehr über Best Practices, damit Ihre Erlebnisse bei der Verwendung des [!UICONTROL Visual Experience Composer] (VEC) wie erwartet funktionieren.
 title: Was sind [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
@@ -13,25 +13,25 @@ ht-degree: 85%
 
 # [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen
 
-Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch weitere Tipps und Einschränkungen, die Sie bei der Verwendung von [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] beachten sollten.
+Durch Befolgung dieser Best Practices können Sie dafür sorgen, dass Ihre Erlebnisse erwartungsgemäß funktionieren. Es gibt auch andere Tipps und Einschränkungen, die Sie bei der Verwendung des [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] beachten sollten.
 
 ## Best Practices   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
 Im Folgenden finden Sie Best Practices für die Verwendung von VEC:
 
-### Platzieren Sie die at.js-Referenz oben im Abschnitt `<head>` Ihrer Seite.
+### Platzieren Sie die at.js-Referenz oben im `<head>` Abschnitt Ihrer Seite.
 
-Wenn Sie auch den Besucher-API-Dienst verwenden, platzieren Sie das Besucher-API-Skript über at.js.
+Wenn Sie auch den Besucher-API-Service verwenden, platzieren Sie das Besucher-API-Skript über at.js.
 
-### Sie können den Enhanced Experience Composer auf Kontoebene (aktiviert für alle Aktivitäten, die mit diesem Konto erstellt werden) oder individuell für einzelne Aktivitäten aktivieren.
+### Sie können Enhanced Experience Composer auf Kontoebene (für alle im Konto erstellten Aktivitäten aktiviert) oder auf individueller Aktivitätsebene aktivieren.
 
-Um den Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
+Um Enhanced Experience Composer auf Kontoebene zu aktivieren, klicken Sie auf [!UICONTROL Administration > Visual Experience Composer] und schalten Sie den Schalter dann auf Ein um.
 
-Um den Enhanced Experience Composer beim Erstellen einer Aktivität im Visual Experience Composer auf Aktivitätsebene zu aktivieren, klicken Sie auf [!UICONTROL Configure > URL] und stellen Sie den Regler auf die Position &quot;Ein&quot;.
+Um Enhanced Experience Composer auf Aktivitätsebene zu aktivieren, während Sie eine Aktivität in Visual Experience Composer erstellen, klicken Sie auf [!UICONTROL Configure > URL] und schalten Sie den Schalter dann auf Ein.
 
-### Sie können bestimmte IP-Adressen in Zulassungslisten einordnen, wenn der Enhanced Visual Experience Composer auf sicheren Seiten Ihrer Site nicht geladen wird.
+### Bestimmte IP-Adressen können auf die Zulassungsliste gesetzt werden, wenn der Enhanced Visual Experience Composer nicht auf sicheren Seiten Ihrer Site geladen wird.
 
-Probleme beim Laden des Enhanced Visual Experience Composer können gelöst werden, indem die folgenden IP-Adressen auf die Zulassungsliste gesetzt werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
+Probleme beim Laden von Enhanced Visual Experience Composer können durch die Zulassungsauflistung der folgenden IP-Adressen behoben werden. Diese IP-Adressen stehen für den Server von Adobe zur Verfügung, der für den Proxy des Enhanced Experience Composer verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Auf die Zulassungsliste setzen Besucherinnen und Besucher Ihrer Site benötigen diese IP-Adressen nicht.
 
 Vereinigte Staaten: 52.55.99.45, 54.80.158.92 und 54.204.197.253
 
@@ -79,7 +79,7 @@ Elemente auf Blockebene sollten nicht innerhalb von Inline-Elementen wie Anchor,
 
 ### Vermeiden Sie die Verwendung des base-Tags in Ihrer Website zur Auflösung von URLs und Links.
 
-Der VEC manipuliert die Website hinter den Kulissen mithilfe eines Proxy-Servers, der die Links aktualisiert hat. Wenn Sie ein base-Tag hinzufügen, werden die durch den Proxy-Server verwendeten URLs erneut durch den Browser aufgelöst und fehlerhaft dargestellt.
+Der VEC manipuliert die Website im Hintergrund mithilfe eines Proxy-Servers, der die Links aktualisiert. Wenn Sie ein base-Tag hinzufügen, werden die durch den Proxy-Server verwendeten URLs erneut durch den Browser aufgelöst und fehlerhaft dargestellt.
 
 ### Die Verwendung von „HTML Bearbeiten“ zur Manipulation der DOM-Struktur kann Selektoren unterbrechen.
 
@@ -94,7 +94,7 @@ Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element
 
 Siehe [Elementselektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-### Verwenden Sie die Tags `<b>` und `<i>` , wenn Sie Textelemente mit dem Rich-Text-Editor formatieren.
+### Verwenden Sie `<b>`- und `<i>`-Tags beim Formatieren von Textelementen mit dem Rich-Text-Editor.
 
 * Für fett gedruckten Text verwenden Sie `<b>` anstelle von `<strong>`.
 * Für kursiv gedruckten Text verwenden Sie `<i>` anstelle von `<em>`.
@@ -105,7 +105,7 @@ Die Tags `<strong>` und `<em>` können zu unerwarteten Ergebnissen führen.
 
 Bestimmte Formularfelder können Pflichtfelder für die Übermittlung sein. Das Entfernen dieser Formularfelder kann Auswirkungen auf Übermittlungen haben.
 
-### Fügen Sie in Skripten nicht `mboxCreate` ein.
+### Schließen Sie keine `mboxCreate` in Skripte ein.
 
 Da `mboxCreate` `document.write` verwendet, ist es nicht empfehlenswert, `mboxCreate` in Skripts einzubinden. Verwenden Sie stattdessen `mboxDefine` und `mboxUpdate`, die den gleichen Zweck erfüllen.
 
@@ -144,7 +144,7 @@ Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr 
 
 In diesem Beispiel wurde das gesamte Ankerelement im VEC ausgewählt, was sich negativ auf andere Elemente auswirkt, wenn ein Targeting ausgeführt wird.
 
-### Verwenden Sie keine `top` - oder `self` -Variablen im JavaScript-Code.
+### Verwenden Sie keine `top` oder `self` Variablen im JavaScript-Code.
 
 Wenn der Enhanced Experience Composer aktiviert ist, wird der Wert der Variablen „top“ und „self“ aktualisiert, um das iFrame-Busting zu deaktivieren. Arbeiten Sie stattdessen mit einer X-Frame-Optionsüberschrift, um iframe-Busting anstatt benutzerdefinierter JavaScript-Codes einzusetzen.
 
@@ -179,7 +179,7 @@ Deaktivieren Sie iframe-Busting auf Ihrer Webseite und prüfen Sie, ob sie sich 
 
 ## Einschränkungen  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Beachten Sie die folgenden Einschränkungen bei der Verwendung von [!UICONTROL Visual Experience Composer] zum Entwerfen Ihrer Aktivität.
+Beachten Sie die folgenden Einschränkungen bei der Verwendung des [!UICONTROL Visual Experience Composer] zum Entwerfen Ihrer Aktivität.
 
 ### Die Funktion „Verschieben“ unterstützt z-index nicht.
 
@@ -191,7 +191,7 @@ Wenn ein für Klick-Tracking gekennzeichnetes Element neu angeordnet wird, ände
 
 Dies passiert, weil sowohl der Code zur Bereitstellung des Aktivitäteninhalts als auch der Code für das Klick-Tracking in einem einzigen Code enthalten ist, der für die Seite bereitgestellt wird. Wenn Sie zu einer anderen Seite navigieren und Klick-Tracking einrichten, dann werden der Aktivitätsinhalts-Code und der Klick-Trackingcode für diese Seite bereitgestellt. Wenn die Klick-Tracking-Seite eine ähnliche Struktur aufweist wie die Seite, auf der der Test ausgeführt wird, dann kann der Testinhalt auch auf der Klick-Tracking-Seite erscheinen.
 
-### Das Einfügen eines Elements funktioniert möglicherweise nicht in eine mbox mit dem Namen `<div>`.
+### Das Einfügen eines Elements funktioniert möglicherweise nicht in einer `<div>`, die eine Mbox ist.
 
 Enthält eine Mbox ein Angebot, kann ein einzufügendes Element als „insertBefore“ anstatt von „insertAfter“ angewendet werden, falls die Mbox nicht korrekt implementiert wurde.
 
@@ -223,19 +223,19 @@ Dies kann umgangen werden, indem Erlebnisleiste und Seitenleiste durch Klicken a
 
 ## Einschränkungen   {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
-Beachten Sie beim Arbeiten mit VEC die folgenden Einschränkungen:
+Beachten Sie bei der Arbeit mit VEC die folgenden Einschränkungen:
 
-### Sie können ein Element nicht außerhalb eines Containers verschieben, gefolgt von einer CSS-Eigenschaft.
+### Sie können ein Element nicht aus einem Container mit einer darauf folgenden CSS-Eigenschaft verschieben.
 
 Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den eine CSS-Eigenschaft folgt.
 
-### Sie können das Element [!UICONTROL Button] nicht zum Neuanordnen auswählen.
+### Sie können das [!UICONTROL Button] Element für die Neuanordnung nicht auswählen.
 
-[!UICONTROL Button] -Elemente können nicht direkt zum Neuanordnen ausgewählt werden. Um die Neuanordnung zu aktivieren, platzieren Sie Schaltflächen in einem größeren Container.
+[!UICONTROL Button] Elemente können nicht direkt zum Neuanordnen ausgewählt werden. Um die Neuanordnung zu ermöglichen, platzieren Sie Schaltflächen in einem größeren Container.
 
 ### Auf Mboxes stehen lediglich Tauschangebote zur Verfügung.
 
-Aktionen wie &quot;Klasse bearbeiten&quot;und &quot;Neu anordnen&quot;sind innerhalb einer Mbox nicht zulässig.
+Aktionen wie „Klasse bearbeiten“ und „Neu anordnen“ sind innerhalb einer Mbox nicht zulässig.
 
 ### Sie sollten dasselbe Element nicht neu ordnen und verschieben.
 
@@ -293,7 +293,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 </script>
 ```
 
-### Das Einfügen eines Bildes aus der Inhaltsbibliothek (Scene7) und Bearbeiten des HTML beschädigen die Bild-URL.
+### Durch das Einfügen eines Bildes aus der Inhaltsbibliothek (Scene7) und das Bearbeiten der HTML wird die Bild-URL beschädigt.
 
 Fügen Sie ein Ankerelement innerhalb des div „customHeaderMessage“ sowie Platzhaltertext ein:
 
@@ -316,7 +316,7 @@ Nach Einfügen des Bilds sollte es wie folgt aussehen:
 
 Löschen Sie den Platzhaltertext.
 
-### Die Aktion &quot;customCode&quot;im VEC funktioniert nicht mit Internet Explorer 8.
+### Die Aktion „customCode“ in VEC funktioniert nicht mit Internet Explorer 8.
 
 Aufgrund einiger Einschränkungen von IE8 bei der Handhabung von Skriptinhalten unterstützt „target.js“ diese Aktion in IE8 nicht. Enthält die Seite jQuery und wird sie im Fensterobjekt global verfügbar gemacht, kann „target.js“ die Aktion „customCode“ für die Bereitstellung nutzen. Stellen Sie sicher, dass window.jQuery und window.jQuery.fn.prepend definiert wurden.
 

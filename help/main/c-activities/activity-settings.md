@@ -1,6 +1,6 @@
 ---
-keywords: Ziele und Einstellungen;Ziel;Priorität;Dauer
-description: Erfahren Sie, wie Sie mithilfe der Aktivitätseinstellungen in Adobe [!DNL Target] das Ziel, die Priorität und die Dauer Ihrer Aktivitäten verwalten können.
+keywords: Ziel und Einstellungen;Ziel;Priorität;Dauer
+description: Erfahren Sie, wie Sie die Aktivitätseinstellungen in Adobe [!DNL Target]  verwenden, um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
 title: Wie gebe ich Aktivitätseinstellungen an?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
@@ -13,20 +13,20 @@ ht-degree: 74%
 
 # Aktivitätseinstellungen
 
-Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target] , um das Ziel, die Priorität und die Dauer Ihrer Aktivitäten zu verwalten.
+Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target], um das Ziel, die Priorität und die Dauer Ihrer Aktivitäten zu verwalten.
 
 1. Geben Sie Hinweise zum Ziel der Aktivität ein.
 
-   Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Ziehen Sie, um die Größe des Felds [!UICONTROL Objective] zu ändern.
+   Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Ziehen Sie, um die Größe des [!UICONTROL Objective] zu ändern.
 1. Legen Sie die Priorität der Aktivität fest.
 
-   Abhängig von Ihren Einstellungen variieren die Benutzeroberfläche und Optionen für [!UICONTROL Priority]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
+   Je nach Ihren Einstellungen variieren die Benutzeroberfläche und die Optionen für [!UICONTROL Priority]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-   Wenn diese Option unter [!UICONTROL Administration] > [!UICONTROL Reporting] (Standardeinstellung) nicht aktiviert ist, geben Sie eine Priorität an: &quot;Niedrig&quot;, &quot;Medium&quot;oder &quot;Hoch&quot;.
+   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting] (Standard) nicht aktiviert ist, geben Sie eine Priorität an: Niedrig, Medium oder Hoch.
 
-   Um genauer unterteilte Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und stellen Sie dann die Option [!UICONTROL Enable Fine-Grained Priorities] auf die Position &quot;Ein&quot;.
+   Um die feinabgestimmten Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie die Option [!UICONTROL Enable Fine-Grained Priorities] auf „Ein“.
 
    Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -47,7 +47,7 @@ Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target] , um das Zie
    >
    >Beim Planen einer Aktivität wird der Bereitstellungszeitrahmen der Aktivität festgelegt. Die Aktivität muss jedoch zudem eigens aktiviert werden, bevor sie in Einklang mit dem festgelegten Zeitplan bereitgestellt wird.
 
-Die Seite [!UICONTROL Goal & Settings] enthält zusätzliche Einstellungen, die je nach Typ der erstellten Aktivität variieren. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
+Die Seite [!UICONTROL Goal & Settings] enthält zusätzliche Einstellungen, die je nach dem Typ der von Ihnen erstellten Aktivität variieren. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
 
 * [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

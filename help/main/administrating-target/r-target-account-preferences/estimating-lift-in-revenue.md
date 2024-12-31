@@ -1,7 +1,7 @@
 ---
 keywords: Umsatzsteigerung;Umsatz;Schätzung der Umsatzsteigerung;Steigerung berechnen;geschätzter Wert
-description: Schätzen Sie die Steigerung, die Sie erzielen können, wenn jeder Besucher das erfolgreichste Erlebnis sieht, sofern die Trends so weitergehen wie während des Tests.
-title: Was schätze ich eine Umsatzsteigerung?
+description: Schätzen Sie die Steigerung, die Sie erreichen können, wenn jeder Besucher das erfolgreichste Erlebnis sieht und die Trends so weitergehen wie während des Tests.
+title: Was schätze ich die Umsatzsteigerung?
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # Geschätzte Umsatzsteigerung
 
-Verwenden Sie [!DNL Adobe Target] , um die Umsatzsteigerung zu schätzen, die Sie erzielen würden, wenn sich alle Benutzer das erfolgreichste Erlebnis ansehen würden.
+Schätzen Sie mithilfe von [!DNL Adobe Target] die Umsatzsteigerung, die Sie erzielen würden, wenn alle Benutzer das erfolgreichste Erlebnis sehen.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Für diese Schätzung werden das Ausmaß der Steigerung durch das erfolgreichste
 
 Die geschätzte Umsatzsteigerung wird auf Basis von „Umsatz pro Besuch (RPV)“ berechnet, was wiederum von der Metrik für das primäre Ziel abgerufen wird.
 
-Die geschätzte Steigerung wird mit der folgenden Formel berechnet: (&lt;erfolgreichstes Erlebnis RPV> - &lt;Kontrollerlebnis RPV&lt;)&#42;&lt;Gesamtanzahl der Besucher in der Aktivität>
+Die geschätzte Steigerung wird anhand folgender Formel berechnet: (&lt;erfolgreichster Erlebnis-RPV> - &lt;Kontrollerlebnis-RPV&lt;)&#42;&lt;Gesamtzahl der Besucher in der Aktivität>
 
 Das Ergebnis wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $
 

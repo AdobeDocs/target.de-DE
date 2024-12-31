@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;WYSIWYG
-description: Erfahren Sie mehr über die Grundlagen der Verwendung des Visual Experience Composer (VEC) in Adobe Target. VEC ist ein WYSIWYG-Editor, mit dem Sie einfach personalisierte Erlebnisse erstellen können.
+description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Composer (VEC) in Adobe Target kennen. VEC ist ein WYSIWYG-Editor, mit dem Sie mühelos personalisierte Erlebnisse erstellen können.
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
@@ -13,13 +13,13 @@ ht-degree: 73%
 
 # Visual Experience Composer (VEC)
 
-Informationen zur Verwendung von [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
+Informationen zur Verwendung des [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
 
-VEC ist eine WYSIWYG-Benutzeroberfläche, mit der Sie einfach personalisierte Erlebnisse und Angebote im Site-Kontext erstellen und testen können. Sie können Erlebnisse und Angebote für Targeting-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und verändern.
+VEC ist eine Benutzeroberfläche von WYSIWYG, mit der Sie personalisierte Erlebnisse und Angebote im Kontext der Website einfach erstellen und testen können. Sie können Erlebnisse und Angebote für Targeting-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) oder einer mobilen Webseite per Drag &amp; Drop austauschen und verändern.
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
-Auf der Registerkarte Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** können Sie die Standard-URL von Visual Experience Composer eingeben.
+Auf der Registerkarte Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** können Sie die standardmäßige Visual Experience Composer-URL eingeben.
 
 ![Standard-VEC-URL-Einstellungen](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -41,26 +41,26 @@ Wenn Sie Ihren Mauszeiger auf der Seite bewegen, folgt dem Cursor ein kontextbez
 
 ![VEC hervorgehoben](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-Klicken Sie auf das Symbol &quot;**[!UICONTROL Overlays]**&quot;, um die Anzeige der Hervorhebung zu ändern. Sie können beispielsweise nur Bilder, Links, regionale Mboxes, Änderungen oder JavaScript hervorheben. Sie können die Farbe der Hervorhebung ändern. Sie können auch eine Hervorhebungsfarbe und die Art der Füllung, die zur Hervorhebung verschiedener Elementtypen verwendet wird, festlegen.
+Klicken Sie auf das **[!UICONTROL Overlays]**, um die Darstellung der Hervorhebung zu ändern. Sie können beispielsweise nur Bilder, Links, regionale Mboxes, Änderungen oder JavaScript hervorheben. Sie können die Farbe der Hervorhebung ändern. Sie können auch eine Hervorhebungsfarbe und die Art der Füllung, die zur Hervorhebung verschiedener Elementtypen verwendet wird, festlegen.
 
 ![Überlagerungseinstellungen ändern](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Klicken Sie auf ein hervorgehobenes Element, um ein Menü mit für dieses Element verfügbaren Optionen anzuzeigen. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Edit > Text/HTML]** auswählen, um den Text zu ändern, oder auf eine Schaltfläche klicken und die Hintergrundfarbe ändern. Sie können die Schaltflächen oben links auf der Seite verwenden, um die Overlays ein- und auszuschalten.
+Klicken Sie auf ein hervorgehobenes Element für ein Menü mit Optionen, die für diesen Elementtyp verfügbar sind. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Edit > Text/HTML]** auswählen, um den Text zu ändern, oder auf eine Schaltfläche klicken und die Hintergrundfarbe ändern. Sie können die Schaltflächen oben links auf der Seite verwenden, um die Overlays ein- und auszuschalten.
 
-Sie können auch auf &quot;**[!UICONTROL Browse]**&quot;klicken, dann von der primären Seite, wie z. B. einer Versandseite oder einem Warenkorb, zu einer verfügbaren Seite navigieren und Änderungen an dieser Seite testen. Sie können auch auf Seitenelemente zugreifen, die verfügbar werden, wenn Sie den Mauszeiger darüber bewegen, wie zum Beispiel Flyout-Menüs und Minicarts. Wenn Sie mit dem Durchsuchen der Seite fertig sind, klicken Sie auf **[!UICONTROL Compose]** , um das Erlebnis zu bearbeiten. Vielleicht möchten Sie zum Beispiel den Entwurf für ein Einkaufswagendropdown oder ein Bilderkarussell verändern.
+Sie können auch auf **[!UICONTROL Browse]** klicken, dann zu einer Seite gehen, die auf der primären Seite verfügbar ist, z. B. eine Versandseite oder einen Warenkorb, und die Änderungen auf dieser Seite testen. Sie können auch auf Seitenelemente zugreifen, die verfügbar werden, wenn Sie den Mauszeiger darüber bewegen, wie zum Beispiel Flyout-Menüs und Minicarts. Wenn Sie mit dem Navigieren zur Seite fertig sind, klicken Sie auf **[!UICONTROL Compose]** , um das Erlebnis zu bearbeiten. Vielleicht möchten Sie zum Beispiel den Entwurf für ein Einkaufswagendropdown oder ein Bilderkarussell verändern.
 
 >[!NOTE]
 >
->Wenn ein Hover-Status von JavaScript abhängig ist, stellen Sie sicher, dass **[!UICONTROL Disable JavaScript]** nicht ausgewählt ist. JavaScript muss aktiviert sein, um JavaScript-Elemente zu bearbeiten.
+>Wenn der Hover-Status von JavaScript abhängt, stellen Sie sicher, dass **[!UICONTROL Disable JavaScript]** nicht ausgewählt ist. JavaScript muss aktiviert sein, um JavaScript-Elemente zu bearbeiten.
 
 Weitere Informationen zu den verfügbaren Optionen in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Sie können einige Änderungen auf einer Seite ausführen, während die Seite geladen wird (oder nachdem die Seite nicht geladen wurde), oder Sie können das Laden der Seite im VEC abbrechen. Weitere Informationen finden Sie unter:
 
-* [Bearbeiten einer Seite während der Ladezeit der Seite oder nachdem die Seite nicht geladen werden konnte](#loading)
-* [Laden einer Seite im VEC abbrechen](#cancel-loading)
+* [Bearbeiten Sie eine Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann](#loading)
+* [Abbrechen des Seitenladevorgangs in VEC](#cancel-loading)
 
-## Bearbeiten einer Seite während der Ladezeit der Seite oder nachdem die Seite nicht geladen werden konnte {#loading}
+## Bearbeiten Sie eine Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann {#loading}
 
 Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert).
 
@@ -70,13 +70,13 @@ Einige Gründe, aus denen Sie möglicherweise auf eine Seite zugreifen oder sie 
 * Sie möchten vorhandene benutzerdefinierte Codes von einer Seite kopieren, die nicht mehr verfügbar ist.
 * Sie wissen, dass eine Seite nicht im VEC geladen wird, aber Sie möchten trotzdem einfache Änderungen vornehmen.
 
-Während die Seite geladen wird (oder nachdem sie nicht geladen werden konnte), sind das Bedienfeld [!UICONTROL Experiences], das Bedienfeld [!UICONTROL Modifications] und die Einstellungen oben im Erlebnis (Überlagerungen, Änderungen, Konfigurationen usw.) alle barrierefrei zugänglich.
+Während die Seite geladen wird (oder nachdem sie nicht geladen werden kann), sind das Bedienfeld &quot;[!UICONTROL Experiences]&quot;, das Bedienfeld &quot;[!UICONTROL Modifications]&quot; und die Einstellungen oben im Erlebnis (Überlagerungen, Änderungen, Konfigurieren usw.) alle verfügbar.
 
 Die folgende Abbildung zeigt, dass Sie benutzerdefinierten Code einfügen oder andere Aktionen ausführen können, während die Seite noch geladen wird:
 
 ![Seitenladevorgang](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/loading-page.png)
 
-## Laden einer Seite im VEC abbrechen {#cancel-loading}
+## Abbrechen des Seitenladevorgangs in VEC {#cancel-loading}
 
 Sie können das Laden einer Seite innerhalb des VEC abbrechen, um die Bearbeitung der Aktivität zu entsperren, ohne warten zu müssen, bis die Seite geladen wird. Diese Funktion spart Zeit und hilft Ihnen, einfache Bearbeitungen vorzunehmen oder benutzerdefinierten Code effizienter einzufügen, ohne auf das Laden der Seite innerhalb des VEC zu warten.
 
@@ -90,17 +90,17 @@ Einige Gründe, weshalb Sie die Seitenladevorgänge im VEC abbrechen möchten:
 * Sie möchten weitere Regeln für Vorlagetestkriterien zu den Seitenbereitstellungskriterien hinzufügen.
 * Sie möchten den Global Enhanced Experience Composer (EEC) überschreiben, wenn eine Seite über das EEC oder nur über iframe geladen wird, was möglicherweise von Seite zu Seite unterschiedlich sein kann.
 
-Nachdem Sie das Laden der Seite im VEC abgebrochen haben, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf warten zu müssen, dass die Seite geladen wird. Um die Seite im VEC erneut anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
+Nachdem Sie das Laden der Seite im VEC abgebrochen haben, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf warten zu müssen, dass die Seite geladen wird. Um die Seite innerhalb des VEC erneut anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
 
 >[!IMPORTANT]
 >
 >Beachten Sie, dass, wenn benutzerdefinierter Code oder Änderungen vorgenommen werden, durch die Entscheidung zum Abbrechen des Ladens innerhalb des VEC sichergestellt wird, dass Ihre Kodierung oder Änderungen ordnungsgemäß durchgeführt werden. Stellen Sie sicher, dass Sie eine ordnungsgemäße Qualitätssicherung durchführen, um sicherzustellen, dass Ihr benutzerdefinierter Code und alle anderen Änderungen wie erwartet bereitgestellt werden.
 
-Um das Laden einer Seite im VEC abzubrechen, klicken Sie auf die Schaltfläche **[!UICONTROL Cancel Loading]** , während die Seite geladen wird. Die Seite wird für diese Aktivität während der aktuellen Bearbeitungssitzung im VEC nicht geladen.
+Um das Laden einer Seite innerhalb des VEC abzubrechen, klicken Sie während des Ladevorgangs der Seite auf die Schaltfläche **[!UICONTROL Cancel Loading]** . Die Seite wird für diese Aktivität während der aktuellen Bearbeitungssitzung im VEC nicht geladen.
 
 ![Schaltfläche „Ladevorgang abbrechen“](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-Um weiterhin Erlebnisse in der aktuellen Aktivität zu verwalten oder neue Änderungen hinzuzufügen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
+Um mit der Verwaltung von Erlebnissen in der aktuellen Aktivität fortzufahren oder neue Änderungen hinzuzufügen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
 
 ![Schaltfläche „Neu laden“](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
@@ -126,7 +126,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Office Hours: Visual Experience Composer ![Tutorial Badge](/help/main/assets/tutorial.png)
+### Office Hours: Visual Experience Composer ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 Dieses Video ist eine Aufzeichnung von „[Office Hours](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)“, einer Initiative der Adobe-Kundenunterstützung.
 

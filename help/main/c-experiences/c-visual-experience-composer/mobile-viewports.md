@@ -104,7 +104,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 
    Oder
 
-   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das Symbol [!UICONTROL Edit] (Bleistift).
+   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das [!UICONTROL Edit] (Bleistiftsymbol).
 
 1. Geben Sie einen Namen für den mobilen Viewport ein.
 
@@ -137,7 +137,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im VEC (0) auf das Zahnradsymbol **[!UICONTROL Settings]** und wählen Sie dann **[!UICONTROL Add Mobile Viewports]** aus.[!UICONTROL Visual Experience Composer]
+1. Klicken Sie im [!UICONTROL Visual Experience Composer] (VEC) auf das Symbol **[!UICONTROL Settings]** und wählen Sie dann **[!UICONTROL Add Mobile Viewports]** aus.
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -163,7 +163,7 @@ Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsiv
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Visual Experience Composer (2 von 2) (7:29) ![Badge &quot;Überblick&quot;](/help/main/assets/overview.png)
+### Visual Experience Composer (2 von 2) (7:29) ![Übersichts-Badge](/help/main/assets/overview.png)
 
 Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Experience Composer mit mobilen Viewports arbeiten:
 

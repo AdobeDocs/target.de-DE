@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;Karussell
-description: Erfahren Sie, wie Sie ein Karussell erstellen, das im Adobe [!DNL Target] Visual Experience Composer (VEC) bearbeitet werden kann.
+description: Erfahren Sie, wie Sie ein Karussell erstellen, das im Adobe-Visual Experience  [!DNL Target]  (VEC) bearbeitet werden kann.
 title: Wie erstelle ich Karussells im Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
@@ -13,7 +13,7 @@ ht-degree: 58%
 
 # Erstellen von Karussells, die in Visual Experience Composer funktionieren
 
-In diesem Thema erfahren Sie, wie Sie ein Karussell erstellen, das im VEC (0} [!UICONTROL Visual Experience Composer]) bearbeitet werden kann.[!DNL Adobe Target]
+In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bearbeitet werden kann.
 
 Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass die ausgewählte Folie die Auswahl für die richtige Folie beinhaltet, selbst wenn sie nach einigen Sekunden im Visual Experience Composer ausgewechselt wird.
 
@@ -33,7 +33,7 @@ Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass 
 
    >[!NOTE]
    >
-   >Die Option [!UICONTROL Render Using JavaScript] wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
+   >Die [!UICONTROL Render Using JavaScript]-Option wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im Visual Experience Composer verwendet wird.
 
 1. Aktualisieren Sie classNames nur, um andere auszublenden und den Text mit Timer/Animation anzuzeigen.
 

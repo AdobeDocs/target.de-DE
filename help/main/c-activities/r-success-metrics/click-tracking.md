@@ -21,26 +21,26 @@ Mit [!DNL Adobe Target] können Sie Klicks auf beliebige Elemente, etwa Erfolgsm
 
 ## Klick-Tracking einrichten {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Wählen Sie beim Festlegen Ihrer Ziele auf der Seite [!UICONTROL Goals & Settings] für Ihre Aktivität die Erfolgsmetrik **[!UICONTROL Conversion]** aus.
-1. Wählen Sie für die Aktion **[!UICONTROL Clicked an element]** und klicken Sie dann auf **[!UICONTROL Select elements]**.
+1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Goals & Settings] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Conversion]** aus.
+1. Wählen Sie als Aktion **[!UICONTROL Clicked an element]** aus und klicken Sie dann auf **[!UICONTROL Select elements]**.
 
-   Ihre Seite wird im VEC (0) geöffnet.[!UICONTROL Visual Experience Composer]
+   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
 
 1. Wählen Sie die Elemente aus, die Sie verfolgen möchten.
 
    Tipps zur Auswahl von Elementen finden Sie unten im Abschnitt *Zu beachten*.
 
-1. Klicken Sie oben im Bildschirm auf **[!UICONTROL Save]** , um Ihre Auswahl zu speichern.
+1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Save]** , um Ihre Auswahl zu speichern.
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
 ## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
-Für die Aktivitäten [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Multivariate Test] (MVT) werden in einem Bedienfeld [!UICONTROL Selected Elements] die ausgewählten Elemente für das Klick-Tracking auf der rechten Seite aufgelistet.
+Bei [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Multivariate Test]-(MVT)-Aktivitäten werden im [!UICONTROL Selected Elements] die für das Klick-Tracking ausgewählten Elemente auf der rechten Seite aufgelistet.
 
 ![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Es gibt mehrere Aktionen, die angewendet werden können, wenn Sie den Mauszeiger über ein Element im Bedienfeld [!UICONTROL Selected Elements] bewegen. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie den Mauszeiger über ein Element im [!UICONTROL Selected Elements] bewegen. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
@@ -56,7 +56,7 @@ Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzu
 
 ### Popup ausgewählter Elemente
 
-Nachdem Sie mehrere Elemente für das Klick-Tracking ausgewählt haben, können Sie im Schritt [!UICONTROL Goals & Settings] der Aktivität auf den Link [!UICONTROL Elements Selected] klicken, um die vollständige Liste der für das Klick-Tracking ausgewählten Elemente anzuzeigen. Die Liste enthält den vollständigen DOM-Pfad eines jeden Elements, damit Sie überprüfen können, ob das ausgewählte Element für das Klick-Tracking verwendet werden soll.
+Nachdem Sie mehrere Elemente für das Klick-Tracking ausgewählt haben, können Sie auf den [!UICONTROL Elements Selected] Link im [!UICONTROL Goals & Settings] der Aktivität klicken, um die vollständige Liste der für das Klick-Tracking ausgewählten Elemente anzuzeigen. Die Liste enthält den vollständigen DOM-Pfad eines jeden Elements, damit Sie überprüfen können, ob das ausgewählte Element für das Klick-Tracking verwendet werden soll.
 
 ![Link „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -72,11 +72,11 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mit der Funktion [mehrseitige Funktion](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und [!DNL at.js] in die Aktivität aufgenommen werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Wenn nur ein einzelnes Element gezählt werden soll, obwohl auf mehrere Elemente der Seite geklickt wird, müssen Sie dem CSS-Element-Selektor mehrere Elemente zuordnen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
-* Wenn die Klick-Tracking-Metrik die Zielmetrik einer A4T-Aktivität (0}) ist, muss der Besucher innerhalb von 60 Sekunden nach dem Laden der Seite auf dieses Element klicken, damit die Metrik verfolgt werden kann.[!UICONTROL Analytics for Target]
+* Wenn es sich bei der Klick-Tracking-Metrik um die Zielmetrik einer [!UICONTROL Analytics for Target] (A4T)-Aktivität handelt, muss der Besucher innerhalb von 60 Sekunden nach dem Laden der Seite auf dieses Element klicken, damit das Metrik-Tracking erfolgt.
 * Klick-Tracking funktioniert nicht bei Elementen, in deren Selektoren Escapezeichen enthalten sind, unter anderem die folgenden:
 
   | Zeichen | Beschreibung |
@@ -117,7 +117,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetriken enthalten.
 
 * Erläuterung von „Zielmetriken“
-* [!UICONTROL Conversion]-, [!UICONTROL Revenue]- und [!UICONTROL Engagement]-Metriken verstehen und erstellen
+* Verstehen und Erstellen von [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement] Metriken
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

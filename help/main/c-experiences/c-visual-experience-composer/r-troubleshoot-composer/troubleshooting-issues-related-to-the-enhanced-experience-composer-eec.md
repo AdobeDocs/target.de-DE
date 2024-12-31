@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;EEC;Visual Experience Composer;Fehlerbehebung für Enhanced Experience Composer;Fehlerbehebung
-description: Erfahren Sie, wie Sie unter bestimmten Bedingungen Probleme beheben können, die manchmal im Adobe [!DNL Target] Enhanced Experience Composer (EEC) auftreten.
+description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen  [!DNL Target]  Adobe Enhanced Experience Composer (EEC) auftreten.
 title: Wie kann ich Probleme im Zusammenhang mit Enhanced Experience Composer beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
@@ -11,34 +11,34 @@ ht-degree: 23%
 
 ---
 
-# Beheben von Problemen im Zusammenhang mit dem [!UICONTROL Enhanced Experience Composer]
+# Fehlerbehebung bei Problemen im Zusammenhang mit der [!UICONTROL Enhanced Experience Composer]
 
-Unter bestimmten Bedingungen treten im [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) manchmal Anzeigeprobleme auf.
+Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) auf.
 
-## Der EEC lädt keine interne QA-URL, auf die nicht über eine öffentliche IP zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
+## Der EEC wird keine interne QA-URL laden, auf die nicht über öffentliche IP-Adressen zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Dies kann durch auf die Zulassungsliste setz der folgenden IP-Adressen behoben werden. Diese IP-Adressen sind für den Adobe-Server bestimmt, der für den EEC-Proxy verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucher Ihrer Site müssen diese IP-Adressen nicht auf die Zulassungsliste gesetzt haben.
+Dies lässt sich durch die Zulassungsauflistung der folgenden IP-Adressen beheben. Diese IP-Adressen sind für den Adobe-Server bestimmt, der für den EEC-Proxy verwendet wird. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Auf die Zulassungsliste setzen Besucherinnen und Besucher Ihrer Site benötigen diese IP-Adressen nicht.
 
-Bitten Sie Ihr IT-Team, die folgenden IP-Adressen in Zulassungsliste zu nehmen:
+Bitten Sie Ihr IT-Team um die Zulassungsliste der folgenden IP-Adressen:
 
-* 34 254 77 200
-* 54 73 207 147
-* 54 229 152 123
-* 3 224 194 242
-* 54 90 51 39
-* 34 228 136 112
-* 54 150 116 11
-* 18 178 142,8
-* 54 199 107 77
-* 99 80 139 221
-* 54 78 56 224
-* 54 247 179 246
-* 54 80 219 243
-* 34 201 235 54
-* 54 196 224 236
-* 35 75 212 45
-* 52 199 184 130
-* 18 180 161 176
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
+* 99.80.139.221
+* 54.78.56.224
+* 54.247.179.246
+* 54.80.219.243
+* 34.201.235.54
+* 54.196.224.236
+* 35.75.212.45
+* 52.199.184.130
+* 18.180.161.176
 
 Möglicherweise wird die folgende Fehlermeldung in [!DNL Target] angezeigt:
 
@@ -48,34 +48,34 @@ Möglicherweise wird die folgende Fehlermeldung in [!DNL Target] angezeigt:
 
 Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Korrigieren der Situation aufgeführt:
 
-* **Problem:** Ihre Website-Domäne (ISP) blockiert die [!UICONTROL Enhanced Experience Composer].
+* **Problem:** Ihre Website-Domain (ISP) blockiert die [!UICONTROL Enhanced Experience Composer].
 
-  **Abhilfe:** Zulassungsliste der oben aufgeführten IP-Adressen.
+  auf die Zulassungsliste setzen **Remedy:** die oben aufgeführten IP-Adressen.
 
-* **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, Ihre Website unterstützt jedoch TLS-Version 1.2 nicht. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor dem [!DNL Target] 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **Problem:** Die IP-Adressen werden auf die Zulassungsliste gesetzt, aber Ihre Website unterstützt keine TLS-Version 1.2. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-  **Lösung:** Siehe folgende Frage (Die [!UICONTROL Enhanced Visual Experience Composer] wird auf sicheren Seiten meiner Site, die TLS 1.2 verwenden, nicht geladen).
+  **Lösung:** Sehen Sie sich die folgende Frage an (der [!UICONTROL Enhanced Visual Experience Composer] wird nicht auf sicheren Seiten meiner Site geladen, die TLS 1.2 verwenden).
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC)   {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Möglicherweise wird die oben unter &quot;[!UICONTROL Enhanced Visual Experience Composer] wird auf sicheren Seiten meiner Site nicht geladen&quot;beschriebene Fehlermeldung angezeigt. wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt sind, Ihre Website TLS-Version 1.2 jedoch nicht unterstützt. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor dem [!DNL Target] 18.4.1 (25. April 2018) wurde TLS 1.0 von der Standardkonfiguration unterstützt. Weitere Informationen finden Sie unter [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Möglicherweise wird die oben unter „Der [!UICONTROL Enhanced Visual Experience Composer] wird nicht auf sicheren Seiten meiner Site geladen“ beschriebene Fehlermeldung angezeigt. Wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt werden, Ihre Website TLS Version 1.2 jedoch nicht unterstützt. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen Browsern sind die Schritte ähnlich):
 
 1. Öffnen Sie die betroffene Website in Firefox.
-1. Klicken Sie in der Adressleiste des Browsers auf das Symbol &quot;**[!UICONTROL Show Site Information]**&quot;.
+1. Klicken Sie auf das **[!UICONTROL Show Site Information]** in der Adressleiste des Browsers.
 
-   ![firefox_more_info image](assets/firefox_more_info.png)
+   ![Firefox_more_info Bild](assets/firefox_more_info.png)
 
 1. Klicken Sie auf **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
 
-   ![firefox_more_info_2 image](assets/firefox_more_info_2.png)
+   ![Firefox_more_info_2 Bild](assets/firefox_more_info_2.png)
 
 1. Prüfen Sie die TLS-Versionsinformationen unter den technischen Details:
 
-   ![firefox_more_info_3 image](assets/firefox_more_info_3.png)
+   ![Firefox_more_info_3 Bild](assets/firefox_more_info_3.png)
 
-1. Wenn auf Ihrer Website TLS 1.0 angezeigt wird, finden Sie unter [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} weitere Informationen zur TLS-Unterstützungsrichtlinie für Target. Um die Situation vorerst zu beheben (gültig bis 12. September 2018){target=_blank}, wenden Sie sich zur Konfiguration mit Ihrer TLS-Version und der Domäne an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
+1. Wenn Sie feststellen, dass Ihre Website TLS 1.0 anzeigt, finden Sie unter [TLS (Transport Layer Security)-](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} Informationen zur TLS-Support-Richtlinie von Target. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018){target=_blank}, wenden Sie sich zur Konfiguration mit Ihrer TLS[Version und der Domain an die ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)Kundenunterstützung“.
 
 ## Beim Laden von Seiten mit aktiviertem Proxy werden Fehlermeldungen zu Zeitüberschreitungen oder verweigertem Zugriff ausgegeben. (nur EEC)   {#section_60CBB9022DC449F593606C0E6252302D}
 

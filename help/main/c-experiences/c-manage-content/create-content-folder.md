@@ -13,15 +13,15 @@ ht-degree: 17%
 
 # Angebotsordner erstellen
 
-Erstellen Sie Ordner in der Adobe Target-Angebotsbibliothek, um Codeangebote, Bildangebote sowie andere Ordner zum Erstellen einer Unterordnerstruktur zu speichern.
+Erstellen Sie Ordner in der Adobe Target-Angebotsbibliothek, um Code-Angebote, Bildangebote sowie andere Ordner zu speichern und so eine Unterordnerstruktur zu erstellen.
 
-Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
+Der Prozess zum Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
 
-## Codeangebotsordner
+## Code-Angebotsordner
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Registerkarte &quot;Code-Angebote&quot;](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Registerkarte „Angebote codieren“](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 
@@ -29,30 +29,30 @@ Das Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Bildangebotsordner
+## Bild-Angebotsordner
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Registerkarte &quot;Bildangebote&quot;](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![Registerkarte „Bildangebote“](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Geben Sie eine beschreibende **[!UICONTROL Title]** für den Ordner an.
+1. Geben Sie einen beschreibenden **[!UICONTROL Title]** für den Ordner an.
 
    Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben.
 
-   Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, Doppelpunkt `:`, Sternchen `*`, Fragezeichen `?`, Doppelte Anführungszeichen `"`, Eckige Klammer `[`, Eckige Klammer `]`, Plus-Zeichen: `+`, Streifen: `|`, Punkt: `.`, Nummernzeichen: 12, geschweifte Klammer: `{`, geschweifte Klammer `}`, Karriere `^` oder Semikolon `;`. `#` Anstelle dieser Zeichen können Sie einen Bindestrich ( `- `) verwenden.
+   Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, `:`, Sternchen `*`, Fragezeichen `?`, doppelte Anführungszeichen `"`, eckige Klammer `[`, eckige Klammer `]`, Plus-Zeichen: `+`, Pipe: `|`, Punkt: `.`, Zahlenzeichen: `#`, geschweifte Klammer: `{`, geschweifte Klammer `}`, `^` oder Semikolon `;`. Anstelle dieser Zeichen können Sie einen Bindestrich ( `- `) verwenden.
 
-1. (Optional) Bearbeiten Sie den **[!UICONTROL Name]**.
+1. (Optional) Bearbeiten Sie die **[!UICONTROL Name]**.
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Private]** .
 
    Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können.
 
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Reorder-able in List View]** .
 
-   Legt fest, dass Sie und andere die Position des Ordners im [!UICONTROL List View] neu anordnen können.
+   Gibt an, dass Sie und andere die Position des Ordners in der [!UICONTROL List View] neu anordnen können.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
-Informationen zu den Aufgaben, die Sie für Angebote und Ordner ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
+Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).

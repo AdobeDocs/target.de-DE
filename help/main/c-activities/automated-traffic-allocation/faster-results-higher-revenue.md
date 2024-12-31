@@ -1,6 +1,6 @@
 ---
-keywords: automatisierte Traffic-Zuordnung; Targeting; automatische Zuordnung; automatische Zuordnung
-description: Erfahren Sie, wie eine [!UICONTROL Auto Allocate] -Aktivität in [!DNL Adobe Target] einen Gewinner unter zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuordnet.
+keywords: Automatisierte Traffic-Zuordnung;Targeting;Automatische Zuordnung;Automatische Zuordnung
+description: Erfahren Sie, wie eine [!UICONTROL Auto Allocate] Aktivität  [!DNL Adobe Target] /einen Gewinner aus zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weiterleitet.
 title: Können [!UICONTROL Auto-Allocate] Aktivitäten schnellere Ergebnisse und höhere Umsätze erzielen?
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
@@ -11,38 +11,38 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Auto-Allocate] liefert schnellere Testergebnisse und einen höheren Umsatz als ein manueller Test
+# [!UICONTROL Auto-Allocate] erhalten Sie schneller Testergebnisse und mehr Umsätze als mit manuellen Tests
 
-Bei einer manuellen A/B-Aktivität gehen möglicherweise Konversionen verloren, da Sie das erfolgreichste Erlebnis erst dann für Ihre gesamte Zielgruppe bereitstellen können, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, auch wenn Sie erkennen, dass einige Erlebnisse eine bessere Leistung erzielen als andere. Die Aktivität muss den gesamten Kurs durchlaufen, bevor Sie einen Gewinner erzielen können.
+Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für Ihre gesamte Audience verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.
 
-## Automatische Zuordnung von Traffic
+## Automatisches Zuweisen von Traffic
 
-Wenn Sie möchten, dass eine Option das erfolgreichste Erlebnis öfter und früher in der Aktivität bereitstellt und gleichzeitig die Einrichtungs- und Berechnungskosten für die Auswahl von Stichprobengrößen, Konfidenzstufen und anderen statistischen Konzepten entfernt oder reduziert, ist [!UICONTROL Auto-Allocate] Ihre beste Option.
+Wenn Sie möchten, dass eine Option das erfolgreichste Erlebnis öfter und früher in der Aktivität bereitstellt und gleichzeitig die Einrichtungs- und Berechnungskosten für die Auswahl der Stichprobengrößen, Konfidenzniveaus und andere statistische Konzepte entfernt oder reduziert, ist [!UICONTROL Auto-Allocate] die beste Option.
 
-## Wie wirkt [!UICONTROL Auto-Allocate]?
+## Wie funktioniert [!UICONTROL Auto-Allocate]?
 
-[!UICONTROL Auto-Allocate] verwendet das Prinzip des Multi-Armed Bandit. Wenn der Begriff nicht bekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (wie: Las Vegas). Visualisieren Sie die automatische Zuordnung des Traffics als mit mehreren Steckplatinen, in diesem Fall mit Testvarianten, und ziehen Sie zunächst alle Griffe gleich. Im Laufe der Zeit können eine oder mehrere Maschinen oder Testvarianten mehr ausgeben als andere. Wenn diese Situation eintritt, würde ein Spieler natürlich anfangen, die Griffe der Spieler zu ziehen, die öfter gewinnen. In Bezug auf die Traffic-Zuordnung liefert [!DNL Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
+[!UICONTROL Auto-Allocate] verwendet das Prinzip des mehrarmigen Banditen. Wenn der Begriff unbekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (man denke an Las Vegas). Stellen Sie sich die automatische Zuordnung des Traffics als mit mehreren Slotmaschinen vor, in diesem Fall Testvarianzen, und ziehen Sie zunächst alle Griffe gleich ab. Im Laufe der Zeit zahlen sich eine oder mehrere Maschinen oder Testvarianten möglicherweise mehr aus als andere. Wenn diese Situation eintritt, würde ein Spieler natürlich anfangen, an den Griffen derjenigen zu ziehen, die häufiger gewinnen. In Bezug auf die Traffic-Zuordnung bietet [!DNL Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
 
-Beachten Sie die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL Auto-Allocate] leitet [!UICONTROL Target] bei der Entstehung eines erfolgreichsten Erlebnisses den Traffic frühzeitig im Test zu diesem Gewinner um.
+Betrachten wir die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL Auto-Allocate] gewinnt die Erfahrung, dass [!UICONTROL Target] einen größeren Teil des Traffics zu Beginn des Tests auf den Gewinner umleitet.
 
-![Abbildung der automatischen Zuordnung](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
+![Abbildung zur automatischen Zuordnung](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
 ## Wie liefert [!UICONTROL Auto-Allocate] schnellere Ergebnisse?
 
-Der Vorteil ist klar: Mehr Besucher sehen die Varianten, die am besten funktionieren. Und wenn eine einzelne Variante vorankommt, werden noch mehr Besucher in dieses erfolgreichste Erlebnis umgeleitet, während der Test noch läuft. Diese Methode ist besonders hilfreich, wenn die laufende A/B-Aktivität während eines Kerngeschäftsereignisses wie Feiertag, Produktstart oder Weltnachrichten stattfindet.
+Die Vorteile sind klar: mehr Besucher sehen die Varianten, die am besten abschneiden. Und während eine einzige Variante nach vorne prescht, werden noch mehr Besucher auf das erfolgreichste Erlebnis umgeleitet, während der Test noch lief. Diese Methode ist besonders hilfreich, wenn die A/B-Aktivität während eines wichtigen Geschäftsmoments ausgeführt wird, z. B. eines Feiertags, eines Produktstarts oder eines Weltinformationsereignisses.
 
-## Wie kann [!UICONTROL Auto-Allocate] einen höheren Umsatz erzielen?
+## Wie können [!UICONTROL Auto-Allocate] höhere Einnahmen erzielen?
 
-[!UICONTROL Auto-Allocate] findet den Gewinner schneller als eine manuelle A/B-Aufspaltung und ermöglicht es Ihnen auch, diesen Gewinner sofort zu nutzen, um den Umsatz zu erfassen, der bei einem herkömmlichen oder manuellen Ansatz verloren gegangen wäre. Da [!UICONTROL Auto-Allocate] mehr Traffic an das Erlebnis mit der höchsten Konversionsrate weiterleitet, kann dies Ihren Umsatz steigern, während die Aktivität ausgeführt und gelernt wird.
+[!UICONTROL Auto-Allocate] findet den Gewinner schneller als eine manuelle A/B-Aufteilung und ermöglicht es Ihnen auch, diesen Gewinner sofort zu nutzen und Umsätze zu erfassen, die bei einem traditionellen oder manuellen Ansatz verloren gegangen wären. Da [!UICONTROL Auto-Allocate] mehr Traffic an das Erlebnis mit der höchsten Konversionsrate leitet, kann sich Ihr Umsatz während der Ausführung und des Lernens der Aktivität erhöhen.
 
-Im folgenden Beispiel erzielte [!UICONTROL Auto-Allocate] während des Tests mehr Umsatz, indem mehr Traffic (40 %) an Erlebnis D geleitet wurde, das die höchste Konversionsrate aufwies.
+Im folgenden Beispiel erzielte [!UICONTROL Auto-Allocate] während des Tests einen höheren Umsatz, indem mehr Traffic (40 %) auf Experience D mit der höchsten Konversionsrate verschoben wurde.
 
-![Die automatische Zuordnung bietet eine Abbildung eines höheren Umsatzes](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
+![Die automatische Zuordnung bietet eine höhere Umsatzabbildung](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## In welchen Fällen sollte ich bei der manuellen Traffic-Zuordnung bleiben?
 
-Wenn Sie die Leistung jedes Erlebnisses in einer Rangfolge im Vergleich zu den anderen anzeigen müssen, ist ein manueller A/B-Test am besten geeignet. [!UICONTROL Auto-Allocate] findet und nutzt die leistungsstärksten Erlebnisse, garantiert jedoch keine Differenzierung zwischen den leistungsschwächeren Erlebnissen. Verwenden Sie die manuelle Traffic-Zuordnung, um vollständig zu kontrollieren, wie viel Besucher-Traffic von den einzelnen Testvarianten angezeigt wird, und um die für Ihr Unternehmen relevanten statistischen Schwellenwerte anzupassen.
+Wenn Sie eine Rangfolge der Erlebnisse erstellen müssen, die in Relation zu den anderen Erlebnissen stehen, ist ein manueller A/B-Test am geeignetsten. [!UICONTROL Auto-Allocate] findet und nutzt die besten Köpfe, garantiert jedoch nicht, dass zwischen den Erlebnissen mit schlechteren Leistungen unterschieden wird. Verwenden Sie die manuelle Traffic-Zuordnung , um vollständig zu steuern, wie viel Ihres Besucher-Traffics die einzelnen Testvarianten sieht, und um die statistischen Schwellenwerte anzupassen, die für Ihr Unternehmen relevant sind.
 
 ## Erste Schritte
 
-Bereit zum Starten Ihrer ersten [!UICONTROL Auto-Allocate] -Aktivität? [Erfahren Sie, wie hier ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Sind Sie bereit, Ihre erste [!UICONTROL Auto-Allocate] zu starten? [Hier erfahren Sie mehr darüber](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
