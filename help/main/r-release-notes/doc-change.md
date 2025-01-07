@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 57%
+source-wordcount: '624'
+ht-degree: 55%
 
 ---
 
@@ -19,6 +19,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 7. Januar | [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Aktualisierung der [!UICONTROL Offers Library]-Benutzeroberfläche hinzugefügt (geplant für den 9. Januar 2025). Alle Artikel zu Angeboten wurden mit den Änderungen an der Benutzeroberfläche aktualisiert. |
 | 9. Dezember | [[!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | Folgende Einschränkung wurde hinzugefügt:<ul><li>Sie können das [!UICONTROL Button] Element für die Neuanordnung nicht auswählen.<P>[!UICONTROL Button] Elemente können nicht direkt zum Neuanordnen ausgewählt werden. Um die Neuanordnung zu ermöglichen, platzieren Sie Schaltflächen in einem größeren Container.</li></ul> |
 |  | [adobe.target.triggerView (ViewName, Optionen) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | Folgender Abschnitt wurde hinzugefügt:<ul><li>Beispiel: Beste Kompatibilität für `triggerView()` mit der Adobe Visual Editing Helper-Erweiterung</li></ul> |
 | 3. Dezember | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die bevorstehende Aktualisierung der [!UICONTROL Offers Library]-Benutzeroberfläche hinzugefügt. |

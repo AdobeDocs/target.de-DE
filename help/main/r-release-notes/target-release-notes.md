@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: Donnerstag, 11. Dezember 2024**
+**Letzte Aktualisierung: Mittwoch, 7. Januar 2025**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 Um das Benutzererlebnis für [!DNL Adobe Target] Benutzer zu verbessern, aktualisiert diese Version die [!UICONTROL Offers Library] Benutzeroberfläche. Mit dem neuesten [!DNL Adobe Spectrum]-Design-System standardisiert dieses Update inkonsistente Design-Muster und führt neue Verbesserungen ein, darunter die folgenden:
 
-* **Massenangebotsverwaltung**: Wählen Sie mehrere Angebote gleichzeitig aus und löschen Sie sie.
+* **Massenangebotsverwaltung**: Gleichzeitiges Auswählen und Löschen oder Verschieben mehrerer Angebote.
 
 * **[!UICONTROL Code Editor]Upgrades**: Aktualisierte HTML- und JSON-Editoren mit Syntaxhervorhebung und Zeilennummerierung.
 
@@ -36,6 +36,8 @@ Um das Benutzererlebnis für [!DNL Adobe Target] Benutzer zu verbessern, aktuali
 * **Persistente Suche und Filter**: Fügt Optionen für sitzungspersistente Suche und Filter hinzu.
 
 Ab dem 9. Januar 2025 erhalten alle [!DNL Target]-Kunden Zugriff auf die neue Benutzeroberfläche mit der Option, bei Bedarf zur aktuellen Version der Benutzeroberfläche zurückzukehren.
+
+Weitere Informationen finden Sie [Angebote](/help/main/c-experiences/c-manage-content/manage-content.md) und den Unterartikeln in diesem Abschnitt.
 
 Im Folgenden finden Sie ein kurzes Video zu den Änderungen in dieser Version:
 

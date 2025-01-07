@@ -1,13 +1,13 @@
 ---
 keywords: Inhaltsbibliothek;Assets;Suche;Filter
-description: Erfahren Sie, wie Sie in der Adobe-Angebotsbibliothek nach Code [!DNL Target]  und Bildangeboten suchen.
+description: Erfahren Sie, wie Sie in der [!UICONTROL Offers] nach Code- und Bildangeboten suchen.
 title: Wie kann ich in der Angebotsbibliothek nach Inhalten suchen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 8%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
@@ -18,40 +18,35 @@ Suchen nach Assets anhand von Keywords in der [!UICONTROL Offers] in [!DNL Adobe
 ## Nach Code-Angeboten nach Keyword suchen
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-1. Geben Sie die gewünschten Keywords in das [!UICONTROL Search] ein.
+1. Geben Sie die gewünschten Keywords in das **[!UICONTROL Search In]** ein.
 
-   Beachten Sie, dass Sie die Suche auch mithilfe der Dropdown-Listen [!UICONTROL Type] und [!UICONTROL Source] weiter verfeinern können.
+   Sie können die Dropdown-Liste verwenden, um nach [!UICONTROL Offer name], [!UICONTROL AEM Paths] oder [!UICONTROL AEM Tags] zu filtern.
+
+   Sie können auch mithilfe der Optionen [!UICONTROL Type], [!UICONTROL Source] und [!UICONTROL AEM Type] filtern, indem Sie auf das [!UICONTROL Show Filters]-Symbol ![Filtersymbol anzeigen](/help/main/assets/icons/Filter.svg) klicken, um Ihre Suche weiter zu verfeinern.
 
 ## Bildangebote nach Keyword suchen {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-1. (Optional) Um zwischen [!UICONTROL Card View] und [!UICONTROL List View] zu wechseln, klicken Sie auf das [!UICONTROL Card View] oder das [!UICONTROL List View] oben rechts in der Inhaltsbibliothek. Sie können [!UICONTROL View Settings] auch verwenden, um die Spalten beim Anzeigen der [!UICONTROL List View] weiter zu konfigurieren.
-
-   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL List View]:
-
-   ![Listenansichtsoptionen](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
-
-1. Klicken Sie auf das **[!UICONTROL Content Only]** oben links, um das Suchfeld anzuzeigen.
-
-   ![Option „Nur Inhalt](/help/main/c-experiences/c-manage-content/assets/content-only.png)
-
-1. Geben Sie in das Suchfeld ein Schlüsselwort für das Asset/die Assets ein, das oder die Sie finden möchten, und drücken Sie die Eingabetaste.
-
-1. (Optional) Verwenden Sie den **[!UICONTROL Filters and Options]**, um Ihre Suche weiter zu verfeinern.
-
-   ![Filter- und Optionsbereich](/help/main/c-experiences/c-manage-content/assets/filter-and-options.png)
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Card View] und [!UICONTROL List View] und klicken Sie auf das [!UICONTROL Card View]-Symbol ( ![Kartenansichtssymbol](/help/main/assets/icons/ViewCard.svg) ) oder das [!UICONTROL List View]-Symbol ( ![Listenansichtssymbol](/help/main/assets/icons/ViewList.svg) ) in der oberen rechten Ecke der [!UICONTROL Asset].
+1. Klicken Sie oben links auf das **[!UICONTROL Content Only]**-Symbol ![Content-](/help/main/assets/icons/RailLeft.svg)-Symbol ), um das Suchfeld anzuzeigen.
+1. Geben Sie im Suchfeld einen Suchbegriff für die Assets ein, die Sie suchen möchten, und drücken Sie dann [!UICONTROL Enter].
+1. (Bedingt) Verwenden Sie den **[!UICONTROL Filters & Options]** auf der linken Seite, um Ihre Suche zu verfeinern.
 
    Sie können nach folgenden Kriterien filtern:
 
-   * Dateityp: Bilder, Dokumente, Multimedia oder Archive.
-   * Dateigröße: Klein, Medium oder Groß
-   * Zuletzt geändert: Stunde, Tag, Woche, Monat oder Jahr.
-   * Genehmigungsstatus: Genehmigt oder abgelehnt.
-   * Ablaufstatus: Abgelaufen.
-   * Durchschnittsbewertung: 1 bis 5.
-   * Ausrichtung: Horizontal, Vertikal oder Quadrat.
-   * Stil: Farbe oder Schwarzweiß.
-   * Nutzungsbewertung: Minimum bis Maximum
-   * Impression Score: Minimum bis Maximum
-   * Klickpunktzahl: 1 bis 5.
+   * **[!UICONTROL File Type]**:
+      * [!UICONTROL Images]
+      * [!UICONTROL Documents]
+      * [!UICONTROL Multimedia]
+      * [!UICONTROL Archives]
+   * **[!UICONTROL File Size]**: Verwenden Sie den Schieberegler, um die gewünschte Dateigröße auszuwählen: [!UICONTROL Smallest], [!UICONTROL Small], [!UICONTROL Medium], [!UICONTROL Large] oder [!UICONTROL Largest].
+   * **[!UICONTROL Last Modified]**: Verwenden Sie den Schieberegler, um den Zeitraum auszuwählen: [!UICONTROL Recent], [!UICONTROL Hour], [!UICONTROL Day], [!UICONTROL Week], [!UICONTROL Month], [!UICONTROL Year] oder [!UICONTROL All Assets].
+   * **[!UICONTROL Approval Status]**: [!UICONTROL Approved] oder [!UICONTROL Rejected]
+   * **[!UICONTROL Expiry Status]**: [!UICONTROL Expired].
+   * **[!UICONTROL Average Rating]**: 1 bis 5.
+   * **[!UICONTROL Orientation]**: [!UICONTROL Horizontal], [!UICONTROL Vertical] oder [!UICONTROL Square].
+   * **[!UICONTROL Style]**: [!UICONTROL Color] oder [!UICONTROL Black & White].
+   * **[!UICONTROL Usage Score]**: [!UICONTROL Minimum] zu [!UICONTROL Maximum].
+   * **[!UICONTROL Impression Score]**: [!UICONTROL Minimum] zu [!UICONTROL Maximum].
+   * **[!UICONTROL Click Score]**: [!UICONTROL Minimum] zu [!UICONTROL Maximum].
