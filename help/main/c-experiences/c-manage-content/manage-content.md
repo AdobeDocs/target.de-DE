@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der [!UICONTR
 title: Wie verwalte ich Code- und Bildangebote?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 7%
+source-wordcount: '812'
+ht-degree: 8%
 
 ---
 
@@ -18,10 +18,6 @@ Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der [!UICONTROL Offers] in
 Um die [!UICONTROL Offers]-Bibliothek anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Offers]** oben in der [!DNL Target]-Benutzeroberfläche.
 
 ![Angebotsseite](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
-
->[!NOTE]
->
->In diesem Artikel wird die aktualisierte [!UICONTROL Offers]-Benutzeroberfläche dokumentiert, die am 9. Januar 2025 veröffentlicht wurde. Wenn Sie die veraltete [!UICONTROL Offers]-Benutzeroberfläche verwenden möchten, schalten Sie [!UICONTROL Switch to the Old Experience] auf „Ein“ um.
 
 Die [!UICONTROL Offers]-Bibliothek enthält Angebote, die über [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) und APIs eingerichtet wurden. In [!DNL Target Classic] oder anderen Lösungen erstellte Angebote lassen sich in [!DNL Target Standard/Premium] bearbeiten.
 

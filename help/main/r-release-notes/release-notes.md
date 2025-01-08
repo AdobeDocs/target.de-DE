@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 31%
+source-wordcount: '842'
+ht-degree: 32%
 
 ---
 
@@ -30,8 +30,6 @@ Um das Benutzererlebnis für [!DNL Adobe Target] Benutzer zu verbessern, aktuali
 * **Verbesserte Angebotskarten**: Verbesserte Karten für schnelle Informationen und Details für einen einfacheren Zugriff auf Informationen.
 
 * **Persistente Suche und Filter**: Fügt Optionen für sitzungspersistente Suche und Filter hinzu.
-
-Ab dem 9. Januar 2025 erhalten alle [!DNL Target]-Kunden Zugriff auf die neue Benutzeroberfläche mit der Option, bei Bedarf zur aktuellen Version der Benutzeroberfläche zurückzukehren.
 
 Weitere Informationen finden Sie [Angebote](/help/main/c-experiences/c-manage-content/manage-content.md) und den Unterartikeln in diesem Abschnitt.
 
