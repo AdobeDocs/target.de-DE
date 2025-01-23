@@ -4,10 +4,10 @@ description: Finden Sie heraus, warum manche Websites in [!UICONTROL Visual Expe
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 53%
+source-wordcount: '1043'
+ht-degree: 55%
 
 ---
 
@@ -22,8 +22,6 @@ Der VEC Helper-Browser ist eine [!DNL Chrome]. Diese Erweiterung ist bei Verwend
 >* Die in diesem Artikel dokumentierte veraltete [!DNL Target] VEC Helper-Erweiterung wurde mit Manifest V2 erstellt. [!DNL Google] hat angekündigt, dass mit Manifest V2 erstellte Erweiterungen ab Juni 2024 nicht mehr zulässig sind. Weitere Informationen finden Sie in der Ankündigung [Manifest v2-Unterstützung](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} von [!DNL Google] auf der *Chrome for Developers*-Site.
 >
 >* Ab Juni 2024 werden [!DNL Google] mit der Deaktivierung von Erweiterungen beginnen, die mit Manifest V2 erstellt wurden, einschließlich der in diesem Thema dokumentierten Erweiterung. [!DNL Adobe] empfiehlt Kundinnen und Kunden, so schnell wie möglich auf die neuere [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) umzusteigen.
->
->* Kunden und Kundinnen, die private Chrome Web Stores verwenden, sollten diese Erweiterungsversion weiterhin verwenden, bis die Unterstützung für diesen Anwendungsfall bis Ende Januar 2025 in der [neuen [!UICONTROL Visual Editing Helper]-](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)) implementiert ist.
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
