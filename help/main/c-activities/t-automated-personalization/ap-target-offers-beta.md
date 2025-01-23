@@ -8,9 +8,9 @@ solution: Target,Analytics
 hide: true
 hidefromtoc: true
 exl-id: 2897c4d1-116d-483c-8fc0-64857b9cbdaf
-source-git-commit: f934b575ed4aa094bef0a8da7953fa06a5e0cb43
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 19%
 
 ---
@@ -32,7 +32,7 @@ In diesem Szenario sieht Besucher 1 Angebot 1 (da dieser Besucher als Teil von Z
 
 ## Einrichten von Targeting-Regeln
 
-1. Erstellen Sie eine [Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität mit den Angeboten, die Sie ansprechen möchten.
+1. Erstellen oder bearbeiten Sie eine [Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität mit den Angeboten, die Sie ansprechen möchten.
 1. Nachdem Sie die Angebote für die Aktivität im [!UICONTROL Visual Experience Composer] eingerichtet haben, klicken Sie auf das **[!UICONTROL Manage Content]** ( ![Symbol „Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
 
    Das Dialogfeld [!UICONTROL Manage Content] wird angezeigt.

@@ -7,10 +7,10 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
-source-git-commit: f934b575ed4aa094bef0a8da7953fa06a5e0cb43
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
@@ -30,6 +30,6 @@ Da [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-Aktivitäten 
 
    Sie können Erlebnisse ausschließen, die widersprüchliche Varianten aufweisen oder optisch nicht ansprechend wirken.
 
-1. (Bedingt) Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken dann auf das **[!UICONTROL More Actions]**-Symbol ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben den Erlebnissen, die Sie ausschließen möchten, und klicken Sie dann auf **[!UICONTROL Exclude]**.
+1. (Bedingt) Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Exclude]**.
 
-1. (Bedingt) Um mehrere ausgeschlossene Erlebnisse einzubeziehen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken dann auf das **[!UICONTROL More Actions]**-Symbol ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben den Erlebnissen, die Sie einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Include]**.
+1. (Bedingt) Um mehrere ausgeschlossene Erlebnisse einzubeziehen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Include]**.
