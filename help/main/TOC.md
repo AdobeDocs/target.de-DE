@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [Erlebnis-Targeting – Überblick](c-activities/t-experience-target/experience-target.md)
       + Erstellen einer Erlebnis-Targeting-Aktivität {#create-targeting}
          + [Erstellen Sie eine Aktivität](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Erstellen einer Beta-Aktivität](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [Aktivitäts-URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [Aktivitäts-URL - Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Erstellen Sie ein Erlebnis](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Experience Beta erstellen](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Wechsel zwischen Erlebnissen in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Wechsel zwischen Erlebnissen in der Experience Targeting-Beta-Version](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Ziele und Einstellungen](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Festlegen von Metriken](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Multivarianz-Test {#multivariate-test}

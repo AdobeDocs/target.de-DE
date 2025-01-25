@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,12 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
    * [Vorschau von Erlebnissen in Automated Personalization-Aktivitäten im Visual Experience Composer (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Targeting von Automated Personalization-Angeboten](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Berichtsgruppen für Angebote in der Automated Personalization-Beta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [Wählen Sie das Steuerelement für Ihre Automated Personalization-Aktivität oder die automatische Targeting-Beta-Aktivität aus](c-activities/t-automated-personalization/experience-as-control-beta.md)
+   * [Wählen Sie das Steuerelement für Ihre Automated Personalization- oder automatische Targeting-Beta-Aktivität aus.](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* Experience Targeting (XT)-{#xt}
+   * [Erstellen einer Beta-Aktivität](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [Aktivitäts-URL - Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [Experience Beta erstellen](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [Wechsel zwischen Erlebnissen in der Experience Targeting-Beta-Version](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 

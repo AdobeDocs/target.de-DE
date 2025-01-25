@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie [!UICONTROL Experience Targeting] (XT)-Aktivi
 title: Was ist eine [!UICONTROL Experience Targeting] (XT)-Aktivität?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 46%
+source-wordcount: '432'
+ht-degree: 40%
 
 ---
 
@@ -40,13 +40,3 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Experience T
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### Aktivitätstypen (9:03)
-
-In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Experience Targeting] wird ab 05:15 besprochen.
-
-* Beschreiben der Aktivitätstypen in [!DNL Target]
-* Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
-* Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)
