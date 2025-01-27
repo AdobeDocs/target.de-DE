@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c57e47f026e7eb597b92a12fb984596beb4486d
+source-git-commit: e61bc64f70c0624f8f9e241d5f5b82c4c9d6735d
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 14%
@@ -43,13 +43,13 @@ Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert da
 
 ![Aktivitäten aktualisieren](/help/main/r-release-notes/assets/activities-refresh.png)
 
-## Aktualisierung der [!DNL Recommendations]-Benutzeroberfläche (7. Februar 2025)
+## Aktualisierung der [!DNL Recommendations]-Benutzeroberfläche (6. Februar 2025)
 
 Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche freuen wir uns, die allgemeine Verfügbarkeit der aktualisierten [!DNL Recommendations]-Benutzeroberfläche bekannt geben zu können.
 
 >[!NOTE]
 >
->Ab Donnerstag, dem 7. Februar, haben Kunden schrittweise Zugriff auf die neue [!UICONTROL Recommendations]-Benutzeroberfläche. Um einen nahtlosen Rollout für alle Kunden sicherzustellen, wird diese Version in kontrollierten Phasen bereitgestellt. In der ersten Phase wird die ursprüngliche Gruppe [!DNL Target] Kunden auf die neue [!UICONTROL Activities]-Benutzeroberfläche aktualisiert. In nachfolgenden Phasen werden die verbleibenden Kunden aktualisiert.
+>Ab Mittwoch, dem 6. Februar, haben Kunden schrittweise Zugriff auf die neue [!UICONTROL Recommendations]-Benutzeroberfläche. Um einen nahtlosen Rollout für alle Kunden sicherzustellen, wird diese Version in kontrollierten Phasen bereitgestellt. In der ersten Phase wird die ursprüngliche Gruppe [!DNL Target] Kunden auf die neue [!UICONTROL Activities]-Benutzeroberfläche aktualisiert. In nachfolgenden Phasen werden die verbleibenden Kunden aktualisiert.
 
 Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
 
