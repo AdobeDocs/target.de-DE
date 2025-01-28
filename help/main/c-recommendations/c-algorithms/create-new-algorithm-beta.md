@@ -7,7 +7,7 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -90,6 +90,43 @@ Die restlichen Konfigurationsoptionen für den Algorithmus variieren je nach aus
 
 Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht ](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
+
+1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Partial Design Rendering]** in die Position „Ein“.
+
+   Es werden so viele Steckplätze wie möglich belegt, aber die Design-Vorlage enthält möglicherweise Leerzeichen für die verbleibenden Steckplätze. Wenn diese Option deaktiviert ist und nicht genügend Inhalt vorhanden ist, um alle verfügbaren Slots zu füllen, werden keine Empfehlungen bereitgestellt und stattdessen Standardinhalte angezeigt.
+
+   Aktivieren Sie diese Option, wenn Empfehlungen mit leeren Slots bereitgestellt werden sollen. Verwenden Sie Sicherungsempfehlungen, wenn Sie möchten, dass Empfehlungs-Slots basierend auf Ihren Kriterien mit Inhalten gefüllt werden, wobei leere Slots mit ähnlichen oder beliebten Inhalten von Ihrer Site gefüllt werden, wie im nächsten Schritt erläutert.
+
+1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Show Backup Content]** in die Position „Ein“.
+
+   Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
+
+   Durch die Verwendung von Sicherungsempfehlungen wird sichergestellt, dass Ihr Empfehlungsentwurf alle verfügbaren Steckplätze ausfüllt. Angenommen, Sie haben ein 4 x 1-Design, wie unten dargestellt:
+
+   ![4 x 1 Design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   Angenommen, Ihre Kriterien führen dazu, dass nur zwei Elemente empfohlen werden. Wenn Sie die Option [!UICONTROL Partial Design Rendering] aktivieren, werden die ersten beiden Steckplätze belegt, aber die beiden verbleibenden Steckplätze bleiben leer. Wenn Sie jedoch die Option [!UICONTROL Show Backup Recommendations] aktivieren, werden die ersten beiden Slots auf der Grundlage Ihrer angegebenen Kriterien und die verbleibenden zwei Slots auf der Grundlage Ihrer Backup-Empfehlungen gefüllt.
+
+   Die folgende Matrix zeigt das Ergebnis, das Sie bei Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Backup Content] sehen werden:
+
+   | Teilweises Entwurfs-Rendering | Backup-Inhalt | Ergebnis |
+   |--- |--- |--- |
+   | Deaktiviert | Deaktiviert | Wenn weniger Empfehlungen zurückgegeben werden als im Entwurf vorgesehen, wird der Empfehlungsentwurf durch Standardinhalte ersetzt und es erscheinen keine Empfehlungen. |
+   | Aktiviert | Deaktiviert | Der Entwurf wird gerendert, kann jedoch leere Positionen enthalten, falls weniger Empfehlungen zurückgegeben werden, als im Entwurf vorgesehen. |
+   | Aktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf nur teilweise gerendert.<br>In dem Fall, dass die Kriterien keine Empfehlungen zurückgeben und die Einschlussregeln die Ersatzempfehlungen auf null reduzieren, wird der Entwurf durch Standardinhalte ersetzt. |
+   | Deaktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf durch Standardinhalte ersetzt und es werden keine Empfehlungen angezeigt. |
+
+   Weitere Informationen finden Sie unter [Verwenden einer Sicherungsempfehlung](/help/main/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (Bedingt) Wenn Sie im vorherigen Schritt **[!UICONTROL Show Backup Content]** ausgewählt haben, können Sie **[!UICONTROL Apply inclusion rules to backup recommendations]** aktivieren.
+
+   Einschlussregeln bestimmen, welche Elemente in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
+
+   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. Wählen Sie die gewünschte **[!UICONTROL Behavioral Data Source]** aus: [!UICONTROL Adobe Target] oder [!UICONTROL Analytics].
@@ -129,43 +166,6 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden S
    | Zwei Woche | Algorithmus wird alle 24-48 Stunden ausgeführt | <ul><li>[!UICONTROL Popularity-Based] Algorithmen</li><li>[!UICONTROL Item-Based] Algorithmen</li><li>Alle [!UICONTROL User-Based]</li><li>[!UICONTROL Cart-Based] Algorithmen</li></ul> |
    | Ein Monat (30 Tage) | Algorithmus wird alle 24-48 Stunden ausgeführt | <ul><li>[!UICONTROL Popularity-Based] Algorithmen</li><li>[!UICONTROL Item-Based] Algorithmen</li><li>[!UICONTROL User-Based] Algorithmen</li><li>[!UICONTROL Cart-Based] Algorithmen</li></ul> |
    | Zwei Monate (61 Tage) | Algorithmus wird alle 24-48 Stunden ausgeführt | <ul><li>[!UICONTROL Popularity-Based] Algorithmen</li><li>[!UICONTROL Item-Based] Algorithmen</li><li>[!UICONTROL User-Based] Algorithmen</li><li>[!UICONTROL Cart-Based] Algorithmen</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht ](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
-
-1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Partial Design Rendering]** in die Position „Ein“.
-
-   Es werden so viele Steckplätze wie möglich belegt, aber die Design-Vorlage enthält möglicherweise Leerzeichen für die verbleibenden Steckplätze. Wenn diese Option deaktiviert ist und nicht genügend Inhalt vorhanden ist, um alle verfügbaren Slots zu füllen, werden keine Empfehlungen bereitgestellt und stattdessen Standardinhalte angezeigt.
-
-   Aktivieren Sie diese Option, wenn Empfehlungen mit leeren Slots bereitgestellt werden sollen. Verwenden Sie Sicherungsempfehlungen, wenn Sie möchten, dass Empfehlungs-Slots basierend auf Ihren Kriterien mit Inhalten gefüllt werden, wobei leere Slots mit ähnlichen oder beliebten Inhalten von Ihrer Site gefüllt werden, wie im nächsten Schritt erläutert.
-
-1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Show Backup Content]** in die Position „Ein“.
-
-   Füllen Sie alle verbleibenden leeren Slots im Design mit einer zufälligen Auswahl der am häufigsten angezeigten Produkte aus Ihrer gesamten Site.
-
-   Durch die Verwendung von Sicherungsempfehlungen wird sichergestellt, dass Ihr Empfehlungsentwurf alle verfügbaren Steckplätze ausfüllt. Angenommen, Sie haben ein 4 x 1-Design, wie unten dargestellt:
-
-   ![4 x 1 Design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   Angenommen, Ihre Kriterien führen dazu, dass nur zwei Elemente empfohlen werden. Wenn Sie die Option [!UICONTROL Partial Design Rendering] aktivieren, werden die ersten beiden Steckplätze belegt, aber die beiden verbleibenden Steckplätze bleiben leer. Wenn Sie jedoch die Option [!UICONTROL Show Backup Recommendations] aktivieren, werden die ersten beiden Slots auf der Grundlage Ihrer angegebenen Kriterien und die verbleibenden zwei Slots auf der Grundlage Ihrer Backup-Empfehlungen gefüllt.
-
-   Die folgende Matrix zeigt das Ergebnis, das Sie bei Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Backup Content] sehen werden:
-
-   | Teilweises Entwurfs-Rendering | Backup-Inhalt | Ergebnis |
-   |--- |--- |--- |
-   | Deaktiviert | Deaktiviert | Wenn weniger Empfehlungen zurückgegeben werden als im Entwurf vorgesehen, wird der Empfehlungsentwurf durch Standardinhalte ersetzt und es erscheinen keine Empfehlungen. |
-   | Aktiviert | Deaktiviert | Der Entwurf wird gerendert, kann jedoch leere Positionen enthalten, falls weniger Empfehlungen zurückgegeben werden, als im Entwurf vorgesehen. |
-   | Aktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf nur teilweise gerendert.<br>In dem Fall, dass die Kriterien keine Empfehlungen zurückgeben und die Einschlussregeln die Ersatzempfehlungen auf null reduzieren, wird der Entwurf durch Standardinhalte ersetzt. |
-   | Deaktiviert | Aktiviert | Ersatzempfehlungen erscheinen an solchen leeren Positionen und vervollständigen den Entwurf.<br>Sollte die Anwendung von Einschlussregeln auf die Ersatzempfehlungen die Anzahl an geeigneten Ersatzempfehlungen so stark einschränken, dass der Entwurf nicht vervollständigt werden kann, wird der Entwurf durch Standardinhalte ersetzt und es werden keine Empfehlungen angezeigt. |
-
-   Weitere Informationen finden Sie unter [Verwenden einer Sicherungsempfehlung](/help/main/c-recommendations/c-algorithms/backup-recs.md).
-
-1. (Bedingt) Wenn Sie im vorherigen Schritt **[!UICONTROL Show Backup Content]** ausgewählt haben, können Sie **[!UICONTROL Apply inclusion rules to backup recommendations]** aktivieren.
-
-   Einschlussregeln bestimmen, welche Elemente in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
-
-   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
 
 ## Ähnlichkeit von Inhalten {#similarity}
 

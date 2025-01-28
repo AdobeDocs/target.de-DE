@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ Elementbeschreibungen können über Feeds oder Mboxes an [!DNL Target] übergebe
 
 Die [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) enthält Informationen zu allen Feeds, die Sie erstellt haben.
 
-![Feeds-Seite](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 Die [!UICONTROL Feeds] enthält die folgenden Spalten:
 
 * **Name**: Der Name des beim Erstellen angegebenen Feeds. Um den Namen eines Feeds zu bearbeiten, müssen Sie den Feed bearbeiten. Wenn Sie den Feed unter dem neuen Namen speichern, wird der Feed aktualisiert.
@@ -48,11 +46,11 @@ Die [!UICONTROL Feeds] enthält die folgenden Spalten:
 * **Zeitplan**: Zeigt den Aktualisierungsplan für den Feed an: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] oder [!UICONTROL Never].
 * **Zuletzt aktualisiert**: Zeigt das Datum und die Uhrzeit der letzten Aktualisierung des Feeds sowie den Namen der Person an, die den Feed aktualisiert hat.
 
-Klicken Sie auf das [!UICONTROL Customize Table] ( ![Symbol „Tabelle anpassen](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) ), um die anzuzeigenden Spalten auszuwählen oder die Auswahl aufzuheben.
+Klicken Sie auf das [!UICONTROL Customize Table] ( ![Symbol „Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ), um die anzuzeigenden Spalten auszuwählen oder die Auswahl aufzuheben.
 
-Klicken Sie auf das Symbol [!UICONTROL Information] , um eine Karte mit dem Datum des letzten Uploads und der URL des Feeds anzuzeigen.
+Klicken Sie auf das [!UICONTROL Information]-Symbol ![Infosymbol](/help/main/assets/icons/InfoOutline.svg) ), um eine Karte mit dem letzten Upload-Datum und der URL des Feeds anzuzeigen.
 
-Klicken Sie auf das Symbol mit den Auslassungspunkten, um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] und [!UICONTROL Delete].
+Klicken Sie auf das Symbol [!UICONTROL More Actions] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ), um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] und [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
-   ![Erstellen eines Feed-Dialogfelds](assets/CreateFeed.png)
-
 1. Geben Sie einen beschreibenden Namen für Ihren Feed an.
 1. **[!UICONTROL Source Type]** auswählen.
 
@@ -261,8 +257,6 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Schedule] anzuzeigen.
 
-   ![Schrittergebnis](assets/CreateFeedSchedule.png)
-
 1. Wählen Sie eine Aktualisierungsoption aus:
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    Diese Option basiert auf der Zeitzone, die in Ihrem Browser verwendet wird. Wenn Sie einen Zeitpunkt in einer anderen Zeitzone verwenden möchten, müssen Sie diesen Zeitpunkt anhand Ihrer Zeitzone berechnen.
 
 1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Mapping] Optionen anzuzeigen, und geben Sie dann an, wie Sie Ihre Daten [!DNL Target] Definitionen zuordnen möchten.
-
-   ![Schrittergebnis](assets/CreatFeedMapping.png)
 
 1. (Optional) Wenn der Feed einer Umgebung (Hostgruppe) zugeordnet werden soll, wählen Sie die Hostgruppe aus.
 

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 76%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 76%
    + Design {#recommendations-design}
       + [Designübersicht](c-recommendations/c-design-overview/design-overview.md)
       + [Erstellen eines Designs](c-recommendations/c-design-overview/create-design.md)
-      + [Erstellen eines Designs](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [Erstellen einer Design-Beta-Version](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Häufig gestellte Fragen: Entwürfe](c-recommendations/c-design-overview/template-faq.md)
       + [Anpassen eines Designs mithilfe von Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Aktivität {#recommendations-activity}
       + [Erstellen einer Recommendations-Aktivität](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Erstellen einer Beta-Aktivität in Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [Kriterienauswahl](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [Kriterien für die Beta-Version auswählen](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Hinzufügen von Promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Einstellungen für Recommendations-Aktivitäten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Vorschau und Starten Ihrer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,13 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Upload CSV]** den **[!UICONTROL Location]** Ihrer CSV-Datei aus.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL Download the CSV template]** , um eine korrekt formatierte CSV-Datei zu erhalten.
 
-   Es gibt für Orte zwei Optionen:
+Es gibt für Orte zwei Optionen:
 
-   * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
-
-     ![FTP-Option zum Hochladen einer CSV-Datei](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
+    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
+    
+    * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

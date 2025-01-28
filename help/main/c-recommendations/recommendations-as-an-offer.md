@@ -5,10 +5,10 @@ title: Wie verwende ich Recommendations als Angebot in anderen Aktivitätstypen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 59%
+source-wordcount: '507'
+ht-degree: 60%
 
 ---
 
@@ -33,11 +33,9 @@ Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience 
    >
    >Denken Sie bei A/B-Tests daran, dass Sie die Option [Automatisierte Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) wählen können, um Traffic automatisch an die leistungsschwächsten Empfehlungen oder die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) zu leiten, um Besuchern benutzerspezifische Empfehlungserlebnisse basierend auf ihrem Profil zuzuweisen.
 
-1. Klicken Sie beim Erstellen [Erlebnisses](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung als Angebot hinzufügen möchten, wählen Sie die **[!UICONTROL Insert Before]**-, **[!UICONTROL Insert After]**- oder **[!UICONTROL Replace With]**-Aktion aus und klicken Sie dann auf [!UICONTROL Recommendation].
+1. Klicken Sie beim Erstellen [Erlebnisses](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung als Angebot hinzufügen möchten, klicken Sie auf **[!UICONTROL Replace Content]** und wählen Sie dann **[!UICONTROL Recommendation]** aus.
 
-   Die folgende Abbildung zeigt die Option [!UICONTROL Insert After > Recommendation] .
-
-   ![Empfehlung als Angebot einfügen](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![Empfehlung als Angebot einfügen](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. Wählen Sie aus den folgenden Optionen aus, um beliebte Empfehlungskriterien nach Seitentyp anzuzeigen:
 

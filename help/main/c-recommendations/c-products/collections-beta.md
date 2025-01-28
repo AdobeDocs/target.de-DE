@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '693'
 ht-degree: 26%
 
 ---
@@ -42,15 +42,11 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** , um die Liste der vorhandenen Sammlungen anzuzeigen.
 
-   ![Sammlungsliste](assets/collections-list.png)
-
-   Auf der Seite [!UICONTROL Collections] wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Durch Klicken auf die Schaltfläche [!UICONTROL Create Collection] erstellen Sie neue Sammlungen. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Auslassungssymbol neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
+   Auf der Seite [!UICONTROL Collections] wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Durch Klicken auf die Schaltfläche [!UICONTROL Create Collection] erstellen Sie neue Sammlungen. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
 
    Die „Anzahl der Elemente“, die für jede Sammlung in der [!UICONTROL Collections] Listenansicht gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die Standard-Hostgruppe zu ändern.
 
 1. Klicken Sie auf **[!UICONTROL Create Collection]**.
-
-   ![Sammlung erstellen](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Geben Sie einen **[!UICONTROL Name]** für die Sammlung ein.
 
@@ -80,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Bearbeiten, Kopieren oder Löschen einer Sammlung
 
-Klicken Sie auf **Auslassungssymbol** neben der gewünschten Sammlung in der Liste und dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
-
-![Mauszeiger-Symbole: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+Klicken Sie auf ![ ( Symbol „Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung in der Liste und klicken Sie dann auf das entsprechende Symbol: [!UICONTROL Edit], [!UICONTROL Copy] oder [!DNL Delete].
 
 Sie können eine vorhandene Sammlung kopieren, um eine doppelte Sammlung zu erstellen, die Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand eine ähnliche Sammlung erstellen.
 
@@ -96,8 +90,4 @@ Beachten Sie, dass Sammlungen im gesamten Konto verfügbar sind. Berücksichtige
 
 1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die [!UICONTROL Options] angezeigt, auf der Sie die gewünschte Sammlung auswählen können.
 
-   ![Sammlungsoption auswählen](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. (Bedingt) Um eine vorhandene Sammlungseinstellung zu ändern, klicken Sie auf der **[!UICONTROL Experiences]** Seite (Schritt 2 des dreiteiligen geleiteten Workflows) auf eine Stelle, an der Sie Empfehlungen platziert haben, klicken Sie auf **[!UICONTROL Change Collection]** und wählen Sie dann die gewünschte Sammlung aus.
-
-   ![Option „Sammlung ändern“](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. (Bedingt) Um eine vorhandene Sammlungseinstellung zu ändern, klicken Sie auf der **[!UICONTROL Experiences]** (Schritt 1 des dreiteiligen geleiteten Workflows) auf eine Stelle, an der Sie Empfehlungen platziert haben, klicken Sie auf **[!UICONTROL Change Collection]** und wählen Sie dann die gewünschte Sammlung aus.

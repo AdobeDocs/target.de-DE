@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: d97db163-62ef-4c6b-b0f7-e7e481073cc7
-source-git-commit: 342c70d0f0c69da920596623a34497520c6cd535
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 20%
+source-wordcount: '979'
+ht-degree: 19%
 
 ---
 
@@ -46,13 +46,11 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** , um die [!UICONTROL Designs]-Bibliothek anzuzeigen.
 
 
-1. Bewegen Sie den Mauszeiger über die Karte für das Design, das Sie erstellen möchten, und klicken Sie dann auf das **[!UICONTROL Copy]**.
-
-   ![Card_CopyDesign-Bild](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
+1. Klicken Sie auf das Symbol Mehr Aktionen ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf **[!UICONTROL Copy]**.
 
    Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
 
-1. Fügen Sie im **[!UICONTROL Information]** Bedienfeld ein **[!UICONTROL Content Name]** und ein optionales Vorschaubild hinzu, die auf der Designkarte angezeigt werden sollen.
+1. Geben Sie einen **[!UICONTROL  Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
 
    Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld &quot;**[!UICONTROL Content Name]**&quot; angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
 
@@ -66,7 +64,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
    >
    >Die maximale Anzahl von Entitäten, auf die in einem Design verwiesen werden kann, egal ob hartcodiert oder in Schleife, beträgt 99.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 ### Erstellen eines benutzerdefinierten Entwurfs
 
@@ -74,21 +72,21 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
 1. Klicken Sie auf **[!UICONTROL Create Design]**.
 
-   Wenn Sie Ihr neues benutzerdefiniertes Design auf einem vorhandenen Design basieren möchten, bewegen Sie den Mauszeiger über das gewünschte Design und klicken Sie dann auf das Symbol [!UICONTROL Copy] . Anschließend können Sie die Kopie bearbeiten, um ein neues benutzerdefiniertes Design zu erstellen.
+   Wenn Sie Ihr neues benutzerdefiniertes Design auf einem vorhandenen Design basieren möchten, klicken Sie auf das [!UICONTROL More Actions] ( ![Mehr Aktionen-](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf [!UICONTROL Copy]. Anschließend können Sie die Kopie bearbeiten, um ein neues benutzerdefiniertes Design zu erstellen.
 
-1. Fügen Sie eine **[!UICONTROL Content Name]** und ein optionales Vorschaubild hinzu.
+1. Fügen Sie eine **[!UICONTROL Name]** und ein optionales Vorschaubild hinzu.
 
 1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** nach Bedarf.
 
    Weitere Informationen finden Sie in den Informationen in Schritt 4 oben.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 ## Bearbeiten, Kopieren oder Löschen eines Designs
 
 Beachten Sie, dass Sie ein Standarddesign nicht bearbeiten oder kopieren können; Sie können nur Standarddesigns kopieren.
 
-Bewegen Sie den Mauszeiger über das gewünschte Design in der [!UICONTROL Design]-Bibliothek und klicken Sie dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
+Klicken Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie bearbeiten oder löschen möchten, und klicken Sie dann auf das entsprechende Symbol: [!UICONTROL Edit], [!UICONTROL Copy] oder [!UICONTROL Delete].
 
 Sie können einen vorhandenen Entwurf kopieren, um einen doppelten Entwurf zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand ein ähnliches Design erstellen.
 

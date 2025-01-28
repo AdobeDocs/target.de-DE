@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '496'
+ht-degree: 6%
 
 ---
 
@@ -35,8 +35,6 @@ Andere Kriterienoptionen ändern sich je nach ausgewählter Branchen-Vertikale. 
 ## Algorithmentyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen.
-
-![Kriterienseite](assets/criteria-page-new.png)
 
 In der folgenden Tabelle werden die verschiedenen Algorithmustypen und die zugehörigen Algorithmen erläutert.
 
@@ -76,11 +74,9 @@ Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den e
 
 Sie können Details zu den Kriterien anzeigen, indem Sie auf die gewünschten Kriterien in der Spalte [!UICONTROL Name] klicken.
 
-![Bewegen des Mauszeigers über die Kriterienkarte](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+In den Abschnitten **[!UICONTROL Attributes]** und Details können Sie allgemeine Informationen zu den ausgewählten Kriterien anzeigen, einschließlich der [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] und zuletzt geänderten Informationen (Datum und wer hat den Algorithmus geändert).
 
-Auf der Registerkarte **[!UICONTROL Algorithm Info]** können Sie allgemeine Informationen zu den ausgewählten Kriterien anzeigen, einschließlich [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] und zuletzt geänderter Informationen (Datum und wer hat den Algorithmus geändert).
-
-Im Abschnitt **[!UICONTROL Algorithm Usage]** können Sie eine Liste der Aktivitäten anzeigen, die auf die ausgewählten Kriterien verweisen.
+Im Abschnitt **[!UICONTROL Usage]** können Sie eine Liste der Aktivitäten anzeigen, die auf die ausgewählten Kriterien verweisen.
 
 >[!NOTE]
 >

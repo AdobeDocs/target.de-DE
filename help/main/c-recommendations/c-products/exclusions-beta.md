@@ -6,10 +6,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -37,23 +37,17 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** , um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
-   ![exclusions_list image](assets/exclusions-list.png)
-
    Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht gemeldete „Anzahl der Elemente“ ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [ Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
 
-1. (Bedingt) Klicken Sie auf das Symbol [!UICONTROL Filter] und wählen Sie dann aus der Dropdown-Liste **[!UICONTROL Environment]** die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus, während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Inhalts des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
-
-   ![Ausschluss erstellen](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Bedingt) Klicken Sie auf das **[!UICONTROL Show Filters]**-Symbol ( ![Filtersymbol anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Environment]** aus, während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Inhalts des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Create Exclusion]**.
-
-   ![Dialogfeld „Ausschluss erstellen“](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. Geben Sie einen **[!UICONTROL Name]** ein und geben Sie eine optionale Beschreibung ein.
 
 1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
 
-   Wählen Sie aus der Regelliste einen Parameter aus, wählen Sie einen Operator und geben Sie dann einen oder mehrere Werte ein, anhand derer die Produkte identifiziert werden sollen. Trennen Sie mehrere Werte durch Kommas.
+   Wählen Sie einen Parameter in der Liste &quot;[!UICONTROL Rules]&quot; aus, wählen Sie einen Benutzer aus und geben Sie dann einen oder mehrere Werte ein, um die Produkte zu identifizieren. Trennen Sie mehrere Werte durch Kommas.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -71,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Bearbeiten, Kopieren oder Löschen eines Ausschlusses
 
-Klicken Sie auf **Auslassungssymbol** neben dem gewünschten Ausschluss in der Liste und dann auf das entsprechende Symbol: Bearbeiten, Kopieren oder Löschen.
-
-![Optionen: Bearbeiten, Kopieren und Löschen](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben dem gewünschten Ausschluss in der Liste und dann auf das entsprechende Symbol: [!UICONTROL Edit], [!UICONTROL Copy] oder [!UICONTROL Delete].
 
 Sie können einen vorhandenen Ausschluss kopieren, um einen doppelten Ausschluss zu erstellen, den Sie dann ändern können. Mit dieser Option können Sie mit weniger Aufwand einen ähnlichen Ausschluss erstellen.
 
