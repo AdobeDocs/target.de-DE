@@ -5,10 +5,10 @@ title: Was sind Umgebungen und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 46%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ Eine Umgebung, die Standardumgebung, ist [!UICONTROL Production] vorbenannt. Die
 Wenn eine [!DNL Target] Anfrage von neuen Websites oder Domains empfangen wird, erscheinen diese neuen Domains immer in der [!UICONTROL Production]. Die Einstellungen der [!UICONTROL Production]-Umgebung können nicht geändert werden, sodass unbekannte oder neue Sites garantiert nur aktive und fertige Inhalte sehen. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
 
 Um Umgebungen zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
-
-![Umgebungsliste](/help/main/administrating-target/assets/environments.png)
 
 ## Hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
 

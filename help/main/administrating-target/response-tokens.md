@@ -5,9 +5,9 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -40,8 +40,6 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![response_tokens-new image](assets/response_tokens-new.png)
-
 1. Aktivieren Sie die gewünschten Antwort-Token, z. B. `activity.id` und `offer.id`.
 
    Die folgenden Parameter sind standardmäßig verfügbar:
@@ -71,8 +69,6 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 1. (Bedingt) Um einen Profilparameter als Antwort-Token zu verwenden, der Parameter jedoch nicht über eine [!DNL Target]-Anfrage weitergeleitet wurde und daher nicht in die [!DNL Target]-Benutzeroberfläche geladen wurde, können Sie die Schaltfläche [!UICONTROL Add Response Token] verwenden, um das Profil zur Benutzeroberfläche hinzuzufügen.
 
    Klicken Sie auf **[!UICONTROL Add Response Token]**, geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Activate]**.
-
-   ![RESPONSE_TOKEN_CREATE IMAGE](assets/response_token_create.png)
 
 1. Erstellen Sie eine Aktivität.
 

@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -192,18 +192,12 @@ Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL 
 
 * **Dropdown-Liste &quot;Workspace&quot; (Produktprofil):** Die Dropdown-Liste &quot;Workspace&quot; wird oben auf den Seiten &quot;[!UICONTROL Activities]&quot;, &quot;[!UICONTROL Audiences]&quot; und &quot;[!UICONTROL Offers]&quot; angezeigt. Wählen Sie den gewünschten Arbeitsbereich aus, um die Liste zu filtern und nur die Elemente des ausgewählten Arbeitsbereichs anzuzeigen.
 
-  ![workspace_drop-down image](assets/workspace_drop-down.png)
-
 * **Aktivitätserstellung** Wenn Sie eine Aktivität erstellen, wird sie im aktuell ausgewählten Arbeitsbereich erstellt. Im ersten Dialogfeld werden Optionen zur Kanalauswahl angezeigt, über die Sie den gewünschten Kanal für die Aktivität auswählen können: Web, Mobile App, E-Mail oder Sonstige/API.
-
-  ![channel_options Bild](assets/channel_options.png)
 
 * **Zielgruppenerstellung:** Sie eine Zielgruppe erstellen, wird sie im aktuell ausgewählten Arbeitsbereich erstellt.
 * **Audience-Liste:** Mithilfe der Option [!UICONTROL More Actions] > [!DNL Move] auf der [!UICONTROL Audiences] können Sie Audiences zwischen Arbeitsbereichen verschieben.
 * **Angebotserstellung:** Wenn Sie ein Angebot erstellen, wird es im aktuell ausgewählten Arbeitsbereich erstellt.
 * **Eigenschaftenseite (Administration > Eigenschaften):** Sie können das [!UICONTROL Search] verwenden, um die [!UICONTROL Property] zu durchsuchen.
-
-  ![properties_list image](assets/properties_list.png)
 
 ## Einschränkungen  {#section_9714311B1CD9497A86F4910F8AE635E2}
 

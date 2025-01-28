@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 51%
+source-wordcount: '415'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,13 @@ Verwenden Sie diese Links, um auf die aktualisierte Dokumentation als Teil des B
 >Das [!DNL Adobe Target]-Team bietet ausgewählten Kunden häufig neue Funktionen zu Test- und Feedback-Zwecken. Nach Abschluss des Testzeitraums werden diese Funktionen für alle Kunden in zukünftigen [!DNL Target]-Versionen aktiviert und in den Versionshinweisen angekündigt.
 >
 >Die Informationen in diesen Artikeln werden häufig ohne Vorankündigung während des Beta-Programms aktualisiert.
+
+## Administrations-
+
++++Zum Erweitern klicken
+
+* [Verwaltung der Target-Übersichts-Betaversion](administrating-target/administrating-target-beta.md)
++++
 
 ## Aktivitäten
 

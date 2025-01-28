@@ -5,9 +5,9 @@ title: Wie kann ich für ein  [!DNL Target Standard] -Konto Benutzende hinzufüg
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ Admin-Benutzer sind in der [!UICONTROL Users]-Liste aufgeführt. Kontaktieren Si
 Sie können eine Liste Ihrer aktuellen Benutzenden auf der [!DNL Target]-Benutzeroberfläche anzeigen, einschließlich der Rollen pro Arbeitsbereich und E-Mail-Adressen.
 
 Um die [!UICONTROL Users] anzuzeigen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
-
-![Benutzerliste in Target](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 1. [Klicken Sie in ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) Admin Console auf **[!UICONTROL Products]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
-   ![Registerkarte „Produkte“](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. Klicken Sie auf den gewünschten Arbeitsbereich (z. B. Standardarbeitsbereich).
-
-   ![Standardarbeitsbereich](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    Auf der Registerkarte [!UICONTROL Users] werden alle Benutzenden in diesem Arbeitsbereich angezeigt.
 
-   ![Konfigurationsbenutzer](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. Wählen Sie das gewünschte Berechtigungsniveau ([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] oder [!UICONTROL Publisher]) aus, indem Sie in der [!UICONTROL Product Role] Spalte das entsprechende Dropdown-Menü nutzen.
-
-   ![Dropdownliste „Produktrolle“](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rolle | Beschreibung |
    |--- |--- |
