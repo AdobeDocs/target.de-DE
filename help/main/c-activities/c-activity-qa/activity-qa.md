@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] QA-URLs eine einfache
 title: Wie führe ich QA-Aktivitäten aus?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 27%
 
 ---
@@ -31,11 +31,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 
 1. Klicken Sie auf der [!UICONTROL Overview] einer Aktivität auf **[!UICONTROL Activity QA]**.
 
-   ![Link „Aktivitäts-QA“](assets/qa_link.png)
-
 1. Konfigurieren Sie die folgenden Einstellungen:
-
-   ![Konfigurationsoptionen für QA-Links](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** Manchmal möchten Sie bestätigen, dass der Abgleich Ihrer Zielgruppe funktioniert. Andernfalls möchten Sie das Erscheinungsbild der Aktivität überprüfen. Wenn sich diese Einstellung in der Stellung „ein“ befindet, müssen Tester die Targeting-Anforderungen erfüllen, um sich für die Anzeige der Erlebnisse zu qualifizieren. Für Erlebnis-Targeting (XT)-Aktivitäten wird eine einzelne Aktivitäts-URL bereitgestellt. Das angezeigte Erlebnis richtet sich danach, ob Sie sich für eine der Targeting-Regeln qualifizieren.
 
