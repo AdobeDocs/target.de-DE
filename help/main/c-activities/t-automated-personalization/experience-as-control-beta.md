@@ -7,10 +7,11 @@ feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 hide: true
 hidefromtoc: true
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+exl-id: baf939d8-1f6d-4586-8323-69f818a5ef1a
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -31,8 +32,15 @@ In Ihren [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Ak
 ## Festlegen eines bestimmten Erlebnisses als Kontrollelement
 
 1. Konfigurieren Sie beim Erstellen oder Bearbeiten einer [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) oder [[!UICONTROL Auto-Target] -](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) die Erlebnisse nach Bedarf.
-1. Wählen Sie auf der Seite [!UICONTROL Targeting] (Schritt 2 des dreiteiligen geleiteten Workflows) das gewünschte Erlebnis als Steuerelement aus.
-1. Geben Sie die gewünschte Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
+1. Klicken Sie auf der Seite [!UICONTROL Targeting] (Schritt 2 des dreiteiligen geleiteten Workflows) auf das Steuerelement, um [!UICONTROL Control] Optionen im rechten Bereich anzuzeigen.
+
+   ![Systemsteuerung](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. Wählen Sie aus der Dropdown-Liste [!UICONTROL Control] die Option [!UICONTROL Random Experience] oder das gewünschte Erlebnis aus, das Sie für das Steuerelement verwenden möchten.
+
+1. Klicken Sie auf das [!UICONTROL Traffic Allocation] und geben Sie dann die gewünschte Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
+
+   ![Traffic-Zuordnungsleiste](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Je nach Erlebniskontrollart sind 10 % bis 30 % empfehlenswert.
 
