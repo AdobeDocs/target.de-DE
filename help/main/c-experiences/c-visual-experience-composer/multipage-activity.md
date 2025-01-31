@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie eine mehrseitige Aktivität in Adobe erstelle
 title: Wie erstelle ich eine mehrseitige Aktivität?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -27,21 +27,13 @@ Sie können Vorlagenregeln für alle Seiten im mehrseitigen Test angeben. Sie k�
 
 So fügen sie einem Test Seiten hinzu:
 
-1. Klicken Sie auf das Zahnradsymbol **[!UICONTROL Configure]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ).
 1. Klicken Sie auf **[!UICONTROL Add Additional Pages]**.
 
-   Eine Navigationsleiste wird auf der linken Bildschirmseite angezeigt.
+   Auf der linken Seite des Bildschirms wird ein [!UICONTROL Pages] angezeigt.
 
-   ![multipage_nav Bild](assets/multipage_nav.png)
+1. Geben Sie Ihre Seiten an und legen Sie die Standardseite fest.
 
-1. Geben Sie über diese Navigationsleiste Ihre Seiten an und legen Sie darüber die Standardseite fest.
+   Klicken Sie auf **[!UICONTROL Add Page]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ), um eine zusätzliche Seite hinzuzufügen, geben Sie den Seitennamen und die URL an und klicken Sie dann auf **[!UICONTROL Save]**.
 
-   Klicken Sie auf **[!UICONTROL Add Page]** , um eine zusätzliche Seite hinzuzufügen.
-
-   Klicken Sie auf das Symbol mit den drei vertikalen Ellipsen, um ein Aktionsmenü anzuzeigen:
-
-   ![multipage_menu_image](assets/multipage_menu.png)
-
-   Mithilfe dieses Menüs können Sie Seiten umbenennen, einen Umleitungstest von innerhalb der mehrseitigen Aktivität aus durchführen oder die Seite löschen.
-
-1. Verwenden Sie den Visual Experience Composer, um das Erscheinungsbild des Angebots auf den einzelnen Seiten zu entwickeln.
+1. Verwenden Sie die [!UICONTROL Visual Experience Composer], um das Angebot auf jeder Seite so zu gestalten, wie es aussieht.
