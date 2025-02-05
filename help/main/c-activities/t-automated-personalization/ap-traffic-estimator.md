@@ -1,14 +1,14 @@
 ---
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
-description: Verwenden Sie die  [!DNL Adobe Target] [!UICONTROL Traffic Estimator], um festzustellen, ob Sie über ausreichend Traffic verfügen, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
+description: Verwenden Sie den [!UICONTROL Traffic Estimator], um zu beurteilen, ob Sie über ausreichend Traffic für eine [!UICONTROL Automated Personalization]-Aktivität verfügen, um erfolgreich zu sein.
 title: Wie viel Traffic wird für eine erfolgreiche [!UICONTROL Automated Personalization] benötigt?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
 ## Traffic-Schätzung verwenden
 
-1. Klicken Sie auf der [!UICONTROL Experiences] der [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Automated Personalization] auf das Symbol **[!UICONTROL Traffic]** .
+1. Klicken Sie auf der [!UICONTROL Experiences] der [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Automated Personalization] auf das Symbol **[!UICONTROL Traffic]** ( ![Traffic-Schätzung-](/help/main/assets/icons/Gauge2.svg) ) oben links auf der [!UICONTROL Experiences].
 
-   ![Traffic-Symbol](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   Die [!UICONTROL Traffic Estimator] wird geöffnet.
 
-   Die [!UICONTROL Traffic Estimator] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic Estimator] auszublenden.
+   ![Benutzeroberfläche der Traffic-Schätzung](assets/ap-est.png)
 
-   ![Benutzeroberfläche der Traffic-Schätzung](assets/ap_est.png)
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic Estimator] auszublenden.
 
 1. Geben Sie die typische Konversionsrate (oder die von dieser Aktivität erwartete Konversionsrate), geschätzte Aktivitätsimpressionen pro Tag und die Testdauer an.
 
@@ -45,19 +45,19 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    Im oberen Bereich der [!UICONTROL Traffic Estimator] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
 
-   ![Traffic-Schätzung mit angezeigten Werten und Ergebnissen](assets/ap_est_no.png)
+   ![Traffic-Schätzung mit angezeigten Werten und Ergebnissen](assets/ap-est-no.png)
 
    Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie beispielsweise viele Kombinationen testen und Ihre Konversionsrate und Impressions zu niedrig sind, zeigt die [!UICONTROL Traffic Estimator] an, wie lange der Test ausgeführt werden muss, um erfolgreich zu sein. Wenn Ihr Traffic niedrig ist, kann der [!UICONTROL Traffic Estimator] eine niedrigere Anzahl von Angebotskombinationen vorschlagen, sodass Sie den Test die gewünschte Anzahl von Tagen ausführen können.
 
    Wenn Sie nicht über ausreichend Traffic verfügen, beachten Sie Folgendes:
 
-   * Erwägen Sie die Verwendung [ Aktivität „Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) anstelle von [!UICONTROL Automated Personalization], um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
+   * Erwägen Sie die Verwendung einer [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) Aktivität anstelle von [!UICONTROL Automated Personalization], um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
    * Verringern Sie die Anzahl der Angebotskombinationen innerhalb Ihrer [!UICONTROL Automated Personalization].
    * Erhöhen Sie die Dauer der Aktivität.
 
    Passen Sie die Zahlen an, bis die [!UICONTROL Traffic Estimator] anzeigt, dass Sie über ausreichend Traffic verfügen, und entwerfen Sie dann Ihren Test entsprechend.
 
-   ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap_est_yes.png)
+   ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap-est-yes.png)
 
    Wenn der Traffic ausreichend ist, zeigt das [!UICONTROL Traffic]-Symbol einen grünen Haken an. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 

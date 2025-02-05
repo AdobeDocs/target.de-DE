@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie den Bericht „Standortbeitrag“ für Adobe 
 title: Wie verwende ich den [!UICONTROL Location Contribution] für [!UICONTROL Multivariate Test] Aktivitäten?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ Der [!UICONTROL Location Contribution] enthält zwei Tabellen.
 
 Die erste Tabelle zeigt den relativen Einfluss jedes einzelnen Elements an. Diese Tabelle zeigt, welche der Elemente, denen Sie Angebote hinzugefügt haben, zu den meisten Konversionen führt.
 
-![Location Contribution-Bericht in Adobe Target](/help/main/c-reports/assets/locationcontributiontop.png)
-
 Die zweite Tabelle liefert einen Bericht auf Angebotsebene. Sie zeigt die Konversionsrate, die Steigerung und die Konfidenz für jedes Angebot in jedem Element. Anhand dieser Tabelle können Sie ermitteln, welche Angebote am erfolgreichsten sind. Die zweite Spalte zeigt die Werte für die ausgewählte Metrik (Konversionsrate, RPV, AOV, Bestellungen oder Interaktionsmetriken) des Angebotes und eine Standardisierung.
 
-![Location Contribution-Bericht in Adobe Target](/help/main/c-reports/assets/locationcontributionbottom.png)
+## Schulungsvideo: Erstellen eines Multivarianz-Tests
 
-## Schulungsvideo: Erstellen eines MVT-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
-
-In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
+In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Erfolgsmetriken in Adobe [!DNL Target]  mit
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 42%
+source-wordcount: '1190'
+ht-degree: 40%
 
 ---
 
@@ -57,9 +57,9 @@ Einige Metriken, z. B. [!UICONTROL Custom Scoring] und [!UICONTROL Revenue Per V
 
 Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll.
 
-Um auf die [!UICONTROL Advanced Settings] Optionen zuzugreifen, klicken Sie auf **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Um auf die [!UICONTROL Advanced Settings] Optionen zuzugreifen, klicken Sie auf das **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und dann auf **[!UICONTROL Advanced Settings]**.
 
-![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ Um auf die [!UICONTROL Advanced Settings] Optionen zuzugreifen, klicken Sie auf 
 ### Abhängigkeit hinzufügen
 
 Sie können die erweiterten Einstellungen verwenden, um abhängige Erfolgsmetriken zu erstellen, wobei eine Metrik nur inkrementiert wird, wenn ein Besucher zuerst eine andere Metrik erreicht.
-
-![Abhängigkeit hinzufügen](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 So kann eine Testkonversion zum Beispiel nur dann gültig sein, wenn ein Besucher das Angebot anklickt oder auf eine bestimmte Seite gelangt, bevor die Konversion erfolgt.
 
@@ -83,7 +81,7 @@ Die Abhängigkeitsfunktion wird *nicht* für Folgendes unterstützt:
 Abhängige Erfolgsmetriken werden in folgenden Fällen nicht umgewandelt:
 
 * Im Fall einer gegenseitigen Abhängigkeit, bei der Metrik1 von Metrik2 und Metrik2 von Metrik1 abhängt, kann keine der beiden Metriken umgewandelt werden.
-* Bei Aktivitäten mit automatisierter Personalisierung werden Benutzer freigegeben und die Aktivität neu gestartet, wenn die Konversionsmetriken erreicht werden. Metriken, die von der Konversionsmetrik abhängen, werden somit nicht umgewandelt.
+* [!UICONTROL Automated Personalization]-Aktivitäten geben Benutzer frei und starten die Aktivität neu, wenn die Konversionsmetriken erreicht sind, sodass keine von der Konversionsmetrik abhängigen Metriken konvertiert werden.
 
 ### Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft?
 

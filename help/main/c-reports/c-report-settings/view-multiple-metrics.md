@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Adobe Target mehrere Metriken auswählen,
 title: Wie kann ich mehrere Metriken in einem Bericht anzeigen?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 1. Um einen Bericht anzuzeigen, klicken Sie auf **[!UICONTROL Activities]**, dann auf die gewünschte Aktivität in der Liste und anschließend auf die Registerkarte **[!UICONTROL Reports]** .
 1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Report Metric]** , um die [!UICONTROL Shown Metrics]- und [!UICONTROL Hidden Metrics] anzuzeigen.
 
-   ![multiple_metrics Bild](assets/multiple_metrics.png)
-
    Sie können das [!UICONTROL Search] verwenden, um schnell verfügbare Metriken zu finden, die der [!UICONTROL Shown Metrics] hinzugefügt werden können.
 
    Beachten Sie, dass Sie mehrere Metriken aus dem [!UICONTROL Table View]- und dem [!UICONTROL Graph View] des Berichts auswählen können.
@@ -46,10 +44,6 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** .
 1. (Bedingt) Wenn Sie den Bericht im [!UICONTROL Table View] anzeigen, bewegen Sie den Mauszeiger über die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und die [!UICONTROL Lift] und [!UICONTROL Confidence] für diese Metrik anzuzeigen.
 
-   ![multiple_metrics_table image](assets/multiple_metrics_table.png)
-
    Sie können nur jeweils eine Metrik/Spalte erweitern. Klicken Sie erneut auf den Pfeil, um die Spalten zu reduzieren.
 
-1. (Bedingt) Beim Anzeigen des Berichts in der Diagrammansicht können Sie einzelne Metriken aus der Dropdown-Liste auswählen:
-
-   ![multiple_metrics_graph Bild](assets/multiple_metrics_graph.png)
+1. (Bedingt) Wenn Sie den Bericht im [!UICONTROL Graph View] anzeigen, können Sie einzelne Metriken aus der Dropdown-Liste auswählen, die angezeigt werden sollen.

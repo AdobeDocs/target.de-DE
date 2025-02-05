@@ -1,13 +1,13 @@
 ---
 keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer A [!DNL Adobe Target] A/B-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich war, z. B. [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement].
+description: Erfahren Sie, wie Sie Metriken in einer A/B-Aktivität festlegen, um den Erfolg von Besuchen zu bestimmen, einschließlich [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement].
 title: Wie kann ich in einer A/B-Aktivität Zielmetriken festlegen?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '284'
+ht-degree: 58%
 
 ---
 
@@ -17,9 +17,7 @@ Verwenden Sie Metriken in einer [!DNL Adobe Target] A/B-Aktivität, um zu bestim
 
 Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Reporting Settings]** der Seite **[!UICONTROL Goals & Settings]** eine [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
-
-   ![Erfolgsmetrik auswählen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+1. Wählen Sie im Abschnitt **[!UICONTROL Reporting Settings]** der Seite **[!UICONTROL Goals & Settings]** eine [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
    In der Option [!UICONTROL Select Metrics] werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
@@ -53,13 +51,3 @@ Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht 
 | + | Plus |
 | - | Minus |
 | @ | At-Zeichen |
-
-## Schulungsvideo: Aktivitätsmetriken (7:43) ![Tutorial-Badge](/help/main/assets/tutorial.png)
-
-Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
-
-* Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
-* Erstellen einer Metrik mit Klick-Tracking
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

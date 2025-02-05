@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und 
 title: Wie erstelle ich Zielgruppen?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 58%
+ht-degree: 51%
 
 ---
 
 # Erstellen von Zielgruppen in [!DNL Target]
 
-Sie können benutzerdefinierte Zielgruppen erstellen und sie in der [!DNL Adobe Target] [!UICONTROL Audiences]-Bibliothek speichern, um sie in Ihren Aktivitäten zu verwenden. Sie können auch eine vorhandene Zielgruppe kopieren, die Sie dann bearbeiten können, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen zu kombinieren.
+Erstellen Sie benutzerdefinierte Zielgruppen und speichern Sie sie in der [!DNL Adobe Target] [!UICONTROL Audiences]-Bibliothek, um sie in Ihren Aktivitäten zu verwenden. Sie können auch eine vorhandene Zielgruppe kopieren, die Sie dann bearbeiten können, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen zu kombinieren.
 
 ## Zielgruppenüberblick
 
@@ -25,13 +25,13 @@ Wenn Sie Regeln oder Parameter mit „OR“ kombinieren, müssen die Mitglieder 
 
 Sie können die beiden booleschen Operatoren auch mischen und so komplexe Regeln schaffen, allerdings müssen Operatoren auf derselben Regelebene übereinstimmen. Die Benutzeroberfläche wendet automatisch den richtigen Operator an.
 
-Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome *oder* Firefox auf einem Windows-Computer nutzen:
+Die folgende Regel richtet sich beispielsweise an Besucherinnen und Besucher, die [!DNL Chrome]- *-*-[!DNL Firefox] auf einem [!DNL Windows] verwenden:
 
 ![Zielgruppe erstellen](assets/audience_create.png)
 
 >[!NOTE]
 >
->Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. So ist es beispielsweise nicht möglich, dass ein Besucher eine Seite mit Chrome *und* gleichzeitig mit Firefox besucht.
+>Achten Sie darauf, dass Ihre Regeln nicht alle Mitglieder der Zielgruppe ausschließen. Beispielsweise ist es nicht möglich, dass jemand eine Seite gleichzeitig mit [!DNL Chrome] *und* [!DNL Firefox] besucht.
 
 ## Erstellen von Zielgruppen
 
@@ -43,7 +43,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    Oder
 
-   Um eine vorhandene Audience zu kopieren, klicken Sie in der [!UICONTROL Audiences] auf das **[!UICONTROL More Actions]** (Ellipsensymbol) und dann auf **[!UICONTROL Duplicate]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
+   Um eine vorhandene Audience zu kopieren, klicken Sie in der Liste &quot;[!UICONTROL Audiences]&quot; auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallListVert.svg) ) für die Audience, die Sie kopieren möchten, und klicken Sie dann auf **[!UICONTROL Duplicate]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen eindeutigen, beschreibenden Zielgruppennamen und eine optionale Beschreibung ein.
 
@@ -55,7 +55,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop aus der **[!UICONTROL Attributes]** auf der rechten Seite in den Bereich Audience Builder .
+1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop aus der **[!UICONTROL Attributes]** auf der linken Seite in den Bereich Audience Builder .
 
    ![Attribute per Drag-and-Drop verschieben](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ Die folgende Regel nimmt eine Ausrichtung auf Besucher vor, die entweder Chrome 
 
 1. Definieren Sie die Regelparameter.
 
-   Die folgende Zielgruppe richtet sich beispielsweise an Besucher aus Utah, die das Betriebssystem Macintosh verwenden.
+   Die folgende Zielgruppe richtet sich beispielsweise unter dem Betriebssystem [!DNL Macintosh] an Besucher aus Utah.
 
    ![Zielgruppe Utah/Macintosh](assets/adience-builder.png)
 

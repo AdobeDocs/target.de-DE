@@ -5,9 +5,9 @@ title: Was ist der Bericht „Wichtige Attribute“?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 1. Klicken Sie auf **[!UICONTROL Activities]** und dann auf die gewünschte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)- oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)-Aktivität in der Liste.
 
-   Wenn Sie über viele Aktivitäten verfügen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
 
 1. Klicken Sie auf **[!UICONTROL Reports]**.
 
-   Der Bericht [Automated Personalization-](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Automatische Targeting-Zusammenfassung](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) wird angezeigt, der Informationen zur Leistung Ihrer Aktivitäten enthält, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights] Berichte dar: [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes].
+   Der Bericht [Automated Personalization-](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Automatische Targeting-Zusammenfassung](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) wird angezeigt, der Informationen zur Leistung Ihrer Aktivitäten enthält, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights] Berichte dar: **[!UICONTROL Automated Segments]** ( ![Bericht Automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ) und **[!UICONTROL Important Attributes]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ).
 
-   ![Zusammenfassungsbericht für die Automated Personalization-Aktivität](/help/main/c-reports/assets/summary-report-ap.png)
 
    Beachten Sie, dass [!UICONTROL Auto-Target] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Summary]-Berichts verfügt.
-
-   ![Zusammenfassungsbericht für die Aktivität vom Typ Automatisches Targeting](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >Der [!UICONTROL Important Attributes] Bericht ist frühestens 15 Tage nach Aktivierung der Aktivität verfügbar. In diesem Zeitraum können Sie weder auf diesen Bericht zugreifen noch auf das [!UICONTROL Important Attributes] klicken. Wenn Sie nach 15 Tagen ausreichend personalisierten Traffic in Ihrer Aktivität haben, ist der [!UICONTROL Important Attributes] Bericht verfügbar.
 
-1. Nachdem Sie die Aktivität 15 Tage lang aktiviert haben, klicken Sie auf das Symbol **[!UICONTROL Important Attributes]** .
-
-   ![Symbol „Wichtige Attribute“ in einem Adobe Target-Bericht](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. Nachdem Sie die Aktivität 15 Tage lang aktiviert haben, klicken Sie auf das Symbol **[!UICONTROL Important Attributes]** ( ![Wichtige Attribute](/help/main/assets/icons/ViewList.svg) ).
 
 1. Wählen Sie den gewünschten Datumsbereich aus.
 
@@ -62,17 +57,11 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
    Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], einen ausreichend großen Datenbereich zu verwenden, um die Wahrscheinlichkeit zu verringern, dass Sie Einblicke aus einem kurzlebigen Muster in Ihrer Aktivität ableiten. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
-   ![Kalender in einem Adobe Target-Bericht](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   Sie können über die Dropdown-Liste [!UICONTROL Choose Duration] auf die verfügbaren festen Datumsbereiche zugreifen.
-
-   ![Wählen Sie die Dropdown-Liste Dauer in einem Bericht](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   Sie können über die Dropdown-Liste [!UICONTROL Preset Date Range] auf die verfügbaren festen Datumsbereiche zugreifen.
 
 1. Überprüfen Sie die [!UICONTROL Important Attributes] Berichtsdaten.
 
-   ![Bericht „Wichtige Attribute“ in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (Optional) [Laden Sie den Bericht im CSV-Format herunter](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF), um ihn in Excel und anderen Tools zu analysieren.
+1. (Optional) Klicken Sie auf das Symbol Herunterladen ( ![Download-Symbol](/help/main/assets/icons/Download.svg) ), um [Bericht im CSV-Format herunterzuladen](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) zur Analyse in Excel und anderen Tools.
 
    >[!NOTE]
    >

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie in Adobe Extremwerte von Berichten ausschlie�
 title: Wie kann ich extreme Werte in Berichten ausschließen?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchsch
 
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
-1. Öffnen Sie eine Aktivität, die Metriktypen Umsatz oder Interaktion enthält, und klicken Sie dann auf die Registerkarte **[!UICONTROL Reports]** .
-1. Klicken Sie auf das Zahnradsymbol, um das Dialogfeld **[!UICONTROL Settings]** anzuzeigen.
-
-   ![Schrittergebnis](assets/exclude_extreme_values.png)
+1. Öffnen Sie eine Aktivität mit [!UICONTROL Revenue] oder [!UICONTROL Engagement] Metriktypen und klicken Sie auf die Registerkarte **[!UICONTROL Reports]** .
+1. Klicken Sie auf das Symbol Berichtseinstellungen ![Berichteinstellungen](/help/main/assets/icons/Setting.svg) , um das Dialogfeld **[!UICONTROL Settings]** anzuzeigen.
 
 1. Schieben Sie den **[!UICONTROL Exclude Extreme Values]** nach Bedarf in die Position „Ein“ oder „Aus“.
 1. Klicken Sie auf **[!UICONTROL Save]**.

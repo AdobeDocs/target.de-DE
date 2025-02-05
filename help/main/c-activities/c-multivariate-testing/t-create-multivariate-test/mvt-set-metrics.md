@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Metriken in einer  [!DNL Adobe Target] [!UICO
 title: Wie kann ich Zielmetriken in einer [!UICONTROL Multivariate Test] (MVT)-Aktivität festlegen?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 60%
@@ -20,7 +20,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 1. Geben Sie das Ziel der Aktivität an.
 1. Wählen Sie eine [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) aus.
 
-   ![Festlegen der Liste der Metriken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![Festlegen der Liste der Metriken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    Auf der Seite [!UICONTROL Select Metrics] werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
@@ -41,7 +41,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
    Weitere Informationen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Optional) Fügen Sie zusätzliche Metriken hinzu.
-1. Klicken Sie auf **[!UICONTROL Continue]** , wenn Sie mit dem Festlegen Ihrer Metriken fertig sind.
+1. Klicken Sie auf **[!UICONTROL Save and Close]** , wenn Sie mit dem Festlegen Ihrer Metriken fertig sind.
 
 Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht zulässig:
 

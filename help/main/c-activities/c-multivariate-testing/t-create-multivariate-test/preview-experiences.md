@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie jedes Erlebnis in einer [!UICONTROL Multivari
 title: Wie kann ich eine Vorschau von Erlebnissen für eine [!UICONTROL Multivariate Test] (MVT) anzeigen?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '205'
+ht-degree: 9%
 
 ---
 
@@ -15,24 +15,20 @@ ht-degree: 25%
 
 Da ein [!UICONTROL Multivariate Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
 
-1. Klicken Sie im [!UICONTROL Visual Experience Composer] (VEC) auf **[!UICONTROL Preview]**.
+1. Klicken Sie auf **[!UICONTROL Preview]** und dann auf das **[!UICONTROL Show Experiences]** ( ![Symbol Erlebnisse anzeigen](/help/main/assets/icons/WebPages.svg) ), um die Liste aller Erlebnisse im linken Rahmen anzuzeigen.
 
-   Es erscheint eine Liste aller Erlebnisse.
+1. Klicken Sie auf ein bestimmtes Erlebnis in der Liste, um dieses Erlebnis anzuzeigen.
 
-   ![Vorschaubild](assets/preview.png)
+1. (Bedingt) Um ein oder mehrere Erlebnisse aus der Aktivität auszuschließen, klicken Sie auf das **[!UICONTROL Manage Content]** ( ![Symbol „Inhalt verwalten](/help/main/assets/icons/Experience.svg) ), um das Dialogfeld [!UICONTROL Manage Content] anzuzeigen.
 
-1. Klicken Sie auf ein Erlebnis in der Liste, um dieses anzusehen.
+1. (Bedingt) Klicken Sie im Dialogfeld [!UICONTROL Manage Content] auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) neben dem Erlebnis, das Sie ausschließen möchten, und klicken Sie dann auf **[!UICONTROL Exclude]**.
 
-1. Um ein oder mehrere Erlebnisse vom Multivarianz-Test auszuschließen, wählen Sie die gewünschten Erlebnisse aus und klicken Sie dann auf **[!UICONTROL Exclude]**.
+   Sie können Erlebnisse ausschließen, die widersprüchliche Varianten aufweisen oder optisch nicht ansprechend wirken.
 
-   ![Erlebnisse ausschließen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. (Bedingt) Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Exclude]**.
 
-   Sie können ein Erlebnis ausschließen, das widersprüchliche Varianten anzeigt oder ästhetisch nicht ausgewogen ist.
+1. (Bedingt) Um mehrere ausgeschlossene Erlebnisse einzubeziehen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Include]**.
 
-   >[!NOTE]
-   >
-   >Beim Erstellen Multivarianz-Tests können Sie mehr als 10 Prozent der Erlebnisse vom Test ausschließen, sofern Sie die Warnung bestätigen, dass Sie dann Offline-Berichte für die Analyse verwenden müssen.
-
-   Standardmäßig werden alle Erlebnisse in einen Multivariater Test einbezogen. Um ein ausgeschlossenes Erlebnis einzubeziehen, wählen Sie das ausgeschlossene Erlebnis aus und klicken Sie auf **[!UICONTROL Include]**.
-
-1. Klicken Sie auf **[!UICONTROL Exit Preview Mode]** , um zur [!UICONTROL Visual Experience Composer] zurückzukehren, damit Sie Änderungen vornehmen können, oder klicken Sie auf **[!UICONTROL Continue]** , um zur Testzusammenfassung zu gelangen.
+>[!NOTE]
+>
+>Beim Erstellen Multivarianz-Tests können Sie mehr als 10 Prozent der Erlebnisse vom Test ausschließen, sofern Sie die Warnung bestätigen, dass Sie dann Offline-Berichte für die Analyse verwenden müssen.

@@ -1,28 +1,28 @@
 ---
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
-description: Erfahren Sie, wie -Feeds  [!DNL Adobe Target] [!DNL Recommendations] CSV-Dateien, das Google-Produktsuch-Feed-Format und  [!DNL Analytics] -Produktklassifizierungen in importieren.
+description: Erfahren Sie, wie -Feeds Entitäten  [!DNL Adobe Target] [!DNL Recommendations], mithilfe von CSV [!DNL Google Product Search] Dateien, dem -Feed-Format  [!DNL Analytics]  Produktklassifizierungen in importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 45%
+source-wordcount: '2417'
+ht-degree: 38%
 
 ---
 
 # Feeds
 
-Verwenden Sie Feeds, um Entitäten in [!DNL Adobe Target] [!DNL Recommendations] zu importieren. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
+Verwenden Sie Feeds, um Entitäten in [!DNL Adobe Target] [!DNL Recommendations] zu importieren. Entitäten können mithilfe von CSV-Dateien, dem [!DNL Google Product Search]-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
 
 ## Übersicht über Feeds {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Mit Feeds können Sie [Entitäten](/help/main/c-recommendations/c-products/products.md) übergeben oder Ihre Mbox-Daten um Informationen erweitern, die entweder auf der Seite nicht verfügbar sind oder die nicht sicher sind, direkt von der Seite gesendet zu werden, z. B. Marge, COGS usw.
+Mit Feeds können Sie [Entitäten](/help/main/c-recommendations/c-products/products.md) übergeben oder Ihre Mbox-Daten um Informationen erweitern, die entweder auf der Seite nicht verfügbar sind oder nicht sicher sind, direkt von der Seite aus zu senden. Beispielsweise die Spanne, die Kosten der verkauften Waren (COGS) usw.
 
-Mit Feeds können Sie detaillierte Elementinformationen an [!DNL Recommendations] übergeben, z. B. Produkt-ID, Kategorie, Name, Nachricht und andere Attribute.
+Mit Feeds können Sie auch detaillierte Elementinformationen an [!DNL Recommendations] übergeben, z. B. Produkt-ID, Kategorie, Name, Nachricht und andere Attribute.
 
-Sie können auswählen, welche Spalten aus Ihrer [!DNL Target]-Produktklassifizierungsdatei oder Google-Produktsuchdatei Sie an den [!DNL Recommendations]-Server senden möchten.
+Sie können auswählen, welche Spalten aus Ihrer [!DNL Target] Produktklassifizierungsdatei oder [!DNL Google Product Search] Datei an den [!DNL Recommendations]-Server gesendet werden sollen.
 
 Diese Daten zu jedem Element können dann verwendet werden, um:
 
@@ -31,24 +31,24 @@ Diese Daten zu jedem Element können dann verwendet werden, um:
 * Sortieren von Elementen in verschiedene Sammlungen
 * Ausschlüsse auf Empfehlungen anwenden
 
-Elementbeschreibungen können über Feeds oder Mboxes an [!DNL Target] übergeben werden. Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
+Elementbeschreibungen können über Feeds oder Mboxes an [!DNL Target] übergeben werden. Wenn [!DNL Target] Daten sowohl mit einem Entitäts-Feed als auch mit einer Mbox erfasst, gewinnen die neuesten Daten. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
 
 Die [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) enthält Informationen zu allen Feeds, die Sie erstellt haben.
-
-![Feeds-Seite](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
 Die [!UICONTROL Feeds] enthält die folgenden Spalten:
 
 * **Name**: Der Name des beim Erstellen angegebenen Feeds. Um den Namen eines Feeds zu bearbeiten, müssen Sie den Feed bearbeiten. Wenn Sie den Feed unter dem neuen Namen speichern, wird der Feed aktualisiert.
-* **Typ**: Zu den Typen zählen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google-Produkt-Feed](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) und [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Status**: Der aktuelle [Status des Feeds](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Zeitplan**: Zeigt den Aktualisierungsplan für den Feed an: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] oder [!UICONTROL Never].
+* **Type**: Zu den Typen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) und [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Artikel**: Zeigt die Anzahl der Artikel im Feed an.
-* **Zuletzt aktualisiert**: Zeigt das Datum und die Uhrzeit der letzten Aktualisierung des Feeds sowie den Namen der Person an, die den Feed aktualisiert hat. Wenn im [!UICONTROL Last Updated] Feed „undefiniert“ angegeben ist, kommt der Feed von [!DNL Recommendations Classic] und kann nicht von [!DNL Target Premium Recommendations] aus geändert werden.
+* **Zeitplan**: Zeigt den Aktualisierungsplan für den Feed an: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] oder [!UICONTROL Never].
+* **Zuletzt aktualisiert**: Zeigt das Datum und die Uhrzeit der letzten Aktualisierung des Feeds sowie den Namen der Person an, die den Feed aktualisiert hat.
 
-Klicken Sie auf das Informationssymbol, um eine Karte anzuzeigen, auf der das Datum des letzten Uploads und die URL des Feeds angezeigt werden.
+Klicken Sie auf das [!UICONTROL Customize Table] ( ![Symbol „Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ), um die anzuzeigenden Spalten auszuwählen oder die Auswahl aufzuheben.
 
-Klicken Sie auf das Symbol mit den Auslassungspunkten, um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] und [!UICONTROL Delete].
+Klicken Sie auf das [!UICONTROL Information]-Symbol ![Infosymbol](/help/main/assets/icons/InfoOutline.svg) ), um eine Karte mit dem letzten Upload-Datum und der URL des Feeds anzuzeigen.
+
+Klicken Sie auf das Symbol [!UICONTROL More Actions] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ), um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] und [!UICONTROL Delete].
 
 >[!IMPORTANT]
 >
@@ -59,13 +59,13 @@ Klicken Sie auf das Symbol mit den Auslassungspunkten, um auf die folgenden Akti
 
 ## Source-Typen
 
-Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
+Entitäten können mithilfe von CSV-Dateien, dem [!DNL Google Product Search]-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 Sie können eine CSV-Datei mit dem [!DNL Adobe] proprietären CSV-Upload-Format erstellen. Die Datei enthält Anzeigeinformationen über die reservierten und benutzerspezifischen Attribute für Ihre Produkte. Ersetzen Sie zum Hochladen von für Ihre Implementierung spezifischen Attributen `CustomN` in der Kopfzeile durch den Namen des gewünschten Attributs. Im folgenden Beispiel wurde `entity.Custom1` ersetzt durch: `entity.availability`. Sie können die Datei anschließend per Massenvorgang auf den [!DNL Recommendations]-Server hochladen.
 
-Die Verwendung des CSV-Formats bietet die folgenden Vorteile im Vergleich zum Google-Feed-Format:
+Die Verwendung des CSV-Formats hat gegenüber dem [!DNL Google]-Feed-Format die folgenden Vorteile:
 
 * Das CSV-Format erfordert keine Feldzuordnungen.
 * Das CSV-Format unterstützt Attribute mit mehreren Werten (siehe Beispiel unten).
@@ -93,7 +93,7 @@ Die folgenden Syntax ist richtig:
 
 >[!NOTE]
 >
->Sie können einen vorhandenen Wert nicht mit einem leeren Wert überschreiben. Übergeben Sie stattdessen einen anderen Wert, um ihn zu überschreiben. Im Falle eines Verkaufspreises besteht eine gängige Lösung darin, entweder eine tatsächliche „NULL“ oder eine andere Nachricht zu übergeben. Sie können dann eine Vorlagenregel verfassen, um Artikel mit diesem Wert auszuschließen.
+>Sie können einen vorhandenen Wert nicht mit einem leeren Wert überschreiben. Übergeben Sie stattdessen einen anderen Wert, um den vorhandenen Wert zu überschreiben. Im Falle eines Verkaufspreises besteht eine gängige Lösung darin, entweder eine tatsächliche „NULL“ oder eine andere Nachricht zu übergeben. Sie können dann eine Vorlagenregel verfassen, um Artikel mit diesem Wert auszuschließen.
 
 Das Produkt ist auf der Admin-Oberfläche ungefähr zwei Stunden nach dem erfolgreichen Upload seiner Entität verfügbar.
 
@@ -111,31 +111,31 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Der Feed-Typ Google-Produktsuche verwendet das Google-Format. Dies unterscheidet sich vom [!DNL Adobe] proprietären CSV-Upload-Format.
+Der [!DNL Google Product Search] Feed-Typ verwendet das [!DNL Google]. Dies unterscheidet sich vom [!DNL Adobe] proprietären CSV-Upload-Format.
 
-Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie diesen als Ihre Importdatei verwenden.
-
->[!NOTE]
->
->Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
-
-Die meisten Einzelhändler laden Produkte in Google hoch. Wenn ein Besucher also die Google-Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+Wenn Sie bereits über eine [!DNL Google Product Feed] verfügen, können Sie diese als Importdatei verwenden.
 
 >[!NOTE]
 >
->Die POST-Methode muss auf dem Server zugelassen sein, der den Google-Feed-Inhalt hostet.
+>Es ist nicht erforderlich, [!DNL Google] Daten zu verwenden. [!DNL Recommendations] verwendet dasselbe Format wie [!DNL Google]. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Sie müssen jedoch die [!DNL Google] vordefinierten Attributnamen beim Einrichten der Datei beibehalten.
 
-Da [!DNL Recommendations] Benutzer bereits .xml- oder .txt-Feeds konfigurieren, die entweder über URL oder FTP an Google gesendet werden, akzeptieren Entitäts-Feeds diese Produktdaten und verwenden sie zum Erstellen des Recommendations-Katalogs. Geben Sie an, wo sich dieser Feed befindet, und der Recommendations-server ruft die Daten ab.
+Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ ](https://www.google.com/prdhp) werden.
 
-Wenn Sie die Google-Produktsuche für den Entitäts-Feed-Upload verwenden, müssen Sie dennoch eine Produktseiten-Mbox auf der Seite haben, wenn Sie dort Empfehlungen anzeigen oder Produktansichten für die Bereitstellung von Algorithmen auf der Grundlage von Ansichten verfolgen möchten.
+>[!NOTE]
+>
+>Die POST-Methode muss auf dem Server zulässig sein, auf dem der [!DNL Google]-Feed-Inhalt gehostet wird.
 
-Google Feeds unterstützen nicht mehrere Werte für ein benutzerdefiniertes Attribut.
+Da [!DNL Recommendations] Benutzer bereits .xml- oder .txt-Feeds konfigurieren, die entweder über URL oder FTP an [!DNL Google] gesendet werden sollen, akzeptieren Entitäts-Feeds diese Produktdaten und verwenden sie zum Erstellen des Recommendations-Katalogs. Geben Sie an, wo sich dieser Feed befindet, und der Recommendations-server ruft die Daten ab.
+
+Wenn Sie [!DNL Google Product Search] für den Entitäts-Feed-Upload verwenden, müssen Sie dennoch eine Produktseiten-Mbox auf der Seite haben, wenn Sie dort Empfehlungen anzeigen oder Produktansichten für die Bereitstellung von Algorithmen auf der Grundlage von Ansichten verfolgen möchten.
+
+[!DNL Google]-Feeds unterstützen nicht mehrere Werte für ein benutzerdefiniertes Attribut.
 
 Der Feed wird zu dem Zeitpunkt ausgeführt, zu dem Sie ihn speichern und aktivieren. Er läuft zum Zeitpunkt, an dem Sie den Feed speichern, dann jeden Tag eine Stunde später.
 
-Nachfolgend finden Sie einen Beispielcode für eine Feed-XML-Datei für die Google-Produktsuche:
+Im Folgenden finden Sie Beispiel-Code für eine [!DNL Google Product Search] Feed-XML-Datei:
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -202,7 +202,7 @@ Nachfolgend finden Sie einen Beispielcode für eine Feed-XML-Datei für die Goog
 </feed> 
 ```
 
-Nachfolgend finden Sie einen Beispielcode für eine Feed-TSV-Datei für die Google-Produktsuche:
+Im Folgenden finden Sie Beispiel-Code für eine [!DNL Google Product Search] Feed-TSV-Datei:
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
@@ -227,9 +227,7 @@ Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
-1. Klicken Sie in der Target-Benutzeroberfläche auf **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
-
-   ![Erstellen eines Feed-Dialogfelds](assets/CreateFeed.png)
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
 1. Geben Sie einen beschreibenden Namen für Ihren Feed an.
 1. **[!UICONTROL Source Type]** auswählen.
@@ -257,8 +255,6 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Schedule] anzuzeigen.
 
-   ![Schrittergebnis](assets/CreateFeedSchedule.png)
-
 1. Wählen Sie eine Aktualisierungsoption aus:
 
    * [!UICONTROL Daily]
@@ -272,15 +268,13 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Mapping] Optionen anzuzeigen, und geben Sie dann an, wie Sie Ihre Daten [!DNL Target] Definitionen zuordnen möchten.
 
-   ![Schrittergebnis](assets/CreatFeedMapping.png)
-
 1. (Optional) Wenn der Feed einer Umgebung (Hostgruppe) zugeordnet werden soll, wählen Sie die Hostgruppe aus.
 
    Standardmäßig gehört der Feed zu allen Hostgruppen. So wird sichergestellt, dass Artikel in diesem Feed in jeder Umgebung verfügbar sind. Weitere Informationen finden Sie unter [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird der Feed sofort ausgeführt. Der Feed wird dann entsprechend den von Ihnen festgelegten Parametern aktualisiert. Es dauert einige Zeit, bis die Informationen verfügbar sind. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter [Feed-Status](/help/main/c-recommendations/c-products/feeds.md#status) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
+Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird der Feed sofort ausgeführt. Der Feed wird dann entsprechend den von Ihnen festgelegten Parametern aktualisiert. Es dauert einige Zeit, bis die Informationen verfügbar sind. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter [Feed-Status](/help/main/c-recommendations/c-products/feeds.md#status) in der [!UICONTROL Feeds] angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
 
 Während der Indexierung erscheinen Produkte und Feed-Header vor der Indexierung von individuellen Werten. Auf diese Weise können Sie Produkte suchen und anzeigen, um Sammlungen, Ausschlüsse, Designs und Aktivitäten zu erstellen, bevor die Indizierung abgeschlossen ist.
 

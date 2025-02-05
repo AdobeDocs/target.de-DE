@@ -1,14 +1,14 @@
 ---
 keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
 description: Erfahren Sie, wie Sie eine CSV-Datei hochladen, um Ihre Empfehlungen in Adobe [!DNL Target] Recommendations anzupassen.
-title: Wie lade ich benutzerdefinierte Kriterien in Recommendations hoch?
+title: Wie lade ich benutzerdefinierte Kriterien in hoch [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -26,17 +26,17 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Klicken Sie auf **[!UICONTROL Create Criteria]**.
+1. Klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**.
 
 1. Füllen Sie die Informationen im Abschnitt [Basisinformationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-   1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Select Algorithm]** den Eintrag **[!UICONTROL Custom Criteria]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Select Algorithm Type]** die Option **[!UICONTROL Custom Criteria]** aus.
 
-   1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Algorithm]** die Option **[!UICONTROL Custom Algorithm]** aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Algorithm]** die Option **[!UICONTROL Custom Algorithm]** aus.
 
-      >[!NOTE]
-      >
-      >Durch die vorherigen Schritte wird der Abschnitt [!UICONTROL Upload CSV] unten im Dialogfeld [!UICONTROL Create New Criteria] angezeigt.
+   >[!NOTE]
+   >
+   >Durch die vorherigen Schritte wird der Abschnitt [!UICONTROL Upload CSV] unten im Dialogfeld [!UICONTROL Create Criteria] angezeigt.
 
 1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Sicherungsinhalt](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) aus.
 
@@ -44,16 +44,15 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Upload CSV]** den **[!UICONTROL Location]** Ihrer CSV-Datei aus.
 
-   ![Abschnitt „CSV hochladen“](assets/upload-csv.png)
+Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL Download the CSV template]** , um eine korrekt formatierte CSV-Datei zu erhalten.
 
-   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL Download the CSV template]** , um eine korrekt formatierte CSV-Datei zu erhalten.
+Es gibt für Orte zwei Optionen:
 
-   Es gibt für Orte zwei Optionen:
+    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
+    
+    * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
 
-   * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
-   * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
-
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
 
 ## Zu beachten
 
@@ -65,7 +64,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 * Benutzerspezifische Kriterien-Feeds werden alle 24 Stunden aktualisiert.
 
-  Der Upload- und Synchronisierungsstatus Ihres benutzerdefinierten Kriterien-Uploads wird unten auf jeder Kriterienkarte auf der Seite [!UICONTROL Recommendations] > [!UICONTROL Criteria] angezeigt. Sie können den Status auch im Dialogfeld [!UICONTROL Edit] beim Bearbeiten benutzerdefinierter Kriterien sehen.
+  Auf der Seite [!UICONTROL Recommendations] > [!UICONTROL Criteria] wird für jedes Kriterium der Upload- und Synchronisierungsstatus der benutzerdefinierten Kriterien angezeigt. Sie können den Status auch im Dialogfeld [!UICONTROL Edit] beim Bearbeiten benutzerdefinierter Kriterien sehen.
 
 * Der Fluss für einen fehlerfreien Upload sollte [!UICONTROL Scheduled] > [!UICONTROL Downloading Feed File] > [!UICONTROL Importing] > [!UICONTROL Successful] sein.
 
@@ -74,18 +73,8 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
   | Fehlermeldung | Details |
   |--- |--- |
   | Unbekannter Fehler | Zeigt einen internen technischen Fehler an. |
-  | Parsing-Fehler | Es gibt wahrscheinlich ein Problem mit dem Feed-Dateiformat. Korrigieren Sie das Dateiformat und speichern Sie den Algorithmus erneut, wodurch der Dateidownload-Prozess neu gestartet wird. |
+  | Parsing-Fehler | Es gibt wahrscheinlich ein Problem mit dem Feed-Dateiformat. Korrigieren Sie das Dateiformat und speichern Sie den Algorithmus erneut, wodurch der Datei-Download-Prozess neu gestartet wird. |
   | Server nicht gefunden | Geben Sie einen IP- oder Hostnamen an, der im Internet sichtbar ist. |
   | Zugangsdatenfehler | Geben Sie einen gültigen Benutzernamen und ein gültiges Passwort für ein aktives Konto auf dem Server an. |
   | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
   | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
-
-## Schulungsvideo: Erstellen von Kriterien in Recommendations (12:33) ![Tutorial-Badge](/help/main/assets/tutorial.png)
-
-Dieses Video enthält die folgenden Informationen (Details zum Hochladen benutzerdefinierter Kriterien beginnen um 11:43 Uhr):
-
-* Erstellen von Kriterien
-* Erstellen von Kriteriensequenzen
-* Hochladen benutzerdefinierter Kriterien
-
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

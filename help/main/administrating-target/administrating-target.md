@@ -5,16 +5,16 @@ title: Wie wird Target verwaltet?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 11%
+source-wordcount: '89'
+ht-degree: 13%
 
 ---
 
 # Verwaltung [!DNL Target] Überblick
 
-Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichterstellung, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token und Benutzern.
+Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichterstellung, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, Antwort-Token, Benutzern und [!DNL Recommendations].
 
 Um auf die [!UICONTROL Administration] Menüelemente zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
 
@@ -27,5 +27,4 @@ Um auf die [!UICONTROL Administration] Menüelemente zuzugreifen, klicken Sie in
 * [Umgebungen](/help/main/administrating-target/environments.md)
 * [Antwort-Token](/help/main/administrating-target/response-tokens.md)
 * [Benutzende](/help/main/administrating-target/c-user-management/user-management.md)
-
-![Adobe Target-Administrationsmenü](/help/main/administrating-target/assets/administration.png)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)

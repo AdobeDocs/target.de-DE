@@ -1,17 +1,17 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie die Ergebnisse einer [!UICONTROL Auto-Allocate] A/B-Aktivität in Adobe interpretieren [!DNL Target]  indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
+description: Erfahren Sie, wie Sie [!UICONTROL Auto-Allocate] Ergebnisse der A/B-Aktivität interpretieren und sich dabei auf Schlüsselindikatoren wie Steigerung und Konfidenz konzentrieren.
 title: Wie interpretiere ich [!UICONTROL Auto-Allocate] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 21%
+source-wordcount: '1163'
+ht-degree: 20%
 
 ---
 
-# Interpretieren der automatischen Zuordnungsberichte
+# Interpretieren [!UICONTROL Auto-Allocate] Berichte
 
 Interpretieren Sie die Ergebnisse einer [!UICONTROL Auto-Allocate] A/B-Aktivität in [!UICONTROL Adobe Target], indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
 
@@ -23,23 +23,23 @@ Allgemeine Informationen zur Gewinnererklärung finden Sie unter [10 häufige Fe
 
 Bei Verwendung der [!UICONTROL Auto-Allocate]-Funktion zeigt [!DNL Target] oben auf der Seite der Aktivität ein Badge mit der Bezeichnung „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht.
 
-![Zeichen „Kein Gewinner“](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Zeichen „Kein Gewinner“](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-Wenn ein eindeutiger Gewinner angegeben wird, zeigt [!DNL Target] „Gewinner: Erlebnis *X* an.
+Wenn ein eindeutiger Gewinner bekannt gegeben wird, zeigt [!DNL Target] das Abzeichen „Gewinner: Erlebnis *X*&quot; an.
 
-![Bild des Gewinners](assets/winner.png)
+![Gewinner-Abzeichen](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->Aktivitäten mit Automatisierte Zuordnung dienen dazu, das beste Erlebnis aus allen Optionen zu ermitteln, anstatt nur paarweise Vergleiche mit Kontrollwerten durchzuführen.
+>[!UICONTROL Auto-Allocate] Aktivitäten sind so konzipiert, dass sie das beste Erlebnis unter allen Optionen finden und nicht nur paarweise Vergleiche mit Kontrolle durchführen.
 
-## Statistische Garantien der automatischen Zuordnung {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistische [!UICONTROL Auto-Allocate] {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Am Ende einer A/B-Aktivität garantiert [!UICONTROL Auto-Allocate], dass der ermittelte Gewinner eine effektive falsch-positive Rate von 5 % hat. Das bedeutet, dass der festgestellte Gewinner nur 5 % der Zeit nicht das beste Erlebnis aller in der Aktivität vorhandenen Erlebnisse ist. Bei einem [A/A-Test](/help/main/c-activities/t-test-ab/aa-testing.md) (mit identischen Erfahrungen) schließt [!DNL Target] einen Test in weniger als 5 % der Fälle ab. Zu erwarten ist, dass der A/A-Test (mit identischen Erlebnissen) unbegrenzt lange läuft, ohne dass ein Siegerabzeichen angezeigt wird.
 
 [!DNL Target] verwendet keine auf dem p-Wert basierende Konfidenz für [!UICONTROL Auto-Allocate].
 
-In der Spalte [!UICONTROL Confidence] in einer [!UICONTROL Auto-Allocate] Aktivität (siehe Abbildung unten) wird die Wahrscheinlichkeit, dass ein Erlebnis der Gewinner ist, innerhalb einer Fehlerspanne von 1 % angezeigt. Der Algorithmus verwendet einen minimalen detektierbaren Effekt von 1 % zwischen der besten und der zweitbesten Konversionsrate. Der Algorithmus verwendet [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) um diese Wahrscheinlichkeit zu berechnen.
+In der Spalte [!UICONTROL Confidence] in einer [!UICONTROL Auto-Allocate] Aktivität wird die Wahrscheinlichkeit, dass ein Erlebnis der Gewinner ist, innerhalb einer Fehlerspanne von 1 % angezeigt. Der Algorithmus verwendet einen minimalen detektierbaren Effekt von 1 % zwischen der besten und der zweitbesten Konversionsrate. Der Algorithmus verwendet [Bernstein Inequality](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) um diese Wahrscheinlichkeit zu berechnen.
 
 Bei normalen A/B-Tests wird die Konfidenz basierend auf P-Werten berechnet. [!UICONTROL Auto-Allocate] verwendet keine p-Werte. Mit P-Werten wird „grob“ die Wahrscheinlichkeit berechnet, mit der ein bestimmtes Erlebnis vom Kontrollelement abweicht. Diese P-Werte können dazu genutzt werden, um zu bestimmen, ob sich ein Erlebnis vom Kontrollelement unterscheidet. Die Werte können nicht genutzt werden, um festzustellen, ob ein Erlebnis sich von einem anderen Erlebnis unterscheidet, das nicht das Kontrollerlebnis ist.
 
@@ -82,5 +82,3 @@ Einer der folgenden Gründe beschreibt, warum 0 % für alle Aktivitäten in der 
 Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind derzeit nicht im [!UICONTROL A4T] in [!DNL Analysis Workspace] verfügbar. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target] angezeigt wird. Ein Gewinner-Abzeichen „Stern“, das in einem [!DNL Target] für eine [!UICONTROL Auto-Allocate]-Aktivität mit A4T angezeigt wird, sollte ignoriert werden.
 
 Weitere Informationen zu dieser und anderen Einschränkungen finden Sie unter [Automatische Zuordnung](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T-Unterstützung für [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten*.
-
-

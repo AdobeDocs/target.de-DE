@@ -1,12 +1,12 @@
 ---
 keywords: mehrere Werte;Attribute;Recommendations;mehrere Werte;mehrere Werte;mehrere Werte
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations mit einem Feld mit mehreren Werten arbeiten können, indem Sie bestimmte Operatoren für mehrere Werte verwenden, z. B. wenn Sie Filme mit mehreren Akteuren empfehlen.
+description: Erfahren Sie, wie Sie in mit einem Feld mit mehreren Werten  [!DNL Target Recommendations]  spezielle Operatoren für mehrere Werte verwenden.
 title: Kann ich in Recommendations Attribute mit mehreren Werten verwenden?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 9%
 
 ---
@@ -118,7 +118,7 @@ JSON-API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Elemente aus den Favoriten eines Benutzers empfehlen
 
-Kriterien, die Filterregeln mit mehreren Werten verwenden, können wie alle Kriterien über Adobe I/O-APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der `favorites` der Mbox-Parameter enthalten ist:
+Kriterien, die Filterregeln mit mehreren Werten verwenden, können wie alle Kriterien über [!DNL Adobe Target] APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der `favorites` der Mbox-Parameter enthalten ist:
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 Dieser würde mit JavaScript auf der Seite gepaart, um die Favoriteninhalte zu übergeben:
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

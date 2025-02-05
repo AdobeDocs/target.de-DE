@@ -5,9 +5,9 @@ title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personali
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -33,26 +33,17 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
 ## Einrichten von Berichtsgruppen
 
-1. Klicken Sie auf der Seite **[!UICONTROL Experiences]** einer AP-Aktivität auf das Symbol **[!UICONTROL Manage Content]** .
-
-   ![Symbol „Inhalt verwalten“](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; einer AP-Aktivität auf das Symbol **[!UICONTROL Manage Content]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) )
 1. Klicken Sie oben im Dialogfeld [!UICONTROL Manage Content] auf die Registerkarte **[!UICONTROL Offers]** .
-1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie den Mauszeiger über das gewünschte Angebot bewegen und dann auf das Symbol für den **[!UICONTROL Reporting Group]** klicken.
+1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) für das gewünschte Angebot klicken und dann auf **[!UICONTROL Reporting Group]** klicken.
 
-   ![Symbol für Berichtsgruppe](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann unten im Dialogfeld auf **[!UICONTROL Reporting Group]** klicken.
 
-1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann auf das Symbol **[!UICONTROL Reporting Group]** Ordner in der oberen rechten Ecke des Dialogfelds klicken.
-
-   ![Symbol für Berichtsgruppe](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. Um das ausgewählte Angebot einer vorhandenen Berichtsgruppe zuzuweisen, wählen Sie **[!UICONTROL Existing]** aus, wählen Sie die gewünschte Berichtsgruppe aus der Dropdown-Liste aus und klicken Sie dann auf **[!UICONTROL Apply]**.
+1. Um das ausgewählte Angebot einer vorhandenen Berichtsgruppe zuzuweisen, wählen Sie **[!UICONTROL Existing]** aus, wählen Sie die gewünschte Berichtsgruppe aus der Dropdown-Liste aus und klicken Sie dann auf **[!UICONTROL Confirm]**.
 
    Oder
 
-   Um eine Berichtsgruppe zu erstellen, der das ausgewählte Angebot zugewiesen werden soll, wählen Sie **[!UICONTROL New]** aus, benennen Sie die neue Berichtsgruppe und klicken Sie dann auf **[!UICONTROL Apply]**.
-
-   ![Neues Symbol zum Erstellen einer neuen Berichtsgruppe](/help/main/c-reports/assets/ap_reporting_groups.png)
+   Um eine Berichtsgruppe zu erstellen, der das ausgewählte Angebot zugewiesen werden soll, wählen Sie **[!UICONTROL New]** aus, benennen Sie die neue Berichtsgruppe und klicken Sie dann auf **[!UICONTROL Confirm]**.
 
 Sie können die [!UICONTROL Location] verwenden, um Angebote nach Standort zu filtern. Verwenden Sie die [!UICONTROL Report Group], um Angebote nach Berichtsgruppen zu filtern. Sie können die [!UICONTROL Report Group] auch verwenden, um nach [!UICONTROL Unassigned Offers] zu filtern, sodass Sie eine Berichtsgruppe einem Angebot zuweisen können, das derzeit keiner Berichtsgruppe zugewiesen ist.
 
@@ -81,5 +72,3 @@ Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppe
    ![Angebotsgruppen: Kontrolle und Zielgruppe](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 Informationen zur Verwendung von [!UICONTROL Automated Personalization]-Berichten (einschließlich des [!UICONTROL Offer Level]-Berichts) finden Sie unter [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).
-
-

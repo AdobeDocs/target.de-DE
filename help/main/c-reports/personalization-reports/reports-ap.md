@@ -5,10 +5,10 @@ title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 12%
+source-wordcount: '641'
+ht-degree: 11%
 
 ---
 
@@ -22,9 +22,9 @@ Für Benutzer [!UICONTROL Automated Personalization] Aktivitäten in [!DNL Adobe
 
 1. Klicken Sie auf **[!UICONTROL Activities]**, dann in der Liste auf die gewünschte [!UICONTROL Automated Personalization] und anschließend auf die Registerkarte **[!UICONTROL Reports]** .
 
-   Wenn Sie viele Aktivitäten haben, können Sie die Liste filtern, indem Sie [!UICONTROL Automated Personalization] aus der Dropdown-Liste [!UICONTROL Type] auswählen.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Download]**, um die Zusammenfassungsansicht herunterzuladen (z. B. Vergleich von Kontroll- und Targeting-Traffic), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Download]** ( ![Download-Symbol](/help/main/assets/icons/Download.svg) ), um die Zusammenfassungsansicht herunterzuladen (z. B. Vergleich von Kontroll- und Zieldatenverkehr), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
 
 [!UICONTROL Automated Personalization] bietet die folgenden Berichte:
 
@@ -37,8 +37,6 @@ Für Benutzer [!UICONTROL Automated Personalization] Aktivitäten in [!DNL Adobe
 
 Der [!UICONTROL Activity Level] vergleicht die Gesamtleistung der Verwendung eines [!UICONTROL Automated Personalization] Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
-![Aktivitätsstufenbericht](/help/main/c-reports/assets/box_plot_ap.png)
-
 Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Interpretation der Ergebnisse finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin,
 Der [!UICONTROL Offer Level] für das Erlebnis „Zufällige Gesamtstruktur“ vergleicht die Leistung der einzelnen auf einen Algorithmus angewendeten Angebote mit demselben zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden.
 
 Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontrolle), um den [!UICONTROL Offer Level] anzuzeigen.
-
-![Bericht auf Angebotsebene in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ Angebote können in [Berichtsgruppen“ angezeigt ](/help/main/c-activities/t-au
 
 Klicken Sie auf das Symbol [!UICONTROL Automated Segments] . Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
-![Symbol für automatisierte Segmente](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 Weitere Informationen finden Sie unter [Bericht zu automatisierten Segmenten](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Wichtige Attribute
 
 Klicken Sie auf das Symbol [!UICONTROL Important Attributes] . Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
-
-![Symbol für wichtige Attribute](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

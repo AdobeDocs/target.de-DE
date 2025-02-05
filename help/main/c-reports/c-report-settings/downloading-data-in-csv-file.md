@@ -4,30 +4,28 @@ description: Erfahren Sie, wie Sie Daten aus Adobe [!DNL Target] Aktivitäten im
 title: Wie lade ich Berichtsdaten in einer CSV-Datei herunter?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # Herunterladen von Daten in Form einer CSV-Datei
 
-Sie können Daten im .csv-Format herunterladen, um sie schnell in Excel, Access oder andere Datenanalyseprogramme zu importieren.
+Laden Sie Daten im CSV-Format herunter, um sie schnell in [!DNL Excel], [!DNL Access] oder andere Datenanalyseprogramme zu importieren.
 
 So laden Sie Daten als CSV-Datei herunter:
 
 1. Klicken Sie auf **[!UICONTROL Activities]** und klicken Sie dann in der Liste auf die gewünschte Aktivität.
 
-   Wenn Sie über viele Aktivitäten verfügen, können Sie die Liste filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Reports]** .
-1. Klicken Sie auf das Symbol **[!UICONTROL Download]** und wählen Sie dann einen Berichtstyp aus, der für Analysen in Excel und anderen Tools heruntergeladen werden soll.
+1. Klicken Sie auf das **[!UICONTROL Download]**-Symbol ![Download-Symbol](/help/main/assets/icons/Download.svg) und wählen Sie dann einen Berichtstyp aus, der für die Analyse in Excel und anderen Tools heruntergeladen werden soll.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![Download-Optionen](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

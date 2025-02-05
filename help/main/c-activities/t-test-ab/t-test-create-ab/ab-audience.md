@@ -1,84 +1,67 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Zielgruppe bestimmt, welche Site-Besucher in Ihre Adobe-Aktivität  [!DNL Target]  werden.
+description: Legen Sie anhand von Zielgruppenkriterien fest [!DNL Target]  welche Site-Besucher Ihrer Adobe-Aktivität beitreten.
 title: Wie wähle ich eine Zielgruppe in einer A/ [!DNL Target] -Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # Zielgruppenauswahl
 
-Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivität eingegeben werden.
+Die Zielgruppe bestimmt, welche qualifizierten Besucher in Ihre [!DNL Adobe Target]-Aktivität eingegeben werden.
 
->[!NOTE]
->
->Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+Der [!UICONTROL Targeting] Schritt des dreiteiligen geleiteten Workflows beim [Erstellen einer Aktivität](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) zeigt ein Flussdiagramm an, das Sie durch die Schritte zum Zuweisen einer Zielgruppe und ihres Traffic-Prozentsatzes, zum Auswählen der Traffic-Zuordnungsmethode und zum Angeben der Traffic-Zuordnung für jedes Erlebnis in der Aktivität führt.
 
-1. Klicken Sie im [!UICONTROL Audience] auf das Symbol **[!UICONTROL Edit]** (das vertikale Auslassungszeichen) und dann auf **[!UICONTROL Replace Audience]**.
+![Targeting-Schritt im A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![Option „Zielgruppe ersetzen“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erstellen einer A/B-Test-Aktivität](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Zielgruppen werden aus der Zielgruppenbibliothek ausgewählt. Alternativ können Sie eine Zielgruppe „Nur Aktivität“ erstellen. Die Zielgruppenbibliothek enthält Zielgruppen, die zuvor definiert wurden, einschließlich einiger allgemeiner Zielgruppen, die als Teil von [!DNL Target] vorkonfiguriert sind.
+## Auswählen einer Audience für die Aktivität
 
-1. Wählen oder erstellen Sie die gewünschte Zielgruppe:
+1. Klicken Sie auf das **[!UICONTROL All Visitors]**, um eine andere Zielgruppe für die Aktivität auszuwählen.
 
-   * Eine Zielgruppe aus der Bibliothek auswählen
-   * [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Neue Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Erstellen einer Zielgruppe „Nur Aktivität“](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Die [!UICONTROL All Visitors] Zielgruppe ist als Standard festgelegt. Wenn Sie eine andere Zielgruppe auswählen, wird deren Name im Steuerelement ganz links angezeigt.
 
    Wählen Sie für einen A/B-Test ohne spezielle Zielgruppen-Zielgruppe den Standardwert [!UICONTROL All Visitors].
 
-   Sie können eine Zielgruppe auch bearbeiten oder kopieren, indem Sie den Mauszeiger über die gewünschte Zielgruppe im Dialogfeld [!UICONTROL Add Audience] bewegen, wie unten dargestellt.
+   Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
-   Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Zielgruppe erstellen, Bearbeitungen vornehmen und sie dann als neue Zielgruppe speichern. Diese Mauszeigerfunktionalität existiert auch in anderen Aktivitätstypen.
+1. Um die Audience zu ändern, klicken Sie auf das **[!UICONTROL Replace]-** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
 
-   ![Symbol für Zielgruppe](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. Wählen Sie im Dialogfeld [!UICONTROL Add Audience] die [ Audience aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Assign Audience]**.
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen Sie unter [!UICONTROL Custom Parameters] die Mbox aus und geben Sie dann die gewünschten Parameter an.
+   Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Audiences werden aus dem [!UICONTROL Audience Library] ausgewählt oder Sie können eine Zielgruppe nur für Aktivitäten erstellen. Die [!UICONTROL Audience Library] enthält Zielgruppen, die zuvor definiert wurden, einschließlich einiger allgemeiner Zielgruppen, die als Teil der [!DNL Target] vorkonfiguriert sind.
 
-   >[!NOTE]
-   >
-   >Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die Zielgruppenliste öffnen und die importierten Zielgruppen älter als 10 Minuten sind.
+1. (Bedingt) Klicken Sie auf **Zielgruppen kombinieren**, um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Bedingt) Geben Sie den Prozentsatz der qualifizierten Besucher an, die in die Aktivität aufgenommen werden sollen.
+1. (Bedingt) Um eine neue Zielgruppe zu erstellen, die sich noch nicht in der [!UICONTROL Audience Library] befindet, klicken Sie auf **Zielgruppe erstellen** definieren Sie die Zielgruppe und klicken Sie dann auf **[!UICONTROL Done]**.
 
-   So können Sie zum Beispiel festlegen, dass 50 % aller Besucher berücksichtigt werden sollen.
+   Während des [Zielgruppen-Workflows](/help/main/c-target/c-audiences/audiences.md) können Sie aus den folgenden Optionen auswählen:
 
-   ![Prozentsatz für Zielgruppen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**: Erstellen Sie eine On-Demand-Zielgruppe, die in der [!UICONTROL Audience Library] gespeichert wird und in anderen Aktivitäten wiederverwendet werden kann.
+   * **[!UICONTROL This activity only]**: Erstellen Sie eine [aktivitätsspezifische Zielgruppe](/help/main/c-target/creating-activity-only-audience.md) die nicht im [!UICONTROL Audience Library] gespeichert wird und nur in der aktuellen Aktivität verwendet werden kann.
 
-   Sie können Target auch &quot;[ Traffic automatisch zuweisen“ ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+1. Klicken Sie im rechten Bereich auf **[!UICONTROL Visitor Percentage]** und geben Sie dann den Prozentsatz der qualifizierten Besucher an, die in die Aktivität aufgenommen werden sollen.
 
-## Schulungsvideos
+1. Wenn Sie mit Ihrer Zielgruppe zufrieden sind, klicken Sie auf **[!UICONTROL Next]** , um zum dritten Schritt des dreistufigen Workflows zu wechseln.
 
-In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+>[!NOTE]
+>
+>Zielgruppen werden automatisch im Hintergrund importiert, wenn Sie die [!UICONTROL Audience] öffnen, und die importierten Zielgruppen sind älter als 10 Minuten.
 
-### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichts-Badge](/help/main/assets/overview.png)
+## Anzeigen der Informationen einer Zielgruppe
 
-In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/Premium] einsetzen lassen.
+1. Klicken Sie im Dialogfeld [!UICONTROL Add Audiences] auf das **[!UICONTROL Information]** ( ![Info-Symbol](/help/main/assets/icons/InfoOutline.svg) ) neben einer Zielgruppe, um Details zu dieser Zielgruppe, einschließlich ihrer Quelle und Attribute, anzuzeigen.
 
-* Erläuterung des Begriffs „Zielgruppe“
-* Erläuterung der beiden Arten, auf die Zielgruppen zur Optimierung eingesetzt werden
-* Auffinden von Zielgruppen in der Zielgruppenliste
-* Zuordnung einer Aktivität zu einer Zielgruppe
-* Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
+1. Klicken Sie auf **[!UICONTROL View Full Details]** , um zusätzliche Details zur Audience anzuzeigen. Zu den Details gehören die Attribute der Zielgruppe, die Beschreibung, der Arbeitsbereich, der Typ und die Quelle der Zielgruppe sowie eine Liste der Aktivitäten, die auf diese Zielgruppe verweisen. Sie können Informationen zu jeder Zielgruppe anzeigen, einschließlich Aktivitätsname, Status, Arbeitsbereich und Zeitpunkt der letzten Änderung der Zielgruppe und von wem.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## Bearbeiten oder Kopieren einer Audience
 
-### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+Um eine Audience zu bearbeiten oder zu kopieren, klicken Sie im [!UICONTROL Add Audience]-Dialogfeld neben der gewünschten Audience auf das [!UICONTROL More Actions]-Symbol ![Mehr Aktionen-](/help/main/assets/icons/More.svg) ) und klicken Sie dann auf [!UICONTROL Edit] oder [!UICONTROL Copy].
 
-In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
-
-* Zuweisen einer Zielgruppe zur Aktivität
-* Regulieren von Traffic nach oben oder unten
-* Auswählen der Zuordnungsmethode für den Traffic
-* Zuweisen von Traffic zu verschiedenen Erlebnissen
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Detaillierte Informationen finden Sie unter [Zielgruppen](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Audience erstellen, Ihre Änderungen vornehmen und sie dann als neue Audience speichern.

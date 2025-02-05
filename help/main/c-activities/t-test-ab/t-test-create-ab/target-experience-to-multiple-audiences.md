@@ -1,13 +1,13 @@
 ---
 keywords: mehrere Zielgruppen;Erlebnisversionen;Erlebnisversionen auswählen
-description: Erfahren Sie, wie Sie in A/B-Aktivitäten Versionen desselben Erlebnisses für verschiedene Zielgruppen  [!DNL Adobe Target]  können.
+description: Erfahren Sie, wie Sie in A/B-Aktivitäten verschiedene Zielgruppensegmente mit Versionen desselben Erlebnisses ansprechen können.
 title: Kann ich in einer A/B-Aktivität mehrere Erlebnisversionen verwenden?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '593'
+ht-degree: 52%
 
 ---
 
@@ -33,13 +33,9 @@ In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Si
 
    Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
 
-1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Option „Mehrere Zielgruppen“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
-
-1. Klicken Sie auf **[!UICONTROL Add Audience]** und wählen Sie dann die erste Audience aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
-
-   ![exp-versions image](assets/exp-versions.png)
+1. Klicken Sie auf das **[!UICONTROL Add Audience]**-Symbol ![Hinzufügen](/help/main/assets/icons/Add.svg) ) im [!UICONTROL Experience Audiences] Bereich und wählen Sie dann die erste Audience aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 

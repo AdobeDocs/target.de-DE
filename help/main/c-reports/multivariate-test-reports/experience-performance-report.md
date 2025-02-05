@@ -4,26 +4,24 @@ description: Erfahren Sie, wie Sie den Experience Performance-Bericht für Adobe
 title: Wie verwende ich den Experience Performance-Bericht für Multivarianz-Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# Experience Performance-Bericht (MVT)
+# [!UICONTROL Experience Performance] (MVT)
 
-Der Experience Performance-Bericht zeigt, wie die einzelnen Erlebnisse in der Aktivität funktionieren. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
+Der [!UICONTROL Experience Performance] Bericht zeigt die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 
 Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Preview]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
-
-![Erlebnisleistungsbericht in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 
 >[!NOTE]
 >
->Die Auswahl der Zielgruppe und Metriken steht nur zur Verfügung, wenn Analytics als Berichtsquelle verwendet wird.
+>Die Zielgruppen- und Metrikauswahl sind nur verfügbar, wenn [!DNL Analytics] als Berichtsquelle verwendet wird.
 
 Danach ermöglicht ein Liniendiagramm einen visuellen Vergleich der einzelnen Erlebnisse zu bestimmten Zeitintervallen. Mithilfe dieses Diagramms können Sie sehen, wie die einzelnen Erlebnisse abschneiden und welchen Einfluss die Tageszeit auf die Leistung hat.
 

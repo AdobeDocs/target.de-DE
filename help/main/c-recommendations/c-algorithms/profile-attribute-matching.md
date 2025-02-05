@@ -1,20 +1,20 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; dynamisch; Profilattributübereinstimmung
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
+description: Erfahren Sie, wie Sie  [!DNL Target Recommendations]  dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
 title: Wie filtere ich nach der Zuordnung von Profilattributen in Recommendations-Aktivitäten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
 # Zuordnung von Profilattributen
 
-Dynamisches Filtern in [!DNL Adobe Target] [!DNL Recommendations] durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.
+Dynamisches Filtern in [!DNL Adobe Target Recommendations] durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.
 
 Verwenden Sie [!UICONTROL Profile Attribute Matching], wenn Sie Empfehlungen anzeigen möchten, die einem im Besucherprofil gespeicherten Wert entsprechen, z. B. Größe oder Lieblingsmarke.
 
@@ -29,13 +29,13 @@ Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profile Attribute Matching] 
 
 ## Beispiele für die Zuordnung von Profilattributen {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-Mit [!UICONTROL Profile Attribute Matching] können Sie nur die Elemente empfehlen, die einem Attribut aus dem Besucherprofil entsprechen, wie in den Beispielen unten dargestellt.
+[!UICONTROL Profile Attribute Matching] können Sie nur die Elemente empfehlen, die einem Attribut aus dem Besucherprofil entsprechen, wie in den Beispielen unten dargestellt.
 
 ### Empfohlene Artikel der Lieblingsmarke des Benutzers
 
-Sie können beispielsweise die Option [!UICONTROL Profile Attribute Matching] verwenden, um eine Regel zu erstellen, die Elemente nur dann empfiehlt, wenn die Marke dem in `profile.favoritebrand` gespeicherten Wert oder Text entspricht. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
+Sie können beispielsweise die Option [!UICONTROL Profile Attribute Matching] verwenden, um eine Regel zu erstellen, die Elemente nur dann empfiehlt, wenn die Marke dem in `profile.favoritebrand` gespeicherten Wert oder Text entspricht. Mit einer solchen Regel werden bei einem Besucher, der Laufshorts von einer bestimmten Marke sucht, nur Empfehlungen angezeigt, die mit der Lieblingsmarke dieses Benutzers übereinstimmen (der Wert, der in `profile.favoritebrand` im Besucherprofil gespeichert ist).
 
-![Lieblingsmarke](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
+![Lieblingsmarke](/help/main/c-recommendations/c-algorithms/assets/favorite-brand-new.png)
 
 ```
 Profile Attribute Matching
@@ -46,9 +46,9 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 Angenommen, Sie versuchen, Jobs mit Arbeitsuchenden abzugleichen. Sie möchten nur Jobs empfehlen, die sich in derselben Stadt wie der Arbeitsuchende befinden.
 
-Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden vom Besucherprofil zu einer Auftragsliste abzugleichen, wie im folgenden Beispiel gezeigt:
+Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden aus dem Besucherprofil mit einer Auftragsliste abzugleichen, wie im folgenden Beispiel gezeigt:
 
-![Stadt des Benutzers](/help/main/c-recommendations/c-algorithms/assets/city.png)
+![Stadt des Benutzers](/help/main/c-recommendations/c-algorithms/assets/city-new.png)
 
 ```
 Profile Attribute Matching
@@ -63,7 +63,7 @@ Wenn ein Besucher auf verschiedene Bilder von Fans auf dieser Website klickt, le
 
 Angenommen, Sie haben ein Profilskript erstellt, um zu verfolgen und zu zählen, wie oft der Wert von `entity.size` auf „Klein“ oder „Groß“ gesetzt wird.
 
-Wenn der Besucher dann zur Startseite zurückkehrt, werden ihm gefilterte Empfehlungen angezeigt, je nachdem, ob mehr kleine oder große Fans angeklickt wurden.
+Wenn der Besucher dann zur Startseite zurückkehrt, sieht er gefilterte Empfehlungen, je nachdem, ob auf weitere kleine oder große Fans geklickt wurde.
 
 Recommendations basiert auf der Anzeige kleinerer Fans auf der Website:
 

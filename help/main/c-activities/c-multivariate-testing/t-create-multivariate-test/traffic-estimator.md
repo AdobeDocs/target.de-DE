@@ -4,18 +4,18 @@ description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie üb
 title: Wie viel Traffic wird für eine [!UICONTROL Multivariate Test] (MVT)-Aktivität benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 53%
+source-wordcount: '485'
+ht-degree: 21%
 
 ---
 
 # Schätzen des für eine erfolgreiche [!UICONTROL Multivariate Test] erforderlichen Traffics
 
-Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
+Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Der [!UICONTROL Traffic Estimator] verwendet Statistiken zu Ihrer Seite und der Anzahl der Erlebnisse, die getestet werden, um die Menge an Traffic und die Testdauer zu schätzen, die für den Erfolg des Tests erforderlich sind.
 
-Die Traffic-Schätzung prognostiziert die erforderliche Stichprobengröße, um Folgendes zu gewährleisten:
+Die [!UICONTROL Traffic Estimator] sagt den Stichprobenumfang voraus, der erforderlich ist, um Folgendes sicherzustellen:
 
 * 95 % Konfidenz. Diese Statistik bedeutet, dass die Wahrscheinlichkeit, einen falsch positiven Wert zu melden, wenn es keine echte Steigerung gibt, 5 % beträgt (100 % - Konfidenzniveau).
 * 80 % statistische Leistung. Diese Statistik bedeutet, dass der Test mit einer Wahrscheinlichkeit von 80 % eine tatsächliche Steigerung von 25 % oder mehr erkennt.
@@ -23,34 +23,32 @@ Die Traffic-Schätzung prognostiziert die erforderliche Stichprobengröße, um F
 
 Der Test verwendet die Bonferroni-Korrektur zur Korrektur von Mehrfachvergleichen. Diese Methode gilt als konservativ, was durch Erzwingen eines relativ hohen Wertes für die zuverlässig bestimmbare Mindeststeigerung kompensiert wird.
 
-Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit der von Ihnen entworfene Test erfolgreich ist.
+Die [!UICONTROL Traffic Estimator] bietet außerdem Feedback, mit dem Sie wissen, ob Sie über ausreichend Traffic für den Test verfügen, den Sie erfolgreich durchführen möchten.
 
-1. Klicken Sie in der [!UICONTROL Visual Experience Composer] auf das Symbol **[!UICONTROL Traffic]** .
+1. Klicken Sie auf der [!UICONTROL Experiences] der [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Multivariate] auf das **[!UICONTROL Traffic]**-Symbol ( ![Traffic-](/help/main/assets/icons/Gauge2.svg)) oben links auf der [!UICONTROL Experiences].
 
-   Die Traffic-Schätzung wird geöffnet. Sie können erneut auf das Symbol **[!UICONTROL Traffic]** klicken, um die Traffic-Schätzung auszublenden.
+   Die [!UICONTROL Traffic Estimator] wird geöffnet.
 
-   ![estimatedEmpty image](assets/estimatorempty.png)
+   ![Benutzeroberfläche der Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
-1. Geben Sie die übliche Konversionsrate, den Schätzwert für die Besucher pro Tag und die Testdauer an.
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic Estimator] auszublenden.
+
+   Im oberen Bereich der [!UICONTROL Traffic Estimator] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
+
+1. (Bedingt) Geben Sie die typische Konversionsrate, die geschätzten Besucher pro Tag und die Testdauer an.
 
    * **[!UICONTROL Number of Content Combinations]**: Wird automatisch berechnet, basierend auf der Anzahl der Erlebnisse, die im Rahmen Ihrer Aktivität nach einem Ausschluss erstellt werden.
    * **[!UICONTROL Typical Conversion Rate]**: Die Konversionsrate wird als Prozentsatz ausgedrückt, basierend auf Ihrer Schätzung oder früheren Daten aus Ihrem Analysesystem.
    * **[!UICONTROL Estimated Visitors Per Day]**: Dies ist die Anzahl der Besucherinnen und Besucher, die diese Seite anhand der Zielgruppenbestimmungskriterien wahrscheinlich anzeigen werden. Dies kann auf Ihren Analytics-Daten basieren.
    * **[!UICONTROL Test Duration]**: Die Anzahl der Tage, die die Aktivität ausgeführt werden soll.
 
-   Die Traffic-Schätzung verwendet diese Statistik, um zu ermitteln, welche Anpassungen erforderlich sind, um einen erfolgreichen Test auszuführen.
+   Der [!UICONTROL Traffic Estimator] verwendet diese Statistiken, um zu bestimmen, welche Anpassungen für die Ausführung eines erfolgreichen Tests erforderlich sind.
 
-   Im oberen Bereich der Traffic-Schätzung werden die von ihnen eingegebenen Werte berechnet und die Ergebnisse werden angezeigt.
-
-   ![Unzureichendes Bild](assets/estimatorinsufficient.png)
-
-   Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie beispielsweise viele Erlebnisse testen und Ihre Konversionsrate und Impressions zu niedrig sind, zeigt die Traffic-Schätzung an, wie lange der Test ausgeführt werden muss, um erfolgreich zu sein. Oder wenn Ihr Traffic langsam ist, kann die Traffic-Schätzung eine niedrigere Anzahl von Erlebnissen vorschlagen, sodass Sie den Test über die gewünschte Anzahl von Tagen ausführen können.
+   Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie beispielsweise viele Erlebnisse testen und Ihre Konversionsrate und Impressions zu niedrig sind, zeigt die [!UICONTROL Traffic Estimator] an, wie lange der Test ausgeführt werden muss, um erfolgreich zu sein. Wenn Ihr Traffic gering ist, kann der [!UICONTROL Traffic Estimator] eine niedrigere Anzahl von Erlebnissen vorschlagen, sodass Sie den Test die gewünschte Anzahl von Tagen ausführen können.
 
    Wenn Sie nicht über ausreichend Traffic verfügen, können Sie eine oder beide der folgenden Maßnahmen ergreifen:
 
    * Reduzieren Sie die Anzahl der Angebotskombinationen sowie die Anzahl der Orte.
    * Verlängern der Testdauer.
 
-   Passen Sie die Zahlen so lange an, bis die Traffic-Schätzung Ihnen mitteilt, dass Sie über ausreichend Traffic verfügen. Dann können Sie Ihren Entwurf entsprechend entwerfen.
-
-   ![Bild des Schätzers](assets/estimatorok.png)
+   Passen Sie die Zahlen an, bis die [!UICONTROL Traffic Estimator] anzeigt, dass Sie über ausreichend Traffic verfügen, und entwerfen Sie dann Ihren Test entsprechend.
