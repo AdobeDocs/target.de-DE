@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 15%
 
 ---
@@ -40,13 +40,13 @@ Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche 
 
 Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
 
-* Neu gestaltete Berichte für bessere Einblicke in Aktivitätsergebnisse
+* [Überarbeitetes Reporting](/help/main/administrating-target/reporting.md) für bessere Einblicke in Aktivitätsergebnisse
 * [!UICONTROL Audit] Seite wurde aktualisiert und es werden jetzt Informationen aus der [!DNL Audit API] für Echtzeit-Einblicke abgerufen
-* Anpassbare Listenansichten für eine bessere Flexibilität bei den verschiedenen Team-Anforderungen
-* Verbesserte Quick-Info- und Detailbildschirme für einen einfacheren Zugriff auf Informationen
-* Optionen für sitzungspersistente Suche und Filter
-* Vollständig neu aufgebaute [!UICONTROL Visual Editing Composer] mit Unterstützung für die neuesten Sicherheitsaktualisierungen von Browser-Anbietern und einer modernen Benutzeroberfläche
-* Die [!DNL Chrome]-Erweiterung zur Unterstützung von Manifest V3 wurde aktualisiert, um die Sicherheit zu erhöhen und die Unterstützung für Erstanbieter-Cookies zu verbessern
+* [Anpassbare Listenansichten](/help/main/c-activities/activities.md) um die Flexibilität bei den verschiedenen Team-Anforderungen zu verbessern
+* [Verbesserte Schnellinfo- und Detailbildschirme](/help/main/c-activities/activities.md) für einen einfacheren Zugriff auf Informationen
+* [Optionen für sitzungspersistente Suche und Filter](/help/main/c-activities/activities.md)
+* Vollständig [neu aufgebaute [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) mit Unterstützung für die neuesten Sicherheitsaktualisierungen von Browser-Anbietern und einer modernen Benutzeroberfläche
+* [Aktualisierte [!DNL Chrome] Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) Unterstützung von Manifest V3 für erhöhte Sicherheit und verbesserte Unterstützung für Erstanbieter-Cookies
 
 ![Aktivitäten aktualisieren](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche 
 
 Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
 
-* Die Produktkatalogsuche bietet jetzt eine aktualisierte Datenbank, die eine Echtzeit-Synchronisierung von Produkten ermöglicht
-* [!UICONTROL Recommendation] Objekte ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]), die über die API erstellt wurden, sind jetzt in der Benutzeroberfläche verfügbar
-* Die Einstellungen wurden im Abschnitt [!UICONTROL Administration] konsolidiert
+* Die [Produktkatalogsuche](/help/main/c-recommendations/c-products/catalog-search.md) bietet jetzt eine aktualisierte Datenbank, die eine Echtzeit-Synchronisierung von Produkten ermöglicht
+* [!UICONTROL Recommendations] Objekte ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]), [ über die API erstellt wurden, sind jetzt in der Benutzeroberfläche verfügbar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)Einstellungen wurden im Abschnitt [!UICONTROL Administration] konsolidiert
 * Anpassbare Listenansichten für eine bessere Flexibilität bei den verschiedenen Team-Anforderungen
-* Aktualisierte HTML- und JSON-Code-Editoren mit Syntaxhervorhebung und Zeilennummerierung
+* Aktualisierte HTML- und JSON-Code-Editoren mit [Syntaxhervorhebung und Zeilennummerierung](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Verbesserte Quick-Info- und Detailbildschirme für einen einfacheren Zugriff auf Informationen
 * Optionen für sitzungspersistente Suche und Filter
 
