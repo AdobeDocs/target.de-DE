@@ -4,7 +4,7 @@ description: Machen Sie sich mit den Änderungen vertraut, die in Visual Experie
 title: Welche Änderungen werden mit dem neuen Visual Experience Composer (VEC) eingeführt?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Klicken Sie auf das [!UICONTROL More Options] (Symbol ![Mehr Aktionen](/help/mai
 
 ### Bedienfeld [!UICONTROL Properties] (neu)
 
-Im neuen [!UICONTROL Properties] können Sie die Eigenschaften ausgewählter Seitenelemente ändern, unabhängig davon, ob es sich um HTML-Elemente oder [!DNL Target] Objekte wie Empfehlungen oder Angebote handelt.
+Im neuen [!UICONTROL Properties] können Sie die Eigenschaften ausgewählter Seitenelemente ändern, unabhängig davon, ob es sich um HTML-Elemente oder [!DNL Target]-spezifische Objekte wie Empfehlungen oder Angebote handelt.
 
 ![Bedienfeld „Eigenschaften“](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
