@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1263'
 ht-degree: 89%
 
 ---
@@ -229,6 +229,7 @@ ht-degree: 89%
    + Visual Experience Composer (VEC) {#vec}
       + [Visual Experience Composer – Überblick](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Visual Experience Composer-Optionen](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [Gleiches Erlebnis auf ähnlichen Seiten](c-experiences/c-visual-experience-composer/temtest.md)
       + [Mehrseitige Aktivität](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Aktivitätskollisionen](c-experiences/c-visual-experience-composer/activity-collisions.md)

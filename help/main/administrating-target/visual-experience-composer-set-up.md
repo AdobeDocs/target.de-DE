@@ -5,9 +5,9 @@ title: Wie konfiguriere ich Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ Diese Option ist beispielsweise hilfreich, wenn:
 
 Bei der Aktivierung von Erlebnismomentaufnahmen werden Miniaturen Ihrer Erlebnisse in der Übersicht des Aktivitätsarbeitsablaufs generiert. Die Deaktivierung von Momentaufnahmen kann bei einigen Benutzern zu einer Beschleunigung der Performance führen.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."}
+## Mobile Viewport-Konfiguration  
+
+>[!NOTE]
+>
+>Die [!UICONTROL Mobile Viewport Configuration] ist eine [Target Premium](/help/main/c-intro/intro.md#premium)-Funktion.
+
 
 Sie können Geräte hinzufügen, die für die Vorschau der Erlebnisse verwendet werden sollen. Jedem Gerät ist dabei eine Zielgruppe zugeordnet.
 
