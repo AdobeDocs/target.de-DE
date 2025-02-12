@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 32%
+source-wordcount: '206'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +21,8 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
-| 12. Februar | [Unterstützte Browser](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Es wurden Informationen darüber hinzugefügt, welche Browser in einer Target-Implementierung über die [!DNL Adobe Experience Platform Web SDK] unterstützt werden. |
+| 12. Februar | [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Das gesamte Thema wurde aktualisiert, um den aktualisierten VEC zu erklären, der in der [!DNL Target Standard/Premium]-Version 25.2.1 (12. Februar 2025) eingeführt wurde. |
+|  | [Unterstützte Browser](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Es wurden Informationen darüber hinzugefügt, welche Browser in einer Target-Implementierung über die [!DNL Adobe Experience Platform Web SDK] unterstützt werden. |
 |  | [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | Neuer Artikel zur Erläuterung der Unterschiede zwischen der vorherigen und der aktualisierten Version des VEC. |
 |  | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für das Update der Benutzeroberfläche von [!DNL Target Standard/Premium] 25.2.1 hinzugefügt (geplant für den 12. Februar 2025). Viele Artikel wurden aktualisiert, um die Änderungen an der Benutzeroberfläche widerzuspiegeln. |
 

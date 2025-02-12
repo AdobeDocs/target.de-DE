@@ -4,16 +4,16 @@ description: Machen Sie sich mit den Änderungen vertraut, die in Visual Experie
 title: Welche Änderungen werden mit dem neuen Visual Experience Composer (VEC) eingeführt?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] Kalender
 
-Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (11. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der vorherigen und der aktualisierten Version des VEC erläutert.
+Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (12. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der vorherigen und der aktualisierten Version des VEC erläutert.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nac
 
 ![Bedienfeld „Komponenten](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Um eine neue Komponente hinzuzufügen, ziehen Sie die einzufügende Komponente über ein vorhandenes Seitenelement in die Arbeitsfläche für die Bearbeitung. Wählen Sie dann aus, dass die Komponente vor oder nach dem ausgewählten Element eingefügt werden soll.
+Um eine neue Komponente hinzuzufügen, ziehen Sie die Komponente aus dem Bedienfeld „Komponenten“, das Sie einfügen möchten, über ein vorhandenes Seitenelement in die Arbeitsfläche „Design“. Wählen Sie dann aus, dass die Komponente vor oder nach dem ausgewählten Element eingefügt werden soll.
 
 Im Vergleich zur vorherigen VEC-Version können Sie ein ausgewähltes Element nicht durch eine Komponente ersetzen.
 
