@@ -4,7 +4,7 @@ description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 57%
@@ -17,7 +17,7 @@ Informationen zur Verwendung des [!UICONTROL Visual Experience Composer] (VEC) i
 
 >[!NOTE]
 >
->Die Version [!DNL Target Standard/Premium] 25.2.1 (11. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Die Version [!DNL Target Standard/Premium] 25.2.1 (12. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 VEC ist eine Benutzeroberfläche von WYSIWYG, mit der Sie personalisierte Erlebnisse und Angebote im Kontext der Website einfach erstellen und testen können. Sie können Erlebnisse und Angebote für [!DNL Target] Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Web-Seite (oder eines Angebots) oder einer mobilen Web-Seite per Drag-and-Drop austauschen und ändern.
 

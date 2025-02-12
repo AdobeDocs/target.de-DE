@@ -1,10 +1,10 @@
 ---
-keywords: Visual Experience Composer-Optionen;Experience Composer-Optionen;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Visual Experience Composer-Link;CSS-Klasse bearbeiten;CSS-Klasse;CSS-Klasse;Angebot wechseln;Angebot vertauschen;Bild vertauschen;Bild vertauschen;Element entfernen;Element entfernen;Element ausblenden;Element neu anordnen;Element verschieben;Elementgröße ändern;Element vergrößern;Auswahl erweitern;zu diesem Link navigieren;Link navigieren;navigieren;Link navigieren;Link navigieren;Link;Rückgängig;Wiederholen;Wiederholen;benutzerspezifische Ereignisse;Ereignisse;Web-Komponenten;Angebot Entscheidung;offer decisioning
+keywords: Visual Experience Composer-Optionen;Experience Composer-Optionen;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Visual Experience Composer-Link;CSS-Klasse bearbeiten;CSS-Klasse;CSS-Klasse;Angebot wechseln;Angebot vertauschen;Bild vertauschen;Bild vertauschen;Element entfernen;Element entfernen;Element ausblenden;Element neu anordnen;Element verschieben;Elementgröße ändern;Element vergrößern;Auswahl erweitern;zu diesem Link navigieren;Link navigieren;navigieren;Link navigieren;Link navigieren;Link;Rückgängig;Wiederholen;Wiederholen;benutzerspezifische Ereignisse;Ereignisse;Web-Komponenten;Angebot Entscheidung;Offer Decisioning
 description: Erkunden Sie die in der (VEC [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] verfügbaren Optionen.
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC)-Optionen?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experie
 
 >[!NOTE]
 >
->Die Version [!DNL Target Standard/Premium] 25.2.1 (11. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Die Version [!DNL Target Standard/Premium] 25.2.1 (12. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 Die verschiedenen [!UICONTROL Visual Experience Composer] (VEC)-Aktionen sind in entsprechenden Menüoptionen gruppiert, um Ihren Auftrag schneller und effizienter zu gestalten:
@@ -36,7 +36,7 @@ Wenn Sie in einer [!UICONTROL A/B Test] Aktivität auf ein Bild klicken, sieht d
 
 Wählen Sie Komponenten aus dem Komponentenrahmen auf der linken Seite aus, um die folgenden Elemente einzufügen:
 
-* Einfach (Trennzeichen, HTML, Bild).
+* Einfach (Unterteilung, HTML, Bild).
 * Text (Überschrift, Absatz, Link).
 * Dynamisch ([Empfehlung](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML-Angebot).
 
@@ -51,7 +51,7 @@ Mit dem Rahmen auf der rechten Seite können Sie die Eigenschaften des Bildes we
 
 Über die Symbole oben im Frame können Sie Folgendes tun:
 
-* Bearbeiten Sie die HTML ( ![Symbol HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere [ finden Sie ](#html) unten unter &quot;HTML bearbeiten“.
+* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). HTML Weitere Informationen finden [ unter &quot;](#html) bearbeiten“.
 * Duplizieren Sie das Bild ( ![Duplikatsymbol](/help/main/assets/icons/Code.svg) ).
 * Löschen Sie das Bild ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
 * Bild ausblenden ( ![Symbol ausblenden](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -75,7 +75,7 @@ Wenn Sie auf Text in einer [!UICONTROL A/B Test] Aktivität klicken, sieht der V
 
 Wählen Sie aus dem [!UICONTROL Components] auf der linken Seite Komponenten aus, um die folgenden Elemente einzufügen:
 
-* Einfach (Trennzeichen, HTML, Bild).
+* Einfach (Unterteilung, HTML, Bild).
 * Text (Überschrift, Absatz, Link).
 * Dynamisch ([Empfehlung](/help/main/c-recommendations/recommendations-as-an-offer.md), [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML-Angebot).
 
@@ -89,7 +89,7 @@ Das Menü oben im Textelement bietet folgende Möglichkeiten:
 * Konfigurieren Sie die Ausrichtung des Textes (links, zentriert, rechts, Blocksatz) (![Symbol für Textausrichtung](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Fügen Sie einen Link ein ( ![Symbol „Link einfügen](/help/main/assets/icons/Link.svg) ).
 * Ersetzen Sie den Inhalt durch ein HTML-Angebot, [Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) oder [Recommendation]/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Bearbeiten Sie die HTML ( ![Symbol HTML einfügen](/help/main/assets/icons/Code.svg) ).
+* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ).
 * Personalisierung hinzufügen ( ![Symbol &quot;Personalization hinzufügen](/help/main/assets/icons/PersonalizationField.svg) ).
 * Löschen Sie das Bild ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
 
@@ -97,7 +97,7 @@ Mit dem Rahmen auf der rechten Seite können Sie die Eigenschaften des Textes we
 
 Über die Symbole oben im Frame können Sie Folgendes tun:
 
-* Bearbeiten Sie die HTML ( ![Symbol HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere [ finden Sie ](#html) unten unter &quot;HTML bearbeiten“.
+* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). HTML Weitere Informationen finden [ unter &quot;](#html) bearbeiten“.
 * Duplizieren Sie den Text ( ![Duplikatsymbol](/help/main/assets/icons/Code.svg) ).
 * Löschen Sie den Text ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
 * Blendet den Text aus ( ![Symbol ausblenden](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -119,7 +119,7 @@ Mit den Optionen im rechten Rahmen können Sie Folgendes tun:
 
 Neben HTML-Code können Sie auch benutzerdefiniertes JavaScript bearbeiten und einfügen.
 
-Beim Bearbeiten von Text und HTML für [!UICONTROL A/B]- und [!UICONTROL Experience Targeting]-Aktivitäten stehen verschiedene Rich-Text-Formatierungsoptionen zur Verfügung. Sie können eine Schriftart und einen Schriftstil auswählen, die Textausrichtung ändern und andere Standardformatierungsoptionen für Texte anwenden. Beim Ändern von HTML können Sie zwischen der Code-Ansicht und der Rich-Editing-Ansicht der HTML wechseln.
+Beim Bearbeiten von Text und HTML für [!UICONTROL A/B]- und [!UICONTROL Experience Targeting]-Aktivitäten stehen verschiedene Rich-Text-Formatierungsoptionen zur Verfügung. Sie können eine Schriftart und einen Schriftstil auswählen, die Textausrichtung ändern und andere Standardformatierungsoptionen für Texte anwenden. Beim Ändern von HTML können Sie zwischen der Code-Ansicht und der Rich-Editing-Ansicht von HTML wechseln.
 
 Die folgenden HTML 5-Tags können verschachtelt sein:
 
