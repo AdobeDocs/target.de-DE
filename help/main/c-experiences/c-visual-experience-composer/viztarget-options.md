@@ -4,7 +4,7 @@ description: Erkunden Sie die in der (VEC [!DNL Adobe Target] [!UICONTROL Visual
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC)-Optionen?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Visual Experience Composer-Optionen
 
-Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (12. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die aktualisierte Benutzeroberfläche und ihre Optionen erläutert.
+Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die aktualisierte Benutzeroberfläche und ihre Optionen erläutert.
 
 >[!IMPORTANT]
 >
@@ -123,7 +123,7 @@ Klicken Sie in der Kopfzeile des Bedienfelds auf das **[!UICONTROL More Options]
 
 Klicken Sie auf das **[!UICONTROL More Options]**-Symbol ( ![Mehr Aktionen-](/help/main/assets/icons/MoreSmall.svg) ) neben jeder Änderung, um die zugehörigen Informationen anzuzeigen, die Änderung zu löschen oder die Änderung auf weitere Ansichten anzuwenden.
 
-### [!UICONTROL Design] Arbeitsfläche
+### [!UICONTROL Design]
 
 Auf der [!UICONTROL Design] Arbeitsfläche können Sie Viewports auswählen, einschließlich „An Bildschirm anpassen“, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] und [!UICONTROL Mobile Portrait]. Standardmäßig passt die Arbeitsfläche die Seite zusammen mit den im Abschnitt „Administration“ definierten Darstellungsfeldern [ den Bildschirm ](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
