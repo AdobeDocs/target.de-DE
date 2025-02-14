@@ -123,7 +123,7 @@ Klicken Sie in der Kopfzeile des Bedienfelds auf das **[!UICONTROL More Options]
 
 Klicken Sie auf das **[!UICONTROL More Options]**-Symbol ( ![Mehr Aktionen-](/help/main/assets/icons/MoreSmall.svg) ) neben jeder Änderung, um die zugehörigen Informationen anzuzeigen, die Änderung zu löschen oder die Änderung auf weitere Ansichten anzuwenden.
 
-### [!UICONTROL Design]
+### [!UICONTROL Design] Arbeitsfläche
 
 Auf der [!UICONTROL Design] Arbeitsfläche können Sie Viewports auswählen, einschließlich „An Bildschirm anpassen“, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] und [!UICONTROL Mobile Portrait]. Standardmäßig passt die Arbeitsfläche die Seite zusammen mit den im Abschnitt „Administration“ definierten Darstellungsfeldern [ den Bildschirm ](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
