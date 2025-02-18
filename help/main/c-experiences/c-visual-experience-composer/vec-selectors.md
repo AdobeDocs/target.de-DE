@@ -4,9 +4,9 @@ description: Ein Elementselektor ist ein CSS-Ausdruck, mit dem ein oder mehrere 
 title: Kann ich Elementauswahlen im Visual Experience Composer (VEC) verwenden?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovore
 
 Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## So erzeugt Adobe [!DNL Target] einen Selektor für ein Element {#section_D89D954BCBFB486CA081BE183776A475}
+## So generiert Adobe [!DNL Target] einen Selektor für ein Element {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hier sehen Sie eine sehr kurze Erklärung der Erstellungslogik:
 
@@ -91,8 +91,6 @@ Target verwendet zur Erstellung eines Selektors einen einfachen Algorithmus. Hie
    ```
 
    Selektor: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   Weitere Informationen zu [nth-of-type finden Sie auf der Webseite „CSS-Tricks“](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 Im oben dargestellten Prozess
 

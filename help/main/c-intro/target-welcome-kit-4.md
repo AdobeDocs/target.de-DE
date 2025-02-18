@@ -4,9 +4,9 @@ description: Lesen Sie Tipps unserer Experten zur Verwendung von Adobe  [!DNL Ta
 title: Wo finde ich Tipps und Tricks zur Verwendung von Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -79,7 +79,7 @@ Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/main
 
 Mit Erlebnisversionen können Sie einen Test mit Varianzen für beliebig viele Zielgruppen ausführen. Sie können beispielsweise eine Banneranzeige für kostenlosen Versand erstellen – mit Bild- und Währungsvarianten für Kunden in den USA, Großbritannien und den Vereinigten Arabischen Emiraten –, ohne getrennte Tests für drei verschiedene Zielgruppen durchführen zu müssen.
 
-Eine schrittweise Anleitung finden Sie unter [Verschiedene Erlebniszielgruppen in A/B-Tests](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) und [Erlebnisversionen in Adobe Target](https://helpx.adobe.com/de/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com).
+Eine [ Anleitung finden Sie unter „Verschiedene Erlebniszielgruppen in ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) A/B-Test“.
 
 ## Tipp 8: Sparen Sie Zeit durch die Replizierung von Aktivitätserlebnissen auf ähnlichen Seiten.
 

@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard; Recommendations; Target Premium; Automated Personalization; automatisches Targeting; Berechtigungen; Was ist Adobe Target?
-description: Lernen Sie die Grundlagen von Adobe. [!DNL Target]  und Adobe. [!DNL Target]  kennen. [!DNL Target] Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
+description: Lernen Sie die Grundlagen von Adobe [!DNL Target] Standard und Adobe [!DNL Target] Premium kennen. [!DNL Target] Premium enthält erweiterte Funktionen, die nicht im Standardprodukt verfügbar sind.
 landing-page-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Mobile Apps, Social Media und anderer digitaler Kanäle zu maximieren.
 short-description: Personalisieren Sie die Erlebnisse Ihrer Kunden, um den Umsatz Ihrer Websites und Mobile Sites sowie Mobile Apps, Social Media und anderer digitaler Kanäle zu maximieren.
 title: Was ist Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -67,7 +67,7 @@ Eine Empfehlung bestimmt, wie ein Produkt einem Kunden je nach dessen Aktivität
 
 ### Recommendations als Angebot
 
-[Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md) ermöglicht die Einbeziehung von Recommendations in Aktivitäten der [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] und [!UICONTROL Experience Targeting] (XT).
+[Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md) ermöglicht Ihnen die Einbeziehung von Recommendations in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten.
 
 Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie in der [Dokumentation zu Recommendations Classi
 
 Dieses Welcome Kit erleichtert Ihnen die Erstellung Ihres Optimierungs- und Personalisierungsprogramms in [!DNL Adobe Target]. In diesem Welcome Kit sind die wichtigsten Informationen, Tools und Ressourcen zusammengestellt. Damit haben Sie Ihre erste [!DNL Target]-Aktivität im Handumdrehen vorbereitet und gestartet. Das Kit enthält Ideen für kurzfristige schnelle Erfolge, aber auch für langfristige Optimierungsstrategien.
 
-[Das Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Das Adobe Target Welcome Kit](/help/main/c-intro/target-welcome-kit.md)
 
 ## Schulungsvideo: Aktivitätstypen (9:03) ![Übersichts-Badge](/help/main/assets/overview.png)
 
