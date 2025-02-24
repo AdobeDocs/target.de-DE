@@ -4,7 +4,7 @@ description: Informationen zu zusätzlichen Ressourcen, in denen Sie die Funktio
 title: Wo finde ich Ressourcen und Kontaktinformationen zu Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 93%
@@ -25,7 +25,7 @@ Die Community bietet Folgendes:
 * Vernetzen Sie sich mit Kollegen und Adobe-Experten.
 * Reichen Sie Ideen für künftige Target-Versionen ein oder stimmen Sie über andere Ideen ab.
 
-Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de), um loszulegen.
+Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de), um loszulegen.
 
 ## Webinar-Reihe zu Target-Grundlagen {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -74,8 +74,8 @@ Damit Ihr Problem schnellstmöglich bearbeitet werden kann, halten Sie bei der K
 
 | Informationen | Details |
 | --- | --- |
-| Zusammenfassung  | Kurze Zusammenfassung des allgemeinen Problems |
-| Kontoinformationen | Firmenname/<br>/<br>/Kampagnenname<br>Typ der Kampagne/<br>/Report Suite-ID (wenn es sich um eine Integration von Target in SiteCatalyst handelt) |
+| Zusammenfassung | Kurze Zusammenfassung des allgemeinen Problems |
+| Kontoinformationen | Firmenname/<br>/<br>/Kampagnenname<br>Typ der Kampagne/<br>/Report Suite-ID (falls bezüglich einer Integration von Target in SiteCatalyst) |
 | Zu reproduzierende Schritte | Machen Sie möglichst detaillierte Angaben, auch über die benötigten zu duplizierenden URLs sowie das erwartete Ergebnis.<br>Machen Sie so detaillierte Angaben, dass auch Personen, die nicht mit Target vertraut sind, den Anweisungen folgen und das Problem reproduzieren können. |
 | Priorität | P1 (am wichtigsten) bis P4 (am wenigsten wichtig). |
 | Geschäftsauswirkungen | Welche Auswirkungen hat dies auf Ihr Geschäft? Führt dieses Problem zu Umsatzverlusten oder wird das Produkt dadurch unbrauchbar und gibt es eine nachhaltige Möglichkeit zur Umgehung des Problems? |
