@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 15%
+source-wordcount: '1389'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: Freitag, 13. Februar 2025**
+**Zuletzt aktualisiert: Donnerstag, 26. Februar 2025**
 
 >[!NOTE]
 >
@@ -23,7 +23,28 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## Target Standard/Premium 25.2.1 (Dienstag, 17. Februar 2025)
+## [!DNL Target Standard/Premium] 25.2.3 (26. Februar 2025)
+
+Diese Version umfasst die folgenden Aktualisierungen:
+
+* Es wurde ein Problem behoben, durch das Aktivitätsaktualisierungen nach [!DNL Target] Version 25.2.1 für einige Aktivitäten verhindert wurden. (TGT-51781)
+* Es wurde ein Problem behoben, bei dem alle Änderungen an der im Status befindlichen Zielgruppe beim Abbrechen des Prozesses zur Erstellung der Aktivität entfernt wurden (Auswahl von [!UICONTROL Cancel] anstelle von [!UICONTROL Add Audience]). (TGT-51769 und TGT-51770)
+* Es wurde ein Problem behoben, bei dem der [!UICONTROL Visual Experience Composer] (VEC) für einige Aktivitäten nicht geladen werden konnte, insbesondere wenn benutzerdefinierter Code verwendet wurde.  Dieses Problem führte dazu, dass der VEC einen leeren Bildschirm anzeigte oder die [!DNL Target] Benutzeroberfläche auf ihre ältere Version zurücksetzte. (TGT-51758)
+* Es wurde ein Problem behoben, bei dem Änderungen nach der Bearbeitung der Seitenbereitstellung für Zielgruppen verworfen wurden. (TGT-51756)
+* Es wurde ein Problem behoben, bei dem alle nicht-metrischen Zielgruppen (Seiten- und Erlebnis-Zielgruppen) aus Aktivitäten entfernt wurden, nachdem ein Metriktyp auf der [!UICONTROL Goals & Settings] geändert wurde. (TGT-51753)
+* Es wurde ein Problem behoben, bei dem durch Klicken auf [!UICONTROL Cancel] beim Bearbeiten einer Aktivität in der Target-Benutzeroberfläche statt auf der [!UICONTROL Activity Details] Seite zur [!UICONTROL Activities List] navigiert wurde. (TGT-51731)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Berichte über die Option [!UICONTROL Export Reports to CSV] herunterzuladen. (TGT-51708)
+* Es wurde ein Problem im formularbasierten Experience Composer behoben, bei dem [!DNL Target Standard] Kunden fälschlicherweise als Benutzer von [!UICONTROL Properties], einer [!DNL Target Premium] Funktion, angezeigt wurden. (TGT-51678)
+* Es wurde ein Problem behoben, durch das [!DNL Adobe Experience Platform] beim Erstellen neuer Angebote nicht angezeigt werden konnten. (TGT-51665)
+* Alle aktiven Filter für [!DNL Recommendations] Inventar wurden in die Schnellsuche verschoben, wobei die Benutzeroberfläche an [!UICONTROL Catalog Search] anstelle der [!UICONTROL Filter] ausgerichtet wurde. (TGT-50723)
+
+## at.js-Version 2.11.7 (26. Februar 2025)
+
+Diese Version enthält die folgende Aktualisierung:
+
+* Fehlerkorrektur - Die Telemetrie-Protokollierung funktioniert jetzt, wenn `localStorage` nicht verfügbar ist. Die Telemetrie verursachte bei einigen Kunden, die in ihren Browsern deaktiviert `localStorage`, ein Problem.
+
+## [!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025)
 
 Diese Version umfasst die folgenden Aktualisierungen:
 
@@ -76,7 +97,7 @@ Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert da
 
 ![Aktualisierung der Recommendations-Benutzeroberfläche](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
-## Target Standard/Premium 25.1.1 (Freitag, 9. Januar 2025)
+## [!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025)
 
 Diese Version umfasst die folgenden Aktualisierungen:
 
