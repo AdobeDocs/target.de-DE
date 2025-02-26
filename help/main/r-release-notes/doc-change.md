@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 30%
+source-wordcount: '267'
+ht-degree: 29%
 
 ---
 
@@ -23,6 +23,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |--- |--- |--- |
 | 26. Februar | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Es wurden Informationen zu den folgenden Versionen hinzugefügt:<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26. Februar 2025)</li><li>at.js-Version 2.11.7 (26. Februar 2025)</li></ul> |
 |  | [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Es wurden Informationen zur at.js-Version 2.11.7 (26. Februar 2025) hinzugefügt. |
+|  | [Lesezeichenliste für Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Die Lesezeichenliste für Aktivitäts-QA für at.js 2.x wurde aktualisiert. |
 | 13. Februar | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Das Update der Benutzeroberfläche von [!DNL Target Standard/Premium] 25.2.1 wurde auf den 17. Februar 2025 aktualisiert. |
 | 12. Februar | [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Das gesamte Thema wurde aktualisiert, um den aktualisierten VEC zu erklären, der in der [!DNL Target Standard/Premium]-Version 25.2.1 (12. Februar 2025) eingeführt wurde. |
 |  | [Unterstützte Browser](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Es wurden Informationen darüber hinzugefügt, welche Browser in einer Target-Implementierung über die [!DNL Adobe Experience Platform Web SDK] unterstützt werden. |
