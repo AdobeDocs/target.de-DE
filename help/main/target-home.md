@@ -4,7 +4,7 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 96%
@@ -75,5 +75,5 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 | Hilfe zu Adobe [!DNL Target]-Lösungen | [!DNL Adobe Experience Cloud] Ressourcen |
 |--- |--- |
-| <ul><li>[Adobe Target – Schulungen und Unterstützung](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=de)</li><li>[Dokumentation zur Target-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de)</li><li>[Versionshinweise zu Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[Experience Cloud-Hilfe - Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[Adobe-Schulungen und -Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target – Schulungen und Unterstützung](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=de)</li><li>[Dokumentation zur Target-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de)</li><li>[Versionshinweise zu Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[Experience Cloud-Hilfe - Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[Adobe-Schulungen und -Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
 

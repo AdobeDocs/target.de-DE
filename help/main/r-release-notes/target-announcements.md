@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 100%
 
 ---
@@ -207,16 +207,14 @@ Das Jahr 2022 bereitet Unternehmen ein dynamisches und sich schnell verändernde
 
 Erfahren Sie, wie künstliche Intelligenz die Verbrauchererwartungen weiter neu definiert, da Modelle für maschinelles Lernen und Dateneinblicke Marketing-Experten, Entwicklern und Produkteigentümern neue Möglichkeiten eröffnen, Verbraucher mit attraktiven, personalisierten Erlebnissen anzusprechen. Machen Sie eine Tour durch die Workflows von [!DNL Adobe Analytics] + [!DNL Adobe Target] zur Personalisierung, Zielgruppenbestimmung und Testung.
 
-* [Link zur Aufzeichnung](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Details
 
-  +++Details
+Seien Sie dabei, wenn Jordan Ison (Principal Expert Solution Consultant bei [!DNL Adobe]) folgende Themen bespricht:
 
-  Seien Sie dabei, wenn Jordan Ison (Principal Expert Solution Consultant bei [!DNL Adobe]) folgende Themen bespricht:
-
-   * Wie Marketing-Experten und -Expertinnen, Entwickler und Entwicklerinnen und Produkt-Teams die „Blackbox“ der KI öffnen können, um zukünftige Test- und Personalisierungsstrategien voranzubringen
-   * Überwinden der Herausforderungen bei der Optimierung von Web, Mobile App, E-Mail, IoT und jedes digitalen Touchpoints für höhere Konversions- und Interaktionsraten.
-   * Geführte Tour durch die Workflows von [!DNL Adobe Analytics] und [!DNL Target] zur Personalisierung, Zielgruppenbestimmung und Testung
-   * Häufigste Anwendungsfälle, die zeigen, welche Attribute das Besucherverhalten vorhersagen und welche für Visualisierungen und Segmentierungsanalysen am wichtigsten sind
+* Wie Marketing-Experten und -Expertinnen, Entwickler und Entwicklerinnen und Produkt-Teams die „Blackbox“ der KI öffnen können, um zukünftige Test- und Personalisierungsstrategien voranzubringen
+* Überwinden der Herausforderungen bei der Optimierung von Web, Mobile App, E-Mail, IoT und jedes digitalen Touchpoints für höhere Konversions- und Interaktionsraten.
+* Geführte Tour durch die Workflows von [!DNL Adobe Analytics] und [!DNL Target] zur Personalisierung, Zielgruppenbestimmung und Testung
+* Häufigste Anwendungsfälle, die zeigen, welche Attribute das Besucherverhalten vorhersagen und welche für Visualisierungen und Segmentierungsanalysen am wichtigsten sind
 
 +++
 
