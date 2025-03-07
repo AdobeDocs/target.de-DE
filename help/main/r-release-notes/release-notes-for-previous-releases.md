@@ -4,10 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
-ht-degree: 84%
+source-wordcount: '39655'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,94 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2025
+
+### [!DNL Target Standard/Premium] 25.3.1 (3. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Eine kombinierte Zielgruppe kann Untergruppen enthalten, von denen jede mehrere Zielgruppen enthält. In dieser Version wurde ein Problem behoben, das die Anzeige von Untergruppen-Zielgruppen im [!UICONTROL Rules] verhinderte. (TGT-51813)
+* Es wurde ein Problem behoben, bei dem beim Öffnen älterer Aktivitäten einige Erlebnis-Zielgruppen durch [!UICONTROL All Visitors] ersetzt wurden. (TGT-51812)
+* Es wurde ein Problem behoben, das die Bearbeitung von Aktivitäten mit Audiences, die nur für Aktivitäten bestimmt sind, verhinderte. (TGT-51807)
+* Es wurde ein Problem behoben, durch das die Bearbeitung von Änderungen am Seitenkopf in der aktualisierten [!DNL Target]-Benutzeroberfläche verhindert wurde. (TGT-51797)
+* Es wurde ein Null-Fehler behoben, der beim Duplizieren eines Erlebnisses, beim Löschen eines anderen Erlebnisses und beim anschließenden Versuch, die Aktivität zu speichern, auftrat. (TGT-51796)
+* Es wurde ein Problem behoben, das verhinderte, dass Regeln zum Ausschluss von Zielgruppen im Informationsbereich der Zielgruppe während des [!UICONTROL Targeting] Schritts zum Erstellen von Aktivitäten angezeigt wurden. (TGT-51579)
+* Aktualisierte Fehlermeldungen, die auf Koreanisch lokalisiert sind. (TGT-51701 und TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3 (26. Februar 2025)
+
+Diese Version umfasst die folgenden Aktualisierungen:
+
+* Es wurde ein Problem behoben, durch das Aktivitätsaktualisierungen nach [!DNL Target] Version 25.2.1 für einige Aktivitäten verhindert wurden. (TGT-51781)
+* Es wurde ein Problem behoben, bei dem alle Änderungen an der im Status befindlichen Zielgruppe beim Abbrechen des Prozesses zur Erstellung der Aktivität entfernt wurden (Auswahl von [!UICONTROL Cancel] anstelle von [!UICONTROL Add Audience]). (TGT-51769 und TGT-51770)
+* Es wurde ein Problem behoben, bei dem der [!UICONTROL Visual Experience Composer] (VEC) für einige Aktivitäten nicht geladen werden konnte, insbesondere wenn benutzerdefinierter Code verwendet wurde.  Dieses Problem führte dazu, dass der VEC einen leeren Bildschirm anzeigte oder die [!DNL Target] Benutzeroberfläche auf ihre ältere Version zurücksetzte. (TGT-51758)
+* Es wurde ein Problem behoben, bei dem Änderungen nach der Bearbeitung der Seitenbereitstellung für Zielgruppen verworfen wurden. (TGT-51756)
+* Es wurde ein Problem behoben, bei dem alle nicht-metrischen Zielgruppen (Seiten- und Erlebnis-Zielgruppen) aus Aktivitäten entfernt wurden, nachdem ein Metriktyp auf der [!UICONTROL Goals & Settings] geändert wurde. (TGT-51753)
+* Es wurde ein Problem behoben, bei dem durch Klicken auf [!UICONTROL Cancel] beim Bearbeiten einer Aktivität in der Target-Benutzeroberfläche statt auf der [!UICONTROL Activity Details] Seite zur [!UICONTROL Activities List] navigiert wurde. (TGT-51731)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Berichte über die Option [!UICONTROL Export Reports to CSV] herunterzuladen. (TGT-51708)
+* Es wurde ein Problem im formularbasierten Experience Composer behoben, bei dem [!DNL Target Standard] Kunden fälschlicherweise als Benutzer von [!UICONTROL Properties], einer [!DNL Target Premium] Funktion, angezeigt wurden. (TGT-51678)
+* Es wurde ein Problem behoben, durch das [!DNL Adobe Experience Platform] beim Erstellen neuer Angebote nicht angezeigt werden konnten. (TGT-51665)
+* Alle aktiven Filter für [!DNL Recommendations] Inventar wurden in die Schnellsuche verschoben, wobei die Benutzeroberfläche an [!UICONTROL Catalog Search] anstelle der [!UICONTROL Filter] ausgerichtet wurde. (TGT-50723)
+
+### at.js-Version 2.11.7 (26. Februar 2025)
+
+Diese Version enthält die folgende Aktualisierung:
+
+* Fehlerkorrektur - Die Telemetrie-Protokollierung funktioniert jetzt, wenn `localStorage` nicht verfügbar ist. Die Telemetrie verursachte bei einigen Kunden, die in ihren Browsern deaktiviert `localStorage`, ein Problem.
+
+Weitere Informationen zu dieser und vorherigen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+
+### Target Standard/Premium 25.2.1 (Dienstag, 17. Februar 2025)
+
+Diese Version umfasst die folgenden Aktualisierungen:
+
+* Aktualisierung der [!UICONTROL Activities]-Benutzeroberfläche
+* Aktualisierung der [!DNL Recommendations]-Benutzeroberfläche
+
+#### Aktualisierung der [!UICONTROL Activities]-Benutzeroberfläche
+
+Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche freuen wir uns, die allgemeine Verfügbarkeit der aktualisierten [!UICONTROL Activities]-Benutzeroberfläche bekannt geben zu können.
+
+>[!NOTE]
+>
+>Ab dem 17. Februar haben Kunden schrittweise Zugriff auf die neue [!UICONTROL Activities]-Benutzeroberfläche. Um einen nahtlosen Rollout für alle Kunden sicherzustellen, wird diese Version in kontrollierten Phasen bereitgestellt. In der ersten Phase wird die ursprüngliche Gruppe [!DNL Target] Kunden auf die neue [!UICONTROL Activities]-Benutzeroberfläche aktualisiert. In nachfolgenden Phasen werden die verbleibenden Kunden aktualisiert.
+
+Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
+
+* [Neu gestaltete Berichterstellung](/help/main/administrating-target/reporting.md) um bessere Einblicke in die Ergebnisse der Aktivität zu erhalten.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) Seite, jetzt werden die Informationen aus der [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke abgerufen.
+* [Anpassbare Listenansichten](/help/main/c-activities/activities.md) um eine bessere Flexibilität für verschiedene Team-Anforderungen zu ermöglichen.
+* [Verbesserte Schnellinfo- und Detailbildschirme](/help/main/c-activities/activities.md) für einen einfacheren Zugriff auf Informationen.
+* [Optionen für sitzungspersistente Suche und Filter](/help/main/c-activities/activities.md).
+* Vollständig [neu aufgebaute [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) mit Unterstützung für die neuesten Sicherheitsaktualisierungen von Browser-Anbietern und einer modernen Benutzeroberfläche.
+
+  Informationen dazu, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter:
+
+   * [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* [Aktualisierte [!DNL Chrome] Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) Unterstützung von Manifest V3 für erhöhte Sicherheit und verbesserte Unterstützung für Erstanbieter-Cookies.
+
+![Aktivitäten aktualisieren](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### Aktualisierung der [!DNL Recommendations]-Benutzeroberfläche
+
+Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche freuen wir uns, die allgemeine Verfügbarkeit der aktualisierten [!DNL Recommendations]-Benutzeroberfläche bekannt geben zu können.
+
+>[!NOTE]
+>
+>Ab dem 17. Februar haben Kunden schrittweise Zugriff auf die neue [!UICONTROL Recommendations]-Benutzeroberfläche. Um einen nahtlosen Rollout für alle Kunden sicherzustellen, wird diese Version in kontrollierten Phasen bereitgestellt. In der ersten Phase wird die ursprüngliche Gruppe [!DNL Target] Kunden auf die neue [!UICONTROL Activities]-Benutzeroberfläche aktualisiert. In nachfolgenden Phasen werden die verbleibenden Kunden aktualisiert.
+
+Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
+
+* Die [Produktkatalogsuche](/help/main/c-recommendations/c-products/catalog-search.md) bietet jetzt eine aktualisierte Datenbank, die eine Echtzeit-Synchronisierung von Produkten ermöglicht.
+* [!UICONTROL Recommendations] ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]) [über API erstellt) sind jetzt in der Benutzeroberfläche verfügbar](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [Recommendations](/help/main/administrating-target/recommendations-settings.md)Einstellungen wurden im Abschnitt [!UICONTROL Administration] konsolidiert.
+* Anpassbare Listenansichten für eine bessere Flexibilität bei den verschiedenen Team-Anforderungen.
+* Die Code-Editoren für HTML und JSON wurden aktualisiert ([ und Zeilennummerierung](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+* Verbesserte Bildschirme für Schnellinformationen und Details für einen einfacheren Zugriff auf Informationen.
+* Optionen für sitzungspersistente Suche und Filter.
+
+![Aktualisierung der Recommendations-Benutzeroberfläche](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1 (Freitag, 9. Januar 2025)
 
