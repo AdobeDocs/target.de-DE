@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
+source-git-commit: 7196b966c46043db536313c7841fe8611268d373
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,15 @@ ht-degree: 52%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.3.4 (7. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, bei dem Zielgruppen, die nur für Aktivitäten bestimmt waren, im [!UICONTROL Audiences] nicht sichtbar waren, sodass sie nicht bearbeitet oder wiederverwendet werden konnten. (TGT-51860)
+* Es wurde ein Problem behoben, das [!DNL Target Standard] Kunden daran hinderte, Aktivitäten mithilfe der Berichterstellung von [!UICONTROL Analytics for Target] (A4T) zu erstellen. (TGT-51854)
+* Es wurde ein Problem behoben, durch das lokale ID-Zähler während Batch-Erstellungs- und -Bearbeitungsvorgängen von der Payload ausgeschlossen wurden. (TGT-51867)
+* Verbesserte Barrierefreiheitsberichte durch Integration von [!DNL Axe Developer Hub], Verbesserung der Abdeckung, Berichterstellung, Team-Zusammenarbeit, Unterstützung für manuelle Tests, Compliance-Standards und Anwendererlebnis.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6. März 2025)
 
