@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf160d93e2ed23de704dcb1065adf304ab78be4
+source-git-commit: a9c4264672b44da815c721c08c735a2692b2cb33
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 41%
+source-wordcount: '340'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 13. März | [Unterstützte Browser](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Unterstützte Browser wurden aktualisiert und der Abschnitt „Anforderungen an die visuelle Bearbeitung“ wurde hinzugefügt. |
 | 11. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.5 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 7. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.4 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 6. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.2 von [!DNL Target Standard/Premium] hinzugefügt. |
