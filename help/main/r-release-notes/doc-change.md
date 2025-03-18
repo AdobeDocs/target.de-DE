@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 42%
+source-wordcount: '368'
+ht-degree: 41%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 18. März | [A4T-Unterstützung für [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Es wurde ein Hinweis zum Abschnitt *Unterstützte*&quot; hinzugefügt. |
 | 14. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.6 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 13. März | [Unterstützte Browser](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | Unterstützte Browser wurden aktualisiert und der Abschnitt „Anforderungen an die visuelle Bearbeitung“ wurde hinzugefügt. |
 | 11. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.5 von [!DNL Target Standard/Premium] hinzugefügt. |
