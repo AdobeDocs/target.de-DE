@@ -5,10 +5,10 @@ title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommen
 
 ## Werden [!DNL Recommendations] über die API erstellten Objekte in der [!DNL Target]-Benutzeroberfläche angezeigt?
 
-Ja, [!UICONTROL Recommendations] -Objekte ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]), die über die API erstellt wurden, sind jetzt in der Benutzeroberfläche verfügbar.
+Ja, [!UICONTROL Recommendations] Objekte ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]), die über die API erstellt wurden, sind in der Benutzeroberfläche verfügbar und können über die API oder [!DNL Target] Benutzeroberfläche bearbeitet werden.
 
 ## Kann ich [!DNL Target] von der Benutzeroberfläche erstellten visuellen Angebote mit den [!DNL Target]-APIs verwalten?
 
@@ -291,6 +291,5 @@ Die folgenden Probleme bei [!UICONTROL Recommendations] Aktivitäten sind bekann
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Abgelaufene Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. Entitäten, die über Feed oder API gelöscht wurden, werden derzeit auch nicht aus dem Katalogsuchindex entfernt. (IRI-857)
 * Für Recommendations-Angebote in A/B- und Erlebnis-Targeting-Aktivitäten wird keine Vorschau der Recommendations-Taskleiste angezeigt. (TGT-33426)
-* Sammlungen, Ausschlüsse, Kriterien und Designs, die über die API erstellt wurden, sind in der Benutzeroberfläche von Target nicht sichtbar und können nur über die API bearbeitet werden. Erstellen Sie umgekehrt eines dieser Elemente in der Benutzeroberfläche von Target und bearbeiten Sie diese später über die API, werden die Änderungen nicht in der Benutzeroberfläche von Target angezeigt. Über die API bearbeitete Elemente sollten weiterhin über die API bearbeitet werden, um sicherzustellen, dass keine Änderungen verloren gehen. (TGT-35777)
 * Recommendations-Aktivitäten, die über die API erstellt wurden, können zwar in der Benutzeroberfläche angezeigt, aber nur über die API bearbeitet werden.
 * Der Feed-Status „Benutzerspezifische Kriterien“ in der Kriterien-Listenansicht (Karte) wird alle zehn Minuten aktualisiert und kann in seltenen Fällen mehr als zehn Minuten veraltet sein. Der in der Bearbeitungsansicht für benutzerdefinierte Kriterien angezeigte Status wird in Echtzeit abgerufen und ist stets auf dem neuesten Stand. (TGT-35896, TGT-36173)
