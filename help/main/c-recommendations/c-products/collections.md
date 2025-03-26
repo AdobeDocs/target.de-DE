@@ -5,10 +5,10 @@ title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ Beim Erstellen oder Bearbeiten einer [!DNL Recommendations] Aktivität wird der 
 
 >[!NOTE]
 >
->Sammlungen werden bei Verwendung des [!UICONTROL Recently Viewed Items] Empfehlungsschlüssels nicht angewendet.
+>* Sammlungsregeln gelten für Empfehlungselemente, die nach der Ausführung der Kriterien generiert werden. Sie wirken sich nur auf Entitätsempfehlungen (Entity Recommendations, ERs) in der Ausgabe aus, nicht auf den Schlüssel.
+>
+>* Sammlungen werden bei Verwendung des [!UICONTROL Recently Viewed Items] Empfehlungsschlüssels nicht angewendet.
 
 ## Sammlung erstellen {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    Auf der Seite [!UICONTROL Collections] wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Durch Klicken auf die Schaltfläche [!UICONTROL Create Collection] erstellen Sie neue Sammlungen. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
 
-   Die „Anzahl der Elemente“, die für jede Sammlung in der [!UICONTROL Collections] Listenansicht gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die Standard-Hostgruppe zu ändern.
+   Die für jede Sammlung in der [!UICONTROL Collections] Listenansicht gemeldete „Anzahl der Elemente“ ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die Standard-Hostgruppe zu ändern.
 
 1. Klicken Sie auf **[!UICONTROL Create Collection]**.
 
@@ -84,7 +86,7 @@ Beachten Sie, dass Sammlungen im gesamten Konto verfügbar sind. Berücksichtige
 
 1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
 
-1. Klicken Sie auf **[!UICONTROL Activities]** und [eine neue Recommendations erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) oder bearbeiten Sie eine vorhandene Aktivität.
+1. Klicken Sie auf **[!UICONTROL Activities]** und [Erstellen einer neuen Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)Aktivität oder bearbeiten Sie eine vorhandene Aktivität.
 
 1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird die [!UICONTROL Options] angezeigt, auf der Sie die gewünschte Sammlung auswählen können.
 

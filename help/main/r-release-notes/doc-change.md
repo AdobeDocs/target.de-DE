@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 40%
 
 ---
 
@@ -23,6 +23,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |--- |--- |--- |
 | 26. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.7 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [Recommendations-FAQs](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Die FAQs wurden aktualisiert, um darauf hinzuweisen, dass [!DNL Recommendations] über die API erstellten Objekte in der [!DNL Target]-Benutzeroberfläche verfügbar sind. |
+|  | [Sammlungen](/help/main/c-recommendations/c-products/collections.md) | Folgender Hinweis wurde hinzugefügt: Sammlungsregeln gelten für Empfehlungselemente, die nach Ausführung der Kriterien generiert werden. Sie wirken sich nur auf Entitätsempfehlungen (Entity Recommendations, ERs) in der Ausgabe aus, nicht auf den Schlüssel. |
 | 19. März | [Beheben von Problemen im Zusammenhang mit [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Die IP-Adressen wurden auf die Zulassungsliste aktualisiert. |
 | 18. März | [A4T-Unterstützung für [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Es wurde ein Hinweis zum Abschnitt *Unterstützte*&quot; hinzugefügt. |
 | 14. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.6 von [!DNL Target Standard/Premium] hinzugefügt. |
