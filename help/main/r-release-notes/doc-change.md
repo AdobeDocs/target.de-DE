@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 40%
+source-wordcount: '450'
+ht-degree: 41%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 31. März | [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Es wurden Informationen über die at.js-Version 2.11.8 hinzugefügt. |
 | 26. März | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.3.7 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [Recommendations-FAQs](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Die FAQs wurden aktualisiert, um darauf hinzuweisen, dass [!DNL Recommendations] über die API erstellten Objekte in der [!DNL Target]-Benutzeroberfläche verfügbar sind. |
 |  | [Sammlungen](/help/main/c-recommendations/c-products/collections.md) | Folgender Hinweis wurde hinzugefügt: Sammlungsregeln gelten für Empfehlungselemente, die nach Ausführung der Kriterien generiert werden. Sie wirken sich nur auf Entitätsempfehlungen (Entity Recommendations, ERs) in der Ausgabe aus, nicht auf den Schlüssel. |
