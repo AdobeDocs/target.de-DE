@@ -4,10 +4,10 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
+source-git-commit: c6799d43ee2f5ebe568f7199ae4ec1deaa164c06
 workflow-type: tm+mt
-source-wordcount: '39655'
-ht-degree: 82%
+source-wordcount: '40414'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,78 @@ Versionshinweise sind in absteigender Reihenfolge sortiert: nach Monat und Jahr 
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise für 2025
+
+### [!DNL Target Standard/Premium] 25.3.8 (28. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, das dazu führte, dass die [!UICONTROL Activities] Seite langsam geladen wurde. (TGT-51151)
+
+### [!DNL Target Standard/Premium] 25.3.7 (26. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, durch das das Speichern mehrseitiger Aktivitäten blockiert wurde, wenn eine Seite nach Änderungen gelöscht wurde. (TGT-51988)
+* Es wurde ein Fehler behoben, der beim Bearbeiten einer Aktivität auftrat: `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
+* Es wurde ein Problem behoben, durch das beim Hinzufügen neuer Änderungen zu einer Aktivität vorhandene Änderungen entfernt wurden. (TGT-51981)
+* Es wurde ein Problem behoben, bei dem das Ersetzen einer Zielgruppe durch &quot;[!UICONTROL All visitors]&quot; während der Erstellung oder Bearbeitung einer Aktivität den Fehler „Doppelte Zielgruppen sind nicht zulässig“ verursachte. (TGT-51978)
+* Es wurde ein Problem behoben, das beim Speichern einer [!UICONTROL A/B Test]-Aktivität den Fehler „Ungültige Benutzereingabe“ verursachte. (TGT-51976)
+* Es wurde ein Problem behoben, durch das berechnete Metriken auf der [!UICONTROL Goals & Settings] nicht korrekt angezeigt wurden. (TGT-51975)
+* Es wurde ein Problem behoben, das verhinderte, dass in der [!DNL Analytics]-Konfiguration für die `pageviews` Metrik `companyName` und `reportSuite` vorhanden waren. (TGT-51965)
+* Es wurde ein Problem behoben, durch das beim Wechsel zwischen Erlebnissen in einer Aktivität Änderungen entfernt wurden. (TGT-51945)
+* Es wurde ein Problem behoben, bei dem beim Entfernen einer Seitenzielgruppe auch [!UICONTROL ClickTrack] Selektoren entfernt wurden. (TGT-51935)
+* Es wurde ein Problem behoben, durch das eine Aktivität nach dem Öffnen der [!UICONTROL Overview] nicht bearbeitbar war. (TGT-51931)
+* Es wurde ein Problem behoben, das während der Erstellung einer Aktivität zu einem `[Unused optionLocalIds: 0]]`-Fehler führte. (TGT-51920)
+* Es wurde ein Problem behoben, bei dem einige Änderungen nach dem Entfernen von Änderungen am Textstil nicht korrekt übersetzt wurden. (TGT-51876)
+* Es wurde ein Problem behoben, das verhinderte, dass Zielgruppen in der [!UICONTROL Form-Based Experience Composer] korrekt aktualisiert wurden. (TGT-51845)
+* Es wurde ein Problem behoben, bei dem die URL im [!UICONTROL Visual Experience Composer] während der Aktivitätsnavigation nicht korrekt aktualisiert wurde. (TGT-51832)
+* Es wurde ein Problem behoben, durch das Angebote trotz korrekter Anzeige beim Erstellen einer Aktivität und Hinzufügen von Angeboten nicht in der [!UICONTROL Offers]-Benutzeroberfläche angezeigt wurden. (TGT-51805)
+* Es wurde ein Problem behoben, bei dem einigen Aktivitäten ein Fallback-Bildschirm fehlte, um Standardinhalte anzuzeigen, wenn personalisierte oder zielgerichtete Inhalte nicht bereitgestellt werden konnten. (TGT-51638)
+* Es wurde ein Problem behoben, durch das Live-Angebote und bestimmte Ordner nicht korrekt in der [!UICONTROL Offers]-Benutzeroberfläche angezeigt wurden. (TGT-51628)
+* Es wurde ein Problem behoben, durch das einige URL-Zeichenfolgen und goURLs nicht korrekt lokalisiert werden konnten. (TGT-35741)
+* Es wurde ein Problem behoben, das verhinderte, dass Rollen ([!UICONTROL Approver], [!UICONTROL Editor] und [!UICONTROL Observer]) korrekt in der [!DNL Target]-Benutzeroberfläche lokalisiert wurden. (TGT-29925)
+
+### [!DNL Target Standard/Premium] 25.3.6 (14. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Der Fehler „Ungültige Benutzereingabe“ in [!UICONTROL Visual Experience Composer] (VEC)-Aktivitäten mit aktiviertem [!UICONTROL Click Tracking] wurde behoben, wenn derselbe [!UICONTROL ClickTrack] mehrmals verwendet wird. (TGT-51921)
+* Der Fehler „Ungültige Benutzereingabe“ in VEC-Aktivitäten mit freigegebenen Speicherorten (z. B. HEAD-Selektor) und identischen Angeboten wurde behoben. (TGT-51879)
+* Es wurde ein Problem behoben, das dazu führte, dass Erlebnisänderungen für alle Zielgruppen freigegeben wurden. (TGT-51815)
+* Validierungsfehler beim Erstellen von Aktivitäten aufgrund von Segment-ID-Konflikten wurden behoben. Die Fehler traten auf, als [!DNL Target] vorhandene Aktivitäten mit anonymen Segmenten erkannte. (TGT-51784)
+* Es wurde ein Problem behoben, das [!DNL Target] daran hinderte, Aktivitäten mit Ausschlussregeln in einer Zielgruppe zu speichern. (TGT-51581)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Ordner ohne Zugriff auf den Standardarbeitsbereich zu erstellen, zu löschen oder zu verschieben. (TGT-51499)
+* Es wurde ein Problem behoben, bei dem GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
+
+### [!DNL Target Standard/Premium] 25.3.5 (11. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, durch das Benutzer keine Angebote im [!UICONTROL Modifications] ändern konnten. (TGT-51800)
+* Es wurde ein Problem behoben, bei dem Aktionen im linken Bereich für Erlebnisse und Zielgruppen falsch angezeigt wurden, einschließlich im [!UICONTROL ClickTrack]. (TGT-51895)
+* Es wurde ein Problem behoben, bei dem [!UICONTROL ClickTrack] -Selektoren nicht auf die richtige Zielgruppenseite angewendet wurden. (TGT-51871)
+
+### [!DNL Target Standard/Premium] 25.3.4 (7. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, bei dem Zielgruppen, die nur für Aktivitäten bestimmt waren, im [!UICONTROL Audiences] nicht sichtbar waren, sodass sie nicht bearbeitet oder wiederverwendet werden konnten. (TGT-51860)
+* Es wurde ein Problem behoben, das [!DNL Target Standard] Kunden daran hinderte, Aktivitäten mithilfe der Berichterstellung von [!UICONTROL Analytics for Target] (A4T) zu erstellen. (TGT-51854)
+* Es wurde ein Problem behoben, durch das lokale ID-Zähler während Batch-Erstellungs- und -Bearbeitungsvorgängen von der Payload ausgeschlossen wurden. (TGT-51867)
+
+### [!DNL Target Standard/Premium] 25.3.2 (6. März 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Fehlerkorrektur - Beim Kopieren einer Aktivität mit einer Zielgruppe auf Basis einer reinen Aktivität wird jetzt keine neue Aktivität mehr erstellt, sondern stattdessen die Zielgruppe der ursprünglichen Aktivität verwendet. (TGT-51855)
+* Es wurde ein Problem behoben, das die Bearbeitung von [!UICONTROL Experience Targeting] (XT)-Aktivitäten mit Zielgruppen, die nur für Aktivitäten bestimmt sind, verhinderte. (TGT-51846)
+* Es wurde ein Problem behoben, bei dem der [!UICONTROL Visual Experience Composer] (VEC) Änderungen an einem Erlebnis beim ersten Bearbeiten nicht korrekt anwandte. (TGT-51843)
+* Es wurde ein Problem behoben, das beim Klicken auf bestimmte Elemente in VEC einen „ID“-Fehler auslöste. (TGT-51814)
+* Die Fehlerbehandlung in VEC während der Aktivitätserstellung wurde aktualisiert. (TGT-51759)
+* Fehlerkorrektur - Beim Speichern der Aktivität tritt jetzt kein Fehler mehr auf, wenn die Ansicht &quot;[!UICONTROL Modifications]&quot; im Bedienfeld „Ungültige Benutzereingabe“ fehlt. (TGT-51827)
+* Es wurde ein Problem behoben, das die Erstellung von Recommendations-Kriterien verhinderte. (TGT-51834)
+* Es wurde eine Bestätigungsnachricht vor der Weiterleitung an eine andere URL hinzugefügt. (TGT-51703)
+* Es wurden Probleme mit GraphQL-Integrationstests in Angeboten und Ordnern behoben. (TGT-51839)
 
 ### [!DNL Target Standard/Premium] 25.3.1 (3. März 2025)
 
