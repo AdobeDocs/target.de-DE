@@ -5,7 +5,7 @@ title: Wie konfiguriere ich Reporting in [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 22%
@@ -15,6 +15,8 @@ ht-degree: 22%
 # Konfigurieren der Berichterstellung in [!DNL Target]
 
 Konfigurieren Sie allgemeine Einstellungen, die für [!DNL Adobe Target] Reporting-Berichte verwendet werden und für Ihr gesamtes [!DNL Target]-Konto gelten.
+
+{{permissions-update}}
 
 Um auf die Seite mit der [!UICONTROL Reporting]-Konfiguration zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 

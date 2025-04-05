@@ -5,7 +5,7 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ Mit Antwort-Token können Sie automatisch Informationen ausgeben, die für die [
 Mit Antwort-Token können Sie auswählen, welche Variablen (in Schlüsselwertpaaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil einer [!DNL Target]-Antwort gesendet werden können. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target] Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch im [!UICONTROL Preview].
 
 Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript an die Seite senden, die beim Versand ausgeführt wird. Antwort-Token liefern jedoch ein -Objekt, das dann mithilfe von Ereignis-Listenern gelesen und bearbeitet werden kann. Der Ansatz mit Antwort-Token ist sicherer und ermöglicht eine einfachere Entwicklung und Wartung von Drittanbieter-Integrationen.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -84,7 +86,7 @@ Im folgenden Antwortbeispiel wird ein [!DNL Platform Web SDK] benutzerdefinierte
 
 | Objekt | Informationen |
 | --- | --- |
-| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target]- oder Offer decisioning-Anbieter getroffen wurde. |
+| Typ - Personalization.decision | Ob die Entscheidung vom [!DNL Target] oder Offer Decisioning-Provider getroffen wurde. |
 | Entscheidungsanbieter - TGT | TGT-[!DNL Target]. [!DNL Target] stellt die Metadaten und Werte des Antwort-Tokens für die Seite bereit. |
 | meta | Metadaten, die an die Seite übergeben werden. |
 | Daten | Werte der an die Seite übergebenen Metadaten. |
@@ -212,13 +214,13 @@ Wie zuvor erwähnt, agieren Antwort-Token mit den für Benutzer gespeicherten Pr
 
 [!DNL Target] führt in regelmäßigen Abständen eine Aktualisierung der Attribute durch. Attribute, die nicht aktiviert sind, werden bei der nächsten Aktualisierung entfernt. Wenn Sie jedoch über ein Attribut verfügen, das aktiviert wurde und entfernt wurde, wird dieses Skript erst aus der Attributliste entfernt, wenn Sie es deaktivieren. Beispielsweise haben Sie ein Profilskript entfernt, das als Token verwendet wurde. [!DNL Target] entfernt nur die ausgeschalteten Attribute aus der Liste, wenn sie gelöscht oder umbenannt werden.
 
-## Daten an Google Analytics senden
+## Senden von Daten an Google Analytics
 
-In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] Daten an Google Analytics 4 senden. Daten, die über Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
+In den folgenden Abschnitten wird beschrieben, wie Sie [!DNL Target] an Google Analytics 4 senden. Daten, die über Antwort-Token gesendet werden, können auch an andere Drittanbieter-Integrationen gesendet werden.
 
 ### ![AEP-Badge](/help/main/assets/platform.png) Senden von Daten an Google Analytics über Platform Web SDK
 
-Google Analytics-Daten können über Platform Web SDK Version 2.6.0 (oder höher) gesendet werden, indem der folgende Code auf der HTML-Seite hinzugefügt wird.
+Google Analytics kann Daten über Platform Web SDK Version 2.6.0 (oder höher) gesendet werden, indem der folgende Code auf der HTML-Seite hinzugefügt wird.
 
 >[!NOTE]
 >

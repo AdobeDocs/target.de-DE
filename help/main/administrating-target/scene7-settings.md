@@ -5,7 +5,7 @@ title: Wie konfiguriere ich die Integration von Dynamic Media Classic (Scene7)?
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 85%
@@ -15,6 +15,8 @@ ht-degree: 85%
 # Konfiguration von Dynamic Media Classic (früher Scene7)
 
 [!DNL Adobe Target] kann mit [!DNL Adobe Dynamic Media Classic] (früher [!DNL Scene7]) integriert werden, um Digital Asset Management (DAM) in der [!UICONTROL Content Library] bereitzustellen.
+
+{{permissions-update}}
 
 >[!NOTE]
 >

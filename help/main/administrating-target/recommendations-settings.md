@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Einstellungen für [!DNL Recommendations] konfigurieren
 
 Erfahren Sie, wie Sie Einstellungen für [!DNL Adobe Target Recommendations] konfigurieren.
+
+{{permissions-update}}
 
 Um auf die Optionen für die [!DNL Recommendations] zuzugreifen, öffnen Sie [!DNL Target] im [!DNL Adobe Experience Cloud] und klicken Sie dann auf [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
@@ -29,4 +31,4 @@ Sie können die folgenden Einstellungen konfigurieren:
 * Angeben der Basis-URL für Miniaturansichten
 * Konfigurieren von benutzerdefinierten Attributschlüsseln
 
-Detaillierte Informationen finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} im **[!DNL Adobe Target]-Entwicklerhandbuch**.
+Detaillierte Informationen finden Sie unter [Planen und Implementieren von ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}) im **[!DNL Adobe Target]Entwicklerhandbuch**.

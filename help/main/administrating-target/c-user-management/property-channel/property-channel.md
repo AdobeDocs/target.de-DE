@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -16,6 +16,8 @@ ht-degree: 48%
 # Berechtigungen für Unternehmensbenutzer
 
 Enterprise-Benutzerberechtigungen sind eine Möglichkeit, den unternehmensweiten Benutzerzugriff auf [!DNL Adobe Target] formell zu verwalten. Fügen Sie Benutzer zu [!DNL Target] hinzu, weisen Sie Berechtigungen basierend auf deren Rollen zu und erstellen Sie Arbeitsbereiche für Teams basierend auf verschiedenen Abteilungen, globalen Standorten, Kanälen und anderen logischen Gruppierungen. Sie können Benutzern die Rollen [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] oder [!UICONTROL Publisher] zuweisen.
+
+{{permissions-update}}
 
 ## Ermitteln, ob Sie Zugriff auf Enterprise-Benutzerberechtigungen haben
 
@@ -215,7 +217,7 @@ Beachten Sie bei der Verwendung oder Konfiguration von Eigenschaften und Berecht
 
    * Visual Experience Composer
    * Berichterstellung
-   * Scene7-Konfiguration
+   * Konfiguration für Scene7
    * Implementierung
    * Eigenschaften
    * Hosts
@@ -237,7 +239,7 @@ Beachten Sie bei der Verwendung oder Konfiguration von Eigenschaften und Berecht
    * Bildangebote
    * Alle Recommendations-Ressourcen, einschließlich Kriterienbibliothek, Designbibliothek, Katalog, Recommendations-Einrichtung.
    * Vorhandene Ressourcen (z. B. Aktivitäten, Code-Angebote und Zielgruppen), die in Target Premium vor der Aktivierung von Enterprise-Berechtigungen erstellt wurden, können kopiert, aber nicht in andere Arbeitsbereiche verschoben werden.
-   * Aktivitäten, Audiences, Codeangebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht mit dem Enterprise-Berechtigungsmodell gesteuert werden, sind jedoch Teil der Standard-Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über die API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
+   * Aktivitäten, Audiences, Code-Angebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht mit dem Enterprise-Berechtigungsmodell gesteuert werden, sind jedoch Teil der Standard-Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über die -API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
    * Bildangebote (Assets), die unter `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` gespeichert werden, können derzeit nicht vom Enterprise-Berechtigungsmodell gesteuert werden.
    * clickTracking und Weiterleitungen funktionieren, wenn der Ziel-Link oder die Zielseite Teil einer Eigenschaft ist, die in der Aktivität enthalten ist. Außerdem funktioniert das clickTracking bei Verwendung der Funktion `targetPageParams()` möglicherweise nicht. `targetPageParamsAll()` ist die empfohlene Funktion.
 

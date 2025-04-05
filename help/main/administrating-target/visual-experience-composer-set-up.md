@@ -5,7 +5,7 @@ title: Wie konfiguriere ich Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 49%
@@ -17,6 +17,8 @@ ht-degree: 49%
 Konfigurieren Sie den [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), indem Sie die allgemeinen Einstellungen, die Konfiguration mobiler Viewports und die CSS-Selektoren festlegen.
 
 Um auf die Seite mit der [!UICONTROL Visual Experience Composer]-Konfiguration zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+
+{{permissions-update}}
 
 >[!NOTE]
 >
