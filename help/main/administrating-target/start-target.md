@@ -5,10 +5,10 @@ title: Wo kann ich mit der Verwaltung beginnen [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 40%
+source-wordcount: '443'
+ht-degree: 32%
 
 ---
 
@@ -20,7 +20,7 @@ Dieser Artikel enthält die ersten Schritte, [!DNL Adobe Target] Administratoren
 
 Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Experience Cloud- und Core Services-Hilfe*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Hilfe zu Experience Cloud und Core Services*.
 
 Sie erhalten eine Einladungs-E-Mail, nachdem der Systemadministrator diese Schritte ausgeführt hat.
 
@@ -58,6 +58,10 @@ Wenn Ihr Unternehmen über eine [Target Premium](/help/main/c-intro/intro.md#pre
 
 Ihr nächster Schritt sollte darin bestehen, Benutzer in [!DNL Target Standard] und [!DNL Target Premium] einzurichten. Weitere Informationen finden Sie unter [Benutzerverwaltung](/help/main/administrating-target/c-user-management/user-management.md).
 
->[!IMPORTANT]
->
->Benutzende mit den Rechten [!UICONTROL Product Admin] oder [!UICONTROL System Admin] in [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [!UICONTROL Administration] von [!DNL Target] unabhängig von ihrer [!DNL Target]-Rolle bearbeiten oder ändern. Benutzende ohne [!UICONTROL Product Admin]- oder [!UICONTROL System Admin] in der [!DNL Adobe Admin Console] müssen über die spezifische [!DNL Target] verfügen, um diese Änderungen vorzunehmen.
+## Erforderliche Berechtigungen zum Bearbeiten von [!UICONTROL Administration] {#admin-permissions}
+
+**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Approvers] Berechtigungen im [!DNL Adobe Admin Console] können alle Einstellungen auf der [[!UICONTROL Administration] Seite, ](/help/main/administrating-target/administrating-target.md) Seite von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target] Rolle.
+
+**Wirksam ab 22. April 2025**: Nur [!UICONTROL Product]- und [!UICONTROL Solutions]-Administratoren können die Einstellungen in den [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) Abschnitten aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die [!UICONTROL Administration].
+
+Diese Aktualisierung verbessert die organisatorische Kontrolle über [!DNL Target] Instanzkonfigurationen und verhindert versehentliche Aktualisierungen, die die Aktivitätsbereitstellung in verschiedenen Test- und Personalisierungsteams beeinträchtigen könnten.
