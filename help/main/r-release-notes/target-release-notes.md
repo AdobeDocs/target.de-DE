@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
+source-git-commit: eaba6fe562644874fc800612894218094ca37f1b
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 31%
+source-wordcount: '391'
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 31%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: Donnerstag, 2. April 2025**
+**Zuletzt aktualisiert: Mittwoch, 8. April 2025**
 
 >[!NOTE]
 >
@@ -47,26 +47,6 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Der Zugriff auf [Karten für Zielgruppendefinitionen](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) im Dialogfeld &quot;[!UICONTROL Activity QA]&quot; wurde wiederhergestellt, ähnlich wie in der veralteten Benutzeroberfläche. (TGT-52056)
 * Die aktualisierte Benutzeroberfläche hat Seiten oder Zielgruppen nicht ohne Änderungen gespeichert. Wenn Kundinnen und Kunden einer Aktivität neue Seiten oder Zielgruppen hinzugefügt, diese jedoch nicht geändert haben, haben [!DNL Target] die unveränderten Zielgruppen beim Speichern verworfen. An relevanten Stellen wurden Benachrichtigungen hinzugefügt, um Benutzer über dieses Verhalten zu informieren. (TGT-52104)
 
-## [!DNL Target Standard/Premium] 25.4.1 (2. April 2025)
-
-Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
-
-* Es wurde ein Fehler behoben, der dazu führte, dass Erlebnis-Zielgruppen aus -Aktivitäten verschwanden. (TGT-52003)
-* Fehlerkorrektur - Beim Versand treten jetzt keine unerwarteten Elemente mehr auf. (TGT-52011)
-* Es wurde ein Problem behoben, durch das Kunden die Anzeige der Zielgruppe im Targeting-Diagramm auf der [!UICONTROL r]-Seite und während der Aktivitätsbearbeitung nicht sehen konnten. (TGT-52050)
-* Es wurde ein Problem behoben, das Kunden daran hinderte, Erlebnisse in [!UICONTROL Experience Targeting] (XT)-Aktivitäten nach Priorität neu anzuordnen. (TGT-52054)
-* Es wurde ein Problem behoben, das beim Rückgängigmachen von Textstil-Änderungen zu falschem Rendering führte. (TGT-51876)
-* Es wurde ein Problem behoben, durch das [!DNL Target] beim Ändern eines Umleitungsangebots auch alle [!UICONTROL ClickTrack] entfernt, die mit diesem Angebot verknüpft sind. (TGT-51936)
-* Ein Problem wurde behoben, das dazu führte, dass [!DNL Target] beim Abbrechen von [!UICONTROL ClickTrack] die Auswahl fälschlicherweise speicherte. (TGT-51937)
-* Es wurde ein Problem behoben, das nach dem Öffnen und Schließen der Mbox-Auswahl auf der [!UICONTROL Goals & Settings] ohne Änderungen zu einem Fehler wegen ungültigem Namen führte. (TGT-51983)
-* Es wurde ein Problem behoben, das die Bearbeitung von Ad-hoc-Angeboten blockierte, die in der veralteten [!DNL Target]-Benutzeroberfläche erstellt wurden. (TGT-51984)
-* Es wurde ein Problem behoben, das die Bearbeitung von Aktivitäten blockierte, die Ad-hoc-Angebote mit benutzerdefiniertem Code enthielten. (TGT-51995)
-* Es wurde ein Problem behoben, das dazu führte, dass Ausschlussregeln beim Bearbeiten kombinierter Zielgruppendefinitionen als Einschlussregeln angezeigt wurden. (TGT-51999)
-* Ein Problem wurde behoben, das dazu führte, dass benutzerdefinierter Code während der Erlebnisbearbeitung nicht korrekt angezeigt wurde. (TGT-52005)
-* Es wurde ein Problem behoben, durch das die [!UICONTROL Insert Before]-Option zum Einfügen von Inhalten vor der Navigationsleiste nicht mehr verfügbar war. (TGT-52031)
-* Fehlerkorrektur - Das Standarderlebnis in Berichten wird jetzt korrekt hervorgehoben. (TGT-51716)
-* Es wurde ein Problem behoben, das beim Erstellen einer Aktivität eine `default message [Invalid optionLocalIds: xx]]` auslöste. (TGT-52038)
-
 <!-- 
 ## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
 
@@ -79,8 +59,8 @@ This release contains the following fixes:
 
 | Ressource | Details |
 |--- |--- |
-| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen des Platform Web SDK. |
-| [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
+| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen von Platform Web SDK. |
+| [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
