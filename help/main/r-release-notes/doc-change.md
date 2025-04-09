@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 626d33f00ff84af367847d53de7806ea62940809
+source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 38%
 
 ---
@@ -21,8 +21,9 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 9. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten der Vorabversionshinweise für die Version 25.4.3 wurden aktualisiert. |
 | 8. April | [CNAME und Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Die folgenden Aktualisierungen wurden vorgenommen:<ul><li>Alle Zertifikate sind RSA SHA-256 und die Schlüssel sind standardmäßig RSA 2048-Bit. Schlüsselgrößen über 2048-Bit sollten explizit von der Kundenunterstützung angefordert werden. (Zuvor angegebene Schlüsselgrößen, die größer als 2048 Bit sind, werden nicht unterstützt.)</li><li>Bash-Skript aktualisiert.</li><li>Das Codefragment für die Validierungsausgabe wurde aktualisiert.</li></ul> |
-| 7. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die folgenden kommenden Versionen hinzugefügt:<UL><li>[!DNL Target Standard/Premium] 25.4.2 (8. April 2025)</li><li>[!DNL Target Standard/Premium] 25.4.3 (10. April 2025)</li></ul> |
+| 7. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die folgende bevorstehende Version hinzugefügt:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10. April 2025)</li></ul> |
 | 4. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Die Versionshinweise für die bevorstehende Aktualisierung der [!DNL Target] wurden aktualisiert, die für den 22. April 2025 geplant ist. |
 |  | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die bevorstehende Aktualisierung der [!DNL Target] wurden aktualisiert, die für den 22. April 2025 geplant ist. |
 |  | [Erste Schritte für Admins](/help/main/administrating-target/start-target.md#admin-permissions) | Der neue Abschnitt „Berechtigungen zum Bearbeiten von [!UICONTROL Administration]&quot; wurde hinzugefügt. |
