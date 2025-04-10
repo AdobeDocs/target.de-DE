@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7e23eea48abdebd60f37ad1bf453813a63779d33
+source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 28%
@@ -22,24 +22,6 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
-
-## Aktualisierung der Target-Berechtigungen (22. April 2025)
-
-Diese zukünftige Aktualisierung verbessert die organisatorische Kontrolle über [!DNL Target] Instanzkonfigurationen und verhindert versehentliche Aktualisierungen, die die Aktivitätsbereitstellung in verschiedenen Test- und Personalisierungsteams beeinträchtigen könnten.
-
-Ab dem 22. April 2025 können nur [!UICONTROL Product]- und [!UICONTROL Solutions]-Administratoren die Einstellungen in den [!UICONTROL Administration] Abschnitten aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die [!UICONTROL Administration].
-
-Weitere Informationen finden Sie unter [Verwaltung von Target](/help/main/administrating-target/start-target.md).
-
-## [!DNL Target Standard/Premium] 25.4.4 (15. April 2025)
-
-Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
-
-* Es wurde eine Fehlermeldung hinzugefügt, die Benutzende anleitet, wie doppelte Optionen in einer Aktivität aufgelöst werden können. (TGT-51927)
-* Es wurde ein Problem behoben, bei dem ClickTrack-Selektoren beim Löschen von Seiten oder Erlebnissen mit Umleitungsangeboten nicht entfernt wurden. (TGT-51952)
-* Es wurde ein Problem behoben, bei dem [!DNL Target] ein &quot;#&quot;-Zeichen in der Aktivitäts-URL nicht korrekt erkannte. (TGT-52093)
-* Es wurde ein Problem behoben, bei dem Zielgruppendefinitionen beim Bearbeiten des Targeting auf Angebotsebene in [!UICONTROL Automated Personalization] (AP)-Aktivitäten nicht sichtbar waren. (TGT-52148)
-* Es wurde ein Problem behoben, bei dem Zielgruppenverfeinerungen und Aktivitäts-Targeting-Zielgruppen in der Benutzeroberfläche umgekehrt wurden. (TGT-52158)
 
 ## [!DNL Target Standard/Premium] 25.4.3 (10. April 2025)
 
@@ -65,6 +47,24 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Stile im Abschnitt Inline-Stil zu löschen. (TGT-52070)
 * Der Zugriff auf [Karten für Zielgruppendefinitionen](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) im Dialogfeld &quot;[!UICONTROL Activity QA]&quot; wurde wiederhergestellt, ähnlich wie in der veralteten Benutzeroberfläche. (TGT-52056)
 * Die aktualisierte Benutzeroberfläche hat Seiten oder Zielgruppen nicht ohne Änderungen gespeichert. Wenn Kundinnen und Kunden einer Aktivität neue Seiten oder Zielgruppen hinzugefügt, diese jedoch nicht geändert haben, haben [!DNL Target] die unveränderten Zielgruppen beim Speichern verworfen. An relevanten Stellen wurden Benachrichtigungen hinzugefügt, um Benutzer über dieses Verhalten zu informieren. (TGT-52104)
+
+## [!DNL Target Standard/Premium] 25.4.4 (15. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde eine Fehlermeldung hinzugefügt, die Benutzende anleitet, wie doppelte Optionen in einer Aktivität aufgelöst werden können. (TGT-51927)
+* Es wurde ein Problem behoben, bei dem ClickTrack-Selektoren beim Löschen von Seiten oder Erlebnissen mit Umleitungsangeboten nicht entfernt wurden. (TGT-51952)
+* Es wurde ein Problem behoben, bei dem [!DNL Target] ein &quot;#&quot;-Zeichen in der Aktivitäts-URL nicht korrekt erkannte. (TGT-52093)
+* Es wurde ein Problem behoben, bei dem Zielgruppendefinitionen beim Bearbeiten des Targeting auf Angebotsebene in [!UICONTROL Automated Personalization] (AP)-Aktivitäten nicht sichtbar waren. (TGT-52148)
+* Es wurde ein Problem behoben, bei dem Zielgruppenverfeinerungen und Aktivitäts-Targeting-Zielgruppen in der Benutzeroberfläche umgekehrt wurden. (TGT-52158)
+
+## Aktualisierung der Target-Berechtigungen (22. April 2025)
+
+Diese zukünftige Aktualisierung verbessert die organisatorische Kontrolle über [!DNL Target] Instanzkonfigurationen und verhindert versehentliche Aktualisierungen, die die Aktivitätsbereitstellung in verschiedenen Test- und Personalisierungsteams beeinträchtigen könnten.
+
+Ab dem 22. April 2025 können nur [!UICONTROL Product]- und [!UICONTROL Solutions]-Administratoren die Einstellungen in den [!UICONTROL Administration] Abschnitten aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die [!UICONTROL Administration].
+
+Weitere Informationen finden Sie unter [Verwaltung von Target](/help/main/administrating-target/start-target.md).
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
