@@ -4,7 +4,7 @@ description: Erfahren Sie [!DNL Adobe Target]  wie funktioniert, einschließlich
 title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Weitere Informationen finden Sie unter [Recommendations](/help/main/c-recommenda
 
 Die folgenden Informationen helfen Ihnen, die für [!DNL Target] Server-Aufrufe verwendete Zählstrategie zu verstehen, wie in der folgenden Tabelle dargestellt:
 
-* **Einmal zählen**: Zählt einmal pro API-Aufruf
-* **Anzahl der Mboxes zählen**: Zählt die Anzahl der Mboxes unter dem Array in der Payload eines einzelnen API-Aufrufs
-* **Ignorieren**: wird überhaupt nicht gezählt
-* **Anzahl der Ansichten zählen (einmal)**: Zählt die Anzahl der Ansichten unter dem Array in der Payload. In einer typischen Implementierung hat eine Ansichtsbenachrichtigung nur eine Ansicht unter dem Benachrichtigungs-Array, was bedeutet, dass in den meisten Implementierungen nur einmal gezählt wird
+* **Einmal zählen**: Zählt einmal pro API-Aufruf.
+* **Anzahl der Mboxes zählen**: Zählt die Anzahl der Mboxes unter dem Array in der Payload eines einzelnen API-Aufrufs.
+* **Ignorieren**: Wird überhaupt nicht gezählt.
+* **Anzahl der Ansichten zählen (einmal)**: Zählt die Anzahl der Ansichten unter dem Array in der Payload. In einer typischen Implementierung hat eine Ansichtsbenachrichtigung nur eine Ansicht unter dem Benachrichtigungs-Array, was bedeutet, dass in den meisten Implementierungen nur einmal gezählt wird.
 
 | Endpunkt | Abruftyp | Optionen | Zählstrategie |
 |--- |--- |--- |-- |
