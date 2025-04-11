@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;Suchmaschinenoptimierung;seo;Edge-Cluster;zentrale Cluster;at.js;mbox.js;
-description: Erfahren Sie, wie das funktioniert [!DNL Adobe Target] , einschließlich Informationen zu JavaScript Bibliotheken (AEP Web SDK at.js), Strategien zur Nutzung von Server-Aufrufen, Nutzung, Adobe Systems Rechenzentren, SEO Tests und Bots.
+description: Erfahren Sie [!DNL Adobe Target]  wie funktioniert, einschließlich Informationen zu JavaScript-Bibliotheken (AEP Web SDK at.js), Nutzungsstrategien für Server-Aufrufe, Nutzung, Adobe-Rechenzentren, SEO-Tests und Bots.
 title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -97,9 +97,16 @@ Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activit
 
 Weitere Informationen finden Sie unter [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Zählung [!DNL Target] der Server-Aufrufe {#usage}
+## Wie [!DNL Target] die Nutzung von Server-Aufrufen zählt {#usage}
 
-[!DNL Target] Zählt nur Serveraufrufe, die Kunden einen Mehrwert bieten. Die folgende Tabelle zeigt, wie [!DNL Target] Endpunkte, einzelne Mbox, Batch-Mbox-Aufrufe, Execute-, Prefetch- und Benachrichtigung-Aufrufe gezählt werden.
+[!DNL Target] zählt nur Server-Aufrufe, die Kunden einen Mehrwert bieten. Die folgende Tabelle zeigt, wie [!DNL Target] Endpunkte, einzelne Mbox-, Batch-Mbox-Aufrufe, Ausführen-, Vorabruf- und Benachrichtigungsaufrufe zählt.
+
+Die folgenden Informationen helfen Ihnen, die für [!DNL Target] Server-Aufrufe verwendete Zählstrategie zu verstehen, wie in der folgenden Tabelle dargestellt:
+
+* **Einmal zählen**: Zählt einmal pro API-Aufruf
+* **Anzahl der Mboxes zählen**: Zählt die Anzahl der Mboxes unter dem Array in der Payload eines einzelnen API-Aufrufs
+* **Ignorieren**: wird überhaupt nicht gezählt
+* **Anzahl der Ansichten zählen (einmal)**: Zählt die Anzahl der Ansichten unter dem Array in der Payload. In einer typischen Implementierung hat eine Ansichtsbenachrichtigung nur eine Ansicht unter dem Benachrichtigungs-Array, was bedeutet, dass in den meisten Implementierungen nur einmal gezählt wird
 
 | Endpunkt | Abruftyp | Optionen | Zählstrategie |
 |--- |--- |--- |-- |
@@ -166,11 +173,11 @@ Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten 
 
 ## Geschütztes Benutzererlebnis {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-[!DNL Adobe] stellt sicher, dass die Verfügbarkeit und Leistung der Targeting Infrastruktur so zuverlässig wie möglich ist. Kommunikationsabbrüche zwischen Browser und [!DNL Adobe] Servern eines Besucher können jedoch Inhalte Sendungen unterbrechen.
+[!DNL Adobe] stellt sicher, dass die Verfügbarkeit und Performance der Targeting-Infrastruktur so zuverlässig wie möglich ist. Kommunikationsstörungen zwischen dem Browser eines Besuchers und [!DNL Adobe] Servern können jedoch die Inhaltsbereitstellung unterbrechen.
 
-Zum Schutz vor Dienstunterbrechungen und Verbindungsproblemen werden an allen Standorten vom Kunden definierte Standardinhalte gespeichert. Dieser Standard-Content wird angezeigt, wenn der Browser des Besucher keine Verbindung herstellen [!DNL Target]kann.
+Zum Schutz vor Dienstunterbrechungen und Verbindungsproblemen werden an allen Standorten vom Kunden definierte Standardinhalte gespeichert. Dieser Standardinhalt wird angezeigt, wenn der Browser eines Besuchers keine Verbindung zu [!DNL Target] herstellen kann.
 
-Es werden keine Änderungen an der Seite vorgenommen, wenn die Browser des Besucher innerhalb eines definierten Timeout-Zeitraums (Standard: 15 Sekunden) keine Verbindung herstellen kann. Wenn diese Timeout-Frist erreicht ist, wird der Standardinhalt angezeigt.
+An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besuchers innerhalb eines definierten Timeout-Zeitraums keine Verbindung herstellen kann (Standard: 15 Sekunden). Wenn diese Timeout-Frist erreicht ist, wird der Standardinhalt angezeigt.
 
 [!DNL Adobe] schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
@@ -233,7 +240,7 @@ Als Beispiel gibt Google an: „Wenn eine Originalseite voller Keywords ist, die
 >
 > Bei [!DNL Server-Side] Anforderungen hat der im [Kontextknoten der Anforderung](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) übergebene Wert eine höhere Priorität als die für die Bot-Erkennung verwendete Benutzeragenten-Zeichenfolge.
 
-Traffic, der als Bot generiert identifiziert wurde, wird weiterhin Inhalte bedient. Bots werden liken normale Benutzer behandelt, um sicherzustellen, dass sie [!DNL Target] mit SEO Richtlinien übereinstimmen. Allerdings können Bot Traffic A/B-Tests oder Personalisierung Algorithmen verfälschen, wenn sie liken normalen Benutzern behandelt werden. Daher werden bekannte Bot Traffic in Ihrem [!DNL Target] Aktivität unterschiedlich behandelt. Das Entfernen des Bot-Traffics bietet eine genauere Messung der Benutzeraktivität.
+Als Bot-generiert identifizierter Traffic wird weiterhin als Inhalt bereitgestellt. Um sicherzustellen, dass [!DNL Target] den SEO-Richtlinien entspricht, werden Bots wie reguläre Benutzer behandelt. Bot-Traffic kann jedoch A/B-Tests oder Personalisierungsalgorithmen verfälschen, wenn er wie normale Benutzer behandelt wird. Daher wird der bekannte Bot-Traffic in Ihrer [!DNL Target] anders behandelt. Das Entfernen des Bot-Traffics bietet eine genauere Messung der Benutzeraktivität.
 
 Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 
