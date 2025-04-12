@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e3191da2ac21f51fa6e08af615659db1ccdd2d9
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 34%
 
 ---
 
@@ -18,6 +18,33 @@ ht-degree: 52%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.4.3 (11. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Fehler behoben, der Kunden daran hinderte, das Popup-Fenster mit Zielgruppeninformationen für bestimmte [!UICONTROL Experience Targeting] (XT)-Aktivitäten zu öffnen. (TGT-52049)
+* Es wurde ein Problem behoben, bei dem die Zielgruppeneinstellung nach Änderungen im [!UICONTROL Visual Experience Composer] (VEC) auf &quot;[!UICONTROL All Visitors]&quot; zurückgesetzt wurde. (TGT-52132)
+* Es wurde ein Problem behoben, bei dem Zielgruppenoptimierungen für bestimmte Aktivitäten nicht angezeigt wurden (TGT-52057)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, eine [!UICONTROL Experience Fragment] in den Standardarbeitsbereich einzufügen. (TGT-52073)
+* Es wurde ein Problem behoben, bei dem ein Angebot als „Inhalt nicht gefunden“ angezeigt wurde und für eine [!UICONTROL Automated Personalization] (AP)-Aktivität nicht auf der [!UICONTROL Offers] angezeigt wurde. (TGT-52150)
+* Es wurde die Möglichkeit hinzugefügt, innerhalb einer Aktivität doppelte Zielgruppen zuzulassen. (TGT-51200)
+* Fehlerkorrektur - Nach der Bearbeitung wird für eine XT-Aktivität auf der Seite [!UICONTROL Goals & Settings] der falsche Mbox-Name angezeigt. (TGT-52026)
+* Es wurde ein Problem behoben, bei dem `defaultContent` in Optionen angezeigt wurden, obwohl sie nicht in `experiences/optionLocations` waren. (TGT-52036)
+* Es wurde ein Problem behoben, um sicherzustellen, dass leere Zeichenfolgen nicht in Nullwerte konvertiert werden. (TGT-52037)
+* Es wurde ein Problem behoben, bei dem Kundinnen und Kunden die [!UICONTROL Optimization Goal] in [!UICONTROL Reporting Settings] auf der [!UICONTROL Goals & Settings] Seite nach der Bearbeitung neu konfigurieren mussten. (TGT-52071)
+* Es wurde ein Problem behoben, bei dem bei einer Aktivität ohne Seitenbereitstellungsregeln mehrere Regeln auf der [!UICONTROL Overview] angezeigt wurden. (TGT-52084)
+* Es wurde eine Fehlermeldung für Benutzer hinzugefügt, die versuchen, ein Angebot mit Zeichen außerhalb der mehrsprachigen Basisebene wie Emojis zu speichern. (TGT-52105)
+* Fehlerkorrektur - Beim Öffnen einer Aktivität wird jetzt nicht mehr die Fehlermeldung „Diese Aktivität verwendet eine oder mehrere Zielgruppen, die an der Quelle gelöscht wurden.“ (TGT-52120)
+* Es wurde ein Problem behoben, bei dem ClickTrack-Metriken während der Bearbeitung nicht im aktualisierten [!UICONTROL Visual Experience Composer] (VEC) angezeigt wurden. (TGT-52152)
+* Es wurde ein Problem behoben, bei dem eine URL mit einem Abfrageparameter als Speicherort der Aktivität den Abfrageparameter auf der Seite [!UICONTROL Overview] der Aktivität nicht anzeigte. (TGT-51635)
+* Es wurde ein Problem behoben, das die Anzeige der gesamten Erlebnis-URL in [!UICONTROL Browse mode] im [!UICONTROL Visual Experience Composer] (VEC) verhinderte. (TGT-52101)
+* Es wurde ein Problem behoben, bei dem die Bearbeitung einer Aktivität dazu führte, dass die Seitenbereitstellung am Ende der URL ein &quot;/&quot; hinzufügte, wodurch sie ungültig wurde. (TGT-52114)
+* Es wurde ein Problem behoben, bei dem der [!UICONTROL Activity QA]-Link im [!UICONTROL Form-Based Experience Composer] fälschlicherweise zur [!DNL Adobe Experience Cloud] Homepage umgeleitet wurde. (TGT-52055)
+* Es wurde ein Problem behoben, bei dem zusätzliche Seiten, die zur [!UICONTROL A/B Test] hinzugefügt wurden, nach dem Speichern und erneuten Öffnen nicht beibehalten wurden. (TGT-51994)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Stile im Abschnitt Inline-Stil zu löschen. (TGT-52070)
+* Der Zugriff auf [Karten für Zielgruppendefinitionen](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) im Dialogfeld &quot;[!UICONTROL Activity QA]&quot; wurde wiederhergestellt, ähnlich wie in der veralteten Benutzeroberfläche. (TGT-52056)
+* Die aktualisierte Benutzeroberfläche hat Seiten oder Zielgruppen nicht ohne Änderungen gespeichert. Wenn Kundinnen und Kunden einer Aktivität neue Seiten oder Zielgruppen hinzugefügt, diese jedoch nicht geändert haben, haben [!DNL Target] die unveränderten Zielgruppen beim Speichern verworfen. An relevanten Stellen wurden Benachrichtigungen hinzugefügt, um Benutzer über dieses Verhalten zu informieren. (TGT-52104)
 
 ## [!DNL Target Standard/Premium] 25.4.1 (2. April 2025)
 
