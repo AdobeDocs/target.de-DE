@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 34%
+source-wordcount: '1188'
+ht-degree: 30%
 
 ---
 
@@ -18,6 +18,21 @@ ht-degree: 34%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.4.4 (17. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde eine Fehlermeldung hinzugefügt, die Benutzende anleitet, wie doppelte Optionen in einer Aktivität aufgelöst werden können. (TGT-51927)
+* Es wurde ein Problem behoben, bei dem `ClickTrack` Selektoren beim Löschen von Seiten oder Erlebnissen mit Umleitungsangeboten nicht entfernt wurden. (TGT-51952)
+* Es wurde ein Problem behoben, das dadurch verursacht wurde, dass leere `ClickTrack` zugelassen wurden. [!DNL Target] erfordert jetzt, dass das Auswahlfeld nicht leer sein darf. (TGT-52107)
+* Es wurde ein Problem behoben, durch das Metriken fälschlicherweise mit doppelten Namen zugelassen wurden. Metriken erfordern jetzt eindeutige Namen. (TGT-52201)
+* Es wurde ein Problem behoben, bei dem Zielgruppendefinitionen beim Bearbeiten des Targeting auf Angebotsebene in [!UICONTROL Automated Personalization] (AP)-Aktivitäten nicht sichtbar waren. (TGT-52148)
+* Es wurde ein Problem behoben, das Kunden mit [!UICONTROL Editor] daran hinderte, Aktivitäten zu speichern. (TGT-52227)
+* `OptionLocalIDs` nicht mehr falsch inkrementiert, wenn die Option unverändert bleibt. (TGT-52139)
+* Fehlerkorrektur - Beim Erstellen einer Aktivität wird jetzt nicht mehr die Meldung „Ungültiger `optionLocalIds`&quot; angezeigt. (TGT-52154)
+* Die Diskrepanzen zwischen den für eine Aktivität definierten `OptionLocalIDs` und den für die Definition von Erlebnissen definierten Diskrepanzen wurden behoben. (TGT-52215)
+* Fehlerkorrektur - Beim Erstellen einer A/B-Aktivität tritt jetzt kein Validierungsfehler mehr auf. (TGT-51923)
 
 ## [!DNL Target Standard/Premium] 25.4.3 (11. April 2025)
 
@@ -74,8 +89,8 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
 | Ressource | Details |
 |--- |--- |
-| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen des Platform Web SDK. |
-| [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
+| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen von Platform Web SDK. |
+| [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Dokumentationsänderungen, historische Versionshinweise und Experience Cloud-Versionshinweise
 
@@ -93,5 +108,5 @@ Mit den folgenden Ressourcen können Sie sehen, was in der nächsten Target-Vers
 
 | Ressource | Details |
 |--- |--- |
-| [Vorrangiges Produkt-Update von Adobe](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Empfangen Sie vorab Benachrichtigungen über bevorstehende Produktverbesserungen an [!DNL Target] und anderen [!DNL Adobe Experience Cloud]-Lösungen. |
+| [Adobe Priority-Produktaktualisierung](https://www.adobe.com/subscription/priority-product-update.html){target=_blank} | Empfangen Sie vorab Benachrichtigungen über bevorstehende Produktverbesserungen an [!DNL Target] und anderen [!DNL Adobe Experience Cloud]-Lösungen. |
 | [Target-Versionshinweise – Vorabversion](/help/main/r-release-notes/target-release-notes.md){target=_blank} | Informationen zu den Target-Versionen des aktuellen Monats, einschließlich Informationen zu Vorabversionen. |
