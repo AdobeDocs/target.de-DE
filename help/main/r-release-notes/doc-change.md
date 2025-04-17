@@ -4,10 +4,10 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 38%
+source-wordcount: '647'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
+| 17. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.4.4 von [!DNL Target Standard/Premium] hinzugefügt. |
 | 11. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.4.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [Wie [!DNL Target] funktioniert](/help/main/c-intro/how-target-works.md#usage) | Der neue Abschnitt „Zählt [!DNL Target] Nutzung der Server-Aufrufe“ wurde hinzugefügt. |
 | 9. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten der Vorabversionshinweise für die Version 25.4.4 wurden aktualisiert. |
