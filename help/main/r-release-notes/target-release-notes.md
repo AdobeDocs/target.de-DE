@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
+
+## [!DNL Target Standard/Premium] 25.4.5 (24. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Ein Problem wurde behoben, das dazu führte, dass beim Bearbeiten oder Speichern einer Aktivität mehrere Erlebnis-Zielgruppen angezeigt wurden. (TGT-52134)
+* Es wurde ein Problem behoben, bei dem Empfehlungen nach der Aktivierung der [!DNL Recommendations]-Aktivität nicht auf der Website des Kunden angezeigt wurden. (TGT-52164)
+* `OptionLocalIDs` nicht mehr fälschlicherweise inkrementiert, wenn die Option unverändert bleibt. (TGT-52187)
+* Heruntergeladene Berichtsdateien zeigen jetzt die in der Berichterstellungs-Benutzeroberfläche vorhandenen Daten korrekt an. (TGT-52068)
+* Es wurde ein Problem behoben, durch das Target das Zeichen &quot;#&quot; in der URL einer Website nicht erkennen konnte. (TGT-52093)
+* Stapelvorgänge schlagen nach dem Hinzufügen von Seitenbereitstellungsregeln nicht mehr fehl. (TGT-52097)
+* Es wurde ein Fehler behoben, der dazu führte, dass [!DNL Target] alle Abfrageparameter aus der URL der Website kürzte. (TGT-52100)
+* Es wurde ein Fehler behoben, der dazu führte, dass Zielgruppenverfeinerungen und Aktivitäts-Zielgruppen in der aktualisierten Benutzeroberfläche rückgängig gemacht wurden. (TGT-52158)
 
 ## Aktualisierung der Target-Berechtigungen (22. April 2025)
 
