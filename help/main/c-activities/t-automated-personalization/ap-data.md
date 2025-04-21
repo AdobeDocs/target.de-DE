@@ -5,9 +5,9 @@ title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu e
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 51%
 
 ---
@@ -43,7 +43,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
 | Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
 | Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über [!UICONTROL Destinations] für [!DNL Target] freigegeben wurden. |  |
-| Attribute [!DNL Adobe Experience Platform Real-time CDP] | AEP | Real-Time CDP-Attribute von Platform, die über [!UICONTROL Destinations] für [!DNL Target] freigegeben wurden. |  |
+
 
 ## Sperren von Funktionen [!DNL Target] Algorithmen für maschinelles Lernen
 
