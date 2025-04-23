@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie die  [!DNL Target]/[!DNL Real-Time Customer D
 title: Wie kann ich  [!DNL Target]  mit  [!DNL Real-Time Customer Data Platform] integrieren?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 85%
+source-wordcount: '975'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 Die auf [!DNL Adobe Experience Platform] aufbauende [!DNL Real-Time Customer Data Platform] (RTCDP) hilft Unternehmen, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Mit der RTCDP können Sie Kundenprofile erstellen, mit denen Sie personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg in Echtzeit bereitstellen können.
 
-Weitere Informationen zur RTCDP finden Sie unter [Übersicht über die Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank}.
+Weitere Informationen zu RTCDP finden Sie unter [Übersicht über Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank}.
 
 ## Wichtigste Funktionen
 
@@ -63,7 +63,7 @@ Die folgende Tabelle zeigt die Segmentbewertungszeit für Ereignisse aus verschi
 
 ## Verwenden von Audiences aus [!DNL Adobe Experience Platform] {#aep}
 
-Die Verwendung der in [!DNL Adobe Experience Platform] erstellten [Audiences](/help/main/c-target/c-audiences/audiences.md) liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), die auf [!DNL Adobe Experience Platform] aufbaut, unterstützt Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
+Die Verwendung der in [!DNL Adobe Experience Platform] erstellten [Audiences](/help/main/c-target/c-audiences/audiences.md) liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen. Die [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=de){target=_blank} (RTCDP), die auf [!DNL Adobe Experience Platform] aufbaut, hilft Unternehmen dabei, bekannte und anonyme Daten aus mehreren Unternehmensquellen zusammenzuführen. Auf diese Weise können Sie Kundenprofile erstellen, mit denen in Echtzeit personalisierte Kundenerlebnisse über alle Kanäle und Geräte hinweg bereitgestellt werden können.
 
 Durch Verbinden von [!DNL Target] und [!DNL Real-Time Customer Data Platform] können Kundinnen und Kunden ihre Web-Personalisierung anreichern. Mit dieser Integration können Sie neue Segmente erschließen, die für [!DNL Target] möglicherweise nicht zugänglich waren, um die Echtzeit-Personalisierung in Millisekunden auf der ersten Seite des Web-Besuchs eines Kunden bzw. einer Kundin zu aktivieren. Durch die Verwendung von in [!DNL Adobe Experience Platform] erstellten Audiences und Profilattributen können Sie die verfügbaren Datenpunkte erweitern, was eine umfassendere Personalisierung ermöglicht.
 
@@ -76,13 +76,14 @@ Diese Integration erschließt wichtige Anwendungsfälle mit Real-Time CDP:
 
 Real-Time CDP-Profilattribute können für [!DNL Target] freigegeben werden, um sie in HTML- und [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md) zu verwenden.
 
-### Einschränkungen und Überlegungen zu Real-Time CDP-Profilattributen
+### Einschränkungen und Überlegungen zu Real-Time CDP-Profilattributen {#limitations}
 
 Beachten Sie Folgendes:
 
 * Attribute innerhalb eines bestimmten Angebots müssen aus derselben [!UICONTROL Experience Platform]-Sandbox stammen. (Anders ausgedrückt: Ein Angebot darf keine Attribute aus verschiedenen [!UICONTROL Experience Platform]-Sandboxes enthalten.)
 * Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen, nämlich aus dem [!DNL Target] und dem [!UICONTROL Experience Platform]. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie aus [!DNL Target] oder aus dem [!UICONTROL Experience Platform] stammen.)
 * Bei der Definition eines Angebots können Sie Standardwerte für [!UICONTROL Real-Time CDP Profile Attributes] zuweisen, falls das Attribut keinen expliziten Wert hat. Wenn beispielsweise eine Einverständnis- oder Governance-Richtlinie das im Personalisierungsdienst verwendete Attribut blockiert, kann stattdessen der Standardwert verwendet werden.
+* [!DNL Target] unterstützt nur den Datentyp „Zeichenfolge“ für [!DNL Adobe Experience Platform] Profilattribute, die in Angeboten verwendet werden sollen. Attribute vom Typ „Zuordnung“ und „Array“ werden noch nicht unterstützt.
 
 ### JSON-Beispielanwendungsfall
 
@@ -104,12 +105,12 @@ Die folgende Abbildung zeigt, dass zwei Profilattribute, `loyalty.tier` und `loy
 
 Weitere Informationen finden Sie in den folgenden Themen:
 
-* [Ziele – Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de#destinations){target=_blank} in den *Versionshinweisen zu Adobe Experience Platform*
-* [Konfigurieren von Personalisierungszielen für die Personalisierung der gleichen und der nächsten Seite](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*.
-* [Adobe Target-Verbindung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*
-* [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele – Übersicht*.
-* [Aktivieren Sie Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele – Übersicht*.
-* [Personalisierung der gleichen und der nächsten Seite über die Ziele „ [!DNL Adobe Target] “ und „Benutzerdefinierte Personalisierung“](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele – Übersicht*.
+* [Ziele - Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de#destinations){target=_blank} in den *Versionshinweisen zu Adobe Experience Platform*
+* [Konfigurieren von Personalisierungszielen für die Personalisierung der gleichen und der nächsten Seite](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*.
+* [Adobe Target-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*
+* [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele - Übersicht*.
+* [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*.
+* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
 
 ## Videos und Blogposts {#videos-blogs}
 
