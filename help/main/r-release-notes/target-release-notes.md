@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 33%
+source-wordcount: '642'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: Donnerstag, 23. April 2025**
+**Zuletzt aktualisiert: Freitag, 24. April 2025**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target Standard/Premium] 25.4.5 (24. April 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (25. April 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
+* Es wurde ein Problem behoben, das zu Diskrepanzen in den Zielgruppenauflistungen zwischen der Seite mit den [!UICONTROL Activity] Einstellungen und der [!UICONTROL Reporting]-Übersichtsseite führte. (TGT-52203)
+* Es wurde ein Problem behoben, das das Hinzufügen einer neuen Seite zu einer Aktivität aufgrund eines Fehlers bei der ungültigen Benutzereingabe verhinderte. (TGT-52263)
 * Es wurde ein Problem behoben, bei dem Empfehlungen nach der Aktivierung der [!DNL Recommendations]-Aktivität nicht auf der Website des Kunden angezeigt wurden. (TGT-52164)
-* `OptionLocalIDs` nicht mehr fälschlicherweise inkrementiert, wenn die Option unverändert bleibt. (TGT-52187)
-* Heruntergeladene Berichtsdateien zeigen jetzt die in der Berichterstellungs-Benutzeroberfläche vorhandenen Daten korrekt an. (TGT-52068)
-* Stapelvorgänge schlagen nach dem Hinzufügen von Seitenbereitstellungsregeln nicht mehr fehl. (TGT-52097)
+* Es wurde ein Problem behoben, das dazu führte, dass `OptionLocalIDs` fälschlicherweise inkrementiert wurden, wenn die Option unverändert blieb. (TGT-52187)
+* Es wurde ein Problem behoben, sodass heruntergeladene Berichtsdateien die in der Reporting-Benutzeroberfläche vorhandenen Daten korrekt anzeigen. (TGT-52068)
+* Fehlerkorrektur - Batch-Vorgänge schlagen nach dem Hinzufügen von Seitenbereitstellungsregeln jetzt nicht mehr fehl. (TGT-52097)
 * Es wurde ein Fehler behoben, der dazu führte, dass [!DNL Target] alle Abfrageparameter aus der URL der Website kürzte. (TGT-52100)
 * Es wurde ein Konsolenfehler behoben, der Kunden daran hinderte, Aktivitäten sowohl in der alten als auch in der aktualisierten Target-Benutzeroberfläche zu erstellen. (TGT-52181)
 * Es wurde ein Problem behoben, durch das Kunden keine neuen Seiten hinzufügen konnten, was zu einem Fehler bei der ungültigen Benutzereingabe führte. (TGT-52258)
@@ -45,7 +47,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, das das Speichern einer Aktivität mit der [!UICONTROL View a Page] URL-Metrik verhinderte. (TGT-52260)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Arbeitsbereiche beim Erstellen von Angeboten innerhalb einer Aktivität auszuwählen. (TGT-52289)
 * Es wurde ein Problem behoben, bei dem Änderungen von einem Erlebnis falsch angezeigt wurden, wenn zu einem anderen Erlebnis gewechselt wurde. (TGT-52184)
-* Es wurde ein Problem behoben, bei dem das Standardangebot nach dem Öffnen der Aktivität nicht korrekt in der [!DNL Target]-Benutzeroberfläche angezeigt wurde. (TGT-52198)
+* Es wurde ein Problem behoben, bei dem das Standardangebot beim Öffnen der Aktivität nicht korrekt in der [!DNL Target]-Benutzeroberfläche angezeigt wurde. (TGT-52198)
 
 ## Aktualisierung der Target-Berechtigungen (22. April 2025)
 
