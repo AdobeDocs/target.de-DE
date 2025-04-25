@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Arbeitsbereiche beim Erstellen von Angeboten innerhalb einer Aktivität auszuwählen. (TGT-52289)
 * Es wurde ein Problem behoben, bei dem Änderungen von einem Erlebnis falsch angezeigt wurden, wenn zu einem anderen Erlebnis gewechselt wurde. (TGT-52184)
 * Es wurde ein Problem behoben, bei dem das Standardangebot beim Öffnen der Aktivität nicht korrekt in der [!DNL Target]-Benutzeroberfläche angezeigt wurde. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Ein Problem wurde behoben, das dazu führte, dass [!DNL Target] das Zeichen &quot;#&quot; in der URL einer Website nicht erkennen konnten. (TGT-52093)
+* Es wurde ein Problem behoben, das das Löschen von Zielgruppen und das Bearbeiten kombinierter Zielgruppen in der aktualisierten Benutzeroberfläche für [!UICONTROL Automated Personalization] (AP)-Aktivitäten verhinderte. (TGT-52149)
+* Es wurde ein Fehler behoben, der dazu führte, dass Zielgruppenverfeinerungen und Aktivitäts-Zielgruppen in der aktualisierten Benutzeroberfläche rückgängig gemacht wurden. (TGT-52158)
 
 ## Aktualisierung der Target-Berechtigungen (22. April 2025)
 
