@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 30%
+source-wordcount: '1677'
+ht-degree: 24%
 
 ---
 
@@ -18,6 +18,42 @@ ht-degree: 30%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.4.5 (25. April 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, das zu Diskrepanzen in den Zielgruppenauflistungen zwischen der Seite mit den [!UICONTROL Activity] Einstellungen und der [!UICONTROL Reporting]-Übersichtsseite führte. (TGT-52203)
+* Es wurde ein Problem behoben, das das Hinzufügen einer neuen Seite zu einer Aktivität aufgrund eines Fehlers bei der ungültigen Benutzereingabe verhinderte. (TGT-52263)
+* Es wurde ein Problem behoben, das dazu führte, dass `OptionLocalIDs` fälschlicherweise inkrementiert wurden, wenn die Option unverändert blieb. (TGT-52187)
+* Es wurde ein Problem behoben, das dazu führte, dass `location` und `OptionLocalIDs` fälschlicherweise inkrementiert wurden, wenn die Option unverändert blieb. (TGT-52188)
+* Es wurde ein Fehler behoben, der dazu führte, dass der Speicherort auf der Seite [!UICONTROL Overview] der Aktivität falsch war. (TGT-52182)
+* Es wurde ein Problem behoben, bei dem für einen ungültigen Speicherort keine Warnung zu einem ungültigen Selektor angezeigt wurde. (TGT-52110)
+* Es wurde ein Problem behoben, sodass heruntergeladene Berichtsdateien die in der Reporting-Benutzeroberfläche vorhandenen Daten korrekt anzeigen. (TGT-52068)
+* Fehlerkorrektur: Batch-Vorgänge schlagen nach dem Hinzufügen von Seitenbereitstellungsregeln nicht fehl. (TGT-52097)
+* Es wurde ein Fehler behoben, der dazu führte, dass [!DNL Target] alle Abfrageparameter aus der URL der Website kürzte. (TGT-52100)
+* Es wurde ein Konsolenfehler behoben, der Kunden daran hinderte, Aktivitäten in der alten und aktualisierten [!DNL Target]-Benutzeroberfläche zu erstellen. (TGT-52181)
+* Es wurde ein Problem behoben, durch das Kunden keine neuen Seiten hinzufügen konnten, was zu einem Fehler bei der ungültigen Benutzereingabe führte. (TGT-52258)
+* Es wurde ein Problem behoben, das dazu führte, dass Änderungen nach dem Hinzufügen zusätzlicher Seiten und dem anschließenden Zurücknavigieren zur Registerkarte [!UICONTROL Experiences] verschwanden. (TGT-52264)
+* Es wurde ein Problem behoben, durch das Kundinnen und Kunden daran gehindert wurden, die Zielgruppe in einer [!UICONTROL Experience Targeting] (XT)-Aktivität zu ändern. (TGT-52191)
+* Fehlerkorrektur - Die Bearbeitung einer XT-Aktivität ist jetzt möglich, da die Benutzeroberflächenregel nicht unterstützt wird. (TGT-52273)
+* Es wurde ein Problem im aktualisierten [!UICONTROL Visual Experience Composer] (VEC) behoben, bei dem Breadcrumbs nicht immer unten im Editor angezeigt wurden, was bei der präzisen Auswahl von Elementen zu Problemen führte. (TGT-52169)
+* Es wurde ein Problem behoben, bei dem in der Dropdown-Liste [!UICONTROL Audience] aufgrund von Paginierung nicht alle Zielgruppen angezeigt wurden. (TGT-52204)
+* Fehlerkorrektur - Jetzt wird keine Meldung mehr angezeigt, dass eine ungültige Benutzereingabe erfolgt ist, wenn neue Angebote in [!UICONTROL Automated Personalization] (AP)-Aktivitäten hinzugefügt werden. (TGT-52210)
+* Es wurde ein Problem behoben, bei dem [!UICONTROL Analytics for Target] (A4T) fälschlicherweise als Berichtsquelle ausgewählt wurde, obwohl die Kundin bzw. der Kunde keinen Zugriff auf A4T hatte. (TGT-52226)
+* Es wurde ein Problem behoben, das das Speichern einer Aktivität mit der [!UICONTROL View a Page] URL-Metrik verhinderte. (TGT-52260)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, Arbeitsbereiche beim Erstellen von Angeboten innerhalb einer Aktivität auszuwählen. (TGT-52289)
+* Es wurde ein Problem behoben, durch das Kunden keine Aktivitäten in allen Arbeitsbereichen erstellen konnten. (TGT-52218)
+* Es wurde ein Problem behoben, bei dem Änderungen von einem Erlebnis falsch angezeigt wurden, wenn zu einem anderen Erlebnis gewechselt wurde. (TGT-52184)
+* Es wurde ein Problem behoben, bei dem das Standardangebot beim Öffnen der Aktivität nicht korrekt in der [!DNL Target]-Benutzeroberfläche angezeigt wurde. (TGT-52198)
+
+## Aktualisierung der Target-Berechtigungen (22. April 2025)
+
+Diese zukünftige Aktualisierung verbessert die organisatorische Kontrolle über [!DNL Target] Instanzkonfigurationen und verhindert versehentliche Aktualisierungen, die die Aktivitätsbereitstellung in verschiedenen Test- und Personalisierungsteams beeinträchtigen könnten.
+
+Ab dem 22. April 2025 können nur [!UICONTROL Product]- und [!UICONTROL Solutions]-Administratoren die Einstellungen in den [!UICONTROL Administration] Abschnitten aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die [!UICONTROL Administration].
+
+Weitere Informationen finden Sie unter [Verwaltung von Target](/help/main/administrating-target/start-target.md).
 
 ## [!DNL Target Standard/Premium] 25.4.4 (17. April 2025)
 
