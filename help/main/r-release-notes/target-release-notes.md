@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: d1b9dfdbf811eee99d4e33a8fcc012c4825c0e6f
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 75%
+source-wordcount: '250'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: Samstag, 25. April 2025**
+**Zuletzt aktualisiert: Dienstag, 28. April 2025**
 
 >[!NOTE]
 >
@@ -29,12 +29,13 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
 * Ein Problem wurde behoben, das dazu führte, dass [!DNL Target] das Zeichen &quot;#&quot; in der URL einer Website nicht erkennen konnten. (TGT-52093)
 * Es wurde ein Fehler behoben, der dazu führte, dass Zielgruppenverfeinerungen und Aktivitäts-Zielgruppen in der aktualisierten Benutzeroberfläche rückgängig gemacht wurden. (TGT-52158)
+* Es wurde ein Problem behoben, das Kunden daran hinderte, eine Aktivität aufgrund eines sV3-`getAudience` zu bearbeiten oder zu kopieren („Zielgruppe nicht gefunden„). Möglicherweise wurde es von einem anderen Benutzer gelöscht.„). (TGT-52223)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
 | Ressource | Details |
 |--- |--- |
-| [Versionshinweise: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) | Details zu Änderungen in den einzelnen Versionen von Platform Web SDK. |
+| [Versionshinweise: Adobe Target Platform Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Details zu Änderungen in den einzelnen Versionen von Platform Web SDK. |
 | [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} | Details zu den Änderungen in den einzelnen Versionen der at.js-JavaScript-Bibliothek von [!DNL Adobe Target] |
 
 ## Vorabinformationen zu Versionen {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
