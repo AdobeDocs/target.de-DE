@@ -4,10 +4,10 @@ description: Erfahren Sie [!DNL Adobe Target]  wie funktioniert, einschließlich
 title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -97,33 +97,36 @@ Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activit
 
 Weitere Informationen finden Sie unter [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Wie [!DNL Target] die Nutzung von Server-Aufrufen zählt {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] zählt nur Server-Aufrufe, die Kunden einen Mehrwert bieten. Die folgende Tabelle zeigt, wie [!DNL Target] Endpunkte, einzelne Mbox-, Batch-Mbox-Aufrufe, Ausführen-, Vorabruf- und Benachrichtigungsaufrufe zählt.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-Die folgenden Informationen helfen Ihnen, die für [!DNL Target] Server-Aufrufe verwendete Zählstrategie zu verstehen, wie in der folgenden Tabelle dargestellt:
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Einmal zählen**: Zählt einmal pro API-Aufruf.
-* **Anzahl der Mboxes zählen**: Zählt die Anzahl der Mboxes unter dem Array in der Payload eines einzelnen API-Aufrufs.
-* **Ignorieren**: Wird überhaupt nicht gezählt.
-* **Anzahl der Ansichten zählen (einmal)**: Zählt die Anzahl der Ansichten unter dem Array in der Payload. In einer typischen Implementierung hat eine Ansichtsbenachrichtigung nur eine Ansicht unter dem Benachrichtigungs-Array, was bedeutet, dass in den meisten Implementierungen nur einmal gezählt wird.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Endpunkt | Abruftyp | Optionen | Zählstrategie |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Einzel | [!UICONTROL execute] | Einmal zählen |
-| `rest/v2/batchmbox` | Batch | [!UICONTROL execute] | Anzahl der Mboxes zählen |
-|  | Batch | [!UICONTROL prefetch] | Ignorieren |
-|  | Batch | [!UICONTROL notifications] | Anzahl der Mboxes zählen |
-| `/ubox/[raw\|image\|page]` | Einzel | [!UICONTROL execute] | Einmal zählen |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Einzel | [!UICONTROL execute] > [!UICONTROL pageLoad] | Einmal zählen |
-|  | Einzel | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Ignorieren |
-|  | Einzel | [!UICONTROL prefetch] > [!UICONTROL views] | Ignorieren |
-|  | Batch | [!UICONTROL execute] > [!UICONTROL mboxes] | Anzahl der Mboxes zählen |
-|  | Batch | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignorieren |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL views] | Anzahl der Ansichten zählen (einmal) |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Einmal zählen |
-|  | Batch | [!UICONTROL notifications] > Typ ([!UICONTROL conversions]) | Einmal zählen |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL mboxes] | Anzahl der Mboxes zählen |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## Das Edge-Netzwerk {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -169,7 +172,7 @@ Der [!DNL Target Recommendations]-Service wird in einem Rechenzentrum von [!DNL 
 >
 >[!DNL Target] fehlt derzeit ein Edge-Cluster in China, was die Besucherleistung für [!DNL Target] Kunden in der Region einschränkt. Die Firewall und das Fehlen von Edge-Clustern können Site-Erlebnisse beeinträchtigen und zu langsamen Rendering- und Seitenladezeiten führen. Darüber hinaus kann es bei Marketing-Experten zu Latenzen kommen, wenn sie die [!DNL Target] Authoring-Benutzeroberfläche verwenden.
 
-Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf die Zulassungsliste setzen](https://experienceleague.adobe.com/de/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
+Gegebenenfalls können Sie [!DNL Target]-Edge-Cluster aber auf Zulassungslisten setzen. Weitere Informationen finden Sie unter [Target-Edge-Knoten auf Zulassungslisten setzen](https://experienceleague.adobe.com/de/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}.
 
 ## Geschütztes Benutzererlebnis {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

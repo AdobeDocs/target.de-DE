@@ -4,9 +4,9 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '704'
 ht-degree: 39%
 
 ---
@@ -26,7 +26,6 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | 17. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.4.4 von [!DNL Target Standard/Premium] hinzugefügt. |
 |  | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die Version 25.4.5 hinzugefügt. |
 | 11. April | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.4.3 von [!DNL Target Standard/Premium] hinzugefügt. |
-|  | [Wie [!DNL Target] funktioniert](/help/main/c-intro/how-target-works.md#usage) | Der neue Abschnitt „Zählt [!DNL Target] Nutzung der Server-Aufrufe“ wurde hinzugefügt. |
 | 9. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Daten der Vorabversionshinweise für die Version 25.4.4 wurden aktualisiert. |
 | 8. April | [CNAME und Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Die folgenden Aktualisierungen wurden vorgenommen:<ul><li>Alle Zertifikate sind RSA SHA-256 und die Schlüssel sind standardmäßig RSA 2048-Bit. Schlüsselgrößen über 2048-Bit sollten explizit von der Kundenunterstützung angefordert werden. (Zuvor angegebene Schlüsselgrößen, die größer als 2048 Bit sind, werden nicht unterstützt.)</li><li>Bash-Skript aktualisiert.</li><li>Das Codefragment für die Validierungsausgabe wurde aktualisiert.</li></ul> |
 | 7. April | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Es wurden Vorabversionshinweise für die folgende bevorstehende Version hinzugefügt:<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10. April 2025)</li></ul> |
