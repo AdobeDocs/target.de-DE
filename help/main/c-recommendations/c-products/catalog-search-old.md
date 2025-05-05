@@ -2,7 +2,7 @@
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter
 description: Erfahren Sie, wie Sie mit der Recommendations-Katalogsuche Produkte oder Inhalte suchen, Sammlungen oder Ausschlüsse erstellen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
 title: Wie verwende ich die Recommendations-Katalogsuche?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

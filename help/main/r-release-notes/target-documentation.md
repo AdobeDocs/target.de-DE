@@ -31,7 +31,7 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | [Target-SDKs für die Server-Seite](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=de){target=_blank} | Erläutert die Server-seitige Bereitstellung von [!DNL Target] über SDKs. |
 | [Adobe Experience Platform Mobile SDKs](https://experienceleague.adobe.com/docs/mobile.html?lang=de) | Informationen zur Implementierung von [!DNL Target] in Apps für Mobilgeräte. |
 
-Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:
+Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de), die Ihnen folgende Vorteile bietet:
 
 * Austausch über die Funktionen von [!DNL Target]
 * Vernetzung mit Kollegen und [!DNL Adobe]-Experten

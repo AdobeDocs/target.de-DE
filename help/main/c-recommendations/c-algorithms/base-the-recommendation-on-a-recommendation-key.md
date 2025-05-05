@@ -34,7 +34,7 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der Algorithmustyp [!UICONTROL Cart-Based] ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der Algorithmustyp [!UICONTROL Cart-Based] ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; und &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 

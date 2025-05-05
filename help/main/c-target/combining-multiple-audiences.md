@@ -17,7 +17,7 @@ Kombinieren Sie mehrere Zielgruppen (einschließlich [!DNL Adobe Experience Clou
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
+>Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

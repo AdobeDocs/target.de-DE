@@ -39,4 +39,4 @@ Wir lieben die Beiträge unserer Community! Wenn Sie nicht nur zu den Beitragend
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Stattdessen [ein Problem an unsere Sicherheitsfachleute gesendet](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über diesen Problem-Tracker gemeldet werden. Stattdessen [ein Problem an unsere Sicherheitsfachleute gesendet](https://helpx.adobe.com/de/security/alertus.html)

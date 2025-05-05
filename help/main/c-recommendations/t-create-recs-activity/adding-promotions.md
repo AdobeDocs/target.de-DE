@@ -2,7 +2,7 @@
 keywords: Promotions;vordere Promotions;hintere Promotions;Promotions-Typ;Liste der Elemente;Nach Attribut bewerben;Sammlung bewerben
 description: Erfahren Sie, wie Sie hochgestufte Elemente hinzufügen und deren Platzierung in Ihren Adobe [!DNL Target] Recommendations-Designs steuern. Sie können statische und dynamische Promotions hinzufügen.
 title: Wie kann ich in Recommendations Designs Promotions hinzufügen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

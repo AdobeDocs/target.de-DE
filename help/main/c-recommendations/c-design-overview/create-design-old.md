@@ -2,7 +2,7 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie ein Adobe [!DNL Target] Recommendations-Design mit einem Standarddesign erstellen oder ein benutzerdefiniertes Design erstellen, das dem Layout Ihrer Seite am besten entspricht.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

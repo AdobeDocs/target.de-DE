@@ -19,7 +19,7 @@ Unternehmenskundendaten, die über mehrere Quellen erfasst und in CRM-Datenbanke
 
 ## Übersicht über Kundenattribute {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) im [!DNL People]-Service ist Teil der [!DNL Adobe Experience Cloud] und bietet Unternehmen ein Tool, mit dem sie ihre Kundendaten an die [!DNL Experience Cloud]-Plattform übertragen können.
+[Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de) im [!DNL People]-Service ist Teil der [!DNL Adobe Experience Cloud] und bietet Unternehmen ein Tool, mit dem sie ihre Kundendaten an die [!DNL Experience Cloud]-Plattform übertragen können.
 
 In [!DNL Experience Cloud] integrierte Daten sind für alle [!DNL Experience Cloud]-Workflows verfügbar. [!DNL Target] verwendet diese Daten für die Zielgruppenbestimmung der wiederkehrenden Kundinnen und Kunden auf der Grundlage von Attributen. [!DNL Adobe Analytics] verwendet diese Attribute, und sie können für die Analyse und Segmentierung herangezogen werden.
 
@@ -27,7 +27,7 @@ In [!DNL Experience Cloud] integrierte Daten sind für alle [!DNL Experience Clo
 
 Beachten Sie die folgenden Informationen bei der Arbeit mit Kundenattributen und -[!DNL Target]:
 
-* Es gibt einige Voraussetzungen, die Sie erfüllen müssen, bevor Sie die [!UICONTROL Customer attributes] im [!DNL People]-Service verwenden können. Weitere Informationen finden Sie unter „Voraussetzungen für das Hochladen von Kundenattributen“ in [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in der Dokumentation zu *Experience Cloud-Services und -Administration*.
+* Es gibt einige Voraussetzungen, die Sie erfüllen müssen, bevor Sie die [!UICONTROL Customer attributes] im [!DNL People]-Service verwenden können. Weitere Informationen finden Sie unter „Voraussetzungen für das Hochladen von Kundenattributen“ in [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de#section_BD38693AFBF34926BA28E964963B4EA0) in der Dokumentation zu *Experience Cloud-Services und -Administration*.
 * Beachten Sie die Einschränkungen beim Hochladen von Dateien, wie in [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de) im *Komponentenhandbuch für die zentrale {Experience Cloud}-Benutzeroberfläche dokumentiert*. Als Best Practice gilt:
 
    * Laden Sie einzelne große Dateien hoch (innerhalb der [angegebenen ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de)). Einzelne große Dateien werden gegenüber mehreren kleineren Dateien bevorzugt.
@@ -57,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um CRM-Daten in [!DNL Target] zu verwend
 
 ![CRM-Workflow](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detaillierte Anweisungen zum Ausführen der folgenden Aufgaben finden Sie unter [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) in der Dokumentation zu *Experience Cloud-Services und -Administration*.
+Detaillierte Anweisungen zum Ausführen der folgenden Aufgaben finden Sie unter [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=de) in der Dokumentation zu *Experience Cloud-Services und -Administration*.
 
 1. Erstellen Sie eine Datendatei
 
@@ -82,7 +82,7 @@ Detaillierte Anweisungen zum Ausführen der folgenden Aufgaben finden Sie unter 
    Ihre Datendatei muss den Anforderungen zum Hochladen von Dateien entsprechen und darf 100 MB nicht überschreiten. Wenn Ihre Datei zu groß ist oder Sie Daten haben, die regelmäßig hochgeladen werden müssen, können Sie stattdessen Ihre Dateien per FTP hochladen.
 
    * **HTTPS:** Sie können die CSV-Datendatei per Drag-and-Drop verschieben oder auf **[!UICONTROL Browse]** klicken, um sie aus Ihrem Dateisystem hochzuladen.
-   * **FTP:** Klicken Sie auf den FTP-Link, um [die Datei über FTP hochzuladen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Geben Sie das Kennwort an und klicken Sie dann auf **[!UICONTROL Done]**.
+   * **FTP:** Klicken Sie auf den FTP-Link, um [die Datei über FTP hochzuladen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=de). Der erste Schritt besteht darin, ein Kennwort für den von Adobe bereitgestellten FTP-Server anzugeben. Geben Sie das Kennwort an und klicken Sie dann auf **[!UICONTROL Done]**.
 
    Übertragen Sie nun Ihre CSV-/ZIP-/GZIP-Datei auf den FTP-Server. Nachdem diese Dateiübertragung erfolgreich abgeschlossen wurde, erstellen Sie eine Datei mit demselben Namen und einer `.fin`. Übertragen Sie diese leere Datei auf den Server. Dies gibt das Ende der Übertragung an und der [!DNL Experience Cloud] beginnt mit der Verarbeitung der Datendatei.
 
@@ -98,7 +98,7 @@ Detaillierte Anweisungen zum Ausführen der folgenden Aufgaben finden Sie unter 
 
 1. Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle
 
-   Klicken Sie auf **[!UICONTROL Add Subscription]** und wählen Sie dann die Lösung aus, um diese Attribute zu abonnieren. [Abonnements konfigurieren](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) richtet den Datenfluss zwischen dem [!DNL Experience Cloud] und den Lösungen ein. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+   Klicken Sie auf **[!UICONTROL Add Subscription]** und wählen Sie dann die Lösung aus, um diese Attribute zu abonnieren. [Abonnements konfigurieren](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=de) richtet den Datenfluss zwischen dem [!DNL Experience Cloud] und den Lösungen ein. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
    ![Lösung konfigurieren](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -140,11 +140,11 @@ Dieses Profilskript kann direkt in Angeboten verwendet werden, um Attribute bere
 
 ### Verwenden des Experience Cloud ID-Service
 
-Wenn Sie den Experience Cloud-ID-Service verwenden, müssen Sie eine Kunden-ID und einen Authentifizierungsstatus festlegen, um Kundenattribute für die Zielgruppenbestimmung zu verwenden. Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in der *Hilfe zum Experience Cloud-ID-Service*.
+Wenn Sie den Experience Cloud-ID-Service verwenden, müssen Sie eine Kunden-ID und einen Authentifizierungsstatus festlegen, um Kundenattribute für die Zielgruppenbestimmung zu verwenden. Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de) in der *Hilfe zum Experience Cloud-ID-Service*.
 
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
-* [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) der Dokumentation *Experience Cloud-Services und -Administration hoch*
+* [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=de) der Dokumentation *Experience Cloud-Services und -Administration hoch*
 
 ## Häufig auftretende Probleme von Kunden {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

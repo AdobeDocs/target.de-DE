@@ -33,4 +33,4 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * Reporting-APIs.
 * Recommendations-APIs.
 
-Weitere Informationen finden Sie unter [Target-API - ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Weitere Informationen finden Sie unter [Target-API - ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=de){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.

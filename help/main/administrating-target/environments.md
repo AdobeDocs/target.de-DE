@@ -50,7 +50,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 >
 >[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
 >
->Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
+>Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

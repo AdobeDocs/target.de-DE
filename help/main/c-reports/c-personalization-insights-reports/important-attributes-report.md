@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie den [!UICONTROL Important Attributes] verwenden, der die wichtigsten Attribute zeigt, die das Personalisierungsmodell beeinflusst haben, und ihre relative Bedeutung.
 title: Was ist der Bericht „Wichtige Attribute“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -98,7 +98,7 @@ Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisi
 
 Mit der [!UICONTROL Models API], auch als Blockierungsliste-API bezeichnet, können Benutzende die Liste der Attribute (auch als Funktionen bezeichnet) anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verwendet werden. Wenn Sie ein oder mehrere Attribute von der Verwendung durch die Modelle für AP- oder AT-Aktivitäten ausschließen möchten, können Sie die Models-API verwenden, um diese Attribute zur &quot;Blockierungsliste&quot; hinzuzufügen.
 
-Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
+Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=de){target=_blank}.
 
 ### Sind die Informationen in den [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes] Berichten mit denen im CSV-Download identisch?
 

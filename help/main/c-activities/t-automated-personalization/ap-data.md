@@ -2,7 +2,7 @@
 keywords: Umgebungsdaten; Sitzungsdaten; Geodaten; geografische Daten; Gerätedaten; mobile Daten; Attribute; Profilattribute; Personalisierungsalgorithmen; Algorithmen für maschinelles Lernen; Algorithmen für maschinelles Lernen
 description: Erfahren Sie [!DNL Adobe Target]  welche Daten erfasst und verwendet werden, um ihre Algorithmen für maschinelles Lernen zu erstellen.
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
@@ -38,10 +38,10 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | --- | --- | --- | --- |
 | Seitenparameter | KASTEN | Benutzerdefinierte Seitenparameter („mbox-Parameter„), die beim Aufruf von [!DNL Target] übergeben werden. | Benutzerdefiniert - Mbox-Parameter - [Parametername] |
 | Profil [!DNL Target] | PRO | Benutzerdefinierte Profilattribute werden direkt über die API oder Seitenparameter und [!DNL Target] Profilskripte in das [!DNL Target]-Profil hochgeladen. | Benutzerdefiniert - Besucherprofil - [Attributname] |
-| Kundenattribute | CRS | Kundenattribute, die über die [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank} in das [!DNL Target] hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
+| Kundenattribute | CRS | Kundenattribute, die über die [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de){target=_blank} in das [!DNL Target] hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
 | URL-Parameter | URL | URL und alle URL-Parameter der aktuell angezeigten Seite. | Benutzerdefiniert - URL-Parameter [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
-| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
+| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
 | Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über [!UICONTROL Destinations] für [!DNL Target] freigegeben wurden. |  |
 
 
@@ -49,7 +49,7 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 
 Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Target] Modell oder keiner Aktivität verwendet werden können.
 
-Auf die Blockierungsliste setzen Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
+Auf die Blockierungsliste setzen Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
 
 ## Geräte- und Mobilgerätedaten {#device-mobile}
 

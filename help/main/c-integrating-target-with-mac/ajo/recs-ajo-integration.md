@@ -3,7 +3,7 @@ keywords: AJO;Adobe Journey Optimizer;Adobe Journey Optimizer-Target-Integration
 description: Integration  [!DNL Adobe Target Recommendations] mit [!DNL Adobe Journey Optimizer].
 title: Wie verwende ich  [!DNL Target Recommendations]  Kunden-Journey [!DNL Adobe Journey Optimizer]?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
@@ -25,11 +25,11 @@ Durch diese Integration können Sie mehr Konversionen fördern und die Wirkung v
 
 Um die Integration von [!DNL Target Recommendations] und [!DNL Adobe Journey Optimizer] zu verwenden, benötigen Sie Folgendes:
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) mit der [Adobe Experience Platform Web SDK implementiert](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) mit der [Adobe Experience Platform Web SDK implementiert](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
   Diese Funktion ist nicht verfügbar mit einer [!DNL Target Standard] Lizenz oder bei der Implementierung von [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs.
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Beispiele für Anwendungsfälle
 

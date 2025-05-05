@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Aktivitätsänderungsprotokoll
 
-In der [!DNL Adobe Target] [!UICONTROL Change Log] werden Aktivitätsaktionen aufgezeichnet, einschließlich der Änderungen, der Personen, die die Änderungen vorgenommen haben, und des Zeitpunkts ihres Auftretens. Die [!UICONTROL Change Log] wird aus der [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke gefüllt.
+In der [!DNL Adobe Target] [!UICONTROL Change Log] werden Aktivitätsaktionen aufgezeichnet, einschließlich der Änderungen, der Personen, die die Änderungen vorgenommen haben, und des Zeitpunkts ihres Auftretens. Die [!UICONTROL Change Log] wird aus der [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke gefüllt.
 
 So greifen Sie auf die [!UICONTROL Change Log] zu:
 

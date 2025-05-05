@@ -20,7 +20,7 @@ Dieser Artikel enthält die ersten Schritte, [!DNL Adobe Target] Administratoren
 
 Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Hilfe zu Experience Cloud und Core Services*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) in der *Hilfe zu Experience Cloud und Core Services*.
 
 Sie erhalten eine Einladungs-E-Mail, nachdem der Systemadministrator diese Schritte ausgeführt hat.
 
