@@ -71,7 +71,7 @@ Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit
 >
 >Verwenden von künstlicher Intelligenz, maschinellem Lernen und Recommendations mit [!UICONTROL Content Fragments]:
 >
->* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) einer [!UICONTROL A/B Test] Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting auswählen.
+>* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim [&#128279;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) einer [!UICONTROL A/B Test] Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder Automatisches Targeting auswählen.
 >
 >* [!UICONTROL Content Fragments] werden in [!DNL Recommendations] Aktivitäten nicht unterstützt. Um [!UICONTROL Content Fragments] für Recommendations zu verwenden, können Sie eine [!UICONTROL A/B Test] Aktivität (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) oder eine [!UICONTROL Experience Targeting] (XT) erstellen und [Recommendations als Angebot einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

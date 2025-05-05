@@ -39,7 +39,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
 
    Die [!UICONTROL Visual Experience Composer] wird geöffnet.
 
-1. 
+1. &#x200B;
    1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:

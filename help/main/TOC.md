@@ -103,7 +103,7 @@ ht-degree: 89%
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integration von Target mit Adobe Experience Manager (AEM) {#aem}
       + [Übersicht über die Integration von Target in AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + {#fragments} für Experience Fragments und Inhaltsfragmente
+      + für Experience Fragments und Inhaltsfragmente{#fragments}
          + [Übersicht über Experience Fragments und Inhaltsfragmente in AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM-Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)

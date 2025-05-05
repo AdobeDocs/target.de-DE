@@ -30,7 +30,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der vorherigen Abbildung ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion. Ihr Unternehmen verfügt über eine Target Standard-Lizenz, wenn diese Option nicht angezeigt wird.
+   >Die [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der vorherigen Abbildung ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion. Ihr Unternehmen verfügt über eine Target Standard-Lizenz, wenn diese Option nicht angezeigt wird.
 
 1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/main/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
