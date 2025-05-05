@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d1b9dfdbf811eee99d4e33a8fcc012c4825c0e6f
+source-git-commit: 0f96fb2a74a0716542308037d183847c91b1dc04
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 63%
+source-wordcount: '176'
+ht-degree: 86%
 
 ---
 
@@ -15,21 +15,13 @@ ht-degree: 63%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: Dienstag, 28. April 2025**
+**Letzte Aktualisierung: Dienstag, 5. Mai 2025**
 
 >[!NOTE]
 >
 >Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
 >
 >Informationen über die aktuelle Version finden Sie unter [Versionshinweise für Target](release-notes.md). Die Informationen auf diesen Seiten können je nach Veröffentlichungsdatum der Versionen identisch sein. Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
-
-## [!DNL Target Standard/Premium] 25.4.6 (29. April 2025)
-
-Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
-
-* Ein Problem wurde behoben, das dazu führte, dass [!DNL Target] das Zeichen &quot;#&quot; in der URL einer Website nicht erkennen konnten. (TGT-52093)
-* Es wurde ein Fehler behoben, der dazu führte, dass Zielgruppenverfeinerungen und Aktivitäts-Zielgruppen in der aktualisierten Benutzeroberfläche rückgängig gemacht wurden. (TGT-52158)
-* Es wurde ein Problem behoben, das Kunden daran hinderte, eine Aktivität aufgrund eines sV3-`getAudience` zu bearbeiten oder zu kopieren („Zielgruppe nicht gefunden„). Möglicherweise wurde es von einem anderen Benutzer gelöscht.„). (TGT-52223)
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
