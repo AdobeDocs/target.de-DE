@@ -37,4 +37,4 @@ Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erl
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8:20 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)

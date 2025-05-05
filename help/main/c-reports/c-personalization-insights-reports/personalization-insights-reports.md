@@ -94,7 +94,7 @@ Liste häufig gestellter Fragen zu [!UICONTROL Automated Personalization] (AP) u
 
 ## Schulungsvideo: Verwenden von Personalization Insights-Berichten ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/328354?captions=ger)
 
 Weitere Informationen finden Sie unter [Verwenden der Personalization Insights-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

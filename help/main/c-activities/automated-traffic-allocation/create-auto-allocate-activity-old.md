@@ -117,4 +117,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsa
 * Erstellen einer [!UICONTROL A/B Test] Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)

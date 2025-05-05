@@ -426,4 +426,4 @@ Im folgenden Video wird erläutert, wie Sie mit Antwort-Token und benutzerdefini
 >
 >Im Video werden `option.name` und `option.id` erwähnt, die durch `offer.name` bzw. `offer.id` ersetzt wurden.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33825?captions=ger)

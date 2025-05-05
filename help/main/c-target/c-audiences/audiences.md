@@ -121,4 +121,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)

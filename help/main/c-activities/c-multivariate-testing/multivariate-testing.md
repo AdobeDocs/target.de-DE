@@ -98,7 +98,7 @@ In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätst
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
 
 ### Erstellen von Multivarianz-Tests (9:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dr
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)

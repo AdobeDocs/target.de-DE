@@ -17,15 +17,15 @@ Beheben von Fehlern in [!DNL Adobe Target] mithilfe [!DNL Adobe Experience Cloud
 
 ## Erweiterung hinzufügen
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33823/?quality=12&captions=ger)
 
 ## Allgemeine Informationen zur Fehlerbehebung in [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33824/?quality=12&captions=ger)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33896/?quality=12&captions=ger)
 
 ## Zusätzliche Ressourcen
 
