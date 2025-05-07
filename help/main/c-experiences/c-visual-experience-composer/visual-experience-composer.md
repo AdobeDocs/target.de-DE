@@ -4,30 +4,30 @@ description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 57%
+source-wordcount: '1132'
+ht-degree: 43%
 
 ---
 
-# Visual Experience Composer (VEC)
+# [!UICONTROL Visual Experience Composer] (VEC)
 
-Informationen zur Verwendung des [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
+Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] ist ein WYSIWYG-Editor, mit dem Kunden personalisierte Erlebnisse direkt auf ihren Websites oder mobilen Web-Seiten erstellen und testen können, ohne Code bearbeiten zu müssen.
 
 >[!NOTE]
 >
->Die Version [!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>Die Version [!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Einen Überblick über die verschiedenen Optionen in dem aktualisierten VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-VEC ist eine Benutzeroberfläche von WYSIWYG, mit der Sie personalisierte Erlebnisse und Angebote im Kontext der Website einfach erstellen und testen können. Sie können Erlebnisse und Angebote für [!DNL Target] Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Web-Seite (oder eines Angebots) oder einer mobilen Web-Seite per Drag-and-Drop austauschen und ändern.
+Mit VEC können Sie ganz einfach personalisierte Erlebnisse und Angebote im Site-Kontext erstellen und testen. Sie können Erlebnisse und Angebote für [!DNL Target] Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Web-Seite (oder eines Angebots) oder einer mobilen Web-Seite per Drag-and-Drop austauschen und ändern.
 
-Der VEC ist eine der Hauptkomponenten von [!DNL Adobe Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
+Der VEC ist eine der Hauptkomponenten von [!DNL Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 
-Auf der Registerkarte Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** können Sie die Standard-[!UICONTROL Visual Experience Composer]-URL eingeben.
+Auf der Registerkarte [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** können Sie die standardmäßige [!UICONTROL Visual Experience Composer]-URL eingeben.
+
+Diese URL legt fest, wo Sie beim Öffnen des VEC starten. Wenn Sie keine Standard-URL eingeben, beginnen Sie beim Öffnen des Editors mit einer leeren Seite und geben Sie dann eine URL an.
 
 ![VEC hervorgehoben](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
-
-Diese URL legt fest, wo Sie beim Öffnen des VEC starten. Wenn Sie keine Standardeinstellung festlegen, wird Ihnen beim Öffnen des Editors eine leere Seite angezeigt. Sie können die URL dann festlegen.
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ Diese URL legt fest, wo Sie beim Öffnen des VEC starten. Wenn Sie keine Standar
 
 Inhalt in einem iframe auf der Seite kann nicht im VEC bearbeitet werden. Um Inhalte in einem iframe zu bearbeiten, stellen Sie sicher, dass das iframe-Dokument [!DNL Target] aktiviert ist, und laden Sie dann diese iframe-URL in den VEC.
 
-Über die Registerkarten im [!UICONTROL Experiences] können Sie Ihre Seite so anzeigen, wie sie für unterschiedliche Zielgruppen oder mit unterschiedlichen Erlebnissen dargestellt würde. Sie können für jedes Erlebnis einen Namen angeben. Wenn Sie beispielsweise den Standort des Startseiten-Links in Ihrer Navigationsleiste testen möchten, können Sie einem Erlebnis, in dem der Startseiten-Link zuerst angezeigt wird, zum Beispiel die Bezeichnung „Startseiten-Link“ geben, um die Erlebnisse in der Liste leichter zu identifizieren.
+Über die Registerkarten in der [!UICONTROL Experiences] Leiste können Sie Ihre Seite so anzeigen, wie sie für unterschiedliche Zielgruppen oder mit unterschiedlichen Erlebnissen dargestellt würde. Sie können für jedes Erlebnis einen Namen angeben. Wenn Sie z. B. die Position des Startseiten-Links in Ihrer Navigationsleiste testen, können Sie ein Erlebnis benennen, in dem der Startseiten-Link zuerst angezeigt wird. Beispiel: „Home-Link“, um die Identifizierung der Erlebnisse in der Liste zu erleichtern.
 
 >[!NOTE]
 >
->Änderungen an den Strukturen einer Seite, die sich auf die Orte auswirken, welche in einer auf der Seite erstellten Aktivität verwendet werden, können Probleme bei der Bearbeitung des Erlebnisses verursachen. Wenn ein Speicherort außerhalb von VEC geändert wurde, können [!DNL Target] den Speicherort, an dem der Inhalt geändert wurde, möglicherweise nicht finden.
+>Änderungen an der Struktur einer Seite, die sich auf die Speicherorte auswirken, die in einer auf dieser Seite erstellten Aktivität verwendet werden, können zu Problemen bei der Bearbeitung von Erlebnissen führen. Wenn ein Speicherort außerhalb von VEC geändert wurde, können [!DNL Target] den Speicherort, an dem der Inhalt geändert wurde, möglicherweise nicht finden.
 
 Wenn Sie Ihren Mauszeiger auf der Seite bewegen, folgt dem Cursor ein kontextbezogenes Feld, das Elemente auf der Seite hervorhebt.
 
@@ -47,7 +47,7 @@ Wenn Sie Ihren Mauszeiger auf der Seite bewegen, folgt dem Cursor ein kontextbez
 
 ![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
 
-Klicken Sie auf ein hervorgehobenes Element für ein Menü mit Optionen, die für diesen Elementtyp verfügbar sind. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Change Image]** auswählen, um das Bild in ein anderes Bild zu ändern. Oder klicken Sie auf eine Schaltfläche und ändern Sie die Textfarbe.
+Klicken Sie auf ein hervorgehobenes Element, um ein Menü mit Optionen anzuzeigen, die für diesen Elementtyp verfügbar sind. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Change Image]** auswählen, um das Bild in ein anderes Bild zu ändern. Oder klicken Sie auf eine Schaltfläche und ändern Sie die Textfarbe.
 
 Sie können auch auf **[!UICONTROL Browse]** klicken, dann zu einer Seite gehen, die auf der primären Seite verfügbar ist, z. B. eine Versandseite oder einen Warenkorb, und die Änderungen auf dieser Seite testen. Sie können auch auf Seitenelemente zugreifen, die verfügbar werden, wenn Sie den Mauszeiger darüber bewegen, wie zum Beispiel Flyout-Menüs und Minicarts. Wenn Sie mit dem Navigieren zur Seite fertig sind, klicken Sie auf **[!UICONTROL Design]** , um das Erlebnis zu bearbeiten. Vielleicht möchten Sie zum Beispiel den Entwurf für ein Einkaufswagendropdown oder ein Bilderkarussell verändern.
 
@@ -72,7 +72,7 @@ Einige Gründe, aus denen Sie möglicherweise auf eine Seite zugreifen oder sie 
 * Sie möchten vorhandene benutzerdefinierte Codes von einer Seite kopieren, die nicht mehr verfügbar ist.
 * Sie wissen, dass eine Seite nicht im VEC geladen wird, aber Sie möchten trotzdem einfache Änderungen vornehmen.
 
-Während die Seite geladen wird (oder nachdem sie nicht geladen werden kann), sind das Bedienfeld &quot;[!UICONTROL Experiences]&quot;, das Bedienfeld &quot;[!UICONTROL Modifications]&quot; und die Einstellungen oben im Erlebnis (Überlagerungen, Änderungen, Konfigurieren usw.) alle verfügbar.
+Während die Seite geladen wird (oder nachdem sie nicht geladen werden kann), sind die Optionen [!UICONTROL Experiences] Leiste, [!UICONTROL Components] Leiste und [!UICONTROL Configure] verfügbar.
 
 ## Abbrechen des Seitenladevorgangs in VEC {#cancel-loading}
 
@@ -85,10 +85,10 @@ Einige Gründe, weshalb Sie die Seitenladevorgänge im VEC abbrechen möchten:
 * Sie möchten benutzerdefinierten Code einfügen oder bearbeiten
 * Sie haben versehentlich die falsche URL für die Seite eingegeben.
 * Sie möchten JavaScript aktivieren oder deaktivieren, bevor Sie die Seite im VEC laden
-* Sie möchten weitere Regeln für Vorlagetestkriterien zu den Seitenbereitstellungskriterien hinzufügen.
-* Sie möchten den Global Enhanced Experience Composer (EEC) überschreiben, wenn eine Seite über das EEC oder nur über iframe geladen wird, was möglicherweise von Seite zu Seite unterschiedlich sein kann.
+* Sie möchten den [!UICONTROL Page Delivery] weitere Vorlagentestregeln hinzufügen
+* Sie möchten den Umschalter für globale [!UICONTROL Enhanced Experience Composer] (EEC) überschreiben, wenn Sie eine Seite über den EEC oder iframe-only laden
 
-Nachdem Sie das Laden der Seite im VEC abgebrochen haben, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf warten zu müssen, dass die Seite geladen wird. Um die Seite innerhalb des VEC erneut anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
+Wenn Sie das Laden der Seite in VEC abbrechen, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf zu warten, dass die Seite geladen wird. Um die Seite innerhalb des VEC erneut anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Reload]** klicken.
 
 >[!IMPORTANT]
 >
