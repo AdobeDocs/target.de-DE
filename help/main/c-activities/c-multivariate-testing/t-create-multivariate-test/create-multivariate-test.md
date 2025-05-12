@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (
 title: Wie erstelle ich ein [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 26%
 
 ---
@@ -39,8 +39,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
 
    Die [!UICONTROL Visual Experience Composer] wird geöffnet.
 
-1. &#x200B;
-   1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
+1. Um die Aktivität zu benennen, klicken Sie auf das Symbol **[!UICONTROL Edit]** ( ![Bearbeiten](/help/main/assets/icons/Edit.svg) ) neben &quot;[!UICONTROL Untitled Activity]&quot;, geben Sie einen beschreibenden Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:
 
@@ -129,4 +128,4 @@ In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflo
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

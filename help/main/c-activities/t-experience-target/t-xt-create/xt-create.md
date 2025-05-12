@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (
 title: Wie erstelle ich eine [!UICONTROL Experience Targeting] Aktivität?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '396'
 ht-degree: 33%
 
 ---
@@ -51,7 +51,7 @@ Weitere Informationen zu [!UICONTROL Experience Targeting], einem Anwendungsfall
 
    Der VEC wird geöffnet und zeigt die Seite an, auf die die URL verweist.
 
-1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
+1. Um die Aktivität zu benennen, klicken Sie auf das Symbol **[!UICONTROL Edit]** ( ![Bearbeiten](/help/main/assets/icons/Edit.svg) ) neben &quot;[!UICONTROL Untitled Activity]&quot;, geben Sie einen beschreibenden Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:
 
