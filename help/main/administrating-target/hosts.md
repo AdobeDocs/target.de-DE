@@ -5,9 +5,9 @@ title: Was sind Hosts und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ Nachdem ein Host zur [!UICONTROL Host] hinzugefügt wurde, stellen Sie sicher, d
 
    Standardmäßig wird ein neu erkannter Host in der [!UICONTROL Production] platziert. Die [!UICONTROL Production] Umgebung ist die sicherste Umgebung, da sie das Anzeigen inaktiver Aktivitäten von diesen Hosts nicht zulässt.
 
-1. (Bedingt) Klicken Sie auf das **[!UICONTROL Move]** ( ![move icon](/help/main/administrating-target/assets/icon-move.png) ), um den Host in die [!UICONTROL Development], [!UICONTROL Staging] oder eine andere Umgebung zu verschieben.
+1. (Bedingt) Klicken Sie auf das **[!UICONTROL Move]** ( ![move icon](/help/main/assets/icons/MoveTo.svg) ), um den Host in die [!UICONTROL Development], [!UICONTROL Staging] oder eine andere Umgebung zu verschieben.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Um die [!UICONTROL Hosts] Liste zu sortieren, klicken Sie auf eine beliebige Spa
 
 Um die [!UICONTROL Hosts] zu durchsuchen, geben Sie einen Suchbegriff in das [!UICONTROL Search Hosts] ein.
 
-## Erstellen Sie Zulassungslisten, die Hosts angeben, die autorisiert sind, [!DNL Target] Anfragen an [!DNL Target] zu senden. {#allowlist}
+## Erstellen Sie Zulassungslisten, die Hosts angeben, die autorisiert sind, [!DNL Target]-Anfragen an [!DNL Target] zu senden. {#allowlist}
 
 Sie können eine -Zulassungsliste erstellen, die Hosts (Domains) angibt, die autorisiert sind, [!DNL Target]-Anfragen an [!DNL Target] zu senden. Alle anderen Hosts, die Anfragen generieren, erhalten eine auskommentierte Autorisierungsfehlerantwort. Standardmäßig registriert sich jeder Host mit einer [!DNL Target]-Anfrage bei [!DNL Target] in der [!UICONTROL Production]-Umgebung und hat Zugriff auf alle aktiven und genehmigten Aktivitäten. Wenn dieser Ansatz nicht erwünscht ist, können Sie stattdessen die Zulassungsliste verwenden, um bestimmte Hosts aufzuzeichnen, die für [!DNL Target]-Anfragen und den Empfang [!DNL Target] Inhalte geeignet sind. Alle Hosts werden weiterhin in der [!UICONTROL Hosts] angezeigt, und Umgebungen können weiterhin verwendet werden, um diese Hosts zu gruppieren und jedem verschiedene Ebenen zuzuweisen, z. B. ob der Host aktive und/oder inaktive Aktivitäten sehen kann.
 
@@ -85,7 +85,7 @@ Wenn eine [!DNL Target]-Anfrage auf einem nicht autorisierten Host erfolgt, antw
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=de){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion Zulassungsliste verwenden, dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hosts-Liste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
@@ -103,7 +103,7 @@ Sie können auch eine -Blockierungsliste erstellen, die Hosts (Domains) angibt, 
 
 Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
-1. Klicken Sie in der [!UICONTROL Hosts] auf das Symbol **[!UICONTROL Delete]** .
+1. Klicken Sie in der [!UICONTROL Hosts] auf das Symbol **[!UICONTROL Delete]** ( ![Löschsymbol](/help/main/assets/icons/DeleteOutline.svg) ).
 1. Klicken Sie auf **[!UICONTROL Delete]** , um den Löschvorgang zu bestätigen.
 
 >[!NOTE]

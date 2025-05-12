@@ -5,10 +5,10 @@ title: Wie konfiguriere ich User Management?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 61%
+source-wordcount: '208'
+ht-degree: 64%
 
 ---
 
@@ -34,10 +34,10 @@ Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Li
 * **Target Premium-Kunden:** Wenn Ihr Unternehmen über eine [!DNL Target] Premium-Lizenz verfügt, sehen Sie Folgendes in der Target-Benutzeroberfläche:
 
    * Sie sehen die [!UICONTROL Properties] ( [!UICONTROL Administration] > [!UICONTROL Properties] )
-   * Außerdem wird die Registerkarte [!UICONTROL Users] angezeigt ( [!UICONTROL Administration] > [!UICONTROL Users] )
+   * Sie sehen *nicht* die Registerkarte [!UICONTROL Users] ( [!UICONTROL Administration] > [!UICONTROL Users] )
 
      [!DNL Target] Premium-Kunden sollten die Anweisungen in [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) und in [Konfigurieren von Unternehmensberechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 
-Die folgende Abbildung zeigt die [!UICONTROL Administration] für ein [!DNL Target] Premium-Konto. Beachten Sie, dass sowohl die Registerkarte [!UICONTROL Properties] als auch [!UICONTROL Users] verfügbar sind:
+Die folgende Abbildung zeigt die [!UICONTROL Administration] für ein [!DNL Target Premium]-Konto:
 
 ![Registerkarte Administration](/help/main/administrating-target/assets/premium.png)
