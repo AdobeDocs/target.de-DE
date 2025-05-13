@@ -5,9 +5,9 @@ title: Wo kann ich mit der Verwaltung beginnen [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ Dieser Artikel enthält die ersten Schritte, [!DNL Adobe Target] Administratoren
 
 ## Einladung zum [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
+Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Systemadministrator sollte Sie dann zu einer oder mehreren rollenspezifischen Gruppen hinzufügen. Beide Aufgaben werden in der [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com) ausgeführt.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de) in der *Hilfe zu Experience Cloud und Core Services*.
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) in der *Hilfe zu Experience Cloud und Core Services*.
 
 Sie erhalten eine Einladungs-E-Mail, nachdem der Systemadministrator diese Schritte ausgeführt hat.
 
