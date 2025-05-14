@@ -4,10 +4,10 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 31%
+source-wordcount: '1388'
+ht-degree: 28%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 31%
 
 Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Adobe Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
 
-Die Kopfzeile am oberen Rand der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren können. Sie können auch zwischen Organisationen wechseln und Lösungen [!DNL Adobe Experience Cloud], Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] verwalten und sich von [!DNL Target] abmelden.
+## [!DNL Target] UI-Kopfzeile
+
+Die Kopfzeile am oberen Rand der [!DNL Target] Benutzeroberfläche enthält Registerkarten und Optionen, mit denen Sie durch die verschiedenen Funktionen der Lösung navigieren können. Sie können auch zwischen Organisationen wechseln und Lösungen [!DNL Adobe Experience Cloud], Feedback geben, wenn Sie Teil eines Beta-Programms sind, auf den KI-Assistenten zugreifen, Hilfe und Benachrichtigungen abrufen, Ihr [!DNL Adobe] verwalten und sich von [!DNL Target] abmelden.
 
 ![Kopfzeile von Target](/help/main/c-intro/assets/target-header.png)
 
-Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von [!DNL Target] zugreifen. Diese werden später erläutert. Zuvor sehen wir uns aber die Optionen auf der rechten Seite an.
+Über die Registerkarten auf der linken Seite können Sie auf die verschiedenen Funktionen von [!DNL Target] zugreifen. Diese werden später erläutert. Beginnen wir mit der Erläuterung der Optionen auf der rechten Seite, bevor wir die Registerkarten besprechen.
 
-## Organisationen
+### [!UICONTROL Organization]
 
 Eine *Organisation* ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on für die [!DNL Adobe Experience Cloud] zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche [!DNL Experience Cloud]-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
@@ -29,19 +31,25 @@ Wählen Sie die gewünschte Organisation in der Dropdown-Liste [!UICONTROL Organ
 
 ![Dropdown-Liste „Organisation“](/help/main/c-intro/assets/organizations.png)
 
-## Apps
+### [!UICONTROL Beta Feedback]
 
-Mit dem Apps Switcher können Sie schnell zwischen den [!DNL Adobe Experience Cloud]-Lösungen wechseln, auf die Sie Zugriff haben.
+(Bedingt) Wenn Sie Teil eines offiziellen [!DNL Target] Beta-Programms sind, wird möglicherweise das [!UICONTROL Beta Feedback] angezeigt.
 
-![Apps Switcher](/help/main/c-intro/assets/apps.png)
+![Symbol für Beta-Feedback](/help/main/c-intro/assets/beta-feedback.png)
 
-## Hilfe
+Geben Sie eine Beschreibung für Ihr Feedback ein, fügen Sie relevante Dateien oder Screenshots sowie ggf. weitere Details hinzu und klicken Sie dann auf **[!UICONTROL Submit]**.
 
-Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen per Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
+### [!DNL AI Assistant] (veröffentlicht am 20. Mai 2025)
+
+(Bedingt) Wenn Ihnen von Ihrem Unternehmen die Rechte zur Verwendung des KI-Assistenten gewährt wurden, klicken Sie auf das Symbol KI-Assistent .
+
+### Hilfe
+
+Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
 ![Hilfe ](/help/main/c-intro/assets/help.png)
 
-## Benachrichtigungen und Ankündigungen {#notifications-announcements}
+### Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
 Die [!UICONTROL Notifications] und [!UICONTROL Announcements] Bedienfelder helfen Ihnen, über alle [!DNL Adobe Target] Dinge auf dem Laufenden zu bleiben. Durch proaktive Benachrichtigungen sind Sie bereits frühzeitig über den Status [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignisse auf dem Laufenden. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
@@ -55,7 +63,7 @@ Das Bedienfeld enthält Registerkarten für [!UICONTROL Notifications] und [!UIC
 
 In den folgenden Abschnitten finden Sie Informationen zu den einzelnen Registerkarten sowie zum Konfigurieren von Benachrichtigungen und Ankündigungen:
 
-### Benachrichtigungen {#notifications}
+#### Benachrichtigungen {#notifications}
 
 [!DNL Target] Ereignisbenachrichtigungen umfassen Folgendes:
 
@@ -93,11 +101,11 @@ Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mau
 
 Sie können eine Erinnerung auch erneut benachrichtigen, indem Sie den Mauszeiger über eine Benachrichtigung bewegen, auf das Symbol &quot;[!UICONTROL Remind me]&quot; klicken und dann auswählen, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
 
-### Mitteilungen
+#### Mitteilungen
 
 Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Detailliertere Informationen finden Sie auf der Seite [Adobe-Status](https://status.adobe.com/de).
+Detailliertere Informationen finden Sie auf der Seite [Adobe-Status](https://status.adobe.com/de) .
 
 ### Konfigurieren von Benachrichtigungen und Ankündigungen
 
@@ -119,7 +127,6 @@ So bearbeiten Sie die Voreinstellungen für Benachrichtigungen:
    >
    >Für [!DNL Target] gelten nur die Benachrichtigungskategorien „Neue Versionen“ und „Inhaltsaktualisierungen“. Die anderen Kategorien gelten für andere Adobe-Lösungen.
 
-
 1. Wählen Sie die Kategorien aus, die als mit hoher Priorität eingestuft werden sollen.
 1. Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen.
 
@@ -132,7 +139,13 @@ So bearbeiten Sie die Voreinstellungen für Benachrichtigungen:
    * Tägliche Zusammenfassung
    * Wöchentliche Zusammenfassung
 
-## Profil
+### Apps Switcher
+
+Mit dem Apps Switcher können Sie schnell zwischen den [!DNL Adobe Experience Cloud]-Lösungen wechseln, auf die Sie Zugriff haben.
+
+![Apps Switcher](/help/main/c-intro/assets/apps.png)
+
+### Profil
 
 Klicken Sie auf Ihren Profilavatar, um Ihre Voreinstellungen für [!DNL Adobe Experience Cloud] zu ändern oder sich von [!DNL Target] abzumelden. Sie können damit auch auf Ihr [!DNL Adobe]-Profil zugreifen und es bearbeiten.
 
@@ -180,7 +193,7 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Recommendations]** , um auf [!DN
 
 [!UICONTROL Recommendations] -Aktivitäten zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Recommendations tragen dazu bei, Kundinnen und Kunden zu relevanten Elementen zu lenken, von denen sie andernfalls möglicherweise nichts wüssten.
 
-Unter [Recommendations](/help/main/c-recommendations/recommendations.md) finden Sie detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] und weitere Informationen zur [!UICONTROL Recommendations].
+Unter [Recommendations](/help/main/c-recommendations/recommendations.md) finden Sie detaillierte Informationen zu [!UICONTROL Recommendations] in [!DNL Target] und weitere Informationen zur [!UICONTROL Recommendations]-Benutzeroberfläche.
 
 ## Administrations-
 
