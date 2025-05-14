@@ -1,11 +1,9 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL &#x200B; Adobe Target].
+description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL  Adobe Target].
 title: Wie aktiviere ich das  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -20,7 +18,7 @@ Informationen zu den erforderlichen Aufgaben, die Ihr Unternehmen abschließen m
 
 Ihr Unternehmen muss zunächst zusätzlichen rechtlichen Bedingungen zustimmen, um Zugriff auf [!DNL AI Assistant] zu erhalten. Wenden Sie sich dann an Ihr Adobe-Account-Team, um weitere Informationen zu diesen Bedingungen zu erhalten.
 
-Weitere Informationen finden Sie unter [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access){target=_blank} in der *[!DNL Experience Platform]*.
+Weitere Informationen finden Sie unter [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in der *[!DNL Experience Platform]*.
 
 ## Benutzerberechtigungen für [!UICONTROL AI Assistant] aktivieren
 
