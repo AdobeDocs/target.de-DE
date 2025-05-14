@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Zugriff auf Target über Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Wichtige Target-Konzepte](c-intro/target-key-concepts.md)
    + [Erläuterung der Target-Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)
-   + [Verwenden des KI-Assistenten](/help/main/c-intro/ai-assistant.md)
+   + Adobe Target AI-Assistent {#ai-assistant}
+      + [KI-Assistenten aktivieren](/help/main/c-intro/ai-assistant.md)
+      + [Verwenden des KI-Assistenten, um Produktkenntnisse zu erwerben](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Adobe Target Welcome Kit {#welcome}
       + [Target Welcome Kit – Überblick](/help/main/c-intro/target-welcome-kit.md)
       + [Kapitel 1: Einführung](/help/main/c-intro/target-welcome-kit-1.md)
@@ -56,20 +58,20 @@ ht-degree: 89%
    + [Hosts](administrating-target/hosts.md)
    + [Umgebungen](/help/main/administrating-target/environments.md)
    + [Antwort-Token](administrating-target/response-tokens.md)
-   + Verwalten von Benutzern {#manage-users}
+   + Verwalten von Benutzenden {#manage-users}
       + [Benutzerverwaltung](administrating-target/c-user-management/user-management.md)
-      + Benutzer {#users}
+      + Benutzende {#users}
          + [Benutzer – Überblick](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Fehlerbehebung bei der Benutzerverwaltung](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Enterprise-Benutzerberechtigungen {#enterprise}
+      + Berechtigungen für Unternehmensbenutzer {#enterprise}
          + [Berechtigungen für Unternehmensbenutzer](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Konfigurieren von Unternehmensberechtigungen](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
-+ Target implementieren {#implement-target}
++ Implementieren von Target {#implement-target}
    + [Implementierung von Target – Überblick](c-implementing-target/implementing-target.md)
-+ Integration von Target in Experience Cloud {#integrate}
-   + Adobe Analytics als Berichtsquelle für Adobe Target (A4T) {#a4t}
++ Integration von Target mit Experience Cloud {#integrate}
+   + Adobe Analytics als Berichtsquelle für Target (A4T) {#a4t}
       + [A4T – Überblick](c-integrating-target-with-mac/a4t/a4t.md)
       + [Vor der Implementierung](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementieren von Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -80,7 +82,7 @@ ht-degree: 89%
       + [A4T-Reporting](c-integrating-target-with-mac/a4t/reporting.md)
       + Fehlerbehebung bei der Integration von Analytics und Target (A4T) {#troubleshoot-a4t}
          + [Fehlerbehebung bei A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + Häufig gestellte Fragen zu A4T {#a4t-faq}
+      + Häufig gestellte Fragen zu A4T   {#a4t-faq}
          + [Erste Bereitstellung – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -103,7 +105,7 @@ ht-degree: 89%
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Integration von Target mit Adobe Experience Manager (AEM) {#aem}
       + [Übersicht über die Integration von Target in AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + für Experience Fragments und Inhaltsfragmente{#fragments}
+      + Experience Fragments und Inhaltsfragmente {#fragments}
          + [Übersicht über Experience Fragments und Inhaltsfragmente in AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM-Experience Fragments](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM-Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
@@ -127,7 +129,7 @@ ht-degree: 89%
          + [Verwenden von Analytics-Daten](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Festlegen von Metriken](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Verschiedene Erlebniszielgruppen in A/B-Tests](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-   + Automatisch zuweisen {#auto-allocate}
+   + Automatische Zuordnung {#auto-allocate}
       + [Automatische Zuordnung – Überblick](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretieren der automatischen Zuordnungsberichte](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -272,10 +274,10 @@ ht-degree: 89%
       + [Herunterladen von Daten in Form einer CSV-Datei](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Statistische Methodik {#statistical-methodology}
       + [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + Personalization-{#personalization-reports}
+   + Personalization-Berichte {#personalization-reports}
       + [AT (Automatisches Targeting)-Zusammenfassungsbericht](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Berichte zu Personalization Insights {#insights}
+   + Personalization Insights-Bericht {#insights}
       + [Berichte zu Personalization Insights – Überblick](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Bericht „Automatisierte Segmente“](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Bericht „Wichtige Attribute“](c-reports/c-personalization-insights-reports/important-attributes-report.md)
