@@ -1,6 +1,6 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL  Adobe Target].
+description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL &#x200B; Adobe Target].
 title: Wie aktiviere ich das  [!DNL AI Assistant] in [!DNL Target]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 feature: Overview
