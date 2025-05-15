@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3ff1ff8fc09bc1fc4d808d1c5763cf35ad968668
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 54%
+source-wordcount: '289'
+ht-degree: 52%
 
 ---
 
@@ -30,6 +30,8 @@ Wir freuen uns, den Start des [!DNL AI Assistant] in [!DNL Adobe Target] bekannt
 [!DNL AI Assistant] in [!UICONTROL Target] ist ein Tool für Gespräche, mit dem Sie Ihre Workflows mit [!DNL Experience Platform] Anwendungen und Services beschleunigen können. Nutzen Sie [!DNL AI Assistant], um Ihre Gesamtproduktivität zu steigern und Ihr Wissen über Produkte zu erweitern
 
 [!DNL Target] bietet die erste Phase der [!DNL AI Assistant] wertvolles Produktwissen, das auf [!DNL Experience League] Dokumentation basiert. Unabhängig davon, ob Sie ein Profilskript einrichten, Fehler beheben oder ein Upgrade auf AEP Web SDK in Betracht ziehen, [!DNL AI Assistant] Sie Folgendes behandelt.
+
+Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Platform-KI-Assistenten](/help/main/c-intro/ai-assistant.md).
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

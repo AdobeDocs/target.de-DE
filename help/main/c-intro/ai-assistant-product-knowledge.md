@@ -3,11 +3,12 @@ keywords: KI-Assistent;Assistent für künstliche Intelligenz
 description: Erfahren Sie, wie Sie  [!DNL Target]  Produktwissen mit  [!DNL AI Assistant].
 title: Wie verwende ich die  [!DNL AI Assistant] - [!DNL Target] , um Produktkenntnisse zu erwerben?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '311'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +31,7 @@ So greifen Sie auf die [!DNL AI Assistant] zu:
    * Ihr Unternehmen muss zunächst den rechtlichen Bedingungen zustimmen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
    * Ihre Administratoren müssen Ihnen ausreichende Berechtigungen für den Zugriff auf [!DNL AI Assistant] gewähren.
 
-1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**&#x200B;[!DNL AI Assistant] .
+1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**[!DNL AI Assistant] .
 
    ![KI-Assistenten-Symbol](/help/main/c-intro/assets/ai-assistant-icon.png)
 
@@ -60,10 +61,10 @@ So greifen Sie auf die [!DNL AI Assistant] zu:
 
 Erfahren Sie mehr über [!DNL Adobe Experience Platform] von [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441033/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validieren von Antworten vom KI-Assistenten
 
 Erfahren Sie, wie Sie die in [!DNL Adobe Experience Platform] bereitgestellten Antworten überprüfen und [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441748/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

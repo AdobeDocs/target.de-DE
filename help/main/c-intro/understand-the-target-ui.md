@@ -4,10 +4,10 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 28%
+source-wordcount: '1387'
+ht-degree: 26%
 
 ---
 
@@ -39,25 +39,25 @@ Wählen Sie die gewünschte Organisation in der Dropdown-Liste [!UICONTROL Organ
 
 Geben Sie eine Beschreibung für Ihr Feedback ein, fügen Sie relevante Dateien oder Screenshots sowie ggf. weitere Details hinzu und klicken Sie dann auf **[!UICONTROL Submit]**.
 
-### [!DNL AI Assistant] (veröffentlicht am 20. Mai 2025)
+### [!DNL AI Assistant]
 
-(Bedingt) Wenn Ihnen von Ihrem Unternehmen die Rechte zur Verwendung des KI-Assistenten gewährt wurden, klicken Sie auf das Symbol KI-Assistent .
+(Bedingt) Wenn Ihnen von Ihrem Unternehmen die Rechte zur Verwendung des [!DNL AI Assistant] gewährt wurden, klicken Sie auf das Symbol [!DNL AI Assistant] .
+
+Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Platform-KI-Assistenten](/help/main/c-intro/ai-assistant.md).
 
 ### Hilfe
 
-Über das Hilfesymbol können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
+Durch Klicken auf das [!UICONTROL Help]-Symbol ![Hilfe-](/help/main/assets/icons/HelpOutline.svg) ) können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
 ![Hilfe ](/help/main/c-intro/assets/help.png)
 
-### Benachrichtigungen und Ankündigungen {#notifications-announcements}
+### Anfragen, Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
-Die [!UICONTROL Notifications] und [!UICONTROL Announcements] Bedienfelder helfen Ihnen, über alle [!DNL Adobe Target] Dinge auf dem Laufenden zu bleiben. Durch proaktive Benachrichtigungen sind Sie bereits frühzeitig über den Status [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignisse auf dem Laufenden. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
+Die Bedienfelder [!UICONTROL Requests], [!UICONTROL Notifications] und [!UICONTROL Announcements] helfen Ihnen, über alle [!DNL Adobe Target] Dinge auf dem Laufenden zu bleiben. Durch proaktive Benachrichtigungen sind Sie bereits frühzeitig über den Status [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignisse auf dem Laufenden. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Klicken Sie auf das Glockensymbol in der Kopfzeile, um Benachrichtigungen anzuzeigen:
+Klicken Sie in der Kopfzeile auf das [!UICONTROL Notifications]-Symbol ![Benachrichtigungssymbol](/help/main/assets/icons/Bell.svg) ), um Benachrichtigungen anzuzeigen:
 
-![Glockensymbol für Benachrichtigungen und Ankündigungen](assets/bell-icon.png)
-
-Das Bedienfeld enthält Registerkarten für [!UICONTROL Notifications] und [!UICONTROL Announcements].
+Das Bedienfeld enthält Registerkarten für [!UICONTROL Requests], [!UICONTROL Notifications] und [!UICONTROL Announcements].
 
 ![ Benachrichtigungen ](assets/notifications.png)
 
