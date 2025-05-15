@@ -61,10 +61,10 @@ So greifen Sie auf die [!DNL AI Assistant] zu:
 
 Erfahren Sie mehr über [!DNL Adobe Experience Platform] von [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441033/?learn=on&#x26;enablevpops&captions=ger)
 
 ### Validieren von Antworten vom KI-Assistenten
 
 Erfahren Sie, wie Sie die in [!DNL Adobe Experience Platform] bereitgestellten Antworten überprüfen und [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441748/?learn=on&#x26;enablevpops&captions=ger)
