@@ -1,6 +1,6 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL  Adobe Target].
+description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL &#x200B; Adobe Target].
 title: Wie aktiviere ich das  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
