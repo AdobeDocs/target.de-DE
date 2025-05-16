@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 36%
+source-wordcount: '987'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 36%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## Version [!DNL Adobe Target] [!DNL AI Assistant] (16. Mai 2025)
+
+Wir freuen uns, den Start des [!DNL AI Assistant] in [!DNL Adobe Target] bekannt geben zu können! Diese leistungsstarke Benutzeroberfläche soll Ihnen helfen, [!DNL Target] Konzepte einfach zu navigieren und zu verstehen. Verfügbar für mehrere Produkte in [!DNL Adobe Experience Cloud], einschließlich [!DNL Target], [!DNL AI Assistant] ist hier, um Ihr Erlebnis zu revolutionieren.
+
+[!DNL AI Assistant] in [!UICONTROL Target] ist ein Tool für Gespräche, mit dem Sie Ihre Workflows mit [!DNL Experience Platform] Anwendungen und Services beschleunigen können. Nutzen Sie [!DNL AI Assistant], um Ihre Gesamtproduktivität zu steigern und Ihr Wissen über Produkte zu erweitern
+
+[!DNL Target] bietet die erste Phase der [!DNL AI Assistant] wertvolles Produktwissen, das auf [!DNL Experience League] Dokumentation basiert. Unabhängig davon, ob Sie ein Profilskript einrichten, Fehler beheben oder ein Upgrade auf AEP Web SDK in Betracht ziehen, [!DNL AI Assistant] Sie Folgendes behandelt.
+
+Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Platform-KI-Assistenten](/help/main/c-intro/ai-assistant.md).
 
 ## [!DNL Target Standard/Premium] 25.5.2 (8. Mai 2025)
 
