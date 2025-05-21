@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie mit  [!DNL Target]  Konzepte navigieren und v
 title: Wie verwende ich das  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
 # Übersicht über [!DNL Adobe Experience Platform] [!DNL AI Assistant]
 
-Die [!DNL AI Assistant] in [!DNL Adobe Experience Platform] ist eine Funktion der Benutzeroberfläche, mit der Sie [!DNL Adobe] Konzepte navigieren und verstehen können. [!DNL AI Assistant] ist in mehreren Produkten in [!DNL Adobe Experience Cloud] verfügbar, darunter auch in [!DNL Adobe Target].
+[!DNL AI Assistant] in [!DNL Adobe Experience Platform] ist eine Funktion der -Benutzeroberfläche, mit der Sie [!DNL Adobe] Konzepte navigieren und verstehen können. [!DNL AI Assistant] ist in mehreren Produkten in [!DNL Adobe Experience Cloud] verfügbar, darunter auch in [!DNL Adobe Target].
 
 ## Anwendungsfälle in [!DNL Target]
 
@@ -42,10 +42,10 @@ In den folgenden Artikeln finden Sie weitere Informationen zu [!DNL AI Assistant
 
 | Thema | Beschreibung |
 | --- | --- |
-| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target=_blank} | Erfahren Sie mehr über [!DNL AI Assistant]. Ein Anleitungsvideo ist enthalten. |
-| [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access){target=_blank} | Erfahren Sie, wie Sie für Ihre Organisation und deren Benutzer auf die [!DNL AI Assistant] zugreifen können. |
-| [Handbuch zu Fragen für [!DNL AI Assistant]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/questions){target=_blank} | Sehen Sie sich Beispielfragen an, die Sie bei der Abfrage von [!DNL AI Assistant] verwenden können. |
-| [[!DNL AI Assistant] UI-Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | Erfahren Sie, wie Sie [!DNL AI Assistant] in der [!DNL Adobe Experience Platform]-Benutzeroberfläche verwenden können. |
-| [Datenschutz, Sicherheit und Governance in [!DNL AI Assistant]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/privacy){target=_blank} | Erfahren Sie, wie [!DNL AI Assistant] in [!DNL Adobe Experience Platform] mit Datenschutz, Sicherheit und Governance im Vordergrund steht. Erfahren Sie mehr über die auf das Kundenvertrauen fokussierten Funktionen, die Sie von [!DNL AI Assistant] erwarten können. |
-| [FAQs](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/faq){target=_blank} | Antworten auf häufig gestellte Fragen zu [!DNL AI Assistant]. |
-| [[!DNL Adobe Experience Platform] Versionshinweise](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target=_blank} | Erfahren Sie mehr über Aktualisierungen vorhandener Funktionen und Dokumentation in [!DNL Adobe Experience Platform], einschließlich [!DNL AI Assistant]. |
+| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | Erfahren Sie mehr über [!DNL AI Assistant]. Ein Anleitungsvideo ist enthalten. |
+| [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | Erfahren Sie, wie Sie für Ihre Organisation und deren Benutzer auf die [!DNL AI Assistant] zugreifen können. |
+| [Handbuch zu Fragen für [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank} | Sehen Sie sich Beispielfragen an, die Sie bei der Abfrage von [!DNL AI Assistant] verwenden können. |
+| [[!DNL AI Assistant] UI-Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | Erfahren Sie, wie Sie [!DNL AI Assistant] in der [!DNL Adobe Experience Platform]-Benutzeroberfläche verwenden können. |
+| [Datenschutz, Sicherheit und Governance in [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank} | Erfahren Sie, wie [!DNL AI Assistant] in [!DNL Adobe Experience Platform] mit Datenschutz, Sicherheit und Governance im Vordergrund steht. Erfahren Sie mehr über die auf das Kundenvertrauen fokussierten Funktionen, die Sie von [!DNL AI Assistant] erwarten können. |
+| [FAQs](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | Antworten auf häufig gestellte Fragen zu [!DNL AI Assistant]. |
+| [[!DNL Adobe Experience Platform] Versionshinweise](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | Erfahren Sie mehr über Aktualisierungen vorhandener Funktionen und Dokumentation in [!DNL Adobe Experience Platform], einschließlich [!DNL AI Assistant]. |

@@ -1,22 +1,24 @@
 ---
-keywords: KI-Assistent;Assistent für künstliche Intelligenz;Inhaltserstellung;Inhaltsbeschleuniger
+keywords: KI-Assistent;Assistent für künstliche Intelligenz;Inhaltserstellung;Inhaltsbeschleuniger;Inhaltserstellung;Inhalt generieren
 description: Erfahren Sie, wie Sie mit Inhalte generieren [!DNL AI Assistant].
 title: Wie verwende ich " [!DNL AI Assistant] ",  [!DNL Target]  Inhalte zu generieren?
 feature: Overview
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
 # Verwenden von [!DNL AI Assistant] in [!DNL Adobe Target] für die Inhaltserstellung
 
-Nutzen Sie die Leistungsfähigkeit von [!DNL AI Assistant] in [!DNL Adobe Target], um Ihren Aktivitätsinhalt zu steigern, der von generativer KI angetrieben wird.
+Verwenden Sie [!DNL AI Assistant] in [!DNL Adobe Target], um die Effektivität Ihrer Aktivitäten zu verbessern, indem Sie Textausschnitte anpassen und Bilder mithilfe von künstlicher Intelligenz (KI) auswählen, die direkt mit Ihrer Zielgruppe sprechen, und so die Interaktion und Interaktion fördern.
 
-Verwenden Sie den KI-Assistenten in Target, um die Effektivität Ihrer Aktivitäten zu verbessern, indem Sie Textbausteine anpassen und Bilder auswählen, die direkt mit Ihrer Zielgruppe sprechen, und so die Interaktion und Interaktion fördern.
+Nutzen Sie die Leistungsfähigkeit von [!DNL AI Assistant] in [!DNL Adobe Target], um Ihren Aktivitätsinhalt zu steigern, der von generativer KI angetrieben wird.
 
 ## Voraussetzungen 
 
@@ -29,7 +31,7 @@ Verwenden Sie den KI-Assistenten in Target, um die Effektivität Ihrer Aktivitä
 
 So generieren Sie Text mit [!DNL AI Assistant]:
 
-1. Klicken Sie in [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC) auf das Symbol **[!UICONTROL Show Content Assistant] ( ![Symbol Inhaltsassistent anzeigen](/help/main/assets/icons/MagicWand.svg) )** der rechten Leiste der VEC-Benutzeroberfläche.
+1. Klicken Sie in [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC) auf das Symbol **[!UICONTROL Show Content Assistant]** ( ![Symbol Inhaltsassistent anzeigen](/help/main/assets/icons/MagicWand.svg) ) in der rechten Leiste der VEC-Benutzeroberfläche.
 
    ![Symbol „Inhaltsassistent anzeigen“](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
@@ -39,21 +41,21 @@ So generieren Sie Text mit [!DNL AI Assistant]:
 
    ![Bereich Texteinstellungen](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. (Optional) Klicken Sie auf das **Vollbildsymbol ( ![Vollbildsymbol](/help/main/assets/icons/FullScreen.svg) ),** die [!DNL AI Assistant] zu erweitern.
+1. (Optional) Klicken Sie auf **Vollbildsymbol** ( ![Vollbildsymbol](/help/main/assets/icons/FullScreen.svg) ), um [!DNL AI Assistant] zu erweitern.
 
 1. Beschreiben Sie im **[!UICONTROL Prompt]** den Text, den Sie generieren möchten.
 
-   Für einen saisonalen Urlaubsverkauf können Sie beispielsweise „Herotext schreiben, der für einen zeitlich begrenzten Sommerverkauf wirbt“ eingeben.
+   Beispiel: Für einen saisonalen Urlaubsverkauf geben Sie „Ansprechenden Hero-Text schreiben, der für einen zeitlich begrenzten Sommerurlaubsverkauf wirbt“ ein.
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Text Settings]** , um den Ton und die Kommunikationsstrategie Ihres Textes anzugeben.
 
    * **Kommunikationsstrategie**: Wählen Sie den am besten geeigneten Kommunikationsstil für Ihren generierten Text aus.
    * **Languages**: Wählen Sie die gewünschte Sprache für Ihren Text. [!DNL AI Assistant] ist derzeit nur in englischer Sprache verfügbar.
-   * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal, ob Sie informativ, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
+   * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
 1. Wählen Sie mit dem Schieberegler die Textlänge ([!UICONTROL Shorter Text] bis [!UICONTROL Larger Text]).
 
-1. Klicken Sie auf **[!UICONTROL Generate]** , um eine Liste möglicher Textvarianten zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Generate]** , um eine Liste der Textvarianten zu erstellen.
 
    ![Textvarianten des KI-Assistenten](/help/main/c-intro/assets/ai-variations-text.png)
 
@@ -67,20 +69,12 @@ So generieren Sie Text mit [!DNL AI Assistant]:
 
 1. (Optional) Geben Sie dem KI-Assistenten Feedback.
 
-   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg)Daumen hoch), um [!DNL AI Assistant] mitzuteilen, dass die Antwort korrekt ist.
-   * Klicken Sie auf das Symbol für die ![ ( ](/help/main/assets/icons/ThumbDown.svg)), um [!DNL AI Assistant] mitzuteilen, dass die Antwort falsch ist.
-   * Klicken Sie auf das Symbol Berichtsergebnisse ![Berichtsergebnissymbol](/help/main/assets/icons/Flag.svg) , um ein Problem dem [!DNL AI Assistant] zu melden.
+   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
+   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
+   * Klicken Sie auf das Symbol [!UICONTROL Report Results] ( ![Berichtsergebnissymbol](/help/main/assets/icons/Flag.svg) ), um ein Problem dem [!DNL AI Assistant] zu melden.
 
 ## Schulungsvideos
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger">https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger)
-
-
-
-
-
-
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
