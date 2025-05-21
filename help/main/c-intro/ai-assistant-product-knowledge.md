@@ -36,7 +36,7 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
-1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**[!DNL AI Assistant] .
+1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**&#x200B;[!DNL AI Assistant] .
 
    ![KI-Assistenten-Symbol](/help/main/c-intro/assets/ai-assistant-icon.png)
 
