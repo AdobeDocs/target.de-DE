@@ -6,9 +6,9 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d8bdd7f00911136f3089cef135928153a86096a9
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1670'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ Wir bieten eine temporäre Funktion, mit der Sie mithilfe einer Umschaltfläche 
 
 ![Umschalter für Target-Benutzeroberflächenversion](/help/main/r-release-notes/assets/toggle.png)
 
-Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzer wechseln dauerhaft zur aktualisierten Benutzeroberfläche. Obwohl wir aufgrund der laufenden Problembehebung kein bestätigtes Enddatum haben, empfehlen wir, im Voraus zu planen, da diese Funktion bald auslaufen wird.
+Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzenden werden am (22. **2025) dauerhaft zur aktualisierten Benutzeroberfläche**. Adobe empfiehlt, vorauszuplanen, da diese Funktion bald auslaufen wird.
 
 **Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche**
 
