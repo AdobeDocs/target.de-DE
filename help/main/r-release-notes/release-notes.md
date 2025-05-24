@@ -6,9 +6,9 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
+source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1749'
 ht-degree: 20%
 
 ---
@@ -42,7 +42,13 @@ Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benu
 Weitere Informationen zur aktualisierten Benutzeroberfläche finden Sie in den folgenden Ressourcen:
 
 * [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) - Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+
+  Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für [!UICONTROL Activities], [!UICONTROL Recommendations] und den [!UICONTROL Visual Experience Composer] (VEC).
+
 * [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) - Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+
+  Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Offers Library].
+
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)
 
   Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und Links für detailliertere Informationen und schrittweise Anleitungen.
@@ -53,7 +59,7 @@ Weitere Informationen zur aktualisierten Benutzeroberfläche finden Sie in den f
 
 * [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
-  In diesem Artikel werden die aktualisierte Benutzeroberfläche und ihre Optionen erläutert.
+  In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22. Mai 2025)
 
