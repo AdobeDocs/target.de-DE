@@ -6,9 +6,9 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 53fc39f66ca954c1c9908a12ece6c0beeebed2eb
+source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1744'
 ht-degree: 20%
 
 ---
@@ -25,7 +25,7 @@ Der Rollout der neuen [!DNL Target]-Benutzeroberfläche wird bis zum 27. **2025*
 
 Ab **22. Juni** wird der Umschalter für die Benutzeroberflächenversion entfernt. Alle Benutzer wechseln dauerhaft zur neuen Benutzeroberfläche, ohne die Möglichkeit, zur vorherigen Version zurückzukehren.
 
-**Wichtige Informationen zum Umschalten der Benutzeroberflächenversion**
+### Wichtige Informationen zum Umschalten der Benutzeroberflächenversion
 
 Wir bieten eine temporäre Funktion, mit der Sie mithilfe einer Umschaltfläche zwischen der aktualisierten [!DNL Target]-Benutzeroberfläche und der Legacy-Version wechseln können. Diese Option ist nur während der letzten Phase des Rollouts der Benutzeroberfläche verfügbar.
 
@@ -33,33 +33,23 @@ Wir bieten eine temporäre Funktion, mit der Sie mithilfe einer Umschaltfläche 
 
 Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzenden werden am (22. **2025) dauerhaft zur aktualisierten Benutzeroberfläche**. Adobe empfiehlt, vorauszuplanen, da diese Funktion bald auslaufen wird.
 
-**Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche**
+### Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche
 
 * **Sichtbarkeit neuer Aktivitäten**: Aktivitäten, die in der aktualisierten Benutzeroberfläche erstellt wurden, werden nicht angezeigt, wenn Sie zur alten Benutzeroberfläche zurückkehren.
 * **Bearbeiten vorhandener Aktivitäten**: Änderungen an vorhandenen Aktivitäten (die ursprünglich in der veralteten Benutzeroberfläche erstellt wurden), während die aktualisierte Benutzeroberfläche verwendet wird, werden auf Ihrer Website veröffentlicht. Diese Aktualisierungen werden jedoch nicht in der alten Benutzeroberfläche angezeigt, wenn Sie zurückwechseln. Nur die letzten Aktualisierungen, die von der alten Benutzeroberfläche vorgenommen wurden, werden dort angezeigt.
 * **Konsistenz der Aktivitätsdetails**: Die neuesten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. In der veralteten Benutzeroberfläche werden jedoch nur die neuesten Änderungen angezeigt, die in dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
 
-Weitere Informationen zur aktualisierten Benutzeroberfläche finden Sie in den folgenden Ressourcen:
+### Weitere Informationen zur aktualisierten Benutzeroberfläche
 
-* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) - Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für [!UICONTROL Activities], [!UICONTROL Recommendations] und den [!UICONTROL Visual Experience Composer] (VEC).
 
-  Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für [!UICONTROL Activities], [!UICONTROL Recommendations] und den [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Offers Library].
 
-* [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) - Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 
-  Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Offers Library].
+* [[!UICONTROL Visual Experience Composer] Änderungen](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 
-* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)
-
-  Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und Links für detailliertere Informationen und schrittweise Anleitungen.
-
-* [[!UICONTROL Visual Experience Composer] Kalender](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
-
-  Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
-
-* [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
-
-  In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
+* [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22. Mai 2025)
 
