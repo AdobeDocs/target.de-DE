@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.5.4 (29. Mai 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Es wurde ein Problem behoben, das das Hinzufügen oder Bearbeiten von URLs im QA-Modus verhinderte. (TGT-51941)
+* Unter [!UICONTROL Reports] > [!UICONTROL Report Settings] wurde eine Traffic-Einstellung für den QA-Modus hinzugefügt ![Berichteinstellungen](/help/main/assets/icons/Setting.svg) ), um sie an die Funktionalität der veralteten [!DNL Target]-Benutzeroberfläche anzupassen. (TGT-52228 und TGT-52329)
+* Es wurde ein Problem behoben, bei dem die formularbasierte Aktivität falsche QA-Links generierte. Die Aktivitäts-URL/-position enthielt am Ende eine unbeabsichtigte „1“, die jetzt entfernt wurde, um eine genaue Verknüpfung sicherzustellen. (TGT-52355 und TGT-52358)
+* Es wurde ein Problem behoben, bei dem die formularbasierte Aktivität falsche QA-Links generierte. Die Aktivitäts-URL enthielt eine unbeabsichtigte `http://pid-ppc` am Anfang der URL, die jetzt entfernt wurde, um eine genaue Verknüpfung sicherzustellen. (TGT-52557)
+* Es wurde ein Problem behoben, bei dem [!DNL Target] ungültige QA-Links für formularbasierte Aktivitäten generierte. (TGT-52528 und TGT-52603)
+* Es wurde ein Problem behoben, bei dem das Speichern einer geänderten Aktivität zwar verarbeitet, aber nie abgeschlossen wurde und in [!DNL Target] keine Fehlermeldung angezeigt wurde. (TGT-52461)
+* Es wurde ein Problem behoben, bei dem der aktualisierte [!UICONTROL Visual Experience Composer] (VEC) den `at_property` nicht automatisch erkennen konnte. (TGT-52347)
+* Es wurde ein Problem behoben, das dazu führte, dass zwei Änderungen aufgezeichnet wurden, wenn nach dem Wechsel zwischen [!UICONTROL Browse]- und [!UICONTROL Design] in VEC bei der Interaktion mit einem Formularelement nur eine Änderung erwartet wurde. (TGT-52455)
+* Es wurde ein Problem behoben, das die Auswahl der [!UICONTROL Clicked an Element] in der aktualisierten VEC verhinderte, da ein Fehler anzeigte, dass der Selektor ungültig war, bereits verwendet wurde oder nicht sichtbar war. (TGT-52467)
+* Es wurde ein Problem behoben, bei dem das Hinzufügen eines [!UICONTROL Recommendation Offer] in der aktualisierten VEC dazu führte, dass doppelte (Ghost-)Felder angezeigt wurden. Beim Wechsel zwischen Erlebnis A und B wurden wiederholt weitere Geisterboxen hinzugefügt. (TGT-52505 und TGT-52519)
+* Es wurde ein Problem in der aktualisierten [!DNL Target]-Benutzeroberfläche behoben, bei dem Änderungen an einem HTML-Angebot, die über das Menü [!UICONTROL Offer] vorgenommen wurden, nicht in der zugehörigen Aktivität widergespiegelt wurden und umgekehrt. Dieses Verhalten entspricht jetzt der veralteten Benutzeroberfläche, in der Aktualisierungen korrekt zwischen dem [!UICONTROL Offer] und der Aktivität synchronisiert werden. (TGT-52540 und TGT-52541)
+* Es wurde ein Problem behoben, bei dem aktuelle Aktualisierungen an [!UICONTROL Experience Fragments] im [!UICONTROL Offers Library] nicht angezeigt wurden, wenn versucht wurde, sie in einer Aktivität zu verwenden. (TGT-52659)
+* Fehlerkorrektur - Die Lokalisierung einer Bestätigungsnachricht in Chinesisch (vereinfacht) funktioniert jetzt fehlerfrei. In der vorherigen Version fehlten Anführungszeichen um den Ortsnamen und die verwendete informelle Sprache, im Gegensatz zum Stil-Handbuch des Kunden. Die aktualisierte Übersetzung verwendet jetzt die richtige Interpunktion und einen formalen Ton. (TGT-52364)
 
 ## Einstellen der Target-Benutzeroberflächenversion (23. Mai 2025) {#toggle}
 
