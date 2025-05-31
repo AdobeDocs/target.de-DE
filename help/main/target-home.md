@@ -4,14 +4,14 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b98c38e4730e725041bed8636c03f9a4f6b32385
+source-git-commit: f448b619a5b59de6f14909dd2705b2dcf9ab093f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 28%
 
 ---
 
-# Handbuch für Business-Anwender*innen von Adobe Target
+# Handbuch für [!DNL Adobe Target] Business Practices
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren. So können Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren.
 
@@ -19,11 +19,11 @@ ht-degree: 29%
 
 >[!BEGINTABS]
 
->[!TAB Wichtig]
+>[!TAB Wichtige Informationen]
 
-**Die aktualisierte Target-Benutzeroberfläche ist jetzt vollständig ausgerollt**
+Veraltungs-Umschalter für **[!DNL Target]-Benutzeroberfläche**
 
-Seit dem 27. Mai 2025 haben alle -Kunden Zugriff auf die neue [!DNL Target]-Benutzeroberfläche. Ab dem 22. Juni 2025 wird der Umschalter für die Benutzeroberfläche entfernt und alle Benutzenden werden dauerhaft zur aktualisierten Benutzeroberfläche wechseln, ohne dass eine Option zum Zurücksetzen vorhanden ist.
+Seit dem 27. Mai 2025 haben alle -Kunden Zugriff auf die neue [!DNL Target]-Benutzeroberfläche. Ab dem 22. Juni 2025 wird der Umschalter für die Benutzeroberfläche entfernt und alle Benutzenden werden dauerhaft auf die aktualisierte Benutzeroberfläche umgestellt, ohne dass eine Option zum Zurücksetzen besteht.
 
 [![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 
@@ -112,5 +112,5 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 | Hilfe zu Adobe [!DNL Target]-Lösungen | [!DNL Adobe Experience Cloud] Ressourcen |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
 
