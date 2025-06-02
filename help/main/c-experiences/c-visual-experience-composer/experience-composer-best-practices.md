@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Best Practices, damit Ihre Erlebnisse bei d
 title: Was sind [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
@@ -225,6 +225,18 @@ Dies kann umgangen werden, indem Erlebnisleiste und Seitenleiste durch Klicken a
 
 Beachten Sie bei der Arbeit mit VEC die folgenden Einschränkungen:
 
+### Handhabung der VEC-Kompatibilität mit Änderungen der Chrome-Erweiterungsrichtlinie.
+
+Aufgrund aktualisierter [V3-Manifestrichtlinien in Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank} können Erweiterungen das ursprüngliche DOM nicht mehr ändern, bevor es vom Browser geparst wird. Daher können bestimmte Sicherheitsskripte - z. B. iframe-busting-Implementierungen - das Laden von Seiten im VEC blockieren.
+
+Um die Kompatibilität zu gewährleisten, sollten diese Skripte bedingt deaktiviert werden, wenn die Seite innerhalb des [!DNL Target] iFrames geladen wird. Dieser Vorgang kann sicher durchgeführt werden, indem überprüft wird, ob das `window.adobeVecExtension` Objekt vorhanden ist, das während des Ladevorgangs des VEC von [!DNL Target] injiziert wird.
+
+Die folgenden Code-Snippets sind Beispiele für iframe-Busting-Code, der dazu führen kann, dass Web-Seiten im VEC nicht geladen werden:
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
+
 ### Sie können ein Element nicht aus einem Container mit einer darauf folgenden CSS-Eigenschaft verschieben.
 
 Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den eine CSS-Eigenschaft folgt.
@@ -293,7 +305,7 @@ Das Skript wird nach dem Laden der Seite innerhalb des Geltungsbereichs von „t
 </script>
 ```
 
-### Durch das Einfügen eines Bildes aus der Inhaltsbibliothek (Scene7) und das Bearbeiten der HTML wird die Bild-URL beschädigt.
+### Durch das Einfügen eines Bildes aus der Inhaltsbibliothek (Scene7) und das Bearbeiten des HTMLS wird die Bild-URL beschädigt.
 
 Fügen Sie ein Ankerelement innerhalb des div „customHeaderMessage“ sowie Platzhaltertext ein:
 
