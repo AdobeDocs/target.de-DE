@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über Best Practices, damit Ihre Erlebnisse bei d
 title: Was sind [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -236,6 +236,14 @@ Die folgenden Code-Snippets sind Beispiele für iframe-Busting-Code, der dazu f�
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+Mit einer einfachen Prüfung kann überprüft werden, ob eine Web-Seite in [!DNL Target] eingebettet ist. Ein Code-Snippet sollte wie folgt aussehen:
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### Sie können ein Element nicht aus einem Container mit einer darauf folgenden CSS-Eigenschaft verschieben.
 
