@@ -5,21 +5,31 @@ title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Aktualisierte FAQ zur Target-Benutzeroberfläche
+# Häufig gestellte Fragen zur Aktualisierung der [!DNL Target]-Benutzeroberfläche
 
-Hier finden Sie Antworten auf häufig gestellte Fragen zur aktualisierten [!DNL Adobe Target]-Benutzeroberfläche mit hilfreichen Tipps und Links zu weiteren Informationen.
+Neu im Jahr 2025. Die aktualisierte Benutzeroberfläche von [!DNL Adobe Target] bietet ein optimiertes, intuitives Erlebnis, das die Benutzerfreundlichkeit und Effizienz in allen Rollen verbessert. In diesen häufig gestellten Fragen werden häufig gestellte Fragen zur neuen [!DNL Target]-Benutzeroberfläche und -[!UICONTROL Visual Experience Composer] (VEC) behandelt, einschließlich Navigationsänderungen, Funktionsspeicherorte und der Einstellung des Umschalters für die temporäre Benutzeroberfläche. Unabhängig davon, ob Sie Marketing-Experte, Entwickler oder Administrator sind, hilft Ihnen diese häufig gestellte Frage dabei, den Übergang reibungslos zu gestalten und die aktualisierte Benutzeroberfläche optimal zu nutzen.
 
 ## Wo finde ich weitere Informationen zur aktualisierten [!DNL Target]-Benutzeroberfläche?
 
 +++Details
-{{updated-ui}}
+Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisierte [!DNL Target]-Benutzeroberfläche zu erfahren:
+
+* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für [!UICONTROL Activities], [!UICONTROL Recommendations] und den [!UICONTROL Visual Experience Composer] (VEC).
+
+* [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Offers Library].
+
+* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
+
+* [[!UICONTROL Visual Experience Composer] Änderungen](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+
+* [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
 +++
 
@@ -50,7 +60,7 @@ Der Umschalter für die Benutzeroberflächenversion ist eine temporäre Funktion
 
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die temporäre Benutzeroberfläche finden Sie unter [Target-Benutzeroberfläche - Versionswechsel (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweisen für frühere Versionen*.
+Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
 
 ++++
 
@@ -61,7 +71,7 @@ Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die t
 
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die temporäre Benutzeroberfläche finden Sie unter [Target-Benutzeroberfläche - Versionswechsel (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweisen für frühere Versionen*.
+Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
 
 +++
 
