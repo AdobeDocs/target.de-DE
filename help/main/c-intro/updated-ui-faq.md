@@ -5,7 +5,7 @@ title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Muti, Hilfe nötig.
 
 +++
 
-### Wird die Umgebung auf der neuen Recommendations -Benutzeroberfläche standardmäßig auf Staging zurückgesetzt?
+## Wird die Umgebung auf der neuen Recommendations -Benutzeroberfläche standardmäßig auf Staging zurückgesetzt?
 
 +++Details
 Muti, Hilfe nötig.
