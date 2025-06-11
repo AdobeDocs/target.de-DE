@@ -5,9 +5,9 @@ title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ Der Umschalter für die Benutzeroberflächenversion ist eine temporäre Funktion
 
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
+>[!NOTE]
+>
+>Kunden mit Sonderfällen, bei denen der Umschalter nach dem 22. Juni beibehalten werden muss, können sich zwecks Unterstützung an die Adobe-Kundenunterstützung wenden.
+
+
 Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
 
 ++++
@@ -85,21 +90,23 @@ Aktivitäten, die in der aktualisierten Benutzeroberfläche erstellt oder bearbe
 ## Was sind die Unterschiede zwischen der Erstellung von Angeboten in der veralteten und der aktualisierten Benutzeroberfläche? Sind zusätzliche Attribute erforderlich?
 
 +++Details
-Muti, Hilfe nötig.
+Die [!UICONTROL Offer Library] Benutzeroberfläche erfordert konsistente Attributdefinitionen für alle Angebote. Beim Erstellen eines (Ad-hoc-) Angebots, das nur für Aktivitäten bestimmt ist, müssen Benutzende auch einen Angebotsnamen angeben. Diese Informationen werden im [!UICONTROL Form-based Experience Composer] angezeigt, sodass Angebote leichter identifiziert werden können, ohne den Code oder Inhalt zu überprüfen.
 
 +++
 
 ## Was ist mit den Angebotsvorschau-Links in der aktualisierten Benutzeroberfläche passiert?
 
 +++Details
-Muti, Hilfe nötig.
+[!UICONTROL Experience Fragment] Vorschau-Links sind im [!UICONTROL Quick Info]-Pop-up verfügbar, das angezeigt wird, wenn auf das Informationssymbol (![Informationssymbol](/help/main/assets/icons/InfoOutline.svg) ) geklickt wird, das dem ausgewählten Fragment entspricht.
 
 +++
 
 ## Ich muss die [!UICONTROL Enhanced Experience Composer] deaktivieren, wenn ich vorhandene Aktivitäten mit der aktualisierten Benutzeroberfläche bearbeite. Hat [!DNL Adobe] ein ähnliches Verhalten bei anderen Kunden beobachtet?
 
 +++Details
-Muti, Hilfe nötig.
+Ja. Bei Verwendung der [!DNL Adobe Experience Cloud]-[!DNL Visual Editing Helper extension] müssen Sie möglicherweise den [!UICONTROL Enhanced Experience Composer] (EEC) deaktivieren.
+
+Weitere Informationen finden Sie unter [Visual Editing Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -113,7 +120,7 @@ Auf die Zulassungsliste setzen Weitere Informationen zu IP-Adressen, die Sie bea
 
 +++
 
-## Wir hatten Probleme damit, dass das Durchsuchen nicht funktioniert oder uns erlaubt, zu durchsuchen. Hat [!DNL Adobe] ein ähnliches Verhalten bei anderen Kunden beobachtet?
+## Wir hatten Probleme mit [!UICONTROL Browse], die nicht funktionieren oder uns nicht surfen lassen. Hat [!DNL Adobe] ein ähnliches Verhalten bei anderen Kunden beobachtet?
 
 +++Details
 Muti, Hilfe nötig.
@@ -123,7 +130,9 @@ Muti, Hilfe nötig.
 ## Wird die Umgebung auf der neuen Recommendations -Benutzeroberfläche standardmäßig auf Staging zurückgesetzt?
 
 +++Details
-Muti, Hilfe nötig.
+Umgebungen verwenden jetzt standardmäßig die letzte vom Kunden verwendete Umgebung. Um zwischen Umgebungen zu wechseln, verwenden Sie die [!UICONTROL Environment] in der rechten oberen Ecke der [!UICONTROL Catalog Search]-Benutzeroberfläche.
+
+![Umgebungs-Switch](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
