@@ -5,9 +5,9 @@ title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ Auf die Zulassungsliste setzen Weitere Informationen zu IP-Adressen, die Sie bea
 
 * **Enhanced Experience Composer (EEC)**: Siehe [Der EEC lädt keine interne QA-URL, auf die über öffentliche IP nicht zugegriffen werden kann](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) in *Fehlerbehebung bei Problemen mit Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]**: Siehe [IP-Adressen, die von Recommendations-Feed verarbeitenden Servern verwendet werden](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
-
-+++
-
-## Wir hatten Probleme mit [!UICONTROL Browse], die nicht funktionieren oder uns nicht surfen lassen. Hat [!DNL Adobe] ein ähnliches Verhalten bei anderen Kunden beobachtet?
-
-+++Details
-Muti, Hilfe nötig.
 
 +++
 
