@@ -3,9 +3,7 @@ keywords: Target-Benutzeroberfläche;Benutzeroberfläche;Benutzeroberfläche;Ben
 description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
-hide: true
-hidefromtoc: true
-source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
+source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
