@@ -5,10 +5,10 @@ title: Welche Zeichen, Größen und sonstigen Beschränkungen gibt es in [!DNL A
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 75%
+source-wordcount: '1734'
+ht-degree: 74%
 
 ---
 
@@ -84,9 +84,9 @@ Zeichenbeschränkungen und andere Beschränkungen (Angebotsgröße, Zielgruppen,
 
   Batch-Mbox-Anfragen werden sequenziell verarbeitet, wodurch die gesamte Antwortzeit mit jeder Iteration erhöht wird. Je mehr Mboxes eine Batch-Anfrage enthalten, desto höher ist die zu erwartende Antwortlatenz und desto größer ist die Wahrscheinlichkeit von Zeitüberschreitungen. Wenn das Erlebnis-Rendering bei Batch-Anfragen mit hoher Latenz blockiert wird, kann die Latenz zu einem schlechteren Benutzererlebnis führen, wenn Benutzer auf das Rendern von Erlebnissen warten.
 
-* **Limit**: 60 MB Textkörpergröße der HTTP-POST für [!DNL Target] Anfragen zur Inhaltsbereitstellung.
+* **Limit**: 60 MB HTTP-POST-Textkörpergröße für [!DNL Target]-Anfragen zur Inhaltsbereitstellung.
 
-  Wenn Sie 60 MB auf der Textkörpergröße der HTTP-POST einer [!DNL Target] Inhaltsbereitstellungsanfrage überschreiten, wird ein Antwort-Fehler-Code `HTTP 413 Request Entity Too Large`.
+  Wenn Sie 60 MB auf der HTTP-POST-Textgröße einer [!DNL Target] Inhaltsbereitstellungsanfrage überschreiten, wird ein Fehler-Code für die Antwort `HTTP 413 Request Entity Too Large`.
 
 * **Empfohlenes Limit**: 50 Benachrichtigungen pro [!DNL Target]-Versand-Batch-Anfrage.
 
@@ -294,6 +294,10 @@ Die folgenden Größenbeschränkungen gelten für Angebote:
 ## Berichtszielgruppen/-segmente
 
 * **Limit**: 50 Berichtszielgruppen/-segmente pro Aktivität.
+
+## sessionID
+
+Die Sitzungs-ID kann eine beliebige druckbare Zeichenfolge sein, mit Ausnahme von Leerzeichen, Fragezeichen ( ? ), geschweifte Klammern ( { } ) oder Schrägstriche ( / ). Er sollte zwischen 1 und 128 Zeichen lang sein.
 
 ## Skriptprofil-Eingabefeld in der [!DNL Target]-Benutzeroberfläche
 
