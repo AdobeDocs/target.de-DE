@@ -4,9 +4,9 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 26%
 
 ---
@@ -15,19 +15,25 @@ ht-degree: 26%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren. So können Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren.
 
-**Zuletzt aktualisiert: 16. Juni 2025 ([ Änderungen ansehen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 17. Juni 2025 ([ Änderungen ansehen](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Wichtige Informationen]
+>[!TAB Achtung!]
 
-Veraltungs-Umschalter für **[!DNL Target]-Benutzeroberfläche**
+**Aktualisiert: Umschalten der Version der [!DNL Target]-Benutzeroberfläche (17. Juni 2025)**
 
-Seit dem 27. Mai 2025 haben alle -Kunden Zugriff auf die neue [!DNL Target]-Benutzeroberfläche. Ab dem 22. Juni 2025 wird der Umschalter für die Benutzeroberfläche entfernt und alle Benutzenden werden dauerhaft auf die aktualisierte Benutzeroberfläche umgestellt, ohne dass eine Option zum Zurücksetzen besteht.
+Das [!DNL Target]-Team hat die Timeline für den Umschalter der Version der Benutzeroberfläche angepasst, sodass dieser nicht mehr unterstützt wird.
 
-[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
+[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
->[!TAB Neuigkeiten]
+>[!TAB Was ist neu?]
+
+**Informationen zum Umschalten der Version der Benutzeroberfläche wurden aktualisiert**
+
+Das [!DNL Target]-Team hat die Timeline für den Umschalter der Version der Benutzeroberfläche angepasst, sodass dieser nicht mehr unterstützt wird.
+
+[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#revised)
 
 **Target 25.6.2 ist live!**
 
@@ -118,5 +124,5 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 | Hilfe zu Adobe [!DNL Target]-Lösungen | [!DNL Adobe Experience Cloud] Ressourcen |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |  |
 

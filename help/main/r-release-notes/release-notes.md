@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## Aktualisiert: Umschalten der Version der [!DNL Target]-Benutzeroberfläche (17. Juni 2025) {#revised}
+
+Seit dem 17. Juni 2025 sollten alle IMS-Organisationen für die aktualisierte [!DNL Target]-Benutzeroberfläche aktiviert sein, entweder für bestimmte Benutzer oder unternehmensweit, um mit dem Testen des neuen Erlebnisses zu beginnen.
+
+Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplexen Kundenanpassungen zusammenhängen, hat das [!DNL Target]-Team den Zeitplan für die Einstellung angepasst:
+
+* **30. Juni 2025**: Das [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) wird zum Standarderlebnis für alle IMS-Organisationen, die den Umschalter für die Benutzeroberflächenversion aktiviert haben.
+
+   * Kunden, die derzeit standardmäßig die alte Benutzeroberfläche sehen, sehen die aktualisierte Benutzeroberfläche jetzt nach der Anmeldung.
+   * Der Umschalter für die Benutzeroberflächenversion bleibt bis Ende Juli verfügbar, sodass Benutzer bei Bedarf zurückkehren können.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zur alten Benutzeroberfläche zurück, wenn ein Blocker-Problem auftritt. Wichtige [[!DNL Target]  zum Umschalten finden Sie unter (Einstellung der UI-Version (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in den Versionshinweisen für frühere Versionen .
+
+* **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
+
+   * Die Ausnahmen werden von Fall zu Fall überprüft.
+   * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
+
+Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die [Adobe-Kundenunterstützung.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (Freitag, 12. Juni 2025)
 
@@ -49,8 +71,6 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, bei dem die Benutzeroberfläche die manuelle Zuweisung einer Umgebungs-ID zu einem Kriterium nicht zuließ. Stattdessen wird standardmäßig die ID für die [!UICONTROL Product Catalog Search] Hostgruppe verwendet. Mit dieser Fehlerbehebung wird sichergestellt, dass Kriterienänderungen jetzt in allen Umgebungen angewendet werden, nicht nur in der Standardumgebung. (TGT-52817)
 * Es wurde ein Problem behoben, bei dem die Option &quot;[!UICONTROL Download Recommendations data]&quot; für [!UICONTROL Experience Targeting] (XT)-Aktivitäten mit Empfehlungen fehlte. (TGT-52730 und TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (Samstag, 6. Juni 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
@@ -76,7 +96,11 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Lokalisierungsproblem in der koreanischen Sprache behoben, bei dem bei früheren Übersetzungen Zeichen außerhalb der mehrsprachigen Basisebene verwendet wurden. Die aktualisierte Übersetzung verwendet geeignete Zeichen, die die beabsichtigte Bedeutung genau vermitteln. (TGT-52508 und TGT-52509)
 * Fehlerkorrektur - Bei der Lokalisierung in Koreanisch tritt bei der Auswahl des Start- und Enddatums für eine Aktivität kein Übersetzungsproblem mehr auf, wenn die Übersetzung für „Datum“ inkonsistent ist. (TGT-52510)
 
-## Einstellen der Target-Benutzeroberflächenversion (23. Mai 2025) {#toggle}
+## Einstellen der Version der [!DNL Target]-Benutzeroberfläche - Umschalten (23. Mai 2025) {#toggle}
+
+>[!IMPORTANT]
+>
+>Das [!DNL Target]-Team hat die Timeline für den Umschalter der Version der Benutzeroberfläche angepasst, sodass dieser nicht mehr unterstützt wird. Weitere Informationen finden [ unter  [!DNL Target] Aktualisiert:UI-Versions-Umschalter (17. Juni 2025)](#revised).
 
 Der Rollout der neuen [!DNL Target]-Benutzeroberfläche wird bis zum 27. **2025**. Ab diesem Zeitpunkt haben alle Kunden Zugriff auf die neueste Version der Benutzeroberfläche.
 

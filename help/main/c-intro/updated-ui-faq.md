@@ -3,9 +3,9 @@ keywords: Target-Benutzeroberfläche;Benutzeroberfläche;Benutzeroberfläche;Ben
 description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # Häufig gestellte Fragen zur Aktualisierung der [!DNL Target]-Benutzeroberfläche
 
 Neu im Jahr 2025. Die aktualisierte Benutzeroberfläche von [!DNL Adobe Target] bietet ein optimiertes, intuitives Erlebnis, das die Benutzerfreundlichkeit und Effizienz in allen Rollen verbessert. In diesen häufig gestellten Fragen werden häufig gestellte Fragen zur neuen [!DNL Target]-Benutzeroberfläche und -[!UICONTROL Visual Experience Composer] (VEC) behandelt, einschließlich Navigationsänderungen, Funktionsspeicherorte und der Einstellung des Umschalters für die temporäre Benutzeroberfläche. Unabhängig davon, ob Sie Marketing-Experte, Entwickler oder Administrator sind, hilft Ihnen diese häufig gestellte Frage dabei, den Übergang reibungslos zu gestalten und die aktualisierte Benutzeroberfläche optimal zu nutzen.
+
+## Wurde die Zeitleiste für die Einstellung des Umschalters für die Version der Target-Benutzeroberfläche aktualisiert?
+
++++Details
+Ja. Die neue Zeitleiste und wichtige Informationen finden Sie unter [Aktualisiert: [!DNL Target] Versions-Umschalter (17. Juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## Wo finde ich weitere Informationen zur aktualisierten [!DNL Target]-Benutzeroberfläche?
 
@@ -60,8 +67,7 @@ Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrer
 
 >[!NOTE]
 >
->Kunden mit Sonderfällen, bei denen der Umschalter nach dem 22. Juni beibehalten werden muss, können sich zwecks Unterstützung an die Adobe-Kundenunterstützung wenden.
-
+>Kunden mit Sonderfällen, bei denen der Umschalter nach dem 22. Juni beibehalten werden muss, können sich zwecks Unterstützung an die Adobe-Kundenunterstützung wenden. Weitere Informationen finden [ unter  [!DNL Target] Aktualisiert:UI-Versions-Umschalter (17. Juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
 
 Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
 
