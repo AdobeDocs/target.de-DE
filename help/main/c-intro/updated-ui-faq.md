@@ -3,7 +3,8 @@ keywords: Target-Benutzeroberfläche;Benutzeroberfläche;Benutzeroberfläche;Ben
 description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -145,7 +146,3 @@ Die Integration von [!DNL Adobe Analytics] (AA) oder [!DNL Customer Journey Anal
 * Validieren der Datenerfassungs- und Attributionseinstellungen
 
 +++
-
-
-
-
