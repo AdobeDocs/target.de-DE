@@ -58,7 +58,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
    * Die Ausnahmen werden von Fall zu Fall überprüft.
    * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die [Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die Adobe-Kundenunterstützung.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (Freitag, 12. Juni 2025)
 
