@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 19%
+source-wordcount: '2330'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 19%
 Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und Fehlerkorrekturen in der [!DNL Adobe Target Standard]- und [!DNL Target Premium]-Version. Sie finden hier auch Versionshinweise zu den [!DNL Target]-APIs, SDKs, der JavaScript-Bibliothek (at.js) von [!DNL Adobe Experience Platform Web SDK] sowie zu anderen Plattformänderungen.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.6.3 (Samstag, 20. Juni 2025)
+
+Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
+
+* Der aktualisierten [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberfläche wurde die Option [!UICONTROL Rearrange] hinzugefügt, um sie an die im alten VEC verfügbaren Funktionen anzupassen. (TGT-46957)
+* Fehlerkorrektur - Beim Kopieren einer Aktivität von einem Arbeitsbereich in einen anderen Arbeitsbereich treten jetzt keine Fehler mehr auf, z. B. „Darf nicht null sein“ oder „Irgendetwas ist schiefgelaufen“. (TGT-52474)
+* Es wurde ein Problem behoben, bei dem [!UICONTROL Automated Segments]- und [!UICONTROL Important Attributes]-Berichte für bestimmte Aktivitäten nicht generiert wurden. (TGT-52904)
+* Fehlerkorrektur - Die standardmäßige Inhaltsverarbeitung in [!UICONTROL Automated Personalization] (AP)-Aktivitäten im aktualisierten VEC stimmt jetzt mit der veralteten Benutzeroberfläche überein. Das System fügt jetzt automatisch eine `optionGroup` mit dem Namen „Standardinhalt“ mit `optionGroupLocalId = 0` hinzu, wenn keine Gruppe explizit hinzugefügt wird. Diese Gruppe umfasst die Standardoption (z. B. `optionLocalId: 0`). Wenn der Standardinhalt entfernt wird, wird auch die entsprechende Optionsgruppe entfernt. (TGT-52651)
+* Es wurde ein Problem in [!UICONTROL Multivariate Test] (MVT)-Aktivitäten behoben, bei dem die Wiederverwendung eines `experienceLocalId` aus zuvor entfernten Erlebnissen fälschlicherweise nicht zulässig war. (TGT-52672)
+* Ein Problem wurde behoben, das das Kopieren oder Bearbeiten von Aktivitäten verhinderte, die ein Experience Fragment enthielten. Dadurch wurde der Fehler ausgelöst: `Enum "AemOfferType" cannot represent value: "html"`. (TGT-52635)
+* Es wurde ein Problem behoben, bei dem URLs an Aktivitätspositionen Abfrageparameter aufgrund von ungültigen Zeichen, wie Schrägstrichen (/), nicht anzeigen konnten. (TNT52845)
+* Die Validierungsfehlermeldung für [!DNL A/B Test] Aktivitätsaktualisierungen über die Backend-API wurde verbessert. Wenn doppelte Ortsnamen vorhanden sind, wird in der Meldung jetzt deutlich angegeben: „Doppelte Namen sind nicht zulässig“ für `locations.selectors`. (TGT-52589)
+* Fehlerkorrektur - Beim Aktualisieren einer Live [!UICONTROL Recommendations]-Aktivität aufgrund einer nicht erkannten Eigenschaft in der Anfrage-Payload tritt jetzt kein Fehler mehr auf. Das System verarbeitet jetzt ordnungsgemäß die „Ungültige JSON. Fehler „Nicht erkannter Eigenschaftsname“. (TGT-52723)
+* Fehlerkorrektur - Das Erstellen eines [!DNL Recommendations]-Designs ist jetzt möglich. Durch Klicken auf [!UICONTROL Create] wird die Meldung „Es sollte mindestens eine Entitätsvariable im Skript verwendet werden.“ ausgelöst. (TGT-52395 und TGT-52899)
+* Es wurde ein Problem behoben, bei dem das erneute Speichern eines [!DNL Recommendations] Designs ohne Änderungen blockiert wurde. (TGT-52879)
+* Fehlerkorrektur - Beim Speichern einer [!UICONTROL Recommendations]-Aktivität tritt jetzt kein Backend-Validierungsfehler mehr auf, der den Fehler „400 Bad Request“ verursacht. (TGT-52716)
+* Fehlerkorrektur - Beim Bewegen des Mauszeigers über eine Mbox mit Sonderzeichen in der Dropdown-Liste &quot;[!UICONTROL Location]&quot; in der [!UICONTROL Form-Based Experience Composer] wird der Editor jetzt nicht mehr leer angezeigt und die Meldung „Fehler beim Ausführen von „querySelector“ für „Element“ ausgegeben.“ angezeigt. (TGT-52717)
+* Verbesserte Genauigkeit des Zufuhrstatus mit einem neuen „PARTIALLY_IMPORTED“-Indikator. Zuvor wurden Feeds als „Erfolg“ markiert, selbst wenn nicht alle Zeilen in einer Datei importiert wurden, was irreführend war. (TGT-52892)
+* Fehlerkorrektur - Nach der Migration zu AP V2 `/admin/rest/ui/v1/campaigns` bei bestimmten API-Aufrufen an Client-seitige Fehler zurückgegeben (HTTP 4xx). (TGT-52721)
 
 ## Aktualisiert: Umschalten der Version der [!DNL Target]-Benutzeroberfläche (17. Juni 2025) {#revised}
 
@@ -39,7 +59,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
    * Die Ausnahmen werden von Fall zu Fall überprüft.
    * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die [Adobe-Kundenunterstützung.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (Freitag, 12. Juni 2025)
 
