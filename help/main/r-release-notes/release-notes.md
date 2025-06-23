@@ -6,9 +6,9 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,6 @@ Diese Versionshinweise enthalten Informationen zu Funktionen, Verbesserungen und
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
-* Der aktualisierten [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberfläche wurde die Option [!UICONTROL Rearrange] hinzugefügt, um sie an die im alten VEC verfügbaren Funktionen anzupassen. (TGT-46957)
 * Fehlerkorrektur - Beim Kopieren einer Aktivität von einem Arbeitsbereich in einen anderen Arbeitsbereich treten jetzt keine Fehler mehr auf, z. B. „Darf nicht null sein“ oder „Irgendetwas ist schiefgelaufen“. (TGT-52474)
 * Es wurde ein Problem behoben, bei dem [!UICONTROL Automated Segments]- und [!UICONTROL Important Attributes]-Berichte für bestimmte Aktivitäten nicht generiert wurden. (TGT-52904)
 * Fehlerkorrektur - Die standardmäßige Inhaltsverarbeitung in [!UICONTROL Automated Personalization] (AP)-Aktivitäten im aktualisierten VEC stimmt jetzt mit der veralteten Benutzeroberfläche überein. Das System fügt jetzt automatisch eine `optionGroup` mit dem Namen „Standardinhalt“ mit `optionGroupLocalId = 0` hinzu, wenn keine Gruppe explizit hinzugefügt wird. Diese Gruppe umfasst die Standardoption (z. B. `optionLocalId: 0`). Wenn der Standardinhalt entfernt wird, wird auch die entsprechende Optionsgruppe entfernt. (TGT-52651)
@@ -59,7 +58,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
    * Die Ausnahmen werden von Fall zu Fall überprüft.
    * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die [Adobe-Kundenunterstützung.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (Freitag, 12. Juni 2025)
 
