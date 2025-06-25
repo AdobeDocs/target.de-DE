@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie mit  [!DNL Adobe Target]  Klicks auf beliebig
 title: Was ist Klick-Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 82%
+source-wordcount: '858'
+ht-degree: 75%
 
 ---
 
 # Klick-Tracking
 
-Mit [!DNL Adobe Target] können Sie Klicks auf beliebige Elemente, etwa Erfolgsmetriken, nachverfolgen.
+[!DNL Adobe Target] können Sie Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen. Klick-Tracking bezieht sich auf den Prozess der Überwachung und Aufzeichnung von Benutzerinteraktionen, insbesondere Klicks auf Elemente innerhalb einer Web-Seite oder eines Erlebnisses. Dies ist ein wichtiger Bestandteil zur Messung der Interaktion und Leistung bei A/B-Tests, multivariaten Tests und Personalisierungsaktivitäten.
 
 >[!NOTE]
 >
@@ -30,43 +30,33 @@ Mit [!DNL Adobe Target] können Sie Klicks auf beliebige Elemente, etwa Erfolgsm
 
    Tipps zur Auswahl von Elementen finden Sie unten im Abschnitt *Zu beachten*.
 
-1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Save]** , um Ihre Auswahl zu speichern.
+1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Done]** , um Ihre Auswahl zu speichern.
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
 ## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
-Bei [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Multivariate Test]-(MVT)-Aktivitäten werden im [!UICONTROL Selected Elements] die für das Klick-Tracking ausgewählten Elemente auf der rechten Seite aufgelistet.
+Bei [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Multivariate Test]-(MVT)-Aktivitäten werden im [!UICONTROL Selected Elements] die für das Klick-Tracking ausgewählten Elemente auf der linken Seite aufgelistet.
 
 ![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie den Mauszeiger über ein Element im [!UICONTROL Selected Elements] bewegen. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im [!UICONTROL Tracked Components] klicken. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
-| Informationen | Zeigt den Elementtyp und den vollständigen DOM-Pfad zum Selektor an. |
-| Bearbeiten | Ermöglicht die Bearbeitung des CSS-Selektors. |
-| Löschen | Löscht das Element. |
+| [!UICONTROL Tracked actions] | Zeigt die Elementaktion an. |
+| [!UICONTROL CSS selector] | Ermöglicht die Bearbeitung des CSS-Selektors. |
+| [!DNL Delete] | Löscht das Element. |
 
 ### Element hinzufügen
 
-Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Pluszeichen oben im Bedienfeld klicken.
-
-![Symbol „Element hinzufügen“](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### Popup ausgewählter Elemente
-
-Nachdem Sie mehrere Elemente für das Klick-Tracking ausgewählt haben, können Sie auf den [!UICONTROL Elements Selected] Link im [!UICONTROL Goals & Settings] der Aktivität klicken, um die vollständige Liste der für das Klick-Tracking ausgewählten Elemente anzuzeigen. Die Liste enthält den vollständigen DOM-Pfad eines jeden Elements, damit Sie überprüfen können, ob das ausgewählte Element für das Klick-Tracking verwendet werden soll.
-
-![Link „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das [!UICONTROL Add Component] oben im Bedienfeld klicken.
 
 ## Zu beachten {#considerations}
 
 Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
 * Die DOM-Pfad-Funktion steht beim Einrichten des Klick-Tracking zur Verfügung. Wenn Sie auf ein Element auf der Seite klicken, wird das VEC-Optionsmenü angezeigt. Darüber hinaus wird der entsprechende DOM-Pfad unten auf der Seite angezeigt. Sie können den DOM-Pfad verwenden, um Informationen über das ausgewählte Element (Typ, ID und Klasse) schnell anzuzeigen und den DOM-Pfad nach oben oder unten verschieben, um das gewünschte Element auszuwählen.
-
-  ![DOM-Pfad-Illustration](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
   Wie beim Erstellen von Erlebnissen in Schritt 1 im Arbeitsablauf für die Aktivitätenerstellung können Sie mit der DOM-Pfadauswahl am unteren Seitenrand ein Element auswählen. Wenn Sie ein Element aus dem DOM-Pfad auswählen, wird das entsprechende Element in VEC als „Ausgewählt“ angezeigt. Um die Auswahl eines ausgewählten Elements aufzuheben, können Sie erneut auf das Element in der DOM-Pfadauswahl klicken oder im VEC auf das Feld „Ausgewählt“ klicken.
 
