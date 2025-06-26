@@ -7,18 +7,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
 
 # Verwenden von [!DNL AI Assistant] in [!DNL Adobe Target] für die Inhaltserstellung
 
-Verwenden Sie [!DNL AI Assistant] in [!DNL Adobe Target], um die Effektivität Ihrer Aktivitäten zu verbessern, indem Sie Textausschnitte anpassen, um sie in Erlebnissen zu verwenden, die künstliche Intelligenz (KI) verwenden, die direkt mit Ihrer Zielgruppe spricht, und so die Interaktion, Interaktion und Konversion fördern.
-
-Nutzen Sie die Leistungsfähigkeit von [!DNL AI Assistant] in [!DNL Adobe Target], um Ihren Aktivitätsinhalt zu steigern, der von generativer KI angetrieben wird.
+Fördern Sie Interaktion und Konversionen in [!DNL Adobe Target] mit [!DNL AI Assistant]. Nutzen Sie generative KI, um personalisierten, wirkungsvollen Text zu erstellen, der bei Ihrer Audience Anklang findet und Ihre Aktivitätsinhalte erhöht.
 
 ## Voraussetzungen 
 
@@ -55,10 +53,13 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
      Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Angst, etwas zu verpassen), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] und [!UICONTROL Education & Insights].
 
-   * **Languages**: Wählen Sie die gewünschte Sprache für Ihren Text. [!DNL AI Assistant] ist derzeit nur in englischer Sprache verfügbar.
+   * **Languages**: Wählen Sie die gewünschte Sprache für Ihren Text.
+
+     [!DNL AI Assistant] ist derzeit nur in englischer Sprache verfügbar.
+
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
-     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] und [!UICONTROL Conversational].
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] und [!UICONTROL Conversational].
 
 1. Wählen Sie mit dem Schieberegler die Textlänge ([!UICONTROL Shorter Text] bis [!UICONTROL Larger Text]).
 
@@ -97,4 +98,4 @@ Die folgende Eingabeaufforderung und die folgenden Varianten zeigen die Leistung
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger">https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
