@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c882a5eb6530f3b3fe44484ee580beadeddaae23
+source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 29%
+source-wordcount: '558'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: 25. Juni 2025**
+**Zuletzt aktualisiert: 26. Juni 2025**
 
 >[!NOTE]
 >
@@ -32,9 +32,11 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Der aktualisierten [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberfläche wurde die Option [!UICONTROL Rearrange] hinzugefügt, um sie an die im alten VEC verfügbaren Funktionen anzupassen. (TGT-46957 und TGT-52876)
 * Es wurde ein Problem behoben, bei dem Änderungen an Variantenerlebnissen (z. B. Erlebnis B) in einer [!UICONTROL A/B Test] -Aktivität nicht beibehalten wurden. Nach dem Wechsel zwischen Erlebnissen würden die Änderungen an der Variante verschwinden. Dieses Problem hatte keine Auswirkungen auf das Kontrollerlebnis. (TGT-52664)
 * Es wurde ein Problem behoben, bei dem bestimmte Kunden keine Aktivitäten erstellen oder speichern konnten, während andere dieselben Aktionen ohne Problem ausführen konnten. Das Problem war in allen Konten inkonsistent.(TGT-52842)
+* Es wurde ein Problem behoben, bei dem Benutzende in der aktualisierten VEC keine Änderungen an die [!UICONTROL Page Load event] verschieben konnten, eine Funktion, die in der alten Benutzeroberfläche vorhanden war. (TGT-52617)
+* Ein Problem wurde behoben, das dazu führte, dass einige Aktivitätsänderungen in der aktualisierten VEC nicht korrekt angezeigt wurden. (TGT-52818)
 * Fehlerkorrektur - Beim Abrufen von Berichtsdaten für [!UICONTROL Automated Personalization] (AP)-Aktivitäten tritt jetzt keine Nullzeiger-Ausnahme mehr auf. (TGT-52362)
 * Es wurde ein Problem behoben, das verhinderte, dass Details auf Angebotsebene in der CSV-Datei für [!UICONTROL Automated Personalization] (AP)-Aktivitäten angezeigt wurden. (TGT-52675)
-* Beim Anwenden von Änderungen in der aktualisierten VEC werden Änderungen zunächst korrekt angezeigt, einschließlich der erwarteten [!UICONTROL Experience Fragment]. Wenn jedoch Erlebnisse gewechselt oder zusätzliche Bearbeitungen vorgenommen werden, können einige Änderungen aufgrund von Problemen mit dem Selektor nicht angewendet werden. (TGT-52679)
+* Fehlerkorrektur - Beim Anwenden von Änderungen in der aktualisierten VEC werden Änderungen zunächst korrekt angezeigt, einschließlich der erwarteten [!UICONTROL Experience Fragment]. Wenn jedoch Erlebnisse gewechselt oder zusätzliche Bearbeitungen vorgenommen werden, können einige Änderungen aufgrund von Problemen mit dem Selektor nicht angewendet werden. (TGT-52679)
 * Es wurde ein Problem behoben, bei dem bei Erstellung einer neuen Aktivität durch Klonen einer vorhandenen die Seiten-URLs aus der ursprünglichen Aktivität von den QA-Links in der geklonten Aktivität fälschlicherweise beibehalten wurden. (TGT-52775)
 * Es wurde ein Problem behoben, durch das [!UICONTROL On-device Decisioning] unbeabsichtigt nicht in der aktualisierten VEC verfügbar waren. (TGT-52371)
 * Ein Problem wurde behoben, das die Bearbeitung einer [!DNL Recommendations] verhinderte. Beim Versuch, über die Target-Benutzeroberfläche auf den VEC zuzugreifen, trat auf der Seite [!UICONTROL Overview] ein Fehler auf, der alle Änderungen verhinderte. (TGT-52823)
