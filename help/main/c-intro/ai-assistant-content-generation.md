@@ -58,7 +58,7 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
    * **Languages**: Wählen Sie die gewünschte Sprache für Ihren Text. [!DNL AI Assistant] ist derzeit nur in englischer Sprache verfügbar.
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
-     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] und [!UICONTROL Conversational].
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] und [!UICONTROL Conversational].
 
 1. Wählen Sie mit dem Schieberegler die Textlänge ([!UICONTROL Shorter Text] bis [!UICONTROL Larger Text]).
 
