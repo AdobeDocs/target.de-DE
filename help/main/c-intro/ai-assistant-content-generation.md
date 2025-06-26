@@ -1,22 +1,22 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz;Inhaltserstellung;Inhaltsbeschleuniger;Inhaltserstellung;Inhalt generieren
-description: Erfahren Sie, wie Sie mit Inhalte generieren [!DNL AI Assistant].
-title: Wie verwende ich " [!DNL AI Assistant] ",  [!DNL Target]  Inhalte zu generieren?
+description: Erfahren Sie, wie Sie ansprechende Inhalte generieren mit [!DNL AI Assistant].
+title: Wie verwende ich " [!DNL AI Assistant] ",  [!DNL Target]  ansprechenden Inhalt zu generieren?
 feature: Overview
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
 # Verwenden von [!DNL AI Assistant] in [!DNL Adobe Target] für die Inhaltserstellung
 
-Verwenden Sie [!DNL AI Assistant] in [!DNL Adobe Target], um die Effektivität Ihrer Aktivitäten zu verbessern, indem Sie Textausschnitte anpassen und Bilder mithilfe von künstlicher Intelligenz (KI) auswählen, die direkt mit Ihrer Zielgruppe sprechen, und so die Interaktion und Interaktion fördern.
+Verwenden Sie [!DNL AI Assistant] in [!DNL Adobe Target], um die Effektivität Ihrer Aktivitäten zu verbessern, indem Sie Textausschnitte anpassen, um sie in Erlebnissen zu verwenden, die künstliche Intelligenz (KI) verwenden, die direkt mit Ihrer Zielgruppe spricht, und so die Interaktion, Interaktion und Konversion fördern.
 
 Nutzen Sie die Leistungsfähigkeit von [!DNL AI Assistant] in [!DNL Adobe Target], um Ihren Aktivitätsinhalt zu steigern, der von generativer KI angetrieben wird.
 
@@ -29,7 +29,7 @@ Nutzen Sie die Leistungsfähigkeit von [!DNL AI Assistant] in [!DNL Adobe Target
 
 ## Text generieren
 
-So generieren Sie Text mit [!DNL AI Assistant]:
+So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
 1. Klicken Sie in [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC) auf das Symbol **[!UICONTROL Show Content Assistant]** ( ![Symbol Inhaltsassistent anzeigen](/help/main/assets/icons/MagicWand.svg) ) in der rechten Leiste der VEC-Benutzeroberfläche.
 
@@ -52,8 +52,13 @@ So generieren Sie Text mit [!DNL AI Assistant]:
 1. Klicken Sie auf das Symbol **[!UICONTROL Text Settings]** , um den Ton und die Kommunikationsstrategie Ihres Textes anzugeben.
 
    * **Kommunikationsstrategie**: Wählen Sie den am besten geeigneten Kommunikationsstil für Ihren generierten Text aus.
+
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (Angst, etwas zu verpassen), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] und [!UICONTROL Education & Insights].
+
    * **Languages**: Wählen Sie die gewünschte Sprache für Ihren Text. [!DNL AI Assistant] ist derzeit nur in englischer Sprache verfügbar.
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
+
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] und [!UICONTROL Conversational].
 
 1. Wählen Sie mit dem Schieberegler die Textlänge ([!UICONTROL Shorter Text] bis [!UICONTROL Larger Text]).
 
@@ -67,9 +72,9 @@ So generieren Sie Text mit [!DNL AI Assistant]:
 
    ![KI-Assistent mit generiertem Text](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Bedingt) Klicken Sie auf das Symbol „Rückgängig“ ( ![Rückgängig-Symbol](/help/main/assets/icons/Undo.svg) ), um Änderungen rückgängig zu machen.
+1. (Bedingt) Klicken Sie auf das [!UICONTROL Undo] ( ![Rückgängig-Symbol](/help/main/assets/icons/Undo.svg) ), um Änderungen rückgängig zu machen.
 
-1. (Optional) Geben Sie dem KI-Assistenten Feedback.
+1. (Optional) Geben Sie Feedback an die [!DNL AI Assistant].
 
    * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
    * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
@@ -92,4 +97,4 @@ Die folgende Eingabeaufforderung und die folgenden Varianten zeigen die Leistung
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger">https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
