@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '581'
 ht-degree: 27%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Zuletzt aktualisiert: 26. Juni 2025**
+**Zuletzt aktualisiert: 27. Juni 2025**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, bei dem Änderungen an Variantenerlebnissen (z. B. Erlebnis B) in einer [!UICONTROL A/B Test] -Aktivität nicht beibehalten wurden. Nach dem Wechsel zwischen Erlebnissen würden die Änderungen an der Variante verschwinden. Dieses Problem hatte keine Auswirkungen auf das Kontrollerlebnis. (TGT-52664)
 * Es wurde ein Problem behoben, bei dem bestimmte Kunden keine Aktivitäten erstellen oder speichern konnten, während andere dieselben Aktionen ohne Problem ausführen konnten. Das Problem war in allen Konten inkonsistent.(TGT-52842)
 * Es wurde ein Problem behoben, bei dem Benutzende in der aktualisierten VEC keine Änderungen an die [!UICONTROL Page Load event] verschieben konnten, eine Funktion, die in der alten Benutzeroberfläche vorhanden war. (TGT-52617)
+* Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem [!UICONTROL page load] Ereignisse beim Erstellen von Änderungen in [!DNL Target] nicht sichtbar waren. Aktualisierungen wurden nur auf Ansichten angewendet. (TGT-52604)
 * Ein Problem wurde behoben, das dazu führte, dass einige Aktivitätsänderungen in der aktualisierten VEC nicht korrekt angezeigt wurden. (TGT-52818)
 * Fehlerkorrektur - Beim Abrufen von Berichtsdaten für [!UICONTROL Automated Personalization] (AP)-Aktivitäten tritt jetzt keine Nullzeiger-Ausnahme mehr auf. (TGT-52362)
 * Es wurde ein Problem behoben, das verhinderte, dass Details auf Angebotsebene in der CSV-Datei für [!UICONTROL Automated Personalization] (AP)-Aktivitäten angezeigt wurden. (TGT-52675)
