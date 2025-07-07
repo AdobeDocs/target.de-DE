@@ -6,7 +6,7 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
+source-git-commit: 34693e5c94328b5f1ad1d692d6a986cadb6349c4
 workflow-type: tm+mt
 source-wordcount: '3112'
 ht-degree: 12%
@@ -19,7 +19,9 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## Wichtige zeitkritische Updates, die Sie kennen sollten {#time-sensitive}
+## Zeitkritische Updates, die Sie kennen sollten {#time-sensitive}
+
+[!BADGE Wichtig]{type=Informative}
 
 Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Implementierung bietet [!DNL Adobe] detaillierte Versionshinweise und Dokumentation über [!UICONTROL Experience League]. Im Folgenden finden Sie einige wichtige Highlights, die für Ihre Implementierung relevant sind:
 
