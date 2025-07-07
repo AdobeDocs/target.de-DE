@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie  [!DNL Target]  Produktwissen mit  [!DNL AI A
 title: Wie verwende ich die  [!DNL AI Assistant] - [!DNL Target] , um Produktkenntnisse zu erwerben?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 3e2682acdf8c7be86285c901ddcdae0f43b647f2
+source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 6%
@@ -36,7 +36,7 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
-1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**&#x200B;[!DNL AI Assistant] .
+1. Klicken Sie in [!DNL Target] oben rechts **[!DNL AI Assistant]der Benutzeroberfläche auf das Symbol** .
 
    ![KI-Assistenten-Symbol](/help/main/c-intro/assets/ai-assistant-icon.png)
 
@@ -66,10 +66,10 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 Erfahren Sie mehr über [!DNL Adobe Experience Platform] von [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441033/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validieren von Antworten vom KI-Assistenten
 
-Erfahren Sie, wie Sie die in [!DNL Adobe Experience Platform] bereitgestellten Antworten überprüfen und [!DNL AI Assistant].
+Erfahren Sie, wie Sie die in [!DNL AI Assistant] bereitgestellten Antworten überprüfen und [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441748/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
