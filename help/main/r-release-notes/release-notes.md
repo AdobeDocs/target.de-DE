@@ -6,24 +6,78 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
+source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 14%
+source-wordcount: '3112'
+ht-degree: 12%
 
 ---
 
 # [!DNL Target] Versionshinweise (aktuell)
 
-Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL dobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
+Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## Wichtige zeitkritische Updates, die Sie kennen sollten {#time-sensitive}
+
+Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Implementierung bietet [!DNL Adobe] detaillierte Versionshinweise und Dokumentation über [!UICONTROL Experience League]. Im Folgenden finden Sie einige wichtige Highlights, die für Ihre Implementierung relevant sind:
+
+### Veraltungs-Umschalter für [!DNL Target]-Benutzeroberfläche
+
++++Details anzeigen
+Das [!DNL Target]-Team bietet eine temporäre Funktion, mit der Sie mithilfe einer Umschalter-Schaltfläche zwischen der aktualisierten [!DNL Target]-Benutzeroberfläche und der Legacy-Version wechseln können. Diese Option ist nur während der letzten Phase des Rollouts der Benutzeroberfläche verfügbar.
+
+![Umschalter für Target-Benutzeroberflächenversion](/help/main/r-release-notes/assets/toggle.png)
+
+Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzer wechseln dauerhaft zur aktualisierten Benutzeroberfläche. [!DNL Adobe] empfiehlt, vorauszuplanen, da diese Funktion bald auslaufen wird.
+
+#### Zeitleiste der Einstellung
+
+Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplexen Kundenanpassungen zusammenhängen, hat das [!DNL Target]-Team den Zeitplan für die Einstellung angepasst:
+
+* **17. Juni 2025**: Alle IMS-Organisationen wurden für die aktualisierte [!DNL Target]-Benutzeroberfläche aktiviert, entweder für bestimmte Benutzer oder unternehmensweit, um mit dem Testen des neuen Erlebnisses zu beginnen.
+
+* **30. Juni 2025**: Die [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) wurde zum Standarderlebnis für alle IMS-Organisationen, die den Umschalter für die Benutzeroberflächenversion aktiviert haben.
+
+   * Kunden, die derzeit die veraltete Benutzeroberfläche sehen, sehen jetzt standardmäßig die aktualisierte Benutzeroberfläche bei der Anmeldung.
+   * Der Umschalter für die Benutzeroberflächenversion bleibt bis Ende Juli verfügbar, sodass Benutzer bei Bedarf zurückkehren können.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [ Einschränkungen des Umschaltverhaltens](#limitations).
+
+* **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
+
+   * Ausnahmen werden von Fall zu Fall überprüft.
+   * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
+
+Wenden Sie sich bei Fragen oder [ Probleme, die während dieser Umstellung auftreten könnten, an die ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe-Kundenunterstützung.
+
+#### Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche {#limitations}
+
+Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Verwendung des Umschalters Version beachten sollten:
+
+* **Sichtbarkeit neuer Aktivitäten**: Aktivitäten, die in der aktualisierten Benutzeroberfläche erstellt wurden, werden nicht angezeigt, wenn Sie zur alten Benutzeroberfläche zurückkehren.
+* **Bearbeiten vorhandener Aktivitäten**: Änderungen an vorhandenen Aktivitäten (die ursprünglich in der veralteten Benutzeroberfläche erstellt wurden), während die aktualisierte Benutzeroberfläche verwendet wird, werden auf Ihrer Website veröffentlicht. Diese Aktualisierungen werden jedoch nicht in der alten Benutzeroberfläche angezeigt, wenn Sie zurückwechseln. Nur die letzten Aktualisierungen, die von der alten Benutzeroberfläche vorgenommen wurden, werden dort angezeigt.
+* **Konsistenz der Aktivitätsdetails**: Die neuesten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. In der veralteten Benutzeroberfläche werden jedoch nur die neuesten Änderungen angezeigt, die in dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
+
+#### Weitere Ressourcen zu Informationen über die aktualisierte Benutzeroberfläche
+
+* [[!DNL Target] Häufig gestellte Fragen zur Aktualisierung der Benutzeroberfläche](/help/main/c-intro/updated-ui-faq.md): In dieser häufig gestellten Frage werden häufige Fragen zur neuen [!DNL Target]-Benutzeroberfläche und -[!UICONTROL Visual Experience Composer] (VEC) behandelt, einschließlich Navigationsänderungen, Funktionsspeicherorte und der Einstellung des Umschalters für die temporäre Benutzeroberfläche. Unabhängig davon, ob Sie Marketing-Experte, Entwickler oder Administrator sind, hilft Ihnen diese häufig gestellte Frage dabei, den Übergang reibungslos zu gestalten und die aktualisierte Benutzeroberfläche optimal zu nutzen.
+* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für [!UICONTROL Activities], [!UICONTROL Recommendations] und den [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Offers Library].
+* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
+* [[!UICONTROL Visual Experience Composer] Änderungen](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+* [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
+
++++
 
 ## [!DNL Target Standard/Premium] 25.6.4 (Samstag, 27. Juni 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
-* Der aktualisierten [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberfläche wurde die Option [!UICONTROL Rearrange] hinzugefügt, um sie an die im alten VEC verfügbaren Funktionen anzupassen. (TGT-46957 und TGT-52876)
+* Der aktualisierten [!UICONTROL Rearrange] (VEC)-Benutzeroberfläche wurde die Option [!UICONTROL Visual Experience Composer] hinzugefügt, um sie an die im alten VEC verfügbaren Funktionen anzupassen. (TGT-46957 und TGT-52876)
 * Es wurde ein Problem behoben, bei dem Änderungen an Variantenerlebnissen (z. B. Erlebnis B) in einer [!UICONTROL A/B Test] -Aktivität nicht beibehalten wurden. Nach dem Wechsel zwischen Erlebnissen würden die Änderungen an der Variante verschwinden. Dieses Problem hatte keine Auswirkungen auf das Kontrollerlebnis. (TGT-52664)
 * Es wurde ein Problem behoben, bei dem bestimmte Kunden keine Aktivitäten erstellen oder speichern konnten, während andere dieselben Aktionen ohne Problem ausführen konnten. Das Problem war in allen Konten inkonsistent.(TGT-52842)
 * Es wurde ein Problem behoben, bei dem Benutzende in der aktualisierten VEC keine Änderungen an die [!UICONTROL Page Load event] verschieben konnten, eine Funktion, die in der alten Benutzeroberfläche vorhanden war. (TGT-52617)
@@ -54,31 +108,9 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Fehlerkorrektur - Das Erstellen eines [!DNL Recommendations]-Designs ist jetzt möglich. Durch Klicken auf [!UICONTROL Create] wird die Meldung „Es sollte mindestens eine Entitätsvariable im Skript verwendet werden.“ ausgelöst. (TGT-52395 und TGT-52899)
 * Es wurde ein Problem behoben, bei dem das erneute Speichern eines [!DNL Recommendations] Designs ohne Änderungen blockiert wurde. (TGT-52879)
 * Fehlerkorrektur - Beim Speichern einer [!UICONTROL Recommendations]-Aktivität tritt jetzt kein Backend-Validierungsfehler mehr auf, der den Fehler „400 Bad Request“ verursacht. (TGT-52716)
-* Fehlerkorrektur - Beim Bewegen des Mauszeigers über eine Mbox mit Sonderzeichen in der Dropdown-Liste &quot;[!UICONTROL Location]&quot; in der [!UICONTROL Form-Based Experience Composer] wird der Editor jetzt nicht mehr leer angezeigt und die Meldung „Fehler beim Ausführen von „querySelector“ für „Element“ ausgegeben.“ angezeigt. (TGT-52717)
+* Fehlerkorrektur - Beim Bewegen des Mauszeigers über eine Mbox mit Sonderzeichen in der Dropdown-Liste &quot;[!UICONTROL Form-Based Experience Composer]&quot; in der [!UICONTROL Location] wird der Editor jetzt nicht mehr leer angezeigt und die Meldung „Fehler beim Ausführen von „querySelector“ für „Element“ ausgegeben.“ angezeigt. (TGT-52717)
 * Verbesserte Genauigkeit des Zufuhrstatus mit einem neuen „PARTIALLY_IMPORTED“-Indikator. Zuvor wurden Feeds als „Erfolg“ markiert, selbst wenn nicht alle Zeilen in einer Datei importiert wurden, was irreführend war. (TGT-52892)
 * Fehlerkorrektur - Nach der Migration zu AP V2 `/admin/rest/ui/v1/campaigns` bei bestimmten API-Aufrufen an Client-seitige Fehler zurückgegeben (HTTP 4xx). (TGT-52721)
-
-## Aktualisiert: Umschalten der Version der [!DNL Target]-Benutzeroberfläche (17. Juni 2025) {#revised}
-
-Seit dem 17. Juni 2025 sollten alle IMS-Organisationen für die aktualisierte [!DNL Target]-Benutzeroberfläche aktiviert sein, entweder für bestimmte Benutzer oder unternehmensweit, um mit dem Testen des neuen Erlebnisses zu beginnen.
-
-Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplexen Kundenanpassungen zusammenhängen, hat das [!DNL Target]-Team den Zeitplan für die Einstellung angepasst:
-
-* **30. Juni 2025**: Das [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) wird zum Standarderlebnis für alle IMS-Organisationen, die den Umschalter für die Benutzeroberflächenversion aktiviert haben.
-
-   * Kunden, die derzeit standardmäßig die alte Benutzeroberfläche sehen, sehen die aktualisierte Benutzeroberfläche jetzt nach der Anmeldung.
-   * Der Umschalter für die Benutzeroberflächenversion bleibt bis Ende Juli verfügbar, sodass Benutzer bei Bedarf zurückkehren können.
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zur alten Benutzeroberfläche zurück, wenn ein Blocker-Problem auftritt. Wichtige [[!DNL Target]  zum Umschalten finden Sie unter (Einstellung der UI-Version (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in den Versionshinweisen für frühere Versionen .
-
-* **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
-
-   * Die Ausnahmen werden von Fall zu Fall überprüft.
-   * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
-
-Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md), falls Sie bei dieser Umstellung Probleme erwarten, an die Adobe-Kundenunterstützung.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (Freitag, 12. Juni 2025)
 
