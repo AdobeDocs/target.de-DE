@@ -4,9 +4,9 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Neu im Jahr 2025. Die aktualisierte Benutzeroberfläche von [!DNL Adobe Target] 
 ## Wurde die Zeitleiste für die Einstellung des Umschalters für die Version der Target-Benutzeroberfläche aktualisiert?
 
 +++Details
-Ja. Die neue Zeitleiste und wichtige Informationen finden Sie unter [Aktualisiert: [!DNL Target] Versions-Umschalter (17. Juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Ja. Die neue Timeline und wichtige Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -44,9 +44,7 @@ Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisiert
 +++Details
 Die aktualisierte Benutzeroberfläche steht allen [!DNL Target], [!UICONTROL Standard] und [!UICONTROL Premium] zur Verfügung. Es ist keine aktualisierte Lizenz oder SKU erforderlich.
 
-Der Rollout der neuen [!DNL Target]-Benutzeroberfläche wurde am 27. Mai 2025 abgeschlossen. Ab diesem Zeitpunkt haben alle Kundinnen und Kunden Zugriff auf die neueste Version der Benutzeroberfläche.
-
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die temporäre Benutzeroberfläche finden Sie unter [Target-Benutzeroberfläche - Versionswechsel (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweisen für frühere Versionen*.
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die t
 +++Details
 Das [!DNL Target]-Team befasst sich aktiv mit Problemen im Zusammenhang mit dem Rollout der neuen Benutzeroberfläche. Aktualisierungen und laufende Verbesserungen werden in den Versionshinweisen beschrieben.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die temporäre Benutzeroberfläche finden Sie unter [Target-Benutzeroberfläche - Versionswechsel (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweisen für frühere Versionen*.
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## Können Kundinnen und Kunden den Umschalter für die Benutzeroberflächenversion beantragen, damit sie für ihre Konten verbleiben, wenn sie es vorziehen, bei der alten Benutzeroberfläche zu bleiben?
 
 +++Details
-Der Umschalter für die Benutzeroberflächenversion ist eine temporäre Funktion, mit der Sie mithilfe einer Umschalter-Schaltfläche zwischen der aktualisierten [!DNL Target]-Benutzeroberfläche und der Legacy-Version wechseln können. Diese Option ist nur während der letzten Phase des Rollouts der Benutzeroberfläche verfügbar. Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzenden werden am 22. Juni 2025 dauerhaft zur aktualisierten Benutzeroberfläche wechseln.
+Der Umschalter für die Benutzeroberflächenversion ist eine temporäre Funktion, mit der Sie mithilfe einer Umschalter-Schaltfläche zwischen der aktualisierten [!DNL Target]-Benutzeroberfläche und der Legacy-Version wechseln können. Diese Option ist nur während der letzten Phase des Rollouts der Benutzeroberfläche verfügbar. Sobald der Rollout abgeschlossen ist, wird der Umschalter entfernt und alle Benutzer wechseln dauerhaft zur aktualisierten Benutzeroberfläche.
 
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
->[!NOTE]
->
->Kunden mit Sonderfällen, bei denen der Umschalter nach dem 22. Juni beibehalten werden muss, können sich zwecks Unterstützung an die Adobe-Kundenunterstützung wenden. Weitere Informationen finden [ unter  [!DNL Target] Aktualisiert:UI-Versions-Umschalter (17. Juni 2025)](/help/main/r-release-notes/release-notes.md#revised).
-
-Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
+Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberfläc
 
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
-Weitere Informationen finden Sie unter [Einstellung der Target-Benutzeroberflächenversion (23. Mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) in *Versionshinweise für frühere Versionen*.
+Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
