@@ -2,13 +2,13 @@
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
 description: Erfahren Sie, wie -Feeds Entitäten  [!DNL Adobe Target] [!DNL Recommendations], mithilfe von CSV [!DNL Google Product Search] Dateien, dem -Feed-Format  [!DNL Analytics]  Produktklassifizierungen in importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 38%
+source-wordcount: '2613'
+ht-degree: 35%
 
 ---
 
@@ -121,7 +121,7 @@ Wenn Sie bereits über eine [!DNL Google Product Feed] verfügen, können Sie di
 >
 >Es ist nicht erforderlich, [!DNL Google] Daten zu verwenden. [!DNL Recommendations] verwendet dasselbe Format wie [!DNL Google]. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Sie müssen jedoch die [!DNL Google] vordefinierten Attributnamen beim Einrichten der Datei beibehalten.
 
-Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ ](https://www.google.com/prdhp) werden.
+Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ ](https://www.google.com/prdhp) werden.
 
 >[!NOTE]
 >
@@ -212,11 +212,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
->Bevor Sie Entitätsdaten mithilfe von [!DNL Analytics]-Produktklassifizierungen in [!DNL Recommendations] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
+>Bevor Sie Entitätsdaten mithilfe von [!DNL Recommendations]-Produktklassifizierungen in [!DNL Analytics] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
 >
 > Beachten Sie die folgenden Einschränkungen:
 >
@@ -298,6 +298,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | [!UICONTROL Downloading Feed File] | [!DNL Target] lädt die Feeddatei herunter. |
 | [!UICONTROL Importing Items] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
 | Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der [!UICONTROL Catalog Search]-Benutzeroberfläche angezeigt. In [!UICONTROL Catalog Search] wird ein separater Status aufgelistet, der angibt, wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
+| Partieller Import fehlgeschlagen | Zuvor war der Feed, wenn nicht alle Zeilen hochgeladen wurden, noch als erfolgreich markiert. Dadurch wird der falsche Eindruck erweckt, dass alle Zeilen hochgeladen wurden, da der Feed erfolgreich war.<P>Im Folgenden finden Sie ein Szenario, warum ein unvollständiger Feed-Import auftreten kann:<ul><li>Sie haben eine Feed-Datei für die Produktionsumgebung hochgeladen, z. B. 100 Zeilen.</li><li>Der Feed wurde ausgeführt, 80 dieser Zeilen wurden hochgeladen und 20 Zeilen wurden aufgrund falscher Formatierung, Feldüberschreibungen usw. entfernt.</li><li>Der Feed wurde in der Benutzeroberfläche als erfolgreich markiert, sodass der Eindruck entsteht, dass alle 100 Zeilen hochgeladen wurden.</li><li>Sie erwarten einige dieser 20 Produkte bei der Lieferung einer Aktivität, aber es passiert nicht.</li><li> Sie sind an dieser Stelle verwirrt, weil Sie den Feed hochgeladen haben, der die Produktdetails für die betreffenden Produkte enthält. Sie sehen es nicht im Backend, wenn Sie eine Abfrage über die Entitäts-API durchführen, was Ihnen mitteilt, dass es sich nicht im Backend befindet.</li></ul>Um diese Verwirrung zu beseitigen, wird die Nachricht verbessert, sodass genau erzählt wird, was mit dem Feed passiert ist. Anstatt ihn als erfolgreich zu markieren, wird er jetzt als Teilimport fehlgeschlagen markiert. |
 | [!UICONTROL Failed to Index] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
 | [!UICONTROL Server Not Found] | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
@@ -345,7 +346,7 @@ Dieses Video enthält die folgenden Informationen:
 * Den Zweck von Feeds verstehen
 * Den Wert von Feeds verstehen
 
->[!VIDEO](https://video.tv.adobe.com/v/33908?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Erstellen eines Feeds (6:44) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -354,4 +355,4 @@ Dieses Video enthält die folgenden Informationen:
 * Einen Feed einrichten
 * Welchen Feed-Typ Sie verwenden sollten
 
->[!VIDEO](https://video.tv.adobe.com/v/33907?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
