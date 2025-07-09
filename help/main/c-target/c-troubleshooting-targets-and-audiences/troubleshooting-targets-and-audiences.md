@@ -4,10 +4,10 @@ description: Häufig gestellte Fragen (FAQs) zu Erlebnis-Targeting und Zielgrupp
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
+source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 56%
+source-wordcount: '973'
+ht-degree: 53%
 
 ---
 
@@ -25,7 +25,7 @@ Betrachten Sie die folgende URL:
 
 ### Zielgruppen-URL-Targeting
 
-Um das Audience-URL-Targeting beim Erstellen einer Aktivität anzuwenden, klicken Sie auf der Seite Erlebnisse (Schritt 1 des dreistufigen geleiteten Workflows) auf das Zahnradsymbol, dann auf Seitenbereitstellung und geben Sie dann die gewünschte URL an.
+Um das Audience-URL-Targeting beim Erstellen einer Aktivität anzuwenden, klicken Sie auf der Seite **[!UICONTROL Experiences]** (Schritt 1 des Drei-Schritte-Workflows) auf das Symbol **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ), klicken Sie auf **[!UICONTROL Page Delivery]** und geben Sie dann die gewünschte URL an.
 
 ![Seitenversand-URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -41,7 +41,7 @@ Zielgruppen-URL-Targeting und URL-Targeting werden über hinzugefügt [!UICONTRO
 
 ### URL-Targeting {#url-targeting}
 
-Um das URL-Targeting beim Erstellen einer Zielgruppe anzuwenden, klicken Sie auf [!UICONTROL Add Rule], klicken Sie auf [!UICONTROL Site Pages], wählen Sie eine Option aus der ersten Dropdown-Liste ([!UICONTROL Current Page], [!UICONTROL Previous Page] oder [!UICONTROL Landing Page]) aus, wählen Sie [!UICONTROL URL] aus der zweiten Dropdown-Liste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
+Um das URL-Targeting beim Erstellen einer Zielgruppe anzuwenden, klicken Sie auf **[!UICONTROL Site Pages]** ziehen und in den [!UICONTROL Create Audiences] Bereich ziehen, klicken Sie auf **[!UICONTROL Site Pages]**, wählen Sie eine Option aus der ersten Dropdown-Liste ([!UICONTROL Current Page], [!UICONTROL Previous Page] oder [!UICONTROL Landing Page]) aus, wählen Sie [!UICONTROL URL] aus der zweiten Dropdown-Liste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
 
 ![Seiten der Site > Aktuelle Seite > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -80,11 +80,9 @@ Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie 
 
 Der/die Benutzende ist für das erste Erlebnis/die erste Zielgruppe qualifiziert, das/die auf der [!UICONTROL Target] der Aktivität angezeigt wird.
 
-In der folgenden Darstellung qualifiziert sich ein Benutzer aus Kalifornien mit einem Windows-Gerät sowohl für Erlebnis A (Zielgruppe Windows) als auch für Erlebnis C (Zielgruppe Kalifornien). Dem Benutzer wird in diesem Fall Erlebnis A angezeigt, da es in der Liste auf der Target-Seite vor Erlebnis C aufgeführt wird.
+Angenommen, in Erlebnis/Zielgruppe werden Windows als Erlebnis A, iOS als Erlebnis B und Kalifornien als Erlebnis C aufgeführt. Ein Benutzer aus Kalifornien, der ein Windows-Gerät verwendet, qualifiziert sich sowohl für Experience A (Windows-Zielgruppe) als auch für Experience C (Kalifornische Zielgruppe). Dem Benutzer wird in diesem Fall Erlebnis A angezeigt, da es in der Liste auf der Target-Seite vor Erlebnis C aufgeführt wird.
 
-![Audiences_order-Bild](assets/audiences_order.png)
-
-## Warum unterscheiden sich Namen für dieselbe Zielgruppe in [!DNL Target] , Adobe Audience Manager (AAM) und der Zielgruppenbibliothek in den zentralen Services? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Warum unterscheiden sich Namen für dieselbe Zielgruppe in [!DNL Target] , Adobe Audience Manager (AAM) und die Zielgruppenbibliothek in den zentralen Services? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Zielgruppennamen in [!DNL Target] sind eindeutig; in [!DNL AAM] und [!DNL Audience Library] können Sie jedoch für mehrere Zielgruppen denselben Namen haben (wenn sie sich in verschiedenen Ordnern befinden). Wenn [!DNL Target] auf einen Zielgruppennamen trifft, der einer [!DNL AAM]- oder [!DNL Audience Library]-Zielgruppe entspricht, hängt [!DNL Target] ein &quot;#&lt;Nummer>&quot; an den Namen an.
 
