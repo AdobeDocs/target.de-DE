@@ -4,61 +4,48 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorh
 title: Wie kann ich eine Aktivität bearbeiten oder als Entwurf speichern?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 44%
 
 ---
 
 # Bearbeiten einer Aktivität oder Speichern als Entwurf
 
-Informationen zu den verschiedenen Möglichkeiten, eine vorhandene Aktivität in [!DNL Adobe Target] zu bearbeiten, einschließlich des Speicherns einer Aktivität im Entwurfsformular.
+Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten und Änderungen als Entwürfe speichern können. In diesem Artikel werden die verschiedenen Methoden behandelt, die in der [!DNL Target]-Benutzeroberfläche zum Ändern von Aktivitäten verfügbar sind, unabhängig davon, ob Sie Erlebnisse aktualisieren, Zielgruppenbestimmungsregeln anpassen oder Ziele konfigurieren und dabei sicherstellen, dass Ihre Änderungen vor der Aktivierung sicher gespeichert werden.
 
-Die Benutzeroberfläche von Target bietet an verschiedenen Stellen die Möglichkeit, vorhandene Aktivitäten zu bearbeiten. Der Vorgang variiert je nach gewählter Methode.
+[!DNL Target] bietet verschiedene Stellen in der Benutzeroberfläche, an denen Sie vorhandene Aktivitäten bearbeiten können. Der Vorgang variiert je nach gewählter Methode.
 
 ## Bearbeiten Sie eine Aktivität, indem Sie den Mauszeiger über die Seite Aktivitäten bewegen {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Bewegen Sie auf der Seite **[!UICONTROL Activities]** den Mauszeiger über die Aktivität, die Sie bearbeiten möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Edit]** .
+1. Klicken Sie auf der Seite **[!UICONTROL Activities]** neben der Aktivität, die Sie bearbeiten möchten, auf das Symbol **[!UICONTROL More Actions]** ( ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) und dann auf [!UICONTROL **Bearbeiten**].
 
-   ![Bearbeiten-Symbol ](/help/main/c-activities/assets/hover_edit.png)
-
-   Target öffnet die Aktivität im Visual Experience Composer (VEC), und es wird die [!UICONTROL Experiences] Seite angezeigt (der erste Schritt im Drei-Schritte-Workflow).
+   Target öffnet die Aktivität im [!UICONTROL Visual Experience Composer] (VEC) und Sie sehen die [!UICONTROL Experiences] (den ersten Schritt im Drei-Schritte-Workflow).
 
 1. Bearbeiten Sie die Aktivität nach Bedarf mithilfe der [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Klicken Sie auf die Trennschaltfläche, um zum nächsten Schritt zu gelangen oder um die Aktivität zu speichern.
+1. Klicken Sie auf die **[!UICONTROL Next]**, um mit dem nächsten Schritt fortzufahren, und nehmen Sie dann die erforderlichen Änderungen vor.
 
-   ![Trennschaltfläche](/help/main/c-activities/assets/edit_split_button_2.png)
+1. Wenn Sie zur Seite **Ziele und Einstellungen** gelangen, haben Sie die folgenden Optionen:
 
-   * **Weiter** Um im dreistufigen Workflow eine weitere Seite zu bearbeiten, klicken Sie auf **[!UICONTROL Next]** , um zum gewünschten Schritt fortzufahren. In der obigen Abbildung wird beispielsweise durch Klicken auf [!UICONTROL Next] der [!UICONTROL Targeting] Schritt angezeigt.
-   * **Speichern und schließen:** Nehmen Sie die gewünschten Änderungen am aktuellen Schritt vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save and Close]** aus, um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
-   * **Speichern** Nehmen Sie die gewünschten Änderungen an einem Schritt vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save]** aus, um Ihre Änderungen zu speichern und in diesem Schritt zu bleiben, in dem Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
+   * **[!UICONTROL Save & Close]:** Klicken Sie auf **[!UICONTROL Save and Close]** , um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
+   * **Speichern:** Klicken Sie auf das **[!UICONTROL More Actions]**-Symbol ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Save]** aus, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Bearbeiten Sie eine Aktivität, indem Sie sie öffnen, indem Sie auf der Seite Aktivitäten auf ihren Namen klicken {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Bearbeiten Sie eine Aktivität, indem Sie sie öffnen, indem Sie auf der Seite [!UICONTROL Activities] auf ihren Namen klicken {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Um nicht schrittweise den Workflow zu durchlaufen, klicken Sie auf der Seite Aktivitäten auf die gewünschte Aktivität, um sie zu öffnen. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Edit Activity]** aus.
+1. Um den Workflow nicht schrittweise zu durchlaufen, klicken Sie auf der Seite [!UICONTROL Activities] auf die gewünschte Aktivität, um ihn zu öffnen. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Edit Activity]** aus und wählen Sie die gewünschte Option aus.
 
-   ![Dropdown-Liste „Aktivität bearbeiten“](/help/main/c-activities/assets/edit_activity.png)
+   * **Erlebnisse bearbeiten:** Leitet Sie direkt zur [!UICONTROL Experiences] Seite (der erste Schritt im Drei-Schritte-Workflow).
+   * **Targeting bearbeiten**: Leitet Sie direkt zur [!UICONTROL Targeting]-Seite (der zweite Schritt im Drei-Schritte-Workflow).
+   * **[!UICONTROL Goals & Settings]**: Führt Sie direkt zur Seite [!UICONTROL Goals & Settings] (der dritte Schritt im Drei-Schritte-Workflow).
 
-1. Wählen Sie die gewünschte Option aus::
+1. Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität.
 
-   * **Erlebnisse bearbeiten:** Leitet Sie direkt zur [!UICONTROL Experiences] Seite (der erste Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
+   * **[!UICONTROL Save & Close]:** Klicken Sie auf **[!UICONTROL Save and Close]** , um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
+   * **Speichern:** Klicken Sie auf das **[!UICONTROL More Actions]**-Symbol ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Save]** aus, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-      * Klicken Sie auf **[!UICONTROL Save & Close]** , um Ihre Änderungen zu speichern und die Seite Überblick der Aktivität anzuzeigen.
-      * Klicken Sie auf **[!UICONTROL Save]** , um Ihre Änderungen zu speichern, und bleiben Sie in diesem Schritt, in dem Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
-
-   * **Targeting bearbeiten:** Führt Sie direkt zur Seite [!UICONTROL Targeting] (der zweite Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
-
-      * Klicken Sie auf **[!UICONTROL Save & Close]** , um Ihre Änderungen zu speichern und die Seite Überblick der Aktivität anzuzeigen.
-      * Klicken Sie auf **[!UICONTROL Save]** , um Ihre Änderungen zu speichern, und bleiben Sie in diesem Schritt, in dem Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
-
-   * **Ziele und Einstellungen bearbeiten:** Leitet Sie direkt zur [!UICONTROL Goals & Settings] Seite (der letzte Schritt im geführten Workflow). Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität mithilfe der Trennschaltfläche (siehe Erklärung oben).
-
-      * Klicken Sie auf **[!UICONTROL Save & Close]** , um Ihre Änderungen zu speichern und die Seite Überblick der Aktivität anzuzeigen.
-      * Klicken Sie auf **[!UICONTROL Save]** , um Ihre Änderungen zu speichern, und bleiben Sie in diesem Schritt, in dem Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
-
-## Arbeiten mit alten Aktivitäten, die in Recommendations Classic erstellt wurden {#classic}
+## Arbeiten mit alten Aktivitäten, die in [!DNL Recommendations Classic] erstellt wurden {#classic}
 
 In der [!UICONTROL Activities] werden Aktivitäten angezeigt, die in verschiedenen Quellen, einschließlich [!DNL Recommendations Classic], erstellt wurden. Wenn Sie ältere Aktivitäten verwenden, die in [!DNL Recommendations Classic] erstellt wurden, sind die folgenden Aktionen verfügbar:
 
@@ -72,7 +59,7 @@ Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn
 
 ## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Wenn Sie eine neue, noch nicht gespeicherte Aktivität erstellen oder eine Aktivität bearbeiten, die zuvor in Entwurfsform gespeichert wurde, werden unter der Trennschaltfläche die Optionen für Entwurf speichern angezeigt.
+Wenn Sie eine neue Aktivität erstellen, die noch nicht gespeichert wurde, oder eine Aktivität bearbeiten, die zuvor im Entwurfsformular gespeichert wurde, werden die [!UICONTROL Save Draft] auf der Schaltfläche Aufspaltung angezeigt.
 
 Sie können eine Aktivität im Entwurfsmodus speichern, wenn die Aktivitätseinrichtung gestartet wurde, aber noch nicht bereit für die Ausführung ist.
 
@@ -85,7 +72,7 @@ Sie können eine Aktivität im Entwurfsmodus speichern, wenn die Aktivitätseinr
    * **Entwurf speichern und schließen:** Nehmen Sie im aktuellen Schritt die gewünschten Änderungen vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save Draft and Close]** aus, um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
    * **Entwurf speichern:** Nehmen Sie die gewünschten Änderungen an einem Schritt vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save Draft]** aus, um Ihre Änderungen zu speichern und in diesem Schritt zu bleiben.
 
-## Kopieren/Bearbeiten einer Aktivität beim Verwenden von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Adobe Analytics].
 
@@ -97,7 +84,7 @@ Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell ei
 
 Weitere Informationen zu Arbeitsbereichen und der Funktionalität für Enterprise-Benutzerberechtigungen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, bewegen Sie den Mauszeiger auf der Seite [!UICONTROL Activities] über die Aktivität, die Sie kopieren möchten, klicken Sie auf das Symbol [!UICONTROL Copy] und wählen Sie dann den gewünschten Arbeitsbereich aus der Dropdown-Liste aus.
+Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, klicken Sie auf der Seite [!UICONTROL Activities] auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität, die Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**].
 
 Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsfunktionalität mit Arbeitsbereichen verwenden:
 
