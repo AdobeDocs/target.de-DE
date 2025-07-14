@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 85%
+source-wordcount: '1283'
+ht-degree: 84%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 85%
          + [Festlegen von Metriken](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [Fehlerbehebung bei Multivarianz-Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Recommendations-Aktivität](c-activities/recommendations-activity.md)
-   + [Bearbeiten einer Aktivität oder Speichern als Entwurf](c-activities/edit-activity.md)
+   + [Bearbeiten einer Aktivität](c-activities/edit-activity.md)
    + [Priorität](c-activities/priority.md)
    + [Aktivitätseinstellungen](c-activities/activity-settings.md)
    + Erfolgsmetriken {#success-metrics}

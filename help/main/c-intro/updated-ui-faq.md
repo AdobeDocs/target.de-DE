@@ -4,9 +4,9 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen so
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
 Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Sind die [!UICONTROL Save as Draft]- und [!UICONTROL Syncing] noch verfügbar?
+
++++Details
+
+
+Mit den neuesten Aktualisierungen der Benutzeroberfläche sind die Status [!UICONTROL Save as Draft] und [!UICONTROL Syncing] nicht mehr verfügbar. Weitere Informationen finden Sie unter Status unter [Filter auf die Aktivitätenliste anwenden](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++
 

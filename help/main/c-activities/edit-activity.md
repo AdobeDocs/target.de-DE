@@ -1,19 +1,19 @@
 ---
-keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten;Entwurf
-description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorhandene Aktivität zu bearbeiten, einschließlich des Speicherns einer Aktivität im Entwurfsformular.
-title: Wie kann ich eine Aktivität bearbeiten oder als Entwurf speichern?
+keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten
+description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorhandene Aktivität zu bearbeiten.
+title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 41%
 
 ---
 
-# Bearbeiten einer Aktivität oder Speichern als Entwurf
+# Bearbeiten einer Aktivität
 
-Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten und Änderungen als Entwürfe speichern können. In diesem Artikel werden die verschiedenen Methoden behandelt, die in der [!DNL Target]-Oberfläche zum Ändern von Aktivitäten verfügbar sind. Unabhängig davon, ob Sie Erlebnisse aktualisieren, Targeting-Regeln anpassen oder Ziele konfigurieren - Target stellt sicher, dass Ihre Änderungen vor der Aktivierung sicher gespeichert werden.
+Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten. In diesem Artikel werden die verschiedenen Methoden behandelt, die in der [!DNL Target]-Oberfläche zum Ändern von Aktivitäten verfügbar sind. Unabhängig davon, ob Sie Erlebnisse aktualisieren, Targeting-Regeln anpassen oder Ziele konfigurieren, stellt [!DNL Target] sicher, dass Ihre Änderungen vor der Aktivierung sicher gespeichert werden.
 
 [!DNL Target] bietet verschiedene Stellen in der Benutzeroberfläche, an denen Sie vorhandene Aktivitäten bearbeiten können. Der Vorgang hängt von der gewählten Methode ab.
 
@@ -59,18 +59,7 @@ Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn
 
 ## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Wenn Sie eine neue Aktivität erstellen, die noch nicht gespeichert wurde, oder eine Aktivität bearbeiten, die zuvor im Entwurfsformular gespeichert wurde, werden die [!UICONTROL Save Draft] auf der Schaltfläche Aufspaltung angezeigt.
-
-Sie können eine Aktivität im Entwurfsmodus speichern, wenn die Aktivitätseinrichtung gestartet wurde, aber noch nicht bereit für die Ausführung ist.
-
-1. Erstellen Sie eine neue Aktivität oder bearbeiten Sie eine vorhandene Aktivität im Entwurfsformular.
-1. Wählen Sie über die Trennschaltfläche die gewünschte Option aus:
-
-   ![Entwurf speichern](/help/main/c-activities/assets/save_draft.png)
-
-   * **Weiter** Um im dreistufigen Workflow eine weitere Seite zu bearbeiten, klicken Sie auf **[!UICONTROL Next]** , um zum gewünschten Schritt fortzufahren.
-   * **Entwurf speichern und schließen:** Nehmen Sie im aktuellen Schritt die gewünschten Änderungen vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save Draft and Close]** aus, um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
-   * **Entwurf speichern:** Nehmen Sie die gewünschten Änderungen an einem Schritt vor, klicken Sie auf die Dropdown-Liste auf der Schaltfläche Aufspaltung und wählen Sie dann **[!UICONTROL Save Draft]** aus, um Ihre Änderungen zu speichern und in diesem Schritt zu bleiben.
+Die Funktion „Als Entwurf speichern“ ist nicht mehr verfügbar. Weitere Informationen finden Sie *[!UICONTROL Status]* unter [Anwenden von Filtern auf die Aktivitätenliste](/help/main/c-activities/activities.md#filters).
 
 ## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
