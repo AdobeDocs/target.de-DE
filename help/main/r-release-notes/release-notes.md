@@ -1,14 +1,14 @@
 ---
-keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerbehebungen;Updates,aktuelle Updates
+keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen;aktuelle Updates
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
 short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 13%
 
 ---
@@ -99,14 +99,14 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem das Kopieren einer vorhandenen Aktivität und das Ändern der Berichtsquelle in [!DNL Adobe Analytics] (A4T) zu einem Fehler „Ungültige Benutzereingabe“ führte. Der Fehler wurde ausgelöst, wenn bestimmte Metrikaktionen, die mit [!DNL Analytics] Reporting nicht kompatibel sind, wie `restart_same_experience`, `restart_random_experience` und `restart_new_experience`, von der ursprünglichen Aktivität beibehalten wurden. (TGT-52900)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, eine Aktivität zu erstellen oder zu speichern, wenn sie im [!DNL Adobe Analytics] Schritt [!UICONTROL Goals & Settings] (A4T) als Berichtsquelle auswählten. Das Problem trat speziell bei der Auswahl einer [!UICONTROL Custom Event]-Metrik auf (z. B. „Benutzerspezifisches Ereignis 16„), was zu folgendem Fehler führte: „Ungültige Benutzereingabe“. (TGT-52910)
 * Es wurde ein Problem behoben, bei dem Benutzer durch Klicken auf den Link &quot;[!UICONTROL View in Analytics]&quot; auf die Homepage anstelle des vorgesehenen [!DNL Analytics]-Dashboards umgeleitet wurden. (TGT-53092 und TGT-53093)
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* Ein Problem wurde behoben, dass dazu führte, dass beim Anzeigen einer [!DNL Recommendations] -Aktivität in der aktualisierten [!UICONTROL Overview]-Benutzeroberfläche der [!UICONTROL Goals & Settings]-Abschnitt nicht geladen wurde, wenn [!DNL Adobe Analytics] (A4T) als Berichtsquelle ausgewählt wurde. Die folgende Fehlermeldung wurde angezeigt: „Irgendetwas ist schiefgelaufen. Wir können Ihre Anfrage nicht bearbeiten. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-52999)
 
 +++
 
@@ -132,8 +132,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 **Lokalisierung**
 
 +++Siehe Details
-* Es wurde ein kontextuelles Übersetzungsproblem im koreanischen Gebietsschema (ko-KR) für die Zeichenfolge „Vorschau-Erlebnis“ behoben. (TGT-52928)
-* Es wurden terminologische Inkonsistenzen behoben, die bei der Übersetzung mehrerer Textzeichenfolgen aus dem vereinfachten Chinesisch (zh_CN) festgestellt wurden. (TGT-52954 und TGT-52955)
+* Aktualisierte Lokalisierungszeichenfolgen in der neuen Benutzeroberfläche für Französisch (fr_FR), Deutsch (de_DE), Italienisch (it_IT), Koreanisch (ko_KO) und vereinfachtes Chinesisch (zh_CN).
 
 +++
 
@@ -145,6 +144,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 * Es wurde ein Problem in der [!DNL Recommendations]-Benutzeroberfläche behoben, bei dem jede mit einer einzelnen Regel erstellte Promotion falsch interpretiert und als Promotion-Typ „Liste von Elementen“ angezeigt wurde, unabhängig von der Logik der Regel. (TGT-53063)
 * Fehlerkorrektur - Bei der Verwendung der aktualisierten [!UICONTROL Overview]Benutzeroberfläche fehlt die Schaltfläche &quot;[!UICONTROL Download Recommendations Data]&quot; für [!UICONTROL Experience Targeting] (XT)-Aktivitäten, die [!DNL Recommendations] enthalten. (TGT-52730 und TGT-52756)
 * Zuvor wurde in der Recommendations-Benutzeroberfläche nur die Anzahl der Entitäten angezeigt, die erfolgreich aus einem Feed importiert wurden. Das Backend-Nachrichtenformat umfasst jedoch sowohl die Anzahl der importierten Entitäten als auch die Gesamtzahl der Entitäten im Format `# of entities imported / # of total entities`. Aufgrund dieser Diskrepanz wurde den Benutzenden in der Benutzeroberfläche nur der erste Wert (Anzahl der importierten Daten) angezeigt, was zu Verwirrung führte. Die Benutzeroberfläche zeigt jetzt beide Zahlen an. (TGT-53073)
+* Es wurde ein Problem behoben, bei dem Kundinnen und Kunden beim Konfigurieren einer &quot;[!UICONTROL Promote by attribute]&quot;-Promotion in einer formularbasierten A/B-Aktivität mit Empfehlungen keine Filterregel speichern konnten. Nach dem Speichern und erneuten Öffnen der Aktivität fehlte die Filterregel und die Aktivität konnte nicht erfolgreich gespeichert werden. (TGT-53057)
 
 +++
 
@@ -156,7 +156,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem die Anwendung einer Änderung auf eine Ansicht dazu führte, dass die Ansicht dupliziert wurde und die Aktivität den Fehler „Ungültige Benutzereingabe“ zurückgab. Durch diese Fehlerbehebung wird sichergestellt, dass Ansichtsänderungen korrekt angewendet werden, ohne dass Duplizierungs- oder Validierungsfehler ausgelöst werden. (TGT-52886)
