@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorh
 title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell ei
 
 Weitere Informationen zu Arbeitsbereichen und der Funktionalität für Enterprise-Benutzerberechtigungen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, klicken Sie auf der Seite [!UICONTROL Activities] auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität, die Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**].
+Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, klicken Sie auf der Seite [!UICONTROL Activities] auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität, die Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**] oder **[!UICONTROL Edit]**.
 
 Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsfunktionalität mit Arbeitsbereichen verwenden:
 
