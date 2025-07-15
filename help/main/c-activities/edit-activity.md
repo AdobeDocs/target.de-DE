@@ -1,13 +1,13 @@
 ---
-keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten
+keywords: Aktivitäten;Aktivität;Aktivitätstypen;Aktivität bearbeiten;bearbeiten;kopieren
 description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorhandene Aktivität zu bearbeiten.
 title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -77,7 +77,24 @@ Wenn Sie „Berechtigungen für Unternehmensbenutzer“ in Ihrer Umgebung aktivi
 
 Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsfunktionalität mit Arbeitsbereichen verwenden:
 
-* Wenn Sie eine Aktivität im selben Arbeitsbereich kopieren, wird der erste Schritt des Erstellungsflusses der neu kopierten Aktivität im Bearbeitungsmodus geöffnet.
-* Wenn Sie eine Aktivität in einen anderen Arbeitsbereich kopieren, wird die Aktivität in den anderen Arbeitsbereich kopiert, ohne dass sie im Aktivitätenerstellungsfluss geöffnet wird. Nachdem die Aktivität erfolgreich kopiert wurde, wird eine Meldung angezeigt. Diese gibt an, dass die Aktivität erfolgreich kopiert wurde, und sie enthält einen Link zum Öffnen der neuen Aktivität.
+* Wenn Sie eine Aktivität im selben Arbeitsbereich oder aus dem Standardarbeitsbereich in einen nicht standardmäßigen Arbeitsbereich kopieren, wird der Aktivitätsassistent automatisch geöffnet. In arbeitsbereichsübergreifenden Kopien müssen Sie möglicherweise nur die Eigenschaften der Aktivität aktualisieren.
+* Wenn eine Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen Arbeitsbereich kopiert wird (unabhängig davon, ob es sich um einen standardmäßigen oder nicht standardmäßigen Arbeitsbereich handelt), wird der Aktivitätsassistent geöffnet. Zum Abschließen der Einrichtung sind einige manuelle Eingaben erforderlich:
+   * **[!UICONTROL Properties]**: Die Eigenschaften können je nach Arbeitsbereich unterschiedlich sein. Diese Situation könnte einen Trigger für einen Warnhinweis darstellen:
 
-Wenn in Ihrer Umgebung die Funktionalität „Berechtigungen für Unternehmensbenutzer“ nicht aktiviert ist, werden alle Aktivitäten vor dem Kopieren im Bearbeitungsmodus geöffnet.
+      * In der [!UICONTROL Form-Based Experience Composer] werden Warnhinweise direkt in der Benutzeroberfläche angezeigt, damit sie sofort sichtbar sind.
+
+        ![Warnung zum formularbasierten Arbeitsbereich](/help/main/c-activities/assets/form-based-warning.png)
+
+      * In VEC werden Warnungen angezeigt, wenn Sie auf [!UICONTROL Configure] > [!UICONTROL Properties] klicken.
+
+        ![VEC-Warnung](/help/main/c-activities/assets/vec-warning.png)
+
+        Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Add/Remove] , sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
+
+   * **Zielgruppen und Angebote**: Alle Zielgruppen und Angebote aus dem ursprünglichen Arbeitsbereich müssen ersetzt werden. Alternativ können Sie sie von den [!UICONTROL Audiences]- oder [!UICONTROL Offers]-Seiten kopieren und dann die entsprechenden Elemente aus der entsprechenden Liste innerhalb der Aktivität auswählen.
+
+   * **Erforderliche manuelle**: Alle erforderlichen manuellen Änderungen werden im letzten Schritt zusammengefasst ([!UICONTROL Save & Close]). In einem Popup-Fenster wird eine Liste der Entitäten angezeigt, die aktualisiert werden müssen. Dadurch wird sichergestellt, dass alle erforderlichen Anpassungen vorgenommen werden, bevor die Aktivitätseinrichtung abgeschlossen wird.
+
+     ![Workspace-Validierungswarnung](/help/main/c-activities/assets/work-space-validation.png)
+
+Wenn in Ihrer Umgebung die [!UICONTROL Enterprise User Permissions] nicht aktiviert ist, werden alle Aktivitäten im Bearbeitungsmodus geöffnet, bevor sie kopiert werden.
