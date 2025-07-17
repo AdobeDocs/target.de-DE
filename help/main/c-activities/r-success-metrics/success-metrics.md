@@ -1,45 +1,43 @@
 ---
 keywords: Targeting;Erfolg;Konversionsmetrik;Seitenbewertungsmetrik;Seitenansichtsmetrik;Umsatzmetriken;Zeit vor Ort-Metrik;geschätzter Wert;erweiterte Einstellungen;Erfolgsmetriken;erweiterte Einstellungen;Abhängigkeit;Abhängig;Anzahl inkrementieren und Benutzer in Aktivität halten;Anzahl inkrementieren, Benutzer freigeben und erneuten Eintritt erlauben;Anzahl inkrementieren, Benutzer freigeben und Erneuten Eintritt sperren
-description: Erfahren Sie mehr über Erfolgsmetriken in Adobe [!DNL Target]  mit denen Sie den Erfolg einer Aktivität ermitteln können. Zu den Erfolgsmetriken gehören Konversionen, Umsatz, Seitenansichten, benutzerdefinierte Punktzahl und Zeit vor Ort.
+description: Erfahren Sie mehr über Erfolgsmetriken, mit denen Sie den Erfolg einer Aktivität ermitteln können. Zu den Erfolgsmetriken gehören Konversionen, Umsatz, Seitenansichten, benutzerdefinierte Punktzahl und Zeit vor Ort.
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 40%
+source-wordcount: '1367'
+ht-degree: 22%
 
 ---
 
-# Erfolgsmetriken
+# [!UICONTROL Success metrics]
 
-In [!DNL Adobe Target] werden Erfolgsmetriken als Parameter verwendet, um den Erfolg einer Aktivität zu messen. Erfolgsmetriken umfassen wichtige geschäftliche Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer [!DNL Target] Aktivität ermitteln können.
+Erfolgsmetriken in [!DNL Adobe Target] sind wichtige Indikatoren, mit denen Sie die Leistung Ihrer -Aktivitäten messen können. Diese Metriken erfassen wichtige Geschäftsergebnisse wie Konversionen, Umsatz pro Besucher und Kundeninteraktion, sodass Sie die Auswirkungen bestimmter Erlebnisse oder Angebote bewerten können.
 
-So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzufügen eines Artikel zu einem Warenkorb Ihren Umsatz pro Besucher steigert. Erfolgsmetriken können hilfreich sein, um Probleme mit der Registrierung, der Sortierung oder dem Kauftrichter oder einfach mit der Besucher- und Kundeninteraktion zu ermitteln.
+Sie können beispielsweise verfolgen, ob eine neue Promotion den Umsatz pro Besucher steigert oder zu mehr Artikeln führt, die zum Warenkorb hinzugefügt werden. Erfolgsmetriken helfen auch dabei, Probleme in Benutzerflüssen wie Registrierungs-, Checkout- oder Kaufprozessen zu identifizieren und liefern gleichzeitig Einblicke in das gesamte Besucherverhalten.
 
 ## Überblick
 
-[!DNL Target] sind Erfolgsmetriken mit den optimalen Optionen für Reporting- und Tracking-Zwecke vorkonfiguriert.
+[!DNL Target] sind Erfolgsmetriken mit empfohlenen Einstellungen vorkonfiguriert, um eine genaue Berichterstellung und ein effektives Tracking sicherzustellen.
 
-Standardmäßig sind Konversionsereignisse auf &quot;[!UICONTROL Increment count & keep user in activity]&quot; festgelegt. Konversionen werden nur einmal gezählt, es werden keine wiederholten Konversionen gezählt und der Besucher sieht immer den Aktivitätsinhalt.
+Standardmäßig verwenden Konversionsereignisse die -**[!UICONTROL Increment count & keep user in activity].** Mit dieser Einstellung wird jeder Besucher nur einmal als Konversion gezählt. Es werden keine wiederholten Konversionen gezählt. Diese Besucher sehen während ihrer gesamten Sitzung weiterhin den Aktivitätsinhalt.
 
-Umsatzmetriken, die auf &quot;[!UICONTROL Increment count & keep user in activity]&quot; eingestellt sind, protokollieren Auftragsdetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und werden nicht in den [!UICONTROL Order Details] Bericht aufgenommen.
+Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die erste Bestellung eines Besuchers Bestelldetails. Nachfolgende Bestellungen erhöhen zwar die Konversionsanzahl, tragen aber nicht zu umsatzbasierten Metriken wie [!UICONTROL Revenue per Visitor (RPV)], [!UICONTROL Average Order Value (AOV)] oder [!DNL Total Sales] bei. Diese zusätzlichen Bestellungen sind auch aus dem [!UICONTROL Order Details] ausgeschlossen.
 
 >[!NOTE]
 >
->Bei Aktivitäten, [ „Analytics“ als Berichtsquelle ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Dies *nicht*.
+>Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Diese Einstellungen *nicht*.
 
-Es sind folgende Erfolgsmetriken verfügbar:
+Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting Settings] der [!UICONTROL Activity Settings page] unter dem [!UICONTROL Goals & Settings] Schritt konfiguriert werden:
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
-| Konversion | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Auf eine Schaltfläche geklickt</li><li>Seite angezeigt</li><li>Abgeschlossene Umfrage</li><li>hat einen Kauf getätigt</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal gezählt werden, wenn ein Besucher eine Konversion abschließt. |
-| Umsatz | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können aus folgenden Umsatzmetriken wählen:<ul><li>Umsatz pro Besucher (RPV)</li><li>Durchschnittlicher Bestellwert (AOV)</li><li>Gesamtverkäufe</li><li>Bestellungen</li></ul> |
-| Seitenansichten | Interaktionsbasiert | Jeder eindeutige Besuch wird als Konversion gezählt. |
-| Benutzerspezifisches Ergebnis | Interaktionsbasiert | Aggregierter Wert, der auf dem Wert basiert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Aktivität zum ersten Mal sieht. |
-| Besuchszeit pro Site | Interaktionsbasiert | Besuchszeit (in Sekunden) ab dem Zeitpunkt, an dem der Besucher die erste Anzeige der Aktivität [!DNL Target] die Anforderung zum Laden der endgültigen Seite mit einer Anforderung in der Sitzung sieht. |
+| [!UICONTROL Con]version | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Seite angezeigt</li><li>Mbox angezeigt</li><li>Klicks auf ein Element</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal gezählt werden, wenn ein Besucher eine Konversion abschließt. |
+| [!UICONTROL Revenue] | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können nur eine Umsatzmetrik auswählen:<ul><li>Mbox angezeigt</li></ul>Weitere Informationen zu Änderungen an der aktualisierten [!DNL Target]-Benutzeroberfläche in Bezug auf Erfolgsmetriken zum Umsatz finden Sie [UI-Änderungen in Bezug auf Erfolgsmetriken](#changes) unten. |
+| [!UICONTROL Engagement] | Interaktionsbasiert | Interaktion, die durch den Besuch generiert wurde. Sie können aus den folgenden Interaktionsmetriken auswählen:<UL><li>Seitenansichten: Jeder einzelne Besuch wird als Konversion gezählt.</li><li>[!UICONTROL Custom Scoring]: Aggregierte Punktzahl basierend auf dem Wert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Aktivität zum ersten Mal sieht.</li>[!DNL Time on Site]: Besuchszeit (in Sekunden) ab dem Punkt, an dem der Besucher die erste Anzeige der Aktivität [!DNL Target] die Anforderung zum Laden der endgültigen Seite mit einer Anforderung in der Sitzung sieht.</UL> |
 
-Bei interaktionsbasierten Metriken müssen sich Besucher (im Gegensatz zu konversions- oder umsatzbasierten Metriken) erneut für die Aktivität qualifizieren, um den Zähler für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. Alle Ergebnisse dieser Sitzung sind jedoch innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
+Bei interaktionsbasierten Metriken (im Gegensatz zu konversionsbasierten und umsatzbasierten Metriken) müssen sich Besucher bei jedem Besuch erneut für die Aktivität qualifizieren, um die Anzahl für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. Alle Ergebnisse dieser Sitzung sind jedoch innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
 
 ## Benutzerdefinierte Erfolgsmetriken
 
@@ -49,7 +47,7 @@ Wählen Sie nach Auswahl der Erfolgsmetrik die Aktion, die von einem Besucher un
 
 Wenn diese Option aktiviert ist, liefert das Feld [!UICONTROL Estimated Value of one conversion] (für die [!UICONTROL Page Score] Metriken nicht verfügbar) einen Wert für Ihr Ziel, aber nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] und [!UICONTROL Orders]) nutzt die Schätzung [!UICONTROL Revenue per Visitor]. Der Datentyp ist eine Währung. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
-Die für Ihre Aktivität gewählten Erfolgsmetriken sind in den Berichtseinstellungen verfügbar, wenn Sie einen Bericht für die Aktivität anzeigen.
+Die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen, sind in den Berichtseinstellungen verfügbar, wenn Sie einen Bericht für die Aktivität anzeigen.
 
 Einige Metriken, z. B. [!UICONTROL Custom Scoring] und [!UICONTROL Revenue Per Visitor], erfordern eine benutzerdefinierte Implementierung, die Informationen wie Bestellsummen und Auftrags-IDs weitergibt.
 
@@ -60,6 +58,8 @@ Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. 
 Um auf die [!UICONTROL Advanced Settings] Optionen zuzugreifen, klicken Sie auf das **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und dann auf **[!UICONTROL Advanced Settings]**.
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
+
+Weitere Informationen zu den [!UICONTROL Advanced Settings] Optionen (“[!UICONTROL What will happen after a user encounters this goal]&quot; und &quot;[!UICONTROL How will the count be incremented]„) finden Sie unter [Was passiert, nachdem ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
 
 >[!NOTE]
 >
@@ -78,19 +78,19 @@ Die Abhängigkeitsfunktion wird *nicht* für Folgendes unterstützt:
 * Metriktyp „Angezeigte Seite“.
 * Metriktyp „Elementklick“ für Visual Experience Composer (VEC)-Aktivitäten.
 
-Abhängige Erfolgsmetriken werden in folgenden Fällen nicht umgewandelt:
+Abhängige Erfolgsmetriken werden in den folgenden Fällen nicht konvertiert:
 
 * Im Fall einer gegenseitigen Abhängigkeit, bei der Metrik1 von Metrik2 und Metrik2 von Metrik1 abhängt, kann keine der beiden Metriken umgewandelt werden.
 * [!UICONTROL Automated Personalization]-Aktivitäten geben Benutzer frei und starten die Aktivität neu, wenn die Konversionsmetriken erreicht sind, sodass keine von der Konversionsmetrik abhängigen Metriken konvertiert werden.
 
-### Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft?
+### Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft? {#what-happens}
 
 Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll, wenn ein Benutzer die Sollmetrik erreicht. In der folgenden Tabelle sind die verfügbaren Optionen aufgeführt:
 
 | Ein Benutzer findet diese Sollmetrik vor | Optionen |
 |--- |--- |
 | [!UICONTROL Increment Count & Keep User in Activity] | Angeben, wie die Anzahl erhöht wird:<ul><li>Einmal pro Teilnehmer (Standard)</li><li>Bei jeder Anzeige, einschließlich Seitenaktualisierungen</li><li>Bei jeder Anzeige</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Auswahl des Erlebnisses, das der Besucher bei erneuter Teilnahme an der Aktivität sieht:<ul><li>Gleiches Erlebnis (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
+| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Wählen Sie das Erlebnis aus, das der Besucher sieht, wenn er erneut die Aktivität aufruft:<ul><li>Gleiches Erlebnis (Standard)</li><li>Ein zufällig ausgewähltes Erlebnis</li><li>Ein noch nicht gesehenes Erlebnis</li></ul> |
 | [!UICONTROL Increment Count, Release User, & Bar from Reentry] | Festlegen, was der Benutzer anstelle des Aktivitätsinhalts sieht:<ul><li>Gleiches Erlebnis, ohne Tracking (Standard)</li><li>Den Standardinhalt oder den Inhalt einer anderen Aktivität</li></ul> |
 
 >[!NOTE]
@@ -109,14 +109,16 @@ Wählen Sie das gewünschte Verhalten aus:
 
 * Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ gesetzt ist, können nicht als Erfolgsmetrik mit einer abhängigen Metrik verwendet werden.
 
-Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt [!DNL Target] den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. [!DNL Target] setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, damit sie wieder auf die nächste Impression zählen kann. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, erkennt [!DNL Target] nie, dass der Benutzer die erste Metrik gesehen hat.
+  Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt [!DNL Target] den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. [!DNL Target] setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, damit sie wieder auf die nächste Impression zählen kann. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, erkennt [!DNL Target] nie, dass der Benutzer die erste Metrik gesehen hat.
 
-## Schulungsvideo: Aktivitätsmetriken
+## Änderungen an der Target-Benutzeroberfläche wurden aktualisiert
 
-Dieses Video zeigt, wie Sie die verschiedenen Aktivitätsmetriken verwenden.
+Mit der [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) die am 17. Februar 2015 veröffentlicht wurde, wurden aktualisierte [!DNL Target]- und [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberflächen eingeführt. In diesem Abschnitt werden die wichtigsten Unterschiede zwischen der veralteten und der aktualisierten Benutzeroberfläche beschrieben, insbesondere im Hinblick auf die Konfiguration und Verwaltung von Erfolgsmetriken.
 
-* Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
-* Erstellen einer Metrik mit Klick-Tracking
+### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Revenue] Erfolgsmetriken {#changes}
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+In der aktualisierten [!DNL Target] wurde die Dropdown-Liste [!UICONTROL Default View for Reporting] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Reports] in der Legacy-Benutzeroberfläche gespeichert hat.
+
+Mit der aktualisierten Benutzeroberfläche ist die standardmäßige Berichtsmetrik jetzt immer auf [!UICONTROL Revenue per Visitor (RPV)] festgelegt. Sie können die Ansicht im Abschnitt [!UICONTROL Reports] weiterhin anpassen, um die Metriken anzuzeigen, die für Ihre Analyse am relevantesten sind.
+
+Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des [!UICONTROL Reports] Abschnitts jederzeit zu anderen Metriken wechseln.
