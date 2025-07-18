@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Erfolgsmetriken, mit denen Sie den Erfolg e
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 22%
 
 ---
@@ -33,8 +33,8 @@ Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting Setting
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
-| [!UICONTROL Con]version | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Seite angezeigt</li><li>Mbox angezeigt</li><li>Klicks auf ein Element</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal gezählt werden, wenn ein Besucher eine Konversion abschließt. |
-| [!UICONTROL Revenue] | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können nur eine Umsatzmetrik auswählen:<ul><li>Mbox angezeigt</li></ul>Weitere Informationen zu Änderungen an der aktualisierten [!DNL Target]-Benutzeroberfläche in Bezug auf Erfolgsmetriken zum Umsatz finden Sie [UI-Änderungen in Bezug auf Erfolgsmetriken](#changes) unten. |
+| [!UICONTROL Conversion] | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Seite angezeigt</li><li>Mbox angezeigt</li><li>Klicks auf ein Element</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal gezählt werden, wenn ein Besucher eine Konversion abschließt. |
+| [!UICONTROL Revenue] | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können nur eine Umsatzmetrik auswählen:<ul><li>Mbox angezeigt</li></ul>Weitere Informationen zu den Änderungen an der aktualisierten [!DNL Target]-Benutzeroberfläche in Bezug auf die Erfolgsmetriken Umsatz finden Sie [Aktualisiert [!DNL Target] UI-Änderungen](#changes) unten. |
 | [!UICONTROL Engagement] | Interaktionsbasiert | Interaktion, die durch den Besuch generiert wurde. Sie können aus den folgenden Interaktionsmetriken auswählen:<UL><li>Seitenansichten: Jeder einzelne Besuch wird als Konversion gezählt.</li><li>[!UICONTROL Custom Scoring]: Aggregierte Punktzahl basierend auf dem Wert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Aktivität zum ersten Mal sieht.</li>[!DNL Time on Site]: Besuchszeit (in Sekunden) ab dem Punkt, an dem der Besucher die erste Anzeige der Aktivität [!DNL Target] die Anforderung zum Laden der endgültigen Seite mit einer Anforderung in der Sitzung sieht.</UL> |
 
 Bei interaktionsbasierten Metriken (im Gegensatz zu konversionsbasierten und umsatzbasierten Metriken) müssen sich Besucher bei jedem Besuch erneut für die Aktivität qualifizieren, um die Anzahl für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. Alle Ergebnisse dieser Sitzung sind jedoch innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
@@ -111,11 +111,11 @@ Wählen Sie das gewünschte Verhalten aus:
 
   Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt [!DNL Target] den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. [!DNL Target] setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, damit sie wieder auf die nächste Impression zählen kann. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, erkennt [!DNL Target] nie, dass der Benutzer die erste Metrik gesehen hat.
 
-## Änderungen an der Target-Benutzeroberfläche wurden aktualisiert
+## [!DNL Target] Änderungen an der Benutzeroberfläche aktualisiert {#changes}
 
 Mit der [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) die am 17. Februar 2015 veröffentlicht wurde, wurden aktualisierte [!DNL Target]- und [!UICONTROL Visual Experience Composer] (VEC)-Benutzeroberflächen eingeführt. In diesem Abschnitt werden die wichtigsten Unterschiede zwischen der veralteten und der aktualisierten Benutzeroberfläche beschrieben, insbesondere im Hinblick auf die Konfiguration und Verwaltung von Erfolgsmetriken.
 
-### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Revenue] Erfolgsmetriken {#changes}
+### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Revenue] Erfolgsmetriken
 
 In der aktualisierten [!DNL Target] wurde die Dropdown-Liste [!UICONTROL Default View for Reporting] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Reports] in der Legacy-Benutzeroberfläche gespeichert hat.
 
