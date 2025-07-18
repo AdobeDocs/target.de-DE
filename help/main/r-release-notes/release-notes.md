@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 12%
 
 ---
 
@@ -61,8 +61,8 @@ Wenden Sie sich bei Fragen oder [ Probleme, die während dieser Umstellung auftr
 Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Verwendung des Umschalters Version beachten sollten:
 
 * **Sichtbarkeit neuer Aktivitäten**: Aktivitäten, die in der aktualisierten Benutzeroberfläche erstellt wurden, werden nicht angezeigt, wenn Sie zur alten Benutzeroberfläche zurückkehren.
-* **Bearbeiten vorhandener Aktivitäten**: Änderungen an vorhandenen Aktivitäten (die ursprünglich in der veralteten Benutzeroberfläche erstellt wurden), während die aktualisierte Benutzeroberfläche verwendet wird, werden auf Ihrer Website veröffentlicht. Diese Aktualisierungen werden jedoch nicht in der alten Benutzeroberfläche angezeigt, wenn Sie zurückwechseln. Nur die letzten Aktualisierungen, die von der alten Benutzeroberfläche vorgenommen wurden, werden dort angezeigt.
-* **Konsistenz der Aktivitätsdetails**: Die neuesten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. In der veralteten Benutzeroberfläche werden jedoch nur die neuesten Änderungen angezeigt, die in dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
+* **Bearbeiten vorhandener Aktivitäten**: Änderungen an vorhandenen Aktivitäten (die ursprünglich in der veralteten Benutzeroberfläche erstellt wurden), während die aktualisierte Benutzeroberfläche verwendet wird, werden auf Ihrer Website veröffentlicht. Diese Aktualisierungen sind jedoch nicht in der alten Benutzeroberfläche sichtbar, wenn Sie zurückwechseln. Dort werden nur die letzten Aktualisierungen angezeigt, die von der alten Benutzeroberfläche vorgenommen wurden.
+* **Konsistenz der Aktivitätsdetails**: Die letzten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. Die veraltete Benutzeroberfläche zeigt jedoch nur die neuesten Änderungen an, die innerhalb dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
 
 #### Weitere Ressourcen zu Informationen über die aktualisierte Benutzeroberfläche
 
@@ -72,6 +72,91 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 * [[!UICONTROL Visual Experience Composer] Änderungen](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2 (Samstag, 18. Juli 2025)
+
+Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplexen Kundenanpassungen zusammenhängen, enthält diese Version die folgenden Fehlerbehebungen und Aktualisierungen:
+
+**Aktivitäten**
+
++++Siehe Details
+* Es wurde eine zusätzliche Bestätigungswarnung hinzugefügt, die beim Abbrechen von Aktivitätsbearbeitungen mit nicht gespeicherten Änderungen erscheint: „Möchten Sie diese Aktivität wirklich speichern? Wenn Sie nicht speichern, gehen alle Ihre Änderungen verloren.“ Diese Meldung hilft, einen versehentlichen Datenverlust zu verhindern. (TGT-52865)
+* Alte Funktionalität auf dem [!UICONTROL Priority] Regler in [!UICONTROL Goals & Settings] wiederhergestellt, sodass Kundinnen und Kunden einen numerischen Wert direkt eingeben können, wie in der alten Benutzeroberfläche unterstützt. (TGT-53185 und TGT-53219)
+
++++
+
+**Zielgruppen**
+
++++Siehe Details
+* Ein Problem wurde behoben, das dazu führte, dass Aktivitäten mit benutzerdefinierten Zielgruppen nicht gespeichert oder bearbeitet werden konnten. Kunden erhalten die Fehlermeldung „Wir können Ihre Anfrage nicht abschließen. Bitte kontaktieren Sie [!DNL Adobe Client Care], wenn das Problem weiterhin besteht.“ beim Versuch, Änderungen an bestimmten Aktivitäten zu speichern oder sogar ohne Änderungen zu speichern. (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem Kunden Berichte für bestimmte Aktivitäten auf der Seite [!UICONTROL Goals & Settings] angezeigt haben, wobei der [!UICONTROL View in Analytics]-Link fälschlicherweise auf die QS-Umgebung statt auf die Produktionsumgebung verweist. (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]und[!UICONTROL Offers]**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem das Aufrufen von `triggerView` über benutzerdefinierten Code eine Endlosschleife verursachte. (TGT-52885)
+* Es wurde ein Problem behoben, das zu Diskrepanzen zwischen den für -Aktivitäten definierten `LocalIds` und den in Erlebnisdefinitionen verwendeten `LocalIds` führte. (TGT-52669)
+* Es wurde ein Problem behoben, bei dem Metriknamen auf der Seite &quot;[!UICONTROL Overview]&quot; fehlten und nur „Angebot“ anstelle des richtigen Metriknamens angezeigt wurde. (TGT-53054)
+
++++
+
+**Formularbasierter Experience Composer**
+
++++Siehe Details
+* Fehlerkorrektur - In der [!UICONTROL Form-Based Experience Composer] wird jetzt die Fehlermeldung „Eigenschaften von nicht definierten Inhalten können nicht gelesen werden (&#39;map&#39; wird gelesen)“ angezeigt, die das Speichern von Aktivitäten verhinderte. (TGT-53145)
+
++++
+
+**Recommendations**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem beim Klicken auf ein Produkt aus [!UICONTROL Catalog Search] der Fehler „Produktdetails konnten nicht abgerufen werden“ angezeigt und ein Modal ohne eine Option zum Schließen geöffnet wurde. (TGT-53082)
+* Es wurde ein Problem behoben[ bei dem „Recommendations als ](/help/main/c-recommendations/recommendations-as-an-offer.md)&quot; in [!UICONTROL A/B Test] Aktivitäten beim Ändern von Sammlungen oder Promotions nicht korrekt aktualisiert wurden. (TGT-52884)
+* Es wurde ein Problem in der Produktionsumgebung behoben, bei dem durch Klicken auf eine Entität in der aktualisierten Benutzeroberfläche der Fehler angezeigt wurde: „Produktdetails konnten nicht abgerufen werden. Bitte [!DNL Adobe Client Care] kontaktieren, wenn das Problem weiterhin besteht.“ (TGT-53071)
+
++++
+
+**Berichte**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem das Speichern von Auftragsdetails in einer CSV-Datei zu einer leeren Datei führte. (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Siehe Details
+* Es wurde ein Problem auf der [!UICONTROL Goals & Settings] behoben, bei dem in mehreren Erlebnissen verwendete Selektoren nicht konsistent als ausgewählt markiert wurden. (TGT-53062)
+* Es wurde ein Problem behoben, das die Bearbeitung von Aktivitäten verhinderte und die Fehlermeldung „Eigenschaften von nicht definierten Inhalten können nicht gelesen werden (Lesen von „Zuordnung„)“ auslöste. (TGT-53161)
+
++++
+
+**Arbeitsbereiche**
+
++++Siehe Details
+* Verbesserte Handhabung von Ad-hoc-Angeboten beim Wechsel von Arbeitsbereichen.
+   * Beim Wechsel vom Standardarbeitsbereich zu einem nicht standardmäßigen Arbeitsbereich (oder zwischen nicht standardmäßigen Arbeitsbereichen) werden Ad-hoc-Angebote jetzt korrekt kopiert. Bei der Initialisierung wird der Workspace-Kontext aktualisiert und dem Angebot wird eine neue ID zugewiesen, um Eindeutigkeit sicherzustellen.
+   * Es treten keine Änderungen auf, wenn Sie im selben Arbeitsbereich bleiben. (TGT-53079)
+* Es wurde ein Problem behoben, das Kunden daran hinderte[ Aktivitäten zwischen verschiedenen Arbeitsbereichen zu ](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6). (TGT-52753 und TGT-47094)
+* Fehlerkorrektur - Beim Ändern von Eigenschaften zwischen Arbeitsbereichen tritt jetzt kein Fehler mehr auf.
+   * Wenn Sie zwischen dem Standardarbeitsbereich und einem nicht standardmäßigen Arbeitsbereich wechseln und die aktuelle Eigenschaft im Zielarbeitsbereich vorhanden ist, wird die Eigenschaft beibehalten.
+   * Wenn in der [!UICONTROL Properties] eine Warnung angezeigt wird (die wahrscheinlich darauf hinweist, dass einige Eigenschaften möglicherweise nicht kompatibel sind) und der Kunde auf [!UICONTROL Add] oder [!UICONTROL Remove] klickt und dann auf [!UICONTROL Save] klickt, werden alle Eigenschaften entfernt, die sich nicht im Zielarbeitsbereich befinden. Wenn der Kunde auf [!UICONTROL Cancel] klickt, bleiben alle Eigenschaften erhalten, auch wenn sie nicht im Zielarbeitsbereich vorhanden sind. (TGT-47094)
+   * Wenn Sie im selben Arbeitsbereich bleiben oder von einem nicht standardmäßigen Arbeitsbereich zum Standardarbeitsbereich oder einem anderen Arbeitsbereich wechseln, bleibt alles unverändert. (TGT-53078)
+* Die Validierungslogik der Entität wurde aktualisiert, um den ursprünglichen Arbeitsbereichskontext der Aktivität zu berücksichtigen. Entitäten wie [!UICONTROL Experience Fragments] (XFs) werden jetzt auf Grundlage des Arbeitsbereichs validiert, in dem die Aktivität ursprünglich erstellt wurde. Wenn beispielsweise eine XF im Standardarbeitsbereich vorhanden ist und die Aktivität von Arbeitsbereich X in Arbeitsbereich Y kopiert wird, ist die Validierung weiterhin erfolgreich, solange die XF im ursprünglichen (standardmäßigen) Arbeitsbereich gültig ist. (TGT-53196)
+* Verbesserte Unterstützung für das Kopieren von Ad-hoc-Zielgruppen während der Aktivitätsduplizierung.
+   * Ad-hoc-Zielgruppen, einschließlich Metriken, Berichterstellung, Seiten- und Nur-Aktivität-Typen, werden jetzt in den folgenden Szenarien automatisch kopiert:
+      * Beim Kopieren einer Aktivität aus dem Standardarbeitsbereich in einen nicht standardmäßigen Arbeitsbereich.
+      * Beim Kopieren einer Aktivität innerhalb desselben Arbeitsbereichs. (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem das Kopieren einer vorhandenen Aktivität und das Ändern der Berichtsquelle in [!DNL Adobe Analytics] (A4T) zu einem Fehler „Ungültige Benutzereingabe“ führte. Der Fehler wurde ausgelöst, wenn bestimmte Metrikaktionen, die mit [!DNL Analytics] Reporting nicht kompatibel sind, wie `restart_same_experience`, `restart_random_experience` und `restart_new_experience`, von der ursprünglichen Aktivität beibehalten wurden. (TGT-52900)
@@ -114,10 +199,10 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++Details anzeigen
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* Es wurde ein Problem behoben, bei dem die [!UICONTROL Manage Content]-Funktion den Status eines Speicherorts nicht ordnungsgemäß validierte, nachdem alle Inhaltsoptionen entfernt wurden. Dies kann zu inkonsistentem Verhalten oder Fehlern beim Speichern oder Fortsetzen der Aktivitätskonfiguration führen. (TGT-52801)
-* Es wurde ein Problem behoben, bei dem Benutzende auf den Fehler „Ungültige Eingabe“ stießen, wenn eine neue Seite hinzugefügt und bestimmte Elemente in verschiedenen Erlebnissen gelöscht wurden. Der Fehler wurde durch doppelte `LocalIds` ausgelöst, die während der Elementbearbeitung generiert wurden, insbesondere beim Wechseln zwischen Erlebnissen und beim Ändern freigegebener Seitenstrukturen. (TGT-52720)
+* Es wurde ein Problem behoben, bei dem die [!UICONTROL Manage Content]-Funktion den Status eines Speicherorts nicht ordnungsgemäß validierte, nachdem alle Inhaltsoptionen entfernt wurden. Dieses Problem kann zu inkonsistentem Verhalten oder Fehlern beim Speichern oder Fortsetzen der Aktivitätskonfiguration führen. (TGT-52801)
+* Es wurde ein Problem behoben, bei dem Benutzende auf den Fehler „Ungültige Eingabe“ stießen, wenn eine neue Seite hinzugefügt und bestimmte Elemente in verschiedenen Erlebnissen gelöscht wurden. Der Fehler wird durch doppelte `LocalIds` ausgelöst, die während der Elementbearbeitung generiert werden, insbesondere beim Wechseln zwischen Erlebnissen und beim Ändern freigegebener Seitenstrukturen. (TGT-52720)
 * Es wurde ein Problem behoben, bei dem die Verwendung der [!UICONTROL Generate Adhoc Offer]-Funktion dazu führte, dass undefinierte Positionen im [!UICONTROL Manage Content] angezeigt wurden. (TGT-53076 und TGT-53070)
-* Das Verhalten für den Kunden klargestellt, bei dem Änderungen, die mithilfe eines HTML-Angebots vorgenommen wurden, fehlen könnten, wenn vom [!UICONTROL Targeting] Schritt zurück zum [!UICONTROL Experiences] navigiert wird. Für diesen Kunden generierte die betroffene Website dynamisch mehrere DOM-Selektoren, die sich mit jedem Laden der Seite änderten. Daher kann der ursprünglich für die Änderung verwendete Selektor beim erneuten Öffnen des Editors nicht gefunden werden, was dazu führt, dass die Änderung fehlt oder ungültig ist. Dies funktioniert wie vorgesehen. Um sicherzustellen, dass Änderungen visuell im Editor bestehen bleiben, wird empfohlen, dass Clients stabile, konsistente Selektoren verwenden, die sich nicht über Seitenneuladungen hinweg ändern. (TGT-52874)
+* Das Verhalten für den Kunden klargestellt, bei dem Änderungen, die mithilfe eines HTML-Angebots vorgenommen wurden, fehlen könnten, wenn vom [!UICONTROL Targeting] Schritt zurück zum [!UICONTROL Experiences] navigiert wird. Für diesen Kunden generierte die betroffene Website dynamisch mehrere DOM-Selektoren, die sich mit jedem Laden der Seite änderten. Daher kann der ursprünglich für die Änderung verwendete Selektor beim erneuten Öffnen des Editors nicht gefunden werden, was dazu führt, dass die Änderung fehlt oder ungültig ist. Dieses Szenario funktioniert wie vorgesehen. Um sicherzustellen, dass Änderungen visuell im Editor bestehen bleiben, wird empfohlen, dass Clients stabile, konsistente Selektoren verwenden, die sich nicht über Seitenneuladungen hinweg ändern. (TGT-52874)
 * Es wurde ein Problem behoben, bei dem der Versuch, ein Angebot zu löschen oder zu deaktivieren, das Teil eines ausgeschlossenen Erlebnisses war, den Fehler „Ungültige Benutzereingabe“ auslöste. Dieses Problem trat auf, obwohl das Angebot in den eingeschlossenen Erlebnissen nicht aktiv verwendet wurde. (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem die Anwendung einer Änderung auf eine Ansicht dazu führte, dass die Ansicht dupliziert wurde und die Aktivität den Fehler „Ungültige Benutzereingabe“ zurückgab. Durch diese Fehlerbehebung wird sichergestellt, dass Ansichtsänderungen korrekt angewendet werden, ohne dass Duplizierungs- oder Validierungsfehler ausgelöst werden. (TGT-52886)
@@ -174,7 +259,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 * Es wurde ein Problem behoben, bei dem Änderungen an benutzerdefiniertem Code nicht korrekt gespeichert und unbeabsichtigt in mehreren Erlebnissen innerhalb derselben Aktivität gespiegelt wurden. Darüber hinaus traten beim Öffnen oder Aktualisieren bestimmter Aktivitäten Zugriffsprobleme auf, was zu leeren Bildschirmen führte. Diese Probleme wurden nun behoben, um eine stabile Aktivitätsbearbeitung und eine genaue Isolierung der Erlebnisse sicherzustellen. (TGT-52594)
 * Es wurde ein Problem behoben, bei dem Benutzende in [!UICONTROL Browse Mode] nicht zu einer anderen URL navigieren konnten. Tester und Bearbeiter konnten dadurch alternative Seiten innerhalb derselben Aktivitätssitzung nicht validieren oder in der Vorschau anzeigen. (TGT-53052)
 * Es wurde ein Problem behoben, bei dem mehrere [!UICONTROL Visual Experience Composer] (VEC)-Instanzen gleichzeitig während der Aktivitätserstellung geöffnet wurden. Dieses Problem trat auf, wenn Benutzende den [!UICONTROL Enhanced Experience Composer] (EEC) deaktiviert und den nachgestellten Schrägstrich im [!UICONTROL Page Delivery] Schritt aus der Website-URL entfernt haben. (TGT-52782)
-* Es wurde ein Problem behoben, bei dem die Dropdown-Liste [!UICONTROL Revenue] im [!UICONTROL Goals & Settings] fälschlicherweise auf [!UICONTROL Revenue per Visit] (RPVISIT) eingestellt war, selbst wenn der Benutzer eine andere Metrik ausgewählt hatte.  Beim Reduzieren und erneuten Erweitern des Bedienfelds für die Metrikkonfiguration ist ein Problem aufgetreten, sodass der zuvor ausgewählte Wert zurückgesetzt wurde. (TGT-52811 und TGT-52878)
+* Es wurde ein Problem behoben, bei dem die Dropdown-Liste [!UICONTROL Revenue] im [!UICONTROL Goals & Settings] fälschlicherweise auf [!UICONTROL Revenue per Visit] (RPVISIT) eingestellt war, selbst wenn der Benutzer eine andere Metrik ausgewählt hatte.  Das Problem trat beim Reduzieren und erneuten Erweitern des Bedienfelds für die Metrikkonfiguration auf, wodurch der zuvor ausgewählte Wert zurückgesetzt wurde. (TGT-52811 und TGT-52878)
 * Fehlerkorrektur - Im Workflow zum Erstellen von Aktivitäten treten jetzt keine Probleme mehr im Zusammenhang mit der Angebotsbenennung und der Inhaltsübersetzung in [!UICONTROL Automated Personalization] Aktivitäten (AP) und [!UICONTROL Multivariate Testing] (MVT) auf:
 
   Wichtige angesprochene Probleme:
