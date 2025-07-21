@@ -4,10 +4,10 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -79,11 +79,29 @@ Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen so
 
 +++
 
-## Sind die [!UICONTROL Save as Draft]- und [!UICONTROL Syncing] noch verfügbar?
+## Kann ich die [!UICONTROL Components]- und [!UICONTROL Modifications] einklappen, damit ich das [!UICONTROL Design] vergrößern kann? {#collapse}
 
 +++Details
 
+Ja, Sie können beide Leisten reduzieren, damit Sie die [!UICONTROL Design] Arbeitsfläche erweitern können, um die Bearbeitung zu vereinfachen. So geht’s:
 
+>[!NOTE]
+>
+>Das [!UICONTROL Show Components] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+
+**[!UICONTROL Components] reduzieren**
+
+Um die [!UICONTROL Components] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Components] Leiste geöffnet ist, klicken Sie auf das Symbol ![Komponenten anzeigen](/help/main/assets/icons/Add.svg) .
+
+**[!UICONTROL Modifications] reduzieren**
+
+Um die [!UICONTROL Modifications] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Modifications] Leiste geöffnet ist, klicken Sie auf das Symbol [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ).
+
++++
+
+## Sind die [!UICONTROL Save as Draft]- und [!UICONTROL Syncing] noch verfügbar?
+
++++Details
 Mit den neuesten Aktualisierungen der Benutzeroberfläche sind die Status [!UICONTROL Save as Draft] und [!UICONTROL Syncing] nicht mehr verfügbar. Weitere Informationen finden Sie unter Status unter [Filter auf die Aktivitätenliste anwenden](/help/main/c-activities/activities.md#filters) in *[!UICONTROL Activities overview]*.
 
 +++

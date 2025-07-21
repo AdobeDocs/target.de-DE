@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Änderungen vertraut, die in Visual Experie
 title: Welche Änderungen werden mit dem neuen Visual Experience Composer (VEC) eingeführt?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nac
 
 Um eine neue Komponente hinzuzufügen, ziehen Sie die Komponente aus der [!UICONTROL Components] Leiste, die Sie über ein vorhandenes Seitenelement in die [!UICONTROL Design] einfügen möchten. Wählen Sie dann aus, dass die Komponente vor oder nach dem ausgewählten Element eingefügt werden soll.
 
+>[!NOTE]
+>
+>Wenn in diesem Bereich die [!UICONTROL Modifications] statt der [!UICONTROL Components] Leiste angezeigt wird, klicken Sie auf das **[!UICONTROL Show Components]** ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ). Das [!UICONTROL Show Components] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+>
+>Um die [!UICONTROL Components] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Components] Leiste geöffnet ist, klicken Sie auf das Symbol ![Komponenten anzeigen](/help/main/assets/icons/Add.svg) .
+
 ### [!UICONTROL Modifications]
 
 Um die [!UICONTROL Modifications] Leiste zu öffnen, klicken Sie auf das Symbol [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) in der [!UICONTROL Components] Leiste. Die [!UICONTROL Modifications] Leiste hat die Position von der rechten zur linken Seite der Arbeitsfläche für die Bearbeitung geändert.
 
 ![Leiste „Änderungen](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>Das [!UICONTROL Show Components] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+>
+>Um die [!UICONTROL Modifications] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Modifications] Leiste geöffnet ist, klicken Sie auf das Symbol [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ).
 
 In der [!UICONTROL Modifications] Leiste werden alle Änderungen angezeigt, die an Ihrer Seite in Visual Experience Composer vorgenommen wurden, und Sie können zusätzliche Änderungen vornehmen (z. B. CSS-Auswahl, Mbox und benutzerdefinierter Code).
 

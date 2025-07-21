@@ -4,14 +4,14 @@ description: Erkunden Sie die in der (VEC [!DNL Adobe Target] [!UICONTROL Visual
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC)-Optionen?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '2047'
 ht-degree: 8%
 
 ---
 
-# Visual Experience Composer-Optionen
+# [!UICONTROL Visual Experience Composer]
 
 Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die aktualisierte Benutzeroberfläche und ihre Optionen erläutert.
 
@@ -59,7 +59,7 @@ Die folgenden Optionen sind verfügbar:
 * **[!UICONTROL Site Preferences]**: Konfigurieren Sie Ihre Site-Voreinstellungen, um festzulegen, wie [!DNL Target] CSS-Selektoren generiert. Weitere Informationen finden Sie unter _CSS-Selektoren_ in [Konfigurieren der [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
 * **Zusätzliche Seiten hinzufügen**: Fügen Sie der Aktivität zusätzliche Seiten hinzu, um eine mehrseitige Aktivität zu erstellen, mit der Sie eine Story über mehrere Seiten hinweg erstellen können. Das Design ist für jede Seite spezifisch. Weitere Informationen finden Sie unter [Mehrseitige Aktivität](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
 * **Einzelne Zielgruppe**: Verwenden Sie eine einzelne Zielgruppe für die Aktivität.
-* **Mehrere Zielgruppen**: Weisen Sie der Aktivität mehrere Zielgruppen zu. Klicken Sie auf das Symbol Zielgruppen hinzufügen ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) und wählen Sie dann eine oder mehrere Zielgruppen aus der Liste aus. Sie können [ Dialogfeld [!UICONTROL Add Audiences] auch ](/help/main/c-target/combining-multiple-audiences.md)Zielgruppen kombinieren[ oder ](/help/main/c-target/c-audiences/create-audience.md) neue Zielgruppe erstellen.
+* **Mehrere Zielgruppen**: Weisen Sie der Aktivität mehrere Zielgruppen zu. Klicken Sie auf das Symbol Zielgruppen hinzufügen ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) und wählen Sie dann eine oder mehrere Zielgruppen aus der Liste aus. Sie können [ Dialogfeld ](/help/main/c-target/combining-multiple-audiences.md) auch [Zielgruppen kombinieren](/help/main/c-target/c-audiences/create-audience.md) oder [!UICONTROL Add Audiences] neue Zielgruppe erstellen.
 
 ### [!UICONTROL Design]-/[!UICONTROL Browse]
 
@@ -86,6 +86,8 @@ Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nac
 >[!NOTE]
 >
 >Wenn in diesem Bereich die [!UICONTROL Modifications] statt der [!UICONTROL Components] Leiste angezeigt wird, klicken Sie auf das **[!UICONTROL Show Components]** ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ). Das [!UICONTROL Show Components] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+>
+>Um die [!UICONTROL Components] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Components] Leiste geöffnet ist, klicken Sie auf das Symbol ![Komponenten anzeigen](/help/main/assets/icons/Add.svg) .
 
 So fügen Sie einem Erlebnis eine neue Komponente hinzu:
 
@@ -118,6 +120,8 @@ Um die [!UICONTROL Modifications] Leiste zu öffnen, klicken Sie auf das Symbol 
 >[!NOTE]
 >
 >Das [!UICONTROL Show Components] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+>
+>Um die [!UICONTROL Modifications] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Modifications] Leiste geöffnet ist, klicken Sie auf das Symbol [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ).
 
 In der [!UICONTROL Modifications] Leiste werden alle Änderungen angezeigt, die an Ihrer Seite im [!UICONTROL Visual Experience Composer] (VEC) vorgenommen wurden, und Sie können zusätzliche Änderungen vornehmen (z. B. CSS-Auswahl, Mbox und benutzerdefinierter Code).
 
@@ -125,7 +129,7 @@ Klicken Sie in der Kopfzeile der Leiste auf das **[!UICONTROL More Options]**-Sy
 
 Klicken Sie auf das **[!UICONTROL More Options]**-Symbol ( ![Mehr Aktionen-](/help/main/assets/icons/MoreSmall.svg) ) neben jeder Änderung, um die zugehörigen Informationen anzuzeigen, die Änderung zu löschen oder die Änderung auf weitere Ansichten anzuwenden.
 
-### [!UICONTROL Design] {#design-1}
+### [!UICONTROL Design]
 
 Auf der [!UICONTROL Design] Arbeitsfläche können Sie Viewports auswählen, einschließlich „An Bildschirm anpassen“, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] und [!UICONTROL Mobile Portrait]. Standardmäßig passt die Arbeitsfläche die Seite zusammen mit den im Abschnitt „Administration“ definierten Darstellungsfeldern [ den Bildschirm ](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
@@ -151,7 +155,7 @@ Mit der [!UICONTROL Properties] Leiste können Sie die Eigenschaften ausgewählt
 
 Klicken Sie auf die Symbole oben in der Leiste, um HTML-Code zu bearbeiten oder Elemente zu löschen, zu duplizieren oder auszublenden. Änderungen werden in der [!UICONTROL Modifications] Leiste angezeigt.
 
-Die [!UICONTROL Properties] ist in der rechten Leiste ausblendbar. Klicken Sie auf das [!UICONTROL Show/Hide Properties]-Symbol ![Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ) rechts neben der Leiste, um die [!UICONTROL Properties] Leiste zu reduzieren oder anzuzeigen.
+Die [!UICONTROL Properties] Leiste ist in der rechten Leiste ausblendbar, sodass Sie die Design-Arbeitsfläche ausblenden und die Design-Arbeitsfläche vergrößern können. Klicken Sie auf das [!UICONTROL Show/Hide Properties]-Symbol ![Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ) rechts neben der Leiste, um die [!UICONTROL Properties] Leiste zu reduzieren oder anzuzeigen.
 
 ## Bearbeiten von Elementen mithilfe der [!UICONTROL Design] Arbeitsfläche {#design}
 
@@ -483,7 +487,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -515,7 +519,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -547,7 +551,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -637,7 +641,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -645,9 +649,9 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
