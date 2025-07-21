@@ -4,10 +4,10 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen so
 
 +++
 
-## Kann ich die [!UICONTROL Components]- und [!UICONTROL Modifications] einklappen, damit ich das [!UICONTROL Design] vergrößern kann? {#collapse}
+## Kann ich die [!UICONTROL Components]-, [!UICONTROL Modifications]- und [!UICONTROL Properties] reduzieren, um das [!UICONTROL Design] zu vergrößern? {#collapse}
 
 +++Details
 
-Ja, Sie können beide Leisten reduzieren, damit Sie die [!UICONTROL Design] Arbeitsfläche erweitern können, um die Bearbeitung zu vereinfachen. So geht’s:
+Ja, Sie können diese Leisten reduzieren, damit Sie die [!UICONTROL Design] Arbeitsfläche erweitern können, um die Bearbeitung zu vereinfachen. So geht’s:
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Um die [!UICONTROL Components] Leiste zu reduzieren und die [!UICONTROL Design] 
 **[!UICONTROL Modifications] reduzieren**
 
 Um die [!UICONTROL Modifications] Leiste zu reduzieren und die [!UICONTROL Design] Arbeitsfläche zu vergrößern, während die [!UICONTROL Modifications] Leiste geöffnet ist, klicken Sie auf das Symbol [!UICONTROL Show Modifications] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ).
+
+**[!UICONTROL Properties] reduzieren**
+
+Um die [!UICONTROL Properties] Leiste zu reduzieren und die [!UICONTROL Design] zu vergrößern, klicken Sie auf das [!UICONTROL Show/Hide Properties]-Symbol ( ![Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ) rechts neben der Leiste, um die [!UICONTROL Properties] Leiste zu reduzieren oder anzuzeigen.
 
 +++
 
