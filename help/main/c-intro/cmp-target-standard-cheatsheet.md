@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;FAQ;häufig gestellte Fragen;Kurzdarstellung;kurze Darstellung
-description: In diesem Abschnitt finden Sie eine Liste der häufig gestellten Fragen zur Verwendung der Funktionen in Adobe Target sowie Informationen und Links zu weiteren Informationen.
+description: Hier finden Sie eine Liste häufig gestellter Fragen zur Verwendung der Funktionen in  [!DNL Target] sowie Informationen und Links zu weiteren Informationen.
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 79%
+source-wordcount: '2693'
+ht-degree: 72%
 
 ---
 
 # Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 
-Eine Liste der häufig gestellten Fragen zur Verwendung der Funktionen in [!DNL Adobe Target] sowie Informationen und Links zu weiteren Informationen.
+Erfahren Sie Antworten auf häufig gestellte Fragen zur Verwendung [!DNL Adobe Target] Funktionen. Erfahren Sie, wie Sie Ihre Experimente optimieren, Erlebnisse personalisieren und auf hilfreiche Ressourcen mit direkten Links zugreifen können, um tiefere Einblicke zu erhalten.
 
 ## Allgemeine Informationen {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**Wo finde ich Informationen zur aktualisierten [!DNL Target]-Benutzeroberfläche und zu [!UICONTROL Visual Experience Composer] (VEC)?**
+
++++Siehe Details
+
+Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] und VEC vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
+
+Weitere Informationen finden [ unter  [!DNL Target]  der ](/help/main/c-intro/understand-the-target-ui.md).
+
++++
+
 **Wie kann ich erkennen, wie andere Kunden [!DNL Target] für bessere Ergebnisse genutzt haben?**
 
-Hier finden Sie nur einige unserer [Kundenerfolgsgeschichten](https://www.adobe.com/de/marketing-cloud/target/resources.html#x). Erfahren Sie, wie Kunden wie Sie Target zum Verbessern der Optimierung und Personalisierung verwendet haben, um ihre Geschäftsziele zu erreichen.
++++Details anzeigen
+Erfahren Sie mehr über [ Erfolgsgeschichten von Kunden](https://www.adobe.com/de/marketing-cloud/target/resources.html#x) um zu sehen, wie Unternehmen [!DNL Target] einsetzen, um die Optimierung zu optimieren, Erlebnisse zu personalisieren und messbare Geschäftsergebnisse zu erzielen.
 
-Beachten Sie, dass in einigen dieser Fallstudien Funktionen aus Adobe Target Premium verwendet wurden.
++++
 
 **Wo erhalte ich Informationen über die neuesten [!DNL Target] Funktionen?**
 
-Weitere Informationen zur neuesten Version finden Sie in den [Versionshinweisen](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A). Informationen über alle unsere [bisherigen Versionen](/help/main/r-release-notes/release-notes-for-previous-releases.md) sind ebenfalls online verfügbar.
++++Details anzeigen
+Bleiben Sie mit [!DNL Target] Versionen auf dem Laufenden.
+
+* **Neueste Version**: In den [[!DNL Target] Versionshinweisen (aktuell)](/help/main/r-release-notes/release-notes.md) finden Sie Details zu neuen Funktionen, Verbesserungen und Fehlerbehebungen.
+* **Kommende Versionen**: Besuchen Sie [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md), um eine Vorschau auf das zu erhalten, was als Nächstes kommt.
+* **Frühere Versionen**: Suchen Sie [Versionshinweise für frühere Versionen](/help/main/r-release-notes/release-notes-for-previous-releases.md) nach historischen Aktualisierungen und Änderungen.
+
++++
 
 **Gibt es [!DNL Adobe] Community/Forum, in dem ich Antworten und weitere Informationen zu [!DNL Target] finden kann?**
 
-Testen Sie das [Target-Community-Forum](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42). Hier helfen wir Kunden. Viel wichtiger ist jedoch, dass sich Adobe Target-Experten wie Sie hier gegenseitig unterstützen. Schließlich beruht der Erfolg einer Community und eines Forums auf der aktiven Beteiligung seiner Mitglieder. Werden Sie ein Teil der Community, beteiligen Sie sich und suchen Sie nach Antworten auf Ihre Fragen.
++++Details anzeigen
+Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
+
++++
 
 **Welche Browser werden von [!DNL Target] unterstützt?**
 
-Weitere Details finden Sie in der [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=de){target=_blank}-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Target Standard-/Premium Experience Cloud-Oberflächenunterstützung und die Endbenutzer-Browserunterstützung auf Desktop/Geräten.
++++Details anzeigen
+Bitte lesen Sie unsere [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}-Matrix für weitere Details. Beachten Sie, dass es zwei Aspekte gibt: die Unterstützung der [!DNL Target Standard/Premium]-Oberfläche und die Unterstützung des Endbenutzer-Browsers auf Desktop/Geräten.
+
++++
 
 ## Aktivitäten {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targetin
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erlebnisse {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +276,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
