@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die statistischen Berechnungen, die bei man
 title: Wie kann ich mehr über die in [!UICONTROL A/B Test] Aktivitäten verwendeten statistischen Berechnungen erfahren?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,8 @@ Das Konfidenzintervall der Konversionsrate wird intuitiv definiert als Bereich m
 
 Bei der Durchführung von Experimenten ist die Konversionsrate für ein bestimmtes Erlebnis eine *Schätzung* der „echten“ Konversionsrate. Um die Unsicherheit in dieser Schätzung zu quantifizieren, verwendet [!DNL Target] ein Konfidenzintervall. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass am Ende 95 % der berechneten Konfidenzintervalle die tatsächliche Konversionsrate des Erlebnisses enthalten.
 
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die [!UICONTROL Confidence] des führenden Erlebnisses mindestens 60 % erreicht. Wenn zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem das Erlebnis eine bessere Leistung zeigt als das andere Erlebnis. Wenn mehr als zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
+
 Ein 95 %-Konfidenzintervall der Konversionsrate *µ<sub></sub>* ist definiert als der Wertebereich:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
@@ -73,7 +75,7 @@ Die folgende Abbildung zeigt [!UICONTROL Lift] und [!UICONTROL Confidence Interv
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
-Die Steigerung zwischen einem Erlebnis *<sub>* und dem Kontrollerlebnis *0</sub>* ist das relative „Delta“ der Konversionsraten, definiert als
+Die Steigerung zwischen einem Erlebnis ***und dem Kontrollerlebnis <sub>0</sub>* ist das relative „Delta“ der Konversionsraten, definiert als
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
@@ -115,7 +117,7 @@ Dabei sind *µ<sub>v</sub>* und *µ<sub>v0</sub>* die Mittel für ** bzw. *<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse&#x200B;**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**&#x200B;bzw.<sub></sub>* 000.
+Dabei sind *<sup></sup><sub>2</sub>* v *und <sup></sup><sub><sub>2</sub></sub>* v *0* die Varianzen zweier Erlebnisse *<sub> bzw.</sub>**0<sub> und</sub>* NN *v<sub> und <sub>Nn</sub></sub>* v *0sind Stichproben fürgrößen für**bzw.<sub></sub>* 000.
 
 Für Welchs t-Test wird der Freiheitsgrad wie folgt berechnet:
 
