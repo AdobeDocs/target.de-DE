@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorh
 title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
 1. Klicken Sie auf der Seite **[!UICONTROL Activities]** neben der Aktivität, die Sie bearbeiten möchten, auf das Symbol **[!UICONTROL More Actions]** ( ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) und dann auf [!UICONTROL **Bearbeiten**].
 
-   Target öffnet die Aktivität im [!UICONTROL Visual Experience Composer] (VEC) und Sie sehen die [!UICONTROL Experiences] (den ersten Schritt im Drei-Schritte-Workflow).
+   [!DNL Target] öffnet die Aktivität im [!UICONTROL Visual Experience Composer] (VEC) und Sie sehen die [!UICONTROL Experiences] Seite (den ersten Schritt im Drei-Schritte-Workflow).
 
 1. Bearbeiten Sie die Aktivität nach Bedarf mithilfe der [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,22 +44,6 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
    * **[!UICONTROL Save & Close]:** Klicken Sie auf **[!UICONTROL Save and Close]** , um Ihre Änderungen zu speichern und die [!UICONTROL Overview] der Aktivität anzuzeigen.
    * **Speichern:** Klicken Sie auf das **[!UICONTROL More Actions]**-Symbol ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Save]** aus, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
-
-## Arbeiten mit alten Aktivitäten, die in [!DNL Recommendations Classic] erstellt wurden {#classic}
-
-In der [!UICONTROL Activities] werden Aktivitäten angezeigt, die in verschiedenen Quellen, einschließlich [!DNL Recommendations Classic], erstellt wurden. Wenn Sie ältere Aktivitäten verwenden, die in [!DNL Recommendations Classic] erstellt wurden, sind die folgenden Aktionen verfügbar:
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, erstellen Sie eine Kopie der Aktivität mit [!DNL Target Premium] und speichern Sie dann die neu erstellte Aktivität. Diese neue Aktivität kann dann nach Bedarf bearbeitet werden.
-
-## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-Die Funktion „Als Entwurf speichern“ ist nicht mehr verfügbar. Weitere Informationen finden Sie *[!UICONTROL Status]* unter [Anwenden von Filtern auf die Aktivitätenliste](/help/main/c-activities/activities.md#filters).
 
 ## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 
         Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Add/Remove] , sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
 
-   * **Zielgruppen und Angebote**: Alle Zielgruppen und Angebote aus dem ursprünglichen Arbeitsbereich müssen ersetzt werden. Alternativ können Sie sie von den [!UICONTROL Audiences]- oder [!UICONTROL Offers]-Seiten kopieren und dann die entsprechenden Elemente aus der entsprechenden Liste innerhalb der Aktivität auswählen.
+   * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen Audiences und Angebote aus dem ursprünglichen Arbeitsbereich im folgenden Format dupliziert: `Entity Name Copy <Date>`.
 
-   * **Erforderliche manuelle**: Alle erforderlichen manuellen Änderungen werden im letzten Schritt zusammengefasst ([!UICONTROL Save & Close]). In einem Popup-Fenster wird eine Liste der Entitäten angezeigt, die aktualisiert werden müssen. Dadurch wird sichergestellt, dass alle erforderlichen Anpassungen vorgenommen werden, bevor die Aktivitätseinrichtung abgeschlossen wird.
+     Verhaltensdetails:
 
-     ![Workspace-Validierungswarnung](/help/main/c-activities/assets/work-space-validation.png)
+      * Kopierte Zielgruppen und Angebote werden erst dann in den [!UICONTROL Audiences]- und [!UICONTROL Offers] angezeigt, wenn die Aktivität gespeichert und erneut geöffnet wurde.
+      * Diese Entitäten können nicht sofort nach dem Kopieren bearbeitet werden. Kunden sehen möglicherweise während der ersten Bearbeitungssitzung leere Inhalte in Visual Experience Composer für diese Elemente.
+      * Kunden können kopierte Zielgruppen oder Angebote bei Bedarf aus dem Zielarbeitsbereich durch andere ersetzen.
 
-Wenn in Ihrer Umgebung die [!UICONTROL Enterprise User Permissions] nicht aktiviert ist, werden alle Aktivitäten im Bearbeitungsmodus geöffnet, bevor sie kopiert werden.
+     Dieser Prozess sorgt für eine reibungslosere Duplizierung von Arbeitsbereich-übergreifenden Aktivitäten und bietet gleichzeitig Flexibilität bei der Anpassung.
+
+     Beim Kopieren einer Aktivität müssen kombinierte Zielgruppen, Nicht-Zielgruppen und Angebote, die weder im aktuellen Arbeitsbereich noch im Standardarbeitsbereich gespeichert sind, manuell ersetzt werden.
+
+     Durch das manuelle Ersetzen dieser kombinierten Zielgruppen, Nicht-Zielgruppen und Angebote wird sichergestellt, dass in der kopierten Aktivität nur gültige, barrierefreie Entitäten verwendet werden. Außerdem werden Fehler bei der Bearbeitung oder beim Versand verhindert.
+
+     ![Warnmeldung](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>Wenn in Ihrer Umgebung die [!UICONTROL Enterprise User Permissions] nicht aktiviert ist, werden alle Aktivitäten im Bearbeitungsmodus geöffnet, bevor sie kopiert werden.
+
+## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+Die [!UICONTROL Save as Draft] Funktion ist nicht mehr verfügbar. Weitere Informationen finden Sie *[!UICONTROL Status]* unter [Anwenden von Filtern auf die Aktivitätenliste](/help/main/c-activities/activities.md#filters).
+
+## Arbeiten mit alten Aktivitäten, die in [!DNL Recommendations Classic] erstellt wurden {#classic}
+
+In der [!UICONTROL Activities] werden Aktivitäten angezeigt, die in verschiedenen Quellen, einschließlich [!DNL Recommendations Classic], erstellt wurden. Wenn Sie ältere Aktivitäten verwenden, die in [!DNL Recommendations Classic] erstellt wurden, sind die folgenden Aktionen verfügbar:
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, erstellen Sie eine Kopie der Aktivität mit [!DNL Target Premium] und speichern Sie dann die neu erstellte Aktivität. Diese neue Aktivität kann dann nach Bedarf bearbeitet werden.
