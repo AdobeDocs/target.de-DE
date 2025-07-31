@@ -4,10 +4,10 @@ description: Hier finden Sie eine Liste häufig gestellter Fragen zur Verwendung
 title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
+source-git-commit: 2e993336859f096f5685e2929041f83db216d3b8
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 72%
+source-wordcount: '2678'
+ht-degree: 57%
 
 ---
 
@@ -48,14 +48,14 @@ Bleiben Sie mit [!DNL Target] Versionen auf dem Laufenden.
 **Gibt es [!DNL Adobe] Community/Forum, in dem ich Antworten und weitere Informationen zu [!DNL Target] finden kann?**
 
 +++Details anzeigen
-Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
+Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
 
 +++
 
 **Welche Browser werden von [!DNL Target] unterstützt?**
 
 +++Details anzeigen
-Bitte lesen Sie unsere [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=de){target=_blank}-Matrix für weitere Details. Beachten Sie, dass es zwei Aspekte gibt: die Unterstützung der [!DNL Target Standard/Premium]-Oberfläche und die Unterstützung des Endbenutzer-Browsers auf Desktop/Geräten.
+Bitte lesen Sie unsere [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}-Matrix für weitere Details. Beachten Sie, dass es zwei Aspekte gibt: die Unterstützung der [!DNL Target Standard/Premium]-Oberfläche und die Unterstützung des Endbenutzer-Browsers auf Desktop/Geräten.
 
 +++
 
@@ -63,92 +63,132 @@ Bitte lesen Sie unsere [Unterstützte Browser](https://experienceleague.adobe.co
 
 **Kann ich eine statistisch exakte Aktivität durchführen, um nach einem Gewinner- und Verlierererlebnis zu suchen, während ich ein Kontrollerlebnis verwende?**
 
-Für die besten Ergebnisse verwenden Sie [die A/B-Tests](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (Option „Manuelles Targeting“) zusammen mit [dem Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5).
++++Details anzeigen
+Verwenden Sie [A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)Tests (manuelles Targeting) zusammen mit dem [Rechner für den Stichprobenumfang](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5), um optimale Ergebnisse zu erzielen.
+
++++
 
 **Woran erkenne ich, wann ich meine Aktivität stoppen muss?**
 
-Das verfrühte Stoppen von Aktivitäten kann zu falschen Schlüssen führen. Beachten Sie [allgemeine Fallen und vermeiden Sie sie mittels eingehaltener Verfahren](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Siehe [Wie lange sollten A/B-Tests laufen](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
++++Details anzeigen
+Ein vorzeitiges Beenden von Aktivitäten kann zu falschen Schlussfolgerungen führen. Achten Sie auf [häufigen Fehler und wie Sie diese vermeiden](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Siehe [Wie lange sollten A/B-Tests laufen](/help/main/c-activities/t-test-ab/sample-size-determination.md)?
 
-**Wie kann ich eine Aktivität durchführen, wenn das Zeitfenster klein ist?**
++++
 
-**Kann ich mein Ziel optimieren, während ich einen Test vornehme?**
+**Wie kann ich eine Aktivität durchführen, wenn das Zeitfenster klein ist, und während des Tests für mein Ziel optimieren?**
 
-Verwenden Sie unsere [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
++++Details anzeigen
+Siehe [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+
++++
 
 **Kann ich eine Aktivität mit einer Personalisierungsebene als einen integralen Bestandteil der Aktivität durchführen?**
 
-Probieren Sie die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aus.
++++Details anzeigen
+Probieren Sie den Aktivitätstyp [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aus.
+
++++
 
 **Woran erkenne ich, welcher Aktivitätstyp sich am besten für meine Anforderungen eignet?**
 
-Lesen Sie das [Target Activities-Handbuch](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1), um die Szenarien zu verstehen, in der die einzelnen von Adobe Target bereitgestellten Optionen jeweils sinnvoll sind.
++++Details anzeigen
+Lesen Sie [Target-Aktivitätshandbuch](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) um die Szenarien zu verstehen, in denen jede der von [!DNL Target] bereitgestellten Optionen sinnvoll ist.
 
 Denken Sie auch an die [Recommendations-Aktivitäten](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
++++
+
 **Wie kann ich erkennen, welche Elementkombinationen auf meiner Seite zu ihrem Erfolg beitragen und zu welchem Grad die einzelnen Elemente hilfreich sind?**
 
-Sehen Sie sich die [vollständigen Multivarianz-Aktivitäten (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) mit der Elementbeitragsanalyse an, um zu sehen, ob sie Ihren Anforderungen entspricht.
++++Details anzeigen
+Schauen Sie sich unsere [Full Factorial Multivariate (MVT) Aktivitäten](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) mit Elementbeitragsanalyse an, um zu sehen, ob sie Ihren Bedürfnissen entspricht.
 
 Beachten Sie, dass sich die Traffic-Anforderung infolge von MVT-Aktivitäten erhöht.
 
-**Kann ich eine Aktivität ausführen, die sich auf mehrere Seiten erstreckt, auf denen sich die Seitenstruktur unterscheidet?**
++++
 
-**Kann ich Angebote an unterschiedlichen Positionen (beispielsweise der Checkout-Trichter) anwenden?**
+**Kann ich eine Aktivität über mehrere Seiten ausführen, bei denen die Seitenstruktur unterschiedlich ist? Kann ich Angebote an verschiedenen Stellen anwenden (z. B. im Checkout-Trichter)**
 
-Probieren Sie die [Funktion „Mehrseitige Aktivität“](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) aus, mit der Sie mehrere Seiten in den Erlebnissen verwenden können.
++++Details anzeigen
+Probieren Sie die Funktion [Mehrseitige Aktivität“ aus](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) mit der Sie mehrere Seiten in Erlebnissen verwenden können.
+
++++
 
 **Wie kann ich sicherstellen, dass einem Benutzer, nachdem ein (primäres oder sekundäres) Ziel erreicht wurde, die Aktivität niemals erneut angezeigt wird und er stattdessen künftig eine andere Aktivität sieht?**
 
-Mithilfe der für jedes Ziel verfügbaren Option [Erweiterte Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) lässt sich dies leicht bewerkstelligen. Sie haben mehrere Entscheidungsmöglichkeiten dahingehend, was mit dem Benutzer passieren soll, nachdem er das Ziel erreicht hat, und wie Sie die Anzahl erhöhen möchten.
++++Details anzeigen
+Dies erreichen Sie ganz einfach, indem Sie die Option [Erweiterte Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) verwenden, die mit jedem Ziel verfügbar ist. Sie haben mehrere Entscheidungsmöglichkeiten dahingehend, was mit dem Benutzer passieren soll, nachdem er das Ziel erreicht hat, und wie Sie die Anzahl erhöhen möchten.
 
 In diesem Fall wählen Sie möglicherweise „Anzahl erhöhen, Benutzer freigeben und an Wiedereintritt hindern“ zusammen mit „Standard-/Sonstiger Aktivitätsinhalt“ aus, um das Ziel zu erreichen. Überprüfen Sie auch die anderen Optionen.
 
-**Ich habe mehrere Ziele in meiner Aktivität erstellt. Kann ich eine Kette an Zielen als einen Trichter für Berichterstellungs- und Analysezwecke erstellen?**
++++
 
-**Ich möchte beispielsweise Ziel B berücksichtigen, wenn der Benutzer Ziel A erreicht hat, damit ich die Zahlen für einen bestimmten Trichter nachverfolgen kann.**
+**Ich habe mehrere Ziele in meiner Aktivität erstellt. Kann ich eine Kette von Zielen als Trichter für Reporting- und Analysezwecke erstellen? Beispielsweise möchte ich Ziel B berücksichtigen, wenn der Benutzer Ziel A erreicht hat, damit ich die Zahlen für einen bestimmten Trichter verfolgen kann.**
 
-Mit der Funktion für die Metrikabhängigkeit verfügt Target über eine zuverlässige Möglichkeit, um dies zu erreichen. [Fügen Sie einfach Abhängigkeiten und andere Erfolgsmetriken hinzu](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Ihnen stehen Optionen wie „Erreicht“ und „Nicht erreicht“ zusammen mit der Fähigkeit zur Verfügung, Metriken auf mehrere Weisen zu kombinieren, um die gewünschte Kombination zu erstellen.
++++Details anzeigen
+[!DNL Target] hat eine robuste Möglichkeit, dies mit unserer [!UICONTROL Metrics Dependency] Funktion zu erreichen. [Fügen Sie einfach Abhängigkeiten und andere Erfolgsmetriken hinzu](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Ihnen stehen Optionen wie „Erreicht“ und „Nicht erreicht“ zusammen mit der Fähigkeit zur Verfügung, Metriken auf mehrere Weisen zu kombinieren, um die gewünschte Kombination zu erstellen.
+
++++
 
 **Wie muss ich eine Aktivität einrichten, um meine Ziele zu erreichen?**
 
-Hier kommen [Ziele](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) an.
++++Details anzeigen
+Hier kommen [Ziele](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) ins Spiel.
 
-Sie sollten zunächst wissen, was Sie optimieren. Handelt es sich um den Umsatz, die Konversion oder die Interaktion? Diese Optionen stehen im Abschnitt mit den Zielen zur Verfügung. Für diese können Sie weitergehend definieren, welche Aktion ein Benutzer für die Qualifizierung auf Ihrer Site vornehmen würde, dass das Ziel erreicht wurde.
+Sie sollten zunächst wissen, was Sie optimieren. Ist es [!UICONTROL Revenue], [!UICONTROL Conversion] oder [!UICONTROL Engagement]? Diese Optionen stehen im Abschnitt mit den Zielen zur Verfügung. Für diese können Sie weitergehend definieren, welche Aktion ein Benutzer für die Qualifizierung auf Ihrer Site vornehmen würde, dass das Ziel erreicht wurde.
 
-Dies wird durch die Einstellung „Primärziel“ in Schritt 3 des aus drei Teilen bestehenden geführten Workflows ermöglicht. Sie können auch zusätzliche Ziele hinzufügen, die Sie bei einer besseren Berichterstellung unterstützen.
+Möglich wird dies durch die [!UICONTROL Primary Goal] in Schritt 3 des dreiteiligen geleiteten Workflows. Sie können auch zusätzliche Ziele hinzufügen, was Ihnen für eine bessere Berichterstellung helfen kann.
+
++++
 
 **Kann ich planen, dass eine Aktivität zu einem festen Zeitpunkt gestartet und beendet wird?**
 
-Im Schritt [Planungsfunktion in den Zielen und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) des aus drei Teilen bestehenden Aktivitäts-Workflows können Sie die Start- und Enddatumswerte angeben.
++++Details anzeigen
+Verwenden Sie die [Planungsfunktion“ im [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) Schritt des dreiteiligen Aktivitäts-Workflows, indem Sie das Start- und Enddatum angeben.
 
-Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, geht die Aktivität in den Zustand „Beendet“ über.
+Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, wechselt die Aktivität in den Status [!UICONTROL Ended] .
+
++++
 
 **Kann ich nur am [!UICONTROL Targeting]-Schritt etwas ändern und nicht den gesamten dreistufigen Workflow zur Bearbeitung durchlaufen?**
 
-Geben Sie den gewünschten Schritt dazu einfach [direkt auf der Seite „Aktivitätsübersicht“ ein](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) und beenden Sie diesen Schritt dann mit der Option „Speichern und schließen“.
++++Details anzeigen
+Sie können dies einfach tun, indem [Sie den gewünschten Schritt Ihrer Wahl direkt auf der Seite [!UICONTROL Activity Overview] eingeben](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) und diesen Schritt dann mithilfe der Option [!UICONTROL Save and Close] verlassen.
+
++++
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
-Das ist auch möglich. Verwenden [ einfach die Option Speichern , um die inkrementellen Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
++++Details anzeigen
+Das ist möglich. Verwenden [ einfach die Option [!UICONTROL Save] , um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+
++++
 
 **Wie kann ich eine Vorschau einer von mir eben erstellten Aktivität anzeigen und eine Qualitätssicherung diesbezüglich vornehmen?**
 
-Verwenden Sie unseren [leistungsstarken QS-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md), um eine Qualitätssicherung durchzuführen. Sie können Links für Ihr Qualitätssicherungsteam freigeben und die Aktivität auch durchgängig testen, einschließlich der Berichterstellung, um vollständig sicherzugehen, dass die Aktivität wie gewünscht und entsprechend dem Test funktioniert, sobald sie aktiv ist.
++++Details anzeigen
+Verwenden Sie unsere [leistungsstarke QA-Modus-Funktion](/help/main/c-activities/c-activity-qa/activity-qa.md) um die Qualitätssicherung durchzuführen. Sie können Links für Ihr Qualitätssicherungsteam freigeben und die Aktivität auch durchgängig testen, einschließlich der Berichterstellung, um vollständig sicherzugehen, dass die Aktivität wie gewünscht und entsprechend dem Test funktioniert, sobald sie aktiv ist.
+
++++
 
 **Wie kann ich die Entscheidungskraft von [!DNL Target] nutzen, um ein Erlebnis/Angebot zu erhalten, das in Single Page Applications (SPAs) oder Server-seitigen Integrationen verwendet werden kann?**
 
-Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) mit [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D), um Ihr Ziel zu erreichen.
++++Details anzeigen
+Nutzen Sie die Leistungsfähigkeit [formularbasierten Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) mit [JSON-](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D), um Ihr Ziel zu erreichen.
 
-**Ich habe zwei Aktivitäten eingerichtet. Wie erkenne ich, welche einem Besucher angezeigt wird?**
++++
 
 **Kann ich die Prioritätsreihenfolge von ein paar Aktivitäten festlegen?**
 
-Verwenden Sie die in Schritt 3 des aus drei Teilen bestehenden geführten Target-Workflows (Seite „Ziele und Einstellungen“) verfügbare Einstellung „Priorität“ zum [Definieren der Aktivitätspriorität](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
++++Details anzeigen
+Verwenden Sie die [!UICONTROL Priority] Einstellung, die in Schritt 3 des [!DNL Target] dreiteiligen geleiteten Workflows (Seite Ziele und Einstellungen) verfügbar ist, um [die Priorität der Aktivitäten zu definieren](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für die Einstellung „Benutzerdefiniert“ die Funktion „Präzise Prioritäten“ (Administration > Visual Experience Composer).
+* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die [!UICONTROL Fine-Grained Priorities]-Funktion ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+
++++
 
 ## Zielgruppen {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -179,7 +219,7 @@ Verwenden Sie die in [Schritt 2 des dreiteiligen Target-Arbeitsablaufs (Targetin
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Erlebnisse {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -276,7 +316,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
