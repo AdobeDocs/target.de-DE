@@ -2,13 +2,13 @@
 keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen;aktuelle Updates
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
-short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
+short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Target].
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -62,7 +62,7 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 
 * **Sichtbarkeit neuer Aktivitäten**: Aktivitäten, die in der aktualisierten Benutzeroberfläche erstellt wurden, werden nicht angezeigt, wenn Sie zur alten Benutzeroberfläche zurückkehren.
 * **Bearbeiten vorhandener Aktivitäten**: Änderungen an vorhandenen Aktivitäten (die ursprünglich in der veralteten Benutzeroberfläche erstellt wurden), während die aktualisierte Benutzeroberfläche verwendet wird, werden auf Ihrer Website veröffentlicht. Diese Aktualisierungen sind jedoch nicht in der alten Benutzeroberfläche sichtbar, wenn Sie zurückwechseln. Dort werden nur die letzten Aktualisierungen angezeigt, die von der alten Benutzeroberfläche vorgenommen wurden.
-* **Konsistenz der Aktivitätsdetails**: Die letzten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. Die veraltete Benutzeroberfläche zeigt jedoch nur die neuesten Änderungen an, die innerhalb dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
+* **Konsistenz der Aktivitätsdetails**: Die neuesten Änderungen werden unabhängig von der verwendeten Benutzeroberfläche auf Ihrer Live-Website angezeigt. Die veraltete Benutzeroberfläche zeigt jedoch nur die neuesten Änderungen an, die innerhalb dieser Version vorgenommen wurden. Dies kann verwirrend sein, wenn die in der aktualisierten Benutzeroberfläche bearbeiteten Aktivitäten anders aussehen als die in der alten Benutzeroberfläche.
 
 #### Weitere Ressourcen zu Informationen über die aktualisierte Benutzeroberfläche
 
@@ -72,6 +72,66 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 * [[!UICONTROL Visual Experience Composer] Änderungen](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird eine aktualisierte [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.4 (1. August 2025)
+
+Diese Version behebt aktuelle Probleme, die in erster Linie durch komplexe Kundenanpassungen verursacht werden, und umfasst die folgenden Fehlerbehebungen und Verbesserungen:
+
+**Aktivitäten**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem ein Kunde den Fehler „Ungültige Benutzereingabe“ beim Versuch feststellte, eine Live-Aktivität zu speichern, selbst wenn keine Änderungen vorgenommen wurden. Die GraphQL-Antwort zeigt ein doppeltes LocalId-Problem an. (TGT-53329 UND TGT-53373 UND TGT-53195)
+* Es wurde ein Problem behoben, das die Erstellung eines Umleitungserlebnisses in der aktualisierten VEC verhinderte. Die Umleitungs-URL wurde ignoriert und stattdessen die Originalseite angezeigt. (TGT-53306)
+
++++
+
+**Lokalisierung**
+
++++Siehe Details
+* Es wurde ein Lokalisierungsproblem im [!UICONTROL Create Criteria]-Modal behoben, bei dem bei Auswahl der Option „Zwischen folgenden Werten“ in der Dropdown-Liste &quot;[!UICONTROL Choose Price Rule]&quot; die Zeichenfolge „An“ im Abschnitt &quot;[!UICONTROL Inclusion Rules]&quot; nicht lokalisiert wurde. (TGT-49754)
+* Es wurde ein Lokalisierungsproblem behoben, bei dem die Zeichenfolge &quot;[!UICONTROL All host groups]&quot; in der [!UICONTROL Environment] Dropdown-Liste des Assistenten zur Erstellung von Feeds nicht korrekt lokalisiert wurde. (TGT-46737)
+
++++
+
+**QA**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem die QS-Umgebung keine Daten über mehrere Registerkarten hinweg laden konnte, wodurch die Oberfläche unbrauchbar wurde. (TGT-53377)
+* Fehlerkorrektur - In der QS-Umgebung kann jetzt eine Aktivität erstellt werden. Der Prozess wurde zur Seite [!UICONTROL Activities] umgeleitet, anstatt erfolgreich abgeschlossen zu werden. (TGT-53328)
+
++++
+
+**Recommendations**
+
++++Siehe Details
+* Es wurde ein Problem behoben, bei dem der Mauszeiger über den Operanden „Deep-Learning“ beim Erstellen einer Sammlung in [!DNL Recommendations] zum Absturz der Seite führte. (TGT-53305)
+* Es wurde ein Problem behoben, bei dem Filtervorschläge in [!UICONTROL Catalog Search] in der aktualisierten Benutzeroberfläche ungenau waren. (TGT-52007)
+* Es wurde ein Problem in der [!DNL Recommendations]-Benutzeroberfläche behoben, bei dem der Operandenfilter bei Verwendung der Operatoren „Wert ist vorhanden“ oder „Wert ist nicht vorhanden“ angezeigt wird, obwohl er ausgeblendet werden sollte. (TGT-53012)
+
++++
+
+**Visual Experience Composer (VEC)**
+
++++Siehe Details
+* Fehlerkorrektur - Wenn ein(e) Benutzende(r) beim Bearbeiten einer Automated Personalization (AP)-Aktivität auf [!UICONTROL Manage Content] und dann auf [!UICONTROL Done] klickt, wird die Seite leer und reagiert nicht mehr. (TGT-53047 und TGT-52993)
+* Es wurde ein Problem behoben, bei dem die Seite durch Auswahl der [!UICONTROL Viewed an mbox] Konversionsmetrik unter [!UICONTROL Goals & Settings] abstürzte. (TGT-53346, TGT-53343 und TGT-53348)
+* Es wurde ein Problem behoben, bei dem die [!UICONTROL Redirect to URL]-Funktion nicht wie erwartet funktioniert - auch bei gültigen URLs erfolgt keine Umleitung. (TGT-53307)
+
++++
+
+**Arbeitsbereiche**
+
++++Siehe Details
+* Fehlerkorrektur - Das Kopieren von Aktivitäten zwischen Arbeitsbereichen führt jetzt nicht mehr zu doppelten „Zielgruppen-Copy“-Einträgen und ID-Konflikten. Zielgruppen werden jetzt mit eindeutigen IDs, Workspace-Kontext und rekursiver Handhabung für kombinierte Zielgruppen kopiert (bis zu 5 Ebenen). (TGT-53081)
+* Fehlerkorrektur - Wenn der Arbeitsbereich auf &quot;[!UICONTROL All Workspaces]&quot; eingestellt ist, führt das Kopieren einer Aktivität, die bereits im Standardarbeitsbereich vorhanden ist, zu einem falschen Fehler:
+
+  „Mindestens eine Eigenschaft sollte für nicht standardmäßige Arbeitsbereiche enthalten sein.“
+
+  Da sich die Kopie im Standardarbeitsbereich befindet, sollte keine -Eigenschaft erforderlich sein. Der Versuch, eine Eigenschaft hinzuzufügen und zu speichern, führt zu einem zweiten Fehler:
+
+  „Ungültige Benutzereingabe“
 
 +++
 
@@ -137,7 +197,6 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 **Visual Experience Composer (VEC)**
 
 +++Siehe Details
-
 * Fehlerkorrektur - Das Anwenden einer Änderung an einer Ansicht in VEC führt jetzt nicht mehr zu einer Duplizierung und löst den Fehler „Ungültige Benutzereingabe“ aus. (TGT-52886)
 * Fehlerkorrektur - Bei der Konfiguration von Bildangeboten in Visual Experience Composer tritt jetzt kein Problem mehr mit [!UICONTROL Undo] Funktionen für die Optionen [!UICONTROL Insert Before] und [!UICONTROL Insert After] auf.
 
@@ -191,7 +250,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem Kunden Berichte für bestimmte Aktivitäten auf der Seite [!UICONTROL Goals & Settings] angezeigt haben, wobei der [!UICONTROL View in Analytics]-Link fälschlicherweise auf die QS-Umgebung statt auf die Produktionsumgebung verweist. (TGT-53163)
@@ -230,7 +289,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Siehe Details
 * Es wurde ein Problem auf der [!UICONTROL Goals & Settings] behoben, bei dem in mehreren Erlebnissen verwendete Selektoren nicht konsistent als ausgewählt markiert wurden. (TGT-53062)
@@ -281,7 +340,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem das Kopieren einer vorhandenen Aktivität und das Ändern der Berichtsquelle in [!DNL Adobe Analytics] (A4T) zu einem Fehler „Ungültige Benutzereingabe“ führte. Der Fehler wurde ausgelöst, wenn bestimmte Metrikaktionen, die mit [!DNL Analytics] Reporting nicht kompatibel sind, wie `restart_same_experience`, `restart_random_experience` und `restart_new_experience`, von der ursprünglichen Aktivität beibehalten wurden. (TGT-52900)
@@ -338,7 +397,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Siehe Details
 * Es wurde ein Problem behoben, bei dem die Anwendung einer Änderung auf eine Ansicht dazu führte, dass die Ansicht dupliziert wurde und die Aktivität den Fehler „Ungültige Benutzereingabe“ zurückgab. Durch diese Fehlerbehebung wird sichergestellt, dass Ansichtsänderungen korrekt angewendet werden, ohne dass Duplizierungs- oder Validierungsfehler ausgelöst werden. (TGT-52886)
