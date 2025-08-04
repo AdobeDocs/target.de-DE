@@ -4,9 +4,9 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen so
 Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrere Einschränkungen auf, darunter die Sichtbarkeit neuer Aktivitäten, die Bearbeitung vorhandener Aktivitäten und die Konsistenz der Aktivitätsdetails.
 
 Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Wie handhabt der aktualisierte VEC die Optionen zum Neuanordnen, Ändern der Größe, Verschieben, Ausblenden und Entfernen und wie unterscheiden sich diese Optionen vom alten VEC? {#options}
+
++++Details
+**[!UICONTROL Rearrange*]*: Im alten VEC wurde für die Option zum Neuanordnen eine Überlagerung verwendet, damit Benutzende ein Element innerhalb seiner gleichrangigen Gruppe neu positionieren können. Die Bewegung beschränkte sich auf die Änderung der Reihenfolge der gleichrangigen Elemente.
+
+In dem aktualisierten VEC wird diese Funktionalität durch Vorwärts- und Rückwärtsaktionen optimiert. Mit diesen Steuerelementen wird die Position eines Elements im Layout - sowohl horizontal als auch vertikal - angepasst, indem es in der Stapelreihenfolge vorwärts oder rückwärts verschoben wird.
+
+**Resize**: Die [!UICONTROL Resize] befindet sich im [!UICONTROL Properties] unter dem Abschnitt [!UICONTROL Size]. Benutzer können die Breite und Höhe eines Elements direkt anpassen. Zu den erweiterten Einstellungen gehören:
+
+* Steuerelemente für minimale/maximale Breite und Höhe
+* Einstellungen für das Überlaufverhalten.
+* Optionen zur Objektanpassung für Medienelemente
+
+Diese Werkzeuge bieten eine präzise Steuerung der Elementabmessungen und des Layoutverhaltens.
+
+**Verschieben**: Die Option [!UICONTROL Move] befindet sich im [!UICONTROL Properties] unter dem Abschnitt [!UICONTROL Position]. Diese Option ermöglicht Benutzern Folgendes:
+
+* Legen Sie die Position des Elements fest (z. B. absolut, relativ, fest)
+* Definieren des z-Index für die Schicht
+* Positionierungstyp wählen
+
+Die aktualisierte [!UICONTROL Properties]-Leiste unterstützt auch benutzerdefinierte Inline-Stile und bietet somit Flexibilität, wenn die voreingestellten Optionen nicht den Layout-Anforderungen entsprechen.
+
+**[!UICONTROL Hide]**: Die [!UICONTROL Hide] befindet sich im [!UICONTROL Properties]. Klicken Sie nach der Auswahl eines Elements auf [!UICONTROL Hide Element] , um es aus der Ansicht zu entfernen, ohne es zu löschen. Dies ist nützlich für die Verwaltung der Sichtbarkeit während des Designs oder der Vorschau.
+
+**[!UICONTROL Remove]**: Auf die [!UICONTROL Remove] Funktion kann über das [!UICONTROL Properties] Panel zugegriffen werden. Klicken Sie nach der Auswahl eines Elements auf Element entfernen , um es von der Seite zu löschen. Durch diese Aktion wird das Element dauerhaft aus dem Layout entfernt.
 
 +++
 
