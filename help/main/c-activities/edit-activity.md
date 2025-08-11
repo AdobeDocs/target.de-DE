@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorh
 title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 
         Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Add/Remove] , sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
 
-   * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen Audiences und Angebote aus dem ursprünglichen Arbeitsbereich im folgenden Format dupliziert: `Entity Name Copy <Date>`.
+   * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen [!DNL Target]- oder Ad-hoc-Audiences und -Angebote aus dem ursprünglichen Arbeitsbereich mithilfe des folgenden Formats dupliziert: `<Entity Name> Copy <Date>` für [!DNL Target] Audiences und für Ad-hoc-Angebote `<Entity Name>`.
 
      Verhaltensdetails:
 
@@ -85,9 +85,9 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 
      Dieser Prozess sorgt für eine reibungslosere Duplizierung von Arbeitsbereich-übergreifenden Aktivitäten und bietet gleichzeitig Flexibilität bei der Anpassung.
 
-     Beim Kopieren einer Aktivität müssen kombinierte Zielgruppen, Nicht-Zielgruppen und Angebote, die weder im aktuellen Arbeitsbereich noch im Standardarbeitsbereich gespeichert sind, manuell ersetzt werden.
+     Beim Kopieren einer Aktivität müssen Nicht-Target-Zielgruppen und Angebote, die weder im aktuellen noch im Standardarbeitsbereich gespeichert sind, manuell ersetzt werden.
 
-     Durch das manuelle Ersetzen dieser kombinierten Zielgruppen, Nicht-Zielgruppen und Angebote wird sichergestellt, dass in der kopierten Aktivität nur gültige, barrierefreie Entitäten verwendet werden. Außerdem werden Fehler bei der Bearbeitung oder beim Versand verhindert.
+     Durch das manuelle Ersetzen dieser Zielgruppen, Zielgruppen und Angebote wird sichergestellt, dass in der kopierten Aktivität nur gültige, barrierefreie Entitäten verwendet werden. Außerdem werden Fehler während der Bearbeitung oder des Versands vermieden.
 
      ![Warnmeldung](/help/main/c-activities/assets/copy.png)
 
