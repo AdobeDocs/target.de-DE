@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Implementierungsanforderungen für Anal
 title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 656f728ba890f1f5afc0404e22f6acb1a2565fe6
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 23%
+source-wordcount: '957'
+ht-degree: 24%
 
 ---
 
@@ -19,19 +19,19 @@ Bevor Sie sich für diese Integration entscheiden, lesen Sie die folgenden Absch
 
 >[!NOTE]
 >
->Dieser Artikel gilt nur für at.js-Implementierungen.
+>Dieser Artikel gilt nur für at.js-Implementierungen. Informationen zur Implementierung von [!UICONTROL Analytics for Target] (A4T) mit dem [!DNL Adobe Experience Platform Web SDK] finden Sie unter [Protokollierung von Adobe Analytics for Target (A4T) in der Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Implementierungsanforderungen {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->Bevor Sie mit der Verwendung von A4T beginnen können, müssen Sie anfordern, dass Ihr Konto für die Integration bereitgestellt wird. Verwenden Sie das Bereitstellungsformular für [Marketing Cloud ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen, um die Bereitstellung anzufordern.
+>Bevor Sie mit der Verwendung von A4T beginnen können, müssen Sie anfordern, dass Ihr Konto für die Integration bereitgestellt wird. Verwenden Sie das Bereitstellungsformular für [Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen, um die Bereitstellung anzufordern.
 
 Diese A4T-Integration erfordert die Implementierung der folgenden Bibliotheksversionen (oder neuer), je nachdem, ob Umleitungsangebote mit A4T verwendet werden sollen oder nicht.
 
 >[!NOTE]
 >
->In den folgenden Anforderungen sind die (*)* Versionen von at.js aufgeführt, die für die Implementierung von A4T erforderlich sind. Das [!DNL Target]-Team verwaltet nur zwei Versionen von [!DNL at.js] - die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen über den Inhalt der einzelnen Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
+>In den folgenden Anforderungen sind die (*)* Versionen von at.js aufgeführt, die für die Implementierung von A4T erforderlich sind. Das [!DNL Target]-Team verwaltet nur zwei Versionen von [!DNL at.js] - die aktuelle Version und die zweitneueste Version. Führen Sie bei Bedarf ein Upgrade von [!DNL at.js] durch, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen zu den Funktionen in den einzelnen Versionen finden Sie unter [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
 ### Anforderungen, wenn *keine* Umleitungsangebote mit A4T verwendet werden
 
@@ -65,8 +65,8 @@ Informationen zur Implementierung von A4T mit dem [!DNL Platform Web SDK] finden
 
 * Diese Integration wird für neue Aktivitäten aktiviert, wenn Sie [!DNL Analytics] als Berichtsquelle verwenden. Ihre bestehenden Aktivitäten sind von den in diesem Dokument beschriebenen Implementierungsänderungen nicht betroffen.
 * Der Prozess zum Einrichten von [!DNL Analytics] als Berichtsquelle für [!DNL Target] umfasst mehrere Implementierungsschritte, gefolgt von einem Bereitstellungsschritt. Es empfiehlt sich, vor der Implementierung die unten stehende Prozessbeschreibung durchzulesen. Nachdem Sie diese Schritte abgeschlossen haben, können Sie [!DNL Analytics] als Berichtsquelle verwenden, wenn es für Sie aktiviert ist. Der Bereitstellungsprozess kann bis zu fünf Werktage dauern.
-* Der [!DNL Visitor ID service] erstellt eine gemeinsame [!DNL Visitor ID] für die [!DNL Adobe Experience Cloud]. Die [!DNL Target] mboxPC-ID oder [!DNL Audience Manager] UUID wird zwar nicht ersetzt, aber die Art und Weise, wie [!DNL Analytics] neue Besucher identifiziert. Bei ordnungsgemäßer Einrichtung sollten wiederkehrende [!DNL Analytics] auch über ihre alte [!DNL Analytics]-ID identifiziert werden. Da die [!DNL Target] mboxPCid intakt bleibt, gehen beim Upgrade auf die [!DNL Visitor ID service] auch keine [!DNL Target] Besucherprofildaten verloren.
-* Der [!DNL Visitor ID service] muss vor dem [!DNL Analytics] und [!DNL Target] Seiten-Code ausgeführt werden. Stellen Sie sicher, dass für alle anderen [!DNL Experience Cloud]-Lösungen `VisitorAPI.js` über den Tags angezeigt wird.
+* Der [!DNL Visitor ID service] erstellt eine gemeinsame [!DNL Visitor ID] für die [!DNL Adobe Experience Cloud]. Die [!DNL Target] mboxPC-ID oder [!DNL Audience Manager] UUID wird zwar nicht ersetzt, aber die Art und Weise, wie [!DNL Analytics] neue Besucher identifiziert. Bei ordnungsgemäßer Einrichtung sollten wiederkehrende [!DNL Analytics] auch über ihre alte [!DNL Analytics]-ID identifiziert werden. Da die [!DNL Target] mboxPCid intakt bleibt, gehen beim Upgrade auf die [!DNL Target] auch keine [!DNL Visitor ID service] Besucherprofildaten verloren.
+* Der [!DNL Visitor ID service] muss vor dem [!DNL Analytics] und [!DNL Target] Seiten-Code ausgeführt werden. Stellen Sie sicher, dass für alle anderen `VisitorAPI.js`-Lösungen [!DNL Experience Cloud] über den Tags angezeigt wird.
 
 ## Latenz {#section_9489BE6FD21641A4844E591711E3F813}
 
@@ -83,7 +83,7 @@ Die Latenzsteigerung beginnt nach der Implementierung des [!DNL Experience Cloud
 
 Alle [!DNL Target] Aufrufe, die von einer A4T-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, müssen einen entsprechenden [!DNL Analytics]-Treffer aufweisen, der die zusätzliche ID teilt, damit A4T ordnungsgemäß funktioniert.
 
-Treffer, die Daten aus [!DNL Analytics] und [!DNL Target] enthalten, enthalten eine zusätzliche Daten-ID. Diese ID wird im [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) als `sdid` angezeigt. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
+Treffer, die Daten aus [!DNL Analytics] und [!DNL Target] enthalten, enthalten eine zusätzliche Daten-ID. Diese ID wird im [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) als `sdid` angezeigt. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
 
 * Der Besucher-ID-Service wurde implementiert.
 
@@ -97,7 +97,7 @@ Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie
 
 ## Freigegebene Zielgruppen
 
-Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud ](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen die folgenden wichtigen Informationen zur [!UICONTROL Shared Audiences], die unter &quot;[!UICONTROL For which capabilities are you requesting provisioning]?“ aufgeführt sind
+Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen die folgenden wichtigen Informationen zur [!UICONTROL Shared Audiences], die unter &quot;[!UICONTROL For which capabilities are you requesting provisioning]?“ aufgeführt sind
 
 ![Anfrageformular](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
@@ -105,4 +105,4 @@ Wenn Sie [!UICONTROL Shared Audiences] anfordern, aktivieren Sie [!UICONTROL Tar
 
 >[!IMPORTANT]
 >
->Diese Integration zwischen [!UICONTROL Target] und AAM verursacht zusätzliche Kosten. Jeder [!UICONTROL Target]-Aufruf wird in AAM in Rechnung gestellt.
+>Diese Integration zwischen [!UICONTROL Target] und AAM verursacht zusätzliche Kosten. In AAM werden Sie für jeden [!UICONTROL Target]-Aufruf in Rechnung gestellt.
