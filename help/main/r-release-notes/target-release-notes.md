@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 64bfa3710450ee9609592610e210a950e0403339
+source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 69%
+source-wordcount: '340'
+ht-degree: 37%
 
 ---
 
@@ -15,19 +15,34 @@ ht-degree: 69%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 14. August 2025**
+**Letzte Aktualisierung: 15. August 2025**
 
 >[!NOTE]
 >
->* Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden.
+>* Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Die Informationen in diesem Artikel werden häufig aktualisiert, insbesondere vor Versionen.
 >
 >* Informationen zur aktuellen Version finden Sie unter [Target-Versionshinweise](release-notes.md).
 >
 >* Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target Standard/Premium] 25.8.2 (14. August 2025)
+## [!DNL Target Standard/Premium] 25.8.3 (21. August 2025)
 
-[!DNL Target Standard/Premium] 25.8.2 (14. August 2025) ist live. Weitere Informationen finden Sie unter [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md).
+Diese Version enthält die folgenden Aktualisierungen und Fehlerbehebungen:
+
+**Recommendations**
+
++++Details anzeigen
+* **Es wurde ein Problem in der Recs-Benutzeroberfläche behoben, bei dem der CSV-Download für benutzerdefinierte Kriterien einen 404-Fehler zurückgab**: Es wurde ein Problem behoben, bei dem Kunden die CSV-Datei für benutzerdefinierte Kriterien beim Erstellen der Aktivität nicht herunterladen konnten.
+* **Inkonsistentes Laden von Bildern in[!UICONTROL Catalog Search]** behoben: Es wurde ein Problem behoben, bei dem Miniaturansichten und Bilder in [!UICONTROL  Catalog Search] beim Erstellen von Aktivitäten nicht konsistent geladen wurden. Bilder werden nur angezeigt, wenn die Spalte „Miniatur-URL“ sichtbar war und einige Produktbilder nach Navigations- oder Suchaktionen teilweise oder überhaupt nicht geladen wurden. (TGT-52778)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Details anzeigen
+* **Es wurde ein Problem im Prozess zur Erstellung von Aktivitäten behoben, das den Übergang zu [!UICONTROL Targeting] Schritt in AP-Aktivitäten blockierte**: Es wurde ein Problem im Prozess zur Erstellung von Aktivitäten behoben, bei dem Kunden in [!UICONTROL Targeting] (AP)-Aktivitäten nicht zum [!UICONTROL Automated Personalization] Schritt wechseln konnten, es sei denn, zwei Standorte wurden hinzugefügt. Dieses Verhalten unterschied sich vom vorherigen Erlebnis, bei dem ein einzelner Standort mit mehreren Angeboten ausreichend war. Die Anforderung wurde korrigiert, sodass Kundinnen und Kunden weiterhin Einzelspeicherort-Setups als Teil ihrer API-Workflows verwenden können. (TGT-53426)
+
++++
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
