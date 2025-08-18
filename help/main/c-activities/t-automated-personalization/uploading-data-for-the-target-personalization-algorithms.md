@@ -3,7 +3,7 @@ keywords: Automated Personalization;AP;Daten hochladen;Offline-Daten;Personalisi
 description: Erfahren Sie, wie Sie Offline-Daten beim Erstellen von Personalisierungsmodellen in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] Aktivitäten hochladen.
 title: Wie kann ich Daten für Personalization-Algorithmen hochladen?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt

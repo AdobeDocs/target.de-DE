@@ -2,7 +2,7 @@
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
 description: Verwenden Sie die  [!DNL Adobe Target] [!UICONTROL Traffic Estimator], um festzustellen, ob Sie über ausreichend Traffic verfügen, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine erfolgreiche [!UICONTROL Automated Personalization] benötigt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

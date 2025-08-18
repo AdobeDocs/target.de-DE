@@ -2,7 +2,7 @@
 keywords: Recommendations-Algorithmen; Modellschulung; Modellbereitstellung; Inhaltsbereitstellung; artikelbasiert; benutzerbasiert; Beliebtheitsbasiert; Warenkorbbasiert; benutzerdefinierte Kriterien
 description: Erfahren Sie mehr über die in  [!DNL Target Recommendations] verwendeten Algorithmen, einschließlich Modellschulung und Modellbereitstellung.
 title: Wo erhalte ich Informationen über die wissenschaftlichen Grundlagen der Empfehlungsalgorithmen von Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -65,7 +65,7 @@ Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -89,7 +89,7 @@ Obwohl die Aspekte der Modellbereitstellung und Inhaltsbereitstellung der Inhalt
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[!DNL Target]Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [ aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[!DNL Target]Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [ aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
 
 * **Modell-**:
 
@@ -127,7 +127,7 @@ Die Logik der Schritte zum Trainieren und Bewerten von Modellen wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Both Recommended For You]- und Warenkorbalgorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die beim Implementieren von [Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Both Recommended For You]- und Warenkorbalgorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die beim Implementieren von [Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 

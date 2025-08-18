@@ -110,7 +110,7 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Adobe Target-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*
 * [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele - Übersicht*.
 * [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*.
-* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
+* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=de#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
 
 ## Videos und Blogposts {#videos-blogs}
 

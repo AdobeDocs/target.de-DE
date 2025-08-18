@@ -2,7 +2,7 @@
 keywords: Automated Personalization;Angebote;Zielgruppe;Zielgruppe;Zielgruppenbestimmungsregeln;Zielgruppenbestimmung
 description: Erfahren Sie, wie Sie mithilfe von [!UICONTROL Automated Personalization] (AP)-Aktivitäten einzelne Angebote an bestimmte Zielgruppen senden können.
 title: Wie kann ich [!UICONTROL Automated Personalization] Angebote gezielt ansprechen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

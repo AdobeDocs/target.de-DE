@@ -20,7 +20,7 @@ Dieses Thema enthält Antworten auf häufig gestellte Fragen zur Freigabe von Me
 +++Antwort
 Sie möchten häufig eine Ansicht von einem Test für verschiedene Benutzergruppen erstellen, um es den Benutzern zu erleichtern, die Testergebnisse anzuzeigen. In Analytics ist es möglich, ein Lesezeichen zu erstellen, mit dem die aktuelle Ansicht eines Berichts, einschließlich der Metriken, Datumsbereiche, Segmente usw., gespeichert wird.
 
-Weitere Informationen finden Sie unter [Lesezeichen-Manager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
+Weitere Informationen finden Sie unter [Lesezeichen-Manager](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=de).
 
 +++
 
@@ -29,6 +29,6 @@ Weitere Informationen finden Sie unter [Lesezeichen-Manager](https://experiencel
 +++Antwort
 Wenn Sie spezielle Metriken und Segmente mit einem Test verwenden, sollten Sie die Erstellung einer Benutzergruppe für Ihr Optimierungsteam in Betracht ziehen. Geben Sie diese Metriken und Segmente für die Gruppe anstelle von einzelnen Mitgliedern frei, um sicherzustellen, dass sie alle Zugriff auf die Segmente und Metriken haben. Nur Administratoren verfügen über die Freigabe für Gruppen.
 
-Siehe [Freigeben von Segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) und [Freigeben berechneter Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Siehe [Freigeben von Segmenten](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=de) und [Freigeben berechneter Metriken](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=de).
 
 +++
