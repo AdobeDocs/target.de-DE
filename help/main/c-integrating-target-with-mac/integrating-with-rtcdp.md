@@ -110,7 +110,7 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Adobe Target-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*
 * [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele - Übersicht*.
 * [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*.
-* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=de#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
+* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
 
 ## Videos und Blogposts {#videos-blogs}
 
@@ -128,25 +128,25 @@ Weitere Informationen finden Sie unter [Personalisierung für den nächsten Tref
 
 Erfahren Sie, wie Sie das [!DNL Adobe Target]-Ziel in [!DNL Real-Time Customer Data Platform] konfigurieren können, um Segmente und Profilattribute von [!DNL Real-Time CDP] an [!DNL Target] zu senden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449802/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Video: Aktivieren von Segmenten und Profilattributen
 
 Erfahren Sie, wie Sie Segmente und Profilattribute von [!DNL Adobe Real-Time Customer Data Platform] für [!DNL Adobe Target] aktivieren, um in Echtzeit personalisierte Inhalte in Ihren Websites, mobilen Apps und anderen digitalen Eigenschaften anzuzeigen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447364/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Video: Verwenden von [!DNL Real-Time CDP]-Segmenten in [!DNL Target]
 
 Erfahren Sie, wie Sie [!DNL Real-Time Customer Data Platform]-Segmente in [!DNL Adobe Target] verwenden, um personalisierte Erlebnisse auf Ihrer Website und in Mobile Apps bereitzustellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446836/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Video: Verwenden von [!DNL Real-Time CDP]-Profilattribute in [!DNL Adobe Target]
 
 Erfahren Sie, wie Sie [!DNL Adobe Real-Time Customer Data Platform]-Profilattribute in [!DNL Adobe Target] verwenden, um personalisierte Erlebnisse auf Ihrer Website und in Mobile Apps bereitzustellen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451902/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target]-Blog und -Video: Verbesserte Personalisierung derselben Seite
 

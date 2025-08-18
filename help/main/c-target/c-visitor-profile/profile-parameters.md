@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale mBox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*.<P>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie dazu die [!UICONTROL Profile Update API]. Weitere Informationen finden Sie unter [Aktualisieren von Profilen](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*. |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*.<P>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie dazu die [!UICONTROL Profile Update API]. Weitere Informationen finden Sie unter [Profile aktualisieren](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*. |
    | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder mBox-Anfrage ausgeführt. Siehe *Profilskriptattribute* unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -164,7 +164,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
-  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie im Abschnitt [!UICONTROL Debugger tools] auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** klicken.
+  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie im Abschnitt **[!UICONTROL Target]** auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** > [!UICONTROL Debugger tools] klicken.
 
   Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -176,7 +176,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine mBox-Anfrage oder andere [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} übergeben werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere (Methoden [ Einlesen von Daten in Target) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 

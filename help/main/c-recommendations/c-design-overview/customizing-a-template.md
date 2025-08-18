@@ -1,8 +1,8 @@
 ---
 keywords: Benutzerdefinierter Entwurf;Geschwindigkeit;Dezimal;Komma;Entwurf anpassen
-description: Erfahren Sie, wie Sie mit der Open-Source- [!DNL Velocity]  Empfehlungsentwürfe in  [!DNL Target] Recommendations anpassen können.
+description: Erfahren Sie, wie Sie mit der Open-Source [!DNL Velocity] Design-Sprache Empfehlungsentwürfe in " [!DNL Target] " anpassen können.
 title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 Verwenden Sie die Open-Source-[!DNL Velocity]-Entwurfssprache, um Empfehlungsvorlagen in [!DNL Adobe Target Recommendations] anzupassen.
 
-## [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Übersicht über [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Informationen zu [!DNL Velocity] finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
 
@@ -240,7 +240,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 
 ## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
 
-Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein 1-zu-viele-Ergebnis an, um das Erstellen leerer HTML-Elemente zu vermeiden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und [!UICONTROL Partial Template Rendering] aktiviert ist.
+Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein 1-zu-viele-Ergebnis an, um zu vermeiden, dass leere HTML-Elemente erstellt werden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und [!UICONTROL Partial Template Rendering] aktiviert ist.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 

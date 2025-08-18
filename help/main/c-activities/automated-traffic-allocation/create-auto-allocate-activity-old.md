@@ -64,7 +64,7 @@ So erstellen Sie eine [!UICONTROL Auto-Allocate]:
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in der [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
-1. Klicken Sie oben in der [!UICONTROL Visual Experience Composer] auf **[!UICONTROL Targeting]** , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
+1. Klicken Sie oben in der **[!UICONTROL Targeting]** auf [!UICONTROL Visual Experience Composer] , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
 
    Das Flussdiagramm wird geöffnet.
 
@@ -117,4 +117,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsa
 * Erstellen einer [!UICONTROL A/B Test] Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

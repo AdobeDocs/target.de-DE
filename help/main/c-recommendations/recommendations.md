@@ -2,7 +2,7 @@
 keywords: Recommendations; Recommendations-Kriterien; Recommendations-Algorithmen; Recommendations-Aktivität; Kriterien; Targeting mit Recommendations; Recs
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was ist  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -64,13 +64,13 @@ Bevor Sie mit der Arbeit mit [!DNL Recommendations] beginnen, sollten Sie sich m
 
 ## Schulungsvideo: Aktivitätstypen ![Übersichts-Badge](/help/main/assets/overview.png)
 
-In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert. [!DNL Recommendations] wird ab 7:20 besprochen.
+In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert. [!DNL Recommendations] wird ab 7 :20 besprochen.
 
 * Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Adobe Target Basics-Webinar: Einführung in Recommendations ![Tutorial-Badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 

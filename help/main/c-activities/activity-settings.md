@@ -1,13 +1,13 @@
 ---
 keywords: Ziel und Einstellungen;Ziel;Priorität;Dauer
-description: Erfahren Sie, wie Sie die Aktivitätseinstellungen in Adobe [!DNL Target]  verwenden, um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
+description: Adobe Erfahren Sie, wie Sie die Aktivitätseinstellungen in  [!DNL Target]  verwenden, um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
 title: Wie gebe ich Aktivitätseinstellungen an?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -41,7 +41,7 @@ Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target], um das Ziel
 
 1. Legen Sie die Dauer der Aktivität fest.
 
-   Sie können die Aktivität manuell aktivieren oder deaktivieren oder ein Datum und eine Uhrzeit festlegen, zu denen die Aktivität automatisch bereitgestellt werden soll. Das Zeitsteuerelement verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+   Sie können die Aktivität manuell aktivieren oder deaktivieren oder ein Datum und eine Uhrzeit festlegen, zu denen die Aktivität automatisch bereitgestellt werden soll. Die Zeitsteuerung verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
    >[!NOTE]
    >

@@ -2,7 +2,7 @@
 keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt;Beobachter;Editor;Genehmiger;Publisher
 description: Erfahren Sie, wie Sie separate Arbeitsbereiche (Produktprofile) erstellen und dann Benutzern verschiedene Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen.
 title: Was sind Enterprise-Benutzerberechtigungen und wie verwende ich sie?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
@@ -57,7 +57,7 @@ Eigenschaften sind bestimmten Kanälen (Web, mobil, E-Mail oder API/Sonstige) zu
 
 Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Adobe Analytics].
 
-Hinweis: Arbeitsbereiche werden in der [!DNL Adobe Admin Console for Enterprise] als [!UICONTROL Product Profiles] bezeichnet.
+Hinweis: Arbeitsbereiche werden in der [!UICONTROL Product Profiles] als [!DNL Adobe Admin Console for Enterprise] bezeichnet.
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 

@@ -7,7 +7,7 @@ exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zur Steigerung und Konfi
 ## Kann ich Offline-Berechnungen für A4T durchführen? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
 +++Antwort
-Sie können Offline-Berechnungen für A4T durchführen, dies erfordert jedoch einen Schritt mit Datenexporten in [!DNL Analytics]. Weitere Informationen finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Sie können Offlineberechnungen für A4T durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics] erforderlich. Weitere Informationen finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
@@ -60,5 +60,5 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle sind:
 ## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es dann selbst hinzufügen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Antwort
-Steigerung und Konfidenz funktionieren weder Ad-hoc noch im Report Builder und können auch nicht selbst für kontinuierliche Variablen berechnet werden. Es ist möglich, sie für binäre Metriken manuell zu errechnen.
+Steigerung und Konfidenz funktionieren nicht mit Ad Hoc oder Report Builder und können nicht selbst für kontinuierliche Variablen errechnet werden. Es ist möglich, sie für binäre Metriken manuell zu errechnen.
 +++

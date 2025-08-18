@@ -19,9 +19,9 @@ Fügen Sie Angebotsentscheidungen hinzu, die in [!DNL Adobe Journey Optimizer] e
 
 Weitere Informationen zu [!DNL Adobe Journey Optimizer] und Angebotsentscheidungen finden Sie in den folgenden Themen in der *[!DNL Journey Optimizer]*:
 
-* [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=de)
+* [Erste Schritte mit Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [Über das Entscheidungs-Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=de)
+* [Über das Entscheidungs-Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Voraussetzungen 
 
@@ -72,7 +72,7 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
 1. Wählen Sie in der **[!UICONTROL Add Offer Decision]** Leiste rechts im VEC die gewünschte Sandbox aus und klicken Sie dann auf Angebotsentscheidung auswählen.Platzierung.
 
-   Mit einer [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=de){target=_blank} im [!DNL Adobe Experience Platform] können Sie Ihre Instanz in virtuelle Umgebungen unterteilen. Sie könnten beispielsweise über eine Produktionsumgebung und eine Staging-Umgebung verfügen. Eine [Platzierung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=de){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
+   Mit einer [Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} im [!DNL Adobe Experience Platform] können Sie Ihre Instanz in virtuelle Umgebungen unterteilen. Sie könnten beispielsweise über eine Produktionsumgebung und eine Staging-Umgebung verfügen. Eine [Platzierung](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] hilft sicherzustellen, dass der richtige Angebotsinhalt an der richtigen Stelle angezeigt wird.
 
    ![Sandbox- und Platzierungen -Dropdown-Listen im Dialogfeld Angebotsentscheidung hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -80,7 +80,7 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
    ![Dialogfeld Angebotsentscheidung auswählen](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der [!UICONTROL Modifications] Leiste sehen können. Sie können unten in der [!UICONTROL Offer Decision] Leiste unter [!UICONTROL Offer Preview] auf ein Angebot klicken, um die Angebotsentscheidung zu untersuchen.
+   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der [!UICONTROL Modifications] Leiste sehen können. Sie können unten in der [!UICONTROL Offer Preview] Leiste unter [!UICONTROL Offer Decision] auf ein Angebot klicken, um die Angebotsentscheidung zu untersuchen.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 

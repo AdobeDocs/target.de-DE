@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 24%
 
 ---
@@ -35,12 +35,12 @@ Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in
 >
 >Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf die [!UICONTROL Experience Platform Web SDK] (empfohlen) oder die neueste Version von at.js.
 
-Referenzieren Sie die [!UICONTROL Experience Platform Web SDK] oder at.js auf jeder Seite Ihrer Site. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Referenzieren Sie die [!UICONTROL Experience Platform Web SDK] oder at.js auf jeder Seite Ihrer Site. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
 * [[!DNL Adobe Experience Platform Web SDK] Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=de){target=_blank}
-* [Implementieren von  [!DNL Target]  mithilfe von  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementieren von  [!DNL Target]  mithilfe von  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Bei jeder Besucheranforderung einer für [!DNL Target] optimierten Seite wird eine Echtzeitanforderung an das Targeting-System gesendet, um den bereitzustellenden Inhalt zu bestimmen. Diese Anfrage wird jedes Mal beim Laden einer Seite gestellt und erfüllt. Sie wird durch Aktivitäten und Erlebnisse gesteuert, die vom Marketing-Experten gesteuert werden. Inhalte sind auf individuelle Besucher der Website ausgerichtet, wodurch die Antwort- und Akquiseraten sowie der Umsatz maximiert werden. Personalisierte Inhalte helfen sicherzustellen, dass Besucher reagieren, interagieren oder Käufe tätigen.
 
@@ -134,7 +134,7 @@ Eine &quot;Edge&quot; ist eine geografisch verteilte Serving-Architektur, die Be
 
 Zur Verbesserung der Reaktionszeiten werden auf [!DNL Target]-Edges nur Aktivitätslogik, zwischengespeicherte Profile und Angebotsinformationen gehostet.
 
-Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics], APIs und die Benutzeroberflächen der Werbungtreibenden werden in [!DNL Adobe] zentralen Clustern gespeichert. Aktualisierungen werden an die [!DNL Target]-Edges gesendet, die automatisch mit den zentralen Clustern synchronisiert werden, um zwischengespeicherte Aktivitätsdaten kontinuierlich zu aktualisieren. Außerdem werden alle 1:1-Modelle an jedem Edge gespeichert, sodass komplexe Anforderungen lokal verarbeitet werden können.
+Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics], APIs und die Benutzeroberflächen der Werbungtreibenden werden in [!DNL Adobe] zentralen Clustern gespeichert. Aktualisierungen werden an die [!DNL Target]-Edges gesendet, die automatisch mit den zentralen Clustern synchronisiert werden, um zwischengespeicherte Aktivitätsdaten kontinuierlich zu aktualisieren. Alle 1:1-Modelle werden ebenfalls an jedem Edge gespeichert, sodass komplexe Anforderungen lokal verarbeitet werden können.
 
 Jeder Edge-Cluster enthält alle erforderlichen Informationen, um auf Inhaltsanfragen von Besuchern zu reagieren und Analysedaten zu verfolgen. Die Besucheranforderungen werden an den nächstgelegenen Edge-Cluster weitergeleitet.
 
@@ -254,10 +254,10 @@ Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for Target] (A4T) Folgendes nicht:
+Bei bekanntem Bot-Traffic tut [!UICONTROL Analytics for Target] bei Verwendung von [!DNL Target] (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 
-Für bekannten Bot-Traffic gibt [!DNL Target] bei Verwendung der `client_side`-Protokollierung Folgendes nicht zurück:
+Für bekannten Bot-Traffic gibt `client_side` bei Verwendung der [!DNL Target]-Protokollierung Folgendes nicht zurück:
 
 * `tnta payload`

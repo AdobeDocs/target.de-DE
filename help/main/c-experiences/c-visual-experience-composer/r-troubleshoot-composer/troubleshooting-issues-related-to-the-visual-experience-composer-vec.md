@@ -18,7 +18,7 @@ Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Targ
 ## Wenn ich meine Website im [!UICONTROL Visual Experience Composer] öffne, werden die [!DNL Target] Bibliotheken nicht geladen. (Nur VEC)   {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++Details
-[!DNL Target] fügt beim Öffnen der Website im [!UICONTROL Visual Experience Composer] zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) hinzu.
+[!DNL Target] fügt beim Öffnen der Website im `mboxEdit=1` zwei Parameter (`mboxDisable=1` und [!UICONTROL Visual Experience Composer]) hinzu.
 
 Wenn Ihre Website (insbesondere Einzelseiten-Apps) Parameter zuschneidet oder beim Navigieren von einer Seite zur anderen (ohne erneutes Laden der Seite) tatsächlich entfernt, funktioniert die [!DNL Target] nicht mehr und die [!DNL Target] Bibliotheken werden nicht geladen.
 
@@ -47,7 +47,7 @@ Wenn weder der [!UICONTROL Visual Experience Composer] noch der [!UICONTROL Enha
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie [!DNL Google Chrome] die [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]-Erweiterung ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>Zusätzlich zu den folgenden Informationen können Sie [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] die ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)-Erweiterung [!DNL Google Chrome].
 
 >[!NOTE]
 >

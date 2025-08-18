@@ -2,13 +2,13 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Automated Personalization;Kontrolle;Standarderlebnis;Best Practices
 description: Erkunden Sie eine Liste häufig gestellter Fragen (FAQs) und Antworten zu [!UICONTROL Automated Personalization] (AP)-Aktivitäten in [!UICONTROL Adobe Target].
 title: Wie finde ich häufig gestellte Fragen zu [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
 workflow-type: tm+mt
 source-wordcount: '1946'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -18,7 +18,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL Automated Personalization] in [!D
 
 ## Kann ich ein bestimmtes Erlebnis als Kontrolle in einer [!UICONTROL Automated Personalization] angeben?
 
-+++Siehe Details
++++Details anzeigen
 
 Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
 
@@ -30,7 +30,7 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 ## Wie kann ich [!UICONTROL Automated Personalization] mit einem Standarderlebnis vergleichen? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-+++Siehe Details
++++Details anzeigen
 
 Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated Personalization] mit einem Standarderlebnis. Wenn jedoch als Problemumgehung im Rahmen der Gesamtaktivität ein Standardangebot oder -erlebnis vorhanden ist, klicken Sie zum besseren Verständnis der Ausgangsleistung in Berichten auf das Segment &quot;[!UICONTROL Control]&quot; und suchen Sie dieses Angebot im resultierenden Bericht auf Angebotsebene. Die für dieses Angebot aufgezeichnete Konversionsrate kann mit der Konversionsrate des gesamten Segments „Random Forest“ verglichen werden. Somit lässt sich vergleichen, welche Leistung die Maschine im Vergleich zum Standardangebot erbringt.
 
@@ -38,7 +38,7 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 ## Wie lauten die Best Practices zum Einrichten einer [!UICONTROL Automated Personalization] Aktivität? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-+++Siehe Details
++++Details anzeigen
 
 * Wenn Sie eine Seite mit niedrigerem Traffic personalisieren möchten oder strukturelle Änderungen am personalisierten Erlebnis vornehmen möchten, sollten Sie eine [!UICONTROL Auto-Target] -Aktivität anstelle von [!UICONTROL Automated Personalization] verwenden. Siehe [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Erwägen Sie, eine [!UICONTROL A/B Test] zwischen den Angeboten und Standorten durchzuführen, die Sie in Ihrer [!UICONTROL Automated Personalization]-Aktivität verwenden möchten, um sicherzustellen, dass der Standort und die Angebote eine Auswirkung auf das Optimierungsziel haben. Wenn eine [!UICONTROL A/B Test] Aktivität keinen signifikanten Unterschied nachweist, erzeugt [!UICONTROL Automated Personalization] wahrscheinlich auch keine Steigerung.
@@ -74,7 +74,7 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 ## Welche Beschränkungen gibt es in [!UICONTROL Automated Personalization]? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-+++Siehe Details
++++Details anzeigen
 
 [!DNL Target] hat eine feste Grenze von 30.000 Erlebnissen, funktioniert aber am besten, wenn weniger als 10.000 Erlebnisse erstellt werden.
 
@@ -86,7 +86,7 @@ Weitere Informationen zu Zeichenbeschränkungen und anderen Beschränkungen (Ang
 
 ## Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
-+++Siehe Details
++++Details anzeigen
 
 Sobald der Besucher zur entsprechenden Position gelangt, wird der Satz der möglichen Angebote, die dem Besucher angezeigt werden, anhand der Regeln vom Typ „Kundenansprache auf Angebotsebene“ bestimmt. Anschließend wählt der Algorithmus aus diesen Angeboten das Angebot aus, von dem das Modell den besten erwarteten Umsatz oder die beste Konversionschance vorhersagt. Das Targeting von Angeboten wirkt sich auf die Effektivität [!DNL Target] Machine-Learning-Algorithmen aus und sollte daher so sparsam wie möglich eingesetzt werden.
 
@@ -94,7 +94,7 @@ Sobald der Besucher zur entsprechenden Position gelangt, wird der Satz der mögl
 
 ## Warum zeigt meine [!UICONTROL Automated Personalization] keine Steigerung an? {#section_BFA07C8C258F45318F73A461B8F32737}
 
-+++Siehe Details
++++Details anzeigen
 
 Es sind vier Faktoren erforderlich, damit eine [!UICONTROL Automated Personalization] Aktivität eine Steigerung generiert:
 
@@ -111,7 +111,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten P
 
 ## Wie ordnet [!UICONTROL Automated Personalization] den Traffic meiner Aktivität zu? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-+++Siehe Details
++++Details anzeigen
 
 [!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
@@ -121,7 +121,7 @@ Angenommen, eine [!UICONTROL Automated Personalization] hat zwei Standorte mit j
 
 ## Wann sollte ich meine [!UICONTROL Automated Personalization] anhalten? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
-+++Siehe Details
++++Details anzeigen
 
 [!UICONTROL Automated Personalization] kann als „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre [!UICONTROL Automated Personalization] zu stoppen. Wenn Sie wesentliche Änderungen an den Inhalten vornehmen möchten, die den derzeit in Ihrer [!UICONTROL Automated Personalization] enthaltenen Angeboten nicht ähnlich sind, empfiehlt es sich, eine neue Aktivität zu starten. Das Starten einer neuen Aktivität hilft anderen Benutzern, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten zu verwechseln oder in Beziehung zu setzen.
 
@@ -129,7 +129,7 @@ Angenommen, eine [!UICONTROL Automated Personalization] hat zwei Standorte mit j
 
 ## Wie lange sollte ich warten, bis Modelle erstellt werden? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-+++Siehe Details
++++Details anzeigen
 
 Die Zeit, die zum Erstellen von Modellen in Ihrer Aktivität benötigt wird, hängt in der Regel vom Traffic zu Ihren ausgewählten Aktivitäts-Standorten und Ihrer Erfolgsmetrik der Aktivität ab. Verwenden Sie die [Traffic-Schätzung](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) um die erwartete Zeitdauer für die Erstellung von Modellen in Ihrer Aktivität zu bestimmen.
 
@@ -137,7 +137,7 @@ Die Zeit, die zum Erstellen von Modellen in Ihrer Aktivität benötigt wird, hä
 
 ## Ein Modell wird innerhalb meiner [!UICONTROL Automated Personalization] erstellt. Sind die Besuche bei diesem Erlebnis personalisiert? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
-+++Siehe Details
++++Details anzeigen
 
 Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
 
@@ -145,7 +145,7 @@ Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, da
 
 ## Wann kann ich die Ergebnisse meiner [!UICONTROL Automated Personalization]-Aktivität anzeigen? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
-+++Siehe Details
++++Details anzeigen
 
 Sie können die Ergebnisse Ihrer [!UICONTROL Automated Personalization]-Aktivität anzeigen, sobald Sie über mindestens zwei Erlebnisse mit für das Erlebnis erstellten Modellen (grünes Häkchen) verfügen, für das Modelle erstellt wurden.
 
@@ -153,7 +153,7 @@ Sie können die Ergebnisse Ihrer [!UICONTROL Automated Personalization]-Aktivit�
 
 ## Wie kann ich die Zeit verkürzen, die für die Erstellung von Modellen in meiner [!UICONTROL Automated Personalization]-Aktivität benötigt wird? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
-+++Siehe Details
++++Details anzeigen
 
 Überprüfen Sie die Einrichtung Ihrer Aktivität und stellen Sie fest, ob Sie Änderungen vornehmen möchten, um die Geschwindigkeit zu verbessern, mit der Modelle erstellt werden.
 
@@ -166,7 +166,7 @@ Sie können die Ergebnisse Ihrer [!UICONTROL Automated Personalization]-Aktivit�
 
 ## Warum sehen Besucher Erlebnisse für eine [!UICONTROL Automated Personalization] Aktivität, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-+++Siehe Details
++++Details anzeigen
 
 [!UICONTROL Automated Personalization] Aktivitäten werden einmal pro Sitzung ausgewertet. Wenn es aktive Sitzungen gibt, die sich für ein bestimmtes Erlebnis qualifiziert haben, und jetzt neue Angebote hinzugefügt wurden, sehen Besucher den neuen Inhalt zusammen mit den zuvor angezeigten Angeboten. Da sich diese Besucher zuvor für diese Erlebnisse qualifiziert haben, sehen sie diese Erlebnisse während der Sitzung weiterhin. Um dies bei jedem Seitenbesuch auszuwerten, sollten Sie zum Aktivitätstyp [!UICONTROL Experience Targeting] (XT) wechseln.
 
@@ -174,7 +174,7 @@ Sie können die Ergebnisse Ihrer [!UICONTROL Automated Personalization]-Aktivit�
 
 ## Kann ich die Zielmetrik inmitten einer [!UICONTROL Automated Personalization] ändern? {#change-metric}
 
-+++Siehe Details
++++Details anzeigen
 
 [!DNL Adobe] empfiehlt nicht, die Zielmetrik inmitten einer Aktivität zu ändern. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. [!DNL Adobe] übernehmen keine Garantie dafür, was passiert, wenn die Zielmetrik in einer Aktivität nach deren Ausführung geändert wird.
 
@@ -184,7 +184,7 @@ Diese Empfehlung gilt für [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]
 
 ## Kann ich die Option [!UICONTROL Reset Report Data] während der Ausführung einer [!UICONTROL Automated Personalization] verwenden?
 
-+++Siehe Details
++++Details anzeigen
 
 [!DNL Adobe] empfiehlt nicht, die Option [!UICONTROL Reset Report Data] für [!UICONTROL Automated Personalization] Aktivitäten zu verwenden. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem [!UICONTROL Automated Personalization]. Anstatt die Option [!UICONTROL Reset Report Data] für [!UICONTROL Automated Personalization] Aktivitäten zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. Diese Leitlinien gelten auch für [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target].
 
@@ -192,7 +192,7 @@ Diese Empfehlung gilt für [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]
 
 ## Wie erstellt [!UICONTROL Automated Personalization] Modelle in Bezug auf Umgebungen?
 
-+++Siehe Details
++++Details anzeigen
 
 Es wird ein Modell erstellt, um die Leistung der personalisierten Strategie im Vergleich zum zufällig bereitgestellten Traffic und dem Versand des gesamten Traffics an das insgesamt erfolgreichste Erlebnis zu ermitteln. Dieses Modell berücksichtigt nur Treffer und Konversionen in der Standardumgebung.
 

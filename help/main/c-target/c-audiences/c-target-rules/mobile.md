@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Um dieses Problem zu beheben, erfasst [!DNL Target] zusätzliche Daten, um iPhon
 
 >[!NOTE]
 >
->Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden und Kundinnen, die at.js verwenden[ müssen ein Upgrade auf at.js Version 1.5.](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher) vornehmen.
+>Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher) [ aufrüsten.
 
 Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werden mit einem OR-Operator verbunden.
 

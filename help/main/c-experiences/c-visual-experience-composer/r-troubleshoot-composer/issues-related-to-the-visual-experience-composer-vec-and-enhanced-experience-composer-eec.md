@@ -7,7 +7,7 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 26%
+ht-degree: 32%
 
 ---
 
@@ -80,7 +80,7 @@ Wenn die CSP-Kopfzeilen Ihrer Website [!DNL Target] Bibliotheken blockieren und 
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie [!DNL Google Chrome] die [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Browsererweiterung verwenden.
+>Zusätzlich zu den folgenden Informationen können Sie [ die ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper[!DNL Google Chrome]Browsererweiterung verwenden.
 
 ![cps_headers-Bild](assets/cps_headers.png)
 
@@ -114,7 +114,7 @@ Standardmäßig blockiert der VEC JavaScript-Elemente. Sie können mit diesen El
 ## Wenn ich ein Element auf der Seite ändere, ändern sich mehrere Elemente. (VEC und EEC)   {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Details
-Wenn dieselbe DOM-Element-ID für mehrere Elemente auf der Seite verwendet wird, werden durch Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine standardmäßige Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine standardmäßige Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
@@ -132,7 +132,7 @@ Um dieses Problem zu beheben, aktivieren Sie die [!UICONTROL Enhanced Experience
 ## Ich möchte Tests auf Seiten einrichten, auf denen die Mbox/[!DNL Target]-Implementierung noch nicht durchgeführt wurde. (VEC und EEC)   {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Details
-Siehe „Ich kann keine Erlebnisse für eine iFrame-Bursting-Site bearbeiten“ weiter oben.
+Siehe oben unter „Ich kann keine Erlebnisse für eine iFrame-zerstörende Website bearbeiten“.
 
 +++
 
@@ -155,6 +155,6 @@ Wenn Sie dieses Problem angezeigt bekommen, tun Sie Folgendes:
 ## Bei Aktivitäten mit automatisierter Personalisierung scheint der Bildtausch im VEC oder EEC nicht zu funktionieren. (VEC und EEC)   {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Details
-Das Hinzufügen eines Bildangebots zu einem Speicherort hat die volle Dimension des ursprünglichen Bildraums in VEC oder EEC. Bei der Bereitstellung wird das Bild nicht erweitert, sondern wie vorhanden angezeigt, sodass die Bereitstellung nicht beeinträchtigt wird.
+Das Hinzufügen eines Bildangebots zu einem Pfad erfordert die vollständige Dimension des ursprünglichen Bildplatzes im VEC oder EEC. Bei der Bereitstellung wird das Bild nicht erweitert, sondern wie vorhanden angezeigt, sodass die Bereitstellung nicht beeinträchtigt wird.
 
 +++

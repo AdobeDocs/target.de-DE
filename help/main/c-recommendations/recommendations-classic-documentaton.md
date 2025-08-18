@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations Classic
-description: Laden Sie eine PDF der alten Adobe Recommendations Classic-Dokumentation herunter.
+description: Laden Sie eine PDF der Legacy-Dokumentation zu Adobe Recommendations Classic herunter.
 title: Wo finde ich die Dokumentation zu Adobe Recommendations Classic?
 feature: Recommendations
 exl-id: e59fbf51-0c2d-4ec3-941d-d10633ce8a28

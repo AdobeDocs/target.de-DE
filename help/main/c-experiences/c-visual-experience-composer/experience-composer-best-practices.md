@@ -7,7 +7,7 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [The EEC will not load an internal QA URL
 ### Verwenden Sie eindeutige IDs für Top-Level- und sonstige Elemente, die sich gut als Test-/Targeting-Kandidaten eignen könnten.
 
 +++Details
-Alles, was sich direkt im Body-Element befindet, sollte eine eindeutige ID haben. Wenn neue Elemente in den Body aufgenommen werden und Code verschoben wird, verfügen wenigstens die übergeordneten Elemente über eine einfachere Erkennungsmethode.
+Alles, was sich unmittelbar innerhalb des Body-Elements befindet, muss über eine eindeutige ID verfügen. Wenn neue Elemente in den Body aufgenommen werden und Code verschoben wird, verfügen wenigstens die übergeordneten Elemente über eine einfachere Erkennungsmethode.
 
 [!DNL Target] erfordert keine IDs, aber die Verwendung von IDs erhöht die Zuverlässigkeit von Erlebnissen, die mit Experience Composer erstellt werden. [!DNL Target] verwendet CSS-Selektoren, um Ihren Inhalt zu ändern, wenn das Erlebnis bereitgestellt wird. Wenn Sie ein Erlebnis bearbeiten, verankert die [!UICONTROL Visual Experience Composer] den Selektor am nächsten Vorgänger mit einem ID-Attribut ungleich null im geänderten HTML-Element. Es wird daher nicht empfohlen, einen Mechanismus zu verwenden, der HTML-ID-Attribute festlegt oder ändert, einschließlich JavaScript-Bibliotheken. Obwohl diese IDs dem [!DNL Target] Experience Composer möglicherweise für die Aktivitätserstellung zur Verfügung stehen, ist die ID, die bei der Erstellung des Erlebnisses verwendet wurde, möglicherweise bei der Ausführung des Erlebnisses nicht verfügbar, wenn JavaScript die ID ändert. Ist eine ID nicht verfügbar, tritt bei dem mit der ID verankerten Selector ein Fehler auf.
 
@@ -74,7 +74,7 @@ Wenn die `!important` CSS-Eigenschaft vorhanden ist, werden von `target.js` wäh
 ### Minimieren Sie die Verwendung von iFrames.
 
 +++Details
-Es empfiehlt sich, die Verwendung von iFrames zu minimieren, um die Seiten- und Testverwaltung zu vereinfachen. Visual Experience Composer kann einige Aktionen in einem iFrame anwenden, aber einige Aktionen, z. B. das Ändern der Größe, funktionieren nicht ordnungsgemäß. Das Verwalten und Anpassen von Seiten, die mehrere iFrames verwenden, ist kompliziert. Daher kann auch das Testen von Seiten mit vielen iFrames zu Problemen führen.
+Es empfiehlt sich, den Einsatz von iFrames zu minimieren, um die Seiten- und Testverwaltung zu vereinfachen. Visual Experience Composer kann einige Aktionen in einem iFrame anwenden, aber einige Aktionen, z. B. das Ändern der Größe, funktionieren nicht ordnungsgemäß. Das Verwalten und Anpassen von Seiten, die mehrere iFrames verwenden, ist kompliziert. Daher kann auch das Testen von Seiten mit vielen iFrames zu Problemen führen.
 
 +++
 
@@ -139,14 +139,14 @@ Die Tags `<strong>` und `<em>` können zu unerwarteten Ergebnissen führen.
 ### Seien Sie beim Entfernen von Formularfeldern vorsichtig.
 
 +++Details
-Bestimmte Formularfelder können für die Übermittlung obligatorisch sein. Das Entfernen dieser Formularfelder kann Auswirkungen auf Übermittlungen haben.
+Bestimmte Formularfelder können Pflichtfelder für die Übermittlung sein. Das Entfernen dieser Formularfelder kann Auswirkungen auf Übermittlungen haben.
 
 +++
 
 ### Schließen Sie keine `mboxCreate` in Skripte ein.
 
 +++Details
-Da `mboxCreate` `document.write` verwendet, wird nicht empfohlen, `mboxCreate` in Skripte einzuschließen. Verwenden Sie stattdessen `mboxDefine` und `mboxUpdate`, die den gleichen Zweck erfüllen.
+Da `mboxCreate` `document.write` verwendet, ist es nicht empfehlenswert, `mboxCreate` in Skripts einzubinden. Verwenden Sie stattdessen `mboxDefine` und `mboxUpdate`, die den gleichen Zweck erfüllen.
 
 +++
 
@@ -177,7 +177,7 @@ Wenn Sie die [!UICONTROL Enhanced Experience Composer] verwenden, wird die Websi
 ### Wichtiger Text auf der Seite, der für das Targeting verwendet wird, sollte innerhalb eines Elements in HTML-Code geschrieben werden.
 
 +++Details
-Sie können beispielsweise keinen Warenkorbtext in VEC als Ziel verwenden, wenn Ihr Code wie folgt aussieht:
+Beispielsweise können Sie im VEC nicht auf Einkaufswagen-Text zielen, wenn Ihr Code wie folgt aussieht:
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -244,14 +244,14 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des [!UICONTROL V
 ### Die [!UICONTROL Move]-Funktion unterstützt keinen z-Index.
 
 +++Details
-Da keine Z-Indexfunktion vorhanden ist, kann das verschobene Element nicht auf ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Da keine z-index-Funktionalität vorhanden ist, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 
 ### Eine Neuanordnung von Elementen wirkt sich auf das Klick-Tracking aus.
 
 +++Details
-Wenn ein für das Klick-Tracking markiertes Element neu angeordnet wird, werden die Pfade der neu angeordneten Elemente geändert. Infolgedessen ist das Element an dem Ort, an dem sich das Originalelement vor der Neuanordnung befunden hat, das Element, dessen Klicks verfolgt werden.
+Wenn ein für Klick-Tracking gekennzeichnetes Element neu angeordnet wird, ändern sich die Pfade der neu angeordneten Elemente. Infolgedessen ist das Element an dem Ort, an dem sich das Originalelement vor der Neuanordnung befunden hat, das Element, dessen Klicks verfolgt werden.
 
 Dies passiert, weil sowohl der Code zur Bereitstellung des Aktivitäteninhalts als auch der Code für das Klick-Tracking in einem einzigen Code enthalten ist, der für die Seite bereitgestellt wird. Wenn Sie zu einer anderen Seite navigieren und Klick-Tracking einrichten, dann werden der Aktivitätsinhalts-Code und der Klick-Trackingcode für diese Seite bereitgestellt. Wenn die Klick-Tracking-Seite eine ähnliche Struktur aufweist wie die Seite, auf der der Test ausgeführt wird, dann kann der Testinhalt auch auf der Klick-Tracking-Seite erscheinen.
 
@@ -267,14 +267,14 @@ Wenn eine Mbox ein Angebot enthält, kann das Einfügen eines Elements als `inse
 ### Beim Bearbeiten von über- und untergeordneten Elementen sollten Sie zunächst das übergeordnete Element bearbeiten.
 
 +++Details
-Wenn Sie eine Bildaktion gegen ein Element austauschen und dann den Text oder HTML im übergeordneten Element bearbeiten, können Versandprobleme auftreten. Der beste Arbeitsablauf besteht darin, das übergeordnete Element zu bearbeiten, bevor Sie das Bild im untergeordneten Element austauschen.
+Wenn Sie eine Bildaktion für ein Element austauschen und anschließend den Text oder das HTML für das übergeordnete Element bearbeiten, können Bereitstellungsprobleme auftreten. Der beste Arbeitsablauf besteht darin, das übergeordnete Element zu bearbeiten, bevor Sie das Bild im untergeordneten Element austauschen.
 
 +++
 
 ### Es kann kein Seitenelement ausgewählt werden, das eine Mbox als untergeordnetes Element enthält.
 
 +++Details
-Wenn Ihre Seite beispielsweise Folgendes enthält:
+Wenn Ihre Seite zum Beispiel Folgendes enthält:
 
 ```html
 <div> 
@@ -325,7 +325,7 @@ if(!window.adobeVecExtension) {
 ### Sie können ein Element nicht aus einem Container mit einer darauf folgenden CSS-Eigenschaft verschieben.
 
 +++Details
-Ein Element kann nicht aus einem Container verschoben werden, auf den eine CSS-Eigenschaft folgt.
+Ein Element kann nicht außerhalb eines Behälters verschoben werden, auf den eine CSS-Eigenschaft folgt.
 
 +++
 
@@ -346,7 +346,7 @@ Aktionen wie [!UICONTROL Edit Class] und [!UICONTROL Rearrange] sind innerhalb e
 ### Sie sollten dasselbe Element nicht neu ordnen und verschieben.
 
 +++Details
-Wenn ein Element an eine andere Position verschoben wurde und Sie den übergeordneten Container auswählen und versuchen, die untergeordneten Elemente neu anzuordnen, ist das verschobene Element nicht betroffen und bleibt an der Position, an der es sich befindet. Die Neuordnung wird möglicherweise nicht wie gewünscht dargestellt.
+Wenn ein Element an einen anderen Ort verschoben wurde und Sie den übergeordneten Behälter auswählen und versuchen, die untergeordneten Elemente neu zu ordnen, ist das verschobene Element nicht betroffen und bleibt, wo es ist. Die Neuordnung wird möglicherweise nicht wie gewünscht dargestellt.
 
 +++
 
@@ -362,14 +362,14 @@ Um dieses Problem zu umgehen, wählen Sie den übergeordneten Container aus und 
 ### Größe von Bildern kann nicht in einer Mbox geändert werden.
 
 +++Details
-Wenn Sie ein Bild in einem Mbox-Element austauschen und dann versuchen, die Größe dieses Bildes entsprechend der Größe des Mbox-Elements zu ändern, ist die Größenanpassung nicht zulässig.
+Wenn Sie ein Bild in einem Mbox-Element tauschen und dann versuchen, die Größe des Bilds entsprechend der Mbox-Elementgröße anzupassen, ist die Größenanpassung nicht gestattet.
 
 +++
 
 ### Nachdem Sie ein Bild ausgetauscht haben, können Sie die [!UICONTROL Edit] Aktion nicht mehr auswählen.
 
 +++Details
-Nach dem Austauschen des Bildes können Sie die Scene7-URL nicht bearbeiten.
+Nach dem Bildtausch können Sie die Scene7-URL nicht bearbeiten.
 
 +++
 
@@ -383,14 +383,14 @@ Beispiel: Video, Audio-Tags, Einbetten, iFrames, Frames.
 ### Klick-Tracking für Ankerelemente, die etwas anderes als Text oder Bild-Tags enthalten, funktioniert nicht.
 
 +++Details
-Beispielsweise funktioniert das Klick-Tracking nicht, wenn das Element JavaScript enthält.
+Zum Beispiel funktioniert Klick-Tracking nicht, wenn das Element JavaScript enthält.
 
 +++
 
 ### Seiten müssen URL-Parameter akzeptieren, damit VEC funktioniert.
 
 +++Details
-Einige Websites entfernen URL-Parameter für ihre Seiten. Der VEC benötigt diese Parameter jedoch.
+Einige Websites entfernen sämtliche URL-Parameter ihrer Seiten. Der VEC benötigt diese Parameter jedoch.
 
 +++
 
@@ -426,7 +426,7 @@ Das Skript wird im Rahmen von `target.js` ausgeführt, nachdem die Seite geladen
 ### Durch das Einfügen eines Bildes aus der [!UICONTROL Content] (Scene7) und das Bearbeiten des HTMLS wird die Bild-URL beschädigt.
 
 +++Details
-Fügen Sie ein Ankerelement im div „customHeaderMessage“ mit einem Platzhaltertext hinzu:
+Fügen Sie ein Ankerelement innerhalb des div „customHeaderMessage“ sowie Platzhaltertext ein:
 
 ```html
 <a href="#"> 

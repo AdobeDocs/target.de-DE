@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -99,7 +99,7 @@ Um den Bericht in [!DNL Analytics] statt in [!DNL Target] anzuzeigen, klicken Si
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Analytics für Adobe Target (A4T) (4:32) ![Übersichts-Badge](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Übersichts-Badge](/help/main/assets/overview.png)
 
 In diesem Video wird erläutert, wie sich [!DNL Analytics] als eine [!DNL Target]-Berichtsquelle einsetzen lässt, die die Analysen Ihres Marketing-Programms unterstützt.
 

@@ -2,7 +2,7 @@
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung;Reporting;Berichte;Zusammenfassungsbericht für automatisches Targeting;Zusammenfassungsbericht;automatisierte Segmente;wichtige Attribute
 description: Erfahren Sie, wie [!UICONTROL Auto-Target] Aktivitätsberichte in interpretiert werden [!DNL Target].
 title: Wie interpretiere ich einen [!UICONTROL Auto-Target] Bericht?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

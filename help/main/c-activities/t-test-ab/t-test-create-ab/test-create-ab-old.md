@@ -85,7 +85,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test]:
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in der [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
-1. Klicken Sie oben in der [!UICONTROL Visual Experience Composer] auf **[!UICONTROL Targeting]** , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
+1. Klicken Sie oben in der **[!UICONTROL Targeting]** auf [!UICONTROL Visual Experience Composer] , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
 
    Das Flussdiagramm wird geöffnet.
 
@@ -125,11 +125,11 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test]:
 
 Nachdem Sie die Aktivität erstellt haben, werden auf der Registerkarte [!UICONTROL Overview] Informationen zur Aktivität angezeigt, einschließlich eines Diagramms Ihrer Aktivität.
 
-## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+## Schulungsvideo: Erstellen von A/B-Tests (:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird.
 
 * Erstellen einer [!UICONTROL A/B Test] Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -2,7 +2,7 @@
 keywords: Automated Personalization;Angebot;Reporting;Gruppe;Berichtsgruppe;Zuordnung
 description: Erfahren Sie, wie Sie in -Aktivitäten  [!DNL Adobe Target] [!UICONTROL Automated Personalization] Berichtsgruppen für Angebote verwenden.
 title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization] Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -37,7 +37,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
    ![Symbol „Inhalt verwalten“](/help/main/c-reports/assets/ap_manage_content.png)
 
-1. Klicken Sie oben im Dialogfeld [!UICONTROL Manage Content] auf die Registerkarte **[!UICONTROL Offers]** .
+1. Klicken Sie oben im Dialogfeld **[!UICONTROL Offers]** auf die Registerkarte [!UICONTROL Manage Content] .
 1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie den Mauszeiger über das gewünschte Angebot bewegen und dann auf das Symbol für den **[!UICONTROL Reporting Group]** klicken.
 
    ![Symbol für Berichtsgruppe](/help/main/c-reports/assets/ap_manage_content_2.png)

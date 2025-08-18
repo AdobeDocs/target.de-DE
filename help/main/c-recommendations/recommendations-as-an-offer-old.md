@@ -2,7 +2,7 @@
 keywords: Recommendations; Angebot
 description: Erfahren Sie, wie Sie Adobe Recommendations als Angebot in A/B-Test-Aktivitäten (einschließlich automatischer Zuordnung und automatischen Targetings) und Erlebnis-Targeting(XT)-Aktivitäten nutzen.
 title: Wie verwende ich Recommendations als Angebot in anderen Aktivitätstypen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -55,7 +55,7 @@ Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience 
 
 1. Klicken Sie auf **[!UICONTROL Create Criteria]** oder wählen Sie ein vorhandenes [Kriterium](/help/main/c-recommendations/c-algorithms/algorithms.md) aus und klicken Sie dann auf **[!UICONTROL Next]** , um das Dialogfeld [!UICONTROL Select Design] anzuzeigen.
 
-1. Klicken Sie auf **[!UICONTROL Create Design]** oder wählen Sie ein vorhandenes [Design](/help/main/c-recommendations/c-design-overview/design-overview.md) aus und klicken Sie dann auf **[!UICONTROL &#x200B; Next]**.
+1. Klicken Sie auf **[!UICONTROL Create Design]** oder wählen Sie ein vorhandenes [Design](/help/main/c-recommendations/c-design-overview/design-overview.md) aus und klicken Sie dann auf **[!UICONTROL  Next]**.
 
 1. Geben Sie im Dialogfeld [!UICONTROL Options] Folgendes an:
 

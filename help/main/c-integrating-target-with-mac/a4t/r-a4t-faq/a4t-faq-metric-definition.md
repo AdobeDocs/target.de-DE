@@ -1,13 +1,13 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Metrik; Metrikdefinitionen
-description: Hier finden Sie Antworten auf Fragen zu Metrikdefinitionen und zur Verwendung von Analytics for [!DNL Target] (A4T). Mit A4T können Sie Analytics-Berichte mit Adobe-Aktivitäten  [!DNL Target] .
+description: Hier finden Sie Antworten auf Fragen zu Metrikdefinitionen und zur Verwendung von Analytics for [!DNL Target] (A4T). Mit A4T können Sie Analytics-Berichte mit Adobe [!DNL Target] Aktivitäten verwenden.
 title: Wo finde ich Informationen zu Metrikdefinitionen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 31%
+source-wordcount: '351'
+ht-degree: 36%
 
 ---
 
@@ -18,7 +18,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zu Metrikdefinitionen un
 ## Wie ist die Gültigkeit für eine Aktivitätsmitgliedschaft? Wie lange nach Eintritt der Aktivität werden die Aktionen der Besucher in der Aktivität gezählt, wenn sie sie nicht erneut sehen? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Antwort
-Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten Interaktion eines Besuchers mit der Aktivität. Diese Einstellung kann bei Bedarf von ClientCare angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
+Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten Interaktion des Besuchers mit der Aktivität. Diese Einstellung kann bei Bedarf von ClientCare angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
 
 +++
 
@@ -35,10 +35,10 @@ Für Nicht-A4T-Aktivitäten können Sie die [erweiterten Einstellungsoptionen](/
 
 +++
 
-## Was sind errechnete Metriken und wie ersetzen sie die SiteCatalyst:Event-Mbox, die ich vorher verwendet habe?  {#section_D59F4719E6B94758A2187427C17F8EF3}
+## Was sind berechnete Metriken und wie ersetzen sie die SiteCatalyst:Event-Mbox, die ich verwendet habe? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
 +++Antwort
-Mit berechneten Metriken können Sie benutzerdefinierte Metriken erstellen, die aus Segmenten oder mathematischen Berechnungen abgeleitet werden. In der Vergangenheit hätten Sie vielleicht die `SiteCatlayst:Event` Mbox verwendet, in der `evar27=shoes` und das Ereignis `purchase` lauteten. Jetzt erstellen Sie ein Segment mit `evar27=shoes` und anschließend eine errechnete Metrik, in der das Ereignis mit dem übernommenen Segment `purchase` lautet. Diese Metriken können jederzeit erstellt werden, auch nachdem die Aktivität gestartet wurde. Anschließend können sie für jeden Bericht in Analytics verwendet werden.
+Mit errechneten Metriken können Sie benutzerdefinierte Metriken erstellen, die aus Segmenten oder mathematischen Berechnungen abgeleitet wurden. In der Vergangenheit hätten Sie vielleicht die `SiteCatlayst:Event` Mbox verwendet, in der `evar27=shoes` und das Ereignis `purchase` lauteten. Jetzt erstellen Sie ein Segment mit `evar27=shoes` und anschließend eine errechnete Metrik, in der das Ereignis mit dem übernommenen Segment `purchase` lautet. Diese Metriken können jederzeit erstellt werden, auch nachdem die Aktivität gestartet wurde. Anschließend können sie für jeden Bericht in Analytics verwendet werden.
 
 +++
 

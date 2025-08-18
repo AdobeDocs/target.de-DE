@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Legen Sie anhand von Zielgruppenkriterien fest [!DNL Target]  welche Site-Besucher Ihrer Adobe-Aktivität beitreten.
+description: Definieren, welche Site-Besucher basierend  [!DNL Target]  Zielgruppenkriterien an Ihrer Adobe-Aktivität teilnehmen.
 title: Wie wähle ich eine Zielgruppe in einer A/ [!DNL Target] -Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
@@ -62,6 +62,6 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 
 ## Bearbeiten oder Kopieren einer Audience
 
-Um eine Audience zu bearbeiten oder zu kopieren, klicken Sie im [!UICONTROL Add Audience]-Dialogfeld neben der gewünschten Audience auf das [!UICONTROL More Actions]-Symbol ![Mehr Aktionen-](/help/main/assets/icons/More.svg) ) und klicken Sie dann auf [!UICONTROL Edit] oder [!UICONTROL Copy].
+Um eine Audience zu bearbeiten oder zu kopieren, klicken Sie im [!UICONTROL More Actions]-Dialogfeld neben der gewünschten Audience auf das ![-Symbol ](/help/main/assets/icons/More.svg)Mehr Aktionen-[!UICONTROL Add Audience] ) und klicken Sie dann auf [!UICONTROL Edit] oder [!UICONTROL Copy].
 
 Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Audience erstellen, Ihre Änderungen vornehmen und sie dann als neue Audience speichern.

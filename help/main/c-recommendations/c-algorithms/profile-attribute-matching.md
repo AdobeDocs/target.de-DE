@@ -2,7 +2,7 @@
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; dynamisch; Profilattributübereinstimmung
 description: Erfahren Sie, wie Sie  [!DNL Target Recommendations]  dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
 title: Wie filtere ich nach der Zuordnung von Profilattributen in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -65,10 +65,10 @@ Angenommen, Sie haben ein Profilskript erstellt, um zu verfolgen und zu zählen,
 
 Wenn der Besucher dann zur Startseite zurückkehrt, sieht er gefilterte Empfehlungen, je nachdem, ob auf weitere kleine oder große Fans geklickt wurde.
 
-Recommendations basiert auf der Anzeige kleinerer Fans auf der Website:
+Empfehlungen, die auf der Anzeige kleinerer Fans auf der Website basieren:
 
 ![Empfehlungen für kleine Fans](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations basiert auf der Anzeige größerer Fans auf der Website:
+Empfehlungen, die auf der Anzeige größerer Fans auf der Website basieren:
 
 ![Empfehlungen für große Fans](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

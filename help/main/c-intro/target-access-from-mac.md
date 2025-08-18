@@ -37,7 +37,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target] von [!DNL Adobe Experien
 
    ![Adobe-Konto](/help/main/c-intro/assets/adobe-account.png)
 
-1. **[!UICONTROL Add]** Sie im Abschnitt **[!UICONTROL Preferred languages]** auf der [!UICONTROL Account].
+1. **[!UICONTROL Preferred languages]** Sie im Abschnitt [!UICONTROL Account] auf der **[!UICONTROL Add]**.
 
    Der Text gibt an, dass dies die Sprache ist, die Sie verwenden [!DNL Adobe], wenn Adobe sich an Sie wendet. Dies ist auch die Sprache, die in der Benutzeroberfläche für [!DNL Target] und andere [!DNL Adobe Experience Cloud] verwendet wird. Sie können mehr als eine Sprache auswählen.
 

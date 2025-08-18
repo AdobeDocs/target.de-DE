@@ -1,8 +1,8 @@
 ---
 keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
-description: Erfahren Sie, wie Sie in  [!DNL Target] Recommendations Einschlussregeln für Kriterien und Promotions erstellen.
+description: Erfahren Sie, wie Sie in  [!DNL Target] Recommendations für Kriterien und Promotions Einschlussregeln erstellen.
 title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -25,7 +25,7 @@ Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 
 ### Filterregeln zu Kriterien hinzufügen
 
-1. Klicken [ beim Erstellen von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) unter **[!UICONTROL Inclusion Rules]** auf **[!UICONTROL Add Filtering Rule]**.
+1. Klicken [ beim Erstellen von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) unter **[!UICONTROL Add Filtering Rule]** auf **[!UICONTROL Inclusion Rules]**.
 
    ![Filterregel hinzufügen](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 

@@ -1,8 +1,8 @@
 ---
 keywords: Recommendations-Algorithmen; Modellschulung; Modellbereitstellung; Inhaltsbereitstellung; artikelbasiert; benutzerbasiert; Beliebtheitsbasiert; Warenkorbbasiert; benutzerdefinierte Kriterien
 description: Erfahren Sie mehr über die in  [!DNL Target Recommendations] verwendeten Algorithmen, einschließlich Modellschulung und Modellbereitstellung.
-title: Wo erhalte ich Informationen über die wissenschaftlichen Grundlagen der Recommendations-Algorithmen von Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Wo erhalte ich Informationen über die wissenschaftlichen Grundlagen der Empfehlungsalgorithmen von Target?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -51,13 +51,13 @@ Algorithmen für kollaborative Filterempfehlungen für Elemente basieren auf der
 
 Für den Algorithmus „Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft“ besteht das Ziel darin, eine Ähnlichkeit (A,B) zwischen allen Artikelpaaren zu berechnen. Für ein bestimmtes Element A werden die wichtigsten Empfehlungen dann nach ihrer Ähnlichkeit (A, B) sortiert.
 
-Ein Beispiel für eine solche Ähnlichkeit ist das gleichzeitige Auftreten von Artikeln: eine einfache Zählung der Anzahl der Benutzer, die beide Artikel gekauft haben. Obwohl intuitiv, ist eine solche Metrik insofern naiv, als sie darauf ausgerichtet ist, beliebte Elemente zu empfehlen. Wenn zum Beispiel bei einem Lebensmittelhändler die meisten Leute Brot kaufen, gibt es bei allen Artikeln ein hohes Maß an Brot, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen eine komplexere Ähnlichkeitsmetrik namens Log Likelihood Ratio (LLR). Diese Größe ist groß, wenn die Wahrscheinlichkeit des gleichzeitigen Auftretens von zwei Elementen, A und B, sehr unterschiedlich zu der Wahrscheinlichkeit ist, dass sie nicht gleichzeitig auftreten. Zur Konkretisierung sollten Sie einen Fall des [!UICONTROL People Who Viewed This, Bought That] Algorithmus betrachten. Die LLR-Ähnlichkeit ist groß, wenn die Wahrscheinlichkeit, dass B gekauft wurde, *nicht* unabhängig davon ist, ob jemand A betrachtet hat.
+Ein Beispiel für eine solche Ähnlichkeit ist das gleichzeitige Auftreten von Artikeln: eine einfache Zählung der Anzahl der Benutzer, die beide Artikel gekauft haben. Obwohl intuitiv, ist eine solche Metrik insofern naiv, als sie darauf ausgerichtet ist, beliebte Elemente zu empfehlen. Wenn zum Beispiel in einem Lebensmittelgeschäft in retailer die meisten Leute Brot kaufen, gibt es Brot in hohem Maße gleichzeitig mit allen Artikeln, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen eine komplexere Ähnlichkeitsmetrik namens Log Likelihood Ratio (LLR). Diese Größe ist groß, wenn die Wahrscheinlichkeit des gleichzeitigen Auftretens von zwei Elementen, A und B, sehr unterschiedlich zu der Wahrscheinlichkeit ist, dass sie nicht gleichzeitig auftreten. Zur Konkretisierung sollten Sie einen Fall des [!UICONTROL People Who Viewed This, Bought That] Algorithmus betrachten. Die LLR-Ähnlichkeit ist groß, wenn die Wahrscheinlichkeit, dass B gekauft wurde, *nicht* unabhängig davon ist, ob jemand A betrachtet hat.
 
 Wenn z. B.
 
 ![Formel für den angezeigten/gekauften Algorithmus](assets/formula.png)
 
-dann sollte Element B nicht mit Element A empfohlen werden. Die vollständigen Details dieser Ähnlichkeitsberechnung des Log-Likelihood-Verhältnisses sind [ dieser PDF ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+dann sollte Element B nicht mit Element A empfohlen werden. Die vollständigen Details dieser Ähnlichkeitsberechnung des Log-Wahrscheinlichkeitsverhältnisses sind [dieser PDF) ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgenden Diagramm dargestellt:
 
@@ -65,7 +65,7 @@ Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -73,7 +73,7 @@ Die Einzelheiten dieser Schritte lauten wie folgt:
    * **Berechnung der Elementähnlichkeit**: Dies ist der wichtigste Berechnungsschritt: Berechnung der Ähnlichkeit des Log-Wahrscheinlichkeitsverhältnisses zwischen allen möglichen Elementpaaren und Rangfolge der Elementpaare nach diesem Ähnlichkeitswert.
    * **Offline-**: Schließlich werden alle weiteren anwendbaren dynamischen Filter angewendet (z. B. dynamische Kategorieausschlüsse). Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert, um für die Bereitstellung verfügbar zu sein.
 
-* **Modellbereitstellung**: Recommendations-Inhalte werden vom globalen &quot;Edge[Netzwerk“ von [!DNL Target] bereitgestellt](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wenn Mbox-Anfragen an [!DNL Target] gesendet werden und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird die Anfrage für den entsprechenden [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) für den Recommendations-Algorithmus entweder aus der Anfrage analysiert oder aus dem Benutzerprofil nachgeschlagen und dann zum Abrufen der in den vorherigen Schritten berechneten Recommendations verwendet. Zu diesem Zeitpunkt werden weitere dynamische Filter angewendet, bevor das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md) gerendert wird.
+* **Modellbereitstellung**: Recommendations-Inhalte werden vom globalen &quot;Edge[!DNL Target]Netzwerk“ von [ bereitgestellt](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wenn Mbox-Anfragen an [!DNL Target] gesendet werden und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird die Anfrage für den entsprechenden [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) für den Recommendations-Algorithmus entweder aus der Anfrage analysiert oder aus dem Benutzerprofil nachgeschlagen und dann zum Abrufen der in den vorherigen Schritten berechneten Recommendations verwendet. Zu diesem Zeitpunkt werden weitere dynamische Filter angewendet, bevor das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md) gerendert wird.
 
 ## Ähnlichkeit des Inhalts
 
@@ -89,7 +89,7 @@ Obwohl die Aspekte der Modellbereitstellung und Inhaltsbereitstellung der Inhalt
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [!DNL Target] aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[!DNL Target]Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [ aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modell-**:
 
@@ -119,7 +119,7 @@ Zu den Algorithmen gehören:
 
 Die neuesten Ergänzungen der [!DNL Target] Suite von Recommendations-Algorithmen sind [!UICONTROL Recommended For You] und eine Reihe von Warenkorb-basierten Recommendations-Algorithmen. Beide Algorithmustypen verwenden kollaborative Filtertechniken, um individuelle, auf Elementen basierende Empfehlungen zu erstellen. Zur Laufzeit werden dann mehrere Elemente im Browser-Verlauf (z. B. [!UICONTROL Recommended For You]) des Benutzers oder der aktuelle Warenkorb des Benutzers (für Warenkorb-basierte Recommendations) verwendet, um diese auf Elementen basierenden Recommendations abzurufen, die dann zur endgültigen Liste der Recommendations zusammengeführt werden. Beachten Sie, dass es viele Varianten personalisierter Empfehlungsalgorithmen gibt. Die Wahl eines Algorithmus mit mehreren Schlüsseln bedeutet, dass Empfehlungen sofort verfügbar sind, nachdem ein Besucher einen Navigationsverlauf hat, und dass Empfehlungen aktualisiert werden können, um auf das neueste Besucherverhalten zu reagieren.
 
-Diese Algorithmen bauen auf den grundlegenden kollaborativen Filtertechniken auf, die im Abschnitt Elementbasierte Empfehlungen beschrieben werden, enthalten jedoch auch eine Hyperparameteroptimierung, um die optimale Ähnlichkeitsmetrik zwischen Elementen zu ermitteln. Der Algorithmus führt eine chronologische Aufteilung der Verhaltensdaten für jede Benutzerin und jeden Benutzer durch und trainiert Empfehlungsmodelle für die früheren Daten, während versucht wird, die Elemente vorherzusagen, die eine Benutzerin oder ein Benutzer später ansieht oder kauft. Anschließend wird die Ähnlichkeitsmetrik ausgewählt, die die optimale [mittlere durchschnittliche Genauigkeit](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) ergibt.
+Diese Algorithmen bauen auf den grundlegenden kollaborativen Filtertechniken auf, die im Abschnitt Elementbasierte Empfehlungen beschrieben werden, enthalten jedoch auch eine Hyperparameteroptimierung, um die optimale Ähnlichkeitsmetrik zwischen Elementen zu ermitteln. Der Algorithmus führt eine chronologische Aufteilung der Verhaltensdaten für jede Benutzerin und jeden Benutzer durch und trainiert Empfehlungsmodelle für die früheren Daten, während versucht wird, die Elemente vorherzusagen, die eine Benutzerin oder ein Benutzer später ansieht oder kauft. Anschließend wird die Ähnlichkeitsmetrik ausgewählt, die die optimale [mittlere durchschnittliche Genauigkeit]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) ergibt.
 
 Die Logik der Schritte zum Trainieren und Bewerten von Modellen wird im folgenden Diagramm dargestellt:
 
@@ -127,7 +127,7 @@ Die Logik der Schritte zum Trainieren und Bewerten von Modellen wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Both Recommended For You]- und Warenkorbalgorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die beim Implementieren von [Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Both Recommended For You]- und Warenkorbalgorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die beim Implementieren von [Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -139,7 +139,7 @@ Die Einzelheiten dieser Schritte lauten wie folgt:
 
   ![Formel für die Trainings-Berechnung](assets/formula4.png)
 
-   * **Bewertung des Elementähnlichkeitsmodells**: Die Modellevaluierung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und anhand von Prognosen zum Testdatensatz. Die Online-Bewertungsphase wird nachgeahmt, indem die Elementnutzung jedes Benutzers im Testdatensatz chronologisch sortiert und dann 100 Empfehlungen für sortierte Untergruppen von Elementen gegeben werden, um spätere Ansichten und Käufe vorherzusagen. Eine Metrik zum Abrufen von Informationen, [Mean Average Precision](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), wird verwendet, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Elemente weiter oben in der Liste der Empfehlungen, die eine wichtige Eigenschaft für Rangfolgesysteme ist.
+   * **Bewertung des Elementähnlichkeitsmodells**: Die Modellevaluierung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und anhand von Prognosen zum Testdatensatz. Die Online-Bewertungsphase wird nachgeahmt, indem die Elementnutzung jedes Benutzers im Testdatensatz chronologisch sortiert und dann 100 Empfehlungen für sortierte Untergruppen von Elementen gegeben werden, um spätere Ansichten und Käufe vorherzusagen. Eine Metrik zum Abrufen von Informationen, [Mean Average Precision]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), wird verwendet, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Elemente weiter oben in der Liste der Empfehlungen, die eine wichtige Eigenschaft für Rangfolgesysteme ist.
    * **Modellauswahl**: Nach der Offline-Auswertung wird das Modell mit der höchsten mittleren Genauigkeit ausgewählt und alle individuellen Element-Element-Empfehlungen werden dafür berechnet.
    * **Offline-**: Die letzte Phase des Modelltrainings ist die Anwendung aller anwendbaren dynamischen Filter. Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert, um für die Bereitstellung verfügbar zu sein.
 

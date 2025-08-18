@@ -2,7 +2,7 @@
 keywords: Deduplizierung;Duplikate zulassen;doppelte Angebote ausschließen;Automated Personalization;doppelte Angebote nicht zulassen;ausschließen;Standardinhalt;Ausschlussgruppe;
 description: Verwalten von Ausschlüssen in  [!DNL Adobe Target] [!UICONTROL Automated Personalization]AP)-Aktivitäten. Erstellen Sie Ausschlussgruppen und schließen Sie doppelte Angebote, bestimmte Erlebnisse und Standardinhalte aus.
 title: Wie verwalte ich Ausschlüsse in [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -124,7 +124,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalte mithilfe der [!UICONTROL Form-Based Experience Composer] aus:**
 
-1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität unter **[!UICONTROL Content]** auf **[!UICONTROL Change Text/HTML]** oder **[!UICONTROL Change Image Offer]** .
+1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität unter **[!UICONTROL Change Text/HTML]** auf **[!UICONTROL Change Image Offer]** oder **[!UICONTROL Content]** .
 1. Erstellen Sie im Dialogfeld einen neuen Inhalt und deaktivieren Sie **[!UICONTROL Include]** rechts neben dem Standardinhalt (oder deaktivieren Sie die Option Standardbild/Standardvideo auf dem [!UICONTROL Select Content]).
 
    Je nach Inhalts- oder Angebotstyp befindet sich das Kontrollkästchen [!UICONTROL Include] an einer etwas anderen Stelle.

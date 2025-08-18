@@ -19,7 +19,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 * Beachten Sie die Orte auf Ihrer Seite, die wahrscheinlich signifikante Ergebnisse produzieren.
 
-  Zum Beispiel führt ein Banner oder ein Heldenbild wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Orte mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Orte auf der Seite.
+  Zum Beispiel führt ein Banner oder ein Hero Image wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Orte mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Orte auf der Seite.
 * Bereiten Sie Ihre Seitenvarianzen vorab vor.
 
   Machen Sie sich mit den unterschiedlichen Inhalten für jedes Angebot vertraut und erstellen Sie Bilder, Text und HTML-Angebote, die Sie wahrscheinlich im Multivarianz-Test verwenden werden.
@@ -65,4 +65,4 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 * Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
-  Sobald Sie ermittelt haben, welche Orte und Inhalte Sie am besten bei der Erreichung Ihrer Ziele unterstützen, können Sie einen A/B-Test ausführen, um die Ergebnisse weiter zu verfeinern. Wenn Sie beispielsweise wissen, welche Orte am wichtigsten sind, testen Sie zwei bestimmte Bilder gegeneinander oder vergleichen Sie den Wortlaut oder die Farben eines Aktionsaufrufs.
+  Sobald Sie ermittelt haben, welche Orte und Inhalte Sie am besten bei der Erreichung Ihrer Ziele unterstützen, können Sie einen A/B-Test ausführen, um die Ergebnisse weiter zu verfeinern. Wenn Sie beispielsweise wissen, welche Orte am wichtigsten sind, testen Sie zwei bestimmte Bilder gegeneinander oder vergleichen Sie den Wortlaut oder die Farben einer call to action.

@@ -1,6 +1,6 @@
 ---
 keywords: Übersicht und Referenz
-description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] mit Adobe Campaign E-Mail-Inhalte optimieren können.
+description: Erfahren Sie, wie Sie mit Adobe  [!DNL Target]  Adobe Campaign E-Mail-Inhalte optimieren können.
 title: Wie kann ich Adobe Campaign  [!DNL Target] ?
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1

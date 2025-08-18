@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -174,10 +174,10 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Kontovoreinstellungen in Adobe Target ![Übersichts-Badge](/help/main/assets/overview.png)
 
-In diesem Video finden Sie Informationen zur Einrichtung von Mobile Viewports. Dies wird ab 4:40 erläutert.
+In diesem Video finden Sie Informationen zum Einrichten von mobilen Viewports, beginnend bei 4:40 im Video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

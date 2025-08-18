@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -111,7 +111,7 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [Debugging von at.js mit dem Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=de){target=_blank}.
+Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Topverkäufe werden nicht in Recommendations angezeigt.   {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -206,12 +206,12 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33823?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Grundlegende Fehlerbehebung in Adobe Target ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33824?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33896?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

@@ -2,13 +2,13 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
 description: Eine Liste der häufig gestellten Fragen und Antworten zu - [!DNL Target Recommendations] .
 title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
 source-wordcount: '3444'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
@@ -103,7 +103,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
@@ -270,7 +270,7 @@ Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen emp
 | lastViewDate | 2021701 |
 | parentCategory | commentary |
 | publishDate | 20210113 |
-| publishDateDisplay | 13. Januar 2021 |
+| publishDateDisplay | &#x200B;13. Januar 2021 |
 
 ### Konfigurieren Sie das Profilskript:
 

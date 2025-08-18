@@ -21,7 +21,7 @@ Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. 
 * [Erstellen einer aktivitätsspezifischen Zielgruppe](/help/main/c-target/creating-activity-only-audience.md) und Targeting
 * [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) um eine Ad-hoc-Zielgruppe zu erstellen
 
-Sie können auch von [!DNL Adobe Analytics] erfasste Zielgruppendaten für die Echtzeit-Zielgruppenbestimmung und -Personalisierung in [!DNL Target] und anderen [!DNL Adobe Experience Cloud]-Anwendungen verwenden. Siehe [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im *Handbuch für zentrale Experience Cloud-Schnittstellenkomponenten*.
+Sie können auch von [!DNL Adobe Analytics] erfasste Zielgruppendaten für die Echtzeit-Zielgruppenbestimmung und -Personalisierung in [!DNL Target] und anderen [!DNL Adobe Experience Cloud]-Anwendungen verwenden. Siehe [Experience Cloud-Zielgruppen](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=de) im *Handbuch für die Komponenten der zentralen Experience Cloud* Benutzeroberfläche.
 
 Es gibt zwei Arten von Zielgruppen in [!DNL Target]:
 
@@ -47,7 +47,7 @@ Die [!UICONTROL Audiences] enthält die Zielgruppen, die Sie in Ihren Aktivität
   >
   >Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert oder ([ mit bestehenden Zielgruppen kombiniert) ](/help/main/c-target/combining-multiple-audiences.md).
   >
-  >Benutzende müssen mindestens [!UICONTROL Approver] Status in haben, [!DNL Target] sie [!DNL Target] [!UICONTROL Destinations] Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]) konfigurieren können.
+  >Benutzende müssen über den Status [!UICONTROL Approver] oder höher verfügen, [!DNL Target] sie [!DNL Target] [!UICONTROL Destinations] in AEP/RTCDP ([!DNL Real-time Customer Data Platform]) konfigurieren können.
   >
   >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](#aep).
 
@@ -64,7 +64,7 @@ Verwenden Sie die Schaltfläche [!UICONTROL Filters] , um die [!UICONTROL Audien
 
 ![Option „Filter“ in der [!UICONTROL Audiences] Liste](assets/filters.png)
 
-Durchsuchen Sie Ihre [!UICONTROL Audiences] mithilfe des [!UICONTROL Search audiences]. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
+Durchsuchen Sie Ihre [!UICONTROL Search audiences] mithilfe des [!UICONTROL Audiences]. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
 Sie können die [!UICONTROL Audiences] nach Zielgruppenname oder nach dem Datum der letzten Änderung sortieren. Wenn Sie eine Sortierung nach Name oder Datum vornehmen möchten, klicken Sie auf die Spaltenüberschrift und wählen Sie dann die Anzeige der Zielgruppen in aufsteigender oder absteigender Reihenfolge aus.
 
@@ -76,7 +76,7 @@ Beispielsweise kann die folgende Karte für die Zielgruppendefinition durch Klic
 
 ![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
-Sie können auf die folgende Karte zur Zielgruppendefinition zugreifen, indem Sie auf der [!UICONTROL Overview] einer Aktivität auf das Symbol [!UICONTROL View Details] klicken:
+Sie können auf die folgende Karte zur Zielgruppendefinition zugreifen, indem Sie auf der [!UICONTROL View Details] einer Aktivität auf das Symbol [!UICONTROL Overview] klicken:
 
 ![Aktivitäten > Zielgruppendefinition](assets/view-details-activity-overview.png)
 
@@ -121,4 +121,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppen.
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

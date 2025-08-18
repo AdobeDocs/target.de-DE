@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [Automatische Zuordnung - Übersicht](/he
 
 ## Adobe [!DNL Target] Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Wenn Sie statt der [!UICONTROL Auto-Allocate] eine manuelle [!UICONTROL A/B Test] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Auto-Allocate] ist optional, da [!UICONTROL Auto-Allocate] einen Gewinner für Sie bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+Wenn Sie statt der [!UICONTROL A/B Test] eine manuelle [!UICONTROL Auto-Allocate] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Auto-Allocate] ist optional, da [!UICONTROL Auto-Allocate] einen Gewinner für Sie bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
 Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf.
 

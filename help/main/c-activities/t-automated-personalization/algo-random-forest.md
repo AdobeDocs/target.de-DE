@@ -2,7 +2,7 @@
 keywords: Zufällige Gesamtstruktur;Entscheidungsbaum;AP;Automated Personalization
 description: Erfahren Sie [!DNL Adobe Target]  wie der Algorithmus „Random Forest“ sowohl in [!UICONTROL Automated Personalization] (AP)- als auch in [!UICONTROL Auto-Target]-Aktivitäten verwendet.
 title: Wie verwendet  [!DNL Target]  den Algorithmus der zufälligen Gesamtstruktur?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

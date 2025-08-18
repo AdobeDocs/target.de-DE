@@ -1,6 +1,6 @@
 ---
 keywords: Aktivitätsänderungsprotokoll;Änderungsprotokoll
-description: Greifen Sie auf das Änderungsprotokoll einer Aktivität in Adobe zu [!DNL Target]  um aufzuzeichnen, wer Ihre Aktivitäten geändert hat und wann die Änderungen vorgenommen wurden.
+description: Greifen Sie in Adobe auf das Änderungsprotokoll einer Aktivität zu [!DNL Target]  um aufzuzeichnen, wer Ihre Aktivitäten geändert hat und wann die Änderungen vorgenommen wurden.
 title: Wie kann ich ein Änderungsprotokoll für Aktivitäten anzeigen?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Aktivitätsänderungsprotokoll
 
-In der [!DNL Adobe Target] [!UICONTROL Change Log] werden Aktivitätsaktionen aufgezeichnet, einschließlich der Änderungen, der Personen, die die Änderungen vorgenommen haben, und des Zeitpunkts ihres Auftretens. Die [!UICONTROL Change Log] wird aus der [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke gefüllt.
+In der [!DNL Adobe Target] [!UICONTROL Change Log] werden Aktivitätsaktionen aufgezeichnet, einschließlich der Änderungen, der Personen, die die Änderungen vorgenommen haben, und des Zeitpunkts ihres Auftretens. Die [!UICONTROL Change Log] wird aus der [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke gefüllt.
 
 So greifen Sie auf die [!UICONTROL Change Log] zu:
 

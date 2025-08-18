@@ -17,7 +17,7 @@ Eine manuelle [!UICONTROL A/B Test] (manchmal auch als A/B…N-Test bezeichnet) 
 
 >[!TIP]
 >
->Zusätzlich zur [!UICONTROL A/B Test]-Aktivität [!UICONTROL Manual] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [ unter „Arten von A/B](#types)Testaktivitäten“.
+>Zusätzlich zur [!UICONTROL Manual]-Aktivität [!UICONTROL A/B Test] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [ unter „Arten von A/B](#types)Testaktivitäten“.
 
 Manuelle A/B-Tests sind nützlich, wenn Sie anhand von Erfolgsmetriken oder alternativen Inhaltsbereitstellungen eine klare Hypothese darüber haben, wie Sie die Leistung Ihrer Seite verbessern können.
 
@@ -29,7 +29,7 @@ Wenn Sie Ihren A/B-Test einrichten, können Sie den Prozentsatz der Besucher erm
 >
 >Detaillierte Informationen zum Ermitteln der optimalen Stichprobengröße für einen A/B-Test finden Sie unter [Planen Ihrer A/B-Tests](/help/main/c-activities/t-test-ab/sample-size-determination.md).
 
-Wenn mehr als fünf Erlebnisse an zwei oder mehr Orten vorhanden sind, empfiehlt es sich, einen [MVT-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) in Betracht zu ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivariater Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Orte, auf die sich ein Marketer konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf der wichtigste Ort zur Erreichung Ihrer Ziele ist. Nachdem Sie ermittelt haben, welche Speicherorte und Inhalte für Ihre Ziele am nützlichsten sind, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern. Zum Beispiel, um zwei bestimmte Bilder gegeneinander zu testen oder den Wortlaut oder die Farben eines Aktionsaufrufs zu vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
+Wenn mehr als fünf Erlebnisse an zwei oder mehr Orten vorhanden sind, empfiehlt es sich, einen [MVT-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) in Betracht zu ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivariater Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Orte, auf die sich ein Marketer konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf der wichtigste Ort zur Erreichung Ihrer Ziele ist. Nachdem Sie ermittelt haben, welche Speicherorte und Inhalte für Ihre Ziele am nützlichsten sind, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern. So können Sie beispielsweise zwei bestimmte Bilder miteinander testen oder den Wortlaut oder die Farben einer call to action vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
 ## Typen von A/B-Test-Aktivitäten {#types}
 
@@ -41,7 +41,7 @@ Zusätzlich zur manuellen [!UICONTROL A/B Test] bietet [!DNL Target] zwei zusät
 | [!UICONTROL Auto-Allocate] | Ermittelt einen Gewinner aus zwei oder mehr Erlebnissen und leitet den Traffic dann zum Gewinner weiter, wodurch die Konversionsrate mit dem Testlauf und dem Lernen steigt.<P>Weitere Informationen zu den Vorteilen der Verwendung einer [!UICONTROL Auto-Allocate]-Aktivität finden Sie unter [Automatische Zuordnung](/help/main/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *Wie lange sollten A/B-Tests durchgeführt werden* und [Automatische Zuordnung - Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | ![Premium-Badge](/help/main/assets/premium.png) [!UICONTROL Auto-Target] | Verwendet fortschrittliche Machine Learning-Algorithmen zur Personalisierung von Inhalten und Förderung von Konversionen durch Identifizierung eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen. Anschließend wird den Besuchern das passendste Erlebnis auf der Grundlage ihrer individuellen Kundenprofile und des bisherigen Verhaltens ähnlicher Besucher bereitgestellt.<P>Weitere Informationen finden Sie unter [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
-Weitere Informationen dazu, welche dieser [!UICONTROL A/B Test] Aktivitäten für Sie am besten geeignet ist, finden Sie auf der interaktiven PDF mit dem Leitfaden für [Adobe Target-Aktivitäten](/help/main/c-activities/target-activities-guide.md).
+Weitere Informationen dazu, welche dieser [!UICONTROL A/B Test] Aktivitäten für Sie am besten geeignet ist, finden Sie im interaktiven Handbuch zu [Adobe Target-Aktivitäten in PDF](/help/main/c-activities/target-activities-guide.md).
 
 Die Schritte zum Erstellen der drei Arten von [!UICONTROL A/B Test] sind ähnlich. So erstellen Sie eine [!UICONTROL Auto-Allocate] oder [!UICONTROL Auto-Target] Aktivität:
 

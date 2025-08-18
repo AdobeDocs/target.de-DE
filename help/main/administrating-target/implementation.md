@@ -24,4 +24,4 @@ Weitere Informationen finden Sie in den verschiedenen Themen unter [Target imple
 
 1. Um auf die Seite [!UICONTROL Implementation] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Informationen zu den Einstellungen auf dieser Seite finden Sie unter [Target ohne Tag-Manager implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=de){target=_blank}.
+1. Informationen zu den Einstellungen auf dieser Seite finden Sie unter [Target ohne Tag-Manager implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.

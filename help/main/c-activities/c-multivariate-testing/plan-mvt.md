@@ -19,9 +19,9 @@ MVT erfordert ausreichend Traffic, um nützliche Ergebnisse zu generieren. Vor d
 
 Elemente müssen voneinander unabhängig sein. Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.
 
-Untersuchen Sie den HTML-Code für die Seiten, die Sie testen möchten. Stellen Sie sicher, dass die HTML-Elemente auf Ihrer Site keine doppelten DOM-IDs aufweisen. Doppelte IDs können dazu führen, dass derselbe Inhalt an mehr als einen Ort geliefert wird.
+Untersuchen Sie den HTML-Code auf den Seiten, die Sie testen möchten. Stellen Sie sicher, dass die HTML-Elemente auf Ihrer Site keine doppelten DOM-IDs aufweisen. Doppelte IDs können dazu führen, dass derselbe Inhalt an mehr als einen Ort geliefert wird.
 
-Planen Sie den Test der Elemente auf Ihrer Seite, die mit großer Wahrscheinlichkeit signifikante Ergebnisse produzieren. Zum Beispiel führt ein Banner oder ein Heldenbild wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Elemente mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Elemente auf der Seite.
+Planen Sie den Test der Elemente auf Ihrer Seite, die mit großer Wahrscheinlichkeit signifikante Ergebnisse produzieren. Zum Beispiel führt ein Banner oder ein Hero Image wahrscheinlich zu mehr Konversionen als eine Änderung der Fußzeile. Wenn Sie weniger einflussreiche Elemente mit in Ihren Test aufnehmen, erhöhen sich dadurch lediglich das Traffic-Aufkommen und die erforderliche Zeit zum Test der markanteren Elemente auf der Seite.
 
 Schließlich sollten Sie vor der Erstellung Ihres Tests Inhalt erstellen, den Sie testen möchten. Machen Sie sich mit den unterschiedlichen Inhalten für jedes Angebot vertraut und erstellen Sie Bilder, Text und HTML-Angebote, die Sie wahrscheinlich im Test verwenden werden.
 
@@ -32,4 +32,4 @@ In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflo
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

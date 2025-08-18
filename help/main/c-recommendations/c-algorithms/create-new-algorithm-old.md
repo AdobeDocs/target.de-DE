@@ -2,7 +2,7 @@
 keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Lookback-Fenster;Verhaltensdatenquelle;Partielles Design;Backup-Empfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;zuletzt gekauftes Element;zuletzt angezeigtes Element;am häufigsten angezeigtes Element;bevorzugte Kategorie;Beliebtheit;kürzlich angezeigtes Element;zuletzt gekauft;am häufigsten angezeigt;Favorit;zuletzt angezeigt
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer Adobe Recommendations-Aktivitäten steuern, um die Empfehlungen anzuzeigen, die für Ihre Aktivität am besten geeignet sind.
 title: Wie erstelle ich Kriterien in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -275,4 +275,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/35312?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

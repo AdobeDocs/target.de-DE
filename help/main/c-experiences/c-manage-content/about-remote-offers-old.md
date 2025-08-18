@@ -1,6 +1,6 @@
 ---
 keywords: Remote-Angebot;Remote-Angebotsauswahlmatrix;zwischengespeicherte Inhalte;dynamischer Inhalt;URL-Typ
-description: Erfahren Sie, wie Sie Remote-Angebote in Adobe [!DNL Target]  verwenden, um externe Inhalte (Inhalte in einem CMS oder einem anderen System) zu hosten. Finden Sie heraus, warum Sie Remote-Angebote verwenden sollten.
+description: Erfahren Sie, wie Sie Remote-Angebote in Adobe verwenden [!DNL Target]  um externe Inhalte (Inhalte in einer CMS oder einem anderen System) zu hosten. Finden Sie heraus, warum Sie Remote-Angebote verwenden sollten.
 title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
@@ -102,7 +102,7 @@ Der Inhalt für ein zwischengespeichertes Remote-Angebot wird aus [!DNL Target] 
 
 Alle zwei Stunden ruft [!DNL Target] den Inhalt von der Remote-URL ab und speichert dann den Inhalt in [!DNL Target]. Wenn Besucher eine Site mit einem Erlebnis laden, das ein Remote-Angebot enthält, wird das Angebot von [!DNL Target] bereitgestellt.
 
-Zwischengespeicherte Remote-Angebote bieten mehr Sicherheit, da jemand, der sich bei angemeldet hat, den Inhalt nicht ändern [!DNL Target]. Soll der Inhalt bearbeitet werden, müsste sich jemand im Inhaltsverwaltungssystem oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.
+Zwischengespeicherte Remote-Angebote bieten mehr Sicherheit, da jemand, der sich bei angemeldet hat, den Inhalt nicht ändern [!DNL Target]. Soll der Inhalt bearbeitet werden, müsste sich jemand im Content-Management-System oder dem System anmelden, in dem der Inhalt gespeichert ist, und ihn dort bearbeiten.
 
 Sie können für zwischengespeicherte Remote-Angebote eine absolute oder relative URL angeben.
 

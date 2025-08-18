@@ -7,7 +7,7 @@ exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichts-Badge](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

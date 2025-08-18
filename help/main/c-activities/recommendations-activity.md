@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations
-description: Hier finden Sie Informationen zu Recommendations-Aktivitäten auf Adobe [!DNL Target]  mit automatischen Produkten oder Inhalten, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten.
+description: Hier finden Sie Informationen zu Recommendations-Aktivitäten in Adobe [!DNL Target]  die automatisch Produkte oder Inhalte anzeigen, die basierend auf früheren Benutzeraktivitäten für Ihre Kunden interessant sein könnten.
 title: Wo finde ich Informationen zu Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963
@@ -13,7 +13,7 @@ ht-degree: 32%
 
 # Recommendations-Aktivität
 
-Recommendations-Aktivitäten in Adobe Target zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Mit diesen Recommendations stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
+Recommendations -Aktivitäten in Adobe Target zeigen automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten. Mit diesen Recommendations stellen Sie Kunden relevante Artikel vor, von denen diese andernfalls möglicherweise nichts gewusst hätten.
 
 >[!NOTE]
 >

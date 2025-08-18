@@ -2,7 +2,7 @@
 keywords: Erlebnis;Kontrolle;automatisierte Personalisierung;automatisches Targeting
 description: Erfahren Sie, wie Sie beim Erstellen einer [!UICONTROL Automated Personalization] (AP) oder [!UICONTROL Auto-Target] Aktivität in ein Erlebnis als Steuerelement auswählen [!DNL Adobe Target].
 title: Wie kann ich ein bestimmtes Erlebnis als Kontrolle in einer [!UICONTROL Automated Personalization] verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453

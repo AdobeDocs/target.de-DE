@@ -15,4 +15,4 @@ ht-degree: 22%
 
 Verwenden Sie Experience Fragments (XFs) und Inhaltsfragmente (CFs), die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target] Aktivitäten zur Optimierung oder Personalisierung.
 
-Weitere Informationen finden Sie unter Übersicht über [AEM-Experience Fragments und -Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Weitere Informationen finden Sie unter [Übersicht über AEM Experience Fragments und Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).

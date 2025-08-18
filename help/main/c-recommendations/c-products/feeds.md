@@ -2,13 +2,13 @@
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
 description: Erfahren Sie, wie -Feeds Entitäten  [!DNL Adobe Target] [!DNL Recommendations], mithilfe von CSV [!DNL Google Product Search] Dateien, dem -Feed-Format  [!DNL Analytics]  Produktklassifizierungen in importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ Sehen Sie sich folgende Beispiele an:
 
 **Beispiel 1:**
 
-* Tag 1: Tägliche Zufuhr um 9:00 Uhr PST.
-* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
+* Tag 1: Tägliche Fütterungsprozesse :00 9:00 Uhr PST.
+* Tag zwei: Es :30 15 Uhr und das Futter läuft seit gestern um 9 :00 nicht mehr.
 
 Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: monatliche Zufuhrvorgänge um 9:00 Uhr PST.
-* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
+* &#x200B;1. Januar: monatliche Zufuhrvorgänge :00 9:00 Uhr (PST)
+* &#x200B;3. Februar: Es ist :00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
 
@@ -346,7 +346,7 @@ Dieses Video enthält die folgenden Informationen:
 * Den Zweck von Feeds verstehen
 * Den Wert von Feeds verstehen
 
->[!VIDEO](https://video.tv.adobe.com/v/33908?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Erstellen eines Feeds (6:44) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ Dieses Video enthält die folgenden Informationen:
 * Einen Feed einrichten
 * Welchen Feed-Typ Sie verwenden sollten
 
->[!VIDEO](https://video.tv.adobe.com/v/33907?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

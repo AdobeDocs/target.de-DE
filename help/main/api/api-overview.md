@@ -23,7 +23,7 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * Client-seitig, einschließlich Informationen zur Implementierung mithilfe der [!DNL Adobe Experience Platform Web SDK] oder der [!DNL Target Web SDK] (at.js).
 * Server-seitig, einschließlich Informationen zur Implementierung der Node.js-, JAVA-, .NET- und Python-SDKs.
 * Hybrid-Informationen, die Sie bei der Implementierung unterstützen, wenn Sie eine Kombination aus Client- und Server-seitigen Implementierungen verwenden.
-* Recommendations, Informationen zur Implementierung von [!DNL Recommendations], einem [Target Premium](/help/main/c-intro/intro.md#premium)-Angebot.
+* Empfehlungen, Informationen zur Implementierung von [!DNL Recommendations], einem [Target Premium](/help/main/c-intro/intro.md#premium)-Angebot.
 * Mobile Apps.
 * E-Mail
 
@@ -33,4 +33,4 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * Reporting-APIs.
 * Recommendations-APIs.
 
-Weitere Informationen finden Sie unter [Target-API - ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=de){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
+Weitere Informationen finden Sie unter [Target-API - ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

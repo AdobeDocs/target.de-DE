@@ -1,6 +1,6 @@
 ---
 keywords: Datenabweichungen; Analytics; Unterschiede; Varianz; a4t; Analytics für Target; Analytics als Berichtsquelle; Diskrepanzen; Diskrepanz
-description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen Adobe [!DNL Target]  und Analytics, wenn Sie Analytics nicht für  [!DNL Target] A4T) verwenden. Dadurch werden Datenabweichungen vollständig beseitigt.
+description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen Adobe  [!DNL Target]  Analytics, wenn Sie Analytics nicht für  [!DNL Target] A4T) verwenden. Dadurch werden Datenabweichungen vollständig beseitigt.
 title: Wie hoch ist die erwartete Datenabweichung zwischen Analytics und A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
@@ -25,7 +25,7 @@ Im Folgenden finden Sie einige Szenarien, in denen zu erwartende Datenvarianzen 
 
   Wenn in Target ein Umleitungstest eingerichtet wird, um Traffic 50/50 (oder 25/25/25/25 usw.) zu teilen, wird das Benutzerverhalten möglicherweise nicht gleichmäßig verteilt. Wenn eine ungleiche Aufteilung angezeigt wird, bedeutet dies einfach, dass eine Benutzergruppe einen Analytics-Aufruf auf der Landingpage nicht ausführen konnte, während die anderen Gruppen dies taten. Durch dieses Fehlschlagen des Analytics-Aufrufs für eine Gruppe wurde der Treffer von Target für diesen Benutzer ausgeschlossen, sodass die Unstimmigkeiten entstanden.
 
-  Adobe hofft, dieses Problem in Zukunft lösen zu können, da Adobe-Teams auf A4T auf der Adobe Experience Platform hinarbeiten. Adobe-Teams bestimmen, wie diese verschiedenen Ereignisse, die zu unterschiedlichen Zeiten auf der Seite auftreten, gehandhabt werden.
+  Adobe hofft, dieses Problem in Zukunft lösen zu können, wenn Adobe-Teams auf A4T in der Adobe Experience Platform hinarbeiten. Adobe-Teams bestimmen, wie diese verschiedenen Ereignisse, die zu unterschiedlichen Zeiten auf der Seite auftreten, verarbeitet werden sollen.
 
 ## Erwartete Datenabweichungen bei der *Nichtverwendung* von A4T {#expected-not-using-a4t}
 
@@ -35,7 +35,7 @@ Auch wenn sich die Daten selbst deutlich unterscheiden, stimmen die Trends in de
 
 [!DNL Analytics] verwendet ein auf Besuchen und Transaktionen basierendes System, wohingegen besucherbasierte Metriken verwendet. [!DNL Target] Wenn ein Besucher eine Seite öffnet, wird dies in [!DNL Analytics] als Besuch gezählt, aber [!DNL Target] zählt den Besuch erst, wenn die in der Aktivität festgelegten Bedingungen erfüllt sind.
 
-Berichte in [!DNL Target] zeigen die Leistung basierend auf der Konversions-Mbox an, die beim Definieren der Aktivität ausgewählt wurde. Diese Konversions-Mbox-Daten werden jedoch nicht an [!DNL Analytics] gesendet, das entsprechend der Definition in Ihrer [!DNL Analytics]-Tagging-Implementierung über eigene Konversionsvariablen verfügt. Wenn Sie identische Daten erwarten (z. B. wenn die Bestellung eines Einzelhändlers bestätigt, dass die Seite sowohl eine Konversions-Mbox als auch ein [!DNL Analytics] Kaufereignis enthält), können die Daten aufgrund der Platzierung dieser Tags unterschiedlich sein. Im Großen und Ganzen sind die Tendenzen in den Berichten über die beiden Produkte ähnlich.
+Berichte in [!DNL Target] zeigen die Leistung basierend auf der Konversions-Mbox an, die beim Definieren der Aktivität ausgewählt wurde. Diese Konversions-Mbox-Daten werden jedoch nicht an [!DNL Analytics] gesendet, das entsprechend der Definition in Ihrer [!DNL Analytics]-Tagging-Implementierung über eigene Konversionsvariablen verfügt. Wenn Sie identische Daten erwarten (z. B. wenn eine retailer-Bestellungsbestätigung angibt, dass die Seite sowohl eine Konversions-Mbox als auch ein [!DNL Analytics] Kaufereignis enthält), können die Daten aufgrund der Platzierung dieser Tags unterschiedlich sein. Im Großen und Ganzen sind die Tendenzen in den Berichten über die beiden Produkte ähnlich.
 
 Erwartete Datenabweichungen können sowohl technischer als auch geschäftlicher Natur sein.
 

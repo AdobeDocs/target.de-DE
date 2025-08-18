@@ -23,7 +23,7 @@ Wenn Besucher Ihre Site aufrufen, wertet [!UICONTROL Experience Targeting] (XT) 
 
 ## Szenario: Erlebnis-Targeting
 
-Angenommen, Sie bieten auf Ihrer Website Outdoor-Ausrüstung an. Ihre Berichte für A/B-Tests zeigen, dass Sie drei Erlebnisse haben, die bei verschiedenen Zielgruppen Anklang finden. Um diese Entdeckung anzuwenden, sollten Sie auf Ihrer Homepage ein anderes Hero-Bild anzeigen, um diese verschiedenen Zielgruppen je nach Standort oder Hobbys der Besucher anzusprechen. Angenommen, Sie möchten für Besucher aus Bayern ein Bild eines Wanderers und für Besucher aus dem Norden ein Bild eines Surfers darstellen. Außerdem gibt es eine Zielgruppe, die an Fahrrädern interessiert ist. Deshalb möchten Sie ein drittes Hero-Bild zeigen, das Ihre Fahrrad-Zielgruppe anspricht.
+Angenommen, Sie bieten auf Ihrer Website Outdoor-Ausrüstung an. Ihre Berichte für A/B-Tests zeigen, dass Sie drei Erlebnisse haben, die bei verschiedenen Zielgruppen Anklang finden. Um diese Entdeckung anzuwenden, sollten Sie auf Ihrer Homepage ein anderes Hero-Bild anzeigen, um diese verschiedenen Zielgruppen je nach Standort oder Hobbys der Besucher anzusprechen. Angenommen, Sie möchten für Besucher aus Bayern ein Bild eines Wanderers und für Besucher aus dem Norden ein Bild eines Surfers darstellen. Außerdem gibt es eine Zielgruppe, die an Fahrrädern interessiert ist. Deshalb möchten Sie ein drittes Hero Image zeigen, das Ihre Fahrrad-Zielgruppe anspricht.
 
 Eine [!UICONTROL Experience Targeting] Aktivität ermöglicht es Ihnen, diese drei Zielgruppen mit einem unterschiedlichen Hero-Bild anzusprechen, das jede Zielgruppe anspricht. Das Video unten *From A/B Testing to Experience Targeting* zeigt Ihnen, wie Sie Erlebnisse erstellen, die sich an die beiden Besuchergruppen richten, sowie ein drittes Erlebnis für Fahrradfans. Im Video erfahren Sie auch, wie Sie die drei Erlebnisse anordnen müssen, um Ihr gewünschtes Ergebnis zu erhalten. Sehen Sie sich das Video an und fahren Sie danach mit der [Erstellung einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)fort.
 
@@ -39,4 +39,4 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Experience T
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)

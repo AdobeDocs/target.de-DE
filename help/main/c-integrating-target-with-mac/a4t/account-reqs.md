@@ -1,6 +1,6 @@
 ---
 keywords: Analytics als Berichtsquelle;a4t;A4T;Anforderungen
-description: Erfahren Sie, wie Sie die erforderlichen Benutzerkontenanforderungen konfigurieren, um eine Adobe Analytics-basierte Aktivität in Adobe [!DNL Target] mit Analytics für  [!DNL Target] A4T) zu erstellen.
+description: Erfahren Sie, wie Sie die erforderlichen Benutzerkontenanforderungen konfigurieren, um eine Adobe Analytics-basierte Aktivität in Adobe zu erstellen [!DNL Target]  indem Sie Analytics für  [!DNL Target] A4T) verwenden.
 title: Welche Benutzerberechtigungen sind für A4T erforderlich?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -28,13 +28,13 @@ Führen Sie die folgenden Aufgaben in der [!DNL Adobe Experience Cloud] [Admin C
 
 Ihre [!DNL Analytics]- und [!DNL Target]-Benutzerkonten müssen mit Ihrer Adobe ID verknüpft sein.
 
-Weitere Informationen finden Sie unter [ und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
+Weitere Informationen finden Sie unter [ und Kontoverknüpfung](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Mitgliedschaft in einer Experience Cloud-Gruppe
 
 Sie müssen Mitglied in mindestens einer [!DNL Experience Cloud]-Gruppe sein, die Zugriff auf [!DNL Analytics] und [!DNL Target] hat.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +48,7 @@ Um A4T in einer bestimmten Report Suite verwenden zu können, müssen Sie Zugrif
 
    Die folgende Abbildung zeigt ein Beispiel für ein Produktprofil, das Zugriff auf alle Report Suites hat:
 
-   Registerkarte für ![Admin Console-Berechtigungen](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Registerkarte &quot;Admin Console-Berechtigung“](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Konfigurieren Sie den Zugriff auf die [!UICONTROL Web Services Access].
 

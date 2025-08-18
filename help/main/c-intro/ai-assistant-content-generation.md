@@ -59,7 +59,7 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
-     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] und [!UICONTROL Conversational].
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] und [!UICONTROL Conversational].
 
 1. Wählen Sie mit dem Schieberegler aus, wie lange der Text kürzer oder länger sein soll.
 
@@ -100,4 +100,4 @@ Die folgende Eingabeaufforderung und die folgenden Varianten zeigen die Leistung
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger">https://video.tv.adobe.com/v/3434644/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

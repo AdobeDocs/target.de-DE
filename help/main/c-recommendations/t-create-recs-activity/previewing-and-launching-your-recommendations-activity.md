@@ -1,7 +1,7 @@
 ---
-keywords: Recommendations;Angebot;Vorschau;Start;Status;Kriterien;Algorithmus
+keywords: Recommendations; Angebot; Vorschau; Launch; Status; Kriterien; Algorithmus
 description: Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe [!DNL Target] Recommendations-Aktivität anzeigen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten.
-title: Wie starte ich eine Recommendations-Aktivität in der Vorschau?
+title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
@@ -13,15 +13,15 @@ ht-degree: 15%
 
 # Vorschau und Starten Ihrer Recommendations-Aktivität
 
-Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting] (XT)-Aktivität mit [Recommendations-Angeboten](/help/main/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Empfehlungen in der Vorschau anzeigen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] bietet mehrere Möglichkeiten, Ihre Empfehlungen in der Vorschau anzuzeigen.
+Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting] (XT)-Aktivität mit [Recommendations-Angeboten](/help/main/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Recommendations in einer Vorschau anzeigen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] bietet mehrere Möglichkeiten, Ihre Empfehlungen in der Vorschau anzuzeigen.
 
 ## Überprüfen des Recommendations-Algorithmusstatus
 
 Nach dem Erstellen einer Aktivität führt [!DNL Recommendations] einen Algorithmus aus, um Empfehlungen zu generieren. Die Ausführung dieses Algorithmus kann einige Stunden dauern.
 
-Im [!UICONTROL Activity] Übersichtsdiagramm, in dem der Kriterienstatus aufgeführt ist, können Sie überprüfen, ob der Algorithmus vollständig ausgeführt wurde. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der [!UICONTROL Overview] einer [!DNL Recommendations] Aktivität:
+Im [!UICONTROL Activity] Übersichtsdiagramm, in dem der Kriterienstatus aufgeführt ist, können Sie überprüfen, ob der Algorithmus vollständig ausgeführt wurde. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der [!DNL Recommendations] einer [!UICONTROL Overview] Aktivität:
 
-![Übersichtsseite der Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Seite Recommendations-Aktivität - Übersicht](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Zu den Statusergebnissen gehören die folgenden, wie unten dargestellt:
 
@@ -53,7 +53,7 @@ Wenn das Kriterium [!DNL Adobe Analytics] als Verhaltens-Datenquelle verwendet, 
 >
 >[!UICONTROL Recently Viewed Items] erfordert keine Ausführung des Offline-Algorithmus und die Ergebnisse sind sofort verfügbar. [!UICONTROL Top Viewed]- und [!UICONTROL Top Sellers]-Algorithmen, die auf Mbox-Daten basieren, liefern im Allgemeinen aufgrund der einfacheren erforderlichen Berechnung sehr schnell Ergebnisse. Dies können gute Optionen sein, wenn Sie eine Entwurfsänderung in der Vorschau anzeigen oder bestätigen möchten, dass Verhaltensdaten korrekt erfasst werden.
 
-## Verwenden von QA-Links für die Vorschau von Recommendations
+## Verwenden von QA-Links zur Vorschau von Recommendations
 
 Nachdem der Algorithmus die Ergebnisse fertig hat, können Sie diese Ergebnisse mit der Funktion [QA-Link](/help/main/c-activities/c-activity-qa/activity-qa.md) von [!DNL Adobe Target] in der Vorschau anzeigen. QA-Links finden Sie im [!UICONTROL Activity Location] Abschnitt der [!UICONTROL Activity]-Übersichtsseite:
 
@@ -95,7 +95,7 @@ Bei anderen Algorithmustypen, die auf einem Schlüsselwert basieren, z. B. [!UIC
 >
 >Ergebnis-Downloads sind nicht für Aktivitäten verfügbar, die einen [!UICONTROL User-Based Recommendations] enthalten. Ergebnis-Downloads sind für Kriterien, die die [!UICONTROL Recently-Viewed Items] Empfehlungslogik verwenden, nicht verfügbar.
 
-## Aktivieren der Recommendations-Aktivität
+## Recommendations-Aktivität aktivieren
 
 Klicken Sie auf der Registerkarte [!UICONTROL Activity Overview] auf den Dropdown-Pfeil Status und wählen Sie dann **[!UICONTROL Activate]** aus.
 
@@ -105,7 +105,7 @@ Nach einigen Sekunden bis einigen Minuten wechselt der Status zu [!UICONTROL Liv
 
 Sie können die Aktivität auch über dieselbe Dropdown-Liste deaktivieren oder archivieren.
 
-## Unterbrechungen beim Ändern von Recommendations-Einstellungen vermeiden
+## Vermeiden von Unterbrechungen beim Ändern von Recommendations-Einstellungen
 
 Das Ändern [!DNL Recommendations] Sammlungen, Kriterien, Promotions oder Design-Einstellungen in einer Live-Aktivität kann dazu führen, dass die Algorithmusergebnisse ungültig werden und der Status eines Algorithmus in [!UICONTROL Results Not Ready] geändert wird.
 

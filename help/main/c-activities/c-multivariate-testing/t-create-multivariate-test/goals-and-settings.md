@@ -7,7 +7,7 @@ exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -54,7 +54,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden,
 
 ### Dauer
 
-Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
 ## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -171,11 +171,11 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Erstellen von multivariaten Tests (9:25)
+### Erstellen von Multivarianz-Tests (9:25)
 
-In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Ziele und Einstellungen werden ab 7:00 erläutert.
+In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Die Ziele und Einstellungen werden ab 7 :00 erläutert.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

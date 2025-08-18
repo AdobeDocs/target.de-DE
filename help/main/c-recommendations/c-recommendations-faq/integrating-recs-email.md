@@ -2,7 +2,7 @@
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Bereitstellungs-API; ausschließliche Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
 description: Erfahren Sie, wie Sie E-Mails mit der Adobe [!DNL Target Recommendations], including using the [!DNL Target] -Bereitstellungs-API, Rawbox-Vorlagen und Nur-Download-Vorlagen integrieren.
 title: Wie integriere ich Recommendations mit E-Mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ Dabei ist `clientcode` Ihr [!DNL Target]-Client-Code.
 >
 >Stellen Sie sicher, dass Sie einen eindeutigen Wert für `sessionId` und entweder `tntId` oder `thirdPartyId` für jeden E-Mail-Empfänger bereitstellen (z. B. für jeden API-Aufruf). Wenn Sie keine eindeutigen Werte für diese Felder angeben, kann die API-Antwort aufgrund der zahlreichen in einem einzigen Profil generierten Ereignisse lange dauern oder sogar fehlschlagen.
 
-Weitere Informationen finden [ in der ](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=de){target=_blank} zur Bereitstellungs-API .
+Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=de){target=_blank}.
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 

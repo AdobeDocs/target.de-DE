@@ -7,7 +7,7 @@ exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 44%
+ht-degree: 50%
 
 ---
 
@@ -25,7 +25,7 @@ Ja, wenn Ihre Implementierung [!DNL at.js] verwendet. Ihre Implementierung muss 
 ## Welche Mindestanforderungen gelten für die Verwendung von Umleitungsangeboten mit A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 +++Antwort
-Ihre Implementierung muss die folgenden Mindestanforderungen erfüllen:
+Ihre Implementierung muss folgende Mindestanforderungen erfüllen:
 
 * Experience Cloud-Besucher-ID-Service: [!DNL visitorAPI.js], Version 2.3.0 oder neuer.
 * Adobe Analytics: [!DNL appMeasurement.js] Version 2.1.
@@ -38,7 +38,7 @@ Die drei Bibliotheken müssen sowohl auf der Seite mit dem Weiterleitungsangebot
 ## Warum gibt es manchmal Datendiskrepanzen zwischen A4T und Analytics?
 
 +++Antwort
-Es sind einige Datendiskrepanzen zu erwarten. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Es werden einige Datendiskrepanzen erwartet. Weitere Informationen finden Sie unter [Erwartete Datenabweichungen zwischen Target und Analytics bei Verwendung und Nichtverwendung von A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
 +++
 
@@ -63,7 +63,7 @@ Beachten Sie Folgendes:
 ## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Antwort
-Bei Verwendung von at.js Version 1.6.3 oder höher ist das Zählen der Seitenansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Aktualisieren Sie at.js nach Bedarf, um sicherzustellen, dass Sie eine [unterstützte Version“ ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
+Bei Verwendung von at.js Version 1.6.3 oder höher ist das Zählen der Seitenansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} ausführen.
 
 Wenn Sie eine frühere, nicht unterstützte Version von at.js verwenden, besteht die Möglichkeit, dass eine Race-Bedingung eintritt, die dazu führen kann, dass der Analytics-Aufruf ausgelöst wird, bevor die Umleitung auf der ersten Seite ausgeführt wird. Dies kann dazu führen, dass Seitenansichten auf der Originalseite und auf der Umleitungsseite alle gezählt werden. Diese Situation führt zu einem zusätzlichen Seitenaufruf auf der ersten Seite, selbst wenn der Besucher diese erste Seite nie wirklich „gesehen“ hat.
 
@@ -85,12 +85,12 @@ Wenn Sie für die Umleitung Ihren eigenen benutzerdefinierten Code verwenden, m�
 ## Welche neuen Abfrage String-Parameter wurden zu den Umleitungs-URLs hinzugefügt? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
 +++Antwort
-Die folgenden Abfragezeichenfolgenparameter sind mit Umleitungsangeboten verknüpft:
+Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die SDID (Supplemental Data Id) und die Experience Cloud-Organisations-ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
-| `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei Verwendung mit AppMeasurement.js Version 2.1 (oder höher) verwendet Analytics diesen Parameterwert als verweisende URL auf der neuen Seite. |
+| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die Supplemental Data ID (SDID) und die Experience Cloud Org ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei Verwendung mit AppMeasurement.js Version 2.1 (oder höher) verwendet Analytics diesen Parameterwert als Referrer-URL auf der neuen Seite. |
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.
 
@@ -119,7 +119,7 @@ Als Best Practice empfiehlt es sich jedoch, den Parameter `adobe_mc_ref` in der 
 ## Warum sind die Parameter adobe_mc_ref und adobe_mc_sdid in meiner Implementierung doppelt kodiert? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
 +++Antwort
-Wenn Sie A4T und Umleitungsangebote verwenden, hängt Target die `adobe_mc_ref`- und `adobe_mc_sdid` an die URL an. Diese Werte sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder WEB-Server, die versuchen, die Abfrage-String-Parameter erneut zu kodieren.
+Wenn Sie A4T und Weiterleitungsangebote verwenden, hängt Target die Parameter `adobe_mc_ref` und `adobe_mc_sdid` an die URL an. Diese Werte sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder WEB-Server, die versuchen, die Abfrage-String-Parameter erneut zu kodieren.
 
 Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Sie in Analytics-Berichten eine ungleichmäßige Aufspaltung für Umleitungen sehen.
 
@@ -141,7 +141,7 @@ Bei [!DNL at.js] Version 0.9.6 (oder höher) und [!DNL AppMeasurement.js] 2.1 (o
 ## Kann ich benutzerdefinierte/HTML-Weiterleitungsangebote verwenden? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Antwort
-Nein, Sie müssen ein integriertes Umleitungsangebot für Aktivitäten verwenden, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden. Aus der Sicht von [!DNL Target] sind HTML-Angebote undurchsichtig: [!DNL Target] kann nicht erkennen, dass ein bestimmter HTML-Abschnitt JavaScript zum Instantiieren einer Weiterleitung enthält.
+Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsquelle (A4T) ein integriertes Weiterleitungsangebot verwenden. Aus der Sicht von [!DNL Target] sind HTML-Angebote undurchsichtig: [!DNL Target] kann nicht erkennen, dass ein bestimmter HTML-Abschnitt JavaScript zum Instantiieren einer Weiterleitung enthält.
 
 +++
 
@@ -163,9 +163,9 @@ Ja, der [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-vis
 
 +++
 
-### Kann ich benutzerdefinierte/HTML-Umleitungsangebote mit dem [!DNL Platform Web SDK] verwenden?
+### Kann ich benutzerdefinierte / HTML-Umleitungsangebote mit dem [!DNL Platform Web SDK] verwenden?
 
 +++Antwort
-Nein, Sie müssen ein integriertes Umleitungsangebot für Aktivitäten verwenden, die A4T verwenden. Aus [!DNL Target] Sicht sind HTML-Angebote undurchsichtig. [!DNL Target] kann nicht wissen, dass ein bestimmtes HTML-Stück JavaScript enthält, das eine Weiterleitung instanziiert.
+Nein, Sie müssen ein integriertes Umleitungsangebot für Aktivitäten verwenden, die A4T verwenden. Aus [!DNL Target] Sicht sind HTML-Angebote undurchsichtig. [!DNL Target] kann nicht wissen, dass ein bestimmter Teil von HTML JavaScript enthält, das eine Umleitung instanziiert.
 
 +++

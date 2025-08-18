@@ -1,14 +1,14 @@
 ---
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; auto-target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen
-description: Erfahren Sie, wie verschiedene Segmente, die von Adobe [!DNL Target] Personalisierungsmodellen definiert werden, auf Angebote/Erlebnisse in der Aktivität reagieren, indem Sie den Bericht „Automatisierte Segmente“ anzeigen.
+description: Erfahren Sie, wie verschiedene von Adobe- [!DNL Target]  definierte Segmente auf Angebote/Erlebnisse in der Aktivität reagieren, indem Sie den Bericht „Automatisierte Segmente“ anzeigen.
 title: Was ist der Bericht „Automatisierte Segmente“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -102,7 +102,7 @@ Es gibt mehrere Gründe, warum die [!UICONTROL Personalization Insights] noch ni
 
 Ein Attribut ist eine Information zu einem Besucher oder seinem spezifischen Besuch, die von den Personalisierungsalgorithmen verwendet wird, um die Traffic-Personalisierung anzupassen. Bei einem Attribut kann es sich beispielsweise um den Browsertyp, den Standort, die Uhrzeit des Besuchs usw. handeln.
 
-Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target zur Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
+Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target für die Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
 
 **Was ist ein automatisiertes Segment?**
 
@@ -138,7 +138,7 @@ Personalization Insights-Berichte (sowohl [!UICONTROL Automated Segments] als au
 
 **Wie wird [!UICONTROL Personalization Insights] erstellt?**
 
-[!UICONTROL Personalization Insights] wird mithilfe einer zum Adobe-Patent angemeldeten Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen zu MAGIX finden Sie in der Publikation des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] wird mithilfe einer zum Patent angemeldeten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Warum stimmen die Traffic-Daten der Besucher im [!UICONTROL Automated Segments] nicht mit meinem AP- oder AT-Zusammenfassungs-/Leistungsbericht überein?**
 

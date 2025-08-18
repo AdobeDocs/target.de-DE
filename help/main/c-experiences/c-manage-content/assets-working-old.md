@@ -1,13 +1,13 @@
 ---
 keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
-description: Erfahren Sie, wie Sie Code- und Bildangebote in der Adobe-Angebotsbibliothek  [!DNL Target] . Erfahren Sie, wie Sie die Details eines Angebots anzeigen und Angebote bearbeiten, kopieren, verschieben oder löschen können.
+description: Erfahren Sie, wie Sie Code- und Bildangebote in der Adobe- [!DNL Target] -Bibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots anzeigen und Angebote bearbeiten, kopieren, verschieben oder löschen können.
 title: Wie verwende ich Inhalte in der Angebotsbibliothek?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -86,7 +86,7 @@ Die folgende Abbildung zeigt die Symbole zum Bewegen des Mauszeigers beim Anzeig
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=de) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 

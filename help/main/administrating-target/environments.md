@@ -7,8 +7,8 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 46%
 
 ---
 
@@ -50,7 +50,7 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 >
 >[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
 >
->Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
+>Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 >
 >Sie können die [!UICONTROL Production] Umgebung nicht löschen, aber Sie können sie umbenennen.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."} Recommendations: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe)
 
 Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Ausschlüssen für eine ausgewählte Umgebung (Hostgruppe) anzeigen.
 

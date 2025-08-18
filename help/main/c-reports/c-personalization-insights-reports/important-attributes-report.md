@@ -2,13 +2,13 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie den [!UICONTROL Important Attributes] verwenden, der die wichtigsten Attribute zeigt, die das Personalisierungsmodell beeinflusst haben, und ihre relative Bedeutung.
 title: Was ist der Bericht „Wichtige Attribute“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '1773'
-ht-degree: 56%
+ht-degree: 57%
 
 ---
 
@@ -92,13 +92,13 @@ Es gibt verschiedene Gründe, warum die [!UICONTROL Personalization Insights]-Be
 
 Ein Attribut ist eine Information zu einem Besucher oder seinem spezifischen Besuch, die von den Personalisierungsalgorithmen verwendet wird, um die Traffic-Personalisierung anzupassen. Bei einem Attribut kann es sich beispielsweise um den Browsertyp, den Standort, die Uhrzeit des Besuchs usw. handeln.
 
-Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target zur Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
+Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisierungsmodellen nutzt, finden Sie unter [Datenerfassung für die Personalisierungsalgorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Weitere Informationen zum Hochladen neuer Attribute in Target für die Verwendung in den Personalisierungsmodellen von Target finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
 
 ### Ich sehe ein oder mehrere Attribute, die das Modell nicht für das Training verwenden soll. Kann ich diese Attribute aus dem Trainings-Modell entfernen? {#models-api}
 
 Mit der [!UICONTROL Models API], auch als Blockierungsliste-API bezeichnet, können Benutzende die Liste der Attribute (auch als Funktionen bezeichnet) anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verwendet werden. Wenn Sie ein oder mehrere Attribute von der Verwendung durch die Modelle für AP- oder AT-Aktivitäten ausschließen möchten, können Sie die Models-API verwenden, um diese Attribute zur &quot;Blockierungsliste&quot; hinzuzufügen.
 
-Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=de){target=_blank}.
+Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Sind die Informationen in den [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes] Berichten mit denen im CSV-Download identisch?
 
@@ -110,7 +110,7 @@ Personalization Insights-Berichte (sowohl [!UICONTROL Automated Segments] als au
 
 ### Wie wird [!UICONTROL Personalization Insights] erstellt?
 
-[!UICONTROL Personalization Insights] wird mithilfe einer zum Adobe-Patent angemeldeten Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen zu MAGIX finden Sie in der Publikation des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] wird mithilfe einer zum Patent angemeldeten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### Sind [!UICONTROL Personalization Insights] für umsatzbasierte Modellierungsziele/primäre Ziele verfügbar?
 
@@ -146,4 +146,4 @@ Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic berei
 
 Das folgende Problem wird derzeit vom [!DNL Target]-Engineering-Team untersucht.
 
-* [!DNL Adobe Experience Platform] Segmentnamen werden für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten nicht im [!UICONTROL Important Attributes] angezeigt. (Die 3813 populärsten)
+* [!DNL Adobe Experience Platform] Segmentnamen werden für [!UICONTROL Important Attributes] (AP)- und [!UICONTROL Automated Personalization] (AT)-Aktivitäten nicht im [!UICONTROL Auto-Target] angezeigt. (Die 3813 populärsten)

@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -37,7 +37,7 @@ Mit Geolokalisierungsparametern können Sie Aktivitäten und Erlebnisse basieren
 
    Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.
 
-   [!DNL Target] nutzt [!UICONTROL Mobile Carrier] die IP-Adressregistrierungsdaten (dem der Block von IP-Adressen gehört), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
+   [!UICONTROL Mobile Carrier] nutzt [!DNL Target] die IP-Adressregistrierungsdaten (dem der Block von IP-Adressen gehört), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
 
 1. Geben Sie einen Operator und den entsprechenden Wert an.
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
@@ -110,7 +110,7 @@ Die folgenden Fragen werden häufig zum Geo-Targeting gestellt:
 
 ### Wie gebe ich den Breiten- und Längengrad an?
 
-+++Siehe Details
++++Details anzeigen
 * Der Wert für Breiten- und Längengrad sollte ein numerischer Wert in Grad sein.
 * Der Wert für Breiten- und Längengrad kann eine maximale Genauigkeit von fünf Dezimalstellen haben.
 * Der Wert für den Breitengrad muss zwischen -90 und 90 liegen.
@@ -134,7 +134,7 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic weiterleitet, können [!DNL T
 
 ### Welche Standort-Granularität bietet Geo-Targeting?
 
-+++Siehe Details
++++Details anzeigen
 * Land - global
 * Bundesland/-staat/Region - global
 * Ort - global
@@ -146,7 +146,7 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic weiterleitet, können [!DNL T
 
 ### Wie kann ich meine Aktivitäten als Benutzer von einem anderen Standort testen?
 
-+++Siehe Details
++++Details anzeigen
 * **at.js 1.*x***: Sie können Ihre IP-Adresse mit einer IP-Adresse von einem anderen Speicherort überschreiben und den `mboxOverride.browserIp url`-Parameter verwenden. Wenn sich Ihr Unternehmen beispielsweise in Großbritannien befindet, Ihre globale Kampagne jedoch auf Besucher in Auckland, Neuseeland, ausgerichtet ist, verwenden Sie diesen URL-Stil unter der Annahme, dass `60.234.0.39` eine IP-Adresse in Auckland ist:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
@@ -164,7 +164,7 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic weiterleitet, können [!DNL T
 ### Wie werden Gebiete wie Puerto Rico und Hongkong in die Geo-Targeting-Struktur eingeordnet?
 
 +++Details anzeigen
-Puerto Rico, Hongkong und andere Gebiete werden als separate „Länderwerte“ behandelt.
+Puerto Rico, Hongkong und andere Gebiete werden als separate Länderwerte verarbeitet.
 
 +++
 

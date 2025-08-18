@@ -1,6 +1,6 @@
 ---
 keywords: mehrseitig;Verlaufstests;mehrseitige Aktivität
-description: Erfahren Sie, wie Sie eine mehrseitige Aktivität in Adobe erstellen [!DNL Target]  mit der Sie eine Story über mehrere Seiten erstellen können, wobei das Design für jede Seite spezifisch ist.
+description: Erfahren Sie, wie Sie in Adobe eine mehrseitige Aktivität erstellen [!DNL Target]  mit der Sie eine Story über mehrere Seiten hinweg erstellen können, wobei das Design für jede Seite spezifisch ist.
 title: Wie erstelle ich eine mehrseitige Aktivität?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545

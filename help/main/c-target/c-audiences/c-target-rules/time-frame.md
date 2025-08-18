@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ Beispielsweise können Sie mit der [kombinierten Ad-hoc-Zielgruppenfunktion](/he
    >
    >Beachten Sie Folgendes:
    >
-   >* Die Zeitzone für Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN: NN den Offset von GMT darstellt und die Zeitzone auf Benutzerkontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Die Zeitzone von Kalifornien wird z. B. als GMT -08:00 angezeigt.
+   >* Die Zeitzone für das Start-/Enddatum wird als GMT +/- NN:NN angezeigt, wobei NN:NN der Versatz zum GMT ist und die Zeitzone auf Kontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Beispielsweise würde die Zeitzone Kaliforniens als GMT -08:00 angezeigt.
    >
    >* [!DNL Target]-Zielgruppen berücksichtigen keine Änderungen der Sommerzeit (Daylight Saving Time, DST). Zielgruppen müssen manuell neu gespeichert werden, um DST-Änderungen zu berücksichtigen.
 

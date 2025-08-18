@@ -61,7 +61,7 @@ Das Erstellen einer [!DNL Target] Aktivität, die [!DNL Analytics] als Berichtsq
 
    >[!NOTE]
    >
-   >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was von [!DNL Analytics] normalerweise nicht verfolgt wird. Diese benutzerdefinierte Metrik wird vom [!DNL Target]-Server automatisch an [!DNL Analytics] gesendet und in der Metrikauswahl in [!DNL Analytics] als Metrik &quot;[!DNL Target] Conversion“ angezeigt. Die [!DNL Target] Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] verwenden möchten.
+   >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was von [!DNL Analytics] normalerweise nicht verfolgt wird. Diese benutzerdefinierte Metrik wird vom [!DNL Analytics]-Server automatisch an [!DNL Target] gesendet und in der Metrikauswahl in [!DNL Target] als Metrik &quot;[!DNL Analytics] Conversion“ angezeigt. Die [!DNL Target] Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] verwenden möchten.
 
    Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 

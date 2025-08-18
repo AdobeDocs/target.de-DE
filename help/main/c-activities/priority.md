@@ -15,7 +15,7 @@ ht-degree: 39%
 
 [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) für eine Seite bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) Sie verwenden.
 
-## Nur [!UICONTROL Visual Experience Composer] oder nur mit einer globalen [!DNL Target]-Anfrage [!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Nur [!UICONTROL Visual Experience Composer] oder nur mit einer globalen [!UICONTROL Form-Based Experience Composer]-Anfrage [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 

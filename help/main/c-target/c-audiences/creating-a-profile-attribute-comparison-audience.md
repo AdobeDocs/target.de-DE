@@ -7,7 +7,7 @@ exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 49%
+ht-degree: 51%
 
 ---
 
@@ -65,4 +65,4 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 
->[!VIDEO](https://video.tv.adobe.com/v/328066?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

@@ -7,7 +7,7 @@ exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -52,7 +52,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden,
 
 ### [!UICONTROL Duration]
 
-Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität beendet werden, wenn sie deaktiviert ist, oder Sie können ein Datum und eine Uhrzeit für das Ende der Aktivität festlegen. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität beendet werden, wenn sie deaktiviert ist, oder Sie können ein Datum und eine Uhrzeit für das Ende der Aktivität festlegen. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 

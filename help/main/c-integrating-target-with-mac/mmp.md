@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud-Zielgruppen; Zielgruppen
-description: Erfahren Sie, wie Adobe Experience Cloud Audiences Experience Cloud-Lösungen die Kommunikation und den Austausch von Informationen über Website-Besucher mit anderen Adobe-Lösungen ermöglichen.
+description: Erfahren Sie, wie Adobe Experience Cloud Audiences Experience Cloud-Lösungen die Kommunikation und den Austausch von Informationen über Website-Besuchende mit anderen Adobe-Lösungen ermöglicht.
 title: Wie verwende ich Adobe Experience Cloud-Zielgruppen in Target?
 feature: Integrations
 exl-id: 4502e77d-1310-41f3-8d14-ba69692df1af

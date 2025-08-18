@@ -7,7 +7,7 @@ exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 46%
+ht-degree: 61%
 
 ---
 
@@ -18,7 +18,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zu [!DNL Adobe Analytics
 ## Wie kann ich eine mehrseitige A4T-Aktivität einrichten?
 
 +++Antwort
-Implementieren eines einfachen mehrseitigen A4T-Anwendungsfalls:
+So implementieren Sie einen einfachen mehrseitigen A4T-Anwendungsfall:
 
 * Implementieren Sie die JavaScript-Bibliotheken für Target und Analytics auf der Landingpage der Aktivität . Bei der Implementierung beider Lösungen werden die Target-Daten mit den Analytics-Daten für jeden Besucher zusammengeführt. Diese Daten bleiben in Analytics, bis sie ablaufen. Der standardmäßige Ablaufzeitraum beträgt 90 Tage.
 
@@ -29,9 +29,9 @@ Implementieren eines einfachen mehrseitigen A4T-Anwendungsfalls:
 ## Wie kann ich feststellen, ob A4T in meinem [!DNL Target]-Konto aktiviert ist? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 +++Antwort
-Bevor beim Definieren einer Analytics-Aktivität eine Report Suite ausgewählt werden kann, benötigen Sie sowohl ein Analytics-Benutzerkonto als auch ein Target-Benutzerkonto. Ihre Benutzerkonten müssen wie in der Dokumentation beschrieben konfiguriert werden. Siehe [Anforderungen an Benutzerberechtigungen](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
+Zur Auswahl einer Report Suite bei der Definition einer Analytics-Aktivität brauchen Sie sowohl ein Analytics-Benutzerkonto als auch ein Target-Benutzerkonto. Ihre Benutzerkonten müssen wie in der Dokumentation beschrieben konfiguriert werden. Siehe [Anforderungen an Benutzerberechtigungen](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Wenn Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugriff auf Analytics und Target haben, und Sie Zugriff auf alle Report Suites haben, sollte unter **[!UICONTROL Create Activity]** die Option zum Erstellen eines A/B-Tests mit Analytics angezeigt werden.
+Sobald Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugriff auf Analytics und Target haben, und Sie Zugriff auf alle Report Suites haben, sollte unter **[!UICONTROL Create Activity]** die Option zum Erstellen eines A/B-Tests mit Analytics angezeigt werden.
 
 Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T richtig bereitgestellt wird.
 
@@ -40,10 +40,10 @@ Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T rich
 ## Warum werden meine Report Suites nicht geladen?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 +++Antwort
-Überprüfen Sie Folgendes, wenn eines dieser Probleme auftritt:
+Überprüfen Sie, ob eines der folgenden Probleme auftritt:
 
-* Stellen Sie sicher, dass Ihre Analytics- und Target-Konten auf der Experience Cloud verknüpft sind.
-* Einige Kunden verwenden mehrere Unternehmensanmeldungen von Analytics in derselben Experience Cloud-Firma. Wenn Sie mehrere Anmeldungen verwenden, stellen Sie sicher, dass das letzte Analytics-Unternehmen, bei dem Sie sich angemeldet haben, mit dem Target-Konto für die Integration verknüpft ist.
+* Stellen Sie sicher, dass Ihre Analytics- und Target-Konten in der Experience Cloud verknüpft sind.
+* Einige Kunden verwenden mehrere Unternehmensanmeldungen von Analytics im selben Experience Cloud-Unternehmen. Wenn Sie mehrere Anmeldungen verwenden, stellen Sie sicher, dass das letzte Analytics-Unternehmen, bei dem Sie sich angemeldet haben, mit dem Target-Konto für die Integration verknüpft ist.
 * Wenn Sie seit mehreren Stunden bei Experience Cloud angemeldet sind, kann in einigen Fällen die Sitzung abgelaufen sein. Melden Sie sich ab und dann wieder an und versuchen Sie es dann erneut.
 
 +++

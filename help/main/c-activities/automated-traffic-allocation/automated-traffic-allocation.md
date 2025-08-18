@@ -11,7 +11,7 @@ ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Allocate]
+# Übersicht über [!UICONTROL Auto-Allocate]
 
 Eine [!UICONTROL Auto-Allocate] Aktivität in [!DNL Adobe Target] ermittelt aus zwei oder mehr Erlebnissen den Gewinner und weist dem Gewinner automatisch mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
 
@@ -51,7 +51,7 @@ Bei solchen Tests verwenden die meisten Produkte, einschließlich [!DNL Target],
 
 Die folgenden Begriffe sind bei der Erörterung von [!UICONTROL Auto-Allocate] hilfreich:
 
-**Mehrarmiger Bandit:** Ein [Mehrarmiger Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}-Ansatz für die Optimierung bringt entdeckendes Lernen und die Nutzung des Erlernten miteinander in Einklang.
+**Multi-Armed Bandit:** Eine [Multi-Armed Bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank}-Vorgehensweise („Mehrarmiger Bandit“) zur Optimierung gleicht forschendes Lernen und die Verwertung dieses Lernens aus.
 
 ## Funktionsweise des Algorithmus {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -70,7 +70,7 @@ Die folgende Abbildung zeigt, wie der Algorithmus bei einem Test mit vier Erlebn
 
 Die Abbildung zeigt, wie sich der den einzelnen Erlebnissen zugeordnete Traffic ändert, während die Aktivität mehrere Runden durchläuft, bis ein Gewinner gefunden ist.
 
-| Rund | Beschreibung |
+| Round | Beschreibung |
 |--- |--- |
 | ![Aufwärmrunde](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png){width="200" zoomable="yes"} | **Aufwärmrunde (0)**: Während der Aufwärmrunde wird für jedes Erlebnis gleich viel Traffic zugeteilt, bis jedes Erlebnis in der Aktivität mindestens 1.000 Besucher und 50 Konversionen aufweist.<ul><li>Erlebnis A = 25 %</li><li>Erlebnis B = 25 %</li><li>Erlebnis C = 25 %</li><li>Erlebnis D = 25 %</li></ul>Nachdem jedes Erlebnis 1.000 Besucher und 50 Konversionen erreicht hat, startet [!DNL Target] die automatische Traffic-Zuordnung. Sämtliche Zuordnungen werden in Runden vorgenommen, wobei für jede Runde zwei Erlebnisse herausgesucht werden.<br>Nur zwei Erlebnisse gehen in die nächste Runde über: D und C<br>Vorwärts bedeutet, dass die beiden Erlebnisse zu 80 % dem Traffic gleich zugewiesen werden. Die beiden anderen Erlebnisse sind weiterhin Teil der Teilnahme, werden aber nur als Teil der 20-%-Traffic-Zuordnung bereitgestellt, wenn neue Besucher in die Aktivität eintreten.<br>Sämtliche Zuordnungen werden stündlich aktualisiert (erkennbar an der Rundenangabe auf der X-Achse in der Abbildung oben). Nach jeder Runde werden die kumulativen Daten verglichen. |
 | ![Runde 1](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-1.png){width="200" zoomable="yes"} | **Runde 1**: Während dieser Runde werden 80% des Traffics den Erlebnissen C und D zugeordnet (jeweils 40%). 20 % des Traffics werden auf zufälliger Basis den Erlebnissen A, B, C und D zugeordnet (jeweils 5 %). Während dieser Runde werden beim Erlebnis A gute Leistungen verzeichnet.<ul><li>Der Algorithmus wählt Erlebnis D aus, um in die nächste Runde zu wechseln, da er die höchste Konversionsrate hat (wie durch die vertikale Skala jeder Aktivität angegeben).</li><li>Außerdem wählt der Algorithmus auch das Erlebnis A für die nächste Runde aus, da es die höchste Obergrenze des Bernstein-95-%-Konfidenzintervalls der verbleibenden Erlebnisse erreicht hat.</li></ul>Die Erlebnisse D und A gelangen eine Runde weiter. |
@@ -83,7 +83,7 @@ Die Abbildung zeigt, wie sich der den einzelnen Erlebnissen zugeordnete Traffic 
 >
 >Wenn eine Aktivität nur zwei Erlebnisse hat, erhalten beide Erlebnisse gleichen Traffic, bis [!DNL Target] mit 75 % Zuversicht ein erfolgreichstes Erlebnis findet. Zu diesem Zeitpunkt werden zwei Drittel des Traffics dem Gewinner und ein Drittel dem Verlierer zugewiesen. Wenn danach ein Erlebnis 95 % Vertrauen erreicht, werden 90 % des Traffics dem Gewinner und 10 % dem Verlierer zugewiesen. [!DNL Target] sendet immer etwas Traffic an das „Verlierer“-Erlebnis, um am Ende falsch positive Ergebnisse zu vermeiden (d. h. einige Exploration aufrechtzuerhalten).
 
-Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorgänge in der Target-Benutzeroberfläche nicht zulässig:
+Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorgänge in der Tar[!DNL]get-Benutzeroberfläche nicht zulässig:
 
 * Umschalten des Modus „Traffic-Zuordnung“ auf „Manuell“
 * Ändern des Zielmetriktyps
@@ -228,7 +228,7 @@ Nein, [!UICONTROL Auto-Allocate] berücksichtigt die Leistung der gesamten Aktiv
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Aktivitäts-Workflow - Targeting (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalten.
 
@@ -239,11 +239,11 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Erstellen von A/B-Tests (:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. [!UICONTROL Auto-Allocate] wird ab 04:45 besprochen.
+In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. [!UICONTROL Auto-Allocate] wird ab 4.:45 besprochen.
 
 * Erstellen einer A/B-Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

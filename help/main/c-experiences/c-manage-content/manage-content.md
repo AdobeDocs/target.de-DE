@@ -59,7 +59,7 @@ Sie können die folgenden Schnellaktionen ausführen, indem Sie auf das entsprec
 
 Klicken Sie auf das **[!UICONTROL Quick Info]**-Symbol ( ![Quick Info-Symbol](/help/main/assets/icons/InfoOutline.svg) ) neben jedem Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Popup-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde, und von wem und mehr. Die verfügbaren Optionen hängen vom Angebotstyp ab: [!UICONTROL HTML Offer], [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
-### Mehr Aktionen 
+### Mehr Aktionen	
 
 Die für [!UICONTROL Code Offers] und für [!UICONTROL Image Offers] verfügbaren Aktionen unterscheiden sich geringfügig. Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 

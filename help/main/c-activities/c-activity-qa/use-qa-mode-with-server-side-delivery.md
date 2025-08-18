@@ -1,6 +1,6 @@
 ---
 keywords: QS; serverseitig, Server-seitig, Vorschau, Vorschaulinks
-description: Erfahren Sie, wie Sie Adobe [!DNL Target] QA-URLs mit serverseitiger Bereitstellung verwenden, um eine einfache End-to-End-Aktivitäts-QA mit Vorschau-Links, die sich nie ändern, optionalem Audience-Targeting und QA-Reporting durchzuführen, die weiterhin von Live-Aktivitätsdaten segmentiert sind.
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] QA-URLs mit serverseitiger Bereitstellung verwenden können, um eine durchgängige Aktivitäts-QA mit Vorschau-Links, die sich nie ändern, optionalem Audience-Targeting und QA-Berichten durchzuführen, die von Live-Aktivitätsdaten segmentiert bleiben.
 title: Kann ich Aktivitäts-QA mit serverseitiger Bereitstellung durchführen?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc

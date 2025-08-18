@@ -80,7 +80,7 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
 * Das [!UICONTROL Inject Target libraries]-Flag in der Erweiterung ist standardmäßig deaktiviert. Sie können diese Markierung aktivieren, wenn Sie VEC auf einer Site verwenden möchten, für die [!DNL Target] noch nicht implementiert wurde.
 
-  Diese Markierung ist eine globale Einstellung. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie beispielsweise diese Markierung auf „Ein“ setzen und eine Website öffnen, die bereits mit at.js implementiert ist, erhalten Sie eine Meldung, die Sie darüber informiert, dass at.js bereits geladen ist. Adobe geht davon aus, dass die meisten Kunden at.js bereits auf ihren Seiten implementiert haben und die Standardeinstellung „off“ verwenden.
+  Diese Markierung ist eine globale Einstellung. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie beispielsweise diese Markierung auf „Ein“ setzen und eine Website öffnen, die bereits mit at.js implementiert ist, erhalten Sie eine Meldung, die Sie darüber informiert, dass at.js bereits geladen ist. Adobe geht davon aus, dass die meisten Kundinnen und Kunden auf ihren Seiten bereits at.js implementiert haben und die Standardeinstellung „off“ verwenden.
 
 * Die Erweiterung lädt die neueste Version von at.js, die über die [!DNL Target UI] in [!UICONTROL Administration > Implementation] verfügbar ist.
 * Wenn Sie die Erweiterung verwenden, um at.js im [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) einzufügen, muss eine andere Chrome-Registerkarte geöffnet sein. Diese Chrome-Registerkarte muss für dieselbe [!DNL Adobe Experience Cloud]-Organisation authentifiziert sein, in der Sie die Aktivität erstellt haben.

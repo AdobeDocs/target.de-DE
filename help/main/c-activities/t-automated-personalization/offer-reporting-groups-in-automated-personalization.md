@@ -2,7 +2,7 @@
 keywords: Automated Personalization;Angebot;Reporting;Gruppe;Berichtsgruppe;Zuordnung
 description: Erfahren Sie, wie Sie in -Aktivitäten  [!DNL Adobe Target] [!UICONTROL Automated Personalization] Berichtsgruppen für Angebote verwenden.
 title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization] Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -34,7 +34,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 ## Einrichten von Berichtsgruppen
 
 1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; einer AP-Aktivität auf das Symbol **[!UICONTROL Manage Content]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) )
-1. Klicken Sie oben im Dialogfeld [!UICONTROL Manage Content] auf die Registerkarte **[!UICONTROL Offers]** .
+1. Klicken Sie oben im Dialogfeld **[!UICONTROL Offers]** auf die Registerkarte [!UICONTROL Manage Content] .
 1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) für das gewünschte Angebot klicken und dann auf **[!UICONTROL Reporting Group]** klicken.
 
 1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann unten im Dialogfeld auf **[!UICONTROL Reporting Group]** klicken.

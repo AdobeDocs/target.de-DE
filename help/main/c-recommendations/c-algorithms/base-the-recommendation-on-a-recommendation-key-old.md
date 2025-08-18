@@ -1,6 +1,6 @@
 ---
 keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;Bevorzugte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt angezeigt;Am häufigsten angezeigt;Favorit;Zuletzt angezeigt
-description: Erfahren Sie, wie Sie Empfehlungen verwenden können, die auf Schlüsseln basieren, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Adobe [!DNL Target] Recommendations-Aktivitäten anzuzeigen.
+description: Erfahren Sie, wie Sie Empfehlungen verwenden können, die auf Schlüsseln basieren, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Adobe/Recommendations [!DNL Target] Aktivitäten anzuzeigen.
 title: Wie stütze ich die Empfehlung auf einen Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # Stützen einer Empfehlung auf einen Empfehlungsschlüssel
 
-Auf Algorithmen basierende Recommendations verwenden den Kontext des Besucherverhaltens, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations] anzuzeigen.
+Empfehlungen, die auf Algorithmen basieren, verwenden den Kontext des Besucherverhaltens, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations] anzuzeigen.
 
 Jeder Algorithmustyp bietet verschiedene Algorithmen, die für seinen Typ geeignet sind, wie in der folgenden Tabelle gezeigt:
 
@@ -34,7 +34,7 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der Algorithmustyp [!UICONTROL Cart-Based] ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der Algorithmustyp [!UICONTROL Cart-Based] ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; und &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
 
@@ -450,7 +450,7 @@ Empfiehlt Artikel auf Grundlage der Wahrscheinlichkeit eines Zusammenhangs zwisc
 
 Beispiel: Sie legen eine sehr starke Affinität fest und Ihr Entwurf umfasst fünf Artikel, von denen drei den Schwellenwert für einen wahrscheinlichen Zusammenhang übersteigen. Die zwei Artikel, die die Voraussetzung nicht erfüllen, werden nicht in Ihren Empfehlungen angezeigt und durch von Ihnen definierte Ersatzartikel ausgetauscht. Die Artikel mit der stärksten Affinität werden zuerst angezeigt.
 
-Beispielsweise kann ein Online-Händler Artikel für nachfolgende Besuche empfehlen, an denen ein Besucher während früherer Sitzungen Interesse gezeigt hat. Die Aktivität der einzelnen Besuchersitzungen wird erfasst, um eine Affinität anhand eines Neuigkeits- und Häufigkeitsmodells zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen anzuzeigen, die auf früheren Aktionen auf Ihrer Site basieren.
+Beispielsweise kann eine Online-retailer Elemente bei nachfolgenden Besuchen empfehlen, an denen sich ein Besucher während früherer Sitzungen interessiert hat. Die Aktivität der einzelnen Besuchersitzungen wird erfasst, um eine Affinität anhand eines Neuigkeits- und Häufigkeitsmodells zu berechnen. Wenn dieser Besucher zu Ihrer Site zurückkehrt, wird die Site-Affinität verwendet, um Empfehlungen anzuzeigen, die auf früheren Aktionen auf Ihrer Site basieren.
 
 Bei manchen Kunden mit diversen Produktsammlungen und vielfältigem Site-Verhalten kann es sein, dass die besten Ergebnisse mit einer schwachen Site-Affinität erzielt werden.
 

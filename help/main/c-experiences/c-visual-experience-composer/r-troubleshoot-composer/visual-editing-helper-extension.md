@@ -7,7 +7,7 @@ exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Die [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erw
 
 ## Herunterladen und Installieren der [!UICONTROL Visual Editing Helper]-Browser-Erweiterung
 
-1. Navigieren Sie im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank} zur [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erweiterung.
+1. Navigieren Sie zur [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Browser-Erweiterung im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Klicken Sie auf **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 1. Öffnen Sie den VEC in [!DNL Target].
 1. Um die Erweiterung zu verwenden, klicken Sie in der Symbolleiste Ihres Chrome-Browsers auf das Symbol der [!UICONTROL Visual Editing Helper]-Browser-Erweiterung ( ![Visual Editing-Erweiterungssymbol](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ), während Sie sich im VEC- oder QA-Modus befinden.

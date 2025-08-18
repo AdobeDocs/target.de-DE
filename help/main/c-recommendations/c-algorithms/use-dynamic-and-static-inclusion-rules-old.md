@@ -1,8 +1,8 @@
 ---
 keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations Einschlussregeln für Kriterien und Promotions erstellen. Um bessere Ergebnisse zu erzielen, fügen Sie dynamischere oder statische Filterregeln hinzu.
+description: Erfahren Sie, wie Sie Einschlussregeln in Adobe erstellen [!DNL Target]  Recommendations für Kriterien und Promotions. Um bessere Ergebnisse zu erzielen, fügen Sie dynamischere oder statische Filterregeln hinzu.
 title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -21,7 +21,7 @@ Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und 
 
 ## Hinzufügen von Filterregeln zu Kriterien {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-Klicken Sie beim [ von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) unter **[!UICONTROL Inclusion Rules]** auf **[!UICONTROL Add Filtering Rule]** .
+Klicken Sie beim [ von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) unter **[!UICONTROL Add Filtering Rule]** auf **[!UICONTROL Inclusion Rules]** .
 
 ![inclusion_options_new Bild](assets/inclusion_options_new.png)
 

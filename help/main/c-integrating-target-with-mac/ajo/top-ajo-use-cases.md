@@ -22,10 +22,10 @@ Erfahren Sie, wie Sie die wichtigsten Anwendungsfälle für die Optimierung in [
 
 Für die folgenden Anwendungsfälle benötigen Sie Folgendes:
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
-* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] erforderlich. Diese Anwendungsfälle zeigen, wie Sie mit [!DNL Journey Optimizer] vertraute Aufgaben in [!DNL Target] ausführen und so dieselben Ergebnisse mit [!DNL Journey Optimizer] erzielen können.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* Für diese Anwendungsfälle ist keine [!DNL Adobe Target] erforderlich. Diese Anwendungsfälle zeigen, wie Sie mit [!DNL Target] vertraute Aufgaben in [!DNL Journey Optimizer] ausführen und so dieselben Ergebnisse mit [!DNL Journey Optimizer] erzielen können.
 
-## Anwendungsbeispiele
+## Anwendungsszenarien
 
 Die folgenden Anwendungsfälle zeigen, wie Sie aus [!DNL Target] in [!DNL Adobe Journey Optimizer] vertraute Aufgaben ausführen und so Unterschiede und Ähnlichkeiten bei der Ausführung erkennen können.
 

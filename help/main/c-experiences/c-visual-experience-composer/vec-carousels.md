@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;Karussell
-description: Erfahren Sie, wie Sie ein Karussell erstellen, das im Adobe-Visual Experience  [!DNL Target]  (VEC) bearbeitet werden kann.
+description: Erfahren Sie, wie Sie ein Karussell erstellen, das in Adobe/Visual  [!DNL Target]  Composer (VEC) bearbeitet werden kann.
 title: Wie erstelle ich Karussells im Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a

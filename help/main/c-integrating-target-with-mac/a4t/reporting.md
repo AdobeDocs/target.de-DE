@@ -17,7 +17,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Ad
 
 Sie können Berichte für Ihre Aktivitäten sowohl in [!DNL Analytics] als auch in [!DNL Target] anzeigen.
 
-Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [ in dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [ auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -89,14 +89,14 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse Request]** die Felder aus.
 
-   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=de).
+   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Feld | Anleitung |
    |--- |--- |
    | Anforderungsname | Geben Sie einen Namen für Ihre Anforderung ein. |
    | Berichtsdatum | Geben Sie einen Zeitraum und eine Granularität an.<br>Es hat sich bewährt, für die erste Anforderung maximal eine Stunde oder einen Tag mit Daten auszuwählen.  Die Verarbeitung von Data Warehouse-Dateien dauert umso länger, je länger der angeforderte Zeitraum ist. Daher ist es immer am besten, zunächst Daten für einen kleineren Zeitraum anzufordern, um sicherzustellen, dass die Datei das erwartete Ergebnis zurückgibt. Rufen Sie anschließend Request Manager auf, duplizieren Sie die Anforderung und fragen Sie beim zweiten Durchlauf mehr Daten an. Wenn Sie die Granularität auf einen anderen Wert als „Keine“ umschalten, wird die Dateigröße ebenfalls drastisch erhöht.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Verfügbare Segmente | Wenden Sie bei Bedarf ein Segment an. |
-   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene benötigt werden, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
+   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an die die Datei gesendet werden soll, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately] aus.<br>Hinweis: Die Datei kann über FTP unter &quot;[!UICONTROL Advanced Delivery Options]<br>![ Versand planen“ ](/help/main/c-reports/assets/datawarehouse3.png) werden. |
@@ -109,5 +109,5 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=de)
-* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=de)
+* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

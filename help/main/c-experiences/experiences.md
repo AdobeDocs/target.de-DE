@@ -1,6 +1,6 @@
 ---
 keywords: Experience Composer; Visual Experience Composer; Enhanced Experience Composer; formularbasierter Erlebnis-Composer; Formular-Composer; Visual Composer; Experience Composer; gemischte Inhalte; iFrame; iFrame-Busting; Büsten-iFrame; X-Frame-Optionen; X-Frame-Optionen; Cross-Origin; ursprungsübergreifende Probleme; Authentifizierungs-Workflow
-description: Erfahren Sie mehr über den Adobe Experience Composer - Visual Experience Composer (VEC), den formularbasierten Experience Composer und den Einzelseiten-Visual Experience Composer.
+description: Erfahren Sie mehr über Adobe Experience Composers - Visual Experience Composer (VEC), den formularbasierten Experience Composer und den Visual Experience Composer für Einzelseiten-Apps.
 title: Welche Experience Composers bietet  [!DNL Target] ?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2

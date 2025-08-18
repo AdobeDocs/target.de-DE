@@ -20,7 +20,7 @@ Um auf die [!UICONTROL Administration] Menüelemente zuzugreifen, klicken Sie in
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/main/administrating-target/reporting.md)
-* [Scene7-Konfiguration](/help/main/administrating-target/scene7-settings.md)
+* [Konfiguration für Scene7](/help/main/administrating-target/scene7-settings.md)
 * [Implementierung](/help/main/c-implementing-target/implementing-target.md)
 * [Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hosts](/help/main/administrating-target/hosts.md)

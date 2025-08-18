@@ -75,7 +75,7 @@ So erstellen Sie eine [!UICONTROL Auto-Allocate]:
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in der [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Um [!UICONTROL Experience B] zu ändern, beginnen Sie mit Schritt 2.
 
-1. Klicken Sie oben in der [!UICONTROL Visual Experience Composer] auf **[!UICONTROL Targeting]** , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
+1. Klicken Sie oben in der **[!UICONTROL Targeting]** auf [!UICONTROL Visual Experience Composer] , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
 
    Das Flussdiagramm wird geöffnet.
 

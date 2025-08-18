@@ -1,6 +1,6 @@
 ---
 keywords: mehrere Werte;Attribute;Recommendations;mehrere Werte;mehrere Werte;mehrere Werte
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations mit einem Feld mit mehreren Werten arbeiten können, indem Sie bestimmte Operatoren für mehrere Werte verwenden, z. B. wenn Sie Filme mit mehreren Akteuren empfehlen.
+description: Erfahren Sie, wie Sie in Adobe Recommendations mit einem Feld mit mehreren Werten arbeiten können [!DNL Target]  indem Sie beispielsweise spezielle Operatoren für mehrere Werte verwenden, wenn Sie Filme mit mehreren Akteuren empfehlen.
 title: Kann ich in Recommendations Attribute mit mehreren Werten verwenden?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b

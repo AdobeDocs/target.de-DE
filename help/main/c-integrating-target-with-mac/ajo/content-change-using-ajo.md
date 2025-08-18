@@ -28,7 +28,7 @@ In diesem Anwendungsbeispiel wird gezeigt, wie vertraute Aufgaben, wie z. B. A/B
 
 ## Mögliche Szenarien
 
-* Ein Bekleidungsunternehmen steigerte die Konversionen, indem es verschiedene Bilder testete und die Landingpages der Kampagnen mit den Vornamen der Benutzer im Text der Handlungsaufforderung personalisierte.
+* Ein Bekleidungsunternehmen steigerte die Konversionen, indem es verschiedene Bilder testete und die Landingpages mit den Vornamen der Benutzenden im call-to-action-Text personalisierte.
 
 * Ein E-Commerce-Unternehmen stellte fest, dass seine Mitglieder des Treueprogramms Gold höhere Konversionsraten aufwiesen, indem sie verschiedene Produktbeschreibungen und Bilder auf einer Landingpage von Kampagnen testeten, was zu höheren Umsätzen führte.
 
@@ -36,7 +36,7 @@ In diesem Anwendungsbeispiel wird gezeigt, wie vertraute Aufgaben, wie z. B. A/B
 
 >[!NOTE]
 >
->Die Anweisungen in diesem Abschnitt heben die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zum Personalisieren von Textnachrichten hervor. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer]-Web-Designer finden Sie unter [Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der *Journey Optimizer-Dokumentation*.
+>Die Anweisungen in diesem Abschnitt heben die erforderlichen Schritte zum Ändern eines Bildes und zum Verwenden von Profilattributen zum Personalisieren von Textnachrichten hervor. Weitere Informationen zu den verfügbaren Optionen im [!DNL Journey Optimizer]-Web-Designer finden Sie unter [Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der *Journey Optimizer-Dokumentation*.
 >
 >Das Video unten auf der Seite ist besonders hilfreich.
 
@@ -44,7 +44,7 @@ So optimieren Sie eine Web-Seite, indem Sie verschiedene Bilder testen und Nachr
 
 1. Klicken Sie [!DNL Journey Optimizer] in der linken Leiste auf **Kampagnen**, um die [!UICONTROL Campaigns] anzuzeigen.
 
-1. Klicken Sie oben rechts auf der [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
+1. Klicken Sie oben rechts auf der **[!UICONTROL Create Campaign]** auf [!UICONTROL Campaigns] .
 
 1. Wählen Sie **[!UICONTROL Scheduled - Marketing]** (Standard) aus und klicken Sie dann auf **Erstellen** um die Seite mit den [!UICONTROL Campaign] anzuzeigen.
 
@@ -58,7 +58,7 @@ So optimieren Sie eine Web-Seite, indem Sie verschiedene Bilder testen und Nachr
 
    Eine Web-Konfiguration oder Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wird. Die Web-Konfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw.
 
-   Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
+   Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im [!DNL Journey Optimizer]-Web-Designer zu öffnen.
 
@@ -68,7 +68,7 @@ So optimieren Sie eine Web-Seite, indem Sie verschiedene Bilder testen und Nachr
 
 1. Um ein Experiment zu erstellen und festzustellen, welche Inhalte eine bessere Leistung erbringen, klicken Sie auf **[!UICONTROL Create Experiment]**.
 
-   Mit Inhaltsexperimenten können Sie den Inhalt, den Betreff oder den Absender der Nachricht variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen. Weitere Informationen finden Sie unter [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in der *Journey Optimizer-Dokumentation*.
+   Mit Inhaltsexperimenten können Sie den Inhalt, den Betreff oder den Absender der Nachricht variieren, um mehrere Behandlungen zu definieren und die beste Kombination für Ihre Zielgruppen zu bestimmen. Weitere Informationen finden Sie unter [Erstellen eines Inhaltsexperiments](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
 1. Wählen Sie eine Erfolgsmetrik aus und klicken Sie auf Aktion.
 
@@ -100,13 +100,13 @@ So optimieren Sie eine Web-Seite, indem Sie verschiedene Bilder testen und Nachr
 
    ![Schaltfläche &quot;Personalization hinzufügen“](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
-   Weitere Informationen zu Profilattributen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
+   Weitere Informationen zu Profilattributen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 1. Suchen Sie nach dem Profilattribut „Vorname“ und klicken Sie darauf, um es hinzuzufügen. Passen Sie den Text nach Bedarf an und klicken Sie dann auf &quot;**[!UICONTROL Save]**&quot;.
 
    ![Profilattribut für Namen hinzufügen](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
-   Weitere Informationen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
+   Weitere Informationen finden Sie unter [Erste Schritte mit dem Personalisierungseditor](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 1. Klicken Sie auf den Rückwärtspfeil in der oberen linken Ecke, um zum Web-Designer zurückzukehren.
 
@@ -121,9 +121,9 @@ Klicken Sie auf die Schaltfläche [!UICONTROL Reports] und dann auf den gewünsc
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsoberfläche](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Dokumentation zu Journey Optimizer*.
+Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsoberfläche](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der Dokumentation zu *Journey Optimizer*
->[Erstellen einer Kampagne](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*
+>[Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der *Dokumentation zu Journey Optimizer*
+>>[Erstellen einer Kampagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*

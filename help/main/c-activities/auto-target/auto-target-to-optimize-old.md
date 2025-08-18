@@ -2,7 +2,7 @@
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
 description: Erfahren Sie, wie eine [!UICONTROL Auto-Target]-Aktivität  [!DNL Target]  jedem Besucher das passendste Erlebnis bereitstellt, basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher.
 title: Was ist eine [!UICONTROL Auto-Target] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,7 +12,7 @@ ht-degree: 21%
 
 ---
 
-# [!UICONTROL Auto-Target]
+# Übersicht über [!UICONTROL Auto-Target]
 
 [!UICONTROL Auto-Target] Aktivitäten in [!DNL Adobe Target] verwenden fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen, um Inhalte zu personalisieren und Konversionen zu fördern. [!UICONTROL Auto-Target] stellt jedem Besucher das passendste Erlebnis bereit, basierend auf dem individuellen Kundenprofil und dem Verhalten früherer Besucher mit ähnlichen Profilen.
 
@@ -24,7 +24,7 @@ ht-degree: 21%
 
 ## Erfolgsgeschichte aus der Praxis mit automatischem Targeting {#success}
 
-Ein großer Kleidungseinzelhändler nutzte kürzlich eine [!UICONTROL Auto-Target] -Aktivität mit zehn produktkategoriebasierten Erlebnissen (plus randomisierter Kontrolle), um jedem Besucher die richtigen Inhalte bereitzustellen. Als primäre Optimierungsmetrik wurde &quot;[!UICONTROL Add to Cart]&quot; ausgewählt. Die anvisierten Erlebnisse hatten eine durchschnittliche Steigerung von 29,09 %. Nach dem Erstellen der [!UICONTROL Auto-Target] Modelle wurde die Aktivität auf 90 % personalisierte Erlebnisse festgelegt.
+Ein großer Bekleidungskonzern, retailer, hat kürzlich eine [!UICONTROL Auto-Target] -Aktivität mit zehn produktkategoriebasierten Erlebnissen (plus randomisierter Kontrolle) verwendet, um jedem Besucher die richtigen Inhalte bereitzustellen. Als primäre Optimierungsmetrik wurde &quot;[!UICONTROL Add to Cart]&quot; ausgewählt. Die anvisierten Erlebnisse hatten eine durchschnittliche Steigerung von 29,09 %. Nach dem Erstellen der [!UICONTROL Auto-Target] Modelle wurde die Aktivität auf 90 % personalisierte Erlebnisse festgelegt.
 
 In nur zehn Tagen wurden über 1.700.000 Dollar an Auftrieb erreicht.
 

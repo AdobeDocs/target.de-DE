@@ -25,7 +25,7 @@ Eine schrittweise Anleitung finden Sie unter [Benutzerspezifische Attribute](htt
 
 **Gut zu wissen**: Da es sich bei [!DNL Target] um eine offene und agnostische Plattform handelt, deren Unterstützung für verschiedene Technologien herausragend ist, können Sie CRM- oder erworbene Daten auf viele verschiedene Weisen hinzufügen. Sie können also die Methode wählen, die für Ihre Organisation am besten geeignet ist.
 
-Weitere Informationen finden [ unter „Verfahren für die Datenübernahme in ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}&quot;.
+Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}.
 
 ## Tipp 2: Optimieren Sie die Personalisierung durch Kombination Ihrer [!DNL Target]-Zielgruppen mit anderen Zielgruppen aus Adobe Experience Cloud.
 
@@ -145,7 +145,7 @@ Ein Test ist sinnlos, wenn Sie nicht genau wissen, wie Sie die Daten verarbeiten
 
 Erfolgreiche Optimierungsorganisationen glauben an das Konzept des Testens und wissen, dass ihre professionellen Ansichten darüber, welche Erfahrung den Test gewinnen wird, sich nicht immer als wahr erweisen. Sie bestimmen den Gewinner auf einer soliden Datengrundlage und sind bereit, das erfolgreichste Erlebnis nach dem Eintreffen der Ergebnisse live umzusetzen, auch wenn es nicht ihren Erwartungen entspricht oder widersinnig erscheint.
 
-Beispielsweise demonstrierte ein Kunde von Adobe aus dem Gesundheitswesen erst kürzlich den Wert von Tests, als sich in seinem Test zeigte, dass ein Hero-Banner, das das Team als klaren Favoriten betrachtete, die Konversionsrate tatsächlich negativ beeinflusste. Wenn Ihr Unternehmen Tests noch nicht vollständig angenommen hat, ist es am besten, zunächst einfachere, kleinere Tests durchzuführen, damit Änderungen aus Testergebnissen schrittweise vorgenommen werden können.
+Beispielsweise demonstrierte ein Kunde von Adobe aus dem Gesundheitswesen erst kürzlich den Wert von Tests, als sich in seinem Test zeigte, dass ein Hero Banner, das das Team als klaren Favoriten betrachtete, die Konversionsrate tatsächlich negativ beeinflusste. Wenn Ihr Unternehmen Tests noch nicht vollständig angenommen hat, ist es am besten, zunächst einfachere, kleinere Tests durchzuführen, damit Änderungen aus Testergebnissen schrittweise vorgenommen werden können.
 
 ## Tipp 19: Kommunizieren Sie in Ihrer Organisation, dass Sie einen Test gestartet haben, um Irritationen aufgrund von Site-Änderungen zu vermeiden.
 

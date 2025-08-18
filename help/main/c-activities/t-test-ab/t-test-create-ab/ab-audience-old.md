@@ -1,13 +1,13 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Zielgruppe bestimmt, welche Site-Besucher in Ihre Adobe-Aktivität  [!DNL Target]  werden.
+description: Die Zielgruppe bestimmt, welche Site-Besuchenden in Ihre Adobe-Aktivität  [!DNL Target]  werden.
 title: Wie wähle ich eine Zielgruppe in einer A/ [!DNL Target] -Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 64%
+ht-degree: 62%
 
 ---
 
@@ -68,9 +68,9 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Aktivitäts-Workflow - Targeting (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 

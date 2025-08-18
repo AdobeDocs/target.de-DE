@@ -33,7 +33,7 @@ Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mithi
 
 ### Schritt 4: Installieren und Konfigurieren von Platform Web SDK
 
-Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) [ Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)Seiten.
+Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) [ Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)Seiten.
 
 ### Schritt 5: Aktivieren der Optionen für die Verwendung von A4T
 
@@ -58,15 +58,15 @@ Die Anforderungen an Benutzerkonten müssen erfüllt sein, bevor Sie eine [!DNL 
 
 Mit dem Besucher-ID-Dienst können Sie Benutzer über [!DNL Adobe Experience Cloud] Lösungen hinweg identifizieren. Implementieren oder migrieren Sie zur erforderlichen Version der Experience Cloud-Besucher-ID. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Siehe [Implementieren des Experience Cloud-ID-Service für Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=de) in der Dokumentation *Experience Cloud-Besucher-ID* Service.
+Siehe [Implementieren des Experience Cloud ID-Service für Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) in der *Dokumentation zum Experience Cloud-Besucher* ID-Service.
 
 ### Schritt 4: Aktualisierung von AppMeasurement für JavaScript oder s_code
 
 Implementieren oder migrieren Sie zur erforderlichen Version von appMeasurement.js. Weitere Informationen finden Sie in den „Implementierungsanforderungen“ unter [Vor der Implementierung](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Informationen zu neuen Implementierungen finden Sie unter [Übersicht über die JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=de) im *Analytics-Implementierungshandbuch*.
+Informationen zu neuen Implementierungen finden Sie unter [Übersicht über die JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) im *Analytics-Implementierungshandbuch*.
 
-Eine Migration finden Sie unter [Migrieren nach AppMeasurement für JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=de) im *Analytics-Implementierungshandbuch*.
+Eine Migration finden Sie unter [Migrieren zu AppMeasurement für JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) im *Analytics-Implementierungshandbuch*.
 
 ### Schritt 5: at.js herunterladen und aktualisieren
 
@@ -105,7 +105,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf von at.js **analyticsLogging: „client_side“ innerhalb der [!DNL Target]-Anfragen gesendet** und für jede Anfrage eine Analytics-Payload zurückgegeben wird. Wenn diese Option eingerichtet ist, sieht das Format der zurückgegebenen Payload wie folgt aus:
+Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf von at.js **analyticsLogging: „client_side“ innerhalb der**-Anfragen gesendet [!DNL Target] und für jede Anfrage eine Analytics-Payload zurückgegeben wird. Wenn diese Option eingerichtet ist, sieht das Format der zurückgegebenen Payload wie folgt aus:
 
 ```javascript
 "analytics": {
@@ -116,9 +116,9 @@ Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf 
 }
 ```
 
-Die Payload kann dann über die „Data Insertion API[ an Analytics weitergeleitet ](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=de){target=_blank} im Handbuch *Adobe Target SDKs*.
+Die Payload kann dann über die „Data Insertion API[ an Analytics weitergeleitet ](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} im Handbuch *Adobe Target SDKs*.
 
-Wenn eine globale Einstellung nicht gewünscht ist und ein eher bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die at.js-Funktion [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=de){target=_blank}, indem Sie **analyticsLogging: „client_side“**. Die Analytics-Payload wird nur für diesen Aufruf zurückgegeben und das [!DNL Target]-Backend leitet die Payload nicht an [!DNL Analytics] weiter. Bei diesem Ansatz gibt jede at.js-[!DNL Target] standardmäßig die Payload zurück, jedoch nur, wenn sie gewünscht und angegeben wird.
+Wenn eine globale Einstellung nicht gewünscht ist und ein eher bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die at.js-Funktion [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}, indem Sie **analyticsLogging: „client_side“**. Die Analytics-Payload wird nur für diesen Aufruf zurückgegeben und das [!DNL Target]-Backend leitet die Payload nicht an [!DNL Analytics] weiter. Bei diesem Ansatz gibt jede at.js-[!DNL Target] standardmäßig die Payload zurück, jedoch nur, wenn sie gewünscht und angegeben wird.
 
 Beispiel:
 
@@ -174,13 +174,13 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Payload kann dann über die „Data Insertion [&quot; an [!DNL Analytics] weitergeleitet ](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Payload kann dann über die „Data Insertion [!DNL Analytics]&quot; an [ weitergeleitet ](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Schritt 8: Validieren der Implementierung {#step8}
 
 Laden Sie die Seiten, nachdem Sie die JavaScript-Bibliotheken aktualisiert haben, um zu bestätigen, dass die `mboxMCSDID` Parameterwerte in [!DNL Target] Aufrufen mit dem `sdid` Parameterwert im [!DNL Analytics] Seitenansichtsaufruf übereinstimmen.
 
-Es ist besonders wichtig zu bestätigen, dass diese Werte in Single Page Applications (SPA) übereinstimmen, in denen die Reihenfolge der Aufrufe nicht immer vorhersehbar ist.
+Es ist besonders wichtig zu bestätigen, dass diese Werte in Single Page Applications (SPAs) übereinstimmen, in denen die Reihenfolge der Aufrufe nicht immer vorhersehbar ist.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Es ist besonders wichtig zu bestätigen, dass diese Werte in Single Page Applica
 
 ### Schritt 9: (Optional) Entfernen des vorherigen Integrationscodes
 
-Adobe empfiehlt, die vorherige Integration zu entfernen, um Ihre Implementierung zu vereinfachen und Diskrepanzen zwischen den Systemen zu beseitigen. Sie können jeden Code entfernen, den Sie für eine frühere Integration von SC in T&amp;T bereitgestellt haben, einschließlich `mboxLoadSCPlugin`.
+Adobe empfiehlt, die vorherige Integration zu entfernen, um Ihre Implementierung zu vereinfachen und die Notwendigkeit zu beseitigen, Diskrepanzen zwischen den Systemen zu beseitigen. Sie können jeden Code entfernen, den Sie für eine frühere Integration von SC in T&amp;T bereitgestellt haben, einschließlich `mboxLoadSCPlugin`.
 
 ### Schritt 10: Aktivieren der Optionen für die Verwendung von Analytics als Berichtsquelle für Target
 

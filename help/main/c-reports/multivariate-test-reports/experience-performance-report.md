@@ -1,13 +1,13 @@
 ---
 keywords: Multivariater Tests; MVT; Experience Performance-Bericht
-description: Erfahren Sie, wie Sie den Experience Performance-Bericht für Adobe [!DNL Target] Erlebnis-Targeting-Aktivitäten verwenden, die zeigen, wie die einzelnen Erlebnisse in der Aktivität funktionieren.
+description: Erfahren Sie, wie Sie den Erlebnisleistungsbericht für Adobe [!DNL Target] Experience Targeting-Aktivitäten verwenden, die zeigen, wie die einzelnen Erlebnisse in der Aktivität funktionieren.
 title: Wie verwende ich den Experience Performance-Bericht für Multivarianz-Tests?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -35,6 +35,6 @@ Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erl
 
 ## Schulungsvideo: Erstellen eines MVT-Tests ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8:20 beschrieben.
+In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8.:20 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

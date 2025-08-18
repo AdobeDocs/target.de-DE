@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie die spezialisierten Berichte für Aktivitäten von Automated Personalization (AP) und Automatisches Targeting (AT) verwenden - automatisierte Segmente und wichtige Attribute.
 title: Wie verwende ich die Personalization Insights-Berichte?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -94,7 +94,7 @@ Liste häufig gestellter Fragen zu [!UICONTROL Automated Personalization] (AP) u
 
 ## Schulungsvideo: Verwenden von Personalization Insights-Berichten ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328354?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Weitere Informationen finden Sie unter [Verwenden der Personalization Insights-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

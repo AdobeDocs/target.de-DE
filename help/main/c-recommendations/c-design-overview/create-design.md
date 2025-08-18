@@ -2,7 +2,7 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie ein  [!DNL Target Recommendations] -Design mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -48,7 +48,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
 
-1. Geben Sie einen **[!UICONTROL &#x200B; Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
+1. Geben Sie einen **[!UICONTROL  Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
 
    Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld &quot;**[!UICONTROL Content Name]**&quot; angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
 
@@ -56,7 +56,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und unter [Anpassen eines Designs mithilfe von Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. HTML-Designs werden standardmäßig mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Designs sind für Nicht-Web-Umgebungen gedacht, in denen Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
+   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Designs sind für Nicht-Web-Umgebungen gedacht, in denen Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben ](/help/main/c-experiences/form-experience-composer.md) können.
 
-1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, ein Design im [!UICONTROL Visual Experience Composer] (VEC)-Workflow zu erstellen, können Sie nichts anderes als ein HTML-Design erstellen, das zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
+1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, einen Entwurf innerhalb des [!UICONTROL Visual Experience Composer]-Workflows (VEC) zu erstellen, können Sie nichts anderes als ein HTML-Design erstellen, das zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
@@ -157,7 +157,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Akti
    | Parameter | Wert |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter /help/target/products.html#recsSettings > Recommendations-API-Token > Clientcode). |
-   | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt „Speicherorte“ des formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
+   | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt „Speicherorte“ der formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
    | `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
    | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
 
@@ -320,4 +320,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

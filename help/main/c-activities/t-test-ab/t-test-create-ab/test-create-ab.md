@@ -17,7 +17,7 @@ Nutzen Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Targ
 
 >[!NOTE]
 >
->Zusätzlich zur [!UICONTROL A/B Test]-Aktivität [!UICONTROL Manual] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target].
+>Zusätzlich zur [!UICONTROL Manual]-Aktivität [!UICONTROL A/B Test] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target].
 >
 >Siehe [Typen von A/B-Testaktivitäten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-Test - Übersicht*.
 
@@ -79,7 +79,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test]:
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in der [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
-1. Klicken Sie oben in der [!UICONTROL Visual Experience Composer] auf **[!UICONTROL Targeting]** , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
+1. Klicken Sie oben in der **[!UICONTROL Targeting]** auf [!UICONTROL Visual Experience Composer] , um mit dem nächsten Schritt im Drei-Schritte-Workflow fortzufahren.
 
    Das Flussdiagramm wird geöffnet.
 

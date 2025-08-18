@@ -109,7 +109,7 @@ Um zu verstehen, warum dies passiert, müssen wir die verschiedenen Aktionen ber
 
 Zur Vermeidung dieses Problems sollten Sie einen angemessenen Zeitraum für die Durchführung des Tests festlegen, bevor Sie den Test starten. Es ist zwar gut, die Testergebnisse während des Tests im Auge zu behalten, um sicherzustellen, dass der Test korrekt implementiert wurde. Ziehen Sie daraus jedoch keine Schlussfolgerungen und stoppen Sie den Test nicht, bevor die erforderliche Anzahl von Besucherinnen und Besuchern erreicht wurde. Mit anderen Worten: Nicht gucken!
 
-## Fehler Nr. 6. Vorzeitiges Beenden von Tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Fehler Nr. 6. Vorzeitiges Stoppen von Tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen des Tests besser oder schlechter abschneidet als alle anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, dann ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn der Test mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen langfristigen Werten an.
 
@@ -135,7 +135,7 @@ Wenn Sie die Prozentsätze ändern oder den Besucherfluss zu den einzelnen Erleb
 
 Wenn Sie die Prozentsätze für verschiedene Erlebnisse während des Testzeitraums ändern, dauert es einige Tage, bis sich die Daten normalisieren, insbesondere wenn viele Kaufende wiederkehrende Besuchende sind.
 
-Ein anderes Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests im Verhältnis 50/50 aufgeteilt ist und Sie die Aufteilung in 80/20 ändern, können die Ergebnisse in den ersten Tagen verzerrt aussehen. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. die Durchführung eines Kaufs mehrere Stunden oder sogar Tage in Anspruch nehmen kann, können sich diese verzögerten Konversionen auf die Berichte auswirken. Daher werden für das erste Erlebnis, bei dem der Wert von 50 % in 80 % geändert wurde und die durchschnittliche Konversionszeit 2 Tage beträgt, am ersten Tag des Tests nur Besucher von 50 % der Zielgruppe einkaufen, obwohl an dem Tag 80 % der Zielgruppe das Erlebnis aufrufen. Daher scheint es so, als wäre die Konversionsrate stark gesunken, doch normalisiert sich dies wieder, wenn die 80 % der Besucher nach 2 Tagen einen Kauf getätigt haben.
+Ein anderes Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests im Verhältnis 50/50 aufgeteilt ist und Sie die Aufteilung in 80/20 ändern, können die Ergebnisse in den ersten Tagen verzerrt aussehen. Wenn die durchschnittliche Konversionsdauer hoch ist, d. h. die Durchführung eines Kaufs mehrere Stunden oder sogar Tage in Anspruch nehmen kann, können sich diese verzögerten Konversionen auf die Berichte auswirken. Daher werden für das erste Erlebnis, bei dem der Wert von 50 % in 80 % geändert wurde und die durchschnittliche Konversionszeit 2 Tage beträgt, am ersten Tag des Tests nur Besucher von 50 % der Population einkaufen, obwohl an dem Tag 80 % der Population das Erlebnis aufrufen. Daher scheint es so, als wäre die Konversionsrate stark gesunken, doch normalisiert sich dies wieder, wenn die 80 % der Besucher nach 2 Tagen einen Kauf getätigt haben.
 
 ## Fehler Nr. 8: Der Neuigkeitseffekt wird nicht berücksichtigt {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 

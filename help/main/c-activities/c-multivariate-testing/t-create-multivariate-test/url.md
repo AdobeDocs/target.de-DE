@@ -29,7 +29,7 @@ Die Aktivitäts-URL bestimmt die Seite, die im [!UICONTROL Multivariate Test] (M
 
    Zusätzliche Regeln können auf Folgendem basieren:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

@@ -1,7 +1,7 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
-description: Erfahren Sie, wie Sie Entitätsattribute verwenden, um Produkt- oder Inhaltsinformationen an  [!DNL Target] Recommendations zu übergeben.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+description: Erfahren Sie, wie Sie Entitätsattribute verwenden, um Produkt- oder Inhaltsinformationen an Recommendations  [!DNL Target]  übergeben.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -22,7 +22,7 @@ Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten
 
 Beachten Sie Folgendes:
 
-* `entity.id` muss mit den `productPurchasedId` übereinstimmen, die an die Bestellbestätigungsseite gesendet wurden, sowie mit den in [!DNL Adobe Analytics] Produktberichten verwendeten `productId`.
+* `entity.id` muss mit den `productPurchasedId` übereinstimmen, die an die Bestellbestätigungsseite gesendet wurden, sowie mit den in `productId` Produktberichten verwendeten [!DNL Adobe Analytics].
 * Entitätsattributwerte, die Sie an übergeben, laufen [!DNL Recommendations] nach 61 Tagen ab. Adobe empfiehlt, für jedes Element im Katalog den neuesten Wert jedes Entitätsattributs mindestens einmal pro Monat an [!DNL Recommendations] zu übergeben.
 
 Die meisten vordefinierten Parameter akzeptieren nur einen einzigen Wert, wobei neue Werte alte Werte überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
@@ -31,7 +31,7 @@ Im Allgemeinen sieht die mBox „Display Information“ wie im folgenden Beispie
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an [!DNL Recommendations].*x*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=de){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+>Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an [!DNL Recommendations].*x*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

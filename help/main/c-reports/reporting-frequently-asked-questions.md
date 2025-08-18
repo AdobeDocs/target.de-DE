@@ -1,6 +1,6 @@
 ---
 keywords: Fehlerbehebung;Metrik-Diskrepanzen;FAQ;Berichte;neuer Besucher;neue Besucher;wiederkehrender Besucher;wiederkehrende Besucher;wiederkehrender Besuch;neuer Besuch
-description: Hier finden Sie eine Liste häufig gestellter Fragen und Antworten zum Adobe- [!DNL Target] .
+description: Hier finden Sie eine Liste häufig gestellter Fragen und Antworten zu Adobe [!DNL Target] Reporting.
 title: Wo finde ich Antworten auf Fragen zum  [!DNL Target] ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3

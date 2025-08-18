@@ -135,7 +135,7 @@ Wählen Sie die Umgebung (Hostgruppe) aus, die für den Bericht verwendet werden
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
+>Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
 
 ### Berichtsdaten zurücksetzen
 
@@ -230,9 +230,9 @@ Es gibt vier Modi für [!UICONTROL Auto-Target] Aktivitäten: [!UICONTROL Daily 
 
 Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
-* **[!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
-* **[!UICONTROL Experience Targeting] (XT)**: Reihenfolge der Erlebnisse in der Aktivität.
-* **[!UICONTROL Multivariate Test] (MVT)** Alphabetisch nach Erlebnisname.
+* **[!UICONTROL A/B Test](einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **[!UICONTROL Experience Targeting](XT)**: Reihenfolge der Erlebnisse in der Aktivität.
+* **[!UICONTROL Multivariate Test](MVT)** Alphabetisch nach Erlebnisname.
 * **[!UICONTROL Recommendations]**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
 
 Beachten Sie beim Arbeiten mit den [!UICONTROL Counting Methodology] die folgenden Einschränkungen:

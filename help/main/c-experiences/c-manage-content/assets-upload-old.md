@@ -39,7 +39,7 @@ Klicken Sie in der [!UICONTROL List View] auf das Miniaturbild links in der List
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=de) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 

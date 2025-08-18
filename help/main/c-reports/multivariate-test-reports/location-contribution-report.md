@@ -7,7 +7,7 @@ exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -35,6 +35,6 @@ Die zweite Tabelle liefert einen Bericht auf Angebotsebene. Sie zeigt die Konver
 
 ## Schulungsvideo: Erstellen eines Multivarianz-Tests
 
-In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Der Location Contribution-Bericht wird ab 8:45 beschrieben.
+In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Der Bericht Standortbeitrag wird ab 8.:45 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

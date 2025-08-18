@@ -1,6 +1,6 @@
 ---
 keywords: Targeting
-description: Erfahren Sie [!DNL Target]  wie Adobe Konversionsrate, Steigerung, Konfidenz und Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
+description: Erfahren Sie [!DNL Target]  wie Adobe die Konversionsrate, Steigerung, Konfidenz und das Konfidenzintervall für jedes Erlebnis anzeigt und berechnet.
 title: Wie kann ich Konversionsrate, Steigerung und Konfidenzniveau anzeigen?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
@@ -56,7 +56,7 @@ Für jedes Erlebnis werden die Konfidenz und das Konfidenzintervall angezeigt.
 
 Sie können Offlineberechnungen für for Target (A4T) durchführen. Dazu ist jedoch ein Schritt mit Datenexporten in [!DNL Analytics]Analytics erforderlich. Weitere Informationen dazu finden Sie weiter unten unter „Durchführen von Offline-Berechnungen für Analytics for Target (A4T)“.
 
-### Konfidenz {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Confidence {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
 Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), mit der ein Ergebnis erzielt wird, das weniger extrem ist als das tatsächlich beobachtete Ergebnis, wenn die Nullhypothese wahr ist (im Wesentlichen, wenn es keinen Unterschied bei den Konversionsraten zwischen diesem Erlebnis oder Angebot und dem Kontrollerlebnis/Angebot gibt). Im Hinblick auf p-Werte ist diese angezeigte Konfidenz 1 - p-Wert. Einfach ausgedrückt: Eine höhere Konfidenz deutet darauf hin, dass die Daten weniger konsistent mit der Annahme sind, dass das Angebot/Erlebnis der Kontrolle und des Nicht-Kontrollbereichs die gleichen Konversionsraten aufweisen.
 
@@ -108,14 +108,14 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse Request]** die Felder aus.
 
-   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=de).
+   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Feld | Anleitung |
    |--- |--- |
    | Anforderungsname | Geben Sie einen Namen für Ihre Anforderung ein. |
    | Berichtsdatum | Geben Sie einen Zeitraum und eine Granularität an.<br>Es hat sich bewährt, für die erste Anforderung maximal eine Stunde oder einen Tag mit Daten auszuwählen.  Die Verarbeitung von Data Warehouse-Dateien dauert umso länger, je länger der angeforderte Zeitraum ist. Daher ist es immer am besten, zunächst Daten für einen kleineren Zeitraum anzufordern, um sicherzustellen, dass die Datei das erwartete Ergebnis zurückgibt. Rufen Sie anschließend Request Manager auf, duplizieren Sie die Anforderung und fragen Sie beim zweiten Durchlauf mehr Daten an. Wenn Sie die Granularität auf einen anderen Wert als „Keine“ umschalten, wird die Dateigröße ebenfalls drastisch erhöht.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Verfügbare Segmente | Wenden Sie bei Bedarf ein Segment an. |
-   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene benötigt werden, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
+   | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an die die Datei gesendet werden soll, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately] aus.<br>Hinweis: Die Datei kann über FTP unter &quot;[!UICONTROL Advanced Delivery Options]<br>![ Versand planen“ ](/help/main/c-reports/assets/datawarehouse3.png) werden. |
@@ -128,8 +128,8 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=de)
-* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=de)
+* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Zählmethodik {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 

@@ -2,13 +2,13 @@
 keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung; Traffic
 description: Erfahren Sie mehr über Fehlerbehebungsthemen und häufig gestellte Fragen zu [!UICONTROL Auto-Target].
 title: Wie kann ich Fehler bei [!UICONTROL Auto-Target] Aktivitäten beheben?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -37,8 +37,8 @@ Konsultieren Sie bei Problemen mit [!UICONTROL Auto-Target] die folgenden häufi
 
 ### Wird [!UICONTROL Adobe] die Verwendung von [!UICONTROL Auto Target] mit einer Aufteilung von 90 (Kontrolle) zu 10 (Targeting) empfohlen, bis die Modelle erstellt werden?
 
-+++Antwort
-Die Aufteilung der optimalen Traffic-Zuordnung hängt davon ab, was Sie erreichen möchten.
++++Antwort 
+Wie Ihre optimale Aufteilung der Traffic-Zuordnung aussieht, hängt davon ab, was Sie erreichen möchten.
 
 Wenn es Ihr Ziel ist, so viel Traffic wie möglich zu personalisieren, können Sie während der Lebensdauer der Aktivität bei der zielgerichteten Zuordnung von 90 % und der Kontrolle von 10 % bleiben. Wenn Sie ein Experiment durchführen möchten, in dem die Leistung personalisierter Algorithmen mit der Kontrolle verglichen wird, empfiehlt sich während der Lebensdauer der Aktivität eine Aufteilung von 50/50.
 
@@ -102,7 +102,7 @@ Einige weitere Punkte, die Sie bei der Modellerstellung von [!UICONTROL Auto-Tar
 ### Ein Modell wird in meiner Aktivität erstellt. Sind die Besuche bei diesem Erlebnis personalisiert?
 
 +++Antwort
-Nein, es müssen mindestens zwei Modelle innerhalb Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
+Nein, es müssen mindestens zwei Modelle in Ihrer Aktivität erstellt werden, damit die Personalisierung gestartet wird.
 
 +++
 
@@ -116,7 +116,7 @@ Sie können die Ergebnisse Ihres [!UICONTROL Auto-Target]-Tests überprüfen, na
 ### Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?
 
 +++Antwort
-Sie können bei der Erstellung einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein Kontrollerlebnis ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Sie können bei der Erstellung einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) oder eines [automatischen Targetings](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) ein Kontrollerlebnis auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -127,7 +127,7 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 ### Kann ich die Zielmetrik inmitten einer [!UICONTROL Auto-Target] ändern? {#change-metric}
 
 +++Antwort
-Beim Adobe wird nicht empfohlen, die Zielmetrik inmitten einer Aktivität zu ändern. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. Adobe gewährleistet nicht, was passiert, wenn Sie die Zielmetrik in einer Aktivität nach deren Ausführung ändern.
+Adobe rät davon ab, die Zielmetrik inmitten einer Aktivität zu ändern. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. Adobe übernimmt keine Garantie dafür, was passiert, wenn Sie die Zielmetrik in einer Aktivität nach deren Ausführung ändern.
 
 Diese Empfehlung gilt für [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Automated Personalization]-Aktivitäten, die [!DNL Target] oder [!DNL Analytics] (A4T) als Berichtsquelle verwenden.
 
@@ -188,7 +188,7 @@ Stellen Sie anschließend mithilfe eines einfachen, nicht personalisierten A/B-T
 ### Jede von einer Konversionsmetrik abhängige Metrik konvertiert nie.
 
 +++Empfehlungen zur Fehlerbehebung
-Dies ist zu erwarten.
+Dieses Ergebnis ist zu erwarten.
 
 In einer [!UICONTROL Auto-Target] Aktivität wird der Benutzer nach der Konvertierung einer Konversionsmetrik (unabhängig davon, ob es sich um ein Optimierungsziel oder ein Post-Ziel handelt) aus dem Erlebnis entlassen und die Aktivität neu gestartet.
 

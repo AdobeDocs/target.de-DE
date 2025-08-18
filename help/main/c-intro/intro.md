@@ -9,7 +9,7 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -110,4 +110,4 @@ Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standa
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

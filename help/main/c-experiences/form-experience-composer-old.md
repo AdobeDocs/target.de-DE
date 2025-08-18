@@ -92,7 +92,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    **Empfehlung hinzufügen:**
 
-   Für eine Recommendations-Aktivität bietet die Dropdown-Liste Inhalt die Option [!UICONTROL Add Recommendation] . Klicken Sie auf **[!UICONTROL Add Recommendation]** und wählen Sie dann den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Für eine Recommendations -Aktivität bietet Ihnen die Dropdown-Liste Inhalt die [!UICONTROL Add Recommendation] Option. Klicken Sie auf **[!UICONTROL Add Recommendation]** und wählen Sie dann den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können.
 
@@ -104,7 +104,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    **Angebotsentscheidung hinzufügen:**
 
-   Fügen Sie einer [!DNL Adobe Target]-Aktivität ein in [!DNL Adobe Journey Optimizer] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von offer decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
+   Fügen Sie einer [!DNL Adobe Journey Optimizer]-Aktivität ein in [!DNL Adobe Target] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
 
    Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

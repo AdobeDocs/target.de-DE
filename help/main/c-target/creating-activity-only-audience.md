@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen; nur Aktivität; nur Activity; adhoc
-description: Erfahren Sie, wie Sie in Adobe- [!DNL Target]  Zielgruppen erstellen, die nur für Aktivitäten bestimmt sind und nur einmal verwendet werden können.
+description: Erfahren Sie, wie Sie in Adobe Zielgruppen erstellen [!DNL Target]  die nur für eine einmalige Verwendung vorgesehen sind.
 title: Kann ich eine Zielgruppe erstellen, die nur einmal verwendet werden soll?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75

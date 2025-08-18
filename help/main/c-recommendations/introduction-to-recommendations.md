@@ -2,13 +2,13 @@
 keywords: Recommendations; Intro; Einführung; Webinar; Demo
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was sind Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -103,7 +103,7 @@ Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Impl
 
 ![Abbildung, die zeigt wie das Benutzerverhalten erfasst wird](/help/main/c-recommendations/assets/intro-9.png)
 
-Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, sollten Sie einen anderen Konversionstyp verfolgen, z. B. das Herunterladen einer PDF, das Ausfüllen einer Umfrage, das Abonnieren eines Newsletters, das Ansehen eines Videos usw.
+Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, können Sie einen anderen Konversionstyp verfolgen, z. B. ein PDF herunterladen, eine Umfrage ausfüllen, einen Newsletter abonnieren, ein Video ansehen usw.
 
 Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
 
@@ -193,7 +193,7 @@ Im Inhaltskontext möchten Sie beispielsweise vielleicht Filme ausschließen, di
 
 ## Demo
 
-Nachdem Sie die oben im Empfehlungstrichter beschriebenen Aufgaben ausgeführt haben, erhalten Sie Ihre endgültige Empfehlung. Sie können sich eine Produktdemonstration in [!DNL Target] ansehen. Das Demo beginnt um 21:00 Uhr im *Adobe Target Basics-Webinar*, das Sie über den unten stehenden Link erreichen.
+Nachdem Sie die oben im Empfehlungstrichter beschriebenen Aufgaben ausgeführt haben, erhalten Sie Ihre endgültige Empfehlung. Um eine produktinterne Demonstration in [!DNL Target] anzusehen, beginnt die Demo um 21 :00 im *Webinar zu Adobe Target-*, das unten verlinkt ist.
 
 ## Adobe [!DNL Target] Basics-Webinar: Einführung in Recommendations {#intro-to-recs}
 

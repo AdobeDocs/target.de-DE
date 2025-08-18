@@ -43,7 +43,7 @@ In dieser Liste geben wir Ihnen einige Tipps für die Entwicklung einer Aktivit�
 
 * **Nutzen Sie, was Sie kennen.** Vielleicht kennen Sie Ihre Kunden sehr gut und haben bereits eine Vorstellung davon, was bei ihnen auf Anklang stößt. Nutzen Sie Ihr Wissen für die Entwicklung personalisierter Erlebnisse.
 * **Nutzen Sie Ihre Analyselösung.** Suchen Sie nach den Stellen auf Ihrer Site, an denen Kunden einen Kaufvorgang abgebrochen oder eine Seite verlassen haben. Überprüfen Sie diese Seiten und stellen Sie eine Hypothese dazu auf, weshalb Ihre Kunden diese Seiten vor der Durchführung der gewünschten Aktion verlassen haben.
-* **Nutzen Sie Ihre eigene Urteilskraft.** Sehen Sie sich die wichtigsten Seiten Ihrer Website an und hören Sie in puncto notwendiger Verbesserungen auf Ihr Bauchgefühl. Vielleicht ist eine Produktdetailseite zu überfüllt und wortreich, vereinfachen Sie sie. Vielleicht ist die Bestellschaltfläche nur schwer zu finden. Verschieben Sie sie an eine augenfälligere Stelle.
+* **Nutzen Sie Ihre eigene Urteilskraft.** Sehen Sie sich die wichtigsten Seiten Ihrer Website an und hören Sie in puncto notwendiger Verbesserungen auf Ihr Bauchgefühl. Vielleicht ist eine Produktdetailseite zu überfüllt und wortreich, vereinfachen Sie sie. Vielleicht ist die Kauf-Schaltfläche nur schwer zu finden. Verschieben Sie sie an eine augenfälligere Stelle.
 * **Sehen Sie sich den Wettbewerb an.** Ein schneller Blick auf die Websites Ihrer Konkurrenten zeigt Ihnen womöglich bereits Designs, Angebote, Kopien und andere Elemente, die Sie als hoch wirksam in puncto Geschäftsergebnisse überzeugen. Überlegen Sie, wie Sie diese Ansätze auf Ihrer Website umsetzen könnten.
 * **Greifen Sie das Feedback Ihrer Kunden auf.** Vielleicht wissen Sie aus Kundenumfragen oder Auswertungen von Kundendienstanrufen bereits, wo Ihre Kunden Spielraum für eine Verbesserung ihres Erlebnisses sehen. Identifizieren Sie einen wirklichen, vielfach erwähnten Schmerzpunkt und entwickeln Sie ein Erlebnis, das diesen beseitigt.
 
@@ -51,7 +51,7 @@ Vergessen Sie nicht, dass Sie bei der Vorstellung Ihrer Testidee in der Lage sei
 
 ## Planen Ihrer Aktivität mit dem Aktivitätsplaner
 
-Der [Adobe Target-Aktivitätsplaner](/help/main/assets/activity-planner.pdf) ist als eigenständige PDF enthalten, die Sie speichern und immer wieder verwenden können. Klicken Sie auf den Link, um die PDF-Datei anzuzeigen. Klicken Sie mit der rechten Maustaste, um die Datei herunterzuladen.
+Wir haben den [Adobe Target-Aktivitätsplaner](/help/main/assets/activity-planner.pdf) als eigenständige PDF eingebunden, die Sie speichern und immer wieder verwenden können. Klicken Sie auf den Link, um die PDF-Datei anzuzeigen. Klicken Sie mit der rechten Maustaste, um die Datei herunterzuladen.
 
 Für die Planung einer effektiven Aktivität sollten Sie alle Bereiche des Planers ausfüllen. Nutzen Sie dieses Tool, während Sie gemeinsam mit Ihren Kollegen über Ihre Test- und Personalisierungsaktivitäten diskutieren.
 

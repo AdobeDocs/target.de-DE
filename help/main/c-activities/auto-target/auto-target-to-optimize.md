@@ -2,7 +2,7 @@
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
 description: Erfahren Sie, wie eine [!UICONTROL Auto-Target] jedem Besucher basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL Auto-Target] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,7 +12,7 @@ ht-degree: 18%
 
 ---
 
-# [!UICONTROL Auto-Target]
+# Übersicht über [!UICONTROL Auto-Target]
 
 [!UICONTROL Auto-Target] Aktivitäten in [!DNL Adobe Target] verwenden fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen, um Inhalte zu personalisieren und Konversionen zu fördern. [!UICONTROL Auto-Target] stellt jedem Besucher das passendste Erlebnis bereit, basierend auf dem individuellen Kundenprofil und dem Verhalten früherer Besucher mit ähnlichen Profilen.
 
@@ -24,7 +24,7 @@ ht-degree: 18%
 
 ## Erfolgsgeschichte aus der Praxis mit automatischem Targeting {#success}
 
-Ein großer Kleidungseinzelhändler nutzte kürzlich eine [!UICONTROL Auto-Target] -Aktivität mit zehn produktkategoriebasierten Erlebnissen (plus randomisierter Kontrolle), um jedem Besucher die richtigen Inhalte bereitzustellen. Als primäre Optimierungsmetrik wurde &quot;[!UICONTROL Add to Cart]&quot; ausgewählt. Die anvisierten Erlebnisse hatten eine durchschnittliche Steigerung von 29,09 %. Nach dem Erstellen der [!UICONTROL Auto-Target] Modelle wurde die Aktivität auf 90 % personalisierte Erlebnisse festgelegt.
+Ein großer Bekleidungskonzern, retailer, hat kürzlich eine [!UICONTROL Auto-Target] -Aktivität mit zehn produktkategoriebasierten Erlebnissen (plus randomisierter Kontrolle) verwendet, um jedem Besucher die richtigen Inhalte bereitzustellen. Als primäre Optimierungsmetrik wurde &quot;[!UICONTROL Add to Cart]&quot; ausgewählt. Die anvisierten Erlebnisse hatten eine durchschnittliche Steigerung von 29,09 %. Nach dem Erstellen der [!UICONTROL Auto-Target] Modelle wurde die Aktivität auf 90 % personalisierte Erlebnisse festgelegt.
 
 In nur zehn Tagen wurden über 1.700.000 Dollar an Auftrieb erreicht.
 
@@ -96,7 +96,7 @@ In der folgenden Tabelle werden die drei Optionen erläutert:
 | **[!UICONTROL Maximize Personalization Traffic (90/10)]**: Wenn Sie eine „Always on“-Aktivität erstellen möchten, geben Sie 10 % der Besucher die Kontrolle darüber, ob genügend Daten für die Algorithmen vorhanden sind, um im Laufe der Zeit weiterlernen zu können. Der Nachteil hier ist, dass Sie im Gegenzug für die Personalisierung eines größeren Teils Ihres Traffics weniger Präzision in der genauen Steigerung haben. Unabhängig von Ihrem Ziel ist dies die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird. | Empfohlene Aufteilung: 10–30 % Kontrolle / 70–90 % personalisiertes Erlebnis | <ul><li>Maximiert die Anzahl der Besucher, die über ein personalisiertes Erlebnis verfügen</li><li>Maximiert die Steigerung</li><li>Weniger Genauigkeit in Bezug darauf, wofür die Steigerung für die Aktivität dient</li></ul> |
 | **Zuordnung anpassen** | Teilen Sie den Prozentsatz nach Bedarf manuell auf. | <ul><li>Es kann sein, dass Sie nicht die gewünschten Ergebnisse erzielen. Wenn Sie unsicher sind, sollten Sie jeweils die Vorschläge der vorangegangenen Optionen befolgen.</li></ul> |
 
-Um den [!UICONTROL Control] anzupassen, klicken Sie im [!UICONTROL Traffic Allocation] auf [!UICONTROL Experiences] und passen Sie die Prozentsätze dann nach Bedarf an. Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
+Um den [!UICONTROL Control] anzupassen, klicken Sie im [!UICONTROL Experiences] auf [!UICONTROL Traffic Allocation] und passen Sie die Prozentsätze dann nach Bedarf an. Sie dürfen die Kontrollgruppe nicht auf weniger als 10 % reduzieren.
 
 Sie können [ein bestimmtes Erlebnis auswählen, das als Kontrolle verwendet werden soll](/help/main/c-activities/t-automated-personalization/experience-as-control.md), oder die Option „Zufälliges Erlebnis“ verwenden.
 

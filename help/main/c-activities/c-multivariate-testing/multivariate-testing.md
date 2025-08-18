@@ -7,11 +7,11 @@ exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
 source-wordcount: '1438'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
-# [!UICONTROL Multivariate Test]
+# Übersicht über [!UICONTROL Multivariate Test]
 
 Eine [!UICONTROL Multivariate Test] (MVT) -Aktivität in [!DNL Adobe Target] vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. Eine [!UICONTROL Multivariate Test] Aktivität hilft auch dabei zu ermitteln, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
@@ -55,7 +55,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test um zu ermitteln, welches Element am wichtigsten ist, und anschließend einen stärker fokussierten A/B-Test für dieses Element.
 
-  Wenn mehr als fünf Erlebnisse vorhanden sind und sich über zwei oder mehr Elemente erstrecken, empfiehlt es sich, einen MVT-Test in Betracht zu ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Nachdem Sie ermittelt haben, welche Elemente und Inhalte für Ihr Erreichen der Ziele am nützlichsten sind, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern. Sie können beispielsweise zwei bestimmte Bilder gegeneinander testen oder den Wortlaut oder die Farben eines Aktionsaufrufs vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
+  Wenn mehr als fünf Erlebnisse vorhanden sind und sich über zwei oder mehr Elemente erstrecken, empfiehlt es sich, einen MVT-Test in Betracht zu ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Nachdem Sie ermittelt haben, welche Elemente und Inhalte für Ihr Erreichen der Ziele am nützlichsten sind, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern. Sie können beispielsweise zwei bestimmte Bilder miteinander testen oder den Wortlaut oder die Farben einer call to action vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
 ## Zu beachten   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -92,19 +92,19 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Aktivitätstypen (9:03) ![Übersichts-Badge](/help/main/assets/overview.png)
 
-In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. Multivariate Tests werden ab 4:20 erklärt.
+In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. Multivariate Tests werden ab 4 :20 besprochen.
 
-* Beschreiben Sie die Arten von Aktivitäten, die Teil von [!DNL Adobe Target] sind
+* Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Erstellen von Multivarianz-Tests (9:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Erstellen von Multivarianz-Tests (:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows Target“ verstehen, planen und erstellen.
+In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows [!DNL]Target“ verstehen, planen und erstellen.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -7,7 +7,7 @@ exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ Wenn Sie eine ältere Version von at.js verwenden, müssen Sie einen [!DNL Analy
 >
 >Das [!DNL Target]-Team unterstützt sowohl at.js 1.*x* und in at.js 2.*x*. Aktualisieren Sie auf die neueste Version einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
-Um sicherzustellen, dass Daten aus [!DNL Target] an den richtigen Speicherort in [!DNL Analytics] gelangen, muss bei allen Aufrufen von [!DNL Target] an Modstats ein [!DNL Analytics]-Trackingserver gesendet werden. Bei Implementierungen mit mehreren Tracking-Servern verwenden Sie die [!DNL Adobe Experience Platform Debugger] oder die Entwickler-Tools Ihres Browsers, um den richtigen Tracking-Server für Ihre Aktivität zu ermitteln.
+Um sicherzustellen, dass Daten aus [!DNL Target] an den richtigen Speicherort in [!DNL Analytics] gelangen, muss bei allen Aufrufen von [!DNL Analytics] an Modstats ein [!DNL Target]-Trackingserver gesendet werden. Bei Implementierungen mit mehreren Tracking-Servern verwenden Sie die [!DNL Adobe Experience Platform Debugger] oder die Entwickler-Tools Ihres Browsers, um den richtigen Tracking-Server für Ihre Aktivität zu ermitteln.
 
 ## Abrufen des [!DNL Analytics] Tracking-Servers mithilfe der [!DNL Adobe Experience Platform Debugger]
 
@@ -29,7 +29,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Öffnen Sie auf der Seite, auf der Sie eine Aktivität erstellen, die [!DNL Adobe Experience Platform Debugger].
 
-   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Adobe Experience Platform Debugger - Übersicht](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=de).
+   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Klicken Sie im linken Navigationsmenü auf **[!UICONTROL Analytics]** .
 

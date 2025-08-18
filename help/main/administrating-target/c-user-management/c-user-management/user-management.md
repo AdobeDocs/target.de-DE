@@ -62,7 +62,7 @@ Greifen Sie auf die [!DNL Adobe Admin Console] zu, indem Sie die folgenden Schri
 
 Die gesamte Benutzerverwaltung muss in der [!DNL Adobe Admin Console for Enterprise] erfolgen. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. Admin Console [Klicken Sie in der ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Users]** > **[!UICONTROL Users]** , um neue Benutzende zu erstellen oder bestehende Benutzende zu bearbeiten.
+1. [Klicken Sie in der Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Users]** > **[!UICONTROL Users]** , um neue Benutzende zu erstellen oder bestehende Benutzende zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in Experience Cloud](https://helpx.adobe.com/de/enterprise/using/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Erstellen von Benutzergruppen {#user-groups}
@@ -82,7 +82,7 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 >
 >Um Aktivitäten in [!DNL Target] anzeigen zu können, müssen Benutzende einem Arbeitsbereich direkt zugewiesen sein, der mindestens über die Rolle [!UICONTROL Observer] verfügt. Die Zuweisung über Benutzergruppen allein ist unzureichend. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren.
 
-1. [Klicken Sie in ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) Admin Console auf **[!UICONTROL Products]** und wählen Sie dann den Namen des gewünschten Produkts aus.
+1. Admin Console [Klicken Sie in der ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Products]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
 1. Klicken Sie auf den gewünschten Arbeitsbereich (z. B. Standardarbeitsbereich).
 

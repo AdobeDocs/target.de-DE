@@ -1,13 +1,13 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
+description: Erfahren Sie, wie Sie in Adobe- [!DNL Target]  Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden.
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht gemeldete „Anzahl der Elemente“ ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}, um die Standard-Hostgruppe zu ändern.
+   Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht angezeigte „Anzahl der Elemente“ entspricht der Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie auf **[!UICONTROL Create Exclusion]**.
 
@@ -82,4 +82,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/35308?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

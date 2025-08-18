@@ -1,8 +1,8 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; Dynamische Filterung; Dynamische Zuordnung von Entitätsattributen
 description: Erfahren Sie, wie Sie dynamisch in  [!DNL Target Recommendations]  filtern können, indem Sie einen Pool potenzieller Elemente mit einem bestimmten Element vergleichen, mit dem der Benutzer interagiert hat.
-title: Wie filtere ich nach der Zuordnung von Entitätsattributen in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Wie filtere ich nach Entitätsattribut-Übereinstimmung in Recommendations-Aktivitäten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -56,7 +56,7 @@ Wenn Sie dann eine Produktseite von Marke B aufrufen, wird der `entity.brand` au
 
 ### Upselling auf ein teureres Produkt
 
-Angenommen, Sie sind ein Bekleidungseinzelhändler und möchten die Benutzer ermutigen, teurere und daher profitablere Artikel in Betracht zu ziehen. Sie können die Operatoren „ist gleich“ und „ist zwischen“ verwenden, um für teurere Artikel zu werben, die aus derselben Kategorie und derselben Marke stammen. Ein Schuheinzelhändler kann beispielsweise teurere Laufschuhe bewerben, um einem Besucher, der Laufschuhe anschaut, einen Upsell zu bieten, wie im folgenden Beispiel dargestellt:
+Angenommen, Sie sind ein Bekleidungs-retailer und möchten Benutzer ermutigen, teurere und daher profitablere Artikel in Betracht zu ziehen. Sie können die Operatoren „ist gleich“ und „ist zwischen“ verwenden, um für teurere Artikel zu werben, die aus derselben Kategorie und derselben Marke stammen. Beispielsweise kann ein retailer-Schuh teurere Laufschuhe fördern, um einem Laufschuhbesucher, der Laufschuhe ansieht, einen Upsell zu bieten, wie im folgenden Beispiel dargestellt:
 
 ![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

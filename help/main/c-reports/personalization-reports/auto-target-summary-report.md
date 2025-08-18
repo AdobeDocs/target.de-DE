@@ -2,7 +2,7 @@
 keywords: Berichte;automatisches Targeting;automatisches Targeting;AT;Bericht
 description: Erfahren Sie, wie der Zusammenfassungsbericht für automatisches Targeting in Adobe Target interpretiert wird. Von diesem Bericht aus können Sie zu den Berichten Automatisierte Segmente und Wichtige Attribute wechseln.
 title: Wie verwende ich den automatischen Targeting- Zusammenfassungsbericht?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

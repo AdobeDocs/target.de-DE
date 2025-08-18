@@ -17,7 +17,7 @@ Kombinieren Sie mehrere Zielgruppen (einschließlich [!DNL Adobe Experience Clou
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
+>Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -99,7 +99,7 @@ Sie können auf der Seite &quot;[!UICONTROL Goals & Settings]&quot; der Aktivit�
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe auf der [!UICONTROL Goals & Settings] der Aktivität erstellen, die in Berichten verwendet werden soll.
 
-1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Goals & Settings]** Seite unter [!UICONTROL Audiences for Reporting] auf das **[!UICONTROL Add Audience]**, um die [!UICONTROL Choose Audience] anzuzeigen.
+1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Goals & Settings]** Seite unter **[!UICONTROL Add Audience]** auf das [!UICONTROL Audiences for Reporting], um die [!UICONTROL Choose Audience] anzuzeigen.
 
    ![COMBINDE_MULTIPLE_AUDIENCES6 Bild](assets/combine_multiple_audiences6.png)
 

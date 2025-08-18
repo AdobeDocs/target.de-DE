@@ -1,6 +1,6 @@
 ---
 keywords: Target; Berichte; Berichtseinstellungen; Umgebung; Steigerung; Steigerungsgrenze; Varianz; Konfidenz; Steuern
-description: Erfahren Sie, wie Adobe [!DNL Target] Berichte interpretiert werden, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungsgrenzen und das Konfidenzniveau Ihrer Aktivitäten besser verstehen können.
+description: Erfahren Sie, wie Adobe- [!DNL Target]  zu interpretieren sind, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungsgrenzen und das Konfidenzniveau Ihrer Aktivitäten besser verstehen können.
 title: Wie kann ich die durchschnittliche Steigerung, Steigerungsgrenzen und das Konfidenzintervall anzeigen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
@@ -43,7 +43,7 @@ Es gibt einige wichtige Methoden, [!DNL Target] Ihnen bei der Interpretation der
 
 Die Länge des Boxplotdiagramms gibt leicht nachvollziehbar an, wie groß das Konfidenzintervall ist. Wenn Sie mehr Daten in Ihrer Aktivität sammeln, verlagert und ändert sich der Balken. Das Konfidenzintervall ergibt sich aus der Varianz und dem Stichprobenumfang (Anzahl der Besucher). Je kleiner die Varianz und je größer der Stichprobenumfang, desto enger ist Ihr Konfidenzintervall.
 
-### Konfidenz
+### Confidence
 
 Die Konfidenz eines angezeigten Erlebnisses oder Angebots ist eine Wahrscheinlichkeit (ausgedrückt als Prozentsatz), ein Ergebnis zu erhalten, das _weniger extrem_ als das tatsächlich beobachtete Ergebnis ist, _wenn die Nullhypothese wahr ist_ d. h. wenn es keinen Unterschied bei den Konversionsraten zwischen diesem Erlebnis oder Angebot und dem Kontrollerlebnis/Angebot gibt. Im Hinblick auf p-Werte ist diese angezeigte Konfidenz `1 - p-value`. Einfach ausgedrückt: Eine höhere Konfidenz deutet darauf hin, dass die Daten weniger konsistent mit der Annahme sind, dass das Angebot/Erlebnis der Kontrolle und des Nicht-Kontrollbereichs die gleichen Konversionsraten aufweisen.
 

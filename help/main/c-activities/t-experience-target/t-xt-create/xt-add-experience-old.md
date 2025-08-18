@@ -7,7 +7,7 @@ exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
@@ -112,17 +112,17 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Experience T
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
-In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Experience Targeting] wird ab 05:15 besprochen.
+In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Experience Targeting] wird ab 5 Uhr :15.
 
 * Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden der [!UICONTROL Visual Experience Composer]
 
@@ -131,4 +131,4 @@ In diesem Video finden Sie Informationen zur Verwendung der [!UICONTROL Experien
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
