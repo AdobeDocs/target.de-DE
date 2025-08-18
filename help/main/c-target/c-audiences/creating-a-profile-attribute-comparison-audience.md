@@ -65,4 +65,4 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328066?captions=ger)

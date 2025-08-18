@@ -206,12 +206,12 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33823?captions=ger)
 
 ### Grundlegende Fehlerbehebung in Adobe Target ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33824?captions=ger)
 
 ### Mbox Trace ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33896?captions=ger)

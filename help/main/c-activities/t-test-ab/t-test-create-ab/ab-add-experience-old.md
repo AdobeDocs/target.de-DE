@@ -104,4 +104,4 @@ Das folgende Video enthält Informationen zur Verwendung der [!UICONTROL Visual 
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)

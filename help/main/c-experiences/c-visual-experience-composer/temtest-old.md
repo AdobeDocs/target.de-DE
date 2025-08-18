@@ -107,4 +107,4 @@ Sie können in Erwägung ziehen, Vorlagenregeln zu verwenden, um dieselbe Aktivi
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
