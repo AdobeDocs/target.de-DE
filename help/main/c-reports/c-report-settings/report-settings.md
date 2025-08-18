@@ -230,9 +230,9 @@ Es gibt vier Modi für [!UICONTROL Auto-Target] Aktivitäten: [!UICONTROL Daily 
 
 Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
-* **[!UICONTROL A/B Test](einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
-* **[!UICONTROL Experience Targeting](XT)**: Reihenfolge der Erlebnisse in der Aktivität.
-* **[!UICONTROL Multivariate Test](MVT)** Alphabetisch nach Erlebnisname.
+* **[!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **[!UICONTROL Experience Targeting] (XT)**: Reihenfolge der Erlebnisse in der Aktivität.
+* **[!UICONTROL Multivariate Test] (MVT)** Alphabetisch nach Erlebnisname.
 * **[!UICONTROL Recommendations]**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
 
 Beachten Sie beim Arbeiten mit den [!UICONTROL Counting Methodology] die folgenden Einschränkungen:

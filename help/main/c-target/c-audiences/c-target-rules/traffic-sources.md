@@ -20,7 +20,7 @@ Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine ode
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
 1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
 1. Ziehen Sie **[!UICONTROL Traffic Sources]** per Drag-and-Drop in den Bereich Audience Builder .
 

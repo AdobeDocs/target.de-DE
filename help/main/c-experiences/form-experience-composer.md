@@ -35,7 +35,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    Dieser Bildschirm unterscheidet sich, wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen. [!UICONTROL Recommendations] Aktivitäten umfassen keine Erlebnisse.
 
-1. 
+1. &#x200B;
    1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:

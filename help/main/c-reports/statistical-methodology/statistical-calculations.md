@@ -117,7 +117,7 @@ Dabei sind *µ<sub>v</sub>* und *µ<sub>v0</sub>* die Mittel für ** bzw. *<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dabei sind *<sup></sup><sub>2</sub>* v *und <sup></sup><sub><sub>2</sub></sub>* v *0* die Varianzen zweier Erlebnisse *<sub> bzw.</sub>**0<sub> und</sub>* NN *v<sub> und <sub>Nn</sub></sub>* v *0sind Stichproben fürgrößen für**bzw.<sub></sub>* 000.
+Dabei sind *<sup></sup><sub>2</sub>* v *und <sup></sup><sub><sub>2</sub></sub>* v *0* die Varianzen zweier Erlebnisse *<sub> bzw.</sub>**0<sub> und</sub>* NN *v<sub> und <sub>Nn</sub></sub>* v *0sind Stichproben fürgrößen für**&#x200B;bzw.<sub></sub>* 000.
 
 Für Welchs t-Test wird der Freiheitsgrad wie folgt berechnet:
 

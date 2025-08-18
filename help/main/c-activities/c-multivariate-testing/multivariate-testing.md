@@ -102,7 +102,7 @@ In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätst
 
 ### Erstellen von Multivarianz-Tests (:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows [!DNL]Target“ verstehen, planen und erstellen.
+In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows Target“ verstehen, planen und erstellen.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests

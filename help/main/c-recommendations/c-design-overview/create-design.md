@@ -48,7 +48,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
 
-1. Geben Sie einen **[!UICONTROL  Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
+1. Geben Sie einen **[!UICONTROL &#x200B; Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
 
    Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld &quot;**[!UICONTROL Content Name]**&quot; angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
 

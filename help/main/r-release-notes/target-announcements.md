@@ -160,7 +160,7 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
 ### Chef&#39;s Collection: Recipes for Personalization (30. August 2022)
 
-Schließen Sie sich dem [!DNL Adobe Target] [!DNL]-Team an und erhalten Sie einige neue Ideen dazu, wie Sie Target optimal nutzen können. Basierend auf unserem neuesten E-Book „Chefkoch-Kollektion: Ideen zur Personalisierung“.
+Schließen Sie sich dem [!DNL Adobe Target] -Team an und erhalten Sie einige neue Ideen dazu, wie Sie Target optimal nutzen können. Basierend auf unserem neuesten E-Book „Chefkoch-Kollektion: Ideen zur Personalisierung“.
 
 * [Link zur Aufzeichnung](https://video.tv.adobe.com/v/346970/){target=_blank}
 
