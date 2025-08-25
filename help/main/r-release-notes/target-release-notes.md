@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 Diese Version enthält die folgenden Aktualisierungen und Fehlerbehebungen:
 
-**Visual Experience Composer (VEC)**
+**[!DNL Recommendations]**
+
++++Details anzeigen
+**Die Benutzeroberfläche wurde aktualisiert, sodass bei der erweiterten Suchfilterung in [!UICONTROL Product Catalog Search] nicht zwischen Groß- und Kleinschreibung unterschieden wird**: Die [!UICONTROL Advanced Search] Benutzeroberfläche auf der [!UICONTROL Product Catalog Search] führte zuvor eine exakte Groß-/Kleinschreibung für die zurückgegebenen Werte durch, obwohl sowohl die Backend- als auch die GraphQL-Abfrage nicht zwischen Groß-/Kleinschreibung unterschieden. Diese Inkonsistenz verursachte Verwirrung und verringerte die Suchgenauigkeit. Beim Filtern der [!UICONTROL Advanced Search] wird jetzt nicht mehr zwischen Groß- und Kleinschreibung unterschieden, sondern das Verhalten wird an das Backend angepasst und die Benutzerfreundlichkeit verbessert.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++Details anzeigen
 * **Es wurde ein Problem behoben, bei dem die Umbenennung eines Speicherorts in einer [!UICONTROL Automated Personalization] (AP)- oder [!UICONTROL Multivariate Test] (MVT)-Aktivität nach der Navigation zum [!UICONTROL Targeting] Schritt und der Rückkehr nicht beibehalten wurde.** Kunden können jetzt Standortnamen erfolgreich bearbeiten und speichern, und die Änderungen bleiben während des gesamten Erstellungsprozesses der Aktivität sichtbar. (TGT-52367)
