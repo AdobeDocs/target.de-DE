@@ -52,7 +52,7 @@ Diese Version enthält die folgenden Aktualisierungen und Fehlerbehebungen:
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Details anzeigen
 * **Das Klicken auf „Cookies akzeptieren“ mithilfe der [!UICONTROL Enhanced Experience Composer] (EEC) ist aufgrund einer fehlenden Funktion fehlgeschlagen**: Kunden meldeten, dass der Versuch, Cookies über die EEC zu akzeptieren, zu einem Konsolenfehler führte: `handleclickAcceptAllButton is not defined`. Die Cookie-Akzeptanzfunktion funktioniert jetzt erwartungsgemäß und sorgt in der aktualisierten Benutzeroberfläche für ein reibungsloseres Erlebnis bei der Erstellung von Aktivitäten. (TGT-52794)
