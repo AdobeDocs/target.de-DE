@@ -2,13 +2,13 @@
 keywords: Einschlussregeln; Aufnahmekriterien; Empfehlungen; neue Kriterien erstellen; Promotion; Promotions; dynamischer Filter; dynamisch; leere Werte; Filterregel ignorieren; statischer Filter; Filtern nach Wert; Entitätsattributübereinstimmung; Profilattributübereinstimmung; Parameterübereinstimmung; Filtern nach Wert; statischer Filter
 description: Erfahren Sie, wie Sie in  [!DNL Target] Recommendations für Kriterien und Promotions Einschlussregeln erstellen.
 title: Wie verwende ich dynamische und statische Einschlussregeln in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 16%
 
 ---
@@ -76,6 +76,10 @@ Die folgende Option ist zum Filtern nach Wert verfügbar:
 Dynamische Kriterien und Promotions sind viel leistungsfähiger als statische Kriterien und Promotions und liefern bessere Ergebnisse und Interaktionen.
 
 Die folgenden Beispiele bieten allgemeine Ideen dazu, wie Sie dynamische Promotions und Ausschlüsse in Ihren Marketing-Maßnahmen verwenden können:
+
+>[!NOTE]
+>
+>„Liste“ erfordert, dass sowohl die Entitäten als auch die Profilattribute als Arrays gespeichert werden. Eine kommagetrennte Liste funktioniert nicht.
 
 | Benutzerin oder Benutzer | Beispiele |
 | --- | --- |
