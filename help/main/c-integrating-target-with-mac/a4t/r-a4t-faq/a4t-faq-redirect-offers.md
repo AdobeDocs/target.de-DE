@@ -4,9 +4,9 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich FAQs zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 50%
 
 ---
@@ -19,6 +19,27 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zur Verwendung von Umlei
 
 +++Antwort
 Ja, wenn Ihre Implementierung [!DNL at.js] verwendet. Ihre Implementierung muss jedoch die unten aufgeführten Mindestanforderungen erfüllen, um [Weiterleitungsangebote](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in Aktivitäten zu verwenden, die Analytics als Berichtsquelle verwenden.
+
++++
+
+## ![Adobe Experience Platform Web SDK-Badge](/help/main/assets/platform.png) Unterstützt die [!DNL Adobe Experience Platform Web SDK] Umleitungsangebote für A4T? {#platform}
+
++++Antwort
+In den folgenden häufig gestellten Fragen finden Sie weitere Informationen zur Verwendung von A4T und zu Umleitungsangeboten für den [!DNL Platform Web SDK].
+
++++
+
+### Unterstützt Analytics for Target (A4T) Umleitungsangebote?
+
++++Antwort
+Ja, A4T über die Platform Web SDK unterstützt [Umleitungsangebote](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
+
+### Werden [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Form-Based Experience Composer] unterstützt?
+
++++Antwort
+Ja, der [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) werden unterstützt, wenn Sie integrierte Umleitungsangebote verwenden.
 
 +++
 
@@ -142,24 +163,6 @@ Bei [!DNL at.js] Version 0.9.6 (oder höher) und [!DNL AppMeasurement.js] 2.1 (o
 
 +++Antwort
 Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsquelle (A4T) ein integriertes Weiterleitungsangebot verwenden. Aus der Sicht von [!DNL Target] sind HTML-Angebote undurchsichtig: [!DNL Target] kann nicht erkennen, dass ein bestimmter HTML-Abschnitt JavaScript zum Instantiieren einer Weiterleitung enthält.
-
-+++
-
-## ![Adobe Experience Platform Web SDK-Badge](/help/main/assets/platform.png) Unterstützt die [!DNL Adobe Experience Platform Web SDK] Umleitungsangebote für A4T? {#platform}
-
-In den folgenden häufig gestellten Fragen finden Sie weitere Informationen zur Verwendung von A4T und zu Umleitungsangeboten für den [!DNL Platform Web SDK].
-
-### Unterstützt Analytics for Target (A4T) Umleitungsangebote?
-
-+++Antwort
-Ja, A4T über die Platform Web SDK unterstützt [Umleitungsangebote](/help/main/c-experiences/c-manage-content/offer-redirect.md).
-
-+++
-
-### Werden [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Form-Based Experience Composer] unterstützt?
-
-+++Antwort
-Ja, der [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) werden unterstützt, wenn Sie integrierte Umleitungsangebote verwenden.
 
 +++
 
