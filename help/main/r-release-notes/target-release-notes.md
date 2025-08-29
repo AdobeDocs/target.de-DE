@@ -54,7 +54,7 @@ Diese Version enthält die folgenden Aktualisierungen und Fehlerbehebungen:
 * **Der Wechsel von Zielgruppen auf der Seite „Berichte“ führte zu Fehlern in der Target-**: Bei der Auswahl bestimmter Zielgruppen im Abschnitt „Berichte der aktualisierten Target-Benutzeroberfläche traten Fehler auf. Dieses Problem wurde durch eine ungültige Behandlung von Zielgruppen in Backend-GraphQL-Aufrufen verursacht, was zu unerwarteten Fehlern und fehlenden Daten führte. Das Problem wurde behoben, und Desktop-Zielgruppen werden jetzt ohne Fehler geladen - auch wenn keine Daten verfügbar sind. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Details anzeigen
 * **Das Klicken auf „Cookies akzeptieren“ mithilfe der [!UICONTROL Enhanced Experience Composer] (EEC) ist aufgrund einer fehlenden Funktion fehlgeschlagen**: Kunden meldeten, dass der Versuch, Cookies über die EEC zu akzeptieren, zu einem Konsolenfehler führte: `handleclickAcceptAllButton is not defined`. Die Cookie-Akzeptanzfunktion funktioniert jetzt erwartungsgemäß und sorgt in der aktualisierten Benutzeroberfläche für ein reibungsloseres Erlebnis bei der Erstellung von Aktivitäten. (TGT-52794)
