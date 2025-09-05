@@ -5,7 +5,7 @@ title: Was sind Antwort-Token und wie verwende ich sie?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
 | Target SDK | Vorgeschlagene Aktionen |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} | Stellen Sie sicher, dass Sie Platform Web SDK Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version von Platform Web SDK finden Sie unter [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de){target=_blank} im Handbuch *Platform Web SDK - Übersicht*. Weitere Informationen zu den neuen Funktionen der einzelnen Versionen von Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) im Handbuch *Platform Web SDK - Übersicht*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank} | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=de){target=_blank}. Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die sich auf interne Methoden stützen, die in mbox.js (inzwischen nicht mehr unterstützt), aber nicht in at.js vorhanden waren, werden bereitgestellt, schlagen jedoch fehl. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} | Stellen Sie sicher, dass Sie Platform Web SDK Version 2.6.0 oder höher verwenden. Informationen zum Herunterladen der neuesten Version von Platform Web SDK finden Sie unter [SDK installieren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} im Handbuch *Platform Web SDK - Übersicht*. Weitere Informationen zu den neuen Funktionen der einzelnen Versionen von Platform Web SDK finden Sie unter [Versionshinweise](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=de) im Handbuch *Platform Web SDK - Übersicht*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Stellen Sie sicher, dass Sie at.js der Version 1.1 oder neuer verwenden. Weitere Informationen zum Herunterladen der neuesten Version von at.js finden Sie unter [Herunterladen von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Weitere Informationen zu neuen Funktionen in den einzelnen Versionen von at.js finden Sie unter [„at.js“-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.<br>Kunden, die at.js verwenden, sollten Antwort-Token nutzen und auf Plug-ins verzichten. Einige Plug-ins, die sich auf interne Methoden stützen, die in mbox.js (inzwischen nicht mehr unterstützt), aber nicht in at.js vorhanden waren, werden bereitgestellt, schlagen jedoch fehl. |
 
 ## Verwenden von Antwort-Token {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
 
    Weitere Informationen:
 
-   * **Platform Web SDK**: Siehe [Installieren von SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) im *Platform Web SDK - Übersicht*.
-   * **at.js**: Siehe &quot;[.js herunterladen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=de){target=_blank}.
+   * **Platform Web SDK**: Siehe [Installieren von SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) im *Platform Web SDK - Übersicht*.
+   * **at.js**: Siehe &quot;[.js herunterladen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -58,7 +58,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    |  | `profile.categoryAffinity` | Gibt die Lieblingskategorie des Besuchers zurück. |
    |  | `profile.categoryAffinities` | Gibt eine Reihe der Top-5-Kategorien des Besuchers als Zeichenfolgen zurück. |
    | Aktivität | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details der aktuellen Aktivität.<br> Beachten Sie, dass Werte für Angebotsparameter auf Erlebnisebene ausgewertet werden. |
-   | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
+   | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
    | Traffic-Zuordnungsmethode<br>(Gilt nur für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization] Aktivitäten.) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus Kontroll-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der Targeting-Traffic-Verteilung erhalten hat. |
    |  | `experience.trafficAllocationType` | Gibt „Kontrolle“ oder „Targeting“ zurück. |
 
@@ -147,7 +147,7 @@ Im folgenden Antwortbeispiel wird ein [!DNL Platform Web SDK] benutzerdefinierte
 
 ### ![at.js-Badge](/help/main/assets/atjs.png) at.js mit benutzerdefinierten Ereignissen
 
-Verwenden Sie [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=de){target=_blank} benutzerspezifische Ereignisse, um auf die [!DNL Target] Antwort zu warten und die Antwort-Token zu lesen.
+Verwenden Sie [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} benutzerspezifische Ereignisse, um auf die [!DNL Target] Antwort zu warten und die Antwort-Token zu lesen.
 
 Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]-Eventhandler auf der HTML-Seite hinzugefügt:
 
@@ -426,4 +426,4 @@ Im folgenden Video wird erläutert, wie Sie mit Antwort-Token und benutzerdefini
 >
 >Im Video werden `option.name` und `option.id` erwähnt, die durch `offer.name` bzw. `offer.id` ersetzt wurden.
 
->[!VIDEO](https://video.tv.adobe.com/v/33825?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
