@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Daten aus Adobe [!DNL Target] Aktivitäten im
 title: Wie lade ich Berichtsdaten in einer CSV-Datei herunter?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
+source-git-commit: be02c0405133e4fc4e7f668a2b72a61b94070740
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '734'
 ht-degree: 30%
 
 ---
@@ -70,19 +70,19 @@ Der [!UICONTROL Order Details] zeigt Informationen zu Ihren Bestellungen an, dar
 >* Zu den Daten des Bestellberichts gehören Daten aus vier Wochen für die Standardumgebung (Hostgruppe) und Daten aus zwei Wochen für alle nicht standardmäßigen Umgebungen.
 >* Umsatzmetriken, die auf &quot;[!UICONTROL Increment count and keep the user in the activity]&quot; eingestellt sind, protokollieren Auftragsdetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und sind nicht im [!UICONTROL Order Details] enthalten.
 
-## CSV-Download-Format für Beliebtheit und schlüsselbasierte Algorithmen {#format}
+## CSV-Download-Format für populäritäts- und schlüsselbasierte Algorithmen {#format}
 
 Die CSV-Download-Datei enthält konsistent die Ergebnisse, die nach der Ausführung der Backend-Kriterien generiert wurden.
 
-**Bei Popularitätsalgorithmen (nicht schlüsselbasiert) umfasst die Datei Folgendes:**
+* **Bei populäritätsbasierten Algorithmen (nicht schlüsselbasiert) umfasst die Datei Folgendes:**
 
-* Eine Reihe von Backup-Recommendations mit dem Präfix *
-* Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
+   * Eine Reihe von Backup-Empfehlungen mit dem Präfix * (ein Sternchen)
+   * Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
 
-**Bei schlüsselbasierten Algorithmen umfasst die Datei Folgendes:**
+* **Bei schlüsselbasierten Algorithmen umfasst die Datei Folgendes:**
 
-* Eine Sicherungszeile, die den Popularitätsalgorithmen ähnelt
-* Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
+   * Eine Sicherungszeile, die den populäritätsbasierten Algorithmen ähnelt
+   * Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
 
 ## Best Practices  
 
