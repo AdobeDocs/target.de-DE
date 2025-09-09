@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Daten aus Adobe [!DNL Target] Aktivitäten im
 title: Wie lade ich Berichtsdaten in einer CSV-Datei herunter?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 34%
+source-wordcount: '732'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,20 @@ So laden Sie Daten als CSV-Datei herunter:
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## CSV-Download-Format für Beliebtheit und schlüsselbasierte Algorithmen {#format}
+
+Die CSV-Download-Datei enthält konsistent die Ergebnisse, die nach der Ausführung der Backend-Kriterien generiert wurden.
+
+**Bei Popularitätsalgorithmen (nicht schlüsselbasiert) umfasst die Datei Folgendes:**
+
+* Eine Reihe von Backup-Recommendations mit dem Präfix *
+* Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
+
+**Bei schlüsselbasierten Algorithmen umfasst die Datei Folgendes:**
+
+* Eine Sicherungszeile, die den Popularitätsalgorithmen ähnelt
+* Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
