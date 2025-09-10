@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe [!DNL Target] Recom
 title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ Bei anderen Algorithmustypen, die auf einem Schlüsselwert basieren, z. B. [!UIC
 >[!NOTE]
 >
 >Ergebnis-Downloads sind nicht für Aktivitäten verfügbar, die einen [!UICONTROL User-Based Recommendations] enthalten. Ergebnis-Downloads sind für Kriterien, die die [!UICONTROL Recently-Viewed Items] Empfehlungslogik verwenden, nicht verfügbar.
+
+### CSV-Download-Format für populäritäts- und schlüsselbasierte Algorithmen {#format}
+
+Die CSV-Download-Datei enthält konsistent die Ergebnisse, die nach der Ausführung der Backend-Kriterien generiert wurden.
+
+* **Bei populäritätsbasierten Algorithmen (nicht schlüsselbasiert) umfasst die Datei Folgendes:**
+
+   * Eine Reihe von Backup-Empfehlungen mit dem Präfix * (ein Sternchen)
+   * Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
+
+* **Bei schlüsselbasierten Algorithmen umfasst die Datei Folgendes:**
+
+   * Eine Sicherungszeile, die den populäritätsbasierten Algorithmen ähnelt
+   * Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
 
 ## Recommendations-Aktivität aktivieren
 
