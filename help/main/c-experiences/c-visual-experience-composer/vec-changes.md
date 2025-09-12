@@ -4,9 +4,9 @@ description: Machen Sie sich mit den Änderungen vertraut, die in Visual Experie
 title: Welche Änderungen werden mit dem neuen Visual Experience Composer (VEC) eingeführt?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie können Ihrer Web-Seite eine Reihe von Komponenten hinzufügen und diese nac
 
 ![Komponentenleiste](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Um eine neue Komponente hinzuzufügen, ziehen Sie die Komponente aus der [!UICONTROL Components] Leiste, die Sie über ein vorhandenes Seitenelement in die [!UICONTROL Design] einfügen möchten. Wählen Sie dann aus, dass die Komponente vor oder nach dem ausgewählten Element eingefügt werden soll.
+Um eine neue Komponente hinzuzufügen, wählen Sie die gewünschte Komponente in der [!UICONTROL Components] Leiste aus, bewegen Sie den Mauszeiger über ein vorhandenes Element auf der Seite und fügen Sie die Komponente dann vor oder nach dem ausgewählten Element ein.
 
 >[!NOTE]
 >
