@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 15%
+source-wordcount: '1779'
+ht-degree: 14%
 
 ---
 
@@ -74,6 +74,18 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
 +++
+
+## Datenstrom-Updates (19. September 2025)
+
+Die Kombination aus Datenstrom-ID und Sandbox muss für [!DNL Adobe Target] Zielverbindungen eindeutig sein.
+
+Die Validierungslogik für [!DNL Target] Zielverbindungen wurde aktualisiert, um zu erzwingen, dass die Kombination aus Datenstrom-ID und Sandbox-Name innerhalb einer IMS-Organisation eindeutig sein muss. Dies bedeutet:
+
+* Dieselbe Datenstrom-ID und dasselbe Sandbox-Namenspaar können nicht über mehrere [!DNL Target] Zielverbindungen hinweg wiederverwendet werden.
+* Dieselbe Datenstrom-ID kann nur für verschiedene Verbindungen verwendet werden, wenn sie in verschiedenen Sandboxes konfiguriert sind.
+* Diese Regel gilt für alle ausgewählten Datenstrom, auch wenn „Keine“ ausgewählt ist.
+
+Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5. September 2025)
 
