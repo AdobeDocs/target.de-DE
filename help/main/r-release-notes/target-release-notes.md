@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 03d8135223ede82a60ed17cd7e8a87c2c687192b
+source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 63%
+source-wordcount: '196'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adobe Target]-Versionen, einschließlich SDKs, APIs und JavaScript-Bibliotheken.
 
-**Letzte Aktualisierung: 11. September 2025**
+**Letzte Aktualisierung: 22. September 2025**
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 >
 >* Die Problemnummern in Klammern dienen internen [!DNL Adobe]-Zwecken.
 
-## [!DNL Target Standard/Premium] 25.9.2 (23. September 2025)
+## [!DNL Target Standard/Premium] 25.9.3 (30. September 2025)
 
-Diese Version ist für den 23. September 2025 geplant. Diese Seite wird häufig aktualisiert, insbesondere in der letzten Woche vor der offiziellen Veröffentlichung.
+Diese Version wird voraussichtlich am 30. September 2025 veröffentlicht. Diese Seite wird häufig aktualisiert, insbesondere in der Woche vor der Veröffentlichung.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
