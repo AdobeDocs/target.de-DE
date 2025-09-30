@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Remote-Angebote in [!DNL Target]  nutzen kön
 title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 19%
+source-wordcount: '1029'
+ht-degree: 18%
 
 ---
 
@@ -31,6 +31,17 @@ Einige Beispiele für Remote-Angebote sind:
 ## Best Practices für die Verwendung von Remote-Angeboten {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
+
+* Remote-Angebote werden unterstützt in:
+
+   * A/B-Aktivitäten
+   * Experience Targeting-(XT)-Aktivitäten
+   * Formularbasierte Workflows
+
+* Remote-Angebote werden in nicht unterstützt:
+
+   * [Premium-](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatisches Targeting und Recommendations)
+   * Multivariate Testing (MVT), da der VEC verwendet wird, der keine Remote-Angebote unterstützt.
 
 * Wenn sich Ihr Angebot in derselben Domain wie die [!DNL Target]-Anfragen befindet, können Sie mit der Option [!UICONTROL Cached] relative URLs zur Beschreibung Ihres Angebotsspeicherorts verwenden.
 

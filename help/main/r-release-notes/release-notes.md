@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,64 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3 (30. September 2025)
+
+Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen.
+
++++[!UICONTROL Audiences]
+
+* **Regeln zum Zielgruppenausschluss wurden fälschlicherweise als Aufnahme in der [!DNL Target]-Benutzeroberfläche angezeigt.** Audiences, die mit Ausschlussregeln konfiguriert wurden, wurden beim Bearbeiten der Zielgruppenbestimmung in einer Aktivität als enthalten angezeigt. Obwohl die Ausschlusslogik während der Ausführung korrekt angewendet wurde, konnte die Regel in der Benutzeroberfläche nicht genau wiedergegeben werden, da die Kennzeichnung „Ausschließen“ weggelassen wurde. Die [!DNL Target]-Benutzeroberfläche zeigt jetzt die Ausschlussregeln sowohl in der Zielgruppen-Konfiguration als auch in den Zielgruppen-Workflows korrekt an, wodurch Klarheit und Konsistenz für die Kampagneneinrichtung gewährleistet sind. (TGT-53808)
+* **Im [!UICONTROL Targeting] Abschnitt wurde nicht angegeben, dass eine Zielgruppenregel zum Ausschließen festgelegt wurde.** mit Ausschlusslogik konfigurierten Zielgruppen wurden fälschlicherweise als Aufnahme in den [!UICONTROL Targeting] Abschnitt der Benutzeroberfläche zur Erstellung von Aktivitäten angezeigt. Obwohl das Backend die Ausschlussregel korrekt angewendet hat, konnte sie von der Benutzeroberfläche nicht visuell dargestellt werden, wodurch die Kennzeichnung „Ausschließen“ weggelassen wurde, was während der Kampagneneinrichtung zu Verwirrung führte. Im [!UICONTROL Targeting] Abschnitt werden jetzt die Ausschlussregeln angezeigt, was die Konsistenz zwischen der Zielgruppenkonfiguration und der Zielgruppenvisualisierung gewährleistet. (TGT-53809)
+
++++
+
++++Lokalisierung
+
+* **Es wurde eine Terminologieinkonsistenz bei der Übersetzung von „Vollständige Detailansicht“ ins vereinfachte Chinesisch behoben.**
+Zuvor wurde der Begriff „Details“ im vereinfachten Chinesisch (zh_CN) fälschlicherweise als &quot;&quot; übersetzt, was gegen etablierte Terminologieleitlinien verstößt. Dies wurde in &quot;&quot; geändert, um die Konsistenz mit der Terminologiedatenbank sicherzustellen. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **Empfehlungsfelder waren in VEC schwer zu finden und auszuwählen.** Nach dem Hinzufügen eines Recommendations-Angebots in (VEC) wurde beim Klicken auf die Änderung im linken Bereich das entsprechende Recommendations-Feld auf der Seite nicht markiert bzw. ein Bildlauf dorthin durchgeführt. Dies machte es schwierig, das Angebot zu finden und zu bearbeiten, insbesondere wenn es unter Selektoren ausgeblendet oder minimal formatiert war. Wenn Sie auf eine Empfehlungsänderung klicken, wird das zugehörige Element jetzt korrekt hervorgehoben und ein Bildlauf durchgeführt, was die Benutzerfreundlichkeit verbessert und die Bearbeitungseffizienz im aktualisierten Prozess zur Erstellung von Aktivitäten verbessert. (TGT-52571)
+* **Empfehlungsselektoren wurden nach dem Speichern einer Aktivität falsch neu geschrieben.** Beim Hinzufügen einer Empfehlung zu einem Element in Visual Experience Composer war der Selektor zunächst korrekt, wurde aber nach dem Speichern und erneuten Öffnen der Aktivität in einen generischen Selektor geändert. Der Versuch, die ursprüngliche Auswahl manuell wiederherzustellen, führte zu Validierungsfehlern. Empfehlungsselektoren bleiben jetzt nach dem Speichern korrekt erhalten, was eine zuverlässige Zielgruppenbestimmung und Bearbeitbarkeit im aktualisierten Prozess der Aktivitätserstellung gewährleistet. (TGT-53709)
+* **Kriterieninhalt konnte beim Ändern einer vorhandenen Aktivität nicht bearbeitet werden.** Beim Bearbeiten einer Aktivität erschien der Abschnitt [!UICONTROL Criteria]-Inhalt deaktiviert, wobei die Schaltflächen ausgegraut waren und nicht reagierten. Dieses Problem wurde behoben, indem sichergestellt wurde, dass [!UICONTROL Criteria] Konfigurationen während Aktivitätsaktualisierungen vollständig bearbeitbar sind. Kunden können jetzt [!UICONTROL Criteria] Inhalte ändern, ohne die Auswahl wechseln oder Problemumgehungen verwenden zu müssen, was die Flexibilität und Benutzerfreundlichkeit im aktualisierten Prozess der Aktivitätserstellung verbessert. (TGT-53812)
+* **Kriterien konnten innerhalb einer Aktivität nicht bearbeitet werden.** Die Optionen [!UICONTROL Edit Criteria]und [!UICONTROL Remove Criteria] wurden beim Zugriff auf Kriterien innerhalb einer Aktivität deaktiviert. Dieselben Kriterien können jedoch erfolgreich über die Registerkarte [!UICONTROL Recommendations] bearbeitet werden. Die Kriterien können jetzt sowohl über den Workflow „Activity Edit“ als auch über die Registerkarte &quot;[!UICONTROL Recommendations]&quot; vollständig bearbeitet werden, was ein konsistentes und effizientes Bearbeitungserlebnis gewährleistet. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **Das Generieren von Ad-hoc-Angeboten in A[!UICONTROL utomated Personalization]-Aktivitäten führte zu Inkonsistenzen bei der Berichterstellung.** Die Verwendung der Funktion zum Generieren von Ad-hoc-Angeboten in [!UICONTROL Automated Personalization] (AP) -Aktivitäten führte zu ungenauen Berichten. Insbesondere wurden Angebots-IDs standortübergreifend wiederverwendet, was dazu führte, dass Berichtsdaten falsch zugeordnet oder überschrieben wurden. Ad-hoc-Angebote werden jetzt mit separaten Kennungen pro Standort generiert, um eine genaue Verfolgung und Berichterstellung für alle konfigurierten Erlebnisse sicherzustellen. (TGT-53757)
+* **Aktivitätsberichte konnten aufgrund eines JavaScript-Fehlers nicht geladen werden.** Kunden haben beim Zugriff auf die Registerkarte [!UICONTROL Reports] für bestimmte Aktivitäten die Meldung „Irgendetwas ist schiefgelaufen“ erhalten. Der Fehler wurde durch einen JavaScript-Ausnahmefehler verursacht: Eigenschaften von nicht definierten Inhalten können nicht gelesen werden (Lesen von „indexOf„), ausgelöst während des `getAnalyticsReportSummary` GraphQL-Aufrufs. Berichte werden jetzt korrekt geladen und die Fehlerbehandlung wurde verbessert, um ähnliche Fehler im aktualisierten Workflow für die Erstellung von Aktivitäten zu verhindern. (TGT-53797)
+* **Berichte stürzten nach der Interaktion mit der Bildlaufleiste ab.** Durch Klicken auf die Bildlaufleiste auf der Registerkarte [!UICONTROL Reports] stürzte die Seite ab, begleitet von einem JavaScript-Fehler:
+  `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Berichte werden jetzt korrekt geladen und gescrollt, ohne dass Fehler oder Abstürze ausgelöst werden. (TGT-53828)
+* **eReports hat die primäre Metrik nicht angezeigt.** Die primäre Metrik, die als Konversionsmetrik mithilfe einer Mbox konfiguriert wurde, fehlte in den Aktivitätsberichten. Die Suche nach Metriknamen oder Mbox-Namen führte zu keinen Ergebnissen und verhinderte die Sichtbarkeit wichtiger Leistungsdaten. Primäre Metriken werden nun korrekt auf der Registerkarte [!UICONTROL Reports] angezeigt, was eine genaue Verfolgung und Analyse der Kampagnenleistung gewährleistet. (TGT-53773)
+* **Die Registerkarte &quot;[!UICONTROL Reports]&quot; in der aktualisierten Benutzeroberfläche stürzte bei der Interaktion mit der horizontalen Bildlaufleiste ab.** Die [!UICONTROL Reports]-Ansicht stürzte zeitweise mit dem Fehler „Irgendetwas ist schiefgelaufen“ ab, wenn die horizontale Bildlaufleiste verwendet wurde, um auf Metriken außerhalb der Ansicht zuzugreifen. Die Bildlaufleiste funktioniert jetzt zuverlässig, sodass Kundinnen und Kunden alle Metriken anzeigen und analysieren können, ohne dass sie Problemumgehungen wie das Verkleinern oder Verwenden von Umschalt-Bildlauf benötigen. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer] (VEC)
+
+* **Durch Klicken auf Breadcrumbs in VEC wurde das Bearbeitungsmenü nicht konsistent angezeigt.**
+Bei der Auswahl von HTML-Elementen über die Breadcrumbs in (VEC) wird das Bearbeitungsmenü gelegentlich nicht angezeigt oder verschwindet schnell, was die Elementauswahl unzuverlässig macht. Das Bearbeitungsmenü wird jetzt beim Navigieren über Breadcrumbs durchgängig angezeigt, was den Workflow zur Elementauswahl im aktualisierten Prozess zur Erstellung von Aktivitäten verbessert. (TGT-52873)
+* **Das Kontextmenü wird in VEC zeitweise nicht angezeigt.** Das Kontextmenü in der aktualisierten VEC-Benutzeroberfläche wurde beim Klicken auf Elemente nicht konsequent angezeigt, sodass der Zugriff auf Bearbeitungsoptionen erschwert wurde. Das Kontextmenü wird jetzt zuverlässig bei der Elementauswahl angezeigt, was den Bearbeitungs-Workflow und die allgemeine Benutzerfreundlichkeit im aktualisierten Prozess der Aktivitätserstellung verbessert. (TGT-53015)
+* **Das Kontextmenü wurde für bestimmte Elemente in Visual Experience Composer nicht angezeigt.** Das Kontextmenü wurde bei der Auswahl bestimmter Elemente in dem aktualisierten VEC nicht angezeigt, sodass Änderungen nur schwer angewendet werden konnten. Das Kontextmenü wird nun für alle unterstützten Elemente angezeigt, was die Zuverlässigkeit und Benutzerfreundlichkeit der Bearbeitung im aktualisierten Workflow für die Erstellung von Aktivitäten verbessert. (TGT-53248)
+* **Kontextmenü bei Verwendung von Breadcrumbs in VEC verschwand beim ersten Klick.** Auswahl eines übergeordneten Elements über die Breadcrumbs in VEC führte dazu, dass das Kontextmenü kurz angezeigt und dann ausgeblendet wurde, wodurch der Zugriff auf Bearbeitungsoptionen erschwert wurde. Das Kontextmenü bleibt jetzt beim Navigieren durch Breadcrumbs für Elemente sichtbar und funktioniert. Dies verbessert die Zuverlässigkeit des Workflows zur Elementauswahl im aktualisierten Prozess zur Erstellung von Aktivitäten. (TGT-53424)
+* **Das Kontextmenü wurde für Elemente der obersten Ebene in Visual Experience Composer nicht angezeigt.** beim Auswählen von Elementen der obersten Ebene - wie `<div>` oder `<main>` Tags - über die Breadcrumbs in VEC wurde das Kontextmenü nicht Trigger, was weitere Bearbeitungsaktionen verhinderte. Das Kontextmenü wird jetzt durchgängig für alle unterstützten Elemente angezeigt, einschließlich Container der obersten Ebene, was die Flexibilität und Benutzerfreundlichkeit des Arbeitsablaufs für die Erstellung von Aktivitäten verbessert. (TGT-53770)
+* **Elemente auf einer bestimmten Seite konnten im VEC nicht bearbeitet werden.** Bestimmte Elemente auf der Seite konnten im aktualisierten VEC nicht ausgewählt oder bearbeitet werden. Dieses Problem wurde auf diese Seite isoliert und wirkte sich nicht auf andere Seiten innerhalb desselben Kontos aus. Alle Elemente auf der Seite können nun wie erwartet ausgewählt und bearbeitet werden, wodurch der Workflow zur Erstellung der Aktivität wieder voll funktionsfähig ist. (TGT-53353)
+* **Der Arbeitsablauf beim Anzeigen von untergeordneten Elementen während der Elementauswahl in Visual Experience Composer wurde verbessert.** Um die Benutzerfreundlichkeit und Genauigkeit während der Aktivitätserstellung zu verbessern, zeigt der VEC jetzt untergeordnete Elemente an, wenn Sie den Mauszeiger über ein übergeordnetes HTML-Element bewegen oder es auswählen. Diese Verbesserung ermöglicht es Kunden, die Struktur der Seite besser zu verstehen und genauere Änderungen vorzunehmen, wodurch der Bearbeitungs-Workflow in der aktualisierten Benutzeroberfläche optimiert wird. (TGT-53416)
+* **Elemente in vorhandenen Aktivitäten konnten nicht mit der Änderungsleiste bearbeitet werden.** Beim Bearbeiten zuvor erstellter Aktivitäten konnte die Änderungsleiste für bestimmte Elemente auf der Seite nicht aktiviert werden, wodurch Aktualisierungen verhindert wurden. Dieses Problem trat hauptsächlich bei modifizierten Aktivitäten auf und war bei neu erstellten Aktivitäten schwer zu reproduzieren. Die Änderungsleiste wird jetzt konsistent angezeigt und ermöglicht die Bearbeitung aller unterstützten Elemente, was die Zuverlässigkeit und Benutzerfreundlichkeit im aktualisierten Workflow für die Erstellung von Aktivitäten verbessert. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **Beim Klonen einer Aktivität in einen anderen Arbeitsbereich wurde der Fehler „Ungültige Benutzereingabe“ ausgelöst.** Versuch, eine Aktivität von einem Arbeitsbereich in einen anderen zu klonen, führte zu einem Fehler: „InvalidProperty.Json - Nicht erkannter Eigenschaftsname &#39;content&#39;.“ Dieses Problem wurde durch eine fehlerhafte Verarbeitung von Aktivitätsmetadaten während des Klonvorgangs verursacht. Aktivitäten können jetzt erfolgreich über Arbeitsbereiche hinweg geklont werden, ohne Validierungsfehler auszulösen, wodurch reibungslosere Workflow für die Bereitstellung von Aktivitäten gewährleistet sind. (TGT-53731 und TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2 (22. September 2025)
 
 Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
@@ -83,14 +141,14 @@ Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
 +++Details anzeigen
 * **Es wurde ein Problem behoben, bei dem Aktivitäten aufgrund ungültiger Zielgruppen-IDs nicht kopiert werden konnten.** Kunden, die versuchten, Aktivitäten im aktualisierten Prozess der Aktivitätserstellung zu kopieren, trat ein Fehler auf, der durch ungültige Zielgruppen-IDs verursacht wurde (z. B. -1752722444307). Dieses Backend-Validierungsproblem verhinderte die Duplizierung von Aktivitäten innerhalb desselben Arbeitsbereichs. Dieses Problem wurde behoben, und Aktivitäten können jetzt erfolgreich kopiert werden, ohne dass zielgruppenbezogene Fehler auftreten. (TGT-53717)
-* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL &#x200B; Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
+* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL  Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
 
 +++
 
 **Dokumentation**
 
 +++Details anzeigen
-* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[ migriert](https://experienceleague.adobe.com/de/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
+* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[ migriert](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ Die Validierungslogik für [!DNL Target] Zielverbindungen wurde aktualisiert, um
 * Dieselbe Datenstrom-ID kann nur für verschiedene Verbindungen verwendet werden, wenn sie in verschiedenen Sandboxes konfiguriert sind.
 * Diese Regel gilt für alle ausgewählten Datenstrom, auch wenn „Keine“ ausgewählt ist.
 
-Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
+Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5. September 2025)
 
