@@ -95,14 +95,14 @@ Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
 +++Details anzeigen
 * **Es wurde ein Problem behoben, bei dem Aktivitäten aufgrund ungültiger Zielgruppen-IDs nicht kopiert werden konnten.** Kunden, die versuchten, Aktivitäten im aktualisierten Prozess der Aktivitätserstellung zu kopieren, trat ein Fehler auf, der durch ungültige Zielgruppen-IDs verursacht wurde (z. B. -1752722444307). Dieses Backend-Validierungsproblem verhinderte die Duplizierung von Aktivitäten innerhalb desselben Arbeitsbereichs. Dieses Problem wurde behoben, und Aktivitäten können jetzt erfolgreich kopiert werden, ohne dass zielgruppenbezogene Fehler auftreten. (TGT-53717)
-* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL  Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
+* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL &#x200B; Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
 
 +++
 
 **Dokumentation**
 
 +++Details anzeigen
-* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[ migriert](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
+* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[&#x200B; migriert](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
 
 +++
 
