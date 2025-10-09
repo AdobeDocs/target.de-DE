@@ -6,7 +6,7 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
 +++Details anzeigen
 * **Es wurde ein Problem behoben, bei dem Aktivitäten aufgrund ungültiger Zielgruppen-IDs nicht kopiert werden konnten.** Kunden, die versuchten, Aktivitäten im aktualisierten Prozess der Aktivitätserstellung zu kopieren, trat ein Fehler auf, der durch ungültige Zielgruppen-IDs verursacht wurde (z. B. -1752722444307). Dieses Backend-Validierungsproblem verhinderte die Duplizierung von Aktivitäten innerhalb desselben Arbeitsbereichs. Dieses Problem wurde behoben, und Aktivitäten können jetzt erfolgreich kopiert werden, ohne dass zielgruppenbezogene Fehler auftreten. (TGT-53717)
-* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL &#x200B; Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
+* **Es wurde ein Problem behoben, bei dem in den [!UICONTROL Automated Personalization] Aktivitäten des [!UICONTROL Manage Content]-Modals Fehler bei der Benutzereingabe für Zielgruppen auftraten, die nur für Aktivitäten bestimmt waren.** Kunden haben beim Konfigurieren von Zielgruppen „Nur Aktivität“ im [!UICONTROL  Manage Content]-Modal für AP-Aktivitäten Fehler bei der Benutzereingabe festgestellt. Dieses Problem trat auf, obwohl die Zielgruppen zuvor erfolgreich verwendet wurden. Kombinierte Zielgruppenkonfigurationen werden jetzt korrekt gespeichert, ohne dass Validierungsfehler ausgelöst werden. (TGT-53749)
 
 +++
 
 **Dokumentation**
 
 +++Details anzeigen
-* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[&#x200B; migriert](https://experienceleague.adobe.com/de/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
+* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]-[ migriert](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
 
 +++
 
@@ -178,7 +178,7 @@ Die Validierungslogik für [!DNL Target] Zielverbindungen wurde aktualisiert, um
 * Dieselbe Datenstrom-ID kann nur für verschiedene Verbindungen verwendet werden, wenn sie in verschiedenen Sandboxes konfiguriert sind.
 * Diese Regel gilt für alle ausgewählten Datenstrom, auch wenn „Keine“ ausgewählt ist.
 
-Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
+Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5. September 2025)
 
