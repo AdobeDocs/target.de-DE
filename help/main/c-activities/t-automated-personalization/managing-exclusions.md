@@ -2,13 +2,13 @@
 keywords: Deduplizierung;Duplikate zulassen;doppelte Angebote ausschließen;Automated Personalization;doppelte Angebote nicht zulassen;ausschließen;Standardinhalt;
 description: Verwalten von Ausschlüssen in [!UICONTROL Automated Personalization] (AP)-Aktivitäten.
 title: Wie verwalte ich Ausschlüsse in [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -23,7 +23,7 @@ Verhindern Sie, dass Angebote aus der Angebotsbibliothek dupliziert werden, wenn
 
 Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Seite mit 12 Angeboten. Hier besteht die Gefahr, dass das gleiche Angebot in einer Aktivität mehrmals angezeigt wird. Mit dieser Funktion können Sie verhindern, dass doppelte Angebote gleichzeitig an verschiedenen Stellen innerhalb derselben Aktivität angezeigt werden.
 
-1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ) > klicken Sie auf das **[!UICONTROL Allow Duplicate Offers]**, um diese Funktion je nach Bedarf zu aktivieren oder zu deaktivieren.
+1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ) > klicken Sie auf das **[!UICONTROL Allow Duplicate Offers]**, um diese Funktion je nach Bedarf zu aktivieren oder zu deaktivieren.
 
 ## Ausschließen spezifischer Erlebnisse {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -31,7 +31,7 @@ Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinatione
 
 Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, oder Sie beschränken die Anzahl der getesteten Erlebnisse, um die Traffic-Anforderungen für Ihre Aktivität zu senken.
 
-1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das Symbol **Inhalt verwalten** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
+1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das Symbol **Inhalt verwalten** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
 
    Die [!UICONTROL Experiences] Liste zeigt jedes Erlebnis, das aus den Permutationen aller Inhalts- und Standortoptionen generiert wurde.
 
@@ -53,12 +53,12 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalte mithilfe des [!UICONTROL Visual Experience Composer] (VEC) aus:**
 
-1. Wählen [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** oder **[!UICONTROL Change Background Color]** zuzugreifen. Die verfügbaren Optionen variieren je nach Inhaltstyp.
+1. Wählen [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** oder **[!UICONTROL Change Background Color]** zuzugreifen. Die verfügbaren Optionen variieren je nach Inhaltstyp.
 
    ![Optionen ändern](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Erstellen neuer Inhalte.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/Setting.svg) ) und dann auf den Umschalter **Standardangebot ausschließen/Standard einschließen**, um das Standardangebot auszuschließen oder einzuschließen.
+1. Klicken Sie auf das Symbol **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/Setting.svg) ) und dann auf den Umschalter **Standardangebot ausschließen/Standardangebot einschließen**, um das Standardangebot auszuschließen oder einzuschließen.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
