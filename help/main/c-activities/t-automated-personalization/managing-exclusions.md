@@ -2,24 +2,24 @@
 keywords: Deduplizierung;Duplikate zulassen;doppelte Angebote ausschließen;Automated Personalization;doppelte Angebote nicht zulassen;ausschließen;Standardinhalt;
 description: Verwalten von Ausschlüssen in [!UICONTROL Automated Personalization] (AP)-Aktivitäten.
 title: Wie verwalte ich Ausschlüsse in [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 28%
+source-wordcount: '482'
+ht-degree: 21%
 
 ---
 
 # Verwalten von Ausschlüssen
 
-Verwalten Sie Ausschlüsse, indem Sie doppelte Angebote ausschließen, bestimmte Erlebnisse ausschließen und Standardinhalte in [!UICONTROL Automated Personalization] (AP)-Aktivitäten in [!DNL Adobe Target] ausschließen.
+Übernehmen Sie die Kontrolle über Ihre [!UICONTROL Automated Personalization] (AP)-Strategie, indem Sie Ausschlüsse meistern. Unabhängig davon, ob Sie doppelte Angebote verhindern, Erlebniskombinationen verfeinern oder Standardinhalte entfernen, ermöglichen Ausschlüsse die Bereitstellung saubererer, relevanterer Erlebnisse, die Ihren Zielen und Zielgruppenerwartungen entsprechen.
 
 ## Doppelte Angebote zulassen oder nicht zulassen {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Verhindern Sie, dass Angebote aus der Angebotsbibliothek dupliziert werden, wenn sie an verschiedenen Stellen in [!UICONTROL Automated Personalization] Aktivitäten verwendet werden.
+Verhindern Sie, dass Angebote aus der Angebotsbibliothek dupliziert werden, wenn sie an verschiedenen Stellen in AP-Aktivitäten verwendet werden.
 
 Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Seite mit 12 Angeboten. Hier besteht die Gefahr, dass das gleiche Angebot in einer Aktivität mehrmals angezeigt wird. Mit dieser Funktion können Sie verhindern, dass doppelte Angebote gleichzeitig an verschiedenen Stellen innerhalb derselben Aktivität angezeigt werden.
 
@@ -27,7 +27,7 @@ Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Se
 
 ## Ausschließen spezifischer Erlebnisse {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinationen aus Ihrer [!UICONTROL Automated Personalization] ausschließen möchten.
+Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinationen aus Ihrer AP-Aktivität ausschließen möchten.
 
 Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, oder Sie beschränken die Anzahl der getesteten Erlebnisse, um die Traffic-Anforderungen für Ihre Aktivität zu senken.
 
@@ -47,7 +47,7 @@ Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, ode
 
 ## Standardinhalt ausschließen {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Manchmal ist es sinnvoll, Standardinhalte nicht in die [!UICONTROL Automated Personalization] einzubeziehen. Sie können diese Methode verwenden, um nur über ein Angebot (unterscheidet sich von Ihrem Standardinhalt) an einer Position als Teil Ihrer AP-Aktivität zu verfügen.
+Manchmal möchten Sie vielleicht nicht, dass Ihr Standardinhalt in Ihre API-Aktivität eingeschlossen wird. Mit dieser Methode können Sie im Rahmen Ihrer Aktivität nur ein Angebot an einem Speicherort haben (das sich von Ihrem Standardinhalt unterscheidet).
 
 Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Erscheinungsbild der restlichen Seite zu ändern, um die von Ihnen mit der AP-Aktivität getesteten Angebote anzupassen. Wenn Sie beispielsweise die Farbpalette der von Ihnen getesteten Angebote abgleichen möchten, können Sie die Hintergrundfarbe Ihrer Seite ändern und die standardmäßige Hintergrundfarbe ausschließen.
 
@@ -56,8 +56,9 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 1. Wählen [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** oder **[!UICONTROL Change Background Color]** zuzugreifen. Die verfügbaren Optionen variieren je nach Inhaltstyp.
 
    ![Optionen ändern](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Erstellen neuer Inhalte.
 
-1. Erstellen Sie Ihren neuen Inhalt und deaktivieren **Einschließen** rechts neben dem Standardinhalt (oder deaktivieren Sie die Option Standardbild/Standardvideo auf dem [!UICONTROL Select Content]).
+1. Klicken Sie auf das Symbol **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/Setting.svg) ) und dann auf den Umschalter **Standardangebot ausschließen/Standard einschließen**, um das Standardangebot auszuschließen oder einzuschließen.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
