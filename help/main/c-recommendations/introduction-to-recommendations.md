@@ -2,13 +2,13 @@
 keywords: Recommendations; Intro; Einführung; Webinar; Demo
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was sind Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ Marketingexperten verwenden [!DNL Adobe Target], um personalisierte Erlebnisse f
 * **Publishing**: Web-Herausgeber verwenden [!DNL Target Recommendations], um Site-Besuchern Artikel zu empfehlen und die Interaktion zu steigern.
 * **Video-Tutorials**: [!DNL Adobe Creative Cloud] verwendet [!DNL Target], um Photoshop-Benutzern in der Photoshop-Anwendung Video-Tutorials zu empfehlen.
 * **Gaming**: Gaming-Unternehmen verwenden [!DNL Target], um Benutzern auf ihren Konsolen Spiele und Inhalte zu empfehlen.
-* **B2B-Verkäufe**: [B2B-Unternehmen verwenden Target, um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B-**: B2B-Unternehmen verwenden Target, um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten.
 
 * **Reisen**: [Ein deutscher Reiseunternehmer verwendet Target, um Reisenden Hotels und Ähnliches zu empfehlen](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Einzelhandel**: [Ein führender B2B-Händler verwendet Target, um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Einzelhandel**: Ein führender B2B-retailer verwendet [!DNL Target], um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen.
 
 Dies sind nur einige der Arten, wie Kunden Target verwenden, um personalisierte Empfehlungen bereitzustellen.
 
@@ -113,7 +113,7 @@ Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site ver
 
 ![Abbildung, die zeigt, wie Empfehlungen mit dem richtigen Kontext abgerufen werden.](/help/main/c-recommendations/assets/intro-10.png)
 
-Neben dem Benutzerverhalten in aggregierter Form müssen Sie [!DNL Target] den spezifischen Kontext übermitteln, in dem Empfehlungen angezeigt werden. Dazu gehören Informationen über die Seite und das Benutzerprofil. [!DNL Target] verwendet diese Informationen, um personalisierte Empfehlungen zu erstellen. Auf einer Einzelhandels-Website möchten Sie beispielsweise wissen, welches Produkt und welche Produktkategorie sich der Besucher momentan ansieht. Zusätzlich möchten Sie auch Informationen zu diesem Benutzer (Lieblingsmarke, bevorzugte Produktkategorie, Loyalitätsstufe usw.) wissen. Diese Informationen sind wichtig, damit [!DNL Target] Artikel filtern und die Personalisierung von Empfehlungen verbessern kann.
+Neben dem Benutzerverhalten in aggregierter Form müssen Sie [!DNL Target] den spezifischen Kontext übermitteln, in dem Empfehlungen angezeigt werden. Dazu gehören Informationen über die Seite und das Benutzerprofil. [!DNL Target] verwendet diese Informationen, um personalisierte Empfehlungen zu erstellen. Auf einer Einzelhandels-Website möchten Sie beispielsweise wissen, welches Produkt und welche Produktkategorie sich der Besucher momentan ansieht. Zusätzlich möchten Sie auch Informationen zu diesem Benutzer (Lieblingsmarke, bevorzugte Produktkategorie, Treuestufe usw.) wissen. Diese Informationen sind wichtig, damit [!DNL Target] Artikel filtern und die Personalisierung von Empfehlungen verbessern kann.
 
 ## Erstellen der ersten Recommendations-Aktivität
 
@@ -129,9 +129,9 @@ Eine [!DNL Recommendations]-Aktivität besteht aus folgenden Komponenten:
 
 ![Abbildung einer Recommendations-Aktivität: Zielgruppen, Kriterien und Designs](/help/main/c-recommendations/assets/intro-12.png)
 
-Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen. Es gibt auch frühere [ zum Erstellen von Zielgruppen ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) [!DNL Target]. In diesem Abschnitt wird beschrieben, wie die Kriterien definiert werden, aufgrund derer Artikel empfohlen werden.
+Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen.
 
-Target verwendet das Konzept einer Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
+[!DNL Target] verwendet das Konzept der Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
 
 ![Abbildung einer Kriterienkarte](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Im Inhaltskontext möchten Sie beispielsweise vielleicht Filme ausschließen, di
 ## Demo
 
 Nachdem Sie die oben im Empfehlungstrichter beschriebenen Aufgaben ausgeführt haben, erhalten Sie Ihre endgültige Empfehlung. Um eine produktinterne Demonstration in [!DNL Target] anzusehen, beginnt die Demo um 21 :00 im *Webinar zu Adobe Target-*, das unten verlinkt ist.
-
-## Adobe [!DNL Target] Basics-Webinar: Einführung in Recommendations {#intro-to-recs}
-
-[Einführung in Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
