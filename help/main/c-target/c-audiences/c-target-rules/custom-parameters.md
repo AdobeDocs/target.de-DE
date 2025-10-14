@@ -60,7 +60,7 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 1. Klicken Sie auf **[!UICONTROL Done]**.
 
-Auf der [ der Zielgruppe („Definitionsdetails„) wird ](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) Parametername im **[!UICONTROL Rules]** Abschnitt angezeigt. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
+Auf der [&#x200B; der Zielgruppe („Definitionsdetails„) wird &#x200B;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) Parametername im **[!UICONTROL Rules]** Abschnitt angezeigt. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
 
 >[!NOTE]
 >

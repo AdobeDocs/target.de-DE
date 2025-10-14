@@ -80,7 +80,7 @@ Wenn die CSP-Kopfzeilen Ihrer Website [!DNL Target] Bibliotheken blockieren und 
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie [ die ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper[!DNL Google Chrome]Browsererweiterung verwenden.
+>Zusätzlich zu den folgenden Informationen können Sie [&#x200B; die &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper[!DNL Google Chrome]Browsererweiterung verwenden.
 
 ![cps_headers-Bild](assets/cps_headers.png)
 

@@ -15,7 +15,7 @@ ht-degree: 31%
 
 Verwenden Sie [!DNL Adobe Target], um Benutzer basierend auf vordefinierten Zielgruppenbestimmungsregeln anzusprechen.
 
-Die vordefinierten Zielgruppen in der Kategorie [!UICONTROL Target Library] sind veraltete Zielgruppen und in anderen Kategorien vorhanden. Weitere Informationen und Best Practices finden Sie unter [Häufig gestellte Fragen zu Zielgruppen und ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Die vordefinierten Zielgruppen in der Kategorie [!UICONTROL Target Library] sind veraltete Zielgruppen und in anderen Kategorien vorhanden. Weitere Informationen und Best Practices finden Sie unter [Häufig gestellte Fragen zu Zielgruppen und &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.

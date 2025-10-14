@@ -87,13 +87,13 @@ Treffer, die Daten aus [!DNL Analytics] und [!DNL Target] enthalten, enthalten e
 
 * Der Besucher-ID-Service wurde implementiert.
 
-Stellen [ bei ](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)Fehlerbehebung) sicher, dass die zusätzliche ID bei [!DNL Analytics] Treffern vorhanden ist.
+Stellen [&#x200B; bei &#x200B;](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)Fehlerbehebung) sicher, dass die zusätzliche ID bei [!DNL Analytics] Treffern vorhanden ist.
 
 ## Client-seitige Analytics-Protokollierung {#client-side}
 
 Wenn sich at.js, die [!DNL Experience Cloud Visitor ID Service] und appMeasurement.js auf der Seite befinden, [!DNL Analytics] und ordnet [!DNL Target] Ereignisse für Reporting- und Analysezwecke im Backend korrekt zu, solange die richtige zusätzliche ID von der Seite enthalten ist. Sie müssen keine zusätzlichen Vorgänge verwalten und durchführen, damit A4T ordnungsgemäß funktioniert.
 
-Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie Analysedaten zu [!DNL Target] zu Berichtszwecken an [!DNL Analytics] senden. Möglicherweise verfügen Sie über ein internes Analysetool, das Sie für interne Zwecke verwenden. Sie möchten jedoch auch die Analysedaten über Ihr internes Analyseprodukt an [!DNL Analytics] senden, damit andere Mitglieder Ihrer Organisation [!DNL Analytics] weiterhin als visuelle Berichtsquelle verwenden können. Weitere Informationen finden Sie [Schritt 7: Referenzieren von at.js auf allen ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)-Seiten *unter Analytics for Target-*).
+Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie Analysedaten zu [!DNL Target] zu Berichtszwecken an [!DNL Analytics] senden. Möglicherweise verfügen Sie über ein internes Analysetool, das Sie für interne Zwecke verwenden. Sie möchten jedoch auch die Analysedaten über Ihr internes Analyseprodukt an [!DNL Analytics] senden, damit andere Mitglieder Ihrer Organisation [!DNL Analytics] weiterhin als visuelle Berichtsquelle verwenden können. Weitere Informationen finden Sie [Schritt 7: Referenzieren von at.js auf allen &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)-Seiten *unter Analytics for Target-*).
 
 ## Freigegebene Zielgruppen
 

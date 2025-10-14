@@ -79,7 +79,7 @@ Eine schrittweise Anleitung finden Sie unter [Mehrseitige Aktivität](/help/main
 
 Mit Erlebnisversionen können Sie einen Test mit Varianzen für beliebig viele Zielgruppen ausführen. Sie können beispielsweise eine Banneranzeige für kostenlosen Versand erstellen – mit Bild- und Währungsvarianten für Kunden in den USA, Großbritannien und den Vereinigten Arabischen Emiraten –, ohne getrennte Tests für drei verschiedene Zielgruppen durchführen zu müssen.
 
-Eine [ Anleitung finden Sie unter „Verschiedene Erlebniszielgruppen in ](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) A/B-Test“.
+Eine [&#x200B; Anleitung finden Sie unter „Verschiedene Erlebniszielgruppen in &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) A/B-Test“.
 
 ## Tipp 8: Sparen Sie Zeit durch die Replizierung von Aktivitätserlebnissen auf ähnlichen Seiten.
 

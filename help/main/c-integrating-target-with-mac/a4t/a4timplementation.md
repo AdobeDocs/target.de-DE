@@ -33,7 +33,7 @@ Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mithi
 
 ### Schritt 4: Installieren und Konfigurieren von Platform Web SDK
 
-Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) [ Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)Seiten.
+Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [&#x200B; Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) [&#x200B; Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=de)Seiten.
 
 ### Schritt 5: Aktivieren der Optionen für die Verwendung von A4T
 
@@ -116,7 +116,7 @@ Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf 
 }
 ```
 
-Die Payload kann dann über die „Data Insertion API[ an Analytics weitergeleitet ](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=de){target=_blank} im Handbuch *Adobe Target SDKs*.
+Die Payload kann dann über die „Data Insertion API[&#x200B; an Analytics weitergeleitet &#x200B;](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=de){target=_blank} im Handbuch *Adobe Target SDKs*.
 
 Wenn eine globale Einstellung nicht gewünscht ist und ein eher bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die at.js-Funktion [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=de){target=_blank}, indem Sie **analyticsLogging: „client_side“**. Die Analytics-Payload wird nur für diesen Aufruf zurückgegeben und das [!DNL Target]-Backend leitet die Payload nicht an [!DNL Analytics] weiter. Bei diesem Ansatz gibt jede at.js-[!DNL Target] standardmäßig die Payload zurück, jedoch nur, wenn sie gewünscht und angegeben wird.
 
@@ -174,7 +174,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Payload kann dann über die „Data Insertion [!DNL Analytics]&quot; an [ weitergeleitet ](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Payload kann dann über die „Data Insertion [!DNL Analytics]&quot; an [&#x200B; weitergeleitet &#x200B;](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Schritt 8: Validieren der Implementierung {#step8}
 

@@ -27,7 +27,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
 >[!IMPORTANT]
 >
->Ausschlussregeln werden global auf alle ([) ](/help/main/administrating-target/environments.md).
+>Ausschlussregeln werden global auf alle ([) &#x200B;](/help/main/administrating-target/environments.md).
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
@@ -35,7 +35,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
 1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** , um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
-   Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht angezeigte „Anzahl der Elemente“ entspricht der Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [ Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
+   Die für jeden Ausschluss in der [!UICONTROL Exclusions] Listenansicht angezeigte „Anzahl der Elemente“ entspricht der Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [&#x200B; Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
 
 1. (Bedingt) Klicken Sie auf das **[!UICONTROL Show Filters]**-Symbol ( ![Filtersymbol anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Environment]** aus, während Sie einen Ausschluss erstellen (oder aktualisieren), um eine Vorschau des Inhalts des Ausschlusses in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 

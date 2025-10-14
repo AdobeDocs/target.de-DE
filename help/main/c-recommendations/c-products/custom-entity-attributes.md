@@ -127,7 +127,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Weitere Informationen zur Verwendung der Bereitstellungs- und [-Entitäten-APIs finden Sie in der Dokumentation zur Adobe Recommendations-API ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+Weitere Informationen zur Verwendung der Bereitstellungs- und [-Entitäten-APIs finden Sie in der Dokumentation zur Adobe Recommendations-API &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 

@@ -13,7 +13,7 @@ ht-degree: 51%
 
 # Erstellen einer Zielgruppe zum Profilattributvergleich
 
-Definieren Sie eine Zielgruppe in [!DNL Adobe Target], um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder in einer [ Zielgruppe zu vergleichen](/help/main/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+Definieren Sie eine Zielgruppe in [!DNL Adobe Target], um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder in einer [&#x200B; Zielgruppe zu vergleichen](/help/main/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 
 >[!NOTE]
 >

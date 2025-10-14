@@ -79,7 +79,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
    * Bild
    * Text
 
-1. Klicken Sie auf **[!UICONTROL Preview]** , [ eine Vorschau Ihrer Erlebnisse ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Klicken Sie auf **[!UICONTROL Preview]** , [&#x200B; eine Vorschau Ihrer Erlebnisse &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![Vorschau von Erlebnissen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 

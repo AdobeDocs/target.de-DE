@@ -64,7 +64,7 @@ Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den e
 
 1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-1. Wählen Sie im [Empfohlener ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)&quot; **[!UICONTROL Item Based]** aus der **[!UICONTROL Algorithm Type]** aus.
+1. Wählen Sie im [Empfohlener &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)&quot; **[!UICONTROL Item Based]** aus der **[!UICONTROL Algorithm Type]** aus.
 
 1. Wählen Sie **[!UICONTROL People Who Viewed This, Viewed That]** aus der Liste **[!UICONTROL Algorithm]** aus.
 
@@ -88,4 +88,4 @@ Klicken Sie auf die Registerkarte **[!UICONTROL Algorithm Usage]** , um eine Lis
 
 >[!NOTE]
 >
->Die [!UICONTROL Algorithm Usage] Funktion wird derzeit nur für Recommendations -Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten des Typs A/B-Test, Automatische Zuordnung, Automatisches Targeting und Erlebnis-Targeting (XT) unterstützt, die [Recommendations als Angebot“ ](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>Die [!UICONTROL Algorithm Usage] Funktion wird derzeit nur für Recommendations -Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für Aktivitäten des Typs A/B-Test, Automatische Zuordnung, Automatisches Targeting und Erlebnis-Targeting (XT) unterstützt, die [Recommendations als Angebot“ &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md).

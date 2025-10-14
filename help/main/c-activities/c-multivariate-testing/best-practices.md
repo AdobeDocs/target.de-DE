@@ -47,7 +47,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 ## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
-* Stützen [ im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
+* Stützen [&#x200B; im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
 
   Der [!UICONTROL All] erschwert die Extraktion der gewünschten Informationen, und es können nicht alle Erlebnisse im Diagramm angezeigt werden. Verwenden Sie den [!UICONTROL All] Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 

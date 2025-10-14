@@ -139,7 +139,7 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
 * **[!UICONTROL Position]**
 
-  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) ](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
+  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) &#x200B;](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
 
   Klicken Sie auf die Dropdown-Liste [!UICONTROL Static] , um aus den folgenden Positionsoptionen auszuwählen:
 

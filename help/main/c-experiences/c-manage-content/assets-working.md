@@ -34,7 +34,7 @@ Wenn Sie die Seite [!UICONTROL Code Offers] anzeigen, können Sie die folgenden 
 * **[!UICONTROL Copy]**: Klicken Sie auf das **[!UICONTROL More Actions]-Symbol** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copy]**, um das Angebot zu kopieren. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
 * **[!UICONTROL Delete]**: Klicken Sie auf das **[!UICONTROL More Actions]-Symbol** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]**, um das Angebot oder den Ordner zu löschen.
 
-  Weitere [ finden Sie unter „Überlegungen ](#delete) Löschen von Elementen“.
+  Weitere [&#x200B; finden Sie unter „Überlegungen &#x200B;](#delete) Löschen von Elementen“.
 
 * **[!UICONTROL Move]**: Klicken Sie auf das **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Move]**, navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf **[!UICONTROL Move]**. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen.
 
@@ -58,7 +58,7 @@ Wenn Sie die Seite [!UICONTROL Image Offers] anzeigen, können Sie die folgenden
    * [!UICONTROL Annotate]: Hinzufügen einer Anmerkung zum Asset. Klicken Sie auf das Asset, wählen Sie den Bereich aus, in dem Sie die Anmerkung hinzufügen möchten, und geben Sie dann Ihren Text ein.
    * [!UICONTROL Copy]: Kopieren Sie das Angebot. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
    * [!UICONTROL Move]: Klicken Sie auf das Symbol [!UICONTROL Move], navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf **[!UICONTROL Move]**. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen.
-   * [!UICONTROL Delete]: Löschen des Angebots. Weitere Informationen finden [ unter „Überlegungen ](#delete) Löschen von Elementen“.
+   * [!UICONTROL Delete]: Löschen des Angebots. Weitere Informationen finden [&#x200B; unter „Überlegungen &#x200B;](#delete) Löschen von Elementen“.
 
 ## Überlegungen beim Löschen von Elementen {#delete}
 

@@ -121,7 +121,7 @@ Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie dies
 >
 >Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
 
-Die meisten Einzelhändler laden Produkte in Google hoch. Wenn ein Besucher also die Google-Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+Die meisten Einzelhändler laden Produkte in Google hoch. Wenn ein Besucher also die Google-Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
 
 >[!NOTE]
 >

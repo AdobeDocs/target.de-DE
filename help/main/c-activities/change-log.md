@@ -27,7 +27,7 @@ Aktualisieren Sie die Seite, um Statusänderungen anzuzeigen. Sie können die du
 ## Target-Auditprotokoll-APIs
 
 * [Revisionen: Auditprotokoll nach dem Namen des letzten Autors und einem Zeitstempel nach der Änderung abrufen](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
-* [Aktivitäts-Änderungsprotokoll ](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
+* [Aktivitäts-Änderungsprotokoll &#x200B;](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
 
 
 

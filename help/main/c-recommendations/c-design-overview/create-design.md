@@ -92,7 +92,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben ](/help/main/c-experiences/form-experience-composer.md) können.
+Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben &#x200B;](/help/main/c-experiences/form-experience-composer.md) können.
 
 1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, einen Entwurf innerhalb des [!UICONTROL Visual Experience Composer]-Workflows (VEC) zu erstellen, können Sie nichts anderes als ein HTML-Design erstellen, das zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 

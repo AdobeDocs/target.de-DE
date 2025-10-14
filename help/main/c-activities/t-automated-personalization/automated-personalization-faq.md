@@ -20,7 +20,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL Automated Personalization] in [!D
 
 +++Details anzeigen
 
-Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
+Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -113,7 +113,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten P
 
 +++Details anzeigen
 
-[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
+[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
 Angenommen, eine [!UICONTROL Automated Personalization] hat zwei Standorte mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher stellt [!UICONTROL Automated Personalization] diesem Besucher ein Erlebnis mit Angebot A und Angebot D bereit.
 

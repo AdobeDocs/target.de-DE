@@ -53,7 +53,7 @@ Betrachten Sie das folgende Beispiel unter Berücksichtigung der oben genannten 
 
 Dieser Besucher wird in der Gesamtbesucherzahl der Aktivität als einzelner Besucher gezählt, obwohl er sowohl in den Segmenten „Neue Besucher“ als auch „Wiederkehrende Besucher“ gezählt wird.
 
-**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [ der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [&#x200B; der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Beispiel:
 

@@ -51,7 +51,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    Wenn Sie nicht über ausreichend Traffic verfügen, beachten Sie Folgendes:
 
-   * Erwägen Sie die Verwendung [ Aktivität „Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) anstelle von [!UICONTROL Automated Personalization], um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
+   * Erwägen Sie die Verwendung [&#x200B; Aktivität „Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) anstelle von [!UICONTROL Automated Personalization], um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
    * Verringern Sie die Anzahl der Angebotskombinationen innerhalb Ihrer [!UICONTROL Automated Personalization].
    * Erhöhen Sie die Dauer der Aktivität.
 

@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Pl
 
 Durch Klicken auf das [!UICONTROL Help]-Symbol ![Hilfe-](/help/main/assets/icons/HelpOutline.svg) ) können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
-![Hilfe ](/help/main/c-intro/assets/help.png)
+![Hilfe &#x200B;](/help/main/c-intro/assets/help.png)
 
 ### Anfragen, Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
@@ -61,7 +61,7 @@ Klicken Sie in der Kopfzeile auf das [!UICONTROL Notifications]-Symbol ![Benachr
 
 Das Bedienfeld enthält Registerkarten für [!UICONTROL Requests], [!UICONTROL Notifications] und [!UICONTROL Announcements].
 
-![ Benachrichtigungen ](assets/notifications.png)
+![&#x200B; Benachrichtigungen &#x200B;](assets/notifications.png)
 
 In den folgenden Abschnitten finden Sie Informationen zu den einzelnen Registerkarten sowie zum Konfigurieren von Benachrichtigungen und Ankündigungen:
 

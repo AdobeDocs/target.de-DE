@@ -54,7 +54,7 @@ Einige Tipps und Überlegungen zur Interpretation Ihrer [!UICONTROL Auto-Target]
 
 ## Grafikansicht
 
-Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [ unter ](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
+Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [&#x200B; unter &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
 
 ## Automatisierte Segmente
 

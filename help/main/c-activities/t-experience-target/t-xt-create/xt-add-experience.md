@@ -63,7 +63,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
 1. (Bedingt) Ziehen Sie Zielgruppen- und Erlebnispaare per Drag-and-Drop, während Sie [!UICONTROL Experience Targeting] Aktivitäten erstellen oder bearbeiten, um die Paare in der gewünschten Reihenfolge anzuordnen.
 
-   Klicken Sie auf das Symbol „Neu anordnen![ ( ](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die [!UICONTROL Experiences] Spalte auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse wie gewünscht neu an.
+   Klicken Sie auf das Symbol „Neu anordnen![&#x200B; ( &#x200B;](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die [!UICONTROL Experiences] Spalte auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse wie gewünscht neu an.
 
    Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet.
 

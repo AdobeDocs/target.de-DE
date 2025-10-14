@@ -91,7 +91,7 @@ Als Fachkraft für Online-Marketing möchten Sie, dass das AEP/Unified Profile A
 
 So erstellen Sie ein JSON-Angebot, um AEP-/Unified Profile-Attribute für [!DNL Target] freizugeben:
 
-1. Wählen [ beim Erstellen eines JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)Angebots in der **[!UICONTROL Select a source]** Liste **[!UICONTROL Adobe Experience Platform]** aus.
+1. Wählen [&#x200B; beim Erstellen eines JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)Angebots in der **[!UICONTROL Select a source]** Liste **[!UICONTROL Adobe Experience Platform]** aus.
 1. Wählen Sie in der **[!UICONTROL Select a profile sandbox name]** die gewünschte Sandbox aus.
 1. Wählen Sie aus der Liste **[!UICONTROL Select a profile attribute]** die gewünschten Attribute aus.
 1. (Optional) Wählen Sie aus der **[!UICONTROL Insert a default value]** die gewünschten Werte aus.

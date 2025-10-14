@@ -65,7 +65,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    ![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementation] herunter. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
+   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementation] herunter. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
 
 1. Implementieren Sie die neueste Funktion von at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=de){target=_blank} auf Ihren Sites.
 
@@ -364,7 +364,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Arbeitsbereiche und Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Ja |
 | [QA-Links](/help/main/c-activities/c-activity-qa/activity-qa.md) | Ja |
 | [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) | Nein |
-| [Benutzerspezifischer Code ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
+| [Benutzerspezifischer Code &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
 | [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Alle |
 | [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md) | Ja |
 | [Bereitstellung mehrerer Aktivitäten](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
@@ -431,7 +431,7 @@ Dadurch wird sichergestellt, dass ein Kunde die angewendeten Aktionen sehen kann
 
 Jedes Mal, wenn Sie jetzt eine Aktion zu einer Ansicht im SPA VEC hinzufügen, zeigen wir Ihnen die folgende Popup-Meldung, die Sie daran erinnert, über die [!UICONTROL Page Delivery] Regeln nachzudenken.
 
-![Meldung zu den Seitenbereitstellungs-Einstellungen ](/help/main/c-experiences/assets/pop-up-message.png)
+![Meldung zu den Seitenbereitstellungs-Einstellungen &#x200B;](/help/main/c-experiences/assets/pop-up-message.png)
 
 Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede von Ihnen neu erstellte Aktivität hinzufügen. Diese Meldung hilft sicherzustellen, dass alle Personen in Ihrem Unternehmen lernen, wie diese [!UICONTROL Page Delivery] korrekt angewendet werden.
 
@@ -439,4 +439,4 @@ Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede 
 
 >[!VIDEO](https://video.tv.adobe.com/v/34777?captions=ger)
 
-Weitere [ finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
+Weitere [&#x200B; finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.

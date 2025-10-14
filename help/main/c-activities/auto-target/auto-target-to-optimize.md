@@ -32,7 +32,7 @@ Lesen Sie weiter, um zu erfahren, wie Sie [!UICONTROL Auto-Target] verwenden kö
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
-Wählen [ beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
+Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
 ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -136,7 +136,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Auto-Target] anstelle von [!
 
 ### Marketing-Experten können Offline-Daten, Tendenzwerte oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen.
 
-* Weitere Informationen zum [ von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Weitere Informationen zum [&#x200B; von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Wie unterscheidet sich [!UICONTROL Auto-Target] von [!UICONTROL Automated Personalization]? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 

@@ -30,7 +30,7 @@ Beachten Sie die folgenden Informationen bei der Arbeit mit Kundenattributen und
 * Es gibt einige Voraussetzungen, die Sie erfüllen müssen, bevor Sie die [!UICONTROL Customer attributes] im [!DNL People]-Service verwenden können. Weitere Informationen finden Sie unter „Voraussetzungen für das Hochladen von Kundenattributen“ in [Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=de#section_BD38693AFBF34926BA28E964963B4EA0) in der *Dokumentation zu Experience Cloud Services und Administration*.
 * Beachten Sie die Einschränkungen beim Hochladen von Dateien, die in [Informationen zur Datendatei und den Datenquellen für Kundenattribute](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de) im *Komponentenhandbuch für die zentrale Experience Cloud-Benutzeroberfläche* dokumentiert sind. Als Best Practice gilt:
 
-   * Laden Sie einzelne große Dateien hoch (innerhalb der [angegebenen ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de)). Einzelne große Dateien werden gegenüber mehreren kleineren Dateien bevorzugt.
+   * Laden Sie einzelne große Dateien hoch (innerhalb der [angegebenen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=de)). Einzelne große Dateien werden gegenüber mehreren kleineren Dateien bevorzugt.
    * Wenn Sie den Upload in mehrere Dateien aufteilen müssen, stellen Sie sicher, dass die Dateien vollständig verarbeitet sind, bevor Sie neue Dateien senden. Stellen Sie sicher, dass jede Datei in einem Batch vollständig verarbeitet ist, bevor Sie die nächste Datei im Batch übermitteln.
 
 * [!DNL Adobe] garantiert nicht, dass 100 % der Kundenattributdaten (Besucherprofil) aus CRM-Datenbanken in die [!DNL Experience Cloud] integriert werden und somit für die Targeting-Verwendung in [!DNL Target] verfügbar sind. Beim aktuellen Design besteht die Möglichkeit, dass ein kleiner Prozentsatz der Daten (bis zu 0,1 % bei großen Produktionschargen) nicht für das Targeting erfasst wird.
@@ -144,7 +144,7 @@ Wenn Sie den Experience Cloud ID-Service verwenden, müssen Sie eine Kunden-ID u
 
 Weitere Informationen zum Verwenden von Kundenattributen in [!DNL Target] finden Sie unter den folgenden Ressourcen:
 
-* [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=de) der Dokumentation zu *Experience Cloud Services und Administration hoch*
+* [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=de) der Dokumentation zu *Experience Cloud Services und Administration hoch*
 
 ## Häufig auftretende Probleme von Kunden {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

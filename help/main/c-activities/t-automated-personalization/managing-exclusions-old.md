@@ -27,7 +27,7 @@ Sie können auch einschränken, welche Zielgruppen bestimmte Angebote in den AP-
 
 **So erstellen Sie eine Ausschlussgruppe:**
 
-1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität in der Kopfzeilenleiste auf **[!UICONTROL Manage Content]** .
+1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität in der Kopfzeilenleiste auf **[!UICONTROL Manage Content]** .
 
    ![Option „Inhalt verwalten“](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -69,7 +69,7 @@ Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinatione
 
 Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, oder Sie beschränken die Anzahl der getesteten Erlebnisse, um die Traffic-Anforderungen für Ihre Aktivität zu senken.
 
-1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **Inhalt verwalten**.
+1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **Inhalt verwalten**.
 
    ![Option „Inhalt verwalten“](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -99,7 +99,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalte mithilfe des [!UICONTROL Visual Experience Composer] (VEC) aus:**
 
-1. Wählen [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** oder **[!UICONTROL Change Background Color]** zuzugreifen.
+1. Wählen [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** oder **[!UICONTROL Change Background Color]** zuzugreifen.
 1. Erstellen Sie im Dialogfeld einen neuen Inhalt und deaktivieren Sie **Einschließen** rechts neben dem Standardinhalt (oder deaktivieren Sie die Option Standardbild/Standardvideo auf dem [!UICONTROL Select Content]).
 
    Je nach Inhalts- oder Angebotstyp befindet sich das Kontrollkästchen [!UICONTROL Include] an einer etwas anderen Stelle.

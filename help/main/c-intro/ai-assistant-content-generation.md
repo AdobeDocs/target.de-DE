@@ -79,8 +79,8 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
 1. (Optional) Geben Sie Feedback an die [!DNL AI Assistant].
 
-   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
-   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
+   * Klicken Sie auf das Symbol „Daumen hoch![&#x200B; ( &#x200B;](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
+   * Klicken Sie auf das Symbol mit den ![&#x200B; nach unten ( &#x200B;](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
    * Klicken Sie auf das Symbol [!UICONTROL Report Results] ( ![Berichtsergebnissymbol](/help/main/assets/icons/Flag.svg) ), um ein Problem dem [!DNL AI Assistant] zu melden.
 
 ## Beispielvarianten {#variations}

@@ -60,7 +60,7 @@ Ihr nächster Schritt sollte darin bestehen, Benutzer in [!DNL Target Standard] 
 
 ## Erforderliche Berechtigungen zum Bearbeiten von [!UICONTROL Administration] {#admin-permissions}
 
-**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Approvers] Berechtigungen im [!DNL Adobe Admin Console] können alle Einstellungen auf der [[!UICONTROL Administration] Seite, ](/help/main/administrating-target/administrating-target.md) Seite von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target] Rolle.
+**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Approvers] Berechtigungen im [!DNL Adobe Admin Console] können alle Einstellungen auf der [[!UICONTROL Administration] Seite, &#x200B;](/help/main/administrating-target/administrating-target.md) Seite von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target] Rolle.
 
 **Wirksam ab 22. April 2025**: Nur [!UICONTROL Product]- und [!UICONTROL Solutions]-Administratoren können die Einstellungen in den [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) Abschnitten aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die [!UICONTROL Administration].
 

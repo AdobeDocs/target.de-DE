@@ -17,7 +17,7 @@ Der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bietet ein
 
 Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; in VEC oben im [!UICONTROL Add] auf das Symbol ![ ( ](/help/main/assets/icons/Add.svg)Symbol hinzufügen[!UICONTROL Experiences] ).
+1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; in VEC oben im [!UICONTROL Add] auf das Symbol ![&#x200B; ( &#x200B;](/help/main/assets/icons/Add.svg)Symbol hinzufügen[!UICONTROL Experiences] ).
 
    Nach dem Erstellen einer neuen Aktivität zeigt VEC auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
 

@@ -124,7 +124,7 @@ Die folgenden Abschnitte enthalten Informationen zur Fehlerbehebung bezüglich I
 
 ## Mobile Anwendungen
 
-* [Target für mobile Apps – FAQs ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=de)
+* [Target für mobile Apps – FAQs &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=de)
 
 ## Berichterstellung
 

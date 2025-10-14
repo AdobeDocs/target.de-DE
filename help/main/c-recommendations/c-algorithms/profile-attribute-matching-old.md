@@ -20,7 +20,7 @@ Verwenden Sie [!UICONTROL Profile Attribute Matching], wenn Sie Empfehlungen anz
 
 >[!NOTE]
 >
->Der [Prozess zum Erstellen und Verwenden von ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+>Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
 Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profile Attribute Matching] verwenden können:
 

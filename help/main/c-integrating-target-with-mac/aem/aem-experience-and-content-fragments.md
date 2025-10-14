@@ -40,7 +40,7 @@ Beachten Sie bei der Arbeit mit AEM [!UICONTROL Experience Fragments] und [!UICO
    * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Mit dem [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] [ (VEC) und dem formularbasierten Experience Composer können Sie ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) in [-Aktivitäten ](/help/main/c-experiences/form-experience-composer.md).
+* Mit dem [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) in [-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 * Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) aufnehmen.
 
 ## Was ist der Unterschied zwischen [!UICONTROL Experience Fragments] und [!UICONTROL Content Fragments]?

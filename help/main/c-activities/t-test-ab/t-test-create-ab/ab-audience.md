@@ -33,7 +33,7 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 
 1. Um die Audience zu ändern, klicken Sie auf das **[!UICONTROL Replace]-** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
 
-1. Wählen Sie im Dialogfeld [!UICONTROL Add Audience] die [ Audience aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Assign Audience]**.
+1. Wählen Sie im Dialogfeld [!UICONTROL Add Audience] die [&#x200B; Audience aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Assign Audience]**.
 
    Standardeinstellung ist, dass alle Besucher Ihrer Zielgruppe angehören. Sie können die Zielgruppe jedoch anpassen. Audiences werden aus dem [!UICONTROL Audience Library] ausgewählt oder Sie können eine Zielgruppe nur für Aktivitäten erstellen. Die [!UICONTROL Audience Library] enthält Zielgruppen, die zuvor definiert wurden, einschließlich einiger allgemeiner Zielgruppen, die als Teil der [!DNL Target] vorkonfiguriert sind.
 
@@ -62,6 +62,6 @@ Weitere Informationen zu allen Optionen im Flussdiagramm finden Sie unter [Erste
 
 ## Bearbeiten oder Kopieren einer Audience
 
-Um eine Audience zu bearbeiten oder zu kopieren, klicken Sie im [!UICONTROL More Actions]-Dialogfeld neben der gewünschten Audience auf das ![-Symbol ](/help/main/assets/icons/More.svg)Mehr Aktionen-[!UICONTROL Add Audience] ) und klicken Sie dann auf [!UICONTROL Edit] oder [!UICONTROL Copy].
+Um eine Audience zu bearbeiten oder zu kopieren, klicken Sie im [!UICONTROL More Actions]-Dialogfeld neben der gewünschten Audience auf das ![-Symbol &#x200B;](/help/main/assets/icons/More.svg)Mehr Aktionen-[!UICONTROL Add Audience] ) und klicken Sie dann auf [!UICONTROL Edit] oder [!UICONTROL Copy].
 
 Das Kopieren einer Zielgruppe ist hilfreich, wenn Sie für eine vorhandene Zielgruppe eine ähnliche Zielgruppe erstellen möchten. Sie können eine Kopie der Audience erstellen, Ihre Änderungen vornehmen und sie dann als neue Audience speichern.

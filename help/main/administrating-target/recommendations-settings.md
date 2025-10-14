@@ -31,4 +31,4 @@ Sie können die folgenden Einstellungen konfigurieren:
 * Angeben der Basis-URL für Miniaturansichten
 * Konfigurieren von benutzerdefinierten Attributschlüsseln
 
-Detaillierte Informationen finden Sie unter [Planen und Implementieren von ](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}) im **[!DNL Adobe Target]Entwicklerhandbuch**.
+Detaillierte Informationen finden Sie unter [Planen und Implementieren von &#x200B;](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}) im **[!DNL Adobe Target]Entwicklerhandbuch**.

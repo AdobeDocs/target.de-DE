@@ -104,7 +104,7 @@ Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
 
 ### Löschen eines Empfehlungsangebots über das Bedienfeld für Änderungen
 
-1. Klicken Sie auf das [!UICONTROL Modifications]-Symbol **( &lt;/> )**, um den Bereich [Änderungen“ ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Klicken Sie auf das [!UICONTROL Modifications]-Symbol **( &lt;/> )**, um den Bereich [Änderungen“ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das Symbol [!UICONTROL Delete] .
 
    ![Symbol „Löschen“](/help/main/c-recommendations/assets/recs-offer-delete.png)

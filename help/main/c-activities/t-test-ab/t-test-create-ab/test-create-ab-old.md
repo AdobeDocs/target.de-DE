@@ -93,7 +93,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B Test]:
 
    Das Flussdiagramm führt Sie durch die Schritte zur Auswahl der Zielgruppe für die Aktivität und zum Einrichten der Erlebnisse.
 
-1. Klicken Sie im **[!UICONTROL Audience]** auf das Bearbeitungssymbol (das vertikale Auslassungszeichen), klicken Sie auf **[!UICONTROL Replace Audience]** und wählen [ die ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
+1. Klicken Sie im **[!UICONTROL Audience]** auf das Bearbeitungssymbol (das vertikale Auslassungszeichen), klicken Sie auf **[!UICONTROL Replace Audience]** und wählen [&#x200B; die &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität aus.
 
    Standardmäßig ist die Zielgruppe auf [!UICONTROL All Visitors] festgelegt.
 

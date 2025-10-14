@@ -23,7 +23,7 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 
 ## Spezifizieren einer anderen URL
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ angegeben ](/help/main/administrating-target/visual-experience-composer-set-up.md). Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ angegeben &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md). Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 1. (Bedingt) Um nach dem Öffnen der [!UICONTROL Visual Experience Composer] eine andere Seite anzuzeigen, klicken Sie auf der **[!UICONTROL Experiences]** Seite oben auf der Seite auf **[!UICONTROL Configure]** und wählen Sie dann **[!UICONTROL Page Delivery]** aus.
 

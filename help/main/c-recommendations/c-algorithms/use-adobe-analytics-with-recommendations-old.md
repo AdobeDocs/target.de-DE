@@ -18,7 +18,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Verhaltensdatenquelle könne
 
 Die Verwendung von [!DNL Analytics] als Verhaltensdatenquelle kann als umfangreiche Quelle für Informationen zum Benutzerverhalten dienen. Diese Informationen können Daten aus einer Drittanbieterquelle oder einem Feed enthalten, die bzw. der nur für [!DNL Analytics] freigegeben wird.
 
-Beim [Erstellen ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Beim [Erstellen &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 ![Schaltflächen für Verhaltensdatenquellen](assets/behavioral-data-source.png)
 

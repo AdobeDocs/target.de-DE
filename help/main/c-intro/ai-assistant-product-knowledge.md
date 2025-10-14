@@ -56,8 +56,8 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 1. (Optional) Geben Sie [!DNL AI Assistant] Feedback.
 
-   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort korrekt ist.
-   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort falsch ist.
+   * Klicken Sie auf das Symbol „Daumen hoch![&#x200B; ( &#x200B;](/help/main/assets/icons/ThumbUp.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort korrekt ist.
+   * Klicken Sie auf das Symbol mit den ![&#x200B; nach unten ( &#x200B;](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort falsch ist.
    * Klicken Sie auf das Symbol Berichtsergebnisse ![Berichtsergebnisse-Symbol](/help/main/assets/icons/Flag.svg) , um ein Problem dem [!DNL AI Assistant] zu melden.
 
 ## Schulungsvideos

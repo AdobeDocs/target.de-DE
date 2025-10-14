@@ -23,14 +23,14 @@ Erfahren Sie Antworten auf häufig gestellte Fragen zur Verwendung [!DNL Adobe T
 
 Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] und VEC vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
 
-Weitere Informationen finden [ unter  [!DNL Target]  der ](/help/main/c-intro/understand-the-target-ui.md).
+Weitere Informationen finden [&#x200B; unter  [!DNL Target]  der &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
 
 +++
 
 **Wie kann ich erkennen, wie andere Kunden [!DNL Target] für bessere Ergebnisse genutzt haben?**
 
 +++Details anzeigen
-Erfahren Sie mehr über [ Erfolgsgeschichten von Kunden](https://www.adobe.com/de/marketing-cloud/target/resources.html#x) um zu sehen, wie Unternehmen [!DNL Target] einsetzen, um die Optimierung zu optimieren, Erlebnisse zu personalisieren und messbare Geschäftsergebnisse zu erzielen.
+Erfahren Sie mehr über [&#x200B; Erfolgsgeschichten von Kunden](https://www.adobe.com/de/marketing-cloud/target/resources.html#x) um zu sehen, wie Unternehmen [!DNL Target] einsetzen, um die Optimierung zu optimieren, Erlebnisse zu personalisieren und messbare Geschäftsergebnisse zu erzielen.
 
 +++
 
@@ -48,7 +48,7 @@ Bleiben Sie mit [!DNL Target] Versionen auf dem Laufenden.
 **Gibt es [!DNL Adobe] Community/Forum, in dem ich Antworten und weitere Informationen zu [!DNL Target] finden kann?**
 
 +++Details anzeigen
-Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
+Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
 
 +++
 
@@ -160,7 +160,7 @@ Sie können dies einfach tun, indem [Sie den gewünschten Schritt Ihrer Wahl dir
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
 +++Details anzeigen
-Das ist möglich. Verwenden [ einfach die Option [!UICONTROL Save] , um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist möglich. Verwenden [&#x200B; einfach die Option [!UICONTROL Save] , um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 +++
 
@@ -232,7 +232,7 @@ Verwenden Sie die prozentualen Zuordnungskontrollen, die in [Schritt 2 des dreit
 +++ Details anzeigen
 Lesen Sie die folgenden Aspekte des Produkts:
 
-* [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -270,7 +270,7 @@ Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/main/c-experiences
 
 Wir haben auch [einen formularbasierten Ansatz](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Auf die Zulassungsliste setzen Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Auf die Zulassungsliste setzen Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 +++
 
@@ -388,7 +388,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 **Kann ich die Slice-and-Dice-Funktionalität für die Berichte zu mehreren Benutzersegmenten verwenden?**
 
 +++Details anzeigen
-Hier kommt die Funktion [Zielgruppen für ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)&quot; ins Spiel, die auf der [!UICONTROL Goals & Settings] Seite in Schritt 3 des dreiteiligen Workflows für geführte Aktivitäten verfügbar ist.
+Hier kommt die Funktion [Zielgruppen für &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)&quot; ins Spiel, die auf der [!UICONTROL Goals & Settings] Seite in Schritt 3 des dreiteiligen Workflows für geführte Aktivitäten verfügbar ist.
 
 Sie haben die Möglichkeit, 50 solcher Segmente und auch den Anwendungspunkt ([!UICONTROL Activity Entry] oder eine bestimmte Metrik) hinzuzufügen, um eine leistungsstarke Möglichkeit zu haben, zu schneiden und zu würfeln.
 
@@ -413,14 +413,14 @@ Verwenden Sie die Optionen [Berichte in CSV exportieren und Bestelldetails in CS
 **Kann ich das Kontrollerlebnis zur Auswertung von Berichten ändern oder die Zählmethodik von [!UICONTROL Visitors] auf [!UICONTROL Visits] ändern?**
 
 +++Details anzeigen
-Nehmen Sie diese Änderungen mithilfe der [Einstellungen auf der Seite Berichte“ ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
+Nehmen Sie diese Änderungen mithilfe der [Einstellungen auf der Seite Berichte“ &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
 +++
 
 **Wie sollte ich Berichte interpretieren?**
 
 +++Details anzeigen
-Das [!DNL Target]-Team hat versucht, Berichte so intuitiv wie möglich zu gestalten, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Durchschnittswerten ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) mehr), um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Sie können [!DNL Analytics] prüfen, wenn Sie [Analytics for Target (A4T))-](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) für weitere Analysen von Zielgruppen verwenden.
+Das [!DNL Target]-Team hat versucht, Berichte so intuitiv wie möglich zu gestalten, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Durchschnittswerten &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) mehr), um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Sie können [!DNL Analytics] prüfen, wenn Sie [Analytics for Target (A4T))-](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) für weitere Analysen von Zielgruppen verwenden.
 
 +++
 

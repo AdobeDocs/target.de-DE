@@ -27,7 +27,7 @@ Umsatzmetriken, die auf &quot;[!UICONTROL Increment count & keep user in activit
 
 >[!NOTE]
 >
->Bei Aktivitäten, [ „Analytics“ als Berichtsquelle ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Dies *nicht*.
+>Bei Aktivitäten, [&#x200B; „Analytics“ als Berichtsquelle &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Dies *nicht*.
 
 Es sind folgende Erfolgsmetriken verfügbar:
 

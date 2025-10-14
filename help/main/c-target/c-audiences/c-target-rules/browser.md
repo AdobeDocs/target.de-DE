@@ -143,7 +143,7 @@ Seit Einführung von [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024) wu
 
 Integrierte Zielgruppen, die mit der [!DNL Target]-Benutzeroberfläche erstellt wurden, wie z. B. `Browser:iPad` und `Browser:iPhone`, werden automatisch in die neue Zielgruppendefinition verschoben und erfordern keine Aktion seitens der Kunden. In Zukunft sollten Sie jedoch die Einstellungen verwenden [wie unten beschrieben](#ui).
 
-Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [ unten ](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
+Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [&#x200B; unten &#x200B;](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
 
 JavaScript-Zielgruppen sind ältere Zielgruppen, die [!DNL Target] verwenden, welche in der [!DNL Target Classic]-Benutzeroberfläche veraltet sind. Diese Zielgruppen können nur über die API geändert werden. Kunden dürfen diese Zielgruppen nur aktualisieren, wenn sie weiterhin ältere Zielgruppen in -Aktivitäten verwenden.
 

@@ -49,7 +49,7 @@ Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontroll
 >
 >Ein Uhrensymbol zeigt an, dass das Algorithmusmodell noch im Aufbau begriffen ist. Ein Häkchensymbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-Angebote können in [Berichtsgruppen“ angezeigt ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie auf **[!UICONTROL Control]** oder **[!UICONTROL Targeted]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
+Angebote können in [Berichtsgruppen“ angezeigt &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie auf **[!UICONTROL Control]** oder **[!UICONTROL Targeted]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 

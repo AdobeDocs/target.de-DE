@@ -58,7 +58,7 @@ Beachten Sie bei der Bestimmung Ihrer Berichtsquelle die folgenden Informationen
 
 * **[!DNL Customer Journey Analytics]**: Eine Matrix der unterstützten Aktivitäten unter Verwendung der [!DNL Target]-Berichterstellung in [!DNL Customer Journey Analytics] finden Sie [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]Berichterstellung in[!DNL Adobe Customer Journey Analytics]*.
 
-  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Erstellung und Aktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle ](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Erstellung und Aktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Selbst wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 

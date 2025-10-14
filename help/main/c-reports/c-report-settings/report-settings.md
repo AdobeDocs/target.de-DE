@@ -169,7 +169,7 @@ Je nach Aktivitätstyp können Sie den Bericht in verschiedenen Formaten anzeige
 
 * **Tabellenansicht**: Klicken Sie auf das Symbol **[!UICONTROL Table View]** ( ![Tabellenansichtssymbol](/help/main/assets/icons/Table.svg) ), um den Bericht als Tabelle anzuzeigen.
 * **Diagrammansicht**: Klicken Sie auf das **[!UICONTROL Graph View]** ( ![Diagrammansichtssymbol](/help/main/assets/icons/GraphTrend.svg) ), um den Bericht als Diagramm anzuzeigen.
-* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automated Segments] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automated Segments] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 * **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Important Attributes]** ( ![Wichtige Attribute](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) anzuzeigen.
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
@@ -237,7 +237,7 @@ Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
 Beachten Sie beim Arbeiten mit den [!UICONTROL Counting Methodology] die folgenden Einschränkungen:
 
-* Bei [[!UICONTROL Auto-Target] Aktivitäten ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) es keine Option zur Auswahl von „Besuchern“ als Zählmethodik. [!UICONTROL Auto-Target] ist der einzige Aktivitätstyp, den Sie nicht nach Besuchern grafisch darstellen können.
+* Bei [[!UICONTROL Auto-Target] Aktivitäten &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) es keine Option zur Auswahl von „Besuchern“ als Zählmethodik. [!UICONTROL Auto-Target] ist der einzige Aktivitätstyp, den Sie nicht nach Besuchern grafisch darstellen können.
 * Bei Aktivitäten, die [Analytics als Berichtsquelle (A4T) verwenden](/help/main/c-integrating-target-with-mac/a4t/a4t.md) können Sie Besucher, Besuche oder Impressionen nicht kumulativ darstellen.
 
 ## Arbeiten mit Diagrammen, die mehr als 16 Erlebnisse in der Aktivität haben

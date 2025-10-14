@@ -56,7 +56,7 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
 ## Erstellen Sie ein Erlebnis, das eine Angebotsentscheidung verwendet:
 
-1. Klicken Sie beim Bearbeiten oder Erstellen einer manuellen [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting] (XT)-Aktivität im [!UICONTROL Visual Experience Composer] (VEC) auf ein Seitenelement, um das [Menü „Optionen“ ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Klicken Sie beim Bearbeiten oder Erstellen einer manuellen [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting] (XT)-Aktivität im [!UICONTROL Visual Experience Composer] (VEC) auf ein Seitenelement, um das [Menü „Optionen“ &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    ![Optionsmenü im Visual Experience Composer](assets/options-menu1.png)
 
