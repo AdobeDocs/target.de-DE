@@ -27,7 +27,7 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 ## [!DNL Target Standard/Premium] 25.10.1 (22. Oktober 2025)
 
-Diese Version ist jetzt live. Weitere [[!DNL Target]  finden Sie unter ](/help/main/r-release-notes/release-notes.md)Versionshinweise (aktuell)“.
+Diese Version ist jetzt live. Weitere [[!DNL Target]  finden Sie unter &#x200B;](/help/main/r-release-notes/release-notes.md)Versionshinweise (aktuell)“.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
