@@ -5,7 +5,7 @@ title: Welche Zeichen, Größen und sonstigen Beschränkungen gibt es in [!DNL A
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 74%
@@ -220,7 +220,7 @@ Zeichenbeschränkungen und andere Beschränkungen (Angebotsgröße, Zielgruppen,
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 5000
+   * Maximale Länge des Profilparameterwerts: 256
 
   **Bereitstellungs-API – Endpunkt**:
 
@@ -231,7 +231,7 @@ Zeichenbeschränkungen und andere Beschränkungen (Angebotsgröße, Zielgruppen,
    * Profilparameter: 50
    * Maximale Länge des Profilparameternamens: 128
    * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 5000
+   * Maximale Länge des Profilparameterwerts: 256
 
 ### URL-Adressen zur Mbox-Anfrage
 
