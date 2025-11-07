@@ -4,7 +4,7 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich FAQs zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -110,7 +110,7 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die Supplemental Data ID (SDID) und die Experience Cloud Org ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die Supplemental Data ID (SDID) und die Experience Cloud Org ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei Verwendung mit AppMeasurement.js Version 2.1 (oder höher) verwendet Analytics diesen Parameterwert als Referrer-URL auf der neuen Seite. |
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.

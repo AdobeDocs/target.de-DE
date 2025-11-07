@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -99,8 +99,8 @@ ht-degree: 84%
    + Integration von Target mit Adobe Customer Journey Analytics {#cja}
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target mit Adobe Journey Optimizer (AJO) {#ajo}
-      + [Verwenden von Angebotsentscheidungen &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Integrieren [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Integrieren  [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer-Anwendungsfälle {#use-cases}
          + [Häufigste Anwendungsfälle für die Optimierung in Adobe Journey Optimizer - Web- und Code-basierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Inhaltsänderungen durch A/B-Tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)

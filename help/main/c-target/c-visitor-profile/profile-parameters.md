@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -176,7 +176,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere (Methoden [&#x200B; Einlesen von Daten in Target) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere (Methoden [ Einlesen von Daten in Target) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
@@ -271,8 +271,8 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `<=` | So wie `<`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
 | `>=` | So wie `>`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
 | `&&` | Fügt die Ausdrücke links und rechts daneben logisch mit „AND“ zusammen – nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
-| `||` | Fügt die Ausdrücke links und rechts daneben logisch mit „OR“ zusammen – nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
-| `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 || condition2) && condition3` und reguläre Ausdrücke `/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Fügt die Ausdrücke links und rechts daneben logisch mit „OR“ zusammen – nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
+| `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 \|\| condition2) && condition3`) und regulärer Ausdrücke (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Schulungsvideo: Profilskripte ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

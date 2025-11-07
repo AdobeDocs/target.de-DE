@@ -2,10 +2,10 @@
 keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Lookback-Fenster;Verhaltensdatenquelle;Partielles Design;Backup-Empfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;zuletzt gekauftes Element;zuletzt angezeigtes Element;am häufigsten angezeigtes Element;bevorzugte Kategorie;Beliebtheit;kürzlich angezeigtes Element;zuletzt gekauft;am häufigsten angezeigt;Favorit;zuletzt angezeigt
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer - [!DNL Recommendations]  steuern, um die Empfehlungen anzuzeigen, die für Ihre -Aktivität am besten geeignet sind.
 title: Wie erstelle ich [!UICONTROL Criteria] in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -75,8 +75,8 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
    | [!UICONTROL Cart-Based] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. <ul><li>[!UICONTROL People Who Viewed These, Also Viewed] </li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul> |
    | [!UICONTROL Popularity-Based] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
    | [!UICONTROL Item-Based] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
-   | [!UICONTROL User-Based] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
-   | [!UICONTROL Custom Criteria] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen. | <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
+   | [!UICONTROL User-Based] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen.<ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
+   | [!UICONTROL Custom Criteria] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen.<ul><li>Benutzerdefinierter Algorithmus</li></ul> |
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden S
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
+[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht ](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
 
 1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Partial Design Rendering]** in die Position „Ein“.
 
@@ -123,7 +123,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden S
 
    Einschlussregeln bestimmen, welche Elemente in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
 
-   Weitere Informationen finden Sie [&#x200B; „Einschlussregeln angeben](#inclusion) unten.
+   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
 
 ## [!UICONTROL Data Source] {#data-source}
 
