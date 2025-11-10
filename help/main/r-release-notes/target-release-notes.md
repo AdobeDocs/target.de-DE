@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fe
 title: Welche neuen Funktionen und Verbesserungen sind in der kommenden  [!DNL Target] -Version enthalten?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d36cfb576e8b0897a3e53473b819ec9b59405f3d
+source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 66%
@@ -27,7 +27,7 @@ Dieser Artikel enthält Informationen zu Vorabversionen für kommende [!DNL Adob
 
 ## [!DNL Target Standard/Premium] 25.11.1 (10. November 2025)
 
-Diese Version ist jetzt live. Weitere [[!DNL Target]  finden Sie unter &#x200B;](/help/main/r-release-notes/release-notes.md)Versionshinweise (aktuell)“.
+Diese Version ist jetzt live. Weitere [[!DNL Target]  finden Sie unter ](/help/main/r-release-notes/release-notes.md)Versionshinweise (aktuell)“.
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
