@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 19%
+source-wordcount: '1736'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,25 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 ### Veraltungs-Umschalter für [!DNL Target]-Benutzeroberfläche
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 25.11.2 (14. November 2025)
+
+**Decisioning-Angebote**
+
++++Details anzeigen
+* **Angebotsentscheidungen mit ausgeblendeten oder ungültigen Selektoren können in der aktualisierten Benutzeroberfläche nicht bearbeitet werden.** Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem Angebotsentscheidungen, die an ausgeblendete oder ungültige Selektoren gebunden waren, nicht bearbeitet werden konnten, es sei denn, das Element war in Visual Experience Composer (VEC) sichtbar. Die Bearbeitung wird jetzt direkt über das Bedienfeld unterstützt, wodurch die in der alten Benutzeroberfläche verfügbaren Funktionen wiederhergestellt werden und sichergestellt wird, dass Angebotsentscheidungen unabhängig von der Sichtbarkeit der Auswahl geändert werden können. (TGT-53899)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+* **Das Bearbeiten von Kriterien in einer Aktivität führte zum Absturz der Seite.** Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem die Bearbeitung von Aktivitätskriterien dazu führte, dass die Seite mit Konsolenfehlern im Zusammenhang mit `useCrudActionsCtx` abstürzte. Der Kriterieneditor wird jetzt korrekt geladen und funktioniert, sodass Aktivitäten ohne Unterbrechung bearbeitet werden können. (TGT-53971)
+* In **[!UICONTROL Message]Spalte konnten in der aktualisierten Benutzeroberfläche gelegentlich keine Produktdaten angezeigt werden.** Es wurde ein Problem in der aktualisierten [!UICONTROL Recommendations]-Benutzeroberfläche behoben, bei dem in der [!UICONTROL Message] Spalte in [!UICONTROL Catalog Search] gelegentlich keine Produktdaten angezeigt wurden, obwohl Werte im Feed vorhanden waren. Die Spalte zeigt nun konsistent die richtigen Nachrichtenwerte für alle Produkte an und gewährleistet so eine zuverlässige Sichtbarkeit, ohne dass die Spalte manuell neu konfiguriert werden muss. (TGT-52777)
+* **[!UICONTROL Download Recommendations Data]Schaltfläche wird nach dem Speichern der Aktivität in der aktualisierten Benutzeroberfläche nicht angezeigt.** Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem die Schaltfläche [!UICONTROL Download Recommendations Data] für bestimmte gespeicherte Aktivitäten auch nach dem erneuten Speichern nicht angezeigt wurde. Die Schaltfläche wird jetzt über alle Aktivitäten hinweg konsistent angezeigt, sodass Benutzerinnen und Benutzer Empfehlungsdaten zuverlässig exportieren können, ohne Problemumgehungen zu benötigen. (TGT-53802)
+* **Beim Öffnen bestimmter Produkte aus einer Sammlung wird „Angeforderte Ressource wurde nicht gefunden“ zurückgegeben, und dem Modal fehlt eine Option zum Schließen.** Es wurde ein Problem in der aktualisierten Recommendations-Benutzeroberfläche behoben, bei dem das Öffnen bestimmter Produkte aus einer Sammlung den Fehler „Angefragte Ressource wurde nicht gefunden“ auslöste und ein leeres modales Fenster ohne eine Option zum Schließen anzeigte. Das Modal lädt Produktdetails jetzt korrekt, und es steht immer eine Option zum Schließen zur Verfügung, um es elegant zu beenden. (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1 (10. November 2025)
 
@@ -79,18 +98,18 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 **[!UICONTROL Reports]**
 
 +++Details anzeigen
-* **[!UICONTROL Multivariate Test] (MVT)-Speicherorte und Diagrammberichterstattungsprobleme verhinderten die Berichterstellung.** Es wurde ein Problem behoben, bei dem MVT-Aktivitäten keine [!UICONTROL Location Contribution]- und Diagrammberichte in der Target-Benutzeroberfläche generieren konnten und der Fehler „Irgendetwas ist schiefgelaufen“ angezeigt wurde. Wir können Ihre Anfrage nicht bearbeiten.“ Berichte werden nun korrekt in der Benutzeroberfläche geladen, wodurch eine vollständige Sichtbarkeit gewährleistet ist. (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT)-Speicherorte und Diagrammberichterstattungsprobleme verhinderten die Berichterstellung.** Es wurde ein Problem behoben, bei dem MVT-Aktivitäten keine [!UICONTROL Location Contribution]- und Diagrammberichte in der Target-Benutzeroberfläche generieren konnten und der Fehler „Irgendetwas ist schiefgelaufen“ angezeigt wurde. Wir können Ihre Anfrage nicht bearbeiten.“ Berichte werden nun korrekt in der Benutzeroberfläche geladen, wodurch eine vollständige Sichtbarkeit gewährleistet ist. (TGT-53654)
 * **MVT-Berichte werden aufgrund eines Fehlers [!UICONTROL Element] Beitragsbericht nicht geladen.** Es wurde ein Problem behoben, bei dem MVT-Aktivitätsberichte nicht in der Target-Benutzeroberfläche geladen werden konnten und der Fehler „Bericht zum Elementbeitrag konnte nicht abgerufen werden“ angezeigt wurde. Berichte werden jetzt korrekt angezeigt, sodass die Elementbeiträge vollständig sichtbar sind. (TGT-53691)
 * **Exportieren von Auftragsdetails in CSV-Anfrage für [!UICONTROL Experience Targeting] (XT)-Aktivitäten.** Es wurde ein Problem behoben, bei dem die Option [!UICONTROL Export Order Details to CSV] fälschlicherweise für XT-Aktivitäten angezeigt und eine leere Datei zurückgegeben wurde. Die Option wird jetzt nur noch für AP-Aktivitäten angezeigt, um eine genaue Exportfunktion sicherzustellen und Verwirrung zu vermeiden. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Details anzeigen
 * **[!UICONTROL Delete Modification]Problem mit der Schaltfläche hat das Entfernen von Aktivitätsänderungen verhindert.** Es wurde ein Problem behoben, bei dem die Schaltfläche [!UICONTROL Delete Modification] in der [!DNL Target]-Benutzeroberfläche nicht funktionierte, sodass Benutzer Änderungen innerhalb von Aktivitäten nicht entfernen konnten. Die Schaltfläche funktioniert jetzt erwartungsgemäß und ermöglicht das zuverlässige Löschen von Änderungen ohne Verzögerung. (TGT-53728)
 * **Bevorzugte Selektoren werden in der aktualisierten Benutzeroberfläche nicht erkannt.** Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem bevorzugte Selektoren wie `data-target-component-id` nicht in der CSS-Selektorliste im VEC angezeigt wurden. Benutzerinnen und Benutzer können jetzt zuverlässig bevorzugte Attribute anstelle von dynamisch generierten Klassennamen auswählen, was ein stabiles Targeting über SPA-Seitenaktualisierungen hinweg gewährleistet. (TGT-53908)
-* **Die Ausrichtung des Aktivitätsstandorts stimmt nicht mit den [!UICONTROL Edit]- und [!UICONTROL Overview] überein.** Es wurde ein Problem behoben, bei dem die Nummerierung des Aktivitätsspeicherorts auf der Seite [!UICONTROL Overview] nicht mit Aktualisierungen auf der Seite [!UICONTROL &#x200B; Edit Experience]abgestimmt war. Die Positionen bleiben jetzt in beiden Ansichten konsistent, sodass eine genaue Ausrichtung gewährleistet ist und fehlende oder falsch nummerierte Positionen vermieden werden. (TGT-53960 und TGT-53954)
+* **Die Ausrichtung des Aktivitätsstandorts stimmt nicht mit den [!UICONTROL Edit]- und [!UICONTROL Overview] überein.** Es wurde ein Problem behoben, bei dem die Nummerierung des Aktivitätsspeicherorts auf der Seite [!UICONTROL Overview] nicht mit Aktualisierungen auf der Seite [!UICONTROL  Edit Experience]abgestimmt war. Die Positionen bleiben jetzt in beiden Ansichten konsistent, sodass eine genaue Ausrichtung gewährleistet ist und fehlende oder falsch nummerierte Positionen vermieden werden. (TGT-53960 und TGT-53954)
 * **In aktualisiertem VEC kann nicht zurück in den [!UICONTROL Design] Modus gewechselt werden.** Es wurde ein Problem in der aktualisierten VEC-Benutzeroberfläche behoben, bei dem Benutzende nicht in den [!UICONTROL Design]-Modus zurückkehren konnten, nachdem sie im [!UICONTROL Browse]-Modus zu einer neuen Seite navigiert waren. Der [!UICONTROL Design]-Umschalter funktioniert jetzt ordnungsgemäß, sodass Änderungen nahtlos auf allen Seiten angewendet werden können. (TGT-53988 und TGT-53993)
 * **Abfrageparameter wird in der Aktivitätsübersicht nicht angezeigt.** Es wurde ein Problem in der aktualisierten Benutzeroberfläche behoben, bei dem Abfrageparameter für Aktivitäten nicht auf der Seite [!UICONTROL Overview] angezeigt wurden, was zu Diskrepanzen zwischen den URLs für die [!UICONTROL Overview] und die Seitenbereitstellung führte. Abfrageparameter werden jetzt korrekt angezeigt, sodass Aktivitätspositionen in allen Ansichten vollständig dargestellt und konsistent sind. (TGT-53701)
 
