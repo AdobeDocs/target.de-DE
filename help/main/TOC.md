@@ -1,12 +1,12 @@
 ---
 user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
-user-guide-description: Erfahren Sie, wie Sie das Kundenerlebnis so anpassen und personalisieren können, dass Sie den Umsatz Ihrer Websites, Mobile Sites, Mobile Apps, Social Media und anderer digitaler Kanäle maximieren können.
+user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 85%
    + Integration von Target mit Adobe Customer Journey Analytics {#cja}
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target mit Adobe Journey Optimizer (AJO) {#ajo}
-      + [Verwenden von Angebotsentscheidungen &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrieren  [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer-Anwendungsfälle {#use-cases}
          + [Häufigste Anwendungsfälle für die Optimierung in Adobe Journey Optimizer - Web- und Code-basierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
@@ -333,10 +333,10 @@ ht-degree: 85%
       + [Integration von Recommendations in E-Mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Von Recommendations-Feed verarbeitenden Servern verwendete IP-Adressen](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Recommendations Classic und Recommendations-Aktivitäten in Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Dokumentation zu Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [Dokumentation zu Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Fehlerbehebung in Target {#troubleshoot}
    + [Fehlerbehebung in Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
