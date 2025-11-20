@@ -2,13 +2,13 @@
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
 description: Erfahren Sie, wie Sie mit dem  [!DNL Target] [!UICONTROL Visual Experience Composer]VEC) eine  [!DNL Recommendations] -Aktivität erstellen.
 title: Wie erstelle ich eine  [!DNL Recommendations] -Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 51%
 
 ---
 
@@ -42,6 +42,10 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
 1. Klicken Sie auf ein Element auf Ihrer Seite. Wenn dann Empfehlungen für den Speicherort dieses Elements verfügbar sind, klicken Sie auf **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** oder **[!UICONTROL Insert Recommendations After]**.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations] Aktivitäten unterstützen jeweils nur eine Änderung/Empfehlung. Für mehrere Recommendations können Sie entweder mehrere [!DNL Recommendations] Aktivitäten erstellen oder A/B- oder XT-Tests verwenden.
+
    Besucher Ihrer Site sehen die empfohlenen Inhalte nur, wenn sie für die Empfehlung qualifiziert sind. Besucherinnen und Besucher, die sich nicht für die Empfehlung qualifizieren, sehen Standardinhalte.
 
    ![Recommendations-Optionen](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
@@ -73,7 +77,7 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn für die Aktivität jedoch inkompatible Kriterien verfügbar sein sollen, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Compatible]** . Die Option [!UICONTROL Compatible] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt (**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn für die Aktivität jedoch inkompatible Kriterien verfügbar sein sollen, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Compatible]** . Die Option [!UICONTROL Compatible] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt (**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Dialogfeld „Kriterien auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -84,7 +88,7 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
      Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
    * Um neue Kriterien zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** und geben Sie die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
+   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
 
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. [Entwurf auswählen](/help/main/c-recommendations/c-design-overview/design-overview.md).
@@ -174,4 +178,4 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
 ## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33909?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
