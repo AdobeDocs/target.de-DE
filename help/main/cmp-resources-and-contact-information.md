@@ -72,7 +72,7 @@ Bei Fragen wenden Sie sich an die Adobe Target-Experten in der [Adobe Target-Com
 
 Bei technischen Problemen oder um einen Fehler einzugeben, können Sie den Kundendienst kontaktieren. Sie erreichen den Kundendienst telefonisch unter 1-800-497-0335. Gebührenfreie Nummern außerhalb der USA finden Sie auf der Seite [Adobe Digitales Marketing Kundenunterstützung Regionale Telefonnummern](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 3, um das Target-Team zu kontaktieren.
 
-Wenden [ sich an die Adobe-Kundenunterstützung](https://helpx.adobe.com/contact.html){target=_blank}.
+Wenden [&#x200B; sich an die Adobe-Kundenunterstützung](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Damit Ihr Problem schnellstmöglich bearbeitet werden kann, halten Sie bei der Kontaktaufnahme bitte folgende Informationen bereit:
 
