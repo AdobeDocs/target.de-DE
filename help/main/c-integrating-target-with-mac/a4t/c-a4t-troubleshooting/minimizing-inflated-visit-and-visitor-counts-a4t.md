@@ -4,10 +4,10 @@ description: Erfahren Sie mehr darüber, wie Sie bei der Verwendung von Analytic
 title: Wie kann ich überhöhte Besuchs- und Besucherzahlen in A4T minimieren?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 99%
+source-wordcount: '1321'
+ht-degree: 97%
 
 ---
 

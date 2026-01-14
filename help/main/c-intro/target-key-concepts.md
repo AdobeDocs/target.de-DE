@@ -4,10 +4,10 @@ description: Lernen Sie die Grundlagen von Adobe Target kennen. In diesem Artike
 title: Wie verwende ich Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 99%
+source-wordcount: '1524'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Target enthält mehrere Aktivitätstypen. In der folgenden Tabelle finden Sie ei
 | [Multivarianz-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Beim Multivariate Testing (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat. |
 | [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md) | Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.<br>**Hinweis:** Sie können [nun Empfehlungen in Erlebnis-Targeting-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | Automated Personalization (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellem Kundenprofil durch erweitertes Machine Learning verschiedene Varianzen zu, um die Inhalte zu personalisieren und Konversionen zu fördern. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie ein Produkt dem Website-Benutzer je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll.<br>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie können Besucher dazu anregen, mehr Zeit auf Ihrer Medienwebsite zu verbringen, indem Sie mithilfe des „Personen, die dieses Video angesehen haben, sahen auch“-Algorithmus Videos empfehlen, die dem angezeigten Video ähneln.<br>**Hinweis:** Sie können jetzt Empfehlungen in A/B-Tests (einschließlich automatisierter Zuordnung und automatischen Targetings) und Erlebnis-Targeting (XT) einbeziehen. Siehe [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie ein Produkt dem Website-Benutzer je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll.<br>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie können Besucher dazu anregen, mehr Zeit auf Ihrer Medienwebsite zu verbringen, indem Sie mithilfe des „Personen, die dieses Video angesehen haben, sahen auch“-Algorithmus Videos empfehlen, die dem angezeigten Video ähneln.<br>**Hinweis:** Sie können jetzt Empfehlungen in A/B-Tests (einschließlich automatisierter Zuordnung und automatischen Targetings) und Erlebnis-Targeting (XT) einbeziehen. Siehe [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Positionen {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -61,7 +61,7 @@ Ein Erlebnis setzt sich aus Angeboten, Bild-Assets und anderen HTML-Elementen (w
 
 Ein Erlebnis kann auch ein anderer Seitenentwurf sein. Zum Beispiel kann ein Erlebnis über eine Reihe von Links im oberen Teil der Seite verfügen, während ein anderes Erlebnis andere Links bzw. dieselben Links in einer anderen Anordnung enthält. Möglicherweise möchten Sie testen, ob ein Bild im Vergleich zu einem anderen eine größere Steigerung ermöglicht oder ob die Wahrscheinlichkeit, dass eine Anzeige angeklickt wird, oben auf Ihrer Seite höher ist als an einem anderen Ort.
 
-[!DNL Target] optimiert Erlebnisse für jeden Ihrer Besucher für sämtliche digitalen Touchpoints und ermöglicht Ihnen, verschiedene Erlebnisse zu testen, um zu ermitteln, welche am erfolgreichsten sein werden. Wenn Sie das Targeting der Erlebnisse sorgfältig planen, können Sie sicherstellen, dass den Besuchern auf Ihrer Site die für sie relevantesten Angebote an den richtigen Stellen auf Ihrer Seite angezeigt werden. Und so verbessern Sie Ihre Chancen auf einen erfolgreichen Besuch.
+[!DNL Target] optimiert die Erlebnisse für jeden Ihrer Besucher über Ihre digitalen Touchpoints hinweg und kann verschiedene Erlebnisse testen, um zu ermitteln, welche am erfolgreichsten sind. Wenn Sie das Targeting der Erlebnisse sorgfältig planen, können Sie sicherstellen, dass den Besuchern auf Ihrer Site die für sie relevantesten Angebote an den richtigen Stellen auf Ihrer Seite angezeigt werden. Und so verbessern Sie Ihre Chancen auf einen erfolgreichen Besuch.
 
 ## Angebote   {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -115,7 +115,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichts-Badge](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

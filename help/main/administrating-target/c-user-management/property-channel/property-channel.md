@@ -2,13 +2,13 @@
 keywords: Arbeitsbereiche;Eigenschaft verwalten;Berechtigungen;Produktkonfiguration;Produktprofil;Rollen;Projekt;Beobachter;Editor;Genehmiger;Publisher
 description: Erfahren Sie, wie Sie separate Arbeitsbereiche (Produktprofile) erstellen und dann Benutzern verschiedene Rollen und Berechtigungen für einzelne Seiten, Eigenschaften oder Websites zuweisen.
 title: Was sind Enterprise-Benutzerberechtigungen und wie verwende ich sie?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -188,7 +188,7 @@ Nach einer Umstrukturierung richten Sie für die Personen aus der obigen Abbildu
 
 * **Diana**: Diana arbeitet jetzt als Analystin für die Organisation. Ihr wurden Beobachterberechtigungen für die Krankenhaus- und die Endverbraucher-Sites zugewiesen, mit denen sie reinen Lesezugriff auf Aktivitäten hat. Diana kann Aktivitäten anzeigen, sie aber nicht erstellen oder bearbeiten.
 
-## Touchpoints der Target-Benutzeroberfläche für Eigenschaften und Berechtigungen {#section_3414371393BB42999A268628B5456EC9}
+## Target-Benutzeroberfläche - Eigenschaften und Berechtigungen Touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 Die neue Berechtigungsfunktion findet sich in der Benutzeroberfläche von [!DNL Target] gleich an mehreren Orten.
 
@@ -239,7 +239,7 @@ Beachten Sie bei der Verwendung oder Konfiguration von Eigenschaften und Berecht
    * Bildangebote
    * Alle Recommendations-Ressourcen, einschließlich Kriterienbibliothek, Designbibliothek, Katalog, Recommendations-Einrichtung.
    * Vorhandene Ressourcen (z. B. Aktivitäten, Code-Angebote und Zielgruppen), die in Target Premium vor der Aktivierung von Enterprise-Berechtigungen erstellt wurden, können kopiert, aber nicht in andere Arbeitsbereiche verschoben werden.
-   * Aktivitäten, Audiences, Code-Angebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht mit dem Enterprise-Berechtigungsmodell gesteuert werden, sind jedoch Teil der Standard-Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über die -API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Audiences, Codeangebote und Bildangebote).
+   * Aktivitäten, Audiences, Code-Angebote, Bildangebote oder andere Ressourcen, die mit den folgenden Lösungen oder Methoden erstellt wurden, können nicht mit dem Enterprise-Berechtigungsmodell gesteuert werden, sind jedoch Teil der Standard-Workspace: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services und Ressourcen, die über die -API erstellt wurden. Unter über die API erstellte Ressourcen fallen Aktivitäten, Zielgruppen, Codeangebote und Bildangebote).
    * Bildangebote (Assets), die unter `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` gespeichert werden, können derzeit nicht vom Enterprise-Berechtigungsmodell gesteuert werden.
    * clickTracking und Weiterleitungen funktionieren, wenn der Ziel-Link oder die Zielseite Teil einer Eigenschaft ist, die in der Aktivität enthalten ist. Außerdem funktioniert das clickTracking bei Verwendung der Funktion `targetPageParams()` möglicherweise nicht. `targetPageParamsAll()` ist die empfohlene Funktion.
 
