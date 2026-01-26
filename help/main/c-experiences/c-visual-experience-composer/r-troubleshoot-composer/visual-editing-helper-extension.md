@@ -4,10 +4,10 @@ description: Finden Sie heraus, warum manche Websites in [!UICONTROL Visual Expe
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '765'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,17 @@ Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser
 >[!IMPORTANT]
 >
 >* Diese neue Erweiterung ersetzt die frühere [Target VEC Helper-Browser-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Weitere Informationen finden Sie im wichtigen Hinweis oben in diesem Artikel. Aufgrund der Sicherheitsverbesserungen in Manifest v3 erfordert [!DNL Adobe] das Herunterladen dieser neuen Erweiterung, um Ihre Websites weiterhin visuell in [!DNL Target] gestalten zu können.
+
+## Änderungen an der [!UICONTROL Visual Editing Helper] (17. Januar 2026)
+
+### **Es wurde ein Problem behoben, indem die neue experimentelle Funktion „Bereinigung von Startup-Cookies“ im VEC Helper hinzugefügt wurde.**
+
+* Ein Problem wurde behoben, indem die neue experimentelle Funktion „Bereinigung von Startup-Cookies“ im VEC Helper hinzugefügt wurde.
+* Diese Verbesserung verbessert die Leistung und Zuverlässigkeit, indem unpartitionierte Cookies einmal pro Registerkarte bereinigt werden, wenn die Bearbeitung statt kontinuierlich beginnt.
+* Die Funktion verfolgt den Verlauf der Registerkarten, um redundante Bereinigungen zu verhindern. Außerdem wird der Verlauf beim Schließen der Registerkarte gelöscht, sodass die Bereinigung beim erneuten Öffnen einer Registerkarte korrekt funktioniert.
+* Umfassende Modultests wurden hinzugefügt, um ein konsistentes Verhalten sicherzustellen.
+
+![Neue VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Gründe, weshalb einige Websites im VEC möglicherweise nicht zuverlässig geöffnet werden
 
