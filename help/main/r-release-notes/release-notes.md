@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1862'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,14 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
 
+## [!DNL Target Standard/Premium] 26.1.2 (30. Januar 2026)
+
+**Adobe Target Insights-Dashboard**
+
+Adobe Target enthält jetzt ein neues Insights-Dashboard, das einen Überblick darüber bietet, wie Ihr Unternehmen Target zum Experimentieren und Personalisieren verwendet. Das Dashboard enthält Schlüsselmetriken wie Live-Aktivitäten, Live-Aktivitäten und geänderte Aktivitäten, abgeschlossene Aktivitäten, veröffentlichte Aktivitäten und A/B-Test-Aktivitäten. Verwenden Sie die Zeitbereichsauswahl, um Trends über verschiedene Zeiträume zu untersuchen, einschließlich einer Zusammenfassungsansicht für 2025. Dieses Dashboard bleibt als fortlaufende Möglichkeit zur Verfolgung von Akzeptanz und Aktivitäten im Zeitverlauf verfügbar.
+
+Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboard.md)
+
 ## [!DNL Target Standard/Premium] 26.1.1 (18. Januar 2026)
 
 **Aktivitäten**
@@ -47,6 +55,7 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 **Eigenschaften**
 
 +++Details anzeigen
+
 * **Die Aktivitätsbearbeitung sollte keine automatisch erkannte Eigenschaft hinzufügen, wenn sie bereits entfernt wurde.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem durch die Bearbeitung einer Aktivität automatisch eine automatisch erkannte Eigenschaft wieder eingeführt wird, die zuvor entfernt wurde. Beim erneuten Öffnen einer Aktivität zur Bearbeitung hat das System die entfernte Eigenschaft fälschlicherweise wiederhergestellt, was zu inkonsistentem Verhalten und Verwirrung in der [!UICONTROL Properties List] führte. Die Aktualisierung stellt sicher, dass eine automatisch erkannte Eigenschaft nach dem Entfernen bei allen nachfolgenden Bearbeitungen entfernt bleibt und nicht wieder angezeigt wird, es sei denn, die Benutzerin oder der Benutzer fügt sie explizit wieder hinzu. (TGT-54182)
 * **Fügen Sie keine automatisch erkannten Eigenschaften hinzu, wenn sie bereits entfernt wurden.** Mit dieser Fehlerbehebung wird sichergestellt, dass eine Benutzerin oder ein Benutzer, die bzw. der manuell eine automatisch erkannte Eigenschaft aus einer Aktivität entfernt hat, diese bei der nachfolgenden Navigation im Aktivitätseditor nicht mehr wieder einführt. Wenn ein(e) Benutzende(r) zuvor die Auswahl einer automatisch erkannten Eigenschaft aufgehoben, zum Schritt [!UICONTROL Targeting] verschoben und dann zu [!UICONTROL Experiences] zurückgekehrt hat, füllt der Editor die entfernte Eigenschaft erneut auf der Grundlage der automatisch erkannten Liste, die im Statusbereich des Aktivitätseditors gespeichert ist. Die aktualisierte Logik vergleicht jetzt die automatisch erkannten Eigenschaften mit den aktuellen Eigenschaften im Bereich ~ActivityState~ und verhindert, dass automatisch erkannte Eigenschaften, die der Benutzer bereits entfernt hat, erneut hinzugefügt werden. Dies führt zu einem konsistenten Verhalten über alle Schritte hinweg und respektiert die Benutzerabsicht. (TGT-54181)
 * **Fügen Sie automatisch erkannten Text zur Eigenschaftenliste hinzu.** Diese Verbesserung aktualisiert die [!UICONTROL Properties List], um alle Eigenschaften, die automatisch vom System erkannt wurden, deutlich zu kennzeichnen. Wenn eine automatisch erkannte Eigenschaft auch im für den Benutzer sichtbaren [!UICONTROL Properties List] vorhanden ist, wird nun neben dem Namen der Eigenschaft der Text „(Automatisch erkannt)“ angezeigt, wobei der im Status ~ActivityEditorSlice~ gespeicherte Wert verwendet wird. Dies spiegelt das Verhalten der alten Benutzeroberfläche wider und hilft Benutzenden, einfach zwischen manuell ausgewählten Eigenschaften und den automatisch identifizierten Eigenschaften zu unterscheiden. (TGT-54120)
@@ -57,6 +66,7 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 **Recommendations**
 
 +++Details anzeigen
+
 * **[!UICONTROL Environment]Dropdown-Liste zeigt nur 100 Ergebnisse an.** Mit dieser Fehlerbehebung wird eine Einschränkung behoben, bei der Kunden mit mehr als 100 Umgebungen nur die ersten 100 Einträge in der Dropdown-Liste &quot;[!UICONTROL Environment]&quot; in [!UICONTROL Recommendations] sehen konnten. Die zugrunde liegende GraphQL-Abfrage ~getEnvironmentsV2~) wurde mit einer hartcodierten Seitengröße von 100 paginiert, wodurch die Benutzeroberfläche auch dann nur eine Teilliste anzeigte, wenn zusätzliche Seiten verfügbar waren. Für Kunden mit mehr als 100 Umgebungen führte dieses Problem zu fehlenden Optionen und einer unvollständigen Auswahl. Durch die Aktualisierung wird das Limit erhöht, sodass alle Umgebungen zurückgegeben und angezeigt werden. So wird unabhängig von der Anzahl der Umgebungen eine vollständige Sichtbarkeit sichergestellt. (TGT-53903)
 
 +++
@@ -77,9 +87,10 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Details anzeigen
+
 * **[!UICONTROL Experience Fragment]Name wurde in der neuen VEC-Benutzeroberfläche abgeschnitten** (TGT-54312)
 * **[!UICONTROL Advanced Settings] kann nicht für [!UICONTROL Revenue] Metrik verwendet werden.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Benutzende beim Konfigurieren von [!UICONTROL Advanced Settings] für die [!UICONTROL Revenue]-Metrik in [!UICONTROL Goals & Settings] den 403-Fehler „Zugriff verweigert“ hatten. Das Problem trat beim Hinzufügen einer Abhängigkeitsbedingung auf, die mit dem primären Ziel verknüpft war. Das Backend benötigte fälschlicherweise die Berechtigung zum Bearbeiten selbst für Benutzer, die bereits über ausreichende Berechtigungen zum Erstellen und Bearbeiten von Aktivitäten verfügten. Daher ist das Speichern der Aktivität trotz gültiger Konfiguration fehlgeschlagen. Durch die Aktualisierung wird die Berechtigungsprüfung korrigiert, sodass Benutzende mit geeignetem Zugriff erfolgreich Abhängigkeiten von Umsatzmetriken hinzufügen können, ohne einen Fehler wegen verbotener Ressourcen auszulösen. (TGT-54092)
 * **Es wurde ein Problem behoben, bei dem die Schaltfläche Hinzufügen nicht auf ausgewählte Bilder angewendet wurde.** Es wurde ein Problem behoben, das Kunden daran hinderte, bestimmte Bilder hinzuzufügen, wenn sie ein Bild im Prozess zum Erstellen einer Aktivität auswählen oder aktualisieren wollten. Wenn Kunden nach bestimmten Assets suchen, z. B. nach Bildern, die bei der Suche nach „ipp“ zurückgegeben werden, wird das ausgewählte Bild durch Klicken auf die Schaltfläche &quot;[!UICONTROL Add]&quot; nicht angewendet und es wurde keine Änderung erstellt. Die Auswahl anderer Bilder, z. B. `Homepage-banner-1-moz.jpg`, funktionierte weiterhin wie erwartet. Diese Aktualisierung stellt sicher, dass alle gültigen Bilder in der aktualisierten Benutzeroberfläche konsistent angewendet werden können. (TGT-53610)

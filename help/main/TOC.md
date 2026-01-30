@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1275'
 ht-degree: 83%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 83%
    + Integration von Target mit Adobe Customer Journey Analytics {#cja}
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target mit Adobe Journey Optimizer (AJO) {#ajo}
-      + [Verwenden von Angebotsentscheidungen &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrieren  [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer-Anwendungsfälle {#use-cases}
          + [Häufigste Anwendungsfälle für die Optimierung in Adobe Journey Optimizer - Web- und Code-basierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
@@ -117,6 +117,7 @@ ht-degree: 83%
    + [Integration von Target in Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Aktivitäten {#activities}
    + [Aktivitäten – Überblick](c-activities/activities.md)
+   + [Insights-Dashboard](c-activities/insights-dashboard.md)
    + [Target-Aktivitätstypen](c-activities/target-activities-guide.md)
    + A/B-Test {#abtest}
       + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
@@ -206,7 +207,7 @@ ht-degree: 83%
          + [Benutzerdefinierte Parameter](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [Geo](c-target/c-audiences/c-target-rules/geo.md)
          + [Netzwerk](c-target/c-audiences/c-target-rules/network.md)
-         + [Mobil](c-target/c-audiences/c-target-rules/mobile.md)
+         + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
          + [Betriebssystem](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Seiten der Site](c-target/c-audiences/c-target-rules/site-pages.md)
          + [Ziel-Bibliothek](c-target/c-audiences/c-target-rules/target-library.md)
@@ -327,7 +328,7 @@ ht-degree: 83%
       + [Hinzufügen von Promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Einstellungen für Recommendations-Aktivitäten](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Vorschau und Starten Ihrer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations als Angebot](c-recommendations/recommendations-as-an-offer.md)
+   + [Empfehlungen als Angebot](c-recommendations/recommendations-as-an-offer.md)
    + Häufig gestellte Fragen {#recommendations-faq}
       + [Recommendations-FAQs](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Integration von Recommendations in E-Mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
@@ -339,4 +340,4 @@ ht-degree: 83%
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
