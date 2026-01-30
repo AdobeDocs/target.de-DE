@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1273'
 ht-degree: 83%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 83%
    + Integration von Target mit Adobe Customer Journey Analytics {#cja}
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target mit Adobe Journey Optimizer (AJO) {#ajo}
-      + [Verwenden von Angebotsentscheidungen &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Verwenden von Angebotsentscheidungen ](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [Integrieren  [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer-Anwendungsfälle {#use-cases}
          + [Häufigste Anwendungsfälle für die Optimierung in Adobe Journey Optimizer - Web- und Code-basierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
@@ -117,7 +117,6 @@ ht-degree: 83%
    + [Integration von Target in Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Aktivitäten {#activities}
    + [Aktivitäten – Überblick](c-activities/activities.md)
-   + [Insights-Dashboard](c-activities/insights-dashboard.md)
    + [Target-Aktivitätstypen](c-activities/target-activities-guide.md)
    + A/B-Test {#abtest}
       + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
@@ -340,4 +339,4 @@ ht-degree: 83%
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
