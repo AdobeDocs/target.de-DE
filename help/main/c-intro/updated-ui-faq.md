@@ -4,7 +4,7 @@ description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
 title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 1%
@@ -37,14 +37,14 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [&#x200B; Einschränkungen des Umschaltverhaltens](#limitations).
+  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [ Einschränkungen des Umschaltverhaltens](#limitations).
 
 * **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
 
    * Ausnahmen werden von Fall zu Fall überprüft.
    * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder [&#x200B; Probleme, die während dieser Umstellung auftreten könnten, an die &#x200B;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder [ Probleme, die während dieser Umstellung auftreten könnten, an die ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)Adobe-Kundenunterstützung.
 
 ### Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche {#limitations}
 
@@ -85,7 +85,7 @@ Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisiert
 +++Details
 Die aktualisierte Benutzeroberfläche steht allen [!DNL Target], [!UICONTROL Standard] und [!UICONTROL Premium] zur Verfügung. Es ist keine aktualisierte Lizenz oder SKU erforderlich.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -94,7 +94,7 @@ Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die V
 +++Details
 Das [!DNL Target]-Team befasst sich aktiv mit Problemen im Zusammenhang mit dem Rollout der neuen Benutzeroberfläche. Aktualisierungen und laufende Verbesserungen werden in den Versionshinweisen beschrieben.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -107,7 +107,7 @@ Die Verwendung des Umschalters für die Benutzeroberflächenversion weist mehrer
 
 Weitere Informationen finden Sie unter [Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
-++++
++++
 
 ## Kann [!DNL Adobe] die Migration zur aktualisierten Benutzeroberfläche verzögern, bis der vollständige Rollout abgeschlossen ist?
 
