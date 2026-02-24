@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVIERT
 
-Dieses Repository wird nach <https://github.com/Adobe-Enterprise-Docs/target.en> migriert.
+Dieses Repository wird nach <https://github.com/Adobe-Enterprise-Docs/target.de-DE> migriert.
