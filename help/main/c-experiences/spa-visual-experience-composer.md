@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den SPA VEC in Adobe verwenden [!DNL Target] 
 title: Wie verwende ich die Single Page App Visual Experience Composer (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -35,13 +35,13 @@ Wenn wir zur Homepage navigieren, können wir sofort ein Hero Image sehen, das e
 
 ![Produktseite](/help/main/c-experiences/assets/product-site.png)
 
-Da uns die Produkte interessieren, klicken wir auf den Link zu den Produkten. Ähnlich wie die Homepage kann die gesamte Produktseite als Ansicht definiert werden. Wir können diese Ansicht „Produkte“ nennen, genau wie der Pfadname in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products`.
+Da uns die Produkte interessieren, klicken wir auf den Link zu den Produkten. Ähnlich wie die Homepage kann die gesamte Produkt-Site als Ansicht definiert werden. Wir können diese Ansicht „Produkte“ nennen, genau wie der Pfadname in `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products`.
 
-![Produktseite 2](/help/main/c-experiences/assets/product-site-2.png)
+![Produkt-Site 2](/help/main/c-experiences/assets/product-site-2.png)
 
 Am Anfang dieses Abschnitts haben wir Ansichten als ganze Site oder sogar als eine Gruppe visueller Elemente auf der Site definiert. Wie oben gezeigt, können die vier auf der Site angezeigten Produkte auch gruppiert und als Ansicht betrachtet werden. Als Name für diese Ansicht käme „Produkte“ in Frage.
 
-![Produktseite 3](/help/main/c-experiences/assets/product-site-3.png)
+![Produkt-Site 3](/help/main/c-experiences/assets/product-site-3.png)
 
 Klicken Sie auf die Schaltfläche „Mehr laden“, um weitere Produkte auf der Site zu erkunden. In diesem Fall ändert sich die Website-URL nicht. Hier kann auch nur die zweite Zeile der oben gezeigten Produkte als Ansicht angesehen werden. Der Name der Ansicht könnte also „PRODUKTSEITE-2“ lauten.
 
