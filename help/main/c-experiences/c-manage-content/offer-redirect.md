@@ -19,7 +19,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote in der [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote in der [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in AJAX-Mboxes (`mboxUpdate`) verwendet werden.
 >
