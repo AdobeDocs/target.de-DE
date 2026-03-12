@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Umleitungsangebote erstellen, um Browser naht
 title: Wie erstelle ich Umleitungsangebote?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 25%
+source-wordcount: '1080'
+ht-degree: 23%
 
 ---
 
@@ -19,7 +19,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote in der [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote in der [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in AJAX-Mboxes (`mboxUpdate`) verwendet werden.
 >
@@ -47,7 +47,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
    >[!NOTE]
    >
-   >Umleitungsangebote führen zu einer Endlosschleife, wenn die Umleitungs-URL auch den Benutzer für dieselbe Aktivität qualifiziert. Stellen Sie sicher, dass sich der/die Benutzende nach der Weiterleitung nicht erneut für die Aktivität qualifiziert.
+   >Umleitungsangebote führen zu einer Endlosschleife, wenn die Umleitungs-URL auch den Benutzer für dieselbe Aktivität qualifiziert. Um dies zu verhindern, fügen Sie einen Abfrageparameter zur Umleitungs-URL hinzu (z. B. `?redirect=true`). Vergewissern Sie sich dann in der Audience-Aktivität oder in der Vorlagenregel, dass dieser Abfrageparameter nicht vorhanden ist. Dadurch wird sichergestellt, dass sich der Benutzer nach der Weiterleitung nicht erneut für die Aktivität qualifiziert.
 
 1. Wählen Sie die gewünschten Optionen aus, um Ihr Umleitungsangebot anzupassen:
 
@@ -78,7 +78,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
    >[!NOTE]
    >
-   >Umleitungsangebote führen zu einer Endlosschleife, wenn die Umleitungs-URL auch den Benutzer für dieselbe Aktivität qualifiziert. Stellen Sie sicher, dass sich der/die Benutzende nach der Weiterleitung nicht erneut für die Aktivität qualifiziert.
+   >Umleitungsangebote führen zu einer Endlosschleife, wenn die Umleitungs-URL auch den Benutzer für dieselbe Aktivität qualifiziert. Um dies zu verhindern, fügen Sie einen Abfrageparameter zur Umleitungs-URL hinzu (z. B. `?redirect=true`). Vergewissern Sie sich dann in der Audience-Aktivität oder in der Vorlagenregel, dass dieser Abfrageparameter nicht vorhanden ist. Dadurch wird sichergestellt, dass sich der Benutzer nach der Weiterleitung nicht erneut für die Aktivität qualifiziert.
 
 1. Wählen Sie die gewünschten Optionen aus, um Ihr Umleitungsangebot anzupassen:
 
