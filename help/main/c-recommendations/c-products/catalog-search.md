@@ -86,7 +86,7 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [ angegebenen Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
+Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [&#x200B; angegebenen Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
@@ -110,7 +110,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 Mit [Umgebungen](/help/main/administrating-target/environments.md) können Sie Ihre Standorte und Vorproduktionsumgebungen für eine einfache Verwaltung und getrennte Berichterstellung organisieren.
 
-1. Klicken Sie auf das Symbol &quot;Filter anzeigen&quot; ( ![Symbol &quot;Filter anzeigen&quot; ](/help/main/assets/icons/Filter.svg) ).
+1. Klicken Sie auf das Symbol &quot;Filter anzeigen&quot; ( ![Symbol &quot;Filter anzeigen&quot; &#x200B;](/help/main/assets/icons/Filter.svg) ).
 
 1. Wählen Sie die gewünschte Umgebung aus der Dropdown-Liste **[!UICONTROL Environment]** aus.
 
