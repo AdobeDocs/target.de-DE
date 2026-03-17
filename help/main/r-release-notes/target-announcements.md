@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 99%
@@ -17,7 +17,8 @@ ht-degree: 99%
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=de){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Aufzeichnungen früherer Webinare und Schulungen
 

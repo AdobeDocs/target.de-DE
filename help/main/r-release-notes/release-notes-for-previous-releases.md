@@ -4,10 +4,11 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ab11438723edc8bb9f7e6aff0b10d48723623f3b
+hold: true
+source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
 workflow-type: tm+mt
-source-wordcount: '62551'
-ht-degree: 54%
+source-wordcount: '64670'
+ht-degree: 52%
 
 ---
 
@@ -20,6 +21,160 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >[!NOTE]
 >
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
+
+## Versionshinweise 2026
+
+### [!DNL Target Standard/Premium] 26.3.1 (3. März 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Benutzerdefinierter Code geht verloren, wenn er auf zusätzliche Ansichten angewendet wird.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem benutzerdefinierter Code, der auf eine Ansicht angewendet wurde, beim Hinzufügen und Anwenden von benutzerdefiniertem Code zu einer zusätzlichen Ansicht verloren ging. Wenn Benutzende zuvor benutzerdefinierten Code auf mehrere Ansichten in einer Aktivität angewendet haben, verschwindet der zuvor angewendete benutzerdefinierte Code. Durch die Korrektur wird sichergestellt, dass benutzerdefinierter Code in allen Ansichten beim Anwenden von Änderungen an zusätzlichen Ansichten ordnungsgemäß beibehalten wird. (TGT-54230)
+
++++
+
+**Kriterien**
+
++++Details anzeigen
+
+* **Profilparameter &#39;In Between&#39;-Regel wird nicht in Kriterien gespeichert.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Kriterienregeln, die den Operator **In Between** für Profilparameter verwenden, nicht korrekt gespeichert wurden. Wenn Benutzende zuvor eine Regel mit dem Operator &quot;**zwischen** konfiguriert und Werte für den Bereich eingegeben haben, schienen die Kriterien erfolgreich gespeichert zu werden, aber die Regel verschwand beim erneuten Öffnen oder Bearbeiten der Kriterien. Die Korrektur stellt sicher, dass **In-Between**-Regeln ordnungsgemäß gespeichert werden und bestehen bleiben, wenn Kriterien erneut geöffnet werden. (TGT-54498)
+
++++
+
+**Insights**
+
++++Details anzeigen
+
+* **Ändern der Position der Insights-Seite nach allen Aktivitäten.** Die Position **Insights** wurde aktualisiert, um nach der Seite **Alle Aktivitäten** in der Navigation anzuzeigen. Die Seite „Alle Aktivitäten“ ist jetzt die Standardseite des Target-Programms. (TGT-54672)
+
++++
+
+**Navigation**
+
++++Details anzeigen
+
+* **Machen Sie die linke Navigation ausblendbar.** Die linke Navigation ist jetzt für alle Registerkarten ausblendbar und erweiterbar. In ausgeblendetem Zustand werden Symbole mit QuickInfos angezeigt. Nach dem Erweitern werden sowohl Symbole als auch Text angezeigt. Diese Verbesserung bietet Benutzenden bei Bedarf mehr Platz auf dem Bildschirm und ermöglicht gleichzeitig einen schnellen Zugriff auf Navigationsoptionen. (TGT-54608)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Standardwert für experienceEditorType ist „visual“, wenn das Backend null zurückgibt.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem der `experienceEditorType` in einigen Szenarien als null zurückgegeben wurde, was zu unbeabsichtigtem Verhalten in der Benutzeroberfläche führte, in der der Editor-Typ nicht ordnungsgemäß initialisiert wurde. (TGT-54690)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.2 (16. Februar 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Bilder können nicht zu Aktivitäten hinzugefügt werden - unbekannter Fehler.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Benutzende beim Versuch, Bilder in -Aktivitäten hinzuzufügen oder zu ersetzen, auf einen „unbekannten Fehler“ gestoßen sind. Das Problem stand im Zusammenhang mit Scene7-URL-Synchronisierungs- und Authentifizierungsfehlern. Durch die Korrektur wird sichergestellt, dass Bilder im Visual Experience Composer korrekt hinzugefügt und ersetzt werden können. (TGT-54137)
+
++++
+
+### [!DNL Target Standard/Premium] 26.2.1 (8. Februar 2026)
+
+**Eigenschaften**
+
++++Details anzeigen
+
+* **Eigenschafts-Token wird nach dem Entfernen nicht automatisch erneut hinzugefügt.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Eigenschafts-Token, die von Benutzenden deaktiviert wurden, beim Bearbeiten einer Aktivität automatisch erneut hinzugefügt wurden. Wenn Benutzende eine automatisch erkannte Eigenschaft entfernt und zwischen Schritten navigiert haben, hat das System die entfernte Eigenschaft zuvor ohne Warnhinweis oder Eingabeaufforderung wieder eingeführt, was dazu führte, dass Aktivitäten für unerwartete Eigenschaften aktiviert wurden. Die Aktualisierung stellt sicher, dass ein Eigenschafts-Token nach dem Entfernen bei allen nachfolgenden Bearbeitungen und Navigationsvorgängen entfernt bleibt. (TGT-54040)
+
++++
+
+### [!DNL Target Standard/Premium] 26.1.2 (Samstag, 30. Januar 2026)
+
+**Adobe Target Insights-Dashboard**
+
++++Details anzeigen
+
+Adobe Target enthält jetzt ein neues Insights-Dashboard, das einen Überblick darüber bietet, wie Ihr Unternehmen Target zum Experimentieren und Personalisieren verwendet. Das Dashboard enthält Schlüsselmetriken wie Live-Aktivitäten, Live-Aktivitäten und geänderte Aktivitäten, abgeschlossene Aktivitäten, veröffentlichte Aktivitäten und A/B-Test-Aktivitäten. Verwenden Sie die Zeitbereichsauswahl, um Trends über verschiedene Zeiträume zu untersuchen, einschließlich einer Zusammenfassungsansicht für 2025. Dieses Dashboard bleibt als fortlaufende Möglichkeit zur Verfolgung von Akzeptanz und Aktivitäten im Zeitverlauf verfügbar.
+
+Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboard.md)
++++
+
+**Administration**
+
++++Details anzeigen
+
+* **Auf die Zulassungsliste gesetzt URL-Verwaltungsfunktion.** Der Abschnitt [!UICONTROL Administration] wurde um eine neue Verwaltungsfunktion für &quot;Auf die Zulassungsliste gesetzt URLs“ erweitert, mit der zulässige Muster für Remote-Angebots-URLs verwaltet werden können. Auf die Zulassungsliste setzen Diese Funktion bietet die Möglichkeit, URLs in einer Tabelle anzuzeigen, URLs zu suchen und zu filtern, über das modale Dialogfeld neue URLs hinzuzufügen und URLs mit Bestätigung zu löschen. Mit dieser Funktion können Kunden steuern, welche URLs für Remote-Angebote verwendet werden können. Dies verbessert die Sicherheit und Compliance. (TGT-54486)
+
++++
+
+**Insights**
+
++++Details anzeigen
+
+* **Unterstützung für das Filtern nach createdAt und modifiedAt in GraphQL.** Unterstützung für die Filterung von Aktivitäten nach `createdAt` und `modifiedAt` Datumsfeldern wurde zur GraphQL-API hinzugefügt. Diese Verbesserung ermöglicht eine genaue Filterung in der Target-Benutzeroberfläche, reduziert die Client-seitige Datenverarbeitung und eliminiert die Notwendigkeit, mehrere API-Aufrufe zum Abrufen gefilterter Aktivitätsdaten zu verwenden. (TGT-54499)
+
++++
+
+
+### [!DNL Target Standard/Premium] 26.1.1 (Montag, 18. Januar 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Aktivität kann nicht kopiert werden - ungültige Benutzereingabe.** Das Problem, das dazu führt, dass beim Kopieren einer Aktivität der nicht hilfreiche Fehler „Ungültige Benutzereingabe“ angezeigt wird, wurde behoben. Zuvor wurden beim Duplizieren einer Aktivität die Workspace-spezifischen Eigenschaftszuweisungen nicht beibehalten, sodass das Backend die Speicheranfrage ablehnt, da für die ABA-Aktivität mindestens eine Eigenschaft erforderlich ist, die zu einem nicht standardmäßigen Workspace gehört. Diese Diskrepanz hat einen allgemeinen Fehler in der Benutzeroberfläche ausgelöst, sodass Benutzende ohne Anleitung bleiben. Durch die Korrektur wird sichergestellt, dass Arbeitsbereichszuweisungen bei Kopiervorgängen korrekt beibehalten werden, sodass Benutzende die kopierte Aktivität speichern können, ohne Änderungen vorzunehmen, und keine irreführenden Validierungsfehler auftreten. (TGT-54282)
+* **Aktivieren Sie die Spalte Arbeitsbereich im Angebot des Web-Editors.** Dieses Update behebt Verwirrung bei Kunden, die durch Angebote aus der [!UICONTROL Default Workspace] in anderen Arbeitsbereichen im Web-Editor verursacht wurde. Obwohl dieses Verhalten wie vorgesehen funktioniert, [!UICONTROL Default Workspace] Angebote absichtlich in allen Arbeitsbereichen sichtbar sind, berichteten Kunden, dass die Benutzeroberfläche den Ursprung des Arbeitsbereichs nicht klar machte, insbesondere beim Erstellen von Aktivitäten in einem nicht standardmäßigen Arbeitsbereich wie „Genehmigende Personen“. Um die Übersichtlichkeit zu verbessern, wurde die Spalte [!UICONTROL Workspace] jetzt in der Angebotsliste des Web-Editors aktiviert, sodass Benutzende einfach erkennen können, zu welchem Arbeitsbereich die einzelnen Angebote gehören, und eine Fehlinterpretation der angezeigten zusätzlichen Angebote vermieden werden kann. (TGT-54138)
+* **Links mit target=„_blank“ werden in einer neuen Registerkarte geöffnet.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem erstellte Websites, die Links mit ~target=„_blank“~ enthalten, beim Klicken im [!UICONTROL Browse] in einer neuen Browser-Registerkarte geöffnet wurden, was das Vorschauerlebnis im Editor störte. Das Verhalten trat auf, weil die nativen Link-Attribute der erstellten Seite nicht von der eingefügten JavaScript der Erweiterung abgefangen wurden, anders als in der alten Benutzeroberfläche, in der Ankerelemente transformiert und ihre Ziele überschrieben wurden, um die Navigation im Editor zu behalten. Die Aktualisierung stellt sicher, dass Links, die ~target=„_blank“~ verwenden, jetzt im Web-Editor ordnungsgemäß verarbeitet werden, sodass externe Registerkarten beim Authoring nicht mehr geöffnet werden. (TGT-54134)
+* **Warnhinweis zur Aufhebung der Auswahl.** Dieses Update enthält eine visuelle Warnung, die Benutzerinnen und Benutzer deutlich informiert, wenn sie die Auswahl einer automatisch erkannten Eigenschaft im Aktivitätseditor aufheben. Zuvor gab das Entfernen einer automatisch erkannten Eigenschaft keinen Hinweis darauf, dass die Eigenschaft dauerhaft gelöscht würde, was zu einem versehentlichen Verlust der Targeting-Konfiguration führen könnte. Durch die Korrektur wird ein Warnsymbol hinzugefügt, das dem Verhalten in der veralteten Benutzeroberfläche entspricht und Benutzer darüber informiert, dass durch Deaktivieren der Eigenschaft diese aus der Aktivität entfernt wird. (TGT-54121)
+* **[!UICONTROL Workspaces]Dropdown-Liste ist im [!UICONTROL Users] Abschnitt auf 20 begrenzt.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem im Dropdown-Menü [!UICONTROL Workspaces] im Abschnitt [!UICONTROL Administration] > [!UICONTROL Users] nur 20 Arbeitsbereiche angezeigt wurden, selbst wenn ein Benutzer Zugriff auf viele weitere hatte. Der zugrunde liegende GraphQL-Aufruf für `licenseGroups` war ebenfalls auf 20 Ergebnisse beschränkt, was dazu führte, dass die Benutzeroberfläche eine unvollständige Liste anzeigte, obwohl die Benutzenden Zugriff auf mehr Arbeitsbereiche im Unternehmen hatten. Durch das Update wird diese feste Grenze entfernt, sodass der vollständige Satz verfügbarer Arbeitsbereiche jetzt zurückgegeben und korrekt angezeigt wird. (TGT-53820)
+* **Es wurde ein Problem behoben, bei dem die Spalte Arbeitsbereich im modalen Angebotsfenster nicht angezeigt wurde.** Es wurde ein Problem behoben, bei dem das Modal „Angebote“ die Spalte „Arbeitsbereich“ in der aktualisierten Benutzeroberfläche nicht anzeigte. Dies führte zu Verwirrung bei den Kunden, da Angebote aus der [!UICONTROL Default Workspace] neben Angeboten aus dem ausgewählten Arbeitsbereich ohne Angabe ihrer Herkunft angezeigt wurden. Die Spalte Arbeitsbereich ist jetzt aktiviert, sodass Kunden eindeutig identifizieren können, zu welchem Arbeitsbereich die einzelnen Angebote gehören. (TGT-52320)
+
++++
+
+**Eigenschaften**
+
++++Details anzeigen
+
+* **Die Aktivitätsbearbeitung sollte keine automatisch erkannte Eigenschaft hinzufügen, wenn sie bereits entfernt wurde.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem durch die Bearbeitung einer Aktivität automatisch eine automatisch erkannte Eigenschaft wieder eingeführt wird, die zuvor entfernt wurde. Beim erneuten Öffnen einer Aktivität zur Bearbeitung hat das System die entfernte Eigenschaft fälschlicherweise wiederhergestellt, was zu inkonsistentem Verhalten und Verwirrung in der [!UICONTROL Properties List] führte. Die Aktualisierung stellt sicher, dass eine automatisch erkannte Eigenschaft nach dem Entfernen bei allen nachfolgenden Bearbeitungen entfernt bleibt und nicht wieder angezeigt wird, es sei denn, die Benutzerin oder der Benutzer fügt sie explizit wieder hinzu. (TGT-54182)
+* **Fügen Sie keine automatisch erkannten Eigenschaften hinzu, wenn sie bereits entfernt wurden.** Mit dieser Fehlerbehebung wird sichergestellt, dass eine Benutzerin oder ein Benutzer, die bzw. der manuell eine automatisch erkannte Eigenschaft aus einer Aktivität entfernt hat, diese bei der nachfolgenden Navigation im Aktivitätseditor nicht mehr wieder einführt. Wenn ein(e) Benutzende(r) zuvor die Auswahl einer automatisch erkannten Eigenschaft aufgehoben, zum Schritt [!UICONTROL Targeting] verschoben und dann zu [!UICONTROL Experiences] zurückgekehrt hat, füllt der Editor die entfernte Eigenschaft erneut auf der Grundlage der automatisch erkannten Liste, die im Statusbereich des Aktivitätseditors gespeichert ist. Die aktualisierte Logik vergleicht jetzt die automatisch erkannten Eigenschaften mit den aktuellen Eigenschaften im Bereich ~ActivityState~ und verhindert, dass automatisch erkannte Eigenschaften, die der Benutzer bereits entfernt hat, erneut hinzugefügt werden. Dies führt zu einem konsistenten Verhalten über alle Schritte hinweg und respektiert die Benutzerabsicht. (TGT-54181)
+* **Fügen Sie automatisch erkannten Text zur Eigenschaftenliste hinzu.** Diese Verbesserung aktualisiert die [!UICONTROL Properties List], um alle Eigenschaften, die automatisch vom System erkannt wurden, deutlich zu kennzeichnen. Wenn eine automatisch erkannte Eigenschaft auch im für den Benutzer sichtbaren [!UICONTROL Properties List] vorhanden ist, wird nun neben dem Namen der Eigenschaft der Text „(Automatisch erkannt)“ angezeigt, wobei der im Status ~ActivityEditorSlice~ gespeicherte Wert verwendet wird. Dies spiegelt das Verhalten der alten Benutzeroberfläche wider und hilft Benutzenden, einfach zwischen manuell ausgewählten Eigenschaften und den automatisch identifizierten Eigenschaften zu unterscheiden. (TGT-54120)
+* **Fügen Sie automatisch erkannte [!UICONTROL Properties] in den Status hinzu.** Durch diese Aktualisierung wird sichergestellt, dass der ~ActivityEditorSlice.ExperienceEditor~-Status durchgängig eine aktuelle Liste aller automatisch erkannten Eigenschafts-IDs verwaltet, die vom Web-Editor in die Registerkarte [!UICONTROL Experiences] übergeben werden. Jedes Mal, wenn der/die Benutzende zur Registerkarte [!UICONTROL Experiences] navigiert, wird der Status mit allen neu erkannten Eigenschaften aktualisiert, wobei Duplikate vermieden werden, sodass ein genaues Tracking und ein zuverlässiges nachgelagertes Verhalten gewährleistet sind. (TGT-54119)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+
+* **[!UICONTROL Environment]Dropdown-Liste zeigt nur 100 Ergebnisse an.** Mit dieser Fehlerbehebung wird eine Einschränkung behoben, bei der Kunden mit mehr als 100 Umgebungen nur die ersten 100 Einträge in der Dropdown-Liste &quot;[!UICONTROL Environment]&quot; in [!UICONTROL Recommendations] sehen konnten. Die zugrunde liegende GraphQL-Abfrage ~getEnvironmentsV2~) wurde mit einer hartcodierten Seitengröße von 100 paginiert, wodurch die Benutzeroberfläche auch dann nur eine Teilliste anzeigte, wenn zusätzliche Seiten verfügbar waren. Für Kunden mit mehr als 100 Umgebungen führte dieses Problem zu fehlenden Optionen und einer unvollständigen Auswahl. Durch die Aktualisierung wird das Limit erhöht, sodass alle Umgebungen zurückgegeben und angezeigt werden. So wird unabhängig von der Anzahl der Umgebungen eine vollständige Sichtbarkeit sichergestellt. (TGT-53903)
+
++++
+
+**Berichte**
+
++++Details anzeigen
+
+* **Es wurde ein Problem behoben, bei dem der [!UICONTROL Reports] nicht deutlich erweiterbare Spalten anzeigte.** Es wurde ein Problem behoben, bei dem die Berichtstabelle nicht eindeutig zeigte, dass zusätzliche Spalten in der aktualisierten Benutzeroberfläche erweitert werden konnten. Dem [!UICONTROL Reports] Pfeil neben den Spaltenüberschriften wurde eine QuickInfo hinzugefügt, die verschwindet, damit Kunden verstehen, dass mehr Spalten verfügbar sind. (TGT-53479)
+
++++
+
+**Ansichten**
+
++++Details anzeigen
+
+* **Auf Ansichten angewendete Änderungen können nicht gelöscht werden.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Benutzende Änderungen innerhalb einer Aktivität nur löschen konnten, wenn die Änderung zuvor erneut auf zusätzliche Ansichten angewendet wurde. Beim Bearbeiten einer Aktivität (z. B. der Aktivitäts-ID 302467) hatte der Versuch, eine Änderung zu löschen, keinerlei Wirkung, weshalb die Benutzer keine unerwünschten Änderungen entfernen konnten. Nachdem eine Änderung jedoch mit „Auf weitere Ansichten anwenden“ erneut angewendet und einem `Page Load`-Ereignis zugewiesen wurde, funktionierte der Löschvorgang plötzlich wie erwartet. (TGT-54088)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **[!UICONTROL Experience Fragment]Name wurde in der neuen VEC-Benutzeroberfläche abgeschnitten** (TGT-54312)
+* **[!UICONTROL Advanced Settings] kann nicht für [!UICONTROL Revenue] Metrik verwendet werden.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Benutzende beim Konfigurieren von [!UICONTROL Advanced Settings] für die [!UICONTROL Revenue]-Metrik in [!UICONTROL Goals & Settings] den 403-Fehler „Zugriff verweigert“ hatten. Das Problem trat beim Hinzufügen einer Abhängigkeitsbedingung auf, die mit dem primären Ziel verknüpft war. Das Backend benötigte fälschlicherweise die Berechtigung zum Bearbeiten selbst für Benutzer, die bereits über ausreichende Berechtigungen zum Erstellen und Bearbeiten von Aktivitäten verfügten. Daher ist das Speichern der Aktivität trotz gültiger Konfiguration fehlgeschlagen. Durch die Aktualisierung wird die Berechtigungsprüfung korrigiert, sodass Benutzende mit geeignetem Zugriff erfolgreich Abhängigkeiten von Umsatzmetriken hinzufügen können, ohne einen Fehler wegen verbotener Ressourcen auszulösen. (TGT-54092)
+* **Es wurde ein Problem behoben, bei dem die Schaltfläche Hinzufügen nicht auf ausgewählte Bilder angewendet wurde.** Es wurde ein Problem behoben, das Kunden daran hinderte, bestimmte Bilder hinzuzufügen, wenn sie ein Bild im Prozess zum Erstellen einer Aktivität auswählen oder aktualisieren wollten. Wenn Kunden nach bestimmten Assets suchen, z. B. nach Bildern, die bei der Suche nach „ipp“ zurückgegeben werden, wird das ausgewählte Bild durch Klicken auf die Schaltfläche &quot;[!UICONTROL Add]&quot; nicht angewendet und es wurde keine Änderung erstellt. Die Auswahl anderer Bilder, z. B. `Homepage-banner-1-moz.jpg`, funktionierte weiterhin wie erwartet. Diese Aktualisierung stellt sicher, dass alle gültigen Bilder in der aktualisierten Benutzeroberfläche konsistent angewendet werden können. (TGT-53610)
+* **Es wurde ein Problem behoben, bei dem durch das Löschen einer URL-Bedingung die Konfiguration der Zielmetrik zurückgesetzt wurde.** Es wurde ein Problem behoben, bei dem das Entfernen einer einzelnen URL-Bedingung in der [!UICONTROL Goal]-Metrik dazu führte, dass die gesamte Konfiguration in der aktualisierten Benutzeroberfläche zurückgesetzt wurde. Als Kundinnen und Kunden versuchten, eine gespeicherte URL-Bedingung unter [!UICONTROL Conversion] > [!UICONTROL Viewed a Page] zu löschen, wechselte der Zieltyp unerwartet zu [!UICONTROL Viewed an Mbox], und alle zuvor konfigurierten Einstellungen wurden entfernt. Durch diese Aktualisierung wird sichergestellt, dass nur die ausgewählte URL-Bedingung gelöscht wird und alle verbleibenden Zieleinstellungen erhalten bleiben. (TGT-53271)
+* **Es wurde ein Problem behoben, bei dem die Suche nicht durch Unterordner führte.** Es wurde ein Problem behoben, bei dem bei der Suche nach Angeboten keine Ergebnisse aus Unterordnern in der aktualisierten Benutzeroberfläche zurückgegeben wurden. Kunden konnten ein Angebot nur finden, wenn sie manuell zu dem Ordner navigiert sind, in dem es gespeichert war, wodurch das Suchverhalten nicht mit den API-Funktionen konsistent war. Die Suche unterstützt jetzt das rekursive Durchsuchen von Ordnern, damit Kunden Angebote finden können, ohne jeden Ordner einzeln öffnen zu müssen. (TGT-51954)
+
++++
 
 ## Versionshinweise für 2025
 
@@ -1207,7 +1362,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Es wurde ein Problem behoben, das beim Verschieben von Angeboten in Ordner zu einem Fehler bei der Benutzereingabe führte. (TGT-52296)
 * Für jede Aktivität wurde ein `audienceMetadata` Feld hinzugefügt, und es wurde sichergestellt, dass es beim Bearbeiten der Aktivität gelesen und aktualisiert wird. (TGT-51004)
 
-### [!DNL Target Standard/Premium] 25.4.5 (25. April 2025)
+### [!DNL Target Standard/Premium] 25.4.5 (Samstag, 25. April 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
@@ -1243,7 +1398,7 @@ Ab dem 22. April 2025 können nur [!UICONTROL Product]- und [!UICONTROL Solution
 
 Weitere Informationen finden Sie unter [Verwaltung von Target](/help/main/administrating-target/start-target.md).
 
-### [!DNL Target Standard/Premium] 25.4.4 (17. April 2025)
+### [!DNL Target Standard/Premium] 25.4.4 (Freitag, 17. April 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
@@ -1258,7 +1413,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Die Diskrepanzen zwischen den für eine Aktivität definierten `OptionLocalIDs` und den für die Definition von Erlebnissen definierten Diskrepanzen wurden behoben. (TGT-52215)
 * Fehlerkorrektur - Beim Erstellen einer A/B-Aktivität tritt jetzt kein Validierungsfehler mehr auf. (TGT-51923)
 
-### [!DNL Target Standard/Premium] 25.4.3 (11. April 2025)
+### [!DNL Target Standard/Premium] 25.4.3 (Samstag, 11. April 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
@@ -1285,7 +1440,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Der Zugriff auf [Karten für Zielgruppendefinitionen](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) im Dialogfeld &quot;[!UICONTROL Activity QA]&quot; wurde wiederhergestellt, ähnlich wie in der veralteten Benutzeroberfläche. (TGT-52056)
 * Die aktualisierte Benutzeroberfläche hat Seiten oder Zielgruppen nicht ohne Änderungen gespeichert. Wenn Kundinnen und Kunden einer Aktivität neue Seiten oder Zielgruppen hinzugefügt, diese jedoch nicht geändert haben, haben [!DNL Target] die unveränderten Zielgruppen beim Speichern verworfen. An relevanten Stellen wurden Benachrichtigungen hinzugefügt, um Benutzer über dieses Verhalten zu informieren. (TGT-52104)
 
-### [!DNL Target Standard/Premium] 25.4.1 (2. April 2025)
+### [!DNL Target Standard/Premium] 25.4.1 (Donnerstag, 2. April 2025)
 
 Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 
@@ -3032,7 +3187,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Webinar-Reihe zu Target-Grundlagen </p> </td> 
-   <td colname="col2"> <p>Nehmen Sie an der neuen Webinar-Serie Target-Grundlagen teil, einer Webinar-Serie über Kundenerfolg aus der Community. </p> <p> Das nächste Webinar, „Best Practices bei Reporting und Wertsozialisation“, findet am 22. August 2018 von 08:00 bis 09:00 Uhr (UTC−7) statt. </p> <p>Siehe <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Webinar-Reihe zu Target-Grundlagen.</a> </p> </td> 
+   <td colname="col2"> <p>Nehmen Sie an der neuen Webinar-Serie Target-Grundlagen teil, einer Webinar-Serie über Customer Success aus der Community. </p> <p> Das nächste Webinar, „Best Practices bei Reporting und Wertsozialisation“, findet am 22. August 2018 von 08:00 bis 09:00 Uhr (UTC−7) statt. </p> <p>Siehe <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Webinar-Reihe zu Target-Grundlagen.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3089,7 +3244,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Webinar-Reihe zu Target-Grundlagen </p> </td> 
-   <td colname="col2"> <p>Nehmen Sie an der neuen <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Webinar-Serie Target-Grundlagen</a> teil, einer Webinar-Serie über Kundenerfolg aus der Community. </p> </td> 
+   <td colname="col2"> <p>Nehmen Sie an der neuen <a href="/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local">Webinar-Serie Target-Grundlagen</a> teil, einer Webinar-Serie über Customer Success aus der Community. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3497,7 +3652,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Newsletter „Adobe Target Insider“ </p> </td> 
-   <td colname="col2"> <p>Adobe Target Insider ist ein monatlicher Newsletter für Mitglieder der Adobe Target Community. Erfahren Sie mehr über Produkt-Updates und Zukunftspläne, Tipps und Tricks zur Personalisierung und Optimierung, Kundenerfolge, bevorstehende Veranstaltungen, informative Whitepaper, beliebte Blog-Posts und vieles mehr. Lesen Sie den <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">Ankündigungsbrief</a>, um mehr darüber zu erfahren. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Abonnieren Sie den Newsletter</a>, damit Sie die außergewöhnlichen Kundenerlebnisse, die den Geschäftserfolg vorantreiben, auch wirklich genießen können. </p> </td> 
+   <td colname="col2"> <p>Adobe Target Insider ist ein monatlicher Newsletter für Mitglieder der Adobe Target Community. Erfahren Sie mehr über Produkt-Updates und Zukunftspläne, Tipps und Tricks zur Personalisierung und Optimierung, Customer Success, bevorstehende Veranstaltungen, informative Whitepaper, beliebte Blog-Posts und vieles mehr. Lesen Sie den <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">Ankündigungsbrief</a>, um mehr darüber zu erfahren. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Abonnieren Sie den Newsletter</a>, damit Sie die außergewöhnlichen Kundenerlebnisse, die den Geschäftserfolg vorantreiben, auch wirklich genießen können. </p> </td> 
   </tr> 
  </tbody> 
 </table>

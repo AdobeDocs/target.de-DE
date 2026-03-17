@@ -4,7 +4,7 @@ description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 3f5b198ad08d85caa9c859171e78b710083e44fb
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 43%
@@ -43,9 +43,11 @@ Inhalt in einem iframe auf der Seite kann nicht im VEC bearbeitet werden. Um Inh
 
 Wenn Sie Ihren Mauszeiger auf der Seite bewegen, folgt dem Cursor ein kontextbezogenes Feld, das Elemente auf der Seite hervorhebt.
 
-<!--Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+<!--
+Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)-->
+![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
+-->
 
 Klicken Sie auf ein hervorgehobenes Element, um ein Menü mit Optionen anzuzeigen, die für diesen Elementtyp verfügbar sind. Sie können beispielsweise auf ein Bild klicken und **[!UICONTROL Change Image]** auswählen, um das Bild in ein anderes Bild zu ändern. Oder klicken Sie auf eine Schaltfläche und ändern Sie die Textfarbe.
 
