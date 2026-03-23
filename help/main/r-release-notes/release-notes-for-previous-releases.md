@@ -4,8 +4,7 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
 source-wordcount: '64670'
 ht-degree: 52%
@@ -101,7 +100,7 @@ Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboa
 
 +++Details anzeigen
 
-* **Auf die Zulassungsliste gesetzt URL-Verwaltungsfunktion.** Der Abschnitt [!UICONTROL Administration] wurde um eine neue Verwaltungsfunktion für &quot;Auf die Zulassungsliste gesetzt URLs“ erweitert, mit der zulässige Muster für Remote-Angebots-URLs verwaltet werden können. Auf die Zulassungsliste setzen Diese Funktion bietet die Möglichkeit, URLs in einer Tabelle anzuzeigen, URLs zu suchen und zu filtern, über das modale Dialogfeld neue URLs hinzuzufügen und URLs mit Bestätigung zu löschen. Mit dieser Funktion können Kunden steuern, welche URLs für Remote-Angebote verwendet werden können. Dies verbessert die Sicherheit und Compliance. (TGT-54486)
+* **Auf die Zulassungsliste gesetzt URL-Verwaltungsfunktion.** Der Abschnitt [!UICONTROL Administration] wurde um eine neue Verwaltungsfunktion für &quot;Auf die Zulassungsliste gesetzt URLs“ erweitert, mit der zulässige Muster für Remote-Angebots-URLs verwaltet werden können. Diese Funktion bietet die Möglichkeit, URLs in einer Tabelle anzuzeigen, URLs zu suchen und zu filtern, über das modale Dialogfeld neue URLs hinzuzufügen und URLs mit Bestätigung zu löschen. Mit dieser Funktion können Kunden steuern, welche URLs für Remote-Angebote verwendet werden können. Dies verbessert die Sicherheit und Compliance. (TGT-54486)
 
 +++
 
@@ -2091,7 +2090,7 @@ Diese Version umfasst die folgenden Funktionen, Verbesserungen und Fehlerbehebun
 | *Adobe Target-Entwicklerhandbuch* | Das *Adobe Target-Entwicklerhandbuch* fasst alle [!DNL Target]-Entwicklerinhalte in einem praktischen Handbuch zusammen. Das Handbuch enthält Informationen zur Implementierung von [!DNL Target] und [!DNL Recommendations], [!DNL Target]-SDKs und [!DNL Target]-APIs.<br>Weitere Informationen finden Sie im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}. |
 
 * Benutzende mit der Rolle [!UICONTROL Editor] können Zielgruppen in Live-Aktivitäten nicht mehr bearbeiten. (TGT-43582)
-* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe (z. B. !London). (TGT-43643)
+* Es wird eine Warnmeldung angezeigt, wenn ein Kunde versucht, eine Zielgruppe mit einem Ausrufezeichen ( ! ) als erstes Zeichen des Namens der Zielgruppe zu speichern (z. B. !London). (TGT-43643)
 * Es wurde ein Fehler behoben, der dazu führte, dass auf den Karten mit Details zur Zielgruppendefinition für einige Kunden eine beendete Aktivität noch immer als laufend angezeigt wurde. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (gestaffelte Veröffentlichung: 7.-9. Juni 2022)
