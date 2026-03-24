@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.3.2 (10. März 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Direkte Angebotsänderungen in werden nicht gespeichert.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem Änderungen an direkten Angeboten innerhalb eines Aktivitätserlebnisses nicht gespeichert wurden. Zuvor, als Benutzer ein Direktangebot öffneten, Änderungen vornahmen und speicherten, schienen die Änderungen zunächst widergespiegelt, gingen aber beim erneuten Öffnen des Angebots verloren. Die Korrektur stellt sicher, dass Änderungen an direkten Angeboten ordnungsgemäß gespeichert werden und beim erneuten Öffnen des Angebots beibehalten werden. (TGT-54653)
+
++++
+
+**Implementierung**
+
++++Details anzeigen
+
+* **Im Bildschirm Implementierung den Umschalter für die Flackerverwaltung hinzufügen.** Dem Bildschirm [!UICONTROL Implementation] wurde ein neuer Umschalter hinzugefügt, um die Aktivierung der Einstellung für die Flimmerverwaltung zu steuern. Mit diesem Umschalter können Administratoren die Flimmerverwaltung direkt im Bildschirm Implementierung konfigurieren. (TGT-52247)
+
++++
+
+**Übersicht**
+
++++Details anzeigen
+
+* **Vollständiger Name der Zielgruppe und des Erlebnisses auf der Übersichtsseite anzeigen.** Diese Verbesserung aktualisiert die [!UICONTROL Overview]-Seite, um den vollständigen Namen der Zielgruppen und Erlebnisse anzuzeigen. Zuvor waren lange Namen abgeschnitten und nicht vollständig sichtbar, sodass Benutzende dreifach klicken mussten, um den gesamten Text auszuwählen und den vollständigen Namen anzuzeigen. Die Aktualisierung stellt sicher, dass vollständige Zielgruppen- und Erlebnisnamen sichtbar sind, sodass Benutzende Aktivitätskonfigurationen leichter identifizieren und überprüfen können. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1 (3. März 2026)
 
