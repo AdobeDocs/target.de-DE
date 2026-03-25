@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
 workflow-type: tm+mt
-source-wordcount: '64864'
+source-wordcount: '64938'
 ht-degree: 52%
 
 ---
@@ -46,6 +46,14 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 +++Details anzeigen
 
 * **Vollständiger Name der Zielgruppe und des Erlebnisses auf der Übersichtsseite anzeigen.** Diese Verbesserung aktualisiert die [!UICONTROL Overview]-Seite, um den vollständigen Namen der Zielgruppen und Erlebnisse anzuzeigen. Zuvor waren lange Namen abgeschnitten und nicht vollständig sichtbar, sodass Benutzende dreifach klicken mussten, um den gesamten Text auszuwählen und den vollständigen Namen anzuzeigen. Die Aktualisierung stellt sicher, dass vollständige Zielgruppen- und Erlebnisnamen sichtbar sind, sodass Benutzende Aktivitätskonfigurationen leichter identifizieren und überprüfen können. (TGT-53323)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **VEC-Änderungen werden nicht auf Sites widergespiegelt, die Shadow DOM (Salesforce Lightning Web Components) verwenden.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem in Adobe Target vorgenommene Änderungen (z. B. Farbänderungen in CTA) nicht gespeichert oder auf der Live-Site für Salesforce-basierte Sites, die Lightning Web Components (LWC) verwenden, wiedergegeben wurden. Der CMS akzeptierte keine Aktualisierungen von Target-Aktivitäten, und dieses Problem trat in A/B-Tests und anderen Aktivitätstypen durchgängig auf. (TGT-54059)
 
 +++
 
