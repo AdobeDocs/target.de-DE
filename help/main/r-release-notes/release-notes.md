@@ -6,11 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (19. März 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (26. März 2026)
+
+**Zielgruppen**
 
 +++Details anzeigen
 
-* **Auswahl des Design-/Durchsuchen-Modus im Web-Editor von Visual Experience Composer sichtbar.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem das Wechseln zwischen dem Design-, Durchsuchen- und Vorschaumodus ordnungsgemäß funktionierte, der aktive Modus jedoch in der Benutzeroberfläche nicht deutlich angezeigt wurde. Der ausgewählte Modus ist jetzt sichtbar hervorgehoben, sodass Sie sehen können, in welchem Modus Sie sich befinden. (TGT-54790)
-
-* **Private Netzwerk-URLs im Visual Experience Composer (Chrome).** Chrome kann Seiten in einem privaten Netzwerk blockieren, es sei denn, der Zugriff auf das lokale Netzwerk ist erlaubt. Der **[!UICONTROL Visual Experience Composer]** fordert nun diese Berechtigung in dem von Experience Cloud verwendeten Rahmen an, damit Chrome eine Eingabeaufforderung mit „Zulassen“ anzeigen kann, anstatt im Hintergrund zu fehlschlagen. Nachdem Sie den Zugriff zugelassen haben, können interne URLs in VEC geladen werden, wenn Ihre Umgebung dies unterstützt. (TGT-54346)
+* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2-Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform angezeigt**. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
 
 +++
 
