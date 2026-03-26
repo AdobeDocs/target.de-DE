@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie den SPA VEC in Adobe verwenden [!DNL Target] 
 title: Wie verwende ich die Single Page App Visual Experience Composer (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -440,3 +440,4 @@ Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede 
 >[!VIDEO](https://video.tv.adobe.com/v/34777?captions=ger)
 
 Weitere [&#x200B; finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
+
