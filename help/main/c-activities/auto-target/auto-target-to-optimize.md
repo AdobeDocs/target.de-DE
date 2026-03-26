@@ -2,10 +2,10 @@
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
 description: Erfahren Sie, wie eine [!UICONTROL Auto-Target] jedem Besucher basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL Auto-Target] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -32,7 +32,7 @@ Lesen Sie weiter, um zu erfahren, wie Sie [!UICONTROL Auto-Target] verwenden kö
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
-Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
+Wählen [ beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
 ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -136,7 +136,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Auto-Target] anstelle von [!
 
 ### Marketing-Experten können Offline-Daten, Tendenzwerte oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen.
 
-* Weitere Informationen zum [&#x200B; von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Weitere Informationen zum [ von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Wie unterscheidet sich [!UICONTROL Auto-Target] von [!UICONTROL Automated Personalization]? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -163,3 +163,4 @@ Wenn Sie beispielsweise eine [!UICONTROL Auto Personalization]-Aktivität hätte
 ## Reporting und [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Weitere Informationen finden Sie unter [Reporting und Automatisches Targeting](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+
