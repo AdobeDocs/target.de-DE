@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
-source-wordcount: '64938'
+source-wordcount: '65113'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,28 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.3.6 (23. März 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Unregelmäßiger grauer Bildschirm nach der Authentifizierung in der neuen Visual Experience Composer-Benutzeroberfläche.** Es wurde ein Problem behoben, bei dem Benutzer nach der Anmeldung beim neuen Visual Experience Composer gelegentlich einen grauen Bildschirm sehen konnten, was eine weitere Bearbeitung verhinderte. Diese Aktualisierung verbessert die Ladezuverlässigkeit nach der Authentifizierung. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4 (19. März 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Auswahl des Design-/Durchsuchen-Modus im Web-Editor von Visual Experience Composer sichtbar.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem das Wechseln zwischen dem Design-, Durchsuchen- und Vorschaumodus ordnungsgemäß funktionierte, der aktive Modus jedoch in der Benutzeroberfläche nicht deutlich angezeigt wurde. Der ausgewählte Modus ist jetzt sichtbar hervorgehoben, sodass Sie sehen können, in welchem Modus Sie sich befinden. (TGT-54790)
+
+* **Private Netzwerk-URLs im Visual Experience Composer (Chrome).** Chrome kann Seiten in einem privaten Netzwerk blockieren, es sei denn, der Zugriff auf das lokale Netzwerk ist erlaubt. Der **[!UICONTROL Visual Experience Composer]** fordert nun diese Berechtigung in dem von Experience Cloud verwendeten Rahmen an, damit Chrome eine Eingabeaufforderung mit „Zulassen“ anzeigen kann, anstatt im Hintergrund zu fehlschlagen. Nachdem Sie den Zugriff zugelassen haben, können interne URLs in VEC geladen werden, wenn Ihre Umgebung dies unterstützt. (TGT-54346)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.2 (10. März 2026)
 
@@ -1705,7 +1727,7 @@ Für alle neuen [!DNL Adobe Experience Platform Web SDK]-Kunden ist diese Optimi
 >
 >Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme beheben können, können Sie eine einmalige Verlängerung um sechs Monate anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 gesendet wird. Adobe prüft Ihre Anfrage und entscheidet darüber.
 
-Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profitieren, überprüfen Sie Ihre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben, oder wenn Sie die `applyPropositions`-Methode (oder die entsprechende [!DNL Launch]-Aktion als Helper) zum Rendern von Erlebnissen verwenden.
+Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profitieren, überprüfen Sie Ihre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben, oder wenn Sie die `applyPropositions`-Methode (oder die entsprechende [!DNL Launch]-Aktion als Helper) zum Rendern von Erlebnissen verwenden.
 
 Zu den häufigsten Szenarien, in denen Erlebnisse manuell gerendert werden, gehören:
 
