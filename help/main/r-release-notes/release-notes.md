@@ -6,11 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 35%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -30,6 +29,20 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1 (Freitag, 2. April 2026)
 
@@ -38,8 +51,6 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 +++Details anzeigen
 
 * **Zielgruppenattribute sind in der Ansicht „Aktivitäten“ sichtbar.** Es wurde ein Problem behoben, bei dem Details zu Zielgruppenregeln, die von einem **[!UICONTROL Activity]** angezeigt wurden, bestimmte Attribute nicht anzeigten, die beim Öffnen derselben Zielgruppe über den Abschnitt **[!UICONTROL Audiences]** angezeigt wurden. (TGT-54742)
-
-* **Benutzerdefinierter Code wird beibehalten, wenn er auf zusätzliche Ansichten angewendet wird.** Es wurde ein Problem behoben, bei dem benutzerdefinierter Code, der auf eine **[!UICONTROL View]** angewendet wurde, entfernt werden konnte, wenn benutzerdefinierter Code für eine andere **[!UICONTROL View]** im selben **[!UICONTROL Activity]** hinzugefügt oder gespeichert wurde. (TGT-53933)
 
 * **Exportieren von CSV zu Aktivitäten und Zielgruppen-Listenseiten.** Es wurde eine **[!UICONTROL Export CSV]** Aktion hinzugefügt, mit der Sie Aktivitätslisten über die Benutzeroberfläche exportieren können, auch wenn Filter angewendet werden, ohne sich ausschließlich auf APIs für Routineexporte zu verlassen. (TGT-51466)
 
@@ -73,7 +84,7 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Details anzeigen
 
@@ -83,15 +94,6 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7 (26. März 2026)
-
-**Zielgruppen**
-
-+++Details anzeigen
-
-* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2-Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform angezeigt**. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
-
-+++
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
