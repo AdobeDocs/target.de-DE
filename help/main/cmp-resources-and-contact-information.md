@@ -87,7 +87,7 @@ Informationen zu Problemen bei der Bereitstellung von Inhalten finden Sie unter 
 
 ### Im Falle von Ausfällen   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de) ([!DNL https://status.adobe.com]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
+Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de) ([!DNL https://status.adobe.com/de-de]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 
 * Beginn des Ausfalls
 * Darlegung der Fakten

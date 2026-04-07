@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 62%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -29,16 +29,71 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
 
-## [!DNL Target Standard/Premium] 26.3.7 (26. März 2026)
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
+
+## [!DNL Target Standard/Premium] 26.4.1 (Freitag, 2. April 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Zielgruppenattribute sind in der Ansicht „Aktivitäten“ sichtbar.** Es wurde ein Problem behoben, bei dem Details zu Zielgruppenregeln, die von einem **[!UICONTROL Activity]** angezeigt wurden, bestimmte Attribute nicht anzeigten, die beim Öffnen derselben Zielgruppe über den Abschnitt **[!UICONTROL Audiences]** angezeigt wurden. (TGT-54742)
+
+* **Exportieren von CSV zu Aktivitäten und Zielgruppen-Listenseiten.** Es wurde eine **[!UICONTROL Export CSV]** Aktion hinzugefügt, mit der Sie Aktivitätslisten über die Benutzeroberfläche exportieren können, auch wenn Filter angewendet werden, ohne sich ausschließlich auf APIs für Routineexporte zu verlassen. (TGT-51466)
+
+* **Erlebnisänderungen werden gekennzeichnet, wenn keine Selektoren gefunden werden.** Erlebnisänderungen führen jetzt eine Selektor-Existenzprüfung durch. Wenn ein Selektor auf der Seite nicht gefunden wird, wird die Änderung als ungültig markiert. (TGT-54815)
+
+* **[!UICONTROL Automated personalization].** Es wurden Probleme mit der Benutzeroberfläche und dem Laden von Aktivitäten behoben, die verhinderten, dass Benutzer Automated Personalization-Aktivitäten zuverlässig erstellen, bearbeiten oder verwalten konnten, wodurch die Kampagneneinrichtung blockiert und Anwendungsfälle für die Personalisierung verzögert wurden. (TGT-54421)
+
++++
 
 **Zielgruppen**
 
 +++Details anzeigen
 
-* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2-Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform angezeigt**. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
+* **Zielgruppenname und Beschreibung, die beim Erstellen von Zielgruppen aus einer Aktivität sichtbar sind.** Es wurde ein Problem behoben, bei dem die **[!UICONTROL Name]** und **[!UICONTROL Description]** Felder der Zielgruppe beim Erstellen oder Bearbeiten einer Zielgruppe aus dem Aktivitätsfluss nicht deutlich hervortraten als beim Erstellen der Zielgruppe direkt unter **[!UICONTROL Audiences]**. (TGT-54837)
 
 +++
+
+**Insights**
+
++++Details anzeigen
+
+* **[!UICONTROL Live Activities]zählen auf Einblicke.** Es wurde ein Problem behoben, bei dem die **[!UICONTROL Live Activities]**-Metrik im Insights-Dashboard eine höhere Gesamtanzahl als die Anzahl der Aktivitäten meldete, die als in **[!UICONTROL All Activities]** aktiv erschienen. (TGT-54788)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+
+* **Lange ID-Listen in [!UICONTROL Global Exclusions].** Es wurde ein Problem behoben, bei dem das Einfügen oder Eingeben einer langen Liste von IDs in **[!UICONTROL Global Exclusions]** in der aktualisierten Benutzeroberfläche im Vergleich zur alten gekürzt werden konnte, was zu einer unvollständigen Ausschlussliste führte. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Enhanced Experience Composer (EEC)-Statusanzeige in der [!UICONTROL Visual Experience Composer].** Der EEC-Indikator gibt an, ob Enhanced Experience Composer aktiviert ist. Die Darstellung wurde überarbeitet, sodass sie nicht mehr einem interaktiven Umschalter ähnelt, da sie nur als nicht interaktive Statusanzeige dient. (TGT-54828)
+
+* **Reduzierbare linke Leiste im [!UICONTROL Visual Experience Composer].** Die linke Leiste kann jetzt reduziert werden, während eine Aktivität zur Bearbeitung geöffnet ist. Dadurch wird der Zugriff auf **[!UICONTROL Components]** und **[!UICONTROL Properties]** für Aktivitäten verbessert, die mehrere Zielgruppen und Seiten enthalten, auch auf kleineren Displays. (TGT-54269)
+
++++
+
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 

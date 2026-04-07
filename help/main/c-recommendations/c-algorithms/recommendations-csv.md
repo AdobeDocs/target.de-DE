@@ -5,7 +5,7 @@ title: Wie lade ich benutzerdefinierte Kriterien in hoch [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Upload CSV]** den **[!UICONTROL Location]** Ihrer CSV-Datei aus.
 
-Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL Download the CSV template]** , um eine korrekt formatierte CSV-Datei zu erhalten.
+   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL Download the CSV template]** , um eine korrekt formatierte CSV-Datei zu erhalten.
 
-Es gibt für Orte zwei Optionen:
+   Es gibt für Orte zwei Optionen:
 
-    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
-    
-    * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
+   * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
+
+   * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 

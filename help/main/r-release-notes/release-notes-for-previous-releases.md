@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,16 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.3.7 (26. März 2026)
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2-Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform angezeigt**. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6 (23. März 2026)
 
