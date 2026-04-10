@@ -4,9 +4,9 @@ description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
+source-wordcount: '65505'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,56 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.4.1 (Freitag, 2. April 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Zielgruppenattribute sind in der Ansicht „Aktivitäten“ sichtbar.** Es wurde ein Problem behoben, bei dem Details zu Zielgruppenregeln, die von einem **[!UICONTROL Activity]** angezeigt wurden, bestimmte Attribute nicht anzeigten, die beim Öffnen derselben Zielgruppe über den Abschnitt **[!UICONTROL Audiences]** angezeigt wurden. (TGT-54742)
+
+* **Exportieren von CSV auf der Listenseite „Aktivitäten“.** Es wurde eine **[!UICONTROL Export CSV]** Aktion hinzugefügt, mit der Sie Aktivitätslisten über die Benutzeroberfläche exportieren können, auch wenn Filter angewendet werden, ohne sich ausschließlich auf APIs für Routineexporte zu verlassen. (TGT-51466)
+
+* **Erlebnisänderungen werden gekennzeichnet, wenn keine Selektoren gefunden werden.** Erlebnisänderungen führen jetzt eine Selektor-Existenzprüfung durch. Wenn ein Selektor auf der Seite nicht gefunden wird, wird die Änderung als ungültig markiert. (TGT-54815)
+
+* **[!UICONTROL Automated personalization].** Es wurden Probleme mit der Benutzeroberfläche und dem Laden von Aktivitäten behoben, die verhinderten, dass Benutzer Automated Personalization-Aktivitäten zuverlässig erstellen, bearbeiten oder verwalten konnten, wodurch die Kampagneneinrichtung blockiert und Anwendungsfälle für die Personalisierung verzögert wurden. (TGT-54421)
+
++++
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Zielgruppenname und Beschreibung, die beim Erstellen von Zielgruppen aus einer Aktivität sichtbar sind.** Es wurde ein Problem behoben, bei dem die **[!UICONTROL Name]** und **[!UICONTROL Description]** Felder der Zielgruppe beim Erstellen oder Bearbeiten einer Zielgruppe aus dem Aktivitätsfluss nicht deutlich hervortraten als beim Erstellen der Zielgruppe direkt unter **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Insights**
+
++++Details anzeigen
+
+* **[!UICONTROL Live Activities]zählen auf Einblicke.** Es wurde ein Problem behoben, bei dem die **[!UICONTROL Live Activities]**-Metrik im Insights-Dashboard eine höhere Gesamtanzahl als die Anzahl der Aktivitäten meldete, die als in **[!UICONTROL All Activities]** aktiv erschienen. (TGT-54788)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+
+* **Lange ID-Listen in [!UICONTROL Global Exclusions].** Es wurde ein Problem behoben, bei dem das Einfügen oder Eingeben einer langen Liste von IDs in **[!UICONTROL Global Exclusions]** in der aktualisierten Benutzeroberfläche im Vergleich zur alten gekürzt werden konnte, was zu einer unvollständigen Ausschlussliste führte. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Enhanced Experience Composer (EEC)-Statusanzeige in der [!UICONTROL Visual Experience Composer].** Der EEC-Indikator gibt an, ob Enhanced Experience Composer aktiviert ist. Die Darstellung wurde überarbeitet, sodass sie nicht mehr einem interaktiven Umschalter ähnelt, da sie nur als nicht interaktive Statusanzeige dient. (TGT-54828)
+
+* **Reduzierbare linke Leiste im [!UICONTROL Visual Experience Composer].** Die linke Leiste kann jetzt reduziert werden, während eine Aktivität zur Bearbeitung geöffnet ist. Dadurch wird der Zugriff auf **[!UICONTROL Components]** und **[!UICONTROL Properties]** für Aktivitäten verbessert, die mehrere Zielgruppen und Seiten enthalten, auch auf kleineren Displays. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26. März 2026)
 
