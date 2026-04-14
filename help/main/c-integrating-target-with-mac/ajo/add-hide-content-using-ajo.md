@@ -20,7 +20,7 @@ In diesem Anwendungsbeispiel werden die geheimen Daten für effektive Inhaltsän
 
 In diesem Anwendungsbeispiel wird gezeigt, wie vertraute Aufgaben, wie z. B. A/B-Tests mit einer [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md)-Aktivität, mithilfe von [!DNL Journey Optimizer] statt [!DNL Adobe Target] durchgeführt werden können.
 
-In diesem Anwendungsbeispiel wird gezeigt, wie Sie mit [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität, ](/help/main/c-activities/t-test-ab/test-ab.md) mit [!DNL Journey Optimizer] vertraute Aufgaben ausführen können.
+In diesem Anwendungsbeispiel wird gezeigt, wie Sie mit [!DNL Adobe Target], A/B-Tests mit einer [A/B-Test-Aktivität, &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md) mit [!DNL Journey Optimizer] vertraute Aufgaben ausführen können.
 
 ## Vorteile und Nutzen
 
