@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 75f0dddcf65e9708aa564335974de1b6c3fd58ca
+source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 83%
@@ -107,9 +107,9 @@ ht-degree: 83%
          + {hide-from-toc}[Komponenten zu einer Web-Seite hinzufügen oder ausblenden](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Arbeiten mit MCP-Clients {#mcp}
-      + {hide-from-toc}[Arbeiten mit MCP-Clients](/help/main/c-integrating-target-with-mac/target-mcp.md)
-      + {hide-from-toc}[Referenz zu Adobe Target MCP-Server-Tools](/help/main/c-integrating-target-with-mac/target-mcp-tools-reference.md)
-      + {hide-from-toc}[Self-Host des Adobe Target MCP-Servers](/help/main/c-integrating-target-with-mac/target-mcp-self-hosted.md)
+      + {hide-from-toc}[Arbeiten mit MCP-Clients](/help/main/mcp/target-mcp.md)
+      + {hide-from-toc}[Referenz zu Adobe Target MCP-Server-Tools](/help/main/mcp/target-mcp-tools-reference.md)
+      + {hide-from-toc}[Self-Host des Adobe Target MCP-Servers](/help/main/mcp/target-mcp-self-hosted.md)
    + Integration von Target mit Adobe Experience Manager (AEM) {#aem}
       + [Übersicht über die Integration von Target in AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments und Inhaltsfragmente {#fragments}
