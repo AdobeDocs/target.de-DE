@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Diese Seite ist eine vollständige Referenz für alle öffentlichen Tools, die v
 
 ## Aktivitäts-Tools {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 Auflisten [!DNL Adobe Target] Aktivitäten mit Server-seitiger Filterung und Sortierung.
 
@@ -67,7 +67,9 @@ Ruft eine paginierte Liste von Aktivitäten ab. Alle Filter werden Server-seitig
 
 **Beispielaufforderung:** „Listet alle aktiven A/B-Tests auf, sortiert nach der letzten Änderung.“
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Detaillierte Informationen zu A/B-Aktivitäten.
 
@@ -81,7 +83,9 @@ Ruft die vollständige Konfiguration eines bestimmten A/B-Tests ab, einschließl
 
 **Beispielaufforderung:** „Details für A/B-12345 abrufen“
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Hier erhalten Sie detaillierte Informationen zu einer Experience Targeting(XT)-Aktivität.
 
@@ -95,7 +99,9 @@ Ruft die vollständige Konfiguration einer bestimmten XT-Aktivität ab, einschli
 
 **Beispielaufforderung:** „Abrufen von Details für Experience Targeting-12345“
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Erhalten Sie detaillierte Informationen zu einer Automated Personalization-Aktivität (AP).
 
@@ -107,7 +113,9 @@ Erhalten Sie detaillierte Informationen zu einer Automated Personalization-Aktiv
 
 **Beispielaufforderung:** „Abrufen von Details für automatische Personalization-12345“
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Erstellen Sie eine neue A/B-Test -Aktivität.
 
@@ -130,7 +138,9 @@ Erstellt einen neuen A/B-Test mit der angegebenen Konfiguration, einschließlich
 
 **Beispielaufforderung:** „Erstellen Sie einen A/B-Test namens „Homepage Hero Test“ mit zwei Erlebnissen, indem Sie verschiedene Hero-Bilder auf der homepage-hero mbox testen.“
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Erstellen Sie eine neue Experience Targeting-(XT)-Aktivität.
 
@@ -152,7 +162,9 @@ Erstellt eine XT-Aktivität, die basierend auf Targeting-Regeln verschiedene Erl
 
 **Beispielaufforderung:** „Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die Besuchern aus verschiedenen Regionen unterschiedliche Inhalte anzeigt.“
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Aktualisieren einer vorhandenen A/B-Aktivität.
 
@@ -167,7 +179,9 @@ Verwendet ein Lese-/Schreibmuster: ruft den aktuellen Status ab, führt Ihre Än
 
 **Beispiel-Eingabeaufforderung:** „Aktualisieren Sie die 12345, um die Traffic-Zuordnung auf 70/30 zu ändern.“
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Aktualisieren Sie eine vorhandene Experience Targeting-Aktivität.
 
@@ -182,7 +196,9 @@ Verwendet ein Lese-, Änderungs- und Schreibmuster.
 
 **Beispielaufforderung:** „XT-12345 aktualisieren, um mobilen Besuchern ein neues Erlebnis hinzuzufügen.“
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Aktualisieren einer bestehenden Automated Personalization-Aktivität.
 
@@ -197,7 +213,9 @@ Verwendet ein Lese-, Änderungs- und Schreibmuster.
 
 **Beispielaufforderung:** „Aktualisieren Sie die 12345 der automatischen Personalization-Aktivität, um das Optimierungsziel zu ändern.“
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Start- und Enddatum der Aktivität aktualisieren
 
@@ -214,7 +232,9 @@ Aktualisiert den Zeitplan einer Aktivität ohne Änderung der anderen Einstellun
 
 **Beispiel-Eingabeaufforderung:** „Aktualisieren Sie den Zeitplan für die A/B-Aktivitäts-12345, die vom 1. Mai bis zum 31. Mai ausgeführt werden soll.“
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Aktivitätsstatus ändern (aktivieren, deaktivieren oder pausieren).
 
@@ -227,7 +247,9 @@ Aktivitätsstatus ändern (aktivieren, deaktivieren oder pausieren).
 
 **Beispielaufforderung:** „Aktivitäts-12345 aktivieren“ oder „Homepage-Heldentest anhalten“.
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Eine Aktivität umbenennen.
 
@@ -242,7 +264,9 @@ Aktualisiert nur den Namen, ohne die vollständige Konfiguration zu ändern.
 
 **Beispielaufforderung:** „Benennen Sie die Aktivität 12345 in „Heldentest der Sommerkampagne“ um.“
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Ändern der Aktivitätspriorität.
 
@@ -257,7 +281,9 @@ Aktivitäten mit höherer Priorität haben Vorrang, wenn mehrere Aktivitäten au
 
 **Beispielaufforderung:** „Legen Sie die Priorität der Aktivität 12345 auf 100 fest.“
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Hinzufügen eines neuen Erlebnisses/einer neuen Variante zu einer Aktivität.
 
@@ -278,7 +304,9 @@ Hinzufügen eines neuen Erlebnisses/einer neuen Variante zu einer Aktivität.
 
 **Beispielaufforderung:** „Fügen Sie 12345 mithilfe von 67890 eine neue Variante mit dem Namen „Feiertagsthema“ zur A/B-Aktivität hinzu.“
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Aktualisieren der Traffic-Zuordnung zu Varianten.
 
@@ -294,7 +322,9 @@ Die Prozentsätze müssen genau 100 betragen.
 
 **Beispielaufforderung:** „Ändern Sie die Traffic-Aufteilung für Aktivitäts-12345 in 70 % Kontrolle und 30 % Variante A.“
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Ändert das Angebot für eine bestimmte Variante.
 
@@ -313,7 +343,9 @@ Funktioniert sowohl für formularbasierte Aktivitäten (mit `offer_id`) als auch
 
 **Beispielaufforderung:** „Aktualisieren Sie das Erlebnis „Variante A“ in Activity 12345, um 99999 zu verwenden.“
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Erlebnis/Variante aus einer Aktivität entfernen
 
@@ -329,9 +361,11 @@ Entfernt das Erlebnis, bereinigt verwaiste Optionen und gleicht den Traffic glei
 
 **Beispielaufforderung:** „Entfernen des Erlebnisses „Testvariante“ aus der A/B-12345.“
 
++++
+
 ## Angebotswerkzeuge {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 Auflisten aller Angebote in Ihrem [!DNL Target].
 
@@ -348,7 +382,9 @@ Ruft eine paginierte Liste von Inhaltsangeboten mit optionaler Filterung ab.
 
 **Beispielaufforderung:** „Alle JSON-Angebote auflisten“
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Erhalten Sie detaillierte Informationen zu einem bestimmten Angebot.
 
@@ -360,7 +396,9 @@ Erhalten Sie detaillierte Informationen zu einem bestimmten Angebot.
 
 **Beispiel-Eingabeaufforderung:** „Abrufen von Details zur 67890“
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Erstellen Sie ein neues HTML-Inhaltsangebot.
 
@@ -374,7 +412,9 @@ Erstellen Sie ein neues HTML-Inhaltsangebot.
 
 **Beispiel-Eingabeaufforderung:** „Erstellen Sie ein HTML-Angebot mit dem Namen „Banner für den Sommerverkauf“ und einem Werbebanner.“
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Erstellen Sie ein neues JSON-Angebot für die Bereitstellung strukturierter Daten.
 
@@ -388,7 +428,9 @@ Erstellen Sie ein neues JSON-Angebot für die Bereitstellung strukturierter Date
 
 **Beispielaufforderung:** „Erstellen Sie ein JSON-Angebot mit dem Namen „Feature Flags Config“ und Umschalter für Funktionen.“
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Vorhandenes Angebot aktualisieren.
 
@@ -402,9 +444,11 @@ Vorhandenes Angebot aktualisieren.
 
 **Beispielaufforderung:** „Aktualisieren der 67890 mit neuen Werbeinhalten.“
 
++++
+
 ## Zielgruppen-Tools {#tools-audiences}
 
-### list_target_audience
++++list_target_audience
 
 Auflisten aller Zielgruppen in Ihrem [!DNL Target].
 
@@ -417,7 +461,9 @@ Auflisten aller Zielgruppen in Ihrem [!DNL Target].
 
 **Beispielaufforderung:** „Listen Sie alle Zielgruppen auf.“
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Erstellen Sie eine neue Audience mit Zielgruppenbestimmungsregeln.
 
@@ -432,9 +478,11 @@ Erstellen Sie eine neue Audience mit Zielgruppenbestimmungsregeln.
 
 **Beispielaufforderung:** „Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“, die auf mobile Benutzer in Kalifornien abzielt.“
 
++++
+
 ## Mbox-Tools {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 Auflisten aller Mboxes in Ihrem [!DNL Target].
 
@@ -449,7 +497,9 @@ Auflisten aller Mboxes in Ihrem [!DNL Target].
 
 **Beispielaufforderung:** „Alle Mboxes auflisten, die &#39;Homepage&#39; enthalten.“
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Abrufen detaillierter Informationen zu einer bestimmten Mbox.
 
@@ -461,7 +511,9 @@ Abrufen detaillierter Informationen zu einer bestimmten Mbox.
 
 **Beispielaufforderung:** „Details für mbox &#39;homepage-hero&#39; abrufen“.
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 Listet alle für die Zielgruppenbestimmung verfügbaren Mbox-Profilattribute auf.
 
@@ -471,9 +523,11 @@ Keine Parameter erforderlich.
 
 **Beispielaufforderung:** „Welche Profilattribute sind für die Zielgruppenbestimmung verfügbar?“
 
++++
+
 ## Eigenschafts-Tools {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 Listet alle Eigenschaften in Ihrem [!DNL Target] auf.
 
@@ -485,9 +539,11 @@ Keine Parameter erforderlich.
 
 **Beispielaufforderung:** „Alle Target-Eigenschaften auflisten“.
 
++++
+
 ## Reporting-Tools {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Abrufen eines Leistungsberichts für eine A/B-Aktivität.
 
@@ -502,7 +558,9 @@ Ruft Konversionsraten, Steigerung und Konfidenzniveaus ab.
 
 **Beispielaufforderung:** „Anzeigen des Leistungsberichts für A/B-Test-12345 der letzten 30 Tage“
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Abrufen eines Berichts zu Bestellungen/Umsatz für eine A/B-Aktivität.
 
@@ -515,7 +573,9 @@ Abrufen eines Berichts zu Bestellungen/Umsatz für eine A/B-Aktivität.
 
 **Beispielaufforderung:** „Bericht zu Bestellungen für 12345 abrufen“
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Abrufen eines Leistungsberichts für eine Experience Targeting-Aktivität.
 
@@ -528,7 +588,9 @@ Abrufen eines Leistungsberichts für eine Experience Targeting-Aktivität.
 
 **Beispielaufforderung:** „Leistung für meine Experience Targeting-54321 anzeigen“
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Abrufen eines Berichts zu Bestellungen/Umsatz für eine Experience Targeting-Aktivität.
 
@@ -541,7 +603,9 @@ Abrufen eines Berichts zu Bestellungen/Umsatz für eine Experience Targeting-Akt
 
 **Beispielaufforderung:** „Abrufen von Auftragsdaten für XT-54321“.
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Suchen Sie nach einer Aktivität anhand des Namens und rufen Sie ihren Leistungsbericht ab.
 
@@ -556,9 +620,11 @@ Nützlich, wenn Sie den Namen der Aktivität, aber nicht ihre ID kennen.
 
 **Beispielaufforderung:** „Abrufen des Leistungsberichts für meine Aktivität „Startseiten-Heldentest“.“
 
++++
+
 ## Vorschau-Tools {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Generieren von Vorschau-URLs für die Browser-QA für eine [!DNL Target].
 
@@ -574,9 +640,11 @@ Erstellt anklickbare Vorschau-Links, die die Anzeige bestimmter Erlebnisse erzwi
 
 **Beispielaufforderung:** „Generieren Sie Vorschau-URLs für die 12345, damit ich jedes Erlebnis in meinem Browser testen kann.“
 
++++
+
 ## Antwort-Token-Tools {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 Auflisten aller Antwort-Token in Ihrem [!DNL Target].
 
@@ -588,7 +656,9 @@ Keine Parameter erforderlich.
 
 **Beispielaufforderung:** „Alle Antwort-Token auflisten“
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Erstellen Sie ein neues benutzerdefiniertes Antwort-Token zum Erfassen zusätzlicher Daten in [!DNL Target].
 
@@ -601,9 +671,11 @@ Erstellen Sie ein neues benutzerdefiniertes Antwort-Token zum Erfassen zusätzli
 
 **Beispielaufforderung:** „Erstellen Sie ein benutzerdefiniertes Antwort-Token namens „campaign_id“ vom Typ „ACTIVITY“.
 
++++
+
 ## Revisionswerkzeuge {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 Auditprotokoll für einen Ressourcentyp abrufen.
 
@@ -620,7 +692,9 @@ Ruft Änderungen an [!DNL Target] Ressourcen mit optionaler Filterung nach Autor
 
 **Beispielaufforderung:** „Administratorprotokoll für Aktivitätsänderungen anzeigen“
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 Ruft alle Revisionen einer bestimmten Entität nach ID ab.
 
@@ -633,9 +707,11 @@ Ruft alle Revisionen einer bestimmten Entität nach ID ab.
 
 **Beispiel-Eingabeaufforderung:** „Alle Änderungen anzeigen, die an Activity 12345 vorgenommen wurden.“
 
++++
+
 ## Vorlagenwerkzeuge {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 Listen Sie die verfügbaren MCP-Ressourcen und Vorlagen für die Erstellung von Aktivitäten und Angeboten auf.
 
@@ -644,6 +720,8 @@ Keine Parameter erforderlich.
 **Gibt** JSON-Objekt zurück, das die verfügbaren Vorlagen und Ressourcen auflistet.
 
 **Beispielaufforderung:** „Welche Vorlagen sind für die Erstellung von Aktivitäten verfügbar?“
+
++++
 
 ## Tools-Zusammenfassung {#tools-summary}
 
