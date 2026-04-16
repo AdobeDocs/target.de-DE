@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 17804b5f8cfce7033bffcad826e5510bfc42a832
+source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 1%
@@ -191,7 +191,7 @@ In den folgenden exemplarischen Vorgehensweisen wird beschrieben, wie Sie allgem
 +++Erstellen von A/B-Tests
 
 **Eingabeaufforderung:**
-> „Erstellen Sie einen A/B-Test namens „Homepage Hero Image Test“ mit zwei Erlebnissen: „Control“ zeigt den aktuellen Helden und „Variant“ zeigt ein neues Hero-Bild mit Sommerthema. Targeting der Homepage-Mbox.“
+„Erstellen Sie einen A/B-Test namens „Homepage Hero Image Test“ mit zwei Erlebnissen: „Control“ zeigt den aktuellen Helden und „Variant“ zeigt ein neues Hero-Bild mit Sommerthema. Targeting der Homepage-Mbox.“
 
 Der KI-Assistent verwendet das `create_ab_activity`-Tool, um die Aktivität mit der von Ihnen beschriebenen Konfiguration zu erstellen. Das Tool gibt die neue Aktivitäts-ID und eine Bestätigung der erstellten Erlebnisse zurück.
 
@@ -200,7 +200,7 @@ Der KI-Assistent verwendet das `create_ab_activity`-Tool, um die Aktivität mit 
 +++Überprüfen der Aktivitätsleistung
 
 **Eingabeaufforderung:**
-> „Zeigen Sie mir die Leistungsmetriken für meine Aktivität „Checkout-Flussoptimierung“ in den letzten 30 Tagen.“
+„Zeigen Sie mir die Leistungsmetriken für meine Aktivität „Checkout-Flussoptimierung“ in den letzten 30 Tagen.“
 
 Der KI-Assistent verwendet `get_ab_performance_report` oder `get_xt_performance_report` (je nach Aktivitätstyp), um Konversionsraten, Besucherzahlen und andere Metriken für das angegebene Zeitfenster abzurufen.
 
@@ -209,7 +209,7 @@ Der KI-Assistent verwendet `get_ab_performance_report` oder `get_xt_performance_
 +++Angebote verwalten
 
 **Eingabeaufforderung:**
-> „Erstellen Sie ein HTML-Angebot mit dem Namen „Banner für den Sommerverkauf“ und einem Werbebanner, das „20 % Rabatt auf alle Sommerartikel“ enthält.“
+„Erstellen Sie ein HTML-Angebot mit dem Namen „Banner für den Sommerverkauf“ und einem Werbebanner, das „20 % Rabatt auf alle Sommerartikel“ enthält.“
 
 Der KI-Assistent verwendet das `create_target_offer`-Tool, um das Angebot mit dem von Ihnen angegebenen HTML-Inhalt zu erstellen, und gibt eine Bestätigung mit der neuen Angebots-ID zurück.
 
@@ -218,7 +218,7 @@ Der KI-Assistent verwendet das `create_target_offer`-Tool, um das Angebot mit de
 +++Erstellen einer Zielgruppe
 
 **Eingabeaufforderung:**
-> „Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“, die Benutzende auf Mobilgeräten mit Standort in Kalifornien anspricht.“
+„Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“, die Benutzende auf Mobilgeräten mit Standort in Kalifornien anspricht.“
 
 Der KI-Assistent verwendet das `create_target_audience`-Tool mit den entsprechenden Zielgruppenbestimmungsregeln, die aus Ihrer Beschreibung abgeleitet wurden.
 
@@ -227,7 +227,7 @@ Der KI-Assistent verwendet das `create_target_audience`-Tool mit den entsprechen
 +++QA-Vorschau-Links erzeugen
 
 **Eingabeaufforderung:**
-> „Generieren Sie Vorschau-URLs für 12345, damit ich jedes Erlebnis testen kann.“
+„Generieren Sie Vorschau-URLs für 12345, damit ich jedes Erlebnis testen kann.“
 
 Der KI-Assistent verwendet das `preview_activity`-Tool, um anklickbare URLs zu generieren, die das Audience-Targeting umgehen, sodass Sie jedes Erlebnis direkt in Ihrem Browser anzeigen können.
 
@@ -236,7 +236,7 @@ Der KI-Assistent verwendet das `preview_activity`-Tool, um anklickbare URLs zu g
 +++Experience Targeting-Aktivität erstellen
 
 **Eingabeaufforderung:**
-> „Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die verschiedene Hero-Banner für Besuchende aus verschiedenen Regionen anzeigt.“
+„Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die verschiedene Hero-Banner für Besuchende aus verschiedenen Regionen anzeigt.“
 
 Der KI-Assistent verwendet `create_xt_activity`, um die Aktivität mit einer zielgruppenbasierten Erlebniszuordnung entsprechend den von Ihnen beschriebenen Regionen zu erstellen.
 
@@ -245,7 +245,7 @@ Der KI-Assistent verwendet `create_xt_activity`, um die Aktivität mit einer zie
 +++Planen einer Aktivität
 
 **Eingabeaufforderung:**
-> „Aktualisieren Sie den Zeitplan für die Aktivität 12345, die am 1. Mai beginnen und am 31. Mai enden soll.“
+„Aktualisieren Sie den Zeitplan für die Aktivität 12345, die am 1. Mai beginnen und am 31. Mai enden soll.“
 
 Der KI-Assistent verwendet das `update_activity_schedule`-Tool, um das neue Start- und Enddatum auf die Aktivität anzuwenden.
 
