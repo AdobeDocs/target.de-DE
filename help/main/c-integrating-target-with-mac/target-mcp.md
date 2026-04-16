@@ -9,14 +9,24 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 214a359b7ab0f6f03355241353e8c3fb6d8bb479
+source-git-commit: 75f0dddcf65e9708aa564335974de1b6c3fd58ca
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '2267'
 ht-degree: 1%
 
 ---
 
 # Arbeiten mit MCP-Clients {#target-mcp}
+
+>[!BEGINSHADEBOX]
+
+Inhaltsverzeichnis:
+
+* **[Arbeiten mit MCP-Clients](target-mcp.md)**
+* [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
+* [MCP-Server selbst hosten](target-mcp-self-hosted.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -174,6 +184,73 @@ Die folgenden Beispiele zeigen, wie Sie mit dem [!DNL Adobe Target] MCP-Server i
 | **Implementierungsprüfung** | „Welche Version von at.js ist konfiguriert und welche Antwort-Token sind derzeit aktiv?“ |
 | **Audit ändern** | „Zeigen Sie mir alle Änderungen, die in den letzten 30 Tagen an der Aktivität 98765 vorgenommen wurden, und wer sie vorgenommen hat.“ |
 
+## exemplarische Vorgehensweisen für Anwendungsfälle {#mcp-use-case-walkthroughs}
+
+In den folgenden exemplarischen Vorgehensweisen wird beschrieben, wie Sie allgemeine Aufgaben mithilfe von Eingabeaufforderungen in natürlicher Sprache mit dem [!DNL Adobe Target] MCP-Server durchführen.
+
++++Erstellen von A/B-Tests
+
+**Eingabeaufforderung:**
+> „Erstellen Sie einen A/B-Test namens „Homepage Hero Image Test“ mit zwei Erlebnissen: „Control“ zeigt den aktuellen Helden und „Variant“ zeigt ein neues Hero-Bild mit Sommerthema. Targeting der Homepage-Mbox.“
+
+Der KI-Assistent verwendet das `create_ab_activity`-Tool, um die Aktivität mit der von Ihnen beschriebenen Konfiguration zu erstellen. Das Tool gibt die neue Aktivitäts-ID und eine Bestätigung der erstellten Erlebnisse zurück.
+
++++
+
++++Überprüfen der Aktivitätsleistung
+
+**Eingabeaufforderung:**
+> „Zeigen Sie mir die Leistungsmetriken für meine Aktivität „Checkout-Flussoptimierung“ in den letzten 30 Tagen.“
+
+Der KI-Assistent verwendet `get_ab_performance_report` oder `get_xt_performance_report` (je nach Aktivitätstyp), um Konversionsraten, Besucherzahlen und andere Metriken für das angegebene Zeitfenster abzurufen.
+
++++
+
++++Angebote verwalten
+
+**Eingabeaufforderung:**
+> „Erstellen Sie ein HTML-Angebot mit dem Namen „Banner für den Sommerverkauf“ und einem Werbebanner, das „20 % Rabatt auf alle Sommerartikel“ enthält.“
+
+Der KI-Assistent verwendet das `create_target_offer`-Tool, um das Angebot mit dem von Ihnen angegebenen HTML-Inhalt zu erstellen, und gibt eine Bestätigung mit der neuen Angebots-ID zurück.
+
++++
+
++++Erstellen einer Zielgruppe
+
+**Eingabeaufforderung:**
+> „Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“, die Benutzende auf Mobilgeräten mit Standort in Kalifornien anspricht.“
+
+Der KI-Assistent verwendet das `create_target_audience`-Tool mit den entsprechenden Zielgruppenbestimmungsregeln, die aus Ihrer Beschreibung abgeleitet wurden.
+
++++
+
++++QA-Vorschau-Links erzeugen
+
+**Eingabeaufforderung:**
+> „Generieren Sie Vorschau-URLs für 12345, damit ich jedes Erlebnis testen kann.“
+
+Der KI-Assistent verwendet das `preview_activity`-Tool, um anklickbare URLs zu generieren, die das Audience-Targeting umgehen, sodass Sie jedes Erlebnis direkt in Ihrem Browser anzeigen können.
+
++++
+
++++Experience Targeting-Aktivität erstellen
+
+**Eingabeaufforderung:**
+> „Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die verschiedene Hero-Banner für Besuchende aus verschiedenen Regionen anzeigt.“
+
+Der KI-Assistent verwendet `create_xt_activity`, um die Aktivität mit einer zielgruppenbasierten Erlebniszuordnung entsprechend den von Ihnen beschriebenen Regionen zu erstellen.
+
++++
+
++++Planen einer Aktivität
+
+**Eingabeaufforderung:**
+> „Aktualisieren Sie den Zeitplan für die Aktivität 12345, die am 1. Mai beginnen und am 31. Mai enden soll.“
+
+Der KI-Assistent verwendet das `update_activity_schedule`-Tool, um das neue Start- und Enddatum auf die Aktivität anzuwenden.
+
++++
+
 ## Voraussetzungen  {#mcp-prerequisites}
 
 Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, stellen Sie Folgendes sicher:
@@ -322,3 +399,11 @@ Die Rolle **Beobachter** gewährt mindestens Zugriff auf alle Lesetools. **Edito
 
 Der MCP-Server führt Vorgänge für die Organisation durch, die mit Ihren authentifizierten Adobe IMS-Anmeldeinformationen verknüpft ist. Wenn Sie innerhalb dieser Organisation Zugriff auf mehrere Eigenschaften haben, können Sie mit dem `list_target_properties`-Tool eine Abfrage nach Eigenschaften durchführen und nachfolgende Anfragen entsprechend filtern.
 +++
+
+## Verwandte Ressourcen {#mcp-related}
+
+* [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
+* [Self-Host des  [!DNL Adobe Target] -MCP-Servers](target-mcp-self-hosted.md)
+* [Dokumentation zum Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [[!DNL Adobe Target] Admin-API-Referenz](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Cursor-Dokumentation](https://docs.cursor.com/){target="_blank"}
