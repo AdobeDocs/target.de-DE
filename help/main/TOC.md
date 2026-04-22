@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1290'
 ht-degree: 83%
 
 ---
@@ -106,9 +106,11 @@ ht-degree: 83%
          + {hide-from-toc}[Inhaltsänderungen durch A/B-Tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Komponenten zu einer Web-Seite hinzufügen oder ausblenden](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Arbeiten mit MCP-Clients {#mcp}
-      + {hide-from-toc}[Arbeiten mit MCP-Clients](c-integrating-target-with-mac/mcp/target-mcp.md)
-      + {hide-from-toc}[Referenz zu Adobe Target MCP-Server-Tools](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
+   + Adobe Target MCP-Server {#mcp}
+      + {hide-from-toc}[Übersicht](c-integrating-target-with-mac/mcp/target-mcp.md)
+      + {hide-from-toc}[Erste Schritte](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
+      + {hide-from-toc}[Anwendungsfälle und exemplarische Vorgehensweisen](c-integrating-target-with-mac/mcp/target-mcp-use-cases.md)
+      + {hide-from-toc}[MCP Server Tools-Referenz](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
    + Integration von Target mit Adobe Experience Manager (AEM) {#aem}
       + [Übersicht über die Integration von Target in AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments und Inhaltsfragmente {#fragments}
