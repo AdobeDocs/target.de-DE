@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1289'
 ht-degree: 83%
 
 ---
@@ -109,7 +109,6 @@ ht-degree: 83%
    + Arbeiten mit MCP-Clients {#mcp}
       + {hide-from-toc}[Arbeiten mit MCP-Clients](c-integrating-target-with-mac/mcp/target-mcp.md)
       + {hide-from-toc}[Referenz zu Adobe Target MCP-Server-Tools](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
-      + {hide-from-toc}[Self-Host des Adobe Target MCP-Servers](c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md)
    + Integration von Target mit Adobe Experience Manager (AEM) {#aem}
       + [Übersicht über die Integration von Target in AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Experience Fragments und Inhaltsfragmente {#fragments}

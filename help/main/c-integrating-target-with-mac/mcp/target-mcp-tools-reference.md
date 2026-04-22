@@ -9,10 +9,10 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 15%
+source-wordcount: '2782'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,6 @@ Inhaltsverzeichnis:
 
 * [Arbeiten mit MCP-Clients](target-mcp.md)
 * **[MCP Server Tools-Referenz](target-mcp-tools-reference.md)**
-* [MCP-Server selbst hosten](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +31,15 @@ Diese Seite ist eine vollständige Referenz für alle öffentlichen Tools, die v
 
 >[!NOTE]
 >
->Hier sind nur öffentliche Tools dokumentiert. Interne und reine Agententools sind ausgeschlossen. Lesetools stehen allen verbundenen Benutzern mit der Rolle **Beobachter** oder höher zur Verfügung. Schreibtools erfordern die Rolle **Bearbeiter** oder **Genehmiger**.
+>Lesetools stehen allen verbundenen Benutzern mit der Rolle **Beobachter** oder höher zur Verfügung. Schreibtools erfordern die Rolle **Bearbeiter** oder **Genehmiger**.
+
+>[!IMPORTANT]
+>
+>Das Model Context Protocol (MCP) ist ein aufstrebender Open-Source-Standard, der Sicherheits- oder Zuverlässigkeitsrisiken mit sich bringen kann. Adobe MCP-Server-Integrationen und die zugehörige Dokumentation werden ohne Mängelgewähr und ohne Gewährleistung jeglicher Art bereitgestellt.
+>
+>Die Verbindung von MCP-Clients oder -Servern mit Adobe-Produkten ist eine vom Kunden gewählte Konfiguration, und die Kunden sind dafür verantwortlich, die Sicherheit und Eignung jeder MCP-Integration zu bewerten. Adobe übernimmt keine Verantwortung für Probleme, die sich aus einer Fehlkonfiguration, einer fehlerhaften Verwendung des MCP, Sicherheitslücken in Drittanbieterimplementierungen oder unbeabsichtigten Aktionen ergeben, die über MCP-fähige Workflows ausgeführt werden.
+>
+>Um Risiken zu reduzieren, empfiehlt Adobe, Integrationen vor der produktiven Verwendung in einer Sandbox-Umgebung zu testen und alle MCP-initiierten Aktionen und Antworten sorgfältig zu überprüfen und zu validieren, bevor sie bestätigt oder sich auf sie verlassen.
 
 ## Aktivitäts-Tools {#tools-activities}
 
@@ -742,5 +749,4 @@ Keine Parameter erforderlich.
 ## Verwandte Ressourcen {#tools-related}
 
 * [Arbeiten mit MCP-Clients](target-mcp.md)
-* [Self-Host des  [!DNL Adobe Target] -MCP-Servers](target-mcp-self-hosted.md)
 * [[!DNL Adobe Target] Admin-API-Referenz](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
