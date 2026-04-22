@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
+source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2941'
 ht-degree: 14%
 
 ---
@@ -43,7 +43,9 @@ Diese Seite ist eine vollständige Referenz für alle öffentlichen Tools, die v
 
 ## Aktivitäts-Tools {#tools-activities}
 
-+++list_target_activities
++++Aktivitäten auflisten
+
+**tool:** `list_target_activities`
 
 Auflisten [!DNL Adobe Target] Aktivitäten mit Server-seitiger Filterung und Sortierung.
 
@@ -76,7 +78,9 @@ Ruft eine paginierte Liste von Aktivitäten ab. Alle Filter werden Server-seitig
 
 +++
 
-+++get_ab_activity
++++Abrufen einer A/B-Aktivität
+
+**tool:** `get_ab_activity`
 
 Detaillierte Informationen zu A/B-Aktivitäten.
 
@@ -92,7 +96,9 @@ Ruft die vollständige Konfiguration eines bestimmten A/B-Tests ab, einschließl
 
 +++
 
-+++get_xt_activity
++++Abrufen einer Experience Targeting-Aktivität
+
+**tool:** `get_xt_activity`
 
 Hier erhalten Sie detaillierte Informationen zu einer Experience Targeting(XT)-Aktivität.
 
@@ -108,7 +114,9 @@ Ruft die vollständige Konfiguration einer bestimmten XT-Aktivität ab, einschli
 
 +++
 
-+++get_abt_activity
++++Abrufen einer Automated Personalization-Aktivität
+
+**tool:** `get_abt_activity`
 
 Erhalten Sie detaillierte Informationen zu einer Automated Personalization-Aktivität (AP).
 
@@ -122,7 +130,9 @@ Erhalten Sie detaillierte Informationen zu einer Automated Personalization-Aktiv
 
 +++
 
-+++create_ab_activity
++++Erstellen einer A/B-Aktivität
+
+**tool:** `create_ab_activity`
 
 Erstellen Sie eine neue A/B-Test -Aktivität.
 
@@ -147,7 +157,9 @@ Erstellt einen neuen A/B-Test mit der angegebenen Konfiguration, einschließlich
 
 +++
 
-+++create_xt_activity
++++Erstellen einer Erlebnis-Targeting-Aktivität
+
+**tool:** `create_xt_activity`
 
 Erstellen Sie eine neue Experience Targeting-(XT)-Aktivität.
 
@@ -171,7 +183,9 @@ Erstellt eine XT-Aktivität, die basierend auf Targeting-Regeln verschiedene Erl
 
 +++
 
-+++update_ab_activity
++++Aktualisieren einer A/B-Aktivität
+
+**tool:** `update_ab_activity`
 
 Aktualisieren einer vorhandenen A/B-Aktivität.
 
@@ -188,7 +202,9 @@ Verwendet ein Lese-/Schreibmuster: ruft den aktuellen Status ab, führt Ihre Än
 
 +++
 
-+++update_xt_activity
++++Experience Targeting-Aktivität aktualisieren
+
+**tool:** `update_xt_activity`
 
 Aktualisieren Sie eine vorhandene Experience Targeting-Aktivität.
 
@@ -205,7 +221,9 @@ Verwendet ein Lese-, Änderungs- und Schreibmuster.
 
 +++
 
-+++update_abt_activity
++++Aktualisieren einer Automated Personalization-Aktivität
+
+**tool:** `update_abt_activity`
 
 Aktualisieren einer bestehenden Automated Personalization-Aktivität.
 
@@ -222,7 +240,9 @@ Verwendet ein Lese-, Änderungs- und Schreibmuster.
 
 +++
 
-+++update_activity_schedule
++++Aktivitätsplanung aktualisieren
+
+**tool:** `update_activity_schedule`
 
 Start- und Enddatum der Aktivität aktualisieren
 
@@ -241,7 +261,9 @@ Aktualisiert den Zeitplan einer Aktivität ohne Änderung der anderen Einstellun
 
 +++
 
-+++update_activity_state
++++Aktivitätsstatus ändern
+
+**tool:** `update_activity_state`
 
 Aktivitätsstatus ändern (aktivieren, deaktivieren oder pausieren).
 
@@ -256,7 +278,9 @@ Aktivitätsstatus ändern (aktivieren, deaktivieren oder pausieren).
 
 +++
 
-+++update_activity_name
++++Eine Aktivität umbenennen
+
+**tool:** `update_activity_name`
 
 Eine Aktivität umbenennen.
 
@@ -273,7 +297,9 @@ Aktualisiert nur den Namen, ohne die vollständige Konfiguration zu ändern.
 
 +++
 
-+++update_activity_priority
++++Aktivitätspriorität ändern
+
+**tool:** `update_activity_priority`
 
 Ändern der Aktivitätspriorität.
 
@@ -290,7 +316,9 @@ Aktivitäten mit höherer Priorität haben Vorrang, wenn mehrere Aktivitäten au
 
 +++
 
-+++add_activity_variant
++++Hinzufügen einer Variante zu einer Aktivität
+
+**tool:** `add_activity_variant`
 
 Hinzufügen eines neuen Erlebnisses/einer neuen Variante zu einer Aktivität.
 
@@ -313,7 +341,9 @@ Hinzufügen eines neuen Erlebnisses/einer neuen Variante zu einer Aktivität.
 
 +++
 
-+++update_traffic_split
++++Traffic-Aufteilung aktualisieren
+
+**tool:** `update_traffic_split`
 
 Aktualisieren der Traffic-Zuordnung zu Varianten.
 
@@ -331,7 +361,9 @@ Die Prozentsätze müssen genau 100 betragen.
 
 +++
 
-+++update_variant_offer
++++Variantenangebot ändern
+
+**tool:** `update_variant_offer`
 
 Ändert das Angebot für eine bestimmte Variante.
 
@@ -352,7 +384,9 @@ Funktioniert sowohl für formularbasierte Aktivitäten (mit `offer_id`) als auch
 
 +++
 
-+++remove_activity_variant
++++Entfernen einer Variante aus einer Aktivität
+
+**tool:** `remove_activity_variant`
 
 Erlebnis/Variante aus einer Aktivität entfernen
 
@@ -372,7 +406,9 @@ Entfernt das Erlebnis, bereinigt verwaiste Optionen und gleicht den Traffic glei
 
 ## Angebotswerkzeuge {#tools-offers}
 
-+++list_target_offers
++++Angebote auflisten
+
+**tool:** `list_target_offers`
 
 Auflisten aller Angebote in Ihrem [!DNL Target].
 
@@ -391,7 +427,9 @@ Ruft eine paginierte Liste von Inhaltsangeboten mit optionaler Filterung ab.
 
 +++
 
-+++get_target_offer
++++Angebot abrufen
+
+**tool:** `get_target_offer`
 
 Erhalten Sie detaillierte Informationen zu einem bestimmten Angebot.
 
@@ -405,7 +443,9 @@ Erhalten Sie detaillierte Informationen zu einem bestimmten Angebot.
 
 +++
 
-+++create_target_offer
++++Erstellen eines HTML-Angebots
+
+**tool:** `create_target_offer`
 
 Erstellen Sie ein neues HTML-Inhaltsangebot.
 
@@ -421,7 +461,9 @@ Erstellen Sie ein neues HTML-Inhaltsangebot.
 
 +++
 
-+++create_target_json_offer
++++Erstellen eines JSON-Angebots
+
+**tool:** `create_target_json_offer`
 
 Erstellen Sie ein neues JSON-Angebot für die Bereitstellung strukturierter Daten.
 
@@ -437,7 +479,9 @@ Erstellen Sie ein neues JSON-Angebot für die Bereitstellung strukturierter Date
 
 +++
 
-+++update_target_offer
++++Aktualisieren eines Angebots
+
+**tool:** `update_target_offer`
 
 Vorhandenes Angebot aktualisieren.
 
@@ -455,7 +499,9 @@ Vorhandenes Angebot aktualisieren.
 
 ## Zielgruppen-Tools {#tools-audiences}
 
-+++list_target_audience
++++Audiences auflisten
+
+**tool:** `list_target_audiences`
 
 Auflisten aller Zielgruppen in Ihrem [!DNL Target].
 
@@ -470,7 +516,9 @@ Auflisten aller Zielgruppen in Ihrem [!DNL Target].
 
 +++
 
-+++create_target_audience
++++Erstellen von Zielgruppen
+
+**tool:** `create_target_audience`
 
 Erstellen Sie eine neue Audience mit Zielgruppenbestimmungsregeln.
 
@@ -489,7 +537,9 @@ Erstellen Sie eine neue Audience mit Zielgruppenbestimmungsregeln.
 
 ## Mbox-Tools {#tools-mboxes}
 
-+++list_target_mboxes
++++Mboxes auflisten
+
+**tool:** `list_target_mboxes`
 
 Auflisten aller Mboxes in Ihrem [!DNL Target].
 
@@ -506,7 +556,9 @@ Auflisten aller Mboxes in Ihrem [!DNL Target].
 
 +++
 
-+++get_target_mbox
++++Abrufen einer Mbox
+
+**tool:** `get_target_mbox`
 
 Abrufen detaillierter Informationen zu einer bestimmten Mbox.
 
@@ -520,7 +572,9 @@ Abrufen detaillierter Informationen zu einer bestimmten Mbox.
 
 +++
 
-+++list_target_mbox_profile_attributes
++++Mbox-Profilattribute auflisten
+
+**tool:** `list_target_mbox_profile_attributes`
 
 Listet alle für die Zielgruppenbestimmung verfügbaren Mbox-Profilattribute auf.
 
@@ -534,7 +588,9 @@ Keine Parameter erforderlich.
 
 ## Eigenschafts-Tools {#tools-properties}
 
-+++list_target_properties
++++Eigenschaften der Liste
+
+**tool:** `list_target_properties`
 
 Listet alle Eigenschaften in Ihrem [!DNL Target] auf.
 
@@ -550,7 +606,9 @@ Keine Parameter erforderlich.
 
 ## Reporting-Tools {#tools-reporting}
 
-+++get_ab_performance_report
++++Abrufen eines A/B-Leistungsberichts
+
+**tool:** `get_ab_performance_report`
 
 Abrufen eines Leistungsberichts für eine A/B-Aktivität.
 
@@ -567,7 +625,9 @@ Ruft Konversionsraten, Steigerung und Konfidenzniveaus ab.
 
 +++
 
-+++get_ab_orders_report
++++Abrufen eines Berichts zu A/B-Bestellungen
+
+**tool:** `get_ab_orders_report`
 
 Abrufen eines Berichts zu Bestellungen/Umsatz für eine A/B-Aktivität.
 
@@ -582,7 +642,9 @@ Abrufen eines Berichts zu Bestellungen/Umsatz für eine A/B-Aktivität.
 
 +++
 
-+++get_xt_performance_report
++++Abrufen eines Experience Targeting-Leistungsberichts
+
+**tool:** `get_xt_performance_report`
 
 Abrufen eines Leistungsberichts für eine Experience Targeting-Aktivität.
 
@@ -597,7 +659,9 @@ Abrufen eines Leistungsberichts für eine Experience Targeting-Aktivität.
 
 +++
 
-+++get_xt_orders_report
++++Abrufen eines Berichts zu Experience Targeting-Bestellungen
+
+**tool:** `get_xt_orders_report`
 
 Abrufen eines Berichts zu Bestellungen/Umsatz für eine Experience Targeting-Aktivität.
 
@@ -612,7 +676,9 @@ Abrufen eines Berichts zu Bestellungen/Umsatz für eine Experience Targeting-Akt
 
 +++
 
-+++get_activity_report_by_name
++++Abrufen eines Leistungsberichts nach Aktivitätsname
+
+**tool:** `get_activity_report_by_name`
 
 Suchen Sie nach einer Aktivität anhand des Namens und rufen Sie ihren Leistungsbericht ab.
 
@@ -631,7 +697,9 @@ Nützlich, wenn Sie den Namen der Aktivität, aber nicht ihre ID kennen.
 
 ## Vorschau-Tools {#tools-preview}
 
-+++preview_activity
++++Vorschau einer Aktivität anzeigen
+
+**tool:** `preview_activity`
 
 Generieren von Vorschau-URLs für die Browser-QA für eine [!DNL Target].
 
@@ -651,7 +719,9 @@ Erstellt anklickbare Vorschau-Links, die die Anzeige bestimmter Erlebnisse erzwi
 
 ## Antwort-Token-Tools {#tools-response-tokens}
 
-+++list_target_response_tokens
++++Auflisten von Antwort-Token
+
+**tool:** `list_target_response_tokens`
 
 Auflisten aller Antwort-Token in Ihrem [!DNL Target].
 
@@ -665,7 +735,9 @@ Keine Parameter erforderlich.
 
 +++
 
-+++create_target_response_token
++++Erstellen eines Antwort-Tokens
+
+**tool:** `create_target_response_token`
 
 Erstellen Sie ein neues benutzerdefiniertes Antwort-Token zum Erfassen zusätzlicher Daten in [!DNL Target].
 
@@ -682,7 +754,9 @@ Erstellen Sie ein neues benutzerdefiniertes Antwort-Token zum Erfassen zusätzli
 
 ## Revisionswerkzeuge {#tools-revisions}
 
-+++get_target_revisions
++++Auditprotokoll abrufen
+
+**tool:** `get_target_revisions`
 
 Auditprotokoll für einen Ressourcentyp abrufen.
 
@@ -701,7 +775,9 @@ Ruft Änderungen an [!DNL Target] Ressourcen mit optionaler Filterung nach Autor
 
 +++
 
-+++get_target_entity_revisions
++++Abrufen von Revisionen für eine bestimmte Entität
+
+**tool:** `get_target_entity_revisions`
 
 Ruft alle Revisionen einer bestimmten Entität nach ID ab.
 
@@ -718,7 +794,9 @@ Ruft alle Revisionen einer bestimmten Entität nach ID ab.
 
 ## Vorlagenwerkzeuge {#tools-templates}
 
-+++list_target_templates
++++Verfügbare Vorlagen auflisten
+
+**tool:** `list_target_templates`
 
 Listen Sie die verfügbaren MCP-Ressourcen und Vorlagen für die Erstellung von Aktivitäten und Angeboten auf.
 
