@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
+source-git-commit: 6e7fa766f3da76f3e9d1f4527bfe50b9e703db4e
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2376'
 ht-degree: 1%
 
 ---
@@ -24,15 +24,22 @@ Inhaltsverzeichnis:
 
 * **[Arbeiten mit MCP-Clients](target-mcp.md)**
 * [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
-* [MCP-Server selbst hosten](target-mcp-self-hosted.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Der [!DNL Adobe Target] MCP-Server ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code** und **Cursor** verfügbar. In zukünftigen Versionen wird Unterstützung für weitere MCP-kompatible Anwendungen hinzugefügt.
+>Der [!DNL Adobe Target] MCP-Server ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** verfügbar. In zukünftigen Versionen wird Unterstützung für weitere MCP-kompatible Anwendungen hinzugefügt.
 
 Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests, Personalisierungsaktivitäten und Recommendations-Kriterien direkt von Ihrem KI-Assistenten aus überprüfen, analysieren und verwalten. Verwandeln Sie die Lese- und Schreib-APIs von [!DNL Target] in Nur-Sprache-Workflows. Überprüfen Sie Ihr Experimentportfolio, überprüfen Sie Leistungsberichte, verwalten Sie Audiences und Angebote und führen Sie gesteuerte Aktionen durch, ohne die Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben. Auf dieser Seite wird erläutert, wie die Integration funktioniert, was Sie damit tun können und wie Sie beginnen können.
+
+>[!IMPORTANT]
+>
+>Das Model Context Protocol (MCP) ist ein aufstrebender Open-Source-Standard, der Sicherheits- oder Zuverlässigkeitsrisiken mit sich bringen kann. Adobe MCP-Server-Integrationen und die zugehörige Dokumentation werden ohne Mängelgewähr und ohne Gewährleistung jeglicher Art bereitgestellt.
+>
+>Die Verbindung von MCP-Clients oder -Servern mit Adobe-Produkten ist eine vom Kunden gewählte Konfiguration, und die Kunden sind dafür verantwortlich, die Sicherheit und Eignung jeder MCP-Integration zu bewerten. Adobe übernimmt keine Verantwortung für Probleme, die sich aus einer Fehlkonfiguration, einer fehlerhaften Verwendung des MCP, Sicherheitslücken in Drittanbieterimplementierungen oder unbeabsichtigten Aktionen ergeben, die über MCP-fähige Workflows ausgeführt werden.
+>
+>Um Risiken zu reduzieren, empfiehlt Adobe, Integrationen vor der produktiven Verwendung in einer Sandbox-Umgebung zu testen und alle MCP-initiierten Aktionen und Antworten sorgfältig zu überprüfen und zu validieren, bevor sie bestätigt oder sich auf sie verlassen.
 
 ## Was ist das Modell-Kontextprotokoll? {#mcp-overview}
 
@@ -256,7 +263,7 @@ Der KI-Assistent verwendet das `update_activity_schedule`-Tool, um das neue Star
 Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, stellen Sie Folgendes sicher:
 
 * Sie verfügen über eine aktive [!DNL Adobe Target] (Adobe Experience Cloud-Abonnement) mit einer Adobe Experience Platform-Organisation.
-* Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code oder Cursor).
+* Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code, Cursor oder ChatGPT).
 * Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert:
    * **Beobachterrolle** schreibgeschützte Tools
    * **Editor** Rolle: Lesen und Erstellen von Tools
@@ -362,7 +369,7 @@ OAuth-Token werden bei jeder Anfrage anhand von Adobe IMS validiert, werden nich
 
 +++Welche MCP-Clients werden unterstützt?
 
-Der [!DNL Adobe Target] MCP-Server ist derzeit für **Claude Web**, **Claude Desktop**, **Claude Code** und **Cursor** verfügbar. Die Unterstützung für weitere MCP-kompatible Anwendungen kann in zukünftigen Versionen hinzugefügt werden.
+Der [!DNL Adobe Target] MCP-Server ist derzeit verfügbar für **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT**. Die Unterstützung für weitere MCP-kompatible Anwendungen kann in zukünftigen Versionen hinzugefügt werden.
 +++
 
 +++Auf welche [!DNL Adobe Target] Objekte kann ich über MCP zugreifen?
@@ -382,7 +389,7 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 +++Werden meine [!DNL Adobe Target] an den MCP-Client-Anbieter gesendet?
 
-Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe &#x200B;](https://www.adobe.com/de/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
+Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe ](https://www.adobe.com/de/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?
@@ -403,7 +410,6 @@ Der MCP-Server führt Vorgänge für die Organisation durch, die mit Ihren authe
 ## Verwandte Ressourcen {#mcp-related}
 
 * [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
-* [Self-Host des  [!DNL Adobe Target] -MCP-Servers](target-mcp-self-hosted.md)
 * [Dokumentation zum Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
 * [[!DNL Adobe Target] Admin-API-Referenz](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Cursor-Dokumentation](https://docs.cursor.com/){target="_blank"}
