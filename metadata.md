@@ -2,30 +2,31 @@
 cloud: Experience Cloud
 product: target
 solution: Target
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
 audience: end-user
 type: Documentation
-git-repo: https://github.com/AdobeDocs/target.de-DE
-landing-page-breadcrumb-title: Target
+git-repo: https://github.com/AdobeDocs/target.en
+landing-page-breadcrumb-title: Target 
 landing-page-name: target
 index: true
-source-git-commit: 8dc638c665547aba1e53474bcf9f338604ff3b8e
+source-git-commit: 01b72ed0d6a18ac17c4092dbcac7599962277a1f
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: 124
+ht-degree: 0%
 
 ---
 
 
 # Metadaten für die interne Verwendung
 
-Die Datei „metadata.md“ enthält Replizierungsmetadaten, die an Benutzerhandbuchdaten TOC.md im Repo übergeben werden. Wenn Sie metadata.md-Inhalte für ein beliebiges Benutzerhandbuch ändern möchten, tun Sie dies in jeder beliebigen TOC.md-Datei.
+Die Datei „metadata.md“ enthält Metadaten auf Repo-Ebene, die an die im Repository enthaltenen TOC.md-Dateien des Benutzerhandbuchs weitergegeben werden. Wenn Sie den Inhalt von „metadata.md“ für ein Benutzerhandbuch ändern möchten, verwenden Sie dazu eine beliebige Inhaltsverzeichnisdatei (.md).
 
 | Metadaten | Funktion |
 |--- |--- |
 | solution-title | Wird in der Artikelkopfzeile als Link verwendet |
-| solution-hub-url | Öffnet die helpx-Hub-Seite |
-| solution-icon | Zeigt ein Lösungssymbol neben dem Titel der Lösung an. Noch nicht implementiert |
-| getting-started-url | Link zur Startseite von helpx |
-| tutorials-url | Link zu Videotutorials – entweder helpx-Tutorials oder KT-Tutorials |
-| mini-toc-levels | Legt fest, wie viele Überschriftenebenen in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
-| git-repo | Gibt den Speicherort des Master-Repos für die interne Verwendung an |
+| solution-hub-url | Öffnet die Hilfs-Hub-Seite |
+| solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
+| getting-started-url | Link zu Hilfen für die ersten Schritte |
+| tutorials-url | Link zu Video-Tutorials - entweder Hilfs-Tutorials oder KT-Tutorials |
+| Mini-Inhaltsverzeichnisebenen | Bestimmt die Anzahl der Überschriftenebenen, die in der rechten Leiste angezeigt werden. Der Standardwert ist 2 |
+| git-repo | Gibt den Speicherort des primären Repositorys für die interne Verwendung an |
