@@ -6,10 +6,10 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.3 (Freitag, 9. April 2026)
+## [!DNL Target Standard/Premium] 26.4.4 (28. April 2026)
 
 **Aktivitäten**
 
 +++Details anzeigen
 
-* **Standort fehlt in einigen Aktivitäten.** Es wurde ein Problem behoben, bei dem **[!UICONTROL Location]** in einigen Aktivitäten fehlte. (TGT-54951)
+* **Fehler mit Zielgruppenfilter in Berichten.** Es wurde ein Problem behoben, bei dem eine Änderung des Zielgruppenfilters in **[!UICONTROL Goals & Settings]** einen Fehler im Abschnitt Reporting der [!DNL Target]-Benutzeroberfläche verursachte. (TGT-55006)
 
-* **Berichtsmetriken - Spaltenreihenfolge.** Die aktualisierte [!DNL Target] ermöglicht die Neuanordnung von Berichtsmetriken, ohne die vollständige Auswahl zu löschen und Metriken der Reihe nach neu hinzuzufügen. Zuvor mussten Benutzende die Auswahl aller Metriken aufheben und sie in der gewünschten Reihenfolge erneut auswählen, was zeitaufwendig war, wenn viele Metriken aktiviert waren und die Spaltenplatzierung angepasst wurde, um das horizontale Scrollen zu begrenzen. (TGT-53044)
+* **Aktivitäten nach Priorität sortieren.** Es wurde eine Sortierung nach Priorität auf der Aktivitätenliste unter Verwendung der **[!UICONTROL Priority]** Spaltenüberschrift hinzugefügt, wobei aufsteigende und absteigende Reihenfolge mit anderen sortierbaren Spalten übereinstimmen. (TGT-54948)
+
+* **Zusätzliche Aktivitätseigenschaften werden nach dem Speichern nicht beibehalten.** Es wurde ein Problem behoben, bei dem bestimmte **[!UICONTROL Properties]** nach dem Speichern und erneuten Öffnen einer Aktivität nicht beibehalten wurden. (TGT-53889)
+
++++
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **Japanische Kennzeichnungen für [!UICONTROL Page Delivery] Regeloperatoren.** Fehlerkorrektur - Unlesbare oder beschädigte Zeichenfolgen für Operatorkennzeichnungen der Seitenbereitstellungsregel in der japanischen Benutzeroberfläche wurden korrigiert. (TGT-53097)
+
++++
+
+**APIs**
+
++++Details anzeigen
+
+* **Reporting [!DNL GraphQL] API-Unterstützung für `segmentId`.** `segmentId` zur Reporting-[!DNL GraphQL]-API hinzugefügt. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Details anzeigen
+
+* **Änderungen werden im Editor am falschen Erlebnis angezeigt.** Es wurde ein Problem behoben, bei dem ein Löschen oder eine andere Änderung im falschen Erlebnis angezeigt werden konnte, nachdem zwischen Erlebnissen in der [!UICONTROL Visual Experience Composer] gewechselt wurde. (TGT-54955)
+
+* **Änderungen beim Löschen von insert HTML entfernt.** Es wurde ein Problem behoben, bei dem durch Löschen des zusätzlichen **[!UICONTROL HTML]**-Blocks, der mit **[!UICONTROL Insert before]** oder **[!UICONTROL Insert after]** hinzugefügt wurde, auch eine verknüpfte Änderung entfernt wurde, die keinen CSS-Selektor hatte. (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -50,15 +83,6 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 
 +++
 -->
-
-## [!DNL Target Standard/Premium] 26.4.2 (Mittwoch, 7. April 2026)
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **Benutzerdefinierter Code wird beibehalten, wenn er auf zusätzliche Ansichten angewendet wird.** Es wurde ein Problem behoben, bei dem benutzerdefinierter Code, der auf eine **[!UICONTROL View]** angewendet wurde, entfernt werden konnte, wenn benutzerdefinierter Code für eine andere **[!UICONTROL View]** im selben **[!UICONTROL Activity]** hinzugefügt oder gespeichert wurde. (TGT-53933)
-+++
 
 ## Zusätzliche Versionshinweise und Versionsdetails
 
