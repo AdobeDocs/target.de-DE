@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Handbuch für Adobe Target-Unternehmensfachleute - Startseite](target-home.md)
 + Target-Versionshinweise {#release-notes}
-   + {hide-from-toc}[Target-Ankündigungen und -Events](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[Target-Ankündigungen und -Ereignisse](/help/main/r-release-notes/target-announcements.md)
    + [Target-Versionshinweise (aktuell)](r-release-notes/release-notes.md)
    + [Target-Versionshinweise (Vorabversion)](r-release-notes/target-release-notes.md)
    + [Überblick über die Dokumentation zu Target](/help/main/r-release-notes/target-documentation.md)
@@ -85,7 +85,7 @@ ht-degree: 83%
       + [A4T-Reporting](c-integrating-target-with-mac/a4t/reporting.md)
       + Fehlerbehebung bei der Integration von Analytics und Target (A4T) {#troubleshoot-a4t}
          + [Fehlerbehebung bei A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-      + Häufig gestellte Fragen zu A4T   {#a4t-faq}
+      + Häufig gestellte Fragen zu A4T {#a4t-faq}
          + [Erste Bereitstellung – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Aktivitätseinstellungen – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Anzeigen von Berichten – Häufig gestellte Fragen zu A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -99,12 +99,13 @@ ht-degree: 83%
    + Integration von Target mit Adobe Customer Journey Analytics {#cja}
       + [Target-Reporting in Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Integration von Target mit Adobe Journey Optimizer (AJO) {#ajo}
-      + [Verwenden von Angebotsentscheidungen &#x200B;](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + {hide-from-toc}[Integrieren [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer-Anwendungsfälle {#use-cases}
          + {hide-from-toc}[Top-Anwendungsfälle für die Optimierung in Adobe Journey Optimizer - Web- und Code-basierte Kanäle](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[Inhaltsänderungen durch A/B-Tests in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Komponenten zu einer Web-Seite hinzufügen oder ausblenden](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [Integration von Target mit Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + Adobe Target MCP-Server {#mcp}
       + {hide-from-toc}[Übersicht](c-integrating-target-with-mac/mcp/target-mcp.md)
@@ -345,4 +346,4 @@ ht-degree: 83%
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
