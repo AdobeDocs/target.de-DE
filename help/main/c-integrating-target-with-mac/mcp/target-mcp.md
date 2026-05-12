@@ -85,7 +85,7 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 +++Werden meine [!DNL Adobe Target] an den MCP-Client-Anbieter gesendet?
 
-Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe ](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
+Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe &#x200B;](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?
