@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,11 @@ Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, s
 
 * Sie verfügen über eine aktive [!DNL Adobe Target] (Adobe Experience Cloud-Abonnement) mit einer Adobe Experience Platform-Organisation.
 * Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code, Cursor oder ChatGPT).
-* Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert:
-   * **Beobachterrolle** schreibgeschützte Tools
-   * **Editor** Rolle: Lesen und Erstellen von Tools
-   * **Genehmiger** Rolle: Lesen + Erstellen + Aktivieren/Deaktivieren von Tools
+* Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert. In Public Beta sind alle 23 verfügbaren Tools schreibgeschützt. **Beobachterrolle** oder höher ist ausreichend, um den MCP-Server zu verwenden.
+
+>[!NOTE]
+>
+>Schreib-Tools (Erstellen, Aktualisieren, Aktivieren, Deaktivieren) werden nicht über den öffentlichen MCP-Katalog in Public Beta bereitgestellt. Mit den Rollenberechtigungen „Bearbeiter“ und „Genehmiger“ können derzeit keine zusätzlichen Tools entsperrt werden. Der Schreibzugriff wird in einer zukünftigen Version verfügbar sein.
 
 ## MCP-Server [!DNL Adobe Target] {#mcp-connect}
 
@@ -112,7 +113,7 @@ Schließen Sie den OAuth-Browser-Fluss ab, wenn Sie bei der ersten Verwendung da
 
 +++Ein Tool gibt eine Fehlermeldung zurück
 
-1. Stellen Sie sicher, dass Sie in [!DNL Adobe Target] über die erforderlichen Berechtigungen für den Vorgang verfügen (siehe [Voraussetzungen](#mcp-prerequisites)).
+1. Überprüfen Sie, ob **Beobachter** oder höher in [!DNL Adobe Target] ist (siehe [Voraussetzungen](#mcp-prerequisites)).
 1. Überprüfen Sie, ob die referenzierten Ressourcen - Aktivitäten, Angebote, Zielgruppen - in Ihrer Organisation vorhanden sind.
 1. Überprüfen Sie, ob Aktivitäts-IDs und andere Kennungen korrekt sind.
 +++
