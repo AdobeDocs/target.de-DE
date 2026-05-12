@@ -4,10 +4,21 @@ title: Handbuch für Business-Anwender*innen von Adobe Target
 description: Erfahren Sie, wie Sie die Erlebnisse Ihrer Kund*innen mit Adobe  [!DNL Target]  personalisieren können, um die durch Ihre Website, mobile Website, Mobile Apps und andere digitalen Kanäle generierten Umsätze zu maximieren.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 27%
+source-wordcount: 703
+ht-degree: 33%
 
 ---
 
@@ -15,25 +26,17 @@ ht-degree: 27%
 
 [!DNL Adobe Target] ist die [!DNL Adobe Experience Cloud]-Lösung, die Ihnen all das bietet, was Sie benötigen, um die Erlebnisse Ihrer Kunden anzupassen und zu personalisieren. So können Sie Umsätze auf Ihren Web- und mobilen Sites, in Apps, Social Media und anderen digitalen Kanälen maximieren.
 
-**Letzte Änderung: 26. Januar 2026 ( [hier finden Sie die Änderungen](r-release-notes/doc-change.md) )**
+**Zuletzt aktualisiert: 12. Mai 2026 ( [siehe Änderungen](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Achtung!]
-
-**Aktualisiert: Umschalten der Version der [!DNL Target]-Benutzeroberfläche (17. Juni 2025)**
-
-Das [!DNL Target]-Team hat die Timeline für den Umschalter der Version der Benutzeroberfläche angepasst, sodass dieser nicht mehr unterstützt wird.
-
-[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
-
 >[!TAB Neuigkeiten]
 
-**Target 26.1.1 ist live!**
+**[!DNL Adobe Target]MCP-Server (Public Beta)**
 
-Dieser Release konzentriert sich auf Fehlerbehebungen und Verbesserungen der aktualisierten [!DNL Target]-Benutzeroberfläche und des [!UICONTROL Visual Experience Composer] (VEC).
+[!DNL Adobe Target] bietet jetzt einen MCP-Server (Model Context Protocol), der Experimentier-, Personalisierungs- und Berichtsvorgänge direkt in jeder MCP-kompatiblen Anwendung, einschließlich Claude, Cursor und ChatGPT, aufzeigt.
 
-[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)
 
 >[!TAB Die Target-Benutzeroberfläche wurde aktualisiert]
 
@@ -53,7 +56,7 @@ In diesen häufig gestellten Fragen werden häufig gestellte Fragen zur neuen [!
 
 **[!DNL AI Assistant] in[!DNL Adobe Experience Platform]**
 
-[!DNL AI Assistant] ist Ihr intelligenter Leitfaden zum Navigieren in [!DNL Adobe Experience Cloud]. [!DNL Target] ist in Produkten wie [!DNL AI Assistant] verfügbar und hilft Ihnen, wichtige Konzepte und Funktionen schnell zu verstehen - und zwar direkt über die Benutzeroberfläche.
+[!DNL AI Assistant] ist Ihr intelligenter Leitfaden zum Navigieren in [!DNL Adobe Experience Cloud]. [!DNL AI Assistant] ist in Produkten wie [!DNL Target] verfügbar und hilft Ihnen, wichtige Konzepte und Funktionen schnell zu verstehen - und zwar direkt über die Benutzeroberfläche.
 
 [![Symbol „Weitere Informationen“](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 

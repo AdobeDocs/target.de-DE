@@ -4,10 +4,28 @@ description: Halten Sie sich über wichtige Ergänzungen und Änderungen in der 
 title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehen?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 38%
+source-wordcount: 2503
+ht-degree: 32%
 
 ---
 
@@ -16,6 +34,19 @@ ht-degree: 38%
 Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL Adobe Target] zusammengefasst.
 
 ## Aktualisierungen
+
+### [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
+
+| Datum | Thema | Änderungen |
+|--- |--- |--- |
+| &#x200B;12. Mai | [[!DNL Adobe Target] Handbuch für Unternehmensfachleute](/help/main/target-home.md) | Die Startseite wurde aktualisiert, um die Ankündigung zum [!DNL Adobe Target] MCP-Server (Public Beta) zu ermöglichen, und veraltete Ankündigungen aus dem Jahr 2025 wurden entfernt. |
+|  | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für das Feature Update des [!DNL Adobe Target] MCP-Servers (Public Beta) hinzugefügt. |
+|  | [[!DNL Adobe Target] MCP-Server - Übersicht](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) | Neuer Artikel. Erfahren Sie, was der [!DNL Adobe Target] MCP-Server ist, welche wichtigen Funktionen er bietet und wie er eine Verbindung zu Ihrem KI-Assistenten herstellt. |
+|  | [Erste Schritte mit dem  [!DNL Adobe Target] -MCP-Server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | Neuer Artikel. Erfahren Sie, wie Sie den [!DNL Adobe Target] MCP-Server mit Ihrem KI-Assistenten verbinden, einschließlich Voraussetzungen, Client-Konfiguration und Fehlerbehebung. |
+|  | [[!DNL Adobe Target] MCP-Server - Anwendungsfälle und exemplarische Vorgehensweisen](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | Neuer Artikel. Erkunden Sie häufige Anwendungsfälle und schrittweise Anleitungen für den [!DNL Adobe Target] MCP-Server. |
+|  | [[!DNL Adobe Target] MCP Server Tools-Referenz](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Neuer Artikel. Vollständige Parameterreferenz für alle schreibgeschützten Tools, die vom [!DNL Adobe Target] MCP-Server bereitgestellt werden. |
+|  | [Self-Host des  [!DNL Adobe Target] -MCP-Servers](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | Neuer Artikel. Erfahren Sie, wie Sie Ihre eigene Instanz des [!DNL Adobe Target] MCP-Servers mit Python, Docker oder einer lokalen Entwicklungsumgebung ausführen. |
+| &#x200B;7. Mai | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 26.5.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (18. Januar 2026)
 
@@ -38,7 +69,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | Datum | Thema | Änderungen |
 |--- |--- |--- |
 | 5. November | [[!DNL Adobe Targe]T [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/de/docs/target-dev/developer/api/profile-apis/profile-bulk-api#empty){target=_blank} | Der neue Abschnitt Umgang mit leeren Werten in der [!DNL Bulk Profile Update API] wurde hinzugefügt. |
-| &#x200B;28. Oktober | [Zulassungsliste  [!DNL Target] Edge-Knoten](https://experienceleague.adobe.com/de/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Auf die Zulassungsliste setzen Aktualisierte IP-Adressen, die Sie ändern können. |
+| &#x200B;28. Oktober | [Zulassungsliste  [!DNL Target] Edge-Knoten](https://experienceleague.adobe.com/de/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Aktualisierte IP-Adressen, die Sie ändern können. |
 | &#x200B;27. Oktober | [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md) | Die Beschränkungen für die maximale Länge des Profilparameterwerts unter dem *Batch mbox v2* und *Bereitstellungs-API-Endpunkt* wurden korrigiert. |
 | &#x200B;22. Oktober | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.10.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
