@@ -5,10 +5,23 @@ title: Wo kann ich Aktualisierungen an der Dokumentation von  [!DNL Target] sehe
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
 source-wordcount: 2503
@@ -86,7 +99,7 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 | &#x200B;27. August | [[!DNL Target] Versionshinweise (Vorabversion)](/help/main/r-release-notes/target-release-notes.md) | Die Hinweise zur Vorabversion für die Version 25.8.4 von [!DNL Target] wurden aktualisiert. Veröffentlichungstermine, Funktionen und andere Informationen können ohne Ankündigung geändert werden. Die Informationen in diesem Artikel werden häufig aktualisiert, insbesondere vor Versionen. |
 |  | [Element-Selektoren, die in Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | Option &quot;[!UICONTROL Use preferred selectors]&quot; hinzugefügt. |
 | 22. August | [CNAME und [!DNL Target]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} im *[!DNL Target]Entwicklerhandbuch* | Der gesamte Artikel wurde aktualisiert, um den Workflow zu verbessern. |
-|  | [Planen und Implementieren von ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} im *[!DNL Target]Entwicklerhandbuch* | Es wurde ein Hinweis hinzugefügt, dass beim Aktualisieren [!DNL Recommendations] [!UICONTROL Catalogs] über die [!DNL Target Delivery API] Vorsicht geboten ist. |
+|  | [Planen und Implementieren von &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} im *[!DNL Target]Entwicklerhandbuch* | Es wurde ein Hinweis hinzugefügt, dass beim Aktualisieren [!DNL Recommendations] [!UICONTROL Catalogs] über die [!DNL Target Delivery API] Vorsicht geboten ist. |
 | 21. August | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 25.8.3 von [!DNL Target Standard/Premium] hinzugefügt. |
 | &#x200B;18. August | [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} im *[!DNL Target]Entwicklerhandbuch* | Die folgenden Abschnitte wurden aktualisiert:<ul><li>Das GET-Anfrage-Code-Snippet wurde aktualisiert.</li><li>Die Tabelle mit Abfragezeichenfolgenparametern und Variablen wurde aktualisiert.</li><li>Der Abschnitt *Beispiel-HTTP-GET-Aufruf zum Einfügen von A4T-Daten* wurde aktualisiert.</li></ul> |
 |  | [Adobe Target Bulk Profile Update API](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} im *[!DNL Target]Entwicklerhandbuch* | Aktualisieren Sie den Hinweis, welche Version der API verwendet werden soll. |
