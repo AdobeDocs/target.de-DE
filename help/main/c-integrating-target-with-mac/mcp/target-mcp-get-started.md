@@ -8,27 +8,21 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit dem [!DNL Adobe Target] MCP-Server {#target-mcp-get-started}
 
->[!BEGINSHADEBOX]
 
-Inhaltsverzeichnis:
+>[!AVAILABILITY]
+>
+>Der [!DNL Adobe Target] MCP-Server steht allen Kunden in **Public Beta** zur Verfügung. Es wird derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** unterstützt.
 
-* [Überblick](target-mcp.md)
-* **[Erste Schritte](target-mcp-get-started.md)**
-* [Anwendungsbeispiele und exemplarische Vorgehensweisen](target-mcp-use-cases.md)
-* [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
-
+Diese Seite führt Sie durch alles, was Sie benötigen, um den [!DNL Adobe Target] MCP-Server mit Ihrem KI-Assistenten zu verbinden und Ihre Einrichtung zu überprüfen.
 
 >[!IMPORTANT]
 >
@@ -38,9 +32,7 @@ Inhaltsverzeichnis:
 >
 >Um Risiken zu reduzieren, empfiehlt Adobe, Integrationen vor der produktiven Verwendung in einer Sandbox-Umgebung zu testen und alle MCP-initiierten Aktionen und Antworten sorgfältig zu überprüfen und zu validieren, bevor sie bestätigt oder sich auf sie verlassen.
 
-Diese Seite führt Sie durch alles, was Sie benötigen, um den [!DNL Adobe Target] MCP-Server mit Ihrem KI-Assistenten zu verbinden und Ihre Einrichtung zu überprüfen.
-
-## Voraussetzungen  {#mcp-prerequisites}
+## Voraussetzungen {#mcp-prerequisites}
 
 Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, stellen Sie Folgendes sicher:
 
@@ -152,5 +144,5 @@ OAuth-Token werden bei jeder Anfrage anhand von Adobe IMS validiert, werden nich
 * [Überblick](target-mcp.md)
 * [Anwendungsbeispiele und exemplarische Vorgehensweisen](target-mcp-use-cases.md)
 * [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
-* [Dokumentation zum Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Admin-API-Referenz](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Dokumentation zum Modellkontextprotokoll](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [API-Referenz für [!DNL Adobe Target] Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
