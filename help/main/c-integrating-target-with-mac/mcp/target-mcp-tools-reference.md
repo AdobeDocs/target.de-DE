@@ -2,15 +2,15 @@
 solution: Target
 product: target
 title: Adobe Target MCP Server Tools-Referenz
-description: Vollständige Parameterreferenz für alle 21 schreibgeschützten Tools, die vom Adobe Target MCP-Server bereitgestellt werden.
+description: Vollständige Parameterreferenz für alle 23 schreibgeschützten Tools, die vom Adobe Target MCP-Server bereitgestellt werden.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1883'
 ht-degree: 11%
 
 ---
@@ -35,9 +35,11 @@ Diese Seite ist eine vollständige Referenz für alle schreibgeschützten Tools,
 
 Ihre [!DNL Adobe Target] bestimmt, welche Tools Ihnen zur Verfügung stehen:
 
-* **Beobachter** Rolle oder höher: Zugriff auf alle Lesewerkzeuge
-* **Editor**-Rolle: Zugriff auf Lese- und Schreib-Tools (Erstellen)
-* **Genehmiger** Rolle: Zugriff auf das Lesen, Schreiben und Aktivieren/Deaktivieren von Tools
+* **Beobachterrolle** oder höher: Zugriff auf alle 23 schreibgeschützten Tools
+
+>[!NOTE]
+>
+>Schreib-Tools (Erstellen, Aktualisieren, Aktivieren, Deaktivieren) werden nicht über den öffentlichen MCP-Katalog in Public Beta bereitgestellt. Alle 23 auf dieser Seite aufgelisteten Tools sind schreibgeschützt. Der Schreibzugriff wird in einer zukünftigen Version verfügbar sein.
 
 Vollständige Setup-Anweisungen finden Sie unter [Erste Schritte](target-mcp-get-started.md).
 
@@ -544,6 +546,24 @@ Auflisten aller Zielgruppen in Ihrem [!DNL Target].
 
 +++
 
++++Abrufen einer Zielgruppe
+
+**tool:** `get_target_audience`
+
+Abrufen von Zielgruppendetails, einschließlich Zielgruppenbestimmungsregeln.
+
+Ruft die vollständige Konfiguration einer bestimmten Zielgruppe ab, einschließlich ihrer Zielgruppenbestimmungsregeln und -bedingungen.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `audience_id` | Ganzzahl | Ja | Die eindeutige Kennung der Zielgruppe |
+
+**Rückgabe** Vollständige Zielgruppendetails, einschließlich `id`, `name`, `description`, `origin`, Zielgruppenbestimmungsregeln und der Anzahl der zugehörigen Aktivitäten.
+
+**Beispielaufforderung:** „Abrufen von Details für Zielgruppen-12345 und Anzeigen der Zielgruppenbestimmungsregeln.“
+
++++
+
 <!--
 +++Create an audience
 
@@ -725,6 +745,25 @@ Nützlich, wenn Sie den Namen der Aktivität, aber nicht ihre ID kennen.
 
 +++
 
++++Abrufen eines Analytics for Target-(A4T)-Berichts
+
+**tool:** `get_a4t_report`
+
+Abrufen eines Analytics for Target-(A4T)-Berichts für eine [!DNL Target].
+
+Validiert die A4T-Konfiguration für die Aktivität und führt dann GraphQL-Abfragen für [!DNL Adobe Analytics] aus, um Analytics-seitige Metriken abzurufen. Nur für Aktivitäten verfügbar, für die A4T-Berichte konfiguriert sind.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der [!DNL Target] Aktivität |
+| `report_interval` | string | Nein | Zeitraum für den Bericht (z. B. `last7days`, `last30days` oder benutzerdefinierter Datumsbereich) |
+
+**Gibt** Analytics-seitige Metriken für die Aktivität zurück, einschließlich Besucherzahlen, Konversionen, Umsatz und Steigerung nach Erlebnis, die direkt aus [!DNL Adobe Analytics] bezogen werden.
+
+**Beispielaufforderung:** „Ziehen Sie den A4T-Bericht für meinen Checkout-Optimierungstest ab und fassen Sie die Analytics-seitigen Konversionsdaten zusammen.“
+
++++
+
 ## Vorschau-Tools {#tools-preview}
 
 +++Vorschau einer Aktivität anzeigen
@@ -846,15 +885,15 @@ Keine Parameter erforderlich.
 |---|---|---|
 | Aktivität | 4 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity` |
 | Angebot | 2 | `list_target_offers`, `get_target_offer` |
-| Zielgruppe | 1 | `list_target_audiences` |
+| Zielgruppe | 2 | `list_target_audiences`, `get_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Eigenschaft | 1 | `list_target_properties` |
-| Berichterstellung | 5 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name` |
+| Berichterstellung | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Vorschau | 1 | `preview_activity` |
 | Antwort-Token | 1 | `list_target_response_tokens` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Vorlage | 1 | `list_target_templates` |
-| **Gesamt** | **21** | |
+| **Gesamt** | **23** | |
 
 ## Verwandte Ressourcen {#tools-related}
 
