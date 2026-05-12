@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 ---
 
 # [!DNL Adobe Target] MCP-Server {#target-mcp}
-
 
 Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests, Personalisierungsaktivitäten und Recommendations-Kriterien direkt von Ihrem KI-Assistenten aus überprüfen, analysieren und verwalten. Verwandeln Sie die Lese- und Schreib-APIs von [!DNL Target] in Nur-Sprache-Workflows. Überprüfen Sie Ihr Experimentportfolio, überprüfen Sie Leistungsberichte, verwalten Sie Audiences und Angebote und führen Sie gesteuerte Aktionen durch, ohne die Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
 
@@ -85,7 +84,7 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 +++Werden meine [!DNL Adobe Target] an den MCP-Client-Anbieter gesendet?
 
-Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe &#x200B;](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
+Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe ](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?

@@ -8,7 +8,7 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
+source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 # [!DNL Adobe Target] MCP-Server - Anwendungsfälle und exemplarische Vorgehensweisen {#target-mcp-use-cases}
 
-
 >[!AVAILABILITY]
 >
 >Der [!DNL Adobe Target] MCP-Server steht allen Kunden in **Public Beta** zur Verfügung. Es wird derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** unterstützt.
-
 
 Auf dieser Seite erfahren Sie, was Sie mit dem [!DNL Adobe Target] MCP-Server mithilfe von Eingabeaufforderungen in natürlicher Sprache erreichen können, von der Schnellsuche bis hin zu mehrstufigen Aktivitätsverwaltungsaufgaben.
 
