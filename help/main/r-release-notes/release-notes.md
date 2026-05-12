@@ -6,10 +6,15 @@ short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen 
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 860dd22fc4ec261a62869cb656d72bd49f2bd91c
+TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 51%
+source-wordcount: 633
+ht-degree: 42%
 
 ---
 
@@ -28,6 +33,18 @@ Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Imp
 ### Veraltungs-Umschalter für [!DNL Target]-Benutzeroberfläche
 
 Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen zur Benutzeroberflächen-Aktualisierung](/help/main/c-intro/updated-ui-faq.md).
+
+
+## Neueste Updates - 12. Mai 2026
+
+**[!DNL Adobe Target]MCP-Server (Public Beta)**
+
+[!DNL Adobe Target] bietet jetzt einen MCP-Server (Model Context Protocol), der Experimentier-, Personalisierungs- und Berichtsvorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. Mit dieser Integration können Marketing- und technische Fachleute A/B-Tests untersuchen, Leistungsberichte analysieren, Zielgruppen und Angebote verwalten und gesteuerte Aktionen durchführen - alles mithilfe von Aufforderungen in natürlicher Sprache, anstatt in mehreren Bildschirmen der Benutzeroberfläche zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben. Diese Funktion ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** verfügbar.
+
+Diese Funktion steht allen Kunden in Public Beta zur Verfügung.
+
+Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
 
@@ -63,7 +80,7 @@ Weitere Informationen finden Sie unter [[!DNL Target] Häufig gestellte Fragen z
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Details anzeigen
 

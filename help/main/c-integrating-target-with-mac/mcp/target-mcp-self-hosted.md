@@ -8,33 +8,29 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer
 level: Experienced
-hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
 
 # Self-Host des [!DNL Adobe Target] MCP-Servers {#target-mcp-self-hosted}
 
->[!BEGINSHADEBOX]
 
-Inhaltsverzeichnis:
+>[!AVAILABILITY]
+>
+>Der [!DNL Adobe Target] MCP-Server steht allen Kunden in **Public Beta** zur Verfügung. Es wird derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** unterstützt.
 
-* [Arbeiten mit MCP-Clients](target-mcp.md)
-* [MCP Server Tools-Referenz](target-mcp-tools-reference.md)
-* **[Self-Host des MCP-Servers](target-mcp-self-hosted.md)**
-
->[!ENDSHADEBOX]
+Auf dieser Seite wird beschrieben, wie Sie Ihre eigene Instanz des [!DNL Adobe Target] MCP-Servers klonen, konfigurieren und ausführen. Das Self-Hosting ist nützlich, wenn Sie eine lokale Entwicklungsumgebung oder eine benutzerdefinierte Netzwerkkonfiguration benötigen oder zur Code-Basis des Servers beitragen möchten.
 
 >[!AVAILABILITY]
 >
 >Die selbst gehostete Bereitstellung richtet sich an Entwickler und fortgeschrittene Benutzer, die die volle Kontrolle über die [!DNL Adobe Target] MCP-Server-Laufzeit benötigen. Für die meisten Benutzer wird der gehostete Endpunkt (`https://targetmcp.adobe.io/mcp`) empfohlen. Siehe [Arbeiten mit MCP-](target-mcp.md).
 
-Auf dieser Seite wird beschrieben, wie Sie Ihre eigene Instanz des [!DNL Adobe Target] MCP-Servers klonen, konfigurieren und ausführen. Das Self-Hosting ist nützlich, wenn Sie eine lokale Entwicklungsumgebung oder eine benutzerdefinierte Netzwerkkonfiguration benötigen oder zur Code-Basis des Servers beitragen möchten.
 
-## Voraussetzungen  {#self-hosted-prereqs}
+
+## Voraussetzungen {#self-hosted-prereqs}
 
 Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
@@ -192,5 +188,5 @@ curl http://localhost:8080/health
 ## Verwandte Ressourcen {#self-hosted-related}
 
 * [Arbeiten mit MCP-Clients](target-mcp.md) - Einrichtung gehosteter Endpunkte und Tool-Referenz
-* [Dokumentation zum Model Context Protocol](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Admin-API-Referenz](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Dokumentation zum Modellkontextprotokoll](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [API-Referenz für [!DNL Adobe Target] Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
