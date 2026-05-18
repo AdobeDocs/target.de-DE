@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Konfiguration für Scene7](administrating-target/scene7-settings.md)
    + [Implementierung](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[Vorab-Ausblenden von Inhalten](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Umgebungen](/help/main/administrating-target/environments.md)
    + [Antwort-Token](administrating-target/response-tokens.md)
