@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
 workflow-type: tm+mt
-source-wordcount: 630
-ht-degree: 43%
+source-wordcount: 504
+ht-degree: 53%
 
 ---
 
@@ -31,57 +31,33 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 26.5.2 (14. Mai 2026)
 
-## Neueste Updates - 12. Mai 2026
+**Administration**
+
++++Details anzeigen
+
+* **Regex-Validierung für zulässige URLs.** Es wurde ein Problem behoben, bei dem ungültige reguläre Ausdrücke ohne ordnungsgemäße Validierung in das **[!UICONTROL Allowed URLs]** eingegeben werden konnten. (TGT-55095)
+
++++
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Schaltflächen in [!UICONTROL Edit Audience] Dialogfeld.** Es wurde ein Problem behoben, bei dem Schaltflächen im **[!UICONTROL Edit Audience]**-Dialogfeld nicht mehr korrekt wiedergegeben wurden. (TGT-54638)
+
++++
 
 **[!DNL Adobe Target]MCP-Server (Public Beta)**
+
++++Details anzeigen
 
 [!DNL Adobe Target] bietet jetzt einen MCP-Server (Model Context Protocol), der Experimentier-, Personalisierungs- und Berichtsvorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. Mit dieser Integration können Marketing- und technische Fachleute A/B-Tests untersuchen, Leistungsberichte analysieren und Audiences und Angebote untersuchen - und dies alles mithilfe von Aufforderungen in natürlicher Sprache, anstatt in mehreren Bildschirmen der Benutzeroberfläche zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben. Diese Funktion ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** verfügbar.
 
 Diese Funktion steht allen Kunden in Public Beta zur Verfügung.
 
 Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-integrating-target-with-mac/mcp/target-mcp.md).
-
-
-## [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
-
-**Integrationen**
-
-+++Details anzeigen
-
-* **[!DNL Adobe Target]in Experimentation Accelerator.** Es wurde Unterstützung für die Zuweisung [!DNL Target] Arbeitsbereiche zu Experimentation Accelerator-Sandboxes hinzugefügt, damit Teams Experimente aus [!DNL Adobe Target] in Experimentation Accelerator an einem Ort anzeigen können. [Weitere Informationen](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **[!UICONTROL Graph View]mit Tabelle und Download nicht synchron.** Es wurde ein Problem behoben, bei dem Aktivitätsberichte in **[!UICONTROL Graph View]** für einige Datumsbereiche fehlende oder null Metriken anzeigen konnten, obwohl **[!UICONTROL Table View]** und der heruntergeladene Bericht immer noch die richtigen Werte zeigten. (TGT-54998)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++Details anzeigen
-
-* **Liste der Zielgruppennutzung nicht vollständig gerendert.** Es wurde ein Problem behoben, bei dem der Abschnitt **[!UICONTROL Usage]** in den Zielgruppendetails nur eine Teilmenge der zugeordneten Aktivitäten anzeigen konnte, selbst wenn zusätzliche Aktivitäten mit dieser Zielgruppe verknüpft waren. (TGT-55094)
-
-+++
-
-**[!UICONTROL Administration]**
-
-+++Details anzeigen
-
-* **Klarere Bestätigung für IP-Verschleierung des letzten Oktetts.** Wenn Sie **[!UICONTROL Obfuscate Visitor IP addresses]** in **[!UICONTROL Last octet]** auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** ändern, wird im Bestätigungsdialogfeld jetzt erklärt, dass [!DNL Target] das letzte Oktett der Besucher-IP-Adresse ausblendet. (TGT-44821)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Details anzeigen
-
-* **Leere oder unvollständige Seite mit Enhanced Experience Composer (EEC).** Es wurde ein Problem behoben, bei dem der [!UICONTROL Visual Experience Composer] die Site nicht im Editor laden konnte, wenn **[!UICONTROL Enhanced Experience Composer]** aktiviert war. (TGT-54576)
 
 +++
 
