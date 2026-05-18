@@ -6,9 +6,9 @@ feature: Administration & Configuration
 role: Admin
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
 hide: true
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '576'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie
 
 1. Klicken Sie auf **[!UICONTROL Save]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
 
-1. Klicken Sie nach der Aktivierung auf **[!UICONTROL Download]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird.
+1. Klicken Sie nach der Aktivierung auf **[!UICONTROL Download]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
