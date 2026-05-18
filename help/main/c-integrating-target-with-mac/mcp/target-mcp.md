@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP-Server {#target-mcp}
 
-Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests, Personalisierungsaktivitäten und Recommendations-Kriterien direkt von Ihrem KI-Assistenten aus überprüfen und analysieren. Verwandeln Sie die Experimentier- und Personalisierungsdaten von [!DNL Target] in Nur-Sprache-Workflows. Überprüfen Sie Ihr Experimentierportfolio, überprüfen Sie Leistungsberichte und erkunden Sie Zielgruppen und Angebote, ohne in der Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
+Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests und Personalisierungsaktivitäten direkt von Ihrem KI-Assistenten aus überprüfen und analysieren. Verwandeln Sie die Experimentier- und Personalisierungsdaten von [!DNL Target] in Nur-Sprache-Workflows. Überprüfen Sie Ihr Experimentierportfolio, überprüfen Sie Leistungsberichte und erkunden Sie Zielgruppen und Angebote, ohne in der Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
 
 >[!AVAILABILITY]
 >
@@ -28,7 +28,7 @@ Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests, Personalisier
 
 Marketing- und Optimierungsteams verlassen sich zunehmend auf Chat-basierte Anwendungen und Entwickler-Tools - wie Anthropic Claude, OpenAI ChatGPT, Cursor und Microsoft Copilot Studio - um ihre tägliche Arbeit zu optimieren. Diese Anwendungen unterstützen das **Model Context Protocol (MCP)**, einen offenen Standard, der es Anwendungen ermöglicht, Backend-Tools auf einheitliche Weise für große Sprachmodelle (LLMs) verfügbar zu machen.
 
-[!DNL Adobe Target] bietet jetzt einen MCP-Server, der Experimentier-, Personalisierungs- und Recommendations-Vorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. [!DNL Adobe Target] fungiert als Entscheidungs- und Ausführungsebene, während der KI-Assistent Argumentation und Erläuterung verarbeitet. So erhalten Teams schneller Zugriff auf Optimierungseinblicke, ohne durch mehrere Produktbildschirme zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben.
+[!DNL Adobe Target] bietet jetzt einen MCP-Server, der Experimentier- und Personalisierungsvorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. [!DNL Adobe Target] fungiert als Entscheidungs- und Ausführungsebene, während der KI-Assistent Argumentation und Erläuterung verarbeitet. So erhalten Teams schneller Zugriff auf Optimierungseinblicke, ohne durch mehrere Produktbildschirme zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben.
 
 
 >[!IMPORTANT]
@@ -41,13 +41,13 @@ Marketing- und Optimierungsteams verlassen sich zunehmend auf Chat-basierte Anwe
 
 ## Wichtigste Funktionen {#mcp-capabilities}
 
-Der [!DNL Adobe Target] MCP-Server bietet Lesezugriff auf Aktivitäten, Zielgruppen, Angebote, Empfehlungen und die Implementierungskonfiguration. Mit der Integration können Sie:
+Der [!DNL Adobe Target] MCP-Server bietet Lesezugriff auf Aktivitäten, Zielgruppen, Angebote und die Implementierungskonfiguration. Mit der Integration können Sie:
 
 * **Experimente überprüfen und überprüfen** - Sie erhalten Links zu Status, Leistung, Änderungsverlauf und QA-Vorschau für jede Aktivität, ohne in der Benutzeroberfläche zu navigieren.
 * **Ergebnisse analysieren** - Abrufen von Performance-, Umsatz- und A4T-Berichten für A/B-, XT-, AP- und Auto-Target-Aktivitäten.
 * **Aktivitäten erkunden** - Auflisten, Überprüfen und Analysieren von A/B- und XT-Aktivitäten.
 * **Erkunden von Zielgruppen und Angeboten** - Auflisten und Überprüfen von Zielgruppen, HTML-Angeboten und JSON-Angeboten.
-* **Explore Recommendations-**: Auflisten und Überprüfen von Kriterien und Warenkorb-basierten Algorithmen.
+<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Audit-Implementierung** - Überprüfen Sie at.js-Einstellungen, Antwort-Token und den Revisionsverlauf pro Entität.
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Der [!DNL Adobe Target] MCP-Server ist derzeit verfügbar für **Claude Web**, *
 
 +++Auf welche [!DNL Adobe Target] Objekte kann ich über MCP zugreifen?
 
-Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Recommendations-Kriterien, Antwort-Token, at.js-Konfiguration, A4T-Berichte und den Überarbeitungsverlauf der Entität zugreifen. Alle 23 derzeit verfügbaren Tools sind schreibgeschützt.
+Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Antwort-Token, at.js-Konfiguration, A4T-Berichte und den Überarbeitungsverlauf der Entität zugreifen. Alle 23 derzeit verfügbaren Tools sind schreibgeschützt.
 +++
 
 +++Kann der MCP-Server Aktivitäten erstellen oder ändern?
@@ -84,7 +84,7 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 +++Werden meine [!DNL Adobe Target] an den MCP-Client-Anbieter gesendet?
 
-Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe &#x200B;](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
+Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe ](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?
