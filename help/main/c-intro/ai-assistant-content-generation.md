@@ -7,10 +7,13 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 1%
 
 Fördern Sie Interaktion und Konversionen in [!DNL Adobe Target] mit [!DNL AI Assistant]. Nutzen Sie generative KI, um personalisierten, wirkungsvollen Text zu erstellen, der bei Ihrer Audience Anklang findet und Ihre Aktivitätsinhalte erhöht.
 
-## Voraussetzungen 
+## Voraussetzungen
 
 1. Vergewissern Sie sich, dass Sie die erforderlichen Aufgaben in [Aktivieren [!DNL Adobe Experience Platform] [!DNL AI Assistant] in  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) abgeschlossen haben.
 
@@ -59,7 +62,7 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
-     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] und [!UICONTROL Conversational].
+     Zu den Optionen gehören: [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] und [!UICONTROL Conversational].
 
 1. Wählen Sie mit dem Schieberegler aus, wie lange der Text kürzer oder länger sein soll.
 
@@ -79,8 +82,8 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
 1. (Optional) Geben Sie Feedback an die [!DNL AI Assistant].
 
-   * Klicken Sie auf das Symbol „Daumen hoch![&#x200B; ( &#x200B;](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
-   * Klicken Sie auf das Symbol mit den ![&#x200B; nach unten ( &#x200B;](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
+   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
+   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
    * Klicken Sie auf das Symbol [!UICONTROL Report Results] ( ![Berichtsergebnissymbol](/help/main/assets/icons/Flag.svg) ), um ein Problem dem [!DNL AI Assistant] zu melden.
 
 ## Beispielvarianten {#variations}
@@ -100,4 +103,4 @@ Die folgende Eingabeaufforderung und die folgenden Varianten zeigen die Leistung
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?captions=ger&learn=on">https://video.tv.adobe.com/v/3434644/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

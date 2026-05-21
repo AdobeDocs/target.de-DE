@@ -4,10 +4,13 @@ description: Erfahren Sie, wie Sie die [!UICONTROL Activity URL] angeben, die di
 title: Was ist der [!UICONTROL Activity URL] in einer [!UICONTROL Experience Targeting] (XT)-Aktivität?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 38%
+source-wordcount: 268
+ht-degree: 37%
 
 ---
 
@@ -23,7 +26,7 @@ Die [!UICONTROL Activity URL] bestimmt die Seite, die in einer [!DNL Adobe Targe
    >
    >Standardmäßig öffnet der VEC oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) die Seite, die in Ihren Einstellungen von [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
    >
-   >Wenn Sie eine URL für eine Site angeben, die keine [[!DNL Target] at.js-JavaScript-Bibliothek oder  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de){target=_blank} enthält, können Sie keine Seitenelemente auswählen.
+   >Wenn Sie eine URL für eine Site angeben, die keine [[!DNL Target] at.js-JavaScript-Bibliothek oder  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} enthält, können Sie keine Seitenelemente auswählen.
 
 1. (Bedingt) Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Page Delivery]** aus und geben Sie die URL in das Feld [!UICONTROL URL] ein.
 

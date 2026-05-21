@@ -4,9 +4,13 @@ description: Erfahren Sie [!DNL Adobe Target]  wie Sie festlegen, welche Aktivit
 title: Wie weist  [!DNL Target]  verschiedenen Aktivitäten Priorität zu?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
-source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
+TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 927
 ht-degree: 39%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 39%
 
 [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) für eine Seite bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) Sie verwenden.
 
-## Nur [!UICONTROL Visual Experience Composer] oder nur mit einer globalen [!UICONTROL Form-Based Experience Composer]-Anfrage [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Nur [!UICONTROL Visual Experience Composer] oder nur mit einer globalen [!DNL Target]-Anfrage [!UICONTROL Form-Based Experience Composer] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 

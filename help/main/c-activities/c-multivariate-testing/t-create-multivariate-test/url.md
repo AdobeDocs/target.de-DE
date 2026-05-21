@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie die Aktivitäts-URL angeben, die die Seite be
 title: Was ist die Aktivitäts-URL in einer [!UICONTROL Multivariate Test]-Aktivität (MVT)?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+TQID: https://experienceleague.adobe.com/oQKwrlZ95XKEKSJIUiWqXXo9AJJzCb20gfS1rtwGImM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: 269
 ht-degree: 31%
 
 ---
@@ -21,7 +24,7 @@ Die Aktivitäts-URL bestimmt die Seite, die im [!UICONTROL Multivariate Test] (M
    >
    >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `https://www.adobe.com`] und [!DNL `http://www.adobe.com`] überein.
 
-   Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+   Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ ](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 1. (Bedingt) Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf das **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Page Delivery]** aus und geben Sie die URL an.
 
@@ -29,7 +32,7 @@ Die Aktivitäts-URL bestimmt die Seite, die im [!UICONTROL Multivariate Test] (M
 
    Zusätzliche Regeln können auf Folgendem basieren:
 
-   * [!UICONTROL &#x200B; URL]
+   * [!UICONTROL  URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

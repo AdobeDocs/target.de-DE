@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie in A/B-Aktivitäten verschiedene Zielgruppens
 title: Kann ich in einer A/B-Aktivität mehrere Erlebnisversionen verwenden?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/FleyH-u5cWI5vku9E4-RMWeIc95WgPy-VQ-eytxka18
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 52%
+source-wordcount: 602
+ht-degree: 51%
 
 ---
 
@@ -43,7 +47,7 @@ In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Si
 
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 
-## Best Practices  
+## Best Practices
 
 * Wählen Sie sich gegenseitig ausschließende Zielgruppen. Wenn die Aktivität in VEC erstellt wurde und ein Besucher mit mehr als einer Zielgruppe übereinstimmt, wird der Inhalt für jede Zielgruppe zurückgegeben, wobei der Inhalt für die aufgelistete Zielgruppe zuletzt auf der Seite angezeigt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.

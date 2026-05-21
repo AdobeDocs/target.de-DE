@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie Berichteinstellungen in Adobe Target konfigur
 title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: 1795
 ht-degree: 48%
 
 ---
@@ -135,7 +139,7 @@ Wählen Sie die Umgebung (Hostgruppe) aus, die für den Bericht verwendet werden
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
+>Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
 
 ### Berichtsdaten zurücksetzen
 
@@ -149,7 +153,7 @@ Extremwerte ausschließen
 
 Der Umschalter [!UICONTROL Exclude Extreme Values] gilt nur für Aktivitäten mit den Metriktypen Umsatz und Interaktion . Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
-## Download  {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
+## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
 Klicken Sie auf das **[!UICONTROL Download]**-Symbol ![Download-](/help/main/assets/icons/Download.svg) ), um Berichtsdaten in einem [!DNL .csv] Format für den schnellen Import in Excel, Access oder andere Datenanalyseprogramme herunterzuladen.
 
@@ -169,7 +173,7 @@ Je nach Aktivitätstyp können Sie den Bericht in verschiedenen Formaten anzeige
 
 * **Tabellenansicht**: Klicken Sie auf das Symbol **[!UICONTROL Table View]** ( ![Tabellenansichtssymbol](/help/main/assets/icons/Table.svg) ), um den Bericht als Tabelle anzuzeigen.
 * **Diagrammansicht**: Klicken Sie auf das **[!UICONTROL Graph View]** ( ![Diagrammansichtssymbol](/help/main/assets/icons/GraphTrend.svg) ), um den Bericht als Diagramm anzuzeigen.
-* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automated Segments] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automated Segments] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 * **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Important Attributes]** ( ![Wichtige Attribute](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) anzuzeigen.
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
@@ -183,7 +187,7 @@ Beachten Sie Folgendes:
 * Nur verfügbar, wenn Berichte in [!UICONTROL Table View] angezeigt werden.
 * Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-## Ortsbeschränkung  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Ortsbeschränkung {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Klicken Sie auf das Symbol [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Location Contribution](/help/main/assets/icons/LocationContribution.svg) ), um den Bericht so umzuschalten, dass der Beitrag für Aktivitäten des Typs Multivariater Test (MVT) nach Standort angezeigt wird.
 
@@ -230,14 +234,14 @@ Es gibt vier Modi für [!UICONTROL Auto-Target] Aktivitäten: [!UICONTROL Daily 
 
 Die Standardreihenfolge, in der das Diagramm gezeichnet wird, lautet wie folgt:
 
-* **[!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
-* **[!UICONTROL Experience Targeting] (XT)**: Reihenfolge der Erlebnisse in der Aktivität.
-* **[!UICONTROL Multivariate Test] (MVT)** Alphabetisch nach Erlebnisname.
+* **[!UICONTROL A/B Test](einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Automated Personalization])**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
+* **[!UICONTROL Experience Targeting](XT)**: Reihenfolge der Erlebnisse in der Aktivität.
+* **[!UICONTROL Multivariate Test](MVT)** Alphabetisch nach Erlebnisname.
 * **[!UICONTROL Recommendations]**: Reihenfolge der Erlebniserstellung in absteigender Reihenfolge.
 
 Beachten Sie beim Arbeiten mit den [!UICONTROL Counting Methodology] die folgenden Einschränkungen:
 
-* Bei [[!UICONTROL Auto-Target] Aktivitäten &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) es keine Option zur Auswahl von „Besuchern“ als Zählmethodik. [!UICONTROL Auto-Target] ist der einzige Aktivitätstyp, den Sie nicht nach Besuchern grafisch darstellen können.
+* Bei [[!UICONTROL Auto-Target] Aktivitäten ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) es keine Option zur Auswahl von „Besuchern“ als Zählmethodik. [!UICONTROL Auto-Target] ist der einzige Aktivitätstyp, den Sie nicht nach Besuchern grafisch darstellen können.
 * Bei Aktivitäten, die [Analytics als Berichtsquelle (A4T) verwenden](/help/main/c-integrating-target-with-mac/a4t/a4t.md) können Sie Besucher, Besuche oder Impressionen nicht kumulativ darstellen.
 
 ## Arbeiten mit Diagrammen, die mehr als 16 Erlebnisse in der Aktivität haben

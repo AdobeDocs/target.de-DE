@@ -2,13 +2,16 @@
 keywords: Empfehlungen;häufig gestellte Fragen;FAQ
 description: Häufig gestellte Fragen (FAQs) und Antworten zu  [!DNL Target Recommendations] .
 title: Wo erhalte ich Antworten auf Design-Fragen für [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 81%
+source-wordcount: 472
+ht-degree: 80%
 
 ---
 
@@ -34,11 +37,11 @@ Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung:
 
 Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, weiß das System nicht, welche Kategorie angezeigt werden soll.
 
-## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt?  {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
 Wenn Sie den aktuell verwendeten Entwurf ändern, erfolgt das entsprechende Update erst nach einiger Zeit. Wenn Sie den Entwurf sofort ändern möchten, erstellen Sie einen neuen Entwurf, wählen Sie diesen in der Aktivität aus und speichern Sie die Empfehlung.
 
-## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Wie können wesentliche Informationen für eine Anzeige in dem Entwurf erfasst werden? Beispiel: Wenn die Kategorie des Schlüsselprodukts angezeigt werden soll, wie kann dieser Wert in dem Velocity-Entwurf codiert werden? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Der Parameter `$key. *`Wert`*` erfasst die meisten Informationen des Schlüsselprodukts, die innerhalb des Entwurfs angezeigt werden. Wenn Sie beispielsweise die Miniaturansicht des Schlüsselprodukts anzeigen möchten, verwenden Sie `$key.thumbnailURL`.
 

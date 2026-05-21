@@ -4,10 +4,13 @@ description: Erfahren Sie, wie Sie Erlebnisvorlagen verwenden, die vorcodierte B
 title: Welche Erlebnisvorlagen sind in Target verfügbar?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/0FXZ1swtrMyiz9mT8tvb9VIQxIIXsBrW0HelZ3sygm8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 75%
+source-wordcount: 573
+ht-degree: 60%
 
 ---
 
@@ -25,13 +28,13 @@ Bei der [Erlebnisvorlage „Bannerkarussell mit Miniaturansichten“](https://gi
 
 ![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Bannerkarussell  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Bannerkarussell {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Diese Karussellansicht schaltet nicht automatisch durch die Bilder, sondern muss durch Anklicken des Links- bzw. Rechtspfeils direkt aktiviert werden.
 
 ![exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
 
-## Banner-Countdown  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Banner-Countdown {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) handelt es sich um ein großes Banner mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
@@ -43,7 +46,7 @@ Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketin
 
 ![exp-template-button-builder image](assets/exp-template-button-builder.png)
 
-## Lightbox mit Countdown  {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox mit Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) handelt es sich um ein Lightbox-Overlay-Popup mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 

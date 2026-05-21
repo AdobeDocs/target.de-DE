@@ -2,13 +2,17 @@
 keywords: Empfehlung; Backup; Sicherung
 description: Erfahren Sie, wie Sie Sicherungsempfehlungen in Adobe [!DNL Target Recommendations] verwenden.
 title: Wie verwende ich eine Backup-Empfehlung in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/TziWJoAuEdCqa7uMTpX0O0InnlnjtbPXP-0wzQ-FCM0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 70%
+source-wordcount: 527
+ht-degree: 69%
 
 ---
 
@@ -20,7 +24,7 @@ Wenn Sie keine Reserveempfehlung verwenden, zeigt das System dem Benutzer Standa
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie im Abschnitt [Inhalt“ des Themas Erstellen von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), einschließlich einer Matrix, in der die Ergebnisse erläutert werden, die Sie bei der gemeinsamen oder separaten Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] beobachten werden.
+>Weitere Informationen finden Sie im Abschnitt [Inhalt“ des Themas Erstellen von ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), einschließlich einer Matrix, in der die Ergebnisse erläutert werden, die Sie bei der gemeinsamen oder separaten Verwendung der Optionen [!UICONTROL Partial Design Rendering] und [!UICONTROL Show Backup Recommendations] beobachten werden.
 
 Die Funktion für Sicherungsempfehlungen verwendet immer die am häufigsten angezeigten Elemente auf der Website, um alle verbleibenden Slots zu füllen, nachdem die Daten des Algorithmus verwendet wurden. Beispiel: Ihre Vorlage wurde so konfiguriert, dass fünf empfohlene Artikel angezeigt werden, und Sie verwenden den Algorithmus *Kaufpräferenzen*. Da Sie jedoch nur über genügend Daten für zwei Slots verfügen, füllt die Funktion „Reserveempfehlung“ die verbleibenden drei Slots immer mit den am häufigsten angezeigten Artikeln aus.
 

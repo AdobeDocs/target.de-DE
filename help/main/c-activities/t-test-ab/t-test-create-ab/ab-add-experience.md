@@ -4,10 +4,13 @@ description: Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC), um
 title: Wie kann ich Erlebnisse in einer A/B-Aktivität hinzufügen?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 28%
+source-wordcount: 387
+ht-degree: 33%
 
 ---
 
@@ -17,13 +20,13 @@ Der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bietet ein
 
 Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; in VEC oben im [!UICONTROL Add] auf das Symbol ![&#x200B; ( &#x200B;](/help/main/assets/icons/Add.svg)Symbol hinzufügen[!UICONTROL Experiences] ).
+1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; in VEC oben im [!UICONTROL Experiences] auf das Symbol [!UICONTROL Add] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ).
 
    Nach dem Erstellen einer neuen Aktivität zeigt VEC auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
 
 1. Wählen Sie die zu ändernden Elemente aus und nehmen Sie die gewünschten Änderungen vor.
 
-   Wenn Sie den Mauszeiger über die Elemente auf der Seite bewegen, werden die Elemente hervorgehoben. Jedes hervorgehobene Element kann mit dem VEC geändert werden.
+   Wenn Sie den Mauszeiger über die Elemente auf der Seite bewegen, werden die Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden.
 
    Wenn Sie eine [!DNL Target] Anfrage auf der Seite mit [!DNL Target Classic] (früher [!DNL Test&Target]) erstellt haben, wird diese [!DNL Target] Anfrage als ein Element angezeigt, das den Namen der Anfrage anzeigt, und kann wie jedes andere Element geändert werden.
 

@@ -4,10 +4,15 @@ description: Erfahren Sie mehr über Best Practices, damit Ihre Erlebnisse bei d
 title: Was sind [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
+TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 50%
+source-wordcount: 2462
+ht-degree: 49%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 50%
 
 Um sicherzustellen, dass Ihre Erlebnisse wie vorgesehen funktionieren, befolgen Sie die Best Practices bei der Verwendung des [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Beachten Sie die wichtigsten Tipps und Einschränkungen, um die Leistung zu maximieren und gängige Probleme zu vermeiden.
 
-## Best Practices   {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Best Practices {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
 Im Folgenden finden Sie Best Practices für die Verwendung von VEC:
 
@@ -35,10 +40,10 @@ Um die [!UICONTROL Enhanced Experience Composer] auf Aktivitätsebene zu aktivie
 
 +++
 
-### Auf die Zulassungsliste setzen Sie können bestimmte IP-Adressen ändern, wenn der [!UICONTROL Enhanced Experience Composer] nicht auf sicheren Seiten Ihrer Site geladen wird.
+### Sie können bestimmte IP-Adressen ändern, wenn der [!UICONTROL Enhanced Experience Composer] nicht auf sicheren Seiten Ihrer Site geladen wird.
 
 +++Details anzeigen
-Probleme beim Laden des [!UICONTROL Enhanced Experience Composer] können durch die Zulassungsauflistung der folgenden IP-Adressen behoben werden. Diese IP-Adressen sind für [!DNL Adobe] Server bestimmt, die für den [!UICONTROL Enhanced Experience Composer]-Proxy verwendet werden. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Auf die Zulassungsliste setzen Besucherinnen und Besucher Ihrer Site benötigen diese IP-Adressen nicht.
+Probleme beim Laden des [!UICONTROL Enhanced Experience Composer] können durch die Zulassungsauflistung der folgenden IP-Adressen behoben werden. Diese IP-Adressen sind für [!DNL Adobe] Server bestimmt, die für den [!UICONTROL Enhanced Experience Composer]-Proxy verwendet werden. Sie werden nur für die Bearbeitung der Aktivitäten benötigt. Besucherinnen und Besucher Ihrer Site benötigen diese IP-Adressen nicht.
 
 Weitere Informationen finden Sie unter [The EEC will not load an internal QA URL that is not accessible on public IP](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) in *Fehlerbehebung bei Problemen mit Enhanced Experience Composer*.
 
@@ -237,7 +242,7 @@ Deaktivieren Sie iframe-Busting-Techniken auf Ihrer Website und überprüfen Sie
 
 +++
 
-## Einschränkungen  {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
+## Einschränkungen {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
 Beachten Sie die folgenden Einschränkungen bei der Verwendung des [!UICONTROL Visual Experience Composer] zum Entwerfen Ihrer Aktivität.
 
@@ -295,7 +300,7 @@ Wenn Sie [!UICONTROL Enhanced Experienced Composer] auf einer Nicht-Live-Site ve
 
 +++
 
-## Einschränkungen   {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Einschränkungen {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 Beachten Sie bei der Arbeit mit VEC die folgenden Einschränkungen:
 

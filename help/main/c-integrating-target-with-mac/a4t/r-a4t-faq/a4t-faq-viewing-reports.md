@@ -4,10 +4,15 @@ description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von 
 title: Hier finden Sie Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
+TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 26%
+source-wordcount: 2624
+ht-degree: 27%
 
 ---
 
@@ -18,7 +23,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zum Anzeigen von Bericht
 ## Kann ich meine [!DNL Target] Aktivitätsdaten in [!DNL Analysis Workspace] anzeigen? {#workspace}
 
 +++Antwort
-Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
+Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
 
 Detaillierte Informationen und Beispiele finden Sie im Tutorial [Analytics und Target: Best Practices für Analysen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von [!UICONTROL Adobe Experience League].
 
@@ -43,7 +48,7 @@ Bei Verwendung [!DNL Target] Aktivitätsimpressionen und Konversionen in [!DNL A
 ## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte [!DNL Target]-Aktivität anwende? {#activity-segmentation}
 
 +++Antwort
-Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden.) Wenn Besucher durch dieses Gültigkeitsfenster auf der Website navigieren, sind sie Teil vieler [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, läuft standardmäßig automatisch nach 90 Tagen ab. (Hinweis: Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden.) Wenn Besucher durch dieses Gültigkeitsfenster auf der Website navigieren, sind sie Teil vieler [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
 
 Wenn Sie ein Segment für eine Aktivität erstellen, um in einem Treffer vorhanden zu sein, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind *plus* alle anderen Erlebnisse, die in diesem Treffer persistent sind.
 
@@ -83,7 +88,7 @@ Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis
 +++Antwort
 [!DNL Reports & Analytics] wendet ein Attributionsmodell für denselben Kontakt auf „Aktivitätsimpressionen“ und „Aktivitätskonversionen“ an, während [!DNL Analysis Workspace] die Rohmetriken anzeigt, die aufgrund der Persistenz der [!DNL Target] Dimension überhöht erscheinen können.
 
-Um genaue [!UICONTROL Activity Impressions] und [!UICONTROL Activity Conversions] Metriken in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch] Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Non-default attribution models] aktivieren und dann [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=de) im *Handbuch zu Analytics-Tools*.
+Um genaue [!UICONTROL Activity Impressions] und [!UICONTROL Activity Conversions] Metriken in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch] Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Non-default attribution models] aktivieren und dann [!UICONTROL Same Touch] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) im *Handbuch zu Analytics-Tools*.
 
 +++
 
@@ -108,7 +113,7 @@ Falls für diese Aktivität eine Klassifizierung durchgeführt wurde und im Beri
 ## Warum werden [!DNL Target] Metriken an [!DNL Analytics] gesendet, selbst wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 +++Antwort
-Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden. Diese Einstellung ist für alle Aktivitäten global, sollte jedoch nicht für einen Fall angepasst werden.
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, läuft standardmäßig automatisch nach 90 Tagen ab. Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden. Diese Einstellung ist für alle Aktivitäten global, sollte jedoch nicht für einen Fall angepasst werden.
 
 Möglicherweise werden [!DNL Target] Variablen angezeigt, die nach dem Gültigkeitszeitraum an [!DNL Analytics] gesendet werden, da der Gültigkeitszeitraum 90 Tage beträgt, jedoch nur, wenn dieser Benutzer nie eine andere A4T-aktivierte [!DNL Target]-Aktivität sieht. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der/die Benutzende immer wieder zurückkehrt, gelangt er/sie möglicherweise zu dem Punkt, an dem Metriken aus wesentlich älteren Aktivitäten in Berichten an [!DNL Analytics] gesendet werden. Wenn Benutzer Cookies löschen und nicht zur Website zurückkehren, sinken die Zahlen in dieser Aktivität, aber Sie können sie weiterhin sehen.
 
@@ -149,7 +154,7 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da beide Erlebnisse vor der Konversion gesehen wurden, erhalten beide „Anerkennung“ für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Da Sie für [!DNL Target] Reporting keine [!DNL Target] Aktivität mit einer anderen Aktivität vergleichen, um festzustellen, welche Aktivität erfolgreicher ist, ist es egal, ob alle Aktivitäten, die der/die Benutzende gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse von zwei Elementen innerhalb der einzelnen Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse in derselben Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination des Bestellguthabens machen müssen.
 
-Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=de)) im *Analytics-Administratorhandbuch*.
+Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Analytics-Administratorhandbuch*.
 
 +++
 
@@ -214,14 +219,14 @@ Hier einige Punkte, die Sie beim Anzeigen [!DNL Analytics] Berichte beachten sol
 
 +++
 
-## Wie kann ich Aktivitätsimpressionen bei Verwendung von [!DNL Analysis Workspace] (A4T) in [!UICONTROL Analytics for Target] nachverfolgen? {#activity-impressions}
+## Wie kann ich Aktivitätsimpressionen bei Verwendung von [!UICONTROL Analytics for Target] (A4T) in [!DNL Analysis Workspace] nachverfolgen? {#activity-impressions}
 
 +++Antwort
 
 So zeigen Sie Aktivitätsimpressionen in [!DNL Analysis Workspace] an:
 
 1. Klicken Sie in der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL View in Analytics]**.
-1. Fügen Sie die Spalte **[!UICONTROL Activity Impressions]** zum [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de){target=_blank} hinzu.
+1. Fügen Sie die Spalte **[!UICONTROL Activity Impressions]** zum [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} hinzu.
 1. Klicken Sie in der Spalte **[!UICONTROL Activity Impressions]** auf das Symbol [!UICONTROL Gear] .
 1. Klicken Sie auf **[!UICONTROL Use non-default attribution model]**.
 1. Wählen Sie **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]** aus.

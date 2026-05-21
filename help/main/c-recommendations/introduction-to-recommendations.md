@@ -2,13 +2,17 @@
 keywords: Recommendations; Intro; Einführung; Webinar; Demo
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was sind Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
+TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 86%
+source-wordcount: 2109
+ht-degree: 83%
 
 ---
 
@@ -63,9 +67,9 @@ Beginnen Sie mit einer Strategie.
 
 ![Abbildung einer Recommendations-Strategie](/help/main/c-recommendations/assets/intro-5.png)
 
-* **Welche Artikel möchten Sie empfehlen?** Überlegen Sie sich zunächst, welche Artikel Sie empfehlen möchten. Dies könnten Produkte, Videos oder Inhalte sein.
-* **Wo möchten Sie die Empfehlungen präsentieren?** Überlegen Sie dann, wo Sie Empfehlungen präsentieren möchten. Wählen Sie die Kanäle (Web, Mobile, im Geschäft, im Kiosk usw.) aus, auf denen Empfehlungen präsentiert werden sollen. Welche Teile der Customer Journey sollen Empfehlungen enthalten? Welche Seiten auf Ihrer Website sollen Empfehlungen enthalten?
-* **Wie werden Sie feststellen, ob Empfehlungen erfolgreich sind?** Angenommen, Sie haben ein Erlebnis ohne Empfehlungen und ein Erlebnis mit Empfehlungen oder Sie verfügen über zwei verschiedene Typen von Empfehlungen. Wie können Sie ermitteln, welches Erlebnis für Ihre Kunden besser war? Einige Metriken sind möglicherweise schwieriger zu messen als andere. Beispielsweise sind die Auswirkungen von Empfehlungen auf den Kundenlebenszeitwert oft nur schwer unmittelbar festzustellen. Es ist daher oft einfacher, anstelle einer abstrakten eine konkretere Metrik zu verwenden, z. B. Umsatz pro Besuch, durchschnittlicher Bestellwert oder Anzahl der Klicks. In einigen Fällen möchten Sie möglicherweise auch eine Metrik minimieren, z. B. die Anzahl der Supportanrufe.
+* **Welche Artikel möchten Sie empfehlen?** Überlegen Sie zunächst, welche Elemente Sie empfehlen möchten. Dies könnten Produkte, Videos oder Inhalte sein.
+* **Wo sollen die Empfehlungen angezeigt werden?** Überlegen Sie sich als Nächstes, wo Sie Empfehlungen geben möchten. Wählen Sie die Kanäle (Web, Mobile, im Geschäft, im Kiosk usw.) aus, auf denen Empfehlungen präsentiert werden sollen. Welche Teile der Customer Journey sollen Empfehlungen enthalten? Welche Seiten auf Ihrer Website sollen Empfehlungen enthalten?
+* **Wie können Sie feststellen, ob die Empfehlungen erfolgreich sind?** Angenommen, Sie verfügen über ein Erlebnis ohne Empfehlungen und ein Erlebnis mit Empfehlungen, oder Sie haben zwei verschiedene Arten von Empfehlungen. Wie können Sie ermitteln, welches Erlebnis für Ihre Kunden besser war? Einige Metriken sind möglicherweise schwieriger zu messen als andere. Beispielsweise sind die Auswirkungen von Empfehlungen auf den Kundenlebenszeitwert oft nur schwer unmittelbar festzustellen. Es ist daher oft einfacher, anstelle einer abstrakten eine konkretere Metrik zu verwenden, z. B. Umsatz pro Besuch, durchschnittlicher Bestellwert oder Anzahl der Klicks. In einigen Fällen möchten Sie möglicherweise auch eine Metrik minimieren, z. B. die Anzahl der Supportanrufe.
 
 Nachdem Sie Ihre Strategie festgelegt haben, können Sie mit der Implementierung von [!DNL Target Recommendations] beginnen.
 

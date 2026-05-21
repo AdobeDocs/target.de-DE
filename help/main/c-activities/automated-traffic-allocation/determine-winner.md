@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie [!UICONTROL Auto-Allocate] Ergebnisse der A/B
 title: Wie interpretiere ich [!UICONTROL Auto-Allocate] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+TQID: https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: 1190
 ht-degree: 20%
 
 ---
@@ -59,7 +62,7 @@ Ein Gewinner wird gefunden, wenn sich die 95%ige [!UICONTROL Confidence Interval
 
 Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die [!UICONTROL Confidence] des führenden Erlebnisses mindestens 60 % erreicht. Wenn in der [!UICONTROL Auto-Allocate] Aktivität zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem das Erlebnis eine bessere Leistung zeigt als das andere Erlebnis. Wenn mehr als zwei Erlebnisse in der [!UICONTROL Auto-Allocate] vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
 
-## Häufig gestellte Fragen   {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Häufig gestellte Fragen {#section_C8E068512A93458D8C006760B1C0B6A2}
 
 Beachten Sie die folgenden Antworten auf häufig gestellte Fragen:
 

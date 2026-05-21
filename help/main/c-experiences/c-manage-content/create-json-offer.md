@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie JSON-Angebote zur Verwendung im [!UICONTROL F
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 25%
+source-wordcount: 475
+ht-degree: 23%
 
 ---
 
@@ -23,10 +28,10 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 * JSON-Angebote sind derzeit nur für Aktivitäten der Kategorien [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Experience Targeting] (XT) verfügbar.
 * JSON-Angebote können nur in [formularbasierten Aktivitäten](/help/main/c-experiences/form-experience-composer.md) verwendet werden.
-* JSON-Angebote können direkt abgerufen werden, wenn Sie die [Server-seitigen APIs und mobilen Node.js-, Java-, .NET- und Python-SDKs](https://experienceleague.adobe.com/de/docs/target-dev/developer/server-side/server-side-overview){target=_blank} verwenden.
-* Im Browser können JSON-Angebote nur über at.js 1.2.3 (oder höher) und mithilfe von [getOffer() abgerufen werden](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} indem Aktionen mithilfe der `setJson`-Aktion gefiltert werden.
+* JSON-Angebote können direkt abgerufen werden, wenn Sie die [Server-seitigen APIs und mobilen Node.js-, Java-, .NET- und Python-SDKs](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank} verwenden.
+* Im Browser können JSON-Angebote nur über at.js 1.2.3 (oder höher) und mithilfe von [getOffer() abgerufen werden](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} indem Aktionen mithilfe der `setJson`-Aktion gefiltert werden.
 * JSON-Angebote werden als native JSON-Objekte und nicht als Zeichenfolgen ausgeliefert. Nutzer dieser Objekte müssen diese also nicht mehr als Zeichenfolgen behandeln und in JSON-Objekte konvertieren.
-* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Entwickler müssen Code schreiben, um das Angebot explizit mit [getOffer() abzurufen](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
+* JSON-Angebote werden im Gegensatz zu anderen Angeboten (z. B. HTML-Angeboten) nicht automatisch eingesetzt, da es sich bei JSON-Angeboten um nicht visuelle Angebote handelt. Entwickler müssen Code schreiben, um das Angebot explizit mit [getOffer() abzurufen](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
 
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -40,7 +45,7 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 ## JSON-Beispiel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-Angebote werden nur in Aktivitäten unterstützt, die mit dem [formularbasierten Experience Composer) erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Die einzige Möglichkeit, JSON-Angebote zu verwenden, besteht derzeit in direkten API-/SDK-Aufrufen.
+JSON-Angebote werden nur in Aktivitäten unterstützt, die mit dem [formularbasierten Experience Composer) erstellt ](/help/main/c-experiences/form-experience-composer.md). Die einzige Möglichkeit, JSON-Angebote zu verwenden, besteht derzeit in direkten API-/SDK-Aufrufen.
 
 Siehe folgendes Beispiel:
 

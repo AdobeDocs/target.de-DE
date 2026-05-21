@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie Zielgruppen in erstellen [!DNL Adobe Target] 
 title: Kann ich Besuchende nach Browser-Typ auswählen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 34%
+source-wordcount: 1024
+ht-degree: 35%
 
 ---
 
@@ -30,7 +34,7 @@ Die folgenden Browser können als Ziel ausgewählt werden:
 >
 >Ab [!DNL Target] Standard/Premium 24.3.1 (4. bis 6. März 2024) wurden integrierte Zielgruppen, die mithilfe der Target-Benutzeroberfläche erstellt wurden, wie `Browser:iPad` und `Browser:iPhone`, aktualisiert, um eine ordnungsgemäße Zielgruppenbestimmung für [!DNL iPad] und [!DNL iPhone] mithilfe von `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` und `profile.mobile.isTablet` durchzuführen.
 >
->Diese Aktualisierung erfordert keine Maßnahmen seitens der Kunden. Die Beschriftungen in der [!DNL Target]-Benutzeroberfläche werden in Zukunft geändert und in den [[!DNL Target] Versionshinweisen (aktuell) angekündigt](/help/main/r-release-notes/release-notes.md) sobald diese Änderungen vorgenommen werden.
+>Diese Aktualisierung erfordert keine Maßnahmen auf Kundenseite. Die Beschriftungen in der [!DNL Target]-Benutzeroberfläche werden in Zukunft geändert und in den [[!DNL Target] Versionshinweisen (aktuell) angekündigt](/help/main/r-release-notes/release-notes.md) sobald diese Änderungen vorgenommen werden.
 >
 >Informationen zu Problemumgehungseinstellungen finden Sie unter [Aktualisierungen für  [!DNL iPad] / [!DNL iPhone] -in [!UICONTROL Browser] Zielgruppenattributen (30. April 2024)](#updates) unten.
 
@@ -69,7 +73,7 @@ Es gibt zwei Möglichkeiten, Browser auszurichten:
 
 Wählen Sie Aktivitätsteilnehmer basierend auf ihrem Browsertyp, ihrer Sprache oder Version als Zielgruppe aus oder schließen Sie sie aus.
 
-### Typ  {#section_6ADC758F23F145B3A310151546D83D56}
+### Typ {#section_6ADC758F23F145B3A310151546D83D56}
 
 Schließen Sie einen bestimmten Browser als Ziel ein oder aus.
 
@@ -80,7 +84,7 @@ Wählen Sie **[!UICONTROL Type]** und dann entweder gleich oder ungleich aus.
 
 Wählen Sie einen oder mehrere Browser aus. Mehrfachoptionen sind mit einem ODER verbunden.
 
-### Sprache  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Sprache {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Schließen Sie bestimmte Browserversionen, die spezifische Sprachen verwenden, als Ziel ein oder aus.
 
@@ -107,7 +111,7 @@ Folgende Browsersprachen können als Ziel ein- oder ausgeschlossen werden.
 * Spanisch
 * Traditionelles Chinesisch
 
-### Version  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Schließen Sie bestimmte Browserversionen als Ziel ein oder aus.
 
@@ -143,7 +147,7 @@ Seit Einführung von [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024) wu
 
 Integrierte Zielgruppen, die mit der [!DNL Target]-Benutzeroberfläche erstellt wurden, wie z. B. `Browser:iPad` und `Browser:iPhone`, werden automatisch in die neue Zielgruppendefinition verschoben und erfordern keine Aktion seitens der Kunden. In Zukunft sollten Sie jedoch die Einstellungen verwenden [wie unten beschrieben](#ui).
 
-Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [&#x200B; unten &#x200B;](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
+Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [ unten ](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
 
 JavaScript-Zielgruppen sind ältere Zielgruppen, die [!DNL Target] verwenden, welche in der [!DNL Target Classic]-Benutzeroberfläche veraltet sind. Diese Zielgruppen können nur über die API geändert werden. Kunden dürfen diese Zielgruppen nur aktualisieren, wenn sie weiterhin ältere Zielgruppen in -Aktivitäten verwenden.
 

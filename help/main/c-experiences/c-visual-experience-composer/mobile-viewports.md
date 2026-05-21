@@ -4,9 +4,12 @@ description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe  [!DNL Targ
 title: Wie verwende ich Mobile Viewports für responsive Erlebnisse?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: 1361
 ht-degree: 94%
 
 ---
@@ -130,7 +133,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 
 >[!NOTE]
 >
->Wenn Sie versuchen, einen verwendeten mobilen Viewport zu löschen, wird die folgende Meldung angezeigt: „Dieser Viewport ist derzeit mit einer oder mehreren Aktivitäten verknüpft. Entfernen Sie den Viewport aus diesen Aktivitäten, um ihn zu löschen“. 
+>Wenn Sie versuchen, einen verwendeten mobilen Viewport zu löschen, wird die folgende Meldung angezeigt: „Dieser Viewport ist derzeit mit einer oder mehreren Aktivitäten verknüpft. Entfernen Sie den Viewport aus diesen Aktivitäten, um ihn zu löschen“.
 
 ## Erstellen eines responsiven Erlebnisses {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
@@ -174,7 +177,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Kontovoreinstellungen in Adobe Target ![Übersichts-Badge](/help/main/assets/overview.png)
 

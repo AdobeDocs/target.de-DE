@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie  [!DNL Target]  Produktwissen mit  [!DNL AI A
 title: Wie verwende ich die  [!DNL AI Assistant] - [!DNL Target] , um Produktkenntnisse zu erwerben?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
+TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 6%
+source-wordcount: 315
+ht-degree: 1%
 
 ---
 
@@ -36,7 +41,7 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
-1. Klicken Sie in [!DNL Target] oben rechts **[!DNL AI Assistant]der Benutzeroberfläche auf das Symbol** .
+1. Klicken Sie in [!DNL Target] oben rechts **der Benutzeroberfläche auf das Symbol**[!DNL AI Assistant] .
 
    ![KI-Assistenten-Symbol](/help/main/c-intro/assets/ai-assistant-icon.png)
 
@@ -52,12 +57,12 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
    >[!IMPORTANT]
    >
-   >KI-generierte Antworten sind möglicherweise falsch oder irreführend. Überprüfen Sie unbedingt die Antworten und Quellen.
+   >KI-generierte Antworten können ungenau oder irreführend sein. Überprüfen Sie unbedingt die Antworten und Quellen.
 
 1. (Optional) Geben Sie [!DNL AI Assistant] Feedback.
 
-   * Klicken Sie auf das Symbol „Daumen hoch![&#x200B; ( &#x200B;](/help/main/assets/icons/ThumbUp.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort korrekt ist.
-   * Klicken Sie auf das Symbol mit den ![&#x200B; nach unten ( &#x200B;](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort falsch ist.
+   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort korrekt ist.
+   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass die Antwort falsch ist.
    * Klicken Sie auf das Symbol Berichtsergebnisse ![Berichtsergebnisse-Symbol](/help/main/assets/icons/Flag.svg) , um ein Problem dem [!DNL AI Assistant] zu melden.
 
 ## Schulungsvideos
@@ -66,10 +71,10 @@ So greifen Sie auf die [!DNL AI Assistant] für Produktkenntnisse zu:
 
 Erfahren Sie mehr über [!DNL Adobe Experience Platform] von [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441033/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Validieren von Antworten vom KI-Assistenten
 
-Erfahren Sie, wie Sie die in [!DNL AI Assistant] bereitgestellten Antworten überprüfen und [!DNL Adobe Experience Platform].
+Erfahren Sie, wie Sie die in [!DNL Adobe Experience Platform] bereitgestellten Antworten überprüfen und [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441748/?learn=on&#x26;enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

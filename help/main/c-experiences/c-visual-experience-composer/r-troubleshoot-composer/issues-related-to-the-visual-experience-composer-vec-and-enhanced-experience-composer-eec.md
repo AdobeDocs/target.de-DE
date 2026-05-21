@@ -1,12 +1,17 @@
 ---
-keywords: Auf die Zulassungsliste setzen Targeting;Visual Experience Composer;Whitelist;weiße Liste;Zulassungsliste;Enhanced Visual Experience Composer;VEC;Fehlerbehebung in Visual Experience Composer;Fehlerbehebung;EEC;Enhanced Experience Composer;TLS;TLS 1.2
+keywords: Targeting;Visual Experience Composer;Whitelist;weiße Liste;Zulassungsliste;Enhanced Visual Experience Composer;VEC;Fehlerbehebung in Visual Experience Composer;Fehlerbehebung;EEC;Enhanced Experience Composer;TLS;TLS 1.2
 description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen manchmal in der  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) und der [!UICONTROL Enhanced Experience Composer] (EEC) auftreten.
 title: Wie kann ich Probleme im Zusammenhang mit der [!UICONTROL Visual Experience Composer] und der [!UICONTROL Enhanced Experience Composer] beheben?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
@@ -65,14 +70,14 @@ Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeord
 
 +++
 
-## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC)   {#section_313001039F79446DB28C70D932AF5F58}
+## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Details
 Dies kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie in den VEC- oder EEC-Modus in den [!UICONTROL Browse]-Modus und dann wieder in den [!UICONTROL Compose]-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
 
 +++
 
-## CSP-Header (Content Security Policy) blockieren die [!DNL Target] auf meiner Website. (VEC und EEC)   {#section_89A30C7A213D43BFA0822E66B482B803}
+## CSP-Header (Content Security Policy) blockieren die [!DNL Target] auf meiner Website. (VEC und EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 
 +++Details
@@ -80,7 +85,7 @@ Wenn die CSP-Kopfzeilen Ihrer Website [!DNL Target] Bibliotheken blockieren und 
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie [&#x200B; die &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper[!DNL Google Chrome]Browsererweiterung verwenden.
+>Zusätzlich zu den folgenden Informationen können Sie [!DNL Google Chrome] die [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Browsererweiterung verwenden.
 
 ![cps_headers-Bild](assets/cps_headers.png)
 
@@ -97,28 +102,28 @@ Wenn [!DNL Requestly] Kopfzeilen entfernt werden müssen, sollten Sie einen der 
 
 +++
 
-## Der VEC oder EEC funktioniert scheinbar nicht oder wird beim erneuten Bearbeiten einer gespeicherten Aktivität nicht initialisiert. (VEC und EEC)   {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## Der VEC oder EEC funktioniert scheinbar nicht oder wird beim erneuten Bearbeiten einer gespeicherten Aktivität nicht initialisiert. (VEC und EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 +++Details
 Wenn sich die Website außerhalb von VEC geändert hat, nachdem das Erlebnis definiert wurde, können Selektoren, für die zuvor Aktionen durchgeführt wurden, nicht gefunden werden, wenn die Aktivität zur erneuten Bearbeitung geöffnet wird. Die Seite erscheint beschädigt und es werden keine Warnungen eingeblendet.
 
 +++
 
-## Der VEC oder EEC zeigt meine sich drehenden Banner oder anderen Inhalt mit JavaScript nicht an. (VEC und EEC)   {#section_8B5BE6EB050B42D6A14A054724C41330}
+## Der VEC oder EEC zeigt meine sich drehenden Banner oder anderen Inhalt mit JavaScript nicht an. (VEC und EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 +++Details
 Standardmäßig blockiert der VEC JavaScript-Elemente. Sie können mit diesen Elementen arbeiten, wenn Sie JavaScript deaktivieren. Je nach Einrichtung der Site werden einige Elemente möglicherweise weiterhin falsch angezeigt oder sind nicht verfügbar.
 
 +++
 
-## Wenn ich ein Element auf der Seite ändere, ändern sich mehrere Elemente. (VEC und EEC)   {#section_309188ACF34942989BE473F63C5710AF}
+## Wenn ich ein Element auf der Seite ändere, ändern sich mehrere Elemente. (VEC und EEC) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Details
 Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine standardmäßige Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
-## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC)   {#section_9FE266B964314F2EB75604B4D7047200}
+## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Details
 Um dieses Problem zu beheben, aktivieren Sie die [!UICONTROL Enhanced Experience Composer] (EWG). Klicken Sie auf **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um die [!UICONTROL Enhanced Experience Composer] zu aktivieren. Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites und die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen [!DNL Adobe Target]-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall können Sie diese Option deaktivieren, um den EEC über einen iFrame zu laden.
@@ -129,14 +134,14 @@ Um dieses Problem zu beheben, aktivieren Sie die [!UICONTROL Enhanced Experience
 
 +++
 
-## Ich möchte Tests auf Seiten einrichten, auf denen die Mbox/[!DNL Target]-Implementierung noch nicht durchgeführt wurde. (VEC und EEC)   {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Ich möchte Tests auf Seiten einrichten, auf denen die Mbox/[!DNL Target]-Implementierung noch nicht durchgeführt wurde. (VEC und EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Details
 Siehe oben unter „Ich kann keine Erlebnisse für eine iFrame-zerstörende Website bearbeiten“.
 
 +++
 
-## Fett- und kursiv gedruckte Textstile mit [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] oder [!UICONTROL Change Text]/[!DNL Change HTML] werden auf meiner Seite nicht angezeigt. Manchmal verschwindet der Text nach der Anwendung dieser Stiländerungen. (VEC und EEC)   {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Fett- und kursiv gedruckte Textstile mit [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] oder [!UICONTROL Change Text]/[!DNL Change HTML] werden auf meiner Seite nicht angezeigt. Manchmal verschwindet der Text nach der Anwendung dieser Stiländerungen. (VEC und EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Details
 Wenn Sie **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** in Visual Experience Composer für [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting]-Aktivitäten oder **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** für [!UICONTROL Automated Personalization]- oder [!UICONTROL Multivariate Test]-Aktivitäten verwenden, um Text fett oder kursiv zu formatieren, werden diese Stile möglicherweise nicht auf die Seite angewendet, oder der Text verschwindet von der Seite in Visual Composer. Dies geschieht, weil die Art und Weise, wie der Rich-Text-Editor diese Stile anwendet, das Website-Markup beeinträchtigen kann.
@@ -152,7 +157,7 @@ Wenn Sie dieses Problem angezeigt bekommen, tun Sie Folgendes:
 
 +++
 
-## Bei Aktivitäten mit automatisierter Personalisierung scheint der Bildtausch im VEC oder EEC nicht zu funktionieren. (VEC und EEC)   {#section_88AABFDFE6A3420299B0D508B12A3994}
+## Bei Aktivitäten mit automatisierter Personalisierung scheint der Bildtausch im VEC oder EEC nicht zu funktionieren. (VEC und EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Details
 Das Hinzufügen eines Bildangebots zu einem Pfad erfordert die vollständige Dimension des ursprünglichen Bildplatzes im VEC oder EEC. Bei der Bereitstellung wird das Bild nicht erweitert, sondern wie vorhanden angezeigt, sodass die Bereitstellung nicht beeinträchtigt wird.

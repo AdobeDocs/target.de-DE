@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie Adobe [!DNL Target] QA-URLs mit serverseitige
 title: Kann ich Aktivitäts-QA mit serverseitiger Bereitstellung durchführen?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/zZJmFqpXtAigTiEWMZhRqXBJqvG3ANLussSPE3-NoDA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 59%
+source-wordcount: 408
+ht-degree: 47%
 
 ---
 
@@ -58,10 +62,10 @@ Die folgende Tabelle enthält Informationen zu serverseitigen Anfragen:
 
 | Parameter | Typ | Standardwert | Beschreibung |
 |--- |--- |--- |--- |
-| token | Verschlüsseltes Token | Keine.<br>Darf nicht leer sein. | Ein verschlüsseltes Element, das die Liste der Aktivitäts-IDs enthält, die in der Aktivitäts-QA ausgeführt werden dürfen.<br>Validierungsregeln: Sollte ein verschlüsseltes Token sein, das zu dem in der [!DNL Target]-Anfrage angegebenen Client gehört. Alle im Token angegebenen Aktivitäten müssen zu dem Client gehören. |
+| token | Verschlüsseltes Token | none.<br>It cannot be empty | Eine verschlüsselte Entität, die die Liste der Aktivitäts-IDs enthält, die in Aktivitäts-QA ausgeführt werden dürfen.<br>Validierungsregeln: Dies sollte ein verschlüsseltes Token sein, das zu dem in der [!DNL Target]-Anfrage angegebenen Client gehört. Alle im Token angegebenen Aktivitäten müssen zu dem Client gehören. |
 | bypassEntryAudience | Boolesch | False | Gibt an, ob Ziele der Einstiegsstufe für QA-Aktivitäten überprüft werden sollen oder als übereinstimmend gelten. |
 | listedActivitiesOnly | Boolesch | False | Gibt an, ob QA-Aktivitäten isoliert ausgeführt oder für die aktuelle Umgebung als aktive Aktivitäten bewertet werden sollen. |
 | evaluateAsTrueAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target]-Anfrage immer als „true“ ausgewertet werden sollen. |
 | evaluateAsFalseAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target]-Anfrage immer als „false“ ausgewertet werden sollen. |
-| activityIndex | Ganzzahl | Null.<br>Darf nicht leer sein. | Aktivitätsindex im verschlüsselten Token. Wenn activityIndex außerhalb der Grenzwerte der Aktivität im Token liegt oder null ist, wird er ignoriert. Der Index beginnt bei 1.<br>Validierungsregeln: Sollte mindestens ein Aktivitätsindex sein und auf eine im Token angegebene Aktivität verweisen. |
+| activityIndex | Ganzzahl | null.<br>Es darf nicht leer sein. | Aktivitätsindex im verschlüsselten Token. Wenn activityIndex außerhalb der Grenzwerte der Aktivität im Token liegt oder null ist, wird er ignoriert. Index beginnt mit 1.<br>Validierungsregeln: Sollte mindestens ein Aktivitätsindex sein und auf eine im Token angegebene Aktivität verweisen. |
 | experienceIndex | Ganzzahl | Null. | Sofern angegeben, wird ein Erlebnis nach dem Index in der Aktivitätsdefinition ausgewählt. Wenn nicht angegeben oder außerhalb der Grenzwerte, wird stattdessen die Erlebnisselektor-Strategie der Aktivität verwendet. Der Index beginnt mit 1 Validierungsregeln: Kann null sein oder sollte auf ein Erlebnis in der Aktivität verweisen. |

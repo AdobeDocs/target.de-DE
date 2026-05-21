@@ -4,9 +4,12 @@ description: Hier finden Sie Antworten auf Fragen zu Metrikdefinitionen und zur 
 title: Wo finde ich Informationen zu Metrikdefinitionen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 352
 ht-degree: 36%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 36%
 
 Dieses Thema enthält Antworten auf Fragen, die häufig zu Metrikdefinitionen und zur Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) gestellt werden.
 
-## Wie ist die Gültigkeit für eine Aktivitätsmitgliedschaft? Wie lange nach Eintritt der Aktivität werden die Aktionen der Besucher in der Aktivität gezählt, wenn sie sie nicht erneut sehen? {#section_41B4958F33534E4B96DEE0C981227A79}
+## Wie ist die Gültigkeit für eine Aktivitätszugehörigkeit? Wie lange nach Eintritt der Aktivität werden die Aktionen der Besucher in der Aktivität gezählt, wenn sie sie nicht erneut sehen? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Antwort
 Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten Interaktion des Besuchers mit der Aktivität. Diese Einstellung kann bei Bedarf von ClientCare angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.
@@ -42,7 +45,7 @@ Mit errechneten Metriken können Sie benutzerdefinierte Metriken erstellen, die 
 
 +++
 
-## Ordnet A4T mehreren Kampagnen die Konversionen zu?  {#section_7F15C727206440CD86B3A8CE77087DF9}
+## Ordnet A4T mehreren Kampagnen die Konversionen zu? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
 +++Antwort
 Ja, mithilfe der Einstellung „Vollständige Zuordnung“.

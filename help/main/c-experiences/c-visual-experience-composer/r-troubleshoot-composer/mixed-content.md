@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie gemischte Inhalte in  [!DNL Chrome],  [!DNL F
 title: Wie aktiviere ich gemischte Inhalte in meinem Browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
+TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 551
 ht-degree: 87%
 
 ---
@@ -35,7 +38,7 @@ Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.moz
 
 ## Zulassen von gemischtem Inhalt in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Wenn Sie eine Seite über eine sichere Verbindung besuchen, verifiziert [!DNL Chrome], dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
+Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert [!DNL Chrome], dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
 
 Siehe [Warnungen zu unsicheren Sites verwalten](https://support.google.com/chrome/answer/99020?hl=de) in der Hilfe von Google Chrome.
 
@@ -74,7 +77,7 @@ Standardmäßig blockiert [!DNL Firebox] Seiten, auf denen sichere und unsichere
 
 ## Zulassen von gemischtem Inhalt in [!DNL Microsoft Edge]
 
-Wenn Sie eine Website über eine sichere Verbindung besuchen, prüft [!DNL Edge], ob der Inhalt der Web-Seite sicher übertragen wurde.
+Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert [!DNL Edge], dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
 
 Wenn Sie VEC mit der neuesten Version von [!DNL Edge] verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 

@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie Analytics für  [!DNL Target] A4T) verwenden.
 title: Wie verwende ich Reporting in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 39%
+source-wordcount: 1269
+ht-degree: 38%
 
 ---
 
@@ -17,7 +21,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Ad
 
 Sie können Berichte für Ihre Aktivitäten sowohl in [!DNL Analytics] als auch in [!DNL Target] anzeigen.
 
-Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [&#x200B; auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [ auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -31,7 +35,7 @@ Wenn der [!UICONTROL Select]-Vorgang verwendet wird und Sie nach *Eintritten* so
 >
 >Von [!DNL Target] unterstützte Berichte haben eine Latenz von vier Minuten. Bei Aktivitäten, die von A4T unterstützt werden, kann es sowohl im [!DNL Target]- als auch im [!DNL Analytics]-Bericht bis zu 24 Stunden nach der ursprünglichen Speicherung der Aktivität dauern, bis die Berichtsdaten nach Erlebnissen aufgeschlüsselt werden können. Die in den ersten 24 Stunden gesammelten Daten sind noch präzise und werden dem richtigen Erlebnis zugewiesen.
 
-## Berichte in Analytics  {#analytics}
+## Berichte in Analytics {#analytics}
 
 In [!DNL Analytics] gibt es mehrere Dimensionen und Metriken, die bereitgestellt werden, nachdem die A4T-Integration aktiviert wurde.
 
@@ -89,7 +93,7 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
 1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse Request]** die Felder aus.
 
-   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=de).
+   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Feld | Anleitung |
    |--- |--- |
@@ -99,7 +103,7 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
    | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Auslieferung planen | Geben Sie eine E-Mail-Adresse ein, an die die Datei gesendet werden soll, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately] aus.<br>Hinweis: Die Datei kann über FTP unter &quot;[!UICONTROL Advanced Delivery Options]<br>![&#x200B; Versand planen“ &#x200B;](/help/main/c-reports/assets/datawarehouse3.png) werden. |
+   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately].<br>Hinweis: Die Datei kann über FTP unter &quot;[!UICONTROL Advanced Delivery Options]<br>![ Versand planen“ ](/help/main/c-reports/assets/datawarehouse3.png) werden. |
 
 1. Klicken Sie auf **[!UICONTROL Request this Report]**.
 
@@ -109,5 +113,5 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=de)
-* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=de)
+* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

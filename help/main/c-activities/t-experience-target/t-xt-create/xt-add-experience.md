@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie mit dem  [!DNL Adobe Target] [!UICONTROL Visu
 title: Wie erstelle ich Erlebnisse in einer [!UICONTROL Experience Targeting] Aktivität?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/neRp-1hK4qnksT5dJA-A3HD-ShbbpuL2bjkB4He8qPQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: 902
 ht-degree: 23%
 
 ---
@@ -63,7 +67,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
 1. (Bedingt) Ziehen Sie Zielgruppen- und Erlebnispaare per Drag-and-Drop, während Sie [!UICONTROL Experience Targeting] Aktivitäten erstellen oder bearbeiten, um die Paare in der gewünschten Reihenfolge anzuordnen.
 
-   Klicken Sie auf das Symbol „Neu anordnen![&#x200B; ( &#x200B;](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die [!UICONTROL Experiences] Spalte auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse wie gewünscht neu an.
+   Klicken Sie auf das Symbol „Neu anordnen![ ( ](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die [!UICONTROL Experiences] Spalte auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse wie gewünscht neu an.
 
    Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet.
 
@@ -98,7 +102,7 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Experience T
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
@@ -108,7 +112,7 @@ In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläu
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden der [!UICONTROL Visual Experience Composer]
 
@@ -117,4 +121,4 @@ In diesem Video finden Sie Informationen zur Verwendung der [!UICONTROL Experien
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

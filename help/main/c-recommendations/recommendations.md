@@ -2,13 +2,17 @@
 keywords: Recommendations; Recommendations-Kriterien; Recommendations-Algorithmen; Recommendations-Aktivität; Kriterien; Targeting mit Recommendations; Recs
 description: Erfahren Sie mehr über Recommendations-Aktivitäten in Adobe  [!DNL Target] . Diese zeigen automatisch Inhalte an, die basierend auf früheren Benutzeraktivitäten oder anderen Algorithmen für Ihre Kunden interessant sein könnten.
 title: Was ist  [!DNL Target]  Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
+TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: 866
+ht-degree: 94%
 
 ---
 
@@ -56,7 +60,7 @@ Bevor Sie mit der Arbeit mit [!DNL Recommendations] beginnen, sollten Sie sich m
 | Feeds | Mit Feeds werden Entitäten in [!DNL Recommendations] importiert. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feedformat und Adobe Analytics-Classifications gesendet werden. Weitere Informationen finden Sie unter [Feeds](/help/main/c-recommendations/c-products/feeds.md). |
 | Katalog | Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten – eine Möglichkeit, Ihre Produkte in logischen Buckets zu organisieren. |
 | Sammlung | Sammlungen beziehen sich auf eine Reihe ähnlicher oder verwandter Elemente, z. B. eine einzelne Produktkategorie. Sie können jedoch beliebige Artikel in einer Kategorie gruppieren, wenn dies für Ihr Geschäft sinnvoll ist, wie zum Beispiel Produkte in einer bestimmten Preisspanne bzw. mit einer bestimmten Farbe, oder Artikel, die wahrscheinlich in einer bestimmten geografischen Region interessant sind. Weitere Informationen finden Sie unter [Sammlungen](/help/main/c-recommendations/c-products/collections.md). |
-| Kriterien | Kriterien sind Regeln, die auf Basis vorab ermittelter Verhaltensweisen von Besuchern festlegen, welche Produkte empfohlen werden.<br>Einige Beispiele für Kriterien sind: <ul><li>Personen, die das kauften, kauften dies</li><li>Personen, die das ansahen, sahen auch dies an</li><li>Artikel mit ähnlichen Attributen</li><li>Zuletzt gekaufter Artikel</li><li>Favoritenkategorie</li></ul>  Weitere Informationen finden Sie unter [Kriterien](/help/main/c-recommendations/c-algorithms/algorithms.md). |
+| Kriterien | Kriterien sind Regeln, die basierend auf einem vorab festgelegten Satz von Besucherverhaltensweisen bestimmen, welche Produkte empfohlen werden sollen.<br>Einige Beispiele für Kriterien sind: <ul><li>Personen, die das kauften, kauften dies</li><li>Personen, die das ansahen, sahen auch dies an</li><li>Artikel mit ähnlichen Attributen</li><li>Zuletzt gekaufter Artikel</li><li>Favoritenkategorie</li></ul>  Weitere Informationen finden Sie unter [Kriterien](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Designs | Designs definieren das Erscheinungsbild der Recommendations in einer [!DNL Recommendations]-Aktivität, beispielsweise in einer Zeile, Spalte, Tabelle oder einem Raster. Die Abbildung oben in diesem Artikel zeigt ein 4 x 1-Design. Weitere Informationen finden Sie unter [Erstellen eines Designs](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Positionen | Positionen beziehen sich auf einen bestimmten Inhaltsbereich auf einer Webseite, in einer mobilen App oder einer E-Mail, in dem Sie eine Aktivität zu Personalisierungs- und Optimierungszwecken ausführen. |
 | Zielgruppen | Eine Zielgruppe ist eine Gruppe ähnlicher Aktivitätsteilnehmer, denen die Ergebnisse einer ausgewählten Aktivität dargestellt wird. Eine Zielgruppe ist eine Gruppe von Personen mit denselben Merkmalen, wie z. B. ein neuer Besucher, ein wiederkehrender Besucher oder wiederkehrende Besucher aus einer bestimmten Region. Mit der Zielgruppenfunktion können Sie Ihre Inhalte und Erlebnisse speziell an bestimmte Zielgruppen anpassen. Durch geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen können Sie so Ihr digitales Marketing optimieren. Weitere Informationen finden Sie unter [Zielgruppen](/help/main/c-target/target.md). |
@@ -70,7 +74,7 @@ In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivi
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

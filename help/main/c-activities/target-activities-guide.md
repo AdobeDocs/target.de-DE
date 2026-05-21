@@ -4,9 +4,13 @@ description: Laden Sie eine interaktive PDF-Datei herunter, in der die verschied
 title: Welche Aktivitätstypen sind in verfügbar [!DNL Target]?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+TQID: https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: 1424
 ht-degree: 68%
 
 ---
@@ -19,7 +23,7 @@ Laden Sie eine interaktive PDF-Datei herunter, in der die verschiedenen Aktivit�
 >
 >Um zu erfahren, wie Sie optimale Ergebnisse erreichen und diese freigeben können, laden Sie die interaktive [Anleitung für Adobe Target-Aktivitäten](/help/main/assets/activities_guide_82817.pdf) (PDF) herunter.
 >
->Dieser Artikel enthält keine Informationen zu [[!UICONTROL Recommendations] Aktivitäten](/help/main/c-recommendations/recommendations.md). Sie können jedoch Empfehlungen in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten einfügen. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen.
+>Dieser Artikel enthält keine Informationen zu [[!UICONTROL Recommendations] Aktivitäten](/help/main/c-recommendations/recommendations.md). Sie können jedoch Empfehlungen in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten einfügen. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen.
 
 ## Welche Funktion hat sie? {#section_4ECAACC68723402EB3649033190E1BBC}
 

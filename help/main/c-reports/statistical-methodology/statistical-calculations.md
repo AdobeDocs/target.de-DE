@@ -4,9 +4,12 @@ description: Erfahren Sie mehr über die statistischen Berechnungen, die bei man
 title: Wie kann ich mehr über die in [!UICONTROL A/B Test] Aktivitäten verwendeten statistischen Berechnungen erfahren?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
+TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1137
 ht-degree: 2%
 
 ---
@@ -75,7 +78,7 @@ Die folgende Abbildung zeigt [!UICONTROL Lift] und [!UICONTROL Confidence Interv
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
-Die Steigerung zwischen einem Erlebnis ***und dem Kontrollerlebnis <sub>0</sub>* ist das relative „Delta“ der Konversionsraten, definiert als
+Die Steigerung zwischen einem Erlebnis *<sub>* und dem Kontrollerlebnis *0</sub>* ist das relative „Delta“ der Konversionsraten, definiert als
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
@@ -117,7 +120,7 @@ Dabei sind *µ<sub>v</sub>* und *µ<sub>v0</sub>* die Mittel für ** bzw. *<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dabei sind *<sup></sup><sub>2</sub>* v *und <sup></sup><sub><sub>2</sub></sub>* v *0* die Varianzen zweier Erlebnisse *<sub> bzw.</sub>**0<sub> und</sub>* NN *v<sub> und <sub>Nn</sub></sub>* v *0sind Stichproben fürgrößen für**&#x200B;bzw.<sub></sub>* 000.
+Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**bzw.<sub></sub>* 000.
 
 Für Welchs t-Test wird der Freiheitsgrad wie folgt berechnet:
 

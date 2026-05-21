@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unterne
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
+TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3933'
+source-wordcount: 3983
 ht-degree: 100%
 
 ---
@@ -55,7 +58,7 @@ Es gibt jedoch zwei Situationen, in denen es sich lohnt, sehr genau auf das Konf
 
 * **Testen mehrerer Angebote:** Marketingexperten testen häufig mehr als zwei Angebote (oder Erlebnisse) gegeneinander. Aus diesem Grund gibt es Lösungen für A/B-Tests, die als A/B/n-Tests bezeichnet werden, wobei n für die Anzahl der gleichzeitig getesteten Angebote steht.
 
-  Es ist wichtig, zu beachten, dass *jedes* getestete Angebot eine Falsch-Positiv-Rate in der Höhe des oben beschriebenen Signifikanzniveaus besitzt. Auch hierbei werden im Grunde mehrere Tests durchgeführt, wenn mehrere Angebote in einer einzigen Testumgebung miteinander verglichen werden. Wenn Sie z. B. fünf Angebote in einem A/B/C/D/E-Test vergleichen, bilden Sie damit vier Vergleiche: Kontrolle mit B, Kontrolle mit C, Kontrolle mit D, Kontrolle mit E. Mit einem Konfidenzniveau von 95 % ergibt sich anstelle einer 5-prozentigen Wahrscheinlichkeit für ein falsch-positives Ergebnis tatsächlich eine Wahrscheinlichkeit von 18,5 %. 
+  Es ist wichtig, zu beachten, dass *jedes* getestete Angebot eine Falsch-Positiv-Rate in der Höhe des oben beschriebenen Signifikanzniveaus besitzt. Auch hierbei werden im Grunde mehrere Tests durchgeführt, wenn mehrere Angebote in einer einzigen Testumgebung miteinander verglichen werden. Wenn Sie z. B. fünf Angebote in einem A/B/C/D/E-Test vergleichen, bilden Sie damit vier Vergleiche: Kontrolle mit B, Kontrolle mit C, Kontrolle mit D, Kontrolle mit E. Mit einem Konfidenzniveau von 95 % ergibt sich anstelle einer 5-prozentigen Wahrscheinlichkeit für ein falsch-positives Ergebnis tatsächlich eine Wahrscheinlichkeit von 18,5 %.
 
   Um Ihr Konfidenzniveau insgesamt bei 95 % zu halten und dieses Problem zu vermeiden, können Sie die Bonferroni-Korrektur anwenden. Mithilfe dieser Korrektur wird das Signifikanzniveau einfach durch die Anzahl der Vergleiche geteilt, um das benötigte Signifikanzniveau zu erhalten, mit dem Sie ein Konfidenzniveau von 95 % erzielen.
 
@@ -95,11 +98,11 @@ In einem einseitigen Test wird getestet, ob Angebot B besser ist als Angebot A. 
 
 Sie können einen einseitigen Test so betrachten, dass Sie einen Antrag in einem Prozess einem Richter vorlegen, der bereits ein Urteil gefällt hat. In einem einseitigen Test haben Sie bereits entschieden, welches Angebot gewinnen wird, und weisen dies jetzt nach, anstatt allen Erlebnissen die gleiche Chance zu geben, zum Gewinner zu werden. Einseitige Tests sollten nur in seltenen Situationen verwendet werden, in denen Sie sich ausschließlich dafür interessieren, ob ein Angebot besser als das andere ist und nicht umgekehrt. Um das Problem des einseitigen Tests zu vermeiden, sollten Sie eine A/B-Test-Lösung nutzen, die immer zweiseitige Tests nutzt, z. B. [!DNL Adobe Target].
 
-## Fehler Nr. 5: Überwachen von Tests {#section_EA42F8D5967B439284D863C46706A1BA}
+## Fehler Nr. 5: Monitoring von Tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Marketingexperten überwachen häufig A/B-Tests bis der Test ein signifikantes Ergebnis ermittelt hat. Warum weitertesten, wenn die statistische Signifikanz erreicht wurde?
 
-Leider ist die Sache nicht so einfach. Auch wenn ich Ihnen keinen Strich durch die Rechnung machen möchte, ist es aber so, dass sich die Überwachung der Ergebnisse negativ auf die effektive statistische Signifikanz des Tests auswirkt. Sie sorgt für einen starken Anstieg der Wahrscheinlichkeit von falsch-positiven Ergebnissen, was zur Folge hat, dass die Konfidenzintervalle unzuverlässig werden.
+Leider ist die Sache nicht so einfach. Auch wenn ich Ihnen keinen Strich durch die Rechnung machen möchte, ist es aber so, dass sich das Monitoring der Ergebnisse negativ auf die effektive statistische Signifikanz des Tests auswirkt. Sie sorgt für einen starken Anstieg der Wahrscheinlichkeit von falsch-positiven Ergebnissen, was zur Folge hat, dass die Konfidenzintervalle unzuverlässig werden.
 
 Das mag verwirrend klingen. Es klingt so, als würde das einfache Betrachten der Ergebnisse in der Mitte des Tests dafür sorgen, dass diese ihre statistische Signifikanz verlieren. Das trifft es nicht genau. Im folgenden Beispiel wird erklärt, warum.
 
@@ -119,7 +122,7 @@ Die folgende Abbildung zeigt fünf Angebote, die dieselben langfristigen Konvers
 
 Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Enttäuschungen führen, wenn ein Angebot, das an den ersten Tagen des Tests eine gute Leistung zeigt, dieses Leistungsniveau letztendlich nicht halten kann. Es kann auch zu Umsatzverlusten führen, wenn ein gutes Angebot nicht implementiert wird, weil es zufälligerweise während der ersten Tage des Tests eine schlechte Leistung gebracht hat.
 
-Wie bei den Problemen mit der Überwachung Ihres Tests ist es auch hier am besten, wenn Sie eine angemessene Anzahl von Besuchenden ermitteln, bevor Sie den Test durchführen, und den Test dann laufen lassen, bis dieser Anzahl von Besuchenden die Angebote bereitgestellt wurden.
+Wie bei den Problemen mit dem Monitoring Ihres Tests ist es auch hier am besten, wenn Sie eine angemessene Anzahl von Besuchenden ermitteln, bevor Sie den Test durchführen, und den Test dann laufen lassen, bis dieser Anzahl von Besuchenden die Angebote bereitgestellt wurden.
 
 ## Fehler Nr. 7: Die Traffic-Zuordnung wird während des Testzeitraums verändert {#allocation}
 

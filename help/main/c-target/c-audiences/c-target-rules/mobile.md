@@ -4,10 +4,15 @@ description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target]  erstellen
 title: Kann ich meine Besucher auf der Grundlage mobiler Optionen ansprechen?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 35%
+source-wordcount: 692
+ht-degree: 38%
 
 ---
 
@@ -27,13 +32,13 @@ Um dieses Problem zu beheben, erfasst [!DNL Target] zusätzliche Daten, um iPhon
 
 | Parameter | Typ | Beschreibung |
 |--- |--- |--- |
-| devicePixelRatio | Zeichenfolge | Verhältnis zwischen physischen Pixeln und geräteunabhängigen Pixeln (Dips) im Browser. Beispiel: „1.5“ oder „2“ |
+| devicePixelRatio | Zeichenfolge | Ein Verhältnis zwischen physischen Pixeln und geräteunabhängigen Pixeln (Dips) im Browser, Beispiel: „1.5“ oder „2“ |
 | screenOrientation | Zeichenfolge | Das Gerät und die JavaScript-Engine des Browsers unterstützen die Bildschirmdrehung. Mögliche Werte: Querformat oder Hochformat. |
 | webGLRenderer | Zeichenfolge | Browser-Renderer des Grafiktreibers. |
 
 >[!NOTE]
 >
->Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher)  aufrüsten.
+>Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher) [ aufrüsten.
 
 Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werden mit einem OR-Operator verbunden.
 

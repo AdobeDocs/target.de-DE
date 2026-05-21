@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (
 title: Wie erstelle ich ein [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 737
 ht-degree: 26%
 
 ---
@@ -73,7 +77,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
    * Bild
    * Text
 
-1. Klicken Sie auf **[!UICONTROL Preview]** , [&#x200B; eine Vorschau Ihrer Erlebnisse &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Klicken Sie auf **[!UICONTROL Preview]** , [ eine Vorschau Ihrer Erlebnisse ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
 1. Klicken Sie auf das Symbol **[!UICONTROL Show Experiences]** ( ![Symbol Erlebnisse anzeigen](/help/main/assets/icons/WebPages.svg) ), um die Liste aller Erlebnisse im linken Rahmen anzuzeigen.
 
@@ -102,7 +106,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
    Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
    1. Um die Audience zu ändern, klicken Sie auf das **[!UICONTROL Replace]-** ( ![Replace icon](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-   1. Wählen Sie im Dialogfeld [!UICONTROL Add Audience] die [&#x200B; Audience aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Assign Audience]**.
+   1. Wählen Sie im Dialogfeld [!UICONTROL Add Audience] die [ Audience aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Assign Audience]**.
 
       Sie können auf **Kombinieren von Zielgruppen** klicken, um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
@@ -128,4 +132,4 @@ In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflo
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Besucher bei der Weiterentwicklung ihrer Profile 
 title: Können Besucher in einer [!UICONTROL Experience Targeting] Aktivität Erlebnisse wechseln?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 43%
+source-wordcount: 723
+ht-degree: 41%
 
 ---
 
@@ -26,7 +30,7 @@ Die folgende Liste enthält nur einige Szenarien, in denen sich die Besucherprof
 
 Um diese Funktionen in [!DNL Target] verwenden zu können, müssen Sie bei der Arbeit mit [!UICONTROL Experience Targeting] Aktivitäten die folgenden Informationen verstehen:
 
-* **Die Priorität ist nach Erlebnissen sortiert, und zwar in absteigender Reihenfolge.** Wenn sich ein Besucher für mehr als zwei Zielgruppen qualifiziert, erhält dieser Besucher Inhalte aus dem Erlebnis mit höherer Priorität.
+* **Die Priorität wird von der Reihenfolge der Erlebnisse gesteuert, von oben nach unten.** Wenn sich ein Besucher für mehr als zwei Zielgruppen qualifiziert, erhält dieser Besucher Inhalte aus dem Erlebnis mit höherer Priorität.
 * **Besucher wechseln zwischen Erlebnissen in einer [!UICONTROL Experience Targeting] Aktivität, wenn sie sich für die Zielgruppe eines Erlebnisses mit höherer Priorität qualifizieren.**
 
   In der folgenden Aktivitätseinstellung hat ein Besucher beispielsweise erst aus den USA und dann aus Deutschland auf Ihre Website zugegriffen. Während des ersten Besuchs qualifizierte er sich für Erlebnis A (Besucher in den USA). Nach dem Website-Besuch aus Deutschland wechselte der Besucher zu Erlebnis B (Besucher in Deutschland).

@@ -2,13 +2,17 @@
 keywords: Umgebungsdaten; Sitzungsdaten; Geodaten; geografische Daten; Gerätedaten; mobile Daten; Attribute; Profilattribute; Personalisierungsalgorithmen; Algorithmen für maschinelles Lernen; Algorithmen für maschinelles Lernen
 description: Erfahren Sie [!DNL Adobe Target]  welche Daten erfasst und verwendet werden, um ihre Algorithmen für maschinelles Lernen zu erstellen.
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
+TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 51%
+source-wordcount: 1986
+ht-degree: 50%
 
 ---
 
@@ -38,18 +42,18 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | --- | --- | --- | --- |
 | Seitenparameter | KASTEN | Benutzerdefinierte Seitenparameter („mbox-Parameter„), die beim Aufruf von [!DNL Target] übergeben werden. | Benutzerdefiniert - Mbox-Parameter - [Parametername] |
 | Profil [!DNL Target] | PRO | Benutzerdefinierte Profilattribute werden direkt über die API oder Seitenparameter und [!DNL Target] Profilskripte in das [!DNL Target]-Profil hochgeladen. | Benutzerdefiniert - Besucherprofil - [Attributname] |
-| Kundenattribute | CRS | Kundenattribute, die über die [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service] in das &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de){target=_blank} hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
+| Kundenattribute | CRS | Kundenattribute, die über die [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank} in das [!DNL Target] hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
 | URL-Parameter | URL | URL und alle URL-Parameter der aktuell angezeigten Seite. | Benutzerdefiniert - URL-Parameter [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
-| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über [!DNL Target] für [!UICONTROL Destinations] freigegeben wurden. |  |
+| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
+| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über [!UICONTROL Destinations] für [!DNL Target] freigegeben wurden. |  |
 
 
 ## Sperren von Funktionen [!DNL Target] Algorithmen für maschinelles Lernen
 
 Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Target] Modell oder keiner Aktivität verwendet werden können.
 
-Auf die Blockierungsliste setzen Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
 
 ## Geräte- und Mobilgerätedaten {#device-mobile}
 
@@ -86,7 +90,7 @@ Auf die Blockierungsliste setzen Weitere Informationen finden Sie unter [Übersi
 | Gerät - Bildschirmbreite (px) | Die Bildschirmbreite des Geräts, mit der der Besucher auf die Aktivität zugegriffen hat. | 1, 2, 3 usw. | ENV_ScreenWidth |
 | Betriebssystem | Das Betriebssystem auf dem Gerät des Besuchers, das für den Zugriff auf die Aktivität verwendet wurde. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>Bot suchen<br>unbekanntes Betriebssystem | ENV_OperatingSystem |
 | Operating System - Version | Die Version des Betriebssystems, mit der der Besucher auf die Aktivität zugegriffen hat. | [!DNL Windows] 10<br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
-| Traffic Sources - Referring Landing Page URL | Die erste Seite, die der Besucher beim Zugriff auf Ihre Site gesehen hat. | `https://www.adobe.com/ecloud.html` | ENV_REFERRER |
+| Traffic Sources - Referring Landingpage URL | Die erste Seite, die der Besucher beim Zugriff auf Ihre Site gesehen hat. | `https://www.adobe.com/ecloud.html` | ENV_REFERRER |
 
 ## Geografische Daten {#geo}
 

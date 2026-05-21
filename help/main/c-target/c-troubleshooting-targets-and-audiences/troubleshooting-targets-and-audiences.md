@@ -4,10 +4,14 @@ description: Häufig gestellte Fragen (FAQs) zu Erlebnis-Targeting und Zielgrupp
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: cf7f18b5fd9647bbecda2e6b6419c3a927708bd6
+TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 53%
+source-wordcount: 982
+ht-degree: 52%
 
 ---
 
@@ -72,11 +76,11 @@ Vorab eingestellte Zielgruppen in der Target-Bibliothekskategorie sind veraltete
 
 Best Practice ist, die neuen Zielgruppen einzusetzen, da diese eine bessere Leistung erzielen. Einigen Kunden verwenden möglicherweise ältere, voreingestellte Zielgruppen, die aus diesem Grund nicht aus der Target-Oberfläche gelöscht wurden.
 
-## Wie erkenne ich, wie Traffic zwischen Zielgruppen aufgeteilt wird?  {#section_067EEFB956E7465CBF77EC86834470AB}
+## Wie erkenne ich, wie Traffic zwischen Zielgruppen aufgeteilt wird? {#section_067EEFB956E7465CBF77EC86834470AB}
 
 Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie können jedoch für jedes Erlebnis Prozentziele angeben. In diesem Fall wird eine zufällige Nummer generiert und diese Nummer wird verwendet, um das anzuzeigende Erlebnis auszuwählen. Die sich ergebenden Prozentzahlen entsprechen möglicherweise nicht genau den festgelegten Zielen, allerdings bedeutet mehr Traffic, dass die Erlebnisse enger auf die beabsichtigen Ziele aufgeteilt werden sollten.
 
-## Welches Erlebnis wird angezeigt, wenn sich ein Benutzer für eine Aktivität qualifiziert, in der mehrere Erlebnisse mit verschiedenen qualifizierten Zielgruppen enthalten sind?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Welches Erlebnis wird angezeigt, wenn sich ein Benutzer für eine Aktivität qualifiziert, in der mehrere Erlebnisse mit verschiedenen qualifizierten Zielgruppen enthalten sind? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 Der/die Benutzende ist für das erste Erlebnis/die erste Zielgruppe qualifiziert, das/die auf der [!UICONTROL Target] der Aktivität angezeigt wird.
 

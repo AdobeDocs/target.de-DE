@@ -4,10 +4,13 @@ description: Erfahren Sie mehr über die Interaktionsmetrik „Capture Score“ 
 title: Was ist die Metrik „Capture Score“?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 48%
+source-wordcount: 777
+ht-degree: 44%
 
 ---
 
@@ -21,7 +24,7 @@ Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampa
 
 In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Angenommen, eine globale [!DNL Target]-Anfrage wird basierend auf dem Wert der Seite in einem Seitenwert übergeben. Wenn der Marketing-Experte die Interaktion mit der Seitenanzahl anhand einer Erfolgsmetrik erfasst hat, die mit der `**any Target request**` verknüpft ist, wird der Besuchswert für alle Anfragen kumuliert, die nach der Anzeigeanfrage um das Katzenbild angezeigt werden.
 
-Die erste Seite fügt 1 zum Ergebnis hinzu, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10, insgesamt 1,45. Dies kann entweder als Währung oder als Punkte interpretiert werden. Bei einem weiteren Besuch findet der Besucher das Hundebild vor. Der Benutzer hat zwar weniger Seiten besucht, das Ergebnis ist aber mit 2,10 höher als beim anderen Besuch, da der Besucher wertvollere Seiten besucht hat.
+Die erste Seite addiert 1 zum Score, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10 für insgesamt 1,45. Dies könnte entweder als Währung oder als Punkte interpretiert werden. Bei einem weiteren Besuch findet der Besucher das Hundebild vor. Der Benutzer hat zwar weniger Seiten besucht, das Ergebnis ist aber mit 2,10 höher als beim anderen Besuch, da der Besucher wertvollere Seiten besucht hat.
 
 Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Beachten Sie, dass in diesem Beispiel beide [!DNL Target] auf der Artikelseite einen -Wert übergeben, der möglicherweise eine bekannte CPM darstellt.
 

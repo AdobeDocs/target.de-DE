@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Ex
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/Y46Mlx-YgD1-N5U9tC4stYJeS0SfOpTJ87TAhTrSPQc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 38%
+source-wordcount: 903
+ht-degree: 37%
 
 ---
 
@@ -17,7 +21,7 @@ Kombinieren Sie mehrere Zielgruppen (einschließlich [!DNL Adobe Experience Clou
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
+>Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -99,7 +103,7 @@ Sie können auf der Seite &quot;[!UICONTROL Goals & Settings]&quot; der Aktivit�
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe auf der [!UICONTROL Goals & Settings] der Aktivität erstellen, die in Berichten verwendet werden soll.
 
-1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Goals & Settings]** Seite unter **[!UICONTROL Add Audience]** auf das [!UICONTROL Audiences for Reporting], um die [!UICONTROL Choose Audience] anzuzeigen.
+1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der **[!UICONTROL Goals & Settings]** Seite unter [!UICONTROL Audiences for Reporting] auf das **[!UICONTROL Add Audience]**, um die [!UICONTROL Choose Audience] anzuzeigen.
 
    ![COMBINDE_MULTIPLE_AUDIENCES6 Bild](assets/combine_multiple_audiences6.png)
 

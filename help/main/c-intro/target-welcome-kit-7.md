@@ -1,13 +1,17 @@
 ---
-keywords: Welcome Kit;Target Welcome Kit;Intro; Einführung;Erste Schritte
+keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
 description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe  [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
 title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 76%
+source-wordcount: 1737
+ht-degree: 71%
 
 ---
 
@@ -31,7 +35,7 @@ Beispiel: Eine Fluggesellschaft möchte ihre Platin-Mitglieder mit einem speziel
 
 ## Route 3: Maßstabsgerechte Personalisierung für einzelne Besucher durch KI und Automatisierung
 
-Mit einer KI-gesteuerten Aktivität können Sie jedem Besucher das beste Erlebnis aus mehreren Varianzen bereitstellen. Dazu wählen Sie im zweiten Schritt des A/B-Testsetups die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aus. Die Verwendung von automatischem Targeting kann bei Ihrer ersten Aktivität äußerst nützlich sein, wenn Sie nicht wissen, welches Erlebnis bei verschiedenen Besuchern Anklang findet. Bei automatischem Targeting überlassen Sie Machine-Learning-Algorithmen die Bewertung prädiktiver Attribute in Echtzeit. Machine Learning stellt also fest, welche Attribute Ihrer Besucher für die Ermittlung des bereitzustellenden Erlebnisses am wichtigsten sind.
+Mit einer KI-gesteuerten Aktivität können Sie jedem Besucher das beste Erlebnis aus mehreren Varianzen bereitstellen. Dazu wählen Sie im zweiten Schritt des A/B-Testsetup-Workflows die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) aus. Die Verwendung von automatischem Targeting kann bei Ihrer ersten Aktivität äußerst nützlich sein, wenn Sie nicht wissen, welches Erlebnis bei verschiedenen Besuchern Anklang findet. Bei automatischem Targeting überlassen Sie Machine-Learning-Algorithmen die Bewertung prädiktiver Attribute in Echtzeit. Machine Learning stellt also fest, welche Attribute Ihrer Besucher für die Ermittlung des bereitzustellenden Erlebnisses am wichtigsten sind.
 
 Beispiel: Ein Telekommunikationsunternehmen, das verschiedene Telefonmarken und -modelle vertreibt, aktiviert automatisches Targeting, um mithilfe von Automatisierung und Machine Learning zu ermitteln, welches von vier Erlebnissen oder Angeboten auf seiner Homepage bzw. auf dem Startbildschirm seiner mobilen App am meisten Anklang bei seinen vielfältigen Besuchern findet.
 
@@ -41,10 +45,10 @@ Nun gut: Sie könnten nun einfach testen, welche Wirkung die Änderung Ihrer Sch
 
 In dieser Liste geben wir Ihnen einige Tipps für die Entwicklung einer Aktivitätsidee, die einfach umzusetzen ist, aber eine große Wirkung auf die Geschäftsmetriken haben kann:
 
-* **Nutzen Sie, was Sie kennen.** Vielleicht kennen Sie Ihre Kunden sehr gut und haben bereits eine Vorstellung davon, was bei ihnen auf Anklang stößt. Nutzen Sie Ihr Wissen für die Entwicklung personalisierter Erlebnisse.
+* **Nutzen Sie, was Sie kennen.** Vielleicht kennen Sie Ihre Kunden gut und haben bereits eine Vorstellung davon, was bei ihnen auf Anklang stößt. Nutzen Sie Ihr Wissen für die Entwicklung personalisierter Erlebnisse.
 * **Nutzen Sie Ihre Analyselösung.** Suchen Sie nach den Stellen auf Ihrer Site, an denen Kunden einen Kaufvorgang abgebrochen oder eine Seite verlassen haben. Überprüfen Sie diese Seiten und stellen Sie eine Hypothese dazu auf, weshalb Ihre Kunden diese Seiten vor der Durchführung der gewünschten Aktion verlassen haben.
 * **Nutzen Sie Ihre eigene Urteilskraft.** Sehen Sie sich die wichtigsten Seiten Ihrer Website an und hören Sie in puncto notwendiger Verbesserungen auf Ihr Bauchgefühl. Vielleicht ist eine Produktdetailseite zu überfüllt und wortreich, vereinfachen Sie sie. Vielleicht ist die Kauf-Schaltfläche nur schwer zu finden. Verschieben Sie sie an eine augenfälligere Stelle.
-* **Sehen Sie sich den Wettbewerb an.** Ein schneller Blick auf die Websites Ihrer Konkurrenten zeigt Ihnen womöglich bereits Designs, Angebote, Kopien und andere Elemente, die Sie als hoch wirksam in puncto Geschäftsergebnisse überzeugen. Überlegen Sie, wie Sie diese Ansätze auf Ihrer Website umsetzen könnten.
+* **Sehen Sie sich die Konkurrenz an.** Ein schneller Blick auf die Websites Ihrer Konkurrenten zeigt Ihnen womöglich bereits Designs, Angebote, Kopien und andere Elemente, die Sie als hoch wirksam in puncto Geschäftsergebnisse überzeugen. Überlegen Sie, wie Sie diese Ansätze auf Ihrer Website umsetzen könnten.
 * **Greifen Sie das Feedback Ihrer Kunden auf.** Vielleicht wissen Sie aus Kundenumfragen oder Auswertungen von Kundendienstanrufen bereits, wo Ihre Kunden Spielraum für eine Verbesserung ihres Erlebnisses sehen. Identifizieren Sie einen wirklichen, vielfach erwähnten Schmerzpunkt und entwickeln Sie ein Erlebnis, das diesen beseitigt.
 
 Vergessen Sie nicht, dass Sie bei der Vorstellung Ihrer Testidee in der Lage sein sollten zu erklären – idealerweise unterstützt durch Daten –, weshalb die von Ihnen vorgeschlagene Testidee Ihrer Meinung nach das Kundenerlebnis und die für Ihr Unternehmen wichtigen Metriken verbessern kann.

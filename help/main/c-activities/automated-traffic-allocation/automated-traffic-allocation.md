@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie eine [!UICONTROL Auto-Allocate] -Aktivität i
 title: Was ist eine [!UICONTROL Auto-Allocate] Aktivität?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
-ht-degree: 35%
+source-wordcount: 3572
+ht-degree: 36%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 35%
 
 Eine [!UICONTROL Auto-Allocate] Aktivität in [!DNL Adobe Target] ermittelt aus zwei oder mehr Erlebnissen den Gewinner und weist dem Gewinner automatisch mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
 
-Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Allocate to best experience]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
+Wählen [ beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Allocate to best experience]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
 ## Die Herausforderung {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -47,7 +51,7 @@ Bei solchen Tests verwenden die meisten Produkte, einschließlich [!DNL Target],
 * Ermittelt einen statistisch bedeutenden Sieger schneller als mit manuellen A/B-Tests
 * Bietet höhere durchschnittliche Kampagnensteigerungen im Vergleich zu manuellen A/B-Tests
 
-## Terminologie   {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
 
 Die folgenden Begriffe sind bei der Erörterung von [!UICONTROL Auto-Allocate] hilfreich:
 
@@ -77,13 +81,13 @@ Die Abbildung zeigt, wie sich der den einzelnen Erlebnissen zugeordnete Traffic 
 | ![Runde 2](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **Runde 2**: Während dieser Runde werden 80% des Traffics den Erlebnissen A und D zugeordnet (jeweils 40%). 20 % des Traffics werden auf zufälliger Basis zugeordnet, das heißt A, B, C und D erhalten jeweils 5 % des Traffics. Während dieser Runde werden beim Erlebnis B gute Leistungen verzeichnet.<ul><li>Der Algorithmus wählt Erlebnis D aus, um in die nächste Runde zu wechseln, da er die höchste Konversionsrate hat (wie durch die vertikale Skala jeder Aktivität angegeben).</li><li>Außerdem wählt der Algorithmus auch das Erlebnis B für die nächste Runde aus, da es die höchste Obergrenze des Bernstein-95-%-Konfidenzintervalls der verbleibenden Erlebnisse erreicht hat.</li></ul>Die Erlebnisse D und B gelangen eine Runde weiter. |
 | ![Runde 3](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **Runde 3**: Während dieser Runde werden 80% des Traffics den Erlebnissen B und D zugeordnet (jeweils 40%). 20 % des Traffics werden auf zufälliger Basis zugeordnet, das heißt A, B, C und D erhalten jeweils 5 % des Traffics. Während dieser Runde werden beim Erlebnis D weiterhin gute Leistungen verzeichnet und auch das Erlebnis C läuft gut.<ul><li>Der Algorithmus wählt Erlebnis D aus, um in die nächste Runde zu wechseln, da er die höchste Konversionsrate hat (wie durch die vertikale Skala jeder Aktivität angegeben).</li><li>Außerdem wählt der Algorithmus auch das Erlebnis C für die nächste Runde aus, da es die höchste Obergrenze des Bernstein-95-%-Konfidenzintervalls der verbleibenden Erlebnisse erreicht hat.</li></ul>Die Erlebnisse D und C gelangen eine Runde weiter. |
 | ![Runde 4](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **Runde 4**: Während dieser Runde werden 80% des Traffics den Erlebnissen C und D zugeordnet (jeweils 40%). 20 % des Traffics werden auf zufälliger Basis zugeordnet, das heißt A, B, C und D erhalten jeweils 5 % des Traffics. Während dieser Runde werden beim Erlebnis C gute Leistungen verzeichnet.<ul><li>Der Algorithmus wählt Erlebnis C aus, um in die nächste Runde zu gelangen, da es die höchste Konversionsrate aufweist (wie durch die vertikale Skala jeder Aktivität angegeben).</li><li>Außerdem wählt der Algorithmus auch das Erlebnis D für die nächste Runde aus, da es die höchste Obergrenze des Bernstein-95-%-Konfidenzintervalls der verbleibenden Erlebnisse erreicht hat.</li></ul>Die Erlebnisse C und D gelangen eine Runde weiter. |
-| ![Runde n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n***: Im Laufe der Aktivität beginnt ein leistungsstarkes Erlebnis zu entstehen, und der Prozess wird fortgesetzt, bis es ein erfolgreichstes Erlebnis gibt. Wenn sich das Konfidenzintervall des Erlebnisses mit der höchsten Konversionsrate nicht mit dem Konfidenzintervall eines anderen Erlebnisses überschneidet, wird es als Gewinner gekennzeichnet. Ein [Abzeichen wird auf der Seite der gewinnenden Aktivität &#x200B;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) in der [!UICONTROL Activity] angezeigt.<ul><li>Der Algorithmus erklärt das Erlebnis C zum klaren Gewinner.</li></ul>An diesem Punkt ordnet der Algorithmus 80 % des Traffics Erlebnis C zu, während 20 % des Traffics weiterhin auf zufälliger Basis allen Erlebnissen (A, B, C und D) zugeordnet werden. C erhält insgesamt 85 % des Traffics. In dem unwahrscheinlichen Fall, dass das Konfidenzintervall des Gewinners erneut anfängt, andere Intervalle zu überdecken, kehrt der Algorithmus zu dem Verhalten der obigen Runde 4 zurück.<P>**Wichtig**: Wenn Sie früher im Prozess manuell einen Gewinner ausgewählt haben, wäre es einfach gewesen, das falsche Erlebnis auszuwählen. Daher empfiehlt es sich unbedingt, so lange zu warten, bis der Algorithmus das „siegreiche“ Erlebnis ermittelt hat. |
+| ![Runde n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n***: Im Laufe der Aktivität beginnt ein leistungsstarkes Erlebnis zu entstehen, und der Prozess wird fortgesetzt, bis es ein erfolgreichstes Erlebnis gibt. Wenn sich das Konfidenzintervall des Erlebnisses mit der höchsten Konversionsrate nicht mit dem Konfidenzintervall eines anderen Erlebnisses überschneidet, wird es als Gewinner gekennzeichnet. Ein [Abzeichen wird auf der Seite der gewinnenden Aktivität ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) in der [!UICONTROL Activity] angezeigt.<ul><li>Der Algorithmus erklärt das Erlebnis C zum klaren Gewinner.</li></ul>An diesem Punkt ordnet der Algorithmus 80 % des Traffics Erlebnis C zu, während 20 % des Traffics weiterhin auf zufälliger Basis allen Erlebnissen (A, B, C und D) zugeordnet werden. C erhält insgesamt 85 % des Traffics. In dem unwahrscheinlichen Fall, dass das Konfidenzintervall des Gewinners erneut anfängt, andere Intervalle zu überdecken, kehrt der Algorithmus zu dem Verhalten der obigen Runde 4 zurück.<P>**Wichtig**: Wenn Sie früher im Prozess manuell einen Gewinner ausgewählt haben, wäre es einfach gewesen, das falsche Erlebnis auszuwählen. Daher empfiehlt es sich unbedingt, so lange zu warten, bis der Algorithmus das „siegreiche“ Erlebnis ermittelt hat. |
 
 >[!NOTE]
 >
 >Wenn eine Aktivität nur zwei Erlebnisse hat, erhalten beide Erlebnisse gleichen Traffic, bis [!DNL Target] mit 75 % Zuversicht ein erfolgreichstes Erlebnis findet. Zu diesem Zeitpunkt werden zwei Drittel des Traffics dem Gewinner und ein Drittel dem Verlierer zugewiesen. Wenn danach ein Erlebnis 95 % Vertrauen erreicht, werden 90 % des Traffics dem Gewinner und 10 % dem Verlierer zugewiesen. [!DNL Target] sendet immer etwas Traffic an das „Verlierer“-Erlebnis, um am Ende falsch positive Ergebnisse zu vermeiden (d. h. einige Exploration aufrechtzuerhalten).
 
-Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorgänge in der Target-Benutzeroberfläche nicht zulässig:
+Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorgänge in der Tar[!DNL]get-Benutzeroberfläche nicht zulässig:
 
 * Umschalten des Modus „Traffic-Zuordnung“ auf „Manuell“
 * Ändern des Zielmetriktyps
@@ -93,7 +97,7 @@ Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorg
 
 Weitere Informationen finden Sie unter [Durch automatische Zuordnung erhalten Sie schneller Testergebnisse und mehr Umsätze als mit manuellen Tests](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
-## Einschränkungen  {#section_5C83F89F85C14FD181930AA420435E1D}
+## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
 
 Beachten Sie bei der Arbeit mit [!UICONTROL Auto-Allocate] die folgenden Informationen:
 
@@ -115,7 +119,7 @@ Wenn Sie eine statistisch signifikante Unterscheidung zwischen allen Erlebnissen
 
 ### Zeitkorrelierte (oder kontextuell variierende) Konversionsraten können die Zuteilungsbeträge verfälschen.
 
-Einige Faktoren, die bei einem standardmäßigen A/B-Test ignoriert werden können, da sie alle Erlebnisse betreffen, können bei einer [!UICONTROL Auto-Allocate] nicht ignoriert werden. Der Algorithmus reagiert sensibel auf die beobachteten Konversionsraten.
+Einige Faktoren, die bei einem standardmäßigen A/B-Test ignoriert werden können, da sie alle Erlebnisse betreffen, können bei einer [!UICONTROL Auto-Allocate] nicht ignoriert werden. Der Algorithmus ist gegenüber den beobachteten Konversionsraten empfindlich.
 
 Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die Erlebnisleistung auswirken können:
 
@@ -133,7 +137,7 @@ Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die
 
   Zum Beispiel signalisiert „30 Prozent Rabatt nur noch heute“ dem Besucher, noch heute zu konvertieren, während „50 Prozent Rabatt auf Ihren ersten Einkauf“ nicht denselben Handlungsdruck auslöst.
 
-## Häufig gestellte Fragen   {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Konsultieren Sie bei Problemen mit [!UICONTROL Auto-Allocate] die folgenden häufig gestellten Fragen und Antworten:
 
@@ -163,7 +167,7 @@ Ja. Die Multi-Armed Bandit-Methode stellt sicher, dass mindestens 20 % des Daten
 
 ### Was passiert mit Aktivitäten mit langen Konversionsverzögerungen?
 
-Solange alle Erlebnisse, die optimiert werden, ähnlichen Verzögerungen ausgesetzt sind, ist das Verhalten dasselbe wie eine Aktivität mit einem schnelleren Konversionszyklus. Es dauert jedoch länger, bis der Konversionsschwellenwert von 50 erreicht ist, bevor der Traffic-Zuordnungsprozess beginnt.
+Solange alle optimierten Erlebnisse ähnliche Verzögerungen aufweisen, ist das Verhalten dasselbe wie bei einer Aktivität mit schnellerem Konversionszyklus. Es dauert jedoch länger, bis der Konversionsschwellenwert von 50 erreicht ist, bevor der Traffic-Zuordnungsprozess beginnt.
 
 ### Inwiefern unterscheidet sich [!UICONTROL Auto-Allocate] von [!UICONTROL Automated Personalization]?
 
@@ -246,4 +250,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs 
 * Erstellen einer A/B-Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -4,10 +4,15 @@ description: Erfahren Sie mehr über häufige Probleme bei der Verwendung von An
 title: Fehlerbehebung bei der Analytics- und  [!DNL Target] -Integration (A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 88%
+source-wordcount: 948
+ht-degree: 89%
 
 ---
 
@@ -53,7 +58,7 @@ Wenn Sie im Bericht eine [!DNL Target] Metrik auswählen, wird diese [!UICONTROL
 
 Steigerungs- und Vertrauensdaten sind in Analytics nicht verfügbar. Sie stehen jedoch in den Target-Berichten zur Verfügung.
 
-## Aktivitäten erscheinen nicht in Analytics-Berichten.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Aktivitäten erscheinen nicht in Analytics-Berichten. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt werden muss. Siehe [Verwenden eines Analytics-Tracking-Servers](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) um sicherzustellen, dass Ihr Analytics-Tracking-Server ordnungsgemäß eingerichtet ist.
 
@@ -61,7 +66,7 @@ Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt 
 >
 >Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Goals & Settings] leer lassen.
 
-## Meine Analytics-Segmente werden nicht in Target angezeigt.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Meine Analytics-Segmente werden nicht in Target angezeigt. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Vergewissern Sie sich, dass Sie die entsprechenden Berechtigungen haben, bevor Sie A4T-Aktivitäten erstellen:
 
@@ -69,7 +74,7 @@ Vergewissern Sie sich, dass Sie die entsprechenden Berechtigungen haben, bevor S
 * Sie müssen Mitglied in mindestens einer Experience Cloud-Gruppe sein, die Zugriff auf Analytics und Target hat.
 * Überprüfen Sie, ob Analytics und Target im Abschnitt Marketing-Apps in der linken Navigation angezeigt wird.
 
-## Absprungraten, Absprünge und Ausstiegsmetriken erscheinen in Berichten als positiv.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Absprungraten, Absprünge und Ausstiegsmetriken erscheinen in Berichten als positiv. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Diese Metriken, die in Berichten als positiv erscheinen, sind ein bekanntes Problem.
 

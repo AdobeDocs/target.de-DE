@@ -4,10 +4,14 @@ description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Goals and Settings]
 title: Wie gebe ich Ziele und Einstellungen in A/A [!DNL Target] B-Aktivitäten an?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/X3JDvfXDHM2rAOodEY5N9TVO-tBpz4vNDUvhOpC0XZ4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 29%
+source-wordcount: 1138
+ht-degree: 31%
 
 ---
 
@@ -38,7 +42,7 @@ Im Abschnitt [!UICONTROL Reporting Settings] der Seite [!UICONTROL Goals & Setti
 | [!UICONTROL Additional Metrics] | Erstellen Sie zusätzliche Erfolgsmetriken. Diese Einstellung ist nicht verfügbar, wenn die Reporting-Lösung auf [!DNL Analytics] festgelegt ist. In diesem Fall werden die für die [!DNL Analytics] Report Suite definierten Metriken angewendet. |
 | [!UICONTROL Audiences for Reporting] | Standardmäßig zeigen Berichte Ergebnisse für alle qualifizierten Besucher. Sie können Berichtszielgruppen hinzufügen, um Informationen nur zu bestimmten Zielgruppen anzuzeigen. Diese Einstellung ist nicht verfügbar, wenn Sie [!DNL Analytics] als Berichtslösung auswählen. Die für die [!DNL Analytics] Report Suite definierte Zielgruppe wird angewendet. |
 
-## Erweiterte Einstellungen   {#section_E2FE441AFB324E498793ABB025ED9974}
+## Erweiterte Einstellungen {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Im Abschnitt [!UICONTROL Advanced Settings] der Seite [!UICONTROL Goals & Settings] können Sie die erweiterten Optionen konfigurieren.
 
@@ -52,7 +56,7 @@ Die folgenden Optionen sind verfügbar:
 
 | Einstellung | Beschreibung |
 |--- |--- |
-| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Verwenden Sie diese Option, um zu zählen, dass eine Person die Erfolgsmetrik nur dann erreicht, wenn sie zuvor eine andere Erfolgsmetrik erreicht hat. Beispielsweise ist eine Aktivitätskonvertierung möglicherweise nur gültig, wenn der Besucher auf das Angebot klickt oder vor der Konvertierung auf eine bestimmte Seite gelangt. Sie können eine Abhängigkeit von mehreren Metriken sowie die Flexibilität angeben, ob die Metrik erreicht werden soll oder nicht, damit die Anzahl steigt. Definieren Sie beide (oder mehrere) Erfolgsmetriken, bevor Sie eine von einer anderen abhängig machen können. Mit der Option [!UICONTROL Add Dependency] kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde. So fügen Sie eine Abhängigkeit hinzu:<ul><li>Nachdem Sie zusätzliche Metriken hinzugefügt haben, klicken Sie auf [!UICONTROL Advanced Settings].</li><li>Klicken Sie auf die Option [!UICONTROL Add Dependency] :</li><li>Ziehen Sie die gewünschten Metriken aus dem linken Bereich in den rechten Bereich und klicken Sie dann auf [!UICONTROL Reached] , um zwischen [!UICONTROL Reached] und [!UICONTROL &#x200B; Not Reached] umzuschalten.</li><li>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.</li></ul> |
+| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Verwenden Sie diese Option, um zu zählen, dass eine Person die Erfolgsmetrik nur dann erreicht, wenn sie zuvor eine andere Erfolgsmetrik erreicht hat. Beispielsweise ist eine Aktivitätskonvertierung möglicherweise nur gültig, wenn der Besucher auf das Angebot klickt oder vor der Konvertierung auf eine bestimmte Seite gelangt. Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht. Definieren Sie beide (oder mehrere) Erfolgsmetriken, bevor Sie eine von einer anderen abhängig machen können. Mit der Option [!UICONTROL Add Dependency] kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde. So fügen Sie eine Abhängigkeit hinzu:<ul><li>Nachdem Sie zusätzliche Metriken hinzugefügt haben, klicken Sie auf [!UICONTROL Advanced Settings].</li><li>Klicken Sie auf die Option [!UICONTROL Add Dependency] :</li><li>Ziehen Sie die gewünschten Metriken aus dem linken Bereich in den rechten Bereich und klicken Sie dann auf [!UICONTROL Reached] , um zwischen [!UICONTROL Reached] und [!UICONTROL  Not Reached] umzuschalten.</li><li>Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.</li></ul> |
 | [!UICONTROL What will happen after a user encounters this goal metric?] | Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:<ul><li>Wählen Sie **[!UICONTROL Increment Count & Keep User in Activity]** aus, um anzugeben, wie die Anzahl erhöht werden soll.</li><li>Wählen Sie **[!UICONTROL Increment Count, Release User & Allow Reentry]** aus, um das Erlebnis anzugeben, das Benutzenden angezeigt wird, wenn sie die Aktivität erneut aufrufen.</li><li>Wählen Sie **[!UICONTROL Increment Count, Release User & Bar from Reentry]** aus, um festzulegen, was dem Benutzer anstelle des Aktivitätsinhalts angezeigt wird.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Es gibt drei Möglichkeiten, wie die Anzahl erhöht werden kann:<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 

@@ -2,12 +2,16 @@
 keywords: Automated Personalization;Angebot;Reporting;Gruppe;Berichtsgruppe;Zuordnung
 description: Erfahren Sie, wie Sie in -Aktivitäten  [!DNL Adobe Target] [!UICONTROL Automated Personalization] Berichtsgruppen für Angebote verwenden.
 title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization] Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/VW3zVGXb3IuQMDaRyidbkjsbUrojvwFsvwP3yRVeHp4
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: 827
 ht-degree: 15%
 
 ---
@@ -34,7 +38,7 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 ## Einrichten von Berichtsgruppen
 
 1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; einer AP-Aktivität auf das Symbol **[!UICONTROL Manage Content]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) )
-1. Klicken Sie oben im Dialogfeld **[!UICONTROL Offers]** auf die Registerkarte [!UICONTROL Manage Content] .
+1. Klicken Sie oben im Dialogfeld [!UICONTROL Manage Content] auf die Registerkarte **[!UICONTROL Offers]** .
 1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) für das gewünschte Angebot klicken und dann auf **[!UICONTROL Reporting Group]** klicken.
 
 1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann unten im Dialogfeld auf **[!UICONTROL Reporting Group]** klicken.
@@ -49,7 +53,7 @@ Sie können die [!UICONTROL Location] verwenden, um Angebote nach Standort zu fi
 
 Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppen finden Sie unter [Targeting [!UICONTROL Automated Personalization] Angeboten](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
-## Einschränkungen 
+## Einschränkungen
 
 * Es ist wichtig zu verstehen, dass Berichtsgruppen Einfluss darauf haben, wie [!DNL Target] Modelle erstellt. Daher empfiehlt [!DNL Adobe], Berichtsgruppen nur zu verwenden, wenn Sie neue Angebote ersetzen oder hinzufügen möchten, während eine Aktivität live ist. Wenn ein neues Angebot in eine Live-Aktivität eingeführt wird, kann das Gerät, indem es das neue Angebot in eine Gruppe mit vorhandenen ähnlichen Angeboten einfügt, die bereits für die anderen Angebote in seiner Gruppe erfassten Daten verwenden, um mehr über das neue Angebot zu erfahren. Sie sollten niemals alle Angebote in eine einzelne Berichtsgruppe verschieben.
 
@@ -65,7 +69,7 @@ Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppe
 
 1. Klicken Sie **[!UICONTROL Activities]** auf die gewünschte [!UICONTROL Automated Personalization] Aktivität in der Liste und dann auf die Registerkarte **[!UICONTROL Reports]** , um den Bericht [Angebotsebene](/help/main/c-reports/personalization-reports/reports-ap.md) anzuzeigen.
 
-   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol [!UICONTROL Show Filters] (Trichter) und aktivieren Sie dann das Kontrollkästchen [!UICONTROL Automated Personalization] , um die Liste so zu filtern, dass nur [!UICONTROL Automated Personalization] Aktivitäten angezeigt werden.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol [!UICONTROL Show Filters] (funnel) und aktivieren Sie dann das Kontrollkästchen [!UICONTROL Automated Personalization] , um die Liste so zu filtern, dass nur [!UICONTROL Automated Personalization] Aktivitäten angezeigt werden.
 
 1. Klicken Sie auf **[!UICONTROL Control]** oder **[!UICONTROL Targeted]** in der Tabelle, um die nicht gruppierten Angebote und Angebote innerhalb von Berichtsgruppen anzuzeigen.
 

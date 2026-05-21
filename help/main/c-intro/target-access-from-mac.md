@@ -4,9 +4,12 @@ description: Erfahren Sie, wie Sie  [!DNL Target]  Adobe Experience Cloud zugrei
 title: Wie greife ich über Adobe Experience Cloud auf  [!DNL Target]  zu?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 355
 ht-degree: 50%
 
 ---
@@ -37,7 +40,7 @@ Informationen über den Zugriff auf [!DNL Adobe Target] von [!DNL Adobe Experien
 
    ![Adobe-Konto](/help/main/c-intro/assets/adobe-account.png)
 
-1. **[!UICONTROL Preferred languages]** Sie im Abschnitt [!UICONTROL Account] auf der **[!UICONTROL Add]**.
+1. **[!UICONTROL Add]** Sie im Abschnitt **[!UICONTROL Preferred languages]** auf der [!UICONTROL Account].
 
    Der Text gibt an, dass dies die Sprache ist, die Sie verwenden [!DNL Adobe], wenn Adobe sich an Sie wendet. Dies ist auch die Sprache, die in der Benutzeroberfläche für [!DNL Target] und andere [!DNL Adobe Experience Cloud] verwendet wird. Sie können mehr als eine Sprache auswählen.
 

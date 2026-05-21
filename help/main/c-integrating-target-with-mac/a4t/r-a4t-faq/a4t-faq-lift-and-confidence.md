@@ -4,9 +4,12 @@ description: Hier finden Sie Antworten auf Fragen zur Steigerung und Konfidenz b
 title: Wo finde ich Informationen über Steigerung und Konfidenz mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/QirHdzsM8SfNeGdQPEPM51KUqD5TDFUQmaB4th4-htY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 548
 ht-degree: 25%
 
 ---
@@ -29,14 +32,14 @@ Die Steigerung ist die prozentuale Differenz zwischen den Ergebnissen Ihrer Kont
 
 +++
 
-## Wie wird die Konfidenz berechnet?  {#section_97DB24D833E742988318CA65DA65DAD9}
+## Wie wird die Konfidenz berechnet? {#section_97DB24D833E742988318CA65DA65DAD9}
 
 +++Antwort
 Das Konfidenzniveau ist eine prozentuale Wahrscheinlichkeit, die `1 - p-value` entspricht, wobei die `p-value` aus einem t-Test berechnet wird. Siehe [Statistische Berechnungen in A/Bn-](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 +++
 
-## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen?  {#lift-confidence}
+## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen? {#lift-confidence}
 
 +++Antwort
 Berechnete Metriken werden derzeit in Funktionen für Steigerung und Konfidenz nicht unterstützt. Analytics berechnet Metriken auf aggregierter Ebene und nicht auf Besucherebene. Insbesondere die Konfidenz ist eine Berechnung auf Besucherebene.
@@ -50,7 +53,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle sind:
 
 +++
 
-## Wie verwaltet A4T Konfidenzberechnungen?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Wie verwaltet A4T Konfidenzberechnungen? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 +++Antwort
 [!DNL Adobe Analytics] behandelt alle Metriken als nicht-binär und berechnet daher Konfidenz-/p-Werte auf eine Weise, die sich von der Verwendung binärer Metriken in einem regulären t-Test unterscheidet. Insbesondere ermöglichen die von A4T verwendeten Berechnungen jedem Benutzer ein kontinuierliches metrisches Ergebnis (nicht nur 1 oder 0 für jeden Benutzer), sodass die Varianz (oder die damit verbundene Standardabweichung) für jedes Erlebnis entsprechend berechnet werden muss. Extreme Bestellungen werden nicht berücksichtigt. Außerdem wird bei der Konfidenzberechnung keine Bonferroni-Korrektur für mehrere Angebote angewendet.

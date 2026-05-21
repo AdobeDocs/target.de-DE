@@ -2,13 +2,16 @@
 keywords: Zufällige Gesamtstruktur;Entscheidungsbaum;AP;Automated Personalization
 description: Erfahren Sie [!DNL Adobe Target]  wie der Algorithmus „Random Forest“ sowohl in [!UICONTROL Automated Personalization] (AP)- als auch in [!UICONTROL Auto-Target]-Aktivitäten verwendet.
 title: Wie verwendet  [!DNL Target]  den Algorithmus der zufälligen Gesamtstruktur?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
+TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 41%
+source-wordcount: 1438
+ht-degree: 40%
 
 ---
 

@@ -2,12 +2,15 @@
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; dynamisch; Profilattributübereinstimmung
 description: Erfahren Sie, wie Sie  [!DNL Target Recommendations]  dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
 title: Wie filtere ich nach der Zuordnung von Profilattributen in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 483
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ Verwenden Sie [!UICONTROL Profile Attribute Matching], wenn Sie Empfehlungen anz
 
 >[!NOTE]
 >
->Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+>Der [Prozess zum Erstellen und Verwenden von ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
 Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profile Attribute Matching] verwenden können:
 

@@ -4,9 +4,13 @@ description: Erfahren Sie mehr über Erfolgsmetriken, mit denen Sie den Erfolg e
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: 1374
 ht-degree: 22%
 
 ---
@@ -21,7 +25,7 @@ Sie können beispielsweise verfolgen, ob eine neue Promotion den Umsatz pro Besu
 
 [!DNL Target] sind Erfolgsmetriken mit empfohlenen Einstellungen vorkonfiguriert, um eine genaue Berichterstellung und ein effektives Tracking sicherzustellen.
 
-Standardmäßig verwenden Konversionsereignisse die -**[!UICONTROL Increment count & keep user in activity].** Mit dieser Einstellung wird jeder Besucher nur einmal als Konversion gezählt. Es werden keine wiederholten Konversionen gezählt. Diese Besucher sehen während ihrer gesamten Sitzung weiterhin den Aktivitätsinhalt.
+Standardmäßig verwenden Konversionsereignisse die Einstellung **[!UICONTROL Increment count & keep user in activity].** Diese Einstellung bedeutet, dass jeder Besucher nur einmal als Konversion gezählt wird. Es werden keine wiederholten Konversionen gezählt. Diese Besucher sehen während ihrer gesamten Sitzung weiterhin den Aktivitätsinhalt.
 
 Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die erste Bestellung eines Besuchers Bestelldetails. Nachfolgende Bestellungen erhöhen zwar die Konversionsanzahl, tragen aber nicht zu umsatzbasierten Metriken wie [!UICONTROL Revenue per Visitor (RPV)], [!UICONTROL Average Order Value (AOV)] oder [!DNL Total Sales] bei. Diese zusätzlichen Bestellungen sind auch aus dem [!UICONTROL Order Details] ausgeschlossen.
 
@@ -51,7 +55,7 @@ Die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen, sind in den Berich
 
 Einige Metriken, z. B. [!UICONTROL Custom Scoring] und [!UICONTROL Revenue Per Visitor], erfordern eine benutzerdefinierte Implementierung, die Informationen wie Bestellsummen und Auftrags-IDs weitergibt.
 
-## Erweiterte Einstellungen   {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Erweiterte Einstellungen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll.
 
@@ -101,7 +105,7 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 
 Wählen Sie das gewünschte Verhalten aus:
 
-* Einmal pro Teilnehmer 
+* Einmal pro Teilnehmer
 * Bei jeder Impression (ohne Seitenaktualisierungen)
 * Bei jeder Anzeige
 

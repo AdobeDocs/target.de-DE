@@ -4,10 +4,13 @@ description: Erfahren Sie, wie Sie Code- und Bildangebote mithilfe der [!UICONTR
 title: Wie verwalte ich Code- und Bildangebote?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 8%
+source-wordcount: 820
+ht-degree: 7%
 
 ---
 
@@ -26,10 +29,10 @@ Die [!UICONTROL Offers]-Bibliothek bietet einen Überblick über alle Code- und 
 | Element | Beschreibung |
 |--- |--- |
 | Linke Navigationsleiste | Wechseln zwischen Anzeige von [!UICONTROL Code Offers] oder [!UICONTROL Image Offers]. |
-| [!UICONTROL Show Folders]/[!UICONTROL Hide Folders]<P>![Symbol „Filter anzeigen/Filter ausblenden“](/help/main/assets/icons/RailLeft.svg) | Klicken Sie auf das Symbol **[!UICONTROL Show Folders]** oder **[!UICONTROL Hide Folders]** , um zwischen der Anzeige der Ordnerstruktur des Angebots und der Anzeige der Ordnerstruktur umzuschalten.<P>Weitere Informationen finden Sie unter [Erstellen von &#x200B;](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![Symbol „Filter anzeigen/Filter ausblenden“](/help/main/assets/icons/RailLeft.svg) | Klicken Sie auf das Symbol **[!UICONTROL Show Folders]** oder **[!UICONTROL Hide Folders]** , um zwischen der Anzeige der Ordnerstruktur des Angebots und der Anzeige der Ordnerstruktur umzuschalten.<P>Weitere Informationen finden Sie unter [Erstellen von ](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Symbol [!UICONTROL Show filters]<P>![Symbol „Filter anzeigen“](/help/main/assets/icons/Filter.svg) | Klicken Sie auf das Symbol **[!UICONTROL Show filters]** , um Angebote nach [!UICONTROL Type], [!UICONTROL Source] und [!UICONTROL AEM Type] zu filtern.<P>Weitere Informationen finden Sie [Anwenden von Filtern auf die Liste der Angebote](#filters) unten. |
 | Suchfelder | Verwenden Sie die **[!UICONTROL Search in]**, um schnell ein Angebot zu finden oder die Anzahl der in der [!UICONTROL Offers]-Bibliothek angezeigten Angebote zu reduzieren. Sie können nach [!UICONTROL Offer Name], [!UICONTROL AEM Paths] oder [!UICONTROL AEM Tags] suchen. Suchoptionen sind sitzungspersistent. |
-| [!UICONTROL Create Folder] | Klicken Sie auf **[!UICONTROL Create Folder]** , um Ordner in der [!UICONTROL Offer]-Bibliothek zu erstellen, in denen Code-Angebote, Bildangebote und andere Ordner gespeichert werden können, um eine Unterordnerstruktur zu erstellen.<P>Weitere Informationen finden Sie unter [Erstellen von &#x200B;](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
+| [!UICONTROL Create Folder] | Klicken Sie auf **[!UICONTROL Create Folder]** , um Ordner in der [!UICONTROL Offer]-Bibliothek zu erstellen, in denen Code-Angebote, Bildangebote und andere Ordner gespeichert werden können, um eine Unterordnerstruktur zu erstellen.<P>Weitere Informationen finden Sie unter [Erstellen von ](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Zum Erstellen eines Angebots auf **[!UICONTROL Create Offer]** klicken<P>Weitere Informationen zur Erstellung der verschiedenen Angebotstypen finden Sie unter: <ul><li>HTML-Angebot</li><li>[JSON-Angebot](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Kontrollkästchen für Massenvorgänge<P>![Symbol für Massenvorgänge](/help/main/assets/icons/Rectangle.svg) | Aktivieren Sie die Kontrollkästchen [!UICONTROL Bulk Operations] , um Massenvorgänge für alle Angebote oder für ausgewählte Angebote durchzuführen.<P>Eine Liste der verfügbaren Aktionen (abhängig von Ihren Berechtigungen und dem Angebotsstatus) finden Sie [Ausführen von Schnellaktionen](#quick-actions) unten. |
 | [!UICONTROL Name] | Der Name jedes Angebots.<P>Klicken Sie auf das **[!UICONTROL Quick Info]**-Symbol ( ![Quick Info-Symbol](/help/main/assets/icons/InfoOutline.svg) ) neben jedem Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Popup-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde, und von wem und mehr.<p>Klicken Sie auf das **[!UICONTROL More Actions]** (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben jedem Angebotsnamen, um ein Menü zu öffnen, in dem Sie Schnellaktionen für eine Aktivität durchführen können. Die folgenden Aktionen sind verfügbar (abhängig von Ihren Berechtigungen und dem Angebotsstatus): [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] und [!UICONTROL Move]. Weitere Informationen zu den einzelnen Aktionen finden Sie [Ausführen von Schnellaktionen](#quick-actions) unten.<P>Klicken Sie auf die Tabellenkopfzeile, um die Liste alphabetisch nach Namen in auf- oder absteigender Reihenfolge zu sortieren. |
@@ -59,7 +62,7 @@ Sie können die folgenden Schnellaktionen ausführen, indem Sie auf das entsprec
 
 Klicken Sie auf das **[!UICONTROL Quick Info]**-Symbol ( ![Quick Info-Symbol](/help/main/assets/icons/InfoOutline.svg) ) neben jedem Angebotsnamen, um weitere Informationen zu diesem Angebot in einer Popup-Karte anzuzeigen, einschließlich der Angebots-ID, des Typs, des Datums, an dem das Angebot zuletzt geändert wurde, und von wem und mehr. Die verfügbaren Optionen hängen vom Angebotstyp ab: [!UICONTROL HTML Offer], [[!UICONTROL JSON Offer]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Redirect Offer]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offer]](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
-### Mehr Aktionen 
+### Mehr Aktionen
 
 Die für [!UICONTROL Code Offers] und für [!UICONTROL Image Offers] verfügbaren Aktionen unterscheiden sich geringfügig. Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 

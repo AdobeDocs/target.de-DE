@@ -4,10 +4,15 @@ description: Lernen Sie die Grundlagen von Adobe Target kennen. In diesem Artike
 title: Wie verwende ich Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 97%
+source-wordcount: 1538
+ht-degree: 84%
 
 ---
 
@@ -27,14 +32,14 @@ Target enthält mehrere Aktivitätstypen. In der folgenden Tabelle finden Sie ei
 
 | Aktivitätstyp | Beschreibung |
 |--- |--- |
-| [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md) | Beim A/B-Test werden zwei oder mehr Versionen Ihrer Website-Inhalte verglichen, um festzustellen, mit welcher Version Ihre Konversionen in einem vorab festgelegten Zeitraum verbessert werden.<br>**Hinweis:** Sie können [nun Empfehlungen in A/B-Test-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
-| [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Die Funktion „Automatisch zuweisen“ identifiziert einen Gewinner unter zwei oder mehr Erlebnissen und ordnet dem Gewinner automatisch mehr Traffic zu, um Konversionen zu erhöhen, während der Test weiter ausgeführt und das Lernen fortgesetzt wird.<br>**Hinweis:** Sie können jetzt [Empfehlungen in Aktivitäten mit automatisiertem Targeting einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
-| [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Automatisches Targeting nutzt fortschrittliche Machine-Learning-Algorithmen zur Identifizierung eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketing-Experten definierten Erlebnissen. Beim automatischen Targeting erhalten alle Besucher basierend auf ihrem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen ein optimal auf sie zugeschnittenes Erlebnis, um die Inhalte zu personalisieren und Konversionen zu fördern.<br>**Hinweis:** Sie können nun [Empfehlungen in Aktivitäten mit automatischem Targeting einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md) | A/B-Tests vergleichen zwei oder mehr Versionen des Inhalts Ihrer Website, um festzustellen, welche Version Ihre Konversionen während eines vorab festgelegten Testzeitraums am besten verbessert.<br>**Hinweis:** Sie können jetzt [Empfehlungen in A/B-Test-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Durch die automatische Zuordnung kann aus zwei oder mehr Erlebnissen das erfolgversprechendste ermittelt und dem Gewinner automatisch mehr Traffic zugewiesen werden, um die Konversionen während der Fortführung des Tests und des Lernens zu steigern.<br>**Hinweis:** Sie können jetzt [Empfehlungen in Aktivitäten mit automatisierter Zuordnung“ ](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Automatisches Targeting nutzt fortschrittliche Machine-Learning-Algorithmen zur Identifizierung eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketing-Experten definierten Erlebnissen. Automatische Targeting -Aktivitäten bieten jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten früherer Besucher mit ähnlichen Profilen das passendste Erlebnis, um Inhalte zu personalisieren und Konversionen zu fördern.<br>**Hinweis:** Sie können jetzt [Empfehlungen in automatische Targeting -Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 | [Verwenden von Analytics-Daten](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Sie können eine Aktivität so konfigurieren, dass [!DNL Adobe Analytics] als Berichtsquelle verwendet wird. Für diesen Aktivitätstyp ist es erforderlich, dass Sie Ihr [!DNL Adobe Experience Cloud]-Konto sowohl mit [!DNL Analytics] als auch mit [!DNL Target] verbinden. |
 | [Multivarianz-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Beim Multivariate Testing (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat. |
-| [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md) | Beim Erlebnis-Targeting (XT) werden Inhalte für eine spezielle Zielgruppe basierend auf einem Satz aus vermarkterdefinierten Regeln und Kriterien bereitgestellt.<br>**Hinweis:** Sie können [nun Empfehlungen in Erlebnis-Targeting-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md) | Beim Experience Targeting (XT) werden Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien, die von den Werbungtreibenden definiert werden, bereitgestellt.<br>**Hinweis:** Sie können jetzt [Empfehlungen in Experience Targeting-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | Automated Personalization (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellem Kundenprofil durch erweitertes Machine Learning verschiedene Varianzen zu, um die Inhalte zu personalisieren und Konversionen zu fördern. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie ein Produkt dem Website-Benutzer je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll.<br>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie können Besucher dazu anregen, mehr Zeit auf Ihrer Medienwebsite zu verbringen, indem Sie mithilfe des „Personen, die dieses Video angesehen haben, sahen auch“-Algorithmus Videos empfehlen, die dem angezeigten Video ähneln.<br>**Hinweis:** Sie können jetzt Empfehlungen in A/B-Tests (einschließlich automatisierter Zuordnung und automatischen Targetings) und Erlebnis-Targeting (XT) einbeziehen. Siehe [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie ein Produkt dem Website-Benutzer je nach dessen Aktivitäten auf der Site vorgeschlagen werden soll.<br>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie möchten Besucher ermutigen, mehr Zeit auf Ihrer Medienwebsite zu verbringen, indem Sie ihnen ähnliche Videos empfehlen, die sie gerade angesehen haben, und zwar mithilfe des Algorithmus „Personen, die diesen Algorithmus angezeigt haben“.<br>**Hinweis:** Sie können jetzt Empfehlungen in A/B-Tests (einschließlich automatisierter Zuordnung und automatischen Targetings) und Erlebnis-Targeting (XT) einbeziehen. Siehe [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Positionen {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -63,7 +68,7 @@ Ein Erlebnis kann auch ein anderer Seitenentwurf sein. Zum Beispiel kann ein Erl
 
 [!DNL Target] optimiert die Erlebnisse für jeden Ihrer Besucher über Ihre digitalen Touchpoints hinweg und kann verschiedene Erlebnisse testen, um zu ermitteln, welche am erfolgreichsten sind. Wenn Sie das Targeting der Erlebnisse sorgfältig planen, können Sie sicherstellen, dass den Besuchern auf Ihrer Site die für sie relevantesten Angebote an den richtigen Stellen auf Ihrer Seite angezeigt werden. Und so verbessern Sie Ihre Chancen auf einen erfolgreichen Besuch.
 
-## Angebote   {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
+## Angebote {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
 Ein Angebot ist der Inhalt, der während Kampagnen oder Aktivitäten auf Ihren Webseiten angezeigt wird.
 
@@ -111,11 +116,11 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 In diesem Video werden die in [!DNL Target Standard/Premium] verfügbaren Aktivitätstypen erläutert.
 
-* Beschreibung der Aktivitätstypen in [!DNL Adobe Target]
+* Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden von Zielgruppen in Adobe Target (6:21) ![Übersichts-Badge](/help/main/assets/overview.png)
 
@@ -127,4 +132,4 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

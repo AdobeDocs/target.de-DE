@@ -2,19 +2,23 @@
 keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Lookback-Fenster;Verhaltensdatenquelle;Partielles Design;Backup-Empfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;zuletzt gekauftes Element;zuletzt angezeigtes Element;am häufigsten angezeigtes Element;bevorzugte Kategorie;Beliebtheit;kürzlich angezeigtes Element;zuletzt gekauft;am häufigsten angezeigt;Favorit;zuletzt angezeigt
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer - [!DNL Recommendations]  steuern, um die Empfehlungen anzuzeigen, die für Ihre -Aktivität am besten geeignet sind.
 title: Wie erstelle ich [!UICONTROL Criteria] in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 47%
+source-wordcount: 2578
+ht-degree: 48%
 
 ---
 
 # Erstellen von Kriterien
 
-Kriterien in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] steuern den Inhalt Ihrer [!UICONTROL Recommendations]. Erstellen Sie Kriterien, um die Empfehlungen anzuzeigen, die für Ihre Aktivität am besten geeignet sind. Diese Kriterien verwenden die Aktionen des Besuchers, um zu bestimmen, welche Inhalte oder Produkte angezeigt werden sollen.
+Kriterien in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] steuern den Inhalt Ihrer [!UICONTROL Recommendations]. Erstellen Sie Kriterien zur Anzeige der Empfehlungen, die am besten zu Ihrer Aktivität passen. Diese Kriterien verwenden die Aktionen des Besuchers, um zu bestimmen, welche Inhalte oder Produkte angezeigt werden sollen.
 
 In den folgenden Abschnitten wird erläutert, wie Sie neue Kriterien erstellen.
 
@@ -90,7 +94,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden S
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
+[!UICONTROL Backup Content] Regeln bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente Ihrem [-Design nicht ](/help/main/c-recommendations/c-design-overview/design-overview.md). Es ist möglich, dass [!DNL Recommendations] Kriterien weniger Empfehlungen zurückgeben als von Ihrem Design gefordert. Wenn Ihr Design beispielsweise Steckplätze für vier Elemente hat, Ihre Kriterien jedoch nur zwei Elemente verursachen, können Sie die verbleibenden Steckplätze leer lassen, Sie können Sicherungsempfehlungen verwenden, um die zusätzlichen Steckplätze zu füllen, oder Sie können festlegen, dass keine Empfehlungen angezeigt werden.
 
 1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Partial Design Rendering]** in die Position „Ein“.
 
@@ -123,7 +127,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Recommendation Key] finden S
 
    Einschlussregeln bestimmen, welche Elemente in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
 
-   Weitere Informationen finden Sie [&#x200B; „Einschlussregeln angeben](#inclusion) unten.
+   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
 
 ## [!UICONTROL Data Source] {#data-source}
 
@@ -231,7 +235,7 @@ Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Ein
 
 Sie können mehrere Regeln hinzufügen, um den Algorithmus basierend auf wichtigen Informationen oder Metadaten zum Inhaltskatalog „anzustoßen“, sodass bestimmte Elemente mit höherer Wahrscheinlichkeit angezeigt werden.
 
-Sie können beispielsweise Artikel im Angebot höher gewichten, sodass sie häufiger in der Empfehlung angezeigt werden. Artikel, die nicht Teil des Sonderangebots sind, werden nicht vollständig ausgeschlossen, jedoch weniger häufig angezeigt. Auf denselben Algorithmus können mehrere gewichtete Attribute angewendet werden und die gewichteten Attribute können mit dem in der Empfehlung aufgeteilten Traffic getestet werden.
+So haben Sie zum Beispiel die Möglichkeit, rabattierten Artikeln eine höherer Gewichtung zu verleihen, damit sie öfter in den Empfehlungen erscheinen. Artikel, die nicht Teil des Sonderangebots sind, werden nicht vollständig ausgeschlossen, jedoch weniger häufig angezeigt. Auf denselben Algorithmus können mehrere gewichtete Attribute angewendet werden und die gewichteten Attribute können mit dem in der Empfehlung aufgeteilten Traffic getestet werden.
 
 1. Wählen Sie einen Wert aus.
 

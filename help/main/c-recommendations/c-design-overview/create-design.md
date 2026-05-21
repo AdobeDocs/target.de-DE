@@ -2,13 +2,16 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie ein  [!DNL Target Recommendations] -Design mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 23%
 
 ---
 
@@ -48,7 +51,7 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
 
-1. Geben Sie einen **[!UICONTROL &#x200B; Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
+1. Geben Sie einen **[!UICONTROL  Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
 
    Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld &quot;**[!UICONTROL Content Name]**&quot; angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
 
@@ -56,11 +59,11 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und unter [Anpassen eines Designs mithilfe von Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Designs sind für Nicht-Web-Umgebungen gedacht, in denen Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
+   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
 
    >[!NOTE]
    >
-   >Die maximale Anzahl von Entitäten, auf die in einem Design verwiesen werden kann, egal ob hartcodiert oder in Schleife, beträgt 99.
+   >Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hartcodiert oder in Schleife, beträgt 99.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
@@ -92,7 +95,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben &#x200B;](/help/main/c-experiences/form-experience-composer.md) können.
+Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben ](/help/main/c-experiences/form-experience-composer.md) können.
 
 1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, einen Entwurf innerhalb des [!UICONTROL Visual Experience Composer]-Workflows (VEC) zu erstellen, können Sie nichts anderes als ein HTML-Design erstellen, das zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 
@@ -320,4 +323,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

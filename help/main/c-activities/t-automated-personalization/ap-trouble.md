@@ -2,13 +2,16 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Erfahren Sie mehr über die potenziellen Herausforderungen bei der Verwendung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten in Adobe Target und lernen Sie Lösungsvorschläge kennen.
 title: Wie kann ich Fehler bei [!UICONTROL Automated Personalization] Aktivitäten beheben?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
-source-git-commit: 2cb2c2b68f6487d1af41ecc7e73750afa1ad85f9
+TQID: https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 31%
+source-wordcount: 742
+ht-degree: 30%
 
 ---
 
@@ -68,7 +71,7 @@ Nehmen wir zum Beispiel an, dass eine Aktivität mit einer Konversionsmetrik (C1
 
 +++
 
-## Meine Erlebnis-URLs funktionieren nicht erwartungsgemäß.  {#section_7B08DA1F30AA483E9406336DAF361BA4}
+## Meine Erlebnis-URLs funktionieren nicht erwartungsgemäß. {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
 +++Details anzeigen
 

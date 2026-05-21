@@ -4,9 +4,13 @@ description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie
 title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 3f7c81654d4f7982acf166b314cc332822cc87a6
+TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: 1373
 ht-degree: 23%
 
 ---
@@ -51,7 +55,7 @@ Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Pl
 
 Durch Klicken auf das [!UICONTROL Help]-Symbol ![Hilfe-](/help/main/assets/icons/HelpOutline.svg) ) können Sie auf Informationen, Videos, Blogs und andere Ressourcen zugreifen, die Ihnen helfen, [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
-![Hilfe &#x200B;](/help/main/c-intro/assets/help.png)
+![Hilfe ](/help/main/c-intro/assets/help.png)
 
 ### Anfragen, Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
@@ -61,7 +65,7 @@ Klicken Sie in der Kopfzeile auf das [!UICONTROL Notifications]-Symbol ![Benachr
 
 Das Bedienfeld enthält Registerkarten für [!UICONTROL Requests], [!UICONTROL Notifications] und [!UICONTROL Announcements].
 
-![&#x200B; Benachrichtigungen &#x200B;](assets/notifications.png)
+![ Benachrichtigungen ](assets/notifications.png)
 
 In den folgenden Abschnitten finden Sie Informationen zu den einzelnen Registerkarten sowie zum Konfigurieren von Benachrichtigungen und Ankündigungen:
 
@@ -113,7 +117,7 @@ Sie können eine Erinnerung auch erneut benachrichtigt werden lassen, indem Sie 
 
 Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Detailliertere Informationen finden Sie auf der Seite [Adobe-Status](https://status.adobe.com/de) .
+Detailliertere Informationen finden Sie auf der Seite [Adobe Status](https://status.adobe.com/de).
 
 ### Konfigurieren von Benachrichtigungen und Ankündigungen
 

@@ -4,10 +4,14 @@ description: Hier finden Sie Antworten auf Fragen zur Klassifizierung und Verwen
 title: Wo finde ich Informationen zu Klassifizierungen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/-BIklVbPaO9QGmnjN0eQdbLFXGA7c2sR-3s6OUli8BM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 30%
+source-wordcount: 318
+ht-degree: 27%
 
 ---
 
@@ -18,7 +22,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zu Klassifizierungen und
 ## Wie kann ich, nachdem ich die [!UICONTROL Classifications Importer] zum Herunterladen von Klassifizierungen verwendet habe, den post-tnt-action-Wert mit einem Aktivitätsnamen abgleichen? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Antwort
-Die Classifications für die A4T/TNT-Zeichenfolge können mithilfe des [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=de) der Admin Tools heruntergeladen werden. Die Variable wird in der Exportliste als „TNT“ bezeichnet. In den heruntergeladenen Daten sind die Anzeigenamen der Aktivitäten, Erlebnisse usw. enthalten.
+Die Classifications für die A4T/TNT-Zeichenfolge können mithilfe des [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) der Admin Tools heruntergeladen werden. Die Variable wird in der Exportliste als „TNT“ bezeichnet. In den heruntergeladenen Daten sind die Anzeigenamen der Aktivitäten, Erlebnisse usw. enthalten.
 
 Diese Lookup-Datei ist nützlich für Kunden, die den Clickstream-Daten-Feed von [!DNL Adobe] erhalten. In der Tabelle sind die Anzeigenamen für die Spalten `post_tnt` und `post_tnt_action` angegeben.
 
@@ -42,6 +46,6 @@ activityId:experienceId:targettype:algorithmId|event
 * Erlebnis = 32767 steht für eine Aktivitätskonversion.
 * Ereignis -1 oder 65535 bedeutet, dass der/die Benutzende aus der Aktivität oder dem Erlebnis entfernt wird. Diese Situation tritt häufig auf, wenn der Besucher konvertiert. Der Besucher wird aus dem Erlebnis entlassen und kann sich jetzt für jedes andere Erlebnis qualifizieren.
 
-Sie können die Classification-Datei häufig über die Benutzeroberfläche mit einem [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=de) oder einem [FTP-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=de) importieren. Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
+Sie können die Classification-Datei häufig über die Benutzeroberfläche mit einem [Browser-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) oder einem [FTP-Import](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en) importieren. Außerdem können Sie sich an den technischen Support werden, um die Datei als Nachschlagetabelle gemeinsam mit Clickstream-Daten-Feed zu beziehen.
 
 +++
