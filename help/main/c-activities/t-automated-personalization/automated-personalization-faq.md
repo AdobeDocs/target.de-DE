@@ -2,13 +2,17 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Automated Personalization;Kontrolle;Standarderlebnis;Best Practices
 description: Erkunden Sie eine Liste häufig gestellter Fragen (FAQs) und Antworten zu [!UICONTROL Automated Personalization] (AP)-Aktivitäten in [!UICONTROL Adobe Target].
 title: Wie finde ich häufig gestellte Fragen zu [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a
+TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 21%
+source-wordcount: 2032
+ht-degree: 20%
 
 ---
 
@@ -20,7 +24,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL Automated Personalization] in [!D
 
 +++Details anzeigen
 
-Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
+Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -40,6 +44,7 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 +++Details anzeigen
 
+* Begrenzen Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen.
 * Wenn Sie eine Seite mit niedrigerem Traffic personalisieren möchten oder strukturelle Änderungen am personalisierten Erlebnis vornehmen möchten, sollten Sie eine [!UICONTROL Auto-Target] -Aktivität anstelle von [!UICONTROL Automated Personalization] verwenden. Siehe [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Erwägen Sie, eine [!UICONTROL A/B Test] zwischen den Angeboten und Standorten durchzuführen, die Sie in Ihrer [!UICONTROL Automated Personalization]-Aktivität verwenden möchten, um sicherzustellen, dass der Standort und die Angebote eine Auswirkung auf das Optimierungsziel haben. Wenn eine [!UICONTROL A/B Test] Aktivität keinen signifikanten Unterschied nachweist, erzeugt [!UICONTROL Automated Personalization] wahrscheinlich auch keine Steigerung.
 
@@ -47,7 +52,7 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
       * Die Angebote unterscheiden sich wahrscheinlich nicht ausreichend voneinander.
       * Die ausgewählten Standorte wirken sich nicht auf die Erfolgsmetrik aus.
-      * Das Optimierungsziel liegt zu weit im Konversionstrichter, um von den gewählten Angeboten beeinflusst zu werden.
+      * Das Optimierungsziel in der Konversions-funnel ist zu weit reichend, um von den gewählten Angeboten beeinflusst zu werden.
 
 * Stellen Sie sicher, dass Sie die [Traffic-Schätzung](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) verwenden, um ein Gefühl dafür zu bekommen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer [!UICONTROL Automated Personalization]-Aktivität erstellt werden.
 * Entscheiden Sie basierend auf Ihren Zielen über die Zuordnung zwischen Kontrolle und Zielgruppe, bevor Sie die Aktivität beginnen.
@@ -80,11 +85,13 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Disalow Duplicates] aktiviert ist.
 
+Um eine optimale Leistung zu erzielen, begrenzen Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Da die Gesamtzahl der Erlebnisse durch die Kombination von Standorten und Angeboten zunimmt, können größere Konfigurationen zu langsamem Laden oder Bearbeiten in der [!UICONTROL Visual Experience Composer] führen.
+
 Weitere Informationen zu Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in [!DNL Target] betreffen, finden Sie unter [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md).
 
 +++
 
-## Wie wird die Kundenansprache auf Angebotsebene implementiert?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
+## Wie wird das Targeting auf Angebotsebene implementiert? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 +++Details anzeigen
 
@@ -113,7 +120,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten P
 
 +++Details anzeigen
 
-[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
+[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
 Angenommen, eine [!UICONTROL Automated Personalization] hat zwei Standorte mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher stellt [!UICONTROL Automated Personalization] diesem Besucher ein Erlebnis mit Angebot A und Angebot D bereit.
 
