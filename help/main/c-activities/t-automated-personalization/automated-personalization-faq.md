@@ -17,10 +17,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 2032
-ht-degree: 20%
+source-wordcount: 2166
+ht-degree: 19%
 
 ---
 
@@ -52,7 +52,8 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 +++Details anzeigen
 
-* Begrenzen Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen.
+* Achten Sie genau auf *Aktivitäts-Form* (Anzahl der Standorte × Anzahl der Angebote), nicht nur auf die Gesamtzahl der Erlebnisse. Kartesische Kombinationen von Standorten und Angeboten fördern die Leistung bei der Bearbeitung mehr als die Anzahl der Erlebnisse.
+* Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen, sie können zu langsamem Laden oder Bearbeiten in der [!UICONTROL Visual Experience Composer] führen und können in der [!DNL Target]-Benutzeroberfläche eingeschränkt sein. In der aktuellen Benutzeroberfläche werden [!DNL Target] Inline-Warnungen angezeigt oder das Speichern der Aktivität wird verhindert, wenn die Konfiguration unterstützte Schwellenwerte überschreitet.
 * Wenn Sie eine Seite mit niedrigerem Traffic personalisieren möchten oder strukturelle Änderungen am personalisierten Erlebnis vornehmen möchten, sollten Sie eine [!UICONTROL Auto-Target] -Aktivität anstelle von [!UICONTROL Automated Personalization] verwenden. Siehe [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Erwägen Sie, eine [!UICONTROL A/B Test] zwischen den Angeboten und Standorten durchzuführen, die Sie in Ihrer [!UICONTROL Automated Personalization]-Aktivität verwenden möchten, um sicherzustellen, dass der Standort und die Angebote eine Auswirkung auf das Optimierungsziel haben. Wenn eine [!UICONTROL A/B Test] Aktivität keinen signifikanten Unterschied nachweist, erzeugt [!UICONTROL Automated Personalization] wahrscheinlich auch keine Steigerung.
 
@@ -91,9 +92,13 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 
 [!DNL Target] hat eine feste Grenze von 30.000 Erlebnissen, funktioniert aber am besten, wenn weniger als 10.000 Erlebnisse erstellt werden.
 
-Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Disalow Duplicates] aktiviert ist.
+Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICONTROL Disallow Duplicates] aktiviert ist.
 
-Um eine optimale Leistung zu erzielen, begrenzen Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Da die Gesamtzahl der Erlebnisse durch die Kombination von Standorten und Angeboten zunimmt, können größere Konfigurationen zu langsamem Laden oder Bearbeiten in der [!UICONTROL Visual Experience Composer] führen.
+Obwohl [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] Aktivitäten eine große Anzahl von Erlebnissen unterstützen können, hängt die Leistung bei der Bearbeitung stark von *Aktivitätsform* (Anzahl der Standorte × Anzahl der Angebote) ab. Bestimmte Konfigurationen erstellen große kartesische Kombinationen, die sich erheblich auf die Auslastung und Bearbeitungsleistung auswirken können, selbst unterhalb der dokumentierten Erlebnisbeschränkungen.
+
+Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen und können in der [!DNL Target] Benutzeroberfläche eingeschränkt sein.
+
+In der aktuellen [!DNL Target]-Benutzeroberfläche werden [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten direkt im [!UICONTROL Experiences] konfiguriert. [!DNL Target] können Inline-Warnungen anzeigen oder Speicheraktivitäten verhindern, wenn Konfigurationen unterstützte Schwellenwerte überschreiten, und die Aktivitätsform bei [!UICONTROL Next], [!UICONTROL Save] und [!UICONTROL Publish] erneut überprüfen.
 
 Weitere Informationen zu Zeichenbeschränkungen und anderen Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.), die Aktivitäten und andere Elemente in [!DNL Target] betreffen, finden Sie unter [Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md).
 

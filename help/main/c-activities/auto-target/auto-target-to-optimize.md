@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -62,7 +62,10 @@ Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung für einen b
 
 Beachten Sie bei der Verwendung von [!UICONTROL Auto-Target] einige wichtige Aspekte:
 
-* Begrenzen Sie [!UICONTROL Auto-Target]- und [!UICONTROL Automated Personalization] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Da die Gesamtzahl der Erlebnisse durch die Kombination von Standorten und Angeboten zunimmt, können größere Konfigurationen zu langsamem Laden oder Bearbeiten in der [!UICONTROL Visual Experience Composer] führen.
+* Achten Sie auf die Form der Aktivität. Die Leistung hängt mehr von der Anzahl der Standorte × Angebote als von der Anzahl der unbearbeiteten Erlebnisse ab. Große kartesische Kombinationen können das Laden und Bearbeiten in der [!UICONTROL Visual Experience Composer] verlangsamen, sogar unter dokumentierten Erfahrungsgrenzen.
+
+  Als Best Practice empfiehlt es sich, [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization] Aktivitäten an 4-6 Standorten mit 4-6 Angeboten pro Standort durchzuführen. Größere Konfigurationen werden nicht empfohlen. Da diese Aktivitäten direkt im [!UICONTROL Experiences] Schritt erstellt werden, kann die [!DNL Target]-Benutzeroberfläche Inline-Warnungen anzeigen oder das Speichern blockieren, wenn die Konfiguration unterstützte Schwellenwerte überschreitet.
+
 * Sie können eine bestimmte Aktivität nicht von [!UICONTROL Auto-Target] in [!UICONTROL Automated Personalization] oder umgekehrt wechseln.
 * Sie können nicht von [!UICONTROL Manual] Traffic-Zuordnung (traditionelles [!UICONTROL A/B Test]) zu [!UICONTROL Auto-Target] wechseln und umgekehrt, nachdem eine Aktivität als Entwurf gespeichert wurde.
 * Es wird ein Modell erstellt, um die Leistung der personalisierten Strategie im Vergleich zum zufällig bereitgestellten Traffic und dem Versand des gesamten Traffics an das insgesamt erfolgreichste Erlebnis zu ermitteln. Dieses Modell berücksichtigt nur Treffer und Konversionen in der Standardumgebung.
