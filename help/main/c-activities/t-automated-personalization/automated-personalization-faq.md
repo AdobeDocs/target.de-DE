@@ -6,9 +6,17 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
 source-wordcount: 2032
@@ -24,7 +32,7 @@ Konsultieren Sie bei Problemen mit [!UICONTROL Automated Personalization] in [!D
 
 +++Details anzeigen
 
-Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
+Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -120,7 +128,7 @@ Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten P
 
 +++Details anzeigen
 
-[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
+[!UICONTROL Automated Personalization] leitet Besucher zu dem Erlebnis mit der höchsten prognostizierten Erfolgsmetrik, basierend auf den für jedes Modell erstellten [Zufällige &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)), weiter. Diese Prognose basiert auf den spezifischen Informationen des Besuchers und dem Besuchskontext.
 
 Angenommen, eine [!UICONTROL Automated Personalization] hat zwei Standorte mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher stellt [!UICONTROL Automated Personalization] diesem Besucher ein Erlebnis mit Angebot A und Angebot D bereit.
 
