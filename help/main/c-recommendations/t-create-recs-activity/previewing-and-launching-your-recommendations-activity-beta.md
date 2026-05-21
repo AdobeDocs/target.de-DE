@@ -5,9 +5,9 @@ title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Nachdem Sie Ihre [!UICONTROL Recommendations]-, [!UICONTROL A/B Test]- oder [!UI
 
 Nach dem Erstellen einer Aktivität führt [!DNL Recommendations] einen Algorithmus aus, um Empfehlungen zu generieren. Die Ausführung dieses Algorithmus kann einige Stunden dauern.
 
-Im [!UICONTROL Activity] Übersichtsdiagramm, in dem der Kriterienstatus aufgeführt ist, können Sie überprüfen, ob der Algorithmus vollständig ausgeführt wurde. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der [!DNL Recommendations] einer [!UICONTROL Overview] Aktivität:
+Im [!UICONTROL Activity] Übersichtsdiagramm, in dem der Kriterienstatus aufgeführt ist, können Sie überprüfen, ob der Algorithmus vollständig ausgeführt wurde. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der [!UICONTROL Overview] einer [!DNL Recommendations] Aktivität:
 
 ![Seite Recommendations-Aktivität - Übersicht](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -91,6 +91,8 @@ Von links nach rechts ist eine Liste der empfohlenen Elemente, in diesem Fall di
 Wenn ein Sternchen (*) der erste Wert einer Zeile ist, bedeutet dies [Sicherungselemente](/help/main/c-recommendations/c-algorithms/backup-recs.md). Backup-Elemente werden angezeigt, wenn nicht alle Slots in einem Design mit den empfohlenen Elementen des Algorithmus (Kriterien) gefüllt werden können.
 
 Bei anderen Algorithmustypen, die auf einem Schlüsselwert basieren, z. B. [!UICONTROL People Who Viewed This, Viewed That], werden die Schlüsselwerte (d. h. die Elemente „This„) in der Spalte ganz links und die empfohlenen Elemente (d. h. die Elemente „That„) von links nach rechts in den Spalten Recommendation_X aufgeführt.
+
+Beachten Sie, dass bei Aktivitäten mit sehr großen Ergebnismengen die Option **[!UICONTROL Download data]** mit dem Fehler fehlschlagen kann. Dieser Fehler tritt auf, `Error while fetching recommendation data file.` die generierte CSV-Datei die Antwortgröße überschreitet, die über die Benutzeroberfläche in einem einzigen Download zurückgegeben werden kann.
 
 >[!NOTE]
 >

@@ -5,10 +5,16 @@ title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '3444'
-ht-degree: 84%
+source-wordcount: 3543
+ht-degree: 80%
 
 ---
 
@@ -48,7 +54,7 @@ Nachdem Sie eine Feed-Datei importiert oder Entitätsaktualisierungen per API od
 
   Dies geschieht, weil [!DNL Target] Ausschlüsse sowohl online als auch offline anwendet. Wenn ein Element neu ausgeschlossen wird, wird der Online-Ausschluss schnell angewendet. Wenn ein Element neu eingeschlossen wird, wird der Online-Ausschluss schnell beendet, aber der Offline-Ausschluss wird erst beendet, wenn der nächste Algorithmus ausgeführt wird.
 
-* Wenn ein Element zuvor eingeschlossen war, aber jetzt ausgeschlossen werden soll, wird das Element gemäß dem Zeitrahmen „Elementattribute aktualisiert...“ ausgeschlossen. Der oben genannte Zeitrahmen hängt von der Feed-Quelle ab (15 Minuten über Mbox/API oder 12–24 Stunden über Feed).
+* Wenn ein Element zuvor eingeschlossen war, aber jetzt ausgeschlossen werden soll, wird das Element gemäß „Elementattribute aktualisiert…“ ausgeschlossen. Der oben beschriebene Zeitraum hängt von der Feed-Quelle ab (15 Minuten über Mbox/API oder 12-24 Stunden über Feed).
 
 Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus ausgeführt wird (innerhalb von 12 bis 24 Stunden):
 
@@ -146,7 +152,7 @@ Beachten Sie die folgenden Informationen, wenn eine Sammlung, die zuvor nicht nu
 
 Die Attributgewichtung liegt in zwei Formen vor: „Standardattributgewichtung“ und „Inhaltsähnlichkeits-Attributgewichtung“.
 
-Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für alle Kriterientypen (nicht nur „Inhaltsähnlichkeit“). Dieser Gewichtungstyp gewichtet bestimmte Attributwerte stärker. Im folgenden Beispiel werden Nike-Produkte in den Ausgabeempfehlungen angestoßen.
+Die „Standardattributgewichtung“ gilt für die meisten, wenn nicht gar für alle Kriterientypen (nicht nur für die Inhaltsähnlichkeit). Dieser Gewichtungstyp gewichtet bestimmte Attributwerte stärker. Im folgenden Beispiel werden Nike-Produkte in den Ausgabeempfehlungen angestoßen.
 
 ![attribute_weight_example image](assets/attribute_weighting_example.png)
 
@@ -199,6 +205,12 @@ Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn S
 ## Wie groß dürfen CSV-Dateien für den Feedupload maximal sein? {#section_20F1AF4839A447B9889B246D6E873538}
 
 Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfiehlt Adobe jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Weitere Längenbeschränkungen für erforderliche Spalten finden Sie auf der Seite [[!DNL Target] Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+
+## Warum schlägt meine [!UICONTROL Download data] Aktion in einer [!DNL Recommendations] fehl? {#download-data-error}
+
+Wenn Sie auf der [!UICONTROL Activity Overview] einer [!DNL Recommendations] Aktivität auf **[!UICONTROL Download data]** klicken, zeigt die [!DNL Target] Benutzeroberfläche möglicherweise die `Error while fetching recommendation data file.` an
+
+Dies geschieht in der Regel, wenn die Aktivität einen sehr großen Ergebnissatz hat: Die generierte CSV-Datei überschreitet die Antwortgröße, die über die Benutzeroberfläche in einem einzigen Download zurückgegeben werden kann. Die Empfehlungsdaten selbst sind intakt, nur der In-Browser-Download-Pfad kann keine Datei dieser Größe bereitstellen.
 
 ## Kann ich eine Entität dynamisch ausschließen? {#exclude}
 
