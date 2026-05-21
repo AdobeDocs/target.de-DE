@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 83%
    + {hide-from-toc}[Vorab-Ausblenden von Inhalten](administrating-target/content-pre-hiding.md)
    + [Hosts](administrating-target/hosts.md)
    + [Umgebungen](/help/main/administrating-target/environments.md)
+   + [Geteilte URLs](administrating-target/allowlisted-urls.md)
    + [Antwort-Token](administrating-target/response-tokens.md)
    + Verwalten von Benutzenden {#manage-users}
       + [Benutzerverwaltung](administrating-target/c-user-management/user-management.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
    + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
    + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
