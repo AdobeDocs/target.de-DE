@@ -5,10 +5,22 @@ title: Unterstützt A4T [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1352
@@ -23,13 +35,13 @@ Die [!DNL Adobe Target]-zu-[!DNL Adobe Analytics]-Integration mit der Bezeichnun
 Die A4T-Integration bietet folgende Möglichkeiten:
 
 * Verwenden Sie die Multi-Armed[Bandit-Funktion „Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), um Traffic zu den erfolgreichsten Erlebnissen zu leiten.
-* Verwenden Sie den Machine[Learning-Algorithmus der ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Automatisches Targeting“, um das beste Erlebnis für jeden Besucher auszuwählen. [!UICONTROL Auto-Target] wählt das beste Erlebnis basierend auf dem Profil, dem Verhalten und dem Kontext jedes Benutzers aus und verwendet dabei eine [!DNL Adobe Analytics] Zielmetrik und die umfangreichen Reporting- und Analysefunktionen von [!DNL Adobe Analytics].
+* Verwenden Sie den Machine[Learning-Algorithmus der &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Automatisches Targeting“, um das beste Erlebnis für jeden Besucher auszuwählen. [!UICONTROL Auto-Target] wählt das beste Erlebnis basierend auf dem Profil, dem Verhalten und dem Kontext jedes Benutzers aus und verwendet dabei eine [!DNL Adobe Analytics] Zielmetrik und die umfangreichen Reporting- und Analysefunktionen von [!DNL Adobe Analytics].
 
 Stellen Sie sicher, dass Sie [A4T zur Verwendung mit A/B-Test- und Erlebnis-Targeting-Aktivitäten implementiert haben](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Wenn Sie `analyticsLogging = client_side` verwenden, müssen Sie auch den `sessionId` Wert an [!DNL Analytics] übergeben. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 Erster Schritt:
 
-1. Klicken [ beim Erstellen einer [!UICONTROL A/B Test] Aktivität ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) der Seite **[!UICONTROL Targeting]** auf das **[!UICONTROL Traffic Allocation]** und wählen Sie dann im rechten Bereich die gewünschte Traffic-Zuordnungsmethode aus.
+1. Klicken [&#x200B; beim Erstellen einer [!UICONTROL A/B Test] Aktivität &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) der Seite **[!UICONTROL Targeting]** auf das **[!UICONTROL Traffic Allocation]** und wählen Sie dann im rechten Bereich die gewünschte Traffic-Zuordnungsmethode aus.
 
    ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/assets/auto-target.png)
 
@@ -54,7 +66,7 @@ Erster Schritt:
    * Um [!DNL Adobe Target] zur Angabe des Optimierungsziels zu verwenden, wählen Sie **[!UICONTROL Conversion]** aus.
    * Wählen Sie **[!UICONTROL Use an Analytics metric]** und dann eine Metrik aus [!DNL Analytics] als Optimierungsziel aus. Sie können eine vorkonfigurierte [!DNL Analytics]-Konversionsmetrik oder ein [!DNL Analytics] benutzerspezifisches Ereignis verwenden.
 
-   Weitere Informationen finden [ unter ](#supported)Unterstützte Zielmetriken“.
+   Weitere Informationen finden [&#x200B; unter &#x200B;](#supported)Unterstützte Zielmetriken“.
 
 1. Speichern und aktivieren Sie Ihre Aktivität.
 
@@ -125,9 +137,9 @@ Einige Einschränkungen und Hinweise gelten sowohl für [!UICONTROL Auto-Allocat
 ### Automatische Zuordnung {#aa}
 
 * **Trainingshäufigkeit**: [!UICONTROL Auto-Allocate] Modelle werden wie gewohnt stündlich trainiert.
-* **Attributionsmodelle**: [!DNL Target] verwendet das [!DNL Adobe Analytics] standardmäßige Attributionsmodell für [!UICONTROL  Auto-Allocate] Aktivitäten, die A4T verwenden.
+* **Attributionsmodelle**: [!DNL Target] verwendet das [!DNL Adobe Analytics] standardmäßige Attributionsmodell für [!UICONTROL &#x200B; Auto-Allocate] Aktivitäten, die A4T verwenden.
 * **Konfidenz**: Die von [!UICONTROL Auto-Allocate] Aktivitäten verwendete Konfidenzformel unterscheidet sich von der Formel, die standardmäßig im Bedienfeld [!DNL Adobe Analytics] [!UICONTROL A4T] angezeigt wird. [Wie hier beschrieben](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) verwendet [!UICONTROL Auto-Allocate] konservativere Konfidenzintervalle als reguläre [!UICONTROL A/B Test]. Diese konservativen Konfidenzniveaus kompensieren wiederholte Auswertungen (Peeks) an den Daten. Daher zeigt der Standardbericht in [!DNL Adobe Analytics] engere Konfidenzintervalle im Vergleich zu den Intervalle an, die vom [!UICONTROL Auto-Allocate]-Algorithmus verwendet werden. Sie können jedoch anhand der Algorithmen bestimmen, welches Erlebnis durch welche Erlebnisse begünstigt wird, an die mehr Unique Visitors gesendet werden.
-* **Status des Gewinners**: Derzeit sind die Abzeichen [Noch kein Gewinner“ und ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)Gewinner“ im [!UICONTROL A4T] in [!DNL Analysis Workspace] nicht verfügbar. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target] angezeigt wird. Ein Gewinner-Abzeichen „Stern“, das in einem [!DNL Target] für eine [!UICONTROL Auto-Allocate]-Aktivität mit A4T angezeigt wird, sollte ignoriert werden. Dieses Badge spiegelt reguläre Konfidenzberechnungen wider und nicht die von [!UICONTROL Auto-Allocate] verwendeten Berechnungen.
+* **Status des Gewinners**: Derzeit sind die Abzeichen [Noch kein Gewinner“ und &#x200B;](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)Gewinner“ im [!UICONTROL A4T] in [!DNL Analysis Workspace] nicht verfügbar. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target] angezeigt wird. Ein Gewinner-Abzeichen „Stern“, das in einem [!DNL Target] für eine [!UICONTROL Auto-Allocate]-Aktivität mit A4T angezeigt wird, sollte ignoriert werden. Dieses Badge spiegelt reguläre Konfidenzberechnungen wider und nicht die von [!UICONTROL Auto-Allocate] verwendeten Berechnungen.
 
 ### Automatisches Targeting {#at}
 

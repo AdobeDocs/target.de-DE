@@ -5,8 +5,10 @@ title: Welche Best Practices gibt es für eine [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 611
@@ -50,7 +52,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 ## Analyse {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
-* Stützen [ im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
+* Stützen [&#x200B; im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
 
   Der [!UICONTROL All] erschwert die Extraktion der gewünschten Informationen, und es können nicht alle Erlebnisse im Diagramm angezeigt werden. Verwenden Sie den [!UICONTROL All] Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 

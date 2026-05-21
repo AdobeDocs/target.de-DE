@@ -5,9 +5,12 @@ title: Kann ich Besuchende nach Browser-Typ auswählen?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 TQID: https://experienceleague.adobe.com/D7cLw1OVT61u8SgkjpzEvWylcX1uz14Ia4rf8jAJyXs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1024
@@ -147,7 +150,7 @@ Seit Einführung von [!DNL Target] Standard/Premium 24.3.1 (4.-6. März 2024) wu
 
 Integrierte Zielgruppen, die mit der [!DNL Target]-Benutzeroberfläche erstellt wurden, wie z. B. `Browser:iPad` und `Browser:iPhone`, werden automatisch in die neue Zielgruppendefinition verschoben und erfordern keine Aktion seitens der Kunden. In Zukunft sollten Sie jedoch die Einstellungen verwenden [wie unten beschrieben](#ui).
 
-Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [ unten ](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
+Wenn Sie `user.browserType` in Profilskripten verwenden, um zu überprüfen, ob es sich um einen [!DNL iPhone] oder einen [!DNL iPad] handelt (z. B. `user.browserType == 'iphone'` oder `user.browserType != 'ipad'`), sollten diese Profilskripte vor dem 30. April 2024 wie [&#x200B; unten &#x200B;](#profile-scripts) geändert werden, um sicherzustellen, dass diese Zielgruppen weiterhin wie erwartet funktionieren.
 
 JavaScript-Zielgruppen sind ältere Zielgruppen, die [!DNL Target] verwenden, welche in der [!DNL Target Classic]-Benutzeroberfläche veraltet sind. Diese Zielgruppen können nur über die API geändert werden. Kunden dürfen diese Zielgruppen nur aktualisieren, wenn sie weiterhin ältere Zielgruppen in -Aktivitäten verwenden.
 

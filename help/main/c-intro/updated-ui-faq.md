@@ -5,10 +5,20 @@ title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
 TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1904
@@ -42,14 +52,14 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [ Einschränkungen des Umschaltverhaltens](#limitations).
+  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [&#x200B; Einschränkungen des Umschaltverhaltens](#limitations).
 
 * **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
 
    * Ausnahmen werden von Fall zu Fall überprüft.
    * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) Probleme, die während dieser Umstellung auftreten könnten, an die [Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) Probleme, die während dieser Umstellung auftreten könnten, an die Adobe-Kundenunterstützung.
 
 ### Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche {#limitations}
 
@@ -90,7 +100,7 @@ Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisiert
 +++Details
 Die aktualisierte Benutzeroberfläche steht allen [!DNL Target], [!UICONTROL Standard] und [!UICONTROL Premium] zur Verfügung. Es ist keine aktualisierte Lizenz oder SKU erforderlich.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -99,7 +109,7 @@ Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die V
 +++Details
 Das [!DNL Target]-Team befasst sich aktiv mit Problemen im Zusammenhang mit dem Rollout der neuen Benutzeroberfläche. Aktualisierungen und laufende Verbesserungen werden in den Versionshinweisen beschrieben.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 

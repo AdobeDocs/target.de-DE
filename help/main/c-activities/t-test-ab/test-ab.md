@@ -5,8 +5,12 @@ title: Lernen Sie die in verfügbaren A/B-Test-Aktivitäten  [!DNL Target].
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 680
@@ -20,11 +24,11 @@ Eine manuelle [!UICONTROL A/B Test] (manchmal auch als A/B…N-Test bezeichnet) 
 
 >[!TIP]
 >
->Zusätzlich zur [!UICONTROL A/B Test]-Aktivität [!UICONTROL Manual] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [ unter „Arten von A/B](#types)Testaktivitäten“.
+>Zusätzlich zur [!UICONTROL A/B Test]-Aktivität [!UICONTROL Manual] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [&#x200B; unter „Arten von A/B](#types)Testaktivitäten“.
 
 Manuelle A/B-Tests sind nützlich, wenn Sie anhand von Erfolgsmetriken oder alternativen Inhaltsbereitstellungen eine klare Hypothese darüber haben, wie Sie die Leistung Ihrer Seite verbessern können.
 
-Manuelle A/B-Tests eignen sich für große Änderungen, die mit neuen Layouts oder grundlegend anderen Behandlungen der Elemente verbunden sein können. Wenn Ihr Testdesign nicht einfach in einzelne Seitenelemente unterteilt werden kann, sollten Sie einen A/B-Test durchführen, bevor Sie einen [Multivarianz-Test) ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+Manuelle A/B-Tests eignen sich für große Änderungen, die mit neuen Layouts oder grundlegend anderen Behandlungen der Elemente verbunden sein können. Wenn Ihr Testdesign nicht einfach in einzelne Seitenelemente unterteilt werden kann, sollten Sie einen A/B-Test durchführen, bevor Sie einen [Multivarianz-Test) &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 
 Wenn Sie Ihren A/B-Test einrichten, können Sie den Prozentsatz der Besucher ermitteln, die die einzelnen Erlebnisse sehen. Sie können beispielsweise den Traffic gleichmäßig auf das Steuerelement und ein zweites Erlebnis aufteilen oder ein neues, riskanteres Erlebnis testen, indem Sie es nur 5 % Ihrer Zielgruppe zeigen.
 
@@ -48,7 +52,7 @@ Weitere Informationen dazu, welche dieser [!UICONTROL A/B Test] Aktivitäten fü
 
 Die Schritte zum Erstellen der drei Arten von [!UICONTROL A/B Test] sind ähnlich. So erstellen Sie eine [!UICONTROL Auto-Allocate] oder [!UICONTROL Auto-Target] Aktivität:
 
-1. Erstellen [ zunächst eine A/B-Test -Aktivität](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
+1. Erstellen [&#x200B; zunächst eine A/B-Test -Aktivität](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 1. Wenn Sie zur Seite [!UICONTROL Targeting] gelangen, klicken Sie auf das [!UICONTROL Traffic Allocation] und wählen Sie dann die gewünschte Traffic-Zuordnungsmethode im rechten Bereich aus, wie unten dargestellt:
 
    * [!UICONTROL Auto-Allocate to best experience]

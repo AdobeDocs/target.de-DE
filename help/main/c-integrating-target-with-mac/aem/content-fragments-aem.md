@@ -5,9 +5,16 @@ title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Conte
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 626
@@ -73,7 +80,7 @@ Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit
 >
 >Verwenden von künstlicher Intelligenz, maschinellem Lernen und Recommendations mit [!UICONTROL Content Fragments]:
 >
->* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) einer [!UICONTROL A/B Test] Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting auswählen.
+>* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim [&#128279;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) einer [!UICONTROL A/B Test] Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder Automatisches Targeting auswählen.
 >
 >* [!UICONTROL Content Fragments] werden in [!DNL Recommendations] Aktivitäten nicht unterstützt. Um [!UICONTROL Content Fragments] für Recommendations zu verwenden, können Sie eine [!UICONTROL A/B Test] Aktivität (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) oder eine [!UICONTROL Experience Targeting] (XT) erstellen und [Recommendations als Angebot einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

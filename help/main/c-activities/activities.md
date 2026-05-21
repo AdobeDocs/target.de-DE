@@ -5,9 +5,18 @@ title: Wie kann ich Inhalts- und Testseiten-Designs mit personalisieren [!DNL Ta
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2416
@@ -80,7 +89,7 @@ Im Menü können Sie Aktivitäten nach den folgenden Attributen filtern:
 | [!UICONTROL Status] | Nach Aktivitätsstatus filtern.<ul><li>**[!UICONTROL Live]**: Die Aktivität wird derzeit ausgeführt.</li><li>**[!UICONTROL Scheduled]**: Die Aktivität kann aktiviert werden, wenn das angegebene Startdatum und die angegebene Startzeit eintreffen.</li><li>**[!UICONTROL Inactive]**: Die Aktivität wurde angehalten oder deaktiviert.</li><li>**[!UICONTROL Ended]**: Das angegebene Enddatum und die angegebene Uhrzeit der Aktivität wurden erreicht, und die Aktivität wird nicht mehr bereitgestellt.</li><li>**[!UICONTROL Archived]**: Die Aktivität wurde archiviert. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.</li></ul>Weitere Informationen zu den veralteten [!UICONTROL Save as Draft] und [!UICONTROL Syncing] Status finden Sie in dem Hinweis unter dieser Tabelle. |
 | [!UICONTROL Reporting Source] | Nach Berichtsquelle filtern.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): Zeigt Aktivitäten an, die [!UICONTROL Analytics for Target] (A4T) als Berichtsquelle verwenden.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): Zeigt Aktivitäten an, die [!DNL Target] als Berichtsquelle verwenden.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): Zeigt Aktivitäten an, die [!DNL Adobe Customer Analytics] als Berichtsquelle verwenden.</li></ul> |
 | [!UICONTROL Experience Composer] | Filtern Sie, nach dem Experience Composer während der Aktivitätserstellung verwendet wurde:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Zeigt Aktivitäten an, die mithilfe des [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden.</li><li>[Formularbasiert](/help/main/c-experiences/form-experience-composer.md): Zeigt Aktivitäten an, die mithilfe der [!UICONTROL Form-Based Experience Composer] erstellt wurden.</li></ul> |
-| [!UICONTROL Metrics Type] | Filter, nach [ „Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md) bei der Erstellung der Aktivität ausgewählt wurde.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
+| [!UICONTROL Metrics Type] | Filter, nach [&#x200B; „Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md) bei der Erstellung der Aktivität ausgewählt wurde.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
 | [!UICONTROL Decisioning Method] | Filtern Sie nach der in den einzelnen Aktivitäten verwendeten Entscheidungsmethode.<ul><li>[Server-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de): Zeigt Aktivitäten an, die Server-seitige Entscheidungsfindung verwenden.</li><li>[Client-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): Zeigt Aktivitäten an, die Client-seitige Entscheidungsfindung verwenden.</li></ul> |
 | [!UICONTROL Activity Source] | Filtern Sie nach der Aktivitätsquelle, die zur Erstellung der einzelnen Aktivitäten verwendet wurde.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL Property] | Filtern Sie nach [Eigenschaft](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der die Aktivität erstellt wurde. |

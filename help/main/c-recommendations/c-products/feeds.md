@@ -6,9 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2643
@@ -125,7 +129,7 @@ Wenn Sie bereits über eine [!DNL Google Product Feed] verfügen, können Sie di
 >
 >Es ist nicht erforderlich, [!DNL Google] Daten zu verwenden. [!DNL Recommendations] verwendet dasselbe Format wie [!DNL Google]. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Sie müssen jedoch die [!DNL Google] vordefinierten Attributnamen beim Einrichten der Datei beibehalten.
 
-Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ ](https://www.google.com/prdhp) werden.
+Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ &#x200B;](https://www.google.com/prdhp) werden.
 
 >[!NOTE]
 >

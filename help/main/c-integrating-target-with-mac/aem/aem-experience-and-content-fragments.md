@@ -5,9 +5,17 @@ title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Exper
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
 TQID: https://experienceleague.adobe.com/OlgveSjoE0rh1orFsbEZVCSbjd3TKEk8fdBbbXtLxhA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e6ff21d3-dec6-4298-8590-7c749fffaf78id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 341
@@ -44,7 +52,7 @@ Beachten Sie bei der Arbeit mit AEM [!UICONTROL Experience Fragments] und [!UICO
    * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [ (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten ](/help/main/c-experiences/form-experience-composer.md).
+* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 * Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) aufnehmen.
 
 ## Was ist der Unterschied zwischen [!UICONTROL Experience Fragments] und [!UICONTROL Content Fragments]?

@@ -5,9 +5,16 @@ title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Exper
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1248
@@ -37,7 +44,7 @@ Beachten Sie bei der Arbeit mit AEM [!UICONTROL Experience Fragments] in [!DNL T
    * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [ (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten ](/help/main/c-experiences/form-experience-composer.md).
+* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 Weitere Informationen zu AEM [!UICONTROL Experience Fragments] und [!UICONTROL Content Fragments] finden Sie unter Übersicht über [AEM [!UICONTROL Experience Fragments] und Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
@@ -108,7 +115,7 @@ Sie können den Mauszeiger über ein [!UICONTROL Experience Fragment] in der Lis
 
 ![Popup mit Experience Fragment-Informationen](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [ (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten ](/help/main/c-experiences/form-experience-composer.md).
+Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 >[!TIP]
 >
@@ -142,7 +149,7 @@ Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experienc
    * **Erlebnis-Targeting (XT):** [Erstellen einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Recommendations in A/B-Tests oder XT-Aktivitäten:** [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
-   [!UICONTROL Experience Fragments], die als JSON in [!DNL Target] exportiert wurden, können nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden. Nur HTML-[!UICONTROL Experience Fragments] werden in VEC-basierten Aktivitäten unterstützt. Wenn Sie JSON-[!UICONTROL Experience Fragments] verwenden möchten, verwenden Sie diese in Aktivitäten, die mit dem [formularbasierten Experience Composer“ erstellt ](/help/main/c-experiences/form-experience-composer.md).
+   [!UICONTROL Experience Fragments], die als JSON in [!DNL Target] exportiert wurden, können nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden. Nur HTML-[!UICONTROL Experience Fragments] werden in VEC-basierten Aktivitäten unterstützt. Wenn Sie JSON-[!UICONTROL Experience Fragments] verwenden möchten, verwenden Sie diese in Aktivitäten, die mit dem [formularbasierten Experience Composer“ erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 **So verwenden Sie [!UICONTROL Experience Fragments] mit dem [!UICONTROL Form-based Experience Composer]:**
 

@@ -6,9 +6,15 @@ feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 766
@@ -62,7 +68,7 @@ Beachten Sie bei der Bestimmung Ihrer Berichtsquelle die folgenden Informationen
 
 * **[!DNL Customer Journey Analytics]**: Eine Matrix der unterstützten Aktivitäten unter Verwendung der [!DNL Target]-Berichterstellung in [!DNL Customer Journey Analytics] finden Sie [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]Berichterstellung in[!DNL Adobe Customer Journey Analytics]*.
 
-  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Erstellung und Aktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle ](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Erstellung und Aktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Selbst wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 
