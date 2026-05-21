@@ -2,24 +2,16 @@
 keywords: Automated Personalization;App
 description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization] (AP)-Aktivität mit dem [!UICONTROL Visual Experience Composer] erstellen.
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: 1854
 ht-degree: 23%
 
 ---
@@ -100,18 +92,18 @@ Definieren Sie den Pool von Inhaltsvarianten, mit denen [!UICONTROL Automated Pe
 
    >[!IMPORTANT]
    >
-   >**Best Practice:** Um eine optimale Leistung zu erzielen, beschränken Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Die Gesamtzahl der Erlebnisse wächst aus der kartesischen Kombination von Standorten und Angeboten. Größere Konfigurationen können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen. Halten Sie die Gesamtzahl unter 5.000 Erlebnisse für optimale Ergebnisse; die feste Grenze ist 30.000 (dieselbe Grenze gilt, wenn die [!UICONTROL Disallow Duplicates] aktiviert ist).
+   >Um eine optimale Leistung zu erzielen, begrenzen Sie [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Die Gesamtzahl der Erlebnisse wächst aus der kartesischen Kombination von Standorten und Angeboten. Größere Konfigurationen können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen. Halten Sie die Gesamtzahl unter 5.000 Erlebnisse für optimale Ergebnisse; die feste Grenze ist 30.000 (dieselbe Grenze gilt, wenn die [!UICONTROL Disallow Duplicates] aktiviert ist).
 
 1. (Bedingt) Klicken Sie auf **[!UICONTROL Offers]** , um Inhaltselemente auszuwählen und sie Berichtsgruppen zuzuweisen oder nur bestimmten Besuchern zu ermöglichen, bestimmte Angebote beim Targeting zu sehen.
 
-   Weitere Informationen zu Berichtsgruppen finden Sie unter [Berichtsgruppen in Automated Personalization &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
+   Weitere Informationen zu Berichtsgruppen finden Sie unter [Berichtsgruppen in Automated Personalization ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 <!--
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
@@ -144,7 +136,7 @@ Entscheiden Sie, welche Besucher in die Aktivität eintreten und wie viel Traffi
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** Wenn Sie eine „Always on“-Aktivität erstellen möchten, geben Sie 10 % der Besucher das Steuerelement. Diese Option stellt sicher, dass genügend Daten für die Algorithmen vorhanden sind, um das Lernen im Laufe der Zeit fortzusetzen. Der Nachteil hier ist, dass Sie im Gegenzug für die Personalisierung eines größeren Teils Ihres Traffics weniger Präzision in der genauen Steigerung haben. Unabhängig von Ihrem Ziel ist diese Option die empfohlene Traffic-Aufteilung, wenn ein bestimmtes Erlebnis als Kontrolle verwendet wird.
    * **[!UICONTROL Custom Allocation]:** Teilen Sie den Prozentsatz wie gewünscht manuell auf.
 
-1. (Bedingt) Wählen Sie aus der Dropdown-Liste [!UICONTROL Control] ([&#x200B; ein bestimmtes Erlebnis aus, das als Kontrolle verwendet werden soll](/help/main/c-activities/t-automated-personalization/experience-as-control.md) oder wählen Sie [!UICONTROL Random Experience.]
+1. (Bedingt) Wählen Sie aus der Dropdown-Liste [!UICONTROL Control] ([ ein bestimmtes Erlebnis aus, das als Kontrolle verwendet werden soll](/help/main/c-activities/t-automated-personalization/experience-as-control.md) oder wählen Sie [!UICONTROL Random Experience.]
 
    Das Kontrollerlebnis liefert einen Vergleich, um zu ermitteln, welche Steigerung der automatisierte Test ermöglicht.
 

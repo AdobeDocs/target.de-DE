@@ -2,28 +2,17 @@
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
 description: Erfahren Sie, wie eine [!UICONTROL Auto-Target] jedem Besucher basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL Auto-Target] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-subfeature_v2:
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -48,7 +37,7 @@ Lesen Sie weiter, um zu erfahren, wie Sie [!UICONTROL Auto-Target] verwenden kö
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
-Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
+Wählen [ beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Auto-Target for personalized experiences]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
 ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
@@ -62,7 +51,10 @@ Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung für einen b
 
 Beachten Sie bei der Verwendung von [!UICONTROL Auto-Target] einige wichtige Aspekte:
 
-* Begrenzen Sie [!UICONTROL Auto-Target]- und [!UICONTROL Automated Personalization] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Da die Gesamtzahl der Erlebnisse durch die Kombination von Standorten und Angeboten zunimmt, können größere Konfigurationen zu langsamem Laden oder Bearbeiten in der [!UICONTROL Visual Experience Composer] führen.
+* Achten Sie auf die Form der Aktivität. Die Leistung hängt mehr von der Anzahl der Standorte × Angebote als von der Anzahl der unbearbeiteten Erlebnisse ab. Große kartesische Kombinationen können das Laden und Bearbeiten in der [!UICONTROL Visual Experience Composer] verlangsamen, sogar unter dokumentierten Erfahrungsgrenzen.
+
+  Als Best Practice empfiehlt es sich, [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization] Aktivitäten an 4-6 Standorten mit 4-6 Angeboten pro Standort durchzuführen. Größere Konfigurationen werden nicht empfohlen. Da diese Aktivitäten direkt im [!UICONTROL Experiences] Schritt erstellt werden, kann die [!DNL Target]-Benutzeroberfläche Inline-Warnungen anzeigen oder das Speichern blockieren, wenn die Konfiguration unterstützte Schwellenwerte überschreitet.
+
 * Sie können eine bestimmte Aktivität nicht von [!UICONTROL Auto-Target] in [!UICONTROL Automated Personalization] oder umgekehrt wechseln.
 * Sie können nicht von [!UICONTROL Manual] Traffic-Zuordnung (traditionelles [!UICONTROL A/B Test]) zu [!UICONTROL Auto-Target] wechseln und umgekehrt, nachdem eine Aktivität als Entwurf gespeichert wurde.
 * Es wird ein Modell erstellt, um die Leistung der personalisierten Strategie im Vergleich zum zufällig bereitgestellten Traffic und dem Versand des gesamten Traffics an das insgesamt erfolgreichste Erlebnis zu ermitteln. Dieses Modell berücksichtigt nur Treffer und Konversionen in der Standardumgebung.
@@ -153,7 +145,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Auto-Target] anstelle von [!
 
 ### Marketing-Experten können Offline-Daten, Tendenzwerte oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen.
 
-* Weitere Informationen zum [&#x200B; von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Weitere Informationen zum [ von Daten für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Wie unterscheidet sich [!UICONTROL Auto-Target] von [!UICONTROL Automated Personalization]? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
