@@ -4,10 +4,21 @@ description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von 
 title: Hier finden Sie Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
+TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 26%
+source-wordcount: 2624
+ht-degree: 27%
 
 ---
 
@@ -43,7 +54,7 @@ Bei Verwendung [!DNL Target] Aktivitätsimpressionen und Konversionen in [!DNL A
 ## Warum werden nicht verwandte Erlebnisse zurückgegeben, wenn ich ein Treffersegment für eine bestimmte [!DNL Target]-Aktivität anwende? {#activity-segmentation}
 
 +++Antwort
-Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. (Hinweis: Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden.) Wenn Besucher durch dieses Gültigkeitsfenster auf der Website navigieren, sind sie Teil vieler [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, läuft standardmäßig automatisch nach 90 Tagen ab. (Hinweis: Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden.) Wenn Besucher durch dieses Gültigkeitsfenster auf der Website navigieren, sind sie Teil vieler [!DNL Target] Aktivitäten, die alle in der Dimension erfasst werden.
 
 Wenn Sie ein Segment für eine Aktivität erstellen, um in einem Treffer vorhanden zu sein, erhalten Sie alle Erlebnisse, die Teil dieser Aktivität sind *plus* alle anderen Erlebnisse, die in diesem Treffer persistent sind.
 
@@ -108,7 +119,7 @@ Falls für diese Aktivität eine Klassifizierung durchgeführt wurde und im Beri
 ## Warum werden [!DNL Target] Metriken an [!DNL Analytics] gesendet, selbst wenn die Aktivität deaktiviert wurde? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 +++Antwort
-Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, verfällt standardmäßig automatisch nach 90 Tagen. Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden. Diese Einstellung ist für alle Aktivitäten global, sollte jedoch nicht für einen Fall angepasst werden.
+Die [!DNL Target]-Variable, die an [!DNL Analytics] gesendet wird, läuft standardmäßig automatisch nach 90 Tagen ab. Dieser Gültigkeitszeitraum kann bei Bedarf von der Kundenunterstützung angepasst werden. Diese Einstellung ist für alle Aktivitäten global, sollte jedoch nicht für einen Fall angepasst werden.
 
 Möglicherweise werden [!DNL Target] Variablen angezeigt, die nach dem Gültigkeitszeitraum an [!DNL Analytics] gesendet werden, da der Gültigkeitszeitraum 90 Tage beträgt, jedoch nur, wenn dieser Benutzer nie eine andere A4T-aktivierte [!DNL Target]-Aktivität sieht. Wenn ein Benutzer am 45. Tag zur Site zurückkehrt und eine andere Aktivität ansieht, wird der gesamte Zähler für den A4T-eVar-Wert wieder auf 90 Tage zurückgesetzt. Das heißt, dass die erste Kampagne jetzt ab dem 1. Tag für 45 + 90 = 135 Tage fortbesteht. Wenn der/die Benutzende immer wieder zurückkehrt, gelangt er/sie möglicherweise zu dem Punkt, an dem Metriken aus wesentlich älteren Aktivitäten in Berichten an [!DNL Analytics] gesendet werden. Wenn Benutzer Cookies löschen und nicht zur Website zurückkehren, sinken die Zahlen in dieser Aktivität, aber Sie können sie weiterhin sehen.
 
@@ -214,7 +225,7 @@ Hier einige Punkte, die Sie beim Anzeigen [!DNL Analytics] Berichte beachten sol
 
 +++
 
-## Wie kann ich Aktivitätsimpressionen bei Verwendung von [!DNL Analysis Workspace] (A4T) in [!UICONTROL Analytics for Target] nachverfolgen? {#activity-impressions}
+## Wie kann ich Aktivitätsimpressionen bei Verwendung von [!UICONTROL Analytics for Target] (A4T) in [!DNL Analysis Workspace] nachverfolgen? {#activity-impressions}
 
 +++Antwort
 

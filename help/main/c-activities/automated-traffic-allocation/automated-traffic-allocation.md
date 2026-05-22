@@ -4,10 +4,21 @@ description: Erfahren Sie, wie Sie eine [!UICONTROL Auto-Allocate] -Aktivität i
 title: Was ist eine [!UICONTROL Auto-Allocate] Aktivität?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
-ht-degree: 35%
+source-wordcount: 3572
+ht-degree: 36%
 
 ---
 
@@ -47,7 +58,7 @@ Bei solchen Tests verwenden die meisten Produkte, einschließlich [!DNL Target],
 * Ermittelt einen statistisch bedeutenden Sieger schneller als mit manuellen A/B-Tests
 * Bietet höhere durchschnittliche Kampagnensteigerungen im Vergleich zu manuellen A/B-Tests
 
-## Terminologie   {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
 
 Die folgenden Begriffe sind bei der Erörterung von [!UICONTROL Auto-Allocate] hilfreich:
 
@@ -93,7 +104,7 @@ Nachdem eine [!UICONTROL Auto-Allocate] aktiviert wurde, sind die folgenden Vorg
 
 Weitere Informationen finden Sie unter [Durch automatische Zuordnung erhalten Sie schneller Testergebnisse und mehr Umsätze als mit manuellen Tests](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
-## Einschränkungen  {#section_5C83F89F85C14FD181930AA420435E1D}
+## Einschränkungen {#section_5C83F89F85C14FD181930AA420435E1D}
 
 Beachten Sie bei der Arbeit mit [!UICONTROL Auto-Allocate] die folgenden Informationen:
 
@@ -115,7 +126,7 @@ Wenn Sie eine statistisch signifikante Unterscheidung zwischen allen Erlebnissen
 
 ### Zeitkorrelierte (oder kontextuell variierende) Konversionsraten können die Zuteilungsbeträge verfälschen.
 
-Einige Faktoren, die bei einem standardmäßigen A/B-Test ignoriert werden können, da sie alle Erlebnisse betreffen, können bei einer [!UICONTROL Auto-Allocate] nicht ignoriert werden. Der Algorithmus reagiert sensibel auf die beobachteten Konversionsraten.
+Einige Faktoren, die bei einem standardmäßigen A/B-Test ignoriert werden können, da sie alle Erlebnisse betreffen, können bei einer [!UICONTROL Auto-Allocate] nicht ignoriert werden. Der Algorithmus ist gegenüber den beobachteten Konversionsraten empfindlich.
 
 Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die Erlebnisleistung auswirken können:
 
@@ -133,7 +144,7 @@ Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die
 
   Zum Beispiel signalisiert „30 Prozent Rabatt nur noch heute“ dem Besucher, noch heute zu konvertieren, während „50 Prozent Rabatt auf Ihren ersten Einkauf“ nicht denselben Handlungsdruck auslöst.
 
-## Häufig gestellte Fragen   {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Konsultieren Sie bei Problemen mit [!UICONTROL Auto-Allocate] die folgenden häufig gestellten Fragen und Antworten:
 
@@ -163,7 +174,7 @@ Ja. Die Multi-Armed Bandit-Methode stellt sicher, dass mindestens 20 % des Daten
 
 ### Was passiert mit Aktivitäten mit langen Konversionsverzögerungen?
 
-Solange alle Erlebnisse, die optimiert werden, ähnlichen Verzögerungen ausgesetzt sind, ist das Verhalten dasselbe wie eine Aktivität mit einem schnelleren Konversionszyklus. Es dauert jedoch länger, bis der Konversionsschwellenwert von 50 erreicht ist, bevor der Traffic-Zuordnungsprozess beginnt.
+Solange alle optimierten Erlebnisse ähnliche Verzögerungen aufweisen, ist das Verhalten dasselbe wie bei einer Aktivität mit schnellerem Konversionszyklus. Es dauert jedoch länger, bis der Konversionsschwellenwert von 50 erreicht ist, bevor der Traffic-Zuordnungsprozess beginnt.
 
 ### Inwiefern unterscheidet sich [!UICONTROL Auto-Allocate] von [!UICONTROL Automated Personalization]?
 

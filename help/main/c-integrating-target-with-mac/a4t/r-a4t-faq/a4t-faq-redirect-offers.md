@@ -4,10 +4,23 @@ description: Hier finden Sie Antworten auf Fragen zur Verwendung von Umleitungsa
 title: Wo finde ich FAQs zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 50%
+source-wordcount: 1455
+ht-degree: 51%
 
 ---
 
@@ -81,7 +94,7 @@ Beachten Sie Folgendes:
 
 +++
 
-## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Warum werden manchmal Seitenaufrufe auf der Originalseite und auf der Umleitungsseite gezählt? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Antwort
 Bei Verwendung von at.js Version 1.6.3 oder höher ist das Zählen der Seitenansichten auf beiden Seiten kein Problem. Diese Race-Bedingung betrifft nur Kunden, die frühere Versionen verwenden. Das Target-Team behält zwei Versionen von at.js: die aktuelle Version und die davor. Führen Sie bei Bedarf ein Upgrade von at.js durch, um sicherzustellen, dass Sie eine [unterstützte Version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} ausführen.
@@ -117,7 +130,7 @@ Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die
 
 +++
 
-## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Meine Webserver entfernen diese Parameter aus meinen URLs, was soll ich tun? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 +++Antwort
 Arbeiten Sie mit Ihrem IT-Team zusammen, um diese Parameter ( `adobe_mc_sdid` und `adobe_mc_ref`) auf die Zulassungsliste setzen.

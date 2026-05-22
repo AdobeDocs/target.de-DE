@@ -4,9 +4,19 @@ description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Goals & Settings] i
 title: Wie gebe ich Ziele und Einstellungen in einer [!UICONTROL Multivariate Test] (MVT)-Aktivität an?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1170
 ht-degree: 38%
 
 ---
@@ -56,7 +66,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden,
 
 Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
-## Berichterstellungseinstellungen  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Die folgenden Einstellungen sind verfügbar:
 
@@ -104,7 +114,7 @@ Diese Einstellung ist nicht verfügbar, wenn die Reporting-Lösung auf [!DNL Ana
 
 Standardmäßig zeigen Berichte Ergebnisse für alle qualifizierten Besucher. Sie können Berichtszielgruppen hinzufügen, um nur Informationen über bestimmte Zielgruppen zu zeigen.
 
-### Erweiterte Einstellungen   {#section_E2FE441AFB324E498793ABB025ED9974}
+### Erweiterte Einstellungen {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Für [!UICONTROL Multivariate Test] Zielmetriken sind erweiterte Einstellungen verfügbar.
 

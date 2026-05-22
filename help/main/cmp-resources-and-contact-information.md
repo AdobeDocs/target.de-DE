@@ -4,14 +4,27 @@ description: Informationen zu zusätzlichen Ressourcen, in denen Sie die Funktio
 title: Wo finde ich Ressourcen und Kontaktinformationen zu Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: ad45af0d0cb1a1ea26571cc985d6574ddd2c4963
+TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 79%
+source-wordcount: 1313
+ht-degree: 78%
 
 ---
 
-# Ressourcen und Kontaktinformationen 
+# Ressourcen und Kontaktinformationen
 
 Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 
@@ -62,7 +75,7 @@ Neben Sitzungen zu Target gibt es auch Sitzungen für andere Adobe-Lösungen, wi
 
 Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Auf dieser Seite finden Sie alle erforderlichen Informationen, um den Kundendienst zu kontaktieren.
 
-### Basisinformationen   {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Basisinformationen {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
@@ -85,7 +98,7 @@ Damit Ihr Problem schnellstmöglich bearbeitet werden kann, halten Sie bei der K
 
 Informationen zu Problemen bei der Bereitstellung von Inhalten finden Sie unter [Fehlerbehebung bei der Inhaltsbereitstellung](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md).
 
-### Im Falle von Ausfällen   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### Im Falle von Ausfällen {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de) ([!DNL https://status.adobe.com/de-de]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 
@@ -98,14 +111,14 @@ Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Sys
 
 Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und rechtliche Hinweise zu Ihrer Nutzung des Produkts und der Dokumentation.
 
-### Hilfe und technischer Support   {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Hilfe und technischer Support {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf verschiedenen Wegen kontaktiert werden:
 
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/de/marketing-cloud.html)
-* [Eröffnen Sie ein Ticket, um Hilfe von der Kundenunterstützung zu erhalten](https://experienceleague.adobe.com/de?support-solution=Target&lang=de#support)
+* [Ticket öffnen, um Hilfe von der Kundenunterstützung zu erhalten](https://experienceleague.adobe.com/de?support-solution=Target&lang=de#support)
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/de/marketing-cloud/contact-support.html)
-* [Überprüfen Sie Verfügbarkeit und Status von Experience Cloud-Lösungen.](https://status.adobe.com/de)
+* [Verfügbarkeit und Status von Experience Cloud-Lösungen überprüfen](https://status.adobe.com/de)
 
 Wenn Sie vorzeitige Benachrichtigungen zu anstehenden Produktverbesserungen erhalten möchten, melden Sie sich für das Adobe Priority Product Update an:
 
@@ -115,9 +128,9 @@ Wenn Sie vorzeitige Benachrichtigungen zu anstehenden Produktverbesserungen erha
 
 Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem Handbuch beschriebenen Optionen nicht zur Verfügung. Da für jeden Kunden besondere Bedingungen gelten, entnehmen Sie Informationen über Preise, Fälligkeitsdaten und Bedingungen bitte Ihrem Vertrag. Wenden Sie sich bitte an Ihren Kundenbetreuer, falls Sie etwas zu Ihrem Service-Level hinzufügen oder es ändern möchten oder Fragen zu Ihrem aktuellen Service haben.
 
-### Feedback  {#section_8154D6D712054220A90D85FA8E92933E}
+### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de) posten. Klicken Sie auf die Registerkarte [!UICONTROL Ideas] .
+Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) posten. Klicken Sie auf die Registerkarte [!UICONTROL Ideas] .
 
 ### Rechtliche Informationen {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
@@ -126,7 +139,7 @@ Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unsere
 
 [Nutzungsbedingungen](https://www.adobe.com/legal/terms.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Ein Markensymbol (®, ™ usw.) kennzeichnet eine Adobe-Marke.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_de](https://www.adobe.com/de/products/eula/third_party.html).
 

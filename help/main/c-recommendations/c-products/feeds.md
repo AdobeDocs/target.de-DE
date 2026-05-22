@@ -5,10 +5,18 @@ title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
+TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 34%
+source-wordcount: 2643
+ht-degree: 36%
 
 ---
 
@@ -216,7 +224,7 @@ Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierun
 
 >[!IMPORTANT]
 >
->Bevor Sie Entitätsdaten mithilfe von [!DNL Recommendations]-Produktklassifizierungen in [!DNL Analytics] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
+>Bevor Sie Entitätsdaten mithilfe von [!DNL Analytics]-Produktklassifizierungen in [!DNL Recommendations] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
 >
 > Beachten Sie die folgenden Einschränkungen:
 >
@@ -315,7 +323,7 @@ Die folgenden Feed-Statusindikatoren werden in der Spalte [!UICONTROL Status] an
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Beispielsweise wird ein gelber Punkt angezeigt, damit ein Feed-Set täglich ausgeführt wird, wenn der Index sechs Stunden nach der geplanten Zeit nicht abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server hochladen kann, wird eine rote Statusanzeige angezeigt. |
 

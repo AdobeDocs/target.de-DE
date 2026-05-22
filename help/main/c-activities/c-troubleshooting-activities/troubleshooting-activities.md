@@ -4,9 +4,16 @@ description: Sollte Ihre Adobe  [!DNL Target] -Aktivität nicht auf Ihrer Site e
 title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 847
 ht-degree: 44%
 
 ---
@@ -76,7 +83,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 Nachdem Sie in [!DNL Target] als Benutzer hinzugefügt wurden, müssen Sie über die Rolle [!UICONTROL Approver] verfügen, um Aktivitäten zu erstellen.
 
 * Bitten Sie den Administrator Ihres Kontos, Sie zu einer genehmigenden Person zu machen.
-* Falls Sie selbst der Administrator sind, erteilen Sie sich in [!UICONTROL Approver] unter **[!UICONTROL Administration]** > **[!UICONTROL Users]** die Rolle [!DNL Target] .
+* Falls Sie selbst der Administrator sind, erteilen Sie sich in [!DNL Target] unter **[!UICONTROL Administration]** > **[!UICONTROL Users]** die Rolle [!UICONTROL Approver] .
 
   Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -130,7 +137,7 @@ Führen Sie einen der folgenden Schritte aus:
 
 **Hinweis:** Mehrere ajax-[!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
 
-## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!UICONTROL Inactive]-Benutzeroberfläche den Status [!DNL Target] .
+## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche den Status [!UICONTROL Inactive] .
 
 Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Aktivität außerhalb der Benutzeroberfläche mithilfe der [!DNL Target]-API, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
 

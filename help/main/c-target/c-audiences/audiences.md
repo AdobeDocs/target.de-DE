@@ -4,10 +4,20 @@ description: Erfahren Sie, wie Sie -Zielgruppen in  [!DNL Adobe Target].
 title: Wie verwende ich die Audience-Liste?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 22%
+source-wordcount: 784
+ht-degree: 24%
 
 ---
 
@@ -64,7 +74,7 @@ Verwenden Sie die Schaltfläche [!UICONTROL Filters] , um die [!UICONTROL Audien
 
 ![Option „Filter“ in der [!UICONTROL Audiences] Liste](assets/filters.png)
 
-Durchsuchen Sie Ihre [!UICONTROL Search audiences] mithilfe des [!UICONTROL Audiences]. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
+Durchsuchen Sie Ihre [!UICONTROL Audiences] mithilfe des [!UICONTROL Search audiences]. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
 Sie können die [!UICONTROL Audiences] nach Zielgruppenname oder nach dem Datum der letzten Änderung sortieren. Wenn Sie eine Sortierung nach Name oder Datum vornehmen möchten, klicken Sie auf die Spaltenüberschrift und wählen Sie dann die Anzeige der Zielgruppen in aufsteigender oder absteigender Reihenfolge aus.
 
@@ -76,7 +86,7 @@ Beispielsweise kann die folgende Karte für die Zielgruppendefinition durch Klic
 
 ![Aktivitäten > Zielgruppendefinition](assets/audience_definition_list.png)
 
-Sie können auf die folgende Karte zur Zielgruppendefinition zugreifen, indem Sie auf der [!UICONTROL View Details] einer Aktivität auf das Symbol [!UICONTROL Overview] klicken:
+Sie können auf die folgende Karte zur Zielgruppendefinition zugreifen, indem Sie auf der [!UICONTROL Overview] einer Aktivität auf das Symbol [!UICONTROL View Details] klicken:
 
 ![Aktivitäten > Zielgruppendefinition](assets/view-details-activity-overview.png)
 

@@ -4,10 +4,18 @@ description: Erfahren Sie, wie Sie den Adobe [!DNL Target] Form-basierten Experi
 title: Wie verwende ich den formularbasierten Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: 886
+ht-degree: 34%
 
 ---
 
@@ -70,7 +78,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    >[!NOTE]
    >
-   >Wenn Sie während der Erstellung einer Aktivität einen manuell eingegebenen Speicherort erstellen, wird nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Aufruf zur Inhaltsbereitstellung erfolgt. Nach der Erstellung des Speicherorts ist er zur Verwendung in anderen Aktivitäten, zur Erstellung von Zielgruppen usw. verfügbar. aus der Dropdown-Liste der verfügbaren Speicherorte.
+   >Wenn Sie während der Erstellung einer Aktivität einen manuell eingegebenen Speicherort erstellen, wird nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Aufruf zur Inhaltsbereitstellung erfolgt. Nach der Erstellung des Speicherorts ist er zur Verwendung bei anderen Aktivitäten, zur Erstellung von Zielgruppen usw. in der Dropdown-Liste der verfügbaren Speicherorte verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Add Audience Refinements]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Done]**.
 
@@ -124,7 +132,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    **Angebotsentscheidung hinzufügen:**
 
-   Fügen Sie einer [!DNL Adobe Journey Optimizer]-Aktivität ein in [!DNL Adobe Target] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
+   Fügen Sie einer [!DNL Adobe Target]-Aktivität ein in [!DNL Adobe Journey Optimizer] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
 
    Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

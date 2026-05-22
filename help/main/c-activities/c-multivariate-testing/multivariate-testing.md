@@ -4,10 +4,18 @@ description: Erfahren Sie, wie Sie mit einem [!UICONTROL Multivariate Test] (MVT
 title: Was ist ein [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 46%
+source-wordcount: 1453
+ht-degree: 47%
 
 ---
 
@@ -57,7 +65,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
   Wenn mehr als fünf Erlebnisse vorhanden sind und sich über zwei oder mehr Elemente erstrecken, empfiehlt es sich, einen MVT-Test in Betracht zu ziehen, bevor Sie Ihre A/B-Tests durchführen. Der Multivarianz Test zeigt, welche Bereiche auf der Seite aller Wahrscheinlichkeit nach die Konversion verbessern. Dies sind die Elemente, auf die sich ein Marketingexperte konzentrieren sollte. So kann ein Multivarianz-Test zum Beispiel zeigen, dass ein Aktionsaufruf das wichtigste Element zur Erreichung Ihrer Ziele ist. Nachdem Sie ermittelt haben, welche Elemente und Inhalte für Ihr Erreichen der Ziele am nützlichsten sind, können Sie einen A/B-Test durchführen, um die Ergebnisse weiter zu verfeinern. Sie können beispielsweise zwei bestimmte Bilder miteinander testen oder den Wortlaut oder die Farben einer call to action vergleichen. Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 
-## Zu beachten   {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
+## Zu beachten {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn die Anzahl der Elemente niedriger ist, führen Sie eine Reihe von A/B-Tests durch.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
@@ -67,7 +75,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
   Testen Sie z. B. Ihr Layout und Ihren Inhalt nicht im selben Test.
 
-* Planen Sie zusätzliche Zeit für die QS ein, da die Anzahl der Erlebnisse steigt. Sie können auch partielle faktorielle Tests verwenden, um den für einen Multivarianz-Test erforderlichen Traffic zu reduzieren. Weitere Informationen finden Sie unten unter Partiell-faktorielle Tests:
+* Planen Sie in Anbetracht der gestiegenen Anzahl der Erlebnisse zusätzliche Zeit für die Qualitätssicherung ein. Sie können auch partielle faktorielle Tests verwenden, um den für einen Multivarianz-Test erforderlichen Traffic zu reduzieren. Weitere Informationen finden Sie unten unter Partiell-faktorielle Tests:
 
 ## Partiell-faktorielle Testung
 

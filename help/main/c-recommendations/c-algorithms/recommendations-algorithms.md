@@ -6,9 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
@@ -73,7 +85,7 @@ Die Einzelheiten dieser Schritte lauten wie folgt:
    * **Berechnung der Elementähnlichkeit**: Dies ist der wichtigste Berechnungsschritt: Berechnung der Ähnlichkeit des Log-Wahrscheinlichkeitsverhältnisses zwischen allen möglichen Elementpaaren und Rangfolge der Elementpaare nach diesem Ähnlichkeitswert.
    * **Offline-**: Schließlich werden alle weiteren anwendbaren dynamischen Filter angewendet (z. B. dynamische Kategorieausschlüsse). Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert, um für die Bereitstellung verfügbar zu sein.
 
-* **Modellbereitstellung**: Recommendations-Inhalte werden vom globalen &quot;Edge[!DNL Target]Netzwerk“ von [&#x200B; bereitgestellt](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wenn Mbox-Anfragen an [!DNL Target] gesendet werden und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird die Anfrage für den entsprechenden [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) für den Recommendations-Algorithmus entweder aus der Anfrage analysiert oder aus dem Benutzerprofil nachgeschlagen und dann zum Abrufen der in den vorherigen Schritten berechneten Recommendations verwendet. Zu diesem Zeitpunkt werden weitere dynamische Filter angewendet, bevor das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md) gerendert wird.
+* **Modellbereitstellung**: Recommendations-Inhalte werden vom globalen &quot;Edge[Netzwerk“ von [!DNL Target] bereitgestellt](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wenn Mbox-Anfragen an [!DNL Target] gesendet werden und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird die Anfrage für den entsprechenden [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) für den Recommendations-Algorithmus entweder aus der Anfrage analysiert oder aus dem Benutzerprofil nachgeschlagen und dann zum Abrufen der in den vorherigen Schritten berechneten Recommendations verwendet. Zu diesem Zeitpunkt werden weitere dynamische Filter angewendet, bevor das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md) gerendert wird.
 
 ## Ähnlichkeit des Inhalts
 
@@ -89,14 +101,14 @@ Obwohl die Aspekte der Modellbereitstellung und Inhaltsbereitstellung der Inhalt
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[!DNL Target]Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [&#x200B; aufgenommen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [!DNL Target] aufgenommen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
 
 * **Modell-**:
 
    * **Attributextraktion**: Nach der Anwendung regulärer statischer Filter, Katalogregeln und globaler Ausschlüsse extrahiert dieser Algorithmus relevante Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie aus den Entitätsattributen und versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[&#x200B; zu &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md). Dieser Prozess erfolgt, indem sichergestellt wird, dass die meisten Werte für dieses Feld nicht als Zahl, Datum oder Boolesch parabel werden können.
    * **Stemmen und Entfernen von Stoppwörtern**: Für eine genauere Textähnlichkeitsübereinstimmung ist es ratsam, sehr gängige „Stopp“-Wörter zu entfernen, die die Bedeutung eines Elements nicht wesentlich ändern (z. B. „was“, „ist“, „and“ usw.). In ähnlicher Weise bezieht sich das Wortstammen auf den Prozess, Wörter mit unterschiedlichen Suffixen auf ihr Stammwort zu reduzieren, das eine identische Bedeutung hat (z. B. haben „connect“, „connector“ und „connection“ alle dasselbe Stammwort: „connect„). [!DNL Target] verwendet den Schneeballstamm. [!DNL Target] führt zuerst die automatische Spracherkennung durch und kann die Wortentfernung für bis zu 50 Sprachen und das Stemmen für 18 Sprachen stoppen.
    * **N-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Der Prozess des Kombinierens zusammenhängender Sequenzen von Token zu einem einzigen Token wird als n-Gram-Erstellung bezeichnet. Die Algorithmen von [!DNL Target] berücksichtigen bis zu 2 Gramm.
-   * **tf-idf computation**: Der nächste Schritt umfasst die Erstellung von tf-idf-Vektoren, um die relative Bedeutung von Token in der Artikelbeschreibung widerzuspiegeln. Für jedes Token/jeden Begriff in einem Element i in einem Katalog D mit |D| Als Erstes wird die Termfrequenz TF(t, i) berechnet (die Anzahl, wie oft der Term in der Item i) erscheint, sowie die Dokumentenfrequenz DF(t, D). Im Wesentlichen die Anzahl der Elemente, in denen das Token vorhanden ist. Die tf-idf-Kennzahl wird dann
+   * **tf-idf computation**: Der nächste Schritt umfasst die Erstellung von tf-idf-Vektoren, um die relative Bedeutung von Token in der Artikelbeschreibung widerzuspiegeln. Für jeden Token/Term t in einem Element i wird in einem Katalog D mit |D| Elementen zuerst die Termfrequenz TF(t, i) berechnet (die Anzahl, wie oft der Term in dem Element i erscheint), sowie die Dokumentenfrequenz DF(t, D). Im Wesentlichen die Anzahl der Elemente, in denen das Token vorhanden ist. Die tf-idf-Kennzahl wird dann
 
      ![Formel für die tf-idf-Kennzahl](assets/formula2.png)
 

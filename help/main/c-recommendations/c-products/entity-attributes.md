@@ -5,10 +5,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 45%
 
 ---
 
@@ -22,16 +33,16 @@ Entitäten beziehen sich auf die Artikel, die Sie empfehlen möchten. Entitäten
 
 Beachten Sie Folgendes:
 
-* `entity.id` muss mit den `productPurchasedId` übereinstimmen, die an die Bestellbestätigungsseite gesendet wurden, sowie mit den in `productId` Produktberichten verwendeten [!DNL Adobe Analytics].
+* `entity.id` muss mit den `productPurchasedId` übereinstimmen, die an die Bestellbestätigungsseite gesendet wurden, sowie mit den in [!DNL Adobe Analytics] Produktberichten verwendeten `productId`.
 * Entitätsattributwerte, die Sie an übergeben, laufen [!DNL Recommendations] nach 61 Tagen ab. Adobe empfiehlt, für jedes Element im Katalog den neuesten Wert jedes Entitätsattributs mindestens einmal pro Monat an [!DNL Recommendations] zu übergeben.
 
 Die meisten vordefinierten Parameter akzeptieren nur einen einzigen Wert, wobei neue Werte alte Werte überschreiben. Der `categoryId`-Parameter kann für jede Kategorie, in der das Produkt enthalten ist, eine kommagetrennte Liste mit Werten akzeptieren. Neue `categoryId`-Werte überschreiben die vorhandenen Werte nicht mehr, sondern werden bei einer Entitätsaktualisierung angehängt (Längenbeschränkung von 250 Zeichen).
 
-Im Allgemeinen sieht die mBox „Display Information“ wie im folgenden Beispiel aus, wenn Sie at.js 1 verwenden.*x* mit `mboxCreate`. Bei allen Entitätsparameterattributen wird zwischen Groß- und Kleinschreibung unterschieden.
+Im Allgemeinen sieht die mBox „Display Information“ wie im folgenden Beispiel aus, wenn Sie at.js 1.*x* mit `mboxCreate` verwenden. Bei allen Entitätsparameterattributen wird zwischen Groß- und Kleinschreibung unterschieden.
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x*, `mboxCreate` (wie im folgenden Beispiel verwendet) wird nicht mehr unterstützt. So übergeben Sie Produkt- oder Inhaltsinformationen mithilfe von at.js 2 an [!DNL Recommendations].*x*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=de){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+>Wenn Sie at.js 2.*x* verwenden, wird `mboxCreate` (wie im folgenden Beispiel verwendet) nicht mehr unterstützt. Um Produkt- oder Inhaltsinformationen mithilfe von at.js 2.x *an [!DNL Recommendations] zu*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=de){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -67,7 +78,7 @@ mboxCreate('productPage',
 >
 >Relative URLs werden für `pageUrl` und `thumbnailUrl` im Gegensatz zu absoluten URLs bevorzugt, da die Empfehlungen aus allen Umgebungen auf Ihrer Site Daten empfangen. Durch die Verwendung von relativen URLs werden fest codierte Links auf Staging- oder Entwicklungsserver vermieden.
 
-Wenn sich die Mbox auf einer Produktseite befindet, können Sie sowohl die Produkt-ID als auch die Kategorie-ID aufnehmen. Der gewählte Algorithmus bestimmt, was angezeigt wird. Die Produkt-ID wird für Affinitätsalgorithmen und die Kategorie-ID für Kategoriealgorithmen verwendet.
+Wenn sich die Mbox auf einer Produktseite befindet, können Sie sowohl die Produkt-ID als auch die Kategorie-ID angeben. Der ausgewählte Algorithmus bestimmt, welcher angezeigt wird. Die Produkt-ID wird für Affinitätsalgorithmen und die Kategorie-ID für Kategoriealgorithmen verwendet.
 
 ## Verfügbare Variablen
 
@@ -183,7 +194,7 @@ Die Gewinnspanne oder ein anderer Wert des Artikels.
 
 Beispiel: `'entity.margin=1.00'`
 
-### Entität.*custom*
+### entity.*custom*
 
 Mehrere Werte werden unterstützt (JSON-Array).
 

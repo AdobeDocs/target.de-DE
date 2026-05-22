@@ -4,10 +4,21 @@ description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL 
 title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Content Fragments]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 15%
+source-wordcount: 626
+ht-degree: 22%
 
 ---
 
@@ -37,7 +48,7 @@ Beachten Sie bei der Arbeit mit AEM [!UICONTROL Content Fragments] in [!DNL Targ
 
 Weitere Informationen zu AEM [!UICONTROL Content Fragments] und [!UICONTROL Experience Fragments] finden Sie unter [AEM [!UICONTROL Experience Fragments] und [!UICONTROL Content Fragments] - Übersicht](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-## Voraussetzungen  {#requirements}
+## Voraussetzungen {#requirements}
 
 Sie müssen [[!DNL AEM] as a Cloud Service verwenden](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de){target=_blank}. Ihre Kundenkontaktperson kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
@@ -69,7 +80,7 @@ Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit
 >
 >Verwenden von künstlicher Intelligenz, maschinellem Lernen und Recommendations mit [!UICONTROL Content Fragments]:
 >
->* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim [&#x200B; einer &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/auto-target/auto-target-to-optimize.md) oder [!UICONTROL A/B Test]Automatisches Targeting auswählen.
+>* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie beim [&#128279;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) einer [!UICONTROL A/B Test] Aktivität die Option [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder Automatisches Targeting auswählen.
 >
 >* [!UICONTROL Content Fragments] werden in [!DNL Recommendations] Aktivitäten nicht unterstützt. Um [!UICONTROL Content Fragments] für Recommendations zu verwenden, können Sie eine [!UICONTROL A/B Test] Aktivität (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) oder eine [!UICONTROL Experience Targeting] (XT) erstellen und [Recommendations als Angebot einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
@@ -88,5 +99,5 @@ Sie können [!UICONTROL Content Fragments] nur in [!DNL Target] Aktivitäten mit
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden [!UICONTROL Content Fragments]. Die importierten [!UICONTROL Content Fragment] sollten innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
 * Die [!UICONTROL Content Fragment] wird als JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL Content Fragment] „primäre“ Version verbleibt in [!DNL AEM]. Sie können die [!UICONTROL Content Fragment] in [!DNL Target] nicht bearbeiten.
-* Mit [!UICONTROL Content Fragments] können Sie keine [!DNL Adobe I/O] erstellen. Erstellen Sie [!UICONTROL Content Fragments] mit AEM, wie oben beschrieben.
+* Mit [!DNL Adobe I/O] können Sie keine [!UICONTROL Content Fragments] erstellen. Erstellen Sie [!UICONTROL Content Fragments] mit AEM, wie oben beschrieben.
 * Wenn Sie Ihre [!UICONTROL Content Fragment] in AEM aktualisieren, müssen die [!UICONTROL Content Fragment] veröffentlicht und erneut in [!DNL Target] exportiert werden, damit [!DNL Target] die neuesten Änderungen verwenden können.

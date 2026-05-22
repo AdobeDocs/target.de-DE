@@ -4,10 +4,21 @@ description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL 
 title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 31%
+source-wordcount: 1248
+ht-degree: 36%
 
 ---
 
@@ -33,11 +44,11 @@ Beachten Sie bei der Arbeit mit AEM [!UICONTROL Experience Fragments] in [!DNL T
    * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Mit dem [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) in [-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
+* Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 Weitere Informationen zu AEM [!UICONTROL Experience Fragments] und [!UICONTROL Content Fragments] finden Sie unter Übersicht über [AEM [!UICONTROL Experience Fragments] und Inhaltsfragmente](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
-## Voraussetzungen  {#requirements}
+## Voraussetzungen {#requirements}
 
 Sie müssen über die [!UICONTROL Experience Fragments] Funktionen in [!DNL Target] verfügen. Darüber hinaus müssen Sie [!DNL AEM] as a Cloud Service oder [!DNL AEM] 6.4 (oder höher) nutzen. Ihre Kundenkontaktperson kann Ihnen helfen, die Anforderungen zur Verwendung dieser Funktion zu erfüllen:
 
@@ -104,7 +115,7 @@ Sie können den Mauszeiger über ein [!UICONTROL Experience Fragment] in der Lis
 
 ![Popup mit Experience Fragment-Informationen](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-Mit dem [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target] [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) in [-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
+Mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) [&#x200B; (VEC) und dem formularbasierten Experience Composer können Sie [!UICONTROL Experience Fragments] in [!DNL Target]-Aktivitäten &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 >[!TIP]
 >
@@ -155,10 +166,10 @@ Mit dem [!UICONTROL Experience Fragments]Visual Experience Composer[!DNL Target]
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach zu importierenden [!UICONTROL Experience Fragments]. Die importierten [!UICONTROL Experience Fragment] sollten innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
 * Der [!UICONTROL Experience Fragment] wird als HTML- oder JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL Experience Fragment] „primäre“ Version verbleibt in [!DNL AEM]. Sie können die [!UICONTROL Experience Fragment] in [!DNL Target] nicht bearbeiten.
-* Mit [!UICONTROL Experience Fragments] können Sie keine [!DNL Adobe Developer] erstellen. Erstellen Sie [!UICONTROL Experience Fragments] mit AEM, wie oben beschrieben.
+* Mit [!DNL Adobe Developer] können Sie keine [!UICONTROL Experience Fragments] erstellen. Erstellen Sie [!UICONTROL Experience Fragments] mit AEM, wie oben beschrieben.
 * Wenn Sie Ihre [!UICONTROL Experience Fragment] in AEM aktualisieren, müssen die [!UICONTROL Experience Fragment] veröffentlicht und erneut in [!DNL Target] exportiert werden, damit [!DNL Target] die neuesten Änderungen verwenden können.
 
-## Entfernen von Client-Bibliotheken und externem HTML aus nach [!UICONTROL Experience Fragments] exportierten [!UICONTROL Target]
+## Entfernen von Client-Bibliotheken und externem HTML aus nach [!UICONTROL Target] exportierten [!UICONTROL Experience Fragments]
 
 Bei Verwendung [!UICONTROL Experience Fragment] Angebote mit [!DNL Target] auf einer von AEM bereitgestellten Seite enthält die Zielseite bereits die erforderlichen Client-Bibliotheken. Beachten Sie außerdem, dass überflüssige HTML-Elemente im Angebot nicht erforderlich sind.
 

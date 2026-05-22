@@ -4,10 +4,23 @@ description: Personalisieren von Inhalten und Testen von Seitendesigns für best
 title: Wie kann ich Inhalts- und Testseiten-Designs mit personalisieren [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 5012c2b849d6b415f08fcaa3be85508637e30481
+TQID: https://experienceleague.adobe.com/q3-Z8r2eEWTISBkZBBJTJ8XarLi-lTa2qsqj961hhEQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2292'
-ht-degree: 25%
+source-wordcount: 2416
+ht-degree: 26%
 
 ---
 
@@ -23,7 +36,7 @@ Sie sollten den Entwurf einer Aktivität sorgfältig planen. Bestimmen Sie, wann
 
 Die [!UICONTROL Activities] ist die Standardansicht beim Öffnen von [!DNL Target]. Sie können Aktivitäten auf dieser Seite erstellen und vorhandene Aktivitäten verwalten.
 
-Sie können die [!UICONTROL Activities] auch anzeigen, indem Sie oben in der [!UICONTROL Activities]-Benutzeroberfläche auf die Registerkarte [!DNL Target] klicken.
+Sie können die [!UICONTROL Activities] auch anzeigen, indem Sie oben in der [!DNL Target]-Benutzeroberfläche auf die Registerkarte [!UICONTROL Activities] klicken.
 
 Die [!UICONTROL Activities] bietet einen Überblick über alle Aktivitäten in Ihrer [!DNL Target]-Implementierung und ermöglicht die Durchführung verschiedener Aktionen.
 
@@ -50,7 +63,7 @@ Die folgende Tabelle hilft Ihnen, die verschiedenen Elemente der [!UICONTROL Act
 
 <!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
 
-## Aktivitätstypen  {#types}
+## Aktivitätstypen {#types}
 
 [!DNL Target] umfasst mehrere Aktivitätstypen. In der folgenden Tabelle finden Sie einen Überblick über die einzelnen Aktivitätstypen mit Links, über die Sie mehr erfahren können. Damit Sie den Aktivitätstyp für Ihre Zwecke besser auswählen können, verwenden Sie das [Adobe Target-Aktivitätshandbuch](/help/main/c-activities/target-activities-guide.md).
 
@@ -62,7 +75,7 @@ Die folgende Tabelle hilft Ihnen, die verschiedenen Elemente der [!UICONTROL Act
 | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert, und ermittelt, welches Element den größten Einfluss auf den Erfolg der Aktivität hat. |
 | [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting] (XT) stellt Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden. |
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besuchern basierend auf deren individuellem Kundenprofil durch erweitertes maschinelles Lernen verschiedene Varianten zu, um die Inhalte zu personalisieren und Konversionen zu fördern. |
-| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie einem Website-Besucher ein Produkt vorgeschlagen wird, abhängig von den Aktivitäten dieses Besuchers auf der Website.<P>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie möchten Besucher ermutigen, mehr Zeit auf Ihrer Medienseite zu verbringen, indem Sie dem Video, das sie gerade ansehen, ähnliche Videos empfehlen, indem Sie den Algorithmus „Personen, die sich dies angesehen haben“ verwenden.<P>**HINWEIS**: Sie können Empfehlungen auch in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten einfügen. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | Eine Empfehlung bestimmt, wie einem Website-Besucher ein Produkt vorgeschlagen wird, abhängig von den Aktivitäten dieses Besuchers auf der Website.<P>So können Sie zum Beispiel Personen, die einen Rucksack kaufen, dazu anregen, den Kauf von Wanderschuhen und -stöcken zu erwägen. Mithilfe des „Kunden, die diesen Artikel gekauft haben, haben auch folgende Artikel gekauft“-Algorithmus können Sie eine Empfehlung erstellen, die Artikel anzeigt, welche oft zusammen gekauft werden. Oder Sie möchten Besucher ermutigen, mehr Zeit auf Ihrer Medienseite zu verbringen, indem Sie dem Video, das sie gerade ansehen, ähnliche Videos empfehlen, indem Sie den Algorithmus „Personen, die sich dies angesehen haben“ verwenden.<P>**HINWEIS**: Sie können Empfehlungen auch in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]-, [!UICONTROL Auto-Target]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten einfügen. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 
 ## Filter auf die Aktivitätenliste anwenden {#filters}
 
@@ -120,7 +133,7 @@ Beachten Sie die folgenden Details zur [!UICONTROL Activity]:
    * Mobile Anwendungen
    * Weitere Möglichkeiten zur Bereitstellung getaggter Inhalte
 
-## Einschränkungen   {#section_049D4684403A4E07B998067EB8E9BE56}
+## Einschränkungen {#section_049D4684403A4E07B998067EB8E9BE56}
 
 Für jede [!DNL Target]-Aktivität gelten die folgenden Inhaltsbeschränkungen:
 

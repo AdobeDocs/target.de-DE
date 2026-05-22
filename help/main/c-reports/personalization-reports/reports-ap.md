@@ -5,10 +5,18 @@ title: Wie verwende ich die Automated Personalization-Zusammenfassungsberichte?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 11%
+source-wordcount: 653
+ht-degree: 13%
 
 ---
 
@@ -63,7 +71,7 @@ Klicken Sie auf das Symbol [!UICONTROL Important Attributes] . Dieser Bericht ze
 
 Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
-## Häufig gestellte Fragen  
+## Häufig gestellte Fragen
 
 ### Warum unterscheiden sich die Daten zwischen den Berichten Aktivitätsebene und Angebotsebene?
 

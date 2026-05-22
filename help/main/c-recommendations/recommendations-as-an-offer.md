@@ -1,18 +1,23 @@
 ---
 keywords: Recommendations; Angebot
-description: Erfahren Sie, wie Sie Adobe Recommendations als Angebot in A/B-Test-Aktivitäten (einschließlich automatischer Zuordnung und automatischen Targetings) und Erlebnis-Targeting(XT)-Aktivitäten nutzen.
-title: Wie verwende ich Recommendations als Angebot in anderen Aktivitätstypen?
+description: Erfahren Sie, wie Sie Adobe Empfehlungen als Angebot in A/B-Test-Aktivitäten (einschließlich automatischer Zuordnung und automatischen Targetings) und Erlebnis-Targeting(XT)-Aktivitäten nutzen.
+title: Wie verwende ich Empfehlungen als Angebot in anderen Aktivitätstypen?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
+TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 525
 ht-degree: 60%
 
 ---
 
-# Recommendations als Angebot
+# Empfehlungen als Angebot
 
 Sie können jetzt Empfehlungen in [!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) und [!UICONTROL Experience Targeting] (XT) einbeziehen.
 
@@ -27,7 +32,7 @@ Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience 
 
 ## Empfehlung als Angebot in einem A/B-Test oder XT-Vorgang hinzufügen
 
-1. Starten Sie den geleiteten Arbeitsablauf mit drei Schritten mit dem Visual Experience Composer (VEC), um eine [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- oder [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-Aktivität (XT) zu erstellen.
+1. Starten Sie den geleiteten Workflow mit drei Schritten mit dem Visual Experience Composer (VEC), um eine [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- oder [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-Aktivität (XT) zu erstellen.
 
    >[!NOTE]
    >
@@ -56,7 +61,7 @@ Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience 
    * Konfigurieren Sie nach Bedarf die Optionen [„Vorwärts-Promotion“ und „Zurück-Promotion“](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md).
 
 1. Klicken Sie auf [!UICONTROL Save].
-1. Beenden Sie die Konfiguration der A/B-Test- oder XT-Aktivität mit dem dreiteiligen geleiteten Arbeitsablauf.
+1. Beenden Sie die Konfiguration der A/B-Test- oder XT-Aktivität mit dem dreiteiligen geleiteten Workflow.
 
 ## Konfiguration eines Empfehlungsangebots bearbeiten
 
@@ -119,6 +124,6 @@ Der Status des Recommendations-Angebots (Algorithmus) wird für A/B-Test - und X
 
 ![Status des Recommendations-Angebots](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Schulungsvideo: Recommendations als Angebot ![Übersichts-Badge](/help/main/assets/overview.png)
+## Schulungsvideo: Empfehlungen als Angebot ![Übersichts-Badge](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

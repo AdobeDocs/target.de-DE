@@ -5,9 +5,19 @@ title: Wie basiere ich die [!UICONTROL Recommendation] auf einem [!UICONTROL Rec
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 27%
 
 ---
@@ -71,7 +81,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 ### [!UICONTROL People Who Viewed This, Also Bought]
 
-Empfiehlt Artikel, die am häufigsten in derselben Sitzung gekauft werden, in der das angegebene Element angezeigt wird.
+Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
 
 Diese Logik gibt andere Produkte zurück, die nach dem Anzeigen dieses Produkts gekauft wurden. Das angegebene Produkt ist nicht im Ergebnissatz enthalten.
 
@@ -295,7 +305,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Filterschlüss
 
 Mit dem Algorithmustyp [!UICONTROL Custom Criteria] können Sie Empfehlungen auf der Grundlage einer benutzerdefinierten Datei aussprechen, die Sie hochladen.
 
-Die Empfehlung wird anhand eines Artikels ermittelt, der im Besucherprofil gespeichert ist, entweder mithilfe des Attributs user.*x* oder Profile.*x* Attribute.
+Die Empfehlung wird durch ein Element bestimmt, das im Profil eines Besuchers gespeichert ist und entweder das Attribut user.*x* oder das Attribut profile.*x* verwendet.
 
 Wurde diese Option ausgewählt, muss der Wert `entity.id` im Profilattribut enthalten sein.
 
@@ -324,7 +334,7 @@ Die folgenden Empfehlungsschlüssel sind in der Dropdown-Liste [!UICONTROL Recom
 
 Die Empfehlung wird vom Artikel bestimmt, den der Besucher momentan ansieht.
 
-Recommendations zeigt andere Artikel an, die den Besucher aufgrund seiner derzeitigen Artikelwahl ebenfalls interessieren könnten.
+Empfehlungen zeigen andere Artikel an, die den Besucher aufgrund seiner derzeitigen Artikelwahl ebenfalls interessieren könnten.
 
 Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in der Anzeige-Mbox weitergeleitet werden.
 

@@ -4,9 +4,18 @@ description: Optimieren Sie Ihre Aktivitäten durch  [!DNL Adobe Target] der Rep
 title: Wie kann ich Berichte anzeigen?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: bd65cb9339dbe4b79d26c314cfb81d1fc7226fd2
+TQID: https://experienceleague.adobe.com/aRp-t-Z-Hfu5O01RqfxnKyHHL2suM2ahkteDQJShGQI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: 823
 ht-degree: 26%
 
 ---
@@ -70,8 +79,8 @@ Neben den allgemeinen Reporting-Informationen in diesem Thema und seinen Unterth
 |--- |--- |
 | [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md) | Informationen zur Steigerung und Konfidenz sowie zu den in [!DNL Target] verwendeten statistischen Konzepten finden Sie unter [Planen eines A/B-Tests](/help/main/c-activities/t-test-ab/sample-size-determination.md). |
 | [Interpretieren [!UICONTROL Auto-Allocate] Berichte](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Interpretieren Sie die Ergebnisse einer [!UICONTROL Auto-Allocate] A/B-Aktivität, indem Sie wichtige Indikatoren, einschließlich Steigerung und Konfidenz, in der [!DNL Target] Benutzeroberfläche untersuchen. |
-| [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Informationen zum [!UICONTROL Summary] für AT-Aktivitäten. Weitere Informationen finden Sie unter [[!UICONTROL Auto-Target Summary] Bericht](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights] für AT- und AP-Aktivitäten: [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
-| [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informationen zu den beiden [!UICONTROL Automated Personalization Summary] für AP-Aktivitäten: [!UICONTROL Activity Level] und [!UICONTROL Offer Level]. Weitere Informationen finden Sie unter [Automatisierte Personalisierung - Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights] für AT- und AP-Aktivitäten: [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
+| [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | Informationen zum [!UICONTROL Summary] für AT-Aktivitäten. Weitere Informationen finden Sie unter [[!UICONTROL Auto-Target Summary] Bericht](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights] Berichten für AT- und AP-Aktivitäten: [!UICONTROL Automated Segments] Bericht und [!UICONTROL Important Attributes]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
+| [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Informationen zu den beiden [!UICONTROL Automated Personalization Summary] für AP-Aktivitäten: [!UICONTROL Activity Level] und [!UICONTROL Offer Level]. Weitere Informationen finden Sie unter [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).<br>Informationen zu den beiden [!UICONTROL Personalization Insights] für AT- und AP-Aktivitäten: [!UICONTROL Automated Segments] und [!UICONTROL Important Attributes]. Weitere Informationen finden Sie unter [Personalization Insights-Berichte](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md). |
 | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Informationen zu den beiden Berichten über MVT-Aktivitäten: [!UICONTROL Experience Performance] Bericht und [!UICONTROL Location Contribution] Bericht. Weitere Informationen finden Sie unter [Experience Performance-Bericht](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT) und [Location Contribution-Bericht](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT). |
 | [[!DNL Adobe Analytics] als Reporting-Source für Adobe Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | Informationen zur Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target] (A4T). Mit A4T erhalten Sie Zugriff auf [!DNL Analytics]-Berichte für Ihre [!DNL Target]-Aktivitäten. Weitere Informationen finden Sie unter [Analytics für Target-Berichterstellung (A4T)](/help/main/c-reports/analytics-for-target-a4t-reporting.md). |
 | [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Informationen zur Integration zwischen [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/customer-journey-analytics){target=_blank} und [!DNL Target], die leistungsstarke Analyse- und Zeitsparungs-Tools für Ihr Optimierungsprogramm bereitstellt. |

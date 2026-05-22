@@ -4,10 +4,19 @@ description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Für einen e
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
+TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 46%
+source-wordcount: 3150
+ht-degree: 47%
 
 ---
 
@@ -39,7 +48,7 @@ Weitere Informationen finden Sie unter [Automatische Zuordnung - Übersicht](/he
 
 ## Adobe [!DNL Target] Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Wenn Sie statt der [!UICONTROL A/B Test] eine manuelle [!UICONTROL Auto-Allocate] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Auto-Allocate] ist optional, da [!UICONTROL Auto-Allocate] einen Gewinner für Sie bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+Wenn Sie statt der [!UICONTROL Auto-Allocate] eine manuelle [!UICONTROL A/B Test] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Auto-Allocate] ist optional, da [!UICONTROL Auto-Allocate] einen Gewinner für Sie bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
 Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf.
 
@@ -127,7 +136,7 @@ Die Baseline-Konversionsrate ist die Konversionsrate des Kontrollangebotes (Ange
 
 ### Anzahl der Besucher {#section_19009F165505429E95291E6976E498DD}
 
-Es kann schwierig sein, die Opportunitätskosten für die Ausführung eines Tests über einen langen Zeitraum mit dem Risiko falscher Positivwerte und falscher Negativwerte abzuwägen. Natürlich wollen Sie keine falschen Entscheidungen treffen, aber es ist auch nicht wünschenswert, durch zu strenge oder starre Teststandards gelähmt zu werden.
+Es kann schwierig sein, die Opportunitätskosten für die Ausführung eines Tests über einen langen Zeitraum mit dem Risiko falscher Positivwerte und falscher Negativwerte abzuwägen. Es liegt auf der Hand, dass Sie keine falschen Entscheidungen treffen möchten, jedoch sollte auch eine Lähmung durch zu strikte bzw. rigide Teststandards vermieden werden.
 
 Als allgemeine Richtlinie werden ein Konfidenzniveau von 95 % und eine Teststärke von 80 % empfohlen.
 
@@ -141,7 +150,7 @@ In diesem Beispiel könnten Sie entscheiden, dass es ausreichend ist, einen Anst
 
 Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Woche aufzurunden, um Wochentagseffekte zu vermeiden. In diesem Beispiel würde der Test vor der Auswertung der Ergebnisse über zwei Wochen ausgeführt werden.
 
-### Umsatz-pro-Besuch-Metrik  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Umsatz-pro-Besuch-Metrik {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Bei Verwendung der Metrik Umsatz pro Besuch (RPV) wird eine zusätzliche Varianzquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / #visitors = (Umsatz pro Bestellung &#42; #orders) / # Besucher = Umsatz pro Bestellung &#42; (#visitors &#42; CTR) / #visitors = Umsatz pro Bestellung &#42; CTR), jeweils mit einer eigenen Varianz. Die Varianz der Konversionsrate kann direkt mithilfe eines mathematischen Modells geschätzt werden, aber die Varianz des Umsatzes pro Bestellung ist spezifisch für die Aktivität. Nutzen Sie daher die Kenntnis dieser Varianz aus früheren Aktivitäten oder führen Sie den A/B-Test einige Tage lang durch, um die Varianz beim Umsatz zu schätzen. Die Varianz wird anhand der Werte Summe der Verkäufe, Summe der Verkäufe im Quadrat und Anzahl der Besucher berechnet, die in der CSV-Download-Datei zu finden sind. Nachdem dies eingerichtet wurde, verwenden Sie die Tabelle, um die erforderliche Zeit zum Abschließen des Tests zu berechnen.
 
@@ -162,7 +171,7 @@ Im Allgemeinen erfordert die Verwendung von RPV als Metrik 20-30 % mehr, um dass
 
 Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit eines Falsch-Positiv-Werts (Beobachtung eines statistisch signifikanten Unterschieds, auch wenn es keinen Unterschied bei der Konversionsrate gibt) dem Signifikanzniveau. Wenn zum Beispiel fünf Angebote A/B/C/D/E vorliegen und es sich bei A um das Kontrollangebot handelt, werden vier Vergleiche vorgenommen (Kontrolle zu B, Kontrolle zu C, Kontrolle zu D und Kontrolle zu E) und die Wahrscheinlichkeit eines Falsch-Positiv-Werts beträgt 18,5 %, selbst wenn das Konfidenzniveau 95 % beträgt, da Pr (mindestens ein Falsch-Positiv-Wert) = 1 - Pr (keine Falsch-Positiv-Werte) = 1 - 0,95 = 18,5 %. Als Falsch-Positiv-Wert gilt in diesem Zusammenhang, wenn der Kontrollwert besser als die Alternative bzw. wenn die Alternative besser als der Kontrollwert ausfällt, auch wenn es tatsächlich keinen Unterschied zwischen diesen Werten gibt.
 
-## Schlussfolgerung  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Durch die Verwendung einer [!UICONTROL Auto-Allocate] Aktivität ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und weist dem Gewinner automatisch mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Auto-Allocate] ist es einfach, Ihre Konversionsziele zu erreichen und dabei das Rätselraten zu entfernen.
 

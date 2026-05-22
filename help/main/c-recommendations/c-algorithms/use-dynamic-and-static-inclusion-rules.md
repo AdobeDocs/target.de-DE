@@ -6,9 +6,14 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: 1861
 ht-degree: 16%
 
 ---
@@ -25,7 +30,7 @@ Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 
 ### Filterregeln zu Kriterien hinzufügen
 
-1. Klicken [&#x200B; beim Erstellen von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) unter **[!UICONTROL Add Filtering Rule]** auf **[!UICONTROL Inclusion Rules]**.
+1. Klicken [&#x200B; beim Erstellen von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) (**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) unter **[!UICONTROL Inclusion Rules]** auf **[!UICONTROL Add Filtering Rule]**.
 
    ![Filterregel hinzufügen](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
@@ -116,7 +121,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 | [!UICONTROL Keine Elemente hochstufen<P>(Nur Promotions)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Diese Aktion ist die Standardeinstellung für [!UICONTROL Entity Attribute Matching].<P>Mit dieser Aktion werden [!DNL Target] leeren Werte vor dem Hinzufügen dieser Option verarbeitet: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-## Einschränkungen  {#caveats}
+## Einschränkungen {#caveats}
 
 >[!IMPORTANT]
 >

@@ -4,9 +4,16 @@ description: Erkunden Sie die Aktivitäten von A/B [!DNL Target] Tests in [!UICO
 title: Lernen Sie die in verfügbaren A/B-Test-Aktivitäten  [!DNL Target].
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 680
 ht-degree: 21%
 
 ---
@@ -17,7 +24,7 @@ Eine manuelle [!UICONTROL A/B Test] (manchmal auch als A/B…N-Test bezeichnet) 
 
 >[!TIP]
 >
->Zusätzlich zur [!UICONTROL Manual]-Aktivität [!UICONTROL A/B Test] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [&#x200B; unter „Arten von A/B](#types)Testaktivitäten“.
+>Zusätzlich zur [!UICONTROL A/B Test]-Aktivität [!UICONTROL Manual] (Standard) (siehe diesen Artikel) bietet [!DNL Target] zwei weitere Arten von [!UICONTROL A/B Test]-Aktivitäten: [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]. Weitere Informationen finden [&#x200B; unter „Arten von A/B](#types)Testaktivitäten“.
 
 Manuelle A/B-Tests sind nützlich, wenn Sie anhand von Erfolgsmetriken oder alternativen Inhaltsbereitstellungen eine klare Hypothese darüber haben, wie Sie die Leistung Ihrer Seite verbessern können.
 
@@ -55,6 +62,6 @@ Die Schritte zum Erstellen der drei Arten von [!UICONTROL A/B Test] sind ähnlic
 
 ## Recommendations in A/B-Aktivitäten einschließen
 
-Sie können Empfehlungen in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten (und [!UICONTROL Experience Targeting] (XT)-Aktivitäten) einbeziehen. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Sie können Empfehlungen in [!UICONTROL A/B Test]-, [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten (und [!UICONTROL Experience Targeting] (XT)-Aktivitäten) einbeziehen. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen.

@@ -4,10 +4,28 @@ description: Verwenden  [!DNL Target]  In- [!DNL Adobe Customer Journey Analytic
 title: Was ist  [!DNL Target]  Reporting in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 41%
+source-wordcount: 1417
+ht-degree: 36%
 
 ---
 
@@ -30,7 +48,7 @@ Beachten Sie die folgenden Informationen, bevor Sie die Integration von [!DNL Cu
 >Diese Integration unterscheidet sich von [[!UICONTROL Adobe Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Die unterstützten Implementierungs- und Aktivitätstypen unterscheiden sich. Lesen Sie diesen Artikel sorgfältig durch, bevor Sie diese Integration für Ihre [!DNL Target] verwenden.
 
 * Zur Verwendung von [!DNL Customer Journey Analytics] als Berichtsquelle für [!DNL Target] müssen Sie und Ihr Unternehmen Zugriff auf [!DNL Customer Journey Analytics] und [!DNL Target] haben. Wenn Sie Zugriff auf eine der Lösungen benötigen, wenden Sie sich an die Admins Ihrer Organisation oder an Ihre Kundenkontaktperson.
-* Um [!DNL Target] Aktivitäten mit [!DNL Customer Journey Analytics] Reporting zu erstellen, benötigen Sie [!UICONTROL Approver] entweder die Rolle &quot;[!UICONTROL Editor]&quot; oder &quot;[!DNL Target]&quot;.
+* Um [!DNL Target] Aktivitäten mit [!DNL Customer Journey Analytics] Reporting zu erstellen, benötigen Sie [!DNL Target] entweder die Rolle &quot;[!UICONTROL Approver]&quot; oder &quot;[!UICONTROL Editor]&quot;.
    * Wenn Sie ein [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905)-Konto besitzen, lesen Sie [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzende*.
    * Wenn Sie ein [Target Premium](/help/main/c-intro/intro.md#premium)-Konto besitzen, lesen Sie [Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Berechtigungen für Unternehmensbenutzende*.
 
@@ -55,7 +73,7 @@ Beachten Sie die folgenden Informationen, bevor Sie die Integration von [!DNL Cu
 
 Die folgenden Aktivitätstypen werden bei der Verwendung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} oder der [at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript-Bibliothek unterstützt:
 
-| Aktivitätstypen  | Unterstützt? |
+| Aktivitätstypen | Unterstützt? |
 |--- |--- |
 | [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |
 | [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Nein |

@@ -4,9 +4,22 @@ description: Führen Sie die Schritte aus, die zur Implementierung von Analytics
 title: Wie implementiere ich Analytics für  [!DNL Target] A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
+TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1168
 ht-degree: 18%
 
 ---
@@ -105,7 +118,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf von at.js **analyticsLogging: „client_side“ innerhalb der**-Anfragen gesendet [!DNL Target] und für jede Anfrage eine Analytics-Payload zurückgegeben wird. Wenn diese Option eingerichtet ist, sieht das Format der zurückgegebenen Payload wie folgt aus:
+Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf von at.js **analyticsLogging: „client_side“ innerhalb der [!DNL Target]-Anfragen gesendet** und für jede Anfrage eine Analytics-Payload zurückgegeben wird. Wenn diese Option eingerichtet ist, sieht das Format der zurückgegebenen Payload wie folgt aus:
 
 ```javascript
 "analytics": {
@@ -174,7 +187,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Payload kann dann über die „Data Insertion [!DNL Analytics]&quot; an [&#x200B; weitergeleitet &#x200B;](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Payload kann dann über die „Data Insertion [&quot; an [!DNL Analytics] weitergeleitet &#x200B;](https://helpx.adobe.com/de/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Schritt 8: Validieren der Implementierung {#step8}
 

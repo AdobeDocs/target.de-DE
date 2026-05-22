@@ -4,16 +4,30 @@ description: Finden Sie heraus, warum manche Websites in [!UICONTROL Visual Expe
 title: Wie verwende ich die [!UICONTROL Visual Editing Helper]-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 86139b5971f98091affefd771d9d138e31574727
+TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: 779
 ht-degree: 86%
 
 ---
 
 # [!UICONTROL Visual Editing Helper]-Erweiterung
 
-Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erweiterung für [!DNL Google Chrome] können Sie Websites zuverlässig in [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) laden, um schnell Web-Erlebnisse schnell zu erstellen und einer Qualitätsprüfung zu unterziehen. 
+Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erweiterung für [!DNL Google Chrome] können Sie Websites zuverlässig in [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) laden, um schnell Web-Erlebnisse schnell zu erstellen und einer Qualitätsprüfung zu unterziehen.
 
 >[!IMPORTANT]
 >
@@ -45,7 +59,7 @@ Die [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erw
 
   Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) wird at.js von der Erweiterung zwar nicht eingefügt, aber die SameSite Cookie-Funktionalität ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
-* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt. 
+* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt.
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 
@@ -70,7 +84,7 @@ Die [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper]-Browser-Erw
    * Wenn at.js oder alloy.js noch nicht auf der Website implementiert ist, wird im VEC eine Meldung angezeigt, die Sie auffordert, die Erweiterung zu installieren.
 * Wenn Sie versuchen, die neue Erweiterung zu verwenden und danach zur [alten Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zurückkehren und [!DNL Target] Ihre Webseite nicht laden kann, löschen Sie alle Browser-Daten und deaktivieren Sie die neue Erweiterung.
 
-## Häufig gestellte Fragen  
+## Häufig gestellte Fragen
 
 ### Hat die aktive Erweiterung irgendeine Funktion, wenn sie außerhalb von [!DNL Adobe Target] oder [!UICONTROL Adobe Journey Optimizer] (AJO) verwendet wird?
 

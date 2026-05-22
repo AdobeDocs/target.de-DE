@@ -4,9 +4,17 @@ description: Erfahren Sie, wie Sie eine Aktivität in Adobe [!DNL Target]  konfi
 title: Wie erstelle ich eine Aktivität, die A4T verwendet?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: 652
 ht-degree: 28%
 
 ---
@@ -61,7 +69,7 @@ Das Erstellen einer [!DNL Target] Aktivität, die [!DNL Analytics] als Berichtsq
 
    >[!NOTE]
    >
-   >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was von [!DNL Analytics] normalerweise nicht verfolgt wird. Diese benutzerdefinierte Metrik wird vom [!DNL Analytics]-Server automatisch an [!DNL Target] gesendet und in der Metrikauswahl in [!DNL Target] als Metrik &quot;[!DNL Analytics] Conversion“ angezeigt. Die [!DNL Target] Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] verwenden möchten.
+   >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was von [!DNL Analytics] normalerweise nicht verfolgt wird. Diese benutzerdefinierte Metrik wird vom [!DNL Target]-Server automatisch an [!DNL Analytics] gesendet und in der Metrikauswahl in [!DNL Analytics] als Metrik &quot;[!DNL Target] Conversion“ angezeigt. Die [!DNL Target] Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] verwenden möchten.
 
    Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 

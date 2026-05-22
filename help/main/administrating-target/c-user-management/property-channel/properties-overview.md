@@ -6,10 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
+TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 55%
+source-wordcount: 1476
+ht-degree: 54%
 
 ---
 
@@ -26,9 +46,9 @@ In der folgenden Tabelle sind alle Aufgaben aufgeführt, die Sie zur Erstellung 
 | Aufgabe | Durchgeführt in |
 |--- |--- |
 | &#x200B;1. Benutzer hinzufügen (optional) | [!DNL Adobe Admin Console for Enterprise] |
-| &#x200B;2. Erstellen eines Arbeitsbereichs (Produktprofil) | [!DNL Adobe Admin Console for Enterprise] |
+| &#x200B;2. Erstellen eines Arbeitsbereichs (Produktprofils) | [!DNL Adobe Admin Console for Enterprise] |
 | &#x200B;3. Erstellen von Benutzergruppen (optional) | [!DNL Adobe Admin Console for Enterprise] |
-| &#x200B;4. Eigenschaften erstellen | [!DNL Target]-Benutzeroberfläche |
+| &#x200B;4. Erstellen von Eigenschaften | [!DNL Target]-Benutzeroberfläche |
 | 5: Aktualisieren Sie Ihre Implementierung, um den `at_property`-Parameter aufzunehmen | [!DNL Target]-Benutzeroberfläche, at.js-Funktionen oder Tags in [!DNL Adobe Experience Platform] |
 | 6: Rollen und Berechtigungen festlegen | [!DNL Adobe Admin Console for Enterprise] |
 
@@ -66,7 +86,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
 1. Erstellen Sie den gewünschten Arbeitsbereich (Produktprofil):
 
-   * **Standardzugriff:** Sämtliche bestehenden Aktivitäten werden in einem einzigen Projekt mit der Bezeichnung „Standardzugriff“ vereinigt. Kunden sind von dieser Einstellung nicht betroffen. Sämtliche Benutzerrollen und Funktionen bleiben die gleichen und ändern sich nicht.
+   * **Standardzugriff:** Sämtliche bestehenden Aktivitäten werden in einem einzigen Projekt mit der Bezeichnung „Standardzugriff“ zusammengeführt. Kunden sind von dieser Einstellung nicht betroffen. Sämtliche Benutzerrollen und Funktionen bleiben die gleichen und ändern sich nicht.
 
      Alle mit [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] und [!DNL Target Classic] erstellten Aktivitäten werden ebenfalls in den Arbeitsbereich „Standardzugriff“ übernommen. Zurzeit ist es nicht möglich, Projekte aus „Standardzugriff“ in ein anderes Projekt zu verschieben.
 
@@ -100,7 +120,7 @@ Sie können Benutzergruppen wie Entwickler, Analytiker, Marketingexperten, Manag
 
 ## Schritt 4. Erstellen von Eigenschaften {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Eigenschaften werden aktiviert, indem ein bestimmtes Name/Wert-Paar als Parameter bei jedem Aufruf ([!DNL Target], API-Aufruf usw.) an [!DNL Target] hinzugefügt wird.
+Eigenschaften werden aktiviert, indem bei jedem Aufruf ([!DNL Target], API-Aufruf usw.) ein bestimmtes Name/Wert-Paar als Parameter hinzugefügt wird. [!DNL Target].
 
 Eigenschaften gehören zu bestimmten Kanälen (Web, Mobile, E-Mail und API/Sonstige).
 

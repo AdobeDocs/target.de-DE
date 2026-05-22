@@ -4,10 +4,27 @@ description: Erfahren Sie, wie Sie [!UICONTROL Auto-Allocate]- und [!UICONTROL A
 title: Unterstützt A4T [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: ddced04c730519dae74e70a60bed26462825ad23
+TQID: https://experienceleague.adobe.com/VVbjMp7jYDyslZ8ubn8ntPufLK8nKGI9k3ZGh1DLWWs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 4%
+source-wordcount: 1352
+ht-degree: 6%
 
 ---
 
@@ -38,7 +55,7 @@ Erster Schritt:
 
    Weitere Informationen und schrittweise Anweisungen finden Sie unter [Erstellen einer automatischen Zuordnungsaktivität](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) und [Erstellen einer automatischen Targeting-Aktivität](/help/main/c-activities/auto-target/create-auto-target.md).
 
-1. Wählen Sie auf der Seite **[!UICONTROL Adobe Analytics]** die Option **[!UICONTROL Reporting Source]** für Ihre **[!UICONTROL Goals & Settings]** und danach das Unternehmen und die Report Suite aus, die Ihrem gewünschten Optimierungsziel entsprechen.
+1. Wählen Sie auf der Seite **[!UICONTROL Goals & Settings]** die Option **[!UICONTROL Adobe Analytics]** für Ihre **[!UICONTROL Reporting Source]** und danach das Unternehmen und die Report Suite aus, die Ihrem gewünschten Optimierungsziel entsprechen.
 
    ![Reporting-Source-Abschnitt auf der Seite Ziele und Einstellungen](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
@@ -126,7 +143,7 @@ Einige Einschränkungen und Hinweise gelten sowohl für [!UICONTROL Auto-Allocat
 
 ### Automatisches Targeting {#at}
 
-* [!UICONTROL Auto-Target] Modelle trainieren wie gewohnt alle 24 Stunden weiter. Konversionsereignisdaten aus [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics, indem die Trails die neuesten in [!DNL Target] aufgezeichneten Ereignisse [!DNL Analytics]. Diese Verzögerung hat den größten Effekt in den ersten 48 Stunden nach der Aktivierung einer Aktivität. Die Leistung der Aktivität entspricht genauer [!DNL Analytics] Konversionsverhalten nach fünf Tagen.
+* [!UICONTROL Auto-Target] Modelle trainieren wie gewohnt alle 24 Stunden weiter. Konversionsereignisdaten aus [!DNL Analytics] werden jedoch um weitere sechs bis 24 Stunden verzögert. Diese Verzögerung bedeutet die Verteilung des Traffics, indem die Trails die neuesten in [!DNL Analytics] aufgezeichneten Ereignisse [!DNL Target]. Diese Verzögerung hat den größten Effekt in den ersten 48 Stunden nach der Aktivierung einer Aktivität. Die Leistung der Aktivität entspricht genauer [!DNL Analytics] Konversionsverhalten nach fünf Tagen.
 
   Erwägen Sie die Verwendung von [!UICONTROL Auto-Allocate] anstelle von [!UICONTROL Auto-Target] für kurzzeitige Aktivitäten, bei denen der meiste Traffic innerhalb der ersten fünf Tage nach dem Leben der Aktivität auftritt.
 

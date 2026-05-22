@@ -4,10 +4,21 @@ description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besuc
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 91%
+source-wordcount: 2481
+ht-degree: 90%
 
 ---
 
@@ -130,7 +141,7 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 * Verwenden Sie die String-basierten Manipulationsfunktionen oder regulären Ausdrücke.
 * Verwenden Sie limited for- bzw. open ended for-Schleifen oder while-Schleifen.
 * Halten Sie die Vorgabe von maximal 1.300 Zeichen bzw. 50 Schleifeniterationen ein.
-* Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. [!DNL Target] verfügt über einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript, dieser Maximalwert kann jedoch nicht einfach durch manuelles Lesen des JavaScript bestimmt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
+* Überschreiten Sie nicht die Maximalzahl von 2.000 JavaScript-Anweisungen. [!DNL Target] erlaubt einen Maximalwert von 2.000 JavaScript-Anweisungen pro Skript. Dieser Maximalwert kann jedoch nicht einfach durch manuelles Lesen von JavaScript festgestellt werden. Rhino beispielsweise behandelt alle Funktionsaufrufe und „neuen“ Aufrufe als 100 Anweisungen. Außerdem kann sich die Größe der eingegebenen Daten (beispielsweise der URL-Werte) auf die Anzahl der Anweisungen auswirken.
 * Berücksichtigen Sie nicht nur die individuelle Skriptperformance, sondern auch die Performance aller Skripte. Als Best Practice empfiehlt [!DNL Adobe] insgesamt weniger als 5.000 Anweisungen. Die Anzahl der Anweisungen kann nicht einfach gezählt werden. Beachten Sie aber, dass Skripte mit einer Größe von über 2,000 Anweisungen automatisch deaktiviert werden. Die Anzahl der aktiven Profilskripte sollte 300 nicht überschreiten. Jedes Skript wird mit jedem einzelnen Mbox-Aufruf ausgeführt. Führen Sie also nur so viele Skripte aus wie nötig.
 * Bei einem Regex ist fast nie Punkt-Stern am Beginn erforderlich (z. B.: `/.*match/`, `/a|.*b/`). Die Regex-Suche beginnt auf allen Positionen in einer Zeichenfolge (außer wenn durch `^` begrenzt), sodass Punkt-Stern bereits vorausgesetzt wird. Die Skriptausführung kann unterbrochen werden, wenn ein solcher Regex mit langen Eingabedaten abgeglichen wird (kann auch mehrere hundert Zeichen lang sein).
 * Schlägt alles fehl, verpacken Sie das Skript in einer try/catch-Anweisung.
@@ -164,7 +175,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
-  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie im Abschnitt **[!UICONTROL Target]** auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** > [!UICONTROL Debugger tools] klicken.
+  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie im Abschnitt [!UICONTROL Debugger tools] auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** klicken.
 
   Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -180,7 +191,8 @@ Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgefü
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
-Zur effektiven Nutzung von Skript-Profilparametern sind einfache JavaScript-Kenntnisse erforderlich. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
+Um das Skriptprofil effektiv nutzen zu können, sind einfache JavaScript-Kenntnisse erforderlich
+Parameter. Dieser Abschnitt dient als kurze Referenz, um Sie in wenigen Minuten mit dieser Funktionalität vertraut zu machen.
 
 Skript-Profilparameter befinden sich auf der Registerkarte „mboxes/profile“. Sie können Javascript-Programme schreiben, die einen beliebigen Javascript-Typ (Zeichenfolge, Ganzzahl, Array usw.) zurückgeben.
 
@@ -272,7 +284,7 @@ Alle standardmäßigen JavaScript-Operatoren sind vorhanden und können verwende
 | `>=` | So wie `>`, außer wenn die Variablen gleich sind, dann wird sie als „true“ ausgewertet. |
 | `&&` | Fügt die Ausdrücke links und rechts daneben logisch mit „AND“ zusammen – nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
 | `\|\|` | Fügt die Ausdrücke links und rechts daneben logisch mit „OR“ zusammen – nur „true“, wenn beide Seiten „true“ sind (andernfalls „false“). |
-| `//` | Prüft, ob die Quelle alle Elemente aus dem Booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` extrahiert Unterzeichenfolge aus dem Ziel (entspricht regexp) und dekodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 \|\| condition2) && condition3`) und regulärer Ausdrücke (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Prüft, ob die Quelle alle Elemente aus dem booleschen Zielwert enthält (Array-Quelle, Array-Ziel).<br>`//` Extrahiert Teilzeichenfolge aus dem Ziel (entspricht regexp) und decodiert sie `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Die Funktion unterstützt auch die Verwendung konstanter Zeichenfolgenwerte, Gruppierung (`condition1 \|\| condition2) && condition3`) und regulärer Ausdrücke (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Schulungsvideo: Profilskripte ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

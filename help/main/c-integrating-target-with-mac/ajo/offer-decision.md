@@ -4,14 +4,27 @@ description: Erfahren Sie, wie Sie einer Aktivität eine  [!DNL Adobe Journey Op
 title: Wie verwende ich Angebotsentscheidungen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d31c9a6f47ea73342cfb638600f351ade4be7013
+TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
+source-wordcount: 951
+ht-degree: 2%
 
 ---
 
-# Verwenden von Angebotsentscheidungen 
+# Verwenden von Angebotsentscheidungen
 
 Verwenden Sie [!DNL Adobe Target] mit [!DNL Adobe Journey Optimizer] Angebotsentscheidungen, um das nächstbeste Angebot für Ihre Besucher im Web und auf Mobilgeräten zu ermitteln und bereitzustellen.
 
@@ -23,7 +36,7 @@ Weitere Informationen zu [!DNL Adobe Journey Optimizer] und Angebotsentscheidung
 
 * [Über das Entscheidungs-Management](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=de)
 
-## Voraussetzungen 
+## Voraussetzungen
 
 Um Angebotsentscheidungen in [!DNL Target] zu verwenden, benötigen Sie Folgendes:
 
@@ -80,7 +93,7 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
    ![Dialogfeld Angebotsentscheidung auswählen](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der [!UICONTROL Modifications] Leiste sehen können. Sie können unten in der [!UICONTROL Offer Preview] Leiste unter [!UICONTROL Offer Decision] auf ein Angebot klicken, um die Angebotsentscheidung zu untersuchen.
+   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der [!UICONTROL Modifications] Leiste sehen können. Sie können unten in der [!UICONTROL Offer Decision] Leiste unter [!UICONTROL Offer Preview] auf ein Angebot klicken, um die Angebotsentscheidung zu untersuchen.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 

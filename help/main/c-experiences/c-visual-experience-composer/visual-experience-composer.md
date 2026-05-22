@@ -4,10 +4,18 @@ description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 43%
+source-wordcount: 1138
+ht-degree: 46%
 
 ---
 
@@ -19,7 +27,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] ist ein
 >
 >Die Version [!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) enthielt eine aktualisierte Version des VEC. Informationen darüber, wie sich der aktualisierte VEC von der vorherigen Version unterscheidet, finden Sie unter [Änderungen am Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Einen Überblick über die verschiedenen Optionen in dem aktualisierten VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-Mit VEC können Sie ganz einfach personalisierte Erlebnisse und Angebote im Site-Kontext erstellen und testen. Sie können Erlebnisse und Angebote für [!DNL Target] Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Web-Seite (oder eines Angebots) oder einer mobilen Web-Seite per Drag-and-Drop austauschen und ändern.
+Mit VEC können Sie ganz einfach personalisierte Erlebnisse und Angebote im Site-Kontext erstellen und testen. Sie können Erlebnisse und Angebote für [!DNL Target]-Aktivitäten erstellen, indem Sie das Layout und den Inhalt einer Webseite (oder eines Angebots) bzw. einer mobilen Webseite per Drag &amp; Drop austauschen und verändern.
 
 Der VEC ist eine der Hauptkomponenten von [!DNL Target]. Der VEC ermöglicht Marketingexperten und Designern, Inhalte über eine visuelle Benutzeroberfläche zu erstellen und zu ändern. Viele Entwurfsentscheidungen können getroffen werden, ohne den Code direkt bearbeiten zu müssen. Die Bearbeitung von HTML und JavaScript ist über die Bearbeitungsoptionen, die im Composer verfügbar sind, ebenfalls möglich.
 

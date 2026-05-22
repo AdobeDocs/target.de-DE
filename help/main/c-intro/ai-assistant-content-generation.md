@@ -7,10 +7,17 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 Fördern Sie Interaktion und Konversionen in [!DNL Adobe Target] mit [!DNL AI Assistant]. Nutzen Sie generative KI, um personalisierten, wirkungsvollen Text zu erstellen, der bei Ihrer Audience Anklang findet und Ihre Aktivitätsinhalte erhöht.
 
-## Voraussetzungen 
+## Voraussetzungen
 
 1. Vergewissern Sie sich, dass Sie die erforderlichen Aufgaben in [Aktivieren [!DNL Adobe Experience Platform] [!DNL AI Assistant] in  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md) abgeschlossen haben.
 

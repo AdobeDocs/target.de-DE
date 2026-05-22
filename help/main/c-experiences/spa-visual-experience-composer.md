@@ -4,10 +4,28 @@ description: Erfahren Sie, wie Sie den SPA VEC in Adobe verwenden [!DNL Target] 
 title: Wie verwende ich die Single Page App Visual Experience Composer (SPA VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 64%
+source-wordcount: 3904
+ht-degree: 56%
 
 ---
 
@@ -61,7 +79,7 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
 1. Installieren Sie at.js 2.x.
 
-   Zunächst müssen Sie at.js 2.x installieren. Diese Version von at.js wurde speziell für SPAs entwickelt. Frühere Versionen von at.js und unterstützen keine Adobe Target-Ansichten und den VEC für SPA.
+   Zunächst müssen wir at.js 2.x installieren. Diese Version von at.js wurde mit Blick auf SPAs entwickelt. Frühere Versionen von at.js und unterstützen keine Adobe Target-Ansichten und den VEC für SPA.
 
    ![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
 
@@ -75,9 +93,9 @@ Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir die
 
    | Parameter | Typ | Erforderlich? | Validierung | Beschreibung |
    | --- | --- | --- | --- | --- |
-   | viewName | Zeichenfolge | Ja | &#x200B;1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Name der Ansicht sollte für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „home“ und „`/home`“ unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Dieser Ansichtsname wird im [!UICONTROL Modifications] des VEC angezeigt, damit Marketer Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
+   | viewName | Zeichenfolge | Ja | &#x200B;1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Ansichtsname muss für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „Home“ und &quot;`/home`&quot; unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Dieser Ansichtsname wird im [!UICONTROL Modifications] des VEC angezeigt, damit Marketer Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
    | options | Objekt | Nein |  |  |
-   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei `page=true` werden Benachrichtigungen zur Erhöhung der Impressions-Anzahl an die Edge-Server gesendet.<br>**FALSE**: Bei der `page=false` werden keine Benachrichtigungen gesendet, um die Anzahl der Impressionen zu erhöhen. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei der `page=true` werden Benachrichtigungen an die Edge-Server gesendet, um die Impressionsanzahl zu erhöhen.<br>**FALSE**: Bei der `page=false` werden keine Benachrichtigungen gesendet, um die Impressionsanzahl zu erhöhen. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
    Sehen wir uns nun einige Beispiel-Anwendungsfälle zum Aufrufen der `triggerView()` in React für unsere hypothetische E-Commerce-SPA an:
 
@@ -206,8 +224,8 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Modifications] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im [!UICONTROL Modifications] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie zur Ansicht in VEC über [!UICONTROL Browse] navigieren, um zu sehen, ob die geklonte Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
-| Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Page Load Event] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden der Seite Ihrer Web-Anwendung angewendet.<br>**Hinweis** Nachdem ein Verschiebevorgang ausgeführt wurde, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um festzustellen, ob es sich um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Modifications] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im [!UICONTROL Modifications] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Browse] zur Ansicht in VEC navigieren, um zu sehen, ob die geklonte Aktion ein gültiger Vorgang war. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Verschieben | Verschiebt die Aktion in ein Seitenladeereignis oder eine andere Ansicht, die bereits im Bedienfeld Änderungen vorhanden ist.<br>[!UICONTROL Page Load Event] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden der Seite Ihrer Web-Anwendung angewendet.<br>**Hinweis** Nachdem ein Verschiebevorgang ausgeführt wurde, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um festzustellen, ob es sich um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
 >[!NOTE]
@@ -260,7 +278,7 @@ Schließlich können Ansichten, wie bereits erwähnt, auf granularer Ebene defin
 
 Der typische Workflow von at.js 2.x besteht darin, dass beim Laden Ihrer Site alle Ihre Ansichten und Aktionen zwischengespeichert werden, sodass nachfolgende Benutzeraktionen auf Ihrer Site keine Trigger-Server-Aufrufe zum Abrufen von Angeboten ausführen. Wenn Sie Ansichten je nach aktuellsten Benutzeraktionen abrufen möchten, die auf Grundlage der nachfolgenden Benutzeraktionen aktualisiert wurden, können Sie `getOffers()` und `applyOffers()` mit den aktuellsten weitergeleiteten Zielgruppen- und Profildaten aufrufen.
 
-Angenommen, Sie sind ein Telekommunikationsunternehmen und Sie haben eine SPA, die at.js 2.x verwendet. Als Unternehmen möchten Sie die folgenden Ziele erreichen:
+Angenommen, Sie sind ein Telekommunikationsunternehmen und verfügen über eine SPA, die at.js 2.x verwendet. Als Unternehmen möchten Sie die folgenden Ziele erreichen:
 
 * Für einen abgemeldeten oder anonymen Benutzer sollten Sie die neueste Unternehmensaktion anzeigen, z. B. ein Hero-Angebot „Erster Monat kostenlos“ auf `http://www.telecom.com/home`.
 * Für einen angemeldeten Benutzer sollte ein Upgrade-Angebot für Benutzer angezeigt werden, deren Verträge demnächst anstehen, z. B. „Sie haben Anspruch auf ein kostenloses Telefon!“ auf `http://www.telecom.com/loggedIn/home` anzeigen.
@@ -396,7 +414,7 @@ Was würde im Hinblick auf das obige Beispiel passieren, wenn wir [!UICONTROL Pa
 
 ![Dialogfeld „Seitenbereitstellung“](/help/main/c-experiences/assets/spa-page-delivery.png)
 
-Die folgende Abbildung zeigt den Target-Ablauf: Seitenladeanfrage in at.js 2.*x*:
+Die folgende Abbildung zeigt die Target-Fluss-Seitenladeanforderung in at.js 2.*x*:
 
 ![Target-Ablauf: Seitenladeanfrage in at.js 2.0](/help/main/c-experiences/assets/page-load-request.png)
 
@@ -415,7 +433,7 @@ Hinweis: Der Benutzer, der zu [https://experienceleague.adobe.com/developer/asho
 * Ein Benutzer navigiert direkt zu [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products).
 * at.js 2.*x* führt eine Abfrage an Edge durch, um festzustellen, ob eine Aktivität für die URL ausgeführt werden muss: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products).
 * Es gibt keine für [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products) qualifizierten Aktivitäten.
-* Da es keine Aktivitäten gibt, müssen auch keine Aktionen und Ansichten zwischengespeichert werden, damit at.js 2 *x* ausgelöst werden kann.
+* Da keine qualifizierten Aktivitäten vorhanden sind, gibt es keine Aktionen und Ansichten, die für at.js 2.*x* zum Trigger zwischengespeichert werden können.
 
 **Ergebnis**: Selbst wenn Sie `triggerView()` für die Produktansicht definiert und eine Aktion über den SPA VEC zur Produktansicht durchgeführt haben, wird die erwartete Aktion nicht angezeigt, da Sie keine Regel erstellt haben, die [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=de#/products) in die Seitenbereitstellungseinstellungen aufgenommen hat.
 

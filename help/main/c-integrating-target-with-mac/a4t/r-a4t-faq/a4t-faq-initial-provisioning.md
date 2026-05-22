@@ -4,9 +4,18 @@ description: Hier finden Sie Antworten auf häufig gestellte Fragen zur Bereitst
 title: Wo finde ich Informationen über die Erstbereitstellung von A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/O2NhhiytLUaXarno3zH4DHi4EechHxUCMr8QifbEltw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 474
 ht-degree: 61%
 
 ---
@@ -37,7 +46,7 @@ Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T rich
 
 +++
 
-## Warum werden meine Report Suites nicht geladen?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Warum werden meine Report Suites nicht geladen? {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 +++Antwort
 Überprüfen Sie, ob eines der folgenden Probleme auftritt:
@@ -48,14 +57,14 @@ Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T rich
 
 +++
 
-## Warum sehe ich in Target keine Analytics-Optionen?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Warum sehe ich in Target keine Analytics-Optionen? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Antwort
 Siehe „Warum werden meine Report Suites nicht geladen?“ Oben. Dieses Problem hat im Wesentlichen dieselbe Ursache.
 
 +++
 
-## Warum sehe ich in Analytics keine A4T-Berichte?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Warum sehe ich in Analytics keine A4T-Berichte? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Antwort
 Siehe „Warum werden meine Report Suites nicht geladen?“ oben. Dieses Problem hat im Wesentlichen dieselbe Ursache.

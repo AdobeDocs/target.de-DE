@@ -5,10 +5,19 @@ title: Kann ich Besuchende nach Standort auswählen?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -37,7 +46,7 @@ Mit Geolokalisierungsparametern können Sie Aktivitäten und Erlebnisse basieren
 
    Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.
 
-   [!UICONTROL Mobile Carrier] nutzt [!DNL Target] die IP-Adressregistrierungsdaten (dem der Block von IP-Adressen gehört), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
+   [!DNL Target] nutzt [!UICONTROL Mobile Carrier] die IP-Adressregistrierungsdaten (dem der Block von IP-Adressen gehört), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
 
 1. Geben Sie einen Operator und den entsprechenden Wert an.
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
@@ -147,7 +156,7 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic weiterleitet, können [!DNL T
 ### Wie kann ich meine Aktivitäten als Benutzer von einem anderen Standort testen?
 
 +++Details anzeigen
-* **at.js 1.*x***: Sie können Ihre IP-Adresse mit einer IP-Adresse von einem anderen Speicherort überschreiben und den `mboxOverride.browserIp url`-Parameter verwenden. Wenn sich Ihr Unternehmen beispielsweise in Großbritannien befindet, Ihre globale Kampagne jedoch auf Besucher in Auckland, Neuseeland, ausgerichtet ist, verwenden Sie diesen URL-Stil unter der Annahme, dass `60.234.0.39` eine IP-Adresse in Auckland ist:
+* **at.js 1.*x***: Sie können Ihre IP-Adresse mit einer IP-Adresse eines anderen Speicherorts überschreiben und den `mboxOverride.browserIp url`-Parameter verwenden. Wenn sich Ihr Unternehmen beispielsweise in Großbritannien befindet, Ihre globale Kampagne jedoch auf Besucher in Auckland, Neuseeland, ausgerichtet ist, verwenden Sie diesen URL-Stil unter der Annahme, dass `60.234.0.39` eine IP-Adresse in Auckland ist:
 
   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -155,9 +164,9 @@ Aufgrund der Art und Weise, wie AOL seinen Traffic weiterleitet, können [!DNL T
 
   >[!NOTE]
   >
-  >`mboxOverride.browserIp` wird in at.js 1 unterstützt.*x*, zur Verfügung. Diese Funktion wird in at.js 2 nicht unterstützt.*x*.
+  >`mboxOverride.browserIp` wird nur in at.js 1.*x* unterstützt. Diese Funktion wird in at.js 2.*x* nicht unterstützt.
 
-* **at.js 2.*x***: Überschreiben Ihrer IP-Adresse mit at.js 2.*x* installieren Sie eine Browser-Erweiterung/-Plug-in (z. B. den X-Forwarded-For-Header für Chrome oder Firefox). Mit dieser Erweiterung können Sie die Kopfzeile „x-forwarded-for“ in Ihren Seitenanfragen übergeben.
+* **at.js 2.*x***: Um Ihre IP-Adresse mit at.js 2.*x* zu überschreiben, installieren Sie eine Browser-Erweiterung/-Plug-in (z. B. den Header „X-Forwarded-For“ für Chrome oder Firefox). Mit dieser Erweiterung können Sie die Kopfzeile „x-forwarded-for“ in Ihren Seitenanfragen übergeben.
 
 +++
 

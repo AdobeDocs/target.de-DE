@@ -4,9 +4,19 @@ description: Erfahren Sie, wie Sie Berichteinstellungen in Adobe Target konfigur
 title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: 1795
 ht-degree: 48%
 
 ---
@@ -149,7 +159,7 @@ Extremwerte ausschließen
 
 Der Umschalter [!UICONTROL Exclude Extreme Values] gilt nur für Aktivitäten mit den Metriktypen Umsatz und Interaktion . Weitere Informationen finden Sie unter [Ausschließen extremer Bestellungen](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
-## Download  {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
+## Download {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
 Klicken Sie auf das **[!UICONTROL Download]**-Symbol ![Download-](/help/main/assets/icons/Download.svg) ), um Berichtsdaten in einem [!DNL .csv] Format für den schnellen Import in Excel, Access oder andere Datenanalyseprogramme herunterzuladen.
 
@@ -183,7 +193,7 @@ Beachten Sie Folgendes:
 * Nur verfügbar, wenn Berichte in [!UICONTROL Table View] angezeigt werden.
 * Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-## Ortsbeschränkung  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Ortsbeschränkung {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Klicken Sie auf das Symbol [[!UICONTROL Location Contribution]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![Location Contribution](/help/main/assets/icons/LocationContribution.svg) ), um den Bericht so umzuschalten, dass der Beitrag für Aktivitäten des Typs Multivariater Test (MVT) nach Standort angezeigt wird.
 

@@ -4,9 +4,14 @@ description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden u
 title: Welche Best Practices gibt es für eine [!UICONTROL Multivariate Test]?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
+TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 611
 ht-degree: 57%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 57%
 
 Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivariate Test] (MVT)-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
 
-## Planung  {#section_4D4A1F6226F042379BF48DB753608579}
+## Planung {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Beachten Sie die Orte auf Ihrer Seite, die wahrscheinlich signifikante Ergebnisse produzieren.
 
@@ -24,7 +29,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
   Machen Sie sich mit den unterschiedlichen Inhalten für jedes Angebot vertraut und erstellen Sie Bilder, Text und HTML-Angebote, die Sie wahrscheinlich im Multivarianz-Test verwenden werden.
 
-## Erstellung  {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Erstellung {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * Vermeiden Sie die Einbeziehung von mehr Kombinationen als für den Test notwendig.
 
@@ -44,14 +49,14 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 * Die Alternativen der einzelnen Elemente sollten sich deutlich voneinander unterscheiden.
 
-## Analyse  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analyse {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
 * Stützen [&#x200B; im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die [!UICONTROL Best 5]- und [!UICONTROL Worst 5] verwenden.
 
   Der [!UICONTROL All] erschwert die Extraktion der gewünschten Informationen, und es können nicht alle Erlebnisse im Diagramm angezeigt werden. Verwenden Sie den [!UICONTROL All] Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 
-## Nachbereitung  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Nachbereitung {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Auch wenn Sie mit [!DNL Target] eine Live-Aktivität bearbeiten können, kann das Bearbeiten einer laufenden Aktivität den Test zurücksetzen. In Berichten werden einige der Änderungen möglicherweise nicht erkannt. Es ist jedoch sicher, die Änderungen nur an den HTML-Angeboten in der Angebotsbibliothek vorzunehmen.
 
