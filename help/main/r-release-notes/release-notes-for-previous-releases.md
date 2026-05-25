@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
 workflow-type: tm+mt
-source-wordcount: 68360
+source-wordcount: 68506
 ht-degree: 50%
 
 ---
@@ -57,6 +57,36 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.5.2 (14. Mai 2026)
+
+**Administration**
+
++++Details anzeigen
+
+* **Regex-Validierung für zulässige URLs.** Es wurde ein Problem behoben, bei dem ungültige reguläre Ausdrücke ohne ordnungsgemäße Validierung in das **[!UICONTROL Allowed URLs]** eingegeben werden konnten. (TGT-55095)
+
++++
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Schaltflächen in [!UICONTROL Edit Audience] Dialogfeld.** Es wurde ein Problem behoben, bei dem Schaltflächen im **[!UICONTROL Edit Audience]**-Dialogfeld nicht mehr korrekt wiedergegeben wurden. (TGT-54638)
+
++++
+
+**[!DNL Adobe Target]MCP-Server (Public Beta)**
+
++++Details anzeigen
+
+[!DNL Adobe Target] bietet jetzt einen MCP-Server (Model Context Protocol), der Experimentier-, Personalisierungs- und Berichtsvorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. Mit dieser Integration können Marketing- und technische Fachleute A/B-Tests untersuchen, Leistungsberichte analysieren und Audiences und Angebote untersuchen - und dies alles mithilfe von Aufforderungen in natürlicher Sprache, anstatt in mehreren Bildschirmen der Benutzeroberfläche zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben. Diese Funktion ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** verfügbar.
+
+Diese Funktion steht allen Kunden in Public Beta zur Verfügung.
+
+Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-integrating-target-with-mac/mcp/target-mcp.md).
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
 
@@ -3310,7 +3340,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 | Visual Experience Composer für Einzelseiten-Apps (SPAs) | Mit Visual Experience Composer (VEC) für Einzelseitenanwendungen (SPAs) können Marketingexperten Tests selbstständig erstellen und Inhalte auf SPAs ohne kontinuierliche Entwicklungsabhängigkeiten personalisieren. Mit VEC können Aktivitäten auf Basis der beliebtesten Frameworks erstellt werden, beispielsweise mit React oder Angular. (TGT-27916)<br>Weitere Informationen finden Sie unter [Einzelseitenanwendung (SPA) Visual Experience Composer](/help/main/c-experiences/spa-visual-experience-composer.md) und [Integration von Einzelseitenanwendungen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=de){target=_blank}.<br>Zusätzlich zum obigen Artikel gibt es viele Themen im Zusammenhang mit SPAs und at.js, die diese Funktion behandeln und aufzeigen, wie sie implementiert wird. Weitere Informationen finden Sie unter [Änderungen an der Dokumentation](/help/main/r-release-notes/doc-change.md). |
 | Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt die Optionen „Einfügen vor“ und „Einfügen nach“ in VEC verwenden, während Sie [AEM-Erlebnisfragmente](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) einfügen. Siehe [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md). (TGT-32385)</li><li>Mit der [!DNL Adobe Target] VEC Helper-Browsererweiterung für Google Chrome können Sie Websites zuverlässig in VEC laden, um schnell die Web-Erfahrung zu erstellen und die Qualität zu sichern. Siehe [Visual Experience Composer Helper Extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). (TGT-32746)</li></ul> |
 | ![Premium-Badge](/help/main/assets/premium.png)<br>Recommendations in [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] Aktivitäten | Sie können jetzt Empfehlungen in [!UICONTROL A/B Test] (einschließlich [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target]) und [!UICONTROL Experience Targeting] (XT) einbeziehen. Dies eröffnet völlig neue Möglichkeiten wie z. B.:<ul><li>Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.</li><li>Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.</li><li>Übertragen Sie Traffic mithilfe von [!UICONTROL Auto-Allocate] automatisch an das Erlebnis mit den besten Recommendations.</li><li>Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihren individuellen Profilen mithilfe von [!UICONTROL Auto-Target].</li></ul>Erstellen Sie zunächst eine [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting]-Aktivität mit dem VEC und verwenden Sie die [!UICONTROL Insert Before]-, [!UICONTROL Insert After]- oder [!UICONTROL Replace With]-Aktion, um einem Erlebnis Empfehlungen hinzuzufügen. (RECS-6166)<br>Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). |
-| ![Premium Badge &#x200B;](/help/main/assets/premium.png)<br> Unterstützung von Enterprise-Berechtigungen in Target-APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab dem **21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automatisierte Personalisierung-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
+| ![Premium Badge &#x200B;](/help/main/assets/premium.png)<br> Unterstützung von Enterprise-Berechtigungen in Target-APIs | [Adobe Target Admin-APIs](https://developers.adobetarget.com/api/#admin-apis) nutzt nun dieselben Enterprise-Berechtigungsfunktionen wie in der Target-Benutzeroberfläche. Ab dem **21. Februar 2019** können Systemadministratoren programmgesteuert auf Berichtsdaten zugreifen sowie Aktivitäten, Angebote und Zielgruppen in beliebigen Arbeitsbereichen erstellen und verwalten. Diese Aktionen waren zuvor auf den Standardarbeitsbereich beschränkt. Die Unterstützung für Automated Personalization-Aktivitäten (AP) erfolgt in einer zukünftigen Version. |
 
 **Verbesserungen, Fehlerbehebungen und Änderungen**
 
