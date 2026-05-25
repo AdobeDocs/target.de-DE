@@ -7,21 +7,14 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad59ee31ae91e2f1bdcd5ec409ee9d04595ee2dd
 workflow-type: tm+mt
-source-wordcount: 504
-ht-degree: 53%
+source-wordcount: 446
+ht-degree: 60%
 
 ---
 
@@ -31,42 +24,28 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.5.2 (14. Mai 2026)
+## [!DNL Target Standard/Premium] 26.5.3 (21. Mai 2026)
 
-**Administration**
-
-+++Details anzeigen
-
-* **Regex-Validierung für zulässige URLs.** Es wurde ein Problem behoben, bei dem ungültige reguläre Ausdrücke ohne ordnungsgemäße Validierung in das **[!UICONTROL Allowed URLs]** eingegeben werden konnten. (TGT-55095)
-
-+++
-
-**Zielgruppen**
+**[!UICONTROL What's new]Seite**
 
 +++Details anzeigen
 
-* **Schaltflächen in [!UICONTROL Edit Audience] Dialogfeld.** Es wurde ein Problem behoben, bei dem Schaltflächen im **[!UICONTROL Edit Audience]**-Dialogfeld nicht mehr korrekt wiedergegeben wurden. (TGT-54638)
+* **Neue [!UICONTROL What's new].** Es wurde eine neue **[!UICONTROL What's new]** in der [!DNL Adobe Target]-Benutzeroberfläche hinzugefügt, auf der Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen kennenlernen können, ohne das Produkt verlassen zu müssen. (TGT-55137)
 
 +++
 
-**[!DNL Adobe Target]MCP-Server (Public Beta)**
+**Aktivitäten**
 
 +++Details anzeigen
 
-[!DNL Adobe Target] bietet jetzt einen MCP-Server (Model Context Protocol), der Experimentier-, Personalisierungs- und Berichtsvorgänge direkt in jeder MCP-kompatiblen Anwendung aufzeigt. Mit dieser Integration können Marketing- und technische Fachleute A/B-Tests untersuchen, Leistungsberichte analysieren und Audiences und Angebote untersuchen - und dies alles mithilfe von Aufforderungen in natürlicher Sprache, anstatt in mehreren Bildschirmen der Benutzeroberfläche zu navigieren oder Abfragen für die [!DNL Adobe Target] REST-API zu schreiben. Diese Funktion ist derzeit in **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** und **ChatGPT** verfügbar.
+* **Falsches Erlebnis beim Bearbeiten von Targeting in [!UICONTROL Automated Personalization] Aktivitäten ausgewählt.** Es wurde ein Problem behoben, bei dem beim Bearbeiten des **[!UICONTROL Targeting]** Schritts in einer [!UICONTROL Automated Personalization] (AP)-Aktivität das falsche Erlebnis ausgewählt werden konnte. (TGT-55176)
 
-Diese Funktion steht allen Kunden in Public Beta zur Verfügung.
-
-Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-integrating-target-with-mac/mcp/target-mcp.md).
+* **Früheres Datum beim Schließen einer geplanten Aktivität.** Ein Problem wurde behoben, das dazu führte, dass Sie zum Schließen einer geplanten Aktivität kein früheres Datum auswählen konnten. (TGT-55163)
 
 +++
-
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-
-
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
