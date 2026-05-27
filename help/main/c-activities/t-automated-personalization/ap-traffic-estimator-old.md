@@ -7,7 +7,7 @@ feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '720'
 ht-degree: 10%
 
 ---

@@ -6,8 +6,8 @@ feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 42%
+source-wordcount: '1200'
+ht-degree: 43%
 
 ---
 
@@ -53,7 +53,7 @@ Die für Ihre Aktivität gewählten Erfolgsmetriken sind in den Berichtseinstell
 
 Einige Metriken, z. B. [!UICONTROL Custom Scoring] und [!UICONTROL Revenue Per Visitor], erfordern eine benutzerdefinierte Implementierung, die Informationen wie Bestellsummen und Auftrags-IDs weitergibt.
 
-## Erweiterte Einstellungen   {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Erweiterte Einstellungen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll.
 
@@ -103,7 +103,7 @@ Verwenden Sie die erweiterten Einstellungen, um festzulegen, was geschehen soll,
 
 Wählen Sie das gewünschte Verhalten aus:
 
-* Einmal pro Teilnehmer 
+* Einmal pro Teilnehmer
 * Bei jeder Impression (ohne Seitenaktualisierungen)
 * Bei jeder Anzeige
 
