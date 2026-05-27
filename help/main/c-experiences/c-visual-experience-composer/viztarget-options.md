@@ -5,9 +5,14 @@ title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC)-Option
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 2057
@@ -63,7 +68,7 @@ Die folgenden Optionen sind verfügbar:
 * **[!UICONTROL Site Preferences]**: Konfigurieren Sie Ihre Site-Voreinstellungen, um festzulegen, wie [!DNL Target] CSS-Selektoren generiert. Weitere Informationen finden Sie unter _CSS-Selektoren_ in [Konfigurieren der [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md).
 * **Zusätzliche Seiten hinzufügen**: Fügen Sie der Aktivität zusätzliche Seiten hinzu, um eine mehrseitige Aktivität zu erstellen, mit der Sie eine Story über mehrere Seiten hinweg erstellen können. Das Design ist für jede Seite spezifisch. Weitere Informationen finden Sie unter [Mehrseitige Aktivität](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md).
 * **Einzelne Zielgruppe**: Verwenden Sie eine einzelne Zielgruppe für die Aktivität.
-* **Mehrere Zielgruppen**: Weisen Sie der Aktivität mehrere Zielgruppen zu. Klicken Sie auf das Symbol Zielgruppen hinzufügen ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) und wählen Sie dann eine oder mehrere Zielgruppen aus der Liste aus. Sie können [ Dialogfeld [!UICONTROL Add Audiences] auch ](/help/main/c-target/combining-multiple-audiences.md)Zielgruppen kombinieren[ oder ](/help/main/c-target/c-audiences/create-audience.md) neue Zielgruppe erstellen.
+* **Mehrere Zielgruppen**: Weisen Sie der Aktivität mehrere Zielgruppen zu. Klicken Sie auf das Symbol Zielgruppen hinzufügen ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) und wählen Sie dann eine oder mehrere Zielgruppen aus der Liste aus. Sie können [&#x200B; Dialogfeld [!UICONTROL Add Audiences] auch &#x200B;](/help/main/c-target/combining-multiple-audiences.md)Zielgruppen kombinieren[&#x200B; oder &#x200B;](/help/main/c-target/c-audiences/create-audience.md) neue Zielgruppe erstellen.
 
 ### [!UICONTROL Design]-/[!UICONTROL Browse]
 
@@ -135,7 +140,7 @@ Klicken Sie auf das **[!UICONTROL More Options]**-Symbol ( ![Mehr Aktionen-](/he
 
 ### [!UICONTROL Design]
 
-Auf der [!UICONTROL Design] Arbeitsfläche können Sie Viewports auswählen, einschließlich „An Bildschirm anpassen“, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] und [!UICONTROL Mobile Portrait]. Standardmäßig passt die Arbeitsfläche die Seite zusammen mit den im Abschnitt „Administration“ definierten Darstellungsfeldern [ den Bildschirm ](/help/main/administrating-target/visual-experience-composer-set-up.md).
+Auf der [!UICONTROL Design] Arbeitsfläche können Sie Viewports auswählen, einschließlich „An Bildschirm anpassen“, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] und [!UICONTROL Mobile Portrait]. Standardmäßig passt die Arbeitsfläche die Seite zusammen mit den im Abschnitt „Administration“ definierten Darstellungsfeldern [&#x200B; den Bildschirm &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
 ![Viewport-Optionen](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
@@ -188,7 +193,7 @@ Im [!UICONTROL Properties] Bereich auf der rechten Seite können Sie die Eigensc
 
 Über die Symbole oben im Frame können Sie Folgendes tun:
 
-* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere Informationen finden [ unter &quot;](#html) bearbeiten“.
+* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere Informationen finden [&#x200B; unter &quot;](#html) bearbeiten“.
 * Duplizieren Sie das Bild ( ![Duplikatsymbol](/help/main/assets/icons/Code.svg) ).
 * Löschen Sie das Bild ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
 * Bild ausblenden ( ![Symbol ausblenden](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -225,7 +230,7 @@ Das Menü oben im Textelement bietet folgende Möglichkeiten:
 * Konfigurieren Sie die Attribute des Texts (fett, kursiv, unterstrichen oder durchgestrichen) (![Symbol „Textattribute auswählen“](/help/main/assets/icons/Text.svg)).
 * Konfigurieren Sie die Ausrichtung des Textes (links, zentriert, rechts, Blocksatz) (![Symbol für Textausrichtung](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Fügen Sie einen Link ein ( ![Symbol „Link einfügen](/help/main/assets/icons/Link.svg) ).
-* Ersetzen Sie den Inhalt durch ein HTML-Angebot[ „Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) oder [Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Ersetzen Sie den Inhalt durch ein HTML-Angebot[&#x200B; „Experience Fragment](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) oder [Recommendation](/help/main/c-recommendations/recommendations-as-an-offer.md).
 * Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ).
 * Personalisierung hinzufügen ( ![Symbol &quot;Personalization hinzufügen](/help/main/assets/icons/PersonalizationField.svg) ).
 * Löschen Sie das Bild ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
@@ -234,7 +239,7 @@ In der [!UICONTROL Properties] Leiste auf der rechten Seite können Sie die Eige
 
 Über die Symbole oben im Frame können Sie Folgendes tun:
 
-* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere Informationen finden [ unter &quot;](#html) bearbeiten“.
+* Bearbeiten Sie die HTML ( ![Symbol &quot;HTML einfügen](/help/main/assets/icons/Code.svg) ). Weitere Informationen finden [&#x200B; unter &quot;](#html) bearbeiten“.
 * Duplizieren Sie den Text ( ![Duplikatsymbol](/help/main/assets/icons/Code.svg) ).
 * Löschen Sie den Text ( ![Löschsymbol](/help/main/assets/icons/Delete.svg) ).
 * Blendet den Text aus ( ![Symbol ausblenden](/help/main/assets/icons/VisibilityOff.svg) ).
