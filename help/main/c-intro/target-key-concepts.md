@@ -5,10 +5,27 @@ title: Wie verwende ich Target?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2:
+  - id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+  - id: c2923fce-066f-4e68-bc28-ac56b57ccb5c
+  - id: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+  - id: e73b329c-f712-4a22-abe7-bfbf3be6d0f9
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1538
@@ -33,7 +50,7 @@ Target enthält mehrere Aktivitätstypen. In der folgenden Tabelle finden Sie ei
 | Aktivitätstyp | Beschreibung |
 |--- |--- |
 | [A/B-Test](/help/main/c-activities/t-test-ab/test-ab.md) | A/B-Tests vergleichen zwei oder mehr Versionen des Inhalts Ihrer Website, um festzustellen, welche Version Ihre Konversionen während eines vorab festgelegten Testzeitraums am besten verbessert.<br>**Hinweis:** Sie können jetzt [Empfehlungen in A/B-Test-Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
-| [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Durch die automatische Zuordnung kann aus zwei oder mehr Erlebnissen das erfolgversprechendste ermittelt und dem Gewinner automatisch mehr Traffic zugewiesen werden, um die Konversionen während der Fortführung des Tests und des Lernens zu steigern.<br>**Hinweis:** Sie können jetzt [Empfehlungen in Aktivitäten mit automatisierter Zuordnung“ ](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
+| [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Durch die automatische Zuordnung kann aus zwei oder mehr Erlebnissen das erfolgversprechendste ermittelt und dem Gewinner automatisch mehr Traffic zugewiesen werden, um die Konversionen während der Fortführung des Tests und des Lernens zu steigern.<br>**Hinweis:** Sie können jetzt [Empfehlungen in Aktivitäten mit automatisierter Zuordnung“ &#x200B;](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 | [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Automatisches Targeting nutzt fortschrittliche Machine-Learning-Algorithmen zur Identifizierung eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketing-Experten definierten Erlebnissen. Automatische Targeting -Aktivitäten bieten jedem Besucher basierend auf seinem individuellen Kundenprofil und dem Verhalten früherer Besucher mit ähnlichen Profilen das passendste Erlebnis, um Inhalte zu personalisieren und Konversionen zu fördern.<br>**Hinweis:** Sie können jetzt [Empfehlungen in automatische Targeting -Aktivitäten einfügen](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen. |
 | [Verwenden von Analytics-Daten](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Sie können eine Aktivität so konfigurieren, dass [!DNL Adobe Analytics] als Berichtsquelle verwendet wird. Für diesen Aktivitätstyp ist es erforderlich, dass Sie Ihr [!DNL Adobe Experience Cloud]-Konto sowohl mit [!DNL Analytics] als auch mit [!DNL Target] verbinden. |
 | [Multivarianz-Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Beim Multivariate Testing (MVT) werden Kombinationen aus Angeboten in Elementen auf einer Seite verglichen, um zu bestimmen, welche Kombination die beste Leistung für eine bestimmte Zielgruppe erzielt. Zudem gibt er an, welches Element den größten Einfluss auf den Erfolg der Aktivität hat. |
