@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 In diesem Handbuch wird beschrieben, wie Sie die Experience Rollout-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Stellen Sie vor der Implementierung der Experience Rollout-Erweiterung Folgendes sicher:
 
@@ -53,7 +53,7 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
    | Datensatz-ID | Die Adobe Experience Platform-Datensatz-ID für die Analytics-Ereignisdaten |
 
 1. Wählen Sie **Speichern** aus.
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
 ### Abrufen der Umgebungsdatei-ID {#environment-file-id}
 
@@ -107,7 +107,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [&#x200B; unter „Verwalten &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
+>Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [ unter „Verwalten ](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
 
 ### Hinzufügen von Berechtigungen {#add-permissions}
 
@@ -472,7 +472,7 @@ String version = Rollout.extensionVersion();
 
 ## Siehe auch {#see-also}
 
-* [Mobile Anwendungen](../../integrate/mobile-applications.md)
+* [Apps](../../integrate/mobile-applications.md)
 * [Integrationsschritte](../../integrate/integration-steps.md)
 * [SDKs](../../integrate/sdks.md)
 

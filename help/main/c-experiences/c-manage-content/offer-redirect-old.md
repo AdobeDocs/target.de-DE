@@ -6,7 +6,7 @@ feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1158'
 ht-degree: 45%
 
 ---
@@ -19,7 +19,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in Ajax-Mboxes (`mboxUpdate`) verwendet werden.
 >

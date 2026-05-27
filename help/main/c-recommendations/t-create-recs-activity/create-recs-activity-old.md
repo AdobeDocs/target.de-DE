@@ -1,14 +1,14 @@
 ---
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
-description: Adobe Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) eine Recommendations -Aktivität direkt auf einer  [!DNL Target] Seite erstellen.
+description: Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) eine Recommendations -Aktivität direkt auf einer  [!DNL Target] Seite erstellen.
 title: Wie erstelle ich eine Recommendations-Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 56%
+source-wordcount: '1270'
+ht-degree: 55%
 
 ---
 
@@ -30,9 +30,9 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Die [[!UICONTROL [Choose Workplace]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der vorherigen Abbildung ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion. Ihr Unternehmen verfügt über eine Target Standard-Lizenz, wenn diese Option nicht angezeigt wird.
+   >Die [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der vorherigen Abbildung ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion. Ihr Unternehmen verfügt über eine Target Standard-Lizenz, wenn diese Option nicht angezeigt wird.
 
-1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde &#x200B;](/help/main/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
+1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/main/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
 1. Geben Sie eine Aktivitäts-URL an und klicken Sie dann auf **[!UICONTROL Next]**.
 
@@ -77,7 +77,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn für die Aktivität jedoch inkompatible Kriterien verfügbar sein sollen, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Compatible]** . Die Option [!UICONTROL Compatible] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt (**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn für die Aktivität jedoch inkompatible Kriterien verfügbar sein sollen, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Compatible]** . Die Option [!UICONTROL Compatible] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt (**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Dialogfeld „Kriterien auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -88,7 +88,7 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
      Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
    * Um neue Kriterien zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** und geben Sie die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
+   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
 
 1. Klicken Sie auf **[!UICONTROL Next]**.
 1. [Entwurf auswählen](/help/main/c-recommendations/c-design-overview/design-overview.md).
@@ -178,4 +178,4 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 ## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33909?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

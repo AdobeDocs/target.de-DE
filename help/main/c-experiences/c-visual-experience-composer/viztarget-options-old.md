@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '2667'
-ht-degree: 56%
+source-wordcount: '2804'
+ht-degree: 55%
 
 ---
 
@@ -139,7 +139,7 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
 * **[!UICONTROL Position]**
 
-  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) &#x200B;](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
+  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) ](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
 
   Klicken Sie auf die Dropdown-Liste [!UICONTROL Static] , um aus den folgenden Positionsoptionen auszuwählen:
 
@@ -178,7 +178,7 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Offer Decision]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
 **Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen von [manuellen [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-Aktivitäten verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
@@ -237,7 +237,7 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -249,7 +249,7 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Offer Decision]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
 **Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen von [manuellen [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-Aktivitäten verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
@@ -269,7 +269,7 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -281,7 +281,7 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Offer Decision]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
 **Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen von [manuellen [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT)-Aktivitäten verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
@@ -315,7 +315,7 @@ Ein HTML-Angebot kann bis zu 256 KB groß sein.
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -345,7 +345,7 @@ Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zur Option [!UICONTROL Re
 
 In bestimmten Situationen, z. B. wenn eine CSS-Einschränkung erfordert, dass ein Element innerhalb seines übergeordneten Elements bleibt, können Sie das Element nicht aus seinem übergeordneten Element verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
-Weitere Informationen über inkonsistentes Verhalten bei den [!UICONTROL Rearrange]- und [!UICONTROL Move]-Aktionen aufgrund von verzögertem Laden von DOM-Elementen finden Sie oben unter [!UICONTROL Rearrange] .
+Weitere Informationen über inkonsistentes Verhalten bei den [!UICONTROL Move]- und [!UICONTROL Rearrange]-Aktionen aufgrund von verzögertem Laden von DOM-Elementen finden Sie oben unter [!UICONTROL Rearrange] .
 
 ### [!UICONTROL Hide]
 
@@ -371,7 +371,7 @@ Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung a
 
 ## Zu beachten {#considerations}
 
-* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank}.
+* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
 
 ## Unterstützung benutzerdefinierter Elemente {#custom}
 
