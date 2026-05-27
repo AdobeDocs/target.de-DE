@@ -6,7 +6,7 @@ feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 56%
 
 ---

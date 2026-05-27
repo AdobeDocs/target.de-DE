@@ -5,8 +5,8 @@ hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Für jedes Programm, das der Version hinzugefügt wird, meldet sich der Produktv
 
 Der Release Manager wählt die Zielgruppe für die Veröffentlichung aus, z. B. 1 % der Benutzer in einem bestimmten Land, alle Benutzer mit einer bestimmten E-Mail-Domain oder eine Liste bestimmter Benutzer-IDs. Nach der Konfiguration speichert und veröffentlicht der Release Manager die Version, wodurch sie für die angegebene Zielgruppe live geschaltet wird.
 
-## &#x200B;5. Erweitern und verwalten Sie den Rollout {#expand}
+## &#x200B;5. Erweitern und Verwalten des Rollouts {#expand}
 
 Nach der Live-Schaltung kann der Release-Manager die Zielgruppenregeln anpassen, um den Rollout schrittweise zu erweitern, Probleme zu überwachen und den Lebenszyklus mithilfe der Steuerelemente für den Versionsstatus zu verwalten. Weitere Informationen [&#x200B; Sie unter &#x200B;](release-states.md)Versionsstatus“.
 
