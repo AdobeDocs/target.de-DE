@@ -6,7 +6,7 @@ feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '507'
 ht-degree: 56%
 
 ---
@@ -79,7 +79,7 @@ Der [!UICONTROL Multivariate Test] (MVT) erstellt einen Seitenbericht. Anders au
    * Bild
    * Text
 
-1. Klicken Sie auf **[!UICONTROL Preview]** , [&#x200B; eine Vorschau Ihrer Erlebnisse &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Klicken Sie auf **[!UICONTROL Preview]** , [ eine Vorschau Ihrer Erlebnisse ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![Vorschau von Erlebnissen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
@@ -124,4 +124,4 @@ In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflo
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

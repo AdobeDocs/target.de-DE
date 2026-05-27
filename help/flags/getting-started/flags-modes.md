@@ -5,7 +5,7 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Verwenden Sie Targeting auf Benutzerebene, wenn Sie Folgendes tun möchten:
 * Schrittweises Rollout einer Funktion nach Prozentsatz der Benutzer
 * Optimieren Sie das Erlebnis basierend auf einzelnen Benutzerattributen (z. B. E-Mail-Domain oder Profildaten)
 
-### Einschränkungen   {#user-level-limitations}
+### Einschränkungen {#user-level-limitations}
 
 Das Targeting auf Benutzerebene ist nicht für die folgenden Szenarien konzipiert:
 
@@ -60,7 +60,7 @@ Verwenden Sie Targeting auf Organisationsebene, wenn Sie Folgendes tun möchten:
 * Durchführen eines regionalen Rollouts
 * Gate-Funktionen basierend auf der Berechtigungs- oder Abonnementebene
 
-### Einschränkungen   {#org-level-limitations}
+### Einschränkungen {#org-level-limitations}
 
 Das Targeting auf Org- und Umgebungsebene ist nicht für die folgenden Szenarien konzipiert:
 
@@ -81,6 +81,6 @@ Das Targeting auf Org- und Umgebungsebene ist nicht für die folgenden Szenarien
 ## Den richtigen Modus wählen {#choosing}
 
 * Wenn Ihre Frage *lautet: „Welche Benutzer sollten diese Funktion sehen?“* → Verwenden **Targeting auf Benutzerebene**
-* Wenn Ihre Frage *lautet: Welche Organisationen oder Umgebungen sollten diese Funktion nutzen?* → Verwenden Sie **org- und Targeting auf Umgebungsebene**
+* Wenn Ihre Frage lautet *„Welche Organisationen oder Umgebungen sollten diese Funktion nutzen?“* → Verwenden Sie **org- und Targeting auf Umgebungsebene**
 
 <!-- -->

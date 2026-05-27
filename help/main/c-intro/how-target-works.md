@@ -5,27 +5,10 @@ title: Wie funktioniert  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2363
@@ -50,19 +33,19 @@ Zu den wichtigsten Punkten gehören:
 
 Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in Websites integrieren:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
-* **[at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf die [!UICONTROL Experience Platform Web SDK] (empfohlen) oder die neueste Version von at.js.
 
-Referenzieren Sie die [!UICONTROL Experience Platform Web SDK] oder at.js auf jeder Seite Ihrer Site. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Referenzieren Sie die [!UICONTROL Experience Platform Web SDK] oder at.js auf jeder Seite Ihrer Site. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
 * [[!DNL Adobe Experience Platform Web SDK]-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=de){target=_blank}
-* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Bei jeder Besucheranforderung einer für [!DNL Target] optimierten Seite wird eine Echtzeitanforderung an das Targeting-System gesendet, um den bereitzustellenden Inhalt zu bestimmen. Diese Anfrage wird jedes Mal beim Laden einer Seite gestellt und erfüllt. Sie wird durch Aktivitäten und Erlebnisse gesteuert, die vom Marketing-Experten gesteuert werden. Inhalte sind auf individuelle Besucher der Website ausgerichtet, wodurch die Antwort- und Akquiseraten sowie der Umsatz maximiert werden. Personalisierte Inhalte helfen sicherzustellen, dass Besucher reagieren, interagieren oder Käufe tätigen.
 

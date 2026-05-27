@@ -2,13 +2,13 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie ein Adobe [!DNL Target] Recommendations-Design mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '1012'
+ht-degree: 24%
 
 ---
 
@@ -61,11 +61,11 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
    Empfehlungsentwürfe verwenden die Open-Source-[!DNL Velocity]. Informationen zu [!DNL Velocity] finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und unter [Anpassen eines Designs mithilfe von [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Designs sind für Nicht-Web-Umgebungen gedacht, in denen Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
+   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
 
    >[!NOTE]
    >
-   >Die maximale Anzahl von Entitäten, auf die in einem Design verwiesen werden kann, egal ob hartcodiert oder in Schleife, beträgt 99.
+   >Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hartcodiert oder in Schleife, beträgt 99.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -327,4 +327,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
