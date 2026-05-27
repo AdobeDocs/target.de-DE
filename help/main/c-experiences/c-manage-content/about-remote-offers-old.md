@@ -17,7 +17,7 @@ Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Adobe Target] [!DNL Tar
 
 >[!NOTE]
 >
->Remote-Angebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+>Remote-Angebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >[!DNL Target Classic] enthielt ähnliche Funktionen: [!UICONTROL Offer on Your Site] und [!UICONTROL Offer Outside Test&Target].
 
@@ -60,7 +60,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [ unter „Umleitungs-URL-Typ: zwischengespeichert ](#url-type) dynamisch“.
+   Weitere Informationen finden [&#x200B; unter „Umleitungs-URL-Typ: zwischengespeichert &#x200B;](#url-type) dynamisch“.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
@@ -86,7 +86,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [ unter „Umleitungs-URL-Typ: zwischengespeichert ](#url-type) dynamisch“.
+   Weitere Informationen finden [&#x200B; unter „Umleitungs-URL-Typ: zwischengespeichert &#x200B;](#url-type) dynamisch“.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 

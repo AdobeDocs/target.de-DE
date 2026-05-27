@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 648
@@ -39,7 +41,7 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
    Die folgende Abbildung zeigt den [!UICONTROL Front Promotion]-Umschalter in der Position „Ein“.
 
-   ![Hinzufügen von Optionen für die Vorwärts-Promotion ](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![Hinzufügen von Optionen für die Vorwärts-Promotion &#x200B;](/help/main/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    Sie können Promotions sowohl vor *als auch* nach Ihren Kriterienergebnissen einfügen.
 
@@ -61,7 +63,7 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
    * Wählen Sie **[!UICONTROL Promote a collection]** und die Sammlung von Elementen aus, die Sie hochstufen möchten.
 
-     Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) erstellen .
+     Sie können auch neue Sammlungen erstellen, die für Promotions verwendet werden sollen. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) erstellen .
 
    Wenn Sie **[!UICONTROL List of Items]** als **[!UICONTROL Promotion Type]** ausgewählt haben, können Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Randomize Item Order]** aktivieren.
 
