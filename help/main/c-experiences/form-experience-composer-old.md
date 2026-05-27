@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 37%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -42,13 +42,13 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    >[!NOTE]
    >
-   >Wenn Sie während der Erstellung einer Aktivität einen manuell eingegebenen Speicherort erstellen, wird nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Aufruf zur Inhaltsbereitstellung erfolgt. Nach der Erstellung des Speicherorts ist er zur Verwendung in anderen Aktivitäten, zur Erstellung von Zielgruppen usw. verfügbar. aus der Dropdown-Liste der verfügbaren Speicherorte.
+   >Wenn Sie während der Erstellung einer Aktivität einen manuell eingegebenen Speicherort erstellen, wird nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Aufruf zur Inhaltsbereitstellung erfolgt. Nach der Erstellung des Speicherorts ist er zur Verwendung bei anderen Aktivitäten, zur Erstellung von Zielgruppen usw. in der Dropdown-Liste der verfügbaren Speicherorte verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Add Audience Refinements]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Done]**.
 
    ![location_refinements_2 Bild](assets/location_refinements_2.png)
 
-   In der [!UICONTROL Form-based Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   In der [!UICONTROL Form-based Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
@@ -104,7 +104,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    **Angebotsentscheidung hinzufügen:**
 
-   Fügen Sie einer [!DNL Adobe Journey Optimizer]-Aktivität ein in [!DNL Adobe Target] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
+   Fügen Sie einer [!DNL Adobe Target]-Aktivität ein in [!DNL Adobe Journey Optimizer] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
 
    Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

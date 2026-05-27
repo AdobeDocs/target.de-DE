@@ -5,12 +5,8 @@ title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1040
@@ -22,7 +18,7 @@ ht-degree: 18%
 
 Verwenden Sie Remote-Angebote, um Inhalte außerhalb von [!DNL Adobe Target] zu hosten, sodass [!DNL Target] diese Inhalte referenzieren und an Benutzer-Websites bereitstellen können. Diese Inhalte können sich aus Gründen der Benutzerfreundlichkeit oder der Sicherheit in einem Content-Management-System (CMS) oder einem anderen System befinden.
 
-Remote-Angebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote im [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+Remote-Angebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote im [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 
 Einige Beispiele für Remote-Angebote sind:
 

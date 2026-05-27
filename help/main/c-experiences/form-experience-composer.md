@@ -5,13 +5,9 @@ title: Wie verwende ich den formularbasierten Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 886
@@ -43,7 +39,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    Dieser Bildschirm unterscheidet sich, wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen. [!UICONTROL Recommendations] Aktivitäten umfassen keine Erlebnisse.
 
-1. &#x200B;
+1. 
    1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:
@@ -82,7 +78,7 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
 1. Klicken Sie auf **[!UICONTROL Add Audience Refinements]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Done]**.
 
-   In der [!UICONTROL Form-based Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   In der [!UICONTROL Form-based Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
