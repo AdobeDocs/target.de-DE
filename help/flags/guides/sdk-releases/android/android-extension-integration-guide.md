@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 In diesem Handbuch wird beschrieben, wie Sie die Experience Rollout-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Stellen Sie vor der Implementierung der Experience Rollout-Erweiterung Folgendes sicher:
 
@@ -472,7 +472,7 @@ String version = Rollout.extensionVersion();
 
 ## Siehe auch {#see-also}
 
-* [Mobile Anwendungen](../../integrate/mobile-applications.md)
+* [Apps](../../integrate/mobile-applications.md)
 * [Integrationsschritte](../../integrate/integration-steps.md)
 * [SDKs](../../integrate/sdks.md)
 

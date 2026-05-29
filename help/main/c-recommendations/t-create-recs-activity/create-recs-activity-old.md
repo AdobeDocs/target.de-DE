@@ -1,14 +1,14 @@
 ---
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
-description: Adobe Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) eine Recommendations -Aktivität direkt auf einer  [!DNL Target] Seite erstellen.
+description: Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) eine Recommendations -Aktivität direkt auf einer  [!DNL Target] Seite erstellen.
 title: Wie erstelle ich eine Recommendations-Aktivität?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 56%
+source-wordcount: '1270'
+ht-degree: 55%
 
 ---
 

@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68506
+source-wordcount: 68339
 ht-degree: 50%
 
 ---
@@ -89,14 +89,6 @@ Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-int
 +++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
-
-**Integrationen**
-
-+++Details anzeigen
-
-* **[!DNL Adobe Target]in Experimentation Accelerator.** Es wurde Unterstützung für die Zuweisung [!DNL Target] Arbeitsbereiche zu Experimentation Accelerator-Sandboxes hinzugefügt, damit Teams Experimente aus [!DNL Adobe Target] in Experimentation Accelerator an einem Ort anzeigen können. [Weitere Informationen](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
 
 **Aktivitäten**
 
@@ -663,7 +655,7 @@ Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen.
 
 +++Lokalisierung
 
-* **Es wurde eine Terminologieinkonsistenz bei der Übersetzung von „Vollständige Detailansicht“ ins vereinfachte Chinesisch behoben.**
+* **Es wurde eine Terminologieinkonsistenz bei der Übersetzung von „Vollständige Detailansicht“ in vereinfachtes Chinesisch behoben**
 Zuvor wurde der Begriff „Details“ im vereinfachten Chinesisch (zh_CN) fälschlicherweise als &quot;&quot; übersetzt, was gegen etablierte Terminologieleitlinien verstößt. Dies wurde in &quot;&quot; geändert, um die Konsistenz mit der Terminologiedatenbank sicherzustellen. (TGT-53741)
 
 +++
@@ -681,7 +673,7 @@ Zuvor wurde der Begriff „Details“ im vereinfachten Chinesisch (zh_CN) fälsc
 
 * **Das Generieren von Ad-hoc-Angeboten in A[!UICONTROL utomated Personalization]-Aktivitäten führte zu Inkonsistenzen bei der Berichterstellung.** Die Verwendung der Funktion zum Generieren von Ad-hoc-Angeboten in [!UICONTROL Automated Personalization] (AP) -Aktivitäten führte zu ungenauen Berichten. Insbesondere wurden Angebots-IDs standortübergreifend wiederverwendet, was dazu führte, dass Berichtsdaten falsch zugeordnet oder überschrieben wurden. Ad-hoc-Angebote werden jetzt mit separaten Kennungen pro Standort generiert, um eine genaue Verfolgung und Berichterstellung für alle konfigurierten Erlebnisse sicherzustellen. (TGT-53757)
 * **Aktivitätsberichte konnten aufgrund eines JavaScript-Fehlers nicht geladen werden.** Kunden haben beim Zugriff auf die Registerkarte &quot;[!UICONTROL Reports]&quot; für bestimmte Aktivitäten die Meldung „Irgendetwas ist schiefgelaufen“ erhalten. Der Fehler wurde durch einen JavaScript-Ausnahmefehler verursacht: Eigenschaften von nicht definierten Inhalten können nicht gelesen werden (Lesen von „indexOf„), ausgelöst während des `getAnalyticsReportSummary` GraphQL-Aufrufs. Berichte werden jetzt korrekt geladen und die Fehlerbehandlung wurde verbessert, um ähnliche Fehler im aktualisierten Workflow für die Erstellung von Aktivitäten zu verhindern. (TGT-53797)
-* **Berichte stürzten nach der Interaktion mit der Bildlaufleiste ab.** Durch Klicken auf die Bildlaufleiste auf der Registerkarte [!UICONTROL Reports] stürzte die Seite ab, begleitet von einem JavaScript-Fehler:
+* **Berichte stürzten nach der Interaktion mit der Bildlaufleiste ab.** Klicken auf die Bildlaufleiste auf der Registerkarte &quot;[!UICONTROL Reports]&quot; führte zum Absturz der Seite, begleitet von einem JavaScript-Fehler:
   `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` Berichte werden jetzt korrekt geladen und gescrollt, ohne dass Fehler oder Abstürze ausgelöst werden. (TGT-53828)
 * **In eReports wurde die primäre Metrik nicht angezeigt.** Die primäre Metrik, die als Konversionsmetrik mithilfe einer Mbox konfiguriert wurde, fehlte in den Aktivitätsberichten. Die Suche nach Metriknamen oder Mbox-Namen führte zu keinen Ergebnissen und verhinderte die Sichtbarkeit wichtiger Leistungsdaten. Primäre Metriken werden nun korrekt auf der Registerkarte [!UICONTROL Reports] angezeigt, was eine genaue Verfolgung und Analyse der Kampagnenleistung gewährleistet. (TGT-53773)
 * **Die Registerkarte &quot;[!UICONTROL Reports]&quot; in der aktualisierten Benutzeroberfläche stürzte bei der Interaktion mit der horizontalen Bildlaufleiste ab.** Die [!UICONTROL Reports]-Ansicht stürzte zeitweise mit dem Fehler „Irgendetwas ist schiefgelaufen“ ab, wenn die horizontale Bildlaufleiste verwendet wurde, um auf Metriken außerhalb der Ansicht zuzugreifen. Die Bildlaufleiste funktioniert jetzt zuverlässig, sodass Kundinnen und Kunden alle Metriken anzeigen und analysieren können, ohne dass sie Problemumgehungen wie das Verkleinern oder Verwenden von Umschalt-Bildlauf benötigen. (TGT-53824)
@@ -1465,7 +1457,7 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 * Es wurde ein Problem behoben, bei dem das Kopieren einer vorhandenen Aktivität und das Ändern der Berichtsquelle in [!DNL Adobe Analytics] (A4T) zu einem Fehler „Ungültige Benutzereingabe“ führte. Der Fehler wurde ausgelöst, wenn bestimmte Metrikaktionen, die mit [!DNL Analytics] Reporting nicht kompatibel sind, wie `restart_same_experience`, `restart_random_experience` und `restart_new_experience`, von der ursprünglichen Aktivität beibehalten wurden. (TGT-52900)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, eine Aktivität zu erstellen oder zu speichern, wenn sie im [!UICONTROL Goals & Settings] Schritt [!DNL Adobe Analytics] (A4T) als Berichtsquelle auswählten. Das Problem trat speziell bei der Auswahl einer [!UICONTROL Custom Event]-Metrik auf (z. B. „Benutzerspezifisches Ereignis 16„), was zu folgendem Fehler führte: „Ungültige Benutzereingabe“. (TGT-52910)
-* Es wurde ein Problem behoben, bei dem Benutzer durch Klicken auf den Link &quot;[!UICONTROL View in Analytics]&quot; auf die Homepage anstelle des vorgesehenen [!DNL Analytics]-Dashboards umgeleitet wurden. (TGT-53092 und TGT-53093)
+* Es wurde ein Problem behoben, bei dem Benutzer durch Klicken auf den Link &quot;[!UICONTROL View in Analytics]&quot; auf die Homepage anstelle des vorgesehenen [!DNL Analytics]-Dashboards umgeleitet wurden. (TGT-53092 UND TGT-53093)
   <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * Ein Problem wurde behoben, dass dazu führte, dass beim Anzeigen einer [!DNL Recommendations] -Aktivität in der aktualisierten [!UICONTROL Overview]-Benutzeroberfläche der [!UICONTROL Goals & Settings]-Abschnitt nicht geladen wurde, wenn [!DNL Adobe Analytics] (A4T) als Berichtsquelle ausgewählt wurde. Die folgende Fehlermeldung wurde angezeigt: „Irgendetwas ist schiefgelaufen. Wir können Ihre Anfrage nicht bearbeiten. Wenden Sie sich an den Kundendienst von Adobe, wenn das Problem weiterhin besteht.“ (TGT-52999)
 
@@ -1879,7 +1871,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Validierungsfehler beim Erstellen von Aktivitäten aufgrund von Segment-ID-Konflikten wurden behoben. Die Fehler traten auf, als [!DNL Target] vorhandene Aktivitäten mit anonymen Segmenten erkannte. (TGT-51784)
 * Es wurde ein Problem behoben, das [!DNL Target] daran hinderte, Aktivitäten mit Ausschlussregeln in einer Zielgruppe zu speichern. (TGT-51581)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Ordner ohne Zugriff auf den Standardarbeitsbereich zu erstellen, zu löschen oder zu verschieben. (TGT-51499)
-* Es wurde ein Problem behoben, bei dem GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
+* Es wurde ein Problem behoben, das dazu führte, dass GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 (11. März 2025)
 
@@ -5624,8 +5616,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Profilskripte erstellen und bearbeiten </td> 
-   <td colname="col2"> <p>Profilskripte führen Profilattribut-„Fänger“ bei jeder mbox-Anforderung aus. Wenn eine Mbox-Anforderung empfangen wird, führt Target sämtliche relevanten Profilskripte aus, bestimmt, welche Aktivitäten ausgeführt werden sollen, zeigt Inhalte an, die für diese Aktivität und dieses Erlebnis angemessen sind, und verfolgt anschließend den Erfolg der Aktivität. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können. </p> <p>Siehe <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Profilattribute </a>. 
-     <!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>Profilskripte führen Profilattribut-„Fänger“ bei jeder mbox-Anforderung aus. Wenn eine Mbox-Anforderung empfangen wird, führt Target sämtliche relevanten Profilskripte aus, bestimmt, welche Aktivitäten ausgeführt werden sollen, zeigt Inhalte an, die für diese Aktivität und dieses Erlebnis angemessen sind, und verfolgt anschließend den Erfolg der Aktivität. Auf diese Weise können Sie Informationen über den Besuch erfassen, z. B. Ort, Tageszeit und Anzahl der Besuche auf der Site, ob zuvor ein Kauf getätigt wurde usw. Diese Informationen werden dann zum Benutzerprofil hinzugefügt, sodass Sie die Besucheraktivitäten auf Ihrer Site besser verfolgen können. </p> <p>Siehe <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">Profilattribute</a>. <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Konfidenzintervall für binäre Metriken </td> 

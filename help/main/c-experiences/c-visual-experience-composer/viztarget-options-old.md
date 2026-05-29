@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '2667'
-ht-degree: 56%
+source-wordcount: '2804'
+ht-degree: 55%
 
 ---
 
@@ -237,7 +237,7 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -269,7 +269,7 @@ Das Verhalten des eingefügten Elements hängt von der Struktur der Seite, Ihrem
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -315,7 +315,7 @@ Ein HTML-Angebot kann bis zu 256 KB groß sein.
 
 ### Empfehlung
 
-Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Schließen Sie Empfehlungen in A/B-Test- (einschließlich automatischer Zuweisung und automatischem Targeting) und Erlebnis-Targeting-Aktivitäten (XT-Aktivitäten) ein. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ### [!UICONTROL Experience Fragment]
 
@@ -345,7 +345,7 @@ Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zur Option [!UICONTROL Re
 
 In bestimmten Situationen, z. B. wenn eine CSS-Einschränkung erfordert, dass ein Element innerhalb seines übergeordneten Elements bleibt, können Sie das Element nicht aus seinem übergeordneten Element verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
-Weitere Informationen über inkonsistentes Verhalten bei den [!UICONTROL Rearrange]- und [!UICONTROL Move]-Aktionen aufgrund von verzögertem Laden von DOM-Elementen finden Sie oben unter [!UICONTROL Rearrange] .
+Weitere Informationen über inkonsistentes Verhalten bei den [!UICONTROL Move]- und [!UICONTROL Rearrange]-Aktionen aufgrund von verzögertem Laden von DOM-Elementen finden Sie oben unter [!UICONTROL Rearrange] .
 
 ### [!UICONTROL Hide]
 

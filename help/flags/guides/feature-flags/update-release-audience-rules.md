@@ -5,7 +5,7 @@ hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,7 @@ Targeting aller Benutzer, deren E-Mail-Adresse zu einer bestimmten Domain gehör
 
 Targeting von Benutzern basierend auf ihrer Client-IP-Adresse.
 
-### Prozentsatz {#percentage}
+### Prozent {#percentage}
 
 Targeting eines zufälligen Prozentsatzes aller Benutzer, einschließlich nicht authentifizierter Benutzer.
 
