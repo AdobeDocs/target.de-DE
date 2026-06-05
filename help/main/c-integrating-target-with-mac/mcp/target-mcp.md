@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Target] MCP-Server {#target-mcp}
 
-Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests und Personalisierungsaktivitäten direkt von Ihrem KI-Assistenten aus überprüfen und analysieren. Verwandeln Sie die Experimentier- und Personalisierungsdaten von [!DNL Target] in Nur-Sprache-Workflows. Überprüfen Sie Ihr Experimentierportfolio, überprüfen Sie Leistungsberichte und erkunden Sie Zielgruppen und Angebote, ohne in der Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
+Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests und Personalisierungsaktivitäten direkt von Ihrem KI-Assistenten aus überprüfen, analysieren und verwalten. Verwandeln Sie die Experimentier- und Personalisierungsdaten von [!DNL Target] in fremdsprachige Workflows. Überprüfen Sie Ihr Experimentierportfolio, überprüfen Sie Leistungsberichte, erkunden Sie Zielgruppen und Angebote, erstellen Sie Aktivitäten und nehmen Sie Aktualisierungen vor, ohne in der Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
 
 >[!AVAILABILITY]
 >
@@ -41,20 +41,17 @@ Marketing- und Optimierungsteams verlassen sich zunehmend auf Chat-basierte Anwe
 
 ## Wichtigste Funktionen {#mcp-capabilities}
 
-Der [!DNL Adobe Target] MCP-Server bietet Lesezugriff auf Aktivitäten, Zielgruppen, Angebote und die Implementierungskonfiguration. Mit der Integration können Sie:
+Der [!DNL Adobe Target] MCP-Server bietet Lese- und Schreibzugriff auf Aktivitäten, Zielgruppen, Angebote und die Implementierungskonfiguration. Mit der Integration können Sie:
 
 * **Experimente überprüfen und überprüfen** - Sie erhalten Links zu Status, Leistung, Änderungsverlauf und QA-Vorschau für jede Aktivität, ohne in der Benutzeroberfläche zu navigieren.
 * **Ergebnisse analysieren** - Abrufen von Performance-, Umsatz- und A4T-Berichten für A/B-, XT-, AP- und Auto-Target-Aktivitäten.
 * **Aktivitäten erkunden** - Auflisten, Überprüfen und Analysieren von A/B- und XT-Aktivitäten.
-* **Erkunden von Zielgruppen und Angeboten** - Auflisten und Überprüfen von Zielgruppen, HTML-Angeboten und JSON-Angeboten.
+* **Aktivitäten erstellen und aktualisieren** - Erstellen Sie neue A/B- und Experience Targeting-Aktivitäten, aktualisieren Sie Konfigurationen, verwalten Sie Traffic-Aufspaltungen, fügen Sie Varianten hinzu oder entfernen Sie sie und steuern Sie den Aktivitätsstatus (aktivieren, pausieren, deaktivieren).
+* **Erkunden und Verwalten von Zielgruppen und Angeboten** - Auflisten, Überprüfen, Erstellen und Aktualisieren von Zielgruppen, HTML-Angeboten und JSON-Angeboten.
 <!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
 * **Audit-Implementierung** - Überprüfen Sie at.js-Einstellungen, Antwort-Token und den Revisionsverlauf pro Entität.
 
->[!NOTE]
->
->Schreib-Tools (Erstellen, Aktualisieren, Aktivieren, Deaktivieren) werden nicht über den öffentlichen MCP-Katalog in **Public Beta&quot;**. Alle derzeit verfügbaren Tools sind schreibgeschützt. Der Schreibzugriff wird in einer zukünftigen Version verfügbar sein.
-
-Der [!DNL Adobe Target] MCP-Server stellt 23 schreibgeschützte Tools in 10 Kategorien zur Verfügung - von der Aktivitätsprüfung und Berichterstellung bis zur Untersuchung von Zielgruppen und QS-Vorschauen. Die vollständige Parameterreferenz finden Sie unter [MCP Server Tools-Referenz](target-mcp-tools-reference.md).
+Der [!DNL Adobe Target] MCP-Server stellt 41 Tools in 10 Kategorien zur Verfügung - von der Aktivitätserstellung und Berichterstellung über die Verwaltung von Zielgruppen bis hin zur QS-Vorschau. Die vollständige Parameterreferenz finden Sie unter [MCP Server Tools-Referenz](target-mcp-tools-reference.md).
 
 Informationen zu den Funktionen des [!DNL Adobe Target] MCP-Servers, einschließlich schrittweiser Anleitungen zu Eingabeaufforderungen, finden Sie unter [Anwendungsfälle und Anleitungen](target-mcp-use-cases.md).
 
@@ -69,12 +66,12 @@ Der [!DNL Adobe Target] MCP-Server ist derzeit verfügbar für **Claude Web**, *
 
 +++Auf welche [!DNL Adobe Target] Objekte kann ich über MCP zugreifen?
 
-Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Antwort-Token, at.js-Konfiguration, A4T-Berichte und den Überarbeitungsverlauf der Entität zugreifen. Alle 23 derzeit verfügbaren Tools sind schreibgeschützt.
+Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Antwort-Token, at.js-Konfiguration, A4T-Berichte und den Überarbeitungsverlauf der Entität zugreifen und diese verwalten. Der MCP-Server umfasst 41 Tools, die Lese- und Schreibvorgänge abdecken.
 +++
 
 +++Kann der MCP-Server Aktivitäten erstellen oder ändern?
 
-Nicht in der öffentlichen Beta. Der öffentliche MCP-Katalog stellt derzeit 23 schreibgeschützte Tools bereit. Schreibvorgänge (Erstellen, Aktualisieren, Aktivieren, Deaktivieren) sind noch nicht über den öffentlichen MCP-Server verfügbar. Der Schreibzugriff wird in einer zukünftigen Version verfügbar sein.
+Ja. Der MCP-Server unterstützt Schreibvorgänge, darunter das Erstellen von A/B- und Erlebnis-Targeting-Aktivitäten, das Aktualisieren von Aktivitätskonfigurationen, das Verwalten von Traffic-Aufspaltungen, das Hinzufügen oder Entfernen von Varianten sowie das Aktivieren, Anhalten und Deaktivieren von Aktivitäten. Für Schreibvorgänge ist die Editor-Rolle oder eine höhere Rolle erforderlich. Für die Aktivierung und Deaktivierung ist die Rolle der genehmigenden Person erforderlich.
 +++
 
 +++Benötige ich Entwicklerzugriff, um den MCP-Server zu verwenden?
@@ -89,12 +86,12 @@ Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?
 
-Schreib-Tools sind nicht über den öffentlichen MCP-Katalog in Public Beta verfügbar. Alle 23 derzeit verfügbaren Tools sind schreibgeschützt. Wenn Schreib-Tools in einer zukünftigen Version eingeführt werden, enthalten sie Sicherheitsanmerkungen und Bestätigungs-Gates, sodass keine zustandsändernde Aktion ohne explizite Benutzerbestätigung ausgeführt wird.
+Schreib-Tools beinhalten Sicherheitsanmerkungen und Bestätigungs-Gates, sodass keine zustandsändernde Aktion ohne explizite Benutzerbestätigung ausgeführt wird. Adobe empfiehlt, Integrationen in einer Sandbox-Umgebung zu testen, bevor Sie Schreib-Tools in der Produktion verwenden, und alle MCP-initiierten Aktionen sorgfältig zu überprüfen, bevor Sie sie bestätigen.
 +++
 
 +++Welche Berechtigungen benötige ich in [!DNL Adobe Target]?
 
-**Beobachterrolle** oder höher gewährt Zugriff auf alle 23 schreibgeschützten Tools, die in Public Beta verfügbar sind. Schreibwerkzeuge werden noch nicht über den öffentlichen MCP-Katalog verfügbar gemacht, sodass die Berechtigungen für Editor und Genehmiger derzeit keine zusätzlichen MCP-Werkzeuge freischalten. Wenden Sie sich an Ihren [!DNL Adobe Target], wenn Sie sich bezüglich Ihrer aktuellen Zugriffsebene nicht sicher sind.
+**Beobachterrolle** oder höher gewährt Zugriff auf alle schreibgeschützten Tools. **Editor** Rolle oder höher ist für Schreib-Tools (Erstellen, Aktualisieren) erforderlich. **Genehmiger**-Rolle ist für Tools zur Statusänderung erforderlich (aktivieren, deaktivieren). Wenden Sie sich an Ihren [!DNL Adobe Target], wenn Sie sich bezüglich Ihrer aktuellen Zugriffsebene nicht sicher sind.
 +++
 
 +++Kann ich den MCP-Server für mehrere Target-Organisationen oder -Eigenschaften verwenden?

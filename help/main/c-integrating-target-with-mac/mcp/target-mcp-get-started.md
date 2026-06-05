@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, s
 
 * Sie besitzen eine aktive [!DNL Adobe Target]-Lizenz (Adobe Experience Cloud-Abonnement) bei einem Adobe Experience Platform-Unternehmen.
 * Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code, Cursor oder ChatGPT).
-* Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert. In Public Beta sind alle 23 verfügbaren Tools schreibgeschützt. **Beobachterrolle** oder höher ist ausreichend, um den MCP-Server zu verwenden.
-
->[!NOTE]
->
->Schreib-Tools (Erstellen, Aktualisieren, Aktivieren, Deaktivieren) werden nicht über den öffentlichen MCP-Katalog in Public Beta bereitgestellt. Mit den Rollenberechtigungen „Bearbeiter“ und „Genehmiger“ können derzeit keine zusätzlichen Tools entsperrt werden. Der Schreibzugriff wird in einer zukünftigen Version verfügbar sein.
+* Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert. Die erforderliche Rolle hängt von den Vorgängen ab, die Sie ausführen möchten:
+   * **Beobachterrolle** oder höher: Zugriff auf alle schreibgeschützten Tools (Überprüfung, Bericht, Audit)
+   * **Editor** Rolle oder höher: Zugriff auf Lese- und Schreib-Tools (Erstellen, Aktualisieren)
+   * **Genehmiger** Rolle: Zugriff auf alle Tools, einschließlich Aktivierung und Deaktivierung
 
 ## MCP-Server [!DNL Adobe Target] {#mcp-connect}
 
@@ -113,7 +112,7 @@ Schließen Sie den OAuth-Browser-Fluss ab, wenn Sie bei der ersten Verwendung da
 
 +++Ein Tool gibt eine Fehlermeldung zurück
 
-1. Überprüfen Sie, ob **Beobachter** oder höher in [!DNL Adobe Target] ist (siehe [Voraussetzungen](#mcp-prerequisites)).
+1. Stellen Sie sicher, dass Sie über die erforderliche Rolle in [!DNL Adobe Target] für den Vorgang verfügen, den Sie ausführen (siehe [Voraussetzungen](#mcp-prerequisites)). Schreibgeschützte Tools erfordern einen Beobachter (Observer) oder höher; Schreibwerkzeuge erfordern einen Editor (Editor) oder höher; Aktivierung und Deaktivierung erfordern eine genehmigende Person.
 1. Überprüfen Sie, ob die referenzierten Ressourcen - Aktivitäten, Angebote, Zielgruppen - in Ihrer Organisation vorhanden sind.
 1. Überprüfen Sie, ob Aktivitäts-IDs und andere Kennungen korrekt sind.
 +++
