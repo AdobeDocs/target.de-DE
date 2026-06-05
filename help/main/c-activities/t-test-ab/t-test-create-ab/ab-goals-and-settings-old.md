@@ -87,4 +87,4 @@ In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung e
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)

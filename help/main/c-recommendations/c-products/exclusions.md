@@ -84,4 +84,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35308?captions=ger)

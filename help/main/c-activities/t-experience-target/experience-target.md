@@ -49,4 +49,4 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit Erlebnis[!UICONTROL Targ
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)

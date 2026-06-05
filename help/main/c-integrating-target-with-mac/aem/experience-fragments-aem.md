@@ -181,7 +181,7 @@ Weitere Informationen finden Sie im folgenden Blogpost: [AEM 6.5: Removing clien
 
 Das folgende Video zeigt Ihnen, wie Sie (Experience Fragments[!UICONTROL &#x200B; einrichten und &#x200B;]:
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38083?captions=ger)
 
 >[!NOTE]
 >

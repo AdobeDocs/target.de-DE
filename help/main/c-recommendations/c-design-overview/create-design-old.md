@@ -327,4 +327,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)

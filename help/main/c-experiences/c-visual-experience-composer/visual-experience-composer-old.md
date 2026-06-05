@@ -113,7 +113,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)
 
 ### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
 
 ### Office Hours: Visual Experience Composer ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

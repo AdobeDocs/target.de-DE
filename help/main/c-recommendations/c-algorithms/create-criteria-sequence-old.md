@@ -95,4 +95,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35312?captions=ger&quality=12)
