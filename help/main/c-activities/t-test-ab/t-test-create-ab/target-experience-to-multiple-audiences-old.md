@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Sie können mehrere Zielgruppen für ein Erlebnis im [!UICONTROL Visual Experience Composer] (VEC) oder im formularbasierten Experience Composer einrichten.
+Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Im [!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer ] Sie mehrere Zielgruppen für ein Erlebnis einrichten.
 
 Besucher können bei Profiländerungen zwischen Erlebnis-Audiences wechseln. Besucher bleiben nicht für die gesamte Lebensdauer der Aktivität im gleichen Erlebnis stecken.
 
@@ -33,11 +33,11 @@ In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Si
 
    Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
 
-1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Zielgruppen]** > **[!UICONTROL Mehrere Zielgruppen]**.
 
    ![Option „Mehrere Zielgruppen“](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Klicken Sie auf **[!UICONTROL Add Audience]** und wählen Sie dann die erste Audience aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
+1. Klicken Sie **[!UICONTROL Zielgruppe hinzufügen]** und wählen Sie dann die erste Zielgruppe aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
    ![exp-versions image](assets/exp-versions.png)
 
@@ -47,7 +47,7 @@ In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Si
 
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 
-## Best Practices  
+## Best Practices
 
 * Wählen Sie sich gegenseitig ausschließende Zielgruppen. Wenn die Aktivität in VEC erstellt wurde und ein Besucher mit mehr als einer Zielgruppe übereinstimmt, wird der Inhalt für jede Zielgruppe zurückgegeben, wobei der Inhalt für die aufgelistete Zielgruppe zuletzt auf der Seite angezeigt wird.
 * Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.

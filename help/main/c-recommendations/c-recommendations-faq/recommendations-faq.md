@@ -2,18 +2,15 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
 description: Eine Liste der häufig gestellten Fragen und Antworten zu - [!DNL Target Recommendations] .
 title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3578
 ht-degree: 80%
 
 ---
@@ -24,13 +21,13 @@ Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommen
 
 ## Werden [!DNL Recommendations] über die API erstellten Objekte in der [!DNL Target]-Benutzeroberfläche angezeigt?
 
-Ja, [!UICONTROL Recommendations] Objekte ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] und [!UICONTROL Exclusions]), die über die API erstellt wurden, sind in der Benutzeroberfläche verfügbar und können über die API oder [!DNL Target] Benutzeroberfläche bearbeitet werden.
+Ja, [!UICONTROL Recommendations]-Objekte ([!UICONTROL Kriterien], [!UICONTROL Designs], [!UICONTROL Sammlungen] und [!UICONTROL Ausschlüsse]), die über die API erstellt wurden, sind in der Benutzeroberfläche verfügbar und können über die API oder [!DNL Target] Benutzeroberfläche bearbeitet werden.
 
 ## Kann ich [!DNL Target] von der Benutzeroberfläche erstellten visuellen Angebote mit den [!DNL Target]-APIs verwalten?
 
-Nein. [!DNL Recommendations] Aktivitäten mit visuellen Angeboten, die in der [!DNL Target]-Benutzeroberfläche erstellt wurden, können mit den [!DNL Target]-APIs nicht verwaltet werden. Obwohl diese Aktivitäten in der [!UICONTROL Activities] angezeigt werden, können Sie sie nicht lesen oder aktualisieren (mit GET/PUT).
+Nein. [!DNL Recommendations] Aktivitäten mit visuellen Angeboten, die in der [!DNL Target]-Benutzeroberfläche erstellt wurden, können mit den [!DNL Target]-APIs nicht verwaltet werden. Obwohl diese Aktivitäten in der Liste [!UICONTROL Aktivitäten] angezeigt werden, können Sie sie nicht lesen oder aktualisieren (mit GET/PUT).
 
-## Warum zeigt [!UICONTROL Catalog Search] nicht die richtigen Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
+## Warum zeigt [!UICONTROL Katalogsuche] falsche Ergebnisse an, wenn ich nach einem benutzerdefinierten Attribut mit einem numerischen Wert suche?
 
 Wenn Sie einen Katalog nach einem benutzerdefinierten Attribut mit einem numerischen Wert durchsuchen, wird das benutzerdefinierte Attribut als String-Typ (Zeichenfolge) und nicht als numerischer Wert betrachtet.
 
@@ -68,7 +65,7 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 >
 >Eine Feed-Datei wird als importiert erachtet, wenn sich ihr Status von „Elemente werden importiert“ in „Aktualisierungen des Suchindex werden vorbereitet“ ändert. Es kann mehr als 60 Minuten dauern, bis Aktualisierungen in der Benutzeroberfläche der Katalogsuche angezeigt werden. Die Katalogsuche ist aktuell, wenn sich der Feedstatus in „Aktualisierungen abgeschlossen“ ändert. Selbst wenn die Katalogsuche noch nicht aktuell ist, zeigt Ihre Site Aktualisierungen innerhalb der oben aufgeführten Zeitrahmen an. Auf der Seite „Katalogsuche“ wird die aktuelle Indexaktualisierungszeit der Katalogsuche angezeigt.
 
-## Wie lange dauert es, bis eine Konfigurationsänderung meiner [!UICONTROL Recommendations] Aktivitäts-, Angebots-, Promotion- oder Kriterieneinstellungen auf meiner Site wirksam ist?
+## Wie lange dauert es, bis eine Konfigurationsänderung meiner Einstellungen für [!UICONTROL Recommendations] Aktivitäten, Angebote, Promotions oder Kriterien auf meiner Site wirksam wird?
 
 * Eine Änderung der Promotion-Einstellungen kann bis zu fünf Stunden dauern, bis sie auf der Website angezeigt wird.
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
@@ -109,25 +106,25 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >
->Diese Einstellung gilt nur für Aktivitäten, die in der [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
+>Diese Einstellung gilt nur für Aktivitäten, die in [!UICONTROL Visual Experience Composer] (VEC) erstellt wurden. Sie gilt nicht für Aktivitäten, die im Formular-basierten Experience Composer erstellt wurden ([!DNL Target] verfügt über keinen Speicherortkontext).
 
-Um auf die [!UICONTROL Filter Incompatible Criteria] zuzugreifen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Settings]:
+Wenn Sie auf die Einstellung [!UICONTROL Inkompatible Kriterien filtern] zugreifen möchten, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Einstellungen]:
 
 ![recs_settings_filter Bild](assets/recs_settings_filter.png)
 
-Wenn die [!UICONTROL Filter Incompatible Criteria] NICHT aktiviert ist, filtert [!DNL Target] Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.
+Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] NICHT aktiviert ist, filtert [!DNL Target] Algorithmen im Algorithmus-Wähler nicht, und es werden alle Algorithmen angezeigt.
 
-Wenn die [!UICONTROL Filter Incompatible Criteria] aktiviert ist, liest [!DNL Target] in VEC-Aktivitäten die entityId- und Kategorie-ID-Einträge aus dem ausgewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (wenn für den jeweiligen Speicherort entsprechende Werte vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
+Wenn die Einstellung [!UICONTROL Inkompatible Kriterien filtern] aktiviert ist, liest [!DNL Target] in VEC-Aktivitäten die entityId- und Kategorie-ID-Einträge aus dem ausgewählten Speicherort und zeigt dann Algorithmen basierend auf `currentItem|currentCategory` an (wenn für den jeweiligen Speicherort entsprechende Werte vorhanden sind). Daraufhin werden im Algorithmus-Wähler standardmäßig nur kompatible Algorithmen für den gewählten Speicherort angezeigt.
 
-Wenn die [!UICONTROL Filter Incompatible Criteria] aktiviert ist, können Sie weiterhin nicht kompatible Algorithmen anzeigen, indem Sie beim Auswählen von Kriterien das Kontrollkästchen [!UICONTROL Compatible] deaktivieren.
+Bei aktivierter Einstellung [!UICONTROL Inkompatible Kriterien filtern] können Sie nichtkompatible Algorithmen trotzdem anzeigen, indem Sie beim Auswählen von Kriterien das Kontrollkästchen [!UICONTROL Kompatibel] deaktivieren.
 
 ![COMPATIBLE_CHECKBOX image](assets/compatible_checkbox.png)
 
-Die folgende Liste enthält Sonderfälle, in denen [!DNL Target] das Kontrollkästchen [!UICONTROL Compatible] nicht anzeigt:
+Die folgende Liste enthält Sonderfälle, in denen [!DNL Target] das Kontrollkästchen [!UICONTROL Kompatibel] nicht anzeigt:
 
 * Der Speicherort enthält sowohl entityId- als auch Kategorie-ID-Einträge. In diesem Fall erfolgt keine Filterung.
 * Sie verwenden [!DNL mbox.js] der Version 55 oder früher.
@@ -206,9 +203,9 @@ Stellen Sie sicher, dass die Zielgruppe einen eindeutigen Namen aufweist. Wenn S
 
 Es gibt keine feste Grenze hinsichtlich der Zeilen oder Dateigröße für den Feedupload von CSV-Dateien. Als Best Practice empfiehlt Adobe jedoch, die CSV-Datei auf 1 GB zu beschränken, um Fehler während des Uploadprozesses zu vermeiden. Wenn die Größe der Datei 1 GB übersteigt, teilen Sie sie am besten in mehrere Feeddateien auf. Die maximale Anzahl benutzerdefinierter Attributspalten ist 100 und benutzerdefinierte Attribute sind auf 4.096 Zeichen beschränkt. Weitere Längenbeschränkungen für erforderliche Spalten finden Sie auf der Seite [[!DNL Target] Beschränkungen](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
-## Warum schlägt meine [!UICONTROL Download data] Aktion in einer [!DNL Recommendations] fehl? {#download-data-error}
+## Warum schlägt meine Aktion [!UICONTROL Daten herunterladen] in einer [!DNL Recommendations] Aktivität fehl? {#download-data-error}
 
-Wenn Sie auf der [!UICONTROL Activity Overview] einer [!DNL Recommendations] Aktivität auf **[!UICONTROL Download data]** klicken, zeigt die [!DNL Target] Benutzeroberfläche möglicherweise die `Error while fetching recommendation data file.` an
+Wenn Sie auf der Seite [!UICONTROL Aktivitätsübersicht] einer [!DNL Recommendations] Aktivität auf **[!UICONTROL Daten herunterladen]** klicken, wird auf der [!DNL Target] Benutzeroberfläche möglicherweise der Fehler `Error while fetching recommendation data file.` angezeigt
 
 Dies geschieht in der Regel, wenn die Aktivität einen sehr großen Ergebnissatz hat: Die generierte CSV-Datei überschreitet die Antwortgröße, die über die Benutzeroberfläche in einem einzigen Download zurückgegeben werden kann. Die Empfehlungsdaten selbst sind intakt, nur der In-Browser-Download-Pfad kann keine Datei dieser Größe bereitstellen.
 
@@ -298,7 +295,7 @@ Einige Kunden möchten sicherstellen, dass in Medien und Veröffentlichungen emp
 
 ### Welche Probleme sind bei der Verwendung von [!DNL Recommendations] bekannt?
 
-Die folgenden Probleme bei [!UICONTROL Recommendations] Aktivitäten sind bekannt:
+Die folgenden Probleme bei [!UICONTROL Recommendations]-Aktivitäten sind bekannt:
 
 * Wenn [!DNL Target] ein JSON-Angebot mit getOffer() zurückgibt, wird der JSON-Typ zurückgegeben. Ein JSON Recommendations-Design hingegen wird mit einem HTML-Typ zurückgegeben.
 * Abgelaufene Entitäten verlieren ordnungsgemäß die Gültigkeit, wenn innerhalb von 60 Tagen keine Updates per Feed oder API empfangen werden. Die abgelaufenen Entitäten werden jedoch nach ihrem Ablauf nicht aus dem Katalogsuchindex entfernt. Entitäten, die über Feed oder API gelöscht wurden, werden derzeit auch nicht aus dem Katalogsuchindex entfernt. (IRI-857)

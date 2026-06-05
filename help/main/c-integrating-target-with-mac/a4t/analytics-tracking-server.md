@@ -5,20 +5,14 @@ title: Wie verwende ich einen Analytics-Tracking-Server?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +22,7 @@ Wenn Sie eine ältere Version von at.js verwenden, müssen Sie einen [!DNL Analy
 
 >[!NOTE]
 >
->Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Goals & Settings] leer lassen.
+>Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 >
 >Das [!DNL Target]-Team unterstützt sowohl at.js 1.*x* als auch at.js 2.*x*. Aktualisieren Sie auf die neueste Version einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
@@ -40,9 +34,9 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Öffnen Sie auf der Seite, auf der Sie eine Aktivität erstellen, die [!DNL Adobe Experience Platform Debugger].
 
-   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=de).
+   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
-1. Klicken Sie im linken Navigationsmenü auf **[!UICONTROL Analytics]** .
+1. Klicken **[!UICONTROL im]** Navigationsmenü auf „Analytics“.
 
    ![screen_debuggerTrackServ image](assets/Screen_DebuggerTrackServ.png)
 
@@ -54,11 +48,11 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Kopieren Sie den Inhalt des Felds vollständig.
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Reporting Settings]** des Bildschirms **[!UICONTROL Goal & Settings]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking Server]** ein.
+1. Fügen Sie **[!UICONTROL Abschnitt &quot;]**&quot; des Bildschirms **[!UICONTROL Ziel und Einstellungen]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking-Server]** ein.
 
    >[!NOTE]
    >
-   >Wählen Sie [!UICONTROL Analytics as the Reporting Source] für Ihre Aktivität aus, damit das Feld [!UICONTROL Tracking Server] verfügbar ist.
+   >Wählen Sie [!UICONTROL Analytics als Reporting-Source] aus, damit Ihre Aktivität für das Feld [!UICONTROL Tracking-Server] verfügbar ist.
 
 ## Abrufen des [!DNL Analytics] Tracking-Servers mit den Entwickler-Tools Ihres Browsers
 
@@ -68,7 +62,7 @@ Die Entwickler-Tools sollten auf einer Seite angezeigt werden, auf der die Aktiv
 
    ![Chrome-Entwickler-Tools](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Network]** .
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Netzwerk“.
 
 1. Filtern Sie nach `/ss,`, um die [!DNL Analytics] anzuzeigen.
 
@@ -82,8 +76,8 @@ Die Entwickler-Tools sollten auf einer Seite angezeigt werden, auf der die Aktiv
 
 1. Kopieren Sie den Inhalt des Felds vollständig.
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Reporting Settings]** des Bildschirms **[!UICONTROL Goal & Settings]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking Server]** ein.
+1. Fügen Sie **[!UICONTROL Abschnitt &quot;]**&quot; des Bildschirms **[!UICONTROL Ziel und Einstellungen]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking-Server]** ein.
 
    >[!NOTE]
    >
-   >Wählen Sie [!UICONTROL Analytics as the Reporting Source] für Ihre Aktivität aus, damit das Feld [!UICONTROL Tracking Server] verfügbar ist.
+   >Wählen Sie [!UICONTROL Analytics als Reporting-Source] aus, damit Ihre Aktivität für das Feld [!UICONTROL Tracking-Server] verfügbar ist.

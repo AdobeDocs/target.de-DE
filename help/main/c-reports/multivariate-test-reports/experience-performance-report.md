@@ -5,24 +5,20 @@ title: Wie verwende ich den Experience Performance-Bericht für Multivarianz-Tes
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# [!UICONTROL Experience Performance] (MVT)
+# [!UICONTROL Experience Performance]-Bericht (MVT)
 
-Der [!UICONTROL Experience Performance] Bericht zeigt die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
+Der [!UICONTROL Erlebnisleistung] Bericht zeigt die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 
-Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Preview]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
+Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 
@@ -44,4 +40,4 @@ Unter dem Diagramm zeigt eine Tabelle an, wie viele Teilnehmer die einzelnen Erl
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein Multivarianz-Test erstellt wird. Der Experience Performance-Bericht wird ab 8.:20 beschrieben.
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

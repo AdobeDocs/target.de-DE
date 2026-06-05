@@ -1,13 +1,13 @@
 ---
 keywords: Vorlagentests;Vorlage;gleiches Erlebnis auf ähnlichen Seiten;Vorlagentest
-description: Adobe Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) dasselbe Erlebnis auf mehreren Seiten einbinden können, die ähnlich strukturiert sind oder dieselben Vorlagenelemente enthalten.
+description: Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) dasselbe Erlebnis auf mehreren Seiten einbinden können, die ähnlich strukturiert sind oder dieselben Vorlagenelemente enthalten.
 title: Kann ich dasselbe Erlebnis auf ähnlichen Seiten verwenden?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 34%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,11 +32,11 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
 1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
 
-1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt werden soll, klicken Sie im [!UICONTROL Visual Experience Composer] (VEC) auf das Zahnradsymbol und wählen Sie dann **[!UICONTROL Page Delivery]** aus.
+1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt werden soll, klicken Sie im [!UICONTROL Visual Experience Composer] (VEC) auf das Zahnradsymbol und wählen Sie **[!UICONTROL Seitenbereitstellung]** aus.
 
    ![Zahnradsymbol > Seitenbereitstellung](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Klicken Sie auf **[!UICONTROL Add Template Rule]** und geben Sie dann die Kriterien für die Seiten an, denen Sie das Erlebnis hinzufügen möchten.
+1. Klicken Sie **[!UICONTROL Vorlagenregel hinzufügen]** und geben Sie dann die Kriterien für die Seiten an, denen Sie das Erlebnis hinzufügen möchten.
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
@@ -60,7 +60,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
 1. Geben Sie die Zeichenfolge ein, über die definiert wird, wo das Erlebnis hinzugefügt wird, wie die Domain oder die im Seitennamen enthaltenen Zeichenfolgen.
 
-   Wenn Sie beispielsweise **[!UICONTROL Domain]** und **[!UICONTROL Is (case sensitive)]** auswählen, geben Sie die Domain ein, zu der das Erlebnis zu allen Seiten hinzugefügt werden soll.
+   Wenn Sie beispielsweise **[!UICONTROL Domain]** und **[!UICONTROL Ist (Groß- und Kleinschreibung berücksichtigen)]**, geben Sie die Domain ein, zu der das Erlebnis zu allen Seiten hinzugefügt werden soll.
 
    Sie können mehrere Elemente hinzufügen.
 
@@ -68,7 +68,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
    >
    >Mehrere Elemente verwenden die OR-Logik, d. h. jedes einzelne Element in der Liste macht die Bedingung wahr.
 
-1. Geben Sie bei Bedarf zusätzliche Kriterien ein, indem Sie auf **[!UICONTROL Add Template Rule]** klicken und den Vorgang in den vorherigen Schritten wiederholen.
+1. Geben Sie bei Bedarf zusätzliche Kriterien ein, indem Sie auf **[!UICONTROL Vorlagenregel hinzufügen]** klicken und das Verfahren in den vorherigen Schritten wiederholen.
 
    Mehrere Kriterien werden mit der UND-Logik verbunden. [!DNL Target] fügt das Erlebnis allen Seiten hinzu, die den angegebenen Kriterien entsprechen.
 
@@ -90,11 +90,11 @@ Sie können in Erwägung ziehen, Vorlagenregeln zu verwenden, um dieselbe Aktivi
 
 1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
 
-1. Um die Domain anzugeben, in der das Erlebnis angezeigt werden soll, klicken Sie in Visual Experience Composer auf das Zahnradsymbol und wählen Sie dann **[!UICONTROL Page Delivery]** aus.
+1. Um die Domain anzugeben, in der das Erlebnis angezeigt werden soll, klicken Sie in Visual Experience Composer auf das Zahnradsymbol und wählen Sie **[!UICONTROL Seitenbereitstellung]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Klicken Sie **[!UICONTROL Vorlagenregel hinzufügen]** > **[!UICONTROL Domain]**.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Choose evaluator]** die Option **[!UICONTROL Contains]** aus und geben Sie dann die Domain an.
+1. Wählen Sie in **[!UICONTROL Dropdown-]** „Evaluator auswählen“ die Option **[!UICONTROL Enthält]** und geben Sie dann die Domain an.
 
    ![Domain enthält](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
@@ -107,4 +107,4 @@ Sie können in Erwägung ziehen, Vorlagenregeln zu verwenden, um dieselbe Aktivi
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

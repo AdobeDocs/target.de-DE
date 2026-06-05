@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 45%
+source-wordcount: '1210'
+ht-degree: 44%
 
 ---
 
@@ -19,7 +19,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in Ajax-Mboxes (`mboxUpdate`) verwendet werden.
 >
@@ -35,11 +35,11 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 ## Erstellen eines Umleitungsangebots über die Seite „Code-Angebote“
 
-1. Klicken Sie auf **[!UICONTROL Offers]** und wählen Sie dann die Registerkarte **[!UICONTROL Code Offers]** aus.
+1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
 
    ![Registerkarte „Angebote codieren“](/help/main/c-experiences/c-manage-content/assets/offers-code-offers.png)
 
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. Klicken Sie **[!UICONTROL Erstellen]** > **[!UICONTROL Umleitungsangebot]**.
 
    ![Dialogfeld „Umleitungsangebot erstellen“](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
@@ -63,7 +63,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
      Wenn Sie die Einrichtung von Erstanbieter- und Drittanbieter-Cookies verwenden, müssen Sie bei der Domain-übergreifenden Verwendung die Sitzungs-ID der Mbox nicht übergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
@@ -71,15 +71,15 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 ## Erstellen eines Umleitungsangebots mit dem formularbasierten Experience Composer
 
-1. Wählen Sie beim Erstellen einer Aktivität mit [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, um den Abschnitt &quot;**[!UICONTROL Content]**&quot; anzuzeigen.
+1. Wählen Sie beim Erstellen einer Aktivität mit [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, an dem der Abschnitt **[!UICONTROL Inhalt]** angezeigt werden soll.
 
    ![Inhaltsabschnitt in Form-Based Experience Composer](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
 
-1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Default Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
+1. Klicken Sie auf die **[!UICONTROL Standardinhalt]** Dropdown-Liste und dann auf **[!UICONTROL Umleitungsangebot ändern]**.
 
    ![Option „Umleitungsangebot ändern“](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
 
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. Klicken Sie **[!UICONTROL Erstellen]** > **[!UICONTROL Umleitungsangebot]**.
 
    ![Dialogfeld „Umleitungsangebot erstellen“](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
@@ -103,7 +103,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
      Wenn Sie die Einrichtung von Erstanbieter- und Drittanbieter-Cookies verwenden, müssen Sie bei der Domain-übergreifenden Verwendung die Sitzungs-ID der Mbox nicht übergeben. Sie bleibt beim Drittanbieter-Cookie erhalten, deshalb ist sie in der URL nicht erforderlich.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
@@ -111,21 +111,21 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 ## Verwenden von Umleitungsangeboten in -Aktivitäten
 
-Sie müssen Umleitungsangebote mithilfe der [!UICONTROL Form-Based Experience Composer] anwenden. Umleitungsangebote können derzeit nicht mit dem VEC angewendet werden.
+Sie müssen Umleitungsangebote mithilfe des [!UICONTROL formularbasierten Experience Composers] anwenden. Umleitungsangebote können derzeit nicht mit dem VEC angewendet werden.
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Recommendations]-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie die [!UICONTROL Form-Based Experience Composer] verwenden, um Erlebnisse zu erstellen, die Umleitungsangebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Umleitungsangebote verwenden.
 
-1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL Form-Based Experience Composer].
+1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 
    Unter [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) finden Sie detaillierte schrittweise Anweisungen.
 
 1. Geben Sie den gewünschten Speicherort an und fügen Sie gegebenenfalls Zielgruppenverfeinerungen hinzu.
 
-1. Klicken Sie auf die Dropdown-Liste im Abschnitt **[!UICONTROL Content]** und dann auf **[!UICONTROL Change Redirect Offer]**.
+1. Klicken Sie auf die Dropdown-Liste im Abschnitt **[!UICONTROL Inhalt]** und dann auf **[!UICONTROL Umleitungsangebot ändern]**.
 
    ![Option „Umleitungsangebot ändern“](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
 
-1. Wählen Sie das gewünschte Umleitungsangebot im Dialogfeld [!UICONTROL Select Remote Offer] aus und klicken Sie dann auf **[!UICONTROL Done]**.
+1. Wählen Sie das gewünschte Umleitungsangebot im Dialogfeld [!UICONTROL Remote-Angebot auswählen] aus und klicken Sie dann auf **[!UICONTROL Fertig]**.
 
 1. Schließen Sie die Konfiguration der Aktivität ab.
 

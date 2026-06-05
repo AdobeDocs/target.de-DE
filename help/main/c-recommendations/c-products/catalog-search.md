@@ -1,40 +1,37 @@
 ---
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
-description: Erfahren Sie, wie Sie mit dem  [!DNL Recommendations] [!UICONTROL Catalog Search] Produkte oder Inhalte finden, Elemente aus Ihrem Katalog entfernen können und vieles mehr.
-title: Wie verwende ich das  [!DNL Recommendations] [!UICONTROL Catalog Search]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+description: Erfahren Sie, wie Sie mit  [!DNL Recommendations] [!UICONTROL  Katalogsuche ] Produkte oder Inhalte suchen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
+title: Wie verwende ich die  [!DNL Recommendations] [!UICONTROL -]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 22%
+source-wordcount: 552
+ht-degree: 21%
 
 ---
 
-# [!UICONTROL Catalog Search]
+# [!UICONTROL Katalogsuche]
 
-Die [!UICONTROL Catalog Search] Seite in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, besteht darin, nach einem Element zu suchen. Darüber hinaus können Sie die Umgebung ändern, Facetten filtern, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
+Die [!UICONTROL Katalogsuche] in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, besteht darin, nach einem Element zu suchen. Darüber hinaus können Sie die Umgebung ändern, Facetten filtern, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
 
 Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten, sodass Sie Ihre Produkte in logischen Buckets organisieren können.
 
-## [!UICONTROL Catalog Search]
+## Zugriff [!UICONTROL Katalogsuche]
 
-1. Um auf die Seite [!UICONTROL Catalog Search] zuzugreifen, klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+1. Um auf die Seite [!UICONTROL Katalogsuche] zuzugreifen, klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Katalogsuche]**.
 
-1. (Optional) Um Filter auf Ihre Suche anzuwenden, klicken Sie auf das Symbol **[!UICONTROL Show Filters]** ( ![Symbol Filter anzeigen](/help/main/assets/icons/Filter.svg) ). Sie können nach [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] und [!UICONTROL Value] filtern.
+1. (Optional) Um Filter auf Ihre Suche anzuwenden, klicken Sie auf das Symbol **[!UICONTROL Filter anzeigen]** (Symbol ![Filter anzeigen](/help/main/assets/icons/Filter.svg) ). Sie können nach [!UICONTROL Umgebung], [!UICONTROL Sammlungen], [!UICONTROL Kategorie], [!UICONTROL Marke], [!UICONTROL Inventar] und [!UICONTROL Wert] filtern.
 
 ## Einfache Suche durchführen
 
-1. Geben Sie einen Suchbegriff in das **[!UICONTROL Search In]** ein.
+1. Geben Sie einen Suchbegriff in das Feld **[!UICONTROL Suche in]** ein.
 
-1. (Optional) Sie können Ihre Suche einschränken, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie auf den Abwärtspfeil im [!UICONTROL Search In] klicken.
+1. (Optional) Sie können Ihre Suche einschränken, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie auf den Abwärtspfeil im Feld [!UICONTROL Suche in] klicken.
 
    Zu den Suchoptionen zählen:
 
@@ -84,7 +81,7 @@ Sie können die Details eines einzelnen Elements, einschließlich ID, Name, Nach
 
 1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen.
 
-1. Klicken Sie auf **[!UICONTROL Remove from Catalog]**.
+1. Klicken Sie **[!UICONTROL Aus Katalog entfernen]**.
 
 1. Bestätigen Sie, dass Sie das Element entfernen möchten.
 
@@ -92,7 +89,7 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [&#x200B; Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
+Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [ Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
@@ -118,7 +115,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. Klicken Sie auf das Symbol Filter anzeigen ![Symbol Filter anzeigen](/help/main/assets/icons/Filter.svg) .
 
-1. Wählen Sie die gewünschte Umgebung aus der Dropdown-Liste **[!UICONTROL Environment]** aus.
+1. Wählen Sie die gewünschte Umgebung aus **[!UICONTROL Dropdown-Liste]** Umgebung“ aus.
 
 <!--
 ## Modify the Catalog Search page (filters and columns)
@@ -142,9 +139,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Spalten ändern
 
-Sie können die aktiven Spalten auf der [!UICONTROL Catalog Search] ändern.
+Sie können die aktiven Spalten auf der Seite [!UICONTROL Katalogsuche] ändern.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Customize Table]** ( ![Symbol Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ).
+1. Klicken Sie auf **[!UICONTROL Tabelle anpassen]** (![Symbol Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ).
 
 1. Wählen Sie die gewünschten Spalten aus, die Sie anzeigen oder ausblenden möchten, oder heben Sie die Auswahl auf.
 

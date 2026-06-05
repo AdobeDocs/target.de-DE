@@ -5,46 +5,42 @@ title: Wie verwende ich den formularbasierten Experience Composer?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 TQID: https://experienceleague.adobe.com/X67IwQIWaOUNZECFjyXCAFsxEr3-FunVIhlRugKsWm8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 34%
+source-wordcount: 988
+ht-degree: 35%
 
 ---
 
 # Form-Based Experience Composer
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch für die Verwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
-Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine Erlebnisse. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Designs auswählen, generiert [!UICONTROL Target] automatisch die Erlebnisse.
+Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind keine Erlebnisse verfügbar. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Designs auswählen, generiert [!UICONTROL Target] automatisch die Erlebnisse.
 
-1. Klicken Sie auf **[!UICONTROL Create Activity]** und wählen Sie dann den Aktivitätstyp aus, den Sie erstellen möchten.
+1. Klicken Sie **[!UICONTROL Aktivität erstellen]** und wählen Sie dann den Aktivitätstyp aus, den Sie erstellen möchten.
 
-   Die [!UICONTROL Form-Based Experience Composer] ist für [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] und [!UICONTROL Recommendations] verfügbar.
+   Der [!UICONTROL formularbasierte Experience Composer] ist für [!UICONTROL A/B-Test]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten verfügbar.
 
-1. Wählen Sie **[!UICONTROL Form]** im Dialogfeld [!UICONTROL Create Activity] aus.
+1. Wählen **[!UICONTROL Formular]** im Dialogfeld [!UICONTROL Aktivität erstellen] aus.
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste &quot;**[!UICONTROL Choose Workspace]**&quot; einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   Die [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
+   Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
 1. Wählen Sie eine Eigenschaft.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
-   Die [!UICONTROL Form-Based Experience Composer] wird geöffnet.
+   Der [!UICONTROL formularbasierte Experience Composer] wird geöffnet.
 
-   Dieser Bildschirm unterscheidet sich, wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen. [!UICONTROL Recommendations] Aktivitäten umfassen keine Erlebnisse.
+   Dieser Bildschirm unterscheidet sich, wenn Sie eine Aktivität des Typs [!UICONTROL Recommendations] erstellen. [!UICONTROL Recommendations] -Aktivitäten umfassen keine Erlebnisse.
 
-1. &#x200B;
-   1. Klicken Sie auf das **[!UICONTROL Rename]** ( ![Umbenennungssymbol](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Rename]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Save]**.
+1. 
+   1. Klicken Sie auf **[!UICONTROL Umbenennen]**-Symbol ( ![Umbenennen](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Umbenennen]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:
 
@@ -72,17 +68,17 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
 1. Wählen Sie einen Standort aus.
 
-   Wenn Sie in das [!UICONTROL Select Location] klicken, wird eine Liste der verfügbaren Speicherorte angezeigt. Wählen Sie einen dieser Standorte aus.
+   Wenn Sie auf das Feld [!UICONTROL Speicherort auswählen] klicken, wird eine Liste der verfügbaren Speicherorte angezeigt. Wählen Sie einen dieser Standorte aus.
 
-   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manuell eingegebene Speicherorte werden in der Liste der verfügbaren Speicherorte gespeichert. Wenn Sie das nächste Mal versuchen, einen manuell eingegebenen Speicherort auszuwählen, wird er in der Dropdown-Liste [!UICONTROL Select Location] für diese Aktivität verfügbar sein.
+   Sie können auch einen Standort eingeben, der hier nicht aufgelistet ist. Dies kann sich als nützlich erweisen, wenn die Mbox noch nicht erstellt oder auf einer Seite angezeigt wurde. Geben Sie den Namen des Orts ein. Seien Sie vorsichtig, wenn Sie einen Standort eingeben, der noch nicht vorhanden ist. Wenn die Schreibweise oder Groß-/Kleinschreibung nicht mit der Schreibweise oder Groß-/Kleinschreibung bei Mbox-Aufruf übereinstimmt, dann wird die Aktivität nicht bereitgestellt. Manuell eingegebene Speicherorte werden in der Liste der verfügbaren Speicherorte gespeichert. Wenn Sie das nächste Mal versuchen, einen manuell eingegebenen Speicherort auszuwählen, wird er in der Dropdown-Liste [!UICONTROL Speicherort auswählen] für diese Aktivität verfügbar sein.
 
    >[!NOTE]
    >
    >Wenn Sie während der Erstellung einer Aktivität einen manuell eingegebenen Speicherort erstellen, wird nicht automatisch ein neuer Speicherort erstellt. Der Ortsname wird nur im Kontext der Aktivität gespeichert. Der Speicherort wird erstellt, wenn ein Aufruf zur Inhaltsbereitstellung erfolgt. Nach der Erstellung des Speicherorts ist er zur Verwendung bei anderen Aktivitäten, zur Erstellung von Zielgruppen usw. in der Dropdown-Liste der verfügbaren Speicherorte verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Add Audience Refinements]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Done]**.
+1. Klicken Sie **[!UICONTROL Zielgruppenverfeinerungen hinzufügen]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Fertig]**.
 
-   In der [!UICONTROL Form-based Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
@@ -94,9 +90,9 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    Sie können außerdem einen Link zum Bild hinzufügen (Clickthrough, Ziel, Landing usw.)
 
-   1. Klicken Sie auf [!UICONTROL Change Image Offer].
-   1. Wählen Sie das gewünschte Bild aus und klicken Sie dann auf [!UICONTROL Edit Links].
-   1. Geben Sie die gewünschte URL oder Seite auf Ihrer Site an und klicken Sie dann auf [!UICONTROL Update].
+   1. Klicken Sie auf [!UICONTROL Bildangebot ändern].
+   1. Klicken Sie auf das gewünschte Bild und anschließend auf [!UICONTROL Links bearbeiten].
+   1. Geben Sie die gewünschte URL oder Seite Ihrer Site an und klicken Sie auf [!UICONTROL Aktualisieren].
 
    **JSON-Angebot ändern:** Wählen Sie ein JSON-Angebot.
 
@@ -108,36 +104,36 @@ Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, gibt es keine E
 
    **HTML-Angebot erstellen:**
 
-   1. Klicken Sie auf [!UICONTROL Offers] und wählen Sie dann die Registerkarte [!UICONTROL Code Offers] aus.
-   1. Klicken Sie auf [!UICONTROL Create] > [!UICONTROL HTML Offer].
+   1. Klicken Sie auf [!UICONTROL Angebote] und wählen Sie anschließend die Registerkarte [!UICONTROL Code-Angebote] aus.
+   1. Klicken Sie [!UICONTROL Erstellen] > [!UICONTROL HTML-Angebot].
    1. Geben Sie einen Angebotsnamen ein.
    1. Geben Sie im Feld „Code“ den HTML-Code ein oder kopieren Sie ihn dorthin.
-   1. Klicken Sie auf [!UICONTROL Save].
+   1. Klicken Sie auf [!UICONTROL Speichern].
 
    **JSON-Angebot erstellen:**
 
-   1. Klicken Sie auf [!UICONTROL Offers] und wählen Sie dann die Registerkarte [!UICONTROL Code Offers] aus.
-   1. Klicken Sie auf [!UICONTROL Create] > [!UICONTROL JSON Offer].
+   1. Klicken Sie auf [!UICONTROL Angebote] und wählen Sie anschließend die Registerkarte [!UICONTROL Code-Angebote] aus.
+   1. Klicken Sie auf [!UICONTROL Erstellen] > [!UICONTROL JSON-Angebot].
    1. Geben Sie einen Angebotsnamen ein.
    1. Schreiben Sie Ihren JSON-Code in das Feld „Code“ oder kopieren Sie ihn dorthin.
-   1. Klicken Sie auf [!UICONTROL Save].
+   1. Klicken Sie auf [!UICONTROL Speichern].
 
    **Empfehlung hinzufügen:**
 
-   Für eine Recommendations -Aktivität bietet Ihnen die Dropdown-Liste Inhalt die [!UICONTROL Add Recommendation] Option. Klicken Sie auf **[!UICONTROL Add Recommendation]** und wählen Sie dann den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Für eine Recommendations -Aktivität bietet Ihnen die Dropdown-Liste Inhalt die Option [!UICONTROL Empfehlung hinzufügen]. Klicken Sie auf **[!UICONTROL Empfehlung hinzufügen]** und wählen Sie anschließend den Seitentyp aus. Folgen Sie den üblichen auf der Oberfläche angegebenen Schritten, um [eine Recommendations-Aktivität zu erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Bei der Auswahl der Recommendations-Kriterien im formularbasierten Experience Composer gibt es jetzt einen direkten Link zur ausgewählten Kriterienkarte, damit Sie die Kriterien schnell und einfach bearbeiten können.
 
-   Auf der [!UICONTROL Targeting] Seite des [!DNL Target] dreistufigen Workflows:
+   Auf der [!UICONTROL Targeting] des [!DNL Target] dreistufigen Workflows:
 
    **Angebotsentscheidung hinzufügen:**
 
-   Fügen Sie einer [!DNL Adobe Target]-Aktivität ein in [!DNL Adobe Journey Optimizer] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
+   Fügen Sie einer [!DNL Adobe Target]-Aktivität ein in [!DNL Adobe Journey Optimizer] (AJO) erstelltes Angebot hinzu, um Ihren Besuchern auf Ihrer Website oder mobilen Site mithilfe von Offer Decisioning das beste dynamische Angebot und Erlebnis zu bieten. Diese Option ist nur für manuelle Aktivitäten [!UICONTROL A/B-]) und [!UICONTROL Erlebnis-Targeting] (XT) verfügbar.
 
    Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-1. (Optional, für [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Experience Targeting]-Aktivitäten) Um diesen Vorgang für weitere Standorte zu wiederholen, klicken Sie auf **[!UICONTROL Add Location]** und konfigurieren Sie den Standort und den Inhalt.
-1. Klicken Sie auf **[!UICONTROL Next]** und führen Sie dann die für Ihren Aktivitätstyp üblichen Schritte zur Aktivitätserstellung aus.
+1. (Optional, für [!UICONTROL A/B]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Experience Targeting]-Aktivitäten) Um diesen Vorgang für weitere Speicherorte zu wiederholen, klicken Sie auf **[!UICONTROL Speicherort hinzufügen]** und konfigurieren Sie den Speicherort und den Inhalt.
+1. Klicken Sie **[!UICONTROL Weiter]** und führen Sie dann die für Ihren Aktivitätstyp üblichen Schritte zur Aktivitätserstellung aus.
 
 * [Erstellen eines A/B-Tests](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Erstellen einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)

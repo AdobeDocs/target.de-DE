@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 17%
+source-wordcount: '277'
+ht-degree: 16%
 
 ---
 
@@ -15,44 +15,44 @@ ht-degree: 17%
 
 Erstellen Sie Ordner in der Adobe Target-Angebotsbibliothek, um Code-Angebote, Bildangebote sowie andere Ordner zu speichern und so eine Unterordnerstruktur zu erstellen.
 
-Der Prozess zum Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Die folgenden Abschnitte enthalten weitere Informationen.
+Der Prozess zum Erstellen von Ordnern für Code-Angebote und Bildangebote unterscheidet sich geringfügig. Weitere Informationen dazu finden Sie in den folgenden Abschnitten.
 
 ## Code-Angebotsordner
 
-1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote codieren]**.
 
    ![Registerkarte „Angebote codieren“](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Klicken Sie **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
 
 1. Geben Sie einen beschreibenden Namen für den Ordner an.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
 Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## Bild-Angebotsordner
 
-1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
+1. Klicken Sie **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**.
 
    ![Registerkarte „Bildangebote“](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-1. Klicken Sie auf **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
-1. Geben Sie einen beschreibenden **[!UICONTROL Title]** für den Ordner an.
+1. Klicken Sie **[!UICONTROL Erstellen]** > **[!UICONTROL Ordner]**.
+1. Geben Sie einen beschreibenden **[!UICONTROL Titel]** für den Ordner an.
 
    Sie können im Namen beispielsweise den Typ der enthaltenen Inhalte angeben.
 
    Der Name darf folgende Zeichen nicht enthalten: Prozentzeichen `%`, Schrägstrich `/`, umgekehrter Schrägstrich `\`, `:`, Sternchen `*`, Fragezeichen `?`, doppelte Anführungszeichen `"`, eckige Klammer `[`, eckige Klammer `]`, Plus-Zeichen: `+`, Pipe: `|`, Punkt: `.`, Zahlenzeichen: `#`, geschweifte Klammer: `{`, geschweifte Klammer `}`, `^` oder Semikolon `;`. Anstelle dieser Zeichen können Sie einen Bindestrich ( `- `) verwenden.
 
-1. (Optional) Bearbeiten Sie die **[!UICONTROL Name]**.
-1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Private]** .
+1. (Optional) Bearbeiten Sie den **[!UICONTROL Name]**.
+1. (Optional) Aktivieren Sie **[!UICONTROL Kontrollkästchen]** Privat“.
 
    Legt fest, dass es sich um einen privaten Ordner handelt, sodass nur Sie den Ordner und seine Inhalte sehen können.
 
-1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Reorder-able in List View]** .
+1. (Optional) Aktivieren Sie **[!UICONTROL Kontrollkästchen „In Listenansicht neu anordnen]**.
 
-   Gibt an, dass Sie und andere die Position des Ordners in der [!UICONTROL List View] neu anordnen können.
+   Gibt an, dass Sie und andere Benutzer die Position des Ordners in der [!UICONTROL Listenansicht“ ] können.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
 Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen können, finden Sie unter [Arbeiten mit Inhalten in der Asset-Bibliothek](/help/main/c-experiences/c-manage-content/assets-working.md).

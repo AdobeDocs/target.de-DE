@@ -5,38 +5,32 @@ title: Wie gebe ich Aktivitätseinstellungen an?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 71%
+source-wordcount: 432
+ht-degree: 77%
 
 ---
 
 # Aktivitätseinstellungen
 
-Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target], um das Ziel, die Priorität und die Dauer Ihrer Aktivitäten zu verwalten.
+Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
 
 1. Geben Sie Hinweise zum Ziel der Aktivität ein.
 
-   Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Ziehen Sie, um die Größe des [!UICONTROL Objective] zu ändern.
+   Geben Sie sämtliche Informationen ein, die für Sie und Ihre Team-Mitglieder von Nutzen sind. Ziehen Sie das Feld [!UICONTROL Ziel], um seine Größe zu ändern.
 1. Legen Sie die Priorität der Aktivität fest.
 
-   Je nach Ihren Einstellungen variieren die Benutzeroberfläche und die Optionen für [!UICONTROL Priority]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
+   Abhängig von Ihren Einstellungen variieren die Optionen und die Oberfläche für [!UICONTROL Prioritäten]. Sie können die veralteten Einstellungen „Hoch“, „Mittel“ und „Niedrig“ verwenden oder eine genauere Einstufung mit Werten von 0 bis 999 aktivieren.
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting] (Standard) nicht aktiviert ist, geben Sie eine Priorität an: Niedrig, Medium oder Hoch.
+   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting“ nicht aktiviert ] (Standard), geben Sie eine Priorität an: niedrig, Medium oder hoch.
 
-   Um die feinabgestimmten Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie die Option [!UICONTROL Enable Fine-Grained Priorities] auf „Ein“.
+   Um feinabgestimmte Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie dann die Option [!UICONTROL Feinabgestimmte Prioritäten aktivieren] auf „Ein“ um.
 
    Ist diese Option aktiviert, legen Sie einen Wert zwischen 0 und 999 fest:
 
@@ -57,7 +51,7 @@ Verwenden Sie [!UICONTROL Activity Settings] in [!DNL Adobe Target], um das Ziel
    >
    >Beim Planen einer Aktivität wird der Bereitstellungszeitrahmen der Aktivität festgelegt. Die Aktivität muss jedoch zudem eigens aktiviert werden, bevor sie in Einklang mit dem festgelegten Zeitplan bereitgestellt wird.
 
-Die Seite [!UICONTROL Goal & Settings] enthält zusätzliche Einstellungen, die je nach dem Typ der von Ihnen erstellten Aktivität variieren. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
+Auf der Seite [!UICONTROL „Ziele und Einstellungen“] befinden sich zusätzliche Einstellungen, die abhängig davon variieren, welchen Aktivitätstyp Sie erstellen. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
 
 * [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)

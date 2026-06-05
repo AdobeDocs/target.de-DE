@@ -1,32 +1,24 @@
 ---
 keywords: Targeting;Visual Experience Composer;Whitelist;weiße Liste;Zulassungsliste;Enhanced Visual Experience Composer;VEC;Fehlerbehebung in Visual Experience Composer;Fehlerbehebung;EEC;Enhanced Experience Composer;TLS;TLS 1.2
-description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen manchmal in der  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) und der [!UICONTROL Enhanced Experience Composer] (EEC) auftreten.
-title: Wie kann ich Probleme im Zusammenhang mit der [!UICONTROL Visual Experience Composer] und der [!UICONTROL Enhanced Experience Composer] beheben?
+description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen  [!DNL Target] [!UICONTROL  Visual Experience ] (VEC) und [!UICONTROL Enhanced Experience Composer] (EEC) auftreten.
+title: Wie behebe ich Probleme mit dem [!UICONTROL Visual Experience Composer] und dem [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# Fehlerbehebung bei Problemen im Zusammenhang mit der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]
+# Beheben von Problemen mit [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]
 
-Anzeigeprobleme und andere Probleme treten manchmal unter bestimmten Bedingungen im [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) und im [!UICONTROL Enhanced Experience Composer] (EEC) auf.
+Anzeigeprobleme und andere Probleme treten unter bestimmten Bedingungen manchmal in [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Enhanced Experience Composer] (EEC) auf.
 
 ## Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus? {#samesite}
 
@@ -37,7 +29,7 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 >
 >Die folgende Änderung wirkt sich auf alle drei unten beschriebenen Aktualisierungen aus:
 >
-> * Kann *VEC* verwenden, ohne dass die [VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installiert und für kennwortgeschützte Seiten Ihrer Sites aktiviert ist. Ihre Site-Anmelde-Cookies werden als Drittanbieter-Cookies betrachtet und werden im VEC-Editor im [!UICONTROL Browse] nicht mit Anmeldeanfragen gesendet. Die einzige Ausnahme besteht, wenn für die Anmelde-Cookies Ihrer Site bereits die Attribute `SameSite=None` und `Secure` festgelegt sind.
+> * Kann *VEC* verwenden, ohne dass die [VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installiert und für kennwortgeschützte Seiten Ihrer Sites aktiviert ist. Ihre Site-Anmelde-Cookies werden als Drittanbieter-Cookies betrachtet und werden nicht mit Anmeldeanfragen innerhalb des VEC-Editors im [!UICONTROL Durchsuchen]-Modus gesendet. Die einzige Ausnahme besteht, wenn für die Anmelde-Cookies Ihrer Site bereits die Attribute `SameSite=None` und `Secure` festgelegt sind.
 
 **Chrome 94 (21. September 2021)**: Mit den für die Version Chrome 94 (21. September 2021) geplanten Änderungen wirkt sich die folgende Änderung auf alle Benutzenden mit Browser-Versionen von Chrome 94 oder höher aus:
 
@@ -60,12 +52,12 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 +++Details
 Um festzustellen, welche Cookies aufgrund der SameSite-Cookie-Durchsetzungsrichtlinien blockiert werden, verwenden Sie die [!DNL Developer Tools] in [!DNL Chrome].
 
-1. Um auf die [!DNL Developer Tools] zuzugreifen, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie auf das **[!UICONTROL ellipsis]** oben rechts in Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Network]** und suchen Sie nach blockierten Cookies.
+1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **** Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
+1. Klicken Sie auf **[!UICONTROL Netzwerk]** und suchen Sie nach blockierten Cookies.
 
    >[!NOTE]
    >
-   >Aktivieren Sie das Kontrollkästchen **[!UICONTROL Has blocked cookies]** , um das Auffinden blockierter Cookies zu vereinfachen.
+   >Aktivieren Sie das **[!UICONTROL Hat blockierte Cookies]**, um das Auffinden blockierter Cookies zu vereinfachen.
 
 +++
 
@@ -81,7 +73,7 @@ Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeord
 ## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Details
-Dies kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie in den VEC- oder EEC-Modus in den [!UICONTROL Browse]-Modus und dann wieder in den [!UICONTROL Compose]-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
+Dies kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie im VEC oder EEC in den [!UICONTROL Durchsuchen]-Modus und wechseln Sie dann zurück in den [!UICONTROL Erstellen]-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
 
 +++
 
@@ -134,7 +126,7 @@ Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wi
 ## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Details
-Um dieses Problem zu beheben, aktivieren Sie die [!UICONTROL Enhanced Experience Composer] (EWG). Klicken Sie auf **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um die [!UICONTROL Enhanced Experience Composer] zu aktivieren. Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites und die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen [!DNL Adobe Target]-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall können Sie diese Option deaktivieren, um den EEC über einen iFrame zu laden.
+Um dieses Problem zu beheben, aktivieren Sie den [!UICONTROL Enhanced Experience Composer] (EEC). Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um den [!UICONTROL Enhanced Experience Composer] zu aktivieren. Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites und die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen [!DNL Adobe Target]-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall können Sie diese Option deaktivieren, um den EEC über einen iFrame zu laden.
 
 >[!NOTE]
 >
@@ -149,14 +141,14 @@ Siehe oben unter „Ich kann keine Erlebnisse für eine iFrame-zerstörende Webs
 
 +++
 
-## Fett- und kursiv gedruckte Textstile mit [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] oder [!UICONTROL Change Text]/[!DNL Change HTML] werden auf meiner Seite nicht angezeigt. Manchmal verschwindet der Text nach der Anwendung dieser Stiländerungen. (VEC und EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Fett- und Kursiv-Textstile mit [!UICONTROL Text bearbeiten]/[!UICONTROL HTML bearbeiten] oder [!UICONTROL Text ändern]/[!DNL Change HTML] werden auf meiner Seite nicht angezeigt. Manchmal verschwindet der Text nach der Anwendung dieser Stiländerungen. (VEC und EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Details
-Wenn Sie **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** in Visual Experience Composer für [!UICONTROL A/B Test]- oder [!UICONTROL Experience Targeting]-Aktivitäten oder **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** für [!UICONTROL Automated Personalization]- oder [!UICONTROL Multivariate Test]-Aktivitäten verwenden, um Text fett oder kursiv zu formatieren, werden diese Stile möglicherweise nicht auf die Seite angewendet, oder der Text verschwindet von der Seite in Visual Composer. Dies geschieht, weil die Art und Weise, wie der Rich-Text-Editor diese Stile anwendet, das Website-Markup beeinträchtigen kann.
+Wenn Sie **[!UICONTROL Text bearbeiten]/[!UICONTROL HTML bearbeiten]** im VEC für [!UICONTROL A/B-]- oder [!UICONTROL Experience Targeting]-Aktivitäten oder **[!UICONTROL Text ändern]/[!UICONTROL HTML ändern]** für [!UICONTROL Automated Personalization]- oder [!UICONTROL Multivarianz-Test]-Aktivitäten verwenden, um Text fett oder kursiv zu formatieren, werden diese Stile möglicherweise nicht auf der Seite angewendet oder der Text verschwindet von der Seite im VEC. Dies geschieht, weil die Art und Weise, wie der Rich-Text-Editor diese Stile anwendet, das Website-Markup beeinträchtigen kann.
 
 Wenn Sie dieses Problem angezeigt bekommen, tun Sie Folgendes:
 
-1. Klicken Sie im Rich-Text-Editor auf die Schaltfläche &quot;**[!UICONTROL HTML]**&quot;, um in den Modus zur Bearbeitung des Quell-Codes zu wechseln.
+1. Klicken Sie im Richt-Text-Editor auf die Schaltfläche **[!UICONTROL HTML]**, um in den Quellbearbeitungsmodus zu wechseln.
 1. Suchen Sie die Stiltextelemente.
 
    * Für fett gedruckten Text ändern Sie `<strong>`-Elemente zu `<b>`.

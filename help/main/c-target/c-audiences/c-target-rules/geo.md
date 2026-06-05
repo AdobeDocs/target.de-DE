@@ -6,17 +6,12 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +24,28 @@ Mit Geolokalisierungsparametern können Sie Aktivitäten und Erlebnisse basieren
 
 ## Erstellen einer Zielgruppe mit Geo-Targeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Geo]** per Drag-and-Drop in den Bereich Audience Builder .
+1. Ziehen Sie **[!UICONTROL Geo]** per Drag-and-Drop in den Audience Builder-Bereich.
 
-1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
+   * [!UICONTROL Land/Region]
+   * [!UICONTROL state]
+   * [!UICONTROL Stadt]
+   * [!UICONTROL Postleitzahl]
+   * [!UICONTROL Längengrad]
+   * [!UICONTROL Breitengrad]
    * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL Mobilnetzbetreiber]
 
    Die Geoinformationen eines Besuchers werden anhand der Ursprungs-IP-Adresse einer [!DNL Target]-Standortanfrage (mBox-Anfrage) bestimmt. Die IP-zu-Geo-Auflösung erfolgt beim ersten Aufruf einer neuen Sitzung. Das bedeutet: Wenn sich die IP-Adresse eines Besuchers während einer Besuchssitzung ändert, basieren die Geoinformationen weiterhin auf der IP-Adresse des ersten Aufrufs.
 
-   [!DNL Target] nutzt [!UICONTROL Mobile Carrier] die IP-Adressregistrierungsdaten (dem der Block von IP-Adressen gehört), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)](https://www.mcc-mnc.com) zu ermitteln.
+   Für [!UICONTROL Mobilnetzbetreiber] verwendet [!DNL Target] die IP-Adressregistrierungsdaten (wer Eigentümer des Blocks von IP-Adressen ist), um den entsprechenden Mobilnetzbetreiber mithilfe von [Länder-Codes (MCC) und Mobilfunknetzcodes (MNC)) zu ermitteln](https://www.mcc-mnc.com).
 
 1. Geben Sie einen Operator und den entsprechenden Wert an.
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 Die folgende Abbildung zeigt eine Zielgruppe für Benutzer, die von einem Breitengrad größer als 44° und einem Längengrad kleiner als 22° auf die Aktivität zugreifen.
 

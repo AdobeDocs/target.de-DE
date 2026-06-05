@@ -5,16 +5,12 @@ title: Wie kann ich Probleme in Verbindung mit Aktivitäten beheben?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +36,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 ## Aktivität ist nicht live.
 
-**Validieren:** Wechseln Sie zu [!UICONTROL Overview] Registerkarte und überprüfen Sie, ob der Test als inaktiv oder als Entwurf markiert ist.
+**Validieren:** Wechseln Sie zur Registerkarte [!UICONTROL Übersicht] und überprüfen Sie, ob der Test als inaktiv oder als Entwurf markiert ist.
 
 **Optionen:**
 
@@ -58,11 +54,11 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 ## Die Seite ist nicht für die Bedingungen zum Seiten-Targeting qualifiziert.
 
-**Validieren** Stellen Sie auf der [!UICONTROL Overview] fest, ob die Seite außerhalb der Zielgruppenbestimmungsbedingungen liegt.
+**Validieren:** Stellen Sie auf der Seite [!UICONTROL Übersicht] fest, ob die Seite außerhalb der Zielgruppenbestimmungsbedingungen liegt.
 
 **Optionen:**
 
-* Navigieren Sie zur [!UICONTROL Visual Experience Composer] und klicken Sie auf URL > Erweitert > Aktuelle Seite.
+* Navigieren Sie zu [!UICONTROL Visual Experience Composer] und klicken Sie auf URL > Erweitert > Aktuelle Seite.
 
 ## Anstelle eines neuen Erlebnisses wird ein früheres Erlebnis eingeblendet.
 
@@ -76,20 +72,20 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 
 ## Sie wurden kürzlich zu [!DNL Target] hinzugefügt, können jedoch keine Aktivitäten erstellen.
 
-**Validieren:** Klicken Sie auf [!UICONTROL Create Activity]. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
+**Validieren:** Klicken Sie auf [!UICONTROL Aktivität erstellen]. Wenn die Option nicht verfügbar ist, sind Sie wahrscheinlich nicht dazu berechtigt, eine Aktivität zu erstellen.
 
 **Optionen:**
 
-Nachdem Sie in [!DNL Target] als Benutzer hinzugefügt wurden, müssen Sie über die Rolle [!UICONTROL Approver] verfügen, um Aktivitäten zu erstellen.
+Nachdem Sie in [!DNL Target] als Benutzer hinzugefügt wurden, müssen Sie über die Rolle [!UICONTROL Genehmiger] verfügen, um Aktivitäten zu erstellen.
 
 * Bitten Sie den Administrator Ihres Kontos, Sie zu einer genehmigenden Person zu machen.
-* Falls Sie selbst der Administrator sind, erteilen Sie sich in [!DNL Target] unter **[!UICONTROL Administration]** > **[!UICONTROL Users]** die Rolle [!UICONTROL Approver] .
+* Falls Sie selbst der Administrator sind, erteilen Sie sich in [!DNL Target] unter **[!UICONTROL Administration]** > **[!UICONTROL Benutzer]** die Rolle [!UICONTROL Genehmiger].
 
   Weitere Informationen finden Sie unter [Zuweisen der Rolle „Genehmiger“](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Die Struktur der Seite hat sich seit der Einrichtung der Aktivität geändert.
 
-**Validieren** Wechseln Sie zur [!UICONTROL Visual Experience Composer] für die vorhandene Aktivität. Suchen Sie nach einem Hinweis, der davor warnt, dass die Selektoren (oder die Struktur) verändert wurde(n).
+**Validieren** Wechseln Sie zum [!UICONTROL Visual Experience Composer] für die vorhandene Aktivität. Suchen Sie nach einem Hinweis, der davor warnt, dass die Selektoren (oder die Struktur) verändert wurde(n).
 
 **Optionen:**
 
@@ -112,9 +108,9 @@ Weitere Informationen darüber, wie Seitenänderungen die Anzeige von [!DNL Targ
 
 ## Andere Aktivitäten werden auf derselben Seite ausgeführt.
 
-**Validieren** Verwenden Sie die Registerkarte &quot;[!UICONTROL Collisions]&quot;, um zu sehen, ob andere Aktivitäten ausgeführt werden.
+**Validieren:** Verwenden Sie die Registerkarte [!UICONTROL Kollisionen] um zu sehen, ob andere Aktivitäten ausgeführt werden.
 
-**Hinweis:** Die Registerkarte &quot;[!UICONTROL Collisions]&quot; funktioniert nicht mit dem Vorlagentestmodul.
+**Hinweis:** Die Registerkarte [!UICONTROL Kollisionen] funktioniert nicht mit dem Vorlagentestmodul.
 
 **Optionen:**
 
@@ -137,7 +133,7 @@ Führen Sie einen der folgenden Schritte aus:
 
 **Hinweis:** Mehrere ajax-[!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
 
-## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche den Status [!UICONTROL Inactive] .
+## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche ] Status [!UICONTROL Inaktiv“.
 
 Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Aktivität außerhalb der Benutzeroberfläche mithilfe der [!DNL Target]-API, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
 
@@ -145,4 +141,4 @@ Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Ak
 
 In seltenen Fällen kann es vorkommen, dass, wenn die Konversionsmetrik der Aktivität, die für ein Erlebnis qualifiziert ist, in derselben Anfrage wie die Aktivitätsqualifizierung gesendet wird, der Besucher nach dem Senden der Anfrage kein Erlebnis hat. In diesem Fall sieht der Besucher den Standardinhalt und die Erlebnis-ID, die über Token erfasst wird, wäre -1. [!DNL Adobe] empfiehlt nicht, Aktivitätsqualifizierung und -konvertierung in derselben [!DNL Target]-Anfrage zu senden.
 
-Wenn Sie beide Metriken in derselben Anfrage senden möchten, können Sie [!UICONTROL Advanced Settings] verwenden, um anzugeben, dass der Besucher nach der Konvertierung im selben Erlebnis bleibt.
+Wenn Sie beide Metriken in derselben Anfrage senden möchten, können Sie mit [!UICONTROL Erweiterte Einstellungen] angeben, dass der Besucher nach der Konvertierung im selben Erlebnis bleibt.

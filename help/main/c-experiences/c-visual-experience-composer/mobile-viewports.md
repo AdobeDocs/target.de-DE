@@ -5,15 +5,12 @@ title: Wie verwende ich Mobile Viewports für responsive Erlebnisse?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +100,14 @@ Wenn Ihre Site nicht responsiv und Ihre Aktivität auf ein bestimmtes Gerät aus
 
 Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, während Sie Ihre Erlebnisse erstellen.
 
-1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Klicken Sie im Abschnitt **[!UICONTROL Mobile viewports configuration]** auf **[!UICONTROL Add]**.
+1. Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. Klicken Sie **[!UICONTROL Abschnitt „Konfiguration mobiler]**&quot; auf **[!UICONTROL Hinzufügen]**.
 
    ![Viewport hinzufügen](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Oder
 
-   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das [!UICONTROL Edit] (Bleistiftsymbol).
+   Um die Konfiguration eines vorhandenen mobilen Viewports zu ändern, wählen Sie diesen Viewport aus und klicken Sie dann auf das [!UICONTROL Bearbeiten]-Symbol.
 
 1. Geben Sie einen Namen für den mobilen Viewport ein.
 
@@ -132,7 +129,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 
    Wenn Sie [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) verwenden und ein Betriebssystem auswählen, emuliert [!DNL Target] dieses Gerät, wenn Sie die Seite aufrufen. Wenn beispielsweise Ihre responsive Site auf Android eine andere Oberfläche aufweist als auf iOS, ahmt [!DNL Target] dieses Verhalten nach.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
@@ -143,11 +140,11 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im [!UICONTROL Visual Experience Composer] (VEC) auf das Symbol **[!UICONTROL Settings]** und wählen Sie dann **[!UICONTROL Add Mobile Viewports]** aus.
+1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Devices]** und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
+1. Klicken Sie auf **[!UICONTROL Geräte]** und aktivieren Sie dann jedes Gerät, das über einen mobilen Viewport verfügen soll.
 
    ![Mobile Viewports aktivieren](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -180,7 +177,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Kontovoreinstellungen in Adobe Target ![Übersichts-Badge](/help/main/assets/overview.png)
 

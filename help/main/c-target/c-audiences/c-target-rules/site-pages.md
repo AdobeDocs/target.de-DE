@@ -5,17 +5,13 @@ title: Kann ich Besuchende basierend auf den Seiten der Website ansprechen?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 19%
 
 ---
 
@@ -23,94 +19,94 @@ ht-degree: 20%
 
 Sie können Besucherinnen und Besucher mithilfe von [!DNL Adobe Target] ansprechen, die auf eine bestimmte Seite Ihrer Website zugreifen.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Site Pages]** per Drag-and-Drop in den Bereich Audience Builder .
+1. Ziehen Sie **[!UICONTROL Site-Seiten]** per Drag-and-Drop in den Audience Builder-Bereich.
 
    ![Seiten der Site als Zielgruppe](assets/target_site_pages.png)
 
-1. Klicken Sie auf die Dropdown-Liste **[!UICONTROL Select]** , wählen Sie eine der folgenden Optionen aus und konfigurieren Sie dann die Regel nach Bedarf.
+1. Klicken Sie auf **[!UICONTROL Auswählen]** Dropdown-Liste, wählen Sie eine der folgenden Optionen aus und konfigurieren Sie dann die Regel nach Bedarf.
 
-   Die verfügbaren Optionen und Auswerter in nachfolgenden Dropdown-Listen in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen, wenn Sie [!UICONTROL Current Page] auswählen:
+   Die verfügbaren Optionen und Auswerter in nachfolgenden Dropdown-Listen in der Regel variieren je nach ausgewählter Option. Die folgende Abbildung zeigt die verfügbaren Optionen bei Auswahl von [!UICONTROL Aktuelle Seite]:
 
    ![Aktuelle Seite](assets/current-page.png)
 
-   Die folgenden Optionen sind in der anfänglichen Dropdown-Liste verfügbar, wenn Sie [!UICONTROL Select] auswählen.
+   Die folgenden Optionen sind in der anfänglichen Dropdown-Liste verfügbar, wenn Sie [!UICONTROL Auswählen] auswählen.
 
-   * **[!UICONTROL Current Page]:** Die Seite, die der Benutzer anzeigt.
-
-     Die folgenden Optionen sind in der zweiten Dropdown-Liste verfügbar, wenn Sie diese Option auswählen:
-
-      * [!UICONTROL URL] (Weitere Informationen darüber, wie [!DNL Target] URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
-
-   * **[!UICONTROL Previous Page]:** Die Seite, die der Benutzer angesehen hat, bevor er auf die aktuelle Seite geklickt hat. Der Benutzer muss von der vorherigen Seite auf die aktuelle Seite klicken, damit die Seite verfolgt werden kann. Die vorherige Seite wird nicht verfolgt, wenn Benutzende eine neue URL im Browser eingeben. Der tatsächliche Inhalt auf dieser Seite hängt vom Design Ihrer Site ab. Wenn auf der aktuellen Seite beispielsweise Informationen zu einem bestimmten Produkt angezeigt werden, kann die vorherige Seite eine Kategorieseite sein, auf der der Besucher das bestimmte Element auswählt. Zum Beispiel eine Seite, auf der mehrere Kameras eines bestimmten Typs angezeigt werden, oder es kann die Startseite sein, die zur endgültigen Seite führt.
+   * **[!UICONTROL Aktuelle Seite]:** Die Seite, die der Benutzer anzeigt.
 
      Die folgenden Optionen sind in der zweiten Dropdown-Liste verfügbar, wenn Sie diese Option auswählen:
 
-      * [!UICONTROL URL] (Weitere Informationen dazu, wie Target URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL URL] (Weitere Informationen dazu, wie [!DNL Target] URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
       * [!UICONTROL Domain]
-      * [!UICONTROL Query]
+      * [!UICONTROL Abfrage]
       * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
+      * [!UICONTROL Domain auf oberster Ebene]
+      * [!UICONTROL path]
+      * [!UICONTROL Hash (#)-Fragment]
 
-   * **[!UICONTROL Landing Page]:** Die Landingpage ist die erste Seite, die der Besucher sieht, wenn er auf Ihre Website zugreift. Wenn der Besucher z. B. auf einen Link in Google klickt, der zu einer Kategorieseite führt, ist die Kategorieseite die Landingpage. Wenn der Link zu Ihrer Homepage führt, ist die Homepage die Landingpage. Die Landingpage wird während der Benutzersitzung gespeichert. Sie können Ihr Ziel tiefer in die Site richten, je nachdem, welche Seite die Landingpage des Benutzers in dieser Sitzung war.
+   * **[!UICONTROL Vorherige Seite]:** Die Seite, die der Benutzer angesehen hat, bevor er auf die aktuelle Seite geklickt hat. Der Benutzer muss von der vorherigen Seite auf die aktuelle Seite klicken, damit die Seite verfolgt werden kann. Die vorherige Seite wird nicht verfolgt, wenn Benutzende eine neue URL im Browser eingeben. Der tatsächliche Inhalt auf dieser Seite hängt vom Design Ihrer Site ab. Wenn auf der aktuellen Seite beispielsweise Informationen zu einem bestimmten Produkt angezeigt werden, kann die vorherige Seite eine Kategorieseite sein, auf der der Besucher das bestimmte Element auswählt. Zum Beispiel eine Seite, auf der mehrere Kameras eines bestimmten Typs angezeigt werden, oder es kann die Startseite sein, die zur endgültigen Seite führt.
 
      Die folgenden Optionen sind in der zweiten Dropdown-Liste verfügbar, wenn Sie diese Option auswählen:
 
       * [!UICONTROL URL] (Weitere Informationen dazu, wie Target URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * [!UICONTROL Domain]
-      * [!UICONTROL Query]
+      * [!UICONTROL Abfrage]
       * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL Domain auf oberster Ebene]
+      * [!UICONTROL path]
+
+   * **[!UICONTROL Landingpage]:** Die Landingpage ist die erste Seite, die der Besucher beim Zugriff auf Ihre Site sieht. Wenn der Besucher z. B. auf einen Link in Google klickt, der zu einer Kategorieseite führt, ist die Kategorieseite die Landingpage. Wenn der Link zu Ihrer Homepage führt, ist die Homepage die Landingpage. Die Landingpage wird während der Benutzersitzung gespeichert. Sie können Ihr Ziel tiefer in die Site richten, je nachdem, welche Seite die Landingpage des Benutzers in dieser Sitzung war.
+
+     Die folgenden Optionen sind in der zweiten Dropdown-Liste verfügbar, wenn Sie diese Option auswählen:
+
+      * [!UICONTROL URL] (Weitere Informationen dazu, wie Target URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und Zielgruppen](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domain]
+      * [!UICONTROL Abfrage]
+      * [!UICONTROL Subdomain]
+      * [!UICONTROL Domain auf oberster Ebene]
+      * [!UICONTROL path]
+      * [!UICONTROL Hash (#)-Fragment]
 
      >[!NOTE]
      >
      >Das `landing.url`-Objekt wird bei einer Änderung der Subdomäne oder einer direkten URL-Ersetzung zurückgesetzt.
 
-   * **[!UICONTROL HTTP Header]:** Diese Option bewertet die Informationen im HTTP-Header der [!DNL Target]. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung enthält, um Besucherinnen und Besucher anzusprechen, die auf die Seite auf Spanisch zugreifen.
+   * **[!UICONTROL HTTP-]:** Diese Option bewertet die Informationen im HTTP-Header der [!DNL Target]. Wenn der HTTP-Header beispielsweise Sprachinformationen enthält, können Sie eine Regel erstellen, die die `Accept-Language: es` Bedingung enthält, um Besucherinnen und Besucher anzusprechen, die auf die Seite auf Spanisch zugreifen.
 
      Die folgenden Optionen sind in der zweiten Dropdown-Liste verfügbar, wenn Sie diese Option auswählen:
 
-      * [!UICONTROL Accept]
+      * [!UICONTROL Akzeptieren]
       * [!UICONTROL Accept-Charset]
       * [!UICONTROL Accept-Encoding]
       * [!UICONTROL Accept-Language]
-      * [!UICONTROL Authorization]
-      * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
-      * [!UICONTROL Content-Length]
-      * [!UICONTROL Content-MDS]
+      * [!UICONTROL Genehmigung]
+      * [!UICONTROL Cache-Steuerung]
+      * [!UICONTROL Verbindung]
+      * [!UICONTROL content-length]
+      * [!UICONTROL content-mds]
       * [!UICONTROL Content-Type]
       * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
+      * [!UICONTROL erwarten]
+      * [!UICONTROL Von]
       * [!UICONTROL Host]
       * [!UICONTROL If-Match]
-      * [!UICONTROL If-Modified-Since]
+      * [!UICONTROL if-modified-since]
       * [!UICONTROL If-None-Match]
       * [!UICONTROL If-Range]
       * [!UICONTROL If-Unmodified-Since]
-      * [!UICONTROL Max-Forwards]
+      * [!UICONTROL max-forward]
       * [!UICONTROL Pragma]
-      * [!UICONTROL Proxy-Authorization]
-      * [!UICONTROL Range]
-      * [!UICONTROL Referrer]
+      * [!UICONTROL proxy-authorization]
+      * [!UICONTROL Bereich]
+      * [!UICONTROL Verweisende Stelle]
       * [!UICONTROL TE]
       * [!UICONTROL Upgrade]
       * [!UICONTROL User-Agent]
-      * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL Über]
+      * [!UICONTROL Warnung]
 
-   Wenn Sie [!UICONTROL Current Page], [!UICONTROL Previous Page] oder [!UICONTROL Landing Page] ausgewählt haben, sind die Optionen [!UICONTROL Domain] und [!UICONTROL Query] verfügbar. Beachten Sie bei der Auswahl dieser Optionen Folgendes:
+   Wenn Sie [!UICONTROL Aktuelle Seite], [!UICONTROL Vorherige Seite] oder [!UICONTROL Landingpage] auswählen, sind die Optionen [!UICONTROL Domain] und [!UICONTROL Abfrage] verfügbar. Beachten Sie bei der Auswahl dieser Optionen Folgendes:
 
    * **Domain:** Die vollständige Domain der Seite Für das Festlegen einer Domain wird die Versendung von „contains“ empfohlen. Beispielsweise akzeptiert „Domain ist gleich facebook.com“ keine `m.facebook.com` oder `www.facebook.com`. „Domain enthält facebook.com“ akzeptiert jede Variante von facebook.com.
    * **Abfrage** Der Inhalt der URL nach dem ersten Fragezeichen (?).
@@ -118,13 +114,13 @@ Sie können Besucherinnen und Besucher mithilfe von [!DNL Adobe Target] ansprech
      `foo.html?e0a72cb2a2c7`
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 Sie können Website-Zielgruppen auch mit einem eigenen „benutzerdefinierten Abfrageparameter“ oder „benutzerdefinierten Header“ erstellen.
 
 Verwenden Sie:
 
-* Abfrageparameter, wenn die vom Benutzer ausgewählte Regel [!UICONTROL Current Page], [!UICONTROL Landing Page] oder [!UICONTROL Previous Page] ist
+* Abfrageparameter, wenn die vom Benutzer ausgewählte Regel &quot;[!UICONTROL  Seite], [!UICONTROL Landingpage] oder &quot;[!UICONTROL &quot; ]
 * Kopfzeile, wenn die vom Benutzer ausgewählte Regel eine HTTP-Kopfzeile ist
 
 ## Fehlerbehebung {#ts}

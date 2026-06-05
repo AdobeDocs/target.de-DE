@@ -2,30 +2,28 @@
 keywords: Kriteriensequenz;mehrere Kriterien;Algorithmen;Kriterien;Recommendations-Kriterien;Sequenz;Anzahl der zurückgegebenen Elemente begrenzen;Steuerung auf Slot-Ebene;Slot
 description: Erfahren Sie, wie Sie Sequenzen von bis zu fünf Kriterien festlegen, um eine bessere Kontrolle über die Elemente auszuüben, die in Ihren Recommendations-Aktivitäten angezeigt werden.
 title: Wie erstelle ich Kriteriensequenzen in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 19%
+source-wordcount: 833
+ht-degree: 21%
 
 ---
 
 # Erstellen von Kriteriensequenzen
 
-Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine bessere Kontrolle über die Elemente auszuüben, die in Ihren [!DNL Adobe Target]-[!UICONTROL Recommendations]-Aktivitäten angezeigt werden. Sie können auch die Anzahl der zurückgegebenen Elemente begrenzen (manchmal auch als „Steuerung der Steckplatzebene“ bezeichnet).
+Verwenden Sie Sequenzen von bis zu fünf Kriterien, um eine bessere Kontrolle über die Elemente auszuüben, die in Ihren [!DNL Adobe Target]Recommendations[!UICONTROL Aktivitäten ]. Sie können auch die Anzahl der zurückgegebenen Elemente begrenzen (manchmal auch als „Steuerung der Steckplatzebene“ bezeichnet).
 
 >[!NOTE]
 >
->Kriteriensequenzen können nicht mit [!UICONTROL Recommendations] Aktivitäten verwendet werden, die vor der Version vom Oktober 2016 von [!DNL Target Premium] erstellt wurden.
+>Kriteriensequenzen können nicht mit Aktivitäten [!UICONTROL Recommendations) verwendet werden, ] vor der [!DNL Target Premium] vom Oktober 2016 erstellt wurden.
 
-Bevor Sie eine Kriteriensequenz erstellen können, müssen Sie zuerst die Kriterien erstellen, die in der Sequenz stehen sollen. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) erstellen .
+Bevor Sie eine Kriteriensequenz erstellen können, müssen Sie zuerst die Kriterien erstellen, die in der Sequenz stehen sollen. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) erstellen .
 
 Mithilfe einer Kriteriensequenz können Sie zusätzliche gezielte Empfehlungen bereitstellen, anstatt allgemeinere Reserveempfehlungen zu verwenden, wenn ein Kriterium nicht genügend Ergebnisse zurückgibt, um Ihr Design zu füllen. In der Regel geht eine Kriteriensequenz von einer spezifischeren Zielgruppenbestimmung, die möglicherweise weniger Ergebnisse zurückgibt, zu einer allgemeineren Zielgruppenbestimmung über, die in der Regel mehr Ergebnisse zurückgibt.
 
@@ -38,33 +36,33 @@ Ihre Kriteriensequenzen können je nach Seitentyp variieren, wie in den folgende
 
 ## Erstellen einer Kriteriensequenz
 
-Kriteriensequenzen werden auf dem [!UICONTROL Create Criteria Sequence] erstellt.
+Kriteriensequenzen werden auf dem Bildschirm [!UICONTROL Kriteriensequenz erstellen] erstellt.
 
-Es gibt mehrere Möglichkeiten, den [!UICONTROL Create Criteria Sequence] zu erreichen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
+Es gibt mehrere Möglichkeiten, um auf den Bildschirm [!UICONTROL Kriteriensequenz erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Klicken Sie im Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliothek auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
-* Wenn Sie eine [!UICONTROL Recommendations] Aktivität erstellen, klicken Sie auf dem [!UICONTROL Select Criteria] Bildschirm auf **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zur Verwendung mit anderen [!UICONTROL Recommendations] Aktivitäten zu speichern.
-* Wenn Sie eine [!UICONTROL Recommendations] bearbeiten, klicken Sie in ein [!UICONTROL Recommendations Location] auf Ihrer Seite und wählen Sie dann **[!UICONTROL Change Criteria]** aus. Klicken Sie auf dem [!UICONTROL Select Criteria] Bildschirm auf **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. Sie haben die Möglichkeit, Ihre neuen Kriterien für die Verwendung mit anderen [!UICONTROL Recommendations] Aktivitäten zu speichern.
+* Klicken Sie im Bildschirm der Bibliothek **[!UICONTROL Empfehlungen]** > **[!UICONTROL Kriterien]** auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!UICONTROL Recommendations]-Aktivitäten zur Verfügung.
+* Wenn Sie eine [!UICONTROL Recommendations]-Aktivität erstellen, klicken Sie auf dem Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie haben die Möglichkeit, Ihre neue Kriteriensequenz zur Verwendung mit anderen [!UICONTROL -Aktivitäten ] speichern.
+* Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] bearbeiten, klicken Sie auf ] Seite in ein Feld [!UICONTROL Recommendations-Speicherort und wählen Sie dann **[!UICONTROL Kriterien ändern]** aus. Klicken Sie im Bildschirm [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Neu erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Sie haben die Möglichkeit, Ihre neuen Kriterien für die Verwendung mit anderen [!UICONTROL Recommendations]-Aktivitäten zu speichern.
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL Create Criteria Sequence] über die erste Methode zugreifen: den Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** Bibliothek .
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mithilfe der ersten Methode auf [!UICONTROL  Bildschirm ]Kriteriensequenz erstellen **[!UICONTROL zugreifen: dem Bildschirm Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
-1. Klicken Sie auf **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
+1. Klicken Sie **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**.
 
 1. Füllen Sie die Informationen im Abschnitt [Basisinformationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Criteria Sequence]** auf das Pluszeichen ( + ), um eine oder mehrere Kriteriensequenzen hinzuzufügen.
+1. Klicken Sie **[!UICONTROL Abschnitt]** auf das Pluszeichen ( + ), um eine oder mehrere Kriteriensequenzen hinzuzufügen.
 
    Die Sequenzreihenfolge definiert die Reihenfolge, in der ein Design ausgefüllt wird. Wenn Kriterium 1 nicht genügend Empfehlungen zum Ausfüllen Ihres Designs enthält, werden die verbleibenden Slots mit Kriterium 2 usw. ausgefüllt.
 
-1. Wählen Sie auf dem Bildschirm [!UICONTROL Select Criteria] ein Kriterium aus und klicken Sie dann auf **[!UICONTROL Save]**.
+1. Wählen Sie [!UICONTROL  Bildschirm &quot;] auswählen“ ein Kriterium aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   Sie können das [!UICONTROL Search] und die Filteroption verwenden, um die gewünschten Kriterien zu finden.
+   Sie können das Feld [!UICONTROL Suche] und die Filteroption verwenden, um die gewünschten Kriterien zu finden.
 
-1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Limit the number of items returned]** auf die Position „Ein“ und geben Sie dann die Anzahl der Elemente (zwischen 1 und 50) an.
+1. (Optional) Schieben Sie den Umschalter **[!UICONTROL Begrenzung der Anzahl der zurückgegebenen Elemente]** auf die „Ein“-Position und geben Sie dann die Anzahl der Elemente (zwischen 1 und 50) an.
 
-   Beachten Sie die folgenden Anwendungsfälle, um den Wert der [!UICONTROL Limit the number of items returned]-Option (manchmal auch als „Steuerung auf Steckplatzebene“ bezeichnet) zu verstehen:
+   Beachten Sie die folgenden Anwendungsfälle, um den Wert der Option [!UICONTROL Begrenzung der Anzahl der zurückgegebenen Elemente] (manchmal auch als „Steuerung auf Steckplatzebene“ bezeichnet) zu verstehen:
 
    * **Anwendungsfall 1**: Sie möchten eine Mischung aus verschiedenen Arten von Elementen in einer einzigen Recommendations-Taskleiste haben. Beispiel: Sie möchten eine Mischung aus Oberbekleidung (Jacken) und Oberteilen (Hemden, T-Shirts) anzeigen. Verwenden Sie dazu eine Sammlung für die Aktivität , die alle potenziellen Produkttypen in allen Slots in Ihrem Design enthält. Richten Sie dann Ihre ersten Kriterien mit einem statischen Filter ein, der die Kriterien auf Oberbekleidung einschränkt, und richten Sie Ihre zweiten Kriterien mit einem statischen Filter ein, der die Kriterien auf Oberbekleidung einschränkt. Fügen Sie schließlich beide Kriterien zu einer Kriteriensequenz hinzu und beschränken Sie die ersten Kriterien auf zwei Slots.
 
@@ -78,8 +76,8 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie auf den [!UICONTROL
 
 1. Aktivieren Sie [Optionen für Sicherungsinhalte](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
-   Die Kriteriensequenz wird in der [!UICONTROL Criteria] angezeigt.
+   Die Kriteriensequenz wird in der Liste [!UICONTROL Kriterien] angezeigt.
 
    Weitere Informationen zu den Empfehlungslogikoptionen finden Sie unter [Kriterien](/help/main/c-recommendations/c-algorithms/algorithms.md).

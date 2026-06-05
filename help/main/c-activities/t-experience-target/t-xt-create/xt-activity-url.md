@@ -1,26 +1,24 @@
 ---
 keywords: Experience Targeting;XT;Aktivitäts-URL;URL
-description: Erfahren Sie, wie Sie die [!UICONTROL Activity URL] angeben, die die im Test verwendete Seite bestimmt und die geöffnet wird, wenn die [!UICONTROL Experience Targeting]-Aktivität erstellt wird mit [!DNL Adobe Target].
-title: Was ist der [!UICONTROL Activity URL] in einer [!UICONTROL Experience Targeting] (XT)-Aktivität?
+description: Erfahren Sie, wie Sie die [!UICONTROL Aktivitäts-URL] angeben, die die im Test verwendete Seite bestimmt und die geöffnet wird, wenn die [!UICONTROL Erlebnis-Targeting]-Aktivität erstellt wird [!DNL Adobe Target].
+title: Was ist die [!UICONTROL Aktivitäts-URL] in einer [!UICONTROL Erlebnis-Targeting]-Aktivität (XT)?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 268
-ht-degree: 37%
+source-wordcount: 298
+ht-degree: 35%
 
 ---
 
-# Aktivitäts-URL in [!UICONTROL Experience Targeting] (XT)-Aktivitäten
+# Aktivitäts-URL in [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT)
 
-Die [!UICONTROL Activity URL] bestimmt die Seite, die in einer [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT)-Aktivität verwendet wird. Dies ist die Seite, die beim Entwerfen der Aktivität im [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer] geöffnet wird.
+Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die in einer [!DNL Adobe Target] (Experience [!UICONTROL ) ]Zielgruppenbestimmungsaktivität (XT) verwendet wird. Hierbei handelt es sich um die Seite, [!UICONTROL  beim Entwerfen der Aktivität im ]Visual Experience Composer[!UICONTROL  (VEC) oder ]Form-Based Experience Composer) geöffnet wird.
 
-1. Spezifizieren Sie die Aktivitäts-URL, wenn Sie [beim Erstellen einer XT-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) dazu aufgefordert werden. Geben Sie die vollständige URL ein (einschließlich `https://`) und klicken Sie dann auf **[!UICONTROL Create Activity]**.
+1. Spezifizieren Sie die Aktivitäts-URL, wenn Sie [beim Erstellen einer XT-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) dazu aufgefordert werden. Geben Sie die vollständige URL ein (einschließlich `https://`) und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
 
    >[!NOTE]
    >
@@ -28,15 +26,15 @@ Die [!UICONTROL Activity URL] bestimmt die Seite, die in einer [!DNL Adobe Targe
    >
    >Standardmäßig öffnet der VEC oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) die Seite, die in Ihren Einstellungen von [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
    >
-   >Wenn Sie eine URL für eine Site angeben, die keine [[!DNL Target] at.js-JavaScript-Bibliothek oder  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de){target=_blank} enthält, können Sie keine Seitenelemente auswählen.
+   >Wenn Sie eine URL für eine Site angeben, die keine [[!DNL Target] at.js-JavaScript-Bibliothek oder  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} enthält, können Sie keine Seitenelemente auswählen.
 
-1. (Bedingt) Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Configure]**, wählen Sie **[!UICONTROL Page Delivery]** aus und geben Sie die URL in das Feld [!UICONTROL URL] ein.
+1. (Bedingt) Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** aus und geben Sie dann die URL in das Feld [!UICONTROL URL] ein.
 
    >[!NOTE]
    >
    >Wenn Sie die URL ändern, nachdem Sie für ein oder mehrere Erlebnisse Änderungen auf der Seite vorgenommen haben, wird das Erlebnis bei der Verwendung der neuen Seite zurückgesetzt und die vorgenommenen Änderungen gehen verloren.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Add Rule]** , um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Regel hinzufügen]**, um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.
 
    Zusätzliche Regeln können auf Folgendem basieren:
 
@@ -49,4 +47,4 @@ Die [!UICONTROL Activity URL] bestimmt die Seite, die in einer [!DNL Adobe Targe
 
    Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** .
+1. Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.

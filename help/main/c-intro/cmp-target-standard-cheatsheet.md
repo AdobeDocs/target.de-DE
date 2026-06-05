@@ -5,30 +5,14 @@ title: Wo finde ich Antworten auf Fragen zur Optimierung und Personalisierung?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2806
-ht-degree: 51%
+source-wordcount: 2871
+ht-degree: 50%
 
 ---
 
@@ -44,14 +28,14 @@ Erfahren Sie Antworten auf häufig gestellte Fragen zur Verwendung [!DNL Adobe T
 
 Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] und VEC vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
 
-Weitere Informationen finden [&#x200B; unter  [!DNL Target]  der &#x200B;](/help/main/c-intro/understand-the-target-ui.md).
+Weitere Informationen finden [ unter  [!DNL Target]  der ](/help/main/c-intro/understand-the-target-ui.md).
 
 +++
 
 **Wie kann ich erkennen, wie andere Kunden [!DNL Target] für bessere Ergebnisse genutzt haben?**
 
 +++Details anzeigen
-Erfahren Sie mehr über [&#x200B; Erfolgsgeschichten von Kunden](https://www.adobe.com/de/marketing-cloud/target/resources.html#x) um zu sehen, wie Unternehmen [!DNL Target] einsetzen, um die Optimierung zu optimieren, Erlebnisse zu personalisieren und messbare Geschäftsergebnisse zu erzielen.
+Erfahren Sie mehr über [ Erfolgsgeschichten von Kunden](https://www.adobe.com/de/marketing-cloud/target/resources.html#x) um zu sehen, wie Unternehmen [!DNL Target] einsetzen, um die Optimierung zu optimieren, Erlebnisse zu personalisieren und messbare Geschäftsergebnisse zu erzielen.
 
 +++
 
@@ -69,14 +53,14 @@ Bleiben Sie mit [!DNL Target] Versionen auf dem Laufenden.
 **Gibt es [!DNL Adobe] Community/Forum, in dem ich Antworten und weitere Informationen zu [!DNL Target] finden kann?**
 
 +++Details anzeigen
-Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
+Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
 
 +++
 
 **Welche Browser werden von [!DNL Target] unterstützt?**
 
 +++Details anzeigen
-Weitere Details finden Sie in der [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=de){target=_blank}-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Unterstützung der [!DNL Target Standard/Premium]-Oberfläche und die Unterstützung des Endbenutzer-Browsers auf Desktop/Geräten.
+Weitere Details finden Sie in der [Unterstützte Browser](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank}-Matrix. Beachten Sie, dass es zwei Aspekte gibt: die Unterstützung der [!DNL Target Standard/Premium]-Oberfläche und die Unterstützung des Endbenutzer-Browsers auf Desktop/Geräten.
 
 +++
 
@@ -147,7 +131,7 @@ In diesem Fall wählen Sie möglicherweise „Anzahl erhöhen, Benutzer freigebe
 **Ich habe mehrere Ziele in meiner Aktivität erstellt. Kann ich eine Kette an Zielen als einen Trichter für Berichterstellungs- und Analysezwecke erstellen? Beispielsweise möchte ich Ziel B berücksichtigen, wenn der/die Benutzende Ziel A erreicht hat, damit ich Zahlen für eine bestimmte funnel verfolgen kann.**
 
 +++Details anzeigen
-[!DNL Target] hat eine robuste Möglichkeit, dies mit unserer [!UICONTROL Metrics Dependency] Funktion zu erreichen. [Fügen Sie einfach Abhängigkeiten und andere Erfolgsmetriken hinzu](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Ihnen stehen Optionen wie „Erreicht“ und „Nicht erreicht“ zusammen mit der Fähigkeit zur Verfügung, Metriken auf mehrere Weisen zu kombinieren, um die gewünschte Kombination zu erstellen.
+[!DNL Target] verfügt über eine robuste Möglichkeit, dies mit unserer Funktion [!UICONTROL Metriken-]&quot; zu erreichen. [Fügen Sie einfach Abhängigkeiten und andere Erfolgsmetriken hinzu](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Ihnen stehen Optionen wie „Erreicht“ und „Nicht erreicht“ zusammen mit der Fähigkeit zur Verfügung, Metriken auf mehrere Weisen zu kombinieren, um die gewünschte Kombination zu erstellen.
 
 +++
 
@@ -156,32 +140,32 @@ In diesem Fall wählen Sie möglicherweise „Anzahl erhöhen, Benutzer freigebe
 +++Details anzeigen
 Hier kommen [Ziele](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) an.
 
-Sie sollten zunächst wissen, was Sie optimieren. Ist es [!UICONTROL Revenue], [!UICONTROL Conversion] oder [!UICONTROL Engagement]? Diese Optionen stehen im Abschnitt mit den Zielen zur Verfügung. Für diese können Sie weitergehend definieren, welche Aktion ein Benutzer für die Qualifizierung auf Ihrer Site vornehmen würde, dass das Ziel erreicht wurde.
+Sie sollten zunächst wissen, was Sie optimieren. Ist es [!UICONTROL Umsatz], [!UICONTROL Konversion] oder [!UICONTROL Interaktion]? Diese Optionen stehen im Abschnitt mit den Zielen zur Verfügung. Für diese können Sie weitergehend definieren, welche Aktion ein Benutzer für die Qualifizierung auf Ihrer Site vornehmen würde, dass das Ziel erreicht wurde.
 
-Möglich wird dies durch die [!UICONTROL Primary Goal] in Schritt 3 des dreiteiligen geleiteten Workflows. Sie können auch zusätzliche Ziele hinzufügen, was Ihnen für eine bessere Berichterstellung helfen kann.
+Möglich wird dies durch die Einstellung des [!UICONTROL Primären ]Ziels“ in Schritt 3 des dreiteiligen geleiteten Workflows. Sie können auch zusätzliche Ziele hinzufügen, was Ihnen für eine bessere Berichterstellung helfen kann.
 
 +++
 
 **Kann ich planen, dass eine Aktivität zu einem festen Zeitpunkt gestartet und beendet wird?**
 
 +++Details anzeigen
-Verwenden Sie die [Planungsfunktion“ im [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) Schritt des dreiteiligen Aktivitäts-Workflows, indem Sie das Start- und Enddatum angeben.
+Verwenden Sie die [Planungsfunktion“ im Schritt [!UICONTROL Ziele und Einstellungen]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) des dreiteiligen Aktivitäts-Workflows, indem Sie das Start- und Enddatum angeben.
 
-Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, wechselt die Aktivität in den Status [!UICONTROL Ended] .
+Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten den angegebenen Zeitplan ein. Nachdem das Enddatum erreicht wurde, wechselt die Aktivität in den Status [!UICONTROL Beendet].
 
 +++
 
-**Kann ich nur am [!UICONTROL Targeting]-Schritt etwas ändern und nicht den gesamten dreistufigen Workflow zur Bearbeitung durchlaufen?**
+**Kann ich nur den Schritt [!UICONTROL Targeting] ändern und nicht den gesamten dreistufigen Workflow zur Bearbeitung durchlaufen?**
 
 +++Details anzeigen
-Sie können dies einfach tun, indem [Sie den gewünschten Schritt Ihrer Wahl direkt auf der Seite [!UICONTROL Activity Overview] eingeben](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) und diesen Schritt dann mithilfe der Option [!UICONTROL Save and Close] verlassen.
+Dies können Sie ganz einfach tun[ indem Sie den gewünschten Schritt Ihrer Wahl auf der Seite [!UICONTROL Aktivitätsübersicht] eingeben ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) diesen Schritt dann mithilfe der Option [!UICONTROL Speichern und schließen] verlassen.
 
 +++
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
 +++Details anzeigen
-Das ist möglich. Verwenden [&#x200B; einfach die Option [!UICONTROL Save] , um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist möglich. Verwenden [ einfach die Option [!UICONTROL Speichern], um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 +++
 
@@ -202,18 +186,18 @@ Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/main/c
 **Kann ich die Prioritätsreihenfolge von ein paar Aktivitäten festlegen?**
 
 +++Details anzeigen
-Verwenden Sie die [!UICONTROL Priority] Einstellung, die in Schritt 3 des [!DNL Target] dreiteiligen geleiteten Workflows (Seite Ziele und Einstellungen) verfügbar ist, um [die Priorität der Aktivitäten zu definieren](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
+Verwenden Sie die Einstellung [!UICONTROL Priorität], die in Schritt 3 des [!DNL Target] dreiteiligen geleiteten Workflows (Seite Ziele und Einstellungen) verfügbar ist, um [die Priorität der Aktivitäten zu definieren](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Hierzu gibt es zwei Optionen:
 
 * Standard, mit drei Ebenen (Niedrig/Medium/Hoch)
-* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert“ die [!UICONTROL Fine-Grained Priorities]-Funktion ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+* Benutzerdefiniert, mit einem Bereich von 0 bis 999. Aktivieren Sie für „Benutzerdefiniert[!UICONTROL  die Funktion &quot;] Prioritäten“ ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
 
 +++
 
 ## Zielgruppen {#section_FA6314777ABC46D8B198D6F388051460}
 
-**Kann ich ein Zielgruppensegment in einer Aktivität erstellen, die für die Aktivität spezifisch ist? Ich bin nicht der Meinung, dass eine solche Zielgruppe in der [!UICONTROL Audience Library] geschaffen werden sollte, da es keinen Wiederverwendungsfaktor gibt.**
+**Kann ich ein Zielgruppensegment in einer Aktivität erstellen, die für die Aktivität spezifisch ist? Ich bin nicht der Meinung, dass eine solche Zielgruppe in der [!UICONTROL Zielgruppenbibliothek“ erstellt werden sollte] da kein Wiederverwendungsfaktor vorhanden ist.**
 
 +++Details anzeigen
 Verwenden Sie die [Funktion „Nur Aktivität“-Zielgruppe](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483), um die für die Aktivität lokalen Zielgruppen zu definieren.
@@ -254,7 +238,7 @@ Verwenden Sie die prozentualen Zuordnungskontrollen, die in [Schritt 2 des dreit
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -277,32 +261,32 @@ Bis dies der Fall ist, befolgen Sie die Anweisungen unter [Zulassen von gemischt
 
 +++
 
-**Kann ich den [!UICONTROL Visual Experience Composer] (VEC) auf meiner Site ausprobieren, obwohl die [!DNL Target] at.js-Bibliothek noch nicht bereitgestellt wurde?**
+**Kann ich den [!UICONTROL Visual Experience Composer] (VEC) auf meiner Site ausprobieren, obwohl die [!DNL Target]-Bibliothek „at.js“ noch nicht bereitgestellt wurde?**
 
 +++Details anzeigen
 Versuchen Sie, die Seite mit [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) zu laden.
 
 +++
 
-**Warum wird meine Site nicht innerhalb des [!UICONTROL Visual Experience Composer] (VEC) geladen?**
+**Warum wird meine Site nicht im [!UICONTROL Visual Experience Composer] (VEC) geladen?**
 
 +++Details anzeigen
 Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) auf der Hilfeseite. Wenden Sie sich an den [Adobe Support](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), wenn keine dieser Vorgehensweisen funktioniert.
 
 Wir haben auch [einen formularbasierten Ansatz](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe ](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 +++
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
 +++Details anzeigen
-Beschäftigen Sie sich mit der Funktion [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Beachten Sie, dass dies nur funktioniert, wenn die [!UICONTROL Enhanced Experience Composer] aktiviert ist.
+Beschäftigen Sie sich mit der Funktion [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Beachten Sie, dass dies nur funktioniert, wenn [!UICONTROL Enhanced Experience Composer] aktiviert ist.
 
 +++
 
-**Ich verfüge über mehrere Domänen. Für eine der Domains muss die [!UICONTROL Enhanced Experience Composer] aktiviert sein, für andere muss sie deaktiviert sein. Wie kann ich dies vornehmen?**
+**Ich verfüge über mehrere Domänen. Für eine der Domains muss [!UICONTROL Enhanced Experience Composer] aktiviert sein, für andere muss er deaktiviert sein. Wie kann ich dies vornehmen?**
 
 +++Details anzeigen
 Sie können immer die Option [Enhanced Experience Composer“ auf der Aktivitätsebene verwenden](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) um die Standardeinstellung ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]) außer Kraft zu setzen.
@@ -326,7 +310,7 @@ Das können Sie ganz einfach über unsere [Funktion „Mehrfach-Erlebnis-Version
 **Wie kann ich sehen, welche Änderungen ich in [!UICONTROL Visual Experience Composer] (VEC) vorgenommen habe?**
 
 +++Details anzeigen
-Ihre Änderungen werden immer im [Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) angezeigt. Auf der Registerkarte [!UICONTROL Modifications] wird die CSS-Auswahl oder die Mbox angezeigt, die Sie auf Ihr Angebot angewendet haben.
+Ihre Änderungen werden immer im [Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) angezeigt. Die [!UICONTROL Änderungen] zeigt die CSS-Auswahl oder die Mbox an, die Sie auf Ihr Angebot angewendet haben.
 
 Beachten Sie, dass der CSS-Selektor ein Sizzle Selector ist. Mit diesem Abschnitt können Sie schnell kleinere Änderungen vornehmen oder bestimmte Angebote löschen.
 
@@ -339,10 +323,10 @@ Eine Möglichkeit besteht darin, den [benutzerdefinierten Code-Editor](/help/mai
 
 +++
 
-**Warum kann ich nicht über die Anmeldeseite im [!UICONTROL Visual Experience Composer] (VEC) oder zu einer Seite wechseln, die tief in mir vergraben ist und für die ich keine bestimmte URL habe?**
+**Warum kann ich nicht über die Anmeldeseite im [!UICONTROL Visual Experience Composer] (VEC) oder zu einer Seite gehen, die sich tief in mir befindet und für die ich keine bestimmte URL habe?**
 
 +++Details anzeigen
-Verwenden Sie die Funktionen [!UICONTROL Compose] und [!UICONTROL Browse] , um zur gewünschten Seite zu navigieren und mit der Erstellung Ihres Erlebnisses zu beginnen.
+Mit den Funktionen [!UICONTROL Erstellen] und [!UICONTROL Durchsuchen] können Sie zur gewünschten Seite navigieren und Ihr Erlebnis erstellen.
 
 ![Umschalter zum Entwerfen und Durchsuchen](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -386,7 +370,7 @@ Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activitie
 
 +++
 
-**Kann ich die Entscheidungskraft von [!UICONTROL Target] nutzen, um ein Erlebnis/Angebot zu erhalten, das in Single Page Applications (SPAs) oder Server-seitigen Integrationen verwendet werden kann?**
+**Kann ich die Entscheidungskraft [!UICONTROL Target] verwenden, um ein Erlebnis/Angebot zu erhalten, das in Single Page Applications (SPAs) oder Server-seitigen Integrationen verwendet werden kann?**
 
 +++Details anzeigen
 Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) mit [JSON-Angeboten](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D), um Ihr Ziel zu erreichen.
@@ -401,7 +385,7 @@ Nutzen Sie die Leistungsfähigkeit [formularbasierter Aktivitäten](/help/main/c
 Lesen Sie die folgenden Aspekte des Produkts:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+* [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -409,9 +393,9 @@ Lesen Sie die folgenden Aspekte des Produkts:
 **Kann ich die Slice-and-Dice-Funktionalität für die Berichte zu mehreren Benutzersegmenten verwenden?**
 
 +++Details anzeigen
-Hier kommt die Funktion [Zielgruppen für &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)&quot; ins Spiel, die auf der [!UICONTROL Goals & Settings] Seite in Schritt 3 des dreiteiligen Workflows für geführte Aktivitäten verfügbar ist.
+Hier kommt die Funktion [Zielgruppen für die Berichterstellung](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) auf der Seite [!UICONTROL Ziele und Einstellungen] in Schritt 3 des dreiteiligen Workflows für geführte Aktivitäten ins Spiel.
 
-Sie haben die Möglichkeit, 50 solcher Segmente und auch den Anwendungspunkt ([!UICONTROL Activity Entry] oder eine bestimmte Metrik) hinzuzufügen, um eine leistungsstarke Möglichkeit zu haben, zu schneiden und zu würfeln.
+Sie haben die Möglichkeit, 50 solcher Segmente und auch den Anwendungspunkt ([!UICONTROL Aktivitätseintritt] oder eine bestimmte Metrik) hinzuzufügen, um eine leistungsstarke Möglichkeit zu haben, zu schneiden und zu würfeln.
 
 Beachten Sie, dass [!DNL Target] die entsprechenden Daten ab dem Zeitpunkt erfasst, zu dem Sie diese Zielgruppen hinzufügen. Wenn Sie also das Hinzufügen von Segmenten verpassen, bevor Sie den Test ausführen, haben Sie Pech.
 
@@ -427,21 +411,21 @@ Hierfür ist [Analytics for Target (A4T)](/help/main/c-integrating-target-with-m
 **Kann ich Offline-Berichtsberechnungen durchführen?**
 
 +++Details anzeigen
-Verwenden Sie die Optionen [Berichte in CSV exportieren und Bestelldetails in CSV herunterladen](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) auf der [!UICONTROL Reports] Seite, um die gewünschten Berichtsdaten herunterzuladen.
+Verwenden Sie die Optionen [Berichte in CSV exportieren und Bestelldetails in CSV herunterladen](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) auf der Seite [!UICONTROL Berichte], um die gewünschten Berichtsdaten herunterzuladen.
 
 +++
 
-**Kann ich das Kontrollerlebnis zur Auswertung von Berichten ändern oder die Zählmethodik von [!UICONTROL Visitors] auf [!UICONTROL Visits] ändern?**
+**Kann ich das Kontrollerlebnis zur Auswertung von Berichten ändern oder die Zählmethodik von &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ]?**
 
 +++Details anzeigen
-Nehmen Sie diese Änderungen mithilfe der [Einstellungen auf der Seite Berichte“ &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
+Nehmen Sie diese Änderungen mithilfe der [Einstellungen auf der Seite Berichte“ ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Lesen Sie mehr über diese Einstellungen, um nachzuvollziehen, wie die Berechnungen variieren.
 
 +++
 
 **Wie sollte ich Berichte interpretieren?**
 
 +++Details anzeigen
-Das [!DNL Target]-Team hat versucht, Berichte so intuitiv wie möglich zu gestalten, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Durchschnittswerten &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) mehr), um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Sie können [!DNL Analytics] prüfen, wenn Sie [Analytics for Target (A4T))-](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) für weitere Analysen von Zielgruppen verwenden.
+Das [!DNL Target]-Team hat versucht, Berichte so intuitiv wie möglich zu gestalten, mit Funktionen wie [Konfidenzintervallbalken, Steigerungsgrenzen, Signifikanz-/Konfidenz- und mehreren Metrikauswahlen, Tabellen- und Diagrammansichten, gleitenden Durchschnittswerten ](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) mehr), um eine aussagekräftige und einfache Berichtsanalyse zu ermöglichen. Sie können [!DNL Analytics] prüfen, wenn Sie [Analytics for Target (A4T))-](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) für weitere Analysen von Zielgruppen verwenden.
 
 +++
 

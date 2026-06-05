@@ -1,19 +1,15 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL &#x200B; Adobe Target].
+description: Erfahren Sie, wie Sie  [!DNL AI Assistant]  aktivieren[!DNL  Adobe Target].
 title: Wie aktiviere ich das  [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
 TQID: https://experienceleague.adobe.com/CJl-OFlDJhs-G99Cqy8i0xrHolV8GRQQcuXoKvXYNY4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 215
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -26,28 +22,28 @@ Informationen zu den erforderlichen Aufgaben, die Ihr Unternehmen abschließen m
 
 Ihr Unternehmen muss zunächst zusätzlichen rechtlichen Bedingungen zustimmen, um Zugriff auf [!DNL AI Assistant] zu erhalten. Wenden Sie sich dann an Ihr Adobe-Account-Team, um weitere Informationen zu diesen Bedingungen zu erhalten.
 
-Weitere Informationen finden Sie unter [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access){target=_blank} in der *[!DNL Experience Platform]*.
+Weitere Informationen finden Sie unter [Zugriff [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} in der *[!DNL Experience Platform]*.
 
-## Benutzerberechtigungen für [!UICONTROL AI Assistant] aktivieren
+## Aktivieren von Benutzerberechtigungen für [!UICONTROL KI-Assistenten]
 
-Um die [!UICONTROL AI Assistant] Funktion in [!UICONTROL Target] verwenden zu können, müssen einzelne Benutzerberechtigungen explizit aktiviert werden.
+Um die Funktion [!UICONTROL KI-Assistent] in [!UICONTROL Target] verwenden zu können, müssen einzelne Benutzerberechtigungen explizit aktiviert werden.
 
 {{permissions-update}}
 
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Administration]** in [!DNL Target].
-1. Wählen Sie im Menü links **[!UICONTROL Users]** aus.
+1. Navigieren Sie zur **[!UICONTROL Administration]** in [!DNL Target].
+1. Wählen Sie im Menü links die Option **[!UICONTROL Benutzer]** aus.
 1. Suchen Sie den Benutzer, den Sie verwalten möchten, in der Liste oder verwenden Sie die Suchleiste, um ihn zu finden.
-1. Bewegen Sie den Mauszeiger über die Spalte **[!UICONTROL AI Permissions]** für die Person, der Sie Zugriff auf die [!UICONTROL Target AI Assistant] gewähren möchten.
+1. Bewegen Sie den Mauszeiger über **[!UICONTROL Spalte]** KI-Berechtigungen“ für die Person, der Sie Zugriff auf den [!UICONTROL Target-KI-Assistenten“ gewähren ].
 
    Ein Berechtigungs-Popup wird angezeigt.
 
    ![Einstellungen des KI-Assistenten](/help/main/c-intro/assets/ai-pop-up2.png)
 
-1. Verwenden Sie den Umschalter, um die **[!UICONTROL Target AI Assistant]** für diesen Benutzer zu aktivieren oder zu deaktivieren.
+1. Verwenden Sie den Umschalter, um die Berechtigung **[!UICONTROL Target-KI-Assistent]** für diesen Benutzer zu aktivieren oder zu deaktivieren.
 
    ![Popup mit Berechtigungen für KI-Assistenten](/help/main/c-intro/assets/ai-pop-up.png)
 
-   Nach der Aktivierung hat der Benutzer Zugriff auf die [!UICONTROL AI Assistant] in [!DNL Target]. Nur Benutzer mit dieser aktivierten Berechtigung können [!UICONTROL AI Assistant] Funktionen in ihrer [!DNL Target] sehen. Diese Berechtigung stellt sicher, dass der Zugriff auf KI-gestützte Tools kontrolliert und mit den Richtlinien Ihrer Organisation abgestimmt wird.
+   Nach der Aktivierung hat der Benutzer Zugriff auf den [!UICONTROL KI-Assistenten] innerhalb von [!DNL Target]. Nur Benutzer mit dieser aktivierten Berechtigung können [!UICONTROL KI-Assistent]-Funktionen in ihrer [!DNL Target] sehen. Diese Berechtigung stellt sicher, dass der Zugriff auf KI-gestützte Tools kontrolliert und mit den Richtlinien Ihrer Organisation abgestimmt wird.
 
 ## Schulungsvideos
 
@@ -55,4 +51,4 @@ Um die [!UICONTROL AI Assistant] Funktion in [!UICONTROL Target] verwenden zu k�
 
 Erfahren Sie, wie Sie in [!DNL Adobe Experience Platform] Zugriff und Berechtigungen für [!DNL AI Assistant] einrichten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475928/?captions=ger&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)

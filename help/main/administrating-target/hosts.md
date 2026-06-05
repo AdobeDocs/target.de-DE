@@ -6,26 +6,15 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1043
-ht-degree: 17%
+source-wordcount: 1095
+ht-degree: 21%
 
 ---
 
@@ -45,7 +34,7 @@ Um Hosts zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UIC
 
 ## Erkennen von Hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-Um einen Host zu erkennen und ihn der [!UICONTROL Hosts] Liste hinzuzufügen, müssen die folgenden Bedingungen erfüllt sein:
+Um einen Host zu erkennen und in die Liste [!UICONTROL Hosts] aufzunehmen, müssen die folgenden Bedingungen erfüllt sein:
 
 * Auf dem Host muss mindestens eine [!DNL Target] vorhanden sein
 * Eine Seite auf dem Host muss Folgendes enthalten:
@@ -61,67 +50,67 @@ Nachdem die Seite angezeigt wurde, wird der Host in der Liste [!UICONTROL Hosts]
 >
 >Dies umfasst sämtliche persönlichen Entwicklungsserver.
 
-Nachdem ein Host zur [!UICONTROL Host] hinzugefügt wurde, stellen Sie sicher, dass der Host erkannt wird.
+Stellen Sie nach dem Hinzufügen eines Hosts zur [!UICONTROL Hostgruppenliste] sicher, dass der Host erkannt wird.
 
-1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
+1. Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 1. Wird der Host nicht angezeigt, aktualisieren Sie den Browser.
 
-   Standardmäßig wird ein neu erkannter Host in der [!UICONTROL Production] platziert. Die [!UICONTROL Production] Umgebung ist die sicherste Umgebung, da sie das Anzeigen inaktiver Aktivitäten von diesen Hosts nicht zulässt.
+   Standardmäßig wird ein neu erkannter Host in der [!UICONTROL Produktionsumgebung] platziert. Die [!UICONTROL Produktionsumgebung] ist die sicherste Umgebung, da sie die Anzeige inaktiver Aktivitäten von diesen Hosts nicht zulässt.
 
-1. (Bedingt) Klicken Sie auf das **[!UICONTROL Move]** ( ![move icon](/help/main/assets/icons/MoveTo.svg) ), um den Host in die [!UICONTROL Development], [!UICONTROL Staging] oder eine andere Umgebung zu verschieben.
+1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL Verschieben]** ( ![move icon](/help/main/assets/icons/MoveTo.svg) ), um den Host in die [!UICONTROL Entwicklung], [!UICONTROL Staging] oder eine andere Umgebung zu verschieben.
 
 >[!NOTE]
 >
->Die [!UICONTROL Production] Umgebung kann nicht gelöscht werden, selbst wenn Sie sie umbenennen. Es wird davon ausgegangen, dass in dieser Umgebung die endgültigen, aktiven Aktivitäten und Tests durchgeführt werden. In der Standardumgebung ist es nicht zulässig, inaktive Kampagnen anzuzeigen.
+>Die [!UICONTROL Produktionsumgebung] kann nicht gelöscht werden, selbst wenn Sie sie umbenennen. Es wird davon ausgegangen, dass in dieser Umgebung die endgültigen, aktiven Aktivitäten und Tests durchgeführt werden. In der Standardumgebung ist es nicht zulässig, inaktive Kampagnen anzuzeigen.
 
 ## Sortieren oder Durchsuchen der Hosts-Liste {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-Um die [!UICONTROL Hosts] Liste zu sortieren, klicken Sie auf eine beliebige Spaltenüberschrift ([!UICONTROL Name], [!UICONTROL Environment] oder [!UICONTROL Last Requested]), um die Liste in auf- oder absteigender Reihenfolge zu sortieren.
+Um die Liste [!UICONTROL Hosts] zu sortieren, klicken Sie auf eine beliebige Spaltenüberschrift ([!UICONTROL Name], [!UICONTROL Umgebung] oder [!UICONTROL Zuletzt angefordert]), um die Liste in auf- oder absteigender Reihenfolge zu sortieren.
 
-Um die [!UICONTROL Hosts] zu durchsuchen, geben Sie einen Suchbegriff in das [!UICONTROL Search Hosts] ein.
+Um die Liste [!UICONTROL Hosts] zu durchsuchen, geben Sie einen Suchbegriff in das Feld [!UICONTROL Hosts suchen] ein.
 
 ## Erstellen Sie Zulassungslisten, die Hosts angeben, die autorisiert sind, [!DNL Target]-Anfragen an [!DNL Target] zu senden. {#allowlist}
 
-Sie können eine -Zulassungsliste erstellen, die Hosts (Domains) angibt, die autorisiert sind, [!DNL Target]-Anfragen an [!DNL Target] zu senden. Alle anderen Hosts, die Anfragen generieren, erhalten eine auskommentierte Autorisierungsfehlerantwort. Standardmäßig registriert sich jeder Host mit einer [!DNL Target]-Anfrage bei [!DNL Target] in der [!UICONTROL Production]-Umgebung und hat Zugriff auf alle aktiven und genehmigten Aktivitäten. Wenn dieser Ansatz nicht erwünscht ist, können Sie stattdessen die Zulassungsliste verwenden, um bestimmte Hosts aufzuzeichnen, die für [!DNL Target]-Anfragen und den Empfang [!DNL Target] Inhalte geeignet sind. Alle Hosts werden weiterhin in der [!UICONTROL Hosts] angezeigt, und Umgebungen können weiterhin verwendet werden, um diese Hosts zu gruppieren und jedem verschiedene Ebenen zuzuweisen, z. B. ob der Host aktive und/oder inaktive Aktivitäten sehen kann.
+Sie können eine -Zulassungsliste erstellen, die Hosts (Domains) angibt, die autorisiert sind, [!DNL Target]-Anfragen an [!DNL Target] zu senden. Alle anderen Hosts, die Anfragen generieren, erhalten eine auskommentierte Autorisierungsfehlerantwort. Standardmäßig registriert sich jeder Host mit einer [!DNL Target]-Anfrage bei [!DNL Target] in der [!UICONTROL Produktionsumgebung] und hat Zugriff auf alle aktiven und genehmigten Aktivitäten. Wenn dieser Ansatz nicht erwünscht ist, können Sie stattdessen die Zulassungsliste verwenden, um bestimmte Hosts aufzuzeichnen, die für [!DNL Target]-Anfragen und den Empfang [!DNL Target] Inhalte geeignet sind. Alle Hosts werden weiterhin in der Liste [!UICONTROL Hosts] angezeigt, und Umgebungen können weiterhin verwendet werden, um diese Hosts zu gruppieren und jedem unterschiedliche Ebenen zuzuweisen, z. B. ob der Host aktive und/oder inaktive Aktivitäten sehen kann.
 
 So erstellen Sie eine Zulassungsliste:
 
-1. Klicken Sie in der [!UICONTROL Hosts] auf **[!UICONTROL Authorize Hosts]**.
-1. Aktivieren Sie den Umschalter **[!UICONTROL Enable Authorized Hosts for content delivery]** .
-1. Fügen Sie die gewünschten Hosts nach Bedarf in das **[!UICONTROL Host contains]** ein.
+1. Klicken Sie in der [!UICONTROL Hosts]-Liste auf **[!UICONTROL Hosts zulassen]**.
+1. Aktivieren Sie den **[!UICONTROL Autorisierte Hosts für die Inhaltsbereitstellung aktivieren]**.
+1. Fügen Sie die gewünschten Hosts nach Bedarf in das Feld **[!UICONTROL Host enthält]** ein.
 
    Es können mehrere Hosts, einer pro Zeile, aufgeführt sein.
 
-1. Fügen Sie die gewünschten Hosts nach Bedarf in das **[!UICONTROL Host does not contains]** ein.
+1. Fügen Sie die gewünschten Hosts in das Feld **[!UICONTROL Host enthält nicht]** wie gewünscht ein.
 
    Es können mehrere Hosts, einer pro Zeile, aufgeführt sein.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Wenn eine [!DNL Target]-Anfrage auf einem nicht autorisierten Host erfolgt, antwortet der Aufruf mit `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=de){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion Zulassungsliste verwenden, dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hosts-Liste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 
 Manchmal erscheinen Hosts anderer Sites in Ihren Umgebungen. Eine Domain wird in der Liste angezeigt, wenn die Domain at.js aufruft. Wenn beispielsweise eine Ihrer Webseiten auf den Server eines anderen kopiert wird, wird diese Domain in Ihrer Umgebung angezeigt. Es können auch Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt werden.
 
-In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. Wenn keine Umgebung übergeben wird, wird der Host im Aufruf standardmäßig auf [!UICONTROL Production] gesetzt.
+In Fällen, in denen `mboxHost` an einen API-Aufruf weitergegeben wird, wird die Konversion für die weitergegebene Umgebung aufgezeichnet. Wenn keine Umgebung übergeben wird, ist für den Host im Aufruf standardmäßig [!UICONTROL Produktion].
 
-Sie können auch eine -Blockierungsliste erstellen, die Hosts (Domains) angibt, die keine [!DNL Target]-Anfragen an [!DNL Target] senden können, indem Sie die gewünschten Hosts in das [!UICONTROL Host Does Not Contain] Feld einfügen.
+Sie können auch eine -Blockierungsliste erstellen, die Hosts (Domains) angibt, die keine [!DNL Target] an [!DNL Target] senden können, indem Sie die gewünschten Hosts in das Feld [!UICONTROL Host enthält nicht] einfügen.
 
 >[!NOTE]
 >
->Die [!UICONTROL Authorized Hosts] Liste wird sowohl für [!DNL Target] Hosts als auch für Standard-Umleitungs-Hosts verwendet. Fügen Sie alle vorhandenen Domains hinzu, die für die Verwendung der [!DNL Adobe Target] JavaScript SDK (at.js) genehmigt wurden *UND* alle Domains, die in den standardmäßigen Weiterleitungs-URLs des Posteingangs verwendet werden. Fügen Sie der Zulassungsliste in Zukunft alle neuen ähnlichen Domains hinzu.
+>Die [!UICONTROL Autorisierte Hosts] Liste wird sowohl für [!DNL Target] Hosts als auch für Standard-Umleitungs-Hosts verwendet. Fügen Sie alle vorhandenen Domains hinzu, die für die Verwendung der [!DNL Adobe Target] JavaScript SDK (at.js) genehmigt wurden *UND* alle Domains, die in den standardmäßigen Weiterleitungs-URLs des Posteingangs verwendet werden. Fügen Sie der Zulassungsliste in Zukunft alle neuen ähnlichen Domains hinzu.
 
 ## Löschen eines Hosts {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Sie können einen Host, der nicht mehr gebraucht wird, löschen.
 
-1. Klicken Sie in der [!UICONTROL Hosts] auf das Symbol **[!UICONTROL Delete]** ( ![Löschsymbol](/help/main/assets/icons/DeleteOutline.svg) ).
-1. Klicken Sie auf **[!UICONTROL Delete]** , um den Löschvorgang zu bestätigen.
+1. Klicken Sie in der [!UICONTROL Hosts]-Liste auf das Symbol **[!UICONTROL Löschen]** ( ![Löschsymbol](/help/main/assets/icons/DeleteOutline.svg) ).
+1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
 >
@@ -133,13 +122,13 @@ Probieren Sie folgende Methoden zur Fehlerbehebung aus, falls Probleme mit Ihren
 
 **Host wird für Ihr Konto nicht in der Liste angezeigt.**
 
-* Aktualisieren Sie die [!UICONTROL Hosts] Seite in Ihrem Browser.
+* Aktualisieren Sie die Seite [!UICONTROL Hosts] Ihres Browsers.
 * Vergewissern Sie sich, dass die [!DNL Target]-Anfrage korrekt ist, einschließlich der at.js-Referenz.
 * Versuchen Sie, zu einer der [!DNL Target] Anfragen auf dem Host zu navigieren. Es ist möglich, dass nie eine [!DNL Target] auf dem Host in einem Browser gerendert wurde.
 
-**Zufällige oder unbekannte Domains werden in der [!UICONTROL Host] angezeigt.**
+**In der [!UICONTROL Hostgruppenliste] werden zufällige oder unbekannte Domänen angezeigt.**
 
-Eine Domain wird in der Liste angezeigt, wenn von der Domain eine Anfrage an [!DNL Target] gestellt wurde. Häufig werden Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt. Wenn die aufgelistete Domain nicht von Ihrem Team verwendet wird, können Sie auf [!UICONTROL Delete] klicken, um sie zu entfernen.
+Eine Domain wird in der Liste angezeigt, wenn von der Domain eine Anfrage an [!DNL Target] gestellt wurde. Häufig werden Domänen von Spider-Engines, Übersetzungssites oder lokalen Festplatten angezeigt. Wenn eine aufgeführte Domain von Ihrem Team nicht verwendet wird, können Sie auf [!UICONTROL Löschen] klicken, um sie zu entfernen.
 
 **Meine [!DNL Target]-Anfrage gibt &quot;/&#42;&quot; ohne Anzeige zurück - Nicht autorisierter Mbox-Host &#42;/.**
 

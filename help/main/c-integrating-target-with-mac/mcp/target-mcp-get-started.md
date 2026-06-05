@@ -35,7 +35,7 @@ Diese Seite führt Sie durch alles, was Sie benötigen, um den [!DNL Adobe Targe
 
 Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, stellen Sie Folgendes sicher:
 
-* Sie verfügen über eine aktive [!DNL Adobe Target] (Adobe Experience Cloud-Abonnement) mit einer Adobe Experience Platform-Organisation.
+* Sie besitzen eine aktive [!DNL Adobe Target]-Lizenz (Adobe Experience Cloud-Abonnement) bei einem Adobe Experience Platform-Unternehmen.
 * Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code, Cursor oder ChatGPT).
 * Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert. In Public Beta sind alle 23 verfügbaren Tools schreibgeschützt. **Beobachterrolle** oder höher ist ausreichend, um den MCP-Server zu verwenden.
 

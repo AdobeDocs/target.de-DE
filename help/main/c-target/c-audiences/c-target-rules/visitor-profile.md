@@ -5,16 +5,13 @@ title: Kann ich Besuchende ansprechen, die bestimmte Profilparameter erfüllen?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 TQID: https://experienceleague.adobe.com/lGNJLzHHa7aBUY3ZzJUU-9I8aPNsZgye1zmnN2mGHc4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 221
-ht-degree: 35%
+source-wordcount: 250
+ht-degree: 36%
 
 ---
 
@@ -22,23 +19,23 @@ ht-degree: 35%
 
 Erstellen Sie Zielgruppen in [!DNL Adobe Target] , um Besuchende anzusprechen, die bestimmte Profilparameter erfüllen.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Visitor Profile]** per Drag-and-Drop in den Bereich Audience Builder .
+1. Ziehen Sie **[!UICONTROL Besucherprofil]** per Drag-and-Drop in den Audience Builder-Bereich.
 
-1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    ![target_visitor_profile Bild](assets/target_visitor_profile.png)
 
    Die Parameter des Besucherprofils werden über die Mbox (Profil) übergeben. Sie können neue oder zurückkehrende Besucher als Ziel auswählen oder alle Benutzer einschließen.
 
-   * [!UICONTROL New Visitor]
-   * [!UICONTROL Returning Visitor]
-   * [!UICONTROL In Other Tests]
-   * [!UICONTROL Not In Other Tests]
-   * [!UICONTROL First Page of Session]
-   * [!UICONTROL Not First Page of Session]
-   * [!UICONTROL Category Affinity]
+   * [!UICONTROL Neuer Besucher]
+   * [!UICONTROL Wiederkehrender Besucher]
+   * [!UICONTROL In anderen Tests]
+   * [!UICONTROL Nicht in anderen Tests]
+   * [!UICONTROL Erste Seite der Sitzung]
+   * [!UICONTROL Nicht die erste Seite der Sitzung]
+   * [!UICONTROL Kategorieaffinität]
 
    Für jeden Mbox-Aufruf mit neuem `mboxPC`-Wert wird ein Besucherprofil im lokalen Edge-Speicher erstellt. Nach 30 Minuten Inaktivität wird das Profil in der [!DNL Target]-Datenbank gespeichert und kann von anderen Edges aus aufgerufen werden.
 
@@ -47,7 +44,7 @@ Erstellen Sie Zielgruppen in [!DNL Adobe Target] , um Besuchende anzusprechen, d
    Sie können benutzerdefinierte Profilparameter und `user.`-Parameter als Ziel auswählen. Wählen Sie den Parameter aus, den Sie für das Targeting Ihrer Aktivität verwenden möchten. Wenn der gewünschte Parameter nicht angezeigt wird, wurde der Parameter nicht von einer Mbox ausgelöst.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 ## Schulungsvideo: Erstellen von Zielgruppen ![Übersichts-Badge](/help/main/assets/overview.png)
 

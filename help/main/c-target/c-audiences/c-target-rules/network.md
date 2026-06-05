@@ -5,16 +5,13 @@ title: Kann ich Besuchende auf der Grundlage von Netzwerkoptionen ansprechen?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 64%
+source-wordcount: 507
+ht-degree: 65%
 
 ---
 
@@ -22,10 +19,10 @@ ht-degree: 64%
 
 Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie ISP, Domain-Name und Verbindungsgeschwindigkeit erstellen.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Network]** per Drag-and-Drop in den Bereich Audience Builder .
-1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Ziehen Sie &quot;**[!UICONTROL &quot; per Drag-and]** Drop in den Audience Builder-Bereich.
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * **ISP:** Ein ISP ist eine Organisation, die ihren Abonnenten Internetzugang ermöglicht, in der Regel gegen eine monatliche oder jährliche Gebühr. Viele ISPs bieten weitere Services, wie Webhosting oder E-Mail. Das ISP-Feld enthält entweder einen kommerziellen ISP (beispielsweise Telekom oder Vodafone) oder eine andere Entität, wie beispielsweise ein Unternehmen oder eine Bildungseinrichtung.
 
@@ -59,7 +56,7 @@ Sie können Zielgruppen in [!DNL Adobe Target] basierend auf Netzwerkdetails wie
      Dieses Feld basiert auf dem Verbindungstyp, nicht auf der tatsächlichen Geschwindigkeit. [!DNL Target] kann die genauen Geschwindigkeiten von Verbindungen nicht ermitteln. Der Breitband-Verbindungstyp wird verwendet, wenn kein Hinweis auf andere Verbindungstypen vorhanden ist und somit keine bestimmte Verbindung gewählt werden kann.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 Die folgende Abbildung zeigt eine Zielgruppe, die Besucher, die AT&amp;T verwenden, mit einer Verbindungsgeschwindigkeit von [!UICONTROL Mobile] anspricht.
 

@@ -5,16 +5,12 @@ title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 18%
+source-wordcount: 1145
+ht-degree: 23%
 
 ---
 
@@ -22,7 +18,7 @@ ht-degree: 18%
 
 Verwenden Sie Remote-Angebote, um Inhalte außerhalb von [!DNL Adobe Target] zu hosten, sodass [!DNL Target] diese Inhalte referenzieren und an Benutzer-Websites bereitstellen können. Diese Inhalte können sich aus Gründen der Benutzerfreundlichkeit oder der Sicherheit in einem Content-Management-System (CMS) oder einem anderen System befinden.
 
-Remote-Angebote können auf der Seite [!UICONTROL Offers] > [!UICONTROL Code Offers] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote im [!UICONTROL Visual Experience Composer] (VEC) können nicht erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+Remote-Angebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im [!UICONTROL Visual Experience Composer) (]) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 
 Einige Beispiele für Remote-Angebote sind:
 
@@ -50,60 +46,60 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
    * [Premium-](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatisches Targeting und Recommendations)
    * Multivariate Testing (MVT), da der VEC verwendet wird, der keine Remote-Angebote unterstützt.
 
-* Wenn sich Ihr Angebot in derselben Domain wie die [!DNL Target]-Anfragen befindet, können Sie mit der Option [!UICONTROL Cached] relative URLs zur Beschreibung Ihres Angebotsspeicherorts verwenden.
+* Wenn sich Ihr Angebot in derselben Domain wie die [!DNL Target]-Anfragen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebotsspeicherorts verwenden.
 
   Das bedeutet, dass beim Verschieben Ihrer Aktivität von Ihren Staging-Servern in die Produktion automatisch auf die Inhalte zugegriffen werden kann, ohne dass die URL manuell geändert werden muss.
 
-* Wenn Ihr Test Daten umfasst, die von Ihrem Server dynamisch generiert wurden, ist die Option [!UICONTROL Dynamic] möglicherweise die richtige Wahl.
-* Wenn Sie nur das Erscheinungsbild Ihrer vorhandenen Remote-Angebotsinhalte testen möchten, verwenden Sie die [!UICONTROL Visual Experience Composer], um das Erscheinungsbild der Inhalte zu ändern, die vom Content-Management-System zurückgegeben werden.
+* Sollten in Ihrem Test dynamisch vom Server generierte Daten enthalten sein, ist die Option [!UICONTROL Dynamisch] möglicherweise die richtige Wahl.
+* Sollten Sie lediglich planen, die Darstellung des Inhalts Ihres bestehenden Remote-Angebots zu prüfen, verwenden Sie den [!UICONTROL Visual Experience Composer], um Aussehen und Eindruck des Inhalts anzupassen, der vom Inhaltsverwaltungssystem ausgegeben wird.
 * Verwenden Sie die [Remote-Angebotsauswahlmatrix](#reference_B23BEDD29DDD47709A7651AFD27E776B) (unten), um das Angebot auszuwählen, das für Ihren spezifischen Fall am besten geeignet ist. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
-## Remote-Angebot über die [!UICONTROL Code Offers] erstellen
+## Erstellen eines Remote-Angebots über die Seite [!UICONTROL Angebote ]Code)
 
-1. Klicken Sie auf **[!UICONTROL Offers]** und wählen Sie dann die Registerkarte **[!UICONTROL Code Offers]** aus.
+1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Klicken Sie **[!UICONTROL Angebot erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
-1. Geben Sie im Dialogfeld &quot;[!UICONTROL Create Remote Offer]&quot; einen beschreibenden Namen für das Angebot ein.
+1. Geben [!UICONTROL  im Dialogfeld „Remote-] erstellen“ einen beschreibenden Namen für das Angebot ein.
 
-   Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell in der [!UICONTROL Offers] zu finden.
+   Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell in der Bibliothek [!UICONTROL Angebote] zu finden.
 
 1. (Bedingt) Wenn Sie über ein [Target Premium-Konto verfügen](/help/main/c-intro/intro.md#premium) wählen Sie den gewünschten [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) aus.
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Siehe [Umleitungs-URL-Typ: [!UICONTROL Onsite Cached] oder [!UICONTROL Onsite Dynamic]](#url-type) unten für weitere Informationen.
+   Weitere Informationen finden [ unter „URL-Typ [!UICONTROL Onsite ] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
 
 1. Geben Sie die absolute Remote-URL für das Remote-Angebot an.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
-## Erstellen eines Remote-Angebots mithilfe der [!UICONTROL Form-Based Experience Composer]
+## Erstellen eines Remote-Angebots mit dem [!UICONTROL formularbasierten Experience Composer]
 
-1. Wählen Sie beim Erstellen einer Aktivität mit [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, um den Abschnitt &quot;**[!UICONTROL Content]**&quot; anzuzeigen.
-1. Klicken Sie auf die Dropdown-Liste &quot;**[!UICONTROL Content]**&quot;, dann auf das **[!UICONTROL List]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ) und schließlich auf **[!UICONTROL Change Remote Offer]**.
+1. Wählen Sie beim Erstellen einer Aktivität mit [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) den Speicherort aus, an dem der Abschnitt **[!UICONTROL Inhalt]** angezeigt werden soll.
+1. Klicken Sie auf **[!UICONTROL Inhalt]** Dropdown-Liste, klicken Sie auf das Symbol **[!UICONTROL Liste]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ) und dann auf **[!UICONTROL Remote-Angebot ändern]**.
 
-1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Klicken Sie **[!UICONTROL Angebot erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
 1. Geben Sie einen beschreibenden Namen für das Angebot an.
 
-   Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell in der [!UICONTROL Assets] zu finden.
+   Ein beschreibender Name unterstützt Sie und andere dabei, das Angebot problemlos in der Bibliothek [!UICONTROL Assets] aufzufinden.
 
 1. (Bedingt) Wenn Sie über ein [Target Premium-Konto verfügen](/help/main/c-intro/intro.md#premium) wählen Sie den gewünschten [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) aus.
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Siehe [Umleitungs-URL-Typ: [!UICONTROL Onsite Cached] oder [!UICONTROL Onsite Dynamic]](#url-type) unten für weitere Informationen.
+   Weitere Informationen finden [ unter „URL-Typ [!UICONTROL Onsite ] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
-## Umleitungs-URL-Typ: [!UICONTROL Onsite Cached] oder [!UICONTROL Onsite Dynamic] {#url-type}
+## Umleitungs-URL-Typ: [!UICONTROL Onsite zwischengespeichert] oder [!UICONTROL Onsite dynamisch] {#url-type}
 
 Die folgenden Informationen helfen Ihnen, die Unterschiede zwischen den beiden Optionen zu verstehen:
 
-### [!UICONTROL Onsite Cached] URL
+### [!UICONTROL Onsite zwischengespeichert] URL
 
 Der Inhalt für ein zwischengespeichertes Remote-Angebot wird aus [!DNL Target] bereitgestellt.
 
@@ -119,23 +115,23 @@ Ein dynamisches Remote-Angebot wird vom Content-Management- oder anderen System 
 
 Möglicherweise möchten Sie nicht, dass der Inhalt regelmäßig zwischengespeichert und dann von [!DNL Target] bereitgestellt wird, wenn Besucher eine Site mit einem Erlebnis laden, das ein Remote-Angebot enthält. Stattdessen sollten Sie das System aufrufen, das den Inhalt hostet, und möglicherweise bestimmte Informationen übergeben, damit das zurückgegebene Angebot für jeden Benutzer dynamisch (oder anders) sein kann. Meldet sich ein Benutzer beispielsweise auf einer Kreditkarten-Website an, auf der ein dynamisches Angebot enthalten ist, können Sie in die URL Parameter für die Kontoinformationen des Benutzers einfügen. In diesem Fall zeigt die Webseite benutzerspezifische Daten an, beispielsweise den Kontostand.
 
-Sie können auf **[!UICONTROL Add Parameter]** klicken, um eine oder mehrere [!DNL Target] Anfragen oder Anfrageparameter hinzuzufügen.
+Sie können auf **[!UICONTROL Parameter hinzufügen]** klicken, um eine oder mehrere [!DNL Target] oder Anfrageparameter hinzuzufügen.
 
 ## Remote-Angebote in Aktivitäten verwenden
 
-Remote-Angebote über die [!UICONTROL Form-Based Experience Composer] anwenden. Mit dem [!UICONTROL Visual Experience Composer] (VEC) können Sie derzeit keine Remote-Angebote anwenden.
+Anwenden von Remote-Angeboten mithilfe [!UICONTROL Form-Based Experience Composer]. Sie können derzeit keine Remote-Angebote mit dem [!UICONTROL Visual Experience Composer] (VEC) anwenden.
 
-Die [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in [!UICONTROL A/B Tests]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Recommendations]-Aktivitäten verwendet werden, wenn die [!UICONTROL Visual Experience Composer] nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie die [!UICONTROL Form-Based Experience Composer] verwenden, um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL formularbasierte Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
 
-1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL Form-Based Experience Composer].
+1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 
    Unter [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) finden Sie detaillierte schrittweise Anweisungen.
 
 1. Geben Sie den gewünschten Speicherort an und fügen Sie gegebenenfalls Zielgruppenverfeinerungen hinzu.
 
-1. Klicken Sie auf die Dropdown-Liste &quot;**[!UICONTROL Content]**&quot;, dann auf das **[!UICONTROL List]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ) und schließlich auf **[!UICONTROL Change Remote Offer]**.
+1. Klicken Sie auf **[!UICONTROL Inhalt]** Dropdown-Liste, klicken Sie auf das Symbol **[!UICONTROL Liste]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ) und dann auf **[!UICONTROL Remote-Angebot ändern]**.
 
-1. Wählen Sie das gewünschte Remote-Angebot aus dem [!UICONTROL Change Remote Offer] Dialogfeld aus und klicken Sie dann auf **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
+1. Wählen Sie das gewünschte Remote-Angebot im Dialogfeld [!UICONTROL Remote-Angebot ändern] aus und klicken Sie dann auf **[!UICONTROL Angebot erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
 1. Schließen Sie die Konfiguration der Aktivität ab.
 
@@ -159,7 +155,7 @@ Das Angebot wird ausgeführt, nachdem Sie die Seite gerendert haben. Ein unsicht
 
 ## Remote-Angebotsauswahlmatrix {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-Die Matrix zur Remote-Angebotsauswahl hilft Ihnen bei der Entscheidung, welche Art von Remote-Angebot ausgewählt werden soll: [!UICONTROL Onsite Cached] oder [!UICONTROL Onsite Dynamic].
+Die Matrix zur Remote-Angebotsauswahl hilft Ihnen bei der Auswahl des Remote-Angebots: [!UICONTROL Onsite Cached] oder [!UICONTROL Onsite Dynamic].
 
 | Funktion | Onsite zwischengespeichert | Dynamische Onsite-Bereitstellung |
 |--- |--- |--- |

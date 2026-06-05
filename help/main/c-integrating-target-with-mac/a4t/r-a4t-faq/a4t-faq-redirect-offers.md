@@ -5,22 +5,14 @@ title: Wo finde ich FAQs zu Umleitungsangeboten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +41,10 @@ Ja, A4T über die Platform Web SDK unterstützt [Umleitungsangebote](/help/main/
 
 +++
 
-### Werden [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Form-Based Experience Composer] unterstützt?
+### Werden [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL formularbasierter Experience Composer] unterstützt?
 
 +++Antwort
-Ja, der [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und der [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) werden unterstützt, wenn Sie integrierte Umleitungsangebote verwenden.
+Ja, [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und der [[!UICONTROL formularbasierte Experience Composer]](/help/main/c-experiences/form-experience-composer.md) werden unterstützt, wenn Sie integrierte Umleitungsangebote verwenden.
 
 +++
 
@@ -123,7 +115,7 @@ Die folgenden Abfrage String-Parameter sind Umleitungsangeboten zugeordnet:
 
 | Parameter | Beschreibung |
 |--- |--- |
-| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die Supplemental Data ID (SDID) und die Experience Cloud Org ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
+| `adobe_mc_sdid` | Der `adobe_mc_sdid` Parameter übergibt die Supplemental Data ID (SDID) und die Experience Cloud-Organisations-ID von der Standardseite an die neue Seite. Diese IDs ermöglichen es A4T, die Target-Anfrage auf der Standardseite mit der Analytics-Anfrage auf der neuen Seite zusammenzufügen.<br>Das erwartete Format für die Übergabe von sdid in der URL (für Hybrid-Apps oder von einer App an die Website oder von einer Website an eine andere) ist `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | Der Parameter `adobe_mc_ref` gibt die verweisende URL der Standardseite an die neue Seite weiter. Bei Verwendung mit AppMeasurement.js Version 2.1 (oder höher) verwendet Analytics diesen Parameterwert als Referrer-URL auf der neuen Seite. |
 
 Diese Parameter werden automatisch zu den Umleitungs-URLs hinzugefügt, wenn die integrierten Umleitungsangebote in VEC und in Form-Based Experience Composer verwendet werden, wenn der Besucher-ID-Service auf der Seite implementiert ist. Wenn Sie Ihren eigenen benutzerdefinierten Code in VEC und in Form-Based Experience Composer verwenden, müssen Sie sicherstellen, dass Sie diese Parameter mit Ihrem benutzerdefinierten Code weitergeben.

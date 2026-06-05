@@ -5,16 +5,12 @@ title: Wo finde ich die Dokumentation und Ressourcen für  [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 511
 ht-degree: 89%
 
 ---
@@ -29,7 +25,7 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | --- | --- |
 | [Handbuch für Adobe Target Business Practices](/help/main/target-home.md)<br>(dieses Handbuch) | Übersichtsinformationen, schrittweise Anleitungen und Screenshots mit Fokus auf die Interaktion mit [!DNL Target] über die Benutzeroberfläche. In diesem Handbuch werden alle verfügbaren Aktionen und Optionen einschließlich der zu vermeidenden „Gotchas“ erläutert. Dies ist die detaillierteste Ressource für die Arbeit mit der [!DNL Target]-Benutzeroberfläche. |
 | [Adobe Target-Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=de) | Videos und Tutorials, in denen Sie die vielen Komponenten von [!DNL Target] kennenlernen. |
-| [Adobe Experience League Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) | Erfahren Sie mehr über [!DNL Target] Angebote, tauschen Sie sich mit Ihren Kollegen und [!DNL Adobe] aus und stimmen Sie über Ihre eigene Idee für eine zukünftige [!DNL Target] ab oder reichen Sie sie ein. |
+| [Adobe Experience League Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de) | Erfahren Sie mehr über [!DNL Target] Angebote, tauschen Sie sich mit Ihren Kollegen und [!DNL Adobe] aus und stimmen Sie über Ihre eigene Idee für eine zukünftige [!DNL Target] ab oder reichen Sie sie ein. |
 | [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} | Informationen zur Adobe Target Developers-Website, die Ihnen bei der Implementierung von [!DNL Target] in clientseitigen und serverseitigen Anwendungen, in mobilen Apps, auf IoT-Geräten und mehr unterstützt. Sie können Ihre [!DNL Target]-Daten auch in Lösungen von Drittanbietern exportieren. |
 | [Target Recommendations-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=de){target=_blank} | Informationen zu den [!UICONTROL Recommendations]-APIs, mit denen Sie programmgesteuert mit [!DNL Target] Recommendations-Servern interagieren können. Diese APIs können in verschiedene Anwendungs-Stacks integriert werden, um Funktionen durchzuführen, die Sie für gewöhnlich über die Benutzeroberfläche von [!DNL Target] ausführen würden. |
 | [Serverseitige Bereitstellungs-APIs](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank} | Informationen zu den Ressourcen der Adobe Target-Bereitstellungs-API. |
@@ -40,5 +36,5 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | [Adobe-Kundenunterstützung – Bürozeiten](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informationen zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. In diesen Sitzungen erhalten Teilnehmer Informationen, Hilfestellungen bei Problemen sowie Tipps und Tricks zur erfolgreichen Verwendung der [!DNL Adobe Experience Cloud]-Lösungen einschließlich [!DNL Target]. |
 | [Webinar-Reihe zu Target-Grundlagen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registrierungsinformationen und Links zu früheren Sitzungen der Webinar-Reihe zu [!DNL Target]-Grundlagen, einer Webinar-Serie über Customer Success. |
 
-Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de), die Ihnen folgende Vorteile bietet:
+Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:
 

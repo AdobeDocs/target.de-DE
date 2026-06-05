@@ -1,29 +1,24 @@
 ---
 keywords: Deduplizierung;Duplikate zulassen;doppelte Angebote ausschließen;Automated Personalization;doppelte Angebote nicht zulassen;ausschließen;Standardinhalt;
-description: Verwalten von Ausschlüssen in [!UICONTROL Automated Personalization] (AP)-Aktivitäten.
-title: Wie verwalte ich Ausschlüsse in [!UICONTROL Automated Personalization] Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+description: Verwalten Sie Ausschlüsse in [!UICONTROL Automated Personalization]-Aktivitäten (AP).
+title: Wie verwalte ich Ausschlüsse in [!UICONTROL Automated Personalization]-Aktivitäten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 TQID: https://experienceleague.adobe.com/ERpNwQPsIRBmU0vTZbGa-lYg30BYl-uJxA8UT0f6060
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 492
-ht-degree: 21%
+source-wordcount: 521
+ht-degree: 23%
 
 ---
 
 # Verwalten von Ausschlüssen
 
-Übernehmen Sie die Kontrolle über Ihre [!UICONTROL Automated Personalization] (AP)-Strategie, indem Sie Ausschlüsse meistern. Unabhängig davon, ob Sie doppelte Angebote verhindern, Erlebniskombinationen verfeinern oder Standardinhalte entfernen, ermöglichen Ausschlüsse die Bereitstellung saubererer, relevanterer Erlebnisse, die Ihren Zielen und Zielgruppenerwartungen entsprechen.
+Übernehmen Sie die Kontrolle über Ihre [!UICONTROL Automated Personalization]-Strategie (AP), indem Sie Ausschlüsse beherrschen. Unabhängig davon, ob Sie doppelte Angebote verhindern, Erlebniskombinationen verfeinern oder Standardinhalte entfernen, ermöglichen Ausschlüsse die Bereitstellung saubererer, relevanterer Erlebnisse, die Ihren Zielen und Zielgruppenerwartungen entsprechen.
 
 ## Doppelte Angebote zulassen oder nicht zulassen {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
@@ -31,7 +26,7 @@ Verhindern Sie, dass Angebote aus der Angebotsbibliothek dupliziert werden, wenn
 
 Möglicherweise verfügen Sie über eine Aktivität mit sechs Orten auf einer Seite mit 12 Angeboten. Hier besteht die Gefahr, dass das gleiche Angebot in einer Aktivität mehrmals angezeigt wird. Mit dieser Funktion können Sie verhindern, dass doppelte Angebote gleichzeitig an verschiedenen Stellen innerhalb derselben Aktivität angezeigt werden.
 
-1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ) > klicken Sie auf das **[!UICONTROL Allow Duplicate Offers]**, um diese Funktion je nach Bedarf zu aktivieren oder zu deaktivieren.
+1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das **[!UICONTROL Konfigurieren]**-Symbol ( ![Konfigurieren-Symbol](/help/main/assets/icons/Setting.svg) ) > auf die **[!UICONTROL Duplizierte Angebote zulassen]**, um diese Funktion je nach Bedarf zu aktivieren und zu deaktivieren.
 
 ## Ausschließen spezifischer Erlebnisse {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -39,19 +34,19 @@ Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinatione
 
 Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, oder Sie beschränken die Anzahl der getesteten Erlebnisse, um die Traffic-Anforderungen für Ihre Aktivität zu senken.
 
-1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das Symbol **Inhalt verwalten** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
+1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität auf das Symbol **Inhalt verwalten** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
 
-   Die [!UICONTROL Experiences] Liste zeigt jedes Erlebnis, das aus den Permutationen aller Inhalts- und Standortoptionen generiert wurde.
+   Die Liste [!UICONTROL Erlebnisse] zeigt jedes Erlebnis an, das anhand der Permutationen sämtlicher Inhalts- und Positionsoptionen generiert wurde.
 
 1. Sie können Erlebnisse nach Bedarf ausschließen.
 
    Sie können bestimmte Erlebnisse ausschließen, indem Sie auf das Symbol [!UICONTROL **Mehr Aktionen**] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) und dann auf [!UICONTROL **Ausschließen**] klicken.
 
-   Alternativ können Sie Erlebnisse im Batch-Modus ausschließen, indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann auf **[!UICONTROL Exclude]** klicken. Das [!UICONTROL Exclude] wird angezeigt, wenn mindestens ein Erlebnis aktiviert ist.
+   Alternativ können Sie Erlebnisse im Batch-Modus ausschließen , indem Sie das Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann auf **[!UICONTROL Ausschließen]** klicken. Das Symbol [!UICONTROL Ausschließen] wird angezeigt, wenn ein oder mehrere Erlebnisse aktiviert sind.
 
    ![Erlebnisse im Batch-Modus ausschließen](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   Die Erlebnisse sind jetzt von der Aktivität ausgeschlossen und ihre [!UICONTROL Status] werden als [!UICONTROL Excluded] angezeigt.
+   Die Erlebnisse sind jetzt von der Aktivität ausgeschlossen und ihr [!UICONTROL Status] wird als &quot;[!UICONTROL &quot; ].
 
 ## Standardinhalt ausschließen {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
@@ -59,14 +54,14 @@ Manchmal möchten Sie vielleicht nicht, dass Ihr Standardinhalt in Ihre API-Akti
 
 Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Erscheinungsbild der restlichen Seite zu ändern, um die von Ihnen mit der AP-Aktivität getesteten Angebote anzupassen. Wenn Sie beispielsweise die Farbpalette der von Ihnen getesteten Angebote abgleichen möchten, können Sie die Hintergrundfarbe Ihrer Seite ändern und die standardmäßige Hintergrundfarbe ausschließen.
 
-**So schließen Sie Standardinhalte mithilfe des [!UICONTROL Visual Experience Composer] (VEC) aus:**
+**So schließen Sie Standardinhalte mit dem [!UICONTROL Visual Experience Composer] (VEC) aus:**
 
-1. Wählen [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** oder **[!UICONTROL Change Background Color]** zuzugreifen. Die verfügbaren Optionen variieren je nach Inhaltstyp.
+1. Wählen [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Text/HTML ändern]**, **[!UICONTROL Bildangebot ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**. Die verfügbaren Optionen variieren je nach Inhaltstyp.
 
    ![Optionen ändern](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Erstellen neuer Inhalte.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/Setting.svg) ) und dann auf den Umschalter **Standardangebot ausschließen/Standardangebot einschließen**, um das Standardangebot auszuschließen oder einzuschließen.
+1. Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** (Symbol ![Mehr Aktionen](/help/main/assets/icons/Setting.svg) ) und klicken Sie dann auf das Umschalter **Standardangebot ausschließen/Standardangebot einschließen**, um das Standardangebot auszuschließen oder einzuschließen.
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

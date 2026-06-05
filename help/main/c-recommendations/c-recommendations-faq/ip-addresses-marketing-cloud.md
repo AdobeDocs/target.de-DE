@@ -2,17 +2,15 @@
 keywords: IP-Adresse; IP-Adressen; Whitelist; Zulassungsliste; Firewall; Datensätze; Feed; Server; Adobe Experience Cloud; Recommendations
 description: Ansicht einer Liste der IP-Adressen, die von Feed-verarbeitenden  [!DNL Target]  Recommendations-Servern verwendet werden. Diese benötigen Sie, um Ihre Firewall so zu konfigurieren, dass sie von Adobe-Servern ausgehende IP-Adressen durchlässt.
 title: Welche IP-Adressen verwenden feed-verarbeitende Target Recommendations-Server?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 TQID: https://experienceleague.adobe.com/-EhfjK6jTuHX33utQig-XYhf-nzkWlxb58VRmK9fLWo
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: 189
 ht-degree: 56%
 
 ---
@@ -25,7 +23,7 @@ Liste der IP-Adressen, die von [!DNL Adobe Target] Feed-verarbeitenden [!DNL Rec
 >
 >Das [!DNL Target]-Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen von [!DNL Recommendations]-Feeds. Wenn Sie IP-Zulassungslisten implementieren, stellen Sie sicher, dass die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt werden. Die bestehenden Hosts werden am 30. Juni 2024 eingestellt. Um einen reibungslosen Übergang zu gewährleisten, setzen Sie alle neun Adressen auf die Zulassungsliste. Es ist nicht dringend, die vorhandenen Adressen zu entfernen.
 
-[!DNL Target] [!UICONTROL Recommendations] verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden AWS-Hosts:
+[!DNL Target] [!UICONTROL Recommendations]-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden AWS-Hosts:
 
 **Neue Hosts**:
 

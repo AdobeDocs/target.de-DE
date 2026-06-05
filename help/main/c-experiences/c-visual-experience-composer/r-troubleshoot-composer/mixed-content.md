@@ -5,16 +5,12 @@ title: Wie aktiviere ich gemischte Inhalte in meinem Browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 87%
+source-wordcount: 566
+ht-degree: 85%
 
 ---
 
@@ -24,7 +20,7 @@ Gemischte Inhalte treten auf, wenn die ursprüngliche Anfrage über HTTPS sicher
 
 Moderne Browser blockieren möglicherweise die Anzeige einer Seite oder zeigen einen Warnhinweis an, wenn sicherer gemeinsam mit nicht sicherem Inhalt aufgerufen wird.
 
-Eine Warnmeldung wird angezeigt, wenn der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Dieser Hinweis informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch das Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Inhalten (HTTPS und HTTP) öffnen.
+Es wird eine Warnmeldung angezeigt, wenn [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] versucht, eine Seite mit gemischtem Inhalt zu öffnen. Dieser Hinweis informiert Sie darüber, wie Sie die Blockierung in Ihrem Browser deaktivieren können. Durch das Deaktivieren der Blockierung können Sie eine HTTP-Site oder eine Site mit gemischten Inhalten (HTTPS und HTTP) öffnen.
 
 ![Warnung zu gemischtem Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -48,11 +44,11 @@ Siehe [Warnungen zu unsicheren Sites verwalten](https://support.google.com/chrom
 
 Wenn Sie VEC mit der neuesten Version von [!DNL Chrome] verwenden (Version 79.0.3945.117 oder höher), müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie auf das Schlosssymbol (Achtung) und dann auf **[!UICONTROL Site settings]**.
+1. Klicken Sie auf das Schlosssymbol (Achtung) und dann auf **[!UICONTROL Site-Einstellungen]**.
 
    ![Site-Einstellungen](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scrollen Sie nach **[!UICONTROL Insecure content]** und ändern Sie dann in der Dropdown-Liste „Sperren (Standard)“ in „Zulassen“.
+1. Scrollen Sie zu **[!UICONTROL Nicht sicherer Inhalt]** und ändern Sie dann in der Dropdown-Liste „Sperren (Standard)“ in „Zulassen“.
 
    ![Nicht sicherer Inhalt](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -85,10 +81,10 @@ Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert [!DNL Edg
 
 Wenn Sie VEC mit der neuesten Version von [!DNL Edge] verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 
-1. Klicken Sie in [!DNL Edge] in der Menüleiste auf **[!DNL Microsoft Edge]**, **[!UICONTROL Settings]** und dann auf **Cookies und Site-Berechtigungen**.
+1. Klicken Sie [!DNL Edge] in der Menüleiste auf **[!DNL Microsoft Edge]**, **[!UICONTROL Einstellungen]** und dann auf **Cookies und Site-Berechtigungen**.
 
-1. Scrollen Sie zu **[!UICONTROL Insecure content]**.
+1. Scrollen Sie zu **[!UICONTROL Nicht sicherer Inhalt]**.
 
-1. Klicken Sie auf **[!UICONTROL Insecure content]** und dann auf **[!UICONTROL Add]** neben **[!UICONTROL Allow]**, fügen Sie die Site hinzu, auf der unsichere Inhalte zugelassen werden sollen, und klicken Sie dann auf **[!UICONTROL Add]**.
+1. Klicken Sie auf **[!UICONTROL Nicht sicherer Inhalt]**, klicken Sie dann auf **[!UICONTROL Hinzufügen]** neben **[!UICONTROL Zulassen]** fügen Sie die Site hinzu, auf der nicht sicherer Inhalt zugelassen werden soll, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 1. Laden Sie die VEC-Seite neu.

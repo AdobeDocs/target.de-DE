@@ -1,24 +1,18 @@
 ---
 keywords: Entität Entitätsattribute; Weiterleiten von Informationen an Recommendations; Verhaltensdaten; Datenzähler; relative URL definieren; Lagerbestandsebene anzeigen; Preis festlegen; Festlegen der Gewinnspanne; benutzerdefinierte Attribute
 description: Erfahren Sie, wie Sie Entitätsattribute verwenden, um Produkt- oder Inhaltsinformationen an Recommendations  [!DNL Target]  übergeben.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 title: Wie verwende ich Entitätsattribute?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1122
+source-wordcount: 1125
 ht-degree: 45%
 
 ---
@@ -42,7 +36,7 @@ Im Allgemeinen sieht die mBox „Display Information“ wie im folgenden Beispie
 
 >[!NOTE]
 >
->Wenn Sie at.js 2.*x* verwenden, wird `mboxCreate` (wie im folgenden Beispiel verwendet) nicht mehr unterstützt. Um Produkt- oder Inhaltsinformationen mithilfe von at.js 2.x *an [!DNL Recommendations] zu*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=de){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+>Wenn Sie at.js 2.*x* verwenden, wird `mboxCreate` (wie im folgenden Beispiel verwendet) nicht mehr unterstützt. Um Produkt- oder Inhaltsinformationen mithilfe von at.js 2.x *an [!DNL Recommendations] zu*, verwenden Sie [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Ein Beispiel finden Sie unter [Recommendations planen und implementieren](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -112,7 +106,7 @@ Der `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
->Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Category] anzuzeigen, kann nur ein `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser bestimmten Empfehlung verwendet wird. Der Wert des `categoryId` muss genau mit dem Wert des `entity.categoryId` übereinstimmen, der auf der [!UICONTROL Product Detail] übergeben wird.
+>Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur ein `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser bestimmten Empfehlung verwendet wird. Der Wert des `categoryId` muss genau mit dem Wert des `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails“ ] wurde.
 
 Beispiele:
 

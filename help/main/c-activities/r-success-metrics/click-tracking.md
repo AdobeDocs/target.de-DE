@@ -5,18 +5,13 @@ title: Was ist Klick-Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 75%
+source-wordcount: 903
+ht-degree: 76%
 
 ---
 
@@ -30,36 +25,36 @@ ht-degree: 75%
 
 ## Klick-Tracking einrichten {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Goals & Settings] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Conversion]** aus.
-1. Wählen Sie als Aktion **[!UICONTROL Clicked an element]** aus und klicken Sie dann auf **[!UICONTROL Select elements]**.
+1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]** aus.
+1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
 
-   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
+   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
 
 1. Wählen Sie die Elemente aus, die Sie verfolgen möchten.
 
    Tipps zur Auswahl von Elementen finden Sie unten im Abschnitt *Zu beachten*.
 
-1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Done]** , um Ihre Auswahl zu speichern.
+1. Klicken **[!UICONTROL oben]** Bildschirm auf „Fertig“, um Ihre Auswahl zu speichern.
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
 ## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
-Bei [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Multivariate Test]-(MVT)-Aktivitäten werden im [!UICONTROL Selected Elements] die für das Klick-Tracking ausgewählten Elemente auf der linken Seite aufgelistet.
+Für [!UICONTROL A/B]-, [!UICONTROL Erlebnis-Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Multivarianz-Test]&#x200B;(MVT)-Aktivitäten werden im Bereich [!UICONTROL Ausgewählte Elemente] die für Klick-Tracking ausgewählten Elemente auf der linken Seite aufgeführt.
 
 ![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im [!UICONTROL Tracked Components] klicken. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im Bedienfeld &quot;[!UICONTROL  Komponenten“ ]. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Zeigt die Elementaktion an. |
-| [!UICONTROL CSS selector] | Ermöglicht die Bearbeitung des CSS-Selektors. |
+| [!UICONTROL Getrackte Aktionen] | Zeigt die Elementaktion an. |
+| [!UICONTROL CSS-Auswahl] | Ermöglicht die Bearbeitung des CSS-Selektors. |
 | [!DNL Delete] | Löscht das Element. |
 
 ### Element hinzufügen
 
-Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das [!UICONTROL Add Component] oben im Bedienfeld klicken.
+Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Symbol [!UICONTROL Komponente hinzufügen] oben im Bedienfeld klicken.
 
 ## Zu beachten {#considerations}
 
@@ -71,7 +66,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Wenn nur ein einzelnes Element gezählt werden soll, obwohl auf mehrere Elemente der Seite geklickt wird, müssen Sie dem CSS-Element-Selektor mehrere Elemente zuordnen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
@@ -116,7 +111,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetriken enthalten.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen von [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement] Metriken
+* Verstehen und Erstellen [!UICONTROL  Metriken ]Konversion[!UICONTROL  Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

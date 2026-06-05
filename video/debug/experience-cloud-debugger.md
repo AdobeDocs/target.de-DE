@@ -5,8 +5,8 @@ title: Fehlerbehebung in  [!DNL Target]  mit Experience Cloud Debugger
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 100%
+source-wordcount: '80'
+ht-degree: 80%
 
 ---
 
@@ -17,15 +17,15 @@ Beheben von Fehlern in [!DNL Adobe Target] mithilfe [!DNL Adobe Experience Cloud
 
 ## Erweiterung hinzufügen
 
->[!VIDEO](https://video.tv.adobe.com/v/33823/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## Allgemeine Informationen zur Fehlerbehebung in [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/33824/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/33896/?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## Zusätzliche Ressourcen
 

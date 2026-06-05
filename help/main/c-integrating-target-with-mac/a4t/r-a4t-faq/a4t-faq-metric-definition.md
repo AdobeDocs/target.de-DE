@@ -5,15 +5,12 @@ title: Wo finde ich Informationen zu Metrikdefinitionen mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +28,11 @@ Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten I
 ## Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen? {#adv-settings}
 
 +++Antwort
-Die [!UICONTROL Advanced Settings] sind nicht für Aktivitäten verfügbar, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden.
+Die [!UICONTROL Erweiterte Einstellungen] sind nicht für Aktivitäten verfügbar, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden.
 
-Bei Aktivitäten, die A4T verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Diese Einstellungen *nicht*.
+Bei Aktivitäten, die A4T verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität behalten] und &quot;[!UICONTROL Bei jeder Impression]&quot;. Diese Einstellungen *nicht*.
 
-Für Nicht-A4T-Aktivitäten können Sie die [erweiterten Einstellungsoptionen](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) verwenden, um zu verwalten, wie Sie den Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll. Sie können auf die [!UICONTROL Advanced Settings] in einer Nicht-A4T-Aktivität zugreifen, indem Sie auf die vertikalen Auslassungszeichen > [!UICONTROL Advanced Settings] klicken, wie unten dargestellt:
+Für Nicht-A4T-Aktivitäten können Sie die [erweiterten Einstellungsoptionen](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) verwenden, um zu verwalten, wie Sie den Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll. Sie können auf die [!UICONTROL Erweiterte Einstellungen] in einer Nicht-A4T-Aktivität zugreifen, indem Sie auf die vertikalen Auslassungszeichen > [!UICONTROL Erweiterte Einstellungen] klicken, wie unten dargestellt:
 
 ![Erweiterte Einstellungen](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

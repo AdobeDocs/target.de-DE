@@ -1,33 +1,24 @@
 ---
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser
-description: Finden Sie heraus, warum manche Websites in [!UICONTROL Visual Experience Composer] (VEC) möglicherweise nicht zuverlässig geöffnet werden. Mit der VEC Helper-Browser-Erweiterung können Sie Websites zuverlässig innerhalb des VEC laden.
+description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit der VEC Helper-Browser-Erweiterung können Sie Websites zuverlässig innerhalb des VEC laden.
 title: Wie verwende ich die [!UICONTROL Visual Experience Composer] (VEC) Helper-Erweiterung?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 55%
+source-wordcount: 1111
+ht-degree: 51%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] Helper-Erweiterung
 
-Mit der Browser-Erweiterung [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper für [!DNL Google Chrome] können Sie Websites zuverlässig innerhalb des VEC laden, um Web-Erlebnisse schnell zu erstellen und zu prüfen.
+Mit der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper-Browser-Erweiterung für [!DNL Google Chrome] können Sie Websites zuverlässig innerhalb des VEC laden, um Web-Erlebnisse schnell zu erstellen und zu prüfen.
 
 Der VEC Helper-Browser ist eine [!DNL Chrome]. Diese Erweiterung ist bei Verwendung von [!DNL Mozilla Firefox] nicht erforderlich.
 
@@ -64,19 +55,19 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
   Beachten Sie, dass bei Verwendung des Enhanced Experience Composer (EEC) die Erweiterung at.js zwar nicht einbindet, aber die SameSite Cookie-Funktionalität weiterhin vorhanden ist. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
-* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer] (EEC) unterstützt.
+* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer) ].
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 
 ## Beziehen und Installieren der VEC Helper-Browsererweiterung
 
 1. Navigieren Sie zur Browser-Erweiterung [Adobe Target VEC Helper im Chrome Web Store](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Klicken Sie auf **[!UICONTROL Add to Chrome > Add Extension]**.
+1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen > Erweiterung hinzufügen]**.
 1. Öffnen Sie den VEC in [!DNL Target].
 1. Um die Erweiterung zu verwenden, klicken Sie in der Symbolleiste des Chrome-Browsers auf das VEC Helper-Symbol (![VEC Helper-Symbol](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)), während Sie sich im VEC oder [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) befinden.
-1. (Bedingt) Schieben Sie den **[!UICONTROL Inject Target Libraries]**-Umschalter an die Position „ein“, wenn die Web-Seite noch nicht die [!DNL Target] at.js-JavaScript-Bibliothek enthält.
+1. (Bedingt) Schieben Sie den Umschalter **[!UICONTROL Target-Bibliotheken einfügen]** auf die Position „ein“, wenn die Web-Seite noch nicht die [!DNL Target] at.js-JavaScript-Bibliothek enthält.
 
-   Die folgende Abbildung zeigt den VEC Helper mit aktivierter [!UICONTROL Inject Target Libraries]:
+   Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung [!UICONTROL Target-Bibliotheken ]:
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,7 +75,7 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
    ![VEC Helper 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Bedingt) Schieben Sie den **[!UICONTROL Cookies]**-Umschalter auf die Position „ein“, um die Browser-Fehlerbehebung für das `SameSite=None`-Attribut automatisch hinzuzufügen.
+1. (Bedingt) Schieben Sie den Umschalter **[!UICONTROL Cookies]** auf die Position „ein“, um die Browser-Fehlerbehebung für das `SameSite=None`-Attribut automatisch hinzuzufügen.
 
    ![Cookies-Umschalter in der VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -92,11 +83,11 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
 ## Hinweise
 
-* Das [!UICONTROL Inject Target libraries]-Flag in der Erweiterung ist standardmäßig deaktiviert. Sie können diese Markierung aktivieren, wenn Sie VEC auf einer Site verwenden möchten, für die [!DNL Target] noch nicht implementiert wurde.
+* Das [!UICONTROL Inject Target Libraries]-Flag in der Erweiterung ist standardmäßig deaktiviert. Sie können diese Markierung aktivieren, wenn Sie VEC auf einer Site verwenden möchten, für die [!DNL Target] noch nicht implementiert wurde.
 
   Diese Markierung ist eine globale Einstellung. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie beispielsweise diese Markierung auf „Ein“ setzen und eine Website öffnen, die bereits mit at.js implementiert ist, erhalten Sie eine Meldung, die Sie darüber informiert, dass at.js bereits geladen ist. Adobe geht davon aus, dass die meisten Kundinnen und Kunden auf ihren Seiten bereits at.js implementiert haben und die Standardeinstellung „off“ verwenden.
 
-* Die Erweiterung lädt die neueste Version von at.js, die über die [!DNL Target UI] in [!UICONTROL Administration > Implementation] verfügbar ist.
+* Die Erweiterung lädt die neueste Version von at.js, die über die [!DNL Target UI] unter [!UICONTROL Administration > Implementierung“ verfügbar ].
 * Wenn Sie die Erweiterung verwenden, um at.js im [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) einzufügen, muss eine andere Chrome-Registerkarte geöffnet sein. Diese Chrome-Registerkarte muss für dieselbe [!DNL Adobe Experience Cloud]-Organisation authentifiziert sein, in der Sie die Aktivität erstellt haben.
 * Die folgenden Meldungen helfen Ihnen dabei, auf dem neuesten Stand zu bleiben:
 

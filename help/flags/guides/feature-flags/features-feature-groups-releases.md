@@ -5,7 +5,7 @@ hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Eine Sammlung von Feature Flags, die zum selben Team gehören. Ermöglicht die V
 
 ## Verwendung {#when-to-use}
 
-| Szenario | Verwenden Sie die   |
+| Szenario | Verwenden |
 |---|---|
 | Testen oder Rollout einer einzelnen Funktion für ein Programm | **Feature Flag** |
 | Koordinieren mehrerer Funktionen im selben Team, gleichzeitige Live-Schaltung | **Funktionsgruppe** |

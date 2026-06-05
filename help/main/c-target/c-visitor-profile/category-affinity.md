@@ -5,16 +5,13 @@ title: Was ist Kategorieaffinität?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +108,15 @@ Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategoriea
 
 ### Zielgruppe zur Verwendung der Kategorieaffinität erstellen {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Klicken Sie in der **[!UICONTROL Audiences]** auf **[!UICONTROL Create Audience]**.
+1. Klicken Sie in **[!UICONTROL Liste]** Zielgruppen“ auf **[!UICONTROL Zielgruppe erstellen]**.
 
    Oder
 
    Möchten Sie eine Zielgruppe kopieren, halten Sie in der Zielgruppenliste den Mauszeiger über die gewünschte Zielgruppe und klicken Sie auf das Kopiersymbol. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen beschreibenden Namen für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Visitor Profile]** die Option **[!UICONTROL Category Affinity]** aus.
+1. Klicken Sie auf **[!UICONTROL + Regel hinzufügen]** > **[!UICONTROL Besucherprofil]**.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Besucherprofil]** die Option **[!UICONTROL Kategorieaffinität]** aus.
 
    ![Besucherprofil > Kategorieaffinität](assets/affinity.png)
 
@@ -145,8 +142,8 @@ Die folgenden Abschnitte enthalten Informationen zur Verwendung einer Kategoriea
    * Gleich
 
 1. Geben Sie jeden neuen Wert in einer eigenen Zeile an (beispielsweise „Schuhe“).
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### Verwenden der Kategorieaffinitätszielgruppe in einer Aktivität {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Sie können Zielgruppen mit Kategorieaffinität in jeder Aktivität verwenden. Wählen Sie während des Drei-Schritte-Workflows im [!UICONTROL Target] die gewünschte Zielgruppe aus.
+Sie können Zielgruppen mit Kategorieaffinität in jeder Aktivität verwenden. Wählen Sie während des angeleiteten dreistufigen Workflows im Schritt [!UICONTROL Target] die gewünschte Zielgruppe aus.

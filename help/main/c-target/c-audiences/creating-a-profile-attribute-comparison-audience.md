@@ -5,32 +5,27 @@ title: Kann ich zwei Profilattribute zur Verwendung in Zielgruppen vergleichen?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
 # Erstellen einer Zielgruppe zum Profilattributvergleich
 
-Definieren Sie eine Zielgruppe in [!DNL Adobe Target], um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder in einer [&#x200B; Zielgruppe zu vergleichen](/help/main/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
+Definieren Sie eine Zielgruppe in [!DNL Adobe Target], um zwei Profilattribute für Ihre [Zielgruppenbibliothek](/help/main/c-target/c-audiences/audiences.md) oder in einer [ Zielgruppe zu vergleichen](/help/main/c-target/creating-activity-only-audience.md). Definieren Sie über Operatoren wie „größer als“, „kleiner als“ oder „gleich“ eine Zielgruppe, um die Werte zweier verschiedener Profilattribute dynamisch miteinander zu vergleichen.
 
 >[!NOTE]
 >
->Diese Funktion ist nur für die [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) verfügbar.
+>Diese Funktion ist nur für die Kategorie [[!UICONTROL Besucherprofil]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E) verfügbar.
 
 ## Überblick {#section_303CBC78194D49A2A004945D425441E1}
 
-Zielgruppen werden durch Regeln definiert, die bestimmen, wer in eine [!DNL Target]-Aktivität eingeschlossen und wer davon ausgeschlossen wird. Eine Zielgruppendefinition kann mehrere Regeln enthalten, wobei die einzelnen Regeln wiederum mehrere Parameter aufweisen können. Wenn eine der eingeschlossenen Regeln die Kategorie [!UICONTROL Visitor Profile] verwendet, können Sie eine Regel definieren, die auf dem spezifischen Wert eines Besucherprofilattributs basiert, oder den Wert dieses Attributs mit einem anderen Besucherprofilattribut vergleichen.
+Zielgruppen werden durch Regeln definiert, die bestimmen, wer in eine [!DNL Target]-Aktivität eingeschlossen und wer davon ausgeschlossen wird. Eine Zielgruppendefinition kann mehrere Regeln enthalten, wobei die einzelnen Regeln wiederum mehrere Parameter aufweisen können. Wenn eine der eingeschlossenen Regeln die Kategorie [!UICONTROL Besucherprofil] verwendet, können Sie eine Regel definieren, die auf dem spezifischen Wert eines Besucherprofilattributs basiert, oder den Wert dieses Attributs mit einem anderen Besucherprofilattribut vergleichen.
 
 Nehmen wir beispielsweise an, Sie arbeiten für ein Möbelunternehmen und haben zwei Tendenzwerte für Kunden in [!DNL Target] hochgeladen:
 
@@ -43,10 +38,10 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
 ## Erstellen einer Zielgruppe zum Profilattributvergleich {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Klicken Sie auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Visitor Profile]** per Drag-and-Drop in den Bereich Audience Builder .
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Visitor Profile]** ein Attribut aus:
+1. Ziehen Sie **[!UICONTROL Besucherprofil]** per Drag-and-Drop in den Audience Builder-Bereich.
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Besucherprofil]** ein Attribut aus:
 
    ![Propensity Score 1](assets/propensity_score_1.png)
 
@@ -54,7 +49,7 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![Propensity Score 2](assets/propensity_score_2.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Choose Comparison Type]** die Option **[!UICONTROL Attribute]** aus.
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Vergleichstyp auswählen]** die Option **[!UICONTROL Attribut]** aus:
 
    Mit dem Vergleichstyp „statischer Wert“ können Sie Ihr Besucherprofilattribut mit bestimmten Werten vergleichen.
 
@@ -68,10 +63,10 @@ Weitere Informationen finden Sie unter [Verfahren für die Datenübernahme in Ta
 
    ![propensity_score_4 Bild](assets/propensity_score_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 ## Schulungsvideo ![Übersichts-Badge](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Das folgende Video enthält weitere Informationen sowie ein Szenario, in dem Sie diese Funktion einsetzen könnten:
 
->[!VIDEO](https://video.tv.adobe.com/v/328066?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

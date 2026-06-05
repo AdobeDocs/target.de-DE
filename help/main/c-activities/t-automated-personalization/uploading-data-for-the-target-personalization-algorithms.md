@@ -1,45 +1,35 @@
 ---
 keywords: Automated Personalization;AP;Daten hochladen;Offline-Daten;Personalisierungsalgorithmus;Automatisches Targeting;Automatisches Targeting;Best Practices
-description: Erfahren Sie, wie Sie Offline-Daten beim Erstellen von Personalisierungsmodellen in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Auto-Target] Aktivitäten hochladen.
+description: Erfahren Sie, wie Sie Offline-Daten beim Erstellen von Personalisierungsmodellen in  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting]-Aktivitäten hochladen.
 title: Wie kann ich Daten für Personalization-Algorithmen hochladen?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 13%
+source-wordcount: 323
+ht-degree: 12%
 
 ---
 
 # Hochladen von Daten für die [!DNL Target] Personalisierungsalgorithmen
 
-Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target]-Aktivitäten unglaublich wertvoll sein.
+Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting]-Aktivitäten äußerst wertvoll sein.
 
-Es gibt mehrere Möglichkeiten, Daten in [!UICONTROL Automated Personalization] (AP) einzugeben und Personalisierungsalgorithmen zu [!UICONTROL Auto-Target]. Zusätzlich zu den Methoden unter [Methoden für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden auch [!DNL Experience Cloud] freigegebenen Zielgruppen ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) und Reporting-Zielgruppen während der Aktivität in [!DNL Target] Algorithmen verwendet.
+Es gibt mehrere Möglichkeiten, Daten in Personalisierungsalgorithmen von [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] einzugeben. Zusätzlich zu den Methoden unter [Methoden für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden auch [!DNL Experience Cloud] freigegebenen Zielgruppen ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) und Reporting-Zielgruppen während der Aktivität in [!DNL Target] verwendet.
 
-Informationen zu den automatisch von [!UICONTROL Automated Personalization] und [!UICONTROL Auto-Target] Personalisierungsalgorithmen erfassten und verwendeten Daten finden Sie unter [Automated Personalization-Datenerfassung](/help/main/c-activities/t-automated-personalization/ap-data.md).
+Informationen zu den automatisch erfassten und von Personalisierungsalgorithmen [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] verwendeten Daten finden Sie unter [Automated Personalization-Datenerfassung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ## Best Practices {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
 Die folgende Liste enthält Best Practices zum Hochladen von Daten für [!DNL Target] Personalisierungsalgorithmen:
 
-* Je höher die Qualität der Daten ist, die [!DNL Target] Personalisierungsalgorithmen zur Verfügung stehen, desto höher ist auch die Qualität der resultierenden Modelle in Ihren [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target].
+* Je höher die Qualität der Daten ist, die [!DNL Target] Personalisierungsalgorithmen zur Verfügung stehen, desto höher ist auch die Qualität der resultierenden Modelle in Ihren [!UICONTROL Automated Personalization] - und [!UICONTROL Auto-Target] -Aktivitäten.
 * Beschränken Sie die Verwendung mehrerer Profilskripte oder -attribute, die denselben Zweck erfüllen.
 * Übergeben Sie keine eindeutige ID, z. B. keine Sitzungs-ID, wenn Sie sie nicht benötigen.
 * Überprüfen Sie, welche Daten [!DNL Target] automatisch erfasst [Datenerfassung für die Personalization-Algorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md), damit Sie keine doppelten Informationen senden. [!DNL Target] verwendet beispielsweise IP-Adressen, um die Postleitzahlen der Besucher zu bestimmen. Es ist also nicht erforderlich, diese Information als separate Variable zu übergeben.

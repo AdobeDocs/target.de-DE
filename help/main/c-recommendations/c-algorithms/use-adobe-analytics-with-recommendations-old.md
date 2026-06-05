@@ -2,12 +2,12 @@
 keywords: Verhaltensdatenquelle;Analysen;Empfehlungen;Kriterien;Produktvariablen
 description: Erfahren Sie, wie Sie  [!DNL Adobe Analytics]  als Verhaltensdatenquelle verwenden können, um die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten von  [!DNL Analytics] in [!DNL Target Recommendations] zu verwenden.
 title: Wie verwende ich  [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '826'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Verhaltensdatenquelle könne
 
 Die Verwendung von [!DNL Analytics] als Verhaltensdatenquelle kann als umfangreiche Quelle für Informationen zum Benutzerverhalten dienen. Diese Informationen können Daten aus einer Drittanbieterquelle oder einem Feed enthalten, die bzw. der nur für [!DNL Analytics] freigegeben wird.
 
-Beim [Erstellen &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] gibt es zwei Optionsfelder, mit denen Sie auswählen können, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Beim [Erstellen ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] können Sie über zwei Optionsfelder auswählen, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf  > [!UICONTROL Kriterien] > [!UICONTROL Kriterien erstellen] > [!UICONTROL Kriterien erstellen]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 ![Schaltflächen für Verhaltensdatenquellen](assets/behavioral-data-source.png)
 
@@ -49,7 +49,7 @@ Ein [!DNL Target Recommendations] Beispiel-Feed-Format dient als Anleitung, für
 >
 >Wenn es sich um eine Inhalts-Site handelt, müssen die entsprechenden Inhaltselemente als „Produkte“ behandelt werden und die zugehörigen Attribute zu diesem Inhalt müssen als Attribute übergeben werden. Zu diesen Attributen gehören u. a. der Name des Autors, das Veröffentlichungsdatum, der Titel des Inhalts, der Monat der Veröffentlichung usw. Die Granularität von Kategorieebenen oder Kategorietypen sollte vom Unternehmen auf der Grundlage von Anwendungsfallanforderungen festgelegt werden.
 
-Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=de) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation erfordern die Diskretion des Teams, das sie bereitstellt (Beispiel : Kategorie). Es wird immer empfohlen, [!DNL Adobe] vor dieser Aktivität zu konsultieren.
+Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation erfordern die Diskretion des Teams, das sie bereitstellt (Beispiel : Kategorie). Es wird immer empfohlen, [!DNL Adobe] vor dieser Aktivität zu konsultieren.
 
 ### Zu beachten
 
@@ -61,32 +61,32 @@ Jetzt ist es an der Zeit, diese Variablen auf [!DNL Target] Seite abzubilden, um
 
 ## In [!DNL Target] implementieren
 
-1. Klicken Sie [!DNL Target] auf **[!UICONTROL Recommendations]** und dann auf die Registerkarte **[!UICONTROL Feeds]** .
+1. Klicken Sie [!DNL Target] auf **[!UICONTROL Recommendations]** und dann auf die Registerkarte **[!UICONTROL Feeds]**.
 
    ![Feeds](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
 
-1. Klicken Sie auf **[!UICONTROL Create Feed]**.
+1. Klicken Sie **[!UICONTROL Feed erstellen]**.
 
-1. Wählen Sie **[!UICONTROL Analytics Classifications]** und geben Sie dann die Report Suite an.
+1. Wählen Sie **[!UICONTROL Analytics Classifications]** aus und geben Sie dann die Report Suite an.
 
    ![Analytics Classifications-Option](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
-1. Klicken Sie auf **[!UICONTROL Next]** , um zu den **[!UICONTROL Schedule]** Einstellungen zu gelangen und einen Häufigkeitszeitraum für den Feed auszuwählen:
+1. Klicken Sie **[!UICONTROL Weiter]**, um zu den **[!UICONTROL Zeitplan]**-Einstellungen zu wechseln und einen Häufigkeitszeitraum für den Feed auszuwählen:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL Täglich]
+   * [!UICONTROL Wöchentlich]
+   * [!UICONTROL Alle 2 Wochen]
+   * [!UICONTROL Nie]
 
    Sie können auch die Tageszeit auswählen, zu der der Feed verarbeitet werden soll.
 
-1. Klicken Sie auf **[!UICONTROL Next]** , um zu den **[!UICONTROL Mapping]** Einstellungen zu gelangen, und ordnen Sie dann die Feldspaltenüberschriften den entsprechenden [!UICONTROL Recommendations] Feldnamen zu.
+1. Klicken Sie **[!UICONTROL Weiter]**, um zu den Einstellungen **[!UICONTROL Zuordnung]** zu gelangen, und ordnen Sie dann die Feldspaltenüberschriften den entsprechenden Feldnamen [!UICONTROL Recommendations] zu.
 
    ![Abschnitt Zuordnung](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Häufig gestellte Fragen  
+## Häufig gestellte Fragen
 
 Beachten Sie bei der Verwendung von [!DNL Analytics] mit [!DNL Target] die folgenden häufig gestellten Fragen:
 

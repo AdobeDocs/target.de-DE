@@ -10,7 +10,7 @@ solution: Target
 product: Target
 source-git-commit: 882c91244e5dae0977c8a6a1e5878525f497a720
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Auf die Zulassungsliste gesetzt URLs definieren vertrauenswürdige URL-Muster, in denen Ihr Unternehmen [!DNL Adobe Target] Erlebnisse erstellen und ausführen kann, einschließlich der Verwendung von Remote- oder Umleitungsangeboten. Die Liste funktioniert neben [Host-Management](/help/main/administrating-target/hosts.md) und [Umgebungen](/help/main/administrating-target/environments.md), gilt jedoch speziell für zulässige Remote-Angebots-URL-Muster und zugehörige Validierungen.
 
-Um URLs zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Allowlisted URLs]**.
+Um URLs zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL auf die Zulassungsliste gesetzt URLs]**.
 
 ![Seite mit URL-Liste, Suchfeld und URL-Steuerung hinzufügen](../administrating-target/assets/allowlist-1.png)
 
@@ -27,7 +27,7 @@ Um URLs zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICO
 
 In der Haupttabelle werden die einzelnen Muster in einer Spalte aufgelistet. Unterstützte Einträge können exakte URLs, Platzhalterpfade oder Musterformate enthalten, die Ihr Unternehmen für Remote-Erlebnisse akzeptiert.
 
-1. Klicken Sie auf **[!UICONTROL Add URL]**.
+1. Klicken Sie **[!UICONTROL URL hinzufügen]**.
 
    ![](../administrating-target/assets/allowlist-2.png)
 
@@ -39,7 +39,7 @@ In der Haupttabelle werden die einzelnen Muster in einer Spalte aufgelistet. Unt
 
    Nachdem das Muster auf die Zulassungsliste gesetzt wurde, können Benutzende vorbehaltlich Ihrer anderen [!DNL Target] Aktivitäten und Angebote erstellen oder ausführen, die auf dieser URL basieren.
 
-1. Verwenden Sie das Feld **[!UICONTROL Search URLs]** , um die Tabelle zu filtern.
+1. Verwenden Sie das Feld **[!UICONTROL URLs suchen]**, um die Tabelle zu filtern.
 
 1. Um eine URL zu löschen, suchen Sie die Zeile für das Muster, das Sie nicht mehr benötigen, und klicken Sie auf das Symbol ![Löschen](../administrating-target/assets/do-not-localize/Smock_Delete_18_N.svg).
 

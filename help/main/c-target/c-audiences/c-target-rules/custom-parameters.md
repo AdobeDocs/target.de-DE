@@ -5,16 +5,13 @@ title: Kann ich Besuchende auf der Grundlage benutzerdefinierter Parameter anspr
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 TQID: https://experienceleague.adobe.com/IiMsTLXIYWfd8vXInIfyQtFZ4RDNTe28bPfvqFgi77U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 40%
+source-wordcount: 507
+ht-degree: 39%
 
 ---
 
@@ -26,20 +23,20 @@ Weitere Informationen finden Sie unter [Parameter an eine globale Mbox übergebe
 
 Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhalten Sie von `mboxParameter`mboxParameter keine Aufforderung mehr, `mboxName` einzugeben. Der Mbox-Name ist jetzt optional. Mit dieser Änderung können Sie Parameter aus mehreren Mboxes verwenden oder auf einen Parameter verweisen, der noch nicht am Rand aufgezeichnet wurde.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Custom]** per Drag-and-Drop in Audience Builder.
+1. Ziehen Sie **[!UICONTROL Benutzerdefiniert]** per Drag-and-Drop in Audience Builder.
 
    So wählen Sie den gewünschten Parameter aus:
 
    * Wählen Sie beim Erstellen einer Zielgruppe einen Parameternamen aus der Liste aus, geben Sie die ersten Zeichen des gewünschten Parameternamen ein oder geben Sie den vollständigen Namen des gewünschten Parameters ein.
-   * Wenn Sie sich an den Mbox-Namen, aber nicht an den Parameternamen erinnern, verwenden Sie die Dropdown-Liste [!UICONTROL Filter by] , um nach einer bekannten Mbox zu filtern und den gewünschten Parameter zu übergeben.
+   * Wenn Sie sich an den Mbox-Namen, aber nicht an den Parameternamen erinnern, verwenden Sie die [!UICONTROL Filtern nach] Dropdown-Liste, um nach einer bekannten Mbox zu filtern und den gewünschten Parameter zu übergeben.
 
    Bei keiner der Methoden gibt es eine Verbindung zwischen Mbox und Parameter. Die Zielgruppe funktioniert basierend auf dem Parameter in allen Mboxes, die diesen Parameter übergeben.
 
    >[!NOTE]
    >
-   >Die aus der Dropdown-Liste [!UICONTROL Filter By] ausgewählte Mbox wird bei der Erstellung einer Aktivität nicht gespeichert. Mit dieser Option können Sie die Parameter je nach der ausgewählten mbox filtern.
+   >Die aus der Dropdown-Liste [!UICONTROL Filtern nach] ausgewählte Mbox wird bei der Erstellung einer Aktivität nicht gespeichert. Mit dieser Option können Sie die Parameter je nach der ausgewählten mbox filtern.
 
    Wenn Sie eine bestehende Zielgruppe bearbeiten, werden die Filterkriterien mit dem Mbox-Namen angezeigt, der bei der Erstellung angegeben wurde.
 
@@ -65,9 +62,9 @@ Wenn Sie eine benutzerdefinierte Zielgruppe basierend auf einem erstellen, erhal
 
 1. Geben Sie jeden Wert in eine neue Zeile ein.
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Auf der [&#x200B; der Zielgruppe („Definitionsdetails„) wird &#x200B;](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) Parametername im **[!UICONTROL Rules]** Abschnitt angezeigt. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
+Die Popup-Karte [Details der Zielgruppe](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) zeigt den Parameternamen im Abschnitt **[!UICONTROL Regeln]** an. Auf die Mbox, die zum Filtern verwendet wird, wird nicht verwiesen.
 
 >[!NOTE]
 >

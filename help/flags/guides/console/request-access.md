@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Der Zugriff auf Flags wird auf Teamebene verwaltet. Um Flags verwenden zu können, müssen Sie einem Team mit der entsprechenden Rolle hinzugefügt werden.
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Bevor Sie Zugriff anfordern, bestätigen Sie Folgendes:
 
@@ -40,7 +40,7 @@ Die Ihnen zugewiesene Rolle bestimmt, welche Aktionen Sie in der Konsole ausfüh
 
 ## Nach Gewährung des Zugriffs {#after-access}
 
-Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihr Team und Ihre Programme sichtbar sind. Die [&#x200B; Schritte finden Sie unter &#x200B;](log-in-to-the-console.md) in Adobe Target .
+Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihr Team und Ihre Programme sichtbar sind. Die [ Schritte finden Sie unter ](log-in-to-the-console.md) in Adobe Target .
 
 ## Brauchen Sie Hilfe? {#need-help}
 

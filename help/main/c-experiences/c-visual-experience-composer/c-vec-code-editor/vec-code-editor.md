@@ -5,27 +5,24 @@ title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2226
-ht-degree: 72%
+source-wordcount: 2263
+ht-degree: 82%
 
 ---
 
 # Änderungen
 
-Informationen zur [!UICONTROL Modifications] in [!DNL Adobe Target], mit denen Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Auswahl, Mbox und benutzerdefinierter Code).
+Informationen zur Seite [!UICONTROL Änderungen] in [!DNL Adobe Target], mit der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Auswahl, Mbox und benutzerdefinierter Code).
 
-Auf der Seite [!UICONTROL Modifications] werden alle Änderungen angezeigt, die an Ihrer Seite im Visual Experience Composer (VEC) vorgenommen wurden. Sie können zusätzliche Änderungen vornehmen, indem Sie auf die einzelnen Elemente der Seite klicken und [eine Aktion auswählen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede von Ihnen vorgenommene Änderung wird als separate Aktion oder Element in der [!UICONTROL Modifications] angezeigt. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
+Auf der Seite [!UICONTROL Änderungen] werden alle Änderungen angezeigt, die an Ihrer Seite im Visual Experience Composer (VEC) vorgenommen wurden. Sie können zusätzliche Änderungen vornehmen, indem Sie auf die einzelnen Elemente der Seite klicken und [eine Aktion auswählen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element. Sie können auch Änderungen hinzufügen, einschließlich folgender Änderungstypen: CSS-Selektor, Mbox und benutzerspezifischer Code.
 
 ## Änderungsübersicht {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-Auf der Seite [!UICONTROL Modifications] werden alle Änderungen angezeigt, die an Ihrer Seite in VEC vorgenommen wurden. Jede von Ihnen vorgenommene Änderung wird als separate Aktion oder Element in der [!UICONTROL Modifications] angezeigt.
+Auf der Seite [!UICONTROL Änderungen] werden alle Änderungen angezeigt, die im VEC an Ihrer Seite vorgenommen wurden. Jede vorgenommene Änderung erscheint in der Liste [!UICONTROL Änderungen] als separate Aktion oder separates Element.
 
 ![codeEditor_page_mods Bild](assets/codeeditor_page_mods.png)
 
@@ -37,7 +34,7 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
   ![codeEditor_viewchange Bild](assets/codeeditor_viewchange.png)
 
-* Bearbeiten einer vorhandenen Aktion. Bewegen Sie den Mauszeiger über die gewünschte Änderung und klicken Sie dann auf das Symbol **[!UICONTROL Edit]** .
+* Bearbeiten einer vorhandenen Aktion. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Bearbeitungssymbol]**.
 
   ![codeEditor_edit Bild](assets/codeeditor_edit.png)
 
@@ -45,17 +42,17 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
   ![codeEditor_change1 Bild](assets/codeeditor_changechange1.png)
 
-* Löschen einer vorhandenen Aktion. Bewegen Sie den Mauszeiger über die gewünschte Änderung und klicken Sie dann auf das Symbol **[!UICONTROL Delete]** .
+* Löschen einer vorhandenen Aktion. Halten Sie den Mauszeiger über die gewünschte Umgebung und klicken Sie auf das **[!UICONTROL Löschsymbol]**.
 
   ![codeEditor_delete image](assets/codeditor_delete.png)
 
-* Hinzufügen einer neuen Änderung. Klicken Sie auf **[!UICONTROL Add Modification]** oder auf das Symbol + und geben Sie dann Ihre Änderungen wie unten beschrieben an.
+* Hinzufügen einer neuen Änderung. Klicken Sie auf **[!UICONTROL Änderung hinzufügen]** oder das Plus-Symbol (+) und geben Sie Ihre Änderungen wie unten beschrieben an.
 
   ![codeEditor_new Bild](assets/codeeditor_new.png)
 
   Beachten Sie, dass Target nach Erstellen einer Änderung anstelle der Schaltfläche „Änderung hinzufügen“ unten im Fenster ein Plus-Symbol (+) oben im Bereich „Änderungen“ anzeigt.
 
-* Docken Sie das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche an. Klicken Sie auf das Symbol [!UICONTROL Dock] , um zwischen den beiden Einstellungen umzuschalten.
+* Docken Sie das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche an. Klicken Sie auf das [!UICONTROL Andocksymbol], um zwischen den beiden Einstellungen zu wechseln.
 
   ![codeEditor_dock image](assets/codeditor_dock.png)
 
@@ -65,7 +62,7 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
 
 ## Änderungen hinzufügen {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. Um die [!UICONTROL Modifications] Seite für ein ausgewähltes Erlebnis anzuzeigen, klicken Sie im VEC auf das Symbol **[!UICONTROL Modifications]** &lt;/>.
+1. Um die Seite [!UICONTROL Änderungen] für ein ausgewähltes Erlebnis im VEC anzuzeigen, klicken Sie auf das Symbol **[!UICONTROL Änderungen]** &lt;/>.
 
    ![codeEditor_icon_big image](assets/codeeditor_icon_big.png)
 
@@ -73,36 +70,36 @@ Auf der Seite „Änderungen“ können Sie folgende Aktionen durchführen:
    >
    >Um den Bereich „Änderungen“ im formularbasierten Experience Composer zu öffnen, erstellen oder bearbeiten Sie ein HTML-Angebot. Weitere Informationen finden Sie unter [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
-   Die Seite [!UICONTROL Modifications] wird geöffnet, wobei der Bildschirm zwischen dem visuellen Modus auf der linken Seite und dem Bedienfeld Änderungen auf der rechten Seite aufgeteilt wird. Klicken Sie auf das Symbol [!UICONTROL Dock] , um das Bedienfeld Änderungen vertikal entlang der Seite der Target-Benutzeroberfläche oder horizontal unten anzudocken. Beachten Sie, dass Erlebnis A in der folgenden Abbildung keine vorangegangenen Änderungen aufweist.
+   Die Seite [!UICONTROL „Änderungen“] wird geöffnet und unterteilt den Bildschirm in den visuellen Modus auf der linken und den Bereich „Änderungen“ auf der rechten Seite. Klicken Sie auf das [!UICONTROL Andocksymbol], um das Bedienfeld „Änderungen“ vertikal an der Seite oder horizontal an der Unterseite der Target-Benutzeroberfläche anzudocken. Beachten Sie, dass Erlebnis A in der folgenden Abbildung keine vorangegangenen Änderungen aufweist.
 
    ![codeEditor_page image](assets/codeeditor_page.png)
 
-   Erlebnis B zeigt die vorherigen Änderungen im [!UICONTROL Modifications] Bedienfeld auf der rechten Seite.
+   Erlebnis B enthält vorangegangene Änderungen im Bereich [!UICONTROL Änderungen] auf der rechten Seite.
 
    ![codeEditor_page_mods Bild](assets/codeeditor_page_mods.png)
 
 1. So fügen Sie eine Änderung hinzu:
 
-   * Wenn keine vorherigen Änderungen am Erlebnis vorgenommen wurden, klicken Sie auf die Schaltfläche **[!UICONTROL Add Modification]** unten im Bedienfeld [!UICONTROL Modifications] auf der rechten Seite.
-   * Wenn vorherige Änderungen am Erlebnis vorgenommen wurden, klicken Sie oben im [!UICONTROL Modifications] auf der rechten Seite auf das Plussymbol (+).
+   * Wenn keine vorangegangenen Änderungen für das Erlebnis vorhanden sind, klicken Sie auf die Schaltfläche **[!UICONTROL Änderung hinzufügen]**, die sich unten im Bereich [!UICONTROL Änderungen] auf der rechten Seite befindet.
+   * Wenn vorangegangene Änderungen für das Erlebnis vorhanden sind, klicken Sie auf das Plus-Symbol, das sich oben im Bereich [!UICONTROL Änderungen] auf der rechten Seite befindet.
 
    Der Bereich „Änderungen“ zeigt Folgendes an:
 
    ![codeEditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Modifications Type]** den gewünschten Typ aus:
+1. Wählen Sie in der Dropdownliste **[!UICONTROL Änderungstyp]** den gewünschten Typ aus:
 
    | Änderungstyp | Details |
    |--- |--- |
    | CSS-Selektor | Geben Sie im Feld „CSS-Elementselektor“ das gewünschte CSS-Element an, das Sie ändern möchten, wählen Sie einen Aktionstyp aus (Inhalt festlegen oder Attribut festlegen) und geben Sie anschließend die gewünschten Informationen und den gewünschten Inhalt ein. |
    | mbox | Geben Sie den Mbox-Namen und den gewünschten Inhalt an.<p>**Hinweis**: Mboxes werden in Visual Experience Composer auf Seiten, die at.js 2.*x verwenden, nicht mehr*.<p>Als Problemumgehungen:<ul><li>Wenn Sie at.js 2.*x* verwenden, fügen Sie eine CSS-Selektor -Änderung anstelle einer Mbox -Änderung hinzu und fügen Sie den Inhalt des -Selektors hinzu, den Ihre Mbox verwendet hat. </li><li>Verwenden Sie formularbasierte Aktivitäten (funktioniert mit Mboxes und at.js 1.*x* und at.js 2.*x*).</li><li>Verwenden von at.js 1.*x* in VEC.</li></ul> |
-   | Benutzerspezifischer Code | Geben Sie einen optionalen Namen ein, aktivieren oder deaktivieren Sie bei  das Kontrollkästchen Add Code in the `<HEAD>` Abschnitt und fügen Sie dann Ihren benutzerdefinierten Code hinzu.<p>Wenn Sie [!UICONTROL Add Code in the `<HEAD>` Abschnitt] auswählen, wird benutzerdefinierter Code zum `<head>` Abschnitt hinzugefügt und seine Ausführung wartet nicht auf Text- oder Seitenladeereignisse. Fügen Sie ausschließlich Elemente der Typen `<script>` und `<style>` hinzu. Das Hinzufügen von `<div>`-Tags und anderen Elementen kann dazu führen, dass die verbleibenden `<head>`-Elemente in den Abschnitt `<body>` springen. Wenn Sie at.js verwenden, werden alle Angebote asynchron bereitgestellt.<p> Wenn Sie [!UICONTROL Add Code in the `<HEAD>` Abschnitt] deaktivieren, wird benutzerdefinierter Code unmittelbar nach dem `<body>`-Tag ausgeführt. Schließen Sie den gesamten Code in einen einzelnen `<div>`-Container ein, um die DOM-Struktur beizubehalten. Wenn Sie at.js verwenden, werden alle Angebote asynchron bereitgestellt.<p>Wenn HTML für `<BODY>` `<SCRIPT>` und `<DIV>` enthält, wird `<DIV>` an `<BODY>` angehängt und `<SCRIPT>` in `<HEAD>` ausgeführt. Außerdem wird `<SCRIPT>`, das eine externe Datei lädt, an `<HEAD>` angehängt.<p>**Hinweis**: Skripte werden asynchron ausgeführt. Das bedeutet, dass Sie beispielsweise nicht `document.write` oder ähnliche Skriptmethoden verwenden können.<p>Benutzerspezifischer Code bietet eine nicht visuelle Schnittstelle zum Anzeigen, Bearbeiten und Hinzufügen neuer Aktionen im VEC, im formularbasierten Experience Composer und im HTML-Angebotseditor. Der Bereich bietet eine Codeansicht für Erlebnisse, mit der Sie komplexere Erlebnisse erstellen, vorhandene Erlebnisse fein abstimmen und Probleme beheben können.<p>Benutzerspezifischer Code sollte nur von fortgeschrittenen Benutzern verwendet werden, die sich mit HTML, JavaScript und CSS auskennen. Die Codeansicht kann Ihnen dabei helfen, Änderungen zu optimieren oder fein abzustimmen oder Selektorprobleme zu beheben. Sie kann auch zum Hinzufügen von neuem benutzerdefiniertem Code und neuen Aktionen verwendet werden. Sie können mehr als einen benutzerspezifischen Code hinzufügen und optional jeden Code individuell benennen.<p>**Hinweis**: Benutzerdefinierter Code ist derzeit nur für A/B- und Experience Targeting(XT)-Aktivitäten verfügbar. Benutzerspezifischer Code ist für Overlays sowie bei Anwendung eines Umleitungsangebots deaktiviert.<p>Benutzerspezifischer Code unterstützt die folgenden Anwendungsfälle:<ul><li>Hinzufügen von benutzerdefiniertem JavaScript, HTML oder CSS zur Ausführung oben auf der Seite</li><li>Anzeigen oder Bearbeiten des Codes, der von VEC nach Änderungen generiert wurde</li><li>Festlegen von HTML-Inhalten für einen Selektor (nur CSS-Selektoren)</li><li>Festlegen eines Attributs zu einem HTML-Element</li><li>Hinzufügen von Angebotsinhalten, die in regionalen Mboxes übergeben werden sollen</li><li>Wechsel zu DOM-bereit anhand von jQuery</li><li>Wechsel zu DOM-bereit, ohne jQuery (Internet Explorer 8 wird nicht unterstützt)</li><li>Tausch mit DOM-Analyse über das Plug-in „elementOnLoad“</li><li>Benutzerdefinierte Umleitung</li></ul>Benutzerspezifischer Code bietet Folgendes:<ul><li>Zeilennummerierung für bessere Nutzbarkeit.</li><li>Syntaxhervorhebung zum Vermeiden einer falschen Syntax für HTML-Angebote.</li><li>Möglichkeit, mehrere benutzerspezifische Codes zu erstellen und sie optional individuell zu benennen. Erstellen mehrerer benutzerspezifischer Codes zur Vereinfachung des Debuggings. Statt nur einen benutzerspezifischen Code zu erstellen, um verschiedene Änderungen zu erreichen, können Sie beispielsweise einen separaten benutzerspezifischen Code für jede Änderung erstellen und die Codes eindeutig benennen. Mit separaten benutzerspezifischen Codes sind Ihre Änderungen modularer und leichter verwaltbar. Beachten Sie, dass die Ausführung mehrerer benutzerspezifischer Codes in einer Aktivität nicht zwingend in der Reihenfolge erfolgt, in der sie erstellt wurden.</li></ul>Der Bereich „Änderungen“ unterteilt den Bildschirm in den visuellen und den Codemodus. Beide Modi bleiben synchronisiert. Jede visuell vorgenommene Änderung hat eine entsprechende Zeile in der Codeansicht. Und jede Änderung am Code wird auch im visuellen Erlebnis angezeigt. Durch Klicken auf eine Zeile in der Codeansicht wird das entsprechende Element auf der visuellen Seite ausgewählt.<p>Benutzerspezifischer Code unterstützt HTML, Skripte und Styles. Jeder gültige HTML-Code und jedes gültige Skript kann hinzugefügt oder bearbeitet werden. |
+   | Benutzerspezifischer Code | Geben Sie einen optionalen Namen ein, aktivieren oder deaktivieren Sie [!UICONTROL  Kontrollkästchen Code im `<HEAD>` hinzufügen] und fügen Sie dann Ihren benutzerdefinierten Code hinzu.<p>Wenn Sie [!UICONTROL Code im `<HEAD>` Abschnitt hinzufügen] auswählen, wird benutzerdefinierter Code zum `<head>` Abschnitt hinzugefügt und dessen Ausführung wartet nicht auf Text- oder Seitenladeereignisse. Fügen Sie ausschließlich Elemente der Typen `<script>` und `<style>` hinzu. Das Hinzufügen von `<div>`-Tags und anderen Elementen kann dazu führen, dass die verbleibenden `<head>`-Elemente in den Abschnitt `<body>` springen. Wenn Sie at.js verwenden, werden alle Angebote asynchron bereitgestellt.<p> Wenn Sie die Option [!UICONTROL Code hinzufügen im `<HEAD>`-Abschnitt] deaktivieren, wird benutzerdefinierter Code unmittelbar nach dem `<body>`-Tag ausgeführt. Schließen Sie den gesamten Code in einen einzelnen `<div>`-Container ein, um die DOM-Struktur beizubehalten. Wenn Sie at.js verwenden, werden alle Angebote asynchron bereitgestellt.<p>Wenn HTML für `<BODY>` `<SCRIPT>` und `<DIV>` enthält, wird `<DIV>` an `<BODY>` angehängt und `<SCRIPT>` in `<HEAD>` ausgeführt. Außerdem wird `<SCRIPT>`, das eine externe Datei lädt, an `<HEAD>` angehängt.<p>**Hinweis**: Skripte werden asynchron ausgeführt. Das bedeutet, dass Sie beispielsweise nicht `document.write` oder ähnliche Skriptmethoden verwenden können.<p>Benutzerspezifischer Code bietet eine nicht visuelle Schnittstelle zum Anzeigen, Bearbeiten und Hinzufügen neuer Aktionen im VEC, im formularbasierten Experience Composer und im HTML-Angebotseditor. Der Bereich bietet eine Codeansicht für Erlebnisse, mit der Sie komplexere Erlebnisse erstellen, vorhandene Erlebnisse fein abstimmen und Probleme beheben können.<p>Benutzerspezifischer Code sollte nur von fortgeschrittenen Benutzern verwendet werden, die sich mit HTML, JavaScript und CSS auskennen. Die Codeansicht kann Ihnen dabei helfen, Änderungen zu optimieren oder fein abzustimmen oder Selektorprobleme zu beheben. Sie kann auch zum Hinzufügen von neuem benutzerdefiniertem Code und neuen Aktionen verwendet werden. Sie können mehr als einen benutzerspezifischen Code hinzufügen und optional jeden Code individuell benennen.<p>**Hinweis**: Benutzerdefinierter Code ist derzeit nur für A/B- und Experience Targeting(XT)-Aktivitäten verfügbar. Benutzerspezifischer Code ist für Overlays sowie bei Anwendung eines Umleitungsangebots deaktiviert.<p>Benutzerspezifischer Code unterstützt die folgenden Anwendungsfälle:<ul><li>Hinzufügen von benutzerdefiniertem JavaScript, HTML oder CSS zur Ausführung oben auf der Seite</li><li>Anzeigen oder Bearbeiten des Codes, der von VEC nach Änderungen generiert wurde</li><li>Festlegen von HTML-Inhalten für einen Selektor (nur CSS-Selektoren)</li><li>Festlegen eines Attributs zu einem HTML-Element</li><li>Hinzufügen von Angebotsinhalten, die in regionalen Mboxes übergeben werden sollen</li><li>Wechsel zu DOM-bereit anhand von jQuery</li><li>Wechsel zu DOM-bereit, ohne jQuery (Internet Explorer 8 wird nicht unterstützt)</li><li>Tausch mit DOM-Analyse über das Plug-in „elementOnLoad“</li><li>Benutzerdefinierte Umleitung</li></ul>Benutzerspezifischer Code bietet Folgendes:<ul><li>Zeilennummerierung für bessere Nutzbarkeit.</li><li>Syntaxhervorhebung zum Vermeiden einer falschen Syntax für HTML-Angebote.</li><li>Möglichkeit, mehrere benutzerspezifische Codes zu erstellen und sie optional individuell zu benennen. Erstellen mehrerer benutzerspezifischer Codes zur Vereinfachung des Debuggings. Statt nur einen benutzerspezifischen Code zu erstellen, um verschiedene Änderungen zu erreichen, können Sie beispielsweise einen separaten benutzerspezifischen Code für jede Änderung erstellen und die Codes eindeutig benennen. Mit separaten benutzerspezifischen Codes sind Ihre Änderungen modularer und leichter verwaltbar. Beachten Sie, dass die Ausführung mehrerer benutzerspezifischer Codes in einer Aktivität nicht zwingend in der Reihenfolge erfolgt, in der sie erstellt wurden.</li></ul>Der Bereich „Änderungen“ unterteilt den Bildschirm in den visuellen und den Codemodus. Beide Modi bleiben synchronisiert. Jede visuell vorgenommene Änderung hat eine entsprechende Zeile in der Codeansicht. Und jede Änderung am Code wird auch im visuellen Erlebnis angezeigt. Durch Klicken auf eine Zeile in der Codeansicht wird das entsprechende Element auf der visuellen Seite ausgewählt.<p>Benutzerspezifischer Code unterstützt HTML, Skripte und Styles. Jeder gültige HTML-Code und jedes gültige Skript kann hinzugefügt oder bearbeitet werden. |
 
 1. Fügen Sie ggf. zusätzliche Änderungen hinzu.
 
 ## Anwendungsfälle für benutzerspezifischen Code {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-Das **[!UICONTROL Custom Code]** enthält Code, der zu Beginn des Seitenladevorgangs ausgeführt wird.
+Der Bereich **[!UICONTROL Benutzerspezifischer Code]** enthält den Code, der zu Beginn des Ladevorgangs der Seite ausgeführt wird.
 
 Sie können den JavaScript-Code im Tag `<head>` ausführen. Es wird bei der Ausführung des Codes nicht abgewartet, bis das Tag `<body>` im DOM vorhanden ist.
 
@@ -112,7 +109,7 @@ Der Bereich „Benutzerspezifischer Code“ wird normalerweise verwendet, um Jav
 
 ![codeEditor_custom_image](assets/codeeditor_custom.png)
 
-Verwenden Sie die Registerkarte **[!UICONTROL Custom Code]** für Folgendes:
+Auf der Registerkarte **[!UICONTROL Benutzerspezifischer Code]** können Sie Folgendes tun:
 
 * Verwenden von Inline-JavaScript oder Verlinken auf eine externe JavaScript-Datei
 

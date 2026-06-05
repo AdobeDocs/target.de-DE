@@ -1,43 +1,39 @@
 ---
 keywords: Multivarianz-Test;MVT;Full Factorial;MVT oder A/B;Multivarianz-A/B;Traffic-Schätzung;Wann MVT zu verwenden ist;MVT-Überlegungen;Multivarianz;partiell-faktoriell;partiell-faktoriell;voll-faktoriell
-description: Erfahren Sie, wie Sie mit einem [!UICONTROL Multivariate Test] (MVT) in  [!DNL Adobe Target] , um Kombinationen von Angeboten in Elementen auf einer Seite zu vergleichen und so zu bestimmen, welche Kombination die besten Ergebnisse erzielt.
-title: Was ist ein [!UICONTROL Multivariate Test]?
+description: Erfahren Sie, wie Sie mit einem [!UICONTROL Multivarianz-Test] (MVT)  [!DNL Adobe Target]  können, um Kombinationen von Angeboten in Elementen auf einer Seite zu vergleichen und so zu bestimmen, welche Kombination die besten Ergebnisse erzielt.
+title: Was ist ein [!UICONTROL Multivarianz-]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1453
-ht-degree: 47%
+source-wordcount: 1473
+ht-degree: 46%
 
 ---
 
-# Übersicht über [!UICONTROL Multivariate Test]
+# [!UICONTROL Multivarianz-Test] Übersicht
 
-Eine [!UICONTROL Multivariate Test] (MVT) -Aktivität in [!DNL Adobe Target] vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. Eine [!UICONTROL Multivariate Test] Aktivität hilft auch dabei zu ermitteln, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
+Eine [!UICONTROL Multivarianz-Test]-Aktivität (MVT) in [!DNL Adobe Target] vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. Eine [!UICONTROL Multivarianz-Test]-Aktivität hilft auch dabei zu ermitteln, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
 Mithilfe von Multivarianz-Tests können Sie den relativen Einfluss bestimmter Elemente auf die Konversion im Vergleich zu anderen Elementen auf der Seite ermitteln. Multivariate Tests können auch dazu beitragen, eine Kombination von Elementen zu verfeinern, die sich als wirksam erwiesen haben.
 
-Ein Vorteil eines [!UICONTROL Multivariate Test] im Vergleich zu einem A/B-Test besteht darin, dass angezeigt werden kann, welche Elemente auf der Seite den größten Einfluss auf die Konversion haben. Dieser Vorteil wird auch als „Haupteffekt“ bezeichnet. Diese Informationen sind beispielsweise nützlich, um zu bestimmen, wo Inhalte platziert werden sollen, denen Sie die meiste Aufmerksamkeit schenken möchten.
+Ein Vorteil [!UICONTROL Multivarianz-Tests] im Vergleich zu A/B-Tests besteht in der Möglichkeit, aufzuzeigen, welche Elemente auf Ihrer Seite den größten Einfluss auf die Konversion haben. Dieser Vorteil wird auch als „Haupteffekt“ bezeichnet. Diese Informationen sind beispielsweise nützlich, um zu bestimmen, wo Inhalte platziert werden sollen, denen Sie die meiste Aufmerksamkeit schenken möchten.
 
-[!UICONTROL Multivariate Test] Aktivitäten helfen Ihnen auch, zusammengesetzte Effekte zwischen zwei oder mehr Elementen auf einer Seite zu finden. Zum Beispiel kann eine bestimmte Anzeige zu mehr Konversionen führen, wenn sie mit einem bestimmten Banner oder Heldenbild kombiniert wird. Dies wird auch als „Interaktionseffekt“ bezeichnet.
+[!UICONTROL Multivarianz-Test]-Aktivitäten helfen Ihnen auch, zusammengesetzte Effekte zwischen zwei oder mehr Elementen auf einer Seite zu finden. Zum Beispiel kann eine bestimmte Anzeige zu mehr Konversionen führen, wenn sie mit einem bestimmten Banner oder Heldenbild kombiniert wird. Dies wird auch als „Interaktionseffekt“ bezeichnet.
 
 [!DNL Target] verwendet vollständige Multivariater Tests, um Sie bei der Optimierung Ihres Inhalts zu unterstützen. Ein vollständiger Multivarianz-Test untersucht alle möglichen Inhaltskombinationen mit gleicher Wahrscheinlichkeit. Wenn Sie zum Beispiel über zwei Seitenelemente mit je drei Angeboten verfügen, entspricht dies neun möglichen Kombinationen (3 x 3). Drei Elemente, von denen zwei jeweils drei mögliche Angebote und eines zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2).
 
-In [!DNL Target] ist jede Kombination ein Erlebnis. Die [!UICONTROL Multivariate Test] vergleicht jedes Erlebnis, damit Sie erfahren können, welche Kombinationen am erfolgreichsten sind. Daten werden gleichzeitig erfasst und analysiert, um zu verstehen, wie die Erfolgsmetrik durch die einzelnen Orte und Angebote beeinflusst wird.
+In [!DNL Target] ist jede Kombination ein Erlebnis. Der [!UICONTROL Multivarianz-Test] vergleicht jedes Erlebnis, damit Sie lernen können, welche Kombinationen am erfolgreichsten sind. Daten werden gleichzeitig erfasst und analysiert, um zu verstehen, wie die Erfolgsmetrik durch die einzelnen Orte und Angebote beeinflusst wird.
 
 ![Multivarianz-Bild](assets/multivariate.png)
 
-Aufgrund der Anzahl der Kombinationen, die generiert werden können, benötigt ein [!UICONTROL Multivariate Test] mehr Zeit und Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um nützliche Ergebnisse zu erhalten, müssen Sie den Traffic verstehen, den Ihre Seite erhält, und die optimale Anzahl von Kombinationen für die richtige Zeitdauer testen, um die erforderlichen Ergebnisse zu erhalten.
+Aufgrund der Anzahl der Kombinationen, die generiert werden können, benötigt ein [!UICONTROL Multivarianz-Test] mehr Zeit und Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um nützliche Ergebnisse zu erhalten, müssen Sie den Traffic verstehen, den Ihre Seite erhält, und die optimale Anzahl von Kombinationen für die richtige Zeitdauer testen, um die erforderlichen Ergebnisse zu erhalten.
 
-Die Traffic[Schätzung des Ziels &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) Ihnen beim Entwurf eines Tests helfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse eine Aktivität enthält, desto mehr Traffic muss die Aktivität enthalten oder desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht hoch ist, sollten Sie einige Kombinationen testen. Andernfalls kann es zu lange dauern, bis aussagekräftige Testergebnisse vorliegen, die nicht nützlich sind.
+Die Traffic[Schätzung des Ziels ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) Ihnen beim Entwurf eines Tests helfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse eine Aktivität enthält, desto mehr Traffic muss die Aktivität enthalten oder desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht hoch ist, sollten Sie einige Kombinationen testen. Andernfalls kann es zu lange dauern, bis aussagekräftige Testergebnisse vorliegen, die nicht nützlich sind.
 
 ## MVT-Terminologie {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -53,7 +49,7 @@ Es gibt verschiedene Begriffe, die branchenweit unterschiedlich verwendet werden
 
 **Ort:** Ein spezifischer Inhaltsbereich auf einer Seite, der oftmals in einem einzelnen DOM-Element enthalten ist. Bei der MVT-Methode wird der Ort zuweilen als *Faktor* bezeichnet. Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Orten.
 
-## Verwendung von [!UICONTROL Multivariate Test] im Vergleich zu A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## Verwendung von [!UICONTROL Multivarianz-Test] im Vergleich zu A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite verwendet werden. Die gemeinsame Verwendung dieser Tests wird zum Beispiel in folgenden Fällen empfohlen:
 
@@ -80,7 +76,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 ## Partiell-faktorielle Testung
 
 [!DNL Target] bietet vollfaktorielle Multivariater Tests als integrierte Aktivitätsoption. In Statistiken:
-„Design von Experimenten“ bietet viele Ansätze oder Designs, um zu bestimmen, welche Faktoren die Ergebnisse beeinflussen. Ein solcher Ansatz ist die [Taguchi-Methode](https://en.wikipedia.org/wiki/Taguchi_methods) für partiell-faktorielle Tests. Taguchi ermöglicht es Marketing-Experten, eine Reihe von Annahmen zu treffen, die die Anzahl der Permutationen von Erlebnissen reduzieren, die getestet werden müssen, und reduziert somit die Traffic-Anforderungen für einen Multivarianz-Test. Dieser Funktions- und Testansatz kann in [!DNL Target] mithilfe dieser [Offline-Tabelle“ angewendet &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+„Design von Experimenten“ bietet viele Ansätze oder Designs, um zu bestimmen, welche Faktoren die Ergebnisse beeinflussen. Ein solcher Ansatz ist die [Taguchi-Methode](https://en.wikipedia.org/wiki/Taguchi_methods) für partiell-faktorielle Tests. Taguchi ermöglicht es Marketing-Experten, eine Reihe von Annahmen zu treffen, die die Anzahl der Permutationen von Erlebnissen reduzieren, die getestet werden müssen, und reduziert somit die Traffic-Anforderungen für einen Multivarianz-Test. Dieser Funktions- und Testansatz kann in [!DNL Target] mithilfe dieser [Offline-Tabelle“ angewendet ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Wenn Ihr Team andere Design of Experiments-Ansätze verwendet, können Sie diese Berechnungstabelle als Referenz-Implementierung für benutzerdefinierte Experiment-Designs verwenden.
 
@@ -106,13 +102,13 @@ In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätst
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Erstellen von Multivarianz-Tests (:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows Target“ verstehen, planen und erstellen.
+In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows [!DNL]Target“ verstehen, planen und erstellen.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
