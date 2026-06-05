@@ -31,7 +31,7 @@ So funktioniert das Vorab-Ausblenden von Inhalten: vom Standardkonto über die I
 
 1. [!DNL Target] erstellt einen Regelsatz aus Live- [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]-Aktivitäten. Der Regelsatz listet Selektoren und Regionen auf, die sich im Versand ändern können.
 
-   Beachten Sie[!UICONTROL  dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
+   Beachten Sie[!UICONTROL &#x200B; dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
 
 1. Die -Bibliothek ruft diesen Regelsatz aus dem Adobe-CDN ab und blendet übereinstimmende Elemente nur dann vorab aus, wenn der personalisierte Inhalt noch geladen wird.
 

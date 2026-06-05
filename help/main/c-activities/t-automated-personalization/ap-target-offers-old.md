@@ -47,7 +47,7 @@ In diesem Szenario sieht Besucher 1 Angebot 1 (da dieser Besucher als Teil von Z
 
    Um die Zielgruppenbestimmung für mehrere Angebote einzurichten, aktivieren Sie die Kontrollkästchen der gewünschten Angebote und klicken Sie dann oben rechts in der Liste auf **[!UICONTROL Targeting]**-Symbol.
 
-1. Wählen [!UICONTROL  Dialogfeld &quot;] auswählen“ die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Fertig]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld &quot;] auswählen“ die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Fertig]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
 
    >[!NOTE]
    >

@@ -1,12 +1,15 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL  Multivarianz]Test verfügen.
+description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL &#x200B; Multivarianz]Test verfügen.
 title: Wie viel Traffic wird für eine Aktivität des Typs [!UICONTROL Multivariater Test] (MVT) benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 530
@@ -34,7 +37,7 @@ Die [!UICONTROL Traffic-Schätzung] bietet außerdem Feedback, mit dem Sie wisse
 
    ![Benutzeroberfläche der Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
-   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ ].
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
    In der Nähe des oberen Bereichs der [!UICONTROL Traffic-Schätzung] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
 

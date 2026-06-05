@@ -70,7 +70,7 @@ Einige Gründe, aus denen Sie möglicherweise auf eine Seite zugreifen oder sie 
 * Sie möchten vorhandene benutzerdefinierte Codes von einer Seite kopieren, die nicht mehr verfügbar ist.
 * Sie wissen, dass eine Seite nicht im VEC geladen wird, aber Sie möchten trotzdem einfache Änderungen vornehmen.
 
-Während die Seite geladen wird (oder nachdem sie nicht geladen werden kann[!UICONTROL  sind das Bedienfeld Erlebnisse], das Bedienfeld [!UICONTROL Änderungen] und die Einstellungen oben im Erlebnis (Überlagerungen, Änderungen, Konfigurieren usw.) verfügbar.
+Während die Seite geladen wird (oder nachdem sie nicht geladen werden kann[!UICONTROL &#x200B; sind das Bedienfeld Erlebnisse], das Bedienfeld [!UICONTROL Änderungen] und die Einstellungen oben im Erlebnis (Überlagerungen, Änderungen, Konfigurieren usw.) verfügbar.
 
 Die folgende Abbildung zeigt, dass Sie benutzerdefinierten Code einfügen oder andere Aktionen ausführen können, während die Seite noch geladen wird:
 

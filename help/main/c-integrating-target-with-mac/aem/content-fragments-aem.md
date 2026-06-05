@@ -1,13 +1,20 @@
 ---
 keywords: Erlebnis;JSON;AEM;Adobe Experience Manager;in Adobe Target exportieren;Inhaltsfragmente;Fragmente;CF;cf;Headless;Personalisierung;Experimente
-description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL  Inhaltsfragmente ] Aktivitäten  [!DNL Adobe Target] .
+description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL &#x200B; Inhaltsfragmente &#x200B;] Aktivitäten  [!DNL Adobe Target] .
 title: Wie verwende ich ( [!DNL Adobe Experience Manager] ) [!UICONTROL Inhaltsfragmente]?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 775
@@ -59,7 +66,7 @@ Nach dem Ausführen der zuvor genannten Aufgaben wird [!UICONTROL Inhaltsfragmen
 
 [!DNL Target] sucht derzeit alle zehn Minuten nach [!UICONTROL Inhaltsfragmenten] die importiert werden sollen. Das [!UICONTROL Inhaltsfragment] sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
 
-Das [!UICONTROL Inhaltsfragment] wird als JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL primäre] Version des Inhaltsfragments verbleibt in [!DNL AEM]. Das [!UICONTROL Inhaltsfragment“ kann nicht ] [!DNL Target] bearbeitet werden.
+Das [!UICONTROL Inhaltsfragment] wird als JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL primäre] Version des Inhaltsfragments verbleibt in [!DNL AEM]. Das [!UICONTROL Inhaltsfragment“ kann nicht &#x200B;] [!DNL Target] bearbeitet werden.
 
 Sie können nach [!UICONTROL HTML-XFs], [!UICONTROL JSON-XFs] und [!UICONTROL Inhaltsfragmenten] filtern und suchen, damit Sie zwischen verschiedenen Angebotstypen unterscheiden können, die in [!DNL Target] exportiert werden.
 
@@ -75,7 +82,7 @@ Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target] Aktivitäten aufn
 >
 >* Um die KI- und ML-Funktionen von [!DNL Target] in vollem Umfang zu nutzen, können Sie [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) beim Erstellen einer [!UICONTROL A/B-Test]-Aktivität auswählen.
 >
->* [!UICONTROL Inhaltsfragmente] werden in [!DNL Recommendations] Aktivitäten nicht unterstützt. Um [!UICONTROL Inhaltsfragmente) für Recommendations ] verwenden zu können, können Sie eine [!UICONTROL A/B-Test]-Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder eine [!UICONTROL Experience Targeting] (XT)-Aktivität erstellen und [Recommendations als Angebote einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>* [!UICONTROL Inhaltsfragmente] werden in [!DNL Recommendations] Aktivitäten nicht unterstützt. Um [!UICONTROL Inhaltsfragmente) für Recommendations &#x200B;] verwenden zu können, können Sie eine [!UICONTROL A/B-Test]-Aktivität (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) oder eine [!UICONTROL Experience Targeting] (XT)-Aktivität erstellen und [Recommendations als Angebote einschließen](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **So verwenden Sie [!UICONTROL Inhaltsfragmente] mithilfe des [!UICONTROL formularbasierten Experience Composer]:**
 
@@ -83,7 +90,7 @@ Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target] Aktivitäten aufn
 
    ![content_fragment_list image](/help/main/c-integrating-target-with-mac/aem/assets/choose-content-fragment.png)
 
-   In [!UICONTROL  Liste „Inhaltsfragment] werden alle in [!DNL AEM] erstellten Inhalte angezeigt, die nun nativ in [!DNL Target] verfügbar sind.
+   In [!UICONTROL &#x200B; Liste „Inhaltsfragment] werden alle in [!DNL AEM] erstellten Inhalte angezeigt, die nun nativ in [!DNL Target] verfügbar sind.
 
 1. Wählen Sie das gewünschte [!UICONTROL Inhaltsfragment] aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
 1. Schließen Sie die Konfiguration der Aktivität ab.
@@ -91,6 +98,6 @@ Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target] Aktivitäten aufn
 ## Zusätzliche Informationen
 
 * [!DNL Target] sucht derzeit alle zehn Minuten nach [!UICONTROL Inhaltsfragmenten] die importiert werden sollen. Das [!UICONTROL Inhaltsfragment] sollte innerhalb von zehn Minuten in [!DNL Target] verfügbar sein. Dieser Zeitraum soll in Zukunft weiter reduziert werden.
-* Das [!UICONTROL Inhaltsfragment] wird als JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL primäre] Version des Inhaltsfragments verbleibt in [!DNL AEM]. Das [!UICONTROL Inhaltsfragment“ kann nicht ] [!DNL Target] bearbeitet werden.
+* Das [!UICONTROL Inhaltsfragment] wird als JSON-Angebot in [!DNL Target] importiert. Die [!UICONTROL primäre] Version des Inhaltsfragments verbleibt in [!DNL AEM]. Das [!UICONTROL Inhaltsfragment“ kann nicht &#x200B;] [!DNL Target] bearbeitet werden.
 * Mit [!DNL Adobe I/O] können Sie [!UICONTROL Inhaltsfragmente] nicht erstellen. Erstellen Sie [!UICONTROL Inhaltsfragmente] mithilfe von AEM, wie oben beschrieben.
 * Wenn Sie Ihr [!UICONTROL Inhaltsfragment] in AEM aktualisieren, muss das [!UICONTROL Inhaltsfragment] erneut veröffentlicht und in [!DNL Target] exportiert werden, damit [!DNL Target] die neuesten Änderungen verwenden kann.

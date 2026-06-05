@@ -7,10 +7,18 @@ feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
 TQID: https://experienceleague.adobe.com/8WUCeb4ztjDdWUEtawLYeC-4FDgn1SiGarmS1hqGNgI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 647
@@ -28,7 +36,7 @@ ht-degree: 56%
 
 Die Funktion [!UICONTROL Enterprise-]) ermöglicht die effektive Skalierung von Optimierungsprogrammen über Teams hinweg. Die Funktion war zwar in der [!DNL Target]-Benutzeroberfläche verfügbar, die Admin-APIs werden aber erst seit Anfang 2019 unterstützt. In der [!DNL Target]-Version vom Februar 2019 aktualisierte Adobe die Admin-APIs, sodass Sie über das Integrationskonto auf alle in Ihrem Unternehmen erstellten Arbeitsbereiche zugreifen können. Während Admin-APIs früher nur auf den Standardarbeitsbereich beschränkt waren, gewährte die Aktualisierung vom Februar 2019 Zugriff auf alle Arbeitsbereiche mit [!UICONTROL Genehmiger]-Zugriff.
 
-Mit der Version vom [!DNL Target]. September 2019 bietet [!DNL Target][!UICONTROL Enterprise-Berechtigungen] Kunden die folgenden Zugriffssteuerungen:
+Mit der Version vom [!DNL Target]. September 2019 bietet [!DNL Target]&#x200B;[!UICONTROL Enterprise-Berechtigungen] Kunden die folgenden Zugriffssteuerungen:
 
 * Sie können die Arbeitsbereiche auswählen, auf die die Integration angewendet wird.
 * Sie können der Adobe I/O-Integration eine Rolle zuweisen: [!UICONTROL Genehmiger], [!UICONTROL Editor] oder [!UICONTROL Beobachter].
@@ -40,7 +48,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 * Sie können jedem Team, das seinen eigenen Arbeitsbereich hat und APIs nutzen möchte, seine eigene Integration bereitstellen und eine entsprechende Rolle dafür auswählen.
 * Sie können die obigen Szenarien beliebig kombinieren.
 
-**Erforderliche Aktion**: Diejenigen Kunden, die derzeit APIs für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) in allen Arbeitsbereichen verwenden, müssen ihrer vorhandenen Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche erteilen und die entsprechende Rolle gemäß dem Anwendungsfall zuweisen. Wählen Sie dazu jedes [!DNL Target]Produktprofil[!UICONTROL  in der [!DNL Adobe Admin Console] aus ] fügen Sie die Integration(en) auf der Registerkarte [!UICONTROL Integration] hinzu. Vor der Version vom September verwendeten alle Integrationen den Zugriff [!UICONTROL Genehmigende Person] unabhängig von der Auswahl aus der Dropdown-Liste [!UICONTROL Produktrolle]. Jetzt können Sie die gewünschte Rolle auswählen.
+**Erforderliche Aktion**: Diejenigen Kunden, die derzeit APIs für CRUD-Vorgänge für Ressourcen (Aktivitäten, Zielgruppen, Angebote und Berichte) in allen Arbeitsbereichen verwenden, müssen ihrer vorhandenen Adobe I/O-Integration Zugriff auf alle Arbeitsbereiche erteilen und die entsprechende Rolle gemäß dem Anwendungsfall zuweisen. Wählen Sie dazu jedes [!DNL Target]Produktprofil[!UICONTROL &#x200B; in der [!DNL Adobe Admin Console] aus &#x200B;] fügen Sie die Integration(en) auf der Registerkarte [!UICONTROL Integration] hinzu. Vor der Version vom September verwendeten alle Integrationen den Zugriff [!UICONTROL Genehmigende Person] unabhängig von der Auswahl aus der Dropdown-Liste [!UICONTROL Produktrolle]. Jetzt können Sie die gewünschte Rolle auswählen.
 
 >[!NOTE]
 >

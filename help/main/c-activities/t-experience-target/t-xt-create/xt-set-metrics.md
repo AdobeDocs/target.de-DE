@@ -5,8 +5,11 @@ title: Wie lege ich Zielmetriken in einer [!UICONTROL Erlebnis-Targeting]-Aktivi
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 351
@@ -25,7 +28,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    ![Erfolgsmetrik auswählen](/help/main/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
-   Auf [!UICONTROL  Seite „Metriken ]&quot; werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
+   Auf [!UICONTROL &#x200B; Seite „Metriken &#x200B;]&quot; werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
    * [!UICONTROL Konversion]
    * [!UICONTROL Umsatz]
@@ -36,7 +39,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    Die verfügbaren Einstellungen hängen von der verwendeten Erfolgsmetrik ab.
 
-   Wenn diese Option aktiviert ist[!UICONTROL  liefert der Feld „Geschätzter Wert der Konversion] (für Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+   Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    Es ist sehr wichtig, die Erfolgsmetriken korrekt zu konfigurieren, um die erwarteten Daten zu erhalten.
 
@@ -63,7 +66,7 @@ Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen [!UICONTROL  Metriken ]Konversion[!UICONTROL  Umsatz] und [!UICONTROL Interaktion]
+* Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

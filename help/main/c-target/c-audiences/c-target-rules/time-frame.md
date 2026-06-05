@@ -5,9 +5,12 @@ title: Kann ich Besucherinnen und Besucher ansprechen, die meine Website zu best
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 TQID: https://experienceleague.adobe.com/EilEXJtLuzmytW8OmhGbhOTfsVxx4WuTKfT6zgmFYdc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 454
@@ -51,7 +54,7 @@ Beispielsweise können Sie mit der [kombinierten Ad-hoc-Zielgruppenfunktion](/he
 
    >[!NOTE]
    >
-   >Die Zeitzone für [!UICONTROL Wochen- und ]) wird als GMT +/- NN:NN angezeigt, wobei NN:NN der Versatz zum GMT ist und die Zeitzone auf Kontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Beispielsweise würde die Zeitzone Kaliforniens für Pacific Daylight Time als GMT -07:00 angezeigt.
+   >Die Zeitzone für [!UICONTROL Wochen- und &#x200B;]) wird als GMT +/- NN:NN angezeigt, wobei NN:NN der Versatz zum GMT ist und die Zeitzone auf Kontoebene und nicht die Zeitzone des Besuchers widerspiegelt. Beispielsweise würde die Zeitzone Kaliforniens für Pacific Daylight Time als GMT -07:00 angezeigt.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
 

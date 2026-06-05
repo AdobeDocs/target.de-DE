@@ -1,12 +1,15 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie die Ergebnisse [!UICONTROL  A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
+description: Erfahren Sie, wie die Ergebnisse [!UICONTROL &#x200B; A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
 title: Wie interpretiere ich [!UICONTROL automatische Zuordnung] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 TQID: https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1253
@@ -58,9 +61,9 @@ Der numerische Wert „Anstieg“ und die 95-%-Grenzen für jedes Erlebnis werde
 
 Die angezeigten [!UICONTROL Konfidenzintervall]-Balken stellen das 95-%-Konfidenzintervall um die mittlere Schätzung der Konversionsrate eines Erlebnisses dar. Diese Balken sind auch im Hinblick auf das definierte „Kontrollerlebnis“ farbcodiert. Die Leiste des Erlebnisses „Kontrolle“ ist immer grau gefärbt. Die Teile der Konfidenzintervalle unterhalb des Konfidenzintervalls des Kontrollerlebnisses sind rot und die Teile der Konfidenzintervalle oberhalb des Kontrollerlebnisses grün gefärbt.
 
-Ein Gewinner wird gefunden, wenn das 95%ige [!UICONTROL Konfidenzintervall“ des führenden Erlebnisses ] andere Erlebnisse überschneidet. Das erfolgreichste Erlebnis wird mit einem grünen Sternabzeichen links neben dem Erlebnisnamen und im Banner „Gewinner“ gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner „Noch kein Gewinner“ und es wurde noch kein Gewinner gefunden.
+Ein Gewinner wird gefunden, wenn das 95%ige [!UICONTROL Konfidenzintervall“ des führenden Erlebnisses &#x200B;] andere Erlebnisse überschneidet. Das erfolgreichste Erlebnis wird mit einem grünen Sternabzeichen links neben dem Erlebnisnamen und im Banner „Gewinner“ gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner „Noch kein Gewinner“ und es wurde noch kein Gewinner gefunden.
 
-Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL  des führenden Erlebnisses ] mindestens 60 % erreicht. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem anderen Erlebnis. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL &#x200B; des führenden Erlebnisses &#x200B;] mindestens 60 % erreicht. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem anderen Erlebnis. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
 
 ## Häufig gestellte Fragen {#section_C8E068512A93458D8C006760B1C0B6A2}
 

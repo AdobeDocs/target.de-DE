@@ -29,7 +29,7 @@ Verwenden Sie die [!UICONTROL Angebote]-Bibliothek in [!DNL Adobe Target], um de
 
 1. (Optional) Klicken Sie auf die Dropdown-Liste **[!UICONTROL Source]**, um Angebote nach Quelle (Adobe Target, Adobe Target Classic und Adobe Experience Manager) zu filtern.
 
-1. (Optional) Führen Sie zusätzliche Aufgaben aus, indem Sie den Mauszeiger über das gewünschte Angebot oder den Ordner auf der Registerkarte [!UICONTROL Angebote ]Code) bewegen und dann auf das gewünschte Symbol klicken.
+1. (Optional) Führen Sie zusätzliche Aufgaben aus, indem Sie den Mauszeiger über das gewünschte Angebot oder den Ordner auf der Registerkarte [!UICONTROL Angebote &#x200B;]Code) bewegen und dann auf das gewünschte Symbol klicken.
 
    ![Code-Angebotsoptionen](assets/offer-picker-large.png)
 
@@ -80,7 +80,7 @@ Die folgenden Informationen sind verfügbar:
 * Typ
 * Zuletzt geändert
 
-Klicken Sie auf [!UICONTROL  Link Vollständige Details anzeigen], um den Angebotsinhalt und die Aktivitäten anzuzeigen, die auf ein Code-Angebot verweisen. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Die Informationen umfassen [!UICONTROL Live]Aktivitäten und [!UICONTROL Inaktive Aktivitäten].
+Klicken Sie auf [!UICONTROL &#x200B; Link Vollständige Details anzeigen], um den Angebotsinhalt und die Aktivitäten anzuzeigen, die auf ein Code-Angebot verweisen. Auf diese Weise können Sie bei der Bearbeitung von Angeboten Auswirkungen auf andere Aktivitäten vermeiden. Die Informationen umfassen [!UICONTROL Live]Aktivitäten und [!UICONTROL Inaktive Aktivitäten].
 
 Die verfügbaren Informationen auf den einzelnen Karten variieren je nach Angebotstyp: HTML-Angebot, [Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Umleitungsangebot](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Remote-Angebot](/help/main/c-experiences/c-manage-content/about-remote-offers.md) oder [JSON-Angebote](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 

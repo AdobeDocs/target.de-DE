@@ -5,10 +5,19 @@ title: Wie führe ich QA-Aktivitäten aus?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 TQID: https://experienceleague.adobe.com/glE1Kx2xhqagq9v-SgSkdwr6lYwpioe4DlSkLRFQ0jI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1815
@@ -84,12 +93,12 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 
 * Da die Aktivitäts-QA jetzt für alle [!DNL Target] Aktivitätstypen verfügbar ist, ist die Funktion „Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs“ nicht mehr erforderlich.
 * [!UICONTROL Aktivitäts-QA] Vorschau-Links für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Das Wiederholen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass dies weiterhin geschieht, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
-* [!UICONTROL Aktivitäts-QA]URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit [!UICONTROL Aktivitäts-QA] generiert werden, fließen in dieselbe Report Suite, in der die Daten der Aktivität auch nach der Live-Schaltung der Aktivität fließen.
-* [!UICONTROL Aktivitäts-QA] zeigt keine Inhalte für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum überschritten ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, [!UICONTROL  „Aktivitäts-QA] funktioniert.
+* [!UICONTROL Aktivitäts-QA]URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit [!UICONTROL Aktivitäts-QA] generiert werden, fließen in dieselbe Report Suite, in der die Daten der Aktivität auch nach der Live-Schaltung der Aktivität fließen.
+* [!UICONTROL Aktivitäts-QA] zeigt keine Inhalte für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum überschritten ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, [!UICONTROL &#x200B; „Aktivitäts-QA] funktioniert.
 * In [!DNL Target Standard/Premium] importierte Aktivitäten (z. B. aus [!DNL Target Classic]) unterstützen keine QA-URLs.
 * In [!UICONTROL Aktivitäten Automatische Zuordnung] und [!UICONTROL Recommendations] ist das Modell von den in [!UICONTROL Aktivitäts-QA] erfassten Besuchen nicht betroffen.
-* Wenn Sie beim Erstellen der Aktivität „URL ist[ angegeben haben (Verbesserungen im formularbasierten ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-] URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
-* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
+* Wenn Sie beim Erstellen der Aktivität „URL ist[&#x200B; angegeben haben (Verbesserungen im formularbasierten &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-] URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
+* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
 * Wenn für eine Aktivität mehrere Erlebnis-Zielgruppen verwendet werden (z. B. eine Website aus den USA und Großbritannien, die Teil derselben Aktivität ist), werden für die vier Kombinationen (Experience A/US-Website, Experience A/UK-Website, Experience B/US-Website, Experience B/UK-Website) keine QA-Links erzeugt. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine Person, die für Fragen zur britischen Qualitätssicherung zuständig ist, kann die US-Website nicht sehen.
 * Alle Parameter und Werte vom Typ `at_preview` sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Einige Kunden müssen jedoch Lastenausgleichsmodule oder Webserver verwenden, die versuchen, die Abfragezeichenfolgenparameter erneut zu codieren.
 
@@ -112,7 +121,7 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 * Die [!UICONTROL Target-QA-Modus]-Benutzeroberfläche zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird davon ausgegangen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
 * Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden, um zu verhindern, dass dieses Problem weiterhin auftritt.
 
-## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek ]QA-Modus) {#compatibility}
+## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek &#x200B;]QA-Modus) {#compatibility}
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 

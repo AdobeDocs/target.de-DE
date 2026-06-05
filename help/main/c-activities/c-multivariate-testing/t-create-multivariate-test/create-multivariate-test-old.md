@@ -31,7 +31,7 @@ Der [!UICONTROL Multivarianz-Test] (MVT) erstellt einen Seitenerstbericht. Ander
 
 1. (Bedingt) Wenn Sie [Target Premium](/help/main/c-intro/intro.md#premium)-Kunde sind, wählen [einen Arbeitsbereich aus](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Geben Sie die URL ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) Seite an, die Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. [Geben Sie die URL &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) Seite an, die Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    >[!NOTE]
    >

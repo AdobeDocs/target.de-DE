@@ -20,7 +20,7 @@ Nachdem Sie Ihre Aktivität [!UICONTROL Recommendations], [!UICONTROL A/B-Test] 
 
 Nach dem Erstellen einer Aktivität führt [!DNL Recommendations] einen Algorithmus aus, um Empfehlungen zu generieren. Die Ausführung dieses Algorithmus kann einige Stunden dauern.
 
-Sie können im Übersichtsdiagramm [!UICONTROL Aktivität“ überprüfen, ob der Algorithmus ] ausgeführt wurde, wobei der Kriterienstatus aufgeführt ist. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der Seite „Übersicht[!UICONTROL  einer [!DNL Recommendations] Aktivität]:
+Sie können im Übersichtsdiagramm [!UICONTROL Aktivität“ überprüfen, ob der Algorithmus &#x200B;] ausgeführt wurde, wobei der Kriterienstatus aufgeführt ist. Die folgende Abbildung zeigt den Status im Aktivitätsdiagramm auf der Seite „Übersicht[!UICONTROL &#x200B; einer [!DNL Recommendations] Aktivität]:
 
 ![Seite Recommendations-Aktivität - Übersicht](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -70,13 +70,13 @@ Mit einem QA-Link können Sie eine Vorschau der Recommendations auf Ihrer Seite 
 >
 >* Der QA-Modus von Target ist „sticky“ und wird in einem Cookie gespeichert. Wenn Sie den QA-Modus nicht beenden, werden die QA-Ergebnisse auf der gesamten Site angezeigt. Um den QA-Modus zu beenden, verwenden Sie die [Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
->* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL Zuletzt angezeigte Artikel] oder „Zuletzt [!UICONTROL  gekaufte Artikel] Ihres Profils. Dieses Verhalten ist beabsichtigt, um eine unbeabsichtigte Verschmutzung der Produktionsverhaltensdaten zu vermeiden. Um eine Vorschau der Ergebnisse aus den Kriterien [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Empfehlungen] anzuzeigen, durchsuchen Sie zunächst die Site außerhalb des QA-Modus und öffnen Sie dann in derselben Sitzung einen Link zum QA-Modus.
+>* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL Zuletzt angezeigte Artikel] oder „Zuletzt [!UICONTROL &#x200B; gekaufte Artikel] Ihres Profils. Dieses Verhalten ist beabsichtigt, um eine unbeabsichtigte Verschmutzung der Produktionsverhaltensdaten zu vermeiden. Um eine Vorschau der Ergebnisse aus den Kriterien [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Empfehlungen] anzuzeigen, durchsuchen Sie zunächst die Site außerhalb des QA-Modus und öffnen Sie dann in derselben Sitzung einen Link zum QA-Modus.
 
 ## Verwenden des CSV-Downloads zur Vorschau der Recommendations
 
 In einigen Fällen empfiehlt es sich, die empfohlenen spezifischen Elemente zu überprüfen. Dies ist besonders hilfreich bei der Verwendung von Algorithmen wie [!UICONTROL Personen, die dies angezeigt haben, haben das angezeigt], bei denen je nach dem Element, das der Benutzer gerade angezeigt hat, ein anderer Satz von Elementen empfohlen wird und möglicherweise Tausende oder Millionen von verschiedenen Elementen in Ihrem Katalog vorhanden sind.
 
-Die Ergebnisse können erst heruntergeladen werden, wenn für [!UICONTROL  einen Algorithmus in der Aktivität der Status ]Ergebnisse bereit“ angezeigt wird.
+Die Ergebnisse können erst heruntergeladen werden, wenn für [!UICONTROL &#x200B; einen Algorithmus in der Aktivität der Status &#x200B;]Ergebnisse bereit“ angezeigt wird.
 
 Um die Ergebnisse für die Vorschau herunterzuladen, klicken Sie auf das Menüsymbol oben rechts auf der Seite Aktivitätsübersicht und dann auf **[!UICONTROL Daten herunterladen]**.
 
@@ -110,7 +110,7 @@ Sie können die Aktivität auch über dieselbe Dropdown-Liste deaktivieren oder 
 
 ## Vermeiden von Unterbrechungen beim Ändern von Recommendations-Einstellungen
 
-Das Ändern [!DNL Recommendations] Sammlungen, Kriterien, Promotions oder Design-Einstellungen in einer Live-Aktivität kann dazu führen, dass die Algorithmusergebnisse ungültig werden und der Status eines Algorithmus in &quot;[!UICONTROL  Ergebnisse nicht bereit“ ].
+Das Ändern [!DNL Recommendations] Sammlungen, Kriterien, Promotions oder Design-Einstellungen in einer Live-Aktivität kann dazu führen, dass die Algorithmusergebnisse ungültig werden und der Status eines Algorithmus in &quot;[!UICONTROL &#x200B; Ergebnisse nicht bereit“ &#x200B;].
 
 Um zu vermeiden, dass eine Live-Aktivität unterbrochen wird, empfehlen wir, beim Ändern einer Live-Aktivität den folgenden Ansatz zu verwenden:
 

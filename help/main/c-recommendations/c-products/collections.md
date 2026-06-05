@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 755
@@ -45,9 +47,9 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Sammlungen]**, um die Liste der vorhandenen Sammlungen anzuzeigen.
 
-   Auf [!UICONTROL  Seite ]Sammlungen“ wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Sie erstellen neue Sammlungen, indem Sie auf die Schaltfläche [!UICONTROL Sammlung erstellen] klicken. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
+   Auf [!UICONTROL &#x200B; Seite &#x200B;]Sammlungen“ wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Sie erstellen neue Sammlungen, indem Sie auf die Schaltfläche [!UICONTROL Sammlung erstellen] klicken. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
 
-   Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht [!UICONTROL Sammlungen] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
+   Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht [!UICONTROL Sammlungen] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Sammlung erstellen]**.
 
@@ -55,7 +57,7 @@ Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die S
 
    Sie können je nach Wunsch auch eine **[!UICONTROL Beschreibung]** eingeben.
 
-1. (Bedingt) Wählen Sie beim Erstellen (oder Aktualisieren[ einer Sammlung ](/help/main/administrating-target/environments.md) Filter **[!UICONTROL Umgebung]** aus, um die Inhalte der Sammlung in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie beim Erstellen (oder Aktualisieren[&#x200B; einer Sammlung &#x200B;](/help/main/administrating-target/environments.md) Filter **[!UICONTROL Umgebung]** aus, um die Inhalte der Sammlung in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
 1. Legen Sie die Regeln fest, die für den Aufbau der Sammlung verwendet werden.
 
@@ -81,7 +83,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Bearbeiten, Kopieren oder Löschen einer Sammlung
 
-Klicken Sie auf ![ ( Symbol „Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung in der Liste und dann auf das entsprechende Symbol: [!UICONTROL Bearbeiten], [!UICONTROL Kopieren] oder [!DNL Delete].
+Klicken Sie auf ![&#x200B; ( Symbol „Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung in der Liste und dann auf das entsprechende Symbol: [!UICONTROL Bearbeiten], [!UICONTROL Kopieren] oder [!DNL Delete].
 
 Sie können eine vorhandene Sammlung kopieren, um eine doppelte Sammlung zu erstellen, die Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand eine ähnliche Sammlung erstellen.
 
@@ -93,6 +95,6 @@ Beachten Sie, dass Sammlungen im gesamten Konto verfügbar sind. Berücksichtige
 
 1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [eine neue Recommendations-Aktivität erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) oder eine vorhandene Aktivität bearbeiten.
 
-1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird [!UICONTROL  Seite „Optionen] angezeigt, auf der Sie die gewünschte Sammlung auswählen können.
+1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird [!UICONTROL &#x200B; Seite „Optionen] angezeigt, auf der Sie die gewünschte Sammlung auswählen können.
 
 1. (Bedingt) Um eine vorhandene Sammlungseinstellung zu ändern, klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (Schritt 1 des dreiteiligen geleiteten Workflows) auf einen Ort, an dem Sie Empfehlungen platziert haben, klicken Sie auf **[!UICONTROL Sammlung ändern]** und wählen Sie dann die gewünschte Sammlung aus.

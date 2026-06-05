@@ -33,7 +33,7 @@ Die große Anzahl und der Pfeil geben den erwarteten Steigerungswert an. Diese A
 
 ### Limits aufheben
 
-Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Ein Beispiel [ Berechnung ](#example) Steigerungsgrenzen finden Sie unten unter „Beispielberechnung“.
+Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Ein Beispiel [&#x200B; Berechnung &#x200B;](#example) Steigerungsgrenzen finden Sie unten unter „Beispielberechnung“.
 
 ### Boxplot-Diagramm
 

@@ -1,6 +1,6 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL  Multivarianz]Test verfügen.
+description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL &#x200B; Multivarianz]Test verfügen.
 title: Wie viel Traffic wird für eine Aktivität des Typs [!UICONTROL Multivariater Test] (MVT) benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
@@ -25,7 +25,7 @@ Der Test verwendet die Bonferroni-Korrektur zur Korrektur von Mehrfachvergleiche
 
 Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit der von Ihnen entworfene Test erfolgreich ist.
 
-1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Traffic]** .
+1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Traffic]** .
 
    Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die Traffic-Schätzung auszublenden.
 

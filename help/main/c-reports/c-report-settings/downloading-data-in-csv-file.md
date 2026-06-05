@@ -5,9 +5,14 @@ title: Wie lade ich Berichtsdaten in einer CSV-Datei herunter?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 TQID: https://experienceleague.adobe.com/-1FEosKnw-h8hRoK-VTO9VZsi5vIghnMnZp-fUUXo2U
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 737
@@ -72,7 +77,7 @@ Der [!UICONTROL Bestelldetails] zeigt Informationen zu Ihren Bestellungen an, da
 >[!NOTE]
 >
 >* Zu den Daten des Bestellberichts gehören Daten aus vier Wochen für die Standardumgebung (Hostgruppe) und Daten aus zwei Wochen für alle nicht standardmäßigen Umgebungen.
->* Umsatzmetriken, die auf „Anzahl [!UICONTROL  und Benutzer in der Aktivität belassen“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und sind nicht im Bericht [!UICONTROL Auftragsdetails] enthalten.
+>* Umsatzmetriken, die auf „Anzahl [!UICONTROL &#x200B; und Benutzer in der Aktivität belassen“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und sind nicht im Bericht [!UICONTROL Auftragsdetails] enthalten.
 
 ## Best Practices
 
@@ -84,7 +89,7 @@ Der [!UICONTROL Bestelldetails] zeigt Informationen zu Ihren Bestellungen an, da
 
 Die folgenden Informationen gelten für die Option [!UICONTROL Herunterladen]:
 
-* Sie können beide Berichte für [!UICONTROL A/B-Test]-, [!UICONTROL Automated Personalization]-, [!UICONTROL Erlebnis-Targeting]- und [!UICONTROL Multivarianz]-Aktivitäten herunterladen. Sie können den Bericht [!UICONTROL Erfolgsmetriken“ ] Aktivitäten [!UICONTROL Recommendations] nicht herunterladen.
+* Sie können beide Berichte für [!UICONTROL A/B-Test]-, [!UICONTROL Automated Personalization]-, [!UICONTROL Erlebnis-Targeting]- und [!UICONTROL Multivarianz]-Aktivitäten herunterladen. Sie können den Bericht [!UICONTROL Erfolgsmetriken“ &#x200B;] Aktivitäten [!UICONTROL Recommendations] nicht herunterladen.
 * Die [!UICONTROL Download]-Option ist nicht für [!UICONTROL A/B-Test]- und [!UICONTROL Erlebnis-Targeting]-Aktivitäten verfügbar, die vor [!DNL Target] Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
 * Zielgruppen, die in der [!DNL Target] Reporting-Benutzeroberfläche angewendet wurden, werden nicht in den Download-Bericht übernommen.

@@ -6,8 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 702
@@ -52,17 +57,17 @@ Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontroll
 >
 >Ein Uhrensymbol zeigt an, dass das Algorithmusmodell noch im Aufbau begriffen ist. Ein Häkchensymbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-Angebote können in [Berichtsgruppen“ angezeigt ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
+Angebote können in [Berichtsgruppen“ angezeigt &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 
-Klicken Sie auf [!UICONTROL  Symbol &quot;] Segmente“. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol &quot;] Segmente“. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
 Weitere Informationen finden Sie unter [Bericht zu automatisierten Segmenten](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Wichtige Attribute
 
-Klicken Sie auf [!UICONTROL  Symbol „Wichtige ]&quot;. Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol „Wichtige &#x200B;]&quot;. Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
 Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

@@ -28,7 +28,7 @@ Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen d
 
 **So wählen Sie Kriterien aus:**
 
-1. Suchen [ beim Erstellen einer ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
+1. Suchen [&#x200B; beim Erstellen einer &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
 
    ![Dialogfeld „Kriterien auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/filters.png)
 

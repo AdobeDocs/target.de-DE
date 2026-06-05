@@ -5,10 +5,18 @@ title: Wie verwende ich Angebotsentscheidungen?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1017
@@ -36,7 +44,7 @@ Um Angebotsentscheidungen in [!DNL Target] zu verwenden, benötigen Sie Folgende
 
   Die Funktion ist nicht verfügbar, wenn [!DNL Target] mit at.js oder anderen [!DNL Target] SDKs implementiert wird.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) oder [!DNL Adobe Experience Platform] und das Add-on {2]Offer Decisioning} Application Service .[!UICONTROL 
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) oder [!DNL Adobe Experience Platform] und das Add-on {2Offer Decisioning} Application Service .
 
 ## Beispiele für Anwendungsfälle
 
@@ -67,11 +75,11 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
    >[!NOTE]
    >
-   >Sie können auch ein Erlebnis erstellen, das [!UICONTROL Angebotsentscheidungen] im [[!UICONTROL formularbasierten Experience Composer) ]](/help/main/c-experiences/form-experience-composer.md).
+   >Sie können auch ein Erlebnis erstellen, das [!UICONTROL Angebotsentscheidungen] im [[!UICONTROL formularbasierten Experience Composer) &#x200B;]](/help/main/c-experiences/form-experience-composer.md).
 
 1. Klicken Sie **[!UICONTROL Inhalt ersetzen]** und anschließend auf **[!UICONTROL Angebotsentscheidung]**.
 
-   Die Option [!UICONTROL Angebotsentscheidung] ist nur beim Bearbeiten oder Erstellen [[!UICONTROL  manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Erlebnis-Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung. Die verfügbaren Optionen im Menü variieren je nach ausgewähltem Element.
+   Die Option [!UICONTROL Angebotsentscheidung] ist nur beim Bearbeiten oder Erstellen [[!UICONTROL &#x200B; manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Erlebnis-Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung. Die verfügbaren Optionen im Menü variieren je nach ausgewähltem Element.
 
    ![Optionsmenü im Visual Experience Composer](assets/options-menu.png)
 
@@ -85,13 +93,13 @@ In [!DNL Adobe Journey Optimizer] können Sie ein personalisiertes Homepage-Hero
 
    ![Dialogfeld Angebotsentscheidung auswählen](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der Leiste [!UICONTROL Änderungen] sehen können. Sie können unten in der Leiste „Angebotsentscheidung[!UICONTROL  auf ein Angebot ][!UICONTROL  Angebotsvorschau] klicken, um die Angebotsentscheidung zu untersuchen.
+   Ihre Website wird in VEC angezeigt, wo Sie die neu erstellte Angebotsentscheidung in der Leiste [!UICONTROL Änderungen] sehen können. Sie können unten in der Leiste „Angebotsentscheidung[!UICONTROL &#x200B; auf ein Angebot &#x200B;]&#x200B;[!UICONTROL &#x200B; Angebotsvorschau] klicken, um die Angebotsentscheidung zu untersuchen.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
    ![Angebotsvorschau](assets/offer-preview2.png)
 
-1. Schließen Sie die Erstellung der Aktivität ab[!UICONTROL  indem Sie die Schritte ]Zielgruppenbestimmung[!UICONTROL  und Ziele und Einstellungen] des dreiteiligen geleiteten Workflows abschließen.
+1. Schließen Sie die Erstellung der Aktivität ab[!UICONTROL &#x200B; indem Sie die Schritte &#x200B;]Zielgruppenbestimmung[!UICONTROL &#x200B; und Ziele und Einstellungen] des dreiteiligen geleiteten Workflows abschließen.
 
    >[!IMPORTANT]
    >
@@ -105,7 +113,7 @@ Beachten Sie bei der Arbeit mit Angebotsentscheidungen die folgenden Information
 
 * Die [!DNL Target]/[!DNL Adobe Journey Optimizer]-Integration unterstützt nur [manuelle [!UICONTROL A/B-]](/help/main/c-activities/t-test-ab/test-ab.md#types)- und [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)-Aktivitäten (XT). Diese Funktion ist für andere Aktivitätstypen nicht verfügbar.
 
-* Sie können [[!UICONTROL Analytics) nicht als Berichtsquelle ]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verwenden, wenn Sie Angebotsentscheidungen in einer Aktivität verwenden. Wählen Sie [!DNL Target] als Berichtsquelle auf der Seite [!UICONTROL Ziele und Einstellungen] während der Aktivitätseinrichtung, wenn Sie Angebotsentscheidungen in der Aktivität verwenden.
+* Sie können [[!UICONTROL Analytics) nicht als Berichtsquelle &#x200B;]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verwenden, wenn Sie Angebotsentscheidungen in einer Aktivität verwenden. Wählen Sie [!DNL Target] als Berichtsquelle auf der Seite [!UICONTROL Ziele und Einstellungen] während der Aktivitätseinrichtung, wenn Sie Angebotsentscheidungen in der Aktivität verwenden.
 
 * Angebote mit dem Inhaltstyp text/html unterstützen nicht die Bereitstellung von deliveryURL-Inhalten. Die deliveryURL wird vom [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) nur dann unterstützt, wenn der Client für das explizite Abrufen und Erstellen des Inhalts verantwortlich ist.
 

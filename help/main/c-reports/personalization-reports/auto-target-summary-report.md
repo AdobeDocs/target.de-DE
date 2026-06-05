@@ -6,8 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 666
@@ -51,13 +56,13 @@ Tipps und Überlegungen zur Interpretation Ihrer [!UICONTROL automatischen Targe
    * In diesem Fall wird den Erlebnissen mit nicht erstellten Modellen zusätzlicher Traffic gesendet, um die Geschwindigkeit der Aktivität zu erhöhen, für die für alle Erlebnisse Modelle erstellt sind.
    * Es müssen mindestens zwei Erlebnisse mit erstellten Modellen (grünes Häkchen) vorhanden sein, damit die Personalisierung gestartet wird.
 
-* Der Vergleich der Konversionsrate von Erlebnis A mit der von Erlebnis B ist in „Automatisches Targeting[!UICONTROL  nicht ]. Es stellt sich die Frage, ob Erlebnis A eine bessere Leistung erzielt, wenn es intelligent bereitgestellt wird, als wenn es auf zufällige Weise bereitgestellt wird (d. h. im Vergleich zur Kontrolle). Marketer sollten die Steigerungen einzelner Erlebnisse vorsichtig interpretieren, da der Personalisierungsalgorithmus versucht, die Optimierung für die Erfolgsmetrik über die gesamte Aktivität und nicht für jedes einzelne Erlebnis vorzunehmen.
+* Der Vergleich der Konversionsrate von Erlebnis A mit der von Erlebnis B ist in „Automatisches Targeting[!UICONTROL &#x200B; nicht &#x200B;]. Es stellt sich die Frage, ob Erlebnis A eine bessere Leistung erzielt, wenn es intelligent bereitgestellt wird, als wenn es auf zufällige Weise bereitgestellt wird (d. h. im Vergleich zur Kontrolle). Marketer sollten die Steigerungen einzelner Erlebnisse vorsichtig interpretieren, da der Personalisierungsalgorithmus versucht, die Optimierung für die Erfolgsmetrik über die gesamte Aktivität und nicht für jedes einzelne Erlebnis vorzunehmen.
 * Für Erlebnisse mit der höchsten Steigerung kann davon ausgegangen werden, dass dort die höchste Differenzierung der Population vorliegt. Das heißt, der Algorithmus hat ein Segment gefunden, das dieses bestimmte Erlebnis am meisten mag.
 * Die verschiedenen Spalten in der Tabelle zeigen die Anzahl der Besuche, die Konversionsrate, den durchschnittlichen Anstieg und das Konfidenzniveau sowie die Konfidenz. Weitere Informationen finden Sie unter [Statistische Berechnungen in A/B-](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Grafikansicht
 
-Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [ unter ](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
+Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [&#x200B; unter &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
 
 ## Automatisierte Segmente
 

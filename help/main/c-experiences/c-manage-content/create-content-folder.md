@@ -5,8 +5,10 @@ title: Erfahren Sie, wie Sie Ordner in der [!UICONTROL Angebote]-Bibliothek erst
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 291
@@ -48,7 +50,7 @@ Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen kön
 
 1. (Optional) Geben Sie einen beschreibenden **[!UICONTROL Name]** an.
 1. (Optional) Wählen Sie **[!UICONTROL Privat]** aus, um anzugeben, dass der Ordner privat ist, sodass nur Sie ihn und seinen Inhalt sehen können.
-1. (Optional) Wählen Sie **[!UICONTROL Neu anordnen-fähig in der Listenansicht]**, um anzugeben, dass Sie und andere die Position des Ordners in der [!UICONTROL Listenansicht“ ] können.
+1. (Optional) Wählen Sie **[!UICONTROL Neu anordnen-fähig in der Listenansicht]**, um anzugeben, dass Sie und andere die Position des Ordners in der [!UICONTROL Listenansicht“ &#x200B;] können.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
 

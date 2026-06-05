@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
 
-1. Klicken Sie [!UICONTROL  Visual Experience Composer ] VEC auf **[!UICONTROL Vorschau]**.
+1. Klicken Sie [!UICONTROL &#x200B; Visual Experience Composer &#x200B;] VEC auf **[!UICONTROL Vorschau]**.
 
    Es erscheint eine Liste aller Erlebnisse.
 

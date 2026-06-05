@@ -20,9 +20,9 @@ Verwenden Sie [!UICONTROL Profilattributabgleich] wenn Sie Empfehlungen anzeigen
 
 >[!NOTE]
 >
->Der [Prozess zum Erstellen und Verwenden von ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+>Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
-Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ ] können:
+Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ &#x200B;] können:
 
 * Ein Unternehmen, das Brillen verkauft, speichert die Lieblingsrahmenfarbe eines Besuchers als „Walnuss“. Für diesen spezifischen Besucher werden Empfehlungen erstellt, die nur Brillenfassungen zurückgeben, die der Farbe „Walnuss“ entsprechen.
 * Ein Profilparameter kann für die Kleidungsgröße (z. B. klein, Medium oder groß) eines Besuchers definiert werden, wenn dieser auf der Website Ihres Unternehmens navigiert. Es kann eine Empfehlung eingerichtet werden, die diesem Profilparameter entspricht und Produkte zurückgibt, die nur der bevorzugten Kleidungsgröße des Benutzers entsprechen.

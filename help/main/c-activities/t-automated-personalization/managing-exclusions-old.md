@@ -27,11 +27,11 @@ Sie können auch einschränken, welche Zielgruppen bestimmte Angebote in den AP-
 
 **So erstellen Sie eine Ausschlussgruppe:**
 
-1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **[!UICONTROL Inhalt verwalten]**.
+1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **[!UICONTROL Inhalt verwalten]**.
 
    ![Option „Inhalt verwalten“](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Klicken Sie [!UICONTROL  Dialogfeld ]Inhalt verwalten“ auf **[!UICONTROL Ausschlussgruppen]**.
+1. Klicken Sie [!UICONTROL &#x200B; Dialogfeld &#x200B;]Inhalt verwalten“ auf **[!UICONTROL Ausschlussgruppen]**.
 
    ![Inhalt verwalten > Dialogfeld „Ausschlussgruppen“](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -69,7 +69,7 @@ Schließen Sie bestimmte Erlebnisse aus, wenn Sie bestimmte Angebotskombinatione
 
 Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, oder Sie beschränken die Anzahl der getesteten Erlebnisse, um die Traffic-Anforderungen für Ihre Aktivität zu senken.
 
-1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **Inhalt verwalten**.
+1. Klicken Sie [beim Erstellen oder Bearbeiten einer AP-Aktivität in der Header-Leiste &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)auf **Inhalt verwalten**.
 
    ![Option „Inhalt verwalten“](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -85,9 +85,9 @@ Möglicherweise gibt es bestimmte Kombinationen, die nicht zusammenarbeiten, ode
 
    ![Erlebnisse im Batch-Modus ausschließen](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
-   Sie können diese Listenansicht so filtern, dass nur ausgeschlossene oder nur eingeschlossene Aktivitäten angezeigt werden, indem Sie auf [!UICONTROL  Dropdown-Liste ]Status“ klicken.
+   Sie können diese Listenansicht so filtern, dass nur ausgeschlossene oder nur eingeschlossene Aktivitäten angezeigt werden, indem Sie auf [!UICONTROL &#x200B; Dropdown-Liste &#x200B;]Status“ klicken.
 
-   Die Erlebnisse sind jetzt von der Aktivität ausgeschlossen und ihr [!UICONTROL Status] wird als &quot;[!UICONTROL &quot; ].
+   Die Erlebnisse sind jetzt von der Aktivität ausgeschlossen und ihr [!UICONTROL Status] wird als &quot;[!UICONTROL &quot; &#x200B;].
 
    ![Ausgeschlossene Erlebnisse](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
@@ -99,10 +99,10 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 
 **So schließen Sie Standardinhalte mit dem [!UICONTROL Visual Experience Composer] (VEC) aus:**
 
-1. Wählen [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Text/HTML ändern]**, **[!UICONTROL Bild ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**.
+1. Wählen [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität den zu ersetzenden Inhalt aus und klicken Sie, um auf **[!UICONTROL Text/HTML ändern]**, **[!UICONTROL Bild ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**.
 1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **Einschließen** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/Standardvideo im Bildschirm [!UICONTROL Inhalt auswählen]).
 
-   Je nach Inhalts- oder Angebotstyp befindet sich [!UICONTROL  Kontrollkästchen ]Einschließen“ an einer etwas anderen Stelle.
+   Je nach Inhalts- oder Angebotstyp befindet sich [!UICONTROL &#x200B; Kontrollkästchen &#x200B;]Einschließen“ an einer etwas anderen Stelle.
 
    Für Text-/HTML-Inhalt:
 
@@ -127,7 +127,7 @@ Das Ausschließen von Standardinhalt ist eine sehr gute Möglichkeit, um das Ers
 1. Klicken Sie beim Erstellen oder Bearbeiten einer AP-Aktivität unter **[!UICONTROL Inhalt]** auf **[!UICONTROL Text/HTML ändern]** oder **[!UICONTROL Bildangebot ändern]**.
 1. Erstellen Sie im Dialogfeld Ihren neuen Inhalt und deaktivieren Sie **[!UICONTROL Einschließen]** rechts neben dem Standardinhalt (oder deaktivieren Sie das Standardbild/Standardvideo im Bildschirm [!UICONTROL Inhalt auswählen]).
 
-   Je nach Inhalts- oder Angebotstyp befindet sich [!UICONTROL  Kontrollkästchen ]Einschließen“ an einer etwas anderen Stelle.
+   Je nach Inhalts- oder Angebotstyp befindet sich [!UICONTROL &#x200B; Kontrollkästchen &#x200B;]Einschließen“ an einer etwas anderen Stelle.
 
    Für Text-/HTML-Inhalt:
 

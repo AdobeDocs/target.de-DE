@@ -1,14 +1,23 @@
 ---
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser;Häufig gestellte Fragen
-description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit [!UICONTROL  Browser-Erweiterung ]Visual Editing Helper) können Sie Websites zuverlässig im VEC laden.
+description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit [!UICONTROL &#x200B; Browser-Erweiterung &#x200B;]Visual Editing Helper) können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die Erweiterung [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 837
@@ -18,7 +27,7 @@ ht-degree: 57%
 
 # [!UICONTROL Visual Editing Helper]-Erweiterung
 
-Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Browser-Erweiterung für [!DNL Google Chrome] ] können Sie Websites zuverlässig innerhalb des [!UICONTROL Adobe Target[!UICONTROL Visual Experience Composer] (VEC) laden, um Web-Erlebnisse schnell zu erstellen und zu prüfen.
+Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Browser-Erweiterung für [!DNL Google Chrome]  können Sie Websites zuverlässig innerhalb des Adobe Target[!UICONTROL Visual Experience Composer] (VEC) laden, um Web-Erlebnisse schnell zu erstellen und zu prüfen.
 
 >[!IMPORTANT]
 >
@@ -41,7 +50,7 @@ Mit der [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Browser
 * Die Website befindet sich in einem iFrame.
 * Die QA- oder Status-Site von Kundinnen und Kunden kann extern nicht abgerufen werden (interne Site).
 
-Die [!DNL Adobe Experience Cloud]-Erweiterung [!UICONTROL Visual Editing ]) für löst Probleme beim Laden von Websites, für die Kundinnen und Kunden jetzt auf den [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) oder Erweiterungen von Drittanbietern wie Requestly angewiesen sind.
+Die [!DNL Adobe Experience Cloud]-Erweiterung [!UICONTROL Visual Editing &#x200B;]) für löst Probleme beim Laden von Websites, für die Kundinnen und Kunden jetzt auf den [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) oder Erweiterungen von Drittanbietern wie Requestly angewiesen sind.
 
 ## Vorteile der Verwendung der [!UICONTROL Visual Editing Helper]-Erweiterung
 
@@ -50,7 +59,7 @@ Die [!DNL Adobe Experience Cloud]-Erweiterung [!UICONTROL Visual Editing ]) für
 
   Bei Verwendung des [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) wird at.js von der Erweiterung zwar nicht eingefügt, aber die SameSite Cookie-Funktionalität ist weiterhin vorhanden. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
-* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer) ].
+* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer) &#x200B;].
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 

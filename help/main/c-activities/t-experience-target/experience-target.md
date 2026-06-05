@@ -5,9 +5,15 @@ title: Was ist eine [!UICONTROL Erlebnis-Targeting]-Aktivität (XT)?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 TQID: https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 461
@@ -21,7 +27,7 @@ Beim [!UICONTROL Experience Targeting] (XT) werden Inhalte für eine bestimmte Z
 
 [!UICONTROL Erlebnis-], einschließlich [Geo-Targeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen.
 
-Wenn Besucherinnen und Besucher Ihre Website aufrufen[!UICONTROL  wertet „Experience Targeting] (XT) diese Besucherinnen und Besucher aus, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Wenn sie die Kriterien erfüllen, treten sie in die Aktivität ein, und das für qualifizierte Zielgruppen entwickelte Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+Wenn Besucherinnen und Besucher Ihre Website aufrufen[!UICONTROL &#x200B; wertet „Experience Targeting] (XT) diese Besucherinnen und Besucher aus, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Wenn sie die Kriterien erfüllen, treten sie in die Aktivität ein, und das für qualifizierte Zielgruppen entwickelte Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
 [!UICONTROL Erlebnis-Targeting] ist ein erster Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Ein Marketing-Experte führt einen A/B-Test durch und stellt mithilfe von Reporting-Zielgruppen fest, dass verschiedene Erlebnisse bei verschiedenen Zielgruppen Anklang finden. [!UICONTROL Erlebnis-Targeting] ermöglicht es Marketing-Experten, diese Erkennung einfach zu nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Benutzersegmente zu wechseln.
 
@@ -37,7 +43,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Von A/B-Tests bis [!UICONTROL Erlebnis-Targeting]
 
-In diesem Video wird beschrieben, wie Sie A/B-Tests mit Erlebnis[!UICONTROL Targeting auf die nächste Stufe ].
+In diesem Video wird beschrieben, wie Sie A/B-Tests mit Erlebnis[!UICONTROL Targeting auf die nächste Stufe &#x200B;].
 
 * Beschreibung des dreistufigen Workflows zum Konfigurieren einer [!UICONTROL Erlebnis-Targeting]-Aktivität
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen

@@ -37,7 +37,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Ausschluss erstellen]**.
 

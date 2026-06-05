@@ -13,7 +13,7 @@ ht-degree: 51%
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Im [!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer ] Sie mehrere Zielgruppen für ein Erlebnis einrichten.
+Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Im [!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer &#x200B;] Sie mehrere Zielgruppen für ein Erlebnis einrichten.
 
 Besucher können bei Profiländerungen zwischen Erlebnis-Audiences wechseln. Besucher bleiben nicht für die gesamte Lebensdauer der Aktivität im gleichen Erlebnis stecken.
 

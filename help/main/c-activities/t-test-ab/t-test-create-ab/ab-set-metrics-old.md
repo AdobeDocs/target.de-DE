@@ -1,6 +1,6 @@
 ---
 keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer A [!DNL Adobe Target] A/B-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, z[!UICONTROL  B. ]Konversion[!UICONTROL  „Umsatz] und [!UICONTROL Interaktion].
+description: Erfahren Sie, wie Sie Metriken in einer A [!DNL Adobe Target] A/B-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, z[!UICONTROL &#x200B; B. &#x200B;]Konversion[!UICONTROL &#x200B; „Umsatz] und [!UICONTROL Interaktion].
 title: Wie kann ich in einer A/B-Aktivität Zielmetriken festlegen?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -33,7 +33,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    Die verfügbaren Einstellungen hängen von der von Ihnen verwendeten Erfolgsmetrik ab.
 
-   Wenn diese Option aktiviert ist[!UICONTROL  liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+   Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    Die korrekte Konfiguration von Erfolgsmetriken ist wichtig, um sicherzustellen, dass Sie die erwarteten Daten erhalten.
 

@@ -5,8 +5,10 @@ title: Wie erstelle ich Karussells im Visual Experience Composer?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 TQID: https://experienceleague.adobe.com/RN04MJgC49BI2-h2e-i-kgSRTejpLHzKACm-hOv2VCE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 152
@@ -16,7 +18,7 @@ ht-degree: 71%
 
 # Erstellen von Karussells, die in Visual Experience Composer funktionieren
 
-In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL  Experience Composer) ] werden kann.
+In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL &#x200B; Experience Composer) &#x200B;] werden kann.
 
 Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass die ausgewählte Folie die Auswahl für die richtige Folie beinhaltet, selbst wenn sie nach einigen Sekunden im Visual Experience Composer ausgewechselt wird.
 

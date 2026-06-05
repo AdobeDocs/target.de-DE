@@ -1,6 +1,6 @@
 ---
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
-description: Erfahren Sie[!UICONTROL  wie eine Aktivität vom Typ ]Automatisches Targeting [!DNL Target]  jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
+description: Erfahren Sie[!UICONTROL &#x200B; wie eine Aktivität vom Typ &#x200B;]Automatisches Targeting [!DNL Target]  jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL automatisches Targeting]-Aktivität?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
@@ -32,7 +32,7 @@ Lesen Sie weiter, um zu erfahren, wie Sie [!UICONTROL Automatisches Targeting] v
 
 ## Überblick {#section_972257739A2648AFA7E7556B693079C9}
 
-Wählen [ beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
+Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)Aktivität mithilfe des angeleiteten dreistufigen Workflows die Option **[!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]** auf der Seite **[!UICONTROL Targeting]** (Schritt 2).
 
 ![Automatisches Targeting für personalisierte Erlebnisse](/help/main/c-activities/assets/auto-target-ui-new.png)
 
@@ -40,7 +40,7 @@ Mit der Option [!UICONTROL Automatisches Targeting] innerhalb des A/B-Aktivität
 
 Ähnlich wie [!UICONTROL Automated Personalization] verwendet [!UICONTROL Automatisches Targeting] einen [Random Forest-](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), eine führende Datenwissenschafts-Ensemble-Methode, um das beste Erlebnis zu ermitteln, das einem Besucher angezeigt werden soll. Da [!UICONTROL Automatisches Targeting] sich an Änderungen im Besucherverhalten anpassen kann, kann es dauerhaft ausgeführt werden, um eine Steigerung zu ermöglichen. Diese Methode wird auch als „Always-on“-Modus bezeichnet.
 
-Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung für einen bestimmten Besucher starr ist, [!UICONTROL  das ] Targeting das angegebene Geschäftsziel für jeden Besuch optimiert. Wie [!UICONTROL Auto Personalization] reserviert [!UICONTROL Automatisches Targeting] standardmäßig einen Teil des Traffics der Aktivität als Kontrollgruppe, um die Steigerung zu messen. Für Besucher in der Kontrollgruppe wird ein zufälliges Erlebnis in der Aktivität bereitgestellt.
+Im Gegensatz zu einer A/B-Aktivität, bei der die Erlebniszuordnung für einen bestimmten Besucher starr ist, [!UICONTROL &#x200B; das &#x200B;] Targeting das angegebene Geschäftsziel für jeden Besuch optimiert. Wie [!UICONTROL Auto Personalization] reserviert [!UICONTROL Automatisches Targeting] standardmäßig einen Teil des Traffics der Aktivität als Kontrollgruppe, um die Steigerung zu messen. Für Besucher in der Kontrollgruppe wird ein zufälliges Erlebnis in der Aktivität bereitgestellt.
 
 ## Zu beachten
 
@@ -66,7 +66,7 @@ Die folgenden Begriffe sind bei der Diskussion von [!UICONTROL automatischem Tar
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In der Datenwissenschaft ist dies eine Ensemble-Klassifizierung oder Regressionsmethode, die durch die Erstellung vieler Entscheidungsbäume auf der Grundlage von Besucher- und Besuchsattributen funktioniert. In [!DNL Target] wird mithilfe der Zufallsstruktur bestimmt, welches Erlebnis für jeden einzelnen Besucher die höchste Konversionswahrscheinlichkeit (oder den höchsten Umsatz pro Besuch) aufweist. |
 | [Thompson-](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Das Ziel des Thompson-Stichprobenverfahrens besteht darin, festzustellen, welches Erlebnis insgesamt am besten ist (nicht personalisiert), und gleichzeitig die „Kosten“ für das Auffinden dieses Erlebnisses zu minimieren. Das Thompson Sampling wählt immer einen Gewinner aus, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. |
 
-## Funktionsweise [!UICONTROL  automatischen ] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Funktionsweise [!UICONTROL &#x200B; automatischen &#x200B;] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 Weitere Informationen zu den Daten und Algorithmen, die [!UICONTROL automatischem Targeting] und [!UICONTROL Automated Personalization] zugrunde liegen, finden Sie unter folgenden Links:
 
@@ -100,7 +100,7 @@ Um den Prozentsatz [!UICONTROL Kontrolle] anzupassen, klicken Sie auf die Symbol
 
 Sie können [ein bestimmtes Erlebnis auswählen, das als Kontrolle verwendet werden soll](/help/main/c-activities/t-automated-personalization/experience-as-control.md), oder die Option „Zufälliges Erlebnis“ verwenden.
 
-## Wann sollten Sie [!UICONTROL Automatisches Targeting] anstelle von [!UICONTROL Automated Personalization ]? {#section_BBC4871C87944DD7A8B925811A30C633}
+## Wann sollten Sie [!UICONTROL Automatisches Targeting] anstelle von [!UICONTROL Automated Personalization &#x200B;]? {#section_BBC4871C87944DD7A8B925811A30C633}
 
 Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] anstelle von [!UICONTROL Automated Personalization bevorzugen]:
 
@@ -124,7 +124,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] ans
 
 ### Der Algorithmus wird kontinuierlich für eine einzelne Zielmetrik optimiert.
 
-* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt &quot;[!UICONTROL  pro Besuch]).
+* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt &quot;[!UICONTROL &#x200B; pro Besuch]).
 
 ### [!DNL Target] erfasst automatisch Informationen über Besucher, um die Personalisierungsmodelle zu erstellen.
 
@@ -136,7 +136,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] ans
 
 ### Marketing-Experten können Offline-Daten, Tendenzwerte oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen.
 
-* Weitere Informationen zum [ (Hochladen von Daten für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* Weitere Informationen zum [&#x200B; (Hochladen von Daten für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 ## Wie unterscheidet [!UICONTROL Automatisches Targeting] von [!UICONTROL Automated Personalization]? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
@@ -144,7 +144,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] ans
 
 Obwohl die Menge an Traffic *pro Erlebnis*, die für [!UICONTROL Automatisches Targeting] oder [!UICONTROL Automatisches Personalization]-Modelle erforderlich ist, identisch ist, gibt es in der Regel mehr Erlebnisse in einer [!UICONTROL Automated Personalization]-Aktivität als in einer [!UICONTROL Automatisches Targeting]-Aktivität.
 
-Wenn Sie beispielsweise eine Aktivität vom Typ [!UICONTROL Automatische Personalization] hatten, in der Sie zwei Angebote pro Standort mit zwei Standorten erstellt haben, wären insgesamt vier (2 = 4) Erlebnisse in der Aktivität enthalten (ohne Ausschlüsse). Mit [!UICONTROL  automatischen Targeting] können Sie Erlebnis 1 so einrichten, dass Angebot 1 an Standort 1 und Angebot 2 an Standort 2 einbezogen wird, und Erlebnis 2 so, dass Angebot 1 an Standort 1 und Angebot 2 an Standort 2 einbezogen wird. Da [!UICONTROL Automatisches Targeting] mehrere Änderungen in einem Erlebnis ermöglicht, können Sie die Anzahl der gesamten Erlebnisse in Ihrer Aktivität reduzieren.
+Wenn Sie beispielsweise eine Aktivität vom Typ [!UICONTROL Automatische Personalization] hatten, in der Sie zwei Angebote pro Standort mit zwei Standorten erstellt haben, wären insgesamt vier (2 = 4) Erlebnisse in der Aktivität enthalten (ohne Ausschlüsse). Mit [!UICONTROL &#x200B; automatischen Targeting] können Sie Erlebnis 1 so einrichten, dass Angebot 1 an Standort 1 und Angebot 2 an Standort 2 einbezogen wird, und Erlebnis 2 so, dass Angebot 1 an Standort 1 und Angebot 2 an Standort 2 einbezogen wird. Da [!UICONTROL Automatisches Targeting] mehrere Änderungen in einem Erlebnis ermöglicht, können Sie die Anzahl der gesamten Erlebnisse in Ihrer Aktivität reduzieren.
 
 Für [!UICONTROL Automatisches Targeting] können einfache Faustregeln verwendet werden, um Traffic-Anforderungen zu verstehen:
 
@@ -170,7 +170,7 @@ In diesem Video wird erläutert, wie Sie eine A/B[!UICONTROL Aktivität vom Typ 
 
 Nach Abschluss dieser Schulung sollten Sie zu Folgendem in der Lage sein:
 
-* Definieren [!UICONTROL  Tests ] automatisches Targeting
+* Definieren [!UICONTROL &#x200B; Tests &#x200B;] automatisches Targeting
 * Vergleichen und Kontrast [!UICONTROL Automatisches Targeting] mit [!UICONTROL Automated Personalization]
 * Erstellen [!UICONTROL automatischen Targeting]-Aktivitäten
 

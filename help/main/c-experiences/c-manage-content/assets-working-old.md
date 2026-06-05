@@ -21,7 +21,7 @@ Informationen zu den Aufgaben, die Sie mit einem Asset in der Inhaltsbibliothek 
 
    Weitere Informationen zum Durchsuchen der Angebotsbibliothek und Erstellen intelligenter Sammlungen finden Sie unter [Filtern und Durchsuchen von Inhalten](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ ] konfigurieren.
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ &#x200B;] konfigurieren.
 
    Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Listenansicht]:
 

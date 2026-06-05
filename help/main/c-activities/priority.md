@@ -5,9 +5,13 @@ title: Wie weist  [!DNL Target]  verschiedenen Aktivitäten Priorität zu?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 TQID: https://experienceleague.adobe.com/KSkJ1CDkd4hgwnLQ1RKn8l8r2MDIO-6flcHcdN0c0oQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 987
@@ -19,7 +23,7 @@ ht-degree: 37%
 
 [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) für eine Seite bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) Sie verwenden.
 
-## [!UICONTROL Nur Visual Experience ]) oder [!UICONTROL Formularbasierter Experience Composer] nur mit einer globalen [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Nur Visual Experience &#x200B;]) oder [!UICONTROL Formularbasierter Experience Composer] nur mit einer globalen [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
@@ -43,7 +47,7 @@ Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Zielgruppe ausgewählt wurde, wird die zuerst genehmigte Aktivität angezeigt.
 
-## [!UICONTROL Form-Based Experience ] und [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL Form-Based Experience &#x200B;] und [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 Wenn Ihr Unternehmen den [!UICONTROL formularbasierten Experience Composer] *und* VEC verwendet, können Inhalte aus mehreren [!UICONTROL formularbasierten Experience Composer]- und VEC-Aktivitäten bereitgestellt werden. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow eine Bereitstellung vornehmen. Die Anzahl der formularbasierten Aktivitäten, die eine Bereitstellung vornehmen können, ist jetzt nicht mehr begrenzt.
 

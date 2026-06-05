@@ -5,9 +5,15 @@ title: Wie konfiguriere ich Berichteinstellungen?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1932
@@ -173,8 +179,8 @@ Je nach Aktivitätstyp können Sie den Bericht in verschiedenen Formaten anzeige
 
 * **Tabellenansicht** Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** ( ![Tabellenansichtssymbol](/help/main/assets/icons/Table.svg) ), um den Bericht als Tabelle anzuzeigen.
 * **Diagrammansicht**: Klicken Sie auf das Symbol **[!UICONTROL Diagrammansicht]** ( ![Diagrammansichtssymbol](/help/main/assets/icons/GraphTrend.svg) ), um den Bericht als Diagramm anzuzeigen.
-* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -224,7 +230,7 @@ Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Ei
 
 Standardmäßig wird das Diagramm im Modus [!UICONTROL Täglich] gezeichnet.
 
-Sie können den Modus ändern, indem Sie auf [!UICONTROL  Dropdown-Liste ]Täglich“ klicken und dann eine kumulative Option auswählen.
+Sie können den Modus ändern, indem Sie auf [!UICONTROL &#x200B; Dropdown-Liste &#x200B;]Täglich“ klicken und dann eine kumulative Option auswählen.
 
 >[!NOTE]
 >

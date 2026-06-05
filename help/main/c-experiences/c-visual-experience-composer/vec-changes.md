@@ -5,8 +5,10 @@ title: Welche Änderungen werden mit dem neuen Visual Experience Composer (VEC) 
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
 TQID: https://experienceleague.adobe.com/PZaKHKs1-GPnR1U-E0d3YQVNWhinmt9ctjOSnIbNrE0
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 994
@@ -20,7 +22,7 @@ Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) w
 
 >[!IMPORTANT]
 >
->Der aktualisierte [!UICONTROL Visual Editing ]Composer) erfordert die [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md), die in der [!DNL Chrome Web Store] verfügbar ist.
+>Der aktualisierte [!UICONTROL Visual Editing &#x200B;]Composer) erfordert die [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md), die in der [!DNL Chrome Web Store] verfügbar ist.
 
 Der VEC wird angezeigt, wenn Sie eine vorhandene Aktivität erstellen oder bearbeiten.
 
@@ -32,11 +34,11 @@ In den folgenden Abschnitten werden die wichtigsten Änderungen im aktualisierte
 
 ### [!UICONTROL Erlebnisse] Leiste
 
-Wie in der vorherigen Version [!UICONTROL  die Leiste ]Erlebnisse“ auf der linken Seite des VEC. Die [!UICONTROL Erlebnisse] kann nicht reduziert werden.
+Wie in der vorherigen Version [!UICONTROL &#x200B; die Leiste &#x200B;]Erlebnisse“ auf der linken Seite des VEC. Die [!UICONTROL Erlebnisse] kann nicht reduziert werden.
 
 ![Leiste „Erlebnisse“](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Sie können Erlebnisse mithilfe der Leiste „Erlebnisse“ erstellen[!UICONTROL  umbenennen ] entfernen. Klicken Sie auf **[!UICONTROL Hinzufügen]**-Symbol ( ![Hinzufügen-Symbol](/help/main/assets/icons/Add.svg) ), um ein neues Erlebnis hinzuzufügen. Klicken Sie auf das Symbol [!UICONTROL Mehr Aktionen] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ), um ein Erlebnis zu duplizieren, zu löschen oder umzuleiten.
+Sie können Erlebnisse mithilfe der Leiste „Erlebnisse“ erstellen[!UICONTROL &#x200B; umbenennen &#x200B;] entfernen. Klicken Sie auf **[!UICONTROL Hinzufügen]**-Symbol ( ![Hinzufügen-Symbol](/help/main/assets/icons/Add.svg) ), um ein neues Erlebnis hinzuzufügen. Klicken Sie auf das Symbol [!UICONTROL Mehr Aktionen] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ), um ein Erlebnis zu duplizieren, zu löschen oder umzuleiten.
 
 ### [!UICONTROL Komponenten] Leiste (neu)
 
@@ -48,13 +50,13 @@ Um eine neue Komponente hinzuzufügen, wählen Sie die gewünschte Komponente in
 
 >[!NOTE]
 >
->Wenn in diesem Bereich [!UICONTROL  Leiste ]Änderungen“ anstelle der Leiste [!UICONTROL Komponenten] angezeigt wird, klicken Sie auf das Symbol **[!UICONTROL Komponenten anzeigen]** (![Symbol Komponenten anzeigen](/help/main/assets/icons/Add.svg) ). Das Symbol [!UICONTROL Komponenten anzeigen] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das Symbol [!UICONTROL Änderungen anzeigen] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
+>Wenn in diesem Bereich [!UICONTROL &#x200B; Leiste &#x200B;]Änderungen“ anstelle der Leiste [!UICONTROL Komponenten] angezeigt wird, klicken Sie auf das Symbol **[!UICONTROL Komponenten anzeigen]** (![Symbol Komponenten anzeigen](/help/main/assets/icons/Add.svg) ). Das Symbol [!UICONTROL Komponenten anzeigen] ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ) und das Symbol [!UICONTROL Änderungen anzeigen] ( ![Leiste „Änderungen anzeigen](/help/main/assets/icons/History.svg) ) dienen als Umschalter zum Anzeigen der entsprechenden Optionen.
 >
 >Um die Leiste [!UICONTROL Komponenten] zu reduzieren und die Arbeitsfläche [!UICONTROL Design] zu vergrößern, während die Leiste [!UICONTROL Komponenten] geöffnet ist, klicken Sie auf das Symbol ( ![Symbol „Komponenten anzeigen](/help/main/assets/icons/Add.svg) ).
 
 ### [!UICONTROL Änderungen] Leiste
 
-Um die Leiste [!UICONTROL Änderungen] zu öffnen, klicken Sie auf das Symbol [!UICONTROL Änderungen anzeigen] ( ![Leiste „Änderungen ](/help/main/assets/icons/History.svg) anzeigen„) in der Leiste [!UICONTROL Komponenten]. Die [!UICONTROL Änderungen] der Leiste wurde von der rechten zur linken Seite der Arbeitsfläche für die Bearbeitung geändert.
+Um die Leiste [!UICONTROL Änderungen] zu öffnen, klicken Sie auf das Symbol [!UICONTROL Änderungen anzeigen] ( ![Leiste „Änderungen &#x200B;](/help/main/assets/icons/History.svg) anzeigen„) in der Leiste [!UICONTROL Komponenten]. Die [!UICONTROL Änderungen] der Leiste wurde von der rechten zur linken Seite der Arbeitsfläche für die Bearbeitung geändert.
 
 ![Leiste „Änderungen](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -72,7 +74,7 @@ Um die Leiste [!UICONTROL Änderungen] erneut anzuzeigen, klicken Sie auf das Sy
 
 ### [!UICONTROL Eigenschaften] Leiste (neu)
 
-Mit [!UICONTROL  Leiste ]Eigenschaften“ können Sie die Eigenschaften ausgewählter Seitenelemente ändern, unabhängig davon, ob es sich um HTML-Elemente oder [!DNL Target]-spezifische Objekte wie Empfehlungen oder Angebote handelt.
+Mit [!UICONTROL &#x200B; Leiste &#x200B;]Eigenschaften“ können Sie die Eigenschaften ausgewählter Seitenelemente ändern, unabhängig davon, ob es sich um HTML-Elemente oder [!DNL Target]-spezifische Objekte wie Empfehlungen oder Angebote handelt.
 
 ![Eigenschaftenleiste](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
@@ -80,7 +82,7 @@ Klicken Sie auf die Symbole oben in der Leiste, um HTML-Code zu bearbeiten oder 
 
 ![Eigenschaftensymbole](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-Die [!UICONTROL Eigenschaften] ist in der rechten Leiste ausblendbar. Klicken Sie [!UICONTROL  rechts neben der Leiste auf das Symbol ]Eigenschaften anzeigen/ausblenden![ ( Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ), um die Leiste [!UICONTROL Eigenschaften] zu reduzieren oder anzuzeigen.
+Die [!UICONTROL Eigenschaften] ist in der rechten Leiste ausblendbar. Klicken Sie [!UICONTROL &#x200B; rechts neben der Leiste auf das Symbol &#x200B;]Eigenschaften anzeigen/ausblenden![&#x200B; ( Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ), um die Leiste [!UICONTROL Eigenschaften] zu reduzieren oder anzuzeigen.
 
 ### Aktivitätseinstellungen/-konfiguration
 
@@ -88,7 +90,7 @@ Klicken Sie auf das [!UICONTROL Konfigurieren]-Symbol ( ![Konfigurieren-Symbol](
 
 ![Konfigurationsoptionen für Aktivitäten](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
-Über die verschiedenen Optionen können Sie Eigenschaften zuweisen, Seitenbereitstellungsregeln bearbeiten, Website-Voreinstellungen festlegen, zusätzliche Seiten hinzufügen und mehrseitige oder mehrere Zielgruppenaktivitäten aktivieren oder deaktivieren. &quot;[!UICONTROL &quot; ] eine [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) Funktion.
+Über die verschiedenen Optionen können Sie Eigenschaften zuweisen, Seitenbereitstellungsregeln bearbeiten, Website-Voreinstellungen festlegen, zusätzliche Seiten hinzufügen und mehrseitige oder mehrere Zielgruppenaktivitäten aktivieren oder deaktivieren. &quot;[!UICONTROL &quot; &#x200B;] eine [[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) Funktion.
 
 Position und Funktionalität sind mit der vorherigen VEC-Benutzeroberfläche vergleichbar.
 
@@ -132,7 +134,7 @@ Die folgende Abbildung zeigt die Änderungen an der Benutzeroberfläche auf hohe
 
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 
-* [[!UICONTROL Änderungen ] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2025) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+* [[!UICONTROL Änderungen &#x200B;] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2025) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 

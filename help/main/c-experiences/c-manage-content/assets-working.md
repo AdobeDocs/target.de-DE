@@ -5,8 +5,11 @@ title: Erkunden Sie das Content-Management in der [!UICONTROL Angebotsbibliothek
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 794
@@ -16,7 +19,7 @@ ht-degree: 11%
 
 # Arbeiten mit Inhalten in der [!UICONTROL Asset]-Bibliothek
 
-Erfahren Sie mehr über die Aufgaben, die Sie mit Assets in der [!UICONTROL Adobe Target]Inhaltsbibliothek[!UICONTROL  durchführen ]. Zu den Aufgaben gehören das Kommentieren, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
+Erfahren Sie mehr über die Aufgaben, die Sie mit Assets in der [!UICONTROL Adobe Target]Inhaltsbibliothek[!UICONTROL &#x200B; durchführen &#x200B;]. Zu den Aufgaben gehören das Kommentieren, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
 
 ## Zugriff auf die Angebotsbibliothek
 
@@ -37,7 +40,7 @@ Wenn Sie die Seite [!UICONTROL Angebote codieren] anzeigen, können Sie die folg
 * **[!UICONTROL Kopieren]**: Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Kopieren]**, um das Angebot zu kopieren. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
 * **[!UICONTROL Löschen]**: Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Löschen]**, um das Angebot oder den Ordner zu löschen.
 
-  Weitere [ finden Sie unter „Überlegungen ](#delete) Löschen von Elementen“.
+  Weitere [&#x200B; finden Sie unter „Überlegungen &#x200B;](#delete) Löschen von Elementen“.
 
 * **[!UICONTROL Verschieben]**: Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Verschieben]**, navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf **[!UICONTROL Verschieben]**. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen.
 
@@ -61,7 +64,7 @@ Wenn Sie die Seite [!UICONTROL Bildangebote] anzeigen, können Sie die folgenden
    * [!UICONTROL Anmerken]: Hinzufügen einer Anmerkung zum Asset. Klicken Sie auf das Asset, wählen Sie den Bereich aus, in dem Sie die Anmerkung hinzufügen möchten, und geben Sie dann Ihren Text ein.
    * [!UICONTROL Kopieren]: Kopieren Sie das Angebot. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
    * [!UICONTROL Verschieben]: Klicken Sie auf das Symbol [!UICONTROL Verschieben], navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf **[!UICONTROL Verschieben]**. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen.
-   * [!UICONTROL Löschen]: Löschen des Angebots. Weitere Informationen finden [ unter „Überlegungen ](#delete) Löschen von Elementen“.
+   * [!UICONTROL Löschen]: Löschen des Angebots. Weitere Informationen finden [&#x200B; unter „Überlegungen &#x200B;](#delete) Löschen von Elementen“.
 
 ## Überlegungen beim Löschen von Elementen {#delete}
 

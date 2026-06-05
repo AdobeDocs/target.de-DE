@@ -5,8 +5,11 @@ title: Wie kann ich mehr über die statistischen Berechnungen erfahren, die in [
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -22,7 +25,7 @@ In diesem Artikel werden die detaillierten statistischen Berechnungen dokumentie
 >
 >Die Informationen in diesem Artikel ersetzen die PDF-Datei mit den *Adobe Target-Berechnungen für A/B* Tests, die zuvor auf dieser Website zum Download verfügbar war.
 
-![Target-Bericht, der die [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittlicher Anstieg und ]Konfidenzintervall) und [!UICONTROL Konfidenz] einer A/B-Testaktivität ausgibt.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![Target-Bericht, der die [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittlicher Anstieg und &#x200B;]Konfidenzintervall) und [!UICONTROL Konfidenz] einer A/B-Testaktivität ausgibt.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Durchschnittliche Leistung
 
@@ -54,7 +57,7 @@ Das Konfidenzintervall der Konversionsrate wird intuitiv definiert als Bereich m
 
 Bei der Durchführung von Experimenten ist die Konversionsrate für ein bestimmtes Erlebnis eine *Schätzung* der „echten“ Konversionsrate. Um die Unsicherheit in dieser Schätzung zu quantifizieren, verwendet [!DNL Target] ein Konfidenzintervall. [!DNL Target] meldet immer ein Konfidenzintervall von 95 %, was bedeutet, dass am Ende 95 % der berechneten Konfidenzintervalle die tatsächliche Konversionsrate des Erlebnisses enthalten.
 
-Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL  des führenden Erlebnisses ] mindestens 60 % erreicht. Wenn zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem das Erlebnis eine bessere Leistung zeigt als das andere Erlebnis. Wenn mehr als zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL &#x200B; des führenden Erlebnisses &#x200B;] mindestens 60 % erreicht. Wenn zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem das Erlebnis eine bessere Leistung zeigt als das andere Erlebnis. Wenn mehr als zwei Erlebnisse in der Aktivität vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
 
 Ein 95 %-Konfidenzintervall der Konversionsrate *µ<sub></sub>* ist definiert als der Wertebereich:
 
@@ -120,7 +123,7 @@ Dabei sind *µ<sub>v</sub>* und *µ<sub>v0</sub>* die Mittel für ** bzw. *<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**bzw.<sub></sub>* 000.
+Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse&#x200B;**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**&#x200B;bzw.<sub></sub>* 000.
 
 Für Welchs t-Test wird der Freiheitsgrad wie folgt berechnet:
 

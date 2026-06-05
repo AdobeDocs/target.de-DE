@@ -13,7 +13,7 @@ ht-degree: 36%
 
 # Aktivitäts-URL in [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT)
 
-Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die in einer [!DNL Adobe Target] (Experience [!UICONTROL ) ]Zielgruppenbestimmungsaktivität (XT) verwendet wird. Hierbei handelt es sich um die Seite, [!UICONTROL  beim Entwerfen der Aktivität im ]Visual Experience Composer[!UICONTROL  (VEC) oder ]Form-Based Experience Composer) geöffnet wird.
+Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die in einer [!DNL Adobe Target] (Experience [!UICONTROL ) &#x200B;]Zielgruppenbestimmungsaktivität (XT) verwendet wird. Hierbei handelt es sich um die Seite, [!UICONTROL &#x200B; beim Entwerfen der Aktivität im &#x200B;]Visual Experience Composer[!UICONTROL &#x200B; (VEC) oder &#x200B;]Form-Based Experience Composer) geöffnet wird.
 
 1. Spezifizieren Sie die Aktivitäts-URL, wenn Sie [beim Erstellen einer XT-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) dazu aufgefordert werden. Geben Sie die vollständige URL ein (einschließlich `https://`) und klicken Sie dann auf **[!UICONTROL Aktivität erstellen]**.
 

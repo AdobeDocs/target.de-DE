@@ -5,8 +5,10 @@ title: Wie kann ich in der Angebotsbibliothek nach Inhalten suchen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 281
@@ -44,7 +46,7 @@ Suchen nach Assets anhand von Keywords in der [!UICONTROL Angebote]-Bibliothek i
       * [!UICONTROL Multimedia]
       * [!UICONTROL Archive]
    * **[!UICONTROL Dateigröße]**: Verwenden Sie den Schieberegler, um die gewünschte Dateigröße auszuwählen: [!UICONTROL Kleinste], [!UICONTROL Klein], [!UICONTROL Medium], [!UICONTROL Groß] oder [!UICONTROL Größte].
-   * **[!UICONTROL Zuletzt geändert]**: Verwenden Sie den Schieberegler, um den Zeitraum auszuwählen: [!UICONTROL Zuletzt ], [!UICONTROL Stunde], [!UICONTROL Tag], [!UICONTROL Woche], [!UICONTROL Monat], [!UICONTROL Jahr] oder [!UICONTROL Alle Assets].
+   * **[!UICONTROL Zuletzt geändert]**: Verwenden Sie den Schieberegler, um den Zeitraum auszuwählen: [!UICONTROL Zuletzt &#x200B;], [!UICONTROL Stunde], [!UICONTROL Tag], [!UICONTROL Woche], [!UICONTROL Monat], [!UICONTROL Jahr] oder [!UICONTROL Alle Assets].
    * **[!UICONTROL Genehmigungsstatus]**: [!UICONTROL Genehmigt] oder [!UICONTROL Abgelehnt]
    * **[!UICONTROL Ablaufstatus]**: [!UICONTROL Expired].
    * **[!UICONTROL Durchschnittsbewertung]**: 1 bis 5.

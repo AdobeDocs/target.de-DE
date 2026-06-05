@@ -1,13 +1,19 @@
 ---
 keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung; Traffic
 description: Erfahren Sie mehr über Fehlerbehebungsthemen und häufig gestellte Fragen zu [!UICONTROL automatischen Targeting]-Aktivitäten.
-title: Wie kann ich Fehler bei Aktivitäten [!UICONTROL  automatisches Targeting ]?
+title: Wie kann ich Fehler bei Aktivitäten [!UICONTROL &#x200B; automatisches Targeting &#x200B;]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1982
@@ -21,7 +27,7 @@ Fehlerbehebung und häufig gestellte Fragen (FAQs) zu [!UICONTROL automatischen 
 
 ## [!UICONTROL Automatisches Targeting] Häufig gestellte Fragen {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Konsultieren Sie bei Problemen mit automatischen Targeting[!UICONTROL -Aktivitäten die folgenden häufig gestellten Fragen ] Antworten:
+Konsultieren Sie bei Problemen mit automatischen Targeting[!UICONTROL -Aktivitäten die folgenden häufig gestellten Fragen &#x200B;] Antworten:
 
 ### Wie lauten die Best Practices zum Einrichten einer [!UICONTROL automatischen Targeting]-Aktivität?
 
@@ -30,7 +36,7 @@ Konsultieren Sie bei Problemen mit automatischen Targeting[!UICONTROL -Aktivitä
 * Legen Sie die Zuordnung zwischen Kontroll- und personalisierten Erlebnissen fest, bevor Sie die Aktivität auf Basis Ihrer Ziele beginnen.
 * Stellen Sie fest, ob ausreichend Traffic zu der Seite vorhanden ist, auf der Ihre [!UICONTROL Automatisches Targeting]-Aktivität ausgeführt wird, damit Personalisierungsmodelle in angemessener Zeit erstellt werden können.
 * Wenn Sie den Personalisierungsalgorithmus testen, sollten Sie während der Live-Aktivität keine Erlebnisse ändern oder Profilattribute hinzufügen oder entfernen.
-* Erwägen Sie, eine A/B-Aktivität zwischen den Angeboten und Standorten durchzuführen, die Sie in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verwenden möchten, um sicherzustellen, dass die Standorte und Angebote Auswirkungen auf das Optimierungsziel haben. Wenn in einer A/B-Aktivität kein signifikanter Unterschied nachgewiesen wird[!UICONTROL  generiert ]Automatisches Targeting“ wahrscheinlich auch keine Steigerung.
+* Erwägen Sie, eine A/B-Aktivität zwischen den Angeboten und Standorten durchzuführen, die Sie in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verwenden möchten, um sicherzustellen, dass die Standorte und Angebote Auswirkungen auf das Optimierungsziel haben. Wenn in einer A/B-Aktivität kein signifikanter Unterschied nachgewiesen wird[!UICONTROL &#x200B; generiert &#x200B;]Automatisches Targeting“ wahrscheinlich auch keine Steigerung.
 
   Wenn ein A/B-Test keine statistisch signifikanten Unterschiede zwischen Erlebnissen aufzeigt, da sich die von Ihnen in Erwägung gezogenen Angebote möglicherweise nicht ausreichend voneinander unterscheiden, wirken sich die von Ihnen ausgewählten Standorte nicht auf die Erfolgsmetrik aus oder das Optimierungsziel liegt zu weit vom Konversionstrichter entfernt, um von Ihren ausgewählten Angeboten betroffen zu sein.
 
@@ -94,9 +100,9 @@ Die Zeit, die zum Erstellen von Modellen in Ihrer Aktivität vom Typ [!UICONTROL
 
 [!UICONTROL Automatisches Targeting] versucht erst dann, ein personalisiertes Modell für ein bestimmtes Erlebnis zu erstellen, wenn mindestens 50 Konversionen für dieses Erlebnis vorhanden sind. Außerdem wird das Modell nicht zur personalisierten Bereitstellung von Traffic verwendet, wenn die Qualität des erstellten Modells unzureichend ist (die Qualität wird durch Offline-Auswertung vorgehaltener „Test“-Daten mithilfe [einer Metrik namens AUC](https://de.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve) bestimmt).
 
-Darüber hinaus sind auch die folgenden Punkte bei [!UICONTROL  Modellerstellung ] automatischen Targetings zu berücksichtigen:
+Darüber hinaus sind auch die folgenden Punkte bei [!UICONTROL &#x200B; Modellerstellung &#x200B;] automatischen Targetings zu berücksichtigen:
 
-* Nachdem eine Aktivität live ist[!UICONTROL  berücksichtigt „Automatisches Targeting] beim Versuch, Modelle zu erstellen, die zufällig bereitgestellten Daten der letzten 45 Tage. Beispielsweise Kontroll-Traffic sowie einige zusätzliche, zufällig bereitgestellte Daten, die vom Algorithmus vorgehalten werden.
+* Nachdem eine Aktivität live ist[!UICONTROL &#x200B; berücksichtigt „Automatisches Targeting] beim Versuch, Modelle zu erstellen, die zufällig bereitgestellten Daten der letzten 45 Tage. Beispielsweise Kontroll-Traffic sowie einige zusätzliche, zufällig bereitgestellte Daten, die vom Algorithmus vorgehalten werden.
 * Wenn [!UICONTROL Umsatz pro Besuch] Ihre Erfolgsmetrik ist, benötigen diese Aktivitäten in der Regel mehr Daten zum Erstellen von Modellen. Dies liegt daran, dass die Datenvarianz bei „Umsatz pro Besuch“ normalerweise höher als bei „Konversionsrate“ ist.
 * Da Modelle für einzelne Erlebnisse erstellt werden, bedeutet der Austausch eines Erlebnisses durch ein anderes, dass für das neue Erlebnis ausreichend Traffic (mindestens 50 Konversionen) erfasst werden muss, bevor das personalisierte Modell neu erstellt werden kann.
 
@@ -127,7 +133,7 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 +++
 
-### Kann ich die Zielmetrik inmitten einer automatischen Targeting[!UICONTROL Aktivität ]? {#change-metric}
+### Kann ich die Zielmetrik inmitten einer automatischen Targeting[!UICONTROL Aktivität &#x200B;]? {#change-metric}
 
 +++Antwort
 Adobe rät davon ab, die Zielmetrik inmitten einer Aktivität zu ändern. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. Adobe übernimmt keine Garantie dafür, was passiert, wenn Sie die Zielmetrik in einer Aktivität nach deren Ausführung ändern.
@@ -139,7 +145,7 @@ Diese Empfehlung gilt für [!UICONTROL Automatische Zuordnung], [!UICONTROL Auto
 ### Kann ich die Option [!UICONTROL Berichtsdaten zurücksetzen] während ich eine Aktivität vom Typ [!UICONTROL Automatisches Targeting] ausführe?
 
 +++Antwort
-Die Verwendung [!UICONTROL  Option „Berichtsdaten zurücksetzen] für [!UICONTROL Automatisches Targeting]-Aktivitäten wird nicht empfohlen. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell [!UICONTROL Automatisches Targeting]. Statt für Aktivitäten vom Typ [!UICONTROL Berichtsdaten zurücksetzen] die Option [!UICONTROL Automatisches Targeting] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität.
+Die Verwendung [!UICONTROL &#x200B; Option „Berichtsdaten zurücksetzen] für [!UICONTROL Automatisches Targeting]-Aktivitäten wird nicht empfohlen. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell [!UICONTROL Automatisches Targeting]. Statt für Aktivitäten vom Typ [!UICONTROL Berichtsdaten zurücksetzen] die Option [!UICONTROL Automatisches Targeting] zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität.
 
 Diese Anleitung gilt auch für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automated Personalization]-Aktivitäten.
 
@@ -182,7 +188,7 @@ Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ [!UICONTROL Au
 * Es müssen genügend Traffic- und Teststärke im Test vorhanden sein, um die Steigerung zu ermitteln.
 * Der Personalisierungsalgorithmus muss gut funktionieren.
 
-**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden, ] Ihre Aktivität vom Typ „Automatisches Targeting[!UICONTROL  nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden, personalisiert [!UICONTROL automatisches ]) den Traffic nicht.
+**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden,  Ihre Aktivität vom Typ „Automatisches Targeting nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden, personalisiert [!UICONTROL automatisches &#x200B;]) den Traffic nicht.
 
 Stellen Sie anschließend mithilfe eines einfachen, nicht personalisierten A/B-Tests sicher, dass die Angebote und die Aktivitäts-Speicherorte tatsächlich einen Unterschied zu den Gesamtansprechraten darstellen. Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn die Ergebnisse eines A/B-Tests eine statistisch signifikante Steigerung eines oder mehrerer Erlebnisse zeigen, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Personalization kann auch dann funktionieren, wenn sich die Gesamtansprechraten der Erlebnisse nicht unterscheiden. In der Regel liegt das Problem daran, dass die Angebote und Standorte keine ausreichende Auswirkung auf das Optimierungsziel haben, um mit statistischer Signifikanz erkannt zu werden.
 

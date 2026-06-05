@@ -6,9 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 473
@@ -64,7 +69,7 @@ Ihr nächster Schritt sollte darin bestehen, Benutzer in [!DNL Target Standard] 
 
 ## Erforderliche Berechtigungen zum Bearbeiten der [!UICONTROL Administration]-Einstellungen {#admin-permissions}
 
-**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Genehmiger]-Rechten im [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [[!UICONTROL Administration] des ](/help/main/administrating-target/administrating-target.md) von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target].
+**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Genehmiger]-Rechten im [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [[!UICONTROL Administration] des &#x200B;](/help/main/administrating-target/administrating-target.md) von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target].
 
 **Wirksam ab 22. April 2025**: Nur [!UICONTROL Produkt]- und [!UICONTROL Lösungen]-Administratoren können die Einstellungen in den Abschnitten [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen aktualisieren. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die Abschnitte [!UICONTROL Administration].
 

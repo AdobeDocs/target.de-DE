@@ -5,10 +5,18 @@ title: Wie implementiere ich Analytics für  [!DNL Target] A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1194
@@ -38,7 +46,7 @@ Erstellen Sie eine Edge-Konfiguration mit [!DNL Adobe Experience Platform] mithi
 
 ### Schritt 4: Installieren und Konfigurieren von Platform Web SDK
 
-Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) [ Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)Seiten.
+Um mit der Bereitstellung [!DNL Target] Erlebnisse zu beginnen und [!DNL Analytics] für Tracking- und Analysezwecke anzuwenden, [&#x200B; Sie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) [&#x200B; Platform Web SDK auf Ihren Site](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)Seiten.
 
 ### Schritt 5: Aktivieren der Optionen für die Verwendung von A4T
 
@@ -121,7 +129,7 @@ Diese Einrichtung hat globale Auswirkungen, was bedeutet, dass bei jedem Aufruf 
 }
 ```
 
-Die Payload kann dann über die „Data Insertion API[ an Analytics weitergeleitet ](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} im Handbuch *Adobe Target SDKs*.
+Die Payload kann dann über die „Data Insertion API[&#x200B; an Analytics weitergeleitet &#x200B;](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Bei automatischen Zuordnungs - und automatischen Targeting -Aktivitäten müssen Sie auch die Sitzungs-ID weiterleiten. Weitere Informationen finden Sie unter [Berichterstellung von Analytics for Target (A4T](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} im Handbuch *Adobe Target SDKs*.
 
 Wenn eine globale Einstellung nicht gewünscht ist und ein eher bedarfsorientierter Ansatz vorzuziehen ist, verwenden Sie die at.js-Funktion [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank}, indem Sie **analyticsLogging: „client_side“**. Die Analytics-Payload wird nur für diesen Aufruf zurückgegeben und das [!DNL Target]-Backend leitet die Payload nicht an [!DNL Analytics] weiter. Bei diesem Ansatz gibt jede at.js-[!DNL Target] standardmäßig die Payload zurück, jedoch nur, wenn sie gewünscht und angegeben wird.
 
@@ -179,7 +187,7 @@ Die Antwort sieht wie folgt aus:
 }
 ```
 
-Die Payload kann dann über die „Data Insertion [&quot; an [!DNL Analytics] weitergeleitet ](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Die Payload kann dann über die „Data Insertion [&quot; an [!DNL Analytics] weitergeleitet &#x200B;](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Schritt 8: Validieren der Implementierung {#step8}
 

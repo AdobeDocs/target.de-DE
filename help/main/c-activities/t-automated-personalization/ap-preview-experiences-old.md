@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Da [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-Aktivitäten mehrere Angebote auf einer Seite vergleichen, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
 
-1. Klicken Sie [!UICONTROL  Visual Experience Composer ] VEC auf **[!UICONTROL Vorschau]**.
+1. Klicken Sie [!UICONTROL &#x200B; Visual Experience Composer &#x200B;] VEC auf **[!UICONTROL Vorschau]**.
 
    ![Vorschau-Symbol](/help/main/c-activities/t-automated-personalization/assets/preview.png)
 

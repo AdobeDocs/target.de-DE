@@ -5,8 +5,12 @@ title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1145
@@ -18,7 +22,7 @@ ht-degree: 23%
 
 Verwenden Sie Remote-Angebote, um Inhalte außerhalb von [!DNL Adobe Target] zu hosten, sodass [!DNL Target] diese Inhalte referenzieren und an Benutzer-Websites bereitstellen können. Diese Inhalte können sich aus Gründen der Benutzerfreundlichkeit oder der Sicherheit in einem Content-Management-System (CMS) oder einem anderen System befinden.
 
-Remote-Angebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im [!UICONTROL Visual Experience Composer) (]) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+Remote-Angebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im [!UICONTROL Visual Experience Composer) (]) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 
 Einige Beispiele für Remote-Angebote sind:
 
@@ -54,13 +58,13 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 * Sollten Sie lediglich planen, die Darstellung des Inhalts Ihres bestehenden Remote-Angebots zu prüfen, verwenden Sie den [!UICONTROL Visual Experience Composer], um Aussehen und Eindruck des Inhalts anzupassen, der vom Inhaltsverwaltungssystem ausgegeben wird.
 * Verwenden Sie die [Remote-Angebotsauswahlmatrix](#reference_B23BEDD29DDD47709A7651AFD27E776B) (unten), um das Angebot auszuwählen, das für Ihren spezifischen Fall am besten geeignet ist. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Fragen haben.
 
-## Erstellen eines Remote-Angebots über die Seite [!UICONTROL Angebote ]Code)
+## Erstellen eines Remote-Angebots über die Seite [!UICONTROL Angebote &#x200B;]Code)
 
 1. Klicken Sie auf **[!UICONTROL Angebote]** und wählen Sie anschließend die Registerkarte **[!UICONTROL Code-Angebote]** aus.
 
 1. Klicken Sie **[!UICONTROL Angebot erstellen]** > **[!UICONTROL Remote-Angebot]**.
 
-1. Geben [!UICONTROL  im Dialogfeld „Remote-] erstellen“ einen beschreibenden Namen für das Angebot ein.
+1. Geben [!UICONTROL &#x200B; im Dialogfeld „Remote-] erstellen“ einen beschreibenden Namen für das Angebot ein.
 
    Ein beschreibender Name hilft Ihnen und anderen, das Angebot schnell in der Bibliothek [!UICONTROL Angebote] zu finden.
 
@@ -68,7 +72,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [ unter „URL-Typ [!UICONTROL Onsite ] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
+   Weitere Informationen finden [&#x200B; unter „URL-Typ [!UICONTROL Onsite &#x200B;] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
 
 1. Geben Sie die absolute Remote-URL für das Remote-Angebot an.
 
@@ -89,7 +93,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [ unter „URL-Typ [!UICONTROL Onsite ] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
+   Weitere Informationen finden [&#x200B; unter „URL-Typ [!UICONTROL Onsite &#x200B;] oder [!UICONTROL Onsite Dynamic]](#url-type) unten.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 

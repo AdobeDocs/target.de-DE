@@ -51,7 +51,7 @@ Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen kön
 
 1. (Optional) Aktivieren Sie **[!UICONTROL Kontrollkästchen „In Listenansicht neu anordnen]**.
 
-   Gibt an, dass Sie und andere Benutzer die Position des Ordners in der [!UICONTROL Listenansicht“ ] können.
+   Gibt an, dass Sie und andere Benutzer die Position des Ordners in der [!UICONTROL Listenansicht“ &#x200B;] können.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
 

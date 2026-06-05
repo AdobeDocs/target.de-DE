@@ -29,7 +29,7 @@ Sie können Bilder in die Liste [!UICONTROL Bildangebote] hochladen, [!DNL Adobe
 
 Um zwischen der [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] umzuschalten, klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek.
 
-Bewegen Sie [!UICONTROL  der ] den Mauszeiger über das gewünschte Bildangebot oder den gewünschten Ordner und klicken Sie auf das **[!UICONTROL Auswählen]**-Symbol (Häkchen) und dann auf **[!UICONTROL Löschen]**.
+Bewegen Sie [!UICONTROL &#x200B; der &#x200B;] den Mauszeiger über das gewünschte Bildangebot oder den gewünschten Ordner und klicken Sie auf das **[!UICONTROL Auswählen]**-Symbol (Häkchen) und dann auf **[!UICONTROL Löschen]**.
 
 Klicken Sie in [!UICONTROL Listenansicht] auf das Miniaturbild auf der linken Seite der Liste, um das gewünschte Bildangebot oder den gewünschten Ordner auszuwählen, und klicken Sie dann auf **[!UICONTROL Löschen]**, wie unten dargestellt:
 

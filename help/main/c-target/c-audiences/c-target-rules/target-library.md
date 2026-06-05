@@ -5,9 +5,13 @@ title: Kann ich Besuchende auf der Grundlage vordefinierter Targeting-Regeln ans
 feature: Audiences
 exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 TQID: https://experienceleague.adobe.com/CsHCC82HHrlZ44W8msuqAs3iJSk5xzv1FUg9Dsoa0ig
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 206
@@ -19,7 +23,7 @@ ht-degree: 33%
 
 Verwenden Sie [!DNL Adobe Target], um Benutzer basierend auf vordefinierten Zielgruppenbestimmungsregeln anzusprechen.
 
-Die vordefinierten Zielgruppen in der Kategorie [!UICONTROL Target-Bibliothek] sind veraltete Zielgruppen und in anderen Kategorien vorhanden. Weitere Informationen und Best Practices finden Sie unter [Häufig gestellte Fragen zu Zielgruppen und ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Die vordefinierten Zielgruppen in der Kategorie [!UICONTROL Target-Bibliothek] sind veraltete Zielgruppen und in anderen Kategorien vorhanden. Weitere Informationen und Best Practices finden Sie unter [Häufig gestellte Fragen zu Zielgruppen und &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.

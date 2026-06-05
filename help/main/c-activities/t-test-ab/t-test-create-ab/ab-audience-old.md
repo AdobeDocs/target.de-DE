@@ -32,7 +32,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
    * [Neue Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [Erstellen einer Zielgruppe „Nur Aktivität“](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   Wählen Sie für einen A/B-Test ohne spezielle Zielgruppen-Zielgruppe als Standard &quot;[!UICONTROL  Besucher“].
+   Wählen Sie für einen A/B-Test ohne spezielle Zielgruppen-Zielgruppe als Standard &quot;[!UICONTROL &#x200B; Besucher“].
 
    Sie können eine Zielgruppe auch bearbeiten oder kopieren, indem Sie den Mauszeiger über die gewünschte Zielgruppe im Dialogfeld [!UICONTROL Zielgruppe hinzufügen] bewegen, wie unten dargestellt.
 
@@ -40,7 +40,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
 
    ![Symbol für Zielgruppe](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen [!UICONTROL  unter „Benutzerdefinierte Parameter] die Mbox aus und geben Sie dann die gewünschten Parameter an.
+   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen [!UICONTROL &#x200B; unter „Benutzerdefinierte Parameter] die Mbox aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
 
    ![Prozentsatz für Zielgruppen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   Sie können Target auch &quot;[ Traffic automatisch zuweisen“ ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   Sie können Target auch &quot;[&#x200B; Traffic automatisch zuweisen“ &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 

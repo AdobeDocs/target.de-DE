@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 495
@@ -23,9 +25,9 @@ Verwenden Sie [!UICONTROL Profilattributabgleich] wenn Sie Empfehlungen anzeigen
 
 >[!NOTE]
 >
->Der [Prozess zum Erstellen und Verwenden von ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+>Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
-Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ ] können:
+Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ &#x200B;] können:
 
 * Ein Unternehmen, das Brillen verkauft, speichert die Lieblingsrahmenfarbe eines Besuchers als „Walnuss“. Für diesen spezifischen Besucher werden Empfehlungen erstellt, die nur Brillenfassungen zurückgeben, die der Farbe „Walnuss“ entsprechen.
 * Ein Profilparameter kann für die Kleidungsgröße (z. B. klein, Medium oder groß) eines Besuchers definiert werden, wenn dieser auf der Website Ihres Unternehmens navigiert. Es kann eine Empfehlung eingerichtet werden, die diesem Profilparameter entspricht und Produkte zurückgibt, die nur der bevorzugten Kleidungsgröße des Benutzers entsprechen.

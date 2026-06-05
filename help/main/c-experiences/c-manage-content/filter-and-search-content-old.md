@@ -26,7 +26,7 @@ Suchen nach Assets anhand von Keywords in der [!UICONTROL Angebote]-Bibliothek i
 
 1. Klicken Sie **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**.
 
-1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ ] konfigurieren.
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ &#x200B;] konfigurieren.
 
    Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Listenansicht]:
 

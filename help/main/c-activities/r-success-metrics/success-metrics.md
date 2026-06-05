@@ -5,9 +5,18 @@ title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1502
@@ -31,7 +40,7 @@ Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die er
 
 >[!NOTE]
 >
->Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
+>Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
 
 Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting-Einstellungen] auf der Seite [!UICONTROL Aktivitätseinstellungen] unter dem Schritt [!UICONTROL Ziele und Einstellungen] konfiguriert werden:
 
@@ -63,7 +72,7 @@ Um auf die Optionen [!UICONTROL Erweiterte Einstellungen] zuzugreifen, klicken S
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel ]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
+Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel &#x200B;]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
 
 >[!NOTE]
 >
@@ -121,8 +130,8 @@ Mit der [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/relea
 
 ### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Umsatz] Erfolgsmetriken
 
-In der aktualisierten [!DNL Target] wurde die Dropdown[!UICONTROL Standardansicht für ] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Berichte“ in ] alten Benutzeroberfläche gespeichert hat.
+In der aktualisierten [!DNL Target] wurde die Dropdown[!UICONTROL Standardansicht für &#x200B;] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Berichte“ in &#x200B;] alten Benutzeroberfläche gespeichert hat.
 
 Mit der aktualisierten Benutzeroberfläche ist die standardmäßige Berichtsmetrik jetzt immer auf [!UICONTROL Umsatz pro Besucher (RPV) festgelegt]. Sie können die Ansicht im Abschnitt [!UICONTROL Berichte] weiterhin anpassen, um die Metriken anzuzeigen, die für Ihre Analyse am relevantesten sind.
 
-Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des Abschnitts [!UICONTROL  jederzeit zu anderen ] wechseln.
+Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des Abschnitts [!UICONTROL &#x200B; jederzeit zu anderen &#x200B;] wechseln.

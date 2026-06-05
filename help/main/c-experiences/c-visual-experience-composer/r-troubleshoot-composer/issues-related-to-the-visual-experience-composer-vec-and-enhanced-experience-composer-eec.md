@@ -1,14 +1,22 @@
 ---
 keywords: Targeting;Visual Experience Composer;Whitelist;weiße Liste;Zulassungsliste;Enhanced Visual Experience Composer;VEC;Fehlerbehebung in Visual Experience Composer;Fehlerbehebung;EEC;Enhanced Experience Composer;TLS;TLS 1.2
-description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen  [!DNL Target] [!UICONTROL  Visual Experience ] (VEC) und [!UICONTROL Enhanced Experience Composer] (EEC) auftreten.
+description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen  [!DNL Target] [!UICONTROL &#x200B; Visual Experience &#x200B;] (VEC) und [!UICONTROL Enhanced Experience Composer] (EEC) auftreten.
 title: Wie behebe ich Probleme mit dem [!UICONTROL Visual Experience Composer] und dem [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1271
@@ -52,7 +60,7 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 +++Details
 Um festzustellen, welche Cookies aufgrund der SameSite-Cookie-Durchsetzungsrichtlinien blockiert werden, verwenden Sie die [!DNL Developer Tools] in [!DNL Chrome].
 
-1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **** Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
+1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **&#x200B;**&#x200B;Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
 1. Klicken Sie auf **[!UICONTROL Netzwerk]** und suchen Sie nach blockierten Cookies.
 
    >[!NOTE]

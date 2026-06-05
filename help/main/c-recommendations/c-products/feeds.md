@@ -6,9 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2725
@@ -125,7 +129,7 @@ Wenn Sie bereits über eine [!DNL Google Product Feed] verfügen, können Sie di
 >
 >Es ist nicht erforderlich, [!DNL Google] Daten zu verwenden. [!DNL Recommendations] verwendet dasselbe Format wie [!DNL Google]. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Sie müssen jedoch die [!DNL Google] vordefinierten Attributnamen beim Einrichten der Datei beibehalten.
 
-Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ ](https://www.google.com/prdhp) werden.
+Die meisten Einzelhändler laden Produkte in [!DNL Google] hoch. Wenn ein Besucher also die [!DNL Google] Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] entspricht der [!DNL Google] für Entitäts-Feeds genau. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [[!DNL Google] Shopping-Seiten“ &#x200B;](https://www.google.com/prdhp) werden.
 
 >[!NOTE]
 >
@@ -240,7 +244,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * [!UICONTROL Google-Produkt-Feed]
    * [!UICONTROL Analytics-Klassifizierungen]
 
-   Informationen zu den Feed[!UICONTROL Typen ]CSVs) und [!UICONTROL Google]Produkt-Feeds finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
+   Informationen zu den Feed[!UICONTROL Typen &#x200B;]CSVs) und [!UICONTROL Google]Produkt-Feeds finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie den Speicherort an, an dem der Feed aufgerufen werden kann.
 
@@ -301,7 +305,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | [!UICONTROL Warten auf Download] | [!DNL Target] bereitet den Download der Feed-Datei vor. |
 | [!UICONTROL Herunterladen der Feed-Datei] | [!DNL Target] lädt die Feeddatei herunter. |
 | [!UICONTROL Elemente importieren] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
-| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der ], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
+| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der &#x200B;], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
 | Partieller Import fehlgeschlagen | Zuvor war der Feed, wenn nicht alle Zeilen hochgeladen wurden, noch als erfolgreich markiert. Dadurch wird der falsche Eindruck erweckt, dass alle Zeilen hochgeladen wurden, da der Feed erfolgreich war.<P>Im Folgenden finden Sie ein Szenario, warum ein unvollständiger Feed-Import auftreten kann:<ul><li>Sie haben eine Feed-Datei für die Produktionsumgebung hochgeladen, z. B. 100 Zeilen.</li><li>Der Feed wurde ausgeführt, 80 dieser Zeilen wurden hochgeladen und 20 Zeilen wurden aufgrund falscher Formatierung, Feldüberschreibungen usw. entfernt.</li><li>Der Feed wurde in der Benutzeroberfläche als erfolgreich markiert, sodass der Eindruck entsteht, dass alle 100 Zeilen hochgeladen wurden.</li><li>Sie erwarten einige dieser 20 Produkte bei der Lieferung einer Aktivität, aber es passiert nicht.</li><li> Sie sind an dieser Stelle verwirrt, weil Sie den Feed hochgeladen haben, der die Produktdetails für die betreffenden Produkte enthält. Sie sehen es nicht im Backend, wenn Sie eine Abfrage über die Entitäts-API durchführen, was Ihnen mitteilt, dass es sich nicht im Backend befindet.</li></ul>Um diese Verwirrung zu beseitigen, wird die Nachricht verbessert, sodass genau erzählt wird, was mit dem Feed passiert ist. Anstatt ihn als erfolgreich zu markieren, wird er jetzt als Teilimport fehlgeschlagen markiert. |
 | [!UICONTROL Index konnte nicht erstellt werden] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
 | [!UICONTROL Server nicht gefunden] | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |

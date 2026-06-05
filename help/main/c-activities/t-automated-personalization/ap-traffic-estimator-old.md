@@ -1,6 +1,6 @@
 ---
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
-description: Verwenden Sie die  [!DNL Adobe Target] [!UICONTROL  Traffic-Schätzung] um festzustellen, ob ausreichend Traffic vorhanden ist, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
+description: Verwenden Sie die  [!DNL Adobe Target] [!UICONTROL &#x200B; Traffic-Schätzung] um festzustellen, ob ausreichend Traffic vorhanden ist, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine erfolgreiche Aktivität vom Typ [!UICONTROL Automated Personalization] benötigt?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
@@ -28,7 +28,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Symbol](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ ].
+   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
    ![Benutzeroberfläche der Traffic-Schätzung](assets/ap_est.png)
 
@@ -59,7 +59,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap_est_yes.png)
 
-   Wenn der Traffic ausreichend ist, wird [!UICONTROL  Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
+   Wenn der Traffic ausreichend ist, wird [!UICONTROL &#x200B; Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 
 ## Häufig gestellte Fragen zur Traffic-Schätzung
 

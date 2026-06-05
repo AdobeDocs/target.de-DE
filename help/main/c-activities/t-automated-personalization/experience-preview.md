@@ -71,7 +71,7 @@ Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder
 
 * Die Vorschau funktioniert für alle gespeicherten Aktivitäten, solange die Seite nicht verändert wird.
 * Die Erlebnisvorschau-URL ist unabhängig davon verfügbar, ob die Aktivität aktiv oder inaktiv ist.
-* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in ] Vorschau angezeigt werden.
+* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in &#x200B;] Vorschau angezeigt werden.
 * Die Anzeige von Erlebnisvorschau-URLs hat keinen Einfluss auf das Reporting.
 
 **Fehlerbehebung bei Erlebnisvorschau-URLs**

@@ -33,7 +33,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
    Dieser Bildschirm unterscheidet sich, wenn Sie eine Aktivität des Typs [!UICONTROL Recommendations] erstellen. [!UICONTROL Recommendations] -Aktivitäten umfassen keine Erlebnisse.
 
-1. Benennen Sie die Aktivität, indem Sie auf &quot;[!UICONTROL  Aktivität“ ].
+1. Benennen Sie die Aktivität, indem Sie auf &quot;[!UICONTROL &#x200B; Aktivität“ &#x200B;].
 1. Wählen Sie einen Standort aus.
 
    Wenn Sie auf das Feld [!UICONTROL Speicherort auswählen] klicken, wird eine Liste der verfügbaren Speicherorte angezeigt. Wählen Sie einen dieser Standorte aus.
@@ -48,7 +48,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
    ![location_refinements_2 Bild](assets/location_refinements_2.png)
 
-   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 
