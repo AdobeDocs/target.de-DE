@@ -2,7 +2,7 @@
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
 description: Erfahren Sie, wie Sie mit  [!DNL Recommendations] [!UICONTROL &#x200B; Katalogsuche &#x200B;] Produkte oder Inhalte suchen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
 title: Wie verwende ich die  [!DNL Recommendations] [!UICONTROL -]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic

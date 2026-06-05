@@ -2,7 +2,7 @@
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
 description: Erfahren Sie, wie -Feeds  [!DNL Adobe Target] [!DNL Recommendations] CSV-Dateien, das Google-Produktsuch-Feed-Format und  [!DNL Analytics] -Produktklassifizierungen in importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >

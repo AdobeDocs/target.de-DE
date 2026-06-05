@@ -98,7 +98,7 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 * In [!DNL Target Standard/Premium] importierte Aktivitäten (z. B. aus [!DNL Target Classic]) unterstützen keine QA-URLs.
 * In [!UICONTROL Aktivitäten Automatische Zuordnung] und [!UICONTROL Recommendations] ist das Modell von den in [!UICONTROL Aktivitäts-QA] erfassten Besuchen nicht betroffen.
 * Wenn Sie beim Erstellen der Aktivität „URL ist[&#x200B; angegeben haben (Verbesserungen im formularbasierten &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-] URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
-* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
+* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=de){target=_blank} haben.
 * Wenn für eine Aktivität mehrere Erlebnis-Zielgruppen verwendet werden (z. B. eine Website aus den USA und Großbritannien, die Teil derselben Aktivität ist), werden für die vier Kombinationen (Experience A/US-Website, Experience A/UK-Website, Experience B/US-Website, Experience B/UK-Website) keine QA-Links erzeugt. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine Person, die für Fragen zur britischen Qualitätssicherung zuständig ist, kann die US-Website nicht sehen.
 * Alle Parameter und Werte vom Typ `at_preview` sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Einige Kunden müssen jedoch Lastenausgleichsmodule oder Webserver verwenden, die versuchen, die Abfragezeichenfolgenparameter erneut zu codieren.
 
@@ -125,8 +125,8 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de)
 
 In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und angegeben, ob [!UICONTROL Aktivitäts-QA]Modus für jede Bibliothek unterstützt wird:

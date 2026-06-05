@@ -2,7 +2,7 @@
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
 description: Verwenden Sie die [!UICONTROL Traffic-Schätzung] um zu beurteilen, ob genügend Traffic für eine [!UICONTROL Automated Personalization]-Aktivität vorhanden ist.
 title: Wie viel Traffic wird für eine erfolgreiche Aktivität vom Typ [!UICONTROL Automated Personalization] benötigt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 TQID: https://experienceleague.adobe.com/rLjNgDlAWK-r9Zv7083vo-PdWTPy3aHGS4fXEGeTdnY

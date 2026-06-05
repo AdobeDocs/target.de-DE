@@ -2,7 +2,7 @@
 keywords: Automated Personalization;App;Vorschau;Erlebnis ausschließen
 description: Erfahren Sie, wie Sie in einer [!UICONTROL Automated Personalization] (AP)-Aktivität mit dem [!UICONTROL Visual Experience Composer] (VEC) eine Vorschau der einzelnen Erlebnisse anzeigen können.
 title: Wie kann ich eine Vorschau von [!UICONTROL Automated Personalization]-Erlebnissen in VEC anzeigen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
