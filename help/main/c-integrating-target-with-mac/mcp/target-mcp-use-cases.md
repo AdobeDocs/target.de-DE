@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 1%
+source-wordcount: '895'
+ht-degree: 0%
 
 ---
 
@@ -47,21 +47,27 @@ Die folgenden Beispiele zeigen, wie Sie mit dem [!DNL Adobe Target] MCP-Server i
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Implementierungsprüfung** | „Welche Version von at.js ist konfiguriert und welche Antwort-Token sind derzeit aktiv?“ |
 | **Change audit** | „Zeigt mir alle Änderungen an Activity 98765 in den letzten 30 Tagen und wer sie vorgenommen hat.“ |
+| **Erstellen eines A/B-Tests** | „Erstellen Sie einen A/B-Test namens „Homepage Hero Image Test“ mit zwei Erlebnissen: „Kontrolle“ und „Variante“, die auf die Homepage-Hero-Mbox abzielen.“ |
+| **Angebot erstellen** | „Erstellen Sie ein HTML-Angebot mit dem Namen „Sommerverkaufsbanner“ mit einem „20 % Rabatt auf alle Sommerartikel“-Werbebanner.“ |
+| **Zielgruppe aufbauen** | „Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“ für mobile Benutzer in Kalifornien.“ |
+| **Erstellen einer XT-Aktivität** | „Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die verschiedene Hero-Banner für Besuchende aus verschiedenen Regionen anzeigt.“ |
+| **Planen einer Aktivität** | „Aktualisieren Sie den Zeitplan für die Aktivität 12345 so, dass sie am 1. Juni beginnt und am 30. Juni endet.“ |
+| **Aktivieren oder Anhalten** | „12345 aktivieren“ oder „Homepage-Heldentest anhalten“. |
+| **Traffic-Aufteilung aktualisieren** | „Ändern Sie die Traffic-Aufteilung für Aktivitäts-12345 in 70 % Kontrolle und 30 % Variante A.“ |
+| **Variante hinzufügen** | „Eine neue Variante mit dem Namen „Feiertagsthema“ 12345 Verwendung von 67890 zur A/B-Aktivität hinzufügen.“ |
 
 ## exemplarische Vorgehensweisen für Anwendungsfälle {#mcp-use-case-walkthroughs}
 
 In den folgenden exemplarischen Vorgehensweisen wird beschrieben, wie Sie allgemeine Aufgaben mithilfe von Eingabeaufforderungen in natürlicher Sprache mit dem [!DNL Adobe Target] MCP-Server durchführen.
 
-<!--
-+++Creating an A/B test
++++Erstellen von A/B-Tests
 
-**Prompt:**
-"Create an A/B test called 'Homepage Hero Image Test' with two experiences: 'Control' showing the current hero and 'Variant' showing a new summer-themed hero image. Target the homepage mbox."
+**Aufforderung:**
+„Erstellen Sie einen A/B-Test namens „Homepage Hero Image Test“ mit zwei Erlebnissen: „Control“ zeigt den aktuellen Helden und „Variant“ zeigt ein neues Hero-Bild mit Sommerthema. Targeting der Homepage-Mbox.“
 
-The AI assistant uses the `create_ab_activity` tool to create the activity with the configuration you described. The tool returns the new activity ID and a confirmation of the created experiences.
+Der KI-Assistent verwendet das `create_ab_activity`-Tool, um die Aktivität mit der von Ihnen beschriebenen Konfiguration zu erstellen. Das Tool gibt die neue Aktivitäts-ID und eine Bestätigung der erstellten Erlebnisse zurück.
 
 +++
--->
 
 +++Überprüfen der Aktivitätsleistung
 
@@ -72,25 +78,23 @@ Der KI-Assistent verwendet `get_ab_performance_report` oder `get_xt_performance_
 
 +++
 
-<!--
-+++Managing offers
++++Angebote verwalten
 
-**Prompt:**
-"Create an HTML offer called 'Summer Sale Banner' with a promotional banner that says '20% off all summer items'."
+**Aufforderung:**
+„Erstellen Sie ein HTML-Angebot mit dem Namen „Banner für den Sommerverkauf“ und einem Werbebanner, das „20 % Rabatt auf alle Sommerartikel“ enthält.“
 
-The AI assistant uses the `create_target_offer` tool to create the offer with your specified HTML content and returns a confirmation with the new offer ID.
-
-+++
-
-+++Building an audience
-
-**Prompt:**
-"Create an audience called 'Mobile Visitors from California' that targets users on mobile devices located in California."
-
-The AI assistant uses the `create_target_audience` tool with the appropriate targeting rules derived from your description.
+Der KI-Assistent verwendet das `create_target_offer`-Tool, um das Angebot mit dem von Ihnen angegebenen HTML-Inhalt zu erstellen, und gibt eine Bestätigung mit der neuen Angebots-ID zurück.
 
 +++
--->
+
++++Erstellen einer Zielgruppe
+
+**Aufforderung:**
+„Erstellen Sie eine Zielgruppe namens „Mobile Besucher aus Kalifornien“, die Benutzende auf Mobilgeräten mit Standort in Kalifornien anspricht.“
+
+Der KI-Assistent verwendet das `create_target_audience`-Tool mit den entsprechenden Zielgruppenbestimmungsregeln, die aus Ihrer Beschreibung abgeleitet wurden.
+
++++
 
 +++QA-Vorschau-Links erzeugen
 
@@ -101,25 +105,23 @@ Der KI-Assistent verwendet das `preview_activity`-Tool, um anklickbare URLs zu g
 
 +++
 
-<!--
-+++Creating an Experience Targeting activity
++++Experience Targeting-Aktivität erstellen
 
-**Prompt:**
-"Create an Experience Targeting activity called 'Geo Personalization' that shows different hero banners to visitors from different regions."
+**Aufforderung:**
+„Erstellen Sie eine Experience Targeting-Aktivität namens „Geo Personalization&quot;, die verschiedene Hero-Banner für Besuchende aus verschiedenen Regionen anzeigt.“
 
-The AI assistant uses `create_xt_activity` to build the activity with audience-based experience mapping according to the regions you describe.
-
-+++
-
-+++Scheduling an activity
-
-**Prompt:**
-"Update the schedule for activity 12345 to start on May 1st and end on May 31st."
-
-The AI assistant uses the `update_activity_schedule` tool to apply the new start and end dates to the activity.
+Der KI-Assistent verwendet `create_xt_activity`, um die Aktivität mit einer zielgruppenbasierten Erlebniszuordnung entsprechend den von Ihnen beschriebenen Regionen zu erstellen.
 
 +++
--->
+
++++Planen einer Aktivität
+
+**Aufforderung:**
+„Aktualisieren Sie den Zeitplan für die Aktivität 12345, die am 1. Mai beginnen und am 31. Mai enden soll.“
+
+Der KI-Assistent verwendet das `update_activity_schedule`-Tool, um das neue Start- und Enddatum auf die Aktivität anzuwenden.
+
++++
 
 ## Verwandte Ressourcen {#mcp-use-cases-related}
 
