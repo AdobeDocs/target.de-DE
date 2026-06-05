@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1083
+source-wordcount: 1089
 ht-degree: 60%
 
 ---
@@ -215,7 +215,7 @@ Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in e
 
 ![rec_key Bild](assets/rec_key.png)
 
-Wenn beim Erstellen Ihrer [!DNL Recommendations] Aktivität der Schlüsselartikel aus dem Besucherprofil übernommen wird, z. B. „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufälliges Produkt im [!UICONTROL Visual Experience Composer] (VEC) an. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
+Wenn beim Erstellen der [!DNL Recommendations] Aktivität der Schlüssel aus dem Besucherprofil übernommen wird, z. B. „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufälliges Produkt im [!UICONTROL Visual Experience Composer] (VEC) an. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
 
 ## Ersetzungen in einem String-Wert durchführen {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -245,7 +245,7 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 
 ## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
 
-Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein 1-zu-viele-Ergebnis an, um zu vermeiden, dass leere HTML-Elemente erstellt werden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und [!UICONTROL Partial Template Rendering] aktiviert ist.
+Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein 1-zu-viele-Ergebnis an, um zu vermeiden, dass leere HTML-Elemente erstellt werden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Sicherungsempfehlungen nicht sinnvoll sind und [!UICONTROL Partielles Vorlagenrendering] aktiviert ist.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 

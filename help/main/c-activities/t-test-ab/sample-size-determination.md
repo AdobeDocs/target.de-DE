@@ -15,14 +15,14 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3150
+source-wordcount: 3184
 ht-degree: 47%
 
 ---
 
 # Wie lange sollten A/B-Tests laufen?
 
-Eine erfolgreiche [!UICONTROL A/B Test] in [!DNL Adobe Target] erfordert genügend Besucher (Stichprobengröße), um die Konversionsrate zu verbessern. Wie weiß man, wie lange man einen A/B-Test durchführt? Dieser Artikel enthält Informationen zu [!UICONTROL Auto-Allocate] Aktivitäten und den Rechner für den [!UICONTROL Adobe Target] Stichprobenumfang , mit dem Sie sicherstellen können, dass Ihre Aktivität über ausreichend Besucher verfügt, um Ihre Ziele zu erreichen.
+Für eine erfolgreiche [!UICONTROL A/B-]-Aktivität in [!DNL Adobe Target] sind ausreichend Besucher (Stichprobengröße) erforderlich, um die Konversionsrate zu verbessern. Wie weiß man, wie lange man einen A/B-Test durchführt? Dieser Artikel enthält Informationen zu [!UICONTROL automatischen Zuordnungs]-Aktivitäten und dem [!UICONTROL Adobe Target]-Stichprobengrößenrechner, um sicherzustellen, dass Ihre Aktivität über ausreichend Besuchende verfügt, um Ihre Ziele zu erreichen.
 
 Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
@@ -34,21 +34,21 @@ Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den er
 
 ## Automatische Zuordnung {#auto-allocate}
 
-Eine [automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-Aktivität ist eine Art von A/B-Test, der einen Gewinner aus zwei oder mehr Erlebnissen ermittelt. Ein [!UICONTROL Auto-Allocate] Test ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
+Eine [automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-Aktivität ist eine Art von A/B-Test, der einen Gewinner aus zwei oder mehr Erlebnissen ermittelt. Ein Test [!UICONTROL Automatische Zuordnung] ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
 
 Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Und es besteht immer noch eine Chance, dass der identifizierte Gewinner kein wahrer Gewinner ist.
 
-Die Lösung ist [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] reduziert diese Kosten und den Mehraufwand für die Ermittlung des erfolgreichsten Erlebnisses. [!UICONTROL Auto-Allocate] überwacht die Leistung aller Erlebnisse anhand der Zielmetrik und sendet proportional mehr neue Teilnehmer zu den besonders leistungsstarken Erlebnissen. Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, auch während die Aktivität noch ausgeführt wird: Die Optimierung erfolgt parallel zum Lernen.
+Die Lösung lautet [!UICONTROL Automatische Zuordnung]. [!UICONTROL Automatische Zuordnung] reduziert diese Kosten und den Mehraufwand für die Bestimmung eines erfolgreichsten Erlebnisses. [!UICONTROL Automatische Zuordnung] überwacht die Leistung aller Erlebnisse bei der Zielmetrik und sendet proportional mehr neue Teilnehmer zu den leistungsstarken Erlebnissen. Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, auch während die Aktivität noch ausgeführt wird: Die Optimierung erfolgt parallel zum Lernen.
 
-[!UICONTROL Auto-Allocate] bewegt Besucher schrittweise in Richtung erfolgreicher Erlebnisse, anstatt zu warten, bis eine Aktivität beendet wird, um einen Gewinner zu bestimmen. Sie profitieren schneller von Steigerungen, da den Aktivitätsteilnehmern, die zu weniger erfolgreichen Erlebnissen geleitet worden wären, nun potenziell erfolgreiche Erlebnisse angezeigt werden.
+[!UICONTROL Automatische Zuordnung] verlagert Besucher schrittweise auf das erfolgreichste Erlebnis, anstatt warten zu müssen, bis eine Aktivität beendet wird, um einen Gewinner zu ermitteln. Sie profitieren schneller von Steigerungen, da den Aktivitätsteilnehmern, die zu weniger erfolgreichen Erlebnissen geleitet worden wären, nun potenziell erfolgreiche Erlebnisse angezeigt werden.
 
-Bei Verwendung von [!UICONTROL Auto-Allocate] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Badge mit der Bezeichnung „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht. [!DNL Target] gibt dann das erfolgreichste Erlebnis aus, indem oben auf der Seite der Aktivität ein Abzeichen angezeigt wird.
+Bei Verwendung der [!UICONTROL automatischen Zuordnung] zeigt [!DNL Target] oben auf der Seite der Aktivität ein Badge mit der Bezeichnung „Noch kein Gewinner“ an, bis die Aktivität die Mindestanzahl an Konversionen mit ausreichender Konfidenz erreicht. [!DNL Target] gibt dann das erfolgreichste Erlebnis aus, indem oben auf der Seite der Aktivität ein Abzeichen angezeigt wird.
 
 Weitere Informationen finden Sie unter [Automatische Zuordnung - Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe [!DNL Target] Stichprobengrößenrechner {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Wenn Sie statt der [!UICONTROL Auto-Allocate] eine manuelle [!UICONTROL A/B Test] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine [!UICONTROL Auto-Allocate] ist optional, da [!UICONTROL Auto-Allocate] einen Gewinner für Sie bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
+Wenn Sie eine manuelle Aktivität vom Typ [!UICONTROL A/B-Test] anstelle von [!UICONTROL Automatische Zuordnung] verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine Aktivität [!UICONTROL Automatische Zuordnung] ist optional, da [!UICONTROL Automatische Zuordnung] für Sie einen Gewinner bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
 Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf.
 
@@ -154,7 +154,7 @@ Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Wo
 
 Bei Verwendung der Metrik Umsatz pro Besuch (RPV) wird eine zusätzliche Varianzquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / #visitors = (Umsatz pro Bestellung &#42; #orders) / # Besucher = Umsatz pro Bestellung &#42; (#visitors &#42; CTR) / #visitors = Umsatz pro Bestellung &#42; CTR), jeweils mit einer eigenen Varianz. Die Varianz der Konversionsrate kann direkt mithilfe eines mathematischen Modells geschätzt werden, aber die Varianz des Umsatzes pro Bestellung ist spezifisch für die Aktivität. Nutzen Sie daher die Kenntnis dieser Varianz aus früheren Aktivitäten oder führen Sie den A/B-Test einige Tage lang durch, um die Varianz beim Umsatz zu schätzen. Die Varianz wird anhand der Werte Summe der Verkäufe, Summe der Verkäufe im Quadrat und Anzahl der Besucher berechnet, die in der CSV-Download-Datei zu finden sind. Nachdem dies eingerichtet wurde, verwenden Sie die Tabelle, um die erforderliche Zeit zum Abschließen des Tests zu berechnen.
 
-Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, sehen Sie eine Registerkarte mit der Bezeichnung [!UICONTROL RPV Metric]. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
+Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, wird eine Registerkarte mit der Bezeichnung [!UICONTROL RPV-Metrik] angezeigt. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
 
 * Anzahl der Besucher des Kontrollangebots
 * Gesamtumsatz des Kontrollangebots
@@ -173,6 +173,6 @@ Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit
 
 ## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Durch die Verwendung einer [!UICONTROL Auto-Allocate] Aktivität ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und weist dem Gewinner automatisch mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Auto-Allocate] ist es einfach, Ihre Konversionsziele zu erreichen und dabei das Rätselraten zu entfernen.
+Durch die Verwendung [!UICONTROL &#x200B; Aktivität „Automatische Zuordnung] ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Automatische Zuordnung] erleichtert das Erreichen Ihrer Konversionsziele und entfernt das Rätselraten.
 
 Indem Sie den in diesem Artikel vorgestellten Stichprobengrößenrechner (Link oben) verwenden und den Test so lange ausführen lassen, wie er nahe legt, können Sie sicherstellen, dass Sie immer hochwertige A/B-Tests durchführen, die den Falsch-Positiv- und Falsch-Negativ-Raten entsprechen, die Sie für den spezifischen Test als ausreichend erachtet haben. Dadurch wird gewährleistet, dass Ihre Tests konsistent und in der Lage sind, die von Ihnen gewünschte Steigerung zuverlässig zu ermitteln.

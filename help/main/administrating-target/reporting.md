@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 795
 ht-degree: 22%
 
 ---
@@ -28,11 +28,11 @@ Konfigurieren Sie allgemeine Einstellungen, die für [!DNL Adobe Target] Reporti
 
 {{permissions-update}}
 
-Um auf die Seite mit der [!UICONTROL Reporting]-Konfiguration zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Um auf die Konfigurationsseite [!UICONTROL Reporting] zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Sie können die folgenden Einstellungen auf dieser Seite festlegen:
 
-* Die Adobe Experience Cloud-Lösung für das Reporting
+* Die für das Reporting zu verwendende Adobe Experience Cloud-Lösung
 * Die für das Reporting zu verwendende Zeitzone
 * Die für das Reporting zu verwendende Währung
 * Auszuschließende IP-Adressen aus Berichten
@@ -53,26 +53,26 @@ Wählen Sie die Berichtsquelle für Ihre Aktivitäten aus, entweder [!DNL Target
 
 Beachten Sie bei der Auswahl der Berichtsquelle folgende Informationen:
 
-* **[!DNL Adobe Target]**: Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Analytics] oder [!DNL Customer Journey Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle in **[!UICONTROL Select per activity]** ändern.
-* **[!DNL Adobe Analytics]**: Wenn die Berichtsquelle hier auf **[!DNL Analytics]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Target] oder [!DNL Customer Journey Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle in **[!UICONTROL Select per activity]** ändern.
-* **[!DNL Adobe Customer Journey Analytics]**: Wenn die Berichtsquelle hier auf **[!DNL Customer Journey Analytics]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Target] oder [!DNL Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle in **[!UICONTROL Select per activity]** ändern.
-* **Pro Aktivität auswählen**: Wenn die Berichtsquelle auf **[!UICONTROL Select per activity]** hier festgelegt ist, können Sie Aktivitäten erstellen und aktivieren, die von der ausgewählten Berichtsquelle unterstützt werden.
+* **[!DNL Adobe Target]**: Wenn die Berichtsquelle hier auf **[!DNL Target]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Analytics] oder [!DNL Customer Journey Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle ändern in **[!UICONTROL Pro Aktivität auswählen]**.
+* **[!DNL Adobe Analytics]**: Wenn die Berichtsquelle hier auf **[!DNL Analytics]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Target] oder [!DNL Customer Journey Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle ändern in **[!UICONTROL Pro Aktivität auswählen]**.
+* **[!DNL Adobe Customer Journey Analytics]**: Wenn die Berichtsquelle hier auf **[!DNL Customer Journey Analytics]** festgelegt ist, dürfen Sie keine Aktivität erstellen oder aktivieren, die [!DNL Target] oder [!DNL Analytics] als Berichtsquelle verwendet. Sie müssen die Berichtsquelle ändern in **[!UICONTROL Pro Aktivität auswählen]**.
+* **Pro Aktivität auswählen**: Wenn die Berichtsquelle auf **[!UICONTROL Pro Aktivität auswählen]** hier festgelegt ist, können Sie Aktivitäten erstellen und aktivieren, die von der ausgewählten Berichtsquelle unterstützt werden.
 
 Beachten Sie bei der Bestimmung Ihrer Berichtsquelle die folgenden Informationen:
 
 * **[!DNL Analytics]**: Eine Matrix der unterstützten Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, finden Sie unter [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
 
-  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization] Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) auswählen](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization]-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Selbst wenn Sie [!DNL Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 
 * **[!DNL Customer Journey Analytics]**: Eine Matrix der unterstützten Aktivitäten unter Verwendung der [!DNL Target]-Berichterstellung in [!DNL Customer Journey Analytics] finden Sie [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]Berichterstellung in[!DNL Adobe Customer Journey Analytics]*.
 
-  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] und [!UICONTROL Auto-Target] Erstellung und Aktivierung von Aktivitäten sind unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  Die Erstellung und Aktivierung von Automated Personalization[!UICONTROL &#x200B; (AP), Automatische &#x200B;]) und [!UICONTROL Automatisches Targeting]-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. Diese Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle &#x200B;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Selbst wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 
-  Wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle für [!UICONTROL Auto-Allocate] oder [!UICONTROL Auto-Target] Aktivitäten angeben, können [!DNL Target] oder [!DNL Analytics] als Berichtsquelle verwendet werden.
+  Wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle für Aktivitäten vom Typ [!UICONTROL Automatische Zuordnung] oder [!UICONTROL Automatisches Targeting] angeben, können [!DNL Target] oder [!DNL Analytics] als Berichtsquelle verwendet werden.
 
 ## Zeitzone für die Berichterstellung
 

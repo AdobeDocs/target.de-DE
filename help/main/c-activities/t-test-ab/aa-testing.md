@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Um dies zu vermeiden, sollten Sie daher wie bei einem regulären A/B-Test vorab 
 
 Bei einem A/A-Test wäre das Ziel dann, *nicht* ein statistisch signifikantes Ergebnis zu sehen, nachdem Ihr Test die gewünschte Stichprobengröße erreicht hat.
 
-Die [!UICONTROL Adobe Target Sample Size Calculator] ist ein wichtiges Tool, mit dem Sie bestimmen können, auf welche Stichprobengröße Sie abzielen sollten und wie lange Sie den Test ausführen sollten.
+Der [!UICONTROL Adobe Target-Stichprobengrößenrechner] ist ein wichtiges Tool, mit dem Sie bestimmen können, auf welche Stichprobengröße Sie abzielen und wie lange Sie den Test ausführen sollten.
 
 * [Adobe Target-Größenberechnung](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 

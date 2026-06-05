@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Beachten Sie, dass Sie die `entity.brand` in der Mbox auf diesen Landingpages be
 
 ## Beispiele für den Abgleich von Entitätsattributen
 
-[!UICONTROL Entity Attribute Matching] können Sie nur die Elemente empfehlen, die übereinstimmen, z. B.:
+[!UICONTROL Zuordnung von Entitätsattributen] ermöglicht es Ihnen, nur die Elemente zu empfehlen, die übereinstimmen, z. B.:
 
 * Ein Attribut aus dem Element, das der Benutzer derzeit anzeigt
 * Das Element, das der Benutzer zuletzt angezeigt hat

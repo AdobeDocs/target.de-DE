@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: 478
 ht-degree: 59%
 
 ---
@@ -41,7 +41,7 @@ Berücksichtigen Sie bei der Planung der Verwendung von Zielgruppenfiltern für 
 * **Beginnen Sie mit zwei bis vier Zielgruppen.** Fokussieren Sie sich auf grundlegenden Informationen, wie z. B. der Traffic-Quelle.
 * **Benennen Sie Zielgruppen nach Bedarf um.** Sie können eine Zielgruppe umbenennen, ohne die Daten zu beeinflussen, damit der Name der Zielgruppe für die erfassten Ergebnisse aussagekräftiger wird, auch wenn die Aktivität aktiv ist.
 * **Geben Sie genaue Werte ein.** Bei den Werten des Zielgruppenfilters wird zwischen Groß- und Kleinschreibung unterschieden. Wenn Sie z. B. eine Zielgruppe verwenden, die eine Filterung von Städten vornimmt, müssen Sie eine „ODER“-Bedingung verwenden, um mögliche Variationen von Recht- und Großschreibung einzubeziehen, wie z. B. „Vienna“, „vienna“, „wien“ und „Wien“.
-* **Aus der [!UICONTROL Audiences] Liste erstellte Zielgruppen sind wiederverwendbar.** Zielgruppen, die im Rahmen einer Aktivität erstellt wurden, können nicht wiederverwendet werden.
+* **Zielgruppen, die aus der Liste [!UICONTROL Zielgruppen] erstellt wurden, sind wiederverwendbar.** Zielgruppen, die im Rahmen einer Aktivität erstellt wurden, können nicht wiederverwendet werden.
 
 In den folgenden Abschnitten finden Sie weitere Informationen zum Einrichten von Zielgruppen und zur Berichterstellung:
 

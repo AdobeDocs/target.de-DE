@@ -17,8 +17,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2481
-ht-degree: 90%
+source-wordcount: 2520
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Wenn ein Besucher auf Ihrer Website surft oder erneut Ihre Website aufruft, kön
 
 So richten Sie Profilattribute ein:
 
-1. Klicken Sie auf **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
+1. Klicken Sie **[!UICONTROL Zielgruppen]** > **[!UICONTROL Profilskripte.]**
 
    ![Registerkarte „Profilskripte“](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. Klicken Sie auf **[!UICONTROL Create Script]**.
+1. Klicken Sie **[!UICONTROL Skript erstellen]**.
 
    ![Dialogfeld „Profilskript erstellen“](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -44,7 +44,7 @@ So richten Sie Profilattribute ein:
 
    | Parametertyp | Beschreibung |
    |--- |--- |
-   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*.<P>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie dazu die [!UICONTROL Profile Update API]. Weitere Informationen finden Sie unter [Profile aktualisieren](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*. |
+   | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*.<P>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie dazu die [!UICONTROL API-]Profilaktualisierung“. Weitere Informationen finden Sie unter [Profile aktualisieren](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*. |
    | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder mBox-Anfrage ausgeführt. Siehe *Profilskriptattribute* unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -57,13 +57,13 @@ Profilskripte sind nicht das Gleiche wie Profilparameter. Profilparameter zeichn
 
 ## Profilskripte erstellen {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Profilskripte sind in der Registerkarte [!UICONTROL Audiences] in der [!DNL Target] verfügbar.
+Profilskripte sind in der Registerkarte [!UICONTROL Zielgruppen] in der [!DNL Target]-Benutzeroberfläche verfügbar.
 
-Um ein Profilskript hinzuzufügen, klicken Sie auf die Registerkarte **[!UICONTROL Profile Scripts]** und schreiben Sie **[!UICONTROL Create Script]** das Skript.
+Um ein Profilskript hinzuzufügen, klicken Sie auf die Registerkarte **[!UICONTROL Profilskripte]** und **[!UICONTROL Skript erstellen]** und schreiben Sie dann das Skript.
 
 Oder
 
-Um ein vorhandenes Profilskript zu kopieren, klicken Sie in der Liste [!UICONTROL Profile Scripts] auf das Auslassungssymbol für das gewünschte Skript und dann auf **[!UICONTROL Duplicate]**.
+Um ein vorhandenes Profilskript zu kopieren, klicken Sie in der Liste [!UICONTROL Profilskripte] auf das Auslassungssymbol für das gewünschte Skript und dann auf **[!UICONTROL Duplizieren]**.
 
 Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
@@ -96,21 +96,21 @@ Berücksichtigen Sie Folgendes:
 
 Sie können Popupkarten mit Profilskriptinformationen (ähnlich den Karten mit Angebotsinformationen) anzeigen. Auf diesen Karten mit Profilskriptinformationen können Sie die Liste der Aktivitäten, die auf das ausgewählte Profilskript verweisen, sowie weitere nützliche Metadaten anzeigen.
 
-Beispielsweise kann die folgende Profilskript-Informationskarte durch Klicken auf das [!UICONTROL Info] für das gewünschte Profilskript in der Liste geöffnet werden ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
+Beispielsweise kann die folgende Profilskript-Informationskarte durch Klicken auf das Symbol [!UICONTROL Info] für das gewünschte Profilskript in der Liste geöffnet werden ([!UICONTROL Zielgruppen] > [!UICONTROL Profilskripte]).
 
-Die Registerkarte [!UICONTROL Script Info] enthält die folgenden Informationen: Name, Beschreibung und Skript-Code.
+Die [!UICONTROL Skript-Info] enthält die folgenden Informationen: Name, Beschreibung und Skript-Code.
 
 ![Informationskarte „Profilskript“](assets/profile_script_info_card.png)
 
-Klicken Sie auf **[!UICONTROL View full details]** , um die Zielgruppen und Aktivitäten anzuzeigen, die auf das ausgewählte Profilskript verweisen.
+Klicken Sie **[!UICONTROL Vollständige Details anzeigen]**, um die Zielgruppen und Aktivitäten anzuzeigen, die auf das ausgewählte Profilskript verweisen.
 
 ![Informationskarte „Profilskript“ > Registerkarte „Skriptnutzung“](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->Auf der Registerkarte [!UICONTROL Script Usage] werden in den folgenden Situationen keine Aktivitäten angezeigt, die auf das ausgewählte Profilskript verweisen:
+>Auf der Registerkarte [!UICONTROL Skriptnutzung] werden in folgenden Situationen keine Aktivitäten angezeigt, die auf das ausgewählte Profilskript verweisen:
 >
-> * Die Aktivität befindet sich im Status [!UICONTROL Draft] .
+> * Die Aktivität befindet sich im Status [!UICONTROL Entwurf].
 > * Die in der Aktivität verwendeten Inhalte oder Angebote verwenden Skriptvariablen (entweder ein Inline-Angebot innerhalb der Aktivität oder ein Angebot in der Angebotsbibliothek).
 
 ## Target deaktiviert in bestimmten Situationen Profilskripte {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -167,7 +167,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Fügen Sie Profilskripte als Antwort-Token hinzu, um die Profilskripte zu debuggen:**
 
-  Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]**, klicken Sie auf **[!UICONTROL Response Tokens]** und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
+  Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]**, klicken Sie auf **[!UICONTROL Antwort-]** Token) und aktivieren Sie dann das Profilskript, das Sie debuggen möchten.
 
   Jedes Mal, wenn Sie eine Seite Ihrer Site laden, in der [!DNL Target] enthalten ist, beinhaltet die Antwort von [!DNL Target], wie unten gezeigt, Ihren Wert für das entsprechende Profilskript:
 
@@ -175,7 +175,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 * **Verwenden Sie das mboxTrace-Debugging-Tool, um Profilskripte zu debuggen:**
 
-  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie im Abschnitt [!UICONTROL Debugger tools] auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** klicken.
+  Diese Methode erfordert ein Autorisierungs-Token, das Sie generieren können, indem Sie auf **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** > **[!UICONTROL Autorisierungs-Token generieren]** im Abschnitt [!UICONTROL Debugger-Tools] klicken.
 
   Fügen Sie anschließend diese beiden Parameter Ihrer Seiten-URL nach dem „?“ hinzu: `mboxTrace=window&authorization=YOURTOKEN`.
 

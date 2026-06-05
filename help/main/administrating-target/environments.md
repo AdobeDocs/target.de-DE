@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -30,35 +30,35 @@ ht-degree: 46%
 
 Optimieren Sie Ihre Sites und Umgebungen für Schritte vor der Produktion für einfache Verwaltung und separates Reporting.
 
-Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. Zu den voreingestellten Umgebungen gehören [!UICONTROL Production], [!UICONTROL Staging] und [!UICONTROL Development]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
+Zwecks einfacher Verwaltung werden Hosts in Umgebungen zusammengefasst. Es können beispielsweise mehrere Dutzend Hosts in zwei oder drei Umgebungen aufgeteilt werden. Zu den voreingestellten Umgebungen gehören [!UICONTROL Produktion], [!UICONTROL Staging] und [!UICONTROL Entwicklung]. Sie können nach Wunsch neue Umgebungen hinzufügen oder alte umbenennen.
 
-Eine Umgebung, die Standardumgebung, ist [!UICONTROL Production] vorbenannt. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
+Eine Umgebung, die Standardumgebung, trägt den Vornamen [!UICONTROL Produktion]. Die Standardumgebung kann nicht gelöscht werden, auch nicht, wenn sie umbenannt wird. In [!DNL Target] wird angenommen, dass in dieser Gruppe fertiggestellte, genehmigte Aktivitäten und Tests bereitgestellt werden.
 
-Wenn eine [!DNL Target] Anfrage von neuen Websites oder Domains empfangen wird, erscheinen diese neuen Domains immer in der [!UICONTROL Production]. Die Einstellungen der [!UICONTROL Production]-Umgebung können nicht geändert werden, sodass unbekannte oder neue Sites garantiert nur aktive und fertige Inhalte sehen. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
+Wenn eine [!DNL Target] Anfrage von neuen Websites oder Domains empfangen wird, erscheinen diese neuen Domains immer in der [!UICONTROL Produktions]Umgebung. Die Einstellungen [!UICONTROL Produktionsumgebung] können nicht geändert werden, sodass unbekannte oder neue Websites garantiert nur aktive und fertige Inhalte sehen. Über die Hostverwaltung kann außerdem problemlos für die Qualität neuer Aktivitäten und Inhalte in der Testumgebung, Staging-Umgebung und Entwicklungsumgebung vor der Aktivierung der Aktivitäten gesorgt werden.
 
 {{permissions-update}}
 
-Um Umgebungen zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Um Umgebungen zu verwalten, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Umgebungen]**.
 
 ## Hinzufügen einer Umgebung {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Klicken Sie in der [!UICONTROL Environments] auf **[!UICONTROL Add Environment]**.
+1. Klicken Sie in der [!UICONTROL Umgebungen] auf **[!UICONTROL Umgebung hinzufügen]**.
 1. Geben Sie einen beschreibenden Namen für die Umgebung an.
-1. Geben Sie den gewünschten aktiven Modus für die Umgebung an: [!UICONTROL Active Activities] oder [!UICONTROL Active and Inactive Activities].
+1. Legen Sie den aktiven Modus für die Umgebung fest: [!UICONTROL Aktive Aktivitäten] oder [!UICONTROL aktive und inaktive Aktivitäten].
 
-   Wenn Sie [!UICONTROL Active and Inactive Activities] angeben, zeigen Hosts aus dieser Umgebung auch inaktive Aktivitäten an.
+   Wenn Sie [!UICONTROL Aktive und inaktive Aktivitäten] angeben, zeigen Hosts aus dieser Umgebung auch inaktive Aktivitäten an.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Festlegen der Standardumgebung für das Reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Sie können die Umgebung auswählen, die Sie als Standard für alle Aktivitätsberichte festlegen möchten.
 
-Wenn Sie [!UICONTROL Production] als Standard verwenden, werden alle unbekannten Hosts automatisch hier hinzugefügt und die Berichtsdaten von dort werden in die standardmäßige Berichtsansicht aufgenommen. Die Erstellung einer „reinen“ Umgebung gewährleistet hingegen, dass ausschließlich Coresites/Domänen eingeschlossen werden.
+Wenn Sie [!UICONTROL Produktion] als Standard verwenden, werden hier automatisch alle unbekannten Hosts hinzugefügt und die Berichtsdaten von dort werden in die standardmäßige Berichtsansicht aufgenommen. Die Erstellung einer „reinen“ Umgebung gewährleistet hingegen, dass ausschließlich Coresites/Domänen eingeschlossen werden.
 
 So legen Sie die Standardumgebung für die Berichterstellung fest:
 
-1. Klicken Sie in der [!UICONTROL Environments] auf das Sternsymbol
+1. Klicken Sie in [!UICONTROL &#x200B; Liste &#x200B;]Umgebungen“ auf das Sternsymbol
 
 >[!NOTE]
 >
@@ -68,20 +68,20 @@ So legen Sie die Standardumgebung für die Berichterstellung fest:
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Klicken Sie in der [!UICONTROL Environment] auf das Symbol **[!UICONTROL Edit]** .
+1. Klicken Sie in der [!UICONTROL Umgebung] auf das Symbol **[!UICONTROL Bearbeiten]**.
 1. Ändern Sie den Namen der Umgebung.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Löschen einer Umgebung {#section_737F8869612047868D03FC755B1223D3}
 
 Sie können eine Umgebung, die nicht mehr benötigt wird, löschen.
 
-1. Klicken Sie in der [!UICONTROL Environment] auf das Symbol **[!UICONTROL Delete]** .
-1. Klicken Sie auf **[!UICONTROL Delete]** , um den Löschvorgang zu bestätigen.
+1. Klicken Sie in der [!UICONTROL Umgebung] auf das Symbol **[!UICONTROL Löschen]**.
+1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen.
 
 >[!NOTE]
 >
->Sie können die [!UICONTROL Production] Umgebung nicht löschen, aber Sie können sie umbenennen.
+>Sie können die [!UICONTROL Produktionsumgebung] nicht löschen, aber Sie können sie umbenennen.
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."} Recommendations: Filtern von Sammlungen und Ausschlüssen nach Umgebung (Hostgruppe)
 
@@ -89,7 +89,7 @@ Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Aussch
 
 {{premium-note}}
 
-Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für [!UICONTROL Development] und [!UICONTROL Production] Umgebungen, verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
+Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für (Entwicklungs[!UICONTROL - und &#x200B;]&#x200B;[!UICONTROL Produktionsumgebungen] verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ Wenn Ihre Produkte nicht angezeigt werden, stellen Sie sicher, dass Sie die rich
 >[!NOTE]
 >Nachdem Sie die ausgewählte Umgebung geändert haben, müssen Sie auf „Suchen“ klicken, um die zurückgegebenen Ergebnisse zu aktualisieren.
 
-Der [!UICONTROL Environment] ist an den folgenden Stellen in der Target-Benutzeroberfläche verfügbar:
+Der [!UICONTROL Umgebung]-Filter ist an den folgenden Stellen in der Target-Benutzeroberfläche verfügbar:
 
-* Katalogsuche ([!UICONTROL Recommendations > Catalog Search])
-* Dialogfeld Sammlung erstellen ([!UICONTROL Recommendations > Collections > Create New])
-* Dialogfeld Sammlung aktualisieren ([!UICONTROL Recommendations > Collections > Edit])
-* Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations > Exclusions > Create New])
-* Dialogfeld „Ausschluss aktualisieren“ ([!UICONTROL Recommendations > Exclusions > Edit])
+* Katalogsuche ([!UICONTROL Recommendations > Katalogsuche])
+* Dialogfeld „Sammlung erstellen“ ([!UICONTROL Recommendations > Sammlungen > Neu erstellen])
+* Dialogfeld „Sammlung aktualisieren“ ([!UICONTROL Recommendations > Sammlungen > Bearbeiten])
+* Dialogfeld „Ausschluss erstellen“ ([!UICONTROL Recommendations > Ausschlüsse > Neu erstellen])
+* Dialogfeld „Ausschluss aktualisieren“ ([!UICONTROL Recommendations > Ausschlüsse > Bearbeiten])

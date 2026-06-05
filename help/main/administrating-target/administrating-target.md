@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 94
+source-wordcount: 96
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurat
 
 {{permissions-update}}
 
-Um auf die [!UICONTROL Administration] Menüelemente zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
+Um auf die [!UICONTROL Administration]-Menüelemente zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
 
 * [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Berichterstellung](/help/main/administrating-target/reporting.md)

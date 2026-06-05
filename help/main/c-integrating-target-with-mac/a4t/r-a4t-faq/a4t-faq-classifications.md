@@ -14,8 +14,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 27%
+source-wordcount: 336
+ht-degree: 25%
 
 ---
 
@@ -23,26 +23,26 @@ ht-degree: 27%
 
 Dieses Thema enthält Antworten auf Fragen, die häufig zu Klassifizierungen und zur Verwendung von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) gestellt werden.
 
-## Wie kann ich, nachdem ich die [!UICONTROL Classifications Importer] zum Herunterladen von Klassifizierungen verwendet habe, den post-tnt-action-Wert mit einem Aktivitätsnamen abgleichen? {#section_6045DAC488B248418F430E663C38D001}
+## Wie kann ich nach der Verwendung [!UICONTROL Classifications Importer] zum Herunterladen von Klassifizierungen den post-tnt-action-Wert mit einem Aktivitätsnamen abgleichen? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Antwort
 Die Classifications für die A4T/TNT-Zeichenfolge können mithilfe des [Classification Importer](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=de) der Admin Tools heruntergeladen werden. Die Variable wird in der Exportliste als „TNT“ bezeichnet. In den heruntergeladenen Daten sind die Anzeigenamen der Aktivitäten, Erlebnisse usw. enthalten.
 
 Diese Lookup-Datei ist nützlich für Kunden, die den Clickstream-Daten-Feed von [!DNL Adobe] erhalten. In der Tabelle sind die Anzeigenamen für die Spalten `post_tnt` und `post_tnt_action` angegeben.
 
-Für Aktivitäten des Typs [!UICONTROL A/B Test] und [!UICONTROL Experience Targeting] (XT) hat die TNT-Zeichenfolge folgendes Format:
+Für standardmäßige [!UICONTROL A/B-]- und [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT) hat die TNT-Zeichenfolge folgendes Format:
 
 ```
 activityID:experienceID:targettype|event
 ```
 
-Für [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten lautet das Format der TNT-Zeichenfolge:
+Bei [!UICONTROL automatischen Zuordnungs] und [!UICONTROL automatischen Targeting]-Aktivitäten lautet das Format der TNT-Zeichenfolge:
 
 ```
 activityId:experienceId:targettype:algorithmId|event
 ```
 
-* `targettype` = `targettype` und `algorithmId` sind interne Kennungen, die von [!UICONTROL Auto-Allocate]- und [!UICONTROL Auto-Target]-Aktivitäten verwendet werden.
+* `targettype` = `targettype` und `algorithmId` sind interne Kennungen, die von Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] verwendet werden.
 * Erlebnis = 0 steht für den Eintritt in ein Erlebnis.
 * Erlebnis = 1 steht für einen Erlebnisbesuch.
 * Erlebnis = 2 steht für eine Aktivitätsimpression.

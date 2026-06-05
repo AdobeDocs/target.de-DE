@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ So implementieren Sie einen einfachen mehrseitigen A4T-Anwendungsfall:
 +++Antwort
 Zur Auswahl einer Report Suite bei der Definition einer Analytics-Aktivität brauchen Sie sowohl ein Analytics-Benutzerkonto als auch ein Target-Benutzerkonto. Ihre Benutzerkonten müssen wie in der Dokumentation beschrieben konfiguriert werden. Siehe [Anforderungen an Benutzerberechtigungen](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Sobald Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugriff auf Analytics und Target haben, und Sie Zugriff auf alle Report Suites haben, sollte unter **[!UICONTROL Create Activity]** die Option zum Erstellen eines A/B-Tests mit Analytics angezeigt werden.
+Sobald Sie Mitglied einer oder mehrerer Experience Cloud-Gruppen sind, die Zugriff auf Analytics und Target haben, und Sie Zugriff auf alle Report Suites haben, sollte unter „Aktivität erstellen“ die Option zum Erstellen eines A/B **[!UICONTROL Tests mit Analytics]**.
 
 Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T richtig bereitgestellt wird.
 
@@ -51,7 +51,7 @@ Sollten Probleme bei der Bereitstellung auftreten, überprüfen Sie, ob A4T rich
 +++Antwort
 Überprüfen Sie, ob eines der folgenden Probleme auftritt:
 
-* Stellen Sie sicher, dass Ihre Analytics- und Target-Konten in der Experience Cloud verknüpft sind.
+* Stellen Sie sicher, dass Ihre Analytics- und Target-Konten in Experience Cloud verknüpft sind.
 * Einige Kunden verwenden mehrere Unternehmensanmeldungen von Analytics im selben Experience Cloud-Unternehmen. Wenn Sie mehrere Anmeldungen verwenden, stellen Sie sicher, dass das letzte Analytics-Unternehmen, bei dem Sie sich angemeldet haben, mit dem Target-Konto für die Integration verknüpft ist.
 * Wenn Sie seit mehreren Stunden bei Experience Cloud angemeldet sind, kann in einigen Fällen die Sitzung abgelaufen sein. Melden Sie sich ab und dann wieder an und versuchen Sie es dann erneut.
 

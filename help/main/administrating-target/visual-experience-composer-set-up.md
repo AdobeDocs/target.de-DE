@@ -25,16 +25,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 49%
+source-wordcount: 721
+ht-degree: 47%
 
 ---
 
-# Konfigurieren des [!UICONTROL Visual Experience Composer]
+# Konfigurieren von [!UICONTROL Visual Experience Composer]
 
-Konfigurieren Sie den [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), indem Sie die allgemeinen Einstellungen, die Konfiguration mobiler Viewports und die CSS-Selektoren festlegen.
+Konfigurieren Sie den [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration mobiler Viewports und CSS-Selektoren angeben.
 
-Um auf die Seite mit der [!UICONTROL Visual Experience Composer]-Konfiguration zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Um auf die Konfigurationsseite [!UICONTROL Visual Experience &#x200B;]) zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 {{permissions-update}}
 
@@ -44,7 +44,7 @@ Um auf die Seite mit der [!UICONTROL Visual Experience Composer]-Konfiguration z
 
 ## Allgemeine Einstellungen
 
-Sie können allgemeine Einstellungen für die [!UICONTROL Visual Experience Composer] festlegen.
+Sie können allgemeine Einstellungen für den [!UICONTROL Visual Experience Composer“ &#x200B;].
 
 ![Abschnitt „Allgemeine Einstellungen“](/help/main/administrating-target/assets/general-settings.png)
 
@@ -52,19 +52,19 @@ Die folgenden Einstellungen sind verfügbar:
 
 ### Standard-URL
 
-Legen Sie die vom [!UICONTROL Visual Experience Composer] verwendete Standard-URL fest. Dies ist die Standardseite, wie Ihre Startseite, die verwendet wird, wenn Sie ein Erlebnis für jede neue Aktivität einrichten. Sollten Sie keine Standard-URL festlegen, müssen Sie für jede Aktivität bei deren Erstellung eine eigene URL eingeben.
+Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird. Dies ist die Standardseite, wie Ihre Startseite, die verwendet wird, wenn Sie ein Erlebnis für jede neue Aktivität einrichten. Sollten Sie keine Standard-URL festlegen, müssen Sie für jede Aktivität bei deren Erstellung eine eigene URL eingeben.
 
 ### Erweiterten Experience Composer aktivieren {#eec}
 
-Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zur ursprünglichen [!UICONTROL Visual Experience Composer] zurückzukehren. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
+Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ &#x200B;]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
 
 Weitere Informationen finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Sie können die [!UICONTROL Enhanced Experience Composer] auch auf Aktivitätsebene aktivieren.
+Sie können den [!UICONTROL Enhanced Experience Composer] auch auf Aktivitätsebene aktivieren.
 
 ### Gemischte Inhalte laden
 
-Zulassen von gemischtem Inhalt beim Öffnen einer Website mithilfe der [!UICONTROL Enhanced Experience Composer] (EEC). Durch Aktivierung dieser Option wird der zusätzliche Aufwand zum Laden statischer Ressourcen über [!DNL Target] Proxy-Server vermieden.
+Zulassen von gemischtem Inhalt beim Öffnen einer Website mit dem [!UICONTROL Enhanced Experience Composer] (EEC). Durch Aktivierung dieser Option wird der zusätzliche Aufwand zum Laden statischer Ressourcen über [!DNL Target] Proxy-Server vermieden.
 
 Diese Option ist beispielsweise hilfreich, wenn:
 
@@ -79,14 +79,14 @@ Bei der Aktivierung von Erlebnismomentaufnahmen werden Miniaturen Ihrer Erlebnis
 
 >[!NOTE]
 >
->Die [!UICONTROL Mobile Viewport Configuration] ist eine [Target Premium](/help/main/c-intro/intro.md#premium)-Funktion.
+>Die [!UICONTROL Konfiguration mobiler Viewports] ist eine [Target Premium](/help/main/c-intro/intro.md#premium)-Funktion.
 
 
 Sie können Geräte hinzufügen, die für die Vorschau der Erlebnisse verwendet werden sollen. Jedem Gerät ist dabei eine Zielgruppe zugeordnet.
 
 ![Abschnitt Konfiguration mobiler Viewports](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Klicken Sie auf **[!UICONTROL Add]**, geben Sie einen beschreibenden Namen für den mobilen Viewport an, geben Sie die Breite und Höhe an, wählen Sie das gewünschte Betriebssystem aus und klicken Sie dann auf [!UICONTROL Save].
+Klicken Sie auf **[!UICONTROL Hinzufügen]**, geben Sie einen beschreibenden Namen für den mobilen Viewport an, geben Sie die Breite und Höhe an, wählen Sie das gewünschte Betriebssystem aus und klicken Sie auf [!UICONTROL Speichern].
 
 Informationen zum Hinzufügen eines mobilen Viewports finden Sie unter [Mobile Viewport – Konfiguration](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -106,17 +106,17 @@ Deaktivieren Sie diese Option, wenn die gleiche ID für mehrere Elemente verwend
 
 ### Elementklassen verwenden
 
-Standardmäßig verwendet [!DNL Target] nur Element-IDs. Wenn Ihre Seite jedoch so konzipiert ist, dass sie Klassen zur Identifizierung von Elementen verwendet, z. B. eine mit [!DNL Adobe Experience Manager] erstellte Seite, sollten Sie auch [!UICONTROL Use element classes] auswählen.
+Standardmäßig verwendet [!DNL Target] nur Element-IDs. Wenn Ihre Seite jedoch so konzipiert ist, dass sie Klassen zur Identifizierung von Elementen verwendet, z. B. eine mit [!DNL Adobe Experience Manager] erstellte Seite, sollten Sie auch [!UICONTROL Elementklassen verwenden] auswählen.
 
 >[!NOTE]
 >
 >Obwohl alles unternommen wurde, um Genauigkeit sicherzustellen, sollten Sie beachten, dass die Verwendung von -Klassen zu Fehlern führen kann. Wenn Sie keine der beiden Optionen auswählen, hat dies auch Auswirkungen auf die Genauigkeit. Die Reihenfolge für Genauigkeit lautet IDs > Klassen > keine der beiden Optionen. Sie sollten Ihre Seite immer testen, um sicherzustellen, dass die Selektoren korrekt sind.
 
-Sie können diese Einstellung für jede Aktivität außer Kraft setzen (klicken Sie auf das Zahnradsymbol [!UICONTROL Settings] und wählen Sie dann [!UICONTROL CSS Selectors] aus). Dies ist besonders dann nützlich, wenn Sie mehrere Sites haben, die unterschiedlich konfiguriert sind.
+Sie können diese Einstellung für jede Aktivität außer Kraft setzen (klicken Sie auf [!UICONTROL Einstellungen] Zahnradsymbol und wählen Sie dann [!UICONTROL CSS-Selektoren] aus). Dies ist besonders dann nützlich, wenn Sie mehrere Sites haben, die unterschiedlich konfiguriert sind.
 
 >[!NOTE]
 >
->Das Überschreiben der Einstellung pro Aktivität ist in [!UICONTROL Automated Personalization] und [!UICONTROL Multivariate Testing] nicht verfügbar.  Weitere Informationen zu Selektoren finden Sie im Abschnitt [Element-Selektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
+>Das Überschreiben der Einstellung pro Aktivität ist in den Aktivitäten [!UICONTROL Automated Personalization] und [!UICONTROL Multivariate Testing] nicht verfügbar.  Weitere Informationen zu Selektoren finden Sie im Abschnitt [Element-Selektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
 ## Schulungsvideo: Kontovoreinstellungen (7:33) ![Übersichts-Badge](/help/main/assets/overview.png)
 

@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Diese Anwendungsfälle sind nur einige mögliche Anwendungsfälle für die Integ
 
   Nach einem bestimmten Zeitraum ruft eine benutzerdefinierte Aktion in [!DNL Journey Optimizer] [!DNL Target Recommendations] auf, um mithilfe der [!DNL Adobe Experience Cloud Identifier] (EDID) jedes Besuchers, seines [!DNL Target] Profils und eines [benutzerbasierten](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) Algorithmus zu bestimmen, welche Elemente jeder angezeigt hat. [!DNL Adobe Journey Optimizer] sendet dann jedem Mitglied der qualifizierten Zielgruppe eine personalisierte E-Mail mit Bildern und Links zu den angezeigten Elementen jedes Besuchers, um den Besucher zu veranlassen, zurückzukehren und einen Kauf zu tätigen.
 
-  In diesem Szenario werden die [!UICONTROL Experience Cloud Visitor ID] (ECID) und der Inhalt des [!DNL Target] jedes Besuchers verwendet, um die Empfehlung basierend auf dem kürzlich angezeigten Algorithmus zu generieren.
+  In diesem Szenario werden die [!UICONTROL Experience Cloud-Besucher-ID] (ECID) und der Inhalt des [!DNL Target] jedes Besuchers verwendet, um die Empfehlung basierend auf dem kürzlich angezeigten Algorithmus zu generieren.
 
   Angenommen, ein Besucher besucht beispielsweise eine Einzelhandels-Website und sieht sich mehrere Uhren an. Das [!DNL Target] dieses Besuchers wird mit einer Liste der angezeigten Überwachungen aktualisiert. Unter Verwendung der ECID und des [!DNL Target] des Besuchers sendet [!DNL Target] die Empfehlung an [!DNL Journey Optimizer]. [!DNL Journey Optimizer] sendet dann eine E-Mail mit Bildern und Links zu den Uhren, die dieser Besucher angesehen hat, unter Verwendung des Algorithmus für die zuletzt angezeigte Anzeige. Ein anderer Besucher erhält eine personalisierte E-Mail mit Bildern und Links zu den Elementen, die er angezeigt hat. Jede E-Mail-Nachricht wird für jeden Besucher personalisiert.
 

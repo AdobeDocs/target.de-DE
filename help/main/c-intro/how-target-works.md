@@ -28,7 +28,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2363
+source-wordcount: 2421
 ht-degree: 25%
 
 ---
@@ -55,9 +55,9 @@ Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in
 
 >[!NOTE]
 >
->Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf die [!UICONTROL Experience Platform Web SDK] (empfohlen) oder die neueste Version von at.js.
+>Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf [!UICONTROL Experience Platform Web SDK] (empfohlen) oder auf die neueste Version von at.js.
 
-Referenzieren Sie die [!UICONTROL Experience Platform Web SDK] oder at.js auf jeder Seite Ihrer Site. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Verweisen Sie auf jeder Seite Ihrer Site  Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
@@ -70,7 +70,7 @@ Bei jeder Besucheranforderung einer für [!DNL Target] optimierten Seite wird ei
 
 Der angezeigte Inhalt hängt von der Art der Aktivität ab, die Sie erstellen:
 
-### [!UICONTROL A/B Test]
+### [!UICONTROL A/B-Test]
 
 In einem einfachen A/B-Test werden Inhalte nach dem Zufallsprinzip aus den zugewiesenen Erlebnissen ausgewählt. Sie können die Traffic-Zuordnungsprozentsätze für jedes Erlebnis festlegen. Anfangs kann der Traffic aufgrund der zufälligen Aufteilung ungleichmäßig verteilt sein, wird aber mit zunehmendem Traffic ausgeglichen. Bei zwei Erlebnissen wird beispielsweise das Starterlebnis nach dem Zufallsprinzip ausgewählt. Geringer Traffic kann den Prozentsatz der Besucher in Richtung eines Erlebnisses verschieben, aber diese Situation gleicht sich mit mehr Traffic aus.
 
@@ -83,31 +83,31 @@ Geben Sie für jedes Erlebnis Prozentziele an. Zur Auswahl des anzuzeigenden Erl
 
 Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### [!UICONTROL Auto-Allocate]
+### [!UICONTROL Automatische Zuordnung]
 
-[!UICONTROL Auto-Allocate] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
+[!UICONTROL Automatische Zuordnung] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
 
-Weitere Informationen finden Sie unter [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) .
+Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
 
-### [!UICONTROL Auto-Target] (AT)
+### [!UICONTROL Automatisches Targeting] (AT)
 
-[!UICONTROL Auto-Target] nutzt fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen. [!UICONTROL Auto-Target] bietet jedem Besucher das passendste Erlebnis, basierend auf den individuellen Kundenprofilen und dem Verhalten früherer Besucher mit ähnlichen Profilen. Verwenden Sie [!UICONTROL Auto-Target], um Inhalte zu personalisieren und Konversionen zu fördern.
+[!UICONTROL Automatisches Targeting] nutzt fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen. [!UICONTROL Automatisches Targeting] liefert jedem Besucher das passendste Erlebnis, basierend auf den individuellen Kundenprofilen und dem Verhalten früherer Besucher mit ähnlichen Profilen. Verwenden Sie [!UICONTROL Automatisches Targeting] um Inhalte zu personalisieren und Konversionen zu fördern.
 
 Weitere Informationen finden Sie unter [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besucher/innen durch fortschrittliche Algorithmen für maschinelles Lernen verschiedene Varianten zu. AP personalisiert Inhalte anhand individueller Kundenprofile, um die Steigerung zu fördern.
+[!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besucher/innen durch fortschrittliche Algorithmen für maschinelles Lernen unterschiedliche Varianten zu. AP personalisiert Inhalte anhand individueller Kundenprofile, um die Steigerung zu fördern.
 
 Weitere Informationen finden Sie unter [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
 ### [!UICONTROL Experience Targeting] (XT)
 
-[!UICONTROL Experience Targeting] (XT) stellt Inhalte für bestimmte Zielgruppen auf der Grundlage von Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden. Einschließlich Geotargeting ist XT nützlich, um Regeln zu definieren, die auf bestimmte Erlebnisse oder Inhalte für bestimmte Zielgruppen ausgerichtet sind. Für eine Aktivität können mehrere Regeln festgelegt werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Website aufrufen, werden sie von XT ausgewertet, um festzustellen, ob sie die Kriterien erfüllen. Wenn sie sich qualifizieren, treten sie in die Aktivität ein und sehen das für sie entwickelte Erlebnis. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+[!UICONTROL Erlebnis-Targeting] (XT) stellt Inhalte für bestimmte Zielgruppen auf der Grundlage von Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden. Einschließlich Geotargeting ist XT nützlich, um Regeln zu definieren, die auf bestimmte Erlebnisse oder Inhalte für bestimmte Zielgruppen ausgerichtet sind. Für eine Aktivität können mehrere Regeln festgelegt werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Website aufrufen, werden sie von XT ausgewertet, um festzustellen, ob sie die Kriterien erfüllen. Wenn sie sich qualifizieren, treten sie in die Aktivität ein und sehen das für sie entwickelte Erlebnis. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
 Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
-### [!UICONTROL Multivariate Test] (MVT)
+### [!UICONTROL Multivariate Tests] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen von Angeboten in Seitenelementen, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
@@ -206,14 +206,14 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besucher
 
 [!DNL Adobe] schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
-* [!DNL Adobe] stellt Leistungsbenchmarks auf der Grundlage von Branchenstandards sicher, die von der [!UICONTROL Adobe Service Level Agreement] garantiert werden.
+* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) &#x200B;] werden.
 * Das Edge-Netzwerk stellt eine rechtzeitige Datenbereitstellung sicher.
 * [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, der Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit bietet.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
 
 ## Benutzerfreundliches Testen der Suchmaschinenoptimierung (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
-[!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet. [!DNL Google] fördert Benutzertests und erklärt, dass A/B und [!UICONTROL Multivariate Testing] das organische Suchmaschinenranking nicht beeinträchtigen, wenn bestimmte Richtlinien eingehalten werden.
+[!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet. [!DNL Google] fördert Benutzertests und gibt an, dass A/B und [!UICONTROL Multivariate Testing] das organische Suchmaschinenranking nicht beeinträchtigen, wenn bestimmte Richtlinien eingehalten werden.
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
@@ -255,7 +255,7 @@ Zusätzlich zu diesen Richtlinien stellt Google eine weitere Richtlinie in der D
 
 Als Beispiel gibt Google an: „Wenn eine Originalseite voller Keywords ist, die nicht den für die Benutzer verfügbaren Inhalten entsprechen, kann diese Site aus unserem Index entfernt werden.“
 
-[!UICONTROL Adobe] ist der Ansicht, dass eine unbeabsichtigte Änderung der Bedeutung des ursprünglichen Inhalts in Testvarianzen kaum möglich ist. [!UICONTROL Adobe] empfiehlt jedoch, sich der Keyword-Themen auf einer Seite bewusst zu sein und diese Themen zu pflegen. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Keywords, kann dazu führen, dass sich das organische Ranking der Seite ändert. [!DNL Adobe] empfiehlt, den SEO-Partner in den Testvorgang einzubeziehen.
+[!UICONTROL Adobe] ist der Ansicht, dass eine unbeabsichtigte Änderung der Bedeutung des ursprünglichen Inhalts in Testvarianzen kaum möglich ist. [!UICONTROL Adobe] empfiehlt jedoch, sich der Keyword-Designs auf einer Seite bewusst zu sein und diese Designs zu pflegen. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Keywords, kann dazu führen, dass sich das organische Ranking der Seite ändert. [!DNL Adobe] empfiehlt, den SEO-Partner in den Testvorgang einzubeziehen.
 
 ## Bots {#bots}
 
@@ -272,11 +272,11 @@ Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 * Ein Besucherprofil erstellen oder abrufen
 * Profilattribute protokollieren oder Profilskripte ausführen
 * Nach [!DNL Adobe Audience Manager] (AAM)-Segmenten suchen (falls zutreffend).
-* Bot-Traffic für die Modellierung oder Bereitstellung personalisierter Inhalte für [!UICONTROL Recommendations], [!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Allocate] Aktivitäten verwenden
+* Bot-Traffic bei der Modellierung oder Bereitstellung personalisierter Inhalte für [!UICONTROL Recommendations], [!UICONTROL Automatisches Targeting], [!UICONTROL Automated Personalization] oder [!UICONTROL Automatische Zuordnung] Aktivitäten verwenden
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for Target] (A4T) Folgendes nicht:
+Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for &#x200B;]) (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 

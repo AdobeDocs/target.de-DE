@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Erstellen einer Funktionsgruppe {#create-feature-group}
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Bevor Sie eine Funktionsgruppe erstellen, führen Sie Folgendes aus:
 

@@ -13,16 +13,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# [!UICONTROL Experience Performance] (MVT)
+# [!UICONTROL Experience Performance]-Bericht (MVT)
 
-Der [!UICONTROL Experience Performance] Bericht zeigt die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
+Der [!UICONTROL Erlebnisleistung] Bericht zeigt die Leistung der einzelnen Erlebnisse in der Aktivität. Dieser Bericht enthält Informationen über die Anzahl der Teilnehmer, die Konversionsrate, die Steigerung und die Konfidenz.
 
-Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Preview]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
+Sie können ein Erlebnis oder mehrere Erlebnisse zum Vergleich auswählen. Klicken Sie auf ein Erlebnis und wählen Sie **[!UICONTROL Vorschau]** aus, um das Erlebnis in einer Browser-Registerkarte zu öffnen.
 
 Oben im Bericht werden Metrik, Beginn- und Enddatum sowie die Zielgruppe angezeigt, die in dem Bericht verwendet werden. Sie können jeden dieser Faktoren ändern.
 

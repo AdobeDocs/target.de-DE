@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ Weitere Informationen zu RTCDP finden Sie unter [Übersicht über Real-Time Cust
 Zu den wichtigsten Funktionen gehören:
 
 * Direkte [!DNL Target]-Integration mit Real-Time CDP/[!DNL Adobe Experience Platform] am Edge (beseitigt die Abhängigkeit von [!DNL Audience Core services] – AAM)
-* [!UICONTROL Target Edge Destinations Card] mit Governance und Richtliniendurchsetzung
+* [!UICONTROL Target Edge-Zielkarte] mit Governance und Richtliniendurchsetzung
 * Real-Time CDP-Segmente und freigegebene Profilattribute
 
 ## Implementierungsszenarien
@@ -62,8 +62,8 @@ Die folgenden Abschnitte zeigen, welcher Anwendungsfall für Personalisierung (n
 
 | „Lösungen“ | Anwendungsfall aktiviert |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung<ul><li>Für alle Seiten mit [!UICONTROL at.js]</li></ul></li><li>Personalisierung derselben Seite<ul><li>Für alle Seiten mit [!DNL Platform Web SDK]</li></ul></li></ul> |
-| <ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM] und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit [!UICONTROL at.js]</li><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL RTCDP] (beliebige SKU) und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung<ul><li>Für alle Seiten mit &quot;[!UICONTROL .js]</li></ul></li><li>Personalisierung derselben Seite<ul><li>Für alle Seiten mit [!DNL Platform Web SDK]</li></ul></li></ul> |
+| <ul><li>[!DNL RTCDP] (beliebige SKU), [!DNL AAM] und [!DNL Target]</li></ul> | <ul><li>Personalisierung der nächsten Sitzung</li><ul><li>Für alle Seiten mit &quot;[!UICONTROL .js]</li><li>[!DNL AAM] Segmente</li><li>Drittanbietersegmente über [!DNL AAM]</li></ul> |
 
 ## Segmentbewertungszeit
 
@@ -96,22 +96,22 @@ Real-Time CDP-Profilattribute können für [!DNL Target] freigegeben werden, um 
 
 Beachten Sie Folgendes:
 
-* Attribute innerhalb eines bestimmten Angebots müssen aus derselben [!UICONTROL Experience Platform]-Sandbox stammen. (Anders ausgedrückt: Ein Angebot darf keine Attribute aus verschiedenen [!UICONTROL Experience Platform]-Sandboxes enthalten.)
-* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen, nämlich aus dem [!DNL Target] und dem [!UICONTROL Experience Platform]. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie aus [!DNL Target] oder aus dem [!UICONTROL Experience Platform] stammen.)
-* Bei der Definition eines Angebots können Sie Standardwerte für [!UICONTROL Real-Time CDP Profile Attributes] zuweisen, falls das Attribut keinen expliziten Wert hat. Wenn beispielsweise eine Einverständnis- oder Governance-Richtlinie das im Personalisierungsdienst verwendete Attribut blockiert, kann stattdessen der Standardwert verwendet werden.
+* Attribute innerhalb eines Angebots müssen aus derselben [!UICONTROL Experience Platform]-Sandbox stammen. (Anders ausgedrückt: Ein Angebot darf keine Attribute aus verschiedenen [!UICONTROL Experience Platform-Sandboxes &#x200B;].)
+* Attribute innerhalb eines Angebots können aus verschiedenen Quellen stammen, nämlich aus dem [!DNL Target] und dem [!UICONTROL Experience Platform]Profil. (Mit anderen Worten: Sie können Attribute unabhängig davon kombinieren, ob sie aus dem [!DNL Target] oder dem [!UICONTROL Experience Platform]-Profil stammen.)
+* Bei der Definition eines Angebots können Sie Standardwerte für [!UICONTROL Real-Time CDP-Profilattribute] zuweisen, falls das Attribut keinen expliziten Wert hat. Wenn beispielsweise eine Einverständnis- oder Governance-Richtlinie das im Personalisierungsdienst verwendete Attribut blockiert, kann stattdessen der Standardwert verwendet werden.
 * [!DNL Target] unterstützt nur den Datentyp „Zeichenfolge“ für [!DNL Adobe Experience Platform] Profilattribute, die in Angeboten verwendet werden sollen. Attribute vom Typ „Zuordnung“ und „Array“ werden noch nicht unterstützt.
 
 ### JSON-Beispielanwendungsfall
 
-Als Fachkraft für Online-Marketing möchten Sie, dass das AEP/Unified Profile Attributwerte für [!DNL Target] freigibt, um Personalisierung in Echtzeit zu bieten. Durch die Verwendung von [!UICONTROL Real-Time CDP Profile Attributes] können Sie den Wert des Attributs [!UICONTROL Experience Platform] in einem [!DNL Target] Angebot mithilfe von Token-Ersetzung anzeigen. Sie können zum Beispiel anhand der Lieblingsfarbe von Kundinnen und Kunden personalisieren, indem Sie mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}` die `${aep.profile.favoriteColor}` oder ihre Treuestufe und ihre Treuepunkte heranziehen.
+Als Fachkraft für Online-Marketing möchten Sie, dass das AEP/Unified Profile Attributwerte für [!DNL Target] freigibt, um Personalisierung in Echtzeit zu bieten. Durch die Verwendung von [!UICONTROL Real-Time CDP]Profilattributen können Sie den Wert des [!UICONTROL Experience Platform]-Attributs in einem [!DNL Target] mit Token-Ersetzung anzeigen. Sie können zum Beispiel anhand der Lieblingsfarbe von Kundinnen und Kunden personalisieren, indem Sie mithilfe der Token `${aep.loyalty.tier}` und `${aep.loyalty.points}` die `${aep.profile.favoriteColor}` oder ihre Treuestufe und ihre Treuepunkte heranziehen.
 
 So erstellen Sie ein JSON-Angebot, um AEP-/Unified Profile-Attribute für [!DNL Target] freizugeben:
 
-1. Wählen [&#x200B; beim Erstellen eines JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)Angebots in der **[!UICONTROL Select a source]** Liste **[!UICONTROL Adobe Experience Platform]** aus.
-1. Wählen Sie in der **[!UICONTROL Select a profile sandbox name]** die gewünschte Sandbox aus.
-1. Wählen Sie aus der Liste **[!UICONTROL Select a profile attribute]** die gewünschten Attribute aus.
-1. (Optional) Wählen Sie aus der **[!UICONTROL Insert a default value]** die gewünschten Werte aus.
-1. Klicken Sie auf **[!UICONTROL Add]**.
+1. Wählen [&#x200B; beim Erstellen eines JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)Angebots in der **[!UICONTROL Quelle auswählen]** die Option **[!UICONTROL Adobe Experience Platform]** aus.
+1. Wählen Sie in **[!UICONTROL Liste Profil-Sandbox-]** auswählen die gewünschte Sandbox aus.
+1. Wählen Sie in **[!UICONTROL Liste Profilattribut]** die gewünschten Attribute aus.
+1. (Optional) Wählen Sie aus der **[!UICONTROL Standardwert einfügen]** die gewünschten Werte aus.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 Die folgende Abbildung zeigt, dass zwei Profilattribute, `loyalty.tier` und `loyalty.points`, zum JSON-Angebot hinzugefügt wurden.
 

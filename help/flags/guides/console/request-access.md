@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Der Zugriff auf Flags wird auf Teamebene verwaltet. Um Flags verwenden zu können, müssen Sie einem Team mit der entsprechenden Rolle hinzugefügt werden.
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 Bevor Sie Zugriff anfordern, bestätigen Sie Folgendes:
 

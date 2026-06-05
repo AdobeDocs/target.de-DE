@@ -18,8 +18,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 298
-ht-degree: 32%
+source-wordcount: 307
+ht-degree: 31%
 
 ---
 
@@ -45,13 +45,13 @@ Weitere Informationen finden Sie unter [&#x200B; und Kontoverknüpfung](https://
 
 Sie müssen Mitglied in mindestens einer [!DNL Experience Cloud]-Gruppe sein, die Zugriff auf [!DNL Analytics] und [!DNL Target] hat.
 
-Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -Produkten](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
+Weitere Informationen finden Sie unter [Verwalten von Experience Cloud-Benutzern und -](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=de).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Um A4T in einer bestimmten Report Suite verwenden zu können, müssen Sie Zugriff auf diese Report Suite haben und Zugriff auf die [!DNL Web Services Access] gewähren.
 
-1. Klicken Sie **[!UICONTROL Admin Console]** auf ein [!DNL Analytics] Produktprofil und dann auf die Registerkarte **[!UICONTROL Permissions]** .
+1. Klicken Sie in **&#x200B;**&#x200B;auf ein [!DNL Analytics] Produktprofil und dann auf die Registerkarte **[!UICONTROL Berechtigungen]**.
 
    Anschließend können Sie sehen, auf welche Report Suites das Profil Zugriff hat.
 
@@ -61,9 +61,9 @@ Um A4T in einer bestimmten Report Suite verwenden zu können, müssen Sie Zugrif
 
    ![Registerkarte &quot;Admin Console-Berechtigung“](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Konfigurieren Sie den Zugriff auf die [!UICONTROL Web Services Access].
+1. Konfigurieren Sie den Zugriff auf die [!UICONTROL Web Services Access]-Gruppe.
 
-   Der Zugriff auf die [!UICONTROL Web Services Access] in [!DNL Analytics] ist erforderlich, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] verwenden zu können.
+   Der Zugriff auf die [!UICONTROL Web Services Access]-Gruppe in [!DNL Analytics] ist erforderlich, um [!DNL Analytics] als Berichtsquelle für [!DNL Target] verwenden zu können.
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

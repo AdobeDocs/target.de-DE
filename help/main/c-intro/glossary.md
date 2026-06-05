@@ -30,7 +30,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2514
+source-wordcount: 2526
 ht-degree: 97%
 
 ---
@@ -171,7 +171,7 @@ Messung des Besucherinteresses an einer Site, gemessen anhand von Besuchszeit pr
 
 **Enhanced Experience Composer**
 
-Der [!UICONTROL Enhanced Experience Composer] ist eine Erweiterung des [!UICONTROL Visual Experience Composer], mit dem Sie ein Erlebnis für eine iFrame-Busting-Site oder Seiten bearbeiten können, die noch nicht die [!DNL Target]-Implementierung enthalten. Wenn Sie Probleme beim Öffnen der Seite im [!UICONTROL Visual Experience Composer] haben, versuchen Sie es mit dem [!UICONTROL Enhanced Experience Composer].
+Der [!UICONTROL Enhanced Experience Composer] ist eine Erweiterung des [!UICONTROL Visual Experience Composer] mit dem Sie ein Erlebnis für eine iFrame-Busting-Site oder Seiten bearbeiten können, die noch nicht die [!DNL Target] Implementierung enthalten. Sollten Sie Probleme dabei haben, Ihre Seite in [!UICONTROL Visual Experience Composer] zu öffnen, dann versuchen Sie es mit [!UICONTROL Enhanced Experience Composer].
 
 **Enterprise-Benutzerberechtigungen**
 

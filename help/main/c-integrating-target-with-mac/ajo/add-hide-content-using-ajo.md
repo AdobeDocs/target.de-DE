@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: 687
 ht-degree: 2%
 
 ---
@@ -54,35 +54,35 @@ In diesem Anwendungsbeispiel wird gezeigt, wie Sie mit [!DNL Adobe Target], A/B-
 
 Führen Sie die folgenden Schritte aus, um Komponenten hinzuzufügen oder Komponenten auf Ihrer Web-Seite auszublenden:
 
-1. Klicken Sie [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen**, um die [!UICONTROL Campaigns] anzuzeigen.
+1. Klicken Sie [!DNL Adobe Journey Optimizer] in der linken Leiste auf **Kampagnen**, um die Seite [!UICONTROL Kampagnen] anzuzeigen.
 
    ![Adobe Journey Optimizer-Landingpage mit hervorgehobener Registerkarte „Kampagnen“.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. Klicken Sie oben rechts auf der [!UICONTROL Campaigns] auf **[!UICONTROL Create Campaign]** .
+1. Klicken Sie **[!UICONTROL Kampagne erstellen]** in der oberen rechten Ecke der Seite [!UICONTROL Kampagnen].
 
-1. Wählen Sie **[!UICONTROL Scheduled - Marketing]** (Standard) aus und klicken Sie dann auf **Erstellen** um die Seite mit den [!UICONTROL Campaign] anzuzeigen.
+1. Wählen Sie **[!UICONTROL Geplant - Marketing]** (Standard) aus und klicken Sie dann auf **Erstellen**, um die Detailseite [!UICONTROL Kampagne] anzuzeigen.
 
    ![Seite mit Kampagnendetails in Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Properties]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
+1. Geben **[!UICONTROL im Abschnitt]** einen beschreibenden Namen und eine optionale Beschreibung für die Kampagne ein.
 
-1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Audience]** auf **[!UICONTROL Select Audience]** und wählen Sie die gewünschte Zielgruppe aus.
+1. (Bedingt) Klicken Sie im Abschnitt **[!UICONTROL Zielgruppe]** auf **[!UICONTROL Zielgruppe]** und wählen Sie die gewünschte Zielgruppe aus.
 
-   Für diesen Anwendungsfall können Sie die Kampagne für [!UICONTROL All Visitors] aktivieren (Standard).
+   In diesem Anwendungsfall können Sie die Kampagne für &quot;[!UICONTROL &#x200B; Besucher“ aktivieren &#x200B;]Standard).
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Action]** die Option **[!UICONTROL Web]** aus der Dropdown-Liste **[!UICONTROL Action]** aus und wählen oder erstellen Sie dann eine neue Web-Konfiguration.
+1. Wählen Sie im **[!UICONTROL Aktion]**-Abschnitt **[!UICONTROL Web]** aus der Dropdown-Liste **[!UICONTROL Aktion]** aus und wählen oder erstellen Sie dann eine neue Web-Konfiguration.
 
    Eine Web-Konfiguration oder Kanaloberfläche ist eine Konfiguration, die von einem Systemadministrator definiert wird. Die Web-Konfiguration enthält alle technischen Parameter zum Senden der Nachricht, z. B. Kopfzeilenparameter, Subdomain, Mobile Apps usw.
 
    Weitere Informationen finden Sie unter [Einrichten von Kanaloberflächen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} in der *Journey Optimizer-Dokumentation*.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Action]** auf **[!UICONTROL Edit Content]** , um Ihre Website im [!DNL Journey Optimizer]-Web-Designer zu öffnen.
+1. Klicken Sie im **[!UICONTROL Aktion]**-Abschnitt auf **[!UICONTROL Inhalt bearbeiten]**, um Ihre Website im [!DNL Journey Optimizer]-Web-Designer zu öffnen.
 
    ![Yoga-Landingpage auf der LUMA-Website](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Um ein Element zum Ausblenden hinzuzufügen, klicken Sie in der rechten Leiste auf **[!UICONTROL Edit Web Page]**.
+1. Um ein Element zum Ausblenden hinzuzufügen, klicken Sie **[!UICONTROL der rechten Leiste auf]** Web-Seite bearbeiten“.
 
-1. Klicken Sie auf das Element, das Sie ausblenden möchten, und dann auf die Schaltfläche [!UICONTROL Hide] in der rechten Leiste.
+1. Klicken Sie auf das Element, das Sie ausblenden möchten, und dann auf die Schaltfläche [!UICONTROL Ausblenden] in der rechten Leiste.
 
    In der rechten Leiste werden Optionen angezeigt, die Sie für das ausgewählte Element ausführen können. Diese Optionen variieren je nach ausgewähltem Element.
 
@@ -92,18 +92,18 @@ Führen Sie die folgenden Schritte aus, um Komponenten hinzuzufügen oder Kompon
 
    ![Rückwärtspfeil](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. Klicken Sie auf **[!UICONTROL Review to Activate]**, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf **Aktivieren**.
+1. Klicken Sie auf **[!UICONTROL Zum Aktivieren überprüfen]**, stellen Sie sicher, dass alles erwartungsgemäß aussieht, und klicken Sie dann auf **Aktivieren**.
 
 ## Anzeigen von Berichten
 
-Klicken Sie auf die Schaltfläche [!UICONTROL Reports] und dann auf den gewünschten Berichtszeitraum:
+Klicken Sie auf [!UICONTROL Berichte] und dann auf den gewünschten Berichtszeitraum:
 
-* [!UICONTROL View all time report]
-* [!UICONTROL View last 24hrs report]
+* [!UICONTROL Alle Zeitberichte anzeigen]
+* [!UICONTROL Letzten 24-Stunden-Bericht anzeigen]
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der neuen Berichterstellungsoberfläche](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} in der *Dokumentation zu Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der Dokumentation zu *Journey Optimizer*
+>[Arbeiten mit dem Web-Designer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} in der *Dokumentation zu Journey Optimizer*
 >[Erstellen einer Kampagne](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} in *Journey Optimizer-Tutorials*

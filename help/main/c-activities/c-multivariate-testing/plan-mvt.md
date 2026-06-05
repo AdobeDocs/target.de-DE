@@ -1,7 +1,7 @@
 ---
 keywords: Multivariater Test; MVT; MVT-Plan; Multivariater Testplan
-description: Erfahren Sie, wie Sie ein [!UICONTROL Multivariate Test] in planen [!DNL Adobe Target]  damit Sie einen erfolgreichen Test erstellen können.
-title: Wie plane ich ein [!UICONTROL Multivariate Test]?
+description: Erfahren Sie, wie Sie einen [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target]  planen, damit Sie einen erfolgreichen Test erstellen können.
+title: Wie plane ich einen [!UICONTROL Multivarianz-]?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
@@ -11,12 +11,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# [!UICONTROL Multivariate Test] planen
+# Planen eines [!UICONTROL Multivarianz-Tests]
 
 [!UICONTROL Multivariate Tests] (MVT) -Aktivitäten in [!DNL Adobe Target] erfordern eine gewisse Planung, bevor Sie einen erfolgreichen Test erstellen können.
 

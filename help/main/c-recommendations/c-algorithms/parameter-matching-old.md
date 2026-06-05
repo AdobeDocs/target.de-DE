@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '353'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ Empfehlen Sie beispielsweise nur Inhalte, die dem Seitenparameter „Branche“ 
 
 ## Beispiele für Parameterübereinstimmung
 
-[!UICONTROL Parameter Matching] können Sie Inhalte empfehlen, die den Seitenparametern oder den Parametern des Besuchers entsprechen, z. B. Geräteabmessungen oder Geografie, wie im folgenden Beispiel gezeigt:
+[!UICONTROL Parameterübereinstimmung] ermöglicht es Ihnen, Inhalte zu empfehlen, die den Seitenparametern oder den Parametern des Besuchers entsprechen, z. B. Geräteabmessungen oder Geografie, wie im folgenden Beispiel gezeigt:
 
 [!DNL Recommendations] können mit Parameterwerten übereinstimmen, die im [!DNL Target] Aufruf gesendet werden. In diesem Fall erkennt [!DNL Target] basierend auf den im [!DNL Target]-Aufruf gesendeten Bildschirmhöhen- und Breitenparametern, dass ein Besucher ein Mobilgerät verwendet, und empfiehlt nur Elemente, die Mobilgeräte sind.
 

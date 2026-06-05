@@ -7,8 +7,8 @@ mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '3892'
-ht-degree: 33%
+source-wordcount: '4021'
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ Jeder Algorithmustyp bietet verschiedene Algorithmen, die für seinen Typ geeign
 
 | Algorithmustyp | Verwendungszeitpunkt | Verfügbare Algorithmen |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. | <ul><li>Menschen, die sich diese ansahen, sahen sich diese an</li><li>Leute, die sich diese ansahen, kauften sie</li><li>Leute, die das kauften, kauften das</li></ul> |
-| [!UICONTROL Popularity-Based] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. | <ul><li>Am häufigsten auf der Website angezeigt</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten angezeigt nach Elementattribut</li><li>Top-Verkäufer auf der Website</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Artikelattribut</li><li>Am besten nach Analytics-Metrik</li></ul> |
-| [!UICONTROL Item-Based] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
-| [!UICONTROL User-Based] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. | <ul><li>Vor Kurzem aufgerufene Artikel</li><li>Empfohlen für</li></ul> |
-| [!UICONTROL Custom Criteria] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen. | <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
+| [!UICONTROL Warenkorbbasiert] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. | <ul><li>Menschen, die sich diese ansahen, sahen sich diese an</li><li>Leute, die sich diese ansahen, kauften sie</li><li>Leute, die das kauften, kauften das</li></ul> |
+| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. | <ul><li>Am häufigsten auf der Website angezeigt</li><li>Am häufigsten angezeigt nach Kategorie</li><li>Am häufigsten angezeigt nach Elementattribut</li><li>Top-Verkäufer auf der Website</li><li>Topverkäufe nach Kategorie</li><li>Topverkäufe nach Artikelattribut</li><li>Am besten nach Analytics-Metrik</li></ul> |
+| [!UICONTROL Elementbasiert] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. | <ul><li>Personen, die das ansahen, sahen auch dies an</li><li>Personen, die das ansahen, kauften dies</li><li>Personen, die das kauften, kauften dies</li><li>Elemente mit ähnlichen Attributen</li></ul> |
+| [!UICONTROL Benutzerbasiert] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. | <ul><li>Vor Kurzem aufgerufene Artikel</li><li>Empfohlen für</li></ul> |
+| [!UICONTROL Benutzerdefinierte Kriterien] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen. | <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
 
 Jedes Kriterium ist in seinem eigenen Register definiert. Der Traffic wird gleichmäßig auf die verschiedenen Kriterientests verteilt. Anders ausgedrückt wird der Traffic bei zwei vorliegenden Kriterien gleichmäßig zwischen diesen aufgeteilt. Wenn Sie über zwei Kriterien und zwei Entwürfe verfügen, wird der Traffic gleichmäßig zwischen diesen vier Kombinationen aufgeteilt. Sie können auch den Prozentsatz der Websitebesucher festlegen, denen zum Vergleich der standardmäßige Inhalt gezeigt wird. In diesem Fall wird dem angegebenen Prozentsatz der Besucher der Standardinhalt angezeigt, und der Rest wird zwischen Ihren Kriterien und Designkombinationen aufgeteilt.
 
@@ -34,27 +34,27 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der Algorithmustyp [!UICONTROL Cart-Based] ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
-Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; und &quot;[!UICONTROL People Who Bought These, Bought Those]&quot;.
+Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, &#x200B;]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
 
 [!DNL Target] verwendet kollaborative Filtertechniken, um Ähnlichkeiten für jedes Element im Warenkorb des Besuchers zu ermitteln, und kombiniert diese Verhaltens-Ähnlichkeiten dann über jedes Element hinweg, um eine zusammengeführte Liste zu erhalten.
 
 [!DNL Target] können Marketing-Fachleute auch festlegen, ob das Besucherverhalten innerhalb einer einzelnen Sitzung oder über mehrere Sitzungen hinweg betrachtet werden soll:
 
-* **[!UICONTROL Single Session]**: Basierend auf dem, was andere Besucher innerhalb einer einzelnen Sitzung getan haben.
+* **[!UICONTROL Einzelsitzung]**: Basierend auf den Aktionen, die andere Besucher innerhalb einer einzelnen Sitzung durchgeführt haben.
 
   Das Betrachten des Verhaltens innerhalb einer einzelnen Sitzung kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte je nach Nutzung, Anlass oder Ereignis stark miteinander „übereinstimmen“. Ein Besucher kauft beispielsweise einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und könnte auch Brot und Gelee benötigen.
 
-* **[!UICONTROL Across Sessions]**: Basierend auf den Aktionen anderer Besucher in mehreren Sitzungen.
+* **[!UICONTROL Sitzungsübergreifend]**: Basierend darauf, was andere Besucher in mehreren Sitzungen getan haben.
 
   Das Betrachten des Verhaltens über mehrere Sitzungen hinweg kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte stark auf der Grundlage der Präferenzen oder Geschmäcker der Besucher miteinander „übereinstimmen“. Zum Beispiel mag ein Besucher Star Wars und könnte auch Indiana Jones mögen, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel „Codenames“ und könnte auch das Brettspiel „Avalon“ mögen, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann. 
 
 [!DNL Target] empfiehlt für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb, unabhängig davon, ob Sie das Besucherverhalten innerhalb einer einzelnen Sitzung oder über mehrere Sitzungen hinweg betrachten.
 
-Die folgenden Algorithmen sind mit dem [!UICONTROL Cart-Based] Algorithmustyp verfügbar:
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Warenkorb] verfügbar:
 
-### [!UICONTROL People Who Viewed This, Viewed Those]
+### [!UICONTROL Personen, die dies angesehen haben, haben diese angesehen]
 
 Empfiehlt die Artikel, die am häufigsten von Kunden in derselben Sitzung angesehen werden, in der der angegebene Artikel angesehen wird.
 
@@ -99,11 +99,11 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 * Zuletzt angezeigter Artikel
 * Am häufigsten angezeigter Artikel
 
-## [!UICONTROL Popularity-Based]
+## [!UICONTROL Beliebtheitsbasiert]
 
-Mit dem Algorithmustyp [!UICONTROL Popularity-Based] können Sie Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. eines Benutzers aussprechen.
+Mit [!UICONTROL &#x200B; Algorithmustyp &quot;]&quot; können Sie Empfehlungen auf Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. einer Benutzerin oder eines Benutzers geben.
 
-Die folgenden Algorithmen sind mit dem [!UICONTROL Popularity-Based] Algorithmustyp verfügbar:
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Beliebtheit] verfügbar:
 
 ### Am häufigsten auf der Website angezeigt {#most-viewed}
 
@@ -174,11 +174,11 @@ Wählen Sie dann aus, welche im Besucherprofil gespeicherten Profilattribute üb
 
 Zeigt das „Top x“ an, wobei *x* eine beliebige [!DNL Analytics]-Metrik ist. Bei der Verwendung von Verhaltensdaten aus Mboxes können Sie „Am häufigsten verkauft“ oder „Am häufigsten angezeigt“ (x = „verkauft“ oder x = „angezeigt„) verwenden. Wenn Sie Verhaltensdaten aus [!DNL Adobe Analytics] verwenden, können Sie x = „Hinzufügen zum Warenkorb“ oder eine andere [!DNL Analytics] Metrik verwenden.
 
-## [!UICONTROL Item-Based]
+## [!UICONTROL Elementbasiert]
 
-Mit dem [!UICONTROL Item-Based] Empfehlungstyp können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angesehen hat.
+Mit [!UICONTROL &#x200B; Empfehlungstyp (Elementbasiert] können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat.
 
-Die folgenden Algorithmen sind mit dem [!UICONTROL Item-Based] Algorithmustyp verfügbar:
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Elementbasiert] verfügbar:
 
 ### Personen, die das ansahen, sahen auch dies an {#viewed-viewed}
 
@@ -242,11 +242,11 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 Weitere Informationen finden Sie unter [Inhaltsähnlichkeit](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-## [!UICONTROL User-Based]
+## [!UICONTROL Benutzerbasiert]
 
 Mit dem Algorithmustyp Benutzerbasiert können Sie Empfehlungen auf der Grundlage des Benutzerverhaltens geben.
 
-Die folgenden Algorithmen sind mit dem [!UICONTROL User-Based] Algorithmustyp verfügbar:
+Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Benutzerbasiert] verfügbar:
 
 ### Vor Kurzem aufgerufene Artikel {#recently-viewed}
 
@@ -256,9 +256,9 @@ Der Algorithmus „Kürzlich angezeigte Elemente“ gibt ein für eine bestimmte
 
 >[!NOTE]
 >
->Sie können die [!UICONTROL Recently Viewed Items] nicht für Sicherungsempfehlungen verwenden.
+>Sie können die Kriterien [!UICONTROL Zuletzt angezeigte Elemente] für Sicherungsempfehlungen nicht verwenden.
 
-[!UICONTROL Recently Viewed Items]/Medien können so gefiltert werden, dass nur Elemente mit einem bestimmten Attribut angezeigt werden.
+[!UICONTROL Zuletzt angezeigte Elemente]/Medien können gefiltert werden, sodass nur Elemente mit einem bestimmten Attribut angezeigt werden.
 
 * Kürzlich angesehene Kriterien können analog zu anderen Kriterien in Empfehlungen konfiguriert werden.
 * Sie können [Sammlungen](/help/main/c-recommendations/c-products/collections.md), [Ausschlüsse](/help/main/c-recommendations/c-products/exclusions.md) und [Einschlüsse](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (einschließlich der Sonderregeln für Preis und Inventar) auf die gleiche Weise wie alle anderen Kriterien verwenden.
@@ -269,7 +269,7 @@ Verwenden Sie diesen Algorithmus für allgemeine Seiten wie Startseiten oder Lan
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed Items] berücksichtigt sowohl die globalen Einstellungen für Ausschlüsse als auch die ausgewählten Sammlungseinstellungen für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen wird oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte bei Verwendung eines [!UICONTROL Recently Viewed Items] im Allgemeinen die Einstellung „Alle Sammlungen“ verwendet werden.
+>[!UICONTROL Kürzlich angezeigte Elemente] berücksichtigt sowohl die globalen Ausschlusseinstellungen als auch die ausgewählte Sammlungseinstellung für die Aktivität. Wenn ein Element durch einen globalen Ausschluss ausgeschlossen wird oder nicht in der ausgewählten Sammlung enthalten ist, wird es nicht angezeigt. Daher sollte bei Verwendung der Kriterien [!UICONTROL Zuletzt angezeigte Elemente] im Allgemeinen die Einstellung „Alle Sammlungen“ verwendet werden.
 
 ### Empfohlen für {#recommended-for-you}
 
@@ -318,7 +318,7 @@ Mögliche Nutzungsszenarien:
 
 ## Empfehlungsschlüssel {#keys}
 
-Die folgenden Empfehlungsschlüssel sind in der Dropdown-Liste [!UICONTROL Recommendation Key] verfügbar:
+Die folgenden Empfehlungsschlüssel sind in der Dropdown-Liste [!UICONTROL Empfehlungsschlüssel] verfügbar:
 
 ### Aktueller Artikel {#current-item}
 
@@ -330,12 +330,12 @@ Wenn diese Option ausgewählt ist, muss der `entity.id`-Wert als Parameter in de
 
 Kann mit den folgenden Algorithmen verwendet werden:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elemente mit ähnlichen Attributen]
+* [!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]
+* [!UICONTROL Leute, die das angesehen haben, kauften das]
+* [!UICONTROL Personen, die das gekauft haben, kauften das]
 
-Verwenden Sie den [!UICONTROL Current Item] Recommendations-Schlüssel auf Ihrer Site unter:
+Verwenden Sie den [!UICONTROL Aktuelles Element] Empfehlungsschlüssel auf Ihrer Site für:
 
 * Seiten mit einzelnen Artikeln, beispielsweise Produktseiten.
 * NICHT auf Seiten ohne Suchergebnisse verwenden.
@@ -346,12 +346,12 @@ Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen U
 
 Kann mit den folgenden Algorithmen verwendet werden:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elemente mit ähnlichen Attributen]
+* [!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]
+* [!UICONTROL Leute, die das angesehen haben, kauften das]
+* [!UICONTROL Personen, die das gekauft haben, kauften das]
 
-Verwenden Sie den [!UICONTROL Last Purchased Item] Recommendations-Schlüssel auf Ihrer Site unter:
+Verwenden Sie den [!UICONTROL Letzter gekaufter Artikel] Empfehlungsschlüssel auf Ihrer Site für:
 
 * Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
 * NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
@@ -360,18 +360,18 @@ Verwenden Sie den [!UICONTROL Last Purchased Item] Recommendations-Schlüssel au
 
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher zuletzt der Warteschlange hinzugefügt hat.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Recommendation Key]** aus (z. B. „Zuletzt angezeigt zu Watchlist hinzugefügt„).
-1. Wählen Sie dann Ihre **[!UICONTROL Recommendation Logic]** aus (z. B. „Personen, die dies angesehen haben, haben das angezeigt„).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Zuletzt angezeigt Zu Watchlist hinzugefügt„).
+1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B. „Personen, die dies angezeigt haben, haben das angezeigt„).
 
    ![Neues Kriteriendialogfeld erstellen](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die meistverkauften Artikel der Lieblingsmarke eines Besuchers anzeigen.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Recommendation Key]** aus (z. B. „Favoritenmarke„).
+1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Lieblingsmarke„).
 
-1. Wählen Sie dann die **[!UICONTROL Recommendation Logic]** aus, die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe„).
+1. Wählen Sie dann die **[!UICONTROL Empfehlungslogik]** die Sie mit diesem Schlüssel verwenden möchten (z. B. „Topverkäufe„).
 
-   Die Option [!UICONTROL Group By Unique Value Of] wird angezeigt.
+   Die [!UICONTROL Nach eindeutigem Wert gruppieren von] wird angezeigt.
 
 1. Wählen Sie das Entitätsattribut aus, das dem ausgewählten Schlüssel entspricht. In diesem Fall entspricht „Lieblingsmarke“ `entity.brand`.
 
@@ -385,12 +385,12 @@ Die Empfehlung wird durch den letzten Artikel bestimmt, der von dem jeweiligen U
 
 Kann mit den folgenden Algorithmen verwendet werden:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elemente mit ähnlichen Attributen]
+* [!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]
+* [!UICONTROL Leute, die das angesehen haben, kauften das]
+* [!UICONTROL Personen, die das gekauft haben, kauften das]
 
-Verwenden Sie den [!UICONTROL Last Viewed Item] Recommendations-Schlüssel auf Ihrer Site unter:
+Verwenden Sie den [!UICONTROL Zuletzt angezeigtes Element] Empfehlungsschlüssel auf Ihrer Site für:
 
 * Startseite, Seite „Mein Konto“, Offsite-Werbeanzeigen.
 * NICHT auf Produktseiten oder Seiten verwenden, die für Einkäufe relevant sind.
@@ -403,10 +403,10 @@ Mit dieser Logik können Sie Empfehlungen anzeigen, die auf den am häufigsten a
 
 Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden:
 
-* [!UICONTROL Items with similar attributes]
-* [!UICONTROL People Who Viewed This, Viewed That]
-* [!UICONTROL People Who Viewed This, Bought That]
-* [!UICONTROL People Who Bought This, Bought That]
+* [!UICONTROL Elemente mit ähnlichen Attributen]
+* [!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]
+* [!UICONTROL Leute, die das angesehen haben, kauften das]
+* [!UICONTROL Personen, die das gekauft haben, kauften das]
 
 ### Aktuelle Kategorie {#current-category}
 
@@ -421,7 +421,7 @@ Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden
 * Topverkäufe
 * Am häufigsten angezeigt
 
-Verwenden Sie den [!UICONTROL Current Category] Recommendations-Schlüssel auf Ihrer Site unter:
+Verwenden Sie den [!UICONTROL Aktuelle Kategorie] Empfehlungsschlüssel auf Ihrer Site für:
 
 * Seiten mit einer Kategorie.
 * NICHT auf Seiten ohne Suchergebnisse verwenden.
@@ -439,7 +439,7 @@ Dieser Empfehlungsschlüssel kann mit den folgenden Algorithmen verwendet werden
 * Topverkäufe
 * Am häufigsten angezeigt
 
-Verwenden Sie den [!UICONTROL Current Category] Recommendations-Schlüssel auf Ihrer Site unter:
+Verwenden Sie den [!UICONTROL Aktuelle Kategorie] Empfehlungsschlüssel auf Ihrer Site für:
 
 * Seiten mit einer Kategorie.
 * NICHT auf Seiten ohne Suchergebnisse verwenden.

@@ -15,26 +15,26 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 653
-ht-degree: 13%
+source-wordcount: 702
+ht-degree: 21%
 
 ---
 
 # Automated Personalization-Zusammenfassungsberichte
 
-Für Benutzer [!UICONTROL Automated Personalization] Aktivitäten in [!DNL Adobe Target] stehen spezielle Zusammenfassungsberichte zur Verfügung.
+Benutzende von [!UICONTROL Automated Personalization-Aktivitäten] in [!DNL Adobe Target] können spezialisierte Zusammenfassungsberichte erhalten.
 
 >[!NOTE]
 >
 >[!UICONTROL Automated Personalization] ist als Teil der [!DNL Target Premium]-Lösung verfügbar. Es ist nicht in [!DNL Target Standard] ohne [Target Premium-Lizenz enthalten](/help/main/c-intro/intro.md#premium).
 
-1. Klicken Sie auf **[!UICONTROL Activities]**, dann in der Liste auf die gewünschte [!UICONTROL Automated Personalization] und anschließend auf die Registerkarte **[!UICONTROL Reports]** .
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte [!UICONTROL automatisierte Personalisierung] aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
 
-   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] und [!UICONTROL Activity Source] auswählen.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Activity Source] auswählen.
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Download]** ( ![Download-Symbol](/help/main/assets/icons/Download.svg) ), um die Zusammenfassungsansicht herunterzuladen (z. B. Vergleich von Kontroll- und Zieldatenverkehr), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Herunterladen]** ( ![Herunterladen-Symbol](/help/main/assets/icons/Download.svg) ), um die Zusammenfassungsansicht herunterzuladen (z. B. Vergleich von Kontroll- und Targeting-Traffic), aufgeschlüsselt nach allen verfügbaren Erfolgsmetriken.
 
-[!UICONTROL Automated Personalization] bietet die folgenden Berichte:
+[!UICONTROL Automatisierte Personalisierung] liefert die folgenden Berichte:
 
 * Aktivitätsebene
 * Angebotsebene
@@ -43,31 +43,31 @@ Für Benutzer [!UICONTROL Automated Personalization] Aktivitäten in [!DNL Adobe
 
 ## Aktivitätsstufenbericht {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
-Der [!UICONTROL Activity Level] vergleicht die Gesamtleistung der Verwendung eines [!UICONTROL Automated Personalization] Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
+Der Bericht [!UICONTROL Aktivitätsebene] vergleicht die Gesamtleistung beim Einsatz eines „[!UICONTROL Automatisierte Personalisierung]“-Algorithmus mit zufällig bereitgestellten Inhalten (Kontrolle).
 
 Die Standardregeln für die Auswertung von A/B-Testergebnissen gelten weiterhin, einschließlich Steigerung, Konfidenz, Trends, Dauer und so weiter. Weitere Informationen zur Interpretation der Ergebnisse finden Sie unter [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Angebotsstufenbericht {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Der [!UICONTROL Offer Level] für das Erlebnis „Zufällige Gesamtstruktur“ vergleicht die Leistung der einzelnen auf einen Algorithmus angewendeten Angebote mit demselben zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden.
+Der Bericht [!UICONTROL Angebotsebene] für das „Random Forest“-Erlebnis vergleicht die Leistung der einzelnen durch Algorithmen bereitgestellten Angebote mit demselben, zufällig bereitgestellten Angebot (Kontrolle). Aus diesem Grund sollten Angebote in dieser Ansicht nicht miteinander verglichen werden.
 
-Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontrolle), um den [!UICONTROL Offer Level] anzuzeigen.
+Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontrolle), um den Bericht [!UICONTROL Angebotsebene] anzuzeigen.
 
 >[!NOTE]
 >
 >Ein Uhrensymbol zeigt an, dass das Algorithmusmodell noch im Aufbau begriffen ist. Ein Häkchensymbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-Angebote können in [Berichtsgruppen“ angezeigt &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie auf **[!UICONTROL Control]** oder **[!UICONTROL Targeted]** in der Tabelle, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
+Angebote können in [Berichtsgruppen“ angezeigt &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 
-Klicken Sie auf das Symbol [!UICONTROL Automated Segments] . Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol &quot;] Segmente“. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
 Weitere Informationen finden Sie unter [Bericht zu automatisierten Segmenten](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Wichtige Attribute
 
-Klicken Sie auf das Symbol [!UICONTROL Important Attributes] . Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol „Wichtige &#x200B;]&quot;. Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
 Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
@@ -75,10 +75,10 @@ Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/m
 
 ### Warum unterscheiden sich die Daten zwischen den Berichten Aktivitätsebene und Angebotsebene?
 
-**[!UICONTROL Activity Level]Bericht**: Besuche, die im [!UICONTROL Activity Level] Bericht aufgezeichnet werden, erfassen die Anzahl der Besuche des Kontrollerlebnisses/der Kontrollerlebnisse im Vergleich zum „zielgerichteten“ Traffic. Der zielgerichtete Traffic umfasst eine Mischung aus Exploration-Traffic und personalisiertem Traffic.
+**[!UICONTROL Aktivitätsebene] Bericht**: Besuche, die auf dem Bericht [!UICONTROL Aktivitätsebene] aufgezeichnet wurden, erfassen die Anzahl der Besuche des Kontrollerlebnisses/der Kontrollerlebnisse im Vergleich zu „zielgerichtetem“ Traffic. Der zielgerichtete Traffic umfasst eine Mischung aus Exploration-Traffic und personalisiertem Traffic.
 
-**Bericht auf Angebotsebene**: Die im [!UICONTROL Offer Level] Bericht erfassten Impressionen erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht in einer Aktivität mit mehr als einem Standort die Gesamtzahl der im [!UICONTROL Offer Level]-Bericht erfassten Besuche für alle Berichtsgruppen dem Vielfachen der Anzahl der im [!UICONTROL Activity Level]-Bericht für Kontroll- oder Zieldatenverkehr erfassten Besuche multipliziert mit der Gesamtzahl der Standorte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalte als verfügbare Option verfügbar waren, werden in der Angebotsgruppe „Standardinhalt“ aufgezeichnet. Impressionen von Angeboten, deren Zuweisung zu einer Berichtsgruppe aufgehoben wurde, werden in der Angebotsgruppe „Ungruppiert“ erfasst.
+**Bericht auf Angebotsebene**: Die im Bericht [!UICONTROL Angebotsebene] erfassten Impressionen erfassen die Anzahl der Impressionen für jedes Angebot. Daher entspricht in einer Aktivität mit mehr als einem Standort die Gesamtzahl der Besuche, die im Bericht [!UICONTROL Angebotsebene] für alle Berichtsgruppen erfasst werden, dem Vielfachen der Anzahl der Besuche, die für Kontroll- oder Zieldatenverkehr im Bericht [!UICONTROL Aktivitätsebene] erfasst wurden, multipliziert mit der Gesamtzahl der Standorte in der Aktivität. Impressionen von Standardinhalten, die an Orten auftreten, an denen Standardinhalte als verfügbare Option verfügbar waren, werden in der Angebotsgruppe „Standardinhalt“ aufgezeichnet. Impressionen von Angeboten, deren Zuweisung zu einer Berichtsgruppe aufgehoben wurde, werden in der Angebotsgruppe „Ungruppiert“ erfasst.
 
 >[!NOTE]
 >
->Die Anzahl der im [!UICONTROL Offer Level] Bericht aufgezeichneten Impressionen ist möglicherweise kein exaktes ganzzahliges Vielfaches der Anzahl der im [!UICONTROL Activity Level] Bericht aufgezeichneten Besuche. Dies liegt an geringfügigen Abweichungen, die bei der Erfassung des Berichtsdatenverkehrs über das Internet auftreten (die typische Diskrepanzrate liegt unter 5 %). Daher ist die Anzahl der Impressionen kein exaktes Vielfaches, wenn die Anzahl der in der Aktivität verfügbaren Standorte nach der Aktivierung der Aktivität geändert wurde.
+>Die Anzahl der im Bericht [!UICONTROL Angebotsebene] aufgezeichneten Impressionen ist möglicherweise kein exaktes ganzzahliges Vielfaches der Anzahl der im Bericht [!UICONTROL Aktivitätsebene] aufgezeichneten Besuche. Dies liegt an geringfügigen Abweichungen, die bei der Erfassung des Berichtsdatenverkehrs über das Internet auftreten (die typische Diskrepanzrate liegt unter 5 %). Daher ist die Anzahl der Impressionen kein exaktes Vielfaches, wenn die Anzahl der in der Aktivität verfügbaren Standorte nach der Aktivierung der Aktivität geändert wurde.

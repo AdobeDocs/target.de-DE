@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 64%
+source-wordcount: 332
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können Extremwerte von den Berichten in [!DNL Adobe Target] ausschließen, 
 
 >[!NOTE]
 >
->Das [!UICONTROL Exclude Extreme Values]-Flag gilt nur für Aktivitäten mit den Metriktypen [!UICONTROL Revenue] und [!UICONTROL Engagement].
+>Das Flag [!UICONTROL Extreme Werte ausschließen] gilt nur für Aktivitäten mit den Metriktypen [!UICONTROL Umsatz] und [!UICONTROL Interaktion].
 
 Extremwerte werden automatisch entsprechend den unten beschriebenen Regeln markiert. Sie können einstellen, ob extreme Werte in Ihren Bericht aufgenommen werden sollen oder nicht. Bei einer Aktivität, die seit einer Stunde läuft oder bei der 15 Bestellungen eingegangen sind (je nachdem, was zuerst eintritt), werden die extremen Werte automatisch ausgeschlossen.
 
@@ -30,12 +30,12 @@ Ein Wert wird als extrem betrachtet, wenn in den Daten des letzten Monats mehr a
 
 Bei der Verwendung von RPV ist der Filter für extreme Werte häufig nützlich. RPV kombiniert Konversionsraten und den durchschnittlichen Bestellwert und zeigt häufig die Unbeständigkeit dieser Metriken auf. Wenn Sie RPV verwenden und bestimmen, dass Aufträge nicht als normal verteilt angezeigt werden, sehen Sie normalere Ergebnisse, wenn Sie den Filter für extreme Bestellungen anwenden.
 
-Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. Die Reihenfolge wird auch im [!UICONTROL Order Details]-Bericht und im CSV-Download als extrem gekennzeichnet, um tägliche Ergebnisse zu erhalten.
+Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. Die Bestellung wird auch im Bericht &quot;[!UICONTROL &quot; und &#x200B;] CSV-Download für tägliche Ergebnisse als extrem gekennzeichnet.
 
 **So schließen Sie extreme Werte aus Ihren Berichten aus:**
 
-1. Öffnen Sie eine Aktivität mit [!UICONTROL Revenue] oder [!UICONTROL Engagement] Metriktypen und klicken Sie auf die Registerkarte **[!UICONTROL Reports]** .
-1. Klicken Sie auf das Symbol Berichtseinstellungen ![Berichteinstellungen](/help/main/assets/icons/Setting.svg) , um das Dialogfeld **[!UICONTROL Settings]** anzuzeigen.
+1. Öffnen Sie eine Aktivität, die Metriktypen [!UICONTROL Umsatz] oder [!UICONTROL Interaktion] enthält, und klicken Sie dann auf die Registerkarte **[!UICONTROL Berichte]**.
+1. Klicken Sie auf das Symbol Berichtseinstellungen ![Berichteinstellungen](/help/main/assets/icons/Setting.svg) ), um das Dialogfeld **[!UICONTROL Einstellungen]** anzuzeigen.
 
-1. Schieben Sie den **[!UICONTROL Exclude Extreme Values]** nach Bedarf in die Position „Ein“ oder „Aus“.
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Schieben Sie den **[!UICONTROL Extreme Werte ausschließen]**-Umschalter nach Bedarf auf die Position „ein“ oder „aus“.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.

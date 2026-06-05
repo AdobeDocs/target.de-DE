@@ -1,6 +1,6 @@
 ---
 keywords: Zufällige Gesamtstruktur;Entscheidungsbaum;AP;Automated Personalization
-description: Erfahren Sie [!DNL Adobe Target]  wie der Algorithmus „Random Forest“ sowohl in [!UICONTROL Automated Personalization] (AP)- als auch in [!UICONTROL Auto-Target]-Aktivitäten verwendet.
+description: Erfahren Sie [!DNL Adobe Target]  wie der Algorithmus „Zufällige Gesamtstruktur“ sowohl in [!UICONTROL Automated Personalization] (AP)- als [!UICONTROL Automatisches Targeting]-Aktivitäten verwendet.
 title: Wie verwendet  [!DNL Target]  den Algorithmus der zufälligen Gesamtstruktur?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
@@ -13,18 +13,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # Random-Forest-Algorithmus
 
-Der wichtigste Personalisierungsalgorithmus, der sowohl in (AP)- als auch in [!DNL Auto-Target] -Aktivitäten verwendet wird, ist „Random Forest“. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere prädiktive Leistung zu erzielen, als sie mit einem der einzelnen Lernalgorithmen erzielt werden könnte. Der Random Forest-Algorithmus in [!UICONTROL Automated Personalization] und [!UICONTROL Auto-Target] ist eine Klassifizierungs- oder Regressionsmethode, die durch das Erstellen einer Vielzahl von Entscheidungsbäumen während des Trainings funktioniert.
+Der wichtigste Personalisierungsalgorithmus, der sowohl in (AP)- als auch in [!DNL Auto-Target] -Aktivitäten verwendet wird, ist „Random Forest“. Ensemble-Methoden wie Random Forest verwenden mehrere Lernalgorithmen, um eine bessere prädiktive Leistung zu erzielen, als sie mit einem der einzelnen Lernalgorithmen erzielt werden könnte. Der Algorithmus der zufälligen Gesamtstruktur in [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] ist eine Klassifizierungs- oder Regressionsmethode, die durch die Erstellung einer Vielzahl von Entscheidungsbäumen während des Trainings ausgeführt wird.
 
 Wenn man an Statistiken denkt, kommt einem ein einzelnes Regressionsmodell in den Sinn, mit dem man ein Ergebnis vorhersagen kann. Neueste datenwissenschaftliche Forschungen legen nahe, dass „Ensemble-Methoden“, bei denen mehrere Modelle aus demselben Datensatz erstellt und dann intelligent kombiniert werden, bessere Ergebnisse liefern als die Vorhersage auf der Grundlage eines einzelnen Modells.
 
-Der Algorithmus der zufälligen Gesamtstruktur ist der wichtigste zugrunde liegende Personalisierungsalgorithmus, der in [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target] verwendet wird. Random Forest kombiniert hunderte von Entscheidungen mit Bäumen, um eine bessere Vorhersage zu treffen, als ein einzelner Baum allein treffen könnte.
+Der Algorithmus der zufälligen Gesamtstruktur ist der wichtigste zugrunde liegende Personalisierungsalgorithmus, der in [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten verwendet wird. Random Forest kombiniert hunderte von Entscheidungen mit Bäumen, um eine bessere Vorhersage zu treffen, als ein einzelner Baum allein treffen könnte.
 
 ## Was ist ein Entscheidungsbaum? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +57,7 @@ Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie habe
 
 ### So werden Modelle erstellt
 
-Das folgende Diagramm fasst zusammen, wie Modelle für [!UICONTROL Auto-Target]- und [!UICONTROL Automated Personalization]-Aktivitäten erstellt werden:
+Das folgende Diagramm fasst zusammen, wie Modelle für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization]-Aktivitäten erstellt werden:
 
 ![random_forest_flow Bild](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Das folgende Diagramm fasst zusammen, wie Modelle für [!UICONTROL Auto-Target]-
 1. [!DNL Target] prüft, ob das Modell einen Schwellenwert für die Qualität erreicht
 1. [!DNL Target] verschiebt das Modell in die Produktion, um zukünftigen Traffic zu personalisieren
 
-[!DNL Target] verwendet automatisch erfasste Daten und von Ihnen bereitgestellte benutzerdefinierte Daten, um seine Personalisierungsalgorithmen zu erstellen. Diese Modelle prognostizieren das beste Erlebnis oder das beste Angebot für den Besucher. Im Allgemeinen wird ein Modell pro Erlebnis (bei einer [!UICONTROL Auto-Target]) oder pro Angebot (bei einer [!UICONTROL Automated Personalization]) erstellt. [!DNL Target] zeigt dann das Erlebnis oder Angebot an, das die höchste prognostizierte Erfolgsmetrik liefert (z. B. Konversionsrate). Diese Modelle müssen mit zufällig ausgewählten Besuchen trainiert werden, bevor sie für eine Vorhersage verwendet werden können. Daher werden auch den Besuchern, die sich in der personalisierten Gruppe befinden, bei Beginn einer Aktivität nach dem Zufallsprinzip verschiedene Erlebnisse oder Angebote angezeigt, bis die Personalisierungsalgorithmen betriebsbereit sind.
+[!DNL Target] verwendet automatisch erfasste Daten und von Ihnen bereitgestellte benutzerdefinierte Daten, um seine Personalisierungsalgorithmen zu erstellen. Diese Modelle prognostizieren das beste Erlebnis oder das beste Angebot für den Besucher. Im Allgemeinen wird ein Modell pro Erlebnis (bei einer [!UICONTROL automatischen Targeting]-Aktivität) oder pro Angebot (bei einer [!UICONTROL Automated Personalization]-Aktivität) erstellt. [!DNL Target] zeigt dann das Erlebnis oder Angebot an, das die höchste prognostizierte Erfolgsmetrik liefert (z. B. Konversionsrate). Diese Modelle müssen mit zufällig ausgewählten Besuchen trainiert werden, bevor sie für eine Vorhersage verwendet werden können. Daher werden auch den Besuchern, die sich in der personalisierten Gruppe befinden, bei Beginn einer Aktivität nach dem Zufallsprinzip verschiedene Erlebnisse oder Angebote angezeigt, bis die Personalisierungsalgorithmen betriebsbereit sind.
 
 Jedes Modell muss validiert werden, um sicherzustellen, dass es das Verhalten von Besuchern vorhersagen kann, bevor es in Ihrer Aktivität verwendet wird. Die Modelle werden anhand ihrer Fläche unter der Kurve (AUC) validiert. Da eine Validierung erforderlich ist, hängt der genaue Zeitpunkt, zu dem ein Modell mit der Bereitstellung personalisierter Erlebnisse beginnt, von den Details der Daten ab. Für die praktische Traffic-Planung dauert es in der Regel mehr als die Mindestzahl an Konversionen, bis ein Modell funktionsfähig ist.
 

@@ -7,7 +7,7 @@ feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2572'
 ht-degree: 45%
 
 ---
@@ -33,7 +33,7 @@ Diese Daten zu jedem Element können dann verwendet werden, um:
 
 Elementbeschreibungen können über Feeds oder Mboxes an [!DNL Target] übergeben werden. Wenn Daten von einem Entitäts-Feed und einer Mbox erfasst werden, haben die aktuellen Daten Priorität. In der Regel stammen die aktuellen Daten von einer mbox, da sie häufiger angezeigt wird. Für den seltenen Fall, dass die Entitäts-Feed-Daten und die Mbox-Daten gleich aktuell sind, werden die Mbox-Daten verwendet.
 
-Die [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) enthält Informationen zu allen Feeds, die Sie erstellt haben.
+Die [!UICONTROL Feeds]-Liste ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) enthält Informationen zu allen Feeds, die Sie erstellt haben.
 
 ![Feeds-Seite](/help/main/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -42,13 +42,13 @@ Die [!UICONTROL Feeds] enthält die folgenden Spalten:
 * **Name**: Der Name des beim Erstellen angegebenen Feeds. Um den Namen eines Feeds zu bearbeiten, müssen Sie den Feed bearbeiten. Wenn Sie den Feed unter dem neuen Namen speichern, wird der Feed aktualisiert.
 * **Typ**: Zu den Typen zählen [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google-Produkt-Feed](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) und [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Status**: Der aktuelle [Status des Feeds](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Zeitplan**: Zeigt den Aktualisierungsplan für den Feed an: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] oder [!UICONTROL Never].
+* **Zeitplan**: Zeigt den Aktualisierungsplan für den Feed an: [!UICONTROL Täglich], [!UICONTROL Wöchentlich], [!DNL Every 2 Weeks] oder [!UICONTROL Nie].
 * **Artikel**: Zeigt die Anzahl der Artikel im Feed an.
-* **Zuletzt aktualisiert**: Zeigt das Datum und die Uhrzeit der letzten Aktualisierung des Feeds sowie den Namen der Person an, die den Feed aktualisiert hat. Wenn im [!UICONTROL Last Updated] Feed „undefiniert“ angegeben ist, kommt der Feed von [!DNL Recommendations Classic] und kann nicht von [!DNL Target Premium Recommendations] aus geändert werden.
+* **Zuletzt aktualisiert**: Zeigt das Datum und die Uhrzeit der letzten Aktualisierung des Feeds sowie den Namen der Person an, die den Feed aktualisiert hat. Wenn der [!UICONTROL Zuletzt aktualisiert]-Feed „undefiniert“ lautet, kommt der Feed von [!DNL Recommendations Classic] und kann nicht von [!DNL Target Premium Recommendations] aus geändert werden.
 
 Klicken Sie auf das Informationssymbol, um eine Karte anzuzeigen, auf der das Datum des letzten Uploads und die URL des Feeds angezeigt werden.
 
-Klicken Sie auf das Symbol mit den Auslassungspunkten, um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] und [!UICONTROL Delete].
+Klicken Sie auf das Symbol mit den Auslassungspunkten, um auf die folgenden Aktionen zuzugreifen: [!UICONTROL Deaktivieren], [!DNL Edit], [!UICONTROL Kopieren] und [!UICONTROL Löschen].
 
 >[!IMPORTANT]
 >
@@ -216,31 +216,31 @@ Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die
 
 >[!IMPORTANT]
 >
->Bevor Sie Entitätsdaten mithilfe von [!DNL Recommendations]-Produktklassifizierungen in [!DNL Analytics] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
+>Bevor Sie Entitätsdaten mithilfe von [!DNL Analytics]-Produktklassifizierungen in [!DNL Recommendations] importieren, sollten Sie beachten, dass dies nicht die bevorzugte Methode ist.
 >
 > Beachten Sie die folgenden Einschränkungen:
 >
 >* Aktualisierungen an den Entitätsattributen umfassen eine zusätzliche Verzögerung von bis zu 24 Stunden.
->* [!DNL Target] unterstützt nur [!UICONTROL Product Classifications]. Die [!DNL Analytics] Produkt-SKU muss derselben Ebene wie die [!DNL Recommendations]-`entity.id` zugeordnet sein. Benutzerdefinierte [!DNL Analytics]-Klassifizierungen können mithilfe von [!UICONTROL Adobe Consulting Services] entwickelt werden. Wenden Sie sich bei Fragen an Ihren Kundenbetreuer.
+>* [!DNL Target] unterstützt nur [!UICONTROL Produktklassifizierungen]. Die [!DNL Analytics] Produkt-SKU muss derselben Ebene wie die [!DNL Recommendations]-`entity.id` zugeordnet sein. Benutzerdefinierte [!DNL Analytics] können mithilfe von [!UICONTROL Adobe Consulting Services] erstellt werden. Wenden Sie sich bei Fragen an Ihren Kundenbetreuer.
 
 ## Feed erstellen {#steps}
 
 Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in [!DNL Recommendations] einzufügen.
 
-1. Klicken Sie in der Target-Benutzeroberfläche auf **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. Klicken Sie in der Target-Benutzeroberfläche auf **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Feed erstellen]**.
 
    ![Erstellen eines Feed-Dialogfelds](assets/CreateFeed.png)
 
 1. Geben Sie einen beschreibenden Namen für Ihren Feed an.
-1. **[!UICONTROL Source Type]** auswählen.
+1. Wählen Sie einen **[!UICONTROL Source-Typ]**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * [!UICONTROL Google-Produkt-Feed]
+   * [!UICONTROL Analytics-Klassifizierungen]
 
-   Informationen zu den [!UICONTROL CSV]- und [!UICONTROL Google Product Feed]-Feed-Typen finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
+   Informationen zu den Feed[!UICONTROL Typen &#x200B;]CSVs) und [!UICONTROL Google]Produkt-Feeds finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
 
-1. (Bedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google Product Feed]** ausgewählt haben, geben Sie den Speicherort an, an dem der Feed aufgerufen werden kann.
+1. (Bedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie den Speicherort an, an dem der Feed aufgerufen werden kann.
 
    * **FTP**: Wenn Sie „FTP“ ausgewählt haben, geben Sie die FTP-Serverdaten, die Anmeldedaten, den Dateinamen und das FTP-Verzeichnis an. Sie können FTP mit SSL (FTPS) für sicherere Uploads verwenden.
 
@@ -255,22 +255,22 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
 1. (Bedingt) Wenn Sie **[!UICONTROL Analytics Classifications]** ausgewählt haben, wählen Sie die Report Suite aus der Dropdown-Liste aus.
 
-1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Schedule] anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Zeitplan]-Optionen anzuzeigen.
 
    ![Schrittergebnis](assets/CreateFeedSchedule.png)
 
 1. Wählen Sie eine Aktualisierungsoption aus:
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: Planen Sie keine Aktualisierung. Wählen Sie diese Option aus, wenn Sie nicht möchten, dass dieser Feed ausgeführt wird.
+   * [!UICONTROL Täglich]
+   * [!UICONTROL Wöchentlich]
+   * [!UICONTROL alle 2 Wochen]
+   * [!UICONTROL Nie]: plant keine Aktualisierung. Wählen Sie diese Option aus, wenn Sie nicht möchten, dass dieser Feed ausgeführt wird.
 
 1. Geben Sie die Zeit an, zu der Ihr Feed ausgeführt werden soll.
 
    Diese Option basiert auf der Zeitzone, die in Ihrem Browser verwendet wird. Wenn Sie einen Zeitpunkt in einer anderen Zeitzone verwenden möchten, müssen Sie diesen Zeitpunkt anhand Ihrer Zeitzone berechnen.
 
-1. Klicken Sie auf den **[!UICONTROL Next]** Pfeil, um die [!UICONTROL Mapping] Optionen anzuzeigen, und geben Sie dann an, wie Sie Ihre Daten [!DNL Target] Definitionen zuordnen möchten.
+1. Klicken Sie auf **[!UICONTROL Weiter]**-Pfeil, um die [!UICONTROL Zuordnung]-Optionen anzuzeigen, und geben Sie dann an, wie Sie Ihre Daten [!DNL Target] Definitionen zuordnen möchten.
 
    ![Schrittergebnis](assets/CreatFeedMapping.png)
 
@@ -278,7 +278,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
    Standardmäßig gehört der Feed zu allen Hostgruppen. So wird sichergestellt, dass Artikel in diesem Feed in jeder Umgebung verfügbar sind. Weitere Informationen finden Sie unter [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Nachdem Sie einen Feed erstellt oder bearbeitet haben, wird der Feed sofort ausgeführt. Der Feed wird dann entsprechend den von Ihnen festgelegten Parametern aktualisiert. Es dauert einige Zeit, bis die Informationen verfügbar sind. Zunächst muss der Feed synchronisiert, dann bearbeitet und anschließend indexiert werden, bevor er veröffentlicht und verfügbar gemacht werden kann. Der aktuelle Status wird unter [Feed-Status](/help/main/c-recommendations/c-products/feeds.md#status) in der Liste „Feeds“ angezeigt. Sie können [!DNL Target] schließen, bevor der Prozess abgeschlossen ist, und der Prozess wird weiter ausgeführt.
 
@@ -296,18 +296,18 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 
 | Status | Beschreibung |
 |--- |--- |
-| [!UICONTROL Syncing] | Feed-Einrichtungsdetails werden in [!DNL Target] gespeichert. |
-| [!UICONTROL Sync Failed] | Details zur Feed-Einrichtung konnten nicht in [!DNL Target] gespeichert werden. Erneut versuchen. |
-| [!UICONTROL No Feed Run] | Sie haben einen Feed erstellt, aber er wurde nicht geplant (die Häufigkeit ist auf „Niemals“ festgelegt). |
+| [!UICONTROL Synchronisieren] | Feed-Einrichtungsdetails werden in [!DNL Target] gespeichert. |
+| [!UICONTROL Synchronisierung fehlgeschlagen] | Details zur Feed-Einrichtung konnten nicht in [!DNL Target] gespeichert werden. Erneut versuchen. |
+| [!UICONTROL Kein Feed-Durchgang] | Sie haben einen Feed erstellt, aber er wurde nicht geplant (die Häufigkeit ist auf „Niemals“ festgelegt). |
 | Geplant am *Tag und Uhrzeit* | Der Feed wurde nicht ausgeführt, jedoch für eine bestimmte Uhrzeit an einem bestimmten Tag geplant. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] bereitet den Download der Feed-Datei vor. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target] lädt die Feeddatei herunter. |
-| [!UICONTROL Importing Items] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
-| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der [!UICONTROL Catalog Search]-Benutzeroberfläche angezeigt. In [!UICONTROL Catalog Search] wird ein separater Status aufgelistet, der angibt, wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
-| [!UICONTROL Failed to Index] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
-| [!UICONTROL Server Not Found] | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
+| [!UICONTROL Warten auf Download] | [!DNL Target] bereitet den Download der Feed-Datei vor. |
+| [!UICONTROL Herunterladen der Feed-Datei] | [!DNL Target] lädt die Feeddatei herunter. |
+| [!UICONTROL Elemente importieren] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
+| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der &#x200B;], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
+| [!UICONTROL Index konnte nicht erstellt werden] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
+| [!UICONTROL Server nicht gefunden] | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
-Um einen Feed zu aktualisieren (z. B. um Änderungen an Ihrer Feed-Konfiguration oder Feed-Datei vorzunehmen), öffnen Sie den Feed, nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Save]**.
+Möchten Sie einen Feed aktualisieren (beispielsweise, um Änderungen an der Feedkonfigurierung oder -datei vorzunehmen), öffnen Sie den Feed, nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!IMPORTANT]
 >
@@ -315,12 +315,12 @@ Um einen Feed zu aktualisieren (z. B. um Änderungen an Ihrer Feed-Konfiguration
 
 ### Feedstatus-Indikatoren {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-Die folgenden Feed-Statusindikatoren werden in der Spalte [!UICONTROL Status] angezeigt:
+Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] angezeigt:
 
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Beispielsweise wird ein gelber Punkt angezeigt, damit ein Feed-Set täglich ausgeführt wird, wenn der Index sechs Stunden nach der geplanten Zeit nicht abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server hochladen kann, wird eine rote Statusanzeige angezeigt. |
 

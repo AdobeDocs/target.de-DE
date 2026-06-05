@@ -8,8 +8,8 @@ mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '2013'
-ht-degree: 16%
+source-wordcount: '2111'
+ht-degree: 14%
 
 ---
 
@@ -21,21 +21,21 @@ Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und 
 
 ## Hinzufügen von Filterregeln zu Kriterien {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
-Klicken Sie beim [&#x200B; von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) unter **[!UICONTROL Add Filtering Rule]** auf **[!UICONTROL Inclusion Rules]** .
+Klicken Sie beim [&#x200B; von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) unter **[!UICONTROL Einschlussregeln]** auf &quot;**[!UICONTROL hinzufügen]**.
 
 ![inclusion_options_new Bild](assets/inclusion_options_new.png)
 
 Die verfügbaren Optionen variieren je nach vertikalem Markt und Empfehlungsschlüssel.
 
-## Hinzufügen von Filterregeln zu Promotions  {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Hinzufügen von Filterregeln zu Promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-Wählen [&#x200B; beim Erstellen einer Promotion &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) Option **[!UICONTROL Promote by Attribute]** aus und klicken Sie dann auf **[!UICONTROL Add Filtering Rule]**.
+Wählen [&#x200B; beim Erstellen &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) Promotion die Option **[!UICONTROL Nach Attribut]** und klicken Sie dann auf **[!UICONTROL Filterregel hinzufügen]**.
 
 ![include_options-Bild](assets/inclusion_options.png)
 
 ## Filtertypen {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-In den folgenden Abschnitten werden die Arten von Filteroptionen für [!UICONTROL Dynamic Filtering] und [!UICONTROL Filter by Value] sowohl für Kriterien als auch für Promotions aufgeführt:
+In den folgenden Abschnitten werden die Arten von Filteroptionen für [!UICONTROL Dynamische Filterung] und [!UICONTROL Nach Wert filtern] sowohl für Kriterien als auch für Promotions aufgeführt:
 
 ### Dynamische Filterung
 
@@ -53,9 +53,9 @@ Die folgenden Optionen stehen für die dynamische Filterung zur Verfügung:
 
 | Dynamische Filteroption | Details |
 | --- | --- |
-| [Entitätsattributübereinstimmung](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | Dynamisches Filtern durch Vergleichen eines Pools potenzieller Recommendations-Elemente mit einem bestimmten Element, mit dem die Benutzenden interagiert haben.<br>Verwenden Sie [!UICONTROL Entity Attribute Matching], wenn Sie Empfehlungen anzeigen möchten, die für den Besucher am wahrscheinlichsten sind, z. B. die Lieblingsmarke des Besuchers. |
-| [Profilattributübereinstimmung](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | Dynamisches Filtern durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.<br>Verwenden Sie [!UICONTROL Profile Attribute Matching], wenn Sie Empfehlungen anzeigen möchten, die einem im Besucherprofil gespeicherten Wert entsprechen, z. B. Größe oder Lieblingsmarke. |
-| [Parameterübereinstimmung](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | Dynamisches Filtern durch Vergleichen von Elementen (Entitäten) mit einem Wert in der Anfrage (API oder Mbox).<br>Verwenden Sie [!UICONTROL Parameter Matching], um Inhalte zu empfehlen, die den Seitenparametern oder den Parametern des Besuchers entsprechen, z. B. Geräteabmessungen oder Geografie. |
+| [Entitätsattributübereinstimmung](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md) | Dynamisches Filtern durch Vergleichen eines Pools potenzieller Recommendations-Elemente mit einem bestimmten Element, mit dem die Benutzenden interagiert haben.<br>Verwenden Sie [!UICONTROL Entitätsattributabgleich] wenn Sie Empfehlungen anzeigen möchten, die für den Besucher am wahrscheinlichsten sind, z. B. die Lieblingsmarke des Besuchers. |
+| [Profilattributübereinstimmung](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md) | Dynamisches Filtern durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.<br>Verwenden Sie [!UICONTROL Profilattributübereinstimmung] wenn Sie Empfehlungen anzeigen möchten, die mit einem im Besucherprofil gespeicherten Wert übereinstimmen, z. B. Größe oder Lieblingsmarke. |
+| [Parameterübereinstimmung](/help/main/c-recommendations/c-algorithms/parameter-matching.md) | Dynamisches Filtern durch Vergleichen von Elementen (Entitäten) mit einem Wert in der Anfrage (API oder Mbox). <br>Verwenden Sie [!UICONTROL Parameterübereinstimmung], um Inhalte zu empfehlen, die den Seitenparametern oder den Parametern des Besuchers entsprechen, z. B. Geräteabmessungen oder Geografie. |
 
 ### Nach Wert filtern
 
@@ -90,7 +90,7 @@ Die folgenden Beispiele bieten allgemeine Ideen dazu, wie Sie dynamische Promoti
 
 ## Umgang mit leeren Werten beim Filtern nach Entitätsattributübereinstimmung, Profilattributübereinstimmung und Parameterübereinstimmung {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-Sie können mehrere Optionen auswählen, um leere Werte zu verarbeiten, wenn Sie nach [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] nach Ausstiegskriterien und Promotions filtern.
+Sie können mehrere Optionen auswählen, um leere Werte beim Filtern nach [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] für Beendigungskriterien und Promotions zu verarbeiten.
 
 Zuvor wurden bei einem leeren Wert keine Ergebnisse zurückgegeben. In der Dropdownliste „Wenn *x* leer ist“ können Sie die entsprechende Aktion auswählen, die ausgeführt werden solle, wenn die Kriterien leere Werte enthalten, wie in der folgenden Abbildung dargestellt:
 
@@ -100,16 +100,16 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 
 | Aktion | Verfügbar für | Details |
 |--- |--- |--- |
-| [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Diese Aktion ist die Standardaktion für [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
-| [!UICONTROL Do not show any results for this criteria]<br>(Nur Kriterien) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Diese Aktion ist die Standardeinstellung für [!UICONTROL Entity Attribute Matching].<br>Mit dieser Aktion werden leere Werte vor dem Hinzufügen dieser Option [!DNL Target] behandelt: Für diese Kriterien werden keine Ergebnisse angezeigt. |
-| [!UICONTROL Do not promote any items<br>(Nur Promotions)] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Diese Aktion ist die Standardeinstellung für [!UICONTROL Entity Attribute Matching].<br>Mit dieser Aktion werden leere Werte vor dem Hinzufügen dieser Option [!DNL Target] behandelt: Für diese Kriterien werden keine Ergebnisse angezeigt. |
-| [!UICONTROL Use a static value] | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] und [!UICONTROL Parameter Matching] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
+| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
+| [!UICONTROL Für diese Kriterien keine Ergebnisse anzeigen]<br>(nur Kriterien) | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattributübereinstimmung].<br>Diese Aktion behandelt [!DNL Target] leeren Werte vor dem Hinzufügen dieser Option: Für diese Kriterien werden keine Ergebnisse angezeigt. |
+| [!UICONTROL Keine Elemente hochstufen<br>(nur Promotions)] | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattributübereinstimmung].<br>Diese Aktion behandelt [!DNL Target] leeren Werte vor dem Hinzufügen dieser Option: Für diese Kriterien werden keine Ergebnisse angezeigt. |
+| [!UICONTROL Einen statischen Wert verwenden] | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |
 
-## Einschränkungen  {#caveats}
+## Einschränkungen {#caveats}
 
 >[!IMPORTANT]
 >
->Verschiedene Datentypattribute sind möglicherweise nicht mit dynamischen Kriterien oder Promotions kompatibel, während sie zur Laufzeit mit den Operatoren „ist gleich“ und „ist nicht gleich“ verwendet werden. Verwenden Sie [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] und [!UICONTROL Environment] Werte auf der rechten Seite, wenn die linke Seite vordefinierte Attribute oder benutzerdefinierte Attribute aufweist.
+>Verschiedene Datentypattribute sind möglicherweise nicht mit dynamischen Kriterien oder Promotions kompatibel, während sie zur Laufzeit mit den Operatoren „ist gleich“ und „ist nicht gleich“ verwendet werden. Verwenden Sie [!UICONTROL Wert], [!UICONTROL Rand], [!UICONTROL Inventar] und [!UICONTROL Umgebung] Werte auf der rechten Seite, wenn die linke Seite vordefinierte Attribute oder benutzerdefinierte Attribute aufweist.
 
 ![left_right Bild](assets/left_right.png)
 

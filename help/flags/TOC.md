@@ -6,7 +6,7 @@ hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 7%
    + [Flags in die App integrieren](guides/integrate/integrating-in-your-app.md)
    + [Starthandbuch](guides/integrate/startup-guide.md)
    + [Desktop-Programme](guides/integrate/desktop-applications.md)
-   + [Mobile Anwendungen](guides/integrate/mobile-applications.md)
-   + [Web-Anwendungen](guides/integrate/web-applications.md)
+   + [Apps](guides/integrate/mobile-applications.md)
+   + [Webanwendungen](guides/integrate/web-applications.md)
    + [Web-Services](guides/integrate/web-services.md)
    + [SDKs](guides/integrate/sdks.md)
    + [Integrationsschritte](guides/integrate/integration-steps.md)

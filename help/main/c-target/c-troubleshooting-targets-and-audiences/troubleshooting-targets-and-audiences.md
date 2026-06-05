@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 982
-ht-degree: 52%
+source-wordcount: 1004
+ht-degree: 53%
 
 ---
 
@@ -34,7 +34,7 @@ Betrachten Sie die folgende URL:
 
 ### Zielgruppen-URL-Targeting
 
-Um das Audience-URL-Targeting beim Erstellen einer Aktivität anzuwenden, klicken Sie auf der Seite **[!UICONTROL Experiences]** (Schritt 1 des Drei-Schritte-Workflows) auf das Symbol **[!UICONTROL Configure]** ( ![Symbol konfigurieren](/help/main/assets/icons/Setting.svg) ), klicken Sie auf **[!UICONTROL Page Delivery]** und geben Sie dann die gewünschte URL an.
+Um das Audience-URL-Targeting beim Erstellen einer Aktivität anzuwenden, klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (Schritt 1 des dreistufigen geleiteten Workflows) auf das Symbol **[!UICONTROL Konfigurieren]** ( ![Symbol Konfigurieren](/help/main/assets/icons/Setting.svg) ), klicken Sie auf **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL an.
 
 ![Seitenversand-URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -46,11 +46,11 @@ Die Zielgruppen-URL-Zielgruppenbestimmung sucht nach einer exakten URL-Übereins
 
 Über die Audience-Bestimmung auf der URL hinaus können Sie auch bestimmte Werte angeben, die in der Abfrage verwendet werden können.
 
-Zielgruppen-URL-Targeting und URL-Targeting werden über hinzugefügt [!UICONTROL Template Rules] als URL-Targeting ausgewertet (siehe URL-Targeting unten).
+Zielgruppen-URL-Targeting und URL-Targeting, die über [!UICONTROL Vorlagenregeln] hinzugefügt wurden, werden als URL-Targeting ausgewertet (siehe URL-Targeting unten).
 
 ### URL-Targeting {#url-targeting}
 
-Um das URL-Targeting beim Erstellen einer Zielgruppe anzuwenden, klicken Sie auf **[!UICONTROL Site Pages]** ziehen und in den [!UICONTROL Create Audiences] Bereich ziehen, klicken Sie auf **[!UICONTROL Site Pages]**, wählen Sie eine Option aus der ersten Dropdown-Liste ([!UICONTROL Current Page], [!UICONTROL Previous Page] oder [!UICONTROL Landing Page]) aus, wählen Sie [!UICONTROL URL] aus der zweiten Dropdown-Liste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
+Um das URL-Targeting beim Erstellen einer Zielgruppe anzuwenden, klicken Sie auf **[!UICONTROL Seiten der Website]** und legen Sie es im Bereich [!UICONTROL Zielgruppen erstellen] ab, klicken Sie auf **[!UICONTROL Seiten der Website]**, wählen Sie eine Option aus der ersten Dropdown-Liste ([!UICONTROL Aktuelle Seite], [!UICONTROL Vorherige Seite] oder [!UICONTROL Landingpage]), wählen Sie [!UICONTROL URL] aus der zweiten Dropdown-Liste aus, geben Sie einen Auswerter an und geben Sie dann die gewünschte URL an.
 
 ![Seiten der Site > Aktuelle Seite > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
@@ -87,7 +87,7 @@ Standardmäßig wird Traffic gleichmäßig zwischen Erlebnissen aufgeteilt. Sie 
 
 ## Welches Erlebnis wird angezeigt, wenn sich ein Benutzer für eine Aktivität qualifiziert, in der mehrere Erlebnisse mit verschiedenen qualifizierten Zielgruppen enthalten sind? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
-Der/die Benutzende ist für das erste Erlebnis/die erste Zielgruppe qualifiziert, das/die auf der [!UICONTROL Target] der Aktivität angezeigt wird.
+Der Benutzer qualifiziert sich für das erste Erlebnis/die erste Zielgruppe, das/die auf der [!UICONTROL Target]-Seite der Aktivität angezeigt wird.
 
 Angenommen, in Erlebnis/Zielgruppe werden Windows als Erlebnis A, iOS als Erlebnis B und Kalifornien als Erlebnis C aufgeführt. Ein Benutzer aus Kalifornien, der ein Windows-Gerät verwendet, qualifiziert sich sowohl für Experience A (Windows-Zielgruppe) als auch für Experience C (Kalifornische Zielgruppe). Dem Benutzer wird in diesem Fall Erlebnis A angezeigt, da es in der Liste auf der Target-Seite vor Erlebnis C aufgeführt wird.
 
@@ -103,7 +103,7 @@ Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und �
 
 ## Warum werden nicht alle Profilparameter in der [!DNL Target] Benutzeroberfläche angezeigt? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie sie mithilfe der [!UICONTROL Profile Update] API-Methode übergeben. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
+[!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie sie mit der API-Methode [!UICONTROL Profil-Update] übergeben. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
 
 ## Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 

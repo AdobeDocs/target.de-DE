@@ -19,7 +19,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1326
 ht-degree: 78%
 
 ---
@@ -28,11 +28,11 @@ ht-degree: 78%
 
 Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
 
-## [!UICONTROL Target Community Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## [!UICONTROL Target-Community-Forum] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-Entdecken Sie die [!UICONTROL Adobe Target Community]: Ihr Zentrum für Einblicke und Zusammenarbeit.
+Entdecken Sie die [!UICONTROL Adobe Target Community]: Ihr Hub für Einblicke und Zusammenarbeit.
 
-Die [!UICONTROL Adobe Target Community Forum] ist Ihr Ziel für alles, was [!DNL Adobe Targe] nicht. Ganz gleich, ob Sie gerade erst anfangen oder bereits ein erfahrener Anwender sind, die Community bietet Ihnen wertvolle Möglichkeiten:
+Das [!UICONTROL Adobe Target-Community]Forum ist Ihr Ziel für alles, was nicht [!DNL Adobe Targe]. Ganz gleich, ob Sie gerade erst anfangen oder bereits ein erfahrener Anwender sind, die Community bietet Ihnen wertvolle Möglichkeiten:
 
 * **Erkunden Sie [!DNL Target] Funktionen**: Lernen Sie Best Practices kennen und entdecken Sie neue Möglichkeiten der Verwendung von [!DNL Target].
 * **Vernetzung und Zusammenarbeit**: Treten Sie mit Gleich gesinnten und [!DNL Adobe]-Experten in Kontakt, um Einblicke zu teilen und Herausforderungen gemeinsam zu lösen.
@@ -45,7 +45,7 @@ Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.ad
 ## Webinar-Reihe zu Target-Grundlagen {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++Details anzeigen
-Erkunden Sie die [[Webinar-Reihe zu Target-Grundlagen]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, eine Customer Success-Initiative, die Ihnen vom [!UICONTROL Adobe Target Community] vorgestellt wurde. Greifen Sie auf Registrierungsdetails für bevorstehende Sitzungen zu und durchsuchen Sie Aufzeichnungen früherer Webinare, um Ihr Verständnis [!DNL Target] Funktionen, Best Practices und Anwendungsfälle in der Praxis zu vertiefen.
+Erkunden Sie die [[Webinar-Reihe zu Target-Grundlagen]](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}, eine Customer-Success-Initiative der [!UICONTROL Adobe Target-Community]. Greifen Sie auf Registrierungsdetails für bevorstehende Sitzungen zu und durchsuchen Sie Aufzeichnungen früherer Webinare, um Ihr Verständnis [!DNL Target] Funktionen, Best Practices und Anwendungsfälle in der Praxis zu vertiefen.
 
 +++
 
@@ -130,7 +130,7 @@ Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) posten. Klicken Sie auf die Registerkarte [!UICONTROL Ideas] .
+Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) posten. Klicken Sie auf die [!UICONTROL Ideen].
 
 ### Rechtliche Informationen {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

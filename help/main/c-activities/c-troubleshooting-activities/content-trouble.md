@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen kö
 
 Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folgenden Benutzerberechtigungen:
 
-* Mindestens [!UICONTROL Editor] Berechtigung (oder [!UICONTROL Approver])
+* Mindestens [!UICONTROL Bearbeiter] Berechtigung (oder [!UICONTROL Genehmiger])
 
   Weitere Informationen für [!DNL Target Standard]-Kunden finden Sie unter [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) für *Benutzer*. Weitere Informationen für [!DNL Target Premium]-Kunden finden Sie unter [Konfigurieren von Enterprise-Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +53,8 @@ Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folg
 
 So wird das Autorisierungstoken abgerufen:
 
-1. Klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Klicken Sie im Abschnitt mit den Debuggingwerkzeugen auf **[!UICONTROL Generate New Authentication Token]**.
+1. Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
+1. Klicken Sie im Abschnitt mit den Debuggingwerkzeugen auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
 
    ![Neues Authentifizierungstoken erstellen](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -97,7 +97,7 @@ Ein Teil der Informationen umfasst übereinstimmende und nicht übereinstimmende
 * Angewendete Aus- und Einschlüsse
 * Auflistungsregeln
 
-Sie müssen `=console`, `=json` oder `=window` nicht in den Abfrageparameter einbeziehen. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie **[!UICONTROL Enter]**, um zum normalen Anzeigemodus zurückzukehren.
+Sie müssen `=console`, `=json` oder `=window` nicht in den Abfrageparameter einbeziehen. Wenn Sie mit den mboxTrace-Details fertig sind, fügen Sie `=disable` hinzu und drücken Sie **[!UICONTROL Eingabetaste]**, um zum normalen Anzeigemodus zurückzukehren.
 
 Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Recommendations-Design.
 
@@ -167,11 +167,11 @@ at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype 
 
 ## Stellen Sie sicher, dass [!DNL Target]-Aktivitäten URLs mit Abfragezeichenfolgen-Parametern korrekt verarbeiten. {#query-strings}
 
-Der [!UICONTROL Activity URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
+Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf das **[!UICONTROL Configure gear icon]** > **[!UICONTROL Page Delivery]** auswählen > und geben Sie dann die gewünschte URL in das Feld [!UICONTROL Activity URL] ein.
+Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld [!UICONTROL Aktivitäts-URL] an.
 
 ![Konfigurieren der Benutzeroberfläche für Seitenbereitstellungseinstellungen](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Of
 
 ### Option 3: Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL.
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln geben einen [!UICONTROL Query] mit [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers an, getrennt durch einen OR-Operator:
+In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln geben eine [!UICONTROL Abfrage] mit [!UICONTROL type] > [!UICONTROL ist (von Schreibweise abhängig)] > type=Summers%20Offers an, getrennt durch einen OR-Operator:
 
 ![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
 

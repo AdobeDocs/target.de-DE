@@ -16,8 +16,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -101,7 +101,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Web-Entw
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf den Link [!UICONTROL Learn More] in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL &#x200B; Link &#x200B;]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
@@ -117,4 +117,4 @@ Die Ergebnisse einer Aktivität liefern oft Einblicke in Aktionen, die als Näch
 
 ## Öffnen von [!DNL Target] und Erstellen und Starten Ihrer Aktivität
 
-Sie haben den Aktivitätsplaner ausgefüllt. Jetzt ist es an der Zeit, mit der Lösung zu beginnen und Ihre Aktivität zu erstellen. [!DNL Target] macht es sehr einfach, Ihre Web-Seite in der [!UICONTROL Visual Experience Composer] zu ändern.
+Sie haben den Aktivitätsplaner ausgefüllt. Jetzt ist es an der Zeit, mit der Lösung zu beginnen und Ihre Aktivität zu erstellen. [!DNL Target] macht es sehr einfach, Ihre Web-Seite im [!UICONTROL Visual Experience Composer] zu ändern.

@@ -6,8 +6,8 @@ feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 60%
+source-wordcount: '913'
+ht-degree: 59%
 
 ---
 
@@ -17,11 +17,11 @@ Berichte enthalten mehrere Datenpunkte und Visualisierungsdarstellungen, die Ihn
 
 >[!NOTE]
 >
->Diese Funktion ist nur beim Anzeigen von Berichten in [!UICONTROL Table] verfügbar. Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Diese Funktion ist nur beim Anzeigen von Berichten in der Ansicht [!UICONTROL Tabelle] verfügbar. Diese Funktion steht nicht für Aktivitäten zur Verfügung, die [Analytics als Berichtsquelle verwenden (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretieren der Daten {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-Die folgende Abbildung zeigt [!UICONTROL Lift Bounds and Confidence Level] Informationen:
+Die folgende Abbildung zeigt Informationen [!UICONTROL Steigerungsgrenzen und Konfidenzniveau]:
 
 ![Bericht zum durchschnittlichen Steigerungs- und Konfidenzniveau](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
@@ -116,4 +116,4 @@ Daher würden die Steigerungsgrenzen für Erlebnis B wie folgt lauten:
 In bestimmten Fällen zeigt [!DNL Target] keine Steigerungsgrenzen an:
 
 * Für Aktivitäten, wenn die Gesamtanzahl der Besuche oder Besucher niedriger als 30 ist.
-* Für [!UICONTROL Auto-Allocate] Aktivitäten werden keine Steigerungsgrenzen angezeigt, bis ein Erlebnis eine Konfidenz von 60 % erreicht hat.
+* Bei Aktivitäten [!UICONTROL Automatische Zuordnung] werden keine Steigerungsgrenzen angezeigt, bis ein Erlebnis eine Konfidenz von 60 % erreicht hat.

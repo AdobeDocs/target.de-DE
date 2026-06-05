@@ -1,7 +1,7 @@
 ---
 keywords: Automated Personalization;Angebot;Reporting;Gruppe;Berichtsgruppe;Zuordnung
-description: Erfahren Sie, wie Sie in -Aktivitäten  [!DNL Adobe Target] [!UICONTROL Automated Personalization] Berichtsgruppen für Angebote verwenden.
-title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization] Aktivitäten verwenden?
+description: Erfahren Sie, wie Sie in  [!DNL Adobe Target] [!UICONTROL Automated Personalization]-Aktivitäten Berichtsgruppen für Angebote verwenden.
+title: Kann ich Berichtsgruppen für Angebote in [!UICONTROL Automated Personalization]-Aktivitäten verwenden?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
@@ -16,8 +16,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 827
-ht-degree: 15%
+source-wordcount: 875
+ht-degree: 20%
 
 ---
 
@@ -42,21 +42,21 @@ Dieser Ansatz funktioniert gut, wenn Besucher auf alle Angebote in einer Gruppe 
 
 ## Einrichten von Berichtsgruppen
 
-1. Klicken Sie auf der Seite &quot;**[!UICONTROL Experiences]**&quot; einer AP-Aktivität auf das Symbol **[!UICONTROL Manage Content]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) )
-1. Klicken Sie oben im Dialogfeld [!UICONTROL Manage Content] auf die Registerkarte **[!UICONTROL Offers]** .
-1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) für das gewünschte Angebot klicken und dann auf **[!UICONTROL Reporting Group]** klicken.
+1. Klicken Sie auf der **[!UICONTROL Erlebnisse]** einer AP-Aktivität auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol „Inhalt verwalten](/help/main/assets/icons/Experience.svg) )
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Angebote]** oben im Dialogfeld [!UICONTROL Inhalt verwalten].
+1. (Bedingt) Fügen Sie einer Berichtsgruppe bestimmte Erlebnisse hinzu, indem Sie auf das Symbol [!UICONTROL Mehr Aktionen] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmall.svg) ) für das gewünschte Angebot klicken und dann auf **[!UICONTROL Berichtsgruppe]**.
 
-1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann unten im Dialogfeld auf **[!UICONTROL Reporting Group]** klicken.
+1. (Bedingt) Schließen Sie Batch-Erlebnisse in eine Berichtsgruppe ein, indem Sie die Kontrollkästchen für die entsprechenden Erlebnisse aktivieren und dann unten im Dialogfeld auf **[!UICONTROL Berichtsgruppe]** klicken.
 
-1. Um das ausgewählte Angebot einer vorhandenen Berichtsgruppe zuzuweisen, wählen Sie **[!UICONTROL Existing]** aus, wählen Sie die gewünschte Berichtsgruppe aus der Dropdown-Liste aus und klicken Sie dann auf **[!UICONTROL Confirm]**.
+1. Um das ausgewählte Angebot einer bestehenden Berichtsgruppe zuzuweisen, wählen Sie **[!UICONTROL Bestehend]**, wählen Sie die gewünschte Berichtsgruppe aus der Dropdown-Liste aus und klicken Sie dann auf **[!UICONTROL Bestätigen]**.
 
    Oder
 
-   Um eine Berichtsgruppe zu erstellen, der das ausgewählte Angebot zugewiesen werden soll, wählen Sie **[!UICONTROL New]** aus, benennen Sie die neue Berichtsgruppe und klicken Sie dann auf **[!UICONTROL Confirm]**.
+   Um eine Berichtsgruppe zu erstellen, der das ausgewählte Angebot zugewiesen werden soll, wählen Sie **[!UICONTROL Neu]**, benennen Sie die neue Berichtsgruppe und klicken Sie dann auf **[!UICONTROL Bestätigen]**.
 
-Sie können die [!UICONTROL Location] verwenden, um Angebote nach Standort zu filtern. Verwenden Sie die [!UICONTROL Report Group], um Angebote nach Berichtsgruppen zu filtern. Sie können die [!UICONTROL Report Group] auch verwenden, um nach [!UICONTROL Unassigned Offers] zu filtern, sodass Sie eine Berichtsgruppe einem Angebot zuweisen können, das derzeit keiner Berichtsgruppe zugewiesen ist.
+Sie können die Liste [!UICONTROL Standort] verwenden, um Angebote nach Standort zu filtern. Mit der Liste [!UICONTROL Berichtsgruppe] können Sie Angebote nach Berichtsgruppe filtern. Sie können die Liste [!UICONTROL Berichtsgruppe] auch verwenden, um [!UICONTROL nicht zugewiesenen Angeboten] zu filtern und so ein Angebot, dem bisher noch keine Berichtsgruppe zugewiesen wurde, einer beliebigen Gruppe zuzuweisen.
 
-Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppen finden Sie unter [Targeting [!UICONTROL Automated Personalization] Angeboten](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+Weitere Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppen finden Sie unter [Target [!UICONTROL Automated Personalization]-Angebote](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 
 ## Einschränkungen
 
@@ -72,12 +72,12 @@ Informationen zur Zielgruppenbestimmung eines Angebots für bestimmte Zielgruppe
 
 ## Anzeigen von Angeboten in einer Berichtsgruppe
 
-1. Klicken Sie **[!UICONTROL Activities]** auf die gewünschte [!UICONTROL Automated Personalization] Aktivität in der Liste und dann auf die Registerkarte **[!UICONTROL Reports]** , um den Bericht [Angebotsebene](/help/main/c-reports/personalization-reports/reports-ap.md) anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, klicken Sie in der Liste auf die gewünschte [!UICONTROL Automated Personalization]-Aktivität und dann auf die Registerkarte **[!UICONTROL Berichte]**, um den Bericht [Angebotsebene](/help/main/c-reports/personalization-reports/reports-ap.md) anzuzeigen.
 
-   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol [!UICONTROL Show Filters] (funnel) und aktivieren Sie dann das Kontrollkästchen [!UICONTROL Automated Personalization] , um die Liste so zu filtern, dass nur [!UICONTROL Automated Personalization] Aktivitäten angezeigt werden.
+   Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol [!UICONTROL Filter anzeigen] (funnel) und aktivieren Sie dann das Kontrollkästchen [!UICONTROL Automated Personalization], um die Liste so zu filtern, dass nur [!UICONTROL Automated Personalization-] angezeigt werden.
 
-1. Klicken Sie auf **[!UICONTROL Control]** oder **[!UICONTROL Targeted]** in der Tabelle, um die nicht gruppierten Angebote und Angebote innerhalb von Berichtsgruppen anzuzeigen.
+1. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um die nicht gruppierten Angebote und Angebote innerhalb von Berichtsgruppen anzuzeigen.
 
    ![Angebotsgruppen: Kontrolle und Zielgruppe](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
-Informationen zur Verwendung von [!UICONTROL Automated Personalization]-Berichten (einschließlich des [!UICONTROL Offer Level]-Berichts) finden Sie unter [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).
+Informationen zur Verwendung von [!UICONTROL Automated Personalization]-Berichten (einschließlich des Berichts [!UICONTROL Angebotsebene] finden Sie unter [Automated Personalization-Zusammenfassungsberichte](/help/main/c-reports/personalization-reports/reports-ap.md).

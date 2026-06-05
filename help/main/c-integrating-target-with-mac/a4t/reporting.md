@@ -15,8 +15,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 38%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -34,7 +34,7 @@ Sowohl [!DNL Analytics]- als auch [!DNL Target] messen die Teilnehmer (die Perso
 
 Jedes Mal, wenn ein Besucher Aktivitätsinhalte auf der Seite sieht, führt [!DNL Target] einen direkten Server-zu-Server-Aufruf an [!DNL Analytics] durch, einschließlich der Aktivität und des Erlebnisses, die der Besucher gesehen hat. [!DNL Target] ruft auch [!DNL Analytics] auf, wenn die Konvertierung durchgeführt wird. [!DNL Analytics] fügt die Konversion als spezifisches neues [!DNL Analytics]-Ereignis mit dem Namen „Aktivitätskonversion“ hinzu, das zusammen mit anderen von [!DNL Analytics] erfassten Daten verfolgt wird.
 
-Wenn der [!UICONTROL Select]-Vorgang verwendet wird und Sie nach *Eintritten* sortieren, werden nur Erlebnisse in den Berichten angezeigt, die während des ausgewählten Zeitraums Eintritte erhalten haben.
+Wenn der Vorgang [!UICONTROL Auswählen] verwendet wird und Sie nach *Eintritten* sortieren, werden nur Erlebnisse in den Berichten angezeigt, die während des ausgewählten Zeitraums Eintritte erhalten haben.
 
 >[!NOTE]
 >
@@ -47,21 +47,21 @@ In [!DNL Analytics] gibt es mehrere Dimensionen und Metriken, die bereitgestellt
 ### Dimensionen
 
 * [!UICONTROL Analytics for Target] - Die übergeordnete ID, die durch die Integration übergeben wird. Das Format dieser Dimension ist `Activity ID:Experience ID:3rd ID`. Die folgenden Dimensionen sind Klassifizierungen dieser Dimension.
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity] > [!UICONTROL Experience]
-* [!UICONTROL 3rd ID] - Kann ignoriert werden
+* [!UICONTROL Target-Aktivitäten]
+* [!UICONTROL Target-Erlebnisse]
+* [!UICONTROL Target-Aktivität] > [!UICONTROL Erlebnis]
+* [!UICONTROL 3. ID] - kann ignoriert werden
 
-### Metriken
+### Metrik
 
-* [!UICONTROL Activity Impressions] - Stimmt mit der [!UICONTROL Entrants] im [!DNL Target] überein.
-* [!UICONTROL Activity Conversions] - Stimmt mit der [!UICONTROL Custom Conversions] im [!DNL Target] überein.
+* [!UICONTROL Aktivitätsimpressionen] - Stimmt mit der Zahl [!UICONTROL Teilnehmer] im [!DNL Target] überein.
+* [!UICONTROL Aktivitätskonversionen] - Stimmt mit der Zahl [!UICONTROL Benutzerdefinierte Konversionen] im [!DNL Target] überein.
 
-Verwenden Sie [!DNL Analysis Workspace] das Bedienfeld [!UICONTROL Analytics for Target] , um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Leichtigkeit zu analysieren. Weitere Informationen finden Sie unter [Bedienfeld „Analytics for Target“ (A4T](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de) im *Handbuch zu Analytics-Tools*.
+Verwenden Sie in [!DNL Analysis Workspace] das Bedienfeld [!UICONTROL Analytics for Target], um Ihre [!DNL Target] Aktivitäten und Erlebnisse mit Leichtigkeit zu analysieren. Weitere Informationen finden Sie unter [Bedienfeld „Analytics for Target“ (A4T](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de) im *Handbuch zu Analytics-Tools*.
 
 >[!IMPORTANT]
 >
->Wenn Ihr [!UICONTROL Target Activities] in [!DNL Analytics] „Nicht angegeben“ auflistet, anstatt Ihre Aktivitäten aufzulisten, ist eine Aktualisierung Ihres bereitgestellten Kontos erforderlich. Wenden Sie sich an den Kundendienst, um dieses Problem zu beheben.
+>Wenn Ihr [!UICONTROL Target-Aktivitäten]-Bericht in [!DNL Analytics] „Nicht angegeben“ auflistet, anstatt Ihre Aktivitäten aufzulisten, ist eine Aktualisierung Ihres bereitgestellten Kontos erforderlich. Wenden Sie sich an den Kundendienst, um dieses Problem zu beheben.
 
 Detaillierte Informationen und Beispiele finden Sie im Tutorial [Analytics und Target: Best Practices für Analysen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von Adobe Experience League.
 
@@ -69,8 +69,8 @@ Detaillierte Informationen und Beispiele finden Sie im Tutorial [Analytics und T
 
 Wenn [!DNL Analytics] als Berichtsquelle verwendet wird, zeigen Berichte in [!DNL Target] die aus [!DNL Analytics] erfassten Daten an. Der Bericht unterscheidet sich etwas von anderen [!DNL Target]:
 
-* In der Liste [!UICONTROL Audiences] werden die Zielgruppen angezeigt, die für Ihre [!DNL Analytics] Report Suite verfügbar sind.
-* In der [!UICONTROL Metric] Liste werden alle Metriken angezeigt, die über [!DNL Analytics] verfügbar sind.
+* Die [!UICONTROL Zielgruppen] Liste zeigt die Zielgruppen an, die für Ihre [!DNL Analytics] Report Suite verfügbar sind.
+* Die [!UICONTROL Metrik] Liste zeigt alle Metriken an, die über [!DNL Analytics] verfügbar sind.
 
   Alle Metriken sind verfügbar, einschließlich benutzerdefinierter oder berechneter Metriken, die in [!DNL Analytics] integriert sind.
 
@@ -82,7 +82,7 @@ Klicken Sie, um den vollständigen [!DNL Analytics] direkt von der Seite „Akti
 
 ## Aktivitätserstellung {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-Bei der Erstellung einer Aktivität müssen Sie ein Ziel für die Aktivität auf der [!UICONTROL Settings] angeben. Dieses Ziel wird zur Standardmetrik für den Bericht und wird immer als erste Option in der Metrikauswahl aufgeführt. Sie können keine Segmente für die Berichterstellung auswählen, wie Sie es für eine reguläre Target-Aktivität tun würden. Bei einem Test mit [!DNL Analytics] werden [!DNL Adobe Analytics] Segmente anstelle [!DNL Target] Zielgruppen verwendet.
+Während der Erstellung einer Aktivität müssen Sie auf der Seite [!UICONTROL Einstellungen] ein spezifisches Ziel für diese Aktivität angeben. Dieses Ziel wird zur Standardmetrik für den Bericht und wird immer als erste Option in der Metrikauswahl aufgeführt. Sie können keine Segmente für die Berichterstellung auswählen, wie Sie es für eine reguläre Target-Aktivität tun würden. Bei einem Test mit [!DNL Analytics] werden [!DNL Adobe Analytics] Segmente anstelle [!DNL Target] Zielgruppen verwendet.
 
 ## Durchführen von Offline-Berechnungen für Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,8 +95,8 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 **So verwenden Sie die [!DNL Analytics]-Datenexportfunktion:**
 
 1. Melden Sie sich bei [!DNL Adobe Analytics] an.
-1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse Request]** die Felder aus.
+1. Klicken Sie auf **[!UICONTROL Werkzeuge]** > **[!UICONTROL Data Warehouse]**.
+1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]** die Felder aus.
 
    Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=de).
 
@@ -108,13 +108,13 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
    | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht &quot;Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie dann [!UICONTROL Send Immediately].<br>Hinweis: Die Datei kann über FTP unter &quot;[!UICONTROL Advanced Delivery Options]<br>![&#x200B; Versand planen“ &#x200B;](/help/main/c-reports/assets/datawarehouse3.png) werden. |
+   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie [!UICONTROL Sofort senden].<br>[!UICONTROL &#x200B; Hinweis: Die Datei kann über FTP unter „Erweiterte Versandoptionen]<br>![Versand planen](/help/main/c-reports/assets/datawarehouse3.png) zugestellt werden. |
 
-1. Klicken Sie auf **[!UICONTROL Request this Report]**.
+1. Klicken Sie auf **[!UICONTROL Diesen Bericht anfordern]**.
 
-   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anfrage jederzeit überprüfen, indem Sie auf [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
+   Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anforderung jederzeit überprüfen, indem Sie auf [!UICONTROL Werkzeuge] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
 
-   Wenn Sie Daten erneut anfordern möchten, die Sie in der Vergangenheit angefordert haben, können Sie bei Bedarf eine alte Anfrage aus der [!UICONTROL Request Manager] duplizieren.
+   Wenn Sie Daten, die Sie in der Vergangenheit angefordert haben, erneut anfordern möchten, können Sie bei Bedarf eine alte Anfrage aus dem [!UICONTROL Anforderungs-Manager] duplizieren.
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 

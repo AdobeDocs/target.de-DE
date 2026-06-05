@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 470
+ht-degree: 8%
 
 ---
 
@@ -68,8 +68,8 @@ Wenn ein Entitätsattribut, ein Profilattribut oder ein Mbox-Parameter als Mehrf
 
 Die folgenden Operatoren sind für die Verwendung mit Entitäts-, Profil- und Mbox-Attributen mit mehreren Werten verfügbar:
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL Ist in Liste enthalten]
+* [!UICONTROL ist nicht in der Liste enthalten]
 
 ## Arbeiten mit Attributen mit mehreren Werten in Einschlussregeln
 

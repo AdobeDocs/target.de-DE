@@ -5,7 +5,7 @@ hide: true
 exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Versionsverwalter können den Status von Versionen direkt über die Navigationsl
 
 ## Verfügbare Status {#states}
 
-| # | Land | Beschreibung | Zulässige Änderungen |
+| # | Status | Beschreibung | Zulässige Änderungen |
 |---|---|---|---|
 | 1 | **Entwurf** | Die Version wird im System gespeichert, ist aber noch nicht aktiv. Es werden keine Zielgruppenregeln angewendet. | Alle zulässigen Änderungen (Version, Funktionen, Zielgruppe). |
 | 2 | **Gespeichert** | Die Freigabe wird registriert und ihr wird ein Slot zugewiesen. Die Version ist für Benutzer noch nicht sichtbar. | Alle Änderungen zulässig. |

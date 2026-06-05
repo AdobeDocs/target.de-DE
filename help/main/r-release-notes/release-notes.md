@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21. Mai 2026)
 
-**[!UICONTROL What's new]Seite**
+**[!UICONTROL Neue Funktionen] Seite**
 
 +++Details anzeigen
 
-* **Neue [!UICONTROL What's new].** Es wurde eine neue **[!UICONTROL What's new]** in der [!DNL Adobe Target]-Benutzeroberfläche hinzugefügt, auf der Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen kennenlernen können, ohne das Produkt verlassen zu müssen. (TGT-55137)
+* **Neu [!UICONTROL Neue Funktionen] Seite.** Es wurde eine neue Seite **[!UICONTROL Neue Funktionen]** in der [!DNL Adobe Target]-Benutzeroberfläche hinzugefügt, auf der Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen kennenlernen können, ohne das Produkt verlassen zu müssen. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 +++Details anzeigen
 
-* **Falsches Erlebnis beim Bearbeiten von Targeting in [!UICONTROL Automated Personalization] Aktivitäten ausgewählt.** Es wurde ein Problem behoben, bei dem beim Bearbeiten des **[!UICONTROL Targeting]** Schritts in einer [!UICONTROL Automated Personalization] (AP)-Aktivität das falsche Erlebnis ausgewählt werden konnte. (TGT-55176)
+* **Falsches Erlebnis beim Bearbeiten von Targeting in [!UICONTROL Automated Personalization]-Aktivitäten ausgewählt.** Es wurde ein Problem behoben, bei dem beim Bearbeiten des Schritts **[!UICONTROL Targeting]** in einer [!UICONTROL Automated Personalization] (AP)-Aktivität das falsche Erlebnis ausgewählt werden konnte. (TGT-55176)
 
 * **Früheres Datum beim Schließen einer geplanten Aktivität.** Ein Problem wurde behoben, das dazu führte, dass Sie zum Schließen einer geplanten Aktivität kein früheres Datum auswählen konnten. (TGT-55163)
 
@@ -67,7 +67,7 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 [!BADGE Wichtig]{type=Informative}
 
-Für zeitkritische Updates im Zusammenhang mit [!DNL Adobe Target] und Ihrer Implementierung bietet [!DNL Adobe] detaillierte Versionshinweise und Dokumentation über [!UICONTROL Experience League]. Im Folgenden finden Sie einige wichtige Highlights, die für Ihre Implementierung relevant sind:
+Für zeitkritische Updates im Zusammenhang mit der [!DNL Adobe Target] und Ihrer Implementierung bietet [!DNL Adobe] detaillierte Versionshinweise und Dokumentation über [!UICONTROL Experience League]. Im Folgenden finden Sie einige wichtige Highlights, die für Ihre Implementierung relevant sind:
 
 ### Veraltungs-Umschalter für [!DNL Target]-Benutzeroberfläche
 

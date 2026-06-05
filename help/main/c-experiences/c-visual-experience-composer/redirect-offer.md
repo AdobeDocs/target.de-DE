@@ -16,16 +16,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 67%
+source-wordcount: 485
+ht-degree: 80%
 
 ---
 
 # Zu einer URL umleiten
 
-Verwenden Sie die Option [!UICONTROL Redirect to URL] in [!DNL Adobe Target], wenn Sie den Besucher zu einer anderen Seite senden möchten, anstatt Inhalte auf derselben Seite anzuzeigen.
+Verwenden Sie die Option [!UICONTROL Zu URL umleiten] in [!DNL Adobe Target], wenn Sie den Besucher zu einer anderen Seite senden möchten, anstatt Inhalte auf derselben Seite anzuzeigen.
 
-Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Testkampagne mit zwei Erlebnissen ein: einem, das auf die Standardseite A verweist, und einem, das zu Seite B umleitet. Wählen Sie im Menü Erlebnisaktion, das durch Klicken auf die Briefbeschriftung für das Erlebnis geöffnet wird, die Option **[!UICONTROL Redirect to URL]** aus und geben Sie die URL von Seite B an. Das Angebot ist so konfiguriert, dass der Besucher auf eine andere Seite weitergeleitet wird.
+Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Testkampagne mit zwei Erlebnissen ein: eines, das auf die Standardseite A verweist, und ein anderes, das auf die Seite B weiterleitet. Wählen Sie in der Registerkarte „Erlebnisaktion“, die Sie durch Klicken auf die Buchstabenbezeichnung für das Erlebnis finden, die Option **[!UICONTROL Zu URL umleiten]** aus und geben Sie die URL von Seite B an. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
 
 Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser umzuleiten. Hierbei wird die Methode `window.location.replace();` verwendet, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browserverlauf gespeichert wird. Daher kann der Besucher die Zurück-Schaltfläche des Browsers wie gewohnt verwenden.
 
@@ -41,8 +41,8 @@ Für umgeleitete Angebote bestehen einige Begrenzungen:
 So erstellen Sie ein Umleitungsangebot:
 
 1. Erstellen Sie ein Erlebnis.
-1. Klicken Sie im [!UICONTROL Experiences] auf das **[!UICONTROL More Actions]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das gewünschte Erlebnis.
-1. Klicken Sie auf **[!UICONTROL Redirect to URL]**.
+1. Klicken Sie im [!UICONTROL Erlebnisse] auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das gewünschte Erlebnis.
+1. Klicken Sie auf **[!UICONTROL Zu URL umleiten]**.
 1. Geben Sie im Dialogfeld Umleiten zur URL die URL ein.
 1. Falls gewünscht, wählen Sie die Option zur Einbeziehung der aktuellen Abfrageparameter.
 

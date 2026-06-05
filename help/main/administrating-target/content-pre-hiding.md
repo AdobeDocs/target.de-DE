@@ -8,7 +8,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 source-git-commit: 77741253fdfb007d0eda0c57fe293df2f9c638a2
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '624'
 ht-degree: 3%
 
 ---
@@ -29,13 +29,13 @@ So funktioniert das Vorab-Ausblenden von Inhalten: vom Standardkonto über die I
 
 1. Fügen Sie die Bibliothek zum Vorab-Ausblenden von Inhalten der `<head>` aller Seiten hinzu, auf denen Sie Personalisierungsaktivitäten ausführen.
 
-1. [!DNL Target] erstellt einen Regelsatz aus Live [!UICONTROL Visual Experience Composer]- und [!UICONTROL Enhanced Experience Composer]. Der Regelsatz listet Selektoren und Regionen auf, die sich im Versand ändern können.
+1. [!DNL Target] erstellt einen Regelsatz aus Live- [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]-Aktivitäten. Der Regelsatz listet Selektoren und Regionen auf, die sich im Versand ändern können.
 
-   Beachten Sie, dass [!UICONTROL Form-Based Composer] Aktivitäten nicht unterstützt werden.
+   Beachten Sie[!UICONTROL &#x200B; dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
 
 1. Die -Bibliothek ruft diesen Regelsatz aus dem Adobe-CDN ab und blendet übereinstimmende Elemente nur dann vorab aus, wenn der personalisierte Inhalt noch geladen wird.
 
-1. In **[!UICONTROL Goals & Settings]** können Sie die **[!UICONTROL Content pre-hiding]** für einzelne Aktivitäten deaktivieren, jedoch nur, wenn sie auf Kontoebene aktiviert ist. [Weitere Informationen](#content-pre-hiding-activity)
+1. Unter **[!UICONTROL Ziele und Einstellungen]** können Sie das **[!UICONTROL Vorab-Ausblenden von Inhalten]** für einzelne Aktivitäten deaktivieren, jedoch nur, wenn es auf Kontoebene aktiviert ist. [Weitere Informationen](#content-pre-hiding-activity)
 
 ## Aktivieren der Vorab-Ausblendung von Inhalten für Ihre Instanz {#content-pre-hiding-enable-account}
 
@@ -43,19 +43,19 @@ So funktioniert das Vorab-Ausblenden von Inhalten: vom Standardkonto über die I
 >
 >Um das Vorab-Ausblenden von Inhalten für die Instanz zu aktivieren, müssen Sie ein **Administrator** sein.
 
-Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie aktivieren. Verwenden Sie **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** , um die Funktion zu aktivieren, Standardeinstellungen festzulegen und auf den Download für Ihr Implementierungs-Team zuzugreifen.
+Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie aktivieren. Verwenden Sie **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**, um die Funktion zu aktivieren, Standardwerte festzulegen und auf den Download für Ihr Implementierungs-Team zuzugreifen.
 
-1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
 
-1. Aktivieren Sie im Menü **[!UICONTROL Content pre-hiding]** die Option zum Vorab-Ausblenden von Inhalten .
+1. Aktivieren Sie im **[!UICONTROL Vorab-Ausblenden von Inhalten]** die Option zum Vorab-Ausblenden von Inhalten.
 
    ![](assets/content-pre-hiding-1.png)
 
-1. Aktualisieren Sie die **[!UICONTROL Pre-hiding timeout]** bei Bedarf in Sekunden.
+1. Aktualisieren Sie bei Bedarf die **[!UICONTROL Zeitüberschreitung vor dem Ausblenden]** in Sekunden.
 
-1. Klicken Sie auf **[!UICONTROL Save]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
 
-1. Klicken Sie nach der Aktivierung auf **[!UICONTROL Download]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
+1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -63,23 +63,23 @@ Ihre Instanz verwendet jetzt die Einstellungen für das Vorab-Ausblenden und das
 
 ## Aktivieren der Vorab-Ausblendung von Inhalten für Ihre Aktivität {#content-pre-hiding-activity}
 
-Wählen Sie bei für Ihre Instanz aktiviertem Vorab-Ausblenden aus, ob jede Aktivität sie in **[!UICONTROL Goals & Settings]** verwenden soll. Aktivitäten, für die Sie die Vorab-Ausblendung aktivieren, werden live in das Zielverhalten einbezogen.
+Wählen Sie bei für Ihre Instanz aktiviertem Vorab-Ausblenden aus, ob jede Aktivität sie in „Ziele **[!UICONTROL Einstellungen“]**. Aktivitäten, für die Sie die Vorab-Ausblendung aktivieren, werden live in das Zielverhalten einbezogen.
 
-[!DNL Target] erstellt dann einen schlanken Regelsatz aus den im [!UICONTROL Visual Experience Composer] (VEC) und im [!UICONTROL Form-Based Composer] erstellten Live-Aktivitäten und beschreibt die Selektoren und Bereiche, in denen sich der Versand ändern kann.
+[!DNL Target] erstellt dann einen schlanken Regelsatz aus Live-Aktivitäten, die in [!UICONTROL Visual Experience Composer] (VEC) und dem [!UICONTROL Form-Based Composer] verfasst wurden und die Selektoren und Bereiche beschreiben, die die Bereitstellung ändern kann.
 
 Beim Erstellen oder Bearbeiten einer Aktivität:
 
 1. Rufen Sie die Aktivität auf, für die Sie die Option zum Vorab-Ausblenden aktivieren möchten.
 
-1. Rufen Sie die Dropdown-Liste **[!UICONTROL Edit activity]** auf und wählen Sie **[!UICONTROL Edit Goals & Settings]** aus.
+1. Rufen Sie die **[!UICONTROL Aktivität bearbeiten]** auf und wählen Sie **[!UICONTROL Ziele und Einstellungen bearbeiten]** aus.
 
    ![](assets/content-pre-hiding-3.png)
 
-1. Schalten Sie im Menü **[!UICONTROL Content pre-hiding]** die Option **[!UICONTROL Enable content pre-hiding]** ein, um diese Aktivität vom Vorab-Ausblenden auszuschließen.
+1. Schalten Sie im Menü **[!UICONTROL Vorab ausblenden]** die Option **[!UICONTROL Vorab ausblenden von Inhalten aktivieren]** um, um diese Aktivität für oder von der Vorab-Ausblendung zu deaktivieren.
 
    ![](assets/content-pre-hiding-4.png)
 
-1. Klicken Sie abschließend auf **[!UICONTROL Save & Close]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Speichern und schließen]**.
 
 Nach dem Speichern und der Live-Schaltung von Aktivitäten oder der Deaktivierung von werden die Regelsätze aktualisiert, sodass das Vorab-Ausblenden mit dem tatsächlichen Versand abgestimmt bleibt, ohne dass der Seiten-Code bei jedem Launch bearbeitet werden muss.
 

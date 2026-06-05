@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -35,14 +35,14 @@ Eine vollständige Liste finden Sie unter „Unterstützte Aktivitätstypen“ i
 
 Verwenden Sie nicht denselben Aktivitätsnamen für zwei Aktivitäten aus separaten [Arbeitsbereichen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) die A4T-Berichte verwenden.
 
-Auch wenn dies bei Verwendung von [!DNL Target] als Berichtsquelle unterstützt wird, wird bei Verwendung von [!UICONTROL Analytics for Target] als Berichtsquelle die Verwendung desselben Aktivitätsnamens für zwei Aktivitäten nicht unterstützt.
+Dies wird zwar bei der Verwendung von [!DNL Target] als Berichtsquelle unterstützt, die Verwendung desselben Aktivitätsnamens für zwei Aktivitäten wird jedoch bei der Verwendung von [!UICONTROL Analytics for Target] als Berichtsquelle nicht unterstützt.
 
 +++
 
 ## Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?
 
 +++Antwort
-Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Increment Count & Keep User in Activity]&quot; und &quot;[!UICONTROL On Every Impression]&quot;. Diese Einstellungen *nicht*.
+Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
 
 Weitere Informationen finden Sie unter „Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?“. in [Metrikdefinitionen - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -59,16 +59,16 @@ Wenn eine Aktivität erstellt wird, sendet [!DNL Target] eine Classification-Dat
 ## Warum kann ich beim Erstellen einer Aktivität nicht Analytics als Berichtsquelle auswählen? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Antwort
-Sie können Ihre [!UICONTROL Reporting Settings] in [!UICONTROL Administration] ändern.
+Sie können Ihre [!UICONTROL Reporting-Einstellungen] in [!UICONTROL Administration] ändern.
 
 1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]**.
-1. Klicken Sie in der Dropdown-Liste **[!UICONTROL Experience Cloud solution used for reporting]** auf **[!UICONTROL Select per Activity]**.
+1. Klicken Sie in der Dropdownliste **[!UICONTROL Für die Berichterstellung verwendete Experience Cloud-Lösung]** auf **[!UICONTROL Pro Aktivität auswählen]**.
 
 ![Bild für jede Aktivität auswählen](assets/select-per-activity.png)
 
-Die Dropdown-Liste &quot;**[!UICONTROL Reporting Source]**&quot; im Bildschirm &quot;**[!UICONTROL Goal & Settings]**&quot; ist zum Erstellen und Bearbeiten von Aktivitäten aktiviert.
+Die Dropdownliste **[!UICONTROL Berichterstellungsquelle]** wird auf dem Bildschirm **[!UICONTROL Ziele und Einstellungen]** für Erstellungs- und Bearbeitungsaktivitäten aktiviert.
 
-Um [!DNL Analytics] immer als Berichtsquelle zu verwenden, wählen Sie **[!UICONTROL Adobe Analytics]** aus der Dropdown-Liste in [!UICONTROL Administration] aus.
+Um [!DNL Analytics] immer als Berichtsquelle zu verwenden, wählen Sie **[!UICONTROL Adobe Analytics]** aus der Dropdown-Liste in [!UICONTROL Administration].
 
 +++
 
@@ -86,9 +86,9 @@ Wenn die Prozentsätze nicht während der Aktivität angepasst werden, wird ein 
 
 +++
 
-## Kann ich eine binomische [!DNL Analytics] mit einem Segment als Optimierungsziel in einer [!UICONTROL Auto-Allocate] verwenden? {#binomial}
+## Kann ich eine binomische [!DNL Analytics] mit einem Segment als Optimierungsziel in einer Aktivität [!UICONTROL Automatische Zuordnung] verwenden? {#binomial}
 
 +++Antwort
-Sie können keine [!DNL Analytics] Metrik mit einem Segment als Optimierungsziel in einer [!UICONTROL Auto-Allocate] Aktivität verwenden. Als Problemumgehung können Sie ein benutzerspezifisches Ereignis definieren, mit dem dasselbe Ziel erreicht wird, und dieses als Optimierungszielmetrik verwenden.
+Sie können keine [!DNL Analytics]-Metrik mit einem Segment verwenden, das als Optimierungsziel in einer Aktivität [!UICONTROL Automatische Zuordnung“ &#x200B;] wurde. Als Problemumgehung können Sie ein benutzerspezifisches Ereignis definieren, mit dem dasselbe Ziel erreicht wird, und dieses als Optimierungszielmetrik verwenden.
 
 +++

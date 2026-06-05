@@ -6,7 +6,7 @@ exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,13 +33,13 @@ Die Flags-Erweiterung für Web ist in Adobe Experience Platform Web SDK integrie
 
 Die Flags-Erweiterung für Android lässt sich mit Adobe Experience Platform Mobile SDK integrieren.
 
-Einrichtungsanweisungen finden Sie im Handbuch zur Integration [&#x200B; Android-Erweiterungen &#x200B;](../sdk-releases/android/android-extension-integration-guide.md).
+Einrichtungsanweisungen finden Sie im Handbuch zur Integration [&#128279;](../sdk-releases/android/android-extension-integration-guide.md) Android-Erweiterungen .
 
 ### iOS-Erweiterung {#ios-extension}
 
 Die Flags-Erweiterung für iOS lässt sich mit Adobe Experience Platform Mobile SDK integrieren.
 
-Einrichtungsanweisungen finden Sie im Handbuch zur Integration [&#x200B; iOS-Erweiterungen &#x200B;](../sdk-releases/ios/ios-extension-integration-guide.md).
+Einrichtungsanweisungen finden Sie im Handbuch zur Integration [&#128279;](../sdk-releases/ios/ios-extension-integration-guide.md) iOS-Erweiterungen .
 
 ## Siehe auch {#see-also}
 

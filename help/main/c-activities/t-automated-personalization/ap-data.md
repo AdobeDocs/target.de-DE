@@ -20,22 +20,22 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # Von [!DNL Target] Algorithmen für maschinelles Lernen verwendete Daten
 
-[!DNL Adobe Target] erfasst und verwendet automatisch verschiedene Daten, um seine Personalisierungsalgorithmen in [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-Target] (AT)-Aktivitäten zu erstellen. Wenn ein Besucher eine [!UICONTROL Automated Personalization]- oder [!UICONTROL Auto-Target]-Aktivität aufruft, wird eine Momentaufnahme der Informationen an einen Satz von „Trainingsdatensätzen“ (die Besucherdaten, aus denen die Personalisierungsalgorithmen lernen) übergeben.
+[!DNL Adobe Target] sammelt und verwendet automatisch verschiedene Daten, um seine Personalisierungsalgorithmen in den Aktivitäten [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) zu erstellen. Wenn eine Besucherin oder ein Besucher eine [!UICONTROL Automated Personalization]- oder [!UICONTROL Automatisches Targeting]-Aktivität aufruft, wird eine Momentaufnahme der Informationen an einen Satz von „Trainingsdatensätzen“ (die Besucherdaten, aus denen die Personalisierungsalgorithmen lernen) übergeben.
 
 Weitere Informationen zu den [!DNL Target] Personalisierungsalgorithmen finden Sie unter [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## Standard-[!DNL Target]
 
-In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten erfasst werden, ohne dass eine Konfiguration von [!DNL Target] oder anderen [!DNL Adobe] erforderlich ist. Die Tabelle enthält auch die Namenskonvention, mit der diese Attribute in [Personalization Insights-Berichten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) angegeben werden. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen zum Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die  [!DNL Target] Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von den Aktivitäten  und [!UICONTROL Automatisches Targeting] erfasst werden, ohne dass eine Konfiguration von [!DNL Target] oder anderen [!DNL Adobe] erforderlich ist. Die Tabelle enthält auch die Namenskonvention, mit der diese Attribute in [Personalization Insights-Berichten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) angegeben werden. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen zum Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die  [!DNL Target] Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights] Berichten |
+| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights]-Berichten |
 | --- | --- | --- | --- |
 | Umgebungsparameter | UMSCHLIESSEN | Informationen über die Umgebung eines Benutzers, einschließlich Betriebssystem, Browser und Tageszeit/Wochentag. | Browser - [Attributname]<br>Betriebssystem - [Wert] |
 | Geografie | GEO | Informationen über die Geografie eines Benutzers, die über die IP-Suche abgerufen werden. | Geo - [geo-Attribut] |
@@ -45,9 +45,9 @@ In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von [!U
 
 ## Benutzerdefinierte [!DNL Target]
 
-Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten erfasst wurden. Diese Daten werden nur erfasst, wenn Sie sie bereitstellen. Bestimmte Attributnamen und Beispielwerte sind für Ihre Systemkonfiguration spezifisch.
+In der folgenden Tabelle sind die vom Kunden bereitgestellten Daten aufgeführt, die von [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten erfasst werden. Diese Daten werden nur erfasst, wenn Sie sie bereitstellen. Bestimmte Attributnamen und Beispielwerte sind für Ihre Systemkonfiguration spezifisch.
 
-| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights] Berichten |
+| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights]-Berichten |
 | --- | --- | --- | --- |
 | Seitenparameter | KASTEN | Benutzerdefinierte Seitenparameter („mbox-Parameter„), die beim Aufruf von [!DNL Target] übergeben werden. | Benutzerdefiniert - Mbox-Parameter - [Parametername] |
 | Profil [!DNL Target] | PRO | Benutzerdefinierte Profilattribute werden direkt über die API oder Seitenparameter und [!DNL Target] Profilskripte in das [!DNL Target]-Profil hochgeladen. | Benutzerdefiniert - Besucherprofil - [Attributname] |
@@ -55,12 +55,12 @@ Die folgende Tabelle zeigt die vom Kunden bereitgestellten Daten, die von [!UICO
 | URL-Parameter | URL | URL und alle URL-Parameter der aktuell angezeigten Seite. | Benutzerdefiniert - URL-Parameter [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
 | Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über [!UICONTROL Destinations] für [!DNL Target] freigegeben wurden. |  |
+| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über &quot;[!UICONTROL &quot; für [!DNL Target] freigegeben &#x200B;]. |  |
 
 
 ## Sperren von Funktionen [!DNL Target] Algorithmen für maschinelles Lernen
 
-Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem [!UICONTROL Automated Personalization] oder [!UICONTROL Auto-Target] Modell oder keiner Aktivität verwendet werden können.
+Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem [!UICONTROL Automated Personalization]- oder [!UICONTROL Automatisches Targeting]-Modell oder keiner Aktivität verwendet werden können.
 
 Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
 

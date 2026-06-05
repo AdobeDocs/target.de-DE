@@ -5,7 +5,7 @@ hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Indem Sie Inhalte zuerst für eine kleine Zielgruppe freigeben, können Sie Feed
 **Backend-Lastverwaltung**
 Das gleichzeitige Öffnen einer Funktion für alle Benutzer kann zu plötzlichen Spitzen bei der Server-Auslastung führen. Ein schrittweiser Rollout verteilt den Anstieg des Traffics über die Zeit und ermöglicht so eine reibungslose Skalierung der Infrastruktur.
 
-**Echtzeit-Feedback**
+**Echtzeitfeedback**
 Jede Phase des Rollouts zeigt das Feedback echter Benutzer. Teams können vor der nächsten Phase auf dieses Feedback reagieren - das Erlebnis verfeinern, Sonderfälle beheben oder das Messaging anpassen.
 
 ## Funktionsweise {#how-it-works}

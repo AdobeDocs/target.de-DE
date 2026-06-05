@@ -1,7 +1,7 @@
 ---
 keywords: Multivarianz;MVT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer  [!DNL Adobe Target] [!UICONTROL Multivariate Test]-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich war, z. B. [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement].
-title: Wie kann ich Zielmetriken in einer [!UICONTROL Multivariate Test] (MVT)-Aktivität festlegen?
+description: Erfahren Sie, wie Sie Metriken in einer Aktivität vom Typ  [!DNL Adobe Target] [!UICONTROL Multivariater Test] angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, [!UICONTROL Konversion], [!UICONTROL Umsatz] und [!UICONTROL Interaktion].
+title: Wie kann ich Zielmetriken in einer Aktivität vom Typ [!UICONTROL Multivariater Test] (MVT) festlegen?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
@@ -13,14 +13,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 61%
+source-wordcount: 353
+ht-degree: 56%
 
 ---
 
-# Festlegen von Metriken für eine [!UICONTROL Multivariate Test]
+# Festlegen von Metriken für eine Aktivität [!UICONTROL Multivarianz-Test]
 
-Verwenden Sie Metriken in einem [!DNL Adobe Target]-[!UICONTROL Multivariate Test], um zu bestimmen, wann ein Besuch erfolgreich war.
+Verwenden Sie Metriken in einem [!DNL Adobe Target] [!UICONTROL Multivarianz-Test] um zu bestimmen, wann ein Besuch erfolgreich war.
 
 Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -29,11 +29,11 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    ![Festlegen der Liste der Metriken](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
-   Auf der Seite [!UICONTROL Select Metrics] werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
+   Auf [!UICONTROL &#x200B; Seite „Metriken &#x200B;]&quot; werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
-   * [!UICONTROL Engagement]
+   * [!UICONTROL Konversion]
+   * [!UICONTROL Umsatz]
+   * [!UICONTROL Interaktion]
 
    Sie können die vorgefertigten Erfolgsmetriken verwenden oder eine benutzerdefinierte Erfolgsmetrik erstellen. Sie können auch eine Erfolgsmetrik als primäre Metrik kennzeichnen. Berichte und Experience Cloud-Karten zeigen standardmäßig die primäre Metrik, falls eine festgelegt ist.
 
@@ -41,14 +41,14 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    Die verfügbaren Einstellungen hängen von der verwendeten Erfolgsmetrik ab.
 
-   Wenn diese Option aktiviert ist, liefert das Feld [!UICONTROL Estimated Value of the Conversion] (für die [!UICONTROL Page Score] Metriken nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+   Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    Es ist sehr wichtig, die Erfolgsmetriken korrekt zu konfigurieren, um die erwarteten Daten zu erhalten.
 
    Weitere Informationen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Optional) Fügen Sie zusätzliche Metriken hinzu.
-1. Klicken Sie auf **[!UICONTROL Save and Close]** , wenn Sie mit dem Festlegen Ihrer Metriken fertig sind.
+1. Klicken Sie auf **[!UICONTROL Speichern und schließen]** wenn Sie mit dem Festlegen Ihrer Metriken fertig sind.
 
 Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht zulässig:
 
@@ -68,7 +68,7 @@ Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen von [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement] Metriken
+* Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

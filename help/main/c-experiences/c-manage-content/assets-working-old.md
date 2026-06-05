@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 32%
+source-wordcount: '771'
+ht-degree: 31%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 32%
 
 Informationen zu den Aufgaben, die Sie mit einem Asset in der Inhaltsbibliothek durchführen können, [!DNL Adobe Target]. B. Kommentieren, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
 
-1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** oder **[!UICONTROL Image Offers]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote]** oder **[!UICONTROL Bildangebote]**.
 
    ![Registerkarten „Angebote codieren“ und „Bildangebote“](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    Weitere Informationen zum Durchsuchen der Angebotsbibliothek und Erstellen intelligenter Sammlungen finden Sie unter [Filtern und Durchsuchen von Inhalten](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Optional) Um zwischen [!UICONTROL Card View] und [!UICONTROL List View] zu wechseln, klicken Sie auf das [!UICONTROL Card View] oder das [!UICONTROL List View] oben rechts in der Inhaltsbibliothek. Sie können [!UICONTROL View Settings] auch verwenden, um die Spalten beim Anzeigen der [!UICONTROL List View] weiter zu konfigurieren.
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ &#x200B;] konfigurieren.
 
-   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL List View]:
+   Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Listenansicht]:
 
    ![Listenansichtsoptionen](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
@@ -31,25 +31,25 @@ Informationen zu den Aufgaben, die Sie mit einem Asset in der Inhaltsbibliothek 
 
 ## Optionen für Code-Angebote
 
-Wenn Sie die Seite [!UICONTROL Code Offers] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
+Wenn Sie die Seite [!UICONTROL Angebote codieren] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
 
 ![Bewegen Sie den Mauszeiger über die Symbole auf der Registerkarte Code-Angebote](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Information**: Die Informationen des Angebots anzeigen.
 * **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
 * **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.
-* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Drop]** . Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie auf [!UICONTROL Clear Selection] , um die Auswahl der ausgewählten Angebote oder Ordner aufzuheben.
+* **Verschieben**: Klicken Sie auf das Symbol Verschieben, navigieren Sie zu der Position, an die Sie das Angebot oder den Ordner verschieben möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Ablegen]**. Sie können beispielsweise einen oder mehrere Ordner in einen anderen Ordner verschieben, um Unterordner zu erstellen. Klicken Sie [!UICONTROL Auswahl aufheben], um die Auswahl von Angeboten oder Ordnern aufzuheben.
 * **Löschen**: Löschen des Angebots oder Ordners. Siehe [Überlegungen beim Löschen von Elementen](#delete).
 
 ## Optionen für Bildangebote
 
-Wenn Sie die Seite [!UICONTROL Image Offers] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
+Wenn Sie die Seite [!UICONTROL Bildangebote] anzeigen, können Sie die folgenden Aktionen für ein Element ausführen, indem Sie den Mauszeiger über ein Angebot oder einen Ordner bewegen und dann das entsprechende Symbol auswählen.
 
-Die folgende Abbildung zeigt die Symbole zum Bewegen des Mauszeigers beim Anzeigen des [!UICONTROL Card View].
+Die folgende Abbildung zeigt die Symbole zum Darstellen des Mauszeigers in der [!UICONTROL Kartenansicht].
 
 ![Bewegen Sie den Mauszeiger auf der Registerkarte Bildangebote , wenn Sie sich in der Kartenansicht befinden](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-Die folgende Abbildung zeigt die Symbole zum Bewegen des Mauszeigers beim Anzeigen des [!UICONTROL List View]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
+Die folgende Abbildung zeigt die Symbole zum Darstellen des Mauszeigers in der [!UICONTROL Listenansicht]. Um die Symbole anzuzeigen, klicken Sie auf ein Element in der Liste.
 
 ![Bewegen Sie den Mauszeiger über die Symbole auf der Registerkarte Bildangebote in der Listenansicht](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
@@ -63,15 +63,15 @@ Die folgende Abbildung zeigt die Symbole zum Bewegen des Mauszeigers beim Anzeig
   Wählen Sie ein oder mehrere Bildangebote aus, für die die folgenden Aktionen ausgeführt werden sollen:
 
    * Freigabe
-   * Download 
+   * Download
    * Eigenschaften anzeigen
-   * Bearbeiten 
+   * Bearbeiten
    * Anmerkungen hinzufügen
-   * Verschieben 
+   * Verschieben
 
 * **Herunterladen**: Laden Sie das Bildangebot oder den Ordner und dessen Inhalte herunter.
-* **Eigenschaften anzeigen**: Die Eigenschaften des Elements anzeigen. Klicken Sie unbedingt auf die Registerkarten [!UICONTROL Basic] und [!UICONTROL Advanced] , um alle verfügbaren Informationen anzuzeigen. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen.
-* **Weitere Aktionen**: Zeigt zusätzliche Optionen an, wenn Sie sich in [!UICONTROL Card View] befinden.
+* **Eigenschaften anzeigen**: Die Eigenschaften des Elements anzeigen. Klicken Sie unbedingt auf die Registerkarte [!UICONTROL Allgemein] und die Registerkarte [!UICONTROL Erweitert], um alle verfügbaren Informationen anzuzeigen. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen.
+* **Weitere Aktionen**: Zeigt zusätzliche Optionen in der [!UICONTROL Kartenansicht] an.
 * **Bearbeiten**: Bearbeiten Sie den Ordner oder das Angebot.
 * **Anmerken**: Hinzufügen einer Anmerkung zum Asset. Klicken Sie auf das Asset, wählen Sie den Bereich aus, in dem Sie die Anmerkung hinzufügen möchten, und geben Sie dann Ihren Text ein.
 * **Kopieren**: Kopieren Sie das Angebot. Durch Kopieren und anschließende Bearbeitung des Angebots können Sie ganz einfach ein ähnliches neues Angebot erstellen.

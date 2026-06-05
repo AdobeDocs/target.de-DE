@@ -23,7 +23,7 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2960
+source-wordcount: 2891
 ht-degree: 73%
 
 ---
@@ -50,7 +50,7 @@ Durch Kombination Ihrer Zielgruppen aus unterschiedlichen [!DNL Adobe Experience
 
 Eine schrittweise Anleitung finden Sie unter [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
 
-**Gut zu wissen**: [!DNL Adobe Audience Manager]-Zielgruppen sind in [!DNL Target] automatisch verfügbar. Die Freigabe von [!DNL Adobe Analytics]-Zielgruppen muss jedoch manuell eingerichtet werden. Aktivieren Sie bei der Erstellung der Zielgruppe in [!DNL Analytics] einfach das Kontrollkästchen „Als Experience Cloud-Zielgruppe festlegen“. Klicken Sie dann in [!DNL Target] auf &quot;Experience Cloud-Zielgruppen importieren“.
+**Gut zu wissen**: [!DNL Adobe Audience Manager]-Zielgruppen sind in [!DNL Target] automatisch verfügbar. Die Freigabe von [!DNL Adobe Analytics]-Zielgruppen muss jedoch manuell eingerichtet werden. Aktivieren Sie bei der Erstellung der Zielgruppe in [!DNL Analytics] einfach das Kontrollkästchen „Als Experience Cloud-Zielgruppe festlegen“. Klicken Sie dann in [!DNL Target] auf „Experience Cloud-Zielgruppen importieren“.
 
 ## Tipp 3: Exportieren Sie Daten aus [!DNL Target] in Programme von Drittanbietern.
 
@@ -168,8 +168,8 @@ Beispielsweise demonstrierte ein Kunde von Adobe aus dem Gesundheitswesen erst k
 
 Einer der Vorteile von Aktivitäten, die Sie mit QA-Parametern einrichten, besteht darin, dass Sie diese Links mit allen Mitarbeitern Ihres Teams austauschen können. Sie sensibilisieren mehr Personen für die Aktivität und stellen sicher, dass sie nicht davon ausgehen, dass die Site nicht richtig funktioniert, wenn sie auf eine Testvariante stoßen.
 
-Wenn Sie Ihre Organisation nach Abschluss der Tests über Kampagnenstarts, Testergebnisse und insbesondere die gewonnenen Erkenntnisse informieren, fördern Sie das Bewusstsein für die Tests und das Interesse an deren Ergebnissen. Durch die Weitergabe der Ergebnisse an alle Mitarbeiter des Unternehmens wird auch vermieden, dass eine Hypothese erneut getestet wird. Jeder in der Organisation lernt daraus, was funktioniert, und kann mit diesen Erkenntnissen seine eigenen Vorstellungen dessen, was funktioniert, grundlegend hinterfragen. Es empfiehlt sich, eine Vorlage vorzubereiten, die Sie jedes Mal verwenden können, um Ihre Erkenntnisse und wichtigen Erkenntnisse zu teilen.
-Ziehen Sie auch in Erwägung, die Testerfahrungen Ihres Unternehmens in einem Handbuch oder einer Microsoft PowerPoint-Mappe zusammenzustellen und diese(s) für jeden im Unternehmen freizugeben.
+Wenn Sie Ihre Tests abgeschlossen haben, können Sie durch die Kommunikation von Kampagnenstarts, Testergebnissen und insbesondere gewonnenen Erkenntnissen das Bewusstsein für die Testergebnisse schärfen und das Interesse an ihnen wecken. Durch die Weitergabe der Ergebnisse an alle Mitarbeiter des Unternehmens wird auch vermieden, dass eine Hypothese erneut getestet wird. Jeder in der Organisation lernt daraus, was funktioniert, und kann mit diesen Erkenntnissen seine eigenen Vorstellungen dessen, was funktioniert, grundlegend hinterfragen. Es empfiehlt sich, eine Vorlage vorzubereiten, die Sie jedes Mal verwenden können, um Ihre Erkenntnisse und wichtigen Erkenntnisse zu teilen.
+Erwägen Sie dann, ein gemeinsames Buch oder ein Microsoft PowerPoint-Deck zu erstellen, in dem diese Erkenntnisse kumulativ erfasst werden.
 
 ## Tipp 20: Erweitern Sie Ihre Tests auch auf mobile Funktionen, um innovativere mobile Erlebnisse zu schaffen.
 

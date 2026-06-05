@@ -30,8 +30,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 2190
-ht-degree: 98%
+source-wordcount: 2199
+ht-degree: 97%
 
 ---
 
@@ -151,7 +151,7 @@ Wir freuen uns, Ihnen bahnbrechende Neuigkeiten zur Personalisierung im großen 
 
   In dieser Sitzung erfahren Sie, wie Sie die Konversionsrate steigern können, indem Sie die neuen Funktionen von [!DNL Adobe Target] nutzen. Wir besprechen folgende Themen:
 
-   * Erweiterte Modellsteuerungen in [!UICONTROL Automated Personalization]- und [!UICONTROL Auto-Target]-Aktivitäten
+   * Verbesserte Modellsteuerungen innerhalb von [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten
    * Die Fähigkeit, Profilattribute und hochwertige Segmente von [!DNL Real-Time Customer Data Platform] von [!DNL Adobe] zu evaluieren
    * Wie Marken durch die Anpassung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und eine schnellere Entscheidungsfindung erreichen können
    * Einzigartige Anwendungsfälle für die Bereitstellung von Eins-zu-eins-Personalisierung
@@ -174,7 +174,7 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
   Kursplan:
 
-   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisiertes Testen und Personalisieren
+   * [!UICONTROL A/B-], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisierte Tests und Personalisierung
    * Schrittweise Workflows für die Einrichtung von Aktivitäten
    * Batch-Erlebnis-Prefetch, der eine ständig aktivierte Personalisierung für Mobilgeräte ermöglicht
    * Lebenszyklusmetriken für das Testen und Targeting von Kundenerlebnissen

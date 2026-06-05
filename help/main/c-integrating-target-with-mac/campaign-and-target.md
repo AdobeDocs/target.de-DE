@@ -14,8 +14,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 372
-ht-degree: 32%
+source-wordcount: 379
+ht-degree: 35%
 
 ---
 
@@ -68,7 +68,7 @@ Starten Sie die Aktivität in [!DNL Target], bevor Sie den [!DNL Campaign] Teil 
 ## Einbinden eines [!DNL Target] Angebots in eine [!DNL Adobe Campaign] E-Mail {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Erstellen Sie eine E-Mail in [!DNL Adobe Campaign].
-1. Klicken Sie in den E-Mail-Eigenschaften auf **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**.
+1. Klicken Sie in den E-Mail-Eigenschaften auf **[!UICONTROL Einschließen]** > **[!UICONTROL Dynamisches Bild bereitgestellt von Adobe Target]**.
 1. Wählen Sie aus den gemeinsamen Assets das Standardbild aus.
 1. Geben Sie den Speicherort an (Rawbox).
 1. Geben Sie andere entscheidende Parameter an, zum Beispiel das Geschlecht des Empfängers.

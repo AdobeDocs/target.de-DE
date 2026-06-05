@@ -1,6 +1,6 @@
 ---
 keywords: JSON-Angebot;JSON-Angebot erstellen
-description: Erfahren Sie, wie Sie JSON-Angebote zur Verwendung im [!UICONTROL Form-Based Experience Composer] erstellen.
+description: Erfahren Sie, wie Sie JSON-Angebote zur Verwendung im [!UICONTROL formularbasierten Experience Composer“ &#x200B;].
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -18,14 +18,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 475
+source-wordcount: 506
 ht-degree: 23%
 
 ---
 
 # Erstellen von JSON-Angeboten
 
-Erstellen Sie JSON-Angebote im [!UICONTROL Offer Library] in [!DNL Adobe Target] zur Verwendung im [!UICONTROL Form-Based Experience Composer].
+Erstellen Sie JSON-Angebote in [!UICONTROL Angebotsbibliothek] in [!DNL Adobe Target] zur Verwendung im [!UICONTROL formularbasierten Experience Composer].
 
 JSON-Angebote können in formularbasierten Aktivitäten verwendet werden, um Anwendungsfälle zu ermöglichen, in denen [!DNL Target] Entscheidungsfindung erforderlich ist, um ein Angebot im JSON-Format zur Verwendung in SPA-Frameworks oder Server-seitigen Integrationen zu senden.
 
@@ -33,7 +33,7 @@ JSON-Angebote können in formularbasierten Aktivitäten verwendet werden, um Anw
 
 Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
-* JSON-Angebote sind derzeit nur für Aktivitäten der Kategorien [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Experience Targeting] (XT) verfügbar.
+* JSON-Angebote sind derzeit nur für [!UICONTROL A/B-Test]-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
 * JSON-Angebote können nur in [formularbasierten Aktivitäten](/help/main/c-experiences/form-experience-composer.md) verwendet werden.
 * JSON-Angebote können direkt abgerufen werden, wenn Sie die [Server-seitigen APIs und mobilen Node.js-, Java-, .NET- und Python-SDKs](https://experienceleague.adobe.com/de/docs/target-dev/developer/server-side/server-side-overview){target=_blank} verwenden.
 * Im Browser können JSON-Angebote nur über at.js 1.2.3 (oder höher) und mithilfe von [getOffer() abgerufen werden](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} indem Aktionen mithilfe der `setJson`-Aktion gefiltert werden.
@@ -42,13 +42,13 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 ## Erstellen eines JSON-Angebots {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Klicken Sie auf **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
-1. Klicken Sie auf **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
+1. Klicken Sie auf **[!UICONTROL Angebote]** > **[!UICONTROL Angebote codieren]**.
+1. Klicken Sie **[!UICONTROL Angebot erstellen]** > **[!UICONTROL JSON-]**.
 1. Geben Sie einen Angebotsnamen ein.
 1. (Bedingt) Wenn Sie über ein [[!DNL Target] Premium-Konto](/help/main/c-intro/intro.md#premium) verfügen, wählen Sie den gewünschten [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Bedingt) Wählen Sie die gewünschten Profilattribute aus.
-1. Geben Sie Ihren JSON-Code in das **[!UICONTROL Code]** ein.
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Schreiben Sie Ihren JSON-Code in das Feld **[!UICONTROL Code]** oder kopieren Sie ihn dorthin.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
 ## JSON-Beispiel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -137,4 +137,4 @@ Weitere Informationen finden Sie unter [Freigeben von Real-Time CDP-Profilattrib
 
 ## Filtern von Angeboten nach dem JSON-Angebotstyp {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Sie können die [!UICONTROL Offers] nach dem JSON-Angebotstyp filtern, indem Sie auf das **[!UICONTROL Show filters]** (![Symbol „Filter anzeigen“](/help/main/assets/icons/Filter.svg) klicken und dann das Kontrollkästchen **[!UICONTROL JSON Offers]** aktivieren.
+Sie können die [!UICONTROL Angebote] nach dem JSON-Angebotstyp filtern, indem Sie auf das Symbol **[!UICONTROL Filter anzeigen]** (![Symbol „Filter anzeigen](/help/main/assets/icons/Filter.svg) ) klicken und dann das Kontrollkästchen **[!UICONTROL JSON-Angebote]** aktivieren.

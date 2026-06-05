@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 23%
+source-wordcount: 1065
+ht-degree: 25%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 23%
 
 Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
 
-Sie können einen [!UICONTROL Recommendations] Entwurf mit einem Standardentwurf oder durch Erstellen eines benutzerdefinierten Entwurfs erstellen. Auf dem **[!UICONTROL Recommendations > Designs]** Bildschirm werden sowohl Standardentwurfskarten als auch alle Designs angezeigt, die in Ihrem Konto erstellt wurden.
+Sie können einen [!UICONTROL Recommendations]-Entwurf erstellen, indem ein Standardentwurf oder ein benutzerdefinierter Entwurf verwendet wird. Der **[!UICONTROL Recommendations > Designs]** zeigt sowohl standardmäßige Designkarten als auch alle Designs an, die in Ihrem Konto erstellt wurden.
 
 Beachten Sie bei der Arbeit mit Designs die folgenden Informationen:
 
@@ -38,7 +38,7 @@ Diese Abbildung zeigt ein benutzerdefiniertes Design:
 
 ![Benutzerdefinierter Entwurf](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Sie können einen Entwurf während des Aktivitätserstellungsprozesses innerhalb des [!UICONTROL Visual Experience Composer] (VEC) oder außerhalb der Aktivitätserstellung aus der Design-Bibliothek erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Entwürfe aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
+Sie können ein Design während des Aktivitätserstellungsprozesses aus dem [!UICONTROL Visual Experience Composer] (VEC) oder aus der Design-Bibliothek außerhalb der Aktivitätserstellung erstellen. In den folgenden Abschnitten wird davon ausgegangen, dass Sie Entwürfe aus der Bibliothek erstellen, die Schritte sind jedoch ähnlich.
 
 ## Erstellen von Designs
 
@@ -46,50 +46,50 @@ Sie können einen Entwurf basierend auf einem Standardentwurf erstellen oder ein
 
 ### Erstellen eines Designs basierend auf einem Standarddesign
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** , um die [!UICONTROL Designs]-Bibliothek anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**, um die [!UICONTROL Designs]-Bibliothek anzuzeigen.
 
 
-1. Klicken Sie auf das Symbol Mehr Aktionen ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf **[!UICONTROL Copy]**.
+1. Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf **[!UICONTROL Kopieren]**.
 
-   Das Dialogfeld [!UICONTROL Create Design] wird angezeigt.
+   Das [!UICONTROL Design erstellen] wird angezeigt.
 
-1. Geben Sie einen **[!UICONTROL &#x200B; Name]** und ein optionales Vorschaubild ein, die auf der Designkarte angezeigt werden sollen.
+1. Geben Sie einen **[!UICONTROL und]** optionales Vorschaubild ein, das auf der Designkarte angezeigt werden soll.
 
-   Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld &quot;**[!UICONTROL Content Name]**&quot; angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
+   Wenn Sie ein Standarddesign verwenden, werden der Designname und „Kopieren“ im Feld **[!UICONTROL Inhaltsname]** angezeigt. Sie können den Namen bearbeiten. Sie können auch ein Bild auswählen, das auf der Designkarte angezeigt werden soll.
 
-1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** nach Bedarf.
+1. (Bedingt) Bearbeiten Sie den Entwurf **[!UICONTROL Code]** nach Bedarf.
 
    Empfehlungsentwürfe verwenden die Open Source-Entwurfssprache Velocity. Informationen über Velocity finden Sie unter [https://velocity.apache.org](https://velocity.apache.org) und unter [Anpassen eines Designs mithilfe von Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist. Schieben Sie den [!UICONTROL HTML Design]-Umschalter auf die Position „Aus“, um Nicht-HTML-Code zu verwenden.
+   Der Entwurf kann ein HTML- oder ein Nicht-HTML-Entwurf sein. Standardmäßig sind HTML-Designs mit einem `<div>`-Tag umschlossen, um Klick-Tracking in einer Web-Umgebung zu ermöglichen. Nicht-HTML-Entwürfe eignen sich für Nicht-Webumgebungen, in denen ein Klick-Tracking nicht möglich ist. Schieben Sie den Umschalter [!UICONTROL HTML Design] in die Position „off“, um Nicht-HTML-Code zu verwenden.
 
    >[!NOTE]
    >
    >Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hartcodiert oder in Schleife, beträgt 99.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
 ### Erstellen eines benutzerdefinierten Entwurfs
 
-1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** , um die [!UICONTROL Designs]-Bibliothek anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**, um die [!UICONTROL Designs]-Bibliothek anzuzeigen.
 
-1. Klicken Sie auf **[!UICONTROL Create Design]**.
+1. Klicken Sie **[!UICONTROL Design erstellen]**.
 
-   Wenn Sie Ihr neues benutzerdefiniertes Design auf einem vorhandenen Design basieren möchten, klicken Sie auf das [!UICONTROL More Actions] ( ![Mehr Aktionen-](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf [!UICONTROL Copy]. Anschließend können Sie die Kopie bearbeiten, um ein neues benutzerdefiniertes Design zu erstellen.
+   Wenn Sie Ihr neues benutzerdefiniertes Design auf einem vorhandenen Design basieren möchten, klicken Sie auf das Symbol [!UICONTROL Mehr Aktionen] ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie erstellen möchten, und klicken Sie dann auf [!UICONTROL Kopieren]. Anschließend können Sie die Kopie bearbeiten, um ein neues benutzerdefiniertes Design zu erstellen.
 
-1. Fügen Sie eine **[!UICONTROL Name]** und ein optionales Vorschaubild hinzu.
+1. Fügen Sie **[!UICONTROL Name]** und ein optionales Vorschaubild hinzu.
 
-1. (Bedingt) Bearbeiten Sie den **[!UICONTROL Code]** nach Bedarf.
+1. (Bedingt) Bearbeiten Sie den Entwurf **[!UICONTROL Code]** nach Bedarf.
 
    Weitere Informationen finden Sie in den Informationen in Schritt 4 oben.
 
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Klicken Sie **[!UICONTROL Erstellen]**.
 
 ## Bearbeiten, Kopieren oder Löschen eines Designs
 
 Beachten Sie, dass Sie ein Standarddesign nicht bearbeiten oder kopieren können; Sie können nur Standarddesigns kopieren.
 
-Klicken Sie auf das [!UICONTROL More Actions] (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie bearbeiten oder löschen möchten, und klicken Sie dann auf das entsprechende Symbol: [!UICONTROL Edit], [!UICONTROL Copy] oder [!UICONTROL Delete].
+Klicken Sie auf das Symbol [!UICONTROL Mehr Aktionen] ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Design, das Sie bearbeiten oder löschen möchten, und klicken Sie dann auf das entsprechende Symbol: [!UICONTROL Bearbeiten], [!UICONTROL Kopieren] oder [!UICONTROL Löschen].
 
 Sie können einen vorhandenen Entwurf kopieren, um einen doppelten Entwurf zu erstellen, den Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand ein ähnliches Design erstellen.
 
@@ -99,7 +99,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben &#x200B;](/help/main/c-experiences/form-experience-composer.md) können.
 
-1. Erstellen Sie einen Entwurf innerhalb des [!UICONTROL Design library] oder innerhalb des formularbasierten Workflows. Wenn Sie versuchen, einen Entwurf innerhalb des [!UICONTROL Visual Experience Composer]-Workflows (VEC) zu erstellen, können Sie nichts anderes als ein HTML-Design erstellen, das zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
+1. Erstellen Sie einen Entwurf aus der [!UICONTROL Design-]) oder dem formularbasierten Workflow. Wenn Sie versuchen, einen Entwurf im Workflow von [!UICONTROL Visual Experience Composer] (VEC) zu erstellen, können Sie nur einen HTML-Entwurf erstellen, der zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 
 1. Achten Sie darauf, dass die Option „HTML-Design“ ausgeschaltet ist:
 
@@ -136,16 +136,16 @@ Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Akti
 
 1. Richten Sie eine formularbasierte [!DNL Recommendations]-Aktivität ein, die dieses Design verwendet.
 
-   1. Navigieren Sie zur **[!UICONTROL Activities]**.
-   1. Klicken Sie auf **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
-   1. Wählen Sie unter **[!UICONTROL Choose Experience Composer]** die Option **[!UICONTROL Form]** aus und klicken Sie dann auf **[!UICONTROL Next]**.
+   1. Navigieren Sie zur Seite **[!UICONTROL Aktivitäten]**.
+   1. Klicken Sie **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Recommendations]**.
+   1. Wählen **[!UICONTROL unter „Experience Composer auswählen]** die Option **[!UICONTROL Formular]** und klicken Sie dann auf **[!UICONTROL Weiter]**.
    1. Geben Sie unter Speicherort den Text „Sample_Recs_Response“ ein.
-   1. Klicken Sie unter **[!UICONTROL Default Content]** auf den Abwärtspfeil und dann auf **[!UICONTROL Add Recommendation]**.
+   1. Klicken Sie unter **[!UICONTROL Standard-Content]** auf den Pfeil nach unten und dann auf **[!UICONTROL Empfehlung hinzufügen]**.
    1. Wählen Sie einen Seitentyp aus. Das legt fest, welches Bild Sie als nächstes sehen.
-   1. Wählen Sie eine Kriterienkarte aus und klicken Sie dann auf **[!UICONTROL Next]**.
-   1. Wählen Sie das Design aus, das Sie im vorherigen Schritt erstellt haben, und klicken Sie dann auf **[!UICONTROL Next]**.
+   1. Wählen Sie eine Kriterienkarte aus und klicken Sie dann auf **[!UICONTROL Nächste]**.
+   1. Wählen Sie das Design aus, das Sie im vorherigen Schritt erstellt haben, und klicken Sie dann auf **[!UICONTROL Weiter]**.
    1. Schließen Sie den Setup-Vorgang ab.
-   1. Klicken Sie auf den Pfeil nach rechts neben **[!UICONTROL Inactive]** und wählen Sie dann **[!UICONTROL Activate]** aus.
+   1. Klicken Sie auf den Rechtspfeil neben **[!UICONTROL Inaktiv]** und wählen Sie dann **[!UICONTROL Aktivieren]** aus.
 
 1. Nachdem Ihre Aktivität eingerichtet und aktiviert wurde, können Sie eine Musteranforderung einrichten, um die korrekte JSON-Antwort zurückzubekommen.
 
@@ -178,7 +178,7 @@ Sie können auch eine einfache kommagetrennte Liste von Elementen zurücksenden,
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). Dieses Design-Beispiel gibt auch Aktivitätsdetails, [!UICONTROL Target Profile] Details (falls zutreffend) und andere `entity.attributes` zurück, die mit den zurückgegebenen Elementen verknüpft sind.
+Außerdem können Sie mit der Antwort zusätzliche Informationen senden. Die folgende Codedatei ist ein komplexeres Beispiel, das viel mehr zurücksendet als die Entity-IDs mit den zugehörigen Slots (Bestellung). Dieses Design-Beispiel gibt auch Aktivitätsdetails, [!UICONTROL Zielprofil] Details (falls zutreffend) und andere `entity.attributes` zurück, die mit den zurückgegebenen Elementen verknüpft sind.
 
 ```javascript
     {   

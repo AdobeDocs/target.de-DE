@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # Verschiedene Erlebniszielgruppen in A/B-Tests
 
-Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Sie können mehrere Zielgruppen für ein Erlebnis im [!UICONTROL Visual Experience Composer] (VEC) oder im formularbasierten Experience Composer einrichten.
+Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Im [!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer &#x200B;] Sie mehrere Zielgruppen für ein Erlebnis einrichten.
 
 Besucher können bei Profiländerungen zwischen Erlebnis-Audiences wechseln. Besucher bleiben nicht für die gesamte Lebensdauer der Aktivität im gleichen Erlebnis stecken.
 
@@ -40,9 +40,9 @@ In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Si
 
    Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
 
-1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
+1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Mehrere Zielgruppen]**.
 
-1. Klicken Sie auf das **[!UICONTROL Add Audience]**-Symbol ![Hinzufügen](/help/main/assets/icons/Add.svg) ) im [!UICONTROL Experience Audiences] Bereich und wählen Sie dann die erste Audience aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
+1. Klicken Sie auf das **[!UICONTROL Zielgruppe hinzufügen]**-Symbol ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) im Bereich [!UICONTROL Experience-Zielgruppen] und wählen Sie dann die erste Zielgruppe aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
    Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
 

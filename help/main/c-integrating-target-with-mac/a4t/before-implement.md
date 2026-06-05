@@ -24,7 +24,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1014
+source-wordcount: 1034
 ht-degree: 26%
 
 ---
@@ -115,12 +115,12 @@ Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie
 
 ## Freigegebene Zielgruppen
 
-Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen die folgenden wichtigen Informationen zur [!UICONTROL Shared Audiences], die unter &quot;[!UICONTROL For which capabilities are you requesting provisioning]?“ aufgeführt sind
+Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}Integrationen die folgenden wichtigen Informationen zur Option [!UICONTROL Freigegebene Zielgruppen] unter &quot;[!UICONTROL Für welche Funktionen fordern Sie die Bereitstellung an]&quot;
 
 ![Anfrageformular](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Wenn Sie [!UICONTROL Shared Audiences] anfordern, aktivieren Sie [!UICONTROL Target] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen, in diesem Fall Zielgruppen, auszutauschen.
+Wenn Sie &quot;[!UICONTROL &#x200B; Audiences] anfordern, aktivieren Sie [!UICONTROL Target] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen, in diesem Fall Audiences, freizugeben.
 
 >[!IMPORTANT]
 >
->Diese Integration zwischen [!UICONTROL Target] und AAM verursacht zusätzliche Kosten. In AAM werden Sie für jeden [!UICONTROL Target]-Aufruf in Rechnung gestellt.
+>Diese Integration zwischen [!UICONTROL Target] und AAM verursacht zusätzliche Kosten. In AAM werden Sie für jeden [!UICONTROL Target]Aufruf in Rechnung gestellt.

@@ -21,15 +21,15 @@ Mit den Flags in Adobe Target können Produkt-Teams neue Funktionen schrittweise
 
 ## Mögliche Optionen
 
-**Kontrollieren Sie, wer neue Funktionen sieht.** Target-Versionen auf bestimmte Benutzer, Organisationen, Regionen oder benutzerdefinierte Attribute. Beginnen Sie mit einer kleinen Gruppe, validieren Sie das Erlebnis, und erweitern Sie es dann - alles über die Konsole, ohne Code-Änderungen.
+**Kontrollieren Sie, wer neue Funktionen sieht.** Targeting von Versionen auf bestimmte Benutzer, Organisationen, Regionen oder benutzerdefinierte Attribute. Beginnen Sie mit einer kleinen Gruppe, validieren Sie das Erlebnis, und erweitern Sie es dann - alles über die Konsole, ohne Code-Änderungen.
 
-**Führen Sie A/B-Experimente durch.** verschiedenen Segmenten Ihrer Audience verschiedene Varianten bereitstellen und messen, die eine bessere Leistung erzielen. Verwenden Sie die Ergebnisse, um fundierte Produktentscheidungen vor einer vollständigen Veröffentlichung zu treffen.
+**Ausführen von A/B-Experimenten.** Unterschiedliche Varianten für verschiedene Segmente Ihrer Audience bereitstellen und messen, was eine bessere Leistung erzielt. Verwenden Sie die Ergebnisse, um fundierte Produktentscheidungen vor einer vollständigen Veröffentlichung zu treffen.
 
 **Verringern des Versionsrisikos.** Unterteilen Sie große Änderungen in kleinere, kontrollierte Rollouts. Wenn ein Fehler oder ein Leistungsproblem auftritt, deaktivieren Sie nur die betroffene Funktion - der Rest Ihrer Anwendung bleibt stabil.
 
-**Koordinieren Sie programmübergreifend.Mit** Funktionsgruppen können Sie mehrere Funktions-Flags gemeinsam verwalten und eine gemeinsame Rollout-Zielgruppe über mehrere Anwendungen hinweg nutzen.
+**Koordinieren über Anwendungen hinweg.** Mit Funktionsgruppen können Sie mehrere Funktions-Flags zusammen verwalten, sodass eine gemeinsame Rollout-Zielgruppe über mehrere Anwendungen hinweg verwendet werden kann.
 
-**Exportieren Sie Ihre Daten.** Exportieren Sie Flags-Daten in Ihre bevorzugte Reporting-Umgebung, um sie zusammen mit Ihren anderen Adobe-Daten zu analysieren und zu messen.
+**Exportieren Sie Ihre Daten.** Exportieren Sie Flags-Daten zur Analyse und Messung in Ihre bevorzugte Reporting-Umgebung zusammen mit Ihren anderen Adobe-Daten.
 
 ## Onboarding der ersten Markierung
 

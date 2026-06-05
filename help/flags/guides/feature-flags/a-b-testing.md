@@ -14,7 +14,7 @@ ht-degree: 1%
 
 A/B-Tests in Flags werden mit **Funktionsgruppen** durchgeführt. Durch die Konfiguration von mehr als einer Variante in einer Funktionsgruppe können Sie verschiedene Versionen einer Funktion für verschiedene Untergruppen Ihrer Zielgruppe bereitstellen und die Ergebnisse vergleichen.
 
-## Voraussetzungen  {#prerequisites}
+## Voraussetzungen {#prerequisites}
 
 * Sie haben Zugriff auf die Konsole — siehe [Bei Konsole anmelden](../console/log-in-to-the-console.md)
 * Sie gehören einem Team an und Ihr Programm wird integriert

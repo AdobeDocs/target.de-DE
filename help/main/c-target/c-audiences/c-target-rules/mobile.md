@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 38%
+source-wordcount: 707
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 Erstellen Sie Zielgruppen in [!DNL Adobe Target], um Mobilgeräte anhand von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieterfirma, Bildschirmmaße usw. anzusprechen.
 
-Beispielsweise können Sie Benutzern, die Ihre Seite mit einem Smartphone besuchen, andere Inhalte anzeigen als Benutzern, die mit einem Computer kommen. In diesem Fall können Sie die [!UICONTROL Mobile] Zielgruppe und dann die Option **[!UICONTROL Is Mobile Phone]** auswählen. Sie können dann alle spezifischen Details hinzufügen, die für Sie wichtig sind, z. B. den Typ des Telefons, die Größe des Bildschirms (in Pixeln) usw.
+Beispielsweise können Sie Benutzern, die Ihre Seite mit einem Smartphone besuchen, andere Inhalte anzeigen als Benutzern, die mit einem Computer kommen. In diesem Fall können Sie die Zielgruppe [!UICONTROL Mobiltelefon] und dann die Option **[!UICONTROL Ist Mobiltelefon]** auswählen. Sie können dann alle spezifischen Details hinzufügen, die für Sie wichtig sind, z. B. den Typ des Telefons, die Größe des Bildschirms (in Pixeln) usw.
 
 Das mobile Targeting wird von [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), einem Service von DotMobi bereitgestellt. DeviceAtlas ist eine umfassende Datenbank mobiler Geräte, die auf Daten beruht, die aus zahlreichen Quellen zusammengefasst wurden, einschließlich von Herstellern und Netzwerkbetreibern. Diese Daten wurden dann geprüft, referenziert und validiert, um eine große, genaue Datenbank der verfügbaren mobilen Geräte zu erstellen.
 
@@ -50,10 +50,10 @@ Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werde
 
 Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobile SDK) verwenden, können diese Parameter selbst erfassen und als Mbox-Parameter übergeben.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Mobile]** per Drag-and-Drop in den Bereich Audience Builder .
-1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Ziehen Sie **[!UICONTROL Mobile]** in den Audience Builder-Bereich.
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
    * Gerätemarketingbezeichnung
    * Gerätemodell
@@ -70,7 +70,7 @@ Kunden, die eine benutzerspezifische Integration (also weder at.js noch das Mobi
    >Sie können das Targeting nach Mobilnetzbetreiber mithilfe der [Geo-Einstellungen](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670) vornehmen.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 Die folgende Abbildung zeigt eine Zielgruppe, die Besuchende anspricht, die von Google hergestellte Geräte verwenden, bei denen es sich um Mobilgeräte handelt.
 
@@ -82,7 +82,7 @@ Beachten Sie beim Targeting von Mobilgeräten die folgenden Informationen:
 
 ### Targeting von Geräten mit iOS 12.2 oder höher
 
-Aufgrund der neuen Änderungen in iOS 12.2 ist die Erstellung einer Zielgruppe mit Regeln, die von [!UICONTROL Device Marketing Name] und [!UICONTROL Device Model] definiert werden und iPhone-Modelle angeben, nicht mehr möglich. [!DNL Target] können keine Benutzer mehr ansprechen, auf denen iPhones mit iOS 12.2 (oder höher) installiert sind. Wenn diese Benutzenden jedoch nicht über iOS 12.2 (oder höher) verfügen, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
+Aufgrund der neuen Änderungen in iOS 12.2 ist die Erstellung einer Zielgruppe mit Regeln, die durch [!UICONTROL Device Marketing Name] und [!UICONTROL Device Model] definiert sind und iPhone-Modelle angeben, beeinträchtigt. [!DNL Target] können keine Benutzer mehr ansprechen, auf denen iPhones mit iOS 12.2 (oder höher) installiert sind. Wenn diese Benutzenden jedoch nicht über iOS 12.2 (oder höher) verfügen, funktioniert das iPhone-Modell-Targeting weiterhin ordnungsgemäß.
 
 Das Update von iOS 12.2 (oder höher) wirkt sich nicht auf die Identifizierung der folgenden Modelle aus, da diese das Upgrade auf iOS 12.2 nicht unterstützen: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina-Display, iPad Retina (4. Generation), iPod Touch 4 und iPod Touch 5.
 

@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +24,7 @@ Ein Elementselektor ist ein CSS-Ausdruck, mit dem ein oder mehrere Elemente iden
 
 Grundlegende Informationen zu CSS-Selektoren finden Sie im Dokument [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) auf der *[!DNL Mozilla Developer Network]* (MDN).
 
-Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie auf **[!UICONTROL Administration > Visual Experience Composer]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
+Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovoreinstellungen verwenden möchten. Klicken Sie **[!UICONTROL Administration > Visual Experience Composer]** und wählen Sie dann Ihre bevorzugten CSS-Selektoren aus.
 
 * **Element-IDs verwenden**: Deaktivieren Sie diese Option, wenn dieselbe ID für mehrere Elemente verwendet wird, oder die Element-IDs können sich beim Laden der Seite ändern.
 * **Elementklassen verwenden**: Deaktivieren Sie diese Option, wenn sich die Elementklassen auf einer Seite ändern könnten.
@@ -32,7 +32,7 @@ Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovore
 
 >[!NOTE]
 >
->Elementklassen sind als Selektoren in [!UICONTROL A/B Test]-, [!UICONTROL Automated Personalization]- und [!UICONTROL &#x200B; Multivariate Test] verfügbar.
+>Elementklassen sind als Selektoren in den Aktivitäten [!UICONTROL A/B-], [!UICONTROL Automated Personalization] und[!UICONTROL &#x200B; Multivarianz-] verfügbar.
 
 Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

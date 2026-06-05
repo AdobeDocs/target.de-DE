@@ -1,7 +1,7 @@
 ---
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
-description: Verwenden Sie den [!UICONTROL Traffic Estimator], um zu beurteilen, ob Sie über ausreichend Traffic für eine [!UICONTROL Automated Personalization]-Aktivität verfügen, um erfolgreich zu sein.
-title: Wie viel Traffic wird für eine erfolgreiche [!UICONTROL Automated Personalization] benötigt?
+description: Verwenden Sie die [!UICONTROL Traffic-Schätzung] um zu beurteilen, ob genügend Traffic für eine [!UICONTROL Automated Personalization]-Aktivität vorhanden ist.
+title: Wie viel Traffic wird für eine erfolgreiche Aktivität vom Typ [!UICONTROL Automated Personalization] benötigt?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
@@ -14,63 +14,63 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 9%
+source-wordcount: 794
+ht-degree: 8%
 
 ---
 
 # Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
-Die [!DNL Adobe Target]-[!UICONTROL Traffic Estimator] bietet Feedback, mit dem Sie wissen, ob Sie über ausreichend Traffic verfügen, damit Ihre [!UICONTROL Automated Personalization] (AP)-Aktivität erfolgreich ist.
+Die [!DNL Adobe Target]Traffic[!UICONTROL Schätzung] liefert Feedback, mit dem Sie wissen, ob Sie über ausreichend Traffic für eine erfolgreiche [!UICONTROL Automated Personalization] (AP)-Aktivität verfügen.
 
-Da [!UICONTROL Automated Personalization] Aktivitäten mehrere Angebotskombinationen verwenden, ist es wichtig zu wissen, wie viel Traffic erforderlich ist, um aussagekräftige Ergebnisse zu erzielen. Der [!UICONTROL Traffic Estimator] verwendet Statistiken zu Ihrer Seite und der Anzahl der Erlebnisse, die getestet werden, um die Menge an Traffic und die Testdauer zu schätzen, die für den Erfolg der Aktivität erforderlich sind.
+Da [!UICONTROL Automated Personalization]-Aktivitäten mehrere Angebotskombinationen verwenden, ist es wichtig zu wissen, wie viel Traffic erforderlich ist, um aussagekräftige Ergebnisse zu erzielen. Die [!UICONTROL Traffic-Schätzung] nutzt Statistiken zu Ihrer Seite und der Anzahl der getesteten Erlebnisse, um die Menge an Traffic und die Testdauer zu schätzen, die für den Erfolg der Aktivität erforderlich sind.
 
-Die [!UICONTROL Traffic Estimator] bestimmt, ob ausreichend Traffic vorhanden ist, um personalisierte Modelle zu generieren, indem sie die geschätzten Seitenimpressionen und die typische Konversionsrate für die Seiten vergleicht. Idealerweise gewährleistet die korrekte Stichprobengröße bei einer erfolgreichen Aktivität, dass personalisierter Inhalt innerhalb von 50 % der Dauer der Aktivität oder innerhalb von 14 Tagen bereit ist (je nachdem, welcher Fall zuerst eintritt). Dieser Prozess lässt ausreichend Zeit für den Erhalt personalisierter Inhalte und das Erlernen der bereitzustellenden Inhalte.
+Die [!UICONTROL Traffic-Schätzung] bestimmt, ob ausreichend Traffic vorhanden ist, um personalisierte Modelle zu generieren, indem die geschätzten Seitenimpressionen und die typische Konversionsrate für die Seiten verglichen werden. Idealerweise gewährleistet die korrekte Stichprobengröße bei einer erfolgreichen Aktivität, dass personalisierter Inhalt innerhalb von 50 % der Dauer der Aktivität oder innerhalb von 14 Tagen bereit ist (je nachdem, welcher Fall zuerst eintritt). Dieser Prozess lässt ausreichend Zeit für den Erhalt personalisierter Inhalte und das Erlernen der bereitzustellenden Inhalte.
 
-Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitstellt, bis die Personalisierungsalgorithmen erstellt werden. Das Häkchensymbol neben jedem Angebot zeigt an, wenn das Modell für dieses Angebot bereit ist und [!DNL Target] mit der Bereitstellung personalisierter Inhalte beginnen kann. Da die Steigerung erst nach Fertigstellung der Modelle erwartet wird, können Sie mit der visuellen Anzeige die richtigen Erwartungen festlegen. Verwenden Sie die [!UICONTROL Traffic Estimator] im [!UICONTROL Visual Experience Composer] (VEC), um eine Richtlinie zu erhalten, wann die Modelle bereit sind.
+Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitstellt, bis die Personalisierungsalgorithmen erstellt werden. Das Häkchensymbol neben jedem Angebot zeigt an, wenn das Modell für dieses Angebot bereit ist und [!DNL Target] mit der Bereitstellung personalisierter Inhalte beginnen kann. Da die Steigerung erst nach Fertigstellung der Modelle erwartet wird, können Sie mit der visuellen Anzeige die richtigen Erwartungen festlegen. Verwenden Sie die [!UICONTROL Traffic-Schätzung] im [!UICONTROL Visual Experience Composer] (VEC), um eine Richtlinie zu erhalten, wann die Modelle bereit sind.
 
 ## Traffic-Schätzung verwenden
 
-1. Klicken Sie auf der [!UICONTROL Experiences] der [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Automated Personalization] auf das Symbol **[!UICONTROL Traffic]** ( ![Traffic-Schätzung-](/help/main/assets/icons/Gauge2.svg) ) oben links auf der [!UICONTROL Experiences].
+1. Klicken Sie auf der [!UICONTROL Erlebnisse] des [!UICONTROL Visual Experience Composer] in einer [!UICONTROL Automated Personalization]-Aktivität auf das **[!UICONTROL Traffic]**-Symbol ( ![Traffic-Schätzsymbol](/help/main/assets/icons/Gauge2.svg) ) oben links auf der Seite [!UICONTROL Erlebnisse].
 
-   Die [!UICONTROL Traffic Estimator] wird geöffnet.
+   Die [!UICONTROL Traffic-Schätzung] wird geöffnet.
 
    ![Benutzeroberfläche der Traffic-Schätzung](assets/ap-est.png)
 
-   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic Estimator] auszublenden.
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
 1. Geben Sie die typische Konversionsrate (oder die von dieser Aktivität erwartete Konversionsrate), geschätzte Aktivitätsimpressionen pro Tag und die Testdauer an.
 
    | Metrik | Beschreibung |
    | --- | --- |
-   | **[!UICONTROL Number of Offers]** | Diese Metrik wird automatisch anhand der Anzahl der Erlebnisse berechnet, die im Rahmen Ihrer Aktivität nach allen Ausschlüssen erstellt werden. |
-   | **[!UICONTROL Typical Conversion Rate]** | Diese Metrik wird als Prozentsatz ausgedrückt, basierend auf Ihrer Schätzung oder früheren Daten aus Ihrem Analysesystem. |
-   | **[!UICONTROL Estimated Visits Per Day]** | Diese Metrik stellt die Anzahl der Besuche pro Tag dar, die Besucherinnen und Besucher, die die Aktivität anzeigen können, auf der Grundlage der Targeting-Kriterien verzeichnen. Diese Metrik könnte auf Ihren Analysedaten basieren. Bei dieser Zahl muss es sich um Besuche und nicht um Unique Visitors handeln. |
-   | **[!UICONTROL Test Duration]** | Die Anzahl der Tage, binnen derer Sie die Aktivität ausführen möchten. |
+   | **[!UICONTROL Anzahl der Angebote]** | Diese Metrik wird automatisch anhand der Anzahl der Erlebnisse berechnet, die im Rahmen Ihrer Aktivität nach allen Ausschlüssen erstellt werden. |
+   | **[!UICONTROL Typische Konversionsrate]** | Diese Metrik wird als Prozentsatz ausgedrückt, basierend auf Ihrer Schätzung oder früheren Daten aus Ihrem Analysesystem. |
+   | **[!UICONTROL Geschätzte Besuche pro Tag]** | Diese Metrik stellt die Anzahl der Besuche pro Tag dar, die Besucherinnen und Besucher, die die Aktivität anzeigen können, auf der Grundlage der Targeting-Kriterien verzeichnen. Diese Metrik könnte auf Ihren Analysedaten basieren. Bei dieser Zahl muss es sich um Besuche und nicht um Unique Visitors handeln. |
+   | **[!UICONTROL Testdauer]** | Die Anzahl der Tage, binnen derer Sie die Aktivität ausführen möchten. |
 
-   Der [!UICONTROL Traffic Estimator] verwendet diese Metriken, um zu bestimmen, welche Anpassungen für die Ausführung eines erfolgreichen Tests erforderlich sind.
+   Die [!UICONTROL Traffic-Schätzung] verwendet diese Metriken, um zu bestimmen, welche Anpassungen erforderlich sind, um einen erfolgreichen Test auszuführen.
 
-   Im oberen Bereich der [!UICONTROL Traffic Estimator] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
+   In der Nähe des oberen Bereichs der [!UICONTROL Traffic-Schätzung] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
 
    ![Traffic-Schätzung mit angezeigten Werten und Ergebnissen](assets/ap-est-no.png)
 
-   Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie beispielsweise viele Kombinationen testen und Ihre Konversionsrate und Impressions zu niedrig sind, zeigt die [!UICONTROL Traffic Estimator] an, wie lange der Test ausgeführt werden muss, um erfolgreich zu sein. Wenn Ihr Traffic niedrig ist, kann der [!UICONTROL Traffic Estimator] eine niedrigere Anzahl von Angebotskombinationen vorschlagen, sodass Sie den Test die gewünschte Anzahl von Tagen ausführen können.
+   Wenn Sie die Zahlen ändern, ändern sich auch die Schätzwerte. Wenn Sie beispielsweise viele Kombinationen testen und Ihre Konversionsrate und Impressions zu niedrig sind, zeigt die [!UICONTROL Traffic-Schätzung] an, wie lange der Test ausgeführt werden muss, um erfolgreich zu sein. Wenn Ihr Traffic gering ist, kann die [!UICONTROL Traffic-Schätzung] eine niedrigere Anzahl von Angebotskombinationen vorschlagen, sodass Sie den Test über die gewünschte Anzahl von Tagen ausführen können.
 
    Wenn Sie nicht über ausreichend Traffic verfügen, beachten Sie Folgendes:
 
-   * Erwägen Sie die Verwendung einer [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) Aktivität anstelle von [!UICONTROL Automated Personalization], um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
-   * Verringern Sie die Anzahl der Angebotskombinationen innerhalb Ihrer [!UICONTROL Automated Personalization].
+   * Erwägen Sie die Verwendung einer [[!UICONTROL automatischen Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)-Aktivität anstelle von [!UICONTROL Automated Personalization] um Erlebnisse mit mehreren Angebotsänderungen in einer Erlebnisvariante zu erstellen.
+   * Verringern Sie die Anzahl der Angebotskombinationen innerhalb Ihrer [!UICONTROL Automated Personalization]-Aktivität.
    * Erhöhen Sie die Dauer der Aktivität.
 
-   Passen Sie die Zahlen an, bis die [!UICONTROL Traffic Estimator] anzeigt, dass Sie über ausreichend Traffic verfügen, und entwerfen Sie dann Ihren Test entsprechend.
+   Passen Sie die Zahlen an, bis [!UICONTROL Traffic-Schätzung] anzeigt, dass Sie über ausreichend Traffic verfügen, und entwerfen Sie dann Ihren Test entsprechend.
 
    ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap-est-yes.png)
 
-   Wenn der Traffic ausreichend ist, zeigt das [!UICONTROL Traffic]-Symbol einen grünen Haken an. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
+   Wenn der Traffic ausreichend ist, wird [!UICONTROL &#x200B; Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 
 ## Häufig gestellte Fragen zur Traffic-Schätzung
 
-Beachten Sie bei der Arbeit mit dem [!UICONTROL Traffic Estimator] die folgenden häufig gestellten Fragen:
+Beachten Sie bei der Arbeit mit der Traffic[!UICONTROL Schätzung die folgenden häufig gestellten Fragen]:
 
 ### Warum werden keine personalisierten Modelle erstellt, obwohl meine API-Aktivität über ausreichend Traffic verfügt?
 

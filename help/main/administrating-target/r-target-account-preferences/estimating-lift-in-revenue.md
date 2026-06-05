@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Schätzen Sie mithilfe von [!DNL Adobe Target] die Umsatzsteigerung, die Sie erz
 
 >[!NOTE]
 >
->Die geschätzte Steigerung ist derzeit nicht für [!UICONTROL Experience Targeting] (XT)-Aktivitäten verfügbar.
+>Die geschätzte Steigerung ist derzeit nicht für [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT) verfügbar.
 
 Die Funktion zur Schätzung der Steigerung ist standardmäßig deaktiviert. Sie kann über die Kontovoreinstellungen aktiviert werden. Experience Cloud-Administratoren können diese Funktion aktivieren bzw. deaktivieren. Wenn die Schätzung der Steigerung deaktiviert ist, werden die entsprechenden Felder nicht auf der Benutzeroberfläche angezeigt. Durch die Deaktivierung der Funktion gehen keine Daten verloren, auch nicht die Daten, die für Ihre Schätzungen verwendet werden. Die Schätzungen basieren auf den erfassten Daten, unabhängig davon, ob die Funktion aktiviert ist oder nicht.
 

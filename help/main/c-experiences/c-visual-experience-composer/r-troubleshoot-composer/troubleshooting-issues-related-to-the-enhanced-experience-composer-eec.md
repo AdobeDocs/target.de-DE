@@ -1,7 +1,7 @@
 ---
 keywords: Targeting;EEC;Visual Experience Composer;Fehlerbehebung für Enhanced Experience Composer;Fehlerbehebung
-description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen manchmal in der  [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EWG) auftreten.
-title: Wie kann ich Probleme im Zusammenhang mit der [!UICONTROL Enhanced Experience Composer] beheben?
+description: Erfahren Sie, wie Sie Probleme beheben können, die unter bestimmten Bedingungen  [!DNL Adobe Target] [!UICONTROL &#x200B; Enhanced Experience &#x200B;] (EEC) auftreten.
+title: Wie behebe ich Probleme mit dem [!UICONTROL Enhanced Experience Composer]?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
@@ -16,14 +16,14 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 28%
+source-wordcount: 509
+ht-degree: 29%
 
 ---
 
-# Fehlerbehebung bei Problemen im Zusammenhang mit der [!UICONTROL Enhanced Experience Composer]
+# Beheben von Problemen mit dem [!UICONTROL Enhanced Experience Composer]
 
-Anzeigeprobleme treten manchmal unter bestimmten Bedingungen im [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) auf.
+Anzeigeprobleme treten unter bestimmten Bedingungen manchmal im [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) auf.
 
 ## Der EEC lädt eine interne QA-URL, auf die nicht über eine öffentliche IP zugegriffen werden kann, nicht. {#section_D29E96911D5C401889B5EACE267F13CF}
 
@@ -143,29 +143,29 @@ Möglicherweise wird die folgende Fehlermeldung in [!DNL Target] angezeigt:
 
 Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Korrigieren der Situation aufgeführt:
 
-* **Problem:** Ihre Website-Domain (ISP) blockiert die [!UICONTROL Enhanced Experience Composer].
+* **Problem:** Ihre Website-Domain (ISP) blockiert den [!UICONTROL Enhanced Experience Composer].
 
   **Remedy:** die oben aufgeführten IP-Adressen.
 
 * **Problem:** Die IP-Adressen werden zwar auf die Zulassungsliste gesetzt, Ihre Website unterstützt jedoch keine TLS-Version 1.2. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS-(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=de){target=_blank}.
 
-  **Lösung:** Sehen Sie sich die folgende Frage an (der [!UICONTROL Enhanced Visual Experience Composer] wird nicht auf sicheren Seiten meiner Site geladen, die TLS 1.2 verwenden).
+  **Lösung:** Siehe die folgende Frage (Der [!UICONTROL Enhanced Visual Experience Composer] wird nicht auf sicheren Seiten meiner Site geladen, die TLS 1.2 verwenden).
 
 +++
 
 ## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Details
-Möglicherweise wird die oben unter „Der [!UICONTROL Enhanced Visual Experience Composer] wird nicht auf sicheren Seiten meiner Site geladen“ beschriebene Fehlermeldung angezeigt. wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt werden, Ihre Website TLS Version 1.2 jedoch nicht unterstützt. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS-(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=de){target=_blank}.
+Möglicherweise wird die oben unter „Der [!UICONTROL Enhanced Visual Experience Composer] beschriebene Fehlermeldung nicht auf sicheren Seiten meiner Site geladen“. wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt werden, Ihre Website TLS Version 1.2 jedoch nicht unterstützt. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS-(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=de){target=_blank}.
 
 So überprüfen Sie die TLS-Version auf Ihrer Website mit Firefox (bei anderen Browsern sind die Schritte ähnlich):
 
 1. Öffnen Sie die betroffene Website in Firefox.
-1. Klicken Sie auf das **[!UICONTROL Show Site Information]** in der Adressleiste des Browsers.
+1. Klicken Sie in der Adresszeile des Browsers auf das Symbol **[!UICONTROL Website-Informationen anzeigen]**.
 
    ![Firefox_more_info Bild](assets/firefox_more_info.png)
 
-1. Klicken Sie auf **[!UICONTROL Show Connection Details]** > **[!UICONTROL More Information]**.
+1. Klicken Sie auf **[!UICONTROL Verbindungsdetails anzeigen]** > **[!UICONTROL Weitere Informationen]**.
 
    ![Firefox_more_info_2 Bild](assets/firefox_more_info_2.png)
 

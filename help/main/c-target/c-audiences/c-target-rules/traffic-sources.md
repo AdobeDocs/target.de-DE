@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 53%
+source-wordcount: 267
+ht-degree: 51%
 
 ---
 
@@ -26,27 +26,27 @@ Sie können z. B. das Ziel nach dem Browser des Benutzers, der Suchmaschine ode
 
 Sie können mehrere Traffic-Quellen kombinieren, um eine komplexe Targeting-Regel zu erstellen.
 
-1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Klicken Sie in der [!DNL Target] auf **[!UICONTROL Zielgruppen]** > **[!UICONTROL Zielgruppe erstellen]**.
 1. &#x200B;
    1. Benennen Sie die Zielgruppe und fügen Sie eine optionale Beschreibung hinzu.
-1. Ziehen Sie **[!UICONTROL Traffic Sources]** per Drag-and-Drop in den Bereich Audience Builder .
+1. Ziehen Sie „Traffic **[!UICONTROL Quellen]** per Drag-and-Drop in den Audience Builder-Bereich.
 
    ![target_traffic_source Bild](assets/target_traffic_source.png)
 
-1. Klicken Sie auf **[!UICONTROL Select]** und wählen Sie dann eine der folgenden Optionen aus:
+1. Klicken Sie auf **[!UICONTROL Auswählen]** und wählen Sie anschließend eine der folgenden Optionen aus:
 
-   * **[!UICONTROL From Baidu]**
-   * **[!UICONTROL From Bing]**
-   * **[!UICONTROL From Google]**
-   * **[!UICONTROL From Yahoo]**
-   * **[!UICONTROL Referring Landing Page: URL]**
-   * **[!UICONTROL Referring Landing Page: Domain]**
-   * **[!UICONTROL Referring Landing Page: Query]**
+   * **[!UICONTROL Von Baidu]**
+   * **[!UICONTROL Von Bing]**
+   * **[!UICONTROL Aus Google]**
+   * **[!UICONTROL Von Yahoo]**
+   * **[!UICONTROL Verweisende Landingpage: URL]**
+   * **[!UICONTROL Verweisende Landingpage: Domain]**
+   * **[!UICONTROL Verweisende Landingpage: Abfrage]**
 
    Je nach Auswahl müssen Sie möglicherweise zusätzliche Informationen (Auswerter und/oder Werte) angeben.
 
 1. (Optional) Richten Sie zusätzliche Regeln für die Zielgruppe ein.
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 Sie können Benutzer, die durch eine bestimmte Suchmaschine oder eine bestimmte Landingpage auf Ihre Site verwiesen werden, als Ziel auswählen.
 

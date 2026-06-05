@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '503'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 7%
 
 Dynamisches Filtern in [!DNL Adobe Target] [!DNL Recommendations] durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.
 
-Verwenden Sie [!UICONTROL Profile Attribute Matching], wenn Sie Empfehlungen anzeigen möchten, die einem im Besucherprofil gespeicherten Wert entsprechen, z. B. Größe oder Lieblingsmarke.
+Verwenden Sie [!UICONTROL Profilattributabgleich] wenn Sie Empfehlungen anzeigen möchten, die mit einem im Besucherprofil gespeicherten Wert übereinstimmen, z. B. Größe oder Lieblingsmarke.
 
 >[!NOTE]
 >
 >Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
-Die folgenden Szenarien zeigen, wie Sie [!UICONTROL Profile Attribute Matching] verwenden können:
+Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ &#x200B;] können:
 
 * Ein Unternehmen, das Brillen verkauft, speichert die Lieblingsrahmenfarbe eines Besuchers als „Walnuss“. Für diesen spezifischen Besucher werden Empfehlungen erstellt, die nur Brillenfassungen zurückgeben, die der Farbe „Walnuss“ entsprechen.
 * Ein Profilparameter kann für die Kleidungsgröße (z. B. klein, Medium oder groß) eines Besuchers definiert werden, wenn dieser auf der Website Ihres Unternehmens navigiert. Es kann eine Empfehlung eingerichtet werden, die diesem Profilparameter entspricht und Produkte zurückgibt, die nur der bevorzugten Kleidungsgröße des Benutzers entsprechen.
 
 ## Beispiele für die Zuordnung von Profilattributen {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-Mit [!UICONTROL Profile Attribute Matching] können Sie nur die Elemente empfehlen, die einem Attribut aus dem Besucherprofil entsprechen, wie in den Beispielen unten dargestellt.
+[!UICONTROL Profilattributabgleich] ermöglicht es Ihnen, nur die Elemente zu empfehlen, die mit einem Attribut aus dem Besucherprofil übereinstimmen, wie in den Beispielen unten dargestellt.
 
 ### Empfohlene Artikel der Lieblingsmarke des Benutzers
 
-Sie können beispielsweise die Option [!UICONTROL Profile Attribute Matching] verwenden, um eine Regel zu erstellen, die Elemente nur dann empfiehlt, wenn die Marke dem in `profile.favoritebrand` gespeicherten Wert oder Text entspricht. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
+Sie können beispielsweise die Option [!UICONTROL Profilattributübereinstimmung] verwenden, um eine Regel zu erstellen, die Elemente nur dann empfiehlt, wenn die Marke dem in `profile.favoritebrand` gespeicherten Wert oder Text entspricht. Wenn ein Besucher mit einer solchen Regel nach Laufshorts von einer bestimmten Marke sucht, werden nur Empfehlungen angezeigt, die mit der Lieblingsmarke des jeweiligen übereinstimmen (dem unter `profile.favoritebrand` im Profil des Benutzers gespeicherten Wert).
 
 ![Lieblingsmarke](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 

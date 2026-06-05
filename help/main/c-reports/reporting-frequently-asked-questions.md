@@ -20,8 +20,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 21%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +75,9 @@ Mehrere neue Besucher besuchen Ihre Site und sind für eine Aktivität qualifizi
 
 Einige Besucher erreichen die Konversionsmetrik, die als „Anzahl erhöhen und Benutzer in Aktivität halten“ konfiguriert wurde. Angenommen, einige dieser Benutzenden treffen die Konversionsmetrik mehrmals, dann erhöht sich die Konversionsmetrik nicht. Bei dieser Einrichtung können einige Benutzende jedoch auf die Konversionsmetrik klicken und dann zurück zur Startseite navigieren, wobei sie sich erneut für die Aktivität qualifizieren, um einen neuen Besuch aufzuzeichnen.
 
-## Warum enthalten meine [!UICONTROL Experience Targeting] (XT)-Berichte Metriken für Kontrollerlebnisse?
+## Warum enthalten meine [!UICONTROL Experience Targeting]-Berichte (XT-Berichte) Metriken für Kontrollerlebnisse?
 
-XT-Aktivitäten sollten immer ein Kontrollerlebnis haben. Wenn Sie eine XT -Aktivität auf ähnliche Weise wie eine [!UICONTROL A/B Test] verwenden, was ein recht häufiges Szenario ist, sind die Daten zum Kontrollerlebnis nützlich. Wenn die Kontrollerlebnisdaten in Ihren Berichten nicht nützlich sind, können Sie sie ignorieren.
+XT-Aktivitäten sollten immer ein Kontrollerlebnis haben. Wenn Sie eine XT-Aktivität auf ähnliche Weise wie eine [!UICONTROL A/B-Test]-Aktivität verwenden, was ein relativ häufiges Szenario ist, sind die Daten zum Kontrollerlebnis nützlich. Wenn die Kontrollerlebnisdaten in Ihren Berichten nicht nützlich sind, können Sie sie ignorieren.
 
 ## Warum ist die Anzahl der Besuche in [!DNL Target] niedriger als in anderen [!DNL Adobe Experience Cloud] Lösungen? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +101,16 @@ Wurde der Inhalt einer Aktivität den Benutzern erfolgreich bereitgestellt, enth
 
 So ändern Sie die Umgebung für einen Aktivitätsbericht:
 
-1. Klicken Sie auf **[!UICONTROL Activities]**, dann in der Liste auf die gewünschte Aktivität, und klicken Sie anschließend auf die Registerkarte **[!UICONTROL Reports]** .
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
    ![Dialogfeld für A/B-Einstellungen](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Environment]** die Option **[!UICONTROL Production]** aus.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Umgebung]** die Option **[!UICONTROL Produktion]** aus.
 
    Möglicherweise stehen Berichtsdaten bei Auswahl einer Entwicklungsumgebung nicht zur Verfügung.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -118,16 +118,16 @@ Weitere Informationen zu Umgebungen finden Sie unter [Hosts](/help/main/administ
 
 Wenn der Inhalt einer Aktivität erfolgreich für Benutzer bereitgestellt wurde, ihr Bericht jedoch keine Daten enthält, stellen Sie sicher, dass Sie ein Erlebnis mit Traffic als Kontrollerlebnis verwenden.
 
-1. Klicken Sie auf **[!UICONTROL Activities]**, dann in der Liste auf die gewünschte Aktivität, und klicken Sie anschließend auf die Registerkarte **[!UICONTROL Reports]** .
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]**, wählen Sie die gewünschte Aktivität aus der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Berichte]**.
 1. Klicken Sie auf das Zahnradsymbol, um die Berichtseinstellungen zu bearbeiten.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Control]** ein Erlebnis aus, das Traffic erhält.
+1. Wählen Sie aus **[!UICONTROL Dropdown-Liste]** Kontrolle“ ein Erlebnis aus, das Traffic erhält.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
->Weitere Informationen zum Aktualisieren einer [!UICONTROL Automated Personalization] (AP)-Aktivität und zum Ändern des Kontrollerlebnisses in ein Erlebnis, das Traffic erhält, finden Sie unter [Auswahl des Kontrollelements für die Automated Personalization- oder automatische Targeting-Aktivität](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Weitere Informationen zum Aktualisieren einer [!UICONTROL Automated Personalization] (AP)-Aktivität und zum Ändern des Kontrollerlebnisses in ein Erlebnis, das Traffic empfängt, finden Sie unter [Auswählen des Kontrollelements für die Automated Personalization- oder automatische Targeting-Aktivität](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Warum wird der Traffic zwischen meinen Erlebnissen in meiner A/B- oder MVT-Aktivität unterschiedlich aufgeteilt? {#uneven}
@@ -135,7 +135,7 @@ Wenn der Inhalt einer Aktivität erfolgreich für Benutzer bereitgestellt wurde,
 Zum Beispiel habe ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 festgelegt, aber ich sehe eine sehr unterschiedliche Verteilung zwischen den Erlebnissen in der Berichterstellung. Es gibt mehrere erklärbare Gründe für eine uneinheitliche Besucherzahl in [!DNL Target]:
 
 * Beim ersten Start einer [!DNL Target]-Aktivität kann die Traffic-Verteilung aufgrund der Edge-Knotenarchitektur, die [!DNL Target] zur Optimierung der Erlebnisbereitstellung verwendet, ungleichmäßig sein. Es empfiehlt sich, einer Aktivität etwas Zeit einzuräumen, um mehr Daten zu erfassen, und die Verteilung normalisiert sich. Weitere Informationen zur [!DNL Adobe Target] und zu Edge-Knoten finden Sie unter [Funktionsweise von Adobe Target](/help/main/c-intro/how-target-works.md).
-* Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] befinden und die **[!UICONTROL Visits]** verwenden, denken Sie daran, dass [!DNL Target] ein besucherbasiertes System ist und die Traffic-Verteilung für einen A/B- oder MVT-Test auf Besucherebene zugewiesen wird. Wenn Sie also die Aktivitätsergebnisse mit der Metrik **[!UICONTROL Visits]** untersuchen, kann die Traffic-Verteilung ungleichmäßig erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die Standard-Normalisierungsmetrik bei der Bewertung der Aktivitätsleistung.
+* Wenn Sie sich in [!DNL Target] oder [!DNL Analytics] befinden und die Metrik **[!UICONTROL Besuche]** verwenden, denken Sie daran, dass [!DNL Target] ein besucherbasiertes System ist und die Traffic-Verteilung für einen A/B- oder MVT-Test auf Besucherebene zugewiesen wird. Wenn Sie also die Aktivitätsergebnisse mit der Metrik **[!UICONTROL Besuche]** untersuchen, kann die Traffic-Verteilung ungleichmäßig erscheinen, da bestimmte Besucher möglicherweise mehrere Besuche haben. Besucher ist die Standard-Normalisierungsmetrik bei der Bewertung der Aktivitätsleistung.
 * Die Best Practice für A/B- und MVT-Tests besteht darin, den Traffic gleichmäßig zu verteilen. Eine Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. von 90/10 auf 50/50) während eines Tests kann zu ungleichen Besucherzahlen zwischen den Erlebnissen führen. Das Erlebnis mit geringerem Traffic wird möglicherweise nie „aufholen“.
 * Wenn Sie die oben genannten Best Practices befolgen und die Traffic-Aufteilung sich im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 

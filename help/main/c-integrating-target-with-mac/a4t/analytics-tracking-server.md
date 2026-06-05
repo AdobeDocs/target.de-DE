@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Wenn Sie eine ältere Version von at.js verwenden, müssen Sie einen [!DNL Analy
 
 >[!NOTE]
 >
->Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Goals & Settings] leer lassen.
+>Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 >
 >Das [!DNL Target]-Team unterstützt sowohl at.js 1.*x* als auch at.js 2.*x*. Aktualisieren Sie auf die neueste Version einer der Hauptversionen von at.js, um sicherzustellen, dass Sie eine unterstützte Version ausführen. Weitere Informationen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
@@ -42,7 +42,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
    Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=de).
 
-1. Klicken Sie im linken Navigationsmenü auf **[!UICONTROL Analytics]** .
+1. Klicken **[!UICONTROL im]** Navigationsmenü auf „Analytics“.
 
    ![screen_debuggerTrackServ image](assets/Screen_DebuggerTrackServ.png)
 
@@ -54,11 +54,11 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Kopieren Sie den Inhalt des Felds vollständig.
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Reporting Settings]** des Bildschirms **[!UICONTROL Goal & Settings]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking Server]** ein.
+1. Fügen Sie **[!UICONTROL Abschnitt &quot;]**&quot; des Bildschirms **[!UICONTROL Ziel und Einstellungen]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking-Server]** ein.
 
    >[!NOTE]
    >
-   >Wählen Sie [!UICONTROL Analytics as the Reporting Source] für Ihre Aktivität aus, damit das Feld [!UICONTROL Tracking Server] verfügbar ist.
+   >Wählen Sie [!UICONTROL Analytics als Reporting-Source] aus, damit Ihre Aktivität für das Feld [!UICONTROL Tracking-Server] verfügbar ist.
 
 ## Abrufen des [!DNL Analytics] Tracking-Servers mit den Entwickler-Tools Ihres Browsers
 
@@ -68,7 +68,7 @@ Die Entwickler-Tools sollten auf einer Seite angezeigt werden, auf der die Aktiv
 
    ![Chrome-Entwickler-Tools](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Network]** .
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Netzwerk“.
 
 1. Filtern Sie nach `/ss,`, um die [!DNL Analytics] anzuzeigen.
 
@@ -82,8 +82,8 @@ Die Entwickler-Tools sollten auf einer Seite angezeigt werden, auf der die Aktiv
 
 1. Kopieren Sie den Inhalt des Felds vollständig.
 
-1. Fügen Sie im Abschnitt **[!UICONTROL Reporting Settings]** des Bildschirms **[!UICONTROL Goal & Settings]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking Server]** ein.
+1. Fügen Sie **[!UICONTROL Abschnitt &quot;]**&quot; des Bildschirms **[!UICONTROL Ziel und Einstellungen]** Ihrer Aktivität die Tracking-Server-Informationen in das Feld **[!UICONTROL Tracking-Server]** ein.
 
    >[!NOTE]
    >
-   >Wählen Sie [!UICONTROL Analytics as the Reporting Source] für Ihre Aktivität aus, damit das Feld [!UICONTROL Tracking Server] verfügbar ist.
+   >Wählen Sie [!UICONTROL Analytics als Reporting-Source] aus, damit Ihre Aktivität für das Feld [!UICONTROL Tracking-Server] verfügbar ist.

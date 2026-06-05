@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 75%
+source-wordcount: 903
+ht-degree: 76%
 
 ---
 
@@ -30,36 +30,36 @@ ht-degree: 75%
 
 ## Klick-Tracking einrichten {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Goals & Settings] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Conversion]** aus.
-1. Wählen Sie als Aktion **[!UICONTROL Clicked an element]** aus und klicken Sie dann auf **[!UICONTROL Select elements]**.
+1. Wenn Sie die Ziele für Ihre Aktivität auf der Seite [!UICONTROL Ziele und Einstellungen] festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]** aus.
+1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
 
-   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
+   Ihre Seite wird im [!UICONTROL Visual Experience Composer] (VEC) geöffnet.
 
 1. Wählen Sie die Elemente aus, die Sie verfolgen möchten.
 
    Tipps zur Auswahl von Elementen finden Sie unten im Abschnitt *Zu beachten*.
 
-1. Klicken Sie oben auf dem Bildschirm auf **[!UICONTROL Done]** , um Ihre Auswahl zu speichern.
+1. Klicken **[!UICONTROL oben]** Bildschirm auf „Fertig“, um Ihre Auswahl zu speichern.
 
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
 ## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
-Bei [!UICONTROL A/B Test]-, [!UICONTROL Experience Targeting]- (XT), [!UICONTROL Automated Personalization]- (AP) und [!UICONTROL Multivariate Test]-(MVT)-Aktivitäten werden im [!UICONTROL Selected Elements] die für das Klick-Tracking ausgewählten Elemente auf der linken Seite aufgelistet.
+Für [!UICONTROL A/B]-, [!UICONTROL Erlebnis-Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Multivarianz-Test]&#x200B;(MVT)-Aktivitäten werden im Bereich [!UICONTROL Ausgewählte Elemente] die für Klick-Tracking ausgewählten Elemente auf der linken Seite aufgeführt.
 
 ![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im [!UICONTROL Tracked Components] klicken. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im Bedienfeld &quot;[!UICONTROL &#x200B; Komponenten“ &#x200B;]. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Zeigt die Elementaktion an. |
-| [!UICONTROL CSS selector] | Ermöglicht die Bearbeitung des CSS-Selektors. |
+| [!UICONTROL Getrackte Aktionen] | Zeigt die Elementaktion an. |
+| [!UICONTROL CSS-Auswahl] | Ermöglicht die Bearbeitung des CSS-Selektors. |
 | [!DNL Delete] | Löscht das Element. |
 
 ### Element hinzufügen
 
-Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das [!UICONTROL Add Component] oben im Bedienfeld klicken.
+Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Symbol [!UICONTROL Komponente hinzufügen] oben im Bedienfeld klicken.
 
 ## Zu beachten {#considerations}
 
@@ -116,7 +116,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetriken enthalten.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen von [!UICONTROL Conversion], [!UICONTROL Revenue] und [!UICONTROL Engagement] Metriken
+* Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

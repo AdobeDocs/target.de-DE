@@ -1,5 +1,5 @@
 ---
-title: Web-Anwendungen
+title: Webanwendungen
 description: Erfahren Sie, wie Sie Flags mithilfe der Web-SDK in eine Web-Anwendung integrieren.
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
@@ -10,7 +10,7 @@ ht-degree: 9%
 
 ---
 
-# Web-Anwendungen {#web-applications}
+# Webanwendungen {#web-applications}
 
 Web-Anwendungen können über die Web-SDK mit Flags integriert werden.
 

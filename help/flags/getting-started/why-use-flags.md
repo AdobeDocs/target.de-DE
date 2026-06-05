@@ -5,7 +5,7 @@ hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Gleichzeitiges Aktivieren einer Funktion über mehrere Programme und Teams hinwe
 **Zurückgestellte Versionen**
 Stellen Sie Code vorab für die Produktion bereit und aktivieren Sie dann die Funktion zu einem bestimmten Zeitpunkt - z. B. zu Beginn eines Produkteinführungsereignisses - ohne Code-Änderung in letzter Minute.
 
-**Schalter töten**
+**Kill-Schalter**
 Wenn nach der Veröffentlichung ein Problem erkannt wird, schalten Sie die Funktion sofort aus, ohne dass ein Hotfix oder eine erneute Bereitstellung erforderlich ist.
 
 <!-- -->

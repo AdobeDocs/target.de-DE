@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Zielgruppe erstellen; Erstellen von Zielgruppen
-description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und sie in der  [!DNL Adobe Target] [!UICONTROL Audiences]-Bibliothek zur Verwendung in -Aktivitäten speichern.
+description: Erfahren Sie, wie Sie benutzerdefinierte Zielgruppen erstellen und sie in der Bibliothek  [!DNL Adobe Target] [!UICONTROL Audiences] zur Verwendung in Aktivitäten speichern.
 title: Wie erstelle ich Zielgruppen?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 51%
+source-wordcount: 538
+ht-degree: 50%
 
 ---
 
 # Erstellen von Zielgruppen in [!DNL Target]
 
-Erstellen Sie benutzerdefinierte Zielgruppen und speichern Sie sie in der [!DNL Adobe Target] [!UICONTROL Audiences]-Bibliothek, um sie in Ihren Aktivitäten zu verwenden. Sie können auch eine vorhandene Zielgruppe kopieren, die Sie dann bearbeiten können, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen zu kombinieren.
+Erstellen Sie benutzerdefinierte Zielgruppen und speichern Sie sie in der [!DNL Adobe Target] [!UICONTROL Zielgruppen]-Bibliothek zur Verwendung in Ihren Aktivitäten. Sie können auch eine vorhandene Zielgruppe kopieren, die Sie dann bearbeiten können, um eine ähnliche Zielgruppe zu erstellen und mehrere Zielgruppen zu kombinieren.
 
 ## Zielgruppenüberblick
 
@@ -42,15 +42,15 @@ Die folgende Regel richtet sich beispielsweise an Besucherinnen und Besucher, di
 
 ## Erstellen von Zielgruppen
 
-1. Klicken Sie in der oberen Menüleiste auf **[!UICONTROL Audiences]** .
+1. Klicken Sie **[!UICONTROL Zielgruppen]** in der oberen Menüleiste.
 
    ![Audiences_list image](assets/audiences_list.png)
 
-1. Klicken Sie in der [!UICONTROL Audiences] auf **[!UICONTROL Create Audience]**.
+1. Klicken Sie in [!UICONTROL &#x200B; Liste &#x200B;]Zielgruppen“ auf **[!UICONTROL Zielgruppe erstellen]**.
 
    Oder
 
-   Um eine vorhandene Audience zu kopieren, klicken Sie in der Liste &quot;[!UICONTROL Audiences]&quot; auf das **[!UICONTROL More Actions]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallListVert.svg) ) für die Audience, die Sie kopieren möchten, und klicken Sie dann auf **[!UICONTROL Duplicate]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
+   Um eine vorhandene Zielgruppe zu kopieren, klicken Sie in der [!UICONTROL Zielgruppen] auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallListVert.svg) ) für die Zielgruppe, die Sie kopieren möchten, und klicken Sie dann auf **[!UICONTROL Duplizieren]**. Sie können die Zielgruppe anschließend bearbeiten, um eine ähnliche Zielgruppe zu erstellen.
 
 1. Geben Sie einen eindeutigen, beschreibenden Zielgruppennamen und eine optionale Beschreibung ein.
 
@@ -62,7 +62,7 @@ Die folgende Regel richtet sich beispielsweise an Besucherinnen und Besucher, di
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Ziehen Sie die gewünschten Attribute per Drag-and-Drop aus der **[!UICONTROL Attributes]** auf der linken Seite in den Bereich Audience Builder .
+1. Ziehen Sie die gewünschten Attribute aus der Liste **[!UICONTROL Attribute]** auf der linken Seite in den Bereich Audience Builder .
 
    ![Attribute per Drag-and-Drop verschieben](assets/drag-attribute.png)
 
@@ -76,9 +76,9 @@ Die folgende Regel richtet sich beispielsweise an Besucherinnen und Besucher, di
 
 1. (Bedingt) Fahren Sie mit dem Hinzufügen und Definieren der gewünschten Attribute fort.
 
-   Um einen weiteren Container zu erstellen, klicken Sie auf **[!UICONTROL Add container]** oder ziehen Sie einfach ein anderes Attribut in den Audience Builder-Bereich. Sie können dann den Operator (UND oder ODER) mithilfe der Dropdown-Liste anpassen.
+   Um einen weiteren Container zu erstellen, klicken Sie auf **[!UICONTROL Container hinzufügen]** oder ziehen Sie einfach ein anderes Attribut in den Audience Builder-Bereich. Sie können dann den Operator (UND oder ODER) mithilfe der Dropdown-Liste anpassen.
 
-1. Klicken Sie auf **[!UICONTROL Done]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
    Neu erstellte Zielgruppen werden erst nach einigen Sekunden Verarbeitungszeit in der Liste angezeigt. Falls die Zielgruppe nicht sofort in der Liste angezeigt wird, können Sie danach suchen oder die Liste aktualisieren.
 

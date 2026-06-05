@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 Mit Antwort-Token können Sie automatisch Informationen ausgeben, die für die [!DNL Adobe Target] auf der Web-Seite Ihrer Marke spezifisch sind. Diese Informationen können Details zur Aktivität, zum Angebot, zum Erlebnis, zum Benutzerprofil, zu geografischen Informationen und mehr enthalten. Diese Details enthalten zusätzliche Antwortdaten, die für interne Tools oder Tools von Drittanbietern freigegeben oder zum Debugging verwendet werden können.
 
-Mit Antwort-Token können Sie auswählen, welche Variablen (in Schlüsselwertpaaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil einer [!DNL Target]-Antwort gesendet werden können. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target] Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch im [!UICONTROL Preview].
+Mit Antwort-Token können Sie auswählen, welche Variablen (in Schlüsselwertpaaren) verwendet werden sollen, und dann aktivieren, dass sie als Teil einer [!DNL Target]-Antwort gesendet werden können. Sie aktivieren eine Variable mithilfe des Schalters und die Variable wird mit [!DNL Target] Antworten gesendet, die in Netzwerkaufrufen validiert werden können. Antwort-Token funktionieren auch im [!UICONTROL Vorschau]-Modus.
 
 Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, dass Plug-ins JavaScript an die Seite senden, die beim Versand ausgeführt wird. Antwort-Token liefern jedoch ein -Objekt, das dann mithilfe von Ereignis-Listenern gelesen und bearbeitet werden kann. Der Ansatz mit Antwort-Token ist sicherer und ermöglicht eine einfachere Entwicklung und Wartung von Drittanbieter-Integrationen.
 
@@ -62,7 +62,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    * **Platform Web SDK**: Siehe [Installieren von SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=de) im *Platform Web SDK - Übersicht*.
    * **at.js**: Siehe &quot;[.js herunterladen](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=de){target=_blank}.
 
-1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Klicken Sie [!DNL Target] auf **[!UICONTROL Administration]** > **[!UICONTROL Antwort-Token]**.
 
 1. Aktivieren Sie die gewünschten Antwort-Token, z. B. `activity.id` und `offer.id`.
 
@@ -81,7 +81,7 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    |  | `profile.categoryAffinities` | Gibt eine Reihe der Top-5-Kategorien des Besuchers als Zeichenfolgen zurück. |
    | Aktivität | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Details der aktuellen Aktivität.<br> Beachten Sie, dass Werte für Angebotsparameter auf Erlebnisebene ausgewertet werden. |
    | Geo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Weitere Informationen zur Verwendung von Geo-Targeting in Aktivitäten finden Sie unter [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
-   | Traffic-Zuordnungsmethode<br>(Gilt nur für [!UICONTROL Auto-Target] und [!UICONTROL Automated Personalization] Aktivitäten.) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus Kontroll-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der Targeting-Traffic-Verteilung erhalten hat. |
+   | Traffic-Zuordnungsmethode<br>(Gilt nur für [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization]-Aktivitäten.) | `experience.trafficAllocationId` | Gibt 0 zurück, wenn ein Besucher ein Erlebnis aus Kontroll-Traffic erhalten hat, und 1, wenn ein Besucher ein Erlebnis aus der Targeting-Traffic-Verteilung erhalten hat. |
    |  | `experience.trafficAllocationType` | Gibt „Kontrolle“ oder „Targeting“ zurück. |
 
    Benutzerprofil- und Kundenattribute werden ebenfalls in der Liste angezeigt.
@@ -90,9 +90,9 @@ Ein wichtiger Unterschied zwischen Plug-ins und Antwort-Token besteht darin, das
    >
    >Parameter mit Sonderzeichen werden in der Liste nicht angezeigt. Es werden nur alphanumerische Zeichen und Unterstriche unterstützt.
 
-1. (Bedingt) Um einen Profilparameter als Antwort-Token zu verwenden, der Parameter jedoch nicht über eine [!DNL Target]-Anfrage weitergeleitet wurde und daher nicht in die [!DNL Target]-Benutzeroberfläche geladen wurde, können Sie die Schaltfläche [!UICONTROL Add Response Token] verwenden, um das Profil zur Benutzeroberfläche hinzuzufügen.
+1. (Bedingt) Um einen Profilparameter als Antwort-Token zu verwenden, der Parameter jedoch nicht über eine [!DNL Target]-Anfrage weitergeleitet wurde und daher nicht in die [!DNL Target]-Benutzeroberfläche geladen wurde, können Sie die Schaltfläche [!UICONTROL Antwort-Token hinzufügen] verwenden, um das Profil zur Benutzeroberfläche hinzuzufügen.
 
-   Klicken Sie auf **[!UICONTROL Add Response Token]**, geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Activate]**.
+   Klicken Sie **[!UICONTROL Antwort-Token hinzufügen]** geben Sie den Token-Namen ein und klicken Sie dann auf **[!UICONTROL Aktivieren]**.
 
 1. Erstellen Sie eine Aktivität.
 
@@ -194,7 +194,7 @@ Mit dem folgenden Code-Beispiel wird direkt ein benutzerdefinierter [!DNL at.js]
 
 **Welche Rolle wird zum Aktivieren oder Deaktivieren von Antwort-Token benötigt?**
 
-Antwort-Token können nur von Benutzenden mit der Rolle [!DNL Target]-[!UICONTROL Administrator] aktiviert oder deaktiviert werden.
+Antwort-Token können nur von Benutzenden mit der Rolle [!DNL Target]Administrator[!UICONTROL &#x200B; aktiviert &#x200B;] deaktiviert werden.
 
 **Was passiert, wenn ich [!DNL Platform Web SDK] 2.6.0 (oder früher) verwende?**
 

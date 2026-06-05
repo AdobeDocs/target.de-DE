@@ -18,7 +18,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 965
 ht-degree: 89%
 
 ---
@@ -53,13 +53,13 @@ Wenn Sie die Zeile „Unspecified“ mit der Dimension „Analytics for Target�
 
 ## A4T-Aktivitätsberichte enthalten eine Zeile mit vielen „Unspecified“ Ereignissen. {#added_unspecified_events}
 
-Abhängig von der Metrik, mit der Sie Ihre Daten anzeigen, kann Ihr Bericht eine Ereigniszeile aufweisen, in der &quot;[!UICONTROL Unspecified]&quot; angezeigt wird.
+Abhängig von der Metrik, mit der Sie Ihre Daten anzeigen, kann Ihr Bericht eine Ereigniszeile aufweisen[!UICONTROL &#x200B; in der „Unspecified]&quot; angezeigt wird.
 
-In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target] ist (z. B. [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] usw.). In diesem Fall enthält die [!UICONTROL "Unspecified"] alle [!UICONTROL Page Views], [!UICONTROL Visits] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target] Aktivitäten verbunden sind.
+In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target] ist (z. B. [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Unique Visitors] usw.). In diesem Fall enthält die Zeile [!UICONTROL „Unspecified“] alle [!UICONTROL Seitenansichten], [!UICONTROL Besuche] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target] Aktivitäten verbunden sind.
 
 Diese Zeile enthält dann keine [!DNL Target]-zugehörigen Informationen (z. B. keine Besuchende, Besuche oder Impressionen). Weitere Informationen finden Sie unter [„Unspezifiziert“, „Keine“, „Andere“ und „Nicht bekannt“ in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) in den *Technotes zu Analytics*.
 
-Wenn Sie im Bericht eine [!DNL Target] Metrik auswählen, wird diese [!UICONTROL "Unspecified"] nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
+Wenn Sie im Bericht eine [!DNL Target] Metrik auswählen, wird diese [!UICONTROL &#x200B; „Unspecified]-Zeile nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
 
 ## Die geschätzte Steigerung der Umsatzmetriken zeigt keine korrekten Daten. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -71,7 +71,7 @@ Für A4T-Aktivitäten ist ein Trackingserver erforderlich, der zuvor festgelegt 
 
 >[!NOTE]
 >
->Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL Tracking Server] auf der Seite [!UICONTROL Goals & Settings] leer lassen.
+>Bei Verwendung von at.js Version 0.9.1 (oder höher) müssen Sie bei der Erstellung einer Aktivität keinen Tracking-Server angeben. Die at.js-Bibliothek sendet automatisch Tracking-Server-Werte an [!DNL Target]. Bei der Erstellung einer Aktivität können Sie das Feld [!UICONTROL „Tracking Server“] auf der Seite [!UICONTROL „Ziele und Einstellungen“] freilassen.
 
 ## Meine Analytics-Segmente werden nicht in Target angezeigt. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
