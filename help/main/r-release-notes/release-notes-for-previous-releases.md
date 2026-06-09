@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
+source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
 workflow-type: tm+mt
-source-wordcount: 70383
+source-wordcount: 70482
 ht-degree: 49%
 
 ---
@@ -87,6 +87,38 @@ Diese Funktion steht allen Kunden in Public Beta zur Verfügung.
 Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-integrating-target-with-mac/mcp/target-mcp.md).
 
 +++
+
+## [!DNL Target Standard/Premium] 26.5.3 (21. Mai 2026)
+
+**[!UICONTROL Neue Funktionen] Seite**
+
++++Details anzeigen
+
+* **Neu [!UICONTROL Neue Funktionen] Seite.** Es wurde eine neue Seite **[!UICONTROL Neue Funktionen]** in der [!DNL Adobe Target]-Benutzeroberfläche hinzugefügt, auf der Sie die neuesten Funktionen, Verbesserungen und Aktualisierungen kennenlernen können, ohne das Produkt verlassen zu müssen. (TGT-55137)
+
++++
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Falsches Erlebnis beim Bearbeiten von Targeting in [!UICONTROL Automated Personalization]-Aktivitäten ausgewählt.** Es wurde ein Problem behoben, bei dem beim Bearbeiten des Schritts **[!UICONTROL Targeting]** in einer [!UICONTROL Automated Personalization] (AP)-Aktivität das falsche Erlebnis ausgewählt werden konnte. (TGT-55176)
+
+* **Früheres Datum beim Schließen einer geplanten Aktivität.** Ein Problem wurde behoben, das dazu führte, dass Sie zum Schließen einer geplanten Aktivität kein früheres Datum auswählen konnten. (TGT-55163)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7. Mai 2026)
 
@@ -1871,7 +1903,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Validierungsfehler beim Erstellen von Aktivitäten aufgrund von Segment-ID-Konflikten wurden behoben. Die Fehler traten auf, als [!DNL Target] vorhandene Aktivitäten mit anonymen Segmenten erkannte. (TGT-51784)
 * Es wurde ein Problem behoben, das [!DNL Target] daran hinderte, Aktivitäten mit Ausschlussregeln in einer Zielgruppe zu speichern. (TGT-51581)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Ordner ohne Zugriff auf den Standardarbeitsbereich zu erstellen, zu löschen oder zu verschieben. (TGT-51499)
-* Es wurde ein Problem behoben, bei dem GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
+* Es wurde ein Problem behoben, das dazu führte, dass GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 (11. März 2025)
 
