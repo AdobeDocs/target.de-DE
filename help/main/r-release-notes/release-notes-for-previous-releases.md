@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.6.1 (4. Juni 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Unvollständige Aktivitäts-URL in [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem in der &#x200B;]Aktivitätsübersicht“ nicht die vollständige URL für eine Aktivität angezeigt wurde. (TGT-54029)
+
+* **Nicht lokalisiertes Datumsformat in Aktivitätsberichten.** Fehlerkorrektur - Das Datumsformat ist jetzt auf der Registerkarte **[!UICONTROL Berichte]** nicht lokalisiert, wenn Sie eine Option **Letzte X Tage** aus der Dropdown-Liste **[!UICONTROL Vorgegebener Datumsbereich]** auswählen. (TGT-51637)
+
+* **Die formularbasierte Aktivität kann mit bestimmten GB2-18030 nicht in &quot;[!UICONTROL &quot; gespeichert &#x200B;].** Es wurde ein Problem behoben, bei dem Sie eine formularbasierte Aktivität nicht speichern konnten, wenn das Feld **[!UICONTROL Standort]** bestimmte GB18030-Zeichen enthielt. (TGT-46980)
+
++++
+
+**[!UICONTROL Zielgruppen]**
+
++++Details anzeigen
+
+* **Nicht lokalisierter Kalender im Zielgruppen-Fluss für vereinfachtes und traditionelles Chinesisch erstellen.** Es wurde ein Problem behoben, bei dem der Kalender in den **[!UICONTROL Start]** und **[!UICONTROL Ende]**-Feldern des **[!UICONTROL Zeitrahmen]**-Attributs während des Flusses Zielgruppe erstellen nicht in den Gebietsschemata Vereinfachtes Chinesisch (CHS) und Traditionelles Chinesisch (CHT) lokalisiert wurde. (TGT-50619)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Nicht lokalisierte QuickInfos im aktualisierten Activity Builder.** Es wurden Lokalisierungsprobleme behoben, bei **[!UICONTROL die QuickInfos für]** Verfeinerungen **[!UICONTROL und]** Inhalte“ im aktualisierten Activity Builder [!UICONTROL Visual Experience Composer] nicht lokalisiert wurden. (TGT-53721)
+
+* **Nicht lokalisiert [!UICONTROL Alle Besucher] in [!UICONTROL Experience Audiences].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Zeichenfolge]** Alle Besucher **[!UICONTROL in Erlebniszielgruppen]** in der linken Leiste nicht im [!UICONTROL Visual Experience Composer) &#x200B;]. (TGT-50086)
+
++++
+
+**[!UICONTROL Berichte]**
+
++++Details anzeigen
+
+* **Nicht lokalisiertes Datumsformat im Fenster [!UICONTROL Vorgabe erstellen].** Es wurde ein Problem behoben, bei dem das Datumsformat im Feld **[!UICONTROL Datumsbereich]** des Fensters **[!UICONTROL Vorgabe erstellen]** nicht lokalisiert wurde. (TGT-49239)
+
++++
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **GB18030 Zeichenanzeige in mehreren Bereichen.** Es wurden Probleme behoben, bei denen einige Zeichen im Bereich für private Verwendung fälschlicherweise als Briefe in der **[!UICONTROL Zielgruppe]**-Benutzeroberfläche, **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]**, der Konfiguration mobiler Viewports und in Popup-Benachrichtigungen angezeigt wurden. (TGT-49622, TGT-49623, TGT-49624 UND TGT-49625)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2 (14. Mai 2026)
 
@@ -281,7 +329,7 @@ Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-int
 
 +++Details anzeigen
 
-* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2-Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform angezeigt**. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
+* **Genauigkeit der Beschriftung der Zielgruppenquelle in der Benutzeroberfläche „Zielgruppen“.** Es wurde ein Problem behoben, bei dem Zielgruppen aus dem Adobe Target v2 -Ziel in Adobe Experience Platform mit **Adobe Experience Cloud** als Quelle anstelle von **Adobe Experience Platform** angezeigt wurden. Diese Aktualisierung verbessert die Konsistenz der Quellkennzeichnung beim Filtern und Überprüfen von Zielgruppen. (TGT-54802)
 
 +++
 
@@ -915,7 +963,7 @@ Diese Version enthält die folgenden Aktualisierungen und Fehlerbehebungen:
 * **Die erweiterte Suche in der aktualisierten Benutzeroberfläche [!UICONTROL Produktkatalogsuche] hat keine Vorschläge bereitgestellt**: Kundinnen und Kunden, die die erweiterte Suchfunktion in der aktualisierten Benutzeroberfläche [!UICONTROL Produktkatalogsuche] verwenden, mussten genaue Werte mit korrekter Schreibweise eingeben, da keine Vorschläge angezeigt wurden. Dieses Problem machte es schwierig, Produkte effizient zu finden. Vorschläge werden jetzt bei der Eingabe der erweiterten Suche wie erwartet angezeigt. (TGT-52008)
 * **Einige genehmigende Personen konnten keine Produkte in der [!UICONTROL Produktkatalogsuche]** anzeigen: Kundinnen und Kunden mit [!UICONTROL genehmigenden Person]-Berechtigungen konnten keine Produkte in der [!UICONTROL Produktkatalogsuche] sehen, obwohl andere Benutzende mit identischen Rollen Zugriff hatten. Dieses Problem wurde durch eine Berechtigungsinkonsistenz verursacht, die sich auf die Katalogsichtbarkeit auswirkte. Alle genehmigenden Personen können jetzt Produkte wie erwartet im Abschnitt [!UICONTROL Recommendations] anzeigen. (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL Berichte]**
 
@@ -1903,7 +1951,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Validierungsfehler beim Erstellen von Aktivitäten aufgrund von Segment-ID-Konflikten wurden behoben. Die Fehler traten auf, als [!DNL Target] vorhandene Aktivitäten mit anonymen Segmenten erkannte. (TGT-51784)
 * Es wurde ein Problem behoben, das [!DNL Target] daran hinderte, Aktivitäten mit Ausschlussregeln in einer Zielgruppe zu speichern. (TGT-51581)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Ordner ohne Zugriff auf den Standardarbeitsbereich zu erstellen, zu löschen oder zu verschieben. (TGT-51499)
-* Es wurde ein Problem behoben, das dazu führte, dass GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
+* Es wurde ein Problem behoben, bei dem GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 (11. März 2025)
 

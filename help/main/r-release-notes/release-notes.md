@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +31,17 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.1 (4. Juni 2026)
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **Unvollständige Aktivitäts-URL in [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem in der &#x200B;]Aktivitätsübersicht“ nicht die vollständige URL für eine Aktivität angezeigt wurde. (TGT-54029)
-
-* **Nicht lokalisiertes Datumsformat in Aktivitätsberichten.** Fehlerkorrektur - Das Datumsformat ist jetzt auf der Registerkarte **[!UICONTROL Berichte]** nicht lokalisiert, wenn Sie eine Option **Letzte X Tage** aus der Dropdown-Liste **[!UICONTROL Vorgegebener Datumsbereich]** auswählen. (TGT-51637)
-
-* **Die formularbasierte Aktivität kann mit bestimmten GB2-18030 nicht in &quot;[!UICONTROL &quot; gespeichert &#x200B;].** Es wurde ein Problem behoben, bei dem Sie eine formularbasierte Aktivität nicht speichern konnten, wenn das Feld **[!UICONTROL Standort]** bestimmte GB18030-Zeichen enthielt. (TGT-46980)
-
-+++
-
-**[!UICONTROL Zielgruppen]**
-
-+++Details anzeigen
-
-* **Nicht lokalisierter Kalender im Zielgruppen-Fluss für vereinfachtes und traditionelles Chinesisch erstellen.** Es wurde ein Problem behoben, bei dem der Kalender in den **[!UICONTROL Start]** und **[!UICONTROL Ende]**-Feldern des **[!UICONTROL Zeitrahmen]**-Attributs während des Flusses Zielgruppe erstellen nicht in den Gebietsschemata Vereinfachtes Chinesisch (CHS) und Traditionelles Chinesisch (CHT) lokalisiert wurde. (TGT-50619)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Details anzeigen
-
-* **Nicht lokalisierte QuickInfos im aktualisierten Activity Builder.** Es wurden Lokalisierungsprobleme behoben, bei **[!UICONTROL die QuickInfos für]** Verfeinerungen **[!UICONTROL und]** Inhalte“ im aktualisierten Activity Builder [!UICONTROL Visual Experience Composer] nicht lokalisiert wurden. (TGT-53721)
-
-* **Nicht lokalisiert [!UICONTROL Alle Besucher] in [!UICONTROL Experience Audiences].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Zeichenfolge]** Alle Besucher **[!UICONTROL in Erlebniszielgruppen]** in der linken Leiste nicht im [!UICONTROL Visual Experience Composer) &#x200B;]. (TGT-50086)
-
-+++
-
-**[!UICONTROL Berichte]**
-
-+++Details anzeigen
-
-* **Nicht lokalisiertes Datumsformat im Fenster [!UICONTROL Vorgabe erstellen].** Es wurde ein Problem behoben, bei dem das Datumsformat im Feld **[!UICONTROL Datumsbereich]** des Fensters **[!UICONTROL Vorgabe erstellen]** nicht lokalisiert wurde. (TGT-49239)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3 (11. Juni 2026)
 
 **Lokalisierung**
 
 +++Details anzeigen
 
-* **GB18030 Zeichenanzeige in mehreren Bereichen.** Es wurden Probleme behoben, bei denen einige Zeichen im Bereich für private Verwendung fälschlicherweise als Briefe in der **[!UICONTROL Zielgruppe]**-Benutzeroberfläche, **[!UICONTROL Administration]** > **[!UICONTROL Eigenschaften]**, der Konfiguration mobiler Viewports und in Popup-Benachrichtigungen angezeigt wurden. (TGT-49622, TGT-49623, TGT-49624 UND TGT-49625)
+* **Nicht lokalisierter erster Wochentag in Zielgruppen-Kalendermodalen während der Aktivitätserstellung.** Fehlerkorrektur - Der erste Wochentag wurde bei der Erstellung einer Aktivität nicht im Kalender in den Modalen **[!UICONTROL Erstellen]**, **[!UICONTROL Bearbeiten]** und **[!UICONTROL Zielgruppe duplizieren]** lokalisiert. (TGT-50510)
+
+* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsberichten.** Es wurde ein Problem behoben, bei dem das Prozentformat nicht in einer Tabelle auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** lokalisiert war. (TGT-50094)
+
+* **Unlokalisiertes Zahlenformat im Dialogfeld [!UICONTROL Kriterien erstellen].** Es wurde ein Problem behoben, bei dem das Zahlenformat im Dialogfeld **[!UICONTROL Kriterien erstellen]** in **[!UICONTROL Recommendations]** nicht lokalisiert war. (TGT-52250)
 
 +++
 
