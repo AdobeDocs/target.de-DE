@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 (11. Juni 2026)
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **Nicht lokalisierter erster Wochentag in Zielgruppen-Kalendermodalen während der Aktivitätserstellung.** Fehlerkorrektur - Der erste Wochentag wurde bei der Erstellung einer Aktivität nicht im Kalender in den Modalen **[!UICONTROL Erstellen]**, **[!UICONTROL Bearbeiten]** und **[!UICONTROL Zielgruppe duplizieren]** lokalisiert. (TGT-50510)
+
+* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsberichten.** Es wurde ein Problem behoben, bei dem das Prozentformat nicht in einer Tabelle auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** lokalisiert war. (TGT-50094)
+
+* **Unlokalisiertes Zahlenformat im Dialogfeld [!UICONTROL Kriterien erstellen].** Es wurde ein Problem behoben, bei dem das Zahlenformat im Dialogfeld **[!UICONTROL Kriterien erstellen]** in **[!UICONTROL Recommendations]** nicht lokalisiert war. (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 (4. Juni 2026)
 
@@ -1951,7 +1965,7 @@ Diese Version umfasst die folgenden Fehlerbehebungen und Aktualisierungen:
 * Validierungsfehler beim Erstellen von Aktivitäten aufgrund von Segment-ID-Konflikten wurden behoben. Die Fehler traten auf, als [!DNL Target] vorhandene Aktivitäten mit anonymen Segmenten erkannte. (TGT-51784)
 * Es wurde ein Problem behoben, das [!DNL Target] daran hinderte, Aktivitäten mit Ausschlussregeln in einer Zielgruppe zu speichern. (TGT-51581)
 * Es wurde ein Problem behoben, das Kunden daran hinderte, Ordner ohne Zugriff auf den Standardarbeitsbereich zu erstellen, zu löschen oder zu verschieben. (TGT-51499)
-* Es wurde ein Problem behoben, bei dem GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
+* Es wurde ein Problem behoben, das dazu führte, dass GET-Anfragen beim Abrufen [!DNL Analytics] Metrikliste fehlschlugen. (TGT-51106)
 
 ### [!DNL Target Standard/Premium] 25.3.5 (11. März 2025)
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +31,35 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.3 (11. Juni 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16. Juni 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **[!UICONTROL Speichern und schließen] in der aktualisierten [!DNL Target]-Benutzeroberfläche.** hat die Option **[!UICONTROL Speichern und schließen]** in der aktualisierten [!DNL Target] wiederhergestellt. (TGT-55152)
+
+* **QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche.** Es wurde ein Problem behoben, bei dem QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche nicht korrekt funktionierten. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Lokalisierung**
 
 +++Details anzeigen
 
-* **Nicht lokalisierter erster Wochentag in Zielgruppen-Kalendermodalen während der Aktivitätserstellung.** Fehlerkorrektur - Der erste Wochentag wurde bei der Erstellung einer Aktivität nicht im Kalender in den Modalen **[!UICONTROL Erstellen]**, **[!UICONTROL Bearbeiten]** und **[!UICONTROL Zielgruppe duplizieren]** lokalisiert. (TGT-50510)
+* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsdiagramm-Berichten.** Es wurde ein Problem behoben, bei dem das Prozentformat im Diagramm in der **[!UICONTROL Diagrammansicht]** auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** nicht lokalisiert war. (TGT-50100)
 
-* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsberichten.** Es wurde ein Problem behoben, bei dem das Prozentformat nicht in einer Tabelle auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** lokalisiert war. (TGT-50094)
+* **Japanische Zeichen in der Aktivitäts-URL.** Fehlerkorrektur - Japanische Zeichen in der Aktivitäts-URL erscheinen jetzt auf der Seite **[!UICONTROL Aktivitätsübersicht]** und in der Aktivitätsliste, nachdem Sie eine Aktivität gespeichert haben, beschädigt. (TGT-53459)
 
-* **Unlokalisiertes Zahlenformat im Dialogfeld [!UICONTROL Kriterien erstellen].** Es wurde ein Problem behoben, bei dem das Zahlenformat im Dialogfeld **[!UICONTROL Kriterien erstellen]** in **[!UICONTROL Recommendations]** nicht lokalisiert war. (TGT-52250)
+* **Nicht lokalisierter Zeitstempel im Namen der Standardaktivität.** Fehlerkorrektur - Der Zeitstempel im Aktivitätstitel wurde nicht lokalisiert, wenn der Standardaktivitätsname bei der Erstellung der Aktivität beibehalten wurde. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Details anzeigen
+
+* **Multi-Byte-Zeichen in der URL nach der Erstellung von Feeds.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der URL beschädigt erschienen, nachdem Sie -Feeds erstellt hatten. (TGT-54793)
 
 +++
 
