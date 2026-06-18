@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,24 @@ ht-degree: 49%
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.6.5 (17. Juni 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Fehler, wenn eine Aktivität an der Quelle gelöschte Zielgruppen verwendet.** Es wurde ein Problem behoben, bei dem ein Fehler angezeigt wurde, der angibt, dass eine Aktivität eine oder mehrere Zielgruppen verwendet, die an der Quelle gelöscht wurden. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++Details anzeigen
+
+* **A4T-Berichte nicht sichtbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem A4T-Berichte (Analytics for &#x200B;]) nicht angezeigt wurden. (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4 (16. Juni 2026)
 
