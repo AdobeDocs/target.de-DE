@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,12 +74,12 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
    Gemeinsam helfen Ihnen die Branchen- und Seitentypen dabei, Ihre gespeicherten Kriterien zu kategorisieren, wodurch die Wiederverwendung von Kriterien für andere [!DNL Recommendations]-Aktivitäten erleichtert wird.
 
-## [!UICONTROL Recommendations-Algorithmus] {#rec-algo}
+## [!UICONTROL Empfehlungs-Algorithmus] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Profilattribut"
->abstract="Sie können ein Profilattribut mithilfe von Profilskripten erstellen."
+>abstract="Sie können ein Profilattribut mithilfe von Profilskripts erstellen."
 
 1. Wählen Sie einen **[!UICONTROL Algorithmustyp]** und **[!UICONTROL Algorithmus]**:
 
