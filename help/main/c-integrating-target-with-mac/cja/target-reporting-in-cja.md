@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 35%
+source-wordcount: 1580
+ht-degree: 33%
 
 ---
 
@@ -158,6 +158,12 @@ Richten Sie eine Datenansicht in [!DNL Customer Journey Analytics] ein. Eine Dat
    * [!UICONTROL Activity ID]
 
    ![Namen- und ID-Optionen in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Um sicherzustellen, dass [!DNL Customer Journey Analytics] Metriken dem richtigen [!DNL Target] auf der Besucher-Journey zuordnet, konfigurieren Sie die Persistenz für die Dimensionen [!UICONTROL Aktivitätsname] und [!UICONTROL Aktivitäts-ID].
+
+   Ohne konfigurierte Persistenz verknüpft [!DNL Customer Journey Analytics] nur Metriken, die in demselben Ereignis auftreten wie das [!DNL Target]. Wenn ein Besucher beispielsweise auf der Homepage ein Target-Erlebnis sieht, wird die Umsatzmetrik dieses Besuchers aus einem Kauf auf einer späteren Seite nicht der Target-Aktivität zugeordnet.
+
+   Weitere Informationen zur Persistenz finden Sie in der [Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
 
 1. Um [!DNL Target] Dimensionen im Bedienfeld [!UICONTROL Experimentieren] zu verwenden, richten Sie die folgenden Kontextkennzeichnungen ein:
 
