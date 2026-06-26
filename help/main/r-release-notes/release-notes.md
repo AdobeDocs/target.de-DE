@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
+source-git-commit: aab659046a6583aeedaf8ec34803b0751bebe3c6
 workflow-type: tm+mt
-source-wordcount: 612
-ht-degree: 44%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,33 +31,15 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.5 (17. Juni 2026)
+## [!DNL Target Standard/Premium] 26.6.8 (24. Juni 2026)
 
 **Aktivitäten**
 
 +++Details anzeigen
 
-* **Fehler, wenn eine Aktivität an der Quelle gelöschte Zielgruppen verwendet.** Es wurde ein Problem behoben, bei dem ein Fehler angezeigt wurde, der angibt, dass eine Aktivität eine oder mehrere Zielgruppen verwendet, die an der Quelle gelöscht wurden. (TGT-55272)
+* **Source-Filter für API- und MCP-erstellte Ressourcen.** Es wurde ein Problem behoben, bei dem das Filtern nach [!UICONTROL Adobe Target]API oder [!UICONTROL Adobe Target MCP] bei den Listenseiten für Aktivitäten, Zielgruppen und Angebote nicht funktionierte. (TGT-55236)
 
-+++
-
-**[!UICONTROL Analytics for Target] (A4T)**
-
-+++Details anzeigen
-
-* **A4T-Berichte nicht sichtbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem A4T-Berichte (Analytics for &#x200B;]) nicht angezeigt wurden. (TGT-55432)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16. Juni 2026)
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **[!UICONTROL Speichern und schließen] in der aktualisierten [!DNL Target]-Benutzeroberfläche.** hat die Option **[!UICONTROL Speichern und schließen]** in der aktualisierten [!DNL Target] wiederhergestellt. (TGT-55152)
-
-* **QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche.** Es wurde ein Problem behoben, bei dem QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche nicht korrekt funktionierten. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+* **Filterwerte der Aktivitätsquelle.** Es wurde ein Problem behoben, bei dem der Quellfilter &lbrace;0Adobe Target API oder  Adobe Target MCP2 keine neu erstellten Zielgruppen anzeigte. (TGT-55237)
 
 +++
 
@@ -65,33 +47,15 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 +++Details anzeigen
 
-* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsdiagramm-Berichten.** Es wurde ein Problem behoben, bei dem das Prozentformat im Diagramm in der **[!UICONTROL Diagrammansicht]** auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** nicht lokalisiert war. (TGT-50100)
+* **Nicht lokalisierte Zeichenfolgen im Modal [!UICONTROL JSON-Angebot erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen im [!UICONTROL JSON-Angebot erstellen]-Modal, einschließlich [!UICONTROL Name] und [!UICONTROL Workspace], während der Erstellung einer Aktivität nicht lokalisiert wurden. (TGT-50084)
 
-* **Japanische Zeichen in der Aktivitäts-URL.** Fehlerkorrektur - Japanische Zeichen in der Aktivitäts-URL erscheinen jetzt auf der Seite **[!UICONTROL Aktivitätsübersicht]** und in der Aktivitätsliste, nachdem Sie eine Aktivität gespeichert haben, beschädigt. (TGT-53459)
+* **Nicht lokalisierte Popup-Nachricht in einer [!UICONTROL Recommendations]-Aktivität.** Fehlerkorrektur - Beim Hinzufügen von Recommendations in einer formularbasierten Aktivität (Recommendations) tritt jetzt keine [!UICONTROL &#x200B; mehr &#x200B;]. (TGT-50463)
 
-* **Nicht lokalisierter Zeitstempel im Namen der Standardaktivität.** Fehlerkorrektur - Der Zeitstempel im Aktivitätstitel wurde nicht lokalisiert, wenn der Standardaktivitätsname bei der Erstellung der Aktivität beibehalten wurde. (TGT-53273)
+* **Nicht lokalisierte Zeichenfolge in den [!UICONTROL Sammlungen] und [!UICONTROL Ausschlüsse] Dialogfeldern.** Es wurde ein Problem behoben, bei dem die Zeichenfolge „Element-Payload“ in den Dialogfeldern [!UICONTROL Sammlungen] und [!UICONTROL Ausschlüsse] in [!UICONTROL Recommendations] nicht lokalisiert wurde. (TGT-51542)
 
-+++
-
-**[!UICONTROL Recommendations]**
-
-+++Details anzeigen
-
-* **Multi-Byte-Zeichen in der URL nach der Erstellung von Feeds.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der URL beschädigt erschienen, nachdem Sie -Feeds erstellt hatten. (TGT-54793)
+* **Nicht lokalisierte Zeichenfolge „Genehmigende Person“ auf der Registerkarte [!UICONTROL Zielgruppen].** Es wurde ein Problem behoben, bei dem die Zeichenfolge „Genehmigende Person“ nicht in der Spalte [!UICONTROL Workspace] auf der Seite [!UICONTROL Zielgruppenbibliothek] lokalisiert wurde. (TGT-51751)
 
 +++
-
-<!--
-* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++See details
-
-* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
-
-+++
--->
 
 ## Zeitkritische Updates, die Sie kennen sollten {#time-sensitive}
 

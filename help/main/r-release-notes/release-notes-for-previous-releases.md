@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70881
+source-wordcount: 71133
 ht-degree: 49%
 
 ---
@@ -57,6 +57,68 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.6.5 (17. Juni 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Fehler, wenn eine Aktivität an der Quelle gelöschte Zielgruppen verwendet.** Es wurde ein Problem behoben, bei dem ein Fehler angezeigt wurde, der angibt, dass eine Aktivität eine oder mehrere Zielgruppen verwendet, die an der Quelle gelöscht wurden. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++Details anzeigen
+
+* **A4T-Berichte nicht sichtbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem A4T-Berichte (Analytics for &#x200B;]) nicht angezeigt wurden. (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 (16. Juni 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **[!UICONTROL Speichern und schließen] in der aktualisierten [!DNL Target]-Benutzeroberfläche.** hat die Option **[!UICONTROL Speichern und schließen]** in der aktualisierten [!DNL Target] wiederhergestellt. (TGT-55152)
+
+* **QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche.** Es wurde ein Problem behoben, bei dem QA-URLs in der aktualisierten [!DNL Target]-Benutzeroberfläche nicht korrekt funktionierten. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **Nicht lokalisiertes Prozentformat in Aktivitätsübersichtsdiagramm-Berichten.** Es wurde ein Problem behoben, bei dem das Prozentformat im Diagramm in der **[!UICONTROL Diagrammansicht]** auf der Registerkarte **[!UICONTROL Berichte]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** nicht lokalisiert war. (TGT-50100)
+
+* **Japanische Zeichen in der Aktivitäts-URL.** Fehlerkorrektur - Japanische Zeichen in der Aktivitäts-URL erscheinen jetzt auf der Seite **[!UICONTROL Aktivitätsübersicht]** und in der Aktivitätsliste, nachdem Sie eine Aktivität gespeichert haben, beschädigt. (TGT-53459)
+
+* **Nicht lokalisierter Zeitstempel im Namen der Standardaktivität.** Fehlerkorrektur - Der Zeitstempel im Aktivitätstitel wurde nicht lokalisiert, wenn der Standardaktivitätsname bei der Erstellung der Aktivität beibehalten wurde. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Details anzeigen
+
+* **Multi-Byte-Zeichen in der URL nach der Erstellung von Feeds.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der URL beschädigt erschienen, nachdem Sie -Feeds erstellt hatten. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3 (11. Juni 2026)
 
@@ -5304,7 +5366,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
       <li id="li_C47240826E5844D6843314F453F042FC">Navigation von links nach oben verlegt, </li> 
       <li id="li_3BB03504E98C40CC85583DCD9A4CEA06">Dialogfelder verbessert, </li> 
       <li id="li_AE71506DF1E748A788C40E1F09951732">Aktivitätserstellungsfluss verbessert </li> 
-     </ul> </p> <p>Die Art und Weise, wie Experience Cloud-Lösungen wie Target ausgewählt werden, hat sich ebenfalls geändert. Klicken Sie auf das Menüsymbol, um auf die Experience Cloud-Lösungen und -Service zuzugreifen: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Weitere Informationen zum Zugriff auf Target und zum Einrichten von Target als Standardseite nach der Anmeldung bei der Experience Cloud finden Sie unter <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> von Adobe Experience Cloud aus auf Target </a>. </p></td> 
+     </ul> </p> <p>Die Art und Weise, wie Experience Cloud-Lösungen wie Target ausgewählt werden, hat sich ebenfalls geändert. Klicken Sie auf das Menüsymbol, um auf die Experience Cloud-Lösungen und -Service zuzugreifen: </p> <p> <img src="assets/menu-shell-400.png" id="image_6E9323E0EBEA41B1A7319D6BCC43E769" width="400" height="140" /> </p> <p>Weitere Informationen zum Zugriff auf Target und zum Einrichten von Target als Standardseite nach der Anmeldung in Experience Cloud finden Sie unter <a href="/help/main/c-intro/target-access-from-mac.md#task_5467C72DAFCB4BB583762CAAFC00A5CF" format="dita" scope="local"> von Adobe Experience Cloud aus auf Target </a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Einschlussregeln können für Ersatzempfehlungen deaktiviert werden. </td> 
