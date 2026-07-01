@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 76%
+source-wordcount: 942
+ht-degree: 73%
 
 ---
 
@@ -110,6 +110,8 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 * Verwenden Sie Zielgruppen, wenn Sie den Umfang der Klick-Tracking-Metriken einschränken müssen.
 
 * Mehrere Aktivitäten können eine Click-Tracking-Metrik für denselben Selektor definieren. Wenn dies der Fall ist und ein Besucher sich für eine dieser Aktivitäten qualifiziert und auf diesen Selektor klickt, erhöht sich die Klick-Tracking-Metrik für alle zugehörigen Aktivitäten, für die der Besucher qualifiziert ist.
+
+* Bei [!UICONTROL Automated Personalization] (AP)- und Auto-Targeting-Aktivitäten in Single Page Applications (SPAs) können Sie Elemente für das Klick-Tracking auswählen, die zu einer bestimmten [!DNL Target] gehören. Weitere Informationen zu Ansichten finden Sie unter [Adobe Target-Ansichten und Einzelseitenanwendungen](/help/main/c-experiences/spa-visual-experience-composer.md).
 
 ## Schulungsvideo {#section_36607204DAE146E3B8E2C609D244EDB1}
 
