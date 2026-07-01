@@ -5,9 +5,14 @@ title: Was ist Klick-Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
 source-wordcount: 942
@@ -44,7 +49,7 @@ Für [!UICONTROL A/B]-, [!UICONTROL Erlebnis-Targeting] (XT)-, [!UICONTROL Autom
 
 ![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im Bedienfeld &quot;[!UICONTROL  Komponenten“ ]. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im Bedienfeld &quot;[!UICONTROL &#x200B; Komponenten“ &#x200B;]. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
@@ -66,7 +71,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Wenn nur ein einzelnes Element gezählt werden soll, obwohl auf mehrere Elemente der Seite geklickt wird, müssen Sie dem CSS-Element-Selektor mehrere Elemente zuordnen.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Klickereignisse werden auf derselben Seite des Klicks an [!DNL Target] gesendet.
@@ -113,7 +118,7 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetriken enthalten.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen [!UICONTROL  Metriken ]Konversion[!UICONTROL  Umsatz] und [!UICONTROL Interaktion]
+* Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
