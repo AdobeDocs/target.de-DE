@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ Vollständige Setup-Anweisungen finden Sie unter [Erste Schritte](target-mcp-get
 
 ## Aktivitäts-Tools {#tools-activities}
 
+>[!NOTE]
+>
+>Lese- und Schreibvorgänge haben unterschiedliche Bereiche. `get_activity` ruft Aktivitäten aller Typen ab (A/B-Tests, Erlebnis-Targeting, Automated Personalization, automatische Zuordnung, Multivarianz-Tests, Empfehlungen). `update_activity` unterstützt A/B-Tests, Erlebnis-Targeting und Automated Personalization. Automatische Zuordnungs-, Multivarianz-Test- und Recommendations-Aktivitäten sind über den MCP-Server schreibgeschützt.
+
+| Funktion | A/B-Test | Erlebnis-Targeting | Automated Personalization | Automatische Zuordnung | Multivarianz-Test | Recommendations |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| Lebenszyklus-Bearbeitungen (Status, Priorität, Name, Zeitplan) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Bearbeiten von Varianten und Traffic | ✓ | ✓ | ✓ | — | — | — |
+| Erstellen | ✓ | ✓ | — | — | — | — |
+
 +++Aktivitäten auflisten
 
 **tool:** `list_target_activities`
@@ -57,7 +72,7 @@ Ruft eine paginierte Liste von Aktivitäten ab. Alle Filter werden Server-seitig
 | `offset` | Ganzzahl | Nein | Anzahl der für die Paginierung zu überspringenden Aktivitäten |
 | `sort_by` | string | Nein | Feld zum Sortieren nach. Präfix mit `-` für absteigende Reihenfolge (z. B. `-modifiedAt`). Optionen: `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | Nein | Nach Aktivitätsstatus filtern: `approved` (live/aktiv), `deactivated` (inaktiv), `paused`, `saved` (Entwurf) |
-| `activity_type` | string | Nein | Filtern nach Typ: `ab` (A/B-Test), `xt` (Experience Targeting), `abt` (Automated Personalization) |
+| `activity_type` | string | Nein | Filtern nach Typ: `ab` (A/B-Test), `xt` (Erlebnis-Targeting), `abt` (Automated Personalization), `auto_allocate` (automatische Zuordnung), `mvt` (Multivarianz-Test), `recs` (Recommendations) |
 | `name_contains` | string | Nein | Filtern Sie Aktivitäten, deren Name diese Zeichenfolge enthält (ignoriert Groß-/Kleinschreibung). |
 | `starts_after` | string | Nein | ISO 8601-Datum — Aktivitäten, die nach diesem Datum beginnen |
 | `starts_before` | string | Nein | ISO 8601-Datum — Aktivitäten, die vor diesem Datum beginnen |
@@ -78,55 +93,21 @@ Ruft eine paginierte Liste von Aktivitäten ab. Alle Filter werden Server-seitig
 
 +++
 
-+++Abrufen einer A/B-Aktivität
++++Abrufen einer Aktivität
 
-**tool:** `get_ab_activity`
+**tool:** `get_activity`
 
-Detaillierte Informationen zu A/B-Aktivitäten.
+Hier erhalten Sie detaillierte Informationen zu Aktivitäten beliebigen Typs.
 
-Ruft die vollständige Konfiguration eines bestimmten A/B-Tests ab, einschließlich Erlebnissen, Standorten, Metriken und Zielgruppenbestimmungsregeln.
+Ruft die vollständige Konfiguration einer bestimmten Aktivität ab und erkennt automatisch den Aktivitätstyp. Unterstützt A/B-Tests, Erlebnis-Targeting, Automated Personalization, automatische Zuordnung, Multivarianz-Tests und Recommendations-Aktivitäten.
 
 | Parameter | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der A/B-Aktivität |
+| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der Aktivität |
 
 **Rückgabe** Vollständige Aktivitätsdetails einschließlich Metadaten (Name, Status, Priorität, Daten), Erlebnisse, Standorte und Angebote, Ziele und Metriken sowie Zielgruppenbestimmungsregeln.
 
-**Beispielaufforderung:** „Details für A/B-12345 abrufen“
-
-+++
-
-+++Abrufen einer Experience Targeting-Aktivität
-
-**tool:** `get_xt_activity`
-
-Hier erhalten Sie detaillierte Informationen zu einer Experience Targeting(XT)-Aktivität.
-
-Ruft die vollständige Konfiguration einer bestimmten XT-Aktivität ab, einschließlich Zielgruppen-Erlebnis-Mappings, Standorten und Metriken.
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der XT-Aktivität |
-
-**Rückgabe** Vollständige Aktivitätsdetails einschließlich Metadaten, Erlebnissen mit Zielgruppen-Mappings, Standorten und Angeboten sowie Zielen und Metriken.
-
-**Beispielaufforderung:** „Abrufen von Details für Experience Targeting-12345“
-
-+++
-
-+++Abrufen einer Automated Personalization-Aktivität
-
-**tool:** `get_abt_activity`
-
-Erhalten Sie detaillierte Informationen zu einer Automated Personalization-Aktivität (AP).
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der AP-Aktivität |
-
-**Rückgabe** Vollständige Aktivitätsdetails einschließlich Metadaten, Erlebnisse, Speicherorte und algorithmische Einstellungen.
-
-**Beispielaufforderung:** „Abrufen von Details für automatische Personalization-12345“
+**Beispiel-Eingabeaufforderung:** „Abrufen von Details zur 12345“
 
 +++
 
@@ -183,13 +164,13 @@ Erstellt eine XT-Aktivität, die basierend auf Targeting-Regeln verschiedene Erl
 
 +++
 
-+++Aktualisieren einer A/B-Aktivität
++++Aktualisieren einer Aktivität
 
-**tool:** `update_ab_activity`
+**tool:** `update_activity`
 
-Aktualisieren einer vorhandenen A/B-Aktivität.
+Aktualisieren vorhandener A/B-Tests, Erlebnis-Targeting- oder Automated Personalization-Aktivitäten
 
-Verwendet ein Lese-/Schreibmuster: ruft den aktuellen Status ab, führt Ihre Änderungen zusammen, validiert und sendet die Aktualisierung.
+Verwendet ein Lese-/Schreibmuster: ruft den aktuellen Status ab, führt Ihre Änderungen zusammen, validiert und sendet die Aktualisierung. Unterstützt A/B-Test-, Erlebnis-Targeting- und Automated Personalization-Aktivitäten; automatische Zuordnungs-, Multivarianz-Test- und Recommendations-Aktivitäten sind schreibgeschützt. Die strukturierten `goal`-, `audience_ids`- und `additional_metrics` werden nur für A/B-Tests und Experience Targeting unterstützt. Automated Personalization-Aktivitäten akzeptieren Aktualisierungen über die reine Feldzusammenführung.
 
 | Parameter | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
@@ -199,44 +180,6 @@ Verwendet ein Lese-/Schreibmuster: ruft den aktuellen Status ab, führt Ihre Än
 **Gibt zurück** Das aktualisierte Aktivitätsobjekt.
 
 **Beispiel-Eingabeaufforderung:** „Aktualisieren Sie die 12345, um die Traffic-Zuordnung auf 70/30 zu ändern.“
-
-+++
-
-+++Experience Targeting-Aktivität aktualisieren
-
-**tool:** `update_xt_activity`
-
-Aktualisieren Sie eine vorhandene Experience Targeting-Aktivität.
-
-Verwendet ein Lese-, Änderungs- und Schreibmuster.
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der zu aktualisierenden XT-Aktivität |
-| `activity` | Objekt | Ja | Zu aktualisierende Felder |
-
-**Gibt zurück** Das aktualisierte Aktivitätsobjekt.
-
-**Beispielaufforderung:** „XT-12345 aktualisieren, um mobilen Besuchern ein neues Erlebnis hinzuzufügen.“
-
-+++
-
-+++Aktualisieren einer Automated Personalization-Aktivität
-
-**tool:** `update_abt_activity`
-
-Aktualisieren einer bestehenden Automated Personalization-Aktivität.
-
-Verwendet ein Lese-, Änderungs- und Schreibmuster.
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der zu aktualisierenden AP-Aktivität |
-| `activity` | Objekt | Ja | Zu aktualisierende Felder |
-
-**Gibt zurück** Das aktualisierte Aktivitätsobjekt.
-
-**Beispielaufforderung:** „Aktualisieren Sie die 12345 der automatischen Personalization-Aktivität, um das Optimierungsziel zu ändern.“
 
 +++
 
@@ -251,7 +194,6 @@ Aktualisiert den Zeitplan einer Aktivität ohne Änderung der anderen Einstellun
 | Parameter | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
 | `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der Aktivität |
-| `activity_type` | string | Ja | Aktivitätstyp: `ab`, `xt` oder `abt` |
 | `starts_at` | string | Nein | Neues Startdatum (ISO 8601) |
 | `ends_at` | string | Nein | Neues Enddatum (ISO 8601) |
 
@@ -624,73 +566,41 @@ Keine Parameter erforderlich.
 
 ## Reporting-Tools {#tools-reporting}
 
-+++Abrufen eines A/B-Leistungsberichts
++++Abrufen eines Berichts zur Aktivitätsleistung
 
-**tool:** `get_ab_performance_report`
+**tool:** `get_activity_performance_report`
 
-Abrufen eines Leistungsberichts für eine A/B-Aktivität.
+Rufen Sie einen Leistungsbericht für eine Aktivität beliebigen Typs ab.
 
-Ruft Konversionsraten, Steigerung und Konfidenzniveaus ab.
+Ruft Konversionsraten, Steigerung und Konfidenzniveaus ab. Unterstützt A/B-Tests, Erlebnis-Targeting, Automated Personalization, automatische Zuordnung, Multivarianz-Tests und Recommendations-Aktivitäten.
 
 | Parameter | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der A/B-Aktivität |
+| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der Aktivität |
 | `report_interval` | string | Nein | Zeitraum für den Bericht (z. B. `last7days`, `last30days` oder benutzerdefinierter Datumsbereich) |
 
 **Rückgaben:** Metriken auf Erlebnisebene (Besucher, Konversionen, Konversionsrate), Steigerungsberechnungen, statistische Konfidenzniveaus und Umsatzmetriken (falls konfiguriert).
 
-**Beispielaufforderung:** „Anzeigen des Leistungsberichts für A/B-Test-12345 der letzten 30 Tage“
+**Beispielaufforderung:** „Anzeigen des Leistungsberichts zur 12345 der letzten 30 Tage“
 
 +++
 
-+++Abrufen eines Berichts zu A/B-Bestellungen
++++Abrufen eines Berichts zu Aktivitätsaufträgen
 
-**tool:** `get_ab_orders_report`
+**tool:** `get_activity_orders_report`
 
-Abrufen eines Berichts zu Bestellungen/Umsatz für eine A/B-Aktivität.
+Abrufen eines Berichts zu Bestellungen/Umsatz für eine Aktivität beliebigen Typs.
+
+Unterstützt A/B-Tests, Erlebnis-Targeting, Automated Personalization, automatische Zuordnung, Multivarianz-Tests und Recommendations-Aktivitäten.
 
 | Parameter | Typ | Erforderlich | Beschreibung |
 |---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der A/B-Aktivität |
+| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der Aktivität |
 | `report_interval` | string | Nein | Zeitraum für den Bericht |
 
 **Rückgabe:** Anzahl der Bestellungen, Umsatz und durchschnittlicher Bestellwert nach Erlebnis.
 
 **Beispielaufforderung:** „Bericht zu Bestellungen für 12345 abrufen“
-
-+++
-
-+++Abrufen eines Experience Targeting-Leistungsberichts
-
-**tool:** `get_xt_performance_report`
-
-Abrufen eines Leistungsberichts für eine Experience Targeting-Aktivität.
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der XT-Aktivität |
-| `report_interval` | string | Nein | Zeitraum für den Bericht |
-
-**Gibt zurück** Leistungsmetriken auf Erlebnisebene.
-
-**Beispielaufforderung:** „Leistung für meine Experience Targeting-54321 anzeigen“
-
-+++
-
-+++Abrufen eines Berichts zu Experience Targeting-Bestellungen
-
-**tool:** `get_xt_orders_report`
-
-Abrufen eines Berichts zu Bestellungen/Umsatz für eine Experience Targeting-Aktivität.
-
-| Parameter | Typ | Erforderlich | Beschreibung |
-|---|---|---|---|
-| `activity_id` | Ganzzahl | Ja | Die eindeutige Kennung der XT-Aktivität |
-| `report_interval` | string | Nein | Zeitraum für den Bericht |
-
-**Gibt zurück** Sortiert Metriken nach Erlebnis.
-
-**Beispielaufforderung:** „Abrufen von Auftragsdaten für XT-54321“.
 
 +++
 
@@ -849,17 +759,18 @@ Keine Parameter erforderlich.
 
 | Kategorie | Count | Werkzeuge |
 |---|---|---|
-| Aktivität | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Aktivität | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Angebot | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Zielgruppe | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Zielgruppe | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Eigenschaft | 1 | `list_target_properties` |
-| Berichterstellung | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Berichterstellung | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Vorschau | 1 | `preview_activity` |
 | Antwort-Token | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Vorlage | 1 | `list_target_templates` |
-| **Gesamt** | **41** | |
+| **Gesamt** | **38** | |
 
 ## Verwandte Ressourcen {#tools-related}
 
