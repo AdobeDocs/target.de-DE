@@ -3,10 +3,10 @@ title: Festlegen einer Funktion für das schrittweise Rollout
 description: Erfahren Sie, wie Sie unter „Flags“ einen prozentualen schrittweisen Rollout für eine Feature Flag konfigurieren.
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Der prozentuale Rollout für eine Feature Flag wird auf der Registerkarte **Grun
 
 ## Funktionsweise {#how-it-works}
 
-Wenn Sie einen prozentualen Rollout festlegen, z. B. 25 %, wird dieser Prozentsatz Ihrer definierten Zielgruppe der Funktion angezeigt. Der verbleibende Prozentsatz wird in die **Kontrollgruppe** aufgenommen, die das Standarderlebnis erhält.
+Wenn Sie einen prozentualen Rollout festlegen, z. B. 25 %, wird dieser Prozentsatz Ihrer definierten Zielgruppe der Funktion angezeigt. Der Prozentsatz des Rollouts ist **erforderlich** und beträgt standardmäßig **100%** (die Funktion wird für die gesamte übereinstimmende Zielgruppe bereitgestellt). Sie können sie in Schritten von **1 %**. Der verbleibende Prozentsatz wird in die **Kontrollgruppe** aufgenommen, die das Standarderlebnis erhält.
 
 Sie können den Prozentsatz im Laufe der Zeit erhöhen oder verringern, um den Rollout zu erweitern oder zu verkürzen. Durch die Reduzierung des Prozentsatzes auf 0 % wird die Funktion effektiv für alle Personen in der Zielgruppe deaktiviert, ohne dass die Markierung gelöscht wird.
 

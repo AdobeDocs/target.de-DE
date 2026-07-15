@@ -3,9 +3,9 @@ title: Onboarding Ihres Programms
 description: Erfahren Sie, wie Sie eine neue Anwendung in Flags integrieren, damit Sie Feature Flags erstellen und verwalten können.
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ Sie müssen über die Rolle **Admin** verfügen, um eine neue Anwendung hinzuzuf
 
 ## Neue Anwendung hinzufügen {#add-application}
 
-1. Melden Sie sich bei der Flags -Konsole an und navigieren Sie zu **Erlebnis-Rollout > Anwendungen**.
+1. Melden Sie sich bei der Flags -Konsole an und navigieren Sie zu **Flags > Anwendungen**.
 
    >[!NOTE]
    >
-   >Wenn die Schaltfläche **Neue Anwendung** nicht sichtbar ist, stellen Sie sicher, dass Sie über die Rolle **Floodgate-**) verfügen.
+   >Wenn die Schaltfläche **Neue Anwendung** nicht sichtbar ist, stellen Sie sicher, dass Sie über die Rolle **Admin** verfügen.
 
 2. Wählen Sie **Neue Anwendung** aus.
 
@@ -28,10 +28,13 @@ Sie müssen über die Rolle **Admin** verfügen, um eine neue Anwendung hinzuzuf
 
 4. Geben Sie die folgenden Informationen an:
 
+   Mit * markierte Felder sind Pflichtfelder.
+
    | Feld | Beschreibung |
-   |---|---|
-   | **Anwendungs-ID** | Eine eindeutige Kennung, die beim Aufrufen von Flags aus Ihrem Code verwendet wird. Verwenden Sie die Client-ID Ihrer Anwendung. |
-   | **TTL** | Das Abrufintervall (in Sekunden) für die Aktualisierung des Anwendungscache. Gilt nur für Server-seitige SDKs. |
+   | --- | --- |
+   | **Anwendungsname** * | Ein Anzeigename für die Anwendung. |
+   | **Anwendungs-ID** * | Eine eindeutige Kennung, die beim Aufrufen von Flags aus Ihrem Code verwendet wird. Verwenden Sie die Client-ID Ihrer Anwendung. |
+   | **Abrufintervall** | Das Abrufintervall (in Sekunden) für die Aktualisierung des Anwendungscache. Gilt nur für Server-seitige SDKs. |
 
 5. Wählen Sie **Hinzufügen** aus. Ihre Anwendung ist jetzt registriert und bereit für die Konfiguration des Feature Flags.
 

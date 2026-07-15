@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Markierungen
 user-guide-description: Erfahren Sie, wie Sie Flags in Adobe Target verwenden, um Feature Flags, kontrollierte Rollouts und zielgerichtete Versionen in Ihren Programmen zu verwalten.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [Schrittweiser Rollout](concepts/gradual-rollout.md)
 + Erste Schritte mit der Konsole {#console}
    + [Bei Flags anmelden](guides/console/log-in-to-the-console.md)
-   + [Sandbox auswählen](guides/console/environments-overview.md)
+   + [Umgebungen – Übersicht](guides/console/environments-overview.md)
    + [Zugriff anfordern](guides/console/request-access.md)
 + Anwendungen {#applications}
    + [Anwendungen verwalten](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [Erstellen einer Funktionsgruppe](guides/feature-flags/create-a-feature-group.md)
    + [Festlegen einer Funktionsgruppe für das schrittweise Rollout](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [A/B-Tests mit Feature Flags](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [Berichterstellung](guides/feature-flags/analytics.md)
 + Zielgruppenkriterien {#audience}
    + [Zielgruppe in Feature Flags und Feature Groups](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Verwenden des Kontexts in Zielgruppenregeln](guides/audience/using-context-in-audience-rules.md)

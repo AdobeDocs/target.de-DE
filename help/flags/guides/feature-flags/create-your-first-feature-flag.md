@@ -3,10 +3,10 @@ title: Erstellen des ersten Feature Flags
 description: Erfahren Sie, wie Sie ein Feature Flag in Flags erstellen, eine Zielgruppe festlegen und testen, bevor Sie es für Benutzer einführen.
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -25,19 +25,31 @@ Bevor Sie ein Feature Flag erstellen, führen Sie Folgendes aus:
 Gehen Sie wie folgt vor, um ein neues Feature Flag in der Konsole zu erstellen:
 
 1. Melden Sie sich bei der Flags -Konsole an und navigieren Sie zu **Funktionen und Versionen > Feature Flags**.
-2. Wählen Sie Ihr Programm aus der Dropdown **Liste** Programm“ aus.
-3. Wählen Sie **Neue Funktion** aus.
-4. Geben Sie einen Titel, einen Schlüssel, eine Beschreibung und optional ein Tag an.
-5. Fügen Sie optional Zielgruppenkriterien hinzu (siehe Schritt 2).
-6. Speichern Sie Ihre Feature Flag-Einstellungen.
+1. Wählen Sie Ihr Programm aus der Dropdown **Liste** Programm“ aus.
+1. Wählen Sie **Neue Funktion** aus.
+1. Füllen Sie die Formularfelder aus:
+
+   | Feld | Beschreibung |
+   | --- | --- |
+   | **Name** | Eine Anzeigebeschriftung für das Feature Flag. Wird nicht im Code verwendet. |
+   | **Schlüssel** * | Die Kennung, die im Code zum Auswerten des Flags verwendet wird. Kann nach der Erstellung nicht mehr geändert werden. |
+   | **Beschreibung** | Optionale Beschreibung für Dokumentationszwecke. |
+   | **Metadaten** | Optional. Bis zu 1.024 Zeichen. Verwenden Sie dieses Feld für alle zusätzlichen Metadaten, die mit dem Flag verknüpft werden sollen. |
+   | **Identität** * | Die Identität, mit der das Flag ausgewertet wird (z. B. ECID). Dies ist die in der Funktionsanfrage übergebene Identität. |
+   | **Rollout in Prozent** | Der Prozentsatz Ihrer definierten Zielgruppe, der für diese Funktion bereitgestellt wird. Die Standardeinstellung ist 100 %. Siehe [Festlegen einer Funktion für den schrittweisen Rollout](set-feature-gradual-rollout.md). |
+
+   Mit * markierte Felder sind Pflichtfelder.
+
+>[!IMPORTANT]
+>
+>Der **Schlüssel** ist die in Ihrem Code verwendete Kennung und kann nach der Erstellung nicht geändert werden. Bei Schlüsseln **dürfen keine Leerzeichen enthalten** und wird zwischen **Groß- und Kleinschreibung**. Der **Name** ist nur eine Anzeigenbeschriftung und wird im Code nicht verwendet; die beiden sind unabhängig (der Name wird nicht in den Schlüssel konvertiert). Wenn Sie im Feld Schlüssel ein Leerzeichen eingeben, wird der Fehler ausgegeben: _„Ungültiger Wert für Funktionsschlüssel“_
+
+1. Fügen Sie optional Zielgruppenkriterien hinzu (siehe Schritt 2).
+1. Speichern Sie Ihre Feature Flag-Einstellungen.
 
 ## Schritt 2: Audience-Kriterien hinzufügen {#audience}
 
-Zielgruppenkriterien steuern, welche Benutzer die Funktion sehen. Sie können Kriterien hinzufügen, die auf folgenden Kriterien basieren:
-
-* Profilattribute (wie Land, E-Mail-Domain, Benutzer-ID)
-* Kontextvariablen
-* Vordefinierte Zielgruppensegmente
+Zielgruppenkriterien steuern, welche Benutzer die Funktion sehen. Sie können Benutzende mit **Kontextattributen** - Werten ansprechen, die Ihre Website oder App in der Funktionsanfrage sendet (z. B. `locale` oder `platform`). Kombinieren Sie sie mit **AND**, **OR** und **NOT**. Siehe [Verwenden des Kontexts in Zielgruppenregeln](../audience/using-context-in-audience-rules.md).
 
 Um Zielgruppenkriterien hinzuzufügen, wechseln Sie zur Registerkarte **Zielgruppe** , wenn Sie ein Feature Flag erstellen oder bearbeiten.
 
@@ -55,7 +67,7 @@ Sie können die Aktivierung einer Feature Flag zu einem späteren Zeitpunkt plan
 
 ## FAQ: Ich kann kein Feature Flag als Entwickler hinzufügen {#faq}
 
-Die **Entwickler**-Rolle ist Sandbox. Entwickler können Funktionen privat testen, indem sie ihre Benutzer-ID zur Zielgruppe hinzufügen. Sie können Funktionen nicht für externe Benutzer verfügbar machen. Verwenden Sie die Rolle **Produktversionsinhaber**, um Funktionen für externe Benutzer freizugeben. Wenden Sie sich an Ihren Team-Administrator, um Ihre Rolle zu aktualisieren.
+Die **Entwickler**-Rolle ist Sandbox. Entwickler können Funktionen privat testen, indem sie ihre Benutzer-ID zur Zielgruppe hinzufügen. Sie können Funktionen nicht für externe Benutzer verfügbar machen. Verwenden Sie die Rolle **Produktversionsinhaber**, um Funktionen für externe Benutzer freizugeben. Wenden Sie sich an Ihren Administrator, um Ihre Rolle zu aktualisieren.
 
 ## Siehe auch {#see-also}
 

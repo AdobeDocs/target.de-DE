@@ -2,10 +2,10 @@
 title: Handbuch zur Integration der Experience Rollout-Erweiterung für iOS
 description: Erfahren Sie, wie Sie die Experience Rollout-Erweiterung mit Adobe Experience Platform Mobile SDK auf iOS integrieren.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,10 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
 1. Navigieren Sie in Ihrer Mobile-Eigenschaft zu **Umgebungen**.
 1. Wählen Sie das Kästchen-Symbol unter der Spalte **Installieren** für Ihre Umgebung aus.
 1. Kopieren Sie **Dialogfeld „Mobile-**&quot; die **Umgebungsdatei-ID**.
+
+>[!IMPORTANT]
+>
+>Stellen Sie in **Staging**-Umgebung der Umgebungsdatei-ID das Präfix `staging/` voran, d. h. verwenden Sie `staging/<environmentId>`. Verwenden **in der** die Umgebungsdatei-ID direkt.
 
 ## Hinzufügen der Experience Rollout-Erweiterung zu Ihrer App {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | Plattformkennung | `["IOS"]` |
 | `appVersion` | Anwendungsversion | `["3.0.0"]` |
 | `deviceType` | Gerätetyp | `["phone"]`, `["tablet"]` |
+
+## Wichtige Konzepte zur Funktionsbewertung {#key-concepts}
+
+Beachten Sie Folgendes, wenn Sie Feature Gates in Ihrer App implementieren:
+
+* **Attributwerte übergeben, keine Beschriftungen anzeigen.** Bei Kontextattributwerten wird zwischen **Groß- und Kleinschreibung**. Übergeben Sie den Rohwert, den Ihre App oder Website sendet (z. B. `"en_US"` oder `"IOS"`), nicht die in der Konsole angezeigte Beschriftung.
+* **Bewerten auf Feature-Ebene (Flag).** Auch wenn ein Flag zu einer Funktionsgruppe gehört, rufen Sie die API immer mit dem individuellen **Funktionsschlüssel** auf. Es gibt keine Bewertung auf Gruppenebene. Die Antwort gibt die Variante zurück, der die Benutzerin oder der Benutzer angehörte.
+* **Identität muss nicht mit einem Profil verknüpft sein.** Die Auswertung erfolgt zur Laufzeit. Das Auswertungsereignis wird an Customer Journey Analytics gesendet, unabhängig davon, ob die Identität mit einem bekannten Profil verknüpft ist.
+* **Jedes neue Flag erfordert eine Code-Änderung.** Fügen Sie für jeden Flag-Schlüssel in Ihrem Code ein Gate hinzu. Verwenden Sie `isFeatureEnabled()`, um einen booleschen Ein-/Aus-Status zu überprüfen, oder `getFeature()`, um die vollständige Payload der Funktion einschließlich der Variante abzurufen.
 
 ## API-Referenz {#api-reference}
 

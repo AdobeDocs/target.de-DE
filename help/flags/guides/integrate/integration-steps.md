@@ -3,10 +3,10 @@ title: Integrationsschritte
 description: Befolgen Sie die Integrationsschritte für Ihren Anwendungstyp, um Flags mithilfe der verfügbaren SDKs mit Ihrem Webservice, Ihrer Web- oder Mobile App oder Ihrer Desktop-Anwendung zu verbinden.
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ Backend-Services werden über eine Server-seitige SDK integriert. Kontaktieren S
 >
 >Die Server-seitige SDK-Dokumentation wird derzeit vorbereitet und wird in Kürze verfügbar sein. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugang zu erhalten.
 
-## Web und mobile Anwendungen {#web-mobile}
+## Apps {#mobile}
 
-Web- und Mobile Apps können über die Web-SDK bzw. die Mobile SDK integriert werden.
+Mobile Apps können über die AEP Mobile SDK-Erweiterungen integriert werden:
+
+* [Handbuch zur Integration von Android-Erweiterungen](../sdk-releases/android/android-extension-integration-guide.md)
+* [Handbuch zur Integration von iOS-Erweiterungen](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Webanwendungen {#web}
+
+Die Unterstützung von Web-Anwendungen wird in Kürze verfügbar sein.
 
 >[!NOTE]
 >
->Die Dokumentation zu Web SDK und Mobile SDK wird derzeit vorbereitet und wird in Kürze verfügbar sein. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugang zu erhalten.
+>Die Web SDK-Dokumentation wird derzeit vorbereitet und wird in Kürze verfügbar sein. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugang zu erhalten.
 
 ## Desktop-Programme {#desktop}
 

@@ -1,42 +1,47 @@
 ---
-title: Analytics
-description: Erfahren Sie, wie Sie das integrierte Analyse-Dashboard in Flags aktivieren und verwenden, um die Leistung von Feature Flag-Kennzeichnungen zu verfolgen und die Auswirkungen des Rollouts zu messen.
+title: Berichterstellung
+description: Erfahren Sie, wie Sie Feature Flag-Berichte in Flags mithilfe von Customer Journey Analytics anzeigen.
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
 
-# Analytics {#analytics}
+# Berichterstellung {#reporting}
 
-Flags bietet integrierte Analysen für Feature Flags, Feature Groups, Team-übergreifende Feature Groups und Releases. Verwenden Sie das Analytics-Dashboard, um zu verstehen, wie viele Benutzende an Ihrem Rollout teilnehmen und wie die Varianten- und Kontrollgruppen verglichen werden. Sie können Flags-Daten auch zur Analyse in Ihre bevorzugte Reporting-Umgebung exportieren , zusammen mit Ihren anderen Adobe-Daten.
+Flags ermöglicht Berichte über **Customer Journey Analytics (CJA)**. Es gibt keine In-Console-Ergebnisse oder -Berichte. Stattdessen wird mit einer **Bericht**-Schaltfläche bei jedem Feature Flag oder jeder Feature Group ein CJA-Dashboard für dieses Element geöffnet.
 
-## Analytics aktivieren {#enable}
+## Voraussetzungen {#prerequisites}
 
-Analytics muss auf zwei Ebenen aktiviert werden:
+Bevor Sie Berichte anzeigen können, stellen Sie Folgendes sicher:
 
-1. **Anwendungsebene** - Kontaktieren Sie den Flags-Support, um die Analyse für Ihre Anwendung zu aktivieren.
-2. **Feature Flag-Ebene** - Sobald Analytics für Ihr Programm aktiviert ist, aktivieren Sie das Kontrollkästchen **Analytics aktivieren** auf der Registerkarte **Grundlegende Details** jedes Feature Flag, das Sie verfolgen möchten.
+1. Das Reporting ist für Ihre Anwendung eingerichtet - siehe [Einrichten des Reportings mit Customer Journey Analytics](#setup).
+1. Das Feature Flag oder die Feature Group ist aktiv und enthält gesammelte Daten.
 
->[!NOTE]
->
->Analytics kann standardmäßig für bis zu 20 Feature Flags pro Anwendung aktiviert werden. Wenden Sie sich an den Support, wenn Sie dieses Limit erhöhen müssen.
+## Anzeigen eines Berichts {#view-report}
 
-## Analytics-Dashboard anzeigen {#dashboard}
+So öffnen Sie einen Bericht für ein Feature Flag oder eine Feature Group:
 
-Sobald Analytics aktiviert ist, werden alle Feature Flags, Feature Groups und Releases für Ihre Anwendung mit dem Tracking von Daten gestartet. Greifen Sie auf das Dashboard zu **indem Sie &quot;**&quot; für das Feature Flag, die Feature Group oder Release auswählen, das Sie analysieren möchten.
+1. Navigieren Sie zur Feature Flag oder Feature Group in der Konsole.
+1. Wählen Sie **Bericht** aus.
 
-Das Dashboard zeigt Folgendes an:
+Ein umfassendes Customer Journey Analytics-Dashboard wird geöffnet, das Daten für dieses Flag oder diese Funktionsgruppe anzeigt. Das Dashboard umfasst:
 
 * **Teilnehmer** - Gesamtzahl der Benutzer, die sich für die Funktion qualifiziert haben (Variante + Kontrollgruppe kombiniert)
 * **Kontrollgruppe** - Anzahl der der Kontrollgruppe zugewiesenen Benutzer (Benutzer, die das Standarderlebnis erhalten haben)
-* **Diagramm auf Tagesebene** - Tägliche Liniendiagramme, die die Registrierung in der Varianten- und Kontrollgruppe im Zeitverlauf anzeigen; Markierungen geben an, wann die Feature Flag-Konfiguration aktualisiert wurde
-* **Analyse auf Variantenebene** — Kumulative Anzahl der Benutzer, die in der Kontrollgruppe und in jeder Variante registriert sind
+* **Variantenaufschlüsselung** — Kumulative Anzahl der für jede Variante und die Kontrollgruppe registrierten Benutzer.
+* **Tägliche Registrierung** - Diagramme auf Tagesebene, die die Registrierung für jede Variante und die Kontrollgruppe im Zeitverlauf anzeigen
 
-Wählen Sie für Funktionsgruppen und Versionen die Dropdown-Liste **Ergebnisse** aus, um ein Programm auszuwählen und Analysen für dieses Programm anzuzeigen. Analytics ist nur für Programme verfügbar, für die es aktiviert ist.
+## Einrichten von Berichten mit Customer Journey Analytics {#setup}
+
+Für das Reporting ist ein Customer Journey Analytics-Datensatz erforderlich, der mit Ihrer Flags-Anwendung verbunden ist. Wenden Sie sich an den Flags-Support oder an Ihren Adobe-Support, um das Reporting für Ihre Anwendung zu aktivieren.
+
+>[!NOTE]
+>
+>Die in der Funktionsanfrage übergebene Identität muss nicht mit einem Profil verknüpft sein. Die Auswertung erfolgt zur Laufzeit und das Ereignis wird an Customer Journey Analytics gesendet.
 
 ## Siehe auch {#see-also}
 
