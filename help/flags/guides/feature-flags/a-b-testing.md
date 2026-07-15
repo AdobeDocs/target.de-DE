@@ -3,10 +3,10 @@ title: A/B-Tests mit Feature Flags
 description: Erfahren Sie, wie Sie A/B-Tests mit Funktionsgruppen in Flags ausführen, indem Sie mehrere Varianten für einen Satz von Funktions-Flags konfigurieren.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -24,10 +24,14 @@ A/B-Tests in Flags werden mit **Funktionsgruppen** durchgeführt. Durch die Konf
 ## Schritt 1: KE-Gruppe mit mehreren Varianten erstellen {#create}
 
 1. Navigieren Sie zu **Funktionstests > Funktionsgruppen** und wählen Sie **Neue Funktionsgruppe** aus.
-2. Geben **in &quot;** Details“ einen Titel, einen Schlüssel und eine Beschreibung an.
-3. Legen Sie einen **Rollout in Prozent** fest, um festzulegen, wie viel Ihrer Audience am Test teilnimmt.
-4. Legen Sie **Varianten** auf einen Wert größer als 1 fest (z. B. zwei Varianten für einen klassischen A/B-Test).
-5. Unter [Festlegen einer Funktionsgruppe für das schrittweise Rollout](set-feature-group-gradual-rollout.md) erfahren Sie, wie der Belichtungsprozentsatz auf die verschiedenen Varianten verteilt ist.
+1. Geben **in &quot;** Details“ einen Titel, einen Schlüssel und eine Beschreibung an.
+1. Legen Sie einen **Rollout in Prozent** fest, um festzulegen, wie viel Ihrer Audience am Test teilnimmt.
+1. Legen Sie **Varianten** auf einen Wert größer als 1 fest (z. B. zwei Varianten für einen klassischen A/B-Test). Sie können bis zu **3 Varianten plus eine Kontrollgruppe definieren**.
+1. Unter [Festlegen einer Funktionsgruppe für das schrittweise Rollout](set-feature-group-gradual-rollout.md) erfahren Sie, wie der Belichtungsprozentsatz auf die verschiedenen Varianten verteilt ist.
+
+>[!NOTE]
+>
+>Die Exposition wird **gleichmäßig** auf Varianten aufgeteilt - z. B. 50/50 für zwei Varianten. Benutzerdefinierte Teilungen wie 60/40 werden nicht unterstützt. Eine Feature Flag kann zu (**einer Variante) hinzugefügt**. Die Zielgruppe wird **einmal pro Funktionsgruppe)** nicht pro Variante festgelegt.
 
 ## Schritt 2: Festlegen der Audience {#audience}
 
@@ -53,6 +57,6 @@ Speichern Sie die Funktionsgruppeneinstellungen. Wenn Sie bereit sind, den Test 
 
 * [Erstellen einer Funktionsgruppe](create-a-feature-group.md)
 * [Festlegen einer Funktionsgruppe für das schrittweise Rollout](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Berichterstellung](analytics.md)
 
 <!-- -->

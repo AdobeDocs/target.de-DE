@@ -3,9 +3,9 @@ title: Flags in die App integrieren
 description: Erfahren Sie, wie Sie Flags in Ihr Programm integrieren können, unabhängig davon, ob es sich um einen Webservice, eine Web-Eigenschaft, eine Mobile App oder eine Desktop-Anwendung handelt.
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ Wählen Sie das Handbuch aus, das Ihrem Anwendungstyp entspricht:
 ## Anwendungstypen auf einen Blick {#overview}
 
 | Anwendungstyp | Empfohlene Integration |
-|---|---|
+| --- | --- |
 | **Webservice/Backend** | Java SDK oder Node.js SDK |
 | **Web-Anwendung** | Web SDK (in Kürze verfügbar) |
-| **Mobile App** | Mobile SDK (in Kürze verfügbar) |
+| **Mobile App** | AEP Mobile SDK - siehe Handbücher zu [Android](../sdk-releases/android/android-extension-integration-guide.md) und [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) |
 | **Desktop-Programm** | SDK (in Kürze verfügbar) |
 
 <!-- -->
