@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Flags in Adobe Target Funktionen sicher u
 hide: true
 index: false
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -39,14 +39,10 @@ Das Abrufen von Werten aus Flags beginnt mit drei Schritten:
 
 1. **Erstellen und Veröffentlichen eines Flags** - Befolgen Sie die Anleitung [Erstellen des ersten Feature Flag](guides/feature-flags/create-your-first-feature-flag.md) zum Definieren eines Flags, Festlegen der anfänglichen Zielgruppe und Veröffentlichen in Ihrer Umgebung.
 
-1. **Mit Ihrer Anwendung integrieren** - Verbinden Sie Ihre App mit dem AEP Web SDK oder AEP Mobile SDK, damit Flags zur Laufzeit abgerufen und angewendet werden können. Beginnen Sie mit den [Integrationsschritten](guides/integrate/integration-steps.md) für Ihren Anwendungstyp.
+1. **Mit Ihrer Anwendung integrieren** - Verbinden Sie Ihre App mit dem AEP Web SDK oder AEP Mobile SDK, damit Flags zur Laufzeit abgerufen und angewendet werden können. Beginnen Sie mit dem [Integrationshandbuch](guides/integrate/sdks.md) für Ihren Anwendungstyp.
 
 Sobald Ihre erste Markierung live ist, können Sie ihre Zielgruppe verfeinern, einen schrittweisen Rollout konfigurieren und sie von „Gespeichert“ zum vollständigen Rollout hochstufen.
 
 ## Brauchen Sie Hilfe?
 
 Wenn sich etwas nicht wie erwartet verhält, wenden Sie sich an den Adobe-Support.
-
-<!-- 
-Bob was here. Again.
--->

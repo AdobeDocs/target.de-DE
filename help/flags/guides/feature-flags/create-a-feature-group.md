@@ -3,9 +3,9 @@ title: Erstellen einer Funktionsgruppe
 description: Erfahren Sie, wie Sie in Flags eine Funktionsgruppe erstellen, um mehrere Funktionsflags in allen Anwendungen Ihres Teams als eine Einheit zu verwalten.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Bevor Sie eine Funktionsgruppe erstellen, führen Sie Folgendes aus:
 
 * Sie haben Zugriff auf die Konsole „Flags“ — siehe [Bei Konsole anmelden](../console/log-in-to-the-console.md)
 * Ihr Programm wurde integriert - siehe [Onboarding Ihres Programms](../applications/onboard-your-application.md)
-* Sie haben die Rolle **Entwickler** oder **Produktversionsinhaber**.
+* Sie haben die Rolle **Produktversionsinhaber**.
 * Sie haben die Feature Flags erstellt, die Sie der Gruppe hinzufügen möchten - siehe [Erstellen des ersten Feature Flags](create-your-first-feature-flag.md)
 
 Eine Einführung in Funktionsgruppen finden Sie unter &quot;[&#x200B; zur Steuerung mehrerer Funktionen](../../concepts/feature-groups-to-control-multiple-features.md).
@@ -27,7 +27,7 @@ Eine Einführung in Funktionsgruppen finden Sie unter &quot;[&#x200B; zur Steuer
 
 Öffnen Sie die Konsole und starten Sie eine neue Funktionsgruppe:
 
-1. Melden Sie sich bei der Flags -Konsole an und navigieren Sie zu **Funktionstests > Funktionsgruppen**.
+1. Melden Sie sich bei der **Flags-Konsole** an, wechseln Sie zum linken Bedienfeld und wählen Sie **Funktionsgruppen** aus.
 2. Wählen Sie **Neue Funktionsgruppe** aus.
 
 ## Schritt 2: Grundlegende Details {#basic-details}
@@ -44,10 +44,6 @@ Definieren Sie, wer die Funktionen in dieser Gruppe erhalten soll:
 
 1. Fügen Sie auf der Registerkarte **Audience** Audience-Kriterien hinzu, um zu definieren, welche Benutzer die Funktion erhalten.
 2. Fügen **unter** eine oder mehrere Anwendungen aus Ihrem Team hinzu. Funktionsgruppen können mehrere Anwendungen umfassen, solange sie alle zum selben Team gehören.
-
->[!NOTE]
->
->Die **Entwickler**-Rolle ist Sandbox. Fügen Sie Ihre eigene Benutzer-ID unter **Zielgruppe > Profil > Benutzer-ID)**, um einen privaten Test durchzuführen. Um externe Benutzer anzusprechen, benötigen Sie die Rolle **Produktversionsinhaber** .
 
 ## Schritt 4: Funktionen {#features}
 
@@ -66,10 +62,6 @@ Weisen Sie die Feature Flags zu, die von dieser Gruppe gesteuert werden:
 >Wenn Sie **Feature Flag** einer Feature Group entfernen, kehrt das Flag in den Status **Deaktiviert“ zurück** seine Zielgruppe wird **nicht wiederhergestellt** - als neues Flag behandeln. Eine Markierung **deaktiviert** innerhalb einer Gruppe wird immer als `false` ausgewertet. Durch die Aktivierung einer Funktionsgruppe werden **Mitglieder-Flags nicht aktiviert** sondern jedes Flag explizit aktiviert.
 >
 >Funktionsgruppen sind eine **Verwaltungsebene**. Zur Laufzeit erfolgt die Auswertung immer auf **Feature (Flag)-Ebene** nie auf Gruppenebene. Die Antwort enthält die Variante, in die der Benutzer fiel.
-
-## Schritt 5: Zeitplan (optional) {#schedule}
-
-Sie können die Aktivierung der Funktionsgruppe zu einem späteren Zeitpunkt planen, indem Sie die Option **Planen** in den Einstellungen der Funktionsgruppe verwenden.
 
 ## Siehe auch {#see-also}
 

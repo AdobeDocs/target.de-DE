@@ -3,10 +3,10 @@ title: SDKs
 description: Erfahren Sie mehr über die SDK-Architektur in Flags und die verfügbaren AEP Web SDK- und AEP Mobile SDK-Erweiterungen.
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ Einrichtungsanweisungen finden Sie im Handbuch zur Integration [&#128279;](../sd
 ## Siehe auch {#see-also}
 
 * [Handbuch zur Integration von Android-Erweiterungen](../sdk-releases/android/android-extension-integration-guide.md)
-* [Web-Services](web-services.md)
-* [Integrationsschritte](integration-steps.md)
+* [Handbuch zur Integration von iOS-Erweiterungen](../sdk-releases/ios/ios-extension-integration-guide.md)
+* [Handbuch zur Integration von Web-Erweiterungen](../sdk-releases/web/web-extension-integration-guide.md)
 
 <!-- -->

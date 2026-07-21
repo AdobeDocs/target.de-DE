@@ -3,9 +3,9 @@ title: Warum Flags verwenden?
 description: Erfahren Sie mehr über die wichtigsten Anwendungsfälle für Flags in Adobe Target, von selektiven Funktionstests bis hin zu koordinierten Versionen mehrerer Anwendungen.
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Geben Sie eine Funktion zuerst für eine kleine Gruppe von Benutzern frei. Samme
 Inkrementelles Durchführen eines Rollouts, um plötzliche Traffic-Spitzen bei Backend-Services zu vermeiden, anstatt alle Benutzer einer neuen Funktion gleichzeitig auszusetzen.
 
 **Koordinierte Versionen mit mehreren Anwendungen**
-Gleichzeitiges Aktivieren einer Funktion über mehrere Programme und Teams hinweg für eine bestimmte Gruppe von Benutzern. Flags sorgen für Konsistenz über die gesamte Release-Oberfläche.
+Gleichzeitiges Aktivieren einer Funktion über mehrere Anwendungen hinweg für eine bestimmte Benutzergruppe. Flags sorgen für Konsistenz über die gesamte Release-Oberfläche.
 
 **Zurückgestellte Versionen**
 Stellen Sie Code vorab für die Produktion bereit und aktivieren Sie dann die Funktion zu einem bestimmten Zeitpunkt - z. B. zu Beginn eines Produkteinführungsereignisses - ohne Code-Änderung in letzter Minute.

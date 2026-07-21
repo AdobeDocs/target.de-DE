@@ -1,59 +1,38 @@
 ---
 title: Verwenden des Kontexts in Zielgruppenregeln
-description: Erfahren Sie, wie Sie Kontextvariablen in Zielgruppenregeln für Feature Flags und Feature-Gruppen in Flags verwenden.
+description: Erfahren Sie, wie Sie Kontextattribute in Zielgruppenregeln für Feature Flags und Feature Groups in Flags verwenden.
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # Verwenden des Kontexts in Zielgruppenregeln {#context-in-audience-rules}
 
-Kontextvariablen sind Werte, die von der Client-Anwendung zur Laufzeit bereitgestellt werden. Sie ermöglichen es Ihnen, Benutzende auf der Grundlage dynamischer Informationen auf Sitzungsebene anzusprechen, wie z. B. die aktive Sprache des Benutzers, der Gerätetyp oder der Anwendungsstatus.
+Kontextattribute sind Werte, die von der Client-Anwendung zur Laufzeit bereitgestellt werden. Sie ermöglichen es Ihnen, Benutzende auf der Grundlage dynamischer Informationen auf Sitzungsebene anzusprechen, wie z. B. die aktive Sprache des Benutzers, der Gerätetyp oder der Anwendungsstatus.
 
-Kontextvariablen sind für Web- und Mobile-Clients relevant.
+Kontextattribute sind für Web- und Mobile-Clients relevant.
 
-## Funktionsweise von Kontextvariablen {#how-context-works}
+## So funktionieren Kontextattribute {#how-context-attributes-work}
 
-Ihre Anwendung übergibt Kontextvariablen an Flags, wenn ein Feature Flag bewertet wird. Sie definieren in der Konsole Regeln, die diese Werte überprüfen, und die Plattform verwendet sie zum Zeitpunkt der Auswertung, um festzustellen, ob der Benutzer qualifiziert ist.
+Ihre Anwendung übergibt beim Bewerten eines Feature Flags Kontextattribute an Flags. Sie definieren in der Konsole Regeln, die diese Werte überprüfen, und die Plattform verwendet sie zum Zeitpunkt der Auswertung, um festzustellen, ob der Benutzer qualifiziert ist.
 
-## Kontextvariablentypen {#variable-types}
+## Kontextattribut hinzufügen {#adding-context-attribute}
 
-### Vordefinierter (Listen-)Typ {#predefined-type}
-
-Eine Kontextvariable mit einem festen Satz zulässiger Werte, z. B. eine Liste von Sprachen oder Ländern.
-
-Verfügbare Operatoren: **Ist**, **Ist nicht gleich**, **Vorhanden**, **In**
-
-### Ganzzahliger Typ {#integer-type}
-
-Eine Kontextvariable, die einen numerischen Wert enthält.
-
-Verfügbare Operatoren: **größer als**, **größer oder gleich**, **Ist**, **kleiner als**, **kleiner oder gleich**
-
-### Typ der Zeichenfolge {#string-type}
-
-Eine Kontextvariable, die einen Freiformtextwert enthält.
-
-Verfügbare Operatoren: **Ist**, **Ist nicht gleich**
-
-## Kontextvariable hinzufügen {#adding-context-variable}
-
-So fügen Sie einer Zielgruppenregel eine Kontextvariable hinzu:
+So fügen Sie einer Zielgruppenregel ein Kontextattribut hinzu:
 
 1. Öffnen Sie das Feature Flag oder die Feature Group in der Konsole.
 2. Navigieren Sie zur Registerkarte **Zielgruppe** .
 3. Fügen **unter &quot;**&quot; eine neue Bedingung hinzu.
-4. Wählen Sie die Kontextvariable, den Operator und den Wert.
+4. Wählen Sie das Kontextattribut, den Operator und den Wert aus.
 
-Wenn die benötigte Kontextvariable nicht in der Liste angezeigt wird, können Sie im Abschnitt zur Verwaltung von Kontextvariablen der Konsole auf Self-Service-Weise eine neue Variable erstellen.
+Wenn das benötigte Kontextattribut nicht in der Liste angezeigt wird, können Sie ein neues erstellen - siehe &quot;[&#x200B; von Kontextattributen](creating-your-context-attributes.md).
 
 ## Siehe auch {#see-also}
 
 * [Zielgruppe in Feature Flags und Feature Groups](audience-in-feature-flags-and-feature-groups.md)
-* [Hinzufügen von Prozentregeln in Zielgruppenkriterien](adding-percentage-rules.md)
 
 <!-- -->

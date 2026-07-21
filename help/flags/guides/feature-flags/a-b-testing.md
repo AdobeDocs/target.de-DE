@@ -3,10 +3,10 @@ title: A/B-Tests mit Feature Flags
 description: Erfahren Sie, wie Sie A/B-Tests mit Funktionsgruppen in Flags ausführen, indem Sie mehrere Varianten für einen Satz von Funktions-Flags konfigurieren.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ A/B-Tests in Flags werden mit **Funktionsgruppen** durchgeführt. Durch die Konf
 
 * Sie haben Zugriff auf die Konsole — siehe [Bei Konsole anmelden](../console/log-in-to-the-console.md)
 * Sie gehören einem Team an und Ihr Programm wird integriert
-* Sie haben die Rolle **Entwickler** oder **Produktversionsinhaber**.
+* Sie haben die Rolle **Produktversionsinhaber**.
 * Sie haben die zu testenden Feature Flags erstellt (siehe [Erstellen des ersten Feature Flags](create-your-first-feature-flag.md)
 
 ## Schritt 1: KE-Gruppe mit mehreren Varianten erstellen {#create}
@@ -37,10 +37,6 @@ A/B-Tests in Flags werden mit **Funktionsgruppen** durchgeführt. Durch die Konf
 
 Fügen Sie auf der Registerkarte **Audience** Audience-Kriterien hinzu und wählen Sie die einzuschließenden Programme aus. Funktionsgruppen können mehrere Anwendungen innerhalb desselben Teams umfassen.
 
->[!NOTE]
->
->Um externe Benutzer in einem A/B-Test anzusprechen, müssen Sie über die Rolle **Produktversionsinhaber** verfügen. Die Entwicklerrolle ist Sandbox-fähig und auf private Tests beschränkt.
-
 ## Schritt 3: Funktionen pro Variante hinzufügen {#features}
 
 Auf der Registerkarte **Funktionen** verfügt jede Variante über eine eigene Registerkarte. Fügen Sie jeder Variante die entsprechenden Funktions-Flags hinzu, um die verschiedenen Erlebnisse zu definieren, die Sie vergleichen möchten.
@@ -57,6 +53,6 @@ Speichern Sie die Funktionsgruppeneinstellungen. Wenn Sie bereit sind, den Test 
 
 * [Erstellen einer Funktionsgruppe](create-a-feature-group.md)
 * [Festlegen einer Funktionsgruppe für das schrittweise Rollout](set-feature-group-gradual-rollout.md)
-* [Berichterstellung](analytics.md)
+* [Berichterstellung](reporting.md)
 
 <!-- -->

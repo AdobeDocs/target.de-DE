@@ -3,9 +3,9 @@ title: Release anfordern
 description: Erfahren Sie, wie Sie eine neue koordinierte Version in Flags anfordern und welche Informationen bereitgestellt werden sollen.
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 3%
 
 ## Voraussetzungen {#prerequisites}
 
-* Sie haben die Rolle **Release-Manager** - siehe <!-- broken link[User roles](../teams/user-roles.md) -->
+* Sie haben die Rolle **Release-Manager**
 * Ihr Programm wurde integriert - siehe [Onboarding Ihres Programms](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Bevor Sie eine Version anfordern, überprüfen Sie <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Eine Team-übergreifende Funktionsgruppe kann Ihren Anforderungen mit weniger Aufwand gerecht werden - sie stellt sich selbst bereit und unterstützt eine umfassendere Zielgruppen-Zielgruppenbestimmung.
+>Bevor Sie eine Version anfordern, überlegen Sie, ob eine teamübergreifende Funktionsgruppe Ihre Anforderungen mit weniger Aufwand erfüllt - sie ist Self-Service und unterstützt ein umfangreicheres Audience-Targeting.
 
 ## Senden einer Support-Anfrage {#submit}
 

@@ -3,9 +3,9 @@ title: Feature Flags importieren
 description: Erfahren Sie, wie Sie Feature Flags in Flags von einer Sandbox in eine andere importieren, um zu vermeiden, dass Flag-Konfigurationen manuell neu erstellt werden.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ Mit Flags können Sie Feature Flags aus einer Sandbox (z. B. Sandbox 1) in eine 
 
 ## Schritt 1: Zur Ziel-Sandbox und -Anwendung wechseln {#step-1}
 
-Melden Sie sich bei der Konsole für die Sandbox **Ziel** an, also die Sandbox, in die Sie Flags importieren **. Wählen Sie die Anwendung, in die Sie Flags importieren möchten, aus der Dropdown-Liste Anwendung auf der Seite Feature Flags .
+Melden Sie sich bei der Konsole für die Sandbox **Ziel** an, also die Sandbox, in die Sie Flags importieren möchten. Klicken Sie **Feature Flags importieren** und wählen Sie dann aus der Dropdown-Liste Anwendung die Anwendung aus, in die Sie Flags importieren möchten.
+
+![Schaltfläche Feature Flags importieren auf der Seite Feature Flags](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >
