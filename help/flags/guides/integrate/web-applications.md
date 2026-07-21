@@ -3,10 +3,10 @@ title: Webanwendungen
 description: Erfahren Sie, wie Sie Flags mithilfe der Web-SDK in eine Web-Anwendung integrieren.
 hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
@@ -14,17 +14,14 @@ ht-degree: 9%
 
 Web-Anwendungen können über die Web-SDK mit Flags integriert werden.
 
->[!NOTE]
->
->Die Web SDK-Dokumentation wird derzeit vorbereitet und wird in Kürze verfügbar sein. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um frühzeitig Zugang zu erhalten.
+## Integrationshandbuch {#integration-steps}
 
-## Integrationsschritte {#integration-steps}
+Befolgen Sie die Anleitung für das Web:
 
-Eine vollständige Anleitung zum Integrationsprozess finden Sie unter [Integrationsschritte](integration-steps.md).
+* [Handbuch zur Integration von Web-Erweiterungen](../sdk-releases/web/web-extension-integration-guide.md)
 
 ## Siehe auch {#see-also}
 
-* [Integrationsschritte](integration-steps.md)
 * [Starthandbuch](startup-guide.md)
 
 <!-- -->

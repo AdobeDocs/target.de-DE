@@ -3,9 +3,9 @@ title: Einführung in Flags
 description: Erfahren Sie, wie Flags in Adobe Target ein kontrolliertes Freigabesystem bereitstellt, mit dem Funktionen progressiv für Zielgruppen bereitgestellt werden können.
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Flags ist eine Feature-Management-Plattform, die Folgendes bietet:
 
 * **Feature Flags** - Schalten Sie eine Funktion zur Laufzeit für eine Zielgruppe ein oder aus, ohne Code erneut bereitzustellen.
 
-* **Zielgruppen-Targeting** - Kontrollieren Sie, wer eine Funktion mithilfe von Benutzerprofildaten, prozentualen Regeln, E-Mail-Adresse, E-Mail-Domain, IP-Adresse oder kontextuellen Attributen sieht.
+* **Zielgruppen-Targeting** - Kontrollieren Sie mithilfe von kontextuellen Attributen, wer eine Funktion sieht.
 
 * **Funktionsgruppen** - Bündeln Sie mehrere verwandte Funktions-Flags über Anwendungen hinweg und verwalten Sie sie als eine Einheit, um sicherzustellen, dass dieselbe Zielgruppe ein konsistentes Erlebnis sieht.
-
-* **Versionen** - Koordinieren Sie große, teamübergreifende Rollouts, indem Sie Feature Flags aus mehreren Teams und Programmen in einem einzigen Versionsereignis gruppieren.
 
 * **Schrittweise Rollouts** - Bereitstellung von Funktionen in der Phase, um Risiken zu reduzieren, Feedback zu sammeln und die Backend-Last zu verwalten.
 

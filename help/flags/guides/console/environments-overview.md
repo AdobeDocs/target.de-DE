@@ -3,9 +3,9 @@ title: Umgebungen – Übersicht
 description: Erfahren Sie, wie Sie beim Arbeiten mit Flags die richtige Adobe Experience Platform-Sandbox auswählen.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,8 @@ Flags wird auf Adobe Experience Platform erstellt. Wählen Sie vor dem Arbeiten 
 ## Auswählen einer Sandbox {#how-to}
 
 Verwenden Sie den Sandbox-Umschalter in der oberen Navigationsleiste der Konsole „Flags“, um die richtige Sandbox auszuwählen, bevor Sie Feature Flags erstellen oder ändern.
+
+![Sandbox-Umschalter in der Konsole „Flags“](assets/sandbox-selection.png)
 
 ## Siehe auch {#see-also}
 

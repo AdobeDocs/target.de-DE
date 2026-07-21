@@ -1,59 +1,57 @@
 ---
-title: Handbuch zur Integration der Experience Rollout-Erweiterung für Android
-description: Erfahren Sie, wie Sie die Experience Rollout-Erweiterung mit Adobe Experience Platform Mobile SDK auf Android integrieren.
+title: Flags-Erweiterung für Android-Integrationshandbuch
+description: Erfahren Sie, wie Sie die Flags-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 7%
+source-wordcount: '983'
+ht-degree: 4%
 
 ---
 
-# Experience Rollout-Erweiterung für Android {#android-extension-integration-guide}
+# Flags-Erweiterung für Android {#android-extension-integration-guide}
 
-In diesem Handbuch wird beschrieben, wie Sie die Experience Rollout-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
+In diesem Handbuch wird beschrieben, wie Sie die Flags-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
 
 ## Voraussetzungen {#prerequisites}
 
-Stellen Sie vor der Implementierung der Experience Rollout-Erweiterung Folgendes sicher:
+Stellen Sie vor der Implementierung der Flags-Erweiterung Folgendes sicher:
 
 * Eine Mobile-Eigenschaft, die in der Datenerfassung von [Adobe Experience Platform konfiguriert ist](https://experience.adobe.com/#/data-collection)
-* Die in Ihrer Mobile-Eigenschaft installierte und konfigurierte Experience Rollout-Erweiterung
+* Die in Ihrer Mobile-Eigenschaft installierte und konfigurierte Flags-Erweiterung
 * Eine Adobe Experience Cloud-Organisations-ID
 * Minimum SDK: API 21 (Android 5.0 Lollipop)
 
 ## Abhängigkeiten der Erweiterung {#extension-dependencies}
 
-Für die Erweiterung „Experience Rollout“ sind die folgenden Adobe Experience Platform-Erweiterungen erforderlich:
+Die Flags-Erweiterung erfordert die folgenden Adobe Experience Platform-Erweiterungen:
 
 | Erweiterung | Beschreibung | Erforderlich |
 |---|---|---|
 | Core für Mobilgeräte | Bietet Kernfunktionen, einschließlich Konfiguration und Ereignisverarbeitung | Ja |
 | Lebenszyklus | Erfasst Anwendungslebenszyklus- und Sitzungsdaten für die Mobile SDK | Ja |
 | Edge Network | Ermöglicht die Kommunikation mit Adobe Experience Platform Edge Network | Ja |
-| Edge-Identität | Verwaltet die Benutzeridentität für Edge Network | Ja |
+| Edge-Identität | Aktiviert die Identitätsverwaltung über eine Mobile App bei Verwendung der Edge Network-Erweiterung | Ja |
 
 Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaft für Mobilgeräte installiert und in Ihren App-Abhängigkeiten enthalten sind.
 
-## Konfigurieren der Experience Rollout-Erweiterung in der Datenerfassung {#configure}
+## Konfigurieren der Flags-Erweiterung in der Datenerfassung {#configure}
 
 ### Installieren der Erweiterung {#install-extension}
 
 1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/#/data-collection) an.
 1. Wählen Sie die Registerkarte **Tags** und dann Ihre Mobile-Eigenschaft aus.
 1. Navigieren Sie **Erweiterungen** > **Katalog**.
-1. Suchen Sie nach **Experience Rollout-Erweiterung** und wählen Sie **Installieren** aus.
+1. Suchen Sie nach **Flags-Erweiterung** und wählen Sie **Installieren** aus.
 1. Konfigurieren Sie die Erweiterungseinstellungen:
 
    | Einstellung | Beschreibung |
    |---|---|
-   | Sandbox | Die Adobe Experience Platform-Sandbox mit Ihrer Experience Rollout-Konfiguration |
-   | Anwendungs-ID | Eine eindeutige Kennung für Ihr Programm im Experience Rollout |
-   | Datensatz-ID | Die Adobe Experience Platform-Datensatz-ID für die Analytics-Ereignisdaten |
+   | Anwendungs-ID | Eine eindeutige Kennung für Ihre Anwendung in Flags |
 
 1. Wählen Sie **Speichern** aus.
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
 ### Abrufen der Umgebungsdatei-ID {#environment-file-id}
 
@@ -61,15 +59,11 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
 1. Wählen Sie das Kästchen-Symbol unter der Spalte **Installieren** für Ihre Umgebung aus.
 1. Kopieren Sie **Dialogfeld „Mobile-**&quot; die **Umgebungsdatei-ID**.
 
->[!IMPORTANT]
->
->Stellen Sie in **Staging**-Umgebung der Umgebungsdatei-ID das Präfix `staging/` voran, d. h. verwenden Sie `staging/<environmentId>`. Verwenden **in der** die Umgebungsdatei-ID direkt.
-
-## Hinzufügen der Experience Rollout-Erweiterung zu Ihrer App {#add-to-app}
+## Hinzufügen der Flags-Erweiterung zur App {#add-to-app}
 
 ### Hinzufügen von Abhängigkeiten {#add-dependencies}
 
-Fügen Sie die Mobile SDK-Abhängigkeiten zu Ihrem Projekt hinzu. Für die Erweiterung „Experience Rollout“ sind Mobile Core und die unten aufgeführten Edge-Erweiterungen erforderlich.
+Fügen Sie die Mobile SDK-Abhängigkeiten zu Ihrem Projekt hinzu. Die Flags-Erweiterung erfordert Mobile Core und die unten aufgeführten Edge-bezogenen Erweiterungen.
 
 #### Gradle mit Stückliste verwenden (empfohlen) {#gradle-bom}
 
@@ -78,16 +72,13 @@ Fügen Sie der `build.gradle.kts`-Datei Ihrer App die folgenden Abhängigkeiten 
 ```kotlin
 dependencies {
     // Adobe Experience Platform Mobile SDK BOM
-    implementation(platform("com.adobe.marketing.mobile:sdk-bom:3.+"))
+    implementation(platform("com.adobe.marketing.mobile:sdkbom:3.+"))
 
     // Required extensions
     implementation("com.adobe.marketing.mobile:core")
     implementation("com.adobe.marketing.mobile:lifecycle")
     implementation("com.adobe.marketing.mobile:edge")
     implementation("com.adobe.marketing.mobile:edgeidentity")
-
-    // Experience Rollout extension
-    implementation("com.adobe.marketing.mobile:rollout")
 }
 ```
 
@@ -96,22 +87,68 @@ dependencies {
 ```groovy
 dependencies {
     // Adobe Experience Platform Mobile SDK BOM
-    implementation platform('com.adobe.marketing.mobile:sdk-bom:3.+')
+    implementation platform('com.adobe.marketing.mobile:sdkbom:3.+')
 
     // Required extensions
     implementation 'com.adobe.marketing.mobile:core'
     implementation 'com.adobe.marketing.mobile:lifecycle'
     implementation 'com.adobe.marketing.mobile:edge'
     implementation 'com.adobe.marketing.mobile:edgeidentity'
-
-    // Experience Rollout extension
-    implementation 'com.adobe.marketing.mobile:rollout'
 }
 ```
 
 >[!IMPORTANT]
 >
->Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [&#x200B; unter „Verwalten &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
+>Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [ unter „Verwalten ](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
+
+### Hinzufügen der Flags-Abhängigkeit {#add-flags-dependency}
+
+#### Verwenden des gehosteten Maven-Repositorys (empfohlen) {#hosted-maven}
+
+Fügen Sie das Maven-Repository mit den Flags zum `repositories` in `settings.gradle.kts` hinzu:
+
+```kotlin
+maven {
+    url = uri("<HTTPS Flags Maven repository URL>")
+}
+```
+
+Für eine groovy `settings.gradle`-Datei:
+
+```groovy
+maven {
+    url = uri('<HTTPS Flags Maven repository URL>')
+}
+```
+
+Ersetzen Sie `<HTTPS Flags Maven repository URL>` durch die sichere Repository-URL, die für die Flags-Erweiterung bereitgestellt wird.
+
+Fügen Sie dann die versionierte Flags-Abhängigkeit zum `build.gradle.kts` Ihrer App hinzu:
+
+```kotlin
+implementation("com.adobe.marketing.mobile:flags:<version>")
+```
+
+Für eine groovy `build.gradle`-Datei:
+
+```groovy
+implementation 'com.adobe.marketing.mobile:flags:<version>'
+```
+
+Ersetzen Sie `<version>` durch die exakte Flags-Erweiterungsversion, die für Ihre Version bereitgestellt wird.
+
+#### Verwenden des Flags-Verteilungspakets {#distribution-package}
+
+Das Flags-Erweiterungspaket umfasst Folgendes:
+
+* `flags-3.x.aar`
+* `flags-3.x.module`
+* `flags-3.x.pom`
+
+Stellen Sie die Erweiterung mithilfe einer der folgenden Methoden für Ihr Android-Projekt zur Verfügung:
+
+* Veröffentlichen Sie alle Dateien aus dem Verteilungspaket in einem lokalen oder privaten Maven-Repository und konfigurieren Sie Ihr Projekt für die Verwendung dieses Repositorys.
+* Fügen Sie `flags-3.x.aar` direkt zu Ihrem Projekt hinzu und deklarieren Sie die in `flags-3.x.pom` angegebenen transitiven Abhängigkeiten.
 
 ### Hinzufügen von Berechtigungen {#add-permissions}
 
@@ -124,15 +161,15 @@ Fügen Sie Ihrer `AndroidManifest.xml`-Datei die folgenden Berechtigungen hinzu:
 
 ### SDK initialisieren {#initialize-sdk}
 
-Initialisieren Sie die Mobile SDK in Ihrer `Application`, bevor Sie APIs für Experience Rollout-Erweiterungen aufrufen. Verwenden Sie die Umgebungsdatei-ID aus Ihrer Mobile-Eigenschaft mit `MobileCore.initialize`, damit die App die Rollout-Einstellungen übernimmt, die Sie in der Datenerfassung veröffentlicht haben.
+Initialisieren Sie die Mobile SDK in Ihrer `Application`-Klasse, bevor Sie APIs für Flags-Erweiterungen aufrufen. Verwenden Sie die Umgebungsdatei-ID aus Ihrer Mobile-Eigenschaft mit `MobileCore.initialize`, damit die App die in der Datenerfassung veröffentlichten Flags-Einstellungen übernimmt.
 
 #### Verwenden von MobileCore.initialize {#mobile-core-initialize}
 
-Diese API ist ab Android BOM Version 3.8.0 verfügbar und registriert automatisch Erweiterungen und ermöglicht die Lebenszyklusverfolgung.
+Diese API ist ab Android BOM Version 3.8.0 verfügbar und initialisiert die SDK mit Ihrer Datenerfassungsumgebungsdatei.
 
 >[!IMPORTANT]
 >
->Verwenden Sie für Produktions-Apps nur `LoggingMode.ERROR`. Verwenden Sie `DEBUG` oder `VERBOSE` nicht in Release-Builds.
+>Verwenden Sie für Produktions-Apps nur `LoggingMode.ERROR`. Verwenden Sie keine `DEBUG` oder `VERBOSE` in Release-Builds.
 
 **Kotlin**
 
@@ -146,6 +183,7 @@ class MainApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR)
 
         // Initialize with your Environment File ID from Data Collection
@@ -167,6 +205,7 @@ public class MainApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+        // Production: use LoggingMode.ERROR only. Do not use DEBUG or VERBOSE in release builds.
         MobileCore.setLogLevel(LoggingMode.ERROR);
 
         // Initialize with your Environment File ID from Data Collection
@@ -188,26 +227,23 @@ Registrieren Sie Ihre `Application` in `AndroidManifest.xml`:
 
 ## Auswertungskontext {#evaluation-context}
 
-`FeatureEvaluationContext` umfasst Zielgruppenattribute (für die Zuordnung von Rollout-Regeln verwendet) und optionale Identität (für Analysen verwendet).
+`FeatureEvaluationContext` Klasse enthält Zielgruppenattribute (für die Zuordnung von Markierungsregeln verwendet).
 
 | Methode | Erforderlich | Beschreibung |
 |---|---|---|
-| `withIdentity(namespace, id)` | Nein | Erstes Argument: Identity-Namespace (siehe [Adobe Identity-Namespaces](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces)). Zweites Argument: Identitätswert. Schließen Sie dies ein, wenn dieser Namespace und diese ID in Analytics für diese Auswertung dargestellt werden sollen. Falls nicht angegeben, verwendet Analytics standardmäßig die ECID. Dies wird nicht verwendet, um Entscheidungen zur Aktivierung von Funktionen zu fördern. |
-| `withAttributes(map)` | Nein | `Map<String, List<String>>`. Der Schlüssel ist der Kontextattributname, der von Ihren Rollout-Regeln verwendet wird (z. B. `locale`, `platform`, `appVersion`, `deviceType`). Wert ist die Liste der möglichen Attributwerte für diesen Schlüssel für den aktuellen Benutzer/die aktuelle Sitzung (z. B. `["en_US"]` oder `["phone"]`). |
+| `withAttributes(map)` | Nein | `Map<String, List<String>>`. Der Schlüssel ist der von Ihren Flag-Regeln verwendete Kontextattributname (z. B. `locale`, `platform`, `appVersion`, `deviceType`). Wert ist die Liste der möglichen Attributwerte für diesen Schlüssel für den aktuellen Benutzer/die aktuelle Sitzung (z. B. `["en_US"]` oder `["phone"]`). |
 
 **Kotlin**
 
 ```kotlin
-import com.adobe.marketing.mobile.rollout.FeatureEvaluationContext
+import com.adobe.marketing.mobile.flags.FeatureEvaluationContext
 
 val attrs = mapOf(
     "locale" to listOf("en_US"),
-    "platform" to listOf("ANDROID"),
-    "appVersion" to listOf("3.0.0")
+    "platform" to listOf("ANDROID")
 )
 
 val ctx = FeatureEvaluationContext.builder()
-    .withIdentity("Email", "customer@example.com")
     .withAttributes(attrs)
     .build()
 ```
@@ -215,7 +251,7 @@ val ctx = FeatureEvaluationContext.builder()
 **Java**
 
 ```java
-import com.adobe.marketing.mobile.rollout.FeatureEvaluationContext;
+import com.adobe.marketing.mobile.flags.FeatureEvaluationContext;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -224,44 +260,64 @@ import java.util.Map;
 Map<String, List<String>> attrs = new HashMap<>();
 attrs.put("locale", Arrays.asList("en_US"));
 attrs.put("platform", Arrays.asList("ANDROID"));
-attrs.put("appVersion", Arrays.asList("3.0.0"));
 
 FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
-        .withIdentity("Email", "customer@example.com")
         .withAttributes(attrs)
         .build();
 ```
 
-### Beispiele für Zielgruppenattribute {#sample-attributes}
+### Benutzerdefinierte Identität {#custom-identity}
 
-| Attribut | Beschreibung | Beispielwerte |
-|---|---|---|
-| `locale` | Gebietsschema/Sprache des Benutzers | `["en_US"]`, `["fr_FR"]` |
-| `platform` | Plattformkennung | `["ANDROID"]` |
-| `appVersion` | Anwendungsversion | `["3.0.0"]` |
-| `deviceType` | Gerätetyp | `["phone"]`, `["tablet"]` |
+Die Flags-Erweiterung verwendet die Identity for Edge Network-Erweiterung für die Identitätsauflösung. Eine Feature Flag kann für eine benutzerdefinierte Identität (z. B. eine CRM-ID oder eine Treueprogramm-ID) kohortiert werden, sodass Variantenaufspaltungen und Analysen an die Identität gebunden sind, die für Ihr Programm wichtig ist.
 
-## Wichtige Konzepte zur Funktionsbewertung {#key-concepts}
+Der benutzerdefinierte Identity-Namespace muss in der Benutzeroberfläche „Flags“ ausgewählt werden, wenn das Feature Flag erstellt wird. Um ein Flag für diese Identität auszuwerten, muss dieselbe Identität im Edge Identity `identityMap` auf dem Gerät vorhanden sein und den entsprechenden Namespace verwenden. Bereitstellen zur Laufzeit mit der Identity for Edge Network `updateIdentities`-API.
 
-Beachten Sie Folgendes, wenn Sie Feature Gates in Ihrer App implementieren:
+#### Hinzufügen der benutzerdefinierten Identität zur Identity Map {#add-identity}
 
-* **Attributwerte übergeben, keine Beschriftungen anzeigen.** Bei Kontextattributwerten wird zwischen **Groß- und Kleinschreibung**. Übergeben Sie den Rohwert, den Ihre App oder Website sendet (z. B. `"en_US"` oder `"ANDROID"`), nicht die in der Konsole angezeigte Beschriftung.
-* **Bewerten auf Feature-Ebene (Flag).** Auch wenn ein Flag zu einer Funktionsgruppe gehört, rufen Sie die API immer mit dem individuellen **Funktionsschlüssel** auf. Es gibt keine Bewertung auf Gruppenebene. Die Antwort gibt die Variante zurück, der die Benutzerin oder der Benutzer angehörte.
-* **Identität muss nicht mit einem Profil verknüpft sein.** Die Auswertung erfolgt zur Laufzeit. Das Auswertungsereignis wird an Customer Journey Analytics gesendet, unabhängig davon, ob die Identität mit einem bekannten Profil verknüpft ist.
-* **Jedes neue Flag erfordert eine Code-Änderung.** Fügen Sie für jeden Flag-Schlüssel in Ihrem Code ein Gate hinzu. Verwenden Sie `isFeatureEnabled()`, um einen booleschen Ein-/Aus-Status zu überprüfen, oder `getFeature()`, um die vollständige Payload der Funktion einschließlich der Variante abzurufen.
+Fügen Sie die Identität unter demselben Namespace hinzu, der für das Feature Flag konfiguriert wurde.
+
+**Kotlin**
+
+```kotlin
+import com.adobe.marketing.mobile.edge.identity.AuthenticatedState
+import com.adobe.marketing.mobile.edge.identity.Identity
+import com.adobe.marketing.mobile.edge.identity.IdentityItem
+import com.adobe.marketing.mobile.edge.identity.IdentityMap
+
+val identityMap = IdentityMap()
+identityMap.addItem(
+    IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true),
+    "userCRMId" // must match the namespace configured on the feature flag
+)
+Identity.updateIdentities(identityMap)
+```
+
+**Java**
+
+```java
+import com.adobe.marketing.mobile.edge.identity.AuthenticatedState;
+import com.adobe.marketing.mobile.edge.identity.Identity;
+import com.adobe.marketing.mobile.edge.identity.IdentityItem;
+import com.adobe.marketing.mobile.edge.identity.IdentityMap;
+
+final IdentityItem item = new IdentityItem("1111", AuthenticatedState.AUTHENTICATED, true);
+final IdentityMap identityMap = new IdentityMap();
+identityMap.addItem(item, "userCRMId"); // must match the namespace configured on the feature flag
+Identity.updateIdentities(identityMap);
+```
 
 ## API-Referenz {#api-reference}
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` gibt zurück, ob eine Experience Rollout-Funktion für den jeweiligen Kontext aktiviert oder deaktiviert ist. Übergeben Sie `featureKey`, einen `FeatureEvaluationContext` (optionale Zielgruppenattribute und optionale Identität für Analytics) und einen Callback. Siehe [Evaluierungskontext](#evaluation-context).
+`isFeatureEnabled` gibt zurück, ob eine Flags-Funktion für den angegebenen Kontext aktiviert oder deaktiviert ist. Übergeben Sie `featureKey`, einen `FeatureEvaluationContext` (optionale Zielgruppenattribute) und einen Callback. Siehe [Evaluierungskontext](#evaluation-context).
 
 **Signatur**
 
 *Kotlin*
 
 ```kotlin
-Rollout.isFeatureEnabled(
+Flag.isFeatureEnabled(
     featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     callback: AdobeCallback<Boolean>
@@ -271,7 +327,7 @@ Rollout.isFeatureEnabled(
 *Java*
 
 ```java
-Rollout.isFeatureEnabled(
+Flag.isFeatureEnabled(
     String featureKey,
     FeatureEvaluationContext evaluationContext,
     AdobeCallback<Boolean> callback);
@@ -281,8 +337,8 @@ Rollout.isFeatureEnabled(
 
 | Parameter | Typ | Beschreibung |
 |---|---|---|
-| `featureKey` | Zeichenfolge | Funktionsschlüssel zur Auswertung im Erlebnis-Rollout |
-| `evaluationContext` | FeatureEvaluationContext | Zielgruppenattribute und optionale Identität für die Analyse nach Bedarf einschließen; `FeatureEvaluationContext.builder().build()` für einen leeren Kontext verwenden. Siehe [Evaluierungskontext](#evaluation-context). |
+| `featureKey` | Zeichenfolge | Funktionsschlüssel zur Auswertung in Flags |
+| `evaluationContext` | FeatureEvaluationContext | Zielgruppenattribute nach Bedarf einschließen; `FeatureEvaluationContext.builder().build()` für einen leeren Kontext verwenden. Siehe [Evaluierungskontext](#evaluation-context). |
 | `callback` | AdobeCallback&lt;Boolean> | Wird mit `true` aufgerufen, wenn die Funktion aktiviert ist, andernfalls `false`. Sie können auch `AdobeCallbackWithError<Boolean>` zur Handhabung von `fail(...)` übergeben. |
 
 **Beispiele**
@@ -291,17 +347,17 @@ Rollout.isFeatureEnabled(
 
 ```kotlin
 import com.adobe.marketing.mobile.AdobeCallback
-import com.adobe.marketing.mobile.rollout.Rollout
+import com.adobe.marketing.mobile.flags.Flag
 
-Rollout.isFeatureEnabled(
-    "new-checkout-experience",
+Flag.isFeatureEnabled(
+    "new-flag",
     ctx,
     object : AdobeCallback<Boolean> {
         override fun call(isEnabled: Boolean?) {
             if (isEnabled == true) {
-                showNewCheckout()
+                // run the feature-specific behavior
             } else {
-                showDefaultCheckout()
+                // fall back to the default behavior
             }
         }
     }
@@ -312,18 +368,18 @@ Rollout.isFeatureEnabled(
 
 ```java
 import com.adobe.marketing.mobile.AdobeCallback;
-import com.adobe.marketing.mobile.rollout.Rollout;
+import com.adobe.marketing.mobile.flags.Flag;
 
-Rollout.isFeatureEnabled(
-    "new-checkout-experience",
+Flag.isFeatureEnabled(
+    "new-flag",
     ctx,
     new AdobeCallback<Boolean>() {
         @Override
         public void call(Boolean isEnabled) {
             if (Boolean.TRUE.equals(isEnabled)) {
-                showNewCheckout();
+                // run the feature-specific behavior
             } else {
-                showDefaultCheckout();
+                // fall back to the default behavior
             }
         }
     }
@@ -339,7 +395,7 @@ Rollout.isFeatureEnabled(
 *Kotlin*
 
 ```kotlin
-Rollout.getFeature(
+Flag.getFeature(
     featureKey: String,
     evaluationContext: FeatureEvaluationContext,
     callback: AdobeCallback<FeatureEvaluationResult>
@@ -349,7 +405,7 @@ Rollout.getFeature(
 *Java*
 
 ```java
-Rollout.getFeature(
+Flag.getFeature(
     String featureKey,
     FeatureEvaluationContext evaluationContext,
     AdobeCallback<FeatureEvaluationResult> callback);
@@ -359,8 +415,8 @@ Rollout.getFeature(
 
 | Parameter | Typ | Beschreibung |
 |---|---|---|
-| `featureKey` | Zeichenfolge | Funktionsschlüssel zur Auswertung im Erlebnis-Rollout |
-| `evaluationContext` | FeatureEvaluationContext | Zielgruppenattribute und optionale Identität für die Analyse nach Bedarf einschließen; `FeatureEvaluationContext.builder().build()` für einen leeren Kontext verwenden. Siehe [Evaluierungskontext](#evaluation-context). |
+| `featureKey` | Zeichenfolge | Funktionsschlüssel zur Auswertung in Flags |
+| `evaluationContext` | FeatureEvaluationContext | Zielgruppenattribute nach Bedarf einschließen; `FeatureEvaluationContext.builder().build()` für einen leeren Kontext verwenden. Siehe [Evaluierungskontext](#evaluation-context). |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | Wird mit der ausgewerteten Funktion Payload aufgerufen. Kann `null` werden, wenn die Funktion nicht gefunden wird. Sie können auch `AdobeCallbackWithError<FeatureEvaluationResult>` zur Handhabung von `fail(...)` übergeben. |
 
 **Antwort**
@@ -371,7 +427,7 @@ Rollout.getFeature(
 |---|---|---|
 | `id` | int | Numerische Funktionskennung |
 | `key` | Zeichenfolge | Funktionsschlüssel |
-| `releaseKey` | Zeichenfolge? | Freigabeschlüssel für diese Funktion, falls verfügbar |
+| `featureGroupKey` | Zeichenfolge? | Funktionsgruppenschlüssel, falls verfügbar |
 | `meta` | Zeichenfolge? | Metadaten als JSON-Zeichenfolge kennzeichnen, sofern verfügbar |
 | `analyticsParam` | AnalyticsParam? | Analytics-Details für die ausgewertete Funktion |
 
@@ -379,7 +435,7 @@ Rollout.getFeature(
 
 | Feld | Typ | Beschreibung |
 |---|---|---|
-| `releaseId` | int | Numerische Versionskennung |
+| `featureGroupId` | int | Numerische Merkmalgruppen-Kennung |
 | `featureId` | int | Numerische Funktionskennung |
 | `variantId` | Zeichenfolge? | Variantenkennung |
 
@@ -389,19 +445,19 @@ Rollout.getFeature(
 
 ```kotlin
 import com.adobe.marketing.mobile.AdobeCallback
-import com.adobe.marketing.mobile.rollout.FeatureEvaluationResult
-import com.adobe.marketing.mobile.rollout.Rollout
+import com.adobe.marketing.mobile.flags.FeatureEvaluationResult
+import com.adobe.marketing.mobile.flags.Flag
 
-Rollout.getFeature(
-    "new-checkout-experience",
+Flag.getFeature(
+    "new-flag",
     ctx,
     object : AdobeCallback<FeatureEvaluationResult> {
         override fun call(feature: FeatureEvaluationResult?) {
             val meta = feature?.meta
             if (!meta.isNullOrEmpty()) {
-                applyMetaDrivenExperience(meta)
+                // Feature metadata is available: use it to drive the feature behavior
             } else {
-                showFallbackExperience()
+                // No metadata available: fall back to the default behavior
             }
         }
     }
@@ -412,52 +468,34 @@ Rollout.getFeature(
 
 ```java
 import com.adobe.marketing.mobile.AdobeCallback;
-import com.adobe.marketing.mobile.rollout.FeatureEvaluationResult;
-import com.adobe.marketing.mobile.rollout.Rollout;
+import com.adobe.marketing.mobile.flags.FeatureEvaluationResult;
+import com.adobe.marketing.mobile.flags.Flag;
 
-Rollout.getFeature(
-    "new-checkout-experience",
+Flag.getFeature(
+    "new-flag",
     ctx,
     new AdobeCallback<FeatureEvaluationResult>() {
         @Override
         public void call(FeatureEvaluationResult feature) {
             String meta = feature != null ? feature.getMeta() : null;
             if (meta != null && !meta.isEmpty()) {
-                applyMetaDrivenExperience(meta);
+                // Feature metadata is available: use it to drive the feature behavior
             } else {
-                showFallbackExperience();
+                // No metadata available: fall back to the default behavior
             }
         }
     }
 );
 ```
 
-### refreshCache {#refresh-cache}
-
-Standardmäßig synchronisiert die Experience Rollout-Erweiterung regelmäßig die neuesten Rollout-Regeln und -Funktionen vom Server nach einem Zeitplan, den Sie konfigurieren können. Wenn Sie ein Update früher als bei der nächsten geplanten Synchronisierung benötigen, rufen Sie `refreshCache` auf, um eine Aktualisierung zu erzwingen. Typische Fälle sind nach der Anmeldung oder Änderungen des App-Status, die sich auf das Targeting auswirken sollten.
-
-**Syntax**
-
-*Kotlin*
-
-```kotlin
-Rollout.refreshCache()
-```
-
-*Java*
-
-```java
-Rollout.refreshCache();
-```
-
 ### extensionVersion {#extension-version}
 
-Gibt die Versionszeichenfolge der Experience Rollout-Erweiterung zurück.
+Gibt die Versionszeichenfolge der Flags-Erweiterung zurück.
 
 **Syntax**
 
 ```kotlin
-Rollout.extensionVersion(): String
+Flag.extensionVersion(): String
 ```
 
 **Beispiel**
@@ -465,28 +503,26 @@ Rollout.extensionVersion(): String
 *Kotlin*
 
 ```kotlin
-val version = Rollout.extensionVersion()
+val version = Flag.extensionVersion()
 ```
 
 *Java*
 
 ```java
-String version = Rollout.extensionVersion();
+String version = Flag.extensionVersion();
 ```
 
 ## API-Zusammenfassung {#api-summary}
 
 | API | Rückgaben |
 |---|---|
-| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` enthält Zielgruppenattribute für Regeln und optionale Identität für Analytics. Siehe [Funktionsauswertung](#is-feature-enabled). | Boolescher Wert über Callback |
+| `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` enthält Zielgruppenattribute für Regeln. Siehe [Funktionsauswertung](#is-feature-enabled). | Boolescher Wert über Callback |
 | `getFeature(featureKey, evaluationContext, callback)`. Gibt die ausgewertete Funktions-Payload für den angegebenen Kontext zurück. Siehe [getFeature](#get-feature). | FeatureEvaluationResult über Callback |
-| `refreshCache()` | ungültig machen |
 | `extensionVersion()` | Zeichenfolge |
 
 ## Siehe auch {#see-also}
 
 * [Apps](../../integrate/mobile-applications.md)
-* [Integrationsschritte](../../integrate/integration-steps.md)
 * [SDKs](../../integrate/sdks.md)
 
 <!-- -->
