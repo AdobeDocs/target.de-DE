@@ -29,7 +29,7 @@ So fügen Sie einer Zielgruppenregel ein Kontextattribut hinzu:
 3. Fügen **unter &quot;**&quot; eine neue Bedingung hinzu.
 4. Wählen Sie das Kontextattribut, den Operator und den Wert aus.
 
-Wenn das benötigte Kontextattribut nicht in der Liste angezeigt wird, können Sie ein neues erstellen - siehe &quot;[ von Kontextattributen](creating-your-context-attributes.md).
+Wenn das benötigte Kontextattribut nicht in der Liste angezeigt wird, können Sie ein neues erstellen - siehe &quot;[&#x200B; von Kontextattributen](creating-your-context-attributes.md).
 
 ## Siehe auch {#see-also}
 

@@ -16,7 +16,7 @@ Führen Sie diese Schritte aus, um Flags in Ihr Programm zu integrieren.
 
 ## Schritt 1: Zugriff anfordern {#step-1-access}
 
-Fordern Sie Zugriff auf die Konsole Flags an und schließen Sie sich Ihrem Team an. Eine [ Anleitung finden ](../console/request-access.md) unter „Zugriff anfordern“.
+Fordern Sie Zugriff auf die Konsole Flags an und schließen Sie sich Ihrem Team an. Eine [&#x200B; Anleitung finden &#x200B;](../console/request-access.md) unter „Zugriff anfordern“.
 
 ## Schritt 2: Onboarding der Anwendung {#step-2-onboard}
 
@@ -45,7 +45,7 @@ Befolgen Sie die Anleitung zur Integration für Ihren Anwendungstyp. Wählen Sie
 Wenn Sie die Integration über einen Tag-basierten Ansatz (Web oder Mobile) durchführen, konfigurieren Sie Ihre Tag-Eigenschaft vor der Initialisierung von SDK:
 
 1. Öffnen Sie in der [Adobe Experience Platform](https://experience.adobe.com/#/data-collection)Datenerfassung Ihre Mobile- oder Web-Eigenschaft.
-1. Installieren Sie zuerst die Erweiterung {0 **Edge Network** und dann die Erweiterung Flags **(in dieser Reihenfolge).**
+1. Installieren Sie zuerst die Erweiterung &lbrace;0 **Edge Network** und dann die Erweiterung Flags **(in dieser Reihenfolge).**
 1. Wählen Sie Ihren **Daten-Stream** (muss den Customer Journey Analytics-Datensatz enthalten) und Ihre Edge-Domain aus.
 1. Veröffentlichen Sie die Konfiguration über **Dev → Staging → Produktion**.
 1. Kopieren Sie die **Umgebungsdatei-ID** von der Registerkarte **Umgebungen** - Sie verwenden diese zum Initialisieren der SDK.

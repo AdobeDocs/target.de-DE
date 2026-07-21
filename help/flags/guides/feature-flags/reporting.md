@@ -62,7 +62,7 @@ Passen Sie den Datumsbereich in der Kopfzeile des Bedienfelds an, um ihn für ei
 
 ![Experimentier-Bedienfeld mit Selektoren für Experimente, Kontrollvarianten und Metriken](assets/experimentation-selection.png)
 
-Weitere Informationen [ Berechnung dieser Metriken finden ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation) in der Dokumentation zum Experimentier Bedienfeld .
+Weitere Informationen [&#x200B; Berechnung dieser Metriken finden &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation) in der Dokumentation zum Experimentier Bedienfeld .
 
 ![Experimentergebnisse mit Steigerung, Konfidenz und Konversionsrate nach Variante](assets/experimentation.png)
 
