@@ -55,7 +55,7 @@ Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
 
-1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
+1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
