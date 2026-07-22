@@ -44,7 +44,7 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, &#x200B;]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
 
@@ -191,7 +191,7 @@ Empfiehlt, die am häufigsten angezeigten Elemente nach einem Besucherprofilattr
 
 Dieser Algorithmus hängt davon ab, dass ein Profilskript das Attribut ausfüllt. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] ihn als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist.
 
-Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/de/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Ein Skript mit dem Namen `recsAttributeRegion`, das Empfehlungen auf der Region des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
 
@@ -206,7 +206,7 @@ Nachdem das Skript erstellt und aktiviert wurde, wird [!UICONTROL &#x200B; entsp
 
 empfiehlt, die meistverkauften Artikel nach einem Besucherprofilattribut und nicht nach Artikelinformationen zu gruppieren, wie dies bei [!UICONTROL Topverkäufe nach Kategorie] und [!UICONTROL Topverkäufe nach &#x200B;] der Fall ist. [!DNL Target] führt eine separate Topseller-Liste pro Attributwert und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
 
-Wie bei [!UICONTROL Am häufigsten nach Profilattribut angezeigt] hängt dieser Algorithmus von einem Profilskript ab, um das Attribut auszufüllen. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] es als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Wie bei [!UICONTROL Am häufigsten nach Profilattribut angezeigt] hängt dieser Algorithmus von einem Profilskript ab, um das Attribut auszufüllen. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] es als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/de/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Ein Skript mit dem Namen `recsAttributeLoyaltyTier`, das Empfehlungen auf der Treuestufe des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
 
