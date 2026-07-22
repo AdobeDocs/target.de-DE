@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
 source-wordcount: 3045
@@ -39,7 +47,7 @@ Modelltraining ist der Prozess, wie Empfehlungen von den [!DNL Adobe Target] Ler
 >
 >Weitere allgemeine Informationen zu den einzelnen Algorithmustypen und den einzelnen Algorithmen finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-Viele der oben aufgeführten Algorithmen basieren auf dem Vorhandensein eines oder mehrerer Schlüssel. Diese Schlüssel werden verwendet, um ähnliche Elemente zum Zeitpunkt der Inhaltsbereitstellung abzurufen (wenn Empfehlungen gegeben werden). Kundenspezifische Schlüssel können den aktuellen Artikel, den eine Person anzeigt, den zuletzt angezeigten oder gekauften Artikel, den am häufigsten angezeigten Artikel, die aktuelle Kategorie oder die Favoritenkategorie für diesen Besucher enthalten. Andere Algorithmen, wie z. B. Warenkorb- oder benutzerbasierte Empfehlungen, verwenden implizite Schlüssel (die vom Kunden nicht konfiguriert werden können). Weitere Informationen finden Sie unter *Empfehlungsschlüssel* in &quot;[ der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Beachten Sie jedoch, dass diese Schlüssel nur zur Modellbereitstellungszeit relevant sind (Inhaltsbereitstellung). Diese Schlüssel wirken sich nicht auf die Logik der „Offline“- oder Modell-Trainingszeit aus.
+Viele der oben aufgeführten Algorithmen basieren auf dem Vorhandensein eines oder mehrerer Schlüssel. Diese Schlüssel werden verwendet, um ähnliche Elemente zum Zeitpunkt der Inhaltsbereitstellung abzurufen (wenn Empfehlungen gegeben werden). Kundenspezifische Schlüssel können den aktuellen Artikel, den eine Person anzeigt, den zuletzt angezeigten oder gekauften Artikel, den am häufigsten angezeigten Artikel, die aktuelle Kategorie oder die Favoritenkategorie für diesen Besucher enthalten. Andere Algorithmen, wie z. B. Warenkorb- oder benutzerbasierte Empfehlungen, verwenden implizite Schlüssel (die vom Kunden nicht konfiguriert werden können). Weitere Informationen finden Sie unter *Empfehlungsschlüssel* in &quot;[&#x200B; der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Beachten Sie jedoch, dass diese Schlüssel nur zur Modellbereitstellungszeit relevant sind (Inhaltsbereitstellung). Diese Schlüssel wirken sich nicht auf die Logik der „Offline“- oder Modell-Trainingszeit aus.
 
 In den folgenden Abschnitten werden Algorithmen etwas anders gruppiert als die oben beschriebenen Algorithmustypen. Die folgende Gruppierung basiert auf der Ähnlichkeit der Modell-Trainings-Logik.
 
@@ -61,7 +69,7 @@ Wenn z. B.
 
 ![Formel für den angezeigten/gekauften Algorithmus](assets/formula.png)
 
-dann sollte Element B nicht mit Element A empfohlen werden. Die vollständigen Details dieser Ähnlichkeitsberechnung des Log-Wahrscheinlichkeitsverhältnisses sind [dieser PDF) ](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+dann sollte Element B nicht mit Element A empfohlen werden. Die vollständigen Details dieser Ähnlichkeitsberechnung des Log-Wahrscheinlichkeitsverhältnisses sind [dieser PDF) &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgenden Diagramm dargestellt:
 
@@ -69,7 +77,7 @@ Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -93,18 +101,18 @@ Obwohl die Aspekte der Modellbereitstellung und Inhaltsbereitstellung der Inhalt
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [!DNL Target] aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [!DNL Target] aufgenommen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modell-**:
 
-  * **Attributextraktion**: Nach der Anwendung regulärer statischer Filter, Katalogregeln und globaler Ausschlüsse extrahiert dieser Algorithmus relevante Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie aus den Entitätsattributen und versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[ zu ](/help/main/c-recommendations/c-products/entity-attributes.md). Dieser Prozess erfolgt, indem sichergestellt wird, dass die meisten Werte für dieses Feld nicht als Zahl, Datum oder Boolesch parabel werden können.
+  * **Attributextraktion**: Nach der Anwendung regulärer statischer Filter, Katalogregeln und globaler Ausschlüsse extrahiert dieser Algorithmus relevante Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie aus den Entitätsattributen und versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[&#x200B; zu &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md). Dieser Prozess erfolgt, indem sichergestellt wird, dass die meisten Werte für dieses Feld nicht als Zahl, Datum oder Boolesch parabel werden können.
   * **Stemmen und Entfernen von Stoppwörtern**: Für eine genauere Textähnlichkeitsübereinstimmung ist es ratsam, sehr gängige „Stopp“-Wörter zu entfernen, die die Bedeutung eines Elements nicht wesentlich ändern (z. B. „was“, „ist“, „and“ usw.). In ähnlicher Weise bezieht sich das Wortstammen auf den Prozess, Wörter mit unterschiedlichen Suffixen auf ihr Stammwort zu reduzieren, das eine identische Bedeutung hat (z. B. haben „connect“, „connector“ und „connection“ alle dasselbe Stammwort: „connect„). [!DNL Target] verwendet den Schneeballstamm. [!DNL Target] führt zuerst die automatische Spracherkennung durch und kann die Wortentfernung für bis zu 50 Sprachen und das Stemmen für 18 Sprachen stoppen.
   * **N-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Der Prozess des Kombinierens zusammenhängender Sequenzen von Token zu einem einzigen Token wird als n-Gram-Erstellung bezeichnet. Die Algorithmen von [!DNL Target] berücksichtigen bis zu 2 Gramm.
   * **tf-idf computation**: Der nächste Schritt umfasst die Erstellung von tf-idf-Vektoren, um die relative Bedeutung von Token in der Artikelbeschreibung widerzuspiegeln. Für jeden Token/Term t in einem Element i wird in einem Katalog D mit |D| Elementen zuerst die Termfrequenz TF(t, i) berechnet (die Anzahl, wie oft der Term in dem Element i erscheint), sowie die Dokumentenfrequenz DF(t, D). Im Wesentlichen die Anzahl der Elemente, in denen das Token vorhanden ist. Die tf-idf-Kennzahl wird dann
 
     ![Formel für die tf-idf-Kennzahl](assets/formula2.png)
 
-    [!DNL Target] verwendet die Implementierung der Funktionen von *tf-idf* von Apache Spark, bei der jedes Token im Hintergrund auf ein Leerzeichen von 218 Token hasht. In diesem Schritt wird auch eine kundenspezifische Attributverstärkung und -vergrabung angewendet, indem die Begriffsfrequenzen in jedem Vektor auf der Grundlage der in den [ angegebenen Einstellungen angepasst ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+    [!DNL Target] verwendet die Implementierung der Funktionen von *tf-idf* von Apache Spark, bei der jedes Token im Hintergrund auf ein Leerzeichen von 218 Token hasht. In diesem Schritt wird auch eine kundenspezifische Attributverstärkung und -vergrabung angewendet, indem die Begriffsfrequenzen in jedem Vektor auf der Grundlage der in den [&#x200B; angegebenen Einstellungen angepasst &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
   * **Berechnung der Artikelähnlichkeit**: Die letzte Berechnung der Artikelähnlichkeit erfolgt mit einer ungefähren Kosinusähnlichkeit. Für die beiden Positionen *A* und *B* mit den Vektoren tA und tB wird die Kosinusähnlichkeit wie folgt definiert:
 
@@ -131,7 +139,7 @@ Die Logik der Schritte zum Trainieren und Bewerten von Modellen wird im folgende
 
 Die Einzelheiten dieser Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Empfohlen für Sie] und Warenkorb-Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Empfohlen für Sie] und Warenkorb-Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -139,7 +147,7 @@ Die Einzelheiten dieser Schritte lauten wie folgt:
   * **Testaufspaltung trainieren**: Führen Sie eine chronologische Aufspaltung der Nutzung für jeden Benutzer durch und weisen Sie die ersten 80 % seiner Nutzung Schulungsdaten zu, während die restlichen 20 % den Testdaten zugewiesen werden.
   * **Modell-Training für die Artikelähnlichkeit**: Die Berechnung der Kernartikel-Ähnlichkeit unterscheidet sich für [!UICONTROL Empfohlen für Sie] und Warenkorb-basierte Algorithmen in der Art und Weise, wie Vektoren für mögliche Artikel konstruiert werden. Für [!UICONTROL Empfohlen für Sie] haben die Artikelvektoren die Dimension NUsers, wobei jeder Eintrag die Summe der impliziten Bewertungen für diesen Benutzer des Artikels darstellt - Käufe eines Artikels erhalten ein Gewicht von 2x dem der Ansichten des Artikels. Bei Empfehlungen auf Warenkorbbasis verfügen die Elementvektoren über binäre Einträge. Wenn nur das Verhalten innerhalb einer Sitzung berücksichtigt werden soll, gibt es für jede Sitzung einen neuen Eintrag. Andernfalls gibt es für jeden Besucher einen Eintrag in diesem Elementvektor.
 
-  Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([ hier erörtert](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (zuvor definiert) und eine normalisierte L2-Ähnlichkeit, definiert als:
+  Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([&#x200B; hier erörtert](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (zuvor definiert) und eine normalisierte L2-Ähnlichkeit, definiert als:
 
   ![Formel für die Trainings-Berechnung](assets/formula4.png)
 
