@@ -6,19 +6,13 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4405
+ht-degree: 25%
 
 ---
 
@@ -31,7 +25,7 @@ Jeder Algorithmustyp bietet verschiedene Algorithmen, die für seinen Typ geeign
 | Algorithmustyp | Verwendung der verfügbaren Algorithmen / |
 | --- | --- |
 | [!UICONTROL Warenkorbbasiert] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen.<ul><li>[!UICONTROL Personen, die diese angesehen haben, haben auch Folgendes angesehen]</li><li>[!UICONTROL Personen, die diese angesehen haben, kauften auch]</li><li>[!UICONTROL Personen, die diese gekauft haben, kauften auch]</li></ul> |
-| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
+| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Am häufigsten angezeigt nach Profilattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Topverkäufe nach Profilattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
 | [!UICONTROL Elementbasiert] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. <ul><li>[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]</li><li>[!UICONTROL Leute, die das angesehen haben, kauften das]</li><li>[!UICONTROL Personen, die das gekauft haben, kauften das]</li><li>[!UICONTROL Elemente mit ähnlichen Attributen]</li></ul> |
 | [!UICONTROL Benutzerbasiert] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. <ul><li>[!UICONTROL Vor Kurzem aufgerufene Artikel]</li><li>[!UICONTROL Empfohlen für Sie]</li></ul> |
 | [!UICONTROL Benutzerdefinierte Kriterien] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen. <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
@@ -44,9 +38,9 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
-Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, &#x200B;]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
+Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, ]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
 
 [!DNL Target] verwendet kollaborative Filtertechniken, um Ähnlichkeiten für jedes Element im Warenkorb des Besuchers zu ermitteln, und kombiniert diese Verhaltens-Ähnlichkeiten dann über jedes Element hinweg, um eine zusammengeführte Liste zu erhalten.
 
@@ -111,7 +105,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 ## [!UICONTROL Beliebtheitsbasiert]
 
-Mit [!UICONTROL &#x200B; Algorithmustyp &quot;]&quot; können Sie Empfehlungen auf Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. einer Benutzerin oder eines Benutzers geben.
+Mit [!UICONTROL  Algorithmustyp &quot;]&quot; können Sie Empfehlungen auf Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. einer Benutzerin oder eines Benutzers geben.
 
 Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Beliebtheit] verfügbar:
 
@@ -180,13 +174,45 @@ Mit diesem Algorithmus können Sie auswählen, auf welchem Elementattribut die E
 
 Wählen Sie dann aus, welche im Besucherprofil gespeicherten Profilattribute übereinstimmen sollen, z. B. „Lieblingsmarke“, „Zuletzt zum Warenkorb hinzugefügt“ oder „Am häufigsten angezeigt“.
 
+### [!UICONTROL Am häufigsten angezeigt nach Profilattribut]
+
+Empfiehlt, die am häufigsten angezeigten Elemente nach einem Besucherprofilattribut und nicht nach Elementinformationen zu gruppieren, wie dies bei [!UICONTROL Am häufigsten angezeigt nach Kategorie] und [!UICONTROL Am häufigsten angezeigt nach ] der Fall ist. [!DNL Target] führt für jeden Attributwert eine eigene Rangliste und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
+
+Dieser Algorithmus hängt davon ab, dass ein Profilskript das Attribut ausfüllt. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] ihn als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist.
+
+Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Ein Skript mit dem Namen `recsAttributeRegion`, das Empfehlungen auf der Region des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+Nachdem das Skript erstellt und aktiviert wurde, wird [!UICONTROL  entsprechende Eintrag ]Region“ in der Dropdown-Liste Profilattribut des Fensters Kriterien erstellen verfügbar. Beachten Sie, dass das `recsAttribute` selbst nicht in der Dropdown-Liste angezeigt wird.
+
+### [!UICONTROL Topverkäufe nach Profilattribut]
+
+empfiehlt, die meistverkauften Artikel nach einem Besucherprofilattribut und nicht nach Artikelinformationen zu gruppieren, wie dies bei [!UICONTROL Topverkäufe nach Kategorie] und [!UICONTROL Topverkäufe nach ] der Fall ist. [!DNL Target] führt eine separate Topseller-Liste pro Attributwert und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
+
+Wie bei [!UICONTROL Am häufigsten nach Profilattribut angezeigt] hängt dieser Algorithmus von einem Profilskript ab, um das Attribut auszufüllen. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] es als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Ein Skript mit dem Namen `recsAttributeLoyaltyTier`, das Empfehlungen auf der Treuestufe des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+Nachdem das Skript erstellt und aktiviert wurde, wird [!UICONTROL  entsprechende Eintrag ]Treuestufe“ in der Dropdown-Liste „Profilattribut“ im Fenster „Kriterien erstellen“ verfügbar. Beachten Sie, dass das `recsAttribute` selbst nicht in der Dropdown-Liste angezeigt wird.
+
 ### [!UICONTROL Am besten nach Analytics-Metrik]
 
 Zeigt das „Top x“ an, wobei *x* eine beliebige [!DNL Analytics]-Metrik ist. Bei der Verwendung von Verhaltensdaten aus Mboxes können Sie [!UICONTROL Am häufigsten verkauft] oder [!UICONTROL Am häufigsten angezeigt] (x = „verkauft“ oder x = „Angezeigt„) verwenden. Wenn Sie Verhaltensdaten aus [!DNL Adobe Analytics] verwenden, können Sie x = „Hinzufügen zum Warenkorb“ oder eine andere [!DNL Analytics] Metrik verwenden.
 
 ## [!UICONTROL Elementbasiert]
 
-Mit [!UICONTROL &#x200B; Empfehlungstyp (Elementbasiert] können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat.
+Mit [!UICONTROL  Empfehlungstyp (Elementbasiert] können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat.
 
 Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Elementbasiert] verfügbar:
 
@@ -254,7 +280,7 @@ Weitere Informationen finden Sie unter [Inhaltsähnlichkeit](/help/main/c-recomm
 
 ## [!UICONTROL Benutzerbasiert]
 
-Mit [!UICONTROL &#x200B; Algorithmustyp „Benutzerbasiert] können Sie Empfehlungen auf der Grundlage des Benutzerverhaltens geben.
+Mit [!UICONTROL  Algorithmustyp „Benutzerbasiert] können Sie Empfehlungen auf der Grundlage des Benutzerverhaltens geben.
 
 Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Benutzerbasiert] verfügbar:
 
@@ -262,7 +288,7 @@ Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Benutzerbasier
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
-Der [!UICONTROL Kürzlich angezeigte Elemente]-Algorithmus gibt ein für eine bestimmte [Umgebung) spezifisches Ergebnis &#x200B;](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
+Der [!UICONTROL Kürzlich angezeigte Elemente]-Algorithmus gibt ein für eine bestimmte [Umgebung) spezifisches Ergebnis ](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
 
 >[!NOTE]
 >
@@ -371,7 +397,7 @@ Verwenden Sie den [!UICONTROL Letzter gekaufter Artikel] Empfehlungsschlüssel a
 Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs basieren. Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Besucher der Warteschlange zuletzt hinzugefügt hat.
 
 1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. &quot;[!UICONTROL Zuletzt zur Watchlist hinzugefügt]„).
-1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B[!UICONTROL &#x200B; „Personen, die dies angezeigt haben, haben das &#x200B;]„).
+1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B[!UICONTROL  „Personen, die dies angezeigt haben, haben das ]„).
 
 Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die meistverkauften Artikel der Lieblingsmarke eines Besuchers anzeigen.
 
