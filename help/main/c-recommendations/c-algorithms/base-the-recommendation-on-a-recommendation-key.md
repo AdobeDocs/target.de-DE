@@ -15,10 +15,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 4049
-ht-degree: 27%
+source-wordcount: 4405
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ Jeder Algorithmustyp bietet verschiedene Algorithmen, die für seinen Typ geeign
 | Algorithmustyp | Verwendung der verfügbaren Algorithmen / |
 | --- | --- |
 | [!UICONTROL Warenkorbbasiert] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen.<ul><li>[!UICONTROL Personen, die diese angesehen haben, haben auch Folgendes angesehen]</li><li>[!UICONTROL Personen, die diese angesehen haben, kauften auch]</li><li>[!UICONTROL Personen, die diese gekauft haben, kauften auch]</li></ul> |
-| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
+| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Am häufigsten angezeigt nach Profilattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Topverkäufe nach Profilattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
 | [!UICONTROL Elementbasiert] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. <ul><li>[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]</li><li>[!UICONTROL Leute, die das angesehen haben, kauften das]</li><li>[!UICONTROL Personen, die das gekauft haben, kauften das]</li><li>[!UICONTROL Elemente mit ähnlichen Attributen]</li></ul> |
 | [!UICONTROL Benutzerbasiert] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. <ul><li>[!UICONTROL Vor Kurzem aufgerufene Artikel]</li><li>[!UICONTROL Empfohlen für Sie]</li></ul> |
 | [!UICONTROL Benutzerdefinierte Kriterien] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen. <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
@@ -179,6 +179,38 @@ Empfiehlt Artikel oder Medien, die den meistgekauften Artikeln oder Medien auf I
 Mit diesem Algorithmus können Sie auswählen, auf welchem Elementattribut die Empfehlung basieren soll, z. B. „Name“ oder „Marke“.
 
 Wählen Sie dann aus, welche im Besucherprofil gespeicherten Profilattribute übereinstimmen sollen, z. B. „Lieblingsmarke“, „Zuletzt zum Warenkorb hinzugefügt“ oder „Am häufigsten angezeigt“.
+
+### [!UICONTROL Am häufigsten angezeigt nach Profilattribut]
+
+Empfiehlt, die am häufigsten angezeigten Elemente nach einem Besucherprofilattribut und nicht nach Elementinformationen zu gruppieren, wie dies bei [!UICONTROL Am häufigsten angezeigt nach Kategorie] und [!UICONTROL Am häufigsten angezeigt nach &#x200B;] der Fall ist. [!DNL Target] führt für jeden Attributwert eine eigene Rangliste und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
+
+Dieser Algorithmus hängt davon ab, dass ein Profilskript das Attribut ausfüllt. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] ihn als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist.
+
+Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/de/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Ein Skript mit dem Namen `recsAttributeRegion`, das Empfehlungen auf der Region des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
+
+```
+var region = mbox.param('userRegion');
+if (region) return region;
+```
+
+Nachdem das Skript erstellt und aktiviert wurde, wird [!UICONTROL &#x200B; entsprechende Eintrag &#x200B;]Region“ in der Dropdown-Liste Profilattribut des Fensters Kriterien erstellen verfügbar. Beachten Sie, dass das `recsAttribute` selbst nicht in der Dropdown-Liste angezeigt wird.
+
+### [!UICONTROL Topverkäufe nach Profilattribut]
+
+empfiehlt, die meistverkauften Artikel nach einem Besucherprofilattribut und nicht nach Artikelinformationen zu gruppieren, wie dies bei [!UICONTROL Topverkäufe nach Kategorie] und [!UICONTROL Topverkäufe nach &#x200B;] der Fall ist. [!DNL Target] führt eine separate Topseller-Liste pro Attributwert und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
+
+Wie bei [!UICONTROL Am häufigsten nach Profilattribut angezeigt] hängt dieser Algorithmus von einem Profilskript ab, um das Attribut auszufüllen. Der Name des Skripts muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] es als `user.recsAttribute<Name>` speichert. Sie können ein Skript für jedes Besuchermerkmal schreiben, das für Ihren Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mithilfe von Profilskripten finden Sie [dieser Seite](https://experienceleague.adobe.com/de/docs/target/using/audiences/visitor-profiles/profile-parameters).
+
+Ein Skript mit dem Namen `recsAttributeLoyaltyTier`, das Empfehlungen auf der Treuestufe des Besuchers basiert, könnte beispielsweise wie folgt aussehen:
+
+```
+var tier = mbox.param('visitorLoyaltyTier');
+if (tier) return tier;
+```
+
+Nachdem das Skript erstellt und aktiviert wurde, wird [!UICONTROL &#x200B; entsprechende Eintrag &#x200B;]Treuestufe“ in der Dropdown-Liste „Profilattribut“ im Fenster „Kriterien erstellen“ verfügbar. Beachten Sie, dass das `recsAttribute` selbst nicht in der Dropdown-Liste angezeigt wird.
 
 ### [!UICONTROL Am besten nach Analytics-Metrik]
 

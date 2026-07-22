@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -79,7 +79,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
 >title="Profilattribut"
->abstract="Sie können ein Profilattribut mithilfe von Profilskripts erstellen."
+>abstract="Sie können ein Profilattribut mithilfe von Profilskripten erstellen."
 
 1. Wählen Sie einen **[!UICONTROL Algorithmustyp]** und **[!UICONTROL Algorithmus]**:
 
@@ -88,7 +88,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
    | Algorithmustyp | Verwendung der verfügbaren Algorithmen / |
    | --- | --- |
    | [!UICONTROL Warenkorbbasiert] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. <ul><li>[!UICONTROL Personen, die diese angesehen haben, haben auch Folgendes angesehen] </li><li>[!UICONTROL Personen, die diese angesehen haben, kauften auch]</li><li>[!UICONTROL Personen, die diese gekauft haben, kauften auch]</li></ul> |
-   | [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
+   | [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Am häufigsten angezeigt nach Profilattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Topverkäufe nach Profilattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
    | [!UICONTROL Elementbasiert] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. <ul><li>[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]</li><li>[!UICONTROL Leute, die das angesehen haben, kauften das]</li><li>[!UICONTROL Personen, die das gekauft haben, kauften das]</li><li>[!UICONTROL Elemente mit ähnlichen Attributen]</li></ul> |
    | [!UICONTROL Benutzerbasiert] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen.<ul><li>[!UICONTROL Vor Kurzem aufgerufene Artikel]</li><li>[!UICONTROL Empfohlen für Sie]</li></ul> |
    | [!UICONTROL Benutzerdefinierte Kriterien] | Empfehlungen basierend auf einer benutzerdefinierten Datei, die Sie hochladen.<ul><li>Benutzerdefinierter Algorithmus</li></ul> |
@@ -100,6 +100,8 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 1. Wählen Sie je nach Bedarf ein **Elementattribut** und **Profilattribut,** einen **Empfehlungsschlüssel**, **Filterschlüssel** und/oder **Analytics-Metrik**, um den Algorithmus zu konfigurieren.
 
 Die restlichen Konfigurationsoptionen für den Algorithmus variieren je nach ausgewähltem Algorithmus. Um die Konfiguration des Algorithmus abzuschließen, wählen Sie einen [!UICONTROL Empfehlungsschlüssel], [!UICONTROL Filterschlüssel], [!UICONTROL Basis für gleichzeitiges Auftreten], [!UICONTROL Analytics-Metrik] und/oder [!UICONTROL Elementattribut] und [!UICONTROL Profilattribut, das abgeglichen werden soll].
+
+Wenn Sie [!UICONTROL Am häufigsten angezeigt nach Profilattribut] oder [!UICONTROL Topverkäufe nach Profilattribut] wählen, wählen Sie ein **[!UICONTROL Profilattribut]**, um die Interaktionsdaten nach folgenden Kriterien zu gruppieren. Profilattribute stammen aus einem Profilskript, das Besuchermerkmale erfasst, z. B. Region oder Land. Der Skriptname muss das `recsAttribute` Präfix aufweisen, damit er als `user.recsAttribute<Name>` gespeichert wird, z. B. `user.recsAttributeRegion`. Zum Zeitpunkt des Versands stellt [!DNL Target] jedem Besucher die Rangfolgenliste bereit, die seinem eigenen Wert dieses Attributs entspricht.
 
 Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssels] finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
