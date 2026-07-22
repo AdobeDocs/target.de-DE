@@ -1,11 +1,12 @@
 ---
 title: End-to-End-Workflow für die Veröffentlichung
 description: Lernen Sie den kompletten Workflow zur Verwaltung einer koordinierten Version in Flags kennen, von der Definition von Feature Flags bis zur Live-Schaltung.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '350'
 ht-degree: 2%
 
 ---
@@ -34,7 +35,7 @@ Der Release Manager wählt die Zielgruppe für die Veröffentlichung aus, z. B. 
 
 ## &#x200B;5. Erweitern und Verwalten des Rollouts {#expand}
 
-Nach der Live-Schaltung kann der Release-Manager die Zielgruppenregeln anpassen, um den Rollout schrittweise zu erweitern, Probleme zu überwachen und den Lebenszyklus mithilfe der Steuerelemente für den Versionsstatus zu verwalten. Weitere Informationen [&#x200B; Sie unter &#x200B;](release-states.md)Versionsstatus“.
+Nach der Live-Schaltung kann der Release-Manager die Zielgruppenregeln anpassen, um den Rollout schrittweise zu erweitern, Probleme zu überwachen und den Lebenszyklus mithilfe der Steuerelemente für den Versionsstatus zu verwalten. Weitere Informationen [ Sie unter ](release-states.md)Versionsstatus“.
 
 ## Wichtigste Punkte {#key-points}
 

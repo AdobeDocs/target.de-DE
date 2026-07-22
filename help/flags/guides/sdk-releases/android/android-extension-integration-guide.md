@@ -1,12 +1,13 @@
 ---
 title: Flags-Erweiterung für Android-Integrationshandbuch
 description: Erfahren Sie, wie Sie die Flags-Erweiterung in Adobe Experience Platform Mobile SDK in Android integrieren.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 4%
+source-wordcount: '984'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +52,7 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
    | Anwendungs-ID | Eine eindeutige Kennung für Ihre Anwendung in Flags |
 
 1. Wählen Sie **Speichern** aus.
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
 ### Abrufen der Umgebungsdatei-ID {#environment-file-id}
 
@@ -99,7 +100,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [&#x200B; unter „Verwalten &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
+>Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [ unter „Verwalten ](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
 
 ### Hinzufügen der Flags-Abhängigkeit {#add-flags-dependency}
 

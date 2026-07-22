@@ -1,11 +1,12 @@
 ---
 title: Erstellen einer Funktionsgruppe
 description: Erfahren Sie, wie Sie in Flags eine Funktionsgruppe erstellen, um mehrere Funktionsflags in allen Anwendungen Ihres Teams als eine Einheit zu verwalten.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Bevor Sie eine Funktionsgruppe erstellen, führen Sie Folgendes aus:
 * Sie haben die Rolle **Produktversionsinhaber**.
 * Sie haben die Feature Flags erstellt, die Sie der Gruppe hinzufügen möchten - siehe [Erstellen des ersten Feature Flags](create-your-first-feature-flag.md)
 
-Eine Einführung in Funktionsgruppen finden Sie unter &quot;[&#x200B; zur Steuerung mehrerer Funktionen](../../concepts/feature-groups-to-control-multiple-features.md).
+Eine Einführung in Funktionsgruppen finden Sie unter &quot;[ zur Steuerung mehrerer Funktionen](../../concepts/feature-groups-to-control-multiple-features.md).
 
 ## Schritt 1: Funktionsgruppe erstellen {#create}
 

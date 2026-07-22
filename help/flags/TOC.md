@@ -3,9 +3,9 @@ audience: user
 user-guide-title: Markierungen
 user-guide-description: Erfahren Sie, wie Sie Flags in Adobe Target verwenden, um Feature Flags, kontrollierte Rollouts und zielgerichtete Versionen in Ihren Programmen zu verwalten.
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 9%
   + [Festlegen einer Funktionsgruppe für das schrittweise Rollout](guides/feature-flags/set-feature-group-gradual-rollout.md)
   + [A/B-Tests mit Feature Flags](guides/feature-flags/a-b-testing.md)
   + [Berichterstellung](guides/feature-flags/reporting.md)
+  + [Einrichten von CJA für Feature Flags-Berichte](guides/feature-flags/set-up-cja-reporting.md)
 + Zielgruppenkriterien {#audience}
   + [Zielgruppe in Feature Flags und Feature Groups](guides/audience/audience-in-feature-flags-and-feature-groups.md)
   + [Verwenden des Kontexts in Zielgruppenregeln](guides/audience/using-context-in-audience-rules.md)

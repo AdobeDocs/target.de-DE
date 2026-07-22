@@ -1,12 +1,13 @@
 ---
 title: Zugriff anfordern
 description: Erfahren Sie, wie Sie Zugriff auf ein Flags-Team in Adobe Target anfordern und welche Rollen neuen Mitgliedern zur Verfügung stehen.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +37,7 @@ Die Ihnen zugewiesene Rolle bestimmt, welche Aktionen Sie in der Konsole ausfüh
 
 ## Nach Gewährung des Zugriffs {#after-access}
 
-Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihre Programme sichtbar sind. Die [&#x200B; Schritte finden Sie unter &#x200B;](log-in-to-the-console.md) in Adobe Target .
+Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihre Programme sichtbar sind. Die [ Schritte finden Sie unter ](log-in-to-the-console.md) in Adobe Target .
 
 ## Brauchen Sie Hilfe? {#need-help}
 
