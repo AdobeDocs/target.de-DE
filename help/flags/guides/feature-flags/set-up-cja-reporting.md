@@ -93,7 +93,7 @@ Konfigurieren Sie die Dimensionen und Metriken, damit eine Risikoposition für e
 
 1. Fügen Sie unter Metriken das erforderliche Konversionsfeld hinzu, z. B. `commerce.purchases.value`.
 1. Geben Sie der Metrik einen eindeutigen Namen, z. B **„Kaufwert**.
-1. Aktivieren Sie die Attribution und wählen Sie das für die Analyse erforderliche Modell aus: Letztkontakt, Erstkontakt, Teilnahme oder Selber Kontakt. Weitere [ zu Attributionsmodellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models) Containern und Lookback-Fenstern finden Sie unter Attributionskomponenten .
+1. Aktivieren Sie die Attribution und wählen Sie das für die Analyse erforderliche Modell aus: Letztkontakt, Erstkontakt, Teilnahme oder Selber Kontakt. Weitere [&#x200B; zu Attributionsmodellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models) Containern und Lookback-Fenstern finden Sie unter Attributionskomponenten .
 1. Wählen Sie einen Container und ein Lookback-Fenster aus, die der Experimentstrategie entsprechen. Ein Personen-Container mit einem besuchs- oder sitzungsabhängigen Lookback ist ein häufiger Ausgangspunkt, validieren ihn jedoch für Ihren Anwendungsfall.
 1. Speichern Sie die Datenansicht.
 

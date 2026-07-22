@@ -17,7 +17,7 @@ Führen Sie diese Schritte aus, um Flags in Ihr Programm zu integrieren.
 
 ## Schritt 1: Zugriff anfordern {#step-1-access}
 
-Fordern Sie Zugriff auf die Konsole Flags an und schließen Sie sich Ihrem Team an. Eine [ Anleitung finden ](../console/request-access.md) unter „Zugriff anfordern“.
+Fordern Sie Zugriff auf die Konsole Flags an und schließen Sie sich Ihrem Team an. Eine [&#x200B; Anleitung finden &#x200B;](../console/request-access.md) unter „Zugriff anfordern“.
 
 ## Schritt 2: Onboarding der Anwendung {#step-2-onboard}
 
@@ -45,7 +45,7 @@ Befolgen Sie die Anleitung zur Integration für Ihren Anwendungstyp. Wählen Sie
 
 Wenn Sie die Integration über einen Tag-basierten Ansatz (Web oder Mobile) durchführen, konfigurieren Sie Ihre Tag-Eigenschaft vor der Initialisierung von SDK:
 
-1. Erstellen Sie in der ](https://experience.adobe.com/#/data-collection)-Datenerfassung von [eine [Tag-Eigenschaft](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) falls noch keine vorhanden ist, oder verwenden Sie eine vorhandene Tag-Eigenschaft.
+1. Erstellen Sie in der [&#128279;](https://experience.adobe.com/#/data-collection)-Datenerfassung von eine [Tag-Eigenschaft](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) falls noch keine vorhanden ist, oder verwenden Sie eine vorhandene Tag-Eigenschaft.
 1. Öffnen Sie die Eigenschaft des mobilen Tags oder Web-Tags und navigieren Sie zu [Erweiterungen](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
 1. Installieren und konfigurieren Sie die Erweiterung **Edge Network**. Installieren Sie dann die **Flags**-Erweiterung.
 1. Wählen Sie **Datenstrom** aus (er muss den Customer Journey Analytics-Datensatz enthalten) und konfigurieren Sie die Edge-Domain.
