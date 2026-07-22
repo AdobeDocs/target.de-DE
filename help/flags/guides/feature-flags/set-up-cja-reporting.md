@@ -49,10 +49,10 @@ Beachten Sie die folgenden Informationen, bevor Sie die Integration von Customer
 Wenn Sie bereits eine Verbindung eingerichtet haben, können Sie Ihre bestehende Verbindung verwenden und mit Schritt 3 unten fortfahren. Über die -Verbindung kann Customer Journey Analytics mit dem Abrufen von Daten aus dem Datensatz für das Reporting beginnen.
 
 1. Wählen Sie in Customer Journey Analytics auf der Seite **Verbindungen** die Option **Neue Verbindung erstellen** aus.
-1. Konfigurieren Sie [Verbindungs- und Dateneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview) mit den richtigen Informationen.
+1. Konfigurieren Sie [Verbindungs- und Dateneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/overview) mit den richtigen Informationen.
 1. Fügen Sie den ExD-Ereignisdatensatz hinzu, den Sie beim Konfigurieren Ihres Datenstroms verwendet haben.
 1. Fügen Sie den Datensatz hinzu, den Sie als Konversionsereignisse verwenden möchten, und klicken Sie dann auf **Weiter**.
-1. Konfigurieren Sie [Einstellungen für jeden ausgewählten Datensatz](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) einzeln im Dialogfeld **Datensätze hinzufügen**.
+1. Konfigurieren Sie [Einstellungen für jeden ausgewählten Datensatz](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) einzeln im Dialogfeld **Datensätze hinzufügen**.
 
 ![Dialogfeld „Datensätze hinzufügen“, bevor Datensätze hinzugefügt werden](assets/cja-connection-new-add-datasets-empty.png)
 
@@ -64,7 +64,7 @@ Wenn Sie bereits eine Verbindung eingerichtet haben, können Sie Ihre bestehende
 
 Einrichten einer Datenansicht in Customer Journey Analytics. Eine Datenansicht stellt sicher, dass die Daten aus Ihrer Verbindung ordnungsgemäß verwendet werden können.
 
-1. Richten Sie Ihre Datenansicht ein und vergewissern Sie sich, dass sie auf die oben erstellte Verbindung verweist. Weitere Informationen finden Sie unter [Datenansicht erstellen oder bearbeiten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) im *Adobe Customer Journey Analytics-Handbuch*.
+1. Richten Sie Ihre Datenansicht ein und vergewissern Sie sich, dass sie auf die oben erstellte Verbindung verweist. Weitere Informationen finden Sie unter [Datenansicht erstellen oder bearbeiten](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview) im *Adobe Customer Journey Analytics-Handbuch*.
 1. Navigieren Sie **Daten-Management** > **Datenansichten**.
 1. Wählen Sie **Neue Datenansicht erstellen** und wählen Sie die CJA-Verbindungsflags aus.
 1. Geben Sie einen Namen für die Datenansicht und eine stabile externe ID ein.
@@ -93,7 +93,7 @@ Konfigurieren Sie die Dimensionen und Metriken, damit eine Risikoposition für e
 
 1. Fügen Sie unter Metriken das erforderliche Konversionsfeld hinzu, z. B. `commerce.purchases.value`.
 1. Geben Sie der Metrik einen eindeutigen Namen, z. B **„Kaufwert**.
-1. Aktivieren Sie die Attribution und wählen Sie das für die Analyse erforderliche Modell aus: Letztkontakt, Erstkontakt, Teilnahme oder Selber Kontakt. Weitere [&#x200B; zu Attributionsmodellen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models) Containern und Lookback-Fenstern finden Sie unter Attributionskomponenten .
+1. Aktivieren Sie die Attribution und wählen Sie das für die Analyse erforderliche Modell aus: Letztkontakt, Erstkontakt, Teilnahme oder Selber Kontakt. Weitere [&#x200B; zu Attributionsmodellen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/attribution/models) Containern und Lookback-Fenstern finden Sie unter Attributionskomponenten .
 1. Wählen Sie einen Container und ein Lookback-Fenster aus, die der Experimentstrategie entsprechen. Ein Personen-Container mit einem besuchs- oder sitzungsabhängigen Lookback ist ein häufiger Ausgangspunkt, validieren ihn jedoch für Ihren Anwendungsfall.
 1. Speichern Sie die Datenansicht.
 
