@@ -15,9 +15,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4405
+source-wordcount: 4434
 ht-degree: 25%
 
 ---
@@ -181,6 +181,11 @@ Mit diesem Algorithmus können Sie auswählen, auf welchem Elementattribut die E
 Wählen Sie dann aus, welche im Besucherprofil gespeicherten Profilattribute übereinstimmen sollen, z. B. „Lieblingsmarke“, „Zuletzt zum Warenkorb hinzugefügt“ oder „Am häufigsten angezeigt“.
 
 ### [!UICONTROL Am häufigsten angezeigt nach Profilattribut]
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Profilattribut"
+>abstract="Sie können ein Profilattribut mithilfe von Profilskripten erstellen. Nachdem ein Profilskript erstellt und aktiviert wurde, kann sein entsprechendes Profilattribut mit diesem Algorithmus verwendet werden."
 
 Empfiehlt, die am häufigsten angezeigten Elemente nach einem Besucherprofilattribut und nicht nach Elementinformationen zu gruppieren, wie dies bei [!UICONTROL Am häufigsten angezeigt nach Kategorie] und [!UICONTROL Am häufigsten angezeigt nach &#x200B;] der Fall ist. [!DNL Target] führt für jeden Attributwert eine eigene Rangliste und zeigt zum Zeitpunkt der Bereitstellung jedem Besucher die Liste an, die seinem eigenen gespeicherten Wert entspricht.
 

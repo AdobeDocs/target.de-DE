@@ -1,11 +1,12 @@
 ---
 title: Warum Flags verwenden?
 description: Erfahren Sie mehr über die wichtigsten Anwendungsfälle für Flags in Adobe Target, von selektiven Funktionstests bis hin zu koordinierten Versionen mehrerer Anwendungen.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,13 @@
 ---
 title: Berichterstellung
 description: Erfahren Sie, wie Sie Feature Flag-Berichte in Flags mithilfe von Customer Journey Analytics anzeigen.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ Flags ermöglicht Berichte über **Customer Journey Analytics (CJA)**. Eine **Be
 
 Bevor Sie Berichte anzeigen können, stellen Sie Folgendes sicher:
 
-1. Das Reporting ist für Ihre Anwendung eingerichtet - siehe [Einrichten des Reportings mit Customer Journey Analytics](#setup).
+1. Das Reporting ist für Ihre Anwendung eingerichtet - siehe [Einrichten von CJA für Feature Flags-Reporting](set-up-cja-reporting.md).
 1. Das Feature Flag oder die Feature Group ist aktiv und enthält gesammelte Daten.
 
 ## Anzeigen eines Berichts {#view-report}
@@ -66,28 +67,9 @@ Weitere Informationen [&#x200B; Berechnung dieser Metriken finden &#x200B;](http
 
 ![Experimentergebnisse mit Steigerung, Konfidenz und Konversionsrate nach Variante](assets/experimentation.png)
 
-### Analysieren in CJA (optional) {#analyze-in-cja}
-
-Nachdem ein Bericht geladen wurde **wird oben rechts auf der Registerkarte „Bericht** eine Schaltfläche „Analysieren in CJA&quot; angezeigt. Wenn Sie den Bericht auswählen, wird dieselbe vollständige Berichtseite in Customer Journey Analytics in einer neuen Browser-Registerkarte geöffnet, auf der Sie über das vollständige CJA-Toolset für eine tiefer gehende Ad-hoc-Analyse verfügen.
-
-![Markiert den im Customer Journey Analytics-Arbeitsbereich geöffneten Übersichtsbericht](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->Der Bericht wird als temporäres, nicht gespeichertes Projekt geöffnet. Wenn Sie sie in CJA anpassen (Metriken hinzufügen, Bedienfelder ändern, Filter anpassen usw.) und diese Änderungen beibehalten möchten, speichern Sie sie mit **Projekt > Als Vorlage speichern**. Andernfalls gehen Ihre Änderungen beim Schließen des Berichts verloren.
-
-![Menü „Projekt“ mit hervorgehobener Option „Als Vorlage speichern“](assets/save-as-template.png)
-
-## Einrichten von Berichten mit Customer Journey Analytics {#setup}
-
-Für das Reporting ist ein Customer Journey Analytics-Datensatz erforderlich, der mit Ihrer Flags-Anwendung verbunden ist. Wenden Sie sich an den Flags-Support oder an Ihren Adobe-Support, um das Reporting für Ihre Anwendung zu aktivieren.
-
->[!NOTE]
->
->Die in der Funktionsanfrage übergebene Identität muss nicht mit einem Profil verknüpft sein. Die Auswertung erfolgt zur Laufzeit und das Ereignis wird an Customer Journey Analytics gesendet.
-
 ## Siehe auch {#see-also}
 
+* [Einrichten von CJA für Feature Flags-Berichte](set-up-cja-reporting.md)
 * [Erstellen des ersten Feature Flags](create-your-first-feature-flag.md)
 * [A/B-Tests mit Feature Flags](a-b-testing.md)
 * [Erstellen einer Funktionsgruppe](create-a-feature-group.md)

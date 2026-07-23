@@ -1,12 +1,13 @@
 ---
 title: Aktualisieren der Regeln für Veröffentlichungszielgruppen
 description: Erfahren Sie, wie Sie Zielgruppenkriterien für eine Version in Flags konfigurieren und aktualisieren, einschließlich unterstützter Regeltypen und wie Sie sie kombinieren.
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 3%
+source-wordcount: '342'
+ht-degree: 4%
 
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: Flags-Erweiterung für Web-Integrationshandbuch
 description: Erfahren Sie, wie Sie die Flags-Erweiterung in Adobe Experience Platform Web SDK (Alloy) für Web-Anwendungen integrieren.
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 9c6f2b72f964b06da51e1f3655545147d7240a93
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
