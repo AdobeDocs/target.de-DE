@@ -7,21 +7,14 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 47%
+source-wordcount: 927
+ht-degree: 29%
 
 ---
 
@@ -31,15 +24,69 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 26.7.4 (23. Juli 2026)
+
+**Berichterstellung**
+
++++Details anzeigen
+
+* **Das Diagramm Konversionsrate ist für eine bestimmte mobile Zielgruppe nicht verfügbar.** Es wurde ein Problem behoben[!UICONTROL  bei dem das Diagramm „Konversionsrate] für bestimmte mobile Zielgruppen nicht gerendert wurde. (TGT-55611)
+
+* **Konversionsziel „Eine Mbox angezeigt“ funktioniert nicht, wenn es aus dem Dropdown-Menü ausgewählt wird.** Es wurde ein Problem behoben, bei dem bei Auswahl einer Mbox aus der Dropdown-Liste [!UICONTROL Ziele und Einstellungen] für ein Konversionsziel vom Typ „Angezeigte Mbox“ der Mbox-Name falsch gespeichert und dadurch die Aufzeichnung von Konversionen verhindert wurde. (TGT-55588)
+
++++
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Layout-Problem auf der Seite „Zielgruppenbibliothek“.** Es wurde ein Layout-Problem behoben, das auftrat, wenn Filter auf der Seite [!UICONTROL Zielgruppenbibliothek] aktiviert wurden, während die Seitennavigation reduziert war. (TGT-55502)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Mobile-Version wird nicht korrekt geladen.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] keine Möglichkeit zum Aktualisieren bot und so verhinderte, dass die mobile Ansicht korrekt geladen wurde. (TGT-54408)
+
+* **Bearbeiten oder Löschen von Änderungsaktionen funktioniert nicht.** Es wurde ein Problem behoben, bei dem das Bearbeiten oder Löschen einer Änderung aus der [!UICONTROL Erlebnis bearbeiten]-Ansicht nicht funktionierte. (TGT-55250)
+
+* **Durchsuchen-Modus reagiert nach dem Laden der Aktivität nicht.** Es wurde ein Problem behoben[!UICONTROL  bei dem der ]Durchsuchen“ für Erlebnisse mit einer Änderung nicht mehr reagierte, was eine weitere Navigation und Bearbeitung verhinderte. (TGT-55306)
+
+* **Elemente im Salesforce LWC (Shadow DOM) können nicht ausgewählt werden.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] mithilfe von Shadow DOM keine Elemente auswählen konnte, die in Salesforce Lightning-Web-Komponenten verschachtelt waren, was zu einem Fehler „Selektor nicht gefunden“ führte. (TGT-54956)
+
+* **Doppelte Angebote erschienen im [!UICONTROL Visual Experience Composer].** Es wurde ein Problem behoben, bei dem Änderungen und Angebote zeitweise in der Benutzeroberfläche für die Erstellung von Aktivitäten dupliziert erschienen. (TGT-55685)
+
++++
+
+**Administration**
+
++++Details anzeigen
+
+* **Der Assistent zur Inhaltserstellung wurde in „Inhalt [!UICONTROL &quot; ].** Die Funktion zur Inhaltserstellung von „KI-Assistent“ wurde umbenannt, um [!UICONTROL Inhalte generieren] über [!DNL Target] Benutzeroberflächenoberflächen hinweg zu ermöglichen. (TGT-55689)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+
+* **Beliebtheitsbasierte Recommendations unter Verwendung von Profilattributen.** [!DNL Target] unterstützt jetzt die Gruppierung von Popularitätsempfehlungen, am häufigsten angezeigt und Topverkäufe, dynamisch nach Besucherprofilattributen wie Land, bevorzugte Sprache oder Mitgliedschaftsstufe. (TAPER-7614)
+
+* **Unstimmigkeit der Empfehlungssammlung zwischen [!UICONTROL Sammlungen] und der Aktivitätskonfiguration.** Es wurde ein Problem behoben, bei dem eine [!UICONTROL Recommendations]-Sammlung zusätzliche, nicht qualifizierte Entitäten zurückgab, wenn sie in der Aktivitätskonfiguration im Vergleich zur Ansicht [!UICONTROL Recommendations] > [!UICONTROL Sammlungen] angezeigt wurde. (TGT-55554)
+
++++
+
 ## [!DNL Target Standard/Premium] 26.7.2 (16. Juli 2026)
 
 **Aktivitäten**
 
 +++Details anzeigen
 
-* **Falsche Zielinformationen auf der Seite [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem auf der Seite &#x200B;]Aktivitätsübersicht“ für [!DNL Automated Personalization] Aktivitäten zusätzliche Ziele anstelle des Optimierungsziels angezeigt wurden. (TGT-55553)
+* **Falsche Zielinformationen auf der Seite [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL  bei dem auf der Seite ]Aktivitätsübersicht“ für [!DNL Automated Personalization] Aktivitäten zusätzliche Ziele anstelle des Optimierungsziels angezeigt wurden. (TGT-55553)
 
-* **Nicht reagierender Bildschirm beim Navigieren auf Seiten im [!UICONTROL Durchsuchen]-Modus.** Es wurde ein Problem behoben, bei dem der Bildschirm beim Navigieren zwischen Seiten im [!UICONTROL -Modus nicht &#x200B;] reagierte. (TGT-55565)
+* **Nicht reagierender Bildschirm beim Navigieren auf Seiten im [!UICONTROL Durchsuchen]-Modus.** Es wurde ein Problem behoben, bei dem der Bildschirm beim Navigieren zwischen Seiten im [!UICONTROL -Modus nicht ] reagierte. (TGT-55565)
 
 +++
 
@@ -55,7 +102,7 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 +++Details anzeigen
 
-* **Nicht lokalisierte Zeichenfolgen im Dialogfeld [!UICONTROL Profilskript erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen [!UICONTROL &#x200B; Dialogfeld „Profilskript erstellen] nicht lokalisiert wurden. (TGT-51527)
+* **Nicht lokalisierte Zeichenfolgen im Dialogfeld [!UICONTROL Profilskript erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen [!UICONTROL  Dialogfeld „Profilskript erstellen] nicht lokalisiert wurden. (TGT-51527)
 
 +++
 
