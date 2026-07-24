@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
+source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 47%
+source-wordcount: 927
+ht-degree: 29%
 
 ---
 
@@ -30,6 +30,60 @@ ht-degree: 47%
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.7.4 (23. Juli 2026)
+
+**Berichterstellung**
+
++++Details anzeigen
+
+* **Das Diagramm Konversionsrate ist für eine bestimmte mobile Zielgruppe nicht verfügbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem das Diagramm „Konversionsrate] für bestimmte mobile Zielgruppen nicht gerendert wurde. (TGT-55611)
+
+* **Konversionsziel „Eine Mbox angezeigt“ funktioniert nicht, wenn es aus dem Dropdown-Menü ausgewählt wird.** Es wurde ein Problem behoben, bei dem bei Auswahl einer Mbox aus der Dropdown-Liste [!UICONTROL Ziele und Einstellungen] für ein Konversionsziel vom Typ „Angezeigte Mbox“ der Mbox-Name falsch gespeichert und dadurch die Aufzeichnung von Konversionen verhindert wurde. (TGT-55588)
+
++++
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Layout-Problem auf der Seite „Zielgruppenbibliothek“.** Es wurde ein Layout-Problem behoben, das auftrat, wenn Filter auf der Seite [!UICONTROL Zielgruppenbibliothek] aktiviert wurden, während die Seitennavigation reduziert war. (TGT-55502)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Mobile-Version wird nicht korrekt geladen.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] keine Möglichkeit zum Aktualisieren bot und so verhinderte, dass die mobile Ansicht korrekt geladen wurde. (TGT-54408)
+
+* **Bearbeiten oder Löschen von Änderungsaktionen funktioniert nicht.** Es wurde ein Problem behoben, bei dem das Bearbeiten oder Löschen einer Änderung aus der [!UICONTROL Erlebnis bearbeiten]-Ansicht nicht funktionierte. (TGT-55250)
+
+* **Durchsuchen-Modus reagiert nach dem Laden der Aktivität nicht.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem der &#x200B;]Durchsuchen“ für Erlebnisse mit einer Änderung nicht mehr reagierte, was eine weitere Navigation und Bearbeitung verhinderte. (TGT-55306)
+
+* **Elemente im Salesforce LWC (Shadow DOM) können nicht ausgewählt werden.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] mithilfe von Shadow DOM keine Elemente auswählen konnte, die in Salesforce Lightning-Web-Komponenten verschachtelt waren, was zu einem Fehler „Selektor nicht gefunden“ führte. (TGT-54956)
+
+* **Doppelte Angebote erschienen im [!UICONTROL Visual Experience Composer].** Es wurde ein Problem behoben, bei dem Änderungen und Angebote zeitweise in der Benutzeroberfläche für die Erstellung von Aktivitäten dupliziert erschienen. (TGT-55685)
+
++++
+
+**Administration**
+
++++Details anzeigen
+
+* **Der Assistent zur Inhaltserstellung wurde in „Inhalt [!UICONTROL &quot; &#x200B;].** Die Funktion zur Inhaltserstellung von „KI-Assistent“ wurde umbenannt, um [!UICONTROL Inhalte generieren] über [!DNL Target] Benutzeroberflächenoberflächen hinweg zu ermöglichen. (TGT-55689)
+
++++
+
+**Recommendations**
+
++++Details anzeigen
+
+* **Beliebtheitsbasierte Recommendations unter Verwendung von Profilattributen.** [!DNL Target] unterstützt jetzt die Gruppierung von Popularitätsempfehlungen, am häufigsten angezeigt und Topverkäufe, dynamisch nach Besucherprofilattributen wie Land, bevorzugte Sprache oder Mitgliedschaftsstufe. (TAPER-7614)
+
+* **Unstimmigkeit der Empfehlungssammlung zwischen [!UICONTROL Sammlungen] und der Aktivitätskonfiguration.** Es wurde ein Problem behoben, bei dem eine [!UICONTROL Recommendations]-Sammlung zusätzliche, nicht qualifizierte Entitäten zurückgab, wenn sie in der Aktivitätskonfiguration im Vergleich zur Ansicht [!UICONTROL Recommendations] > [!UICONTROL Sammlungen] angezeigt wurde. (TGT-55554)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.2 (16. Juli 2026)
 
