@@ -5,8 +5,11 @@ title: Wie kann ich mehr über die statistischen Berechnungen erfahren, die in [
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
 TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
 workflow-type: tm+mt
 source-wordcount: 1506
@@ -18,7 +21,7 @@ ht-degree: 1%
 
 In diesem Artikel werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target] verwendet werden. Definitionen werden für die Entscheidungsmetriken **[!UICONTROL Konversionsrate]**, **[!UICONTROL Konfidenzintervall der Konversionsrate]**, **[!UICONTROL Anstieg]**, **[!UICONTROL Konfidenzintervall für Steigerung]**, **[!UICONTROL Konfidenz]** und **[!UICONTROL Bayes]** bereitgestellt.
 
-Eine **[!UICONTROL A/B-Test]**-Aktivität (manuell) unterstützt zwei statistische Methoden, die pro Aktivität in „Ziele [ Einstellungen“ ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) werden:
+Eine **[!UICONTROL A/B-Test]**-Aktivität (manuell) unterstützt zwei statistische Methoden, die pro Aktivität in „Ziele [&#x200B; Einstellungen“ &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) werden:
 
 * [Welchs t-Test](#welchs-t-test): eine frequentistische Methodik, die einen **[!UICONTROL Konfidenz]** Prozentsatz und ein Konfidenzintervall meldet, basierend auf einem Hypothesentest mit festem Stichprobenumfang. Wird für Aktivitäten mit einem primären Ziel **[!UICONTROL Umsatz]** oder **[!UICONTROL Interaktion]** verwendet.
 
@@ -30,7 +33,7 @@ Eine **[!UICONTROL A/B-Test]**-Aktivität (manuell) unterstützt zwei statistisc
 
 Im folgenden Abschnitt werden die in der folgenden Abbildung verwendeten Berechnungen erläutert.
 
-![Target-Bericht, der die [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittlicher Anstieg und ]Konfidenzintervall) und [!UICONTROL Konfidenz] einer A/B-Testaktivität ausgibt.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![Target-Bericht, der die [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittlicher Anstieg und &#x200B;]Konfidenzintervall) und [!UICONTROL Konfidenz] einer A/B-Testaktivität ausgibt.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 #### Konversionsrate und Umsatz pro Besucher (RPV)-Kampagnen
 
@@ -124,7 +127,7 @@ Dabei sind *µ<sub>v</sub>* und *µ<sub>v0</sub>* die Mittel für ** bzw. *<sub>
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**bzw.<sub></sub>* 000.
+Dabei sind *<sub><sup>2</sup><sub>v</sub>* und *</sub></sub>*<sup>2</sup><sub>v<sub>0 </sub></sub>*die Varianzen zweier Erlebnisse&#x200B;**bzw.*<sub>0 </sub>*und* NN *v</sub>* und *Nn<sub>v<sub>0sind Stichproben fürgrößen für**&#x200B;bzw.<sub></sub>* 000.
 
 Für Welchs t-Test wird der Freiheitsgrad wie folgt berechnet:
 
