@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
+source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 29%
+source-wordcount: 1046
+ht-degree: 26%
 
 ---
 
@@ -30,6 +30,26 @@ ht-degree: 29%
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.7.5 (30. Juli 2026)
+
+**Aktivitäten**
+
++++Details anzeigen
+
+* **Bayes&#39;sche Statistiken für [!DNL A/B Test (Manual)] Aktivitäten** unterstützen [!DNL A/B Test (Manual)] Aktivitäten jetzt Bayes&#39;sche Statistiken als Alternative zu Welchs t-Test. Wählen Sie die statistische Methodik unter [!UICONTROL Ziele und Einstellungen]: Der Bericht einer Bayes&#39;schen Aktivität zeigt wahrscheinlichkeitsbasierte Entscheidungsmetriken wie [!UICONTROL Chance zur Schlägerkontrolle] und glaubwürdige Intervalle anstelle des frequenzabhängigen Konfidenzintervalls an. [Weitere Informationen](../c-reports/statistical-methodology/statistical-calculations.md)
+
+* **[!DNL Customer Journey Analytics]für [!DNL Auto-Allocate] Aktivitäten.** [!DNL Auto-Allocate] -Aktivitäten können jetzt zusätzlich zu [!DNL Target] und [!DNL Adobe Analytics] (A4T) [!DNL Customer Journey Analytics] als Berichtsquelle verwenden. [Weitere Informationen](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **HTML-Angebote können in der Aktivität nicht ausgewählt oder geändert werden.** Es wurde ein Problem behoben, bei dem das Hinzufügen bestimmter HTML- oder Experience Fragment-Angebote zu einer Aktivität zum Absturz von [!UICONTROL Visual Experience Composer] führte, wodurch Angebote nicht ausgewählt oder geändert werden konnten. (TGT-55732)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.4 (23. Juli 2026)
 
