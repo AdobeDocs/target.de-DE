@@ -138,7 +138,7 @@ Erfahren Sie, wie Sie mit [!DNL Real-Time Customer Data Platform] und [!DNL Adob
 
 Weitere Informationen finden Sie unter [Personalisierung für den nächsten Treffer mit Real-Time CDP und Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=de){target=_blank} im Handbuch *Platform-Tutorials*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343070?captions=ger&quality=12&learn=on)
 
 ### Video: Konfigurieren des [!DNL Adobe Target]-Ziels in [!DNL Real-Time Customer Data Platform]
 
