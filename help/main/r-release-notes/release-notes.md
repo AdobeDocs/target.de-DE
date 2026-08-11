@@ -7,21 +7,14 @@ title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4111bfa406259af6fb0877170fd7d80b11c22482
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ff60ed8b6fedd553d6df67e122a8a0b6520cce9
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 26%
+source-wordcount: 529
+ht-degree: 50%
 
 ---
 
@@ -31,133 +24,33 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.7.5 (30. Juli 2026)
+## [!DNL Target Standard/Premium] 26.8.2 (11. August 2026)
 
-**Aktivitäten**
+**Zielgruppen**
 
 +++Details anzeigen
 
-* **Bayes&#39;sche Statistiken für [!DNL A/B Test (Manual)] Aktivitäten** unterstützen [!DNL A/B Test (Manual)] Aktivitäten jetzt Bayes&#39;sche Statistiken als Alternative zu Welchs t-Test. Wählen Sie die statistische Methodik unter [!UICONTROL Ziele und Einstellungen]: Der Bericht einer Bayes&#39;schen Aktivität zeigt wahrscheinlichkeitsbasierte Entscheidungsmetriken wie [!UICONTROL Chance zur Schlägerkontrolle] und glaubwürdige Intervalle anstelle des frequenzabhängigen Konfidenzintervalls an. [Weitere Informationen](../c-reports/statistical-methodology/statistical-calculations.md)
-
-* **[!DNL Customer Journey Analytics]für [!DNL Auto-Allocate] Aktivitäten.** [!DNL Auto-Allocate] -Aktivitäten können jetzt zusätzlich zu [!DNL Target] und [!DNL Adobe Analytics] (A4T) [!DNL Customer Journey Analytics] als Berichtsquelle verwenden. [Weitere Informationen](../c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
+* **Benutzerdefinierte Code-Änderung kann nicht in einer Aktivität mit einer Zielgruppe „Nur Aktivität“ kopiert und gespeichert werden.** Fehlerkorrektur - Das Kopieren einer Aktivität, die eine Zielgruppe nur für Aktivitäten verwendet, konnte nach dem Hinzufügen einer benutzerdefinierten Code-Änderung nicht mit dem Fehler „Ungültige Zielgruppen-IDs“ gespeichert werden. (TGT-55785)
 
 +++
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **Beschädigte Multibyte-Zeichen in der Aktivitäts-URL.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der Aktivitäts-URL im [!UICONTROL Visual Experience Composer] und auf der Registerkarte **[!UICONTROL Kollisionen]** beschädigt schienen. (TGT-55708)
+
+* **Nicht lokalisierte Fehlermeldung beim Öffnen eines gelöschten Designs.** Fehlerkorrektur - Die Fehlermeldung **[!UICONTROL Angeforderte Ressource wurde nicht gefunden]** wurde nicht lokalisiert, wenn versucht wurde, ein Design zu öffnen, das von einem anderen Benutzer gelöscht wurde. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4. August 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Details anzeigen
 
-* **HTML-Angebote können in der Aktivität nicht ausgewählt oder geändert werden.** Es wurde ein Problem behoben, bei dem das Hinzufügen bestimmter HTML- oder Experience Fragment-Angebote zu einer Aktivität zum Absturz von [!UICONTROL Visual Experience Composer] führte, wodurch Angebote nicht ausgewählt oder geändert werden konnten. (TGT-55732)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.4 (23. Juli 2026)
-
-**Berichterstellung**
-
-+++Details anzeigen
-
-* **Das Diagramm Konversionsrate ist für eine bestimmte mobile Zielgruppe nicht verfügbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem das Diagramm „Konversionsrate] für bestimmte mobile Zielgruppen nicht gerendert wurde. (TGT-55611)
-
-* **Konversionsziel „Eine Mbox angezeigt“ funktioniert nicht, wenn es aus dem Dropdown-Menü ausgewählt wird.** Es wurde ein Problem behoben, bei dem bei Auswahl einer Mbox aus der Dropdown-Liste [!UICONTROL Ziele und Einstellungen] für ein Konversionsziel vom Typ „Angezeigte Mbox“ der Mbox-Name falsch gespeichert und dadurch die Aufzeichnung von Konversionen verhindert wurde. (TGT-55588)
-
-+++
-
-**Zielgruppen**
-
-+++Details anzeigen
-
-* **Layout-Problem auf der Seite „Zielgruppenbibliothek“.** Es wurde ein Layout-Problem behoben, das auftrat, wenn Filter auf der Seite [!UICONTROL Zielgruppenbibliothek] aktiviert wurden, während die Seitennavigation reduziert war. (TGT-55502)
-
-+++
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Details anzeigen
-
-* **Mobile-Version wird nicht korrekt geladen.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] keine Möglichkeit zum Aktualisieren bot und so verhinderte, dass die mobile Ansicht korrekt geladen wurde. (TGT-54408)
-
-* **Bearbeiten oder Löschen von Änderungsaktionen funktioniert nicht.** Es wurde ein Problem behoben, bei dem das Bearbeiten oder Löschen einer Änderung aus der [!UICONTROL Erlebnis bearbeiten]-Ansicht nicht funktionierte. (TGT-55250)
-
-* **Durchsuchen-Modus reagiert nach dem Laden der Aktivität nicht.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem der &#x200B;]Durchsuchen“ für Erlebnisse mit einer Änderung nicht mehr reagierte, was eine weitere Navigation und Bearbeitung verhinderte. (TGT-55306)
-
-* **Elemente im Salesforce LWC (Shadow DOM) können nicht ausgewählt werden.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] mithilfe von Shadow DOM keine Elemente auswählen konnte, die in Salesforce Lightning-Web-Komponenten verschachtelt waren, was zu einem Fehler „Selektor nicht gefunden“ führte. (TGT-54956)
-
-* **Doppelte Angebote erschienen im [!UICONTROL Visual Experience Composer].** Es wurde ein Problem behoben, bei dem Änderungen und Angebote zeitweise in der Benutzeroberfläche für die Erstellung von Aktivitäten dupliziert erschienen. (TGT-55685)
-
-+++
-
-**Administration**
-
-+++Details anzeigen
-
-* **Der Assistent zur Inhaltserstellung wurde in „Inhalt [!UICONTROL &quot; &#x200B;].** Die Funktion zur Inhaltserstellung von „KI-Assistent“ wurde umbenannt, um [!UICONTROL Inhalte generieren] über [!DNL Target] Benutzeroberflächenoberflächen hinweg zu ermöglichen. (TGT-55689)
-
-+++
-
-**Recommendations**
-
-+++Details anzeigen
-
-* **Beliebtheitsbasierte Recommendations unter Verwendung von Profilattributen.** [!DNL Target] unterstützt jetzt die Gruppierung von Popularitätsempfehlungen, am häufigsten angezeigt und Topverkäufe, dynamisch nach Besucherprofilattributen wie Land, bevorzugte Sprache oder Mitgliedschaftsstufe. (TAPER-7614)
-
-* **Unstimmigkeit der Empfehlungssammlung zwischen [!UICONTROL Sammlungen] und der Aktivitätskonfiguration.** Es wurde ein Problem behoben, bei dem eine [!UICONTROL Recommendations]-Sammlung zusätzliche, nicht qualifizierte Entitäten zurückgab, wenn sie in der Aktivitätskonfiguration im Vergleich zur Ansicht [!UICONTROL Recommendations] > [!UICONTROL Sammlungen] angezeigt wurde. (TGT-55554)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.2 (16. Juli 2026)
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **Falsche Zielinformationen auf der Seite [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem auf der Seite &#x200B;]Aktivitätsübersicht“ für [!DNL Automated Personalization] Aktivitäten zusätzliche Ziele anstelle des Optimierungsziels angezeigt wurden. (TGT-55553)
-
-* **Nicht reagierender Bildschirm beim Navigieren auf Seiten im [!UICONTROL Durchsuchen]-Modus.** Es wurde ein Problem behoben, bei dem der Bildschirm beim Navigieren zwischen Seiten im [!UICONTROL -Modus nicht &#x200B;] reagierte. (TGT-55565)
-
-+++
-
-**Startseite**
-
-+++Details anzeigen
-
-* **Änderung der Benutzeroberfläche für [!UICONTROL Beste Leistung] und [!UICONTROL Speichert].** Die Benutzeroberfläche für die leistungsstärksten Komponenten wurde aktualisiert und das Erlebnis wird gespeichert. (TGT-54975)
-
-+++
-
-**Zielgruppen**
-
-+++Details anzeigen
-
-* **Nicht lokalisierte Zeichenfolgen im Dialogfeld [!UICONTROL Profilskript erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen [!UICONTROL &#x200B; Dialogfeld „Profilskript erstellen] nicht lokalisiert wurden. (TGT-51527)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.7.1 (9. Juli 2026)
-
-**Aktivitäten**
-
-+++Details anzeigen
-
-* **Inkonsistente Quellanzeige auf [!UICONTROL Aktivitäten], [!UICONTROL Zielgruppen] und [!UICONTROL Angeboten] Seiten.** Es wurde ein Problem behoben, bei dem die Quelle auf den Seiten [!UICONTROL Aktivitäten], [!UICONTROL Zielgruppen] und [!UICONTROL Angebote] inkonsistent angezeigt wurde. (TGT-55247)
-
-* **Die Aktivitätsquelle ändert sich bei der Bearbeitung über die Benutzeroberfläche.** Es wurde ein Problem behoben, bei dem durch das Bearbeiten einer Aktivität über die Benutzeroberfläche die ursprüngliche Aktivitätsquelle geändert wurde. (TGT-55248)
-
-+++
-
-**Zielgruppen**
-
-+++Details anzeigen
-
-* **Falscher Standardarbeitsbereich beim Bearbeiten einer Zielgruppe.** Es wurde ein Problem behoben, bei dem der Standardarbeitsbereich nach der Bearbeitung einer Zielgruppe falsch war. (TGT-55510)
-
-+++
-
-**Berichterstellung**
-
-+++Details anzeigen
-
-* **CSV-Download-Fehler für Mai-Berichte.** Es wurde ein Problem behoben, bei dem das Herunterladen eines CSV-Berichts für Mai fehlgeschlagen ist. (TGT-55524)
+* **Abgeschnittene Symbole im Bedienfeld [!UICONTROL Erlebniszielgruppen].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Symbole „Hinzufügen]** und „Erweitern/Reduzieren“ im Bedienfeld **[!UICONTROL Erlebniszielgruppen]** während der Aktivitätserstellung ausgeblendet oder abgeschnitten wurden. (TGT-55372)
 
 +++
 
