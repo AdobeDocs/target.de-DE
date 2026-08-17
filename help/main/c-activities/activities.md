@@ -17,9 +17,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 2633
+source-wordcount: 2648
 ht-degree: 25%
 
 ---
@@ -57,7 +57,7 @@ Die folgende Tabelle hilft Ihnen, die verschiedenen Elemente der Liste [!UICONTR
 | [!UICONTROL Priorität] | Die Priorität der Aktivität.<P>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<P>Je nach Ihren [Einstellungen](/help/main/administrating-target/reporting.md) variieren die [!DNL Target]-Benutzeroberfläche und die Optionen für [!UICONTROL Priorität]. Sie können die Legacy-Einstellungen von [!UICONTROL Niedrig], [!UICONTROL Medium] oder [!UICONTROL Hoch] verwenden oder feinabgestimmte Prioritäten von 0 bis 999 aktivieren.<P>Weitere Informationen zu Prioritätseinstellungen finden Sie unter [Priorität](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) unter *Aktivitätseinstellungen* in *Ziele und Einstellungen*. |
 | [!UICONTROL property] | Zeigt die [Eigenschaft](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) für die Aktivität an.<P>Berechtigungen für Unternehmensbenutzer sind eine [Target Premium](/help/main/c-intro/intro.md#premium)-Funktion. |
 | [!UICONTROL Geschätzte Steigerung des Umsatzes] | Zeigt die voraussichtliche Umsatzsteigerung an, wenn 100 % der Zielgruppe das erfolgreichste Erlebnis sehen.<P>Zur Berechnung wird folgende Formel verwendet:<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>Diese Zahl wird auf maximal eine Dezimalstelle gerundet, wenn die gekürzte Form vor der Dezimalstelle nur eine Ziffer enthält. Beispiele: 1,6 Mio. $, 60 K $, 900 $, 8,5 K $, 205 K $<P>Diese Zeile zeigt „---“ für Aktivitäten, die nicht genügend Daten haben, um eine Gewinnershow anzuberaumen, oder keine Kostenschätzung haben.<P>Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
-| [!UICONTROL Source] | Zeigt an, wo die Aktivität erstellt wurde: [!DNL Adobe Target], [Adobe Target-API](https://experienceleague.adobe.com/de/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de) oder [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
+| [!UICONTROL Source] | Zeigt an, wo die Aktivität erstellt wurde: [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/de/docs/target-dev/developer/overview), [[!DNL Adobe Target] MCP-Server](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de) oder [Adobe Mobile Services](https://developer.adobe.com/client-sdks/documentation/). |
 | [!UICONTROL Verfasser] | Der Name der Person, die die Aktivität erstellt hat. |
 | [!UICONTROL Entscheidungsmethode] | Die in den einzelnen Aktivitäten verwendete Entscheidungsmethode: [Server-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de) oder [Client-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=de). |
 
@@ -91,7 +91,7 @@ Im Menü können Sie Aktivitäten nach den folgenden Attributen filtern:
 | [!UICONTROL Experience Composer] | Filtern Sie, nach dem Experience Composer während der Aktivitätserstellung verwendet wurde:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): Zeigt Aktivitäten an, die mit dem [!UICONTROL Visual Experience Composer) &#x200B;] wurden.</li><li>[Formularbasiert](/help/main/c-experiences/form-experience-composer.md): Zeigt Aktivitäten an, die mit dem [!UICONTROL formularbasierten Experience Composer) &#x200B;] wurden.</li></ul> |
 | [!UICONTROL Metriktyp] | Filter, nach [&#x200B; „Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md) bei der Erstellung der Aktivität ausgewählt wurde.<ul><li>[!UICONTROL Konversion]</li><li>[!UICONTROL Umsatz]</li><li>[!UICONTROL Interaktion]</li><li>[!UICONTROL Verwenden einer Analytics-Metrik]</lI></ul> |
 | [!UICONTROL Entscheidungsmethode] | Filtern Sie nach der in den einzelnen Aktivitäten verwendeten Entscheidungsmethode.<ul><li>[Server-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=de): Zeigt Aktivitäten an, die Server-seitige Entscheidungsfindung verwenden.</li><li>[Client-seitig](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=de): Zeigt Aktivitäten an, die Client-seitige Entscheidungsfindung verwenden.</li></ul> |
-| [!UICONTROL Activity Source] | Filtern Sie nach der Aktivitätsquelle, die zur Erstellung der einzelnen Aktivitäten verwendet wurde.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
+| [!UICONTROL Activity Source] | Filtern Sie nach der Aktivitätsquelle, die zur Erstellung der einzelnen Aktivitäten verwendet wurde.<ul><li>[!DNL Adobe Target]</li><li>[[!DNL Adobe Target] API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de)</li><li>[[!DNL Adobe Target] MCP-Server](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)</li><li>[[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)</li><li>[[!DNL Adobe Experience Manager]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=de)</li><li>[[!DNL Adobe Mobile Services]](https://developer.adobe.com/client-sdks/home/)</li></ul> |
 | [!UICONTROL property] | Filtern Sie nach [Eigenschaft](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der die Aktivität erstellt wurde. |
 
 
@@ -111,7 +111,7 @@ Die folgenden Aktionen sind verfügbar (abhängig von Ihren Berechtigungen und d
 
 | Aktion | Beschreibung |
 | --- | --- |
-| [!UICONTROL Bearbeiten] | Aktivität ändern. Es kann jede Aktivität bearbeitet werden.<P>Weitere Informationen zu den verschiedenen Bearbeitungsmöglichkeiten für Aktivitäten finden Sie unter [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Bearbeiten] | Aktivität ändern. Jede Aktivität kann bearbeitet werden, einschließlich der über die [!DNL Adobe Target]-API oder den [!DNL Adobe Target] MCP-Server erstellten Aktivitäten.<P>Weitere Informationen zu den verschiedenen Bearbeitungsmöglichkeiten für Aktivitäten finden Sie unter [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Deaktivieren] | Eine laufende oder geplante Änderung anhalten. Eine deaktivierte Aktivität kann reaktiviert oder archiviert werden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
 | [!UICONTROL Aktivieren] | Startet eine inaktive oder eine zur Aktivierung bereite Aktivität. |
 | [!UICONTROL Archivieren] | Die Aktivitätenliste an das Archiv senden. Standardmäßig werden archivierte Aktivitäten nicht mehr in der Liste [!UICONTROL Aktivitäten] angezeigt. Ändern Sie den Filter für die Liste [!UICONTROL Aktivitäten] so, dass er archivierte Aktivitäten enthält, um sie anzuzeigen. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und sie später erneut aktivieren, ist ein Besucher nach der Reaktivierung weiterhin Teil dieser Aktivität, sofern er sich in dieser Aktivität befand, bevor sie deaktiviert oder archiviert wurde. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
@@ -127,11 +127,11 @@ Beachten Sie folgende Details zur Liste [!UICONTROL Aktivität]:
 * Bei allen Aktivitätstypen außer [!UICONTROL Automated Personalization] (AP), [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] haben Sie die Wahl, entweder [!DNL Target] oder [!DNL Adobe Analytics] als Datenquelle zu verwenden. [!UICONTROL Automated Personalization], [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting] *Always* verwenden [!DNL Target].
 * Für mehrere Kanäle verfügbare Aktivitäten:
 
-   * Web- und Mobilseiten
-   * Mit dem Internet verbundene Bildschirme und Geräte, einschließlich Telefonzellen und Geldautomaten
-   * E-Mail und andere Akquisekanäle oder Partnersites
-   * Mobile Anwendungen
-   * Weitere Möglichkeiten zur Bereitstellung getaggter Inhalte
+  * Web- und Mobilseiten
+  * Mit dem Internet verbundene Bildschirme und Geräte, einschließlich Telefonzellen und Geldautomaten
+  * E-Mail und andere Akquisekanäle oder Partnersites
+  * Mobile Anwendungen
+  * Weitere Möglichkeiten zur Bereitstellung getaggter Inhalte
 
 ## Einschränkungen {#section_049D4684403A4E07B998067EB8E9BE56}
 

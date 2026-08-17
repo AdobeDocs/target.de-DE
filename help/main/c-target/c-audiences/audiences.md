@@ -14,10 +14,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 28%
+source-wordcount: 844
+ht-degree: 27%
 
 ---
 
@@ -46,9 +46,11 @@ Wenn Sie auf die Liste [!UICONTROL Zielgruppen] zugreifen möchten, klicken Sie 
 
 ![[!UICONTROL Audiences]-Liste](assets/audiences_list.png)
 
-Die [!UICONTROL Audiences] enthält die Audiences, die Sie in Ihren Aktivitäten verwenden können. Verwenden Sie die [!UICONTROL Zielgruppen], um Zielgruppen zu erstellen, zu bearbeiten, zu duplizieren, zu kopieren oder zu kombinieren. In der Liste wird auch die Quelle angezeigt, in der die Zielgruppe erstellt wurde:
+Die [!UICONTROL Audiences] enthält die Audiences, die Sie in Ihren Aktivitäten verwenden können. Verwenden Sie die [!UICONTROL Zielgruppen], um Zielgruppen zu erstellen, zu bearbeiten, zu duplizieren, zu kopieren oder zu kombinieren. Jede Zielgruppe kann bearbeitet werden, einschließlich über die [!DNL Adobe Target]-API oder den [[!DNL Adobe Target] MCP-Server](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) erstellter Zielgruppen. In der Liste wird auch die Quelle angezeigt, in der die Zielgruppe erstellt wurde:
 
 * [!DNL Adobe Target]
+* [!DNL Adobe Target] API
+* [!DNL Adobe Target] MCP-Server
 * [!DNL Adobe Target Classic]
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
