@@ -35,7 +35,7 @@ Weitere Informationen zu RTCDP finden Sie unter [Übersicht über Real-Time Cust
 
 >[!NOTE]
 >
->Dieser Artikel konzentriert sich auf die Integration von [!DNL Target] und RTCDP. Seit August 2026 ist das zugrunde liegende **[!UICONTROL Adobe Target]**-Ziel im Experience Platform-Zielkatalog auch für Organisationen mit [!DNL Adobe Journey Optimizer] verfügbar, die nicht über Real-Time CDP verfügen. Siehe [Berechtigung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank} im *Adobe Target-Verbindungshandbuch* für Details zu den verfügbaren Funktionen für jeden Berechtigungstyp.
+>Dieser Artikel konzentriert sich auf die Integration von [!DNL Target] und RTCDP. Seit August 2026 ist das zugrunde liegende **[!UICONTROL Adobe Target]**-Ziel im Experience Platform-Zielkatalog auch für Organisationen mit [!DNL Adobe Journey Optimizer] verfügbar, die nicht über Real-Time CDP verfügen. Siehe [Berechtigung](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de#entitlement){target=_blank} im *Adobe Target-Verbindungshandbuch* für Details zu den verfügbaren Funktionen für jeden Berechtigungstyp.
 
 ## Wichtigste Funktionen
 
@@ -130,7 +130,7 @@ Weitere Informationen finden Sie in den folgenden Themen:
 * [Adobe Target-](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*
 * [Zuordnungsattribute](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=de#map-attributes){target=_blank} im Handbuch *Ziele - Übersicht*.
 * [Aktivieren von Zielgruppen für Edge-Personalisierungsziele](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=de){target=_blank} im Handbuch *Ziele - Übersicht*.
-* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
+* [Personalisierung der gleichen und der nächsten Seite über die Ziele  [!DNL Adobe Target]  und benutzerdefinierte Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=de#same-next-page-personalization?lang=de){target=_blank} unter „Häufig gestellte Fragen“ im Handbuch *Ziele - Übersicht* .
 
 ## Videos und Blogposts {#videos-blogs}
 
