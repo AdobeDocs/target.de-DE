@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3573ace9c7f19f1c04dbe92b50c37109a7a502e6
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 72205
+source-wordcount: 72534
 ht-degree: 48%
 
 ---
@@ -57,6 +57,66 @@ Die Versionshinweise sind in absteigender Reihenfolge nach Monat und Jahr der Ve
 >Informationen zu den Target-Versionen (Plattform und Target Standard/Premium) finden Sie unter [Target-Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A).
 
 ## Versionshinweise 2026
+
+## [!DNL Target Standard/Premium] 26.8.5 (18. August 2026)
+
+**Recommendations**
+
++++Details anzeigen
+
+* **Null-Wert-Filter für Ausschlüsse und Sammlungen.** Sie können jetzt die Operatoren **Wert ist vorhanden** und **Wert ist nicht vorhanden** beim Definieren von Ausschlussregeln und Sammlungsfiltern in [!DNL Recommendations] verwenden. (TGT-55790)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Klicken Sie auf Metrikelemente, die nach dem Speichern der Aktivität nicht im VEC-Editor angezeigt werden.** Es wurde ein Problem behoben, bei dem zuvor konfigurierte Klickmetriken nicht angezeigt wurden, wenn Sie die Ziele und Metriken für eine Aktivität in [!UICONTROL Visual Experience Composer] bearbeitet haben, obwohl die Metriken in Aktivitätsberichten weiterhin korrekt verfolgt wurden. (TGT-55826)
+
+* **Meldung „Keine Änderungen“ im VEC** Es wurde ein Problem behoben **[!UICONTROL bei dem im Bedienfeld]**&#x200B;Änderungen“ zeitweise „Keine Änderungen“ für vorhandene Änderungen in aktiven Experience Targeting-Aktivitäten angezeigt wurde. (TGT-55842)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.3 (13. August 2026)
+
+**Aktivitäten und Zielgruppen**
+
++++Details anzeigen
+
+* **Bearbeiten aktiviert für API/MCP-erstellte Aktivitäten und Zielgruppen.** Aktivitäten und Audiences, die über die [!DNL Adobe Target] Admin-API und [!DNL Target] MCP erstellt wurden, können jetzt in der [!DNL Target]-Benutzeroberfläche bearbeitet werden.
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.2 (11. August 2026)
+
+**Zielgruppen**
+
++++Details anzeigen
+
+* **Benutzerdefinierte Code-Änderung kann nicht in einer Aktivität mit einer Zielgruppe „Nur Aktivität“ kopiert und gespeichert werden.** Fehlerkorrektur - Das Kopieren einer Aktivität, die eine Zielgruppe nur für Aktivitäten verwendet, konnte nach dem Hinzufügen einer benutzerdefinierten Code-Änderung nicht mit dem Fehler „Ungültige Zielgruppen-IDs“ gespeichert werden. (TGT-55785)
+
++++
+
+**Lokalisierung**
+
++++Details anzeigen
+
+* **Beschädigte Multibyte-Zeichen in der Aktivitäts-URL.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der Aktivitäts-URL im [!UICONTROL Visual Experience Composer] und auf der Registerkarte **[!UICONTROL Kollisionen]** beschädigt schienen. (TGT-55708)
+
+* **Nicht lokalisierte Fehlermeldung beim Öffnen eines gelöschten Designs.** Fehlerkorrektur - Die Fehlermeldung **[!UICONTROL Angeforderte Ressource wurde nicht gefunden]** wurde nicht lokalisiert, wenn versucht wurde, ein Design zu öffnen, das von einem anderen Benutzer gelöscht wurde. (TGT-50902)
+
++++
+
+## [!DNL Target Standard/Premium] 26.8.1 (4. August 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Abgeschnittene Symbole im Bedienfeld [!UICONTROL Erlebniszielgruppen].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Symbole „Hinzufügen]** und „Erweitern/Reduzieren“ im Bedienfeld **[!UICONTROL Erlebniszielgruppen]** während der Aktivitätserstellung ausgeblendet oder abgeschnitten wurden. (TGT-55372)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.5 (30. Juli 2026)
 
@@ -4499,7 +4559,7 @@ Diese Version beinhaltet die folgenden Funktionen und Erweiterungen (die Problem
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobile Batch- und Vorabrufbereitstellung </p> </td> 
-   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=de" format="dita" scope="local"> Vorabrufen von Angebotsinhalten </a>. </p> </td> 
+   <td colname="col2"> <p><b>Aktualisiert am 12. Oktober 2017</b> </p> <p> Der Inhalt für mehrere Mboxes kann in einem einzelnen Aufruf vorab abgerufen und lokal auf dem Gerät zwischengespeichert werden, ohne sich darüber Gedanken machen zu müssen, wie, wann und ob der Endbenutzer den Inhalt anzeigt. </p> <p>Für diese Funktion ist es erforderlich, dass Sie die entsprechende Version 4.14 (oder später) des Adobe Mobile-SDK herunterladen und installieren. </p> <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Vorabrufen von Angebotsinhalten </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivitäten </p> </td> 

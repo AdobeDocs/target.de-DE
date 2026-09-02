@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +31,13 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.8.3 (13. August 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (1. September 2026)
 
-**Aktivitäten und Zielgruppen**
-
-+++Details anzeigen
-
-* **Bearbeiten aktiviert für API/MCP-erstellte Aktivitäten und Zielgruppen.** Aktivitäten und Audiences, die über die [!DNL Adobe Target] Admin-API und [!DNL Target] MCP erstellt wurden, können jetzt in der [!DNL Target]-Benutzeroberfläche bearbeitet werden.
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 (11. August 2026)
-
-**Zielgruppen**
+**[!UICONTROL Zielgruppe]**
 
 +++Details anzeigen
 
-* **Benutzerdefinierte Code-Änderung kann nicht in einer Aktivität mit einer Zielgruppe „Nur Aktivität“ kopiert und gespeichert werden.** Fehlerkorrektur - Das Kopieren einer Aktivität, die eine Zielgruppe nur für Aktivitäten verwendet, konnte nach dem Hinzufügen einer benutzerdefinierten Code-Änderung nicht mit dem Fehler „Ungültige Zielgruppen-IDs“ gespeichert werden. (TGT-55785)
-
-+++
-
-**Lokalisierung**
-
-+++Details anzeigen
-
-* **Beschädigte Multibyte-Zeichen in der Aktivitäts-URL.** Es wurde ein Problem behoben, bei dem Multi-Byte-Zeichen in der Aktivitäts-URL im [!UICONTROL Visual Experience Composer] und auf der Registerkarte **[!UICONTROL Kollisionen]** beschädigt schienen. (TGT-55708)
-
-* **Nicht lokalisierte Fehlermeldung beim Öffnen eines gelöschten Designs.** Fehlerkorrektur - Die Fehlermeldung **[!UICONTROL Angeforderte Ressource wurde nicht gefunden]** wurde nicht lokalisiert, wenn versucht wurde, ein Design zu öffnen, das von einem anderen Benutzer gelöscht wurde. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 (4. August 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Details anzeigen
-
-* **Abgeschnittene Symbole im Bedienfeld [!UICONTROL Erlebniszielgruppen].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Symbole „Hinzufügen]** und „Erweitern/Reduzieren“ im Bedienfeld **[!UICONTROL Erlebniszielgruppen]** während der Aktivitätserstellung ausgeblendet oder abgeschnitten wurden. (TGT-55372)
+* **Das Kopieren einer Aktivität mit einer Zielgruppe „Nur Aktivität“ schlägt fehl beim Speichern**. Wenn eine A/B-Aktivität eine Zielgruppenregel „Nur Aktivität“ (lokal) und eine benutzerdefinierte Code-Änderung verwendet, schlägt das Kopieren und Speichern der Kopie mit dem Fehler „Ungültige Zielgruppen-IDs“ fehl. (TGT-55785)
 
 +++
 
