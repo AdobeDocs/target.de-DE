@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.2 (8. September 2026)
+
+
+**[!UICONTROL Recommendations]**
+
++++Details anzeigen
+
+* **[!DNL New]Benutzeroberfläche codiert Feed-URLs falsch**. Beim Erstellen eines Recommendations-Feeds über eine URL in der neuen [!DNL Target] wurde die Feed-URL falsch codiert, was dazu führte, dass die Feed-Erstellung mit einem unbekannten Fehler fehlschlug. (TGT-56084)
+
++++
+
+**[!UICONTROL Berichterstellung]**
+
++++Details anzeigen
+
+* **Der Bericht „Automatisierte Segmente“ zeigt Attributwerte nicht konsistent**. Der Bericht Automatisierte Segmente zeigt Attributwerte und -bereiche für [!DNL Automated Personalization]- und [!DNL Auto-Target]-Aktivitäten inkonsistent an. Einige automatisierte Segmente zeigen nur den Attributnamen anstelle des zugehörigen Werts oder Bereichs an. (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 (1. September 2026)
 
