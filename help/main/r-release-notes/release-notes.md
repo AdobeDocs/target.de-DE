@@ -1,35 +1,58 @@
 ---
 keywords: Versionshinweise;neue Funktionen;Versionen;Updates;Update;Version;Verbesserung;Verbesserungen;Fehlerbehebungen;Fehlerkorrekturen;Aktualisierungen;aktuelle Updates
-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
-landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Adobe Target].
-short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von  [!DNL Target].
+description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target], einschließlich SDKs, APIs und JavaScript-Bibliotheken.
+landing-page-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Adobe Target].
+short-description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und Fehlerbehebungen in der aktuellen Version von [!DNL Target].
 title: Was ist in der aktuellen Version enthalten?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
+    internal-label: Administration
+source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 54%
-
+source-wordcount: '578'
+ht-degree: 47%
 ---
-
 # [!DNL Target] Versionshinweise (aktuell)
 
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.3 (16. September 2026)
+
+**[!UICONTROL Berichterstellung]**
+
++++Details anzeigen
+
+* **Fehlende Werte [!UICONTROL Anstieg] und [!UICONTROL Konfidenz] in einigen [!DNL A4T Auto-Target] Berichten**. Bei [!DNL A4T Auto-Target] Aktivitäten mit dem Optimierungsziel **[!UICONTROL Maximieren der Besuchsumrechnungsrate]** wurde die standardmäßige Berichtsmetrik **[!UICONTROL Meine Primäre Metrik]** nicht korrekt aufgelöst, sodass **[!UICONTROL Anstieg]** und **[!UICONTROL Konfidenz]** leer blieb. (TGT-56137)
+
++++
+
+**[!UICONTROL Analytics for Target]**
+
++++Details anzeigen
+
+* **[!UICONTROL Reporting-Source]-Feld ist jetzt schreibgeschützt für Live-Aktivitäten ohne [!DNL Analytics] Zugriff**. Wenn der Eigentümer einer Live-Aktivität keinen Zugriff auf [!DNL Adobe Analytics] hatte, konnten das Feld **[!UICONTROL Reporting-Source]** und das zugehörige Feld weiterhin bearbeitet werden. (TGT-56089)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.2 (8. September 2026)
 
