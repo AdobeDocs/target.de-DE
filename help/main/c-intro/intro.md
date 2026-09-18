@@ -26,12 +26,103 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
+source-git-commit: 2cecb1f8ae52fd6c47e543710bb14e00503c06ef
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 33%
 ---
 # Einführung in [!DNL Target]
+
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="Täglicher Datenverkehr"
+>abstract="Wie viele Benutzer pro Tag in Ihr Experiment eintreten. Wenn Sie Ihren täglichen Traffic nicht kennen, wählen Sie oben \„Traffic-Volumen\&quot; und der Rechner wird es mit Ihren anderen Eingaben lösen."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="Einrichten des Tests"
+>abstract="Diese Felder definieren Ihren A/B-Test, was Sie erwarten und wie zuversichtlich Sie im Ergebnis sein müssen. Das Feld, das an das oben ausgewählte gebunden ist, wird automatisch gelöst. Füllen Sie den Rest mit den erwarteten Werten aus."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="Anzahl der Erlebnisse"
+>abstract="Anzahl der Varianten im Experiment, einschließlich der Kontrolle. Ein A/B-Test hat zwei Arme. Fünf Varianten plus ein Steuerelement ergibt 6. Mehr Waffen erfordern proportional mehr Verkehr, um die statistische Leistung aufrechtzuerhalten."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="Dauer des A/B-Tests"
+>abstract="Wie viele Tage Ihr Experiment ausgeführt wird. Längere Dauer geben Ihrem Experiment mehr Zeit, Daten zu erfassen, sodass Sie kleinere Effekte zuverlässig erkennen können. Kürzere Zeiträume erfordern größere Effekte oder mehr Traffic pro Tag, um ein zuverlässiges Ergebnis zu erzielen."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="minimale feststellbare Wirkung"
+>abstract="Die kleinste erkennenswerte Verbesserung, die minimale Änderung in Ihrer Metrik, auf die Sie reagieren würden. Dies ist die Größe des Anstiegs in Prozentpunkten, nicht die prozentuale Änderung im Verhältnis zur Grundlinie. Wenn Ihre Grundlinie beispielsweise 5 % beträgt und ein Anstieg um 1 Prozentpunkt von Bedeutung ist, geben Sie 1 ein."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="Erwartete Verbesserung"
+>abstract="Die vom Experiment erwartete Verbesserung."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="Variance"
+>abstract="Wie verteilt die Werte Ihrer Metrik sind, nicht ihr Durchschnitt. Eine Metrik wie eine Klickrate (meistens 0 und 1 s) hat eine niedrige Varianz, eine Metrik wie der Umsatz pro Benutzer (einige wenige hohe Ausgaben, viele niedrige) kann eine viel höhere Varianz haben. Wenn Sie sich nicht sicher sind, behalten Sie den Standardwert 1 bei."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="Konfidenzniveau"
+>abstract="Wie zuversichtlich man sein muss, dass ein Ergebnis nicht bloß eine Zufallszahl ist, bevor man es als real bezeichnet, der Schwellenwert für statistische Signifikanz. Ein Konfidenzniveau von 95 % bedeutet, dass höchstens eine 5 %ige Wahrscheinlichkeit besteht, dass ein falsch positives Ergebnis vorliegt. Höhere Werte verringern die Anzahl falsch positiver Ergebnisse, erfordern jedoch mehr Daten."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Teststärke"
+>abstract="Die Wahrscheinlichkeit, einen Effekt zu erkennen, wenn es wirklich existiert, die Empfindlichkeit des Experiments. 80 % Leistung bedeutet, dass eine Wahrscheinlichkeit von 80 % besteht, einen echten Effekt zu erkennen. Höhere Leistung reduziert Fehlalarme, erfordert jedoch mehr Traffic oder eine längere Laufzeit."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="Verkehrsmodus"
+>abstract="Wie Benutzer in Ihr Experiment eintreten. Fortlaufend: Benutzende treten während der Experimentdauer täglich ein. Der Traffic verlagert sich automatisch auf leistungsfähigere Varianten, wenn Ergebnisse eintreten."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Metriktyp"
+>abstract="Welche Art von Metrik messen Sie? Prozentsatz: Verwenden Sie dies für binäre Ergebnisse wie Klicks oder Konversionen, bei denen jeder Benutzer etwas tut oder nicht tut. Zahl: Verwenden Sie diese Option für Metriken wie Umsatz oder Seitenansichten, bei denen der Wert von Benutzer zu Benutzer stark variieren kann."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="Täglicher Datenverkehr"
+>abstract="Wie viele Benutzer pro Tag in Ihr Experiment eintreten. Wird für kontinuierliche Experimente verwendet, die über mehrere Tage laufen, wobei sich der Traffic automatisch in Richtung leistungsfähigerer Varianten verschiebt, wenn Ergebnisse eintreten."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="Baseline-Metrikrate"
+>abstract="Aktuelle Leistung vor Beginn des Experiments, Durchschnitt des Kontrollarms. Immer erforderlich. Geben Sie als Prozentsatz für Prozentmetriken ein: Wenn 5 % der Besucher heute auf „Kaufen“ klicken, geben Sie 5 ein. Geben Sie für Zählmetriken den unformatierten Dezimalwert ein."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Primäre Metrik"
+>abstract="Die primäre Metrik wird automatisch aus den Reporting-Einstellungen abgerufen. Um Änderungen vorzunehmen, ändern Sie die Zielmetrik unter Ziele und Einstellungen ."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothese"
+>abstract="Die Hypothese ist eine von Ihnen definierte Aussage, die das erwartete Ergebnis des Experiments erklärt. Geben Sie eine Beschreibung dessen an, was wo geändert wird, und geben Sie an, welche Metrik sich wie ändern soll."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="Einblicke"
+>abstract="Experimenterkenntnisse sind die Erkenntnisse, die KI gewinnt, wenn die Experimentdaten statistische Signifikanz erreicht haben."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunities"
+>abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Behandlungsideen, die auf Mustern der KI basieren, die in Ihren Experiment-Screenshots und -Ergebnissen gefunden wurden."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Abwandlungsdetails"
+>abstract="Behandlungsdetails zeigen Bilder davon, wie eine Behandlung aussieht, wenn ein Benutzer für sie qualifiziert ist. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
 
 [!DNL Adobe Target], Teil der [!DNL Adobe Experience Cloud], bietet umfassende Tools zur Personalisierung von Kundenerlebnissen über Web, mobile Sites, Apps, soziale Medien und andere digitale Kanäle.
 
@@ -130,92 +221,4 @@ Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standa
 
 >[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
 
->[!CONTEXTUALHELP]
->id="target_sample_size_ab_daily_traffic"
->title="Täglicher Datenverkehr"
->abstract="Wie viele Benutzer pro Tag in Ihr Experiment eintreten. Wenn Sie Ihren täglichen Traffic nicht kennen, wählen Sie oben \„Traffic-Volumen\&quot; und der Rechner wird es mit Ihren anderen Eingaben lösen."
 
->[!CONTEXTUALHELP]
->id="target_sample_size_setup"
->title="Einrichten des Tests"
->abstract="Diese Felder definieren Ihren A/B-Test, was Sie erwarten und wie zuversichtlich Sie im Ergebnis sein müssen. Das Feld, das an das oben ausgewählte gebunden ist, wird automatisch gelöst. Füllen Sie den Rest mit den erwarteten Werten aus."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_number_experiences"
->title="Anzahl der Erlebnisse"
->abstract="Anzahl der Varianten im Experiment, einschließlich der Kontrolle. Ein A/B-Test hat zwei Arme. Fünf Varianten plus ein Steuerelement ergibt 6. Mehr Waffen erfordern proportional mehr Verkehr, um die statistische Leistung aufrechtzuerhalten."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_duration"
->title="Dauer des A/B-Tests"
->abstract="Wie viele Tage Ihr Experiment ausgeführt wird. Längere Dauer geben Ihrem Experiment mehr Zeit, Daten zu erfassen, sodass Sie kleinere Effekte zuverlässig erkennen können. Kürzere Zeiträume erfordern größere Effekte oder mehr Traffic pro Tag, um ein zuverlässiges Ergebnis zu erzielen."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_minimum_detectable_effect"
->title="minimale feststellbare Wirkung"
->abstract="Die kleinste erkennenswerte Verbesserung, die minimale Änderung in Ihrer Metrik, auf die Sie reagieren würden. Dies ist die Größe des Anstiegs in Prozentpunkten, nicht die prozentuale Änderung im Verhältnis zur Grundlinie. Wenn Ihre Grundlinie beispielsweise 5 % beträgt und ein Anstieg um 1 Prozentpunkt von Bedeutung ist, geben Sie 1 ein."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_expected_improvement"
->title="Erwartete Verbesserung"
->abstract="Die vom Experiment erwartete Verbesserung."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_variance"
->title="Variance"
->abstract="Wie verteilt die Werte Ihrer Metrik sind, nicht ihr Durchschnitt. Eine Metrik wie eine Klickrate (meistens 0 und 1 s) hat eine niedrige Varianz, eine Metrik wie der Umsatz pro Benutzer (einige wenige hohe Ausgaben, viele niedrige) kann eine viel höhere Varianz haben. Wenn Sie sich nicht sicher sind, behalten Sie den Standardwert 1 bei."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_confidence_level"
->title="Konfidenzniveau"
->abstract="Wie zuversichtlich man sein muss, dass ein Ergebnis nicht bloß eine Zufallszahl ist, bevor man es als real bezeichnet, der Schwellenwert für statistische Signifikanz. Ein Konfidenzniveau von 95 % bedeutet, dass höchstens eine 5 %ige Wahrscheinlichkeit besteht, dass ein falsch positives Ergebnis vorliegt. Höhere Werte verringern die Anzahl falsch positiver Ergebnisse, erfordern jedoch mehr Daten."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_statistical_power"
->title="Teststärke"
->abstract="Die Wahrscheinlichkeit, einen Effekt zu erkennen, wenn es wirklich existiert, die Empfindlichkeit des Experiments. 80 % Leistung bedeutet, dass eine Wahrscheinlichkeit von 80 % besteht, einen echten Effekt zu erkennen. Höhere Leistung reduziert Fehlalarme, erfordert jedoch mehr Traffic oder eine längere Laufzeit."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_traffic_mode"
->title="Verkehrsmodus"
->abstract="Wie Benutzer in Ihr Experiment eintreten. Fortlaufend: Benutzende treten während der Experimentdauer täglich ein. Der Traffic verlagert sich automatisch auf leistungsfähigere Varianten, wenn Ergebnisse eintreten."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_metric_type"
->title="Metriktyp"
->abstract="Welche Art von Metrik messen Sie? Prozentsatz: Verwenden Sie dies für binäre Ergebnisse wie Klicks oder Konversionen, bei denen jeder Benutzer etwas tut oder nicht tut. Zahl: Verwenden Sie diese Option für Metriken wie Umsatz oder Seitenansichten, bei denen der Wert von Benutzer zu Benutzer stark variieren kann."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_auto_daily_traffic"
->title="Täglicher Datenverkehr"
->abstract="Wie viele Benutzer pro Tag in Ihr Experiment eintreten. Wird für kontinuierliche Experimente verwendet, die über mehrere Tage laufen, wobei sich der Traffic automatisch in Richtung leistungsfähigerer Varianten verschiebt, wenn Ergebnisse eintreten."
-
->[!CONTEXTUALHELP]
->id="target_sample_size_baseline_metric_rate"
->title="Baseline-Metrikrate"
->abstract="Aktuelle Leistung vor Beginn des Experiments, Durchschnitt des Kontrollarms. Immer erforderlich. Geben Sie als Prozentsatz für Prozentmetriken ein: Wenn 5 % der Besucher heute auf „Kaufen“ klicken, geben Sie 5 ein. Geben Sie für Zählmetriken den unformatierten Dezimalwert ein."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Primäre Metrik"
->abstract="Die primäre Metrik wird automatisch aus den Reporting-Einstellungen abgerufen. Um Änderungen vorzunehmen, ändern Sie die Zielmetrik unter Ziele und Einstellungen ."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothese"
->abstract="Die Hypothese ist eine von Ihnen definierte Aussage, die das erwartete Ergebnis des Experiments erklärt. Geben Sie eine Beschreibung dessen an, was wo geändert wird, und geben Sie an, welche Metrik sich wie ändern soll."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Einblicke"
->abstract="Experimenterkenntnisse sind die Erkenntnisse, die KI gewinnt, wenn die Experimentdaten statistische Signifikanz erreicht haben."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunities"
->abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Behandlungsideen, die auf Mustern der KI basieren, die in Ihren Experiment-Screenshots und -Ergebnissen gefunden wurden."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Abwandlungsdetails"
->abstract="Behandlungsdetails zeigen Bilder davon, wie eine Behandlung aussieht, wenn ein Benutzer für sie qualifiziert ist. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
