@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
+source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 47%
+source-wordcount: '635'
+ht-degree: 42%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.4 (17. September 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **[!UICONTROL Einfügen vor]-Steuerelement, auf das [!DNL Experience Fragments] im obersten Seitenelement nicht zugreifen**. Wenn Sie im Visual Experience Composer das oberste Element auf einer Seite auswählen, wird die Seite nach oben gescrollt, wodurch das Steuerelement **[!UICONTROL Einfügen vor]** über dem sichtbaren Ansichtsfenster gerendert wird, in dem es nicht ausgewählt werden konnte. (TGT-55829)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.3 (16. September 2026)
 
