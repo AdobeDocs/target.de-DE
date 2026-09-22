@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
@@ -100,6 +100,18 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 +++Details anzeigen
 
 * **Das Kopieren einer Aktivität mit einer Zielgruppe „Nur Aktivität“ schlägt fehl beim Speichern**. Wenn eine A/B-Aktivität eine Zielgruppenregel „Nur Aktivität“ (lokal) und eine benutzerdefinierte Code-Änderung verwendet, schlägt das Kopieren und Speichern der Kopie mit dem Fehler „Ungültige Zielgruppen-IDs“ fehl. (TGT-55785)
+
++++
+
+**[!DNL Adobe Target]MCP-Server — Recommendations-Tools (Public Beta)**
+
++++Details anzeigen
+
+Der [!DNL Adobe Target] MCP-Server stellt jetzt Recommendations-Tools bereit, mit denen Sie Kriterien, Sammlungen, Designs, Promotions und Ausschlüsse auflisten, überprüfen, erstellen und aktualisieren und den Produktkatalog direkt über Ihren KI-Assistenten durchsuchen können.
+
+Für diese Funktion ist ein Recommendations-aktivierter Mandant mit **Target Premium** erforderlich. Sie ist nicht für Nicht-Premium-Konten verfügbar.
+
+Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 

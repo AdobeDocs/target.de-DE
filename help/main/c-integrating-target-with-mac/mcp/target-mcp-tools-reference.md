@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # [!DNL Adobe Target] MCP Server Tools-Referenz {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ Keine Parameter erforderlich.
 
 +++
 
+## Recommendations-Tools {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Für Recommendations-Tools ist ein Recommendations-aktivierter Mandant mit **Target Premium**. Bei Nicht-Premium-Konten werden diese Tools nicht in der Toolliste des Clients angezeigt und die zugrunde liegende API gibt einen 403-Fehler zurück.
+>* Diese Tools unterstützen Vorgänge zum Auflisten, Abrufen, Erstellen und Aktualisieren von Kriterien, Sammlungen, Designs, Promotions und Ausschlüssen. Löschvorgänge werden nicht über den MCP-Server verfügbar gemacht.
+
++++Kriterien
+
+**Tools:** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+Kriterien sind Regeln, die basierend auf einem vorab festgelegten Satz von Besucherverhalten bestimmen, welche Elemente empfohlen werden sollen. Die Kriterien sind in 9 Familien unterteilt: `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory`.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `criteria_id` | Ganzzahl | Zum Abrufen/Aktualisieren | Die eindeutige Kennung der Kriterien |
+| `criteria_type` | string | Für typisierte Vorgänge | Eine der 9 Kriterienfamilien |
+| `limit` / `offset` | Ganzzahl | Nein | Seitenumbruch |
+| `name` | string | Ja (erstellen) | Eindeutiger Name der Kriterien |
+| `criteriaTitle` | string | Nein | Titel anzeigen, der im Design über `$criteria.title` verwendet wird |
+| `description` | string | Nein | Beschreibung der Kriterien |
+| `key` | string | Ja (erstellen/aktualisieren, die meisten Typen) | Empfehlungsschlüssel (z. B. `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | string | Ja (erstellen/aktualisieren, die meisten Typen) | Empfehlungslogik (z. B. `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | Objekt | Ja (erstellen/aktualisieren) | Einschlussregeln, Attributgewichtung, Preisfilter und andere familienspezifische Einstellungen |
+| `daysCount` | string | Variiert | Berücksichtigter historischer Zeitraum (z. B. `ONE_DAY` bis `TWO_MONTHS`) |
+
+`list_target_criteria` und `get_target_criteria` geben minimale Metadaten mit familienübergreifenden Kriterien zurück (`id`, `name`, `criteriaTitle`, `criteriaGroup`). Verwenden Sie `list_target_criteria_by_type` / `get_target_criteria_by_type` (oder `create_target_criteria` / `update_target_criteria`) mit einem `criteria_type`, um mit der vollständigen, typspezifischen Konfiguration zu arbeiten. Die Feldanforderungen sind je nach Familie unterschiedlich - siehe [!DNL Adobe] [Recommendations-API-Referenz](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"} für das vollständige Schema pro Typ.
+
+**Gibt zurück** Das Kriterienobjekt oder eine paginierte Liste mit `offset`, `limit`, `total` und `list`.
+
+**Beispielaufforderung:** „Listet alle in diesem Konto konfigurierten Recommendations-Kriterien auf und fasst die verwendeten Algorithmustypen zusammen.“
+
++++
+
++++Sammlungen
+
+**Tools:** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+Sammlungen gruppieren Katalogentitäten nach übereinstimmenden Regeln zur Verwendung in Kriterien und Promotions.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `collection_id` | Ganzzahl | Zum Abrufen/Aktualisieren | Die eindeutige Kennung der Sammlung |
+| `limit` / `offset` | Ganzzahl | Nein | Seitenumbruch |
+| `name` | string | Ja | Eindeutiger Name der Sammlung (max. 250 Zeichen) |
+| `description` | string | Nein | Beschreibung der Sammlung (max. 1000 Zeichen) |
+| `rules` | Array | Ja | 1-1000 Regeln (`attribute` + Operator/Operand), die die Katalogmitgliedschaft bestimmen |
+
+**Gibt zurück** Das Sammlungsobjekt, einschließlich `id`, `name`, `description`, `rules` und zuletzt geänderter Metadaten.
+
+**Beispielaufforderung:** „Welche Sammlungen habe ich und nach welchen Katalogattributen filtern sie?“
+
++++
+
++++Designs
+
+**Tools:** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+Designs sind Velocity- oder HTML-Vorlagen, die steuern, wie empfohlene Entitäten gerendert werden.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `design_id` | Ganzzahl | Zum Abrufen/Aktualisieren | Die eindeutige Kennung des Designs |
+| `limit` / `offset` | Ganzzahl | Nein | Seitenumbruch |
+| `includeScript` | Boolescher Wert | Nein | Gibt an, ob der Vorlageninhalt des Designs einbezogen werden soll |
+| `name` | string | Ja | Eindeutiger Name des Designs (max. 250 Zeichen) |
+| `script` | string | Ja | Geschwindigkeitsvorlage, die auf mindestens ein Entitätsobjekt verweist (max. 65.000 Zeichen) |
+| `type` | string | Nein | Inhaltstyp des Skripts: `HTML`, `JSON` oder `OTHER` (Standard) |
+
+**Gibt zurück** Das Design-Objekt, einschließlich `id`, `name`, `script` und `type`.
+
+**Beispielaufforderung:** „Welche Designs und Sammlungen habe ich für Recommendations konfiguriert?“
+
++++
+
++++Promotions
+
+**Tools:** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+Promotions zwingen bestimmte Entitäten zu Recommendations-Ergebnissen, wobei sie den Kriterien und Backup-Recommendations vorgehen.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `promotion_id` | Ganzzahl | Zum Abrufen/Aktualisieren | Die eindeutige Kennung der Promotion |
+| `limit` / `offset` | Ganzzahl | Nein | Seitenumbruch |
+| `name` | string | Ja | Eindeutiger Name der Promotion (max. 250 Zeichen) |
+| `type` | string | Ja | Derzeit wird nur `EXTERNAL` unterstützt |
+| `key` | string | Nein | Promotion-Schlüssel: `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED` oder `PROFILE_ATTRIBUTE` |
+| `attribute` | string | Nein | Name des Profilattributs, anwendbar, wenn `key` `PROFILE_ATTRIBUTE` ist |
+| `schedule` | Objekt | Nein | Start-/Endzeitfenster, in dem die Promotion gilt |
+| `order` | Objekt | Nein | Bestellkonfiguration für hochgestufte Entitäten |
+| `configuration` | Objekt | Nein | Sammlungsreferenz für die hochgestuften Elemente (wird verwendet, wenn `rules` leer ist) |
+| `rules` | Array | Nein | Einschlussregeln, die bestimmen, welche Entitäten gefördert werden sollen |
+
+**Gibt zurück** Das Objekt der Promotion.
+
+**Beispiel-Eingabeaufforderung:** „Erstellen Sie eine externe Promotion, die bis Ende August die Sammlung „Backpacking-Zelte“ enthält.“
+
++++
+
++++Ausnahmen
+
+**Tools:** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+Ausschlüsse entfernen übereinstimmende Entitäten aus den Empfehlungen. Ausschlüsse gelten kontenweit, für alle Kriterien und Aktivitäten.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `exclusion_id` | Ganzzahl | Zum Abrufen/Aktualisieren | Die eindeutige Kennung des Ausschlusses |
+| `name` | string | Ja | Eindeutiger Name des Ausschlusses (max. 250 Zeichen) |
+| `description` | string | Nein | Beschreibung des Ausschlusses (max. 1000 Zeichen) |
+| `rule` | Objekt | Nein | Eine einzelne Regel (`attribute` + Operator/Operand), die auszuschließende Entitäten identifiziert |
+
+**Gibt zurück** Das Ausschlussobjekt.
+
+**Beispielaufforderung:** „Sind derzeit alle kontoweiten Ausschlüsse konfiguriert, und wornach werden sie gefiltert?“
+
++++
+
++++Katalog
+
+**Tools:** `get_target_entity`, `search_target_catalog`
+
+Schreibgeschützte Tools zur Überprüfung des Produkt-/Inhaltskatalogs für Recommendations. Es gibt kein Tool zum Erstellen, Aktualisieren oder Löschen von Katalogentitäten über den MCP-Server.
+
+| Parameter | Typ | Erforderlich | Beschreibung |
+|---|---|---|---|
+| `catalog_entity_id` | string | Ja (GET) | Die Katalogentitäts-ID (z. B. SKU) |
+| `environment_id` | string | Nein | Umgebung zum Suchen der Entität in |
+| `query` | Objekt | Ja (Suche) | Ein `meta` Block (erfordert `environmentId`, optionale `displayFields`) plus ein `query` Block (`simple` oder `compound`); einfache Abfragen verwenden `queryFields`, ein `operator` (`eq`, `lt`, `gt`, `le`, `ge`, `contains`) und ein `matchValue` |
+
+**Gibt zurück:** `get_target_entity` gibt die Katalogattribute der Entität zurück. `search_target_catalog` gibt Übereinstimmungen in einem `entities` Array zurück. Feldnamen in `query` müssen echte Katalogattribute sein, die für den Mandanten konfiguriert sind.
+
+**Beispielaufforderung:** „Durchsuchen Sie den Katalog nach Produkten mit einem Bestand unter 1.000.“
+
++++
+
 ## Tools-Zusammenfassung {#tools-summary}
 
 | Kategorie | Count | Werkzeuge |
@@ -770,7 +905,8 @@ Keine Parameter erforderlich.
 | Revision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Vorlage | 1 | `list_target_templates` |
-| **Gesamt** | **38** | |
+| Recommendations | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **Gesamt** | **62** | |
 
 ## Verwandte Ressourcen {#tools-related}
 

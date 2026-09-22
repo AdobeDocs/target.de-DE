@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Target] MCP-Server {#target-mcp}
 
 Mit der [!DNL Adobe Target] MCP-Integration können Sie A/B-Tests und Personalisierungsaktivitäten direkt von Ihrem KI-Assistenten aus überprüfen, analysieren und verwalten. Verwandeln Sie die Experimentier- und Personalisierungsdaten von [!DNL Target] in fremdsprachige Workflows. Überprüfen Sie Ihr Experimentierportfolio, überprüfen Sie Leistungsberichte, erkunden Sie Zielgruppen und Angebote, erstellen Sie Aktivitäten und nehmen Sie Aktualisierungen vor, ohne in der Benutzeroberfläche zu navigieren oder API-Aufrufe zu schreiben.
@@ -48,10 +46,10 @@ Der [!DNL Adobe Target] MCP-Server bietet Lese- und Schreibzugriff auf Aktivitä
 * **Aktivitäten erkunden** - Auflisten, Überprüfen und Analysieren von A/B- und XT-Aktivitäten.
 * **Aktivitäten erstellen und aktualisieren** - Erstellen Sie neue A/B- und Experience Targeting-Aktivitäten, aktualisieren Sie Konfigurationen, verwalten Sie Traffic-Aufspaltungen, fügen Sie Varianten hinzu oder entfernen Sie sie und steuern Sie den Aktivitätsstatus (aktivieren, pausieren, deaktivieren).
 * **Erkunden und Verwalten von Zielgruppen und Angeboten** - Auflisten, Überprüfen, Erstellen und Aktualisieren von Zielgruppen, HTML-Angeboten und JSON-Angeboten.
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **Empfehlungen verwalten** - Kriterien, Sammlungen, Designs, Promotions und Ausschlüsse auflisten, untersuchen, erstellen und aktualisieren und den Produktkatalog durchsuchen. Erfordert eine Berechtigung für Target Premium.
 * **Audit-Implementierung** - Überprüfen Sie at.js-Einstellungen, Antwort-Token und den Revisionsverlauf pro Entität.
 
-Der [!DNL Adobe Target] MCP-Server stellt 41 Tools in 10 Kategorien zur Verfügung - von der Aktivitätserstellung und Berichterstellung über die Verwaltung von Zielgruppen bis hin zur QS-Vorschau. Die vollständige Parameterreferenz finden Sie unter [MCP Server Tools-Referenz](target-mcp-tools-reference.md).
+Der [!DNL Adobe Target] MCP-Server stellt 62 Tools in 11 Kategorien bereit - von der Aktivitätserstellung und Berichterstellung bis zur Zielgruppenverwaltung, QS-Vorschau und Recommendations-Konfiguration. Die vollständige Parameterreferenz finden Sie unter [MCP Server Tools-Referenz](target-mcp-tools-reference.md).
 
 Informationen zu den Funktionen des [!DNL Adobe Target] MCP-Servers, einschließlich schrittweiser Anleitungen zu Eingabeaufforderungen, finden Sie unter [Anwendungsfälle und Anleitungen](target-mcp-use-cases.md).
 
@@ -66,7 +64,7 @@ Der [!DNL Adobe Target] MCP-Server ist derzeit verfügbar für **Claude Web**, *
 
 +++Auf welche [!DNL Adobe Target] Objekte kann ich über MCP zugreifen?
 
-Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Antwort-Token, at.js-Konfiguration, A4T-Berichte und den Überarbeitungsverlauf der Entität zugreifen und diese verwalten. Der MCP-Server umfasst 41 Tools, die Lese- und Schreibvorgänge abdecken.
+Sie können auf Aktivitäten (A/B, XT, AP), Zielgruppen, Angebote, Eigenschaften, Mboxes, Antwort-Token, at.js-Konfiguration, A4T-Berichte, den Entitätsüberarbeitungsverlauf und die Recommendations-Konfiguration (Kriterien, Sammlungen, Designs, Promotions, Ausschlüsse und Katalogsuche) zugreifen und diese verwalten. Der MCP-Server stellt 62 Tools bereit, die sowohl Lese- als auch Schreibvorgänge abdecken. Recommendations-Tools erfordern eine Berechtigung für Target Premium und sind nicht für Nicht-Premium-Konten verfügbar.
 +++
 
 +++Kann der MCP-Server Aktivitäten erstellen oder ändern?
@@ -81,7 +79,7 @@ Nein. Der MCP-Server ist sowohl für Marketing- als auch für technische Persona
 
 +++Werden meine [!DNL Adobe Target] an den MCP-Client-Anbieter gesendet?
 
-Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe &#x200B;](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
+Wenn Sie eine Eingabeaufforderung senden, kann der MCP-Client relevanten Kontext (einschließlich [!DNL Adobe Target] vom MCP-Server zurückgegebenen Daten) zur Verarbeitung an sein Modell senden. Überprüfen Sie die Datenschutz- und Datenverarbeitungsrichtlinien Ihres MCP-Client-Anbieters, bevor Sie eine Verbindung zu Produktionsdaten herstellen. Die Datenverarbeitung in Adobe unterliegt den [Datenschutzrichtlinien von Adobe ](https://www.adobe.com/privacy.html) den [Datenschutzbestimmungen](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Können Schreibvorgänge zu unbeabsichtigten Änderungen an Live-Aktivitäten führen?
