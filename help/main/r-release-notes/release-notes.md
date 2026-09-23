@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
@@ -37,6 +37,27 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21. September 2026)
+
+### Funktion
+
+<table>
+<thead>
+<tr>
+<th><strong>Vorab-Ausblenden von Inhalten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Durch das Vorab-Ausblenden von Inhalten wird das Flackern der Seite reduziert, da nur die Abschnitte ausgeblendet werden, die durch die Adobe Target-Personalisierung geändert werden sollen. So wird das Erlebnis beim Laden von Inhalten reibungsloser. Dadurch wird vermieden, dass die gesamte Seite ausgeblendet wird, und der Implementierungsaufwand beim Starten neuer Aktivitäten wird minimiert.</p>
+<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
+<p>Weitere Informationen finden Sie in der <a href="../administrating-target/content-pre-hiding.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen
 
 **[!UICONTROL Analytics for Target]**
 
