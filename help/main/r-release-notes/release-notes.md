@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.6 (24. September 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Details anzeigen
+
+* **Endlose Umleitungsschleife beim Zugriff auf eine SSO-authentifizierte Seite über den Visual Experience Composer**. Wenn eine in Visual Experience Composer geladene Seiten-URL einen SSO-/Anmelde-Umleitungsfluss durchlief, trat Visual Experience Composer in eine endlose Umleitungsschleife ein und erreichte nie die beabsichtigte Seite. (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21. September 2026)
 
