@@ -1,16 +1,20 @@
 ---
 keywords: Aktivitäten;Aktivität;Insights-Dashboard
-description: Das [!UICONTROL Adobe Target-Dashboard] bietet einen Überblick darüber, wie Ihr Unternehmen  [!DNL Target]  Zeit nutzt, und zeigt die Akzeptanz, das Aktivitätsvolumen und die Experimentiernutzung auf einen Blick.
+description: Das [!UICONTROL Adobe Target-Dashboard] bietet einen Überblick darüber, wie Ihr Unternehmen die [!DNL Target] im Laufe der Zeit nutzt, und zeigt die Akzeptanz, das Aktivitätsvolumen und die Experimentiernutzung auf einen Blick.
 title: Adobe Target Insights-Dashboard
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Adobe Target Insights-Dashboard
 
 Das [!UICONTROL Adobe Target-Dashboard] bietet einen Überblick darüber, wie Ihr Unternehmen [!DNL Adobe Target] im Laufe der Zeit nutzt. Dies hilft Teams, die Akzeptanz, das Aktivitätsvolumen und die Experimentiernutzung auf einen Blick zu verstehen.

@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie durch schrittweise Rollouts in Flags die Funk
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 2%
-
 ---
-
 # Schrittweiser Rollout {#gradual-rollout}
 
 Bei einem schrittweisen Rollout wird eine neue Funktion schrittweise in die Produktion eingeführt, anstatt sie für alle Benutzer gleichzeitig zu aktivieren. Dieser Ansatz reduziert Risiken, hilft bei der Verwaltung der Backend-Last und schafft eine enge Feedback-Schleife vor der vollständigen Veröffentlichung.

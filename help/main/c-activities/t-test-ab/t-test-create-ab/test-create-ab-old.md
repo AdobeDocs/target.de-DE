@@ -1,16 +1,23 @@
 ---
 keywords: A/B erstellen;A/B-Test;A/B-Aktivität;neue A/B-Aktivität;A/B erstellen
-description: Erfahren Sie, wie Sie mit Visual Experience Composer (VEC) in Adobe [!DNL Target]  Ihre A/B-Testaktivität direkt auf einer  [!DNL Target] Seite erstellen.
+description: Erfahren Sie, wie Sie mit Visual Experience Composer (VEC) in Adobe [!DNL Target] Ihre A/B-Testaktivität direkt auf einer [!DNL Target] Seite erstellen.
 title: Wie erstelle ich einen A/B-Test?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # Erstellen eines A/B-Tests
 
 Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre [!UICONTROL A/B-Test]-Aktivität direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
@@ -125,7 +132,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
 
-## Schulungsvideo: Erstellen von A/B-Tests (:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Workflows mit drei Schritten ein A/B-Test erstellt wird.
 

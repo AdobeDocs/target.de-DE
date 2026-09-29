@@ -1,16 +1,23 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie die Ergebnisse einer A/B[!UICONTROL Aktivität vom Typ „Automatische Zuordnung] in Adobe interpretieren [!DNL Target]  indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
+description: Erfahren Sie, wie Sie die Ergebnisse einer A/B[!UICONTROL Aktivität vom Typ „Automatische Zuordnung] in Adobe [!DNL Target] interpretieren, indem Sie wichtige Indikatoren wie Steigerung und Konfidenz untersuchen.
 title: Wie interpretiere ich [!UICONTROL automatische Zuordnung] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1258'
 ht-degree: 22%
-
 ---
-
 # Interpretieren der automatischen Zuordnungsberichte
 
 Interpretieren Sie die Ergebnisse einer A/B[!UICONTROL Aktivität vom Typ „Automatische Zuordnung] in [!UICONTROL Adobe Target] anhand wichtiger Indikatoren, einschließlich Steigerung und Konfidenz.

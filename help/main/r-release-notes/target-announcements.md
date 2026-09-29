@@ -1,40 +1,59 @@
 ---
 keywords: Ankündigungen;Skill Builder;Developer Chat;Coffee Break;Veranstaltungen;Forrester;Gartner;Webinar
-description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe  [!DNL Target] -Veranstaltungen wie Skill Builder-Sitzungen, Chats für Entwickler und Produkt-Manager, Webinare und mehr an.
-title: Wo finden sich  [!DNL Target]  Ankündigungen und Veranstaltungsinformationen?
+description: Lesen Sie Ankündigungen und melden Sie sich zu Adobe [!DNL Target]-Events wie Skill Builder-Sitzungen, Chats für Entwickler und Produktmanager, Webinare und mehr an.
+title: Wo finde ich [!DNL Target] Ankündigungen und Veranstaltungsinformationen?
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-TQID: https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ
+TQID: 'https://experienceleague.adobe.com/jTTFaG0rC7XEmy7yzL3YSeCqEdMy-oH9mbCMvufT-FQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: addf009e-030a-4310-8534-776a3e62ed48
+    internal-label: Customer lifecycle
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 97%
-
+source-wordcount: '2201'
+ht-degree: 96%
 ---
-
 # [!DNL Adobe Target] Ankündigungen und Ereignisse
 
 Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließlich kurzer Sessions zu [!DNL Target], der [!DNL Target]-Webinar-Reihe, [!DNL Target]-Wissensaufbau-Sessions, Entwickler-Chats und mehr. Links zu früheren Aufzeichnungen sind enthalten, sofern verfügbar.
@@ -57,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=de){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=de){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++
 -->
@@ -88,7 +107,7 @@ Warum Sie teilnehmen sollten:
 
   Erfahren Sie, wie Empfehlungsalgorithmen Unternehmen einen Wendepunkt bringen und so Interaktionen und Umsatz steigern können. Von personalisierten Produktempfehlungen bis hin zu Inhaltsempfehlungen trägt die Möglichkeit, Benutzende nahtlos durch ihre Journey zu führen, direkt zur Erschließung eines erheblichen Geschäftswachstums bei.
 
-  [Die Aufnahme anhören.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=de#M3685){target=_blank}
+  [Die Aufnahme anhören.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Entsperren einer KI-gestützten Personalisierung**
 
@@ -151,10 +170,10 @@ Wir freuen uns, Ihnen bahnbrechende Neuigkeiten zur Personalisierung im großen 
 
   In dieser Sitzung erfahren Sie, wie Sie die Konversionsrate steigern können, indem Sie die neuen Funktionen von [!DNL Adobe Target] nutzen. Wir besprechen folgende Themen:
 
-   * Verbesserte Modellsteuerungen innerhalb von [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten
-   * Die Fähigkeit, Profilattribute und hochwertige Segmente von [!DNL Real-Time Customer Data Platform] von [!DNL Adobe] zu evaluieren
-   * Wie Marken durch die Anpassung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und eine schnellere Entscheidungsfindung erreichen können
-   * Einzigartige Anwendungsfälle für die Bereitstellung von Eins-zu-eins-Personalisierung
+  * Verbesserte Modellsteuerungen innerhalb von [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten
+  * Die Fähigkeit, Profilattribute und hochwertige Segmente von [!DNL Real-Time Customer Data Platform] von [!DNL Adobe] zu evaluieren
+  * Wie Marken durch die Anpassung ihrer KI-gestützten Algorithmen höhere Geschwindigkeiten und eine schnellere Entscheidungsfindung erreichen können
+  * Einzigartige Anwendungsfälle für die Bereitstellung von Eins-zu-eins-Personalisierung
 
   +++
 
@@ -174,11 +193,11 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
   Kursplan:
 
-   * [!UICONTROL A/B-], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisierte Tests und Personalisierung
-   * Schrittweise Workflows für die Einrichtung von Aktivitäten
-   * Batch-Erlebnis-Prefetch, der eine ständig aktivierte Personalisierung für Mobilgeräte ermöglicht
-   * Lebenszyklusmetriken für das Testen und Targeting von Kundenerlebnissen
-   * Mobile SDKs = APIs für flexible Implementierungen (iOS- und Android-Plattformen)
+  * [!UICONTROL A/B-], [!UICONTROL Multivariate Testing] (MVT), (XT) sowie automatisierte Tests und Personalisierung
+  * Schrittweise Workflows für die Einrichtung von Aktivitäten
+  * Batch-Erlebnis-Prefetch, der eine ständig aktivierte Personalisierung für Mobilgeräte ermöglicht
+  * Lebenszyklusmetriken für das Testen und Targeting von Kundenerlebnissen
+  * Mobile SDKs = APIs für flexible Implementierungen (iOS- und Android-Plattformen)
 
   +++
 
@@ -192,9 +211,9 @@ Schließen Sie sich dem [!DNL Adobe Target] -Team an und erhalten Sie einige neu
 
   Erkunden Sie Ideen zu:
 
-   * Verwendung der Personalisierung zum Aufbau von Treue
-   * Optimierung, um Wettbewerbsvorteile zu haben
-   * Erstellen extrem personalisierter Erlebnisse
+  * Verwendung der Personalisierung zum Aufbau von Treue
+  * Optimierung, um Wettbewerbsvorteile zu haben
+  * Erstellen extrem personalisierter Erlebnisse
 
   +++
 
@@ -254,10 +273,10 @@ Hier finden Sie Best Practices zur Skalierung von Personalisierungsprogrammen. E
 
   Erfahren Sie, wie Dick&#39;s Sporting Goods ein zweistelliges Wachstum erzielt, während wir aufdecken:
 
-   * Wie Sie ein leistungsstarkes Personalisierungsprogramm für den Einzelhandel planen und launchen
-   * Warum Akzeptanz im ganzen Unternehmen entscheidend ist, um Hindernisse zu überwinden
-   * Allgemeine geschäftliche Auswirkung durch die Skalierung von Personalisierungs- und Experimentieraktivitäten im Web und auf Mobilgeräten
-   * Tipps und Tricks für den Einzelhandel zur Verwendung von Analysedaten, um durchschnittliche Besucher in wiederkehrende Sportler zu verwandeln
+  * Wie Sie ein leistungsstarkes Personalisierungsprogramm für den Einzelhandel planen und launchen
+  * Warum Akzeptanz im ganzen Unternehmen entscheidend ist, um Hindernisse zu überwinden
+  * Allgemeine geschäftliche Auswirkung durch die Skalierung von Personalisierungs- und Experimentieraktivitäten im Web und auf Mobilgeräten
+  * Tipps und Tricks für den Einzelhandel zur Verwendung von Analysedaten, um durchschnittliche Besucher in wiederkehrende Sportler zu verwandeln
 
   +++
 
@@ -285,10 +304,10 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
 
   Erfahren Sie, wie die City National Bank [!DNL Target] für folgende Aktivitäten nutzt:
 
-   * Skalieren von Aktivitäten für Tests, Experimente, Personalisierung und KI-Automatisierung
-   * Kanalübergreifende Nutzung von erfolgreichen Erlebnissen zur Entwicklung authentischer Beziehungen
-   * Beschleunigen des Geschäftswachstums durch verstärkte Interaktion und die Nutzung personalisierter Angebote
-   * Optimieren von Multi-Channel-Kampagnen für die Verbesserung der Time-to-Value und des ROI.
+  * Skalieren von Aktivitäten für Tests, Experimente, Personalisierung und KI-Automatisierung
+  * Kanalübergreifende Nutzung von erfolgreichen Erlebnissen zur Entwicklung authentischer Beziehungen
+  * Beschleunigen des Geschäftswachstums durch verstärkte Interaktion und die Nutzung personalisierter Angebote
+  * Optimieren von Multi-Channel-Kampagnen für die Verbesserung der Time-to-Value und des ROI.
 
   +++
 
@@ -316,11 +335,11 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
 
   Nehmen Sie an diesem Webinar mit Adobe und HSBC teil, um Folgendes zu erfahren:
 
-   * Wie die Optimierungs- und Personalisierungsmaßnahmen bei HSBC den schnellen Wandel im Unternehmen vorantreiben
-   * Wie KI und Analytics diese Initiativen beschleunigen und klare, signifikante Geschäftsauswirkungen erzielen
-   * Wie HSBC ein erfolgreiches Programm mit mehr als 3000 Aktivitäten maßstabsgerecht aufgebaut hat
+  * Wie die Optimierungs- und Personalisierungsmaßnahmen bei HSBC den schnellen Wandel im Unternehmen vorantreiben
+  * Wie KI und Analytics diese Initiativen beschleunigen und klare, signifikante Geschäftsauswirkungen erzielen
+  * Wie HSBC ein erfolgreiches Programm mit mehr als 3000 Aktivitäten maßstabsgerecht aufgebaut hat
 
-   * McKinsey-Artikel: „[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)“, Mai 2020
+  * McKinsey-Artikel: „[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)“, Mai 2020
 
   +++
 

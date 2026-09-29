@@ -1,23 +1,28 @@
 ---
 keywords: gemischte Inhalte;sicher;unsicher;Chrome;Fehlerbehebung;VEC;Visual Experience Composer;unsecure;http;https;Firefox;Internet Explorer
-description: Erfahren Sie, wie Sie gemischte Inhalte in  [!DNL Chrome],  [!DNL Firefox] und  [!DNL Edge] aktivieren.
+description: Erfahren Sie, wie Sie gemischte Inhalte in [!DNL Chrome], [!DNL Firefox] und [!DNL Edge] aktivieren.
 title: Wie aktiviere ich gemischte Inhalte in meinem Browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+TQID: 'https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 85%
-
+source-wordcount: '566'
+ht-degree: 84%
 ---
-
 # Zulassen von gemischtem Inhalt in Ihrem Browser
 
 Gemischte Inhalte treten auf, wenn die ursprüngliche Anfrage über HTTPS sicher ist, aber HTTPS- *und* HTTP-Inhalte geladen werden, um die Webseite anzuzeigen. HTTPS-Inhalt ist sicher. HTTP-Inhalte sind nicht sicher.

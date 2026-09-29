@@ -1,24 +1,28 @@
 ---
 keywords: Multivarianz-Test;MVT;Full Factorial;MVT oder A/B;Multivarianz-A/B;Traffic-Schätzung;Wann MVT zu verwenden ist;MVT-Überlegungen;Multivarianz;partiell-faktoriell;partiell-faktoriell;voll-faktoriell
-description: Erfahren Sie, wie Sie mit einem [!UICONTROL Multivarianz-Test] (MVT)  [!DNL Adobe Target]  können, um Kombinationen von Angeboten in Elementen auf einer Seite zu vergleichen und so zu bestimmen, welche Kombination die besten Ergebnisse erzielt.
+description: Erfahren Sie, wie Sie einen [!UICONTROL Multivarianz-Test] (MVT) verwenden, [!DNL Adobe Target] Kombinationen von Angeboten in Elementen auf einer Seite zu vergleichen, um zu bestimmen, welche Kombination die besten Ergebnisse erzielt.
 title: Was ist ein [!UICONTROL Multivarianz-]?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
+TQID: 'https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1473
-ht-degree: 46%
-
+source-wordcount: '1477'
+ht-degree: 47%
 ---
-
 # [!UICONTROL Multivarianz-Test] Übersicht
 
 Eine [!UICONTROL Multivarianz-Test]-Aktivität (MVT) in [!DNL Adobe Target] vergleicht Kombinationen von Angeboten in Elementen auf einer Seite, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. Eine [!UICONTROL Multivarianz-Test]-Aktivität hilft auch dabei zu ermitteln, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
@@ -100,7 +104,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 
 ### Aktivitätstypen (9:03) ![Übersichts-Badge](/help/main/assets/overview.png)
 
-In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. Multivariate Tests werden ab 4 :20 besprochen.
+In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. Multivarianz-Tests werden ab 4:20 erklärt.
 
 * Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
@@ -108,7 +112,7 @@ In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätst
 
 >[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
 
-### Erstellen von Multivarianz-Tests (:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Erstellen von Multivarianz-Tests (9:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows Target“ verstehen, planen und erstellen.
 

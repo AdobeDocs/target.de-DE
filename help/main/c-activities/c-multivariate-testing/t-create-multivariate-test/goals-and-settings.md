@@ -1,26 +1,32 @@
 ---
 keywords: Aktivitätseinstellungen;Ziele und Einstellungen;Multivariate;MVT
-description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target]  Informationen zu den Zielen einer [!UICONTROL Multivarianz-Test]-Aktivität (MVT) angeben.
+description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target] Informationen zu den Zielen einer Aktivität vom Typ [!UICONTROL Multivariater Test] (MVT) angeben.
 title: Wie gebe ich Ziele und Einstellungen in einer Aktivität [!UICONTROL Multivariater Test] (MVT) an?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # Ziele und Einstellungen ([!UICONTROL Multivarianz-])
 
 Auf [!UICONTROL &#x200B; Seite „Ziele &#x200B;] Einstellungen“ in [!DNL Adobe Target] geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivarianz-Test]-Aktivitäten (MVT) ein.
@@ -64,7 +70,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[
 
 ### Dauer
 
-Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
 ## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -183,7 +189,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 ### Erstellen von Multivarianz-Tests (9:25)
 
-In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Die Ziele und Einstellungen werden ab 7 :00 erläutert.
+In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Ziele und Einstellungen werden ab 7:00 erläutert.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests

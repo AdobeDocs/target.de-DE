@@ -1,26 +1,32 @@
 ---
 keywords: Ziel und Einstellungen;Ziel;Priorität;Dauer
-description: Erfahren Sie, wie Sie die Aktivitätseinstellungen in  [!DNL Target]  verwenden, um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
+description: Erfahren Sie, wie Sie die Aktivitätseinstellungen in Adobe [!DNL Target] verwenden, um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
 title: Wie gebe ich Aktivitätseinstellungen an?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
-TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
+TQID: 'https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 77%
-
+source-wordcount: '434'
+ht-degree: 79%
 ---
-
 # Aktivitätseinstellungen
 
 Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Ziel, Priorität und Dauer Ihrer Aktivitäten zu verwalten.
@@ -51,7 +57,7 @@ Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Z
 
 1. Legen Sie die Dauer der Aktivität fest.
 
-   Sie können die Aktivität manuell aktivieren oder deaktivieren oder ein Datum und eine Uhrzeit festlegen, zu denen die Aktivität automatisch bereitgestellt werden soll. Die Zeitsteuerung verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+   Sie können die Aktivität manuell aktivieren oder deaktivieren oder ein Datum und eine Uhrzeit festlegen, zu denen die Aktivität automatisch bereitgestellt werden soll. Das Zeitsteuerelement verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
    >[!NOTE]
    >

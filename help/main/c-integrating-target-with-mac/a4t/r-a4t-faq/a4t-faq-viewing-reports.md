@@ -1,27 +1,33 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Bericht; Berichte; Berichte anzeigen; Berichterstellung; Zählmethodik; Impressionen; Besucher; Besuche; Standardmetrik; Aktivitätskonversionen; unspezifisch
-description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von Berichten bei der Verwendung von Analytics for [!DNL Target] (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für - [!DNL Target]  verwenden.
+description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von Berichten bei der Verwendung von Analytics for [!DNL Target] (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für [!DNL Target]-Aktivitäten verwenden.
 title: Hier finden Sie Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf Fragen, die häufig zum Anzeigen von Berichten gestellt werden, wenn [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) verwendet wird.

@@ -1,22 +1,26 @@
 ---
 keywords: CSS-Selektor;benutzerspezifischer Code;Code-Editor;Mobile Web Experience-Editor
-description: Erfahren Sie, wie Sie das Bedienfeld „Änderungen“ in Adobe  [!DNL Target] , um Seitenänderungen anzuzeigen und zusätzliche Änderungen hinzuzufügen (CSS-Auswahl, Mbox und benutzerdefinierter Code).
+description: Erfahren Sie, wie Sie mit dem Bedienfeld Änderungen in Adobe [!DNL Target] Seitenänderungen anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Auswahl, Mbox und benutzerdefinierter Code).
 title: Welche Änderungen kann ich an meiner Seite vornehmen?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
+TQID: 'https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 82%
-
+source-wordcount: '2264'
+ht-degree: 81%
 ---
-
 # Änderungen
 
 Informationen zur Seite [!UICONTROL Änderungen] in [!DNL Adobe Target], mit der Sie Änderungen an Ihrer Seite anzeigen und zusätzliche Änderungen hinzufügen können (CSS-Auswahl, Mbox und benutzerdefinierter Code).

@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB…n;Erlebnisse vergleichen;Targeting;Inhalt vergleichen;Automatisches Targeting;Automatische Zuordnung
-description: Erkunden Sie die Aktivitäten von A/B- [!DNL Target]  in [!UICONTROL Manuell], [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
-title: Lernen Sie die in verfügbaren A/B-Test-Aktivitäten  [!DNL Target].
+description: Erkunden Sie die Aktivitäten von A/B-Tests in [!DNL Target] - , [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
+title: Lernen Sie die in [!DNL Target] verfügbaren A/B-Test -Aktivitäten kennen.
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
-TQID: https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg
+TQID: 'https://experienceleague.adobe.com/wcflYDj0VB7dJODNO6XjFHB0PPIhN4aUrBJxbKPoNdg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 19%
-
 ---
-
 # A/B-Tests - Übersicht
 
 Eine manuelle [!UICONTROL A/B-Test]-Aktivität (manchmal auch als A/B…N-Test bezeichnet) vergleicht zwei oder mehr Versionen Ihres Website-Inhalts, um festzustellen, welche Version Ihre Konversionen, Verkäufe oder anderen von Ihnen identifizierten Metriken am besten erhöht. Verwenden Sie einen A/B-Test, um Änderungen an Ihrer Seite mit dem Design Ihrer Standardseite zu vergleichen und zu ermitteln, welches Erlebnis für das beste Ergebnis sorgt.

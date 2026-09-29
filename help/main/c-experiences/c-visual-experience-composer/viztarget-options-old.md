@@ -1,16 +1,20 @@
 ---
 keywords: Visual Experience Composer-Optionen;Experience Composer-Optionen;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Visual Experience Composer-Link;CSS-Klasse bearbeiten;CSS-Klasse;CSS-Klasse;Angebot wechseln;Angebot vertauschen;Bild vertauschen;Bild vertauschen;Element entfernen;Element entfernen;Element ausblenden;Element neu anordnen;Element verschieben;Elementgröße ändern;Element vergrößern;Auswahl erweitern;zu diesem Link navigieren;Link navigieren;navigieren;Link navigieren;Link navigieren;Link;Rückgängig;Wiederholen;Wiederholen;benutzerspezifische Ereignisse;Ereignisse;Web-Komponenten;Angebot Entscheidung;Offer Decisioning
-description: Erfahren Sie mehr über die im  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) verfügbaren Optionen.
+description: Erkunden Sie die im [!DNL Adobe Target] ([!UICONTROL &#x200B; Experience Composer] (VEC) verfügbaren Optionen.
 title: Wie verwende ich die Optionen [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Visual Experience Composer-Optionen
 
 Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klicken, werden in einem Menü die Optionen angezeigt, die für diesen Elementtyp verfügbar sind. Darüber hinaus wird am unteren Rand der Seite ein DOM-Pfad angezeigt, mit dem Sie einfach durch die Seitenstruktur navigieren können.
@@ -74,15 +78,15 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die Hintergrundfarbe und das Bild ändern.
 
-   * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
-   * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
-   * Bildquelle (geben Sie eine externe URL an)
-   * Anhang
-      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder „lokal“ auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um „Wiederholen“, „Wiederholung x“, „Wiederholung y, „Keine Wiederholung“, „Leerzeichen“ oder „Bildlauf“ auszuwählen.
-   * Schneiden
-      * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
+  * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
+  * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
+  * Bildquelle (geben Sie eine externe URL an)
+  * Anhang
+    * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder „lokal“ auszuwählen.
+    * Klicken Sie auf die untere Dropdownliste, um „Wiederholen“, „Wiederholung x“, „Wiederholung y, „Keine Wiederholung“, „Leerzeichen“ oder „Bildlauf“ auszuwählen.
+  * Schneiden
+    * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
+    * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
 
 * **[!UICONTROL Typografie]**
 
@@ -92,13 +96,13 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die folgenden Typografie-Stile bearbeiten:
 
-   * [!UICONTROL Schriftgröße]
-   * [!UICONTROL Schriftstärke]
-   * [!UICONTROL Schriftstil]
-   * [!UICONTROL Farbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
-   * [!UICONTROL Wortabstand]
-   * [!UICONTROL Zeilenhöhe]
-   * [!UICONTROL Textausrichtung]
+  * [!UICONTROL Schriftgröße]
+  * [!UICONTROL Schriftstärke]
+  * [!UICONTROL Schriftstil]
+  * [!UICONTROL Farbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
+  * [!UICONTROL Wortabstand]
+  * [!UICONTROL Zeilenhöhe]
+  * [!UICONTROL Textausrichtung]
 
 * **[!UICONTROL Spanne]**
 
@@ -106,8 +110,8 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Klicken Sie auf das Dropdownsymbol für jeden Rand, um unter den folgenden Optionen zu wählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um den Rand festzulegen, oder geben Sie die Anzahl der Pixel für jeden Rand an)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um den Rand festzulegen, oder geben Sie die Anzahl der Pixel für jeden Rand an)
 
   Für den Rand werden positive und negative Werte unterstützt.
 
@@ -129,9 +133,9 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die folgenden Stile für jeden Rahmen bearbeiten (oben, rechts, unten und links):
 
-   * [!UICONTROL Rahmenstil] (keine, ausgeblendet, gepunktet, gestrichelt, geschlossen oder doppelt)
-   * [!UICONTROL Rahmenfarbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
-   * [!UICONTROL Rahmenbreite] (Ziehen Sie den Regler, um eine Rahmenbreite auszuwählen, oder geben Sie die Breite in Pixel an)
+  * [!UICONTROL Rahmenstil] (keine, ausgeblendet, gepunktet, gestrichelt, geschlossen oder doppelt)
+  * [!UICONTROL Rahmenfarbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
+  * [!UICONTROL Rahmenbreite] (Ziehen Sie den Regler, um eine Rahmenbreite auszuwählen, oder geben Sie die Breite in Pixel an)
 
   Rahmendicken von 0 aufwärts werden unterstützt.
 
@@ -143,16 +147,16 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Klicken Sie auf [!UICONTROL Statisch] Dropdown-Liste, um aus den folgenden Positionsoptionen auszuwählen:
 
-   * [!UICONTROL static]
-   * [!UICONTROL relativ]
-   * [!UICONTROL absolut]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Behoben]
+  * [!UICONTROL static]
+  * [!UICONTROL relativ]
+  * [!UICONTROL absolut]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Behoben]
 
   Klicken Sie auf das Dropdownsymbol für jede Position, um unter den folgenden Optionen auszuwählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die das Element verschoben werden soll)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die das Element verschoben werden soll)
 
   Für die Position werden positive und negative Werte unterstützt.
 
@@ -164,22 +168,22 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Klicken Sie auf das Dropdown-Symbol neben [!UICONTROL Breite] und [!UICONTROL Höhe], um eine der folgenden Optionen auszuwählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um die Größe des Elements festzulegen, oder geben Sie die Anzahl der Pixel für jede Dimension an)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um die Größe des Elements festzulegen, oder geben Sie die Anzahl der Pixel für jede Dimension an)
 
 * **[!UICONTROL Filter]**
 
   Ziehen Sie den Schieberegler für jede Filteroption oder geben Sie den gewünschten Prozentsatz an:
 
-   * [!UICONTROL Sepia]
-   * [!UICONTROL Kontrast]
-   * [!UICONTROL Helligkeit]
-   * [!UICONTROL GrayScale]
-   * [!UICONTROL ausgeblendet]
-   * [!UICONTROL Deckkraft]
-   * [!UICONTROL Umkehren]
-*[!UICONTROL &#x200B; Farbton-Drehen]
-   * [!UICONTROL Sättigen]
+  * [!UICONTROL Sepia]
+  * [!UICONTROL Kontrast]
+  * [!UICONTROL Helligkeit]
+  * [!UICONTROL GrayScale]
+  * [!UICONTROL ausgeblendet]
+  * [!UICONTROL Deckkraft]
+  * [!UICONTROL Umkehren]
+    *[!UICONTROL &#x200B; Farbton-Drehen]
+  * [!UICONTROL Sättigen]
 
 * **[!UICONTROL CSS-Editor]**
 
@@ -388,16 +392,16 @@ Die meisten VEC-Aktionen werden für benutzerdefinierte Ereignisse und innerhalb
 Die folgenden Aktionen sind für benutzerdefinierte Elemente nicht verfügbar:
 
 * [!UICONTROL Bearbeiten]
-   * [!UICONTROL text/HTML]
-   * [!UICONTROL link]
-   * [!UICONTROL Source bearbeiten]
+  * [!UICONTROL text/HTML]
+  * [!UICONTROL link]
+  * [!UICONTROL Source bearbeiten]
 
 * [!UICONTROL Inhalt ersetzen]
 
 Die folgende Aktion ist nicht in benutzerdefinierten Elementen verfügbar:
 
 * [!UICONTROL Layout]
-   * [!UICONTROL Neu anordnen]
+  * [!UICONTROL Neu anordnen]
 
 ## Navigieren in Elementen mithilfe des DOM-Pfads {#dom-path}
 

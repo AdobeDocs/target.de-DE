@@ -1,21 +1,27 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Targeting;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie eine [!UICONTROL Automatische Zuordnung]-Aktivität  [!DNL Adobe Target]  Gewinner aus zwei oder mehr Erlebnissen identifiziert und automatisch mehr Traffic an den Gewinner weiterleitet.
+description: Erfahren Sie, wie eine [!UICONTROL Automatische Zuordnung]-Aktivität in [!DNL Adobe Target] einen Gewinner aus zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuweist.
 title: Können [!UICONTROL automatische Zuordnungs]-Aktivitäten schnellere Ergebnisse und höhere Umsätze erzielen?
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+TQID: 'https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Automatische Zuordnung] liefert schnellere Testergebnisse und mehr Umsätze als manuelle Tests
 
 Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für Ihre gesamte Audience verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.

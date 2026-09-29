@@ -1,23 +1,28 @@
 ---
 keywords: Multivarianz;MVT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer Aktivität vom Typ  [!DNL Adobe Target] [!UICONTROL Multivariater Test] angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, [!UICONTROL Konversion], [!UICONTROL Umsatz] und [!UICONTROL Interaktion].
+description: Erfahren Sie, wie Sie Metriken in einer [!DNL Adobe Target] Aktivität [!UICONTROL Multivarianz-Test] angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, z[!UICONTROL &#x200B; B. Konversion], [!UICONTROL Umsatz] und [!UICONTROL Interaktion].
 title: Wie kann ich Zielmetriken in einer Aktivität vom Typ [!UICONTROL Multivariater Test] (MVT) festlegen?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
+TQID: 'https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '355'
 ht-degree: 56%
-
 ---
-
 # Festlegen von Metriken für eine Aktivität [!UICONTROL Multivarianz-Test]
 
 Verwenden Sie Metriken in einem [!DNL Adobe Target] [!UICONTROL Multivarianz-Test] um zu bestimmen, wann ein Besuch erfolgreich war.

@@ -1,17 +1,24 @@
 ---
 keywords: Automatisches Targeting erstellen;A/B-Test;automatische Targeting-Aktivität;neue A/B-Aktivität;automatisches Targeting;automatisches Targeting für personalisierte Erlebnisse;personalisierte Optimierung
-description: Erfahren Sie, wie Sie mit [!UICONTROL Visual Experience Composer] (VEC) in  [!DNL Adobe Target]  eine A/BTest-Aktivität vom Typ Automatisches Targeting“ erstellen.
+description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] verwenden, um eine A/BTest-Aktivität vom Typ „Automatisches " zu erstellen.
 title: Wie erstelle ich eine Aktivität vom Typ [!UICONTROL Automatisches Targeting]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 39%
-
+source-wordcount: '904'
+ht-degree: 38%
 ---
-
 # Erstellen einer [!UICONTROL automatischen Targeting]-Aktivität
 
 Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre Aktivität vom Typ [!UICONTROL Automatisches Targeting] [!UICONTROL A/B-Test] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.

@@ -1,27 +1,37 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Anzahl inkrementieren und Benutzer in Aktivität halten;Traffic-Zuordnung;automatische Zuordnung;automatische Zuordnung
-description: Erfahren Sie, wie Sie eine [!UICONTROL Automatische Zuordnung]-Aktivität in verwenden [!DNL Adobe Target]  die einen Gewinner aus zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuweist.
+description: Erfahren Sie, wie Sie eine Aktivität [!UICONTROL Automatische Zuordnung] in [!DNL Adobe Target] verwenden, die einen Gewinner aus zwei oder mehr Erlebnissen identifiziert und dem Gewinner automatisch mehr Traffic zuweist.
 title: Was ist eine Aktivität [!UICONTROL Automatische Zuordnung]?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # [!UICONTROL Automatische Zuordnung] Übersicht
 
 Eine Aktivität [!UICONTROL Automatische Zuordnung] in [!DNL Adobe Target] identifiziert einen Gewinner aus zwei oder mehr Erlebnissen und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
@@ -134,9 +144,9 @@ Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die
 
   Beispiel:
 
-   * „Gott sei Dank ist Freitag“ führt zu höheren Konversionen am Freitag.
-   * „Jump-start your Monday“ hat am Montag eine höhere Konversionsrate.
-   * „Gear up for an East-Coast winter“ bietet höhere Konversionsraten an Ost- oder Winterstandorten.
+  * „Gott sei Dank ist Freitag“ führt zu höheren Konversionen am Freitag.
+  * „Jump-start your Monday“ hat am Montag eine höhere Konversionsrate.
+  * „Gear up for an East-Coast winter“ bietet höhere Konversionsraten an Ost- oder Winterstandorten.
 
   Die Verwendung von Erlebnissen mit unterschiedlicher kontextueller Relevanz kann die Ergebnisse in einem [!UICONTROL Automatische Zuordnung]-Test stärker verfälschen als in einem A/B-Test, da der A/B-Test die Ergebnisse über einen längeren Zeitraum analysiert.
 
@@ -239,7 +249,7 @@ Nein, [!UICONTROL Automatische Zuordnung] berücksichtigt die Leistung der gesam
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Aktivitäts-Workflow - Targeting (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalten.
 
@@ -250,9 +260,9 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Erstellen von A/B-Tests (:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. [!UICONTROL Automatische Zuordnung] wird ab 4 :45 erläutert.
+In diesem Video wird gezeigt, wie mithilfe des geleiteten Target-Arbeitsablaufs mit drei Schritten ein A/B-Test erstellt wird. [!UICONTROL Automatische Zuordnung] wird ab 4:45 Uhr besprochen.
 
 * Erstellen einer A/B-Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung

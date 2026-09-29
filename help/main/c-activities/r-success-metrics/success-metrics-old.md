@@ -1,16 +1,23 @@
 ---
 keywords: Targeting;Erfolg;Konversionsmetrik;Seitenbewertungsmetrik;Seitenansichtsmetrik;Umsatzmetriken;Zeit vor Ort-Metrik;geschätzter Wert;erweiterte Einstellungen;Erfolgsmetriken;erweiterte Einstellungen;Abhängigkeit;Abhängig;Anzahl inkrementieren und Benutzer in Aktivität halten;Anzahl inkrementieren, Benutzer freigeben und erneuten Eintritt erlauben;Anzahl inkrementieren, Benutzer freigeben und Erneuten Eintritt sperren
-description: Erfahren Sie mehr über Erfolgsmetriken in Adobe [!DNL Target]  mit denen Sie den Erfolg einer Aktivität ermitteln können. Zu den Erfolgsmetriken gehören Konversionen, Umsatz, Seitenansichten, benutzerdefinierte Punktzahl und Zeit vor Ort.
+description: Erfahren Sie mehr über Erfolgsmetriken in Adobe [!DNL Target], mit denen Sie den Erfolg einer Aktivität ermitteln können. Zu den Erfolgsmetriken gehören Konversionen, Umsatz, Seitenansichten, benutzerdefinierte Punktzahl und Zeit vor Ort.
 title: Was sind Erfolgsmetriken?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 40%
-
 ---
-
 # Erfolgsmetriken
 
 In [!DNL Adobe Target] werden Erfolgsmetriken als Parameter verwendet, um den Erfolg einer Aktivität zu messen. Erfolgsmetriken umfassen wichtige geschäftliche Messwerte, mit denen Sie den Erfolg eines bestimmten Erlebnisses oder Angebots in einer [!DNL Target] Aktivität ermitteln können.

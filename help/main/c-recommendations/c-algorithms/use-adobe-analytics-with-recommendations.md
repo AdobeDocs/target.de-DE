@@ -1,26 +1,34 @@
 ---
 keywords: Verhaltensdatenquelle;Analysen;Empfehlungen;Kriterien;Produktvariablen
-description: Erfahren Sie, wie  [!DNL Adobe Analytics]  als Verhaltensdatenquelle in verwendet  [!DNL Target Recommendations].
-title: Wie verwende ich  [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+description: Erfahren Sie, wie Sie [!DNL Adobe Analytics] als Verhaltensdatenquelle in [!DNL Target Recommendations] verwenden.
+title: Wie verwende ich [!DNL Adobe Analytics] mit [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
+TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '806'
 ht-degree: 0%
-
 ---
-
 # Verwenden von [!DNL Adobe Analytics] mit [!DNL Recommendations]
 
 Durch die Verwendung von [!DNL Adobe Analytics] als Verhaltensdatenquelle können Kunden die ansichts- und kaufbasierten Verhaltensdaten aus [!DNL Analytics] in [!DNL Adobe Target Recommendations] Aktivitäten verwenden. Diese Funktion ist besonders hilfreich in Situationen, in denen die [!DNL Target Recommendations] neu ist und [!DNL Analytics] viele historische Daten zu verwenden hat.

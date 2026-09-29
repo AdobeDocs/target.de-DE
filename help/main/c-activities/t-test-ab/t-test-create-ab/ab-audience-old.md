@@ -1,16 +1,23 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Zielgruppe bestimmt, welche Site-Besuchenden in Ihre Adobe-Aktivität  [!DNL Target]  werden.
-title: Wie wähle ich eine Zielgruppe in einer A/ [!DNL Target] -Aktivität aus?
+description: Die Zielgruppe bestimmt, welche Site-Besuchenden in Ihre Adobe-[!DNL Target]-Aktivität eingegeben werden.
+title: Wie wähle ich eine Zielgruppe in einer [!DNL Target] A/B-Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 66%
-
+source-wordcount: '440'
+ht-degree: 65%
 ---
-
 # Zielgruppenauswahl
 
 Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivität eingegeben werden.
@@ -70,7 +77,7 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 
 >[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
 
-### Aktivitäts-Workflow - Targeting (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 

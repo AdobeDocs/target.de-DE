@@ -1,17 +1,24 @@
 ---
 keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;Bevorzugte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt angezeigt;Am häufigsten angezeigt;Favorit;Zuletzt angezeigt
-description: Erfahren Sie, wie Sie Empfehlungen verwenden können, die auf Schlüsseln basieren, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Adobe/Recommendations [!DNL Target] Aktivitäten anzuzeigen.
+description: Erfahren Sie, wie Sie Empfehlungen basierend auf Schlüsseln verwenden, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Recommendations-Aktivitäten von Adobe [!DNL Target] anzuzeigen.
 title: Wie stütze ich die Empfehlung auf einen Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
-ht-degree: 32%
-
+source-wordcount: '4075'
+ht-degree: 31%
 ---
-
 # Stützen einer Empfehlung auf einen Empfehlungsschlüssel
 
 Empfehlungen, die auf Algorithmen basieren, verwenden den Kontext des Besucherverhaltens, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations] anzuzeigen.

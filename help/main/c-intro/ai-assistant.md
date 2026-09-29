@@ -1,31 +1,43 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie mit  [!DNL Target]  Konzepte navigieren und verstehen können [!DNL AI Assistant].
-title: Wie verwende ich das  [!DNL AI Assistant] in [!DNL Target]?
+description: Erfahren Sie, wie Sie mit [!DNL AI Assistant] [!DNL Target] Konzepte navigieren und verstehen können.
+title: Wie verwende ich die [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-TQID: https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM
+TQID: 'https://experienceleague.adobe.com/booNLyfhofLtyVawW4f5jGtYkgzGr1ddJYn9DpEhUgM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Privacy
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: '330'
 ht-degree: 2%
-
 ---
-
 # Übersicht über [!DNL Adobe Experience Platform] [!DNL AI Assistant]
 
 [!DNL AI Assistant] in [!DNL Adobe Experience Platform] ist eine Funktion der -Benutzeroberfläche, mit der Sie [!DNL Adobe] Konzepte navigieren und verstehen können. [!DNL AI Assistant] ist in mehreren Produkten in [!DNL Adobe Experience Cloud] verfügbar, darunter auch in [!DNL Adobe Target].
@@ -38,9 +50,9 @@ In [!DNL Target] haben Sie derzeit Zugriff auf die folgenden Anwendungsfälle:
 
   Fragen zum Produktwissen umfassen [!DNL Adobe] Konzepte, die sich auf Aspekte der [!DNL Target] beziehen. Einige Beispiele für Fragen zum Produktwissen:
 
-   * Wie richte ich ein Profilskript ein?
-   * Beim Speichern meiner Aktivität wird eine Fehlermeldung angezeigt. Was bedeutet das?
-   * Sollte ich meine at.js-Implementierung auf AEP Web SDK aktualisieren?
+  * Wie richte ich ein Profilskript ein?
+  * Beim Speichern meiner Aktivität wird eine Fehlermeldung angezeigt. Was bedeutet das?
+  * Sollte ich meine at.js-Implementierung auf AEP Web SDK aktualisieren?
 
 >[!NOTE]
 >

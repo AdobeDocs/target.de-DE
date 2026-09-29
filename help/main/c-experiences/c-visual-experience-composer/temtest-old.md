@@ -1,16 +1,23 @@
 ---
 keywords: Vorlagentests;Vorlage;gleiches Erlebnis auf ähnlichen Seiten;Vorlagentest
-description: Erfahren Sie, wie Sie mit  [!DNL Target]  Visual Experience Composer (VEC) dasselbe Erlebnis auf mehreren Seiten einbinden können, die ähnlich strukturiert sind oder dieselben Vorlagenelemente enthalten.
+description: Erfahren Sie, wie Sie mit Adobe [!DNL Target] Visual Experience Composer (VEC) dasselbe Erlebnis auf mehreren Seiten einschließen können, die ähnlich strukturiert sind oder dieselben Vorlagenelemente enthalten.
 title: Kann ich dasselbe Erlebnis auf ähnlichen Seiten verwenden?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # Gleiches Erlebnis auf ähnlichen Seiten
 
 Verwenden Sie eine Seitenvorlage in [!DNL Adobe Target], um Ihren Seiten eine Struktur zu verleihen, oder wenn Ihre Seiten ähnliche Elemente enthalten, um Varianzen in ähnlich strukturierten Seitenelementen oder in Ihrer gesamten Domain zu testen.

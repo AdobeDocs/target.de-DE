@@ -1,25 +1,32 @@
 ---
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
-description: Erfahren Sie, wie -Feeds Entitäten  [!DNL Adobe Target] [!DNL Recommendations], mithilfe von CSV [!DNL Google Product Search] Dateien, dem -Feed-Format  [!DNL Analytics]  Produktklassifizierungen in importieren.
+description: Erfahren Sie, wie -Feeds Entitäten mithilfe von CSV-Dateien, dem [!DNL Google Product Search]-Feed-Format und [!DNL Analytics] Produktklassifizierungen in [!DNL Adobe Target] [!DNL Recommendations] importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2725
-ht-degree: 36%
-
+source-wordcount: '2734'
+ht-degree: 37%
 ---
-
 # Feeds
 
 Verwenden Sie Feeds, um Entitäten in [!DNL Adobe Target] [!DNL Recommendations] zu importieren. Entitäten können mithilfe von CSV-Dateien, dem [!DNL Google Product Search]-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
@@ -252,10 +259,10 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
      Unterstützte FTP-Servereinstellungen:
 
-      * FTP und FTPS müssen für die Verwendung von passivem FTP eingestellt sein.
-      * Konfigurieren Sie den Server für FTPS so, dass explizite FTPS-Verbindungen akzeptiert werden.
-      * SFTP wird nicht unterstützt.
-      * Sie können manuell einen Port angeben, über den die Verbindung gestartet werden soll (z. B. `ftp://ftp.yoursite.com:2121`). Wenn Sie keinen Port angeben, wird der standardmäßige FTP- oder FTPS-Port verwendet.
+     * FTP und FTPS müssen für die Verwendung von passivem FTP eingestellt sein.
+     * Konfigurieren Sie den Server für FTPS so, dass explizite FTPS-Verbindungen akzeptiert werden.
+     * SFTP wird nicht unterstützt.
+     * Sie können manuell einen Port angeben, über den die Verbindung gestartet werden soll (z. B. `ftp://ftp.yoursite.com:2121`). Wenn Sie keinen Port angeben, wird der standardmäßige FTP- oder FTPS-Port verwendet.
 
    * **URL**: Wenn Sie [!UICONTROL URL] auswählen, geben Sie die URL an.
 
@@ -331,15 +338,15 @@ Sehen Sie sich folgende Beispiele an:
 
 **Beispiel 1:**
 
-* Tag 1: Tägliche Fütterungsprozesse :00 9:00 Uhr PST.
-* Tag zwei: Es :30 15 Uhr und das Futter läuft seit gestern um 9 :00 nicht mehr.
+* Tag 1: Tägliche Zufuhr um 9:00 Uhr PST.
+* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: monatliche Zufuhrvorgänge :00 9:00 Uhr (PST)
-* &#x200B;3. Februar: Es ist :00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
+* &#x200B;1. Januar: monatliche Zufuhrvorgänge um 9:00 Uhr PST.
+* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
 

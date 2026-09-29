@@ -4,13 +4,17 @@ description: Lernen Sie die Grundlagen der Verwendung von Visual Experience Comp
 title: Wie verwende ich Visual Experience Composer (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1382'
 ht-degree: 75%
-
 ---
-
 # Visual Experience Composer (VEC)
 
 Informationen zur Verwendung von [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target].
@@ -113,7 +117,7 @@ In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Arti
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
 ### Visual Experience Composer (2 von 2) (7:29) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

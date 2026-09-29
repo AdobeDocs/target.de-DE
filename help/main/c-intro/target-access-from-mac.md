@@ -1,21 +1,27 @@
 ---
 keywords: Experience Cloud; Anmelden; Sprache; Standardsprache der Benutzeroberfläche; Standardsprache
-description: Erfahren Sie, wie Sie  [!DNL Target]  Adobe Experience Cloud zugreifen, Ihre Standardorganisation festlegen und die Sprache der  [!DNL Target]  und der Dokumentation ändern können.
-title: Wie greife ich über Adobe Experience Cloud auf  [!DNL Target]  zu?
+description: Erfahren Sie, wie Sie über Adobe Experience Cloud auf [!DNL Target] zugreifen, Ihre Standardorganisation festlegen und die Sprache der [!DNL Target]-Benutzeroberfläche und der Dokumentation ändern können.
+title: Wie greife ich über Adobe Experience Cloud auf [!DNL Target] zu?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-TQID: https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis
+TQID: 'https://experienceleague.adobe.com/VieoyNb4CtBWO7peyZlJOxfFzTUbbHJvvrcg4yyfWis'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 49%
-
+source-wordcount: '370'
+ht-degree: 46%
 ---
-
 # Zugriff auf [!DNL Target] über Adobe Experience Cloud
 
 Informationen über den Zugriff auf [!DNL Adobe Target] von [!DNL Adobe Experience Cloud], das Festlegen der standardmäßigen Landingpage und das Ändern der Sprache der Benutzeroberfläche von [!DNL Target].

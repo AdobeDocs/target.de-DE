@@ -1,21 +1,24 @@
 ---
 keywords: MVT; Multivarianz-Test; Best Practices für Multivarianz-Test; Best Practices für MVT; MVT-Kombinationen; MVT-Berichte
-description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test]-Aktivitäten in auftreten  [!DNL Adobe Target].
+description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test]-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
 title: Welche Best Practices gibt es für [!UICONTROL &#x200B; Aktivität „Multivariater &#x200B;]"?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # [!UICONTROL Multivarianz-Test] Best Practices
 
 Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren bekannter Probleme, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test]&#x200B;(MVT)-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
@@ -62,11 +65,11 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
   Spezifische Aktionen zum Zurücksetzen von Erlebnisnamen und Berichten:
 
-   * Hinzufügen eines neuen Orts.
-   * Löschen eines Orts.
-   * Hinzufügen neuer Angebote oder Löschen von Angeboten aus einem vorhandenen Speicherort
-   * Bearbeiten von Rich-Text-Angeboten
-   * Bearbeiten von Angeboten mit Hintergrundfarbe
+  * Hinzufügen eines neuen Orts.
+  * Löschen eines Orts.
+  * Hinzufügen neuer Angebote oder Löschen von Angeboten aus einem vorhandenen Speicherort
+  * Bearbeiten von Rich-Text-Angeboten
+  * Bearbeiten von Angeboten mit Hintergrundfarbe
 
 * Mit der Durchführung eines oder mehrerer A/B-Tests im Anschluss an einen Multivarianz-Test können Sie den bestmöglichen Inhalt für die von Ihnen gewünschten Ergebnisse ermitteln.
 

@@ -1,23 +1,29 @@
 ---
 keywords: Entitätsattribute mit mehreren Werten; benutzerdefinierte Entitätsattribute; Gültiges JSON; Entitätsattributwert; JSON-Array; mehrere Werte; mehrwertig
-description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrem Adobe/ [!DNL Target] -Katalog zu definieren.
+description: Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten verwenden können, um zusätzliche Informationen über Elemente in Ihrem Adobe [!DNL Target] Recommendations-Katalog zu definieren.
 title: Wie verwende ich benutzerdefinierte Entitätsattribute?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-TQID: https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q
+TQID: 'https://experienceleague.adobe.com/eFeg78-PswBCwtpzMR7j5c8FJ03MyQVcSdzo6ctZt3Q'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1504
+source-wordcount: '1505'
 ht-degree: 81%
-
 ---
-
 # Benutzerdefinierte Entitätsattribute
 
 Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um zusätzliche Informationen über Elemente in Ihrem Katalog zu definieren.

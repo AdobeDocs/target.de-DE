@@ -1,25 +1,33 @@
 ---
 keywords: Klick-Tracking;Klicks verfolgen;Klicks;AppMeasurement
-description: Erfahren Sie, wie Sie mit  [!DNL Adobe Target]  Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen können.
+description: Erfahren Sie, wie Sie mit [!DNL Adobe Target] Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen können.
 title: Was ist Klick-Tracking?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
+TQID: 'https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 942
-ht-degree: 73%
-
+source-wordcount: '943'
+ht-degree: 72%
 ---
-
 # Klick-Tracking
 
 [!DNL Adobe Target] können Sie Klicks auf beliebige Elemente als Erfolgsmetrik verfolgen. Klick-Tracking bezieht sich auf den Prozess der Überwachung und Aufzeichnung von Benutzerinteraktionen, insbesondere Klicks auf Elemente innerhalb einer Web-Seite oder eines Erlebnisses. Dies ist ein wichtiger Bestandteil zur Messung der Interaktion und Leistung bei A/B-Tests, multivariaten Tests und Personalisierungsaktivitäten.
@@ -92,14 +100,14 @@ Beachten Sie Folgendes, wenn Sie Elemente auswählen:
 
   Es werden die folgenden Schritte von [!DNL at.js] ausgeführt, wenn das Klick-Tracking-Ereignis zu einem `A`-Tag (Link) oder einem `FORM`-Tag hinzugefügt wird:
 
-   1. `event.preventDefault()` aufrufen
+  1. `event.preventDefault()` aufrufen
 
-   1. Lösen Sie die [!DNL Target]-Anfrage aus.
+  1. Lösen Sie die [!DNL Target]-Anfrage aus.
 
-   1. Nach erfolgreicher [!DNL Target]-Anfrage oder nach „error“-Rückruf wird ein Standardverhalten ausgeführt:
+  1. Nach erfolgreicher [!DNL Target]-Anfrage oder nach „error“-Rückruf wird ein Standardverhalten ausgeführt:
 
-      * `A`-Tag (Link): Das Standard-Verhalten ist es, zu der URL zu navigieren, die durch das HREF-Attribut definiert wird.
-      * `FORM`-Tag: Das Standard-Verhalten ist es, das Formular zu übermitteln.
+     * `A`-Tag (Link): Das Standard-Verhalten ist es, zu der URL zu navigieren, die durch das HREF-Attribut definiert wird.
+     * `FORM`-Tag: Das Standard-Verhalten ist es, das Formular zu übermitteln.
 
   Bei diesem Standardverhalten kommt es möglicherweise zu Konflikten mit [!DNL Analytics]-Klick-Tracking. Wenn Sie [!DNL Analytics] verwenden, sollten Sie das Klick-Tracking über [!DNL Analytics] ausführen statt über [!DNL Target].
 

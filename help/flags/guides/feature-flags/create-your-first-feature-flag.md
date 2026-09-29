@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie ein Feature Flag in Flags erstellen, eine Zie
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 2%
-
+ht-degree: 4%
 ---
-
 # Erstellen des ersten Feature Flags {#create-feature-flag}
 
 ## Voraussetzungen {#prerequisites}
@@ -40,7 +41,7 @@ Gehen Sie wie folgt vor, um ein neues Feature Flag in der Konsole zu erstellen:
    | **Identität** * | Die Identität, mit der das Flag ausgewertet wird (z. B. ECID). Dies ist die in der Funktionsanfrage übergebene Identität. |
    | **Rollout in Prozent** | Der Prozentsatz Ihrer definierten Zielgruppe, der für diese Funktion bereitgestellt wird. Die Standardeinstellung ist 100 %. Siehe [Festlegen einer Funktion für den schrittweisen Rollout](set-feature-gradual-rollout.md). |
 
-   Mit * markierte Felder sind Pflichtfelder.
+   Mit * gekennzeichnete Felder sind Pflichtfelder.
 
 >[!IMPORTANT]
 >

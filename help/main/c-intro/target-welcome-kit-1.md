@@ -1,23 +1,31 @@
 ---
 keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Starten Sie reibungslos in Ihr Optimierungs- und Personalisierungsprogramm mit Adobe Target. Mit dem Adobe  [!DNL Target]  Welcome Kit gelingt Ihnen der Schnelleinstieg.
+description: Starten Sie reibungslos in Ihr Optimierungs- und Personalisierungsprogramm mit Adobe Target. Das Adobe [!DNL Target] Welcome Kit ist ein guter Ausgangspunkt.
 title: Die ersten Schritte mit Target
 feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
-TQID: https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44
+TQID: 'https://experienceleague.adobe.com/trqV5-1-Fi8MRkvcnjDJPCgWnYXKP48JzzMpW8IpF44'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 91%
-
+source-wordcount: '381'
+ht-degree: 88%
 ---
-
 # Kapitel 1: Einführung
 
 Wie die meisten heutigen Unternehmen haben Sie Ihre digitalen Marketingkanäle modernisiert. Jetzt suchen Sie Wege, Ihre Marke zu differenzieren. Sie möchten sich aus dem Mainstream hervorheben und dadurch Ihre Umsätze, Ihre Konversionsraten und andere wichtige Geschäftsmetriken steigern. Ein guter Weg ist die Optimierung und Personalisierung der digitalen Erlebnisse, die Sie Ihren Kunden bieten. Nutzen Sie dazu das, was Sie über Ihre Kunden wissen, für eine optimale Interaktion mit ihnen auf Ihrer Website oder mobilen Site, in Ihrer mobilen App oder auf einem anderen Touchpoint Ihrer Marke. Vielleicht möchten Sie diese Optimierung und Personalisierung sogar über Ihre herkömmlichen digitalen Touchpoints hinaus auf Touchpoints wie Kiosks, IoT-Geräte, Call-Center-Interaktionen und Sprachassistenten wie Alexa erweitern. Unternehmen, die [!DNL Target] bereits zum Testen und Personalisieren ihrer digitalen Erlebnisse nutzen, erzielen erstaunliche Ergebnisse.

@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;Fehler;Tücken;Probleme;Bedeutung;Signifikanz;Gewinner;statistischer Unterschied;statistische Leistung;Traffic-Zuordnung;Zuordnung;
-description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unternehmen bei der Durchführung von A/B-Tests in  [!DNL Adobe Target]  machen, sowie wie sonstige Testlösungen aussehen könnten.
+description: Erfahren Sie, wie Sie die häufigsten Fehler vermeiden, die Unternehmen bei der Durchführung von A/B-Tests in [!DNL Adobe Target] und anderen Testlösungen machen.
 title: Wie vermeide ich häufige Fehler beim A/B-Test?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden
 
 A/B-Tests in [!DNL Adobe Target] bilden das Rückgrat der meisten Programme zur Optimierung des digitalen Marketings. Marketing-Experten können ihren Besuchern und Kunden damit optimierte und zielgerichtete Erlebnisse bereitstellen. In diesem Artikel werden zehn der schwerwiegendsten Fehler beschrieben, die Unternehmen beim Durchführen von A/B-Tests unterlaufen. Darüber hinaus werden Methoden zur Vermeidung dieser Fehler erläutert. So steigert Ihr Unternehmen den ROI durch Tests und kann sich auf die Ergebnisse seiner A/B-Tests verlassen.
@@ -150,7 +158,7 @@ Wenn ein Test nicht ausreichend lange läuft, können weitere unerwartete Effekt
 
 Um festzustellen, ob das neue Angebot aufgrund eines Neuigkeitseffekts leistungsschwach ist oder weil es wirklich schlecht ist, können Sie Ihre Besucherinnen und Besucher in neue und wiederkehrende Besucher segmentieren und die Konversionsraten vergleichen. Wenn es sich lediglich um den Neuigkeitseffekt handelt, wird das neue Angebot mit den neuen Besucherinnen und Besuchern gewinnen. Irgendwann wird das Angebot auch bei wiederkehrenden Benutzerinnen und Benutzern gewinnen, nämlich sobald sich diese an die Änderungen gewöhnt haben.
 
-Der Neuigkeitseffekt kann auch umgekehrt wirken. Besucher reagieren häufig positiv auf eine Änderungen, nur weil diese etwas Neues bringt. Nach einer Weile, wenn der neue Inhalt auf die Besucher alt und weniger spannend wirkt, geht die Konversionsrate zurück. Dieser Effekt lässt sich schwerer identifizieren, kann aber durch eine sorgfältige Überwachung der Änderungen der Konversionsrate erkannt werden.
+Der Neuigkeitseffekt kann auch umgekehrt wirken. Besucher reagieren häufig positiv auf eine Änderungen, nur weil diese etwas Neues bringt. Nach einer Weile, wenn der neue Inhalt auf die Besucher alt und weniger spannend wirkt, geht die Konversionsrate zurück. Dieser Effekt lässt sich schwerer identifizieren, kann aber durch ein sorgfältiges Verfolgen der Änderungen der Konversionsrate erkannt werden.
 
 ## Fehler Nr. 9: Es werden keine Unterschiede im Betrachtungszeitraum berücksichtigt {#section_B166731B5BEE4E578816E351ECDEA992}
 

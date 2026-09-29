@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie beim Arbeiten mit Flags die richtige Adobe Ex
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%
-
 ---
-
 # Umgebungen – Übersicht {#environments-overview}
 
 Flags wird auf Adobe Experience Platform erstellt. Wählen Sie vor dem Arbeiten mit Feature Flags die Sandbox aus, die Ihrer aktuellen Umgebung entspricht, genau wie bei jeder anderen Adobe Experience Platform-Anwendung.

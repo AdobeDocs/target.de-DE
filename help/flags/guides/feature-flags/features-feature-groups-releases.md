@@ -4,13 +4,14 @@ description: Erfahren Sie mehr über die Unterschiede zwischen Feature Flags und
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 5%
-
 ---
-
 # Funktionen und Funktionsgruppen {#features-feature-groups}
 
 Flags stellt zwei Artefakte zum Verwalten von Funktions-Rollouts bereit. Die Auswahl des richtigen hängt vom Umfang Ihres Rollouts und der Anzahl der betroffenen Funktionen ab.

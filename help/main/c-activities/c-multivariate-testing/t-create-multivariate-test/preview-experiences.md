@@ -1,22 +1,26 @@
 ---
 keywords: Multivariate;MVT;Vorschau;Erlebnisse
-description: Erfahren Sie, wie Sie jedes Erlebnis in einer [!UICONTROL Multivariater Test]​(MVT)-Aktivität in  [!DNL Adobe Target] mit dem [!UICONTROL Visual Experience Composer] (VEC) in der Vorschau anzeigen.
+description: Erfahren Sie, wie Sie in [!DNL Adobe Target] mit dem [!UICONTROL Visual Experience Composer] (VEC) eine Vorschau der einzelnen Erlebnisse  einer Aktivität vom Typ „Multivariater Test (MVT) anzeigen.
 title: Wie kann ich eine Vorschau von Erlebnissen für einen [!UICONTROL Multivarianz-Test] (MVT) anzeigen?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-TQID: https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A
+TQID: 'https://experienceleague.adobe.com/IswPThtgoGod4lcCbHWbsSp6-cTzhI6hi0CvTZ1al9A'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '230'
 ht-degree: 8%
-
 ---
-
 # Erlebnisvorschau für einen [!UICONTROL Multivarianztest]
 
 Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.

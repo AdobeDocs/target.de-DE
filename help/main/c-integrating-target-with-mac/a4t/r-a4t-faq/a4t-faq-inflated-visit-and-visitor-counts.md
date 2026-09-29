@@ -4,13 +4,17 @@ description: Hier finden Sie Antworten auf Fragen zu überhöhten Besuchs- und B
 title: Wo finde ich häufig gestellte Fragen zu überhöhten Besuchs- und Besucherzahlen bei A4T?
 feature: Analytics for Target (A4T)
 exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 69%
-
 ---
-
 # Überhöhte Besuchs- und Besucherzahlen – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf häufig zu überhöhten Besuchs- und Besucherzahlen bei der Verwendung von Analytics als Berichtsquelle für Target (A4T) gestellte Fragen.

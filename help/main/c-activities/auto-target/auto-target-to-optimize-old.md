@@ -1,17 +1,24 @@
 ---
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
-description: Erfahren Sie[!UICONTROL &#x200B; wie eine Aktivität vom Typ &#x200B;]Automatisches Targeting [!DNL Target]  jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
+description: Erfahren Sie[!UICONTROL &#x200B; wie eine Aktivität vom Typ „Automatisches &#x200B;]" in [!DNL Target] jedem Besucher das passendste Erlebnis bereitstellt, basierend auf Kundenprofilen und dem Verhalten ähnlicher Besucher.
 title: Was ist eine [!UICONTROL automatisches Targeting]-Aktivität?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2101'
 ht-degree: 20%
-
 ---
-
 # [!UICONTROL Automatisches Targeting] - Überblick
 
 [!UICONTROL Automatisches Targeting]-Aktivitäten in [!DNL Adobe Target] verwenden fortschrittliche Machine Learning-Algorithmen zur Auswahl eines maßgeschneiderten Erlebnisses aus mehreren leistungsstarken, von Marketingexperten definierten Erlebnissen zur Personalisierung von Inhalten und Steigerung von Konversionen. [!UICONTROL Automatisches Targeting] stellt jedem Besucher basierend auf dem individuellen Kundenprofil und dem Verhalten vorheriger Besucher mit ähnlichen Profilen das passendste Erlebnis bereit.

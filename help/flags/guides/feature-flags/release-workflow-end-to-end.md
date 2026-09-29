@@ -4,13 +4,14 @@ description: Lernen Sie den kompletten Workflow zur Verwaltung einer koordiniert
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # End-to-End-Workflow für die Veröffentlichung {#release-workflow}
 
 Auf dieser Seite wird die vollständige Abfolge der Aktivitäten einer koordinierten Version beschrieben, die von einem Release Manager verwaltet wird.

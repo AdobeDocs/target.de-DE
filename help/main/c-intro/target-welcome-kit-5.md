@@ -4,23 +4,32 @@ description: Wo finde ich Ideen und Anregungen für meine Test- und Personalisie
 title: Wo finde ich Ideen für meine Test- und Personalisierungsinitiativen?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+TQID: 'https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 100%
-
 ---
-
 # Kapitel 5: Ideen für Test- und Personalisierungsaktivitäten
 
 Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die bereits bewiesen haben, dass sie Konversionsraten und Umsätze steigern, möchten wir Ihnen als Inspiration für eigene [!DNL Target]-Aktivitäten unbedingt ans Herz legen. Selbst wenn ein Vorschlag nicht ganz für Ihr Unternehmen geeignet zu sein scheint, gelingt es bestimmt mit ein wenig Kreativität und Brainstorming, ihn in eine für Ihr Unternehmen geeignete Aktivität umzusetzen, die dem Geist der Test- oder Personalisierungsidee entspringt.

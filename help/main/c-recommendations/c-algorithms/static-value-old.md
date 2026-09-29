@@ -1,17 +1,24 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; statisch; statischer Filter
-description: Erfahren Sie, wie Sie in Adobe-Recommendations einen oder mehrere statische Werte manuell eingeben, um mithilfe von Einschlussregeln  [!DNL Target]  filtern.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations einen oder mehrere statische Werte manuell eingeben, um mithilfe von Einschlussregeln zu filtern.
 title: Wie kann ich in Recommendations-Aktivitäten nach statischen Werten filtern?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 42%
-
 ---
-
 # Statischer Filter
 
 Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in [!DNL Adobe Target] [!DNL Recommendations] zu filtern.

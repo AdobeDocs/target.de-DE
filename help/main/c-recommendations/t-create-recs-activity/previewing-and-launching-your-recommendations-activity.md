@@ -4,20 +4,28 @@ description: Erfahren Sie, wie Sie eine Vorschau Ihrer Adobe [!DNL Target] Recom
 title: Wie kann ich eine Recommendations-Aktivität in der Vorschau anzeigen und starten?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # Vorschau und Starten Ihrer Recommendations-Aktivität
 
 Nachdem Sie Ihre Aktivität [!UICONTROL Recommendations], [!UICONTROL A/B-Test] oder [!UICONTROL Experience Targeting] (XT) mit [Recommendations-Angeboten](/help/main/c-recommendations/recommendations-as-an-offer.md) erstellt haben, sollten Sie Ihre Recommendations in einer Vorschau anzeigen, um sicherzustellen, dass die Ergebnisse verfügbar sind, bevor Sie die Aktivität starten. [!DNL Target Recommendations] bietet mehrere Möglichkeiten, Ihre Empfehlungen in der Vorschau anzuzeigen.
@@ -110,13 +118,13 @@ Die CSV-Download-Datei enthält konsistent die Ergebnisse, die nach der Ausführ
 
 * **Bei populäritätsbasierten Algorithmen (nicht schlüsselbasiert) umfasst die Datei Folgendes:**
 
-   * Eine Reihe von Backup-Empfehlungen mit dem Präfix * (ein Sternchen)
-   * Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
+  * Eine Reihe von Backup-Empfehlungen mit dem Präfix * (ein Sternchen)
+  * Eine separate Zeile mit Empfehlungen, die auf Algorithmuseinstellungen basieren
 
 * **Bei schlüsselbasierten Algorithmen umfasst die Datei Folgendes:**
 
-   * Eine Sicherungszeile, die den populäritätsbasierten Algorithmen ähnelt
-   * Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
+  * Eine Sicherungszeile, die den populäritätsbasierten Algorithmen ähnelt
+  * Mehrere Zeilen im Schlüsselwertformat, wobei der erste Eintrag die Produkt-ID des Schlüssels ist, gefolgt von kommagetrennten Produkt-IDs, die Empfehlungskandidaten darstellen
 
 ## Recommendations-Aktivität aktivieren
 

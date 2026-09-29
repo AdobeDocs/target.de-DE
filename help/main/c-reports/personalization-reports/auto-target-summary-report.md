@@ -5,21 +5,27 @@ title: Wie verwende ich den automatischen Targeting- Zusammenfassungsbericht?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+TQID: 'https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '666'
 ht-degree: 35%
-
 ---
-
 # [!UICONTROL Automatisches Targeting-(AT)-Zusammenfassungsbericht]
 
 Informationen zur Interpretation der [!UICONTROL Zusammenfassung für automatisches Targeting]-Berichte in [!DNL Adobe Target].
@@ -47,14 +53,14 @@ Tipps und Überlegungen zur Interpretation Ihrer [!UICONTROL automatischen Targe
 
 * Die verschiedenen Zeilen in der Tabelle helfen Ihnen, die Performance der Aktivität zu verstehen.
 
-   * Die beiden obersten Zeilen der Tabelle auf der Berichtseite zeigen die Ergebnisse eines A/B-Tests zwischen den Besuchern, die dem Steuerelement zugewiesen wurden (d. h. zufällig bereitgestellte Erlebnisse), und den Besuchern, die dem Personalisierungsalgorithmus zugewiesen wurden. Diese Informationen können verwendet werden, um zu messen, wie der Personalisierungsalgorithmus im Vergleich zur zufällig bereitgestellten Kontrolle ausgeführt wurde.
-   * In den restlichen Zeilen werden Ergebnisse auf Erlebnisebene angezeigt. Für jedes Erlebnis gibt es einen Vergleich zwischen der durchschnittlichen Antwort der Besucher, denen dieses Erlebnis als eine zufallsgestützte Kontrolle angezeigt wird, und der durchschnittlichen Antwort der Besucher, denen das Erlebnis mit dem Personalisierungsalgorithmus angezeigt wird.
+  * Die beiden obersten Zeilen der Tabelle auf der Berichtseite zeigen die Ergebnisse eines A/B-Tests zwischen den Besuchern, die dem Steuerelement zugewiesen wurden (d. h. zufällig bereitgestellte Erlebnisse), und den Besuchern, die dem Personalisierungsalgorithmus zugewiesen wurden. Diese Informationen können verwendet werden, um zu messen, wie der Personalisierungsalgorithmus im Vergleich zur zufällig bereitgestellten Kontrolle ausgeführt wurde.
+  * In den restlichen Zeilen werden Ergebnisse auf Erlebnisebene angezeigt. Für jedes Erlebnis gibt es einen Vergleich zwischen der durchschnittlichen Antwort der Besucher, denen dieses Erlebnis als eine zufallsgestützte Kontrolle angezeigt wird, und der durchschnittlichen Antwort der Besucher, denen das Erlebnis mit dem Personalisierungsalgorithmus angezeigt wird.
 
 * Das grüne Häkchensymbol neben den einzelnen Erlebnissen im Bericht gibt an, dass für dieses Erlebnis ein Modell für das personalisierte maschinelle Lernen generiert wurde. Das Uhrensymbol gibt an, dass nicht genügend Traffic verarbeitet wurde, um das Modell zu erstellen.
 
-   * Da das Modell pro Erlebnis erstellt wird, ist es möglich, dass ein Modell für einige Erlebnisse mit einem grünen Häkchen und andere mit einem Uhrensymbol angezeigt werden.
-   * In diesem Fall wird den Erlebnissen mit nicht erstellten Modellen zusätzlicher Traffic gesendet, um die Geschwindigkeit der Aktivität zu erhöhen, für die für alle Erlebnisse Modelle erstellt sind.
-   * Es müssen mindestens zwei Erlebnisse mit erstellten Modellen (grünes Häkchen) vorhanden sein, damit die Personalisierung gestartet wird.
+  * Da das Modell pro Erlebnis erstellt wird, ist es möglich, dass ein Modell für einige Erlebnisse mit einem grünen Häkchen und andere mit einem Uhrensymbol angezeigt werden.
+  * In diesem Fall wird den Erlebnissen mit nicht erstellten Modellen zusätzlicher Traffic gesendet, um die Geschwindigkeit der Aktivität zu erhöhen, für die für alle Erlebnisse Modelle erstellt sind.
+  * Es müssen mindestens zwei Erlebnisse mit erstellten Modellen (grünes Häkchen) vorhanden sein, damit die Personalisierung gestartet wird.
 
 * Der Vergleich der Konversionsrate von Erlebnis A mit der von Erlebnis B ist in „Automatisches Targeting[!UICONTROL &#x200B; nicht &#x200B;]. Es stellt sich die Frage, ob Erlebnis A eine bessere Leistung erzielt, wenn es intelligent bereitgestellt wird, als wenn es auf zufällige Weise bereitgestellt wird (d. h. im Vergleich zur Kontrolle). Marketer sollten die Steigerungen einzelner Erlebnisse vorsichtig interpretieren, da der Personalisierungsalgorithmus versucht, die Optimierung für die Erfolgsmetrik über die gesamte Aktivität und nicht für jedes einzelne Erlebnis vorzunehmen.
 * Für Erlebnisse mit der höchsten Steigerung kann davon ausgegangen werden, dass dort die höchste Differenzierung der Population vorliegt. Das heißt, der Algorithmus hat ein Segment gefunden, das dieses bestimmte Erlebnis am meisten mag.

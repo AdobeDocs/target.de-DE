@@ -1,23 +1,31 @@
 ---
 keywords: Remote-Angebot;zwischengespeicherte Inhalte;dynamischer Inhalt;URL-Typ
-description: Erfahren Sie, wie Sie Remote-Angebote in [!DNL Target]  nutzen können, um externe Inhalte von einem CMS oder anderen Systemen zu hosten.
+description: Erfahren Sie, wie Sie Remote-Angebote nutzen können, [!DNL Target] externe Inhalte von einem CMS oder anderen Systemen zu hosten.
 title: Wie erstelle ich Remote-Angebote?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 23%
-
 ---
-
 # Remote-Angebote erstellen
 
 Verwenden Sie Remote-Angebote, um Inhalte außerhalb von [!DNL Adobe Target] zu hosten, sodass [!DNL Target] diese Inhalte referenzieren und an Benutzer-Websites bereitstellen können. Diese Inhalte können sich aus Gründen der Benutzerfreundlichkeit oder der Sicherheit in einem Content-Management-System (CMS) oder einem anderen System befinden.
@@ -41,14 +49,14 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 * Remote-Angebote werden unterstützt in:
 
-   * A/B-Aktivitäten
-   * Experience Targeting-(XT)-Aktivitäten
-   * Formularbasierte Workflows
+  * A/B-Aktivitäten
+  * Experience Targeting-(XT)-Aktivitäten
+  * Formularbasierte Workflows
 
 * Remote-Angebote werden in nicht unterstützt:
 
-   * [Premium-](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatisches Targeting und Recommendations)
-   * Multivariate Testing (MVT), da der VEC verwendet wird, der keine Remote-Angebote unterstützt.
+  * [Premium-](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatisches Targeting und Recommendations)
+  * Multivariate Testing (MVT), da der VEC verwendet wird, der keine Remote-Angebote unterstützt.
 
 * Wenn sich Ihr Angebot in derselben Domain wie die [!DNL Target]-Anfragen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebotsspeicherorts verwenden.
 

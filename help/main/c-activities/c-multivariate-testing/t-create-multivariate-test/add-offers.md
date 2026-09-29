@@ -1,22 +1,26 @@
 ---
 keywords: MVT;Multivarianz-Test;Angebote;Kombinationen
-description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in Adobe verwenden [!DNL Target]  um die Angebote zu erstellen, die Sie in Ihren [!UICONTROL Multivarianz-Test] (MVT) aufnehmen möchten.
+description: Erfahren Sie, wie Sie mit [!UICONTROL Visual Experience Composer] (VEC) in Adobe [!DNL Target] die Angebote erstellen, die Sie in Ihren [!UICONTROL Multivarianz-Test] (MVT) aufnehmen möchten.
 title: Wie erstelle ich Kombinationen in einem [!UICONTROL Multivarianz-Test] (MVT)?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
+TQID: 'https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 498
+source-wordcount: '499'
 ht-degree: 55%
-
 ---
-
 # Erstellen von Kombinationen
 
 Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um die Angebote zu erstellen, die Sie in Ihren [!UICONTROL Multivarianz-Test] (MVT) aufnehmen möchten.

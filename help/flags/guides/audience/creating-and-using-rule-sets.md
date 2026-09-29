@@ -3,13 +3,14 @@ title: Erstellen und Verwenden von Regelsätzen
 description: Erfahren Sie, wie Sie in Flags einen wiederverwendbaren Regelsatz von Zielgruppen-Kontextkriterien erstellen und in Feature Flags und Feature Groups importieren.
 badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 1%
-
 ---
-
 # Erstellen und Verwenden von Regelsätzen {#creating-and-using-rule-sets}
 
 Ein Regelsatz ist eine wiederverwendbare Sammlung von Zielgruppen-Kontextkriterien. Erstellen Sie einen Regelsatz, wenn mehrere Feature Flags oder Feature Groups dieselbe Audience benötigen. Anschließend können Sie den Regelsatz importieren, anstatt die Zielgruppenkriterien für jede Funktion neu zu erstellen.

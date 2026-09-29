@@ -1,24 +1,31 @@
 ---
 keywords: Adobe Target;Target;Dokumentation;API;APIs;SDK;SDKs;Tutorials;Doc;Dokumentation
-description: Zugriff auf die  [!DNL Adobe Target] -Dokumentation und -Ressourcen, einschließlich Online-Hilfe, Tutorials, Videos und Entwicklerdokumentation (SDKs, APIs und JavaScript-Bibliotheken).
-title: Wo finde ich die Dokumentation und Ressourcen für  [!DNL Adobe Target]?
+description: Zugriff auf [!DNL Adobe Target] Dokumentation und Ressourcen, einschließlich Online-Hilfe, Tutorials, Videos und Entwicklerdokumentation (SDKs, APIs und JavaScript-Bibliotheken).
+title: Wo finde ich die Dokumentation und Ressourcen für [!DNL Adobe Target]?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
+TQID: 'https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 89%
-
+source-wordcount: '512'
+ht-degree: 84%
 ---
-
 # Überblick über die [!DNL Target]-Dokumentation und -Ressourcen
 
 Die [!DNL Adobe Target]-Dokumentation und -Ressourcen werden in verschiedenen Formaten bereitgestellt, einschließlich Handbüchern zur Verwendung der [!DNL Target]-Benutzeroberfläche, Entwicklerinformationen (einschließlich SDKs und APIs), Tutorials, Community-Foren, Videos und Webinare.

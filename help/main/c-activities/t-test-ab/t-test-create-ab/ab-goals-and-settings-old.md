@@ -1,16 +1,23 @@
 ---
 keywords: Aktivitätseinstellungen;A/B-Ziele und -Einstellungen;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
 description: Erfahren Sie, wie Sie auf der [!UICONTROL Ziele und Einstellungen] Informationen zu den Zielen einer A/B-Aktivität angeben.
-title: Wie gebe ich Ziele und Einstellungen in A/A [!DNL Target] B-Aktivitäten an?
+title: Wie gebe ich Ziele und Einstellungen in einer [!DNL Target] A/B-Aktivität an?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # Ziele und Einstellungen
 
 Auf [!UICONTROL &#x200B; Seite „Ziele &#x200B;] Einstellungen“ in [!DNL Adobe Target] geben Sie Informationen zu den Zielen der Aktivität an.
@@ -25,7 +32,7 @@ Im Abschnitt [!UICONTROL Aktivitätseinstellungen] der Seite [!UICONTROL Ziele u
 |--- |--- |
 | [!UICONTROL Ziel] | Geben Sie ein optionales Ziel ein. Das Ziel kann jede Information sein, die Ihnen und Ihren Team-Mitgliedern dabei hilft, die Aktivität zu identifizieren. |
 | [!UICONTROL Priorität] | Je nach Ihren Einstellungen variieren die [!DNL Target] Benutzeroberfläche und die Optionen für [!UICONTROL Priorität]. Sie können die Legacy-Einstellungen von [!UICONTROL Niedrig], [!UICONTROL Medium] oder [!UICONTROL Hoch] verwenden oder feinabgestimmte Prioritäten von 0 bis 999 aktivieren.<P>Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.<P>Wenn diese Option in [!UICONTROL Administration) nicht aktiviert &#x200B;], geben Sie eine Priorität an: [!UICONTROL Niedrig], [!UICONTROL Medium] oder [!UICONTROL Hoch].<P>Um [feinabgestimmte Prioritäten](/help/main/administrating-target/reporting.md) zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie dann die Option [!UICONTROL Aktivieren feinabgestimmter Prioritäten] auf „Ein“ um. <P>Wenn diese Option aktiviert ist, geben Sie einen Wert zwischen 0 und 999 an: 0 = [!UICONTROL Niedrig] und 999 = [!UICONTROL Hoch]. <P>Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[!UICONTROL &#x200B; wird &#x200B;] Priorität auf 0, [!UICONTROL Medium &#x200B;] auf 5 und [!UICONTROL Hoch] auf 10 konvertiert. Diese Werte können nach Wunsch angepasst werden.<P>Hinweis: Bevor Sie diese Option nach der Verwendung von feinkörnigen Prioritäten deaktivieren können, müssen alle Prioritäten auf 0, 5 und 10 zurückgesetzt werden. |
-| Dauer | Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu. |
+| Dauer | Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu. |
 
 ## [!UICONTROL Berichterstellungseinstellungen] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -80,9 +87,9 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 (https://video.tv.adobe.com/v/17381?captions=ger)
 
-### Erstellen von A/B-Tests (:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung einer Aktivität mit dem drei Schritte umfassenden, geleiteten Arbeitsablauf integriert werden können. Die Ziele und Einstellungen werden ab 5 Uhr :30.
+In diesem Video wird gezeigt, wie Aktivitätseinstellungen bei der Einrichtung einer Aktivität mit dem drei Schritte umfassenden, geleiteten Arbeitsablauf integriert werden können. Ziele und Einstellungen werden ab 5:30 erläutert.
 
 * Erstellen einer A/B-Aktivität in Adobe Target
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung

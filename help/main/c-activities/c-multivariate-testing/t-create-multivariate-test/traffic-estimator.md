@@ -1,22 +1,26 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL &#x200B; Multivarianz]Test verfügen.
+description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche [!DNL Adobe Target] [!UICONTROL Multivarianz]Test) verfügen.
 title: Wie viel Traffic wird für eine Aktivität des Typs [!UICONTROL Multivariater Test] (MVT) benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
+TQID: 'https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '531'
 ht-degree: 19%
-
 ---
-
 # Schätzen des für eine erfolgreiche Aktivität [!UICONTROL Multivarianz-Test] erforderlichen Traffics
 
 Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die [!UICONTROL Traffic-Schätzung] nutzt Statistiken zu Ihrer Seite und der Anzahl der getesteten Erlebnisse, um die Menge an Traffic und die Testdauer zu schätzen, die für den Erfolg des Tests erforderlich sind.

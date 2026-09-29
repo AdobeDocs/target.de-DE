@@ -4,13 +4,14 @@ description: Konfigurieren Sie den Datenstrom, die Verbindung und die Datenansic
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
-
 ---
-
 # Einrichten von CJA für Feature Flags-Berichte {#set-up-cja-reporting}
 
 Die Integration zwischen Flags und Adobe Customer Journey Analytics (CJA) bietet eine einheitliche Möglichkeit, die geschäftlichen Auswirkungen von Feature-Flag-Varianten zu messen. Sie können jederzeit Erfolgsmetriken von CJA auf Berichte anwenden und Customer Journey Analytics-Funktionen wie das [Experimentier-Bedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation) nutzen, um die Experimentleistung zu bewerten und zu verstehen, wie sich Funktionsvarianten auf das Kundenverhalten auswirken.

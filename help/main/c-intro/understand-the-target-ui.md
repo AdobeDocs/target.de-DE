@@ -1,27 +1,37 @@
 ---
 keywords: Benutzeroberfläche von Target; Benutzeroberfläche; UI; Ankündigungen; Ereignisse; Benachrichtigungen
-description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, die Ihnen helfen, optimal zu nutzen [!DNL Target].
-title: 'Wie verwende ich die Benutzeroberfläche von  [!DNL Target] '
+description: Machen Sie sich mit der Benutzeroberfläche vertraut und finden Sie Links zu detaillierteren Informationen, die Ihnen helfen, [!DNL Target] optimal zu nutzen.
+title: Wie verwende ich die [!DNL Target] Benutzeroberfläche?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 23%
-
 ---
-
 # Die Benutzeroberfläche von [!DNL Target]
 
 Die Benutzeroberfläche ist logisch und übersichtlich angeordnet. Sie finden dort schnell, was Sie zur optimalen Nutzung von [!DNL Adobe Target] benötigen. Die folgende kurze Übersicht hilft Ihnen, sich mit [!DNL Target] vertraut zu machen. Über Links gelangen Sie zu detaillierteren Informationen und Schritt-für-Schritt-Anleitungen.
@@ -92,9 +102,9 @@ Wenn Ihnen jemand eine Anfrage sendet, um ein Objekt zu genehmigen oder Zugriff 
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **Profilskripte**: Benachrichtigungen, wenn ein Profilskript entweder manuell oder durch [!DNL Target] aktiviert oder deaktiviert wird.
 
@@ -102,8 +112,8 @@ Wenn Ihnen jemand eine Anfrage sendet, um ein Objekt zu genehmigen oder Zugriff 
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **Recommendations-Feeds**: Benachrichtigungen, wenn ein [!DNL Recommendations]-Feed entweder manuell oder durch [!DNL Target] aktiviert oder deaktiviert wird. Benachrichtigungen werden auch gesendet, wenn ein [!DNL Recommendations]-Feed fehlschlägt.
 
@@ -111,10 +121,10 @@ Wenn Ihnen jemand eine Anfrage sendet, um ein Objekt zu genehmigen oder Zugriff 
 
   Benachrichtigungen sind wie die folgenden Beispiele formatiert:
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mauszeiger über die gewünschte Benachrichtigung bewegen und dann auf das Symbol [!UICONTROL Als gelesen markieren] klicken (![Als gelesen markieren](/help/main/assets/icons/CheckmarkCircle.svg) ). Sie können alle Benachrichtigungen als gelesen markieren oder alle Benachrichtigungen anzeigen, indem Sie [!UICONTROL Als gelesen markieren] oder [!UICONTROL Alle anzeigen] am unteren Rand des Bedienfelds klicken.
 
