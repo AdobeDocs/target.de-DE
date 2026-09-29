@@ -38,7 +38,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
 1. Wählen **[!UICONTROL Formular]** im Dialogfeld [!UICONTROL Aktivität erstellen] aus.
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -50,7 +50,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
    Dieser Bildschirm unterscheidet sich, wenn Sie eine Aktivität des Typs [!UICONTROL Recommendations] erstellen. [!UICONTROL Recommendations] -Aktivitäten umfassen keine Erlebnisse.
 
-1. 
+1. &#x200B;
    1. Klicken Sie auf **[!UICONTROL Umbenennen]**-Symbol ( ![Umbenennen](/help/main/assets/icons/MoreSmallListVert.svg) ), klicken Sie auf **[!UICONTROL Umbenennen]**, geben Sie einen Namen für die Aktivität ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Der Aktivitätsname darf nicht mit einem der folgenden Zeichen beginnen:
@@ -89,7 +89,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
 1. Klicken Sie **[!UICONTROL Zielgruppenverfeinerungen hinzufügen]**, wählen Sie eine oder mehrere [Zielgruppe](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) für diese Aktivität aus und klicken Sie dann auf **[!UICONTROL Fertig]**.
 
-   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 

@@ -41,7 +41,7 @@ Die [!UICONTROL Traffic-Schätzung] bietet außerdem Feedback, mit dem Sie wisse
 
    ![Benutzeroberfläche der Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
-   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ ].
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
    In der Nähe des oberen Bereichs der [!UICONTROL Traffic-Schätzung] werden die eingegebenen Werte berechnet und die Ergebnisse angezeigt.
 

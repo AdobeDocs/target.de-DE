@@ -76,7 +76,7 @@ Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in
 >
 >Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf [!UICONTROL Experience Platform Web SDK] (empfohlen) oder auf die neueste Version von at.js.
 
-Verweisen Sie auf jeder Seite Ihrer Site ] [!UICONTROL Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Verweisen Sie auf jeder Seite Ihrer Site  Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
@@ -106,7 +106,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-
 
 [!UICONTROL Automatische Zuordnung] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
 
-Weitere Informationen [[!UICONTROL  Sie unter ]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
+Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
 
 ### [!UICONTROL Automatisches Targeting] (AT)
 
@@ -225,7 +225,7 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besucher
 
 [!DNL Adobe] schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
-* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) ] werden.
+* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) &#x200B;] werden.
 * Das Edge-Netzwerk stellt eine rechtzeitige Datenbereitstellung sicher.
 * [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, der Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit bietet.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
@@ -295,7 +295,7 @@ Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for ]) (A4T) Folgendes nicht:
+Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for &#x200B;]) (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 

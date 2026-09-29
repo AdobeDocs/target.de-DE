@@ -29,7 +29,7 @@ Der Test verwendet die Bonferroni-Korrektur zur Korrektur von Mehrfachvergleiche
 
 Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit der von Ihnen entworfene Test erfolgreich ist.
 
-1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Traffic]** .
+1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Traffic]** .
 
    Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die Traffic-Schätzung auszublenden.
 

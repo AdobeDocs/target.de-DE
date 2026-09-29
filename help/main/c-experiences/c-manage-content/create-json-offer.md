@@ -1,6 +1,6 @@
 ---
 keywords: JSON-Angebot;JSON-Angebot erstellen
-description: Erfahren Sie, wie Sie JSON-Angebote zur Verwendung im [!UICONTROL formularbasierten Experience Composer“ ].
+description: Erfahren Sie, wie Sie JSON-Angebote zur Verwendung im [!UICONTROL formularbasierten Experience Composer“ &#x200B;].
 title: Wie erstelle ich JSON-Angebote?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
@@ -61,7 +61,7 @@ Beachten Sie Folgendes, wenn Sie mit JSON-Angeboten arbeiten:
 
 ## JSON-Beispiel {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON-Angebote werden nur in Aktivitäten unterstützt, die mit dem [formularbasierten Experience Composer) erstellt ](/help/main/c-experiences/form-experience-composer.md). Die einzige Möglichkeit, JSON-Angebote zu verwenden, besteht derzeit in direkten API-/SDK-Aufrufen.
+JSON-Angebote werden nur in Aktivitäten unterstützt, die mit dem [formularbasierten Experience Composer) erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Die einzige Möglichkeit, JSON-Angebote zu verwenden, besteht derzeit in direkten API-/SDK-Aufrufen.
 
 Siehe folgendes Beispiel:
 

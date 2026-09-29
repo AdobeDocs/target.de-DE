@@ -181,6 +181,6 @@ Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit
 
 ## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Durch die Verwendung [!UICONTROL  Aktivität „Automatische Zuordnung] ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Automatische Zuordnung] erleichtert das Erreichen Ihrer Konversionsziele und entfernt das Rätselraten.
+Durch die Verwendung [!UICONTROL &#x200B; Aktivität „Automatische Zuordnung] ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Automatische Zuordnung] erleichtert das Erreichen Ihrer Konversionsziele und entfernt das Rätselraten.
 
 Indem Sie den in diesem Artikel vorgestellten Stichprobengrößenrechner (Link oben) verwenden und den Test so lange ausführen lassen, wie er nahe legt, können Sie sicherstellen, dass Sie immer hochwertige A/B-Tests durchführen, die den Falsch-Positiv- und Falsch-Negativ-Raten entsprechen, die Sie für den spezifischen Test als ausreichend erachtet haben. Dadurch wird gewährleistet, dass Ihre Tests konsistent und in der Lage sind, die von Ihnen gewünschte Steigerung zuverlässig zu ermitteln.

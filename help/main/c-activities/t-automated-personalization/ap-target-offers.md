@@ -60,7 +60,7 @@ In diesem Szenario sieht Besucher 1 Angebot 1 (da dieser Besucher als Teil von Z
 
    Um das Targeting für mehrere Angebote einzurichten, aktivieren Sie die Kontrollkästchen der gewünschten Angebote und klicken Sie dann auf den Link **[!UICONTROL Zielgruppe]**, der unten in der Liste angezeigt wird.
 
-1. Wählen [!UICONTROL  Dialogfeld „Zielgruppen hinzufügen] die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Zielgruppen hinzufügen] die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
 
    >[!NOTE]
    >

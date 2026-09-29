@@ -34,12 +34,12 @@ ht-degree: 29%
 ---
 # Beheben von Problemen mit [!UICONTROL Visual Experience Composer]
 
-In Visual Experience Composer (VEC[!DNL Adobe Target] treten unter bestimmten Bedingungen manchmal [!UICONTROL  auf] um Probleme anzuzeigen.
+In Visual Experience Composer (VEC[!DNL Adobe Target] treten unter bestimmten Bedingungen manchmal [!UICONTROL &#x200B; auf] um Probleme anzuzeigen.
 
 ## Wenn ich meine Website im [!UICONTROL Visual Experience Composer] öffne, werden die [!DNL Target] Bibliotheken nicht geladen. (Nur VEC) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++Details
-[!DNL Target] fügt zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) hinzu, während die Website im [!UICONTROL Visual Experience Composer“ geöffnet ].
+[!DNL Target] fügt zwei Parameter (`mboxEdit=1` und `mboxDisable=1`) hinzu, während die Website im [!UICONTROL Visual Experience Composer“ geöffnet &#x200B;].
 
 Wenn Ihre Website (insbesondere Einzelseiten-Apps) Parameter zuschneidet oder beim Navigieren von einer Seite zur anderen (ohne erneutes Laden der Seite) tatsächlich entfernt, funktioniert die [!DNL Target] nicht mehr und die [!DNL Target] Bibliotheken werden nicht geladen.
 
@@ -50,7 +50,7 @@ Stellen Sie zur Vermeidung dieses Problems sicher, dass Sie diese beiden Paramet
 ## Meine Seite wird im EEC nicht geöffnet oder nur langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (Nur VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Details
-In Experience Composers (Target) [!UICONTROL  die Seitenleistung ] von mehreren Problemen betroffen sein. Im Folgenden finden Sie einige gängige Gründe:
+In Experience Composers (Target) [!UICONTROL &#x200B; die Seitenleistung &#x200B;] von mehreren Problemen betroffen sein. Im Folgenden finden Sie einige gängige Gründe:
 
 * Es befindet sich keine Mbox auf der Seite.
 * Ihre Website nutzt Proxy-Sperren, wodurch die Seite in keiner Version von Experience Composer geöffnet werden kann.
@@ -68,7 +68,7 @@ Wenn weder der [!UICONTROL Visual Experience Composer] noch der [!UICONTROL Enha
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie die Erweiterung [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] für ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verwenden[!DNL Google Chrome].
+>Zusätzlich zu den folgenden Informationen können Sie die Erweiterung [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] für &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) verwenden[!DNL Google Chrome].
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Wenn weder der [!UICONTROL Visual Experience Composer] noch der [!UICONTROL Enha
 1. Wählen Sie in Ihren [!DNL Firefox] Erweiterungen die Erweiterung Antwort-Header ändern aus.
 1. Klicken Sie auf **[!UICONTROL Einstellungen]**.
 1. Wählen **[!UICONTROL Filter]** aus der Dropdown[!UICONTROL Aktion] aus.
-1. Geben Sie [!UICONTROL  Feld Kopfzeilenname] ein: **[!UICONTROL X-Frame-Options]**.
+1. Geben Sie [!UICONTROL &#x200B; Feld Kopfzeilenname] ein: **[!UICONTROL X-Frame-Options]**.
 1. Wiederholen Sie die Schritte 4 und 5, um einen Filter mit **[!UICONTROL X-Frame-Optionen]** hinzuzufügen.
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 1. Klicken Sie auf **[!UICONTROL Start]**.
@@ -177,7 +177,7 @@ Sie müssen die neue Erweiterung [Visual Editing Helper](/help/main/c-experience
 
 +++
 
-## Probleme, die durch CSS-Konflikte im [!UICONTROL Visual Experience Composer“ verursacht ]
+## Probleme, die durch CSS-Konflikte im [!UICONTROL Visual Experience Composer“ verursacht &#x200B;]
 
 +++Details
 Überprüfen Sie, ob es CSS-Dateien gibt, die sich auf die Sichtbarkeit auswirken können, während Sie die Web-Seite im Editor laden. Die Verwendung der `overflow: hidden`-Eigenschaft im Seitentext könnte beispielsweise zu Scroll-Problemen oder Trigger-Klickereignissen führen, die das Menü für das Authoring beeinträchtigen könnten.

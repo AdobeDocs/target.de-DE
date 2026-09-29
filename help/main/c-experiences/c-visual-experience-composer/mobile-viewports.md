@@ -147,7 +147,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
+1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 

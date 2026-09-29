@@ -99,7 +99,7 @@ Einige Gründe, weshalb Sie die Seitenladevorgänge im VEC abbrechen möchten:
 * Sie möchten benutzerdefinierten Code einfügen oder bearbeiten
 * Sie haben versehentlich die falsche URL für die Seite eingegeben.
 * Sie möchten JavaScript aktivieren oder deaktivieren, bevor Sie die Seite im VEC laden
-* Sie möchten den Kriterien [!UICONTROL Seitenbereitstellung“ weitere Vorlagentestregeln ].
+* Sie möchten den Kriterien [!UICONTROL Seitenbereitstellung“ weitere Vorlagentestregeln &#x200B;].
 * Sie möchten den globalen Umschalter [!UICONTROL Enhanced Experience Composer] (EEC) überschreiben, wenn Sie eine Seite über den EEC oder iframe-only laden
 
 Wenn Sie das Laden der Seite in VEC abbrechen, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf zu warten, dass die Seite geladen wird. Um die Seite im VEC erneut anzuzeigen, müssen Sie auf die Schaltfläche **[!UICONTROL Neu laden]** klicken.

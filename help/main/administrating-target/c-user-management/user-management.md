@@ -27,7 +27,7 @@ ht-degree: 51%
 ---
 # Benutzerverwaltung
 
-Informationen zur Benutzerverwaltung in [!DNL Target] Standard und zur Verwaltung [!UICONTROL  Unternehmens-] und [!UICONTROL Berechtigungen] in [!DNL Target] Premium.
+Informationen zur Benutzerverwaltung in [!DNL Target] Standard und zur Verwaltung [!UICONTROL &#x200B; Unternehmens-] und [!UICONTROL Berechtigungen] in [!DNL Target] Premium.
 
 {{permissions-update}}
 
@@ -35,7 +35,7 @@ Informationen zur Benutzerverwaltung in [!DNL Target] Standard und zur Verwaltun
 >
 >Die Funktionen [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] sind als Teil der [!DNL Target Premium] verfügbar. In [!DNL Target Standard] sind sie nur mit einer [!DNL Target Premium]-Lizenz verfügbar. Weitere Informationen zu erweiterten [!DNL Target] Premium-Funktionen, siehe [Target Premium](/help/main/c-intro/intro.md#premium) in *Einführung in Target*.
 
-Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt[!UICONTROL  indem Sie auf den Link ]Administration“ oben in der [!DNL Target]-Benutzeroberfläche klicken.
+Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt[!UICONTROL &#x200B; indem Sie auf den Link &#x200B;]Administration“ oben in der [!DNL Target]-Benutzeroberfläche klicken.
 
 * **Target Standard-Kunden:** Wenn Ihr Unternehmen über eine [!DNL Target] Standardlizenz verfügt, sehen Sie Folgendes in der [!DNL Target]-Benutzeroberfläche:
 

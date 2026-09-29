@@ -40,7 +40,7 @@ Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Z
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting“ nicht aktiviert ] (Standard), geben Sie eine Priorität an: niedrig, Medium oder hoch.
+   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting“ nicht aktiviert &#x200B;] (Standard), geben Sie eine Priorität an: niedrig, Medium oder hoch.
 
    Um feinabgestimmte Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie dann die Option [!UICONTROL Feinabgestimmte Prioritäten aktivieren] auf „Ein“ um.
 

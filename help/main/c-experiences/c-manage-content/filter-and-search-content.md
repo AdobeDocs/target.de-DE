@@ -52,7 +52,7 @@ Suchen nach Assets anhand von Keywords in der [!UICONTROL Angebote]-Bibliothek i
      * [!UICONTROL Multimedia]
      * [!UICONTROL Archive]
    * **[!UICONTROL Dateigröße]**: Verwenden Sie den Schieberegler, um die gewünschte Dateigröße auszuwählen: [!UICONTROL Kleinste], [!UICONTROL Klein], [!UICONTROL Medium], [!UICONTROL Groß] oder [!UICONTROL Größte].
-   * **[!UICONTROL Zuletzt geändert]**: Verwenden Sie den Schieberegler, um den Zeitraum auszuwählen: [!UICONTROL Zuletzt ], [!UICONTROL Stunde], [!UICONTROL Tag], [!UICONTROL Woche], [!UICONTROL Monat], [!UICONTROL Jahr] oder [!UICONTROL Alle Assets].
+   * **[!UICONTROL Zuletzt geändert]**: Verwenden Sie den Schieberegler, um den Zeitraum auszuwählen: [!UICONTROL Zuletzt &#x200B;], [!UICONTROL Stunde], [!UICONTROL Tag], [!UICONTROL Woche], [!UICONTROL Monat], [!UICONTROL Jahr] oder [!UICONTROL Alle Assets].
    * **[!UICONTROL Genehmigungsstatus]**: [!UICONTROL Genehmigt] oder [!UICONTROL Abgelehnt]
    * **[!UICONTROL Ablaufstatus]**: [!UICONTROL Expired].
    * **[!UICONTROL Durchschnittsbewertung]**: 1 bis 5.

@@ -82,7 +82,7 @@ Der [!UICONTROL Bestelldetails] zeigt Informationen zu Ihren Bestellungen an, da
 >[!NOTE]
 >
 >* Zu den Daten des Bestellberichts gehören Daten aus vier Wochen für die Standardumgebung (Hostgruppe) und Daten aus zwei Wochen für alle nicht standardmäßigen Umgebungen.
->* Umsatzmetriken, die auf „Anzahl [!UICONTROL  und Benutzer in der Aktivität belassen“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und sind nicht im Bericht [!UICONTROL Auftragsdetails] enthalten.
+>* Umsatzmetriken, die auf „Anzahl [!UICONTROL &#x200B; und Benutzer in der Aktivität belassen“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz in RPV/AOV/Sales und sind nicht im Bericht [!UICONTROL Auftragsdetails] enthalten.
 
 ## Best Practices
 
@@ -94,7 +94,7 @@ Der [!UICONTROL Bestelldetails] zeigt Informationen zu Ihren Bestellungen an, da
 
 Die folgenden Informationen gelten für die Option [!UICONTROL Herunterladen]:
 
-* Sie können beide Berichte für [!UICONTROL A/B-Test]-, [!UICONTROL Automated Personalization]-, [!UICONTROL Erlebnis-Targeting]- und [!UICONTROL Multivarianz]-Aktivitäten herunterladen. Sie können den Bericht [!UICONTROL Erfolgsmetriken“ ] Aktivitäten [!UICONTROL Recommendations] nicht herunterladen.
+* Sie können beide Berichte für [!UICONTROL A/B-Test]-, [!UICONTROL Automated Personalization]-, [!UICONTROL Erlebnis-Targeting]- und [!UICONTROL Multivarianz]-Aktivitäten herunterladen. Sie können den Bericht [!UICONTROL Erfolgsmetriken“ &#x200B;] Aktivitäten [!UICONTROL Recommendations] nicht herunterladen.
 * Die [!UICONTROL Download]-Option ist nicht für [!UICONTROL A/B-Test]- und [!UICONTROL Erlebnis-Targeting]-Aktivitäten verfügbar, die vor [!DNL Target] Version 15.7.1 (Juli 2015) erstellt wurden.
 * Erlebnisse ohne verknüpfte Daten werden im heruntergeladenen Bericht nicht erfasst.
 * Zielgruppen, die in der [!DNL Target] Reporting-Benutzeroberfläche angewendet wurden, werden nicht in den Download-Bericht übernommen.

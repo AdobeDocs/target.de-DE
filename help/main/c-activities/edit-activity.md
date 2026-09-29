@@ -39,10 +39,10 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
 1. Wenn Sie zur Seite **Ziele und Einstellungen** gelangen, haben Sie die folgenden Optionen:
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; ] Aktivität anzuzeigen.
+   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
    * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite „Aktivitäten[!UICONTROL  auf ihren Namen ]. {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite „Aktivitäten[!UICONTROL &#x200B; auf ihren Namen &#x200B;]. {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Um den Workflow nicht schrittweise zu durchlaufen, klicken Sie auf der Seite [!UICONTROL Aktivitäten] auf die gewünschte Aktivität, um ihn zu öffnen. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Aktivität bearbeiten]** und wählen Sie die gewünschte Option aus.
 
@@ -52,7 +52,7 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
 1. Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität.
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; ] Aktivität anzuzeigen.
+   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
    * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
 ## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}

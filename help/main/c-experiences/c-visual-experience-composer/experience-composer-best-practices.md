@@ -143,7 +143,7 @@ Jede Änderung erstellt ein neues Element in VEC. Da die zweite Aktion Element 
 
 Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element in einer anderen Aktion mit einem anderen Text bearbeiten, dann zeigt der Code-Editor beide Aktionen als separate Elemente. Bei der Bearbeitung des Elements haben Sie ein neues Element erstellt, das das ursprünglich von Ihnen erstellte Element ändert und den bearbeiteten Text enthält. Wenn Sie dann das ursprüngliche Element löschen, kann der bearbeitete Text das Element nicht finden, das bearbeitet wurde, und wird folglich nicht angezeigt. Das zweite Element bleibt in der Liste der Elemente erhalten, doch es hat keine Auswirkung auf die Seite, weil das Element, das es ändert, nicht mehr vorhanden ist.
 
-Siehe [Element-Selektoren, die im [!UICONTROL Visual Experience Composer“ verwendet ]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Siehe [Element-Selektoren, die im [!UICONTROL Visual Experience Composer“ verwendet &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
 +++
 

@@ -35,7 +35,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zum Anzeigen von Bericht
 ## Kann ich meine [!DNL Target] Aktivitätsdaten in [!DNL Analysis Workspace] anzeigen? {#workspace}
 
 +++Antwort
-Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
+Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
 
 Detaillierte Informationen und Beispiele finden Sie im Tutorial [Analytics und Target: Best Practices für Analysen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von [!UICONTROL Adobe Experience League].
 
@@ -69,7 +69,7 @@ Wenn Sie ein Segment für eine Aktivität erstellen, um in einem Treffer vorhand
 ## Warum kann ich bei der Konfiguration [!UICONTROL Zielmetriken] nicht auf die [!UICONTROL erweiterten Einstellungen] zugreifen?
 
 +++Antwort
-Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
+Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
 
 Weitere Informationen finden Sie unter „Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?“. in [Metrikdefinitionen - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -238,7 +238,7 @@ Hier einige Punkte, die Sie beim Anzeigen [!DNL Analytics] Berichte beachten sol
 So zeigen Sie Aktivitätsimpressionen in [!DNL Analysis Workspace] an:
 
 1. Klicken Sie in der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL In Analytics anzeigen]**.
-1. Fügen Sie **[!UICONTROL Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} die Spalte]** Aktivitätsimpressionen“ hinzu.
+1. Fügen Sie **Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} die Spalte** Aktivitätsimpressionen“ hinzu.
 1. Klicken Sie in **[!UICONTROL Spalte]** Aktivitätsimpressionen“ auf das Symbol [!UICONTROL Zahnrad] .
 1. Klicken Sie **[!UICONTROL Nicht-standardmäßiges Attributionsmodell verwenden]**.
 1. Wählen Sie **[!UICONTROL Gleiches Touch-Modell]** > **[!UICONTROL Anwenden]** aus.

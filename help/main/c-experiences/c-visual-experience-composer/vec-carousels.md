@@ -21,7 +21,7 @@ ht-degree: 70%
 ---
 # Erstellen von Karussells, die in Visual Experience Composer funktionieren
 
-In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL  Experience Composer) ] werden kann.
+In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL &#x200B; Experience Composer) &#x200B;] werden kann.
 
 Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass die ausgewählte Folie die Auswahl für die richtige Folie beinhaltet, selbst wenn sie nach einigen Sekunden im Visual Experience Composer ausgewechselt wird.
 

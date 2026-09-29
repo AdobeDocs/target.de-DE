@@ -1,7 +1,7 @@
 ---
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
 description: Erfahren Sie, wie Sie mit [!DNL Recommendations] [!UICONTROL Katalogsuche] Produkte oder Inhalte suchen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
-title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " ]?
+title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " &#x200B;]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -99,7 +99,7 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [ Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
+Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [&#x200B; Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 

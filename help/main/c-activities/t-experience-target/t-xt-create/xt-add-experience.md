@@ -50,7 +50,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
    Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie auch mehrere Zielgruppen kombinieren, um nach Bedarf kombinierte Zielgruppen zu erstellen, anstatt eine neue Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Beim Erstellen einer Zielgruppe können Sie einen Speicherort auswählen und Parameter für diesen Speicherort angeben. Wählen [!UICONTROL  unter ] ([!UICONTROL Zielgruppe erstellen] > [!UICONTROL Benutzerdefiniert] den Speicherort aus und geben Sie dann die gewünschten Parameter an.
+   Beim Erstellen einer Zielgruppe können Sie einen Speicherort auswählen und Parameter für diesen Speicherort angeben. Wählen [!UICONTROL &#x200B; unter &#x200B;] ([!UICONTROL Zielgruppe erstellen] > [!UICONTROL Benutzerdefiniert] den Speicherort aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
@@ -76,15 +76,15 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
 1. (Bedingt) Ziehen Sie Zielgruppen- und Erlebnispaare per Drag-and-Drop, während Sie [!UICONTROL Erlebnis-Targeting]-Aktivitäten erstellen oder bearbeiten, um die Paare in der gewünschten Reihenfolge anzuordnen.
 
-   Klicken Sie auf das Symbol „Neu anordnen![ ( ](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die Spalte [!UICONTROL Erlebnisse] auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse nach Bedarf neu an.
+   Klicken Sie auf das Symbol „Neu anordnen![&#x200B; ( &#x200B;](/help/main/assets/icons/Reorder.svg)Neu anordnen), um die Spalte [!UICONTROL Erlebnisse] auf der rechten Seite anzuzeigen, und ordnen Sie dann die Erlebnisse nach Bedarf neu an.
 
    Die Besucher werden der Reihe nach von oben nach unten für Erlebnisse bewertet.
 
    [!UICONTROL Erlebnis-Targeting] geht davon aus, dass die Reihenfolge wichtig ist. Wenn ein Besucher in das erste Zielgruppen- und Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
 
-   Angenommen, Ihnen war nicht bewusst, dass beim Erstellen einer Experience Targeting[!UICONTROL Aktivität die Reihenfolge ]. Später stellen Sie während des Tests fest, dass Besucher, die Ihrer Meinung nach sich für Erlebnis B oder C qualifizieren sollten, sich stattdessen für Erlebnis A qualifizieren. Dies könnte daran liegen, dass sich die Zielgruppen nicht gegenseitig ausschließen und nicht in der richtigen Reihenfolge sind (z. B. Erlebnis A = Vereinigte Staaten, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario können alle Benutzer aus den USA die Kriterien für Erlebnis A erfüllen, auch wenn sie sich in San Francisco oder anderswo in Kalifornien befinden. Sie können die Audience-Erlebnis-Paare von der restriktivsten zur am wenigsten restriktiven (San Francisco > Kalifornien > USA) neu anordnen, ohne die gesamte Aktivität neu zu erstellen.
+   Angenommen, Ihnen war nicht bewusst, dass beim Erstellen einer Experience Targeting[!UICONTROL Aktivität die Reihenfolge &#x200B;]. Später stellen Sie während des Tests fest, dass Besucher, die Ihrer Meinung nach sich für Erlebnis B oder C qualifizieren sollten, sich stattdessen für Erlebnis A qualifizieren. Dies könnte daran liegen, dass sich die Zielgruppen nicht gegenseitig ausschließen und nicht in der richtigen Reihenfolge sind (z. B. Erlebnis A = Vereinigte Staaten, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario können alle Benutzer aus den USA die Kriterien für Erlebnis A erfüllen, auch wenn sie sich in San Francisco oder anderswo in Kalifornien befinden. Sie können die Audience-Erlebnis-Paare von der restriktivsten zur am wenigsten restriktiven (San Francisco > Kalifornien > USA) neu anordnen, ohne die gesamte Aktivität neu zu erstellen.
 
-   Wenn Sie eine Zielgruppe [!UICONTROL Alle Besucher] haben, stellen Sie sicher, dass sie nicht die erste Zielgruppe im Diagramm ist. Ein Erlebnis, das auf &quot;[!UICONTROL  Besucher] ausgerichtet ist, kann als letztes Erlebnis in der Aktivität [!UICONTROL Erlebnis-Targeting] verwendet werden, um alle Besucher zu „fangen“, die nicht in ein anderes Erlebnis gefallen sind.
+   Wenn Sie eine Zielgruppe [!UICONTROL Alle Besucher] haben, stellen Sie sicher, dass sie nicht die erste Zielgruppe im Diagramm ist. Ein Erlebnis, das auf &quot;[!UICONTROL &#x200B; Besucher] ausgerichtet ist, kann als letztes Erlebnis in der Aktivität [!UICONTROL Erlebnis-Targeting] verwendet werden, um alle Besucher zu „fangen“, die nicht in ein anderes Erlebnis gefallen sind.
 
 ## Umbenennen, Bearbeiten, Duplizieren oder Löschen eines Erlebnisses
 

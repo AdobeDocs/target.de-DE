@@ -35,7 +35,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Symbol](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ ].
+   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
    ![Benutzeroberfläche der Traffic-Schätzung](assets/ap_est.png)
 
@@ -66,7 +66,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap_est_yes.png)
 
-   Wenn der Traffic ausreichend ist, wird [!UICONTROL  Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
+   Wenn der Traffic ausreichend ist, wird [!UICONTROL &#x200B; Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 
 ## Häufig gestellte Fragen zur Traffic-Schätzung
 

@@ -1,6 +1,6 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz
-description: Erfahren Sie, wie Sie [!DNL AI Assistant] in [!DNL  Adobe Target].
+description: Erfahren Sie, wie Sie [!DNL AI Assistant] in [!DNL &#x200B; Adobe Target].
 title: Wie aktiviere ich die [!DNL AI Assistant] in [!DNL Target]?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
@@ -45,7 +45,7 @@ Um die Funktion [!UICONTROL KI-Assistent] in [!UICONTROL Target] verwenden zu k�
 1. Navigieren Sie zur **[!UICONTROL Administration]** in [!DNL Target].
 1. Wählen Sie im Menü links die Option **[!UICONTROL Benutzer]** aus.
 1. Suchen Sie den Benutzer, den Sie verwalten möchten, in der Liste oder verwenden Sie die Suchleiste, um ihn zu finden.
-1. Bewegen Sie den Mauszeiger über **[!UICONTROL Spalte]** KI-Berechtigungen“ für die Person, der Sie Zugriff auf den [!UICONTROL Target-KI-Assistenten“ gewähren ].
+1. Bewegen Sie den Mauszeiger über **[!UICONTROL Spalte]** KI-Berechtigungen“ für die Person, der Sie Zugriff auf den [!UICONTROL Target-KI-Assistenten“ gewähren &#x200B;].
 
    Ein Berechtigungs-Popup wird angezeigt.
 

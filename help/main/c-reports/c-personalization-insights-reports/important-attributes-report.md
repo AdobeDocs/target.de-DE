@@ -69,7 +69,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
    Der Bericht [Automated Personalization-](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Automatische Targeting-Zusammenfassung](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) wird angezeigt, der Informationen zur Leistung Ihrer Aktivitäten enthält, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights]-Berichte dar: **[!UICONTROL Automatisierte Segmente]** ( ![Bericht Automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ) und **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ).
 
 
-   Beachten Sie[!UICONTROL  dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
+   Beachten Sie[!UICONTROL &#x200B; dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
 
    >[!IMPORTANT]
    >
@@ -136,7 +136,7 @@ Personalization Insights (sowohl [!UICONTROL „Automatisierte Segmente“] als 
 
 ### Wie wird [!UICONTROL Personalization Insights] erstellt?
 
-[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. ] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. &#x200B;] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### Sind [!UICONTROL Personalization Insights] für umsatzbasierte Modellierungsziele/Primärziel verfügbar?
 
@@ -172,4 +172,4 @@ Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic berei
 
 Das folgende Problem wird derzeit vom [!DNL Target]-Engineering-Team untersucht.
 
-* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht ]Wichtige Attribute angezeigt. [!UICONTROL (Die 3813 populärsten)
+* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht Wichtige Attribute angezeigt. (Die 3813 populärsten)

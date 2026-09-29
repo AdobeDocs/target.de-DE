@@ -27,7 +27,7 @@ ht-degree: 36%
 
 [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) für eine Seite bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) oder [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md)) Sie verwenden.
 
-## [!UICONTROL Nur Visual Experience ]) oder [!UICONTROL Formularbasierter Experience Composer] nur mit einer globalen [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Nur Visual Experience &#x200B;]) oder [!UICONTROL Formularbasierter Experience Composer] nur mit einer globalen [!DNL Target] {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren Aktivitäten für denselben Aufruf zurückgegeben werden. Aktivitäten werden mithilfe des folgenden Entscheidungsflusses bereitgestellt:
 
@@ -51,7 +51,7 @@ Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren
    * Wenn eine Aktivität über eine Zielgruppenansprache verfügt, wird diese Aktivität angezeigt.
    * Wenn alle oder keine Zielgruppe ausgewählt wurde, wird die zuerst genehmigte Aktivität angezeigt.
 
-## [!UICONTROL Form-Based Experience ] und [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
+## [!UICONTROL Form-Based Experience &#x200B;] und [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
 Wenn Ihr Unternehmen den [!UICONTROL formularbasierten Experience Composer] *und* VEC verwendet, können Inhalte aus mehreren [!UICONTROL formularbasierten Experience Composer]- und VEC-Aktivitäten bereitgestellt werden. Zuvor konnte nur eine Aktivität aus dem formularbasierten Workflow eine Bereitstellung vornehmen. Die Anzahl der formularbasierten Aktivitäten, die eine Bereitstellung vornehmen können, ist jetzt nicht mehr begrenzt.
 

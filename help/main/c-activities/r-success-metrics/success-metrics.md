@@ -52,7 +52,7 @@ Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die er
 
 >[!NOTE]
 >
->Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
+>Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
 
 Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting-Einstellungen] auf der Seite [!UICONTROL Aktivitätseinstellungen] unter dem Schritt [!UICONTROL Ziele und Einstellungen] konfiguriert werden:
 
@@ -84,7 +84,7 @@ Um auf die Optionen [!UICONTROL Erweiterte Einstellungen] zuzugreifen, klicken S
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel ]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
+Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel &#x200B;]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
 
 >[!NOTE]
 >
@@ -142,8 +142,8 @@ Mit der [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/relea
 
 ### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Umsatz] Erfolgsmetriken
 
-In der aktualisierten [!DNL Target] wurde die Dropdown[!UICONTROL Standardansicht für ] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Berichte“ in ] alten Benutzeroberfläche gespeichert hat.
+In der aktualisierten [!DNL Target] wurde die Dropdown[!UICONTROL Standardansicht für &#x200B;] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Berichte“ in &#x200B;] alten Benutzeroberfläche gespeichert hat.
 
 Mit der aktualisierten Benutzeroberfläche ist die standardmäßige Berichtsmetrik jetzt immer auf [!UICONTROL Umsatz pro Besucher (RPV) festgelegt]. Sie können die Ansicht im Abschnitt [!UICONTROL Berichte] weiterhin anpassen, um die Metriken anzuzeigen, die für Ihre Analyse am relevantesten sind.
 
-Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des Abschnitts [!UICONTROL  jederzeit zu anderen ] wechseln.
+Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des Abschnitts [!UICONTROL &#x200B; jederzeit zu anderen &#x200B;] wechseln.

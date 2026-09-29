@@ -62,13 +62,13 @@ Tipps und Überlegungen zur Interpretation Ihrer [!UICONTROL automatischen Targe
   * In diesem Fall wird den Erlebnissen mit nicht erstellten Modellen zusätzlicher Traffic gesendet, um die Geschwindigkeit der Aktivität zu erhöhen, für die für alle Erlebnisse Modelle erstellt sind.
   * Es müssen mindestens zwei Erlebnisse mit erstellten Modellen (grünes Häkchen) vorhanden sein, damit die Personalisierung gestartet wird.
 
-* Der Vergleich der Konversionsrate von Erlebnis A mit der von Erlebnis B ist in „Automatisches Targeting[!UICONTROL  nicht ]. Es stellt sich die Frage, ob Erlebnis A eine bessere Leistung erzielt, wenn es intelligent bereitgestellt wird, als wenn es auf zufällige Weise bereitgestellt wird (d. h. im Vergleich zur Kontrolle). Marketer sollten die Steigerungen einzelner Erlebnisse vorsichtig interpretieren, da der Personalisierungsalgorithmus versucht, die Optimierung für die Erfolgsmetrik über die gesamte Aktivität und nicht für jedes einzelne Erlebnis vorzunehmen.
+* Der Vergleich der Konversionsrate von Erlebnis A mit der von Erlebnis B ist in „Automatisches Targeting[!UICONTROL &#x200B; nicht &#x200B;]. Es stellt sich die Frage, ob Erlebnis A eine bessere Leistung erzielt, wenn es intelligent bereitgestellt wird, als wenn es auf zufällige Weise bereitgestellt wird (d. h. im Vergleich zur Kontrolle). Marketer sollten die Steigerungen einzelner Erlebnisse vorsichtig interpretieren, da der Personalisierungsalgorithmus versucht, die Optimierung für die Erfolgsmetrik über die gesamte Aktivität und nicht für jedes einzelne Erlebnis vorzunehmen.
 * Für Erlebnisse mit der höchsten Steigerung kann davon ausgegangen werden, dass dort die höchste Differenzierung der Population vorliegt. Das heißt, der Algorithmus hat ein Segment gefunden, das dieses bestimmte Erlebnis am meisten mag.
 * Die verschiedenen Spalten in der Tabelle zeigen die Anzahl der Besuche, die Konversionsrate, den durchschnittlichen Anstieg und das Konfidenzniveau sowie die Konfidenz. Weitere Informationen finden Sie unter [Statistische Berechnungen in A/B-](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Grafikansicht
 
-Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [ unter ](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
+Verwenden Sie die beiden Dropdown-Listen, um die gewünschten Metriken, die Zählmethodik und mehr auszuwählen. Weitere Informationen finden [&#x200B; unter &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md) der Berichtseinstellungen:
 
 ## Automatisierte Segmente
 

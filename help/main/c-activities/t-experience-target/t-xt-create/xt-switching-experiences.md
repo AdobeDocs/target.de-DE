@@ -1,7 +1,7 @@
 ---
 keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
-description: Erfahren Sie, wie Besucherinnen und Besucher bei der Weiterentwicklung ihrer Profile in einer [!DNL Adobe Target]Experience [!UICONTROL Targeting](XT)-Aktivität zwischen Erlebnissen wechseln können.
-title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen ]?
+description: Erfahren Sie, wie Besucherinnen und Besucher bei der Weiterentwicklung ihrer Profile in einer [!DNL Adobe Target]Experience [!UICONTROL Targeting] (XT)-Aktivität zwischen Erlebnissen wechseln können.
+title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen &#x200B;]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: 'https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU'
@@ -37,7 +37,7 @@ Die folgende Liste enthält nur einige Szenarien, in denen sich die Besucherprof
 | Kategorieaffinität | Die Funktion [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md) in [!DNL Target] erfasst automatisch die Kategorien der Besucheransicht und berechnet dann die Affinität der Besucher für die Kategorie zu Targeting-Zwecken. Besucherinnen und Besucher, die mehrere Artikel auf Ihrer Website zu einem bestimmten Thema angesehen haben, erhalten beispielsweise Inhalte, die mit diesem Thema in Verbindung stehen. |
 | Wochentag | Möglicherweise möchten Sie Besuchern kurz vor dem Wochenende Inhalte zu Filmen, Restaurants oder anderen Unterhaltungsmöglichkeiten anzeigen. |
 
-Um diese Funktionen in [!DNL Target] zu verwenden, müssen Sie bei der Arbeit mit Experience Targeting[!UICONTROL -Aktivitäten die folgenden Informationen ]:
+Um diese Funktionen in [!DNL Target] zu verwenden, müssen Sie bei der Arbeit mit Experience Targeting[!UICONTROL -Aktivitäten die folgenden Informationen &#x200B;]:
 
 * **Die Priorität wird von der Reihenfolge der Erlebnisse gesteuert, von oben nach unten.** Wenn sich ein Besucher für mehr als zwei Zielgruppen qualifiziert, erhält dieser Besucher Inhalte aus dem Erlebnis mit höherer Priorität.
 * **Besucher wechseln zwischen Erlebnissen in einer [!UICONTROL Erlebnis-Targeting]-Aktivität, wenn sie sich für die Zielgruppe eines Erlebnisses mit höherer Priorität qualifizieren.**

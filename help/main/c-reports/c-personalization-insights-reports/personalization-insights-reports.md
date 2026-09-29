@@ -37,7 +37,7 @@ ht-degree: 29%
 ---
 # [!UICONTROL Personalization Insights] Berichte
 
-Für Benutzer von [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten stehen zwei spezialisierte Berichte zur Verfügung: die Berichte [!UICONTROL Automatisierte ] und [!UICONTROL Wichtige Attribute].
+Für Benutzer von [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten stehen zwei spezialisierte Berichte zur Verfügung: die Berichte [!UICONTROL Automatisierte &#x200B;] und [!UICONTROL Wichtige Attribute].
 
 ## Zu beachten
 
@@ -107,7 +107,7 @@ Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Beric
 
 ## Häufig gestellte Fragen
 
-Liste der häufig gestellten Fragen zu [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-][!UICONTROL Insights]-Berichten.
+Liste der häufig gestellten Fragen zu [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-]&#x200B;[!UICONTROL Insights]-Berichten.
 
 ### Wie lange bleiben Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] erhalten?
 

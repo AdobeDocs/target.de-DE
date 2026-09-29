@@ -34,7 +34,7 @@ Wenn Sie möchten, dass eine Option das erfolgreichste Erlebnis öfter und früh
 
 [!UICONTROL Automatische Zuordnung] verwendet das Prinzip des mehrarmigen Banditen. Wenn der Begriff unbekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (man denke an Las Vegas). Stellen Sie sich die automatische Zuordnung des Traffics als mit mehreren Slotmaschinen vor, in diesem Fall Testvarianzen, und ziehen Sie zunächst alle Griffe gleich ab. Im Laufe der Zeit zahlen sich eine oder mehrere Maschinen oder Testvarianten möglicherweise mehr aus als andere. Wenn diese Situation eintritt, würde ein Spieler natürlich anfangen, an den Griffen derjenigen zu ziehen, die häufiger gewinnen. In Bezug auf die Traffic-Zuordnung bietet [!DNL Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
 
-Betrachten wir die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL  automatischen Zuordnung ] sich ein erfolgreichstes Erlebnis heraus: [!UICONTROL Target] leitet zu Beginn des Tests einen größeren Teil des Traffics an den Gewinner weiter.
+Betrachten wir die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL &#x200B; automatischen Zuordnung &#x200B;] sich ein erfolgreichstes Erlebnis heraus: [!UICONTROL Target] leitet zu Beginn des Tests einen größeren Teil des Traffics an den Gewinner weiter.
 
 ![Abbildung zur automatischen Zuordnung](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 

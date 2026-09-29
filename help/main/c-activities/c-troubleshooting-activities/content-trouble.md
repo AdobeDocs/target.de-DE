@@ -178,7 +178,7 @@ at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype 
 
 Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) ](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld [!UICONTROL Aktivitäts-URL] an.
 
@@ -227,7 +227,7 @@ adobe.target.trackEvent({
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
+### Fügen Sie die Erweiterung ![Tutorial-Badge) &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

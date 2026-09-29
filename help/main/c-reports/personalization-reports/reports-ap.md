@@ -63,17 +63,17 @@ Klicken Sie auf den Erlebnisalgorithmus (zufällige Gesamtstruktur oder Kontroll
 >
 >Ein Uhrensymbol zeigt an, dass das Algorithmusmodell noch im Aufbau begriffen ist. Ein Häkchensymbol zeigt an, dass der Basisalgorithmus eingerichtet wurde.
 
-Angebote können in [Berichtsgruppen“ angezeigt ](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
+Angebote können in [Berichtsgruppen“ angezeigt &#x200B;](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md). Diese Berichtsgruppen können reduziert und erweitert werden. Klicken Sie **[!UICONTROL der Tabelle auf]** Kontrolle **[!UICONTROL oder Targeting]**, um aggregierte Informationen nach Berichtsgruppen und nicht nach Angeboten anzuzeigen.
 
 ## Automatisierte Segmente
 
-Klicken Sie auf [!UICONTROL  Symbol &quot;] Segmente“. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol &quot;] Segmente“. Dieser Bericht zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer AP/AT-Aktivität reagieren. Dieser Bericht zeigt, wie unterschiedliche automatisierte Segmente, die von den Target-Personalisierungsmodellen definiert werden, auf die Angebote/Erlebnisse in der Aktivität reagiert haben.
 
 Weitere Informationen finden Sie unter [Bericht zu automatisierten Segmenten](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Wichtige Attribute
 
-Klicken Sie auf [!UICONTROL  Symbol „Wichtige ]&quot;. Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
+Klicken Sie auf [!UICONTROL &#x200B; Symbol „Wichtige &#x200B;]&quot;. Dieser Bericht zeigt, wie in verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar.
 
 Weitere Informationen finden Sie unter [Bericht zu wichtigen Attributen](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

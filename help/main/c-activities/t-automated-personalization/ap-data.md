@@ -67,7 +67,7 @@ In der folgenden Tabelle sind die vom Kunden bereitgestellten Daten aufgeführt,
 | URL-Parameter | URL | URL und alle URL-Parameter der aktuell angezeigten Seite. | Benutzerdefiniert - URL-Parameter [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
 | Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über &quot;[!UICONTROL &quot; für [!DNL Target] freigegeben ]. |  |
+| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über &quot;[!UICONTROL &quot; für [!DNL Target] freigegeben &#x200B;]. |  |
 
 
 ## Sperren von Funktionen [!DNL Target] Algorithmen für maschinelles Lernen

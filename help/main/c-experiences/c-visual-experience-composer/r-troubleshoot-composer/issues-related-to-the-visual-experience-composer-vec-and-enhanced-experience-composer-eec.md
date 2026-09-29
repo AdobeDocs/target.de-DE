@@ -68,7 +68,7 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 +++Details
 Um festzustellen, welche Cookies aufgrund der SameSite-Cookie-Durchsetzungsrichtlinien blockiert werden, verwenden Sie die [!DNL Developer Tools] in [!DNL Chrome].
 
-1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **** Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
+1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **&#x200B;**&#x200B;Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
 1. Klicken Sie auf **[!UICONTROL Netzwerk]** und suchen Sie nach blockierten Cookies.
 
    >[!NOTE]

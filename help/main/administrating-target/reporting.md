@@ -69,13 +69,13 @@ Beachten Sie bei der Bestimmung Ihrer Berichtsquelle die folgenden Informationen
 
 * **[!DNL Analytics]**: Eine Matrix der unterstützten Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, finden Sie unter [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
 
-  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization]-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization]-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Selbst wenn Sie [!DNL Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 
 * **[!DNL Customer Journey Analytics]**: Eine Matrix der unterstützten Aktivitäten unter Verwendung der [!DNL Target]-Berichterstellung in [!DNL Customer Journey Analytics] finden Sie [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]Berichterstellung in[!DNL Adobe Customer Journey Analytics]*.
 
-  Die Erstellung und Aktivierung von AP[!UICONTROL  und ]Automatisches Targeting)-Aktivitäten sind unabhängig von der auf Kontoebene ausgewählten Berichtsquelle zulässig. Diese Aktivitätstypen werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für eine Aktivität auswählen.
+  Die Erstellung und Aktivierung von AP[!UICONTROL &#x200B; und &#x200B;]Automatisches Targeting)-Aktivitäten sind unabhängig von der auf Kontoebene ausgewählten Berichtsquelle zulässig. Diese Aktivitätstypen werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für eine Aktivität auswählen.
 
   Selbst wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle auf Kontoebene angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 

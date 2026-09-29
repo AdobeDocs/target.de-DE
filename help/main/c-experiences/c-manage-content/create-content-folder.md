@@ -56,7 +56,7 @@ Informationen zu den Aufgaben, die Sie mit Angeboten und Ordnern ausführen kön
 
 1. (Optional) Geben Sie einen beschreibenden **[!UICONTROL Name]** an.
 1. (Optional) Wählen Sie **[!UICONTROL Privat]** aus, um anzugeben, dass der Ordner privat ist, sodass nur Sie ihn und seinen Inhalt sehen können.
-1. (Optional) Wählen Sie **[!UICONTROL Neu anordnen-fähig in der Listenansicht]**, um anzugeben, dass Sie und andere die Position des Ordners in der [!UICONTROL Listenansicht“ ] können.
+1. (Optional) Wählen Sie **[!UICONTROL Neu anordnen-fähig in der Listenansicht]**, um anzugeben, dass Sie und andere die Position des Ordners in der [!UICONTROL Listenansicht“ &#x200B;] können.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
 

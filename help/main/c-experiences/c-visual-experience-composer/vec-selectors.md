@@ -37,7 +37,7 @@ Sie können festlegen, ob Sie Elementklassen oder Element-IDs in Ihren Kontovore
 
 >[!NOTE]
 >
->Elementklassen sind als Selektoren in den Aktivitäten [!UICONTROL A/B-], [!UICONTROL Automated Personalization] und[!UICONTROL  Multivarianz-] verfügbar.
+>Elementklassen sind als Selektoren in den Aktivitäten [!UICONTROL A/B-], [!UICONTROL Automated Personalization] und[!UICONTROL &#x200B; Multivarianz-] verfügbar.
 
 Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden sollen, finden Sie unter [Best Practices und Einschränkungen von Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

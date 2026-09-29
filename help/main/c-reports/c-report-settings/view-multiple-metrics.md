@@ -47,7 +47,7 @@ Beachten Sie beim Arbeiten mit mehreren Metriken in Berichten die folgenden Info
 
    Die Liste [!UICONTROL Angezeigte Metriken] muss mindestens eine Metrik enthalten.
 
-   Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. Die ausgewählte Reihenfolge wird in der [!UICONTROL Tabellenansicht“ ] &quot;[!UICONTROL &quot; ]. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
+   Sie können die Metriken neu anordnen, indem Sie sie per Drag-and-drop in der Liste [!UICONTROL Angezeigte Metriken] in die gewünschte Reihenfolge bringen. Die ausgewählte Reihenfolge wird in der [!UICONTROL Tabellenansicht“ &#x200B;] &quot;[!UICONTROL &quot; &#x200B;]. Wenn Sie eine Metrik aus der Liste [!UICONTROL Angezeigte Metriken] entfernen möchten, bewegen Sie Ihren Mauszeiger über die Metrik und klicken Sie dann auf das **X**-Symbol.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
 1. (Bedingt) Wenn Sie den Bericht in der [!UICONTROL Tabellenansicht] anzeigen, bewegen Sie den Mauszeiger über die Spaltenüberschrift einer Metrik, um einen blauen Pfeil anzuzeigen. Klicken Sie auf den Pfeil, um die Tabelle zu erweitern und [!UICONTROL Lift] und [!UICONTROL Vertrauen] für die jeweilige Metrik anzuzeigen.

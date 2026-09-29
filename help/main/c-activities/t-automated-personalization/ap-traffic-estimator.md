@@ -45,7 +45,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Benutzeroberfläche der Traffic-Schätzung](assets/ap-est.png)
 
-   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ ].
+   Sie können erneut auf das Symbol klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
 
 1. Geben Sie die typische Konversionsrate (oder die von dieser Aktivität erwartete Konversionsrate), geschätzte Aktivitätsimpressionen pro Tag und die Testdauer an.
 
@@ -74,7 +74,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap-est-yes.png)
 
-   Wenn der Traffic ausreichend ist, wird [!UICONTROL  Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
+   Wenn der Traffic ausreichend ist, wird [!UICONTROL &#x200B; Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 
 ## Häufig gestellte Fragen zur Traffic-Schätzung
 

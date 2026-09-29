@@ -120,7 +120,7 @@ Der `categoryId` ist auf 250 Zeichen begrenzt.
 
 >[!NOTE]
 >
->Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur ein `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser bestimmten Empfehlung verwendet wird. Der Wert des `categoryId` muss genau mit dem Wert des `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails“ ] wurde.
+>Um eine Empfehlung basierend auf einer Kategorie auf einer [!UICONTROL Kategorie]-Seite anzuzeigen, kann nur ein `categoryId` an die Mbox übergeben werden, die zur Anzeige dieser bestimmten Empfehlung verwendet wird. Der Wert des `categoryId` muss genau mit dem Wert des `entity.categoryId` übereinstimmen, der auf der Seite [!UICONTROL Produktdetails“ &#x200B;] wurde.
 
 Beispiele:
 
