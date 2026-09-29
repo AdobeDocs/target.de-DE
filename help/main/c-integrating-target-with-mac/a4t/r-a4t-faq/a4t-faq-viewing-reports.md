@@ -100,7 +100,7 @@ Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis
 +++Antwort
 [!DNL Reports & Analytics] wendet ein Attributionsmodell für denselben Kontakt auf „Aktivitätsimpressionen“ und „Aktivitätskonversionen“ an, während [!DNL Analysis Workspace] die Rohmetriken anzeigt, die aufgrund der Persistenz der [!DNL Target] Dimension überhöht erscheinen können.
 
-Um genaue Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionen] in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch]-Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und dann [!UICONTROL Selber Kontakt] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) im *Handbuch zu Analytics-Tools*.
+Um genaue Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionen] in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch]-Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und dann [!UICONTROL Selber Kontakt] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=de) im *Handbuch zu Analytics-Tools*.
 
 +++
 
@@ -166,7 +166,7 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da beide Erlebnisse vor der Konversion gesehen wurden, erhalten beide „Anerkennung“ für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Da Sie für [!DNL Target] Reporting keine [!DNL Target] Aktivität mit einer anderen Aktivität vergleichen, um festzustellen, welche Aktivität erfolgreicher ist, ist es egal, ob alle Aktivitäten, die der/die Benutzende gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse von zwei Elementen innerhalb der einzelnen Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse in derselben Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination des Bestellguthabens machen müssen.
 
-Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Analytics-Administratorhandbuch*.
+Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=de)) im *Analytics-Administratorhandbuch*.
 
 +++
 
@@ -238,7 +238,7 @@ Hier einige Punkte, die Sie beim Anzeigen [!DNL Analytics] Berichte beachten sol
 So zeigen Sie Aktivitätsimpressionen in [!DNL Analysis Workspace] an:
 
 1. Klicken Sie in der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL In Analytics anzeigen]**.
-1. Fügen Sie **Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} die Spalte** Aktivitätsimpressionen“ hinzu.
+1. Fügen Sie **Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de){target=_blank} die Spalte** Aktivitätsimpressionen“ hinzu.
 1. Klicken Sie in **[!UICONTROL Spalte]** Aktivitätsimpressionen“ auf das Symbol [!UICONTROL Zahnrad] .
 1. Klicken Sie **[!UICONTROL Nicht-standardmäßiges Attributionsmodell verwenden]**.
 1. Wählen Sie **[!UICONTROL Gleiches Touch-Modell]** > **[!UICONTROL Anwenden]** aus.

@@ -2,7 +2,7 @@
 keywords: Automated Personalization;App
 description: Erfahren Sie, wie Sie in [!DNL Adobe Target] eine [!UICONTROL Automated Personalization]-Aktivität (AP) mit dem [!UICONTROL Visual Experience Composer) &#x200B;].
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization]-Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 product_v2:
