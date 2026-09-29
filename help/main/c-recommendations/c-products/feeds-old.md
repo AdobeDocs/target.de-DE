@@ -1,17 +1,24 @@
 ---
 keywords: Empfehlungs-Feed; Feed; SAINT; ftp; csv;klassifizierungen;analytics classifications
-description: Erfahren Sie, wie -Feeds  [!DNL Adobe Target] [!DNL Recommendations] CSV-Dateien, das Google-Produktsuch-Feed-Format und  [!DNL Analytics] -Produktklassifizierungen in importieren.
+description: Erfahren Sie, wie -Feeds Entitäten mithilfe von CSV-Dateien, dem Google-Produktsuch-Feed-Format und [!DNL Analytics] Produktklassifizierungen in [!DNL Adobe Target] [!DNL Recommendations] importieren.
 title: Wie verwende ich [!UICONTROL Feeds] in [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 45%
-
+source-wordcount: '2580'
+ht-degree: 46%
 ---
-
 # Feeds
 
 Verwenden Sie Feeds, um Entitäten in [!DNL Adobe Target] [!DNL Recommendations] zu importieren. Entitäten können mithilfe von CSV-Dateien, dem Google-Produktsuche-Feed-Format und [!DNL Adobe Analytics] Produktklassifizierungen gesendet werden.
@@ -121,7 +128,7 @@ Wenn Sie über einen vorhandenen Google-Produkt-Feed verfügen, können Sie dies
 >
 >Es müssen nicht Google-Daten verwendet werden. [!DNL Recommendations] verwendet dasselbe Format wie Google. Sie können mit dieser Methode alle Ihre Daten hochladen und dabei die verfügbaren Planungsfunktionen nutzen. Dennoch müssen Sie die von Google festgelegten und vordefinierten Attributnamen verwenden, wenn Sie die Datei einrichten.
 
-Die meisten Einzelhändler laden Produkte in Google hoch. Wenn ein Besucher also die Google-Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
+Die meisten Einzelhändler laden Produkte in Google hoch. Wenn ein Besucher also die Google-Produktsuche verwendet, werden seine Produkte angezeigt. [!DNL Recommendations] berücksichtigt für Entitäts-Feeds exakt die Spezifikationen von Google. Entitäts-Feeds können über .xml, .txt oder .tsv an [!DNL Recommendations] gesendet werden und können die [von Google definierten Attribute“ ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Die Ergebnisse können auf den [Google-Shopping-Seiten](https://www.google.com/prdhp) durchsucht werden.
 
 >[!NOTE]
 >
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
@@ -238,7 +245,7 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
    * [!UICONTROL Google-Produkt-Feed]
    * [!UICONTROL Analytics-Klassifizierungen]
 
-   Informationen zu den Feed[!UICONTROL Typen &#x200B;]CSVs) und [!UICONTROL Google]Produkt-Feeds finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
+   Informationen zu den Feed[!UICONTROL Typen ]CSVs) und [!UICONTROL Google]Produkt-Feeds finden Sie unter [Feeds - Übersicht](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Sie können auch [Modell-CSV-Handbuch herunterladen](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv), um den Feed korrekt zu formatieren.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL CSV]** oder **[!UICONTROL Google-Produkt-Feed]** ausgewählt haben, geben Sie den Speicherort an, an dem der Feed aufgerufen werden kann.
 
@@ -246,10 +253,10 @@ Erstellen Sie einen Feed, um Informationen über Ihre Produkte oder Services in 
 
      Unterstützte FTP-Servereinstellungen:
 
-      * FTP und FTPS müssen für die Verwendung von passivem FTP eingestellt sein.
-      * Konfigurieren Sie den Server für FTPS so, dass explizite FTPS-Verbindungen akzeptiert werden.
-      * SFTP wird nicht unterstützt.
-      * Sie können manuell einen Port angeben, über den die Verbindung gestartet werden soll (z. B. `ftp://ftp.yoursite.com:2121`). Wenn Sie keinen Port angeben, wird der standardmäßige FTP- oder FTPS-Port verwendet.
+     * FTP und FTPS müssen für die Verwendung von passivem FTP eingestellt sein.
+     * Konfigurieren Sie den Server für FTPS so, dass explizite FTPS-Verbindungen akzeptiert werden.
+     * SFTP wird nicht unterstützt.
+     * Sie können manuell einen Port angeben, über den die Verbindung gestartet werden soll (z. B. `ftp://ftp.yoursite.com:2121`). Wenn Sie keinen Port angeben, wird der standardmäßige FTP- oder FTPS-Port verwendet.
 
    * **URL**: Wenn Sie [!UICONTROL URL] auswählen, geben Sie die URL an.
 
@@ -303,7 +310,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | [!UICONTROL Warten auf Download] | [!DNL Target] bereitet den Download der Feed-Datei vor. |
 | [!UICONTROL Herunterladen der Feed-Datei] | [!DNL Target] lädt die Feeddatei herunter. |
 | [!UICONTROL Elemente importieren] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
-| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der &#x200B;], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
+| Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der ], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
 | [!UICONTROL Index konnte nicht erstellt werden] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
 | [!UICONTROL Server nicht gefunden] | FTP- oder URL-Speicherorte sind ungültig oder nicht erreichbar. |
 
@@ -328,15 +335,15 @@ Sehen Sie sich folgende Beispiele an:
 
 **Beispiel 1:**
 
-* Tag 1: Tägliche Fütterungsprozesse :00 9:00 Uhr PST.
-* Tag zwei: Es :30 15 Uhr und das Futter läuft seit gestern um 9 :00 nicht mehr.
+* Tag 1: Tägliche Zufuhr um 9:00 Uhr PST.
+* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
 
 Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
 
 **Beispiel 2:**
 
-* &#x200B;1. Januar: monatliche Zufuhrvorgänge :00 9:00 Uhr (PST)
-* &#x200B;3. Februar: Es ist :00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
+* &#x200B;1. Januar: monatliche Zufuhrvorgänge um 9:00 Uhr PST.
+* &#x200B;3. Februar: Es ist 10:00 Uhr und der Feed läuft seit einem Monat, einem Tag und einer Stunde nicht mehr.
 
 Der Status ist gelb, da der Index vor rund einem Tag und einer Stunde hätte ausgeführt werden müssen. Auch wenn dies nur (31 + (1 / 25)) / 30 = 1,03 % der Häufigkeitseinstellung ergibt, wurde der Höchstwert von einem Tag für die Verzögerung überschritten.
 
@@ -351,7 +358,7 @@ Dieses Video enthält die folgenden Informationen:
 * Den Zweck von Feeds verstehen
 * Den Wert von Feeds verstehen
 
->[!VIDEO](https://video.tv.adobe.com/v/33908?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Erstellen eines Feeds (6:44) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -360,4 +367,4 @@ Dieses Video enthält die folgenden Informationen:
 * Einen Feed einrichten
 * Welchen Feed-Typ Sie verwenden sollten
 
->[!VIDEO](https://video.tv.adobe.com/v/33907?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

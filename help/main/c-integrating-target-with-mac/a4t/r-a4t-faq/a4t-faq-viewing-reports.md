@@ -1,27 +1,33 @@
 ---
 keywords: FAQ; häufig gestellte Fragen; Analytics für Target; a4T; Bericht; Berichte; Berichte anzeigen; Berichterstellung; Zählmethodik; Impressionen; Besucher; Besuche; Standardmetrik; Aktivitätskonversionen; unspezifisch
-description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von Berichten bei der Verwendung von Analytics for [!DNL Target] (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für - [!DNL Target]  verwenden.
+description: Hier finden Sie Antworten auf Fragen, die häufig zum Anzeigen von Berichten bei der Verwendung von Analytics for [!DNL Target] (A4T) gestellt werden. Mit A4T können Sie Analytics-Berichte für [!DNL Target]-Aktivitäten verwenden.
 title: Hier finden Sie Antworten auf Fragen zur Anzeige von Berichten mit A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
+TQID: 'https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: '2700'
 ht-degree: 27%
-
 ---
-
 # Anzeigen von Berichten – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf Fragen, die häufig zum Anzeigen von Berichten gestellt werden, wenn [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) verwendet wird.
@@ -29,7 +35,7 @@ Dieses Thema enthält Antworten auf Fragen, die häufig zum Anzeigen von Bericht
 ## Kann ich meine [!DNL Target] Aktivitätsdaten in [!DNL Analysis Workspace] anzeigen? {#workspace}
 
 +++Antwort
-Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
+Sie können [!DNL Analysis Workspace] verwenden, um Ihre [!DNL Target] Aktivitäten und Erlebnisse zu analysieren. Im [Bedienfeld „Analytics for ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=de)&quot; können Sie Steigerung und Konfidenz für bis zu drei Erfolgsmetriken anzeigen. Mithilfe von Tabellen und Visualisierungen können Sie auch tiefer gehen.
 
 Detaillierte Informationen und Beispiele finden Sie im Tutorial [Analytics und Target: Best Practices für Analysen](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) von [!UICONTROL Adobe Experience League].
 
@@ -63,7 +69,7 @@ Wenn Sie ein Segment für eine Aktivität erstellen, um in einem Treffer vorhand
 ## Warum kann ich bei der Konfiguration [!UICONTROL Zielmetriken] nicht auf die [!UICONTROL erweiterten Einstellungen] zugreifen?
 
 +++Antwort
-Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
+Bei Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, verwendet die Zielmetrik die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
 
 Weitere Informationen finden Sie unter „Warum kann ich bei der Konfiguration meiner Zielmetriken nicht auf die erweiterten Einstellungen zugreifen?“. in [Metrikdefinitionen - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -94,7 +100,7 @@ Weitere Informationen finden Sie unter [Einrichten von A4T-Berichten in Analysis
 +++Antwort
 [!DNL Reports & Analytics] wendet ein Attributionsmodell für denselben Kontakt auf „Aktivitätsimpressionen“ und „Aktivitätskonversionen“ an, während [!DNL Analysis Workspace] die Rohmetriken anzeigt, die aufgrund der Persistenz der [!DNL Target] Dimension überhöht erscheinen können.
 
-Um genaue Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionen] in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch]-Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und dann [!UICONTROL Selber Kontakt] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=de) im *Handbuch zu Analytics-Tools*.
+Um genaue Metriken [!UICONTROL Aktivitätsimpressionen] und [!UICONTROL Aktivitätskonversionen] in [!DNL Analysis Workspace] auszuwerten, stellen Sie sicher, dass auf beide Metriken [!UICONTROL Same Touch]-Attributionsmodelle angewendet wurden. Modelle können angewendet werden, indem Sie auf das Zahnrad für die Spalteneinstellungen klicken, [!UICONTROL Nicht standardmäßige Attributionsmodelle] aktivieren und dann [!UICONTROL Selber Kontakt] auswählen. Weitere Informationen zur Attribution finden Sie unter [Attributes IQ - Übersicht](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) im *Handbuch zu Analytics-Tools*.
 
 +++
 
@@ -160,7 +166,7 @@ Der Benutzer kehrt am 1. April zurück, betrachtet fünf weitere Seiten und t�
 
 Da beide Erlebnisse vor der Konversion gesehen wurden, erhalten beide „Anerkennung“ für die Bestellung. Im System gab es jedoch nur eine Bestellung, was die Summe zeigt. Da Sie für [!DNL Target] Reporting keine [!DNL Target] Aktivität mit einer anderen Aktivität vergleichen, um festzustellen, welche Aktivität erfolgreicher ist, ist es egal, ob alle Aktivitäten, die der/die Benutzende gesehen hat, gutgeschrieben wurden. Sie vergleichen die Ergebnisse von zwei Elementen innerhalb der einzelnen Aktivität. Es ist für einen Benutzer nicht möglich, verschiedene Erlebnisse in derselben Aktivität zu sehen, sodass Sie sich keine Sorgen über eine Kreuzkontamination des Bestellguthabens machen müssen.
 
-Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=de)) im *Analytics-Administratorhandbuch*.
+Weitere Informationen finden Sie unter [Konversionsvariablen (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) im *Analytics-Administratorhandbuch*.
 
 +++
 
@@ -232,7 +238,7 @@ Hier einige Punkte, die Sie beim Anzeigen [!DNL Analytics] Berichte beachten sol
 So zeigen Sie Aktivitätsimpressionen in [!DNL Analysis Workspace] an:
 
 1. Klicken Sie in der [!DNL Target]-Benutzeroberfläche auf **[!UICONTROL In Analytics anzeigen]**.
-1. Fügen Sie **Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=de){target=_blank} die Spalte** Aktivitätsimpressionen“ hinzu.
+1. Fügen Sie **[!UICONTROL Bericht [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} die Spalte]** Aktivitätsimpressionen“ hinzu.
 1. Klicken Sie in **[!UICONTROL Spalte]** Aktivitätsimpressionen“ auf das Symbol [!UICONTROL Zahnrad] .
 1. Klicken Sie **[!UICONTROL Nicht-standardmäßiges Attributionsmodell verwenden]**.
 1. Wählen Sie **[!UICONTROL Gleiches Touch-Modell]** > **[!UICONTROL Anwenden]** aus.

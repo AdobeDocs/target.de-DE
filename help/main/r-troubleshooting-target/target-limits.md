@@ -1,32 +1,44 @@
 ---
 keywords: zeichenbeschränkung;mbox-parameter;batch-bereitstellungs-api;profilparameter;beschränkungen;integrierte profile;maximum;beschränkung;bedingung;zeichen;best practice;orderid;orderTotal;mbox3rdPartyID;kategorie;categoryID;fehlerbehebung
-description: Zeigen Sie eine Liste der Zeichenbeschränkungen und anderer Beschränkungen an, die Aktivitäten und andere Elemente in  [!DNL Adobe Target] betreffen.
+description: Zeigen Sie eine Liste der Zeichenbeschränkungen und anderer Beschränkungen an, die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
 title: Welche Zeichen, Größen und sonstigen Beschränkungen gibt es in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # Beschränkungen
 
 Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Werte, Parameter usw.) die Aktivitäten und andere Elemente in [!DNL Adobe Target] betreffen.
@@ -81,17 +93,17 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
   Wenn ein Kunde 100 gleichzeitige [!DNL Target]-Anfragen zur Inhaltsbereitstellung für eine bestimmte Benutzersitzung überschreitet, werden alle nachfolgenden Anfragen für diese Benutzersitzung blockiert. Zwei oder mehr Anfragen gelten als gleichzeitig, wenn sie alle an den [!DNL Target]-Server gesendet werden, bevor die Antwort für eine dieser Anfragen empfangen wird. [!DNL Target] verarbeitet gleichzeitige Anfragen für dieselbe Sitzung sequenziell.
 
-   * **Fehlerverhalten**:
+  * **Fehlerverhalten**:
 
-      * Bereitstellungs-API und Batch-Mbox v2:
-         * Fehler-Code: HTTP 420 – zu viele Anfragen
-         * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
+    * Bereitstellungs-API und Batch-Mbox v2:
+      * Fehler-Code: HTTP 420 – zu viele Anfragen
+      * Fehlermeldung: „Zu viele Anfragen mit derselben Sitzungs-ID“
 
-      * Legacy-mBox-API:
-         * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
+    * Legacy-mBox-API:
+      * Standardinhalt mit Kommentar „Zu viele Anfragen mit derselben Sitzungs-ID“
 
-      * at.js:
-         * Standardinhalt wird angezeigt
+    * at.js:
+      * Standardinhalt wird angezeigt
 
 * **Limit**: 50 Mboxes pro [!DNL Target]-Mbox-Anfrage für die Inhaltsbereitstellung.
 
@@ -139,8 +151,8 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
 * **Zeichenbeschränkung**: Die maximale Zeichenlänge hängt von der Sprache ab.
 
-   * 15.000 Zeichen (Einzelwert, Ein- und Zwei-Byte-Sprachen)
-   * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
+  * 15.000 Zeichen (Einzelwert, Ein- und Zwei-Byte-Sprachen)
+  * 500 Werte, 100 Zeichen pro Wert (mehrere Werte)
 
   Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-codierte Sprachen wie Englisch und andere Sprachen mit lateinischen Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-codierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
@@ -212,9 +224,9 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
   Für Standard-Mbox-Aufrufe:
 
-   * Mbox-Parameter: 500 Parameter pro Mbox.
-   * Profilparameter: 500 Profilparameter pro Mbox.
-   * Andere Parameter (URL, verweisende URL usw.): 50 pro Mbox für jeden anderen Parametertyp.
+  * Mbox-Parameter: 500 Parameter pro Mbox.
+  * Profilparameter: 500 Profilparameter pro Mbox.
+  * Andere Parameter (URL, verweisende URL usw.): 50 pro Mbox für jeden anderen Parametertyp.
 
   Diese Beschränkungen gelten, sofern die Anfrage nicht durch Webbrowser-Beschränkungen gekürzt wird.
 
@@ -228,25 +240,25 @@ Zeichen- und andere Beschränkungen (Angebotsgröße, Zielgruppen, Profile, Wert
 
   **Batch mbox v2**:
 
-   * Mbox-Parameter: 100
-   * Maximale Länge des Mbox-Parameternamens: 128
-   * Der Mbox-Parameterwert darf nicht null sein.
-   * Mbox-Parameterwert: 5000
-   * Profilparameter: 50
-   * Maximale Länge des Profilparameternamens: 128
-   * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 256
+  * Mbox-Parameter: 100
+  * Maximale Länge des Mbox-Parameternamens: 128
+  * Der Mbox-Parameterwert darf nicht null sein.
+  * Mbox-Parameterwert: 5000
+  * Profilparameter: 50
+  * Maximale Länge des Profilparameternamens: 128
+  * Der Profilparameterwert darf nicht null sein.
+  * Maximale Länge des Profilparameterwerts: 256
 
   **Bereitstellungs-API – Endpunkt**:
 
-   * Mbox-Parameter: 100
-   * Maximale Länge des Mbox-Parameternamens: 128
-   * Der Mbox-Parameterwert darf nicht null sein.
-   * Mbox-Parameterwert: 5000
-   * Profilparameter: 50
-   * Maximale Länge des Profilparameternamens: 128
-   * Der Profilparameterwert darf nicht null sein.
-   * Maximale Länge des Profilparameterwerts: 256
+  * Mbox-Parameter: 100
+  * Maximale Länge des Mbox-Parameternamens: 128
+  * Der Mbox-Parameterwert darf nicht null sein.
+  * Mbox-Parameterwert: 5000
+  * Profilparameter: 50
+  * Maximale Länge des Profilparameternamens: 128
+  * Der Profilparameterwert darf nicht null sein.
+  * Maximale Länge des Profilparameterwerts: 256
 
 ### URL-Adressen zur Mbox-Anfrage
 

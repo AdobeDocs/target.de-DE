@@ -1,29 +1,38 @@
 ---
 keywords: Aktivitätseinstellungen;Ziele und Einstellungen für Erlebnis-Targeting;XT-Ziele und -Einstellungen;Erlebnis-Targeting;Einstellungen der Berichterstellung;Zielmetriken;Erfolgsmetriken;abhängige Erfolgsmetriken;erweiterte Einstellungen;primäres Ziel;zusätzliche Metriken;Ziel;Priorität;Dauer;Berichtslösung;Ziele;Zielgruppen für die Berichterstellung;Welche Erfolgsmetriken müssen erreicht werden, bevor diese Metrik inkrementiert wird;Was passiert, nachdem ein Benutzer auf diese Zielmetrik stößt;Hinweise
-description: Erfahren Sie, wie Sie auf der [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target]  Informationen zu den Zielen einer [!UICONTROL Experience Targeting]-Aktivität (XT) angeben.
+description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target] Informationen zu den Zielen einer [!UICONTROL Erlebnis-Targeting]-Aktivität (XT) angeben.
 title: Wie gebe ich [!UICONTROL Ziele und Einstellungen] in einer [!UICONTROL Experience Targeting]-Aktivität an?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+TQID: 'https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1285
+source-wordcount: '1288'
 ht-degree: 42%
-
 ---
-
 # Ziele und Einstellungen in [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT)
 
-Auf [!UICONTROL &#x200B; Seite „Ziele &#x200B;] Einstellungen“ geben Sie Informationen zu den Testzielen ein:
+Auf [!UICONTROL  Seite „Ziele ] Einstellungen“ geben Sie Informationen zu den Testzielen ein:
 
 * [!UICONTROL Aktivitätseinstellungen]
 * [!UICONTROL Berichterstellungseinstellungen]
@@ -45,7 +54,7 @@ Je nach Ihren Einstellungen variieren die [!DNL Target] Benutzeroberfläche und 
 
 Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Standort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-Wenn diese Option in [!UICONTROL Administration) nicht aktiviert &#x200B;], geben Sie eine Priorität an: [!UICONTROL Niedrig], [!UICONTROL Medium] oder [!UICONTROL Hoch].
+Wenn diese Option in [!UICONTROL Administration) nicht aktiviert ], geben Sie eine Priorität an: [!UICONTROL Niedrig], [!UICONTROL Medium] oder [!UICONTROL Hoch].
 
 Um feinabgestimmte Prioritäten zu aktivieren, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Reporting]** und schalten Sie dann die Option [!UICONTROL Feinabgestimmte Prioritäten aktivieren] auf „Ein“ um.
 
@@ -54,7 +63,7 @@ Wenn diese Option aktiviert ist, geben Sie einen Wert zwischen 0 und 999 an:
 * 0 = Niedrig
 * 999 = Hoch
 
-Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[!UICONTROL &#x200B; wird &#x200B;] Priorität auf 0, [!UICONTROL Medium &#x200B;] auf 5 und [!UICONTROL Hoch] auf 10 konvertiert. Diese Werte können nach Wunsch angepasst werden.
+Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[!UICONTROL  wird ] Priorität auf 0, [!UICONTROL Medium ] auf 5 und [!UICONTROL Hoch] auf 10 konvertiert. Diese Werte können nach Wunsch angepasst werden.
 
 >[!NOTE]
 >
@@ -62,7 +71,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[
 
 ### [!UICONTROL Dauer]
 
-Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität beendet werden, wenn sie deaktiviert ist, oder Sie können ein Datum und eine Uhrzeit für das Ende der Aktivität festlegen. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität beendet werden, wenn sie deaktiviert ist, oder Sie können ein Datum und eine Uhrzeit für das Ende der Aktivität festlegen. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
 ## [!UICONTROL Berichterstellungseinstellungen] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -84,7 +93,7 @@ Sie können Ihre Berichtsquelle nicht ändern, nachdem die Aktivität live gesch
 
 Bei der Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) wählen Sie eine [!DNL Analytics] Report Suite aus, um [!DNL Target] Aktivitätsdaten zu erhalten. Wählen Sie dazu zunächst eines der [!DNL Analytics] Unternehmen aus, mit denen Ihr Konto verknüpft ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwartete Report Suite nicht angezeigt wird, versuchen Sie zunächst, sich abzumelden und sich wieder bei der [!DNL Adobe Experience Cloud] anzumelden, um es dann erneut zu versuchen. Wenn die Report Suite noch fehlt, wenden Sie sich an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-[!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking-Server] wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [&#x200B; unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
+[!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking-Server] wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [ unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
 
 **[!DNL Adobe Customer Journey Analytics]**: Siehe [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target].
 
@@ -100,7 +109,7 @@ Weitere Informationen zum Festlegen von Metriken finden Sie unter [Festlegen von
 
 Bei der Auswahl Ihrer Erfolgsmetrik wird ein Selektor angezeigt. Verwenden Sie diesen Selektor, um Einzelheiten zu dieser Erfolgsmetrik auszuwählen.
 
-Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der &#x200B;] „Geschätzter Wert der Konversion“ (nicht verfügbar für [!UICONTROL Seitenwert]-Metriken) einen Wert für Ihr Ziel, aber nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Umsatz pro Besucher], [!UICONTROL Durchschnittlicher Bestellwert], [!UICONTROL Gesamtumsatz] und [!UICONTROL Bestellungen]) verwendet die Schätzung [!UICONTROL Umsatz pro Besucher]. Der Datentyp ist eine Währung.
+Wenn diese Option aktiviert ist[!UICONTROL  liefert der ] „Geschätzter Wert der Konversion“ (nicht verfügbar für [!UICONTROL Seitenwert]-Metriken) einen Wert für Ihr Ziel, aber nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Umsatz pro Besucher], [!UICONTROL Durchschnittlicher Bestellwert], [!UICONTROL Gesamtumsatz] und [!UICONTROL Bestellungen]) verwendet die Schätzung [!UICONTROL Umsatz pro Besucher]. Der Datentyp ist eine Währung.
 
 Nach Erreichen des Aktivitätsziels wird einem Besucher weiterhin der Aktivitätsinhalt angezeigt, es sei denn, dieser Besucher qualifiziert sich für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Dieses Verhalten unterscheidet sich vom Standardverhalten in [!DNL Target Classic], das Besucher als neu zählt, wenn sie den Test erneut sehen.
 

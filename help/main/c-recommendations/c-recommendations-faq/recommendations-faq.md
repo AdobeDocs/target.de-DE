@@ -1,23 +1,30 @@
 ---
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
-description: Eine Liste der häufig gestellten Fragen und Antworten zu - [!DNL Target Recommendations] .
+description: Eine Liste der häufig gestellten Fragen und Antworten zu [!DNL Target Recommendations] Aktivitäten.
 title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # Recommendations-FAQs
 
 Liste der häufig gestellten Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten.
@@ -73,9 +80,9 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 * Eine Änderung der Promotion-Einstellungen kann bis zu fünf Stunden dauern, bis sie auf der Website angezeigt wird.
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
 
-   * Einige Kriterieneinstellungen (z. B. „Hinzufügen einer dynamischen Einschlussregel„) werden sofort angezeigt.
-   * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, Änderung des Lookback-Fensters usw.) können erst einbezogen werden, wenn der nächste Algorithmus ausgeführt wird.
-   * Algorithmusausführungen werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern, bis sie abgeschlossen sind. Algorithmen können auch planmäßig alle 12–24 Stunden ausgeführt werden.
+  * Einige Kriterieneinstellungen (z. B. „Hinzufügen einer dynamischen Einschlussregel„) werden sofort angezeigt.
+  * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, Änderung des Lookback-Fensters usw.) können erst einbezogen werden, wenn der nächste Algorithmus ausgeführt wird.
+  * Algorithmusausführungen werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern, bis sie abgeschlossen sind. Algorithmen können auch planmäßig alle 12–24 Stunden ausgeführt werden.
 
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird *die der* erhält?
 
@@ -109,7 +116,7 @@ Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nic
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
+[!DNL Target] verfügt über eine Einstellung zum [Filtern inkompatibler Kriterien](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}, um die intelligente Filterung der Algorithmusauswahl zu steuern.
 
 >[!NOTE]
 >

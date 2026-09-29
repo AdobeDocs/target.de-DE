@@ -1,16 +1,23 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie in Adobe- [!DNL Target]  Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden.
+description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations Ausschlüsse erstellen, um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden.
 title: Wie verwende ich Ausschlüsse in Recommendations-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 30%
-
 ---
-
 # Ausnahmen
 
 Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
@@ -37,7 +44,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} zum Ändern der Standardhostgruppe.
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Ausschluss erstellen]**.
 
@@ -82,4 +89,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/35308?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

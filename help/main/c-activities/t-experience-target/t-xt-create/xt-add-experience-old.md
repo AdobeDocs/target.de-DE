@@ -1,16 +1,23 @@
 ---
 keywords: Erlebnis erstellen;Erlebniserstellung;Priorität;Zielgruppe;Erlebnis;Visual Experience Composer
-description: Erfahren Sie, wie Sie mit  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Erlebnisse auf Ihrer Seite in einer [!UICONTROL Experience Targeting]-Aktivität (XT) erstellen und bearbeiten.
+description: Erfahren Sie, wie Sie mit [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Erlebnisse auf Ihrer Seite in einer Aktivität vom Typ [!UICONTROL Experience Targeting] (XT) erstellen und bearbeiten.
 title: Wie erstelle ich Erlebnisse in einer [!UICONTROL Erlebnis-Targeting]-Aktivität?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 32%
-
 ---
-
 # Erstellen von Erlebnissen [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT)
 
 Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet eine visuelle Benutzeroberfläche zum Bearbeiten der Erlebnisse auf Ihrer Seite in einer [!UICONTROL Experience Targeting]-Aktivität (XT).
@@ -39,7 +46,7 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
    Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie verschiedene Zielgruppen miteinander kombinieren, um anstelle neuer Zielgruppen eine Ad-hoc-Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Beim Erstellen einer Zielgruppe können Sie einen Speicherort auswählen und Parameter für diesen Speicherort angeben. Wählen [!UICONTROL &#x200B; unter &#x200B;] ([!UICONTROL Zielgruppe erstellen] > [!UICONTROL Benutzerdefiniert] den Speicherort aus und geben Sie dann die gewünschten Parameter an.
+   Beim Erstellen einer Zielgruppe können Sie einen Speicherort auswählen und Parameter für diesen Speicherort angeben. Wählen [!UICONTROL  unter ] ([!UICONTROL Zielgruppe erstellen] > [!UICONTROL Benutzerdefiniert] den Speicherort aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
@@ -73,9 +80,9 @@ Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] bietet 
 
    [!UICONTROL Erlebnis-Targeting] geht davon aus, dass die Reihenfolge wichtig ist. Wenn ein Besucher in das erste Zielgruppen- und Erlebnispaar fällt, wird das erste Erlebnis bereitgestellt.
 
-   Angenommen, Ihnen war nicht bewusst, dass beim Erstellen einer Experience Targeting[!UICONTROL Aktivität die Reihenfolge &#x200B;]. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario können alle Benutzer aus den USA die Kriterien für Erlebnis A erfüllen, auch wenn sie sich in San Francisco oder anderswo in Kalifornien befinden. Sie können die Audience-Erlebnis-Paare von der restriktivsten zur am wenigsten restriktiven (San Francisco > Kalifornien > USA) neu anordnen, ohne die gesamte Aktivität neu zu erstellen.
+   Angenommen, Ihnen war nicht bewusst, dass beim Erstellen einer Experience Targeting[!UICONTROL Aktivität die Reihenfolge ]. Später im Verlauf des Tests stellen Sie fest, dass sich Besucher, die sich Ihrer Meinung nach eigentlich für Erlebnis B oder C qualifizieren müssten, stattdessen für Erlebnis A qualifizieren. Eine Ursache dafür könnte sein, dass sich die Zielgruppen nicht gegenseitig ausschließen und sich nicht in der richtigen Reihenfolge befinden (z. B. Erlebnis A = USA, Erlebnis B = San Francisco und Erlebnis C = Kalifornien). In diesem Szenario können alle Benutzer aus den USA die Kriterien für Erlebnis A erfüllen, auch wenn sie sich in San Francisco oder anderswo in Kalifornien befinden. Sie können die Audience-Erlebnis-Paare von der restriktivsten zur am wenigsten restriktiven (San Francisco > Kalifornien > USA) neu anordnen, ohne die gesamte Aktivität neu zu erstellen.
 
-   Wenn Sie eine Zielgruppe [!UICONTROL Alle Besucher] haben, stellen Sie sicher, dass sie nicht die erste Zielgruppe im Diagramm ist. Ein Erlebnis, das auf &quot;[!UICONTROL &#x200B; Besucher] ausgerichtet ist, kann als letztes Erlebnis in der Aktivität [!UICONTROL Erlebnis-Targeting] verwendet werden, um alle Besucher zu „fangen“, die nicht in ein anderes Erlebnis gefallen sind.
+   Wenn Sie eine Zielgruppe [!UICONTROL Alle Besucher] haben, stellen Sie sicher, dass sie nicht die erste Zielgruppe im Diagramm ist. Ein Erlebnis, das auf &quot;[!UICONTROL  Besucher] ausgerichtet ist, kann als letztes Erlebnis in der Aktivität [!UICONTROL Erlebnis-Targeting] verwendet werden, um alle Besucher zu „fangen“, die nicht in ein anderes Erlebnis gefallen sind.
 
 ## Umbenennen oder Bearbeiten eines Erlebnisses
 
@@ -112,17 +119,17 @@ In diesem Video wird beschrieben, wie Sie A/B-Tests mit [!UICONTROL Experience T
 * Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
 * Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
 
->[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Aktivitätstypen (9:03)
 
-In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Erlebnis-Targeting] wird ab 5 :15.
+In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläutert. [!UICONTROL Erlebnis-Targeting] wird ab 17.15 Uhr besprochen.
 
 * Beschreiben der Aktivitätstypen in [!DNL Adobe Target]
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Verwenden von [!UICONTROL Visual Experience Composer]
 
@@ -131,4 +138,4 @@ In diesem Video erfahren Sie, wie Sie die Optionen [!UICONTROL Erlebnis-Targetin
 * Inhalt einer Seite ändern
 * Layout einer Seite ändern
 
->[!VIDEO](https://video.tv.adobe.com/v/29396?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

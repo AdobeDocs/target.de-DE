@@ -1,26 +1,34 @@
 ---
 keywords: KI-Assistent;Assistent für künstliche Intelligenz;Inhaltserstellung;Inhaltsbeschleuniger;Inhaltserstellung;Inhalt generieren
-description: Erfahren Sie, wie Sie ansprechende Inhalte generieren mit [!DNL AI Assistant].
-title: Wie verwende ich " [!DNL AI Assistant] ",  [!DNL Target]  ansprechenden Inhalt zu generieren?
+description: Erfahren Sie, wie Sie mit [!DNL AI Assistant] ansprechende Inhalte generieren können.
+title: Wie verwende ich die [!DNL AI Assistant] in [!DNL Target], um ansprechende Inhalte zu generieren?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Funktionen von Beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+TQID: 'https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 825
-ht-degree: 2%
-
+source-wordcount: '835'
+ht-degree: 1%
 ---
-
 # Verwenden von [!DNL AI Assistant] in [!DNL Adobe Target] für die Inhaltserstellung
 
 Fördern Sie Interaktion und Konversionen in [!DNL Adobe Target] mit [!DNL AI Assistant]. Nutzen Sie generative KI, um personalisierten, wirkungsvollen Text zu erstellen, der bei Ihrer Audience Anklang findet und Ihre Aktivitätsinhalte erhöht.
@@ -66,7 +74,7 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
    * **Tone**: Der Ton Ihres Textes sollte bei Ihrer Audience Anklang finden. Egal ob Sie informativ, aufregend, verspielt oder überzeugend klingen möchten, [!DNL AI Assistant] können die Botschaft entsprechend anpassen.
 
-     Zu den Optionen gehören: [!UICONTROL Keine], [!UICONTROL Professionell], [!UICONTROL Empathisch], [!UICONTROL Humorvoll], [!UICONTROL Spannend], [!UICONTROL Überzeugend], [!UICONTROL Freundlich], [!UICONTROL Formal], [!UICONTROL Apologetisch]   ,Assertiv , Story TellingundConversationalConversational.
+     Zu den Optionen gehören: [!UICONTROL Keine], [!UICONTROL Professionell], [!UICONTROL Empathisch], [!UICONTROL Humorvoll], [!UICONTROL Spannend], [!UICONTROL Überzeugend], [!UICONTROL Freundlich], [!UICONTROL Formal], [!UICONTROL Apologetisch]   ,Assertiv] [!UICONTROL , Story TellingundConversationalConversational.
 
 1. Wählen Sie mit dem Schieberegler aus, wie lange der Text kürzer oder länger sein soll.
 
@@ -86,8 +94,8 @@ So generieren Sie ansprechenden Text mit [!DNL AI Assistant]:
 
 1. (Optional) Geben Sie Feedback an die [!DNL AI Assistant].
 
-   * Klicken Sie auf das Symbol „Daumen hoch![&#x200B; ( &#x200B;](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
-   * Klicken Sie auf das Symbol mit den ![&#x200B; nach unten ( &#x200B;](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
+   * Klicken Sie auf das Symbol „Daumen hoch![ ( ](/help/main/assets/icons/ThumbUp.svg) ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante mögen.
+   * Klicken Sie auf das Symbol mit den ![ nach unten ( ](/help/main/assets/icons/ThumbDown.svg)-Symbol ), um [!DNL AI Assistant] mitzuteilen, dass Sie die Variante nicht mögen.
    * Klicken Sie auf [!UICONTROL Berichtsergebnisse] ( ![Berichtsergebnissymbol](/help/main/assets/icons/Flag.svg) ), um ein Problem an die [!DNL AI Assistant] zu melden.
 
 ## Beispielvarianten {#variations}
@@ -107,4 +115,4 @@ Die folgende Eingabeaufforderung und die folgenden Varianten zeigen die Leistung
 
 ### Erstellen von Inhalten mit dem KI-Assistenten für die Inhaltserstellung
 
->[!VIDEO](https://video.tv.adobe.com/v/3434644/?captions=ger&learn=on">https://video.tv.adobe.com/v/3434644/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

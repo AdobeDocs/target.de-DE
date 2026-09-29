@@ -4,20 +4,23 @@ description: Erfahren Sie mehr über die verschiedenen Möglichkeiten, eine vorh
 title: Wie bearbeite ich eine Aktivität?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # Bearbeiten einer Aktivität
 
 Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten. In diesem Artikel werden die verschiedenen Methoden behandelt, die in der [!DNL Target]-Oberfläche zum Ändern von Aktivitäten verfügbar sind. Unabhängig davon, ob Sie Erlebnisse aktualisieren, Targeting-Regeln anpassen oder Ziele konfigurieren, stellt [!DNL Target] sicher, dass Ihre Änderungen vor der Aktivierung sicher gespeichert werden.
@@ -36,10 +39,10 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
 1. Wenn Sie zur Seite **Ziele und Einstellungen** gelangen, haben Sie die folgenden Optionen:
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
+   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; ] Aktivität anzuzeigen.
    * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite „Aktivitäten[!UICONTROL &#x200B; auf ihren Namen &#x200B;]. {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite „Aktivitäten[!UICONTROL  auf ihren Namen ]. {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Um den Workflow nicht schrittweise zu durchlaufen, klicken Sie auf der Seite [!UICONTROL Aktivitäten] auf die gewünschte Aktivität, um ihn zu öffnen. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Aktivität bearbeiten]** und wählen Sie die gewünschte Option aus.
 
@@ -49,7 +52,7 @@ Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten.
 
 1. Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität.
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
+   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; ] Aktivität anzuzeigen.
    * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
 ## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
@@ -70,33 +73,33 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 
 * Wenn Sie eine Aktivität im selben Arbeitsbereich oder aus dem Standardarbeitsbereich in einen nicht standardmäßigen Arbeitsbereich kopieren, wird der Aktivitätsassistent automatisch geöffnet. In arbeitsbereichsübergreifenden Kopien müssen Sie möglicherweise nur die Eigenschaften der Aktivität aktualisieren.
 * Wenn eine Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen Arbeitsbereich kopiert wird (unabhängig davon, ob es sich um einen standardmäßigen oder nicht standardmäßigen Arbeitsbereich handelt), wird der Aktivitätsassistent geöffnet. Zum Abschließen der Einrichtung sind einige manuelle Eingaben erforderlich:
-   * **[!UICONTROL Eigenschaften]**: Eigenschaften können je nach Arbeitsbereich unterschiedlich sein. Diese Situation könnte einen Trigger für einen Warnhinweis darstellen:
+  * **[!UICONTROL Eigenschaften]**: Eigenschaften können je nach Arbeitsbereich unterschiedlich sein. Diese Situation könnte einen Trigger für einen Warnhinweis darstellen:
 
-      * In [!UICONTROL Form-Based Experience Composer] werden Warnungen direkt in der Benutzeroberfläche angezeigt, um eine sofortige Sichtbarkeit zu gewährleisten.
+    * In [!UICONTROL Form-Based Experience Composer] werden Warnungen direkt in der Benutzeroberfläche angezeigt, um eine sofortige Sichtbarkeit zu gewährleisten.
 
-        ![Warnung zum formularbasierten Arbeitsbereich](/help/main/c-activities/assets/form-based-warning.png)
+      ![Warnung zum formularbasierten Arbeitsbereich](/help/main/c-activities/assets/form-based-warning.png)
 
-      * In VEC werden Warnungen angezeigt, wenn Sie auf [!UICONTROL Konfigurieren] > [!UICONTROL Eigenschaften] klicken.
+    * In VEC werden Warnungen angezeigt, wenn Sie auf [!UICONTROL Konfigurieren] > [!UICONTROL Eigenschaften] klicken.
 
-        ![VEC-Warnung](/help/main/c-activities/assets/vec-warning.png)
+      ![VEC-Warnung](/help/main/c-activities/assets/vec-warning.png)
 
-        Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Hinzufügen/Entfernen] sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
+      Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Hinzufügen/Entfernen] sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
 
-   * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen [!DNL Target]- oder Ad-hoc-Audiences und -Angebote aus dem ursprünglichen Arbeitsbereich mithilfe des folgenden Formats dupliziert: `<Entity Name> Copy <Date>` für [!DNL Target] Audiences und für Ad-hoc-Angebote `<Entity Name>`.
+  * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen [!DNL Target]- oder Ad-hoc-Audiences und -Angebote aus dem ursprünglichen Arbeitsbereich mithilfe des folgenden Formats dupliziert: `<Entity Name> Copy <Date>` für [!DNL Target] Audiences und für Ad-hoc-Angebote `<Entity Name>`.
 
-     Verhaltensdetails:
+    Verhaltensdetails:
 
-      * Kopierte Zielgruppen und Angebote werden erst dann in den Listen [!UICONTROL Zielgruppen] und [!UICONTROL Angebote] angezeigt, wenn die Aktivität gespeichert und erneut geöffnet wird.
-      * Diese Entitäten können nicht sofort nach dem Kopieren bearbeitet werden. Kunden sehen möglicherweise während der ersten Bearbeitungssitzung leere Inhalte in Visual Experience Composer für diese Elemente.
-      * Kunden können kopierte Zielgruppen oder Angebote bei Bedarf aus dem Zielarbeitsbereich durch andere ersetzen.
+    * Kopierte Zielgruppen und Angebote werden erst dann in den Listen [!UICONTROL Zielgruppen] und [!UICONTROL Angebote] angezeigt, wenn die Aktivität gespeichert und erneut geöffnet wird.
+    * Diese Entitäten können nicht sofort nach dem Kopieren bearbeitet werden. Kunden sehen möglicherweise während der ersten Bearbeitungssitzung leere Inhalte in Visual Experience Composer für diese Elemente.
+    * Kunden können kopierte Zielgruppen oder Angebote bei Bedarf aus dem Zielarbeitsbereich durch andere ersetzen.
 
-     Dieser Prozess sorgt für eine reibungslosere Duplizierung von Arbeitsbereich-übergreifenden Aktivitäten und bietet gleichzeitig Flexibilität bei der Anpassung.
+    Dieser Prozess sorgt für eine reibungslosere Duplizierung von Arbeitsbereich-übergreifenden Aktivitäten und bietet gleichzeitig Flexibilität bei der Anpassung.
 
-     Beim Kopieren einer Aktivität müssen Nicht-Target-Zielgruppen und Angebote, die weder im aktuellen noch im Standardarbeitsbereich gespeichert sind, manuell ersetzt werden.
+    Beim Kopieren einer Aktivität müssen Nicht-Target-Zielgruppen und Angebote, die weder im aktuellen noch im Standardarbeitsbereich gespeichert sind, manuell ersetzt werden.
 
-     Durch das manuelle Ersetzen dieser Zielgruppen, Zielgruppen und Angebote wird sichergestellt, dass in der kopierten Aktivität nur gültige, barrierefreie Entitäten verwendet werden. Außerdem werden Fehler während der Bearbeitung oder des Versands vermieden.
+    Durch das manuelle Ersetzen dieser Zielgruppen, Zielgruppen und Angebote wird sichergestellt, dass in der kopierten Aktivität nur gültige, barrierefreie Entitäten verwendet werden. Außerdem werden Fehler während der Bearbeitung oder des Versands vermieden.
 
-     ![Warnmeldung](/help/main/c-activities/assets/copy.png)
+    ![Warnmeldung](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

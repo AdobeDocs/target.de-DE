@@ -1,22 +1,29 @@
 ---
 keywords: Ausnahmen
-description: Erfahren Sie, wie Sie in Ausschlüsse erstellen [!DNL Target Recommendations]  um zu verhindern, dass Produkte oder Inhalte für Besucher empfohlen werden.
+description: Erfahren Sie, wie Sie in Ausschlüsse erstellen, [!DNL Target Recommendations] zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden.
 title: Wie verwende ich Ausschlüsse in [!UICONTROL Recommendations]-Aktivitäten?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # Ausnahmen
 
 Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
@@ -33,7 +40,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
 >[!IMPORTANT]
 >
->Ausschlussregeln werden global auf alle ([) &#x200B;](/help/main/administrating-target/environments.md).
+>Ausschlussregeln werden global auf alle ([) ](/help/main/administrating-target/environments.md).
 >
 >Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
@@ -41,7 +48,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [&#x200B; Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [ Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
 
 1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL Filter anzeigen]** (Symbol ![Filter anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Umgebung]** beim Erstellen (oder Aktualisieren) eines Ausschlusses aus, um eine Vorschau des Ausschlussinhalts in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
@@ -84,4 +91,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/35308?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

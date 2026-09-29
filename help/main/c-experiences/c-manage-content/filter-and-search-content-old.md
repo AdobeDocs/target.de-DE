@@ -1,16 +1,23 @@
 ---
 keywords: Inhaltsbibliothek;Assets;Suche;Filter
-description: Erfahren Sie, wie Sie in der Adobe-Angebotsbibliothek nach Code [!DNL Target]  und Bildangeboten suchen.
+description: Erfahren Sie, wie Sie in der Adobe [!DNL Target]-Angebotsbibliothek nach Code- und Bildangeboten suchen.
 title: Wie kann ich in der Angebotsbibliothek nach Inhalten suchen?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '265'
 ht-degree: 12%
-
 ---
-
 # Inhalte suchen und filtern
 
 Suchen nach Assets anhand von Keywords in der [!UICONTROL Angebote]-Bibliothek in [!DNL Adobe Target].
@@ -26,7 +33,7 @@ Suchen nach Assets anhand von Keywords in der [!UICONTROL Angebote]-Bibliothek i
 
 1. Klicken Sie **[!UICONTROL Angebote]** > **[!UICONTROL Bildangebote]**.
 
-1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ &#x200B;] konfigurieren.
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ ] konfigurieren.
 
    Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Listenansicht]:
 

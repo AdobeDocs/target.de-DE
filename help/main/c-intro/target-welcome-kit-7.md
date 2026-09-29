@@ -1,26 +1,35 @@
 ---
 keywords: Welcome Kit; Target Welcome Kit; Intro; Einführung; Erste Schritte
-description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe  [!DNL Target] , damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
+description: Beginnen wir nun mit Ihrer ersten Aktivität in Adobe [!DNL Target], damit Sie schon bald einen ROI aus Ihrer Investition erzielen können.
 title: Ich möchte meine erste Aktivität in Target erstellen. Wo beginne ich?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+TQID: 'https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1742
-ht-degree: 70%
-
+source-wordcount: '1743'
+ht-degree: 69%
 ---
-
 # Kapitel 7: Erstellen und Ausführen Ihrer ersten [!DNL Target]-Aktivität
 
 Sie möchten nun mit Ihrer ersten Aktivität in [!DNL Target] beginnen? Exzellent. Am besten nehmen wir uns eine Aktivität für Ihre Website, Ihre mobile Site oder Ihre mobile App vor, die nicht übermäßig komplex ist, Ihnen aber einen schnellen ROI bietet und Sie das Potenzial des Testens und Personalisierens mit [!DNL Target] ahnen lässt. Je nach Organisation und geschäftlichem Schwerpunkt könnten Sie mit Ihrer ersten Aktivität drei verschiedene Routen einschlagen.
@@ -101,7 +110,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Web-Entw
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL &#x200B; Link &#x200B;]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL  Link ]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 

@@ -1,30 +1,39 @@
 ---
 keywords: Fehlerbehebung;Metrik-Diskrepanzen;FAQ;Berichte;neuer Besucher;neue Besucher;wiederkehrender Besucher;wiederkehrende Besucher;wiederkehrender Besuch;neuer Besuch
-description: Hier finden Sie eine Liste häufig gestellter Fragen und Antworten zu Adobe [!DNL Target] Reporting.
-title: Wo finde ich Antworten auf Fragen zum  [!DNL Target] ?
+description: Erkunden Sie eine Liste häufig gestellter Fragen und Antworten zu Adobe [!DNL Target] Reporting.
+title: Wo finde ich Antworten auf Fragen zu [!DNL Target]?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
+TQID: 'https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1324
-ht-degree: 24%
-
+source-wordcount: '1393'
+ht-degree: 23%
 ---
-
 # Häufig gestellte Fragen zum Reporting
 
 Liste der häufig gestellten Fragen zur Berichterstellung in [!DNL Adobe Target].
@@ -67,7 +76,7 @@ Betrachten Sie das folgende Beispiel unter Berücksichtigung der oben genannten 
 
 Dieser Besucher wird in der Gesamtbesucherzahl der Aktivität als einzelner Besucher gezählt, obwohl er sowohl in den Segmenten „Neue Besucher“ als auch „Wiederkehrende Besucher“ gezählt wird.
 
-**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [&#x200B; der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [ der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Beispiel:
 
@@ -139,6 +148,6 @@ Zum Beispiel habe ich die Traffic-Aufteilung auf 50/50 oder 25/25/25/25 festgele
 * Die Best Practice für A/B- und MVT-Tests besteht darin, den Traffic gleichmäßig zu verteilen. Eine Änderung der Traffic-Verteilung zwischen Erlebnissen (z. B. von 90/10 auf 50/50) während eines Tests kann zu ungleichen Besucherzahlen zwischen den Erlebnissen führen. Das Erlebnis mit geringerem Traffic wird möglicherweise nie „aufholen“.
 * Wenn Sie die oben genannten Best Practices befolgen und die Traffic-Aufteilung sich im Laufe der Zeit nicht normalisiert, sollten Sie Folgendes überprüfen:
 
-   * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen über die aktuelle Version und die zugehörigen Versionshinweise finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
+  * Verwenden Sie die neueste at.js-Bibliothek? Weitere Informationen über die aktuelle Version und die zugehörigen Versionshinweise finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank}.
 
-   * Ist es ein Umleitungstest? Falsches Timing beim Auslösen von Tags auf der Seite kann zu ungleichen Traffic-Unterteilungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target]. Weitere Informationen zur Behebung einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+  * Ist es ein Umleitungstest? Falsches Timing beim Auslösen von Tags auf der Seite kann zu ungleichen Traffic-Unterteilungen führen, insbesondere bei Verwendung von [!DNL Analytics] als Datenquelle für eine [!DNL Target]. Weitere Informationen zur Behebung einer ungleichmäßigen Traffic-Verteilung bei einer Umleitungsaktivität mit Analytics for Target (A4T) finden Sie unter [Umleitungsangebote - A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

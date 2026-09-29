@@ -4,7 +4,16 @@ description: Erfahren Sie, wie durch das Vorab-Ausblenden von Inhalten das Flack
 title: Vorab-Ausblenden von Inhalten für personalisierte Erlebnisse
 feature: Administration & Configuration
 role: Admin
-source-git-commit: a002b0a3549c0e47734849fce0df63b0df9cdee0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -23,7 +32,7 @@ So funktioniert das Vorab-Ausblenden von Inhalten: vom Standardkonto über die I
 
 1. [!DNL Target] erstellt einen Regelsatz aus Live- [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]-Aktivitäten. Der Regelsatz listet Selektoren und Regionen auf, die sich im Versand ändern können.
 
-   Beachten Sie[!UICONTROL &#x200B; dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
+   Beachten Sie[!UICONTROL  dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
 
 1. Die -Bibliothek ruft diesen Regelsatz aus dem Adobe-CDN ab und blendet übereinstimmende Elemente nur dann vorab aus, wenn der personalisierte Inhalt noch geladen wird.
 
@@ -47,7 +56,7 @@ Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
 
-1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/prehide-sdk).
+1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche Aktivität  [!DNL Adobe Target] [!UICONTROL &#x200B; Multivarianz]Test verfügen.
+description: Erfahren Sie, wie Sie mit der Traffic-Schätzung wissen, ob Sie über ausreichend Traffic für eine erfolgreiche [!DNL Adobe Target] [!UICONTROL Multivarianz]Test) verfügen.
 title: Wie viel Traffic wird für eine Aktivität des Typs [!UICONTROL Multivariater Test] (MVT) benötigt?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # Schätzen des für eine erfolgreiche Aktivität [!UICONTROL Multivarianz-Test] erforderlichen Traffics
 
 Da ein Multivariater Test mehrere Erlebnisse vergleicht, ist es wichtig zu wissen, wie hoch der erforderliche Traffic ist, um aussagekräftige Ergebnisse zu erzielen. Die Traffic-Schätzung verwendet Statistiken über Ihre Seite und die Anzahl der getesteten Erlebnisse, um das Traffic-Aufkommen und die erforderliche Testdauer für einen erfolgreichen Test zu schätzen.
@@ -25,7 +29,7 @@ Der Test verwendet die Bonferroni-Korrektur zur Korrektur von Mehrfachvergleiche
 
 Die Traffic-Schätzung liefert auch Feedback, aus dem Sie erfahren, ob Sie über ausreichend Traffic verfügen, damit der von Ihnen entworfene Test erfolgreich ist.
 
-1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Traffic]** .
+1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Traffic]** .
 
    Die Traffic-Schätzung wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die Traffic-Schätzung auszublenden.
 

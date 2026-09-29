@@ -1,16 +1,23 @@
 ---
 keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
-description: Erfahren Sie, wie Besucher bei der Weiterentwicklung ihrer Profile in einer  [!DNL Adobe Target] [!UICONTROL Experience Targeting]-Aktivität (XT) zwischen Erlebnissen wechseln können.
-title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen &#x200B;]?
+description: Erfahren Sie, wie Besucherinnen und Besucher bei der Weiterentwicklung ihrer Profile in einer [!DNL Adobe Target]Experience [!UICONTROL Targeting](XT)-Aktivität zwischen Erlebnissen wechseln können.
+title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen ]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '742'
 ht-degree: 40%
-
 ---
-
 # Wechsel zwischen Erlebnissen in [!UICONTROL Experience Targeting]
 
 Mit [!UICONTROL Erlebnis-Targeting] können Sie steuern, welche Erlebnisse Besuchende im Laufe der Entwicklung ihrer Profile sehen.
@@ -24,7 +31,7 @@ Die folgende Liste enthält nur einige Szenarien, in denen sich die Besucherprof
 | Kategorieaffinität | Die Funktion [Kategorieaffinität](/help/main/c-target/c-visitor-profile/category-affinity.md) in [!DNL Target] erfasst automatisch die Kategorien der Besucheransicht und berechnet dann die Affinität der Besucher für die Kategorie zu Targeting-Zwecken. Besucherinnen und Besucher, die mehrere Artikel auf Ihrer Website zu einem bestimmten Thema angesehen haben, erhalten beispielsweise Inhalte, die mit diesem Thema in Verbindung stehen. |
 | Wochentag | Möglicherweise möchten Sie Besuchern kurz vor dem Wochenende Inhalte zu Filmen, Restaurants oder anderen Unterhaltungsmöglichkeiten anzeigen. |
 
-Um diese Funktionen in [!DNL Target] zu verwenden, müssen Sie bei der Arbeit mit Experience Targeting[!UICONTROL -Aktivitäten die folgenden Informationen &#x200B;]:
+Um diese Funktionen in [!DNL Target] zu verwenden, müssen Sie bei der Arbeit mit Experience Targeting[!UICONTROL -Aktivitäten die folgenden Informationen ]:
 
 * **Die Priorität wird von der Reihenfolge der Erlebnisse gesteuert, von oben nach unten.** Wenn sich ein Besucher für mehr als zwei Zielgruppen qualifiziert, erhält dieser Besucher Inhalte aus dem Erlebnis mit höherer Priorität.
 * **Besucher wechseln zwischen Erlebnissen in einer [!UICONTROL Erlebnis-Targeting]-Aktivität, wenn sie sich für die Zielgruppe eines Erlebnisses mit höherer Priorität qualifizieren.**

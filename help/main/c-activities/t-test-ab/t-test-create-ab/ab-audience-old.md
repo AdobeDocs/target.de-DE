@@ -1,16 +1,23 @@
 ---
 keywords: Zielgruppe;Zielgruppe auswählen;Zielgruppe wählen;Auswahl
-description: Die Zielgruppe bestimmt, welche Site-Besuchenden in Ihre Adobe-Aktivität  [!DNL Target]  werden.
-title: Wie wähle ich eine Zielgruppe in einer A/ [!DNL Target] -Aktivität aus?
+description: Die Zielgruppe bestimmt, welche Site-Besuchenden in Ihre Adobe-[!DNL Target]-Aktivität eingegeben werden.
+title: Wie wähle ich eine Zielgruppe in einer [!DNL Target] A/B-Aktivität aus?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 66%
-
+source-wordcount: '440'
+ht-degree: 65%
 ---
-
 # Zielgruppenauswahl
 
 Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivität eingegeben werden.
@@ -32,7 +39,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
    * [Neue Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [Erstellen einer Zielgruppe „Nur Aktivität“](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   Wählen Sie für einen A/B-Test ohne spezielle Zielgruppen-Zielgruppe als Standard &quot;[!UICONTROL &#x200B; Besucher“].
+   Wählen Sie für einen A/B-Test ohne spezielle Zielgruppen-Zielgruppe als Standard &quot;[!UICONTROL  Besucher“].
 
    Sie können eine Zielgruppe auch bearbeiten oder kopieren, indem Sie den Mauszeiger über die gewünschte Zielgruppe im Dialogfeld [!UICONTROL Zielgruppe hinzufügen] bewegen, wie unten dargestellt.
 
@@ -40,7 +47,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
 
    ![Symbol für Zielgruppe](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen [!UICONTROL &#x200B; unter „Benutzerdefinierte Parameter] die Mbox aus und geben Sie dann die gewünschten Parameter an.
+   Wenn Sie eine Zielgruppe erstellen, können Sie einen Standort (mbox) auswählen und Parameter für ihn festlegen. Wählen [!UICONTROL  unter „Benutzerdefinierte Parameter] die Mbox aus und geben Sie dann die gewünschten Parameter an.
 
    >[!NOTE]
    >
@@ -52,7 +59,7 @@ Die Zielgruppe bestimmt, welche Site-Besucher in Ihre [!DNL Adobe Target]-Aktivi
 
    ![Prozentsatz für Zielgruppen](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   Sie können Target auch &quot;[&#x200B; Traffic automatisch zuweisen“ &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   Sie können Target auch &quot;[ Traffic automatisch zuweisen“ ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Schulungsvideos
 
@@ -68,9 +75,9 @@ In diesem Video wird erläutert, wie sich Zielgruppen in [!DNL Target Standard/P
 * Zuordnung einer Aktivität zu einer Zielgruppe
 * Verwenden von Zielgruppen für die passive Berichterstattung zu einer Aktivität
 
->[!VIDEO](https://video.tv.adobe.com/v/29395?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Aktivitäts-Workflow - Targeting (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
+### Aktivitäts-Workflow - Zielgruppenbestimmung (2:14) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
 In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 

@@ -1,25 +1,30 @@
 ---
 keywords: Datenabweichungen; Analytics; Unterschiede; Varianz; a4t; Analytics für Target; Analytics als Berichtsquelle; Diskrepanzen; Diskrepanz
-description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen Adobe  [!DNL Target]  Analytics, wenn Sie Analytics nicht für  [!DNL Target] A4T) verwenden. Dadurch werden Datenabweichungen vollständig beseitigt.
+description: Erfahren Sie mehr über die erwarteten Datenabweichungen zwischen Adobe [!DNL Target] und Analytics, wenn Sie Analytics for [!DNL Target] (A4T) nicht verwenden. Dadurch werden Datenabweichungen vollständig beseitigt.
 title: Wie hoch ist die erwartete Datenabweichung zwischen Analytics und A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # Erwartete Datenabweichungen zwischen Adobe [!DNL Target] und Adobe Analytics bei Verwendung und Nichtverwendung von A4T
 
 Informationen zu erwarteten Datenabweichungen zwischen [!DNL Target] und Adobe [!DNL Analytics] bei der *Verwendung* und *Nicht*-Verwendung von Analytics als Berichtsquelle (A4T). A4T reduziert Datenabweichungen erheblich.

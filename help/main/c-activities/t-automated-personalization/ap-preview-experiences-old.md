@@ -1,22 +1,29 @@
 ---
 keywords: Automated Personalization;App;Vorschau;Erlebnis ausschließen
-description: Erfahren Sie, wie Sie jedes Erlebnis in einer [!UICONTROL Automated Personalization] (AP)-Aktivität in  [!DNL Adobe Target] mit dem [!UICONTROL Visual Experience Composer] (VEC) in der Vorschau anzeigen.
+description: 'Erfahren Sie, wie Sie in [!DNL Adobe Target] mit dem Visual Experience Composer (VEC) eine Vorschau der einzelnen Erlebnisse in ]0[!UICONTROL Automated Personalization](AP)-Aktivität anzeigen.[!UICONTROL '
 title: Wie kann ich eine Vorschau von [!UICONTROL Automated Personalization]-Erlebnissen in VEC anzeigen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 12%
-
 ---
-
 # Erlebnisvorschau in [!UICONTROL Automated Personalization]-Aktivitäten im [!UICONTROL Visual Experience Composer] (VEC)
 
 Da [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-Aktivitäten mehrere Angebote auf einer Seite vergleichen, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
 
-1. Klicken Sie [!UICONTROL &#x200B; Visual Experience Composer &#x200B;] VEC auf **[!UICONTROL Vorschau]**.
+1. Klicken Sie [!UICONTROL  Visual Experience Composer ] VEC auf **[!UICONTROL Vorschau]**.
 
    ![Vorschau-Symbol](/help/main/c-activities/t-automated-personalization/assets/preview.png)
 

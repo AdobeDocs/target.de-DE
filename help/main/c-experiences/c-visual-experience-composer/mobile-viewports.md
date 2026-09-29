@@ -1,22 +1,26 @@
 ---
 keywords: responsiv;mobile Viewports;Viewport;Geräte;mobil;responsives Webdesign;rwd
-description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe  [!DNL Target] -Aktivitäten auf unterschiedlich großen Bildschirmen aussehen. Hier finden Sie eine Liste häufig verwendeter Viewport-Größen und -Auflösungen.
+description: Mit mobilen Viewports können Sie sehen, wie Ihre Adobe-[!DNL Target] auf Screens in verschiedenen Größen aussehen. Hier finden Sie eine Liste häufig verwendeter Viewport-Größen und -Auflösungen.
 title: Wie verwende ich Mobile Viewports für responsive Erlebnisse?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # Mobile Viewports für responsive Erlebnisse
 
 Mit mobilen Viewports können Sie eine Vorschau Ihrer [!DNL Adobe Target]-Aktivitäten auf unterschiedlich großen Bildschirmen anzeigen.
@@ -143,7 +147,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
+1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -180,10 +184,10 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Kontovoreinstellungen in Adobe Target ![Übersichts-Badge](/help/main/assets/overview.png)
 
-In diesem Video finden Sie Informationen zum Einrichten von mobilen Viewports, beginnend bei 4:40 im Video.
+Dieses Video enthält Informationen zum Einrichten von mobilen Viewports, beginnend um 4:40 Uhr im Video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

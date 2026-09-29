@@ -1,29 +1,41 @@
 ---
 keywords: Kontakt;legal;technischer Support;technischer Support;Support;Service;Fähigkeiten;Rechnungsstellung;Feedback
-description: Informationen zu zusätzlichen Ressourcen, in denen Sie die Funktionen von Adobe [!DNL Target] näher kennenlernen und erfahren, wie Sie bei Adobe Unterstützung für  [!DNL Target] anfordern können.
+description: Erfahren Sie mehr über zusätzliche Ressourcen, in denen Sie die Funktionen von Adobe [!DNL Target] kennenlernen und erfahren, wie Sie bei Adobe Unterstützung für [!DNL Target] anfordern können.
 title: Wo finde ich Ressourcen und Kontaktinformationen zu Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
+TQID: 'https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 78%
-
+source-wordcount: '1332'
+ht-degree: 76%
 ---
-
 # Ressourcen und Kontaktinformationen
 
 Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-Funktionen lernen und erfahren, wie Sie sich an Adobe wenden können, wenn Sie Unterstützung für Target benötigen.
@@ -40,7 +52,7 @@ Das [!UICONTROL Adobe Target-Community]Forum ist Ihr Ziel für alles, was nicht 
 
 Beteiligen Sie sich an der Diskussion, bringen Sie Ihr Fachwissen ein und erhalten Sie die Antworten, die Sie benötigen - alles an einem Ort.
 
-Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de), um loszulegen.
+Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de), um loszulegen.
 
 ## Webinar-Reihe zu Target-Grundlagen {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -59,7 +71,7 @@ Aktuelle aufgezeichnete Target-Sitzungen:
 
 | Thema/Dauer/Aufzeichnungsdatum | Behandelte Themen |
 |--- |--- |
-| [at.js - Tipps und Überblick](https://helpx.adobe.com/de/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26. Juni 2019 | Lerninhalte:<ul><li>Vorteile der Verwendung von at.js</li><li>at.js-Einstellungen</li><li>Einstellungen bei Flackern</li><li>Debuggen von „at.js“</li><li>Bekannte Probleme</li><li>FAQs</li></ul>Weitere Informationen finden Sie unter [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank}. |
+| [at.js - Tipps und Überblick](https://helpx.adobe.com/de/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>26. Juni 2019 | Lerninhalte:<ul><li>Vorteile der Verwendung von at.js</li><li>at.js-Einstellungen</li><li>Einstellungen bei Flackern</li><li>Debuggen von „at.js“</li><li>Bekannte Probleme</li><li>FAQs</li></ul>Weitere Informationen finden Sie unter [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Target Premium-Arbeitsbereiche](https://helpx.adobe.com/de/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4. September 2018 | Lerninhalte:<ul><li>Erstellen von Arbeitsbereichen (Produktprofilen)</li><li>Erstellen von Eigenschaften</li><li>Hinzufügen von Benutzern</li><li>Aktualisieren der Implementierung</li></ul>Weitere Informationen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/de/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Dezember 2017 | Lerninhalte:<ul><li>So funktioniert der VEC</li><li>So vermeiden Sie häufige Probleme mit dem VEC</li><li>Workarounds für den VEC</li></ul>Weitere Informationen in diesem Handbuch finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md). |
 | [Adobe Target: Analytics/Target-Integration (A4T)](https://helpx.adobe.com/de/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Januar 2018 | Lerninhalte:<ul><li>So richten Sie die Integration ein und überprüfen, ob sie funktioniert </li><li>So funktioniert die Integration</li><li>Erfahren Sie, welche Berichte Sie in Analytics am besten verwenden</li><li>Antworten auf häufige Fragen zu A4T</li></ul>Weitere Informationen in diesem Handbuch finden Sie unter [Adobe Analytics as the Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
@@ -79,11 +91,11 @@ Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Auf dieser S
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
-Bei Fragen wenden Sie sich an die Adobe Target-Experten in der [Adobe Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}.
+Bei Fragen wenden Sie sich an die Adobe Target-Experten in der [Adobe Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}.
 
 Bei technischen Problemen oder um einen Fehler einzugeben, können Sie den Kundendienst kontaktieren. Sie erreichen den Kundendienst telefonisch unter 1-800-497-0335. Gebührenfreie Nummern außerhalb der USA finden Sie auf der Seite [Adobe Digitales Marketing Kundenunterstützung Regionale Telefonnummern](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 3, um das Target-Team zu kontaktieren.
 
-Wenden [&#x200B; sich an die Adobe-Kundenunterstützung](https://helpx.adobe.com/de/contact.html){target=_blank}.
+Wenden [ sich an die Adobe-Kundenunterstützung](https://helpx.adobe.com/contact.html){target=_blank}.
 
 Damit Ihr Problem schnellstmöglich bearbeitet werden kann, halten Sie bei der Kontaktaufnahme bitte folgende Informationen bereit:
 
@@ -100,7 +112,7 @@ Informationen zu Problemen bei der Bereitstellung von Inhalten finden Sie unter 
 
 ### Im Falle von Ausfällen {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de) ([!DNL https://status.adobe.com/de-de]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
+Wenn Sie einen Ausfall vermuten, prüfen Sie zunächst die [Experience Cloud-Systemstatus-Seite](https://status.adobe.com/de) ([!DNL https://status.adobe.com]). Dort werden sämtliche Ausfälle, Vorfälle und Wartungsarbeiten für Experience Cloud-Lösungen, einschließlich Target, aufgezeichnet. Dort sind auch die neuesten Updates unseres Tech Ops-Teams enthalten. Sollten Sie weiterhin Unterstützung benötigen, sollten Sie neben den oben genannten Informationen Folgendes wissen und können, wenn Sie den Kundendienst kontaktieren:
 
 * Beginn des Ausfalls
 * Darlegung der Fakten
@@ -116,7 +128,7 @@ Hier finden Sie Angaben zur Kontaktaufnahme mit Adobe und rechtliche Hinweise zu
 Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf verschiedenen Wegen kontaktiert werden:
 
 * [Auf den Experience Cloud-Hilfeseiten finden Sie Hinweise, Tipps und FAQs.](https://helpx.adobe.com/de/marketing-cloud.html)
-* [Ticket öffnen, um Hilfe von der Kundenunterstützung zu erhalten](https://experienceleague.adobe.com/de?support-solution=Target&lang=de#support)
+* [Ticket öffnen, um Hilfe von der Kundenunterstützung zu erhalten](https://experienceleague.adobe.com/?support-solution=Target&lang=de#support)
 * [Kontaktieren Sie die Kundenunterstützung direkt.](https://helpx.adobe.com/de/marketing-cloud/contact-support.html)
 * [Verfügbarkeit und Status von Experience Cloud-Lösungen überprüfen](https://status.adobe.com/de)
 
@@ -130,7 +142,7 @@ Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) posten. Klicken Sie auf die [!UICONTROL Ideen].
+Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de) posten. Klicken Sie auf die [!UICONTROL Ideen].
 
 ### Rechtliche Informationen {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

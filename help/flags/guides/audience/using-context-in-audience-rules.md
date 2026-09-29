@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie Kontextattribute in Zielgruppenregeln für Fe
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # Verwenden des Kontexts in Zielgruppenregeln {#context-in-audience-rules}
 
 Kontextattribute sind Werte, die von der Client-Anwendung zur Laufzeit bereitgestellt werden. Sie ermöglichen es Ihnen, Benutzende auf der Grundlage dynamischer Informationen auf Sitzungsebene anzusprechen, wie z. B. die aktive Sprache des Benutzers, der Gerätetyp oder der Anwendungsstatus.
@@ -30,7 +31,7 @@ So fügen Sie einer Zielgruppenregel ein Kontextattribut hinzu:
 3. Fügen **unter &quot;**&quot; eine neue Bedingung hinzu.
 4. Wählen Sie das Kontextattribut, den Operator und den Wert aus.
 
-Wenn das benötigte Kontextattribut nicht in der Liste angezeigt wird, können Sie ein neues erstellen - siehe &quot;[&#x200B; von Kontextattributen](creating-your-context-attributes.md).
+Wenn das benötigte Kontextattribut nicht in der Liste angezeigt wird, können Sie ein neues erstellen - siehe &quot;[ von Kontextattributen](creating-your-context-attributes.md).
 
 ## Siehe auch {#see-also}
 

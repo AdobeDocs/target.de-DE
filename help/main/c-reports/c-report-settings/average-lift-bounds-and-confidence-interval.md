@@ -1,16 +1,20 @@
 ---
 keywords: Target; Berichte; Berichtseinstellungen; Umgebung; Steigerung; Steigerungsgrenze; Varianz; Konfidenz; Steuern
-description: Erfahren Sie, wie Adobe- [!DNL Target]  zu interpretieren sind, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungsgrenzen und das Konfidenzniveau Ihrer Aktivitäten besser verstehen können.
+description: Erfahren Sie, wie Adobe [!DNL Target]-Berichte interpretiert werden, die Datenpunkte und Visualisierungsdarstellungen enthalten, damit Sie die Steigerungsgrenzen und das Konfidenzniveau Ihrer Aktivitäten besser verstehen können.
 title: Wie kann ich die durchschnittliche Steigerung, Steigerungsgrenzen und das Konfidenzintervall anzeigen?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 59%
-
 ---
-
 # Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall
 
 Berichte enthalten mehrere Datenpunkte und Visualisierungsdarstellungen, die Ihnen dabei helfen, die mit Ihrer [!DNL Adobe Target]-Aktivität verbundenen Steigerungsgrenzen und Konfidenzniveaus zu verstehen, um Ihnen dabei zu helfen, einen Gewinner genauer zu bestimmen.
@@ -33,7 +37,7 @@ Die große Anzahl und der Pfeil geben den erwarteten Steigerungswert an. Diese A
 
 ### Limits aufheben
 
-Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Ein Beispiel [&#x200B; Berechnung &#x200B;](#example) Steigerungsgrenzen finden Sie unten unter „Beispielberechnung“.
+Hierbei handelt es sich um das 95-%-Konfidenzintervall der Steigerung. Es wird als ein Bereich unterhalb der durchschnittlichen Steigerung angezeigt. Ein Beispiel [ Berechnung ](#example) Steigerungsgrenzen finden Sie unten unter „Beispielberechnung“.
 
 ### Boxplot-Diagramm
 

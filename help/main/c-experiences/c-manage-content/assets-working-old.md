@@ -1,16 +1,23 @@
 ---
 keywords: Inhaltsbibliothek;Assets;kommentieren;kopieren;Asset löschen;Asset herunterladen;Inhalt bearbeiten;Karte freigeben;Inhaltseigenschaften anzeigen
-description: Erfahren Sie, wie Sie Code- und Bildangebote in der Adobe- [!DNL Target] -Bibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots anzeigen und Angebote bearbeiten, kopieren, verschieben oder löschen können.
+description: Erfahren Sie, wie Sie Code- und Bildangebote in der Adobe [!DNL Target]-Angebotsbibliothek verwalten. Erfahren Sie, wie Sie die Details eines Angebots anzeigen und Angebote bearbeiten, kopieren, verschieben oder löschen können.
 title: Wie verwende ich Inhalte in der Angebotsbibliothek?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '773'
 ht-degree: 31%
-
 ---
-
 # Arbeiten mit Inhalten in der Asset-Bibliothek
 
 Informationen zu den Aufgaben, die Sie mit einem Asset in der Inhaltsbibliothek durchführen können, [!DNL Adobe Target]. B. Kommentieren, Kopieren, Löschen, Herunterladen, Bearbeiten, Freigeben und Anzeigen von Eigenschaften.
@@ -21,7 +28,7 @@ Informationen zu den Aufgaben, die Sie mit einem Asset in der Inhaltsbibliothek 
 
    Weitere Informationen zum Durchsuchen der Angebotsbibliothek und Erstellen intelligenter Sammlungen finden Sie unter [Filtern und Durchsuchen von Inhalten](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ &#x200B;] konfigurieren.
+1. (Optional) Wechseln Sie zwischen [!UICONTROL Kartenansicht] und [!UICONTROL Listenansicht] und klicken Sie auf das Symbol [!UICONTROL Kartenansicht] oder das Symbol [!UICONTROL Listenansicht] in der oberen rechten Ecke der Inhaltsbibliothek. Sie können auch [!UICONTROL Ansichtseinstellungen) verwenden] um die Spalten beim Anzeigen der [!UICONTROL Listenansicht“ ] konfigurieren.
 
    Die folgende Abbildung zeigt die verfügbaren Optionen beim Anzeigen der [!UICONTROL Listenansicht]:
 
@@ -55,19 +62,19 @@ Die folgende Abbildung zeigt die Symbole zum Darstellen des Mauszeigers in der [
 
 * **Auswählen**: Wählen Sie einen oder mehrere Ordner aus, für die die folgenden Aktionen ausgeführt werden sollen:
 
-   * Download
-   * Kopieren
-   * Verschieben
-   * Löschen (siehe [Überlegungen beim Löschen von Elementen](#delete).)
+  * Download
+  * Kopieren
+  * Verschieben
+  * Löschen (siehe [Überlegungen beim Löschen von Elementen](#delete).)
 
   Wählen Sie ein oder mehrere Bildangebote aus, für die die folgenden Aktionen ausgeführt werden sollen:
 
-   * Freigabe
-   * Download
-   * Eigenschaften anzeigen
-   * Bearbeiten
-   * Anmerkungen hinzufügen
-   * Verschieben
+  * Freigabe
+  * Download
+  * Eigenschaften anzeigen
+  * Bearbeiten
+  * Anmerkungen hinzufügen
+  * Verschieben
 
 * **Herunterladen**: Laden Sie das Bildangebot oder den Ordner und dessen Inhalte herunter.
 * **Eigenschaften anzeigen**: Die Eigenschaften des Elements anzeigen. Klicken Sie unbedingt auf die Registerkarte [!UICONTROL Allgemein] und die Registerkarte [!UICONTROL Erweitert], um alle verfügbaren Informationen anzuzeigen. Klicken Sie auf der Eigenschaftenseite auf das Stiftsymbol, um die Eigenschaften zu bearbeiten und weitere Informationen hinzuzufügen. Sie können Metadateninformationen, Veröffentlichungsstatus und Lizenzdaten hinzufügen.
@@ -86,7 +93,7 @@ Die folgende Abbildung zeigt die Symbole zum Darstellen des Mauszeigers in der [
 
 In diesem Video wird beschrieben, wie Inhalte verwaltet werden. (4:56)
 
-* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=de) und der Target-Inhaltsbibliothek
+* Zusammenhang zwischen der [Experience Cloud-Asset-Bibliothek](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) und der Target-Inhaltsbibliothek
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 

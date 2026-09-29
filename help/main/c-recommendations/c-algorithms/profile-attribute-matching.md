@@ -1,22 +1,28 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; dynamisch; Profilattributübereinstimmung
-description: Erfahren Sie, wie Sie  [!DNL Target Recommendations]  dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
+description: Erfahren Sie, wie Sie in [!DNL Target Recommendations] dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert im Benutzerprofil vergleichen.
 title: Wie filtere ich nach der Zuordnung von Profilattributen in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
+TQID: 'https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: '496'
 ht-degree: 0%
-
 ---
-
 # Zuordnung von Profilattributen
 
 Dynamisches Filtern in [!DNL Adobe Target Recommendations] durch Vergleichen von Elementen (Entitäten) mit einem Wert im Benutzerprofil.
@@ -25,9 +31,9 @@ Verwenden Sie [!UICONTROL Profilattributabgleich] wenn Sie Empfehlungen anzeigen
 
 >[!NOTE]
 >
->Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+>Der [Prozess zum Erstellen und Verwenden von ](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
 
-Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ &#x200B;] können:
+Die folgenden Szenarien zeigen, wie Sie die [!UICONTROL Profilattributübereinstimmung“ ] können:
 
 * Ein Unternehmen, das Brillen verkauft, speichert die Lieblingsrahmenfarbe eines Besuchers als „Walnuss“. Für diesen spezifischen Besucher werden Empfehlungen erstellt, die nur Brillenfassungen zurückgeben, die der Farbe „Walnuss“ entsprechen.
 * Ein Profilparameter kann für die Kleidungsgröße (z. B. klein, Medium oder groß) eines Besuchers definiert werden, wenn dieser auf der Website Ihres Unternehmens navigiert. Es kann eine Empfehlung eingerichtet werden, die diesem Profilparameter entspricht und Produkte zurückgibt, die nur der bevorzugten Kleidungsgröße des Benutzers entsprechen.

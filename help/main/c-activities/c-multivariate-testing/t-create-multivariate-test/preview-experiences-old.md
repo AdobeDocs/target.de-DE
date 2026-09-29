@@ -1,21 +1,25 @@
 ---
 keywords: Multivariate;MVT;Vorschau;Erlebnisse
-description: Erfahren Sie, wie Sie jedes Erlebnis in einer [!UICONTROL Multivariater Test]​(MVT)-Aktivität in  [!DNL Adobe Target] mit dem [!UICONTROL Visual Experience Composer] (VEC) in der Vorschau anzeigen.
+description: Erfahren Sie, wie Sie in [!DNL Adobe Target] mit dem [!UICONTROL Visual Experience Composer] (VEC) eine Vorschau der einzelnen Erlebnisse ] einer Aktivität vom Typ „Multivariater Test[!UICONTROL  (MVT) anzeigen.
 title: Wie kann ich eine Vorschau von Erlebnissen für einen [!UICONTROL Multivarianz-Test] (MVT) anzeigen?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 29%
-
 ---
-
 # Erlebnisvorschau für einen [!UICONTROL Multivarianztest]
 
 Da ein [!UICONTROL Multivarianz-Test] in [!DNL Adobe Target] mehrere Erlebnisse auf einer Seite vergleicht, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
 
-1. Klicken Sie [!UICONTROL &#x200B; Visual Experience Composer &#x200B;] VEC auf **[!UICONTROL Vorschau]**.
+1. Klicken Sie [!UICONTROL  Visual Experience Composer ] VEC auf **[!UICONTROL Vorschau]**.
 
    Es erscheint eine Liste aller Erlebnisse.
 

@@ -1,17 +1,24 @@
 ---
 keywords: Empfehlungsschlüssel;Empfehlungslogik;aktuelle Kategorie;benutzerdefiniertes Attribut;Zuletzt gekaufter Artikel;Zuletzt angezeigter Artikel;Am häufigsten angezeigter Artikel;Bevorzugte Kategorie;Beliebtheit;Zuletzt angezeigter Artikel;Zuletzt gekauft;Zuletzt angezeigt;Am häufigsten angezeigt;Favorit;Zuletzt angezeigt
-description: Erfahren Sie, wie Sie Empfehlungen verwenden können, die auf Schlüsseln basieren, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Adobe/Recommendations [!DNL Target] Aktivitäten anzuzeigen.
+description: Erfahren Sie, wie Sie Empfehlungen basierend auf Schlüsseln verwenden, die den Kontext des Besucherverhaltens verwenden, um relevante Ergebnisse in Recommendations-Aktivitäten von Adobe [!DNL Target] anzuzeigen.
 title: Wie stütze ich die Empfehlung auf einen Empfehlungsschlüssel?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
-ht-degree: 32%
-
+source-wordcount: '4075'
+ht-degree: 31%
 ---
-
 # Stützen einer Empfehlung auf einen Empfehlungsschlüssel
 
 Empfehlungen, die auf Algorithmen basieren, verwenden den Kontext des Besucherverhaltens, um relevante Ergebnisse in [!DNL Adobe Target] [!DNL Recommendations] anzuzeigen.
@@ -34,9 +41,9 @@ Verschiedene Recommendations-Algorithmen eignen sich zur Platzierung auf verschi
 
 ## Warenkorb-basiert {#cart-based}
 
-Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
+Der [!UICONTROL Warenkorb-] Algorithmustyp ermöglicht die Empfehlung von Artikeln basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden über [mbox-Parameter bereitgestellt, die in kommagetrennten Werten `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sind. Nur die ersten 10 Werte werden berücksichtigt.
 
-Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, &#x200B;]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
+Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;[!UICONTROL Recommended For You]&quot; und den artikelbasierten Algorithmen &quot;[!UICONTROL People Who Viewed These, ]&quot; und &quot;[!UICONTROL People Who Bought These, Bought These]&quot;.
 
 [!DNL Target] verwendet kollaborative Filtertechniken, um Ähnlichkeiten für jedes Element im Warenkorb des Besuchers zu ermitteln, und kombiniert diese Verhaltens-Ähnlichkeiten dann über jedes Element hinweg, um eine zusammengeführte Liste zu erhalten.
 
@@ -101,7 +108,7 @@ Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Recommendation
 
 ## [!UICONTROL Beliebtheitsbasiert]
 
-Mit [!UICONTROL &#x200B; Algorithmustyp &quot;]&quot; können Sie Empfehlungen auf Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. einer Benutzerin oder eines Benutzers geben.
+Mit [!UICONTROL  Algorithmustyp &quot;]&quot; können Sie Empfehlungen auf Grundlage der allgemeinen Popularität eines Elements auf Ihrer Site oder auf der Grundlage der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. einer Benutzerin oder eines Benutzers geben.
 
 Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Beliebtheit] verfügbar:
 
@@ -176,7 +183,7 @@ Zeigt das „Top x“ an, wobei *x* eine beliebige [!DNL Analytics]-Metrik ist. 
 
 ## [!UICONTROL Elementbasiert]
 
-Mit [!UICONTROL &#x200B; Empfehlungstyp (Elementbasiert] können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat.
+Mit [!UICONTROL  Empfehlungstyp (Elementbasiert] können Sie Empfehlungen geben, indem Sie ähnliche Elemente finden wie ein Element, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat.
 
 Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Elementbasiert] verfügbar:
 
@@ -252,7 +259,7 @@ Die folgenden Algorithmen sind mit dem Algorithmustyp [!UICONTROL Benutzerbasier
 
 Nutzt den Verlauf des Benutzers (sitzungsübergreifend) für die Anzeige der letzten *x* vom Besucher angesehenen Artikel, basierend auf der Anzahl x der im Entwurf vorhandenen Plätze.
 
-Der Algorithmus „Kürzlich angezeigte Elemente“ gibt ein für eine bestimmte ([) spezifisches Ergebnis &#x200B;](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
+Der Algorithmus „Kürzlich angezeigte Elemente“ gibt ein für eine bestimmte ([) spezifisches Ergebnis ](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
 
 >[!NOTE]
 >

@@ -1,38 +1,57 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;Suchmaschinenoptimierung;seo;Edge-Cluster;zentrale Cluster;at.js;mbox.js;
-description: Erfahren Sie [!DNL Adobe Target]  wie funktioniert, einschließlich Informationen zu JavaScript-Bibliotheken (AEP Web SDK at.js), Nutzungsstrategien für Server-Aufrufe, Nutzung, Adobe-Rechenzentren, SEO-Tests und Bots.
-title: Wie funktioniert  [!DNL Target] ?
+description: Erfahren Sie, wie [!DNL Adobe Target] funktioniert. Sie erhalten hier auch Informationen zu JavaScript-Bibliotheken (AEP Web SDK at.js), Nutzungsstrategien für Server-Aufrufe, Nutzung, Adobe-Rechenzentren, SEO-Tests und Bots.
+title: Wie funktioniert [!DNL Target]?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-TQID: https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE
+TQID: 'https://experienceleague.adobe.com/KZR3HivCPj0FVhB7fmt-WEjsniUsupTK1-52UqwtbKE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2421
+source-wordcount: '2424'
 ht-degree: 25%
-
 ---
-
 # Funktionsweise von [!DNL Adobe Target]
 
 Erfahren Sie, wie [!DNL Adobe Target] funktioniert, einschließlich Details zu den JavaScript-Bibliotheken ([!DNL Adobe Experience Platform Web SDK] und at.js). Dieser Artikel behandelt auch die verschiedenen Aktivitätstypen, die Sie erstellen können, [!DNL Target] Nutzungszählungsstrategien, die [!DNL Target] Edge Network-, SEO- und Bot-Erkennung.
@@ -50,19 +69,19 @@ Zu den wichtigsten Punkten gehören:
 
 Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in Websites integrieren:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
-* **[at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf [!UICONTROL Experience Platform Web SDK] (empfohlen) oder auf die neueste Version von at.js.
 
-Verweisen Sie auf jeder Seite Ihrer Site  Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Verweisen Sie auf jeder Seite Ihrer Site ] [!UICONTROL Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
 * [[!DNL Adobe Experience Platform Web SDK]-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=de){target=_blank}
-* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Bei jeder Besucheranforderung einer für [!DNL Target] optimierten Seite wird eine Echtzeitanforderung an das Targeting-System gesendet, um den bereitzustellenden Inhalt zu bestimmen. Diese Anfrage wird jedes Mal beim Laden einer Seite gestellt und erfüllt. Sie wird durch Aktivitäten und Erlebnisse gesteuert, die vom Marketing-Experten gesteuert werden. Inhalte sind auf individuelle Besucher der Website ausgerichtet, wodurch die Antwort- und Akquiseraten sowie der Umsatz maximiert werden. Personalisierte Inhalte helfen sicherzustellen, dass Besucher reagieren, interagieren oder Käufe tätigen.
 
@@ -87,7 +106,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-
 
 [!UICONTROL Automatische Zuordnung] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
 
-Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
+Weitere Informationen [[!UICONTROL  Sie unter ]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
 
 ### [!UICONTROL Automatisches Targeting] (AT)
 
@@ -156,7 +175,7 @@ Eine &quot;Edge&quot; ist eine geografisch verteilte Serving-Architektur, die Be
 
 Zur Verbesserung der Reaktionszeiten werden auf [!DNL Target]-Edges nur Aktivitätslogik, zwischengespeicherte Profile und Angebotsinformationen gehostet.
 
-Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics], APIs und die Benutzeroberflächen der Werbungtreibenden werden in [!DNL Adobe] zentralen Clustern gespeichert. Aktualisierungen werden an die [!DNL Target]-Edges gesendet, die automatisch mit den zentralen Clustern synchronisiert werden, um zwischengespeicherte Aktivitätsdaten kontinuierlich zu aktualisieren. Alle 1:1-Modelle werden ebenfalls an jedem Edge gespeichert, sodass komplexe Anforderungen lokal verarbeitet werden können.
+Aktivitäts- und Inhaltsdatenbanken, [!DNL Analytics], APIs und die Benutzeroberflächen der Werbungtreibenden werden in [!DNL Adobe] zentralen Clustern gespeichert. Aktualisierungen werden an die [!DNL Target]-Edges gesendet, die automatisch mit den zentralen Clustern synchronisiert werden, um zwischengespeicherte Aktivitätsdaten kontinuierlich zu aktualisieren. Außerdem werden alle 1:1-Modelle an jedem Edge gespeichert, sodass komplexe Anforderungen lokal verarbeitet werden können.
 
 Jeder Edge-Cluster enthält alle erforderlichen Informationen, um auf Inhaltsanfragen von Besuchern zu reagieren und Analysedaten zu verfolgen. Die Besucheranforderungen werden an den nächstgelegenen Edge-Cluster weitergeleitet.
 
@@ -206,7 +225,7 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besucher
 
 [!DNL Adobe] schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
-* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) &#x200B;] werden.
+* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) ] werden.
 * Das Edge-Netzwerk stellt eine rechtzeitige Datenbereitstellung sicher.
 * [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, der Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit bietet.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
@@ -276,7 +295,7 @@ Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for &#x200B;]) (A4T) Folgendes nicht:
+Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for ]) (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 

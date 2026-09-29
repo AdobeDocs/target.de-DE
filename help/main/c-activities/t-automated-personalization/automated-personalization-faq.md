@@ -2,28 +2,39 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Automated Personalization;Kontrolle;Standarderlebnis;Best Practices
 description: Erkunden Sie eine Liste häufig gestellter Fragen (FAQs) und Antworten zu [!UICONTROL Automated Personalization] (AP)-Aktivitäten in [!UICONTROL Adobe Target].
 title: Wie finde ich häufig gestellte Fragen zu [!UICONTROL Automated Personalization]-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 18%
-
 ---
-
 # Häufig gestellte Fragen zu Automated Personalization
 
 Konsultieren Sie bei der Arbeit mit [!UICONTROL Automated Personalization]-Aktivitäten in [!DNL Adobe Target] die folgenden häufig gestellten Fragen und Antworten.
@@ -32,7 +43,7 @@ Konsultieren Sie bei der Arbeit mit [!UICONTROL Automated Personalization]-Aktiv
 
 +++Details anzeigen
 
-Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
+Sie können beim Erstellen einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) als Steuerelement auswählen.
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -53,36 +64,36 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 +++Details anzeigen
 
 * Achten Sie genau auf *Aktivitäts-Form* (Anzahl der Standorte × Anzahl der Angebote), nicht nur auf die Gesamtzahl der Erlebnisse. Kartesische Kombinationen von Standorten und Angeboten fördern die Leistung bei der Bearbeitung mehr als die Anzahl der Erlebnisse.
-* Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie die [!UICONTROL Aktivitäten von &#x200B;] und [!UICONTROL Automatisches Targeting] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen. Sie können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen und in der [!DNL Target]-Benutzeroberfläche eingeschränkt sein. In der aktuellen Benutzeroberfläche werden [!DNL Target] Inline-Warnungen angezeigt oder das Speichern der Aktivität wird verhindert, wenn die Konfiguration unterstützte Schwellenwerte überschreitet.
-* Wenn Sie eine Seite mit niedrigerem Traffic personalisieren möchten oder strukturelle Änderungen am personalisierten Erlebnis vornehmen möchten, sollten Sie eine Aktivität vom Typ [!UICONTROL Automatisches Targeting] anstelle von [!UICONTROL Automated Personalization&rbrace; &#x200B;]. Siehe [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+* Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie die [!UICONTROL Aktivitäten von ] und [!UICONTROL Automatisches Targeting] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen. Sie können zu langsamem Laden oder Bearbeiten im [!UICONTROL Visual Experience Composer] führen und in der [!DNL Target]-Benutzeroberfläche eingeschränkt sein. In der aktuellen Benutzeroberfläche werden [!DNL Target] Inline-Warnungen angezeigt oder das Speichern der Aktivität wird verhindert, wenn die Konfiguration unterstützte Schwellenwerte überschreitet.
+* Wenn Sie eine Seite mit niedrigerem Traffic personalisieren möchten oder strukturelle Änderungen am personalisierten Erlebnis vornehmen möchten, sollten Sie eine Aktivität vom Typ [!UICONTROL Automatisches Targeting] anstelle von [!UICONTROL Automated Personalization} ]. Siehe [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Erwägen Sie den Abschluss einer [!UICONTROL A/B-]-Aktivität zwischen den Angeboten und Standorten, die Sie in Ihrer [!UICONTROL Automated Personalization]-Aktivität verwenden möchten, um sicherzustellen, dass der Standort und die Angebote sich auf das Optimierungsziel auswirken. Wenn eine [!UICONTROL A/B-Test]-Aktivität keinen signifikanten Unterschied nachweist, kann [!UICONTROL Automated Personalization] wahrscheinlich auch keine Steigerung erzeugen.
 
-   * Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen den Erlebnissen zeigt, sind wahrscheinlich eine oder mehrere der folgenden Situationen verantwortlich:
+  * Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen den Erlebnissen zeigt, sind wahrscheinlich eine oder mehrere der folgenden Situationen verantwortlich:
 
-      * Die Angebote unterscheiden sich wahrscheinlich nicht ausreichend voneinander.
-      * Die ausgewählten Standorte wirken sich nicht auf die Erfolgsmetrik aus.
-      * Das Optimierungsziel in der Konversions-funnel ist zu weit reichend, um von den gewählten Angeboten beeinflusst zu werden.
+    * Die Angebote unterscheiden sich wahrscheinlich nicht ausreichend voneinander.
+    * Die ausgewählten Standorte wirken sich nicht auf die Erfolgsmetrik aus.
+    * Das Optimierungsziel in der Konversions-funnel ist zu weit reichend, um von den gewählten Angeboten beeinflusst zu werden.
 
 * Stellen Sie sicher, dass Sie die [Traffic-Schätzung](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) verwenden, um ein Gefühl dafür zu bekommen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer [!UICONTROL Automated Personalization]-Aktivität erstellt werden.
 * Entscheiden Sie basierend auf Ihren Zielen über die Zuordnung zwischen Kontrolle und Zielgruppe, bevor Sie die Aktivität beginnen.
 
   Es gibt drei Szenarien, die je nach Ziel Ihrer Aktivität und der von Ihnen ausgewählten Art der Kontrolle zu berücksichtigen sind:
 
-   * **Zufallserlebnisse als Kontrolle und Aktivitätsziel besteht darin, die Effektivität des Personalisierungsalgorithmus zu testen**: Wenn Sie den Personalisierungsalgorithmus auswerten möchten, möchten Sie sich ein genaueres Bild vom Anstieg machen. Sie möchten wahrscheinlich auch die Konversionsrate für Ihre Erlebnisse oder Angebote vergleichen, wenn Sie einfach einen [!UICONTROL A/B-Test] (eine zufällig bereitgestellte Kontrolle) durchgeführt haben. In diesem Fall wird eine Zuordnung von 50 % zu einer Kontrollgruppe von zufällig bereitgestellten Erlebnissen empfohlen.
-   * **Sie „zufällige Erlebnisse“ als Kontrolle und Ihr Aktivitätsziel, den personalisierten Traffic zu maximieren**: Wenn Sie mit dem Algorithmus vertraut sind und die maximale Menge an Traffic personalisieren möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Der Nachteil ist hier die Genauigkeit, die Sie in Ihren Aufstiegsinformationen sehen. Die Konfidenzintervalle Ihres Kontroll-Traffics sind größer, da weniger Traffic zu ihnen fließt.
-   * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht über jedes Angebot oder Erlebnis in der Aktivität verteilt.
+  * **Zufallserlebnisse als Kontrolle und Aktivitätsziel besteht darin, die Effektivität des Personalisierungsalgorithmus zu testen**: Wenn Sie den Personalisierungsalgorithmus auswerten möchten, möchten Sie sich ein genaueres Bild vom Anstieg machen. Sie möchten wahrscheinlich auch die Konversionsrate für Ihre Erlebnisse oder Angebote vergleichen, wenn Sie einfach einen [!UICONTROL A/B-Test] (eine zufällig bereitgestellte Kontrolle) durchgeführt haben. In diesem Fall wird eine Zuordnung von 50 % zu einer Kontrollgruppe von zufällig bereitgestellten Erlebnissen empfohlen.
+  * **Sie „zufällige Erlebnisse“ als Kontrolle und Ihr Aktivitätsziel, den personalisierten Traffic zu maximieren**: Wenn Sie mit dem Algorithmus vertraut sind und die maximale Menge an Traffic personalisieren möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Der Nachteil ist hier die Genauigkeit, die Sie in Ihren Aufstiegsinformationen sehen. Die Konfidenzintervalle Ihres Kontroll-Traffics sind größer, da weniger Traffic zu ihnen fließt.
+  * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht über jedes Angebot oder Erlebnis in der Aktivität verteilt.
 
 * Targeting-Regeln sollten sparsam verwendet werden, da sie die Optimierungsfähigkeit des Modells beeinträchtigen können.
 * Berichtsgruppen können den Erfolg Ihrer [!UICONTROL Automated Personalization]-Aktivität einschränken. Verwenden von Berichtsgruppen nur unter bestimmten Bedingungen:
 
-   * Verwenden Sie Berichtsgruppen nur, wenn die folgenden Bedingungen erfüllt sind:
+  * Verwenden Sie Berichtsgruppen nur, wenn die folgenden Bedingungen erfüllt sind:
 
-      * Sie planen, während der Ausführung der Aktivität neue Angebote zu ersetzen oder hinzuzufügen.
-      * Die Angebote in der Berichtsgruppe sprechen dieselben Besucher an.
-      * Die Angebote in dieser Berichtsgruppe weisen etwa dieselbe Gesamtansprechrate auf.
+    * Sie planen, während der Ausführung der Aktivität neue Angebote zu ersetzen oder hinzuzufügen.
+    * Die Angebote in der Berichtsgruppe sprechen dieselben Besucher an.
+    * Die Angebote in dieser Berichtsgruppe weisen etwa dieselbe Gesamtansprechrate auf.
 
-   * Es gibt keine Personalisierung zwischen Angeboten in einer Berichtsgruppe. Die Angebote werden vom Personalisierungsmodell alle gleich behandelt.
-   * Legen Sie niemals alle Angebote in einer Aktivität in einer einzelnen Berichtsgruppe ab. Dadurch werden alle Angebote allen Besuchern in der Aktivität nach dem Zufallsprinzip bereitgestellt.
+  * Es gibt keine Personalisierung zwischen Angeboten in einer Berichtsgruppe. Die Angebote werden vom Personalisierungsmodell alle gleich behandelt.
+  * Legen Sie niemals alle Angebote in einer Aktivität in einer einzelnen Berichtsgruppe ab. Dadurch werden alle Angebote allen Besuchern in der Aktivität nach dem Zufallsprinzip bereitgestellt.
 
 +++
 
@@ -96,7 +107,7 @@ Diese Beschränkung gilt selbst dann, wenn bei der Aktivität die Option [!UICON
 
 Obwohl [!UICONTROL Aktivitäten vom Typ &quot;Automated Personalization] und [!UICONTROL Automatisches Targeting] eine große Anzahl von Erlebnissen unterstützen können, hängt die Leistung bei der Bearbeitung stark von *Aktivitäts-Form* ab (Anzahl der Standorte × Anzahl der Angebote). Bestimmte Konfigurationen erstellen große kartesische Kombinationen, die sich erheblich auf die Auslastung und Bearbeitungsleistung auswirken können, selbst unterhalb der dokumentierten Erlebnisbeschränkungen.
 
-Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie die [!UICONTROL Aktivitäten von &#x200B;] und [!UICONTROL Automatisches Targeting] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen und können in der [!DNL Target] Benutzeroberfläche eingeschränkt sein.
+Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie die [!UICONTROL Aktivitäten von ] und [!UICONTROL Automatisches Targeting] auf 4-6 Standorte mit 4-6 Angeboten pro Standort. Größere Konfigurationen werden nicht empfohlen und können in der [!DNL Target] Benutzeroberfläche eingeschränkt sein.
 
 In der aktuellen [!DNL Target]-Benutzeroberfläche werden die Aktivitäten [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] direkt im Schritt [!UICONTROL Erlebnisse] konfiguriert. [!DNL Target] können Inline-Warnungen anzeigen oder Speicheraktivitäten verhindern, wenn Konfigurationen unterstützte Schwellenwerte überschreiten, und die Aktivitäts-Form bei [!UICONTROL Weiter], [!UICONTROL Speichern] und [!UICONTROL Veröffentlichen] erneut überprüfen.
 
@@ -123,7 +134,7 @@ Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ [!UICONTROL Au
 * Es müssen genügend Traffic- und Teststärke in der Aktivität vorhanden sein, um die Steigerung zu ermitteln.
 * Der Personalisierungsalgorithmus muss gut funktionieren.
 
-Es empfiehlt sich zunächst mithilfe einer einfachen, nicht personalisierten A/B-Test-Aktivität sicherzustellen, dass der Inhalt und die Positionen, aus denen die Aktivitätserlebnisse bestehen, wirklich einen Unterschied zu den Gesamtansprechraten . Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn die A/B-Testergebnisse eine statistisch signifikante Steigerung eines oder mehrerer Erlebnisse zeigen, ist es wahrscheinlich, dass eine personalisierte Aktivität erfolgreich ist. Personalization kann auch dann funktionieren, wenn sich die Gesamtansprechraten der Erlebnisse nicht unterscheiden. Normalerweise liegt das Problem darin, dass die Angebote oder Standorte keine ausreichende Auswirkung auf das Optimierungsziel haben, um mit statistischer Signifikanz erkannt zu werden.
+Es empfiehlt sich zunächst mithilfe einer einfachen, nicht personalisierten A/B-Test]-Aktivität sicherzustellen, dass der Inhalt und die Positionen, aus denen die Aktivitätserlebnisse bestehen, wirklich einen Unterschied zu den Gesamtansprechraten [!UICONTROL . Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn die A/B-Testergebnisse eine statistisch signifikante Steigerung eines oder mehrerer Erlebnisse zeigen, ist es wahrscheinlich, dass eine personalisierte Aktivität erfolgreich ist. Personalization kann auch dann funktionieren, wenn sich die Gesamtansprechraten der Erlebnisse nicht unterscheiden. Normalerweise liegt das Problem darin, dass die Angebote oder Standorte keine ausreichende Auswirkung auf das Optimierungsziel haben, um mit statistischer Signifikanz erkannt zu werden.
 
 Weitere Informationen finden Sie unter [Fehlerbehebung bei der automatisierten Personalisierung](/help/main/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
@@ -206,7 +217,7 @@ Diese Empfehlung gilt für [!UICONTROL Automatische Zuordnung], [!UICONTROL Auto
 
 +++Details anzeigen
 
-Es wird [!DNL Adobe] nicht empfohlen, für [!UICONTROL Automated Personalization[!UICONTROL Aktivitäten die Option &#x200B;]Berichtsdaten zurücksetzen] zu verwenden. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell [!UICONTROL Automated Personalization]. Anstatt die Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Automated Personalization]-Aktivitäten zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. Diese Anleitung gilt auch für Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
+Es wird [!DNL Adobe] nicht empfohlen, für [!UICONTROL Automated Personalization[!UICONTROL Aktivitäten die Option ]Berichtsdaten zurücksetzen] zu verwenden. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell [!UICONTROL Automated Personalization]. Anstatt die Option [!UICONTROL Berichtsdaten zurücksetzen] für [!UICONTROL Automated Personalization]-Aktivitäten zu verwenden, erstellen Sie eine neue Aktivität und deaktivieren Sie die ursprüngliche Aktivität. Diese Anleitung gilt auch für Aktivitäten [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
 
 +++
 

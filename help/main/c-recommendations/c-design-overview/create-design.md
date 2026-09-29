@@ -1,22 +1,28 @@
 ---
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
-description: Erfahren Sie, wie Sie ein  [!DNL Target Recommendations] -Design mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
+description: Erfahren Sie, wie Sie einen [!DNL Target Recommendations] Entwurf mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 25%
-
 ---
-
 # Erstellen eines Designs
 
 Mit einem Entwurf wird festgelegt, wie Empfehlungen auf einer Seite dargestellt werden.
@@ -97,7 +103,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben &#x200B;](/help/main/c-experiences/form-experience-composer.md) können.
+Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben ](/help/main/c-experiences/form-experience-composer.md) können.
 
 1. Erstellen Sie einen Entwurf aus der [!UICONTROL Design-]) oder dem formularbasierten Workflow. Wenn Sie versuchen, einen Entwurf im Workflow von [!UICONTROL Visual Experience Composer] (VEC) zu erstellen, können Sie nur einen HTML-Entwurf erstellen, der zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 
@@ -325,4 +331,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

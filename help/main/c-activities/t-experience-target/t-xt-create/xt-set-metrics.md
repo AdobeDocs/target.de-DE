@@ -1,22 +1,29 @@
 ---
 keywords: Erlebnis-Targeting;XT;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer  [!DNL Adobe Target] [!UICONTROL Erlebnis-Targeting]-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, [!UICONTROL Konversion], [!UICONTROL Umsatz] oder [!UICONTROL Interaktion].
+description: Erfahren Sie, wie Sie Metriken in einer [!DNL Adobe Target] [!UICONTROL Erlebnis-Targeting]-Aktivität angeben, um zu bestimmen, wann ein Besuch erfolgreich ist, z[!UICONTROL  B. Konversion], [!UICONTROL Umsatz] oder [!UICONTROL Interaktion].
 title: Wie lege ich Zielmetriken in einer [!UICONTROL Erlebnis-Targeting]-Aktivität fest?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+TQID: 'https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '353'
 ht-degree: 52%
-
 ---
-
 # Festlegen von Metriken in [!UICONTROL Erlebnis-Targeting]-Aktivitäten (XT)
 
 Verwenden Sie Metriken in einer [!DNL Adobe Target] [!UICONTROL Experience Targeting]&#x200B;(XT)-Aktivität, um den Erfolg eines Besuchs festzustellen.
@@ -28,7 +35,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    ![Erfolgsmetrik auswählen](/help/main/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
-   Auf [!UICONTROL &#x200B; Seite „Metriken &#x200B;]&quot; werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
+   Auf [!UICONTROL  Seite „Metriken ]&quot; werden die Erfolgsmetriken aufgelistet, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
 
    * [!UICONTROL Konversion]
    * [!UICONTROL Umsatz]
@@ -39,7 +46,7 @@ Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken
 
    Die verfügbaren Einstellungen hängen von der verwendeten Erfolgsmetrik ab.
 
-   Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+   Wenn diese Option aktiviert ist[!UICONTROL  liefert der Feld „Geschätzter Wert der Konversion] (für Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
    Es ist sehr wichtig, die Erfolgsmetriken korrekt zu konfigurieren, um die erwarteten Daten zu erhalten.
 
@@ -66,7 +73,7 @@ Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht 
 Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 
 * Erläuterung von „Zielmetriken“
-* Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
+* Verstehen und Erstellen [!UICONTROL  Metriken ]Konversion[!UICONTROL  Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

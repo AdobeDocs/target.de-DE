@@ -1,31 +1,43 @@
 ---
 keywords: Target-Benutzeroberfläche;Benutzeroberfläche;Benutzeroberfläche;Benutzeroberfläche;häufig gestellte Fragen;FAQ
-description: Fragen und Antworten zur  [!DNL Target]-T-Benutzeroberfläche.
-title: Wo finde ich häufig gestellte Fragen zur aktualisierten  [!DNL Target] -Benutzeroberfläche?
+description: Fragen und Antworten zur aktualisierten [!DNL Target]t-Benutzeroberfläche.
+title: Wo finde ich häufig gestellte Fragen zur aktualisierten [!DNL Target]-Benutzeroberfläche?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: '2015'
 ht-degree: 1%
-
 ---
-
 # Häufig gestellte Fragen zur Aktualisierung der [!DNL Target]-Benutzeroberfläche
 
 Neu im Jahr 2025, die [!DNL Adobe Target] neu gestaltete Benutzeroberfläche bietet ein saubereres, intuitiveres Erlebnis für alle Benutzer. In diesen häufig gestellten Fragen werden wichtige Aktualisierungen der [!DNL Target]-Benutzeroberfläche und [!UICONTROL Visual Experience Composer] (VEC) behandelt, einschließlich Navigationsänderungen, Platzierungen von Funktionen und der Entfernung des temporären Umschalters für die Benutzeroberfläche. Ob Marketing-Experte, Entwickler oder Administrator - es ist Ihr Leitfaden für einen reibungslosen Übergang und intelligentere Workflows.
@@ -47,19 +59,19 @@ Aufgrund von kürzlich festgestellten Problemen, die in erster Linie mit komplex
 
 * **30. Juni 2025**: Die [updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) wurde zum Standarderlebnis für alle IMS-Organisationen, die den Umschalter für die Benutzeroberflächenversion aktiviert haben.
 
-   * Kunden, die derzeit die veraltete Benutzeroberfläche sehen, sehen jetzt standardmäßig die aktualisierte Benutzeroberfläche bei der Anmeldung.
-   * Der Umschalter für die Benutzeroberflächenversion bleibt bis Ende Juli verfügbar, sodass Benutzer bei Bedarf zurückkehren können.
+  * Kunden, die derzeit die veraltete Benutzeroberfläche sehen, sehen jetzt standardmäßig die aktualisierte Benutzeroberfläche bei der Anmeldung.
+  * Der Umschalter für die Benutzeroberflächenversion bleibt bis Ende Juli verfügbar, sodass Benutzer bei Bedarf zurückkehren können.
 
   >[!IMPORTANT]
   >
-  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [&#x200B; Einschränkungen des Umschaltverhaltens](#limitations).
+  > [!DNL Adobe] empfiehlt dringend, die aktualisierte [!DNL Target]-Benutzeroberfläche zu verwenden. Wechseln Sie nur dann zurück zur alten Benutzeroberfläche, wenn ein Blocker-Problem auftritt (aufgrund [ Einschränkungen des Umschaltverhaltens](#limitations).
 
 * **15. Juli bis 30. Juli 2025**: Der Umschalter für die Benutzeroberflächenversion wird in Phasen dauerhaft deaktiviert. Betroffene IMS-Organisationen können nicht mehr zur alten Benutzeroberfläche zurückkehren.
 
-   * Ausnahmen werden von Fall zu Fall überprüft.
-   * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
+  * Ausnahmen werden von Fall zu Fall überprüft.
+  * Verzögerungen bei der Einstellung des Umschalters werden nur kurz (einige Tage) gewährt, während Blocker-Probleme behoben werden.
 
-Wenden Sie sich bei Fragen oder [&#128279;](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) Probleme, die während dieser Umstellung auftreten könnten, an die Adobe-Kundenunterstützung.
+Wenden Sie sich bei Fragen oder ](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) Probleme, die während dieser Umstellung auftreten könnten, an die [Adobe-Kundenunterstützung.
 
 ### Einschränkungen des Umschalt-Verhaltens der Benutzeroberfläche {#limitations}
 
@@ -75,7 +87,7 @@ Die folgenden Informationen beschreiben die Einschränkungen, die Sie bei der Ve
 * [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für , [!UICONTROL Recommendations] und [!UICONTROL Visual Experience Composer] (VEC).
 * [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die [!UICONTROL Angebotsbibliothek].
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
-* [[!UICONTROL Änderungen &#x200B;] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+* [[!UICONTROL Änderungen ] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
 +++
@@ -89,7 +101,7 @@ Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisiert
 
 * [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 
-* [[!UICONTROL Änderungen &#x200B;] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+* [[!UICONTROL Änderungen ] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 
 * [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 
@@ -100,7 +112,7 @@ Die folgenden Ressourcen enthalten Informationen, um mehr über die aktualisiert
 +++Details
 Die aktualisierte Benutzeroberfläche ist für alle [!DNL Target]-Kunden verfügbar: [!UICONTROL Standard] und [!UICONTROL Premium]. Es ist keine aktualisierte Lizenz oder SKU erforderlich.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -109,7 +121,7 @@ Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die V
 +++Details
 Das [!DNL Target]-Team befasst sich aktiv mit Problemen im Zusammenhang mit dem Rollout der neuen Benutzeroberfläche. Aktualisierungen und laufende Verbesserungen werden in den Versionshinweisen beschrieben.
 
-Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [&#x200B; unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Weitere Informationen zum Rollout und zur Einstellung des Umschalters für die Version der temporären Benutzeroberfläche finden [ unter „Zeitkritische Updates, die Sie kennen sollten](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -238,7 +250,7 @@ Weitere Informationen zu IP-Adressen, die Sie bearbeiten können, finden Sie in 
 ## Wird die Umgebung auf der neuen Recommendations -Benutzeroberfläche standardmäßig auf Staging zurückgesetzt?
 
 +++Details
-Umgebungen verwenden jetzt standardmäßig die letzte vom Kunden verwendete Umgebung. Um zwischen Umgebungen zu wechseln, verwenden [!UICONTROL &#x200B; den &#x200B;] „Umgebung“ in der oberen rechten Ecke der Benutzeroberfläche [!UICONTROL Katalogsuche].
+Umgebungen verwenden jetzt standardmäßig die letzte vom Kunden verwendete Umgebung. Um zwischen Umgebungen zu wechseln, verwenden [!UICONTROL  den ] „Umgebung“ in der oberen rechten Ecke der Benutzeroberfläche [!UICONTROL Katalogsuche].
 
 ![Umgebungs-Switch](/help/main/c-intro/assets/environmnent.png)
 

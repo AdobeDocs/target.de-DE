@@ -1,16 +1,20 @@
 ---
 keywords: MVT;Multivariater Test;Multivariater Test erstellen;Erstellen von Multivariater Tests;MVT-Erstellung;Erstellen von MVT;wie MVT;wie Multivariater Tests
-description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in verwenden [!DNL Adobe Target]  um einen [!UICONTROL Multivarianz-Test] (MVT) zu erstellen.
+description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] verwenden, um einen [!UICONTROL Multivarianz-Test] (MVT) zu erstellen.
 title: Wie erstelle ich einen [!UICONTROL Multivarianz-]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 52%
-
 ---
-
 # Erstellen eines Multivarianz-Tests
 
 Mit [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] können Sie einfach einen [!UICONTROL Multivarianz-Test] erstellen und Teile der Seite innerhalb von [!DNL Target] ändern.
@@ -31,7 +35,7 @@ Der [!UICONTROL Multivarianz-Test] (MVT) erstellt einen Seitenerstbericht. Ander
 
 1. (Bedingt) Wenn Sie [Target Premium](/help/main/c-intro/intro.md#premium)-Kunde sind, wählen [einen Arbeitsbereich aus](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Geben Sie die URL &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) Seite an, die Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. [Geben Sie die URL ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) Seite an, die Sie testen möchten, und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    >[!NOTE]
    >
@@ -124,4 +128,4 @@ In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflo
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

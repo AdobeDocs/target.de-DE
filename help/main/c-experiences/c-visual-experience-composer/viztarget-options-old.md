@@ -1,16 +1,20 @@
 ---
 keywords: Visual Experience Composer-Optionen;Experience Composer-Optionen;Erlebnisoptionen;Text bearbeiten;HTML bearbeiten;Text/HTML bearbeiten;Hintergrundfarbe bearbeiten;Hintergrundfarbe;Element einfügen;Link bearbeiten;Visual Experience Composer-Link;CSS-Klasse bearbeiten;CSS-Klasse;CSS-Klasse;Angebot wechseln;Angebot vertauschen;Bild vertauschen;Bild vertauschen;Element entfernen;Element entfernen;Element ausblenden;Element neu anordnen;Element verschieben;Elementgröße ändern;Element vergrößern;Auswahl erweitern;zu diesem Link navigieren;Link navigieren;navigieren;Link navigieren;Link navigieren;Link;Rückgängig;Wiederholen;Wiederholen;benutzerspezifische Ereignisse;Ereignisse;Web-Komponenten;Angebot Entscheidung;Offer Decisioning
-description: Erfahren Sie mehr über die im  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) verfügbaren Optionen.
+description: Erkunden Sie die im [!DNL Adobe Target] ([!UICONTROL  Experience Composer] (VEC) verfügbaren Optionen.
 title: Wie verwende ich die Optionen [!UICONTROL Visual Experience Composer] (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Visual Experience Composer-Optionen
 
 Wenn Sie auf ein Seitenelement im [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) klicken, werden in einem Menü die Optionen angezeigt, die für diesen Elementtyp verfügbar sind. Darüber hinaus wird am unteren Rand der Seite ein DOM-Pfad angezeigt, mit dem Sie einfach durch die Seitenstruktur navigieren können.
@@ -33,7 +37,7 @@ Die folgenden Optionen sind verfügbar:
 
 Neben HTML-Code können Sie auch benutzerdefiniertes JavaScript bearbeiten und einfügen.
 
-Beim Bearbeiten von Text und HTML stehen für A/B-Aktivitäten und [!UICONTROL Erlebnis]Targeting[!UICONTROL &#x200B; verschiedene &#x200B;] zur Rich-Text-Formatierung zur Verfügung. Sie können eine Schriftart und einen Schriftstil auswählen, die Textausrichtung ändern und andere Standardformatierungsoptionen für Texte anwenden. Beim Ändern von HTML können Sie zwischen der Codeansicht und der Rich-Text-Bearbeitungsansicht der HTML umschalten.
+Beim Bearbeiten von Text und HTML stehen für A/B-Aktivitäten und [!UICONTROL Erlebnis]Targeting[!UICONTROL  verschiedene ] zur Rich-Text-Formatierung zur Verfügung. Sie können eine Schriftart und einen Schriftstil auswählen, die Textausrichtung ändern und andere Standardformatierungsoptionen für Texte anwenden. Beim Ändern von HTML können Sie zwischen der Codeansicht und der Rich-Text-Bearbeitungsansicht der HTML umschalten.
 
 Die folgenden HTML 5-Tags können verschachtelt sein:
 
@@ -64,7 +68,7 @@ Wenn Sie verschiedene Stile anwenden, können Sie Ihre Änderungen jederzeit rü
 
 Erweitern Sie jeden Abschnitt, um Stile zu bearbeiten oder hinzuzufügen, wie unten beschrieben. Um Ihre Änderungen zu speichern, klicken Sie auf das [!UICONTROL Zurück]-Symbol oben im Bedienfeld, um zur Hauptanzeige des Bedienfelds zurückzukehren, und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschiedenen Bedienfeldern geben an, dass Sie die entsprechenden Stile geändert haben. Dieser visuelle Indikator erleichtert Ihnen die Überprüfung Ihrer Änderungen, bevor Sie auf &quot;[!UICONTROL &quot; &#x200B;].
+Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschiedenen Bedienfeldern geben an, dass Sie die entsprechenden Stile geändert haben. Dieser visuelle Indikator erleichtert Ihnen die Überprüfung Ihrer Änderungen, bevor Sie auf &quot;[!UICONTROL &quot; ].
 
 >[!NOTE]
 >
@@ -74,15 +78,15 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die Hintergrundfarbe und das Bild ändern.
 
-   * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
-   * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
-   * Bildquelle (geben Sie eine externe URL an)
-   * Anhang
-      * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder „lokal“ auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um „Wiederholen“, „Wiederholung x“, „Wiederholung y, „Keine Wiederholung“, „Leerzeichen“ oder „Bildlauf“ auszuwählen.
-   * Schneiden
-      * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
-      * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
+  * Farbe (geben Sie den Farbcode an oder verwenden Sie den Farbwähler)
+  * Bild (wählen Sie ein Bild aus der Bildauswahl aus)
+  * Bildquelle (geben Sie eine externe URL an)
+  * Anhang
+    * Klicken Sie auf die obere Dropdownliste, um einen Bildlauf, ein festes Layout oder „lokal“ auszuwählen.
+    * Klicken Sie auf die untere Dropdownliste, um „Wiederholen“, „Wiederholung x“, „Wiederholung y, „Keine Wiederholung“, „Leerzeichen“ oder „Bildlauf“ auszuwählen.
+  * Schneiden
+    * Klicken Sie auf die obere Dropdownliste, um „Rahmen“, „Umrandung“, „Inhaltsfenster“ oder „Text“ auszuwählen.
+    * Klicken Sie auf die untere Dropdownliste, um die automatische Audiowiedergabe oder Audiowiedergabe auszuwählen.
 
 * **[!UICONTROL Typografie]**
 
@@ -92,13 +96,13 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die folgenden Typografie-Stile bearbeiten:
 
-   * [!UICONTROL Schriftgröße]
-   * [!UICONTROL Schriftstärke]
-   * [!UICONTROL Schriftstil]
-   * [!UICONTROL Farbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
-   * [!UICONTROL Wortabstand]
-   * [!UICONTROL Zeilenhöhe]
-   * [!UICONTROL Textausrichtung]
+  * [!UICONTROL Schriftgröße]
+  * [!UICONTROL Schriftstärke]
+  * [!UICONTROL Schriftstil]
+  * [!UICONTROL Farbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
+  * [!UICONTROL Wortabstand]
+  * [!UICONTROL Zeilenhöhe]
+  * [!UICONTROL Textausrichtung]
 
 * **[!UICONTROL Spanne]**
 
@@ -106,8 +110,8 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Klicken Sie auf das Dropdownsymbol für jeden Rand, um unter den folgenden Optionen zu wählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um den Rand festzulegen, oder geben Sie die Anzahl der Pixel für jeden Rand an)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um den Rand festzulegen, oder geben Sie die Anzahl der Pixel für jeden Rand an)
 
   Für den Rand werden positive und negative Werte unterstützt.
 
@@ -129,9 +133,9 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Sie können die folgenden Stile für jeden Rahmen bearbeiten (oben, rechts, unten und links):
 
-   * [!UICONTROL Rahmenstil] (keine, ausgeblendet, gepunktet, gestrichelt, geschlossen oder doppelt)
-   * [!UICONTROL Rahmenfarbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
-   * [!UICONTROL Rahmenbreite] (Ziehen Sie den Regler, um eine Rahmenbreite auszuwählen, oder geben Sie die Breite in Pixel an)
+  * [!UICONTROL Rahmenstil] (keine, ausgeblendet, gepunktet, gestrichelt, geschlossen oder doppelt)
+  * [!UICONTROL Rahmenfarbe] (geben Sie den Farbcode an oder verwenden Sie die Farbauswahl)
+  * [!UICONTROL Rahmenbreite] (Ziehen Sie den Regler, um eine Rahmenbreite auszuwählen, oder geben Sie die Breite in Pixel an)
 
   Rahmendicken von 0 aufwärts werden unterstützt.
 
@@ -139,20 +143,20 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
 * **[!UICONTROL Position]**
 
-  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) &#x200B;](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
+  Verschieben Sie das ausgewählte Element von seiner aktuellen Position aus. Sie können die Oben-, Unten-, Links-, Rechts- und [Z-Index) ](https://www.w3schools.com/cssref/pr_pos_z-index.asp).
 
   Klicken Sie auf [!UICONTROL Statisch] Dropdown-Liste, um aus den folgenden Positionsoptionen auszuwählen:
 
-   * [!UICONTROL static]
-   * [!UICONTROL relativ]
-   * [!UICONTROL absolut]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Behoben]
+  * [!UICONTROL static]
+  * [!UICONTROL relativ]
+  * [!UICONTROL absolut]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Behoben]
 
   Klicken Sie auf das Dropdownsymbol für jede Position, um unter den folgenden Optionen auszuwählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die das Element verschoben werden soll)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um das Element zu positionieren, oder geben Sie die Anzahl der Pixel an, um die das Element verschoben werden soll)
 
   Für die Position werden positive und negative Werte unterstützt.
 
@@ -164,22 +168,22 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Klicken Sie auf das Dropdown-Symbol neben [!UICONTROL Breite] und [!UICONTROL Höhe], um eine der folgenden Optionen auszuwählen:
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Wert] (Ziehen Sie den Regler, um die Größe des Elements festzulegen, oder geben Sie die Anzahl der Pixel für jede Dimension an)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Wert] (Ziehen Sie den Regler, um die Größe des Elements festzulegen, oder geben Sie die Anzahl der Pixel für jede Dimension an)
 
 * **[!UICONTROL Filter]**
 
   Ziehen Sie den Schieberegler für jede Filteroption oder geben Sie den gewünschten Prozentsatz an:
 
-   * [!UICONTROL Sepia]
-   * [!UICONTROL Kontrast]
-   * [!UICONTROL Helligkeit]
-   * [!UICONTROL GrayScale]
-   * [!UICONTROL ausgeblendet]
-   * [!UICONTROL Deckkraft]
-   * [!UICONTROL Umkehren]
-*[!UICONTROL &#x200B; Farbton-Drehen]
-   * [!UICONTROL Sättigen]
+  * [!UICONTROL Sepia]
+  * [!UICONTROL Kontrast]
+  * [!UICONTROL Helligkeit]
+  * [!UICONTROL GrayScale]
+  * [!UICONTROL ausgeblendet]
+  * [!UICONTROL Deckkraft]
+  * [!UICONTROL Umkehren]
+    *[!UICONTROL  Farbton-Drehen]
+  * [!UICONTROL Sättigen]
 
 * **[!UICONTROL CSS-Editor]**
 
@@ -191,7 +195,7 @@ Blaue Punkte im Hauptbedienfeld und neben den einzelnen Optionen in den verschie
 
   Beachten Sie die blauen Punkte neben den Optionen [!UICONTROL Typografie], [!UICONTROL Rahmen] und [!UICONTROL Größe] in der vorherigen Abbildung. Diese Punkte zeigen an, dass Sie diese Abschnitte geändert haben. Wenn Sie diese Abschnittsbedienfelder öffnen, werden neben den spezifischen Optionen, die Sie geändert haben, blaue Punkte angezeigt.
 
-  Sie können Ihren eigenen Code eingeben, wenn Ihr gewünschter Stil in der Datei &quot;[!UICONTROL &quot; nicht standardmäßig verfügbar &#x200B;].
+  Sie können Ihren eigenen Code eingeben, wenn Ihr gewünschter Stil in der Datei &quot;[!UICONTROL &quot; nicht standardmäßig verfügbar ].
 
   Der CSS-Editor zeigt nur Details für die aktuelle Sitzung an. Wenn Sie Änderungen speichern und den Editor dann erneut öffnen, werden Details zu Ihrer vorherigen Änderung nicht im Editor angezeigt, auch wenn Sie dasselbe Element erneut auswählen.
 
@@ -217,9 +221,9 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Angebotsentscheidung]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
-**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL &#x200B; manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
+**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL  manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
 Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -249,9 +253,9 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Angebotsentscheidung]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
-**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL &#x200B; manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
+**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL  manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
 Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -281,9 +285,9 @@ Die folgenden Optionen sind verfügbar:
 
 ### [!UICONTROL Angebotsentscheidung]
 
-Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=de){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
+Fügen Sie ein [Angebot erstellt in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} hinzu, um Ihren Kunden mithilfe von Offer Decisioning das beste Angebot und Erlebnis zu bieten.
 
-**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL &#x200B; manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
+**Hinweis:** Diese Option ist nur beim Bearbeiten oder Erstellen [[!UICONTROL  manuellen A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types)Tests oder [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) verfügbar. Diese Option steht für andere Aktivitätstypen nicht zur Verfügung.
 
 Weitere Informationen finden Sie unter [Verwenden von Angebotsentscheidungen](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
@@ -331,7 +335,7 @@ Ziehen Sie das Element an einen anderen Ort innerhalb des gleichen übergeordnet
 
 **Hinweis**: Das Klick-Tracking funktioniert nicht bei neu angeordneten Elementen.
 
-Derzeit gehen bestimmte VEC-Aktionen, wie [!UICONTROL Neu anordnen] und [!UICONTROL Verschieben], davon aus, dass die gleichrangigen Elemente der übergeordneten Quell- und Ziel-Elemente vollständig geladen sind. Wenn verzögertes Laden unter den übergeordneten DOM-Elementen (Quelle oder Ziel) auftritt, können diese VEC-Aktionen zu inkonsistentem Verhalten führen. Wir arbeiten an einem zuverlässigeren Ansatz, damit VEC-Aktionen in verzögert geladenen DOM-Elementen funktionieren. Als temporäre Problemumgehung können Sie in [!UICONTROL &#x200B; Szenarien „benutzerdefinierten Code] verwenden, um Ihre Erlebnisse zu rendern.
+Derzeit gehen bestimmte VEC-Aktionen, wie [!UICONTROL Neu anordnen] und [!UICONTROL Verschieben], davon aus, dass die gleichrangigen Elemente der übergeordneten Quell- und Ziel-Elemente vollständig geladen sind. Wenn verzögertes Laden unter den übergeordneten DOM-Elementen (Quelle oder Ziel) auftritt, können diese VEC-Aktionen zu inkonsistentem Verhalten führen. Wir arbeiten an einem zuverlässigeren Ansatz, damit VEC-Aktionen in verzögert geladenen DOM-Elementen funktionieren. Als temporäre Problemumgehung können Sie in [!UICONTROL  Szenarien „benutzerdefinierten Code] verwenden, um Ihre Erlebnisse zu rendern.
 
 ### [!UICONTROL Größe ändern]
 
@@ -345,7 +349,7 @@ Verschieben Sie Elemente auf Ihrer Seite. Im Gegensatz zu [!UICONTROL Elemente n
 
 In bestimmten Situationen, z. B. wenn eine CSS-Einschränkung erfordert, dass ein Element innerhalb seines übergeordneten Elements bleibt, können Sie das Element nicht aus seinem übergeordneten Element verschieben. Elemente können nicht aus einem Container verschoben werden, der folgende CSS-Eigenschaft hat:`overflow: hidden`
 
-Weitere Informationen [!UICONTROL &#x200B; inkonsistentem Verhalten bei den Aktionen [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] aufgrund des verzögerten Ladens von DOM-Elementen finden Sie oben unter &#x200B;]Neu anordnen .
+Weitere Informationen [!UICONTROL  inkonsistentem Verhalten bei den Aktionen [!UICONTROL Verschieben] und [!UICONTROL Neu anordnen] aufgrund des verzögerten Ladens von DOM-Elementen finden Sie oben unter ]Neu anordnen .
 
 ### [!UICONTROL Ausblenden]
 
@@ -371,7 +375,7 @@ Rückgängigmachen von Änderungen, die Sie während einer Bearbeitungssitzung a
 
 ## Zu beachten {#considerations}
 
-* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank}.
+* Weitere Informationen zu Angeboten mit HTML-Inhalten finden Sie unter „Darstellung von Angeboten mit HTML-Inhalten durch at.js“ in [Funktionsweise von „at.js“](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}.
 
 ## Unterstützung benutzerdefinierter Elemente {#custom}
 
@@ -388,16 +392,16 @@ Die meisten VEC-Aktionen werden für benutzerdefinierte Ereignisse und innerhalb
 Die folgenden Aktionen sind für benutzerdefinierte Elemente nicht verfügbar:
 
 * [!UICONTROL Bearbeiten]
-   * [!UICONTROL text/HTML]
-   * [!UICONTROL link]
-   * [!UICONTROL Source bearbeiten]
+  * [!UICONTROL text/HTML]
+  * [!UICONTROL link]
+  * [!UICONTROL Source bearbeiten]
 
 * [!UICONTROL Inhalt ersetzen]
 
 Die folgende Aktion ist nicht in benutzerdefinierten Elementen verfügbar:
 
 * [!UICONTROL Layout]
-   * [!UICONTROL Neu anordnen]
+  * [!UICONTROL Neu anordnen]
 
 ## Navigieren in Elementen mithilfe des DOM-Pfads {#dom-path}
 

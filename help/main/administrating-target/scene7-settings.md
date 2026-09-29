@@ -1,33 +1,41 @@
 ---
 keywords: scene7;Dynamic Media Classic;Digital Asset Management;Assets;DAM;Inhaltsbibliothek;Bild tauschen
-description: Hier erfahren Sie, wie Sie Adobe  [!DNL Target]  mit Adobe Dynamic Media Classic (früher Scene7) integrieren können, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
+description: Erfahren Sie, wie Sie Adobe [!DNL Target] mit Adobe Dynamic Media Classic (früher Scene7) integrieren können, um Digital Asset Management (DAM) in der Inhaltsbibliothek bereitzustellen.
 title: Wie konfiguriere ich die Integration von Dynamic Media Classic (Scene7)?
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-TQID: https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ
+TQID: 'https://experienceleague.adobe.com/LKbjwlGIxrgaU-2i6Ddn1wi-VjsSmpQPAxYkFHRNOYQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 83%
-
+source-wordcount: '403'
+ht-degree: 78%
 ---
-
 # Konfiguration von Dynamic Media Classic (früher Scene7)
 
-[!DNL Adobe Target] kann in [!DNL Adobe Dynamic Media Classic] (früher [!DNL Scene7]) integriert werden, um Digital Asset Management (DAM) in der [!UICONTROL Inhaltsbibliothek) &#x200B;].
+[!DNL Adobe Target] kann in [!DNL Adobe Dynamic Media Classic] (früher [!DNL Scene7]) integriert werden, um Digital Asset Management (DAM) in der [!UICONTROL Inhaltsbibliothek) ].
 
 {{permissions-update}}
 
@@ -43,7 +51,7 @@ Wenn Sie bereits über ein [!DNL Dynamic Media]-Konto verfügen, können Sie Ihr
 >A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
 -->
 
-Wenn diese Einstellung nicht konfiguriert ist, steht die Option [!UICONTROL Bild austauschen] im Workflow für die Erstellung der Aktivität nicht zur Verfügung. Nachdem diese Einstellung konfiguriert wurde, ist die Option zum Austauschen/Ändern von Bildangeboten sowohl im [Visual Experience Composer (VEC) als auch im formularbasierten Experience Composer &#x200B;](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Anschließend können Sie die Bildangebote mit Bildern nutzen, die aus [!DNL Adobe Experience Cloud] für die Verwendung in [!DNL Target]-Aktivitäten hochgeladen wurden.
+Wenn diese Einstellung nicht konfiguriert ist, steht die Option [!UICONTROL Bild austauschen] im Workflow für die Erstellung der Aktivität nicht zur Verfügung. Nachdem diese Einstellung konfiguriert wurde, ist die Option zum Austauschen/Ändern von Bildangeboten sowohl im [Visual Experience Composer (VEC) als auch im formularbasierten Experience Composer ](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Anschließend können Sie die Bildangebote mit Bildern nutzen, die aus [!DNL Adobe Experience Cloud] für die Verwendung in [!DNL Target]-Aktivitäten hochgeladen wurden.
 
 Wenn Sie während der Aktivitätserstellung direkt in einem Angebot oder in benutzerspezifischem Code auf eine URL zu einem öffentlichen Bild verweisen möchten, sollten Sie das Bild auf Ihren eigenen Webservern bereitstellen und Ihre eigene URL im Code verwenden. Es gibt keine Möglichkeit, mithilfe von [!DNL Target] die veröffentlichte URL eines in [!DNL Experience Cloud] hochgeladenen Bilds abzurufen, um es direkt oder außerhalb der Zielgruppen-Workflows zu verwenden. Diese Funktionalität ist entsprechend dem Vertrag nicht zulässig.
 

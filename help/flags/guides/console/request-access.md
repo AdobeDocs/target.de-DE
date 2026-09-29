@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie Zugriff auf ein Flags-Team in Adobe Target an
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # Zugriff anfordern {#request-access}
 
 Der Zugriff auf Flags wird auf Teamebene verwaltet. Um Flags verwenden zu können, müssen Sie einem Team mit der entsprechenden Rolle hinzugefügt werden.
@@ -37,7 +38,7 @@ Die Ihnen zugewiesene Rolle bestimmt, welche Aktionen Sie in der Konsole ausfüh
 
 ## Nach Gewährung des Zugriffs {#after-access}
 
-Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihre Programme sichtbar sind. Die [&#x200B; Schritte finden Sie unter &#x200B;](log-in-to-the-console.md) in Adobe Target .
+Sobald Ihre Anfrage genehmigt wurde, öffnen Sie Flags in Adobe Target und überprüfen Sie, ob Ihre Programme sichtbar sind. Die [ Schritte finden Sie unter ](log-in-to-the-console.md) in Adobe Target .
 
 ## Brauchen Sie Hilfe? {#need-help}
 

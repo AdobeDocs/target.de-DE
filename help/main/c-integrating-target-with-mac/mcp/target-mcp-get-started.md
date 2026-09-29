@@ -8,13 +8,27 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
-
 ---
-
 # Erste Schritte mit dem [!DNL Adobe Target] MCP-Server {#target-mcp-get-started}
 
 >[!AVAILABILITY]
@@ -38,9 +52,9 @@ Bevor Sie den [!DNL Adobe Target] MCP-Server an Ihren MCP-Client anschließen, s
 * Sie besitzen eine aktive [!DNL Adobe Target]-Lizenz (Adobe Experience Cloud-Abonnement) bei einem Adobe Experience Platform-Unternehmen.
 * Sie haben eine unterstützte MCP-kompatible Anwendung (derzeit Claude Web, Claude Desktop, Claude Code, Cursor oder ChatGPT).
 * Sie haben [!DNL Adobe Target] Berechtigungen in Adobe Admin Console konfiguriert. Die erforderliche Rolle hängt von den Vorgängen ab, die Sie ausführen möchten:
-   * **Beobachterrolle** oder höher: Zugriff auf alle schreibgeschützten Tools (Überprüfung, Bericht, Audit)
-   * **Editor** Rolle oder höher: Zugriff auf Lese- und Schreib-Tools (Erstellen, Aktualisieren)
-   * **Genehmiger** Rolle: Zugriff auf alle Tools, einschließlich Aktivierung und Deaktivierung
+  * **Beobachterrolle** oder höher: Zugriff auf alle schreibgeschützten Tools (Überprüfung, Bericht, Audit)
+  * **Editor** Rolle oder höher: Zugriff auf Lese- und Schreib-Tools (Erstellen, Aktualisieren)
+  * **Genehmiger** Rolle: Zugriff auf alle Tools, einschließlich Aktivierung und Deaktivierung
 
 ## MCP-Server [!DNL Adobe Target] {#mcp-connect}
 

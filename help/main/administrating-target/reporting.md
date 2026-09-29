@@ -1,27 +1,34 @@
 ---
 keywords: Bericht;Berichte;Reporting;Experience Cloud-Lösung;Zeitzone;Zeitzone;Währung;IP ausschließen;geschätzte Steigerung des Umsatzes;Umsatz;Steigerung des Umsatzes;detailliertere Prioritäten;detailliert
-description: Verwenden Sie  [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics]  Berichtsquelle, geben Sie das standardmäßige Zeitzonen- und Währungsformat an, fügen Sie IP-Adressen hinzu, die aus dem Reporting ausgeschlossen werden sollen, und vieles mehr.
-title: Wie konfiguriere ich Reporting in [!DNL Target]?
+description: Verwenden Sie [!DNL Target], [!DNL Adobe Analytics] oder [!DNL Adobe Customer Journey Analytics] als Berichtsquelle, geben Sie das standardmäßige Zeitzonen- und Währungsformat an, fügen Sie IP-Adressen hinzu, die vom Reporting ausgeschlossen werden sollen, und vieles mehr.
+title: Wie konfiguriere ich die Berichterstellung in [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+TQID: 'https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '825'
 ht-degree: 21%
-
 ---
-
 # Konfigurieren der Berichterstellung in [!DNL Target]
 
 Konfigurieren Sie allgemeine Einstellungen, die für [!DNL Adobe Target] Reporting-Berichte verwendet werden und für Ihr gesamtes [!DNL Target]-Konto gelten.
@@ -62,13 +69,13 @@ Beachten Sie bei der Bestimmung Ihrer Berichtsquelle die folgenden Informationen
 
 * **[!DNL Analytics]**: Eine Matrix der unterstützten Aktivitäten, die [!DNL Analytics] als Berichtsquelle (A4T) verwenden, finden Sie unter [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics als Berichtsquelle für Adobe Target (A4T)*.
 
-  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization]-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  Die Erstellung und Aktivierung von [!UICONTROL Automated Personalization] (AP)-Aktivitäten ist unabhängig von der ausgewählten Berichtsquelle zulässig. [!UICONTROL Automated Personalization]-Aktivitäten werden nicht unterstützt, wenn Sie [Adobe Analytics als Berichtsquelle für Adobe Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Selbst wenn Sie [!DNL Analytics] als Berichtsquelle angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 
 * **[!DNL Customer Journey Analytics]**: Eine Matrix der unterstützten Aktivitäten unter Verwendung der [!DNL Target]-Berichterstellung in [!DNL Customer Journey Analytics] finden Sie [Unterstützte Aktivitätstypen](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) in *[!DNL Target]Berichterstellung in[!DNL Adobe Customer Journey Analytics]*.
 
-  Die Erstellung und Aktivierung von AP[!UICONTROL &#x200B; und &#x200B;]Automatisches Targeting)-Aktivitäten sind unabhängig von der auf Kontoebene ausgewählten Berichtsquelle zulässig. Diese Aktivitätstypen werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für eine Aktivität auswählen.
+  Die Erstellung und Aktivierung von AP[!UICONTROL  und ]Automatisches Targeting)-Aktivitäten sind unabhängig von der auf Kontoebene ausgewählten Berichtsquelle zulässig. Diese Aktivitätstypen werden nicht unterstützt, wenn Sie [Adobe Customer Journey Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für eine Aktivität auswählen.
 
   Selbst wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle auf Kontoebene angeben, wird [!DNL Target] als Berichtsquelle für [!DNL Automated Personalization] Aktivitäten verwendet.
 

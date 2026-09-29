@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie mit Funktions-Flags in Flags die Funktionsver
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Feature Flags zum Aktivieren und Deaktivieren von Features {#feature-flags}
 
 Mit Feature Flags können Sie Anwendungsfunktionen zur Laufzeit aktivieren oder deaktivieren, ohne Code erneut bereitstellen zu müssen. Sie trennen außerdem Code-Bereitstellungen von der Funktionsverfügbarkeit: Neuer Code kann hinter einem Flag in der Produktion bereitgestellt und erst aktiviert werden, wenn Sie bereit sind.
@@ -45,6 +46,6 @@ Eine Feature Flag in Flags folgt diesem typischen Lebenszyklus:
 
 1. Ein Entwickler erstellt ein Feature Flag und testet es isoliert, ohne es für andere Benutzer verfügbar zu machen.
 2. Ein Produkteigentümer verknüpft eine Zielgruppe mit der Markierung, wodurch die Funktion für eine definierte Gruppe externer Benutzer sichtbar wird.
-3. Das Flag wird optional einer [Funktionsgruppe“ hinzugefügt, &#x200B;](feature-groups-to-control-multiple-features.md) es zusammen mit zugehörigen Flags verwaltet werden soll.
+3. Das Flag wird optional einer [Funktionsgruppe“ hinzugefügt, ](feature-groups-to-control-multiple-features.md) es zusammen mit zugehörigen Flags verwaltet werden soll.
 
 <!-- -->

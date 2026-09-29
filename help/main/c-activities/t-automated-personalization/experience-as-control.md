@@ -1,28 +1,39 @@
 ---
 keywords: Erlebnis;Kontrolle;automatisierte Personalisierung;automatisches Targeting
-description: Erfahren Sie, wie Sie beim Erstellen einer [!UICONTROL Automated Personalization] (AP)- oder [!UICONTROL Automatisches Targeting]-Aktivität in  [!DNL Adobe Target] ein Erlebnis als Steuerelement auswählen.
+description: Erfahren Sie, wie Sie beim Erstellen einer [!UICONTROL Automated Personalization] (AP)- oder [!UICONTROL Auto-Target]-Aktivität in [!DNL Adobe Target] ein Erlebnis als Steuerelement auswählen.
 title: Wie kann ich ein bestimmtes Erlebnis als Kontrolle in einer [!UICONTROL Automated Personalization]-Aktivität verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+TQID: 'https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 36%
-
 ---
-
 # Wählen Sie das Steuerelement für Ihre Aktivität [!UICONTROL Automated Personalization] oder [!UICONTROL Automatisches Targeting] aus
 
 Sie können beim Erstellen einer [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)-Aktivität ein zufällig bereitgestelltes Erlebnis oder ein bestimmtes Erlebnis als Kontrolle.
@@ -44,7 +55,7 @@ In Ihren Aktivitäten vom Typ [!UICONTROL Automated Personalization] und [!UICON
 
    ![Systemsteuerung](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. Wählen Sie in [!UICONTROL &#x200B; Dropdown]Liste „Steuerung“ die Option [!UICONTROL Zufälliges Erlebnis] oder wählen Sie das gewünschte Erlebnis für das Steuerelement aus.
+1. Wählen Sie in [!UICONTROL  Dropdown]Liste „Steuerung“ die Option [!UICONTROL Zufälliges Erlebnis] oder wählen Sie das gewünschte Erlebnis für das Steuerelement aus.
 
 1. Klicken Sie auf [!UICONTROL Traffic-Zuordnungssteuerung] und geben Sie dann die gewünschte Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
 
@@ -62,10 +73,10 @@ Beachten Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement d
 * Es wird nicht empfohlen, das Kontrollerlebnis zu löschen.
 * Hinzufügen vieler neuer Angebote oder Erlebnisse zu einer Live-Aktivität mit einem bestimmten Erlebnis, da das Steuerelement nicht empfohlen wird.
 * In [!UICONTROL Automated Personalization]-Aktivitäten, einschließlich der Zielgruppenbestimmung für das Kontrollerlebnis, die weiter einschränken könnte, wer sehen kann, dass das Erlebnis nicht empfohlen wird.
-* In [!UICONTROL Automated Personalization]-Aktivitäten sind die Informationen über Steigerung *Konfidenz* NOT) im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Informationen zu Steigerung und Konfidenz sind für die gesamte Aktivität [!UICONTROL Automated Personalization&quot; auf der Traffic-Ebene „Targeting“ im Vergleich &#x200B;] „Kontrolle“ verfügbar. Informationen zu Steigerung und Konfidenz sind verfügbar, wenn als Kontrolle „zufällig“ ausgewählt ist. Dies liegt daran, dass das Vergleichen der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund der unterschiedlichen Einheiten nicht logisch ist. Die in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
+* In [!UICONTROL Automated Personalization]-Aktivitäten sind die Informationen über Steigerung *Konfidenz* NOT) im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Informationen zu Steigerung und Konfidenz sind für die gesamte Aktivität [!UICONTROL Automated Personalization&quot; auf der Traffic-Ebene „Targeting“ im Vergleich ] „Kontrolle“ verfügbar. Informationen zu Steigerung und Konfidenz sind verfügbar, wenn als Kontrolle „zufällig“ ausgewählt ist. Dies liegt daran, dass das Vergleichen der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund der unterschiedlichen Einheiten nicht logisch ist. Die in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
 * Da der gesamte Kontroll-Traffic zu einem einzelnen Erlebnis oder Angebotsset geleitet wird, wenn Sie das Erlebnis als Kontrolle auswählen (im Vergleich zur zufälligen Methode, wo das Volumen des Kontroll-Traffics auf die Anzahl der Erlebnisse oder Angebote in Ihrer Aktivität aufgeteilt ist), benötigen Sie im Allgemeinen weniger Traffic, der zur Kontrolle geleitet wird. Es wird empfohlen, mit 10 % zu beginnen.
 * Wenn Sie eine der folgenden Handlungen bei einer aktiven Aktivität mit einem bestimmten Erlebnis als Kontrollelement ausführen, wird die Kontrolle automatisch auf zufällig ausgelieferte Erlebnisse geändert (anstelle des zuvor ausgewählten bestimmten Erlebnisses):
 
-   * Ein Erlebnis löschen
-   * Standort oder Angebot entfernen (nur [!UICONTROL Automated Personalization])
-   * Manuelles Ausschließen eines Erlebnisses, indem doppelte Angebote entfernt werden oder eine Ausschlussgruppe verwendet wird (nur [!UICONTROL Automated Personalization])
+  * Ein Erlebnis löschen
+  * Standort oder Angebot entfernen (nur [!UICONTROL Automated Personalization])
+  * Manuelles Ausschließen eines Erlebnisses, indem doppelte Angebote entfernt werden oder eine Ausschlussgruppe verwendet wird (nur [!UICONTROL Automated Personalization])

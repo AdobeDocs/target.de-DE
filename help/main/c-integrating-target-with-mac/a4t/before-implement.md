@@ -1,34 +1,47 @@
 ---
 keywords: Recommendations
-description: Erfahren Sie mehr über die Implementierungsanforderungen für Analytics  [!DNL Target] A4T) und darüber, was Sie vor der Implementierung dieser Integration beachten sollten.
+description: Erfahren Sie mehr über die Implementierungsanforderungen für Analytics for [!DNL Target] (A4T) und darüber, was Sie vor der Implementierung dieser Integration beachten sollten.
 title: Was sollte ich vor der Implementierung von A4T wissen?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+TQID: 'https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: '1034'
 ht-degree: 26%
-
 ---
-
 # Vor der Implementierung von Analytics for Target (A4T) mit at.js
 
 Beim Aktivieren von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) treten im Datenerfassungsprozess mehrere Änderungen auf.
@@ -37,7 +50,7 @@ Bevor Sie sich für diese Integration entscheiden, lesen Sie die folgenden Absch
 
 >[!NOTE]
 >
->Dieser Artikel gilt nur für at.js-Implementierungen. Informationen zur Implementierung von [!UICONTROL Analytics for Target] (A4T) mit dem [!DNL Adobe Experience Platform Web SDK] finden Sie unter [Protokollierung von Adobe Analytics for Target (A4T) in der Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=de){target=_blank}.
+>Dieser Artikel gilt nur für at.js-Implementierungen. Informationen zur Implementierung von [!UICONTROL Analytics for Target] (A4T) mit dem [!DNL Adobe Experience Platform Web SDK] finden Sie unter [Protokollierung von Adobe Analytics for Target (A4T) in der Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Implementierungsanforderungen {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -101,17 +114,17 @@ Die Latenzsteigerung beginnt nach der Implementierung des [!DNL Experience Cloud
 
 Alle [!DNL Target] Aufrufe, die von einer A4T-Aktivität zum Bereitstellen von Inhalten oder Aufzeichnen der Zielmetrik verwendet werden, müssen einen entsprechenden [!DNL Analytics]-Treffer aufweisen, der die zusätzliche ID teilt, damit A4T ordnungsgemäß funktioniert.
 
-Treffer, die Daten aus [!DNL Analytics] und [!DNL Target] enthalten, enthalten eine zusätzliche Daten-ID. Diese ID wird im [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de) als `sdid` angezeigt. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
+Treffer, die Daten aus [!DNL Analytics] und [!DNL Target] enthalten, enthalten eine zusätzliche Daten-ID. Diese ID wird im [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) als `sdid` angezeigt. Beispiel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Diese ID wird jedes Mal erstellt, wenn folgende Kriterien vorhanden sind:
 
 * Der Besucher-ID-Service wurde implementiert.
 
-Stellen [&#x200B; bei &#x200B;](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)Fehlerbehebung) sicher, dass die zusätzliche ID bei [!DNL Analytics] Treffern vorhanden ist.
+Stellen [ bei ](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)Fehlerbehebung) sicher, dass die zusätzliche ID bei [!DNL Analytics] Treffern vorhanden ist.
 
 ## Client-seitige Analytics-Protokollierung {#client-side}
 
 Wenn sich at.js, die [!DNL Experience Cloud Visitor ID Service] und appMeasurement.js auf der Seite befinden, [!DNL Analytics] und ordnet [!DNL Target] Ereignisse für Reporting- und Analysezwecke im Backend korrekt zu, solange die richtige zusätzliche ID von der Seite enthalten ist. Sie müssen keine zusätzlichen Vorgänge verwalten und durchführen, damit A4T ordnungsgemäß funktioniert.
 
-Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie Analysedaten zu [!DNL Target] zu Berichtszwecken an [!DNL Analytics] senden. Möglicherweise verfügen Sie über ein internes Analysetool, das Sie für interne Zwecke verwenden. Sie möchten jedoch auch die Analysedaten über Ihr internes Analyseprodukt an [!DNL Analytics] senden, damit andere Mitglieder Ihrer Organisation [!DNL Analytics] weiterhin als visuelle Berichtsquelle verwenden können. Weitere Informationen finden Sie [Schritt 7: Referenzieren von at.js auf allen &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)-Seiten *unter Analytics for Target-*).
+Es gibt Fälle, in denen Sie mehr Kontrolle darüber wünschen, wann und wie Sie Analysedaten zu [!DNL Target] zu Berichtszwecken an [!DNL Analytics] senden. Möglicherweise verfügen Sie über ein internes Analysetool, das Sie für interne Zwecke verwenden. Sie möchten jedoch auch die Analysedaten über Ihr internes Analyseprodukt an [!DNL Analytics] senden, damit andere Mitglieder Ihrer Organisation [!DNL Analytics] weiterhin als visuelle Berichtsquelle verwenden können. Weitere Informationen finden Sie [Schritt 7: Referenzieren von at.js auf allen ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)-Seiten *unter Analytics for Target-*).
 
 ## Freigegebene Zielgruppen
 
@@ -119,7 +132,7 @@ Beachten Sie beim Ausfüllen des Bereitstellungsformulars für [Marketing Cloud]
 
 ![Anfrageformular](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Wenn Sie &quot;[!UICONTROL &#x200B; Audiences] anfordern, aktivieren Sie [!UICONTROL Target] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen, in diesem Fall Audiences, freizugeben.
+Wenn Sie &quot;[!UICONTROL  Audiences] anfordern, aktivieren Sie [!UICONTROL Target] und [!UICONTROL Adobe Audience Manager] (AAM), um Informationen, in diesem Fall Audiences, freizugeben.
 
 >[!IMPORTANT]
 >

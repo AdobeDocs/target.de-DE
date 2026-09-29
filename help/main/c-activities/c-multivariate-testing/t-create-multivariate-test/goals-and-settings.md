@@ -1,29 +1,35 @@
 ---
 keywords: Aktivitätseinstellungen;Ziele und Einstellungen;Multivariate;MVT
-description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target]  Informationen zu den Zielen einer [!UICONTROL Multivarianz-Test]-Aktivität (MVT) angeben.
+description: Erfahren Sie, wie Sie auf der Seite [!UICONTROL Ziele und Einstellungen] in [!DNL Adobe Target] Informationen zu den Zielen einer Aktivität vom Typ [!UICONTROL Multivariater Test] (MVT) angeben.
 title: Wie gebe ich Ziele und Einstellungen in einer Aktivität [!UICONTROL Multivariater Test] (MVT) an?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 40%
 ---
-
 # Ziele und Einstellungen ([!UICONTROL Multivarianz-])
 
-Auf [!UICONTROL &#x200B; Seite „Ziele &#x200B;] Einstellungen“ in [!DNL Adobe Target] geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivarianz-Test]-Aktivitäten (MVT) ein.
+Auf [!UICONTROL  Seite „Ziele ] Einstellungen“ in [!DNL Adobe Target] geben Sie Informationen zu den Zielen Ihrer [!UICONTROL Multivarianz-Test]-Aktivitäten (MVT) ein.
 
 Die folgenden Abschnitte sind verfügbar:
 
@@ -56,7 +62,7 @@ Wenn diese Option aktiviert ist, geben Sie einen Wert zwischen 0 und 999 an:
 * 0 = Niedrig
 * 999 = Hoch
 
-Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[!UICONTROL &#x200B; wird die Priorität „Niedrig] in 0, die Priorität [!UICONTROL Medium] in 5 und die Priorität [!UICONTROL Hoch] in 10 konvertiert. Diese Werte können nach Wunsch angepasst werden.
+Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[!UICONTROL  wird die Priorität „Niedrig] in 0, die Priorität [!UICONTROL Medium] in 5 und die Priorität [!UICONTROL Hoch] in 10 konvertiert. Diese Werte können nach Wunsch angepasst werden.
 
 >[!NOTE]
 >
@@ -64,7 +70,7 @@ Für Aktivitäten, die in früheren Versionen von [!DNL Target] erstellt wurden[
 
 ### Dauer
 
-Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00 :00 Mitternacht ist. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Genehmigung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
 
 ## Berichterstellungseinstellungen {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -86,7 +92,7 @@ Sie können Ihre Berichtsquelle nicht ändern, nachdem die Aktivität live gesch
 
 Bei der Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) wählen Sie eine [!DNL Analytics] Report Suite aus, um [!DNL Target] Aktivitätsdaten zu erhalten. Wählen Sie dazu zunächst eines der [!DNL Analytics] Unternehmen aus, mit denen Ihr Konto verknüpft ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwartete Report Suite nicht angezeigt wird, versuchen Sie zunächst, sich abzumelden und sich wieder bei der [!DNL Adobe Experience Cloud] anzumelden, um es dann erneut zu versuchen. Wenn die Report Suite noch fehlt, wenden Sie sich an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-[!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking-Server] wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [&#x200B; unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
+[!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking-Server] wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [ unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
 
 **[!DNL Adobe Customer Journey Analytics]**: Siehe [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target].
 
@@ -100,7 +106,7 @@ Wählen Sie die Aktion, die von einem Besucher ergriffen wird, um das Ziel zu er
 
 Bei der Auswahl Ihrer Erfolgsmetrik wird ein Selektor angezeigt. Verwenden Sie diesen Selektor, um Einzelheiten zu dieser Erfolgsmetrik auszuwählen.
 
-Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel, aber nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Umsatz pro Besucher], [!UICONTROL Durchschnittlicher Bestellwert], [!UICONTROL Gesamtumsatz] und [!UICONTROL Bestellungen]) verwendet die Schätzung [!UICONTROL Umsatz pro Besucher]. Der Datentyp ist eine Währung.
+Wenn diese Option aktiviert ist[!UICONTROL  liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel, aber nicht für andere Metriken. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Für alle Umsatzmetriken ([!UICONTROL Umsatz pro Besucher], [!UICONTROL Durchschnittlicher Bestellwert], [!UICONTROL Gesamtumsatz] und [!UICONTROL Bestellungen]) verwendet die Schätzung [!UICONTROL Umsatz pro Besucher]. Der Datentyp ist eine Währung.
 
 Nach Erreichen des Aktivitätsziels wird einem Besucher weiterhin der Aktivitätsinhalt angezeigt, es sei denn, dieser Besucher qualifiziert sich für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Dieses Verhalten unterscheidet sich vom Standardverhalten in [!DNL Target Classic], das Besucher als neu zählt, wenn sie den Test erneut sehen.
 
@@ -152,7 +158,7 @@ Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugef�
 Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:
 
 * [!UICONTROL Wählen Sie Anzahl erhöhen und Benutzer in Aktivität belassen], um anzugeben, wie die Anzahl erhöht werden soll.
-* [!UICONTROL Wählen Sie Anzahl erhöhen, Benutzer freigeben und erneuten Eintritt &#x200B;], um das Erlebnis anzugeben, das Benutzende sehen, wenn sie die Aktivität erneut aufrufen.
+* [!UICONTROL Wählen Sie Anzahl erhöhen, Benutzer freigeben und erneuten Eintritt ], um das Erlebnis anzugeben, das Benutzende sehen, wenn sie die Aktivität erneut aufrufen.
 * [!UICONTROL Wählen Sie Anzahl inkrementieren, Benutzer und Leiste von Wiedereintritt freigeben], um anzugeben, was der Benutzer anstelle des Aktivitätsinhalts sieht.
 
 Weitere Informationen zu erweiterten Einstellungen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
@@ -183,9 +189,9 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 
 ### Erstellen von Multivarianz-Tests (9:25)
 
-In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Die Ziele und Einstellungen werden ab 7 :00 erläutert.
+In diesem Video wird gezeigt, wie Sie mit dem [!DNL Target] dreistufigen Workflow einen Multivarianz-Test erstellen. Ziele und Einstellungen werden ab 7:00 erläutert.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

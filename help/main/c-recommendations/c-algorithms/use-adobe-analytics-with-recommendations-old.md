@@ -1,24 +1,31 @@
 ---
 keywords: Verhaltensdatenquelle;Analysen;Empfehlungen;Kriterien;Produktvariablen
-description: Erfahren Sie, wie Sie  [!DNL Adobe Analytics]  als Verhaltensdatenquelle verwenden können, um die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten von  [!DNL Analytics] in [!DNL Target Recommendations] zu verwenden.
-title: Wie verwende ich  [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+description: Erfahren Sie, wie Sie [!DNL Adobe Analytics] als Verhaltensdatenquelle verwenden können, um die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten von [!DNL Analytics] in [!DNL Target Recommendations] zu verwenden.
+title: Wie verwende ich [!DNL Adobe Analytics] mit [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
-
 ---
-
 # Verwenden von [!DNL Adobe Analytics] mit [!DNL Recommendations]
 
 Durch die Verwendung von [!DNL Adobe Analytics] als Verhaltensdatenquelle können Kunden die ansichtsbasierten und/oder kaufbasierten Verhaltensdaten von [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] verwenden. Diese Funktion ist besonders hilfreich in Situationen, in denen die [!DNL Target Recommendations] neu ist und [!DNL Analytics] viele historische Daten zu verwenden hat.
 
 Die Verwendung von [!DNL Analytics] als Verhaltensdatenquelle kann als umfangreiche Quelle für Informationen zum Benutzerverhalten dienen. Diese Informationen können Daten aus einer Drittanbieterquelle oder einem Feed enthalten, die bzw. der nur für [!DNL Analytics] freigegeben wird.
 
-Beim [Erstellen &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] können Sie über zwei Optionsfelder auswählen, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf  > [!UICONTROL Kriterien] > [!UICONTROL Kriterien erstellen] > [!UICONTROL Kriterien erstellen]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Beim [Erstellen ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) Kriterien“ in [!DNL Recommendations] können Sie über zwei Optionsfelder auswählen, welche Datenquelle verwendet werden soll: [!UICONTROL mboxes] oder [!UICONTROL Analytics]. Um ein Kriterium zu erstellen, klicken Sie auf  > [!UICONTROL Kriterien] > [!UICONTROL Kriterien erstellen] > [!UICONTROL Kriterien erstellen]. Weitere Informationen finden Sie unter [Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 ![Schaltflächen für Verhaltensdatenquellen](assets/behavioral-data-source.png)
 
@@ -49,7 +56,7 @@ Ein [!DNL Target Recommendations] Beispiel-Feed-Format dient als Anleitung, für
 >
 >Wenn es sich um eine Inhalts-Site handelt, müssen die entsprechenden Inhaltselemente als „Produkte“ behandelt werden und die zugehörigen Attribute zu diesem Inhalt müssen als Attribute übergeben werden. Zu diesen Attributen gehören u. a. der Name des Autors, das Veröffentlichungsdatum, der Titel des Inhalts, der Monat der Veröffentlichung usw. Die Granularität von Kategorieebenen oder Kategorietypen sollte vom Unternehmen auf der Grundlage von Anwendungsfallanforderungen festgelegt werden.
 
-Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=de) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation erfordern die Diskretion des Teams, das sie bereitstellt (Beispiel : Kategorie). Es wird immer empfohlen, [!DNL Adobe] vor dieser Aktivität zu konsultieren.
+Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation erfordern die Diskretion des Teams, das sie bereitstellt (Beispiel : Kategorie). Es wird immer empfohlen, [!DNL Adobe] vor dieser Aktivität zu konsultieren.
 
 ### Zu beachten
 

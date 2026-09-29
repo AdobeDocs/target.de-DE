@@ -2,16 +2,23 @@
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter
 description: Erfahren Sie, wie Sie die Recommendations-Katalogsuche verwenden können, um Produkte oder Inhalte zu finden, Sammlungen oder Ausschlüsse zu erstellen, Elemente aus Ihrem Katalog zu entfernen und vieles mehr.
 title: Wie verwende ich die Recommendations-Katalogsuche?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 20%
-
 ---
-
 # Katalogsuche
 
 Die [!UICONTROL Katalogsuche] in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, besteht darin, nach einem Element zu suchen. Darüber hinaus können Sie die Umgebung ändern, Suchergebnisse in Sammlungen oder Ausschlüssen speichern, Filterfacetten hinzufügen und Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
@@ -113,7 +120,7 @@ Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das E
 
 ## Katalog aktualisieren
 
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [&#x200B; Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
+Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [ Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen sind normalerweise in einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
@@ -147,7 +154,7 @@ Sie können die verfügbaren Filter und Spalten auf der Seite [!UICONTROL Katalo
 
 ### Filter ändern
 
-Sie können der Seite „Katalogsuche“ zusätzliche [!UICONTROL &#x200B; hinzufügen].
+Sie können der Seite „Katalogsuche“ zusätzliche [!UICONTROL  hinzufügen].
 
 1. Klicken Sie im **[!UICONTROL Filter]**-Bedienfeld auf **[!UICONTROL Ändern]**.
 

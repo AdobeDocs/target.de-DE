@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie Feature Flag-Berichte in Flags mithilfe von C
 badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
-
 ---
-
 # Berichterstellung {#reporting}
 
 Flags ermöglicht Berichte über **Customer Journey Analytics (CJA)**. Eine **Bericht**-Registerkarte ist auf jeder Detailseite für Feature Flag und Feature Group verfügbar. Damit können Sie einen CJA-Bericht anzeigen, der sich auf diese bestimmte Markierung oder Gruppe bezieht und direkt in die Seite eingebettet ist.
@@ -63,7 +64,7 @@ Passen Sie den Datumsbereich in der Kopfzeile des Bedienfelds an, um ihn für ei
 
 ![Experimentier-Bedienfeld mit Selektoren für Experimente, Kontrollvarianten und Metriken](assets/experimentation-selection.png)
 
-Weitere Informationen [&#x200B; Berechnung dieser Metriken finden &#x200B;](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation) in der Dokumentation zum Experimentier Bedienfeld .
+Weitere Informationen [ Berechnung dieser Metriken finden ](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation) in der Dokumentation zum Experimentier Bedienfeld .
 
 ![Experimentergebnisse mit Steigerung, Konfidenz und Konversionsrate nach Variante](assets/experimentation.png)
 

@@ -1,21 +1,27 @@
 ---
 keywords: Ergebniserfassung;Ergebnis
-description: Erfahren Sie mehr über die Interaktionsmetrik „Capture Score“ in Adobe [!DNL Target]  die einen aggregierten Wert berechnet, der auf den Werten basiert, die den auf der Website besuchten Seiten zugewiesen wurden.
+description: Erfahren Sie mehr über die Interaktionsmetrik „Capture Score“ in Adobe [!DNL Target], die einen aggregierten Wert basierend auf dem Wert berechnet, der den auf der Website besuchten Seiten zugewiesen wurde.
 title: Was ist die Metrik „Capture Score“?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+TQID: 'https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: '778'
 ht-degree: 44%
-
 ---
-
 # Ergebniserfassung
 
 Die Metrik Engagement des Capture Score in [!DNL Adobe Target] berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Kampagne zum ersten Mal sieht.

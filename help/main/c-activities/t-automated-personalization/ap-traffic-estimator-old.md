@@ -1,17 +1,24 @@
 ---
 keywords: Traffic-Schätzung;Automated Personalization;App;Traffic schätzen
-description: Verwenden Sie die  [!DNL Adobe Target] [!UICONTROL &#x200B; Traffic-Schätzung] um festzustellen, ob ausreichend Traffic vorhanden ist, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
+description: Verwenden Sie die [!DNL Adobe Target] [!UICONTROL Traffic-Schätzung] um festzustellen, ob ausreichend Traffic vorhanden ist, damit Ihre [!UICONTROL Automated Personalization]-Aktivität erfolgreich ist.
 title: Wie viel Traffic wird für eine erfolgreiche Aktivität vom Typ [!UICONTROL Automated Personalization] benötigt?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # Schätzen des für einen erfolgreichen Test erforderlichen Traffics
 
 Die [!DNL Adobe Target]Traffic[!UICONTROL Schätzung] liefert Feedback, mit dem Sie wissen, ob Sie über ausreichend Traffic für eine erfolgreiche [!UICONTROL Automated Personalization] (AP)-Aktivität verfügen.
@@ -28,7 +35,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Symbol](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ &#x200B;].
+   Die [!UICONTROL Traffic-Schätzung] wird geöffnet. Sie können erneut auf **[!UICONTROL Traffic]** klicken, um die [!UICONTROL Traffic-Schätzung“ ].
 
    ![Benutzeroberfläche der Traffic-Schätzung](assets/ap_est.png)
 
@@ -59,7 +66,7 @@ Denken Sie daran, dass [!DNL Target] Erlebnisse nach dem Zufallsprinzip bereitst
 
    ![Traffic-Schätzung zeigt eine ausreichende Traffic-Meldung an](assets/ap_est_yes.png)
 
-   Wenn der Traffic ausreichend ist, wird [!UICONTROL &#x200B; Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
+   Wenn der Traffic ausreichend ist, wird [!UICONTROL  Symbol „Traffic] ein grünes Häkchen angezeigt. Wenn der Traffic nicht ausreicht, wird als Symbol ein roter Warnhinweis angezeigt.
 
 ## Häufig gestellte Fragen zur Traffic-Schätzung
 

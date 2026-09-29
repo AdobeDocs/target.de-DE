@@ -1,25 +1,33 @@
 ---
 keywords: AB;A/B;AB…n;Stichprobengröße;Stichprobengrößenrechner;Automatische Zuordnung;automatische Zuordnung;Rechner
-description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Für einen erfolgreichen A/B-Test  [!DNL Adobe Target]  genügend Besucher (Stichprobengröße) benötigt, um die Konversionsrate zu verbessern.
+description: Erfahren Sie, wie lange ein A/B-Test ausgeführt wird. Für einen erfolgreichen A/B-Test in [!DNL Adobe Target] sind ausreichend Besucher erforderlich (Stichprobengröße), um die Konversionsrate zu verbessern.
 title: Wie lange sollte ich einen A/B-Test durchführen?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+TQID: 'https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Optimization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: '3185'
 ht-degree: 47%
-
 ---
-
 # Wie lange sollten A/B-Tests laufen?
 
 Für eine erfolgreiche [!UICONTROL A/B-]-Aktivität in [!DNL Adobe Target] sind ausreichend Besucher (Stichprobengröße) erforderlich, um die Konversionsrate zu verbessern. Wie weiß man, wie lange man einen A/B-Test durchführt? Dieser Artikel enthält Informationen zu [!UICONTROL automatischen Zuordnungs]-Aktivitäten und dem [!UICONTROL Adobe Target]-Stichprobengrößenrechner, um sicherzustellen, dass Ihre Aktivität über ausreichend Besuchende verfügt, um Ihre Ziele zu erreichen.
@@ -173,6 +181,6 @@ Jedes Mal, wenn Sie zwei Angebote vergleichen, entspricht die Wahrscheinlichkeit
 
 ## Schlussfolgerung {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-Durch die Verwendung [!UICONTROL &#x200B; Aktivität „Automatische Zuordnung] ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Automatische Zuordnung] erleichtert das Erreichen Ihrer Konversionsziele und entfernt das Rätselraten.
+Durch die Verwendung [!UICONTROL  Aktivität „Automatische Zuordnung] ermittelt [!DNL Target] aus zwei oder mehr Erlebnissen den Gewinner und ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen. [!UICONTROL Automatische Zuordnung] erleichtert das Erreichen Ihrer Konversionsziele und entfernt das Rätselraten.
 
 Indem Sie den in diesem Artikel vorgestellten Stichprobengrößenrechner (Link oben) verwenden und den Test so lange ausführen lassen, wie er nahe legt, können Sie sicherstellen, dass Sie immer hochwertige A/B-Tests durchführen, die den Falsch-Positiv- und Falsch-Negativ-Raten entsprechen, die Sie für den spezifischen Test als ausreichend erachtet haben. Dadurch wird gewährleistet, dass Ihre Tests konsistent und in der Lage sind, die von Ihnen gewünschte Steigerung zuverlässig zu ermitteln.
