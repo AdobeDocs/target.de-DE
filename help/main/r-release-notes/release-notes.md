@@ -29,16 +29,27 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 32%
+source-wordcount: '914'
+ht-degree: 30%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
 Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in [!DNL Adobe Target]. Diese Versionshinweise enthalten auch Aktualisierungen für [!DNL Target] APIs, SDKs, die [!DNL Adobe Experience Platform Web SDK], at.js und ggf. andere Plattformkomponenten.
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.7 (28. September 2026)
+
+**[!UICONTROL Recommendations]**
+
++++ Details anzeigen
+
+* **Fehler „Ungültige Benutzereingabe“ im Visual Experience Composer**. Beim Bearbeiten einer Recommendations -Aktivität in Visual Experience Composer trat beim Versuch, die Aktivität zu speichern und zu schließen, der Fehler „Ungültige Benutzereingabe“ auf.
+
++++
+
 
 ## [!DNL Target Standard/Premium] 26.9.6 (24. September 2026)
 
