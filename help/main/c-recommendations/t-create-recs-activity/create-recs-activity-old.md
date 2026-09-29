@@ -185,4 +185,4 @@ Mit dem Target Visual Experience Composer (VEC) können Sie eine Recommendati
 
 ## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33909?captions=ger)
