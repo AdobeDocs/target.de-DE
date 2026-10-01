@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [KI-Assistenten aktivieren](/help/main/c-intro/enabling-ai-assistant.md)
     + [Verwenden des KI-Assistenten, um Produktkenntnisse zu erwerben](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Verwenden des KI-Assistenten für die Inhaltserstellung](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Mitarbeiterqualifikationen für Adobe Target](c-intro/coworker-skills.md)
   + Adobe Target Welcome Kit {#welcome}
     + [Target Welcome Kit – Überblick](/help/main/c-intro/target-welcome-kit.md)
     + [Kapitel 1: Einführung](/help/main/c-intro/target-welcome-kit-1.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
   + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
   + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)
