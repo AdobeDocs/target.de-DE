@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Einführung in [!DNL Target]
 
@@ -104,30 +104,6 @@ ht-degree: 70%
 >title="Baseline-Metrikrate"
 >abstract="Ihre aktuelle Leistung vor Beginn des Experiments, Durchschnitt des Kontrollarms. Immer erforderlich. Geben Sie für Prozentmetriken einen Prozentsatz ein: Wenn 5 % der Besuchenden auf „Jetzt kaufen“ klicken, geben Sie 5 ein. Geben Sie für Zahlmetriken den unformatierten Dezimalwert ein."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Primäre Metrik"
->abstract="Die primäre Metrik wird automatisch aus den Reporting-Einstellungen abgerufen. Um Änderungen vorzunehmen, ändern Sie die Zielmetrik unter „Ziele und Einstellungen“."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothese"
->abstract="Die Hypothese ist eine von Ihnen definierte Aussage, die das erwartete Ergebnis des Experiments erklärt. Geben Sie eine Beschreibung dessen an, was wo geändert wird, und von welcher Metrik Sie sich erwarten, dass sie sich ändert und wie."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Erkenntnisse"
->abstract="Experimenterkenntnisse sind die Erkenntnisse, die von KI gewonnen werden, wenn die Experimentdaten eine statistische Signifikanz erreicht haben."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Möglichkeiten"
->abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Abwandlungsideen, die auf von KI in Ihren Experiment-Screenshots und -Ergebnissen gefundenen Mustern basieren."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Abwandlungsdetails"
->abstract="Abwandlungsdetails zeigen Bilder davon, wie eine Abwandlung aussieht, wenn eine Person für sie qualifiziert ist. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
 
 [!DNL Adobe Target], Teil der [!DNL Adobe Experience Cloud], bietet umfassende Tools zur Personalisierung von Kundenerlebnissen über Web, mobile Sites, Apps, soziale Medien und andere digitale Kanäle.
 

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [KI-Assistenten aktivieren](/help/main/c-intro/enabling-ai-assistant.md)
     + [Verwenden des KI-Assistenten, um Produktkenntnisse zu erwerben](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Verwenden des KI-Assistenten für die Inhaltserstellung](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Mitarbeiterqualifikationen für Adobe Target](c-intro/coworker-skills.md)
   + Adobe Target Welcome Kit {#welcome}
     + [Target Welcome Kit – Überblick](/help/main/c-intro/target-welcome-kit.md)
     + [Kapitel 1: Einführung](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + Aktivitäten {#activities}
   + [Aktivitäten – Überblick](c-activities/activities.md)
   + [Insights-Dashboard](c-activities/insights-dashboard.md)
+  + [Stichprobenrechner](c-activities/sample-size-calculator.md)
   + [Target-Aktivitätstypen](c-activities/target-activities-guide.md)
   + A/B-Test {#abtest}
     + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [Klick-Tracking](c-activities/r-success-metrics/click-tracking.md)
     + [Ergebniserfassung](c-activities/r-success-metrics/capture-score.md)
   + [Aktivitätsänderungsprotokoll](c-activities/change-log.md)
+  + [KI-Erkenntnisse](c-activities/ai-insights.md)
   + Fehlerbehebung bei Aktivitäten {#troubleshoot-activities}
     + [Fehlerbehebung bei Aktivitäten – Überblick](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Fehlerbehebung bei der Inhaltsbereitstellung](c-activities/c-troubleshooting-activities/content-trouble.md)
