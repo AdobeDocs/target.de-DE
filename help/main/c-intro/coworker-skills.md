@@ -25,7 +25,7 @@ Mitarbeiter können mit ihren Fähigkeiten Adobe Target-Experten natürliche Spr
 [!DNL Adobe Target] MCP-Tools und Coworker werden separat dokumentiert und bieten verschiedene Funktionen:
 
 * [Target MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) dokumentiert die einzelnen Tools, die vom direkten MCP-Server bereitgestellt werden, einschließlich unterstützter Aktivitätstypen, Parameter, Berechtigungen und Lese- oder Schreibbereich.
-* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) bietet eine separate Orchestrierungsschicht für natürliche Sprachen, die Funktionen kombinieren und zusätzliche Workflows anwenden kann.
+* [Coworker](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) bietet eine separate Orchestrierungsschicht für natürliche Sprachen, die Funktionen kombinieren und zusätzliche Workflows anwenden kann.
 
 In der folgenden Tabelle finden Sie einen allgemeinen Vergleich der zugehörigen Funktionen.
 
