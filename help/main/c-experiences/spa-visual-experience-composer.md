@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 56%
 ---
 # Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
@@ -90,128 +90,134 @@ Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, o
 
 Nachdem wir nun erklärt haben, was Adobe Target-Ansichten sind, können wir dieses Konzept in Target nutzen, um Marketern die Möglichkeit zu geben, mithilfe des VEC A/B- und XT-Tests in SPAs durchzuführen. Dies erfordert eine einmalige Einrichtung durch den Entwickler. Führen wir die Schritte zur Einrichtung durch.
 
-1. Installieren Sie at.js 2.x.
++++ Installieren Sie at.js 2.x.
 
-   Zunächst müssen wir at.js 2.x installieren. Diese Version von at.js wurde mit Blick auf SPAs entwickelt. Frühere Versionen von at.js und unterstützen keine Adobe Target-Ansichten und den VEC für SPA.
+Zunächst müssen wir at.js 2.x installieren. Diese Version von at.js wurde mit Blick auf SPAs entwickelt. Frühere Versionen von at.js und unterstützen keine Adobe Target-Ansichten und den VEC für SPA.
 
-   ![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
+![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
 
-   Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung) &#x200B;]. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
+Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung) ]. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
 
-1. Implementieren Sie die neueste Funktion von at.js 2.x: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=de){target=_blank} auf Ihren Sites.
++++
 
-   Nachdem Sie die Ansichten Ihrer SPA definiert haben, in denen Sie einen A/B- oder XT-Test ausführen möchten, implementieren Sie die `triggerView()`-Funktion von at.js 2.x mit den als Parameter übergebenen Ansichten. Dadurch können Marketing-Experten VEC zum Entwerfen und Ausführen der A/B- und XT-Tests für diese Ansichten verwenden. Wenn die `triggerView()`-Funktion für diese Ansichten nicht definiert wurde, erkennt VEC die Ansichten nicht, sodass Marketing-Experten den VEC nicht zum Entwerfen und Ausführen von A/B- und XT-Tests verwenden können.
++++ Implementieren der neuesten Funktion von at.js 2.x
 
-   **`adobe.target.triggerView(viewName, options)`**
+Implementieren Sie die neueste Funktion (triggerView[) von at.js 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} Ihren Sites.
 
-   | Parameter | Typ | Erforderlich? | Validierung | Beschreibung |
-   | --- | --- | --- | --- | --- |
-   | viewName | Zeichenfolge | Ja | &#x200B;1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Ansichtsname muss für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „Home“ und &quot;`/home`&quot; unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Dieser Ansichtsname wird im Bedienfeld [!UICONTROL Änderungen] des VEC angezeigt, damit Marketer Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
-   | options | Objekt | Nein |  |  |
-   | Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei der `page=true` werden Benachrichtigungen an die Edge-Server gesendet, um die Impressionsanzahl zu erhöhen.<br>**FALSE**: Bei der `page=false` werden keine Benachrichtigungen gesendet, um die Impressionsanzahl zu erhöhen. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
+Nachdem Sie die Ansichten Ihrer SPA definiert haben, in denen Sie einen A/B- oder XT-Test ausführen möchten, implementieren Sie die `triggerView()`-Funktion von at.js 2.x mit den als Parameter übergebenen Ansichten. Dadurch können Marketing-Experten VEC zum Entwerfen und Ausführen der A/B- und XT-Tests für diese Ansichten verwenden. Wenn die `triggerView()`-Funktion für diese Ansichten nicht definiert wurde, erkennt VEC die Ansichten nicht, sodass Marketing-Experten den VEC nicht zum Entwerfen und Ausführen von A/B- und XT-Tests verwenden können.
 
-   Sehen wir uns nun einige Beispiel-Anwendungsfälle zum Aufrufen der `triggerView()` in React für unsere hypothetische E-Commerce-SPA an:
+**`adobe.target.triggerView(viewName, options)`**
 
-   **Link: [Startseite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| Parameter | Typ | Erforderlich? | Validierung | Beschreibung |
+| --- | --- | --- | --- | --- |
+| viewName | Zeichenfolge | Ja | &#x200B;1. Keine nachfolgenden Leerzeichen.<br>2. Darf nicht leer sein.<br>3. Der Ansichtsname muss für alle Seiten eindeutig sein.<br>4. **Warnung:** Der Anzeigename sollte nicht mit „`/`“ beginnen oder enden. Dies liegt daran, dass der Kunde den Anzeigenamen im Allgemeinen aus dem URL-Pfad entnimmt. Für uns sind „Home“ und &quot;`/home`&quot; unterschiedlich.<br>5. **Warnung:** Dieselbe Ansicht sollte nicht mehrmals hintereinander mit der Option `{page: true}` ausgelöst werden. | Geben Sie eine beliebige Zeichenfolge als Namen für Ihre Ansicht an. Dieser Ansichtsname wird im Bedienfeld [!UICONTROL Änderungen] des VEC angezeigt, damit Marketer Aktionen erstellen und ihre A/B- und XT-Aktivitäten ausführen können. |
+| options | Objekt | Nein |  |  |
+| Optionen > Seite | Boolesch | Nein |  | **TRUE**: Der Standardwert der Seite ist „wahr“. Bei der `page=true` werden Benachrichtigungen an die Edge-Server gesendet, um die Impressionsanzahl zu erhöhen.<br>**FALSE**: Bei der `page=false` werden keine Benachrichtigungen gesendet, um die Impressionsanzahl zu erhöhen. Dies sollte verwendet werden, wenn Sie nur eine Komponente auf einer Seite mit einem Angebot neu rendern möchten. |
 
-   ![Home-React-1](/help/main/c-experiences/assets/react1.png)
+Sehen wir uns nun einige Beispiel-Anwendungsfälle zum Aufrufen der `triggerView()` in React für unsere hypothetische E-Commerce-SPA an:
 
-   Wenn wir als Marketer A/B-Tests auf der gesamten Homepage durchführen möchten, bietet es sich an, die Ansicht, die aus der URL entnommen werden kann, „home“ zu nennen.
+**Link: [Startseite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![Home-React-1](/help/main/c-experiences/assets/react1.png)
 
-   **Link: [Produktseite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+Wenn wir als Marketer A/B-Tests auf der gesamten Homepage durchführen möchten, bietet es sich an, die Ansicht, die aus der URL entnommen werden kann, „home“ zu nennen.
 
-   Sehen wir uns ein Beispiel an, das etwas komplizierter ist. Nehmen wir an, als Marketing-Experten möchten wir die zweite Zeile der Produkte personalisieren, indem wir die Farbe des Preisschilds in Rot ändern, nachdem ein Benutzer auf die Schaltfläche Mehr laden geklickt hat.
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![React-Produkte](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![React-Checkout](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   Für Marketing-Experten, die den Inhalt einer Site je nach Versandpräferenz personalisieren möchten, gibt es die Möglichkeit, eine Ansicht für jede Versandpräferenz zu erstellen. Wenn wir in diesem Fall den normalen Versand auswählen, kann die Ansicht „Normaler Versand“ heißen. Wenn die Expresszustellung ausgewählt wird, kann die Ansicht „Expresszustellung“ lauten.
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, ob die Änderung der Farbe von Blau auf Rot nach Auswahl der Expresszustellung die Konversion im Vergleich zu gleichbleibend blauer Button-Farbe für beide Versandoptionen steigert.
+**Link: [Produktseite](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+Sehen wir uns ein Beispiel an, das etwas komplizierter ist. Nehmen wir an, als Marketing-Experten möchten wir die zweite Zeile der Produkte personalisieren, indem wir die Farbe des Preisschilds in Rot ändern, nachdem ein Benutzer auf die Schaltfläche Mehr laden geklickt hat.
 
-1. Starten Sie A/B- oder XT-Aktivitäten über VEC.
+![React-Produkte](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**link: [Checkout](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![React-Checkout](/help/main/c-experiences/assets/react6.png)
+
+Für Marketing-Experten, die den Inhalt einer Site je nach Versandpräferenz personalisieren möchten, gibt es die Möglichkeit, eine Ansicht für jede Versandpräferenz zu erstellen. Wenn wir in diesem Fall den normalen Versand auswählen, kann die Ansicht „Normaler Versand“ heißen. Wenn die Expresszustellung ausgewählt wird, kann die Ansicht „Expresszustellung“ lauten.
+
+Ihre Marketing-Experten können auch einen A/B-Test durchführen, um zu sehen, ob die Änderung der Farbe von Blau auf Rot nach Auswahl der Expresszustellung die Konversion im Vergleich zu gleichbleibend blauer Button-Farbe für beide Versandoptionen steigert.
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ Starten Sie A/B- oder XT-Aktivitäten über VEC.
 
 Wenn `adobe.target.triggerView()` in Ihrer SPA implementiert wurde und die Namen der Ansichten als Parameter übergeben wurden, kann VEC diese Ansichten erkennen und es Benutzern ermöglichen, Aktionen für und Änderungen an ihren A/B- und XT-Aktivitäten zu erstellen.
 
@@ -284,6 +290,8 @@ Schließlich können Ansichten, wie bereits erwähnt, auf granularer Ebene defin
 >[!NOTE]
 >
 >Die CHECKOUT-EXPRESS-Ansicht wird erst im Bedienfeld „Änderungen“ angezeigt, wenn Sie auf das Optionsfeld „Expresszustellung“ klicken. Dies liegt daran, dass die `triggerView()`-Funktion ausgelöst wird, wenn das Optionsfeld „Expresszustellung“ ausgewählt wird. Dies ist aber nur der Fall, wenn VEC weiß, dass eine Ansicht im Bedienfeld „Änderungen“ angezeigt wird.
+
++++
 
 ## Ein tief gehender Blick auf at.js und SPAs
 
@@ -377,7 +385,7 @@ Ja, at.js 2.x unterstützt A4T für SPA über die `triggerView()`-Funktion, wenn
 
 **Wie führen wir, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, A/B-Aktivitäten mit automatischem Targeting aus, da SPA VEC das automatische Targeting nicht unterstützt?**
 
-Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf [!UICONTROL &#x200B; Schaltfläche „Zur Seitenladeereignis-] wechseln“. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
+Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf [!UICONTROL  Schaltfläche „Zur Seitenladeereignis-] wechseln“. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
 
 ## Unterstützte Integrationen
 
@@ -385,7 +393,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de){target=_blank} | Ja |
+| [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Ja |
 | [AEM-Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Unterstützte Funktionen {#supported-features}
@@ -395,7 +403,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Arbeitsbereiche und Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Ja |
 | [QA-Links](/help/main/c-activities/c-activity-qa/activity-qa.md) | Ja |
 | [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) | Nein |
-| [Benutzerspezifischer Code &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
+| [Benutzerspezifischer Code ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
 | [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Alle |
 | [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md) | Ja |
 | [Bereitstellung mehrerer Aktivitäten](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
@@ -408,9 +416,9 @@ Um auf die Optionen [!UICONTROL Seitenbereitstellung] im dreiteiligen Workflow f
 
 ![Dialogfeld „Seitenbereitstellung“](/help/main/c-experiences/assets/page-delivery.png)
 
-Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/de/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
+Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
 
-Da SPAs jedoch anders funktionieren, müssen [!UICONTROL &#x200B; Einstellungen für die &#x200B;]Seitenbereitstellung“ so konfiguriert werden, dass alle Aktionen auf die Ansichten angewendet werden können, wie sie in der SPA VEC-Aktivität definiert sind.
+Da SPAs jedoch anders funktionieren, müssen [!UICONTROL  Einstellungen für die ]Seitenbereitstellung“ so konfiguriert werden, dass alle Aktionen auf die Ansichten angewendet werden können, wie sie in der SPA VEC-Aktivität definiert sind.
 
 ### Anwendungsfall
 
@@ -462,13 +470,13 @@ Dadurch wird sichergestellt, dass ein Kunde die angewendeten Aktionen sehen kann
 
 Jedes Mal, wenn Sie jetzt eine Aktion zu einer Ansicht im SPA VEC hinzufügen, wird Ihnen die folgende Popup-Meldung angezeigt, die Sie daran erinnert, über die Regeln [!UICONTROL Seitenbereitstellung] nachzudenken.
 
-![Meldung zu den Seitenbereitstellungs-Einstellungen &#x200B;](/help/main/c-experiences/assets/pop-up-message.png)
+![Meldung zu den Seitenbereitstellungs-Einstellungen ](/help/main/c-experiences/assets/pop-up-message.png)
 
 Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede von Ihnen neu erstellte Aktivität hinzufügen. Diese Meldung hilft sicherzustellen, dass alle Personen in Ihrer Organisation lernen, wie diese [!UICONTROL Seitenbereitstellungsregeln] korrekt angewendet werden.
 
 ## Schulungsvideo: Verwendung von VEC für SPAs in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34777?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Weitere [&#x200B; finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
+Weitere [ finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
@@ -40,7 +40,7 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.9.7 (28. September 2026)
+## [!DNL Target Standard/Premium] 26.9.8 (30. September 2026)
 
 ### Funktionen
 
@@ -80,6 +80,15 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 ### Verbesserungen
 
+**[!UICONTROL Administration]**
+
++++ Details anzeigen
+
+* **Benutzenden können keine KI-Berechtigungen erteilt werden**. Benutzende mit Produktadministrator- und Systemadministratorzugriff konnten anderen Benutzenden keine KI-Berechtigungen erteilen. Der Versuch, die KI-Berechtigung zu aktivieren, führte zu einem `Unauthorized`, selbst wenn die KI für die Organisation aktiviert war. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 (28. September 2026)
 
 
 **[!UICONTROL Recommendations]**
