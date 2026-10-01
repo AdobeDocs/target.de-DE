@@ -4,10 +4,10 @@ description: In der Übersicht zu Adobe Target-Aktivitäten erfahren Sie, wie Si
 title: KI-Einblicke in die Aktivitätsübersicht
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # KI-Erkenntnisse
 
@@ -40,6 +40,26 @@ Das Menü **[!UICONTROL KI-]**&quot; in Ihrer **[!UICONTROL Aktivitätsübersich
 >id="target_ai_insights_treatment_details"
 >title="Erlebnisdetails"
 >abstract="Erlebnisdetails zeigen Bilder davon, wie ein Erlebnis aussieht, wenn sich ein Benutzer dafür qualifiziert. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Primäre Metrik"
+>abstract="Die primäre Metrik wird automatisch aus den Reporting-Einstellungen abgerufen. Um Änderungen vorzunehmen, ändern Sie die Zielmetrik unter „Ziele und Einstellungen“."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothese"
+>abstract="Die Hypothese ist eine von Ihnen definierte Aussage, die das erwartete Ergebnis des Experiments erklärt. Geben Sie eine Beschreibung dessen an, was wo geändert wird, und von welcher Metrik Sie sich erwarten, dass sie sich ändert und wie."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Möglichkeiten"
+>abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Abwandlungsideen, die auf von KI in Ihren Experiment-Screenshots und -Ergebnissen gefundenen Mustern basieren."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Abwandlungsdetails"
+>abstract="Abwandlungsdetails zeigen Bilder davon, wie eine Abwandlung aussieht, wenn eine Person für sie qualifiziert ist. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
 
 Bevor Sie auf KI-generierte Einblicke und Opportunities zugreifen können, müssen Sie zunächst Ihre Aktivität einrichten, indem Sie die primären Metriken, Hypothesen und Erlebnis-Screenshots bestätigen.
 
