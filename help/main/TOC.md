@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -123,6 +123,7 @@ ht-degree: 83%
 + Aktivitäten {#activities}
   + [Aktivitäten – Überblick](c-activities/activities.md)
   + [Insights-Dashboard](c-activities/insights-dashboard.md)
+  + [Stichprobenrechner](c-activities/sample-size-calculator.md)
   + [Target-Aktivitätstypen](c-activities/target-activities-guide.md)
   + A/B-Test {#abtest}
     + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [Klick-Tracking](c-activities/r-success-metrics/click-tracking.md)
     + [Ergebniserfassung](c-activities/r-success-metrics/capture-score.md)
   + [Aktivitätsänderungsprotokoll](c-activities/change-log.md)
+  + [KI-Erkenntnisse](c-activities/ai-insights.md)
   + Fehlerbehebung bei Aktivitäten {#troubleshoot-activities}
     + [Fehlerbehebung bei Aktivitäten – Überblick](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Fehlerbehebung bei der Inhaltsbereitstellung](c-activities/c-troubleshooting-activities/content-trouble.md)
@@ -345,4 +347,4 @@ ht-degree: 83%
   + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
   + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)

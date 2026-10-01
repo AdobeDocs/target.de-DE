@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
@@ -41,6 +41,46 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
 ## [!DNL Target Standard/Premium] 26.9.7 (28. September 2026)
+
+### Funktionen
+
+<table>
+<thead>
+<tr>
+<th><strong>Rechner für den Stichprobenumfang</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der Rechner für den Stichprobenumfang hilft Ihnen bei der Planung von Experimenten vor dem Start, indem Sie den erforderlichen Traffic, die Testdauer, die Anzahl der Erlebnisse oder den minimalen Effekt schätzen, den Sie zuverlässig erkennen können. Diese Funktion steht im Menü Aktivitäten zur Verfügung und verwendet Ihre Eingaben, um die für Ihren Test erforderlichen Ressourcen und Laufzeiten zu ermitteln.</p>
+<p>Die Funktion zur Berechnung des Stichprobenumfangs ist derzeit als Beta-Funktion verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../c-activities/sample-size-calculator.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>KI-Erkenntnisse</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>KI-Einblicke bieten KI-generierte Experimenterfahrungen und Optimierungsmöglichkeiten für A/B-Test -Aktivitäten mit manueller Traffic-Zuordnung. Sobald ein Experiment statistische Signifikanz erreicht, heben Einblicke Attribute des erfolgreichsten Erlebnisses hervor, die wahrscheinlich zu seiner Leistung beigetragen haben. Zu den vorgeschlagenen Möglichkeiten gehören neue Erfahrungsideen, Hypothesen und Implementierungshandbücher zur Verbesserung der Konversionsraten.</p>
+<p>Die Funktion für KI-Einblicke ist derzeit als Beta-Funktion verfügbar.</p>
+<p>Weitere Informationen finden Sie in der <a href="../c-activities/ai-insights.md">ausführlichen Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen
+
+
 
 **[!UICONTROL Recommendations]**
 
