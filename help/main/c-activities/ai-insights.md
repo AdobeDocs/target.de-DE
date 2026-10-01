@@ -4,10 +4,10 @@ description: In der Übersicht zu Adobe Target-Aktivitäten erfahren Sie, wie Si
 title: KI-Einblicke in die Aktivitätsübersicht
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # KI-Erkenntnisse
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 Das Menü **[!UICONTROL KI-]**&quot; in Ihrer **[!UICONTROL Aktivitätsübersicht]** bietet Zugriff auf Einblicke und Optimierungsmöglichkeiten. Verwenden Sie diese Registerkarte, um das Experiment zu überprüfen, Abwandlungen zu vergleichen und Änderungen zu identifizieren, die die Konversionsraten verbessern könnten.
 
 ## Einrichten für KI-Einblicke und Opportunities
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="Erkenntnisse"
+>abstract="Experimenterkenntnisse sind die Erkenntnisse, die von KI gewonnen werden, wenn die Experimentdaten eine statistische Signifikanz erreicht haben."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ Die primäre Metrik wird automatisch aus den Reporting-Einstellungen abgerufen u
 
 Nach Abschluss des Setups ist Ihre Aktivität bereit, Chancen zu generieren. Erkenntnisse werden verfügbar, nachdem das Experiment über ausreichende Daten für die statistische Validierung verfügt und die erforderlichen Experimentdetails bestätigt wurden.
 
-## Erkenntnisse
+## Erkenntnisse {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="Erkenntnisse"
 >abstract="Experimenterkenntnisse sind die Erkenntnisse, die von KI gewonnen werden, wenn die Experimentdaten eine statistische Signifikanz erreicht haben."
 
