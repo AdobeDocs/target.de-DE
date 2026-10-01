@@ -4,10 +4,10 @@ description: In der Übersicht zu Adobe Target-Aktivitäten erfahren Sie, wie Si
 title: KI-Einblicke in die Aktivitätsübersicht
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # KI-Erkenntnisse
 
@@ -24,7 +24,7 @@ Das Menü **[!UICONTROL KI-]**&quot; in Ihrer **[!UICONTROL Aktivitätsübersich
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Erkenntnisse"
->abstract="Experimenterkenntnisse sind die Erkenntnisse, die von KI gewonnen werden, wenn die Experimentdaten eine statistische Signifikanz erreicht haben."
+>abstract="Insights sind KI-generierte Ergebnisse, die verfügbar werden, wenn Ihr Experiment statistische Signifikanz erreicht."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Nach Abschluss des Setups ist Ihre Aktivität bereit, Chancen zu generieren. Erk
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Erkenntnisse"
->abstract="Experimenterkenntnisse sind die Erkenntnisse, die von KI gewonnen werden, wenn die Experimentdaten eine statistische Signifikanz erreicht haben."
+>abstract="Experimenteinblicke sind KI-generierte Lerninhalte, die verfügbar werden, wenn das Experiment statistische Signifikanz erreicht."
 
 Experimenteinblicke sind KI-generierte Lerninhalte, die aus diesem Experiment abgeleitet werden. Diese Einblicke werden verfügbar, sobald das Experiment statistische Signifikanz erreicht hat, und bieten Kontext darüber, was zu seinem Erfolg beigetragen hat. Sie heben die wichtigsten Attribute hervor, die im erfolgreichsten Erlebnis vorhanden sind und sich vom Kontrollerlebnis unterscheiden und das Ergebnis wahrscheinlich beeinflussen.
 
