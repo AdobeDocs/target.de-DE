@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 83%
+source-wordcount: '1304'
+ht-degree: 84%
 ---
 
 # Handbuch für Business-Anwender*innen von Adobe Target {#using}
@@ -26,11 +26,6 @@ ht-degree: 83%
   + [Wichtige Target-Konzepte](c-intro/target-key-concepts.md)
   + [Erläuterung der Target-Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md)
   + [Häufig gestellte Fragen zur Aktualisierung der Target-Benutzeroberfläche](/help/main/c-intro/updated-ui-faq.md)
-  + Adobe Target AI-Assistent {#assistant-ai}
-    + [Überblick über den KI-Assistenten](/help/main/c-intro/ai-assistant.md)
-    + [KI-Assistenten aktivieren](/help/main/c-intro/enabling-ai-assistant.md)
-    + [Verwenden des KI-Assistenten, um Produktkenntnisse zu erwerben](/help/main/c-intro/ai-assistant-product-knowledge.md)
-    + {hide-from-toc}[Verwenden des KI-Assistenten für die Inhaltserstellung](/help/main/c-intro/ai-assistant-content-generation.md)
   + [Mitarbeiterqualifikationen für Adobe Target](c-intro/coworker-skills.md)
   + Adobe Target Welcome Kit {#welcome}
     + [Target Welcome Kit – Überblick](/help/main/c-intro/target-welcome-kit.md)
@@ -348,4 +343,4 @@ ht-degree: 83%
   + [Beschränkungen](r-troubleshooting-target/target-limits.md)
 + Target-APIs {#apis}
   + [Adobe Target-API – Überblick](/help/main/api/api-overview.md)
-+ [Ressourcen und Kontaktinformationen &#x200B;](cmp-resources-and-contact-information.md)
++ [Ressourcen und Kontaktinformationen ](cmp-resources-and-contact-information.md)

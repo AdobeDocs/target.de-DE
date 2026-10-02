@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 23%
 ---
 # Die Benutzeroberfläche von [!DNL Target]
@@ -50,7 +50,7 @@ Die Kopfzeile am oberen Rand der [!DNL Target] Benutzeroberfläche enthält Regi
 
 Eine *Organisation* ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on für die [!DNL Adobe Experience Cloud] zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche [!DNL Experience Cloud]-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
-Wählen Sie die gewünschte Organisation aus der Dropdown[!UICONTROL Liste &#x200B;]Organisation“ aus, wenn Ihr Unternehmen aus mehreren Organisationen besteht:
+Wählen Sie die gewünschte Organisation aus der Dropdown[!UICONTROL Liste ]Organisation“ aus, wenn Ihr Unternehmen aus mehreren Organisationen besteht:
 
 ![Dropdown-Liste „Organisation“](/help/main/c-intro/assets/organizations.png)
 
@@ -62,27 +62,27 @@ Wählen Sie die gewünschte Organisation aus der Dropdown[!UICONTROL Liste &#x20
 
 Geben Sie eine Beschreibung für Ihr Feedback ein, fügen Sie die entsprechenden Dateien oder Screenshots sowie ggf. weitere Details hinzu und klicken Sie dann auf **[!UICONTROL Senden]**.
 
-### [!DNL AI Assistant]
+### [!DNL Coworker]
 
-(Bedingt) Wenn Ihnen von Ihrem Unternehmen die Rechte zur Verwendung von [!DNL AI Assistant] gewährt wurden, klicken Sie auf das Symbol [!DNL AI Assistant] .
+(Bedingt) Wenn Ihnen von Ihrem Unternehmen die Rechte zur Verwendung von [!DNL Coworker] gewährt wurden, klicken Sie auf das Symbol [!DNL Coworker] .
 
-Weitere Informationen finden Sie unter [Übersicht über den Adobe Experience Platform-KI-Assistenten](/help/main/c-intro/ai-assistant.md).
+Weitere Informationen finden Sie unter [Mitarbeiterqualifikationen für Adobe Target](/help/main/c-intro/coworker-skills.md).
 
 ### Hilfe
 
 Durch Klicken auf [!UICONTROL Hilfe]-Symbol ( ![Hilfe-Symbol](/help/main/assets/icons/HelpOutline.svg) ) können Sie auf Informationen, Videos, Blogs und mehr zugreifen, um [!DNL Target] effektiver zu verwenden. Sie können ein Support-Ticket erstellen, Fragen über Twitter stellen oder Ihr Feedback zu [!DNL Target] [!DNL Target] einreichen, um uns Ihre Kritik, Änderungswünsche oder auch Lob mitzuteilen. Auch die Telefonnummern der Kundenunterstützung finden Sie auf dieser Seite.
 
-![Hilfe &#x200B;](/help/main/c-intro/assets/help.png)
+![Hilfe ](/help/main/c-intro/assets/help.png)
 
 ### Anfragen, Benachrichtigungen und Ankündigungen {#notifications-announcements}
 
 Die Bedienfelder [!UICONTROL Anfragen], [!UICONTROL Benachrichtigungen] und [!UICONTROL Ankündigungen] helfen Ihnen, über alle [!DNL Adobe Target] auf dem Laufenden zu bleiben. Durch proaktive Benachrichtigungen sind Sie bereits frühzeitig über den Status [!DNL Adobe Experience Cloud] Lösungen und [!DNL Target] Ereignisse auf dem Laufenden. Proaktive Ankündigungen informieren Sie über geplante Ausfallzeiten (z. B. aufgrund von Systemwartungen).
 
-Klicken Sie in [!UICONTROL &#x200B; Kopfzeile auf das Symbol &#x200B;]Benachrichtigungen“ ( ![Benachrichtigungssymbol](/help/main/assets/icons/Bell.svg) ), um Benachrichtigungen anzuzeigen:
+Klicken Sie in [!UICONTROL  Kopfzeile auf das Symbol ]Benachrichtigungen“ ( ![Benachrichtigungssymbol](/help/main/assets/icons/Bell.svg) ), um Benachrichtigungen anzuzeigen:
 
 Das Bedienfeld enthält Registerkarten für [!UICONTROL Anfragen], [!UICONTROL Benachrichtigungen] und [!UICONTROL Ankündigungen].
 
-![&#x200B; Benachrichtigungen &#x200B;](assets/notifications.png)
+![ Benachrichtigungen ](assets/notifications.png)
 
 In den folgenden Abschnitten finden Sie Informationen zu den einzelnen Registerkarten sowie zum Konfigurieren von Benachrichtigungen und Ankündigungen:
 
@@ -128,7 +128,7 @@ Wenn Ihnen jemand eine Anfrage sendet, um ein Objekt zu genehmigen oder Zugriff 
 
 Sie können einzelne Benachrichtigungen als gelesen markieren, indem Sie den Mauszeiger über die gewünschte Benachrichtigung bewegen und dann auf das Symbol [!UICONTROL Als gelesen markieren] klicken (![Als gelesen markieren](/help/main/assets/icons/CheckmarkCircle.svg) ). Sie können alle Benachrichtigungen als gelesen markieren oder alle Benachrichtigungen anzeigen, indem Sie [!UICONTROL Als gelesen markieren] oder [!UICONTROL Alle anzeigen] am unteren Rand des Bedienfelds klicken.
 
-Sie können eine Erinnerung auch erneut benachrichtigen, indem Sie den Mauszeiger über eine Benachrichtigung bewegen und auf das Symbol [!UICONTROL Erneut &#x200B;]Erinnern![&#x200B; (](/help/main/assets/icons/Clock.svg)) klicken. Sie können dann auswählen, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
+Sie können eine Erinnerung auch erneut benachrichtigen, indem Sie den Mauszeiger über eine Benachrichtigung bewegen und auf das Symbol [!UICONTROL Erneut ]Erinnern![ (](/help/main/assets/icons/Clock.svg)) klicken. Sie können dann auswählen, wann Sie benachrichtigt werden möchten: 5 Minuten, 15 Minuten, eine Stunde oder morgen.
 
 #### Mitteilungen
 
