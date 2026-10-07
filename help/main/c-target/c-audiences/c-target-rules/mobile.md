@@ -1,27 +1,31 @@
 ---
 keywords: Targeting; mobil; target mobile; deviceatlas; iPhone; iPhone-Modelle; deviceatlas; Displaybreite; Display Breite; Displayhöhe; Gerätetyp; Displayhöhe; Mobiltelefon; Tablet; Gerätemodell
-description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target]  erstellen, um Mobilgeräte anzusprechen.
+description: Erfahren Sie, wie Sie Zielgruppen in erstellen, [!DNL Adobe Target] Mobilgeräte als Ziel auszuwählen.
 title: Kann ich meine Besucher auf der Grundlage mobiler Optionen ansprechen?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # Mobile
 
 Erstellen Sie Zielgruppen in [!DNL Adobe Target], um Mobilgeräte anhand von Parametern wie Mobilgerät, Gerätetyp, Geräteanbieterfirma, Bildschirmmaße usw. anzusprechen.
@@ -44,7 +48,7 @@ Um dieses Problem zu beheben, erfasst [!DNL Target] zusätzliche Daten, um iPhon
 
 >[!NOTE]
 >
->Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher)  aufrüsten.
+>Kundinnen und Kunden, die die Mobile SDK verwenden, müssen nichts tun, um diese Funktion anzuwenden. Kunden, die at.js verwenden, müssen auf at.js Version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de){target=_blank} (oder höher) [ aufrüsten.
 
 Sie können mehr als eine Geräteeigenschaft auswählen. Mehrere Auswahlen werden mit einem OR-Operator verbunden.
 
@@ -89,6 +93,14 @@ Das Update von iOS 12.2 (oder höher) wirkt sich nicht auf die Identifizierung d
 ### Targeting von Geräten, auf denen Safari 14.0.2 (oder höher) ausgeführt wird
 
 Wenn Sie mobile Regeln verwenden, um Geräte anzusprechen, auf denen Safari Version 14.0.2 (oder höher) auf macOS ausgeführt wird, identifiziert [!DNL Target] Safari aufgrund eines bekannten Problems mit Apples Benutzeragenten und DeviceAtlas auf Mac- und iPad-Geräten fälschlicherweise. Diese Frage wird in Zukunft behandelt.
+
+### Benutzerdefinierte Skripte, die den Benutzeragenten überschreiben {#custom-scripts-overwrite-user-agent}
+
+Da das Targeting für mobile Geräte auf der Benutzeragenten-Zeichenfolge basiert, kann jedes benutzerdefinierte Skript auf Ihrer Seite, das `navigator.userAgent` ändert, bevor [!DNL Target] es liest, dazu führen, dass das Geräte-Targeting fehlschlägt.
+
+Wenn Ihre Website über ein benutzerdefiniertes Skript verfügt, das auf alle Ereignisse anstatt auf das erforderliche spezifische Ereignis wartet, kann es unbeabsichtigt ein [!DNL Web SDK] Ereignis abfangen und `navigator.userAgent` überschreiben. Infolgedessen erhält [!DNL Target] falsche Geräteinformationen anstelle des tatsächlichen Geräts des Besuchers, und das erwartete Erlebnis wird nicht bereitgestellt.
+
+Wenn sich das Targeting für Mobilgeräte nicht wie erwartet verhält, überprüfen Sie, ob benutzerdefinierte Skripte oder Ereignis-Listener auf der Seite `navigator.userAgent` ändern, und beschränken Sie die Reichweite dieser Listener so eng wie möglich, damit sie nicht unbeabsichtigt [!DNL Target]- oder Web-SDK-Ereignisse abfangen.
 
 ## Schulungsvideo: Erstellen von Zielgruppen
 
