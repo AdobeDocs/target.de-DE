@@ -1,34 +1,45 @@
 ---
 keywords: Customer Journey Analytics;Customer Journey Analytics for Target;Customer Journey Analytics-Berichtsquelle;Customer Journey Analytics als Berichtsquelle für Target;Target-Reporting in CJA;Target-Reporting in Customer Journey Analytics
-description: Verwenden  [!DNL Target]  In- [!DNL Adobe Customer Journey Analytics] -Berichten, um Aktivitäten basierend auf Konversionsmetriken  [!DNL Customer Journey Analytics]  Zielgruppensegmenten zu erstellen, und  [!DNL Customer Journey Analytics]  zur Untersuchung der Ergebnisse.
-title: Was ist  [!DNL Target]  Reporting in [!DNL Adobe Customer Journey Analytics]?
+description: Verwenden Sie [!DNL Target] Berichte in [!DNL Adobe Customer Journey Analytics], um Aktivitäten basierend auf [!DNL Customer Journey Analytics] Konversionsmetriken und Zielgruppensegmenten zu erstellen, und untersuchen Sie die Ergebnisse mithilfe [!DNL Customer Journey Analytics] Berichte.
+title: Was ist [!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 TQID: https://experienceleague.adobe.com/bEwtqdwOsXyDbBUdxZKMl3I3LLTgxdxURvXjrfco-WI
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5b60a40e83437c535ccb3a7e7800493619fc62c8
+    internal-label: Administration
+source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
 workflow-type: tm+mt
-source-wordcount: 1754
+source-wordcount: '1826'
 ht-degree: 22%
-
 ---
-
 # [!DNL Target] in [!DNL Adobe Customer Journey Analytics]
 
 Die Integration zwischen [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/customer-journey-analytics){target=_blank} und [!DNL Target] bietet leistungsstarke Analyse- und Zeitspartools für Ihr Optimierungsprogramm.
@@ -52,14 +63,14 @@ Beachten Sie die folgenden Informationen, bevor Sie die Integration von [!DNL Cu
   * Wenn Sie ein [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905)-Konto besitzen, lesen Sie [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Benutzende*.
   * Wenn Sie ein [Target Premium](/help/main/c-intro/intro.md#premium)-Konto besitzen, lesen Sie [Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) in *Berechtigungen für Unternehmensbenutzende*.
 
-* Seien Sie Teil einer Rolle bei [!DNL Adobe Experience Platform] Einrichten einer [!DNL Target]-Aktivität mit [!DNL Customer Journey Analytics] als Berichtsquelle. Weitere Informationen finden Sie unter [Rolle hinzufügen in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Berechtigungen konfigurieren* im *Data Architect and Engineer Tutorial.*
+* Seien Sie Teil einer Rolle bei [!DNL Adobe Experience Platform] Einrichten einer [!DNL Target]-Aktivität mit [!DNL Customer Journey Analytics] als Berichtsquelle. Weitere Informationen finden Sie unter [Rolle hinzufügen in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} in *Berechtigungen konfigurieren* im *Data Architect and Engineer Tutorial.*
 * Je nach Ihren Einstellungen kann das Reporting pro Aktivität oder auf Unternehmensebene geändert werden. Weitere Informationen finden Sie unter [Berichte zur Cloud-Lösung](/help/main/administrating-target/reporting.md#solution) in *Konfigurieren von Berichten in Target*.
 * Sie können eine der beiden Berichtsquellen verwenden. Es ist nicht möglich, Daten für eine einzelne Aktivität für mehrere Berichtsquellen zu sammeln.
-* Wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle festlegen, werden Sie aufgefordert, die Sandbox und die Datenansicht für das Reporting anzugeben. Während der Konfiguration werden nur die Sandboxes und Datenansichten angezeigt, auf die Sie Zugriff haben.
+* Wenn Sie [!DNL Customer Journey Analytics] als Berichtsquelle angeben, werden Sie aufgefordert, die Sandbox für das Reporting anzugeben. Für A/B-Aktivitäten mit manueller Traffic-Aufteilung oder [!UICONTROL Automatische Zuordnung] können Sie in [!DNL Target] auch eine Datenansicht und eine [!DNL Customer Journey Analytics] Metrik auswählen. Diese Auswahloptionen sind nicht für Aktivitäten [!UICONTROL Erlebnis], [!UICONTROL Multivarianz-Test] oder [!UICONTROL Recommendations] verfügbar. Während der Konfiguration werden nur die Sandboxes und Datenansichten angezeigt, auf die Sie Zugriff haben.
 * Bestehende [!DNL Target] verwenden weiterhin [!DNL Target] Datenerfassung und sind von der Aktivierung dieser Integration nicht betroffen.
-* Um diese Integration zu verwenden, ist die bevorzugte Implementierungsmethode, [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/experience-platform){target=_blank} und [!DNL Target] über die [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} implementiert zu haben.
+* Um diese Integration zu verwenden, ist die bevorzugte Implementierungsmethode, [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} und [!DNL Target] über die [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} implementiert zu haben.
 
-  Wenn Sie die [!DNL Adobe Experience Platform Web SDK] derzeit nicht implementiert haben, können Sie auch eine [[!DNL Adobe Analytics] Quellverbindung“ erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) um die Daten in [!DNL Adobe Experience Platform] zu bringen. Wenn Sie diese Methode verwenden möchten, müssen Sie eine [!DNL Analytics] Report Suite neben der [!DNL Adobe Experience Platform] Sandbox auswählen, die Sie mit [!DNL Customer Journey Analytics] verwenden.
+  Wenn Sie die [!DNL Adobe Experience Platform Web SDK] derzeit nicht implementiert haben, können Sie auch eine [[!DNL Adobe Analytics] Quellverbindung“ erstellen](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) um die Daten in [!DNL Adobe Experience Platform] zu bringen. Wenn Sie diese Methode verwenden möchten, müssen Sie eine [!DNL Analytics] Report Suite neben der [!DNL Adobe Experience Platform] Sandbox auswählen, die Sie mit [!DNL Customer Journey Analytics] verwenden.
 
   ![Sandbox-Option im Dialogfeld „Reporting-Einstellungen“](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
@@ -67,27 +78,27 @@ Beachten Sie die folgenden Informationen, bevor Sie die Integration von [!DNL Cu
   >
   >Wenn Sie eine [!DNL Adobe Analytics]-Quellverbindung verwenden, verfügen Sie über Berichte sowohl in [!DNL Adobe Analytics] als auch in [!DNL Customer Journey Analytics]. Aufgrund unterschiedlicher Algorithmen zwischen diesen beiden Lösungen ist es jedoch unwahrscheinlich, dass die Ergebnisse übereinstimmen.
 
-* Fragen zur Zeitplanung finden Sie unter [Latenzaspekte](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Häufig gestellte Fragen* im *[!DNL Adobe Customer Analytics]-Handbuch*.
+* Fragen zur Zeitplanung finden Sie unter [Latenzaspekte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} in *Häufig gestellte Fragen* im *[!DNL Adobe Customer Analytics]-Handbuch*.
 
 ## Unterstützte Aktivitätstypen {#supported-activities}
 
-Die folgenden Aktivitätstypen werden bei der Verwendung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} oder der [at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript-Bibliothek unterstützt:
+Die folgenden Aktivitätstypen werden bei der Verwendung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} oder der [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript-Bibliothek unterstützt:
 
-| Aktivitätstypen | Unterstützt? |
-|--- |--- |
-| [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja |
-| [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja |
-| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nein |
-| [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja |
-| [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja |
-| [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |
-| [Recommendations-Aktivität](/help/main/c-recommendations/recommendations.md) | Ja |
+| Aktivitätstypen | Unterstützt? | Unterstützte Datenansicht? |
+|--- |--- |--- |
+| [A/B-Aktivität mit manueller Traffic-Aufteilung](/help/main/c-activities/t-test-ab/test-ab.md) | Ja | Ja |
+| [A/B-Aktivität mit automatisierter Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ja | Ja |
+| [A/B-Aktivität mit automatischem Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Nein | Nein |
+| [Erlebnis-Targeting (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Ja | Nein |
+| [Multivarianz-Tests (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Ja | Nein |
+| [AP-Aktivität (Automated Personalization)](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein | Nein |
+| [Recommendations-Aktivität](/help/main/c-recommendations/recommendations.md) | Ja | Nein |
 
 [!UICONTROL Automatisches Targeting] und [!UICONTROL Automated Personalization]-Aktivitäten unterstützen noch nicht [!DNL Customer Journey Analytics] als Berichtsquelle.
 
 ## Erstellen einer Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet {#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source}
 
-Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target]-Aktivität. Dieser Workflow gilt für alle unterstützten Aktivitätstypen in der obigen Tabelle, einschließlich A/B[!UICONTROL Tests mit automatisierter &#x200B;].
+Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target]-Aktivität. Dieser Workflow gilt für alle unterstützten Aktivitätstypen in der obigen Tabelle, einschließlich A/B[!UICONTROL Tests mit automatisierter ].
 
 >[!TIP]
 >
@@ -107,15 +118,15 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analyti
 
    ![Option „Sandbox auswählen“](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Wählen Sie eine **[!UICONTROL Datenansicht]** aus. Eine Datenansicht funktioniert wie eine [!DNL Analytics] Report Suite für [!DNL Customer Journey Analytics] Reporting. Es werden nur Datenansichten in der ausgewählten Sandbox angezeigt, auf die Sie Zugriff haben.
+1. Wählen Sie für A/B-Aktivitäten mit manueller Traffic[!UICONTROL Aufteilung oder automatisierter ] eine **[!UICONTROL Datenansicht]**. Eine Datenansicht funktioniert wie eine [!DNL Analytics] Report Suite für [!DNL Customer Journey Analytics] Reporting. Es werden nur Datenansichten in der ausgewählten Sandbox angezeigt, auf die Sie Zugriff haben.
 
-   ➡️ [Weitere Informationen zur Datenansicht finden Sie in der Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views)
+   ➡️ [Weitere Informationen zur Datenansicht finden Sie in der Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. Geben Sie die Zielmetrik an. Wählen Sie eine der folgenden Optionen:
 
    * **[!UICONTROL Konversion]**: Wählen Sie die Aktion aus, die Ihre Zielgruppe ausführen muss, um anzugeben, dass das Ziel erreicht wurde. [Erfahren Sie mehr über Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
-   * **[!UICONTROL Customer Journey Analytics-Metrik verwenden]**: Wählen Sie eine [!DNL Customer Journey Analytics] oder berechnete Metrik aus der ausgewählten Datenansicht aus. Diese Metrik dient als Optimierungskriterium. Das Modell wird mit [!DNL Customer Journey Analytics] Daten ausgeführt und aktualisiert Leistungsdaten mit der gleichen Kadenz, die für das [!DNL Customer Journey Analytics]-Reporting verwendet wird.
+   * **[!UICONTROL Customer Journey Analytics-Metrik verwenden]**: Nur für A/B-Aktivitäten mit manueller Traffic-Aufteilung oder [!UICONTROL Automatische Zuordnung] verfügbar. Wählen Sie eine [!DNL Customer Journey Analytics] oder berechnete Metrik aus der ausgewählten Datenansicht. Diese Metrik dient als Optimierungskriterium. Das Modell wird mit [!DNL Customer Journey Analytics] Daten ausgeführt und aktualisiert Leistungsdaten mit der gleichen Kadenz, die für das [!DNL Customer Journey Analytics]-Reporting verwendet wird.
 
    ![Verwenden Sie eine Customer Journey Analytics-Metrikoption unter Zielmetrik](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
@@ -129,7 +140,7 @@ Nachdem Sie die Aktivität [!DNL Target] erstellt haben, konfigurieren Sie [!DNL
 
    ![Erstellen eines neuen Verbindungslinks in [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)
 
-1. Konfigurieren Sie [Verbindungs- und Dateneinstellungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/overview){target=_blank} mit den richtigen Informationen, einschließlich der gleichen [!DNL Adobe Experience Platform]-Sandbox, die Sie für die Aktivität ausgewählt haben.
+1. Konfigurieren Sie [Verbindungs- und Dateneinstellungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank} mit den richtigen Informationen, einschließlich der gleichen [!DNL Adobe Experience Platform]-Sandbox, die Sie für die Aktivität ausgewählt haben.
 1. Fügen Sie den Ereignis-Datensatz hinzu, den Sie beim Konfigurieren Ihres Datenstroms verwendet haben.
 1. Fügen Sie den Suchdatensatz **[!UICONTROL Adobe Target Classification Events]** hinzu und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -137,7 +148,7 @@ Nachdem Sie die Aktivität [!DNL Target] erstellt haben, konfigurieren Sie [!DNL
 
 1. Konfigurieren Sie Ihren Ereignisdatensatz.
 
-   Weitere Informationen finden Sie unter [Hinzufügen und Konfigurieren von Datensätzen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} in *Erstellen einer Verbindung* im *[!DNL Adobe Customer Journey Analytics]Handbuch*.
+   Weitere Informationen finden Sie unter [Hinzufügen und Konfigurieren von Datensätzen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} in *Erstellen einer Verbindung* im *[!DNL Adobe Customer Journey Analytics]Handbuch*.
 
 1. Konfigurieren Sie Ihren Lookup-Datensatz mit dem Feld [!UICONTROL Schlüssel] als „Schlüssel“ und dem Feld [!UICONTROL Übereinstimmender Schlüssel] mit dem folgenden Pfad:
 
@@ -155,7 +166,7 @@ Richten Sie eine Datenansicht in [!DNL Customer Journey Analytics] ein, die auf 
 
 1. Richten Sie Ihre Datenansicht ein und vergewissern Sie sich, dass sie auf die oben erstellte Verbindung verweist.
 
-   Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Datenansicht](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} im *[!DNL Adobe Customer Journey Analytics]Handbuch*.
+   Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Datenansicht](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} im *[!DNL Adobe Customer Journey Analytics]Handbuch*.
 
 1. Um Ihre [!DNL Target] in [!DNL Customer Journey Analytics] ordnungsgemäß anzuzeigen, fügen Sie die folgenden Felder aus Ihrem Lookup-Datensatz als Dimensionen hinzu (einschließlich [!UICONTROL Erlebnis-ID] und [!UICONTROL Aktivitäts-ID]):
 
@@ -170,11 +181,11 @@ Richten Sie eine Datenansicht in [!DNL Customer Journey Analytics] ein, die auf 
 
    Ohne konfigurierte Persistenz verknüpft [!DNL Customer Journey Analytics] nur Metriken, die in demselben Ereignis auftreten wie das [!DNL Target]. Wenn ein Besucher beispielsweise auf der Homepage ein Target-Erlebnis sieht, wird die Umsatzmetrik dieses Besuchers aus einem Kauf auf einer späteren Seite nicht der Target-Aktivität zugeordnet.
 
-   Weitere Informationen zur Persistenz finden Sie in der [Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
+   Weitere Informationen zur Persistenz finden Sie in der [Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
 
 1. Um [!DNL Target] Dimensionen im Bedienfeld [!UICONTROL Experimentieren] zu verwenden, richten Sie die folgenden Kontextkennzeichnungen ein:
 
-   * Verwenden [!UICONTROL &#x200B; für &quot;]&quot; „Experimentierexperiment“.
+   * Verwenden [!UICONTROL  für &quot;]&quot; „Experimentierexperiment“.
    * [!UICONTROL Erlebnisname] verwenden Sie „Experimentationsvariante“.
 
    ![Kontextbeschriftungen im Bedienfeld „Experimentierung“](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
@@ -193,20 +204,20 @@ Nachdem die Aktivität live ist und Sie die Einrichtung der Verbindung und der D
 >
 >* Die [!DNL Target]/[!DNL Customer Journey Analytics]-Integration umfasst keinen vordefinierten Bericht wie A4T. Aktivitätsberichte müssen in [!DNL Customer Journey Analytics] erstellt werden.
 >
->* Wenn [!UICONTROL CJA-Metrik verwenden] als Zielmetrik der Aktivität ausgewählt ist, bietet diese Option Flexibilität bei der Bestimmung, wann bestimmte Erfolgsmetriken definiert werden müssen. Die Erfolgsmetrik wird beim Konfigurieren des Bedienfelds &quot;[!UICONTROL &quot; &#x200B;]. Anstieg und Konfidenz werden anhand der ausgewählten CJA-Metrik berechnet.
+>* Wenn [!UICONTROL CJA-Metrik verwenden] als Zielmetrik der Aktivität ausgewählt ist, bietet diese Option Flexibilität bei der Bestimmung, wann bestimmte Erfolgsmetriken definiert werden müssen. Die Erfolgsmetrik wird beim Konfigurieren des Bedienfelds &quot;[!UICONTROL &quot; ]. Anstieg und Konfidenz werden anhand der ausgewählten CJA-Metrik berechnet.
 
 1. Erstellen Sie [!DNL Customer Journey Analytics] ein Experimentier-Bedienfeld und wählen Sie dann die Aktivität aus dem Dropdown **[!UICONTROL Menü]** Experiment“.
 
-   Weitere Informationen finden Sie [Experimentier-Bedienfeld](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} unter *Experimentier-Bedienfeld* im *[!DNL Customer Journey Analytics]*.
+   Weitere Informationen finden Sie [Experimentier-Bedienfeld](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} unter *Experimentier-Bedienfeld* im *[!DNL Customer Journey Analytics]*.
 
    ![Experimentier-Bedienfeld in Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
    >[!IMPORTANT]
    >
-   >Wenn die Aktivität nicht in der Dropdown-Liste [!UICONTROL Experiment] angezeigt wird, stellen Sie sicher, dass die richtige Datenansicht ausgewählt ist und dass die [!DNL Target] Dimensionen die erforderlichen Kontextbeschriftungen enthalten (siehe Schritt 3 in [Einrichten von Datenansichten](https://experienceleague.adobe.com/de/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+   >Wenn die Aktivität nicht in der Dropdown-Liste [!UICONTROL Experiment] angezeigt wird, stellen Sie sicher, dass die richtige Datenansicht ausgewählt ist und dass die [!DNL Target] Dimensionen die erforderlichen Kontextbeschriftungen enthalten (siehe Schritt 3 in [Einrichten von Datenansichten](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Das Bedienfeld [!UICONTROL Experimentieren] gibt umfangreiche Daten und Visualisierungen zurück, mit denen Sie die Leistung Ihrer Experimente besser verstehen können. Weitere Informationen finden Sie unter [[!UICONTROL Bedienfeldausgabe]](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} unter *Experimentierbedienfeld* im *[!DNL Customer Journey Analytics]*.
+   Das Bedienfeld [!UICONTROL Experimentieren] gibt umfangreiche Daten und Visualisierungen zurück, mit denen Sie die Leistung Ihrer Experimente besser verstehen können. Weitere Informationen finden Sie unter [[!UICONTROL Bedienfeldausgabe]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} unter *Experimentierbedienfeld* im *[!DNL Customer Journey Analytics]*.
 
    ![Experimentieren](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
