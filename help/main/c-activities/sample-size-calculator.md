@@ -157,7 +157,7 @@ Schätzen der Planungseingaben für eine A/B-Aktivität, die auf Adobe Analytics
 
    * **[!UICONTROL Varianz]**: Wie weit verstreut sind Ihre Metrikwerte? Eine Clickthrough-Rate weist in der Regel eine niedrige Varianz auf, der Umsatz pro Benutzer kann viel höher sein. Wenn Sie sich nicht sicher sind, behalten Sie den Standardwert 1 bei.
 
-     Wie Sie eine **[!UICONTROL Varianz“ berechnen]** erfahren Sie in der [Analytics-Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Wie Sie eine **[!UICONTROL Varianz“ berechnen]** erfahren Sie in der [Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
