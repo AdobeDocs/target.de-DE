@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 25%
+source-wordcount: '2682'
+ht-degree: 24%
 ---
 # Aktivitäten – Überblick
 
@@ -120,7 +120,7 @@ Die folgenden Aktionen sind verfügbar (abhängig von Ihren Berechtigungen und d
 
 | Aktion | Beschreibung |
 | --- | --- |
-| [!UICONTROL Bearbeiten] | Aktivität ändern. Jede Aktivität kann bearbeitet werden, einschließlich der über die [!DNL Adobe Target]-API oder den [!DNL Adobe Target] MCP-Server erstellten Aktivitäten.<P>Weitere Informationen zu den verschiedenen Bearbeitungsmöglichkeiten für Aktivitäten finden Sie unter [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Bearbeiten] | Aktivität ändern. Jede Aktivität kann bearbeitet werden, einschließlich der über die [!DNL Adobe Target]-API oder den [!DNL Adobe Target] MCP-Server erstellten Aktivitäten. Nachdem eine von einer API erstellte Aktivität in der Benutzeroberfläche bearbeitet wurde, wird sie als in der Benutzeroberfläche geändert behandelt. Zuvor eingeschränkte Aktionen, einschließlich [!UICONTROL Kopieren] und [!UICONTROL Löschen], werden vorbehaltlich Ihrer Berechtigungen und des Aktivitätsstatus verfügbar.<P>Weitere Informationen zu den verschiedenen Bearbeitungsmöglichkeiten für Aktivitäten finden Sie unter [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Deaktivieren] | Eine laufende oder geplante Änderung anhalten. Eine deaktivierte Aktivität kann reaktiviert oder archiviert werden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
 | [!UICONTROL Aktivieren] | Startet eine inaktive oder eine zur Aktivierung bereite Aktivität. |
 | [!UICONTROL Archivieren] | Die Aktivitätenliste an das Archiv senden. Standardmäßig werden archivierte Aktivitäten nicht mehr in der Liste [!UICONTROL Aktivitäten] angezeigt. Ändern Sie den Filter für die Liste [!UICONTROL Aktivitäten] so, dass er archivierte Aktivitäten enthält, um sie anzuzeigen. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und sie später erneut aktivieren, ist ein Besucher nach der Reaktivierung weiterhin Teil dieser Aktivität, sofern er sich in dieser Aktivität befand, bevor sie deaktiviert oder archiviert wurde. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |

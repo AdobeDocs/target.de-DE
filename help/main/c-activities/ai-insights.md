@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # KI-Erkenntnisse
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 Das Menü **[!UICONTROL KI-]**&quot; in Ihrer **[!UICONTROL Aktivitätsübersicht]** bietet Zugriff auf Einblicke und Optimierungsmöglichkeiten. Verwenden Sie diese Registerkarte, um das Experiment zu überprüfen, Abwandlungen zu vergleichen und Änderungen zu identifizieren, die die Konversionsraten verbessern könnten.
 
-## Einrichten für KI-Einblicke und Opportunities
+## Setup für KI-Erkenntnisse und Möglichkeiten
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Erkenntnisse"
->abstract="Insights sind KI-generierte Ergebnisse, die verfügbar werden, wenn Ihr Experiment statistische Signifikanz erreicht."
+>abstract="Erkenntnisse sind KI-generierte Ergebnisse, die verfügbar werden, wenn Ihr Experiment statistische Signifikanz erreicht."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ Das Menü **[!UICONTROL KI-]**&quot; in Ihrer **[!UICONTROL Aktivitätsübersich
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Erlebnisdetails"
->abstract="Erlebnisdetails zeigen Bilder davon, wie ein Erlebnis aussieht, wenn sich ein Benutzer dafür qualifiziert. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
+>abstract="Erlebnisdetails zeigen Bilder davon, wie ein Erlebnis aussieht, wenn eine Person dafür qualifiziert ist. Sie können diese Bilder für alle Experimente überprüfen. Bei einigen Experimenten werden Sie möglicherweise aufgefordert, das Bild zu bestätigen oder es bei Bedarf zu ersetzen."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Nach Abschluss des Setups ist Ihre Aktivität bereit, Chancen zu generieren. Erk
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Erkenntnisse"
->abstract="Experimenteinblicke sind KI-generierte Lerninhalte, die verfügbar werden, wenn das Experiment statistische Signifikanz erreicht."
+>abstract="Experimenterkenntnisse sind KI-generierte Ergebnisse, die verfügbar werden, wenn das Experiment statistische Signifikanz erreicht."
 
 Experimenteinblicke sind KI-generierte Lerninhalte, die aus diesem Experiment abgeleitet werden. Diese Einblicke werden verfügbar, sobald das Experiment statistische Signifikanz erreicht hat, und bieten Kontext darüber, was zu seinem Erfolg beigetragen hat. Sie heben die wichtigsten Attribute hervor, die im erfolgreichsten Erlebnis vorhanden sind und sich vom Kontrollerlebnis unterscheiden und das Ergebnis wahrscheinlich beeinflussen.
 
@@ -118,7 +118,7 @@ Experimenteinblicke sind KI-generierte Lerninhalte, die aus diesem Experiment ab
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
 >title="Möglichkeiten"
->abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Erlebnisideen, die auf Mustern der KI basieren, die in Ihren Experiment-Screenshots und -Ergebnissen gefunden wurden."
+>abstract="Experimentmöglichkeiten sind von der KI vorgeschlagene Erlebnisideen, die auf von KI in Ihren Experiment-Screenshots und -Ergebnissen gefundenen Mustern basieren."
 
 Das Bedienfeld **[!UICONTROL Opportunities]** zeigt KI-generierte Empfehlungen an, die darauf ausgelegt sind, die Testleistung zu verbessern und sie an breiter gefasste Geschäftsziele und KPIs anzupassen.
 
