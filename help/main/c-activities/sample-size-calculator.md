@@ -1,35 +1,35 @@
 ---
 keywords: Stichprobengrößenrechner;A/B;Automatische Zuordnung;statistische Signifikanz;Traffic-Volumen
 description: Verwenden Sie den Stichprobengrößenrechner von Adobe Target, um die Experimentdauer, das Traffic-Volumen oder den minimalen nachweisbaren Effekt zu schätzen.
-title: Stichprobenrechner
+title: Stichprobengrößenrechner
 feature: Activities
 badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 14%
+ht-degree: 38%
 ---
-# Stichprobenrechner
+# Stichprobengrößenrechner
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Täglicher Traffic"
->abstract="Wie viele Benutzer pro Tag in das Experiment eintreten. Wenn Sie diesen Wert nicht kennen, wählen Sie oben Traffic-Volumen aus, und der Rechner löst ihn mit den anderen Eingaben."
+>abstract="Wie viele Benutzende pro Tag am Experiment teilnehmen. Wenn Sie diesen Wert nicht kennen, wählen Sie oben „Traffic-Volumen“ aus und der Rechner ermittelt ihn anhand der anderen Eingaben."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Konfidenzniveau"
->abstract="Wie sicher Sie sein müssen, dass ein Ergebnis nicht auf einen Zufallsfehler zurückzuführen ist, bevor Sie es als signifikant bezeichnen. Ein Konfidenzniveau von 95 % bedeutet, dass höchstens eine Wahrscheinlichkeit von 5 % besteht, dass ein falsch positives Ergebnis vorliegt. Höhere Werte verringern die Anzahl falsch positiver Ergebnisse, erfordern aber auch mehr Daten."
+>abstract="Wie zuversichtlich Sie sein müssen, dass ein Ergebnis nicht bloß Zufall ist, bevor es als signifikant angesehen wird. Ein Konfidenzniveau von 95 % bedeutet, dass höchstens eine Wahrscheinlichkeit von 5 % besteht, dass ein falsch positives Ergebnis vorliegt. Höhere Werte verringern die Anzahl falsch positiver Ergebnisse, erfordern jedoch auch mehr Daten."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Teststärke"
->abstract="Die Wahrscheinlichkeit, einen realen Effekt zu erkennen, wenn ein solcher vorhanden ist. Ein Leistungsniveau von 80 % bedeutet, dass eine Wahrscheinlichkeit von 80 % besteht, einen echten Effekt zu erkennen. Höhere Leistung reduziert falsche Negative, erfordert jedoch mehr Traffic oder eine längere Laufzeit."
+>abstract="Die Wahrscheinlichkeit, eine echte Auswirkung zu erkennen, wenn eine solche vorhanden ist. 80 % Stärke bedeutet, dass eine Wahrscheinlichkeit von 80 % besteht, eine echte Auswirkung zu erkennen. Eine höhere Stärke reduziert falsch negative Ergebnisse, erfordert jedoch mehr Traffic oder eine längere Laufzeit."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="Einrichten des Tests"
->abstract="Diese Felder definieren das Experiment, das erwartete Ergebnis und den Konfidenzschwellenwert für das Ergebnis. Das Feld, das mit dem oben ausgewählten Wert verknüpft ist, wird automatisch gelöst. Füllen Sie die verbleibenden Felder mit den erwarteten Werten aus."
+>abstract="Diese Felder definieren das Experiment, das erwartete Ergebnis und den Konfidenzschwellenwert für das Ergebnis. Das mit dem oben ausgewählten Wert verknüpfte Feld wird automatisch ermittelt. Füllen Sie die verbleibenden Felder mit den erwarteten Werten aus."
 
 
 >[!AVAILABILITY]
@@ -47,27 +47,27 @@ Um auf den **[!UICONTROL Rechner für den Stichprobenumfang]** zuzugreifen, gehe
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
 >title="Bonferroni-Korrektur"
->abstract="Passt das Konfidenzniveau an, damit mehr als ein Angebot gleichzeitig mit dem Steuerelement verglichen werden kann. Dies ist nur von Bedeutung, wenn die Anzahl der Angebote größer als zwei ist. Es entspricht der Korrektur, die im öffentlichen Zielrechner-Tool von Adobe verwendet wird."
+>abstract="Passt das Konfidenzniveau an, damit mehr als ein Angebot gleichzeitig mit der Kontrolle verglichen werden kann. Dies ist nur von Bedeutung, wenn die Anzahl der Angebote größer als zwei ist. Dies entspricht der Korrektur, die im öffentlichen Zielrechner-Tool von Adobe verwendet wird."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Metriktyp"
->abstract="Welche Art von Metrik Sie messen. Verwenden Sie Prozentsätze für binäre Ergebnisse, wie Klicks oder Konversionen, bei denen jeder Benutzer die Aktion ausführt oder nicht abschließt. Verwenden Sie Zahlen für Metriken wie Umsatz oder Seitenansichten, bei denen die Werte von Benutzer zu Benutzer stark variieren können."
+>abstract="Welche Art von Metrik Sie messen. Verwenden Sie Prozentsätze für binäre Ergebnisse, wie Klicks oder Konversionen, bei denen eine Person entweder eine Handlung ausführt oder nicht. Verwenden Sie Zahlen für Metriken wie Umsatz oder Seitenansichten, bei denen die Werte von Person zu Person stark variieren können."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
 >title="Anzahl der Angebote"
->abstract="Die Anzahl der Erlebnisse im Experiment, einschließlich der Kontrolle. Mehr als zwei Angebote wenden automatisch eine Bonferroni-Korrektur an (wenn diese aktiviert ist), um das Gesamtvertrauensniveau über alle Vergleiche hinweg genau zu halten."
+>abstract="Die Anzahl der Erlebnisse im Experiment, einschließlich der Kontrolle. Wenn mehr als zwei Angebote vorhanden sind, wird automatisch eine Bonferroni-Korrektur angewendet (wenn aktiviert), damit das Gesamtkonfidenzniveau für alle Vergleiche korrekt bleibt."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="Steigerung"
->abstract="Die relative Verbesserung im Vergleich zur Baseline, die Sie erkennen möchten. Geben Sie dies als Prozentsatz der Baseline ein. Beispielsweise liegt die Steigerung der Konversionsrate um 5 % bei einer Baseline von 11,8 % bei 12,39 %."
+>abstract="Die relative Verbesserung im Vergleich zur Baseline, die Sie erkennen möchten. Geben Sie dies als Prozentsatz der Baseline ein. Ein Anstieg von 5 % basierend auf einer Baseline-Konversionsrate von 11,8 % zielt beispielsweise auf 12,39 % ab."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="Baseline-Konversionsrate"
->abstract="Die aktuelle Konversionsrate vor Beginn des Experiments, d. h. der Durchschnitt des Kontrollarms. Dieser Wert ist immer erforderlich. Geben Sie für Prozentmetriken einen Prozentsatz ein, z. B. 5 für 5 %. Geben Sie für Zahlmetriken den unformatierten Dezimalwert ein."
+>abstract="Ihre aktuelle Konversionsrate vor Beginn des Experiments, der Durchschnitt des Kontrollarms. Dieser Wert ist immer erforderlich. Geben Sie für Prozentmetriken einen Prozentsatz ein, z. B. 5 für 5 %. Geben Sie für Zahlmetriken den unformatierten Dezimalwert ein."
 
 Schätzen Sie die Inputs, die für die Planung und Ausführung eines A/B-Tests erforderlich sind. Anhand dieser Werte können Sie entscheiden, wie viel Traffic Sie benötigen, wie lange der Test ausgeführt werden soll und welche Effektgröße Sie realistischerweise erkennen können.
 
@@ -128,7 +128,7 @@ Der Rechner liefert eine Schätzung für die Planung eines Experiments. Verwende
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variance"
->abstract="Wie verteilt die Werte Ihrer Metrik sind, nicht der Durchschnittswert. Eine Metrik wie die Klickrate (meistens 0 und 1 s) hat in der Regel eine niedrige Varianz, während eine Metrik wie der Umsatz pro Benutzer eine viel höhere Varianz haben kann. Wenn Sie sich nicht sicher sind, belassen Sie den Standardwert bei 1."
+>abstract="Wie verteilt die Werte Ihrer Metrik sind, nicht der Durchschnittswert. Eine Metrik wie eine Klickrate (meistens 0en und 1en) hat in der Regel eine niedrige Varianz, eine Metrik wie der Umsatz pro Person kann eine viel höhere Varianz aufweisen. Wenn Sie sich nicht sicher sind, behalten Sie den Standardwert 1 bei."
 
 Schätzen der Planungseingaben für eine A/B-Aktivität, die auf Adobe Analytics- oder Customer Journey Analytics-Daten basiert. Auf diese Weise können Sie vor dem Start der Aktivität die Experimentgröße, die erwartete Steigerung und die Testdauer definieren.
 
@@ -155,9 +155,9 @@ Schätzen der Planungseingaben für eine A/B-Aktivität, die auf Adobe Analytics
 
    * **[!UICONTROL Erwartete Verbesserung]**: Die Verbesserung, die durch das Experiment erwartet wird.
 
-   * **[!UICONTROL Varianz]**: Wie weit verstreut sind Ihre Metrikwerte? Eine Clickthrough-Rate weist in der Regel eine niedrige Varianz auf, der Umsatz pro Benutzer kann viel höher sein. Wenn Sie sich nicht sicher sind, belassen Sie den Standardwert bei 1.
+   * **[!UICONTROL Varianz]**: Wie weit verstreut sind Ihre Metrikwerte? Eine Clickthrough-Rate weist in der Regel eine niedrige Varianz auf, der Umsatz pro Benutzer kann viel höher sein. Wenn Sie sich nicht sicher sind, behalten Sie den Standardwert 1 bei.
 
-     Wie Sie eine **[!UICONTROL Varianz“ berechnen]** erfahren Sie in der [Analytics-Dokumentation](https://experienceleague.adobe.com/de/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Wie Sie eine **[!UICONTROL Varianz“ berechnen]** erfahren Sie in der [Analytics-Dokumentation](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
