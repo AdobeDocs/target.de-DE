@@ -111,7 +111,7 @@ Warum Sie teilnehmen sollten:
 
 * **Entsperren einer KI-gestützten Personalisierung**
 
-  [!DNL Adobe Target] erleichtert KI-gestützte Personalisierungsfunktionen in allen Phasen des Kundenlebenszyklus für 1:1 personalisierte Erlebnisse. Lernen Sie von der Akquise bis zur Kundenbindung, wie Unternehmen Erkenntnisse gewinnen, Prozesse optimieren, manuelle Anstrengungen minimieren und kontextbezogene, ansprechende Kundenerlebnisse im benötigten Umfang bereitstellen.
+  [!DNL Adobe Target] erleichtert KI-gestützte Personalisierungsfunktionen in allen Phasen des Kundenzyklus für 1:1 personalisierte Erlebnisse. Lernen Sie von der Akquise bis zur Kundenbindung, wie Unternehmen Erkenntnisse gewinnen, Prozesse optimieren, manuelle Anstrengungen minimieren und kontextbezogene, ansprechende Kundenerlebnisse im benötigten Umfang bereitstellen.
 
 +++
 
