@@ -275,7 +275,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen und Erweiterungen:
 
 +++Details anzeigen
 
-* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]Entwicklerhandbuch[&#x200B; migriert](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
+* **Target-spezifische Web SDK-Dokumentationsseiten wurden in das Adobe Target-Repository verschoben.** Im Rahmen der Neustrukturierung der Web SDK-Dokumentation wurden [!DNL Target] Inhalte von den allgemeinen Web SDK-Dokumenten in das [!DNL Adobe Target]Entwicklerhandbuch[&#x200B; migriert](https://experienceleague.adobe.com/de/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Diese Änderung verbessert die Auffindbarkeit von Inhalten und stellt sicher, dass die lösungsspezifische Anleitung vom entsprechenden Produkt-Team gepflegt wird. (TGT-53374)
 
 +++
 
@@ -356,7 +356,7 @@ Die Validierungslogik für [!DNL Target] Zielverbindungen wurde aktualisiert, um
 * Dieselbe Datenstrom-ID kann nur für verschiedene Verbindungen verwendet werden, wenn sie in verschiedenen Sandboxes konfiguriert sind.
 * Diese Regel gilt für alle ausgewählten Datenstrom, auch wenn „Keine“ ausgewählt ist.
 
-Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
+Diese Aktualisierung stellt eine konsistente Konfiguration sicher und verhindert Konflikte in Multi-Sandbox-Umgebungen. Weitere Informationen finden Sie unter [Adobe Target-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} im *Experience Platform-Ziele* Handbuch.
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5. September 2025)
 
@@ -1496,7 +1496,7 @@ Diese Version enthält die folgende Aktualisierung:
 
 * Fehlerkorrektur - Die Telemetrie-Protokollierung funktioniert jetzt, wenn `localStorage` nicht verfügbar ist. Die Telemetrie verursachte bei einigen Kunden, die in ihren Browsern deaktiviert `localStorage`, ein Problem.
 
-Weitere Informationen zu dieser und vorherigen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
+Weitere Informationen zu dieser und vorherigen at.js-Versionen finden Sie unter [at.js-Versionsdetails](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ### Target Standard/Premium 25.2.1 (Dienstag, 17. Februar 2025) {#ui-update-2}
 
@@ -1520,7 +1520,7 @@ Im Zuge der weiteren Modernisierung der [!DNL Adobe Target]-Benutzeroberfläche 
 Basierend auf dem neuesten [!DNL Adobe Spectrum] Design-System standardisiert das Update zuvor inkonsistente Design-Muster und fügt gleichzeitig neue Verbesserungen hinzu, z. B.:
 
 * [Neu gestaltete Berichterstellung](/help/main/administrating-target/reporting.md) um bessere Einblicke in die Ergebnisse der Aktivität zu erhalten.
-* [[!UICONTROL &#x200B; Seite „Änderungsprotokoll]](/help/main/c-activities/change-log.md) wurde aktualisiert und es werden jetzt die Informationen aus dem [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke abgerufen.
+* [[!UICONTROL &#x200B; Seite „Änderungsprotokoll]](/help/main/c-activities/change-log.md) wurde aktualisiert und es werden jetzt die Informationen aus dem [[!DNL Audit Query API]](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} für Echtzeit-Einblicke abgerufen.
 * [Anpassbare Listenansichten](/help/main/c-activities/activities.md) für eine bessere Flexibilität bei den verschiedenen Team-Anforderungen.
 * [Verbesserte Schnellinfo- und Detailbildschirme](/help/main/c-activities/activities.md) für einen einfacheren Zugriff auf Informationen.
 * [Optionen für sitzungspersistente Suche und Filter](/help/main/c-activities/activities.md).

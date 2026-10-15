@@ -30,7 +30,7 @@ Für alle neuen [!DNL Adobe Experience Platform Web SDK]-Kunden ist diese Optimi
 >
 >Wenn Sie Ihre Implementierungsprüfung nicht bis zum 3. Februar 2025 abschließen und keine Probleme beheben können, können Sie eine einmalige Verlängerung um sechs Monate anfordern. Stellen Sie sicher, dass Ihre Anfrage bis zum 31. Januar 2025 gesendet wird. Adobe prüft Ihre Anfrage und entscheidet darüber.
 
-Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profitieren, überprüfen Sie Ihre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben, oder wenn Sie die `applyPropositions`-Methode (oder die entsprechende [!DNL Launch]-Aktion als Helper) zum Rendern von Erlebnissen verwenden.
+Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profitieren, überprüfen Sie Ihre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}, um sicherzustellen, dass Sie Benachrichtigungen senden, nachdem Sie Erlebnisse manuell gerendert haben, oder wenn Sie die `applyPropositions`-Methode (oder die entsprechende [!DNL Launch]-Aktion als Helper) zum Rendern von Erlebnissen verwenden.
 
 Zu den häufigsten Szenarien, in denen Erlebnisse manuell gerendert werden, gehören:
 
@@ -38,7 +38,7 @@ Zu den häufigsten Szenarien, in denen Erlebnisse manuell gerendert werden, geh�
 * Verwenden eines benutzerdefinierten Entscheidungsumfangs in einer Aktivität, die im [[!UICONTROL formularbasierten Experience Composer“ erstellt &#x200B;]](/help/main/c-experiences/form-experience-composer.md)
 * Keine Verwendung von `renderDecisions: true` beim Abrufen einer Aktivität, die mit dem [!UICONTROL formularbasierten Experience Composer] erstellt wurde, der den globalen `__view__` verwendet
 
-Wenn Benachrichtigungen nicht wie in [Rendern personalisierter Inhalte](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} im Handbuch *Datenerfassung* dokumentiert sind, fehlen Berichtsdaten möglicherweise in [!DNL Target] und in [Analytics for Target-](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In bestimmten Szenarien kann es vorkommen, dass Traffic falsch aufgeteilt wird, da die Berichtsdaten nicht erfasst werden. Oder in anderen Szenarien, bei denen dasselbe Ereignis wiederholt gemeldet wird.
+Wenn Benachrichtigungen nicht wie in [Rendern personalisierter Inhalte](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} im Handbuch *Datenerfassung* dokumentiert sind, fehlen Berichtsdaten möglicherweise in [!DNL Target] und in [Analytics for Target-](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In bestimmten Szenarien kann es vorkommen, dass Traffic falsch aufgeteilt wird, da die Berichtsdaten nicht erfasst werden. Oder in anderen Szenarien, bei denen dasselbe Ereignis wiederholt gemeldet wird.
 
 Überprüfen Sie je nach Implementierung, ob sich [!DNL Analytics]- und A4T-Berichte auswirken.
 
@@ -55,7 +55,7 @@ Die [!DNL Platform Web SDK] unterstützt zwei Implementierungstypen für das Ren
 
 * **Aufrufe zur Aufspaltung (auch als Seitenanfang und -ende-Ereignisse bezeichnet).**
 
-  Dieser Implementierungstyp ist der neue [Aufspaltungs-Implementierungsansatz](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} der von [!DNL Adobe] empfohlen wird. Bei diesem Ansatz hat die neue Optimierung keine Auswirkungen auf [!DNL Analytics]- oder A4T-Berichte.
+  Dieser Implementierungstyp ist der neue [Aufspaltungs-Implementierungsansatz](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} der von [!DNL Adobe] empfohlen wird. Bei diesem Ansatz hat die neue Optimierung keine Auswirkungen auf [!DNL Analytics]- oder A4T-Berichte.
 
 Bei Fragen wenden Sie sich an die [Adobe-Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
@@ -63,7 +63,7 @@ Bei Fragen wenden Sie sich an die [Adobe-Kundenunterstützung](/help/main/cmp-re
 
 * Es wurde ein Problem behoben, das dazu führte, dass [!DNL Target] mit Umleitungsangeboten in [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer) nicht korrekt &#x200B;].
 
-Weitere Informationen zu at.js-Versionen finden Sie unter [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
+Weitere Informationen zu at.js-Versionen finden Sie unter [at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
 ### [!DNL Target]-Reporting in [!DNL Adobe Customer Journey Analytics] (8. Mai 2024)
 
