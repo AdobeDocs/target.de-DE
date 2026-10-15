@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
 
@@ -40,173 +40,21 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 
 (Die Nummern in Klammern dienen der internen Nutzung durch [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.9.8 (30. September 2026)
-
-### Funktionen
-
-<table>
-<thead>
-<tr>
-<th><strong>Rechner für den Stichprobenumfang</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Der Rechner für den Stichprobenumfang hilft Ihnen bei der Planung von Experimenten vor dem Start, indem Sie den erforderlichen Traffic, die Testdauer, die Anzahl der Erlebnisse oder den minimalen Effekt schätzen, den Sie zuverlässig erkennen können. Diese Funktion steht im Menü Aktivitäten zur Verfügung und verwendet Ihre Eingaben, um die für Ihren Test erforderlichen Ressourcen und Laufzeiten zu ermitteln.</p>
-<p>Die Funktion zur Berechnung des Stichprobenumfangs ist derzeit als Beta-Funktion verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../c-activities/sample-size-calculator.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>KI-Erkenntnisse</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>KI-Einblicke bieten KI-generierte Experimenterfahrungen und Optimierungsmöglichkeiten für A/B-Test -Aktivitäten mit manueller Traffic-Zuordnung. Sobald ein Experiment statistische Signifikanz erreicht, heben Einblicke Attribute des erfolgreichsten Erlebnisses hervor, die wahrscheinlich zu seiner Leistung beigetragen haben. Zu den vorgeschlagenen Möglichkeiten gehören neue Erfahrungsideen, Hypothesen und Implementierungshandbücher zur Verbesserung der Konversionsraten.</p>
-<p>Die Funktion für KI-Einblicke ist derzeit als Beta-Funktion verfügbar.</p>
-<p>Weitere Informationen finden Sie in der <a href="../c-activities/ai-insights.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Verbesserungen
-
-**[!UICONTROL Administration]**
-
-+++ Details anzeigen
-
-* **Benutzenden können keine KI-Berechtigungen erteilt werden**. Benutzende mit Produktadministrator- und Systemadministratorzugriff konnten anderen Benutzenden keine KI-Berechtigungen erteilen. Der Versuch, die KI-Berechtigung zu aktivieren, führte zu einem `Unauthorized`, selbst wenn die KI für die Organisation aktiviert war. (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7 (28. September 2026)
-
-
-**[!UICONTROL Recommendations]**
-
-+++ Details anzeigen
-
-* **Fehler „Ungültige Benutzereingabe“ im Visual Experience Composer**. Beim Bearbeiten einer Recommendations -Aktivität in Visual Experience Composer trat beim Versuch, die Aktivität zu speichern und zu schließen, der Fehler „Ungültige Benutzereingabe“ auf.
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6 (24. September 2026)
-
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Details anzeigen
-
-* **Endlose Umleitungsschleife beim Zugriff auf eine SSO-authentifizierte Seite über den Visual Experience Composer**. Wenn eine in Visual Experience Composer geladene Seiten-URL einen SSO-/Anmelde-Umleitungsfluss durchlief, trat Visual Experience Composer in eine endlose Umleitungsschleife ein und erreichte nie die beabsichtigte Seite. (TGT-56233)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5 (21. September 2026)
-
-### Funktion
-
-<table>
-<thead>
-<tr>
-<th><strong>Vorab-Ausblenden von Inhalten</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Durch das Vorab-Ausblenden von Inhalten wird das Flackern der Seite reduziert, da nur die Abschnitte ausgeblendet werden, die durch die Adobe Target-Personalisierung geändert werden sollen. So wird das Erlebnis beim Laden von Inhalten reibungsloser. Dadurch wird vermieden, dass die gesamte Seite ausgeblendet wird, und der Implementierungsaufwand beim Starten neuer Aktivitäten wird minimiert.</p>
-<p>Diese Funktion wurde bereits in eingeschränkter Verfügbarkeit veröffentlicht und steht nun allen Umgebungen zur Verfügung (allgemeine Verfügbarkeit).</p>
-<p>Weitere Informationen finden Sie in der <a href="../administrating-target/content-pre-hiding.md">ausführlichen Dokumentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Verbesserungen
+## [!DNL Target Standard/Premium] 26.10.1 (13. Oktober 2026)
 
 **[!UICONTROL Analytics for Target]**
 
 +++Details anzeigen
 
-* **Link zum A4T-Bericht wird nicht in [!DNL Target] Benutzeroberfläche generiert**. Bei [!DNL A4T] Aktivitäten wurde der Berichtlink nicht im Abschnitt **[!UICONTROL Berichte]** generiert, obwohl die zugrunde liegenden Berichtsdaten sowohl in der [!DNL Target]-Benutzeroberfläche als auch in der [!DNL Adobe Analytics]-Benutzeroberfläche sichtbar waren. (TGT-56247)
+* **A4T-Reporting schlägt mit dem Fehler „Irgendetwas ist schiefgelaufen“**. Es wurde ein Problem behoben, bei dem bei [!DNL A4T] Aktivitäten mit einer neu hinzugefügten Report Suite im [!DNL Target] Bericht der Fehler „Etwas ist schiefgelaufen“ anstelle der Ergebnisse angezeigt wurde. Wenn Sie **[!UICONTROL In Analytics anzeigen]** klicken, wird auch die Meldung „Inkompatible Report Suite“ mit fehlenden [!DNL Analytics for Target] angezeigt. (TGT-56389)
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.4 (17. September 2026)
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Details anzeigen
 
-* **[!UICONTROL Einfügen vor]-Steuerelement, auf das [!DNL Experience Fragments] im obersten Seitenelement nicht zugreifen**. Wenn Sie im Visual Experience Composer das oberste Element auf einer Seite auswählen, wird die Seite nach oben gescrollt, wodurch das Steuerelement **[!UICONTROL Einfügen vor]** über dem sichtbaren Ansichtsfenster gerendert wird, in dem es nicht ausgewählt werden konnte. (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3 (16. September 2026)
-
-**[!UICONTROL Berichterstellung]**
-
-+++Details anzeigen
-
-* **Fehlende Werte [!UICONTROL Anstieg] und [!UICONTROL Konfidenz] in einigen [!DNL A4T Auto-Target] Berichten**. Bei [!DNL A4T Auto-Target] Aktivitäten mit dem Optimierungsziel **[!UICONTROL Maximieren der Besuchsumrechnungsrate]** wurde die standardmäßige Berichtsmetrik **[!UICONTROL Meine Primäre Metrik]** nicht korrekt aufgelöst, sodass **[!UICONTROL Anstieg]** und **[!UICONTROL Konfidenz]** leer blieb. (TGT-56137)
-
-+++
-
-**[!UICONTROL Analytics for Target]**
-
-+++Details anzeigen
-
-* **[!UICONTROL Reporting-Source]-Feld ist jetzt schreibgeschützt für Live-Aktivitäten ohne [!DNL Analytics] Zugriff**. Wenn der Eigentümer einer Live-Aktivität keinen Zugriff auf [!DNL Adobe Analytics] hatte, konnten das Feld **[!UICONTROL Reporting-Source]** und das zugehörige Feld weiterhin bearbeitet werden. (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2 (8. September 2026)
-
-
-**[!UICONTROL Recommendations]**
-
-+++Details anzeigen
-
-* **[!DNL New]Benutzeroberfläche codiert Feed-URLs falsch**. Beim Erstellen eines Recommendations-Feeds über eine URL in der neuen [!DNL Target] wurde die Feed-URL falsch codiert, was dazu führte, dass die Feed-Erstellung mit einem unbekannten Fehler fehlschlug. (TGT-56084)
-
-+++
-
-**[!UICONTROL Berichterstellung]**
-
-+++Details anzeigen
-
-* **Der Bericht „Automatisierte Segmente“ zeigt Attributwerte nicht konsistent**. Der Bericht Automatisierte Segmente zeigt Attributwerte und -bereiche für [!DNL Automated Personalization]- und [!DNL Auto-Target]-Aktivitäten inkonsistent an. Einige automatisierte Segmente zeigen nur den Attributnamen anstelle des zugehörigen Werts oder Bereichs an. (TGT-55855)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1 (1. September 2026)
-
-**[!UICONTROL Zielgruppe]**
-
-+++Details anzeigen
-
-* **Das Kopieren einer Aktivität mit einer Zielgruppe „Nur Aktivität“ schlägt fehl beim Speichern**. Wenn eine A/B-Aktivität eine Zielgruppenregel „Nur Aktivität“ (lokal) und eine benutzerdefinierte Code-Änderung verwendet, schlägt das Kopieren und Speichern der Kopie mit dem Fehler „Ungültige Zielgruppen-IDs“ fehl. (TGT-55785)
-
-+++
-
-**[!DNL Adobe Target]MCP-Server — Recommendations-Tools (Public Beta)**
-
-+++Details anzeigen
-
-Der [!DNL Adobe Target] MCP-Server stellt jetzt Recommendations-Tools bereit, mit denen Sie Kriterien, Sammlungen, Designs, Promotions und Ausschlüsse auflisten, überprüfen, erstellen und aktualisieren und den Produktkatalog direkt über Ihren KI-Assistenten durchsuchen können.
-
-Für diese Funktion ist ein Recommendations-aktivierter Mandant mit **Target Premium** erforderlich. Sie ist nicht für Nicht-Premium-Konten verfügbar.
-
-Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+* **Raw-HTML wird anstelle des Angebotsnamens für [!DNL Experience Fragments] angezeigt, die über eine Mbox bereitgestellt werden**. Es wurde ein Problem behoben **[!UICONTROL bei dem im Bedienfeld]**&#x200B;Änderungen“ rohe HTML/Code anstelle des Angebotsnamens angezeigt wurde, wenn ein [!DNL Experience Fragment] über eine Mbox bereitgestellt wurde. (TGT-56241)
 
 +++
 

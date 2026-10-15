@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Business-Anwender*innen von Adobe Target
 breadcrumb-title: Target-Anleitung
 user-guide-description: Erfahren Sie, wie Sie Kundenerlebnisse über Websites, Apps und soziale Kanäle hinweg personalisieren können, um den Umsatz zu steigern.
 feature-set: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 84%
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 84%
   + [Überblick über die Dokumentation zu Target](/help/main/r-release-notes/target-documentation.md)
   + [Systemstatusaktualisierungen und proaktive Benachrichtigungen](r-release-notes/system-status-updates.md)
   + [Dokumentationsänderungen](r-release-notes/doc-change.md)
-  + [Versionshinweise für vorherige Versionen](r-release-notes/release-notes-for-previous-releases.md)
+  + Versionshinweise für vorherige Versionen {#previous-rn}
+    + [2026](r-release-notes/release-notes-for-previous-releases.md)
+    + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+    + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Einführung {#introduction}
   + [Einführung in Target](c-intro/intro.md)
   + [Zugriff auf Target über Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -119,7 +122,7 @@ ht-degree: 84%
 + Aktivitäten {#activities}
   + [Aktivitäten – Überblick](c-activities/activities.md)
   + [Insights-Dashboard](c-activities/insights-dashboard.md)
-  + [Stichprobenrechner](c-activities/sample-size-calculator.md)
+  + [Stichprobengrößenrechner](c-activities/sample-size-calculator.md)
   + [Target-Aktivitätstypen](c-activities/target-activities-guide.md)
   + A/B-Test {#abtest}
     + [A/B-Tests – Überblick](c-activities/t-test-ab/test-ab.md)
