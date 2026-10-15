@@ -35,7 +35,7 @@ Um im Falle des manuellen Vorschlags-Renderings von dieser Optimierung zu profit
 Zu den häufigsten Szenarien, in denen Erlebnisse manuell gerendert werden, gehören:
 
 * Verwenden von JSON-Angeboten
-* Verwenden eines benutzerdefinierten Entscheidungsumfangs in einer Aktivität, die im [[!UICONTROL formularbasierten Experience Composer“ erstellt ]](/help/main/c-experiences/form-experience-composer.md)
+* Verwenden eines benutzerdefinierten Entscheidungsumfangs in einer Aktivität, die im [[!UICONTROL formularbasierten Experience Composer“ erstellt &#x200B;]](/help/main/c-experiences/form-experience-composer.md)
 * Keine Verwendung von `renderDecisions: true` beim Abrufen einer Aktivität, die mit dem [!UICONTROL formularbasierten Experience Composer] erstellt wurde, der den globalen `__view__` verwendet
 
 Wenn Benachrichtigungen nicht wie in [Rendern personalisierter Inhalte](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} im Handbuch *Datenerfassung* dokumentiert sind, fehlen Berichtsdaten möglicherweise in [!DNL Target] und in [Analytics for Target-](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). In bestimmten Szenarien kann es vorkommen, dass Traffic falsch aufgeteilt wird, da die Berichtsdaten nicht erfasst werden. Oder in anderen Szenarien, bei denen dasselbe Ereignis wiederholt gemeldet wird.
@@ -61,7 +61,7 @@ Bei Fragen wenden Sie sich an die [Adobe-Kundenunterstützung](/help/main/cmp-re
 
 ### at.js-Version 2.11.6 (29. September 2024)
 
-* Es wurde ein Problem behoben, das dazu führte, dass [!DNL Target] mit Umleitungsangeboten in [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer) nicht korrekt ].
+* Es wurde ein Problem behoben, das dazu führte, dass [!DNL Target] mit Umleitungsangeboten in [!UICONTROL Visual Experience Composer] (VEC) oder [!UICONTROL Form-Based Experience Composer) nicht korrekt &#x200B;].
 
 Weitere Informationen zu at.js-Versionen finden Sie unter [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} im *Adobe Target-Entwicklerhandbuch*.
 
@@ -100,7 +100,7 @@ Diese Version enthält die folgenden Verbesserungen und Fehlerbehebungen für di
 Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 
 * Die Logik zur Berechnung der Anzahl eindeutiger Selektoren in einer Aktivität wurde korrigiert. (TGT-47878)
-* Es wurde ein Problem behoben, das dazu führte[!UICONTROL  dass ]Multivarianz-(MVT)-Aktivitäten, die mit der Berichterstellung [!UICONTROL Analytics for Target] (A4T) konfiguriert waren, nicht ordnungsgemäß angezeigt wurden. (TGT-47490)
+* Es wurde ein Problem behoben, das dazu führte[!UICONTROL &#x200B; dass &#x200B;]Multivarianz-(MVT)-Aktivitäten, die mit der Berichterstellung [!UICONTROL Analytics for Target] (A4T) konfiguriert waren, nicht ordnungsgemäß angezeigt wurden. (TGT-47490)
 * Die Warnmeldung, die im Reporting angezeigt wird, wenn ein Erlebnis ohne Traffic als Kontrollerlebnis verwendet wird, wurde verbessert. (TGT-47537)
 * Es wurden zahlreiche Backend- und Lokalisierungskorrekturen hinzugefügt.
 
@@ -111,6 +111,6 @@ Diese Version umfasst die folgenden Verbesserungen und Fehlerbehebungen:
 * [!UICONTROL Analytics for Target] (A4T)-Aktivitäten mit Umsatzzielmetriken zeigten nicht den „Umsatz“ als Spaltennamen an, und die Umsatzmetrik wurde nicht im ($)-Format im Reporting angezeigt. Dies war ein kosmetisches Problem, das behoben wurde. (TGT-46995)
 * Ein Problem mit nicht ordnungsgemäßer Berichtsdatierung wurde behoben. (TGT-47396)
 * Es wurde ein Problem behoben, das dazu führte, dass auf der Seite [!UICONTROL Alle Aktivitäten] ein falscher Status angezeigt wurde, nachdem Kundinnen und Kunden eine Aktivität über das Symbol [!UICONTROL Mehr Aktionen] aktiviert oder deaktiviert hatten. (TGT-47367)
-* Es wurde ein Fehler behoben, der dazu führte[!UICONTROL  dass der Bericht „Wichtige Attribute] für einen einzelnen Kunden nicht angezeigt wurde. (TGT-47272)
+* Es wurde ein Fehler behoben, der dazu führte[!UICONTROL &#x200B; dass der Bericht „Wichtige Attribute] für einen einzelnen Kunden nicht angezeigt wurde. (TGT-47272)
 * Ein Fehler, bei dem beim Versuch, die Option „Authentifizierung erfordern“ zu aktivieren, die Meldung „Ungültige Payload“ angezeigt wurde, wurde behoben. (TGT-47195)
 * Verschiedene lokalisierte Zeichenfolgen in der [!DNL Target]-Benutzeroberfläche wurden aktualisiert.

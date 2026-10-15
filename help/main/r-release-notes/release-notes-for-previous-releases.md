@@ -346,7 +346,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **Das Diagramm Konversionsrate ist für eine bestimmte mobile Zielgruppe nicht verfügbar.** Es wurde ein Problem behoben[!UICONTROL  bei dem das Diagramm „Konversionsrate] für bestimmte mobile Zielgruppen nicht gerendert wurde. (TGT-55611)
+* **Das Diagramm Konversionsrate ist für eine bestimmte mobile Zielgruppe nicht verfügbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem das Diagramm „Konversionsrate] für bestimmte mobile Zielgruppen nicht gerendert wurde. (TGT-55611)
 
 * **Konversionsziel „Eine Mbox angezeigt“ funktioniert nicht, wenn es aus dem Dropdown-Menü ausgewählt wird.** Es wurde ein Problem behoben, bei dem bei Auswahl einer Mbox aus der Dropdown-Liste [!UICONTROL Ziele und Einstellungen] für ein Konversionsziel vom Typ „Angezeigte Mbox“ der Mbox-Name falsch gespeichert und dadurch die Aufzeichnung von Konversionen verhindert wurde. (TGT-55588)
 
@@ -368,7 +368,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 * **Bearbeiten oder Löschen von Änderungsaktionen funktioniert nicht.** Es wurde ein Problem behoben, bei dem das Bearbeiten oder Löschen einer Änderung aus der [!UICONTROL Erlebnis bearbeiten]-Ansicht nicht funktionierte. (TGT-55250)
 
-* **Durchsuchen-Modus reagiert nach dem Laden der Aktivität nicht.** Es wurde ein Problem behoben[!UICONTROL  bei dem der ]Durchsuchen“ für Erlebnisse mit einer Änderung nicht mehr reagierte, was eine weitere Navigation und Bearbeitung verhinderte. (TGT-55306)
+* **Durchsuchen-Modus reagiert nach dem Laden der Aktivität nicht.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem der &#x200B;]Durchsuchen“ für Erlebnisse mit einer Änderung nicht mehr reagierte, was eine weitere Navigation und Bearbeitung verhinderte. (TGT-55306)
 
 * **Elemente im Salesforce LWC (Shadow DOM) können nicht ausgewählt werden.** Es wurde ein Problem behoben, bei dem [!UICONTROL Visual Experience Composer] mithilfe von Shadow DOM keine Elemente auswählen konnte, die in Salesforce Lightning-Web-Komponenten verschachtelt waren, was zu einem Fehler „Selektor nicht gefunden“ führte. (TGT-54956)
 
@@ -380,7 +380,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **Der Assistent zur Inhaltserstellung wurde in „Inhalt [!UICONTROL &quot; ].** Die Funktion zur Inhaltserstellung von „KI-Assistent“ wurde umbenannt, um [!UICONTROL Inhalte generieren] über [!DNL Target] Benutzeroberflächenoberflächen hinweg zu ermöglichen. (TGT-55689)
+* **Der Assistent zur Inhaltserstellung wurde in „Inhalt [!UICONTROL &quot; &#x200B;].** Die Funktion zur Inhaltserstellung von „KI-Assistent“ wurde umbenannt, um [!UICONTROL Inhalte generieren] über [!DNL Target] Benutzeroberflächenoberflächen hinweg zu ermöglichen. (TGT-55689)
 
 +++
 
@@ -400,9 +400,9 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **Falsche Zielinformationen auf der Seite [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL  bei dem auf der Seite ]Aktivitätsübersicht“ für [!DNL Automated Personalization] Aktivitäten zusätzliche Ziele anstelle des Optimierungsziels angezeigt wurden. (TGT-55553)
+* **Falsche Zielinformationen auf der Seite [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem auf der Seite &#x200B;]Aktivitätsübersicht“ für [!DNL Automated Personalization] Aktivitäten zusätzliche Ziele anstelle des Optimierungsziels angezeigt wurden. (TGT-55553)
 
-* **Nicht reagierender Bildschirm beim Navigieren auf Seiten im [!UICONTROL Durchsuchen]-Modus.** Es wurde ein Problem behoben, bei dem der Bildschirm beim Navigieren zwischen Seiten im [!UICONTROL -Modus nicht ] reagierte. (TGT-55565)
+* **Nicht reagierender Bildschirm beim Navigieren auf Seiten im [!UICONTROL Durchsuchen]-Modus.** Es wurde ein Problem behoben, bei dem der Bildschirm beim Navigieren zwischen Seiten im [!UICONTROL -Modus nicht &#x200B;] reagierte. (TGT-55565)
 
 +++
 
@@ -418,7 +418,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **Nicht lokalisierte Zeichenfolgen im Dialogfeld [!UICONTROL Profilskript erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen [!UICONTROL  Dialogfeld „Profilskript erstellen] nicht lokalisiert wurden. (TGT-51527)
+* **Nicht lokalisierte Zeichenfolgen im Dialogfeld [!UICONTROL Profilskript erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen [!UICONTROL &#x200B; Dialogfeld „Profilskript erstellen] nicht lokalisiert wurden. (TGT-51527)
 
 +++
 
@@ -458,7 +458,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 * **Source-Filter für API- und MCP-erstellte Ressourcen.** Es wurde ein Problem behoben, bei dem das Filtern nach [!UICONTROL Adobe Target]API oder [!UICONTROL Adobe Target MCP] bei den Listenseiten für Aktivitäten, Zielgruppen und Angebote nicht funktionierte. (TGT-55236)
 
-* **Filterwerte der Aktivitätsquelle.** Es wurde ein Problem behoben, bei dem der Quellfilter {0]Adobe Target API] oder [!UICONTROL  Adobe Target MCP2 keine neu erstellten Zielgruppen anzeigte. [!UICONTROL (TGT-55237)
+* **Filterwerte der Aktivitätsquelle.** Es wurde ein Problem behoben, bei dem der Quellfilter &lbrace;0Adobe Target API oder  Adobe Target MCP2 keine neu erstellten Zielgruppen anzeigte. (TGT-55237)
 
 +++
 
@@ -468,7 +468,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 * **Nicht lokalisierte Zeichenfolgen im Modal [!UICONTROL JSON-Angebot erstellen].** Es wurde ein Problem behoben, bei dem Zeichenfolgen im [!UICONTROL JSON-Angebot erstellen]-Modal, einschließlich [!UICONTROL Name] und [!UICONTROL Workspace], während der Erstellung einer Aktivität nicht lokalisiert wurden. (TGT-50084)
 
-* **Nicht lokalisierte Popup-Nachricht in einer [!UICONTROL Recommendations]-Aktivität.** Fehlerkorrektur - Beim Hinzufügen von Recommendations in einer formularbasierten Aktivität (Recommendations) tritt jetzt keine [!UICONTROL  mehr ]. (TGT-50463)
+* **Nicht lokalisierte Popup-Nachricht in einer [!UICONTROL Recommendations]-Aktivität.** Fehlerkorrektur - Beim Hinzufügen von Recommendations in einer formularbasierten Aktivität (Recommendations) tritt jetzt keine [!UICONTROL &#x200B; mehr &#x200B;]. (TGT-50463)
 
 * **Nicht lokalisierte Zeichenfolge in den [!UICONTROL Sammlungen] und [!UICONTROL Ausschlüsse] Dialogfeldern.** Es wurde ein Problem behoben, bei dem die Zeichenfolge „Element-Payload“ in den Dialogfeldern [!UICONTROL Sammlungen] und [!UICONTROL Ausschlüsse] in [!UICONTROL Recommendations] nicht lokalisiert wurde. (TGT-51542)
 
@@ -490,7 +490,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **A4T-Berichte nicht sichtbar.** Es wurde ein Problem behoben[!UICONTROL  bei dem A4T-Berichte (Analytics for ]) nicht angezeigt wurden. (TGT-55432)
+* **A4T-Berichte nicht sichtbar.** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem A4T-Berichte (Analytics for &#x200B;]) nicht angezeigt wurden. (TGT-55432)
 
 +++ 
 
@@ -558,11 +558,11 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 +++Details anzeigen
 
-* **Unvollständige Aktivitäts-URL in [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL  bei dem in der ]Aktivitätsübersicht“ nicht die vollständige URL für eine Aktivität angezeigt wurde. (TGT-54029)
+* **Unvollständige Aktivitäts-URL in [!UICONTROL Aktivitätsübersicht].** Es wurde ein Problem behoben[!UICONTROL &#x200B; bei dem in der &#x200B;]Aktivitätsübersicht“ nicht die vollständige URL für eine Aktivität angezeigt wurde. (TGT-54029)
 
 * **Nicht lokalisiertes Datumsformat in Aktivitätsberichten.** Fehlerkorrektur - Das Datumsformat ist jetzt auf der Registerkarte **[!UICONTROL Berichte]** nicht lokalisiert, wenn Sie eine Option **Letzte X Tage** aus der Dropdown-Liste **[!UICONTROL Vorgegebener Datumsbereich]** auswählen. (TGT-51637)
 
-* **Die formularbasierte Aktivität kann mit bestimmten GB2-18030 nicht in &quot;[!UICONTROL &quot; gespeichert ].** Es wurde ein Problem behoben, bei dem Sie eine formularbasierte Aktivität nicht speichern konnten, wenn das Feld **[!UICONTROL Standort]** bestimmte GB18030-Zeichen enthielt. (TGT-46980)
+* **Die formularbasierte Aktivität kann mit bestimmten GB2-18030 nicht in &quot;[!UICONTROL &quot; gespeichert &#x200B;].** Es wurde ein Problem behoben, bei dem Sie eine formularbasierte Aktivität nicht speichern konnten, wenn das Feld **[!UICONTROL Standort]** bestimmte GB18030-Zeichen enthielt. (TGT-46980)
 
 +++
 
@@ -580,7 +580,7 @@ Weitere Informationen finden Sie unter [MCP Server Tools-Referenz](../c-integrat
 
 * **Nicht lokalisierte QuickInfos im aktualisierten Activity Builder.** Es wurden Lokalisierungsprobleme behoben, bei **[!UICONTROL die QuickInfos für]** Verfeinerungen **[!UICONTROL und]** Inhalte“ im aktualisierten Activity Builder [!UICONTROL Visual Experience Composer] nicht lokalisiert wurden. (TGT-53721)
 
-* **Nicht lokalisiert [!UICONTROL Alle Besucher] in [!UICONTROL Experience Audiences].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Zeichenfolge]** Alle Besucher **[!UICONTROL in Erlebniszielgruppen]** in der linken Leiste nicht im [!UICONTROL Visual Experience Composer) ]. (TGT-50086)
+* **Nicht lokalisiert [!UICONTROL Alle Besucher] in [!UICONTROL Experience Audiences].** Es wurde ein Problem behoben **[!UICONTROL bei dem die Zeichenfolge]** Alle Besucher **[!UICONTROL in Erlebniszielgruppen]** in der linken Leiste nicht im [!UICONTROL Visual Experience Composer) &#x200B;]. (TGT-50086)
 
 +++
 
@@ -730,7 +730,7 @@ Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-int
 
 +++Details anzeigen
 
-* **Änderungen werden im Editor am falschen Erlebnis angezeigt.** Es wurde ein Problem behoben, bei dem ein Löschen oder eine andere Änderung im falschen Erlebnis angezeigt werden konnte, nachdem zwischen Erlebnissen in [!UICONTROL Visual Experience Composer) ] wurde. (TGT-54955)
+* **Änderungen werden im Editor am falschen Erlebnis angezeigt.** Es wurde ein Problem behoben, bei dem ein Löschen oder eine andere Änderung im falschen Erlebnis angezeigt werden konnte, nachdem zwischen Erlebnissen in [!UICONTROL Visual Experience Composer) &#x200B;] wurde. (TGT-54955)
 
 * **Änderungen beim Löschen von insert HTML entfernt.** Es wurde ein Problem behoben, durch das beim Löschen des zusätzlichen **[!UICONTROL HTML]**-Blocks, der mit **[!UICONTROL Einfügen vor]** oder **[!UICONTROL Einfügen nach]** hinzugefügt wurde, auch eine verknüpfte Änderung entfernt wurde, die keinen CSS-Selektor hatte. (TGT-54530)
 
@@ -863,7 +863,7 @@ Weitere Informationen finden Sie unter [[!DNL Adobe Target] MCP-Server](../c-int
 
 +++Details anzeigen
 
-* **Im Bildschirm Implementierung den Umschalter für die Flackerverwaltung hinzufügen.** Zum Bildschirm [!UICONTROL Implementierung“ wurde ein neuer Umschalter ], um die Aktivierung der Flimmerverwaltungseinstellung zu steuern. Mit diesem Umschalter können Administratoren die Flimmerverwaltung direkt im Bildschirm Implementierung konfigurieren. (TGT-52247)
+* **Im Bildschirm Implementierung den Umschalter für die Flackerverwaltung hinzufügen.** Zum Bildschirm [!UICONTROL Implementierung“ wurde ein neuer Umschalter &#x200B;], um die Aktivierung der Flimmerverwaltungseinstellung zu steuern. Mit diesem Umschalter können Administratoren die Flimmerverwaltung direkt im Bildschirm Implementierung konfigurieren. (TGT-52247)
 
 +++
 
@@ -960,7 +960,7 @@ Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboa
 
 +++Details anzeigen
 
-* **Auf die Zulassungsliste gesetzt URLs-Verwaltungsfunktion.** Im Abschnitt „Administration“ wurde eine neue Verwaltungsfunktion &quot;[!UICONTROL  URLs] hinzugefügt, um zulässige Muster für Remote-Angebots-URLs zu verwalten. Diese Funktion bietet die Möglichkeit, URLs in einer Tabelle anzuzeigen, URLs zu suchen und zu filtern, über das modale Dialogfeld neue URLs hinzuzufügen und URLs mit Bestätigung zu löschen. Mit dieser Funktion können Kunden steuern, welche URLs für Remote-Angebote verwendet werden können. Dies verbessert die Sicherheit und Compliance. (TGT-54486)
+* **Auf die Zulassungsliste gesetzt URLs-Verwaltungsfunktion.** Im Abschnitt „Administration“ wurde eine neue Verwaltungsfunktion &quot;[!UICONTROL &#x200B; URLs] hinzugefügt, um zulässige Muster für Remote-Angebots-URLs zu verwalten. Diese Funktion bietet die Möglichkeit, URLs in einer Tabelle anzuzeigen, URLs zu suchen und zu filtern, über das modale Dialogfeld neue URLs hinzuzufügen und URLs mit Bestätigung zu löschen. Mit dieser Funktion können Kunden steuern, welche URLs für Remote-Angebote verwendet werden können. Dies verbessert die Sicherheit und Compliance. (TGT-54486)
 
 +++
 
@@ -981,7 +981,7 @@ Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboa
 
 * **Aktivität kann nicht kopiert werden - ungültige Benutzereingabe.** Es wurde ein Problem behoben, das dazu führte, dass beim Kopieren einer Aktivität der nicht hilfreiche Fehler „Ungültige Benutzereingabe“ angezeigt wurde. Zuvor wurden beim Duplizieren einer Aktivität die Workspace-spezifischen Eigenschaftszuweisungen nicht beibehalten, sodass das Backend die Speicheranfrage ablehnt, da für die ABA-Aktivität mindestens eine Eigenschaft erforderlich ist, die zu einem nicht standardmäßigen Workspace gehört. Diese Diskrepanz hat einen allgemeinen Fehler in der Benutzeroberfläche ausgelöst, sodass Benutzende ohne Anleitung bleiben. Durch die Korrektur wird sichergestellt, dass Arbeitsbereichszuweisungen bei Kopiervorgängen korrekt beibehalten werden, sodass Benutzende die kopierte Aktivität speichern können, ohne Änderungen vorzunehmen, und keine irreführenden Validierungsfehler auftreten. (TGT-54282)
 * **Aktivieren der Workspace-Spalte im Angebot des Web-Editors.** Dieses Update behebt Verwirrung bei Kunden, die durch Angebote aus der [!UICONTROL Standard-Workspace] verursacht wird, die in anderen Arbeitsbereichen im Web-Editor angezeigt werden. Obwohl dieses Verhalten wie vorgesehen funktioniert, werden [!UICONTROL Standard-Workspace]-Angebote absichtlich in allen Arbeitsbereichen angezeigt. Kundinnen und Kunden berichteten, dass die Benutzeroberfläche den Ursprung des Arbeitsbereichs nicht klar gemacht hat, insbesondere beim Erstellen von Aktivitäten in einem nicht standardmäßigen Arbeitsbereich wie „Genehmigende Personen“. Zur besseren Übersichtlichkeit wurde die Spalte [!UICONTROL Workspace] jetzt in der Angebotsliste des Web-Editors aktiviert, sodass Benutzende einfach erkennen können, zu welchem Arbeitsbereich die einzelnen Angebote gehören, und eine Fehlinterpretation der angezeigten zusätzlichen Angebote vermieden werden kann. (TGT-54138)
-* **Links mit target=„_blank“ werden in einer neuen Registerkarte geöffnet.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem erstellte Websites, die Links mit ~target=„_blank“~ enthalten, beim Klicken im Modus [!UICONTROL Durchsuchen“ in einer neuen Browser-Registerkarte geöffnet, wodurch das In-Editor-Vorschauerlebnis gestört ]. Das Verhalten trat auf, weil die nativen Link-Attribute der erstellten Seite nicht von der eingefügten JavaScript der Erweiterung abgefangen wurden, anders als in der alten Benutzeroberfläche, in der Ankerelemente transformiert und ihre Ziele überschrieben wurden, um die Navigation im Editor zu behalten. Die Aktualisierung stellt sicher, dass Links, die ~target=„_blank“~ verwenden, jetzt im Web-Editor ordnungsgemäß verarbeitet werden, sodass externe Registerkarten beim Authoring nicht mehr geöffnet werden. (TGT-54134)
+* **Links mit target=„_blank“ werden in einer neuen Registerkarte geöffnet.** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem erstellte Websites, die Links mit ~target=„_blank“~ enthalten, beim Klicken im Modus [!UICONTROL Durchsuchen“ in einer neuen Browser-Registerkarte geöffnet, wodurch das In-Editor-Vorschauerlebnis gestört &#x200B;]. Das Verhalten trat auf, weil die nativen Link-Attribute der erstellten Seite nicht von der eingefügten JavaScript der Erweiterung abgefangen wurden, anders als in der alten Benutzeroberfläche, in der Ankerelemente transformiert und ihre Ziele überschrieben wurden, um die Navigation im Editor zu behalten. Die Aktualisierung stellt sicher, dass Links, die ~target=„_blank“~ verwenden, jetzt im Web-Editor ordnungsgemäß verarbeitet werden, sodass externe Registerkarten beim Authoring nicht mehr geöffnet werden. (TGT-54134)
 * **Eigenschaftenwarnung aufheben.** Dieses Update enthält eine visuelle Warnung, die Benutzerinnen und Benutzer deutlich informiert, wenn sie die Auswahl einer automatisch erkannten Eigenschaft im Aktivitätseditor aufheben. Zuvor gab das Entfernen einer automatisch erkannten Eigenschaft keinen Hinweis darauf, dass die Eigenschaft dauerhaft gelöscht würde, was zu einem versehentlichen Verlust der Targeting-Konfiguration führen könnte. Durch die Korrektur wird ein Warnsymbol hinzugefügt, das dem Verhalten in der veralteten Benutzeroberfläche entspricht und Benutzer darüber informiert, dass durch Deaktivieren der Eigenschaft diese aus der Aktivität entfernt wird. (TGT-54121)
 * **[!UICONTROL Arbeitsbereiche] Dropdown-Liste ist im Abschnitt [!UICONTROL Benutzer] auf 20 beschränkt** Mit dieser Fehlerbehebung wird ein Problem behoben, bei dem im Dropdown[!UICONTROL Arbeitsbereiche] im Abschnitt [!UICONTROL Administration] > [!UICONTROL Benutzer] nur 20 Arbeitsbereiche angezeigt wurden, selbst wenn ein Benutzer Zugriff auf viele weitere hatte. Der zugrunde liegende GraphQL-Aufruf für `licenseGroups` war ebenfalls auf 20 Ergebnisse beschränkt, was dazu führte, dass die Benutzeroberfläche eine unvollständige Liste anzeigte, obwohl die Benutzenden Zugriff auf mehr Arbeitsbereiche im Unternehmen hatten. Durch das Update wird diese feste Grenze entfernt, sodass der vollständige Satz verfügbarer Arbeitsbereiche jetzt zurückgegeben und korrekt angezeigt wird. (TGT-53820)
 * **Es wurde ein Problem behoben, bei dem die Spalte „Arbeitsbereich“ im modalen Angebotsmodul nicht angezeigt wurde.** Es wurde ein Problem behoben, bei dem das Modal „Angebote“ die Spalte „Arbeitsbereich“ in der aktualisierten Benutzeroberfläche nicht anzeigte. Dies führte zu Verwirrung bei den Kunden, da Angebote aus [!UICONTROL Standard-Workspace] neben Angeboten aus dem ausgewählten Arbeitsbereich ohne Angabe ihrer Herkunft angezeigt wurden. Die Spalte Arbeitsbereich ist jetzt aktiviert, sodass Kunden eindeutig identifizieren können, zu welchem Arbeitsbereich die einzelnen Angebote gehören. (TGT-52320)
@@ -992,7 +992,7 @@ Siehe [Adobe Target Insights-Dashboard](/help/main/c-activities/insights-dashboa
 
 +++Details anzeigen
 
-* **Die Aktivitätsbearbeitung sollte keine automatisch erkannte Eigenschaft hinzufügen, wenn sie bereits entfernt wurde.** Diese Fehlerbehebung behebt ein Problem, bei dem durch die Bearbeitung einer Aktivität automatisch eine zuvor entfernte automatisch erkannte Eigenschaft wieder eingeführt wird. Beim erneuten Öffnen einer Aktivität zur Bearbeitung hat das System die entfernte Eigenschaft fälschlicherweise wiederhergestellt, was zu inkonsistentem Verhalten und Verwirrung in der [!UICONTROL Eigenschaftenliste“ ]. Die Aktualisierung stellt sicher, dass eine automatisch erkannte Eigenschaft nach dem Entfernen bei allen nachfolgenden Bearbeitungen entfernt bleibt und nicht wieder angezeigt wird, es sei denn, die Benutzerin oder der Benutzer fügt sie explizit wieder hinzu. (TGT-54182)
+* **Die Aktivitätsbearbeitung sollte keine automatisch erkannte Eigenschaft hinzufügen, wenn sie bereits entfernt wurde.** Diese Fehlerbehebung behebt ein Problem, bei dem durch die Bearbeitung einer Aktivität automatisch eine zuvor entfernte automatisch erkannte Eigenschaft wieder eingeführt wird. Beim erneuten Öffnen einer Aktivität zur Bearbeitung hat das System die entfernte Eigenschaft fälschlicherweise wiederhergestellt, was zu inkonsistentem Verhalten und Verwirrung in der [!UICONTROL Eigenschaftenliste“ &#x200B;]. Die Aktualisierung stellt sicher, dass eine automatisch erkannte Eigenschaft nach dem Entfernen bei allen nachfolgenden Bearbeitungen entfernt bleibt und nicht wieder angezeigt wird, es sei denn, die Benutzerin oder der Benutzer fügt sie explizit wieder hinzu. (TGT-54182)
 * **Fügen Sie keine automatisch erkannten Eigenschaften hinzu, wenn sie bereits entfernt wurden.** Diese Fehlerbehebung stellt sicher, dass eine Benutzerin oder ein Benutzer, die bzw. der manuell eine automatisch erkannte Eigenschaft aus einer Aktivität entfernt hat, diese bei der nachfolgenden Navigation im Aktivitätseditor nicht mehr wieder einführt. Wenn ein(e) Benutzende(r) zuvor die Auswahl einer automatisch erkannten Eigenschaft aufgehoben, zum Schritt [!UICONTROL Targeting] verschoben und dann zu [!UICONTROL Erlebnisse] zurückgekehrt hat, füllt der Editor die entfernte Eigenschaft erneut auf der Grundlage der automatisch erkannten Liste, die im Statusbereich des Aktivitätseditors gespeichert ist. Die aktualisierte Logik vergleicht jetzt die automatisch erkannten Eigenschaften mit den aktuellen Eigenschaften im Bereich ~ActivityState~ und verhindert, dass automatisch erkannte Eigenschaften, die der Benutzer bereits entfernt hat, erneut hinzugefügt werden. Dies führt zu einem konsistenten Verhalten über alle Schritte hinweg und respektiert die Benutzerabsicht. (TGT-54181)
 * **Fügen Sie automatisch erkannten Text zur Eigenschaftenliste hinzu.** Diese Verbesserung aktualisiert die [!UICONTROL Eigenschaftenliste], um alle Eigenschaften, die automatisch vom System erkannt wurden, deutlich zu kennzeichnen. Wenn eine automatisch erkannte Eigenschaft auch in der für den Benutzer sichtbaren [!UICONTROL Eigenschaftenliste] vorhanden ist, wird jetzt neben ihrem Namen der Text „(Automatisch erkannt)“ angezeigt, wobei der im Status ~ActivityEditorSlice~ gespeicherte Wert verwendet wird. Dies spiegelt das Verhalten der alten Benutzeroberfläche wider und hilft Benutzenden, einfach zwischen manuell ausgewählten Eigenschaften und den automatisch identifizierten Eigenschaften zu unterscheiden. (TGT-54120)
 * **Fügen Sie automatisch erkannte [!UICONTROL Eigenschaften] in den Status hinzu.** Diese Aktualisierung stellt sicher, dass ~ Status „ActivityEditorSlice.ExperienceEditor~&quot; durchgängig eine aktuelle Liste aller automatisch erkannten Eigenschafts-IDs verwaltet, die vom Web-Editor in die Registerkarte „Aktivität“ [!UICONTROL Erlebnisse] übergeben werden. Jedes Mal, wenn der/die Benutzende zur Registerkarte [!UICONTROL Erlebnisse] navigiert, wird der Status mit allen neu erkannten Eigenschaften aktualisiert, wobei Duplikate vermieden werden, sodass ein genaues Tracking und ein zuverlässiges nachgelagertes Verhalten gewährleistet sind. (TGT-54119)
