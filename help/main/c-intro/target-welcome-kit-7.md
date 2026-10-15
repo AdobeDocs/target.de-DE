@@ -110,7 +110,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Web-Entw
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL  Link ]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL &#x200B; Link &#x200B;]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
