@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # [!DNL Target] Versionshinweise (aktuell)
@@ -71,7 +71,7 @@ Informieren Sie sich über die neuesten Funktionen, Verbesserungen und Fehlerbeh
 +++Details anzeigen
 
 * **Safari-Unterstützung zu[!DNL Adobe Target]** hinzugefügt. [!DNL Target] wird jetzt im [!DNL Safari]-Browser unterstützt. Beachten Sie, dass Visual Experience Composer und [!DNL Enhanced Experience Composer] in [!DNL Safari] nicht unterstützt werden. Daher wird jetzt im [!DNL VEC] eine Überlagerung angezeigt, die Benutzer darüber informiert, dass sie zur Verwendung des Editors zu [!DNL Chrome] wechseln müssen. (TGT-55853)
-
+  [Weitere Informationen](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
