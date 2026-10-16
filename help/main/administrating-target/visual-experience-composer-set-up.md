@@ -44,7 +44,7 @@ ht-degree: 47%
 
 Konfigurieren Sie den [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration mobiler Viewports und CSS-Selektoren angeben.
 
-Um auf die Konfigurationsseite [!UICONTROL Visual Experience ]) zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
+Um auf die Konfigurationsseite [!UICONTROL Visual Experience &#x200B;]) zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 {{permissions-update}}
 
@@ -54,7 +54,7 @@ Um auf die Konfigurationsseite [!UICONTROL Visual Experience ]) zuzugreifen, kli
 
 ## Allgemeine Einstellungen
 
-Sie können allgemeine Einstellungen für den [!UICONTROL Visual Experience Composer“ ].
+Sie können allgemeine Einstellungen für den [!UICONTROL Visual Experience Composer“ &#x200B;].
 
 ![Abschnitt „Allgemeine Einstellungen“](/help/main/administrating-target/assets/general-settings.png)
 
@@ -66,7 +66,7 @@ Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird
 
 ### Erweiterten Experience Composer aktivieren {#eec}
 
-Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ ]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
+Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ &#x200B;]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
 
 Beachten Sie, dass [!UICONTROL Enhanced Experience Composer] in [!DNL Safari] nicht unterstützt wird.
 
