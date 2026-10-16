@@ -1,6 +1,6 @@
 ---
 keywords: Visual Experience Composer;VEC;Standard-URL;Enhanced Experience Composer;EEC;gemischte Inhalte;Erlebnis-Snapshots;mobiler Viewport;CSS;CSS-Selektoren
-description: Erfahren Sie, wie Sie den Adobe [!DNL Target] Visual Experience Composer (VEC) konfigurieren, indem Sie seine allgemeinen Einstellungen, die Konfiguration mobiler Viewports und CSS-Selektoren angeben.
+description: Erfahren Sie, wie Sie den Adobe [!DNL Target] Visual Experience Composer (VEC) konfigurieren, indem Sie dessen allgemeine Einstellungen, die Konfiguration mobiler Viewports und CSS-Selektoren angeben.
 title: Wie konfiguriere ich Visual Experience Composer (VEC)?
 feature: Administration & Configuration
 role: Admin
@@ -8,28 +8,38 @@ exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 TQID: https://experienceleague.adobe.com/E1ck4-aG4txqaFLs3t3-8bN-BQIoY8stRASTRJfhZMY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '733'
 ht-degree: 47%
-
 ---
-
 # Konfigurieren von [!UICONTROL Visual Experience Composer]
 
 Konfigurieren Sie den [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), indem Sie dessen allgemeine Einstellungen, die Konfiguration mobiler Viewports und CSS-Selektoren angeben.
@@ -57,6 +67,8 @@ Die Standard-URL, die von [!UICONTROL Visual Experience Composer] verwendet wird
 ### Erweiterten Experience Composer aktivieren {#eec}
 
 Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ &#x200B;]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
+
+Beachten Sie, dass [!UICONTROL Enhanced Experience Composer] in [!DNL Safari] nicht unterstützt wird.
 
 Weitere Informationen finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 

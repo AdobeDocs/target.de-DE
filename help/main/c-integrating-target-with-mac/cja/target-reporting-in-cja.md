@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 22%
+source-wordcount: '1877'
+ht-degree: 21%
 ---
 # [!DNL Target] in [!DNL Adobe Customer Journey Analytics]
 
@@ -120,6 +120,8 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analyti
 
 1. Wählen Sie für A/B-Aktivitäten mit manueller Traffic[!UICONTROL Aufteilung oder automatisierter &#x200B;] eine **[!UICONTROL Datenansicht]**. Eine Datenansicht funktioniert wie eine [!DNL Analytics] Report Suite für [!DNL Customer Journey Analytics] Reporting. Es werden nur Datenansichten in der ausgewählten Sandbox angezeigt, auf die Sie Zugriff haben.
 
+   Die Datenansicht ist für Aktivitäten [!UICONTROL Automatische Zuordnung] erforderlich. Sie ist optional für A/B-Aktivitäten mit manueller Traffic-Aufteilung.
+
    ➡️ [Weitere Informationen zur Datenansicht finden Sie in der Dokumentation zu Adobe Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. Geben Sie die Zielmetrik an. Wählen Sie eine der folgenden Optionen:
@@ -127,6 +129,8 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analyti
    * **[!UICONTROL Konversion]**: Wählen Sie die Aktion aus, die Ihre Zielgruppe ausführen muss, um anzugeben, dass das Ziel erreicht wurde. [Erfahren Sie mehr über Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    * **[!UICONTROL Customer Journey Analytics-Metrik verwenden]**: Nur für A/B-Aktivitäten mit manueller Traffic-Aufteilung oder [!UICONTROL Automatische Zuordnung] verfügbar. Wählen Sie eine [!DNL Customer Journey Analytics] oder berechnete Metrik aus der ausgewählten Datenansicht. Diese Metrik dient als Optimierungskriterium. Das Modell wird mit [!DNL Customer Journey Analytics] Daten ausgeführt und aktualisiert Leistungsdaten mit der gleichen Kadenz, die für das [!DNL Customer Journey Analytics]-Reporting verwendet wird.
+
+     Die Metrik ist für Aktivitäten [!UICONTROL Automatische Zuordnung] erforderlich. Sie ist optional für A/B-Aktivitäten mit manueller Traffic-Aufteilung. Wenn Sie eine Metrik auswählen, müssen Sie auch eine Datenansicht auswählen.
 
    ![Verwenden Sie eine Customer Journey Analytics-Metrikoption unter Zielmetrik](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 

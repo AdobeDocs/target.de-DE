@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # [!UICONTROL Bericht &quot;] Segmente“
 
@@ -139,6 +139,11 @@ Weitere Informationen zum Personalisierungsalgorithmus für zufällige Gesamtstr
 **Was bestimmt die Reihenfolge der automatisierten Segmente?**
 
 Über eine Bewertung für jedes Segment, die auf seiner Größe und seiner Performance bezüglich des Inhalts in Ihrer Aktivität basiert. Die Kombination dieser Eingaben bestimmt die Reihenfolge der automatisierten Segmente. So werden beispielsweise größere Segmente, die bei der Interaktion mit den verschiedenen Inhalten größere Unterschiede aufweisen, weiter oben in der Segmentliste angezeigt.
+
+**Warum weisen alle Karten in einem Multi-Card-AP-Erlebnis dieselbe Konversionsrate auf, wenn „Any Card Clicked“ verwendet wird?**
+
+In [!UICONTROL Automated Personalization] werden Optimierung und Reporting auf Erlebnisebene bewertet, nicht auf der Ebene einzelner Karten oder Komponenten. Die Erfolgsmetrik [!UICONTROL Auf eine Karte geklickt] zeichnet eine Konversion auf, wenn ein Besucher in einem Erlebnis auf mindestens eine Karte klickt.
+Da der Klick dem Erlebnis als Ganzem zugeordnet wird, können alle Karten in diesem Erlebnis in Berichten dieselben Konversionszahlen und Konversionsraten anzeigen, einschließlich [!UICONTROL automatisierter Segmente]. Dieses Verhalten wird erwartet und spiegelt wider, wie [!UICONTROL Automated Personalization] Inhaltskombinationen anstelle von Einzelkarten optimiert.
 
 **Warum werden nur manche meiner Angebote/Erlebnisse im Bericht „Automatisierte Segmente“ angezeigt?**
 

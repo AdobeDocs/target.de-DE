@@ -1,5 +1,5 @@
 ---
-keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
+keywords: Erstellen benutzerdefinierter Kriterien;Algorithmen;Kriterien;Recommendations-Kriterien;CSV;FTP;SFTP;CSV hochladen
 description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations eine CSV-Datei hochladen, um Ihre Recommendations anzupassen.
 title: Wie lade ich benutzerdefinierte Kriterien in [!DNL Recommendations] hoch?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # Hochladen benutzerdefinierter Kriterien
 
@@ -57,9 +57,13 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
    Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen]**, um eine Vorlage mit richtiger Formatierung zu erhalten.
 
-   Es gibt für Orte zwei Optionen:
+   Sie haben drei Standortoptionen:
 
    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
+
+   * **SFTP:** Um Ihre CSV-Datei von einem SFTP-Server hochzuladen, wählen Sie **[!UICONTROL SFTP]** aus und geben Sie dann den Host-Namen oder die IP-Adresse, den Port (standardmäßig 22), den Benutzernamen, ein Kennwort und/oder den privaten SSH-Schlüssel, das Verzeichnis und den Dateinamen ein. Weitere Informationen finden Sie unter [Unterstützte SFTP-Server-Einstellungen](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+
+     Das CSV-Format für benutzerdefinierte Kriterien wird durch SFTP nicht geändert. Wenn Sie das `# Key,Recommendation_1,...` verwenden und das Format eines anderen Feed-Typs verwenden, schlägt der Import fehl.
 
    * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
 
