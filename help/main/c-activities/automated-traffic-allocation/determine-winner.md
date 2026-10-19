@@ -1,6 +1,6 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie die Ergebnisse [!UICONTROL &#x200B; A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
+description: Erfahren Sie, wie die Ergebnisse [!UICONTROL  A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
 title: Wie interpretiere ich [!UICONTROL automatische Zuordnung] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # Interpretieren [!UICONTROL automatischen Zuordnungs]Berichten
 
@@ -41,6 +41,8 @@ Bei Verwendung der Funktion [!UICONTROL Automatische Zuordnung] zeigt [!DNL Targ
 Wenn ein eindeutiger Gewinner bekannt gegeben wird, zeigt [!DNL Target] das Abzeichen „Gewinner: Erlebnis *X*&quot; an.
 
 ![Gewinner-Abzeichen](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+Das Siegerabzeichen wird auch im Informations-Popup einer Aktivität in der Liste [!UICONTROL Aktivitäten] angezeigt, sodass Sie den Status einer [!UICONTROL automatischen Zuordnung]-Aktivität sehen können, ohne sie zu öffnen.
 
 >[!NOTE]
 >
@@ -68,9 +70,9 @@ Der numerische Wert „Anstieg“ und die 95-%-Grenzen für jedes Erlebnis werde
 
 Die angezeigten [!UICONTROL Konfidenzintervall]-Balken stellen das 95-%-Konfidenzintervall um die mittlere Schätzung der Konversionsrate eines Erlebnisses dar. Diese Balken sind auch im Hinblick auf das definierte „Kontrollerlebnis“ farbcodiert. Die Leiste des Erlebnisses „Kontrolle“ ist immer grau gefärbt. Die Teile der Konfidenzintervalle unterhalb des Konfidenzintervalls des Kontrollerlebnisses sind rot und die Teile der Konfidenzintervalle oberhalb des Kontrollerlebnisses grün gefärbt.
 
-Ein Gewinner wird gefunden, wenn das 95%ige [!UICONTROL Konfidenzintervall“ des führenden Erlebnisses &#x200B;] andere Erlebnisse überschneidet. Das erfolgreichste Erlebnis wird mit einem grünen Sternabzeichen links neben dem Erlebnisnamen und im Banner „Gewinner“ gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner „Noch kein Gewinner“ und es wurde noch kein Gewinner gefunden.
+Ein Gewinner wird gefunden, wenn das 95%ige [!UICONTROL Konfidenzintervall“ des führenden Erlebnisses ] andere Erlebnisse überschneidet. Das erfolgreichste Erlebnis wird mit einem grünen Sternabzeichen links neben dem Erlebnisnamen und im Banner „Gewinner“ gekennzeichnet. Wenn kein Stern sichtbar ist, lautet das Banner „Noch kein Gewinner“ und es wurde noch kein Gewinner gefunden.
 
-Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL &#x200B; des führenden Erlebnisses &#x200B;] mindestens 60 % erreicht. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem anderen Erlebnis. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
+Neben dem derzeit führenden oder erfolgreichsten Erlebnis wird auch eine Zahl für „Konfidenz“ angezeigt. Diese Zahl wird nur gemeldet, bis die „Konfidenz[!UICONTROL  des führenden Erlebnisses ] mindestens 60 % erreicht. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem anderen Erlebnis. Wenn in der Aktivität [!UICONTROL Automatische Zuordnung] mehr als zwei Erlebnisse vorhanden sind, stellt diese Zahl das Konfidenzniveau dar, bei dem die Leistung des Erlebnisses besser ist als bei dem definierten Kontrollerlebnis. Wenn das Kontrollerlebnis gewinnt, wird keine „Konfidenzzahl“ gemeldet.
 
 ## Häufig gestellte Fragen {#section_C8E068512A93458D8C006760B1C0B6A2}
 
@@ -92,6 +94,6 @@ Die folgenden Gründe erläutern, warum für sämtliche Aktivitäten in der Spal
 
 ### Sind die Abzeichen „Kein Gewinner“, „Gewinner“ und „Stern“ verfügbar für Aktivitäten [!UICONTROL Automatische Zuordnung], die [!UICONTROL Analytics als Berichtsquelle] (A4T) verwenden?
 
-Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ sind derzeit nicht im Bedienfeld [!UICONTROL A4T] in [!DNL Analysis Workspace] verfügbar. Diese Abzeichen sind auch dann nicht verfügbar, wenn derselbe Bericht in [!DNL Target] angezeigt wird. Ein Gewinner-Abzeichen „Stern“, das in einem [!DNL Target] Bericht für eine Aktivität [!UICONTROL Automatische Zuordnung] mit A4T angezeigt wird, sollte ignoriert werden.
+Die Abzeichen „Noch kein Gewinner“ und „Gewinner“ werden im Popup-Fenster mit Aktivitätsinformationen in der Liste [!UICONTROL Aktivitäten] angezeigt. Sie werden nicht im Bedienfeld [!UICONTROL A4T] in [!DNL Analysis Workspace] oder beim Anzeigen desselben Berichts in [!DNL Target] angezeigt. Wenn ein [!DNL Target] für eine Aktivität vom Typ A4T [!UICONTROL Automatische Zuordnung] ein Gewinner-Abzeichen „Stern“ anzeigt, ignorieren Sie dies.
 
 Weitere Informationen zu dieser und anderen Einschränkungen finden Sie unter [Automatische Zuordnung](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *A4T-Unterstützung für [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]-Aktivitäten*.
