@@ -250,7 +250,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
 * **Verwenden von rel=„canonical“**: Gelegentlich sind für einen A/B-Test unterschiedliche URLs für Varianten erforderlich. In diesen Fällen sollten alle Varianzen das Tag rel=„canonical“ enthalten, das auf die ursprüngliche (Kontroll-)URL verweist. Wenn [!DNL Adobe] beispielsweise die Startseite mit verschiedenen URLs für jede Variante testet, sollte das folgende kanonische Tag für die Startseite im `<head>`-Tag jeder Variante platziert werden:
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/de" />`
 
 * **Verwendung von 302-Umleitungen (temporär**: Wenn für Varianz-Seiten eines Tests separate URLs verwendet werden, empfiehlt [!DNL Google] die Verwendung einer 302-Umleitung, um Traffic an die Testvarianzen umzuleiten. Die 302-Umleitung informiert Suchmaschinen darüber, dass die Umleitung temporär und nur während des Tests aktiv ist.
 
