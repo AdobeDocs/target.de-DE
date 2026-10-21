@@ -69,7 +69,7 @@ Den Pool von Inhaltsvarianten definieren, mit denen [!UICONTROL Automated Person
 
    Wenn Ihr Konto [mit einer Standard-URL konfiguriert wurde](/help/main/administrating-target/visual-experience-composer-set-up.md), dann wird diese URL standardmäßig angezeigt. Sie können bei Bedarf von der Standardeinstellung zu einer anderen URL wechseln.
 
-   [!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://wwww.adobe.com`] überein.
+   [!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com/de`] und [!DNL `https://wwww.adobe.com`] überein.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
 

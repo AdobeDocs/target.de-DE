@@ -416,7 +416,7 @@ Um auf die Optionen [!UICONTROL Seitenbereitstellung] im dreiteiligen Workflow f
 
 ![Dialogfeld „Seitenbereitstellung“](/help/main/c-experiences/assets/page-delivery.png)
 
-Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/de/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
+Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com/de` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/de/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
 
 Da SPAs jedoch anders funktionieren, müssen [!UICONTROL &#x200B; Einstellungen für die &#x200B;]Seitenbereitstellung“ so konfiguriert werden, dass alle Aktionen auf die Ansichten angewendet werden können, wie sie in der SPA VEC-Aktivität definiert sind.
 

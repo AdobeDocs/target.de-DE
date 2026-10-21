@@ -134,7 +134,7 @@ Das Adobe Experience Cloud-Kundendienst-Team hilft Ihnen gerne und kann auf ve
 
 Wenn Sie vorzeitige Benachrichtigungen zu anstehenden Produktverbesserungen erhalten möchten, melden Sie sich für das Adobe Priority Product Update an:
 
-[Adobe Priority-Produktaktualisierung](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe Priority-Produktaktualisierung](https://www.adobe.com/de/subscription/priority-product-update.html)
 
 ### Service, Leistungsumfang und Abrechnung {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -149,7 +149,7 @@ Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unsere
 * © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Nutzungsbedingungen](https://www.adobe.com/legal/terms.html)
+[Nutzungsbedingungen](https://www.adobe.com/de/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Ein Markensymbol (®, ™ usw.) kennzeichnet eine Adobe-Marke.
 
