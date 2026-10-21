@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 20%
+source-wordcount: '1443'
+ht-degree: 21%
 ---
 # [!UICONTROL Erfolgsmetriken]
 
@@ -52,14 +52,14 @@ Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die er
 
 >[!NOTE]
 >
->Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
+>Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
 
 Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting-Einstellungen] auf der Seite [!UICONTROL Aktivitätseinstellungen] unter dem Schritt [!UICONTROL Ziele und Einstellungen] konfiguriert werden:
 
 | Erfolgsmetrik | Messungsansatz | Definition |
 |--- |--- |--- |
 | [!UICONTROL Konversion] | Konversionsbasiert | Eine Konversion liegt vor, wenn ein Besucher eine von Ihnen definierte Aktion auf Ihrer Site ausführt, z. B. <ul><li>Seite angezeigt</li><li>Mbox angezeigt</li><li>Klicks auf ein Element</li></ul>Eine Konversion kann einmal pro Besucher oder jedes Mal gezählt werden, wenn ein Besucher eine Konversion abschließt. |
-| [!UICONTROL Umsatz] | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können nur eine Umsatzmetrik auswählen:<ul><li>Mbox angezeigt</li></ul>Weitere Informationen zu den Änderungen an der aktualisierten [!DNL Target]-Benutzeroberfläche in Bezug auf die Erfolgsmetriken Umsatz finden Sie [Aktualisiert [!DNL Target] UI-Änderungen](#changes) unten. |
+| [!UICONTROL Umsatz] | Konversionsbasiert | Durch den Besuch generierter Umsatz. Sie können nur eine Umsatzmetrik auswählen:<ul><li>Mbox angezeigt</li></ul>Die Umsatzansicht (RPV, AOV, Gesamtumsatz oder Bestellungen) wird im Abschnitt [!UICONTROL Berichte] anstelle der Aktivitätseinrichtung ausgewählt. Siehe [Wechseln zwischen Ansichten für Umsatzberichte](#revenue-views). |
 | [!UICONTROL Interaktion] | Interaktionsbasiert | Interaktion, die durch den Besuch generiert wurde. Sie können aus den folgenden Interaktionsmetriken auswählen:<UL><li>Seitenansichten: Jeder einzelne Besuch wird als Konversion gezählt.</li><li>[!UICONTROL Benutzerdefinierte Bewertung] Aggregierte Punktzahl basierend auf dem Wert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Aktivität sieht.</li>[!DNL Time on Site]: Besuchszeit (in Sekunden) ab dem Punkt, an dem der Besucher die erste Anzeige der Aktivität [!DNL Target] die Anforderung zum Laden der endgültigen Seite mit einer Anforderung in der Sitzung sieht.</UL> |
 
 Bei interaktionsbasierten Metriken (im Gegensatz zu konversionsbasierten und umsatzbasierten Metriken) müssen sich Besucher bei jedem Besuch erneut für die Aktivität qualifizieren, um die Anzahl für diese Sitzung zu erhöhen. Die zugehörige Metrik steigt nach erneuter Qualifikation und endet mit dem Ende der jeweiligen Besuchersitzung. Sitzungen enden nach einer Inaktivität von 30 Minuten. Daher werden die Ergebnisse beim Testen nicht sofort angezeigt. Alle Ergebnisse dieser Sitzung sind jedoch innerhalb weniger Minuten nach dem Ende der Sitzung verfügbar.
@@ -76,6 +76,25 @@ Die Erfolgsmetriken, die Sie für Ihre Aktivität auswählen, sind in den Berich
 
 Einige Metriken, wie [!UICONTROL Benutzerdefinierte Bewertung] und [!UICONTROL Umsatz pro Besucher] erfordern eine benutzerdefinierte Implementierung, die Informationen wie Bestellsummen und Auftrags-IDs weitergibt.
 
+### Wechseln zwischen Ansichten für Umsatzberichte {#revenue-views}
+
+Umsatzberichte werden standardmäßig in der Ansicht [!UICONTROL Umsatz pro Besuch (RPV] geöffnet, sodass während der Einrichtung der Aktivität keine Auswahl erforderlich ist. Sie können jederzeit zu einer anderen Ansicht wechseln, während Sie die Ergebnisse überprüfen.
+
+So wechseln Sie zwischen Ansichten für Umsatzberichte:
+
+1. Öffnen Sie **[!UICONTROL Aktivität]** und navigieren Sie zum Abschnitt **[!UICONTROL Berichte]** .
+
+1. Klicken Sie auf ![](assets/Smock_Gears_18_N.png) und wählen Sie die gewünschte Metrikansicht aus:
+
+   * **[!UICONTROL Umsatz pro Besucher (RPV)]**
+   * **[!UICONTROL Durchschnittlicher Bestellwert (AOV)]**
+   * **[!UICONTROL Gesamtverkäufe]**
+   * **[!UICONTROL Bestellrate]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL Umsatz pro Besuch (RPV)] bleibt die angezeigte Ansicht, es sei denn, es wird eine andere Option ausgewählt. Diese Auswahl betrifft nur die im Bericht angezeigte Metrik und hat keinen Einfluss auf die Versandmetriken.
+
 ## Erweiterte Einstellungen {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Mit den erweiterten Einstellungen können Sie verwalten, wie Sie Erfolg messen. Zu den Optionen gehören das Hinzufügen von Abhängigkeiten, die Auswahl, ob der Benutzer in der Aktivität bleiben oder entfernt werden soll, und die Auswahl, ob die Metrik einmal pro Eintritt oder bei jeder Impression gezählt werden soll.
@@ -84,7 +103,7 @@ Um auf die Optionen [!UICONTROL Erweiterte Einstellungen] zuzugreifen, klicken S
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel &#x200B;]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
+Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel ]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
 
 >[!NOTE]
 >
@@ -135,15 +154,3 @@ Wählen Sie das gewünschte Verhalten aus:
 * Erfolgsmetriken, für die die Einstellung der erweiterten Option „Wie wird die Zählung erhöht“ auf „Jede Impression“ oder „Jede Impression (ohne Aktualisierungen)“ gesetzt ist, können nicht als Erfolgsmetrik mit einer abhängigen Metrik verwendet werden.
 
   Wenn eine Erfolgsmetrik so eingestellt ist, dass sie bei jeder Impression erhöht wird, zählt [!DNL Target] den Besucher jedes Mal neu, wenn er diese Erfolgsmetrik besucht. [!DNL Target] setzt dann die Erfolgsmetrik „Mitgliedschaft“ auf 0 zurück, damit sie wieder auf die nächste Impression zählen kann. Wenn also eine andere Metrik verlangt, dass diese Metrik zuerst gesehen werden muss, erkennt [!DNL Target] nie, dass der Benutzer die erste Metrik gesehen hat.
-
-## [!DNL Target] Änderungen an der Benutzeroberfläche aktualisiert {#changes}
-
-Mit der [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) die am 17. Februar 2015 veröffentlicht wurde, wurden aktualisierte [!DNL Target] und [!UICONTROL Visual Experience Composer]-Benutzeroberflächen (VEC) eingeführt. In diesem Abschnitt werden die wichtigsten Unterschiede zwischen der veralteten und der aktualisierten Benutzeroberfläche beschrieben, insbesondere im Hinblick auf die Konfiguration und Verwaltung von Erfolgsmetriken.
-
-### Änderungen an der Benutzeroberfläche im Zusammenhang mit [!UICONTROL Umsatz] Erfolgsmetriken
-
-In der aktualisierten [!DNL Target] wurde die Dropdown[!UICONTROL Standardansicht für &#x200B;] entfernt. Dieses Feld war redundant, da es zuvor die standardmäßige Berichtsansicht unter [!DNL Overview] > [!UICONTROL Berichte“ in &#x200B;] alten Benutzeroberfläche gespeichert hat.
-
-Mit der aktualisierten Benutzeroberfläche ist die standardmäßige Berichtsmetrik jetzt immer auf [!UICONTROL Umsatz pro Besucher (RPV) festgelegt]. Sie können die Ansicht im Abschnitt [!UICONTROL Berichte] weiterhin anpassen, um die Metriken anzuzeigen, die für Ihre Analyse am relevantesten sind.
-
-Diese Änderung wirkt sich nicht auf die Versandmetriken aus. Diese Änderung wirkt sich nur auf den in der Berichtsansicht angezeigten Standardfilter aus. Da RPV die am häufigsten verwendete Metrik unter Kunden ist, wurde dieser Standard ausgewählt, um Reporting-Workflows zu optimieren. Sie können innerhalb des Abschnitts [!UICONTROL &#x200B; jederzeit zu anderen &#x200B;] wechseln.
