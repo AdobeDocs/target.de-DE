@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 25%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Funktionsweise von [!DNL Adobe Target]
 
@@ -236,13 +236,7 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besucher
 
 [!DNL Adobe Target] ist an den Suchoptimierungsrichtlinien für Prüfungen ausgerichtet.
 
-Weitere Informationen finden Sie unter folgenden Google-Ressourcen:
-
-* [Website-Tests und Google-Suche](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Experimente und Cloaking](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) veröffentlicht. Obwohl dieser Beitrag aus dem Jahr 2012 stammt, ist er [!DNL Google] aktuellste Stellungnahme zu diesem Thema und die Leitlinien sind nach wie vor gültig.
+Weitere Informationen finden Sie in der Dokumentation zu [Google](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Kein Cloaking**: Beim Cloaking (Maskierung) wird dem Benutzer eine Variante des Inhalts angezeigt, Suchmaschinenbots jedoch eine völlig andere Variante. Hierzu werden Bots identifiziert und mit unterschiedlichen Inhalten versorgt.
 
@@ -266,13 +260,7 @@ Die Richtlinien wurden in einem Beitrag auf dem [Google Webmaster Central Blog](
 
   Betrachten Sie auch die Barrierefreiheit der Seite, die Sie testen. Wenn die Seite für Suchmaschinen nicht zugänglich ist und nie für eine organische Suche vorgesehen war, gelten diese Überlegungen nicht. Ein Beispiel wäre eine dedizierte Landingpage für eine E-Mail-Kampagne.
 
-Laut Google wirken sich Tests beim Befolgen der Richtlinien nicht oder nur geringfügig auf das Trefferranking Ihrer Site aus.
-
-Zusätzlich zu diesen Richtlinien stellt Google eine weitere Richtlinie in der Dokumentation für das Werkzeug für Inhaltstests bereit:
-
-* „Die Seitenvarianzen sollten dem Inhalt Ihrer Originalseiten ähnlich sein. Die Varianzen sollten die allgemeine Wahrnehmung der ursprünglichen Inhalte durch die Benutzer nicht ändern.“
-
-Als Beispiel gibt Google an: „Wenn eine Originalseite voller Keywords ist, die nicht den für die Benutzer verfügbaren Inhalten entsprechen, kann diese Site aus unserem Index entfernt werden.“
+Google gibt an, dass Varianten in einem Test oft nur geringe oder gar keine Auswirkungen auf das Suchergebnis-Snippet oder das Ranking einer Seite haben.
 
 [!UICONTROL Adobe] ist der Ansicht, dass eine unbeabsichtigte Änderung der Bedeutung des ursprünglichen Inhalts in Testvarianzen kaum möglich ist. [!UICONTROL Adobe] empfiehlt jedoch, sich der Keyword-Designs auf einer Seite bewusst zu sein und diese Designs zu pflegen. Änderungen am Seiteninhalt, besonders das Löschen oder Hinzufügen relevanter Keywords, kann dazu führen, dass sich das organische Ranking der Seite ändert. [!DNL Adobe] empfiehlt, den SEO-Partner in den Testvorgang einzubeziehen.
 
