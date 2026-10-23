@@ -53,7 +53,7 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
    | Anwendungs-ID | Eine eindeutige Kennung für Ihre Anwendung in Flags |
 
 1. Wählen Sie **Speichern** aus.
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
 ### Abrufen der Umgebungsdatei-ID {#environment-file-id}
 
@@ -101,7 +101,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [&#x200B; unter „Verwalten &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
+>Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle von dynamischen Versionen. Weitere Informationen finden [ unter „Verwalten ](https://docs.gradle.org/current/userguide/dependency_management.html) Gradle-Abhängigkeiten“.
 
 ### Hinzufügen der Flags-Abhängigkeit {#add-flags-dependency}
 
