@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Vorab-Ausblenden von Inhalten für personalisierte Erlebnisse
@@ -32,7 +32,7 @@ So funktioniert das Vorab-Ausblenden von Inhalten: vom Standardkonto über die I
 
 1. [!DNL Target] erstellt einen Regelsatz aus Live- [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]-Aktivitäten. Der Regelsatz listet Selektoren und Regionen auf, die sich im Versand ändern können.
 
-   Beachten Sie[!UICONTROL &#x200B; dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
+   Beachten Sie[!UICONTROL  dass Aktivitäten von „Form-Based Composer] nicht unterstützt werden.
 
 1. Die -Bibliothek ruft diesen Regelsatz aus dem Adobe-CDN ab und blendet übereinstimmende Elemente nur dann vorab aus, wenn der personalisierte Inhalt noch geladen wird.
 
@@ -56,7 +56,7 @@ Das Vorab-Ausblenden von Inhalten für Ihre Instanz ist deaktiviert, bis Sie sie
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Dadurch werden Flimmerverwaltungseinstellungen auf Ihre Instanz angewendet.
 
-1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/prehide-sdk).
+1. Klicken Sie nach der Aktivierung **[!UICONTROL Herunterladen]** und fügen Sie dann die Datei zur `<head>` hinzu, damit sie vor dem [!DNL at.js] oder der [!DNL Web SDK] geladen wird. Umfassende Implementierungsanweisungen finden Sie unter [SDK zum Vorab-Ausblenden von Inhalten](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ Ihre Instanz verwendet jetzt die Einstellungen für das Vorab-Ausblenden und das
 
 Wählen Sie bei für Ihre Instanz aktiviertem Vorab-Ausblenden aus, ob jede Aktivität sie in „Ziele **[!UICONTROL Einstellungen“]**. Aktivitäten, für die Sie die Vorab-Ausblendung aktivieren, werden live in das Zielverhalten einbezogen.
 
-[!DNL Target] erstellt dann einen schlanken Regelsatz aus Live-Aktivitäten, die in [!UICONTROL Visual Experience Composer] (VEC) und dem [!UICONTROL Form-Based Composer] verfasst wurden und die Selektoren und Bereiche beschreiben, die die Bereitstellung ändern kann.
+[!DNL Target] erstellt dann einen schlanken Regelsatz aus Live-Aktivitäten, die im [!UICONTROL Visual Experience Composer] (VEC) verfasst wurden und die Selektoren und Bereiche beschreibt, in denen sich die Bereitstellung ändern kann.
 
 Beim Erstellen oder Bearbeiten einer Aktivität:
 
