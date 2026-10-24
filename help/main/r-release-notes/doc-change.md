@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c358f8940302be125c1f7ddab4f695846c46580b
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2623'
 ht-degree: 29%
 ---
 # Dokumentationsänderungen
@@ -67,7 +67,6 @@ Auf dieser Seite sind wichtige Änderungen an der Produktdokumentation von [!DNL
 |  | [Erste Schritte mit dem  [!DNL Adobe Target] -MCP-Server](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | Neuer Artikel. Erfahren Sie, wie Sie den [!DNL Adobe Target] MCP-Server mit Ihrem KI-Assistenten verbinden, einschließlich Voraussetzungen, Client-Konfiguration und Fehlerbehebung. |
 |  | [[!DNL Adobe Target] MCP-Server - Anwendungsfälle und exemplarische Vorgehensweisen](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | Neuer Artikel. Erkunden Sie häufige Anwendungsfälle und schrittweise Anleitungen für den [!DNL Adobe Target] MCP-Server. |
 |  | [[!DNL Adobe Target] MCP Server Tools-Referenz](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Neuer Artikel. Vollständige Parameterreferenz für alle schreibgeschützten Tools, die vom [!DNL Adobe Target] MCP-Server bereitgestellt werden. |
-|  | [Self-Host des  [!DNL Adobe Target] -MCP-Servers](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | Neuer Artikel. Erfahren Sie, wie Sie Ihre eigene Instanz des [!DNL Adobe Target] MCP-Servers mit Python, Docker oder einer lokalen Entwicklungsumgebung ausführen. |
 | &#x200B;7. Mai | [[!DNL Target] Versionshinweise (aktuell)](/help/main/r-release-notes/release-notes.md) | Versionshinweise für die Version 26.5.1 von [!DNL Target Standard/Premium] hinzugefügt. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (18. Januar 2026)
