@@ -4847,7 +4847,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
   </tr> 
   <tr> 
    <td colname="col1"> <p>Neuer Ort für das Target-Forum </p> </td> 
-   <td colname="col2"> <p> Das Target-Forum befindet sich nun auf der neuen <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de" format="https" scope="external">Adobe Community-Plattform</a>. </p> </td> 
+   <td colname="col2"> <p> Das Target-Forum befindet sich nun auf der neuen <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de" format="https" scope="external">Adobe Community-Plattform</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
