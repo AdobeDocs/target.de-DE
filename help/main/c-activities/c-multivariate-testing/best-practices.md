@@ -1,7 +1,7 @@
 ---
 keywords: MVT; Multivarianz-Test; Best Practices für Multivarianz-Test; Best Practices für MVT; MVT-Kombinationen; MVT-Berichte
 description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test]-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
-title: Welche Best Practices gibt es für [!UICONTROL  Aktivität „Multivariater ]"?
+title: Welche Best Practices gibt es für [!UICONTROL &#x200B; Aktivität „Multivariater &#x200B;]"?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
@@ -55,7 +55,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 ## Analyse {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
-* Stützen [ im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die Filter [!UICONTROL Best 5] und [!UICONTROL Worst 5] verwenden.
+* Stützen [&#x200B; im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die Filter [!UICONTROL Best 5] und [!UICONTROL Worst 5] verwenden.
 
   Der [!UICONTROL Alle]-Filter erschwert das Extrahieren der gewünschten Informationen, sodass nicht alle Erlebnisse im Diagramm angezeigt werden können. Verwenden Sie den [!UICONTROL Alle]-Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 

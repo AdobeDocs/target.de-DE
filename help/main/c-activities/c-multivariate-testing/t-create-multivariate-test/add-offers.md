@@ -39,7 +39,7 @@ Testen Sie mehrere Bildangebote an einem Ort, um zu bestimmen, welches Bild am e
 
 1. Klicken Sie auf ein Bild auf Ihrer Seite und wählen Sie **[!UICONTROL Bildangebot ändern]**.
 
-1. Wählen [!UICONTROL  Dialogfeld „Bildangebot] alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Bildangebot] alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 Jedes Bild wird zu einem eigenen Erlebnis an diesem Ort.
 

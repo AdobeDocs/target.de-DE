@@ -79,7 +79,7 @@ Greifen Sie mithilfe der folgenden Schritte auf die Konsole zu, um auf die in de
 
 Wenn Sie mit der Verwendung der neuen [!UICONTROL Eigenschaften]-Funktion beginnen, muss die gesamte Benutzerverwaltung in der [!DNL Adobe Admin Console for Enterprise] erfolgen. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite > **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
+1. [Klicken Sie in der &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) auf die Registerkarte **[!UICONTROL Benutzer]** oben auf der Seite > **[!UICONTROL Benutzer hinzufügen]**, um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in Experience Cloud](https://helpx.adobe.com/de/enterprise/using/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Schritt 2: Erstellen eines Arbeitsbereichs (Produktprofils) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -116,7 +116,7 @@ Benutzer können mehreren Arbeitsbereichen angehören und in den verschiedenen A
 
 ### Ermitteln der Workspace-ID {#workspace-id}
 
-Sie müssen die Workspace-ID übergeben, um Enterprise-Berechtigungen in [Target-APIs“ ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank} nutzen.
+Sie müssen die Workspace-ID übergeben, um Enterprise-Berechtigungen in [Target-APIs“ &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank} nutzen.
 
 1. Klicken Sie in der [Adobe Admin Console](https://adminconsole.adobe.com) auf die Registerkarte [!UICONTROL Produkte] und klicken Sie dann im linken Menü auf das Produkt, um die Liste SPS (Workspace) anzuzeigen.
 1. Klicken Sie auf die gewünschte PLC (Workspace) und suchen Sie dann die ID für „profiles“ in der URL, wie unten dargestellt.
@@ -205,7 +205,7 @@ Um die Funktion für [!DNL Target] Benutzerberechtigungen zu verwenden, müssen 
 
 1. Klicken Sie auf **[!UICONTROL Benutzer]**.
 
-   Auf [!UICONTROL  Registerkarte ]Benutzer“ werden alle Benutzenden in diesem Arbeitsbereich angezeigt.
+   Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Benutzer“ werden alle Benutzenden in diesem Arbeitsbereich angezeigt.
 
    ![Konfigurationsbenutzer](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 

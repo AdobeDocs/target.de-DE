@@ -31,7 +31,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Ad
 
 Sie können Berichte für Ihre Aktivitäten sowohl in [!DNL Analytics] als auch in [!DNL Target] anzeigen.
 
-Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [ auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [&#x200B; auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -113,7 +113,7 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
    | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht „Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie [!UICONTROL Sofort senden].<br>[!UICONTROL  Hinweis: Die Datei kann über FTP unter „Erweiterte Versandoptionen]<br>![Versand planen](/help/main/c-reports/assets/datawarehouse3.png) zugestellt werden. |
+   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie [!UICONTROL Sofort senden].<br>[!UICONTROL &#x200B; Hinweis: Die Datei kann über FTP unter „Erweiterte Versandoptionen]<br>![Versand planen](/help/main/c-reports/assets/datawarehouse3.png) zugestellt werden. |
 
 1. Klicken Sie auf **[!UICONTROL Diesen Bericht anfordern]**.
 

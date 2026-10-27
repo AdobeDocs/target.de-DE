@@ -85,7 +85,7 @@ Random Forest ist ein führender Ansatz für maschinelles Lernen. In datenwissen
 
 ## Das Modell optimiert kontinuierlich eine einzelne Zielmetrik
 
-* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt, „Umsatz [!UICONTROL  Besucher]).
+* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt, „Umsatz [!UICONTROL &#x200B; Besucher]).
 
 ## [!DNL Target] erfasst automatisch Informationen über Besucher, um die Personalisierungsmodelle zu erstellen
 

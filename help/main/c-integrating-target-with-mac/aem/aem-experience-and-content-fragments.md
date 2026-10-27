@@ -61,7 +61,7 @@ Beachten Sie Folgendes bei der Arbeit mit AEM [!UICONTROL Experience Fragments] 
 * Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 * Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target] Aktivitäten aufnehmen, die den [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) verwenden.
 
-## Was ist der Unterschied zwischen [!UICONTROL Experience ]Inhaltsfragmenten[!UICONTROL  und ]?
+## Was ist der Unterschied zwischen [!UICONTROL Experience &#x200B;]Inhaltsfragmenten[!UICONTROL &#x200B; und &#x200B;]?
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] können auf der Oberfläche ähnlich aussehen, aber jeder Fragmenttyp spielt Schlüsselrollen in verschiedenen Anwendungsfällen.
 

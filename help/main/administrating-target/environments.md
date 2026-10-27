@@ -66,7 +66,7 @@ Wenn Sie [!UICONTROL Produktion] als Standard verwenden, werden hier automatisch
 
 So legen Sie die Standardumgebung für die Berichterstellung fest:
 
-1. Klicken Sie in [!UICONTROL  Liste ]Umgebungen“ auf das Sternsymbol
+1. Klicken Sie in [!UICONTROL &#x200B; Liste &#x200B;]Umgebungen“ auf das Sternsymbol
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Aussch
 
 {{premium-note}}
 
-Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für (Entwicklungs[!UICONTROL - und ][!UICONTROL Produktionsumgebungen] verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
+Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für (Entwicklungs[!UICONTROL - und &#x200B;]&#x200B;[!UICONTROL Produktionsumgebungen] verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
 
 >[!NOTE]
 >

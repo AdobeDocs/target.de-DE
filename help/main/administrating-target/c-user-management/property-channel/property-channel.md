@@ -65,7 +65,7 @@ Enterprise-Benutzerberechtigungen sind eine Möglichkeit, den unternehmensweiten
 >
 >Ihre [!DNL Target] kann jede Version von at.js oder [!DNL Adobe Experience Platform Web SDK] verwenden.
 
-Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt[!UICONTROL  indem Sie auf den Link ]Administration“ oben in der [!DNL Target]-Benutzeroberfläche klicken.
+Sie können feststellen, ob Ihr Unternehmen über eine Standard- oder Premium-Lizenz verfügt[!UICONTROL &#x200B; indem Sie auf den Link &#x200B;]Administration“ oben in der [!DNL Target]-Benutzeroberfläche klicken.
 
 * **[!DNL Target Standard]Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] sehen ([!UICONTROL Administration > Benutzer]) (und nicht die Registerkarte [!UICONTROL Eigenschaften]), verfügt Ihr Unternehmen über eine [!DNL Target Standard]. [!DNL Target Standard] Kunden sollten die Anweisungen in [Benutzer](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 
@@ -144,7 +144,7 @@ Wenn Sie eine Aktivität erstellen, wird diese im aktuell ausgewählten Arbeitsb
 
 In den folgenden Informationen wird erläutert, wie Berechtigungen zuvor in [!DNL Target] erzwungen wurden und wie sie mithilfe der Funktionen [!UICONTROL Eigenschaften] und [!UICONTROL Berechtigungen] erzwungen werden.
 
-Mit [!UICONTROL  neuen Funktion ]Berechtigungen“ können Sie verschiedene Projekte erstellen (in der [!DNL Adobe Admin Console for Enterprise] als „Produktprofile“ bezeichnet). In „Projekte“ können Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen, die dessen Zugriffsrechte für jedes Projekt festlegen. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dies hat zur Folge, dass Kundinnen und Kunden in der Lage sind, die Anzeige-, Bearbeitungs- und Genehmigungs-Zugriffsrechte für ihre Benutzenden auf der Grundlage von Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerdefinierten Kriterien einzuschränken, wie unten dargestellt:
+Mit [!UICONTROL &#x200B; neuen Funktion &#x200B;]Berechtigungen“ können Sie verschiedene Projekte erstellen (in der [!DNL Adobe Admin Console for Enterprise] als „Produktprofile“ bezeichnet). In „Projekte“ können Sie einem einzelnen Benutzer unterschiedliche Berechtigungen zuweisen, die dessen Zugriffsrechte für jedes Projekt festlegen. Diese voneinander unabhängigen Projekte funktionieren ähnlich wie Report Suites in [!DNL Adobe Analytics]. Jedes Projekt verfügt über bestimmte Benutzer mit bestimmten Rollen, die einer bestimmten Reihe Berechtigungen entsprechen. Dies hat zur Folge, dass Kundinnen und Kunden in der Lage sind, die Anzeige-, Bearbeitungs- und Genehmigungs-Zugriffsrechte für ihre Benutzenden auf der Grundlage von Region, Umgebung (dev/stage/prod), Kanal oder anderen benutzerdefinierten Kriterien einzuschränken, wie unten dargestellt:
 
 ![Bild für Berechtigungen](assets/permissions.png)
 
@@ -251,7 +251,7 @@ Beachten Sie bei der Verwendung oder Konfiguration von Eigenschaften und Berecht
   * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ erstellen, müssen Sie den Arbeitsbereich auswählen, in dem das Element erstellt werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
   * Wenn Sie eine Aktivität, eine Zielgruppe oder ein Angebot in der Ansicht „Alle meine Arbeitsbereiche“ kopieren, müssen Sie den Arbeitsbereich auswählen, in den das Element kopiert werden soll. Hierbei können Sie nur Arbeitsbereiche auswählen, für die Sie über Editor- oder Genehmiger-Berechtigungen verfügen.
 
-* Jede Einstellung auf den folgenden [!UICONTROL Administration]-Seiten kann von jedem ([!UICONTROL ) ] Arbeitsbereich gesteuert werden:
+* Jede Einstellung auf den folgenden [!UICONTROL Administration]-Seiten kann von jedem ([!UICONTROL ) &#x200B;] Arbeitsbereich gesteuert werden:
 
   * Visual Experience Composer
   * Berichterstellung

@@ -38,7 +38,7 @@ Entscheidend für Ihre erste Aktivität ist jedoch die Festlegung einer Baseline
 
 ## Route 1: A/B-Test zur Messung des gesamten Besucher-Traffics
 
-Sie können eine grundlegende [A/B-Testaktivität](/help/main/c-activities/t-test-ab/test-ab.md) einrichten, mit der Sie eine Varianz eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianzen vergleichen, um festzustellen, welche dieser Varianzen Ihre Besucher bevorzugen. Wenn Sie nur nach der erfolgreichsten Varianz suchen, können Sie im zweiten Schritt des A/B-Testsetups KI nutzen, um [ Ergebnisse zu beschleunigen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) indem Sie „Automatische Zuordnung“ auswählen.
+Sie können eine grundlegende [A/B-Testaktivität](/help/main/c-activities/t-test-ab/test-ab.md) einrichten, mit der Sie eine Varianz eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianzen vergleichen, um festzustellen, welche dieser Varianzen Ihre Besucher bevorzugen. Wenn Sie nur nach der erfolgreichsten Varianz suchen, können Sie im zweiten Schritt des A/B-Testsetups KI nutzen, um [&#x200B; Ergebnisse zu beschleunigen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) indem Sie „Automatische Zuordnung“ auswählen.
 
 Beispiel: Ein Medienunternehmen testet Varianzen seiner aktuellen Version eines Geschenk-Abo-Angebots auf der Homepage seiner Website bzw. mobilen Site, um festzustellen, welche Varianz mehr Besucher veranlasst, das Geschenk-Abo zu erwerben. Bei Auswahl der Option „Automatische Zuordnung“ verlagert die Aktivität während der Testausführung mehr Traffic auf die erfolgreichste Varianz. Andernfalls müssen Sie die erfolgreichste Varianz nach Abschluss des Tests manuell live schalten.
 
@@ -110,7 +110,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Web-Entw
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL  Link ]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL &#x200B; Link &#x200B;]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 
