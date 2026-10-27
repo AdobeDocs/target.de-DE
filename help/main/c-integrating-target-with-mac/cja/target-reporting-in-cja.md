@@ -98,7 +98,7 @@ Die folgenden Aktivitätstypen werden bei der Verwendung der [Adobe Experience P
 
 ## Erstellen einer Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet {#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source}
 
-Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target]-Aktivität. Dieser Workflow gilt für alle unterstützten Aktivitätstypen in der obigen Tabelle, einschließlich A/B[!UICONTROL Tests mit automatisierter ].
+Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analytics] als Berichtsquelle verwendet, ähnelt dem Einrichten einer regulären [!DNL Target]-Aktivität. Dieser Workflow gilt für alle unterstützten Aktivitätstypen in der obigen Tabelle, einschließlich A/B[!UICONTROL Tests mit automatisierter &#x200B;].
 
 >[!TIP]
 >
@@ -118,7 +118,7 @@ Das Erstellen einer [!DNL Target]-Aktivität, die [!DNL Customer Journey Analyti
 
    ![Option „Sandbox auswählen“](/help/main/c-integrating-target-with-mac/cja/assets/sandbox.png)
 
-1. Wählen Sie für A/B-Aktivitäten mit manueller Traffic[!UICONTROL Aufteilung oder automatisierter ] eine **[!UICONTROL Datenansicht]**. Eine Datenansicht funktioniert wie eine [!DNL Analytics] Report Suite für [!DNL Customer Journey Analytics] Reporting. Es werden nur Datenansichten in der ausgewählten Sandbox angezeigt, auf die Sie Zugriff haben.
+1. Wählen Sie für A/B-Aktivitäten mit manueller Traffic[!UICONTROL Aufteilung oder automatisierter &#x200B;] eine **[!UICONTROL Datenansicht]**. Eine Datenansicht funktioniert wie eine [!DNL Analytics] Report Suite für [!DNL Customer Journey Analytics] Reporting. Es werden nur Datenansichten in der ausgewählten Sandbox angezeigt, auf die Sie Zugriff haben.
 
    Die Datenansicht ist für Aktivitäten [!UICONTROL Automatische Zuordnung] erforderlich. Sie ist optional für A/B-Aktivitäten mit manueller Traffic-Aufteilung.
 
@@ -189,7 +189,7 @@ Richten Sie eine Datenansicht in [!DNL Customer Journey Analytics] ein, die auf 
 
 1. Um [!DNL Target] Dimensionen im Bedienfeld [!UICONTROL Experimentieren] zu verwenden, richten Sie die folgenden Kontextkennzeichnungen ein:
 
-   * Verwenden [!UICONTROL  für &quot;]&quot; „Experimentierexperiment“.
+   * Verwenden [!UICONTROL &#x200B; für &quot;]&quot; „Experimentierexperiment“.
    * [!UICONTROL Erlebnisname] verwenden Sie „Experimentationsvariante“.
 
    ![Kontextbeschriftungen im Bedienfeld „Experimentierung“](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
@@ -204,7 +204,7 @@ Diese Integration unterscheidet sich von [!UICONTROL Adobe Analytics for Target]
 
 * Die [!DNL Target]/[!DNL Customer Journey Analytics]-Integration umfasst keinen vordefinierten Bericht wie A4T. Aktivitätsberichte müssen in [!DNL Customer Journey Analytics] erstellt werden.
 
-* Wenn [!UICONTROL CJA-Metrik verwenden] als Zielmetrik der Aktivität ausgewählt ist, bietet diese Option Flexibilität bei der Bestimmung, wann bestimmte Erfolgsmetriken definiert werden müssen. Die Erfolgsmetrik wird beim Konfigurieren des Bedienfelds &quot;[!UICONTROL &quot; ]. Anstieg und Konfidenz werden anhand der ausgewählten CJA-Metrik berechnet.
+* Wenn [!UICONTROL CJA-Metrik verwenden] als Zielmetrik der Aktivität ausgewählt ist, bietet diese Option Flexibilität bei der Bestimmung, wann bestimmte Erfolgsmetriken definiert werden müssen. Die Erfolgsmetrik wird beim Konfigurieren des Bedienfelds &quot;[!UICONTROL &quot; &#x200B;]. Anstieg und Konfidenz werden anhand der ausgewählten CJA-Metrik berechnet.
 
 >[!ENDSHADEBOX]
 
@@ -228,4 +228,4 @@ Nachdem die Aktivität live ist und Sie die Einrichtung der Verbindung und der D
 
    ![Experimentieren](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
 
-Wenn im Bedienfeld [!UICONTROL Experimentieren] für die Spalten Erfolgsmetrik, [!UICONTROL Konversion], [!UICONTROL Anstieg] und [!UICONTROL Konfidenz] 0 angezeigt wird, tritt die Erfolgsmetrik möglicherweise nicht im selben Ereignis auf wie die [!DNL Target] Aktivität. Überprüfen Sie[ ob ](#set-up-data-views)Persistenz“ für Ihre [!DNL Target] Dimensionen aktiviert ist und ob es für Ihren Anwendungsfall geeignet ist. Weitere Informationen finden Sie unter [Persistenz](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
+Wenn im Bedienfeld [!UICONTROL Experimentieren] für die Spalten Erfolgsmetrik, [!UICONTROL Konversion], [!UICONTROL Anstieg] und [!UICONTROL Konfidenz] 0 angezeigt wird, tritt die Erfolgsmetrik möglicherweise nicht im selben Ereignis auf wie die [!DNL Target] Aktivität. Überprüfen Sie[&#x200B; ob &#x200B;](#set-up-data-views)Persistenz“ für Ihre [!DNL Target] Dimensionen aktiviert ist und ob es für Ihren Anwendungsfall geeignet ist. Weitere Informationen finden Sie unter [Persistenz](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
