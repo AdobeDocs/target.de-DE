@@ -1,7 +1,7 @@
 ---
 keywords: MVT; Multivarianz-Test; Best Practices für Multivarianz-Test; Best Practices für MVT; MVT-Kombinationen; MVT-Berichte
 description: Erfahren Sie, wie Sie die Leistung verbessern, Probleme vermeiden und bekannte Probleme korrigieren, die beim Erstellen und Ausführen von [!UICONTROL Multivarianz-Test]-Aktivitäten in [!DNL Adobe Target] auftreten könnten.
-title: Welche Best Practices gibt es für [!UICONTROL &#x200B; Aktivität „Multivariater &#x200B;]"?
+title: Welche Best Practices gibt es für [!UICONTROL  Aktivität „Multivariater ]"?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL Multivarianz-Test] Best Practices
 
@@ -34,7 +34,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 ## Erstellung {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* Vermeiden Sie die Einbeziehung von mehr Kombinationen als für den Test notwendig.
+* Schließen Sie nicht mehr Kombinationen ein, als für den Test erforderlich sind.
 
   Jede getestete Kombination erhöht das Traffic-Aufkommen und die erforderliche Zeit zur Erreichung annehmbarer Ergebnisse erheblich. Wenn Sie zum Beispiel über drei Orte mit je drei Angeboten verfügen, entspricht dies 27 möglichen Kombinationen (3 x 3 x 3). Drei Orte, von denen zwei Orte drei mögliche Angebote und ein Ort zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2). Mit jedem zusätzlichen Ort und Angebot steigt die Anzahl erheblich.
 
@@ -55,7 +55,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 ## Analyse {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Verwenden Sie regelmäßig den Bericht [Standortbeitrag](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md), um die Leistung der einzelnen Standorte und Angebote zu überwachen.
-* Stützen [&#x200B; im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die Filter [!UICONTROL Best 5] und [!UICONTROL Worst 5] verwenden.
+* Stützen [ im Experience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)Leistungsbericht Ihre Entscheidungen auf die angezeigten Daten, indem Sie die Filter [!UICONTROL Best 5] und [!UICONTROL Worst 5] verwenden.
 
   Der [!UICONTROL Alle]-Filter erschwert das Extrahieren der gewünschten Informationen, sodass nicht alle Erlebnisse im Diagramm angezeigt werden können. Verwenden Sie den [!UICONTROL Alle]-Filter, wenn Sie ein bestimmtes Erlebnis betrachten möchten, das nicht in den besten oder schlechtesten fünf liegt.
 

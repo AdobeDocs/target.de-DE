@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 19%
+source-wordcount: '1020'
+ht-degree: 17%
 ---
 # Erstellen einer A/B-Test -Aktivität
 
@@ -54,7 +54,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
    >
    >Informationen zur Fehlerbehebung bei VEC finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -94,7 +94,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
@@ -113,7 +113,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
    Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
    1. Um die Audience zu ändern, klicken Sie auf **[!UICONTROL Ersetzen]-Symbol** ( ![Ersetzen-Symbol](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-   1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld &#x200B;]Zielgruppe hinzufügen[&#x200B; die gewünschte Zielgruppe aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
+   1. Wählen Sie [!UICONTROL  Dialogfeld ]Zielgruppe hinzufügen[ die gewünschte Zielgruppe aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
 
       Sie können auf **Kombinieren von Zielgruppen** klicken, um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
@@ -146,4 +146,4 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1399'
 ht-degree: 23%
 ---
 # Häufig gestellte Fragen zum Reporting
@@ -44,7 +44,7 @@ Der erste Besuch eines neuen Besuchers dauert so lange, wie der Besucher auf der
 Wenn der Benutzer 30 Minuten oder länger inaktiv ist, wird die Sitzung zurückgesetzt. Das Zurücksetzen der Sitzung bedeutet, dass dieser Besucher beim nächsten Besuch zu einem wiederkehrenden Besucher wird oder nach 30 Minuten Inaktivität wieder aktiv wird.
 Wenn sich der Besucher einen ganzen Tag lang alle 29 Minuten auf der Website bewegt, wird dieser Besucher an diesem Tag als Neuer Besucher gezählt. Die Sitzung wurde nie zurückgesetzt, da der Besucher nie den Schwellenwert von 30 Minuten überschritten hat.
 
-In den folgenden Informationen wird genauer erläutert, wie neue Besucher und wiederkehrende Besucher gezählt werden. Beispiele werden auch einbezogen, um zu erklären, warum die Summe dieser beiden Segmente nicht immer die Gesamtzahl der Besucher ergibt.
+In den folgenden Informationen wird genauer erläutert, wie neue Besucher und wiederkehrende Besucher gezählt werden. In den Beispielen wird auch erläutert, warum die Summe dieser beiden Segmente nicht immer die Gesamtzahl der Besucher ergibt.
 
 ### Neue Besucher
 
@@ -76,7 +76,7 @@ Betrachten Sie das folgende Beispiel unter Berücksichtigung der oben genannten 
 
 Dieser Besucher wird in der Gesamtbesucherzahl der Aktivität als einzelner Besucher gezählt, obwohl er sowohl in den Segmenten „Neue Besucher“ als auch „Wiederkehrende Besucher“ gezählt wird.
 
-**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [&#x200B; der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Beispiel 2**: Abweichungen zwischen den Zahlen für neue und wiederkehrende Besucher hängen auch davon ab, wie Sie die [ der Aktivität konfigurieren](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Beispiel:
 

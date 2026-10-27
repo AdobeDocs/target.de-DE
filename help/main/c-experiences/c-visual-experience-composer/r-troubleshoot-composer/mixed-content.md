@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 84%
+source-wordcount: '569'
+ht-degree: 73%
 ---
 # Zulassen von gemischtem Inhalt in Ihrem Browser
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Gemischte Inhalte](https://developer.moz
 
 ## Zulassen von gemischtem Inhalt in [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert [!DNL Chrome], dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
+Wenn Sie eine Website über eine sichere Verbindung besuchen, prüft [!DNL Chrome], ob der Inhalt auf der Web-Seite sicher übertragen wurde.
 
 Siehe [Warnungen zu unsicheren Sites verwalten](https://support.google.com/chrome/answer/99020?hl=de) in der Hilfe von Google Chrome.
 
@@ -86,7 +86,7 @@ Standardmäßig blockiert [!DNL Firebox] Seiten, auf denen sichere und unsichere
 
 ## Zulassen von gemischtem Inhalt in [!DNL Microsoft Edge]
 
-Wenn Sie eine Site über eine sichere Verbindung besuchen, verifiziert [!DNL Edge], dass der Inhalt auf der Web-Seite sicher übermittelt wurde.
+Wenn Sie eine Website über eine sichere Verbindung besuchen, prüft [!DNL Edge], ob der Inhalt auf der Web-Seite sicher übertragen wurde.
 
 Wenn Sie VEC mit der neuesten Version von [!DNL Edge] verwenden, müssen Sie Ihre Site-Einstellungen aktualisieren. Besucher Ihrer Site müssen diese Schritte nicht ausführen.
 

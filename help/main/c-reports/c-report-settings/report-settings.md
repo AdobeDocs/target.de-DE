@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # Berichtseinstellungen
 
@@ -151,7 +151,7 @@ Wählen Sie die Umgebung (Hostgruppe) aus, die für den Bericht verwendet werden
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
+>Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
 
 ### Berichtsdaten zurücksetzen
 
@@ -185,8 +185,8 @@ Je nach Aktivitätstyp können Sie den Bericht in verschiedenen Formaten anzeige
 
 * **Tabellenansicht** Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** ( ![Tabellenansichtssymbol](/help/main/assets/icons/Table.svg) ), um den Bericht als Tabelle anzuzeigen.
 * **Diagrammansicht**: Klicken Sie auf das Symbol **[!UICONTROL Diagrammansicht]** ( ![Diagrammansichtssymbol](/help/main/assets/icons/GraphTrend.svg) ), um den Bericht als Diagramm anzuzeigen.
-* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -236,7 +236,7 @@ Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Ei
 
 Standardmäßig wird das Diagramm im Modus [!UICONTROL Täglich] gezeichnet.
 
-Sie können den Modus ändern, indem Sie auf [!UICONTROL &#x200B; Dropdown-Liste &#x200B;]Täglich“ klicken und dann eine kumulative Option auswählen.
+Sie können den Modus ändern, indem Sie auf [!UICONTROL  Dropdown-Liste ]Täglich“ klicken und dann eine kumulative Option auswählen.
 
 >[!NOTE]
 >
@@ -266,8 +266,8 @@ Wenn Sie die Maus über eines der ausgegrauten Erlebnisse bewegen, wird im Diagr
 
 In dem Diagramm werden die Linien für die ersten 16 Erlebnisse angezeigt (es liegen einige Überschneidungen vor, daher sind scheinbar weniger als 16 Linien vorhanden). Der farbige Punkt im Bereich „Erlebnisse“ auf der linken Seite neben den einzelnen Erlebnisnamen gibt an, dass die Darstellungslinie des Erlebnisses in der entsprechenden Farbe angezeigt wird.
 
-Wenn Sie im Bereich „Erlebnisse“ einen Bildlauf nach unten durchführen, werden Sie feststellen, dass die Namen für das 17. bis 26. Erlebnis ausgegraut sind, wie in der folgenden Abbildung dargestellt:
+Wenn Sie im Bereich Erlebnisse nach unten scrollen, werden Sie feststellen, dass die Namen für das 17. bis 26. Erlebnis ausgegraut sind, wie in der folgenden Abbildung dargestellt:
 
 Wenn Sie die Maus über eines der ausgegrauten Erlebnisse bewegen, wird im Diagramm vorübergehend eine neue graue Darstellungslinie angezeigt, die dem jeweiligen Erlebnis entspricht.
 
-Angenommen, Sie möchten die Darstellungslinie für Erlebnis R anzeigen, während die Line für Erlebnis P nicht angezeigt werden soll. Sie können auf den Namen von Erlebnis P klicken, um dessen Auswahl aufzuheben, und Sie können dann auf den Namen von Erlebnis R klicken, um es auszuwählen, wie unten dargestellt:
+Angenommen, Sie möchten die Zeichnungslinie für Erlebnis R anzeigen und möchten die Linie für Erlebnis P nicht sehen. Sie können auf den Namen von Experience P klicken, um die Auswahl aufzuheben, und dann auf den Namen von Experience P klicken, um sie auszuwählen, wie unten dargestellt:

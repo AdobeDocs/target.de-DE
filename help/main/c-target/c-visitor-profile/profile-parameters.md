@@ -1,27 +1,32 @@
 ---
 keywords: Profilskript;Profilskriptattribute;Best Practices für Profilskripte;Debugging;Skripte;Profilskripte;Attribute;Attribut;Parameter
-description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besucherprofil gespeichert sind, um Informationen bereitzustellen, die bei Ihren Adobe  [!DNL Target] -Aktivitäten verwendet werden können.
+description: Erfahren Sie mehr über besucherspezifische Attribute, die im Besucherprofil gespeichert sind, um Informationen bereitzustellen, die bei Ihren Adobe-[!DNL Target]-Aktivitäten verwendet werden können.
 title: Was sind Profilattribute?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # Profilattribute
 
 Profilattribute in [!DNL Adobe Target] sind Parameter, die speziell für einen Besucher gelten. Diese Attribute werden im Besucherprofil gespeichert. Sie enthalten Informationen über den Besucher, die Sie in Ihren Aktivitäten verwenden können.
@@ -45,7 +50,7 @@ So richten Sie Profilattribute ein:
    | Parametertyp | Beschreibung |
    |--- |--- |
    | mbox | Direkt über den Seiten-Code beim Erstellen der Mbox weitergegeben Siehe [Übergeben von Parametern an eine globale Mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*.<P>**Hinweis**: [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, verwenden Sie dazu die [!UICONTROL API-]Profilaktualisierung“. Weitere Informationen finden Sie unter [Profile aktualisieren](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=de){target=_blank} im *Target-Entwicklerhandbuch*. |
-   | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt vom Kunden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder mBox-Anfrage ausgeführt. Siehe *Profilskriptattribute* unten. |
+   | Profil | Direkt mit einem JavaScript-Code-Snippet definiert. Mit diesen Snippets können laufende Gesamtsummen wie das insgesamt von Verbrauchenden ausgegebene Geld gespeichert werden. Die Skripte werden bei jeder mBox-Anfrage ausgeführt. Siehe *Profilskriptattribute* unten. |
 
 ## Profilskriptattribute {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -149,11 +154,11 @@ Die folgenden Richtlinien helfen Ihnen dabei, vereinfachte Profilskripte zu verf
 
   Als Best Practice gilt:
 
-   * Halten Sie Profilskripte klein und so einfach wie möglich.
-   * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen benötigen, die evaluiert werden müssen.
-   * Vermeiden Sie Rekursionen.
-   * Profilskripte sollten vor dem Hinzufügen zu [!DNL Target] getestet werden. Alle Profilskripte werden bei jeder Mbox-Anfrage ausgeführt. Wenn Profilskripte nicht ordnungsgemäß ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich auf den Traffic und die Konversion auswirken kann.
-   * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/main/administrating-target/response-tokens.md) verwenden.
+  * Halten Sie Profilskripte klein und so einfach wie möglich.
+  * Vermeiden Sie reguläre Ausdrücke oder verwenden Sie nur einfache reguläre Ausdrücke. Sogar einfache Ausdrücke können viele Anweisungen benötigen, die evaluiert werden müssen.
+  * Vermeiden Sie Rekursionen.
+  * Profilskripte sollten vor dem Hinzufügen zu [!DNL Target] getestet werden. Alle Profilskripte werden bei jeder Mbox-Anfrage ausgeführt. Wenn Profilskripte nicht ordnungsgemäß ausgeführt werden, dauert die Ausführung von Mbox-Anfragen länger, was sich auf den Traffic und die Konversion auswirken kann.
+  * Wenn Profilskripte zu komplex werden, sollten Sie stattdessen [Antwort-Token](/help/main/administrating-target/response-tokens.md) verwenden.
 
 * Weitere Informationen finden Sie in der JS Rhino Engine-Dokumentation.
 
@@ -187,7 +192,7 @@ Folgende Methoden können Sie zum Debugging von Profilskripten verwenden:
 
 **Kann ich mit Profilskripten Informationen von einer Seite erfassen, die sich im Daten-Layer befindet?**
 
-Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere (Methoden [&#x200B; Einlesen von Daten in Target) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
+Profilskripte können die Seite nicht direkt lesen, da sie serverseitig ausgeführt werden. Die Daten müssen über eine Mbox-Anfrage oder andere (Methoden [ Einlesen von Daten in Target) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden. Sobald die Daten in [!DNL Target] verfügbar sind, können sie von Profilskripten als Mbox- oder Profil-Parameter ausgelesen werden.
 
 ## JavaScript-Referenz für Skript-Profilparameter
 
@@ -267,7 +272,7 @@ Die folgenden Objekte und Methoden können durch Skript-Profilparameter referenz
 | `user.get('<par_name>')` | Gibt den Wert des `user.<par_name>`-Sets für die aktuelle Besucherin oder den aktuellen Besucher zurück; gibt null zurück, wenn kein Wert festgelegt wurde. |
 | `user.categoryAffinity` | Gibt den Namen der besten Kategorie zurück. |
 | `user.categoryAffinities` | Gibt ein Array mit den besten Kategorien zurück. |
-| `user.isFirstSession` | Gibt „true“ zurück, wenn es die erste Sitzung des Besuchers ist. |
+| `user.isFirstSession` | Gibt „true“ zurück, wenn es sich um die erste Sitzung des Besuchers handelt. |
 | `user.browser` | Gibt den Benutzeragenten im HTTP-Header zurück. Beispielsweise können Sie ein Ausdrucksziel erstellen, um nur Safari-Benutzer als Ziel auszuwählen: `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Allgemeine Operatoren

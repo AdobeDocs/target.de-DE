@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 45%
 ---
 # [!UICONTROL Visual Experience Composer] Best Practices und Einschränkungen
 
@@ -79,7 +79,7 @@ Alles, was sich unmittelbar innerhalb des Body-Elements befindet, muss über ein
 +++Details
 Beim Bearbeiten von CSS-Klassen in der [!DNL Visual Experience Composer] ist es hilfreich, die Klassen mithilfe beschreibender Klassennamen einfach zu identifizieren. Dadurch wird sichergestellt, dass Sie die richtigen CSS-Klassen bearbeiten und Ihre Seiten wie erwartet angezeigt werden.
 
-Verwenden Sie nicht die CSS-Eigenschaft `!important`, wenn Sie Elemente ausblenden oder entfernen.
+Verwenden Sie beim Ausblenden oder Entfernen von Elementen nicht die `!important` CSS-Eigenschaft.
 
 Wenn die `!important` CSS-Eigenschaft vorhanden ist, werden von `target.js` während des Versands vorgenommene Änderungen von den CSS-Regeln der Site überschrieben.
 
@@ -124,7 +124,7 @@ Elemente auf Blockebene sollten nicht in Inline-Elementen wie Anker, Spanne usw.
 
 +++
 
-### Vermeiden Sie die Verwendung des base-Tags in Ihrer Website zur Auflösung von URLs und Links.
+### Verwenden Sie das Base-Tag auf Ihrer Website nicht, um URLs und Links aufzulösen.
 
 +++Details
 Der VEC manipuliert die Website im Hintergrund mithilfe eines Proxy-Servers, der die Links aktualisiert. Wenn Sie ein base-Tag hinzufügen, werden die durch den Proxy-Server verwendeten URLs erneut durch den Browser aufgelöst und fehlerhaft dargestellt.
@@ -141,9 +141,9 @@ Wenn Sie beispielsweise zwei Aktionen durchgeführt haben:
 
 Jede Änderung erstellt ein neues Element in VEC. Da die zweite Aktion Element 1 bearbeitet, kann in der zweiten Aktion nichts mehr geändert werden, wenn Sie Element 1 löschen. Daher funktioniert die Änderung nicht mehr.
 
-Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element in einer anderen Aktion mit einem anderen Text bearbeiten, dann zeigt der Code-Editor beide Aktionen als separate Elemente. Bei der Bearbeitung des Elements haben Sie ein neues Element erstellt, das das ursprünglich von Ihnen erstellte Element ändert und den bearbeiteten Text enthält. Wenn Sie dann das ursprüngliche Element löschen, kann der bearbeitete Text das Element nicht finden, das bearbeitet wurde, und wird folglich nicht angezeigt. Das zweite Element bleibt in der Liste der Elemente erhalten, doch es hat keine Auswirkung auf die Seite, weil das Element, das es ändert, nicht mehr vorhanden ist.
+Mit anderen Worten: Wenn Sie ein Element mit Text hinzufügen und dieses Element in einer anderen Aktion mit einem anderen Text bearbeiten, dann zeigt der Code-Editor beide Aktionen als separate Elemente. Bei der Bearbeitung des Elements haben Sie ein neues Element erstellt, das das ursprünglich von Ihnen erstellte Element ändert und den bearbeiteten Text enthält. Wenn Sie dann das ursprüngliche Element löschen, kann der bearbeitete Text das bearbeitete Element nicht finden und wird nicht angezeigt. Das zweite Element bleibt in der Liste der Elemente erhalten, doch es hat keine Auswirkung auf die Seite, weil das Element, das es ändert, nicht mehr vorhanden ist.
 
-Siehe [Element-Selektoren, die im [!UICONTROL Visual Experience Composer“ verwendet &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Siehe [Element-Selektoren, die im [!UICONTROL Visual Experience Composer“ verwendet ]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
 +++
 
@@ -188,7 +188,7 @@ Prüfen Sie Ihre Seite mehrmals, um sicherzustellen, dass die Bereitstellung wie
 
 +++
 
-### Vermeiden Sie die Verwendung eines base-Tags in Ihrer Website zur Auflösung von URLs und Links.
+### Verwenden Sie kein Basis-Tag in Ihrer Website, um URLs und Links aufzulösen.
 
 +++Details
 Wenn Sie den [!UICONTROL Enhanced Experience Composer] verwenden, wird die Website im Hintergrund von einem Proxy-Server bearbeitet, der alle Link-URLs aktualisiert, damit sie im Proxy funktionieren. Wenn Sie ein Basis-Tag hinzufügen, werden alle diese URLs vom Browser aufgelöst, sodass sie beschädigt erscheinen.
@@ -265,7 +265,7 @@ Beachten Sie die folgenden Einschränkungen bei der Verwendung des [!UICONTROL V
 ### Die [!UICONTROL Verschieben]-Funktion unterstützt keinen z-Index.
 
 +++Details
-Da keine z-index-Funktionalität vorhanden ist, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Da es keine Z-Indexfunktion gibt, kann das verschobene Element nicht über ein anderes Element verschoben werden. Weitere Details finden Sie unter [Einschränkungen](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 
@@ -480,6 +480,6 @@ Aufgrund von Einschränkungen in IE8 beim Umgang mit Skriptinhalten unterstützt
 ### Klick-Tracking wird nur auf der Seite unterstützt, auf der Erlebnisse erstellt werden, oder auf einer Weiterleitungsseite.
 
 +++Details
-Obwohl [!UICONTROL Durchsuchen]-Modus für Klick-Tracking im VEC verfügbar ist, kann [!UICONTROL Durchsuchen]-Modus nicht zum Hinzufügen von Klick-Tracking auf einer Seite verwendet werden.
+Obwohl [!UICONTROL Durchsuchen]-Modus für Klick-Tracking in VEC verfügbar ist, kann [!UICONTROL Durchsuchen]-Modus nicht zum Hinzufügen von Klick-Tracking auf einer Seite verwendet werden.
 
 +++

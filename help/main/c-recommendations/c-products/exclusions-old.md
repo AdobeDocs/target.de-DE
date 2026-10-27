@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # Ausnahmen
@@ -30,7 +30,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 * Der Herbst-/Winter-Katalog ist jetzt der einzige Katalog, der online vorhanden sein sollte. Artikel aus dem Sommerkatalog können nicht mehr gekauft werden.
 * Elemente, die auf den meisten Seiten/Bildschirmen nicht empfohlen werden können (für Erwachsene geeignete Produkte, NC-17-Filme usw.)
 * Produkte mit unvollständigen Metadatenfeldern (fehlende Miniaturansicht, Preis oder andere wichtige Metadaten)
-* Produkte, die nie empfohlen werden sollten (vielleicht gibt es eine SKU im System für etwas, aber es ist kein käuflicher Artikel, oder vielleicht ist es eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen, usw.)
+* Produkte, die nie empfohlen werden sollten (vielleicht gibt es eine SKU im System für etwas, aber es ist kein kaufbarer Artikel, oder vielleicht ist es eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen, usw.)
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 
    ![exclusions_list image](assets/exclusions_list.png)
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} zum Ändern der Standardhostgruppe.
+   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Ausschluss erstellen]**.
 
@@ -89,4 +89,4 @@ Dieses Video enthält die folgenden Informationen:
 * Eine Sammlung erstellen
 * Einen Ausschluss erstellen
 
->[!VIDEO](https://video.tv.adobe.com/v/35308?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

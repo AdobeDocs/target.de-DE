@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
     internal-label: Success metrics
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 40%
 ---
 # Erfolgsmetriken
@@ -28,13 +28,13 @@ So können Sie beispielsweise feststellen, ob ein neues Angebot oder das Hinzuf�
 
 [!DNL Target] sind Erfolgsmetriken mit den optimalen Optionen für Reporting- und Tracking-Zwecke vorkonfiguriert.
 
-Standardmäßig sind Konversionsereignisse auf „Anzahl erhöhen [!UICONTROL &#x200B; Benutzer in Aktivität belassen] festgelegt. Konversionen werden nur einmal gezählt, es werden keine wiederholten Konversionen gezählt und der Besucher sieht immer den Aktivitätsinhalt.
+Standardmäßig sind Konversionsereignisse auf „Anzahl erhöhen [!UICONTROL  Benutzer in Aktivität belassen] festgelegt. Konversionen werden nur einmal gezählt, es werden keine wiederholten Konversionen gezählt und der Besucher sieht immer den Aktivitätsinhalt.
 
-Umsatzmetriken, die auf &quot;[!UICONTROL &#x200B; erhöhen und Benutzer in Aktivität halten“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz für RPV/AOV/Sales und werden nicht in den Bericht [!UICONTROL Auftragsdetails] aufgenommen.
+Umsatzmetriken, die auf &quot;[!UICONTROL  erhöhen und Benutzer in Aktivität halten“ eingestellt sind] protokollieren Bestelldetails nur für die erste Bestellung, die von demselben Besucher getätigt wurde. Alle nachfolgenden Bestellungen erhöhen die Konversionsanzahl, erhöhen jedoch nicht den Umsatz für RPV/AOV/Sales und werden nicht in den Bericht [!UICONTROL Auftragsdetails] aufgenommen.
 
 >[!NOTE]
 >
->Für Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Dies *nicht*.
+>Für Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Dies *nicht*.
 
 Es sind folgende Erfolgsmetriken verfügbar:
 

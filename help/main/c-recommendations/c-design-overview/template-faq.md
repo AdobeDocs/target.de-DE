@@ -2,7 +2,7 @@
 keywords: Empfehlungen;häufig gestellte Fragen;FAQ
 description: Häufig gestellte Fragen (FAQs) und Antworten zu [!DNL Target Recommendations].
 title: Wo erhalte ich Antworten auf Design-Fragen für [!DNL Target Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 TQID: 'https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY'
@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '476'
+ht-degree: 69%
 ---
 # Häufig gestellte Fragen: Entwürfe
 
 Liste häufig gestellter Fragen (FAQs) zu [!DNL Adobe Target] [!DNL Recommendations]-Aktivitäten.
 
-## Der Preis meines empfohlenen Artikels zeigt nicht beide Ziffern rechts vom Dezimalzeichen an. Wie kann ich sie anzeigen?
+## Der Preis meines empfohlenen Artikels zeigt nicht beide Werte rechts neben dem Dezimalpunkt an. Wie kann ich sie anzeigen?
 
-Standardmäßig werden bei numerischen Werten (z. B. `entity.value`), die in Designvorlagen zurückgegebenen werden, nach dem Dezimalzeichen keine Nullen angezeigt. Wenn ein Artikel beispielsweise 35,00 $ kostet, ist `entity.value` gleich 35, und nur „35“ wird auf der Seite angezeigt, und nicht „35,00“ $.
+Standardmäßig zeigen numerische Werte (z. B. `entity.value`), die in Design-Vorlagen zurückgegeben werden, nach dem Dezimalpunkt keine abschließenden Nullen an. Wenn ein Artikel beispielsweise 35,00 $ kostet, ist `entity.value` gleich 35, und nur „35“ wird auf der Seite angezeigt, und nicht „35,00“ $.
 
 Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung:
 
@@ -41,9 +41,9 @@ Zur Behebung dieses Problems stehen zwei Möglichkeiten zur Verfügung:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Warum wird die Kategorie im Entwurf nicht angezeigt? Ich benutze `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## Warum wird die Kategorie im Design nicht angezeigt? Ich benutze `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-Die Kategorie-ID kann nicht in dem Entwurf angezeigt werden. Da mehrere Kategorien gespeichert werden können, weiß das System nicht, welche Kategorie angezeigt werden soll.
+Kategorie-ID kann im Design nicht angezeigt werden. Da mehrere Kategorien gespeichert werden können, weiß das System nicht, welche Kategorie angezeigt werden soll.
 
 ## Wie kann ich einen Entwurf so ändern, dass ein sofortiges Update erfolgt? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

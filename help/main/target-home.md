@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 28%
 ---
 # Handbuch für [!DNL Adobe Target] Business Practices
@@ -131,4 +131,4 @@ Marketingexperten, Entwickler, Administratoren, Analysten und Qualitätssicherun
 
 | Hilfe zu Adobe [!DNL Target]-Lösungen | [!DNL Adobe Experience Cloud] Ressourcen |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target-Community-Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[[!DNL Adobe Target] Lernen und Support](https://helpx.adobe.com/de/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API-Dokumentation](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=de){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target-Community-Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de)</li><li>[[!DNL Experience Cloud] Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)</li><li>[[!DNL Experience Cloud] Hilfe-Startseite](https://helpx.adobe.com/de/support/experience-cloud.html)</li><li>[[!DNL Adobe] Schulungen und Tutorials](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)</li></ul> |

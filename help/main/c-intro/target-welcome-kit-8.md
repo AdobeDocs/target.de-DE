@@ -19,17 +19,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # Kapitel 8: Kommunikation Ihrer Aktivitätsergebnisse
 
 Wenn Sie mit einer Aktivität erstaunliche Ergebnisse erzielen, müssen Sie diese Ergebnisse in Ihrer Organisation kommunizieren. Vielleicht ist es Ihnen gelungen, mehr Kunden zu gewinnen oder die Umsätze zu steigern. Vielleicht haben Sie dem Unternehmen auch durch Reduzierung der Callcenter-Anrufe Geld gespart oder den durchschnittlichen Bestellwert erhöht. Zeigen Sie den Verantwortlichen, was Sie durch Optimierung und Personalisierung mit [!DNL Target] für das Unternehmen erreichen können.
 
-Ihre Ergebnisse verpacken Sie am besten in einer kleinen Geschichte. Ihr Bericht sollte interessant klingen, und es sollte klar herausgestellt werden, was aus welchem Grund getestet oder personalisiert wurde und welche Ergebnisse erreicht wurden. Passen Sie sich in Sprache und Fachbegriffen denjenigen an, die den Bericht lesen, um sicherzustellen, dass er verstanden wird.
+Wenn Sie diese Ergebnisse kommunizieren, ist es hilfreich, sie so anzugehen, als würden Sie eine Geschichte erzählen. Ihr Bericht sollte interessant klingen, und es sollte klar herausgestellt werden, was aus welchem Grund getestet oder personalisiert wurde und welche Ergebnisse erreicht wurden. Passen Sie sich in Sprache und Fachbegriffen denjenigen an, die den Bericht lesen, um sicherzustellen, dass er verstanden wird.
 
-Zu diesem Zweck haben wir Ihnen die Microsoft PowerPoint-Vorlage [Executive Summary Results](/help/main/assets/executive-summary.zip) vorbereitet. Versehen Sie die Vorlage mit den Farben und dem Logo Ihrer Organisation und präsentieren Sie mit ihr die Ergebnisse Ihrer ersten Test- oder Personalisierungsaktivität. Wie schon der Aktivitätsplaner ist auch die Vorlage als eigenständige Datei im Welcome Kit enthalten. Wir möchten sie Ihnen an dieser Stelle aber auch abbilden – zusammen mit einem Beispiel der Informationen, die in den einzelnen Vorlagenbereichen enthalten sein sollten.
+Zu diesem Zweck haben wir Ihnen die Microsoft PowerPoint-Vorlage [Executive Summary Results](/help/main/assets/executive-summary.zip) vorbereitet. Versehen Sie die Vorlage mit den Farben und dem Logo Ihrer Organisation und präsentieren Sie mit ihr die Ergebnisse Ihrer ersten Test- oder Personalisierungsaktivität. Wie schon der Aktivitätsplaner ist auch die Vorlage als eigenständige Datei im Welcome Kit enthalten. Wir möchten sie Ihnen an dieser Stelle aber auch abbilden - zusammen mit einem Beispiel der Informationen, die in den einzelnen Vorlagenbereichen enthalten sein sollten.
 
 ![Executive Summary-Bericht](/help/main/c-intro/assets/executive-summary-report.png)

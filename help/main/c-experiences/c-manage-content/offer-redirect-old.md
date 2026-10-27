@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
     internal-label: Experiences and offers
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1212'
 ht-degree: 44%
 ---
 # Erstellen von Umleitungsangeboten
@@ -26,7 +26,7 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in Ajax-Mboxes (`mboxUpdate`) verwendet werden.
 >
@@ -120,7 +120,7 @@ Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser um
 
 Sie müssen Umleitungsangebote mithilfe des [!UICONTROL formularbasierten Experience Composers] anwenden. Umleitungsangebote können derzeit nicht mit dem VEC angewendet werden.
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Umleitungsangebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Umleitungsangebote verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 

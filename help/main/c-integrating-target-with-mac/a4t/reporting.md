@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # A4T-Reporting
 
@@ -31,7 +31,7 @@ Durch die Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Ad
 
 Sie können Berichte für Ihre Aktivitäten sowohl in [!DNL Analytics] als auch in [!DNL Target] anzeigen.
 
-Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [&#x200B; auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Informationen zu Best Practices für das Reporting mit [!DNL Analytics] für [!DNL Target] finden [ auf dieser Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Überblick {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -81,7 +81,7 @@ Wenn [!DNL Analytics] als Berichtsquelle verwendet wird, zeigen Berichte in [!DN
 
   Erhöhte Zahlen werden im Bericht als positiv angezeigt, auch wenn eine Erhöhung unerwünscht ist. Beispiel: Obwohl Sie eine geringere Absprungrate wünschen, wird die höhere Absprungrate als Gewinner mit der höchsten Steigerung angezeigt. Wenn Sie Entscheidungen auf Basis Ihrer Berichte treffen, müssen Sie auf diese und ähnliche Metriken achten und darauf, ob Sie diese Zahlen senken oder erhöhen möchten.
 
-Sie können die Metrik oder Zielgruppe auf den Bericht in [!DNL Target] anwenden, nachdem die Aktivität gestartet wurde oder sogar nachdem der Test abgeschlossen ist. Es ist nicht erforderlich, dass Sie im Vorhinein genau wissen, was Sie messen möchten.
+Sie können die Metrik oder Zielgruppe auf den Bericht in [!DNL Target] anwenden, nachdem die Aktivität gestartet wurde oder sogar nachdem der Test abgeschlossen ist. Sie müssen nicht genau wissen, was Sie im Voraus messen möchten.
 
 Klicken Sie, um den vollständigen [!DNL Analytics] direkt von der Seite „Aktivitätsbericht“ aus anzuzeigen.
 
@@ -95,7 +95,7 @@ Sie können Offline-Berechnungen für Konfidenz- und Konfidenzintervalle für A4
 
 Für A4T verwenden wir eine [Welchs t-Test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}-Berechnung für kontinuierliche Variablen (anstelle binärer Metriken). In Analytics werden Besucher immer verfolgt und jede durchgeführte Aktion wird gezählt. Wenn ein Besucher mehrfach einkauft oder eine Erfolgsmetrik mehrfach besucht, werden diese zusätzlichen Treffer also gezählt. Daher ist die Metrik eine kontinuierliche Variable. Zur Berechnung des t-Tests von Welch wird die „Summe der Quadrate“ benötigt, um die Varianz zu berechnen, die im Nenner der t-Statistik verwendet wird. [Statistische Berechnungen in A/Bn-Tests](/help/main/c-reports/statistical-methodology/statistical-calculations.md) erläutert die Details der verwendeten mathematischen Formeln. Die Summe der Quadrate kann aus [!DNL Analytics] abgerufen werden. Zum Abrufen der Summe aus Quadratdaten müssen Sie für einen Testzeitraum einen Export auf Besucherebene für die zu optimierende Metrik durchführen.
 
-Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren, exportieren Sie ein Beispiel für die Gesamtzahl der Seitenansichten pro Besucher für einen bestimmten Zeitraum, vielleicht für einige Tage (mehr als tausend Datenpunkte sind alles, was Sie benötigen). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
+Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren, exportieren Sie ein Beispiel der Gesamtzahl der Seitenansichten pro Besucher für einen bestimmten Zeitraum, vielleicht für einige Tage (nur einige Tausend Datenpunkte). Anschließend quadrieren Sie die einzelnen Werte und bilden die Summe der Gesamtwerte (die Reihenfolge der Vorgänge muss hier unbedingt beachtet werden). Dieser „Quadratsummen“-Wert wird anschließend im Complete Confidence Calculator verwendet. Verwenden Sie für diese Werte den Bereich „Umsatz“ dieses Arbeitsblatts.
 
 **So verwenden Sie die [!DNL Analytics]-Datenexportfunktion:**
 
@@ -103,7 +103,7 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
 1. Klicken Sie auf **[!UICONTROL Werkzeuge]** > **[!UICONTROL Data Warehouse]**.
 1. Füllen Sie auf der Registerkarte **[!UICONTROL Data Warehouse-Anforderung]** die Felder aus.
 
-   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=de).
+   Weitere Informationen zu den einzelnen Feldern finden Sie unter „Data Warehouse-Beschreibungen“ in [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Feld | Anleitung |
    |--- |--- |
@@ -113,15 +113,15 @@ Wenn Sie beispielsweise die Anzeige von Seitenansichten pro Besucher optimieren,
    | Aufschlüsselung | Wählen Sie die gewünschten Dimensionen aus: Standard ist vorkonfiguriert (OOTB), während „Benutzerdefiniert“ eVars und Props enthält. Es wird empfohlen, „Besucher-ID“ zu verwenden, wenn Informationen auf Besucher-ID-Ebene erforderlich sind, und nicht „Experience Cloud-Besucher-ID“.<ul><li>Die Besucher-ID ist die finale ID, die von Analytics verwendet wird. Sie lautet entweder AID (wenn es sich um einen bestehenden Kunden handelt) oder MID (wenn der Kunde neu ist oder nach dem Start des MC-Besucher-ID-Diensts Cookies gelöscht hat).</li><li>Die Experience Cloud-Besucher-ID wird nur für Kunden festgelegt, die neu sind oder nach dem Start des MC-Besucher-ID-Service Cookies gelöscht haben.</li></ul> |
    | Metriken | Wählen Sie die gewünschten Metriken aus. Die Standardeinstellung lautet OOTB, während die benutzerdefinierte Einstellung benutzerdefinierte Ereignisse einschließt. |
    | Berichtvorschau | Überprüfen Sie vor dem Planen des Berichts Ihre Einstellungen.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie [!UICONTROL Sofort senden].<br>[!UICONTROL &#x200B; Hinweis: Die Datei kann über FTP unter „Erweiterte Versandoptionen]<br>![Versand planen](/help/main/c-reports/assets/datawarehouse3.png) zugestellt werden. |
+   | Auslieferung planen | Geben Sie eine E-Mail-Adresse für den Versand der Datei ein, benennen Sie die Datei und wählen Sie [!UICONTROL Sofort senden].<br>[!UICONTROL  Hinweis: Die Datei kann über FTP unter „Erweiterte Versandoptionen]<br>![Versand planen](/help/main/c-reports/assets/datawarehouse3.png) zugestellt werden. |
 
 1. Klicken Sie auf **[!UICONTROL Diesen Bericht anfordern]**.
 
    Die Dateibereitstellung kann je nach Umfang der angeforderten Daten bis zu 72 Stunden in Anspruch nehmen. Sie können den Fortschritt Ihrer Anforderung jederzeit überprüfen, indem Sie auf [!UICONTROL Werkzeuge] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] klicken.
 
-   Wenn Sie Daten, die Sie in der Vergangenheit angefordert haben, erneut anfordern möchten, können Sie bei Bedarf eine alte Anfrage aus dem [!UICONTROL Anforderungs-Manager] duplizieren.
+   Wenn Sie Daten erneut anfordern möchten, die Sie in der Vergangenheit angefordert haben, können Sie bei Bedarf eine alte Anfrage aus dem [!UICONTROL Anforderungs-Manager] duplizieren.
 
 Weitere Informationen über [!DNL Data Warehouse] finden Sie in der [!DNL Analytics]-Hilfsdokumentation unter den folgenden Links:
 
-* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=de)
-* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=de)
+* [Erstellen einer Data Warehouse-Anfrage](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best Practices für Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

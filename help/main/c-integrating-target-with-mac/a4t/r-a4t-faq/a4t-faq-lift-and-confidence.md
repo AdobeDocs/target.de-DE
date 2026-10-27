@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # Steigerung und Konfidenz – Häufig gestellte Fragen zu A4T
 
@@ -48,7 +48,7 @@ Das Konfidenzniveau ist eine prozentuale Wahrscheinlichkeit, die `1 - p-value` e
 
 +++
 
-## Warum kann ich Steigerung und Konfidenz nicht in errechneten Metriken anzeigen? {#lift-confidence}
+## Warum kann ich Steigerung und Konfidenz nicht in berechneten Metriken sehen? {#lift-confidence}
 
 +++Antwort
 Berechnete Metriken werden derzeit in Funktionen für Steigerung und Konfidenz nicht unterstützt. Analytics berechnet Metriken auf aggregierter Ebene und nicht auf Besucherebene. Insbesondere die Konfidenz ist eine Berechnung auf Besucherebene.
@@ -69,7 +69,7 @@ Beispiele für nicht unterstützte Metriken oder Anwendungsfälle sind:
 
 +++
 
-## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es dann selbst hinzufügen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## Funktionieren die Steigerung und die Konfidenz mit Ad Hoc und Report Builder? Wenn es nicht nativ ist, kann ich es da selbst machen? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Antwort
 Steigerung und Konfidenz funktionieren nicht mit Ad Hoc oder Report Builder und können nicht selbst für kontinuierliche Variablen errechnet werden. Es ist möglich, sie für binäre Metriken manuell zu errechnen.

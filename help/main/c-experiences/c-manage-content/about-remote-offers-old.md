@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
     internal-label: Experiences and offers
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1107'
 ht-degree: 37%
 ---
 # Remote-Angebote erstellen
@@ -24,9 +24,9 @@ Verwenden Sie Remote-Angebote dazu, außerhalb von [!DNL Adobe Target] [!DNL Tar
 
 >[!NOTE]
 >
->Remote-Angebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+>Remote-Angebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Remote-Angebote können nicht im Visual Experience Composer (VEC) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
->[!DNL Target Classic] enthielt ähnliche Funktionen: [!UICONTROL Angebot auf Ihrer &#x200B;] und [!UICONTROL Angebot außerhalb von Test&amp;Target].
+>[!DNL Target Classic] enthielt ähnliche Funktionen: [!UICONTROL Angebot auf Ihrer ] und [!UICONTROL Angebot außerhalb von Test&amp;Target].
 
 Einige Beispiele für Remote-Angebote sind:
 
@@ -67,7 +67,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [&#x200B; unter „Umleitungs-URL-Typ: zwischengespeichert &#x200B;](#url-type) dynamisch“.
+   Weitere Informationen finden [ unter „Umleitungs-URL-Typ: zwischengespeichert ](#url-type) dynamisch“.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
@@ -93,7 +93,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 
 1. Geben Sie den Umleitungs-URL-Typ an.
 
-   Weitere Informationen finden [&#x200B; unter „Umleitungs-URL-Typ: zwischengespeichert &#x200B;](#url-type) dynamisch“.
+   Weitere Informationen finden [ unter „Umleitungs-URL-Typ: zwischengespeichert ](#url-type) dynamisch“.
 
 1. Geben Sie die Remote-URL für das Remote-Angebot an.
 
@@ -125,7 +125,7 @@ Sie können auf **[!UICONTROL Parameter hinzufügen]** klicken, um eine oder meh
 
 Sie müssen Remote-Angebote mit dem [!UICONTROL formularbasierten Experience Composer] anwenden. Sie können derzeit keine Remote-Angebote mit dem VEC anwenden.
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 

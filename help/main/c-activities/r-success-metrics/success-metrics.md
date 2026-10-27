@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 21%
 ---
 # [!UICONTROL Erfolgsmetriken]
@@ -52,7 +52,7 @@ Bei Umsatzmetriken, die dieselbe Einstellung verwenden, protokolliert nur die er
 
 >[!NOTE]
 >
->Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder &#x200B;]&quot;. Diese Einstellungen *nicht*.
+>Bei Aktivitäten, die [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, verwendet die Zielmetrik immer die Einstellungen &quot;[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen] und &quot;[!UICONTROL Bei jeder ]&quot;. Diese Einstellungen *nicht*.
 
 Die folgenden Erfolgsmetriken können im Abschnitt [!UICONTROL Reporting-Einstellungen] auf der Seite [!UICONTROL Aktivitätseinstellungen] unter dem Schritt [!UICONTROL Ziele und Einstellungen] konfiguriert werden:
 
@@ -103,7 +103,7 @@ Um auf die Optionen [!UICONTROL Erweiterte Einstellungen] zuzugreifen, klicken S
 
 ![Menü „Erweiterte Einstellungen“](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel &#x200B;]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
+Weitere Informationen zu den Optionen [!UICONTROL Erweiterte Einstellungen] (“[!UICONTROL Was passiert, wenn ein Benutzer auf dieses Ziel ]&quot; und &quot;[!UICONTROL Wie wird die Anzahl erhöht]) finden Sie unter [Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft](#what-happens)?
 
 >[!NOTE]
 >

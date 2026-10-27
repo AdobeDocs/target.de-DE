@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # Fehlerbehebung bei Aktivitäten
 
@@ -52,7 +52,7 @@ Vergewissern Sie sich, dass Ihre Aktivität abgeschlossen ist und aktiviert wurd
 * Aktivieren Sie den Test.
 * Verwenden Sie die Linkvorschau, um einen inaktiven Test anzuzeigen.
 
-## Sie qualifizieren sich nicht für die Bedingungen für die Zielgruppen-Zielgruppenbestimmung.
+## Sie sind nicht für die Bedingungen zum Zielgruppen-Targeting qualifiziert.
 
 **Validierung:** Prüfen Sie die Targeting-Bedingungen auf der Übersichtsseite.
 
@@ -142,7 +142,7 @@ Führen Sie einen der folgenden Schritte aus:
 
 **Hinweis:** Mehrere ajax-[!DNL Target] mit demselben Namen, aber unterschiedlichen Parametern funktionieren auf derselben Seite nicht. Nur der erste Aufruf erfolgt.
 
-## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche  Status Inaktiv“.
+## Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche ] Status [!UICONTROL Inaktiv“.
 
 Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel das Aktivieren einer Aktivität außerhalb der Benutzeroberfläche mithilfe der [!DNL Target]-API, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
 

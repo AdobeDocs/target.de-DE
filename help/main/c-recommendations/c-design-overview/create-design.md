@@ -2,7 +2,7 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie einen [!DNL Target Recommendations] Entwurf mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 25%
+source-wordcount: '1069'
+ht-degree: 24%
 ---
 # Erstellen eines Designs
 
@@ -103,7 +103,7 @@ Beachten Sie, dass Designs für das gesamte Konto verfügbar sind. Stellen Sie s
 
 ## JSON-Beispiel {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben &#x200B;](/help/main/c-experiences/form-experience-composer.md) können.
+Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Aktivität über den [formularbasierten Editor“ zurückgegeben ](/help/main/c-experiences/form-experience-composer.md) können.
 
 1. Erstellen Sie einen Entwurf aus der [!UICONTROL Design-]) oder dem formularbasierten Workflow. Wenn Sie versuchen, einen Entwurf im Workflow von [!UICONTROL Visual Experience Composer] (VEC) zu erstellen, können Sie nur einen HTML-Entwurf erstellen, der zu Klick-Tracking-Zwecken in einen `<div>` eingeschlossen ist.
 
@@ -170,7 +170,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Akti
    | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter /help/target/products.html#recsSettings > Recommendations-API-Token > Clientcode). |
    | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt „Speicherorte“ der formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
    | `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
-   | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
+   | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft ausgewählt haben (Teil der Enterprise-Berechtigungen). |
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
 
@@ -331,4 +331,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

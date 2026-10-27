@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 21%
 ---
 # Hosts
@@ -113,7 +113,7 @@ Wenn eine [!DNL Target]-Anfrage auf einem nicht autorisierten Host erfolgt, antw
 
 >[!IMPORTANT]
 >
->**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=de){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
+>**Best Practices für die Sicherheit**: Wenn Sie die ubox-Funktion von [!DNL Target] verwenden, steuert diese Zulassungsliste auch die Liste der Domains, zu denen Ihre [Weiterleitungen](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} navigieren können. Stellen Sie sicher, dass Sie alle Domains hinzufügen, zu denen Sie umleiten möchten, wenn Sie ubox als Teil Ihrer Implementierung verwenden. Wenn die Zulassungsliste nicht angegeben ist, können [!DNL Adobe] die Umleitungs-URLs nicht überprüfen und vor potenziellen bösartigen Umleitungen schützen.
 >
 >Die Zulassungsliste hat Vorrang vor Umgebungen. Löschen Sie alle Hosts, bevor Sie die Funktion Zulassungsliste verwenden, dann werden nur die von der Zulassungsliste zugelassenen Hosts in Ihrer Hosts-Liste angezeigt. Anschließend können Sie die Hosts in die gewünschten Umgebungen verschieben.
 

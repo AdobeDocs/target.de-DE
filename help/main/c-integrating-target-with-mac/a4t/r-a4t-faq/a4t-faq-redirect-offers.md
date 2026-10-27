@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # Umleitungsangebote – Häufig gestellte Fragen zu A4T
 
@@ -145,7 +145,7 @@ Arbeiten Sie mit Ihrem IT-Team zusammen, um diese Parameter ( `adobe_mc_sdid` un
 
 +++
 
-## Was ist, wenn ich A4T nicht für meine Umleitungsaktivitäten verwende und nicht möchte, dass diese zusätzlichen Parameter zu meinen URLs hinzugefügt werden? {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## Was passiert, wenn ich A4T nicht mit meiner Umleitungsaktivität verwende und diese zusätzlichen Parameter nicht zu meinen URLs hinzufügen möchte? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++Antwort
 Verwenden Sie eine benutzerdefinierte Weiterleitung, wenn:
@@ -163,7 +163,7 @@ Als Best Practice empfiehlt es sich jedoch, den Parameter `adobe_mc_ref` in der 
 +++Antwort
 Wenn Sie A4T und Weiterleitungsangebote verwenden, hängt Target die Parameter `adobe_mc_ref` und `adobe_mc_sdid` an die URL an. Diese Werte sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Möglicherweise haben einige Kunden jedoch Systeme zur Lastverteilung oder WEB-Server, die versuchen, die Abfrage-String-Parameter erneut zu kodieren.
 
-Aufgrund dieser doppelten Kodierung kann die Besucher-API den SDID-Wert nicht abrufen, wenn sie versucht, den Wert `adobe_mc_sdid` zu entschlüsseln, und sie erstellt dann eine neue SDID. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Sie in Analytics-Berichten eine ungleichmäßige Aufspaltung für Umleitungen sehen.
+Aufgrund dieser doppelten Codierung kann die Besucher-API beim Versuch, den `adobe_mc_sdid` zu decodieren, den SDID-Wert nicht extrahieren und eine neue SDID generieren. Dies führt dazu, dass falsche SDID-Werte an Target und Analytics gesendet werden und Sie in Analytics-Berichten eine ungleichmäßige Aufspaltung für Umleitungen sehen.
 
 Adobe empfiehlt, mit Ihrem IT-Team zu sprechen, um sicherzustellen, dass `adobe_mc_ref` und `adobe_mc_sdid` auf die Zulassungsliste gesetzt werden, damit diese Werte nicht umgewandelt werden.
 
@@ -183,7 +183,7 @@ Bei [!DNL at.js] Version 0.9.6 (oder höher) und [!DNL AppMeasurement.js] 2.1 (o
 ## Kann ich benutzerdefinierte/HTML-Weiterleitungsangebote verwenden? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Antwort
-Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsquelle (A4T) ein integriertes Weiterleitungsangebot verwenden. Aus der Sicht von [!DNL Target] sind HTML-Angebote undurchsichtig: [!DNL Target] kann nicht erkennen, dass ein bestimmter HTML-Abschnitt JavaScript zum Instantiieren einer Weiterleitung enthält.
+Nein, Sie müssen für Aktivitäten mit [!DNL Analytics] als Berichterstellungsquelle (A4T) ein integriertes Weiterleitungsangebot verwenden. Aus [!DNL Target] Sicht sind HTML-Angebote undurchsichtig: [!DNL Target] können nicht wissen, dass ein bestimmter Teil von HTML JavaScript enthält, das eine Umleitung instanziiert.
 
 +++
 

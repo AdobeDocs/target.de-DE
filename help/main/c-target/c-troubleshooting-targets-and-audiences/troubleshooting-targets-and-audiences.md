@@ -1,25 +1,28 @@
 ---
 keywords: Fehlerbehebung; häufig gestellte Fragen; FAQ; FAQs; Targets; Zielgruppen
-description: Häufig gestellte Fragen (FAQs) zu Erlebnis-Targeting und Zielgruppen für Adobe- [!DNL Target] .
+description: Sehen Sie sich häufig gestellte Fragen (FAQs) zu Erlebnis-Targeting und Zielgruppen an, die in [!DNL Target]-Aktivitäten von Adobe verwendet werden.
 title: Wo finde ich Fragen und Antworten zu Zielen und Zielgruppen?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # Häufig gestellte Fragen zu Zielen und Zielgruppen
 
 Liste der häufig gestellten Fragen zu Erlebnis-Targeting und Zielgruppen
@@ -105,9 +108,9 @@ Einige Zielgruppen wurden vorab eingerichtet, darunter „Neue Besucher“ und �
 
 [!DNL Target] erlaubt pro Mbox-Aufruf maximal 50 eindeutige Profilattribute. Wenn Sie mehr als 50 Profilattribute an [!DNL Target] übergeben müssen, können Sie sie mit der API-Methode [!UICONTROL Profil-Update] übergeben. Weitere Informationen finden Sie unter [Profilupdate](https://developers.adobetarget.com/api/#authentication-tokens) in der Dokumentation zur Adobe Target-API.
 
-## Warum werden Besuchern Erlebnisse für eine AP-Aktivität angezeigt, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
+## Warum sehen Besucher Erlebnisse für eine AP-Aktivität, die sie nicht sehen sollten? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-Aktivitäten vom Typ „Automatisierte Personalisierung“ werden einmal pro Sitzung ausgewertet. Wenn für ein bestimmtes Erlebnis qualifizierte aktive Sitzungen vorhanden waren und diesen nun neue Angebote hinzugefügt werden, wird Benutzern der neue Inhalt zusammen mit den zuvor angezeigten Angeboten angezeigt. Da sie zuvor für diese Erlebnisse qualifiziert wurden, werden sie ihnen weiterhin für die Dauer der Sitzung angezeigt. Wenn dies bei jedem einzelnen Seitenbesuch ausgewertet werden soll, sollten Sie den Erlebnis-Targeting-Aktivitätstyp (XT) ändern.
+Aktivitäten vom Typ „Automatisierte Personalisierung“ werden einmal pro Sitzung ausgewertet. Wenn für ein bestimmtes Erlebnis qualifizierte aktive Sitzungen vorhanden waren und diesen nun neue Angebote hinzugefügt werden, wird Benutzern der neue Inhalt zusammen mit den zuvor angezeigten Angeboten angezeigt. Da sie zuvor für diese Erlebnisse qualifiziert wurden, werden sie ihnen weiterhin für die Dauer der Sitzung angezeigt. Wenn Sie dies bei jedem einzelnen Seitenbesuch auswerten möchten, sollten Sie zum Aktivitätstyp Erlebnis-Targeting (XT) wechseln.
 
 ## Warum werden Änderungen an Zielgruppen, die über die API erstellt wurden, nicht in der [!DNL Target] Benutzeroberfläche angezeigt? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

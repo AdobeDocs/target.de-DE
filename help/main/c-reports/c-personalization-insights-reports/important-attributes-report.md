@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie den Bericht [!UICONTROL Wichtige Attribute] verwenden, der die wichtigsten Attribute zeigt, die das Personalisierungsmodell beeinflusst haben, und ihre relative Bedeutung.
 title: Was ist der Bericht „Wichtige Attribute“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 61%
+source-wordcount: '1949'
+ht-degree: 55%
 ---
 # Bericht „Wichtige Attribute“
 
@@ -69,11 +69,11 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
    Der Bericht [Automated Personalization-](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Automatische Targeting-Zusammenfassung](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) wird angezeigt, der Informationen zur Leistung Ihrer Aktivitäten enthält, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights]-Berichte dar: **[!UICONTROL Automatisierte Segmente]** ( ![Bericht Automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ) und **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ).
 
 
-   Beachten Sie[!UICONTROL &#x200B; dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
+   Beachten Sie[!UICONTROL  dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
 
    >[!IMPORTANT]
    >
-   >Der Bericht [!UICONTROL Wichtige Attribute] ist frühestens 15 Tage nach Aktivierung Ihrer Aktivität verfügbar. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Wichtige Attribute“] ist ausgegraut. Wenn Sie nach 15 Tagen ausreichend personalisierten Traffic in Ihrer Aktivität haben, ist der Bericht [!UICONTROL Wichtige Attribute] verfügbar.
+   >Der Bericht [!UICONTROL Wichtige Attribute] ist frühestens 15 Tage nach Aktivierung Ihrer Aktivität verfügbar. In diesem Zeitraum können Sie weder auf diesen Bericht zugreifen noch auf das Symbol [!UICONTROL Wichtige Attribute] klicken. Wenn Sie nach 15 Tagen ausreichend personalisierten Traffic in Ihrer Aktivität haben, ist der Bericht [!UICONTROL Wichtige Attribute] verfügbar.
 
 1. Nachdem Sie die Aktivität 15 Tage lang aktiviert haben, klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** (![Symbol Wichtige Attribute](/help/main/assets/icons/ViewList.svg) ).
 
@@ -81,7 +81,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
    Im Gegensatz zum [!UICONTROL Zusammenfassungsbericht] (Leistungsberichte) sind [!UICONTROL Personalization Insights] einschließlich [!UICONTROL Wichtige Attribute] nur für feste Datumsbereiche verfügbar: 15 Tage, 30 Tage und 60 Tage.
 
-   Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. „Start“ ist ausgegraut. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
+   Diese festen Datumsbereiche ermöglichen es [!UICONTROL Personalization Insights], ausreichend Daten anzusammeln, um zu verhindern, dass Insights aus kurzfristigen Mustern in Ihrer Aktivität abgeleitet werden. Die beiden Entscheidungen, die Sie beim Datumsbereich treffen können, sind „Enddatum“ und „Dauer“. Sie werden feststellen, dass „Start“ ausgegraut ist. Das Startdatum ändert sich automatisch basierend auf Ihrer Auswahl für Enddatum und Dauer.
 
    Sie können auf die verfügbaren festen Datumsbereiche über die Dropdown-Liste [!UICONTROL Vorgegebener Datumsbereich] zugreifen.
 
@@ -91,7 +91,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
    >[!NOTE]
    >
-   >Der Bericht „Personalization Insights UI“ enthält Informationen zur Auswahl. Der CSV-Download für den Bericht „Wichtige Attribute“ enthält zusätzliche Details. Der Download des Berichts „Wichtige Attribute“ enthält die vollständige Liste der 100 wichtigsten Attribute, während der UI-Bericht nur die wichtigsten 10 enthält. Wenn Sie im Bericht nach einem bestimmten Attribut suchen, es aber nicht enthalten ist, heißt das nicht, dass das entsprechende Attribut die Aktivität nicht beeinflusst hat. Es heißt nur, dass es nicht unter den 100 wichtigsten Attributen ist.
+   >Der Bericht „Personalization Insights UI“ enthält Informationen zur Auswahl. Der CSV-Download für den Bericht „Wichtige Attribute“ enthält zusätzliche Details. Der Download des Berichts „Wichtige Attribute“ enthält die vollständige Liste der 100 wichtigsten Attribute, während der UI-Bericht nur die wichtigsten 10 enthält. Wenn Sie nach einem bestimmten Attribut im Bericht suchen, es jedoch nicht vorhanden ist, bedeutet dies nicht, dass das Attribut die Aktivität nicht beeinflusst hat, sondern nur, dass es nicht die Liste für die 100 wichtigsten Attribute erstellt hat.
 
 ## Bericht für wichtige Attribute interpretieren
 
@@ -110,7 +110,7 @@ In den folgenden häufig gestellten Fragen finden Sie Antworten auf häufig gest
 
 Es gibt verschiedene Gründe, warum die [!UICONTROL Personalization Insights]-Berichte für Ihre Aktivität möglicherweise noch nicht verfügbar sind:
 
-* Es sind noch keine 15 Tage seit Aktivierung der Aktivität vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind erst 15 Tage nach der Aktivierung der Aktivität verfügbar. Bis dahin können Sie nicht auf diese Berichte zugreifen und die Symbole für „Automatisierte Segmente“ und „Wichtige Attribute“ sind ausgegraut.
+* Es sind noch keine 15 Tage seit Aktivierung der Aktivität vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind frühestens 15 Tage nach Beginn der Aktivität verfügbar. Während dieses anfänglichen Zeitraums können Sie nicht auf diese Berichte zugreifen oder auf die Symbole Automatisierte Segmente und Wichtige Attribute klicken.
 * Ihre Aktivität bietet nicht ausreichend Traffic im angegebenen Zeitraum. Nach 15 Tagen und sofern [ausreichend Personalisierungstraffic](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) in Ihrer Aktivität verfügbar ist, um die Personalisierungsmodelle zu erstellen, sind die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ verfügbar.
 * Ihre Aktivität verfügt über ein Ziel zur Umsatzoptimierung. Zum jetzigen Zeitpunkt ist [!UICONTROL Personalization Insights] nur für Aktivitäten mit Zielen zur Konversionsoptimierung verfügbar. Wir werden die Unterstützung von Umsatzoptimierungszielen in einer künftigen Version ergänzen.
 
@@ -124,7 +124,7 @@ Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisi
 
 Mit der [!UICONTROL Models-API], auch als Blockierungsliste-API bezeichnet, können Benutzende die Liste der Attribute (auch als Funktionen bezeichnet) anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verwendet werden. Wenn Sie ein oder mehrere Attribute von der Verwendung durch die Modelle für AP- oder AT-Aktivitäten ausschließen möchten, können Sie die Models-API verwenden, um diese Attribute zur &quot;Blockierungsliste&quot; hinzuzufügen.
 
-Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=de){target=_blank}.
+Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Sind die Informationen in den Berichten [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] mit denen im CSV-Download identisch?
 
@@ -136,7 +136,7 @@ Personalization Insights (sowohl [!UICONTROL „Automatisierte Segmente“] als 
 
 ### Wie wird [!UICONTROL Personalization Insights] erstellt?
 
-[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. &#x200B;] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. ] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### Sind [!UICONTROL Personalization Insights] für umsatzbasierte Modellierungsziele/Primärziel verfügbar?
 
@@ -154,7 +154,7 @@ Es kann verschiedene Gründe dafür geben, dass Ihnen in einem automatisierten S
 * Aktivitäten mit geringerem Volumen, in denen für bestimmte Angebote oder Erlebnisse keine Modelle erstellt wurden.
 * Aktivitäten mit geringerem Volumen, in denen Modelle für einige Angebote/Erlebnisse früher erstellt wurden als andere. Beispiel: Ein zusätzliches Modell wurde am Tag 22 erstellt und Sie sehen sich Daten von den Tagen 10 bis 24 an.
 * Targeting-Regeln in einem bestimmten Angebot, die einschränken, welchen Besuchern welche Angebote/Erlebnisse angezeigt werden.
-* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn die Konversionsraten jedoch nahe genug sind, kann das Modell Traffic bereitstellen, sodass es im Punktbetrag höher ist, aber es handelt sich nicht um „statistisch verschiedene“ Zahlen.
+* In den Insight-Berichten gibt es keine Konfidenzintervalle. Wenn die Konversionsraten jedoch nahe genug liegen, kann das Modell den Traffic bereitstellen, sodass er im Punktbetrag höher ist, es sich jedoch nicht um „statistisch verschiedene“ Zahlen handelt.
 
 Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic bereitstellt. Jede einzelne Person wird auf der Grundlage ihres Gesamtprofils angesprochen. Die Insight-Berichte verallgemeinern dieses Verhalten jedoch, damit es von Menschen besser interpretiert werden kann. Daher schließen sich Segmente nicht gegenseitig aus. Dies kann zu einzelnen Segmenten führen, die dieses Verhalten aufweisen, da eine Person in mehreren Segmenten vorkommen kann.
 
@@ -172,4 +172,4 @@ Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic berei
 
 Das folgende Problem wird derzeit vom [!DNL Target]-Engineering-Team untersucht.
 
-* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht Wichtige Attribute angezeigt. (Die 3813 populärsten)
+* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht ]Wichtige Attribute angezeigt. [!UICONTROL (Die 3813 populärsten)

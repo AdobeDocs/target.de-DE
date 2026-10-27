@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 28%
+source-wordcount: '666'
+ht-degree: 24%
 ---
 # Erstellen einer Aktivität mit Analytics als Berichtsquelle
 
@@ -56,7 +56,7 @@ Das Erstellen einer [!DNL Target] Aktivität, die [!DNL Analytics] als Berichtsq
 
      Überprüfen Sie Ihre [!DNL Analytics]. Wenn Ihr [!DNL Adobe Experience Cloud]-Konto mit mehr als einem [!DNL Analytics] Unternehmen verknüpft ist, melden Sie sich von [!DNL Target] ab und melden Sie sich unter dem richtigen Unternehmen bei [!DNL Analytics] an. Kehren Sie dann zu [!DNL Target] zurück, und die Report Suites werden geladen.
 
-   * Ihnen wird nicht die Report Suite angezeigt, die Sie erwartet haben.
+   * Die Report Suite wird nicht wie erwartet angezeigt.
 
      Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwarteten Report Suites nicht angezeigt werden, versuchen Sie zunächst, sich abzumelden und sich wieder bei der [!DNL Adobe Experience Cloud] anzumelden, um es dann erneut zu versuchen.
 
@@ -75,7 +75,7 @@ Das Erstellen einer [!DNL Target] Aktivität, die [!DNL Analytics] als Berichtsq
    >
    >Sie können eine benutzerdefinierte Target-basierte Metrik an [!DNL Analytics] senden, anstatt sich nur auf [!DNL Analytics] Daten zu verlassen. Sie können beispielsweise das Klicken auf eine Seite überwachen, was von [!DNL Analytics] normalerweise nicht verfolgt wird. Diese benutzerdefinierte Metrik wird vom [!DNL Target]-Server automatisch an [!DNL Analytics] gesendet und in der Metrikauswahl in [!DNL Analytics] als Metrik &quot;[!DNL Target] Conversion“ angezeigt. Die [!DNL Target] Konversionsmetrik ist leer, wenn Sie [!DNL Analytics] verwenden möchten.
 
-   Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
+   Das Festlegen eines Ziels bedeutet nicht, dass Sie bei der Bewertung von Testergebnissen keine andere Metrik verwenden können. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch die Aktivität verbessern möchten.
 
    Der Besucher bleibt nach Erreichen des Ziels in der Aktivität. Der Besucher sieht weiterhin den Aktivitätsinhalt, wird jedoch nicht als neuer Aktivitätseintrag gezählt.
 

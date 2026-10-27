@@ -2,7 +2,7 @@
 keywords: E-Mail; ESP; E-Mail-Serviceprovider; Rawbox; Bereitstellungs-API; ausschließliche Download-Vorlage; E-Mail-Vorlage; Batchverarbeitung; Build-Time-E-Mail
 description: Erfahren Sie, wie Sie E-Mails mit Adobe [!DNL Target Recommendations] integrieren, einschließlich der Verwendung der [!DNL Target]-Bereitstellungs-API, Rawbox-Vorlagen und Nur-Download-Vorlagen.
 title: Wie integriere ich Recommendations mit E-Mail?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 86%
+source-wordcount: '1774'
+ht-degree: 83%
 ---
 # Integration von [!DNL Recommendations] mit E-Mails
 
@@ -97,7 +97,7 @@ Weitere Informationen finden Sie in der [Dokumentation zur Bereitstellungs-API](
 
 ## Option 2: Verwenden einer Rawbox-E-Mail-Vorlage {#rawbox}
 
-Eine Rawbox ähnelt einer Mbox-Anfrage, die jedoch für Nicht-Web-Umgebungen wie E-Mail-Provider (ESP) erstellt wird. Da Sie bei Rawbox-Anfragen nicht mit dem [!DNL Adobe Experience Platform Web SDK] oder [!DNL at.js] arbeiten können, müssen die Anfragen manuell erstellt werden. In den unten stehenden Beispielen ist beschrieben, wie Sie mit Rawbox-Anfragen in E-Mails arbeiten.
+Eine Rawbox ähnelt einer Mbox-Anfrage, die jedoch für Nicht-Web-Umgebungen wie E-Mail-Provider (ESP) erstellt wird. Da Sie in Rawbox-Anfragen nicht über die [!DNL Adobe Experience Platform Web SDK] oder [!DNL at.js] verfügen, müssen Sie die Anfragen manuell erstellen. In den unten stehenden Beispielen ist beschrieben, wie Sie mit Rawbox-Anfragen in E-Mails arbeiten.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Eine Rawbox ähnelt einer Mbox-Anfrage, die jedoch für Nicht-Web-Umgebungen wie
 
 Dieser Ansatz ermöglicht es Ihnen, die Leistung von Recommendations in E-Mails zu verfolgen, die E-Mails unter normalen Bedingungen mit einer Empfehlung zu testen und die Verfolgung auf der Site fortzusetzen.
 
-Richten Sie eine [!DNL Recommendations]-Aktivität in [!DNL Target] mit der Option [Formularbasierter Erlebniseditor](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ein. Wählen Sie als Speicherort den Namen der Mbox aus, die Sie für die Rawbox-Anfrage des ESP gewählt haben. Wählen Sie das passende Design für Ihre E-Mail aus. Zum Zeitpunkt des E-Mail-Aufbaus generiert der ESP einen Aufruf an die [!DNL Target]-Server für jede Rawbox in jeder E-Mail-Nachricht, die erstellt wird. Ihr ESP muss über eine Möglichkeit verfügen, den zurückgegebenen HTML-Code beim Senden in die E-Mail einzuschließen.
+Richten Sie eine [!DNL Recommendations]-Aktivität in [!DNL Target] mit der Option [Formularbasierter Erlebniseditor](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ein. Wählen Sie als Speicherort den Namen der Mbox aus, den Sie in der Rawbox-Anfrage des ESP verwenden möchten. Wählen Sie das passende Design für Ihre E-Mail aus. Zum Zeitpunkt des E-Mail-Aufbaus generiert der ESP einen Aufruf an die [!DNL Target]-Server für jede Rawbox in jeder E-Mail-Nachricht, die erstellt wird. Ihr ESP muss über eine Möglichkeit verfügen, den zurückgegebenen HTML-Code beim Senden in die E-Mail einzuschließen.
 
 Das von Ihnen verwendete E-Mail-System muss mit den folgenden Szenarien klarkommen:
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Antwort | Beschreibung |
 |--- |--- |
-| //ERROR: | Von einem Lastverteiler generiert, wenn kein Inhalt zurückgegeben werden kann. |
+| //ERROR: | Wird vom Lastenausgleich generiert, wenn kein Inhalt zurückgegeben werden kann |
 | Erfolg | Der Parameter `mboxNoRedirect` ist als „true“ (wahr) festgelegt und der Server gibt keine Empfehlungen zurück (d. h., es ist keine Übereinstimmung für die Mbox vorhanden oder der Zwischenspeicher des Servers wurde nicht initialisiert). |
 | bad request | Der `mbox`-Parameter fehlt.<ul><li>Der `mboxDefault`- oder `mboxNoRedirect`-Parameter wird nicht angegeben.</li><li>Anforderungsparameter `mboxTrace` ist angegeben, aber `mboxNoRedirect` nicht.</li><li>Parameter `mboxTarget` wird nicht angegeben, wenn mbox-Namen mit dem Suffix `-clicked` enden.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` wurde nicht angegeben, wenn für die Anfrage keine Übereinstimmung gefunden wurde oder der Parameter `mboxNoRedirect` nicht angegeben ist. |

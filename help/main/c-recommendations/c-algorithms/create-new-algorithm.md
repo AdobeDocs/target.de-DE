@@ -2,7 +2,7 @@
 keywords: Kriterien;Algorithmus;Branche;Vertikal;Seitentyp;Empfehlungsschlüssel;Empfehlungslogik;Logik;Datenbereich;Lookback-Fenster;Verhaltensdatenquelle;Partielles Design;Backup-Empfehlungen;Einschlussregeln;Attributgewichtung;aktuelle Kategorie;benutzerdefiniertes Attribut;zuletzt gekauftes Element;zuletzt angezeigtes Element;am häufigsten angezeigtes Element;bevorzugte Kategorie;Beliebtheit;kürzlich angezeigtes Element;zuletzt gekauft;am häufigsten angezeigt;Favorit;zuletzt angezeigt
 description: Erfahren Sie, wie Sie Kriterien erstellen, die den Inhalt Ihrer [!DNL Recommendations] steuern, um die Empfehlungen anzuzeigen, die für Ihre Aktivität am besten geeignet sind.
 title: Wie erstelle ich [!UICONTROL Kriterien] in [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 44%
+source-wordcount: '2988'
+ht-degree: 43%
 ---
 # Erstellen von Kriterien
 
@@ -41,11 +41,11 @@ In den folgenden Abschnitten wird erläutert, wie Sie neue Kriterien erstellen.
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Klicken Sie im Bildschirm **&#x200B;**&#x200B;> **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* Klicken Sie im Bildschirm **** > **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
 * Wenn Sie eine [!DNL Recommendations] mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, gelangen Sie sofort zum Bildschirm [!UICONTROL Kriterien auswählen], nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf [!UICONTROL Mit Empfehlungen ersetzen], [!UICONTROL Empfehlungen einfügen vor] oder [!UICONTROL Empfehlungen einfügen nach] klicken. Sie können dann ein verfügbares Kriterium auswählen oder auf **[!UICONTROL Kriterien erstellen]** klicken. Wenn Sie neue Kriterien erstellen, haben Sie die Möglichkeit, Ihre Kriterien zur Verwendung mit anderen [!DNL Recommendations] Aktivitäten zu speichern. Weitere Informationen finden Sie unter [Erstellen einer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Wenn Sie eine [!DNL Recommendations] bearbeiten, klicken Sie in ein Feld [!UICONTROL Recommendations-Speicherort] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]** aus. Klicken Sie im [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Kriterien erstellen]**. Sie können Ihre neuen Kriterien speichern, um Sie mit anderen [!DNL Recommendations]-Aktivitäten zu verwenden.
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Methode auf [!UICONTROL &#x200B; Bildschirm „Neue Kriterien &#x200B;]&quot; zugreifen: der Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Methode auf [!UICONTROL  Bildschirm „Neue Kriterien ]&quot; zugreifen: der Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
@@ -57,7 +57,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
 1. Geben Sie einen **[!UICONTROL Kriteriennamen]** ein.
 
-   Dies ist der „interne“ Name, der für die Beschreibung der Kriterien verwendet wird. Sie möchten zum Beispiel Ihre Kriterien „Produkte mit der höchsten Marge“ nennen, Sie möchten jedoch nicht, dass dieser Titel öffentlich angezeigt wird. Sehen Sie sich den nächsten Schritt an, um den öffentlichen Titel festzulegen.
+   Dies ist der „interne“ Name, der für die Beschreibung der Kriterien verwendet wird. Beispiel: Sie möchten Ihre Kriterien als „Produkte mit der höchsten Marge“ bezeichnen, aber Sie möchten nicht, dass dieser Titel öffentlich angezeigt wird. Sehen Sie sich den nächsten Schritt an, um den öffentlichen Titel festzulegen.
 
 1. Geben Sie einen öffentlichen Titel **[!UICONTROL Titel anzeigen]** ein, der auf der Seite für alle Empfehlungen angezeigt werden soll, die diese Kriterien verwenden.
 
@@ -104,7 +104,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
    >[!NOTE]
    >
-   >Bei Auswahl von **[!UICONTROL Elemente]**/ **[!UICONTROL Medien mit ähnlichen Attributen]** haben Sie die Möglichkeit, [Inhaltsähnlichkeitsregeln“ &#x200B;](#similarity).
+   >Bei Auswahl von **[!UICONTROL Elemente]**/ **[!UICONTROL Medien mit ähnlichen Attributen]** haben Sie die Möglichkeit, [Inhaltsähnlichkeitsregeln“ ](#similarity).
 
 1. Wählen Sie je nach Bedarf ein **Elementattribut** und **Profilattribut,** einen **Empfehlungsschlüssel**, **Filterschlüssel** und/oder **Analytics-Metrik**, um den Algorithmus zu konfigurieren.
 
@@ -149,7 +149,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssels] find
 
    Einschlussregeln bestimmen, welche Elemente in Ihren Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von Ihrem vertikalen Markt ab.
 
-   Weitere Informationen finden Sie [&#x200B; „Einschlussregeln angeben](#inclusion) unten.
+   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
 
 ## [!UICONTROL Daten-Source] {#data-source}
 
@@ -177,7 +177,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssels] find
 
    Wählen Sie ein kürzeres Datenfenster, wenn Ihre Site durch hohes Traffic-Aufkommen und häufig wechselndes Verhalten gekennzeichnet ist. Ein kürzeres Fenster ermöglicht es [!DNL Recommendations], besser auf Änderungen am Markt und in Ihrem Unternehmen zu reagieren. Ein kürzeres Fenster bedeutet zum Beispiel, dass [!DNL Recommendations] Änderungen im Besucherverhalten erkennt, wenn Ihre Besucher Saisoneinkäufe absolvieren - wie etwa zum Schulanfang oder zu Weihnachten –, und Artikel empfiehlt, die zur jeweiligen Einkaufssaison passen.
 
-   Wenn Sie nur über wenige Daten verfügen oder das Besucherverhalten sich nur selten ändert, können Sie ein längeres Fenster auswählen. Für viele Sites führt ein kürzeres Fenster jedoch zu qualitativ hochwertigeren Empfehlungen.
+   Wenn Sie nicht über viele Daten verfügen oder sich das Besucherverhalten nicht häufig ändert, können Sie ein längeres Fenster auswählen. Für viele Sites führt ein kürzeres Fenster jedoch zu qualitativ hochwertigeren Empfehlungen.
 
    Die verfügbaren Datenbereiche sind:
 

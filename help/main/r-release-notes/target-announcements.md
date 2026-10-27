@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 96%
+source-wordcount: '2202'
+ht-degree: 95%
 ---
 # [!DNL Adobe Target] Ankündigungen und Ereignisse
 
@@ -64,7 +64,7 @@ Mitteilungen und Informationen über [!DNL Adobe Target]-Ereignisse, einschließ
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=de){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -74,7 +74,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=de){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
@@ -203,7 +203,7 @@ Mobile Erlebnisse fördern die Innovation darin, wie Marketing- und Ingenieur-Te
 
 ### Chef&#39;s Collection: Recipes for Personalization (30. August 2022)
 
-Schließen Sie sich dem [!DNL Adobe Target] -Team an und erhalten Sie einige neue Ideen dazu, wie Sie Target optimal nutzen können. Basierend auf unserem neuesten E-Book „Chefkoch-Kollektion: Ideen zur Personalisierung“.
+Schließen Sie sich dem [!DNL Adobe Target] [!DNL]-Team an und erhalten Sie einige neue Ideen dazu, wie Sie Target optimal nutzen können. Basierend auf unserem neuesten E-Book „Chefkoch-Kollektion: Ideen zur Personalisierung“.
 
 * [Link zur Aufzeichnung](https://video.tv.adobe.com/v/346970/){target=_blank}
 
@@ -317,7 +317,7 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
 
   +++Details
 
-  Marketing-Experten und -Expertinnen, Produkteigentümer und -eigentümerinnen und Entwickler und Entwicklerinnen sind mehr denn je gefordert, die Erlebnisse ihrer Kundinnen und Kunden auf Websites, in Mobile Apps und überall dort, wo sie mit ihnen in Kontakt treten, zu optimieren. Wenig hilfreich sind zahlreiche Werkzeuge mit Daten-Silos und komplizierten Implementierungen.
+  Marketing-Experten und -Expertinnen, Produkteigentümer und -eigentümerinnen und Entwickler und Entwicklerinnen sind mehr denn je gefordert, die Erlebnisse ihrer Kundinnen und Kunden auf Websites, in Mobile Apps und überall dort, wo sie mit ihnen in Kontakt treten, zu optimieren. Wenig hilfreich sind zahlreiche Tools mit Datensilos und komplizierten Implementierungen.
 
   In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten und -expertinnen, wie die Verschiebung kritischer Entscheidungen der Erlebnisoptimierung auf das Benutzergerät durch lokale Ausführung und Nulllatenz Türen für aufregende neue Anwendungsfälle öffnet, während sich die Website-Performance Ihrer Kundinnen und Kunden gleichzeitig verbessert.
 

@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
 
@@ -96,13 +96,13 @@ Zunächst müssen wir at.js 2.x installieren. Diese Version von at.js wurde mit 
 
 ![Dialogfeld „Implementierungsdetails“](/help/main/c-experiences/assets/imp-200.png)
 
-Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung) &#x200B;]. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
+Laden Sie at.js 2.x über die Adobe Target-Benutzeroberfläche unter [!UICONTROL Administration > Implementierung) ]. at.js 2.x kann auch über Tags in [Adobe Experience Platform bereitgestellt ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Die Adobe Target-Erweiterungen sind jedoch derzeit nicht aktuell und werden nicht unterstützt.
 
 +++
 
 +++ Implementieren der neuesten Funktion von at.js 2.x
 
-Implementieren Sie die neueste Funktion (triggerView[) von at.js 2.x &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=de){target=_blank} Ihren Sites.
+Implementieren Sie die neueste Funktion (triggerView[) von at.js 2.x ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} Ihren Sites.
 
 Nachdem Sie die Ansichten Ihrer SPA definiert haben, in denen Sie einen A/B- oder XT-Test ausführen möchten, implementieren Sie die `triggerView()`-Funktion von at.js 2.x mit den als Parameter übergebenen Ansichten. Dadurch können Marketing-Experten VEC zum Entwerfen und Ausführen der A/B- und XT-Tests für diese Ansichten verwenden. Wenn die `triggerView()`-Funktion für diese Ansichten nicht definiert wurde, erkennt VEC die Ansichten nicht, sodass Marketing-Experten den VEC nicht zum Entwerfen und Ausführen von A/B- und XT-Tests verwenden können.
 
@@ -243,7 +243,7 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL Änderungen] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Durchsuchen] zur Ansicht in VEC navigieren, um herauszufinden, ob es sich bei der geklonten Aktion um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL Änderungen] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Durchsuchen] zur Ansicht in VEC navigieren, um festzustellen, ob es sich bei der geklonten Aktion um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladeereignis] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden der Seite Ihrer Web-Anwendung angewendet.<br>**Hinweis** Nachdem ein Verschiebevorgang ausgeführt wurde, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um festzustellen, ob es sich um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
@@ -383,9 +383,9 @@ Ja, at.js 2.x unterstützt A4T für SPA über die `triggerView()`-Funktion, wenn
 | [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |
 | [Recommendations](/help/main/c-recommendations/recommendations.md) | Nein |
 
-**Wie führen wir, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, A/B-Aktivitäten mit automatischem Targeting aus, da SPA VEC das automatische Targeting nicht unterstützt?**
+**Wie führen wir automatische Targeting-A/B-Aktivitäten aus, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, da SPA VEC automatisches Targeting nicht unterstützt?**
 
-Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf [!UICONTROL &#x200B; Schaltfläche „Zur Seitenladeereignis-] wechseln“. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
+Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf [!UICONTROL  Schaltfläche „Zur Seitenladeereignis-] wechseln“. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
 
 ## Unterstützte Integrationen
 
@@ -393,7 +393,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Ja |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Ja |
-| [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de){target=_blank} | Ja |
+| [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Ja |
 | [AEM-Experience Fragments](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ja |
 
 ## Unterstützte Funktionen {#supported-features}
@@ -403,7 +403,7 @@ Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, könne
 | [Arbeitsbereiche und Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Ja |
 | [QA-Links](/help/main/c-activities/c-activity-qa/activity-qa.md) | Ja |
 | [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) | Nein |
-| [Benutzerspezifischer Code &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
+| [Benutzerspezifischer Code ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ja |
 | [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Alle |
 | [Klick-Tracking](/help/main/c-activities/r-success-metrics/click-tracking.md) | Ja |
 | [Bereitstellung mehrerer Aktivitäten](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Ja |
@@ -416,9 +416,9 @@ Um auf die Optionen [!UICONTROL Seitenbereitstellung] im dreiteiligen Workflow f
 
 ![Dialogfeld „Seitenbereitstellung“](/help/main/c-experiences/assets/page-delivery.png)
 
-Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com/de` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/de/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
+Wie durch die oben gezeigten Einstellungen für [!UICONTROL Seitenbereitstellung] definiert, ist eine Target-Aktivität beispielsweise qualifiziert und wird ausgeführt, wenn ein Besucher direkt auf `https://www.adobe.com` landet *oder* wenn ein Besucher auf einer URL landet, die `https://www.adobe.com/products` enthält. Dies eignet sich besonders für alle mehrseitigen Anwendungen, bei der bei jeder Seiteninteraktion die Seite neu geladen wird. In at.js werden dabei die Aktivitäten abgerufen, die sich für die vom Benutzer geöffnete URL qualifizieren.
 
-Da SPAs jedoch anders funktionieren, müssen [!UICONTROL &#x200B; Einstellungen für die &#x200B;]Seitenbereitstellung“ so konfiguriert werden, dass alle Aktionen auf die Ansichten angewendet werden können, wie sie in der SPA VEC-Aktivität definiert sind.
+Da SPAs jedoch anders funktionieren, müssen [!UICONTROL  Einstellungen für die ]Seitenbereitstellung“ so konfiguriert werden, dass alle Aktionen auf die Ansichten angewendet werden können, wie sie in der SPA VEC-Aktivität definiert sind.
 
 ### Anwendungsfall
 
@@ -470,13 +470,13 @@ Dadurch wird sichergestellt, dass ein Kunde die angewendeten Aktionen sehen kann
 
 Jedes Mal, wenn Sie jetzt eine Aktion zu einer Ansicht im SPA VEC hinzufügen, wird Ihnen die folgende Popup-Meldung angezeigt, die Sie daran erinnert, über die Regeln [!UICONTROL Seitenbereitstellung] nachzudenken.
 
-![Meldung zu den Seitenbereitstellungs-Einstellungen &#x200B;](/help/main/c-experiences/assets/pop-up-message.png)
+![Meldung zu den Seitenbereitstellungs-Einstellungen ](/help/main/c-experiences/assets/pop-up-message.png)
 
 Diese Meldung wird angezeigt, wenn Sie die erste Aktion einer Ansicht für jede von Ihnen neu erstellte Aktivität hinzufügen. Diese Meldung hilft sicherzustellen, dass alle Personen in Ihrer Organisation lernen, wie diese [!UICONTROL Seitenbereitstellungsregeln] korrekt angewendet werden.
 
 ## Schulungsvideo: Verwendung von VEC für SPAs in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/34777?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Weitere [&#x200B; finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) &#x200B;](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
+Weitere [ finden Sie unter „Verwenden des Visual Experience Composer für Einzelseiten-Apps (SPA VEC) ](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) Adobe Target&quot;.
 

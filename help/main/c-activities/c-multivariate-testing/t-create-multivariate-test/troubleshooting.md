@@ -1,6 +1,6 @@
 ---
 keywords: Multivariate Tests; Fehlerbehebung; Fehlerbehebung; MVT
-description: Erfahren Sie mehr über die potenziellen Herausforderungen bei der Verwendung von [!UICONTROL Multivariate Test] (MVT)-Aktivitäten in [!DNL Adobe Target] sowie über Lösungsvorschläge.
+description: Erfahren Sie mehr über die potenziellen Herausforderungen bei der Verwendung von [!UICONTROL Multivariate Test](MVT)-Aktivitäten in [!DNL Adobe Target] sowie über Lösungsvorschläge.
 title: Wie behebe ich einen [!UICONTROL Multivarianz-Test]?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
@@ -16,9 +16,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 21%
 ---
 # Fehlerbehebung bei [!UICONTROL Multivarianz-])

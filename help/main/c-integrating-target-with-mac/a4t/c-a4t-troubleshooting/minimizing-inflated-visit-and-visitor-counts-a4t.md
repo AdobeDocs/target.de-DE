@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # Minimieren überhöhter Besuchs- und Besucherzahlen in A4T
 
@@ -73,7 +73,7 @@ Die nachfolgenden Informationen bezüglich dieser Änderung enthalten auch Anwei
 
 Meistens ist ein Treffer in [!DNL Target] auf jeder einzelnen Website mit einem Treffer in [!DNL Analytics] verknüpft. Diese Verknüpfung wird vorgenommen, wenn eine konsistente SDID sowohl im Aufruf von [!DNL Target] als auch von [!DNL Analytics] verwendet wird und eine [!DNL Experience Cloud ID] (MCID) im Aufruf [!DNL Analytics] auf der gleichen Seite enthalten ist. [!DNL Target] verfügt normalerweise ebenfalls über die MCID, wird [!DNL Target] jedoch vor Rückgabe der Besucher-ID aufgerufen, wird der Treffer aufgrund der SDID trotzdem zugewiesen. Außerdem muss der Besucher lange genug auf der Seite bleiben, um einen [!DNL Analytics]-Aufruf auslösen zu können, nachdem ein [!DNL Target]-Aufruf ausgelöst wurde. Dieses Szenario ist ideal.
 
-**Treffer mit partiellen Daten:** Manchmal bleiben Besucher nicht lange genug auf einer Seite, um einen Aufruf von [!DNL Analytics] auszulösen, während in [!DNL Target] jedoch eine entsprechende MCID vorliegt. Dies führt zu Treffern, zu denen nur partielle Daten vorliegen (d. h. Treffer, zu denen es keine Seitenaufrufe in [!DNL Analytics] gibt). Kehren solche Besucher auf Ihre Website zurück und sehen sich eine Seite an, die [!DNL Analytics]-Code enthält, werden sie ordnungsgemäß als wiederkehrende Besucher erfasst. Hierbei handelt es sich um Treffer, die nicht aufgezeichnet worden wären, wenn sich auf der Seite nur [!DNL Analytics]-Code befände. Einige Kunden möchten für diese Treffer keine Daten aufzeichnen, da sie bestimmte Metriken (Besuche) sehr stark in die Höhe treiben, andere Metriken (Seitenansichten pro Besuch, Zeit pro Besuch und so weiter) jedoch stark reduzieren. Außerdem werden ihnen Besuche angezeigt, bei denen keine Seiten angesehen wurden. Es gibt jedoch einige gute Gründe, diese Daten trotzdem zu erfassen.
+**Treffer mit partiellen Daten:** Manchmal bleiben Benutzer nicht lange genug auf einer Seite, um einen [!DNL Analytics]-Aufruf zu senden, aber [!DNL Target] verfügt über eine entsprechende MCID. Dies führt zu Treffern, zu denen nur partielle Daten vorliegen (d. h. Treffer, zu denen es keine Seitenaufrufe in [!DNL Analytics] gibt). Kehren solche Besucher auf Ihre Website zurück und sehen sich eine Seite an, die [!DNL Analytics]-Code enthält, werden sie ordnungsgemäß als wiederkehrende Besucher erfasst. Hierbei handelt es sich um Treffer, die nicht aufgezeichnet worden wären, wenn sich auf der Seite nur [!DNL Analytics]-Code befände. Einige Kunden möchten für diese Treffer keine Daten erheben, da sie bestimmte Metriken (Besuche) in die Höhe treiben, andere Metriken (Seitenansichten pro Besuch, Zeit pro Besuch usw.) aber stark reduzieren. Außerdem werden ihnen Besuche angezeigt, bei denen keine Seiten angesehen wurden. Es gibt jedoch einige gute Gründe, diese Daten trotzdem zu erfassen.
 
 Um solche Treffer mit partiellen Daten zu minimieren, können Sie Ihre Seite so gestalten, dass sie schneller geladen wird, Bibliotheken auf die neueste Version aktualisieren oder eine [virtuelle Report Suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) erstellen, in der solche Treffer ausgeschlossen sind. Eine schrittweise Anleitung hierzu finden Sie unter [Erstellen virtueller Report Suites](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) im *Analytics-Komponentenhandbuch*.
 
@@ -94,7 +94,7 @@ Beim Erstellen der virtuellen Report Suite müssen Sie für die Segmentdefinitio
 * Und
 * Exitlinkinstanzen: Nicht vorhanden
 
-**Verwaiste Treffer:** In einigen wenigen Fällen bleiben Besucher nicht lange genug auf einer Seite, um einen Aufruf von Analytics auszulösen, und Target konnte keine passende MCID erfassen. Diese Treffer werden von Adobe als „verwaiste“ Treffer bezeichnet. Diese Treffer stehen für Kunden, die nur selten zurückkehren, und treiben die Zählungen der Besuche und Besucher unverhältnismäßig stark in die Höhe.
+**Verwaiste Treffer:** In weniger Situationen bleiben Benutzer nicht lange genug für einen Analytics-Aufruf auf der Seite und Target erhielt keine ordnungsgemäße MCID. Diese Treffer werden von Adobe als „verwaiste“ Treffer bezeichnet. Diese Treffer stehen für Kunden, die nur selten zurückkehren, und treiben die Zählungen der Besuche und Besucher unverhältnismäßig stark in die Höhe.
 
 Möchten Sie die Anzahl dieser „verwaisten“ Treffer minimieren, können Sie eine [virtuelle Report Suite](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=de) erstellen, in der diese Treffer nicht erfasst werden.
 

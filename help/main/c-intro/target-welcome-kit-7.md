@@ -25,20 +25,20 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # Kapitel 7: Erstellen und Ausführen Ihrer ersten [!DNL Target]-Aktivität
 
-Sie möchten nun mit Ihrer ersten Aktivität in [!DNL Target] beginnen? Exzellent. Am besten nehmen wir uns eine Aktivität für Ihre Website, Ihre mobile Site oder Ihre mobile App vor, die nicht übermäßig komplex ist, Ihnen aber einen schnellen ROI bietet und Sie das Potenzial des Testens und Personalisierens mit [!DNL Target] ahnen lässt. Je nach Organisation und geschäftlichem Schwerpunkt könnten Sie mit Ihrer ersten Aktivität drei verschiedene Routen einschlagen.
+Sind Sie also bereit, mit Ihrer ersten Aktivität in [!DNL Target] zu beginnen? Exzellent. Am besten nehmen wir uns eine Aktivität für Ihre Website, Ihre mobile Site oder Ihre mobile App vor, die nicht übermäßig komplex ist, Ihnen aber einen schnellen ROI bietet und Sie das Potenzial des Testens und Personalisierens mit [!DNL Target] ahnen lässt. Je nach Organisation und geschäftlichem Schwerpunkt könnten Sie mit Ihrer ersten Aktivität drei verschiedene Routen einschlagen.
 
 Entscheidend für Ihre erste Aktivität ist jedoch die Festlegung einer Baseline für die Geschäftsmetrik, die Sie verbessern möchten - Umsatz, Clickthroughs, Formularübermittlungen, abgeschlossene Registrierungen usw. Bei einem A/B-Test können Sie das aktuelle Erlebnis oder Angebot häufig als „Kontrolle“ verwenden und die Wirkung einer Varianz dieses Erlebnisses oder Angebots daran messen. Bei den meisten Personalisierungsaktivitäten werden Sie jedoch im Idealfall die Leistung des aktuellen Erlebnisses bestimmen, bevor Sie eine personalisierte Version davon starten. Nur so können Sie die Wirksamkeit der Personalisierung messen.
 
 ## Route 1: A/B-Test zur Messung des gesamten Besucher-Traffics
 
-Sie können eine grundlegende [A/B-Testaktivität](/help/main/c-activities/t-test-ab/test-ab.md) einrichten, mit der Sie eine Varianz eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianzen vergleichen, um festzustellen, welche dieser Varianzen Ihre Besucher bevorzugen. Wenn Sie nur nach dem Gewinner - der erfolgreichsten Varianz - suchen, kommen Sie mit KI schneller zum Ergebnis. Dazu wählen Sie [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) im zweiten Schritt des A/B-Testsetups aus.
+Sie können eine grundlegende [A/B-Testaktivität](/help/main/c-activities/t-test-ab/test-ab.md) einrichten, mit der Sie eine Varianz eines Angebots oder Erlebnisses mit einer oder mehreren anderen Varianzen vergleichen, um festzustellen, welche dieser Varianzen Ihre Besucher bevorzugen. Wenn Sie nur nach der erfolgreichsten Varianz suchen, können Sie im zweiten Schritt des A/B-Testsetups KI nutzen, um [ Ergebnisse zu beschleunigen](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) indem Sie „Automatische Zuordnung“ auswählen.
 
 Beispiel: Ein Medienunternehmen testet Varianzen seiner aktuellen Version eines Geschenk-Abo-Angebots auf der Homepage seiner Website bzw. mobilen Site, um festzustellen, welche Varianz mehr Besucher veranlasst, das Geschenk-Abo zu erwerben. Bei Auswahl der Option „Automatische Zuordnung“ verlagert die Aktivität während der Testausführung mehr Traffic auf die erfolgreichste Varianz. Andernfalls müssen Sie die erfolgreichste Varianz nach Abschluss des Tests manuell live schalten.
 
@@ -80,7 +80,7 @@ Die folgenden Gedanken sollten in jeden Bereich des Planers einfließen:
 
 ### Was kann verbessert werden?
 
-Legen Sie fest, welchen Kanal oder Touchpoint Sie verbessern möchten. Tragen Sie die URL des Elements im Planer ein oder beschreiben Sie das Element. In diesem Fall fügen Sie die URL für die Web-Seite hinzu, für die Sie eine Testvarianz oder ein personalisiertes Erlebnis erstellen möchten.
+Legen Sie fest, welchen Kanal oder Touchpoint Sie verbessern möchten. Tragen Sie die URL des Elements im Planer ein oder beschreiben Sie das Element. In diesem Fall fügen Sie die URL der Web-Seite hinzu, für die Sie eine Testvariante oder ein personalisiertes Erlebnis erstellen möchten.
 
 ### Wie lautet Ihre Hypothese?
 
@@ -110,7 +110,7 @@ Wenn Sie für Ihre Aktivität die Unterstützung eines Designers, eines Web-Entw
 
 Um aus dem Test einen statistisch signifikanten Schluss ziehen zu können, muss in die Testpopulation eine gewisse Anzahl an Besuchern einfließen. Überlegen Sie: Können Sie dem Ergebnis trauen, wenn nur zwei Personen an dem Test teilnehmen?
 
-[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL &#x200B; Link &#x200B;]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
+[!DNL Target] stützt sich bei der Bestimmung, ob ein Test statistisch relevant ist, auf statistische Prinzipien. Der [!DNL Adobe Target] [Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) hilft Ihnen, die Dauer einer Testausführung auf Grundlage der benötigten Konfidenz in die Ergebnisse zu bestimmen. Klicken Sie auf [!UICONTROL  Link ]Weitere Informationen“ in diesem Feld, um den Rechner zu öffnen.
 
 ### Wie wichtig ist diese Aktivität?
 

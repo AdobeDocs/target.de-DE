@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 ---
 # [!UICONTROL Automatische Zuordnung] liefert schnellere Testergebnisse und mehr Umsätze als manuelle Tests
 
-Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für Ihre gesamte Audience verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.
+Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für die gesamte Zielgruppe verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.
 
 ## Automatisches Zuweisen von Traffic
 
@@ -34,7 +34,7 @@ Wenn Sie möchten, dass eine Option das erfolgreichste Erlebnis öfter und früh
 
 [!UICONTROL Automatische Zuordnung] verwendet das Prinzip des mehrarmigen Banditen. Wenn der Begriff unbekannt ist, ist ein einarmiger Bandit ein umgangssprachlicher Begriff für einen Spielautomaten (man denke an Las Vegas). Stellen Sie sich die automatische Zuordnung des Traffics als mit mehreren Slotmaschinen vor, in diesem Fall Testvarianzen, und ziehen Sie zunächst alle Griffe gleich ab. Im Laufe der Zeit zahlen sich eine oder mehrere Maschinen oder Testvarianten möglicherweise mehr aus als andere. Wenn diese Situation eintritt, würde ein Spieler natürlich anfangen, an den Griffen derjenigen zu ziehen, die häufiger gewinnen. In Bezug auf die Traffic-Zuordnung bietet [!DNL Target] mehr Besuchern das Erlebnis oder die Erlebnisse, die mehr gewinnen.
 
-Betrachten wir die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL &#x200B; automatischen Zuordnung &#x200B;] sich ein erfolgreichstes Erlebnis heraus: [!UICONTROL Target] leitet zu Beginn des Tests einen größeren Teil des Traffics an den Gewinner weiter.
+Betrachten wir die folgende Abbildung einer zweiwöchigen A/B-Aktivität. Mit [!UICONTROL  automatischen Zuordnung ] sich ein erfolgreichstes Erlebnis heraus: [!UICONTROL Target] leitet zu Beginn des Tests einen größeren Teil des Traffics an den Gewinner weiter.
 
 ![Abbildung zur automatischen Zuordnung](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 

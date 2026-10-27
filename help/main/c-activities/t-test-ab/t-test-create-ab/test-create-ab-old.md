@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: ab2570eb-4844-49aa-8334-e91a345525e5
     internal-label: A/B Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 36%
+source-wordcount: '950'
+ht-degree: 34%
 ---
 # Erstellen eines A/B-Tests
 
@@ -50,7 +50,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) in der vorherigen Abbildung ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -88,7 +88,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
@@ -102,7 +102,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Klicken Sie im Feld **[!UICONTROL Zielgruppe]** auf das Bearbeitungssymbol (das vertikale Auslassungszeichen), klicken Sie auf **[!UICONTROL Zielgruppe ersetzen]** und [die Zielgruppe auswählen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität.
 
-   Standardmäßig ist die Zielgruppe auf &quot;[!UICONTROL &#x200B; Besucher“ &#x200B;].
+   Standardmäßig ist die Zielgruppe auf &quot;[!UICONTROL  Besucher“ ].
 
 1. Wählen Sie den Prozentsatz qualifizierter Besucher aus, der an der Aktivität teilnehmen soll.
 
@@ -130,7 +130,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
 
 ## Schulungsvideo: Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
@@ -139,4 +139,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Workflow
 * Erstellen einer [!UICONTROL A/B-Test]-Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 46%
+source-wordcount: '711'
+ht-degree: 43%
 ---
 # Umgebungen
 
@@ -66,13 +66,13 @@ Wenn Sie [!UICONTROL Produktion] als Standard verwenden, werden hier automatisch
 
 So legen Sie die Standardumgebung für die Berichterstellung fest:
 
-1. Klicken Sie in [!UICONTROL &#x200B; Liste &#x200B;]Umgebungen“ auf das Sternsymbol
+1. Klicken Sie in [!UICONTROL  Liste ]Umgebungen“ auf das Sternsymbol
 
 >[!NOTE]
 >
 >[!DNL Recommendations]-Benutzer müssen ihre Verhaltens- und Produktdatenbank neu erstellen, wenn Hosts die Hostgruppen wechseln.
 >
->Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=de#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
+>Wenn Sie eine [Standardumgebung in einem Datenstrom [!DNL Adobe Experience Platform]  angeben](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank} überschreibt diese Einstellung die Einstellung in [!DNL Target].
 
 ## Ändern des Namens einer Umgebung {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -97,7 +97,7 @@ Sie können eine Vorschau der Inhalte von Recommendations-Sammlungen und -Aussch
 
 {{premium-note}}
 
-Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für (Entwicklungs[!UICONTROL - und &#x200B;]&#x200B;[!UICONTROL Produktionsumgebungen] verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
+Eine Umgebung kann verwendet werden, um die verfügbaren Elemente in Ihrem Katalog für verschiedene Verwendungszwecke zu trennen. Sie können beispielsweise Hostgruppen für (Entwicklungs[!UICONTROL - und ][!UICONTROL Produktionsumgebungen] verschiedene Marken oder verschiedene Regionen verwenden. Standardmäßig basieren die Vorschauergebnisse in „Katalogsuche“, „Sammlungen“ und „Ausnahmen“ auf der Standardhostgruppe. (Sie können auch eine andere Hostgruppe auswählen, um Ergebnisse in der Vorschau anzuzeigen, indem Sie den Umgebungsfilter verwenden.) Standardmäßig sind neu hinzugefügte Elemente in allen Hostgruppen verfügbar, es sei denn, beim Erstellen oder Aktualisieren des Elements wird eine Umgebungs-ID angegeben.
 
 >[!NOTE]
 >

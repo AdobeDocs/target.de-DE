@@ -1,6 +1,6 @@
 ---
 keywords: Automatische Zuordnung erstellen;A/B-Test;Aktivität automatisch zuweisen;neue A/B-Aktivität;Automatische Zuordnung;Automatische Zuordnung zu bestem Erlebnis;Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie mit [!UICONTROL Visual Experience Composer] (VEC) A/B[!UICONTROL Test-Aktivitäten für automatische Zuordnung &#x200B;].
+description: Erfahren Sie, wie Sie mit [!UICONTROL Visual Experience Composer] (VEC) A/B[!UICONTROL Test-Aktivitäten für automatische Zuordnung ].
 title: Wie erstelle ich eine Aktivität [!UICONTROL Automatische Zuordnung]?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
@@ -25,18 +25,18 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 14%
+source-wordcount: '1075'
+ht-degree: 12%
 ---
-# Erstellen [!UICONTROL &#x200B; Aktivität „Automatische Zuordnung]
+# Erstellen [!UICONTROL  Aktivität „Automatische Zuordnung]
 
 Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre Aktivität [!UICONTROL Automatische Zuordnung] [!UICONTROL A/B-Test] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
 
 Zusätzlich zur Aktivität [!UICONTROL Automatische Zuordnung] [!UICONTROL A/B-Test] (siehe diesen Artikel) bietet [!DNL Target] zwei zusätzliche Typen von [!UICONTROL A/B-Test]-Aktivitäten: [!UICONTROL Manuell (Standard)] und [!UICONTROL Automatisches Targeting]. Siehe [Typen von A/B-Testaktivitäten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-Test - Übersicht*.
 
-So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung“:
+So erstellen Sie [!UICONTROL  Aktivität ]Automatische Zuordnung“:
 
 1. Klicken Sie in der **[!UICONTROL Aktivitäten]** auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL A/B-Test]**.
 
@@ -50,7 +50,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
    >
    >Informationen zur Fehlerbehebung bei VEC finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -90,7 +90,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
 1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Um [!UICONTROL Erlebnis B] zu ändern, beginnen Sie mit Schritt 2.
 
@@ -109,7 +109,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
    Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
    1. Um die Audience zu ändern, klicken Sie auf **[!UICONTROL Ersetzen]-Symbol** ( ![Ersetzen-Symbol](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-   1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld &#x200B;]Zielgruppe hinzufügen[&#x200B; die gewünschte Zielgruppe aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
+   1. Wählen Sie [!UICONTROL  Dialogfeld ]Zielgruppe hinzufügen[ die gewünschte Zielgruppe aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
 
       Sie können auf **Kombinieren von Zielgruppen** klicken, um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
@@ -142,10 +142,10 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
    >[!NOTE]
    >
-   >Wenn Sie „Analytics [&#x200B; Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Wenn Sie „Analytics [ Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
    >
    >Wenn Sie &quot;[[!DNL Target]  in“ mit  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) Aktivität verwenden möchten, lesen Sie [diese Seite](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source).
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.

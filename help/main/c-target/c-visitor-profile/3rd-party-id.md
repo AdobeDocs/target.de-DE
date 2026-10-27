@@ -7,19 +7,22 @@ exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 80%
-
+source-wordcount: '742'
+ht-degree: 78%
 ---
-
 # Echtzeit-Profilsynchronisierung für mbox3rdPartyId
 
 Die `mbox3rdPartyId` in [!DNL Adobe Target] ist die Besucher-ID Ihres Unternehmens, wie z. B. die Zugehörigkeits-ID des Treueprogramms Ihres Unternehmens.
@@ -49,23 +52,23 @@ Wenn der Besucher sich anmeldet, wird das zusammengeführte Profil beibehalten.
 
 ## Zu beachten {#considerations}
 
-* Wenn Ihre Seite mehrere Mboxes enthält und nur einige davon `3rdPartyID` verwenden, hat [!DNL Target] nicht für jede Besucheranfrage ein separates Besucherprofil/einen separaten Kontext. Der `3rdPartyID`-Kontext hat Vorrang vor dem PCID-Kontext. Es reicht aus, wenn eine Mbox die `3rdPartyId` weiterleitet, damit der Kontext Vorrang vor PCID erhält.
+* Wenn Ihre Seite mehrere Mboxes enthält und nur einige davon `3rdPartyID` verwenden, hat [!DNL Target] nicht für jede Besucheranfrage ein separates Besucherprofil/einen separaten Kontext. Der `3rdPartyID`-Kontext hat Vorrang vor dem PCID-Kontext. Es reicht aus, wenn eine Mbox `3rdPartyId` weiterleitet, damit der Kontext Vorrang vor PCID erhält.
 
   Angenommen, ein Besucher greift auf eine Seite zu, bevor er sich anmeldet, und ein Erlebnis wird ihm angezeigt. Die globale Mbox verwendet keine `3rdPartyID`. Nach der Anmeldung sieht der Besucher eines von drei Erlebnissen mit untergeordneten Mboxes, von denen einige die `3rdPartyID` verwenden. Der Besucher besucht verschiedene Seiten auf der Site und verwendet dann die Schaltfläche „Zurück“, um zur Hauptseite zurückzukehren, auf die er vor seiner Anmeldung zugegriffen hat. Dort wird ihm ein anderes Erlebnis angezeigt. In diesem Szenario gab die globale Mbox die `3rdPartyID` nicht weiter, aber eine oder mehrere der untergeordneten Mboxes haben das getan. `3rdPartyID` hatte Vorrang vor PCID.
 
 * Sie können Kunden-IDs von Besuchern mithilfe zweier Methoden an [!DNL Target] senden:
 
-   1. Verwenden Sie den `mbox3rdPartyId`/`thirdPartyId`.
+  1. Verwenden Sie den `mbox3rdPartyId`/`thirdPartyId`.
 
-      * `mbox3rdPartyId` ist der Parametername bei Verwendung von `targetPageParams` oder `targetPageParamsAll`
-      * `thirdPartyId` ist der Parametername, den Sie direkt in der Payload der Bereitstellungs-API festlegen.
-      * Sie können in diesem Parameter nur einen Wert senden.
+     * `mbox3rdPartyId` ist der Parametername bei Verwendung von `targetPageParams` oder `targetPageParamsAll`
+     * `thirdPartyId` ist der Parametername, den Sie direkt in der Payload der Bereitstellungs-API festlegen.
+     * Sie können in diesem Parameter nur einen Wert senden.
 
-   1. Verwenden Sie die Funktion `setCustomerId`/`customerIds` des ECID-Dienstes.
+  1. Verwenden Sie die Funktion `setCustomerId`/`customerIds` des ECID-Dienstes.
 
-      * `setCustomerId` ist eine Funktion, die Sie in Client-seitigen Implementierungen (Browser) verwenden können, wenn VisitorAPI.js auf der Seite verfügbar ist.
-      * `customerIds` ist der Parametername, der verwendet wird, wenn Sie ihn direkt in der Payload der Bereitstellungs-API festlegen und der normalerweise auf Server-seitigen oder IOT-Implementierungen (Internet der Dinge) ausgeführt wird.
-      * Im Gegensatz zu `mbox3rdPartyId`/`thirdPartyId` können Sie bei diesem Ansatz mehrere IDs als Liste senden. Da [!DNL Target] jedoch nur eine einzige Kunden-ID pro TnT-ID unterstützt, wird die erste ID in der Liste mit einem bekannten Alias (Alias, der in der Benutzeroberfläche „Kundenattribute“ konfiguriert ist) verwendet.
+     * `setCustomerId` ist eine Funktion, die Sie in Client-seitigen Implementierungen (Browser) verwenden können, wenn VisitorAPI.js auf der Seite verfügbar ist.
+     * `customerIds` ist der Parametername, der verwendet wird, wenn Sie ihn direkt in der Payload der Bereitstellungs-API festlegen und der normalerweise auf Server-seitigen oder IOT-Implementierungen (Internet der Dinge) ausgeführt wird.
+     * Im Gegensatz zu `mbox3rdPartyId`/`thirdPartyId` können Sie bei diesem Ansatz mehrere IDs als Liste senden. Da [!DNL Target] jedoch nur eine einzige Kunden-ID pro TnT-ID unterstützt, wird die erste ID in der Liste mit einem bekannten Alias (Alias, der in der Benutzeroberfläche „Kundenattribute“ konfiguriert ist) verwendet.
 
   Sie können `mbox3rdPartyId`/`thirdPartyId` verwenden, wenn [!DNL Target] Ihre einzige [!DNL Adobe Experience Cloud] ist und Sie keine Kundenattribute verwenden möchten. In allen anderen Fällen empfehlen wir, `setCustomerId`/`customerIds` zum Senden Ihrer Kunden-IDs zu verwenden.
 

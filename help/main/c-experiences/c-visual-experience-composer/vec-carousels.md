@@ -14,14 +14,14 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 70%
+source-wordcount: '154'
+ht-degree: 66%
 ---
 # Erstellen von Karussells, die in Visual Experience Composer funktionieren
 
-In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL &#x200B; Experience Composer) &#x200B;] werden kann.
+In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL  Experience Composer) ] werden kann.
 
 Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass die ausgewählte Folie die Auswahl für die richtige Folie beinhaltet, selbst wenn sie nach einigen Sekunden im Visual Experience Composer ausgewechselt wird.
 
@@ -37,7 +37,7 @@ Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass 
 
 1. Fügen Sie CSS hinzu, um Aussehen und Feeling des Erlebnisses anzupassen.
 
-   Verwenden Sie hierzu keinesfalls JavaScript.
+   Verwenden Sie dafür nicht JavaScript.
 
    >[!NOTE]
    >

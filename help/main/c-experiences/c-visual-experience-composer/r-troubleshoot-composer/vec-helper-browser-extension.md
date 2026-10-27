@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 51%
 ---
 # [!UICONTROL Visual Experience Composer] Helper-Erweiterung
@@ -58,7 +58,7 @@ Ein SW ist eine Web-Technologie, mit der Anforderungen durch eine Web-Seite für
 
 Der SW kann die Zwischenspeicherung steuern und die Web-Seite selbst zwischenspeichern sowie auch statische Ressourcen wie JS, CSS, IMG, AJAX-Anfragen, deren Inhalte und deren Antwort-Header, einschließlich der Header, die unsere [Target VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) zu entfernen versucht, z. B. X-Frame-Optionen: SAMEORIGIN, CSP (Content-Security-Policy) oder Set-Cookie.
 
-Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Kopfzeilen und Cookies nicht beheben, wenn die Web-Seitenanforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Kopfzeilen, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
+Leider erhalten die Chrome-Erweiterungs-APIs, die Web-Anfragen abfangen, nicht die Anfragen, die von einem SW abgefangen und verarbeitet wurden. Daher kann die Erweiterung die Header und Cookies nicht beheben, wenn die Web-Seitenanforderung von einem SW aus dem Cache bereitgestellt wurde, da die Web-Seite aufgrund der X-Frame-Options- oder CSP-Header, die ebenfalls zwischengespeichert wurden, nicht im VEC geladen wird.
 
 Als potenzielle Problemumgehung können Sie Service Workers auf der Registerkarte &quot;Chrome Developer Tools“ > „Anwendung“ deaktivieren und dann das Kontrollkästchen „Für Netzwerk umgehen“ im Abschnitt „Service Workers“ aktivieren.
 
@@ -73,7 +73,7 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
   Beachten Sie, dass bei Verwendung des Enhanced Experience Composer (EEC) die Erweiterung at.js zwar nicht einbindet, aber die SameSite Cookie-Funktionalität weiterhin vorhanden ist. Um at.js auf der Webseite einzubinden, schalten Sie den EEC aus.
 
-* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer) &#x200B;].
+* [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) werden auch ohne den [!UICONTROL Enhanced Experience Composer) ].
 * Kunden, für die [!DNL Target] noch ungewohnt ist, können mit der Erweiterung mit [!DNL Target] experimentieren, selbst wenn ihre IT-Entwickler [!DNL Target] noch nicht auf der Webseite implementiert haben.
 * Partner, die Websites und [!DNL Target]-Konten mehrerer Kunden bedienen, verfügen jetzt über einen einfachen Mechanismus, durch den sie VEC laden, anstatt mehrere Regeln in Drittanbieter-Werkzeugen verwalten zu müssen.
 
@@ -85,7 +85,7 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 1. Um die Erweiterung zu verwenden, klicken Sie in der Symbolleiste des Chrome-Browsers auf das VEC Helper-Symbol (![VEC Helper-Symbol](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)), während Sie sich im VEC oder [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) befinden.
 1. (Bedingt) Schieben Sie den Umschalter **[!UICONTROL Target-Bibliotheken einfügen]** auf die Position „ein“, wenn die Web-Seite noch nicht die [!DNL Target] at.js-JavaScript-Bibliothek enthält.
 
-   Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung [!UICONTROL Target-Bibliotheken &#x200B;]:
+   Die folgende Abbildung zeigt den VEC Helper mit aktivierter Einstellung [!UICONTROL Target-Bibliotheken ]:
 
    ![VEC Helper 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -105,7 +105,7 @@ Die VEC Helper-Browser-Erweiterung für Chrome löst Probleme beim Laden von Web
 
   Diese Markierung ist eine globale Einstellung. Sie wird für alle im VEC geöffneten Websites aktiviert bzw. deaktiviert. Wenn Sie beispielsweise diese Markierung auf „Ein“ setzen und eine Website öffnen, die bereits mit at.js implementiert ist, erhalten Sie eine Meldung, die Sie darüber informiert, dass at.js bereits geladen ist. Adobe geht davon aus, dass die meisten Kundinnen und Kunden auf ihren Seiten bereits at.js implementiert haben und die Standardeinstellung „off“ verwenden.
 
-* Die Erweiterung lädt die neueste Version von at.js, die über die [!DNL Target UI] unter [!UICONTROL Administration > Implementierung“ verfügbar &#x200B;].
+* Die Erweiterung lädt die neueste Version von at.js, die über die [!DNL Target UI] unter [!UICONTROL Administration > Implementierung“ verfügbar ].
 * Wenn Sie die Erweiterung verwenden, um at.js im [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) einzufügen, muss eine andere Chrome-Registerkarte geöffnet sein. Diese Chrome-Registerkarte muss für dieselbe [!DNL Adobe Experience Cloud]-Organisation authentifiziert sein, in der Sie die Aktivität erstellt haben.
 * Die folgenden Meldungen helfen Ihnen dabei, auf dem neuesten Stand zu bleiben:
 

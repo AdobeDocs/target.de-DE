@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # Mobile Viewports für responsive Erlebnisse
 
@@ -147,7 +147,7 @@ Konfigurieren Sie die mobilen Viewports, die Sie verfügbar machen möchten, wä
 Fügen Sie Ihren [!DNL Target]-Aktivitäten mobile Viewports hinzu, um responsive Erlebnisse für Mobilgeräte zu erstellen.
 
 1. Erstellen Sie die [gewünschte Aktivität](/help/main/c-activities/activities.md).
-1. Klicken Sie im [!UICONTROL Visual Experience &#x200B;]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
+1. Klicken Sie im [!UICONTROL Visual Experience ]) auf das Symbol **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Mobile Viewports hinzufügen]**.
 
    ![Option „Mobile Viewports“](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -184,7 +184,7 @@ Im folgenden Demonstrationsvideo erfahren Sie etwas dazu, wie Sie in Visual Expe
 * Erlebnisse für responsive Websites ansehen und erstellen
 * Überlagerungen zum Hervorheben von Elementtypen nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/30166?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Kontovoreinstellungen in Adobe Target ![Übersichts-Badge](/help/main/assets/overview.png)
 

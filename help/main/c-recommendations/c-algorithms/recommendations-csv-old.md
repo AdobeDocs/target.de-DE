@@ -2,7 +2,7 @@
 keywords: Erstellen benutzerdefinierter Kriterien; Algorithmen; Kriterien; Empfehlungskriterien; csv; ftp; CSV hochladen
 description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations eine CSV-Datei hochladen, um Ihre Recommendations anzupassen.
 title: Wie lade ich benutzerdefinierte Kriterien in Recommendations hoch?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 32%
+source-wordcount: '738'
+ht-degree: 29%
 ---
 # Hochladen benutzerdefinierter Kriterien
 
@@ -25,11 +25,11 @@ Laden Sie eine CSV-Datei hoch, um Ihre Empfehlungen in [!DNL Adobe Target] anzup
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
 
-* Klicken Sie im Bildschirm **&#x200B;**&#x200B;> **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
+* Klicken Sie im Bildschirm **** > **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
 * Wenn Sie eine [!DNL Recommendations] mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, gelangen Sie sofort zum Bildschirm [!UICONTROL Kriterien auswählen], nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf [!UICONTROL Mit Empfehlungen ersetzen], [!UICONTROL Empfehlungen einfügen vor] oder [!UICONTROL Empfehlungen einfügen nach] klicken. Sie können dann ein verfügbares Kriterium auswählen oder auf **[!UICONTROL Kriterien erstellen]** klicken. Wenn Sie neue Kriterien erstellen, können Sie Ihre Kriterien zur Verwendung mit anderen [!DNL Recommendations] speichern. Weitere Informationen finden Sie unter [Erstellen einer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 * Wenn Sie eine [!DNL Recommendations] bearbeiten, klicken Sie in ein Feld [!UICONTROL Recommendations-Speicherort] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]** aus. Klicken Sie im [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Kriterien erstellen]**. Sie können Ihre neuen Kriterien zur Verwendung mit anderen [!DNL Recommendations] speichern.
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Methode auf [!UICONTROL &#x200B; Bildschirm „Neue Kriterien &#x200B;]&quot; zugreifen: der Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Methode auf [!UICONTROL  Bildschirm „Neue Kriterien ]&quot; zugreifen: der Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
@@ -43,7 +43,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
       >[!NOTE]
       >
-      >Durch die vorherigen Schritte wird [!UICONTROL &#x200B; Abschnitt &#x200B;]CSV hochladen“ unten im Dialogfeld [!UICONTROL Neue Kriterien erstellen] angezeigt.
+      >Durch die vorherigen Schritte wird [!UICONTROL  Abschnitt ]CSV hochladen“ unten im Dialogfeld [!UICONTROL Neue Kriterien erstellen] angezeigt.
 
 1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Sicherungsinhalt](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) aus.
 
@@ -68,7 +68,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
 * Benutzerspezifische Kriterienupdates sind standardmäßig kumulativ. Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, für die im CSV-Upload keine Schlüssel angegeben sind, sind weiterhin verfügbar und laufen in 31 Tagen ab dem Zeitpunkt ab, an dem sie zuletzt als Teil der CSV-Datei hochgeladen werden.
 
-  Wenden Sie sich an Adobe Client Care, um die Einstellung zum Verwerfen bestehender Ergebnisse, die nicht im nächsten CSV-Upload enthalten sind, zu aktivieren. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
+  Wenden Sie sich an die Kundenunterstützung, damit die Einstellung die vorhandenen Ergebnisse verwirft, die nicht im nächsten CSV-Upload enthalten sind. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
 
 * Benutzerspezifische Kriterien-Feeds werden alle 24 Stunden aktualisiert.
 
@@ -95,4 +95,4 @@ Dieses Video enthält die folgenden Informationen (Details zum Hochladen benutze
 * Erstellen von Kriteriensequenzen
 * Hochladen benutzerdefinierter Kriterien
 
->[!VIDEO](https://video.tv.adobe.com/v/35312?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

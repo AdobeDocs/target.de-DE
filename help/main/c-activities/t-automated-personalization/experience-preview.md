@@ -2,7 +2,7 @@
 keywords: Erlebnisvorschau;Erlebnis-URLs;URLs generieren;Erlebnis-URLs anzeigen
 description: Erfahren Sie, wie Sie Erlebnisvorschau-URLs für Aktivitäten von Adobe [!DNL Target] Automated Personalization verwenden können, um Erlebnisinhalte direkt auf Ihrer Site zu sehen, bevor die Aktivität live ist.
 title: Wie kann ich Erlebnisvorschau-URLs in Automated Personalization-Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 48%
+source-wordcount: '748'
+ht-degree: 41%
 ---
 # Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs
 
@@ -42,7 +42,7 @@ Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder
 
    Sie können mehrere URLs angeben, was besonders bei mehrseitigen Tests oder Vorlagentests nützlich ist, wenn Sie eine Vorschau der Aktivität auf mehr als einer Seite anzeigen möchten.
 
-   In einem modalen Fenster werden Links zu Ihren Erlebnissen auf Ihrer Site angezeigt, um eine „echte Vorschau“ der Erlebnisse außerhalb des [!DNL Target] VEC zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Anklicken des Links und das Kopieren der resultierenden URL auf der Seite funktionieren nicht, weil die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie vom Link in der Nachricht aus auf die Seite zugreifen. Kopieren Sie stattdessen den Text im modalen Fenster und senden Sie den ganzen Text per E-Mail an Ihr Team.
+   In einem modalen Fenster werden Links zu Ihren Erlebnissen auf Ihrer Site angezeigt, um eine „echte Vorschau“ der Erlebnisse außerhalb des [!DNL Target] VEC zu erhalten. Sie müssen die Links in der Nachricht freigeben, um die Vorschau freigeben zu können. Das Klicken auf einen Link und das anschließende Kopieren der resultierenden URL von der Seite funktioniert nicht, da die URL einen Parameter enthält, der die Seite nur dann korrekt anzeigt, wenn Sie über den Link in der Nachricht auf die Seite zugreifen. Kopieren Sie stattdessen den Text im modalen Fenster und senden Sie den ganzen Text per E-Mail an Ihr Team.
 
 1. Klicken Sie auf **[!UICONTROL Alle generieren]** und dann auf jedes Erlebnis, um eine Vorschau anzuzeigen.
 
@@ -76,9 +76,9 @@ Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder
 
 **Anzeigen von Erlebnissen mit Experience Preview URLs**
 
-* Die Vorschau funktioniert für alle gespeicherten Aktivitäten, solange die Seite nicht verändert wird.
+* Die Vorschau funktioniert für jede gespeicherte Aktivität, solange die Seite nicht geändert wurde.
 * Die Erlebnisvorschau-URL ist unabhängig davon verfügbar, ob die Aktivität aktiv oder inaktiv ist.
-* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in &#x200B;] Vorschau angezeigt werden.
+* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in ] Vorschau angezeigt werden.
 * Die Anzeige von Erlebnisvorschau-URLs hat keinen Einfluss auf das Reporting.
 
 **Fehlerbehebung bei Erlebnisvorschau-URLs**

@@ -16,16 +16,16 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '369'
+ht-degree: 34%
 ---
 # Metrikdefinitionen – Häufig gestellte Fragen zu A4T
 
 Dieses Thema enthält Antworten auf Fragen, die häufig zu Metrikdefinitionen und zur Verwendung von [!DNL Adobe Analytics] als Berichtsquelle für [!DNL Adobe Target] (A4T) gestellt werden.
 
-## Wie ist die Gültigkeit für eine Aktivitätszugehörigkeit? Wie lange nach Eintritt der Aktivität werden die Aktionen der Besucher in der Aktivität gezählt, wenn sie sie nicht erneut sehen? {#section_41B4958F33534E4B96DEE0C981227A79}
+## Wie ist die Gültigkeit für eine Aktivitätszugehörigkeit? Wie lange nach dem Eintritt der Aktivität werden die Aktionen der Besucher in der Aktivität gezählt, wenn sie sie nicht erneut sehen? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Antwort
 Die Standardgültigkeit für die Aktivität beträgt 90 Tage nach der letzten Interaktion des Besuchers mit der Aktivität. Diese Einstellung kann bei Bedarf von ClientCare angepasst werden. Diese Einstellung gilt für alle Aktivitäten, daher sollte sie nicht nur für einen Fall angepasst werden.

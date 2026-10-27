@@ -2,7 +2,7 @@
 keywords: Empfehlungsentwurf; Entwurf erstellen; Entwurf kopieren
 description: Erfahren Sie, wie Sie ein Adobe [!DNL Target] Recommendations-Design mit einem Standarddesign oder durch Erstellen eines benutzerdefinierten Designs erstellen, das am besten zum Layout Ihrer Seite passt.
 title: Wie erstelle ich einen Entwurf in Recommendations?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 27%
+source-wordcount: '1065'
+ht-degree: 25%
 ---
 # Erstellen eines Designs
 
@@ -173,7 +173,7 @@ Das folgende Beispiel zeigt, wie JSON-Antworten bei der Konfiguration einer Akti
    | `[YOUR_CLIENT_CODE]` | Target-Clientcode (verfügbar unter /help/target/products.html#recsSettings > Recommendations-API-Token > Clientcode). |
    | `[YOUR_MBOX_NAME]` | Der Name, den Sie im Abschnitt „Speicherorte“ der formularbasierten Recommendations ausgewählt haben, in diesem Fall Sample_Recs_Response. |
    | `[ENTITY_ID` | Die `entity.id` eines Artikels in Ihrem Katalog |
-   | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft (Teil der Unternehmensberechtigungen) ausgewählt haben. |
+   | `[AT_PROPERTY_TOKEN]` | (Optional) Fügen Sie dies hinzu, wenn Sie bei der Einrichtung Ihrer Aktivität eine Eigenschaft ausgewählt haben (Teil der Enterprise-Berechtigungen). |
 
 Nachdem Ihr Algorithmus ausgeführt wurde und Sie Ergebnisse erhalten haben, sollte Ihre Antwort ungefähr so aussehen:
 
@@ -334,4 +334,4 @@ Dieses Video enthält die folgenden Informationen:
 * Erstellen eines benutzerdefinierten Entwurfs
 * Verstehen, wie Sie in Ihren Designs auf Anzeigevariablen verweisen
 
->[!VIDEO](https://video.tv.adobe.com/v/35310?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

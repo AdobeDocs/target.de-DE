@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Kapitel 2: Adobe [!DNL Target] auf einen Blick
@@ -91,17 +91,17 @@ Mit [!DNL Target] können Sie digitale Erlebnisse praktisch überall testen und 
 
 ## Implementierungen
 
-Vielleicht möchten Sie [!DNL Target] zum Testen und Personalisieren vieler verschiedener digitaler Touchpoints verwenden, darunter herkömmliche Websites, Websites und Apps für Mobilgeräte, aber auch Touchpoints, für die kein Browser zur Verfügung steht oder kein JavaScript-Code verwendet wird. In einigen Fällen fordern interne oder externe Richtlinien zusätzliche Kontroll- und Sicherheitsstufen. Eventuell verwenden Sie auch Prozesse, die aus Leistungsgründen auf einem Backend-Server ausgeführt werden müssen. Diese Vielzahl an Einsatzmöglichkeiten unterstützt [!DNL Target] durch verschiedene Implementierungsmöglichkeiten: clientseitig, serverseitig oder als Hybridlösung.
+Viele von Ihnen möchten möglicherweise [!DNL Target] zum Testen und Personalisieren vieler verschiedener digitaler Touchpoints verwenden, darunter herkömmliche Websites, Websites und Apps für Mobilgeräte, aber auch Touchpoints, für die kein Browser zur Verfügung steht oder kein JavaScript-Code verwendet wird. In einigen Fällen fordern interne oder externe Richtlinien zusätzliche Kontroll- und Sicherheitsstufen. Eventuell verwenden Sie auch Prozesse, die aus Leistungsgründen auf einem Backend-Server ausgeführt werden müssen. Diese Vielzahl an Einsatzmöglichkeiten unterstützt [!DNL Target] durch verschiedene Implementierungsmöglichkeiten: clientseitig, serverseitig oder als Hybridlösung.
 
 | Implementierungstyp | Details |
 | --- | --- |
-| Clientseitig | Bei dieser Implementierung von [!DNL Target] stellt [!DNL Target] die mit einer Aktivität verbundenen Erlebnisse direkt auf dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei der clientseitigen Implementierung können Sie einen WYSIWYG-Editor, **[!UICONTROL Visual Experience Composer]** (VEC) oder eine nicht visuelle Schnittstelle, den **[!UICONTROL formularbasierten Experience Composer]**, zur Erstellung Ihrer Test- und Personalisierungserlebnisse verwenden. [Mehr Info](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de){target=_blank}. |
+| Clientseitig | Bei dieser Implementierung von [!DNL Target] stellt [!DNL Target] die mit einer Aktivität verbundenen Erlebnisse direkt auf dem Client-Browser bereit. Der Browser entscheidet, welches Erlebnis angezeigt werden soll, und zeigt es an. Bei der clientseitigen Implementierung können Sie einen WYSIWYG-Editor, **[!UICONTROL Visual Experience Composer]** (VEC) oder eine nicht visuelle Schnittstelle, den **[!UICONTROL formularbasierten Experience Composer]**, zur Erstellung Ihrer Test- und Personalisierungserlebnisse verwenden. [Mehr Info](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Serverseitig | Bei der serverseitigen Implementierung von [!DNL Target] fordert ein Client-Gerät über Ihren Server ein Erlebnis an. Diese Anforderung sendet der Server an [!DNL Target], und [!DNL Target] sendet die Antwort an den Server zurück. Ihr Server entscheidet dann, welches Erlebnis zum Rendern an das Client-Gerät gesendet werden soll. Das Erlebnis muss nicht in einem Browser angezeigt werden. Es kann auch in einer E-Mail oder an einem Kiosk, über einen Sprachassistenten oder über ein anderes nicht visuelles Erlebnis oder nicht browserbasiertes Gerät angezeigt werden. Da sich Ihr Server zwischen dem Client und [!DNL Target] befindet, ist diese Art der Implementierung auch dann optimal, wenn Sie mehr Kontrolle und Sicherheit benötigen oder komplexe Backend-Prozesse haben, die auf Ihrem Server ausgeführt werden sollen. [Mehr Info](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=de){target=_blank}. |
 | Hybridimplementierung | Bei dieser Art der Implementierung wählen Sie je nach Anwendungsfall den geeignetsten Implementierungsansatz. Beispielsweise können Sie für einen A/B-Test eines Angebots in einem Hero Banner auf der Homepage eine clientseitige Implementierung verwenden, parallel dazu aber auch eine serverseitige Implementierung, um die internen Suchergebnisse zu bestimmen, die in einem Client-Browser angezeigt werden, die Erlebnisse, die ein Smart Car-Dashboard rendert, oder Sprachantworten, die von einem Sprachassistenten zurückgegeben werden. |
 
 ## Aktivitätselemente
 
-In [!DNL Target] können Sie Personalisierungs- und Optimierungsaktivitäten erstellen, aber auch Aktivitäten, die Ihren Personalisierungsansatz optimieren. Jede Aktivität enthält wichtige Elemente: die Erlebnisse oder Angebote, die Sie testen oder personalisieren, die Zielgruppen oder Einzelpersonen, denen Sie ein Erlebnis bereitstellen, die Metriken, mit denen Sie die Wirkung der Aktivität messen, und die Berichte, die diese Wirkung visuell darstellen.
+In [!DNL Target] können Sie Personalisierungs- und Optimierungsaktivitäten erstellen, aber auch Aktivitäten, die Ihren Personalisierungsansatz optimieren. Jede Aktivität enthält Schlüsselelemente: die Erlebnisse oder Angebote, die Sie testen oder personalisieren, die Zielgruppen oder Einzelpersonen, denen Sie ein Erlebnis bereitstellen, die Metriken, mit denen Sie die Wirkung der Aktivität messen, und die Berichte, die diese Wirkung visuell darstellen.
 
 | Elementtyp | Details |
 | --- | --- |
@@ -155,13 +155,13 @@ Berücksichtigen Sie die folgenden Erfahrungswerte, bevor Sie zum nächsten Kapi
 
 ### Meinungen können die Ergebnisse negativ beeinflussen
 
-* Meinungen, die Ergebnisse negativ beeinflussen können: In: Highest Paid Person&#39;s Opinion (HIPPO), Attitudes, Biases. Beispielsweise möchte der Geschäftsführer das Suchfeld verkleinern, um auf den Seiten mehr Platz zu schaffen. Wir sollten testen, um sicherzustellen, dass die Anzahl der Suchvorgänge dadurch nicht verringert wird.
+* Meinungen, die Ergebnisse negativ beeinflussen können: In: Highest Paid Person&#39;s Opinion (HIPPO), Attitudes, Biases. Beispielsweise möchte der Geschäftsführer das Suchfeld verkleinern, um auf den Seiten mehr Platz zu schaffen. Wir sollten testen, um sicherzustellen, dass die Anzahl der Suchvorgänge nicht reduziert wird.
 * Handeln wir nach unserer oder der Meinung anderer? Mir gefällt dieser Test nicht. Dem Kunden wird dieses Erlebnis überhaupt nicht gefallen. Obwohl Intuition oft hilfreich ist, haben A/B-Tests immer wieder bewiesen, dass sie nicht immer richtig funktioniert.
 * Oder haben Sie sich frei von Meinungen gemacht und denken allein an Optimierung? Ich bin gespannt, welche Erfahrung gewinnt. Haben wir genügend Optionen zum Testen?
 
 ### Auch Annahmen können die Ergebnisse negativ beeinflussen
 
 * Annahmen, die Effizienz und Wirksamkeit beeinträchtigen: Herdenmentalität – so macht das die Konkurrenz. Beispiel: Alle unsere Wettbewerber verwenden Hero Banner mit sich drehenden Bildern. Dann sollten wir das auch so machen.
-* Angenommen, wir wissen, warum etwas funktioniert oder nicht funktioniert. Angenommen, wir müssen nichts testen. Beispiel: Wir präsentieren unsere Hotelzimmer schon immer vom höchsten bis zum niedrigsten Preis.
-* Handeln wir nach Annahmen? Wir müssen das nicht testen. Wir haben die Analyse überprüft. (Ja, aber Analysen sind nicht die ganze Wahrheit. Durch Tests könnten Sie mehr herausfinden.)
+* Angenommen, wir wissen, warum etwas funktioniert oder nicht funktioniert. Vorausgesetzt, dass wir nichts testen müssen. Beispiel: Wir präsentieren unsere Hotelzimmer schon immer vom höchsten bis zum niedrigsten Preis.
+* Handeln wir nach Annahmen? Wir müssen das nicht testen, wir haben die Analyse überprüft. (Ja, aber Analysen sind nicht die ganze Wahrheit. Durch Tests könnten Sie mehr herausfinden.)
 * Oder haben Sie sich frei von Meinungen gemacht und denken allein an Optimierung? Wir testen alles.

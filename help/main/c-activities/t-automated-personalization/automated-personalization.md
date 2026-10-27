@@ -2,7 +2,7 @@
 keywords: Automated Personalization;App;Zielgruppen;Ensemble;Random Forest;Multi-Armed Bandit;Thompson-Stichprobenverfahren;ml;maschinelles Lernen
 description: Erfahren Sie, wie Sie [!UICONTROL Automated Personalization]-Aktivitäten (AP) in [!DNL Adobe Target] verwenden, die mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten für jede Besucherin und jeden Besucher abgleichen.
 title: Was ist eine [!UICONTROL Automated Personalization]-Aktivität (AP)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 30%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -81,11 +81,11 @@ Random Forest ist ein führender Ansatz für maschinelles Lernen. In datenwissen
 
 * Der mehrarmige Bandit stellt sicher, dass das Modell immer einen kleinen Teil des Traffics „ausgibt“, um während des gesamten Lebens der Aktivität weiter zu lernen und eine Übernutzung zuvor gelernter Trends zu verhindern.
 * Die zugrunde liegenden Modelle werden alle 24 Stunden mit den neuesten Daten zum Besucherverhalten neu erstellt, um sicherzustellen, dass [!DNL Target] immer die sich ändernden Besuchervoreinstellungen verwendet.
-* Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher bestimmen kann, wechselt er automatisch zur Anzeige des Erlebnisses mit der besten Gesamtleistung und sucht weiterhin nach personalisierten Gewinnern. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt.
+* Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher ermitteln kann, wechselt er automatisch zur Anzeige des insgesamt besten Erlebnisses, während er weiterhin nach personalisierten Gewinnern sucht. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt.
 
 ## Das Modell optimiert kontinuierlich eine einzelne Zielmetrik
 
-* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt, „Umsatz [!UICONTROL &#x200B; Besucher]).
+* Diese Metrik kann konversionsbasiert oder umsatzbasiert sein (genauer gesagt, „Umsatz [!UICONTROL  Besucher]).
 
 ## [!DNL Target] erfasst automatisch Informationen über Besucher, um die Personalisierungsmodelle zu erstellen
 
@@ -113,4 +113,4 @@ In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläu
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

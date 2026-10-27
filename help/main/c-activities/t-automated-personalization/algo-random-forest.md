@@ -2,7 +2,7 @@
 keywords: Zufällige Gesamtstruktur;Entscheidungsbaum;AP;Automated Personalization
 description: Erfahren Sie, wie [!DNL Adobe Target] den Algorithmus der zufälligen Gesamtstruktur sowohl in [!UICONTROL Automated Personalization] (AP)- als [!UICONTROL Automatisches Targeting]-Aktivitäten verwendet.
 title: Wie verwendet [!DNL Target] den Algorithmus der zufälligen Gesamtstruktur?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 40%
+source-wordcount: '1461'
+ht-degree: 38%
 ---
 # Random-Forest-Algorithmus
 
@@ -58,7 +58,7 @@ Das Beispiel würde zur folgenden Baumstruktur führen:
 
 ## Wie werden Entscheidungsbäume von Random Forest verwendet? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am kritischsten ist, dass sie die Daten „überanpassen“ können, sodass ein einzelner Baum zukünftige Daten schlecht vorhersagt, die nicht für den Aufbau des ursprünglichen Baums verwendet wurden. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Zufällige Wälder helfen, diese übermäßig große Herausforderung zu bewältigen. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden erstellt, indem eine Untergruppe von Besuchsdatensätzen mit Ersetzung (auch als Einsacken bezeichnet) nach dem Zufallsprinzip ausgewählt und eine Untergruppe der Attribute zufällig ausgewählt wird, sodass die Gesamtstruktur aus etwas anderen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
+Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am wichtigsten ist, dass sie die Daten „übermäßig anpassen“ können, sodass ein einzelner Baum zukünftige Daten, die nicht zum Erstellen des ursprünglichen Baums verwendet wurden, nur schlecht vorhersagt. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt. Zufällige Wälder helfen, diese übermäßig große Herausforderung zu bewältigen. Auf der obersten Ebene ist Random Forest eine Sammlung von Entscheidungsbäumen, die leicht unterschiedlich auf dem gleichen Datensatz aufgebaut sind und gemeinsam „abstimmen“, um ein besseres Modell zu erhalten, als ein einzelner Baum dies kann. Die Bäume werden erstellt, indem eine Untergruppe von Besuchsdatensätzen mit Ersetzung (auch als Einsacken bezeichnet) nach dem Zufallsprinzip ausgewählt und eine Untergruppe der Attribute zufällig ausgewählt wird, sodass die Gesamtstruktur aus etwas anderen Entscheidungsbäumen besteht. Diese Methode ermöglicht kleine Variationen der Bäume, die im Random Forest entstehen. Das Hinzufügen dieser kontrollierten Varianz hilft, die Vorhersagegenauigkeit des Algorithmus zu verbessern.
 
 ## Wie verwenden die [!DNL Target] Personalisierungsalgorithmen die Zufallsstruktur? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 

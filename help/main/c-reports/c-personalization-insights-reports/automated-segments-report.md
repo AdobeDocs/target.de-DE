@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; auto-target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen
 description: Erfahren Sie, wie verschiedene von Adobe definierte Segmente [!DNL Target] Personalisierungsmodelle auf Angebote/Erlebnisse in der Aktivität reagieren, indem Sie den Bericht „Automatisierte Segmente“ anzeigen.
 title: Was ist der Bericht „Automatisierte Segmente“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 TQID: 'https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg'
@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # [!UICONTROL Bericht &quot;] Segmente“
 
@@ -68,7 +68,7 @@ Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in I
 
    >[!IMPORTANT]
    >
-   >Der Bericht [!UICONTROL Automated &#x200B;]&quot; ist frühestens 15 Tage nach der Aktivierung Ihrer Aktivität verfügbar. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Automatisierte Segmente“] ist ausgegraut. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL „Automatisierte Segmente“] verfügbar.
+   >Der Bericht [!UICONTROL Automated ]Segments) ist frühestens 15 Tage nach Aktivierung Ihrer Aktivität verfügbar. In diesem Anfangszeitraum können Sie nicht auf diesen Bericht zugreifen oder auf das Symbol [!UICONTROL Automatisierte Segmente] klicken. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL „Automatisierte Segmente“] verfügbar.
 
 1. 15 Tage nach der Aktivierung der Aktivität können Sie auf das Symbol **[!UICONTROL Automatisierte Segmente]** klicken.
 
@@ -80,7 +80,7 @@ Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in I
 
 1. Überprüfen Sie die Daten des Berichts [!UICONTROL „Automatisierte Segmente“].
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Herunterladen]** ( ![Herunterladen-Symbol](/help/main/assets/icons/Download.svg) ), um [den Bericht im CSV-Format &#x200B;](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) Analyse in Excel und anderen Tools herunterzuladen.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Herunterladen]** ( ![Herunterladen-Symbol](/help/main/assets/icons/Download.svg) ), um [den Bericht im CSV-Format ](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) Analyse in Excel und anderen Tools herunterzuladen.
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ Dieses automatisierte Segment wird basierend auf zwei Attributen definiert. Besu
 
 Es kann verschiedene Gründe dafür geben, dass die [!UICONTROL Personalization Insights]-Berichte noch nicht für Ihre Aktivität verfügbar sind:
 
-* Seit der Aktivierung der Aktivität sind noch keine 15 Tage vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind erst 15 Tage nach der Aktivierung der Aktivität verfügbar. Bis dahin können Sie nicht auf diese Berichte zugreifen und die Symbole für „Automatisierte Segmente“ und „Wichtige Attribute“ sind ausgegraut.
+* Seit der Aktivierung der Aktivität sind noch keine 15 Tage vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind frühestens 15 Tage nach Beginn der Aktivität verfügbar. Während dieses anfänglichen Zeitraums können Sie nicht auf diese Berichte zugreifen oder auf die Symbole Automatisierte Segmente und Wichtige Attribute klicken.
 * Ihre Aktivität bietet nicht ausreichend Traffic im angegebenen Zeitraum. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, um die Personalisierungsmodelle zu erstellen, sind die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ verfügbar.
 * Ihre Aktivität verfügt über ein Ziel zur Umsatzoptimierung. Derzeit sind [!UICONTROL Personalization Insights] nur für Aktivitäten zur Konversionsoptimierung verfügbar. Adobe wird in einer zukünftigen Version Unterstützung für Aktivitäten zum Ziel der Umsatzoptimierung hinzufügen.
 
@@ -147,7 +147,7 @@ Da der Klick dem Erlebnis als Ganzem zugeordnet wird, können alle Karten in die
 
 **Warum werden nur manche meiner Angebote/Erlebnisse im Bericht „Automatisierte Segmente“ angezeigt?**
 
-AP- und AT-Aktivitäten erstellen ein Modell pro Angebot (bei AP) bzw. pro Erlebnis (bei AT). Mit diesen beiden Modellen stellen die Aktivitäten personalisierten Traffic bereit und schaffen Ihre [!UICONTROL Personalization Insights]. Wenn Sie nicht alle Ihre Angebote/Erlebnisse in [!UICONTROL Personalization Insights] sehen, haben Sie wahrscheinlich keine Modelle für diese spezifischen Angebote/Erlebnisse erstellt. Sie können den Bericht „Zusammenfassung[!UICONTROL &#x200B; Ihrer Aktivität überprüfen &#x200B;] feststellen, ob neben diesem Angebot/Erlebnis ein Uhrensymbol vorhanden ist. Dieses Symbol zeigt an, dass für dieses Angebot/Erlebnis noch keine Modelle erstellt wurden.
+AP- und AT-Aktivitäten erstellen ein Modell pro Angebot (bei AP) bzw. pro Erlebnis (bei AT). Mit diesen beiden Modellen stellen die Aktivitäten personalisierten Traffic bereit und schaffen Ihre [!UICONTROL Personalization Insights]. Wenn Sie nicht alle Ihre Angebote/Erlebnisse in [!UICONTROL Personalization Insights] sehen, haben Sie wahrscheinlich keine Modelle für diese spezifischen Angebote/Erlebnisse erstellt. Sie können den Bericht „Zusammenfassung[!UICONTROL  Ihrer Aktivität überprüfen ] feststellen, ob neben diesem Angebot/Erlebnis ein Uhrensymbol vorhanden ist. Dieses Symbol zeigt an, dass für dieses Angebot/Erlebnis noch keine Modelle erstellt wurden.
 
 **Warum erhalten in einem bestimmten automatisierten Segment manche Angebote/Erlebnisse mit einer geringeren Konversionsrate mehr Traffic als andere Angebote/Erlebnisse?**
 
@@ -167,7 +167,7 @@ Das Reporting zu Personalization Insights ([!UICONTROL automatisierte Segmente] 
 
 **Wie wird [!UICONTROL Personalization Insights] erstellt?**
 
-[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. &#x200B;] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. ] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Warum stimmen die gesamten Traffic-Daten der Besucher im Bericht [!UICONTROL Automatisierte Segmente] nicht mit meinem AP- oder AT-Zusammenfassungs-/Leistungsbericht überein?**
 

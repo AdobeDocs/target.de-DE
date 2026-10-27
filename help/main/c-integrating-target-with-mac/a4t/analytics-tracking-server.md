@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # Verwenden eines [!DNL Analytics] Trackingservers
@@ -46,7 +46,7 @@ Der Debugger sollte auf einer Seite angezeigt werden, auf der die Aktivität ber
 
 1. Öffnen Sie auf der Seite, auf der Sie eine Aktivität erstellen, die [!DNL Adobe Experience Platform Debugger].
 
-   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=de).
+   Wenn Sie den Debugger nicht installiert haben, lesen Sie [Übersicht über Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Klicken **[!UICONTROL im]** Navigationsmenü auf „Analytics“.
 

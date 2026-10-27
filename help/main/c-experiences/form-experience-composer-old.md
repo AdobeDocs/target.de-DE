@@ -13,14 +13,14 @@ feature_v2:
 subfeature_v2:
   - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
     internal-label: Form based Experience Composer
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 39%
 ---
 # Form-Based Experience Composer
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind keine Erlebnisse verfügbar. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Designs auswählen, generiert [!UICONTROL Target] automatisch die Erlebnisse.
 
@@ -40,7 +40,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
    Dieser Bildschirm unterscheidet sich, wenn Sie eine Aktivität des Typs [!UICONTROL Recommendations] erstellen. [!UICONTROL Recommendations] -Aktivitäten umfassen keine Erlebnisse.
 
-1. Benennen Sie die Aktivität, indem Sie auf &quot;[!UICONTROL &#x200B; Aktivität“ &#x200B;].
+1. Benennen Sie die Aktivität, indem Sie auf &quot;[!UICONTROL  Aktivität“ ].
 1. Wählen Sie einen Standort aus.
 
    Wenn Sie auf das Feld [!UICONTROL Speicherort auswählen] klicken, wird eine Liste der verfügbaren Speicherorte angezeigt. Wählen Sie einen dieser Standorte aus.
@@ -55,7 +55,7 @@ Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind ke
 
    ![location_refinements_2 Bild](assets/location_refinements_2.png)
 
-   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ &#x200B;](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Im [!UICONTROL formularbasierten Experience Composer] wurden Verfeinerungen durch die vollständige Funktionalität für Zielgruppen ersetzt. Verfeinerungen für vorhandene Aktivitäten wurden auf [Zielgruppen nur für Aktivitäten“ ](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Wählen Sie den Inhaltstyp aus, der an diesem Standort angezeigt werden soll.
 

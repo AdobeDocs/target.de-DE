@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # Funktionsweise von [!DNL Adobe Target]
@@ -69,19 +69,19 @@ Zu den wichtigsten Punkten gehören:
 
 Target lässt sich mithilfe von [!DNL Experience Platform Web SDK] oder at.js in Websites integrieren:
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
-* **[at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}**: Diese Client-seitige JavaScript-Bibliothek ermöglicht es [!DNL Adobe Experience Cloud] Kunden, über die [!DNL Experience Platform Edge Network] mit verschiedenen Services zu interagieren. [!DNL Adobe] empfiehlt neuen [!DNL Target], die [!DNL Experience Platform Web SDK] zu implementieren.
+* **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}**: Diese Implementierungsbibliothek für [!DNL Target] verbessert die Seitenladezeiten für Web-Implementierungen und bietet bessere Optionen für Single-Page-Anwendungen. [!DNL Adobe] wird häufig mit neuen Funktionen aktualisiert und empfiehlt allen [at.js-Benutzern, auf die neueste Version zu aktualisieren](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >Die Bibliothek „mbox.js“ ist eine veraltete Implementierung für [!DNL Target] und wird nach dem 31. März 2021 nicht mehr unterstützt. Aktualisieren Sie auf [!UICONTROL Experience Platform Web SDK] (empfohlen) oder auf die neueste Version von at.js.
 
-Verweisen Sie auf jeder Seite Ihrer Site  Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
+Verweisen Sie auf jeder Seite Ihrer Site ] [!UICONTROL Experience Platform Web SDK oder at.js. Fügen Sie beispielsweise eine dieser Bibliotheken zu Ihrer globalen Kopfzeile hinzu. Verwenden Sie alternativ [Tags in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}, um [!DNL Target] zu implementieren.
 
 Die folgenden Ressourcen enthalten detaillierte Informationen zur Implementierung von [!DNL Experience Platform Web SDK] oder „at.js“:
 
 * [[!DNL Adobe Experience Platform Web SDK]-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=de){target=_blank}
-* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implementieren [!DNL Target] verwenden [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Bei jeder Besucheranforderung einer für [!DNL Target] optimierten Seite wird eine Echtzeitanforderung an das Targeting-System gesendet, um den bereitzustellenden Inhalt zu bestimmen. Diese Anfrage wird jedes Mal beim Laden einer Seite gestellt und erfüllt. Sie wird durch Aktivitäten und Erlebnisse gesteuert, die vom Marketing-Experten gesteuert werden. Inhalte sind auf individuelle Besucher der Website ausgerichtet, wodurch die Antwort- und Akquiseraten sowie der Umsatz maximiert werden. Personalisierte Inhalte helfen sicherzustellen, dass Besucher reagieren, interagieren oder Käufe tätigen.
 
@@ -106,7 +106,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-
 
 [!UICONTROL Automatische Zuordnung] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
 
-Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
+Weitere Informationen [[!UICONTROL  Sie unter ]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
 
 ### [!UICONTROL Automatisches Targeting] (AT)
 
@@ -225,7 +225,7 @@ An der Seite werden keine Änderungen vorgenommen, wenn der Browser des Besucher
 
 [!DNL Adobe] schützt das Benutzererlebnis durch die Optimierung und Sicherung der Performance.
 
-* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) &#x200B;] werden.
+* [!DNL Adobe] stellt Leistungsbenchmarks auf Grundlage von Branchenstandards sicher, die durch die [!UICONTROL Adobe Service Level Agreement“ (SLA) ] werden.
 * Das Edge-Netzwerk stellt eine rechtzeitige Datenbereitstellung sicher.
 * [!UICONTROL Adobe] setzt einen mehrstufigen Ansatz zur Sicherung seiner Anwendungen ein, der Kunden ein Höchstmaß an Verfügbarkeit und Zuverlässigkeit bietet.
 * [!DNL Target] Consulting bietet Unterstützung bei der Implementierung und laufenden Produktsupport.
@@ -244,7 +244,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Google](https://develo
 
 * **Verwenden von rel=„canonical“**: Gelegentlich sind für einen A/B-Test unterschiedliche URLs für Varianten erforderlich. In diesen Fällen sollten alle Varianzen das Tag rel=„canonical“ enthalten, das auf die ursprüngliche (Kontroll-)URL verweist. Wenn [!DNL Adobe] beispielsweise die Startseite mit verschiedenen URLs für jede Variante testet, sollte das folgende kanonische Tag für die Startseite im `<head>`-Tag jeder Variante platziert werden:
 
-  `<link rel="canonical" href="https://www.adobe.com/de" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Verwendung von 302-Umleitungen (temporär**: Wenn für Varianz-Seiten eines Tests separate URLs verwendet werden, empfiehlt [!DNL Google] die Verwendung einer 302-Umleitung, um Traffic an die Testvarianzen umzuleiten. Die 302-Umleitung informiert Suchmaschinen darüber, dass die Umleitung temporär und nur während des Tests aktiv ist.
 
@@ -258,7 +258,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Google](https://develo
 
   Beachten Sie, was sich durch Ihren Test geändert hat. Geringfügige Aktualisierungen wie Schaltflächenfarben wirken sich nicht auf die organischen Rangfolgen aus. Textänderungen sollten jedoch hartcodiert sein.
 
-  Betrachten Sie auch die Barrierefreiheit der Seite, die Sie testen. Wenn die Seite für Suchmaschinen nicht zugänglich ist und nie für eine organische Suche vorgesehen war, gelten diese Überlegungen nicht. Ein Beispiel wäre eine dedizierte Landingpage für eine E-Mail-Kampagne.
+  Beachten Sie auch die Barrierefreiheit der Seite, die Sie testen. Wenn die Seite für Suchmaschinen nicht zugänglich ist und nie für eine organische Suche vorgesehen war, gelten diese Überlegungen nicht. Ein Beispiel wäre eine dedizierte Landingpage für eine E-Mail-Kampagne.
 
 Google gibt an, dass Varianten in einem Test oft nur geringe oder gar keine Auswirkungen auf das Suchergebnis-Snippet oder das Ranking einer Seite haben.
 
@@ -283,7 +283,7 @@ Für bekannten Bot-Traffic tut [!DNL Target] nicht:
 * Einen Aktivitätsbesuch für Berichte erfassen
 * Daten für die Weitergabe an die [!DNL Adobe Experience Cloud]-Plattform aufzeichnen
 
-Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for &#x200B;]) (A4T) Folgendes nicht:
+Bei bekanntem Bot-Traffic tut [!DNL Target] bei Verwendung von [!UICONTROL Analytics for ]) (A4T) Folgendes nicht:
 
 * Ereignisse an [!DNL Analytics] senden
 

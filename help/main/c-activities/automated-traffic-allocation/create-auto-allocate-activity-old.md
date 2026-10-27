@@ -1,6 +1,6 @@
 ---
 keywords: Automatische Zuordnung erstellen;A/B-Test;Aktivität automatisch zuweisen;neue A/B-Aktivität;Automatische Zuordnung;Automatische Zuordnung zu bestem Erlebnis;Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] verwenden, um eine A/BTest-Aktivität vom Typ Automatische Zuordnung“ zu erstellen.
+description: Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] verwenden, um eine A/B]Test-Aktivität vom Typ [!UICONTROL Automatische Zuordnung“ zu erstellen.
 title: Wie erstelle ich eine Aktivität [!UICONTROL Automatische Zuordnung]?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
@@ -13,18 +13,18 @@ feature_v2:
 subfeature_v2:
   - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
     internal-label: Auto-allocate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 39%
+source-wordcount: '907'
+ht-degree: 36%
 ---
-# Erstellen [!UICONTROL &#x200B; Aktivität „Automatische Zuordnung]
+# Erstellen [!UICONTROL  Aktivität „Automatische Zuordnung]
 
 Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um Ihre Aktivität [!UICONTROL Automatische Zuordnung] [!UICONTROL A/B-Test] direkt auf einer [!DNL Target]-aktivierten Seite zu erstellen und Teile der Seite innerhalb von [!DNL Target] zu ändern.
 
 Zusätzlich zur Aktivität [!UICONTROL Automatische Zuordnung] [!UICONTROL A/B-Test] (siehe diesen Artikel) bietet [!DNL Target] zwei zusätzliche Typen von [!UICONTROL A/B-Test]-Aktivitäten: [!UICONTROL Manuell (Standard)] und [!UICONTROL Automatisches Targeting]. Siehe [Typen von A/B-Testaktivitäten](/help/main/c-activities/t-test-ab/test-ab.md#types) in *A/B-Test - Übersicht*.
 
-So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung“:
+So erstellen Sie [!UICONTROL  Aktivität ]Automatische Zuordnung“:
 
 1. Klicken Sie in der **[!UICONTROL Aktivitäten]** auf **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL A/B-Test]**.
 
@@ -32,7 +32,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
    Die verfügbaren Aktivitätstypen hängen von Ihrem [!DNL Target]-Konto ab. Einige Aktivitätstypen werden in Ihrer Liste eventuell nicht angezeigt. Beispielsweise ist [!UICONTROL Recommendations] eine [Target Premium-Funktion](/help/main/c-intro/intro.md#premium). Informationen zu den verschiedenen Aktivitätstypen finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md) und im [Target-Aktivitätshandbuch](/help/main/c-activities/target-activities-guide.md).
 
-1. Wählen Sie **[!UICONTROL Dialogfeld A/B]** Testaktivität erstellen bei **die Option** Visual aus.
+1. Wählen Sie **[!UICONTROL Dialogfeld A/B]** Testaktivität erstellen bei ]**die Option**[!UICONTROL  Visual aus.
 
    Wenn Sie den [!UICONTROL formularbasierten Experience Composer) bevorzugen] wählen Sie [!UICONTROL Formular]. Weitere Informationen finden Sie unter [Formularbasierter Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
@@ -42,7 +42,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
    >
    >Informationen zur Problembehebung für den VEC finden Sie unter [Fehlerbehebung für den Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde &#x200B;](/help/main/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
+1. (Abhängig von Ihrer Lizenz) Wenn Sie [Target Premium-Kunde ](/help/main/c-intro/intro.md#premium)sind, wählen Sie einen [Arbeitsbereich](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) aus.
 
 1. Geben Sie Ihre [Aktivitäts-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) an und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
@@ -67,7 +67,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
 1. Erstellen Sie alle Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Im [!UICONTROL Visual Experience Composer] finden Sie nach der Erstellung einer Aktivität zwei Registerkarten auf der linken Seite: Erlebnis A und Erlebnis B. Erlebnis A ist hierbei das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
@@ -81,7 +81,7 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
 1. Klicken Sie im Feld [!UICONTROL Zielgruppe] auf das Bearbeitungssymbol (das vertikale Auslassungszeichen), klicken Sie auf **[!UICONTROL Zielgruppe ersetzen]** und [die Zielgruppe auswählen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) für Ihre Aktivität.
 
-   Standardmäßig ist die Zielgruppe auf &quot;[!UICONTROL &#x200B; Besucher“ &#x200B;].
+   Standardmäßig ist die Zielgruppe auf &quot;[!UICONTROL  Besucher“ ].
 
 1. Wählen Sie den Prozentsatz qualifizierter Besucher aus, der an der Aktivität teilnehmen soll.
 
@@ -111,11 +111,11 @@ So erstellen Sie [!UICONTROL &#x200B; Aktivität &#x200B;]Automatische Zuordnung
 
    >[!NOTE]
    >
-   >Wenn Sie „Analytics [&#x200B; Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Wenn Sie „Analytics [ Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
 
 ## Schulungsvideo: Erstellen von A/B-Tests (8:36)
 
@@ -124,4 +124,4 @@ In diesem Video wird gezeigt, wie mithilfe des geleiteten [!DNL Target]-Workflow
 * Erstellen einer [!UICONTROL A/B-Test]-Aktivität in [!DNL Adobe Target]
 * Zuordnen von Traffic mithilfe einer manuellen Aufteilung oder automatischen Traffic-Zuordnung
 
->[!VIDEO](https://video.tv.adobe.com/v/30169?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

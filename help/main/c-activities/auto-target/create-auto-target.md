@@ -2,7 +2,7 @@
 keywords: Automatisches Targeting erstellen;A/B-Test;automatische Targeting-Aktivität;neue A/B-Aktivität;automatisches Targeting;automatisches Targeting für personalisierte Erlebnisse;personalisierte Optimierung
 description: Erfahren Sie, wie Sie mit [!UICONTROL Visual Experience Composer] (VEC) eine A/B-Test[!UICONTROL Aktivität vom Typ „Automatisches Targeting] erstellen.
 title: Wie erstelle ich eine Aktivität vom Typ [!UICONTROL Automatisches Targeting]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # Erstellen einer [!UICONTROL automatischen Targeting]-Aktivität
 
@@ -55,7 +55,7 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
    >
    >Informationen zur Fehlerbehebung bei VEC finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -95,7 +95,7 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
 
 1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 
@@ -114,7 +114,7 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
    Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
    1. Um die Audience zu ändern, klicken Sie auf **[!UICONTROL Ersetzen]-Symbol** ( ![Ersetzen-Symbol](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-   1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld &#x200B;]Zielgruppe hinzufügen[&#x200B; die gewünschte Zielgruppe aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
+   1. Wählen Sie [!UICONTROL  Dialogfeld ]Zielgruppe hinzufügen[ die gewünschte Zielgruppe aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
 
       Sie können auf **Kombinieren von Zielgruppen** klicken, um [eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert](/help/main/c-target/combining-multiple-audiences.md).
 
@@ -147,8 +147,8 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
 
    >[!NOTE]
    >
-   >Wenn Sie „Analytics [&#x200B; Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   >Wenn Sie „Analytics [ Target“ (A4T](/help/main/c-integrating-target-with-mac/a4t/a4t.md) mit dieser Aktivität verwenden möchten, lesen Sie die wichtigen Informationen unter [A4T-Unterstützung für automatische Zuordnungs- und automatische Targeting-Aktivitäten](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.

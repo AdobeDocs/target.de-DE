@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 81%
+source-wordcount: '404'
+ht-degree: 80%
 ---
 # Kapitel 6: Vermeidbare Fehler
 
@@ -43,7 +43,7 @@ Wenn Sie heute mit Ihrem Optimierungs- und Personalisierungsprogramm beginnen, h
 | Nichtübereinstimmung der Aktivitäten mit den Geschäftszielen | Konzentrieren Sie sich stärker auf die Priorisierungsmethodik und vermitteln Sie diese den internen Stakeholdern. |
 | Wenig oder gar kein Testrückstand | Arbeiten Sie eng mit internen Stakeholdern zusammen und geben Sie ihnen die Möglichkeit, eigene Tests einzureichen, die mit wichtigen Geschäftszielen im Einklang stehen. |
 | Zulassen neuer Aktivitäten noch nach den festgelegten Fristen | Verbessern Sie die Dokumentation zu geplanten Aktivitäten und spezifizieren Sie das Testsetup präzise. |
-| Auswählen von Erfolgsmetrikdaten, die bei der Entscheidungsfindung nicht hilfreich sind. | Dokumentieren Sie alle primären Testmetriken und fügen Sie weitere Metriken hinzu, um mehr Einblick zu erhalten. |
+| Auswahl von Erfolgsmetrikdaten, die bei der Entscheidungsfindung nicht hilfreich sind | Dokumentieren Sie alle primären Testmetriken und fügen Sie weitere Metriken hinzu, um mehr Einblick zu erhalten. |
 | Änderungen während des Tests, die sich auf die Ergebnisse auswirken | Legen Sie bevorstehende Promotions und Site-Änderungen verbindlich in einem Kalender fest. Kommunizieren Sie den Start von [!DNL Target]-Aktivitäten klar und deutlich, um Konflikte zu vermeiden. |
 | Änderung der Testerlebnisse oder -kriterien kurz vor Beginn einer Aktivität | Fordern Sie die Unterzeichnung durch die wichtigsten Stakeholder schon frühzeitig im Testaktivitätsprozess. |
 | Abschluss einer Aktivität noch vor einer statistischen Signifikanz der Ergebnisse | Überprüfen Sie die Testdauer mit dem [!DNL Adobe Target] [Rechner für den Stichprobenumfang](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 47%
+source-wordcount: '1480'
+ht-degree: 46%
 ---
 # [!UICONTROL Multivarianz-Test] Übersicht
 
@@ -41,7 +41,7 @@ In [!DNL Target] ist jede Kombination ein Erlebnis. Der [!UICONTROL Multivarianz
 
 Aufgrund der Anzahl der Kombinationen, die generiert werden können, benötigt ein [!UICONTROL Multivarianz-Test] mehr Zeit und Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um nützliche Ergebnisse zu erhalten, müssen Sie den Traffic verstehen, den Ihre Seite erhält, und die optimale Anzahl von Kombinationen für die richtige Zeitdauer testen, um die erforderlichen Ergebnisse zu erhalten.
 
-Die Traffic[Schätzung des Ziels &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) Ihnen beim Entwurf eines Tests helfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse eine Aktivität enthält, desto mehr Traffic muss die Aktivität enthalten oder desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht hoch ist, sollten Sie einige Kombinationen testen. Andernfalls kann es zu lange dauern, bis aussagekräftige Testergebnisse vorliegen, die nicht nützlich sind.
+Die Traffic[Schätzung des Ziels ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) Ihnen beim Entwurf eines Tests helfen, der mit Ihrem Traffic funktioniert. Bevor Sie die Traffic-Schätzung verwenden, müssen Sie über gute Statistiken verfügen, aus denen die Anzahl der Impressionen und Konversionen hervorgeht, die Ihre Seite normalerweise erhält. Berücksichtigen Sie Ihr tägliches Traffic-Niveau. Je mehr Erlebnisse eine Aktivität enthält, desto mehr Traffic muss die Aktivität enthalten oder desto länger muss Ihre Aktivität ausgeführt werden. Wenn Ihr Traffic nicht hoch ist, sollten Sie einige Kombinationen testen. Andernfalls kann es zu lange dauern, bis aussagekräftige Testergebnisse vorliegen, die nicht nützlich sind.
 
 ## MVT-Terminologie {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -73,7 +73,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn die Anzahl der Elemente niedriger ist, führen Sie eine Reihe von A/B-Tests durch.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
-* Vermeiden Sie die Einbeziehung zu vieler Elemente oder Orte in einen Test. Je größer die Zahl, desto länger die Testdauer.
+* Schließen Sie nicht zu viele Elemente oder Positionen in einen Test ein. Je größer die Zahl, desto länger die Testdauer.
 * Planen Sie den Testentwurf im Voraus. Bearbeiten Sie keinen Test, nachdem er live geschaltet wurde und Daten erfasst und analysiert werden.
 * Elemente sollten voneinander unabhängig sein.
 
@@ -84,7 +84,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 ## Partiell-faktorielle Testung
 
 [!DNL Target] bietet vollfaktorielle Multivariater Tests als integrierte Aktivitätsoption. In Statistiken:
-„Design von Experimenten“ bietet viele Ansätze oder Designs, um zu bestimmen, welche Faktoren die Ergebnisse beeinflussen. Ein solcher Ansatz ist die [Taguchi-Methode](https://en.wikipedia.org/wiki/Taguchi_methods) für partiell-faktorielle Tests. Taguchi ermöglicht es Marketing-Experten, eine Reihe von Annahmen zu treffen, die die Anzahl der Permutationen von Erlebnissen reduzieren, die getestet werden müssen, und reduziert somit die Traffic-Anforderungen für einen Multivarianz-Test. Dieser Funktions- und Testansatz kann in [!DNL Target] mithilfe dieser [Offline-Tabelle“ angewendet &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+„Design von Experimenten“ bietet viele Ansätze oder Designs, um zu bestimmen, welche Faktoren die Ergebnisse beeinflussen. Ein solcher Ansatz ist die [Taguchi-Methode](https://en.wikipedia.org/wiki/Taguchi_methods) für partiell-faktorielle Tests. Taguchi ermöglicht es Marketing-Experten, eine Reihe von Annahmen zu treffen, die die Anzahl der Permutationen von Erlebnissen reduzieren, die getestet werden müssen, und reduziert somit die Traffic-Anforderungen für einen Multivarianz-Test. Dieser Funktions- und Testansatz kann in [!DNL Target] mithilfe dieser [Offline-Tabelle“ angewendet ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Wenn Ihr Team andere Design of Experiments-Ansätze verwendet, können Sie diese Berechnungstabelle als Referenz-Implementierung für benutzerdefinierte Experiment-Designs verwenden.
 
@@ -110,13 +110,13 @@ In diesem Übersichtsvideo werden die in [!DNL Target] verfügbaren Aktivitätst
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Erstellen von Multivarianz-Tests (9:25) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows Target“ verstehen, planen und erstellen.
+In diesem Video wird erläutert, wie Sie einen Multivarianz-Test mithilfe des dreistufigen Workflows [!DNL]Target“ verstehen, planen und erstellen.
 
 * Definieren und gestalten eines Multivariater Tests
 * Erstellen eines Multivarianz-Tests
 
->[!VIDEO](https://video.tv.adobe.com/v/30168?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # Fehlerbehebung bei der Inhaltsbereitstellung
 
@@ -134,11 +134,11 @@ Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Proble
 
 Weitere Informationen finden Sie in den Schulungsvideos unten:
 
-Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=de){target=_blank}.
+Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Topverkäufe werden nicht in Recommendations angezeigt. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-Der *`SiteCatalyst: purchase`*-Aufruf kann nicht für Traffic-Daten des Einkaufsalgorithmus verwendet werden. Verwenden Sie stattdessen den Aufruf *`orderConfirmPage`*.
+Der *`SiteCatalyst: purchase`* kann nicht für Traffic-Daten des Einkaufsalgorithmus verwendet werden. Verwenden Sie stattdessen den Aufruf *`orderConfirmPage`*.
 
 ## Aktivitätspriorität prüfen {#section_3D0DD07240F0465BAF655D0804100AED}
 
@@ -178,7 +178,7 @@ at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype 
 
 Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) ](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld [!UICONTROL Aktivitäts-URL] an.
 
@@ -227,14 +227,14 @@ adobe.target.trackEvent({
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Fügen Sie die Erweiterung ![Tutorial-Badge) &#x200B;](/help/main/assets/tutorial.png)
+### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33823?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Grundlegende Fehlerbehebung in Adobe Target ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33824?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33896?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
