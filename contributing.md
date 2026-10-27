@@ -52,4 +52,4 @@ Wenden Sie sich an bestehende Verantwortliche, um darüber zu sprechen.
 
 ## Sicherheitsprobleme
 
-Sicherheitsprobleme sollten nicht über diese Problemverfolgung gemeldet werden. Stattdessen [ein Problem an unsere Sicherheitsfachleute gesendet](https://helpx.adobe.com/security/alertus.html)
+Sicherheitsprobleme sollten nicht über diese Problemverfolgung gemeldet werden. Stattdessen [ein Problem an unsere Sicherheitsfachleute gesendet](https://helpx.adobe.com/de/security/alertus.html)
