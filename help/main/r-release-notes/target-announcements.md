@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Machine learning
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2201'
-ht-degree: 96%
+source-wordcount: '2202'
+ht-degree: 95%
 ---
 # [!DNL Adobe Target] Ankündigungen und Ereignisse
 
@@ -317,7 +317,7 @@ Sehen Sie sich das Toolkit und Anwendungsfälle für die Implementierung funktio
 
   +++Details
 
-  Marketing-Experten und -Expertinnen, Produkteigentümer und -eigentümerinnen und Entwickler und Entwicklerinnen sind mehr denn je gefordert, die Erlebnisse ihrer Kundinnen und Kunden auf Websites, in Mobile Apps und überall dort, wo sie mit ihnen in Kontakt treten, zu optimieren. Wenig hilfreich sind zahlreiche Werkzeuge mit Daten-Silos und komplizierten Implementierungen.
+  Marketing-Experten und -Expertinnen, Produkteigentümer und -eigentümerinnen und Entwickler und Entwicklerinnen sind mehr denn je gefordert, die Erlebnisse ihrer Kundinnen und Kunden auf Websites, in Mobile Apps und überall dort, wo sie mit ihnen in Kontakt treten, zu optimieren. Wenig hilfreich sind zahlreiche Tools mit Datensilos und komplizierten Implementierungen.
 
   In diesem aufgezeichneten Webinar besprechen Adobe Target-Produktexperten und -expertinnen, wie die Verschiebung kritischer Entscheidungen der Erlebnisoptimierung auf das Benutzergerät durch lokale Ausführung und Nulllatenz Türen für aufregende neue Anwendungsfälle öffnet, während sich die Website-Performance Ihrer Kundinnen und Kunden gleichzeitig verbessert.
 

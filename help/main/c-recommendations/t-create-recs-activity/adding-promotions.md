@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 41%
+source-wordcount: '713'
+ht-degree: 34%
 ---
 # Hinzufügen von Promotions
 
@@ -33,7 +33,7 @@ Fügen Sie hochgestufte Elemente hinzu und steuern Sie deren Platzierung in Ihre
 
 Beim Erstellen einer [!DNL Recommendations]-Aktivität haben Sie die Möglichkeit, beworbene Artikel in Ihr [!DNL Recommendations]-Design einzufügen. Promotions nutzen verfügbare Slots in einem Design und haben Vorrang vor Kriterienergebnissen und Sicherungsempfehlungen. Wenn Ihr Design zum Beispiel über sechs Slots verfügt und Sie zwei davon für Promotions einsetzen, stehen vier Slots für Artikel zur Verfügung, die anhand von Kriterien empfohlen werden.
 
-Promotions werden in Bezug auf Artikeln dedupliziert, die von den Kriterien für Ihre Aktivität empfohlen werden, sodass ein Artikel nicht doppelt in einer einzelnen Empfehlungsablage angezeigt wird.
+Promotions werden anhand der von den Kriterien für Ihre Aktivität empfohlenen Elemente dedupliziert, sodass ein bestimmtes Element nicht zweimal in einer einzelnen Recommendations-Taskleiste angezeigt wird.
 
 Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf Grundlage von Attributen bewerben oder Sammlungen bewerben.
 
@@ -57,7 +57,7 @@ Sie können einzelne Artikel bewerben, Artikel dynamisch bewerben, Artikel auf G
 
 1. Legen Sie ein Start- und Enddatum für Ihre beworbenen Artikel fest.
 
-   Wenn Sie kein Startdatum festlegen, beginnt die Promotion sofort. Wenn Sie kein Enddatum festlegen, läuft die Promotion auf unbestimmte Zeit.
+   Wenn Sie kein Startdatum festlegen, beginnt die Promotion sofort. Wenn Sie kein Enddatum festlegen, wird die Promotion unbegrenzt ausgeführt.
 
 1. Wählen Sie einen **[!UICONTROL Promotion-Typ]** aus.
 

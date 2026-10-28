@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2289'
 ht-degree: 20%
 ---
 # Funktionsweise von [!DNL Adobe Target]
@@ -258,7 +258,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Google](https://develo
 
   Beachten Sie, was sich durch Ihren Test geändert hat. Geringfügige Aktualisierungen wie Schaltflächenfarben wirken sich nicht auf die organischen Rangfolgen aus. Textänderungen sollten jedoch hartcodiert sein.
 
-  Betrachten Sie auch die Barrierefreiheit der Seite, die Sie testen. Wenn die Seite für Suchmaschinen nicht zugänglich ist und nie für eine organische Suche vorgesehen war, gelten diese Überlegungen nicht. Ein Beispiel wäre eine dedizierte Landingpage für eine E-Mail-Kampagne.
+  Beachten Sie auch die Barrierefreiheit der Seite, die Sie testen. Wenn die Seite für Suchmaschinen nicht zugänglich ist und nie für eine organische Suche vorgesehen war, gelten diese Überlegungen nicht. Ein Beispiel wäre eine dedizierte Landingpage für eine E-Mail-Kampagne.
 
 Google gibt an, dass Varianten in einem Test oft nur geringe oder gar keine Auswirkungen auf das Suchergebnis-Snippet oder das Ranking einer Seite haben.
 

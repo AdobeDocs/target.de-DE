@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
 ---
 # [!UICONTROL Automatische Zuordnung] liefert schnellere Testergebnisse und mehr Umsätze als manuelle Tests
 
-Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für Ihre gesamte Audience verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.
+Bei einer manuellen A/B-Aktivität gehen Konversionen verloren, da das erfolgreichste Erlebnis erst dann für die gesamte Zielgruppe verfügbar ist, wenn die Aktivität abgeschlossen ist. Ihre Traffic-Verteilung bleibt fest, selbst wenn Sie erkennen, dass einige Erlebnisse andere übertreffen, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie auf einen Gewinner reagieren können.
 
 ## Automatisches Zuweisen von Traffic
 

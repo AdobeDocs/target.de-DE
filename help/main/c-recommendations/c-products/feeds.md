@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2785'
-ht-degree: 31%
+source-wordcount: '2792'
+ht-degree: 29%
 ---
 # Feeds
 
@@ -224,7 +224,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Adobe Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Es ist möglich, dass in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar sind, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
@@ -326,7 +326,7 @@ Folgende Statusoptionen stehen für Feeds zur Verfügung:
 | [!UICONTROL Herunterladen der Feed-Datei] | [!DNL Target] lädt die Feeddatei herunter. |
 | [!UICONTROL Elemente importieren] | [!DNL Target] importiert Elemente aus der Feed-Datei. |
 | Feed erfolgreich importiert um *Zeit* | [!DNL Target] hat die Feed-Datei in sein Inhaltsbereitstellungssystem importiert. Änderungen an Elementattributen wurden im Inhaltsbereitstellungssystem vorgenommen und werden in Kürze in den bereitgestellten Empfehlungen berücksichtigt. Wenn die erwarteten Änderungen nicht angezeigt werden, versuchen Sie es erneut und aktualisieren Sie die Seite mit den Empfehlungen.<br>Hinweise:<ul><li>Wenn Änderungen an den Attributen eines Elements dazu führen, dass ein Element aus den Empfehlungen ausgeschlossen wird, wird der Ausschluss sofort angezeigt. Wenn ein Element neu hinzugefügt wird oder Änderungen an Attributen dazu führen, dass ein Element *nicht mehr* von den Empfehlungen ausgeschlossen wird, wird dies erst bei der nächsten Algorithmusaktualisierung angezeigt, die innerhalb von 24 Stunden erfolgt.</li><li>Wenn dieser Status angezeigt wird, werden Aktualisierungen möglicherweise noch nicht in der Benutzeroberfläche [!UICONTROL Katalogsuche] angezeigt. In Katalogsuche wird ein separater Status [!UICONTROL , der &#x200B;], wann der durchsuchbare Katalog zuletzt aktualisiert wurde.</li></ul> |
-| Partieller Import fehlgeschlagen | Zuvor war der Feed, wenn nicht alle Zeilen hochgeladen wurden, noch als erfolgreich markiert. Dadurch wird der falsche Eindruck erweckt, dass alle Zeilen hochgeladen wurden, da der Feed erfolgreich war.<P>Im Folgenden finden Sie ein Szenario, warum ein unvollständiger Feed-Import auftreten kann:<ul><li>Sie haben eine Feed-Datei für die Produktionsumgebung hochgeladen, z. B. 100 Zeilen.</li><li>Der Feed wurde ausgeführt, 80 dieser Zeilen wurden hochgeladen und 20 Zeilen wurden aufgrund falscher Formatierung, Feldüberschreibungen usw. entfernt.</li><li>Der Feed wurde in der Benutzeroberfläche als erfolgreich markiert, sodass der Eindruck entsteht, dass alle 100 Zeilen hochgeladen wurden.</li><li>Sie erwarten einige dieser 20 Produkte bei der Lieferung einer Aktivität, aber es passiert nicht.</li><li> Sie sind an dieser Stelle verwirrt, weil Sie den Feed hochgeladen haben, der die Produktdetails für die betreffenden Produkte enthält. Sie sehen es nicht im Backend, wenn Sie eine Abfrage über die Entitäts-API durchführen, was Ihnen mitteilt, dass es sich nicht im Backend befindet.</li></ul>Um diese Verwirrung zu beseitigen, wird die Nachricht verbessert, sodass genau erzählt wird, was mit dem Feed passiert ist. Anstatt ihn als erfolgreich zu markieren, wird er jetzt als Teilimport fehlgeschlagen markiert. |
+| Partieller Import fehlgeschlagen | Zuvor war der Feed, wenn nicht alle Zeilen hochgeladen wurden, noch als erfolgreich markiert. Dadurch wird der falsche Eindruck erweckt, dass alle Zeilen hochgeladen wurden, da der Feed erfolgreich war.<P>Im Folgenden finden Sie ein Szenario, warum ein unvollständiger Feed-Import auftreten kann:<ul><li>Sie haben eine Feed-Datei für die Produktionsumgebung hochgeladen, z. B. 100 Zeilen.</li><li>Der Feed wurde ausgeführt, 80 dieser Zeilen wurden hochgeladen und 20 Zeilen wurden aufgrund falscher Formatierung, Feldüberschreibungen usw. entfernt.</li><li>Der Feed wurde in der Benutzeroberfläche als erfolgreich markiert, sodass der Eindruck entsteht, dass alle 100 Zeilen hochgeladen wurden.</li><li>Sie erwarten einige dieser 20 Produkte bei der Lieferung einer Aktivität, aber es passiert nicht.</li><li> Sie sind an dieser Stelle verwirrt, weil Sie den Feed hochgeladen haben, der die Produktdetails für die betreffenden Produkte enthält. Sie sehen ihn nicht im Backend, wenn Sie eine Abfrage über die Entitäts-API durchführen, was Ihnen mitteilt, dass er sich nicht im Backend befindet.</li></ul>Um diese Verwirrung zu beseitigen, wird die Nachricht verbessert, sodass genau erzählt wird, was mit dem Feed passiert ist. Anstatt ihn als erfolgreich zu markieren, wird er jetzt als Teilimport fehlgeschlagen markiert. |
 | [!UICONTROL Index konnte nicht erstellt werden] | Die Index-Operation ist fehlgeschlagen. Erneut versuchen. |
 | [!UICONTROL Server nicht gefunden] | FTP-, SFTP- oder URL-Speicherorte sind ungültig oder anderweitig nicht erreichbar. |
 
@@ -343,7 +343,7 @@ Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] an
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Beispielsweise wird ein gelber Punkt angezeigt, damit ein Feed-Set täglich ausgeführt wird, wenn der Index sechs Stunden nach der geplanten Zeit nicht abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server hochladen kann, wird eine rote Statusanzeige angezeigt. |
 
@@ -352,7 +352,7 @@ Sehen Sie sich folgende Beispiele an:
 **Beispiel 1:**
 
 * Tag 1: Tägliche Zufuhr um 9:00 Uhr PST.
-* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
+* Tag 2: Es ist 15:30 Uhr und der Feed läuft seit gestern um 9:00 Uhr nicht mehr.
 
 Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
 

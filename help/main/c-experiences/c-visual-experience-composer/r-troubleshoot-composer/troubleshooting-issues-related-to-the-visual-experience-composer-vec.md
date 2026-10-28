@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # Beheben von Problemen mit [!UICONTROL Visual Experience Composer]
 
@@ -47,14 +47,14 @@ Stellen Sie zur Vermeidung dieses Problems sicher, dass Sie diese beiden Paramet
 
 +++
 
-## Meine Seite wird im EEC nicht geöffnet oder nur langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (Nur VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Meine Seite lässt sich nicht in der EEC öffnen oder wird langsam geladen. Aktivitäten oder Erlebnisse werden im VEC langsam geladen. (Nur VEC) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Details
 In Experience Composers (Target) [!UICONTROL &#x200B; die Seitenleistung &#x200B;] von mehreren Problemen betroffen sein. Im Folgenden finden Sie einige gängige Gründe:
 
 * Es befindet sich keine Mbox auf der Seite.
 * Ihre Website nutzt Proxy-Sperren, wodurch die Seite in keiner Version von Experience Composer geöffnet werden kann.
-* Ihre Website verhindert, dass Sie in einem iFrame geöffnet wird.
+* Ihre Site erlaubt es nicht, sich in einem iFrame zu öffnen.
 
 Wenn im [!UICONTROL Enhanced Experience Composer] Probleme auftreten, versuchen Sie, den [!UICONTROL Enhanced Experience Composer] zu deaktivieren und [!UICONTROL Visual Experience Composer] zu verwenden.
 
@@ -80,7 +80,7 @@ Wenn weder der [!UICONTROL Visual Experience Composer] noch der [!UICONTROL Enha
 >
 >* Aktivieren Sie die Regel bei der Bearbeitung in VEC und deaktivieren Sie die Regel, wenn Sie VEC nicht verwenden.
 >
->Für die [!UICONTROL Modify Response Header]-Erweiterung ([!DNL Firefox]) müssen Sie Folgendes tun, da Sie keine URL-Regel hinzufügen können:
+>Für die Erweiterung [!UICONTROL Modify Response Header] ([!DNL Firefox]) müssen Sie Folgendes tun, da Sie keine URL-Regel hinzufügen können:
 >
 >* Aktivieren Sie die Regel bei der Bearbeitung in VEC und deaktivieren Sie die Regel, wenn Sie VEC nicht verwenden.
 

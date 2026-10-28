@@ -1,28 +1,30 @@
 ---
 keywords: AJO;Adobe Journey Optimizer;Adobe Journey Optimizer-Target-Integration;Recommendations;Target-Recommendations;Integration
-description: Integration  [!DNL Adobe Target Recommendations] mit [!DNL Adobe Journey Optimizer].
-title: Wie verwende ich  [!DNL Target Recommendations]  Kunden-Journey [!DNL Adobe Journey Optimizer]?
+description: Integrieren von [!DNL Adobe Target Recommendations] mit [!DNL Adobe Journey Optimizer].
+title: Wie verwende ich [!DNL Target Recommendations] in Kunden-Journey mit [!DNL Adobe Journey Optimizer]?
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Was sind Beta-Funktionen in  [!DNL Adobe Target]?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#beta newtab=true" tooltip="Funktionen von Beta in [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer journeys
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 2%
-
+source-wordcount: '647'
+ht-degree: 3%
 ---
-
 # Integrieren von [!DNL Adobe Target Recommendations] und [!DNL Adobe Journey Optimizer]
 
 Dieser Artikel enthält Anwendungsbeispiele und Anleitungen für die Integration von [!DNL Adobe Target Recommendations] mit [!DNL Adobe Journey Optimizer], sodass Sie vernetzte, kontextuelle und personalisierte Kundenerlebnisse bereitstellen können.

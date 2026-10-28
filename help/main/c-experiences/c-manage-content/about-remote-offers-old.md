@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
     internal-label: Experiences and offers
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1107'
 ht-degree: 37%
 ---
 # Remote-Angebote erstellen
@@ -125,7 +125,7 @@ Sie können auf **[!UICONTROL Parameter hinzufügen]** klicken, um eine oder meh
 
 Sie müssen Remote-Angebote mit dem [!UICONTROL formularbasierten Experience Composer] anwenden. Sie können derzeit keine Remote-Angebote mit dem VEC anwenden.
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 

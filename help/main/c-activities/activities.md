@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 24%
+source-wordcount: '2685'
+ht-degree: 23%
 ---
 # Aktivitäten – Überblick
 
@@ -121,11 +121,11 @@ Die folgenden Aktionen sind verfügbar (abhängig von Ihren Berechtigungen und d
 | Aktion | Beschreibung |
 | --- | --- |
 | [!UICONTROL Bearbeiten] | Aktivität ändern. Jede Aktivität kann bearbeitet werden, einschließlich der über die [!DNL Adobe Target]-API oder den [!DNL Adobe Target] MCP-Server erstellten Aktivitäten. Nachdem eine von einer API erstellte Aktivität in der Benutzeroberfläche bearbeitet wurde, wird sie als in der Benutzeroberfläche geändert behandelt. Zuvor eingeschränkte Aktionen, einschließlich [!UICONTROL Kopieren] und [!UICONTROL Löschen], werden vorbehaltlich Ihrer Berechtigungen und des Aktivitätsstatus verfügbar.<P>Weitere Informationen zu den verschiedenen Bearbeitungsmöglichkeiten für Aktivitäten finden Sie unter [Bearbeiten einer Aktivität oder Speichern als Entwurf](/help/main/c-activities/edit-activity.md). |
-| [!UICONTROL Deaktivieren] | Eine laufende oder geplante Änderung anhalten. Eine deaktivierte Aktivität kann reaktiviert oder archiviert werden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
+| [!UICONTROL Deaktivieren] | Eine laufende oder geplante Änderung anhalten. Eine deaktivierte Aktivität kann reaktiviert oder archiviert werden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und später erneut aktivieren, gehören die Besucher, die vor der Deaktivierung oder Archivierung Teil der Aktivität waren, nach der erneuten Aktivierung weiterhin zur Aktivität. Konversionsmetriken, die in der Zeit zwischen den beiden Ereignissen aufgezeichnet wurden, werden dieser Aktivität nicht zugeordnet. |
 | [!UICONTROL Aktivieren] | Startet eine inaktive oder eine zur Aktivierung bereite Aktivität. |
-| [!UICONTROL Archivieren] | Die Aktivitätenliste an das Archiv senden. Standardmäßig werden archivierte Aktivitäten nicht mehr in der Liste [!UICONTROL Aktivitäten] angezeigt. Ändern Sie den Filter für die Liste [!UICONTROL Aktivitäten] so, dass er archivierte Aktivitäten enthält, um sie anzuzeigen. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und sie später erneut aktivieren, ist ein Besucher nach der Reaktivierung weiterhin Teil dieser Aktivität, sofern er sich in dieser Aktivität befand, bevor sie deaktiviert oder archiviert wurde. Alle zwischen den beiden Ereignissen aufgezeichneten Konversionsmetriken werden nicht auf die Aktivität angerechnet. |
+| [!UICONTROL Archivieren] | Die Aktivitätenliste an das Archiv senden. Standardmäßig werden archivierte Aktivitäten nicht mehr in der Liste [!UICONTROL Aktivitäten] angezeigt. Ändern Sie den Filter für die Liste [!UICONTROL Aktivitäten] so, dass er archivierte Aktivitäten enthält, um sie anzuzeigen. Sie können eine archivierte Aktivität wieder aktivieren, um sie erneut zu verwenden.<P>Wenn Sie eine Aktivität deaktivieren oder archivieren und sie später erneut aktivieren, ist ein Besucher nach der Reaktivierung weiterhin Teil dieser Aktivität, sofern er sich in dieser Aktivität befand, bevor sie deaktiviert oder archiviert wurde. Konversionsmetriken, die in der Zeit zwischen den beiden Ereignissen aufgezeichnet wurden, werden dieser Aktivität nicht zugeordnet. |
 | [!UICONTROL Kopieren] | Eine Aktivität kopieren. Jede Aktivität kann kopiert werden. Beim Kopieren einer Aktivität wird eine neue Aktivität mit dem gleichen Namen und dem Appendix „Copy“ erstellt. Beispielsweise wird ein Test mit der Bezeichnung „Browser Offers“ in „Browser Offers Copy“ umbenannt.<P>Visuelle Angebote werden mit der Aktivität kopiert. Sie können die Angebote in der Kopie sicher bearbeiten, ohne dass sich dies auf die ursprüngliche Aktivität auswirkt. Die einzige Ausnahme sind gespeicherte Angebote und Bilder im Inhalts-/Assets-Ordner. |
-| [!UICONTROL Löschen] | Einen Entwurf oder eine Aktivität löschen.<P>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie nicht sicher sind, dass Sie diese Aktivität nie mehr benötigen, verwenden Sie die Aktion [!UICONTROL Archivieren] . Anschließend können Sie die Aktivität bei Bedarf reaktivieren. |
+| [!UICONTROL Löschen] | Einen Entwurf oder eine Aktivität löschen.<P>**HINWEIS**: Gelöschte Aktivitäten können nicht wiederhergestellt werden. Wenn Sie nicht sicher sind, dass Sie diese Aktivität nie wieder benötigen, verwenden Sie die Aktion [!UICONTROL Archivieren] . Anschließend können Sie die Aktivität bei Bedarf reaktivieren. |
 
 ## Zu beachten
 

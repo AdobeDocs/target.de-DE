@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Visual Experience Composer (VEC)
 
@@ -33,7 +33,7 @@ Diese URL legt fest, wo Sie beim Öffnen des VEC starten. Wenn Sie keine Standar
 >
 >In bestimmten Browsern, wie Firefox, kann die Anzeige der Seite im VEC blockiert sein, wenn die Seite gemischten Inhalt enthält (z. B. eine nicht sichere Seite auf einer sicheren Site). Wenn Ihre Seite nicht angezeigt wird, klicken Sie auf das Symbol neben der URL in der Browser-Adressleiste und klicken Sie auf **[!UICONTROL Schutz auf dieser Seite deaktivieren]**. Dieses Problem betrifft nicht die Anzeige Ihrer Seiten für Site-Besucher.
 
-Inhalt in einem iframe auf der Seite kann nicht im VEC bearbeitet werden. Zum Bearbeiten von Inhalten in einem iFrame müssen Sie sicherstellen, dass das iFrame-Dokument für Target aktiviert wurde. Erst dann können Sie diese iFrame-URL im VEC laden.
+Inhalte in einem iframe auf der Seite können in VEC nicht geändert werden. Zum Bearbeiten von Inhalten in einem iFrame müssen Sie sicherstellen, dass das iFrame-Dokument für Target aktiviert wurde. Erst dann können Sie diese iFrame-URL im VEC laden.
 
 Sie können die Dropdownmenüs oben auf der Seite verwenden, um zu sehen, wie die Seite für verschiedene Zielgruppen oder mit verschiedenen Erlebnissen erscheinen würde. Sie können einen Namen für jedes Erlebnis in der zweiten Dropdownliste angeben. Wenn Sie beispielsweise den Standort des Startseiten-Links in Ihrer Navigationsleiste testen möchten, können Sie einem Erlebnis, in dem der Startseiten-Link zuerst angezeigt wird, zum Beispiel die Bezeichnung „Startseiten-Link“ geben, um die Erlebnisse in der Liste leichter zu identifizieren.
 

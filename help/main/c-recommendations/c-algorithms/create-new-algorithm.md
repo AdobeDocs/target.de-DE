@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 44%
+source-wordcount: '2988'
+ht-degree: 43%
 ---
 # Erstellen von Kriterien
 
@@ -57,7 +57,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
 1. Geben Sie einen **[!UICONTROL Kriteriennamen]** ein.
 
-   Dies ist der „interne“ Name, der für die Beschreibung der Kriterien verwendet wird. Sie möchten zum Beispiel Ihre Kriterien „Produkte mit der höchsten Marge“ nennen, Sie möchten jedoch nicht, dass dieser Titel öffentlich angezeigt wird. Sehen Sie sich den nächsten Schritt an, um den öffentlichen Titel festzulegen.
+   Dies ist der „interne“ Name, der für die Beschreibung der Kriterien verwendet wird. Beispiel: Sie möchten Ihre Kriterien als „Produkte mit der höchsten Marge“ bezeichnen, aber Sie möchten nicht, dass dieser Titel öffentlich angezeigt wird. Sehen Sie sich den nächsten Schritt an, um den öffentlichen Titel festzulegen.
 
 1. Geben Sie einen öffentlichen Titel **[!UICONTROL Titel anzeigen]** ein, der auf der Seite für alle Empfehlungen angezeigt werden soll, die diese Kriterien verwenden.
 
@@ -177,7 +177,7 @@ Weitere Informationen zur Auswahl eines [!UICONTROL Empfehlungsschlüssels] find
 
    Wählen Sie ein kürzeres Datenfenster, wenn Ihre Site durch hohes Traffic-Aufkommen und häufig wechselndes Verhalten gekennzeichnet ist. Ein kürzeres Fenster ermöglicht es [!DNL Recommendations], besser auf Änderungen am Markt und in Ihrem Unternehmen zu reagieren. Ein kürzeres Fenster bedeutet zum Beispiel, dass [!DNL Recommendations] Änderungen im Besucherverhalten erkennt, wenn Ihre Besucher Saisoneinkäufe absolvieren - wie etwa zum Schulanfang oder zu Weihnachten –, und Artikel empfiehlt, die zur jeweiligen Einkaufssaison passen.
 
-   Wenn Sie nur über wenige Daten verfügen oder das Besucherverhalten sich nur selten ändert, können Sie ein längeres Fenster auswählen. Für viele Sites führt ein kürzeres Fenster jedoch zu qualitativ hochwertigeren Empfehlungen.
+   Wenn Sie nicht über viele Daten verfügen oder sich das Besucherverhalten nicht häufig ändert, können Sie ein längeres Fenster auswählen. Für viele Sites führt ein kürzeres Fenster jedoch zu qualitativ hochwertigeren Empfehlungen.
 
    Die verfügbaren Datenbereiche sind:
 

@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 77%
 ---
 # Kapitel 9: Nächste Schritte und Ressourcen
 
-Wir haben die Grundlagen der Ausführung Ihrer ersten Aktivität behandelt. Wir hoffen, dass Ihnen und Ihrem Unternehmen diese erste Aktivität gezeigt hat, welche enorme Auswirkung die Optimierung und Personalisierung mit [!DNL Adobe Target] auf Ihre Geschäftsergebnisse hat. Dies ist erst der Anfang. Es ist Zeit, darüber nachzudenken, worauf Sie sich in Ihrer zweiten Aktivität konzentrieren werden? Wir empfehlen Ihnen, Ihre Ideen zu künftigen Aktivitäten in einer nach Prioritäten sortierten Liste zusammenzustellen. Sie werden überrascht sein, wie schnell sich die Kundenerfahrung verbessert und der Geschäftserfolg gesteigert hat.
+Wir haben die Grundlagen der Ausführung Ihrer ersten Aktivität behandelt. Wir hoffen, dass Ihnen und Ihrem Unternehmen diese erste Aktivität gezeigt hat, welche enorme Auswirkung die Optimierung und Personalisierung mit [!DNL Adobe Target] auf Ihre Geschäftsergebnisse hat. Dies ist erst der Anfang. Es ist an der Zeit darüber nachzudenken, worauf Sie sich in Ihrer zweiten Aktivität konzentrieren werden? Wir empfehlen Ihnen, Ihre Ideen zu künftigen Aktivitäten in einer nach Prioritäten sortierten Liste zusammenzustellen. Sie werden überrascht sein, wie schnell sich die Kundenerfahrung verbessert und der Geschäftserfolg gesteigert hat.
 
 Im Übrigen haben Sie aber noch so viele Möglichkeiten, mehr über Tests, Personalisierung und die Verwendung von [!DNL Target] zu erfahren. Sehen Sie sich unten die Liste der Ressourcen an und beginnen Sie damit, das bisher Gelernte zu erweitern. Sehen Sie sich unsere Webinare an, lesen Sie den Adobe Target-Blog, nehmen Sie am Adobe Summit teil und werden Sie in der Online-Community von Adobe Target aktiv. Vergessen Sie nicht, dass wir immer hier sind, um Ihnen beim Start Ihres Programms zu helfen und es auf einen erfolgreichen Weg zu bringen. Sie können sich jederzeit an uns wenden.
 

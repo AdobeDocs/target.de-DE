@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # Kapitel 4: Tipps zur Verwendung von Target
 
@@ -160,7 +160,7 @@ Tests möglichst nahe an der Seite, auf der Besucher auf „Kauf abschließen“
 
 ## Tipp 15: Aktualisieren Sie Ihre Tests laufend, um iterative Verbesserungen zu erzielen.
 
-Wenn sich Ihre Hypothese nicht als wahr erwiesen hat, denken Sie an Möglichkeiten, Ihren Test zu verbessern. Denken Sie daran, dass Ihr Experiment keine Zeitverschwendung war, auch wenn keines der getesteten Erlebnisse eine bessere Leistung erbrachte. Ein erfolgreicher Test bedeutet nicht immer eine Steigerung des Umsatzes oder der Konversionen. Wenn der Test tatsächlich Ihre Hypothese unterstützt, sind Sie auf dem besten Weg, eine allgemeine Theorie zu entwickeln. Aber selbst wenn Sie ein eindeutiges Gewinnerergebnis haben, hören Sie damit nicht auf. Zu oft machen Marketer den Fehler, ein Mal zu testen und dann auf diese Ergebnisse zu setzen, ohne wirklich zu verstehen, was zu dem Erfolg führte. Versuchen Sie stattdessen, die Ergebnisse in einem iterierenden Test zu rekonstruieren, um festzustellen, warum der Front-Läufer vorne war. Sie erhalten dadurch tiefere Einblicke, die Sie für zukünftige Kampagnen nutzen können.
+Wenn sich Ihre Hypothese nicht als wahr erwiesen hat, denken Sie an Möglichkeiten, Ihren Test zu verbessern. Denken Sie daran, dass Ihr Experiment keine Zeitverschwendung war, auch wenn keines der getesteten Erlebnisse eine bessere Leistung erbrachte. Ein erfolgreicher Test bedeutet nicht immer eine Umsatz- oder Konversionssteigerung. Wenn der Test Ihre Hypothese tatsächlich unterstützt, sind Sie auf dem besten Weg, eine allgemeine Theorie zu entwickeln. Aber auch wenn Sie ein eindeutiges Gewinnerergebnis haben, hören Sie damit nicht auf. Zu oft machen Marketer den Fehler, ein Mal zu testen und dann auf diese Ergebnisse zu setzen, ohne wirklich zu verstehen, was zu dem Erfolg führte. Versuchen Sie stattdessen, die Ergebnisse in einem iterierenden Test zu rekonstruieren, um festzustellen, warum der Front-Läufer vorne war. Sie erhalten dadurch tiefere Einblicke, die Sie für zukünftige Kampagnen nutzen können.
 
 ## Tipp 16: Vergleichen Sie Tests und Personalisierungsaktivitäten, um festzustellen, wie Sie Ihr Targeting verbessern können.
 
@@ -170,19 +170,19 @@ Ein Kunde aus dem Finanzsektor beispielsweise führte eine Kampagne zur Bewerbun
 
 ## Tipp 17: Tests sollten nützlich sein – starten Sie einen Test nur, wenn Sie wissen, wie Sie mit den Daten umgehen.
 
-Ein Test ist sinnlos, wenn Sie nicht genau wissen, wie Sie die Daten verarbeiten werden. Dies schließt die Kenntnis Ihrer wichtigsten Erfolgsmetrik ein, was passieren muss, um einen Gewinner voranzutreiben, wie Sie die Testergebnisse umsetzen und was Sie mit den Zielgruppeninformationen machen werden. Für einen schnellen und erfolgreichen Test ist es wichtig, dass sich alle am Test beteiligten Gruppen (Entwickler, Kreative, Testspezialisten usw.) vor dem Start des Tests über dessen Rolle im Klaren sind.
+Ein Test ist sinnlos, wenn Sie nicht genau wissen, wie Sie die Daten verarbeiten werden. Dies schließt die Kenntnis Ihrer wichtigsten Erfolgsmetrik ein, was passieren muss, um einen Gewinner voranzutreiben, wie Sie die Testergebnisse umsetzen und was Sie mit den Zielgruppeninformationen machen werden. Für einen schnellen und erfolgreichen Test ist es wichtig, dass alle am Test beteiligten Gruppen (Entwickler, Kreative, Testspezialisten usw.) vor dem Start des Tests über ihre Rolle informiert sind.
 
 ## Tipp 18: Stellen Sie vor dem Start eines Tests sicher, dass das Unternehmen auch bereit ist, den Testsieger voranzutreiben.
 
-Erfolgreiche Optimierungsorganisationen glauben an das Konzept des Testens und wissen, dass ihre professionellen Ansichten darüber, welche Erfahrung den Test gewinnen wird, sich nicht immer als wahr erweisen. Sie bestimmen den Gewinner auf einer soliden Datengrundlage und sind bereit, das erfolgreichste Erlebnis nach dem Eintreffen der Ergebnisse live umzusetzen, auch wenn es nicht ihren Erwartungen entspricht oder widersinnig erscheint.
+Erfolgreiche Optimierungsorganisationen glauben an das Konzept des Testens und verstehen, dass ihre professionellen Ansichten darüber, welche Erfahrung den Test gewinnen wird, sich nicht immer als wahr erweisen. Sie bestimmen den Gewinner auf einer soliden Datengrundlage und sind bereit, das erfolgreichste Erlebnis nach dem Eintreffen der Ergebnisse live umzusetzen, auch wenn es nicht ihren Erwartungen entspricht oder widersinnig erscheint.
 
-Beispielsweise demonstrierte ein Kunde von Adobe aus dem Gesundheitswesen erst kürzlich den Wert von Tests, als sich in seinem Test zeigte, dass ein Hero Banner, das das Team als klaren Favoriten betrachtete, die Konversionsrate tatsächlich negativ beeinflusste. Wenn Ihr Unternehmen Tests noch nicht vollständig angenommen hat, ist es am besten, zunächst einfachere, kleinere Tests durchzuführen, damit Änderungen aus Testergebnissen schrittweise vorgenommen werden können.
+Beispielsweise demonstrierte ein Kunde von Adobe aus dem Gesundheitswesen erst kürzlich den Wert von Tests, als sich in seinem Test zeigte, dass ein Hero Banner, das das Team als klaren Favoriten betrachtete, die Konversionsrate tatsächlich negativ beeinflusste. Wenn Ihr Unternehmen Tests noch nicht vollständig angenommen hat, ist es am besten, zunächst einfachere, kleinere Tests durchzuführen, damit Änderungen an Testergebnissen schrittweise vorgenommen werden können.
 
-## Tipp 19: Kommunizieren Sie in Ihrer Organisation, dass Sie einen Test gestartet haben, um Irritationen aufgrund von Site-Änderungen zu vermeiden.
+## Tipp 19: Teilen Sie allen mit, dass Sie einen Test gestartet haben, um Bedenken zu vermeiden, wenn die Site geändert wird.
 
 Einer der Vorteile von Aktivitäten, die Sie mit QA-Parametern einrichten, besteht darin, dass Sie diese Links mit allen Mitarbeitern Ihres Teams austauschen können. Sie sensibilisieren mehr Personen für die Aktivität und stellen sicher, dass sie nicht davon ausgehen, dass die Site nicht richtig funktioniert, wenn sie auf eine Testvariante stoßen.
 
-Wenn Sie Ihre Organisation nach Abschluss der Tests über Kampagnenstarts, Testergebnisse und insbesondere die gewonnenen Erkenntnisse informieren, fördern Sie das Bewusstsein für die Tests und das Interesse an deren Ergebnissen. Durch die Weitergabe der Ergebnisse an alle Mitarbeiter des Unternehmens wird auch vermieden, dass eine Hypothese erneut getestet wird. Jeder in der Organisation lernt daraus, was funktioniert, und kann mit diesen Erkenntnissen seine eigenen Vorstellungen dessen, was funktioniert, grundlegend hinterfragen. Es empfiehlt sich, eine Vorlage vorzubereiten, die Sie jedes Mal verwenden können, um Ihre Erkenntnisse und wichtigen Erkenntnisse zu teilen.
+Wenn Sie Ihre Organisation nach Abschluss der Tests über Kampagnenstarts, Testergebnisse und insbesondere die gewonnenen Erkenntnisse informieren, fördern Sie das Bewusstsein für die Tests und das Interesse an deren Ergebnissen. Durch die Weitergabe der Ergebnisse an alle Mitarbeiter des Unternehmens wird auch vermieden, dass eine Hypothese erneut getestet wird. Jeder in der Organisation lernt daraus, was funktioniert, und kann mit diesen Erkenntnissen seine eigenen Vorstellungen dessen, was funktioniert, grundlegend hinterfragen. Es empfiehlt sich, eine Vorlage vorzubereiten, die Sie jedes Mal verwenden, um Ihre Erkenntnisse und wichtigen Erkenntnisse zu teilen.
 Ziehen Sie auch in Erwägung, die Testerfahrungen Ihres Unternehmens in einem Handbuch oder einer Microsoft PowerPoint-Mappe zusammenzustellen und diese(s) für jeden im Unternehmen freizugeben.
 
 ## Tipp 20: Erweitern Sie Ihre Tests auch auf mobile Funktionen, um innovativere mobile Erlebnisse zu schaffen.
@@ -205,7 +205,7 @@ Tablets werden beispielsweise bevorzugt abends genutzt, und viele Benutzer brows
 
 Berücksichtigen Sie die folgenden Erfahrungswerte, bevor Sie zum nächsten Kapitel „Ideen für Test- und Personalisierungsaktivitäten“ übergehen.
 
-### Achten Sie im Design Ihrer Tests nicht auf dekorative Details, sondern auf den Zweck.
+### Wenn Sie Ihre Tests erstellen, dekorieren Sie nicht, seien Sie absichtlich.
 
 * Richten Sie den Flow bewusst auf die Erzielung von Konversionspunkten.
 * Nutzen Sie die Ihnen verfügbaren Flächen zu Ihrem Vorteil.
@@ -216,7 +216,7 @@ Berücksichtigen Sie die folgenden Erfahrungswerte, bevor Sie zum nächsten Kapi
 
 ### Vereinfachen Sie Ihre Website.
 
-* Kunden nicht „zwingen“, zu lesen. Das werden sie nicht.
+* Kunden nicht zum Lesen zwingen. Das werden sie nicht.
 * Erleichtern Sie ihm das Durchscannen.
 * Verwenden Sie klar gegliederte Blöcke mit Aufzählungszeichen.
 * Achten Sie in Ihrer Kopie auf einen klaren, sequenziellen Gedankenablauf.

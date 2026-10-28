@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 56%
 ---
 # Anpassen eines Designs mithilfe von [!DNL Velocity]
 
@@ -251,13 +251,13 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
 
 ## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
 
-Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein 1-zu-viele-Ergebnis an, um zu vermeiden, dass leere HTML-Elemente erstellt werden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Sicherungsempfehlungen nicht sinnvoll sind und [!UICONTROL Partielles Vorlagenrendering] aktiviert ist.
+Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein Ergebnis von 1:n an, um die Erstellung leerer HTML-Elemente zu vermeiden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und [!UICONTROL Partielles Vorlagen-Rendering] aktiviert ist.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 
 * Wenn eine fünfte Entität vorhanden ist, fügt das Skript ein schließendes div ein und öffnet eine neue Zeile mit `<div class="at-table-row">`.
 * Mit 4 x 2 werden maximal acht Ergebnisse angezeigt. Dies kann für kleinere oder größere Listen durch Ändern von `$count <=8` angepasst werden.
-* Beachten Sie, dass die Logik die Entitäten in mehreren Zeilen nicht ausgleicht. Wenn es beispielsweise fünf oder sechs anzuzeigende Entitäten gibt, werden nicht drei oben und zwei am unteren Ende (oder drei oben und drei unten) dynamisch angezeigt. Die oberste Zeile zeigt vier Elemente und beginnt dann mit einer zweiten Zeile.
+* Beachten Sie, dass die Logik die Entitäten nicht in mehreren Zeilen ausgleicht. Wenn beispielsweise fünf oder sechs Entitäten angezeigt werden sollen, werden sie nicht dynamisch zu drei oben und zwei unten (oder drei oben und drei unten). Die oberste Zeile zeigt vier Elemente und beginnt dann mit einer zweiten Zeile.
 
 ```
 <div class="at-table">

@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 91%
 ---
 # Kapitel 5: Ideen für Test- und Personalisierungsaktivitäten
 
-Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die bereits bewiesen haben, dass sie Konversionsraten und Umsätze steigern, möchten wir Ihnen als Inspiration für eigene [!DNL Target]-Aktivitäten unbedingt ans Herz legen. Selbst wenn ein Vorschlag nicht ganz für Ihr Unternehmen geeignet zu sein scheint, gelingt es bestimmt mit ein wenig Kreativität und Brainstorming, ihn in eine für Ihr Unternehmen geeignete Aktivität umzusetzen, die dem Geist der Test- oder Personalisierungsidee entspringt.
+Diese Test- und Personalisierungsideen, inspiriert durch echte Aktivitäten unserer Kunden, die bereits bewiesen haben, dass sie Konversionsraten und Umsätze steigern, möchten wir Ihnen als Inspiration für eigene [!DNL Target]-Aktivitäten unbedingt ans Herz legen. Auch wenn die Idee mit ein wenig Kreativität und Brainstorming nicht ganz zu Ihrem Unternehmen passt, sollten Sie erwägen, eine Aktivität zu entwickeln, die auf dem Geist der Test- oder Personalisierungsidee basiert.
 
 ## Idee 1: Testen Sie die Personalisierung der Customer Journey.
 
@@ -56,11 +56,11 @@ Eventuell ist auch eine Verschlankung Ihres Designs sinnvoll, indem Sie bestimmt
 
 Potenzielle Neukunden, die sich insoweit mit Ihrer Website beschäftigen, als sie darin suchen, stellen für Sie einen äußerst qualifizierten Site-Traffic dar. Je zielgerichteter und relevanter die Inhalte der Suchergebnisse sind, desto wahrscheinlicher wird die Suche dieses potenziellen Kunden zu einer Konversion führen.
 
-Ziehen Sie auch in Erwägung, weiteren Kontext über Miniaturbilder direkt in den Suchergebnissen bereitzustellen. Mit zielgerichteten und augenfälligen Stickern, die auf Rabatte, Verfügbarkeiten, Größen oder Farben hinweisen, helfen Sie Ihren Kunden, schnell die Informationen zu finden, die sie für ihre Kaufentscheidung und eine Bestellung benötigen.
+Ziehen Sie auch in Erwägung, weiteren Kontext über Miniaturbilder direkt in den Suchergebnissen bereitzustellen. Mit zielgerichteten und augenfälligen Stickern, die auf Rabatte, Verfügbarkeiten, Größen oder Farben hinweisen, helfen Sie Ihren Verbrauchenden, schnell die Informationen zu finden, die sie für ihre Kaufentscheidung und eine Bestellung benötigen.
 
 ## Idee 5: Verringern Sie die Anzahl der zu einer Konversion führenden Klicks oder Touches.
 
-Machen Sie sich die Geschäftsziele und KPIs bewusst, die Sie mit Ihrer Initiative für Mobilgeräte erreichen möchten. Gestalten Sie das mobile Erlebnis zum Erreichen dieser Ziele dann so, dass Ihre Kunden den Weg des geringsten Widerstands gehen müssen. Eine Konversion sollte durch drei Klicks oder Touches erreichbar sein – möglichst sogar durch noch weniger.
+Machen Sie sich mit den Geschäftszielen und KPIs vertraut, die Sie mit Ihrer Initiative für Mobilgeräte erreichen möchten. Gestalten Sie das mobile Erlebnis zum Erreichen dieser Ziele dann so, dass Ihre Kunden den Weg des geringsten Widerstands gehen müssen. Eine Konversion sollte durch drei Klicks oder Touches erreichbar sein – möglichst sogar durch noch weniger.
 
 ## Idee 6: Führen Sie Ihre Besucher nicht in eine Sackgasse.
 
@@ -80,7 +80,7 @@ Oder ändern Sie einfach die Reihenfolge der Optionen, die Kunden bei einer Ents
 
 ## Idee 8: Werben Sie auf Ihrer Website für Ihre mobile App.
 
-Wenn Ihr Unternehmen Ressourcen in die Entwicklung einer mobilen App für iOS, Android oder andere Geräte investiert, legen Sie sich nicht einfach zurück und hoffen darauf, dass Benutzer im App Store zufällig über Ihre App stolpern. Entwickeln Sie stattdessen eine solide Strategie zu deren Verbreitung. Testen Sie verschiedene Ansätze zur Förderung der Downloads und Nutzung Ihrer App. Wenn Ihre Website für Desktops einen Link zum Herunterladen der App enthält, testen Sie auch die Effektivität einer zwischengeschalteten Landingpage, auf der Ihre App bei Benutzern, die zu Ihrer Startseite gelangen, explizit beworben wird. Richten Sie einen Umleitungstest ein, der die Hälfte Ihres mobilen Traffics auf die aktuelle Startseite Ihrer Website und die andere Hälfte auf die zwischengeschaltete Landingpage leitet.
+Wenn Ihr Unternehmen Ressourcen in die Entwicklung einer mobilen App für iOS, Android oder andere Geräte investiert, lehnen Sie sich nicht einfach zurück und hoffen, dass Benutzer im App Store über Ihre App stolpern. Entwickeln Sie stattdessen eine solide Strategie zu deren Verbreitung. Testen Sie verschiedene Ansätze zur Förderung der Downloads und Nutzung Ihrer App. Wenn Ihre Website für Desktops einen Link zum Herunterladen der App enthält, testen Sie auch die Effektivität einer zwischengeschalteten Landingpage, auf der Ihre App bei Benutzern, die zu Ihrer Startseite gelangen, explizit beworben wird. Richten Sie einen Umleitungstest ein, der die Hälfte Ihres mobilen Traffics auf die aktuelle Startseite Ihrer Website und die andere Hälfte auf die zwischengeschaltete Landingpage leitet.
 
 ## Idee 9: Modernisieren Sie Ihre mobile App durch die neuesten Innovationen.
 

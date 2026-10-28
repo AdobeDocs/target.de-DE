@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # [!UICONTROL Bericht &quot;] Segmente“
 
@@ -68,7 +68,7 @@ Verschiedene Besucher reagieren unterschiedlich auf die Angebote/Erlebnisse in I
 
    >[!IMPORTANT]
    >
-   >Der Bericht [!UICONTROL Automated &#x200B;]&quot; ist frühestens 15 Tage nach der Aktivierung Ihrer Aktivität verfügbar. Bis dahin können Sie nicht auf diesen Bericht zugreifen und das Symbol für [!UICONTROL „Automatisierte Segmente“] ist ausgegraut. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL „Automatisierte Segmente“] verfügbar.
+   >Der Bericht [!UICONTROL Automated &#x200B;]Segments) ist frühestens 15 Tage nach Aktivierung Ihrer Aktivität verfügbar. In diesem Anfangszeitraum können Sie nicht auf diesen Bericht zugreifen oder auf das Symbol [!UICONTROL Automatisierte Segmente] klicken. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, ist der Bericht [!UICONTROL „Automatisierte Segmente“] verfügbar.
 
 1. 15 Tage nach der Aktivierung der Aktivität können Sie auf das Symbol **[!UICONTROL Automatisierte Segmente]** klicken.
 
@@ -118,7 +118,7 @@ Dieses automatisierte Segment wird basierend auf zwei Attributen definiert. Besu
 
 Es kann verschiedene Gründe dafür geben, dass die [!UICONTROL Personalization Insights]-Berichte noch nicht für Ihre Aktivität verfügbar sind:
 
-* Seit der Aktivierung der Aktivität sind noch keine 15 Tage vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind erst 15 Tage nach der Aktivierung der Aktivität verfügbar. Bis dahin können Sie nicht auf diese Berichte zugreifen und die Symbole für „Automatisierte Segmente“ und „Wichtige Attribute“ sind ausgegraut.
+* Seit der Aktivierung der Aktivität sind noch keine 15 Tage vergangen. Die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ sind frühestens 15 Tage nach Beginn der Aktivität verfügbar. Während dieses anfänglichen Zeitraums können Sie nicht auf diese Berichte zugreifen oder auf die Symbole Automatisierte Segmente und Wichtige Attribute klicken.
 * Ihre Aktivität bietet nicht ausreichend Traffic im angegebenen Zeitraum. Nach 15 Tagen und sofern ausreichend Personalisierungstraffic in Ihrer Aktivität verfügbar ist, um die Personalisierungsmodelle zu erstellen, sind die Berichte „Automatisierte Segmente“ und „Wichtige Attribute“ verfügbar.
 * Ihre Aktivität verfügt über ein Ziel zur Umsatzoptimierung. Derzeit sind [!UICONTROL Personalization Insights] nur für Aktivitäten zur Konversionsoptimierung verfügbar. Adobe wird in einer zukünftigen Version Unterstützung für Aktivitäten zum Ziel der Umsatzoptimierung hinzufügen.
 

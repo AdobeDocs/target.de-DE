@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # [!UICONTROL Multivarianz-Test] Best Practices
 
@@ -34,7 +34,7 @@ Tipps zur Verbesserung der Leistung, zum Vermeiden von Problemen und Korrigieren
 
 ## Erstellung {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
-* Vermeiden Sie die Einbeziehung von mehr Kombinationen als für den Test notwendig.
+* Schließen Sie nicht mehr Kombinationen ein, als für den Test erforderlich sind.
 
   Jede getestete Kombination erhöht das Traffic-Aufkommen und die erforderliche Zeit zur Erreichung annehmbarer Ergebnisse erheblich. Wenn Sie zum Beispiel über drei Orte mit je drei Angeboten verfügen, entspricht dies 27 möglichen Kombinationen (3 x 3 x 3). Drei Orte, von denen zwei Orte drei mögliche Angebote und ein Ort zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2). Mit jedem zusätzlichen Ort und Angebot steigt die Anzahl erheblich.
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 36%
+source-wordcount: '846'
+ht-degree: 31%
 ---
 # Wählen Sie das Steuerelement für Ihre Aktivität [!UICONTROL Automated Personalization] oder [!UICONTROL Automatisches Targeting] aus
 
@@ -69,11 +69,11 @@ In Ihren Aktivitäten vom Typ [!UICONTROL Automated Personalization] und [!UICON
 
 Beachten Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement die folgenden Punkte:
 
-* Es ist nicht empfehlenswert, das Kontrollerlebnis in einer bereits aktiven Aktivität zu ändern. Das zuletzt ausgewählte Kontrollerlebnis wird in Berichten aufgeführt (auch wenn ältere Berichte auf einem anderen Erlebnis basieren).
-* Es wird nicht empfohlen, das Kontrollerlebnis zu löschen.
+* Es wird nicht empfohlen, das Kontrollerlebnis in einer bereits aktiven Aktivität zu ändern. Das zuletzt ausgewählte Kontrollerlebnis wird in Berichten aufgeführt (auch wenn ältere Berichte auf einem anderen Erlebnis basieren).
+* Das Löschen des Kontrollerlebnisses wird nicht empfohlen.
 * Hinzufügen vieler neuer Angebote oder Erlebnisse zu einer Live-Aktivität mit einem bestimmten Erlebnis, da das Steuerelement nicht empfohlen wird.
 * In [!UICONTROL Automated Personalization]-Aktivitäten, einschließlich der Zielgruppenbestimmung für das Kontrollerlebnis, die weiter einschränken könnte, wer sehen kann, dass das Erlebnis nicht empfohlen wird.
-* In [!UICONTROL Automated Personalization]-Aktivitäten sind die Informationen über Steigerung *Konfidenz* NOT) im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Informationen zu Steigerung und Konfidenz sind für die gesamte Aktivität [!UICONTROL Automated Personalization&quot; auf der Traffic-Ebene „Targeting“ im Vergleich &#x200B;] „Kontrolle“ verfügbar. Informationen zu Steigerung und Konfidenz sind verfügbar, wenn als Kontrolle „zufällig“ ausgewählt ist. Dies liegt daran, dass das Vergleichen der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund der unterschiedlichen Einheiten nicht logisch ist. Die in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
+* In [!UICONTROL Automated Personalization]-Aktivitäten sind die Informationen über Steigerung *Konfidenz* NOT) im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Informationen zu Steigerung und Konfidenz sind für die gesamte Aktivität [!UICONTROL Automated Personalization&quot; auf der Traffic-Ebene „Targeting“ im Vergleich &#x200B;] „Kontrolle“ verfügbar. Informationen zu Steigerung und Konfidenz sind verfügbar, wenn als Kontrolle „zufällig“ ausgewählt ist. Dieser Unterschied liegt daran, dass der Vergleich der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund des Unterschieds in den Einheiten nicht logisch ist. Die in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
 * Da der gesamte Kontroll-Traffic zu einem einzelnen Erlebnis oder Angebotsset geleitet wird, wenn Sie das Erlebnis als Kontrolle auswählen (im Vergleich zur zufälligen Methode, wo das Volumen des Kontroll-Traffics auf die Anzahl der Erlebnisse oder Angebote in Ihrer Aktivität aufgeteilt ist), benötigen Sie im Allgemeinen weniger Traffic, der zur Kontrolle geleitet wird. Es wird empfohlen, mit 10 % zu beginnen.
 * Wenn Sie eine der folgenden Handlungen bei einer aktiven Aktivität mit einem bestimmten Erlebnis als Kontrollelement ausführen, wird die Kontrolle automatisch auf zufällig ausgelieferte Erlebnisse geändert (anstelle des zuvor ausgewählten bestimmten Erlebnisses):
 

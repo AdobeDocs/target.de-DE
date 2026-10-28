@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 27%
 ---
 # Aktivitäts-QA
@@ -74,7 +74,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 
    Mit jeder Aktivitäts-Link-URL (für Erlebnis A, Erlebnis B usw.) können Sie die Benutzer-Journey aus dem entsprechenden Erlebnis starten. Klicken Sie auf die für ein Erlebnis generierte URL und fahren Sie dann mit dem normalen Site-Browsing fort, um Erlebnisse auf mehreren Seiten anzuzeigen (wenn mehrere Seiten vorhanden sind). Pro Erlebnis wird nur eine URL generiert. Dies ist selbst dann der Fall, wenn das Erlebnis mehrere Seiten überspannt (Vorlagentest oder Test mit mehreren Seiten).
 
-   Sie können auf der Site navigieren, um die anderen Seiten anzuzeigen, da der [!UICONTROL Aktivitäts-QA]-Modus beibehalten wird. Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Bei at.js 1.*x*-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Third-Party-Cookies blockiert.
+   Sie können auf der Site navigieren, um die anderen Seiten anzuzeigen, da der [!UICONTROL Aktivitäts-QA]-Modus beibehalten wird. Dies gilt für at.js-Implementierungen mit Version 2.*x* oder höher. Bei at.js 1.*x*-Implementierungen ist dies nur der Fall, wenn der Browser des Besuchers keine Cookies von Drittanbietern blockiert.
 
 1. Um Berichte anzuzeigen, die anhand von Aktivitäts-Link-URLs generiert wurden, klicken Sie auf die Seite **[!UICONTROL Berichte]** der Aktivität, klicken Sie auf das **[!UICONTROL Einstellungen]**-Symbol ( ![icon_gear-](assets/icon_gear.png) ) und wählen Sie dann **[!UICONTROL QA-Modus Traffic]** aus der Dropdown-Liste **[!UICONTROL Umgebung]** aus.
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '631'
 ht-degree: 30%
 ---
 # Ausnahmen
@@ -30,7 +30,7 @@ Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
 * Der Herbst-/Winter-Katalog ist jetzt der einzige Katalog, der online vorhanden sein sollte. Artikel aus dem Sommerkatalog können nicht mehr gekauft werden.
 * Elemente, die auf den meisten Seiten/Bildschirmen nicht empfohlen werden können (für Erwachsene geeignete Produkte, NC-17-Filme usw.)
 * Produkte mit unvollständigen Metadatenfeldern (fehlende Miniaturansicht, Preis oder andere wichtige Metadaten)
-* Produkte, die nie empfohlen werden sollten (vielleicht gibt es eine SKU im System für etwas, aber es ist kein käuflicher Artikel, oder vielleicht ist es eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen, usw.)
+* Produkte, die nie empfohlen werden sollten (vielleicht gibt es eine SKU im System für etwas, aber es ist kein kaufbarer Artikel, oder vielleicht ist es eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen, usw.)
 
 >[!IMPORTANT]
 >

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # [!UICONTROL Automatisches Targeting] häufig gestellte Fragen und Fehlerbehebung
 
@@ -61,12 +61,12 @@ Wie Ihre optimale Aufteilung der Traffic-Zuordnung aussieht, hängt davon ab, wa
 
 Wenn es Ihr Ziel ist, so viel Traffic wie möglich zu personalisieren, können Sie während der Lebensdauer der Aktivität bei der zielgerichteten Zuordnung von 90 % und der Kontrolle von 10 % bleiben. Wenn Sie ein Experiment durchführen möchten, in dem die Leistung personalisierter Algorithmen mit der Kontrolle verglichen wird, empfiehlt sich während der Lebensdauer der Aktivität eine Aufteilung von 50/50.
 
-Best Practice ist es auf jeden Fall, die Aufteilung der Traffic-Zuordnung während der Lebensdauer einer Aktivität nicht zu ändern, damit die Besucher nicht zwischen Targeting- und Kontrollerlebnissen verschoben werden.
+Best Practice ist es, die Aufteilung der Traffic-Zuordnung während der Lebensdauer der Aktivität beizubehalten, damit Besucher nicht zwischen Targeting- und Kontrollerlebnissen wechseln.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -78,7 +78,7 @@ Nein, es werden nur die Besucher im Bericht gezählt, die sich für die Aktivit�
 
 +++
 
-### Warum generiert meine Aktivität vom Typ [!UICONTROL Automatisches Targeting] anscheinend keine Steigerung.
+### Warum generiert meine [!UICONTROL Automatisches Targeting]-Aktivität offenbar keine Steigerung.
 
 +++Antwort
 Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ [!UICONTROL Automatisches Targeting] eine Steigerung generiert:
@@ -166,13 +166,13 @@ Diese Anleitung gilt auch für [!UICONTROL Automatische Zuordnung] und [!UICONTR
 +++Antwort
 [!DNL Target] erstellt für jedes Erlebnis ein eigenes Modell. Wenn Sie also ein Erlebnis entfernen, erstellt [!DNL Target] ein Modell weniger. Dies wirkt sich nicht auf die Modelle der anderen Erlebnisse aus.
 
-Angenommen, Sie haben eine [!UICONTROL Automatisches Targeting]-Aktivität mit acht Erlebnissen, und die Performance eines dieser Erlebnisse sagt Ihnen gar nicht zu. Sie können dieses Erlebnis entfernen. Dies wirkt sich nicht auf die Modelle der sieben verbleibenden Erlebnisse aus.
+Angenommen, Sie haben eine Aktivität vom Typ [!UICONTROL Automatisches Targeting] mit acht Erlebnissen, und die Performance eines dieser Erlebnisse sagt Ihnen gar nicht zu. Sie können dieses Erlebnis entfernen. Dies wirkt sich nicht auf die Modelle der sieben verbleibenden Erlebnisse aus.
 
 +++
 
 ## Fehlerbehebung [!UICONTROL Automatisches Targeting] {#section_23995AB813F24525AF294D20A20875C8}
 
-Manchmal verlaufen Aktivitäten nicht erwartungsgemäß. Im Folgenden finden Sie einige potenzielle Herausforderungen bei der Verwendung von [!UICONTROL Automatisches Targeting] sowie einige Lösungsvorschläge.
+Manchmal laufen die Aktivitäten nicht wie erwartet. Im Folgenden finden Sie einige potenzielle Herausforderungen bei der Verwendung von [!UICONTROL Automatisches Targeting] sowie einige Lösungsvorschläge.
 
 ### Meine [!UICONTROL Automatisches Targeting]-Aktivität dauert zu lange, um Modelle zu erstellen.
 
@@ -198,7 +198,7 @@ Es sind vier Faktoren erforderlich, damit eine Aktivität vom Typ [!UICONTROL Au
 * Es müssen genügend Traffic- und Teststärke im Test vorhanden sein, um die Steigerung zu ermitteln.
 * Der Personalisierungsalgorithmus muss gut funktionieren.
 
-**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden,  Ihre Aktivität vom Typ „Automatisches Targeting nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden, personalisiert [!UICONTROL automatisches &#x200B;]) den Traffic nicht.
+**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden,  Ihre Aktivität vom Typ „Automatisches Targeting nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden[!UICONTROL &#x200B; personalisiert „Automatisches Targeting] den Traffic nicht.
 
 Stellen Sie anschließend mithilfe eines einfachen, nicht personalisierten A/B-Tests sicher, dass die Angebote und die Aktivitäts-Speicherorte tatsächlich einen Unterschied zu den Gesamtansprechraten darstellen. Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass eine ausreichende Leistung vorliegt, um eine angemessene Steigerung zu sehen. Führen Sie zudem den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn die Ergebnisse eines A/B-Tests eine statistisch signifikante Steigerung eines oder mehrerer Erlebnisse zeigen, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Personalization kann auch dann funktionieren, wenn sich die Gesamtansprechraten der Erlebnisse nicht unterscheiden. In der Regel liegt das Problem daran, dass die Angebote und Standorte keine ausreichende Auswirkung auf das Optimierungsziel haben, um mit statistischer Signifikanz erkannt zu werden.
 

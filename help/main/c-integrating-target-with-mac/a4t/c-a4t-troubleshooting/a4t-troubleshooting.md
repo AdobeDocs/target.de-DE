@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 87%
+source-wordcount: '972'
+ht-degree: 78%
 ---
 # Fehlerbehebung bei der Analytics- und [!DNL Target]-Integration (A4T)
 
@@ -42,7 +42,7 @@ Es gibt verschiedene Gründe, warum Daten als „Unspecified“ angezeigt werden
 
   Die Classification von Berichten dauert normalerweise nach dem ersten Speichern zwischen 24 und 72 Stunden.
 
-* Die Report Suite enthält in diesem Zeitraum keine Daten, [!DNL Target] versucht jedoch, Treffer zu klassifizieren. [!DNL Target] kann Daten so lange nicht klassifizieren, bis ein erster Treffer registriert wird.
+* Die Report Suite enthält keine Daten, aber [!DNL Target] hat versucht, Treffer zu klassifizieren. [!DNL Target] kann Daten so lange nicht klassifizieren, bis ein erster Treffer registriert wird.
 
   Stellen Sie sicher, dass in der Report Suite mindestens ein Treffer registriert wurde.
 
@@ -54,7 +54,7 @@ Wenn Sie die Zeile „Unspecified“ mit der Dimension „Analytics for Target�
 
 >[!NOTE]
 >
->Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „Unspezifiziert“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Klassifizierung noch nicht abgeschlossen ist. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
+>Manchmal werden Daten korrekt in Berichten angezeigt, dann jedoch erneut als „Unspecified“ gekennzeichnet, da eine neue Aktivität hinzugefügt wurde, deren Klassifizierung noch nicht abgeschlossen ist. Beachten Sie, dass die Klassifizierung von Berichten nach dem ersten Speichern normalerweise zwischen 24 und 72 Stunden dauert.
 >
 >Daten, die als „unspezifisch“ eingestuft werden, gehen nicht verloren. Die Daten werden nach erfolgreicher Classification den entsprechenden Aktivitäten oder Erlebnissen zugeordnet.
 
@@ -64,7 +64,7 @@ Abhängig von der Metrik, mit der Sie Ihre Daten anzeigen, kann Ihr Bericht eine
 
 In der Regel wird diese Zeile angezeigt, wenn Sie eine allgemeine Metrik im Bericht auswählen, die nicht [!DNL Target] ist (z. B. [!UICONTROL Seitenansichten], [!UICONTROL Besuche], [!UICONTROL Unique Visitors] usw.). In diesem Fall enthält die Zeile [!UICONTROL „Unspecified“] alle [!UICONTROL Seitenansichten], [!UICONTROL Besuche] und [!UICONTROL Unique Visitors], die nicht mit [!DNL Target] Aktivitäten verbunden sind.
 
-Diese Zeile enthält dann keine [!DNL Target]-zugehörigen Informationen (z. B. keine Besuchende, Besuche oder Impressionen). Weitere Informationen finden Sie unter [„Unspezifiziert“, „Keine“, „Andere“ und „Nicht bekannt“ in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) in den *Technotes zu Analytics*.
+Diese Zeile enthält keine [!DNL Target] Informationen (z. B. keine Besucher, Besuche oder Impressionen). Weitere Informationen finden Sie unter [„Unspezifiziert“, „Keine“, „Andere“ und „Nicht bekannt“ in Berichten](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=de) in den *Technotes zu Analytics*.
 
 Wenn Sie im Bericht eine [!DNL Target] Metrik auswählen, wird diese [!UICONTROL &#x200B; „Unspecified]-Zeile nicht angezeigt. Die einzige Möglichkeit, dies im Bericht ganz zu vermeiden, besteht darin, für jede von dieser Seite gesendete Anfrage einen [!DNL Target]-Aufruf einzurichten, was weder üblich noch erforderlich ist.
 
@@ -100,7 +100,7 @@ Die Liste der Report Suites, die in  angezeigt wird, ist die Liste der Report Su
 
 Wenn Sie mehrere Berichtsquellen verwenden, müssen die Report Suites in der standardmäßigen Berichtsquelle vorhanden sein, die auch in [!DNL Target] eingestellt ist. Wenn sich die Report Suites nicht in der Standard-Berichtsquelle befinden, werden die Report Suites nicht angezeigt.
 
-Wenn Sie die Report Suite, nach der Sie suchen, nicht sehen, sollten Sie den [Kundendienst](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) kontaktieren und sie aktivieren lassen.
+Wenn Sie die Report Suite, nach der Sie suchen, immer noch nicht sehen, kontaktieren Sie [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), um sie zu aktivieren.
 
 ## In meinen Berichten sind weniger Daten vorhanden als erwartet. {#section_75002584FA63456D8D9086172925DD8D}
 

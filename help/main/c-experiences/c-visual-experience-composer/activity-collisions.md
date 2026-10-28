@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 49%
+source-wordcount: '351'
+ht-degree: 43%
 ---
 # Aktivitätskollisionen
 
@@ -42,4 +42,4 @@ Die [!UICONTROL Kollisionen] Liste zeigt jedes [!DNL Target] Szenario, in dem di
 
 Die Liste zeigt den Status und die Priorität jeder möglichen Kollision sowie weitere Informationen an. Mithilfe des Status und der Priorität können Sie bestimmen, wie wahrscheinlich es ist, dass eine Kollision auftritt. Erwägen Sie zwei Aktivitäten, die kollidieren könnten. Wenn eine Aktivität derzeit nicht aktiv ist, kann keine Kollision auftreten. Eine Kollision ist nur möglich, wenn die inaktive Aktivität aktiv wird. Wenn es zu einer potenziellen Kollision zwischen zwei Live-Aktivitäten mit derselben Priorität und derselben Zielgruppe kommt, tritt eine Kollision auf. Sie können die Priorität oder den Status ändern, um die Kollision zu verhindern.
 
-Bei unterschiedlichen Zielgruppen besteht weiterhin das Risiko einer Kollision, da ein bestimmter Besucher mehreren Zielgruppen angehören kann.
+Wenn die Zielgruppen unterschiedlich sind, besteht weiterhin die Möglichkeit einer Kollision, da ein bestimmter Besucher möglicherweise mehreren Zielgruppen angehören kann.

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 76%
 ---
 # Ressourcen und Kontaktinformationen
@@ -44,7 +44,7 @@ Informationen zu zusätzlichen Ressourcen, mit denen Sie mehr über die Target-F
 
 Entdecken Sie die [!UICONTROL Adobe Target Community]: Ihr Hub für Einblicke und Zusammenarbeit.
 
-Das [!UICONTROL Adobe Target-Community]Forum ist Ihr Ziel für alles, was nicht [!DNL Adobe Targe]. Ganz gleich, ob Sie gerade erst anfangen oder bereits ein erfahrener Anwender sind, die Community bietet Ihnen wertvolle Möglichkeiten:
+Das [!UICONTROL Adobe Target-Community]Forum ist Ihr Ziel für alles, was nicht [!DNL Adobe Targe]. Unabhängig davon, ob Sie gerade erst anfangen oder bereits ein erfahrener Anwender sind, bietet die Community wertvolle Möglichkeiten für Folgendes:
 
 * **Erkunden Sie [!DNL Target] Funktionen**: Lernen Sie Best Practices kennen und entdecken Sie neue Möglichkeiten der Verwendung von [!DNL Target].
 * **Vernetzung und Zusammenarbeit**: Treten Sie mit Gleich gesinnten und [!DNL Adobe]-Experten in Kontakt, um Einblicke zu teilen und Herausforderungen gemeinsam zu lösen.
@@ -52,7 +52,7 @@ Das [!UICONTROL Adobe Target-Community]Forum ist Ihr Ziel für alles, was nicht 
 
 Beteiligen Sie sich an der Diskussion, bringen Sie Ihr Fachwissen ein und erhalten Sie die Antworten, die Sie benötigen - alles an einem Ort.
 
-Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de), um loszulegen.
+Besuchen Sie das [Target-Community-Forum](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de), um loszulegen.
 
 ## Webinar-Reihe zu Target-Grundlagen {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -91,7 +91,7 @@ Unser Kundendienst hilft Ihnen im Falle eines Problems gern weiter. Auf dieser S
 
 Wenn Sie auf Probleme stoßen oder Fragen bei der Verwendung von Target haben, haben Sie eine Reihe von Möglichkeiten:
 
-Bei Fragen wenden Sie sich an die Adobe Target-Experten in der [Adobe Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}.
+Bei Fragen wenden Sie sich an die Adobe Target-Experten in der [Adobe Target-Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}.
 
 Bei technischen Problemen oder um einen Fehler einzugeben, können Sie den Kundendienst kontaktieren. Sie erreichen den Kundendienst telefonisch unter 1-800-497-0335. Gebührenfreie Nummern außerhalb der USA finden Sie auf der Seite [Adobe Digitales Marketing Kundenunterstützung Regionale Telefonnummern](https://helpx.adobe.com/de/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wenn Sie aufgefordert werden, eine Option für Ihr Produkt auszuwählen, drücken Sie die 3, um das Target-Team zu kontaktieren.
 
@@ -142,7 +142,7 @@ Je nach Konfiguration Ihrer Lösung stehen Ihnen eventuell einige der in diesem 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de) posten. Klicken Sie auf die [!UICONTROL Ideen].
+Wir freuen uns immer über Rückmeldungen und Verbesserungsvorschläge zu unserer Lösung. Ihre Verbesserungsvorschläge und Ideen können Sie jederzeit in der [Adobe Target Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de) posten. Klicken Sie auf die [!UICONTROL Ideen].
 
 ### Rechtliche Informationen {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

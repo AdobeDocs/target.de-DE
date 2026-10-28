@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3760'
-ht-degree: 34%
+source-wordcount: '3768'
+ht-degree: 33%
 ---
 # [!UICONTROL Automatische Zuordnung] Übersicht
 
@@ -40,7 +40,7 @@ Wählen [&#x200B; beim Erstellen einer A/B](/help/main/c-activities/t-test-ab/t-
 
 ## Die Herausforderung {#section_85D5A03637204BACA75E19646162ACFF}
 
-Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Und es besteht immer noch eine Chance, dass der ermittelte Gewinner kein wahrer Gewinner ist.
+Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es kompliziert, die Stichprobengröße zu ermitteln, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie einen Gewinner auswählen können. Und es besteht immer noch eine Chance, dass der ermittelte Gewinner kein wahrer Gewinner ist.
 
 ## Die Lösung: [!UICONTROL Automatische Zuordnung] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -130,7 +130,7 @@ Wenn wiederkehrende Besucher zufällig verteilt werden, wird ihre Wirkung auf di
 
 ### Unterscheidet zwischen leistungsstarken und nicht zwischen leistungsschwachen Anbietern.
 
-[!UICONTROL Automatische Zuordnung] eignet sich gut zur Unterscheidung zwischen Erlebnissen mit hoher Leistung (und zur Ermittlung eines Gewinners). Es kann vorkommen, dass Sie nicht genug zwischen den leistungsschwachen Erlebnissen unterscheiden können.
+[!UICONTROL Automatische Zuordnung] eignet sich gut zur Unterscheidung zwischen Erlebnissen mit hoher Leistung (und zur Ermittlung eines Gewinners). Es kann vorkommen, dass Sie unter den leistungsschwachen Erlebnissen nicht ausreichend differenzieren.
 
 Wenn Sie eine statistisch signifikante Unterscheidung zwischen allen Erlebnissen vornehmen möchten, sollten Sie den Modus für die manuelle Traffic-Zuordnung verwenden.
 
@@ -152,7 +152,7 @@ Nachfolgend finden Sie Beispiele für Faktoren, die sich ungleichmäßig auf die
 
 * Erlebnisse mit variierenden Verzögerungen in der Konversion, möglicherweise aufgrund der Dringlichkeit der Nachricht.
 
-  Zum Beispiel signalisiert „30 Prozent Rabatt nur noch heute“ dem Besucher, noch heute zu konvertieren, während „50 Prozent Rabatt auf Ihren ersten Einkauf“ nicht denselben Handlungsdruck auslöst.
+  Beispielsweise signalisiert „30 % Verkauf endet heute“ dem Besucher, heute zu konvertieren, aber „50 % Rabatt auf den ersten Kauf“ erzeugt nicht dasselbe Gefühl der Dringlichkeit.
 
 ## Häufig gestellte Fragen {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
@@ -198,7 +198,7 @@ Derzeit bevorzugt die Logik Besucher, die schnell konvertieren oder öfter besuc
 
 ### Kann ich den Stichprobengrößenrechner bei Verwendung von [!UICONTROL Automatische Zuordnung] verwenden, um zu schätzen, wie lange die Aktivität dauert, um den Gewinner zu ermitteln?
 
-Sie können den vorhandenen [!DNL Adobe Target] ([) verwenden](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um eine Schätzung der Dauer des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests wird die Bonferroni-Korrektur angewendet, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Dieser Rechner ist für herkömmliche A/B-Tests mit festem Horizont konzipiert und bietet nur eine Schätzung. Die Verwendung des Taschenrechners für eine Aktivität [!UICONTROL Automatische Zuordnung] ist optional, da [!UICONTROL Automatische Zuordnung] für Sie einen Gewinner bestimmt. Sie müssen keinen festen Zeitpunkt auswählen, um sich die Testergebnisse anzusehen. Die angegebenen Werte sind immer statistisch gültig.
+Sie können den vorhandenen [!DNL Adobe Target] ([) verwenden](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) um eine Schätzung der Dauer des Tests zu erhalten. (Wie bei herkömmlichen A/B-Tests wird die Bonferroni-Korrektur angewendet, wenn Sie mehr als zwei Angebote oder mehr als eine Konversionsmetrik/Hypothese testen.) Dieser Rechner ist für herkömmliche A/B-Tests mit festem Horizont konzipiert und bietet nur eine Schätzung. Die Verwendung des Taschenrechners für eine Aktivität [!UICONTROL Automatische Zuordnung] ist optional, da [!UICONTROL Automatische Zuordnung] für Sie einen Gewinner bestimmt. Sie müssen keinen festen Zeitpunkt auswählen, um die Testergebnisse anzuzeigen. Die angegebenen Werte sind immer statistisch gültig.
 
 Interne [!DNL Adobe] haben Folgendes ergeben:
 

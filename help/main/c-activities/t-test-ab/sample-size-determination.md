@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 47%
+source-wordcount: '3188'
+ht-degree: 45%
 ---
 # Wie lange sollten A/B-Tests laufen?
 
@@ -44,7 +44,7 @@ Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den er
 
 Eine [automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)-Aktivität ist eine Art von A/B-Test, der einen Gewinner aus zwei oder mehr Erlebnissen ermittelt. Ein Test [!UICONTROL Automatische Zuordnung] ordnet automatisch dem Gewinner mehr Traffic zu, um die Konversionen während der Fortführung des Tests und des Lernens zu erhöhen.
 
-Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es schwierig, die Stichprobengröße korrekt zu bestimmen, und die Aktivität muss komplett durchlaufen, bevor Sie einen Sieger finden. Und es besteht immer noch eine Chance, dass der identifizierte Gewinner kein wahrer Gewinner ist.
+Mit A/B-Standardtests sind Kosten verbunden. Sie müssen Traffic generieren, um die Leistung jedes einzelnen Erlebnisses zu messen und durch Analysen die erfolgreichsten Erlebnisse zu ermitteln. Die Verteilung von Traffic bleibt auch dann festgelegt, wenn Sie erkennen, dass einige Erlebnisse andere übertreffen. Außerdem ist es kompliziert, die Stichprobengröße zu ermitteln, und die Aktivität muss ihren gesamten Verlauf nehmen, bevor Sie einen Gewinner auswählen können. Und es besteht immer noch eine Chance, dass der identifizierte Gewinner kein wahrer Gewinner ist.
 
 Die Lösung lautet [!UICONTROL Automatische Zuordnung]. [!UICONTROL Automatische Zuordnung] reduziert diese Kosten und den Mehraufwand für die Bestimmung eines erfolgreichsten Erlebnisses. [!UICONTROL Automatische Zuordnung] überwacht die Leistung aller Erlebnisse bei der Zielmetrik und sendet proportional mehr neue Teilnehmer zu den leistungsstarken Erlebnissen. Es wird ausreichend Traffic für die Erkundung der anderen Erlebnisse reserviert. Sie können die Vorteile der Aktivität auf Ihren Ergebnissen sehen, auch während die Aktivität noch ausgeführt wird: Die Optimierung erfolgt parallel zum Lernen.
 
@@ -162,7 +162,7 @@ Auch hier wird in jedem Fall empfohlen, die erforderliche Zeit auf eine ganze Wo
 
 Bei Verwendung der Metrik Umsatz pro Besuch (RPV) wird eine zusätzliche Varianzquelle hinzugefügt, da RPV das Produkt aus Umsatz pro Bestellung und Konversionsrate ist (RPV = Umsatz / #visitors = (Umsatz pro Bestellung &#42; #orders) / # Besucher = Umsatz pro Bestellung &#42; (#visitors &#42; CTR) / #visitors = Umsatz pro Bestellung &#42; CTR), jeweils mit einer eigenen Varianz. Die Varianz der Konversionsrate kann direkt mithilfe eines mathematischen Modells geschätzt werden, aber die Varianz des Umsatzes pro Bestellung ist spezifisch für die Aktivität. Nutzen Sie daher die Kenntnis dieser Varianz aus früheren Aktivitäten oder führen Sie den A/B-Test einige Tage lang durch, um die Varianz beim Umsatz zu schätzen. Die Varianz wird anhand der Werte Summe der Verkäufe, Summe der Verkäufe im Quadrat und Anzahl der Besucher berechnet, die in der CSV-Download-Datei zu finden sind. Nachdem dies eingerichtet wurde, verwenden Sie die Tabelle, um die erforderliche Zeit zum Abschließen des Tests zu berechnen.
 
-Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, wird eine Registerkarte mit der Bezeichnung [!UICONTROL RPV-Metrik] angezeigt. Sie benötigen die folgenden Informationen, wenn Sie die RPV-Version des Rechners verwenden:
+Der Stichprobengrößenrechner (Link siehe oben) kann Ihnen dabei helfen, die RPV-Metrik zu konfigurieren. Wenn Sie den Rechner öffnen, wird eine Registerkarte mit der Bezeichnung [!UICONTROL RPV-Metrik] angezeigt. Bei Verwendung der RPV-Version des Taschenrechners benötigen Sie folgende Informationen:
 
 * Anzahl der Besucher des Kontrollangebots
 * Gesamtumsatz des Kontrollangebots

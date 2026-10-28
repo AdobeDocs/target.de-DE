@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # Zugriff von Adobe I/O-Integrationen auf Arbeitsbereiche gewähren und Rollen zuweisen
 
@@ -60,7 +60,7 @@ Dieses Update unterstützt die folgenden Anwendungsfälle:
 
 >[!NOTE]
 >
->Wenn Sie diese Aktion nicht ausführen, wird die Zugriffskontrolle ab der [!DNL Target]-Version vom September 2019 aktiviert und Sie werden nur auf den Standard-Arbeitsbereich zugreifen können, sofern dies Ihre aktuelle Einstellung ist. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Je nach der Anzahl der Arbeitsbereiche in Ihrer Organisation dauert dieser Prozess nur wenige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
+>Wenn diese Aktion nicht ausgeführt wird, werden nach der Version vom [!DNL Target]. September 2019 die Zugriffssteuerungen aktiviert und Sie sehen den Zugriff auf nur den Standardarbeitsbereich, wenn Sie derzeit so eingerichtet sind. Das vorzeitige Einrichten von Integrationen hat keine Nachteile. Je früher Sie diese Änderung vornehmen, desto besser. Je nach der Anzahl der Arbeitsbereiche in Ihrer Organisation dauert dieser Prozess nur wenige Klicks, um eine vorhandene Integration in Arbeitsbereiche mit der gewünschten Rolle hinzuzufügen.
 
 **So gewähren Sie Adobe I/O-Integrationen Zugriff auf Arbeitsbereiche und weisen eine Rolle zu:**
 

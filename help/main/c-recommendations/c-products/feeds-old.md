@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 46%
+source-wordcount: '2586'
+ht-degree: 44%
 ---
 # Feeds
 
@@ -219,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] Produktklassifizierungen {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Möglicherweise sind in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
+Die [!DNL Analytics] Produktklassifizierung ist die einzige Klassifizierung, die für Recommendations verfügbar ist. Weitere Informationen zu dieser Klassifizierungsdatei finden Sie unter [Über Klassifizierungen](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=de) im *Analytics-Komponenten* Handbuch. Es ist möglich, dass in Ihrer aktuellen Implementierung nicht alle Informationen verfügbar sind, die Sie für Recommendations benötigen. Befolgen Sie daher dieses Benutzerhandbuch, wenn Sie zu Ihrer Classifications-Datei hinzufügen möchten.
 
 >[!IMPORTANT]
 >
@@ -327,7 +327,7 @@ Die folgenden Feedstatus-Indikatoren werden in der Spalte [!UICONTROL Status] an
 | Statusindikator | Beschreibung |
 |--- |--- |
 | Grüner Statusindikator | Wenn die Indexierung eines Feeds erfolgreich abgeschlossen wurde, zeigt ein grüner Statuspunkt an, dass der Feed einen erfolgreichen Status hat. |
-| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Ein gelber Punkt wird beispielsweise für einen Feed angezeigt, für den eine tägliche Ausführung festgelegt wurde, sofern der Index nicht innerhalb von sechs Stunden nach der geplanten Zeit abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
+| Gelber Statusindikator | Wenn ein Feed oder Feed-Index um 25 % der Feed-Frequenz verzögert wird, wird ein gelber Punkt für den Status angezeigt. Beispielsweise wird ein gelber Punkt angezeigt, damit ein Feed-Set täglich ausgeführt wird, wenn der Index sechs Stunden nach der geplanten Zeit nicht abgeschlossen wurde. Hinweis: Sobald der Feed-Status „Warten auf Index-Warteschlange“ lautet, sind die neu aktualisierten Werte in den Versand- und Verarbeitungskriterien verfügbar. |
 | Weißer Statusindikator | Wenn ein Feed nicht geplant ist, gibt ein weißer Punkt für den Status an, dass der Feed noch nicht ausgeführt wurde. |
 | Roter Statusindikator | Wenn der Feed keine Daten auf den Server hochladen kann, wird eine rote Statusanzeige angezeigt. |
 
@@ -336,7 +336,7 @@ Sehen Sie sich folgende Beispiele an:
 **Beispiel 1:**
 
 * Tag 1: Tägliche Zufuhr um 9:00 Uhr PST.
-* Tag zwei: Es ist 15:30 Uhr und der Feed wurde seit gestern um 9:00 Uhr nicht ausgeführt
+* Tag 2: Es ist 15:30 Uhr und der Feed läuft seit gestern um 9:00 Uhr nicht mehr.
 
 Der Status ist gelb, da der Index vor rund 6,5 Stunden erstellt werden sollte. 6,5 Stunden + 24 ergibt 127 % des Feed-Zeitfensters.
 

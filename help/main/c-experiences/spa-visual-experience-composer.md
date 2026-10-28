@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Visual Experience Composer (VEC) für Einzelseiten-Apps (SPAs)
 
@@ -243,7 +243,7 @@ Die einzelnen Aktionen sind in der folgenden Tabelle beschrieben:
 | --- | --- |
 | Informationen | Zeigt die Details der Aktion an. |
 | Bearbeiten | Ermöglicht die direkte Bearbeitung der Eigenschaften dieser Aktion. |
-| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL Änderungen] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Durchsuchen] zur Ansicht in VEC navigieren, um herauszufinden, ob es sich bei der geklonten Aktion um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
+| Klonen | Klonen Sie die Aktion in eine oder mehrere Ansichten, die im Bedienfeld [!UICONTROL Änderungen] vorhanden sind, oder in eine oder mehrere Ansichten, die Sie im VEC durchsucht und aufgerufen haben. Die Aktion muss nicht unbedingt im Bedienfeld [!UICONTROL Änderungen] vorhanden sein.<br>**Hinweis**: Nachdem ein Klonvorgang durchgeführt wurde, müssen Sie über [!UICONTROL Durchsuchen] zur Ansicht in VEC navigieren, um festzustellen, ob es sich bei der geklonten Aktion um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Verschieben | Hiermit wird die Aktion in ein Seitenladereignis oder eine andere Ansicht verschoben, die im Änderungs-Bedienfeld bereits vorhanden ist.<br>[!UICONTROL Seitenladeereignis] - Alle Aktionen, die dem Seitenladeereignis entsprechen, werden beim ersten Laden der Seite Ihrer Web-Anwendung angewendet.<br>**Hinweis** Nachdem ein Verschiebevorgang ausgeführt wurde, müssen Sie über Durchsuchen zur Ansicht im VEC navigieren, um festzustellen, ob es sich um einen gültigen Vorgang handelte. Wenn die Aktion nicht auf die Ansicht angewendet werden kann, wird ein Fehler angezeigt. |
 | Löschen | Löscht die Aktion. |
 
@@ -383,7 +383,7 @@ Ja, at.js 2.x unterstützt A4T für SPA über die `triggerView()`-Funktion, wenn
 | [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Nein |
 | [Recommendations](/help/main/c-recommendations/recommendations.md) | Nein |
 
-**Wie führen wir, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, A/B-Aktivitäten mit automatischem Targeting aus, da SPA VEC das automatische Targeting nicht unterstützt?**
+**Wie führen wir automatische Targeting-A/B-Aktivitäten aus, wenn wir at.js 2.x installiert und `triggerView()` auf unseren Sites implementiert haben, da SPA VEC automatisches Targeting nicht unterstützt?**
 
 Wenn Sie A/B-Aktivitäten mit automatischem Targeting verwenden möchten, können Sie alle Aktionen so verschieben, dass sie in VEC beim Laden der Seite ausgeführt werden. Bewegen Sie den Mauszeiger über die einzelnen Aktionen und klicken Sie auf [!UICONTROL &#x200B; Schaltfläche „Zur Seitenladeereignis-] wechseln“. Anschließend können Sie im nächsten Schritt das automatische Targeting für die Traffic-Zuordnungsmethode auswählen.
 

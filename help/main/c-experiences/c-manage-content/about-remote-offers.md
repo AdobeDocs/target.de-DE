@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1148'
 ht-degree: 23%
 ---
 # Remote-Angebote erstellen
@@ -56,7 +56,7 @@ Best Practices für die Verwendung von Remote-Angeboten in Ihren Aktivitäten:
 * Remote-Angebote werden in nicht unterstützt:
 
   * [Premium-](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), Automatisches Targeting und Recommendations)
-  * Multivariate Testing (MVT), da der VEC verwendet wird, der keine Remote-Angebote unterstützt.
+  * Multivariate Testing (MVT), da der VEC keine Remote-Angebote unterstützt.
 
 * Wenn sich Ihr Angebot in derselben Domain wie die [!DNL Target]-Anfragen befindet, können Sie mit der Option [!UICONTROL Zwischengespeichert] relative URLs zur Beschreibung Ihres Angebotsspeicherorts verwenden.
 
@@ -133,7 +133,7 @@ Sie können auf **[!UICONTROL Parameter hinzufügen]** klicken, um eine oder meh
 
 Anwenden von Remote-Angeboten mithilfe [!UICONTROL Form-Based Experience Composer]. Sie können derzeit keine Remote-Angebote mit dem [!UICONTROL Visual Experience Composer] (VEC) anwenden.
 
-Der [!DNL Adobe Target] [!UICONTROL formularbasierte Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting] (XT)-, [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Aktivitäten [!UICONTROL A/B-], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Recommendations] nützlich ist, wenn der [!UICONTROL Visual Experience Composer] nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den [!UICONTROL formularbasierten Experience Composer) verwenden] um Erlebnisse zu erstellen, die Remote-Angebote verwenden.
 
 1. Erstellen oder bearbeiten Sie eine Aktivität im [!UICONTROL formularbasierten Experience Composer].
 

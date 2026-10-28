@@ -13,14 +13,14 @@ feature_v2:
 subfeature_v2:
   - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
     internal-label: Form based Experience Composer
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 39%
 ---
 # Form-Based Experience Composer
 
-Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die beim Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Der [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] ist eine nicht visuelle Oberfläche zur Erlebnis- und Angebotserstellung, die zum Erstellen von Erlebnissen für die Verwendung in [!UICONTROL A/B-]-, [!UICONTROL Experience Targeting]-, [!UICONTROL Automated Personalization]- und [!UICONTROL Recommendations]-Aktivitäten nützlich ist, wenn der [!UICONTROL Visual Experience Composer] (VEC) nicht verfügbar oder unpraktisch in der Anwendung ist. Beispielsweise können Sie den Form-Based Experience Composer verwenden, um Erlebnisse und Angebote für den Versand in E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 Wenn Sie eine Aktivität vom Typ [!UICONTROL Recommendations] erstellen, sind keine Erlebnisse verfügbar. Wählen Sie Ihre Kriterien und Ihren Entwurf aus. Wenn Sie mehrere Kriterien oder Designs auswählen, generiert [!UICONTROL Target] automatisch die Erlebnisse.
 

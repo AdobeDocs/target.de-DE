@@ -1,6 +1,6 @@
 ---
 keywords: Einstellungen;Priorität
-description: Erfahren Sie, wie [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) auf einer Seite bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion Sie verwenden.
+description: Erfahren Sie, wie [!DNL Adobe Target] bestimmt, welche Aktivität (oder Aktivitäten) für eine Seite unterschiedlich bereitgestellt werden soll, je nachdem, welche [!DNL Target] und welche Aktivitätserstellungsfunktion Sie verwenden.
 title: Wie weist [!DNL Target] den verschiedenen Aktivitäten Priorität zu?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 36%
 ---
 # Priorität

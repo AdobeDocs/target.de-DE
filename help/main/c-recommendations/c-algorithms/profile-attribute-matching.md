@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Zuordnung von Profilattributen
@@ -55,7 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Abgleichen von Jobs mit Arbeitsuchenden
 
-Angenommen, Sie versuchen, Jobs mit Arbeitsuchenden abzugleichen. Sie möchten nur Jobs empfehlen, die sich in derselben Stadt wie der Arbeitsuchende befinden.
+Angenommen, Sie versuchen, die Jobs mit den Arbeitsuchenden abzugleichen. Sie möchten nur Jobs empfehlen, die sich in derselben Stadt wie der Arbeitsuchende befinden.
 
 Sie können Einschlussregeln verwenden, um den Standort eines Arbeitsuchenden aus dem Besucherprofil mit einer Auftragsliste abzugleichen, wie im folgenden Beispiel gezeigt:
 

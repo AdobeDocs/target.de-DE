@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 16%
 ---
 # [!DNL Adobe Analytics] verwenden
 
@@ -47,6 +47,6 @@ Beim Einrichten von Aktivitäten nach der Einrichtung von [!DNL Analytics] als B
 
 Sie müssen eine Erfolgsmetrik auswählen, die als Ziel für jede Aktivität verwendet werden soll. Ihr Aktivitätsziel ist die Konversionsaktivität, die eine erfolgreiche Aktivität signalisiert. Die Best Practice ist, niemals einen Test ohne ein Ziel durchzuführen, das auf eine bestimmte Art und Weise verbessert werden soll. Sie können jede [!DNL Analytics] Metrik auswählen, die im [!DNL Analytics] Metrikselektor verfügbar ist.
 
-Das Einrichten eines Ziels hindert Sie nicht daran, eine andere Metrik beim Bewerten der Testergebnisse zu verwenden. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch den Test verbessern möchten.
+Das Festlegen eines Ziels bedeutet nicht, dass Sie bei der Bewertung von Testergebnissen keine andere Metrik verwenden können. Das Ziel ist jedoch eine Erinnerung an den einen Aspekt, den Sie durch den Test verbessern möchten.
 
 Nachdem ein Besucher Ihr Ziel erreicht hat, ist dieser Besucher nicht mehr in der Aktivität enthalten. Wenn der Besucher nach Abschluss einer Aktivität erneut Ihre Aktivität aufruft, wird dieser Besucher als neuer Besucher gezählt.

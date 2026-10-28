@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2157'
-ht-degree: 18%
+source-wordcount: '2160'
+ht-degree: 16%
 ---
 # [!UICONTROL Automatisches Targeting] - Überblick
 
@@ -153,7 +153,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] ans
 
 * Der mehrarmige Bandit stellt sicher, dass das Modell immer einen kleinen Bruchteil des Traffics „ausgibt“, um während des gesamten Lebens der Lernaktivität weiter zu lernen und eine Übernutzung der zuvor gelernten Trends zu verhindern.
 * Die zugrunde liegenden Modelle werden alle 24 Stunden mit den neuesten Daten zum Besucherverhalten neu erstellt, um sicherzustellen, dass [!DNL Target] immer die sich ändernden Besucherpräferenzen nutzen.
-* Wenn der Algorithmus keine Gewinnererlebnisse für Einzelpersonen bestimmen kann, wechselt er automatisch zur Anzeige des Erlebnisses mit der besten Gesamtleistung und sucht weiterhin nach personalisierten Gewinnern. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) gefunden.
+* Wenn der Algorithmus keine Gewinnererlebnisse für Einzelpersonen ermitteln kann, wechselt er automatisch zur Anzeige des insgesamt besten Erlebnisses, während er weiterhin nach personalisierten Gewinnern sucht. Das Erlebnis mit der besten Leistung wird mithilfe des [Thompson-Samplings](https://en.wikipedia.org/wiki/Thompson_sampling) gefunden.
 
 ### Der Algorithmus wird kontinuierlich für eine einzelne Zielmetrik optimiert.
 
@@ -165,7 +165,7 @@ Es gibt mehrere Szenarien, in denen Sie [!UICONTROL Automatisches Targeting] ans
 
 ### [!DNL Target] verwendet automatisch alle [!DNL Adobe Experience Cloud] freigegebenen Zielgruppen, um die Personalisierungsmodelle zu erstellen.
 
-* Um Zielgruppen zu dem Modell hinzuzufügen, sind Ihrerseits keine besonderen Aktivitäten erforderlich. Weitere Informationen zum Verwenden von [!DNL Experience Cloud Audiences] mit [!DNL Target] finden Sie unter [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
+* Sie müssen keine spezifischen Aktionen ausführen, um dem Modell Zielgruppen hinzuzufügen. Weitere Informationen zum Verwenden von [!DNL Experience Cloud Audiences] mit [!DNL Target] finden Sie unter [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Marketing-Experten können Offline-Daten, Tendenzwerte oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen.
 

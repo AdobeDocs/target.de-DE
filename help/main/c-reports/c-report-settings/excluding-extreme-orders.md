@@ -14,14 +14,14 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 62%
+source-wordcount: '336'
+ht-degree: 53%
 ---
 # Ausschließen von Extremwerten
 
-Sie können Extremwerte von den Berichten in [!DNL Adobe Target] ausschließen, sodass einige ungewöhnliche Bestellungen sich nicht auf Ihre Aktivitätsergebnisse auswirken. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
+Sie können Extremwerte von der Beeinträchtigung von Berichten in [!DNL Adobe Target] ausschließen, sodass einige ungewöhnliche Bestellungen sich nicht auf Ihre Aktivitätsergebnisse auswirken. Ein Beispiel für eine ungewöhnliche Bestellung ist, wenn ein Trainer Ausrüstungen für eine ganze Mannschaft kauft, anstatt dass einzelne Sportler individuell bestellen.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Extremwerte werden automatisch entsprechend den unten beschriebenen Regeln marki
 
 Ein Wert wird als extrem betrachtet, wenn in den Daten des letzten Monats mehr als +/- 3 Standardabweichungen vom durchschnittlichen Bestellwert vorliegen (bis zu dem Zeitpunkt, zu dem die Berechnung vorgenommen wurde).
 
-Bei der Verwendung von RPV ist der Filter für extreme Werte häufig nützlich. RPV kombiniert Konversionsraten und den durchschnittlichen Bestellwert und zeigt häufig die Unbeständigkeit dieser Metriken auf. Wenn Sie RPV verwenden und bestimmen, dass Aufträge nicht als normal verteilt angezeigt werden, sehen Sie normalere Ergebnisse, wenn Sie den Filter für extreme Bestellungen anwenden.
+Bei der Verwendung von RPV ist der Filter für extreme Werte häufig nützlich. RPV kombiniert Konversionsraten und den durchschnittlichen Bestellwert und zeigt häufig die Unbeständigkeit dieser Metriken auf. Wenn Sie RPV verwenden und feststellen, dass Bestellungen scheinbar nicht normal verteilt sind, sehen Sie möglicherweise normalere Ergebnisse, wenn Sie den Filter für extreme Bestellungen anwenden.
 
 Wenn ein Wert als extrem markiert wurde, wird der Bestellwert durch den durchschnittlichen Bestellwert des Erlebnisses des letzten Monats ersetzt, wobei die Extreme ausgespart werden. Die Bestellung wird auch im Bericht &quot;[!UICONTROL &quot; und &#x200B;] CSV-Download für tägliche Ergebnisse als extrem gekennzeichnet.
 

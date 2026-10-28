@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # Element-Selektoren, die in Visual Experience Composer verwendet werden
 
@@ -85,7 +85,7 @@ Informationen dazu, wann CSS-Selektoren und wann eindeutige IDs verwendet werden
 
    Selektor: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` („>“ gibt das unmittelbar untergeordnete Element an.)
 
-   `eq` gibt für den Index an, dass es ein Element mit „tagName=UL“ gibt und die erste Klasse `navigation` lautet. Deshalb ist `index` = 0. Weitere Informationen finden Sie im Artikel [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im MDN.
+   `eq` teilt dem Index mit, dass es ein Element mit „tagName=UL“ gibt und die erste Klasse `navigation` ist. Deshalb ist `index` = 0. Weitere Informationen finden Sie im Artikel [Selektoren](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) im MDN.
 
 1. Wenn ein Element keine Klasse enthält, verwendet [!DNL Target] `tagName` für das Element und durchläuft das übergeordnete Element, bis entweder das `<HTML>` Element oder ein Element mit einer ID gefunden wird.
 

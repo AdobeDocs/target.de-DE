@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Beheben von Problemen mit dem [!UICONTROL Enhanced Experience Composer]
 
 Anzeigeprobleme treten unter bestimmten Bedingungen manchmal im [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) auf.
 
-## Der EEC lädt eine interne QA-URL, auf die nicht über eine öffentliche IP zugegriffen werden kann, nicht. {#section_D29E96911D5C401889B5EACE267F13CF}
+## Der EEC wird keine interne QA-URL laden, auf die nicht über öffentliche IP-Adressen zugegriffen werden kann. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++Details
@@ -159,7 +159,7 @@ Nachstehend sind die Ursachen für diese Fehlermeldung und die Lösungen zum Kor
 
 +++
 
-## Der EEC wird auf sicheren Seiten meiner Website, für die TLS 1.0 verwendet wird, nicht geladen. (nur EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## Der EEC wird nicht auf sicheren Seiten auf meiner Site geladen, die TLS 1.0 verwenden. (nur EEC) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Details
 Möglicherweise wird die oben unter „Der [!UICONTROL Enhanced Visual Experience Composer] beschriebene Fehlermeldung nicht auf sicheren Seiten meiner Site geladen“. wenn die oben genannten IP-Adressen auf die Zulassungsliste gesetzt werden, Ihre Website TLS Version 1.2 jedoch nicht unterstützt. [!DNL Target] verwendet derzeit die Standardkonfiguration 1.2. Vor [!DNL Target] 18.4.1 (25. April 2018) unterstützte die Standardkonfiguration TLS 1.0. Weitere Informationen finden Sie unter [TLS-(Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=de){target=_blank}.

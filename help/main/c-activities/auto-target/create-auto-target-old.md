@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 38%
+source-wordcount: '905'
+ht-degree: 36%
 ---
 # Erstellen einer [!UICONTROL automatischen Targeting]-Aktivität
 
@@ -70,7 +70,7 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
 
 1. Erstellen Sie alle Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer Aktivität auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer Aktivität auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte Erlebnis B , die Sie nach Bedarf ändern können. Erlebnis B ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können dem Test mehrere Erlebnisse hinzufügen. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 

@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 47%
+source-wordcount: '1480'
+ht-degree: 46%
 ---
 # [!UICONTROL Multivarianz-Test] Übersicht
 
@@ -73,7 +73,7 @@ Multivarianz-Tests können gemeinsam mit A/B-Tests zur Optimierung Ihrer Seite v
 
 * Verwenden Sie einen Multivarianz-Test, wenn Sie mindestens drei Elemente testen müssen. Wenn die Anzahl der Elemente niedriger ist, führen Sie eine Reihe von A/B-Tests durch.
 * Wählen Sie die Seitenelemente aus, von denen Sie glauben, dass sie den größten Einfluss auf die Ergebnisse haben.
-* Vermeiden Sie die Einbeziehung zu vieler Elemente oder Orte in einen Test. Je größer die Zahl, desto länger die Testdauer.
+* Schließen Sie nicht zu viele Elemente oder Positionen in einen Test ein. Je größer die Zahl, desto länger die Testdauer.
 * Planen Sie den Testentwurf im Voraus. Bearbeiten Sie keinen Test, nachdem er live geschaltet wurde und Daten erfasst und analysiert werden.
 * Elemente sollten voneinander unabhängig sein.
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # Erstellen einer [!UICONTROL automatischen Targeting]-Aktivität
 
@@ -95,7 +95,7 @@ So erstellen Sie eine [!UICONTROL Automatisches Targeting]-Aktivität:
 
 1. Erstellen Sie neue Erlebnisse, indem Sie die Elemente auf der Seite ändern.
 
-   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können Erlebnis A außerdem aus der Aktivität löschen, wenn Sie kein Standarderlebnis für die Site festlegen möchten.
+   Der [!UICONTROL Visual Experience Composer] zeigt nach dem Erstellen einer neuen Aktivität auf der linken Seite zwei Registerkarten an: [!UICONTROL Erlebnis A] und [!UICONTROL Erlebnis B]. [!UICONTROL Erlebnis A] ist das Kontrollerlebnis. Der Fokus liegt auf der Registerkarte [!UICONTROL Erlebnis B], die Sie nach Bedarf ändern können. [!UICONTROL Erlebnis B] ist das alternative Erlebnis, das Sie Ihrem Test hinzufügen können. Sie können mehrere Erlebnisse zum Test hinzufügen, indem Sie auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse] klicken. Sie können auch Erlebnis A aus der Aktivität löschen, wenn Sie kein standardmäßiges Site-Erlebnis als Option einbeziehen möchten.
 
    Weitere Informationen zum Hinzufügen und Ändern von Erlebnissen in [!UICONTROL Visual Experience Composer] finden Sie unter [Erlebnis hinzufügen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Möchten Sie Erlebnis B bearbeiten, beginnen Sie mit Schritt 2.
 

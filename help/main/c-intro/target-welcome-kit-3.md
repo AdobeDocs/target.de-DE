@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 88%
 ---
 # Kapitel 3: Entwicklung Ihrer Test- und Personalisierungsideen
 
-Mit Ihrer ersten Aktivität sollten Sie etwas Einfaches testen, beispielsweise eine andere Farbe oder Kopie einer Aktionsaufrufschaltfläche. Nur zum Schnuppern. Längerfristig sollten Sie jedoch einen formalen, wiederholbaren Prozess für die Entwicklung von Test- und Personalisierungsideen einführen, durch den Ihr Optimierungs- und Personalisierungsprogramm zur vollen Reife kommt. Die folgenden sechs Schritte beschreiben detailliert einen bewährten Prozess, mit dem Sie genau dies erreichen.
+Mit Ihrer ersten Aktivität sollten Sie etwas Einfaches testen, beispielsweise eine andere Farbe oder Kopie einer Aktionsaufrufschaltfläche. Nur zum Schnuppern. Längerfristig sollten Sie jedoch einen formalen, wiederholbaren Prozess für die Entwicklung von Test- und Personalisierungsideen einführen, der bei der Reife Ihres Optimierungs- und Personalisierungsprogramms hilft. Die folgenden sechs Schritte beschreiben detailliert einen bewährten Prozess, mit dem Sie genau dies erreichen.
 
 ![Abbildung: Iterative Ausführung der Optimierungs- und Personalisierungsstrategie](/help/main/c-intro/assets/six-steps.png)
 
@@ -73,7 +73,7 @@ Führen Sie hierzu folgende Schritte aus:
 * Fertigstellen und Genehmigen der endgültigen Erlebnisentwürfe der Aktivität
 * Dokumentieren der Anforderungen der [!DNL Target]-Aktivität einschließlich Testeinstiegskriterien, Berichtsmetriken und Erlebnisänderungen
 
-Verwenden Sie den später im Welcome Kit vorgestellten Aktivitätsplaner zur Dokumentation der Aktivitätsdetails einschließlich der Metriken, anhand derer die Performance der Aktivität gemessen werden soll (z. B. Klicks auf eine Aktionsschaltfläche, Videostarts oder generierter Umsatz). Legen Sie dem Planer unbedingt auch Screenshots oder Bilder zu den Erlebnisdesigns bei, die Sie testen oder personalisieren möchten.
+Verwenden Sie den später im Welcome Kit vorgestellten Aktivitätsplaner zur Dokumentation der Aktivitätsdetails einschließlich der Metriken, anhand derer die Performance der Aktivität gemessen wird (z. B. Klicks auf eine call to action-Schaltfläche, Videostarts oder generierter Umsatz). Legen Sie dem Planer unbedingt auch Screenshots oder Bilder zu den Erlebnisdesigns bei, die Sie testen oder personalisieren möchten.
 
 ## Schritt 4: Erstellen und ausführen
 
@@ -85,7 +85,7 @@ Führen Sie hierzu folgende Schritte aus:
 * Einholen aller erforderlichen Genehmigungen
 * Starten der Aktivität und Überprüfen der Metriken nach einer Stunde, nach 24 Stunden und danach in regelmäßigen Abständen, solange die Aktivität ausgeführt wird
 
-Wenn Sie beispielsweise für neue Besucher einen 10-Prozent-Rabatt auf ihre erste Bestellung in einer Lightbox anbieten möchten, müssen Ihre Designer das Lightbox-Design und die Kopie entwickeln, Ihre Stakeholder müssen die Entwürfe genehmigen, Ihre Entwickler müssen den Code dafür schreiben und dessen Qualität in einer Staging-Umgebung sicherstellen, und erst danach kann die Aktivität gestartet werden. Danach werden Sie die Ausführung der Aktivität überwachen, um sicherzustellen, dass sie keine größeren negativen Auswirkungen hat.
+Wenn Sie beispielsweise für neue Besucher einen 10-Prozent-Rabatt auf ihre erste Bestellung in einer Lightbox anbieten möchten, müssen Ihre Designer das Lightbox-Design und die Kopie entwickeln, Ihre Stakeholder müssen die Entwürfe genehmigen, Ihre Entwickler müssen den Code dafür schreiben und dessen Qualität in einer Staging-Umgebung sicherstellen, und erst danach kann die Aktivität gestartet werden. Danach werden Sie die Aktivität überwachen, um sicherzustellen, dass sie keine größeren negativen Auswirkungen hat.
 
 ## Schritt 5: Analysieren
 

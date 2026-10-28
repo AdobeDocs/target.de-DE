@@ -21,14 +21,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '387'
+ht-degree: 71%
 ---
 # Kapitel 1: Einführung
 
-Wie die meisten heutigen Unternehmen haben Sie Ihre digitalen Marketingkanäle modernisiert. Jetzt suchen Sie Wege, Ihre Marke zu differenzieren. Sie möchten sich aus dem Mainstream hervorheben und dadurch Ihre Umsätze, Ihre Konversionsraten und andere wichtige Geschäftsmetriken steigern. Ein guter Weg ist die Optimierung und Personalisierung der digitalen Erlebnisse, die Sie Ihren Kunden bieten. Nutzen Sie dazu das, was Sie über Ihre Kunden wissen, für eine optimale Interaktion mit ihnen auf Ihrer Website oder mobilen Site, in Ihrer mobilen App oder auf einem anderen Touchpoint Ihrer Marke. Vielleicht möchten Sie diese Optimierung und Personalisierung sogar über Ihre herkömmlichen digitalen Touchpoints hinaus auf Touchpoints wie Kiosks, IoT-Geräte, Call-Center-Interaktionen und Sprachassistenten wie Alexa erweitern. Unternehmen, die [!DNL Target] bereits zum Testen und Personalisieren ihrer digitalen Erlebnisse nutzen, erzielen erstaunliche Ergebnisse.
+Wie die meisten heutigen Unternehmen haben Sie Ihre digitalen Marketing-Kanäle modernisiert. Jetzt suchen Sie nach Möglichkeiten, Ihre Marke zu differenzieren - um sich aus dem Rudel zu befreien und dadurch Umsatz, Konversionsraten und andere wichtige Geschäftsmetriken zu steigern. Ein guter Weg ist die Optimierung und Personalisierung der digitalen Erlebnisse, die Sie Ihren Kunden bieten. Nutzen Sie dazu das, was Sie über Ihre Kunden wissen, für eine optimale Interaktion mit ihnen auf Ihrer Website oder mobilen Site, in Ihrer mobilen App oder auf einem anderen Touchpoint Ihrer Marke. Vielleicht möchten Sie diese Optimierung und Personalisierung sogar über Ihre herkömmlichen digitalen Touchpoints hinaus auf Touchpoints wie Kiosks, IoT-Geräte, Call-Center-Interaktionen und Sprachassistenten wie Alexa erweitern. Unternehmen, die [!DNL Target] bereits zum Testen und Personalisieren ihrer digitalen Erlebnisse nutzen, erzielen erstaunliche Ergebnisse.
 
 Beispiel:
 
@@ -38,7 +38,7 @@ Beispiel:
 
 Eine derartige Interaktion mit Kunden setzt eine Lösung voraus, die auf nahezu jedem Touchpoint mit praktisch jeder Datenquelle eingesetzt werden kann. Diese Lösung ist [!DNL Adobe Target] – eine Komponente der [!DNL Adobe Experience Cloud]. [!DNL Target] bietet die Optimierungs- und Personalisierungsfunktionen, die Sie benötigen, um Ihren Kunden zum richtigen Zeitpunkt wirklich relevante Erlebnisse bereitzustellen. Sie wiederum erzielen dadurch mehr Umsätze und eine höhere Konversionsrate.
 
-Sie befinden sich gerade am Anfang unseres Welcome Kit. Daher gehen wir davon aus, dass Sie sich bereits entschieden haben, Ihr Optimierungs- und Personalisierungsprogramm mit [!DNL Adobe Target] zu entwickeln. Wir freuen uns sehr über Ihre Entscheidung.
+Sie befinden sich gerade am Anfang unseres Welcome Kit. Daher gehen wir davon aus, dass Sie sich bereits entschieden haben, Ihr Optimierungs- und Personalisierungsprogramm mit [!DNL Adobe Target] zu entwickeln. Wir sind froh, dass du es getan hast.
 
 Jetzt möchten wir sicherstellen, dass Sie Target von Beginn an optimal nutzen.
 

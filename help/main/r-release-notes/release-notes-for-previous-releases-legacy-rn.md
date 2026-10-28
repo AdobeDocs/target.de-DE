@@ -3,10 +3,10 @@ keywords: Versionshinweise;Vorabversionshinweise;zukünftige Verbesserungen;zuk�
 description: Dieser Abschnitt enthält eine Liste der Funktionen, Verbesserungen und Fehlerbehebungen früherer Versionen von Adobe Target.
 title: Welche Funktionen sind in früheren Versionen enthalten?
 feature: Release Notes
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '72456'
-ht-degree: 48%
+source-wordcount: '72491'
+ht-degree: 47%
 ---
 # Versionshinweise für vorherige Versionen
 
@@ -2022,7 +2022,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->
@@ -3177,7 +3177,7 @@ Diese Version enthält folgende Verbesserungen, Fehlerkorrekturen und Änderunge
 
 * Es wurde ein Problem behoben, das verhinderte[!UICONTROL &#x200B; dass &#x200B;]Konfidenzintervall für durchschnittliche Steigerung[!UICONTROL &#x200B; und &#x200B;]Konfidenz“ in [!DNL Auto-Target] Berichten für die Zeile [!UICONTROL Gesamt] angezeigt wurden. Die Messungen für die einzelnen Erlebnisse wurden korrekt angezeigt. (TGT-37301)
 * Es wurde ein Problem behoben, das sich bei [!DNL Adobe Target Premium] Benutzerberichten [!UICONTROL Automatisches Targeting] vom 15. September, 14.30 Uhr (PDT), bis zum 6. Oktober, 9.25 Uhr (PDT), auswirkte. In den Berichten werden die Konversionsraten der betroffenen Konversionsmetriken (konfiguriert mit [!UICONTROL &#x200B; Option „Angezeigte &#x200B;]&quot; oder &quot;[!UICONTROL &#x200B; auf mbox geklickt]) nicht korrekt angezeigt. Ein Problem mit der Bereitstellung ist derzeit nicht bekannt.
-* In der Tabelle [!UICONTROL Katalogsuche“ wurde &#x200B;] auswählbare Spalte [!UICONTROL Letzte Änderung] und ein Filter [!UICONTROL Letzte Änderung] hinzugefügt. Diese Verbesserung spart Ihnen Zeit und Mühe. Sie müssen nun nicht mehr jedes einzelne Element öffnen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie können die Tabelle nach dem Datum filtern, an dem die Elemente zuletzt aktualisiert wurden.
+* In der Tabelle [!UICONTROL Katalogsuche“ wurde &#x200B;] auswählbare Spalte [!UICONTROL Letzte Änderung] und ein Filter [!UICONTROL Letzte Änderung] hinzugefügt. Diese Verbesserung spart Zeit und Mühe, da Sie nicht jedes einzelne Element öffnen müssen, um zu sehen, wann es zuletzt aktualisiert wurde, und Sie können nach dem Datum filtern, an dem die Elemente zuletzt aktualisiert wurden.
 
   ![Abbildung: Spalte und Filter „Letzte Änderung“](/help/main/r-release-notes/assets/column-and-filter.png)
 
@@ -3624,7 +3624,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
 
 | Funktion/Verbesserung | Beschreibung |
 | --- | --- |
-| Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt das Laden einer Website in VEC abbrechen, um die Bearbeitung einer Aktivität zu entsperren. Diese Verbesserung ist nützlich, wenn Sie z. B. eine kleine Änderung an einer Aktivität vornehmen, die Einstellungen in der Vorschau ansehen oder benutzerdefinierten Code hinzufügen möchten, Sie aber nicht warten möchten, bis die Website geladen ist. (TGT -31288)<br>Siehe [Laden einer Seite im VEC abbrechen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-31288, TGT-31611 und TGT-32602)<br>Siehe [Bearbeiten einer Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>Im VEC wird der DOM-Pfad angezeigt, sodass Sie einfach bei der Erstellung oder Bearbeitung von Erlebnissen das gewünschte Element auswählen können. (TGT -13422)<br>Siehe [Navigieren in Elementen mit dem DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
+| Visual Experience Composer | Visual Experience Composer (VEC) umfasst die folgenden Erweiterungen, um Ihre Arbeit schneller und effizienter zu gestalten:<ul><li>Sie können jetzt das Laden einer Website in VEC abbrechen, um die Bearbeitung einer Aktivität zu entsperren. Diese Verbesserung ist beispielsweise nützlich, wenn Sie die Aktivität geringfügig bearbeiten, ihre Einstellungen überprüfen oder benutzerdefinierten Code hinzufügen möchten und nicht auf das Laden der Site warten möchten. (TGT -31288)<br>Siehe [Laden einer Seite im VEC abbrechen](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading).</li><li>Sie können viele Aktionen ausführen, bevor die Seite im VEC geladen wird, oder selbst dann, wenn die Seite nicht vollständig geladen werden kann (wenn beispielsweise benutzerdefinierter Code nicht mehr funktioniert). Aktionen, die nicht bearbeitet werden können, bevor die Website geladen ist, sind in der Benutzeroberfläche von Target deaktiviert. (TGT-31288, TGT-31611 und TGT-32602)<br>Siehe [Bearbeiten einer Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li><li>Im VEC wird der DOM-Pfad angezeigt, sodass Sie einfach bei der Erstellung oder Bearbeitung von Erlebnissen das gewünschte Element auswählen können. (TGT -13422)<br>Siehe [Navigieren in Elementen mit dem DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).</li></ul> |
 
 ### at.js-Version 2.0.1 (19. März 2019) {#atjs201}
 
@@ -3716,7 +3716,7 @@ Dieses Release umfasst die folgenden Funktionen, Änderungen und Erweiterungen:
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Selektoren sind jetzt CSS-escaped, wenn sie IDs oder CSS-Klassen enthalten, die mit einer Ziffer, zwei Bindestrichen oder einem Bindestrich gefolgt von einer Ziffer (z. B. #-123) beginnen. (TNT-31061) </p> </li> 
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>Es wurde ein Problem behoben, das mit at.js 1.6.2 eingeführt wurde: Angebote von Visual Experience Composer (VEC) aus verschiedenen Aktivitäten, die für denselben CSS-Selektor gelten, berücksichtigten nicht die Aktivitätenpriorität. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>Es wurde ein Problem behoben, bei dem Zeitüberschreitungen für Zusagen in Umgebungen auftraten, in denen Zusagen nativ nicht unterstützt werden. (TNT-30974) </p> </li> 
-      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Probleme werden jetzt korrekt erfasst und über das Ereignis „Inhaltswiedergabe fehlgeschlagen“ gemeldet. Zuvor wurde unter Umständen gemeldet, dass JavaScript erfolgreich ausgeführt wurde, selbst wenn dies nicht der Fall war. (TNT-30599) </p> </li> 
+      <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>Probleme werden jetzt korrekt erfasst und über das Ereignis „Inhaltswiedergabe fehlgeschlagen“ gemeldet. Zuvor wurde möglicherweise berichtet, dass JavaScript erfolgreich ausgeführt wurde, auch wenn dies nicht der Fall war. (TNT-30599) </p> </li> 
      </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de" format="dita" scope="local">at.js-Versionsdetails</a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -3978,7 +3978,7 @@ Diese Version von [!DNL Target] enthält folgende Verbesserungen, Fehlerbehebung
       <li id="li_2852878862724BB2BD475C8FC7BF20DA"> <p>Es wurde ein Problem behoben, bei dem <span class="codeph">window.targetGlobalSettings.enabled</span> mit einem Laufzeitfehler fehlschlug, wenn es auf „false“ festgelegt war. (TNT-29829) </p> </li> 
       <li id="li_96E5E409B36444F1B0E3E2606DC03996"> <p>Es wurde ein Problem behoben, bei dem das Laden einer Seite im Visual Experience Composer (VEC) fehlschlug, wenn benutzerspezifischer Code verwendet wurde, um eine globale Mbox-Anfrage auszulösen, und der Body verborgen wurde. (TNT-29795) </p> </li> 
       <li id="li_818AA4EDDAC04D8B9BB4BA708D6BEF99"> <p>Es wurde Unterstützung für <span class="codeph">screenOrientation</span>, <span class="codeph">devicePixelRatio</span> und <span class="codeph">webGLRenderer</span> hinzugefügt. Diese neuen Parameter für Target-Anfragen werden verwendet, um das iPhone X und andere moderne Geräte zu erkennen. Weitere Informationen finden Sie unter <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local">Mobilgeräte</a>. (TNT-29781) </p> </li> 
-      <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Es wurde ein Problem behoben, bei dem der Hinweis zum AAM-Standort (Adobe Audience Manager) nicht immer gesendet wurde. (TNT-29695) </p> </li> 
+      <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Es wurde ein Problem behoben, bei dem der Standorthinweis für Adobe Audience Manager (AAM) nicht immer gesendet wurde. (TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>Bei Browsern, die diese Funktion unterstützen, wechselt at.js 1.5.0 für den Selektorabruf zu MutationObserver. Versionen vor at.js 1.0.0 nutzten einen MutationObserver-Polyfill, der sich als problematisch erwies. Um die Polyfill-Probleme zu vermeiden, verwendet Version 1.5.0 folgenden Pseudocode, um zu entscheiden, welcher Planungsmechanismus verwendet wird: </p> <p> 
         <code>
           if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
@@ -4272,7 +4272,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. </p> </td> 
-   <td colname="col2"> <p>Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Außerdem handelt es sich hierbei um eine intuitive Schnittstelle, mit deren Hilfe Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können. </p> <p>Neues Branding und Änderungen an der Benutzeroberfläche: Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. Zusätzlich werden Sie Benutzeroberflächenänderungen auf der Target-Oberfläche und im Solution Switcher feststellen. </p></td> 
+   <td colname="col2"> <p>Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Es handelt sich dabei auch um eine intuitive Benutzeroberfläche, über die Sie schnell auf Ihre Cloud-Lösungen und zentralen Services zugreifen können. </p> <p>Neues Branding und Änderungen an der Benutzeroberfläche: Die Adobe Marketing Cloud wurde mit einem neuen Branding versehen und heißt nun Adobe Experience Cloud. Zusätzlich werden Sie Benutzeroberflächenänderungen auf der Target-Oberfläche und im Solution Switcher feststellen. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -4657,8 +4657,8 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen, Korrekturen
    <td colname="col2"> <p><b>3. August 2017</b> </p> <p> <span class="filepath"> at.js</span>, Version 1.1 ist verfügbar. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=de" format="dita" scope="local">at.js herunterladen</a>. </p> <p>Folgende Verbesserungen und Fehlerbehebungen sind in Version 1.1 von <span class="filepath">at.js</span> enthalten: </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Die Verarbeitung von Antwort-Token wurde hinzugefügt. Weitere Informationen finden Sie unter <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Antwort-Token</a>. </p> </li> 
-      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Es wurde ein Problem behoben, damit <span class="codeph">document.currentScript polyfill</span> nicht mit Angular 1.X in Konflikt gerät. </p> </li> 
-      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Es wurden Änderungen vorgenommen, die sicherstellen, dass die Klick-Verfolgung nicht mit der Sichtbarkeitseigenschaft in Konflikt gerät. Klick-Verfolgungselemente sind mit der CSS-Klasse <span class="codeph">at-element-click-tracking</span> statt mit <span class="codeph">at-element-marker</span> markiert. </p> </li> 
+      <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p>Es wurde ein Problem behoben, sodass <span class="codeph"> Polyfill-</span> document.currentScript Angular 1.X nicht beeinträchtigt. </p> </li> 
+      <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Es wurden Änderungen vorgenommen, um sicherzustellen, dass das Klick-Tracking die Sichtbarkeitseigenschaft nicht beeinträchtigt. Klick-Verfolgungselemente sind mit der CSS-Klasse <span class="codeph">at-element-click-tracking</span> statt mit <span class="codeph">at-element-marker</span> markiert. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -4799,7 +4799,7 @@ Diese [!DNL Target]-Version beinhaltet die folgenden Verbesserungen und Korrektu
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Kriterien und Promotions </p> </td> 
-   <td colname="col2"> <p> Von nun an können Sie dynamische Kriterien und Promotions basierend auf der Profilattributübereinstimmung und der Parameterübereinstimmung erstellen. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>Hinweis: Wenn Sie sich mit dem Konfigurieren von Einschlussregeln vor Target-Version 17.6.1 (Juni 2017) auskennen, werden Sie feststellen, dass sich einige Optionen und Operatoren geändert haben. Es werden nur die Operatoren angezeigt, die auf die ausgewählte Option angewendet werden können. Zudem wurden einige Operatoren umbenannt („stimmt überein“ heißt jetzt „gleich“), um die Konsistenz und die Intuitivität zu erhöhen. Alle vorhandenen Ausschlussregeln, die vor dieser Version erstellt worden sind, wurden automatisch in die neue Struktur migriert. Es ist keine Neustrukturierung Ihrerseits nötig. </p> </p> </td> 
+   <td colname="col2"> <p> Von nun an können Sie dynamische Kriterien und Promotions basierend auf der Profilattributübereinstimmung und der Parameterübereinstimmung erstellen. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>Hinweis: Wenn Sie wissen, wie Einschlussregeln vor der Veröffentlichung von Target 17.6.1 (Juni 2017) konfiguriert wurden, werden Sie feststellen, dass sich einige der Optionen und Operatoren geändert haben. Es werden nur die Operatoren angezeigt, die auf die ausgewählte Option angewendet werden können. Zudem wurden einige Operatoren umbenannt („stimmt überein“ heißt jetzt „gleich“), um die Konsistenz und die Intuitivität zu erhöhen. Alle vorhandenen Ausschlussregeln, die vor dieser Version erstellt worden sind, wurden automatisch in die neue Struktur migriert. Es ist keine Neustrukturierung Ihrerseits nötig. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen des VEC-Code-Editors </p> </td> 
@@ -4839,7 +4839,7 @@ Diese Version von [!DNL Target] umfasst die folgenden Verbesserungen und Fehlerb
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommendations: Kriterien und Promotions </p> </td> 
-   <td colname="col2"> <p><b>(Veröffentlichung am 22. Juni 2017 geplant)</b> Von nun an können Sie dynamische Kriterien und Promotions basierend auf der Profilattributübereinstimmung und der Parameterübereinstimmung erstellen. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">Verwenden dynamischer und statischer Einschlussregeln.</a> </p> <p> <p>Hinweis: Wenn Sie sich mit dem Konfigurieren von Einschlussregeln vor Target-Version 17.6.1 (Juni 2017) auskennen, werden Sie feststellen, dass sich einige Optionen und Operatoren geändert haben. Es werden nur die Operatoren angezeigt, die auf die ausgewählte Option angewendet werden können. Zudem wurden einige Operatoren umbenannt („stimmt überein“ heißt jetzt „gleich“), um die Konsistenz und die Intuitivität zu erhöhen. Alle vorhandenen Ausschlussregeln, die vor dieser Version erstellt worden sind, wurden automatisch in die neue Struktur migriert. Es ist keine Neustrukturierung Ihrerseits nötig. </p> </p> </td> 
+   <td colname="col2"> <p><b>(Veröffentlichung am 22. Juni 2017 geplant)</b> Von nun an können Sie dynamische Kriterien und Promotions basierend auf der Profilattributübereinstimmung und der Parameterübereinstimmung erstellen. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">Verwenden dynamischer und statischer Einschlussregeln.</a> </p> <p> <p>Hinweis: Wenn Sie wissen, wie Einschlussregeln vor der Veröffentlichung von Target 17.6.1 (Juni 2017) konfiguriert wurden, werden Sie feststellen, dass sich einige der Optionen und Operatoren geändert haben. Es werden nur die Operatoren angezeigt, die auf die ausgewählte Option angewendet werden können. Zudem wurden einige Operatoren umbenannt („stimmt überein“ heißt jetzt „gleich“), um die Konsistenz und die Intuitivität zu erhöhen. Alle vorhandenen Ausschlussregeln, die vor dieser Version erstellt worden sind, wurden automatisch in die neue Struktur migriert. Es ist keine Neustrukturierung Ihrerseits nötig. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Benennen von Aktivitäten </p> </td> 
@@ -5148,7 +5148,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
      <ul id="ul_E4D300700390433E9EF8D5C9D3AA7669"> 
       <li id="li_E916EB3A77ED4CFF90CF6B4D30F188B1"> <p>Stellt sicher, dass Mbox-Aufrufe in Microsoft Internet Explorer 11 ausgelöst werden, wenn veraltete Browser in den <span class="codeph">at.js</span>-Einstellungen deaktiviert sind. </p> </li> 
       <li id="li_1130509832CE429DB6DE636404CC54E1"> <p>Stellt sicher, dass Standardinhalte wiedergegeben werden, wenn ein dynamisches Remote-Angebot fehlschlägt (wenn beispielsweise die URL nicht korrekt ist und eine 404-Fehlermeldung angezeigt wird). </p> </li> 
-      <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>Stellt sicher, dass Elemente schnell angezeigt werden, wenn im DOM keine Selektoren für VEC-Clicktracking gefunden werden. </p> </li> 
+      <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>Stellt sicher, dass Elemente schnell angezeigt werden, wenn VEC-Klick-Tracking-Selektoren im DOM nicht gefunden werden. </p> </li> 
      </ul> </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=de" format="dita" scope="local">at.js-Versionsdetails.</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -5412,7 +5412,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 
 Die folgenden Probleme sind bekannt:
 
-* Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
+* Wenn in einer mehrseitigen Aktivität &quot;JavaScript deaktivieren“ für Seite A ausgewählt ist, ist JavaScript überall deaktiviert, auch wenn &quot;JavaScript deaktivieren“ auf anderen Seiten nicht ausgewählt ist.
 * Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Als Problemumgehung können Sie im Experience Composer auf **[!UICONTROL Konfigurieren]** klicken, die Option **[!UICONTROL Mehrere Zielgruppen]** auswählen und als einzige Zielgruppe **[!UICONTROL Alle Besucher]** hinzufügen. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 * In der Dokumentation ist das erwartete Verhalten des Kontrollkästchens für die Umleitungs-URL beschrieben. Aufgrund eines Fehlers wird das Kontrollkästchen jedoch nicht standardmäßig ausgewählt. Dieser Fehler wird in einer der nächsten Versionen behoben.
@@ -5495,7 +5495,7 @@ Der Bereitstellungsprozess für A4T wurde verbessert.
 
 Die folgenden Probleme sind bekannt:
 
-* Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
+* Wenn in einer mehrseitigen Aktivität &quot;JavaScript deaktivieren“ für Seite A ausgewählt ist, ist JavaScript überall deaktiviert, auch wenn &quot;JavaScript deaktivieren“ auf anderen Seiten nicht ausgewählt ist.
 * Problem mit der Erlebnisvorschau-URL für Erlebnisse mit Umleitung. Als Problemumgehung können Sie im Experience Composer auf **[!UICONTROL Konfigurieren]** klicken, die Option **[!UICONTROL Mehrere Zielgruppen]** auswählen und als einzige Zielgruppe **[!UICONTROL Alle Besucher]** hinzufügen. Speichern Sie dann Ihre Aktivität. Dieser Vorgang wirkt sich nicht auf die Bereitstellung Ihrer Aktivität aus, ermöglicht jedoch die Darstellung der Vorschau. Es ist geplant, das Problem in der Juliversion von Adobe Target zu beheben.
 
 ### Neue [!DNL Target]-Implementierungsbibliothek „at.js“ 0.8.0 (5. Mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
@@ -5597,7 +5597,7 @@ Dieses Release enthält die folgenden Fehlerbehebungen:
 
 Die folgenden Probleme sind bekannt:
 
-* Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
+* Wenn in einer mehrseitigen Aktivität &quot;JavaScript deaktivieren“ für Seite A ausgewählt ist, ist JavaScript überall deaktiviert, auch wenn &quot;JavaScript deaktivieren“ auf anderen Seiten nicht ausgewählt ist.
 
 ### Adobe [!DNL Target] Standard/Premium 16.3.1 (15. März 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
@@ -5641,7 +5641,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Die folgenden Probleme sind bekannt:
 
-* Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
+* Wenn in einer mehrseitigen Aktivität &quot;JavaScript deaktivieren“ für Seite A ausgewählt ist, ist JavaScript überall deaktiviert, auch wenn &quot;JavaScript deaktivieren“ auf anderen Seiten nicht ausgewählt ist.
 * In Internet Explorer 10 können Probleme mit der Benutzeroberfläche auftreten, darunter Bildschirmflimmern und langsame Darstellung.
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
@@ -5663,7 +5663,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
 
 Die folgenden Probleme sind bekannt:
 
-* Wenn „JavaScript deaktivieren“ in einer mehrseitigen Aktivität für Seite A ausgewählt wird, wird JavaScript global deaktiviert, obwohl „JavaScript deaktivieren“ nicht für andere Seiten festgelegt wurde.
+* Wenn in einer mehrseitigen Aktivität &quot;JavaScript deaktivieren“ für Seite A ausgewählt ist, ist JavaScript überall deaktiviert, auch wenn &quot;JavaScript deaktivieren“ auf anderen Seiten nicht ausgewählt ist.
 * In Internet Explorer 10 können Probleme mit der Benutzeroberfläche auftreten, darunter Bildschirmflimmern und langsame Darstellung.
 * Mit Version 48 von Chrome trat ein Problem auf, das dazu führte, dass Visual Experience Composer in Chrome nicht richtig funktionierte. Google arbeitet bereits an einer Lösung. Weitere Informationen erhalten Sie unter [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603). So umgehen Sie das Problem:
 
@@ -5784,7 +5784,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Wenn Analytics als Berichtsquelle für Target ausgewählt wird, stehen mehrere Kampagnen zur Verfügung. </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn nicht die erwarteten Report Suites angezeigt werden, versuchen Sie, sich bei Adobe Experience Cloud ab- und dann wieder anzumelden, und wiederholen Sie den Vorgang. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Analytics als Berichtsquelle für Target auswählen, wählen Sie eine Analytics-Report Suite, um Target-Aktivitätsdaten zu empfangen. Wählen Sie dazu zunächst ein Analytics-Unternehmen aus, an das Ihr Konto gebunden ist, und wählen Sie anschließend die der Aktivität entsprechende Report Suite aus. Es stehen nur Report Suites, die für die Verbindung mit Adobe Target bereitgestellt werden, zur Auswahl zur Verfügung. Wenn die erwarteten Report Suites nicht angezeigt werden, versuchen Sie zunächst, sich abzumelden und sich wieder bei Adobe Experience Cloud anzumelden, um es dann erneut zu versuchen. Wenn die Report Suite weiterhin nicht in der Liste zu finden ist, wenden Sie sich an den Kundendienst. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Neue integrierte Optionen für die Erstellung von Zielgruppen </p> </td> 
@@ -5910,7 +5910,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Verbesserung: Erlebnis-URLs in Aktivitäten verwenden keine Cookies auf der Site </td> 
-   <td colname="col2"> <p> Die pro Aktivität verfügbaren Vorschau-Erlebnis-URLs sind jetzt zuverlässiger. Kopieren Sie ganz leicht die URLs und geben Sie sie für andere Team-Mitglieder frei, auch wenn diese nicht Adobe Target verwenden. </p> <p> <p>Hinweis: Aktualisierte Erlebnis-URLs funktionieren nur für Aktivitäten, die nach dem 30. Juli 2015 erstellt wurden. Ältere Cookies verwenden weiterhin die Cookie-basierte Vorschaufunktion. </p> </p> </td> 
+   <td colname="col2"> <p> Die pro Aktivität verfügbaren Vorschau-Erlebnis-URLs sind jetzt zuverlässiger. Einfaches Kopieren der URLs und Freigeben für andere Team-Mitglieder, auch wenn diese nicht Adobe Target verwenden. </p> <p> <p>Hinweis: Aktualisierte Erlebnis-URLs funktionieren nur für Aktivitäten, die nach dem 30. Juli 2015 erstellt wurden. Ältere Cookies verwenden weiterhin die Cookie-basierte Vorschaufunktion. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Berichtsoptimierungen für Analytics als Berichtsquelle für Target </p> </td> 
@@ -6024,7 +6024,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1"> Formularbasierte Aktivitätserstellung </td> 
-   <td colname="col2"> <p>Erstellen Sie eine Aktivität ohne Verwendung des Visual Experience Composer. Wählen Sie stattdessen die Standorte und Angebote anhand eines Formulars. Damit können Target Standard-Aktivitäten in E-Mails, mobilen Apps, Kiosks und an anderen Orten bereitgestellt werden, die nicht mit einem Visual Experience Composer arbeiten. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </td> 
+   <td colname="col2"> <p>Erstellen Sie eine Aktivität ohne Verwendung des Visual Experience Composer. Wählen Sie stattdessen die Standorte und Angebote anhand eines Formulars. Auf diese Weise können Target Standard-Aktivitäten in E-Mails, mobilen Apps, Kiosks und anderen Orten bereitgestellt werden, die nicht mit Visual Experience Composer funktionieren. </p> <p>Weitere Informationen finden Sie unter <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Form-Based Experience Composer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Konfigurierbare Erfolgsmetriken </td> 
@@ -6044,7 +6044,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Automated Personalization: Tracking nach Erreichen des Zielsolls </td> 
-   <td colname="col2"> <p> Früher hat Target ein Erlebnis erneut gestartet, sobald der Besucher das Modellierungsziel erreicht hatte. Nun können Benutzer zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. </p> <p> Beispiel: Eine Aktivität „Automated Personalization“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zur finalen Konversion führen; daher ist ein Tracking durch die finale Konversion entscheidend. </p> Siehe <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
+   <td colname="col2"> <p> Früher hat Target ein Erlebnis erneut gestartet, sobald der Besucher das Modellierungsziel erreicht hatte. Nun können Benutzer zu Tracking-Zwecken in der Aktivität beibehalten werden, nachdem Sie das Modellierungsziel erreicht haben. </p> <p> Beispiel: Eine Aktivität „Automated Personalization“ wird oft verwendet, um die Klickraten zu verbessern; dies wird als Modellierungsziel festgelegt. Es ist jedoch wichtig zu sehen, wie erhöhte Klickraten zu einer endgültigen Konversion führen, daher ist das Tracking durch die endgültige Konversion wichtig. </p> Siehe <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -6308,7 +6308,7 @@ Dieses Release umfasst die folgenden Funktionen und Erweiterungen:
  <tbody> 
   <tr> 
    <td colname="col1"> Neuer Aktivitätentyp: Multivarianz-Test </td> 
-   <td colname="col2"> <p> Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Inhaltsbereichen, um Sie bei der Ermittlung der bestmöglichen Kombination von Inhalten zu unterstützen. Multivarianz-Tests zeigen auch, welcher Inhalt in welchem Bereich am stärksten zum Erfolg einer Aktivität beiträgt. Multivariater Tests werden häufig dazu eingesetzt, vollständige Seiten zu optimieren, nachdem ein A/B-Test zur Bestimmung eines optimalen Layouts verwendet wurde. Mithilfe des multivariaten Tests können Sie die einzelnen Werte auf der Seite (wie das Hauptbild, Schlagzeilen oder Werbeinhalt) optimieren. </p> <p>Ein Einführungsvideo sehen Sie unter <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/.</a> </p> </td> 
+   <td colname="col2"> <p> Ein vollständiger Multivarianz-Test vergleicht alle möglichen Angebotskombinationen in Ihren Inhaltsbereichen, um Sie bei der Ermittlung der bestmöglichen Kombination von Inhalten zu unterstützen. Multivarianz-Tests zeigen auch, welcher Inhalt in welchem Bereich am stärksten zum Erfolg einer Aktivität beiträgt. Multivariate Tests werden häufig dazu eingesetzt, vollständige Seiten zu optimieren, nachdem ein A/B-Test zur Bestimmung eines optimalen Layouts verwendet wurde. Mithilfe des multivariaten Tests können Sie die einzelnen Werte auf der Seite (wie das Hauptbild, Schlagzeilen oder Werbeinhalt) optimieren. </p> <p>Ein Einführungsvideo sehen Sie unter <a href="https://my.adobeconnect.com/p2k6u8iiu6l/" format="https" scope="external">https://my.adobeconnect.com/p2k6u8iiu6l/.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Durchsuchen von Seiten und In-Page-Elementen im Visual Experience Composer </td> 
@@ -6551,7 +6551,7 @@ Diese Version enthält folgende neue Funktionen:
  <tbody> 
   <tr> 
    <td colname="col1"> Aktivitätskollisionen </td> 
-   <td colname="col2"> <p> Target Standard bietet jetzt eine Liste der Aktivitätskollisionen. Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Wenn eine Aktivitätskollision auftritt, wird auf der Seite möglicherweise nicht der erwartete Inhalt angezeigt, weil Sie eine andere Aktivität eingegeben haben. </p> <p> Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. </p> <p> Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte <span class="wintitle">Kollisionen</span> auf der Aktivitätsübersichtsseite angezeigt. Auf dieser Registerkarte finden Sie eine Liste kollidierender Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> von Aktivitätskollisionen </a>. </p> </td> 
+   <td colname="col2"> <p> Target Standard bietet jetzt eine Liste der Aktivitätskollisionen. Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Wenn eine Aktivitätskollision auftritt, wird möglicherweise der erwartete Inhalt auf Ihrer Seite nicht angezeigt, da Sie eine andere Aktivität eingegeben haben. </p> <p> Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. </p> <p> Enthält Ihre Aktivität mögliche Kollisionen, wird die Registerkarte <span class="wintitle">Kollisionen</span> auf der Aktivitätsübersichtsseite angezeigt. Auf dieser Registerkarte finden Sie eine Liste kollidierender Aktivitäten. Klicken Sie in der Liste auf eine Aktivität, damit eine Übersichtsseite für die Aktivität angezeigt wird. </p> <p>Siehe <a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> von Aktivitätskollisionen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Neue Targeting-Optionen: Profil, Benutzer </td> 

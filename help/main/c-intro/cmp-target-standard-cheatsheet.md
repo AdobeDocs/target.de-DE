@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # Häufig gestellte Fragen zur Target-Optimierung und -Personalisierung
 
@@ -87,7 +87,7 @@ Bleiben Sie mit [!DNL Target] Versionen auf dem Laufenden.
 **Gibt es [!DNL Adobe] Community/Forum, in dem ich Antworten und weitere Informationen zu [!DNL Target] finden kann?**
 
 +++Details anzeigen
-Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de&lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
+Treten Sie mit anderen [!DNL Target] im [Target Community Forum“ in &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?lang=de){target=_blank}. Tauschen Sie Ihr Fachwissen aus, stellen Sie Fragen und arbeiten Sie mit anderen zusammen, die [!DNL Target] für Personalisierung und Experimente verwenden. Eine blühende Gemeinschaft ist auf aktive Mitwirkung angewiesen. Ihre Einblicke und Erfahrungen können anderen helfen, erfolgreich zu sein. Steigen Sie ein, leisten Sie Beiträge und finden Sie die Antworten, die Sie benötigen.
 
 +++
 
@@ -329,7 +329,7 @@ Sie können immer die Option [Enhanced Experience Composer“ auf der Aktivität
 
 +++
 
-**Warum wird mir keine Option zum Tauschen von Bildern angezeigt?**
+**Warum sehe ich keine Option zum Austauschen von Bildern?**
 
 +++Details anzeigen
 Wenden Sie sich an Adobe, um [sicherzustellen, dass Ihr Konto für Scene7 eingerichtet ist](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Nach der Bereitstellung können Sie ein Bild problemlos mit einem anderen Bild tauschen.
@@ -440,7 +440,7 @@ Beachten Sie, dass [!DNL Target] die entsprechenden Daten ab dem Zeitpunkt erfas
 **Ich kann die Zielgruppen vor dem Ausführen der Aktivität nicht definieren. Ich finde diesen Aspekt der Berichterstattung über Audiences in [!DNL Target] Aktivitäten restriktiv. Was kann ich tun, um diesen Prozess zu erleichtern?**
 
 +++Details anzeigen
-Hierfür ist [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) praktisch. Wenn Sie [!DNL Adobe Analytics] haben, wählen Sie einfach die Quelle als [!DNL Analytics], wodurch diese Einschränkung aufgehoben wird. Nun können Sie jederzeit an jedem beliebigen Punkt Analysen für beliebige Zielgruppen durchführen und müssen die Berichtszielgruppen nicht vorab definieren.
+Hierfür ist [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) praktisch. Wenn Sie [!DNL Adobe Analytics] haben, wählen Sie einfach die Quelle als [!DNL Analytics], wodurch diese Einschränkung aufgehoben wird. Jetzt können Sie jederzeit Analysen für jede Audience durchführen und müssen die Reporting-Audiences nicht im Voraus definieren.
 
 +++
 

@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # Mobile
 
@@ -36,7 +36,7 @@ Das mobile Targeting wird von [DeviceAtlas](https://deviceatlas.com/device-data/
 
 Für die Geräteerkennung werden die User-Agent-Zeichenfolgen analysiert. Einige Gerätehersteller, z. B. Apple, deaktivieren diese Funktion, indem sie in den User-Agent-Zeichenfolgen keine ausreichenden Informationen bereitstellen.
 
-Apple-Geräte übermitteln beispielsweise in den UA-Daten keine gerätespezifischen Token. Infolgedessen ist es nicht möglich, iPhone-Modelle (wie iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max usw.) mit einer einfachen schlüsselwortbasierten Methode zu erkennen.
+Beispielsweise geben Apple-Geräte in der Benutzeroberfläche keine gerätemodellspezifischen Token frei. Infolgedessen ist es nicht möglich, iPhone-Modelle (wie iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max usw.) mit einer einfachen schlüsselwortbasierten Methode zu erkennen.
 
 Um dieses Problem zu beheben, erfasst [!DNL Target] zusätzliche Daten, um iPhones und andere Apple-Geräte mithilfe der folgenden Parameter genau zu erkennen:
 

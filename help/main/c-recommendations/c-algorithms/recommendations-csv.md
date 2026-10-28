@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 27%
+source-wordcount: '764'
+ht-degree: 24%
 ---
 # Hochladen benutzerdefinierter Kriterien
 
@@ -75,7 +75,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
 * Benutzerspezifische Kriterienupdates sind standardmäßig kumulativ. Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, für die im CSV-Upload keine Schlüssel angegeben sind, sind weiterhin verfügbar und laufen in 31 Tagen ab dem Zeitpunkt ab, an dem sie zuletzt als Teil der CSV-Datei hochgeladen werden.
 
-  Wenden Sie sich an Adobe Client Care, um die Einstellung zum Verwerfen bestehender Ergebnisse, die nicht im nächsten CSV-Upload enthalten sind, zu aktivieren. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
+  Wenden Sie sich an die Kundenunterstützung, damit die Einstellung die vorhandenen Ergebnisse verwirft, die nicht im nächsten CSV-Upload enthalten sind. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
 
 * Benutzerspezifische Kriterien-Feeds werden alle 24 Stunden aktualisiert.
 

@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3560'
-ht-degree: 80%
+source-wordcount: '3565'
+ht-degree: 77%
 ---
 # Recommendations-FAQs
 
@@ -81,7 +81,7 @@ Die folgenden Änderungen werden erst wirksam, wenn der nächste Algorithmus aus
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:
 
   * Einige Kriterieneinstellungen (z. B. „Hinzufügen einer dynamischen Einschlussregel„) werden sofort angezeigt.
-  * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, Änderung des Lookback-Fensters usw.) können erst einbezogen werden, wenn der nächste Algorithmus ausgeführt wird.
+  * Andere Kriterieneinstellungen (z. B. „Entfernen einer dynamischen Einschlussregel“, Änderung des Lookback-Fensters usw.) können erst nach Ausführung des nächsten Algorithmus eingebunden werden.
   * Algorithmusausführungen werden durch diese Änderungen ausgelöst, es kann jedoch bis zu 24 Stunden dauern, bis sie abgeschlossen sind. Algorithmen können auch planmäßig alle 12–24 Stunden ausgeführt werden.
 
 ## Wie lange dauert es, bis das Verhalten eines Benutzers (z. B. Klick auf Produkt A und Kauf von Produkt B) in den Empfehlungen berücksichtigt wird *die der* erhält?
@@ -108,11 +108,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Warum stehen beim Erstellen einer Recommendations-Aktivität nicht alle Kriterien, einschließlich benutzerdefinierter Kriterien, zur Verfügung? {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Warum stehen beim Erstellen einer Recommendations -Aktivität nicht alle Kriterien, einschließlich benutzerdefinierter Kriterien, zur Auswahl? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Die verfügbaren Kriterien basieren auf der aktuellen Kategorie. Beim Erstellen von Recommendations-Angeboten zeigt die Algorithmusauswahl Kriterien auf Grundlage der Kategorie-ID an.
 
-Wenn der Speicherort, auf den Sie diese Kriterien anwenden, die Kategorie-ID nicht enthält, sind im Algorithmus-Wähler bestimmte Kriterien nicht verfügbar.
+Wenn der Speicherort, auf den Sie diese Kriterien anwenden, nicht die Kategorie-ID enthält, sind bestimmte Kriterien in der Algorithmusauswahl nicht verfügbar.
 
 Bei der Verwendung eines Speicherorts, unter dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
@@ -229,7 +229,7 @@ Der Ausschluss gilt nur für den aktuellen [!DNL Target]-Aufruf. In nachfolgende
 
 >[!NOTE]
 >
->Wenn zu viele Entitäten ausgeschlossen werden, verhalten sich die Recommendations so, als wären nicht ausreichend Entitäten zum Ausfüllen der Recommendations-Vorlage vorhanden.
+>Wenn zu viele Entitäten ausgeschlossen werden, verhalten sich die Recommendations so, als ob nicht genügend Entitäten zum Ausfüllen der Recommendations-Vorlage vorhanden wären.
 
 Hängen Sie zum Ausschluss von `entityIds` das Token `&excludes=${mbox.excludedIds}` an die Inhalts-URL des Angebots an. Wenn die Inhalts-URL extrahiert wird, werden die erforderlichen Parameter mit aktuellen Mbox-Anforderungsparametern ersetzt.
 

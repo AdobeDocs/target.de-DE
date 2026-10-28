@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB…n;Erlebnisse vergleichen;Targeting;Inhalt vergleichen;Automatisches Targeting;Automatische Zuordnung
-description: Erfahren Sie mehr über die verschiedenen Arten von A/B-Test -Aktivitäten in Adobe [!DNL Target] - Manuell, Automatische Zuordnung und Automatisches Targeting. Wählen Sie die für Sie richtige aus.
+description: Erfahren Sie mehr über die verschiedenen Arten von A/B-Test -Aktivitäten in Adobe [!DNL Target] - Manuell, Automatische Zuordnung und Automatisches Targeting. Wählen Sie die für Sie passende aus.
 title: Welche Arten von A/B-Aktivitäten sind in Target verfügbar?
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ab2570eb-4844-49aa-8334-e91a345525e5
     internal-label: A/B Tests
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '841'
 ht-degree: 22%
 ---
 # A/B-Tests - Übersicht

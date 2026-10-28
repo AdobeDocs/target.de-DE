@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # Stützen einer Empfehlung auf einen Empfehlungsschlüssel
 
@@ -63,11 +63,11 @@ Die Warenkorb-basierte Empfehlungslogik ähnelt dem benutzerbasierten Algorithmu
 
 * **[!UICONTROL Einzelsitzung]**: Basierend auf den Aktionen, die andere Besucher innerhalb einer einzelnen Sitzung durchgeführt haben.
 
-  Das Betrachten des Verhaltens innerhalb einer einzelnen Sitzung kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte je nach Nutzung, Anlass oder Ereignis stark miteinander „übereinstimmen“. Ein Besucher kauft beispielsweise einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und könnte auch Brot und Gelee benötigen.
+  Das Betrachten des Verhaltens innerhalb einer einzelnen Sitzung kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte auf Grundlage einer Nutzung, eines Ereignisses oder eines Ereignisses stark miteinander „übereinstimmen“. Ein Besucher kauft beispielsweise einen Drucker und benötigt möglicherweise auch Tinte und Papier. Oder ein Besucher kauft Erdnussbutter und könnte auch Brot und Gelee benötigen.
 
 * **[!UICONTROL Sitzungsübergreifend]**: Basierend darauf, was andere Besucher in mehreren Sitzungen getan haben.
 
-  Das Betrachten des Verhaltens über mehrere Sitzungen hinweg kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte stark auf der Grundlage der Präferenzen oder Geschmäcker der Besucher miteinander „übereinstimmen“. Zum Beispiel mag ein Besucher Star Wars und könnte auch Indiana Jones mögen, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel „Codenames“ und könnte auch das Brettspiel „Avalon“ mögen, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann.
+  Das Betrachten des Verhaltens über mehrere Sitzungen hinweg kann sinnvoll sein, wenn es ein Gefühl dafür gibt, dass Produkte je nach Präferenz oder Geschmack der Besucher stark miteinander „übereinstimmen“. Zum Beispiel mag ein Besucher Star Wars und könnte auch Indiana Jones mögen, auch wenn der Besucher nicht unbedingt beide Filme in derselben Sitzung sehen möchte. Oder ein Besucher mag das Brettspiel „Codenames“ und könnte auch das Brettspiel „Avalon“ mögen, auch wenn der Besucher nicht beide Spiele gleichzeitig spielen kann.
 
 [!DNL Target] empfiehlt für jeden Besucher basierend auf den Artikeln im aktuellen Warenkorb, unabhängig davon, ob Sie das Besucherverhalten innerhalb einer einzelnen Sitzung oder über mehrere Sitzungen hinweg betrachten.
 
@@ -337,7 +337,7 @@ Sowohl Ansichten als auch Käufe werden verwendet, um die empfohlenen Artikel zu
 
 Sie können zum Beispiel:
 
-* Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (nicht vorrätige Produkte, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit der Bewertung „R“ usw.).
+* Ausschließen von Artikeln, die bestimmte Kriterien nicht erfüllen (nicht vorrätige Produkte, Artikel, die vor mehr als 30 Tagen veröffentlicht wurden, Filme mit der Einstufung „R“ usw.).
 * Eingeschlossene Elemente auf eine einzelne Kategorie oder die aktuelle Kategorie beschränken.
 
 Wenn Sie diesen Algorithmus auswählen, können Sie die folgenden Filterschlüssel auswählen:
@@ -368,7 +368,7 @@ Mit der Hinzufügung von Einschlussregeln für [!UICONTROL benutzerdefinierte Kr
 
 Mögliche Nutzungsszenarien:
 
-* Sie möchten Filme aus einer benutzerdefiniert-kuratierten Liste nur dann empfehlen, wenn sie der Besucher noch nicht gesehen hat.
+* Sie möchten Filme aus einer benutzerdefinierten, kuratierten Liste empfehlen, jedoch nur, wenn der Besucher sie noch nicht gesehen hat.
 * Sie möchten einen Offline-Algorithmus ausführen und die Ergebnisse für Ihre Empfehlungen verwenden. Sie müssen jedoch sicherstellen, dass nicht vorrätige Elemente nie empfohlen werden.
 * Sie möchten nur die Artikel einbeziehen, die aus der Favoritenkategorie dieses Besuchers stammen.
 
@@ -419,7 +419,7 @@ Sie können Empfehlungen auf dem Wert eines benutzerdefinierten Profilattributs 
 1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. &quot;[!UICONTROL Zuletzt zur Watchlist hinzugefügt]„).
 1. Wählen Sie dann Ihre **[!UICONTROL Empfehlungslogik]** aus (z. B[!UICONTROL &#x200B; „Personen, die dies angezeigt haben, haben das &#x200B;]„).
 
-Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erläutern, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die meistverkauften Artikel der Lieblingsmarke eines Besuchers anzeigen.
+Wenn Ihr benutzerdefiniertes Profilattribut nicht direkt mit einer einzelnen Entitäts-ID übereinstimmt, müssen Sie [!DNL Recommendations] erklären, wie die Übereinstimmung mit einer Entität erfolgen soll. Angenommen, Sie möchten die meistverkauften Artikel der Lieblingsmarke eines Besuchers anzeigen.
 
 1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Dropdown-Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. „Lieblingsmarke„).
 

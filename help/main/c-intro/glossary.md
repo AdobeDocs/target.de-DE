@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 97%
+source-wordcount: '2528'
+ht-degree: 95%
 ---
 # Glossar
 
@@ -231,7 +231,7 @@ Die visuelle Darstellung einer Aktivität in Target Standard.
 
 **Formularbasierter Experience Composer**
 
-Eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in A/B-Tests, im Erlebnis-Targeting, in der Automated Personalization und in Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
+Eine nicht visuelle Benutzeroberfläche zur Erstellung von Erlebnissen und Angeboten. Diese Erlebnisse können in A/B-Tests sowie in Erlebnis-Targeting-, Automated Personalization- und Recommendations-Aktivitäten genutzt werden, wenn der Visual Experience Composer nicht verfügbar oder unpraktisch in der Anwendung ist. So können Sie den formularbasierten Composer beispielsweise verwenden, um Erlebnisse und Angebote für E-Mails, Kiosks und Sprachassistenten zu erstellen.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 

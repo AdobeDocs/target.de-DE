@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # Einführung in Recommendations
 
@@ -51,7 +51,7 @@ Die folgende Abbildung zeigt eine Empfehlung, die Zubehör präsentiert, das hä
 
 ![Empfehlung von Zubehör, das andere mit einem neuen Handy gekauft haben.](/help/main/c-recommendations/assets/intro-1.png)
 
-Aber wir denken nicht immer darüber nach, wie Digital-First-Marken die Messlatte der Kundenerwartungen höher legen. Unser Konsum von Medien und Inhalten wird immer mehr von personalisierten Empfehlungen gesteuert. Überlegen Sie, was Sie als Erstes sehen, wenn Sie Netflix, Spotify oder YouTube öffnen. Diese Unternehmen beginnen das Kundenerlebnis mit Empfehlungen. In einer Welt, in der mehr Alternativen denn je verfügbar sind, ist es entscheidend, dass Sie die relevantesten Inhalte für Ihre Kundinnen und Kunden am Punkt der Interaktion identifizieren können.
+Was wir jedoch nicht immer bedenken, ist, wie Digital-First-Marken die Messlatte der Kundenerwartungen höher legen. Unser Konsum von Medien und Inhalten wird immer mehr von personalisierten Empfehlungen gesteuert. Überlegen Sie, was Sie als Erstes sehen, wenn Sie Netflix, Spotify oder YouTube öffnen. Diese Unternehmen beginnen das Kundenerlebnis mit Empfehlungen. In einer Welt, in der mehr Alternativen als je zuvor verfügbar sind, ist es wichtig, dass Sie die relevantesten Inhalte für Ihren Kunden am Punkt der Interaktion identifizieren können.
 
 ![Empfehlung, die digitale Marken präsentiert](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -78,7 +78,7 @@ Wie sehen gute Empfehlungen aus?
 
 Gute Empfehlungen sollten relevant und personalisiert sein. Zur Steigerung der Relevanz und Personalisierung benötigen Sie drei Dinge:
 
-* **Steuerelemente für Marketingexperten**, um die Relevanz der empfohlenen Artikel zu steigern. Als Marketingexperte haben Sie wertvolles Hintergrundwissen und verstehen, welche Attribute Ihrer Produkte oder Inhalte für ein Empfehlungsmodell relevant sind. Wenn Sie eine Videoseite betreiben, wissen Sie, dass Benutzer vielleicht daran interessiert sind, Filme vom selben Regisseur zu sehen, aber wahrscheinlich kümmert es Sie nicht, Filme zu sehen, die vom selben Studio produziert wurden. [!DNL Target] stellt Ihnen Steuerelemente zur Verfügung, mit denen Sie Ihre Algorithmen auf der Basis dieser Branchenkenntnis verbessern können.
+* **Steuerelemente für Marketingexperten**, um die Relevanz der empfohlenen Artikel zu steigern. Als Marketingexperte haben Sie wertvolles Hintergrundwissen und verstehen, welche Attribute Ihrer Produkte oder Inhalte für ein Empfehlungsmodell relevant sind. Wenn Sie eine Videoseite betreiben, wissen Sie, dass Benutzer möglicherweise daran interessiert sind, Filme vom selben Regisseur zu sehen, aber wahrscheinlich kümmern Sie sich nicht darum, Filme zu sehen, die vom selben Studio produziert wurden. [!DNL Target] stellt Ihnen Steuerelemente zur Verfügung, mit denen Sie Ihre Algorithmen auf der Basis dieser Branchenkenntnis verbessern können.
 * **Hochentwickelte Modelle**, um die Millionen von Artikeln in Ihrem Katalog und den Interaktionsereignissen sinnvoll zu ordnen. [!DNL Target] besitzt eine fortschrittliche maschinelle Lernfunktionen, die sich auf jahrelange Erfahrung stützt. Zusätzlich handhaben wir Jahr für Jahr Milliarden von Empfehlungen.
 * **Benutzerkontext**, um sicherzustellen, dass Empfehlungen zeitgerecht und für Ihre Benutzer relevant sind. Sie möchten das Video, das jemand gerade angesehen hat, oder das Hemd, das jemand gerade zum Warenkorb hinzugefügt hat, nicht empfehlen. Das umfangreiche Benutzerprofil von Target kann in Recommendations verwendet werden, um Personalisierung sicherzustellen.
 
@@ -128,7 +128,7 @@ Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Impl
 
 ![Abbildung, die zeigt wie das Benutzerverhalten erfasst wird](/help/main/c-recommendations/assets/intro-9.png)
 
-Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, können Sie einen anderen Konversionstyp verfolgen, z. B. ein PDF herunterladen, eine Umfrage ausfüllen, einen Newsletter abonnieren, ein Video ansehen usw.
+Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, sollten Sie einen anderen Konversionstyp verfolgen, z. B. ein PDF herunterladen, eine Umfrage ausfüllen, einen Newsletter abonnieren, ein Video ansehen usw.
 
 Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
 
@@ -168,13 +168,13 @@ In den folgenden Abschnitten werden die einzelnen Teile dieses Trichters und der
 
 ### Statische Filter (Sammlungen und Ausschlüsse)
 
-Statische Filter sind allgemein anwendbare Regeln für Katalogattribute, die sich nicht häufig ändern.
+Statische Filter sind allgemein anwendbare Regeln im Zusammenhang mit Katalogattributen, die Sie nicht häufig ändern sollten.
 
 ![Abbildung von Sammlungen und Ausschlüssen](/help/main/c-recommendations/assets/intro-16.png)
 
 In Bezug auf den Inhalt möchten Sie beispielsweise vielleicht alle Filme in Empfehlungen einbeziehen, aber Filme, die explizite sexuelle Inhalte haben, ausschließen. In Bezug auf den Einzelhandel verfügen Sie möglicherweise über mehrere Marken in verschiedenen Regionen der Welt. Sie möchten aber nur Produkte empfehlen, die in den USA verfügbar sind. Möglicherweise möchten Sie auch bestimmte Produkte einer regionalen Marke ausschließen.
 
-Dies sind alles Katalogattribute, die allgemein anwendbar sind und die Sie möglicherweise in mehreren Empfehlungen verwenden möchten, und von denen nicht zu erwarten ist, dass sie sich häufig ändern.
+Dies sind alles Katalogattribute, die im Großen und Ganzen anwendbar sind und in mehreren Empfehlungen verwendet werden sollten. Es ist nicht zu erwarten, dass sie sich häufig ändern.
 
 ### Algorithmus (Empfehlungsschlüssel und -logik)
 

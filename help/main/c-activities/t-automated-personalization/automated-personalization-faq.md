@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2303'
-ht-degree: 18%
+source-wordcount: '2307'
+ht-degree: 17%
 ---
 # Häufig gestellte Fragen zu Automated Personalization
 
@@ -77,11 +77,11 @@ Es gibt keine schlüsselfertige Option zum Vergleichen von [!UICONTROL Automated
 * Stellen Sie sicher, dass Sie die [Traffic-Schätzung](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) verwenden, um ein Gefühl dafür zu bekommen, wie lange es dauert, bis Personalisierungsmodelle in Ihrer [!UICONTROL Automated Personalization]-Aktivität erstellt werden.
 * Entscheiden Sie basierend auf Ihren Zielen über die Zuordnung zwischen Kontrolle und Zielgruppe, bevor Sie die Aktivität beginnen.
 
-  Es gibt drei Szenarien, die je nach Ziel Ihrer Aktivität und der von Ihnen ausgewählten Art der Kontrolle zu berücksichtigen sind:
+  Es gibt drei Szenarien, die je nach dem Ziel Ihrer Aktivität und der Art der ausgewählten Steuerung zu berücksichtigen sind:
 
   * **Zufallserlebnisse als Kontrolle und Aktivitätsziel besteht darin, die Effektivität des Personalisierungsalgorithmus zu testen**: Wenn Sie den Personalisierungsalgorithmus auswerten möchten, möchten Sie sich ein genaueres Bild vom Anstieg machen. Sie möchten wahrscheinlich auch die Konversionsrate für Ihre Erlebnisse oder Angebote vergleichen, wenn Sie einfach einen [!UICONTROL A/B-Test] (eine zufällig bereitgestellte Kontrolle) durchgeführt haben. In diesem Fall wird eine Zuordnung von 50 % zu einer Kontrollgruppe von zufällig bereitgestellten Erlebnissen empfohlen.
   * **Sie „zufällige Erlebnisse“ als Kontrolle und Ihr Aktivitätsziel, den personalisierten Traffic zu maximieren**: Wenn Sie mit dem Algorithmus vertraut sind und die maximale Menge an Traffic personalisieren möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Der Nachteil ist hier die Genauigkeit, die Sie in Ihren Aufstiegsinformationen sehen. Die Konfidenzintervalle Ihres Kontroll-Traffics sind größer, da weniger Traffic zu ihnen fließt.
-  * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht über jedes Angebot oder Erlebnis in der Aktivität verteilt.
+  * **Als Kontrolle ein spezifisches Erlebnis mit beliebigem Ziel**: Wenn Sie ein bestimmtes Erlebnis mit den Personalisierungsmodellen vergleichen möchten, wird eine Zuordnung von 10 % bis 30 % zur Kontrolle empfohlen. Wenn Sie nur ein Erlebnis als Kontrolle auswählen, wird dieser Traffic nicht auf alle Angebote oder Erlebnisse in der Aktivität verteilt.
 
 * Targeting-Regeln sollten sparsam verwendet werden, da sie die Optimierungsfähigkeit des Modells beeinträchtigen können.
 * Berichtsgruppen können den Erfolg Ihrer [!UICONTROL Automated Personalization]-Aktivität einschränken. Verwenden von Berichtsgruppen nur unter bestimmten Bedingungen:
@@ -154,7 +154,7 @@ Angenommen, eine [!UICONTROL Automated Personalization]-Aktivität hat zwei Stan
 
 +++Details anzeigen
 
-[!UICONTROL Automated Personalization] kann als „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre [!UICONTROL Automated Personalization]-Aktivität anzuhalten. Wenn Sie wesentliche Änderungen an den Inhalten vornehmen möchten, die den Angeboten, die sich derzeit in Ihrer [!UICONTROL Automated Personalization]-Aktivität befinden, nicht ähnlich sind, empfiehlt es sich, eine neue Aktivität zu starten. Das Starten einer neuen Aktivität hilft anderen Benutzern, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten zu verwechseln oder in Beziehung zu setzen.
+[!UICONTROL Automated Personalization] kann als „Always on“-Personalisierung verwendet werden, die kontinuierlich optimiert wird. Insbesondere für zeitlose Inhalte besteht keine Notwendigkeit, Ihre [!UICONTROL Automated Personalization]-Aktivität anzuhalten. Wenn Sie wesentliche Änderungen an den Inhalten vornehmen möchten, die nicht den Angeboten ähneln, die derzeit in Ihrer [!UICONTROL Automated Personalization]-Aktivität enthalten sind, empfiehlt es sich, eine neue Aktivität zu starten. Das Starten einer neuen Aktivität hilft anderen Benutzern, die Berichte überprüfen, vergangene Ergebnisse nicht mit anderen Inhalten zu verwechseln oder in Beziehung zu setzen.
 
 +++
 

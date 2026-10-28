@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # Verwenden dynamischer und statischer Einschlussregeln
 
@@ -107,7 +107,7 @@ Um die gewünschte Aktion auszuwählen, bewegen Sie den Mauszeiger über das Zah
 
 | Aktion | Verfügbar für | Details |
 |--- |--- |--- |
-| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn beispielsweise drei Filterregeln vorhanden sind und die dritte Regel keine Werte übergibt, können Sie die dritte Regel mit den leeren Werten einfach ignorieren, statt gar keine Ergebnisse zurückzugeben. |
+| [!UICONTROL Diese Filterregel ignorieren] | [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung] | Diese Aktion ist die Standardaktion für [!UICONTROL Profilattributübereinstimmung] und [!UICONTROL Parameterübereinstimmung].<br>Diese Option gibt an, dass die Regel ignoriert wird. Wenn es beispielsweise drei Filterregeln gibt und die dritte Regel keine Werte übergibt, können Sie einfach die dritte Regel mit den leeren Werten ignorieren, anstatt keine Ergebnisse zurückzugeben. |
 | [!UICONTROL Für diese Kriterien keine Ergebnisse anzeigen]<br>(nur Kriterien) | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattributübereinstimmung].<br>Diese Aktion behandelt [!DNL Target] leeren Werte vor dem Hinzufügen dieser Option: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Keine Elemente hochstufen<br>(nur Promotions)] | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Diese Aktion ist die Standardaktion für [!UICONTROL Entitätsattributübereinstimmung].<br>Diese Aktion behandelt [!DNL Target] leeren Werte vor dem Hinzufügen dieser Option: Für diese Kriterien werden keine Ergebnisse angezeigt. |
 | [!UICONTROL Einen statischen Wert verwenden] | [!UICONTROL Entitätsattributabgleich], [!UICONTROL Profilattributabgleich] und [!UICONTROL Parameterabgleich] | Wenn ein Wert leer ist, können Sie die Verwendung eines statischen Werts festlegen. |

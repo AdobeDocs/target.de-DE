@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 29%
 ---
 # Beheben von Problemen mit [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]
 
@@ -57,7 +57,7 @@ Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die f
 
 **Chrome 80 (August 2020)**: Mit den Änderungen, die im August 2020 implementiert wurden, haben alle Benutzenden Browser-Versionen von Chrome 80 oder höher:
 
-* Kann *nicht* beim Bearbeiten einer Aktivität [!DNL Target] Bibliotheken herunterladen (wenn diese nicht bereits auf der Website vorhanden sind). Dies liegt daran, dass der Download-Aufruf von der Kunden-Domain an eine gesicherte [!DNL Adobe]-Domain erfolgt und als nicht authentifiziert zurückgewiesen wird.
+* Kann *nicht* beim Bearbeiten einer Aktivität [!DNL Target] Bibliotheken herunterladen (wenn diese sich nicht bereits auf der Website befinden). Dies liegt daran, dass der Download-Aufruf von der Kunden-Domain an eine gesicherte [!DNL Adobe]-Domain erfolgt und als nicht authentifiziert zurückgewiesen wird.
 
 * Der EEC wird *nicht* für alle Benutzer funktionieren, da er nicht das SameSite-Attribut für Cookies in `adobemc.com domain` festlegen kann. Ohne dieses Attribut lehnt der Browser diese Cookies ab, was dazu führt, dass der EEC fehlschlägt.
 
@@ -139,7 +139,7 @@ Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wi
 
 +++
 
-## Die Bearbeitung von Erlebnissen für eine Site, die iFrames zerstört, ist nicht möglich. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
+## Ich kann keine Erlebnisse für eine iFrame-Busting-Site bearbeiten. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Details
 Um dieses Problem zu beheben, aktivieren Sie den [!UICONTROL Enhanced Experience Composer] (EEC). Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um den [!UICONTROL Enhanced Experience Composer] zu aktivieren. Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites und die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen [!DNL Adobe Target]-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall können Sie diese Option deaktivieren, um den EEC über einen iFrame zu laden.
@@ -153,7 +153,7 @@ Um dieses Problem zu beheben, aktivieren Sie den [!UICONTROL Enhanced Experience
 ## Ich möchte Tests auf Seiten einrichten, auf denen die Mbox/[!DNL Target]-Implementierung noch nicht durchgeführt wurde. (VEC und EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Details
-Siehe oben unter „Ich kann keine Erlebnisse für eine iFrame-zerstörende Website bearbeiten“.
+Siehe „Ich kann keine Erlebnisse für eine iFrame-Bursting-Site bearbeiten“ weiter oben.
 
 +++
 
