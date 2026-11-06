@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # Snippets
 
@@ -36,4 +36,7 @@ ht-degree: 8%
 >
 >* [[!DNL Target] Häufig gestellte Fragen zur Aktualisierung der Benutzeroberfläche](/help/main/c-intro/updated-ui-faq.md): In dieser häufig gestellten Frage werden häufige Fragen zur neuen [!DNL Target]-Benutzeroberfläche und zu [!UICONTROL Visual Experience Composer] (VEC) behandelt, einschließlich Navigationsänderungen, Funktionsspeicherorte und der Einstellung des Umschalters für die temporäre Benutzeroberfläche. Unabhängig davon, ob Sie Marketing-Experte, Entwickler oder Administrator sind, hilft Ihnen diese häufig gestellte Frage dabei, den Übergang reibungslos zu gestalten und die aktualisierte Benutzeroberfläche optimal zu nutzen.
 
+## Regeln für Aktivitätsnamen {#activity-name-rules}
+
+Der Aktivitätsname darf nicht mit `=`, `+`, `-` oder `@` beginnen. Der Aktivitätsname darf auch keine der folgenden Zeichenfolgen enthalten: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` oder `"]`.
 
