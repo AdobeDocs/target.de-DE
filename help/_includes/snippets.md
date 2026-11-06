@@ -1,8 +1,8 @@
 ---
-source-git-commit: 87c0d2aa67d54dcbc2963be63d2d7ad9c02b6aa9
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # Snippets
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 >
 >* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 >
->* [[!UICONTROL Änderungen &#x200B;] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+>* [[!UICONTROL Änderungen ] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 >
 >* [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 >
@@ -39,20 +39,4 @@ ht-degree: 5%
 ## Regeln für Aktivitätsnamen {#activity-name-rules}
 
 Der Aktivitätsname darf nicht mit `=`, `+`, `-` oder `@` beginnen. Der Aktivitätsname darf auch keine der folgenden Zeichenfolgen enthalten: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` oder `"]`.
-
-## Auswählen einer Audience im Schritt Targeting {#audience-selection-steps}
-
-1. Um die Audience zu ändern, klicken Sie auf **[!UICONTROL Ersetzen]**-Symbol ( ![Ersetzen-Symbol](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-
-1. Wählen Sie **[!UICONTROL Dialogfeld]** Zielgruppe hinzufügen[&#x200B; die gewünschte Zielgruppe aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
-
-   Um eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert, klicken Sie auf **[!UICONTROL Zielgruppen kombinieren]**. Weitere Informationen finden Sie unter [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
-
-   Um eine neue Zielgruppe zu erstellen, die sich noch nicht in der [!UICONTROL Zielgruppenbibliothek] befindet, klicken Sie auf **[!UICONTROL Zielgruppe erstellen]**. Wählen Sie [&#x200B; Workflow „Zielgruppe erstellen](/help/main/c-target/c-audiences/audiences.md) eine der folgenden Optionen:
-
-   * **[!UICONTROL Zielgruppenbibliothek]**: Erstellen Sie eine On-Demand-Zielgruppe, die in der [!UICONTROL Zielgruppenbibliothek] gespeichert und in anderen Aktivitäten wiederverwendet werden kann.
-   * **[!UICONTROL Nur diese Aktivität]**: Erstellen Sie eine [aktivitätsspezifische Zielgruppe](/help/main/c-target/creating-activity-only-audience.md) die nicht in der [!UICONTROL Zielgruppenbibliothek] gespeichert wird und nur in der aktuellen Aktivität verwendet werden kann.
-
-1. Klicken Sie **[!UICONTROL rechten Feld auf]** Besucherprozentsatz) und wählen Sie dann den Prozentsatz der qualifizierten Besucher aus, die Sie in die Aktivität eingeben möchten.
-
 

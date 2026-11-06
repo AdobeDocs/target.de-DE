@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 191350233707b59e863e1315e6546e44bd837af7
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 20%
@@ -54,7 +54,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
    >
    >Informationen zur Fehlerbehebung bei VEC finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    Die Option [[!UICONTROL Arbeitsplatz auswählen]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) ist eine [Target Premium](/help/main/c-intro/intro.md)-Funktion und wird möglicherweise nicht angezeigt, wenn Ihr Unternehmen über eine [!UICONTROL Target Standard]-Lizenz verfügt.
 
@@ -112,7 +112,7 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
    +++ Schritte zur Auswahl einer anderen Audience
 
-   {{audience-selection-steps}}
+   {{$include /help/_includes/audience-selection-steps.md}}
 
    +++
 
@@ -136,4 +136,4 @@ So erstellen Sie eine manuelle [!UICONTROL A/B-Test]-Aktivität:
 
 1. Klicken Sie **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**.
 
-Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL &#x200B; Registerkarte &#x200B;]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
+Nachdem Sie die Aktivität erstellt haben, zeigt [!UICONTROL  Registerkarte ]Übersicht“ Informationen zur Aktivität an, einschließlich eines Diagramms Ihrer Aktivität.
