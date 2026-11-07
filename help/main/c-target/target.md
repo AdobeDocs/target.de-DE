@@ -48,4 +48,4 @@ Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgr
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507596?captions=ger)

@@ -86,6 +86,6 @@ In diesem Video sind Informationen zur Einrichtung von Zielgruppen enthalten.
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507596?captions=ger)
 
 Detaillierte Informationen finden Sie unter [Zielgruppen](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).

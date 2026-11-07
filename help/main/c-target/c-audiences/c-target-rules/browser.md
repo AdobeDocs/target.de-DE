@@ -143,7 +143,7 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507777?captions=ger)
 
 ## Aktualisierungen für [!DNL iPad] und [!DNL iPhone] in [!UICONTROL Browser]-Zielgruppenattributen (30. April 2024) {#updates}
 

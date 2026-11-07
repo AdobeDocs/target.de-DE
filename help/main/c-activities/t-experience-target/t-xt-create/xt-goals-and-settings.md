@@ -184,4 +184,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507950?captions=ger)

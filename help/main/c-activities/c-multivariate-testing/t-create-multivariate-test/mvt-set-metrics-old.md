@@ -68,4 +68,4 @@ Dieses Video enthält Informationen zur Arbeit mit Erfolgsmetriken.
 * Verstehen und Erstellen [!UICONTROL &#x200B; Metriken &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion]
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507822?captions=ger)

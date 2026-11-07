@@ -50,4 +50,4 @@ In diesem Video wird beschrieben, wie Inhalte verwaltet werden.
 * Benutzerdefinierte HTML-Angebote
 * Benutzerdefinierte HTML-Angebote im Visual Experience Composer
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507959?captions=ger)

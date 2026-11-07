@@ -92,4 +92,4 @@ Dieses Video enthält Informationen zur Erstellung von Zielgruppen.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507777?captions=ger)
