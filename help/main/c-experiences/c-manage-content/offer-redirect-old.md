@@ -144,4 +144,4 @@ In diesem Video erhalten Sie eine Demo des formularbasierten Composers, mit dem 
 * Wann Form-Based Experience Composer und wann Visual Experience Composer verwendet werden sollte
 * Verfeinerungen zur Ausrichtung auf einen Standort nutzen
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507887?captions=ger)

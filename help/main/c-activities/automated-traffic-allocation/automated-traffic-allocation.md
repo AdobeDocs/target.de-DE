@@ -258,7 +258,7 @@ In diesem Video sind Informationen zur Einrichtung der Traffic-Zuordnung enthalt
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507596?captions=ger)
 
 ### Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

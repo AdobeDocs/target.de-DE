@@ -301,4 +301,4 @@ In diesem Video erfahren Sie, wie Profilskripte erstellt und verwendet werden.
 * Verwenden des Menüs „Verfügbare Token“ für den Zugriff auf verfügbare Optionen
 * Aktivieren und Deaktivieren von Profilskripten
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507914?captions=ger)

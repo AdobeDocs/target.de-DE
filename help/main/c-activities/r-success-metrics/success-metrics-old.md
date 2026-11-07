@@ -128,4 +128,4 @@ Dieses Video zeigt, wie Sie die verschiedenen Aktivitätsmetriken verwenden.
 * Verstehen und Erstellen von Metriken für Konversionen, Umsatz und Interaktion
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507822?captions=ger)

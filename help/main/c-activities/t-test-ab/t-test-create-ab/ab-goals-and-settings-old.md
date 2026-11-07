@@ -85,7 +85,7 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
-(https://video.tv.adobe.com/v/17381?captions=ger)
+(https://video.tv.adobe.com/v/3507950?captions=ger)
 
 ### Erstellen von A/B-Tests (8:36) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
