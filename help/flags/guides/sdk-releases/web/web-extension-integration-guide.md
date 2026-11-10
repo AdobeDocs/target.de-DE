@@ -61,13 +61,13 @@ Stellen Sie sicher, dass diese Erweiterung in Ihrer Datenerfassungs-Web-Eigensch
 
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
    1. Fügen Sie die Erweiterung einer Bibliothek hinzu.
 
    1. Erstellen Sie in Ihrer Entwicklungsumgebung.
 
-   1. Validieren mit [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+   1. Validieren mit [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de).
 
    1. Zur Staging- und Produktionsumgebung weiterleiten.
 
