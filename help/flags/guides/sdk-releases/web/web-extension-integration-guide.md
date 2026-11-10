@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 ---
 # Flags-Erweiterung für Web {#web-extension-integration-guide}
 
@@ -45,28 +45,30 @@ Stellen Sie sicher, dass diese Erweiterung in Ihrer Datenerfassungs-Web-Eigensch
 
 ### Installieren der Erweiterung {#install-extension}
 
-1. Melden Sie sich mit Ihren Adobe ID[Anmeldeinformationen bei &#x200B;](https://experience.adobe.com)experience.adobe.com) an.
-1. Navigieren Sie **Datenerfassung** > **Tags**.
-1. Wählen Sie die gewünschte Tag-Eigenschaft aus.
-1. Navigieren Sie **Erweiterungen** > **Katalog**.
-1. Suchen Sie nach **Flags** und wählen Sie die Erweiterungskarte aus.
-1. Wählen Sie **Installieren** aus.
+1. Melden Sie sich bei der [Adobe Experience Platform-Datenerfassung](https://experience.adobe.com/#/data-collection) an.
 
-### Konfigurieren von Erweiterungseinstellungen {#configure-settings}
+1. Wählen Sie die Registerkarte **[!UICONTROL Tags]** und dann Ihre Mobile-Eigenschaft aus.
 
-Wenn Sie die Flags-Erweiterung installieren, werden Sie zur Konfigurationsseite weitergeleitet. Konfigurieren Sie die folgenden Einstellungen:
+1. Navigieren Sie **[!UICONTROL Erweiterungen]** > **[!UICONTROL Katalog]**.
 
-| Einstellung | Beschreibung | Erforderlich |
-|---|---|---|
-| Client-ID | Eine eindeutige Kennung für Ihre Anwendung in Flags. | Ja |
+1. Suchen Sie nach **[!DNL Adobe Flags]** und wählen Sie **[!UICONTROL Installieren]** aus.
 
-### Speichern und veröffentlichen {#save-publish}
+   ![](../assets/extension-install.png)
 
-1. Wählen **Speichern**, um die Erweiterungskonfiguration zu speichern.
-1. Befolgen Sie den Veröffentlichungsablauf, um Ihre Änderungen bereitzustellen:
+1. Konfigurieren Sie die Erweiterungseinstellungen:
+
+* Client-ID: eine eindeutige Kennung für Ihre Anwendung in Flags.
+
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
+
+1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+
    1. Fügen Sie die Erweiterung einer Bibliothek hinzu.
+
    1. Erstellen Sie in Ihrer Entwicklungsumgebung.
-   1. Validieren mit Adobe Experience Platform Debugger.
+
+   1. Validieren mit [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de).
+
    1. Zur Staging- und Produktionsumgebung weiterleiten.
 
 ## Hinzufügen des Tag-Einbettungs-Codes zu Ihrer Website {#embed-code}
@@ -76,17 +78,28 @@ Nachdem Sie Ihre Tags-Bibliothek veröffentlicht haben, müssen Sie den Einbettu
 ### Kopieren des Einbettungs-Codes {#copy-embed-code}
 
 1. Navigieren Sie in der Datenerfassung zu Ihrer Web-Eigenschaft.
-1. Wählen **Umgebungen** im linken Navigationsbereich aus.
-1. Aktivieren Sie in der Zeile für Ihre Zielumgebung (Entwicklung, Staging oder Produktion) das Kästchen-Symbol unter der Spalte **Installieren**.
-1. Im Dialogfeld **Web-Installationsanweisungen** ist für Tags standardmäßig der asynchrone Einbettungs-Code festgelegt.
-1. Wählen Sie das **Kopieren**-Symbol aus, um den Einbettungs-Code in die Zwischenablage zu kopieren.
-1. Wählen Sie **Schließen** aus, um das Modal zu schließen.
+
+1. Rufen Sie das Menü **[!UICONTROL Umgebungen]** auf.
+
+1. Aktivieren Sie das Feldsymbol in der Spalte **[!UICONTROL Installieren]** der ausgewählten Umgebung.
+
+   ![](../assets/extension-install-2.png)
+
+1. Im Dialogfeld **[!UICONTROL Web-Installationsanweisungen]** ist für Tags standardmäßig der asynchrone Einbettungs-Code festgelegt.
+
+1. Wählen Sie das **[!UICONTROL Kopieren]**-Symbol aus, um den Einbettungs-Code in die Zwischenablage zu kopieren.
+
+   >[!NOTE]
+   >
+   >Jede Umgebung verfügt über eine eindeutige Einbettungs-Code-URL. Siehe [Umgebungen](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=de) für weitere Informationen.
+
+   ![](../assets/extension-install-4.png)
+
+### Implementieren des Einbettungs-Codes {#implement-embed-code}
 
 >[!NOTE]
 >
->Jede Umgebung verfügt über eine eindeutige Einbettungs-Code-URL. Weitere Informationen finden Sie unter Umgebungen .
-
-### Implementieren des Einbettungs-Codes {#implement-embed-code}
+>Ersetzen Sie die `src`-URL durch den tatsächlichen Einbettungs-Code auf der Seite Umgebungen . Die URL enthält Ihre Unternehmens-, Eigenschaften- und Umgebungskennung (z. B. `launch-EN123456789abcdef.min.js`).
 
 Fügen Sie den Einbettungs-Code in das `<head>` Ihrer HTML-Seiten ein. Der Einbettungs-Code sollte vor anderen Skripten platziert werden, die von der Tag-Bibliothek abhängig sind:
 
@@ -97,17 +110,13 @@ Fügen Sie den Einbettungs-Code in das `<head>` Ihrer HTML-Seiten ein. Der Einbe
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->Ersetzen Sie die `src`-URL durch den tatsächlichen Einbettungs-Code auf der Seite Umgebungen . Die URL enthält Ihre Unternehmens-, Eigenschaften- und Umgebungskennung (z. B. `launch-EN123456789abcdef.min.js`).
 
 ### Auswerten von Flags mit Tags-Komponenten {#tags-components}
 
@@ -168,7 +177,7 @@ const context = {
 
 ## API-Referenz {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### Auswertung der Funktionen {#is-feature-enabled}
 
 `isFeatureEnabled` gibt zurück, ob eine Flags-Funktion für den angegebenen Kontext aktiviert oder deaktiviert ist. Übergeben Sie `featureKey` und ein `FeatureEvaluationContext`. Siehe [Evaluierungskontext](#evaluation-context). Verwenden Sie die **Funktion ist aktiviert** Tags-Bedingung oder rufen Sie nach der Initialisierung `window._flagClient.isFeatureEnabled(...)` aus benutzerdefiniertem Code auf.
 
@@ -185,49 +194,52 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | Funktionsschlüssel zur Auswertung in Flags |
 | `context` | FeatureEvaluationContext | Identitäts- (erforderlich) und optionale Zielgruppenattribute. Siehe [Evaluierungskontext](#evaluation-context). |
 
-### Erstellen eines Feature Flag-Datenelements {#create-data-element}
+## Erstellen eines Feature Flag-Datenelements {#create-data-element}
 
 Verwenden Sie ein Datenelement, wenn Sie einen Markierungswert benötigen, der in Regeln oder benutzerdefiniertem Code verfügbar `%Data Element Name%`.
 
-**Schritte**
+1. Rufen Sie in Ihrer Eigenschaft das Menü **[!UICONTROL Datenelemente]** auf und wählen Sie **[!UICONTROL Datenelement hinzufügen]**.
 
-1. Wechseln Sie in Ihrer Eigenschaft zu **Datenelemente** und wählen Sie **Datenelement hinzufügen** aus.
+   ![](../assets/extension-install-5.png)
+
 1. Konfigurieren **auf dem Bildschirm Datenelement** erstellen) die Felder Tags :
 
-   | Feld | Wert |
-   |---|---|
-   | Name | Ein beschreibender Name (z. B. `checkout flag`) |
-   | Erweiterung | Markierungen |
-   | Datenelementtyp | Feature Flag |
+   * **[!UICONTROL Name]**: ein beschreibender Name (z. B. `checkout flag`)
+   * **[!UICONTROL extension]**: Flags
+   * **[!UICONTROL Datenelementtyp]**: Feature Flag
 
 1. Konfigurieren Sie die **Flags** Erweiterungsfelder:
 
-   | Feld | Erforderlich | Beschreibung |
-   |---|---|---|
-   | Funktionsschlüssel | Ja | Eindeutiger Kennzeichnungsschlüssel (z. B. `checkout_flag`) |
-   | Rückgabetyp | Ja | **Boolesch (true/false)** — aktiviert/deaktiviert oder **Objekt (vollständige Details)** — vollständige Payload einschließlich `meta` |
+   * **[!UICONTROL Funktionsschlüssel]**: Eindeutiger Kennzeichnungsschlüssel (z. B. `checkout_flag`), erforderlich.
+   * **[!UICONTROL Rückgabetyp]**: **Boolesch (true/false)** — aktiviert/deaktiviert oder **Feature-Objekt (vollständige Details)** — vollständige Payload einschließlich `meta`, erforderlich.
+
+     | Rückgabetyp | Auflösungen auf |
+     |---|---|
+     | Boolescher Wert (true/false) | `true`, falls aktiviert, andernfalls `false` |
+     | Objekt der Funktion (vollständige Details) | Ausgewertete Funktions-Payload, wenn das Flag aktiviert ist und der Kontext mit seiner Zielgruppe übereinstimmt. `null`, wenn das Flag deaktiviert ist, nicht gefunden wurde oder der Kontext nicht übereinstimmt |
 
 1. Wählen Sie **Speichern** aus.
 
-**Rückgabetypen**
-
-| Rückgabetyp | Auflösungen auf |
-|---|---|
-| Boolescher Wert (true/false) | `true`, falls aktiviert, andernfalls `false` |
-| Objekt der Funktion (vollständige Details) | Volle ausgewertete Funktions-Payload oder `null`, wenn Regeln nicht eingehalten werden |
-
 ### Verwenden des Datenelements {#use-data-element}
 
-In einer Regel - Verweis nach Namen, z. B. `%Test Flag%`.
+Verweisen Sie in einer Regel nach Namen, z. B. `%Test Flag%`.
 
-In benutzerdefiniertem Code - Verwenden Sie `_satellite.getVar`. Übergeben Sie bei Laufzeitattributen eine einfache Attributzuordnung als zweites auszuwertendes Argument:
+Verwenden Sie in benutzerdefiniertem Code `_satellite.getVar`. Übergeben Sie bei Laufzeitattributen eine einfache Attributzuordnung als zweites auszuwertendes Argument:
 
 ```javascript
 var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**Benutzerdefinierter Code**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +251,7 @@ if (isEnabled) {
 
 `getFeature` gibt die ausgewertete Funktions-Payload zurück, wenn Metadaten benötigt werden, die über das Aktivierte/Deaktivierte hinausgehen.
 
-Verwenden Sie ein **Feature Flag**-Datenelement mit **Rückgabetyp: Feature Object (vollständige Details)** - siehe [Erstellen eines Feature Flag-Datenelements](#create-data-element) - oder rufen Sie `window._flagClient.getFeature(...)` aus benutzerdefiniertem Code auf, nachdem `flagClientReady` aufgelöst wurde.
+Verwenden Sie ein **Feature Flag**-Datenelement mit **Rückgabetyp: Feature-Objekt (vollständige Details)**, siehe [Erstellen eines Feature Flag-Datenelements](#create-data-element), oder rufen Sie `window._flagClient.getFeature(...)` aus benutzerdefiniertem Code auf, nachdem `flagClientReady` aufgelöst wurde.
 
 **Signatur**
 
@@ -255,6 +267,8 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | `context` | FeatureEvaluationContext | Identitäts- (erforderlich) und Zielgruppenattribute. Siehe [Evaluierungskontext](#evaluation-context). |
 
 **Antwort**
+
+`getFeature` bewertet ein Flag nur, wenn es aktiviert ist und der angegebene Kontext den Kriterien für das Flag von Zielgruppen entspricht. In diesem Fall wird ein Ergebnisobjekt zurückgegeben. Andernfalls wird `null` zurückgegeben.
 
 *FeatureResult*
 
@@ -272,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | Anzahl | Numerische Merkmalgruppen-Kennung |
 | `featureId` | Anzahl | Numerische Funktionskennung |
-| `variantId` | Zahl \| null | Variantenkennung (für Kontrolle `0`) |
+| `variantId` | Zahl \| null | Variantenkennung (`0` wenn der Benutzer zur Kontrollgruppe gehört) |
 
 **Verhalten der Kontrollgruppe**
 
@@ -282,10 +296,16 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Steuerung auf Funktionsebene | `false` | Sentinel (`id: -1`, `key: null`) | Ja (`variantId: 0`) | Ja |
 | Nicht übereinstimmende/nicht gefundene Kriterien | `false` | `null` | Nein | Nein |
 
-**Beispiel**
+**Beispiele**
+
+*Tags-Datenelement*
+
+Referenzieren Sie Ihr Datenelement (z. B. `%Test Feature%`) in einer Regel und rufen Sie es über `_satellite.getVar` ab.
+
+*Benutzerdefinierter Code*
 
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +359,8 @@ Die Erweiterung behandelt Fehler kontrolliert:
 | Fehlende Identität im Kontext | Die Auswertung erzeugt einen Fehler. Geben Sie `identityNamespace` und `identityId` an. |
 | Funktion nicht gefunden | `getFeature` gibt `null` zurück; `isFeatureEnabled` gibt `false` zurück |
 
+**Beispiel**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +376,8 @@ try {
 ### Konsistente Identität {#consistent-identity}
 
 Verwenden Sie denselben Identity-Namespace und dieselbe ID in allen Auswertungen, um bei prozentualen Rollouts ein konsistentes Bucketing zu erzielen.
+
+**Beispiel**
 
 ```javascript
 const context = {
@@ -373,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 Geben Sie immer ein Fallback-Verhalten an, wenn eine Funktion nicht gefunden wird oder die Auswertung fehlschlägt.
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +423,3 @@ window.flagClientReady.then(function () {
 * [Zielgruppe in Feature Flags und Feature Groups](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [Berichterstellung](../../feature-flags/reporting.md)
 
-<!-- -->

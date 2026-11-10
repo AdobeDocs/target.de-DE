@@ -7,10 +7,10 @@ exl-id: ae115120-8da9-465e-a556-c17591ea7054
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 4%
+source-wordcount: '468'
+ht-degree: 3%
 ---
 # Erstellen des ersten Feature Flags {#create-feature-flag}
 
@@ -33,8 +33,8 @@ Gehen Sie wie folgt vor, um ein neues Feature Flag in der Konsole zu erstellen:
 
    | Feld | Beschreibung |
    | --- | --- |
-   | **Name** | Eine Anzeigebeschriftung für das Feature Flag. Wird nicht im Code verwendet. |
-   | **Schlüssel** * | Die Kennung, die im Code zum Auswerten des Flags verwendet wird. Kann nach der Erstellung nicht mehr geändert werden. |
+   | **Name** | Eine Anzeigebeschriftung für das Feature Flag. Wird nicht im Code verwendet. Der **Name** ist nur eine Anzeigenbeschriftung und wird im Code nicht verwendet; die beiden sind unabhängig (der Name wird nicht in den Schlüssel konvertiert). |
+   | **Schlüssel** * | Die Kennung, die im Code zum Auswerten des Flags verwendet wird. Kann nach der Erstellung nicht mehr geändert werden. Der **Schlüssel** ist die in Ihrem Code verwendete Kennung und kann nach der Erstellung nicht geändert werden. Bei Schlüsseln **darf keine** enthalten sein **wird zwischen Groß-** Kleinschreibung unterschieden. Wenn Sie im Feld Schlüssel ein Leerzeichen eingeben, wird folgender Fehler ausgegeben: _„Ungültiger Wert für Funktionsschlüssel“_ |
    | **Beschreibung** | Optionale Beschreibung für Dokumentationszwecke. |
    | **Metadaten** | Optional. Bis zu 1.024 Zeichen. Verwenden Sie dieses Feld für alle zusätzlichen Metadaten, die mit dem Flag verknüpft werden sollen. |
    | **Tags** | Optionale Tags für Dokumentationszwecke. |
@@ -45,7 +45,9 @@ Gehen Sie wie folgt vor, um ein neues Feature Flag in der Konsole zu erstellen:
 
 >[!IMPORTANT]
 >
->Der **Schlüssel** ist die in Ihrem Code verwendete Kennung und kann nach der Erstellung nicht geändert werden. Bei Schlüsseln **dürfen keine Leerzeichen enthalten** und wird zwischen **Groß- und Kleinschreibung**. Der **Name** ist nur eine Anzeigenbeschriftung und wird im Code nicht verwendet; die beiden sind unabhängig (der Name wird nicht in den Schlüssel konvertiert). Wenn Sie im Feld Schlüssel ein Leerzeichen eingeben, wird der Fehler ausgegeben: _„Ungültiger Wert für Funktionsschlüssel“_
+>Die hier ausgewählte Identität muss mit der Identität übereinstimmen, die Ihre App an SDK übergibt, wenn Feature Flags abgerufen werden. Wenn die beiden nicht übereinstimmen, kann der SDK die erwartete Identität nicht finden und greift auf eine temporäre, zufällig generierte ID zurück, um eine Variante zuzuweisen. Die Flag-Auswertung funktioniert weiterhin, es wird kein Fehler angezeigt und die Benutzer erhalten weiterhin eine Variante.
+>
+>Mit einer temporären ID kann ein Benutzer jedoch jedes Mal, wenn die App neu gestartet wird, eine andere Variante erhalten, und dieselbe Person hat keine Garantie für eine konsistente Variante auf allen Geräten.
 
 1. Fügen Sie optional Zielgruppenkriterien hinzu (siehe Schritt 2).
 1. Speichern Sie Ihre Feature Flag-Einstellungen.

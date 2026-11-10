@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Warum Flags verwenden? {#why-use}
@@ -37,6 +37,6 @@ Gleichzeitiges Aktivieren einer Funktion über mehrere Anwendungen hinweg für e
 Stellen Sie Code vorab für die Produktion bereit und aktivieren Sie dann die Funktion zu einem bestimmten Zeitpunkt - z. B. zu Beginn eines Produkteinführungsereignisses - ohne Code-Änderung in letzter Minute.
 
 **Kill-Schalter**
-Wenn nach der Veröffentlichung ein Problem erkannt wird, schalten Sie die Funktion sofort aus, ohne dass ein Hotfix oder eine erneute Bereitstellung erforderlich ist.
+Wenn nach der Veröffentlichung ein Problem erkannt wird, deaktivieren Sie die Funktion ohne Hotfix oder erneute Bereitstellung. Die Änderungen werden bei der nächsten Aktualisierung des Flags wirksam (standardmäßig alle 5 Minuten).
 
 <!-- -->
