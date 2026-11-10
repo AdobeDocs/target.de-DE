@@ -7,9 +7,9 @@ exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e4be1b7a5198b667b0d398cb1287c920a0a81471
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Erstellen einer Funktionsgruppe {#create-feature-group}
@@ -23,7 +23,7 @@ Bevor Sie eine Funktionsgruppe erstellen, führen Sie Folgendes aus:
 * Sie haben die Rolle **Produktversionsinhaber**.
 * Sie haben die Feature Flags erstellt, die Sie der Gruppe hinzufügen möchten - siehe [Erstellen des ersten Feature Flags](create-your-first-feature-flag.md)
 
-Eine Einführung in Funktionsgruppen finden Sie unter &quot;[&#x200B; zur Steuerung mehrerer Funktionen](../../concepts/feature-groups-to-control-multiple-features.md).
+Eine Einführung in Funktionsgruppen finden Sie unter &quot;[ zur Steuerung mehrerer Funktionen](../../concepts/feature-groups-to-control-multiple-features.md).
 
 ## Schritt 1: Funktionsgruppe erstellen {#create}
 
@@ -57,11 +57,11 @@ Weisen Sie die Feature Flags zu, die von dieser Gruppe gesteuert werden:
 
 >[!IMPORTANT]
 >
->Ein Feature Flag kann nur über eine Methode bereitgestellt werden - entweder direkt als Feature Flag, über eine Feature Group oder über eine Release. Wenn Sie einer Funktionsgruppe ein Feature Flag hinzufügen, werden alle Zielgruppen- oder prozentualen Rollout-Sets für das Flag entfernt. Feature Flags, die bereits einer anderen Version oder Funktionsgruppe zugewiesen sind, werden nicht in der Liste angezeigt.
+>Ein Feature Flag kann nur über eine Methode bereitgestellt werden - entweder direkt als Feature Flag oder über eine Feature Group. Wenn Sie einer Funktionsgruppe ein Feature Flag hinzufügen, werden alle Zielgruppen- oder prozentualen Rollout-Sets für das Flag entfernt. Feature Flags, die bereits einer Feature Group zugewiesen sind, werden nicht in der Liste angezeigt.
 
 >[!IMPORTANT]
 >
->Wenn Sie **Feature Flag** einer Feature Group entfernen, kehrt das Flag in den Status **Deaktiviert“ zurück** seine Zielgruppe wird **nicht wiederhergestellt** - als neues Flag behandeln. Eine Markierung **deaktiviert** innerhalb einer Gruppe wird immer als `false` ausgewertet. Durch die Aktivierung einer Funktionsgruppe werden **Mitglieder-Flags nicht aktiviert** sondern jedes Flag explizit aktiviert.
+>Wenn Sie **Feature Flag** einer Feature Group entfernen, kehrt das Flag in den Status **Deaktiviert“ zurück** die Zielgruppe **nicht wiederhergestellt** behandeln Sie sie als neues Flag. Benutzer werden erneut randomisiert, wenn das Flag erneut ausgerollt wird. Eine Markierung **deaktiviert** innerhalb einer Gruppe wird immer als `false` ausgewertet. Durch die Aktivierung einer Funktionsgruppe werden **Mitglieder-Flags nicht aktiviert** sondern jedes Flag explizit aktiviert.
 >
 >Funktionsgruppen sind eine **Verwaltungsebene**. Zur Laufzeit erfolgt die Auswertung immer auf **Feature (Flag)-Ebene** nie auf Gruppenebene. Die Antwort enthält die Variante, in die der Benutzer fiel.
 
