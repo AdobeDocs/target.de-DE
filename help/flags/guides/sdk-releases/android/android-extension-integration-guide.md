@@ -84,7 +84,7 @@ Stellen Sie sicher, dass diese Erweiterungen in Ihrer Datenerfassungs-Eigenschaf
 >Die Flags-Erweiterung ist nicht Teil der SDK-Stückliste für Mobilgeräte. Ersetzen Sie `<latest-version>` durch die neueste Version von Maven Central. Ohne eine Version kann Gradle die Abhängigkeit nicht auflösen.
 >
 ></br>
-&gt;Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle dynamischer Versionen wie „3.+". Weitere Informationen finden Sie unter [Verwalten von Gradle-Abhängigkeiten](https://docs.gradle.org/current/userguide/dependency_management.html).
+>&gt;Für Produktionsanwendungen empfiehlt Adobe die Verwendung expliziter Versionsnummern anstelle dynamischer Versionen wie „3.+". Weitere Informationen finden Sie unter [Verwalten von Gradle-Abhängigkeiten](https://docs.gradle.org/current/userguide/dependency_management.html).
 
 Fügen Sie die folgenden Abhängigkeiten zur `build.gradle.kts` (Kotlin) oder `build.gradle` (Groovy) Ihrer App hinzu:
 
@@ -280,7 +280,7 @@ Attributnamen und -werte müssen mit den in Ihren Markierungsregeln verwendeten 
 
 ## Benutzerdefinierte Identität {#custom-identity}
 
-Die Erweiterung „Flags“ verwendet die Erweiterung „Identität für Edge Network](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) für die Identitätsauflösung. [Eine Feature Flag kann für eine benutzerdefinierte Identität, z. B. eine CRM-ID oder eine Treueprogramm-ID, kombiniert werden, sodass Variantenaufspaltungen und Analysen mit der Identität verknüpft sind, die für Ihr Programm wichtig ist.
+Die Erweiterung „Flags“ verwendet die Erweiterung „Identität für Edge Network[&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) für die Identitätsauflösung. Eine Feature Flag kann für eine benutzerdefinierte Identität, z. B. eine CRM-ID oder eine Treueprogramm-ID, kombiniert werden, sodass Variantenaufspaltungen und Analysen mit der Identität verknüpft sind, die für Ihr Programm wichtig ist.
 
 Der benutzerdefinierte Identity-Namespace muss in der Benutzeroberfläche „Flags“ ausgewählt werden, wenn das Feature Flag erstellt wird. Um ein Flag für diese Identität auszuwerten, muss dieselbe Identität im Edge Identity `identityMap` auf dem Gerät vorhanden sein und den entsprechenden Namespace verwenden. Bereitstellen zur Laufzeit mit der Identity for Edge Network `updateIdentities`-API.
 
