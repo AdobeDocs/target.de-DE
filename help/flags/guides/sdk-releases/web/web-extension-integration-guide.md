@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Flags-Erweiterung für Web {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Stellen Sie sicher, dass diese Erweiterung in Ihrer Datenerfassungs-Web-Eigensch
 
    ![](../assets/extension-install.png)
 
-1. Konfigurieren Sie die Erweiterungseinstellungen:
+#### Konfigurieren der Erweiterungseinstellungen {#configure-extension-settings}
 
-* Client-ID: eine eindeutige Kennung für Ihre Anwendung in Flags.
+Wenn Sie die Flags-Erweiterung installieren, werden Sie zur Konfigurationsseite weitergeleitet. Konfigurieren Sie die folgenden Einstellungen:
 
-1. Wählen Sie **[!UICONTROL Speichern]** aus.
+| Einstellung | Beschreibung | Erforderlich |
+|---|---|---|
+| Client-ID | Eine eindeutige Kennung für Ihre Anwendung in Flags. | Ja |
 
-1. Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
+#### Veröffentlichen der Erweiterung {#publish-extension}
 
-   1. Fügen Sie die Erweiterung einer Bibliothek hinzu.
+Befolgen Sie den [Veröffentlichungsprozess](https://experienceleague.adobe.com/de/docs/experience-platform/tags/publish/overview), um Ihre Konfiguration zu aktualisieren.
 
-   1. Erstellen Sie in Ihrer Entwicklungsumgebung.
+1. Fügen Sie die Erweiterung einer Bibliothek hinzu.
 
-   1. Validieren mit [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de).
+1. Erstellen Sie in Ihrer Entwicklungsumgebung.
 
-   1. Zur Staging- und Produktionsumgebung weiterleiten.
+1. Validieren mit [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=de).
+
+1. Zur Staging- und Produktionsumgebung weiterleiten.
 
 ## Hinzufügen des Tag-Einbettungs-Codes zu Ihrer Website {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Feld | Typ | Beschreibung |
 |---|---|---|
 | `id` | Anzahl | Numerische Funktionskennung. `-1` für Kontroll-Sentinel auf Funktionsebene. |
-| `key` | Zeichenfolge \| null | Funktionsschlüssel. `null` für Kontroll-Sentinel auf Funktionsebene. |
-| `featureGroupKey` | Zeichenfolge \| null | Funktionsgruppenschlüssel, falls verfügbar |
-| `meta` | Zeichenfolge \| null | Funktionsmetadaten, falls verfügbar |
-| `analyticsParam` | AnalyticsParam \| null | Analytics-Details für die ausgewertete Funktion |
+| `key` | `string \| null` | Funktionsschlüssel. `null` für Kontroll-Sentinel auf Funktionsebene. |
+| `featureGroupKey` | `string \| null` | Funktionsgruppenschlüssel, falls verfügbar |
+| `meta` | `string \| null` | Funktionsmetadaten, falls verfügbar |
+| `analyticsParam` | `AnalyticsParam \| null` | Analytics-Details für die ausgewertete Funktion |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | Anzahl | Numerische Merkmalgruppen-Kennung |
 | `featureId` | Anzahl | Numerische Funktionskennung |
-| `variantId` | Zahl \| null | Variantenkennung (`0` wenn der Benutzer zur Kontrollgruppe gehört) |
+| `variantId` | `number \| null` | Variantenkennung (`0` wenn der Benutzer zur Kontrollgruppe gehört) |
 
 **Verhalten der Kontrollgruppe**
 
