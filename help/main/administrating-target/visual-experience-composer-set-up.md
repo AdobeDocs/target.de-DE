@@ -141,4 +141,4 @@ In diesem Video finden Sie Informationen zu Kontovoreinstellungen.
 
 * Beschreibung der in [!DNL Target Standard] verfügbaren Kontoeinstellungen
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507632?captions=ger)
