@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ Die folgende Liste enthält Beschreibungen zu verschiedenen Situationen, in dene
 
 ## [!UICONTROL Berichtsmetrik] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klicken Sie auf **[!UICONTROL Berichtsmetrik]** Dropdown-Liste, um eine andere [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) oder mehrere Metriken auszuwählen, die im Diagramm angezeigt werden sollen.
+Klicken Sie auf **[!UICONTROL Berichtsmetrik]** Dropdown-Liste, um eine andere [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) oder mehrere Metriken auszuwählen, die im Diagramm angezeigt werden sollen.
 
 Standardmäßig wird die primäre Metrik in der Einrichtung der Erfolgsmetriken beim Erstellen der Aktivität bestimmt. Wenn Sie die Einrichtung ändern und die Aktivität erneut speichern, wird die primäre Metrik für die Berichterstattung aktualisiert.
 
@@ -151,7 +151,7 @@ Wählen Sie die Umgebung (Hostgruppe) aus, die für den Bericht verwendet werden
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
+>Wenn Ihr Unternehmen [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) verwendet, um Metrikdaten an [!DNL Target] zu senden, sollte die Umgebung im AEP-Datenstrom mit der Umgebung in Ihren [!DNL Target] Berichteinstellungen übereinstimmen.
 
 ### Berichtsdaten zurücksetzen
 
@@ -185,8 +185,8 @@ Je nach Aktivitätstyp können Sie den Bericht in verschiedenen Formaten anzeige
 
 * **Tabellenansicht** Klicken Sie auf das Symbol **[!UICONTROL Tabellenansicht]** ( ![Tabellenansichtssymbol](/help/main/assets/icons/Table.svg) ), um den Bericht als Tabelle anzuzeigen.
 * **Diagrammansicht**: Klicken Sie auf das Symbol **[!UICONTROL Diagrammansicht]** ( ![Diagrammansichtssymbol](/help/main/assets/icons/GraphTrend.svg) ), um den Bericht als Diagramm anzuzeigen.
-* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **Automatisierte Segmente**:(Nur für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Automatisierte Segmente] ( ![Symbol für automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ), um den Bericht [Automatisierte Segmente“ ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Wichtige Attribute**: (Nur für [!DNL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verfügbar.) Klicken Sie auf das Symbol **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ), um den Bericht [Wichtige Attribute“ ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Durchschnittliche Steigerung, Steigerungsgrenzen und Konfidenzintervall {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -236,7 +236,7 @@ Die Zählmethodologie ist identisch mit der Auswahl im Dialogfeld [!UICONTROL Ei
 
 Standardmäßig wird das Diagramm im Modus [!UICONTROL Täglich] gezeichnet.
 
-Sie können den Modus ändern, indem Sie auf [!UICONTROL &#x200B; Dropdown-Liste &#x200B;]Täglich“ klicken und dann eine kumulative Option auswählen.
+Sie können den Modus ändern, indem Sie auf [!UICONTROL  Dropdown-Liste ]Täglich“ klicken und dann eine kumulative Option auswählen.
 
 >[!NOTE]
 >

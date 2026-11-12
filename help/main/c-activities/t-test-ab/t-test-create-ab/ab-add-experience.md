@@ -17,72 +17,78 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 30%
+source-wordcount: '472'
+ht-degree: 25%
 ---
-# Hinzufügen von Erlebnissen
+# Hinzufügen von Erlebnissen {#ab-add-experience}
 
-Der [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) bietet eine visuelle Benutzeroberfläche zum Hinzufügen und Bearbeiten von Erlebnissen auf Ihrer Seite.
+>[!BEGINSHADEBOX]
 
-Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+**Auf dieser Seite** Erfahren Sie, wie Sie ein Erlebnis in einer A/B-Aktivität hinzufügen und gestalten und es umbenennen, umleiten, duplizieren oder löschen.
 
-1. Klicken Sie auf **[!UICONTROL Seite]** Erlebnisse“ in Visual Experience Composer auf das Symbol [!UICONTROL Hinzufügen] ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich [!UICONTROL Erlebnisse].
+>[!ENDSHADEBOX]
 
-   Nach dem Erstellen einer neuen Aktivität zeigt VEC auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
+Der [!DNL Adobe Target] **[!UICONTROL Visual Experience Composer]** (VEC) bietet eine visuelle Benutzeroberfläche zum Hinzufügen und Bearbeiten von Erlebnissen auf Ihrer Seite. Weitere Informationen zu Erlebnissen finden Sie unter [Erlebnisse](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+
+## Hinzufügen und Entwerfen eines Erlebnisses {#add-experience}
+
+So fügen Sie ein Erlebnis hinzu und ändern die Seite für dieses Erlebnis:
+
+1. Klicken Sie auf **[!UICONTROL Seite]** Erlebnisse“ in Visual Experience Composer auf das Symbol **[!UICONTROL Hinzufügen]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) oben im Bereich **[!UICONTROL Erlebnisse]**.
+
+   Nachdem Sie eine neue Aktivität erstellt haben, zeigt VEC auf der linken Seite zwei Registerkarten an: Erlebnis A und Erlebnis B. Erlebnis A ist das Kontrollerlebnis. Sie können dem Test mehrere Erlebnisse hinzufügen.
 
 1. Wählen Sie die zu ändernden Elemente aus und nehmen Sie die gewünschten Änderungen vor.
 
-   Wenn Sie den Mauszeiger über die Elemente auf der Seite bewegen, werden die Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden.
-
-   Wenn Sie eine [!DNL Target] Anfrage auf der Seite mit [!DNL Target Classic] (früher [!DNL Test&Target]) erstellt haben, wird diese [!DNL Target] Anfrage als ein Element angezeigt, das den Namen der Anfrage anzeigt, und kann wie jedes andere Element geändert werden.
+   Wenn Sie den Mauszeiger über die Elemente auf der Seite bewegen, werden die Elemente hervorgehoben. Alle hervorgehobenen Elemente können mit dem VEC geändert werden. Wenn Sie eine [!DNL Target] Anfrage auf der Seite mit [!DNL Target Classic] (früher [!DNL Test&Target]) erstellt haben, wird diese [!DNL Target] Anfrage als ein Element angezeigt, das den Namen der Anfrage anzeigt, und kann wie jedes andere Element geändert werden.
 
    Eine Liste der Aktionen, die für ein Element auf der angezeigten Seite durchgeführt werden können, um das Erlebnis zu ändern, finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   >[!NOTE]
-   >
-   >Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf `akamai.net` gehostet und auf `example.com` bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
-
 1. Klicken Sie **[!UICONTROL Weiter]** wenn Sie mit dem Entwerfen des Erlebnisses fertig sind.
 
-## Umbenennen eines Erlebnisses
+>[!NOTE]
+>
+>Wenn Sie ein Bild aus einer anderen Quelle als der Hauptseite bereitstellen (z. B. ein Bild, das auf `akamai.net` gehostet und auf `example.com` bereitgestellt wird), wird das Bild nicht in der Miniaturansicht der Seite, die auf dem Flussdiagramm zu sehen ist, angezeigt.
 
-1. Klicken Sie auf das **[!UICONTROL Erlebnis umbenennen]**-Symbol ( ![Umbenennen-Symbol](/help/main/assets/icons/Rename.svg) ) neben einem Erlebnis, um dem Erlebnis einen neuen Namen zu geben.
+## Umbenennen eines Erlebnisses {#rename-experience}
 
-2. Geben Sie einen neuen Namen ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
+So geben Sie einem Erlebnis einen neuen Namen:
 
-   Beim Benennen oder Umbenennen eines Erlebnisses sind die folgenden Zeichen nicht zulässig:
+1. Klicken Sie auf **[!UICONTROL Symbol „Erlebnis]**&quot; ( ![Symbol „Umbenennen](/help/main/assets/icons/Rename.svg) ) neben dem Erlebnis.
 
-   | Zeichen | Beschreibung |
-   |--- |--- |
-   | / | Vorwärtsschrägstrich |
-   | ? | Fragezeichen |
-   | # | Raute |
-   | : | Doppelpunkt |
-   | = | Gleich |
-   | + | Plus |
-   | - | Minus |
-   | @ | At-Zeichen |
+1. Geben Sie einen neuen Namen ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-## Zur URL umleiten
+Beim Benennen oder Umbenennen eines Erlebnisses sind die folgenden Zeichen nicht zulässig:
 
-1. Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und dann auf **[!UICONTROL Zu URL umleiten]**.
+| Zeichen | Beschreibung |
+|--- |--- |
+| `/` | Vorwärtsschrägstrich |
+| `?` | Fragezeichen |
+| `#` | Raute |
+| `:` | Doppelpunkt |
+| `=` | Gleich |
+| `+` | Plus |
+| `-` | Minus |
+| `@` | At-Zeichen |
 
-   Weitere Informationen finden Sie unter [Zur URL umleiten](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
+## Erlebnis zu einer URL umleiten {#redirect-to-url}
+
+Informationen zum Senden von Besuchern eines Erlebnisses an eine andere URL finden Sie unter [Umleiten zu URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md):
+
+1. Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben dem Erlebnis und dann auf **[!UICONTROL Zu URL umleiten]**.
 
 1. Geben Sie die URL an, zu der Sie das Erlebnis umleiten möchten.
 
-1. (Bedingt) Aktivieren Sie **[!UICONTROL Kontrollkästchen „Aktuelle Abfrageparameter]**&quot;.
+1. (Bedingt) Aktivieren Sie das **[!UICONTROL Aktuelle Abfrageparameter einschließen]**.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Duplizieren eines Erlebnisses
+## Duplizieren eines Erlebnisses {#duplicate-experience}
 
-Sie können ein Erlebnis in einen [!UICONTROL A/B-Test] kopieren, sodass Sie kleinere Änderungen daran vornehmen können, ohne das Erlebnis neu erstellen zu müssen.
+Sie können ein Erlebnis in einen A/B-Test kopieren, um kleinere Änderungen daran vorzunehmen, ohne das Erlebnis neu erstellen zu müssen. Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben dem Erlebnis und dann auf **[!UICONTROL Duplizieren]**.
 
-1. Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis und dann auf **[!UICONTROL Duplizieren]**.
+## Löschen eines Erlebnisses {#delete-experience}
 
-## Löschen eines Erlebnisses
-
-1. Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben einem Erlebnis, klicken Sie auf **[!UICONTROL Löschen]** und dann auf **[!UICONTROL Löschen]**, um die Aktion zu bestätigen.
+Klicken Sie **[!UICONTROL Bereich]** Erlebnisse“ auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmall.svg) ) neben dem Erlebnis, klicken Sie auf **[!UICONTROL Löschen]** und dann auf **[!UICONTROL Löschen]**, um die Aktion zu bestätigen.

@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppenbestimmung;Zielgruppenfilter;Zielgruppen;Filter
-description: Erfahren Sie, wie Sie Zielgruppenfilter in verwenden [!DNL Adobe Target]  um Daten von Besucherinnen und Besuchern mit gemeinsamen Merkmalen anzuzeigen.
+description: Erfahren Sie, wie Sie in Zielgruppenfilter verwenden, [!DNL Adobe Target] Daten von Besucherinnen und Besuchern anzuzeigen, die dieselben Merkmale nutzen.
 title: Kann ich Zielgruppenfilter für das Reporting verwenden?
 feature: Audiences
 exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '479'
 ht-degree: 59%
-
 ---
-
 # Zielgruppenfilter für Reporting
 
 Zielgruppenfilter (oder Zielgruppen) in [!DNL Adobe Target] sind Besuchergruppen, die ein bestimmtes Merkmal oder eine Reihe von Merkmalen gemeinsam haben.
@@ -60,5 +58,5 @@ In den folgenden Abschnitten finden Sie weitere Informationen zum Einrichten von
 | Geeignete Aktivität oder geeigneten Test erstellen. | [Aktivitäten und Tests](/help/main/c-intro/target-key-concepts.md) |
 | Zielgruppen erstellen, sofern erforderlich. | [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/create-audience.md) |
 | Mehrere Zielgruppen kombinieren, sofern erforderlich. | [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md) |
-| Zielgruppen auf der Seite Ziele und Einstellungen der Aktivität anwenden. | A/B-Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Ziele und Einstellungen](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariater Test: [Ziele und Einstellungen](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations-Aktivitätseinstellungen](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Aktivitätseinstellungen: [Aktivitätseinstellungen](/help/main/c-activities/activity-settings.md) |
+| Zielgruppen auf der Seite Ziele und Einstellungen der Aktivität anwenden. | A/B-Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Multivariater Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Recommendations-Aktivitätseinstellungen](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Aktivitätseinstellungen: [Aktivitätseinstellungen](/help/main/c-activities/activity-settings.md) |
 | Berichte mit Informationen zu den Zielgruppenfiltern anzeigen. | [Berichtseinstellungen](/help/main/c-reports/c-report-settings/report-settings.md) |

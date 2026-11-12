@@ -1,6 +1,6 @@
 ---
 keywords: Administration;Genehmiger-Rolle;Genehmiger
-description: Führen Sie die ersten Aufgaben aus, die [!DNL Adobe Target] Administratoren nach Erhalt der per E-Mail gesendeten Einladung an die [!DNL Adobe Experience Cloud] ausführen sollten.
+description: Führen Sie die ersten Aufgaben aus, die Adobe Target-Administratoren nach Erhalt der per E-Mail an Adobe Experience Cloud gesendeten Einladung ausführen sollten.
 title: Wie kann ich beginnen, [!DNL Target] zu verwalten?
 feature: Administration & Configuration
 role: Admin
@@ -22,61 +22,74 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 29%
+source-wordcount: '556'
+ht-degree: 9%
 ---
 # Erste Schritte für Administratoren
 
-Dieser Artikel enthält die ersten Schritte, [!DNL Adobe Target] Administratoren nach Erhalt der per E-Mail gesendeten Einladung zum [!DNL Adobe Experience Cloud] ausführen sollten.
+Führen Sie diese Schritte aus, nachdem Sie eine Einladung zum [!DNL Adobe Target] über die [!DNL Adobe Experience Cloud] erhalten haben. Wenn Sie bereit sind, die Kontostandardeinstellungen zu konfigurieren, lesen Sie [Wie verwalte ich Target?](/help/main/administrating-target/administrating-target.md). Hilfe beim Suchen von **[!UICONTROL Administration]** in der Benutzeroberfläche finden Sie unter [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md).
+
+**Workflow-Übersicht**
+
+1. [Zu Target eingeladen werden](#task_3E0817630774431983FAA3D2CB2E75BD): Ein Systemadministrator fügt Sie der [!DNL Adobe Admin Console] hinzu.
+1. [Einladung annehmen](#task_24FE66659E634B24AB61DB8497772E17): Melden Sie sich bei [!DNL Experience Cloud] an und verknüpfen Sie Ihr [!DNL Target].
+1. [Weisen Sie sich die Rolle des Genehmigers zu](#task_15CAA437A71444E2932B333D5E66A3C7): Bestätigen Sie den Zugriff und die Berechtigungen für Ihren Lizenztyp.
+1. [Benutzerverwaltung](/help/main/administrating-target/c-user-management/user-management.md): Hinzufügen von Benutzern und Zuweisen von Rollen für [!DNL Target Standard] oder [!DNL Target Premium].
 
 ## Einladung zum [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Systemadministrator sollte Sie dann zu einem oder mehreren rollenspezifischen Produktprofilen (Benutzergruppen) hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
+Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Administrator sollte Sie auch einem oder mehreren rollenspezifischen Produktprofilen (Benutzergruppen) hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
 
-Weitere Informationen finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/users.html).
+Eine schrittweise Anleitung finden Sie unter [Erfahren Sie, wie Sie Benutzende und Produktprofile verwalten](https://helpx.adobe.com/enterprise/using/users.html) in der Dokumentation zu Adobe Enterprise.
 
-Sie erhalten eine Einladungs-E-Mail, nachdem der Systemadministrator diese Schritte ausgeführt hat.
+Nachdem der Administrator diese Schritte ausgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 
 ## Annehmen der Einladung {#task_24FE66659E634B24AB61DB8497772E17}
 
-Nachdem Sie die Einladung zum [!DNL Adobe Experience Cloud] erhalten haben, akzeptieren Sie die Einladung, melden Sie sich an und akzeptieren Sie den [!UICONTROL Endbenutzer-] (EULA).
+Nachdem Sie die Einladung zum [!DNL Adobe Experience Cloud] erhalten haben, akzeptieren Sie sie, melden Sie sich an und akzeptieren Sie den [!UICONTROL Endbenutzer-] (EULA).
+
+Gehen Sie wie folgt vor, um die Einladung anzunehmen und [!DNL Target] mit Ihrem [!DNL Experience Cloud]-Konto zu verknüpfen:
 
 1. Nehmen Sie die Einladung in [!DNL Adobe Experience Cloud] an.
 1. Wenn Sie noch keine Adobe ID besitzen, werden Sie aufgefordert, eine zu erstellen.
 
-   Wenn Sie über eine Adobe ID verfügen, wird Ihre Adobe ID erkannt, und Sie werden aufgefordert, sich anzumelden.
+   Wenn Sie bereits über eine Adobe ID verfügen, melden Sie sich bei Aufforderung an.
+
 1. Akzeptieren Sie [!UICONTROL Nutzungsbedingungen].
+
 1. Überprüfen Sie die Zusammenfassung Ihrer bisherigen Aktivitäten und klicken Sie dann auf **[!UICONTROL Weiter zu Experience Cloud]**.
+
 1. Melden Sie sich bei [!DNL Adobe Experience Cloud] an und klicken Sie auf **[!UICONTROL Konto]**.
 
    >[!NOTE]
    >
    >Wenn Sie Ihr Konto nicht verknüpfen, können Sie nicht auf [!DNL Target] zugreifen.
 
-   Alle [!UICONTROL Experience Cloud]-Produkte werden auf der Verknüpfungsseite angezeigt. Klicken Sie auf `Link Target` und geben Sie Ihren [!DNL Target] Benutzernamen und Ihr Kennwort ein, um auf [!DNL Target] zuzugreifen.
+   Alle [!UICONTROL Experience Cloud]-Produkte werden auf der Verknüpfungsseite angezeigt. Klicken Sie **[!UICONTROL Link Target]** und geben Sie dann Ihren [!DNL Target] Benutzernamen und Ihr Kennwort ein.
 1. Klicken Sie **[!UICONTROL Weiter zu Experience Cloud]**.
 
-   Sie haben zu diesem Zeitpunkt noch keine Gruppen mit Berechtigungen eingerichtet, die verknüpft werden können.
-1. Wenn Sie möchten, sehen Sie sich das Einführungsvideo zu [!DNL Adobe Experience Cloud] an.
-1. Um Ihre neuen Berechtigungen anzuzeigen und auf das Produkt zuzugreifen, melden Sie sich bei [!DNL Adobe Experience Cloud] ab und dann wieder an.
-1. Fahren Sie mit dem nächsten Schritt fort und [weisen Sie sich die Rolle „Genehmiger“](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7) zu.
+   Zu diesem Zeitpunkt verfügen Sie möglicherweise noch nicht über Produktprofile mit Berechtigungen zum Verknüpfen. Ihr Systemadministrator kann diese in der [!DNL Adobe Admin Console] zuweisen.
+1. Sehen Sie sich optional das Video an, in dem die [!DNL Adobe Experience Cloud] vorgestellt wird.
+1. Um Ihre Berechtigungen zu aktualisieren und das Produkt zu öffnen, melden Sie sich von [!DNL Adobe Experience Cloud] ab und wieder an.
+1. Fahren Sie fort[sich selbst die Rolle des Genehmigers zuzuweisen](#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Zuweisen der Rolle „Genehmiger“ {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-Nachdem Sie die Einladung zum [!DNL Adobe Experience Cloud] angenommen und sich angemeldet haben, bestätigen Sie, dass [!DNL Target] zu Ihrem [!DNL Experience Cloud] Konto hinzugefügt wurde, und weisen Sie sich dann die Rolle [!UICONTROL Genehmiger] für [!DNL Target] zu.
+Nachdem Sie die Einladung angenommen und sich angemeldet haben, bestätigen Sie, dass [!DNL Target] in Ihrem [!DNL Experience Cloud] Konto angezeigt wird, und weisen Sie sich dann die Rolle [!UICONTROL Genehmiger] für [!DNL Target] zu.
 
-Wenn Ihr Unternehmen über eine [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905)-Lizenz verfügt, lesen Sie [Rollen und Berechtigungen festlegen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) im *Benutzerhandbuch*.
+Wählen Sie die Ihrer Lizenz entsprechende Anleitung aus:
 
-Wenn Ihr Unternehmen über eine [Target Premium](/help/main/c-intro/intro.md#premium)-Lizenz verfügt, lesen Sie [Schritt 6: Rollen und Berechtigungen festlegen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) im Abschnitt *Konfigurieren von Unternehmensberechtigungen*.
+* Wenn Ihr Unternehmen über eine [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905)-Lizenz verfügt, finden Sie weitere Informationen [Erfahren Sie, wie Sie Rollen und Berechtigungen angeben](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) unter *Benutzer*.
+* Wenn Ihr Unternehmen über eine [Target Premium](/help/main/c-intro/intro.md#premium)-Lizenz verfügt, lesen Sie [Schritt 6: Rollen und Berechtigungen festlegen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) im Abschnitt *Konfigurieren von Unternehmensberechtigungen*.
 
-Ihr nächster Schritt sollte darin bestehen, Benutzer in [!DNL Target Standard] und [!DNL Target Premium] einzurichten. Weitere Informationen finden Sie unter [Benutzerverwaltung](/help/main/administrating-target/c-user-management/user-management.md).
+Anschließend können Sie Benutzer für [!DNL Target Standard] oder [!DNL Target Premium] einrichten. Unter [Benutzerverwaltung](/help/main/administrating-target/c-user-management/user-management.md) finden Sie einen Überblick und Links zum richtigen Workflow für Ihre Lizenz.
 
 ## Erforderliche Berechtigungen zum Bearbeiten der [!UICONTROL Administration]-Einstellungen {#admin-permissions}
 
-**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Genehmiger]-Rechten im [!DNL Adobe Admin Console] können alle Einstellungen auf der Seite [[!UICONTROL Administration] des &#x200B;](/help/main/administrating-target/administrating-target.md) von [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target].
+**Vor dem 22. April 2025**: Benutzer mit [!UICONTROL Genehmiger]-Rechten im [!DNL Adobe Admin Console] können alle Einstellungen auf den [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md)-Seiten in [!DNL Target] bearbeiten oder ändern, unabhängig von ihrer [!DNL Target].
 
-**Wirksam ab 22. April 2025**: Nur [!UICONTROL Produkt]- und [!UICONTROL Lösungen]-Administratoren können die Einstellungen in den Abschnitten [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen aktualisieren. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die Abschnitte [!UICONTROL Administration].
+**Wirksam ab 22. April 2025**: Nur [!UICONTROL Produkt]- und [!UICONTROL Lösungen]-Administratoren können die Einstellungen in den Abschnitten [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) aktualisieren, unabhängig von ihrer Rolle in [!DNL Target] Arbeitsbereichen. Benutzende ohne diese Berechtigung haben schreibgeschützten Zugriff auf die Abschnitte [!UICONTROL Administration].
 
-Diese Aktualisierung verbessert die organisatorische Kontrolle über [!DNL Target] Instanzkonfigurationen und verhindert versehentliche Aktualisierungen, die die Aktivitätsbereitstellung in verschiedenen Test- und Personalisierungsteams beeinträchtigen könnten.
+Diese Änderung verbessert die organisatorische Kontrolle über die Konfiguration [!DNL Target] Instanz und hilft dabei, versehentliche Aktualisierungen zu verhindern, die die Bereitstellung von Aktivitäten in allen Test- und Personalisierungs-Teams beeinträchtigen könnten.

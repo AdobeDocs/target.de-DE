@@ -2,7 +2,7 @@
 keywords: Erlebnisvorschau;Erlebnis-URLs;URLs generieren;Erlebnis-URLs anzeigen
 description: Erfahren Sie, wie Sie Erlebnisvorschau-URLs für Aktivitäten von Adobe [!DNL Target] Automated Personalization verwenden können, um Erlebnisinhalte direkt auf Ihrer Site zu sehen, bevor die Aktivität live ist.
 title: Wie kann ich Erlebnisvorschau-URLs in Automated Personalization-Aktivitäten verwenden?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 41%
@@ -29,7 +29,7 @@ Für [!DNL Target] [!UICONTROL Automated Personalization]-Aktivitäten können E
 
 Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder freizugeben und um Erlebnisse in der Qualitätssicherung Browser- und umgebungsübergreifend zu prüfen, ohne eine separate QS-Aktivität zu erstellen. Diese Funktion ist besonders nützlich, wenn eine Site komplex ist oder Ihre Sicherheitsrichtlinien das Anzeigen der Site in einem Simulator nicht zulassen.
 
-1. Erstellen Sie eine [automatisierte Personalisierungsaktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oder klicken Sie auf die Aktivität, um sie zu öffnen.
+1. Erstellen Sie eine [automatisierte Personalisierungsaktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) oder klicken Sie auf die Aktivität, um sie zu öffnen.
 
    Diese Aktivität muss nicht live sein, um eine Vorschau eines Erlebnisses anzeigen zu können.
 
@@ -78,7 +78,7 @@ Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder
 
 * Die Vorschau funktioniert für jede gespeicherte Aktivität, solange die Seite nicht geändert wurde.
 * Die Erlebnisvorschau-URL ist unabhängig davon verfügbar, ob die Aktivität aktiv oder inaktiv ist.
-* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in &#x200B;] Vorschau angezeigt werden.
+* Ein Erlebnis mit dem Status [!UICONTROL Entwurf“ kann nicht in ] Vorschau angezeigt werden.
 * Die Anzeige von Erlebnisvorschau-URLs hat keinen Einfluss auf das Reporting.
 
 **Fehlerbehebung bei Erlebnisvorschau-URLs**
