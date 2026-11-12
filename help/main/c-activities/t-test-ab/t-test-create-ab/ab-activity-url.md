@@ -1,7 +1,7 @@
 ---
 keywords: Aktivitäts-URL;URL;andere URL
-description: Erfahren Sie, wie Sie die [!UICONTROL Aktivitäts-URL] festlegen, um Testseiten zu definieren und ein korrektes Testdesign sicherzustellen.
-title: Was ist die Aktivitäts-URL in einer A/B-Aktivität?
+description: Erfahren Sie, wie Sie die [!UICONTROL Aktivitäts-URL] in einer A/B-, Erlebnis-Targeting- oder Multivarianz-Test-Aktivität festlegen, um Testseiten zu definieren und ein korrektes Testdesign sicherzustellen.
+title: Was ist die Aktivitäts-URL in einer A/B-, Erlebnis-Targeting- oder Multivarianz-Test-Aktivität?
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
@@ -18,14 +18,22 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 38%
+source-wordcount: '403'
+ht-degree: 25%
 ---
-# Aktivitäts-URL
+# Aktivitäts-URL {#ab-activity-url}
 
-Die Aktivitäts-URL bestimmt die im Test verwendete Seite. Sie wird geöffnet, wenn der Test mit [!DNL Adobe Target] entworfen wird.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie die Aktivitäts-URL einer A/B-, Experience Targeting (XT)- oder Multivarianz-Test (MVT)-Aktivität angeben, wie Sie eine andere Seite anzeigen und wie Sie Regeln für weitere Seiten oder Abschnitte hinzufügen.
+
+>[!ENDSHADEBOX]
+
+Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die in der Aktivität verwendet wird. Diese Seite wird in [!UICONTROL Visual Experience Composer] (VEC) oder im [!UICONTROL Form-Based Experience Composer) geöffnet] wenn die Aktivität in [!DNL Adobe Target] entworfen wird.
+
+## Angeben der Aktivitäts-URL {#specify-url}
 
 Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivität dazu aufgefordert werden. Geben Sie die vollständige URL ein (einschließlich `https://`) und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
@@ -33,34 +41,38 @@ Geben Sie die Aktivitäts-URL ein, wenn Sie während der Erstellung der Aktivit�
 >
 >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com/de`] und [!DNL `https://www.adobe.com/de`] überein.
 
-## Spezifizieren einer anderen URL
+Wenn Sie eine URL für eine Site angeben, die nicht die [!DNL Target]at.js[JavaScript-Bibliothek oder  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de){target=_blank} enthält, können Sie keine Seitenelemente auswählen.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] die Seite, die in Ihren [Visual Experience Composer-Einstellungen“ &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+## Eine andere Seite anzeigen {#different-page}
 
-1. (Bedingt) Um nach dem Öffnen von [!UICONTROL Visual Experience Composer] eine andere Seite anzuzeigen, klicken Sie oben auf der Seite **[!UICONTROL Erlebnisse]** auf **[!UICONTROL Konfigurieren]** und wählen Sie dann **[!UICONTROL Seitenbereitstellung]** aus.
+Standardmäßig öffnet der VEC oder der [Form-Based Experience Composer](/help/main/c-experiences/form-experience-composer.md) die Seite, die in Ihren Einstellungen von [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) angegeben ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+
+So zeigen Sie nach dem Öffnen des VEC eine andere Seite an:
+
+1. Klicken Sie **[!UICONTROL der]** oben auf der Seite auf **[!UICONTROL Konfigurieren]** und wählen Sie dann **[!UICONTROL Seitenbereitstellung]** aus.
 
 1. Geben Sie die URL im Feld **[!UICONTROL URL]** an.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Regel hinzufügen]**, um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen.
-
-   Zusätzliche Regeln können auf Folgendem basieren:
-
-   * URL
-   * Domain
-   * Pfad
-   * Hashfragment (#)
-   * Abfrage
-   * Parameter „mbox“
-   * Benutzerdefiniert
-
-   Zusätzliche Regeln können mit UND oder ODER mit der Aktivitäts-URL verbunden werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
-
 1. Klicken Sie auf **[!UICONTROL „Speichern“]**, wenn Sie damit fertig sind.
 
-   Wenn Sie eine URL für eine Site eingegeben haben, die nicht den JavaScript-Code der [!DNL Target] enthält, können Sie keine Seitenelemente auswählen.
-
-   Standardmäßig gestattet der [!UICONTROL Visual Experience Composer] das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können **[!UICONTROL Rendern mit JavaScript]** deaktivieren, wenn Sie diese Elemente mit dem [!UICONTROL Visual Experience Composer] ändern möchten.—>
+Standardmäßig gestattet der VEC das Ändern von Elementen mit JavaScript nicht (zum Beispiel sich drehende Banner). Sie können **[!UICONTROL Rendern mit JavaScript&quot; deaktivieren]** wenn Sie diese Elemente mithilfe des VEC ändern möchten.
 
 >[!NOTE]
 >
 >Wenn Sie die URL ändern, nachdem Sie für ein oder mehrere Erlebnisse Änderungen auf der Seite vorgenommen haben, wird das Erlebnis bei der Verwendung der neuen Seite zurückgesetzt und die vorgenommenen Änderungen gehen verloren.
+
+## Hinzufügen von Regeln für weitere Seiten oder Abschnitte {#add-rules}
+
+Um der Aktivität weitere Seiten oder Abschnitte hinzuzufügen, klicken Sie in den Einstellungen für **[!UICONTROL Seitenbereitstellung]** auf **[!UICONTROL Regel hinzufügen]** und anschließend auf **[!UICONTROL Speichern]**, wenn Sie fertig sind.
+
+Zusätzliche Regeln können auf Folgendem basieren:
+
+* URL
+* Domain
+* Pfad
+* Hashfragment (#)
+* Abfrage
+* Parameter „mbox“
+* Benutzerdefiniert
+
+Zusätzliche Regeln können mit UND oder ODER mit der Aktivitäts-URL verbunden werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.

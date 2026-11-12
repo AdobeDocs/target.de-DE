@@ -30,27 +30,29 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 569476ceebaa6913cc86f4a2b871ccf29d9894d8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '238'
+ht-degree: 5%
 ---
 # Verwaltung [!DNL Target] Überblick
 
-Informationen zur Verwaltung von [!DNL Adobe Target], einschließlich Konfigurationseinstellungen für Visual Experience Composer (VEC), Berichterstellung, Scene7-Konfiguration, Implementierung, Hosts, Umgebungen, auf die Zulassungsliste gesetzt URLs, Antwort-Token, Benutzern und [!DNL Recommendations].
+Verwenden Sie **[!UICONTROL Administration]**, um kontenweite Standardeinstellungen für [!UICONTROL Visual Experience Composer] (VEC), Reporting, Bereitstellungsinfrastruktur, Zugriffssteuerung und [!DNL Recommendations] zu konfigurieren.
 
-{{permissions-update}}
+Wenn Sie [!DNL Target] zum ersten Mal einrichten, beginnen Sie mit [Erste Schritte für Administratoren](/help/main/administrating-target/start-target.md). Hilfe beim Auffinden von **[!UICONTROL Administration]** in der aktualisierten Benutzeroberfläche finden Sie unter [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md).
 
-Um auf die [!UICONTROL Administration]-Menüelemente zuzugreifen, klicken Sie in der oberen Menüleiste auf **[!UICONTROL Administration]** und dann auf die gewünschte Registerkarte auf der linken Seite:
+Um eine Seite Administration zu öffnen, klicken Sie **[!UICONTROL der oberen Menüleiste auf]** Administration) und dann auf die gewünschte Registerkarte auf der linken Seite:
 
-* [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md)
-* [Berichterstellung](/help/main/administrating-target/reporting.md)
-* [Konfiguration für Scene7](/help/main/administrating-target/scene7-settings.md)
-* [Implementierung](/help/main/c-implementing-target/implementing-target.md)
-* [Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
-* [Hosts](/help/main/administrating-target/hosts.md)
-* [Umgebungen](/help/main/administrating-target/environments.md)
-* [Geteilte URLs](/help/main/administrating-target/allowlisted-urls.md)
-* [Antwort-Token](/help/main/administrating-target/response-tokens.md)
-* [Benutzende](/help/main/administrating-target/c-user-management/user-management.md)
-* [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+| Registerkarte Administration | Beschreibung |
+| --- | --- |
+| [Visual Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md) | Legen Sie die standardmäßige Seiten-URL und Optionen fest, die beim Erstellen von Erlebnissen in Visual Experience Composer verwendet werden. |
+| [Berichterstellung](/help/main/administrating-target/reporting.md) | Wählen Sie die Reporting-Lösung, die Zeitzone, die Währung und andere Reporting-Standardwerte für Ihre Organisation aus. Siehe auch [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
+| [Konfiguration für Scene7](/help/main/administrating-target/scene7-settings.md) | Verbinden Sie [!DNL Dynamic Media] (Scene7) für die Bildbereitstellung in Angeboten und Erlebnissen. |
+| [Implementierung](/help/main/administrating-target/implementation.md) | Überprüfen Sie die globalen Implementierungseinstellungen auf der Seite **[!UICONTROL Administration]** . Eine vollständige Implementierungsanleitung finden Sie unter [Target implementieren](/help/main/c-implementing-target/implementing-target.md). |
+| [Hosts](/help/main/administrating-target/hosts.md) | Organisieren Sie die Sites und Vorproduktionsumgebungen, an die [!DNL Target] Anforderungen sendet. |
+| [Umgebungen](/help/main/administrating-target/environments.md) | Gruppieren Sie Hosts in Umgebungen wie Produktion, Staging und Entwicklung. |
+| [Auf die Zulassungsliste gesetzt URLs](/help/main/administrating-target/allowlisted-urls.md) | Verwalten Sie vertrauenswürdige URL-Muster für Remote-Angebote und zugehörige Validierungen. |
+| [Antwort-Token](/help/main/administrating-target/response-tokens.md) | Fügen Sie Profil- und Aktivitätsdaten in [!DNL Target] für Debugging und Integrationen ein. |
+| [Eigenschaften](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Erstellen Sie Arbeitsbereiche und weisen Sie Unternehmensrollen zu (nur [Target Premium](/help/main/c-intro/intro.md#premium)). |
+| [Benutzer](/help/main/administrating-target/c-user-management/user-management.md) | Fügen Sie Benutzer hinzu und weisen Sie [!DNL Target] Rollen und Berechtigungen zu. |
+| [Recommendations](/help/main/administrating-target/recommendations-settings.md) | Standardeinstellungen für [!DNL Recommendations] Aktivitäten konfigurieren. |

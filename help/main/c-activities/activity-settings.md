@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -65,10 +65,10 @@ Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Z
 
 Auf der Seite [!UICONTROL „Ziele und Einstellungen“] befinden sich zusätzliche Einstellungen, die abhängig davon variieren, welchen Aktivitätstyp Sie erstellen. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
 
-* [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Multivarianz-Test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Erlebnis-Targeting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [Multivarianz-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
 ## Schulungsvideo: Aktivitätseinstellungen ![Tutorial-Badge](/help/main/assets/tutorial.png)

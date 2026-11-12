@@ -1,6 +1,6 @@
 ---
 keywords: A/B;Aktivitätsmetriken;Metriken;Metriken festlegen;Zielmetrik;Aktivitätseinstellungen;Erfolgsmetrik;Konversion;Umsatz;Interaktion
-description: Erfahren Sie, wie Sie Metriken in einer A/B-Aktivität festlegen, um den Erfolg von Besuchen zu bestimmen[!UICONTROL &#x200B; einschließlich &#x200B;]Konversion[!UICONTROL &#x200B; Umsatz] und [!UICONTROL Interaktion].
+description: Erfahren Sie, wie Sie Metriken in einer A/B-, Erlebnis-Targeting- oder Multivarianz-Test-Aktivität festlegen, um den Erfolg von Besuchen zu bestimmen, einschließlich [!UICONTROL Konversion], [!UICONTROL Umsatz] und [!UICONTROL Interaktion].
 title: Wie kann ich in einer A/B-Aktivität Zielmetriken festlegen?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -21,48 +21,71 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 55%
+source-wordcount: '421'
+ht-degree: 24%
 ---
-# Festlegen von Metriken
+# Festlegen von Metriken {#ab-set-metrics}
 
-Verwenden Sie Metriken in einer [!DNL Adobe Target] A/B-Aktivität, um zu bestimmen, wann ein Besuch erfolgreich war.
+>[!BEGINSHADEBOX]
 
-Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+**Auf dieser Seite** Erfahren Sie, wie Sie die Zielmetrik und zusätzliche Metriken einer A/B-, Experience Targeting (XT)- oder Multivarianz-Test (MVT)-Aktivität festlegen und welche Zeichen in Metriknamen nicht zulässig sind.
 
-1. Wählen **[!UICONTROL Abschnitt &quot;]**&quot; auf der Seite **[!UICONTROL Ziele und Einstellungen]** eine [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+>[!ENDSHADEBOX]
 
-   Die Option [!UICONTROL Metriken auswählen] listet die Erfolgsmetriken auf, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
+Verwenden Sie Metriken in einer [!DNL Adobe Target] A/B-, [!UICONTROL Erlebnis-Targeting] (XT)- oder [!UICONTROL Multivarianz-Test]&#x200B;(MVT)-Aktivität, um zu bestimmen, wann ein Besuch erfolgreich war. Ausführliche Informationen zu Erfolgsmetriken finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#overview).
 
-   * [!UICONTROL Konversion]
-   * [!UICONTROL Umsatz]
-   * [!UICONTROL Interaktion]
+>[!NOTE]
+>
+>Diese Seite gilt, wenn [!DNL Adobe Target] die Berichtsquelle ist. Informationen zu den anderen Berichtsquellen finden Sie unter [[!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) and [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
+## Festlegen einer Metrik {#set-a-metric}
+
+1. Wählen **[!UICONTROL Abschnitt &quot;]**&quot; auf der Seite **[!UICONTROL Ziele und Einstellungen]** eine [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#overview).
+
+   Die Option **[!UICONTROL Metriken auswählen]** listet die Erfolgsmetriken auf, die Sie für Ihre Aktivität auswählen können. Die Erfolgsmetriken sind in folgende Kategorien unterteilt:
+
+   * **[!UICONTROL Konversion]**
+   * **[!UICONTROL Umsatz]**
+   * **[!UICONTROL Interaktion]**
 
    Sie können die vorgefertigten Erfolgsmetriken verwenden oder eine benutzerdefinierte Erfolgsmetrik erstellen. Sie können auch eine Erfolgsmetrik als primäre Metrik kennzeichnen. Berichte und Experience Cloud-Karten zeigen standardmäßig die primäre Metrik, falls eine festgelegt ist.
 
-1. Geben Sie die Einstellungen für Ihre Metriken an.
+   ![](../../assets/metric-1.png)
 
-   Die verfügbaren Einstellungen hängen von der von Ihnen verwendeten Erfolgsmetrik ab.
+1. Geben Sie die Einstellungen für Ihre Metriken an. Die verfügbaren Einstellungen hängen von der verwendeten Erfolgsmetrik ab.
 
-   Wenn diese Option aktiviert ist[!UICONTROL &#x200B; liefert der Feld „Geschätzter Wert der Konversion] (für die Metriken [!UICONTROL Seitenbewertung] nicht verfügbar) einen Wert für Ihr Ziel. Mit diesem Wert kann [!DNL Target] die geschätzte Umsatzsteigerung berechnen. Dieses Feld ist optional, ohne Eintrag kann jedoch kein Umsatzwachstum für eine nicht umsatzbezogene Metrik berechnet werden. Der Datentyp ist eine Währung. Dieses Feld wird progressiv angezeigt, nachdem der Benutzer die Maßnahme, die zur Erfüllung des Ziels ergriffen wurde, angibt. Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
+1. Wenn diese Option aktiviert ist **[!UICONTROL liefert das Feld „Geschätzter Wert]** Konversion“ einen Wert für Ihr Ziel:
 
-   Die korrekte Konfiguration von Erfolgsmetriken ist wichtig, um sicherzustellen, dass Sie die erwarteten Daten erhalten.
+   * Der Wert ermöglicht es [!DNL Target], eine geschätzte Steigerung des Umsatzes zu berechnen.
+   * Das Feld ist optional. Der inkrementelle Umsatz für eine andere Metrik als Umsatz kann jedoch ohne dieses Feld nicht berechnet werden.
+   * Das Feld ist nicht für die Metriken **[!UICONTROL Seitenbewertung]** verfügbar.
+   * Der Datentyp ist eine Währung.
+   * Das Feld wird nach und nach angezeigt, nachdem der/die Benutzende die Aktion angegeben hat, die zum Erreichen des Ziels durchgeführt wurde.
 
-   Weitere Informationen finden Sie unter [Erfolgsmetriken](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+   Weitere Informationen finden Sie unter [Schätzen der Umsatzsteigerung](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). Die korrekte Konfiguration von Erfolgsmetriken ist wichtig, um sicherzustellen, dass Sie die erwarteten Daten erhalten.
 
-1. (Optional) Fügen Sie zusätzliche Metriken hinzu.
+   ![](../../assets/metric-2.png)
+
+1. (Optional) Um mehr als die Zielmetrik zu verfolgen, klicken Sie auf **[!UICONTROL Neue Metrik hinzufügen]** und wählen Sie dann jede zusätzliche Metrik wie in den vorherigen Schritten beschrieben aus und konfigurieren Sie sie.
+
+1. Wenn Sie mit dem Festlegen Ihrer Metriken fertig sind, klicken Sie auf **[!UICONTROL Weiter]** in einer XT-Aktivität oder **[!UICONTROL Speichern und schließen]** in einer MVT-Aktivität.
+
+## In Metriknamen nicht zulässige Zeichen {#metric-name-rules}
+
+![](../../assets/metric-3.png)
 
 Wenn Sie eine Metrik benennen oder umbenennen, sind die folgenden Zeichen nicht zulässig:
 
+
 | Zeichen | Beschreibung |
 |--- |--- |
-| / | Vorwärtsschrägstrich |
-| ? | Fragezeichen |
-| # | Raute |
-| : | Doppelpunkt |
-| = | Gleich |
-| + | Plus |
-| - | Minus |
-| @ | At-Zeichen |
+| `/` | Vorwärtsschrägstrich |
+| `?` | Fragezeichen |
+| `#` | Raute |
+| `:` | Doppelpunkt |
+| `=` | Gleich |
+| `+` | Plus |
+| `-` | Minus |
+| `@` | At-Zeichen |

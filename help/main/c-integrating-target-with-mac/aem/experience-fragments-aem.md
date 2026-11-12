@@ -1,7 +1,7 @@
 ---
 keywords: experience;json;aem;adobe experience manager;in adobe target exportieren;experience fragments;fragments;XF
-description: Erfahren Sie, wie Sie  [!DNL Adobe Experience Manager] [!UICONTROL -Experience Fragments] in- [!DNL Adobe Target] -Aktivitäten verwenden.
-title: Wie verwende ich  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
+description: Erfahren Sie, wie Sie [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] in [!DNL Adobe Target] Aktivitäten verwenden.
+title: Wie verwende ich [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]?
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
 TQID: https://experienceleague.adobe.com/-W1ELJx0ajes6BPEVIiS8q6ebmRLTTgIrxvGMUEWEaM
@@ -22,13 +22,11 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
 workflow-type: tm+mt
-source-wordcount: 1446
+source-wordcount: '1449'
 ht-degree: 32%
-
 ---
-
 # AEM [!UICONTROL Experience Fragments]
 
 Verwenden Sie [!UICONTROL Experience Fragments] (XFs), die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target] Aktivitäten, um eine Optimierung oder Personalisierung zu ermöglichen.
@@ -40,16 +38,16 @@ Beachten Sie Folgendes bei der Arbeit mit AEM [!UICONTROL Experience Fragments] 
 * Für diese Funktion müssen Sie [!DNL Adobe Experience Manager] (AEM)-Kundin bzw. -Kunde sein. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
 * [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind für die folgenden Aktivitätstypen verfügbar:
 
-   * [[!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md)
-   * [[!UICONTROL Automatische Zuordnung]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+  * [[!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md)
+  * [[!UICONTROL Automatische Zuordnung]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+  * [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+  * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+  * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind für die folgenden Aktivitätstypen nicht verfügbar:
 
-   * [[!UICONTROL Multivariate Tests] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
-   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+  * [[!UICONTROL Multivariate Tests] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+  * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 
@@ -152,8 +150,8 @@ Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten mit 
    * **A/B-Test:** [Erstellen eines A/B-Tests](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **Automatische Zuordnung:** [Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Automatisches Targeting:** [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Automatisierte Personalisierung (AP):** [Erstellen einer Aktivität zur automatisierten Personalisierung](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Erlebnis-Targeting (XT):** [Erstellen einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Automatisierte Personalisierung (AP):** [Erstellen einer Aktivität zur automatisierten Personalisierung](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)
+   * **Erlebnis-Targeting (XT):** [Erstellen einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
    * **Recommendations in A/B-Tests oder XT-Aktivitäten:** [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
    [!UICONTROL Experience Fragments] die in [!DNL Target] als JSON exportiert wurden, können nicht in Aktivitäten verwendet werden, die mit dem VEC erstellt wurden. Nur [!UICONTROL Experience Fragments] in VEC-basierten Aktivitäten werden unterstützt. Wenn Sie JSON (Experience [!UICONTROL ) verwenden &#x200B;], verwenden Sie sie in Aktivitäten, die mit dem [formularbasierten Experience Composer) &#x200B;](/help/main/c-experiences/form-experience-composer.md).
@@ -192,6 +190,6 @@ Das folgende Video zeigt Ihnen, wie Sie (Experience Fragments[!UICONTROL &#x200B
 
 >[!NOTE]
 >
->Die [!DNL AEM] Deeplink-Funktion, die unter 4:54 erläutert wurde, wurde entfernt.
+>Die [!DNL AEM] Deeplink-Funktion, die in 4:54 erläutert wurde, wurde entfernt.
 
 Weitere Informationen finden Sie unter [Verwenden von [!UICONTROL Experience Fragments] mit Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=de) auf der Seite *AEM Sites-Videos und -*.

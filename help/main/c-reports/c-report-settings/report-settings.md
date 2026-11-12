@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
@@ -94,7 +94,7 @@ Die folgende Liste enthält Beschreibungen zu verschiedenen Situationen, in dene
 
 ## [!UICONTROL Berichtsmetrik] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Klicken Sie auf **[!UICONTROL Berichtsmetrik]** Dropdown-Liste, um eine andere [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) oder mehrere Metriken auszuwählen, die im Diagramm angezeigt werden sollen.
+Klicken Sie auf **[!UICONTROL Berichtsmetrik]** Dropdown-Liste, um eine andere [Erfolgsmetrik](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) oder mehrere Metriken auszuwählen, die im Diagramm angezeigt werden sollen.
 
 Standardmäßig wird die primäre Metrik in der Einrichtung der Erfolgsmetriken beim Erstellen der Aktivität bestimmt. Wenn Sie die Einrichtung ändern und die Aktivität erneut speichern, wird die primäre Metrik für die Berichterstattung aktualisiert.
 

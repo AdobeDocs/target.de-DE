@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
@@ -59,7 +59,7 @@ Bei solchen Tests verwenden die meisten Produkte, einschließlich [!DNL Target],
 ## Wann die Aktivität [!UICONTROL Automatische Zuordnung] versus [!UICONTROL A/B-Test] oder [!UICONTROL Automated Personalization] verwendet werden sollte {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Die Funktion **[!UICONTROL Automatisierte Zuordnung]** verwenden Sie, wenn Sie Ihre Aktivitäten von Anfang an optimieren und so schnell wie möglich feststellen möchten, welche die erfolgreichsten Erlebnisse sind. Wenn Sie häufiger Erlebnisse mit hoher Performance bereitstellen, wird die Gesamtleistung der Aktivität gesteigert.
-* Verwenden Sie einen standardmäßigen **[A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** Test, wenn Sie die Leistung aller Erlebnisse charakterisieren möchten, bevor Sie Ihre Site optimieren. Mit einem A/B-Test können Sie alle Ihre Erlebnisse nach Rang ordnen, während [!UICONTROL Automatische Zuordnung] die besten Ergebnisse findet, aber keine Unterscheidung zwischen den leistungsschwächeren gewährleistet.
+* Verwenden Sie einen standardmäßigen **[A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** Test, wenn Sie die Leistung aller Erlebnisse charakterisieren möchten, bevor Sie Ihre Site optimieren. Mit einem A/B-Test können Sie alle Ihre Erlebnisse nach Rang ordnen, während [!UICONTROL Automatische Zuordnung] die besten Ergebnisse findet, aber keine Unterscheidung zwischen den leistungsschwächeren gewährleistet.
 * Verwenden Sie [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) wenn Sie Optimierungsalgorithmen mit höchster Komplexität benötigen, z. B. Modelle für maschinelles Lernen, die Prognosen basierend auf einzelnen Profilattributen erstellen. [!UICONTROL Automatische Zuordnung] untersucht das aggregierte Verhalten von Erlebnissen (genau wie Standard-A/B-Tests) und unterscheidet nicht zwischen Besuchern.
 
 ## Die wichtigsten Vorteile von [!UICONTROL Automatische Zuordnung] {#section_0913BF06F73C4794862561388BBDDFF0}

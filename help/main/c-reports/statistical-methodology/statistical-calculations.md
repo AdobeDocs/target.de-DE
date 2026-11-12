@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e62cab5f2a4ac7d18bdb6847784a06b37513624a
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 In diesem Artikel werden die detaillierten statistischen Berechnungen dokumentiert, die bei manuellen A/Bn-Tests in [!DNL Adobe Target] verwendet werden. Definitionen werden für die Entscheidungsmetriken **[!UICONTROL Konversionsrate]**, **[!UICONTROL Konfidenzintervall der Konversionsrate]**, **[!UICONTROL Anstieg]**, **[!UICONTROL Konfidenzintervall für Steigerung]**, **[!UICONTROL Konfidenz]** und **[!UICONTROL Bayes]** bereitgestellt.
 
-Eine **[!UICONTROL A/B-Test]**-Aktivität (manuell) unterstützt zwei statistische Methoden, die pro Aktivität in „Ziele [&#x200B; Einstellungen“ &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) werden:
+Eine **[!UICONTROL A/B-Test]**-Aktivität (manuell) unterstützt zwei statistische Methoden, die pro Aktivität in „Ziele [&#x200B; Einstellungen“ &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology) werden:
 
 * [Welchs t-Test](#welchs-t-test): eine frequentistische Methodik, die einen **[!UICONTROL Konfidenz]** Prozentsatz und ein Konfidenzintervall meldet, basierend auf einem Hypothesentest mit festem Stichprobenumfang. Wird für Aktivitäten mit einem primären Ziel **[!UICONTROL Umsatz]** oder **[!UICONTROL Interaktion]** verwendet.
 
@@ -157,7 +157,7 @@ Anstatt einen p-Wert aus einer annähernden Verteilung zu berechnen, drückt der
 
 Mit der **[!UICONTROL Bayes&#39;schen]** Methode können Marketing-Experten auch eine Hypothese einspeisen, die auf ihren früheren Experimenten und Ergebnissen für die Kontrollvariante basiert.
 
-Die **[!UICONTROL Bayes&#39;sche]** Methode ist nur für Aktivitäten verfügbar, deren primäre Zielmetrik **[!UICONTROL Konversion]** ist, Aktivitäten mit einem **[!UICONTROL Umsatz]** oder **[!UICONTROL Interaktion]** primäres Ziel verwenden immer **[!UICONTROL Welchs t-Test]**. Weitere Informationen zur Auswahl einer Methode finden Sie unter [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+Die **[!UICONTROL Bayes&#39;sche]** Methode ist nur für Aktivitäten verfügbar, deren primäre Zielmetrik **[!UICONTROL Konversion]** ist, Aktivitäten mit einem **[!UICONTROL Umsatz]** oder **[!UICONTROL Interaktion]** primäres Ziel verwenden immer **[!UICONTROL Welchs t-Test]**. Weitere Informationen zur Auswahl einer Methode finden Sie unter [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_statistical-methodology).
 
 ### Durchschnittliche Steigerung und glaubwürdiges Intervall
 

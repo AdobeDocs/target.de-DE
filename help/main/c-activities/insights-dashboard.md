@@ -10,14 +10,20 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Adobe Target Insights-Dashboard
+# Adobe Target Insights-Dashboard {#insights-dashboard}
 
-Das [!UICONTROL Adobe Target-Dashboard] bietet einen Überblick darüber, wie Ihr Unternehmen [!DNL Adobe Target] im Laufe der Zeit nutzt. Dies hilft Teams, die Akzeptanz, das Aktivitätsvolumen und die Experimentiernutzung auf einen Blick zu verstehen.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie das **[!UICONTROL Adobe Target-Dashboard]** lesen: wie Sie einen Zeitraum auswählen und was die KPIs, die Aufschlüsselung des Aktivitätstyps, die A/B-Testmetriken und das Diagramm „Aktivitäten im Zeitverlauf“ zeigen.
+
+>[!ENDSHADEBOX]
+
+Das **[!UICONTROL Adobe Target-Dashboard]** bietet einen Überblick darüber, wie Ihr Unternehmen [!DNL Adobe Target] im Laufe der Zeit nutzt. Dies hilft Teams, die Akzeptanz, das Aktivitätsvolumen und die Experimentiernutzung auf einen Blick zu verstehen.
 
 Das Dashboard richtet sich sowohl an Fachleute als auch an Stakeholder, die einen schnellen Einblick in die [!DNL Target]-Nutzung wünschen, ohne einzelne Aktivitätsberichte einsehen zu müssen.
 
@@ -63,23 +69,23 @@ Die KPI-Karten oben auf der Seite fassen die wichtigsten Aktivitätszahlen für 
 
 ![](assets/insights-4.png)
 
-Die Metrik **Live-Aktivitäten insgesamt** gibt die Anzahl der Aktivitäten an, die zu einem beliebigen Zeitpunkt im ausgewählten Zeitraum aktiv waren. Eine Aktivität wird als live betrachtet, wenn sie aktiv Traffic verarbeitet hat, selbst wenn sie vor oder nach dem ausgewählten Zeitraum begonnen hat. Verwenden Sie diese Metrik, um:
+Die Metrik **[!UICONTROL Live-Aktivitäten insgesamt]** gibt die Anzahl der Aktivitäten an, die zu einem beliebigen Zeitpunkt im ausgewählten Zeitraum aktiv waren. Eine Aktivität wird als live betrachtet, wenn sie aktiv Traffic verarbeitet hat, selbst wenn sie vor oder nach dem ausgewählten Zeitraum begonnen hat. Verwenden Sie diese Metrik, um:
 
 * Verstehen, wie aktiv [!DNL Target] während des Zeitraums verwendet wurde.
 * Messen Sie den Umfang Ihrer Personalisierungs- und Testaktivitäten insgesamt.
 
-Die Metrik **Aktivitäten live oder geändert** stellt die Gesamtzahl der Aktivitäten in Ihrer Organisation dar, die innerhalb des ausgewählten Zeitraums live, erstellt oder geändert wurden. Verwenden Sie diese Metrik, um:
+Die Metrik **[!UICONTROL Aktivitäten live oder geändert]** stellt die Gesamtzahl der Aktivitäten in Ihrer Organisation dar, die innerhalb des ausgewählten Zeitraums live, erstellt oder geändert wurden. Verwenden Sie diese Metrik, um:
 
 * Machen Sie sich mit der Gesamtgröße Ihrer [!DNL Target]-Aktivitätsbibliothek und der Anzahl der verwendeten Aktivitäten vertraut.
 
 * Verfolgen Sie das langfristige Wachstum Ihrer Experimentier- und Personalisierungsprogramme.
 
-Die Metrik **Beendete Aktivitäten** gibt die Anzahl der Aktivitäten an, die im ausgewählten Zeitraum ein Fertigstellungs- oder Enddatum erreicht haben. Verwenden Sie diese Metrik, um:
+Die Metrik **[!UICONTROL Beendete Aktivitäten]** gibt die Anzahl der Aktivitäten an, die im ausgewählten Zeitraum ein Fertigstellungs- oder Enddatum erreicht haben. Verwenden Sie diese Metrik, um:
 
 * Verstehen, wie viele Aktivitäten während des Zeitraums abgeschlossen wurden.
 * Verfolgen des Abschlussvolumens im Zeitverlauf.
 
-Die Metrik **Veröffentlichte Aktivitäten** gibt die Anzahl der Aktivitäten an, die im ausgewählten Zeitraum veröffentlicht wurden. Eine Aktivität gilt als veröffentlicht, wenn sie zum ersten Mal live geschaltet wird. Wenn eine Aktivität als live geschaltet, gestoppt und dann erneut live geschaltet wird, wird in dieser Metrik nur das erste Vorkommen gezählt. Verwenden Sie diese Metrik, um:
+Die Metrik **[!UICONTROL Veröffentlichte Aktivitäten]** gibt die Anzahl der Aktivitäten an, die im ausgewählten Zeitraum veröffentlicht wurden. Eine Aktivität gilt als veröffentlicht, wenn sie zum ersten Mal live geschaltet wird. Wenn eine Aktivität als live geschaltet, gestoppt und dann erneut live geschaltet wird, wird in dieser Metrik nur das erste Vorkommen gezählt. Verwenden Sie diese Metrik, um:
 
 * Messen Sie, wie viele neue Aktivitäten gestartet wurden.
 * Verstehen der Geschwindigkeit der Erstellung und Veröffentlichung von Aktivitäten
@@ -88,13 +94,13 @@ Die Metrik **Veröffentlichte Aktivitäten** gibt die Anzahl der Aktivitäten an
 
 ![](assets/insights-5.png)
 
-Das [!UICONTROL Aktivitätstyp]-Diagramm zeigt die Verteilung der Live-Aktivitäten nach Typ während des ausgewählten Zeitraums, einschließlich:
+Das **[!UICONTROL Aktivitätstyp]**-Diagramm zeigt die Verteilung der Live-Aktivitäten nach Typ während des ausgewählten Zeitraums, einschließlich:
 
-* [!UICONTROL A/B-Test]
-* [!UICONTROL Erlebnis-Targeting]
-* [!UICONTROL Recommendations]
-* [!UICONTROL Automatisierte Personalisierung]
-* [!UICONTROL Multivarianz-Test]
+* **[!UICONTROL A/B-Test]**
+* **[!UICONTROL Erlebnis-Targeting]**
+* **[!UICONTROL Recommendations]**
+* **[!UICONTROL Automatisierte Personalisierung]**
+* **[!UICONTROL Multivarianz-Test]**
 
 Anhand dieses Diagramms können Sie erkennen, auf welche [!DNL Target] Ihr Unternehmen am meisten angewiesen ist, und Möglichkeiten erkennen, die Palette der ausgeführten Aktivitätstypen zu erweitern.
 
@@ -110,7 +116,7 @@ Die **[!UICONTROL Gesamtzahl der veröffentlichten A/B]** Tests“ gibt die Anza
 
 Verwenden Sie diese Metriken, um zu verstehen, wie oft A/B-Tests verwendet werden, und um das Experimentiervolumen und die Akzeptanz im Laufe der Zeit zu verfolgen.
 
-### Aktivitäten im Zeitverlauf
+### Aktivitäten im Zeitverlauf {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 
