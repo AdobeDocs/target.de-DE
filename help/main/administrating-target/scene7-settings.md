@@ -68,7 +68,7 @@ Adobe bietet keine beschränkten, gebührenfreien [!DNL Dynamic Media Classic] m
 
 Beachten Sie bei der Verwendung von Bildern mit dieser Integration die folgenden Einschränkungen:
 
-* **Bildangebote, keine Speicher-URLs.** [!DNL Dynamic Media] Speicher-URLs und veröffentlichte Versand-URLs sind unterschiedlich. Erstellen Sie keine Angebote über Speicher-Links, da der Versand fehlschlägt. Verwenden Sie [ Workflows ](/help/main/c-experiences/c-manage-content/manage-content.md)Bildangebote“ und „Bild austauschen“.
+* **Bildangebote, keine Speicher-URLs.** [!DNL Dynamic Media] Speicher-URLs und veröffentlichte Versand-URLs sind unterschiedlich. Erstellen Sie keine Angebote über Speicher-Links, da der Versand fehlschlägt. Verwenden Sie [&#x200B; Workflows &#x200B;](/help/main/c-experiences/c-manage-content/manage-content.md)Bildangebote“ und „Bild austauschen“.
 * **Öffentliche URLs in benutzerdefiniertem Code.** Um auf eine öffentliche Bild-URL direkt in einem Angebot oder in benutzerdefiniertem Code zu verweisen, hosten Sie das Bild auf Ihren eigenen Webservern und verwenden Sie diese URL. Es ist nicht möglich, eine veröffentlichte URL für ein von Experience Cloud hochgeladenes Bild zur Verwendung außerhalb [!DNL Target] Zielgruppen-Workflows zu erhalten. Diese Verwendung ist gemäß Vertrag nicht zulässig.
 * **Geeignete Assets.** Nur Assets, die in den Experience Cloud Assets-Ordner hochgeladen wurden (und Workflows, die von dieser Integration unterstützt werden), sind im Umfang enthalten - nicht im vollständigen [!DNL Dynamic Media Classic].
 

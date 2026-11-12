@@ -43,7 +43,7 @@ ht-degree: 18%
 
 >[!ENDSHADEBOX]
 
-Der Workflow für die Aktivität ]**0}Automated Personalization&quot; in [!DNL Target] unterscheidet sich vom Workflow der anderen Aktivitätstypen.**[!UICONTROL  Es folgt dem angeleiteten dreistufigen Workflow im **[!UICONTROL Visual Experience Composer]**:
+Der Workflow für die Aktivität **0&rbrace;Automated Personalization&quot; in [!DNL Target] unterscheidet sich vom Workflow der anderen Aktivitätstypen.** Es folgt dem angeleiteten dreistufigen Workflow im **[!UICONTROL Visual Experience Composer]**:
 
 1. [Erstellen von Erlebnissen](#build-experiences)
 1. [Zielgruppenbestimmung festlegen](#set-targeting)
@@ -148,7 +148,7 @@ Entscheiden Sie, welche Besucher in die Aktivität eintreten und wie viel Traffi
 
    ![AP-Test-Targeting-Schritt](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-1. (Bedingt) Klicken Sie auf das Steuerelement **[!UICONTROL Alle Besucher]**, um [eine andere Zielgruppe ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) die Aktivität auszuwählen und ihren Besucherprozentsatz festzulegen.
+1. (Bedingt) Klicken Sie auf das Steuerelement **[!UICONTROL Alle Besucher]**, um [eine andere Zielgruppe &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) die Aktivität auszuwählen und ihren Besucherprozentsatz festzulegen.
 
    Die **[!UICONTROL Alle Besucher]**-Zielgruppe ist als Standard festgelegt. Wenn Sie eine andere Zielgruppe auswählen, wird deren Name im Steuerelement ganz links angezeigt. Beispiel: Sie können Einträge auf 50 % aller Besucher oder 45 % der Zielgruppe aus Kalifornien begrenzen.
 
@@ -184,7 +184,7 @@ Teilen Sie [!DNL Target] mit, wie der Erfolg aussieht. Das von Ihnen gewählte O
 
    | Einstellung | Beschreibung |
    |--- |--- |
-   | **[!UICONTROL Name]** | Benennen Sie die Aktivität. Geben Sie der Aktivität einen Namen, der aussagekräftig genug ist, damit die Team-Mitglieder sie in der Liste **[!UICONTROL Aktivitäten]** erkennen können. Befolgen Sie die in Schritt 1: [ von Erlebnissen ](#build-experiences) Aktivitätsnamenregeln. |
+   | **[!UICONTROL Name]** | Benennen Sie die Aktivität. Geben Sie der Aktivität einen Namen, der aussagekräftig genug ist, damit die Team-Mitglieder sie in der Liste **[!UICONTROL Aktivitäten]** erkennen können. Befolgen Sie die in Schritt 1: [&#x200B; von Erlebnissen &#x200B;](#build-experiences) Aktivitätsnamenregeln. |
    | **[!UICONTROL Ziel]** | (Optional) Geben Sie das Ziel des Tests ein. Das Ziel hilft Ihnen, den Zweck der Aktivität zu verinnerlichen. |
    | **[!UICONTROL Priorität]** | Legt fest, welche Aktivität angezeigt wird, wenn mehrere Aktivitäten einen Standort und eine Zielgruppe gemeinsam haben. Siehe [Festlegen der Priorität](#set-priority). |
    | **[!UICONTROL Dauer]** | Legen Sie Start- und Enddatum für die Aktivität fest. Sie können **[!UICONTROL Bei Aktivierung]** auswählen oder ein bestimmtes Datum und eine bestimmte Uhrzeit angeben. |

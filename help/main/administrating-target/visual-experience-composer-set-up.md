@@ -70,7 +70,7 @@ Die folgenden Einstellungen sind verfügbar:
 
 * **Enhanced Experience Composer aktivieren**
 
-  Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ ]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
+  Ermöglicht die Bearbeitung auf Sites, die iFrames zerstören, sowie auf Seiten mit gemischten Inhalten. Einige Sites sind möglicherweise nicht mit der erweiterten Version kompatibel. Deaktivieren Sie diese Option, um zum ursprünglichen [!UICONTROL Visual Experience Composer“ &#x200B;]. Die Aktivitätenbereitstellung auf Sites wird durch diese Auswahl nicht beeinträchtigt.
 
   Beachten Sie, dass [!UICONTROL Enhanced Experience Composer] in [!DNL Safari] nicht unterstützt wird.
 
@@ -127,7 +127,7 @@ Sie können eine oder beide der folgenden Optionen verwenden:
 
   Standardmäßig verwendet [!DNL Target] nur Element-IDs. Wenn Ihre Seite jedoch so konzipiert ist, dass sie Klassen zur Identifizierung von Elementen verwendet, z. B. eine mit [!DNL Adobe Experience Manager] erstellte Seite, sollten Sie auch **[!UICONTROL Elementklassen verwenden]** auswählen. Die Selektorgenauigkeit ist im Allgemeinen am höchsten bei der Verwendung von IDs, niedriger bei der Verwendung von Klassen und am niedrigsten, wenn keine der Optionen ausgewählt ist. Testen Sie Ihre Seite in Visual Experience Composer, um zu überprüfen, ob die Selektoren korrekt sind.
 
-  Sie können diese Einstellung für jede Aktivität außer Kraft setzen, indem Sie auf das Zahnradsymbol **[!UICONTROL Einstellungen]** klicken und **[!UICONTROL CSS-Selektoren]** auswählen. Dies ist nützlich, wenn Sites im selben Konto anders konfiguriert sind. Überschreibungen pro Aktivität sind in **[!UICONTROL Automated Personalization- oder {]**}Multivariate Testing ]**-Aktivitäten nicht verfügbar.**[!UICONTROL  Informationen zum Selektorverhalten und zur Fehlerbehebung finden Sie unter [Element-Selektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
+  Sie können diese Einstellung für jede Aktivität außer Kraft setzen, indem Sie auf das Zahnradsymbol **[!UICONTROL Einstellungen]** klicken und **[!UICONTROL CSS-Selektoren]** auswählen. Dies ist nützlich, wenn Sites im selben Konto anders konfiguriert sind. Überschreibungen pro Aktivität sind in **[!UICONTROL Automated Personalization- oder {]**}Multivariate Testing **-Aktivitäten nicht verfügbar.** Informationen zum Selektorverhalten und zur Fehlerbehebung finden Sie unter [Element-Selektoren, die im Visual Experience Composer verwendet werden](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
 ## Schulungsvideo: Kontovoreinstellungen (7:33) ![Übersichts-Badge](/help/main/assets/overview.png)
 
