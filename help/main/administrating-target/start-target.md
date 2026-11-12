@@ -42,7 +42,7 @@ Führen Sie diese Schritte aus, nachdem Sie eine Einladung zum [!DNL Adobe Targe
 
 Ein Systemadministrator in der [!DNL Adobe Admin Console] muss Sie als Benutzer in der [!DNL Target] hinzufügen, indem er Sie einlädt, der Gruppe beizutreten. Der Administrator sollte Sie auch einem oder mehreren rollenspezifischen Produktprofilen (Benutzergruppen) hinzufügen. Beide Aufgaben werden in der [Adobe Admin Console ausgeführt](https://adminconsole.adobe.com).
 
-Eine schrittweise Anleitung finden Sie unter [Erfahren Sie, wie Sie Benutzende und Produktprofile verwalten](https://helpx.adobe.com/enterprise/using/users.html) in der Dokumentation zu Adobe Enterprise.
+Eine schrittweise Anleitung finden Sie unter [Erfahren Sie, wie Sie Benutzende und Produktprofile verwalten](https://helpx.adobe.com/de/enterprise/using/users.html) in der Dokumentation zu Adobe Enterprise.
 
 Nachdem der Administrator diese Schritte ausgeführt hat, erhalten Sie eine Einladungs-E-Mail.
 

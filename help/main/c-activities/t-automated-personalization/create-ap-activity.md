@@ -2,7 +2,7 @@
 keywords: Automated Personalization;App
 description: Erfahren Sie, wie Sie eine [!UICONTROL Automated Personalization]-Aktivität (AP) mit dem [!UICONTROL Visual Experience Composer] erstellen.
 title: Wie erstelle ich eine [!UICONTROL Automated Personalization]-Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: 'https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8'
@@ -86,7 +86,7 @@ Starten Sie die Aktivität und öffnen Sie die Seite, die Sie personalisieren m�
 
 1. Geben **[!UICONTROL im Feld]**-URL eingeben Ihre [Aktivitäts-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) an. Wenn Ihr Konto [mit einer Standard-URL konfiguriert wurde](/help/main/administrating-target/visual-experience-composer-set-up.md), dann wird diese URL standardmäßig angezeigt. Sie können bei Bedarf von der Standardeinstellung zu einer anderen URL wechseln.
 
-   Beachten Sie, dass [!DNL Target] nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]) unterscheidet. Daher stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://www.adobe.com`] überein.
+   Beachten Sie, dass [!DNL Target] nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]) unterscheidet. Daher stimmen [!DNL `http://www.adobe.com/de`] und [!DNL `https://www.adobe.com/de`] überein.
 
 1. Klicken Sie dann auf **[!UICONTROL Erstellen]**. Die Seite mit der angegebenen URL wird in VEC geöffnet.
 
