@@ -51,7 +51,7 @@ Die Berichtsquelle wird auf der Seite **[!UICONTROL Ziele und Einstellungen]** d
 
 ➡️ Die Schritte, die Report Suite-Anforderungen und die Details zum Tracking-Server finden Sie unter [Reporting Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
 
-Wenn [!DNL Analytics] die Berichtsquelle ist, bietet die Aktivität keine Option zum Einrichten von Zielgruppen für das Reporting. [!DNL Analytics] Segmente sind stattdessen im Bericht [!DNL Target]Aktivitäten **** verfügbar.
+Wenn [!DNL Analytics] die Berichtsquelle ist, bietet die Aktivität keine Option zum Einrichten von Zielgruppen für das Reporting. [!DNL Analytics] Segmente sind stattdessen im Bericht [!DNL Target]Aktivitäten **&#x200B;**&#x200B;verfügbar.
 
 ## Legen Sie das Ziel der Aktivität fest {#set-goal}
 

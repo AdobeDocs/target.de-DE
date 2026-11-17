@@ -60,7 +60,7 @@ So richten Sie die geospezifischen Versionen ein:
 
 1. Klicken Sie im **[!UICONTROL Erlebniszielgruppen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) und wählen Sie dann die erste Zielgruppe aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
-   Wenn die Zielgruppe noch nicht vorhanden ist, [ Sie „Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md) und richten Sie sie ein.
+   Wenn die Zielgruppe noch nicht vorhanden ist, [&#x200B; Sie „Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md) und richten Sie sie ein.
 
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 

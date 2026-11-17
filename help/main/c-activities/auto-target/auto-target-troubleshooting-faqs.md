@@ -1,7 +1,7 @@
 ---
 keywords: Automatisches Targeting; Targeting; Traffic-Zuordnung; häufig gestellte Fragen; FAQ; Fehlerbehebung; Problembehebung; Traffic
 description: Erfahren Sie mehr über Fehlerbehebungsthemen und häufig gestellte Fragen zu [!UICONTROL automatischen Targeting]-Aktivitäten.
-title: Wie kann ich Fehler bei Aktivitäten [!UICONTROL  automatisches Targeting ]?
+title: Wie kann ich Fehler bei Aktivitäten [!UICONTROL &#x200B; automatisches Targeting &#x200B;]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
@@ -125,7 +125,7 @@ Sie können die Ergebnisse Ihrer Aktivität vom Typ **[!UICONTROL Automatisches 
 
 +++ Kann ich ein bestimmtes Erlebnis als Kontrollerlebnis angeben?
 
-Sie können bei der Erstellung einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein Kontrollerlebnis ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Sie können bei der Erstellung einer [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [AT)-Aktivität ein Kontrollerlebnis &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 Mit dieser Funktion können Sie den gesamten Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu einem bestimmten Erlebnis leiten. Anschließend können Sie die Leistungsberichte des personalisierten Traffics mit dem Kontroll-Traffic zu diesem einen Erlebnis vergleichen.
 
@@ -133,7 +133,7 @@ Weitere Informationen finden Sie unter [Verwenden eines bestimmten Erlebnisses a
 
 +++
 
-+++ Kann ich die Zielmetrik inmitten einer automatischen Targeting[!UICONTROL Aktivität ]?
++++ Kann ich die Zielmetrik inmitten einer automatischen Targeting[!UICONTROL Aktivität &#x200B;]?
 
 Adobe rät davon ab, die Zielmetrik inmitten einer Aktivität zu ändern. Auch wenn es möglich ist, die Zielmetrik während einer Aktivität in der Benutzeroberfläche von [!DNL Target] zu ändern, sollten Sie dies nicht tun, sondern stattdessen eine neue Aktivität starten. Adobe garantiert nicht, was passiert, wenn Sie die Zielmetrik in einer Aktivität nach deren Ausführung ändern.
 
@@ -185,7 +185,7 @@ Vier Faktoren sind erforderlich, damit eine Aktivität vom Typ **[!UICONTROL Aut
 * Es müssen genügend Traffic- und Teststärke im Test vorhanden sein, um die Steigerung zu ermitteln.
 * Der Personalisierungsalgorithmus muss gut funktionieren.
 
-**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden, ]**Ihre Aktivität vom Typ „Automatisches Targeting**[!UICONTROL  nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden **[!UICONTROL personalisiert „Automatisches Targeting]** den Traffic nicht.
+**Lösung:** Stellen Sie zunächst sicher, dass Ihre Aktivität den Traffic personalisiert. Wenn nicht für alle Erlebnisse Modelle erstellt wurden, **Ihre Aktivität vom Typ „Automatisches Targeting** nach wie vor einen erheblichen Teil der Besuche aus, um zu versuchen, alle Modelle so schnell wie möglich zu erstellen. Wenn keine Modelle erstellt werden **[!UICONTROL personalisiert „Automatisches Targeting]** den Traffic nicht.
 
 Vergewissern Sie sich anschließend mithilfe eines einfachen, nicht personalisierten A/B-Tests, dass die Angebote und die Positionen der Aktivitäten wirklich einen Unterschied zu den Gesamtansprechraten darstellen. Berechnen Sie die Stichprobengrößen im Voraus, um sicherzustellen, dass ausreichend Energie vorhanden ist, um einen angemessenen Anstieg zu erkennen, und führen Sie den A/B-Test für eine feste Dauer aus, ohne ihn anzuhalten oder Änderungen vorzunehmen. Wenn die A/B-Testergebnisse eine statistisch signifikante Steigerung eines oder mehrerer Erlebnisse zeigen, ist es wahrscheinlich, dass eine personalisierte Aktivität funktioniert. Personalization kann auch dann funktionieren, wenn sich die Gesamtansprechraten der Erlebnisse nicht unterscheiden. In der Regel liegt das Problem daran, dass die Angebote und Standorte keine ausreichende Auswirkung auf das Optimierungsziel haben, um mit statistischer Signifikanz erkannt zu werden.
 

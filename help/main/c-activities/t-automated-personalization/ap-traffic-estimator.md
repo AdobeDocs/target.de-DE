@@ -49,7 +49,7 @@ Die **[!UICONTROL Traffic-Schätzung]** bestimmt, ob ausreichend Traffic vorhand
 
 Beim Erstellen einer **[!UICONTROL Automated Personalization]**-Aktivität können Sie mit der **[!UICONTROL Traffic-Schätzung]** überprüfen, ob der Traffic auf Ihrer Seite ausreicht, damit die personalisierten Modelle rechtzeitig bereit sind. Wenn Sie diese Prüfung vor dem Start der Aktivität ausführen, wird ein Test vermieden, mit dem nicht genügend Besucher erreicht werden können, um personalisierte Inhalte bereitzustellen. Außerdem erfahren Sie, wie Sie die Anzahl der Angebotskombinationen oder die Dauer der Aktivität anpassen können, wenn der Traffic nicht ausreicht.
 
-1. Rufen Sie über die ]**-Aktivität von**[!UICONTROL  die Seite **[!UICONTROL Erlebnisse]** des **[!UICONTROL Visual Experience Composer] auf.
+1. Rufen Sie über die **-Aktivität von** die Seite **[!UICONTROL Erlebnisse]** des **[!UICONTROL Visual Experience Composer] auf.
 
 1. Klicken Sie auf **[!UICONTROL Traffic]**-Symbol (![Traffic-Schätzsymbol](/help/main/assets/icons/Gauge2.svg)).
 

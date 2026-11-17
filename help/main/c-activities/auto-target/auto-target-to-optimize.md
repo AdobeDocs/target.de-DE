@@ -1,6 +1,6 @@
 ---
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
-description: Erfahren Sie, wie [!UICONTROL  Aktivität vom Typ „Automatisches Targeting] jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
+description: Erfahren Sie, wie [!UICONTROL &#x200B; Aktivität vom Typ „Automatisches Targeting] jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL automatisches Targeting]-Aktivität?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
@@ -95,7 +95,7 @@ Die folgenden Begriffe sind bei der Diskussion von **[!UICONTROL automatischem T
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In datenwissenschaftlicher Hinsicht handelt es sich um eine Ensemble-Klassifizierungs- oder Regressionsmethode, bei der viele Entscheidungsbäume auf der Grundlage von Besucher- und Besuchsattributen erstellt werden. In [!DNL Target] wird mithilfe der Zufallsstruktur bestimmt, welches Erlebnis für jeden einzelnen Besucher die höchste Konversionswahrscheinlichkeit (oder den höchsten Umsatz pro Besuch) aufweist. |
 | [Thompson-](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Das Ziel des Thompson-Stichprobenverfahrens besteht darin, festzustellen, welches Erlebnis insgesamt am besten ist (nicht personalisiert), und gleichzeitig die „Kosten“ für das Auffinden dieses Erlebnisses zu minimieren. Beim Thompson-Stichprobenverfahren wird immer ein Gewinner ausgewählt, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. |
 
-## Funktionsweise [!UICONTROL  automatischen ] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Funktionsweise [!UICONTROL &#x200B; automatischen &#x200B;] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 Auf den folgenden Seiten werden die Daten und Algorithmen beschrieben, die **[!UICONTROL automatischen Targeting]** **[!UICONTROL Automated Personalization zugrunde liegen]**:
 
