@@ -2,7 +2,7 @@
 keywords: Umgebungsdaten; Sitzungsdaten; Geodaten; geografische Daten; Gerätedaten; mobile Daten; Attribute; Profilattribute; Personalisierungsalgorithmen; Algorithmen für maschinelles Lernen; Algorithmen für maschinelles Lernen
 description: Erfahren Sie, welche Daten [!DNL Adobe Target] erfasst und verwendet, um seine Algorithmen für maschinelles Lernen zu erstellen.
 title: Welche Daten werden erfasst, um Algorithmen für maschinelles Lernen zu erstellen?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: 'https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U'
@@ -32,22 +32,28 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 50%
+source-wordcount: '2038'
+ht-degree: 48%
 ---
-# Von [!DNL Target] Algorithmen für maschinelles Lernen verwendete Daten
+# Von [!DNL Target] Algorithmen für maschinelles Lernen verwendete Daten {#ap-data}
 
-[!DNL Adobe Target] sammelt und verwendet automatisch verschiedene Daten, um seine Personalisierungsalgorithmen in den Aktivitäten [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) zu erstellen. Wenn eine Besucherin oder ein Besucher eine [!UICONTROL Automated Personalization]- oder [!UICONTROL Automatisches Targeting]-Aktivität aufruft, wird eine Momentaufnahme der Informationen an einen Satz von „Trainingsdatensätzen“ (die Besucherdaten, aus denen die Personalisierungsalgorithmen lernen) übergeben.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, welche Daten [!DNL Target] standardmäßig erfasst und welche benutzerdefinierten Daten Sie bereitstellen können, um die Personalisierungsmodelle von **[!UICONTROL Automated Personalization]**- und **[!UICONTROL Automatisches Targeting]**-Aktivitäten zu erstellen.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] sammelt und verwendet automatisch verschiedene Daten, um seine Personalisierungsalgorithmen in den Aktivitäten **[!UICONTROL Automated Personalization]** (AP) und **[!UICONTROL Automatisches Targeting]** (AT) zu erstellen. Wenn eine Besucherin oder ein Besucher eine **[!UICONTROL Automated Personalization]**- oder **[!UICONTROL Automatisches Targeting]**-Aktivität aufruft, wird eine Momentaufnahme der Informationen an einen Satz von „Trainingsdatensätzen“ (die Besucherdaten, aus denen die Personalisierungsalgorithmen lernen) übergeben.
 
 Weitere Informationen zu den [!DNL Target] Personalisierungsalgorithmen finden Sie unter [Random Forest-Algorithmus](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## Standard-[!DNL Target]
 
-In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von den Aktivitäten  und [!UICONTROL Automatisches Targeting] erfasst werden, ohne dass eine Konfiguration von [!DNL Target] oder anderen [!DNL Adobe] erforderlich ist. Die Tabelle enthält auch die Namenskonvention, mit der diese Attribute in [Personalization Insights-Berichten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) angegeben werden. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen zum Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die  [!DNL Target] Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von den Aktivitäten **** und **[!UICONTROL Automatisches Targeting]** erfasst werden, ohne dass eine Konfiguration von [!DNL Target] oder anderen [!DNL Adobe] erforderlich ist. Die Tabelle enthält auch die Namenskonvention, mit der diese Attribute in [Personalization Insights-Berichten](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) angegeben werden. Sie können den Eingabedatensatz jederzeit erweitern. Weitere Informationen zum Hochladen zusätzlicher Daten finden Sie unter [Hochladen von Daten für die  [!DNL Target] Personalisierungsalgorithmen](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights]-Berichten |
+| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in **[!UICONTROL Insights]**-Berichten |
 | --- | --- | --- | --- |
 | Umgebungsparameter | UMSCHLIESSEN | Informationen über die Umgebung eines Benutzers, einschließlich Betriebssystem, Browser und Tageszeit/Wochentag. | Browser - [Attributname]<br>Betriebssystem - [Wert] |
 | Geografie | GEO | Informationen über die Geografie eines Benutzers, die über die IP-Suche abgerufen werden. | Geo - [geo-Attribut] |
@@ -57,24 +63,23 @@ In der folgenden Tabelle sind die Daten aufgeführt, die standardmäßig von den
 
 ## Benutzerdefinierte [!DNL Target]
 
-In der folgenden Tabelle sind die vom Kunden bereitgestellten Daten aufgeführt, die von [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten erfasst werden. Diese Daten werden nur erfasst, wenn Sie sie bereitstellen. Bestimmte Attributnamen und Beispielwerte sind für Ihre Systemkonfiguration spezifisch.
+In der folgenden Tabelle sind die vom Kunden bereitgestellten Daten aufgeführt, die von **[!UICONTROL Automated Personalization]**- und **[!UICONTROL Automatisches Targeting]**-Aktivitäten erfasst werden. Diese Daten werden nur erfasst, wenn Sie sie bereitstellen. Bestimmte Attributnamen und Beispielwerte sind für Ihre Systemkonfiguration spezifisch.
 
-| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in [!UICONTROL Insights]-Berichten |
+| Datenkategorie | Systempräfix | Beschreibung | Anzeigename in **[!UICONTROL Insights]**-Berichten |
 | --- | --- | --- | --- |
 | Seitenparameter | KASTEN | Benutzerdefinierte Seitenparameter („mbox-Parameter„), die beim Aufruf von [!DNL Target] übergeben werden. | Benutzerdefiniert - Mbox-Parameter - [Parametername] |
 | Profil [!DNL Target] | PRO | Benutzerdefinierte Profilattribute werden direkt über die API oder Seitenparameter und [!DNL Target] Profilskripte in das [!DNL Target]-Profil hochgeladen. | Benutzerdefiniert - Besucherprofil - [Attributname] |
-| Kundenattribute | CRS | Kundenattribute, die über die [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=de){target=_blank} in das [!DNL Target] hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
+| Kundenattribute | CRS | Kundenattribute, die über die [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank} in das [!DNL Target] hochgeladen wurden. | Benutzerdefiniert - Besucherprofil - [Attributname] |
 | URL-Parameter | URL | URL und alle URL-Parameter der aktuell angezeigten Seite. | Benutzerdefiniert - URL-Parameter [URL-Parameter] |
 | Verweisende URL | REF | Verweisende URL und alle URL-Parameter für die verweisende URL. | Benutzerdefiniert - [Verweisender URL-Parameter] - [Parameterwert] |
-| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=de){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
-| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über &quot;[!UICONTROL &quot; für [!DNL Target] freigegeben &#x200B;]. |  |
-
+| Freigegebene Zielgruppen [!DNL Adobe Experience Cloud] | AAM | Alle Zielgruppen, die für [!DNL Target] aus anderen [!DNL Adobe Experience Cloud]-Lösungen freigegeben wurden (z. B. [!DNL Adobe Audience Manager] und [!DNL Adobe Analytics] über die [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Benutzerdefiniert - Experience Cloud-Zielgruppe - [Zielgruppenname] |
+| Zielgruppen [!DNL Adobe Experience Platform Real-time CDP] | USV | Platform Real-Time CDP-Zielgruppen, die über &quot;**[!UICONTROL &quot; für [!DNL Target] freigegeben]**. |  |
 
 ## Sperren von Funktionen [!DNL Target] Algorithmen für maschinelles Lernen
 
-Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem [!UICONTROL Automated Personalization]- oder [!UICONTROL Automatisches Targeting]-Modell oder keiner Aktivität verwendet werden können.
+Funktionen können für [!DNL Target] Algorithmen des maschinellen Lernens gesperrt werden, sodass sie in keinem **[!UICONTROL Automated Personalization]**- oder **[!UICONTROL Automatisches Targeting]**-Modell oder keiner Aktivität verwendet werden können.
 
-Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
+Weitere Informationen finden Sie unter [Übersicht über die Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *[!DNL Adobe Target]-Entwicklerhandbuch*.
 
 ## Geräte- und Mobilgerätedaten {#device-mobile}
 
@@ -135,7 +140,7 @@ Weitere Informationen finden Sie unter [Übersicht über die Models-API](https:/
 | --- | --- | --- | --- |
 | Visitor Profile - Activity Lifetime Order Value | Gibt die Summe aller Bestellwerte für alle Besuche/Sitzungen einer bestimmten Aktivität an. | Doppelt | SES_CUMULATIVE_ORDER_VALUE |
 | Visitor Profile - Activity Lifetime Time on Site | Gibt die Gesamtbesuchszeit des Besuchers an, wobei die aktuelle Sitzung ausgeschlossen ist. Sie wird aktualisiert, wenn die Sitzung abgelaufen ist. | Doppelt, Millisekunden | SES_TOTAL_TIME |
-| Visitor Profile -Average Page Views per Visit during Activity | Gibt die durchschnittliche Anzahl der Seitenansichten pro Sitzung an, wobei die aktuelle Sitzung ausgeschlossen ist. | Doppelt | SES_REQUESTS_PER_SESSION |
+| Besucherprofil - Durchschnittliche Seitenansichten pro Besuch während der Aktivität | Gibt die durchschnittliche Anzahl der Seitenansichten pro Sitzung an, wobei die aktuelle Sitzung ausgeschlossen ist. | Doppelt | SES_REQUESTS_PER_SESSION |
 | Visitor Profile - Average Time per Visit | Gibt die durchschnittliche Zeit pro Besuch/Sitzung an. Die aktuelle Sitzung ist ausgeschlossen. | Doppelt, Millisekunden | SES_TIME_PER_SESSION |
 | Visitor Profile - First Visit | Gibt die Zeit des ersten Besuchs an, bei dem Benutzende mit [!DNL Target] interagiert haben. | Doppelt, Millisekunden | SES_PROFILE_CREATION_TIME |
 | Visitor Profile - Hours since Last Visit | Gibt die Stunden seit dem letzten Besuch einer bestimmten Aktivität an. | Double (nur ganzzahlige positive Zahl) 1, 2, 3 usw. | SES_HOURS_SINCE_LAST_VISIT |
@@ -147,7 +152,7 @@ Weitere Informationen finden Sie unter [Übersicht über die Models-API](https:/
 | Visitor Profile - Start of Most Recent Visit | Gibt den Zeitpunkt an, zu dem der letzte Besuch/die letzte Sitzung mit [!DNL Target] gestartet wurde. Dieses Attribut wird aktualisiert, wenn die Sitzung abgelaufen ist.<br>Wenn dies die erste Sitzung für den Besucher ist, führt dies zu `LAST_SESSION_START = 0.` | Doppelt, Millisekunden | SES_LAST_SESSION_START |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Gibt die Dauer zwischen der vorherigen Sitzung und dem Zeitpunkt an, zu dem der Benutzer die Aktivität aufruft und die Momentaufnahme aufgenommen wird. | Doppelt, Millisekunden | SES_RECENCY |
 | Visitor Profile - Time in Visit Before Enter Activity | Gibt die Differenz zwischen der letzten Interaktion mit [!DNL Target] und dem Beginn des aktuellen Besuchs an. Dieses Attribut kann als Besuchs-/Sitzungsdauer betrachtet werden, bis der Benutzer die Aktivität aufruft und die Momentaufnahme erfolgt.<br>Negative Werte treten auf, wenn der Sitzungsstart und die letzte Aktualisierungszeit durch denselben [!DNL Target] ausgelöst werden. Negative Werte sollten als 0 (Null) betrachtet werden. | Doppelt, Millisekunden | SES_SESSION_TIME |
-| Besucherprofil – Gesamtbesuche | Gibt die Gesamtzahl der Besuche/Sitzungen an. Der aktuelle Besuch/die aktuelle Sitzung ist ausgeschlossen. | Double (nur ganzzahlige positive Zahl) 1, 2, 3 usw. | SES_TOTAL_SESSIONS |
+| Besucherprofil - Besuche insgesamt | Gibt die Gesamtzahl der Besuche/Sitzungen an. Der aktuelle Besuch/die aktuelle Sitzung ist ausgeschlossen. | Double (nur ganzzahlige positive Zahl) 1, 2, 3 usw. | SES_TOTAL_SESSIONS |
 | Visitor Profile - Total Visits to Activity | Gibt die Anzahl der Besuche bis zu einer bestimmten Aktivität an. Wenn kein vorheriger Besuch vorhanden ist, wird 0 (null) zurückgegeben. | Double (nur ganzzahlige positive Zahl) 1, 2, 3 usw. | SES_PREVIOUS_VISIT_COUNT |
 | Visitor Profile - Total Visits to Activity with Conversion | Gibt die Anzahl der Besuche/Sitzungen bis zu einer bestimmten Aktivität an, wenn mindestens eine Konversion während des Besuchs stattgefunden hat. | Double | SES_CUMULATIVE_SUCCESSES |
 | Visitor Profile - Visits to Activity with No Conversion | Anzahl der Besuche/Sitzungen ohne Konversionen bis zu einer bestimmten Aktivität. Dieser Wert wird nach einer Konversion auf null zurückgesetzt oder -1, wenn nie eine Konversion erfolgte. | Double (nur ganzzahlige positive Zahl) 1, 2, 3 usw. | SES_SUCCESS_RECENCY |

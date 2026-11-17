@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; Auto-Target; Auto Target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie den Bericht [!UICONTROL Wichtige Attribute] verwenden, der die wichtigsten Attribute zeigt, die das Personalisierungsmodell beeinflusst haben, und ihre relative Bedeutung.
 title: Was ist der Bericht „Wichtige Attribute“?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 TQID: 'https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo'
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 55%
@@ -60,7 +60,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
 
 ## Zugreifen auf den Bericht [!UICONTROL Wichtige Attribute] {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und dann auf die gewünschte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)- oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)-Aktivität in der Liste.
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und dann auf die gewünschte [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)- oder [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md)-Aktivität in der Liste.
 
    Wenn Sie viele Aktivitäten haben, klicken Sie auf das Symbol Filtern ![Filtersymbol](/help/main/assets/icons/Filter.svg) ), um die Liste zu filtern, indem Sie Optionen aus den Dropdown-Listen [!UICONTROL Typ], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metriktyp] und [!UICONTROL Activity Source] auswählen.
 
@@ -69,7 +69,7 @@ In unterschiedlichen Aktivitäten sind Attribute mal mehr, mal weniger wichtig f
    Der Bericht [Automated Personalization-](/help/main/c-reports/personalization-reports/reports-ap.md) oder [Automatische Targeting-Zusammenfassung](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) wird angezeigt, der Informationen zur Leistung Ihrer Aktivitäten enthält, dargestellt durch das erste Bildschirmsymbol. Die beiden zusätzlichen Symbole stellen die beiden [!UICONTROL Personalization Insights]-Berichte dar: **[!UICONTROL Automatisierte Segmente]** ( ![Bericht Automatisierte Segmente](/help/main/assets/icons/AutomatedSegment.svg) ) und **[!UICONTROL Wichtige Attribute]** ( ![Symbol „Wichtige Attribute“](/help/main/assets/icons/ViewList.svg) ).
 
 
-   Beachten Sie[!UICONTROL &#x200B; dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
+   Beachten Sie[!UICONTROL  dass „Automatisches Targeting] über ein zusätzliches Diagrammsymbol für die grafische Ansicht des [!UICONTROL Zusammenfassungsberichts] verfügt.
 
    >[!IMPORTANT]
    >
@@ -124,7 +124,7 @@ Weitere Informationen zu den Attributen, die [!DNL Target] in seinen Personalisi
 
 Mit der [!UICONTROL Models-API], auch als Blockierungsliste-API bezeichnet, können Benutzende die Liste der Attribute (auch als Funktionen bezeichnet) anzeigen und verwalten, die in Modellen für maschinelles Lernen für [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten verwendet werden. Wenn Sie ein oder mehrere Attribute von der Verwendung durch die Modelle für AP- oder AT-Aktivitäten ausschließen möchten, können Sie die Models-API verwenden, um diese Attribute zur &quot;Blockierungsliste&quot; hinzuzufügen.
 
-Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=de){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=de){target=_blank}.
+Detaillierte Informationen finden Sie unter [Übersicht über die Models](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} im *Adobe Target-Entwicklerhandbuch*. Informationen zur Verwendung der API zum Blockieren von Attributen finden Sie unter [Models-API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Sind die Informationen in den Berichten [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute] mit denen im CSV-Download identisch?
 
@@ -136,7 +136,7 @@ Personalization Insights (sowohl [!UICONTROL „Automatisierte Segmente“] als 
 
 ### Wie wird [!UICONTROL Personalization Insights] erstellt?
 
-[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. &#x200B;] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights wird mithilfe der patentierten Adobe-Technik namens MAGIX (Model Agnostic Globally Interpretable Explanations) erstellt. ] Weitere Informationen zu MAGIX finden Sie im veröffentlichten Aufsatz des Adobe-Forschungsteams auf der [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 ### Sind [!UICONTROL Personalization Insights] für umsatzbasierte Modellierungsziele/Primärziel verfügbar?
 
@@ -172,4 +172,4 @@ Es kann hilfreich sein zu wissen, wie das Modell funktioniert, das Traffic berei
 
 Das folgende Problem wird derzeit vom [!DNL Target]-Engineering-Team untersucht.
 
-* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht Wichtige Attribute angezeigt. (Die 3813 populärsten)
+* [!DNL Adobe Experience Platform] Segmentnamen werden für die Aktivitäten {[!UICONTROL }Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] (AT) nicht im Bericht ]Wichtige Attribute angezeigt. [!UICONTROL (Die 3813 populärsten)

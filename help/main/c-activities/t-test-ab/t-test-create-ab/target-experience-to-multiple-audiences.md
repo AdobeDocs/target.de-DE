@@ -19,45 +19,53 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 4876228feee28031373f7e0abe62a66b05b15274
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 51%
+source-wordcount: '488'
+ht-degree: 8%
 ---
-# Verschiedene Erlebniszielgruppen in A/B-Tests
+# Verschiedene Erlebniszielgruppen in A/B-Tests {#multiple-experience-audiences}
 
-Sie können in [!DNL Adobe Target] A/B-Aktivitäten Versionen desselben Erlebnisses an unterschiedliche Zielgruppen ausrichten. Im [!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer &#x200B;] Sie mehrere Zielgruppen für ein Erlebnis einrichten.
+>[!BEGINSHADEBOX]
 
-Besucher können bei Profiländerungen zwischen Erlebnis-Audiences wechseln. Besucher bleiben nicht für die gesamte Lebensdauer der Aktivität im gleichen Erlebnis stecken.
+**Auf dieser Seite** Erfahren Sie, wie Sie in einer A/B-Aktivität verschiedene Zielgruppen mit Versionen desselben Erlebnisses ansprechen. Illustriert durch ein Anwendungsbeispiel mit den zu befolgenden Schritten und Best Practices.
 
-Verwenden Sie beispielsweise auf Ihrer Site einen konstanten Entwurf für Seiten oder Produkte und möchten Sie das gleiche Erlebnis für mehrere Zielgruppen bereitstellen (beispielsweise Besucher mit unterschiedlichen Browsersprachen), können Sie mehrere Versionen des gleichen Erlebnisses erstellen. Sie können Englisch und Japanisch sprechenden Besuchern das gleiche Erlebnis bereitstellen, wobei der einzige Unterschied die Sprache ist, in der sie dem Besucher angezeigt wird. Für das Erlebnis werden unabhängig von der Sprache Daten gesammelt, sodass im Bericht die Leistung des Erlebnisses anstatt der Version aufgeführt wird.
+>[!ENDSHADEBOX]
 
-Ohne die Möglichkeit zur Einrichtung von Erlebnisversionen müssten Sie (in diesem Beispiel) für jede Sprache eigene Tests einrichten, diese Ergebnisse dann manuell zusammenführen und anschließend versuchen herauszufinden, wie erfolgreich ein einziges Erlebnis sprachübergreifend ist. Die Ergebnisse dieser Vorgehensweise sind weniger genau. Bei einigen Tests sind diese Berechnungen möglicherweise sogar irreführend, da Benutzer randomisiert werden.
+In [!DNL Adobe Target] A/B-Aktivitäten können Sie Versionen desselben Erlebnisses an verschiedene Zielgruppen senden. Im **[!UICONTROL Visual Experience Composer“ (VEC) oder im formularbasierten Experience Composer]** Sie mehrere Zielgruppen für ein Erlebnis einrichten.
 
-Erstellen Sie verschiedene Versionen eines Erlebnisses, erhalten Sie genauere Daten, ohne dazu auf manuelle Berechnungen und Annahmen zurückgreifen zu müssen.
+Daten werden für das Erlebnis unabhängig von der Version erfasst, sodass der Bericht die Leistung des Erlebnisses anzeigt und nicht die jeder Version. Besuchende können auch zwischen Erlebnis-Audiences wechseln, wenn sich ihr Profil ändert. Sie bleiben während der Lebensdauer der Aktivität nicht im selben Erlebnis hängen.
 
-## Szenario
+## Anwendungsfall {#use-case}
 
-Sie testen zwei Erlebnisse, ein Geotargeting-Banner im Vergleich zu einem generischen Banner. Das Banner muss für jede Geografie anders sein. Der allgemeine Test besteht jedoch darin festzustellen, ob Geotargeting besser ist als die Anzeige allgemeiner Inhalte. Wenn Sie für jeden Standort ein eigenes Erlebnis einrichten, messen Sie in Wirklichkeit, wie sich die einzelnen Geo-Standorte im Vergleich zueinander verhalten, und nicht, ob die Geotargeting-Methode zum Erreichen Ihrer Erfolgsziele beiträgt, wenn sie mit dem generischen Banner gemessen wird.
+Sie testen zwei Erlebnisse:
+
+* Ein Geo-Targeting-Banner
+
+* Ein generisches Banner.
+
+Das Banner für jede Geografie muss unterschiedlich sein. Ziel des Tests ist es jedoch festzustellen, ob das Geotargeting besser funktioniert als generische Inhalte.
+
+Wenn Sie für jeden Standort ein eigenes Erlebnis einrichten, messen Sie, wie sich jede Geografie im Vergleich zu den anderen entwickelt. Es wird nicht gemessen, ob Geotargeting im Vergleich zum generischen Banner zum Erreichen Ihrer Erfolgsziele beiträgt.
 
 In diesem Fall benötigen Sie geospezifische Versionen des Erlebnisses, damit Sie das Erlebnis mit einem nicht geozielten Steuerelement testen können.
 
+So richten Sie die geospezifischen Versionen ein:
+
 1. [Erstellen Sie wie gewohnt eine A/B-Aktivität.](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
-   Wählen Sie während der Konfigurierung des Erlebnisses mit mehreren Versionen die Zielgruppen der einzelnen Versionen aus, wie unten dargestellt.
+   Wenn Sie das Erlebnis mit mehreren Versionen konfigurieren, wählen Sie die Zielgruppe für jede Version aus, wie in den folgenden Schritten beschrieben.
 
 1. Wählen Sie das Erlebnis aus und klicken Sie dann auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Mehrere Zielgruppen]**.
 
-1. Klicken Sie auf das **[!UICONTROL Zielgruppe hinzufügen]**-Symbol ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) im Bereich [!UICONTROL Experience-Zielgruppen] und wählen Sie dann die erste Zielgruppe aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
+1. Klicken Sie im **[!UICONTROL Erlebniszielgruppen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ) und wählen Sie dann die erste Zielgruppe aus, die Sie ansprechen möchten. Wiederholen Sie den Vorgang für alle weiteren Zielgruppen.
 
-   Wenn die Zielgruppe noch nicht vorhanden ist, klicken Sie auf [Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) und richten Sie sie ein.
-
-   Sollte ein Benutzer mehr als einer Zielgruppe zugeordnet werden, werden Inhalte für alle Zielgruppen bereitgestellt, wovon mindestens einer aus der Liste tatsächlich auf der Seite angezeigt wird.
+   Wenn die Zielgruppe noch nicht vorhanden ist, [ Sie „Zielgruppe erstellen](/help/main/c-target/c-audiences/create-audience.md) und richten Sie sie ein.
 
 1. Fahren Sie mit der Einrichtung der Aktivität fort.
 
-## Best Practices
+## Best Practices {#best-practices}
 
-* Wählen Sie sich gegenseitig ausschließende Zielgruppen. Wenn die Aktivität in VEC erstellt wurde und ein Besucher mit mehr als einer Zielgruppe übereinstimmt, wird der Inhalt für jede Zielgruppe zurückgegeben, wobei der Inhalt für die aufgelistete Zielgruppe zuletzt auf der Seite angezeigt wird.
-* Die in der Darstellung festgelegten Aktivitätseintrag-Zielgruppen werden mit den Erlebniszielgruppen mit dem Operator „AND“ kombiniert. Möchte ein Benutzer die Aktivität aufrufen, muss er die Kriterien einer Aktivitätszielgruppe und einer Erlebniszielgruppe erfüllen.
-* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Auf diese Weise können Sie die Testergebnisse auf der Ebene von Erlebnis A im Vergleich zu Erlebnis B betrachten und auf der Ebene von Erlebnis A im Vergleich zu Erlebnis B einfach „Browser lang_JP“. Dies funktioniert nur bei [!DNL Target] Berichten, nicht bei [!DNL Analytics].
+* Wählen Sie sich gegenseitig ausschließende Zielgruppen. Wenn sich ein Besucher für mehr als eine Zielgruppe qualifiziert, wird der Inhalt für alle diese Zielgruppen zurückgegeben und der Inhalt der zuletzt aufgeführten Zielgruppe wird auf der Seite angezeigt. Dies gilt für Aktivitäten, die in Visual Experience Composer erstellt wurden.
+* Zielgruppen für den Aktivitätseintrag, die im Diagramm definiert sind, werden mithilfe einer AND-Bedingung mit den Erlebnis-Zielgruppen kombiniert. Um in die Aktivität einzutreten, muss sich ein Besucher für die Aktivitäts-Audience und für eine der Erlebnis-Audiences qualifizieren.
+* Fügen Sie die gleichen Zielgruppen als Berichtsegmente hinzu. Dies hilft Ihnen, die Testergebnisse auf der hohen Ebene von Erlebnis A im Vergleich zu B und auf der niedrigeren Ebene von Erlebnis A im Vergleich zu B nur für „Browser lang_JP“ anzuzeigen. Dies funktioniert nur bei [!DNL Target] Berichten, nicht bei [!DNL Analytics].

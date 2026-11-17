@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
@@ -40,7 +40,7 @@ Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Z
 
    Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
-   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting“ nicht aktiviert &#x200B;] (Standard), geben Sie eine Priorität an: niedrig, Medium oder hoch.
+   Wenn diese Option in [!UICONTROL Administration] > [!UICONTROL Reporting“ nicht aktiviert ] (Standard), geben Sie eine Priorität an: niedrig, Medium oder hoch.
 
    Um feinabgestimmte Prioritäten zu aktivieren, klicken Sie auf [!UICONTROL Administration] > [!UICONTROL Reporting] und schalten Sie dann die Option [!UICONTROL Feinabgestimmte Prioritäten aktivieren] auf „Ein“ um.
 
@@ -66,7 +66,7 @@ Verwenden Sie [!UICONTROL Aktivitätseinstellungen] in [!DNL Adobe Target], um Z
 Auf der Seite [!UICONTROL „Ziele und Einstellungen“] befinden sich zusätzliche Einstellungen, die abhängig davon variieren, welchen Aktivitätstyp Sie erstellen. Weitere Informationen zu diesen Einstellungen erhalten Sie in den Abschnitten zum jeweiligen Aktivitätstyp:
 
 * [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
-* [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+* [Automatisierte Personalisierung](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview)
 * [Erlebnis-Targeting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Multivarianz-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Recommendations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
@@ -81,4 +81,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507950?captions=ger)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

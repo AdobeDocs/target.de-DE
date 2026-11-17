@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6c83bb52aabc3441ee9c8caf02988dc5c227d837
+source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 63%
+source-wordcount: '1004'
+ht-degree: 50%
 ---
 # Klick-Tracking {#click-tracking}
 
@@ -42,15 +42,15 @@ ht-degree: 63%
 >
 >Das Tracking von Klicks wird bei der globalen [!DNL Target]-Anfrage bei Verwendung als Standort in einer formularbasierten Aktivität nicht unterstützt.
 
-* [Klick-Tracking einrichten](#section_5540C5A533114E57BAE022A600B02E72)
-* [Bedienfeld „Ausgewählte Elemente“](#selected-elements)
-* [Überlegungen](#considerations): Auswahl von Elementen, wie Klicks gezählt werden, Analytics und at.js und Einschränkungen
-
 ## Klick-Tracking einrichten {#section_5540C5A533114E57BAE022A600B02E72}
+
+Klick-Tracking ist eine Art von Konversionserfolgsmetrik. Es zählt die Klicks, die Aktivitätsteilnehmer auf die von Ihnen ausgewählten Seitenelemente ausführen, sodass Sie messen können, wie Besucherinnen und Besucher mit diesen Elementen interagieren. Jedes Element einer Seite kann verfolgt werden, z. B. ein Link, eine Schaltfläche oder ein Bild.
 
 1. Wenn Sie Ihre Ziele auf der Seite **[!UICONTROL Ziele und Einstellungen]** für Ihre Aktivität festlegen, wählen Sie die Erfolgsmetrik **[!UICONTROL Konversion]** aus.
 
 1. Wählen Sie als Aktion **[!UICONTROL Klicks auf ein Element]** aus und klicken Sie anschließend auf **[!UICONTROL Elemente auswählen]**.
+
+   ![Elemente ausgewählt](../assets/click-tracking-1.png)
 
    Ihre Seite wird im **[!UICONTROL Visual Experience Composer]** (VEC) geöffnet.
 
@@ -60,15 +60,19 @@ ht-degree: 63%
 
 1. Klicken **[!UICONTROL oben]** Bildschirm auf „Fertig“, um Ihre Auswahl zu speichern.
 
+   Die Zielmetrik auf der Seite **[!UICONTROL Ziele und Einstellungen]** zeigt dann die Anzahl der ausgewählten Elemente an. Bewegen Sie den Mauszeiger darüber, um die Elemente zu sehen.
+
+   ![Elemente ausgewählt](../assets/click-tracking-2.png)
+
 Wenn ein Aktivitätsteilnehmer auf ein ausgewähltes Element klickt, wird dieser Klick als Konversion gezählt.
 
 ## Bedienfeld „Ausgewählte Elemente“ {#selected-elements}
 
 Für **[!UICONTROL A/B]**-, **[!UICONTROL Erlebnis-Targeting]** (XT)-, **[!UICONTROL Automated Personalization]** (AP)- und **[!UICONTROL Multivarianz-Test]**(MVT)-Aktivitäten werden im Bereich **[!UICONTROL Ausgewählte Elemente]** die für Klick-Tracking ausgewählten Elemente auf der linken Seite aufgeführt.
 
-![Bedienfeld „Ausgewählte Elemente“](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
+![Bedienfeld „Ausgewählte Elemente“](../assets/click-tracking-3.png)
 
-Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Element im Bedienfeld &quot;**[!UICONTROL Komponenten“]**. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
+Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie im Bedienfeld „Ausgewählte Elemente“ auf **[!UICONTROL Element]**. In der folgenden Tabelle werden die einzelnen Aktionen beschrieben, die für ein Element durchgeführt werden können:
 
 | Aktion | Beschreibung |
 | --- | --- |
@@ -80,30 +84,24 @@ Es gibt mehrere Aktionen, die ausgeführt werden können, wenn Sie auf ein Eleme
 
 Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzufügen, indem Sie auf das Symbol **[!UICONTROL Komponente hinzufügen]** oben im Bedienfeld klicken.
 
-![Symbol „Komponente hinzufügen“](/help/main/c-activities/r-success-metrics/assets/add-element.png)
+![Symbol „Komponente hinzufügen“](../assets/click-tracking-4.png)
 
 ## Zu beachten {#considerations}
 
-Beachten Sie beim Einrichten des Klick-Trackings die folgenden Punkte.
-
 ### Elemente auswählen
 
-* Die DOM-Pfad-Funktion steht beim Einrichten des Klick-Tracking zur Verfügung. Wenn Sie auf ein Element auf der Seite klicken, wird das VEC-Optionsmenü angezeigt. Darüber hinaus wird der entsprechende DOM-Pfad unten auf der Seite angezeigt. Sie können den DOM-Pfad verwenden, um Informationen über das ausgewählte Element (Typ, ID und Klasse) schnell anzuzeigen und den DOM-Pfad nach oben oder unten verschieben, um das gewünschte Element auszuwählen.
+* Wenn Sie auf ein Element klicken, wird das Menü VEC-Optionen angezeigt, und der DOM-Pfad des Elements wird unten auf der Seite angezeigt. Verwenden Sie den DOM-Pfad, um Informationen zum Element anzuzeigen (Typ, ID und Klasse), und um den Pfad nach oben oder unten zu verschieben, um das gewünschte Element auszuwählen.
 
-  Wie beim Erstellen von Erlebnissen in Schritt 1 im Workflow für die Aktivitätenerstellung können Sie mit der DOM-Pfadauswahl am unteren Seitenrand ein Element auswählen. Wenn Sie ein Element aus dem DOM-Pfad auswählen, wird das entsprechende Element in VEC als „Ausgewählt“ angezeigt. Um die Auswahl eines ausgewählten Elements aufzuheben, können Sie erneut auf das Element in der DOM-Pfadauswahl klicken oder im VEC auf das Feld „Ausgewählt“ klicken.
+  Das Element, das Sie im DOM-Pfad auswählen, wird im VEC **[!UICONTROL Ausgewählt]** angezeigt. Um die Auswahl aufzuheben, klicken Sie erneut im DOM-Pfad darauf oder klicken Sie **[!UICONTROL VEC auf]** Feld „Ausgewählt“.
 
-  ![DOM-Pfadauswahl](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+  ![DOM-Pfadauswahl](../assets/click-tracking-5.png)
 
   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Wenn nur ein einzelnes Element gezählt werden soll, obwohl auf mehrere Elemente der Seite geklickt wird, müssen Sie dem CSS-Element-Selektor mehrere Elemente zuordnen.
 * Bei **[!UICONTROL Automated Personalization]** (AP)- und Auto-Targeting-Aktivitäten in Single Page Applications (SPAs) können Sie Elemente für das Klick-Tracking auswählen, die zu einer bestimmten [!DNL Target] gehören. Weitere Informationen zu Ansichten finden Sie unter [Adobe Target-Ansichten und Einzelseitenanwendungen](/help/main/c-experiences/spa-visual-experience-composer.md).
-
-Nach dem Klicken auf **[!UICONTROL Fertig]** wird die Anzahl der ausgewählten Elemente in der Zielmetrik auf der Seite **[!UICONTROL Ziele und Einstellungen]** angezeigt. Bewegen Sie den Mauszeiger darüber, um die ausgewählten Elemente anzuzeigen.
-
-![Elemente ausgewählt](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ### Anzahl der Klicks
 
@@ -152,4 +150,4 @@ In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetr
 * Verstehen und Erstellen **[!UICONTROL Metriken]** Konversion **[!UICONTROL Umsatz]** und **[!UICONTROL Interaktion]**
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/3507822?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

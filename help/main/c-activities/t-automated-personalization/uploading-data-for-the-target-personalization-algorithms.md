@@ -3,7 +3,7 @@ keywords: Automated Personalization;AP;Daten hochladen;Offline-Daten;Personalisi
 description: Erfahren Sie, wie Sie Offline-Daten beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting]-Aktivitäten hochladen.
 title: Wie kann ich Daten für Personalization-Algorithmen hochladen?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 TQID: 'https://experienceleague.adobe.com/B1vwWrii4DfQzXftwcmgzbhBkDAZFo5mDRn3a7dULj0'
 product_v2:
@@ -36,26 +36,32 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 12%
+source-wordcount: '365'
+ht-degree: 7%
 ---
-# Hochladen von Daten für die [!DNL Target] Personalisierungsalgorithmen
+# Hochladen von Daten für die [!DNL Target] Personalisierungsalgorithmen {#upload-data-personalization}
 
-Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting]-Aktivitäten äußerst wertvoll sein.
+>[!BEGINSHADEBOX]
 
-Es gibt mehrere Möglichkeiten, Daten in Personalisierungsalgorithmen von [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] einzugeben. Zusätzlich zu den Methoden unter [Methoden für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden auch [!DNL Experience Cloud] freigegebenen Zielgruppen ([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) und Reporting-Zielgruppen während der Aktivität in [!DNL Target] verwendet.
+**Auf dieser Seite** Erfahren Sie, wie Sie Offline- und benutzerdefinierte Daten an die Algorithmen **[!UICONTROL Automated Personalization]** und **[!UICONTROL Automatisches Targeting]** senden und welche Best Practices Sie befolgen sollten.
 
-Informationen zu den automatisch erfassten und von Personalisierungsalgorithmen [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] verwendeten Daten finden Sie unter [Automated Personalization-Datenerfassung](/help/main/c-activities/t-automated-personalization/ap-data.md).
+>[!ENDSHADEBOX]
+
+Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung können beim Erstellen von Personalisierungsmodellen in [!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP)- und **[!UICONTROL Automatisches Targeting]**-Aktivitäten von unschätzbarem Wert sein.
+
+Es gibt mehrere Möglichkeiten, Daten in die Personalisierungsalgorithmen **[!UICONTROL Automated Personalization]** (AP) und **[!UICONTROL Automatisches Targeting]** einzugeben. Zusätzlich zu den Methoden unter [Methoden für die Datenübernahme in Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} werden in den [!DNL Target] auch [!DNL Experience Cloud] freigegebene Zielgruppen (**[!UICONTROL Adobe Analytics]**, [!DNL Audience Manager]) und Reporting-Zielgruppen während der Aktivität verwendet.
+
+Informationen zu den Daten, die automatisch von den Personalisierungsalgorithmen **[!UICONTROL Automated Personalization]** und **[!UICONTROL Automatisches Targeting]** erfasst und verwendet werden, finden Sie unter [Automated Personalization-Datenerfassung](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ## Best Practices {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
-Die folgende Liste enthält Best Practices zum Hochladen von Daten für [!DNL Target] Personalisierungsalgorithmen:
+Befolgen Sie diese Best Practices, wenn Sie Daten für die [!DNL Target] Personalisierungsalgorithmen hochladen:
 
-* Je höher die Qualität der Daten ist, die [!DNL Target] Personalisierungsalgorithmen zur Verfügung stehen, desto höher ist auch die Qualität der resultierenden Modelle in Ihren [!UICONTROL Automated Personalization] - und [!UICONTROL Auto-Target] -Aktivitäten.
-* Beschränken Sie die Verwendung mehrerer Profilskripte oder -attribute, die denselben Zweck erfüllen.
-* Übergeben Sie keine eindeutige ID, z. B. keine Sitzungs-ID, wenn Sie sie nicht benötigen.
-* Überprüfen Sie, welche Daten [!DNL Target] automatisch erfasst [Datenerfassung für die Personalization-Algorithmen von Target](/help/main/c-activities/t-automated-personalization/ap-data.md), damit Sie keine doppelten Informationen senden. [!DNL Target] verwendet beispielsweise IP-Adressen, um die Postleitzahlen der Besucher zu bestimmen. Es ist also nicht erforderlich, diese Information als separate Variable zu übergeben.
-* Übergeben Sie nicht mehrere Werte in demselben Attribut oder derselben Variablen. Wenn mehrere Variablen verkettet sind, behandeln [!DNL Target] Personalisierungsalgorithmen jede Zeichenfolge als eindeutigen Wert, wodurch der Wert der zu personalisierenden Informationen verringert wird.
-* Nutzen Sie eine einprägsame und aussagekräftige Namenskonvention, um Ihre [Personalization Insights-](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) verständlicher zu machen.
+* Je höher die Qualität der Daten ist, die den [!DNL Target] Personalisierungsalgorithmen zur Verfügung stehen, desto höher ist auch die Qualität der resultierenden Modelle in Ihren **[!UICONTROL Aktivitäten vom Typ]** und **[!UICONTROL Automatisches Targeting]**.
+* Beschränken Sie die Verwendung mehrerer Profilskripte oder Attribute, die demselben Zweck dienen.
+* Übergeben Sie keine eindeutige ID, wie z. B. eine Sitzungs-ID, wenn sie nicht benötigt wird.
+* Überprüfen Sie, welche Daten [!DNL Target] automatisch erfasst ([Datenerfassung für Target Personalization-](/help/main/c-activities/t-automated-personalization/ap-data.md)), damit Sie keine doppelten Informationen senden. [!DNL Target] verwendet beispielsweise IP-Adressen, um die Postleitzahlen von Besuchern zu bestimmen. Es ist also nicht erforderlich, diese Information als separate Variable zu übergeben.
+* Übergeben Sie nicht mehrere Werte in demselben Attribut oder derselben Variablen. Wenn mehrere Variablen verkettet sind, behandeln die [!DNL Target] Personalisierungsalgorithmen jede Zeichenfolge als eindeutigen Wert, wodurch der Wert der Informationen für die Personalisierung reduziert wird.
+* Nutzen Sie eine einprägsame und aussagekräftige Namenskonvention, um Ihre [Personalization Insights-](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) verständlicher zu machen.

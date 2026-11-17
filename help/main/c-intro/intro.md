@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -125,7 +125,7 @@ In [!DNL Target Standard] sind die Best Practices der Branche integriert, sodass
 
 ### [!UICONTROL Automatisierte Personalisierung]
 
-[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) verwendet fortschrittliche Machine-Learning-Algorithmen, um personalisierte Erlebnisse bereitzustellen und die Konversionsraten für digitale Interaktionen zu verbessern.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) verwendet fortschrittliche Machine-Learning-Algorithmen, um personalisierte Erlebnisse bereitzustellen und die Konversionsraten für digitale Interaktionen zu verbessern.
 
 AP zeichnet Besucheraktivitäten auf und erstellt Profile, um Inhalte auf ähnliche Besucher auszurichten. AP verfolgt die Reaktionen auf Inhalte für Einzelpersonen und die Population und verwendet dabei eine ausgefeilte Modellierung, um jeden Besucher basierend auf allem, was über ihn bekannt ist, automatisch anzusprechen.
 
@@ -161,7 +161,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 * Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.
 * Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.
-* Übertragen Sie Traffic mithilfe der automatischen Zuordnung automatisch an das [!UICONTROL &#x200B; Recommendations-Erlebnis mit &#x200B;] besten Leistung.
+* Übertragen Sie Traffic mithilfe der automatischen Zuordnung automatisch an das [!UICONTROL  Recommendations-Erlebnis mit ] besten Leistung.
 * Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf deren individuellen Profilen mithilfe [!UICONTROL automatischen Targetings].
 
 ### Enterprise-Benutzerberechtigungen
@@ -200,6 +200,6 @@ Im folgenden Video wird erklärt, welche Aktivitätstypen in [!DNL Target Standa
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
