@@ -47,5 +47,5 @@ Die folgenden Handbücher und Ressourcen stehen für [!DNL Target] zur Verfügun
 | [Adobe-Kundenunterstützung – Bürozeiten](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informationen zu „Office Hours“, einer Initiative, die vom Team der Adobe-Kundenunterstützung geleitet wird. In diesen Sitzungen erhalten Teilnehmer Informationen, Hilfestellungen bei Problemen sowie Tipps und Tricks zur erfolgreichen Verwendung der [!DNL Adobe Experience Cloud]-Lösungen einschließlich [!DNL Target]. |
 | [Webinar-Reihe zu Target-Grundlagen](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registrierungsinformationen und Links zu früheren Sitzungen der Webinar-Reihe zu [!DNL Target]-Grundlagen, einer Webinar-Serie über Customer Success. |
 
-Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), die Ihnen folgende Vorteile bietet:
+Besuchen Sie neben den oben genannten Ressourcen auch die [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=de), die Ihnen folgende Vorteile bietet:
 
