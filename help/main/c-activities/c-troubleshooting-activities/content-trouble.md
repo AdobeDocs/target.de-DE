@@ -134,7 +134,7 @@ Beachten Sie, dass einige mboxDebug-Parameter mit oder ohne Authentifizierung ve
 
 Der Adobe Experience Cloud-Debugger hilft Ihnen, Ihre [!DNL Target] zu verstehen. Sie können die Bibliothekskonfiguration anzeigen, sicherstellen, dass Ihre benutzerdefinierten Parameter korrekt weitergeleitet werden, die Konsolenprotokollierung aktivieren und alle [!DNL Target] deaktivieren. Nachdem Sie sich bei Experience Cloud authentifiziert haben, können Sie mboxTrace verwenden, um Ihre Aktivität und Zielgruppenqualifikationen sowie Ihr Besucherprofil zu überprüfen.
 
-Weitere Informationen finden Sie in den [Schulungsvideos](#training-videos) am Ende dieser Seite und unter &quot;[.js mit Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Weitere Informationen finden Sie in den [Schulungsvideos](#training-videos) am Ende dieser Seite und unter &quot;[.js mit Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=de){target=_blank}.
 
 ## Häufige Probleme {#common-problems}
 
