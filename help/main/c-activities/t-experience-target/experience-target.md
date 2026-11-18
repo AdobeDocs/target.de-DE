@@ -54,6 +54,6 @@ Mit [!UICONTROL &#x200B; Aktivität „Erlebnis] können Sie diese drei Zielgrup
 * Stellen Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereit, indem Sie Erlebnisse erstellen, die sowohl auf Staaten als auch auf ein drittes Erlebnis für Bikefans ausgerichtet sind.
 * Ordnen Sie die drei Erlebnisse neu an, um sicherzustellen, dass die richtigen Inhalte für die richtige Zielgruppe bereitgestellt werden.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
 
 Fahren Sie nach dem Ansehen des Videos mit [Erstellen einer Experience Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) fort.
