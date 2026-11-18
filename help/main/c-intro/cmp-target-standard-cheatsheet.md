@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ Denken Sie daran, die Aktivität zu aktivieren. Nur aktive Aktivitäten halten d
 **Kann ich nur den Schritt [!UICONTROL Targeting] ändern und nicht den gesamten dreistufigen Workflow zur Bearbeitung durchlaufen?**
 
 +++Details anzeigen
-Dies können Sie ganz einfach tun[&#x200B; indem Sie den gewünschten Schritt Ihrer Wahl auf der Seite [!UICONTROL Aktivitätsübersicht] eingeben &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) diesen Schritt dann mithilfe der Option [!UICONTROL Speichern und schließen] verlassen.
+Dies können Sie ganz einfach tun[&#x200B; indem Sie den gewünschten Schritt Ihrer Wahl auf der Seite [!UICONTROL Aktivitätsübersicht] eingeben &#x200B;](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C) diesen Schritt dann mithilfe der Option [!UICONTROL Speichern und schließen] verlassen.
 
 +++
 
 **Kann ich in einem bestimmten Schritt verbleiben, die Aktivität weiterhin ändern (beispielsweise Angebotstext oder benutzerspezifischer Code) und dann eine Qualitätssicherung auf einer anderen Registerkarte durchführen?**
 
 +++Details anzeigen
-Das ist möglich. Verwenden [&#x200B; einfach die Option [!UICONTROL Speichern], um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Das ist möglich. Verwenden [&#x200B; einfach die Option [!UICONTROL Speichern], um inkrementelle Änderungen vorzunehmen, ohne den Schritt zu beenden](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -378,7 +378,7 @@ Verwenden Sie den [formularbasierten Ansatz](/help/main/c-experiences/form-exper
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
 +++Details anzeigen
-Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Kla
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
 +++Details anzeigen
-Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 

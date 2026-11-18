@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 
      Achten Sie auf Folgendes, wenn diese Einstellung auf „aus“ festgelegt ist:
 
-     * Wenn es zu Kollisionen zwischen der zu testenden Aktivität und anderen Live-Aktivitäten kommt, [normale Prioritätsregeln](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) angewendet. Aufgrund von Kollisionen ist es möglich, dass Sie die Aktivität, die Sie überprüfen möchten, nicht sehen können.
+     * Wenn es zu Kollisionen zwischen der zu testenden Aktivität und anderen Live-Aktivitäten kommt, [normale Prioritätsregeln](/help/main/c-activities/priority.md#priority) angewendet. Aufgrund von Kollisionen ist es möglich, dass Sie die Aktivität, die Sie überprüfen möchten, nicht sehen können.
      * Die Metriken werden für die angezeigten Aktivitäten inkrementiert, jedoch nicht in der QA-Berichtsumgebung.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, um Ihre Änderungen zu speichern.

@@ -29,28 +29,32 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22dff18ca8369805557788d62c4eaf09f9764494
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 84%
+source-wordcount: '1677'
+ht-degree: 55%
 ---
-# Fehlerbehebung bei der Inhaltsbereitstellung
+# Fehlerbehebung bei der Inhaltsbereitstellung {#content-trouble}
 
-Wenn Ihre Seite nicht den erwarteten Inhalt anzeigt, gibt es ein paar Schritte, die Sie unternehmen können, um eine Fehlerdiagnose für die Inhaltsbereitstellung vorzunehmen.
+>[!BEGINSHADEBOX]
 
-* Prüfen Sie den Code für Ihre Aktivität bzw. Kampagne sorgfältig. Ein Tippfehler oder ein anderweitiger Fehler könnte die Ursache dafür sein, dass der erwartete Inhalt nicht angezeigt wird.
-* Verwenden Sie zur Fehlerbehebung bei [!DNL Target]-Anforderungen mboxTrace oder mboxDebug.
-* Mit Adobe Experience Cloud Debugger erhalten Sie ein intuitives Tool, das für die Fehlerbehebung von [!DNL Target]-Anforderungen fast die gleichen Informationen wie mboxDebug bereitstellt.
+**Auf dieser Seite** Erfahren Sie, wie Sie die Inhaltsbereitstellung in [!DNL Adobe Target] debuggen, wenn Ihre Seite nicht den erwarteten Inhalt anzeigt.
 
-mboxDebug ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite hilfreich. Es stellt sicher, dass die Zielgruppen-Anforderung ausgelöst und das Cookie eingerichtet wird. Jedoch ist mboxDebug nicht so detailliert, wie es für die Fehlerdiagnose bei der Inhaltsbereitstellung nützlich wäre. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
+>[!ENDSHADEBOX]
 
-## Abrufen des Autorisierungstokens zur Verwendung mit Debuggingwerkzeugen {#section_BED130298E794D1FA229DB7C3358BA54}
+Wenn auf einer Seite der erwartete Inhalt nicht angezeigt wird, kann die Ursache ein Fehler im Aktivitäts-Code, eine fehlende oder falsch platzierte [!DNL Target] oder ein Konflikt mit einer anderen Aktivität sein. Überprüfen Sie Ihre Aktivität oder Ihren Kampagnen-Code sorgfältig, da ein Tippfehler oder ein anderer Fehler die Anzeige des erwarteten Inhalts verhindern kann. Verwenden Sie dann mboxTrace, mboxDebug oder Adobe Experience Cloud Debugger, um die [!DNL Target]-Anfrage zu überprüfen.
 
-Da mboxTrace und mboxDebug Kampagnen- und Profildaten für Dritte enthüllen können, ist ein Autorisierungstoken erforderlich. Das Autorisierungstoken kann in der [!DNL Target]-Benutzeroberfläche abgerufen werden. Das Token ist sechs Stunden lang gültig.
+**mboxDebug** ist insbesondere bei der Einrichtung von [!DNL Target] auf Ihrer Seite hilfreich. Es stellt sicher, dass die [!DNL Target]-Anforderung ausgelöst und das Cookie gesetzt wird. Es geht jedoch nicht auf Details ein, die beim Debuggen der Inhaltsbereitstellung nützlich sind. Wenn Ihre Aktivität nicht auf Ihrer Seite erscheint oder unerwünschter Inhalt eingeblendet wird, verwenden Sie mboxTrace, um die Seite ausführlich zu untersuchen und Fehler zu diagnostizieren.
+
+## Debugging-Tools {#debugging-tools}
+
+### Abrufen des Autorisierungs-Tokens {#section_BED130298E794D1FA229DB7C3358BA54}
+
+mboxTrace und mboxDebug können Kampagnendaten und Profildaten für externe Parteien verfügbar machen. Daher ist ein Autorisierungs-Token erforderlich. Das Autorisierungstoken kann in der [!DNL Target]-Benutzeroberfläche abgerufen werden. Das Token ist sechs Stunden lang gültig.
 
 Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folgenden Benutzerberechtigungen:
 
-* Mindestens [!UICONTROL Bearbeiter] Berechtigung (oder [!UICONTROL Genehmiger])
+* Mindestens **[!UICONTROL Bearbeiter]** Berechtigung (oder **[!UICONTROL Genehmiger]**)
 
   Weitere Informationen für [!DNL Target Standard]-Kunden finden Sie unter [Festlegen von Rollen und Berechtigungen](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) für *Benutzer*. Weitere Informationen für [!DNL Target Premium]-Kunden finden Sie unter [Konfigurieren von Enterprise-Berechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -62,7 +66,7 @@ Für die Generierung eines Authentifizierungstokens benötigen Sie eine der folg
 
 So wird das Autorisierungstoken abgerufen:
 
-1. Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]**.
+1. Rufen Sie **[!UICONTROL Administration]** > **[!UICONTROL Implementierung]** auf.
 1. Klicken Sie im Abschnitt mit den Debuggingwerkzeugen auf **[!UICONTROL Neues Authentifizierungstoken erstellen]**.
 
    ![Neues Authentifizierungstoken erstellen](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
@@ -71,7 +75,7 @@ So wird das Autorisierungstoken abgerufen:
 
    ![Autorisierungstoken](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
-## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
+### mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
 Mit mboxTrace können Sie an [!DNL Target]-Antworten angehängte Trace-Informationen abrufen. Trace-Informationen spiegeln das Ergebnis eines [!DNL Target]-Aufrufs (z. B. eine Konversion oder eine Impression) sowie alle weiteren Daten wider, die dazu beitragen festzustellen, weshalb es zu diesem Ergebnis gekommen ist, beispielsweise eine Reihe verfügbarer Niederlassungen, zwischen denen während einer Kampagne eine Auswahl getroffen wurde. Verwenden Sie diese Informationen für eine Fehlerdiagnose der Inhaltsbereitstellung.
 
@@ -110,109 +114,134 @@ Sie müssen `=console`, `=json` oder `=window` nicht in den Abfrageparameter ein
 
 Die normale Funktionsweise und Erscheinung Ihrer Website wird durch mboxTrace nicht beeinträchtigt. Besucher sehen Ihr normales Recommendations-Design.
 
-## mboxDebug {#mboxdebug}
+### mboxDebug {#mboxdebug}
 
 Ergänzen Sie zur Verwendung von mboxDebug Ihre URL um einen mboxDebug-Parameter. Die folgende Tabelle enthält Informationen zu URL-Parametern von [!DNL Target] für Antworten.
 
->[!NOTE]
->
->Einige mboxDebug-Parameter stehen mit oder ohne Authentifizierung zur Verfügung.
+Beachten Sie, dass einige mboxDebug-Parameter mit oder ohne Authentifizierung verfügbar sind.
 
 | URL-Parameter | Zielsetzung |
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>Wenn Sie diesen Parameter zu einer URL mit definierten Target-Anforderungen hinzufügen, wird ein Pop-up-Fenster mit hilfreichen Details zur Fehlerbehebung geöffnet. Cookie-Informationen, die PCid und Sitzungs-ID-Werte sind ausgeschrieben und alle URLs sind sichtbar. Klicken Sie auf eine Target-Anforderungs-URL, um die Antwort für diese [!DNL Target]-Anforderung einzublenden. Weitere Details finden Sie unter [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf). |
 | `mboxDisable=1` | Deaktivieren von Mboxes auf der Seite |
-| `mboxOverride.browserIp=<Insert IP address>` | Geotargeting-Test<br>Mit diesem URL-Parameter wird das Geotargeting getestet. Geben Sie eine IP-Adresse als Wert für dieses Attribut ein. Daraufhin wertet das Test&amp;Target Geotargeting diese IP-Adresse anhand eines Geotargeting- oder Segmentierungssatzes in einer Kampagne aus. |
+| `mboxOverride.browserIp=<Insert IP address>` | Geotargeting-Test<br>Mit diesem URL-Parameter wird das Geotargeting getestet. Geben Sie als Wert für dieses Attribut eine IP-Adresse ein; das [!DNL Target]-Geotargeting wertet diese IP-Adresse aus, damit sie mit einem in einer Kampagne festgelegten Geotargeting oder Segmentierungssatz abgeglichen wird. |
 
 >[!NOTE]
 >
 >Geben Sie das URL-Fragment nach den Zeichenfolgeparametern der Abfrage ein. Alles nach dem ersten `#` wird als Fragmentkennung interpretiert und würde dazu führen, dass die Debugging-Parameter nicht korrekt funktionieren.
 
-## Adobe Experience Cloud-Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
+### Adobe Experience Cloud-Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Der Adobe Experience Cloud-Debugger ermöglicht die schnelle und einfache Problembehebung in Ihrer Target-Implementierung. Hier können Sie schnell Ihre Bibliothekskonfiguration anzeigen, Anfragen untersuchen, um sicherzustellen, dass Ihre benutzerspezifischen Parameter ordnungsgemäß übergeben werden, die Konsolenprotokollierung aktivieren sowie alle Target-Anfragen deaktivieren. Nach Ihrer Authentifizierung bei der Experience Cloud können Sie das leistungsstarke Tool „MboxTrace“ verwenden, um Ihre Aktivität und Ihre Zielgruppenqualifizierungen sowie Ihr Besucherprofil zu untersuchen.
+Der Adobe Experience Cloud-Debugger hilft Ihnen, Ihre [!DNL Target] zu verstehen. Sie können die Bibliothekskonfiguration anzeigen, sicherstellen, dass Ihre benutzerdefinierten Parameter korrekt weitergeleitet werden, die Konsolenprotokollierung aktivieren und alle [!DNL Target] deaktivieren. Nachdem Sie sich bei Experience Cloud authentifiziert haben, können Sie mboxTrace verwenden, um Ihre Aktivität und Zielgruppenqualifikationen sowie Ihr Besucherprofil zu überprüfen.
 
-Weitere Informationen finden Sie in den Schulungsvideos unten:
+Weitere Informationen finden Sie in den [Schulungsvideos](#training-videos) am Ende dieser Seite und unter &quot;[.js mit Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=de){target=_blank}.
 
-Weitere Informationen finden Sie unter [Debugging von at.js mit Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=de){target=_blank}.
+## Häufige Probleme {#common-problems}
 
-## Topverkäufe werden nicht in Recommendations angezeigt. {#section_3920C857270A406C80BE6CBAC8221ECD}
++++ Topverkäufe werden nicht in Recommendations angezeigt.
 
 Der *`SiteCatalyst: purchase`* kann nicht für Traffic-Daten des Einkaufsalgorithmus verwendet werden. Verwenden Sie stattdessen den Aufruf *`orderConfirmPage`*.
 
-## Aktivitätspriorität prüfen {#section_3D0DD07240F0465BAF655D0804100AED}
++++
 
-Formularbasierte Aktivitäten, die mit [!DNL Target Standard/Premium] erstellt wurden, kollidieren möglicherweise mit Aktivitäten, die in der Benutzeroberfläche von [!DNL Target Classic] erstellt wurden und die gleiche [!DNL Target]-Anforderung verwenden.
+</br>
 
-## Benutzerdefinierter Code generiert keine erwartungsgemäßen Ergebnisse in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
++++ Formularbasierte Aktivitäten kollidieren mit Target Classic-Aktivitäten
 
-Target unterstützt IE 8 nicht mehr.
+Formularbasierte Aktivitäten, die mit [!DNL Target Standard/Premium] erstellt wurden, kollidieren möglicherweise mit Aktivitäten, die in der Benutzeroberfläche von [!DNL Target Classic] erstellt wurden und die gleiche [!DNL Target]-Anforderung verwenden. Weitere Informationen finden Sie unter [Aktivitätspriorität](/help/main/c-activities/priority.md).
 
-## Target-Cookie wird nicht gesetzt {#section_77AFEB541C0B495EB67E29A4475DF960}
++++
 
-Wenn Ihre Site eine Unterdomäne besitzt, z. B. [!DNL us.domain.com], das Target-Cookie aber auf [!DNL domain.com] gesetzt werden muss (anstatt auf [!DNL us.domain.com]), dann müssen Sie die Einstellung `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank}.
+</br>
 
-## Der Target-Inhalt flackert oder wird nicht angezeigt, wenn ein Element ebenfalls Teil einer Personalisierung von Adobe Experience Manager ist. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
++++ Das [!DNL Target]-Cookie wird nicht gesetzt
 
-Wenn ein DOM-Element zum Adobe Experience Manager-(AEM)-Personalisierungstargeting und zu einer Target-Aktivität gehört, flackert der Target-Inhalt möglicherweise, oder er wird nicht angezeigt.
+Wenn Ihre Site über eine Subdomain verfügt, z. B. [!DNL us.domain.com], Sie jedoch das [!DNL Target] Cookie auf [!DNL domain.com] setzen müssen (anstelle von [!DNL us.domain.com]), müssen Sie die `cookieDomain` überschreiben. Weitere Informationen finden Sie unter [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=de){target=_blank}.
 
-Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen Target ausgeführt wird.
++++
 
-## Umleitungs- und Remote-Angebote können aufgrund einer ungültigen URL nicht bereitgestellt werden. {#section_7D09043B687F43B39DAEDF17D00375AC}
+</br>
+
++++ Inhalte flackern oder werden nicht angezeigt, wenn ein Element auch Teil der Adobe Experience Manager-Personalisierung ist
+
+Wenn ein DOM-Element zum Adobe Experience Manager (AEM)-Personalisierungstargeting und zu einer [!DNL Target]-Aktivität gehört, flackert [!DNL Target] Inhalt möglicherweise, oder er wird nicht angezeigt.
+
+Um dies zu beheben, können Sie die AEM-Personalisierung für Seiten deaktivieren, auf denen [!DNL Target] ausgeführt wird.
+
++++
+
+</br>
+
++++ Umleitungs- und Remote-Angebote können aufgrund einer ungültigen URL nicht bereitgestellt werden
 
 Wenn das Umleitungs- oder Remote-Angebot eine ungültige URL verwendet, kann es möglicherweise nicht bereitgestellt werden.
 
-Bei Umleitungsangeboten kann die [!DNL Target]-Antwort `/* invalid redirect offer URL */` enthalten.
+* Bei Umleitungsangeboten kann die [!DNL Target]-Antwort `/* invalid redirect offer URL */` enthalten.
+* Bei Remote-Angeboten kann die [!DNL Target]-Antwort `/* invalid remote offer URL */` enthalten.
 
-Oder
+Sie können die [!DNL Target] im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-Bei Remote-Angeboten kann die [!DNL Target]-Antwort `/* invalid remote offer URL */` enthalten.
++++
 
-Sie können die [!DNL Target]-Antwort im Browser oder mit mboxTrace überprüfen. Weitere Informationen zu gültigen URLs finden Sie unter [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
+</br>
 
-## [!DNL Target]-Anforderungen werden auf meiner Site nicht ausgelöst.
++++ [!DNL Target] werden auf meiner Site nicht ausgelöst
 
-at. js löst keine Target-Anforderungen aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
+at.js löst keine [!DNL Target] aus, wenn Sie einen ungültigen Doctype verwenden. at.js erfordert den Doctype HTML 5.
 
-## Stellen Sie sicher, dass [!DNL Target]-Aktivitäten URLs mit Abfragezeichenfolgen-Parametern korrekt verarbeiten. {#query-strings}
++++
 
-Die [!UICONTROL Aktivitäts-URL] bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
+## Aktivitäten mit Abfragezeichenfolgen-Parametern in der URL {#query-strings}
+
+Die **[!UICONTROL Aktivitäts-URL]** bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
 Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
-Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld [!UICONTROL Aktivitäts-URL] an.
+Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld **[!UICONTROL Aktivitäts-URL]** an.
 
 ![Konfigurieren der Benutzeroberfläche für Seitenbereitstellungseinstellungen](assets/configure-page-delivery.png)
 
-Was aber, wenn die URL Abfragezeichenfolgen-Parameter enthält? Funktioniert es und zeigt den personalisierten Inhalt an? In diesem Szenario können Sie unabhängig von Ihrer Zielgruppe zusätzlich zur Basis-URL Vorlagenregeln hinzufügen, um Ihre Abfrageparameter zu definieren.
+Wenn die URL Abfragezeichenfolgenparameter enthält, ist die Seite möglicherweise nicht für die Aktivität qualifiziert oder zeigt den personalisierten Inhalt an. Unabhängig von Ihrer Zielgruppe können Sie zur Definition Ihrer Abfrageparameter zusätzlich zur Basis-URL Vorlagenregeln einfügen.
 
 Die folgenden Optionen können verwendet werden, um zusätzliche Vorlagenregeln einzuschließen:
 
-### Option 1: Replizieren Sie die URL und behalten Sie sie in der Vorlagenregel bei - mit der Option „contains“.
+* **Option 1** Die URL replizieren und in der Vorlagenregel belassen, indem die Option „contains“ ausgewählt wird.
 
-Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass damit Sonderfälle verbunden sind, die Ihre Berichtsdaten mit zusätzlichen Einträgen zu URLs beeinflussen können, die die Basis-URL enthalten.
+  +++ Anzeigen der Vorlagenregel-Einrichtung
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln „enthalten“ dieselbe URL, getrennt durch einen OR-Operator:
+  Diese Option stellt sicher, dass diese URL für die Aktivität geeignet ist. Beachten Sie jedoch, dass damit Sonderfälle verbunden sind, die Ihre Berichtsdaten mit zusätzlichen Einträgen zu URLs beeinflussen können, die die Basis-URL enthalten.
 
-![Replizieren einer URL in Vorlagenregeln](assets/option1.png)
+  In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln „enthalten“ dieselbe URL, getrennt durch einen OR-Operator:
 
-### Option 2: Beschränken Sie die URL-Bedingung „contains“ auf die Abfragezeichenfolge.
+  ![Replizieren einer URL in Vorlagenregeln](assets/option1.png)
 
-Der in der vorherigen Option beschriebene Sonderfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
+  +++
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln „enthalten“ nur die Abfragezeichenfolge, getrennt durch einen OR-Operator:
+* **Option 2:** Beschränken Sie die URL-Bedingung „contains“ auf die Abfragezeichenfolge.
 
-![Vorlagenregel enthält nur die Abfragezeichenfolge](assets/option2.png)
+  +++ Anzeigen der Vorlagenregel-Einrichtung
 
-### Option 3: Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL.
+  Der in der vorherigen Option beschriebene Sonderfall wird in dieser Option angewendet, aber hier ist die bedingte Einrichtung auf die Abfragezeichenfolge beschränkt.
 
-In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln geben eine [!UICONTROL Abfrage] mit [!UICONTROL type] > [!UICONTROL ist (von Schreibweise abhängig)] > type=Summers%20Offers an, getrennt durch einen OR-Operator:
+  In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers` und zusätzliche Vorlagenregeln „enthalten“ nur die Abfragezeichenfolge, getrennt durch einen OR-Operator:
 
-![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
+  ![Vorlagenregel enthält nur die Abfragezeichenfolge](assets/option2.png)
 
-## Das Umgehen von Anführungszeichen in [!DNL Target] Profilattributwert funktioniert nicht erwartungsgemäß. {#escape}
+  +++
 
-Wenn Sie Werte senden, die doppelte Anführungszeichen in einem [!DNL Target] Profilattribut enthalten, müssen Sie sie wie unten dargestellt doppelt ausklammern.
+* **Option 3:** Verwenden Sie anstelle der vollständigen URL einen bestimmten Teil der URL
+
+  +++ Anzeigen der Vorlagenregel-Einrichtung
+
+  In diesem Szenario lautet die URL `https://shopping.mycart.com?type=Summers%20Offers`, und zusätzliche Vorlagenregeln geben eine **[!UICONTROL Abfrage]** mit **[!UICONTROL type]** > **[!UICONTROL ist (von Schreibweise abhängig)]** > type=Summers%20Offers an, getrennt durch einen OR-Operator:
+
+  ![Vorlagenregel, die einen bestimmten Teil der URL nutzt](assets/option3.png)
+
+  +++
+
+## Maskieren von Anführungszeichen in Profilattributwerten {#escape}
+
+Wenn Sie Werte senden, die doppelte Anführungszeichen in einem [!DNL Target] Profilattribut enthalten, müssen Sie sie wie unten dargestellt doppelt mit Escape-Zeichen versehen.
 
 ```
 adobe.target.trackEvent({
@@ -223,7 +252,7 @@ adobe.target.trackEvent({
 });
 ```
 
-## Schulungsvideos
+## Schulungsvideos {#training-videos}
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
