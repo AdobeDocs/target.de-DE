@@ -16,14 +16,20 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 53%
+source-wordcount: '347'
+ht-degree: 29%
 ---
-# Erstellen von Kombinationen
+# Erstellen von Kombinationen {#create-combinations}
 
-Verwenden Sie den [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target], um die Angebote zu erstellen, die Sie in Ihren [!UICONTROL Multivarianz-Test] (MVT) aufnehmen möchten.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie das Bild und die HTML-Angebote erstellen, die die Kombinationen eines **[!UICONTROL Multivarianz-Tests“]**.
+
+>[!ENDSHADEBOX]
+
+In einem **[!UICONTROL Multivarianz-Test]** (MVT) enthält jeder Standort mehrere Angebote, und jede Kombination von Angeboten an den Standorten ist ein Erlebnis. Verwenden Sie den **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target], um die Angebote zu erstellen, die Sie in Ihren Test aufnehmen möchten.
 
 Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von Angeboten finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -33,36 +39,38 @@ Weitere Informationen zur Verwendung des VEC zum Erstellen und Bearbeiten von An
 >
 >Sie können auch den [DOM-Pfad](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) zum Navigieren in Elementen verwenden.
 
-## Bildangebote {#section_A48333211DB149ED926AE467D0032914}
+## Bildangebote {#image-offers}
 
-Testen Sie mehrere Bildangebote an einem Ort, um zu bestimmen, welches Bild am erfolgreichsten ist.
+Testen Sie mehrere Bildangebote an einem Ort, um zu ermitteln, welches Bild am erfolgreichsten ist.
 
 1. Klicken Sie auf ein Bild auf Ihrer Seite und wählen Sie **[!UICONTROL Bildangebot ändern]**.
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Bildangebot] alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+   ![Menü „Bildangebot ändern“](../assets/multivariate-1.png)
+
+1. Wählen **[!UICONTROL Dialogfeld „Bildangebot]** alle Bilder aus, die Sie in den Test einbeziehen möchten, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+
+   ![Menü „Bildangebot ändern“](../assets/multivariate-3.png)
 
 Jedes Bild wird zu einem eigenen Erlebnis an diesem Ort.
 
-## HTML-Angebote {#section_DF016101AFA9412C9B99862C23DE77B1}
+## HTML-Angebote {#html-offers}
 
 Testen Sie mehrere HTML-Angebote an einem Ort, um zu ermitteln, welches Angebot am erfolgreichsten ist.
 
 1. Klicken Sie auf Ihrer Seite auf ein HTML-Angebot und dann auf **[!UICONTROL HTML-Angebot]**.
 
-1. Klicken Sie **[!UICONTROL Angebot erstellen]**, klicken Sie auf **[!UICONTROL HTML-]**, benennen Sie das Angebot, geben Sie den Code für das HTML-Angebot ein, oder fügen Sie ihn ein, und klicken Sie dann auf **[!UICONTROL Erstellen]**.
+   ![HTML-Angebotsmenü ändern](../assets/multivariate-2.png)
 
-   Wiederholen Sie diese Schritte für alle weiteren HTML-Angebote, die Sie einbeziehen möchten.
+1. Wählen Sie Ihr HTML-Angebot aus und klicken Sie **[!UICONTROL Angebot erstellen]** und dann auf **[!UICONTROL HTML-Angebot]**.
+
+   ![HTML-Angebotsmenü ändern](../assets/multivariate-4.png)
+
+1. Benennen Sie das Angebot, geben Sie den Code für das HTML-Angebot ein, oder fügen Sie ihn ein. Klicken Sie dann auf **[!UICONTROL Erstellen]**.
+
+   Wiederholen Sie den Vorgang für alle weiteren HTML-Angebote, die Sie einbeziehen möchten.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 Jedes HTML-Angebot wird zu einem eigenen Erlebnis an diesem Ort.
 
-## Best Practices {#section_2E98C23D2F1A460FA732A31799CE6291}
-
-* Geben Sie nicht mehr Stellen an, als für den Test erforderlich sind. Jedes Erlebnis, das Sie in den Test einbeziehen, führt zu einer erheblichen Steigerung des Datenverkehrs und der erforderlichen Zeit für die Erreichung annehmbarer Ergebnisse. Wenn Sie zum Beispiel über Seitenelemente mit je drei Angeboten verfügen, entspricht dies neun möglichen Kombinationen (3 x 3). Drei Elemente, von denen zwei drei mögliche Angebote und eines zwei Angebote enthalten, entsprechen 18 Optionen (3 x 3 x 2). Mit jedem zusätzlichen Element und Angebot steigt die Anzahl erheblich.
-* Beim Erstellen Multivarianz-Tests können Sie mehr als 10 Prozent der Erlebnisse vom Test ausschließen, sofern Sie die Warnung bestätigen, dass Sie dann Offline-Berichte für die Analyse verwenden müssen.
-* Nutzen Sie die Vorschaufunktion, um unerwünschte Inhaltskombinationen zu vermeiden. Zum Beispiel kann es zwei Bilder geben, die verschiedene Rabatte für denselben Artikel oder Service anbieten. Wenn beide Bilder auf derselben Seite eingeblendet werden, ist dies unlogisch und sorgt wahrscheinlich für Verwirrung.
-* Verwenden Sie die [Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md), um sicherzustellen, dass Ihr Test für das Datenverkehrsaufkommen konzipiert ist, das auf Ihrer Seite anfällt. Stellen Sie sicher, dass die Traffic-Schätzung Ihrer Testkonfiguration grünes Licht gibt, damit Sie die gewünschten Ergebnisse erhalten.
-* Sie müssen mindestens drei Testelemente haben. Wenn die Anzahl der Elemente niedriger ist, führen Sie eine Reihe von A/B-Tests durch.
-* Die Alternativen der einzelnen Elemente sollten sich deutlich voneinander unterscheiden.
-* Eine bewährte, wenn auch nicht erforderliche Vorgehensweise besteht darin, für jedes Element die gleiche Anzahl von Alternativen zu verwenden.
+Empfehlungen dazu, wie viele Kombinationen einbezogen werden sollten und wie sie vor dem Start des Tests überprüft werden können, finden Sie unter [Best Practices für Multivarianz-Tests](/help/main/c-activities/c-multivariate-testing/best-practices.md#create).

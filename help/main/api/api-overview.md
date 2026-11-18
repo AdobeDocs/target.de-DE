@@ -27,12 +27,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '186'
 ht-degree: 3%
 ---
-# Adobe [!DNL Target] SDKs und APIs
+# Erste Schritte mit den [!DNL Adobe Target] SDKs und APIs
 
 Bevor Sie [!DNL Adobe Target] verwenden, müssen Sie es auf Ihrer Site implementieren.
 
@@ -53,4 +53,4 @@ Das Entwicklerportal enthält Informationen zu den folgenden Implementierungstyp
 * Reporting-APIs.
 * Recommendations-APIs.
 
-Weitere Informationen finden Sie unter [Target-API - &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=de){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank}.
+Weitere Informationen finden Sie unter [Target-API - ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

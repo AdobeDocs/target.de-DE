@@ -24,12 +24,12 @@ topic_v2:
     internal-label: Content and assets
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 36%
+source-wordcount: '412'
+ht-degree: 35%
 ---
-# Übersicht über [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] von AEM
+# Erste Schritte mit AEM [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmenten]
 
 Verwenden Sie [!UICONTROL Experience Fragments] (XFs) und [!UICONTROL Inhaltsfragmente] (CFs), die in [!DNL Adobe Experience Manager] (AEM) erstellt wurden, in [!DNL Target] Aktivitäten zur Optimierung und Personalisierung.
 
@@ -61,7 +61,7 @@ Beachten Sie Folgendes bei der Arbeit mit AEM [!UICONTROL Experience Fragments] 
 * Sie können [!UICONTROL Experience Fragments] in [!DNL Target] Aktivitäten mit dem [Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) und dem [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md).
 * Sie können [!UICONTROL Inhaltsfragmente] nur in [!DNL Target] Aktivitäten aufnehmen, die den [formularbasierten Experience Composer](/help/main/c-experiences/form-experience-composer.md) verwenden.
 
-## Was ist der Unterschied zwischen [!UICONTROL Experience &#x200B;]Inhaltsfragmenten[!UICONTROL &#x200B; und &#x200B;]?
+## Was ist der Unterschied zwischen [!UICONTROL Experience ]Inhaltsfragmenten[!UICONTROL  und ]?
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] können auf der Oberfläche ähnlich aussehen, aber jeder Fragmenttyp spielt Schlüsselrollen in verschiedenen Anwendungsfällen.
 

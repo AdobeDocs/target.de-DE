@@ -2,7 +2,7 @@
 keywords: Targeting; AP-Berichte; Automatisierte Personalisierung-Berichte; auto-target; auto target; Auto-Target-Bericht; Auto Target-Bericht; Personalisierung; Insights; automatisierte Segmente; FAQ; häufig gestellte Fragen; wichtige Attribute
 description: Erfahren Sie, wie Sie die spezialisierten Berichte für Aktivitäten von Automated Personalization (AP) und Automatisches Targeting (AT) verwenden - automatisierte Segmente und wichtige Attribute.
 title: Wie verwende ich die Personalization Insights-Berichte?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
@@ -30,14 +30,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 28%
+source-wordcount: '1027'
+ht-degree: 27%
 ---
-# [!UICONTROL Personalization Insights] Berichte
+# Erste Schritte mit [!UICONTROL Personalization Insights-]
 
-Für Benutzer von [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten stehen zwei spezialisierte Berichte zur Verfügung: die Berichte [!UICONTROL Automatisierte &#x200B;] und [!UICONTROL Wichtige Attribute].
+Für Benutzer von [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Automatisches Targeting] (AT)-Aktivitäten stehen zwei spezialisierte Berichte zur Verfügung: die Berichte [!UICONTROL Automatisierte ] und [!UICONTROL Wichtige Attribute].
 
 ## Zu beachten
 
@@ -107,7 +107,7 @@ Es gibt zwei Arten von Attributen in [!UICONTROL Personalization Insights]-Beric
 
 ## Häufig gestellte Fragen
 
-Liste der häufig gestellten Fragen zu [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-]&#x200B;[!UICONTROL Insights]-Berichten.
+Liste der häufig gestellten Fragen zu [!UICONTROL Automated Personalization] (AP)- und [!UICONTROL Auto-][!UICONTROL Insights]-Berichten.
 
 ### Wie lange bleiben Daten für die Modelle [!UICONTROL Automated Personalization] (AP) und [!UICONTROL Automatisches Targeting] erhalten?
 
@@ -117,7 +117,7 @@ Die [!UICONTROL Automated Personalization] (AP)- [!UICONTROL Automatisches Targe
 
 ## Schulungsvideo: Verwenden von Personalization Insights-Berichten ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328354?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Weitere Informationen finden Sie unter [Verwenden der Personalization Insights-Berichte in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 

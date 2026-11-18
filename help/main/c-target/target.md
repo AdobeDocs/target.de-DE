@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppenbestimmung;Zielgruppen
-description: Erfahren Sie, wie Sie Zielgruppen in [!DNL Adobe Target]  verwenden können, um verschiedene Inhalte und Erlebnisse für bestimmte Zielgruppen anzusprechen und so Ihre Web-Marketing-Maßnahmen zu optimieren.
+description: Erfahren Sie, wie Sie Zielgruppen in verwenden, [!DNL Adobe Target] verschiedene Inhalte und Erlebnisse für bestimmte Zielgruppen anzusprechen, um Ihre Web-Marketing-Maßnahmen zu optimieren.
 title: Wie kann ich [!UICONTROL Audiences] verwenden, um verschiedene Inhalte auf bestimmte Segmente auszurichten?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
@@ -16,14 +16,12 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
-
-# Zielgruppen
+# Erste Schritte mit Zielgruppen
 
 Verwenden Sie Zielgruppen in [!DNL Adobe Target], um Ihre Inhalte und Erlebnisse speziell an bestimmte Zielgruppen anzupassen. Durch geeignete Botschaften zum richtigen Zeitpunkt für die richtigen Personen können Sie so Ihr Web-Marketing optimieren.
 
@@ -48,4 +46,4 @@ Dieses Video enthält Informationen zur Einrichtung und zum Targeting von Zielgr
 * Auswählen der Zuordnungsmethode für den Traffic
 * Zuweisen von Traffic zu verschiedenen Erlebnissen
 
->[!VIDEO](https://video.tv.adobe.com/v/3507596?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)

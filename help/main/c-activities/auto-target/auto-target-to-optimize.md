@@ -1,8 +1,8 @@
 ---
 keywords: Automatisches Targeting;Targeting;Traffic-Zuordnung;häufig gestellte Fragen;FAQ;Fehlerbehebung;Fehlerbehebung
-description: Erfahren Sie, wie [!UICONTROL &#x200B; Aktivität vom Typ „Automatisches Targeting] jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
+description: Erfahren Sie, wie [!UICONTROL  Aktivität vom Typ „Automatisches Targeting] jedem Besucher auf der Grundlage von Kundenprofilen und dem Verhalten ähnlicher Besucher das passendste Erlebnis bereitstellt.
 title: Was ist eine [!UICONTROL automatisches Targeting]-Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: 'https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is'
@@ -36,12 +36,12 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 878df20c7fb08c893239135c20f358b5606d0c6f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2072'
 ht-degree: 12%
 ---
-# [!UICONTROL Automatisches Targeting] - Überblick {#auto-target-overview}
+# Erste Schritte mit [!UICONTROL automatischem Targeting] {#auto-target-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Die folgenden Begriffe sind bei der Diskussion von **[!UICONTROL automatischem T
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest ist ein führender Ansatz beim maschinellen Lernen. In datenwissenschaftlicher Hinsicht handelt es sich um eine Ensemble-Klassifizierungs- oder Regressionsmethode, bei der viele Entscheidungsbäume auf der Grundlage von Besucher- und Besuchsattributen erstellt werden. In [!DNL Target] wird mithilfe der Zufallsstruktur bestimmt, welches Erlebnis für jeden einzelnen Besucher die höchste Konversionswahrscheinlichkeit (oder den höchsten Umsatz pro Besuch) aufweist. |
 | [Thompson-](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Das Ziel des Thompson-Stichprobenverfahrens besteht darin, festzustellen, welches Erlebnis insgesamt am besten ist (nicht personalisiert), und gleichzeitig die „Kosten“ für das Auffinden dieses Erlebnisses zu minimieren. Beim Thompson-Stichprobenverfahren wird immer ein Gewinner ausgewählt, auch wenn es keinen statistischen Unterschied zwischen zwei Erlebnissen gibt. |
 
-## Funktionsweise [!UICONTROL &#x200B; automatischen &#x200B;] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Funktionsweise [!UICONTROL  automatischen ] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 Auf den folgenden Seiten werden die Daten und Algorithmen beschrieben, die **[!UICONTROL automatischen Targeting]** **[!UICONTROL Automated Personalization zugrunde liegen]**:
 

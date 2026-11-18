@@ -25,37 +25,35 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '417'
+ht-degree: 2%
 ---
-# [!UICONTROL Experience Targeting] (XT)
+# Erste Schritte mit [!UICONTROL Erlebnis-Targeting] {#get-started-xt}
 
-Beim [!UICONTROL Experience Targeting] (XT) werden Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien, die von den Werbungtreibenden definiert werden, bereitgestellt.
+>[!BEGINSHADEBOX]
 
-[!UICONTROL Erlebnis-], einschließlich [Geo-Targeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), ermöglicht die Definition von Regeln für Erlebnisse oder Inhalte, die auf eine bestimmte Zielgruppe ausgerichtet sind. Für eine Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen.
+**Auf dieser Seite** Erfahren Sie, was **[!UICONTROL Erlebnis-Targeting]** ist, wie es in die Personalisierung passt und wie ein Szenario verschiedene Zielgruppen mit unterschiedlichen Erlebnissen anspricht.
 
-Wenn Besucherinnen und Besucher Ihre Website aufrufen[!UICONTROL &#x200B; wertet „Experience Targeting] (XT) diese Besucherinnen und Besucher aus, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Wenn sie die Kriterien erfüllen, treten sie in die Aktivität ein, und das für qualifizierte Zielgruppen entwickelte Erlebnis wird angezeigt. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
+>[!ENDSHADEBOX]
 
-[!UICONTROL Erlebnis-Targeting] ist ein erster Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Ein Marketing-Experte führt einen A/B-Test durch und stellt mithilfe von Reporting-Zielgruppen fest, dass verschiedene Erlebnisse bei verschiedenen Zielgruppen Anklang finden. [!UICONTROL Erlebnis-Targeting] ermöglicht es Marketing-Experten, diese Erkennung einfach zu nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Benutzersegmente zu wechseln.
+Beim [!UICONTROL Experience Targeting] (XT) werden Inhalte für eine bestimmte Zielgruppe basierend auf einem Satz aus Regeln und Kriterien, die von den Werbungtreibenden definiert werden, bereitgestellt. Dies ist nützlich für die Definition von Regeln, einschließlich [Geotargeting](/help/main/c-target/c-audiences/c-target-rules/geo.md), die auf ein bestimmtes Erlebnis oder bestimmte Inhalte für eine bestimmte Zielgruppe abzielen. In einer Aktivität können mehrere Regeln definiert werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen.
 
-## Szenario: Erlebnis-Targeting
+Wenn Besucherinnen und Besucher Ihre Website aufrufen[!UICONTROL  werden diese Besucherinnen und Besucher ] „Erlebnis-Targeting“ bewertet, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Wenn sie die Kriterien erfüllen, treten sie in die Aktivität ein, und das für die qualifizierte Zielgruppe entwickelte Erlebnis wird angezeigt.
 
-Angenommen, Sie bieten auf Ihrer Website Outdoor-Ausrüstung an. Ihre Berichte für A/B-Tests zeigen, dass Sie drei Erlebnisse haben, die bei verschiedenen Zielgruppen Anklang finden. Um diese Entdeckung anzuwenden, sollten Sie auf Ihrer Homepage ein anderes Hero-Bild anzeigen, um diese verschiedenen Zielgruppen je nach Standort oder Hobbys der Besucher anzusprechen. Angenommen, Sie möchten für Besucher aus Bayern ein Bild eines Wanderers und für Besucher aus dem Norden ein Bild eines Surfers darstellen. Außerdem gibt es eine Zielgruppe, die an Fahrrädern interessiert ist. Deshalb möchten Sie ein drittes Hero Image zeigen, das Ihre Fahrrad-Zielgruppe anspricht.
+[!UICONTROL Erlebnis-Targeting] ist ein erster Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Ein Marketing-Experte führt einen A/B-Test durch und stellt mithilfe von Berichten zu Zielgruppen fest, dass verschiedene Erlebnisse bei verschiedenen Zielgruppen Anklang finden. [!UICONTROL Erlebnis-Targeting] ermöglicht es Marketing-Experten, diese Erkennung einfach zu nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Zielgruppensegmente zu wechseln.
 
-Eine [!UICONTROL Erlebnis-]) ermöglicht es Ihnen, diese drei Zielgruppen mit einem unterschiedlichen Hero-Bild anzusprechen, das jede Zielgruppe anspricht. Das Video unten *From A/B Testing to Experience Targeting* zeigt Ihnen, wie Sie Erlebnisse erstellen, die sich an die beiden Besuchergruppen richten, sowie ein drittes Erlebnis für Fahrradfans. Im Video erfahren Sie auch, wie Sie die drei Erlebnisse anordnen müssen, um Ihr gewünschtes Ergebnis zu erhalten. Sehen Sie sich das Video an und fahren Sie danach mit der [Erstellung einer Erlebnis-Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)fort.
+## Szenario: von A/B-Tests zu Erlebnis-Targeting {#xt-scenario}
 
-## Schulungsvideos:
+Angenommen, Ihre Website verfügt über Outdoor-Ausrüstung. Ihre Berichte für A/B-Tests zeigen, dass Sie drei Erlebnisse haben, die bei verschiedenen Zielgruppen Anklang finden. Um diese Entdeckung anzuwenden, möchten Sie auf Ihrer Homepage ein anderes Hero-Bild anzeigen, das je nach Standort oder Hobbys der Besucher für jede Zielgruppe attraktiv ist. Sie möchten Besuchern aus New Jersey ein Wanderbild, Besuchern aus Hawaii ein Surfbild und einer Zielgruppe, die Fahrrad mag, ein drittes Bild anzeigen.
 
-In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
+Mit [!UICONTROL  Aktivität „Erlebnis] können Sie diese drei Zielgruppen mit jeweils einem anderen Hero-Bild ansprechen. Im folgenden Video wird beschrieben, wie Sie A/B-Tests mit Erlebnis[!UICONTROL Targeting auf die nächste Stufe ]. Hier wird gezeigt, wie:
 
-### Von A/B-Tests bis [!UICONTROL Erlebnis-Targeting]
+* Konfigurieren Sie eine [!UICONTROL Erlebnis]Targeting-Aktivität mithilfe des dreistufigen Workflows.
+* Stellen Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereit, indem Sie Erlebnisse erstellen, die sowohl auf Staaten als auch auf ein drittes Erlebnis für Bikefans ausgerichtet sind.
+* Ordnen Sie die drei Erlebnisse neu an, um sicherzustellen, dass die richtigen Inhalte für die richtige Zielgruppe bereitgestellt werden.
 
-In diesem Video wird beschrieben, wie Sie A/B-Tests mit Erlebnis[!UICONTROL Targeting auf die nächste Stufe &#x200B;].
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-* Beschreibung des dreistufigen Workflows zum Konfigurieren einer [!UICONTROL Erlebnis-Targeting]-Aktivität
-* Beschreiben Sie, wie Sie standortspezifische Inhalte für Zielgruppen in verschiedenen geografischen Bereichen bereitstellen
-* Neusortierung von Erlebnissen, um zu gewährleisten, dass der richtige Inhalt der richtigen Zielgruppe bereitgestellt wird
-
->[!VIDEO](https://video.tv.adobe.com/v/38302?captions=ger)
+Fahren Sie nach dem Ansehen des Videos mit [Erstellen einer Experience Targeting-Aktivität](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) fort.

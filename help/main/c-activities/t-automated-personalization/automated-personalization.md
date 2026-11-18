@@ -2,7 +2,7 @@
 keywords: Automated Personalization;App;Zielgruppen;Ensemble;Random Forest;Multi-Armed Bandit;Thompson-Stichprobenverfahren;ml;maschinelles Lernen
 description: Erfahren Sie, wie Sie [!UICONTROL Automated Personalization]-Aktivitäten (AP) in [!DNL Adobe Target] verwenden, die mithilfe des erweiterten maschinellen Lernens verschiedene Angebotsvarianten für jede Besucherin und jeden Besucher abgleichen.
 title: Was ist eine [!UICONTROL Automated Personalization]-Aktivität (AP)?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,12 +38,12 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '908'
 ht-degree: 15%
 ---
-# [!UICONTROL Automated Personalization] (AP) {#automated-personalization-overview}
+# Erste Schritte mit [!UICONTROL Automated Personalization] {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -83,7 +83,7 @@ Weitere Informationen zu Random Forest in [!DNL Target] finden Sie unter [Random
 | **Anpassung an Änderungen im Besucherverhalten** | Der mehrarmige Bandit gibt immer einen kleinen Teil des Traffics aus, um während des ganzen Aktivitätslebens weiter zu lernen und eine Übernutzung der bereits erlernten Trends zu verhindern. Die zugrunde liegenden Modelle werden alle 24 Stunden mit den neuesten Daten zum Besucherverhalten neu erstellt. Wenn der Algorithmus keine Gewinnererlebnisse für einzelne Besucher ermitteln kann, zeigt er das insgesamt beste Erlebnis an, das mithilfe des [Thompson-Stichprobenverfahrens](https://en.wikipedia.org/wiki/Thompson_sampling) ermittelt wurde, während er weiterhin nach personalisierten Gewinnern sucht. |
 | **Zielmetrik** | Das Modell optimiert kontinuierlich eine einzelne Zielmetrik, die konversionsbasiert oder umsatzbasiert sein kann (genauer gesagt, &quot;**[!UICONTROL pro Besuch]**). |
 | **Daten und Audiences** | [!DNL Target] erfasst automatisch Informationen über Besucher, um die Personalisierungsmodelle zu erstellen. Weitere Informationen zu den in {**[!UICONTROL }Automatisches Targeting]** und **[!UICONTROL Automated Personalization]** verwendeten Attributen finden Sie unter [Automated Personalization-Datenerfassung](/help/main/c-activities/t-automated-personalization/ap-data.md). [!DNL Target] verwendet auch automatisch alle [!DNL Adobe Experience Cloud] freigegebenen Zielgruppen. Daher müssen Sie nichts Bestimmtes tun, um Zielgruppen zum Modell hinzuzufügen. Weitere Informationen finden Sie unter [Experience Cloud-Zielgruppen](/help/main/c-integrating-target-with-mac/mmp.md). |
-| **Benutzerdefinierte Daten** | Marketing-Experten können Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen. Die Daten können mit [Mbox-Parametern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}, [Profilparametern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} oder [Server-seitigen APIs für die Profilaktualisierung) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}. |
+| **Benutzerdefinierte Daten** | Marketing-Experten können Offline-Daten wie CRM-Informationen oder Tendenzwerte zur Kundenabwanderung oder andere benutzerdefinierte Daten hochladen, um Personalisierungsmodelle zu erstellen. Die Daten können mit [Mbox-Parametern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}, [Profilparametern](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank} oder [Server-seitigen APIs für die Profilaktualisierung) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=de){target=_blank}. |
 
 ## Schulungsvideo: Aktivitätstypen {#training-video}
 
@@ -93,4 +93,4 @@ In diesem Video werden die in [!DNL Target] verfügbaren Aktivitätstypen erläu
 * Auswählen des für Ihre Ziele geeigneten Aktivitätstyps
 * Beschreibung des für alle Aktivitätstypen gültigen Arbeitsablaufs mit drei Schritten
 
->[!VIDEO](https://video.tv.adobe.com/v/29397?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

@@ -20,14 +20,12 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# Besucherprofile
+# Erste Schritte mit Besucherprofilen
 
 Besucherprofile in [!DNL Adobe Target] enthalten Informationen darüber, wie Ihre Besucher Ihre Seiten und andere optimierte Inhaltsspeicherorte verwenden.
 
@@ -40,6 +38,6 @@ Weitere Informationen dazu finden Sie in den folgenden Abschnitten:
 - [Lebensdauer des Besucherprofils](visitor-profile-lifetime.md)
 - [Profilattribute](profile-parameters.md)
 - [Kategorieaffinität](category-affinity.md)
-- [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=de)
+- [Kundenattribute](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Echtzeit-Profilsynchronisation für mbox3rdPartyID](3rd-party-id.md)
 - [Nützliche Variablen, Profile, Parameter und Methoden](variables-profiles-parameters-methods.md)

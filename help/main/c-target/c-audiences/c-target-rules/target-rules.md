@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# Kategorien für Zielgruppen
+# Erste Schritte mit Kategorien für Zielgruppen
 
 Mit [!DNL Adobe Target] können Sie auf jedes beliebige Kategorieattribut abstimmen. Um Targeting-Regeln (oder -Gruppen) für jedes Attribut zu erstellen, ziehen Sie die gewünschten Attribute per Drag-and-Drop in den Audience Builder-Bereich.
 
@@ -48,4 +46,4 @@ Dieses Video enthält Informationen zur Verwendung von Zielgruppenkategorien.
 * Erstellen von Zielgruppen
 * Festlegen von Zielgruppenkategorien
 
->[!VIDEO](https://video.tv.adobe.com/v/3507777?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
