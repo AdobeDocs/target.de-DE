@@ -48,7 +48,7 @@ Verhindern Sie, dass Angebote aus der Angebotsbibliothek dupliziert werden, wenn
 
 Eine Aktivität kann beispielsweise sechs Orte auf einer Seite mit zwölf Angeboten umfassen, sodass dasselbe Angebot an mehr als einer Stelle platziert werden kann. Durch das Deaktivieren doppelter Angebote wird verhindert, dass dasselbe Angebot gleichzeitig an verschiedenen Stellen innerhalb derselben Aktivität angezeigt wird.
 
-1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)Aktivität auf das Symbol **[!UICONTROL Konfigurieren]** ( ![Symbol „Konfigurieren](/help/main/assets/icons/Setting.svg) ).
+1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)Aktivität auf das Symbol **[!UICONTROL Konfigurieren]** ( ![Symbol „Konfigurieren](/help/main/assets/icons/Setting.svg) ).
 
 1. Klicken Sie **[!UICONTROL Duplizierte Angebote zulassen]**, um diese Funktion je nach Bedarf zu aktivieren oder zu deaktivieren.
 
@@ -60,7 +60,7 @@ Eine Aktivität kann beispielsweise sechs Orte auf einer Seite mit zwölf Angebo
 
 Schließen Sie bestimmte Erlebnisse aus, um bestimmte Angebotskombinationen aus Ihrer API-Aktivität zu entfernen. Einige Kombinationen funktionieren möglicherweise nicht zusammen oder die Anzahl der getesteten Erlebnisse kann begrenzt werden, um die Traffic-Anforderungen der Aktivität zu senken.
 
-1. Klicken [ beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)Aktivität auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
+1. Klicken [&#x200B; beim Erstellen oder Bearbeiten einer AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity)Aktivität auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
 
    Die Liste **[!UICONTROL Erlebnisse]** zeigt jedes Erlebnis an, das anhand der Permutationen sämtlicher Inhalts- und Positionsoptionen generiert wurde.
 
@@ -79,7 +79,7 @@ Schließen Sie bestimmte Erlebnisse aus, um bestimmte Angebotskombinationen aus 
 
 Schließen Sie Standardinhalte aus, wenn sie nicht Teil Ihrer API-Aktivität sein sollen, sodass ein Speicherort nur ein Angebot enthält, das sich von Ihrem Standardinhalt unterscheidet. Mit diesem Ansatz können Sie auch das Erscheinungsbild der restlichen Seite ändern, sodass sie zu den getesteten Angeboten passt. Um beispielsweise die Farbpalette der Angebote abzustimmen, können Sie die Hintergrundfarbe der Seite ändern und die standardmäßige Hintergrundfarbe ausschließen.
 
-1. Wählen [ beim Erstellen oder Bearbeiten ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) AP-Aktivität den zu ersetzenden Inhalt aus und klicken Sie dann auf **[!UICONTROL Text/HTML ändern]**, **[!UICONTROL Bildangebot ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**. Die verfügbaren Optionen variieren je nach Inhaltstyp.
+1. Wählen [&#x200B; beim Erstellen oder Bearbeiten &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) AP-Aktivität den zu ersetzenden Inhalt aus und klicken Sie dann auf **[!UICONTROL Text/HTML ändern]**, **[!UICONTROL Bildangebot ändern]** oder **[!UICONTROL Hintergrundfarbe ändern]**. Die verfügbaren Optionen variieren je nach Inhaltstyp.
 
    ![Optionen ändern](../assets/exclusion-1.png)
 

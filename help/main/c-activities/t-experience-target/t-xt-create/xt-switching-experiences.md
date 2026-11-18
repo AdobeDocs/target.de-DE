@@ -1,7 +1,7 @@
 ---
 keywords: Priorität;Erlebnis erstellen;Prioritäten;Erlebnis;Zielgruppe;Erlebnisse;Erlebnisse wechseln;Visual Experience Composer
-description: Erfahren Sie, wie Besucherinnen und Besucher bei der Weiterentwicklung ihrer Profile in einer [!DNL Adobe Target]Experience [!UICONTROL Targeting](XT)-Aktivität zwischen Erlebnissen wechseln können.
-title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen ]?
+description: Erfahren Sie, wie Besucherinnen und Besucher bei der Weiterentwicklung ihrer Profile in einer [!DNL Adobe Target]Experience [!UICONTROL Targeting] (XT)-Aktivität zwischen Erlebnissen wechseln können.
+title: Können Besucher in einer Experience Targeting[!UICONTROL -Aktivität zwischen Erlebnissen &#x200B;]?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: 'https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU'

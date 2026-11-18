@@ -44,7 +44,7 @@ ht-degree: 3%
 
 Sie können beim Erstellen einer [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP)- oder [**[!UICONTROL Automatisches Targeting]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)-Aktivität ein zufällig bereitgestelltes Erlebnis oder ein bestimmtes Erlebnis als Kontrolle. Der Kontroll-Traffic wird basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentsatz an die relevanten Erlebnisse weitergeleitet, damit Sie die Leistungsberichte des personalisierten Traffics mit dem Kontroll-Traffic vergleichen können.
 
-In einem manuellen **[!UICONTROL A/B-Test]** können Sie ändern, was in Berichten als Kontrolle angezeigt wird. Die Steigerung wird aus diesem Erlebnis berechnet, da der Traffic nach dem Zufallsprinzip allen Erlebnissen bereitgestellt wird, unabhängig von der Kontrolle. In den Aktivitäten {]**}Automated Personalization und**[!UICONTROL  Automatisches Targeting ]**wirkt sich das Steuerelement nicht darauf aus, wie der Besucher-Traffic bereitgestellt wird. Wählen Sie ihn daher sorgfältig aus.**[!UICONTROL 
+In einem manuellen **[!UICONTROL A/B-Test]** können Sie ändern, was in Berichten als Kontrolle angezeigt wird. Die Steigerung wird aus diesem Erlebnis berechnet, da der Traffic nach dem Zufallsprinzip allen Erlebnissen bereitgestellt wird, unabhängig von der Kontrolle. In den Aktivitäten {**}Automated Personalization und**&#x200B;[!UICONTROL &#x200B; Automatisches Targeting &#x200B;]&#x200B;**wirkt sich das Steuerelement nicht darauf aus, wie der Besucher-Traffic bereitgestellt wird. Wählen Sie ihn daher sorgfältig aus.**
 
 Für das Steuerelement stehen zwei Optionen zur Verfügung:
 
@@ -79,7 +79,7 @@ Beachten Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement d
 
 Wenn Sie ein bestimmtes Erlebnis als Kontrolle angeben, erhält der personalisierte Traffic ein bekanntes Erlebnis, mit dem er in den Berichten der Aktivität verglichen werden kann, z. B. das aktuelle Standarderlebnis.
 
-1. Konfigurieren Sie beim Erstellen oder Bearbeiten einer [**[!UICONTROL Automated Personalization ]**-](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) oder einer [**[!UICONTROL automatischen Targeting]**-](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity) die Erlebnisse nach Bedarf.
+1. Konfigurieren Sie beim Erstellen oder Bearbeiten einer [**[!UICONTROL Automated Personalization &#x200B;]**-](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) oder einer [**[!UICONTROL automatischen Targeting]**-](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity) die Erlebnisse nach Bedarf.
 
 1. Klicken Sie auf der **[!UICONTROL Targeting]**-Seite (Schritt 2 des dreiteiligen geleiteten Workflows) auf das Steuerelementerlebnis, um die **[!UICONTROL Kontrolle]**-Optionen im rechten Bereich anzuzeigen.
 

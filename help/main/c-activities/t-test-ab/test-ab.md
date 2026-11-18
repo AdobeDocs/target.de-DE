@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB…n;Erlebnisse vergleichen;Targeting;Inhalt vergleichen;Automatisches Targeting;Automatische Zuordnung
-description: Erkunden Sie die Aktivitäten von A/B-Tests in [!DNL Target] - [!UICONTROL ], [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
+description: Erkunden Sie die Aktivitäten von A/B-Tests in [!DNL Target] - , [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting].
 title: Lernen Sie die in [!DNL Target] verfügbaren A/B-Test -Aktivitäten kennen.
 feature: A/B Tests
 exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
@@ -41,7 +41,7 @@ Eine manuelle **[!UICONTROL A/B-Test]**-Aktivität (manchmal auch als A/B…N-Te
 Verwenden Sie einen manuellen A/B-Test, wenn:
 
 * Sie haben eine klare Hypothese dazu, wie Sie die Leistung Ihrer Seite verbessern können, basierend auf Erfolgsmetriken oder der Bereitstellung alternativer Inhalte.
-* Sie möchten große Änderungen testen, z. B. neue Layouts oder grundlegend andere Behandlungen der Elemente. Wenn Ihr Testdesign nicht einfach in einzelne Seitenelemente unterteilt werden kann, sollten Sie einen A/B-Test durchführen, bevor Sie einen [Multivarianz-Test) ](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
+* Sie möchten große Änderungen testen, z. B. neue Layouts oder grundlegend andere Behandlungen der Elemente. Wenn Ihr Testdesign nicht einfach in einzelne Seitenelemente unterteilt werden kann, sollten Sie einen A/B-Test durchführen, bevor Sie einen [Multivarianz-Test) &#x200B;](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md).
 * Sie möchten den Prozentsatz der Besucherinnen und Besucher bestimmen, die die einzelnen Erlebnisse sehen. Sie können beispielsweise den Traffic gleichmäßig auf das Steuerelement und ein zweites Erlebnis aufteilen oder ein neues, riskanteres Erlebnis testen, indem Sie es nur 5 % Ihrer Zielgruppe zeigen.
 
 Detaillierte Informationen zum Ermitteln der optimalen Stichprobengröße für einen A/B-Test finden Sie unter [Planen Ihrer A/B-Tests](/help/main/c-activities/t-test-ab/sample-size-determination.md).

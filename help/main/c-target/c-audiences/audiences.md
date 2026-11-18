@@ -31,7 +31,7 @@ Zielgruppen in [!DNL Adobe Target] bestimmen, wer die Inhalte und Erlebnisse ein
 
 Zielgruppen werden überall dort eingesetzt, wo Targeting zur Verfügung steht. Beim Targeting einer Aktivität stehen die folgenden Optionen zur Verfügung:
 
-* Wählen Sie in der Liste „Zielgruppen[!UICONTROL  eine wiederverwendbare ] aus
+* Wählen Sie in der Liste „Zielgruppen[!UICONTROL &#x200B; eine wiederverwendbare &#x200B;] aus
 * [Erstellen einer aktivitätsspezifischen Zielgruppe](/help/main/c-target/creating-activity-only-audience.md) und Targeting
 * [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) um eine Ad-hoc-Zielgruppe zu erstellen
 
@@ -61,13 +61,13 @@ Die [!UICONTROL Audiences] enthält die Audiences, die Sie in Ihren Aktivitäten
 
   >[!NOTE]
   >
-  >Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert oder ([ mit bestehenden Zielgruppen kombiniert) ](/help/main/c-target/combining-multiple-audiences.md).
+  >Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert oder ([&#x200B; mit bestehenden Zielgruppen kombiniert) &#x200B;](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Benutzende müssen über [!UICONTROL Genehmiger] oder höher in [!DNL Target] verfügen, um [!UICONTROL Ziele]-Karten in AEP/RTCDP ([!DNL Real-time Customer Data Platform]) [!DNL Target] konfigurieren.
   >
   >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](#aep).
 
-Vordefinierte Zielgruppen wie &quot;[!UICONTROL  Besucher“ ] &quot;[!UICONTROL  wiederkehrende ]&quot; können nicht umbenannt werden.
+Vordefinierte Zielgruppen wie &quot;[!UICONTROL &#x200B; Besucher“ &#x200B;] &quot;[!UICONTROL &#x200B; wiederkehrende &#x200B;]&quot; können nicht umbenannt werden.
 
 Beim Arbeiten mit Audiences, die ursprünglich in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] erstellt wurden, werden Sie [!DNL Target] benachrichtigt, wenn Sie in [!DNL Target] Aktivitäten, die später in [!DNL Experience Cloud] oder [!DNL Adobe Experience Platform] gelöscht wurden, auf eine Audience verweisen.
 
@@ -78,7 +78,7 @@ Sie können auch benutzerdefinierte Profilparameter und `user.`-Parameter als Zi
 
 Verwenden Sie die [!UICONTROL Filter], um die Liste [!UICONTROL Zielgruppen] nach Quelle zu filtern: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud] und [!DNL Adobe Experience Platform].
 
-![Filteroption in der Liste [!UICONTROL Audiences] ](assets/filters.png)
+![Filteroption in der Liste [!UICONTROL Audiences] &#x200B;](assets/filters.png)
 
 Verwenden Sie das Feld [!UICONTROL Zielgruppen suchen], um Ihre [!UICONTROL Zielgruppen]-Liste zu durchsuchen. Sie können nach einem beliebigen Teil des Zielgruppennamens suchen oder eine bestimmte Zeichenfolge in Anführungszeichen setzen.
 
@@ -96,9 +96,9 @@ Sie können auf die folgende Karte zur Zielgruppendefinition zugreifen, indem Si
 
 ![Aktivitäten > Zielgruppendefinition](assets/view-details-activity-overview.png)
 
-Die Karte zur Zielgruppendefinition zeigt den Typ, die Quelle und die Attribute der Zielgruppe an. Klicken Sie **[!UICONTROL Vollständige Details anzeigen]**, um ggf. andere Aktivitäten anzuzeigen, die auf diese Zielgruppe verweisen. Wenn Sie eine Karte zur Zielgruppendefinition auf der Seite „Übersicht[!UICONTROL  einer Aktivität anzeigen] klicken Sie auf **[!UICONTROL Zielgruppennutzung]**.
+Die Karte zur Zielgruppendefinition zeigt den Typ, die Quelle und die Attribute der Zielgruppe an. Klicken Sie **[!UICONTROL Vollständige Details anzeigen]**, um ggf. andere Aktivitäten anzuzeigen, die auf diese Zielgruppe verweisen. Wenn Sie eine Karte zur Zielgruppendefinition auf der Seite „Übersicht[!UICONTROL &#x200B; einer Aktivität anzeigen] klicken Sie auf **[!UICONTROL Zielgruppennutzung]**.
 
-Mithilfe der Informationen zur Zielgruppennutzung können Sie beim Bearbeiten von Zielgruppen versehentliche Auswirkungen auf andere Aktivitäten vermeiden. Die Informationen umfassen [!UICONTROL Live]Aktivitäten[!UICONTROL  Inaktive ], [!UICONTROL Archivierte Aktivitäten] und [!UICONTROL Synchronisierungsaktivitäten]. Diese Funktion ist für alle Zielgruppen verfügbar (Bibliotheks-Zielgruppen und [Nur-Aktivität-Zielgruppen](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Mithilfe der Informationen zur Zielgruppennutzung können Sie beim Bearbeiten von Zielgruppen versehentliche Auswirkungen auf andere Aktivitäten vermeiden. Die Informationen umfassen [!UICONTROL Live]Aktivitäten[!UICONTROL &#x200B; Inaktive &#x200B;], [!UICONTROL Archivierte Aktivitäten] und [!UICONTROL Synchronisierungsaktivitäten]. Diese Funktion ist für alle Zielgruppen verfügbar (Bibliotheks-Zielgruppen und [Nur-Aktivität-Zielgruppen](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Wenn eine Zielgruppe [mit einer anderen Zielgruppe kombiniert](/help/main/c-target/combining-multiple-audiences.md) und die kombinierte Zielgruppe zum Erstellen einer Aktivität verwendet wird, werden in den Nutzungsinformationen für beide Zielgruppen diese neu erstellte Aktivität aufgeführt.
 
@@ -127,7 +127,7 @@ Keep the following points in mind as you work with imported audiences:
 
 Die Verwendung der in [!DNL Adobe Experience Platform] erstellten Zielgruppen liefert umfassendere Kundendaten, die zu einer wirkungsvolleren Personalisierung führen.
 
-Weitere Informationen finden Sie unter &quot;[ von Zielgruppen [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+Weitere Informationen finden Sie unter &quot;[&#x200B; von Zielgruppen [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
 ## Schulungsvideo: Verwenden von Zielgruppen ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

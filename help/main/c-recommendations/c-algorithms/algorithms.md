@@ -79,7 +79,7 @@ Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den e
 
 1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-1. Wählen Sie im Abschnitt [Empfohlener ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)&quot; **[!UICONTROL Elementbasiert]** aus der Liste **[!UICONTROL Algorithmustyp]** aus.
+1. Wählen Sie im Abschnitt [Empfohlener &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo)&quot; **[!UICONTROL Elementbasiert]** aus der Liste **[!UICONTROL Algorithmustyp]** aus.
 
 1. Wählen Sie **[!UICONTROL Personen, die dies angesehen haben, das angezeigt haben]** aus der Liste **[!UICONTROL Algorithmus]** aus.
 
@@ -87,7 +87,7 @@ Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den e
 
 ## Anzeigen von Kriterieninformationen {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Sie können Details zu den Kriterien anzeigen, indem Sie auf die gewünschten Kriterien in der Spalte &quot;[!UICONTROL &quot; ].
+Sie können Details zu den Kriterien anzeigen, indem Sie auf die gewünschten Kriterien in der Spalte &quot;[!UICONTROL &quot; &#x200B;].
 
 In den **[!UICONTROL Attributen]** und Details können Sie allgemeine Informationen zu den ausgewählten Kriterien anzeigen, einschließlich [!UICONTROL Name], [!UICONTROL Beschreibung], [!UICONTROL Branche vertikal], [!UICONTROL Seitentypen], [!UICONTROL Empfehlungsschlüssel], [!UICONTROL Empfehlungslogik], [!UICONTROL Algorithmus-ID] und Informationen zur letzten Änderung (Datum und wer hat den Algorithmus geändert).
 

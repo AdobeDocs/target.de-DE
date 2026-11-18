@@ -50,7 +50,7 @@ In den folgenden Fragen und Antworten wird beschrieben, wie Sie **[!UICONTROL Au
 +++ Wie lauten die Best Practices zum Einrichten einer [!UICONTROL Automated Personalization]-Aktivität?
 
 * Achten Sie genau auf die *Aktivitäts-Form* (Anzahl der Standorte × Anzahl der Angebote), nicht nur auf die Gesamtzahl der Erlebnisse. Die kartesischen Kombinationen von Speicherorten und Angeboten wirken sich stärker auf die Leistung während der Bearbeitung aus als auf die Anzahl der Erlebnisse. Um eine optimale Leistung und Verwaltbarkeit zu erzielen, beschränken Sie die Aktivitäten von **[!UICONTROL Automated Personalization]** und **[!UICONTROL Automatisches Targeting]** auf 4-6 Standorte mit 4-6 Angeboten pro Standort, wie in der Frage „Welche Beschränkungen gibt es in Automated Personalization?“ beschrieben. in diesem Abschnitt. Größere Konfigurationen werden nicht empfohlen und können zu langsamem Laden oder Bearbeiten im **[!UICONTROL Visual Experience Composer“]**.
-* Wenn Sie eine Seite mit niedrigerem Traffic personalisieren oder strukturelle Änderungen an dem zu personalisierenden Erlebnis vornehmen möchten, sollten Sie eine [**[!UICONTROL Automatisches Targeting ]**-Aktivität ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)**[!UICONTROL  Automated Personalization ]**verwenden.
+* Wenn Sie eine Seite mit niedrigerem Traffic personalisieren oder strukturelle Änderungen an dem zu personalisierenden Erlebnis vornehmen möchten, sollten Sie eine [**[!UICONTROL Automatisches Targeting &#x200B;]**-Aktivität &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)**[!UICONTROL &#x200B; Automated Personalization &#x200B;]**&#x200B;verwenden.
 * Erwägen Sie die Ausführung einer **[!UICONTROL A/B-]**-Aktivität zwischen den Angeboten und Standorten, die Sie in Ihrer **[!UICONTROL Automated Personalization]**-Aktivität verwenden möchten, um zu bestätigen, dass die Standorte und Angebote Auswirkungen auf das Optimierungsziel haben. Wenn die Aktivität **[!UICONTROL A/B]** keinen signifikanten Unterschied zeigt, kann **[!UICONTROL Automated Personalization]** wahrscheinlich auch keine Steigerung erzeugen.
 
   Wenn ein A/B…N-Test keine statistisch signifikanten Unterschiede zwischen den Erlebnissen zeigt, sind wahrscheinlich eine oder mehrere der folgenden Situationen verantwortlich:
@@ -116,7 +116,7 @@ Bei Ankunft jedes Besuchers bestimmen die Targeting-Regeln auf Angebotsebene die
 
 +++ Wie ordnet [!UICONTROL Automated Personalization] den Traffic meiner Aktivität zu?
 
-**[!UICONTROL Automated Personalization]** leitet Besucher zu dem Erlebnis um, das die höchste prognostizierte Erfolgsmetrik aufweist, basierend auf den neuesten [Zufällige ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)). Diese Prognose basiert auf den spezifischen Informationen und dem Besuchskontext des Besuchers.
+**[!UICONTROL Automated Personalization]** leitet Besucher zu dem Erlebnis um, das die höchste prognostizierte Erfolgsmetrik aufweist, basierend auf den neuesten [Zufällige &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)). Diese Prognose basiert auf den spezifischen Informationen und dem Besuchskontext des Besuchers.
 
 Angenommen, eine **[!UICONTROL Automated Personalization]**-Aktivität hat zwei Standorte mit jeweils zwei Angeboten. An der ersten Position weist Angebot A eine prognostizierte Konversionsrate von 3 % für einen bestimmten Besucher auf, während Angebot B eine prognostizierte Konversionsrate von 1 % aufweist. An der zweiten Position weist Angebot C eine prognostizierte Konversionsrate von 2 % für denselben Besucher auf, während Angebot D eine prognostizierte Konversionsrate von 5 % aufweist. Daher stellt **[!UICONTROL Automated Personalization]** diesem Besucher ein Erlebnis mit Angebot A und Angebot D bereit.
 
@@ -195,7 +195,7 @@ Diese Empfehlung gilt für **[!UICONTROL Automatische Zuordnung]**, **[!UICONTRO
 
 +++ Kann ich die Option [!UICONTROL Berichtsdaten zurücksetzen] während der Ausführung einer [!UICONTROL Automated Personalization]-Aktivität verwenden?
 
-Es wird [!DNL Adobe] nicht empfohlen, für **[!UICONTROL Automated Personalization**[!UICONTROL  Aktivitäten die Option ]**Berichtsdaten zurücksetzen]** zu verwenden. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell **[!UICONTROL Automated Personalization]**. Statt die Option **[!UICONTROL Berichtsdaten zurücksetzen]** zu verwenden, eine neue Aktivität erstellen und die ursprüngliche Aktivität deaktivieren. Diese Anleitung gilt auch für Aktivitäten **[!UICONTROL Automatische Zuordnung]** und **[!UICONTROL Automatisches Targeting]**.
+Es wird [!DNL Adobe] nicht empfohlen, für **[!UICONTROL Automated Personalization**&#x200B;[!UICONTROL &#x200B; Aktivitäten die Option &#x200B;]&#x200B;**Berichtsdaten zurücksetzen]** zu verwenden. Diese Option entfernt zwar die sichtbaren Berichtsdaten, nicht aber alle Trainingsdatensätze aus dem Modell **[!UICONTROL Automated Personalization]**. Statt die Option **[!UICONTROL Berichtsdaten zurücksetzen]** zu verwenden, eine neue Aktivität erstellen und die ursprüngliche Aktivität deaktivieren. Diese Anleitung gilt auch für Aktivitäten **[!UICONTROL Automatische Zuordnung]** und **[!UICONTROL Automatisches Targeting]**.
 
 +++
 

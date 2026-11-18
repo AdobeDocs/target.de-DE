@@ -48,7 +48,7 @@ Fügen Sie Benutzende hinzu und verwalten Sie ihre Berechtigungen in der [!DNL A
 >
 >Sie können feststellen, ob Ihr Unternehmen über eine [!UICONTROL Standard]- oder [!UICONTROL Premium]-Lizenz verfügt, indem Sie auf den Link [!UICONTROL Administration] oben in der [!DNL Target]-Benutzeroberfläche klicken.
 >
->* **[!DNL Target][!UICONTROL Standard] Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] ([!UICONTROL Administration > Benutzer]) sehen (und nicht die Registerkarte **[!UICONTROL Eigenschaften]**), verfügt Ihr Unternehmen über eine [!DNL Target] [!UICONTROL Standard]-Lizenz. [!DNL Target] [!UICONTROL Standard]-Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
+>* **[!DNL Target]&#x200B;[!UICONTROL Standard] Kunden**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] ([!UICONTROL Administration > Benutzer]) sehen (und nicht die Registerkarte **[!UICONTROL Eigenschaften]**), verfügt Ihr Unternehmen über eine [!DNL Target] [!UICONTROL Standard]-Lizenz. [!DNL Target] [!UICONTROL Standard]-Kunden sollten die Anweisungen in diesem Artikel befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 >
 >* **[!DNL Target]Premium-**: Wenn Sie die Registerkarte [!UICONTROL Benutzer] und die Registerkarte [!UICONTROL Eigenschaften] sehen ([!UICONTROL Administration > Eigenschaften]), verfügt Ihr Unternehmen über eine [!DNL Target] Premium-Lizenz. [!DNL Target] Premium-Kunden sollten die Anweisungen unter [Berechtigungen für Unternehmensbenutzer](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) und [Konfigurieren von Unternehmensberechtigungen](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) befolgen, um in der [!DNL Adobe Admin Console] Benutzer hinzuzufügen und Berechtigungen zuzuweisen.
 >
@@ -88,14 +88,14 @@ Greifen Sie auf die [!DNL Adobe Admin Console] zu, indem Sie die folgenden Schri
 
 Die gesamte Benutzerverwaltung muss in der [!DNL Adobe Admin Console for Enterprise] erfolgen. All Ihre bereits in [!DNL Target] angelegten Benutzer werden jedoch von [!DNL Target] in die [!DNL Admin Console for Enterprise] migriert.
 
-1. [Klicken Sie in der ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzer]**, um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
+1. [Klicken Sie in der &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzer]**, um neue Benutzer zu erstellen oder bestehende Benutzer zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in Experience Cloud](https://helpx.adobe.com/de/enterprise/using/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Erstellen von Benutzergruppen {#user-groups}
 
 Sie können Benutzergruppen wie Entwickelnde, Analytiker, Marketing-Fachleute, Führungskräfte usw. erstellen und ihnen dann Benutzerrechte für verschiedene [!DNL Adobe]-Produkte und -Arbeitsbereiche zuweisen. Das Zuweisen der passenden Berechtigungen für ein Team-Mitglied für mehrere [!DNL Adobe]-Produkte kann oft einfach durch Zuweisung zu einer einzigen Benutzergruppe vorgenommen werden.
 
-1. [Klicken Sie in der ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]**, um neue Benutzergruppen zu erstellen oder bestehende Gruppen zu bearbeiten.
+1. [Klicken Sie in der &#x200B;](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]**, um neue Benutzergruppen zu erstellen oder bestehende Gruppen zu bearbeiten.
 1. Befolgen Sie die Anweisungen unter [Verwalten von Benutzern und Gruppen in Experience Cloud](https://helpx.adobe.com/de/enterprise/using/users.html) im *Enterprise-Benutzerhandbuch*.
 
 ## Festlegen von Rollen und Berechtigungen {#roles-permissions}
@@ -106,13 +106,13 @@ Systemadministratoren müssen Benutzer zum System hinzufügen. Benutzer werden n
 
 >[!NOTE]
 >
->Um Aktivitäten in [!DNL Target] anzeigen zu können, müssen Benutzende mindestens einem Arbeitsbereich mit der Rolle [!UICONTROL Beobachter“ ] sein. Die Zuweisung über Benutzergruppen allein ist unzureichend. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren.
+>Um Aktivitäten in [!DNL Target] anzeigen zu können, müssen Benutzende mindestens einem Arbeitsbereich mit der Rolle [!UICONTROL Beobachter“ &#x200B;] sein. Die Zuweisung über Benutzergruppen allein ist unzureichend. Es wird allgemein empfohlen, Benutzern Zugriff auf den Standardarbeitsbereich zu gewähren.
 
 1. [Klicken Sie in der Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) auf **[!UICONTROL Produkte]** und wählen Sie dann den Namen des gewünschten Produkts aus.
 
 1. Klicken Sie auf den gewünschten Arbeitsbereich (z. B. Standardarbeitsbereich).
 
-   Auf [!UICONTROL  Registerkarte ]Benutzer“ werden alle Benutzenden in diesem Arbeitsbereich angezeigt.
+   Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Benutzer“ werden alle Benutzenden in diesem Arbeitsbereich angezeigt.
 
 1. Wählen Sie das gewünschte Berechtigungsniveau ([!UICONTROL Genehmiger], [!UICONTROL Editor], [!UICONTROL Beobachter] oder [!UICONTROL Publisher]) aus, indem Sie das entsprechende Dropdown-Menü in der Spalte [!UICONTROL Produktrolle] verwenden.
 
