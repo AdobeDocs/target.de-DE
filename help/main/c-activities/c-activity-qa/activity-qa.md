@@ -29,12 +29,12 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1821'
 ht-degree: 27%
 ---
-# Aktivitäts-QA
+# Erste Schritte mit Aktivitäts-QA
 
 Verwenden Sie QA-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivitäts-QA mit Vorschau-Links, die sich nie ändern, optionalem Audience-Targeting und QA-Berichten durchzuführen, die weiterhin aus Live-Aktivitätsdaten segmentiert sind.
 

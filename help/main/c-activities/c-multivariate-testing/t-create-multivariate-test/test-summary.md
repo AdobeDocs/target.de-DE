@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# Testzusammenfassung ([!UICONTROL Multivarianz-])
+# Testzusammenfassung ([!UICONTROL Multivarianz-]) {#mvt-test-summary}
 
-Die [!UICONTROL Targeting]-Seite bietet einen visuellen Überblick über Ihren [!DNL Adobe Target] ([!UICONTROL &#x200B; Test].
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Sie, was die Testzusammenfassung eines **[!UICONTROL Multivarianz-Tests]** zeigt, damit Sie die Konfiguration überprüfen können, bevor Sie fortfahren.
+
+>[!ENDSHADEBOX]
+
+Die **[!UICONTROL Targeting]**-Seite bietet einen visuellen Überblick über Ihren [!DNL Adobe Target] (**[!UICONTROL Test]**. Wenn Sie diese Zusammenfassung lesen, können Sie die Konfiguration des Tests bestätigen, bevor Sie die Ziele und Einstellungen festlegen.
 
 ![Dialogfeld „Testzusammenfassung“](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 Die Testzusammenfassung zeigt:
 
-* Testname
-* URL
-* Zielgruppe: Klicken Sie auf die Zielgruppe, um eine andere Zielgruppe aus der Liste der verfügbaren Zielgruppen auszuwählen.
-* Algorithmus: Der einzige verfügbare Algorithmus ist [!UICONTROL Full Factorial]. Der Algorithmenname wird zu Informationszwecken angegeben, damit Sie wissen, welcher Algorithmus verwendet wird.
+* Der Testname.
+* Die URL
+* Die Zielgruppe. Klicken Sie auf die Zielgruppe, um eine andere Zielgruppe aus der Liste der verfügbaren Zielgruppen auszuwählen.
+* Der Algorithmus. Der einzige verfügbare Algorithmus ist **[!UICONTROL Full Factorial]**. Der Algorithmusname wird zu Informationszwecken bereitgestellt, damit Sie über den verwendeten Algorithmus informiert sind.
 * Die Anzahl der einbezogenen und ausgeschlossenen Erlebnisse.
 
-Klicken Sie **[!UICONTROL Weiter]** wenn Sie mit der Testkonfiguration zufrieden sind. Die Seite [!UICONTROL Ziele und Einstellungen] wird geöffnet.
+Klicken Sie **[!UICONTROL Weiter]** wenn Sie mit der Testkonfiguration zufrieden sind. Die Seite **[!UICONTROL Ziele und Einstellungen]** wird geöffnet.

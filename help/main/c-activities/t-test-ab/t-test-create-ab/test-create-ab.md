@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 10%
@@ -143,7 +143,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
    | Methode | Funktion |
    |---|---|
    | **[!UICONTROL Manuell (Standard)]** | Geben Sie den Prozentsatz der Eintritte an, die für jedes Erlebnis angezeigt werden sollen. Sie können den Prozentsatz gleichmäßig auf alle Erlebnisse aufteilen oder für jedes Erlebnis einen höheren oder niedrigeren Prozentsatz festlegen. Die gesamte Anzahl aller Erlebnisse muss 100 % betragen. |
-   | **[!UICONTROL Automatische Zuordnung zu bestem Erlebnis]** | Die meisten Aktivitätsteilnehmer werden automatisch zu Erlebnissen mit höherer Leistung weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Weitere Informationen finden Sie unter [**[!UICONTROL Automatische Zuordnung &#x200B;]**- Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
+   | **[!UICONTROL Automatische Zuordnung zu bestem Erlebnis]** | Die meisten Aktivitätsteilnehmer werden automatisch zu Erlebnissen mit höherer Leistung weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Weitere Informationen finden Sie unter [**[!UICONTROL Automatische Zuordnung &#x200B;]**- Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]** | [!DNL Target] nutzt fortschrittliche Machine Learning-Algorithmen zur Personalisierung von Inhalten und Förderung von Konversionen, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden. Anschließend wird Besuchern auf der Grundlage ihrer individuellen Kundenprofile und des bisherigen Verhaltens ähnlicher Besucher das jeweils passendste Erlebnis bereitgestellt. Weitere Informationen finden Sie unter [Automatisches Targeting - Übersicht](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++

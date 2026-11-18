@@ -25,49 +25,61 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '494'
+ht-degree: 8%
 ---
-# Target-[!UICONTROL Automated Personalization]Angebote
+# Target-[!UICONTROL Automated Personalization]Angebote {#target-ap-offers}
 
-In einer [!DNL Adobe Target] [!DNL Automated Personalization] (AP) -Aktivität können Sie Angebote für bestimmte Zielgruppen auswählen.
+>[!BEGINSHADEBOX]
 
-Mit dieser Funktion reduzieren Sie die Anzahl der Angebote, die ein bestimmter Besucher zu sehen bekommt. Nehmen wir als Beispiel eine [!UICONTROL Automated Personalization]-Aktivität mit drei Angeboten. Angebot 1 verfügt über eine Zielgruppenbestimmungsregel, die die Exposition gegenüber Audience A begrenzt. Zwei Besucher haben diese Aktivität gesehen.
+**Auf dieser Seite** Erfahren Sie in einer **[!UICONTROL Automated Personalization]**-Aktivität, wie Sie einzelne Angebote für bestimmte Zielgruppen unterbreiten können.
+
+>[!ENDSHADEBOX]
+
+In einer [!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP)-Aktivität können Sie mithilfe von Zielgruppenbestimmungsregeln ein Angebot auf bestimmte Zielgruppen beschränken, sodass nur die Besucher, die zu diesen Zielgruppen gehören, es sehen können. Verwenden Sie Targeting-Regeln sparsam und nur dann, wenn ein Unternehmen sie benötigt, da sie die Anzahl der Angebote reduzieren, die ein Besucher sehen kann, und die Effektivität der [!DNL Target] Personalisierungsmodelle verringern können.
+
+Nehmen wir zum Beispiel eine AP-Aktivität mit drei Angeboten. Angebot 1 verfügt über eine Zielgruppenbestimmungsregel, die die Exposition gegenüber Audience A begrenzt. Zwei Besucher sehen diese Aktivität.
 
 | | Besucher 1 | Besucher 2 |
 |--- |--- |--- |
 | Zielgruppen-Qualifizierung | Zielgruppe A | Zielgruppe B |
-| Bewertung des Target-Personalisierungsmodells für Angebot 1 | 90 | 90 |
-| Bewertung des Target-Personalisierungsmodells für Angebot 2 | 50 | 70 |
-| Bewertung des Target-Personalisierungsmodells für Angebot 3 | 80 | 60 |
+| Bewertung [!DNL Target] Personalisierungsmodells Angebot 1 | 90 | 90 |
+| Punktzahl [!DNL Target] Personalisierungsmodells Angebot 2 | 50 | 70 |
+| Bewertung [!DNL Target] Personalisierungsmodells Angebot 3 | 80 | 60 |
 
-In diesem Szenario sieht Besucher 1 Angebot 1 (da dieser Besucher als Teil von Zielgruppe A qualifiziert ist), was der höchste Wert für diesen Besucher ist. Besucher 2 sieht jedoch Angebot 2, obwohl der höchste Wert für Angebot 1 gilt, da Besucher 2 nicht zu Zielgruppe A gehört. Dieses Beispiel zeigt, warum Targeting-Regeln nur sparsam eingesetzt werden sollten, um geschäftlichen Anforderungen gerecht zu werden. Das Hinzufügen dieser Regeln kann die Effektivität [!DNL Target] Personalisierungsmodelle verringern.
+Besucher 1 qualifiziert sich als Teil von Zielgruppe A, sodass dieser Besucher Angebot 1 sieht, das die höchste Punktzahl hat. Besucher 2 ist nicht Teil von Zielgruppe A, sodass dieser Besucher Angebot 2 sieht, obwohl die höchste Punktzahl für Angebot 1 gilt.
 
-## Einrichten von Targeting-Regeln
+## Einrichten von Targeting-Regeln {#set-up-targeting-rules}
 
-1. Erstellen oder bearbeiten Sie eine [Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)Aktivität mit den Angeboten, die Sie ansprechen möchten.
-1. Nachdem Sie die Angebote für die Aktivität im [!UICONTROL Visual Experience Composer] eingerichtet haben, klicken Sie auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ).
+<a id="task_F207ED7A41B84FD39BB6FCBFABF4B23E"></a>
 
-   Das [!UICONTROL Inhalt verwalten] wird angezeigt.
+Regeln zur Zielgruppen-Zielgruppenbestimmung steuern, welche Besucher die einzelnen Angebote sehen können, sodass Sie eine bestimmte Geschäftsanforderung erfüllen können, z. B. die Reservierung eines Angebots für ein Kundensegment. Jede Regel beschränkt die Auswahl des Personalisierungsmodells, sodass die Regeln nur auf die Angebote angewendet werden, die sie erfordern.
+
+1. Erstellen oder bearbeiten Sie eine [Automated Personalization-Aktivität](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) die die Angebote enthält, die Sie ansprechen möchten.
+
+   Sie können bis zu 50 Positionen und bis zu 250 Angebote pro Position einrichten.
+
+1. Nachdem Sie die Angebote für die Aktivität im **[!UICONTROL Visual Experience Composer]** eingerichtet haben, klicken Sie auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol Inhalt verwalten](/help/main/assets/icons/Experience.svg) ). Das **[!UICONTROL Inhalt verwalten]** wird angezeigt.
+
+   ![Symbol „Inhalt verwalten“](../assets/ap-offers-1.png)
 
 1. Klicken Sie auf die **[!UICONTROL Angebote]**.
 
-1. Wählen Sie die gewünschten Angebote und dann die Zielgruppen aus, die Sie für das Anzeigen dieses Angebots qualifizieren möchten.
+1. Wählen Sie die gewünschten Angebote und dann die Zielgruppen aus, die sich für ihre Anzeige qualifizieren.
 
-   Um die Zielgruppenbestimmung für ein einzelnes Angebot einzurichten, klicken Sie auf das Symbol Mehr Informationen ( ![Mehr Info-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) neben dem gewünschten Angebot und dann auf **[!UICONTROL Zielgruppe]**, um das Dialogfeld [!UICONTROL Audiences hinzufügen] anzuzeigen.
+   * Um die Zielgruppenbestimmung für ein einzelnes Angebot einzurichten, klicken Sie auf das Symbol Mehr Informationen ( ![Mehr Info-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) neben dem Angebot und dann auf **[!UICONTROL Zielgruppe]**, um das Dialogfeld **[!UICONTROL Audiences hinzufügen]** anzuzeigen.
+   * Um die Zielgruppenbestimmung für mehrere Angebote einzurichten, aktivieren Sie die Kontrollkästchen der Angebote und klicken Sie dann auf den Link **[!UICONTROL Zielgruppe]**, der unten in der Liste angezeigt wird.
 
-   Um das Targeting für mehrere Angebote einzurichten, aktivieren Sie die Kontrollkästchen der gewünschten Angebote und klicken Sie dann auf den Link **[!UICONTROL Zielgruppe]**, der unten in der Liste angezeigt wird.
+   ![Symbol „Inhalt verwalten“](../assets/ap-offers-2.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Zielgruppen hinzufügen] die gewünschten Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**, um zum Dialogfeld [!UICONTROL Inhalt verwalten] zurückzukehren.
+1. Wählen **[!UICONTROL Dialogfeld „Zielgruppen hinzufügen]** die Zielgruppen für die Angebote aus und klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**, um zum Dialogfeld **[!UICONTROL Inhalt verwalten]** zurückzukehren.
 
    >[!NOTE]
    >
-   >Zusätzlich zur Auswahl einer bestehenden Zielgruppe können Sie auch mehrere Zielgruppen kombinieren, um nach Bedarf kombinierte Zielgruppen zu erstellen, anstatt eine neue Zielgruppe zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Anstatt eine neue Zielgruppe zu erstellen, können Sie mehrere Zielgruppen mit vorhandenen kombinieren, um kombinierte Zielgruppen auf Anfrage zu erstellen. Weitere Informationen finden Sie unter [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
->[!NOTE]
->
->Sie können bis zu 50 Positionen und bis zu 250 Angebote pro Position einrichten.
+Die Targeting-Regeln gelten jetzt für die ausgewählten Angebote, sodass nur Besucher, die zu den zugewiesenen Audiences gehören, sie sehen können.

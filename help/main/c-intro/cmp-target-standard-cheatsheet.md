@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -119,7 +119,7 @@ Das verfrühte Stoppen von Aktivitäten kann zu falschen Schlüssen führen. Ach
 **Wie kann ich eine Aktivität durchführen, wenn das Zeitfenster klein ist, und während des Tests für mein Ziel optimieren?**
 
 +++Details anzeigen
-Siehe [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+Siehe [Berichte zur Ermittlung des erfolgreichsten Erlebnisses](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports).
 
 +++
 
@@ -142,7 +142,7 @@ Denken Sie auch an die [Recommendations-Aktivitäten](/help/main/c-recommendatio
 **Wie kann ich erkennen, welche Elementkombinationen auf meiner Seite zu ihrem Erfolg beitragen und zu welchem Grad die einzelnen Elemente hilfreich sind?**
 
 +++Details anzeigen
-Sehen Sie sich die [vollständigen Multivarianz-Aktivitäten (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) mit der Elementbeitragsanalyse an, um zu sehen, ob sie Ihren Anforderungen entspricht.
+Sehen Sie sich die [vollständigen Multivarianz-Aktivitäten (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) mit der Elementbeitragsanalyse an, um zu sehen, ob sie Ihren Anforderungen entspricht.
 
 Beachten Sie, dass sich die Traffic-Anforderung infolge von MVT-Aktivitäten erhöht.
 
@@ -264,7 +264,7 @@ Versuchen Sie es mit der [Funktion „Profilskripte“](/help/main/c-target/c-vi
 **Kann ich eine Aktivität mit einer geringeren Anzahl an Besuchern starten?**
 
 +++Details anzeigen
-Verwenden Sie die prozentualen Zuordnungskontrollen, die in [Schritt 2 des dreiteiligen Target-Workflows (Zielgruppenbestimmungsseite) verfügbar sind](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) um zu entscheiden, wie Sie die Aktivität einrichten möchten.
+Verwenden Sie die prozentualen Zuordnungskontrollen, die in [Schritt 2 des dreiteiligen Target-Workflows (Zielgruppenbestimmungsseite) verfügbar sind](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience) um zu entscheiden, wie Sie die Aktivität einrichten möchten.
 
 +++
 
@@ -339,7 +339,7 @@ Wenden Sie sich an Adobe, um [sicherzustellen, dass Ihr Konto für Scene7 einger
 **Ich möchte zwischen zwei unterschiedlichen Erlebnissen testen, beispielsweise zwischen einem pauschalen und Prozentsatzrabatt. Allerdings möchte ich entsprechend auf die Erlebnisse abzielen (also unterschiedlichen Gebietsschematext oder unterschiedliche Währungen für Personen aus unterschiedlichen Ländern anzeigen). Wie kann ich dies vornehmen?**
 
 +++Details anzeigen
-Das können Sie ganz einfach über unsere [Funktion „Mehrfach-Erlebnis-Version“](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF) tun. Beachten Sie bei solchen Tests die Nuancen rund um die Lieferung.
+Das können Sie ganz einfach über unsere [Funktion „Mehrfach-Erlebnis-Version“](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case) tun. Beachten Sie bei solchen Tests die Nuancen rund um die Lieferung.
 
 +++
 

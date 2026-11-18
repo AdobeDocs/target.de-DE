@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# Reporting und [!UICONTROL Automatisches Targeting]
+# Reporting und [!UICONTROL Automatisches Targeting] {#reporting-and-auto-target}
 
-Informationen zur Interpretation der Berichte [!UICONTROL Automatisches Targeting - Zusammenfassung] in [!DNL Adobe Target], einschließlich der Berichte [!UICONTROL Automatisierte Segmente] und [!UICONTROL Wichtige Attribute].
+>[!BEGINSHADEBOX]
 
-Weitere Informationen zu den einzelnen Berichten finden Sie in den folgenden Themen:
+**Auf dieser Seite** Erfahren Sie, welche Berichte Ihnen bei der Interpretation der Ergebnisse einer **[!UICONTROL automatischen Targeting“-]** helfen.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] bietet drei Berichte zur Interpretation der Ergebnisse einer **[!UICONTROL Automatisches Targeting]**-Aktivität: den Bericht **[!UICONTROL Automatische Targeting-Zusammenfassung]** den Bericht **[!UICONTROL Automatisierte Segmente]** und den Bericht **[!UICONTROL Wichtige Attribute]**. Weitere Informationen zu den einzelnen Berichten finden Sie in den folgenden Themen:
 
 | Bericht | Details |
 | --- | --- |
-| [Automatisches Targeting-(AT)-Zusammenfassungsbericht](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Mit [!UICONTROL &#x200B; Bericht „Automatische &#x200B;]&quot; können Sie Berichtsmetriken in einer Tabellenansicht oder Diagrammansicht anzeigen.<P>In diesem Bericht können Sie Metriken für [!UICONTROL Besuche], [!UICONTROL Konversionsrate], [!UICONTROL Durchschnittlicher Anstieg und Konfidenzintervall] und [!UICONTROL Konfidenz]. |
-| [Bericht „Automatisierte Segmente“](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Der Bericht [!UICONTROL Automatisierte Segmente] zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote/Erlebnisse in Ihrer Aktivität vom Typ [!UICONTROL Automatisches Targeting] reagieren. Dieser Bericht zeigt, wie verschiedene durch die Personalisierungsmodelle von [!DNL Target] definierte automatisierte Segmente auf die Angebote/Erlebnisse in der Aktivität reagierten. |
-| [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Bericht [!UICONTROL Wichtige Attribute] zeigt, wie bei verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Dieser Bericht stellt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung dar. |
+| [Automatisches Targeting-(AT)-Zusammenfassungsbericht](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Mit **[!UICONTROL Bericht „Automatische]**&quot; können Sie Berichtsmetriken in einer Tabellenansicht oder Diagrammansicht anzeigen.<P>In diesem Bericht können Sie Metriken für **[!UICONTROL Besuche]**, **[!UICONTROL Konversionsrate]**, **[!UICONTROL Durchschnittlicher Anstieg und Konfidenzintervall]** und **[!UICONTROL Konfidenz]**. |
+| [Bericht „Automatisierte Segmente“](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Der Bericht **[!UICONTROL Automatisierte Segmente]** zeigt, wie verschiedene Besucher unterschiedlich auf die Angebote und Erlebnisse in Ihrer Aktivität vom Typ **[!UICONTROL Automatisches Targeting]** reagieren. Sie zeigt, wie die von den Personalisierungsmodellen der [!DNL Target] definierten automatisierten Segmente auf die Angebote und Erlebnisse in der Aktivität reagierten. |
+| [Bericht „Wichtige Attribute“](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Der Bericht **[!UICONTROL Wichtige Attribute]** zeigt, wie bei verschiedenen Aktivitäten verschiedene Attribute für die Personalisierungsentscheidung des Modells mehr (oder weniger) wichtig sind. Es zeigt die wichtigsten Attribute, die das Modell beeinflusst haben, und ihre relative Bedeutung. |
 
 Allgemeine Berichtsinformationen finden Sie unter [Berichte](/help/main/c-reports/reports.md).

@@ -20,27 +20,37 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 8%
+source-wordcount: '275'
+ht-degree: 7%
 ---
-# Erlebnisvorschau in [!UICONTROL Automated Personalization]-Aktivitäten im [!UICONTROL Visual Experience Composer] (VEC)
+# Erlebnisvorschau in [!UICONTROL Automated Personalization]-Aktivitäten im [!UICONTROL Visual Experience Composer] (VEC) {#preview-ap-experiences}
 
-Da [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP)-Aktivitäten mehrere Angebote auf einer Seite vergleichen, ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen.
+>[!BEGINSHADEBOX]
 
-1. Klicken Sie [!UICONTROL &#x200B; Visual Experience Composer &#x200B;] VEC auf **[!UICONTROL Vorschau]**.
+**Auf dieser Seite** Erfahren Sie, wie Sie die einzelnen Erlebnisse einer **[!UICONTROL Automated Personalization]**-Aktivität in **[!UICONTROL Visual Experience Composer]** in der Vorschau anzeigen und Erlebnisse ausschließen oder einschließen.
 
-1. Klicken Sie auf **[!UICONTROL Erlebnisse anzeigen]** ( ![Symbol „Erlebnisse anzeigen](/help/main/assets/icons/WebPages.svg) ), um die Liste aller Erlebnisse im linken Rahmen anzuzeigen.
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] **[!UICONTROL Automated Personalization]** (AP)-Aktivitäten vergleichen mehrere Angebote auf einer Seite. Daher ist es hilfreich, bei jedem Erlebnis eine Vorschau der Seite anzuzeigen. Die Vorschau zeigt, wie die Angebote in den einzelnen Erlebnissen kombiniert werden, sodass Sie entscheiden können, ob Sie sie beibehalten oder ausschließen möchten.
+
+1. Klicken Sie im **[!UICONTROL Visual Experience Composer]** (VEC) auf **[!UICONTROL Vorschau]**.
+
+   ![Vorschau anzeigen](../assets/ap_preview_1.png)
+
+1. Klicken Sie auf **[!UICONTROL Erlebnisse anzeigen]** (![Symbol „Erlebnisse anzeigen](/help/main/assets/icons/WebPages.svg)), um die Liste aller Erlebnisse im linken Rahmen anzuzeigen.
+
+   ![Symbol „Erlebnisse anzeigen“](../assets/ap_preview_2.png)
 
 1. Klicken Sie auf ein bestimmtes Erlebnis in der Liste, um dieses Erlebnis anzuzeigen.
 
-1. (Bedingt) Um ein oder mehrere Erlebnisse aus der Aktivität auszuschließen, klicken Sie auf das Symbol **[!UICONTROL Inhalt verwalten]** ( ![Symbol „Inhalt verwalten](/help/main/assets/icons/Experience.svg) ), um das Dialogfeld [!UICONTROL Inhalt verwalten] anzuzeigen.
+1. (Optional) Um Erlebnisse auszuschließen oder einzuschließen, klicken Sie auf das Symbol **[!UICONTROL Inhalt verwalten]** (![Symbol „Inhalt verwalten](/help/main/assets/icons/Experience.svg)), um das Dialogfeld **[!UICONTROL Inhalt verwalten]** anzuzeigen.
 
-1. (Bedingt) Klicken Sie im Dialogfeld [!UICONTROL Inhalt verwalten] auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmallList.svg) ) neben dem Erlebnis, das Sie ausschließen möchten, und klicken Sie dann auf **[!UICONTROL Ausschließen]**.
+   ![Symbol „Erlebnisse anzeigen“](../assets/ap_preview_3.png)
 
-   Sie können Erlebnisse ausschließen, die widersprüchliche Varianten aufweisen oder optisch nicht ansprechend wirken.
+1. Sie können Erlebnisse ausschließen, die widersprüchliche Varianten aufweisen oder optisch nicht ansprechend wirken. Führen Sie dann einen der folgenden Schritte aus:
 
-1. (Bedingt) Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Ausschließen]**.
-
-1. (Bedingt) Um mehrere ausgeschlossene Erlebnisse einzubeziehen, aktivieren Sie die Kontrollkästchen für die gewünschten Erlebnisse und klicken Sie dann auf **[!UICONTROL Einschließen]**.
+   * Um ein Erlebnis auszuschließen, klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** (Symbol ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg)) neben dem Erlebnis und dann auf **[!UICONTROL Ausschließen]**.
+   * Um mehrere Erlebnisse auszuschließen, aktivieren Sie die Kontrollkästchen für die Erlebnisse und klicken Sie dann auf **[!UICONTROL Ausschließen]**.
+   * Um mehrere ausgeschlossene Erlebnisse einzuschließen, aktivieren Sie die Kontrollkästchen für die Erlebnisse und klicken Sie dann auf **[!UICONTROL Einschließen]**.

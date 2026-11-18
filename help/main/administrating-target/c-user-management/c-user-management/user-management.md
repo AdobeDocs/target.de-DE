@@ -1,7 +1,7 @@
 ---
 keywords: Benutzer hinzufügen;Benutzer verwalten;Benutzerberechtigungen
-description: Erfahren Sie, wie Sie mit der  [!DNL Adobe Admin Console]  Benutzende und deren Berechtigungen in  [!DNL Adobe Target Standard] verwalten können.
-title: Wie kann ich für ein  [!DNL Target Standard] -Konto Benutzende hinzufügen und Berechtigungen verwalten?
+description: Erfahren Sie, wie Sie mit dem [!DNL Adobe Admin Console] Benutzer und deren Berechtigungen in [!DNL Adobe Target Standard] verwalten können.
+title: Wie kann ich Benutzer hinzufügen und Berechtigungen für ein [!DNL Target Standard] Konto verwalten?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
@@ -33,14 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 60%
-
+source-wordcount: '930'
+ht-degree: 57%
 ---
-
-# Benutzende
+# Erste Schritte mit Benutzern
 
 Fügen Sie Benutzende hinzu und verwalten Sie ihre Berechtigungen in der [!DNL Adobe Admin Console] für ein [!DNL Target Standard]-Konto.
 
@@ -133,8 +131,8 @@ Lernziele:
 
 * Auf die Adobe Admin Console über die Adobe Target-Schnittstelle (3 Methoden) zugreifen
 * Konfigurieren eines Workspace in Adobe Admin Console
-   * Hinzufügen von Benutzern zu Arbeitsbereichen
-   * Hinzufügen von Eigenschaften zu Arbeitsbereichen
+  * Hinzufügen von Benutzern zu Arbeitsbereichen
+  * Hinzufügen von Eigenschaften zu Arbeitsbereichen
 * Grundlegende Informationen zu Standardarbeitsbereichen
 
 >[!NOTE]

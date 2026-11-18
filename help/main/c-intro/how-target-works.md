@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 20%
@@ -106,7 +106,7 @@ Weitere Informationen finden Sie unter [Erstellen eines A/B-Tests](/help/main/c-
 
 [!UICONTROL Automatische Zuordnung] identifiziert das erfolgreichste Erlebnis aus zwei oder mehr Optionen. Dem Gewinner wird dann automatisch mehr Traffic zugewiesen, was im Laufe des Tests und des Lernens die Konversionen erhöht.
 
-Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)Automatische Zuordnung“.
+Weitere Informationen [[!UICONTROL &#x200B; Sie unter &#x200B;]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview)Automatische Zuordnung“.
 
 ### [!UICONTROL Automatisches Targeting] (AT)
 
@@ -118,19 +118,19 @@ Weitere Informationen finden Sie unter [Automatisches Targeting](/help/main/c-ac
 
 [!UICONTROL Automated Personalization] (AP) kombiniert Angebote oder Nachrichten und ordnet den einzelnen Besucher/innen durch fortschrittliche Algorithmen für maschinelles Lernen unterschiedliche Varianten zu. AP personalisiert Inhalte anhand individueller Kundenprofile, um die Steigerung zu fördern.
 
-Weitere Informationen finden Sie unter [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
+Weitere Informationen finden Sie unter [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview).
 
 ### [!UICONTROL Experience Targeting] (XT)
 
 [!UICONTROL Erlebnis-Targeting] (XT) stellt Inhalte für bestimmte Zielgruppen auf der Grundlage von Regeln und Kriterien bereit, die von den Werbungtreibenden definiert werden. Einschließlich Geotargeting ist XT nützlich, um Regeln zu definieren, die auf bestimmte Erlebnisse oder Inhalte für bestimmte Zielgruppen ausgerichtet sind. Für eine Aktivität können mehrere Regeln festgelegt werden, um verschiedene Inhaltsvarianten für verschiedene Zielgruppen bereitzustellen. Wenn Besucher Ihre Website aufrufen, werden sie von XT ausgewertet, um festzustellen, ob sie die Kriterien erfüllen. Wenn sie sich qualifizieren, treten sie in die Aktivität ein und sehen das für sie entwickelte Erlebnis. Sie können Erlebnisse für mehrere Zielgruppen innerhalb einer einzelnen Aktivität erstellen.
 
-Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
+Weitere Informationen finden Sie unter [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/experience-target.md#get-started-xt).
 
 ### [!UICONTROL Multivariate Tests] (MVT)
 
 [!UICONTROL Multivariate Testing] (MVT) vergleicht Kombinationen von Angeboten in Seitenelementen, um festzustellen, welche Kombination für eine bestimmte Zielgruppe am besten funktioniert. MVT ermittelt also, welches Element den größten Einfluss auf den Erfolg der Aktivität hat.
 
-Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
+Weitere Informationen finden Sie unter [Multivariante Test](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt).
 
 ### [!UICONTROL Recommendations]
 

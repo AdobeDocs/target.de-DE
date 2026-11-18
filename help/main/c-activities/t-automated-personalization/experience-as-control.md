@@ -29,54 +29,70 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 31%
+source-wordcount: '801'
+ht-degree: 3%
 ---
-# Wählen Sie das Steuerelement für Ihre Aktivität [!UICONTROL Automated Personalization] oder [!UICONTROL Automatisches Targeting] aus
+# Auswählen des Kontrollerlebnisses {#experience-as-control}
 
-Sie können beim Erstellen einer [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP)- oder [[!UICONTROL Automatisches Targeting]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)-Aktivität ein zufällig bereitgestelltes Erlebnis oder ein bestimmtes Erlebnis als Kontrolle.
+>[!BEGINSHADEBOX]
 
-Mit dieser Funktion können Sie den Kontroll-Traffic basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentwert zu den entsprechenden Erlebnissen leiten. Anschließend können Sie in den Leistungsberichten den personalisierten Traffic mit dem Kontroll-Traffic zu diesem Kontrollerlebnis vergleichen und auswerten.
+**Auf dieser Seite** Erfahren Sie, wie Sie das Steuerelement einer **[!UICONTROL Automated Personalization]**- oder **[!UICONTROL Automatisches Targeting]**-Aktivität auswählen und was Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement beachten sollten.
 
-Die Optionen zum Festlegen eines Steuerelements in [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten unterscheiden sich geringfügig von anderen Aktivitätstypen. In einem manuellen [!UICONTROL A/B-Test] können Sie ändern, was in Berichten als Kontrolle angezeigt wird. Die Steigerung wird basierend auf der Konversionsrate dieses Kontrollerlebnisses berechnet. Sie können diese Änderung einfach vornehmen, da der Traffic per Zufall an jedes der Erlebnisse geleitet wird, die Sie in Ihre Aktivität eingeschlossen haben, unabhängig davon, wie die Kontrolle ursprünglich eingestellt ist. Mit anderen Worten: Die Auswahl des Steuerelements hat keine Auswirkungen darauf, wie der Traffic bereitgestellt wird. In [!UICONTROL Automated Personalization]- und [!UICONTROL Automatisches Targeting]-Aktivitäten wirkt sich Ihre Entscheidung darüber, was ausgewählt werden soll, da das Steuerelement Auswirkungen darauf hat, wie der Besucher-Traffic bereitgestellt wird. Daher müssen Sie sorgfältiger über Ihre Entscheidung nachdenken.
+>[!ENDSHADEBOX]
 
-In Ihren Aktivitäten vom Typ [!UICONTROL Automated Personalization] und [!UICONTROL Automatisches Targeting] stehen zwei Optionen für das Steuerelement zur Verfügung:
+Sie können beim Erstellen einer [**[!UICONTROL Automated Personalization]**](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP)- oder [**[!UICONTROL Automatisches Targeting]**](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT)-Aktivität ein zufällig bereitgestelltes Erlebnis oder ein bestimmtes Erlebnis als Kontrolle. Der Kontroll-Traffic wird basierend auf dem in der Aktivität konfigurierten Traffic-Zuordnungsprozentsatz an die relevanten Erlebnisse weitergeleitet, damit Sie die Leistungsberichte des personalisierten Traffics mit dem Kontroll-Traffic vergleichen können.
 
-* **Zufällig bereitgestellt**: Für eine zufällige Kontrolle stellt der Kontrollprozentsatz des Traffics nach dem Zufallsprinzip alle Erlebnisse in der Aktivität bereit, ohne das Besucherprofil zu berücksichtigen. Sie können sich das Steuerelement als hilfreich bei der Beantwortung der Frage vorstellen: „Wenn ich Besuchern ein Erlebnis (oder ein Angebot) nach dem Zufallsprinzip bereitstelle und deren Profile nicht berücksichtige, wie hoch ist dann die Konversionsrate für dieses Erlebnis (oder Angebot)?“ Die Steuerung ist wie ein [!UICONTROL A/B-Test] innerhalb Ihrer KI-Aktivität. Diese Informationen der nicht personalisierten Konversionsrate für jedes Erlebnis oder Angebot können bei der Analyse der Aktivitätsergebnisse hilfreich sein.
+In einem manuellen **[!UICONTROL A/B-Test]** können Sie ändern, was in Berichten als Kontrolle angezeigt wird. Die Steigerung wird aus diesem Erlebnis berechnet, da der Traffic nach dem Zufallsprinzip allen Erlebnissen bereitgestellt wird, unabhängig von der Kontrolle. In den Aktivitäten {**}Automated Personalization und**&#x200B;[!UICONTROL &#x200B; Automatisches Targeting &#x200B;]&#x200B;**wirkt sich das Steuerelement nicht darauf aus, wie der Besucher-Traffic bereitgestellt wird. Wählen Sie ihn daher sorgfältig aus.**
 
-* **Spezifisches Erlebnis**: Mit einem speziellen Erlebnissteuerelement können Sie Ihren Traffic, der von [!DNL Target] Personalisierungsmodellen bereitgestellt wird, mit einem bestimmten von Marketing-Experten definierten Erlebnis vergleichen (z. B. Ihrer standardmäßigen Homepage). Mit dieser Option wird Traffic gemäß dem Kontrollprozentsatz zufällig für ausschließlich dieses eine Erlebnis bereitgestellt.
+Für das Steuerelement stehen zwei Optionen zur Verfügung:
 
-## Festlegen eines bestimmten Erlebnisses als Kontrollelement
+* **Zufällig bereitgestellt:** Der Kontrollprozentsatz des Traffics stellt nach dem Zufallsprinzip alle Erlebnisse in der Aktivität bereit, ohne das Profil des Besuchers zu berücksichtigen. Sie funktioniert wie ein **[!UICONTROL A/B-]** innerhalb Ihrer Aktivität und zeigt die nicht personalisierte Konversionsrate der einzelnen Erlebnisse oder Angebote an, wodurch Sie die Ergebnisse analysieren können.
 
-1. Konfigurieren Sie beim Erstellen oder Bearbeiten einer [[!UICONTROL Automated Personalization]-](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) oder [[!UICONTROL automatischen Targeting]-](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) die Erlebnisse nach Bedarf.
-1. Klicken Sie auf der [!UICONTROL Targeting]-Seite (Schritt 2 des dreiteiligen geleiteten Workflows) auf das Steuerelementerlebnis, um die [!UICONTROL Kontrolle]-Optionen im rechten Bereich anzuzeigen.
+* **Spezifisches Erlebnis:** Der Kontrollprozentsatz des Traffics dient nach dem Zufallsprinzip nur diesem einen Erlebnis. Mit dieser Option können Sie den von den [!DNL Target] Personalisierungsmodellen bereitgestellten Traffic mit einem bestimmten Erlebnis vergleichen, das Sie definieren, z. B. Ihre standardmäßige Homepage.
+
+## Zu beachten {#considerations}
+
+Beachten Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement die folgenden Punkte:
+
+* Es wird nicht empfohlen, das Kontrollerlebnis in einer bereits aktiven Aktivität zu ändern. Das zuletzt ausgewählte Kontrollerlebnis wird in Berichten benannt, auch wenn ältere Berichte auf einem anderen Erlebnis basieren.
+
+* Das Löschen des Kontrollerlebnisses wird nicht empfohlen.
+
+* Hinzufügen vieler neuer Angebote oder Erlebnisse zu einer Live-Aktivität mit einem bestimmten Erlebnis, da das Steuerelement nicht empfohlen wird.
+
+* In **[!UICONTROL Automated Personalization]**-Aktivitäten, einschließlich der Zielgruppenbestimmung für das Kontrollerlebnis, die weiter einschränken könnte, wer sehen kann, dass das Erlebnis nicht empfohlen wird.
+
+* In **[!UICONTROL Automated Personalization]**-Aktivitäten sind die Informationen über Steigerung *Konfidenz nicht* im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Dies liegt daran, dass der Vergleich der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund des Unterschieds in den Einheiten nicht logisch ist. Informationen zu Steigerung und Konfidenz sind auf der gesamten Traffic-Stufe „Targeting“ im Vergleich zur Traffic-Stufe „Kontrolle“ für die Aktivität und auf allen Ebenen verfügbar, wenn „Zufällig“ als Kontrolle ausgewählt ist. Die in einer Aktivität vom Typ **[!UICONTROL Automatisches Targeting]** verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
+
+* Wenn Sie ein bestimmtes Erlebnis als Kontrolle auswählen, geht der gesamte Kontroll-Traffic an ein einzelnes Erlebnis oder an eine Gruppe von Angeboten. Mit einer zufälligen Steuerung wird der Kontroll-Traffic auf die Anzahl der Erlebnisse oder Angebote in Ihrer Aktivität aufgeteilt. Daher benötigen Sie im Allgemeinen nicht so viel Traffic, der zum Steuerelement mit einem bestimmten Erlebnis fließen soll. Es wird empfohlen, mit 10 % zu beginnen.
+
+* Wenn Sie eine der folgenden Aktionen auf eine Live-Aktivität mit einem bestimmten Erlebnis als Kontrolle anwenden, wird das Kontrollerlebnis automatisch auf die zufällig bereitgestellten Erlebnisse zurückgesetzt (anstelle des zuvor ausgewählten spezifischen Erlebnisses):
+
+  * Erlebnis löschen.
+  * Einen Speicherort oder ein Angebot entfernen (nur **[!UICONTROL Automated Personalization]**).
+  * Ein Erlebnis manuell ausschließen, indem doppelte Angebote entfernt werden, oder durch eine Ausschlussgruppe (nur **[!UICONTROL Automated Personalization]**).
+
+
+## Festlegen eines bestimmten Erlebnisses als Kontrollelement {#specify-control}
+
+Wenn Sie ein bestimmtes Erlebnis als Kontrolle angeben, erhält der personalisierte Traffic ein bekanntes Erlebnis, mit dem er in den Berichten der Aktivität verglichen werden kann, z. B. das aktuelle Standarderlebnis.
+
+1. Konfigurieren Sie beim Erstellen oder Bearbeiten einer [**[!UICONTROL Automated Personalization &#x200B;]**-](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) oder einer [**[!UICONTROL automatischen Targeting]**-](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity) die Erlebnisse nach Bedarf.
+
+1. Klicken Sie auf der **[!UICONTROL Targeting]**-Seite (Schritt 2 des dreiteiligen geleiteten Workflows) auf das Steuerelementerlebnis, um die **[!UICONTROL Kontrolle]**-Optionen im rechten Bereich anzuzeigen.
 
    ![Systemsteuerung](/help/main/c-activities/t-automated-personalization/assets/control.png)
 
-1. Wählen Sie in [!UICONTROL &#x200B; Dropdown]Liste „Steuerung“ die Option [!UICONTROL Zufälliges Erlebnis] oder wählen Sie das gewünschte Erlebnis für das Steuerelement aus.
+1. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Kontrolle“ die Option **[!UICONTROL Zufälliges Erlebnis]** oder wählen Sie das Erlebnis aus, das Sie als Steuerelement verwenden möchten.
 
-1. Klicken Sie auf [!UICONTROL Traffic-Zuordnungssteuerung] und geben Sie dann die gewünschte Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
+1. Klicken Sie auf **[!UICONTROL Traffic-Zuordnungs]**-Steuerelement und geben Sie dann die Traffic-Zuordnung für das Kontrollerlebnis und die anderen Erlebnisse an.
 
    ![Traffic-Zuordnungsleiste](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    Je nach Erlebniskontrollart sind 10 % bis 30 % empfehlenswert.
 
-1. Fahren Sie mit der Seite [!UICONTROL Ziele und Einstellungen] fort.
+1. Fahren Sie mit der Seite **[!UICONTROL Ziele und Einstellungen]** fort.
 
-## Bekannte Einschränkungen und Überlegungen
-
-Beachten Sie bei der Verwendung eines bestimmten Erlebnisses als Steuerelement die folgenden Punkte:
-
-* Es wird nicht empfohlen, das Kontrollerlebnis in einer bereits aktiven Aktivität zu ändern. Das zuletzt ausgewählte Kontrollerlebnis wird in Berichten aufgeführt (auch wenn ältere Berichte auf einem anderen Erlebnis basieren).
-* Das Löschen des Kontrollerlebnisses wird nicht empfohlen.
-* Hinzufügen vieler neuer Angebote oder Erlebnisse zu einer Live-Aktivität mit einem bestimmten Erlebnis, da das Steuerelement nicht empfohlen wird.
-* In [!UICONTROL Automated Personalization]-Aktivitäten, einschließlich der Zielgruppenbestimmung für das Kontrollerlebnis, die weiter einschränken könnte, wer sehen kann, dass das Erlebnis nicht empfohlen wird.
-* In [!UICONTROL Automated Personalization]-Aktivitäten sind die Informationen über Steigerung *Konfidenz* NOT) im Bericht auf Angebotsebene verfügbar, wenn ein bestimmtes Erlebnis ausgewählt wurde. Informationen zu Steigerung und Konfidenz sind für die gesamte Aktivität [!UICONTROL Automated Personalization&quot; auf der Traffic-Ebene „Targeting“ im Vergleich &#x200B;] „Kontrolle“ verfügbar. Informationen zu Steigerung und Konfidenz sind verfügbar, wenn als Kontrolle „zufällig“ ausgewählt ist. Dieser Unterschied liegt daran, dass der Vergleich der Konversionsrate eines bestimmten Erlebnisses mit der Konversionsrate eines Angebots aufgrund des Unterschieds in den Einheiten nicht logisch ist. Die in einer Aktivität vom Typ [!UICONTROL Automatisches Targeting] verfügbaren Informationen sind identisch, unabhängig davon, welcher Kontrolltyp ausgewählt ist.
-* Da der gesamte Kontroll-Traffic zu einem einzelnen Erlebnis oder Angebotsset geleitet wird, wenn Sie das Erlebnis als Kontrolle auswählen (im Vergleich zur zufälligen Methode, wo das Volumen des Kontroll-Traffics auf die Anzahl der Erlebnisse oder Angebote in Ihrer Aktivität aufgeteilt ist), benötigen Sie im Allgemeinen weniger Traffic, der zur Kontrolle geleitet wird. Es wird empfohlen, mit 10 % zu beginnen.
-* Wenn Sie eine der folgenden Handlungen bei einer aktiven Aktivität mit einem bestimmten Erlebnis als Kontrollelement ausführen, wird die Kontrolle automatisch auf zufällig ausgelieferte Erlebnisse geändert (anstelle des zuvor ausgewählten bestimmten Erlebnisses):
-
-  * Ein Erlebnis löschen
-  * Standort oder Angebot entfernen (nur [!UICONTROL Automated Personalization])
-  * Manuelles Ausschließen eines Erlebnisses, indem doppelte Angebote entfernt werden oder eine Ausschlussgruppe verwendet wird (nur [!UICONTROL Automated Personalization])
+Sobald die Aktivität live ist, wird in den Berichten der personalisierte Traffic mit dem von Ihnen ausgewählten Kontrollerlebnis verglichen. Beachten Sie die [Überlegungen](#considerations) bevor Sie eine Live-Aktivität ändern, da einige Änderungen das Steuerelement automatisch auf zufällig bereitgestellte Erlebnisse zurücksetzen.

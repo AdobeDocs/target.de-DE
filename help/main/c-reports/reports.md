@@ -22,12 +22,12 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 25%
 ---
-# Berichte
+# Erste Schritte mit Berichten
 
 Berichte enthalten Informationen über den Fortschritt und die Ergebnisse Ihrer [!DNL Adobe Target] Aktivitäten, die Ihnen bei datenbasierten Entscheidungen helfen. Berichtsdaten können Ihnen bei der Entscheidung helfen, wann eine Aktivität beendet werden soll, zeigen Ihnen, welches Erlebnis oder Angebot der Gewinner ist, und bieten Einblicke oder Erkenntnisse, die Sie benötigen, um die nächsten Aktionen zu bestimmen.
 
