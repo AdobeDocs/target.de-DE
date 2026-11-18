@@ -134,7 +134,7 @@ Beachten Sie, dass einige mboxDebug-Parameter mit oder ohne Authentifizierung ve
 
 Der Adobe Experience Cloud-Debugger hilft Ihnen, Ihre [!DNL Target] zu verstehen. Sie können die Bibliothekskonfiguration anzeigen, sicherstellen, dass Ihre benutzerdefinierten Parameter korrekt weitergeleitet werden, die Konsolenprotokollierung aktivieren und alle [!DNL Target] deaktivieren. Nachdem Sie sich bei Experience Cloud authentifiziert haben, können Sie mboxTrace verwenden, um Ihre Aktivität und Zielgruppenqualifikationen sowie Ihr Besucherprofil zu überprüfen.
 
-Weitere Informationen finden Sie in den [Schulungsvideos](#training-videos) am Ende dieser Seite und unter &quot;[.js mit Adobe Experience Cloud Debugger ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Weitere Informationen finden Sie in den [Schulungsvideos](#training-videos) am Ende dieser Seite und unter &quot;[.js mit Adobe Experience Cloud Debugger &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Häufige Probleme {#common-problems}
 
@@ -195,7 +195,7 @@ at.js löst keine [!DNL Target] aus, wenn Sie einen ungültigen Doctype verwende
 
 Die **[!UICONTROL Aktivitäts-URL]** bestimmt die Seite, die Besucher für die Aktivität qualifiziert, und rendert die Aktivitätserlebnisse für Benutzer. Wenn Sie bei der Aktivitätserstellung dazu aufgefordert werden, stellt das Eingeben der vollständigen URL nicht immer sicher, dass der Inhalt auf dieser Website auch bereitgestellt wird, insbesondere bei URLs, die Abfragezeichenfolgen-Parameter enthalten.
 
-Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) ](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
+Standardmäßig öffnet der [!UICONTROL Visual Experience Composer] (VEC) die Seite, die in Ihren [Visual Experience Composer-Einstellungen) &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md) ist. Sie können während der Erstellung der Aktivität eine andere Seite angeben.
 
 Um nach dem Öffnen von VEC eine andere Seite anzuzeigen, klicken Sie auf **[!UICONTROL Zahnradsymbol konfigurieren]** wählen Sie **[!UICONTROL Seitenbereitstellung]** und geben Sie dann die gewünschte URL im Feld **[!UICONTROL Aktivitäts-URL]** an.
 
@@ -256,7 +256,7 @@ adobe.target.trackEvent({
 
 In den folgenden Videos erhalten Sie weitere Informationen zu den in diesem Artikel behandelten Konzepten.
 
-### Fügen Sie die Erweiterung ![Tutorial-Badge) ](/help/main/assets/tutorial.png)
+### Fügen Sie die Erweiterung ![Tutorial-Badge) &#x200B;](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

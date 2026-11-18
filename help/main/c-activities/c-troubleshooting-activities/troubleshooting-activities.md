@@ -165,13 +165,13 @@ Aktualisieren Sie die Aktivität am besten mithilfe derselben Methode (Benutzero
 Nachdem Sie in [!DNL Target] als Benutzer hinzugefügt wurden, benötigen Sie die Rolle **[!UICONTROL Genehmiger]** , um Aktivitäten zu erstellen.
 
 * Bitten Sie den Administrator Ihres Kontos, Sie zu einer genehmigenden Person zu machen.
-* Falls Sie selbst der Administrator sind, erteilen Sie sich **[!UICONTROL [!DNL Target] unter**[!UICONTROL  Administration ]**>**[!UICONTROL  Benutzer ]**die Rolle „Genehmiger]**. Siehe [Weisen Sie sich selbst die Rolle der genehmigenden Person zu](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+* Falls Sie selbst der Administrator sind, erteilen Sie sich **[!UICONTROL [!DNL Target] unter**&#x200B;[!UICONTROL &#x200B; Administration &#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B; Benutzer &#x200B;]&#x200B;**die Rolle „Genehmiger]**. Siehe [Weisen Sie sich selbst die Rolle der genehmigenden Person zu](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 +++
 
 </br>
 
-+++ Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche ] Status [!UICONTROL Inaktiv“
++++ Sie haben über die [!DNL Target]-API eine Aktivität aktiviert, aber die Aktivität hat in der [!DNL Target]-Benutzeroberfläche  Status Inaktiv“
 
 Wenn Sie bestimmte Aktionen ausführen, wie zum Beispiel eine Aktivität außerhalb der Benutzeroberfläche über die [!DNL Target]-API zu aktivieren, kann es bis zu 10 Minuten dauern, bis die Aktualisierung bis zur Benutzeroberfläche propagiert wird.
 
