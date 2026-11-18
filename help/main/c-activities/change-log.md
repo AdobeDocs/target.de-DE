@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# Aktivitätsänderungsprotokoll
+# Aktivitätsänderungsprotokoll {#change-log}
 
-Das [!DNL Adobe Target] [!UICONTROL Änderungsprotokoll] zeichnet Aktivitätsaktionen auf, einschließlich der Änderungen, der Personen, die die Änderungen vorgenommen haben, und des Zeitpunkts ihres Auftretens. Die [!UICONTROL Änderungsprotokoll]-Seite wird für Echtzeit-Einblicke gefüllt.
+>[!BEGINSHADEBOX]
 
-So greifen Sie auf die [!UICONTROL Änderungsprotokoll] zu:
+**Auf dieser Seite** Erfahren Sie, wie Sie die Aktionen anzeigen können, die an einer Aktivität, von wem und wann durchgeführt wurden.
 
-1. Klicken Sie **[!UICONTROL Aktivitäten]** > klicken Sie in der Liste auf die gewünschte Aktivität.
+>[!ENDSHADEBOX]
+
+Im [!DNL Adobe Target] **[!UICONTROL Änderungsprotokoll]** werden die Aktionen aufgezeichnet, die für eine Aktivität durchgeführt wurden, einschließlich Änderungen, der Urheber der Änderungen und des Zeitpunkts ihrer Durchführung. Er gibt einen klaren Verlauf der Aktivität an und die Seite **[!UICONTROL Änderungsprotokoll]** wird für Echtzeit-Einblicke ausgefüllt.
+
+So greifen Sie auf die **[!UICONTROL Änderungsprotokoll]** zu:
+
+1. Klicken Sie **[!UICONTROL Aktivitäten]** und dann auf die Aktivität in der Liste.
 1. Klicken Sie **[!UICONTROL der linken Leiste auf]**&#x200B;Änderungsprotokoll“.
 
-Die ausgeführte Aktion, das Datum, an dem die Aktion durchgeführt wurde, und der Benutzer, der die Aktion durchgeführt hat, werden bei jeder Erstellung, Aktualisierung, Aktivierung oder Deaktivierung einer Aktivität aufgeführt. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet.
+   Auf der Seite werden die ausgeführte Aktion, das Datum der Aktion und der Benutzer aufgelistet, der sie ausgeführt hat, sobald eine Aktivität erstellt, aktualisiert, aktiviert oder deaktiviert wird. Änderungen an benutzerdefinierten Zielen und in der Aktivität verwendeten Angeboten werden ebenfalls aufgelistet.
 
-Aktualisieren Sie die Seite, um die Statusänderungen zu sehen. Sie können die durchgeführten Aktionen auch in auf- oder absteigender Reihenfolge auflisten, indem Sie auf die Spaltenüberschrift [!UICONTROL Datum] klicken.
+   ![Menü „Protokoll ändern“](assets/change_logs.png)
+
+1. Um die Aktionen in auf- oder absteigender Reihenfolge aufzulisten, klicken Sie auf die Spaltenüberschrift **[!UICONTROL Datum]**.
+
+1. Aktualisieren Sie die Seite, um die Statusänderungen zu sehen.
 
 ## Target-Auditprotokoll-APIs
 
 * [Revisionen: Auditprotokoll nach dem Namen des letzten Autors und einem Zeitstempel nach der Änderung abrufen](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Aktivitäts-Änderungsprotokoll auflisten](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-

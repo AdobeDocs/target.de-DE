@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ Verwenden Sie QA-URLs in [!DNL Adobe Target], um eine einfache End-to-End-Aktivi
 
      Achten Sie auf Folgendes, wenn diese Einstellung auf „aus“ festgelegt ist:
 
-     * Wenn es zu Kollisionen zwischen der zu testenden Aktivität und anderen Live-Aktivitäten kommt, [normale Prioritätsregeln](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) angewendet. Aufgrund von Kollisionen ist es möglich, dass Sie die Aktivität, die Sie überprüfen möchten, nicht sehen können.
+     * Wenn es zu Kollisionen zwischen der zu testenden Aktivität und anderen Live-Aktivitäten kommt, [normale Prioritätsregeln](/help/main/c-activities/priority.md#priority) angewendet. Aufgrund von Kollisionen ist es möglich, dass Sie die Aktivität, die Sie überprüfen möchten, nicht sehen können.
      * Die Metriken werden für die angezeigten Aktivitäten inkrementiert, jedoch nicht in der QA-Berichtsumgebung.
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**, um Ihre Änderungen zu speichern.
@@ -102,12 +102,12 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 
 * Da die Aktivitäts-QA jetzt für alle [!DNL Target] Aktivitätstypen verfügbar ist, ist die Funktion „Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs“ nicht mehr erforderlich.
 * [!UICONTROL Aktivitäts-QA] Vorschau-Links für gespeicherte Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Das Wiederholen der Vorschau-Links sollte funktionieren. Um zu verhindern, dass dies weiterhin geschieht, archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden.
-* [!UICONTROL Aktivitäts-QA]URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit [!UICONTROL Aktivitäts-QA] generiert werden, fließen in dieselbe Report Suite, in der die Daten der Aktivität auch nach der Live-Schaltung der Aktivität fließen.
-* [!UICONTROL Aktivitäts-QA] zeigt keine Inhalte für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum überschritten ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, [!UICONTROL &#x200B; „Aktivitäts-QA] funktioniert.
+* [!UICONTROL Aktivitäts-QA]URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit [!UICONTROL Aktivitäts-QA] generiert werden, fließen in dieselbe Report Suite, in der die Daten der Aktivität auch nach der Live-Schaltung der Aktivität fließen.
+* [!UICONTROL Aktivitäts-QA] zeigt keine Inhalte für archivierte Aktivitäten oder Aktivitäten an, deren Enddatum überschritten ist. Wenn Sie eine beendete Aktivität deaktivieren, müssen Sie die Aktivität erneut speichern, [!UICONTROL  „Aktivitäts-QA] funktioniert.
 * In [!DNL Target Standard/Premium] importierte Aktivitäten (z. B. aus [!DNL Target Classic]) unterstützen keine QA-URLs.
 * In [!UICONTROL Aktivitäten Automatische Zuordnung] und [!UICONTROL Recommendations] ist das Modell von den in [!UICONTROL Aktivitäts-QA] erfassten Besuchen nicht betroffen.
-* Wenn Sie beim Erstellen der Aktivität „URL ist[&#x200B; angegeben haben (Verbesserungen im formularbasierten &#x200B;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-] URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
-* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=de){target=_blank} haben.
+* Wenn Sie beim Erstellen der Aktivität „URL ist[ angegeben haben (Verbesserungen im formularbasierten ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) oder [Seitenbereitstellungsoptionen im Visual Experience Composer)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81) funktioniert die QA-URL nicht, da [!UICONTROL Aktivitäts-] URL-Parameter anhängt. Klicken Sie zur Lösung dieses Problems auf die QA-URL, um zu Ihrer Site zu navigieren. Entfernen Sie die angehängten Parameter aus der URL und laden Sie dann die neue URL.
+* Wenn Sie at.js 1.*x* verwenden, ist [!UICONTROL Aktivitäts-QA]-Modus nicht starr, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
 * Wenn für eine Aktivität mehrere Erlebnis-Zielgruppen verwendet werden (z. B. eine Website aus den USA und Großbritannien, die Teil derselben Aktivität ist), werden für die vier Kombinationen (Experience A/US-Website, Experience A/UK-Website, Experience B/US-Website, Experience B/UK-Website) keine QA-Links erzeugt. Es werden nur zwei QA-Links (Erlebnis A und Erlebnis B) erstellt, und die Benutzer müssen sich für die entsprechende Zielgruppe qualifizieren, um die Seite anzeigen zu können. Eine Person, die für Fragen zur britischen Qualitätssicherung zuständig ist, kann die US-Website nicht sehen.
 * Alle Parameter und Werte vom Typ `at_preview` sind bereits URL-kodiert. Meistens funktioniert alles wie erwartet. Einige Kunden müssen jedoch Lastenausgleichsmodule oder Webserver verwenden, die versuchen, die Abfragezeichenfolgenparameter erneut zu codieren.
 
@@ -130,12 +130,12 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 * Die [!UICONTROL Target-QA-Modus]-Benutzeroberfläche zeigt nur die erste URL eines Erlebnisses in einer mehrseitigen Aktivität an. Es wird davon ausgegangen, dass Sie einen Journey-Test erstellen und von URL1 zu URL2 wechseln. Wenn Sie jedoch unabhängig zu URL 2 wechseln möchten, kopieren Sie alle URL-Parameter, die neben URL1 angegeben sind, und wenden Sie sie nach dem Platzieren eines „?“ auf URL2 an, genau wie Sie sie in URL1 sehen.
 * Vorschaulinks für die Aktivitäts-QA gespeicherter Aktivitäten werden möglicherweise nicht geladen, wenn im Konto zu viele gespeicherte Aktivitäten vorhanden sind. Versuchen Sie die Vorschaulinks erneut zu laden. Archivieren Sie gespeicherte Aktivitäten, die nicht mehr aktiv verwendet werden, um zu verhindern, dass dieses Problem weiterhin auftritt.
 
-## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek &#x200B;]QA-Modus) {#compatibility}
+## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek ]QA-Modus) {#compatibility}
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de)
 
 In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und angegeben, ob [!UICONTROL Aktivitäts-QA]Modus für jede Bibliothek unterstützt wird:

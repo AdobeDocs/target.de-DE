@@ -16,58 +16,69 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 21%
+source-wordcount: '952'
+ht-degree: 14%
 ---
-# Bearbeiten einer Aktivität
+# Bearbeiten einer Aktivität {#edit-activity}
 
-Erfahren Sie, wie Sie vorhandene Aktivitäten in [!DNL Adobe Target] bearbeiten. In diesem Artikel werden die verschiedenen Methoden behandelt, die in der [!DNL Target]-Oberfläche zum Ändern von Aktivitäten verfügbar sind. Unabhängig davon, ob Sie Erlebnisse aktualisieren, Targeting-Regeln anpassen oder Ziele konfigurieren, stellt [!DNL Target] sicher, dass Ihre Änderungen vor der Aktivierung sicher gespeichert werden.
+>[!BEGINSHADEBOX]
 
-[!DNL Target] bietet verschiedene Stellen in der Benutzeroberfläche, an denen Sie vorhandene Aktivitäten bearbeiten können. Der Vorgang hängt von der gewählten Methode ab.
+**Auf dieser Seite** Erfahren Sie, wie Sie eine vorhandene Aktivität auf der Seite **[!UICONTROL Aktivitäten]** bearbeiten, eine Aktivität bei Verwendung von Arbeitsbereichen kopieren und welche Aktionen für ältere Aktivitäten gelten.
 
-## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite Aktivitäten das Symbol [!UICONTROL Mehr Aktionen] verwenden {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+>[!ENDSHADEBOX]
 
-1. Klicken Sie auf der **[!UICONTROL Aktivitäten]** neben der Aktivität, die Sie bearbeiten möchten, auf das Symbol **[!UICONTROL Mehr]** Mehr Aktionen ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) und dann auf [!UICONTROL **Bearbeiten**].
+Vorhandene Aktivitäten können an verschiedenen Stellen der [!DNL Adobe Target] bearbeitet werden, sodass Änderungen an Erlebnissen, Zielgruppenbestimmungsregeln oder Zielen keine Neuerstellung der Aktivität erfordern. Die Schritte variieren je nach ausgewählter Methode. Die Funktion **[!UICONTROL Als Entwurf speichern]** ist nicht mehr verfügbar. Weitere Informationen finden Sie unter **[!UICONTROL Status]** unter [Filter auf die Aktivitätenliste anwenden](/help/main/c-activities/activities.md#filters).
 
-   [!DNL Target] öffnet die Aktivität im [!UICONTROL Visual Experience Composer] (VEC) und Sie sehen die Seite [!UICONTROL Erlebnisse] (den ersten Schritt im Drei-Schritte-Workflow).
+## Bearbeiten über das Symbol [!UICONTROL Mehr Aktionen] {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Bearbeiten Sie die Aktivität nach Bedarf mithilfe der [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+So bearbeiten Sie eine Aktivität anhand des dreistufigen Workflows:
 
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um zum nächsten Schritt zu gelangen, und nehmen Sie dann die erforderlichen Änderungen vor.
+1. Klicken Sie auf der **[!UICONTROL Aktivitäten]** auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität und dann auf **[!UICONTROL Bearbeiten]**.
 
-1. Wenn Sie zur Seite **Ziele und Einstellungen** gelangen, haben Sie die folgenden Optionen:
+   [!DNL Target] öffnet die Aktivität im **[!UICONTROL Visual Experience Composer]** (VEC) und zeigt die Seite **[!UICONTROL Erlebnisse]** an, die den ersten Schritt des Workflows darstellt.
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
-   * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
+   ![Symbol „Mehr Aktionen“](assets/edit-activity-1.png)
 
-## Bearbeiten Sie eine Aktivität, indem Sie auf der Seite „Aktivitäten[!UICONTROL &#x200B; auf ihren Namen &#x200B;]. {#section_176180DAD17E40CEA441903F39E0AA1C}
+1. Bearbeiten Sie die Aktivität mithilfe der [VEC-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Um den Workflow nicht schrittweise zu durchlaufen, klicken Sie auf der Seite [!UICONTROL Aktivitäten] auf die gewünschte Aktivität, um ihn zu öffnen. Wählen Sie dann eine Option aus der Dropdown-Liste **[!UICONTROL Aktivität bearbeiten]** und wählen Sie die gewünschte Option aus.
+1. Klicken Sie **[!UICONTROL Weiter]**, um mit dem nächsten Schritt fortzufahren, und nehmen Sie dann die erforderlichen Änderungen vor.
 
-   * **Erlebnisse bearbeiten:** Führt Sie direkt zur Seite [!UICONTROL Erlebnisse] (der erste Schritt im Drei-Schritte-Workflow).
-   * **Targeting bearbeiten**: Leitet Sie direkt zur Seite [!UICONTROL Targeting] (der zweite Schritt im Drei-Schritte-Workflow).
-   * **[!UICONTROL Ziele und Einstellungen]**: Leitet Sie direkt zur Seite [!UICONTROL Ziele und Einstellungen] (der dritte Schritt im Drei-Schritte-Workflow).
+1. Speichern Sie auf **[!UICONTROL Seite „Ziele]** Einstellungen“ die Änderungen mithilfe einer der folgenden Optionen:
 
-1. Nehmen Sie die gewünschten Änderungen vor und speichern Sie dann die Aktivität.
+   * **[!UICONTROL Speichern und schließen]:** Speichert die Änderungen und zeigt die Seite **[!UICONTROL Übersicht]** der Aktivität an.
+   * **[!UICONTROL Speichern]:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um die Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
 
-   * **[!UICONTROL Speichern und schließen]:** Klicken Sie auf **[!UICONTROL Speichern und schließen]** um Ihre Änderungen zu speichern und die Seite &quot;[!UICONTROL &quot; &#x200B;] Aktivität anzuzeigen.
-   * **Speichern:** Klicken Sie auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und wählen Sie dann **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern und im VEC zu bleiben, wo Sie weitere Änderungen vornehmen können. Warten Sie, bis das Speichern abgeschlossen ist, bevor Sie weitere Änderungen vornehmen. Nach Abschluss des Speichervorgangs wird VEC mit den aktualisierten Änderungen neu geladen.
+     ![Symbol „Mehr Aktionen“](assets/edit-activity-2.png)
 
-## Kopieren/Bearbeiten einer Aktivität bei Verwendung von Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Aus dem Aktivitätsnamen bearbeiten {#section_176180DAD17E40CEA441903F39E0AA1C}
+
+So gehen Sie direkt zu dem Schritt, der geändert werden muss, ohne den Workflow schrittweise zu durchlaufen:
+
+1. Klicken Sie auf der **[!UICONTROL Aktivitäten]** auf die Aktivität, um sie zu öffnen, und wählen Sie dann eine der Optionen aus der Dropdown-Liste **[!UICONTROL Aktivität bearbeiten]** aus:
+
+   * **[!UICONTROL Erlebnisse bearbeiten]:** Öffnet die Seite **[!UICONTROL Erlebnisse]** (der erste Schritt des Workflows).
+   * **[!UICONTROL Targeting bearbeiten]:** Öffnet die Seite **[!UICONTROL Targeting]** (zweiter Schritt des Workflows).
+   * **[!UICONTROL Ziele und Einstellungen]:** Öffnet die Seite **[!UICONTROL Ziele und Einstellungen]** (der dritte Schritt des Workflows).
+
+     ![Menü Aktivität bearbeiten](assets/edit-activity-3.png)
+
+1. Nehmen Sie die Änderungen vor und speichern Sie dann die Aktivität mit **[!UICONTROL Speichern und schließen]** oder **[!UICONTROL Speichern]**, wie im vorherigen Abschnitt beschrieben.
+
+## Kopieren und Bearbeiten mit Arbeitsbereichen {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Mithilfe eines Arbeitsbereichs können Organisationen bestimmte Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in [!DNL Adobe Analytics].
 
 >[!NOTE]
 >
->Arbeitsbereiche sind Teil der Funktionen [!UICONTROL Eigenschaften und Berechtigungen] , die als Teil der [!DNL Target Premium]-Lösung verfügbar sind. Für [!DNL Target Standard] sind sie nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
+>Arbeitsbereiche sind Teil der Funktionen **[!UICONTROL Eigenschaften und Berechtigungen]** , die als Teil der [!DNL Target Premium]-Lösung verfügbar sind. Für [!DNL Target Standard] sind sie nicht ohne [!DNL Target Premium]-Lizenz verfügbar.
 
 Wenn Sie Teil einer multinationalen Organisation sind, besitzen Sie eventuell einen Arbeitsbereich für Ihre europäischen Webseiten, Eigenschaften oder Sites und einen weiteren Arbeitsbereich für Ihre amerikanischen Webseiten, Eigenschaften oder Sites. Wenn Sie einer Organisation angehören, die mehrere Marken besitzt, haben Sie eventuell für jede Marke einen eigenen Arbeitsbereich.
 
 Weitere Informationen zu Arbeitsbereichen und der Funktionalität für Enterprise-Benutzerberechtigungen finden Sie unter [Enterprise-Benutzerberechtigungen](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Wenn Sie [!UICONTROL Enterprise-Benutzerberechtigungen] in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, klicken Sie auf der Seite [!UICONTROL Aktivitäten] auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität, die Sie kopieren möchten, und klicken Sie dann auf [!UICONTROL **Kopieren**].
+Wenn Sie **[!UICONTROL Enterprise-Benutzerberechtigungen]** in Ihrer Umgebung aktiviert haben, können Sie Aktivitäten in denselben Arbeitsbereich oder in einen anderen Arbeitsbereich kopieren. Es ist zurzeit nicht möglich, eine Aktivität von einem Arbeitsbereich in einen anderen zu verschieben. Um eine Aktivität in einen anderen Arbeitsbereich zu kopieren, klicken Sie auf der Seite **[!UICONTROL Aktivitäten]** auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Mehr Aktionen-Symbol](/help/main/assets/icons/MoreSmall.svg) ) neben der Aktivität, die Sie kopieren möchten, und klicken Sie dann auf **[!UICONTROL Kopieren]**.
 
 Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsfunktionalität mit Arbeitsbereichen verwenden:
 
@@ -75,21 +86,19 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 * Wenn eine Aktivität von einem nicht standardmäßigen Arbeitsbereich in einen anderen Arbeitsbereich kopiert wird (unabhängig davon, ob es sich um einen standardmäßigen oder nicht standardmäßigen Arbeitsbereich handelt), wird der Aktivitätsassistent geöffnet. Zum Abschließen der Einrichtung sind einige manuelle Eingaben erforderlich:
   * **[!UICONTROL Eigenschaften]**: Eigenschaften können je nach Arbeitsbereich unterschiedlich sein. Diese Situation könnte einen Trigger für einen Warnhinweis darstellen:
 
-    * In [!UICONTROL Form-Based Experience Composer] werden Warnungen direkt in der Benutzeroberfläche angezeigt, um eine sofortige Sichtbarkeit zu gewährleisten.
+    * In **[!UICONTROL Form-Based Experience Composer]** werden Warnungen direkt in der Benutzeroberfläche angezeigt, um eine sofortige Sichtbarkeit zu gewährleisten.
 
       ![Warnung zum formularbasierten Arbeitsbereich](/help/main/c-activities/assets/form-based-warning.png)
 
-    * In VEC werden Warnungen angezeigt, wenn Sie auf [!UICONTROL Konfigurieren] > [!UICONTROL Eigenschaften] klicken.
+    * In VEC werden Warnungen angezeigt, wenn Sie auf **[!UICONTROL Konfigurieren]** > **[!UICONTROL Eigenschaften]** klicken.
 
-      ![VEC-Warnung](/help/main/c-activities/assets/vec-warning.png)
-
-      Um dieses Problem zu beheben, klicken Sie auf [!UICONTROL Hinzufügen/Entfernen] sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
+      Um dieses Problem zu beheben, klicken Sie auf **[!UICONTROL Hinzufügen/Entfernen]** sodass nur die im Zielarbeitsbereich verfügbaren Eigenschaften zur Auswahl angezeigt werden.
 
   * **Audiences und Angebote**: Beim Kopieren einer Aktivität in einen neuen Arbeitsbereich werden alle zugehörigen [!DNL Target]- oder Ad-hoc-Audiences und -Angebote aus dem ursprünglichen Arbeitsbereich mithilfe des folgenden Formats dupliziert: `<Entity Name> Copy <Date>` für [!DNL Target] Audiences und für Ad-hoc-Angebote `<Entity Name>`.
 
     Verhaltensdetails:
 
-    * Kopierte Zielgruppen und Angebote werden erst dann in den Listen [!UICONTROL Zielgruppen] und [!UICONTROL Angebote] angezeigt, wenn die Aktivität gespeichert und erneut geöffnet wird.
+    * Kopierte Zielgruppen und Angebote werden erst dann in den Listen **[!UICONTROL Zielgruppen]** und **[!UICONTROL Angebote]** angezeigt, wenn die Aktivität gespeichert und erneut geöffnet wird.
     * Diese Entitäten können nicht sofort nach dem Kopieren bearbeitet werden. Kunden sehen möglicherweise während der ersten Bearbeitungssitzung leere Inhalte in Visual Experience Composer für diese Elemente.
     * Kunden können kopierte Zielgruppen oder Angebote bei Bedarf aus dem Zielarbeitsbereich durch andere ersetzen.
 
@@ -103,20 +112,16 @@ Beachten Sie die folgenden Informationen, wenn Sie die Kopier- und Bearbeitungsf
 
 >[!NOTE]
 >
->Wenn in Ihrer Umgebung die Funktion [!UICONTROL Enterprise-Benutzerberechtigungen] nicht aktiviert ist, werden alle Aktivitäten im Bearbeitungsmodus geöffnet, bevor sie kopiert werden.
+>Wenn in Ihrer Umgebung die Funktion **[!UICONTROL Enterprise-Benutzerberechtigungen]** nicht aktiviert ist, werden alle Aktivitäten im Bearbeitungsmodus geöffnet, bevor sie kopiert werden.
 
-## Speichern einer Aktivität im Entwurfsformular {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Alte [!DNL Recommendations Classic] Aktivitäten {#classic}
 
-Die Funktion [!UICONTROL Als Entwurf speichern] ist nicht mehr verfügbar. Weitere Informationen finden Sie unter *[!UICONTROL Status]* unter [Filter auf die Aktivitätenliste anwenden](/help/main/c-activities/activities.md#filters).
+Die **[!UICONTROL Aktivitäten]** zeigt Aktivitäten an, die in verschiedenen Quellen erstellt wurden, darunter auch [!DNL Recommendations Classic]. Die folgenden Aktionen sind für veraltete Aktivitäten verfügbar, die in [!DNL Recommendations Classic] erstellt wurden:
 
-## Arbeiten mit alten Aktivitäten, die in [!DNL Recommendations Classic] erstellt wurden {#classic}
+* **[!UICONTROL Aktivieren]**
+* **[!UICONTROL Deaktivieren]**
+* **[!UICONTROL Archivieren]**
+* **[!UICONTROL Kopieren]**
+* **[!UICONTROL Löschen]**
 
-Die [!UICONTROL Aktivitäten] zeigt Aktivitäten an, die in verschiedenen Quellen, einschließlich [!DNL Recommendations Classic], erstellt wurden. Wenn Sie ältere Aktivitäten verwenden, die in [!DNL Recommendations Classic] erstellt wurden, sind die folgenden Aktionen verfügbar:
-
-* [!UICONTROL Aktivieren]
-* [!UICONTROL Deaktivieren]
-* [!UICONTROL Archivieren]
-* [!UICONTROL Kopieren]
-* [!UICONTROL Löschen]
-
-Eine [!DNL Recommendations]-Aktivität kann nicht direkt bearbeitet werden. Wenn Sie die Aktivität bearbeiten möchten, erstellen Sie eine Kopie der Aktivität mit [!DNL Target Premium] und speichern Sie dann die neu erstellte Aktivität. Diese neue Aktivität kann dann nach Bedarf bearbeitet werden.
+Eine [!DNL Recommendations] kann nicht direkt bearbeitet werden. Um sie zu bearbeiten, erstellen Sie mithilfe von [!DNL Target Premium] eine Kopie der Aktivität und speichern Sie die neue Aktivität, die dann nach Bedarf bearbeitet werden kann.

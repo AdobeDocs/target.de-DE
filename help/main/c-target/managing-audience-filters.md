@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ In den folgenden Abschnitten finden Sie weitere Informationen zum Einrichten von
 | Geeignete Aktivität oder geeigneten Test erstellen. | [Aktivitäten und Tests](/help/main/c-intro/target-key-concepts.md) |
 | Zielgruppen erstellen, sofern erforderlich. | [Erstellen von Zielgruppen](/help/main/c-target/c-audiences/create-audience.md) |
 | Mehrere Zielgruppen kombinieren, sofern erforderlich. | [Mehrere Zielgruppen kombinieren](/help/main/c-target/combining-multiple-audiences.md) |
-| Zielgruppen auf der Seite Ziele und Einstellungen der Aktivität anwenden. | A/B-Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Multivariater Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Recommendations-Aktivitätseinstellungen](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Aktivitätseinstellungen: [Aktivitätseinstellungen](/help/main/c-activities/activity-settings.md) |
+| Zielgruppen auf der Seite Ziele und Einstellungen der Aktivität anwenden. | A/B-Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Multivariater Test: [Ziele und Einstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommendations: [Recommendations-Aktivitätseinstellungen](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Aktivitätseinstellungen: [Aktivitätseinstellungen](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | Berichte mit Informationen zu den Zielgruppenfiltern anzeigen. | [Berichtseinstellungen](/help/main/c-reports/c-report-settings/report-settings.md) |

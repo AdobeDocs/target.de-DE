@@ -1,8 +1,8 @@
 ---
-source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 7%
+source-wordcount: '323'
+ht-degree: 6%
 ---
 # Snippets
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 >
 >* [Grundlegendes zur  [!DNL Target] -Benutzeroberfläche](/help/main/c-intro/understand-the-target-ui.md): Bietet einen kurzen Überblick, der Ihnen hilft, sich mit [!DNL Target] vertraut zu machen, und enthält Links für detailliertere Informationen und schrittweise Anweisungen.
 >
->* [[!UICONTROL Änderungen &#x200B;] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
+>* [[!UICONTROL Änderungen ] Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2015) wird ein aktualisierter [!UICONTROL Visual Experience Composer] (VEC) eingeführt. In diesem Artikel werden die Unterschiede zwischen der alten und der aktualisierten Version des VEC erläutert.
 >
 >* [[!UICONTROL Visual Experience Composer] Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): In diesem Artikel werden die aktualisierte VEC-Benutzeroberfläche und ihre Optionen erläutert.
 >
@@ -40,3 +40,6 @@ ht-degree: 7%
 
 Der Aktivitätsname darf nicht mit `=`, `+`, `-` oder `@` beginnen. Der Aktivitätsname darf auch keine der folgenden Zeichenfolgen enthalten: `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` oder `"]`.
 
+## Zuordnung von Besuchern zu Aktivitäten {#visitor-matching}
+
+Eine Besucherin oder ein Besucher, die bzw. der sich bereits in einer **[!UICONTROL A/B]** Test- oder **[!UICONTROL Multivarianz-Test]**-Aktivität befindet, stimmt mit dieser Aktivität überein, bis diese konvertiert wird. Ein Besucher, der sich zuvor in einer **[!UICONTROL Erlebnis-Targeting]**-Aktivität befand, muss erneut mit ihr übereinstimmen. Wenn der Besucher die Zielgruppenregeln erfüllt, fallen er in diese Aktivitäten und in bestimmte Erlebnisse.

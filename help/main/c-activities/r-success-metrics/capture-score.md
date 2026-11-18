@@ -17,30 +17,36 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 44%
+source-wordcount: '834'
+ht-degree: 13%
 ---
-# Ergebniserfassung
+# Ergebniserfassung {#capture-score}
 
-Die Metrik Engagement des Capture Score in [!DNL Adobe Target] berechnet einen aggregierten Wert basierend auf dem Wert, der den auf der Website besuchten Seiten zugewiesen wurde, und zwar ab dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Kampagne zum ersten Mal sieht.
+>[!BEGINSHADEBOX]
 
-Im folgenden Beispiel wird gezeigt, wie die Bewertungsinteraktion in einer Kampagne berechnet wird, in der zwei Erlebnisse (mit dem Bild einer Katze und dem Bild eines Hundes) geprüft werden.
+**Auf dieser Seite** Erfahren Sie, wie die Metrik „Interaktionsbewertung erfassen“ den Wert eines Besuchs berechnet und wie Sie einer Seite einen Wert zuweisen.
 
-![example_score image](assets/example_score.png)
+>[!ENDSHADEBOX]
 
-In diesem Beispiel wird dem Benutzer zuerst die Katze angezeigt. Angenommen, eine globale [!DNL Target]-Anfrage wird basierend auf dem Wert der Seite in einem Seitenwert übergeben. Wenn der Marketing-Experte die Interaktion mit der Seitenanzahl anhand einer Erfolgsmetrik erfasst hat, die mit der `**any Target request**` verknüpft ist, wird der Besuchswert für alle Anfragen kumuliert, die nach der Anzeigeanfrage um das Katzenbild angezeigt werden.
+Die Metrik „Interaktion mit Score erfassen“ in [!DNL Adobe Target] berechnet einen aggregierten Score auf der Grundlage des Werts, der den Seiten zugewiesen wurde, die eine Besucherin oder ein Besucher auf Ihrer Website ansieht. Die Punktzahl beginnt an dem Punkt, an dem der Besucher die erste Anzeige [!DNL Target] Anfrage der Aktivität sieht.
 
-Die erste Seite addiert 1 zum Score, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10 für insgesamt 1,45. Dies könnte entweder als Währung oder als Punkte interpretiert werden. Bei einem weiteren Besuch findet der Besucher das Hundebild vor. Der Benutzer hat zwar weniger Seiten besucht, das Ergebnis ist aber mit 2,10 höher als beim anderen Besuch, da der Besucher wertvollere Seiten besucht hat.
+Das folgende Beispiel zeigt, wie die Punktzahl in einer Aktivität berechnet wird, die zwei Erlebnisse testet, eines mit einem Katzenbild und eines mit einem Hundebild.
 
-Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. Beachten Sie, dass in diesem Beispiel beide [!DNL Target] auf der Artikelseite einen -Wert übergeben, der möglicherweise eine bekannte CPM darstellt.
+![Seitenfluss des Katzenerlebnisbesuchs mit einer Bewertung für jede Seite](assets/example_score.png)
 
-![example_score2 Bild](assets/example_score2.png)
+In diesem Beispiel sieht der erste Besucher das Katzenerlebnis. Angenommen, eine globale [!DNL Target]-Anfrage wird basierend auf dem Wert der Seite in einem Seitenwert übergeben. Wenn der Marketing-Experte die Interaktion mit der Seitenanzahl anhand einer Erfolgsmetrik erfasst hat, die mit **einer Target-Anfrage** verknüpft ist, wird der Besuchswert für jede Anfrage kumuliert, die nach der Anzeigeanfrage um das Katzenbild angezeigt wird.
+
+Die erste Seite addiert 1 zum Score, die zweite Seite 0,25, die dritte 0,10 und die vierte 0,10, insgesamt 1,45. Diese Summe kann entweder als Währung oder als Punkte interpretiert werden. Bei einem separaten Besuch sieht ein Besucher das Hundeerlebnis. Obwohl dieser Besucher weniger Seiten aufruft, liegt der Wert bei 2,10, was größer ist als der andere Besuch, da der Besucher wertvollere Seiten angesehen hat.
+
+Sie können Erwerbskosten und Partnerlinkkosten über AdBoxes und Weiterleitungen mit einbeziehen. Siehe hierzu auch den folgenden Seitenfluss. In diesem Beispiel übergeben beide [!DNL Target] auf der Artikelseite einen -Wert, der möglicherweise eine bekannte CPM darstellt.
+
+![Seitenfluss mit Akquisitionskosten und Umsatz durch Affiliate-Links als Scores weitergegeben](assets/example_score2.png)
 
 ## Zuweisen einer Seitenbewertung
 
-Sie können jeder Seite auf Ihrer Site nach persönlichem Ermessen einen Wert zuweisen. Zum Beispiel lassen sich auf einer Koch-Site möglicherweise auf den Sonderseiten mehr Geld mit Werbung generieren als im Erlebnisbereich. Möglicherweise befinden sich im Sonderbereich wertvollere Artikel als im Erlebnisbereich. Mit der Seitenzahl können Sie eine Bewertung des Gesamtwerts des Besuchs ermitteln, sodass Personen, die mehr Sonderartikel lesen, mehr Punkte erhalten, als jemand, der nur durch die Seiten blättert.
+Sie können jeder Seite auf Ihrer Site nach persönlichem Ermessen einen Wert zuweisen. Beispielsweise kann eine Kochseite auf ihren Funktionsartikelseiten Anzeigen für mehr Geld verkaufen als im Erlebnisabschnitt. Die Funktionsartikel sind dann wertvoller als der Abschnitt Erlebnis . Mit einem Seitenwert können Sie einen allgemeinen „Wert“ eines Besuchs entwickeln, sodass eine Person, die mehr Funktionsartikel liest, mehr „Punkte“ erhält als eine Person, die nur die Erlebnisse durchsucht.
 
 Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
@@ -48,26 +54,24 @@ Es gibt zwei Methoden zur Zuweisung eines Ergebnisses zu einer Seite:
 
   Beispiel: `('global_mbox', 'mboxPageValue=10');`
 
-  Der angegebene Wert wird jedes Mal zur Punktzahl hinzugefügt, wenn die Seite mit dieser [!DNL Target]-Anfrage angezeigt wird. Wenn mehrere Anfragen auf der Seite Score-Werte enthalten, ist der Score für die Seite die Summe aller Anfragewerte. `mboxPageValue` ist ein reservierter Parameter, der zur Übergabe von Werten in einer Target-Anfrage verwendet wird, um einen Interaktionswert zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um das Gesamtergebnis für den Besuch zu errechnen.
+  Der angegebene Wert wird jedes Mal zur Punktzahl hinzugefügt, wenn die Seite mit dieser [!DNL Target]-Anfrage angezeigt wird. Wenn mehrere Anfragen auf der Seite Score-Werte enthalten, ist der Score für die Seite die Summe aller Anfragewerte. `mboxPageValue` ist ein reservierter Parameter, der zur Übergabe von Werten in einer [!DNL Target] verwendet wird, um einen Interaktionswert zu erfassen. Es können positive and negative Werte übergeben werden. Die Summe wird am Ende jedes Besuchs berechnet, um die Gesamtbewertung des Besuchs zu ermitteln.
 
-* Geben Sie den Parameter `?mboxPageValue=n` in die URL der Seite ein.
+* Übergeben Sie den `?mboxPageValue=n` Parameter in der URL der Seite.
 
   Beispiel: `https://www.mydomain.com?mboxPageValue=5`
 
-  Mit dieser Methode wird der angegebene Wert für jede [!DNL Target] auf der Seite zum Score hinzugefügt. Wenn Sie beispielsweise den Parameter übergeben `?mboxPageValue=10`und es drei [!DNL Target] auf der Seite gibt, lautet der Score für die Seite 30.
+  Der angegebene Wert wird für jede [!DNL Target] auf der Seite zum Score hinzugefügt. Wenn Sie beispielsweise den Parameter `?mboxPageValue=10` übergeben und sich drei [!DNL Target] auf der Seite befinden, hat die Seite einen Wert von 30.
 
 >[!NOTE]
 >
->Target-Anfragen, die sich oberhalb der ersten Anzeige [!DNL Target] Anfrage der Aktivität befinden, werden nicht in die Bewertung einbezogen.
+>Der Zähler beginnt mit der ersten Anzeigeanforderung der Aktivität, nicht mit der Eingabeanforderung, und [!DNL Target] Anforderungen, die sich oberhalb dieser Anforderung befinden, werden nicht in die Bewertung einbezogen. Wenn Sie z. B. die Aktivität auf der Homepage eingeben, für die keine Display-Anforderung vorhanden ist, und dann eine Verknüpfung zu einer Katalogseite herstellen, die eine Display-Anforderung enthält, beginnt der Zähler, wenn Sie zur Katalogseite wechseln.
 
-Best Practice ist es, in der [!DNL Target] Werte zuzuweisen. Auf diese Weise können Sie die von Ihnen gemessenen Werte abhängig vom Inhalt jeder Anfrage präzise festlegen.
+Es empfiehlt sich, in der [!DNL Target]-Anfrage Werte zuzuweisen. Mit dieser Methode können Sie die von Ihnen gemessenen Werte abhängig vom Inhalt jeder Anfrage präzise festlegen.
 
 >[!NOTE]
 >
->Um die Wartung zu vereinfachen, können Sie die Seitenbewertungswertzuweisungen Ihrer Site in der [!DNL at.js] mit einer bedingten JavaScript-Logik konfigurieren. So müssen Sie keinen weiteren Code zu Ihren Seiten hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
+>Um die Wartung zu vereinfachen, können Sie die Seitenbewertungswertzuweisungen Ihrer Site in der [!DNL at.js] mit einer bedingten JavaScript-Logik konfigurieren. Durch diesen Ansatz müssen Sie Ihren Seiten keinen weiteren Code hinzufügen. Wenden Sie sich an Ihren Berater, wenn Sie weitere Hilfe benötigen.
 
-Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. Wenn Sie beispielsweise jeder von drei [!DNL Target] Anfragen den Wert 10 und einer vierten Anfrage den Wert „Kein Score“ zuweisen und dann den URL-Parameter &quot;`?mboxPageValue=5`&quot; übergeben, beträgt der Seitenwert 50, 30 für die drei Anfragen mit den zugewiesenen Werten und 5 für jede der vier Anfragen auf der Seite.
+Sie können auch beide Methoden miteinander kombinieren. Dies könnte jedoch zu einem unerwartet hohen Ergebnis führen. Sie weisen beispielsweise jeder von drei [!DNL Target] Anfragen den Wert 10 und einer vierten Anfrage keinen Score zu und übergeben dann den URL-Parameter `?mboxPageValue=5`. Der Seitenwert beträgt 50:30 für die drei Anfragen mit zugewiesenen Werten plus 20 für den URL-Parameter (5 für jede der vier Anfragen auf der Seite).
 
-Der Zähler beginnt mit der ersten Anzeigeanforderung, nicht mit der Eingabeanforderung. Wenn Sie z. B. die Aktivität auf der Homepage eingeben, für die keine Display-Anforderung vorhanden ist, und dann eine Verknüpfung zu einer Katalogseite herstellen, die eine Display-Anforderung enthält, beginnt der Zähler, wenn Sie zur Katalogseite wechseln.
-
-Sie können auch negative Werte für Seiten vergeben, die Sie Geld kosten und auf den Besucher keine positive Wirkung haben. Die negativen Werte gehen ebenfalls in das Gesamtergebnis ein. Diese Methode kann für Seiten verwendet werden, die Benutzer von einer Werbung aus erreichen. So können Sie die Höhe des CPC erkennen. Sie eignet sich auch für eine Support- oder Kontaktseite, bei deren Besuch mit einer nachfolgenden Supportanfrage zu rechnen ist.
+Sie können auch negative Werte für Seiten vergeben, die Sie Geld kosten und auf den Besucher keine positive Wirkung haben. Negative Werte wirken sich auch auf die Gesamtpunktzahl aus. Diese Technik kann auf einer Seite verwendet werden, die Besucher durch eine Anzeige erreichen, damit Sie wissen, wie viel der CPC war. Es kann auch auf einer Support- oder Kontaktseite verwendet werden, auf der Besucher anrufen oder Hilfe anfordern können.
