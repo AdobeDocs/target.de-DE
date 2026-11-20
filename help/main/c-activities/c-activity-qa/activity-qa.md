@@ -154,7 +154,7 @@ Wenn Sie beim Erstellen der Aktivität in den Optionen [Verfeinerungen im formul
 
 +++ Browser, die Drittanbieter-Cookies blockieren (at.js 1.*x*)
 
-Wenn Sie at.js 1.*x* haben, bleibt **[!UICONTROL Aktivitäts-QA]**-Modus nicht seitenübergreifend bestehen, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
+Wenn Sie at.js 1.*x* haben, bleibt **[!UICONTROL Aktivitäts-QA]**-Modus nicht seitenübergreifend bestehen, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=de){target=_blank} haben.
 
 +++
 
@@ -204,8 +204,8 @@ In der folgenden Tabelle sind die Parameter aufgeführt, die in Ihrer Domain auf
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=de)
 * [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de)
 
 In der folgenden Tabelle sind die verschiedenen Aktivitätstypen aufgeführt und angegeben, ob **[!UICONTROL Aktivitäts-QA]** Modus für jede Bibliothek unterstützt wird:
