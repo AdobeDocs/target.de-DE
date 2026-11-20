@@ -67,7 +67,7 @@ Die [!UICONTROL Feeds]-Liste (**[!UICONTROL Recommendations]** > **[!UICONTROL F
 | Spalte | Beschreibung |
 |---|---|
 | **Name** | Der Name des Feeds, der bei der Erstellung angegeben wurde. Um den Namen eines Feeds zu bearbeiten, müssen Sie den Feed bearbeiten. Wenn Sie den Feed unter dem neuen Namen speichern, wird der Feed aktualisiert. |
-| **Status** | Der aktuelle (Status[ des ](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0). |
+| **Status** | Der aktuelle (Status[&#x200B; des &#x200B;](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0). |
 | **Typ** | Zu den Typen gehören [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) und [Analytics Classifications](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A). |
 | **Elemente** | Zeigt die Anzahl der Elemente im Feed an. |
 | **Zeitplan** | Zeigt den Aktualisierungszeitplan für den Feed an: **[!UICONTROL täglich]**, **[!UICONTROL wöchentlich]**, **[!DNL Every 2 Weeks]** oder **[!UICONTROL Nie]**. |
@@ -139,7 +139,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Der [!DNL Google Product Search] Feed-Typ verwendet das [!DNL Google]-Format anstelle des [!DNL Adobe] proprietären CSV-Formats. Sie können ein vorhandenes [!DNL Google Product Feed] wiederverwenden, um Produktdaten in [!DNL Recommendations] zu importieren.
 
-[!DNL Recommendations] akzeptiert .xml-, .txt- und .tsv-Dateien, die der [!DNL Google]-Feed-Spezifikation entsprechen und die von [ definierten (Attribute) ](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Geben Sie die URL oder den FTP-Speicherort des Feeds an, damit der [!DNL Recommendations] die Datei abrufen und Ihren Katalog erstellen kann.
+[!DNL Recommendations] akzeptiert .xml-, .txt- und .tsv-Dateien, die der [!DNL Google]-Feed-Spezifikation entsprechen und die von [&#x200B; definierten (Attribute) &#x200B;](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Geben Sie die URL oder den FTP-Speicherort des Feeds an, damit der [!DNL Recommendations] die Datei abrufen und Ihren Katalog erstellen kann.
 
 Beachten Sie, dass der Server, der den [!DNL Google]-Feed hostet, die POST-Methode zulassen muss.
 
