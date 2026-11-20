@@ -22,16 +22,20 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 47%
+source-wordcount: '429'
+ht-degree: 18%
 ---
-# Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung
+# Verwenden von Aktivitäts-QA mit serverseitiger Bereitstellung {#qa-server-side}
 
-Verwenden Sie QA-URLs mit serverseitiger Bereitstellung in [!DNL Adobe Target], um eine einfache End-to-End-Aktivitäts-QA mit Vorschaulinks durchzuführen, die sich nie ändern, optionales Audience-Targeting und QA-Berichte, die aus Live-Aktivitätsdaten segmentiert bleiben.
+>[!BEGINSHADEBOX]
 
-Die Standardimplementierung der Aktivitäts-QA unterstützt die Übergabe von `qa_mode` über `pageUrl`. Dieser Ansatz ist für Standard-/Ajax-[!DNL Target]-Aufrufe praktisch. Bei serverseitigen Aufrufen ist dies jedoch nicht der beste Ansatz für das Mobile SDK, wenn `pageUrl` nicht verfügbar ist.
+**Auf dieser Seite** Erfahren Sie, wie Sie Aktivitäts-QA-Parameter in einem Server-seitigen [!DNL Adobe Target] übergeben können, damit Sie Aktivitäten testen können, wenn `pageUrl` nicht verfügbar ist.
+
+>[!ENDSHADEBOX]
+
+Die Standardimplementierung der Aktivitäts-QA unterstützt die Übergabe von `qa_mode` über `pageUrl`. Dieser Ansatz ist für Standard-/Ajax-[!DNL Target]-Aufrufe praktisch. Sie ist jedoch nicht für Server-zu-Server-Aufrufe geeignet, z. B. eine Mobile SDK-Implementierung, bei der keine `pageUrl` verfügbar ist. Übergeben Sie in diesen Fällen die QA-Parameter in der Anfrage selbst. In der Anfrage werden dieselben Vorschau-Links, optionalen Zielgruppen-Targeting- und QA-Berichte gespeichert, die aus den Live-Aktivitätsdaten segmentiert sind.
 
 Folgendes Codebeispiel zeigt die Aktivitäts-QA in einem serverseitigen Aufruf:
 
@@ -70,14 +74,14 @@ Folgendes Codebeispiel zeigt die Aktivitäts-QA in einem serverseitigen Aufruf:
 }
 ```
 
-Die folgende Tabelle enthält Informationen zu serverseitigen Anfragen:
+In der folgenden Tabelle werden die Parameter einer Server-seitigen Anfrage beschrieben:
 
 | Parameter | Typ | Standardwert | Beschreibung |
 |--- |--- |--- |--- |
-| token | Verschlüsseltes Token | none.<br>It cannot be empty | Eine verschlüsselte Entität, die die Liste der Aktivitäts-IDs enthält, die in Aktivitäts-QA ausgeführt werden dürfen.<br>Validierungsregeln: Dies sollte ein verschlüsseltes Token sein, das zu dem in der [!DNL Target]-Anfrage angegebenen Client gehört. Alle im Token angegebenen Aktivitäten müssen zu dem Client gehören. |
-| bypassEntryAudience | Boolesch | False | Gibt an, ob Ziele der Einstiegsstufe für QA-Aktivitäten überprüft werden sollen oder als übereinstimmend gelten. |
-| listedActivitiesOnly | Boolesch | False | Gibt an, ob QA-Aktivitäten isoliert ausgeführt oder für die aktuelle Umgebung als aktive Aktivitäten bewertet werden sollen. |
-| evaluateAsTrueAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target]-Anfrage immer als „true“ ausgewertet werden sollen. |
-| evaluateAsFalseAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target]-Anfrage immer als „false“ ausgewertet werden sollen. |
-| activityIndex | Ganzzahl | null.<br>Es darf nicht leer sein. | Aktivitätsindex im verschlüsselten Token. Wenn activityIndex außerhalb der Grenzwerte der Aktivität im Token liegt oder null ist, wird er ignoriert. Index beginnt mit 1.<br>Validierungsregeln: Sollte mindestens ein Aktivitätsindex sein und auf eine im Token angegebene Aktivität verweisen. |
-| experienceIndex | Ganzzahl | Null. | Sofern angegeben, wird ein Erlebnis nach dem Index in der Aktivitätsdefinition ausgewählt. Wenn nicht angegeben oder außerhalb der Grenzwerte, wird stattdessen die Erlebnisselektor-Strategie der Aktivität verwendet. Der Index beginnt mit 1 Validierungsregeln: Kann null sein oder sollte auf ein Erlebnis in der Aktivität verweisen. |
+| token | Verschlüsseltes Token | Keine. Darf nicht leer sein. | Eine verschlüsselte Entität, die die Liste der Aktivitäts-IDs enthält, die in Aktivitäts-QA ausgeführt werden dürfen.<br>Validierungsregeln: Das Token muss ein verschlüsseltes Token sein, das zu dem in der [!DNL Target]-Anfrage angegebenen Client gehört. Alle im Token angegebenen Aktivitäten müssen zum Client gehören. |
+| bypassEntryAudience | Boolesch | False | Gibt an, ob Zielgruppen für Einstiegsschritte für QA-Aktivitäten ausgewertet werden oder als übereinstimmend betrachtet werden. |
+| listedActivitiesOnly | Boolesch | False | Gibt an, ob QS-Aktivitäten isoliert ausgeführt oder als aktive Aktivitäten für die aktuelle Umgebung ausgewertet werden. |
+| evaluateAsTrueAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target] immer als „true“ ausgewertet werden. |
+| evaluateAsFalseAudienceIds | ID-Liste | Leere Liste | Liste der Zielgruppen-IDs, die im Gültigkeitsbereich der [!DNL Target]-Anfrage immer als falsch ausgewertet werden. |
+| activityIndex | Ganzzahl | Null. Darf nicht leer sein. | Aktivitätsindex im verschlüsselten Token. Wenn `activityIndex` null ist oder außerhalb der Grenzen der Aktivitäten im Token liegt, wird es ignoriert. Der Index beginnt mit 1<br>Validierungsregeln: Mindestens ein Aktivitätsindex ist erforderlich und muss auf eine im Token angegebene Aktivität verweisen. |
+| experienceIndex | Ganzzahl | Null | Sofern angegeben, wird ein Erlebnis nach dem Index in der Aktivitätsdefinition ausgewählt. Wenn sie nicht angegeben ist oder außerhalb der Grenzen liegt, wird auf die Erlebnisauswahlstrategie der Aktivität zurückgegriffen. Der Index beginnt mit 1<br>Validierungsregeln: Der Wert kann null sein oder auf ein Erlebnis in der Aktivität verweisen. |

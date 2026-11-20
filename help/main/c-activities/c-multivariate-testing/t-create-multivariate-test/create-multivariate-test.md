@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 16%
 ---
 # Erstellen eines Multivarianz-Tests {#create-mvt}
@@ -29,7 +29,7 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-Mit **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] können Sie einfach einen **[!UICONTROL Multivarianz-Test]** erstellen und Teile der Seite innerhalb von [!DNL Target] ändern.
+Mit **[!UICONTROL Visual Experience Composer]** (VEC) in [!DNL Adobe Target] können Sie einen **[!UICONTROL Multivarianz-Test]** erstellen und Teile der Seite in [!DNL Target] ändern.
 
 Mit dem [!DNL Target] Point-and-Click-Editor können Sie eine beliebige Stelle auswählen und mehrere Angebote hinzufügen.
 
@@ -50,7 +50,7 @@ Wählen Sie den Aktivitätstyp und den Versandtyp aus, geben Sie die zu testende
 
 1. Klicken Sie **[!UICONTROL Aktivität erstellen]** > **[!UICONTROL Multivarianz-Test]**.
 
-   Weitere Informationen zu den verschiedenen in [!DNL Target] verfügbaren Aktivitätstypen und ihren Unterschieden finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Unter [Target-Aktivitätstypen](/help/main/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
+   Weitere Informationen zu den verschiedenen in [!DNL Target] verfügbaren Aktivitätstypen und ihren Unterschieden finden Sie unter [Aktivitäten](/help/main/c-activities/activities.md#types). Unter [Target-Aktivitätstypen](/help/main/c-activities/target-activities-guide.md) können Sie festlegen, welche Aktivitätstypen Ihre Anforderungen am besten erfüllen.
 
    ![](../../assets/create-mvt-1.png)
 
@@ -132,7 +132,7 @@ Wählen Sie aus, welche Besucher in den Test eintreten, und überprüfen Sie die
 
 Auf der Seite **[!UICONTROL Ziele und Einstellungen]** geben Sie [!DNL Target] an, wie der Test gemessen werden soll. Die verfügbaren Einstellungen hängen davon ab, ob Sie [!DNL Target] oder [!DNL Analytics] als Berichtsquelle verwenden.
 
-1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](#goals-settings-overview).
+1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
 
    | Abschnitt | Was Sie festgelegt haben |

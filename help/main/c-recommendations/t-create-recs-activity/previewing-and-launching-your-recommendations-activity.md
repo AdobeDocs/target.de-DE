@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 13%
@@ -82,7 +82,7 @@ Mit einem QA-Link können Sie eine Vorschau der Recommendations auf Ihrer Seite 
 
 >[!NOTE]
 >
->* Der QA-Modus von Target ist „sticky“ und wird in einem Cookie gespeichert. Wenn Sie den QA-Modus nicht beenden, werden die QA-Ergebnisse auf der gesamten Site angezeigt. Um den QA-Modus zu beenden, verwenden Sie die [Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* [!DNL Target] QA-Modus wird in einem Cookie gespeichert und bleibt seitenübergreifend bestehen. Wenn Sie den QA-Modus nicht beenden, sehen Sie die QA-Ergebnisse weiterhin auf der gesamten Site. Um den QA-Modus zu beenden, verwenden Sie die [Lesezeichenliste](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md).
 >
 >* Im QA-Modus hat das Durchsuchen der Site keine Auswirkungen auf die [!UICONTROL Zuletzt angezeigte Artikel] oder „Zuletzt [!UICONTROL &#x200B; gekaufte Artikel] Ihres Profils. Dieses Verhalten ist beabsichtigt, um eine unbeabsichtigte Verschmutzung der Produktionsverhaltensdaten zu vermeiden. Um eine Vorschau der Ergebnisse aus den Kriterien [!UICONTROL Zuletzt angezeigte Elemente] oder [!UICONTROL Benutzerbasierte Empfehlungen] anzuzeigen, durchsuchen Sie zunächst die Site außerhalb des QA-Modus und öffnen Sie dann in derselben Sitzung einen Link zum QA-Modus.
 

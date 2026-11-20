@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '4347'
-ht-degree: 81%
+source-wordcount: '4341'
+ht-degree: 75%
 ---
 # Zehn häufige Fehler bei A/B-Tests und wie diese vermieden werden {#common-ab-testing-pitfalls}
 
@@ -63,7 +63,7 @@ Das *Konfidenzintervall*, das nach Abschluss eines Tests bestimmt wird, wird von
 * Signifikanzniveau
 * Populationsstandardabweichung
 
-Da der Marketer das Signifikanzniveau vor der Entwicklung des Tests ausgewählt hat und die Standardabweichung der Population nicht beeinflusst werden kann, ist der einzige „kontrollierbare“ Faktor die Stichprobengröße. Der für ein Konfidenzintervall erforderliche Stichprobenumfang und die daraus resultierende Zeit, die benötigt wird, um diesen Stichprobenumfang zu erreichen, ist eine wichtige Entscheidung, die ein Marketer während des Testentwurfs treffen muss.
+Der Marketer wählt das Signifikanzniveau aus, bevor der Test entwickelt wird, und die Standardabweichung der Population kann nicht beeinflusst werden, sodass der einzige „kontrollierbare“ Faktor die Stichprobengröße ist. Der für ein Konfidenzintervall erforderliche Stichprobenumfang und die daraus resultierende Zeit, die benötigt wird, um diesen Stichprobenumfang zu erreichen, ist eine wichtige Entscheidung, die ein Marketer während des Testentwurfs treffen muss.
 
 Ein weiterer, damit unmittelbar zusammenhängender Begriff, das *Konfidenzniveau*, entspricht eher dem Ansatz mit dem halbvollen Glas. Anstatt wie das Signifikanzniveau die Wahrscheinlichkeit anzuzeigen, dass Sie ein falsch-positives Ergebnis erhalten, liefert das Konfidenzniveau die Wahrscheinlichkeit, mit der Ihr Test diesen Fehler nicht macht.
 
@@ -99,7 +99,7 @@ Marketing-Experten testen häufig mehr als zwei Angebote (oder Erlebnisse) gegen
 
 Es ist wichtig zu beachten, *jedes getestete* eine Falsch-Positiv-Rate aufweist, die dem Signifikanzniveau entspricht, wie oben beschrieben. Auch hierbei werden im Grunde mehrere Tests durchgeführt, wenn mehrere Angebote in einer einzigen Testumgebung miteinander verglichen werden. Wenn Sie z. B. fünf Angebote in einem A/B/C/D/E-Test vergleichen, bilden Sie damit vier Vergleiche: Kontrolle mit B, Kontrolle mit C, Kontrolle mit D, Kontrolle mit E. Mit einem Konfidenzniveau von 95 % ergibt sich anstelle einer 5-prozentigen Wahrscheinlichkeit für ein falsch-positives Ergebnis tatsächlich eine Wahrscheinlichkeit von 18,5 %.
 
-Um Ihr Konfidenzniveau insgesamt bei 95 % zu halten und dieses Problem zu vermeiden, können Sie die Bonferroni-Korrektur anwenden. Mithilfe dieser Korrektur wird das Signifikanzniveau einfach durch die Anzahl der Vergleiche geteilt, um das benötigte Signifikanzniveau zu erhalten, mit dem Sie ein Konfidenzniveau von 95 % erzielen.
+Um Ihr Konfidenzniveau insgesamt bei 95 % zu halten und dieses Problem zu vermeiden, können Sie die Bonferroni-Korrektur anwenden. Mit dieser Korrektur teilen Sie das Signifikanzniveau durch die Anzahl der Vergleiche, um das Signifikanzniveau zu erhalten, bei dem Sie ein Konfidenzniveau von 95 % erreichen müssen.
 
 Wenn die Bonferroni-Korrektur auf das obige Beispiel angewendet wird, verwenden Sie ein Signifikanzniveau von 5 % / 4 = 1,25 %, was einem Konfidenzniveau von 98,75 % für einen einzelnen Test entspricht (100 % - 1,25 % = 98,75 %). Durch diese Anpassung wird das effektive Konfidenzniveau bei 95 % gehalten, wenn Sie, wie in unserem Beispiel, vier Tests durchführen.
 
@@ -119,7 +119,7 @@ Wenn Sie das Angebot mit der höchsten Konversionsrate ermitteln möchten, müss
 
 ## Fehler Nr. 3: Auswirkungen der Teststärke werden nicht berücksichtigt {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-Die statistische Aussagekraft ist die Wahrscheinlichkeit, dass ein Test einen echten Unterschied in der Konversionsrate zwischen den Angeboten feststellt. Aufgrund der zufälligen – in der Statistik auch als „stochastisch“ bezeichneten – Natur von Konversionsereignissen kann es vorkommen, dass ein Test keinen statistisch signifikanten Unterschied zeigt, auch wenn letztendlich ein realer Unterschied bei den Konversionsraten zweier Angebote vorhanden ist. Sie können es Pech oder Zufall nennen. Wenn ein realer Unterschied der Konversionsrate nicht erkannt wird, wird dies als falsch-negatives Ergebnis oder als Fehler der 2. Art bezeichnet.
+Die statistische Aussagekraft ist die Wahrscheinlichkeit, dass ein Test einen echten Unterschied in der Konversionsrate zwischen den Angeboten feststellt. Ein Test zeigt möglicherweise keinen statistisch signifikanten Unterschied, selbst wenn tatsächlich ein Unterschied in der Konversionsrate zwischen zwei Angeboten besteht, aufgrund der zufälligen oder, wie die Statistiker es gerne „stochastisch“ nennen, Art der Konversionsereignisse. Sie können es Pech oder Zufall nennen. Wenn ein realer Unterschied der Konversionsrate nicht erkannt wird, wird dies als falsch-negatives Ergebnis oder als Fehler der 2. Art bezeichnet.
 
 Es gibt zwei Schlüsselfaktoren, die die Leistungsfähigkeit eines Tests festlegen. Der erste ist die Stichprobenumfang, d. h. die Anzahl der Besucher, die in den Test einbezogen werden. Der zweite ist die Größenordnung des Unterschieds in der Konversionsrate, die der Test ermitteln soll. Vielleicht ist dies intuitiv, aber wenn Sie daran interessiert sind, nur große Konversionsratenunterschiede zu erkennen, gibt es eine höhere Wahrscheinlichkeit, dass der Test tatsächlich so große Unterschiede erkennt. Je kleiner also der Unterschied ist, den Sie feststellen möchten, desto größer muss der Stichprobenumfang sein und desto mehr Zeit benötigen Sie, um den größeren Stichprobenumfang zu erhalten.
 
@@ -143,9 +143,9 @@ Marketingexperten überwachen häufig A/B-Tests bis der Test ein signifikantes E
 
 So einfach ist es leider nicht. Auch wenn ich Ihnen keinen Strich durch die Rechnung machen möchte, ist es aber so, dass sich das Monitoring der Ergebnisse negativ auf die effektive statistische Signifikanz des Tests auswirkt. Sie sorgt für einen starken Anstieg der Wahrscheinlichkeit von falsch-positiven Ergebnissen, was zur Folge hat, dass die Konfidenzintervalle unzuverlässig werden.
 
-Das mag verwirrend klingen. Es klingt so, als würde das einfache Betrachten der Ergebnisse in der Mitte des Tests dafür sorgen, dass diese ihre statistische Signifikanz verlieren. Das ist nicht genau, was passiert. Im folgenden Beispiel wird erklärt, warum.
+Das mag verwirrend klingen. Es klingt so, als würde das Betrachten der Ergebnisse in der Mitte des Tests dazu führen, dass diese ihre statistische Signifikanz verlieren. Das ist nicht genau, was passiert. Im folgenden Beispiel wird erklärt, warum.
 
-Angenommen Sie simulieren 10.000 Konversionsereignisse für zwei Angebote, die beide eine Konversionsrate von 10 % besitzen. Da die Konversionsraten gleich sind, sollten Sie keinen Unterschied der Konversionssteigerung feststellen, wenn Sie die beiden Angebote gegeneinander testen. Bei der Verwendung eines Konfidenzintervalls von 95 % ergibt der Test die erwartete Falsch-Positiv-Rate von 5 %, nachdem alle 10.000 Beobachtungen erfasst sind. Wenn wir 100 dieser Tests durchführen, erhalten wir daher durchschnittlich fünf falsch-positive Ergebnisse (tatsächlich sind in diesem Beispiel alle positiven Ergebnisse falsch, weil es keinen Unterschied zwischen den Konversionsraten der beiden Angebote gibt). Wenn wir den Test jedoch während der Ausführung 10-mal auswerten – jeweils nach 1.000 Beobachtungen –, stellt sich heraus, dass die Falsch-Positiv-Rate auf 16 % ansteigt. Die Überwachung des Tests hat das Risiko falsch-positiver Ergebnisse mehr als verdreifacht! Wie kann das sein?
+Angenommen, Sie simulieren 10.000 Konversionsereignisse von zwei Angeboten, wobei beide Angebote Konversionsraten von 10 % aufweisen. Die Konversionsraten sind identisch, sodass Sie beim Testen der beiden Angebote keinen Unterschied im Konversionsanstieg erkennen sollten. Bei der Verwendung eines Konfidenzintervalls von 95 % ergibt der Test die erwartete Falsch-Positiv-Rate von 5 %, nachdem alle 10.000 Beobachtungen erfasst sind. Wenn wir 100 dieser Tests durchführen, erhalten wir daher durchschnittlich fünf falsch-positive Ergebnisse (tatsächlich sind in diesem Beispiel alle positiven Ergebnisse falsch, weil es keinen Unterschied zwischen den Konversionsraten der beiden Angebote gibt). Wenn wir den Test jedoch während der Ausführung 10-mal auswerten – jeweils nach 1.000 Beobachtungen –, stellt sich heraus, dass die Falsch-Positiv-Rate auf 16 % ansteigt. Die Überwachung des Tests hat das Risiko falsch-positiver Ergebnisse mehr als verdreifacht! Wie kann das sein?
 
 Um zu verstehen, warum dies passiert, müssen wir die verschiedenen Aktionen berücksichtigen, die durchgeführt werden, wenn ein signifikantes Ergebnis entdeckt wird bzw. wenn es nicht entdeckt wird. Wenn ein statistisch signifikantes Ergebnis entdeckt wird, wird der Test beendet und ein Gewinner bestimmt. Wenn das Ergebnis jedoch nicht statistisch signifikant ist, lassen wir den Test weiterlaufen. Diese Situation favorisiert das positive Ergebnis enorm und verfälscht daher das effektive Signifikanzniveau des Tests.
 
@@ -153,13 +153,13 @@ Zur Vermeidung dieses Problems sollten Sie einen angemessenen Zeitraum für die 
 
 ## Fehler Nr. 6. Vorzeitiges Stoppen von Tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen des Tests besser oder schlechter abschneidet als alle anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, dann ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn der Test mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen langfristigen Werten an.
+Es ist verlockend, einen Test zu stoppen, wenn eines der Angebote in den ersten Tagen des Tests besser oder schlechter abschneidet als alle anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, besteht eine hohe Wahrscheinlichkeit, dass durch Zufall ein positiver oder negativer Anstieg beobachtet wird, da die Konversionsrate über eine geringe Anzahl von Besuchern gemittelt wird. Wenn der Test mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen langfristigen Werten an.
 
 Die folgende Abbildung zeigt fünf Angebote, die dieselben langfristigen Konversionsraten besitzen. Angebot B hat für die ersten 2.000 Besucher eine geringe Konversionsrate und es dauert lange, bis die geschätzte Konversionsrate zur tatsächlichen langfristigen Rate zurückkehrt.
 
 ![Liniendiagramm der Differenz der Konversionsrate zwischen fünf alternativen Angeboten und dem Steuerelement: Die Unterschiede sind für die ersten paar tausend Besucher groß, z. B. minus 8 bis minus 9 Prozent für Angebot B, und konvergieren in Richtung Null, wenn die Anzahl der Besucher wächst](assets/pitfalls4.png)
 
-Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Enttäuschungen führen, wenn ein Angebot, das an den ersten Tagen des Tests eine gute Leistung zeigt, dieses Leistungsniveau letztendlich nicht halten kann. Es kann auch zu Umsatzverlusten führen, wenn ein gutes Angebot nicht implementiert wird, weil es zufälligerweise während der ersten Tage des Tests eine schlechte Leistung gebracht hat.
+Dieses Phänomen wird als Regression zum Mittelwert bezeichnet und kann zu Enttäuschungen führen, wenn ein Angebot, das an den ersten Tagen des Tests eine gute Leistung zeigt, dieses Leistungsniveau letztendlich nicht halten kann. Es kann auch zu Umsatzeinbußen führen, wenn ein gutes Angebot nicht implementiert wird, da es in den ersten Tagen eines Tests zufällig nicht die gewünschte Leistung erbracht hat.
 
 Wie bei den Problemen mit dem Monitoring Ihres Tests ist es auch hier am besten, wenn Sie eine angemessene Anzahl von Besuchenden ermitteln, bevor Sie den Test durchführen, und den Test dann laufen lassen, bis dieser Anzahl von Besuchenden die Angebote bereitgestellt wurden.
 
@@ -181,11 +181,11 @@ Ein anderes Beispiel: Wenn die Traffic-Zuordnung Ihres A/B-Tests im Verhältnis 
 
 ## Fehler Nr. 8: Der Neuigkeitseffekt wird nicht berücksichtigt {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-Andere unerwartete Dinge können passieren, wenn wir nicht genügend Zeit für die Durchführung eines Tests einräumen. Dieses Mal ist das Problem kein Statistikproblem, sondern lediglich eine Reaktion auf Veränderungen durch die Besucher. Wenn Sie einen bewährten Teil Ihrer Website ändern, kann es passieren, dass zurückkehrende Besucher anfangs weniger umfangreich mit dem neuen Angebot interagieren, weil die üblichen Abläufe geändert wurden. Dies kann dazu führen, dass ein sehr gutes neues Angebot so lange eine weniger gute Leistung bringt, bis sich die wiederkehrenden Besucherinnen und Besucher damit vertraut gemacht haben. Im Hinblick auf die langfristigen Steigerungen, die ein sehr gutes Angebot liefern wird, ist dies aber ein geringer Preis.
+Andere unerwartete Dinge können passieren, wenn wir nicht genügend Zeit für die Durchführung eines Tests einräumen. Dieses Mal ist das Problem kein Problem mit der Statistik, sondern eine Reaktion auf den Wandel durch die Besucher. Wenn Sie einen bewährten Teil Ihrer Website ändern, kann es passieren, dass zurückkehrende Besucher anfangs weniger umfangreich mit dem neuen Angebot interagieren, weil die üblichen Abläufe geändert wurden. Dies kann dazu führen, dass ein sehr gutes neues Angebot so lange eine weniger gute Leistung bringt, bis sich die wiederkehrenden Besucherinnen und Besucher damit vertraut gemacht haben. Im Hinblick auf die langfristigen Steigerungen, die ein sehr gutes Angebot liefern wird, ist dies aber ein geringer Preis.
 
-Um festzustellen, ob das neue Angebot aufgrund eines Neuigkeitseffekts oder weil es wirklich minderwertig ist, die Performance des Angebots unterschreitet, können Sie Ihre Besucher in neue und wiederkehrende Besucher segmentieren und die Konversionsraten vergleichen. Wenn es nur der Neuheitseffekt ist, gewinnt das neue Angebot mit neuen Besuchern. Irgendwann wird das Angebot auch bei wiederkehrenden Benutzerinnen und Benutzern gewinnen, nämlich sobald sich diese an die Änderungen gewöhnt haben.
+Um festzustellen, ob das neue Angebot aufgrund eines Neuigkeitseffekts oder weil es wirklich minderwertig ist, die Performance des Angebots unterschreitet, können Sie Ihre Besucher in neue und wiederkehrende Besucher segmentieren und die Konversionsraten vergleichen. Wenn der Neuigkeitseffekt der einzige Grund ist, gewinnt das neue Angebot mit neuen Besuchern. Irgendwann wird das Angebot auch bei wiederkehrenden Benutzerinnen und Benutzern gewinnen, nämlich sobald sich diese an die Änderungen gewöhnt haben.
 
-Der Neuigkeitseffekt kann auch umgekehrt wirken. Besucher reagieren häufig positiv auf eine Änderungen, nur weil diese etwas Neues bringt. Nach einer Weile, wenn der neue Inhalt auf die Besucher alt und weniger spannend wirkt, geht die Konversionsrate zurück. Dieser Effekt lässt sich schwerer identifizieren, kann aber durch ein sorgfältiges Verfolgen der Änderungen der Konversionsrate erkannt werden.
+Der Neuigkeitseffekt kann auch umgekehrt wirken. Besucher reagieren oft nur positiv auf eine Änderung, weil sie etwas Neues einführt. Nach einer Weile, wenn der neue Inhalt auf die Besucher alt und weniger spannend wirkt, geht die Konversionsrate zurück. Dieser Effekt lässt sich schwerer identifizieren, kann aber durch ein sorgfältiges Verfolgen der Änderungen der Konversionsrate erkannt werden.
 
 ## Fehler Nr. 9: Es werden keine Unterschiede im Betrachtungszeitraum berücksichtigt {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -201,7 +201,7 @@ Um dieses Problem zu vermeiden, müssen Sie Besuchern, die das Angebot gesehen h
 
 ## Fehler Nr. 10: Es werden Metriken verwendet, die keine Geschäftsziele abbilden {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Marketingexperten sind möglicherweise versucht, im oberen Trichter Konversionsmetriken mit hohem Traffic und geringer Varianz zu verwenden, wie die Clickthrough-Rate (CTR), um schneller eine passende Anzahl von Testkonversionen zu erzielen. Sie müssen sich jedoch sorgfältig überlegen, ob die CTR eine angemessene Vertreterin für dass Geschäftsziel ist, das Sie erreichen möchten. Angebote mit höheren CTRs können leicht zu geringerem Umsatz führen. Dies kann passieren, wenn Angebote Besucherinnen und Besucher mit geringerer Kaufneigung anziehen oder wenn das Angebot als solches zu geringerem Umsatz führt, weil es z. B. rabattiert ist.
+Marketingexperten sind möglicherweise versucht, im oberen Trichter Konversionsmetriken mit hohem Traffic und geringer Varianz zu verwenden, wie die Clickthrough-Rate (CTR), um schneller eine passende Anzahl von Testkonversionen zu erzielen. Sie müssen sich jedoch sorgfältig überlegen, ob die CTR eine angemessene Vertreterin für dass Geschäftsziel ist, das Sie erreichen möchten. Angebote mit höheren CTRs können zu niedrigeren Umsätzen führen. Dies kann vorkommen, wenn Angebote Besucher mit geringerer Kaufneigung anziehen oder wenn das Angebot selbst, z. B. ein Rabattangebot, zu einem geringeren Umsatz führt.
 
 ![Funnel und Metriken von CTR (oben) bis zu Lifetime Profit (unten): höherer Traffic und weniger Abweichungen (oben), unten näher an den Geschäftszielen](assets/pitfalls6.png)
 

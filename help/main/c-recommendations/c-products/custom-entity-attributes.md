@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5ed511322cc9f04c349471f8ad84a17526d4925f
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 81%
+source-wordcount: '1347'
+ht-degree: 55%
 ---
-# Benutzerdefinierte Entitätsattribute
+# Benutzerdefinierte Entitätsattribute {#custom-entity-attributes}
 
-Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um zusätzliche Informationen über Elemente in Ihrem Katalog zu definieren.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Erfahren Sie, wie Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten, die die Elemente in Ihrem [!DNL Adobe Target Recommendations] beschreiben, definieren, senden und verwenden.
+
+>[!ENDSHADEBOX]
+
+Verwenden Sie benutzerdefinierte Entitätsattribute mit einem oder mehreren Werten in [!DNL Adobe Target Recommendations], um zusätzliche Informationen über Elemente in Ihrem Katalog zu definieren. Diese Informationen können dann in Algorithmus-Einschlussregeln, Katalogregeln und Ausschlussregeln verwendet und in Designs angezeigt werden.
 
 ## Beschränkungen {#limits}
 
@@ -34,7 +40,7 @@ Sie können bis zu 100 benutzerdefinierte Entitätsattribute festlegen, um weit
 
 Die maximale Länge von benutzerdefinierten Attributen für Einzelwert-Entitäten beträgt 15.000 Zeichen (für 1- und 2-Byte-UTF-8-kodierte Sprachen wie Englisch und andere lateinische Skriptbuchstaben) oder 10.000 Zeichen (für 3-Byte-UTF-8-kodierte Sprachen wie Chinesisch, Japanisch und Koreanisch).
 
-Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen für alle Werte muss den Beschränkungen für die maximale Länge von benutzerdefinierten Attributen für Einzelwertentitäten entsprechen (siehe oben).
+Benutzerdefinierte Attribute mit mehreren Werten dürfen maximal 500 Werte enthalten. Jeder einzelne Wert ist auf 100 Zeichen begrenzt. Die Gesamtanzahl der Zeichen über alle Werte muss den Einschränkungen für die maximale Länge von benutzerdefinierten Einzelwert-Entitätsattributen entsprechen (siehe oben).
 
 ## Benutzerdefinierte Entitätsattributwerte {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -67,7 +73,7 @@ Wurde ein benutzerdefiniertes Attribut als gültiges JSON-Array übermittelt, wi
 
 **Einschränkungen**:
 
-* Sie können keine voreingestellten Entitätsattributnamen für benutzerdefinierte Entitätsattribute verwenden. (Siehe [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Sie können keine voreingestellten Entitätsattributnamen für benutzerdefinierte Entitätsattribute verwenden. (Siehe [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes).)
 * Das Attribut `entity.environment` ist vom System reserviert und kann nicht für benutzerdefinierte Entitätsattribute verwendet werden. Versuche, `entity.environment` mit `targetPageParams`, Feeds oder APIs zu übermitteln, werden ignoriert.
 * Arrays müssen einen einzigen Werttyp enthalten. Arrays mit gemischten Werten (`["AB",1,true]`) werden nicht unterstützt.
 * Ein Attribut mit mehreren Werten, das ein verschachteltes JSON-Array (`[10,12,[1,2,3]]`) enthält, wird als Attribut mit einem Wert behandelt.
@@ -78,11 +84,9 @@ Benutzerdefinierte Entitätsattribute mit mehreren Werten werden unterstützt, w
 
 Doppelte Anführungszeichen müssen mit Escapezeichen angegeben werden. Zum Beispiel ist `"[""test"", ""value""]"` ein gültiges JSON-Array, das in CSV verwendet werden kann.
 
-Sie können bis zu 500 Werte in einem Attribut mit mehreren Werten einbeziehen.
-
 ### Verwenden von targetPageParams
 
-Das folgende Beispiel zeigt die Verwendung von `targetPageParams`
+Das folgende Beispiel zeigt die Verwendung von `targetPageParams`:
 
 ```javascript
 function targetPageParams() { 
@@ -91,10 +95,10 @@ function targetPageParams() {
     'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
     'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
     'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
+    'excludedIds':                  '[123, 3232, 2323, 4344]', 
+    'orderId':                      '123456', 
+    'orderTotal':                   '195.32', 
+    'productPurchaseId':            '[001,002,003]' 
   }; 
 }
 ```
@@ -151,113 +155,35 @@ Im folgenden Beispiel wird die Regel `message contains abc`.
 
 Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn beispielsweise der Operator `notEquals` ist, ist das Ergebnis *false* wenn ein Wert übereinstimmt.
 
-In den folgenden Abschnitten finden Sie Informationen zum Verhalten von Operatoren in Algorithmus-Einschlussregeln, Katalogregeln und Ausschlussregeln.
+In der folgenden Tabelle wird zusammengefasst, wie sich die einzelnen Operatoren verhalten, und es werden die Fälle für jede Beispielregel aufgeführt.
 
-### Gleich
-
-Entspricht ein beliebiger Attributwert dem eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre equals abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da `abc` keinem Element in der Liste entspricht.
-
-### Ist nicht gleich
-
-Entspricht keiner der Attributwerte dem eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre not equals abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte `abc`.
-* Fall 3: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da `abc` keinem Element in der Liste entspricht.
-
-### Enthält
-
-Enthält ein beliebiger Attributwert den eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre contains abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
-
-### Enthält nicht
-
-Enthält keiner der Attributwerte den eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre does not contain abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte`abc`.
-
-### Beginnt mit
-
-Beginnt ein beliebiger Attributwert mit dem eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre starts with abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abcde", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`.
-* Fall 3: `entity.genre = ["ab", "de", "abc"]`. Das Ergebnis lautet „true“ (wahr), da ein Wert mit `abc` beginnt (nicht notwendigerweise das erste Element in der Liste).
-
-### Endet mit
-
-Endet ein beliebiger Attributwert mit dem eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre ends with abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte mit `abc`.
-* &#x200B;2. Fall: `entity.genre = ["deabc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte mit `abc`.
-
-### Größer als oder gleich (ausschließlich numerische Werte)
-
-Der Attributwert wird verdoppelt. Attribute, die nicht umgewandelt werden können, werden bei Ausführung der Regel übersprungen.
-
-Nach der Verarbeitung führt jeder Attributwert, der größer oder gleich dem Eingabewert ist, zu „true“.
-
-Beispiel: `price greater than or equal to 100`
-
-* &#x200B;1. Fall: `entity.price = ["10", "20", "45"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte größer als oder gleich 100 ist. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann.
-* &#x200B;2. Fall: `entity.price = ["100", "101", "90", "80"]`. Das Ergebnis lautet „true“ (wahr), da zwei Werte größer als oder gleich 100 sind.
-
-### Kleiner als oder gleich (ausschließlich numerische Werte)
-
-Der Attributwert wird verdoppelt. Attribute, die nicht umgewandelt werden können, werden bei Ausführung der Regel übersprungen.
-
-Nach der Verarbeitung führt jeder Attributwert, der kleiner oder gleich dem Eingabewert ist, zu „true“.
-
-Beispiel: `price less than or equal to 100`
-
-* &#x200B;1. Fall: `entity.price = ["101", "200", "141"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte kleiner als oder gleich 100 ist. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann.
-* &#x200B;2. Fall: `entity.price = ["100", "101", "90", "80"]`. Das Ergebnis lautet „true“ (wahr), da zwei Werte kleiner als oder gleich 100 sind.
-
-### Dynamische Übereinstimmungen (nur für artikelbasierte Algorithmen verfügbar)
-
-Entspricht ein beliebiger Attributwert dem eingegebenen Wert, lautet das Ergebnis true (wahr).
-
-Beispiel: `genre matches abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
-
-### Dynamische Nichtübereinstimmung (nur für artikelbasierte Algorithmen verfügbar)
-
-Entspricht ein beliebiger Attributwert dem eingegebenen Wert, lautet das Ergebnis false (falsch).
-
-Beispiel: `genre does not match abc`
-
-* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „true“ (wahr), da keiner der Werte `abc`.
-* &#x200B;2. Fall: `entity.genre = ["abc", "de", "ef"]`. Das Ergebnis lautet „false“ (falsch), da einer der Werte `abc`.
-
-### Dynamische Bereiche (nur für artikelbasierte Algorithmen verfügbar, ausschließlich numerische Werte)
-
-Wenn ein numerischer Attributwert innerhalb des angegebenen Bereichs liegt, führt dies zu „true“.
-
-Beispiel: `price dynamically ranges in 80% to 120% of 100`
-
-* &#x200B;1. Fall: `entity.price = ["101", "200", "125"]`. Das Ergebnis lautet „true“ (wahr), da `101` im Bereich von 80% bis 120% von 100 liegt. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann.
-* &#x200B;2. Fall: `entity.price = ["130", "191", "60", "75"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte im Bereich zwischen 80 und 120 % von 100 liegt.
+| Operator | Ergebnis ist wahr, wenn | Beispielregel | Attributwert | Ergebnis | Grund |
+|---|---|---|---|---|---|
+| Gleich | Jeder Attributwert entspricht dem Eingabewert. | `genre equals abc` | `["ab", "bc", "de"]` | Falsch | Kein Wert ist gleich `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Wahr | Ein Wert ist gleich `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Falsch | `abc` entspricht keinem Element in der Liste. |
+| Ist nicht gleich | Kein Attributwert entspricht dem Eingabewert. | `genre not equals abc` | `["ab", "bc", "de"]` | Wahr | Kein Wert ist gleich `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Falsch | Ein Wert ist gleich `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Wahr | `abc` entspricht keinem Element in der Liste. |
+| Enthält | Jeder Attributwert enthält den Eingabewert. | `genre contains abc` | `["ab", "bc", "de"]` | Falsch | Kein Wert enthält `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Wahr | Ein Wert enthält `abc`. |
+| Enthält nicht | Kein Attributwert enthält den Eingabewert. | `genre does not contain abc` | `["ab", "bc", "de"]` | Wahr | Kein Wert enthält `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Falsch | Ein Wert enthält `abc`. |
+| Beginnt mit | Jeder Attributwert beginnt mit dem Eingabewert. | `genre starts with abc` | `["ab", "bc", "de"]` | Falsch | Kein Wert beginnt mit `abc`. |
+|  |  |  | `["abcde", "de", "ef"]` | Wahr | Ein Wert beginnt mit `abc`. |
+|  |  |  | `["ab", "de", "abc"]` | Wahr | Ein Wert beginnt mit `abc` (nicht unbedingt das erste Element in der Liste). |
+| Endet mit | Jeder Attributwert endet mit dem Eingabewert. | `genre ends with abc` | `["ab", "bc", "de"]` | Falsch | Kein Wert endet mit `abc`. |
+|  |  |  | `["deabc", "de", "ef"]` | Wahr | Ein Wert endet mit `abc`. |
+| Größer als oder gleich (ausschließlich numerische Werte) | Jeder Attributwert ist größer oder gleich dem Eingabewert. Jeder Wert wird in Double konvertiert, und Werte, die nicht konvertiert werden können, werden übersprungen, während die Regel ausgeführt wird. | `price greater than or equal to 100` | `["10", "20", "45", "de"]` | Falsch | Kein Wert ist größer oder gleich 100. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann. |
+|  |  |  | `["100", "101", "90", "80"]` | Wahr | Zwei Werte sind größer oder gleich 100. |
+| Kleiner als oder gleich (ausschließlich numerische Werte) | Jeder Attributwert ist kleiner oder gleich dem Eingabewert. Jeder Wert wird in Double konvertiert, und Werte, die nicht konvertiert werden können, werden übersprungen, während die Regel ausgeführt wird. | `price less than or equal to 100` | `["101", "200", "141", "de"]` | Falsch | Kein Wert ist kleiner oder gleich 100. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann. |
+|  |  |  | `["100", "101", "90", "80"]` | Wahr | Zwei Werte sind kleiner oder gleich 100. |
+| Dynamische Übereinstimmungen (nur für artikelbasierte Algorithmen verfügbar) | Jeder Attributwert entspricht dem Eingabewert. | `genre matches abc` | `["ab", "bc", "de"]` | Falsch | Kein Wert entspricht `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Wahr | Ein Wert entspricht `abc`. |
+| Dynamische Nichtübereinstimmung (nur für artikelbasierte Algorithmen verfügbar) | Kein Attributwert entspricht dem Eingabewert. Wenn ein Attributwert übereinstimmt, ist das Ergebnis falsch. | `genre does not match abc` | `["ab", "bc", "de"]` | Wahr | Kein Wert entspricht `abc`. |
+|  |  |  | `["abc", "de", "ef"]` | Falsch | Ein Wert entspricht `abc`. |
+| Dynamische Bereiche (nur für artikelbasierte Algorithmen verfügbar, ausschließlich numerische Werte) | Jeder numerische Attributwert liegt innerhalb des angegebenen Bereichs. | `price dynamically ranges in 80% to 120% of 100` | `["101", "200", "125", "de"]` | Wahr | `101` liegt im Bereich von 80 % bis 120 % von 100. Der Wert `de` wurde übersprungen, weil er nicht verdoppelt werden kann. |
+|  |  |  | `["130", "191", "60", "75"]` | Falsch | Kein Wert liegt im Bereich von 80 % bis 120 % von 100. |
 
 >[!NOTE]
 >
@@ -271,6 +197,6 @@ Beispiel:
 
 Wenn auf `entity.genre=["genre1","genre2"]` in einem Entwurf als `$entity<N>.genre` verwiesen wird, lautet das Ergebnis `genre1, genre2`.
 
-## Verwandte Themen:
+## Verwandte Themen
 
-* [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Entitätsattribute](/help/main/c-recommendations/c-products/entity-attributes.md#entity-attributes)

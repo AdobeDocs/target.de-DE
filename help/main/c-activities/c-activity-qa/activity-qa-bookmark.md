@@ -14,24 +14,28 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '356'
+ht-degree: 6%
 ---
-# Lesezeichenliste für Aktivitäts-QA
+# Lesezeichenliste für Aktivitäts-QA {#activity-qa-bookmarklet}
 
-Informationen, die Sie bei der Verwendung der [!DNL Target]-QA-Lesezeichenliste unterstützen, um zu erzwingen, dass [!DNL Target] Sie aus dem QA-Modus entlassen.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit der [!DNL Target]-QA-Lesezeichenliste den **[!UICONTROL Aktivitäts-QA]**-Modus beenden und Ihre Site wie einen typischen Besucher anzeigen können.
+
+>[!ENDSHADEBOX]
+
+Nachdem Sie eine Website im [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) durchsucht haben, bleibt der QA-Modus seitenübergreifend erhalten, bis Ihre [!DNL Target] abläuft. Eine Lesezeichenliste ist ein Browser-Lesezeichen, das JavaScript ausführt. Die Lesezeichenliste für [!DNL Target]-QA erzwingt, dass [!DNL Target] Sie aus dem QA-Modus entlassen, sodass Sie nicht warten müssen, bis die Sitzung abläuft. Verwenden Sie die Version, die der auf Ihrer Site bereitgestellten at.js-Version entspricht.
 
 >[!NOTE]
 >
->Der Prozess zum Erstellen eines Bookmarklets variiert je nach Browsertyp und -version. Schauen Sie in den Hilfe-Seiten Ihres Browsers nach oder suchen Sie im Internet nach genauen Anweisungen.
+>Der Prozess zum Erstellen eines Bookmarklets variiert je nach Browsertyp und -version. Ziehen Sie die Hilfe Ihres Browsers in Anspruch oder suchen Sie im Internet nach bestimmten Richtungen.
 
 ## Lesezeichenliste für Aktivitäts-QA für at.js 1.*x*
 
-Da [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) beibehalten wird, muss Ihre [!DNL Target]-Sitzung nach dem Durchsuchen einer Website im QA-Modus ablaufen, oder Sie müssen [!DNL Target] aus dem QA-Modus entlassen, bevor Sie Ihre Website wie einen typischen Besucher anzeigen können. Verwenden Sie die Lesezeichenliste für QA-[!DNL Target], um den QA-Modus zu deaktivieren.
-
-Um die Lesezeichenliste für [!DNL Target]-QA zu verwenden, erstellen Sie eine Lesezeichenliste mit dem folgenden JavaScript-Code und fügen Sie sie zur Lesezeichen-Symbolleiste Ihres Browsers hinzu:
+Um die Lesezeichenliste für [!DNL Target]-QA zu verwenden, erstellen Sie eine Lesezeichenliste mit dem folgenden JavaScript-Code und fügen Sie sie der Lesezeichen-Symbolleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(
@@ -50,17 +54,15 @@ javascript:(
 )();
 ```
 
-Sie können den QA-Modus auch manuell deaktivieren, indem Sie eine Seite Ihrer Site mit einem leeren Wert im `at_preview_token`-Parameter laden.
-
-Beispiel:
+Sie können den QA-Modus auch manuell verlassen, indem Sie eine Seite auf Ihrer Site laden, deren `at_preview_token` auf einen leeren Wert gesetzt ist. Beispiel:
 
 `https://www.mysite.com/?at_preview_token=`
 
 ## Lesezeichenliste für Aktivitäts-QA für at.js 2.*x*
 
-Im Gegensatz zu at.js 1.*x* unterstützt at.js 2.*x* keine Drittanbieter-Cookies, und der QA-Modus bleibt nur für die Erstanbieter-Domain erhalten (mithilfe eines von at.js gesetzten Erstanbieter-Cookies). Daher wird in at.js 2.*x* die QA-Modus-Sitzung nur auf der Client-Seite verwaltet und es werden keine QA-Modus-Cookies an Target gesendet.
+Im Gegensatz zu at.js 1.*x* unterstützt at.js 2.*x* keine Cookies von Drittanbietern. Der QA-Modus wird nur für die Erstanbieter-Domain mithilfe eines von at.js gesetzten Erstanbieter-Cookies beibehalten. Infolgedessen wird die QA-Modus-Sitzung nur auf der Client-Seite verwaltet und es werden keine QA-Modus-Cookies an [!DNL Target] gesendet.
 
-Um die Lesezeichenliste für [!DNL Target]-QA zu verwenden, erstellen Sie eine Lesezeichenliste mit dem folgenden JavaScript-Code und fügen Sie sie zur Lesezeichen-Symbolleiste Ihres Browsers hinzu:
+Um die Lesezeichenliste für [!DNL Target]-QA zu verwenden, erstellen Sie eine Lesezeichenliste mit dem folgenden JavaScript-Code und fügen Sie sie der Lesezeichen-Symbolleiste Ihres Browsers hinzu:
 
 ```javascript
 javascript:(
@@ -80,4 +82,8 @@ javascript:(
 
 ## Lesezeichenliste für Aktivitäts-QA verwenden
 
-Klicken Sie in der Symbolleiste Ihres Browsers auf das Lesezeichen.
+Nachdem Sie die Lesezeichenliste, die Ihrer at.js-Version entspricht, zu Ihrem Browser hinzugefügt haben, verwenden Sie sie, wenn Sie den QA-Modus verlassen möchten:
+
+1. Öffnen Sie eine beliebige Seite Ihrer Site, während Sie sich im QA-Modus befinden.
+1. Klicken Sie in der Symbolleiste „Lesezeichen“ Ihres Browsers auf die Lesezeichenliste.
+1. Laden Sie eine Seite Ihrer Site. [!DNL Target] wird die Sitzung aus dem QA-Modus freigegeben, und die Site wird so angezeigt wie für einen typischen Besucher.

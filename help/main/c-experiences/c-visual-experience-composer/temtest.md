@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,7 +45,7 @@ Sie können diese Funktion zum Beispiel zum Durchführen einer der folgenden Akt
 
 Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Änderung auf Ihre Site oder Domain anwenden.
 
-1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
+1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md) beschrieben.
 
 1. Um die Seiten anzugeben, auf denen das Erlebnis angezeigt wird, klicken Sie [!UICONTROL Visual Experience Composer] (VEC) auf das Symbol [!UICONTROL Konfigurieren] ( ![Symbol Konfigurieren](/help/main/assets/icons/Setting.svg) ) und wählen Sie dann **[!UICONTROL Seitenbereitstellung]** aus.
 
@@ -101,7 +101,7 @@ Sie können in Erwägung ziehen, Vorlagenregeln zu verwenden, um dieselbe Aktivi
 * So fügen Sie ein globales Banner hinzu (z. B. COVID-19-Ankündigungen)
 * Um eine globale Versandkostenabo aufzunehmen
 
-1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) beschrieben.
+1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md) beschrieben.
 
 1. Um die Domain anzugeben, in der das Erlebnis angezeigt wird, klicken [!UICONTROL Visual Experience Composer] auf das [!UICONTROL Konfigurieren]-Symbol ( ![Konfigurieren-Symbol](/help/main/assets/icons/Setting.svg) ) und wählen Sie dann **[!UICONTROL Seitenbereitstellung]** aus.
 

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 24%
+source-wordcount: '1732'
+ht-degree: 18%
 ---
 # Ziele und Einstellungen {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ Geben Sie an, aus welcher Lösung Daten erfasst werden:
 
   Um eine Berichtsquelle anzugeben, wählen Sie zunächst eines der [!DNL Analytics] Unternehmen aus, mit denen Ihr Konto verknüpft ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Adobe Target] bereitgestellt wurden. Wenn die erwarteten Report Suites nicht angezeigt werden, versuchen Sie zunächst, sich abzumelden und sich wieder bei der [!DNL Adobe Experience Cloud] anzumelden, um es dann erneut zu versuchen. Wenn die Report Suite noch immer in der Liste fehlt, wenden Sie sich an die Kundenunterstützung.
 
-  [!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld **[!UICONTROL Tracking-Server]** wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [&#x200B; unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
+  [!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld **[!UICONTROL Tracking-Server]** wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [&#x200B; unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)Trackingservers“.
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ Beachten Sie, dass diese Einstellung nicht verfügbar ist, wenn Sie [!DNL Analyt
 
 ## Erweiterte Einstellungen {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Im **[!UICONTROL Erweiterte Einstellungen]** der Seite **[!UICONTROL Ziele und Einstellungen]** können Sie die erweiterten Optionen konfigurieren.
+Im Abschnitt **[!UICONTROL Erweiterte Einstellungen]** der Seite **[!UICONTROL Ziele und Einstellungen]** können Sie verfeinern, wie jede Erfolgsmetrik gezählt wird: ob dies von einer anderen Metrik abhängt, was mit einem Besucher passiert, nachdem das Ziel erreicht wurde, und wie die Anzahl erhöht wird.
 
 Um erweiterte Einstellungen festzulegen, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ( ![Mehr-](/help/main/assets/icons/MoreSmallList.svg) ) im Abschnitt **[!UICONTROL Mein Primäres Ziel]** und klicken Sie dann auf **[!UICONTROL Erweiterte Einstellungen]**.
 
@@ -162,37 +162,37 @@ Um erweiterte Einstellungen festzulegen, klicken Sie auf das Symbol **[!UICONTRO
 >
 >Wenn Sie [!DNL Adobe Analytics] als Ihre Berichterstellungsquelle verwenden, werden die Einstellungen vom [!DNL Analytics]-Server verwaltet. Die Option „Erweiterte Einstellungen“ ist nicht verfügbar.
 
-### Welche Erfolgsmetrik muss erreicht werden, bevor diese Metrik erhöht wird? {#dependencies}
+### Abhängigkeiten {#dependencies}
 
-Verwenden Sie diese Option, um zu zählen, dass eine Person die Erfolgsmetrik nur dann erreicht, wenn sie zuvor eine andere Erfolgsmetrik erreicht hat. Beispielsweise ist eine Aktivitätskonvertierung möglicherweise nur gültig, wenn der Besucher auf das Angebot klickt oder vor der Konvertierung auf eine bestimmte Seite gelangt.
+Verwenden Sie diese Option, um einen Besucher nur dann als Besucher zu zählen, der eine Erfolgsmetrik erreicht hat, wenn der Besucher zuvor eine andere Erfolgsmetrik erreicht hat. Beispielsweise ist eine Aktivitätskonvertierung möglicherweise nur gültig, wenn der Besucher vor der Konvertierung auf das Angebot klickt oder eine bestimmte Seite erreicht.
 
-Sie können für mehrere Metriken Abhängigkeiten erstellen und die flexible Auswahl ermöglichen, ob die Metrik erreicht werden soll oder nicht, damit sich die Anzahl erhöht. Definieren Sie beide (oder mehrere) Erfolgsmetriken, bevor Sie eine von einer anderen abhängig machen können. Mithilfe der Option **[!UICONTROL Abhängigkeit hinzufügen]** kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.
+Sie können eine Metrik in Abhängigkeit von mehreren Metriken festlegen und für jede Metrik auswählen, ob sie erreicht werden muss oder nicht, damit die Anzahl steigt. Definieren Sie alle Erfolgsmetriken, bevor Sie eine von einer anderen abhängig machen. Mit **[!UICONTROL Option]** Abhängigkeit hinzufügen“ kann die Erfolgsmetrik inkrementiert werden, wenn eine andere Erfolgsmetrik erreicht oder nicht erreicht wurde.
 
 So fügen Sie eine Abhängigkeit hinzu:
 
-1. Klicken Sie nach dem Hinzufügen zusätzlicher Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
+1. Klicken Sie nach dem Hinzufügen der zusätzlichen Metriken auf **[!UICONTROL Erweiterte Einstellungen]**.
 
 1. Klicken Sie auf die Option **[!UICONTROL Abhängigkeit hinzufügen.]**
 
-1. Ziehen Sie die gewünschten Metriken per Drag-and-Drop und klicken Sie dann auf **[!UICONTROL Erreicht]**, um zwischen **[!UICONTROL Erreicht]** und **[!UICONTROL Nicht erreicht]** umzuschalten.
+1. Ziehen Sie die Metriken, von denen die Erfolgsmetrik abhängt, per Drag-and-Drop und klicken Sie dann auf **[!UICONTROL Erreicht]**, um die Einstellung zwischen **[!UICONTROL Erreicht]** und **[!UICONTROL Nicht Erreicht]** umzuschalten.
 
-Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben.
+Sie können Abhängigkeiten bearbeiten oder entfernen, nachdem Sie sie hinzugefügt haben. Die Fälle, in denen Abhängigkeiten nicht unterstützt werden, finden Sie unter [Abhängigkeit hinzufügen](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### Was passiert, wenn ein Benutzer auf diese Zielmetrik trifft? {#after-goal}
+### Nachdem ein Besucher das Ziel erreicht hat {#after-goal}
 
-Nach Erreichen des Aktivitätsziels wird einem Besucher weiterhin der Aktivitätsinhalt angezeigt, es sei denn, dieser Besucher qualifiziert sich für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Dies unterscheidet sich vom Standardverhalten in [!DNL Target Classic], das Besucher als neu zählt, wenn sie die Aktivität erneut sehen.
+Nach Erreichen des Aktivitätsziels wird einem Besucher weiterhin der Aktivitätsinhalt angezeigt, es sei denn, dieser Besucher qualifiziert sich für eine Aktivität mit höherer Priorität. Wenn der Besucher das Ziel erneut erreicht, wird dies als eine weitere Konversion gezählt. Dies unterscheidet sich vom Standardverhalten in [!DNL Target Classic], das Besucher als neu zählte, wenn sie die Aktivität erneut sahen.
 
 Es gibt drei Möglichkeiten, nachdem ein Besucher die Zielmetrik erreicht hat:
 
-* **[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen]**, um anzugeben, wie die Anzahl erhöht wird.
-* **[!UICONTROL Anzahl erhöhen, Benutzer freigeben und erneuten Eintritt erlauben]** um das Erlebnis anzugeben, das Benutzende sehen, wenn sie wieder in die Aktivität eintreten.
-* **[!UICONTROL Anzahl inkrementieren, Benutzer und Leiste von erneuten Eintritten freigeben]** um anzugeben, was der Benutzer anstelle des Aktivitätsinhalts sieht.
+* **[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen]:** Geben Sie an, wie die Anzahl erhöht wird, wie im nächsten Abschnitt beschrieben.
+* **[!UICONTROL Anzahl erhöhen, Benutzer freigeben und erneuten Eintritt erlauben]:** Geben Sie das Erlebnis an, das der Besucher sieht, wenn der Besucher die Aktivität erneut aufruft: dasselbe Erlebnis (Standard), ein zufälliges Erlebnis oder ein unsichtbares Erlebnis.
+* **[!UICONTROL Anzahl inkrementieren, Benutzer und Leiste aus Wiedereintritt freigeben]:** Geben Sie an, was der Besucher anstelle des Aktivitätsinhalts sieht: dasselbe Erlebnis ohne Tracking (Standard), Standardinhalt oder andere Aktivitätsinhalte.
 
-### Wie wird die Anzahl erhöht? {#count-increment}
+### Zählungsinkrement {#count-increment}
 
-Es gibt drei Möglichkeiten, wie die Anzahl erhöht werden kann:
+Bei Auswahl von **[!UICONTROL Anzahl erhöhen und Benutzer in Aktivität belassen]** gibt es drei Optionen für die Erhöhung der Anzahl:
 
-* **[!UICONTROL Einmal pro Teilnehmer]**
+* **[!UICONTROL Einmal pro Teilnehmer]** (Standard)
 * **[!UICONTROL Bei jeder Impression (ohne Seitenaktualisierungen)]**
 * **[!UICONTROL Bei jeder Impression]**
 

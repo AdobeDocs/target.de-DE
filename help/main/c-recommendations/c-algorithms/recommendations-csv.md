@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -61,7 +61,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
    * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
 
-   * **SFTP:** Um Ihre CSV-Datei von einem SFTP-Server hochzuladen, wählen Sie **[!UICONTROL SFTP]** aus und geben Sie dann den Host-Namen oder die IP-Adresse, den Port (standardmäßig 22), den Benutzernamen, ein Kennwort und/oder den privaten SSH-Schlüssel, das Verzeichnis und den Dateinamen ein. Weitere Informationen finden Sie unter [Unterstützte SFTP-Server-Einstellungen](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+   * **SFTP:** Um Ihre CSV-Datei von einem SFTP-Server hochzuladen, wählen Sie **[!UICONTROL SFTP]** aus und geben Sie dann den Host-Namen oder die IP-Adresse, den Port (standardmäßig 22), den Benutzernamen, ein Kennwort und/oder den privaten SSH-Schlüssel, das Verzeichnis und den Dateinamen ein. Weitere Informationen finden Sie unter [Unterstützte SFTP-Server-Einstellungen](/help/main/c-recommendations/c-products/feeds.md#steps).
 
      Das CSV-Format für benutzerdefinierte Kriterien wird durch SFTP nicht geändert. Wenn Sie das `# Key,Recommendation_1,...` verwenden und das Format eines anderen Feed-Typs verwenden, schlägt der Import fehl.
 

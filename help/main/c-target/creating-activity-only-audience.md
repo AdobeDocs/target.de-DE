@@ -16,7 +16,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 32%
@@ -30,7 +30,7 @@ Zielgruppen „Nur Aktivität“ bieten die folgenden Vorteile:
 * Sie können Zielgruppen nur für Aktivitäten verwenden, um eine Zielgruppe zu erstellen, die Sie nur einmal verwenden möchten und nicht in der [!UICONTROL Zielgruppenbibliothek“ &#x200B;]. Zielgruppen auf Aktivitätsbasis verhindern, dass die [!UICONTROL Zielgruppenbibliothek] mit Zielgruppen überladen wird, die Sie nie wieder verwenden möchten.
 * Zielgruppen, die nur eine Aktivität aufweisen, sind in der [!UICONTROL Zielgruppenbibliothek“ nicht &#x200B;]. Da diese Zielgruppen in der Bibliothek nicht sichtbar sind, werden sie von unerwünschten Änderungen durch andere Personen in Ihrer Organisation abgeschirmt.
 
-1. Klicken Sie beim Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Targeting]** auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
+1. Klicken Sie beim Erstellen [Aktivität](/help/main/c-activities/activities.md) auf der Seite **[!UICONTROL Targeting]** auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 

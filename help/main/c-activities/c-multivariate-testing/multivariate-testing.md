@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 25%
@@ -44,7 +44,7 @@ In [!DNL Target] ist jede Kombination ein Erlebnis. Der **[!UICONTROL Multivaria
 
 ![Multivarianz-Testkombinationen](assets/multivariate.png)
 
-Aufgrund der Anzahl der Kombinationen, die generiert werden können, benötigt ein **[!UICONTROL Multivarianz-Test]** mehr Zeit und Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um nützliche Ergebnisse zu erhalten, verstehen Sie den Traffic, den Ihre Seite erhält, und testen Sie die optimale Anzahl von Kombinationen für den richtigen Zeitraum.
+Ein **[!UICONTROL Multivarianz-Test]** benötigt aufgrund der Anzahl der generierbaren Kombinationen mehr Zeit und Traffic als ein A/B-Test. Der auf der Seite eingehende Traffic muss ausreichend sein, um statistisch signifikante Ergebnisse für jedes Erlebnis zu erzielen. Um nützliche Ergebnisse zu erhalten, verstehen Sie den Traffic, den Ihre Seite erhält, und testen Sie die optimale Anzahl von Kombinationen für den richtigen Zeitraum.
 
 Die [Traffic-Schätzung](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) kann Ihnen beim Entwerfen eines Tests helfen, der mit Ihrem Traffic funktioniert. Bevor Sie sie verwenden, sollten Sie über gute Statistiken verfügen, die die Anzahl der Impressionen und Konversionen zeigen, die Ihre Site normalerweise erhält, und Ihr Traffic-Niveau pro Tag berücksichtigen. Je mehr Erlebnisse eine Aktivität hat, desto mehr Traffic muss die Aktivität enthalten oder desto länger muss sie ausgeführt werden. Wenn Ihr Traffic nicht hoch ist, testen Sie einige Kombinationen. Andernfalls kann es sein, dass die Zeit, die zum Erzeugen aussagekräftiger Testergebnisse benötigt wird, zu lang ist, um nützlich zu sein.
 

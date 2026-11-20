@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Verwenden Sie [!UICONTROL Inhaltsfragmente], die in [!DNL Adobe Experience Manag
 
 Beachten Sie Folgendes bei der Arbeit mit AEM [!UICONTROL Inhaltsfragmenten] in [!DNL Target]:
 
-* Diese Funktion erfordert, dass Sie eine Kundin oder ein Kunde von [!DNL Adobe Experience Manager as a Cloud Service] sind. Weitere Informationen finden Sie unten unter [Anforderungen](#section_AE6F0971E1574B3AA324003599B96E5A).
+* Diese Funktion erfordert, dass Sie eine Kundin oder ein Kunde von [!DNL Adobe Experience Manager as a Cloud Service] sind. Weitere Informationen finden Sie unten unter [Anforderungen](#requirements).
 * [!UICONTROL Experience Fragments] und [!UICONTROL Inhaltsfragmente] sind für die folgenden Aktivitätstypen verfügbar:
 
   * [[!UICONTROL A/B-Test]](/help/main/c-activities/t-test-ab/test-ab.md)

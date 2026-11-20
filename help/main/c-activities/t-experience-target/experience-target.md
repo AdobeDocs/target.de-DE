@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # Erste Schritte mit [!UICONTROL Erlebnis-Targeting] {#get-started-xt}
@@ -42,7 +42,7 @@ Beim [!UICONTROL Experience Targeting] (XT) werden Inhalte für eine bestimmte Z
 
 Wenn Besucherinnen und Besucher Ihre Website aufrufen[!UICONTROL &#x200B; werden diese Besucherinnen und Besucher &#x200B;] „Erlebnis-Targeting“ bewertet, um festzustellen, ob sie die von Ihnen festgelegten Kriterien erfüllen. Wenn sie die Kriterien erfüllen, treten sie in die Aktivität ein, und das für die qualifizierte Zielgruppe entwickelte Erlebnis wird angezeigt.
 
-[!UICONTROL Erlebnis-Targeting] ist ein erster Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Ein Marketing-Experte führt einen A/B-Test durch und stellt mithilfe von Berichten zu Zielgruppen fest, dass verschiedene Erlebnisse bei verschiedenen Zielgruppen Anklang finden. [!UICONTROL Erlebnis-Targeting] ermöglicht es Marketing-Experten, diese Erkennung einfach zu nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Zielgruppensegmente zu wechseln.
+[!UICONTROL Erlebnis-Targeting] ist ein erster Schritt in die Welt der Personalisierung und beginnt oft mit A/B-Tests. Ein Marketing-Experte führt einen A/B-Test durch und stellt mithilfe von Berichten zu Zielgruppen fest, dass verschiedene Erlebnisse bei verschiedenen Zielgruppen Anklang finden. [!UICONTROL Erlebnis-Targeting] ermöglicht es Marketing-Experten, diese Erkennung zu nutzen und zum langfristigen Targeting von Inhalten für diese verschiedenen Zielgruppensegmente zu wechseln.
 
 ## Szenario: von A/B-Tests zu Erlebnis-Targeting {#xt-scenario}
 

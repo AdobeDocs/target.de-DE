@@ -4,12 +4,18 @@ description: Verwenden Sie den Stichprobengrößenrechner von Adobe Target, um d
 title: Stichprobengrößenrechner
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 38%
+source-wordcount: '1632'
+ht-degree: 37%
 ---
-# Stichprobengrößenrechner
+# Stichprobengrößenrechner {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit dem Rechner für den [!DNL Adobe Target] Stichprobenumfang den Traffic, die Dauer, die Anzahl der Erlebnisse oder den minimalen nachweisbaren Effekt eines A/B-Tests schätzen können.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"

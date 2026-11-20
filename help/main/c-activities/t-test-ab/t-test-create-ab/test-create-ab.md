@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Erstellen einer A/B-Test -Aktivität {#create-ab-activity}
@@ -134,7 +134,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
 
    +++
 
-1. Klicken Sie auf **[!UICONTROL Traffic-]**) und wählen Sie dann im rechten Bereich eine Traffic-Zuordnungsmethode aus. Siehe [Traffic-Zuordnungsmethoden](#traffic-allocation-methods).
+1. Klicken Sie auf **[!UICONTROL Traffic-]**) und wählen Sie dann im rechten Bereich eine Traffic-Zuordnungsmethode aus. Die verfügbaren Methoden sind in der folgenden Tabelle aufgeführt.
 
    ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
 
 Auf der Seite **[!UICONTROL Ziele und Einstellungen]** geben Sie [!DNL Target] an, wie die Aktivität gemessen werden soll. Die verfügbaren Einstellungen hängen davon ab, ob Sie [!DNL Target] oder [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
-1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](#goals-settings-overview).
+1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Abschnitt | Was Sie festgelegt haben |
    |---|---|

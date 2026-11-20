@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d27cb7e782e79c68f185f897758c6edb439da2cb
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '915'
 ht-degree: 1%
 ---
 # A/A-Tests {#aa-testing}
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Ein A/A-Test teilt den Traffic auf zwei identische Erlebnisse auf. Da die Erlebnisse nicht unterschiedlich sind, können Sie mit dem Test überprüfen, ob Ihre Aktivität, Ihre Implementierung und Ihre Berichte erwartungsgemäß funktionieren. Dennoch können identische Erlebnisse manchmal einen Unterschied im Aufstieg zeigen. Wenn Sie verstehen, warum dies der Fall ist, können Sie den Test durchführen und die Ergebnisse korrekt interpretieren.
+Bei einem A/A-Test wird der Traffic auf zwei identische Erlebnisse aufgeteilt, sodass mit dem Test überprüft werden kann, ob Ihre Aktivität, Ihre Implementierung und Ihr Reporting erwartungsgemäß funktionieren. Dennoch können identische Erlebnisse manchmal einen Unterschied im Aufstieg zeigen. Wenn Sie verstehen, warum dies der Fall ist, können Sie den Test durchführen und die Ergebnisse korrekt interpretieren.
 
 ## Was sind A/A-Tests? {#what-is-aa}
 

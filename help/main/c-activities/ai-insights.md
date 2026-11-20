@@ -4,12 +4,18 @@ description: In der Übersicht zu Adobe Target-Aktivitäten erfahren Sie, wie Si
 title: KI-Einblicke in die Aktivitätsübersicht
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# KI-Erkenntnisse
+# KI-Erkenntnisse {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie das Menü **[!UICONTROL KI-]**) der [!DNL Adobe Target] **[!UICONTROL Aktivitätsübersicht]** verwenden können, um Experimentierergebnisse zu überprüfen, Behandlungen zu vergleichen und Optimierungsmöglichkeiten zu identifizieren.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

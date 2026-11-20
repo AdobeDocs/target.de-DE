@@ -32,190 +32,118 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 79%
+source-wordcount: '1633'
+ht-degree: 9%
 ---
-# Einführung in Recommendations
+# Einführung in Recommendations {#introduction-to-recommendations}
 
-Der Text in diesem Artikel stammt vom Webinar *Einführung in Recommendations*, das Sie sich unten zur Gänze ansehen können.
+>[!BEGINSHADEBOX]
 
-Das Webinar *„Einführung in Recommendations“* beinhaltet eine ausführliche Untersuchung, wie der Wert von [!DNL Adobe Target Recommendations] wirksam eingesetzt werden kann. Erfahren Sie, wie diese [!DNL Target]-Aktivität automatisch Produkte oder Inhalte anzeigt, die für Ihre Kunden von Interesse sein könnten, indem sie Echtzeitvorschläge auf der Grundlage früherer Besuche optimiert. Außerdem können Sie in die [!DNL Target]-Benutzeroberfläche eintauchen, um eine schrittweise Übersicht über das Erstellen einer [!DNL Recommendations]-Aktivität zu erhalten.
+**Auf dieser Seite** Erfahren Sie, wie [!DNL Recommendations] Aktivitäten in [!DNL Adobe Target] für Besucher relevante Produkte oder Inhalte anzeigen und wie Sie eine [!DNL Recommendations] Implementierung und Aktivität planen und erstellen.
+
+>[!ENDSHADEBOX]
+
+Diese Seite basiert auf dem Webinar *Einführung in Recommendations*. Eine [!DNL Recommendations] zeigt automatisch Produkte oder Inhalte an, die für Kunden interessant sein könnten, indem Echtzeitvorschläge basierend auf vorherigen Besuchen optimiert werden. Auf der Seite wird auch beschrieben, wie Sie eine [!DNL Recommendations] Aktivität in der [!DNL Target]-Benutzeroberfläche erstellen.
 
 ## Einführung
 
-Wir alle kennen die Empfehlungen, die uns beim Online-Einkauf angezeigt werden. Immer mehr Kunden erwarten diese Empfehlungen und verwenden sie als Ausgangspunkt, um andere verfügbare Angebote zu durchsuchen. Wenn Sie an Ihr eigenes Kaufverhalten denken, müssen Sie wohl zugeben, dass diese Empfehlungen wirklich gut funktionieren. Fast jeder von uns hat schon einmal ein Produkt gekauft, das er bzw. sie zuerst in einer Empfehlung gesehen haben – egal ob im Internet oder in einem Laden.
+Kunden erwarten zunehmend Empfehlungen und verwenden diese als Ausgangspunkt, um andere verfügbare Optionen zu erkunden. Fast jeder hat ein Produkt gekauft, das er zum ersten Mal in einer Empfehlung gesehen hat, ob in einem Geschäft oder auf einem digitalen Grundstück.
 
-Die folgende Abbildung zeigt eine Empfehlung, die Zubehör präsentiert, das häufig mit einem neuen Smartphone gekauft wird, darunter auch Ladestationen und Kopfhörer.
+![Empfehlung für Zubehör, das üblicherweise mit einem neuen Telefon gekauft wird, einschließlich Ladestationen, Gehäuse und Kopfhörer.](/help/main/c-recommendations/assets/intro-1.png)
 
-![Empfehlung von Zubehör, das andere mit einem neuen Handy gekauft haben.](/help/main/c-recommendations/assets/intro-1.png)
+Die Art und Weise, wie Menschen Medien und Inhalte konsumieren, wird zunehmend durch personalisierte Empfehlungen bestimmt, und Digital-First-Marken wie Netflix, Spotify und YouTube starten das Kundenerlebnis mit Empfehlungen. Da mehr Alternativen denn je verfügbar sind, ist es entscheidend, die relevantesten Inhalte für einen Kunden am Punkt der Interaktion zu identifizieren.
 
-Was wir jedoch nicht immer bedenken, ist, wie Digital-First-Marken die Messlatte der Kundenerwartungen höher legen. Unser Konsum von Medien und Inhalten wird immer mehr von personalisierten Empfehlungen gesteuert. Überlegen Sie, was Sie als Erstes sehen, wenn Sie Netflix, Spotify oder YouTube öffnen. Diese Unternehmen beginnen das Kundenerlebnis mit Empfehlungen. In einer Welt, in der mehr Alternativen als je zuvor verfügbar sind, ist es wichtig, dass Sie die relevantesten Inhalte für Ihren Kunden am Punkt der Interaktion identifizieren können.
+Marketingexperten verwenden [!DNL Adobe Target], um personalisierte Erlebnisse für eine Vielzahl von Branchen, Kundentypen und Kanäle verfügbar zu machen. In der folgenden Tabelle finden Sie einige Beispiele dafür, wie Kunden [!DNL Target] zur Bereitstellung personalisierter Empfehlungen verwenden.
 
-![Empfehlung, die digitale Marken präsentiert](/help/main/c-recommendations/assets/intro-2.png)
+| Anwendungsfall | Beispiel |
+|---|---|
+| Veröffentlichung läuft | Web-Herausgeber verwenden [!DNL Target Recommendations], um Website-Besuchern Artikel zu empfehlen und die Interaktion zu steigern. |
+| Videoschulungen | [!DNL Adobe Creative Cloud] verwendet [!DNL Target], um Photoshop-Benutzenden in der Photoshop-Anwendung Video-Tutorials zu empfehlen. |
+| Gaming | Gaming-Unternehmen verwenden [!DNL Target], um Benutzern Spiele und Inhalte auf ihren Konsolen zu empfehlen. |
+| B2B-Verkäufe | Business-to-Business-Unternehmen verwenden [!DNL Target], um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten. |
+| Reisen | Ein deutscher Reiseunternehmer verwendet [!DNL Target], um Reisenden Hotels und Ähnliches zu empfehlen. Weitere Informationen finden Sie in der [Adobe Summit-Sitzung](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608){target=_blank}. |
+| Einteilung | Ein führender B2B-retailer verwendet [!DNL Target], um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen. |
 
-Marketingexperten verwenden [!DNL Adobe Target], um personalisierte Erlebnisse für eine Vielzahl von Branchen, Kundentypen und Kanäle verfügbar zu machen.
+## Elemente großartiger Empfehlungen
 
-[!DNL Adobe Target] stellt personalisierte Inhalte überall bereit.
+Tolle Empfehlungen sind relevant und personalisiert. Drei Elemente fördern Relevanz und Personalisierung:
 
-![Abbildung zeigt, wie Target Empfehlungen an verschiedenen Orten bereitstellt](/help/main/c-recommendations/assets/intro-3.png)
-
-* **Publishing**: Web-Herausgeber verwenden [!DNL Target Recommendations], um Site-Besuchern Artikel zu empfehlen und die Interaktion zu steigern.
-* **Video-Tutorials**: [!DNL Adobe Creative Cloud] verwendet [!DNL Target], um Photoshop-Benutzern in der Photoshop-Anwendung Video-Tutorials zu empfehlen.
-* **Gaming**: Gaming-Unternehmen verwenden [!DNL Target], um Benutzern auf ihren Konsolen Spiele und Inhalte zu empfehlen.
-* **B2B-**: B2B-Unternehmen verwenden Target, um B2B-Pospects Videos, White Papers und Blog-Posts zu empfehlen, Downloads bereitzustellen und Bestandskunden Hilfe anzubieten.
-
-* **Reisen**: [Ein deutscher Reiseunternehmer verwendet Target, um Reisenden Hotels und Ähnliches zu empfehlen](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
-
-* **Einzelhandel**: Ein führender B2B-retailer verwendet [!DNL Target], um wiederkehrenden Besuchern im Browser und in seiner mobilen App die besten Kategorien und Produkte zu empfehlen.
-
-Dies sind nur einige der Arten, wie Kunden Target verwenden, um personalisierte Empfehlungen bereitzustellen.
-
-Wie sehen gute Empfehlungen aus?
-
-![Abbildung zeigt die drei Elementen, die in einer guten Empfehlung nicht fehlen dürfen](/help/main/c-recommendations/assets/intro-4.png)
-
-Gute Empfehlungen sollten relevant und personalisiert sein. Zur Steigerung der Relevanz und Personalisierung benötigen Sie drei Dinge:
-
-* **Steuerelemente für Marketingexperten**, um die Relevanz der empfohlenen Artikel zu steigern. Als Marketingexperte haben Sie wertvolles Hintergrundwissen und verstehen, welche Attribute Ihrer Produkte oder Inhalte für ein Empfehlungsmodell relevant sind. Wenn Sie eine Videoseite betreiben, wissen Sie, dass Benutzer möglicherweise daran interessiert sind, Filme vom selben Regisseur zu sehen, aber wahrscheinlich kümmern Sie sich nicht darum, Filme zu sehen, die vom selben Studio produziert wurden. [!DNL Target] stellt Ihnen Steuerelemente zur Verfügung, mit denen Sie Ihre Algorithmen auf der Basis dieser Branchenkenntnis verbessern können.
-* **Hochentwickelte Modelle**, um die Millionen von Artikeln in Ihrem Katalog und den Interaktionsereignissen sinnvoll zu ordnen. [!DNL Target] besitzt eine fortschrittliche maschinelle Lernfunktionen, die sich auf jahrelange Erfahrung stützt. Zusätzlich handhaben wir Jahr für Jahr Milliarden von Empfehlungen.
-* **Benutzerkontext**, um sicherzustellen, dass Empfehlungen zeitgerecht und für Ihre Benutzer relevant sind. Sie möchten das Video, das jemand gerade angesehen hat, oder das Hemd, das jemand gerade zum Warenkorb hinzugefügt hat, nicht empfehlen. Das umfangreiche Benutzerprofil von Target kann in Recommendations verwendet werden, um Personalisierung sicherzustellen.
+* **Marketer-Steuerelemente** um die Relevanz der empfohlenen Elemente zu fördern. Marketing-Experten wissen, welche Attribute ihrer Produkte oder Inhalte ein Recommendations-Modell berücksichtigen sollte. Auf einer Video-Website könnten Benutzer beispielsweise an Filmen desselben Regisseurs interessiert sein, aber wahrscheinlich nicht an Filmen aus demselben Studio. [!DNL Target] bietet Steuerelemente, um Algorithmen mit diesem Domain-Wissen zu verbessern.
+* **Ausgefeilte Modelle** um Millionen von Katalogelementen und Interaktionsereignissen einen Sinn zu geben. [!DNL Target] verfügt über maschinelle Lernfunktionen, die über ein Jahrzehnt Erfahrung aufgebaut wurden und Milliarden von Empfehlungen pro Jahr verarbeiten.
+* **Benutzerkontext**, um sicherzustellen, dass die Empfehlungen zeitnah und relevant sind. Beispielsweise dürfen Empfehlungen nicht das Video enthalten, das jemand gerade angesehen hat, oder das Shirt, das jemand gerade zum Warenkorb hinzugefügt hat. Das [!DNL Target] Benutzerprofil kann in Recommendations verwendet werden, um eine Personalisierung sicherzustellen.
 
 ## Implementieren von [!DNL Target] Recommendations
 
-Beginnen Sie mit einer Strategie.
+Beginnen Sie mit einer Strategie, die die folgenden Punkte definiert:
 
-![Abbildung einer Recommendations-Strategie](/help/main/c-recommendations/assets/intro-5.png)
+* **Zu empfehlende Elemente**: Produkte, Videos oder Inhalte.
+* **Orte für Empfehlungen**: Die Kanäle (Web, Mobile, Im-Store, ein Kiosk usw.), die Teile der Kunden-Journey und die Seiten Ihrer Site, die Empfehlungen enthalten.
+* **Erfolgsmessung**: Ermitteln, ob Empfehlungen erfolgreich sind, z. B. durch Vergleich eines Erlebnisses ohne Empfehlungen mit einem Erlebnis mit Empfehlungen oder durch Vergleich von zwei verschiedenen Arten von Empfehlungen. Einige Metriken, z. B. die Auswirkung auf den Kundenlebenszeitwert, sind schwer direkt zu messen, sodass eine konkretere Metrik oft einfacher zu verwenden ist, z. B. der Umsatz pro Besuch, der durchschnittliche Bestellwert oder die Anzahl der Klicks. In einigen Fällen besteht das Ziel darin, eine Metrik zu minimieren, z. B. die Anzahl der Support-Aufrufe.
 
-* **Welche Artikel möchten Sie empfehlen?** Überlegen Sie zunächst, welche Elemente Sie empfehlen möchten. Dies könnten Produkte, Videos oder Inhalte sein.
-* **Wo sollen die Empfehlungen angezeigt werden?** Überlegen Sie sich als Nächstes, wo Sie Empfehlungen geben möchten. Wählen Sie die Kanäle (Web, Mobile, im Geschäft, im Kiosk usw.) aus, auf denen Empfehlungen präsentiert werden sollen. Welche Teile der Customer Journey sollen Empfehlungen enthalten? Welche Seiten auf Ihrer Website sollen Empfehlungen enthalten?
-* **Wie können Sie feststellen, ob die Empfehlungen erfolgreich sind?** Angenommen, Sie verfügen über ein Erlebnis ohne Empfehlungen und ein Erlebnis mit Empfehlungen, oder Sie haben zwei verschiedene Arten von Empfehlungen. Wie können Sie ermitteln, welches Erlebnis für Ihre Kunden besser war? Einige Metriken sind möglicherweise schwieriger zu messen als andere. Beispielsweise sind die Auswirkungen von Empfehlungen auf den Kundenlebenszeitwert oft nur schwer unmittelbar festzustellen. Es ist daher oft einfacher, anstelle einer abstrakten eine konkretere Metrik zu verwenden, z. B. Umsatz pro Besuch, durchschnittlicher Bestellwert oder Anzahl der Klicks. In einigen Fällen möchten Sie möglicherweise auch eine Metrik minimieren, z. B. die Anzahl der Supportanrufe.
+Nach Festlegung der Strategie umfasst die Umsetzung der [!DNL Target Recommendations] drei große Schritte:
 
-Nachdem Sie Ihre Strategie festgelegt haben, können Sie mit der Implementierung von [!DNL Target Recommendations] beginnen.
+![Abbildung der drei Schritte einer Recommendations-Implementierung: Unterrichten von Target über Ihre Inhalte oder Produkte, Erfassen des Benutzerverhaltens und Abrufen von Recommendations mit dem richtigen Kontext.](assets/intro-6.png)
 
-Die Implementierung von Recommendations umfasst im Großen und Ganzen drei Schritte:
+### [!DNL Target] über Ihre Inhalte oder Produkte unterrichten
 
-![Abbildung der Schritte zur Implementierung von Recommendations](/help/main/c-recommendations/assets/intro-6.png)
+Wenn Sie mit [!DNL Recommendations] beginnen, geben Sie Informationen zu jedem Element weiter, das Sie empfehlen möchten.
 
-1. Trainieren von [!DNL Target] in Bezug auf Ihren Kontext oder Ihre Produkte.
-1. Erfassen des Benutzerverhaltens.
-1. Bereitstellen von Empfehlungen mit dem richtigen Kontext.
+![Abbildung, die zeigt, wie Sie Target über Ihre Inhalte oder Produkte informieren: Feeds im CSV- oder Google-Feed-Format, die Datenschicht mit Target, die API und die Analytics-Integration.](assets/intro-7.png)
 
-### Trainieren von [!DNL Target] in Bezug auf Ihren Kontext oder Ihre Produkte
+Die einfachste und am häufigsten verwendete Methode besteht darin, eine CSV-Datei täglich oder wöchentlich über ein Produktinformations-Management-System oder ein Content-Management-System zu senden. Andere Optionen bestehen darin, Informationen auf der Datenschicht von Ihrer Seite mithilfe der [!DNL Adobe Target] JavaScript-Bibliothek zu übermitteln, die APIs zu verwenden, um Informationen direkt aus Ihrem Quellsystem zu übermitteln, oder die [!DNL Adobe Analytics]-Integration zu verwenden, wenn Sie bereits Katalogdaten an [!DNL Analytics] übergeben. Sie können mehrere Optionen zusammen verwenden, z. B. die meisten Daten täglich über eine CSV-Datei und Inventaraktualisierungen häufiger über eine API übergeben. Die IT-Abteilung ist in der Regel an der Einrichtung dieses Schritts beteiligt.
 
-Wenn Sie mit [!DNL Recommendations] beginnen, übermitteln Sie Informationen zu jedem Artikel, den Sie empfehlen möchten. [!DNL Target] bietet verschiedene Integrationsoptionen zur Erstellung Ihres Katalogs.
+Unabhängig von der gewählten Methode sollten Sie Metadaten zu jedem Element in drei Kategorien einschließen:
 
-![Abbildung, die zeigt, wie Target in Bezug auf Kontext oder Produkte trainiert wird](/help/main/c-recommendations/assets/intro-7.png)
-
-Die einfachste und am häufigsten verwendete Methode besteht darin, täglich oder wöchentlich eine CSV-Datei von Ihrem Produktinformationsmanagement- oder Content-Management-System zu übermitteln. Sie können jedoch auch Informationen über die Datenschicht von Ihrer Seite mithilfe der [!DNL Adobe Target]-JavaScript-Bibliothek senden, unsere APIs nutzen, um Informationen direkt aus Ihrem Ausgangssystem weiterzugeben, oder unsere [!DNL Adobe Analytics]-Integration nutzen, wenn Sie bereits Katalogdaten an [!DNL Analytics] weiterleiten.
-
-Sie können aber auch mehrere Optionen gemeinsam verwenden, z. B. den Großteil der Daten täglich per CSV-Datei und Inventaraktualisierungen häufiger per API übermitteln.
-
-Normalerweise hilft Ihre IT-Abteilung bei der Durchführung dieses Schritts.
-
-Unabhängig von der gewählten Methode sollten Sie zu jedem Artikel drei Kategorien von Metadaten mitsenden:
-
-![Abbildung von Metadaten-Informationen für Ihren Katalog](/help/main/c-recommendations/assets/intro-8.png)
-
-* Daten, die dem Benutzer angezeigt werden sollen, der die Empfehlung erhält. Zum Beispiel den Namen des Films und eine URL mit einer Miniaturansicht.
-* Daten, die zur Anwendung von Marketing- und Merchandising-Steuerelementen nützlich sind. Beispielsweise die Bewertung des Films, sodass Sie keine Filme mit explizit sexuellen Inhalten empfehlen.
-* Daten, die zur Bestimmung der Ähnlichkeit von Artikeln nützlich sind. Beispielsweise das Genre des Films oder die Darsteller im Film.
+* **Daten, die Sie dem Benutzer anzeigen möchten, der die Empfehlung erhält.** Zum Beispiel den Namen des Films und eine URL mit einer Miniaturansicht.
+* **Daten, die für die Anwendung von Marketing- und Merchandising-Steuerelementen nützlich sind.** Beispielsweise die Bewertung des Films, sodass Sie keine Filme mit explizit sexuellen Inhalten empfehlen.
+* **Daten, die für die Bestimmung der Ähnlichkeit von Elementen mit anderen Elementen nützlich sind.** Beispielsweise das Genre des Films oder die Darsteller im Film.
 
 ### Erfassen des Benutzerverhaltens
 
-Als Nächstes sollten Sie Tags hinzufügen oder vorhandene [!DNL Analytics]-Implementierungen nutzen, um die Konversionsereignisse (wie Öffnungen und Käufe) zu tracken, die [!DNL Target]-Algorithmen verbessern.
+![Abbildung, die zeigt, wie das Benutzerverhalten erfasst wird: Ansichten und Klicks führen zu Käufen, Konversionen, Downloads, Abonnements und Wiedergaben, die mit Target, Analytics oder der API verfolgt werden.](assets/intro-9.png)
 
-![Abbildung, die zeigt wie das Benutzerverhalten erfasst wird](/help/main/c-recommendations/assets/intro-9.png)
+Fügen Sie Tags hinzu oder verwenden Sie Ihre vorhandene [!DNL Analytics]-Implementierung, damit [!DNL Target] weiß, welche Elemente Ihre Benutzer anzeigen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, verfolgen Sie einen anderen Konversionstyp, z. B. das Herunterladen einer PDF, das Ausfüllen einer Umfrage, das Abonnieren eines Newsletters oder das Ansehen eines Videos.
 
-Sie müssen sicherstellen, dass [!DNL Target] weiß, welche Artikel Ihre Benutzer öffnen und kaufen. Wenn der Kauf für Ihren Kontext nicht relevant ist, sollten Sie einen anderen Konversionstyp verfolgen, z. B. ein PDF herunterladen, eine Umfrage ausfüllen, einen Newsletter abonnieren, ein Video ansehen usw.
-
-Wenn Sie [!DNL Target] bereits zum Durchführen von A/B-Tests auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits durchgeführt. Oder wenn Sie [!DNL Adobe Analytics] bereits dazu verwenden, Berichte zu Site-Besuchen und Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Quelle für Ihre Verhaltensdaten verwenden. Andernfalls gestaltet sich die Einrichtung am einfachsten mithilfe eines Tag-Managers wie [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank}. Es ist auch möglich, Offline- oder In-App-Interaktionen über die Echtzeit-API an [!DNL Target] zu senden.
+Wenn Sie [!DNL Target] bereits zum Ausführen von A/B-Test -Aktivitäten auf Ihrer Site verwenden, haben Sie diesen Schritt möglicherweise bereits abgeschlossen. Wenn Sie bereits [!DNL Adobe Analytics] verwenden, um Berichte über Site-Besuche und das Konversionsverhalten zu erstellen, können Sie [!DNL Analytics] als Verhaltensdatenquelle verwenden. Andernfalls besteht die einfachste Option darin, dies mit einem Tag-Manager wie Tags in [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=de){target=_blank} einzurichten. Offline- oder In-App-Interaktionen können auch über die Echtzeit-API an [!DNL Target] gesendet werden.
 
 ### Erhalten von Empfehlungen mit dem richtigen Kontext
 
-Übermitteln Sie Informationen über Benutzer und Kontext im Moment der Interaktion an [!DNL Target], um relevante und personalisierte Empfehlungen zurückzugeben.
+![Abbildung, die zeigt, wie Empfehlungen mit dem richtigen Kontext abgerufen werden: Das aktuell angezeigte Produkt, die aktuelle Produktkategorie, die von Benutzenden bevorzugte Kategorie, die von Benutzenden bevorzugte Marke und die Benutzerloyalitätsstufe werden an Target übergeben.](assets/intro-10.png)
 
-![Abbildung, die zeigt, wie Empfehlungen mit dem richtigen Kontext abgerufen werden.](/help/main/c-recommendations/assets/intro-10.png)
-
-Neben dem Benutzerverhalten in aggregierter Form müssen Sie [!DNL Target] den spezifischen Kontext übermitteln, in dem Empfehlungen angezeigt werden. Dazu gehören Informationen über die Seite und das Benutzerprofil. [!DNL Target] verwendet diese Informationen, um personalisierte Empfehlungen zu erstellen. Auf einer Einzelhandels-Website möchten Sie beispielsweise wissen, welches Produkt und welche Produktkategorie sich der Besucher momentan ansieht. Zusätzlich möchten Sie auch Informationen zu diesem Benutzer (Lieblingsmarke, bevorzugte Produktkategorie, Treuestufe usw.) wissen. Diese Informationen sind wichtig, damit [!DNL Target] Artikel filtern und die Personalisierung von Empfehlungen verbessern kann.
+Neben dem Gesamtverhalten des Benutzers benötigt [!DNL Target] den spezifischen Kontext, in dem Empfehlungen angezeigt werden, wozu Informationen über die Seite und Informationen aus dem Benutzerprofil gehören. [!DNL Target] verwendet diese Informationen, um Elemente zu filtern und die Personalisierung von Empfehlungen zu verbessern.
 
 ## Erstellen der ersten Recommendations-Aktivität
 
-Was ist eine [!DNL Recommendations]-Aktivität?
+Eine [!DNL Recommendations] Aktivität kombiniert eine Zielgruppe, Kriterien und ein Design. [!DNL Target] umfasst 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Design-Vorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen.
 
-![Abbildung mit den Teilen, aus denen eine gute Recommendations-Aktivität besteht](/help/main/c-recommendations/assets/intro-11.png)
+![Abbildung der Teile, die eine gute Recommendations-Aktivität ausmachen: die Zielgruppe (die diese Recommendations sehen sollte), die Kriterien (welche Elemente empfohlen werden sollten) und das Design (wie die empfohlenen Elemente angezeigt werden).](assets/intro-11.png)
 
-Eine [!DNL Recommendations]-Aktivität besteht aus folgenden Komponenten:
+[!DNL Target] verwendet das Konzept der Kriterienkarte, das wie ein Rezept für die Personalisierung ist. Die Auswahl oder Erstellung der richtigen Kriterien ist wichtig, um die gewünschten Personalisierungsergebnisse zu erzielen. Eine Kriterienkarte funktioniert wie eine funnel, die Sie aus Ihrem gesamten Katalog bis hin zu Ihren endgültigen Empfehlungen führt.
 
-* **Zielgruppe**: Wer soll diese Empfehlungen sehen?
-* **Kriterien**: Welche Artikel sollen empfohlen werden?
-* **Design**: Wie sollen die empfohlenen Artikel präsentiert werden?
+![Abbildung der funnel-Kriterien: Kataloginhalte, statische Filter (Sammlungen und Ausschlüsse), Algorithmus (Empfehlungsschlüssel und -logik), Online-Geschäftsregeln (dynamische Filterung und Attributgewichtung) und endgültige Empfehlungen neben einer Beispielkriterienkarte.](assets/intro-14.png)
 
-![Abbildung einer Recommendations-Aktivität: Zielgruppen, Kriterien und Designs](/help/main/c-recommendations/assets/intro-12.png)
-
-Standardmäßig enthält [!DNL Target] 14 integrierte Zielgruppen, 42 integrierte Kriterien und 10 integrierte Designvorlagen. Sie können jedes dieser Elemente anpassen oder eigene hinzufügen.
-
-[!DNL Target] verwendet das Konzept der Kriterienkarte. Eine Kriterienkarte ist wie ein Rezept für die Personalisierung.
-
-![Abbildung einer Kriterienkarte](/help/main/c-recommendations/assets/intro-13.png)
-
-Die Auswahl oder Erstellung der richtigen Kriterien ist wichtig, um die gewünschten Personalisierungsergebnisse zu erzielen. Ein Kriterium ist wie ein Trichter, der Sie ausgehend vom gesamten Katalog zu Ihren endgültigen Empfehlungen führt.
-
-![Abbildung des Trichters](/help/main/c-recommendations/assets/intro-14.png)
-
-In den folgenden Abschnitten werden die einzelnen Teile dieses Trichters und deren Funktionsweise in [!DNL Target] beschrieben:
+In den folgenden Abschnitten werden die Teile dieser funnel und ihre Funktionsweise in [!DNL Target] beschrieben.
 
 ### Statische Filter (Sammlungen und Ausschlüsse)
 
-Statische Filter sind allgemein anwendbare Regeln im Zusammenhang mit Katalogattributen, die Sie nicht häufig ändern sollten.
+Statische Filter sind allgemein anwendbare Regeln in Bezug auf Katalogattribute, von denen Sie nicht erwarten, dass sie häufig geändert werden, sodass Sie sie in mehreren Empfehlungen verwenden können.
 
-![Abbildung von Sammlungen und Ausschlüssen](/help/main/c-recommendations/assets/intro-16.png)
-
-In Bezug auf den Inhalt möchten Sie beispielsweise vielleicht alle Filme in Empfehlungen einbeziehen, aber Filme, die explizite sexuelle Inhalte haben, ausschließen. In Bezug auf den Einzelhandel verfügen Sie möglicherweise über mehrere Marken in verschiedenen Regionen der Welt. Sie möchten aber nur Produkte empfehlen, die in den USA verfügbar sind. Möglicherweise möchten Sie auch bestimmte Produkte einer regionalen Marke ausschließen.
-
-Dies sind alles Katalogattribute, die im Großen und Ganzen anwendbar sind und in mehreren Empfehlungen verwendet werden sollten. Es ist nicht zu erwarten, dass sie sich häufig ändern.
+![Abbildung statischer Filter. Inhalt: Schließt alle Filme ein und schließt Filme mit der Einstufung NC-17 von den Empfehlungen aus. Produkte: Umfasst alle in den Vereinigten Staaten verfügbaren Produkte und schließt Produkte von einem regionalen Private Label aus.](assets/intro-16.png)
 
 ### Algorithmus (Empfehlungsschlüssel und -logik)
 
-Als nächsten Schritt müssen Sie einen Empfehlungsschlüssel und eine Empfehlungslogik auswählen. Hier legen Sie die Grundlage Ihrer Empfehlung fest.
+Der nächste Schritt besteht darin, einen Empfehlungsschlüssel und eine Logik auszuwählen, die die Grundlage für Ihre Empfehlung bilden. Der Empfehlungsschlüssel ist das gesuchte Objekt, aufgrund dessen eine Empfehlung ausgewählt wird.
 
-![Abbildung eines Algorithmus](/help/main/c-recommendations/assets/intro-17.png)
+![Abbildung des Algorithmusschritts. Empfehlungsschlüssel: aktuell angezeigter Artikel, aktuell angezeigte Kategorie, zuletzt gekaufter Artikel oder benutzerdefiniertes Attribut. Empfehlungslogik: Artikel mit ähnlichen Attributen, am häufigsten angezeigte Artikel in der Kategorie, Kunden, die diesen Artikel gekauft haben, haben auch diese Artikel gekauft, oder benutzerdefinierter Algorithmus.](assets/intro-17.png)
 
-Zunächst müssen Sie den Empfehlungsschlüssel auswählen. Der Empfehlungsschlüssel ist das gesuchte Objekt, aufgrund dessen eine Empfehlung ausgewählt wird. Er ist stellt die Basis einer Empfehlung dar.
+[!DNL Target] umfasst ein Portfolio von Algorithmen.
 
-Eine Empfehlung kann auf Folgendem basieren:
-
-* Dem vom Besucher betrachteten Artikel
-* Der vom Besucher betrachteten Kategorie
-* Dem Artikel, den der Besucher zuletzt gekauft oder in den Warenkorb gelegt hat
-* Einem benutzerspezifischen Attribut, das einem Besucher oder einem Artikel zugeordnet ist
-
-Auf der Grundlage dieser Schlüssel wählen Sie dann die gewünschte Empfehlungslogik aus:
-
-* Artikel mit ähnlichen Attributen
-* Die am häufigsten angezeigten Artikel einer bestimmten Kategorie
-* Kunden, die diesen Artikel gekauft haben, haben auch diese Artikel gekauft
-* Ein benutzerdefiniertes Attribut
-
-Standardmäßig enthält [!DNL Target] eine Reihe von Algorithmen.
-
-![Abbildung der Algorithmen](/help/main/c-recommendations/assets/intro-15.png)
-
-* Zu den **beliebtesten Algorithmen** zählen „Am häufigsten angesehen“ und „Am häufigsten gekauft“.
-* Zu den **inhaltsbasierten Algorithmen** gehören „Ähnliche Inhalte“.
-* **Algorithmen für artikelbasiertes kollaboratives Filtern** umfassen die Kategorien „Ansicht/Ansicht“, „Ansicht/Gekauft“ und „Gekauft/Gekauft“. Beachten Sie, dass „Gekauft“ jede beliebige Konversion sein kann.
-* Zu den **personalisierten Algorithmen** zählen „Kürzlich angesehen“, „Site-Affinität“ und „Profiloptimiertes kollaboratives Filtern“.
-* Sie können auch Ihre **eigenen benutzerdefinierte Algorithmen** verwenden.
+![Abbildung des Portfolios an Algorithmen: Beliebtheitsbasierte (am häufigsten angezeigt, Topverkäufe), inhaltsbasierte (Inhaltsähnlichkeit), artikelbasierte kollaborative Filterung (angezeigt/angezeigt, angezeigt/gekauft, gekauft/gekauft, wobei gekauft jede Konversion sein kann), personalisiert (kürzlich angezeigt, Site-Affinität, profilerweiterte Zusammenstellung). Filtern), und bringen Sie Ihre eigenen (benutzerdefinierte Algorithmen).](assets/intro-15.png)
 
 ### Online-Geschäftsregeln
 
-Der letzte Schritt ist die Anwendung von Online-Geschäftsregeln. Damit versorgen Sie Ihre Algorithmen mit dem Domänenwissen und dem aktuellen Kontext, der darauf basiert, was der Besucher auf Ihrer digitalen Property gerade macht.
+Der letzte Schritt besteht in der Anwendung von Online-Geschäftsregeln, die Ihre Algorithmen mit Domain-Wissen und aktuellem Kontext verbessern, basierend darauf, was der Besucher auf Ihrem digitalen Eigentum tut.
 
-![Abbildung von Online-Geschäftsregeln](/help/main/c-recommendations/assets/intro-18.png)
-
-Im Inhaltskontext möchten Sie beispielsweise vielleicht Filme ausschließen, die der Besucher bereits gesehen hat, oder Filme vom selben Regisseur oder im selben Genre empfehlen. Im Einzelhandelskontext möchten Sie möglicherweise nicht vorrätige Produkte ausschließen, Artikel im Preissegment von 5 bis 500 $ anzeigen oder Artikel derselben Marke empfehlen.
-
-## Demo
-
-Nachdem Sie die oben im Empfehlungstrichter beschriebenen Aufgaben ausgeführt haben, erhalten Sie Ihre endgültige Empfehlung. Um eine produktinterne Demonstration in [!DNL Target] anzusehen, beginnt die Demo um 21:00 Uhr im *Webinar zu den Adobe Target* Grundlagen, das unten verlinkt ist.
+![Illustration von Online-Geschäftsregeln. Inhalt: Schließen Sie zuvor angesehene Filme aus, zeigen Sie Filme desselben Regisseurs und steigern Sie die Qualität Ihrer Filme mit demselben Genre. Produkte: Ausschließen von nicht vorrätigen Produkten, Anzeigen von Artikeln mit einem Preis von 5 bis 500 $ und Verstärken von Artikeln aus derselben Marke.](/help/main/c-recommendations/assets/intro-18.png)

@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ Probieren Sie den Aktivitätstyp [Automatisches Targeting](/help/main/c-activiti
 **Woran erkenne ich, welcher Aktivitätstyp sich am besten für meine Anforderungen eignet?**
 
 +++Details anzeigen
-Lesen Sie [Target-Aktivitätshandbuch](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) um die Szenarien zu verstehen, in denen jede der von [!DNL Target] bereitgestellten Optionen sinnvoll ist.
+Lesen Sie [Target-Aktivitätshandbuch](/help/main/c-activities/target-activities-guide.md) um die Szenarien zu verstehen, in denen jede der von [!DNL Target] bereitgestellten Optionen sinnvoll ist.
 
-Denken Sie auch an die [Recommendations-Aktivitäten](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Denken Sie auch an die [Recommendations-Aktivitäten](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ In diesem Fall wählen Sie möglicherweise „Anzahl erhöhen, Benutzer freigebe
 **Wie muss ich eine Aktivität einrichten, um meine Ziele zu erreichen?**
 
 +++Details anzeigen
-Hier kommen [Ziele](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) an.
+Hier kommen [Ziele](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) an.
 
 Sie sollten zunächst wissen, was Sie optimieren. Ist es [!UICONTROL Umsatz], [!UICONTROL Konversion] oder [!UICONTROL Interaktion]? Diese Optionen stehen im Abschnitt mit den Zielen zur Verfügung. Für diese können Sie weitergehend definieren, welche Aktion ein Benutzer für die Qualifizierung auf Ihrer Site vornehmen würde, dass das Ziel erreicht wurde.
 

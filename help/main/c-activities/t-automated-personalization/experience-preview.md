@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs
+# Vorschau von Automated Personalization-Aktivitäten mit Erlebnisvorschau-URLs {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite:** Erfahren Sie, wie Sie Erlebnisvorschau-URLs für **[!UICONTROL Automated Personalization]**-Aktivitäten generieren, um die Erlebnisse auf Ihrer Site anzuzeigen, bevor die Aktivität live ist.
+
+>[!ENDSHADEBOX]
 
 Für [!DNL Target] [!UICONTROL Automated Personalization]-Aktivitäten können Erlebnisvorschau-URLs generiert werden, um Erlebnisinhalte direkt auf Ihrer Site zu sehen, bevor die Aktivität zu Vorschau- und QA-Zwecken live ist. Erlebnisvorschau-URLs umgehen die Zielgruppenbestimmung, um die Anzeige eines bestimmten Erlebnisses zu erzwingen.
 
 >[!NOTE]
 >
->Sie können Erlebnisvorschau-URLs für andere Arten von [!DNL Target]-Aktivitäten erstellen. Der Prozess ist jedoch etwas anders. Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
+>Sie können Erlebnisvorschau-URLs für andere Arten von [!DNL Target]-Aktivitäten erstellen. Der Prozess ist jedoch etwas anders. Weitere Informationen finden Sie unter [Aktivitäts-QA](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547).
 
 Verwenden Sie URLs für die Erlebnisvorschau, um Erlebnisse für Team-Mitglieder freizugeben und um Erlebnisse in der Qualitätssicherung Browser- und umgebungsübergreifend zu prüfen, ohne eine separate QS-Aktivität zu erstellen. Diese Funktion ist besonders nützlich, wenn eine Site komplex ist oder Ihre Sicherheitsrichtlinien das Anzeigen der Site in einem Simulator nicht zulassen.
 
