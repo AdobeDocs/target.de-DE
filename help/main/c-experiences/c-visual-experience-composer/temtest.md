@@ -53,7 +53,7 @@ Sie können Seiten angeben, die die Änderungselemente enthalten, oder die Ände
 
 1. Legen Sie den Seitenbereich fest. Der Seitenbereich kann einer der folgenden sein:
 
-   * [!UICONTROL URL] (Weitere Informationen dazu, wie [!DNL Target] URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
+   * [!UICONTROL URL] (Weitere Informationen dazu, wie [!DNL Target] URLs auswertet, finden Sie unter [Häufig gestellte Fragen zu Zielen und &#x200B;](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md))
    * [!UICONTROL Domain]
    * [!UICONTROL path]
    * [!UICONTROL Hash (#)-Fragment] (zielen Sie auf den Teil einer URL, der dem #-Symbol folgt.)

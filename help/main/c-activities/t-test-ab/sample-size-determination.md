@@ -46,7 +46,7 @@ Für eine erfolgreiche **[!UICONTROL A/B-]**-Aktivität in [!DNL Adobe Target] s
 
 Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
-[!DNL Adobe Target] stellt Tools bereit, mit denen Sie sicherstellen können, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konversionsziele zu erreichen[ nämlich ](#auto-allocate)Automatische Zuordnung“ und den [Rechner für den Stichprobenumfang](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+[!DNL Adobe Target] stellt Tools bereit, mit denen Sie sicherstellen können, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konversionsziele zu erreichen[&#x200B; nämlich &#x200B;](#auto-allocate)Automatische Zuordnung“ und den [Rechner für den Stichprobenumfang](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Automatische Zuordnung {#auto-allocate}
 
@@ -60,7 +60,7 @@ Bei Verwendung der **[!UICONTROL automatischen Zuordnung]** zeigt [!DNL Target] 
 
 Wenn Sie eine manuelle Aktivität vom Typ **[!UICONTROL A/B-Test]** anstelle von **[!UICONTROL Automatische Zuordnung]** verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine Aktivität **[!UICONTROL Automatische Zuordnung]** ist optional, da **[!UICONTROL Automatische Zuordnung]** für Sie einen Gewinner bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf. Sie können auch den [Stichprobengrößenrechner) in ](/help/main/c-activities/sample-size-calculator.md) Benutzeroberfläche &quot;[!DNL Target]&quot; verwenden.
+Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf. Sie können auch den [Stichprobengrößenrechner) in &#x200B;](/help/main/c-activities/sample-size-calculator.md) Benutzeroberfläche &quot;[!DNL Target]&quot; verwenden.
 
 ![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 

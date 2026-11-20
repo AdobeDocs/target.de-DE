@@ -122,7 +122,7 @@ Wenn auf Ihrer Site [[!UICONTROL Platform Web SDK]](https://experienceleague.ado
 
 +++ Analytics als Berichtsquelle (A4T)
 
-**[!UICONTROL Aktivitäts-QA]** URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit **[!UICONTROL Aktivitäts-QA]** generiert werden, fließen in dieselbe Report Suite, in der auch nach der Live-Schaltung der Aktivität die Aktivitätsdaten fließen.
+**[!UICONTROL Aktivitäts-QA]** URLs sind für Aktivitäten mit [Analytics als Berichtsquelle) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md)A4T) verfügbar. Treffer, die bei der Qualitätssicherung mit **[!UICONTROL Aktivitäts-QA]** generiert werden, fließen in dieselbe Report Suite, in der auch nach der Live-Schaltung der Aktivität die Aktivitätsdaten fließen.
 
 +++
 
@@ -154,7 +154,7 @@ Wenn Sie beim Erstellen der Aktivität in den Optionen [Verfeinerungen im formul
 
 +++ Browser, die Drittanbieter-Cookies blockieren (at.js 1.*x*)
 
-Wenn Sie at.js 1.*x* haben, bleibt **[!UICONTROL Aktivitäts-QA]**-Modus nicht seitenübergreifend bestehen, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
+Wenn Sie at.js 1.*x* haben, bleibt **[!UICONTROL Aktivitäts-QA]**-Modus nicht seitenübergreifend bestehen, wenn Sie Safari oder einen anderen Browser verwenden, der Drittanbieter-Cookies blockiert. In diesen Fällen müssen Sie die Vorschauparameter zu jeder URL hinzufügen, zu der Sie navigieren. Dasselbe gilt, wenn Sie &quot;[&quot; &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank} haben.
 
 +++
 
@@ -200,7 +200,7 @@ In der folgenden Tabelle sind die Parameter aufgeführt, die in Ihrer Domain auf
 
 +++
 
-## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek ]QA-Modus) {#compatibility}
+## Kompatibilität der Target JavaScript[!UICONTROL Bibliothek &#x200B;]QA-Modus) {#compatibility}
 
 [!DNL Target] unterstützt die folgenden JavaScript-Bibliotheken:
 

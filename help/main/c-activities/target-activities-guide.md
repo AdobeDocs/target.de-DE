@@ -47,7 +47,7 @@ Laden Sie eine interaktive PDF-Datei herunter, in der die verschiedenen Aktivit�
 >
 >Um zu erfahren, wie Sie optimale Ergebnisse erreichen und diese freigeben können, laden Sie die interaktive [Anleitung für Adobe Target-Aktivitäten](/help/main/assets/activities_guide_82817.pdf) (PDF) herunter.
 >
->Dieser Artikel enthält keine Informationen zu [**[!UICONTROL Recommendations ]**-Aktivitäten](/help/main/c-recommendations/recommendations.md). Sie können jedoch Empfehlungen in die Aktivitäten**[!UICONTROL  A/B-]**,**[!UICONTROL  Automatische Zuordnung ]**,**[!UICONTROL  Automatisches Targeting ]**und**[!UICONTROL  Erlebnis-Targeting ]**(XT) einbeziehen. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen.
+>Dieser Artikel enthält keine Informationen zu [**[!UICONTROL Recommendations &#x200B;]**-Aktivitäten](/help/main/c-recommendations/recommendations.md). Sie können jedoch Empfehlungen in die Aktivitäten&#x200B;**[!UICONTROL &#x200B; A/B-]**,**[!UICONTROL &#x200B; Automatische Zuordnung &#x200B;]**,**[!UICONTROL &#x200B; Automatisches Targeting &#x200B;]**&#x200B;und&#x200B;**[!UICONTROL &#x200B; Erlebnis-Targeting &#x200B;]**(XT) einbeziehen. Weitere Informationen finden Sie unter [Empfehlungen als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md). Diese Funktion erfordert, dass Sie über eine [Target Premium-Lizenz](/help/main/c-intro/intro.md#premium) verfügen.
 
 ## Welche Funktion hat sie? {#section_4ECAACC68723402EB3649033190E1BBC}
 

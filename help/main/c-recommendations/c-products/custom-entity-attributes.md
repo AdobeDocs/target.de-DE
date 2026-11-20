@@ -142,7 +142,7 @@ Sie können Attribute mit mehreren Werten mithilfe der Bereitstellungs-API in ei
   }
 ```
 
-Weitere Informationen zur Verwendung der Bereitstellungs- und ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}-Entitäten-APIs finden Sie in der Dokumentation zur Adobe Recommendations-API [.
+Weitere Informationen zur Verwendung der Bereitstellungs- und [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}-Entitäten-APIs finden Sie in der Dokumentation zur Adobe Recommendations-API .
 
 ## Verwenden von Operatoren mit Attributen mit mehreren Werten {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -150,8 +150,8 @@ Wenden Sie Operatoren nur für benutzerdefinierte Attribute mit mehreren Werten 
 
 Im folgenden Beispiel wird die Regel `message contains abc`.
 
-* 1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
-* 2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
+* &#x200B;1. Fall: `entity.genre = ["ab", "bc", "de"]`. Das Ergebnis lautet „false“ (falsch), da keiner der Werte `abc`.
+* &#x200B;2. Fall: `entity.genre = ["abcde","de","ef"]`. Das Ergebnis lautet „true“ (wahr), da einer der Werte `abc`.
 
 Im Falle negativer Operatoren müssen alle Attributwerte die Operation (Boolesches *and*) erfolgreich durchlaufen. Wenn beispielsweise der Operator `notEquals` ist, ist das Ergebnis *false* wenn ein Wert übereinstimmt.
 

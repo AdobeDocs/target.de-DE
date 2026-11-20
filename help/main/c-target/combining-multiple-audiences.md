@@ -49,7 +49,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
 1. Aktivieren Sie auf der Seite **[!UICONTROL Zielgruppe auswählen]** diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
 
-   Schränken Sie [!UICONTROL  Suche ] die gewünschte Zielgruppe ein.
+   Schränken Sie [!UICONTROL &#x200B; Suche &#x200B;] die gewünschte Zielgruppe ein.
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
