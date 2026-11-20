@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '3146'
-ht-degree: 43%
+source-wordcount: '3140'
+ht-degree: 42%
 ---
 # Wie lange sollten A/B-Tests laufen? {#sample-size-determination}
 
@@ -46,7 +46,7 @@ Für eine erfolgreiche **[!UICONTROL A/B-]**-Aktivität in [!DNL Adobe Target] s
 
 Es ist verlockend, eine Aktivität zu stoppen, wenn eines der Angebote in den ersten Tagen der Aktivität besser oder schlechter abschneidet als die anderen. Wenn jedoch die Anzahl der Beobachtungen gering ist, ist die Wahrscheinlichkeit hoch, dass eine positive oder negative Steigerung nur zufällig beobachtet wurde, da die Konversionsrate als Durchschnitt einer geringen Besucherzahl ermittelt wurde. Wenn die Aktivität mehr Datenpunkte erfasst, nähern sich die Konversionsraten ihren eigentlichen, langfristigen Werten an.
 
-[!DNL Adobe Target] stellt Tools bereit, mit denen Sie sicherstellen können, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konversionsziele zu erreichen[&#x200B; nämlich &#x200B;](#auto-allocate)Automatische Zuordnung“ und den [Rechner für den Stichprobenumfang](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+[!DNL Adobe Target] stellt Tools bereit, mit denen Sie sicherstellen können, dass Ihre Aktivität über eine ausreichend große Stichprobengröße verfügt, um Ihre Konversionsziele zu erreichen[ nämlich ](#auto-allocate)Automatische Zuordnung“ und den [Rechner für den Stichprobenumfang](#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Automatische Zuordnung {#auto-allocate}
 
@@ -60,11 +60,11 @@ Bei Verwendung der **[!UICONTROL automatischen Zuordnung]** zeigt [!DNL Target] 
 
 Wenn Sie eine manuelle Aktivität vom Typ **[!UICONTROL A/B-Test]** anstelle von **[!UICONTROL Automatische Zuordnung]** verwenden, hilft Ihnen der Rechner für den [!DNL Target] Stichprobenumfang bei der Bestimmung der für einen erfolgreichen Test erforderlichen Stichprobengröße. Ein manueller A/B-Test ist ein Test mit festem Horizont, daher ist der Rechner hilfreich. Die Verwendung des Taschenrechners für eine Aktivität **[!UICONTROL Automatische Zuordnung]** ist optional, da **[!UICONTROL Automatische Zuordnung]** für Sie einen Gewinner bestimmt. Der Rechner liefert eine grobe Schätzung der benötigten Stichprobengröße. Im Folgenden finden Sie weiter Informationen zur Verwendung des Rechners.
 
-Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf. Sie können auch den [Stichprobengrößenrechner) in &#x200B;](/help/main/c-activities/sample-size-calculator.md) Benutzeroberfläche &quot;[!DNL Target]&quot; verwenden.
+Rufen Sie vor der Einrichtung Ihres A/B-Tests den [!DNL Adobe Target] [Rechner für den Stichprobenumfang](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=de) auf. Sie können auch den [Stichprobengrößenrechner) in ](/help/main/c-activities/sample-size-calculator.md) Benutzeroberfläche &quot;[!DNL Target]&quot; verwenden.
 
 ![Adobe Target-Stichprobengrößenrechner](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Es ist wichtig, vor der Durchführung von A/B-Tests eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um festzustellen, wie lange die Aktivität laufen soll, bevor die Ergebnisse ausgewertet werden. Wird die Aktivität einfach so lange überwacht, bis eine statistische Signifikanz erreicht ist, wird das Konfidenzintervall deutlich unterschätzt, was den Test unzuverlässig macht. Die Intuition hinter diesem Ergebnis ist, dass im Falle eines statistisch signifikanten Ergebnisses der Test gestoppt und ein Gewinner bestimmt wird. Ist das Ergebnis jedoch statistisch nicht signifikant, so darf der Test fortgesetzt werden. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
+Es ist wichtig, vor der Durchführung von A/B-Tests eine angemessene Stichprobengröße (Anzahl der Besucher) zu bestimmen, um festzustellen, wie lange die Aktivität laufen soll, bevor die Ergebnisse ausgewertet werden. Die Überwachung der Aktivität bis zum Erreichen der statistischen Signifikanz führt dazu, dass das Konfidenzintervall erheblich unterschätzt wird, wodurch der Test unzuverlässig wird. Die Intuition hinter diesem Ergebnis ist, dass im Falle eines statistisch signifikanten Ergebnisses der Test gestoppt und ein Gewinner bestimmt wird. Ist das Ergebnis jedoch statistisch nicht signifikant, so darf der Test fortgesetzt werden. Diese Vorgehensweise begünstigt das positive Ergebnis erheblich, wodurch die Falsch-Positiv-Rate zunimmt und das effektive Signifikanzniveau des Tests verzerrt wird.
 
 Dieses Verfahren kann zu vielen falsch positiven Ergebnissen führen, was letztendlich zur Implementierung von Angeboten führt, die nicht den prognostizierten Anstieg liefern. Eine schwache Steigerung an sich ist ein unbefriedigendes Ergebnis, aber eine noch schwerwiegendere Folge ist, dass die Unfähigkeit, diese Steigerung genau vorherzusagen, mit der Zeit das Vertrauen der Organisation in Tests als Praxis untergräbt.
 
@@ -93,7 +93,7 @@ Die unten stehende Abbildung veranschaulicht die vier möglichen Ergebnisse eine
 
 ![Tabelle mit den vier möglichen Ergebnissen eines A/B-Tests: wahr-positiv, falsch-positiv (gesteuert durch das Signifikanzniveau), falsch-negativ (gesteuert durch das Potenzniveau) und wahr-negativ](assets/outcomes.png)
 
-Es ist wünschenswert, keine Falsch-Positiv-Werte bzw. Falsch-Negativ-Werte zu erhalten. Das Erzielen von Null-Falsch-Positiven kann jedoch niemals durch einen statistischen Test garantiert werden. Es ist immer möglich, dass beobachtete Trends nicht repräsentativ für die zugrundeliegenden Konversionsraten sind. So könnte man z. B. bei einem Test, um zu sehen, ob Kopf oder Zahl beim Münzwurf wahrscheinlicher war, selbst bei einer fairen Münze, zehn Kopf auf zehn Würfe reinen Zufalls bekommen. Die statistische Bedeutung und die Teststärke tragen zur Quantifizierung der Falsch-Positiv- und Falsch-Negativ-Raten bei und ermöglichen es, diese für einen gegebenen Test auf einem vertretbaren Niveau zu halten.
+Es ist wünschenswert, keine Falsch-Positiv-Werte bzw. Falsch-Negativ-Werte zu erhalten. Das Erzielen von Null-Falsch-Positiven kann jedoch niemals durch einen statistischen Test garantiert werden. Es ist immer möglich, dass beobachtete Trends nicht repräsentativ für die zugrundeliegenden Konversionsraten sind. Zum Beispiel könnte man bei einem Test, um zu sehen, ob Kopf oder Zahl bei einem Münzwurf wahrscheinlicher waren, auch bei einer fairen Münze zufällig zehn Kopf auf zehn Würfe bekommen. Die statistische Bedeutung und die Teststärke tragen zur Quantifizierung der Falsch-Positiv- und Falsch-Negativ-Raten bei und ermöglichen es, diese für einen gegebenen Test auf einem vertretbaren Niveau zu halten.
 
 ### Statistische Bedeutung {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -119,7 +119,7 @@ Es ist wünschenswert, den höchstmöglichen Konfidenzwert zu verwenden, damit d
 
 ### Teststärke {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-Die Teststärke eines A/B-Tests ist die Wahrscheinlichkeit der Aufdeckung eines echten Unterschieds der Konversionsrate in einer bestimmten Größenordnung. Aufgrund der zufälligen (stochastischen) Natur von Konversionsereignissen ist es möglich, dass ein statistisch signifikanter Unterschied nicht - nur zufällig - beobachtet wird, obwohl es einen realen Unterschied in der Konversionsrate zwischen den beiden Angeboten gibt. Dieses Szenario wird als falsch negativ oder als Fehler vom Typ II bezeichnet.
+Die Teststärke eines A/B-Tests ist die Wahrscheinlichkeit der Aufdeckung eines echten Unterschieds der Konversionsrate in einer bestimmten Größenordnung. Es ist möglich, dass ein statistisch signifikanter Unterschied - durch Zufall - nicht beobachtet wird, obwohl es aufgrund der zufälligen (stochastischen) Natur von Konversionsereignissen einen realen Unterschied in der Konversionsrate zwischen den beiden Angeboten gibt. Dieses Szenario wird als falsch negativ oder als Fehler vom Typ II bezeichnet.
 
 Die Teststärke wird oft ignoriert, weil ihre Ermittlung im Gegensatz zur statistischen Bedeutung für die Durchführung eines A/B-Tests nicht erforderlich ist. Wird die statistische Aussagekraft jedoch außer Acht gelassen, besteht eine beträchtliche Wahrscheinlichkeit, dass echte Unterschiede zwischen den Konversionsraten verschiedener Angebote vom Test nicht erkannt werden, da die Stichprobengröße zu klein ist. Dies führt dazu, dass die Tests von falsch positiven Ergebnissen dominiert werden.
 
@@ -139,7 +139,7 @@ Die unten stehende Abbildung veranschaulicht diese Wahrscheinlichkeitsverteilung
 
 ![Wahrscheinlichkeitsverteilungen der beobachteten Konversionsraten der Angebote A und B mit jeweils 100 Besuchern: Die Kurven überschneiden sich stark](assets/probability_distributions.png)
 
-Aufgrund der großen Überlappung dieser beiden Bandbreiten kann der Test nicht ermitteln, ob die Konversionsraten voneinander abweichen. Aus diesem Grund ermöglicht ein Test mit 100 Besuchern keine Unterscheidung zwischen den beiden Angeboten. Wenn [!DNL Target] die Angebote jedoch jeweils 5.000 Besuchern bereitstellt, besteht eine 95-prozentige Wahrscheinlichkeit, dass die beobachteten Konversionsraten in den Bereichen von 9 % bis 11 % bzw. 14 % bis 16 % sinken.
+Die beiden Bereiche überschneiden sich weitgehend, sodass mit dem Test nicht festgestellt werden kann, ob die Konversionsraten unterschiedlich sind. Aus diesem Grund ermöglicht ein Test mit 100 Besuchern keine Unterscheidung zwischen den beiden Angeboten. Wenn [!DNL Target] die Angebote jedoch jeweils 5.000 Besuchern bereitstellt, besteht eine 95-prozentige Wahrscheinlichkeit, dass die beobachteten Konversionsraten in den Bereichen von 9 % bis 11 % bzw. 14 % bis 16 % sinken.
 
 ![Wahrscheinlichkeitsverteilungen der beobachteten Konversionsraten der Angebote A und B mit jeweils 5.000 Besuchern: Die Kurven überschneiden sich nicht](assets/probability_distributions2.png)
 

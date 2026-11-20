@@ -2,7 +2,7 @@
 keywords: Recommendations; Einstellungen; Voreinstellungen; vertikaler Markt; Filtern inkompatibler Kriterien; Standard-Hostgruppe; Thumb-Base-URL; Recommendations-API-Token
 description: Erfahren Sie, wie Sie Recommendations-Aktivitäten in Adobe Target implementieren.
 title: Wie implementiere ich Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 TQID: 'https://experienceleague.adobe.com/MyhZmCNB7xHmJ38T7EiQ1YplcxBNi-0f-iz-h6sEXK8'
@@ -20,15 +20,19 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: b31c0a47b82e0b96fa061075f1b8d388b6c0b567
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 21%
+source-wordcount: '134'
+ht-degree: 18%
 ---
-# Planen und Implementieren von [!DNL Recommendations]
+# Planen und Implementieren von [!DNL Recommendations] {#plan-implement}
 
-Bevor Sie mit der Verwendung von [!DNL Adobe Target Recommendations] beginnen, müssen Sie mehrere Schritte ausführen.
+>[!BEGINSHADEBOX]
 
-Das [Adobe Target-](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} enthält Informationen zur Implementierung von [!DNL Recommendations] auf Ihrer Site sowie zur Implementierung von [!DNL Target].
+**Auf dieser Seite:** Erfahren Sie, wo Sie die Anweisungen zum Planen und Implementieren von [!DNL Adobe Target Recommendations] auf Ihrer Site finden.
 
-Weitere Informationen und schrittweise Anweisungen finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} im *Adobe Target-*.
+>[!ENDSHADEBOX]
+
+Bevor Sie mit der Verwendung von [!DNL Adobe Target Recommendations] beginnen, müssen Sie mehrere Schritte auf Ihrer Site ausführen. Im [Adobe Target-Entwicklerhandbuch](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=de){target=_blank} wird beschrieben, wie Sie [!DNL Recommendations] auf Ihrer Site implementieren und wie Sie [!DNL Target] implementieren.
+
+Weitere Informationen und schrittweise Anweisungen finden Sie unter [Planen und Implementieren von Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} im *Adobe Target-*.

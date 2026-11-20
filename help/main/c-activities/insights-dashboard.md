@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ Verwenden Sie diese Metriken, um zu verstehen, wie oft A/B-Tests verwendet werde
 
 ![](assets/insights-7.png){align="center"}
 
-Das Diagramm **[!UICONTROL Aktivitäten im Zeitverlauf]** erfasst die Anzahl der über den ausgewählten Zeitraum erstellten, geänderten und veröffentlichten Aktivitäten, sodass Sie Trends, Spitzen oder ruhige Zeiträume in Ihrem Experimentierprogramm leicht erkennen können.
+Das Diagramm **[!UICONTROL Aktivitäten im Zeitverlauf]** verfolgt die Anzahl der Aktivitäten, die über den ausgewählten Zeitraum erstellt, geändert und veröffentlicht wurden, sodass Sie Trends, Spitzen oder ruhige Zeiträume in Ihrem Experimentierprogramm identifizieren können.
 

@@ -1,6 +1,6 @@
 ---
 keywords: Automatisierte Traffic-Zuordnung;Zielgruppenbestimmung;Gewinner;statistische Garantie;Konfidenz;Gewinner bestimmen;Steigerung;Konfidenz;Standard;Standarderlebnis;Automatische Zuordnung;Automatische Zuordnung
-description: Erfahren Sie, wie die Ergebnisse [!UICONTROL &#x200B; A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
+description: Erfahren Sie, wie die Ergebnisse [!UICONTROL  A/B]Aktivitäten mit automatisierter Zuordnung interpretiert werden, wobei der Schwerpunkt auf Schlüsselindikatoren wie Steigerung und Konfidenz liegt.
 title: Wie interpretiere ich [!UICONTROL automatische Zuordnung] Berichte?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 174d4631b6f4a481c039bd7fff52a8e70161e19e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 3%

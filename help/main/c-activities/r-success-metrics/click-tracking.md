@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4dc3c1d5a5a7fa1eb16855e91eb516240df8a65c
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 50%
@@ -98,7 +98,7 @@ Wenn Sie den DOM-Pfad zum Selektor bereits kennen, können Sie ihn manuell hinzu
 
   Weitere Informationen finden Sie unter [Navigate elements using the DOM path (In Elementen über den DOM-Pfad navigieren)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer–Optionen*.
 
-* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen &#x200B;](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) und dafür [!DNL at.js] implementiert werden.
+* Sie können eine andere Seite aufrufen, um Klicks auf einer Seite zu verfolgen, auf der Sie möglicherweise keine Inhalte ändern. Diese andere Seite muss mithilfe der [Mehrseiten-Funktion“ in die Aktivität aufgenommen ](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) und dafür [!DNL at.js] implementiert werden.
 * Achten Sie darauf, die Ebene des Elements auszuwählen, die Sie verfolgen möchten. Wenn Sie zum Beispiel eine Schaltfläche angeben möchten, achten Sie darauf, den Link und nicht den Schaltflächentext auszuwählen.
 * Wenn Sie mehr als ein Element auswählen und ein Teilnehmer auf eines der ausgewählten Elemente klickt, wird der Klick gezählt. Sie können die Elemente getrennt zählen, indem Sie jeweils einzelne Erfolgsmetriken für sie festlegen. Wenn nur ein einzelnes Element gezählt werden soll, obwohl auf mehrere Elemente der Seite geklickt wird, müssen Sie dem CSS-Element-Selektor mehrere Elemente zuordnen.
 * Bei **[!UICONTROL Automated Personalization]** (AP)- und Auto-Targeting-Aktivitäten in Single Page Applications (SPAs) können Sie Elemente für das Klick-Tracking auswählen, die zu einer bestimmten [!DNL Target] gehören. Weitere Informationen zu Ansichten finden Sie unter [Adobe Target-Ansichten und Einzelseitenanwendungen](/help/main/c-experiences/spa-visual-experience-composer.md).
@@ -150,4 +150,4 @@ In diesem Video sind Informationen zur Erstellung von Klick-Tracking-Erfolgsmetr
 * Verstehen und Erstellen **[!UICONTROL Metriken]** Konversion **[!UICONTROL Umsatz]** und **[!UICONTROL Interaktion]**
 * Erstellen einer Metrik mit Klick-Tracking
 
->[!VIDEO](https://video.tv.adobe.com/v/3507822?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)

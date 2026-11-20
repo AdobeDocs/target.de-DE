@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Erstellen einer A/B-Test -Aktivität {#create-ab-activity}
@@ -75,7 +75,7 @@ Erstellen Sie die Aktivität und entwerfen Sie dann die alternativen Erlebnisse,
    >
    >Informationen zur Fehlerbehebung bei VEC finden Sie unter [Fehlerbehebung beim Visual Experience Composer](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) &#x200B;](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Bedingt) Wenn Sie [Target Premium-Kunde sind](/help/main/c-intro/intro.md#premium) wählen Sie aus der Dropdown-Liste **[!UICONTROL Workspace auswählen]** einen ([) ](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Geben **[!UICONTROL im Feld]**-URL eingeben Ihre [Aktivitäts-URL](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) an.
 
@@ -121,11 +121,11 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
    Daraufhin wird der rechte Rahmen angezeigt, über den Sie eine Zielgruppe hinzufügen oder löschen und den Prozentsatz der Besuchenden für die Aktivität zuweisen können.
 
    1. Um die Audience zu ändern, klicken Sie auf **[!UICONTROL Ersetzen]**-Symbol ( ![Ersetzen-Symbol](/help/main/assets/icons/Retweet.svg) ) im rechten Rahmen.
-   1. Wählen Sie **[!UICONTROL Dialogfeld]** Zielgruppe hinzufügen[&#x200B; die gewünschte Zielgruppe aus &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
+   1. Wählen Sie **[!UICONTROL Dialogfeld]** Zielgruppe hinzufügen[ die gewünschte Zielgruppe aus ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) klicken Sie dann auf **[!UICONTROL Zielgruppe zuweisen]**.
 
       Um eine Zielgruppe zu erstellen, die mehrere Zielgruppen kombiniert, klicken Sie auf **[!UICONTROL Zielgruppen kombinieren]**. Weitere Informationen finden Sie unter [Kombinieren mehrerer Zielgruppen](/help/main/c-target/combining-multiple-audiences.md).
 
-      Um eine neue Zielgruppe zu erstellen, die sich noch nicht in der **[!UICONTROL Zielgruppenbibliothek]** befindet, klicken Sie auf **[!UICONTROL Zielgruppe erstellen]**. Wählen Sie [&#x200B; Workflow „Zielgruppe erstellen](/help/main/c-target/c-audiences/audiences.md) eine der folgenden Optionen:
+      Um eine neue Zielgruppe zu erstellen, die sich noch nicht in der **[!UICONTROL Zielgruppenbibliothek]** befindet, klicken Sie auf **[!UICONTROL Zielgruppe erstellen]**. Wählen Sie [ Workflow „Zielgruppe erstellen](/help/main/c-target/c-audiences/audiences.md) eine der folgenden Optionen:
 
       * **[!UICONTROL Zielgruppenbibliothek]**: Erstellen Sie eine On-Demand-Zielgruppe, die in der **[!UICONTROL Zielgruppenbibliothek]** gespeichert und in anderen Aktivitäten wiederverwendet werden kann.
       * **[!UICONTROL Nur diese Aktivität]**: Erstellen Sie eine [aktivitätsspezifische Zielgruppe](/help/main/c-target/creating-activity-only-audience.md) die nicht in der **[!UICONTROL Zielgruppenbibliothek]** gespeichert wird und nur in der aktuellen Aktivität verwendet werden kann.
@@ -134,7 +134,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
 
    +++
 
-1. Klicken Sie auf **[!UICONTROL Traffic-]**) und wählen Sie dann im rechten Bereich eine Traffic-Zuordnungsmethode aus. Siehe [Traffic-Zuordnungsmethoden](#traffic-allocation-methods).
+1. Klicken Sie auf **[!UICONTROL Traffic-]**) und wählen Sie dann im rechten Bereich eine Traffic-Zuordnungsmethode aus. Die verfügbaren Methoden sind in der folgenden Tabelle aufgeführt.
 
    ![Einstellungen der Traffic-Zuordnungsmethode](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
    | Methode | Funktion |
    |---|---|
    | **[!UICONTROL Manuell (Standard)]** | Geben Sie den Prozentsatz der Eintritte an, die für jedes Erlebnis angezeigt werden sollen. Sie können den Prozentsatz gleichmäßig auf alle Erlebnisse aufteilen oder für jedes Erlebnis einen höheren oder niedrigeren Prozentsatz festlegen. Die gesamte Anzahl aller Erlebnisse muss 100 % betragen. |
-   | **[!UICONTROL Automatische Zuordnung zu bestem Erlebnis]** | Die meisten Aktivitätsteilnehmer werden automatisch zu Erlebnissen mit höherer Leistung weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Weitere Informationen finden Sie unter [**[!UICONTROL Automatische Zuordnung &#x200B;]**- Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
+   | **[!UICONTROL Automatische Zuordnung zu bestem Erlebnis]** | Die meisten Aktivitätsteilnehmer werden automatisch zu Erlebnissen mit höherer Leistung weitergeleitet. Einige Besucher werden allen Erlebnissen zugeordnet, um die Erforschung von Erlebnissen beizubehalten und Änderungen an Leistungstrends zu erkennen. Weitere Informationen finden Sie unter [**[!UICONTROL Automatische Zuordnung ]**- Übersicht](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Automatisches Targeting für personalisierte Erlebnisse]** | [!DNL Target] nutzt fortschrittliche Machine Learning-Algorithmen zur Personalisierung von Inhalten und Förderung von Konversionen, indem mehrere leistungsstarke, von Marketingexperten definierte Erlebnisse identifiziert werden. Anschließend wird Besuchern auf der Grundlage ihrer individuellen Kundenprofile und des bisherigen Verhaltens ähnlicher Besucher das jeweils passendste Erlebnis bereitgestellt. Weitere Informationen finden Sie unter [Automatisches Targeting - Übersicht](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++
@@ -156,7 +156,7 @@ Das Flussdiagramm führt Sie durch die Zuweisung einer Zielgruppe und ihres Traf
 
 Auf der Seite **[!UICONTROL Ziele und Einstellungen]** geben Sie [!DNL Target] an, wie die Aktivität gemessen werden soll. Die verfügbaren Einstellungen hängen davon ab, ob Sie [!DNL Target] oder [Analytics als Berichtsquelle](/help/main/c-integrating-target-with-mac/a4t/a4t.md) verwenden.
 
-1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](#goals-settings-overview).
+1. Überprüfen Sie die Abschnitte der Seite und legen Sie fest, was Sie benötigen. Siehe [Was Sie auf der Seite Ziele und Einstellungen festgelegt haben](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Abschnitt | Was Sie festgelegt haben |
    |---|---|

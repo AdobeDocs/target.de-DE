@@ -1,6 +1,6 @@
 ---
 keywords: Zielgruppe; Zielgruppenregeln; Kombinieren von Zielgruppen; Ausschluss; Ausschluss hinzufügen; Ausschließen; Kombinieren von Zielgruppen; Ad-hoc-Zielgruppe; Adhoc-Zielgruppe
-description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Experience Cloud-Zielgruppen und  [!DNL Target] -Zielgruppen) dynamisch kombinieren können, um Ad-hoc-Zielgruppen zu erstellen.
+description: Erfahren Sie, wie Sie mehrere Zielgruppen (einschließlich Adobe Experience Cloud-Zielgruppen und [!DNL Target] Zielgruppen) spontan kombinieren können, um Ad-hoc-Zielgruppen zu erstellen.
 title: Kann ich mehrere Zielgruppen kombinieren, um eine neue Zielgruppe zu erstellen?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
@@ -16,20 +16,18 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: '965'
 ht-degree: 58%
-
 ---
-
 # Kombinieren mehrerer Zielgruppen
 
 Kombinieren Sie mehrere Zielgruppen (einschließlich [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] und [!DNL Target] Zielgruppen) spontan, um Ad-hoc-Zielgruppen zu erstellen. Sie können auch Ausschlussregeln erstellen und darüber Zielgruppen ausschließen.
 
 >[!NOTE]
 >
->Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=de){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
+>Die [!DNL Adobe Experience Platform] steht allen Kundinnen und Kunden zur Verfügung, [!DNL Target] die [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} verwenden. Zielgruppen, die im [!DNL Adobe Experience Platform] verfügbar sind, können unverändert verwendet oder mit bestehenden Zielgruppen kombiniert werden, wie in diesem Thema erläutert.
 >
 >Weitere Informationen finden Sie unter [Verwenden von Zielgruppen aus Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -45,13 +43,13 @@ Sie können kombinierte Zielgruppen an verschiedenen Stellen der [!DNL Target]-O
 
 Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad-hoc-Zielgruppe erstellen, während Sie durch den dreistufigen Prozess geleitet werden.
 
-1. Klicken Sie beim Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Targeting]** auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
+1. Klicken Sie beim Erstellen [Aktivität](/help/main/c-activities/activities.md) auf der Seite **[!UICONTROL Targeting]** auf die drei vertikalen Ellipsen und dann auf **[!UICONTROL Zielgruppe ersetzen]**.
 
    ![Schrittergebnis](assets/edit_audience.png)
 
 1. Aktivieren Sie auf der Seite **[!UICONTROL Zielgruppe auswählen]** diejenigen Kontrollkästchen neben den gewünschten Zielgruppen, die als Teil der kombinierten Zielgruppe dienen sollen.
 
-   Schränken Sie [!UICONTROL &#x200B; Suche &#x200B;] die gewünschte Zielgruppe ein.
+   Schränken Sie [!UICONTROL  Suche ] die gewünschte Zielgruppe ein.
 
    ![Schrittergebnis](assets/combine_multiple_audiences1.png)
 
@@ -95,7 +93,7 @@ Sie können auf der [!UICONTROL Target]-Seite der Aktivität eine kombinierte Ad
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verwenden möchten, auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen. So erstellen Sie beispielsweise ein Targeting basierend auf Konversionen mithilfe einer kombinierten Zielgruppe:
 
-1. Wählen Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele und Einstellungen]** für die Erfolgsmetrik **[!UICONTROL Konversion]** aus und wählen Sie dann **[!UICONTROL Eine Mbox anzeigen]** als Aktion aus.
+1. Wählen Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md) auf der Seite **[!UICONTROL Ziele und Einstellungen]** für die Erfolgsmetrik **[!UICONTROL Konversion]** aus und wählen Sie dann **[!UICONTROL Eine Mbox anzeigen]** als Aktion aus.
 1. Wählen Sie die gewünschte Mbox aus dem Feld **[!UICONTROL Mbox suchen]** aus.
 
    ![COMBINDE_MULTIPLE_AUDIENCES4 Bild](assets/combine_multiple_audiences4.png)
@@ -111,7 +109,7 @@ Sie können eine kombinierte Ad-hoc-Zielgruppe, die Sie im Metrik-Targeting verw
 
 Sie können eine kombinierte Ad-hoc-Zielgruppe auch auf der Seite [!UICONTROL Ziele und Einstellungen] der Aktivität erstellen, um sie für Berichterstellungen zu nutzen.
 
-1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) auf der Seite **[!UICONTROL Ziele und Einstellungen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** unter [!UICONTROL Zielgruppen für die Berichterstellung], um die Seite [!UICONTROL Zielgruppe auswählen] anzuzeigen.
+1. Klicken Sie beim Bearbeiten oder Erstellen [Aktivität](/help/main/c-activities/activities.md) auf der Seite **[!UICONTROL Ziele und Einstellungen]** auf das Symbol **[!UICONTROL Zielgruppe hinzufügen]** unter [!UICONTROL Zielgruppen für die Berichterstellung], um die Seite [!UICONTROL Zielgruppe auswählen] anzuzeigen.
 
    ![COMBINDE_MULTIPLE_AUDIENCES6 Bild](assets/combine_multiple_audiences6.png)
 

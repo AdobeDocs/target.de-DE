@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 22%
@@ -50,7 +50,7 @@ Wenn Ihr Unternehmen ausschließlich VEC verwendet, können Inhalte aus mehreren
    {{visitor-matching}}
 
 1. Inhalte für alle Aktivitäten und Erlebnisse, mit denen der Besucher übereinstimmt, werden an die Seite zurückgegeben, sodass Inhalte aus mehreren Aktivitäten für denselben Aufruf bereitgestellt werden können.
-1. [!DNL Target] vergleicht die [CSS-Selektoren](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) auf die der Inhalt jeder Aktivität verweist. Wenn die Aktivitäten auf verschiedene Selektoren verweisen, werden alle Inhalte angezeigt.
+1. [!DNL Target] vergleicht die [CSS-Selektoren](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) auf die der Inhalt jeder Aktivität verweist. Wenn die Aktivitäten auf verschiedene Selektoren verweisen, werden alle Inhalte angezeigt.
 1. Wenn sich ein Selektor überschneidet oder dupliziert wird, wird der Inhalt der Aktivität mit der höchsten Priorität angezeigt.
 
    >[!IMPORTANT]
@@ -126,4 +126,4 @@ In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
 * Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
 * Eingeben von Notizen zu Aktivitäten
 
->[!VIDEO](https://video.tv.adobe.com/v/3507950?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -2,7 +2,7 @@
 keywords: Zufällige Gesamtstruktur;Entscheidungsbaum;AP;Automated Personalization
 description: Erfahren Sie, wie [!DNL Adobe Target] den Algorithmus der zufälligen Gesamtstruktur sowohl in [!UICONTROL Automated Personalization] (AP)- als [!UICONTROL Automatisches Targeting]-Aktivitäten verwendet.
 title: Wie verwendet [!DNL Target] den Algorithmus der zufälligen Gesamtstruktur?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Random-Forest-Algorithmus {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ Der Baum stellt die Frage: „Was ist die vorhersagendste Variable?“ führt er
 
 ## Wie werden Entscheidungsbäume von Random Forest verwendet? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Entscheidungsbäume können ein effektives statistisches Werkzeug sein. Sie haben jedoch einige Nachteile. Am wichtigsten ist, dass sie die Daten „übermäßig anpassen“ können, sodass ein einzelner Baum zukünftige Daten, die nicht zum Aufbau des ursprünglichen Baums verwendet wurden, nur schlecht vorhersagt. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt.
+Entscheidungsbäume sind ein nützliches statistisches Tool. Sie haben jedoch einige Nachteile. Am wichtigsten ist, dass sie die Daten „übermäßig anpassen“ können, sodass ein einzelner Baum zukünftige Daten, die nicht zum Aufbau des ursprünglichen Baums verwendet wurden, nur schlecht vorhersagt. Dieses Problem ist in der Statistik als [Verzerrung-Varianz-Dilemma](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) bekannt.
 
 Zufällige Wälder helfen, diese Herausforderung zu überwinden. Ein zufälliger Wald ist eine Sammlung von Hunderten von Entscheidungsbäumen, die auf demselben Datensatz etwas anders aufgebaut sind und die zusammen „abstimmen“, um ein besseres Modell als ein einzelner Baum zu erhalten. Die Bäume werden erstellt, indem eine Untergruppe von Besuchsdatensätzen per Zufallsauswahl mit Ersetzung (auch als Absacken bezeichnet) ausgewählt und eine Untergruppe der Attribute zufällig ausgewählt wird, sodass die Gesamtstruktur aus etwas anderen Entscheidungsbäumen besteht. Diese Methode führt kleine Variationen in die Bäume ein. Durch Hinzufügen dieser kontrollierten Varianz kann die prädiktive Genauigkeit des Algorithmus verbessert werden.
 
