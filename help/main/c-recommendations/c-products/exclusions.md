@@ -19,48 +19,65 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 13%
+source-wordcount: '496'
+ht-degree: 6%
 ---
-# Ausnahmen
+# Ausnahmen {#exclusions}
 
-Erstellen Sie einen Ausschluss in [!DNL Adobe Target Recommendations] , um zu verhindern, dass Produkte oder Inhalte für Besuchende empfohlen werden. Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten.
+>[!BEGINSHADEBOX]
 
-Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, bei denen Sie beim Erstellen einer [!UICONTROL Recommendations“-] für jedes Erlebnis eine bestimmte Sammlung angeben, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto. Es gibt keine Möglichkeit, während der Erstellung einer Aktivität eine Ausschlussgruppe zuzuweisen.
+**Auf dieser Seite:** Erfahren Sie, wie Sie Ausschlüsse in erstellen und verwalten können, [!DNL Adobe Target Recommendations] zu verhindern, dass Produkte oder Inhalte Besuchern empfohlen werden.
 
-Beispiele für Fälle, in denen Sie Ausschlüsse verwenden würden:
+>[!ENDSHADEBOX]
+
+Ein Ausschluss ist eine Untergruppe von Produkten oder Inhalten, die Besuchern nicht empfohlen werden sollten. Ausschlüsse sind für das gesamte Konto verfügbar. Im Gegensatz zu Sammlungen, die bei der Erstellung einer [!DNL Recommendations] Aktivität für jedes Erlebnis ausgewählt werden, gelten Ausschlüsse für alle Aktivitäten im gesamten Konto, und bei der Erstellung einer Aktivität kann keine Ausschlussgruppe zugewiesen werden.
+
+Ausschlüsse werden normalerweise für Folgendes verwendet:
 
 * Produkte, die eingestellt wurden.
-* Der Herbst- und Winterkatalog ist jetzt der einzige Katalog, der online vorhanden sein sollte. Artikel aus dem Sommerkatalog können nicht mehr gekauft werden.
+* Elemente aus einem Katalog, der nicht mehr verfügbar ist. Wenn beispielsweise nur der Herbst- und der Winterkatalog online vorhanden sein sollen, können keine Artikel aus dem Sommerkatalog gekauft werden.
 * Elemente, die auf den meisten Seiten oder Bildschirmen nicht empfohlen werden können (Erwachsenenprodukte, NC-17-Filme usw.).
 * Produkte mit unvollständigen Metadatenfeldern (fehlende Miniaturansicht, Preis oder andere wichtige Metadaten).
-* Produkte, die nie empfohlen werden sollten (vielleicht gibt es im System eine SKU für etwas, aber es ist kein käuflicher Artikel. Oder es ist eine falsche SKU für das QA-Team, um einen Kauf zu simulieren, ohne tatsächlich etwas zu bestellen (usw.).
+* Produkte, die nie empfohlen werden sollten, z. B. eine SKU, die im System vorhanden ist, aber kein kaufbarer Artikel ist, oder eine gefälschte SKU, die das QA-Team verwendet, um einen Kauf zu simulieren, ohne etwas zu bestellen.
 
 >[!IMPORTANT]
 >
 >Ausschlussregeln werden global auf alle ([) &#x200B;](/help/main/administrating-target/environments.md).
 >
->Statische und dynamische Ausschlussregeln sind leistungsstarke Funktionen, die Ihnen beim Marketing helfen können. Ausführliche Informationen, Beispiele und Anwendungsszenarios finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+>Detaillierte Informationen, Beispiele und Anwendungsfallszenarien zu statischen und dynamischen Ausschlussregeln finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
 ## Einen Ausschluss erstellen
 
+Ausschlussregeln werden einmal definiert und gelten dann für jede [!DNL Recommendations] im Konto.
+
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Ausschlüsse]**, um die Liste der vorhandenen Ausschlüsse anzuzeigen.
 
-   Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht [!UICONTROL Ausschlüsse] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [&#x200B; Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
+   >[!NOTE]
+   >
+   >Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht **[!UICONTROL Ausschlüsse]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [&#x200B; Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/de/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
 
-1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL Filter anzeigen]** (Symbol ![Filter anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Umgebung]** beim Erstellen (oder Aktualisieren) eines Ausschlusses aus, um eine Vorschau des Ausschlussinhalts in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+
+1. Klicken Sie auf **[!UICONTROL Filter anzeigen]**-Symbol ( ![Filtersymbol anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Umgebung]**, um eine Vorschau des Ausschlussinhalts in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+
+   ![Seite „Ausschlüsse“, auf der das Bedienfeld „Filter“ geöffnet ist und die Liste „Umgebung“ angezeigt wird](../assets/exclusions_2.png)
 
 1. Klicken Sie **[!UICONTROL Ausschluss erstellen]**.
 
-1. Geben Sie einen Ausschluss **[!UICONTROL Name]** ein und geben Sie eine optionale Beschreibung ein.
+   ![Ausschlussseite mit der Schaltfläche „Ausschluss erstellen“](../assets/exclusions_1.png)
 
-1. Verwenden Sie den Rule Builder, um Ihre Ausnahmen zu erstellen.
+1. Geben Sie einen Ausschluss (**[!UICONTROL )]**. Sie können auch eine optionale Beschreibung eingeben.
 
-   Wählen Sie einen Parameter in der Liste [!UICONTROL Regeln] aus, wählen Sie einen Benutzer aus und geben Sie dann einen oder mehrere Werte ein, um die Produkte zu identifizieren. Trennen Sie mehrere Werte durch Kommas.
+1. Verwenden Sie den Regel-Builder, um den Ausschluss zu definieren.
+
+   Wählen Sie einen Parameter in der Liste **[!UICONTROL Regeln]** aus, wählen Sie einen Benutzer aus und geben Sie dann einen oder mehrere Werte ein, um die Produkte zu identifizieren. Trennen Sie mehrere Werte durch Kommas.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
+
+1. Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben dem gewünschten Ausschluss in der Liste und dann auf die entsprechende Option: **[!UICONTROL Bearbeiten]**, **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
+
+   ![Ausschlussliste mit geöffnetem Menü „Mehr Aktionen“ mit den Optionen Bearbeiten, Kopieren und Löschen](../assets/exclusions_3.png)
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -76,13 +93,6 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
 -->
 
-## Bearbeiten, Kopieren oder Löschen eines Ausschlusses
-
-Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben dem gewünschten Ausschluss in der Liste und dann auf das entsprechende Symbol: [!UICONTROL Bearbeiten], [!UICONTROL Kopieren] oder [!UICONTROL Löschen].
-
-Sie können einen vorhandenen Ausschluss kopieren, um einen doppelten Ausschluss zu erstellen, den Sie dann ändern können. Mit dieser Option können Sie mit weniger Aufwand einen ähnlichen Ausschluss erstellen.
-
-Beachten Sie, dass Ausschlüsse für das gesamte Konto verfügbar sind. Beachten Sie diesen Vorbehalt, bevor Sie einen Ausschluss löschen. Gelöschte Ausschlüsse können nicht wiederhergestellt werden.
 
 ## Schulungsvideo: Erstellen von Sammlungen und Ausschlüssen in Recommendations (7:05) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 

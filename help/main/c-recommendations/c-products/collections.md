@@ -18,60 +18,61 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 27%
+source-wordcount: '710'
+ht-degree: 8%
 ---
-# Sammlungen
+# Sammlungen {#collections}
 
-Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen. Eine Auflistung wird definiert, indem die Bedingungen angegeben werden, die von Elementen erfüllt werden müssen, damit sie Teil der Auflistung sind.
+>[!BEGINSHADEBOX]
 
-Im Allgemeinen ist eine Sammlung ein Satz von ähnlichen oder verwandten Artikeln, wie zum Beispiel eine Sammlung eines einzigen Produkts. Sie können jedoch beliebige Artikel in einer Kategorie gruppieren, die für Ihr Unternehmen sinnvoll ist, wie z. B. Produkte in einer bestimmten Preisklasse oder Farbe oder Artikel, die in einem bestimmten geografischen Gebiet interessant sein könnten.
+**Auf dieser Seite** Erfahren Sie, wie Sie Sammlungen von Elementen in [!DNL Adobe Target Recommendations] erstellen, verwalten und verwenden.
 
-Verwenden Sie Sammlungen, um Ihre Produkte in logischen Behältern zu organisieren. Wenn beispielsweise einige Elemente in einer Region, aber nicht in einer anderen Region verfügbar sind, können Sie eine Sammlung erstellen, die Elemente ausschließt, die in der Region des Besuchers nicht verfügbar sind. Sie können Sammlungen auch verwenden, um Saisonartikel oder beliebige andere organisatorische Parameter, die für Ihr Geschäft relevant sind, zu organisieren.
+>[!ENDSHADEBOX]
 
-[Sicherungsempfehlungen](/help/main/c-recommendations/c-algorithms/backup-recs.md), die für jedes Kriterium in der Empfehlung generiert werden, verwenden ebenfalls diese Sammlung, sodass nur Elemente in der Sammlung in die Sicherungsempfehlung aufgenommen werden. Mit Sammlungen können Sie sicherstellen, dass nur Produkte an einem Ort angezeigt werden, für die dies Sinn macht.
+Eine Sammlung ist ein Satz von Produkten oder Artikeln, die für die Empfehlung infrage kommen. Eine Sammlung wird durch die Bedingungen definiert, die Elemente erfüllen müssen, um Teil derselben zu sein. Artikel können in jeder für das Unternehmen sinnvollen Weise gruppiert werden, wie z. B. ähnliche oder verwandte Artikel, Produkte in einer bestimmten Preisspanne oder Farbe oder Artikel, die in einem bestimmten geografischen Gebiet wahrscheinlich interessant sind.
 
-Sammlungen werden stets neu erstellt oder aktualisiert, wenn die einzelnen Kriterien ausgeführt werden.
+Sammlungen organisieren Produkte in logischen Buckets. Wenn beispielsweise einige Elemente in einer Region, aber nicht in einer anderen Region verfügbar sind, kann eine Sammlung die Elemente ausschließen, die in der Region des Besuchers nicht verfügbar sind. Sammlungen können auch saisonale Artikel oder andere organisatorische Parameter organisieren, die für das Unternehmen gelten. Elemente können in Katalogen gruppiert werden, und dann können für jede Sammlung separate Empfehlungen erstellt werden.
 
-Sie können Ihre Artikel in Katalogen gruppieren und dann separate Empfehlungen für jede Sammlung erstellen.
+Die folgenden Punkte beschreiben, wie Sammlungen mit dem Rest von [!DNL Recommendations] interagieren:
 
-Inklusionskriterien ermöglichen Ihnen etwas Ähnliches wie eine Sammlung, sie müssen jedoch jedes Mal eingerichtet werden, wenn Sie eine Aktivität erstellen. Mit Sammlungen können Sie einen Satz von Elementen einmal erstellen und dann immer verwenden, wenn dies sinnvoll ist, ohne ihn erneut einrichten zu müssen.
+* [Sicherungsempfehlungen](/help/main/c-recommendations/c-algorithms/backup-recs.md), die für jedes Kriterium generiert werden, verwenden auch die Sammlung, sodass nur Elemente in der Sammlung in die Sicherungsempfehlung aufgenommen werden. Daher werden nur Produkte angezeigt, die für einen Standort sinnvoll sind.
+* Sammlungen werden stets neu erstellt oder aktualisiert, wenn die einzelnen Kriterien ausgeführt werden.
+* Sammlungsregeln gelten für Empfehlungselemente, die nach der Ausführung der Kriterien generiert werden. Sie wirken sich nur auf Entitätsempfehlungen (Entity Recommendations, ERs) in der Ausgabe aus, nicht auf den Schlüssel.
+* Sammlungen werden nicht angewendet, wenn der Empfehlungsschlüssel **[!UICONTROL Kürzlich angezeigte Elemente]** verwendet wird.
+* Einschlusskriterien können ähnliche Ergebnisse erzielen, müssen jedoch jedes Mal eingerichtet werden, wenn eine Aktivität erstellt wird. Eine Sammlung wird einmal erstellt und kann dann wiederverwendet werden, ohne erneut eingerichtet zu werden.
+* Wenn eine [!DNL Recommendations] erstellt oder bearbeitet wird, wird der Sammlungsname neben der Beschriftung **[!UICONTROL Kriterien]** im Aktivitätsdiagramm angezeigt.
 
-Beim Erstellen oder Bearbeiten einer [!DNL Recommendations] Aktivität wird der Sammlungsname neben der Beschriftung [!UICONTROL Kriterien] im Aktivitätsdiagramm angezeigt.
+## Eine Sammlung erstellen {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
->[!NOTE]
->
->* Sammlungsregeln gelten für Empfehlungselemente, die nach der Ausführung der Kriterien generiert werden. Sie wirken sich nur auf Entitätsempfehlungen (Entity Recommendations, ERs) in der Ausgabe aus, nicht auf den Schlüssel.
->
->* Sammlungen werden nicht angewendet, wenn der Empfehlungsschlüssel [!UICONTROL Kürzlich angezeigte Elemente] verwendet wird.
-
-## Sammlung erstellen {#task_1256DFF6842141FCAADD9E1428EF7F08}
-
-Erstellen Sie eine Sammlung, um die Produkte oder Inhalte zu organisieren, die Sie in Ihren Empfehlungen anzeigen möchten.
+Sammlungen sind im gesamten Konto verfügbar, sodass eine einmal erstellte Sammlung in jeder [!DNL Recommendations] ausgewählt werden kann. Die Regeln werden in der Sammlung definiert, sodass sie nicht für jede Aktivität neu eingerichtet werden müssen.
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Sammlungen]**, um die Liste der vorhandenen Sammlungen anzuzeigen.
 
-   Auf [!UICONTROL &#x200B; Seite &#x200B;]Sammlungen“ wird eine Liste Ihrer vorhandenen Sammlungen angezeigt. Sie erstellen neue Sammlungen, indem Sie auf die Schaltfläche [!UICONTROL Sammlung erstellen] klicken. Sie können auch vorhandene Sammlungen bearbeiten, kopieren und löschen, indem Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung und dann auf die gewünschte Option klicken.
+   Um eine vorhandene Sammlung zu bearbeiten, zu kopieren oder zu löschen, klicken Sie auf das Symbol Mehr Aktionen ( ![Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der Sammlung und klicken Sie dann auf die gewünschte Option.
 
-   Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht [!UICONTROL Sammlungen] gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} zum Ändern der Standardhostgruppe.
+   >[!NOTE]
+   >
+   >Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht **[!UICONTROL Sammlungen]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Sammlung erstellen]**.
 
-1. Geben Sie einen **[!UICONTROL Namen]** für die Sammlung ein.
+   ![Sammlungsseite mit der Schaltfläche Sammlung erstellen](../assets/collection_1.png)
 
-   Sie können je nach Wunsch auch eine **[!UICONTROL Beschreibung]** eingeben.
+1. Geben Sie einen **[!UICONTROL Namen]** für die Sammlung ein. Eine optionale **[!UICONTROL Beschreibung]** kann ebenfalls eingegeben werden.
 
-1. (Bedingt) Wählen Sie beim Erstellen (oder Aktualisieren[&#x200B; einer Sammlung &#x200B;](/help/main/administrating-target/environments.md) Filter **[!UICONTROL Umgebung]** aus, um die Inhalte der Sammlung in dieser Umgebung in der Vorschau anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
+1. (Bedingt) Wählen Sie eine [Umgebung](/help/main/administrating-target/environments.md) aus dem Filter **[!UICONTROL Umgebung]** aus, um eine Vorschau des Inhalts der Sammlung in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.
 
 1. Legen Sie die Regeln fest, die für den Aufbau der Sammlung verwendet werden.
 
-   Ihre Sammlung kann beispielsweise auf einer Produkt-ID oder Kategorie, Marge oder einem anderen Parameter in der Liste basieren.
-
-   Sie können Regeln hinzufügen, um eine Sammlung durch mehrere Parameter zu definieren. Mehrere Regeln werden mit einem AND-Operator verbunden. Alle angegebenen Regeln müssen eingehalten werden, damit die Sammlung angewendet wird.
+   Eine Sammlung kann auf einer Produkt-ID oder Kategorie, einer Spanne oder einem anderen Parameter in der Liste aufbauen. Fügen Sie Regeln hinzu, um mehrere Parameter zum Definieren einer Sammlung zu verwenden. Mehrere Regeln werden mit einem AND-Operator verbunden, sodass alle angegebenen Regeln übereinstimmen müssen, damit die Sammlung angewendet wird.
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
+
+1. Nachdem die Sammlung erstellt wurde, klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) und wählen Sie die entsprechende Option aus: **[!UICONTROL Bearbeiten]**, **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
+
+   ![Sammlungsliste mit geöffnetem Menü „Mehr Aktionen“ mit den Optionen Bearbeiten, Kopieren und Löschen](../assets/collection_2.png)
 
 <!--
 ## Create a collection using [!UICONTROL Advanced Search]
@@ -87,20 +88,18 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## Bearbeiten, Kopieren oder Löschen einer Sammlung
+## Verwenden einer Sammlung in einer Aktivität
 
-Klicken Sie auf ![&#x200B; ( Symbol „Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) neben der gewünschten Sammlung in der Liste und dann auf das entsprechende Symbol: [!UICONTROL Bearbeiten], [!UICONTROL Kopieren] oder [!DNL Delete].
+Für jedes Erlebnis einer [!DNL Recommendations] wird eine Sammlung ausgewählt. Die Sammlung bestimmt, welche Elemente in den Empfehlungen dieses Erlebnisses angezeigt werden können.
 
-Sie können eine vorhandene Sammlung kopieren, um eine doppelte Sammlung zu erstellen, die Sie dann ändern können. Auf diese Weise können Sie mit weniger Aufwand eine ähnliche Sammlung erstellen.
+1. [Sammlung erstellen](#task_1256DFF6842141FCAADD9E1428EF7F08).
 
-Beachten Sie, dass Sammlungen im gesamten Konto verfügbar sind. Berücksichtigen Sie dies, bevor Sie eine Sammlung löschen. Gelöschte Sammlungen können nicht wiederhergestellt werden.
+   ![Erstellen eines Sammlungsbildschirms mit den Abschnitten Sammlungsdetails und Regeln](../assets/collection_3.png)
 
-## Verwenden einer Sammlung in einer [!DNL Recommendations] Aktivität
+1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [Erstellen einer neuen Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) oder bearbeiten Sie eine vorhandene Aktivität.
 
-1. Erstellen Sie eine Sammlung mit einer der oben genannten Methoden.
+   ![Seite „Alle Aktivitäten“ mit im Menü Aktivität erstellen ausgewählten Empfehlungen](../assets/collection_4.png)
 
-1. Klicken Sie auf **[!UICONTROL Aktivitäten]** und [eine neue Recommendations-Aktivität erstellen](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) oder eine vorhandene Aktivität bearbeiten.
+1. Wählen Sie nach Auswahl eines Kriteriums und eines Designs die gewünschte Sammlung auf der Seite **[!UICONTROL Optionen]** aus.
 
-1. Nachdem Sie ein Kriterium und einen Entwurf ausgewählt haben, wird [!UICONTROL &#x200B; Seite „Optionen] angezeigt, auf der Sie die gewünschte Sammlung auswählen können.
-
-1. (Bedingt) Um eine vorhandene Sammlungseinstellung zu ändern, klicken Sie auf der Seite **[!UICONTROL Erlebnisse]** (Schritt 1 des dreiteiligen geleiteten Workflows) auf einen Ort, an dem Sie Empfehlungen platziert haben, klicken Sie auf **[!UICONTROL Sammlung ändern]** und wählen Sie dann die gewünschte Sammlung aus.
+1. (Bedingt) Um die Sammlung einer vorhandenen Aktivität zu ändern, klicken Sie auf einen Recommendations-Speicherort auf den **[!UICONTROL Erlebnisse]**-Seiten, klicken Sie auf **[!UICONTROL Sammlung ändern]** und wählen Sie dann die gewünschte Sammlung aus.

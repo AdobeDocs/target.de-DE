@@ -1,7 +1,7 @@
 ---
 keywords: Erstellen benutzerdefinierter Kriterien;Algorithmen;Kriterien;Recommendations-Kriterien;CSV;FTP;SFTP;CSV hochladen
-description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations eine CSV-Datei hochladen, um Ihre Recommendations anzupassen.
-title: Wie lade ich benutzerdefinierte Kriterien in [!DNL Recommendations] hoch?
+description: Erfahren Sie, wie Sie eine CSV-Datei hochladen, um Recommendations in Adobe [!DNL Target] Recommendations anzupassen.
+title: Hochladen benutzerdefinierter Kriterien
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
@@ -18,54 +18,52 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 24%
+source-wordcount: '671'
+ht-degree: 14%
 ---
-# Hochladen benutzerdefinierter Kriterien
+# Hochladen benutzerdefinierter Kriterien {#upload-custom-criteria}
 
-Laden Sie eine CSV-Datei hoch, um Ihre Empfehlungen in [!DNL Adobe Target] anzupassen.
+>[!BEGINSHADEBOX]
 
-Sie haben viele Möglichkeiten, um auf den Bildschirm [!UICONTROL Neue Kriterien erstellen] zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie Sie auf den Bildschirm gelangen.
+**Auf dieser Seite** Erfahren Sie, wie Sie eine CSV-Datei mit Empfehlungen hochladen, um benutzerdefinierte Kriterien in [!DNL Adobe Target Recommendations] zu erstellen.
 
-* Klicken Sie im Bildschirm **&#x200B;**&#x200B;> **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Kriterien, die Sie hier erstellen, stehen automatisch für alle [!DNL Recommendations]-Aktivitäten zur Verfügung.
-* Wenn Sie eine [!DNL Recommendations] mit dem [!UICONTROL Visual Experience Composer] (VEC) erstellen, gelangen Sie sofort zum Bildschirm [!UICONTROL Kriterien auswählen], nachdem Sie ein Element auf Ihrer Seite ausgewählt haben und auf [!UICONTROL Mit Empfehlungen ersetzen], [!UICONTROL Empfehlungen einfügen vor] oder [!UICONTROL Empfehlungen einfügen nach] klicken. Sie können dann ein verfügbares Kriterium auswählen oder auf **[!UICONTROL Kriterien erstellen]** klicken. Wenn Sie neue Kriterien erstellen, können Sie Ihre Kriterien zur Verwendung mit anderen [!DNL Recommendations] speichern. Weitere Informationen finden Sie unter [Erstellen einer Recommendations-Aktivität](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Wenn Sie eine [!DNL Recommendations] bearbeiten, klicken Sie in ein Feld [!UICONTROL Recommendations-Speicherort] auf Ihrer Seite und wählen Sie **[!UICONTROL Kriterien ändern]** aus. Klicken Sie im [!UICONTROL Kriterien auswählen] auf **[!UICONTROL Kriterien erstellen]**. Sie können Ihre neuen Kriterien zur Verwendung mit anderen [!DNL Recommendations] speichern.
+>[!ENDSHADEBOX]
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Methode auf [!UICONTROL &#x200B; Bildschirm „Neue Kriterien &#x200B;]&quot; zugreifen: der Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
+Benutzerdefinierte Kriterien verwenden eine CSV-Datei mit Empfehlungen, die in [!DNL Target] hochgeladen wird. Auf diese Weise können Empfehlungen, die außerhalb von [!DNL Target] berechnet wurden, in [!DNL Recommendations] Aktivitäten bereitgestellt werden. Weitere Informationen zur Funktionsweise benutzerdefinierter Kriterien finden Sie unter [Die Wissenschaft hinter den Empfehlungsalgorithmen von Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md).
+
+Benutzerdefinierte Kriterien werden auf dem Bildschirm **[!UICONTROL Neue Kriterien erstellen]** erstellt. Informationen zum Aufrufen dieses Bildschirms finden Sie unter [Zugriff auf den Bildschirm Neue Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#access-create-criteria). Die folgenden Schritte beginnen im Bildschirm **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** Bibliothek .
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
 1. Klicken Sie **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**.
 
+   ![Kriterienseite mit geöffnetem Menü „Kriterien erstellen“, das die Optionen „Kriterien erstellen“ und „Kriteriensequenz erstellen“ anzeigt](../assets/criteria_create_1.png)
+
 1. Füllen Sie die Informationen im Abschnitt [Basisinformationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
-1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Algorithmustyp auswählen“ **[!UICONTROL Benutzerdefinierte Kriterien]** aus.
+1. Wählen Sie in **[!UICONTROL Dropdown-Liste]** Algorithmustyp auswählen“ **[!UICONTROL Benutzerdefinierte Kriterien]** aus. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Algorithmus“ die Option **[!UICONTROL Benutzerdefinierter Algorithmus]** aus.
 
-1. Wählen Sie in **[!UICONTROL Dropdown]** Liste „Algorithmus“ die Option **[!UICONTROL Benutzerdefinierter Algorithmus]** aus.
+   ![Abschnitt Recommendations-Algorithmus mit benutzerdefinierten Kriterien als Algorithmustyp und benutzerdefiniertem Algorithmus als Algorithmus](../assets/criteria_create_9.png)
 
-   >[!NOTE]
-   >
-   >Durch die vorherigen Schritte wird [!UICONTROL &#x200B; Abschnitt &#x200B;]CSV hochladen“ unten im Dialogfeld [!UICONTROL Kriterien erstellen] angezeigt.
+1. (Bedingt) Füllen Sie die Informationen in den Abschnitten [Backup-](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) und [Einschlussregeln](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) aus.
 
-1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Sicherungsinhalt](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) aus.
+1. Wählen Sie im **[!UICONTROL CSV hochladen]** den **[!UICONTROL Speicherort]** der CSV-Datei aus.
 
-1. (Bedingt) Füllen Sie die Informationen im Abschnitt [Einschlussregeln](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) aus.
+   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Um eine korrekt formatierte CSV-Datei zu erhalten, klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen]**.
 
-1. Wählen Sie im **[!UICONTROL CSV hochladen]** den **[!UICONTROL Speicherort]** Ihrer CSV-Datei aus.
+   Die folgenden Speicherortoptionen sind verfügbar:
 
-   Die CSV-Datei muss korrekt formatiert sein, um erfolgreich hochgeladen werden zu können. Klicken Sie auf **[!UICONTROL CSV-Vorlage herunterladen]**, um eine Vorlage mit richtiger Formatierung zu erhalten.
+   * **FTP**: Um die CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. SSL kann verwendet werden, das das FTPS-Protokoll verwendet, um die CSV-Datei sicher zu übertragen.
 
-   Sie haben drei Standortoptionen:
+   * **SFTP**: Um die CSV-Datei von einem SFTP-Server hochzuladen, wählen Sie **[!UICONTROL SFTP]** aus und geben Sie dann den Host-Namen oder die IP-Adresse, den Port (standardmäßig 22), den Benutzernamen, ein Kennwort und/oder den privaten SSH-Schlüssel, das Verzeichnis und den Dateinamen ein. Weitere Informationen finden Sie unter [Unterstützte SFTP-Server-Einstellungen](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-   * **FTP:** Um Ihre CSV-Datei von einem FTP-Server hochzuladen, wählen Sie **[!UICONTROL FTP]** aus und geben Sie dann die erforderlichen Informationen ein. Sie können SSL verwenden, das das FTPS-Protokoll verwendet, um Ihre CSV-Datei sicher zu übertragen.
+     Das CSV-Format für benutzerdefinierte Kriterien wird durch SFTP nicht geändert. Verwenden Sie das `# Key,Recommendation_1,...`. Eine CSV-Datei im Format eines anderen Feed-Typs führt dazu, dass der Import fehlschlägt.
 
-   * **SFTP:** Um Ihre CSV-Datei von einem SFTP-Server hochzuladen, wählen Sie **[!UICONTROL SFTP]** aus und geben Sie dann den Host-Namen oder die IP-Adresse, den Port (standardmäßig 22), den Benutzernamen, ein Kennwort und/oder den privaten SSH-Schlüssel, das Verzeichnis und den Dateinamen ein. Weitere Informationen finden Sie unter [Unterstützte SFTP-Server-Einstellungen](/help/main/c-recommendations/c-products/feeds.md#steps).
+   * **URL**: Um die CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
 
-     Das CSV-Format für benutzerdefinierte Kriterien wird durch SFTP nicht geändert. Wenn Sie das `# Key,Recommendation_1,...` verwenden und das Format eines anderen Feed-Typs verwenden, schlägt der Import fehl.
-
-   * **URL:** Um Ihre CSV-Datei über eine URL hochzuladen, wählen Sie **[!UICONTROL URL]** aus und geben Sie dann eine Feed-URL ein.
+     ![Abschnitt „CSV hochladen“ mit hervorgehobenen Speicherortoptionen „FTP“, „SFTP“ und „URL“ und ausgewählter „SFTP“](../assets/criteria_create_10.png)
 
 1. Klicken Sie **[!UICONTROL Erstellen]**.
 
@@ -73,23 +71,23 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie mit der ersten Meth
 
 * Benutzerdefinierte Kriterienentitäten (Zeilen) können bis zu 1.000 empfohlene Elemente (Spalten) enthalten.
 
-* Benutzerspezifische Kriterienupdates sind standardmäßig kumulativ. Neue Schlüssel-Wert-Paare, die in der CSV-Uploaddatei angegeben werden, überschreiben bestehende Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, für die im CSV-Upload keine Schlüssel angegeben sind, sind weiterhin verfügbar und laufen in 31 Tagen ab dem Zeitpunkt ab, an dem sie zuletzt als Teil der CSV-Datei hochgeladen werden.
+* Aktualisierungen benutzerdefinierter Kriterien sind standardmäßig „kumulativ“. Neue Schlüssel-Wert-Paare in der CSV-Upload-Datei überschreiben vorhandene Schlüssel-Wert-Paare. Vorhandene Schlüssel-Wert-Paare, deren Schlüssel nicht im CSV-Upload enthalten sind, stehen weiterhin zur Bereitstellung zur Verfügung und laufen 31 Tage nach dem letzten Hochladen als Teil der CSV-Datei ab.
 
-  Wenden Sie sich an die Kundenunterstützung, damit die Einstellung die vorhandenen Ergebnisse verwirft, die nicht im nächsten CSV-Upload enthalten sind. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
+  Um vorhandene Ergebnisse zu verwerfen, die nicht im nächsten CSV-Upload enthalten sind, wenden Sie sich an die Kundenunterstützung, um die entsprechende Einstellung zu aktivieren. Wenn diese Einstellung aktiviert ist, sind nur die in der benutzerdefinierten CSV-Feed-Datei vorhandenen Schlüssel für die Bereitstellung verfügbar. Diese Einstellung gilt für alle benutzerspezifischen Kriterien.
 
 * Benutzerspezifische Kriterien-Feeds werden alle 24 Stunden aktualisiert.
 
-  Der Upload- und Synchronisierungsstatus der benutzerdefinierten Kriterien für die einzelnen Kriterien wird auf der Seite [!UICONTROL Recommendations] > [!UICONTROL Kriterien] angezeigt. Sie können den Status auch im Dialogfeld [!UICONTROL Bearbeiten] sehen, wenn Sie benutzerdefinierte Kriterien bearbeiten.
+  Der Upload- und Synchronisierungsstatus jedes benutzerdefinierten Kriterien-Uploads wird auf der Seite **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]** angezeigt. Der Status wird auch im Dialogfeld **[!UICONTROL Bearbeiten]** angezeigt, wenn benutzerdefinierte Kriterien bearbeitet werden.
 
-* Der Fluss für einen fehlerfreien Upload sollte [!UICONTROL Geplant] > [!UICONTROL Feed-Datei herunterladen] > [!UICONTROL Importieren] > [!UICONTROL Erfolgreich] sein.
+* Der Fluss für einen fehlerfreien Upload ist **[!UICONTROL Geplant]** > **[!UICONTROL Feed-Datei herunterladen]** > **[!UICONTROL Importieren]** > **[!UICONTROL Erfolgreich]**.
 
-* Die folgenden Fehlermeldungen können angezeigt werden, wenn [!DNL Target] beim Hochladen auf ein Problem stößt:
+* Wenn [!DNL Target] beim Hochladen auf ein Problem stößt, sind die folgenden Fehlermeldungen möglich:
 
   | Fehlermeldung | Details |
   |--- |--- |
   | Unbekannter Fehler | Zeigt einen internen technischen Fehler an. |
   | Parsing-Fehler | Es gibt wahrscheinlich ein Problem mit dem Feed-Dateiformat. Korrigieren Sie das Dateiformat und speichern Sie den Algorithmus erneut, wodurch der Datei-Download-Prozess neu gestartet wird. |
-  | Server nicht gefunden | Geben Sie einen IP- oder Hostnamen an, der im Internet sichtbar ist. |
+  | Server nicht gefunden | Geben Sie eine IP-Adresse oder einen Hostnamen an, die bzw. der im Internet sichtbar ist. |
   | Zugangsdatenfehler | Geben Sie einen gültigen Benutzernamen und ein gültiges Passwort für ein aktives Konto auf dem Server an. |
   | Verzeichnis nicht gefunden | Geben Sie ein Verzeichnis an, das auf dem Server existiert. |
-  | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis existiert. |
+  | Datei nicht gefunden | Geben Sie den Namen einer Datei an, die auf dem Server im angegebenen Verzeichnis vorhanden ist. |

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -79,7 +79,7 @@ Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unt
 Der [!DNL Recommendations]-Workflow wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. Wählen Sie ein vorkonfiguriertes [Design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) aus.
+1. Wählen Sie ein vorkonfiguriertes [Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) aus.
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
 ## Visuelle Vorschau {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

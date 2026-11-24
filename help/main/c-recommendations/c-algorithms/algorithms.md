@@ -24,58 +24,58 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 6%
 ---
-# Erste Schritte mit [!UICONTROL Kriterien]
+# Erste Schritte mit [!UICONTROL Kriterien] {#get-started-criteria}
 
-[!UICONTROL Kriterien] in [!DNL Adobe Target] [!DNL Recommendations] sind Regeln, die basierend auf einem vorab festgelegten Satz von Besucherverhalten bestimmen, welche Produkte oder Inhalte empfohlen werden sollen. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Sie können mehrere Empfehlungstypen untereinander testen, indem Sie mehrere Kriterien verwenden.
+>[!BEGINSHADEBOX]
 
-In den folgenden Abschnitten werden die Kriterienschlüssel und die Empfehlungslogik, die Sie für jeden Schlüssel verwenden können, ausführlicher erläutert. Klicken Sie auf die Links, um weitere Informationen zu erhalten.
+**Auf dieser Seite** Erfahren Sie, wie Kriterien in [!DNL Adobe Target Recommendations] funktionieren und welche vertikalen Optionen für Branchen, Algorithmustyp und Empfehlungsschlüssel verfügbar sind.
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL Kriterien]** in [!DNL Adobe Target] [!DNL Recommendations] sind Regeln, die basierend auf einem vorab festgelegten Satz von Besucherverhalten bestimmen, welche Produkte oder Inhalte empfohlen werden sollen. Die Kriterien können auf angesagten Trends, dem aktuellen und früheren Verhalten eines Besuchers oder auf ähnlichen Produkten und Inhalten basieren. Einer Aktivität können mehrere Kriterien hinzugefügt werden, um mehrere Empfehlungstypen gegeneinander zu testen.
+
+Die vertikalen Branchen und der ausgewählte Algorithmustyp bestimmen die Optionen, die bei der Erstellung von Kriterien verfügbar sind.
 
 ## Vertikaler Markt {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Beim Erstellen eines Kriteriums wählen Sie basierend auf den Zielen Ihrer Recommendations-Aktivität eine Branche aus.
+Wenn Kriterien erstellt werden, wird basierend auf den Zielen der Recommendations-Aktivität eine vertikale Branche ausgewählt.
 
 | Vertikaler Markt | Ziel |
 |--- |--- |
-| [!UICONTROL Retail/eCommerce] | Zum Kauf führende Konversion |
-| [!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen] | Konversion ohne Kauf |
-| [!UICONTROL Medien/Veröffentlichen] | Interaktion |
+| **[!UICONTROL Retail/eCommerce]** | Zum Kauf führende Konversion |
+| **[!UICONTROL Lead-Generierung/B2B/Finanzdienstleistungen]** | Konversion ohne Kauf |
+| **[!UICONTROL Medien/Veröffentlichen]** | Interaktion |
 
-Andere Kriterienoptionen ändern sich je nach ausgewählter Branchen-Vertikale. Sie können die Standardbranchenhöhe auf der Seite **[!UICONTROL Administration] > [!UICONTROL Recommendations]** festlegen oder für jedes Kriterium die Branchenhöhe angeben.
+Andere Kriterienoptionen ändern sich je nach ausgewählter Branche. Die standardmäßige Branchenvertikale kann auf der Seite **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]** festgelegt werden oder die Branchenvertikale kann für jedes Kriterium angegeben werden.
 
 ## Algorithmentyp {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen.
-
-In der folgenden Tabelle werden die verschiedenen Algorithmustypen und die zugehörigen Algorithmen erläutert.
+Der ausgewählte Algorithmustyp bestimmt die verfügbaren Algorithmen. In der folgenden Tabelle werden die Algorithmustypen und die zugehörigen Algorithmen erläutert.
 
 | Algorithmustyp | Verwendungszeitpunkt | Verfügbare Algorithmen |
 | --- | --- | --- |
-| [!UICONTROL Warenkorbbasiert] | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. | <ul><li>[!UICONTROL Personen, die diese angesehen haben, haben auch Folgendes angesehen]</li><li>[!UICONTROL Personen, die diese angesehen haben, kauften auch]</li><li>[!UICONTROL Personen, die diese gekauft haben, kauften auch]</li></ul>Weitere Informationen finden Sie unter [Warenkorbbasiert](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Stützen der Empfehlung auf einen Empfehlungsschlüssel*. |
-| [!UICONTROL Beliebtheitsbasiert] | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf Ihrer Website oder auf der Grundlage der Popularität von Elementen innerhalb der Lieblings- oder am häufigsten angezeigten Kategorie, Marke, Genre usw. | <ul><li>[!UICONTROL Am häufigsten auf der Website angezeigt]</li><li>[!UICONTROL Am häufigsten angezeigt nach Kategorie]</li><li>[!UICONTROL Am häufigsten angezeigt nach Elementattribut]</li><li>[!UICONTROL Topverkäufe auf der Website]</li><li>[!UICONTROL Topverkäufe nach Kategorie]</li><li>[!UICONTROL Topverkäufe nach Artikelattribut]</li><li>[!UICONTROL Am besten nach Analytics-Metrik]</li></ul> |
-| [!UICONTROL Elementbasiert] | Empfehlungen geben, basierend auf der Suche nach ähnlichen Elementen, die der Benutzer gerade anzeigt oder kürzlich angeschaut hat. | <ul><li>[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]</li><li>[!UICONTROL Leute, die das angesehen haben, kauften das]</li><li>[!UICONTROL Personen, die das gekauft haben, kauften das]</li><li>[!UICONTROL Elemente mit ähnlichen Attributen]</li></ul> |
-| [!UICONTROL Benutzerbasiert] | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. | <ul><li>[!UICONTROL Vor Kurzem aufgerufene Artikel]</li><li>[!UICONTROL Empfohlen für Sie]</li></ul> |
-| [!UICONTROL Benutzerdefinierte Kriterien] | Empfehlungen basierend auf einer benutzerdefinierten Datei geben, die Sie hochladen. | <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
+| **[!UICONTROL Warenkorbbasiert]** | Empfehlungen auf der Grundlage des Warenkorbinhalts des Benutzers aussprechen. | <ul><li>**[!UICONTROL Personen, die diese angesehen haben, haben auch Folgendes angesehen]**</li><li>**[!UICONTROL Personen, die diese angesehen haben, kauften auch]**</li><li>**[!UICONTROL Personen, die diese gekauft haben, kauften auch]**</li></ul>Weitere Informationen finden Sie unter [Warenkorbbasiert](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Stützen der Empfehlung auf einen Empfehlungsschlüssel*. |
+| **[!UICONTROL Beliebtheitsbasiert]** | Empfehlungen auf der Grundlage der allgemeinen Popularität eines Elements auf der gesamten Website oder der Popularität von Elementen innerhalb der bevorzugten oder am häufigsten angezeigten Kategorie, Marke, Genre usw. des Benutzers geben. | <ul><li>**[!UICONTROL Am häufigsten auf der Website angezeigt]**</li><li>**[!UICONTROL Am häufigsten angezeigt nach Kategorie]**</li><li>**[!UICONTROL Am häufigsten angezeigt nach Elementattribut]**</li><li>**[!UICONTROL Meist gesehen nach Profilattribut]**</li><li>**[!UICONTROL Topverkäufe auf der Website]**</li><li>**[!UICONTROL Topverkäufe nach Kategorie]**</li><li>**[!UICONTROL Topverkäufe nach Artikelattribut]**</li><li>**[!UICONTROL Topverkäufe nach Profilattribut]**</li><li>**[!UICONTROL Am besten nach Analytics-Metrik]**</li></ul> |
+| **[!UICONTROL Elementbasiert]** | Empfehlungen auf der Grundlage von Elementen geben, die einem Element ähneln, das der Benutzer gerade anzeigt oder kürzlich angeschaut hat. | <ul><li>**[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]**</li><li>**[!UICONTROL Leute, die das angesehen haben, kauften das]**</li><li>**[!UICONTROL Personen, die das gekauft haben, kauften das]**</li><li>**[!UICONTROL Elemente mit ähnlichen Attributen]**</li></ul> |
+| **[!UICONTROL Benutzerbasiert]** | Empfehlungen auf der Grundlage des Benutzerverhaltens aussprechen. | <ul><li>**[!UICONTROL Vor Kurzem aufgerufene Artikel]**</li><li>**[!UICONTROL Empfohlen für Sie]**</li></ul> |
+| **[!UICONTROL Benutzerdefinierte Kriterien]** | Empfehlungen basierend auf einer hochgeladenen benutzerdefinierten Datei aussprechen. | <ul><li>Benutzerdefinierter Algorithmus</li></ul> |
 
 Weitere Informationen zu den einzelnen Algorithmen finden Sie unter [Stützen der Recommendation auf einen Recommendation-Schlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## Verwenden eines benutzerdefinierten Empfehlungsschlüssels {#custom-key}
 
-Sie können Empfehlungen auch auf dem Wert eines benutzerdefinierten Profilattributs basieren.
-
->[!NOTE]
->
->Benutzerdefinierte Profilparameter können über JavaScript, API oder Integrationen an [!DNL Target] übergeben werden. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md).
-
-Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den ein Benutzer der Warteschlange zuletzt hinzugefügt hat.
+Empfehlungen können auch auf dem Wert eines benutzerdefinierten Profilattributs basieren. Beispielsweise können empfohlene Filme basierend auf dem Film angezeigt werden, den ein Benutzer zuletzt zur Warteschlange hinzugefügt hat.
 
 1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**.
 
 1. Klicken Sie **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**.
+
+   ![Kriterienseite mit geöffnetem Menü „Kriterien erstellen“, das die Optionen „Kriterien erstellen“ und „Kriteriensequenz erstellen“ anzeigt](../assets/criteria_1.png)
 
 1. Füllen Sie die Informationen im Abschnitt [Grundlegende Informationen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) aus.
 
@@ -83,16 +83,28 @@ Angenommen, Sie möchten empfohlene Filme basierend auf dem Film anzeigen, den e
 
 1. Wählen Sie **[!UICONTROL Personen, die dies angesehen haben, das angezeigt haben]** aus der Liste **[!UICONTROL Algorithmus]** aus.
 
-1. Wählen Sie Ihr benutzerdefiniertes Profilattribut aus der Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. [!UICONTROL Zuletzt angezeigt zur Watchlist hinzugefügt]).
+1. Wählen Sie das benutzerdefinierte Profilattribut aus der Liste **[!UICONTROL Empfehlungsschlüssel]** aus (z. B. **[!UICONTROL Zuletzt angezeigt zur Watchlist hinzugefügt]**).
 
-## Anzeigen von Kriterieninformationen {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+   >[!NOTE]
+   >
+   >Benutzerdefinierte Profilparameter können über JavaScript, API oder Integrationen an [!DNL Target] übergeben werden. Weitere Informationen zu benutzerdefinierten Profilattributen finden Sie unter [Besucherprofile](/help/main/c-target/c-visitor-profile/visitor-profile.md).
 
-Sie können Details zu den Kriterien anzeigen, indem Sie auf die gewünschten Kriterien in der Spalte &quot;[!UICONTROL &quot; &#x200B;].
+   ![Dialogfeld „Kriterien erstellen“ mit dem Abschnitt „Recommendations-Algorithmus“ und den Listen „Algorithmustyp“, „Algorithmus“ und „Empfehlungsschlüssel“](../assets/criteria_2.png)
 
-In den **[!UICONTROL Attributen]** und Details können Sie allgemeine Informationen zu den ausgewählten Kriterien anzeigen, einschließlich [!UICONTROL Name], [!UICONTROL Beschreibung], [!UICONTROL Branche vertikal], [!UICONTROL Seitentypen], [!UICONTROL Empfehlungsschlüssel], [!UICONTROL Empfehlungslogik], [!UICONTROL Algorithmus-ID] und Informationen zur letzten Änderung (Datum und wer hat den Algorithmus geändert).
+## Kriterieninformationen anzeigen {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Im Abschnitt **[!UICONTROL Nutzung]** können Sie eine Liste der Aktivitäten anzeigen, die auf die ausgewählten Kriterien verweisen.
+Die Kriteriendetails zeigen, wie ein Kriterium konfiguriert ist und welche Aktivitäten es verwenden.
 
->[!NOTE]
->
->Die [!UICONTROL Algorithmusnutzung] wird derzeit nur für [!DNL Recommendations] Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für [!UICONTROL A/B-]-, [!UICONTROL Automatische Zuordnung]-, [!UICONTROL Automatisches Targeting]- und [!UICONTROL Experience Targeting] (XT)-Aktivitäten unterstützt, die [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+1. Klicken Sie **[!UICONTROL Recommendations]** > **[!UICONTROL Kriterien]**, um die Liste der Kriterien anzuzeigen.
+
+1. Klicken Sie auf die gewünschten Kriterien in der Spalte **[!UICONTROL Name]**.
+
+1. Zeigen Sie in den Abschnitten **[!UICONTROL Attribute]** und Details allgemeine Informationen zu den ausgewählten Kriterien an, einschließlich **[!UICONTROL Name]**, **[!UICONTROL Beschreibung]**, **[!UICONTROL Industry Vertical]**, **[!UICONTROL Page Types]**, **[!UICONTROL Recommendation Key]**, **[!UICONTROL Recommendation Logic]**, **[!UICONTROL Algorithmus-ID]** und Informationen zur letzten Änderung (Datum und wer hat den Algorithmus geändert).
+
+1. Die Liste der Aktivitäten, die auf die ausgewählten Kriterien verweisen, finden Sie **[!UICONTROL Abschnitt]** Nutzung“.
+
+   >[!NOTE]
+   >
+   >Die **[!UICONTROL Algorithmusnutzung]** wird derzeit nur für [!DNL Recommendations] Aktivitäten unterstützt. Diese Funktion wird derzeit nicht für **[!UICONTROL A/B-]**-, **[!UICONTROL Automatische Zuordnung]**-, **[!UICONTROL Automatisches Targeting]**- und **[!UICONTROL Experience Targeting]** (XT)-Aktivitäten unterstützt, die [Recommendations als Angebot](/help/main/c-recommendations/recommendations-as-an-offer.md).
+
+   ![Kriteriendetails mit hervorgehobenen Abschnitten „Attribute“ und „Details“ und „Nutzung“](../assets/criteria_3.png)

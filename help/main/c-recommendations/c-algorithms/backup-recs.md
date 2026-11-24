@@ -1,7 +1,7 @@
 ---
 keywords: Empfehlung; Backup; Sicherung
 description: Erfahren Sie, wie Sie Backup-Empfehlungen in Adobe [!DNL Target Recommendations] verwenden.
-title: Wie verwende ich eine Backup-Empfehlung in [!DNL Target Recommendations]?
+title: Verwenden einer Reserveempfehlung
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
@@ -22,46 +22,43 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 64%
+source-wordcount: '497'
+ht-degree: 18%
 ---
-# Verwenden einer Reserveempfehlung
+# Verwenden einer Reserveempfehlung {#backup-recommendations}
 
-Wenn Sie die Funktion „Recommendations sichern“ in [!DNL Adobe Target] verwenden, werden für jede Empfehlung, die nicht über genügend empfohlene Elemente verfügt, keine Standardinhalte angezeigt. Stattdessen zeigen Empfehlungen die Ergebnisse des Reservealgorithmus an.
+>[!BEGINSHADEBOX]
 
-Wenn Sie keine Reserveempfehlung verwenden, zeigt das System dem Benutzer Standardinhalt an, wenn eine Empfehlung nicht genügend Artikel zum Ausfüllen der Anzeige aufweist.
+**Auf dieser Seite** Erfahren Sie, wie Backup-Empfehlungen die verbleibenden Steckplätze eines Designs in [!DNL Adobe Target Recommendations] füllen.
+
+>[!ENDSHADEBOX]
+
+Wenn eine Empfehlung nicht genügend empfohlene Elemente zum Ausfüllen des Designs enthält, zeigt die Backup-Empfehlungsfunktion in [!DNL Adobe Target] die Ergebnisse des Backup-Algorithmus anstelle des Standardinhalts an. Ohne eine Sicherungsempfehlung zeigt das System dem Benutzer Standardinhalte an.
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie im Abschnitt [Inhalt“ des Themas Erstellen von &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), einschließlich einer Matrix, in der die Ergebnisse erläutert werden, die Sie bei der Verwendung der Optionen [!UICONTROL Teilweises Design-Rendering] und [!UICONTROL Sicherungsempfehlungen anzeigen] zusammen oder getrennt sehen werden.
+>Weitere Informationen, einschließlich einer Matrix, in der die Ergebnisse der Verwendung der Optionen **[!UICONTROL Teilweises Design-Rendering]** und **[!UICONTROL Sicherungsinhalt anzeigen]** zusammen oder separat erläutert werden, finden Sie im Abschnitt [Sicherungsinhalt von Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-Die Funktion für Sicherungsempfehlungen verwendet immer die am häufigsten angezeigten Elemente auf der Website, um alle verbleibenden Slots zu füllen, nachdem die Daten des Algorithmus verwendet wurden. Beispielsweise ist Ihre Vorlage so konfiguriert, dass fünf empfohlene Elemente angezeigt werden, und Sie verwenden den Algorithmus *Kaufaffinitäten*. Da Sie jedoch nur über genügend Daten für zwei Slots verfügen, füllt die Funktion „Reserveempfehlung“ die verbleibenden drei Slots immer mit den am häufigsten angezeigten Artikeln aus.
+Die Funktion für Sicherungsempfehlungen verwendet immer die am häufigsten angezeigten Elemente auf der Website, um alle verbleibenden Slots zu füllen, nachdem die Daten des Algorithmus verwendet wurden. Beispielsweise ist ein Design so konfiguriert, dass fünf empfohlene Elemente angezeigt werden, der Algorithmus verfügt jedoch über genügend Daten, um nur zwei der fünf Slots zu füllen. Die Backup-Empfehlungsfunktion füllt dann die anderen drei Slots mit den am häufigsten angezeigten Elementen.
 
 Reserveempfehlungen werden zufällig aus den 500 am häufigsten angezeigten Produkten der gesamten Site ausgewählt. Der Datenzeitraum für Reserveempfehlungen beträgt eine Woche.
 
-Die 500 am häufigsten angezeigten Ergebnisse werden sequenziell angeordnet und anschließend in Behälter mit 20 Ergebnissen aufgeteilt. Die Behälter werden in der entsprechenden Reihenfolge verarbeitet. Die Ergebnisse in den einzelnen Behältern werden jedoch randomisiert und an die Seite zurückgegeben. Wenn die Benutzer die Seite aktualisieren, werden ihnen neue, randomisierte Ergebnisse angezeigt. Wenn der Ergebnissatz aus der Vereinigung der Sammlung und der Filterregeln kleiner als 20 ist, wird nach dem Zufallsprinzip aus der Sammlung ausgewählt.
+Die 500 am häufigsten angezeigten Ergebnisse werden sequenziell angeordnet und anschließend in Buckets mit 20 Ergebnissen aufgeteilt. Die Behälter werden der Reihe nach bereitgestellt, aber die Ergebnisse innerhalb jedes Behälters werden randomisiert und an die Seite zurückgegeben, sodass Benutzenden, die die Seite aktualisieren, neue, randomisierte Ergebnisse angezeigt werden. Wenn der Ergebnissatz aus der Vereinigung der Sammlung und der Filterregeln kleiner als 20 ist, werden Elemente zufällig aus der Sammlung ausgewählt.
 
-Entsprechend diesem Behälterprozess werden Sicherungsempfehlungen in der folgenden Reihenfolge angezeigt:
+Entsprechend diesem Bucket-Prozess werden Sicherungsempfehlungen in der folgenden Reihenfolge angezeigt:
 
-1. Anzeige der 20 am häufigsten angezeigten Elemente, randomisiert, dann
-1. Anzeige der nächsten 20 am häufigsten angezeigten Elemente, randomisiert, dann
-1. Anzeige der nächsten 20 am häufigsten angezeigten Elemente, randomisiert
-1. und so weiter
+1. Die 20 meistgesehenen Artikel, randomisiert.
+1. Die nächsten 20 meistgesehenen Artikel, randomisiert.
+1. Die nächsten 20 meistgesehenen Artikel, randomisiert, und so weiter.
 
-Ohne das Bucketing von Sicherungsempfehlungen ist es möglich, das 499. am häufigsten angezeigte Element, gefolgt vom 200. am häufigsten angezeigten Element, gefolgt vom 380. am häufigsten angezeigten Element usw. anzuzeigen. Das Bucketing stellt sicher, dass die am häufigsten angezeigten Elemente als Erstes angezeigt werden.
+Ohne Gruppierung könnte der 499. am häufigsten angezeigte Artikel angezeigt werden, gefolgt vom 200. am häufigsten angezeigten Artikel, gefolgt vom 380. am häufigsten angezeigten Artikel usw. Durch das Bucketing wird sichergestellt, dass die am häufigsten angezeigten Elemente zuerst empfohlen werden.
 
->[!NOTE]
->
->Wenn Sie Ihre Artikel in Katalogen gruppieren, verwenden die für jeden Algorithmus innerhalb der Empfehlung erzeugten Reserveempfehlungen ebenfalls den Katalog, sodass nur Artikel im Katalog in die Reserveempfehlung aufgenommen werden.
+Wenn Elemente in Sammlungen gruppiert werden, verwenden die für die einzelnen Kriterien generierten Sicherungsempfehlungen auch die Sammlung, sodass nur Elemente in der Sammlung in die Sicherungsempfehlung aufgenommen werden. Jedes Element, das durch globale Ausschlussregeln ausgeschlossen wurde, kann nicht als Reserveempfehlung dienen. Duplikate werden aus Empfehlungen-Batches entfernt.
 
-Jedes Element, das durch globale Ausschlussregeln ausgeschlossen wurde, kann nicht als Reserveempfehlung dienen.
+Sicherungsempfehlungen sind standardmäßig aktiviert und füllen die zusätzlichen Slots in einem Design mit einer zufälligen Auswahl der beliebtesten Elemente auf der Site.
 
-Reserveempfehlungen sind standardmäßig aktiviert und füllen die Extraslots in einer Vorlage mit einer zufallsbasierten Auswahl der beliebtesten Artikel der Site aus.
+Die Verwendung von Recommendations für Backups ist in der Regel Teil der Erörterung mit dem Implementierungs-Team während der Ersteinrichtung. Wenden Sie sich an den Account Manager, um die Einstellung für die Sicherungsempfehlung nach der Implementierung zu ändern.
 
-Duplikate werden aus Empfehlungen-Batches entfernt.
-
-Die Nutzung von Reserveempfehlungen ist normalerweise Gegenstand der Diskussion im Implementierungsteam während des ersten Setups. Wenn Sie die Einstellungen für die Reserveempfehlung ändern möchten, wenden Sie sich bitte an Ihren Kundenbetreuer.
-
-Wenn die Option Teilweises Design-Rendering aktivieren ([Inhaltseinstellungen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und die Vorlage nicht angezeigt wird, wird stattdessen entweder die Backup-Empfehlung oder der Standardinhalt angezeigt.
+Wenn **[!UICONTROL Partielles Design-Rendering]** (siehe [Backup-Inhalt](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) nicht aktiviert ist und das Design nicht ausgefüllt werden kann, werden stattdessen Backup-Empfehlungen (wenn aktiviert) oder Standardinhalte angezeigt.

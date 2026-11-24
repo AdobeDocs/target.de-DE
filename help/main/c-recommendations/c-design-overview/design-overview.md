@@ -1,7 +1,7 @@
 ---
 keywords: Empfehlungsentwurf; Vorlage; Entwurf erstellen; Lieferung; Ausgabe
 description: Erfahren Sie, wie Sie mit Designs in Adobe [!DNL Target] Recommendations definieren können, wie Recommendations auf einer Seite angezeigt werden (1X4, 1X6, 2X2 usw.).
-title: Wie verwende ich Designs in Recommendations?
+title: Erste Schritte mit Designs
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
@@ -17,25 +17,31 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 22%
+source-wordcount: '224'
+ht-degree: 9%
 ---
-# Erste Schritte mit Designs
+# Erste Schritte mit Designs {#design-overview}
 
-Designs in [!DNL Adobe Target Recommendations] definieren, wie Empfehlungen auf einer Seite angezeigt werden. Designs definieren das Layout und Format Ihrer Empfehlungen, um die Besucherinteraktion, Konversion und den Umsatz zu verbessern.
+>[!BEGINSHADEBOX]
 
-[!DNL Recommendations] verfügt über mehrere standardmäßige (Pre-Build-)Designs oder Sie können eigene erstellen.
+**Auf dieser Seite** Erfahren Sie, wie Designs das Layout und Format von Recommendations in [!DNL Adobe Target Recommendations] definieren.
 
-[!DNL Target] können das vollständige Erscheinungsbild Ihrer Empfehlungen liefern, wie in der folgenden Abbildung dargestellt. Das Design kann HTML, JavaScript und CSS enthalten. Dieses Design wird als 4 x 1-Design bezeichnet: vier Räume in einer Reihe.
+>[!ENDSHADEBOX]
 
-![velocity_example image](assets/velocity_example.png)
+Designs in [!DNL Adobe Target Recommendations] definieren, wie Empfehlungen auf einer Seite angezeigt werden. Ein Design definiert das Layout und Format der Empfehlungen.
 
-Target kann Ihre Recommendations auch als JSON-Objekte versenden, die in E-Mail-Nachrichten, IoT-Geräten, Konsolen oder bei Sprachanwendungen (Amazon Alexa oder Google Home) verwendet werden können.
+[!DNL Recommendations] verfügt über mehrere standardmäßige (vordefinierte) Designs, und es können auch benutzerdefinierte Designs erstellt werden. Weitere Informationen finden Sie unter [Erstellen eines Designs](/help/main/c-recommendations/c-design-overview/create-design.md).
 
-Designs helfen Ihnen bei der Bestimmung:
+[!DNL Target] können das vollständige Erscheinungsbild der Empfehlungen liefern, wie in der folgenden Abbildung dargestellt. Das Design kann HTML, JavaScript und CSS enthalten. Dieses Design wird als 4 x 1-Design bezeichnet: vier Räume in einer Reihe.
 
-* Wie viele Elemente Sie in einer Empfehlung anzeigen möchten
-* Angabe, wie Ihre Elemente angezeigt werden sollen (in einer Zeile, Spalte, einem Raster oder einer Tabelle)
-* Gibt an, ob Sie möchten, dass Besuchende nur die angegebene Anzahl von Elementen sehen, oder ob Sie möchten, dass Besucher durch mehrere Elemente scrollen können?
+![Beispiel eines 4 x 1-Designs mit dem Titel „Andere lustige Aktivitäten“, mit vier Elementen, die jeweils ein Foto, einen Namen, einen Preis, eine Bewertung und eine Entfernung zeigen](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+[!DNL Target] können die Empfehlungen auch als JSON-Objekte senden, die in E-Mail-Nachrichten, IoT-Geräten (Internet der Dinge), Konsolen- oder Sprachanwendungsfällen (Amazon Alexa oder Google Home) verwendet werden können.
+
+Designs bestimmen:
+
+* Wie viele Elemente in einer Empfehlung angezeigt werden
+* Anzeige der Elemente (in einer Zeile, Spalte, einem Raster oder einer Tabelle)
+* Ob Besucherinnen und Besucher nur die angegebene Anzahl von Elementen sehen oder durch mehrere Elemente scrollen können

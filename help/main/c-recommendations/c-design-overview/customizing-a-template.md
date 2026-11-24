@@ -1,7 +1,7 @@
 ---
 keywords: Benutzerdefinierter Entwurf;Geschwindigkeit;Dezimal;Komma;Entwurf anpassen
 description: Erfahren Sie, wie Sie mit der Open-Source-[!DNL Velocity]-Entwurfssprache Empfehlungsentwürfe in [!DNL Target] Recommendations anpassen können.
-title: Wie kann ich einen Entwurf mithilfe von Velocity anpassen?
+title: Anpassen eines Designs mithilfe von Velocity
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
@@ -18,22 +18,26 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 56%
+source-wordcount: '1086'
+ht-degree: 21%
 ---
-# Anpassen eines Designs mithilfe von [!DNL Velocity]
+# Anpassen eines Designs mithilfe von [!DNL Velocity] {#customize-design}
 
-Verwenden Sie die Open-Source-[!DNL Velocity]-Entwurfssprache, um Empfehlungsvorlagen in [!DNL Adobe Target Recommendations] anzupassen.
+>[!BEGINSHADEBOX]
 
-## Übersicht über [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Open-Source-[!DNL Velocity]-Entwurfssprache Empfehlungsentwürfe in [!DNL Adobe Target Recommendations] anpassen können.
+
+>[!ENDSHADEBOX]
+
+## Übersicht über [!DNL Velocity] {#velocity-overview}
 
 Informationen zu [!DNL Velocity] finden Sie unter [https://velocity.apache.org](https://velocity.apache.org).
 
-Alle [!DNL Velocity] Logik, Syntax usw. können für einen Empfehlungsentwurf verwendet werden. Das bedeutet, dass Sie *for*-Schleifen, *if*-Anweisungen und anderen Code mit [!DNL Velocity] anstelle von JavaScript erstellen können.
+Alle [!DNL Velocity] Logik, Syntax usw. können für einen Empfehlungsentwurf verwendet werden. Das bedeutet, *for*-Schleifen, *if*-Anweisungen und anderer Code mit [!DNL Velocity] anstelle von JavaScript erstellt werden können.
 
-Entitätsattribute, die an [!DNL Recommendations] in der `productPage`-Mbox oder im CSV-Upload gesendet werden, können in einem Design angezeigt werden, mit Ausnahme von Attributen mit mehreren Werten. Jeder Attributtyp kann gesendet werden. [!DNL Target] übergibt jedoch keine Attribute vom Typ „mehrwertig“ als Array, über das eine Vorlage iterieren kann (z. B. `entityN.categoriesList`).
+Entitätsattribute, die an [!DNL Recommendations] in der `productPage`-Mbox oder im CSV-Upload gesendet werden, können in einem Design angezeigt werden, mit Ausnahme von Attributen mit mehreren Werten. Jeder Attributtyp kann gesendet werden. [!DNL Target] übergibt jedoch keine Attribute vom Typ „mehrwertig“ als Array, über das ein Design iterieren kann (z. B. `entityN.categoriesList`).
 
 Folgende Syntax verweist auf diese Werte:
 
@@ -43,14 +47,14 @@ $entityN.variable
 
 Entitätsattributnamen müssen [!DNL Velocity] Kurzschreibweise folgen, die aus einem führenden *$*-Zeichen gefolgt von einer Kennung für die [!DNL Velocity]-Vorlagensprache (VTL) besteht. Die VTL-Kennung muss mit einem Buchstaben (a-z oder A-Z) beginnen.
 
-Attributnamen von Velocity-Entitäten sind auf die folgenden Zeichentypen beschränkt:
+[!DNL Velocity] Entitätsattributnamen sind auf die folgenden Zeichentypen beschränkt:
 
 * Buchstaben (a-z, A-Z)
 * Ziffern (0-9)
 * Bindestrich ( - )
 * Unterstrich ( _ )
 
-Die folgenden Attribute sind als [!DNL Velocity]-Arrays verfügbar. Demzufolge können sie iteriert oder über den Index referenziert werden.
+Die folgenden Attribute sind als [!DNL Velocity]-Arrays verfügbar. Daher können sie über einen Index iteriert oder durch einen Index referenziert werden.
 
 * `entities`
 * `entityN.categoriesList`
@@ -71,21 +75,21 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Weitere Informationen zu [!DNL Velocity] (Attributen) finden Sie unter [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Weitere Informationen zu [!DNL Velocity] (Attributen) finden Sie unter [Velocity-Dokumentation](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Wenn Sie in Ihrem Entwurf ein Profilskript verwenden, muss das $, das dem Skriptnamen vorangeht, mit einem `\` (umgekehrter Schrägstrich) maskiert werden. Beispiel:
+Wenn ein Profilskript in einem Design verwendet wird, muss das $ vor dem Skriptnamen mit einem `\` (umgekehrter Schrägstrich) maskiert werden. Beispiel:
 
 `\${user.script_name}`
 
 >[!NOTE]
 >
->Die maximale Anzahl von Entitäten, die in einem Entwurf referenziert werden können, egal ob hartcodiert oder in Schleife, beträgt 99. Die Länge des Vorlagenskripts kann bis zu 65.000 Zeichen betragen.
+>Die maximale Anzahl von Entitäten, auf die in einem Entwurf verwiesen werden kann, egal ob hartcodiert oder in Schleife, beträgt 99. Das Design-Skript kann bis zu 65.000 Zeichen enthalten.
 
-Wenn Sie z. B. ein Design wünschen, das in etwa Folgendes anzeigen soll:
+Ein Design, das in etwa der folgenden Abbildung entspricht:
 
-![velocity_example image](assets/velocity_example.png)
+![Beispiel eines 4 x 1-Designs mit dem Titel „Andere lustige Aktivitäten“, mit vier Elementen, die jeweils ein Foto, einen Namen, einen Preis, eine Bewertung und eine Entfernung zeigen](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-verwenden Sie diesen Code:
+kann den folgenden Code verwenden:
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
@@ -134,22 +138,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Wenn Sie Text nach dem Wert eines Attributs vor einem Tag hinzufügen möchten, das anzeigt, dass der Attributname abgeschlossen ist, können Sie dies mit einer formalen Notation tun, um den Namen des Attributs einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
+>Um nach dem Wert eines Attributs und vor einem Tag, das anzeigt, dass der Attributname abgeschlossen ist, Text hinzuzufügen, verwenden Sie eine formale Notation, um den Namen des Attributs einzuschließen. Beispiel: `${entity1.thumbnailUrl}.gif`.
 
-Sie können `algorithm.name` und `algorithm.dayCount` auch als Entitätsattribute in Designs verwenden, sodass ein Design zum Testen mehrerer Kriterien verwendet werden kann und der Kriterienname im Design dynamisch angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Kunden, die diesen Artikel angesehen haben, haben folgende Artikel gekauft“ sieht. Sie können diese Attribute sogar verwenden, um die `dayCount` anzuzeigen (Anzahl der Tage der in den Kriterien verwendeten Daten, z. B. „Topverkäufe in den letzten 2 Tagen“ usw.),
+`algorithm.name` und `algorithm.dayCount` können auch als Entitätsattribute in Designs verwendet werden, sodass ein Design zum Testen mehrerer Kriterien verwendet werden kann und der Kriterienname im Design dynamisch angezeigt werden kann. Dies zeigt dem Besucher, dass er „Topverkäufe“ oder „Personen, die dies angesehen und gekauft haben“ betrachtet. Die `dayCount` (die Anzahl der Tage der in den Kriterien verwendeten Daten, z. B. „Topverkäufe über die letzten 2 Tage„) kann ebenfalls angezeigt werden.
 
-## Arbeiten mit Zahlen in [!DNL Velocity] Vorlagen
+## Arbeiten mit Zahlen in [!DNL Velocity] Designs {#numbers}
 
-Standardmäßig behandeln [!DNL Velocity] Vorlagen alle Entitätsattribute als Zeichenfolgenwerte. Möglicherweise möchten Sie ein Entitätsattribut als numerischen Wert behandeln, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
+Standardmäßig behandeln [!DNL Velocity]-Designs alle Entitätsattribute als Zeichenfolgenwerte. Ein Entitätsattribut muss möglicherweise als numerischer Wert behandelt werden, um einen mathematischen Vorgang durchzuführen oder ihn mit einem anderen numerischen Wert zu vergleichen. Gehen Sie wie folgt vor, um ein Entitätsattribut als numerischen Wert zu behandeln:
 
 1. Deklarieren Sie eine Platzhaltervariable und initialisieren Sie sie in eine beliebige Ganzzahl oder in einen doppelten Wert.
-1. Stellen Sie sicher, dass das Entitätsattribut, das Sie verwenden möchten, nicht leer ist (erforderlich für den Vorlagen-Parser von [!DNL Target Recommendations], um die Vorlage zu validieren und zu speichern).
-1. Übergeben Sie das Entitätsattribut an die Methode `parseInt` oder `parseDouble` für die Platzhaltervariable, die Sie in Schritt 1 erstellt haben, um die Zeichenfolge in eine Ganzzahl oder in einen doppelten Wert umzuwandeln.
+1. Stellen Sie sicher, dass das zu verwendende Entitätsattribut nicht leer ist (erforderlich für den Design-Parser von [!DNL Target Recommendations] zum Überprüfen und Speichern des Designs).
+1. Übergeben Sie das Entitätsattribut an die Methode `parseInt` oder `parseDouble` für die in Schritt 1 erstellte Platzhaltervariable, um die Zeichenfolge in eine Ganzzahl oder in einen doppelten Wert umzuwandeln.
 1. Führen Sie den mathematischen Vorgang oder Vergleich für den neuen numerischen Wert durch.
 
 ### Beispiel: Rabattpreis berechnen
 
-Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzieren, um einen Rabatt anzuwenden. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
+Um den angezeigten Preis eines Artikels um 0,99 US-Dollar zu reduzieren und einen Rabatt anzuwenden, kann folgender Ansatz verwendet werden:
 
 ```
 #set( $double = 0.1 )
@@ -164,7 +168,7 @@ Angenommen, Sie möchten den angezeigten Preis eines Artikels um 0,99 USD reduzi
 
 ### Beispiel: Auswahl der anzuzeigenden Sterne basierend auf der Bewertung eines Artikels
 
-Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzeigen. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
+Um eine angemessene Anzahl von Sternen basierend auf der numerischen durchschnittlichen Kundenbewertung eines Artikels anzuzeigen, kann der folgende Ansatz verwendet werden:
 
 ```
 #set( $double = 0.1 )
@@ -189,7 +193,7 @@ Angenommen, Sie möchten eine angemessene Anzahl von Sternen basierend auf der n
 
 ### Beispiel: Zeit in Stunden und Minuten basierend auf der Länge eines Elements in Minuten berechnen
 
-Angenommen, Sie speichern die Länge eines Films in Minuten, möchten aber die Länge in Stunden und Minuten anzeigen. Sie können den folgenden Ansatz verwenden, um dieses Ergebnis zu erzielen:
+Um die Länge eines Films in Stunden und Minuten anzuzeigen, wenn die Länge in Minuten gespeichert wird, kann der folgende Ansatz verwendet werden:
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -200,11 +204,11 @@ Angenommen, Sie speichern die Länge eines Films in Minuten, möchten aber die L
 #end
 ```
 
-## Anzeigen eines Schlüsselelements mit empfohlenen Produkten {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Anzeigen eines Schlüsselelements mit empfohlenen Produkten {#key-item}
 
-Sie können Ihren Entwurf ändern, um Ihre Schlüsselelemente neben anderen empfohlenen Produkten anzuzeigen. Sie möchten zum Beispiel das aktuelle Element als Referenz neben den Empfehlungen anzeigen.
+Ein Design kann das Schlüsselelement zusammen mit den anderen empfohlenen Produkten anzeigen. Beispielsweise kann das aktuelle Element als Referenz neben den Empfehlungen angezeigt werden.
 
-Erstellen Sie dazu eine Spalte in Ihrem Entwurf, die das `$key` Attribut verwendet, auf dem Ihre Empfehlung basiert, statt das `$entity` Attribut zu verwenden. Der Code für Ihre Schlüsselspalte kann zum Beispiel folgendermaßen aussehen:
+Erstellen Sie dazu eine Spalte im Design, die das `$key` verwendet, auf dem die Empfehlung basiert, und nicht das `$entity`. Beispielsweise könnte der Code für die Schlüsselspalte wie folgt aussehen:
 
 ```
 <div class="at-table-column"> 
@@ -219,13 +223,13 @@ Erstellen Sie dazu eine Spalte in Ihrem Entwurf, die das `$key` Attribut verwend
 
 Das Ergebnis ist ein Entwurf wie der folgende, in dem das Schlüsselelement in einer Spalte angezeigt wird.
 
-![rec_key Bild](assets/rec_key.png)
+![Design mit vier Spalten, wobei die erste Spalte das als aktuelles Produkt markierte Schlüsselelement anzeigt](/help/main/c-recommendations/c-design-overview/assets/rec_key.png)
 
-Wenn beim Erstellen der [!DNL Recommendations] Aktivität der Schlüssel aus dem Besucherprofil übernommen wird, z. B. „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufälliges Produkt im [!UICONTROL Visual Experience Composer] (VEC) an. Dies beruht darauf, dass ein Profil beim Erstellen der Aktivität nicht verfügbar ist. Wenn Besucher die Seite anzeigen, sehen sie das erwartete Schlüsselelement.
+Wenn beim Erstellen einer [!DNL Recommendations] Aktivität der Schlüsselartikel aus dem Profil des Besuchers übernommen wird, z. B. „Zuletzt gekaufter Artikel“, zeigt [!DNL Target] ein zufälliges Produkt im **[!UICONTROL Visual Experience Composer]** (VEC) an. Dies liegt daran, dass während der Erstellung der Aktivität kein Profil verfügbar ist. Wenn Besucher die Seite aufrufen, sehen sie das erwartete Schlüsselelement.
 
-## Ersetzungen in einem String-Wert durchführen {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Ersetzungen in einem String-Wert durchführen {#replacements}
 
-Sie können Ihr Design ändern, um Werte in einer Zeichenfolge zu ersetzen. Ersetzen Sie beispielsweise das Dezimalzeichen, das in den USA verwendet wird, durch das Kommatrennzeichen, das in Europa und anderen Ländern verwendet wird.
+Ein Design kann Werte innerhalb einer Zeichenfolge ersetzen. Beispielsweise kann das Dezimalzeichen, das in den USA verwendet wird, durch das Kommatrennzeichen ersetzt werden, das in Europa und anderen Ländern verwendet wird.
 
 Folgender Code zeigt eine einzelne Zeile in einem bedingten Verkaufspreis-Beispiel:
 
@@ -247,17 +251,18 @@ Folgender Code stellt ein vollständiges bedingtes Beispiel eines Verkaufspreise
                                         $entity1.delivery 
                                         <br> 
                                     </span>
+</div>
 ```
 
-## Anpassen der Vorlagengröße und Überprüfen auf leere Werte {#default}
+## Anpassen der Designgröße und Überprüfen auf leere Werte {#default}
 
-Die folgende Vorlage verwendet ein [!DNL Velocity]-Skript zur Steuerung der dynamischen Größenanpassung der Entitätsanzeige und passt ein Ergebnis von 1:n an, um die Erstellung leerer HTML-Elemente zu vermeiden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und [!UICONTROL Partielles Vorlagen-Rendering] aktiviert ist.
+Ein [!DNL Velocity] kann die dynamische Größe der Entitätsanzeige steuern. Das folgende Design berücksichtigt ein 1:n-Ergebnis, um zu vermeiden, dass leere HTML-Elemente erstellt werden, wenn nicht genügend übereinstimmende Entitäten von [!DNL Recommendations] zurückgegeben werden. Dieses Skript eignet sich am besten für Szenarien, in denen Backup-Empfehlungen keinen Sinn machen und **[!UICONTROL Partielles Design-Rendering]** aktiviert ist.
 
 Der folgende HTML-Abschnitt ersetzt den vorhandenen HTML-Teil im Standardentwurf von 4 x 2 (die CSS ist hier aus Platzgründen nicht enthalten):
 
 * Wenn eine fünfte Entität vorhanden ist, fügt das Skript ein schließendes div ein und öffnet eine neue Zeile mit `<div class="at-table-row">`.
-* Mit 4 x 2 werden maximal acht Ergebnisse angezeigt. Dies kann für kleinere oder größere Listen durch Ändern von `$count <=8` angepasst werden.
-* Beachten Sie, dass die Logik die Entitäten nicht in mehreren Zeilen ausgleicht. Wenn beispielsweise fünf oder sechs Entitäten angezeigt werden sollen, werden sie nicht dynamisch zu drei oben und zwei unten (oder drei oben und drei unten). Die oberste Zeile zeigt vier Elemente und beginnt dann mit einer zweiten Zeile.
+* Bei 4x2 beträgt die maximale Anzahl der angezeigten Ergebnisse acht, dies kann jedoch durch Ändern von `$count <=8` für kleinere oder größere Listen angepasst werden.
+* Die Logik balanciert die Entitäten nicht in mehreren Zeilen aus. Wenn beispielsweise fünf oder sechs Entitäten angezeigt werden sollen, werden sie nicht dynamisch zu drei oben und zwei unten (oder drei oben und drei unten). In der oberen Zeile werden vier Elemente angezeigt, bevor eine zweite Zeile gestartet wird.
 
 ```
 <div class="at-table">

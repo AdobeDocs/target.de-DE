@@ -1,7 +1,7 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; dynamische Filterung; statisch; statischer Filter
 description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations einen oder mehrere statische Werte manuell eingeben, um mithilfe von Einschlussregeln zu filtern.
-title: Wie kann ich in Recommendations-Aktivitäten nach statischen Werten filtern?
+title: Statischer Filter
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL Statischer Filter]
+# Statischer Filter {#static-filter}
 
-Geben Sie manuell einen oder mehrere statische Werte ein, um mithilfe von Einschlussregeln in [!DNL Adobe Target Recommendations] zu filtern.
+>[!BEGINSHADEBOX]
 
-Empfehlen Sie beispielsweise nur Inhalte mit der Bewertung „G“ oder „PG“ für die Motion Picture Association (MPA).
+**Auf dieser Seite** Erfahren Sie, wie Sie Empfehlungen filtern können, indem Sie einen oder mehrere statische Werte in Einschlussregeln in [!DNL Adobe Target Recommendations] manuell eingeben.
 
-Sie können so viele Einschlussregeln wie benötigt erstellen. Die Einschlussregeln werden mit einem Operator vom Typ „AND“ verbunden. Alle Regeln müssen erfüllt sein, damit ein Artikel in den Empfehlungen berücksichtigt wird.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->Wenn Sie wissen, wie Einschlussregeln vor der Veröffentlichung von Target 17.6.1 (Juni 2017) konfiguriert wurden, werden Sie feststellen, dass sich einige der Optionen und Operatoren geändert haben. Es werden nur die Operatoren angezeigt, die auf die ausgewählte Option angewendet werden können. Zudem wurden einige Operatoren umbenannt („stimmt überein“ heißt jetzt „gleich“), um die Konsistenz und die Intuitivität zu erhöhen. Alle vorhandenen Ausschlussregeln, die vor dieser Version erstellt worden sind, wurden automatisch in die neue Struktur migriert. Es ist keine Neustrukturierung Ihrerseits nötig.
+**[!UICONTROL Statischer Filter]** beschränkt die Elemente in einer Empfehlung auf die Elemente, die mit manuell eingegebenen statischen Werten übereinstimmen. Es können beliebig viele Einschlussregeln erstellt werden. Die Einschlussregeln sind mit einem AND-Operator verknüpft, sodass alle Regeln erfüllt sein müssen, damit ein Element in einer Empfehlung enthalten ist. Allgemeine Informationen zu Einschlussregeln finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Empfohlene Inhalte mit G oder PG
 
-Um eine Einschlussregel mit statischen Werten zu erstellen, um Inhalte mit einer MPA-Bewertung von nur „G“ oder „PG“ zu empfehlen (ausschließen von „R“- und „NC17“-Inhalten), können Sie die folgenden Filterregeln erstellen: „Filmbewertung entspricht einem von g-bewerteten“ und „Filmbewertung entspricht einem von pg-bewerteten“.
+Um nur Inhalte mit einer MPA-Bewertung (Motion Picture Association) von „G“ oder „PG“ zu empfehlen (ausschließen von „R“- und „NC17“-Inhalten), erstellen Sie eine Filterregel mit dem Operator „Filmbewertung gleich einem von“ und geben Sie die Werte „g-Bewertung“ und „pg-Bewertung“ ein.
