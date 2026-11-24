@@ -49,7 +49,7 @@ Verschiedene Algorithmen eignen sich für verschiedene Seitentypen. In den folge
 
 ## Warenkorb-basiert {#cart-based}
 
-Der **[!UICONTROL Warenkorb-]** Algorithmustyp empfiehlt Artikel basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden als kommagetrennte Werte im `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ([) bereitgestellt. Nur die ersten 10 Werte werden berücksichtigt.
+Der **[!UICONTROL Warenkorb-]** Algorithmustyp empfiehlt Artikel basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden als kommagetrennte Werte im `cartIds`[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} () bereitgestellt. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;**[!UICONTROL Recommended For You]**&quot; und den Algorithmen &quot;**[!UICONTROL People Who Viewed This, Bought That]**&quot; und &quot;**[!UICONTROL People Who Bought This, Bought That]**&quot;.
 
@@ -165,7 +165,7 @@ Die folgenden Algorithmen sind mit dem Algorithmustyp **[!UICONTROL Benutzerbasi
 
 ### [!UICONTROL Kürzlich angezeigte Artikel] Details {#recently-viewed}
 
-Der **[!UICONTROL Kürzlich angezeigte Elemente]**-Algorithmus gibt Ergebnisse zurück, die für eine bestimmte [Umgebung) ](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
+Der **[!UICONTROL Kürzlich angezeigte Elemente]**-Algorithmus gibt Ergebnisse zurück, die für eine bestimmte [Umgebung) &#x200B;](/help/main/administrating-target/hosts.md). Wenn zwei Sites zu unterschiedlichen Umgebungen gehören und ein Besucher zwischen den beiden Sites wechselt, zeigt jede Site nur die jeweiligen Elemente der entsprechenden Umgebung an. Wenn sich zwei Sites in derselben Umgebung befinden und ein Besucher zwischen den beiden Sites wechselt, sieht der Besucher für beide Sites die gleichen zuletzt angezeigten Elemente.
 
 Die **[!UICONTROL Zuletzt angezeigte Elemente]**-Kriterien können nicht für Sicherungsempfehlungen verwendet werden.
 

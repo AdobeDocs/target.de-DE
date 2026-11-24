@@ -54,7 +54,7 @@ Sammlungen sind im gesamten Konto verfügbar, sodass eine einmal erstellte Samml
 
    >[!NOTE]
    >
-   >Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht **[!UICONTROL Sammlungen]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
+   >Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht **[!UICONTROL Sammlungen]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Sammlung erstellen]**.
 

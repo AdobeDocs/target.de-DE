@@ -44,7 +44,7 @@ Ausschlüsse werden normalerweise für Folgendes verwendet:
 
 >[!IMPORTANT]
 >
->Ausschlussregeln werden global auf alle ([) ](/help/main/administrating-target/environments.md).
+>Ausschlussregeln werden global auf alle ([) &#x200B;](/help/main/administrating-target/environments.md).
 >
 >Detaillierte Informationen, Beispiele und Anwendungsfallszenarien zu statischen und dynamischen Ausschlussregeln finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#inclusion-rules).
 
@@ -56,7 +56,7 @@ Ausschlussregeln werden einmal definiert und gelten dann für jede [!DNL Recomme
 
    >[!NOTE]
    >
-   >Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht **[!UICONTROL Ausschlüsse]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [ Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
+   >Die „Anzahl der Elemente“, die für jeden Ausschluss in der Listenansicht **[!UICONTROL Ausschlüsse]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diesen Ausschluss in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Informationen [&#x200B; Ändern der Standard [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}Hostgruppe finden Sie im *Adobe Target* Entwicklerhandbuch unter „Planen und Implementieren“.
 
 
 1. Klicken Sie auf **[!UICONTROL Filter anzeigen]**-Symbol ( ![Filtersymbol anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die gewünschte [Umgebung](/help/main/administrating-target/environments.md) aus der Dropdown-Liste **[!UICONTROL Umgebung]**, um eine Vorschau des Ausschlussinhalts in dieser Umgebung anzuzeigen. Standardmäßig werden Ergebnisse aus der Standardhostgruppe angezeigt.

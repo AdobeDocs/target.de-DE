@@ -92,7 +92,7 @@ Das folgende Diagramm zeigt den logischen Ablauf der Algorithmimplementierung:
 
 Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Besucheransichten und Käufen, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Verhaltensdaten in Form von Besucheransichten und Käufen, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -116,11 +116,11 @@ Die Modellbereitstellung und Inhaltsbereitstellung für Inhaltsähnlichkeits-Alg
 
 Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus verwendet nur Katalogdaten, die über einen Katalogfeed[ die Entitäten-API oder [!DNL Target] Aktualisierungen auf der Seite aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus verwendet nur Katalogdaten, die über einen Katalogfeed[&#x200B; die Entitäten-API oder [!DNL Target] Aktualisierungen auf der Seite aufgenommen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modell-**:
 
-  * **Attributextraktion**: Nachdem statische Filter, Katalogregeln und globale Ausschlüsse angewendet wurden, extrahiert der Algorithmus die relevanten Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie der Entitätsattribute. Außerdem wird versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[ zu ](/help/main/c-recommendations/c-products/entity-attributes.md). Ein Feld wird als Zeichenfolgenfeld behandelt, wenn der Großteil seiner Werte nicht als Zahl, Datum oder Boolesch analysiert werden kann.
+  * **Attributextraktion**: Nachdem statische Filter, Katalogregeln und globale Ausschlüsse angewendet wurden, extrahiert der Algorithmus die relevanten Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie der Entitätsattribute. Außerdem wird versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[&#x200B; zu &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md). Ein Feld wird als Zeichenfolgenfeld behandelt, wenn der Großteil seiner Werte nicht als Zahl, Datum oder Boolesch analysiert werden kann.
   * **Stemmen und Entfernen von Stoppwörtern**: Um die Übereinstimmung der Textähnlichkeit genauer zu machen, entfernt [!DNL Target] sehr gängige „Stopp“-Wörter, die die Bedeutung eines Elements nicht wesentlich ändern (z. B. „was“, „ist“ und „and„). Das Wortstammen reduziert Wörter mit unterschiedlichen Suffixen auf ihr Stammwort, das eine identische Bedeutung hat (z. B. haben „connect“, „connector“ und „connection“ alle das Stammwort „connect„). [!DNL Target] verwendet den Schneeballstamm. Zuerst führt es eine automatische Spracherkennung durch und kann Stoppwörter für bis zu 50 Sprachen entfernen und das Stemmen für 18 Sprachen durchführen.
   * **N-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Das Kombinieren zusammenhängender Sequenzen von Token zu einem einzigen Token wird als N-Gram-Erstellung bezeichnet. [!DNL Target] berücksichtigt bis zu 2 Gramm.
   * **tf-idf Berechnung**: Im nächsten Schritt werden tf-idf-Vektoren erstellt, die die relative Bedeutung von Token in der Artikelbeschreibung widerspiegeln. Für jeden Token bzw. Term t in einem Element i berechnet [!DNL Target] in einem Katalog D mit |D| Elementen zunächst die Termfrequenz TF(t, i), die die Anzahl der Auftritte des Terms in Element i ist, und die Dokumentenfrequenz DF(t, D), die die Anzahl der Elemente ist, in denen der Token t vorhanden ist. Die tf-idf-Kennzahl lautet dann:
@@ -154,7 +154,7 @@ Das folgende Diagramm zeigt die Logik der Schritte zum Modell-Training und zur B
 
 Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. Sowohl **[!UICONTROL Empfohlen für Sie]** als auch Warenkorb-basierte Algorithmen verwenden Verhaltensdaten in Form von Benutzeransichten und Käufen, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. Sowohl **[!UICONTROL Empfohlen für Sie]** als auch Warenkorb-basierte Algorithmen verwenden Verhaltensdaten in Form von Benutzeransichten und Käufen, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
@@ -162,7 +162,7 @@ Die Schritte lauten wie folgt:
   * **Trainingstest-Aufteilung**: Die Verwendungen der einzelnen Benutzenden werden chronologisch aufgeteilt. Die ersten 80 % werden den Schulungsdaten und die restlichen 20 % den Testdaten zugewiesen.
   * **Modell-Training für Artikelähnlichkeit**: Die Berechnung der Kernelement-Ähnlichkeit unterscheidet sich zwischen **[!UICONTROL Empfohlen für Sie]** und Warenkorbbasiert in der Erstellung der Vektoren für die möglichen Artikel. Für **[!UICONTROL Empfohlen für Sie]** haben die Elementvektoren Dimensions-NUsers, und jeder Eintrag ist die Summe der impliziten Bewertungen, die der Benutzer dem Element gegeben hat. Käufe haben ein 2faches Gewicht als Ansichten. Bei auf dem Warenkorb basierenden Empfehlungen haben die Artikelvektoren binäre Einträge. Wenn nur das Verhalten innerhalb einer Sitzung berücksichtigt wird, gibt es für jede Sitzung einen Eintrag. Andernfalls gibt es für jeden Besucher einen Eintrag.
 
-    Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([ PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (wie zuvor definiert) und eine normalisierte L2-Ähnlichkeit, wie folgt definiert:
+    Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([&#x200B; PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (wie zuvor definiert) und eine normalisierte L2-Ähnlichkeit, wie folgt definiert:
 
     ![Formel für die Trainings-Berechnung](/help/main/c-recommendations/c-algorithms/assets/formula4.png)
 

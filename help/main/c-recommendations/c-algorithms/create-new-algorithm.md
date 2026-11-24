@@ -45,7 +45,7 @@ Kriterien in [!DNL Adobe Target] [!DNL Recommendations] steuern den Inhalt [!DNL
 
 Sie haben viele Möglichkeiten, um auf den Bildschirm **[!UICONTROL Neue Kriterien erstellen]** zu gelangen. Einige Bildschirmoptionen variieren je nachdem, wie der Bildschirm erreicht wird.
 
-* Klicken Sie im Bildschirm **** > **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Hier erstellte Kriterien werden automatisch für alle [!DNL Recommendations] Aktivitäten zur Verfügung gestellt.
+* Klicken Sie im Bildschirm **&#x200B;**&#x200B;> **[!UICONTROL Kriterien]** Bibliothek auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]**. Hier erstellte Kriterien werden automatisch für alle [!DNL Recommendations] Aktivitäten zur Verfügung gestellt.
 
   ![Kriterienseite mit geöffnetem Menü „Kriterien erstellen“, das die Optionen „Kriterien erstellen“ und „Kriteriensequenz erstellen“ anzeigt](../assets/criteria_create_1.png)
 
@@ -122,7 +122,7 @@ Der Algorithmus bestimmt, wie die Elemente für die Empfehlungen ausgewählt wer
 
 ## [!UICONTROL Inhalt sichern] {#content}
 
-**[!UICONTROL Inhalt sichern]** bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente nicht dem „Recommendations[Design ](/help/main/c-recommendations/c-design-overview/design-overview.md). Kriterien können weniger Empfehlungen zurückgeben als im Design-Aufruf vorgesehen. Wenn das Design beispielsweise Slots für vier Elemente hat, die Kriterien jedoch nur zwei Elemente verursachen, die empfohlen werden, können die verbleibenden Slots leer gelassen oder mit Backup-Empfehlungen gefüllt werden oder es können keine Recommendations angezeigt werden.
+**[!UICONTROL Inhalt sichern]** bestimmen, was passiert, wenn die Anzahl der empfohlenen Elemente nicht dem „Recommendations[Design &#x200B;](/help/main/c-recommendations/c-design-overview/design-overview.md). Kriterien können weniger Empfehlungen zurückgeben als im Design-Aufruf vorgesehen. Wenn das Design beispielsweise Slots für vier Elemente hat, die Kriterien jedoch nur zwei Elemente verursachen, die empfohlen werden, können die verbleibenden Slots leer gelassen oder mit Backup-Empfehlungen gefüllt werden oder es können keine Recommendations angezeigt werden.
 
 1. (Optional) Aktivieren Sie die Option **[!UICONTROL Teilweises Design-Rendering]** .
 
@@ -154,7 +154,7 @@ Der Algorithmus bestimmt, wie die Elemente für die Empfehlungen ausgewählt wer
 
    Einschlussregeln bestimmen, welche Elemente in den Empfehlungen enthalten sind. Die verfügbaren Optionen hängen von der vertikalen Märkte ab.
 
-   Weitere Informationen finden Sie [ „Einschlussregeln angeben](#inclusion) unten.
+   Weitere Informationen finden Sie [&#x200B; „Einschlussregeln angeben](#inclusion) unten.
 
 ## [!UICONTROL Daten-Source] {#data-source}
 
@@ -214,7 +214,7 @@ Mithilfe der Funktion für Ähnlichkeit von Inhalten werden Artikelattribut-Schl
 
 Die Ähnlichkeit des Inhalts ist für neue Elemente wirksam, die wahrscheinlich nicht in Empfehlungen angezeigt werden, indem *Personen, die diese Ansicht angezeigt haben, auch angezeigt haben* und andere Logiken verwendet werden, die auf vergangenem Verhalten basieren. Es kann auch Empfehlungen für neue Besucher generieren, die keine früheren Käufe oder andere historische Daten haben.
 
-Wenn **[!UICONTROL Elementbasiert/]****[!UICONTROL Element mit ähnlichen Attributen]** ausgewählt ist, können Regeln erstellt werden, um die Bedeutung bestimmter Elementattribute für die Bestimmung von Empfehlungen zu erhöhen oder zu verringern. Bei Elementen wie Büchern kann die Wichtigkeit von Attributen wie *genre*, *author*, *series* usw. erhöht werden, um ähnliche Bücher zu empfehlen.
+Wenn **[!UICONTROL Elementbasiert/]**&#x200B;**[!UICONTROL Element mit ähnlichen Attributen]** ausgewählt ist, können Regeln erstellt werden, um die Bedeutung bestimmter Elementattribute für die Bestimmung von Empfehlungen zu erhöhen oder zu verringern. Bei Elementen wie Büchern kann die Wichtigkeit von Attributen wie *genre*, *author*, *series* usw. erhöht werden, um ähnliche Bücher zu empfehlen.
 
 Die Inhaltsähnlichkeit verwendet Schlüsselwörter, um Elemente zu vergleichen, sodass einige Attribute, wie *Nachricht* oder *Beschreibung*, „Rauschen“ in den Vergleich einführen können. Es können Regeln erstellt werden, um diese Attribute zu ignorieren.
 

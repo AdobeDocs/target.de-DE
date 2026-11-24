@@ -74,7 +74,7 @@ Designs sind im gesamten Konto verfügbar. Die kontenübergreifende Verwendung m
 
 ## JSON-Beispiel {#json-example}
 
-Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, wenn eine Aktivität mit dem [formularbasierten Editor“ konfiguriert ](/help/main/c-experiences/form-experience-composer.md).
+Das folgende Beispiel zeigt, wie JSON-Antworten zurückgegeben werden können, wenn eine Aktivität mit dem [formularbasierten Editor“ konfiguriert &#x200B;](/help/main/c-experiences/form-experience-composer.md).
 
 1. Erstellen Sie einen Entwurf aus der **[!UICONTROL Design-]**) oder dem formularbasierten Workflow. Ein Design, das im Workflow **[!UICONTROL Visual Experience Composer]** (VEC) erstellt wird, kann nur ein HTML-Design sein, das zu Klick-Tracking-Zwecken in eine `<div>` eingeschlossen wird.
 

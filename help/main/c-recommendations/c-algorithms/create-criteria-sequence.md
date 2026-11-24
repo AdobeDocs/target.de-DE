@@ -39,7 +39,7 @@ Wenn ein Kriterium nicht genügend Ergebnisse zurückgibt, um den Entwurf auszuf
 >
 >Kriteriensequenzen können nicht mit Aktivitäten **[!UICONTROL Recommendations) verwendet werden,]** vor der [!DNL Target Premium] vom Oktober 2016 erstellt wurden.
 
-Um eine Kriteriensequenz zu erstellen, erstellen Sie zunächst die Kriterien, die in die Sequenz aufgenommen werden sollen. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) erstellen .
+Um eine Kriteriensequenz zu erstellen, erstellen Sie zunächst die Kriterien, die in die Sequenz aufgenommen werden sollen. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) erstellen .
 
 Die Reihenfolge einer Kriteriensequenz kann je nach Seitentyp variieren, wie in den folgenden Beispielen gezeigt:
 

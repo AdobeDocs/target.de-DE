@@ -1,7 +1,7 @@
 ---
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
 description: Erfahren Sie, wie Sie mit [!DNL Recommendations] [!UICONTROL Katalogsuche] Produkte oder Inhalte suchen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
-title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " ]?
+title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " &#x200B;]?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
@@ -37,7 +37,7 @@ Die **[!UICONTROL Katalogsuche]** in [!DNL Adobe Recommendations] wird verwendet
 
 Der Katalog ist der gesamte Produktsatz (Entitäten). Es kann viele Sammlungen enthalten, die die Produkte in logischen Gruppen organisieren.
 
-Der Index des Katalogs wird beim Hochladen des ersten Feeds automatisch erstellt und gemäß dem [ Zeitplan ](/help/main/c-recommendations/c-products/feeds.md#steps).
+Der Index des Katalogs wird beim Hochladen des ersten Feeds automatisch erstellt und gemäß dem [&#x200B; Zeitplan &#x200B;](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Der Katalog wird automatisch aktualisiert, wenn Aktualisierungen über Feed-Dateien, die API- oder Mbox-Aktualisierungen empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
 
@@ -73,7 +73,7 @@ Verwenden Sie die Suchergebnisse, um die Elemente im Katalog zu überprüfen und
    >
    >Bei einer Katalogsuche nach einem benutzerdefinierten Attribut mit einem numerischen Wert wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert behandelt.
    >
-   >Der Typ eines Attributs kann derzeit nicht geändert werden. Um eine Änderung anzufordern, [Öffnen Sie ein Kundenproblem) und verweisen Sie auf ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Attribute, deren Typ von „Zeichenfolge“ in „numerisch“ geändert werden muss.
+   >Der Typ eines Attributs kann derzeit nicht geändert werden. Um eine Änderung anzufordern, [Öffnen Sie ein Kundenproblem) und verweisen Sie auf &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Attribute, deren Typ von „Zeichenfolge“ in „numerisch“ geändert werden muss.
 
 1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen, einschließlich ID, Name, Nachricht, Kategorie und mehr.
 
