@@ -1,8 +1,8 @@
 ---
 keywords: Recommendations-Algorithmen; Modellschulung; Modellbereitstellung; Inhaltsbereitstellung; artikelbasiert; benutzerbasiert; Beliebtheitsbasiert; Warenkorbbasiert; benutzerdefinierte Kriterien
 description: Erfahren Sie mehr über die in [!DNL Target Recommendations] verwendeten Algorithmen, einschließlich Modellschulung und Modellbereitstellung.
-title: Wo erhalte ich Informationen über die wissenschaftlichen Grundlagen der Empfehlungsalgorithmen von Target?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Die Wissenschaft hinter den Empfehlungsalgorithmen von Target
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -31,177 +31,181 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '3045'
+source-wordcount: '2755'
 ht-degree: 0%
 ---
-# Die Wissenschaft hinter den Empfehlungsalgorithmen von Target
+# Die Wissenschaft hinter den Empfehlungsalgorithmen von Target {#recommendations-algorithms}
 
-Eine ausführliche Beschreibung der in [!DNL Adobe Target Recommendations] verwendeten Algorithmen, einschließlich der logischen und mathematischen Details des Modelltrainings und des Prozesses der Modellbereitstellung.
+>[!BEGINSHADEBOX]
 
-Modelltraining ist der Prozess, wie Empfehlungen von den [!DNL Adobe Target] Lernalgorithmen erzeugt werden. Mit der Modellbereitstellung werden [!DNL Target] Ihren Site-Besuchern Empfehlungen bereitstellen (auch als Inhaltsbereitstellung bezeichnet).
+**Auf dieser Seite** Erfahren Sie, wie die Algorithmen in [!DNL Adobe Target Recommendations] funktionieren, einschließlich der Logik und mathematischer Details des Modelltrainings und der Modellbereitstellung.
 
-[!DNL Target] umfasst die folgenden Algorithmustypen in [!DNL Recommendations]:
+>[!ENDSHADEBOX]
 
-* **Elementbasierte Algorithmen**: beinhalten Algorithmen, die der Logik folgen: „Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft.“ Diese Algorithmen sind unter dem Oberbegriff Item-Item-Collaborative-Filterung gruppiert, sowie [!UICONTROL Items mit ähnlichen Attributen]-Algorithmen.
+Modelltraining ist der Prozess, durch den die [!DNL Adobe Target] Lernalgorithmen Empfehlungen generieren. Mit der Modellbereitstellung, auch Inhaltsbereitstellung genannt, werden [!DNL Target] diese Empfehlungen an die Besucher der Website weitergeleitet.
 
-* **Benutzerbasierte Algorithmen**: Beinhalten die [!UICONTROL Kürzlich angezeigt] und [!UICONTROL Für Sie empfohlen].
+[!DNL Target] bietet die folgenden Arten von Algorithmen in [!DNL Recommendations]:
 
-* **Beliebtheitsalgorithmen** Schließen Sie Algorithmen ein, die die am häufigsten angezeigten oder am häufigsten gekauften Artikel auf der Website oder die am häufigsten angezeigten oder am häufigsten gekauften Artikel nach Kategorie oder Artikelattribut zurückgeben.
+* **Artikelbasierte Algorithmen**: Befolgen Sie die Logik „Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft.“ Diese Algorithmen sind unter dem Begriff Element-Element-kollaboratives Filtern gruppiert. Dieser Typ enthält auch die Algorithmen **[!UICONTROL Elemente mit ähnlichen Attributen]**.
 
-* **Warenkorb-Algorithmen**: Schließen Sie auf mehreren Artikeln basierende Empfehlungen mit der Logik „Personen, die diese Artikel angesehen/gekauft haben, haben diese Artikel auch angesehen/gekauft“ ein.
+* **Benutzerbasierte Algorithmen**: Schließen Sie die Algorithmen **[!UICONTROL Kürzlich angezeigte Elemente]** und **[!UICONTROL Für Sie empfohlen]** ein.
 
-* **Benutzerdefinierte Kriterien**: Schließen Sie Empfehlungen ein, die auf benutzerdefinierten Dateien basieren, die in [!DNL Target] hochgeladen wurden.
+* **Beliebtheitsalgorithmen**: Gibt die am häufigsten angezeigten oder am häufigsten gekauften Artikel auf der Website oder nach Kategorie oder Artikelattribut zurück.
 
->[!NOTE]
->
->Weitere allgemeine Informationen zu den einzelnen Algorithmustypen und den einzelnen Algorithmen finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+* **Warenkorb-basierte Algorithmen**: Erstellen Sie Empfehlungen für mehrere Artikel mit der Logik „Personen, die diese Artikel angezeigt/gekauft haben, haben diese Artikel ebenfalls angesehen/gekauft“.
 
-Viele der oben aufgeführten Algorithmen basieren auf dem Vorhandensein eines oder mehrerer Schlüssel. Diese Schlüssel werden verwendet, um ähnliche Elemente zum Zeitpunkt der Inhaltsbereitstellung abzurufen (wenn Empfehlungen gegeben werden). Kundenspezifische Schlüssel können den aktuellen Artikel, den eine Person anzeigt, den zuletzt angezeigten oder gekauften Artikel, den am häufigsten angezeigten Artikel, die aktuelle Kategorie oder die Favoritenkategorie für diesen Besucher enthalten. Andere Algorithmen, wie z. B. Warenkorb- oder benutzerbasierte Empfehlungen, verwenden implizite Schlüssel (die vom Kunden nicht konfiguriert werden können). Weitere Informationen finden Sie unter *Empfehlungsschlüssel* in &quot;[&#x200B; der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys). Beachten Sie jedoch, dass diese Schlüssel nur zur Modellbereitstellungszeit relevant sind (Inhaltsbereitstellung). Diese Schlüssel wirken sich nicht auf die Logik der „Offline“- oder Modell-Trainingszeit aus.
+* **Benutzerdefinierte Kriterien**: Verwenden Sie benutzerdefinierte Dateien, die in [!DNL Target] als Quelle von Empfehlungen hochgeladen wurden.
 
-In den folgenden Abschnitten werden Algorithmen etwas anders gruppiert als die oben beschriebenen Algorithmustypen. Die folgende Gruppierung basiert auf der Ähnlichkeit der Modell-Trainings-Logik.
+Weitere Informationen zu den einzelnen Algorithmustypen und ihren Algorithmen finden Sie unter [Stützen der Empfehlung auf einen Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
+Viele dieser Algorithmen sind auf einen oder mehrere Schlüssel angewiesen, die [!DNL Target] zum Zeitpunkt der Inhaltsbereitstellung (wenn Empfehlungen gegeben werden) verwendet, um ähnliche Elemente abzurufen. Kundenspezifische Schlüssel können das aktuelle Element sein, das der Besucher anzeigt, das zuletzt angezeigte oder gekaufte Element, das am häufigsten angezeigte Element, die aktuelle Kategorie oder die Favoritenkategorie des Besuchers. Andere Algorithmen, z. B. die Warenkorb- und benutzerbasierten Algorithmen, verwenden implizite Schlüssel, die vom Kunden nicht konfiguriert werden können. Weitere Informationen finden Sie unter [Empfehlungsschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys).
+
+Schlüssel gelten nur zur Modellbereitstellungszeit (Inhaltsbereitstellung). Sie wirken sich nicht auf die Logik des Offline-Modelltrainings aus.
+
+In den folgenden Abschnitten werden die Algorithmen nach der Ähnlichkeit ihrer Modelltrainingslogik gruppiert, sodass sich die Gruppen geringfügig von den oben genannten Typen unterscheiden.
 
 ## Partizipatives Filtern nach Elementen
 
 Zu den Algorithmen gehören:
 
-* [!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]
-* [!UICONTROL Leute, die das angesehen haben, kauften das]
-* [!UICONTROL Personen, die das gekauft haben, kauften das]
+* **[!UICONTROL Personen, die dies angesehen haben, haben dies angesehen]**
+* **[!UICONTROL Leute, die das angesehen haben, kauften das]**
+* **[!UICONTROL Personen, die das gekauft haben, kauften das]**
 
-Algorithmen für kollaborative Filterempfehlungen für Elemente basieren auf der Idee, dass Sie die Verhaltensmuster vieler Benutzer verwenden sollten (daher „kollaborativ„), um nützliche Empfehlungen für ein bestimmtes Element bereitzustellen (z. B. Filtern des Katalogs möglicher zu empfehlender Elemente). Obwohl es viele verschiedene Algorithmen gibt, die unter den allgemeinen Dach der [kollaborativen Filterung](https://en.wikipedia.org/wiki/Collaborative_filtering) fallen, verwenden diese Algorithmen universell verhaltensbezogene Datenquellen als Eingaben. [!DNL Target Recommendations] sind diese Eingaben die individuellen Ansichten und Käufe von Artikeln durch Benutzende.
+Algorithmen zur kollaborativen Filterung von Elementen verwenden die Verhaltensmuster vieler Benutzer (daher „kollaborativ„), um Elemente zu empfehlen, die sich auf ein bestimmtes Element beziehen. Dadurch wird der Katalog möglicher Elemente gefiltert. Viele verschiedene Algorithmen fallen in den allgemeinen Rahmen der kollaborativen Filterung, und alle von ihnen verwenden Verhaltensdaten als Eingabe. [!DNL Target Recommendations] sind diese Eingaben die individuellen Ansichten und Käufe von Artikeln durch Benutzende.
 
-Für den Algorithmus „Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft“ besteht das Ziel darin, eine Ähnlichkeit (A,B) zwischen allen Artikelpaaren zu berechnen. Für ein bestimmtes Element A werden die wichtigsten Empfehlungen dann nach ihrer Ähnlichkeit (A, B) sortiert.
+Für die Algorithmen „Personen, die diesen Artikel angesehen/gekauft haben, haben auch diese Artikel angesehen/gekauft“ besteht das Ziel darin, eine Ähnlichkeit (A,B) zwischen allen Artikelpaaren zu berechnen. Für ein bestimmtes Element A sind die wichtigsten Empfehlungen die nach ihrer Ähnlichkeit(A,B) sortierten Elemente.
 
-Ein Beispiel für eine solche Ähnlichkeit ist das gleichzeitige Auftreten von Artikeln: eine einfache Zählung der Anzahl der Benutzer, die beide Artikel gekauft haben. Obwohl intuitiv, ist eine solche Metrik insofern naiv, als sie darauf ausgerichtet ist, beliebte Elemente zu empfehlen. Wenn zum Beispiel in einem Lebensmittelgeschäft in retailer die meisten Leute Brot kaufen, gibt es Brot in hohem Maße gleichzeitig mit allen Artikeln, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen eine komplexere Ähnlichkeitsmetrik namens Log Likelihood Ratio (LLR). Diese Größe ist groß, wenn die Wahrscheinlichkeit des gleichzeitigen Auftretens von zwei Elementen, A und B, sehr unterschiedlich zu der Wahrscheinlichkeit ist, dass sie nicht gleichzeitig auftreten. Um es konkret zu machen, betrachten wir den Algorithmus [!UICONTROL Personen, die dies angesehen, das gekauft haben]. Die LLR-Ähnlichkeit ist groß, wenn die Wahrscheinlichkeit, dass B gekauft wurde, *nicht* unabhängig davon ist, ob jemand A betrachtet hat.
+Ein Beispiel für eine Ähnlichkeit ist das gleichzeitige Auftreten von Artikeln: eine Anzahl der Benutzer, die beide Artikel gekauft haben. Diese Metrik ist intuitiv, aber naiv, da sie darauf ausgerichtet ist, beliebte Elemente zu empfehlen. In einem Lebensmittelgeschäft in retailer, wo die meisten Menschen Brot kaufen, kommt Brot häufig mit allen Artikeln vor, aber es ist nicht unbedingt eine gute Empfehlung. [!DNL Target] verwendet stattdessen das Log Likelihood Ratio (LLR). Diese Größe ist groß, wenn die Wahrscheinlichkeit des gleichzeitigen Auftretens von zwei Elementen, A und B, sehr verschieden von der Wahrscheinlichkeit ist, dass sie nicht gleichzeitig auftreten. Beispielsweise ist bei dem Algorithmus **[!UICONTROL People Who Viewed This, Bought That]** die LLR-Ähnlichkeit groß, wenn die Wahrscheinlichkeit, dass jemand B gekauft hat, *nicht* unabhängig davon ist, ob er A gesehen hat.
 
-Wenn z. B.
+Element B wird nicht für Element A empfohlen, wenn Folgendes zutrifft:
 
-![Formel für den angezeigten/gekauften Algorithmus](assets/formula.png)
+![Formel für den angezeigten/gekauften Algorithmus](/help/main/c-recommendations/c-algorithms/assets/formula.png)
 
-dann sollte Element B nicht mit Element A empfohlen werden. Die vollständigen Details dieser Ähnlichkeitsberechnung des Log-Wahrscheinlichkeitsverhältnisses sind [dieser PDF) &#x200B;](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+Ausführliche Informationen zur Ähnlichkeitsberechnung des Log-Wahrscheinlichkeitsverhältnisses finden Sie unter [dieser PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
-Der logische Ablauf der tatsächlichen Algorithmimplementierung wird im folgenden Diagramm dargestellt:
+Das folgende Diagramm zeigt den logischen Ablauf der Algorithmimplementierung:
 
-![Schemadiagramm eines angezeigten/gekauften Algorithmus](assets/diagram1.png)
+![Schemadiagramm eines angezeigten/gekauften Algorithmus](/help/main/c-recommendations/c-algorithms/assets/diagram1.png)
 
-Die Einzelheiten dieser Schritte lauten wie folgt:
+Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Verhaltensdaten in Form von Ansichten und Käufen von Besucherinnen und Besuchern, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Verhaltensdaten in Form von Besucheransichten und Käufen, die beim [Implementieren von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
-  * **Datenbereinigung und -**: Bei Algorithmen mit einem N-tägigen Lookback werden die Verhaltensdaten zunächst so gefiltert, dass nur die N Tage der Daten einbezogen werden. Sammlungsregeln und globale Ausschlüsse werden dann angewendet, um alle Elemente zu entfernen, die nicht empfohlen werden sollten. Schließlich werden bei allen Besuchern, die mit mehr als 1.000 Elementen interagiert haben, die Nutzungsdaten nur auf 1.000 Elemente gesampelt.
-  * **Berechnung der Elementähnlichkeit**: Dies ist der wichtigste Berechnungsschritt: Berechnung der Ähnlichkeit des Log-Wahrscheinlichkeitsverhältnisses zwischen allen möglichen Elementpaaren und Rangfolge der Elementpaare nach diesem Ähnlichkeitswert.
-  * **Offline-**: Schließlich werden alle weiteren anwendbaren dynamischen Filter angewendet (z. B. dynamische Kategorieausschlüsse). Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert, um für die Bereitstellung verfügbar zu sein.
+  * **Datenbereinigung und -**: Bei Algorithmen mit einem N-tägigen Lookback werden die Verhaltensdaten zunächst so gefiltert, dass nur die N Tage der Daten einbezogen werden. Sammlungsregeln und globale Ausschlüsse werden dann angewendet, um alle Elemente zu entfernen, die nicht empfohlen werden sollten. Schließlich werden die Nutzungsdaten von Besuchern, die mit mehr als 1.000 Elementen interagiert haben, auf 1.000 Elemente reduziert.
+  * **Berechnung der Artikelähnlichkeit**: Der wichtigste Berechnungsschritt. [!DNL Target] berechnet die Ähnlichkeit des Log Likelihood-Verhältnisses zwischen allen möglichen Elementpaaren und ordnet die Paare nach diesem Score an.
+  * **Offline-**: Alle weiteren anwendbaren dynamischen Filter werden angewendet (z. B. dynamische Kategorieausschlüsse). Die vorberechneten Empfehlungen werden dann global zwischengespeichert und können bereitgestellt werden.
 
-* **Modellbereitstellung**: Recommendations-Inhalte werden vom globalen &quot;Edge[Netzwerk“ von [!DNL Target] bereitgestellt](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Wenn Mbox-Anfragen an [!DNL Target] gesendet werden und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird die Anfrage für den entsprechenden [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) für den Recommendations-Algorithmus entweder aus der Anfrage analysiert oder aus dem Benutzerprofil nachgeschlagen und dann zum Abrufen der in den vorherigen Schritten berechneten Recommendations verwendet. Zu diesem Zeitpunkt werden weitere dynamische Filter angewendet, bevor das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md) gerendert wird.
+* **Modellbereitstellung**: Die Empfehlungen werden vom [globalen &quot;Edge&quot;-Netzwerk](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) der [!DNL Target] bereitgestellt. Wenn eine Mbox-Anfrage an [!DNL Target] gesendet wird und festgelegt wird, dass Recommendations-Inhalte an die Seite gesendet werden sollen, wird der [Elementschlüssel](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) den der Algorithmus benötigt, entweder aus der Anfrage ausgewertet oder aus dem Besucherprofil nachgeschlagen. [!DNL Target] verwendet diesen Schlüssel, um die in den vorherigen Schritten berechneten Empfehlungen abzurufen, wendet weitere dynamische Filter an und rendert dann das entsprechende [Design](/help/main/c-recommendations/c-design-overview/create-design.md).
 
 ## Ähnlichkeit des Inhalts
 
 Enthaltener Algorithmus:
 
-* [!UICONTROL Elemente mit ähnlichen Attributen]
+* **[!UICONTROL Elemente mit ähnlichen Attributen]**
 
-Bei diesem Algorithmustyp werden zwei Elemente als miteinander verbunden betrachtet, wenn ihre Namen und Textbeschreibungen semantisch ähnlich sind. Im Gegensatz zu den meisten Recommendations-Algorithmen, in denen Verhaltensdatenquellen verwendet werden müssen, verwenden Inhaltsähnlichkeits-Algorithmen Metadaten aus Produktkatalogen, um die Ähnlichkeit zwischen Elementen abzuleiten. [!DNL Target] ist daher in der Lage, Empfehlungen in so genannten „Kaltstart“-Szenarien voranzutreiben, in denen keine Verhaltensdaten erfasst wurden (z. B. zu Beginn einer [!DNL Target]).
+Bei diesem Algorithmus sind zwei Elemente verknüpft, wenn ihre Namen und Textbeschreibungen semantisch ähnlich sind. Im Gegensatz zu den meisten Recommendations-Algorithmen, die Verhaltensdaten erfordern, leiten Inhaltsähnlichkeits-Algorithmen die Ähnlichkeit zwischen Elementen aus Produktkatalog-Metadaten ab. [!DNL Target] können daher Empfehlungen in so genannten „Kaltstart“-Szenarien abgeben, in denen noch keine Verhaltensdaten erfasst wurden (z. B. zu Beginn einer [!DNL Target]).
 
-Obwohl die Aspekte der Modellbereitstellung und Inhaltsbereitstellung der Inhaltsähnlichkeitsalgorithmen von [!DNL Target] mit anderen artikelbasierten Algorithmen identisch sind, sind die Modellschulungsschritte völlig unterschiedlich und umfassen eine Reihe von Vorverarbeitungs- und Verarbeitungsschritten für natürliche Sprache, wie im folgenden Diagramm dargestellt. Der Kern der Ähnlichkeitsberechnung ist die Verwendung der Kosinusähnlichkeit von modifizierten tf-idf-Vektoren, die jedes Element im Katalog darstellen.
+Die Modellbereitstellung und Inhaltsbereitstellung für Inhaltsähnlichkeits-Algorithmen sind mit denen der anderen artikelbasierten Algorithmen identisch. Das Modell-Training ist sehr unterschiedlich: Es umfasst eine Reihe von Schritten zur Verarbeitung und Vorverarbeitung natürlicher Sprache, die in der folgenden Abbildung dargestellt werden. Der Kern der Ähnlichkeitsberechnung ist die Kosinusähnlichkeit von modifizierten tf-idf-Vektoren, die jedes Element im Katalog darstellen.
 
-![Diagramm, das den Fluss des Inhaltsähnlichkeits-Prozesses zeigt](assets/diagram2.png)
+![Diagramm, das den Fluss des Inhaltsähnlichkeits-Prozesses zeigt](/help/main/c-recommendations/c-algorithms/assets/diagram2.png)
 
-Die Einzelheiten dieser Schritte lauten wie folgt:
+Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dieser Algorithmus basiert, wie zuvor beschrieben, ausschließlich auf Katalogdaten (die über einen -Katalog[Feed, die Entitäten-API oder aus Aktualisierungen auf der Seite in [!DNL Target] aufgenommen &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+* **Eingabedaten**: Dieser Algorithmus verwendet nur Katalogdaten, die über einen Katalogfeed[ die Entitäten-API oder [!DNL Target] Aktualisierungen auf der Seite aufgenommen ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modell-**:
 
-  * **Attributextraktion**: Nach der Anwendung regulärer statischer Filter, Katalogregeln und globaler Ausschlüsse extrahiert dieser Algorithmus relevante Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie aus den Entitätsattributen und versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[&#x200B; zu &#x200B;](/help/main/c-recommendations/c-products/entity-attributes.md). Dieser Prozess erfolgt, indem sichergestellt wird, dass die meisten Werte für dieses Feld nicht als Zahl, Datum oder Boolesch parabel werden können.
-  * **Stemmen und Entfernen von Stoppwörtern**: Für eine genauere Textähnlichkeitsübereinstimmung ist es ratsam, sehr gängige „Stopp“-Wörter zu entfernen, die die Bedeutung eines Elements nicht wesentlich ändern (z. B. „was“, „ist“, „and“ usw.). In ähnlicher Weise bezieht sich das Wortstammen auf den Prozess, Wörter mit unterschiedlichen Suffixen auf ihr Stammwort zu reduzieren, das eine identische Bedeutung hat (z. B. haben „connect“, „connector“ und „connection“ alle dasselbe Stammwort: „connect„). [!DNL Target] verwendet den Schneeballstamm. [!DNL Target] führt zuerst die automatische Spracherkennung durch und kann die Wortentfernung für bis zu 50 Sprachen und das Stemmen für 18 Sprachen stoppen.
-  * **N-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Der Prozess des Kombinierens zusammenhängender Sequenzen von Token zu einem einzigen Token wird als n-Gram-Erstellung bezeichnet. Die Algorithmen von [!DNL Target] berücksichtigen bis zu 2 Gramm.
-  * **tf-idf computation**: Der nächste Schritt umfasst die Erstellung von tf-idf-Vektoren, um die relative Bedeutung von Token in der Artikelbeschreibung widerzuspiegeln. Für jeden Token/Term t in einem Element i wird in einem Katalog D mit |D| Elementen zuerst die Termfrequenz TF(t, i) berechnet (die Anzahl, wie oft der Term in dem Element i erscheint), sowie die Dokumentenfrequenz DF(t, D). Im Wesentlichen die Anzahl der Elemente, in denen das Token vorhanden ist. Die tf-idf-Kennzahl wird dann
+  * **Attributextraktion**: Nachdem statische Filter, Katalogregeln und globale Ausschlüsse angewendet wurden, extrahiert der Algorithmus die relevanten Textfelder aus dem Entitätsschema. [!DNL Target] verwendet automatisch die Felder Name, Nachricht und Kategorie der Entitätsattribute. Außerdem wird versucht, Zeichenfolgenfelder aus benutzerdefinierten (Entitätsattributen[ zu ](/help/main/c-recommendations/c-products/entity-attributes.md). Ein Feld wird als Zeichenfolgenfeld behandelt, wenn der Großteil seiner Werte nicht als Zahl, Datum oder Boolesch analysiert werden kann.
+  * **Stemmen und Entfernen von Stoppwörtern**: Um die Übereinstimmung der Textähnlichkeit genauer zu machen, entfernt [!DNL Target] sehr gängige „Stopp“-Wörter, die die Bedeutung eines Elements nicht wesentlich ändern (z. B. „was“, „ist“ und „and„). Das Wortstammen reduziert Wörter mit unterschiedlichen Suffixen auf ihr Stammwort, das eine identische Bedeutung hat (z. B. haben „connect“, „connector“ und „connection“ alle das Stammwort „connect„). [!DNL Target] verwendet den Schneeballstamm. Zuerst führt es eine automatische Spracherkennung durch und kann Stoppwörter für bis zu 50 Sprachen entfernen und das Stemmen für 18 Sprachen durchführen.
+  * **N-Gramm-Erstellung**: Nach den vorherigen Schritten wird jedes Wort als Token behandelt. Das Kombinieren zusammenhängender Sequenzen von Token zu einem einzigen Token wird als N-Gram-Erstellung bezeichnet. [!DNL Target] berücksichtigt bis zu 2 Gramm.
+  * **tf-idf Berechnung**: Im nächsten Schritt werden tf-idf-Vektoren erstellt, die die relative Bedeutung von Token in der Artikelbeschreibung widerspiegeln. Für jeden Token bzw. Term t in einem Element i berechnet [!DNL Target] in einem Katalog D mit |D| Elementen zunächst die Termfrequenz TF(t, i), die die Anzahl der Auftritte des Terms in Element i ist, und die Dokumentenfrequenz DF(t, D), die die Anzahl der Elemente ist, in denen der Token t vorhanden ist. Die tf-idf-Kennzahl lautet dann:
 
-    ![Formel für die tf-idf-Kennzahl](assets/formula2.png)
+    ![Formel für die tf-idf-Kennzahl](/help/main/c-recommendations/c-algorithms/assets/formula2.png)
 
-    [!DNL Target] verwendet die Implementierung der Funktionen von *tf-idf* von Apache Spark, bei der jedes Token im Hintergrund auf ein Leerzeichen von 218 Token hasht. In diesem Schritt wird auch eine kundenspezifische Attributverstärkung und -vergrabung angewendet, indem die Begriffsfrequenzen in jedem Vektor auf der Grundlage der in den [&#x200B; angegebenen Einstellungen angepasst &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+    [!DNL Target] verwendet die Implementierung der *tf-idf*-Funktion von Apache Spark, bei der jedes Token in ein Leerzeichen von 2,<sup> Token </sup> wird. In diesem Schritt wird auch das in den [Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) angegebene Attribut angewendet, indem die Termfrequenzen in jedem Vektor angepasst werden.
 
-  * **Berechnung der Artikelähnlichkeit**: Die letzte Berechnung der Artikelähnlichkeit erfolgt mit einer ungefähren Kosinusähnlichkeit. Für die beiden Positionen *A* und *B* mit den Vektoren tA und tB wird die Kosinusähnlichkeit wie folgt definiert:
+  * **Berechnung der Artikelähnlichkeit**: Die endgültige Artikelähnlichkeit wird mit einer ungefähren Kosinusähnlichkeit berechnet. Für die beiden Positionen *A* und *B* mit den Vektoren tA und tB wird die Kosinusähnlichkeit wie folgt definiert:
 
-    ![Formel zur Berechnung der Artikelähnlichkeit](assets/formula3.png)
+    ![Formel zur Berechnung der Artikelähnlichkeit](/help/main/c-recommendations/c-algorithms/assets/formula3.png)
 
-    Um eine erhebliche Komplexität bei der Berechnung der Ähnlichkeiten zwischen allen N x N Elementen zu vermeiden, wird der *tf-idf*-Vektor abgeschnitten, sodass er nur die größten 500 Einträge enthält, und dann werden Kosinusähnlichkeiten zwischen Elementen mithilfe dieser abgeschnittenen Vektordarstellung berechnet. Dieser Ansatz erweist sich bei dünnen Vektorähnlichkeitsberechnungen als robuster im Vergleich zu anderen Ann-Techniken (Approximate Nearest Neighbor), wie z. B. lokalitätsempfindliches Hashing.
+    Um die signifikante Komplexität der Berechnung von Ähnlichkeiten zwischen allen N x N Elementen zu vermeiden, wird der *tf-idf* Vektor auf seine größten 500 Einträge gekürzt, und Kosinusähnlichkeiten zwischen Elementen werden aus dieser gekürzten Darstellung berechnet. Dieser Ansatz ist für dünne Vektorähnlichkeitsberechnungen robuster als andere Analogietechniken für „Näherungsnachbarn“ (Approximate Neast Neighbor, ANN), z. B. Hashing mit Ortsempfindlichkeit.
 
-  * **Modellbereitstellung**: Dieser Prozess ist identisch mit den im vorherigen Abschnitt beschriebenen kollaborativen Filtertechniken für Elemente.
+* **Modellbereitstellung**: Dieser Prozess ist identisch mit dem Prozess für die kollaborative Elementfilterung, der im vorherigen Abschnitt beschrieben wurde.
 
 ## Empfehlungen mit mehreren Schlüsseln
 
 Zu den Algorithmen gehören:
 
 * Warenkorb-basierte Empfehlungen
-* [!UICONTROL Empfohlen für Sie]
+* **[!UICONTROL Empfohlen für Sie]**
 
-Die neuesten Ergänzungen der [!DNL Target] Suite von Recommendations-Algorithmen sind [!UICONTROL Recommended For You] und eine Reihe von Warenkorb-basierten Recommendations-Algorithmen. Beide Algorithmustypen verwenden kollaborative Filtertechniken, um individuelle, auf Elementen basierende Empfehlungen zu erstellen. Zur Laufzeit werden dann mehrere Elemente im Browser-Verlauf des Benutzers (für [!UICONTROL Empfohlen für Sie]) oder der aktuelle Warenkorb des Benutzers (für Warenkorb-basierte Empfehlungen) verwendet, um diese auf Elementen basierenden Empfehlungen abzurufen, die dann zusammengeführt werden, um die endgültige Liste der Empfehlungen zu bilden. Beachten Sie, dass es viele Varianten personalisierter Empfehlungsalgorithmen gibt. Die Wahl eines Algorithmus mit mehreren Schlüsseln bedeutet, dass Empfehlungen sofort verfügbar sind, nachdem ein Besucher einen Navigationsverlauf hat, und dass Empfehlungen aktualisiert werden können, um auf das neueste Besucherverhalten zu reagieren.
+**[!UICONTROL Empfohlen für Sie]** und die Warenkorb-basierten Algorithmen verwenden kollaborative Filtertechniken, um individuelle artikelbasierte Empfehlungen zu erstellen. Zum Zeitpunkt des Versands werden mehrere Elemente als Schlüssel zum Abrufen dieser artikelbasierten Empfehlungen verwendet: die Elemente im Browser-Verlauf des Besuchers (für **[!UICONTROL Empfohlen für Sie]**) oder im aktuellen Warenkorb des Besuchers (für Empfehlungen auf Warenkorbbasis). Die abgerufenen Recommendations werden zur endgültigen Liste zusammengeführt. Bei einem Algorithmus mit mehreren Schlüsseln sind Empfehlungen verfügbar, sobald ein Besucher einen Navigationsverlauf hat, und sie werden aktualisiert, um das neueste Besucherverhalten widerzuspiegeln.
 
-Diese Algorithmen bauen auf den grundlegenden kollaborativen Filtertechniken auf, die im Abschnitt Elementbasierte Empfehlungen beschrieben werden, enthalten jedoch auch eine Hyperparameteroptimierung, um die optimale Ähnlichkeitsmetrik zwischen Elementen zu ermitteln. Der Algorithmus führt eine chronologische Aufteilung der Verhaltensdaten für jede Benutzerin und jeden Benutzer durch und trainiert Empfehlungsmodelle für die früheren Daten, während versucht wird, die Elemente vorherzusagen, die eine Benutzerin oder ein Benutzer später ansieht oder kauft. Anschließend wird die Ähnlichkeitsmetrik ausgewählt, die die optimale [mittlere durchschnittliche Genauigkeit]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) ergibt.
+Diese Algorithmen bauen auf den im Abschnitt Elementbasierte Empfehlungen beschriebenen partizipativen Filtertechniken auf und verwenden außerdem eine Hyperparameteroptimierung, um die optimale Ähnlichkeitsmetrik zwischen Elementen zu ermitteln. Der Algorithmus teilt die Verhaltensdaten der einzelnen Benutzer chronologisch auf und trainiert Empfehlungsmodelle anhand der früheren Daten, während er versucht, die Elemente vorherzusagen, die der Benutzer später ansieht oder kauft. Anschließend wird die Ähnlichkeitsmetrik mit der besten mittleren Genauigkeit ausgewählt.
 
-Die Logik der Schritte zum Trainieren und Bewerten von Modellen wird im folgenden Diagramm dargestellt:
+Das folgende Diagramm zeigt die Logik der Schritte zum Modell-Training und zur Bewertung:
 
-![Diagramm mit der Logik der Modell-Trainings- und Bewertungsschritte](assets/diagram3.png)
+![Diagramm mit der Logik der Modell-Trainings- und Bewertungsschritte](/help/main/c-recommendations/c-algorithms/assets/diagram3.png)
 
-Die Einzelheiten dieser Schritte lauten wie folgt:
+Die Schritte lauten wie folgt:
 
-* **Eingabedaten**: Dies ist identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. [!UICONTROL Empfohlen für Sie] und Warenkorb-Algorithmen verwenden Verhaltensdaten in Form von Ansichten und Käufen von Benutzenden, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} oder von [Adobe Analytics erfasst &#x200B;](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Eingabedaten**: Identisch mit den Methoden für das kollaborative Filtern (CF) nach Elementen. Sowohl **[!UICONTROL Empfohlen für Sie]** als auch Warenkorb-basierte Algorithmen verwenden Verhaltensdaten in Form von Benutzeransichten und Käufen, die bei der [Implementierung von Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} oder von [Adobe Analytics erfasst ](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modell-**:
 
-  * **Datenbereinigung und -**: Dies ist wieder dasselbe wie bei kollaborativen Filtermethoden, bei denen das Lookback-Fenster angewendet wird, um Verhaltensdaten nach einem geeigneten Datumsbereich zu filtern, gefolgt von der Anwendung von Katalogregeln und globalen Ausschlüssen. Bei Besucherinnen und Besuchern, die mit mehr als 1.000 Elementen interagiert haben, werden nur die letzten 1.000 Anwendungen berücksichtigt.
-  * **Testaufspaltung trainieren**: Führen Sie eine chronologische Aufspaltung der Nutzung für jeden Benutzer durch und weisen Sie die ersten 80 % seiner Nutzung Schulungsdaten zu, während die restlichen 20 % den Testdaten zugewiesen werden.
-  * **Modell-Training für die Artikelähnlichkeit**: Die Berechnung der Kernartikel-Ähnlichkeit unterscheidet sich für [!UICONTROL Empfohlen für Sie] und Warenkorb-basierte Algorithmen in der Art und Weise, wie Vektoren für mögliche Artikel konstruiert werden. Für [!UICONTROL Empfohlen für Sie] haben die Artikelvektoren die Dimension NUsers, wobei jeder Eintrag die Summe der impliziten Bewertungen für diesen Benutzer des Artikels darstellt - Käufe eines Artikels erhalten ein Gewicht von 2x dem der Ansichten des Artikels. Bei Empfehlungen auf Warenkorbbasis verfügen die Elementvektoren über binäre Einträge. Wenn nur das Verhalten innerhalb einer Sitzung berücksichtigt werden soll, gibt es für jede Sitzung einen neuen Eintrag. Andernfalls gibt es für jeden Besucher einen Eintrag in diesem Elementvektor.
+  * **Datenbereinigung und -**: Wie bei den partizipativen Filtermethoden. Das Lookback-Fenster filtert die Verhaltensdaten in einen geeigneten Datumsbereich, woraufhin Katalogregeln und globale Ausschlüsse angewendet werden. Bei Besuchern, die mit mehr als 1.000 Elementen interagiert haben, werden nur die letzten 1.000 Verwendungen berücksichtigt.
+  * **Trainingstest-Aufteilung**: Die Verwendungen der einzelnen Benutzenden werden chronologisch aufgeteilt. Die ersten 80 % werden den Schulungsdaten und die restlichen 20 % den Testdaten zugewiesen.
+  * **Modell-Training für Artikelähnlichkeit**: Die Berechnung der Kernelement-Ähnlichkeit unterscheidet sich zwischen **[!UICONTROL Empfohlen für Sie]** und Warenkorbbasiert in der Erstellung der Vektoren für die möglichen Artikel. Für **[!UICONTROL Empfohlen für Sie]** haben die Elementvektoren Dimensions-NUsers, und jeder Eintrag ist die Summe der impliziten Bewertungen, die der Benutzer dem Element gegeben hat. Käufe haben ein 2faches Gewicht als Ansichten. Bei auf dem Warenkorb basierenden Empfehlungen haben die Artikelvektoren binäre Einträge. Wenn nur das Verhalten innerhalb einer Sitzung berücksichtigt wird, gibt es für jede Sitzung einen Eintrag. Andernfalls gibt es für jeden Besucher einen Eintrag.
 
-  Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([&#x200B; hier erörtert](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (zuvor definiert) und eine normalisierte L2-Ähnlichkeit, definiert als:
+    Im Trainingsschritt werden mehrere Typen von Vektorähnlichkeiten berechnet: LLR-Ähnlichkeit ([ PDF](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), Kosinusähnlichkeit (wie zuvor definiert) und eine normalisierte L2-Ähnlichkeit, wie folgt definiert:
 
-  ![Formel für die Trainings-Berechnung](assets/formula4.png)
+    ![Formel für die Trainings-Berechnung](/help/main/c-recommendations/c-algorithms/assets/formula4.png)
 
-  * **Bewertung des Elementähnlichkeitsmodells**: Die Modellevaluierung erfolgt anhand der im vorherigen Schritt generierten Empfehlungen und anhand von Prognosen zum Testdatensatz. Die Online-Bewertungsphase wird nachgeahmt, indem die Elementnutzung jedes Benutzers im Testdatensatz chronologisch sortiert und dann 100 Empfehlungen für sortierte Untergruppen von Elementen gegeben werden, um spätere Ansichten und Käufe vorherzusagen. Eine Metrik zum Abrufen von Informationen, [Mean Average Precision]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), wird verwendet, um die Qualität dieser Empfehlungen zu bewerten. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Elemente weiter oben in der Liste der Empfehlungen, die eine wichtige Eigenschaft für Rangfolgesysteme ist.
+  * **Bewertung des Elementähnlichkeitsmodells**: Die im vorherigen Schritt generierten Empfehlungen werden anhand von Prognosen für den Testdatensatz ausgewertet. Die Online-Bewertungsphase wird nachgeahmt, indem die Elementnutzung jedes Benutzers im Testdatensatz chronologisch sortiert wird und dann 100 Empfehlungen für sortierte Untergruppen von Elementen gegeben werden, um spätere Ansichten und Käufe vorherzusagen. Die Qualität dieser Empfehlungen wird mit der durchschnittlichen Präzision bewertet, einer Metrik zum Abrufen von Informationen. Diese Metrik berücksichtigt die Reihenfolge der Empfehlungen und bevorzugt relevante Elemente weiter oben in der Liste, was eine wichtige Eigenschaft für Rangfolgesysteme ist.
   * **Modellauswahl**: Nach der Offline-Auswertung wird das Modell mit der höchsten mittleren Genauigkeit ausgewählt und alle individuellen Element-Element-Empfehlungen werden dafür berechnet.
-  * **Offline-**: Die letzte Phase des Modelltrainings ist die Anwendung aller anwendbaren dynamischen Filter. Nach diesem Schritt werden vorberechnete Empfehlungen global zwischengespeichert, um für die Bereitstellung verfügbar zu sein.
+  * **Offline-**: Die letzte Phase der Modellschulung wendet alle anwendbaren dynamischen Filter an. Die vorberechneten Empfehlungen werden dann global zwischengespeichert und können bereitgestellt werden.
 
-* **Modellbereitstellung**: Im Gegensatz zu früheren Algorithmen, bei denen Bereitstellungsempfehlungen das Angeben eines einzelnen Schlüssels zum Abrufen und anschließende Anwendung von Geschäftsregeln beinhalten, verwenden die [!UICONTROL Empfohlen für Sie] und die Warenkorb-basierten Algorithmen einen komplexeren Laufzeitprozess.
+* **Modellbereitstellung**: Im Gegensatz zu den vorherigen Algorithmen, die einen einzelnen Schlüssel zum Abrufen angeben und dann Geschäftsregeln anwenden, verwenden **[!UICONTROL Für Sie empfohlen]** und Warenkorbbasiert einen komplexeren Laufzeitprozess:
 
-  * **Abrufen und Zusammenführen mehrerer Schlüssel**: Bei auf dem Warenkorb basierenden Empfehlungen werden bis zu zehn Artikel, die im Warenkorb übergeben werden, als Schlüssel für den Abruf betrachtet, und die Empfehlungen von jedem werden gleich gewichtet. Für [!UICONTROL Empfohlen für Sie] werden bis zu die letzten fünf einzigartigen angezeigten Artikel und die letzten fünf eindeutigen gekauften Artikel als Schlüssel zum Abruf betrachtet, wobei Empfehlungen, die aus gekauften Artikeln stammen, doppelt so stark gewichtet werden wie Empfehlungen, die aus angezeigten Artikeln stammen. Wenn beim Zusammenführen von Recommendations ein Element in mehreren individuellen Listen von Recommendations angezeigt wird, werden seine gewichteten Ähnlichkeitsbewertungen hinzugefügt. Die endgültige Liste der Empfehlungen aus dieser Phase ist dann die zusammengeführte Liste der neu gewichteten Empfehlungen, sortiert in absteigender Reihenfolge.
-  * **Filtern** Als Nächstes werden Filterregeln wie das Entfernen zuvor angezeigter und/oder gekaufter Artikel sowie andere dynamische Geschäftsregeln angewendet.
+  * **Abrufen und Zusammenführen mehrerer Schlüssel**: Bei auf dem Warenkorb basierenden Empfehlungen werden bis zu zehn im Warenkorb übergebene Artikel als Schlüssel zum Abrufen verwendet und die Empfehlungen aus jedem Schlüssel werden gleich gewichtet. Bei **[!UICONTROL Empfohlen für Sie]** werden bis zu den letzten fünf Einzelansichtselementen und die letzten fünf Einzelkäufe als Schlüssel verwendet, und Empfehlungen von gekauften Elementen werden doppelt so stark gewichtet wie die von angezeigten Elementen. Wenn Empfehlungen zusammengeführt werden, werden die gewichteten Ähnlichkeitswerte eines Elements, das in mehreren Listen angezeigt wird, hinzugefügt. Das Ergebnis ist die zusammengeführte Liste neu gewichteter Empfehlungen, die in absteigender Reihenfolge angeordnet werden.
+  * **Filtern**: Filterregeln, wie das Entfernen zuvor angezeigter oder gekaufter Artikel, und andere dynamische Geschäftsregeln werden angewendet.
 
-Diese Prozesse werden in der folgenden Abbildung veranschaulicht, in der ein Besucher Artikel A und Artikel B angesehen hat. Einzelne Empfehlungen werden mit den Offline-Ähnlichkeitsbewertungen abgerufen, die unter den einzelnen Artikelbeschriftungen angezeigt werden. Nach dem Abrufen werden die Empfehlungen mit den summierten gewichteten Ähnlichkeitsbewertungen zusammengeführt. In einem Szenario, in dem der Kunde angegeben hat, dass zuvor angezeigte und gekaufte Artikel herausgefiltert werden müssen, entfernt der Filterschritt schließlich die Artikel A und B aus der Liste der Empfehlungen.
+Die folgende Abbildung zeigt diese Prozesse für einen Besucher, der Artikel A und Artikel B angesehen hat. Die einzelnen Empfehlungen werden mit den Offline-Ähnlichkeitsbewertungen abgerufen, die unter den einzelnen Artikelbeschriftungen angezeigt werden, und dann mit den gewichteten Ähnlichkeitsbewertungen zusammengeführt, die zusammengefasst werden. Wenn der Kunde angegeben hat, dass zuvor angezeigte und gekaufte Artikel herausgefiltert werden müssen, entfernt der Filterschritt die Artikel A und B aus der Liste der Empfehlungen.
 
-![Diagramm zur Verarbeitung von Algorithmen mit mehreren Schlüsseln](assets/diagram4.png)
+![Diagramm zur Verarbeitung von Algorithmen mit mehreren Schlüsseln](/help/main/c-recommendations/c-algorithms/assets/diagram4.png)
 
 ## Beliebtheitsbasiert
 
 Zu den Algorithmen gehören:
 
-* [!UICONTROL Am häufigsten auf der Website angezeigt]
-* [!UICONTROL Am häufigsten angezeigt nach Kategorie]
-* [!UICONTROL Am häufigsten angezeigt nach Elementattribut]
-* [!UICONTROL Meist gesehen nach Profilattribut]
-* [!UICONTROL Topverkäufe auf der Website]
-* [!UICONTROL Topverkäufe nach Kategorie]
-* [!UICONTROL Topverkäufe nach Artikelattribut]
-* [!UICONTROL Topverkäufe nach Profilattribut]
+* **[!UICONTROL Am häufigsten auf der Website angezeigt]**
+* **[!UICONTROL Am häufigsten angezeigt nach Kategorie]**
+* **[!UICONTROL Am häufigsten angezeigt nach Elementattribut]**
+* **[!UICONTROL Meist gesehen nach Profilattribut]**
+* **[!UICONTROL Topverkäufe auf der Website]**
+* **[!UICONTROL Topverkäufe nach Kategorie]**
+* **[!UICONTROL Topverkäufe nach Artikelattribut]**
+* **[!UICONTROL Topverkäufe nach Profilattribut]**
 
-[!DNL Target] bietet Beliebtheitsalgorithmen für die am häufigsten angezeigten Elemente sowie für die meistverkauften Elemente, entweder auf einer Website oder aufgeschlüsselt nach Artikelattribut oder Kategorie. Popularitätsbasierte Algorithmen ordnen Elemente basierend auf der Anzahl der Sitzungen, in denen dieses Element in einem bestimmten Zeitrahmen angezeigt oder gekauft wurde.
+[!DNL Target] bietet Beliebtheitsalgorithmen für die am häufigsten angezeigten Elemente und für die meistverkauften Elemente, entweder auf der gesamten Website oder aufgeschlüsselt nach Artikelattribut oder Kategorie. Diese Algorithmen ordnen Artikel nach der Anzahl der Sitzungen, in denen der Artikel in einem bestimmten Zeitraum angezeigt oder gekauft wurde.
 
-Alle diese Algorithmen kombinieren aggregierte Verhaltensdaten, bei denen die Gesamtzahl der Sitzungen, in denen Artikel angezeigt und gekauft wurden, sowohl in stündlichen als auch in täglichen Auflösungen aufgezeichnet wird. Einzelne Algorithmen finden dann die am häufigsten angezeigten oder gekauften Artikel für das vom Kunden konfigurierte Lookback-Fenster.
+Alle diese Algorithmen kombinieren aggregierte Verhaltensdaten, die die Gesamtzahl der Sitzungen aufzeichnen, in denen Artikel angezeigt und gekauft wurden, sowohl bei stündlichen als auch bei täglichen Auflösungen. Jeder Algorithmus findet dann die am häufigsten angezeigten oder gekauften Artikel für das kundenkonfigurierte Lookback-Fenster.
 
-Die einzelnen Algorithmusnuancen lauten wie folgt:
+Die Algorithmen unterscheiden sich wie folgt:
 
-* [!UICONTROL Am häufigsten auf der Website angezeigt] und [!UICONTROL Topverkäufe auf der Website] sortieren Artikel nach der aggregierten Anzahl der Sitzungen, in denen diese Artikel angezeigt bzw. gekauft wurden. Die Ausgabe ist eine einzelne (schlüssellose) Liste empfohlener Elemente.
-* Die am häufigsten angezeigten/Topverkäufe nach Kategorie-/Artikelattribut sind Empfehlungen, bei denen Artikel nach der aggregierten Anzahl der Sitzungen sortiert werden, in denen diese Artikel angezeigt oder gekauft wurden, jedoch nach Artikelkategorie oder spezifischem Artikelattribut gruppiert sind. Die Ergebnisse sind Listen empfohlener Elemente, die durch Werte von Kategorien oder Werte von Elementattributen verschlüsselt sind.
-* [!UICONTROL Am häufigsten angezeigt nach Profilattribut] und [!UICONTROL Topverkäufe nach Profilattribut] sortieren Artikel auch nach aggregierter Ansicht oder Kaufanzahl. Der Gruppierungsschlüssel ist jedoch ein Besucherprofilattribut , z. B. Land, Region oder Mitgliedschaftsstufe, anstelle einer Elementeigenschaft. Die Anzahl jeder Sitzung wird dem jeweiligen Profilwert zugeordnet, den der Besucher zum Zeitpunkt der Interaktion gehalten hat, nicht einem Attribut des Elements. Das Ergebnis ist ein Satz von Empfehlungslisten, die durch die eindeutigen Werte dieses Profilattributs verschlüsselt sind.
+* **[!UICONTROL Am häufigsten auf der Website angezeigt]** und **[!UICONTROL Topverkäufe auf der Website]** sortieren Artikel nach der aggregierten Anzahl der Sitzungen, in denen die Artikel angezeigt bzw. gekauft wurden. Die Ausgabe ist eine einzelne (schlüssellose) Liste empfohlener Elemente.
+* Die am häufigsten angezeigten und Topverkäufe nach Kategorie oder Artikelattribut bestellen Artikel ebenfalls nach der aggregierten Sitzungsanzahl, gruppieren sie jedoch nach Artikelkategorie oder nach einem bestimmten Artikelattribut. Die Ausgabe besteht aus Listen empfohlener Elemente, die durch die Werte der Kategorien oder Elementattribute verschlüsselt werden.
+* **[!UICONTROL Am häufigsten angezeigt nach Profilattribut]** und **[!UICONTROL Topverkäufe nach Profilattribut]** sortieren Artikel auch nach aggregierter Ansicht oder Kaufanzahl, sie gruppieren jedoch nach einem Besucherprofilattribut, z. B. Land, Region oder Mitgliedschaftsstufe, anstelle einer Artikeleigenschaft. Die Anzahl jeder Sitzung wird dem Profilwert zugeordnet, den der Besucher zum Zeitpunkt der Interaktion gehalten hat, nicht einem Attribut des Elements. Das Ergebnis ist ein Satz von Empfehlungslisten, die durch die eindeutigen Werte dieses Profilattributs verschlüsselt sind.
 
 ## Kürzlich angesehen
 
-Der Algorithmus für „kürzlich angezeigte“ Empfehlungen ermöglicht die Personalisierung von Empfehlungen während der Sitzung. Dieser Algorithmus erfordert kein Offline-„Modell-Training“. Stattdessen verwendet [!DNL Target] das eindeutige [Besucherprofil](/help/main/c-target/c-visitor-profile/visitor-profile.md), um eine laufende Liste der Elemente zu verwalten, die in einer bestimmten Sitzung angezeigt wurden, und kann diese Elemente in Recommendations-Aktivitäten einblenden. Dies ermöglicht Echtzeit-Aktualisierungen an Recommendations und die Personalisierung der nächsten Seite.
+Der Algorithmus „Recently Viewed“ ermöglicht die sitzungsinterne Personalisierung von Recommendations. Es ist kein Offline-Modell-Training erforderlich. Stattdessen verwendet [!DNL Target] das eindeutige [Besucherprofil](/help/main/c-target/c-visitor-profile/visitor-profile.md), um eine laufende Liste der in einer Sitzung angezeigten Elemente zu verwalten, und kann diese Elemente in Recommendations-Aktivitäten einblenden. Dies ermöglicht Echtzeit-Aktualisierungen für Recommendations und die Personalisierung der nächsten Seite.
 
 ## Benutzerdefinierte Kriterien
 
-Benutzerdefinierte Kriterien ermöglichen es Kunden, [ihre eigenen Empfehlungen in hochzuladen [!DNL Target]](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) was wichtige Flexibilität bietet und Funktionen für „Ihr eigenes Modell mitbringen“ ermöglicht. Benutzerdefinierte Kriterien ersetzen den Teil „Offline-Schulung“ der [!UICONTROL Elementbasierten] Empfehlungen, verhalten sich jedoch ähnlich wie Elementbasierte Empfehlungsalgorithmen während der Online-Inhaltsbereitstellungsphase, indem ein einzelner Schlüssel zum Abrufen von Empfehlungen verwendet wird und Geschäftsregeln/Filter angewendet werden.
+Benutzerdefinierte Kriterien ermöglichen es Kunden, [ihre eigenen Empfehlungen in Target hochzuladen](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) was Flexibilität bietet und Funktionen für „Eigenes Modell mitbringen“ ermöglicht. Benutzerdefinierte Kriterien ersetzen den Offline-Trainings-Teil **[!UICONTROL (]**) Empfehlungen. Bei der Bereitstellung von Online-Inhalten verhalten sie sich wie die Algorithmen auf Elementbasis: Zum Abrufen von Empfehlungen wird ein einzelner Schlüssel verwendet, woraufhin Geschäftsregeln und Filter angewendet werden.

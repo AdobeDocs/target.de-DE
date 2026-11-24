@@ -1,8 +1,8 @@
 ---
 keywords: Einschlussregeln;Einschlusskriterien;Recommendations;Promotion;Promotions;dynamische Filterung;dynamische Parameterübereinstimmung
 description: Erfahren Sie, wie Sie in Adobe [!DNL Target] Recommendations dynamisch filtern können, indem Sie Elemente (Entitäten) mit einem Wert in der Anfrage (API oder Mbox) vergleichen.
-title: Wie filtere ich nach Parameterübereinstimmung in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Parameterübereinstimmung
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 TQID: 'https://experienceleague.adobe.com/GTli-O1p4Gm2Fg9J-L0ukQ8dSw2t-da8OatFLP8Ks9g'
@@ -18,39 +18,35 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 10%
+source-wordcount: '311'
+ht-degree: 8%
 ---
-# [!UICONTROL Parameterübereinstimmung]
+# Parameterübereinstimmung {#parameter-matching}
 
-Dynamisches Filtern durch Vergleichen von Elementen (Entitäten) mit einem Wert in der Anfrage (API oder Mbox).
+>[!BEGINSHADEBOX]
 
-Empfehlen Sie beispielsweise nur Inhalte, die dem Seitenparameter „Branche“ oder anderen Parametern wie Geräteabmessungen oder Geografie entsprechen, wie in den folgenden Beispielen dargestellt.
+**Auf dieser Seite** Erfahren Sie, wie Sie Empfehlungen dynamisch in [!DNL Adobe Target Recommendations] filtern können, indem Sie Elemente (Entitäten) mit einem Wert in der Anfrage (API oder Mbox) vergleichen.
+
+>[!ENDSHADEBOX]
+
+**[!UICONTROL Parameterübereinstimmung]** empfiehlt nur den Inhalt, der den Seitenparametern oder den Parametern des Besuchers entspricht, z. B. Geräteabmessungen oder Geografie. Beispielsweise können nur Inhalte empfohlen werden, die dem Seitenparameter „Industry“ entsprechen. Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und Promotions ist ähnlich, genauso wie die Anwendungsfälle und Beispiele. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
+Weitere Beispiele:
 
 * Mbox-Parameter für Bildschirmbreite und -höhe können verwendet werden, um mobile Besucher anzusprechen und nur Mobilgeräte und Zubehör zu empfehlen.
-* Erstellen Sie eine Recommendations-Regel, die nur die meistverkauften Mobiltelefone zurückgibt, die mit der Bildschirmhöhe des Mobilgeräts, das der Besucher verwendet, übereinstimmen oder diese überschreiten.
+* Eine Recommendations-Regel kann nur die meistverkauften Mobiltelefone zurückgeben, die mit der Bildschirmhöhe des Mobilgeräts, das der Besucher zum Anzeigen der Seite verwendet, übereinstimmen oder diese überschreiten.
 * Regionale Standortparameter können verwendet werden, um im Winter Empfehlungen für Werkzeuge zurückzugeben. Schneefräsen und andere Schneeminderungswerkzeuge können für Besucher in Gebieten empfohlen werden, in denen es schneit, aber nicht für Besucher in Gebieten, in denen es nicht schneit.
-
->[!NOTE]
->
->Wenn die Aktivität vor dem 31. Oktober 2016 erstellt wurde, schlägt der Versand fehl, wenn der Filter „Parameterübereinstimmung“ verwendet wird. So umgehen Sie das Problem:
->
->* Erstellen Sie eine neue Aktivität und fügen Sie Ihre Kriterien darin hinzu.
->* Verwenden Sie Kriterien, die den Filter „Parameterübereinstimmung“ nicht enthalten.
->* Entfernen Sie den Filter „Parameterübereinstimmung“ aus Ihren Kriterien.
 
 ## Beispiele für Parameterübereinstimmung
 
-Mit [!UICONTROL Parameterübereinstimmung] können Sie Inhalte empfehlen, die den Seitenparametern oder den Parametern des Besuchers entsprechen, z. B. Geräteabmessungen oder Geografie, wie im folgenden Beispiel gezeigt:
+[!DNL Recommendations] können mit Parameterwerten übereinstimmen, die im [!DNL Target] Aufruf gesendet werden. Im folgenden Beispiel erkennt [!DNL Target] anhand der im [!DNL Target]-Aufruf gesendeten Parameter Bildschirmhöhe und Breite, dass ein Besucher ein Mobilgerät verwendet, und empfiehlt nur Elemente, die Mobilgeräte sind.
 
-[!DNL Recommendations] können mit Parameterwerten übereinstimmen, die im [!DNL Target] Aufruf gesendet werden. In diesem Fall erkennt [!DNL Target] anhand der Parameter Bildschirmhöhe und Breite, die im [!DNL Target] Aufruf gesendet werden, dass ein Besucher ein Mobilgerät verwendet, und empfiehlt nur Elemente, die Mobilgeräte sind.
-
-Betrachten Sie das folgende Beispiel für einen Target-Aufruf:
+Betrachten Sie das folgende [!DNL Target]:
 
 ![Target-Aufruf](/help/main/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-Auf der Seite, die ein Besucher anzeigt, werden ihm Produkte für Mobilgeräte angezeigt.
+Auf der Seite, die eine Besucherin oder ein Besucher anzeigt, werden Produkte für Mobilgeräte angezeigt.
 
 ![Produkte für Mobilgeräte](/help/main/c-recommendations/c-algorithms/assets/phones.png)

@@ -2,7 +2,7 @@
 keywords: Recommendations; Recommendations-Aktivität; Kriterien; Algorithmus
 description: Erfahren Sie, wie Sie die Kriterien (Regeln, die bestimmen, welche Produkte oder Inhalte empfohlen werden sollen) auswählen, die in Ihrer Adobe [!DNL Target] Recommendations-Aktivität verwendet werden sollen.
 title: Wie wähle ich Kriterien für eine Recommendations-Aktivität aus?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,11 +31,11 @@ Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen d
 
   Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
-* Um neue Kriterien zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]** und geben Sie dann die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Neue Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Um neue Kriterien zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]** und geben Sie dann die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Neue Kriterien erstellen](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria).
 
 **So wählen Sie Kriterien aus:**
 
-1. Suchen [&#x200B; beim Erstellen einer &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
+1. Suchen [ beim Erstellen einer ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
 
    Sie können das Kontrollkästchen [!UICONTROL Branchentyp] Filter, [!UICONTROL Seitentyp] Filter und [!UICONTROL Kompatibel] zum Filtern der Kriterienliste verwenden. Diese Optionen helfen Ihnen bei der Suche nach den gewünschten Kriterien.
 

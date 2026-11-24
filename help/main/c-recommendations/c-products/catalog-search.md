@@ -1,8 +1,8 @@
 ---
 keywords: Katalogsuche;Katalog;Suche;Ausschluss;Sammlung;Filter;Recommendations
 description: Erfahren Sie, wie Sie mit [!DNL Recommendations] [!UICONTROL Katalogsuche] Produkte oder Inhalte suchen, Elemente aus Ihrem Katalog entfernen und vieles mehr.
-title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " &#x200B;]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Wie verwende ich die [!DNL Recommendations] "[!UICONTROL " ]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
@@ -20,28 +20,42 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 20%
+source-wordcount: '551'
+ht-degree: 7%
 ---
-# [!UICONTROL Katalogsuche]
+# [!UICONTROL Katalogsuche] {#catalog-search}
 
-Die [!UICONTROL Katalogsuche] in [!DNL Adobe Recommendations] hilft Ihnen, die Produkte oder Inhalte in Ihrem Katalog zu finden. Die einfachste Aufgabe, die Sie auf dieser Seite ausführen können, besteht darin, nach einem Element zu suchen. Darüber hinaus können Sie die Umgebung ändern, Facetten filtern, Spalten in der Tabelle ändern, neue Suchfacetten hinzufügen und vieles mehr.
+>[!BEGINSHADEBOX]
 
-Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog kann viele Sammlungen enthalten, sodass Sie Ihre Produkte in logischen Buckets organisieren können.
+**Auf dieser Seite** Erfahren Sie, wie Sie den Katalog in durchsuchen, [!DNL Adobe Recommendations] Produkte oder Inhalte zu finden und Elemente zu filtern, anzuzeigen und zu entfernen.
 
-## Zugriff [!UICONTROL Katalogsuche]
+>[!ENDSHADEBOX]
 
-1. Um auf die Seite [!UICONTROL Katalogsuche] zuzugreifen, klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Katalogsuche]**.
+Die **[!UICONTROL Katalogsuche]** in [!DNL Adobe Recommendations] wird verwendet, um die Produkte oder Inhalte im Katalog zu finden. Die einfachste Aufgabe auf dieser Seite besteht darin, nach einem Element zu suchen. Die Seite ermöglicht auch das Ändern der Umgebung, das Filtern von Facetten, das Ändern der Spalten in der Tabelle und mehr.
 
-1. (Optional) Um Filter auf Ihre Suche anzuwenden, klicken Sie auf das Symbol **[!UICONTROL Filter anzeigen]** (Symbol ![Filter anzeigen](/help/main/assets/icons/Filter.svg) ). Sie können nach [!UICONTROL Umgebung], [!UICONTROL Sammlungen], [!UICONTROL Kategorie], [!UICONTROL Marke], [!UICONTROL Inventar] und [!UICONTROL Wert] filtern.
+Der Katalog ist der gesamte Produktsatz (Entitäten). Es kann viele Sammlungen enthalten, die die Produkte in logischen Gruppen organisieren.
 
-## Einfache Suche durchführen
+Der Index des Katalogs wird beim Hochladen des ersten Feeds automatisch erstellt und gemäß dem [ Zeitplan ](/help/main/c-recommendations/c-products/feeds.md#steps).
+
+Der Katalog wird automatisch aktualisiert, wenn Aktualisierungen über Feed-Dateien, die API- oder Mbox-Aktualisierungen empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
+
+## Katalog durchsuchen
+
+Verwenden Sie die Suchergebnisse, um die Elemente im Katalog zu überprüfen und bei Bedarf Elemente aus dem Katalog zu entfernen.
+
+1. Klicken Sie auf **[!UICONTROL Recommendations]** > **[!UICONTROL Katalogsuche]**.
+
+1. (Optional) Um die Ergebnisse zu filtern, klicken Sie auf das Symbol **[!UICONTROL Filter anzeigen]** ( ![Symbol „Filter anzeigen](/help/main/assets/icons/Filter.svg) ) und wählen Sie dann die anzuwendenden Filter aus. Die verfügbaren Filter sind **[!UICONTROL Umgebung]**, **[!UICONTROL Sammlungen]**, **[!UICONTROL Kategorie]**, **[!UICONTROL Marke]**, **[!UICONTROL Inventar]** und **[!UICONTROL Wert]**.
+
+   [Umgebungen](/help/main/administrating-target/environments.md) Organisieren von Sites und Vorproduktionsumgebungen für die Verwaltung und das separate Reporting. Um die Umgebung zu ändern, wählen Sie die gewünschte Umgebung aus der Dropdown-Liste **[!UICONTROL Umgebung]** aus.
+
+   ![Seite „Katalogsuche“ mit hervorgehobenem Filterbedienfeld: Sammlungen, Kategorie, Marke, Inventar, Wert und erweiterte Suche](../assets/catalog_search.png)
 
 1. Geben Sie einen Suchbegriff in das Feld **[!UICONTROL Suche in]** ein.
 
-1. (Optional) Sie können Ihre Suche einschränken, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das angezeigt wird, wenn Sie auf den Abwärtspfeil im Feld [!UICONTROL Suche in] klicken.
+1. (Optional) Verfeinern Sie die Suche, indem Sie eine Suchoption aus dem Optionsmenü auswählen, das über den Abwärtspfeil im Feld **[!UICONTROL Suche in]** geöffnet wird.
 
    Zu den Suchoptionen zählen:
 
@@ -49,13 +63,27 @@ Kataloge beziehen sich auf den gesamten Produktsatz (Entitäten). Ihr Katalog ka
    * Name
    * Nachricht
 
+1. Klicken Sie auf das **[!UICONTROL Tabelle anpassen]**-Symbol ( ![Symbol Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ), um die aktiven Spalten auf der Seite **[!UICONTROL Katalogsuche]** zu ändern.
+
+   ![Katalogsuchseite mit hervorgehobenem Symbol „Tabelle anpassen“](../assets/catalog_search_4.png)
+
 1. Scrollen Sie durch die Elemente in den Suchergebnissen, um Miniaturansichten und andere Produktinformationen anzuzeigen.
 
    >[!NOTE]
    >
-   > Wenn Sie einen Katalog nach einem benutzerdefinierten Attribut mit einem numerischen Wert durchsuchen, wird das benutzerdefinierte Attribut als String-Typ (Zeichenfolge) und nicht als numerischer Wert betrachtet.
+   >Bei einer Katalogsuche nach einem benutzerdefinierten Attribut mit einem numerischen Wert wird das benutzerdefinierte Attribut als String-Typ und nicht als numerischer Wert behandelt.
    >
-   >Derzeit gibt es keine Funktion, mit der Sie den Attributtyp ändern können. Wenn Sie eine Änderung vornehmen müssen, eröffnen Sie ein [Supportticket](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Geben Sie darin die Attribute an, deren Typ von „String“ in „numerisch“ geändert werden muss.
+   >Der Typ eines Attributs kann derzeit nicht geändert werden. Um eine Änderung anzufordern, [Öffnen Sie ein Kundenproblem) und verweisen Sie auf ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Attribute, deren Typ von „Zeichenfolge“ in „numerisch“ geändert werden muss.
+
+1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen, einschließlich ID, Name, Nachricht, Kategorie und mehr.
+
+   ![Details eines Katalogelements, das seine ID, Kategorien, Marge und andere Attribute anzeigt](../assets/catalog_search_2.png)
+
+1. Um das Element aus dem Katalog zu entfernen, klicken Sie auf **[!UICONTROL Aus Katalog]**.
+
+   Alle Informationen zu diesem Element werden dann aus dem Katalogindex entfernt. Das Element wird nur dann erneut in den Katalog aufgenommen, wenn es erneut in einem Daten-Feed hinzugefügt wird. Ein gelöschtes Element muss auch getrennt von den Feeds gelöscht werden.
+
+   ![Details eines Katalogelements mit der hervorgehobenen Schaltfläche „Aus Katalog entfernen“](../assets/catalog_search_3.png)
 
 <!--
 ### Perform an advanced search {#advanced-search}
@@ -81,52 +109,6 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
    For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
 -->
 
-## Details eines Elements anzeigen
-
-Sie können die Details eines einzelnen Elements, einschließlich ID, Name, Nachricht, Kategorie und mehr, anzeigen, indem Sie dessen Details anzeigen.
-
-1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen.
-
-## Entfernen eines Elements aus dem Katalog
-
-1. Klicken Sie auf ein Element in den Suchergebnissen, um dessen Details anzuzeigen.
-
-1. Klicken Sie **[!UICONTROL Aus Katalog entfernen]**.
-
-1. Bestätigen Sie, dass Sie das Element entfernen möchten.
-
-Alle Informationen zu diesem Element werden aus dem Katalogindex entfernt. Das Element wird nur dann in Ihren Katalog aufgenommen, wenn es erneut in einem Daten-Feed hinzugefügt wird. Ein gelöschtes Element muss separat aus Feeds gelöscht werden.
-
-## Katalog aktualisieren
-
-Der Index Ihres Katalogs wird automatisch erstellt, wenn Sie Ihren ersten Feed hochladen, und gemäß dem [&#x200B; Zeitplan aktualisiert](/help/main/c-recommendations/c-products/feeds.md#steps).
-
-Der Katalog wird automatisch aktualisiert, wenn Updates über Feed-Dateien, API- oder Mbox-Updates empfangen werden. Aktualisierungen werden in der Regel innerhalb einer Stunde abgeschlossen. Wenn Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet wurde. Wenn keine Aktualisierungen ausgeführt werden, wird der Zeitpunkt angezeigt, zu dem das letzte Update gestartet und abgeschlossen wurde.
-
-<!--
-## Create a collection or exclusion based on Advanced Search {#save-as}
-
-You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
-
-1. Perform an [advanced search](#advanced-search).
-
-1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
-
-   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
-
-   >[!IMPORTANT]
-   >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
--->
-
-## Ändern der Umgebung
-
-[Umgebungen](/help/main/administrating-target/environments.md) ermöglichen Ihnen das Organisieren Ihrer Sites und Vorproduktionsumgebungen für einfaches Management und separates Reporting.
-
-1. Klicken Sie auf das Symbol Filter anzeigen ![Symbol Filter anzeigen](/help/main/assets/icons/Filter.svg) .
-
-1. Wählen Sie die gewünschte Umgebung aus **[!UICONTROL Dropdown-Liste]** Umgebung“ aus.
-
 <!--
 ## Modify the Catalog Search page (filters and columns)
 
@@ -147,12 +129,20 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 Keep in mind that the additional filter facets are available in the current session only.
 -->
 
-## Spalten ändern
 
-Sie können die aktiven Spalten auf der Seite [!UICONTROL Katalogsuche] ändern.
 
-1. Klicken Sie auf **[!UICONTROL Tabelle anpassen]** (![Symbol Tabelle anpassen](/help/main/assets/icons/ColumnSetting.svg) ).
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
-1. Wählen Sie die gewünschten Spalten aus, die Sie anzeigen oder ausblenden möchten, oder heben Sie die Auswahl auf.
+You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-Alle Änderungen, die Sie vornehmen, bleiben sitzungsübergreifend bestehen.
+1. Perform an [advanced search](#advanced-search).
+
+1. Click **[!UICONTROL Save As]**, then click **[!UICONTROL Collection]** or **[!UICONTROL Exclusion]**.
+
+   ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
+
+   >[!IMPORTANT]
+   >
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->

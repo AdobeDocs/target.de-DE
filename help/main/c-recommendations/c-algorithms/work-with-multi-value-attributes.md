@@ -1,7 +1,7 @@
 ---
 keywords: mehrere Werte;Attribute;Recommendations;mehrere Werte;mehrere Werte;mehrere Werte
 description: Erfahren Sie, wie Sie in [!DNL Target Recommendations] mit einem Feld mit mehreren Werten arbeiten können, indem Sie spezielle Operatoren für mehrere Werte verwenden.
-title: Kann ich in Recommendations Attribute mit mehreren Werten verwenden?
+title: Arbeiten mit Attributen mit mehreren Werten
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 TQID: 'https://experienceleague.adobe.com/FrjVxvYfGh2o-qomXRbVh6WS6f65Mja41gBMhejEPlE'
@@ -17,43 +17,36 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 8%
+source-wordcount: '502'
+ht-degree: 2%
 ---
-# Arbeiten mit Attributen mit mehreren Werten
+# Arbeiten mit Attributen mit mehreren Werten {#multi-value-attributes}
 
-Manchmal empfiehlt es sich, ein Feld mit mehreren Werten zu verwenden. Sehen Sie sich folgende Beispiele an:
+>[!BEGINSHADEBOX]
 
-* Sie bieten Benutzern Spielfilme an. In der Regel wirken an jedem Film mehrere Schauspieler mit.
-* Sie verkaufen Konzerttickets. Die meisten Benutzer haben mehrere Lieblingsbands.
-* Sie verkaufen Bekleidung. Jedes Hemd ist in verschiedenen Größen erhältlich.
+**Auf dieser Seite** Erfahren Sie, wie Sie Daten mit mehreren Werten an [!DNL Adobe Target Recommendations] senden und in Einschlussregeln mit den Operatoren mit mehreren Werten verwenden können.
 
-Um Empfehlungen in diesen Szenarien zu verarbeiten, können Sie Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und spezielle Operatoren für mehrere Werte verwenden.
+>[!ENDSHADEBOX]
 
-Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren können, sollten sie als JSON-Array gesendet werden, wie in den folgenden Code-Beispielen dargestellt.
+Ein Feld mit mehreren Werten enthält mehrere Werte für dasselbe Element oder denselben Besucher. Beispiel:
 
-## Übergeben eines Parameters mit mehreren Werten in JavaScript
+* Filme, die Benutzern angeboten werden: Ein Film hat mehrere Schauspieler.
+* Tickets für Konzerte: ein bestimmter Nutzer hat mehrere Lieblingsbands.
+* Bekleidung verkauft: Ein Hemd ist in mehreren Größen erhältlich.
 
-```
-function targetPageParams() { 
-  return { 
-    'entity.id':                   '123', 
-    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
-    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
-    'entity.event.detailsOnly':     'true', 
-    'excludedIds":                  '[123, 3232, 2323, 4344]', 
-    'orderId":                      '123456', 
-    'orderTotal":                   '195.32', 
-    'productPurchaseId":            '[001,002,003]' 
-  }; 
-}
-```
+Um Empfehlungen in diesen Szenarien zu verarbeiten, können Daten mit mehreren Werten an [!DNL Target Recommendations] übergeben und mit speziellen Operatoren für mehrere Werte verwendet werden.
 
-Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehreren Werten](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Benutzerdefinierte Entitätsattribute*.
+## Senden von Daten mit mehreren Werten {#send}
 
-## Übergeben eines Entitätsattributs mit mehreren Werten in einer CSV-Datei
+Damit [!DNL Recommendations] Daten mit mehreren Werten identifizieren können, sollten sie als JSON-Array gesendet werden.
+
+Einen Parameter mit mehreren Werten in JavaScript (`targetPageParams`) finden Sie unter [Implementieren von Attributen mit mehreren Werten](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Benutzerdefinierte Entitätsattribute*.
+
+In einer CSV-Datei wird ein Entitätsattribut mit mehreren Werten als JSON-Array in der Zelle des Attributs gesendet, wie im folgenden Beispiel dargestellt.
+
++++ CSV-Beispieldatei mit einem Attribut mit mehreren Werten
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -70,26 +63,28 @@ Weitere Informationen finden Sie unter [Implementieren von Attributen mit mehrer
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Wenn ein Entitätsattribut, ein Profilattribut oder ein Mbox-Parameter als Mehrfachwert gemäß dem oben genannten Format angegeben wird, leitet [!DNL Recommendations] automatisch davon ab, dass das Feld mehrwertig ist.
++++
+
+Wenn ein Entitätsattribut, ein Profilattribut oder ein Mbox-Parameter als Mehrfachwert in diesem Format angegeben wird, leitet [!DNL Recommendations] automatisch davon ab, dass das Feld mehrwertig ist.
+
+## Verwenden von Attributen mit mehreren Werten in Einschlussregeln {#multi-value-inclusion-rules}
 
 Die folgenden Operatoren sind für die Verwendung mit Entitäts-, Profil- und Mbox-Attributen mit mehreren Werten verfügbar:
 
-* [!UICONTROL Ist in Liste enthalten]
-* [!UICONTROL ist nicht in der Liste enthalten]
-
-## Arbeiten mit Attributen mit mehreren Werten in Einschlussregeln
+* **[!UICONTROL Ist in Liste enthalten]**
+* **[!UICONTROL ist nicht in der Liste enthalten]**
 
 >[!NOTE]
 >
->Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur in Kriterien verfügbar, wenn eine Regel für die Zuordnung von Profilattributen oder Parametern (Mbox)-Attributvergleiche beim Vergleich eines einzelnen Werts auf der linken Seite mit einer rechten Seite mit mehreren Werten verwendet wird. Attribute mit mehreren Werten werden derzeit nicht in Promotions, in der Zuordnung von Entitätsattributen oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
+>Die Unterstützung für die dynamische Zuordnung zu Attributen mit mehreren Werten ist derzeit nur bei Kriterien verfügbar, die eine Regel für die Zuordnung von Profilattributen oder Parametern (Mbox)-Attributen verwenden, die einen einzelnen Wert auf der linken Seite mit einem Mehrfachwert auf der rechten Seite vergleicht. Attribute mit mehreren Werten werden derzeit nicht in Promotions, in der Zuordnung von Entitätsattributen oder für Listen auf der linken Seite von Einschlussregeln unterstützt.
 
 ### Beispiel: Ausschließen kürzlich angesehener Elemente
 
-Angenommen, Sie möchten verhindern, dass Filme, die zu den zehn zuletzt angesehenen Filmen des Benutzers gehören, empfohlen werden. Schreiben Sie zunächst ein Profilskript mit dem Namen `user.lastWatchedMovies`, um die letzten zehn angezeigten Filme als JSON-Array zu verfolgen. Anschließend können Sie die Elemente mithilfe der folgenden Einschlussregel ausschließen:
+Um zu verhindern, dass Filme aus den letzten zehn angezeigten Filmen des Benutzers empfohlen werden, schreiben Sie zunächst ein Profilskript namens `user.lastWatchedMovies`, das die letzten zehn angezeigten Filme als JSON-Array verfolgt. Die Elemente können dann mit der folgenden Einschlussregel ausgeschlossen werden:
 
 ```
-`Profile Attribute Matching`
-`id - is not contained in list - user.lastWatchedMovies`
+Profile Attribute Matching
+id - is not contained in list - user.lastWatchedMovies
 ```
 
 JSON-API-Darstellung der Einschlussregel:
@@ -107,11 +102,11 @@ JSON-API-Darstellung der Einschlussregel:
 
 ### Beispiel: Empfohlene Elemente aus den Favoriten des Benutzers
 
-Angenommen, Sie möchten Tickets nur für Konzerte empfehlen, wenn die Band, die spielt, eine der Lieblingsbands des Benutzers ist. Stellen Sie zunächst sicher, dass Sie über eine Profilvariable mit dem Namen `profile.favoriteBands` verfügen, die die Lieblingsbands der Benutzenden enthält. Stellen Sie dann sicher, dass Ihr Katalog eine `entity.artistPerforming` enthält, die den Künstler enthält, der im Konzert auftritt. Anschließend können Sie die folgende Einschlussregel verwenden:
+Um Konzerttickets nur dann zu empfehlen, wenn das Bandspiel zu den Lieblingsbands des Benutzers gehört, sind zwei Elemente erforderlich: eine Profilvariable mit dem Namen `profile.favoriteBands`, die die Lieblingsbands des Benutzers enthält, und ein `entity.artistPerforming` im Katalog, das den im Konzert auftretenden Künstler enthält. Die folgende Einschlussregel kann dann verwendet werden:
 
 ```
-`Profile Attribute Matching`
-`artistPerforming - is contained in list - profile.favoriteBands`
+Profile Attribute Matching
+artistPerforming - is contained in list - profile.favoriteBands
 ```
 
 JSON-API-Darstellung der Einschlussregel:
@@ -129,7 +124,7 @@ JSON-API-Darstellung der Einschlussregel:
 
 ### Beispiel: API-Erstellung von Kriterien, die Elemente aus den Favoriten eines Benutzers empfehlen
 
-Kriterien, die Filterregeln mit mehreren Werten verwenden, können wie alle Kriterien über [!DNL Adobe Target] APIs erstellt werden. Ein Beispiel für einen API-Aufruf zum Erstellen eines Kriteriums, bei dem das Entitätsattribut `id` in der `favorites` der Mbox-Parameter enthalten ist:
+Kriterien, die Filterregeln mit mehreren Werten verwenden, können wie alle Kriterien über die [!DNL Adobe Target]-APIs erstellt werden. Der folgende Beispiel-API-Aufruf erstellt ein Kriterium, bei dem das Entitätsattribut `id` in der `favorites` der Mbox-Parameter enthalten ist:
 
 ```
 curl -X POST \
@@ -166,7 +161,7 @@ curl -X POST \
 }'
 ```
 
-Dieser würde mit JavaScript auf der Seite gepaart, um die Favoriteninhalte zu übergeben:
+Dieser Aufruf ist mit JavaScript auf der Seite gepaart, die den Inhalt der Favoriten übergibt:
 
 ```
 <!-- pass in the value of mbox parameter "favorites" as JSON array -->

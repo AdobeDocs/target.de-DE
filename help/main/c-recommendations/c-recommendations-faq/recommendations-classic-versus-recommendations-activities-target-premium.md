@@ -2,7 +2,7 @@
 keywords: Recommendations; Recommendations-Algorithmen; Recommendations-Aktivitäten; Recommendations Classic
 description: Informationen zu den Unterschieden zwischen den herkömmlichen Recommendations Classic- und Recommendations-Aktivitäten in [!DNL Target] Premium.
 title: Was ist der Unterschied zwischen Recommendations Classic und Recommendations in [!DNL Target] Premium?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -57,7 +57,7 @@ Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
 
 * Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.
 * Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.
-* Übertragen Sie Traffic mithilfe der automatischen Zuordnung automatisch an das [!UICONTROL &#x200B; Recommendations-Erlebnis mit &#x200B;] besten Leistung.
+* Übertragen Sie Traffic mithilfe der automatischen Zuordnung automatisch an das [!UICONTROL  Recommendations-Erlebnis mit ] besten Leistung.
 * Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihrem Profil mithilfe [!UICONTROL automatischen Targetings].
 
 Erstellen Sie zunächst eine Aktivität des Typs [!UICONTROL A/B]Test oder [!UICONTROL Erlebnis-]) mit dem [!UICONTROL Visual Experience Composer] und verwenden Sie die Aktion [!UICONTROL Einfügen vor], [!UICONTROL Einfügen nach] oder [!UICONTROL Ersetzen mit], um einem Erlebnis Empfehlungen hinzuzufügen.
@@ -79,7 +79,7 @@ Weitere Informationen zur Verwendung und Erstellung von Kriterien finden Sie unt
 Der [!DNL Recommendations]-Workflow wurde vereinfacht. Anstatt komplizierte Formulare auszufüllen, folgen Sie einem visuellen Arbeitsablauf, um:
 
 1. die Kriterien auszuwählen,
-1. Wählen Sie ein vorkonfiguriertes [Design](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) aus.
+1. Wählen Sie ein vorkonfiguriertes [Design](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) aus.
 1. die resultierenden Empfehlungen in der Vorschau zu betrachten.
 
 ## Visuelle Vorschau {#section_639B9E38C9EC4093BF9023EE0F2A15AC}

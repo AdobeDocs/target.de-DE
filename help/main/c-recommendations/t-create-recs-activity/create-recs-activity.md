@@ -2,7 +2,7 @@
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
 description: Erfahren Sie, wie Sie mit [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) eine [!DNL Recommendations] erstellen.
 title: Wie erstelle ich eine [!DNL Recommendations] Aktivität?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 53%
@@ -49,7 +49,7 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
    >[!NOTE]
    >
-   >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com/de`] und [!DNL `https://wwww.adobe.com`] überein.
+   >[!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]). Daher stimmen [!DNL `http://www.adobe.com`] und [!DNL `https://wwww.adobe.com`] überein.
 
    Die Aktivitäts-URL ist die Seite, auf der die Empfehlungen angezeigt werden.
 
@@ -92,7 +92,7 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
    >[!NOTE]
    >
-   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt ( **[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
+   >Nicht jedes Kriterium wird auf jeder Seite korrekt ausgeführt. Die Seite oder Mbox muss die `entity.id` oder die `entity.categoryId` für die Empfehlungen zum aktuellen Element bzw. zur aktuellen Kategorie übergeben, um kompatibel zu sein. Allgemein ist es am besten, lediglich kompatible Kriterien anzuzeigen. Wenn Sie jedoch möchten, dass inkompatible Kriterien für die Aktivität verfügbar sind, heben Sie die Auswahl für die Option **[!UICONTROL Kompatibel]** auf. Die Option [!UICONTROL Kompatibel] wird je nach Ihren Recommendations-Einstellungen möglicherweise nicht angezeigt ( **[!UICONTROL Recommendations]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Inkompatible Kriterien filtern]**). Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Dialogfeld „Kriterien auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -103,12 +103,12 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
      Einige Kriterien werden durch [!DNL Recommendations] bereitgestellt. Sie und Ihr Team können auch eigene Kriterien erstellen.
 
    * Um neue Kriterien zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriterien erstellen]** und geben Sie dann die Informationen für die neuen Kriterien ein. Weitere Informationen zum Erstellen neuer Kriterien finden Sie unter [Erstellen von Kriterien](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Weitere Informationen [&#x200B; Sie unter &#x200B;](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
+   * Sie können auch Kriterien in Sequenzen gruppieren. Um eine neue Kriteriensequenz zu erstellen, klicken Sie auf **[!UICONTROL Kriterien erstellen]** > **[!UICONTROL Kriteriensequenz erstellen]**. Weitere Informationen [ Sie unter ](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) von Kriterien erstellen .
 
 1. Klicken Sie **[!UICONTROL Weiter]**.
 1. [Entwurf auswählen](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] umfasst mehrere vorkonfigurierte Designs. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Designs](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) und [Anpassen eines Designs](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Ein Entwurf ist eine Vorlage, die das Aussehen der Orte auf Ihrer Seite festlegt. [!DNL Target] umfasst mehrere vorkonfigurierte Designs. Sie können auch Ihre eigenen, benutzerdefinierten Entwürfe erstellen. Weitere Informationen finden Sie unter [Erstellen eines Designs](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) und [Anpassen eines Designs](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Dialogfeld „Entwurf auswählen“](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
      Wenn Sie mehrere Kriterien ausgewählt haben, können Sie lediglich einen Entwurf auswählen.
 
-   * Um einen benutzerdefinierten Entwurf zu erstellen, klicken Sie auf **[!UICONTROL Design erstellen]** und geben Sie dann den Namen und den Code für den neuen Entwurf ein. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie anschließend ein Bild aus oder laden Sie ein Bild hoch und klicken Sie dann auf **[!UICONTROL Fertig]** > **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Um einen benutzerdefinierten Entwurf zu erstellen, klicken Sie auf **[!UICONTROL Design erstellen]** und geben Sie dann den Namen und den Code für den neuen Entwurf ein. Klicken Sie auf **[!UICONTROL Weiter]**, wählen Sie anschließend ein Bild aus oder laden Sie ein Bild hoch und klicken Sie dann auf **[!UICONTROL Fertig]** > **[!UICONTROL Fertig]**. Weitere Informationen zum Erstellen eines neuen Entwurfs finden Sie unter [Erstellen eines Entwurfs](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Klicken Sie **[!UICONTROL Weiter]**.
 
@@ -193,4 +193,4 @@ Verwenden Sie den [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), u
 
 ## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33909?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

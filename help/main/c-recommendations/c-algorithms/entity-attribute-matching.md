@@ -1,8 +1,8 @@
 ---
 keywords: Einschlussregeln; Einschlusskriterien; Recommendations; Promotion; Promotions; Dynamische Filterung; Dynamische Zuordnung von Entitätsattributen
 description: Erfahren Sie, wie Sie in [!DNL Target Recommendations] dynamisch filtern können, indem Sie einen Pool potenzieller Elemente mit einem bestimmten Element vergleichen, mit dem der Benutzer interagiert hat.
-title: Wie filtere ich nach Entitätsattribut-Übereinstimmung in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+title: Entitätsattributübereinstimmung
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 TQID: 'https://experienceleague.adobe.com/2cBSfWXS96u7iumehPd7enxPjQcebkQCdSBSHWOUcJg'
@@ -18,56 +18,52 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '505'
+ht-degree: 5%
 ---
-# Entitätsattributübereinstimmung
+# Entitätsattributübereinstimmung {#entity-attribute-matching}
 
-Dynamisches Filtern in [!DNL Adobe Target Recommendations] durch Vergleichen eines Pools potenzieller Recommendations-Elemente mit einem bestimmten Element, mit dem der Benutzer interagiert hat.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->Der [Prozess zum Erstellen und Verwenden von &#x200B;](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) für Kriterien und Promotions ist ähnlich, ebenso wie die Anwendungsfälle und Beispiele.
+**Auf dieser Seite** Erfahren Sie, wie Sie Empfehlungen dynamisch in [!DNL Adobe Target Recommendations] filtern können, indem Sie einen Pool potenzieller empfohlener Elemente mit einem bestimmten Element vergleichen, mit dem der Besucher interagiert hat.
 
-Empfehlen Sie beispielsweise nur Elemente, die der Marke des aktuellen Elements entsprechen, wie im folgenden Beispiel gezeigt:
+>[!ENDSHADEBOX]
 
-Wenn die Mbox auf einer Brand Landing Page `entity.brand=brandA` zurückgibt, werden nur Brand A-Produkte zurückgegeben und auf dieser Seite angezeigt. Auf der Landingpage der Marke B werden auch nur Produkte der Marke B zurückgegeben. Bei dieser Art von dynamischer Einschlussregel muss der Benutzer nur eine Empfehlungsregel angeben, die relevante Markenergebnisse über alle Markenseiten hinweg zurückgibt, anstatt eine Sammlung oder einen statischen Filter anzugeben, um jeden Markennamen abzugleichen.
+**[!UICONTROL Abgleich der Entitätsattribute]** empfiehlt nur die Elemente, die mit einem Attribut eines Elements übereinstimmen, mit dem der Besucher interagiert hat. Der Prozess zum Erstellen und Verwenden von Einschlussregeln für Kriterien und Promotions ist ähnlich, genauso wie die Anwendungsfälle und Beispiele. Weitere Informationen finden Sie unter [Verwenden dynamischer und statischer Einschlussregeln](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-Beachten Sie, dass Sie die `entity.brand` in der Mbox auf diesen Landingpages bereitstellen müssen, damit dieser Prozess funktioniert.
+## Beispiele für übereinstimmende Entitätsattribute
 
-## Beispiele für den Abgleich von Entitätsattributen
+**[!UICONTROL Entitätsattributabgleich]** kann nur die Elemente empfehlen, die übereinstimmen, z. B.:
 
-[!UICONTROL Zuordnung von Entitätsattributen] ermöglicht es Ihnen, nur die Elemente zu empfehlen, die übereinstimmen, z. B.:
-
-* Ein Attribut aus dem Element, das der Benutzer derzeit anzeigt
-* Das Element, das der Benutzer zuletzt angezeigt hat
-* Der Artikel, den der Benutzer zuletzt gekauft hat
-* Das Element, das der Benutzer am häufigsten angezeigt hat
-* Ein Element, das in einem benutzerdefinierten Attribut im Besucherprofil gespeichert ist
+* Ein Attribut aus dem Element, das der Besucher derzeit anzeigt
+* Das Element, das der Besucher zuletzt angezeigt hat
+* Der Artikel, den der Besucher zuletzt gekauft hat
+* Das Element, das der Besucher am häufigsten angezeigt hat
+* Ein Element, das in einem benutzerdefinierten Attribut im Profil des Besuchers gespeichert ist
 
 ### Empfohlene Artikel basierend auf der Marke
 
-Nachdem die Entitätsattributregeln erstellt wurden, werden alle Recommendations mit Attributen herausgefiltert, die nicht mit dem auf der Seite übergebenen Entitätswert übereinstimmen.
+Nachdem die Entitätsattributregeln erstellt wurden, filtern sie alle Recommendations mit Attributen heraus, die nicht mit dem auf der Seite übergebenen Entitätswert übereinstimmen. Der `entity.brand` muss in der Mbox auf den Seiten bereitgestellt werden, damit dieser Prozess funktioniert.
 
-Das folgende Beispiel zeigt Empfehlungen, die mit der auf der Seite gezeigten Produktmarke übereinstimmen:
+Bei dieser Art von dynamischer Einschlussregel muss nur eine Empfehlungsregel angegeben werden, um relevante Markenergebnisse über alle Markenseiten hinweg zurückzugeben, anstatt für jeden Markennamen eine Sammlung oder einen statischen Filter bereitzustellen.
 
-Wenn Sie eine Seite besuchen, die ein Produkt von Marke A enthält, setzt die Seite den Wert des `entity.brand` auf „Marke A“.
+Wenn beispielsweise eine Seite angezeigt wird, die ein Produkt von Marke A enthält, setzt die Seite den Wert des `entity.brand` auf „Marke A“. Auf einer Brand Landing Page gibt die Mbox `entity.brand=brandA` zurück.
 
 ![Beispiel für Target-Aufruf](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-In den Empfehlungen auf der Seite werden nur Produkte von Marke A angezeigt.
+Die Empfehlungen auf der Seite enthalten dann nur Produkte der Marke A.
 
 ![Empfehlungen für Marke A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-Wenn Sie dann eine Produktseite von Marke B aufrufen, wird der `entity.brand` auf „Marke B“ zurückgesetzt und es werden auf den Produktseiten von Marke B empfohlene Produkte von Marke B angezeigt.
+Wenn eine Produktseite von Marke B angezeigt wird, wird der `entity.brand` auf „Marke B“ zurückgesetzt und es werden nur Produkte von Marke B empfohlen. Auf der Landingpage der Marke B werden auch nur Produkte der Marke B zurückgegeben.
 
 ![Empfehlungen für Marke B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Upselling auf ein teureres Produkt
 
-Angenommen, Sie sind ein Bekleidungs-retailer und möchten Benutzer ermutigen, teurere und daher profitablere Artikel in Betracht zu ziehen. Sie können die Operatoren „ist gleich“ und „ist zwischen“ verwenden, um für teurere Artikel zu werben, die aus derselben Kategorie und derselben Marke stammen. Beispielsweise kann ein retailer-Schuh teurere Laufschuhe fördern, um einem Laufschuhbesucher, der Laufschuhe ansieht, einen Upsell zu bieten, wie im folgenden Beispiel dargestellt:
+Um Besucher zu ermutigen, teurere und daher profitablere Artikel in Betracht zu ziehen, können die Anbieter „ist gleich“ und „ist zwischen“ teurere Artikel aus der gleichen Kategorie und der gleichen Marke bewerben. Beispielsweise kann ein retailer-Schuh teurere Laufschuhe fördern, um einem Besucher, der Laufschuhe sucht, Upsell zu bieten, wie im folgenden Beispiel gezeigt:
 
 ![Upselling](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
@@ -84,10 +80,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### Förderung von Eigenmarkenprodukten
 
-Sie können dynamische und statische Filter kombinieren, um Private-Label-Produkte zu bewerben. So kann ein Bürozulieferer beispielsweise Tonerkassetten der Hausmarke des Unternehmens bewerben, um einen profitableren Verkauf für einen Besucher zu erzielen, der Toner betrachtet. Außerdem kann er Stifte der Hausmarke des Unternehmens fördern, um einen profitableren Verkauf für einen Besucher zu ermöglichen, der Stifte betrachtet, wie im folgenden Beispiel dargestellt:
+Dynamische und statische Filter können kombiniert werden, um Eigenmarkenprodukte zu bewerben. So kann ein Bürozulieferer beispielsweise Tonerkassetten der Hausmarke des Unternehmens bewerben, um einen profitableren Verkauf für einen Besucher zu erzielen, der Toner sucht, und Stifte der Hausmarke des Unternehmens für einen Besucher, der Stifte betrachtet, wie in dem folgenden Beispiel dargestellt:
 
 ![Hausmarke](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
-)
 
 ```
 Entity Attribute Matching
