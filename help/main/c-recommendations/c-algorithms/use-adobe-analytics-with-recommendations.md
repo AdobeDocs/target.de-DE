@@ -2,7 +2,7 @@
 keywords: Verhaltensdatenquelle;Analysen;Empfehlungen;Kriterien;Produktvariablen
 description: Erfahren Sie, wie Sie [!DNL Adobe Analytics] als Verhaltensdatenquelle in [!DNL Target Recommendations] verwenden.
 title: Verwenden von Adobe Analytics mit Recommendations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 TQID: 'https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs'
@@ -64,7 +64,7 @@ Implementieren Sie Produktvariablen in [!DNL Analytics] mit den Attributen, die 
 >
 >Wenn es sich um eine Inhalts-Site handelt, müssen die entsprechenden Inhaltselemente als „Produkte“ behandelt werden, und die zugehörigen Attribute dieses Inhalts müssen als Attribute übergeben werden. Zu diesen Attributen gehören u. a. der Name des Autors, das Veröffentlichungsdatum, der Titel des Inhalts, der Monat der Veröffentlichung usw. Das Unternehmen sollte die Granularität der Kategorieebene oder der Kategorietypen basierend auf den Anforderungen des Anwendungsfalls entscheiden.
 
-Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation, z. B. zur Kategorie, erfordern das Urteilsvermögen des Teams, das sie bereitstellt. Beratung [!DNL Adobe] vor dieser Aktivität wird empfohlen.
+Weitere Informationen zum Einrichten von Produktvariablen finden Sie unter [Produkte](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=de) im *Implementieren von Adobe Analytics*. Einige Hinweise in dieser Dokumentation, z. B. zur Kategorie, erfordern das Urteilsvermögen des Teams, das sie bereitstellt. Beratung [!DNL Adobe] vor dieser Aktivität wird empfohlen.
 
 ### Zu beachten {#considerations}
 
