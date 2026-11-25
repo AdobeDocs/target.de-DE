@@ -49,7 +49,7 @@ Verschiedene Algorithmen eignen sich für verschiedene Seitentypen. In den folge
 
 ## Warenkorb-basiert {#cart-based}
 
-Der **[!UICONTROL Warenkorb-]** Algorithmustyp empfiehlt Artikel basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden als kommagetrennte Werte im `cartIds`[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} () bereitgestellt. Nur die ersten 10 Werte werden berücksichtigt.
+Der **[!UICONTROL Warenkorb-]** Algorithmustyp empfiehlt Artikel basierend auf dem Inhalt des aktuellen Warenkorbs des Besuchers. Die Empfehlungsschlüssel werden als kommagetrennte Werte im `cartIds`[&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} () bereitgestellt. Nur die ersten 10 Werte werden berücksichtigt.
 
 Die auf dem Warenkorb basierende Empfehlungslogik ähnelt dem benutzerbasierten Algorithmus &quot;**[!UICONTROL Recommended For You]**&quot; und den Algorithmen &quot;**[!UICONTROL People Who Viewed This, Bought That]**&quot; und &quot;**[!UICONTROL People Who Bought This, Bought That]**&quot;.
 
@@ -121,7 +121,7 @@ Wenn Sie beispielsweise Kategorie A und dann Kategorie B in einer Sitzung anzeig
 >title="Profilattribut"
 >abstract="Sie können ein Profilattribut mithilfe von Profilskripts erstellen. Nachdem ein Profilskript erstellt und aktiviert wurde, kann das entsprechende Profilattribut mit diesem Algorithmus verwendet werden."
 
-**[!UICONTROL Am häufigsten angezeigt nach Profilattribut]** und **[!UICONTROL Topverkäufe nach Profilattribut]** hängen von einem Profilskript zum Ausfüllen des Attributs ab. Der Skriptname muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] ihn als `user.recsAttribute<Name>` speichert. Ein Skript kann für jedes Besuchermerkmal geschrieben werden, das für den Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mit Profilskripten finden Sie unter [Profilparameter](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+**[!UICONTROL Am häufigsten angezeigt nach Profilattribut]** und **[!UICONTROL Topverkäufe nach Profilattribut]** hängen von einem Profilskript zum Ausfüllen des Attributs ab. Der Skriptname muss mit dem Präfix `recsAttribute` beginnen, damit [!DNL Target] ihn als `user.recsAttribute<Name>` speichert. Ein Skript kann für jedes Besuchermerkmal geschrieben werden, das für den Anwendungsfall relevant ist. Weitere Informationen zum Festlegen von Profilattributen mit Profilskripten finden Sie unter [Profilparameter](https://experienceleague.adobe.com/de/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Beispielsweise basiert das folgende Skript mit dem Namen `recsAttributeRegion` auf Empfehlungen zur Region des Besuchers:
 
