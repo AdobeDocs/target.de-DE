@@ -176,4 +176,4 @@ In der Aktivität sind zwei zusätzliche Seiten verfügbar:
 
 ## Schulungsvideo: Erstellen einer Recommendations-Aktivität (7:15) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33909?captions=ger)

@@ -95,4 +95,4 @@ In diesem Video werden die folgenden Aktivitätseinstellungen behandelt:
 * Audiences für das Reporting hinzufügen, um Berichtsfilter zu erstellen.
 * Notizen für die Aktivität eingeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507950?captions=ger)
