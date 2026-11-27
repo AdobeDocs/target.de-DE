@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -151,7 +151,7 @@ Beachten Sie, dass sich die Traffic-Anforderung infolge von MVT-Aktivitäten erh
 **Kann ich eine Aktivität über mehrere Seiten ausführen, bei denen die Seitenstruktur unterschiedlich ist? Kann ich Angebote an verschiedenen Orten anwenden (z. B. an der Kasse funnel)?**
 
 +++Details anzeigen
-Probieren Sie die Funktion [Mehrseitige Aktivität“ aus](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) mit der Sie mehrere Seiten in Erlebnissen verwenden können.
+Probieren Sie die Funktion [Mehrseitige Aktivität“ aus](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) mit der Sie mehrere Seiten in Erlebnissen verwenden können.
 
 +++
 
@@ -284,7 +284,7 @@ Lesen Sie die folgenden Aspekte des Produkts:
 **Kann ich eine Aktivität auf mehreren Seiten ausführen, die eine gemeinsame Seitenstruktur aufweisen?**
 
 +++Details anzeigen
-Sehen Sie sich die [Vorlagenregeln](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) an, um der Aktivität viele ähnlich strukturierte Seiten hinzuzufügen, während Sie das Erlebnis für die einzelne, angegebene URL erstellen.
+Sehen Sie sich die [Vorlagenregeln](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) an, um der Aktivität viele ähnlich strukturierte Seiten hinzuzufügen, während Sie das Erlebnis für die einzelne, angegebene URL erstellen.
 
 +++
 
@@ -293,39 +293,39 @@ Sehen Sie sich die [Vorlagenregeln](/help/main/c-experiences/c-visual-experience
 +++Details anzeigen
 Dies liegt daran, dass Ihre Site gemischte Inhalte aufweist - es handelt sich um eine Site, die sowohl HTTP- als auch HTTPS-Ressourcen abruft. Bitten Sie Ihr IT-Team, vollständig zu HTTPS zu wechseln.
 
-Bis dies der Fall ist, befolgen Sie die Anweisungen unter [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C), damit Ihr Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
+Bis dies der Fall ist, befolgen Sie die Anweisungen unter [Zulassen von gemischtem Inhalt in Ihrem Browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content), damit Ihr Browser gemischte Inhalte laden kann. Dies ist eine Sicherheitsfunktion der meisten modernen Browser.
 
 +++
 
 **Kann ich den [!UICONTROL Visual Experience Composer] (VEC) auf meiner Site ausprobieren, obwohl die [!DNL Target]-Bibliothek „at.js“ noch nicht bereitgestellt wurde?**
 
 +++Details anzeigen
-Versuchen Sie, die Seite mit [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) zu laden.
+Versuchen Sie, die Seite mit [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) zu laden.
 
 +++
 
 **Warum wird meine Site nicht im [!UICONTROL Visual Experience Composer] (VEC) geladen?**
 
 +++Details anzeigen
-Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) auf der Hilfeseite. Wenden Sie sich an den [Adobe Support](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), wenn keine dieser Vorgehensweisen funktioniert.
+Konsultieren Sie die [Informationen zur Fehlerbehebung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) auf der Hilfeseite. Wenden Sie sich an den [Adobe Support](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C), wenn keine dieser Vorgehensweisen funktioniert.
 
 Wir haben auch [einen formularbasierten Ansatz](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), mit dem Sie freigeschaltet werden können.
 
-Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) hilfreich sein kann. Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Lesen Sie zudem, wann und warum [Enhanced Experience Composer](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) hilfreich sein kann. Möglicherweise müssen Sie sich auch an Ihre IT-Abteilung wenden, um [die Proxyserver von Adobe &#x200B;](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
 +++
 
 **Ich verfüge über eine responsive Site. Wie kann ich beim Erstellen einer Aktivität sichergehen, dass ich wichtige Geräte berücksichtige?**
 
 +++Details anzeigen
-Beschäftigen Sie sich mit der Funktion [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Beachten Sie, dass dies nur funktioniert, wenn [!UICONTROL Enhanced Experience Composer] aktiviert ist.
+Beschäftigen Sie sich mit der Funktion [Mobile Viewports](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports). Beachten Sie, dass dies nur funktioniert, wenn [!UICONTROL Enhanced Experience Composer] aktiviert ist.
 
 +++
 
 **Ich verfüge über mehrere Domänen. Für eine der Domains muss [!UICONTROL Enhanced Experience Composer] aktiviert sein, für andere muss er deaktiviert sein. Wie kann ich dies vornehmen?**
 
 +++Details anzeigen
-Sie können immer die Option [Enhanced Experience Composer“ auf der Aktivitätsebene verwenden](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) um die Standardeinstellung ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]) außer Kraft zu setzen.
+Sie können immer die Option [Enhanced Experience Composer“ auf der Aktivitätsebene verwenden](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) um die Standardeinstellung ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]) außer Kraft zu setzen.
 
 +++
 
@@ -346,7 +346,7 @@ Das können Sie ganz einfach über unsere [Funktion „Mehrfach-Erlebnis-Version
 **Wie kann ich sehen, welche Änderungen ich in [!UICONTROL Visual Experience Composer] (VEC) vorgenommen habe?**
 
 +++Details anzeigen
-Ihre Änderungen werden immer im [Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) angezeigt. Die [!UICONTROL Änderungen] zeigt die CSS-Auswahl oder die Mbox an, die Sie auf Ihr Angebot angewendet haben.
+Ihre Änderungen werden immer im [Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor) angezeigt. Die [!UICONTROL Änderungen] zeigt die CSS-Auswahl oder die Mbox an, die Sie auf Ihr Angebot angewendet haben.
 
 Beachten Sie, dass der CSS-Selektor ein Sizzle Selector ist. Mit diesem Abschnitt können Sie schnell kleinere Änderungen vornehmen oder bestimmte Angebote löschen.
 
@@ -355,7 +355,7 @@ Beachten Sie, dass der CSS-Selektor ein Sizzle Selector ist. Mit diesem Abschnit
 **Ich möchte JavaScript als einen Teil des Erlebnisses bzw. der Aktivität bereitstellen, um spontan Änderungen für einige dynamische Elemente vorzunehmen oder um einen Aufruf an eine Drittanbieterlösung zu senden. Wie kann ich dies vornehmen?**
 
 +++Details anzeigen
-Eine Möglichkeit besteht darin, den [benutzerdefinierten Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) zu verwenden. Wenn Sie Ihr JavaScript im Abschnitt ablegen, wird es bereitgestellt. Sie können es in Abhängigkeit Ihrer Anforderungen in der Kopfzeile oder oberhalb des Textteils bereitstellen.
+Eine Möglichkeit besteht darin, den [benutzerdefinierten Code-Editor](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor) zu verwenden. Wenn Sie Ihr JavaScript im Abschnitt ablegen, wird es bereitgestellt. Sie können es in Abhängigkeit Ihrer Anforderungen in der Kopfzeile oder oberhalb des Textteils bereitstellen.
 
 +++
 
@@ -378,7 +378,7 @@ Verwenden Sie den [formularbasierten Ansatz](/help/main/c-experiences/form-exper
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
 +++Details anzeigen
-Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -402,7 +402,7 @@ Es ist möglich, dass Ihre Site dynamische IDs, doppelte IDs oder dynamische Kla
 **Warum wird mir anstelle des gewünschten Angebots/Erlebnisses eine andere Aktivität angezeigt?**
 
 +++Details anzeigen
-Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Verwenden Sie den [Debugger](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) und suchen Sie nach [Aktivitätskollisionen](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 

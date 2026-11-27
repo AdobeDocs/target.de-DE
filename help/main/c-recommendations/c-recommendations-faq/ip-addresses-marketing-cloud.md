@@ -18,20 +18,24 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 42%
+source-wordcount: '193'
+ht-degree: 34%
 ---
-# Von [!DNL Recommendations] Feed verarbeitenden Servern verwendete IP-Adressen
+# Von [!DNL Recommendations] Feed verarbeitenden Servern verwendete IP-Adressen {#recs-ip-addresses}
 
-Liste der IP-Adressen, die von [!DNL Adobe Target] Feed-verarbeitenden [!DNL Recommendations]-Servern verwendet werden. Diese benötigen Sie, um Ihre Firewall so zu konfigurieren, dass sie von [!DNL Adobe]-Servern ausgehende IP-Adressen durchlässt.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite** Suchen Sie die IP-Adressen, die die [!DNL Adobe Target] [!DNL Recommendations] Feed-verarbeitenden Server verwenden, um eine Firewall zu konfigurieren, die die von [!DNL Adobe] Servern ausgehenden IP-Adressen zulässt.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Das [!DNL Target]-Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen von [!DNL Recommendations]-Feeds. Wenn Sie IP-Zulassungslisten implementieren, stellen Sie sicher, dass die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt werden. Die bestehenden Hosts werden am 30. Juni 2024 eingestellt. Um einen reibungslosen Übergang zu gewährleisten, setzen Sie alle neun Adressen auf die Zulassungsliste. Es ist nicht dringend, die vorhandenen Adressen zu entfernen.
+>Das [!DNL Target]-Team aktualisiert derzeit die NAT-Gateway-Adressen für das Herunterladen von [!DNL Recommendations]-Feeds. Wenn die IP-Zulassungsauflistung implementiert ist, werden die folgenden neuen AWS-Hosts auf die Zulassungsliste gesetzt. Die bestehenden Hosts werden am 30. Juni 2024 eingestellt. Um einen reibungslosen Übergang zu gewährleisten, setzen Sie alle neun Adressen auf die Zulassungsliste. Es ist nicht dringend, die vorhandenen Adressen zu entfernen.
 
-[!DNL Target] [!UICONTROL Recommendations]-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden AWS-Hosts:
+[!DNL Target] [!UICONTROL Recommendations]-Aktivitäten verwenden beim Zugriff auf die FTP-Server von Kunden die folgenden AWS-Hosts.
 
 **Neue Hosts**:
 
@@ -52,4 +56,4 @@ Liste der IP-Adressen, die von [!DNL Adobe Target] Feed-verarbeitenden [!DNL Rec
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations]-APIs verwenden dieselben AWS-Hosts.
+Die [!DNL Target] [!UICONTROL Recommendations]-APIs verwenden dieselben AWS-Hosts.

@@ -18,117 +18,91 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 55%
+ht-degree: 12%
 ---
-# Empfehlungen als Angebot
+# Empfehlungen als Angebot {#recommendations-as-an-offer}
 
-Sie können jetzt Empfehlungen in [!UICONTROL A/B-Test]-Aktivitäten (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) und [!UICONTROL Experience Targeting] (XT) einbeziehen.
+>[!BEGINSHADEBOX]
 
-Diese Funktion eröffnet völlig neue Funktionen wie z. B.:
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Recommendation als Angebot in A/B-Test[!UICONTROL &#x200B; - und [!UICONTROL Experience Targeting] (XT) -Aktivitäten hinzufügen] bearbeiten und löschen.
+
+>[!ENDSHADEBOX]
+
+Zusätzlich zu [!UICONTROL Recommendations]-Aktivitäten können Recommendations in [!UICONTROL A/B-Test]-Aktivitäten (einschließlich [!UICONTROL Automatische Zuordnung] und [!UICONTROL Automatisches Targeting]) und [!UICONTROL Experience Targeting] (XT) einbezogen werden. Dies ermöglicht Folgendes:
 
 * Testen und Targeting von Empfehlungen und Inhalt ohne Recommendations innerhalb derselben Aktivität.
-* Experimentieren Sie einfach mit Empfehlungen auf der Seite, einschließlich der Reihenfolge mehrerer Empfehlungen.
-* Übertragen Sie Traffic mithilfe der automatischen Zuordnung automatisch an das [!UICONTROL &#x200B; Recommendations-Erlebnis mit &#x200B;] besten Leistung.
-* Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihrem Profil mithilfe [!UICONTROL automatischen Targetings].
+* Experimentieren Sie mit der Platzierung von Recommendations auf der Seite, einschließlich der Reihenfolge mehrerer Recommendations.
+* Übertragen Sie Traffic automatisch auf die Empfehlungen mit der besten Leistung mit **[!UICONTROL Automatische Zuordnung]**.
+* Dynamische Zuweisung von Besuchern zu benutzerspezifischen Recommendations-Erlebnissen basierend auf ihrem Profil mit **[!UICONTROL automatischem Targeting]**.
 
-Erstellen Sie zunächst eine Aktivität des Typs [!UICONTROL A/B]Test oder [!UICONTROL Erlebnis-]) mit dem [!UICONTROL Visual Experience Composer] und verwenden Sie die Aktion [!UICONTROL Einfügen vor], [!UICONTROL Einfügen nach] oder [!UICONTROL Ersetzen mit], um einem Erlebnis Empfehlungen hinzuzufügen.
+## Hinzufügen einer Empfehlung als Angebot {#add-recs-offer}
 
-## Empfehlung als Angebot in einem A/B-Test oder XT-Vorgang hinzufügen
+Eine Empfehlung wird als Angebot hinzugefügt, während ein Erlebnis mit dem [!UICONTROL Visual Experience Composer] (VEC) in einer A/B[!UICONTROL Test- &#x200B;] XT-Aktivität erstellt wird.
 
-1. Starten Sie den geleiteten Workflow mit drei Schritten mit dem Visual Experience Composer (VEC), um eine [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- oder [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-Aktivität (XT) zu erstellen.
+1. Starten Sie den in drei Schritten durchgeführten Workflow des VEC zum Erstellen einer [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- oder [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-Aktivität (XT).
 
    >[!NOTE]
    >
-   >Denken Sie bei A/B-Tests daran, dass Sie die Option [Automatisierte Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) wählen können, um Traffic automatisch an die leistungsschwächsten Empfehlungen oder die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) zu leiten, um Besuchern benutzerspezifische Empfehlungserlebnisse basierend auf ihrem Profil zuzuweisen.
+   >Bei A/B-Tests leitet [&#x200B; Option „Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) den Traffic automatisch an die Empfehlungen mit der besten Leistung weiter, und die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) weist Besuchern auf der Grundlage ihres Profils maßgeschneiderte Recommendations-Erlebnisse zu.
 
-1. Klicken Sie beim Erstellen [Erlebnisses](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) auf das Element, dem Sie eine Empfehlung als Angebot hinzufügen möchten, klicken Sie auf **[!UICONTROL Inhalt ersetzen]** und wählen Sie dann **[!UICONTROL Empfehlung]**.
+1. Fügen Sie beim Erstellen [Erlebnisses](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) die Empfehlung auf eine der folgenden Arten als Angebot hinzu:
 
-   ![Empfehlung als Angebot einfügen](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
+   * Klicken Sie auf das Element, dem die Empfehlung hinzugefügt wird, klicken Sie auf **[!UICONTROL Inhalt ersetzen]** und wählen Sie dann **[!UICONTROL Empfehlung]** aus.
 
-1. Wählen Sie aus den folgenden Optionen aus, um beliebte Empfehlungskriterien nach Seitentyp anzuzeigen:
+     ![Visual Experience Composer mit ausgewählter Überschrift und hervorgehobener Option „Empfehlung“ im Menü neben den HTML-Angebots- und Experience Fragment-Optionen](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
-   * Einkaufswagenseite
-   * Kategorieseite
-   * „Homepage“
-   * Landingpage
-   * Produktseite
-   * Suchergebnisseite
-   * Danksagungsseite
-   * Sonstige
+   * Wählen Sie in der **[!UICONTROL Komponenten]**-Leiste **[!UICONTROL Empfehlung]** unter **[!UICONTROL Dynamisch]** aus, bewegen Sie den Mauszeiger über ein vorhandenes Element auf der Seite und klicken Sie dann auf **[!UICONTROL Einfügen vor]** oder **[!UICONTROL Einfügen nach]**, um die Empfehlung vor oder nach diesem Element zu platzieren.
 
-1. Wählen Sie die gewünschten [Kriterien](/help/main/c-recommendations/c-algorithms/algorithms.md) aus und klicken Sie dann auf [!UICONTROL Weiter].
-1. Wählen Sie das gewünschte [Design](/help/main/c-recommendations/c-design-overview/design-overview.md) aus und klicken Sie dann auf [!UICONTROL Weiter].
-1. Geben [!UICONTROL &#x200B; im Dialogfeld &#x200B;]Optionen“ Folgendes an:
+1. Rufen Sie das Menü **[!UICONTROL Eigenschaften anzeigen]** auf und klicken Sie auf **[!UICONTROL Empfehlung auswählen]**.
+
+1. Wählen Sie die gewünschten [Kriterien](/help/main/c-recommendations/c-algorithms/algorithms.md) aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+1. Wählen Sie das gewünschte [Design](/help/main/c-recommendations/c-design-overview/design-overview.md) aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
+
+1. Geben **[!UICONTROL im Dialogfeld]** Optionen“ Folgendes an:
 
    * Wählen Sie eine [Sammlung](/help/main/c-recommendations/c-products/collections.md) aus.
-   * Konfigurieren Sie nach Bedarf die Optionen [„Vorwärts-Promotion“ und „Zurück-Promotion“](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md).
+   * Konfigurieren Sie bei Bedarf die Optionen [Frontend-Promotion und &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)-Promotion“.
 
-1. Klicken Sie auf [!UICONTROL Speichern].
-1. Beenden Sie die Konfiguration der A/B-Test- oder XT-Aktivität mit dem dreiteiligen geleiteten Workflow.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Konfiguration eines Empfehlungsangebots bearbeiten
+1. Schließen Sie die Konfiguration der [!UICONTROL A/B]Test- oder XT-Aktivität mit dem Drei-Schritte-Workflow ab.
 
-Sie haben zwei Möglichkeiten, um die Konfiguration eines Angebots zu bearbeiten:
+## Bearbeiten eines Recommendations-Angebots {#edit-recs-offer}
 
-* Verwenden des Menüs [!UICONTROL Bearbeiten]
-* Verwenden des Bedienfelds [!UICONTROL Änderungen]
+Die Kriterien, das Design, die Sammlung und die Promotions eines Recommendations-Angebots können nach dem Hinzufügen des Angebots im Bereich **[!UICONTROL Recommendation]** geändert werden.
 
-### Bearbeiten eines Empfehlungsangebots über das Menü „Bearbeiten“
+1. Klicken Sie auf das Angebot, um es zu bearbeiten, und durchsuchen Sie die Optionen im Menü im rechten Bereich.
 
-1. Klicken Sie auf das Angebot, das Sie bearbeiten möchten, und dann auf **[!UICONTROL Bearbeiten]**.
+   ![Empfehlungsbereich mit den Kriterien, dem Design und den Sammlungsnamen sowie der Schaltfläche Promotion hinzufügen des ausgewählten Angebots](assets/create_reco_7.png)
 
-   ![Bearbeiten eines Recommendations-Angebots](/help/main/c-recommendations/assets/recs-offer-edit.png)
-
-1. Wählen Sie aus den folgenden Optionen:
+1. Wählen Sie eine der folgenden Optionen aus:
 
    * [Kriterien ändern](/help/main/c-recommendations/c-algorithms/algorithms.md)
    * [Design ändern](/help/main/c-recommendations/c-design-overview/design-overview.md)
    * [Sammlung ändern](/help/main/c-recommendations/c-products/collections.md)
    * [Change-Promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)
 
-1. Nehmen Sie die gewünschten Änderungen vor.
+1. Nehmen Sie die Änderungen vor.
 
-### Bearbeiten eines Empfehlungsangebots über das Bedienfeld „Änderungen“
+## Empfehlungsangebot löschen {#delete-recs-offer}
 
-1. Klicken Sie auf [!UICONTROL Änderungen]-Symbol **( `</>` )**, um den Bereich [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
-1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das Symbol **[!UICONTROL Bearbeiten]**.
+Ein nicht mehr benötigtes Recommendations-Angebot kann aus dem Bereich **[!UICONTROL Recommendation]** gelöscht werden.
 
-   ![Bedienfeld für Änderungen](/help/main/c-recommendations/assets/recs-offer-modifications.png)
+Klicken Sie auf das zu entfernende Angebot und dann auf das Bin-Symbol ( ![Bin-Symbol](assets/Smock_Delete_18_N.svg) ) im Bereich **[!UICONTROL Empfehlung]**.
 
-1. Nehmen Sie die gewünschten Änderungen vor.
+![Empfehlungsbereich mit hervorgehobenem Bin-Symbol](assets/create_reco_8.png)
 
-## Empfehlungsangebot löschen
+## Anzeigen des Status eines Recommendations-Angebots {#status}
 
-Es gibt zwei Möglichkeiten, ein Empfehlungsangebot zu löschen:
+Der Status des Recommendations-Angebots (Algorithmus) wird unten auf der Seite **[!UICONTROL Übersicht]** für [!UICONTROL A/B-Test] und XT-Aktivitäten angezeigt, die Recommendations-Angebote enthalten. Der Status ist einer der folgenden:
 
-* Verwenden des Menüs [!UICONTROL Bearbeiten]
-* Verwenden des Bedienfelds [!UICONTROL Änderungen]
-
-### Löschen eines Empfehlungsangebots über das Menü „Bearbeiten“
-
-1. Klicken Sie auf das zu entfernende Angebot und dann auf **[!UICONTROL Layout > Entfernen]**.
-
-   ![Entfernen](/help/main/c-recommendations/assets/recs-offer-remove.png)
-
-### Löschen eines Empfehlungsangebots über das Bedienfeld für Änderungen
-
-1. Klicken Sie auf [!UICONTROL &#x200B; Symbol &#x200B;]Änderungen **( &lt;/> )**, um den Bereich [Änderungen](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) anzuzeigen.
-1. Bewegen Sie den Mauszeiger über die gewünschte Aktion und klicken Sie dann auf das Symbol [!UICONTROL Löschen].
-
-   ![Symbol „Löschen“](/help/main/c-recommendations/assets/recs-offer-delete.png)
-
-### Anzeigen des Status des Recommendations-Angebots {#status}
-
-Der Status des Recommendations-Angebots (Algorithmus) wird unten auf der Seite [!UICONTROL Übersicht] für A/B-Test - und XT -Aktivitäten angezeigt, die Recommendations-Angebote enthalten:
-
-* Ergebnisse bereit
-* Ergebnisse nicht bereit
-* Feed-Fehler
-
-![Status des Recommendations-Angebots](/help/main/c-recommendations/assets/recs-offer-status.png)
+* **[!UICONTROL Ergebnisse bereit]**
+* **[!UICONTROL Ergebnisse nicht bereit]**
+* **[!UICONTROL Feed-Fehler]**
 
 ## Schulungsvideo: Empfehlungen als Angebot ![Übersichts-Badge](/help/main/assets/overview.png)
 

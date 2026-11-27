@@ -18,100 +18,98 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '944'
 ht-degree: 0%
 ---
-# Erste Schritte mit dem [!UICONTROL Visual Experience Composer]
+# Erste Schritte mit dem [!UICONTROL Visual Experience Composer] {#vec-overview}
 
-Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] ist ein WYSIWYG-Editor zum Erstellen und Testen personalisierter Erlebnisse direkt auf Websites und mobilen Web-Seiten, ohne den Code zu bearbeiten.
+>[!BEGINSHADEBOX]
 
-Erstellen Sie Erlebnisse und Angebote für [!DNL Target] Aktivitäten, indem Sie Elemente per Drag-and-Drop verschieben, Inhalte austauschen und Seiten-Layouts ändern. Der Composer bietet auch Optionen zum Bearbeiten von HTML und JavaScript.
+**Auf dieser Seite** Erfahren Sie, wie Sie den [!UICONTROL Visual Experience Composer] (VEC) öffnen, Erlebnisse bearbeiten und das Laden von Seiten verwalten.
+
+>[!ENDSHADEBOX]
+
+Der [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] ist ein WYSIWYG-Editor zum Erstellen und Testen personalisierter Erlebnisse direkt auf Websites und mobilen Webseiten, ohne Code zu bearbeiten.
+
+Erlebnisse und Angebote für [!DNL Target] Aktivitäten werden durch Ziehen und Ablegen von Elementen, Austauschen von Inhalten und Ändern des Seiten-Layouts erstellt. Der Composer bietet auch Optionen zum Bearbeiten von HTML und JavaScript.
 
 ## Browser-Anforderungen {#browser-requirements}
 
-[!DNL Safari] wird für die [!DNL Adobe Target] unterstützt. Sie können formularbasierte Aktivitäten in [!DNL Safari] erstellen und alle -Funktionen außer VEC und [!UICONTROL Enhanced Experience Composer] (EEC) verwenden. Wenn Sie Visual Experience Composer in [!DNL Safari] öffnen, werden Sie durch eine Überlagerung aufgefordert, zum [!DNL Google Chrome] zu wechseln, um Erlebnisse zu bearbeiten.
+[!DNL Safari] wird für die [!DNL Adobe Target] unterstützt. Formularbasierte Aktivitäten können in [!DNL Safari] mit allen Funktionen erstellt werden, mit Ausnahme von VEC und [!UICONTROL Enhanced Experience Composer] (EEC). Wenn VEC in [!DNL Safari] geöffnet wird, fordert eine Überlagerung den Benutzer auf, zur [!DNL Google Chrome] zu wechseln, um Erlebnisse zu bearbeiten.
 
 Browser wie [!DNL Firefox] blockieren möglicherweise Seiten, die gemischte Inhalte enthalten, z. B. eine nicht sichere Seite innerhalb einer sicheren Site, sodass sie in Visual Experience Composer nicht angezeigt werden. Wenn eine Seite nicht angezeigt wird, klicken Sie auf das Symbol neben der URL in der Adressleiste des Browsers und dann auf **[!UICONTROL Schutz auf dieser Seite deaktivieren]**. Dieses Problem hat keinen Einfluss darauf, wie Seiten den Site-Besuchern angezeigt werden.
 
 ## VEC öffnen {#open-the-vec}
 
-Um festzulegen, welche Seite standardmäßig in VEC geöffnet wird, geben Sie eine Standard-URL [!UICONTROL Visual Experience Composer] auf der [!DNL Target] Registerkarte **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** ein.
+Um festzulegen, welche Seite standardmäßig in VEC geöffnet wird, geben Sie eine Standard-URL [!UICONTROL Visual Experience Composer] auf der [!DNL Target] Registerkarte **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** ein. Wenn keine Standard-URL festgelegt ist, wird der VEC mit einer leeren Seite geöffnet, auf der eine URL angegeben werden kann.
 
-Wenn Sie keine Standard-URL festlegen, wird der VEC mit einer leeren Seite geöffnet, auf der Sie eine URL angeben können.
-
-![VEC hervorgehoben](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
+![Administrationsseite mit hervorgehobener Registerkarte „Visual Experience Composer“, auf der die Einstellungen „Standard-URL“, „Enhanced Experience Composer“ und „Gemischte Inhalte laden“ angezeigt werden](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
 ## Erlebnisse bearbeiten {#edit-experiences}
 
 ### Erlebnisse anzeigen und benennen {#view-and-name-experiences}
 
-Verwenden Sie die Registerkarten in der Leiste [!UICONTROL Erlebnisse], um anzuzeigen, wie Ihre Seite in verschiedenen Zielgruppen oder mit unterschiedlichen Erlebnissen angezeigt wird. Geben Sie jedem Erlebnis einen beschreibenden Namen, damit es in der Liste leichter zu identifizieren ist.
+Die Registerkarten in der Leiste **[!UICONTROL Erlebnisse]** zeigen, wie die Seite für unterschiedliche Zielgruppen oder mit unterschiedlichen Erlebnissen angezeigt wird. Ein beschreibender Name für jedes Erlebnis erleichtert die Identifizierung in der Liste. Wenn Sie beispielsweise die Position des Startseiten-Links in einer Navigationsleiste testen, kann das Erlebnis, in dem er zuerst angezeigt wird, als „Startseiten-Link zuerst“ bezeichnet werden.
 
-Wenn Sie z. B. die Position des Startseiten-Links in Ihrer Navigationsleiste testen, nennen Sie das Erlebnis, in dem er zuerst angezeigt wird, „Startseiten-Link zuerst“.
-
-![Umbenennen eines Erlebnisses in der Leiste Erlebnisse](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
+![Das Dialogfeld „Erlebnis umbenennen“ mit dem Namen „Startseite“ wurde zuerst über das Symbol „Umbenennen“ von Erlebnis B geöffnet](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
 ### Auswählen und Ändern von Elementen {#select-and-modify-elements}
 
-Bewegen Sie den Cursor über die Seite, um einzelne Elemente mit einem kontextsensitiven Feld hervorzuheben.
+Wenn Sie den Cursor über die Seite bewegen, werden einzelne Elemente in einem kontextabhängigen Feld hervorgehoben. Durch Klicken auf ein hervorgehobenes Element werden die Bearbeitungsoptionen für diesen Elementtyp angezeigt. Wenn Sie beispielsweise ein Bild auswählen und auf **[!UICONTROL Bildangebot ändern]** klicken, wird es ersetzt, und durch Auswahl einer Schaltfläche kann dessen Textfarbe geändert werden.
 
-Klicken Sie auf ein hervorgehobenes Element, um die Bearbeitungsoptionen für diesen Elementtyp anzuzeigen. Wählen Sie beispielsweise ein Bild aus und klicken Sie auf **[!UICONTROL Bildquelle ändern]**, um es zu ersetzen, oder wählen Sie eine Schaltfläche aus, um seine Textfarbe zu ändern.
+![Bearbeitungsoptionen, die über einem ausgewählten Bild angezeigt werden](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
-![Bearbeitungsoptionen für ein ausgewähltes Element](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
+Inhalte innerhalb eines in die Seite eingebetteten iframes können nicht bearbeitet werden. Um diesen Inhalt zu bearbeiten, stellen Sie sicher, dass das iframe-Dokument [!DNL Target] aktiviert ist, und laden Sie dann die iframe-URL direkt in den VEC.
 
-Sie können keine Inhalte in einem IFrame bearbeiten, der in die Seite eingebettet ist. Um diesen Inhalt zu bearbeiten, stellen Sie sicher, dass das iframe-Dokument [!DNL Target] aktiviert ist, und laden Sie dann die iframe-URL direkt in den VEC.
-
-Änderungen an der Seitenstruktur außerhalb von VEC können Standorte betreffen, die von einer Aktivität verwendet werden. Wenn sich diese Speicherorte ändern, können [!DNL Target] möglicherweise die von Ihnen geänderten Elemente nicht finden, was zu Problemen bei der Bearbeitung von Erlebnissen führen kann.
+Änderungen an der Seitenstruktur außerhalb des VEC können sich auf die von einer Aktivität verwendeten Speicherorte auswirken. Wenn sich diese Speicherorte ändern, können [!DNL Target] möglicherweise die geänderten Elemente nicht finden, was bei der Bearbeitung von Erlebnissen zu Problemen führen kann.
 
 ### Durchsuchen und Design {#browse-and-design}
 
 Klicken Sie **[!UICONTROL Durchsuchen]**, um zu einer Seite zu navigieren, auf die über die aktuelle Seite zugegriffen werden kann, z. B. zu einer Versandseite oder einem Warenkorb, und dort die Änderungen zu testen.
 
-![Durchsuchen-Modus im VEC](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
+![Durchsuchen-Modus im VEC mit dem URL-Feld und den Rückwärts- und Vorwärtspfeilen](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
-Im Durchsuchen-Modus können Sie auch auf Elemente zugreifen, die beim Bewegen des Mauszeigers angezeigt werden, wie Flyout-Menüs und Mini-Warenkörbe. Wenn Sie die Seite oder das Element erreichen, die Sie bearbeiten möchten, klicken Sie auf **[!UICONTROL Design]**, um das Erlebnis zu bearbeiten.
+Im Durchsuchen-Modus können Sie auch auf Elemente zugreifen, die beim Bewegen des Mauszeigers angezeigt werden, z. B. Flyout-Menüs und Mini-Warenkörbe. Wenn die zu bearbeitende Seite oder das zu bearbeitende Element erreicht ist, klicken Sie auf **[!UICONTROL Design]**, um die Oberfläche zu bearbeiten.
 
 Wenn der Hover-Status von JavaScript abhängt, stellen Sie sicher, dass **[!UICONTROL JavaScript deaktivieren]** nicht ausgewählt ist. JavaScript muss aktiviert sein, damit davon abhängige Elemente bearbeitet werden können.
 
-Weitere Informationen zu den verfügbaren Bearbeitungsoptionen finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Weitere Informationen zu den verfügbaren Bearbeitungsoptionen finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 ## Seitenladevorgang verwalten {#manage-page-loading}
 
-Einige Bearbeitungsoptionen bleiben verfügbar, während eine Seite geladen wird oder nachdem sie nicht geladen werden kann. Sie können das Laden der Seite auch abbrechen, um auf diese Optionen zuzugreifen, ohne zu warten.
+Einige Bearbeitungsoptionen bleiben verfügbar, während eine Seite geladen wird oder nachdem sie nicht geladen werden kann. Das Laden der Seite kann auch abgebrochen werden, um ohne zu warten auf diese Optionen zuzugreifen.
 
 ### Bearbeiten Sie eine Seite, während die Seite geladen wird oder nachdem sie nicht geladen werden kann {#loading}
 
-Sie können einige Änderungen vornehmen, bevor eine Seite in VEC vollständig geladen ist oder nachdem sie nicht geladen werden kann, z. B. weil benutzerdefinierter Code nicht mehr funktioniert.
+Einige Änderungen können vorgenommen werden, bevor eine Seite in VEC vollständig geladen ist, oder nachdem sie nicht geladen werden kann, z. B. weil benutzerdefinierter Code nicht mehr funktioniert.
 
-Verwenden Sie die verfügbaren Bearbeitungsoptionen, um:
+Die verfügbaren Bearbeitungsoptionen ermöglichen Folgendes:
 
 * Nehmen Sie einfache Änderungen vor, z. B. Hinzufügen von benutzerdefiniertem Code oder Umbenennen eines Erlebnisses
 * Kopieren Sie vorhandenen benutzerdefinierten Code von einer Seite, auf die nicht mehr zugegriffen werden kann
 * Einfache Änderungen an einer Seite vornehmen, die nicht in VEC geladen werden kann
 
-Die Optionen [!UICONTROL Erlebnisse] Leiste, [!UICONTROL Komponenten] Leiste und [!UICONTROL Konfigurieren] bleiben verfügbar, während die Seite geladen wird oder nachdem sie nicht geladen werden kann.
+Die Optionen **[!UICONTROL Erlebnisse]** Leiste, **[!UICONTROL Komponenten]** Leiste und **[!UICONTROL Konfigurieren]** bleiben verfügbar, während die Seite geladen wird oder nachdem sie nicht geladen werden kann.
 
 ### Abbrechen des Seitenladevorgangs in VEC {#cancel-loading}
 
-Abbrechen des Seitenladevorgangs in Visual Experience Composer, um die Aktivität zu bearbeiten, ohne darauf zu warten, dass das Laden der Seite abgeschlossen ist.
-
-Das Abbrechen des Seitenladevorgangs ist bei folgenden Aufgaben nützlich:
+Wenn Sie das Laden der Seite in VEC abbrechen, können Sie die Aktivität bearbeiten, ohne darauf zu warten, dass die Seite fertig geladen wird. Dies ist nützlich für:
 
 * Geringfügige Änderungen an vorhandenen Änderungen vornehmen
 * Löschen einer oder mehrerer vorhandener Änderungen
 * Benutzerdefinierten Code einfügen oder bearbeiten
 * Korrigieren einer falsch eingegebenen Seiten-URL
 * Aktivieren oder deaktivieren Sie JavaScript, bevor Sie die Seite in VEC laden
-* Hinzufügen von Vorlagentestregeln zu den Kriterien [!UICONTROL Seitenbereitstellung]
+* Hinzufügen von Vorlagentestregeln zu den Kriterien **[!UICONTROL Seitenbereitstellung]**
 * Überschreiben Sie den globalen Umschalter [!UICONTROL Enhanced Experience Composer] (EEC) beim Laden einer Seite durch den EEC oder im iframe-only-Modus
 
-Nach dem Abbrechen des Seitenladevorgangs können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf zu warten, dass die Seite geladen wird. Klicken Sie **[!UICONTROL Neu laden]**, um die Seite erneut im VEC anzuzeigen.
+Nachdem das Laden der Seite abgebrochen wurde, können Sie in der Aktivität zwischen Erlebnissen wechseln, ohne darauf zu warten, dass die Seite geladen wird. Klicken Sie **[!UICONTROL Neu laden]**, um die Seite erneut im VEC anzuzeigen.
 
 >[!IMPORTANT]
 >
->Wenn Sie benutzerdefinierten Code bearbeiten oder andere Änderungen vornehmen, nachdem Sie das Laden der Seite abgebrochen haben, führen Sie Qualitätssicherungstests durch, um zu überprüfen, ob Ihre Änderungen wie erwartet bereitgestellt werden.
+>Wenn benutzerdefinierter Code bearbeitet wird oder andere Änderungen vorgenommen werden, nachdem das Laden der Seite abgebrochen wurde, führen Sie Qualitätssicherungstests durch, um zu überprüfen, ob die Änderungen wie erwartet bereitgestellt werden.
 
 Um das Laden der Seite zu stoppen, klicken Sie **[!UICONTROL Laden abbrechen]** während die Seite geladen wird. Die Seite bleibt für diese Aktivität während der aktuellen Bearbeitungssitzung entladen, es sei denn, sie wird neu geladen.
 

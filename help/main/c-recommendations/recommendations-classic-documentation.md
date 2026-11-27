@@ -19,21 +19,25 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 55%
+source-wordcount: '126'
+ht-degree: 13%
 ---
-# Dokumentation zu Recommendations Classic
+# Dokumentation zu Recommendations Classic {#recs-classic-documentation}
 
-[!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die ausgehend von der bisherigen Benutzeraktivität auf Ihrer Site für die betreffenden Kunden von Interesse sein könnten.
+>[!BEGINSHADEBOX]
+
+**Auf dieser Seite finden** die Dokumentation zu [!DNL Recommendations Classic], dem veralteten [!DNL Recommendations].
+
+>[!ENDSHADEBOX]
+
+[!DNL Recommendations Classic] zeigt automatisch Produkte oder Inhalte an, die basierend auf früheren Benutzeraktivitäten auf der Website für Kunden interessant sein könnten. Diese Empfehlungen helfen, Kunden zu Artikeln zu führen, von denen sie andernfalls möglicherweise nichts gewusst hätten, was den auf der Website generierten Umsatz verbessert.
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] ist ein älteres Produkt, das nicht mehr für neue Kunden lizenziert wird. Für ein optimales [!DNL Recommendations] sollten Sie ein Upgrade auf [!DNL Recommendations] in [Adobe Target Premium](/help/main/c-intro/intro.md) verfügbaren Aktivitäten durchführen.
-
-Empfehlungen lenken Kunden zu Artikeln, von denen sie womöglich noch nichts wissen. Dies führt zu mehr Umsatz auf Ihrer Site.
+>[!DNL Recommendations Classic] ist ein älteres Produkt, das nicht mehr für neue Kunden lizenziert wird. Für ein optimales [!DNL Recommendations] sollten Sie ein Upgrade auf [!DNL Recommendations] Aktivitäten durchführen, die in [Adobe Target Premium](/help/main/c-intro/intro.md) verfügbar sind.
 
 Informationen zur Auswahl zwischen [!DNL Recommendations Classic]- und [!DNL Recommendations]-Aktivitäten in [!DNL Target Premium] finden Sie unter [Recommendations Classic versus Recommendations-Aktivitäten in Target Premium](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Laden Sie die Dokumentation für [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) im PDF-Format herunter.
+Die Dokumentation für [Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf) kann im PDF-Format heruntergeladen werden.

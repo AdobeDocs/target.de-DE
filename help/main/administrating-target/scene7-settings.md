@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Informationen dazu, wie diese Registerkarte zu anderen Verwaltungsaufgaben passt
 
 ## Was die Integration ermöglicht {#what-it-enables}
 
-Nach der **[!UICONTROL der Scene7]** Konfiguration können Autoren in [!DNL Target] Aktivitäten Bilder verwenden, die in den [!DNL Adobe Experience Cloud] Assets-Ordner hochgeladen wurden. Die Option **[!UICONTROL Bild austauschen]** wird im Aktivitäts-Workflow angezeigt, einschließlich [Visual Experience Composer und Form-Based Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Informationen zum Swap-Verhalten in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Nach der **[!UICONTROL der Scene7]** Konfiguration können Autoren in [!DNL Target] Aktivitäten Bilder verwenden, die in den [!DNL Adobe Experience Cloud] Assets-Ordner hochgeladen wurden. Die Option **[!UICONTROL Bild austauschen]** wird im Aktivitäts-Workflow angezeigt, einschließlich [Visual Experience Composer und Form-Based Experience Composer](/help/main/c-experiences/experiences.md#experiences-overview). Informationen zum Swap-Verhalten in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 Wenn diese Einstellung nicht konfiguriert ist **[!UICONTROL steht das Angebot „Bild austauschen]** bei der Erstellung einer Aktivität nicht zur Verfügung.
 

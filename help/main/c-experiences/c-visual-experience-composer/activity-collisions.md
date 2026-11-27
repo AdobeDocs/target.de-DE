@@ -16,30 +16,40 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 43%
+source-wordcount: '354'
+ht-degree: 18%
 ---
-# Aktivitätskollisionen
+# Aktivitätskollisionen {#activity-collisions}
 
-Auf der Registerkarte [!UICONTROL Kollisionen] auf der Seite [!UICONTROL Aktivitätsübersicht] in [!DNL Adobe Target] werden Aktivitätskollisionen auf Ihrer Site aufgeführt.
+>[!BEGINSHADEBOX]
 
-Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Tritt eine Aktivitätskollision auf, wird möglicherweise nicht der erwartete Inhalt auf Ihrer Seite angezeigt.
+**Auf dieser Seite** Erfahren Sie, wie Sie mit der Registerkarte **[!UICONTROL Kollisionen]** Aktivitäten finden, die möglicherweise Inhalte für dieselbe Seite bereitstellen.
 
-Die Registerkarte [!UICONTROL Kollisionen] ist auf der Seite Aktivitätsübersicht verfügbar und kann Sie darüber informieren, ob Ihre Aktivität potenzielle Kollisionen enthält.
+>[!ENDSHADEBOX]
 
-Um auf die Registerkarte [!UICONTROL Kollisionen] zuzugreifen, klicken Sie auf **[!UICONTROL Aktivitäten]** > in der Liste auf die gewünschte Aktivität und dann in der linken Leiste auf **[!UICONTROL Kollisionen]**.
+Eine Aktivitätskollision tritt auf, wenn mehrere Aktivitäten eingerichtet sind, die Inhalt für dieselbe Seite bereitstellen sollen. Wenn eine Aktivitätskollision auftritt, wird der erwartete Inhalt möglicherweise nicht auf der Seite angezeigt.
 
-Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. Auf dieser Registerkarte finden Sie eine Liste der möglicherweise kollidierenden Aktivitäten. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
+Auf der Registerkarte **[!UICONTROL Kollisionen]** auf der Seite **[!UICONTROL Aktivitätsübersicht]** in [!DNL Adobe Target] werden die Aktivitätskollisionen auf der Site aufgelistet und angezeigt, ob eine Aktivität potenzielle Kollisionen enthält. Die **[!UICONTROL Kollisionen]** hilft bei Folgendem:
 
-Die [!UICONTROL Kollisionen] hilft Ihnen bei Folgendem:
-
-* Identifizieren, ob ein Test bereits auf einer Seite ausgeführt wird, bevor Sie eine neue Aktivität einrichten
+* Ermitteln Sie, ob bereits ein Test auf einer Seite ausgeführt wird, bevor eine neue Aktivität eingerichtet wird.
 * Fehlerbehebung bei einer Aktivität, wenn der erwartete Inhalt nicht angezeigt wird
 
-Die [!UICONTROL Kollisionen] Liste zeigt jedes [!DNL Target] Szenario, in dem die Mbox verwendet wird und das dieselbe URL verwendet. Für jede potenzielle Kollision zeigt die Liste die Aktivitäts-URL, den Mbox-Namen, in dem die Kollision auftreten könnte, und alle Aktivitäten, die diesen beiden Kriterien entsprechen. Sind mehrere Mboxes vorhanden, werden sie einzeln aufgelistet.
+## Zugriff auf die Registerkarte „Kollisionen“ {#access-collisions}
 
-Die Liste zeigt den Status und die Priorität jeder möglichen Kollision sowie weitere Informationen an. Mithilfe des Status und der Priorität können Sie bestimmen, wie wahrscheinlich es ist, dass eine Kollision auftritt. Erwägen Sie zwei Aktivitäten, die kollidieren könnten. Wenn eine Aktivität derzeit nicht aktiv ist, kann keine Kollision auftreten. Eine Kollision ist nur möglich, wenn die inaktive Aktivität aktiv wird. Wenn es zu einer potenziellen Kollision zwischen zwei Live-Aktivitäten mit derselben Priorität und derselben Zielgruppe kommt, tritt eine Kollision auf. Sie können die Priorität oder den Status ändern, um die Kollision zu verhindern.
+Klicken Sie **[!UICONTROL Aktivitäten]** auf die gewünschte Aktivität in der Liste und dann auf das Menü **[!UICONTROL Kollisionen]**.
 
-Wenn die Zielgruppen unterschiedlich sind, besteht weiterhin die Möglichkeit einer Kollision, da ein bestimmter Besucher möglicherweise mehreren Zielgruppen angehören kann.
+![Symbol „Konfigurieren“](assets/collisions_1.png)
+
+Dort werden unabhängig vom Zielgruppen-Targeting in den einzelnen Aktivität alle Aktivitäten auf der gleichen URL aufgelistet. Auf der Registerkarte werden die Aktivitäten aufgelistet, die möglicherweise kollidieren. Führt die Kollision zu einer Änderung des erwarteten Erlebnisses, muss die Aktivität bearbeitet werden.
+
+## Kollisionsliste lesen {#collisions-list}
+
+Die **[!UICONTROL Kollisionen]** Liste zeigt jedes [!DNL Target] Szenario, in dem die Mbox verwendet wird und das dieselbe URL verwendet. Für jede potenzielle Kollision zeigt die Liste die Aktivitäts-URL, den Mbox-Namen, in dem die Kollision auftreten könnte, und alle Aktivitäten, die diesen beiden Kriterien entsprechen. Sind mehrere Mboxes vorhanden, werden sie einzeln aufgelistet.
+
+Die Liste zeigt auch den Status und die Priorität jeder potenziellen Kollision zusammen mit anderen Informationen. Der Status und die Priorität helfen bei der Bestimmung der Wahrscheinlichkeit, dass eine Kollision auftritt. Für zwei Aktivitäten, die kollidieren könnten:
+
+* Wenn eine Aktivität derzeit nicht aktiv ist, kann keine Kollision auftreten. Eine Kollision ist nur möglich, wenn die inaktive Aktivität aktiv wird.
+* Wenn es zu einer potenziellen Kollision zwischen zwei Live-Aktivitäten mit derselben Priorität und derselben Zielgruppe kommt, tritt eine Kollision auf. Die Priorität oder der Status kann geändert werden, um die Kollision zu verhindern.
+* Wenn die Zielgruppen unterschiedlich sind, besteht weiterhin die Möglichkeit einer Kollision, da ein bestimmter Besucher mehreren Zielgruppen angehören kann.

@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Erstellen von Karussells, die in Visual Experience Composer funktionieren
+# Erstellen von Karussells, die in [!UICONTROL Visual Experience Composer) &#x200B;] {#vec-carousels}
 
-In diesem Thema wird gezeigt, wie Sie ein Karussell erstellen, das in [!DNL Adobe Target] ([!UICONTROL &#x200B; Experience Composer) &#x200B;] werden kann.
+>[!BEGINSHADEBOX]
 
-Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass die ausgewählte Folie die Auswahl für die richtige Folie beinhaltet, selbst wenn sie nach einigen Sekunden im Visual Experience Composer ausgewechselt wird.
+**Auf dieser Seite** Erfahren Sie, wie Sie ein Karussell erstellen, das in Visual **[!UICONTROL Composer (VEC) bearbeitet]** kann.
 
-1. Erstellen Sie statische HTML-Platzhalter.
+>[!ENDSHADEBOX]
+
+Ein Karussell, das mit der folgenden Struktur erstellt wurde, kann im [!DNL Adobe Target] (**[!UICONTROL Experience Composer]** (VEC) bearbeitet werden. Die Struktur behält den Selektor jeder Folie bei, sodass [!DNL Target] immer die richtige Folie identifiziert, auch wenn sich die angezeigte Folie einige Sekunden nach dem Laden der Seite im VEC ändert.
+
+1. Erstellen Sie die Folien als statische HTML-Platzhalter, wobei eine sichtbare Folie und die anderen Folien nach Klasse ausgeblendet sind.
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ Sollten Sie mit den Anweisungen unten arbeiten, weiß [!DNL Target] stets, dass 
    </ul>
    ```
 
-1. Fügen Sie CSS hinzu, um Aussehen und Feeling des Erlebnisses anzupassen.
-
-   Verwenden Sie dafür nicht JavaScript.
+1. Gestalten Sie das Erscheinungsbild nur mit CSS. Verwenden Sie dafür nicht JavaScript.
 
    >[!NOTE]
    >
-   >Die Option [!UICONTROL Mit JavaScript rendern] wird derzeit nicht unterstützt, wenn sie im Visual Experience Composer gemeinsam mit benutzerdefiniertem Code verwendet wird.
+   >Die Option **[!UICONTROL Rendern mit JavaScript]** wird derzeit nicht unterstützt, wenn sie zusammen mit benutzerdefiniertem Code im **[!UICONTROL Visual Experience Composer)]** wird.
 
-1. Aktualisieren Sie classNames nur, um andere auszublenden und den Text mit Timer/Animation anzuzeigen.
-
-   Aktualisieren Sie die DOM-Struktur niemals mithilfe von JavaScript.
+1. Zeigen Sie die nächste Folie an, indem Sie nur die Klassennamen aktualisieren: Blenden Sie die anderen Folien aus und zeigen Sie die nächste Folie mit einem Timer oder einer Animation an. Aktualisieren Sie die DOM-Struktur niemals mit JavaScript.

@@ -14,63 +14,67 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 60%
+source-wordcount: '701'
+ht-degree: 21%
 ---
-# Erlebnisvorlagen
+# Erlebnisvorlagen {#experience-templates}
 
-Informationen zu [!DNL Adobe Target] Erlebnisvorlagen zur Verwendung in benutzerdefiniertem Code. [!DNL Target] Erlebnisvorlagen sind vorcodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Marketer-Anwendungsfälle verwendet werden können.
+>[!BEGINSHADEBOX]
 
-Diese Erlebnisvorlagen stehen Entwicklern und Marketing-Experten kostenlos zur Verfügung und bilden die Basis für beliebte Anwendungsfälle – entweder über den VEC oder den formularbasierten Experience Composer.
+**Auf dieser Seite** Suchen Sie nach den [!DNL Adobe Target] Erlebnisvorlagen, die für die Verwendung in benutzerdefiniertem Code verfügbar sind, und danach, wofür jede Vorlage häufig verwendet wird.
 
-Die folgenden Vorlagen sind derzeit im Adobe Experience Cloud-GitHub verfügbar (siehe [Target-Erlebnisvorlagen](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)).
+>[!ENDSHADEBOX]
 
-## Bannerkarussell mit Miniaturansichten {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
+[!DNL Adobe Target] Erlebnisvorlagen sind vorcodierte Beispiele mit konfigurierbaren Eingaben, die zur Ausführung gängiger Marketer-Anwendungsfälle verwendet werden. Sie werden Entwicklern und Marketern kostenlos als Ausgangspunkt für die Ausführung gängiger Anwendungsfälle bereitgestellt, entweder über den VEC oder den formularbasierten Experience Composer.
 
-Bei der [Erlebnisvorlage „Bannerkarussell mit Miniaturansichten“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Diese Karussellansicht schaltet nicht automatisch durch die Bilder, sondern muss durch Anklicken der kleineren Bilder unterhalb des Primärbilds direkt aktiviert werden.
+Die folgenden Vorlagen sind derzeit auf dem Adobe Marketing Cloud-GitHub verfügbar: [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
 
-![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
+## Bannerkarussell mit Miniaturansichten {#banner-carousel-thumbnails}
 
-## Bannerkarussell {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+Bei der [Erlebnisvorlage „Bannerkarussell mit Miniaturansichten“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Dieses Karussell wird nicht automatisch durch die Bilder gedreht. Sie können direkt damit interagieren, indem Sie auf die kleineren Bilder unter dem Primärbild klicken.
 
-Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Diese Karussellansicht schaltet nicht automatisch durch die Bilder, sondern muss durch Anklicken des Links- bzw. Rechtspfeils direkt aktiviert werden.
+![Banner-Karussell mit Miniaturansicht-Vorlage: Ein großes Foto mit drei kleineren Fotos und Untertiteln darunter](assets/exp-template-banner-carousel-thumbnails.png)
 
-![exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
+## Bannerkarussell {#banner-carousel}
 
-## Banner-Countdown {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+Bei der [Erlebnisvorlage „Bannerkarussell“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) handelt es sich um eine rotierende Karussellansicht, die häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird. Dieses Karussell wird nicht automatisch durch die Bilder gedreht. Sie können direkt damit interagieren, indem Sie auf die Nach-links- und Nach-rechts-Taste klicken.
+
+![Banner-Karussellvorlage: Ein Foto mit Nach links und Nach rechts und vier Punkten als Hinweis](assets/exp-template-banner-carousel.png)
+
+## Banner-Countdown {#banner-countdown}
 
 Bei der [Erlebnisvorlage „Banner-Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) handelt es sich um ein großes Banner mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
-![exp-template-banner-countDown Bild](assets/exp-template-banner-countdown.png)
+![Banner-Countdown-Vorlage: Ein großes Banner mit einem Countdown in Tagen, Stunden, Minuten und Sekunden und einer Schaltfläche Hier wechseln](assets/exp-template-banner-countdown.png)
 
-## Button-Builder {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
+## Button-Builder {#button-builder}
 
-Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) handelt es sich um eine kleine Schaltfläche mit einem Text-CTA (Call to Action). Die Schaltfläche kann konfiguriert und beliebig auf der Seite positioniert werden, um einen neuen CTA hinzuzufügen oder eine vorhandene Schaltfläche durch eine Alternative zu ersetzen, die sich umfassender konfigurieren lässt.
+Bei der [Erlebnisvorlage „Button-Builder“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) handelt es sich um eine kleine Schaltfläche mit einem Text-CTA (Call to Action). Die Schaltfläche kann konfiguriert werden. Sie kann an einer beliebigen Stelle auf der Seite platziert werden, um eine neue call to action hinzuzufügen oder eine vorhandene Schaltfläche durch eine besser konfigurierbare Alternative zu ersetzen.
 
-![exp-template-button-builder image](assets/exp-template-button-builder.png)
+![Button Builder-Vorlage: zwei Schaltflächen, Kontaktieren Sie uns und gehen Sie hier, unter einer Banner-Überschrift](assets/exp-template-button-builder.png)
 
-## Lightbox mit Countdown {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Lightbox mit Countdown {#lightbox-countdown}
 
 Bei der [Erlebnisvorlage „Lightbox mit Countdown“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) handelt es sich um ein Lightbox-Overlay-Popup mit zentralem Countdown, das häufig auf Homepages, Landingpages oder anderen Entrypages mit hohem Besucheraufkommen verwendet wird.
 
-![exp-template-lightbox-countDown Bild](assets/exp-template-lightbox-countdown.png)
+![Lightbox mit Countdown-Vorlage: ein Popup mit einem Countdown, einer Schaltfläche Hier gehen und einem Link Nein Danke](assets/exp-template-lightbox-countdown.png)
 
-## Lightbox mit Verlassen-Intent {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
+## Lightbox mit Verlassen-Intent {#lightbox-exit-intent}
 
-Bei der [Erlebnisvorlage „Lightbox mit Verlassen-Intent“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) handelt es sich um ein Lightbox-Overlay-Popup, das durch den Verlassen-Intent (Mauszeiger oben rechts im Bildschirm) ausgelöst wird und zu jedem Webasset hinzugefügt werden kann, um ein letztes Mal zu versuchen, die Aufmerksamkeit des Besuchers zu gewinnen.
+Die [Lightbox mit Exitintent-Erlebnisvorlage](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) ist ein Lightbox-Overlay-Popup, das bei Exitintent ausgelöst wird (Bewegen der Maus in den oberen rechten Bereich des Bildschirms). Es kann in jeder Web-Eigenschaft bereitgestellt werden, in der eine letzte Chance, Aufmerksamkeit zu erregen, gewünscht wird.
 
-![exp-template-lightbox-exit Bild](assets/exp-template-lightbox-exit.png)
+![Lightbox mit Exitintent-Vorlage: ein Popup, das einen Rabatt bietet, mit einer Schaltfläche „Hier gehen“ und einem Link „Nein danke“](assets/exp-template-lightbox-exit.png)
 
-## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
+## Lightbox {#lightbox}
 
 Die [Lightbox-Erlebnisvorlage](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) ist ein Lightbox-Überlagerungspopup mit einer integrierten Verzögerung, das häufig auf Startseiten und Landingpages oder anderen Einstiegsseiten mit hohem Volumen verwendet wird.
 
-![exp-template-lightbox Bild](assets/exp-template-lightbox.png)
+![Lightbox-Vorlage: ein Popup mit einem Foto auf der linken Seite, einer Nachricht auf der rechten Seite, einer Schaltfläche „Hier gehen“ und einem Link „Nein danke“](assets/exp-template-lightbox.png)
 
-## Menüband {#section_CCBB656265F140AEA1B200409D719000}
+## Menüband {#ribbon}
 
-Bei der [Erlebnisvorlage „Band“](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) handelt es sich um eine Leiste mit einer Breite von 100 %, die oben auf der Webseite angezeigt wird. Sie wird in der Regel eingesetzt, um eine Verkaufsaktion, kostenlosen Versand, Sicherheits- oder Wetterereignisse oder andere wichtige Ankündigungen anzuzeigen.
+Die [Multifunktionsleisten-Erlebnisvorlage](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) ist eine Multifunktionsleiste mit einer Breite von 100 %, die ganz oben auf der Web-Seite eingefügt wird. Sie wird normalerweise verwendet, um einen Schnellverkauf, einen kostenlosen Versand, ein Sicherheits- oder Wetterereignis oder eine andere wichtige Ankündigung anzugeben.
 
-![exp-template-ribbon image](assets/exp-template-ribbon.png)
+![Menüband-Vorlage: Ein Menüband mit voller Breite oben auf der Seite mit dem Text Siehe die Promotion, die wir durchführen](assets/exp-template-ribbon.png)
