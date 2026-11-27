@@ -19,7 +19,7 @@ workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%
 ---
-# Erstellen von Karussells, die in [!UICONTROL Visual Experience Composer) ] {#vec-carousels}
+# Erstellen von Karussells, die in [!UICONTROL Visual Experience Composer) &#x200B;] {#vec-carousels}
 
 >[!BEGINSHADEBOX]
 

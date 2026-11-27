@@ -55,7 +55,7 @@ Die Seiten, auf denen ein Erlebnis angezeigt wird, werden mit Seitenbereitstellu
 
 1. Erstellen oder bearbeiten Sie eine Aktivität wie in [Aktivitäten](/help/main/c-activities/activities.md) beschrieben.
 
-1. Klicken Sie [!UICONTROL  Visual Experience ] auf das Symbol **[!UICONTROL Konfigurieren]** ( ![Symbol Konfigurieren](/help/main/assets/icons/Setting.svg) ) und wählen Sie dann **[!UICONTROL Seitenbereitstellung]**.
+1. Klicken Sie [!UICONTROL &#x200B; Visual Experience &#x200B;] auf das Symbol **[!UICONTROL Konfigurieren]** ( ![Symbol Konfigurieren](/help/main/assets/icons/Setting.svg) ) und wählen Sie dann **[!UICONTROL Seitenbereitstellung]**.
 
    ![Aktivitäten](assets/vec_edit_1.png)
 

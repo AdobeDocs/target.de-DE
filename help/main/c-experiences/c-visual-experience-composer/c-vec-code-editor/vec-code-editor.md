@@ -235,7 +235,7 @@ Wenn Änderungen erforderlich sind, nehmen Sie die Änderungen innerhalb dieses 
 
 * **Wenn ein Element erstellt und dann geändert wird, löschen Sie das ursprüngliche Element nicht.**
 
-  Jede Änderung erstellt ein neues Element im Bedienfeld **[!UICONTROL Änderungen]**. Die zweite Aktion ändert Element 1. Wenn Element 1 gelöscht wird, hat diese Aktion also nichts mehr zu ändern, und die Änderung funktioniert nicht mehr. Weitere Informationen [ Sie unter „Fehlerbehebung ](#troubleshooting-custom-code) benutzerdefiniertem Code“.
+  Jede Änderung erstellt ein neues Element im Bedienfeld **[!UICONTROL Änderungen]**. Die zweite Aktion ändert Element 1. Wenn Element 1 gelöscht wird, hat diese Aktion also nichts mehr zu ändern, und die Änderung funktioniert nicht mehr. Weitere Informationen [&#x200B; Sie unter „Fehlerbehebung &#x200B;](#troubleshooting-custom-code) benutzerdefiniertem Code“.
 
 * **Seien Sie vorsichtig, wenn Sie die Funktion für benutzerdefinierten Code für zwei Aktivitäten verwenden, die dieselbe URL zum Ziel haben.**
 

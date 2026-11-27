@@ -161,7 +161,7 @@ Die folgende Fehlermeldung kann in [!DNL Target] angezeigt werden:
 
 Diese Fehlermeldung hat zwei mögliche Ursachen:
 
-* Die Website Domain (ISP) blockiert den EEC. Um dieses Problem zu beheben, ändern Sie die IP-Adressen, die unter [ aufgeführt sind, und wählen Sie die Zulassungsliste der IP-Adressen des EEC-Proxys aus](#eec-ip-addresses).
+* Die Website Domain (ISP) blockiert den EEC. Um dieses Problem zu beheben, ändern Sie die IP-Adressen, die unter [&#x200B; aufgeführt sind, und wählen Sie die Zulassungsliste der IP-Adressen des EEC-Proxys aus](#eec-ip-addresses).
 * Die IP-Adressen werden auf die Zulassungsliste gesetzt, aber die Website unterstützt TLS 1.2 nicht. Informationen zum Beheben des Problems finden Sie unter dem folgenden Punkt.
 
 +++
@@ -185,7 +185,7 @@ So überprüfen Sie die TLS-Version einer Website in Firefox (andere Browser fü
 
    ![Fenster mit den Firefox-Seiteninformationen, Registerkarte „Sicherheit“, wobei die TLS-Version unter „Technische Details“ hervorgehoben ist](assets/firefox_more_info_3.png)
 
-1. Wenn auf der Website TLS 1.0 angezeigt wird, finden Sie [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} Informationen zur TLS-Unterstützungsrichtlinie von [!DNL Target]. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit der TLS[Version und der Domain an die ](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)Kundenunterstützung“.
+1. Wenn auf der Website TLS 1.0 angezeigt wird, finden Sie [TLS (Transport Layer Security)-Verschlüsselungsänderungen](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} Informationen zur TLS-Unterstützungsrichtlinie von [!DNL Target]. Um vorläufig Abhilfe zu schaffen (gültig bis 12. September 2018), wenden Sie sich zur Konfiguration mit der TLS[Version und der Domain an die &#x200B;](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)Kundenunterstützung“.
 
 +++
 

@@ -27,7 +27,7 @@ ht-degree: 12%
 
 >[!BEGINSHADEBOX]
 
-**Auf dieser Seite** Erfahren Sie, wie Sie eine Recommendation als Angebot in A/B-Test[!UICONTROL  - und [!UICONTROL Experience Targeting] (XT) -Aktivitäten hinzufügen] bearbeiten und löschen.
+**Auf dieser Seite** Erfahren Sie, wie Sie eine Recommendation als Angebot in A/B-Test[!UICONTROL &#x200B; - und [!UICONTROL Experience Targeting] (XT) -Aktivitäten hinzufügen] bearbeiten und löschen.
 
 >[!ENDSHADEBOX]
 
@@ -40,13 +40,13 @@ Zusätzlich zu [!UICONTROL Recommendations]-Aktivitäten können Recommendations
 
 ## Hinzufügen einer Empfehlung als Angebot {#add-recs-offer}
 
-Eine Empfehlung wird als Angebot hinzugefügt, während ein Erlebnis mit dem [!UICONTROL Visual Experience Composer] (VEC) in einer A/B[!UICONTROL Test- ] XT-Aktivität erstellt wird.
+Eine Empfehlung wird als Angebot hinzugefügt, während ein Erlebnis mit dem [!UICONTROL Visual Experience Composer] (VEC) in einer A/B[!UICONTROL Test- &#x200B;] XT-Aktivität erstellt wird.
 
 1. Starten Sie den in drei Schritten durchgeführten Workflow des VEC zum Erstellen einer [A/B-Test](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)- oder [Erlebnis-Targeting](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)-Aktivität (XT).
 
    >[!NOTE]
    >
-   >Bei A/B-Tests leitet [ Option „Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) den Traffic automatisch an die Empfehlungen mit der besten Leistung weiter, und die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) weist Besuchern auf der Grundlage ihres Profils maßgeschneiderte Recommendations-Erlebnisse zu.
+   >Bei A/B-Tests leitet [&#x200B; Option „Automatische Zuordnung](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) den Traffic automatisch an die Empfehlungen mit der besten Leistung weiter, und die Option [Automatisches Targeting](/help/main/c-activities/auto-target/auto-target-to-optimize.md) weist Besuchern auf der Grundlage ihres Profils maßgeschneiderte Recommendations-Erlebnisse zu.
 
 1. Fügen Sie beim Erstellen [Erlebnisses](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) die Empfehlung auf eine der folgenden Arten als Angebot hinzu:
 
@@ -65,7 +65,7 @@ Eine Empfehlung wird als Angebot hinzugefügt, während ein Erlebnis mit dem [!U
 1. Geben **[!UICONTROL im Dialogfeld]** Optionen“ Folgendes an:
 
    * Wählen Sie eine [Sammlung](/help/main/c-recommendations/c-products/collections.md) aus.
-   * Konfigurieren Sie bei Bedarf die Optionen [Frontend-Promotion und ](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)-Promotion“.
+   * Konfigurieren Sie bei Bedarf die Optionen [Frontend-Promotion und &#x200B;](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md)-Promotion“.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

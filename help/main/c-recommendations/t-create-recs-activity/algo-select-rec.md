@@ -35,7 +35,7 @@ Wenn Sie mehrere Kriterien auswählen, wird der Traffic gleichmäßig zwischen d
 
 **So wählen Sie Kriterien aus:**
 
-1. Suchen [ beim Erstellen einer ](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
+1. Suchen [&#x200B; beim Erstellen einer &#x200B;](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity) im Dialogfeld **[!UICONTROL Kriterien auswählen]** nach einem oder mehreren Kriterien und wählen diese aus.
 
    Sie können das Kontrollkästchen [!UICONTROL Branchentyp] Filter, [!UICONTROL Seitentyp] Filter und [!UICONTROL Kompatibel] zum Filtern der Kriterienliste verwenden. Diese Optionen helfen Ihnen bei der Suche nach den gewünschten Kriterien.
 

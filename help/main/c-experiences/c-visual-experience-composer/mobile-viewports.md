@@ -78,7 +78,7 @@ Ein Viewport ist der Bereich des Bildschirms, den eine Web-Seite ausfüllt: die 
 
 +++
 
-Eine responsive Site wechselt bei bestimmten Bildschirmgrößen zu einem anderen Layout. Diese Größen werden als CSS Breakpoints oder [Medienabfragen) ](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). Wenn Sie die CSS Breakpoints der Website in [!DNL Target] speichern, können Sie jede Ansicht in der Vorschau anzeigen. Wenn Sie oben auf dem Display auf einen Viewport klicken, wird die Ansicht für diese Bildschirmgröße geöffnet.
+Eine responsive Site wechselt bei bestimmten Bildschirmgrößen zu einem anderen Layout. Diese Größen werden als CSS Breakpoints oder [Medienabfragen) &#x200B;](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). Wenn Sie die CSS Breakpoints der Website in [!DNL Target] speichern, können Sie jede Ansicht in der Vorschau anzeigen. Wenn Sie oben auf dem Display auf einen Viewport klicken, wird die Ansicht für diese Bildschirmgröße geöffnet.
 
 Um eine Aktivität für ein bestimmtes Gerät bereitzustellen, wählen Sie im Aktivitätsdiagramm die Zielgruppe für dieses Gerät aus und bearbeiten Sie dann die Seite für dieses Gerät im Mobile Web Composer. Mit demselben Tool können Sie eine Site anzeigen, die nicht reagiert, wenn die Aktivität auf ein bestimmtes Gerät abzielt. Um eine Aktivität auf allen Geräten auszuführen, wenden Sie kein Targeting an und zeigen Sie die Aktivität mit mobilen Viewports auf jeder Bildschirmgröße in der Vorschau an.
 

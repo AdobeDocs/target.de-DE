@@ -206,7 +206,7 @@ Jede Änderung erstellt ein neues Element in VEC. Mit der zweiten Aktion wird El
 
 Wenn ein Element mit Text und einer separaten Aktion hinzugefügt wird und dieses Element dann mit einem anderen Text bearbeitet, zeigt der Code-Editor beide Aktionen als separate Elemente an. Die Bearbeitung erstellt ein neues Element, das das ursprüngliche ändert und den bearbeiteten Text enthält. Wenn das ursprüngliche Element dann gelöscht wird, kann der bearbeitete Text das zu ändernde Element nicht finden und wird nicht angezeigt. Das zweite Element verbleibt in der Liste der Elemente, hat jedoch keine Auswirkungen auf die Seite, da das geänderte Element nicht mehr vorhanden ist.
 
-Siehe [Element-Selektoren, die im **[!UICONTROL Visual Experience Composer“ verwendet ]**](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors).
+Siehe [Element-Selektoren, die im **[!UICONTROL Visual Experience Composer“ verwendet &#x200B;]**](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#vec-selectors).
 
 +++
 
@@ -397,7 +397,7 @@ Wenn ein Bild in einem Mbox-Element ausgetauscht und dann die Größe entspreche
 
 +++
 
-+++ Nachdem ein Bild getauscht wurde, kann [!UICONTROL  Aktion ]Bearbeiten“ nicht mehr ausgewählt werden.
++++ Nachdem ein Bild getauscht wurde, kann [!UICONTROL &#x200B; Aktion &#x200B;]Bearbeiten“ nicht mehr ausgewählt werden.
 
 Nachdem das Bild getauscht wurde, kann die Scene7-URL nicht mehr bearbeitet werden.
 

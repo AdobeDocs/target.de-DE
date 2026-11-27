@@ -112,7 +112,7 @@ Die folgenden Änderungen werden erst dann übernommen, wenn der nächste Algori
 
 +++
 
-+++ Wie lange dauert es, bis eine Konfigurationsänderung einer Aktivität, eines Angebots[!UICONTROL  einer Promotion oder ] Kriterieneinstellungen auf der Site wirksam wird?
++++ Wie lange dauert es, bis eine Konfigurationsänderung einer Aktivität, eines Angebots[!UICONTROL &#x200B; einer Promotion oder &#x200B;] Kriterieneinstellungen auf der Site wirksam wird?
 
 * Es kann bis zu fünf Stunden dauern, bis eine Änderung an den Promotion-Einstellungen auf der Website angezeigt wird.
 * Eine Änderung anderer Kriterieneinstellungen wird möglicherweise erst angezeigt, wenn der nächste Algorithmus ausgeführt wird:

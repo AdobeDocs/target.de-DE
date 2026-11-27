@@ -31,7 +31,7 @@ Mit der [!DNL Adobe Target Standard/Premium]-Version 25.2.1 (17. Februar 2025) w
 
 >[!IMPORTANT]
 >
->Der aktualisierte [!UICONTROL Visual Experience ]) erfordert die [!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper ]**-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md), die in der [!DNL Chrome Web Store] verfügbar ist.
+>Der aktualisierte [!UICONTROL Visual Experience &#x200B;]) erfordert die [!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper &#x200B;]**-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md), die in der [!DNL Chrome Web Store] verfügbar ist.
 
 Der VEC wird angezeigt, wenn eine Aktivität erstellt oder eine vorhandene Aktivität bearbeitet wird.
 
@@ -63,7 +63,7 @@ Um die Leiste **[!UICONTROL Komponenten]** zu reduzieren und die Arbeitsfläche 
 
 ### [!UICONTROL Änderungen] Leiste
 
-Um die Leiste **[!UICONTROL Änderungen]** zu öffnen, klicken Sie auf das Symbol **[!UICONTROL Änderungen anzeigen]** ( ![Leiste „Änderungen ](/help/main/assets/icons/History.svg) anzeigen„) in der Leiste **[!UICONTROL Komponenten]**. Die **[!UICONTROL Änderungen]** der Leiste wurde von der rechten zur linken Seite der Arbeitsfläche für die Bearbeitung geändert.
+Um die Leiste **[!UICONTROL Änderungen]** zu öffnen, klicken Sie auf das Symbol **[!UICONTROL Änderungen anzeigen]** ( ![Leiste „Änderungen &#x200B;](/help/main/assets/icons/History.svg) anzeigen„) in der Leiste **[!UICONTROL Komponenten]**. Die **[!UICONTROL Änderungen]** der Leiste wurde von der rechten zur linken Seite der Arbeitsfläche für die Bearbeitung geändert.
 
 ![Leiste „Änderungen](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -87,7 +87,7 @@ Klicken Sie auf die Symbole oben in der Leiste, um HTML-Code zu bearbeiten oder 
 
 ![Eigenschaftensymbole](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-Die **[!UICONTROL Eigenschaften]** ist in der rechten Leiste ausblendbar. Klicken Sie **[!UICONTROL rechts neben der Leiste auf das Symbol]** Eigenschaften anzeigen/ausblenden![ ( Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ), um die Leiste **[!UICONTROL Eigenschaften]** zu reduzieren oder anzuzeigen.
+Die **[!UICONTROL Eigenschaften]** ist in der rechten Leiste ausblendbar. Klicken Sie **[!UICONTROL rechts neben der Leiste auf das Symbol]** Eigenschaften anzeigen/ausblenden![&#x200B; ( Eigenschaftensymbol](/help/main/assets/icons/Propertie.svg) ), um die Leiste **[!UICONTROL Eigenschaften]** zu reduzieren oder anzuzeigen.
 
 ### Aktivitätseinstellungen/-konfiguration
 
@@ -131,7 +131,7 @@ Die folgende Abbildung zeigt die Änderungen an der Benutzeroberfläche auf hohe
 
 ## Weitere Informationen zur aktualisierten Benutzeroberfläche
 
-* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für ****, **[!UICONTROL Recommendations]** und [!UICONTROL Visual Experience Composer] (VEC).
+* [[!DNL Target Standard/Premium] 25.2.1 (17. Februar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für **&#x200B;**, **[!UICONTROL Recommendations]** und [!UICONTROL Visual Experience Composer] (VEC).
 
 * [[!DNL Target Standard/Premium] 25.1.1 (9. Januar 2025) Versionshinweise](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): Bietet eine Zusammenfassung der wichtigsten Änderungen an der Benutzeroberfläche in [!DNL Target] für die **[!UICONTROL Angebotsbibliothek]**.
 

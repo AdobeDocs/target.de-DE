@@ -1,6 +1,6 @@
 ---
 keywords: VEC;Visual Experience Composer;VEC;iFrame;Erweiterung;Browser;Häufig gestellte Fragen
-description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit [!UICONTROL  Browser-Erweiterung ]Visual Editing Helper) können Sie Websites zuverlässig im VEC laden.
+description: Finden Sie heraus, warum manche Websites nicht zuverlässig im [!UICONTROL Visual Experience Composer] (VEC) geöffnet werden. Mit [!UICONTROL &#x200B; Browser-Erweiterung &#x200B;]Visual Editing Helper) können Sie Websites zuverlässig im VEC laden.
 title: Wie verwende ich die Erweiterung [!UICONTROL Visual Editing Helper]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
@@ -70,7 +70,7 @@ Die Erweiterung löst diese Probleme beim Laden von Websites, für die Kundinnen
 
 Durch das Installieren der Erweiterung in [!DNL Chrome] können Websites zuverlässig in VEC geladen werden, einschließlich Websites, die iFrames blockieren oder auf denen at.js noch nicht implementiert ist.
 
-1. Navigieren Sie zur [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper ]**-Browser-Erweiterung im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Navigieren Sie zur [[!DNL Adobe Experience Cloud] **[!UICONTROL Visual Editing Helper &#x200B;]**-Browser-Erweiterung im Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** > **[!UICONTROL Erweiterung hinzufügen]**.
 1. Öffnen Sie den VEC in [!DNL Target].
 1. Klicken Sie im VEC- oder QA-Modus auf das Symbol **[!UICONTROL Visual Editing Helper]** der Browser-Erweiterung ( ![Visual Editing Helper-Symbol](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png) ) in der Symbolleiste von [!DNL Chrome].
