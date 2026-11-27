@@ -2,7 +2,7 @@
 keywords: Empfehlungen erstellen; Recommendations-Aktivität; neue Empfehlungen; Recommendations-Übersicht
 description: Erfahren Sie, wie Sie mit [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) eine [!DNL Recommendations] erstellen.
 title: '[!DNL Recommendations] erstellen'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ Die Aktivitäts-URL und der Speicherort definieren die Seite und den Bereich der
 
 1. Geben Sie die Aktivitäts-URL an und klicken Sie dann auf **[!UICONTROL Erstellen]**.
 
-   Die Aktivitäts-URL ist die Seite, auf der die Empfehlungen angezeigt werden. [!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]), sodass `http://www.adobe.com` und `https://www.adobe.com` übereinstimmen.
+   Die Aktivitäts-URL ist die Seite, auf der die Empfehlungen angezeigt werden. [!DNL Target] unterscheidet nicht zwischen URL-Protokollen ([!DNL https] und [!DNL http]), sodass `http://www.adobe.com/de` und `https://www.adobe.com/de` übereinstimmen.
 
    Der VEC wird geöffnet und zeigt die Seite an.
 
@@ -101,7 +101,7 @@ Kriterien bestimmen, welche Elemente für jeden Besucher empfohlen werden und wi
 
    >[!NOTE]
    >
-   >Nicht alle Kriterien werden auf jeder Seite korrekt ausgeführt. Damit aktuelle Element- oder Kategorieempfehlungen kompatibel sind, muss die Seite oder Mbox `entity.id` oder `entity.categoryId` übergeben. Es ist am besten, nur kompatible Kriterien anzuzeigen. Um inkompatible Kriterien für die Aktivität verfügbar zu machen, deaktivieren Sie **[!UICONTROL Kontrollkästchen]** Kompatibel“. Dieses Kontrollkästchen wird je nach der Einstellung **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]** > **[!UICONTROL Inkompatible Kriterien filtern]** möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Nicht alle Kriterien werden auf jeder Seite korrekt ausgeführt. Damit aktuelle Element- oder Kategorieempfehlungen kompatibel sind, muss die Seite oder Mbox `entity.id` oder `entity.categoryId` übergeben. Es ist am besten, nur kompatible Kriterien anzuzeigen. Um inkompatible Kriterien für die Aktivität verfügbar zu machen, deaktivieren Sie **[!UICONTROL Kontrollkästchen]** Kompatibel“. Dieses Kontrollkästchen wird je nach der Einstellung **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]** > **[!UICONTROL Inkompatible Kriterien filtern]** möglicherweise nicht angezeigt. Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank}.
 
 1. Optional können Sie Kriterien suchen oder erstellen:
 

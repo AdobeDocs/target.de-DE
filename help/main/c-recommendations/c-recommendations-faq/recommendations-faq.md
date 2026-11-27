@@ -2,7 +2,7 @@
 keywords: Fehlerbehebung;häufig gestellte Fragen;FAQ;FAQs;Recommendations;Sonderzeichen;Attributgewichtung;Ähnlichkeit von Inhalten
 description: Eine Liste der häufig gestellten Fragen und Antworten zu [!DNL Target Recommendations] Aktivitäten.
 title: Wo finde ich Fragen und Antworten zu [!DNL Recommendations]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ Wenn der Besucher nicht gleichzeitig zwei aktive Sitzungen hat, aktualisieren di
 
 Die verfügbaren Kriterien hängen von der aktuellen Kategorie ab. Wenn Recommendations-Angebote erstellt werden, zeigt die Algorithmusauswahl Kriterien basierend auf der Kategorie-ID an. Wenn der Speicherort, an dem die Kriterien angewendet werden, nicht die Kategorie-ID enthält, sind bestimmte Kriterien in der Algorithmusauswahl nicht verfügbar. Wenn ein Speicherort verwendet wird, an dem die Kategorie-ID in der Mbox vorhanden ist, enthält die Kriterienauswahl alle anwendbaren Kriterien.
 
-[!DNL Target] verfügt über eine Einstellung [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} die die intelligente Filterung der Algorithmusauswahl steuert. Um auf die Einstellung **[!UICONTROL Inkompatible Kriterien filtern]** zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]**.
+[!DNL Target] verfügt über eine Einstellung [Inkompatible Kriterien filtern](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} die die intelligente Filterung der Algorithmusauswahl steuert. Um auf die Einstellung **[!UICONTROL Inkompatible Kriterien filtern]** zuzugreifen, klicken Sie auf **[!UICONTROL Administration]** > **[!UICONTROL Recommendations]**.
 
 ![Seite „Recommendations-Einstellungen“ mit hervorgehobener Option „Inkompatible Kriterien filtern“](assets/recs_settings_filter.png)
 
