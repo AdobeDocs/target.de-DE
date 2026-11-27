@@ -2,7 +2,7 @@
 keywords: Empfehlungen; Einstellungen; Name; Ziel; Priorität; Dauer; Berichterstellungseinstellungen; andere Metadaten
 description: Erfahren Sie, wie Sie die Einstellungen konfigurieren, die zur Beschreibung und Steuerung einer Recommendations-Aktivität in Adobe Target verwendet werden.
 title: Wie konfiguriere ich Einstellungen für Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 TQID: 'https://experienceleague.adobe.com/pfMAvl6MmLCtH3PZfOR4Ve-WFIc3e2iN2Bh-cIzjeC0'
@@ -24,33 +24,28 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 46%
+source-wordcount: '488'
+ht-degree: 13%
 ---
-# Einstellungen für Recommendations-Aktivitäten
+# Einstellungen für Recommendations-Aktivitäten {#recs-activity-settings}
 
-Informationen zu den Einstellungen, mit denen Sie eine Aktivität vom Typ [!UICONTROL Recommendations] in [!DNL Adobe Target] beschreiben und steuern können.
+>[!BEGINSHADEBOX]
 
-In den folgenden Abschnitten werden die verfügbaren Einstellungen für eine Aktivität [!UICONTROL Recommendations] beschrieben.
+**Auf dieser Seite** Erfahren Sie mehr über die Einstellungen, die eine [!DNL Recommendations] in [!DNL Adobe Target] beschreiben und steuern.
+
+>[!ENDSHADEBOX]
+
+Aktivitätseinstellungen identifizieren eine [!DNL Recommendations] Aktivität, steuern, wann und wo sie angezeigt wird, und definieren, wie ihre Ergebnisse berichtet werden.
 
 ## Name
 
-Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und klicken Sie dann auf **[!UICONTROL Umbenennen]**, um einen beschreibenden Namen anzugeben, der Ihnen und Ihrem Team bei der Identifizierung der Aktivität hilft.
+Klicken Sie auf das Symbol Mehr Aktionen ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallListVert.svg) ) und klicken Sie dann auf **[!UICONTROL Umbenennen]**, um der Aktivität einen beschreibenden Namen zu geben, der ihr die Identifizierung erleichtert.
 
-Folgende Zeichen sind im Aktivitätsnamen nicht zulässig:
+Die folgenden Zeichen sind in einem Aktivitätsnamen nicht zulässig: `/`, `?`, `#`, `:`, `=`, `+`, `-` und `@`.
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-Wenn Sie den Namen einer [!UICONTROL Recommendations]-Aktivität angeben, der bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic] existiert, wird die neue Aktivität mit einem neuen Namen erneut synchronisiert. Der neue Name ist der ursprüngliche Name, der mit einem Zeitstempel versehen wird, um ihn eindeutig zu machen. Dieser neue Name wird sowohl in [!DNL Target Standard/Premium] als auch in [!UICONTROL Recommendations Classic] angezeigt.
+Wenn der Name einer [!DNL Recommendations] Aktivität bereits für eine andere Aktivität in [!UICONTROL Recommendations Classic] vorhanden ist, wird die neue Aktivität mit einem neuen Namen neu synchronisiert. Der neue Name ist der ursprüngliche Name mit einem Zeitstempel, der angehängt wird, um ihn eindeutig zu machen. Er wird sowohl in [!DNL Target Standard/Premium] als auch in [!UICONTROL Recommendations Classic] angezeigt.
 
 ## Ziel
 
@@ -60,50 +55,44 @@ Wenn Sie den Namen einer [!UICONTROL Recommendations]-Aktivität angeben, der be
 
 Stellen Sie mit dem Schieberegler die Prioritätsstufe ein.
 
-Die Priorität wird verwendet, wenn mehrere Aktivitäten dem gleichen Ort mit der gleichen Zielgruppe zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
+Die Priorität wird verwendet, wenn demselben Standort mit derselben Zielgruppe mehrere Aktivitäten zugewiesen sind. Wenn dem Ort zwei oder mehr Aktivitäten zugewiesen sind, wird die Aktivität mit der höchsten Priorität angezeigt.
 
 ## Dauer
 
 Legen Sie die Dauer der Aktivität fest.
 
-Die Aktivität kann bei Aktivierung starten, oder Sie können ein bestimmtes Datum und eine bestimmte Uhrzeit festlegen. Ebenso kann die Aktivität bei Deaktivierung oder zu einem festgelegten Datum und einer festgelegten Uhrzeit enden. Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone wird auf die in Ihrem Browser konfigurierte Zeitzone eingestellt. Wenn Sie eine andere Zeitzone verwenden möchten, stellen Sie in Ihrem Browser eine andere Zeitzone ein und starten Sie ihn neu.
+Die Aktivität kann bei Aktivierung oder zu einem bestimmten Datum und zu einer bestimmten Uhrzeit beginnen. Ebenso kann sie beendet werden, wenn sie deaktiviert wird, oder zu einem bestimmten Datum und zu einer bestimmten Uhrzeit.
+
+Die Zeitauswahl verwendet eine 24-Stunden-Uhr, wobei 00:00 Uhr Mitternacht entspricht. Die Zeitzone ist die im Browser konfigurierte. Wenn Sie eine andere Zeitzone verwenden möchten, legen Sie diese Zeitzone als Browser fest und starten Sie den Browser neu.
 
 ## Berichterstellungseinstellungen
 
-* **Reporting-Source:** Geben Sie an, aus welcher Lösung Daten erfasst werden:
+Die folgenden Einstellungen definieren, wie die Ergebnisse der Aktivität gemeldet werden.
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL Reporting-Source]:** Gibt die Lösung an, aus der die Daten erfasst werden: [!DNL Adobe Target], [!DNL Adobe Analytics] oder [!DNL Adobe Customer Journey Analytics].
 
-  Wenn in Ihren [Kontoeinstellungen“ eine Berichtslösung angegeben ist](/help/main/administrating-target/reporting.md) wird die angegebene Lösung verwendet, und diese Einstellung ist nicht sichtbar.
+  Wenn in den [Kontoeinstellungen“ eine Berichtslösung angegeben ist](/help/main/administrating-target/reporting.md) wird diese Lösung verwendet und diese Einstellung ist nicht sichtbar. Die Berichtsquelle kann nach der Live-Schaltung der Aktivität nicht geändert werden, um die Konsistenz der Berichte zu gewährleisten.
 
-  Sie können Ihre Berichtsquelle nicht ändern, nachdem die Aktivität live geschaltet wurde, um die Konsistenz der Berichte zu gewährleisten.
-
-  **[!DNL Adobe Analytics]**: Unter [[!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) erfahren Sie mehr über die Unterschiede zwischen den Berichtslösungen und deren Vorteile.
-
-  Bei der Auswahl von [!DNL Analytics] als Berichtsquelle für [!DNL Target] (A4T) wählen Sie eine [!DNL Analytics] Report Suite aus, um [!DNL Target] Aktivitätsdaten zu erhalten. Wählen Sie dazu zunächst eines der [!DNL Analytics] Unternehmen aus, mit denen Ihr Konto verknüpft ist, und wählen Sie dann die entsprechende Report Suite für die Aktivität aus. Es stehen nur Report Suites zur Auswahl, die für die Verbindung mit [!DNL Target] bereitgestellt wurden. Wenn die erwartete Report Suite nicht angezeigt wird, versuchen Sie zunächst, sich abzumelden und sich wieder bei der [!DNL Adobe Experience Cloud] anzumelden, um es dann erneut zu versuchen. Wenn die Report Suite noch fehlt, wenden Sie sich an die [Kundenunterstützung](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
-
-  [!DNL Analytics for Target] (A4T) erfordert einen Trackingserver, um Ergebnisse korrekt zu melden. Im Feld [!UICONTROL Tracking-Server] wird ein standardmäßiger Tracking-Server angezeigt. Wenn Sie mehr als einen Tracking-Server verwenden, stellen Sie sicher, dass Sie den richtigen Tracking-Server in dieses Feld einbeziehen. Weitere Informationen finden [&#x200B; unter „Verwenden eines Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)Trackingservers“.
+  **[!DNL Adobe Analytics]**: Siehe [[!DNL Adobe Analytics] als Berichtsquelle für [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) für die Unterschiede zwischen den Berichtslösungen und deren Vorteile. Informationen zur Auswahl der [!DNL Analytics] Report Suite und des Tracking-Servers finden Sie unter [Reporting Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
 
   **[!DNL Adobe Customer Journey Analytics]**: Siehe [[!DNL Target] Reporting in [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) für weitere Informationen zur Integration zwischen [!DNL Adobe Customer Journey Analytics] und [!DNL Target].
 
-* **Zielmetrik:** Wählen Sie die Erfolgsmetrik aus, die festlegt, ob eine Aktivität erfolgreich ist.
-* **Zusätzliche Metriken:** Konfigurieren Sie weitere Erfolgsmetriken zur Verwendung in Ihren Berichten.
-* **Zielgruppen für Berichterstellung:** Definieren Sie Zielgruppen, die beim Filtern Ihrer Berichte verwendet werden können.
+* **[!UICONTROL Zielmetrik]:** Wählt die Erfolgsmetrik aus, die bestimmt, ob die Aktivität erfolgreich war.
+* **[!UICONTROL Zusätzliche Metriken]:** Konfiguriert zusätzliche Erfolgsmetriken für die Berichte.
+* **[!UICONTROL Zielgruppen für die Berichterstellung]:** Definiert Zielgruppen, die zum Filtern der Berichte verwendet werden können.
 
 ## Sonstige Metadaten
 
-Geben Sie Anmerkungen zu Ihrer Aktivität ein.
+Notizen zur Aktivität eingeben.
 
 ## Schulungsvideo: Aktivitätseinstellungen (3:02) ![Tutorial-Badge](/help/main/assets/tutorial.png)
 
-In diesem Video erhalten Sie Informationen zu Aktivitätseinstellungen.
+In diesem Video werden die folgenden Aktivitätseinstellungen behandelt:
 
-* Eingeben eines Ziels für Ihre Aktivität
-* Festlegen der Priorität Ihrer Aktivitäten
-* Planen von Start- und Endzeitpunkt der Aktivität
-* Hinzufügen von Zielgruppen für Berichterstellung und zur Erstellung von Berichtsfiltern
-* Eingeben von Notizen zu Aktivitäten
+* Geben Sie ein Ziel für die Aktivität ein.
+* Legt die Prioritätsstufe der Aktivität fest.
+* Planen Sie die Start- und Endzeiten.
+* Audiences für das Reporting hinzufügen, um Berichtsfilter zu erstellen.
+* Notizen für die Aktivität eingeben.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507950?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

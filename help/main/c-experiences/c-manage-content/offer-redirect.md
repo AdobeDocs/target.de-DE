@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 24%
@@ -38,13 +38,13 @@ Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, 
 
 >[!NOTE]
 >
-> * Umleitungsangebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt &#x200B;](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im [!UICONTROL Visual Experience Composer) (]) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
+> * Umleitungsangebote können auf der Seite [!UICONTROL Angebote] > [!UICONTROL Code-Angebote] oder im [Forms-basierten Experience Composer erstellt ](/help/main/c-experiences/form-experience-composer.md). Umleitungsangebote können nicht im [!UICONTROL Visual Experience Composer) (]) erstellt oder angewendet werden. Inhalte werden an den [!DNL Target] Anfragespeicherorten eingefügt, sodass diese Speicherorte wahrscheinlich nicht für eine globale [!DNL Target]-Anfrage geeignet sind.
 >
 >* Umleitungsangebote können nicht in AJAX-Mboxes (`mboxUpdate`) verwendet werden.
 >
 >* Für Umleitungsangebote in -Aktivitäten, die [[!UICONTROL Analytics als Berichtsquelle]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) verwenden, muss Ihre Implementierung bestimmte Mindestanforderungen erfüllen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Siehe [Umleitungsangebote - A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 >
->* Weitere Informationen zum Einrichten eines Erlebnisses mit Umleitung finden Sie unter [Zu einer URL umleiten](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA).
+>* Weitere Informationen zum Einrichten eines Erlebnisses mit Umleitung finden Sie unter [Zu einer URL umleiten](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#redirect-to-url).
 
 Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser umzuleiten. Hierbei wird die Methode `window.location.replace();` verwendet, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browserverlauf gespeichert wird. Dieser Prozess ermöglicht Besuchern die Verwendung der Zurück-Schaltfläche in ihren Browsern.
 

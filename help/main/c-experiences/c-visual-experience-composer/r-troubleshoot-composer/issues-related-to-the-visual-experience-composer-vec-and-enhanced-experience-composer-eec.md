@@ -27,155 +27,136 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 29%
+source-wordcount: '1218'
+ht-degree: 13%
 ---
-# Beheben von Problemen mit [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer]
+# Beheben von Problemen mit [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] und [!UICONTROL Enhanced Experience Composer] {#vec-eec-issues}
 
-Anzeigeprobleme und andere Probleme treten unter bestimmten Bedingungen manchmal in [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) und [!UICONTROL Enhanced Experience Composer] (EEC) auf.
+>[!BEGINSHADEBOX]
 
-## Wie wirken sich die SameSite-Cookie-Richtlinien von Google Chrome auf VEC und EEC aus? {#samesite}
+**Auf dieser Seite:** Erfahren Sie, wie Sie die Probleme beheben, die sowohl **[!UICONTROL Visual Experience Composer]** (VEC) als auch **[!UICONTROL Enhanced Experience Composer]** (EEC) betreffen.
 
-+++Details
-Beachten Sie die Änderungen, die sich auf VEC und EEC auswirken, wenn Sie die folgenden [!DNL Chrome] Versionen verwenden:
+>[!ENDSHADEBOX]
+
+Anzeigeprobleme und andere Probleme treten unter bestimmten Bedingungen manchmal in [!DNL Target] **[!UICONTROL Visual Experience Composer]** (VEC) und **[!UICONTROL Enhanced Experience Composer]** (EEC) auf. In den folgenden Abschnitten werden die Probleme beschrieben, die sich auf beide Komponisten auswirken, und wie sie gelöst werden können.
+
+## Browser und Sicherheit
+
+### SameSite-Cookie-Richtlinien von Google Chrome {#samesite}
+
+Die SameSite-Cookie-Richtlinien von [!DNL Google Chrome] wirken sich in den folgenden Versionen auf den VEC und EEC aus.
 
 >[!NOTE]
 >
->Die folgende Änderung wirkt sich auf alle drei unten beschriebenen Aktualisierungen aus:
->
-> * Kann *VEC* verwenden, ohne dass die [VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installiert und für kennwortgeschützte Seiten Ihrer Sites aktiviert ist. Ihre Site-Anmelde-Cookies werden als Drittanbieter-Cookies betrachtet und werden nicht mit Anmeldeanfragen innerhalb des VEC-Editors im [!UICONTROL Durchsuchen]-Modus gesendet. Die einzige Ausnahme besteht, wenn für die Anmelde-Cookies Ihrer Site bereits die Attribute `SameSite=None` und `Secure` festgelegt sind.
+>Die folgende Änderung gilt für alle drei Versionen. Der VEC kann auf kennwortgeschützten Seiten der Website nur verwendet werden, wenn die [VEC Helper-Erweiterung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) installiert und aktiviert ist. Die Anmelde-Cookies der Website werden als Drittanbieter-Cookies betrachtet, sodass sie nicht mit Anmeldeanfragen im VEC-Editor im **[!UICONTROL Durchsuchen]**-Modus gesendet werden. Die einzige Ausnahme besteht, wenn für die Anmelde-Cookies bereits die Attribute `SameSite=None` und `Secure` festgelegt sind.
 
-**Chrome 94 (21. September 2021)**: Mit den für die Version Chrome 94 (21. September 2021) geplanten Änderungen wirkt sich die folgende Änderung auf alle Benutzenden mit Browser-Versionen von Chrome 94 oder höher aus:
+* **Chrome 94 (21. September 2021):** Für alle Benutzer mit Chrome 94 und höher wurde das Befehlszeilen-Flag `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` entfernt.
+* **Chrome 91 (25. Mai 2021):** Für alle Benutzer mit Chrome 91 und höher wurden die Flags `#same-site-by-default-cookies` und `#cookies-without-same-site-must-be-secure` aus `chrome://flags` entfernt. Dieses Verhalten ist jetzt standardmäßig aktiviert.
+* **Chrome 80 (August 2020):** Für alle Benutzer mit Chrome 80 und höher:
 
-* Das Befehlszeilen-Flag `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` wird entfernt.
+  * [!DNL Target] Bibliotheken können nicht heruntergeladen werden, während eine Aktivität bearbeitet wird, wenn sie sich noch nicht auf der Website befinden. Der Download-Aufruf erfolgt von der Kunden-Domain an eine gesicherte [!DNL Adobe]-Domain und wird als nicht authentifiziert zurückgewiesen.
+  * Der EEC funktioniert nicht, da er das SameSite-Attribut für Cookies in der `adobemc.com` Domain nicht festlegen kann. Ohne dieses Attribut lehnt der Browser diese Cookies ab, was dazu führt, dass der EEC fehlschlägt.
 
-**Chrome 91 (25. Mai 2021)**: Mit den Änderungen, die für die Version Chrome 91 (25. Mai 2021) implementiert wurden, wirkt sich die folgende Änderung auf alle Benutzenden mit Browser-Versionen von Chrome 91 oder höher aus:
++++ Bestimmen, welche Cookies blockiert werden
 
-* Die Flags `#same-site-by-default-cookies` und `#cookies-without-same-site-must-be-secure` wurden aus `chrome://flags` entfernt. Dieses Verhalten ist jetzt standardmäßig aktiviert.
+Um festzustellen, welche Cookies durch die SameSite-Cookie-Richtlinien blockiert werden, verwenden Sie die [!DNL Developer Tools] in [!DNL Chrome].
 
-**Chrome 80 (August 2020)**: Mit den Änderungen, die im August 2020 implementiert wurden, haben alle Benutzenden Browser-Versionen von Chrome 80 oder höher:
-
-* Kann *nicht* beim Bearbeiten einer Aktivität [!DNL Target] Bibliotheken herunterladen (wenn diese sich nicht bereits auf der Website befinden). Dies liegt daran, dass der Download-Aufruf von der Kunden-Domain an eine gesicherte [!DNL Adobe]-Domain erfolgt und als nicht authentifiziert zurückgewiesen wird.
-
-* Der EEC wird *nicht* für alle Benutzer funktionieren, da er nicht das SameSite-Attribut für Cookies in `adobemc.com domain` festlegen kann. Ohne dieses Attribut lehnt der Browser diese Cookies ab, was dazu führt, dass der EEC fehlschlägt.
-
-+++
-
-### Bestimmen, welche Cookies blockiert werden
-
-+++Details
-Um festzustellen, welche Cookies aufgrund der SameSite-Cookie-Durchsetzungsrichtlinien blockiert werden, verwenden Sie die [!DNL Developer Tools] in [!DNL Chrome].
-
-1. Wenn Sie auf die [!DNL Developer Tools] zugreifen möchten, während Sie den VEC in [!DNL Chrome] anzeigen, klicken Sie oben rechts in Chrome auf das **&#x200B;**&#x200B;Ellipsen“ > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
+1. Wenn Sie VEC in [!DNL Chrome] anzeigen, klicken Sie auf das Symbol **[!UICONTROL Auslassungspunkte]** oben rechts in Chrome > **[!UICONTROL Weitere Tools]** > **[!UICONTROL Entwickler-Tools]**.
 1. Klicken Sie auf **[!UICONTROL Netzwerk]** und suchen Sie nach blockierten Cookies.
 
    >[!NOTE]
    >
-   >Aktivieren Sie das **[!UICONTROL Hat blockierte Cookies]**, um das Auffinden blockierter Cookies zu vereinfachen.
+   >Aktivieren Sie das Kontrollkästchen **[!UICONTROL Hat blockierte Cookies]**, um die Suche nach blockierten Cookies zu vereinfachen.
 
 +++
 
-## Unterstützt [!DNL Target] iFrames mit mehreren Ebenen?
++++ CSP-Header (Content Security Policy) blockieren die [!DNL Target] auf der Website
 
-+++Details
-[!DNL Target] unterstützt keine iFrames mit mehreren Ebenen. Wenn Ihre Website einen iframe lädt, der einen untergeordneten iframe hat, interagiert at.js nur mit dem übergeordneten iframe. [!DNL Target] Bibliotheken interagieren nicht mit dem untergeordneten iframe.
-
-Als Behelfslösung können Sie im Erlebnis eine Seite mit der URL des untergeordneten iFrame hinzufügen.
-
-+++
-
-## Wenn ich versuche, eine Seite zu bearbeiten, sehe ich lediglich ein Netz anstelle meiner Seite. (VEC und EEC) {#section_313001039F79446DB28C70D932AF5F58}
-
-+++Details
-Dies kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie im VEC oder EEC in den [!UICONTROL Durchsuchen]-Modus und wechseln Sie dann zurück in den [!UICONTROL Erstellen]-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
-
-+++
-
-## CSP-Header (Content Security Policy) blockieren die [!DNL Target] auf meiner Website. (VEC und EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
-
-
-+++Details
-Wenn die CSP-Kopfzeilen Ihrer Website [!DNL Target] Bibliotheken blockieren und dann die Website lädt, aber die Bearbeitung verhindert, stellen Sie sicher, dass die [!DNL Target] Bibliotheken nicht blockiert werden.
+Wenn die CSP-Kopfzeilen der Website die [!DNL Target]-Bibliotheken blockieren, wird die Website geladen, aber die Bearbeitung wird verhindert. Stellen Sie sicher, dass die [!DNL Target] nicht blockiert sind.
 
 >[!NOTE]
 >
->Zusätzlich zu den folgenden Informationen können Sie [!DNL Google Chrome] die [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Browsererweiterung verwenden.
+>Zusätzlich zu den folgenden Informationen kann die [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Browsererweiterung für [!DNL Google Chrome] verwendet werden.
 
-![cps_headers-Bild](assets/cps_headers.png)
+![Browser-Konsole, die eine blockierte Anfrage für target.js mit der Meldung anzeigt, dass die Content Security Policy-Direktive verletzt wurde](assets/cps_headers.png)
 
-Als Problemumgehung können Sie eine [!DNL Requestly] konfigurieren, um CSP-Kopfzeilen zu entfernen, wie unten dargestellt:
+Konfigurieren Sie als Problemumgehung eine [!DNL Requestly], um die CSP-Kopfzeilen zu entfernen, wie in der folgenden Abbildung dargestellt.
 
-![cps_headers_2 Bild](assets/cps_headers_2.png)
+![Im Dialogfeld „Anfrage“ ändern Sie Kopfzeilen in HTTP-Anfrage und -Antwort mit einer Regel namens „Content-Security-Policy“, die die Kopfzeile „Content-Security-Policy“ aus der Antwort entfernt](assets/cps_headers_2.png)
 
-Sie können eine ähnliche [!DNL Requestly] für jede Kopfzeile konfigurieren, die dazu führt, dass eine Ressource nicht im VEC geladen wird.
+Eine ähnliche [!DNL Requestly] kann für jede Kopfzeile konfiguriert werden, die dazu führt, dass eine Ressource nicht im VEC geladen wird. Führen Sie einen der folgenden Schritte aus, wenn Kopfzeilen mit [!DNL Requestly] entfernt werden müssen:
 
-Wenn [!DNL Requestly] Kopfzeilen entfernt werden müssen, sollten Sie einen der folgenden Schritte ausführen:
-
-* Fügen Sie URL-Regeln für die URL hinzu, die Sie in VEC öffnen wollen, damit Header nur für diese URLs entfernt werden.
-* Aktivieren Sie die Regel bei der Bearbeitung in VEC und deaktivieren Sie die Regel, wenn Sie VEC nicht verwenden.
+* Fügen Sie URL-Regeln für die URL hinzu, die in Visual Experience Composer geöffnet werden soll, sodass Header nur für diese URLs entfernt werden.
+* Aktivieren Sie die Regel während der Bearbeitung im VEC und deaktivieren Sie die Regel, wenn der VEC nicht verwendet wird.
 
 +++
 
-## Der VEC oder EEC funktioniert scheinbar nicht oder wird beim erneuten Bearbeiten einer gespeicherten Aktivität nicht initialisiert. (VEC und EEC) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
++++ Multi-Level-iFrames werden nicht unterstützt
 
-+++Details
-Wenn sich die Website außerhalb von VEC geändert hat, nachdem das Erlebnis definiert wurde, können Selektoren, für die zuvor Aktionen durchgeführt wurden, nicht gefunden werden, wenn die Aktivität zur erneuten Bearbeitung geöffnet wird. Die Seite erscheint beschädigt und es werden keine Warnungen eingeblendet.
+[!DNL Target] unterstützt keine iFrames mit mehreren Ebenen. Wenn die Website einen iframe lädt, der einen untergeordneten iframe hat, interagiert at.js nur mit dem übergeordneten iframe. [!DNL Target] Bibliotheken interagieren nicht mit dem untergeordneten iframe.
 
-+++
-
-## Der VEC oder EEC zeigt meine sich drehenden Banner oder anderen Inhalt mit JavaScript nicht an. (VEC und EEC) {#section_8B5BE6EB050B42D6A14A054724C41330}
-
-+++Details
-Standardmäßig blockiert der VEC JavaScript-Elemente. Sie können mit diesen Elementen arbeiten, wenn Sie JavaScript deaktivieren. Je nach Einrichtung der Site werden einige Elemente möglicherweise weiterhin falsch angezeigt oder sind nicht verfügbar.
+Fügen Sie als Problemumgehung eine Seite im -Erlebnis mit der URL des untergeordneten iFrames hinzu.
 
 +++
 
-## Wenn ich ein Element auf der Seite ändere, ändern sich mehrere Elemente. (VEC und EEC) {#section_309188ACF34942989BE473F63C5710AF}
++++ Erlebnisse können ohne die [!DNL Target] Implementierung nicht auf einer iFrame-Busting-Site oder auf Seiten bearbeitet werden
 
-+++Details
-Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, sollte eine ID nur einmal auf jeder Seite verwendet werden. Dies ist eine standardmäßige Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Aktivieren Sie **[!UICONTROL Enhanced Experience Composer (]**), um dieses Problem zu beheben. Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um den **[!UICONTROL Enhanced Experience Composer]** zu aktivieren.
 
-+++
-
-## Ich kann keine Erlebnisse für eine iFrame-Busting-Site bearbeiten. (VEC und EEC) {#section_9FE266B964314F2EB75604B4D7047200}
-
-+++Details
-Um dieses Problem zu beheben, aktivieren Sie den [!UICONTROL Enhanced Experience Composer] (EEC). Klicken Sie **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** und aktivieren Sie dann das Kontrollkästchen, um den [!UICONTROL Enhanced Experience Composer] zu aktivieren. Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites und die Bearbeitung auf Sites und Seiten, auf denen Sie noch keinen [!DNL Adobe Target]-Code hinzugefügt haben. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall können Sie diese Option deaktivieren, um den EEC über einen iFrame zu laden.
+Der EEC verwendet einen [!DNL Adobe] verwalteten Proxy, um die Seite zur Bearbeitung zu laden. Dieser Proxy ermöglicht die Bearbeitung auf iFrame-Busting-Sites sowie auf Sites und Seiten, auf denen [!DNL Adobe Target] Code noch nicht hinzugefügt wurde. Solange kein Code hinzugefügt wurde, liefern die Aktivitäten nicht an die Site. Einige Websites werden möglicherweise nicht über den EEC geladen. In diesem Fall wird die Seite über einen iFrame geladen, wenn Sie diese Option deaktivieren.
 
 >[!NOTE]
 >
->Die lokal gehosteten Seiten oder Seiten, auf die außerhalb des Netzwerks nicht zugegriffen werden kann, sind für den [!DNL Adobe]-Proxy-Server nicht zugänglich und können nicht in EEC geöffnet werden. Diese Seiten können Staging-URLs, Akzeptanztest-URLs (UAT) oder lokal gehostete Seiten enthalten.
+>Lokal gehostete Seiten und Seiten, die außerhalb des Netzwerks nicht zugänglich sind, sind für den [!DNL Adobe]-Proxy-Server nicht zugänglich und können nicht in EEC geöffnet werden. Diese Seiten können Staging-URLs, Akzeptanztest-URLs (UAT) oder lokal gehostete Seiten enthalten.
 
 +++
 
-## Ich möchte Tests auf Seiten einrichten, auf denen die Mbox/[!DNL Target]-Implementierung noch nicht durchgeführt wurde. (VEC und EEC) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Laden und Anzeigen von Seiten
 
-+++Details
-Siehe „Ich kann keine Erlebnisse für eine iFrame-Bursting-Site bearbeiten“ weiter oben.
++++ Bei der Bearbeitung einer Seite wird anstelle der Seite ein Drehfeld angezeigt
+
+Dies kann vorkommen, wenn die URL ein #-Zeichen enthält. Um das Problem zu beheben, wechseln Sie in VEC oder EEC in den **[!UICONTROL Durchsuchen]**-Modus und dann zurück in den **[!UICONTROL Erstellen]**-Modus. Das Netz sollte verschwinden und die Seite sollte angezeigt werden.
 
 +++
 
-## Fett- und Kursiv-Textstile mit [!UICONTROL Text bearbeiten]/[!UICONTROL HTML bearbeiten] oder [!UICONTROL Text ändern]/[!DNL Change HTML] werden auf meiner Seite nicht angezeigt. Manchmal verschwindet der Text nach der Anwendung dieser Stiländerungen. (VEC und EEC) {#section_7A71D6DF41084C58B34C18701E8774E5}
++++ Der VEC oder EEC scheint fehlerhaft zu sein oder wird nicht initialisiert, wenn eine gespeicherte Aktivität erneut bearbeitet wird
 
-+++Details
-Wenn Sie **[!UICONTROL Text bearbeiten]/[!UICONTROL HTML bearbeiten]** im VEC für [!UICONTROL A/B-]- oder [!UICONTROL Experience Targeting]-Aktivitäten oder **[!UICONTROL Text ändern]/[!UICONTROL HTML ändern]** für [!UICONTROL Automated Personalization]- oder [!UICONTROL Multivarianz-Test]-Aktivitäten verwenden, um Text fett oder kursiv zu formatieren, werden diese Stile möglicherweise nicht auf der Seite angewendet oder der Text verschwindet von der Seite im VEC. Dies geschieht, weil die Art und Weise, wie der Rich-Text-Editor diese Stile anwendet, das Website-Markup beeinträchtigen kann.
+Wenn sich die Website außerhalb von VEC geändert hat, nachdem das Erlebnis definiert wurde, können die Selektoren, für die zuvor Aktionen durchgeführt wurden, nicht gefunden werden, wenn die Aktivität zur erneuten Bearbeitung geöffnet wird. Die Seite erscheint beschädigt und es werden keine Warnungen eingeblendet.
 
-Wenn Sie dieses Problem angezeigt bekommen, tun Sie Folgendes:
++++
+
++++ Rotierende Banner und andere Inhalte, die JavaScript enthalten, werden in VEC oder EEC nicht angezeigt
+
+Standardmäßig blockiert der VEC JavaScript-Elemente. Durch Deaktivieren von JavaScript können diese Elemente verwendet werden. Je nach Einrichtung der Site werden einige Elemente möglicherweise weiterhin falsch angezeigt oder sind nicht verfügbar.
+
++++
+
++++ Bei Automated Personalization-Aktivitäten scheint der Bildaustausch im VEC oder EEC fehlerhaft zu sein
+
+Das Hinzufügen eines Bildangebots zu einem Pfad erfordert die vollständige Dimension des ursprünglichen Bildplatzes im VEC oder EEC. Bei der Bereitstellung wird das Bild nicht erweitert, sondern wie vorhanden angezeigt, sodass die Bereitstellung nicht beeinträchtigt wird.
+
++++
+
+## Bearbeiten der Ergebnisse
+
++++ Durch Ändern eines Elements auf der Seite werden mehrere Elemente geändert
+
+Wenn für mehrere Elemente auf der Seite die gleiche DOM-Element-ID verwendet wird, werden beim Ändern eines dieser Elemente alle Elemente mit dieser ID geändert. Um dies zu verhindern, verwenden Sie auf jeder Seite eine ID nur einmal. Dies ist eine übliche Best Practice für HTML. Weitere Informationen finden Sie unter [Szenarien für die Seitenmodifizierung](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#vec-scenarios).
+
++++
+
++++ Textstile, die fett und kursiv formatiert sind, werden nach dem Anwenden von Text bearbeiten/HTML bearbeiten oder Text ändern/HTML ändern nicht angezeigt oder der Text verschwindet
+
+Wenn **[!UICONTROL Text bearbeiten]**/**[!UICONTROL HTML bearbeiten]** im VEC für **[!UICONTROL A/B-Test]**- oder **[!UICONTROL Experience Targeting]**-Aktivitäten verwendet wird oder **[!UICONTROL Text ändern]**/**[!UICONTROL HTML ändern]** für **[!UICONTROL Automated Personalization]**- oder **[!UICONTROL Multivarianz-Test]**-Aktivitäten verwendet wird, um Text fett oder kursiv zu formatieren, werden die Stile möglicherweise nicht auf die Seite angewendet, oder der Text verschwindet auf der Seite im VEC. Dies geschieht, weil die Art und Weise, wie der Rich-Text-Editor diese Stile anwendet, das Website-Markup beeinträchtigen kann.
+
+Wenn dieses Problem auftritt:
 
 1. Klicken Sie im Richt-Text-Editor auf die Schaltfläche **[!UICONTROL HTML]**, um in den Quellbearbeitungsmodus zu wechseln.
-1. Suchen Sie die Stiltextelemente.
+1. Suchen Sie die formatierten Textelemente.
 
    * Für fett gedruckten Text ändern Sie `<strong>`-Elemente zu `<b>`.
-
    * Für kursiv gedruckten Text ändern Sie `<em>`-Elemente zu `<i>`.
-
-+++
-
-## Bei Aktivitäten mit automatisierter Personalisierung scheint der Bildtausch im VEC oder EEC nicht zu funktionieren. (VEC und EEC) {#section_88AABFDFE6A3420299B0D508B12A3994}
-
-+++Details
-Das Hinzufügen eines Bildangebots zu einem Pfad erfordert die vollständige Dimension des ursprünglichen Bildplatzes im VEC oder EEC. Bei der Bereitstellung wird das Bild nicht erweitert, sondern wie vorhanden angezeigt, sodass die Bereitstellung nicht beeinträchtigt wird.
 
 +++

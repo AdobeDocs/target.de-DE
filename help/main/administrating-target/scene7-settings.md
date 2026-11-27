@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Informationen dazu, wie diese Registerkarte zu anderen Verwaltungsaufgaben passt
 
 ## Was die Integration ermöglicht {#what-it-enables}
 
-Nach der **[!UICONTROL der Scene7]** Konfiguration können Autoren in [!DNL Target] Aktivitäten Bilder verwenden, die in den [!DNL Adobe Experience Cloud] Assets-Ordner hochgeladen wurden. Die Option **[!UICONTROL Bild austauschen]** wird im Aktivitäts-Workflow angezeigt, einschließlich [Visual Experience Composer und Form-Based Experience Composer](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Informationen zum Swap-Verhalten in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Nach der **[!UICONTROL der Scene7]** Konfiguration können Autoren in [!DNL Target] Aktivitäten Bilder verwenden, die in den [!DNL Adobe Experience Cloud] Assets-Ordner hochgeladen wurden. Die Option **[!UICONTROL Bild austauschen]** wird im Aktivitäts-Workflow angezeigt, einschließlich [Visual Experience Composer und Form-Based Experience Composer](/help/main/c-experiences/experiences.md#experiences-overview). Informationen zum Swap-Verhalten in VEC finden Sie unter [Visual Experience Composer-Optionen](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 Wenn diese Einstellung nicht konfiguriert ist **[!UICONTROL steht das Angebot „Bild austauschen]** bei der Erstellung einer Aktivität nicht zur Verfügung.
 
@@ -68,7 +68,7 @@ Adobe bietet keine beschränkten, gebührenfreien [!DNL Dynamic Media Classic] m
 
 Beachten Sie bei der Verwendung von Bildern mit dieser Integration die folgenden Einschränkungen:
 
-* **Bildangebote, keine Speicher-URLs.** [!DNL Dynamic Media] Speicher-URLs und veröffentlichte Versand-URLs sind unterschiedlich. Erstellen Sie keine Angebote über Speicher-Links, da der Versand fehlschlägt. Verwenden Sie [&#x200B; Workflows &#x200B;](/help/main/c-experiences/c-manage-content/manage-content.md)Bildangebote“ und „Bild austauschen“.
+* **Bildangebote, keine Speicher-URLs.** [!DNL Dynamic Media] Speicher-URLs und veröffentlichte Versand-URLs sind unterschiedlich. Erstellen Sie keine Angebote über Speicher-Links, da der Versand fehlschlägt. Verwenden Sie [ Workflows ](/help/main/c-experiences/c-manage-content/manage-content.md)Bildangebote“ und „Bild austauschen“.
 * **Öffentliche URLs in benutzerdefiniertem Code.** Um auf eine öffentliche Bild-URL direkt in einem Angebot oder in benutzerdefiniertem Code zu verweisen, hosten Sie das Bild auf Ihren eigenen Webservern und verwenden Sie diese URL. Es ist nicht möglich, eine veröffentlichte URL für ein von Experience Cloud hochgeladenes Bild zur Verwendung außerhalb [!DNL Target] Zielgruppen-Workflows zu erhalten. Diese Verwendung ist gemäß Vertrag nicht zulässig.
 * **Geeignete Assets.** Nur Assets, die in den Experience Cloud Assets-Ordner hochgeladen wurden (und Workflows, die von dieser Integration unterstützt werden), sind im Umfang enthalten - nicht im vollständigen [!DNL Dynamic Media Classic].
 

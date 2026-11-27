@@ -2,7 +2,7 @@
 keywords: Sammlung; Targeting
 description: Erfahren Sie, wie Sie Sammlungen von Produkten oder Elementen in [!DNL Target Recommendations] verwenden.
 title: Wie verwende ich Sammlungen in Recommendations-Aktivitäten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=de#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Hier finden Sie Informationen zum Lieferumfang von Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 8%
@@ -54,7 +54,7 @@ Sammlungen sind im gesamten Konto verfügbar, sodass eine einmal erstellte Samml
 
    >[!NOTE]
    >
-   >Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht **[!UICONTROL Sammlungen]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[&#x200B; (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=de){target=_blank} zum Ändern der Standardhostgruppe.
+   >Die „Anzahl der Elemente“, die für jede Sammlung in der Listenansicht **[!UICONTROL Sammlungen]** gemeldet wird, ist die Anzahl der Produkte, die den Regeln für diese Sammlung in der konfigurierten standardmäßigen Recommendations-[ (Hostgruppe](/help/main/administrating-target/hosts.md) (Umgebung) entsprechen. Siehe [Einstellungen](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} zum Ändern der Standardhostgruppe.
 
 1. Klicken Sie **[!UICONTROL Sammlung erstellen]**.
 
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## Verwenden einer Sammlung in einer Aktivität
+## Verwenden einer Sammlung in einer Aktivität {#use-collection}
 
 Für jedes Erlebnis einer [!DNL Recommendations] wird eine Sammlung ausgewählt. Die Sammlung bestimmt, welche Elemente in den Empfehlungen dieses Erlebnisses angezeigt werden können.
 

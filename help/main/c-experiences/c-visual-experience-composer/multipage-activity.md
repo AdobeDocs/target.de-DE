@@ -16,33 +16,44 @@ topic_v2:
     internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 54%
+source-wordcount: '374'
+ht-degree: 13%
 ---
-# Mehrseitige Aktivität
+# Mehrseitige Aktivität {#multipage-activity}
 
-Mit einer mehrseitigen Aktivität in [!DNL Adobe Target] können Sie eine Story über mehrere Seiten hinweg erstellen. Das Design ist dabei für jede Seite spezifisch.
+>[!BEGINSHADEBOX]
 
-Sie möchten beispielsweise vielleicht ein Angebot für kostenlosen Versand bei Einkäufen über einem bestimmten Betrag testen. Dieses Angebot soll dann auf Ihrer Landingpage, einer Kategorieseite und bestimmten Produktseiten erscheinen, doch sie möchten es auf den verschiedenen Seitentypen in unterschiedlichen Größen und an unterschiedlichen Stellen haben. Sie könnten das Angebot auf Ihrer Startseite hervorheben und es mit kleineren Angeboten auf anderen relevanten Seiten verstärken.
+**Auf dieser Seite** Sie, wie Sie mit einer mehrseitigen Aktivität eine Story über mehrere Seiten mit einem für jede Seite spezifischen Design erstellen können.
 
-Sie können eine mehrseitige Aktivität auch verwenden, um verschiedene Layouts für Ihren Desktop und nicht responsive Mobilgeräteseiten zu definieren. Wenn die Site eine separate mobile Site wie [!DNL m.mysite.com] anstelle von [!DNL `www.mysite.com`] hat, sollten Sie stattdessen eine [mehrseitige Aktivität](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) erstellen, [!DNL m.mysite.com] als separate Seiten hinzufügen und dann die mobile Bearbeitung anwenden, um entsprechende Änderungen an der Desktop-Version und der mobilen Version im selben Erlebnis vorzunehmen. Verwenden Sie für responsive mobile Sites die [Bearbeitung mobiler Erlebnisse](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5).
+>[!ENDSHADEBOX]
+
+Eine mehrseitige Aktivität in [!DNL Adobe Target] erstellt eine Story über mehrere Seiten mit einem für jede Seite spezifischen Design.
+
+Beispielsweise kann ein Angebot für den kostenlosen Versand mit Käufen über einem bestimmten Betrag getestet werden. Das Angebot kann auf der Landingpage, einer Kategorieseite und bestimmten Produktseiten mit unterschiedlicher Größe und an unterschiedlichen Positionen je nach Seitentyp angezeigt werden. Ein hervorgehobenes Angebot kann auf der Startseite angezeigt und dann durch kleinere Angebote auf anderen relevanten Seiten untermauert werden.
+
+Eine mehrseitige Aktivität kann auch verschiedene Layouts für Desktop- und nicht-responsive Mobile-Sites definieren. Wenn die Site eine separate mobile Site wie [!DNL m.mysite.com] anstelle von [!DNL `www.mysite.com`] hat, erstellen Sie eine mehrseitige Aktivität, fügen Sie [!DNL m.mysite.com] als separate Seiten hinzu und wenden Sie dann die mobile Bearbeitung an, um entsprechende Änderungen an der Desktop-Version und der mobilen Version im selben Erlebnis vorzunehmen. Verwenden Sie für responsive mobile Sites die [Bearbeitung mobiler Erlebnisse](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 >[!NOTE]
 >
->Mehrseitige Aktivitäten wurden für Aktivitäten entwickelt, bei denen das gleiche Angebot auf mehreren Seiten unterschiedlich erscheint. Wenn das Angebot auf allen Seiten gleich angezeigt wird, ist ein [Vorlagentest](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) effizienter.
+>Mehrseitige Aktivitäten wurden für Aktivitäten entwickelt, bei denen das gleiche Angebot auf mehreren Seiten unterschiedlich erscheint. Wenn das Angebot auf allen Seiten gleich angezeigt wird, ist ein [Vorlagentest](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) effizienter.
 
-Sie können Vorlagenregeln für alle Seiten im mehrseitigen Test angeben. Sie können beispielsweise einen mehrseitigen Test auf der Startseite und allen Kategorieseiten ausführen, indem Sie Vorlagenregeln auf die Kategorieseite im mehrseitigen Test anwenden. Siehe [Gleiches Erlebnis auf ähnlichen Seiten](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+Vorlagenregeln können für jede Seite im mehrseitigen Test festgelegt werden. Beispielsweise kann ein mehrseitiger Test auf der Startseite und allen Kategorieseiten ausgeführt werden, indem im mehrseitigen Test Vorlagenregeln auf die Kategorieseite angewendet werden. Siehe [Gleiches Erlebnis auf ähnlichen Seiten](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages).
 
-So fügen sie einem Test Seiten hinzu:
+## Hinzufügen von Seiten zu einer Aktivität {#add-pages}
+
+Jede zur Aktivität hinzugefügte Seite kann ein eigenes Design des Angebots aufweisen.
 
 1. Klicken Sie auf das **[!UICONTROL Konfigurieren]**-Symbol ( ![Konfigurieren-Symbol](/help/main/assets/icons/Setting.svg) ).
+
 1. Klicken Sie auf **[!UICONTROL Weitere Seiten hinzufügen]**.
 
-   Ein [!UICONTROL Seiten]-Bereich wird auf der linken Bildschirmseite angezeigt.
+   Ein **[!UICONTROL Seiten]**-Bereich wird auf der linken Bildschirmseite angezeigt.
 
-1. Geben Sie Ihre Seiten an und legen Sie die Standardseite fest.
+   ![Symbol „Konfigurieren“](assets/vec_edit_4.png)
+
+1. Legen Sie die Seiten und die Standardseite fest.
 
    Klicken Sie auf **[!UICONTROL Seite hinzufügen]** ( ![Symbol hinzufügen](/help/main/assets/icons/Add.svg) ), um eine zusätzliche Seite hinzuzufügen, geben Sie den Seitennamen und die URL an und klicken Sie dann auf **[!UICONTROL Speichern]**.
 

@@ -1,5 +1,5 @@
 ---
-kewords: redirect;redirect url;send to different page
+keywords: Umleiten;Umleitungs-URL;An andere Seite senden
 description: Erfahren Sie, wie Sie die Option Zu URL umleiten in Adobe [!DNL Target] verwenden, wenn Sie den Besucher zu einer anderen Seite senden möchten, anstatt Inhalte auf derselben Seite anzuzeigen.
 title: Kann ich eine Seite an eine andere URL umleiten?
 feature: Visual Experience Composer (VEC)
@@ -21,51 +21,54 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 2%
 ---
-# Zu einer URL umleiten
+# Zu einer URL umleiten {#redirect-to-url}
 
-Verwenden Sie die Option [!UICONTROL Zu URL umleiten] in [!DNL Adobe Target], wenn Sie den Besucher zu einer anderen Seite senden möchten, anstatt Inhalte auf derselben Seite anzuzeigen.
+>[!BEGINSHADEBOX]
 
-Es kann vorkommen, dass Sie zwei vollkommen verschiedene Seiten testen müssen, anstatt lediglich Inhaltselemente innerhalb einer Seite zu ändern. In diesem Fall vergleicht Ihr A/B-Test Seite A mit Seite B. Richten Sie eine A/B-Testkampagne mit zwei Erlebnissen ein: eines, das auf die Standardseite A verweist, und ein anderes, das auf die Seite B weiterleitet. Wählen Sie in der Registerkarte „Erlebnisaktion“, die Sie durch Klicken auf die Buchstabenbezeichnung für das Erlebnis finden, die Option **[!UICONTROL Zu URL umleiten]** aus und geben Sie die URL von Seite B an. Das Angebot wird so konfiguriert, dass der Besucher auf eine andere Seite umgeleitet wird.
+**Auf dieser Seite:** Erfahren Sie, wie Sie mit der Option **[!UICONTROL Zu URL umleiten]** Besucher zu einer anderen Seite senden, anstatt Inhalte auf derselben Seite anzuzeigen.
 
-Bei diesem Umleitungsangebot wird JavaScript-Code ausgeführt, um den Browser umzuleiten. Hierbei wird die Methode `window.location.replace();` verwendet, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browserverlauf gespeichert wird. Daher kann der Besucher die Zurück-Schaltfläche des Browsers wie gewohnt verwenden.
+>[!ENDSHADEBOX]
 
-Für umgeleitete Angebote bestehen einige Begrenzungen:
+Die Option **[!UICONTROL Umleiten zur URL]** in [!DNL Adobe Target] sendet einen Besucher zu einer anderen Seite, anstatt Inhalte auf derselben Seite anzuzeigen. Es eignet sich für den Vergleich von zwei völlig verschiedenen Seiten, im Gegensatz zu Änderungen an Inhaltsfragmenten innerhalb einer Seite. Ein A/B-Test vergleicht dann Seite A mit Seite B: ein Erlebnis verweist auf die Standardseite A, und das andere leitet zu Seite B weiter.
 
-* Für Umleitungsangebote in Aktivitäten mit A4T muss Ihre Implementation bestimmten Mindestanforderungen entsprechen. Darüber hinaus gibt es wichtige Informationen, die Sie benötigen. Weitere Informationen finden Sie unter [Umleitungsangebote – A4T-FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Bei der Verwendung des formularbasierten Experience Composer sollten umgeleitete Angebote nicht in Mboxes verwendet werden, die Teil der Seite sind. Ein umgeleitetes Angebot sollte nur von einem Skript-Tag verwendet werden, das Teil des HTML-Codes `<head>` ist. Sie sollten stets die automatische Erstellung verwenden und das umgeleitete Angebot für die globale Mbox festlegen.
+Ein Umleitungsangebot führt den JavaScript-Code aus, der den Browser umleitet. Der Code verwendet die `window.location.replace();`-Methode, sodass die Seite, von der der Besucher umgeleitet wird, nicht im Browser-Verlauf gespeichert wird. Der Besucher kann daher weiterhin die Zurück-Schaltfläche des Browsers verwenden.
+
+## Umleitungsangebot erstellen {#create-redirect-offer}
+
+Das umgeleitete Erlebnis definiert die Seite, an die Besucher gesendet werden, und optional die Bedingungen der Umleitung.
+
+1. Erstellen Sie ein Erlebnis.
+
+1. Klicken Sie im **[!UICONTROL Erlebnisse]** auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das Erlebnis, das umleitet.
+
+1. Klicken Sie auf **[!UICONTROL Zu URL umleiten]**.
+
+   ![Symbol „Mehr Aktionen“](assets/redirect_1.png)
+
+1. Geben **[!UICONTROL im Dialogfeld Umleiten zur URL]** die URL von Seite B ein.
+
+   ![Symbol „Mehr Aktionen“](assets/redirect_2.png)
+
+1. (Optional) Wählen Sie die Option aus, um die aktuellen Abfrageparameter einzuschließen.
+
+   Wenn diese Option ausgewählt ist, wird alles, was nach dem `?` in der URL des Besuchers liegt, zum Zeitpunkt der Umleitung an die Umleitungs-URL angehängt.
+
+## Einschränkungen
+
+Umleitungsangebote weisen die folgenden Einschränkungen auf:
+
+* **A4T:** Ein Umleitungsangebot in einer Aktivität, die A4T verwendet, erfordert eine Implementierung, die bestimmte Mindestanforderungen erfüllt, und es gelten andere wichtige Informationen. Siehe [Umleitungsangebote - Häufig gestellte Fragen zu A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+* **Form-Based Experience Composer:** verwenden kein Umleitungsangebot in Mboxes, die Teil der Seite sind. Verwenden Sie ein Umleitungsangebot nur von einem Skript-Tag aus, das Teil der HTML-`<head>` ist, und verwenden Sie immer die automatische Erstellung und legen Sie das Umleitungsangebot für die globale Mbox fest.
 
 >[!NOTE]
 >
->Wenn Sie den Referrer-Wert der Landingpage übergeben möchten, sollten Sie statt eines Umleitungsangebots ein HTML-Angebot verwenden.
-
-So erstellen Sie ein Umleitungsangebot:
-
-1. Erstellen Sie ein Erlebnis.
-1. Klicken Sie im [!UICONTROL Erlebnisse] auf das Symbol **[!UICONTROL Mehr Aktionen]** ( ![Symbol Mehr Aktionen](/help/main/assets/icons/MoreSmallList.svg) ) für das gewünschte Erlebnis.
-1. Klicken Sie auf **[!UICONTROL Zu URL umleiten]**.
-1. Geben Sie im Dialogfeld Umleiten zur URL die URL ein.
-1. Falls gewünscht, wählen Sie die Option zur Einbeziehung der aktuellen Abfrageparameter.
-
-   Wenn diese Option ausgewählt ist, wird alles, was nach dem ? in der URL des Besuchers steht, zum Zeitpunkt der Weiterleitung an die Weiterleitungs-URL des Besuchers angehängt.
-
-1. Optional: Erstellen Sie zusätzliche Regeln.
-
-   Zusätzliche Regeln können auf Folgendem basieren:
-
-   * URL
-   * Domain
-   * Pfad
-   * Hashfragment (#)
-   * Abfrage
-   * Parameter „mbox“
-
-   Zusätzliche Regeln können mithilfe von „AND“ oder „OR“ an die Aktivitäts-URL angefügt werden. Alle hinzugefügten Regeln werden per „AND“ miteinander verglichen.
+>Um den Referrer-Wert der Landingpage zu übergeben, verwenden Sie ein HTML-Angebot anstelle eines Umleitungsangebots.
 
 ## Bekannte Probleme
 
-* Umleitungsaktivitäten in at.js-Implementierungen können eine Schleife der Vorschau-URL auslösen (das Angebot wird immer wieder bereitgestellt). Sie können stattdessen den [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) verwenden, um Vorschau und Qualitätssicherung durchzuführen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
+Umleitungsaktivitäten in at.js-Implementierungen können dazu führen, dass die Vorschau-URL in eine Schleife gerät, wobei das Angebot wiederholt bereitgestellt wird. Verwenden Sie [QA-Modus](/help/main/c-activities/c-activity-qa/activity-qa.md) um die Aktivität stattdessen in der Vorschau anzuzeigen und zu testen. Dieses Problem hat keine Auswirkungen auf die tatsächliche Bereitstellung des Angebots. (TGT-23019)
